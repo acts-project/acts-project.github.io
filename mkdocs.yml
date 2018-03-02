@@ -1,5 +1,15 @@
 site_name: ACTS
 
+theme:
+  name: mkdocs
+  custom_dir: mkdocs_acts
+
+extra:
+  links:
+    - title: Doxygen
+      url: http://acts.web.cern.ch/ACTS/latest/doc/index.html
+      target: _blank
+
 pages:
     - Home: index.md
     - Modules :
