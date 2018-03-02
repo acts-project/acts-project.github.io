@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build_site:
+  image: python:3.6-alpine
+  stage: build
+  script:
+    - pip install mkdocs pymdown-extensions
+    - mkdocs build
+  artifacts:
+    paths:
+      - site
