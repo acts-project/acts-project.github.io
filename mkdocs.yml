@@ -1,0 +1,21 @@
+site_name: ACTS
+
+pages:
+    - Home: index.md
+    - Modules :
+        - Geometry : modules_geometry.md
+        - Event Data : modules_eventdata.md
+        - Propagation : modules_propagation.md 
+        - Pattern Recognition: modules_pattern.md
+        - Track fitting: modules_fitting.md
+    - Guides :
+        - Users Guide : guides_users.md
+        - Developers Guide : guides_developers.md
+        - Contribution Guide : guides_contribution.md
+        - CI and Testing Guide : guides_testing.md
+        - Administrators Guide: guides_admin.md
+    - Clients:
+        - Integration: integration.md
+        - Integration in ATLAS: integration_atlas.md
+        - Integration in FCCSW: integration_fcc.md
+        - Tracking Machine Learning Challenge: integration_trackml.md
