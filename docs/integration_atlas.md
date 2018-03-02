@@ -80,7 +80,8 @@ manager provides a method which allows access to detector elements based on the
 indices returned by `TRT_Numerology`. As of now, every straw is translated into
 a detector element in ACTS. The endcaps are built as 160 separate disc layers
 containing one layer of straws. In the barrel, there is one layer per barrel
-ring. The binning is not optimal at this point.
+ring. The binning is not optimal at this point, an arbitrary $\phi$ binning should
+work reasonably well.
 
 ## ITk
 
@@ -99,3 +100,4 @@ Currently, the tracking geometry is built from inside one algorithm.
 The particle propagation loop also runs within the algorithm. This will need to
 be reworked, so that access to the ACTS tracking geometry is available in a
 reusable way.
+
