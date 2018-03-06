@@ -1,0 +1,23 @@
+stages:
+  - build
+  - deploy
+
+build_site:
+  image: python:3.6-alpine
+  stage: build
+  script:
+    - pip install mkdocs pymdown-extensions iso8601 jinja2 requests
+    - ./render_templates.py
+    - mkdocs build
+  artifacts:
+    paths:
+      - site
+  
+push_site:
+  stage: deploy
+  script:
+    - unset PYTHONHOME
+    - echo "$ATSJENKINS_PASSWORD" | kinit atsjenkins@CERN.CH 2>&1 >/dev/null
+    - ./deploy_website
+  only:
+    - master

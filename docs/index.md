@@ -4,7 +4,7 @@
 2. [Mailing list](#mailing-list)
 3. [License and authors](#license-authors)
 
-# <a name="intro">Introduction</a>
+# Introduction
 
 This project is supposed to be an experiment-independent set of track reconstruction tools. The main philosophy is to provide high-level track reconstruction modules that can be used for any tracking detector. The description of the tracking detector's geometry is optimized for efficient navigation and quick extrapolation of tracks. Converters for several common geometry description languages exist. Having a highly performant, yet largely customizable implementation of track reconstruction algorithms was a primary objective for the design of this toolset. Additionally, the applicability to real-life HEP experiments played a major role in the development process. Apart from algorithmic code, this project also provides an event data model for the description of track parameters and measurements.
 
@@ -14,25 +14,24 @@ Key features of this project include:
 * performant and highly flexible algorithms for track propagation and fitting,
 * basic seed finding algorithms.
 
-## <a name="mailing-list">Mailing list</a>
+## Mailing list
 
 In order to receive the latest updates, users of the ACTS project are encouraged to subscribe to [acts-users@cern.ch](https://e-groups.cern.ch/e-groups/Egroup.do?egroupName=acts-users). This list provides:
 - regular updates on the software,
 - access to the ACTS JIRA project for bug fixes/feature requests,
 - a common place for asking any kind of questions.
 
-# <a name="repository-structure">Repository structure</a>
+# Repository structure
 
 The repositories for the ACTS project can be found at<br>
-<a href="https://gitlab.cern.ch/acts">https://gitlab.cern.ch/acts/</a>.
-
+[https://gitlab.cern.ch/acts](https://gitlab.cern.ch/acts)
 
 ### acts-core
 
 The ``acts-core`` repository contains the all detector independent software that is part of the ACTS toolkit. 
 
 The repository can be found here:<br>
-<a href="https://gitlab.cern.ch/acts/acts-core">https://gitlab.cern.ch/acts/acts-core</a>.
+[https://gitlab.cern.ch/acts/acts-core](https://gitlab.cern.ch/acts/acts-core).
 
 
 ### acts-fatras
@@ -41,7 +40,7 @@ The ``acts-fatras`` repository contains the fast track simulation extension of t
 The fast track simulation moduels are currently in  development and available only in a *limited* way.
 
 The repository can be found here:<br>
-<a href="https://gitlab.cern.ch/acts/acts-fatras">https://gitlab.cern.ch/acts/acts-fatras</a>.
+[https://gitlab.cern.ch/acts/acts-fatras](https://gitlab.cern.ch/acts/acts-fatras).
 
 ### acts-data 
 
@@ -58,11 +57,11 @@ The ``acts-framework`` reposity contains a small event processing framework for 
 ACTS test jobs are run in the framework in the continuous integration, and tested for bit-wise identical result between single and multithreaded mode.
 
 The repository can be found here:<br>
-<a href="https://gitlab.cern.ch/acts/acts-framework">https://gitlab.cern.ch/acts/acts-framework</a>.
+[https://gitlab.cern.ch/acts/acts-framework](https://gitlab.cern.ch/acts/acts-framework).
 
 The ``acts-framework`` includes `acts-core` and `acts-fatras` as submodules in an `external` folder.
 
-## <a name="license-authors">License and authors</a>
+## License and authors
 
 This project is published under the Mozilla Public License, v. 2.0. Details of
 this license can be found in the [LICENSE](LICENSE) file or at
