@@ -18,4 +18,4 @@ GSSAPITrustDNS yes
 StrictHostKeyChecking no
 GSSAPIDelegateCredentials yes" > ~/.ssh/config
 
-rsync -ruv site/ atsjenkins@lxplus.cern.ch:~/www --exclude="*.j2"
+rsync -ruv site/ atsjenkins@lxplus.cern.ch:/eos/user/a/atsjenkins/www/ACTS --exclude="*.j2"
