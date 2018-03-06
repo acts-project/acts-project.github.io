@@ -1,5 +1,7 @@
 # A Common Tracking Software (ACTS)
 
+![](img/ACTSlogo.gif)
+
 1. [Introduction](#intro)
 2. [Mailing list](#mailing-list)
 3. [License and authors](#license-authors)
@@ -17,6 +19,7 @@ Key features of this project include:
 ## Mailing list
 
 In order to receive the latest updates, users of the ACTS project are encouraged to subscribe to [acts-users@cern.ch](https://e-groups.cern.ch/e-groups/Egroup.do?egroupName=acts-users). This list provides:
+
 - regular updates on the software,
 - access to the ACTS JIRA project for bug fixes/feature requests,
 - a common place for asking any kind of questions.
