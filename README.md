@@ -1,3 +1,14 @@
 # How to build
 To build the documentation in this repository, you need `python`, `mkdocs` and `pymdown-extensions` (for LaTeX support).
-You can grab the last two by: `pip install mkdocs pymdown-extensions`, then you can build the site with `mkdocs build`.
+
+The file `render_templates.py` renders files ending in `.md.j2` in the `docs/` folder and injects info on the current tags in
+core from the GitLab API: this is used to build the releases page. 
+
+To build the doc, you need to install mkdocs and some dependencies like so:
+
+```
+pip install mkdocs pymdown-extensions iso8601 jinja2 requests
+```
+
+then run the `render_templates.py` and subsequently `mkdocs build` (or `mkdocs serve`).
+
