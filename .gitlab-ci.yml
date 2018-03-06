@@ -5,7 +5,8 @@ build_site:
   image: python:3.6-alpine
   stage: build
   script:
-    - pip install mkdocs pymdown-extensions
+    - pip install mkdocs pymdown-extensions iso8601 jinja2 requests
+    - ./render_templates.py
     - mkdocs build
   artifacts:
     paths:

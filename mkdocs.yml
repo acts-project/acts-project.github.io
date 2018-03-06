@@ -24,6 +24,7 @@ extra_javascript:
 
 pages:
     - Home: index.md
+    - Releases: releases.md
     - Modules :
         - Geometry : modules_geometry.md
         - Event Data : modules_eventdata.md
