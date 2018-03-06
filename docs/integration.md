@@ -1,4 +1,4 @@
-# Integration
+# <a name="integration">Integration</a>
 
 ## Technical integration
 
@@ -9,7 +9,7 @@ Currently, onluy `CMake` based builds are supported.
 
 ACTS comes with several possibilities of customisation in order to allow a seamless integration in the experminet software.
 
-### Screen output logging
+### <a name="integration_output">Screen output logging</a>
 
 A default screen logging system is integrated in ACTS, but can be overloaded with the experiment's logging system.
  
@@ -34,7 +34,7 @@ The Identifier class can be exchanged by declareing:
 
 *TODO:* Write a CI test for this, together with Identifier change
 
-#### Interfacing with magnetic field 
+#### <a name="integration_bField">Interfacing with magnetic field</a> 
 
 The magnetic field integration is done using a `concept` implementation that is designed for 
 field cell caching. The propagation modules take the magentic field as a template argument,
@@ -63,7 +63,7 @@ constants.
 
 *TODO:* Write a unit test for this, investigate if we can do this as a `PLUGIN` as well 
 
-## Configuration
+## <a name="integration_configuration">Configuration</a>
 
 ACTS does not come with a dedicated configuration system to bind to any experiments software.
 Instead, a simple decision has been taken to equip every configurable component of ACTS with a
