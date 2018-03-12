@@ -1,6 +1,6 @@
 # Propagation and Extrapolation
 
-The track propagation is one essitial part of each track reconstruction software. The ACTS propgation code is based on the ATLAS `RungeKuttaPropagator` which is still availalbe in the `Legacy` 
+The track propagation is an essential part of track reconstruction. The ACTS propgation code is based on the ATLAS `RungeKuttaPropagator` which is still availalbe in the `Legacy` module.
 
 ## Steppers and Propgator
 

@@ -2,7 +2,7 @@
 
 ## Track parameterisation
 
-A trajectory in magnetic field is generally parameterised by a set of minimum five paramaters (when being bound to a surface). Two different categories are used in ACTS: so-called bound parameters, i.e. parameter bound to a surface and curvilinear parameters. Curvilinear parameters are defined in an implicit planar and normal (to the track) reference plane that follows the track. The center of the implicitely defined plane is at the current track position, while the normal vector points along the momentum direction. Per definition the local parameters of a curvilinear parameterisation are thus fixed to (0,0).
+A trajectory in a magnetic field is generally parameterised by a set of at least five parameters (when being bound to a surface). Two different categories are used in ACTS: so-called bound parameters, i.e. parameter bound to a surface and curvilinear parameters. Curvilinear parameters are defined in an implicit planar and normal (to the track) reference plane that follows the track. The center of the implicitely defined plane is at the current track position, while the normal vector points along the momentum direction. Per definition the local parameters of a curvilinear parameterisation are thus fixed to (0,0).
 
 In ACTS the parameterisation is can be changed, provided the according transformations into global coordinates are given, it can be changed by adapting the relevant `coordinate_transformation` definition. This shows an excerpt of the default implementation:
 
@@ -148,7 +148,7 @@ private:
 };
 ```
           
-In order to minimnise the computational cost (and differently from the original ATLAS code base), the dimension of the
+In order to minimise the computational cost (and differently from the original ATLAS code base), the dimension of the
 measurement has to be fixed at compile time.          
           
 ### Calibrated measurements
