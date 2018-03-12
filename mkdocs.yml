@@ -4,6 +4,26 @@ theme:
   name: mkdocs
   custom_dir: mkdocs_acts
 
+plugins:
+  - search
+  - jinja:
+      gitlab_url: https://gitlab.cern.ch/api/v4/
+      repo: acts/acts-core
+      contributor_email_map: 
+        knights_of_ni@gmx.com: "grasland@lal.in2p3.fr"
+        hello@paulgessinger.com: "paul.gessinger@cern.ch"
+        rlangenb@cern.ch: "robert.langenberg@cern.ch"
+        Andreas.Salzburger@cern.ch: "andreas.salzburger@cern.ch"
+      contributor_name_map:
+        "julia.hrdinka@cern.ch": "Julia Hrdinka"
+      contributor_exclude:
+        - ats.jenkins@cern.ch
+      url_imports:
+        license: https://gitlab.cern.ch/acts/acts-core/raw/master/LICENSE
+        readme: https://gitlab.cern.ch/acts/acts-core/raw/master/README.md
+        contributing: https://gitlab.cern.ch/acts/acts-core/raw/master/CONTRIBUTING.md
+
+
 extra:
   links:
     - title: Doxygen
@@ -24,6 +44,9 @@ extra_javascript:
 
 pages:
     - Home: index.md
+    - About:
+        - Authors: authors.md
+        - License: license.md
     - Releases: releases.md
     - Modules :
         - Geometry : modules_geometry.md
