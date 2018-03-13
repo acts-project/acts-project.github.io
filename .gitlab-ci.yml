@@ -7,7 +7,9 @@ build_site:
   stage: build
   script:
     - pip install mkdocs pymdown-extensions iso8601 jinja2 requests
-    - ./render_templates.py
+    - cd mkdocs_jinja_plugin
+    - python setup.py install
+    - cd ..
     - mkdocs build
   artifacts:
     paths:

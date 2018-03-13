@@ -1,13 +1,13 @@
 # Using ACTS from Athena
 
-First steps have been taken to use *ACTS* inside *Athena*. The idea as of now
-is to demonstrate that current and future ATLAS tracking geometries can be
-accomodated with ACTS without requiring dedicated modifications in the library.
-This means building an `ACTS::TrackingGeometry`, which contains a hierarchy of
-`TrackingVolume`s. These, in turn, encompass layers of detector elements.
-Having done this, `ACTS` can be used to propagate particles through the
-geometry. This allows the testing of the navigation that is required to follow
-a particle trajectory through the detector.
+First steps have been taken towards use *ACTS* inside *Athena*. The current
+goal is to demonstrate that the ACTS geometry design can accomodate current and
+future ATLAS tracking geometries without requiring dedicated modifications in
+the library.  This means building an `ACTS::TrackingGeometry`, which contains a
+hierarchy of `TrackingVolume`s. These, in turn, encompass layers of detector
+elements.  Having done this, `ACTS` can be used to propagate particles through
+the geometry. This allows the testing of the navigation that is required to
+follow a particle trajectory through the detector.
 
 Since ACTS is designed to be configurable, the construction of the layer
 structure is delegated to a `LayerBuilder` utility object. A `LayerBuilder`
@@ -16,7 +16,6 @@ within it, can provide ACTS with all the information that is needed to
 construct the tracking geometry.
 
 ```cpp
-       
   Acts::SurfaceArrayCreator::Config sacCfg;
   sacCfg.surfaceMatcher = matcher; // <- allows injection of Identifier info
 
@@ -51,16 +50,17 @@ construct the tracking geometry.
 
 Tracking surfaces in ACTS are coupled to a detector element object, which needs
 to fulfill a certain interface. A dedicated detector element class, which can
-wrap an ATLAS detector element object, was written. At this point, the class tries to
-abstract away some differences between detector elements from the different
-ATLAS subdetectors, which are irrelevant to ACTS and allow the `LayerBuilder`
-to be less verbose. The detector identification helpers are an example for
-this. The detector element needs to provide a transform which describes the
-transition into the local reference frame of it's active surface.  In this
-case, the transform is stored as a pointer and returned as a const reference
-when requested. This should in principle allow for changes of the transforms
-transparently to ACTS. This would be helpful to the handling of alignment,
-since no dedicated infrastructure for alignment is in place within ACTS.
+wrap an ATLAS detector element object, was written. At this point, the class
+tries to abstract away some differences between detector elements from the
+different ATLAS subdetectors, which are irrelevant to ACTS and allow the
+`LayerBuilder` to be less verbose. The detector identification helpers are an
+example for this. The detector element needs to provide a transform which
+describes the transition into the local reference frame of it's active surface.
+In this case, the transform is stored as a pointer and returned as a const
+reference when requested. This should in principle allow for changes of the
+transforms transparently to ACTS. This would be helpful as an initial approach
+to support handling of alignment, since no dedicated infrastructure for
+alignment is in place within ACTS.
 
 ## Current ATLAS Inner Detector
 

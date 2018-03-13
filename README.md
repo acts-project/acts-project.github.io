@@ -1,14 +1,21 @@
 # How to build
 To build the documentation in this repository, you need `python`, `mkdocs` and `pymdown-extensions` (for LaTeX support).
 
-The file `render_templates.py` renders files ending in `.md.j2` in the `docs/` folder and injects info on the current tags in
-core from the GitLab API: this is used to build the releases page. 
-
 To build the doc, you need to install mkdocs and some dependencies like so:
 
 ```
 pip install mkdocs pymdown-extensions iso8601 jinja2 requests
 ```
 
-then run the `render_templates.py` and subsequently `mkdocs build` (or `mkdocs serve`).
+A `mkdocs` plugin lives in `mkdocs_jinja_plugin`, which fetches dynamic data from external sources and provides it to the
+markdown pages. You can therefore use [Jinja2 syntax](http://jinja.pocoo.org/docs/) in the markdown files to render this data. This is used for 
+the Releases, Authors, Contributions and License pages.
+
+The plugin needs to be activated by 
+```
+cd mkdocs_jinja_plugin && python setup.py install
+```
+
+This should make the plugin available to `mkdocs`.
+Then run `mkdocs build` (or `mkdocs serve`) to build the site.
 

@@ -1,2 +1,5 @@
 /site
-/docs/releases.md
+*.pyc
+/mkdocs_jinja_plugin/mkdocs_jinja_plugin.egg-info
+/mkdocs_jinja_plugin/dist
+/mkdocs_jinja_plugin/build

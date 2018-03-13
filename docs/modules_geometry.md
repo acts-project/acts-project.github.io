@@ -1,32 +1,35 @@
 # Geometry module
 
-The ACTS is geometry model is strongly based on the ATLAS Tracking geometry. Its core is built from Surface description that build up all geometry objects of higher complexity. This design has been chosen as the surface objects can be used together with the track propagation module and thus all geometry objects become natively integrated into the tracking software.
+The ACTS geometry model is strongly based on the ATLAS Tracking geometry. Its core is built on a surface-based description that make up all geometry objects of higher complexity. This design has been chosen as the surface objects can be used together with the track propagation module and thus all geometry objects become natively integrated into the tracking software.
 
 ## Identifier
 
-The `Identifier` class used in ACTS can be changed at compile time to be the Identifier class of the experiment. This can be done using the `ACTS_CORE_IDENTIFIER_PLUGIN` before compiling ACTS:
+ACTS uses an identification scheme, in which objects can be assigned a unique identifier. The concrete implementation of the identifier can be provided by the client code. This is done through the `Identifier` class used in ACTS, which can be changed at compile time to be the Identifier class of the experiment. This can be done using the `ACTS_CORE_IDENTIFIER_PLUGIN` before compiling ACTS:
 
+```cpp
+#ifdef ACTS_CORE_IDENTIFIER_PLUGIN
+#include ACTS_CORE_IDENTIFIER_PLUGIN
+#else
 
-    #ifdef ACTS_CORE_IDENTIFIER_PLUGIN
-    #include ACTS_CORE_IDENTIFIER_PLUGIN
-    #else
-    
-    #define IDENTIFIER_TYPE unsigned long long
-    #define IDENTIFIER_DIFF_TYPE long long
-    
-    #include <string>
-    
-    /// @class Identifier
-    ///
-    /// minimum implementation of an Identifier,
-    /// please use the ACTS_CORE_IDENTIFIER_PLUGIN in to use instead if
-    /// another type of Identifier is needed
-    ///
-    class Identifier
-    {
-    public:
+#define IDENTIFIER_TYPE unsigned long long
+#define IDENTIFIER_DIFF_TYPE long long
+
+#include <string>
+
+/// @class Identifier
+///
+/// minimum implementation of an Identifier,
+/// please use the ACTS_CORE_IDENTIFIER_PLUGIN in to use instead if
+/// another type of Identifier is needed
+///
+class Identifier
+{
+// ...
+};
+```
 
 There are very little constraints on the Identifier class, it has to be 
+
     * default constructable
     * copy constructable
     * move constructable 
@@ -151,7 +154,7 @@ The `Layer` class is an extension of the `Surface` class that allows the definit
 
 ## Volume description
 
-The `Volume` class is a container of `BoundarySurface` objects, where each `BoundarySurface` is an 
+<!--The `Volume` class is a container of `BoundarySurface` objects, where each `BoundarySurface` is an -->
 
 ## Building procedure and volume 'glueing'
 

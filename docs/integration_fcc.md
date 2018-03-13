@@ -8,17 +8,17 @@ ACTS makes use of a plugin mechanism to allow interfacing experiment software wh
 
 Gaudi Services, Tools and Algorithms are used to interface to ACTS. They either use provided functionality directly or act as wrapper internally holding an instance of the ACTS Object. Using the python job option the ACTS tools can be configured (using their [configuration](#integration_configuration) structs) by the user at runtime:
 
-![Alt Image Text](../figures/integration_fcc/Gaudi_ACTS.png "Gaudi_ACTS")
+![Alt Image Text](figures/integration_fcc/Gaudi_ACTS.png "Gaudi_ACTS")
 
 In FCCSW the tracking toolkit is not only used for track fitting but has various applications. For instance the [magnetic field service](fcc_bField) of FCCSW is based on the ACTS implementation. Another example is the application of fast simulation using the [extrapolation](#fcc_extrapolation) through the tracking geometry. Since for the FCChh conceptual design study no specific detector technologies are selected yet, ACTS is used to perform geometric [digitization](#fcc_digitization).  
 
-![Alt Image Text](../figures/integration_fcc/FCCSW_ACTS.png "Gaudi_ACTS")
+![Alt Image Text](figures/integration_fcc/FCCSW_ACTS.png "Gaudi_ACTS")
 
 ## Forwarding logging messages to Gaudi
 
 As explained [here](#integration_output), the ACTS logging messages can be forwarded to the Gaudi message service during an event by overloading the default ACTS logging implementation. In the following one can see, for example, overload of the ACTS print policy (definition how and where to print):
 
-![Alt Image Text](../figures/integration_fcc/GaudiLogger.png "GaudiLogger")
+![Alt Image Text](figures/integration_fcc/GaudiLogger.png "GaudiLogger")
 
 ## <a name="fcc_geoTranslation">Geometry Translation</a>
 
@@ -27,7 +27,7 @@ For automatic and consistent geometry translation from DD4hep the [plugin mechan
 Inside FCCSW a tracking geometry service was established which calls the function and hands back the Acts tracking geometry.  
 The sensitive surfaces in the tracking geometry have a direct link to the underlying detector element of ACTS, which allows to handle conditions data and alignment.
 
-![Alt Image Text](../figures/integration_fcc/DetElement.png "BField")
+![Alt Image Text](figures/integration_fcc/DetElement.png "BField")
 
 <!--
 from the full and detailed detector description into the simplfied tracking geometry a plugin (DD4hepPlugin) was established.
@@ -44,22 +44,22 @@ As explained [here](#integration_bField), ACTS is agnostic to the magnetic field
 For convenience ACTS provides already two different magentic field implementations which are being used inside FCCSW. Firstly a configurable constant magnetic field service and an interpolated magnetic field service which linearly interpolates the magnetic field within cells of a given grid. To stay independent from the file format ACTS provides convenience methods to facilitate creating the grid from std vectors of grid points. Reading in the values from the actual file (e.g. root, txt/csv) happens inside FCCSW. 
 The two configurable FCC magnetic field service implementations (constant and interpolated) hold the dedicated ACTS magnetic field implementation as a member and forward the calls to it:
 
-![Alt Image Text](../figures/integration_fcc/BField_FCCSW_ACTS.png "BField")
+![Alt Image Text](figures/integration_fcc/BField_FCCSW_ACTS.png "BField")
 
 The FCChh magnetic field map which acts as input for the FCC interpolated magnetic service can be easily configured using the gaudi job option file: 
 
-![Alt Image Text](../figures/integration_fcc/BField_FCCSW_ACTS1.png "BField1")
+![Alt Image Text](figures/integration_fcc/BField_FCCSW_ACTS1.png "BField1")
  
 
 ## <a name="fcc_extrapolation">Extrapolation</a>
 
 The extrapolation through the tracking geometry is used during reconstruction. A second application of the extrapolation through the tracking geometry is for fast simulation. In order to allow both applications to use the extrapolation with different configuration a Gaudi Tool which holds an instance to the ACTS extrapolation was created. This tool can be configured differently for both applications at runtime:
 
-![Alt Image Text](../figures/integration_fcc/FCCSW_extrapolationTool.png "extrapolation1")
+![Alt Image Text](figures/integration_fcc/FCCSW_extrapolationTool.png "extrapolation1")
 
 The extrapolation tool can then be used by an Gaudi algorithm which handles the translations from and to the FCC edm. For example in the ExtrapolationTest below the reads in generated particles from the event store and after extrapolating through the tracking geometry, translates the output into FCC track hits:
 
-![Alt Image Text](../figures/integration_fcc/FCCSW_extrapolationTest.png "extrapolation2")
+![Alt Image Text](figures/integration_fcc/FCCSW_extrapolationTest.png "extrapolation2")
 
 
 <!-- FCCSW follows the approach of ATLAS ISF of common simulation steering. This is done using Geant4 as simulation kernel allowing usage of differnt simulation techniques in different regions of the detector. -->
@@ -76,7 +76,7 @@ Using the ACTS digitzation tools one can emulate digital readout as well as anal
 Below one can see how the `GeometricTrackerDigitizer`, which is currently being developed inside FCCSW and uses the ACTS digitization tools, can be used in the python job options. It reads in hits (`digiTrackHitAssociation`) produced by FCC geant4 full simulation and writes out `trackClusters` to the FCC event store:    
 
 
-![Alt Image Text](../figures/integration_fcc/FCCSW_digitization.png "digitization")
+![Alt Image Text](figures/integration_fcc/FCCSW_digitization.png "digitization")
 
 <!-- calculates the cluster siz
 Calculates cluster sizes in individual pixels
