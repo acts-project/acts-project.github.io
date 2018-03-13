@@ -62,6 +62,7 @@
                 {%- endif %}
               {%- endblock %}
 
+              {#
               {%- block next_prev %}
                 {%- if page and (page.next_page or page.previous_page) %}
                     <li {% if not page.previous_page %}class="disabled"{% endif %}>
@@ -76,6 +77,7 @@
                     </li>
                 {%- endif %}
               {%- endblock %}
+              #}
 
               {%- block repo %}
                 {%- if page and page.edit_url %}
@@ -97,8 +99,10 @@
                                 <i class="fa fa-github"></i> {{ config.repo_name }}
                             {%- elif config.repo_name == 'Bitbucket' -%}
                                 <i class="fa fa-bitbucket"></i> {{ config.repo_name }}
+                            {%- elif config.repo_name == "Gitlab" %}
+                                <i class="fab fa-gitlab"></i> {{ config.repo_name }}
                             {%- else -%}
-                            {{ config.repo_name }}
+                                {{ config.repo_name }}
                             {%- endif -%}
                         </a>
                     </li>
