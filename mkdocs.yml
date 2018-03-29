@@ -46,7 +46,6 @@ pages:
     - About:
       - Authors: authors.md
       - License: license.md
-      - Releases: releases.md
       - Documentation: http://acts.web.cern.ch/ACTS/latest/doc/index.html
     - Modules :
         - Geometry : modules_geometry.md
