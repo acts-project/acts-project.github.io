@@ -7,6 +7,16 @@
 3. [Releases](#releases)
 4. [License and authors](#license-and-authors)
 
+{% set latest_tag = tags[0] %}
+
+# [Latest release: {{ latest_tag.name }}](https://gitlab.cern.ch/acts/acts-core/tags/{{ latest_tag.name }})
+{{ latest_tag.commit.authored_date|iso8601|datetime_format("%d %b %Y") }}
+
+
+- [Download](https://gitlab.cern.ch/acts/acts-core/repository/{{ latest_tag.name }}/archive.tar.gz)
+- [Release Notes](https://gitlab.cern.ch/acts/acts-core/tags/{{ latest_tag.name }})
+- [Documentation](http://acts.web.cern.ch/ACTS/{{ latest_tag.name }}/doc/index.html)
+
 # Introduction
 
 This project contains an experiment-independent set of track reconstruction tools. The main philosophy is to provide high-level track reconstruction modules that can be used for any tracking detector. The description of the tracking detector's geometry is optimized for efficient navigation and quick extrapolation of tracks. Converters for several common geometry description languages exist. Having a highly performant, yet largely customizable implementation of track reconstruction algorithms was a primary objective for the design of this toolset. Additionally, the applicability to real-life HEP experiments plays major role in the development process. Apart from algorithmic code, this project also provides an event data model for the description of track parameters and measurements.
@@ -56,16 +66,12 @@ The `acts-framework` includes `acts-core` and `acts-fatras` as submodules in an 
 
 # Releases
 
-## Current version
-* [Open issues](https://its.cern.ch/jira/browse/ACTS-203?filter=18687)
-* [git repository](https://gitlab.cern.ch/acts/acts-core)
-* [Documentation](http://acts.web.cern.ch/ACTS/latest/doc/index.html)
 
 ## History
 | release | time | links |
 | ------- | ---- | ----- |
 {%- for tag in tags %}
-| {{ tag.name }} | {{ tag.commit.authored_date|iso8601|datetime_format("%d %b %Y %H:%M") }} | [Release Notes](http://acts.web.cern.ch/ACTS/{{ tag.name }}/ReleaseNotes.html), [Download](http://acts.web.cern.ch/ACTS/{{ tag.name }}/ACTS-{{ tag.name }}.tar.gz), [Documentation](http://acts.web.cern.ch/ACTS/{{ tag.name }}/doc/index.html) |
+| {{ tag.name }} | {{ tag.commit.authored_date|iso8601|datetime_format("%d %b %Y %H:%M") }} | [Release Notes](https://gitlab.cern.ch/acts/acts-core/tags/{{ tag.name }}), [Download](https://gitlab.cern.ch/acts/acts-core/repository/{{ tag.name }}/archive.tar.gz), [Documentation](http://acts.web.cern.ch/ACTS/{{ tag.name }}/doc/index.html) |
 {%- endfor %}
 
 
