@@ -22,7 +22,7 @@ def get_tags(project, base_url):
     data = res.json()
     return data
 
-def get_contributors(project, base_url, email_map, name_map, excludes):
+def get_contributors(project, base_url, email_map, name_map, excludes, commit_threshold):
     slug = quote(project, safe="")
     url = urljoin(base_url, "projects/"+slug+"/repository/contributors")
     res = requests.get(url, params={})
@@ -50,6 +50,8 @@ def get_contributors(project, base_url, email_map, name_map, excludes):
 
     for email in remove:
         del contrib_map[email]
+
+    contrib_map = {k: v for k, v in contrib_map.items() if v["commits"] > commit_threshold}
 
     output = list(contrib_map.values())
     output = list(reversed(sorted(output, key=lambda c: c["commits"])))
@@ -131,7 +133,8 @@ class JinjaPlugin(BasePlugin):
         ('url_imports', config_options.Type(dict, default={})),
         ('contributor_email_map', config_options.Type(dict, default={})),
         ('contributor_name_map', config_options.Type(dict, default={})),
-        ('contributor_exclude', config_options.Type(list, default={}))
+        ('contributor_exclude', config_options.Type(list, default={})),
+        ('contributor_commit_threshold', config_options.Type(int, default=15))
     )
 
     tpl_data = None
@@ -155,10 +158,12 @@ class JinjaPlugin(BasePlugin):
         email_map = self.config["contributor_email_map"]
         excludes = self.config["contributor_exclude"]
 
+        commit_threshold = self.config["contributor_commit_threshold"]
+        contributors = get_contributors("acts/acts-core", base_url, email_map, name_map, excludes, commit_threshold)
 
         self.tpl_data = {
             "tags": get_tags("acts/acts-core", base_url),
-            "contributors": get_contributors("acts/acts-core", base_url, email_map, name_map, excludes),
+            "contributors": contributors,
             "url_imports": {}
         }
 
