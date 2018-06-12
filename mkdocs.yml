@@ -21,6 +21,7 @@ plugins:
         "julia.hrdinka@cern.ch": "Julia Hrdinka"
       contributor_exclude:
         - ats.jenkins@cern.ch
+      contributor_commit_threshold: 15
       url_imports:
         license: https://gitlab.cern.ch/acts/acts-core/raw/master/LICENSE
         readme: https://gitlab.cern.ch/acts/acts-core/raw/master/README.md
