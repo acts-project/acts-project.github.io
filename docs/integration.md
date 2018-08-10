@@ -2,20 +2,20 @@
 
 ## Technical integration
 
-In order to use ACTS in your project, you need to integrate it in your build. Currently, only CMake-based builds are supported.
+In order to use Acts in your project, you need to integrate it in your build. Currently, only CMake-based builds are supported.
 
-## Customizing ACTS
+## Customizing Acts
 
-ACTS can be customized in several ways in order to allow seamless integration in the experiment software.
+Acts can be customized in several ways in order to allow seamless integration in the experiment software.
 
 ### <a name="integration_output">Screen output logging</a>
 
-A default screen logging system is integrated in ACTS, but can be replaced with the experiment's logging system.
+A default screen logging system is integrated in Acts, but can be replaced with the experiment's logging system.
  
 ### Plugins at compile time
 
-Several implementation details of ACTS can be reconfigured at compile time. These are header-only files that exchange the 
-default implementations of ACTS.
+Several implementation details of Acts can be reconfigured at compile time. These are header-only files that exchange the 
+default implementations of Acts.
 
 #### Change of parameter definition
 
@@ -41,14 +41,14 @@ ACTS_CORE_IDENTIFIER_PLUGIN
 
 The magnetic field integration is done using a `concept` implementation that is designed for 
 field cell caching. The propagation modules take the magnetic field as a template argument,
-hence providing the correct concept guarantess compatibility with ACTS.
+hence providing the correct concept guarantess compatibility with Acts.
 
 ### System of Units
 
-ACTS uses a set of system of units and its interanl code tries to minimise unit conversions,
-however, when converting into the ACTS data model, this should be done using the ACTS units
+Acts uses a set of system of units and its interanl code tries to minimise unit conversions,
+however, when converting into the Acts data model, this should be done using the Acts units
 
-Internally, ACTS uses a set of `SI2Nat<>` template funtion to free the code from conversion 
+Internally, Acts uses a set of `SI2Nat<>` template funtion to free the code from conversion 
 constants.
 
 ```cpp
@@ -70,11 +70,11 @@ Nat2SI(const double);
 
 ## <a name="integration_configuration">Configuration</a>
 
-ACTS does not come with a dedicated configuration system to bind to any experiments software.
-Instead, a simple decision has been taken to equip every configurable component of ACTS with a
+Acts does not come with a dedicated configuration system to bind to any experiments software.
+Instead, a simple decision has been taken to equip every configurable component of Acts with a
 nested `Config` struct.
 
-This struct object is used to construct the corresponding ACTS tool, e.g.
+This struct object is used to construct the corresponding Acts tool, e.g.
 
 ```cpp
 class CylinderVolumeBuilder : public ITrackingVolumeBuilder
@@ -107,7 +107,7 @@ public:
 };
 ```
 
-To configure ACTS tools, thus, one has to guarantee that necessary configuration parameters are forwarded through the framework configuration mechanism.
+To configure Acts tools, thus, one has to guarantee that necessary configuration parameters are forwarded through the framework configuration mechanism.
 
 
 

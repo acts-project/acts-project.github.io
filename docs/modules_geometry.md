@@ -1,10 +1,10 @@
 # Geometry module
 
-The ACTS geometry model is strongly based on the ATLAS Tracking geometry. Its core is built on a surface-based description that make up all geometry objects of higher complexity. This design has been chosen as the surface objects can be used together with the track propagation module and thus all geometry objects become natively integrated into the tracking software.
+The Acts geometry model is strongly based on the ATLAS Tracking geometry. Its core is built on a surface-based description that make up all geometry objects of higher complexity. This design has been chosen as the surface objects can be used together with the track propagation module and thus all geometry objects become natively integrated into the tracking software.
 
 ## Identifier
 
-ACTS uses an identification scheme, in which objects can be assigned a unique identifier. The concrete implementation of the identifier can be provided by the client code. This is done through the `Identifier` class used in ACTS, which can be changed at compile time to be the Identifier class of the experiment. This can be done using the `ACTS_CORE_IDENTIFIER_PLUGIN` before compiling ACTS:
+Acts uses an identification scheme, in which objects can be assigned a unique identifier. The concrete implementation of the identifier can be provided by the client code. This is done through the `Identifier` class used in Acts, which can be changed at compile time to be the Identifier class of the experiment. This can be done using the `Acts_CORE_IDENTIFIER_PLUGIN` before compiling Acts:
 
 ```cpp
 #ifdef ACTS_CORE_IDENTIFIER_PLUGIN
@@ -42,14 +42,14 @@ an `is_valid()` method has to be implemented:
      /// Check if id is in a valid state
       bool is_valid () const;
 
-Other than that, ACTS imposes no requirement on the  `Identifier` class.
+Other than that, Acts imposes no requirement on the  `Identifier` class.
 
 *QUESTION:*: Can we change this in ATLAS SW to an `operator bool()` ?
 
 
 ## GeometryObject base class and GeometryID
 
-All geometry objects in ACTS inherit from a virtual `GeometryObject` base class
+All geometry objects in Acts inherit from a virtual `GeometryObject` base class
 
     /// @class GeometryObject
     ///
@@ -114,7 +114,7 @@ All geometry objects in ACTS inherit from a virtual `GeometryObject` base class
 This class ensures that a unique `GeometryID` is assigned to every geoemtry object. The `GeometryID` is mainly used for fast identification of the type of the geometry object (as most are either extensions or containers of the `Surface` objects) and for
 the identification of the geometery surfaces after building, e.g. for the uploading/assigning of material to the surface after creation. The `GeometryID` uses a simple masking procedure for applying an identification schema.
 
-It is used for ACTS internal applications, such as material mapping, but not for `EventData` and `Geometry` identification in an experiment setup, for this the `Identifier` class is to be used and/or defined.
+It is used for Acts internal applications, such as material mapping, but not for `EventData` and `Geometry` identification in an experiment setup, for this the `Identifier` class is to be used and/or defined.
 
     typedef uint64_t geo_id_value;
     

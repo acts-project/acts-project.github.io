@@ -2,9 +2,9 @@
 
 ## Track parameterisation
 
-A trajectory in a magnetic field is generally parameterised by a set of at least five parameters (when being bound to a surface). Two different categories are used in ACTS: so-called bound parameters, i.e. parameter bound to a surface and curvilinear parameters. Curvilinear parameters are defined in an implicit planar and normal (to the track) reference plane that follows the track. The center of the implicitely defined plane is at the current track position, while the normal vector points along the momentum direction. Per definition the local parameters of a curvilinear parameterisation are thus fixed to (0,0).
+A trajectory in a magnetic field is generally parameterised by a set of at least five parameters (when being bound to a surface). Two different categories are used in Acts: so-called bound parameters, i.e. parameter bound to a surface and curvilinear parameters. Curvilinear parameters are defined in an implicit planar and normal (to the track) reference plane that follows the track. The center of the implicitely defined plane is at the current track position, while the normal vector points along the momentum direction. Per definition the local parameters of a curvilinear parameterisation are thus fixed to (0,0).
 
-In ACTS the parameterisation is can be changed, provided the according transformations into global coordinates are given, it can be changed by adapting the relevant `coordinate_transformation` definition. This shows an excerpt of the default implementation:
+In Acts the parameterisation is can be changed, provided the according transformations into global coordinates are given, it can be changed by adapting the relevant `coordinate_transformation` definition. This shows an excerpt of the default implementation:
 
 ```cpp
 namespace Acts {
@@ -81,11 +81,11 @@ enum ParDef : unsigned int {
 };
 ```
 
-Changing the default parameter definition and transformation needs recompilation of the ACTS Software and redefinition of 
+Changing the default parameter definition and transformation needs recompilation of the Acts Software and redefinition of 
 the relevant Plugin:
  
 ```cpp
-target_compile_definitions (ACTSCore PUBLIC -DACTS_PARAMETER_DEFINITIONS_PLUGIN="${ACTS_PARAMETER_DEFINITIONS_PLUGIN}")
+target_compile_definitions (Acts::Core PUBLIC -DACTS_PARAMETER_DEFINITIONS_PLUGIN="${ACTS_PARAMETER_DEFINITIONS_PLUGIN}")
 ```
 
 
@@ -115,7 +115,7 @@ namespace Acts {
 
 ### Multivariant representation
 
-Multivariant fitters, such as the Gaussian Sum filter rely on a multi-component description of the track, which requires the definition of multivariant track paramters. For ACTS, as Propagator and Extrapolator are written for type templates, a multivariant definition of track parameterisation is *planned* in order to integrate directly with the core software.
+Multivariant fitters, such as the Gaussian Sum filter rely on a multi-component description of the track, which requires the definition of multivariant track paramters. For Acts, as Propagator and Extrapolator are written for type templates, a multivariant definition of track parameterisation is *planned* in order to integrate directly with the core software.
 
 ## Measurements
 

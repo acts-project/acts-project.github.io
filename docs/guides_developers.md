@@ -1,9 +1,9 @@
-# Developer Guidelines for ACTS
+# Developer Guidelines for Acts
 
 
 ## Writing thread-safe code
 
-ACTS aims to be readily usable from multi-threaded event reconstruction frameworks. To achieve this goal, all internal ACTS state should either be kept private to a thread or remain constant after initialization. This is supported by aiming at a strict discipline of const-correctness (i.e. data reached via a const pointer cannot be mutated), the only allowed exceptions being deferred initialization code which does not run in parallel such as the geometry building process.
+Acts aims to be readily usable from multi-threaded event reconstruction frameworks. To achieve this goal, all internal Acts state should either be kept private to a thread or remain constant after initialization. This is supported by aiming at a strict discipline of const-correctness (i.e. data reached via a const pointer cannot be mutated), the only allowed exceptions being deferred initialization code which does not run in parallel such as the geometry building process.
 
 ### Const correctness
 
@@ -22,13 +22,13 @@ return_type doSomethingWithoutCache(const input_type& input) const;
 
 It is indeed sometimes useful and needed to cache certain values or parameters for repetitive use. For example, track propagation requires access to the detector's magnetic field, which can be sped up by caching intermediary computations across extrapolation steps.
 
-Any tool in ACTS that requires a cache must follow a visitor pattern design, i.e. the caller provides the cache in the function call and thus guarantees that the cache is thread-local. The ``Cache`` struct has to be done as a nested struct of the class and is being called as such. As a convention, the cache object is usually the first one provided in the method signature as a `Cache&`
+Any tool in Acts that requires a cache must follow a visitor pattern design, i.e. the caller provides the cache in the function call and thus guarantees that the cache is thread-local. The ``Cache`` struct has to be done as a nested struct of the class and is being called as such. As a convention, the cache object is usually the first one provided in the method signature as a `Cache&`
 
 ```cpp
-/// An ACTS Tool that does some well defined job
+/// An Acts Tool that does some well defined job
 class MyTool {
   public:
-  /// Cache for ACTS tool
+  /// Cache for Acts tool
   ///
   /// it is exposed to public for use of the expert-only
   /// propagate_with_cache method of the propagator
@@ -49,12 +49,12 @@ class MyTool {
 ```
   
 
-## Configuration of ACTS tools
+## Configuration of Acts tools
 
-Configuration in ACTS is done via a dedicated nested configuration struct which then is used for constructing the tool itself. By convention, this struct is called `Config`.
+Configuration in Acts is done via a dedicated nested configuration struct which then is used for constructing the tool itself. By convention, this struct is called `Config`.
 
 ```cpp
-/// An ACTS Tool that does some well defined job
+/// An Acts Tool that does some well defined job
 class MyTool {
   public:
   /// Configuration struct
@@ -72,7 +72,7 @@ class MyTool {
 };
 ```
 
-This `Config` object can then be used to create and configure the tool. In case ACTS is embedded in an experiment framework,
+This `Config` object can then be used to create and configure the tool. In case Acts is embedded in an experiment framework,
 the `Config` public members have to be connected to the framework configuration.
 
 ```cpp
