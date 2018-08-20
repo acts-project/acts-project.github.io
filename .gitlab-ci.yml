@@ -6,9 +6,9 @@ build_site:
   image: python:3.6-alpine
   stage: build
   script:
-    - pip install mkdocs pymdown-extensions iso8601 jinja2 requests
+    - pip install -r requirements.txt
     - cd mkdocs_jinja_plugin
-    - python setup.py install
+    - pip install .
     - cd ..
     - mkdocs build
   artifacts:

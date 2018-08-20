@@ -12,8 +12,11 @@ import iso8601
 from glob import glob
 import os
 import re
+import logging
 
 import jinja2 as j2
+
+logger = logging.getLogger("jinja-plugin")
 
 def get_tags(project, base_url):
     slug = quote(project, safe="")
@@ -61,68 +64,6 @@ def get_url_src(url):
     res = requests.get(url)
     return res.content.decode("utf-8")
 
-class SiteNavigation(mkdocs.nav.SiteNavigation):
-    def walk_pages(self):
-        """
-        Returns each page in the site in turn.
-        Additionally this sets the active status of the pages and headers,
-        in the site navigation, so that the rendered navbar can correctly
-        highlight the currently active page and/or header item.
-        """
-        page = self.homepage
-        page.set_active()
-        self.url_context.set_current_url(page.abs_url)
-        self.file_context.set_current_path(page.input_path)
-        yield page
-        while page.next_page:
-            page.set_active(False)
-            page = page.next_page
-            if page.is_external: continue
-            page.set_active()
-            self.url_context.set_current_url(page.abs_url)
-            self.file_context.set_current_path(page.input_path)
-            yield page
-        page.set_active(False)
-
-
-# we need to do some monkey patching
-def decorate_normpath(_normpath):
-    def normpath(path):
-        # check if is url
-        if urlparse(path).scheme != "":
-            return path
-        return _normpath(path)
-    return normpath
-os.path.normpath = decorate_normpath(os.path.normpath)
-
-def decorate_page(Page_):
-    class Page(Page_):
-        def __init__(self, title, path, url_context, config):
-            # print("page init", path)
-            self.is_external = urlparse(path).scheme != ""
-            # print(self.is_external)
-            self._url = path
-            super().__init__(title, path, url_context, config)
-
-        def indent_print(self, depth=0):
-            indent = '    ' * depth
-            active_marker = ' [*]' if self.active else ''
-            title = self.title if (self.title is not None) else '[blank]'
-            url = self.abs_url if not self.is_external else self._url
-            return '%s%s - %s%s\n' % (indent, title, url, active_marker)
-
-        @mkdocs.nav.Page.url.getter
-        def url(self):
-            # print("get my url", self._url)
-            if self.is_external:
-                return self._url
-            else:
-                # default behaviour
-                return self.url_context.make_relative(self.abs_url)
-    return Page
-mkdocs.nav.Page = decorate_page(mkdocs.nav.Page)
-
-
 
 
 class JinjaPlugin(BasePlugin):
@@ -168,7 +109,7 @@ class JinjaPlugin(BasePlugin):
         }
 
         for key, url in self.config["url_imports"].items():
-            print("importing URL from", url)
+            logger.info("importing URL from %s", url)
             md = get_url_src(url)
             if url.endswith(".md"):
                 md = self._process_md_url_import(url, md, config["site_dir"])
@@ -178,13 +119,9 @@ class JinjaPlugin(BasePlugin):
         md_img_ex = r"!\[(?:.*?)\]\((.*?)\)"
         html_img_ex = r"<img.*src=\"(.*?)\".*>"
 
-        # md_m = re.findall(md_img_ex, md)
-        # html_m = re.findall(html_img_ex, md)
-
         urls = []
         def repl(m):
             url = m.group(1)
-            # print(m.group(0), url)
 
             # only relative urls
             if bool(urlparse(url).netloc): return m.group(0)
@@ -210,28 +147,22 @@ class JinjaPlugin(BasePlugin):
 
             os.makedirs(os.path.dirname(dest_path), exist_ok=True)
 
-            print("downloading", img_url, "=>", dest)
+            logger.info("downloading %s => %s", img_url, dest)
             r = requests.get(img_url, stream=True)
             if r.status_code == 200:
                 with open(dest_path, 'wb') as f:
                     for chunk in r:
                         f.write(chunk)
             else:
-                print(r.status_code, r.content)
+                logger.error("Error downloading %s: %s %s", img_url, r.status_code, r.content)
 
 
         return md
 
-    def on_page_markdown(self, md, page, config, site_navigation):
+    def on_page_markdown(self, md, page, config, files):
         self._load_data(config)
-        # print(md)
         tpl = self.env.from_string(md)
         output = tpl.render(**self.tpl_data)
         return output
-    def on_nav(self, site_navigation, config, **kwargs):
-        # config_copy = config
-        # config_copy["pages"] = self._pages
-        # sn = SiteNavigation(config)
-        # print(sn)
-        return SiteNavigation(config)
+
 

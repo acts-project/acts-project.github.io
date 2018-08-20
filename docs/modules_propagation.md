@@ -1,11 +1,11 @@
 # Propagation and Extrapolation
 
-The track propagation is an essential part of track reconstruction. The ACTS propgation code is based on the ATLAS `RungeKuttaPropagator` which is still availalbe in the `Legacy` module.
+The track propagation is an essential part of track reconstruction. The Acts propgation code is based on the ATLAS `RungeKuttaPropagator` which is still availalbe in the `Legacy` module.
 
 ## Steppers and Propgator
 
-The ACTS propagator allows for different `Stepper` implementations provided as a class template.
-Following the general ACTS design, each stepper has a nested cache struct, which is used for caching the field cell and
+The Acts propagator allows for different `Stepper` implementations provided as a class template.
+Following the general Acts design, each stepper has a nested cache struct, which is used for caching the field cell and
 the update the jacobian for covariance propagation.
 
 ### AtlasStepper

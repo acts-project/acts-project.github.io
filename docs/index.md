@@ -1,4 +1,4 @@
-# A Common Tracking Software (ACTS)
+# A Common Tracking Software (Acts)
 
 ![](img/ACTSlogo.gif)
 
@@ -29,38 +29,38 @@ Key features of this project include:
 
 ## Mailing list
 
-In order to receive the latest updates, users of the ACTS project are encouraged to subscribe to [acts-users@cern.ch](https://e-groups.cern.ch/e-groups/Egroup.do?egroupName=acts-users). This list provides:
+In order to receive the latest updates, users of the Acts project are encouraged to subscribe to [acts-users@cern.ch](https://e-groups.cern.ch/e-groups/Egroup.do?egroupName=acts-users). This list provides:
 
 - regular updates on the software,
-- access to the [ACTS JIRA project](https://its.cern.ch/jira/projects/ACTS/) for bug fixes/feature requests,
+- access to the [Acts JIRA project](https://its.cern.ch/jira/projects/ACTS/) for bug fixes/feature requests,
 - a common place for asking any kind of questions.
 
 # Repository structure
 
-The repositories for the ACTS project can be found at<br>
+The repositories for the Acts project can be found at<br>
 [https://gitlab.cern.ch/acts](https://gitlab.cern.ch/acts)
 
 ### acts-core
 
-The [`acts-core`](https://gitlab.cern.ch/acts/acts-core) repository contains the all detector independent software that is part of the ACTS toolkit. 
+The [`acts-core`](https://gitlab.cern.ch/acts/acts-core) repository contains the all detector independent software that is part of the Acts toolkit. 
 
 
 ### acts-fatras
 
-The [`acts-fatras`](https://gitlab.cern.ch/acts/acts-fatras) repository contains the fast track simulation extension of the ACTS toolkit. 
+The [`acts-fatras`](https://gitlab.cern.ch/acts/acts-fatras) repository contains the fast track simulation extension of the Acts toolkit. 
 The fast track simulation moduels are currently in  development and available only in a *limited* way.
 
 
 ### acts-data 
 
-The [`acts-data`](https://gitlab.cern.ch/acts/acts-data) repository contains some necessary data files for running the standard ACTS examples.
+The [`acts-data`](https://gitlab.cern.ch/acts/acts-data) repository contains some necessary data files for running the standard Acts examples.
 
 
 ### acts-framework
 
 The [`acts-framework`](https://gitlab.cern.ch/acts/acts-framework) reposity contains a small event processing framework for development and testing. The framework is capable of parallel event processing if ``OpenMP`` is available on the machine.
 
-ACTS test jobs are run in the framework in the continuous integration, and tested for bit-wise identical result between single and multithreaded mode.
+Acts test jobs are run in the framework in the continuous integration, and tested for bit-wise identical result between single and multithreaded mode.
 
 The `acts-framework` includes `acts-core` and `acts-fatras` as submodules in an `external` folder.
 
@@ -81,10 +81,10 @@ This project is published under the Mozilla Public License, v. 2.0. Details of
 this license can be found in the [LICENSE](LICENSE) file or at
 [http://mozilla.org/MPL/2.0/](http://mozilla.org/MPL/2.0/).
 
-Contributors to the ACTS project are listed in [here](authors.md).
+Contributors to the Acts project are listed in [here](authors.md).
 
-The ACTS project is based on the ATLAS tracking software. A list of contributors
+The Acts project is based on the ATLAS tracking software. A list of contributors
 to the ATLAS tracking repository can be found [here](authors.md#contributors-to-the-atlas-tracking-software).
 
-The ACTS project contains a copy of [gcovr](http://gcovr.com) licensed under
+The Acts project contains a copy of [gcovr](http://gcovr.com) licensed under
 the 3-Clause BSD license.
