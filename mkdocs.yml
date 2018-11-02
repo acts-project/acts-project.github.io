@@ -18,8 +18,11 @@ plugins:
         rlangenb@cern.ch: "robert.langenberg@cern.ch"
         Andreas.Salzburger@cern.ch: "andreas.salzburger@cern.ch"
         cgumpert@cern.ch: "christian.gumpert@cern.ch"
+        fabian.klimpel@tum.de: "fabian.klimpel@cern.ch"
+        fklimpel@asdf123.cern.ch: "fabian.klimpel@cern.ch"
       contributor_name_map:
         "julia.hrdinka@cern.ch": "Julia Hrdinka"
+        "fabian.klimpel@cern.ch": "Fabian Klimpel"
       contributor_exclude:
         - ats.jenkins@cern.ch
       contributor_commit_threshold: 15

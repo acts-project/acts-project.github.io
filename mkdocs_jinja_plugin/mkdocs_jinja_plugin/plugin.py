@@ -24,13 +24,9 @@ def get_tags(project):
 
 def get_contributors(project, email_map, name_map, excludes, commit_threshold):
     data = project.repository_contributors(all=True)
-
-    print(data)
-
     contrib_map = {}
 
     for contributor in data:
-        print(contributor)
         email = contributor["email"]
         if email in excludes: continue
         contrib_map[email] = contributor
