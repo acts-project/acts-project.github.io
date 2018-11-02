@@ -13,27 +13,24 @@ from glob import glob
 import os
 import re
 import logging
+import gitlab
 
 import jinja2 as j2
 
 logger = logging.getLogger("jinja-plugin")
 
-def get_tags(project, base_url):
-    slug = quote(project, safe="")
-    url = urljoin(base_url, "projects/"+slug+"/repository/tags")
-    res = requests.get(url, params={})
-    data = res.json()
-    return data
+def get_tags(project):
+    return project.tags.list(all=True)
 
-def get_contributors(project, base_url, email_map, name_map, excludes, commit_threshold):
-    slug = quote(project, safe="")
-    url = urljoin(base_url, "projects/"+slug+"/repository/contributors")
-    res = requests.get(url, params={})
-    data = res.json()
+def get_contributors(project, email_map, name_map, excludes, commit_threshold):
+    data = project.repository_contributors(all=True)
+
+    print(data)
 
     contrib_map = {}
 
     for contributor in data:
+        print(contributor)
         email = contributor["email"]
         if email in excludes: continue
         contrib_map[email] = contributor
@@ -99,11 +96,14 @@ class JinjaPlugin(BasePlugin):
         email_map = self.config["contributor_email_map"]
         excludes = self.config["contributor_exclude"]
 
+        gl = gitlab.Gitlab(base_url)
+        project = gl.projects.get(3031) # acts/acts-core
+
         commit_threshold = self.config["contributor_commit_threshold"]
-        contributors = get_contributors("acts/acts-core", base_url, email_map, name_map, excludes, commit_threshold)
+        contributors = get_contributors(project, email_map, name_map, excludes, commit_threshold)
 
         self.tpl_data = {
-            "tags": get_tags("acts/acts-core", base_url),
+            "tags": get_tags(project),
             "contributors": contributors,
             "url_imports": {}
         }

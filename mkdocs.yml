@@ -10,7 +10,7 @@ repo_name: GitLab
 plugins:
   - search
   - jinja:
-      gitlab_url: https://gitlab.cern.ch/api/v4/
+      gitlab_url: https://gitlab.cern.ch
       repo: acts/acts-core
       contributor_email_map: 
         knights_of_ni@gmx.com: "grasland@lal.in2p3.fr"
