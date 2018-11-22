@@ -29,7 +29,7 @@ common repository is compiled with multiple build configurations.  The
 build configuration are chosen to encompass all supported Linux
 distributions (Scientific Linux CERN 6, CERN CentOS 7), different
 compilers (GCC, CLang) and different LCG software releases starting from
-the minimum requirement (LCG91). Additional checks are performed to
+the minimum requirement (LCG93). Additional checks are performed to
 ensure consistent licensing and formatting. The available platforms were
 chosen to be consistent with typical setups available to users, e.g. on
 lxplus machines at CERN. Special care was taken to not require any
