@@ -16,36 +16,36 @@ within it, can provide Acts with all the information that is needed to
 construct the tracking geometry.
 
 ```cpp
-  Acts::SurfaceArrayCreator::Config sacCfg;
-  sacCfg.surfaceMatcher = matcher; // <- allows injection of Identifier info
+Acts::SurfaceArrayCreator::Config sacCfg;
+sacCfg.surfaceMatcher = matcher; // <- allows injection of Identifier info
 
-  auto surfaceArrayCreator = std::make_shared<Acts::SurfaceArrayCreator>(
-    sacCfg,
-    Acts::getDefaultLogger("SurfaceArrayCreator", Acts::Logging::VERBOSE));
+auto surfaceArrayCreator = std::make_shared<Acts::SurfaceArrayCreator>(
+sacCfg,
+Acts::getDefaultLogger("SurfaceArrayCreator", Acts::Logging::VERBOSE));
 
-  // ...
+// ...
 
-  GeoModelLayerBuilder::Config cfg;
-  // layer builder gets the detector manager
-  cfg.mng = static_cast<const InDetDD::SiDetectorManager*>(manager);
-  gmLayerBuilder = std::make_shared<const GMLB>(cfg,
-    Acts::getDefaultLogger("GMLayBldr", Acts::Logging::VERBOSE));
+GeoModelLayerBuilder::Config cfg;
+// layer builder gets the detector manager
+cfg.mng = static_cast<const InDetDD::SiDetectorManager*>(manager);
+gmLayerBuilder = std::make_shared<const GMLB>(cfg,
+Acts::getDefaultLogger("GMLayBldr", Acts::Logging::VERBOSE));
 
-  Acts::CylinderVolumeBuilder::Config cvbConfig;
-  cvbConfig.layerEnvelopeR = {0, 0};
-  cvbConfig.layerEnvelopeZ       = 2;
-  cvbConfig.trackingVolumeHelper = cvh;
-  // ...
-  cvbConfig.layerBuilder         = gmLayerBuilder;
+Acts::CylinderVolumeBuilder::Config cvbConfig;
+cvbConfig.layerEnvelopeR = {0, 0};
+cvbConfig.layerEnvelopeZ       = 2;
+cvbConfig.trackingVolumeHelper = cvh;
+// ...
+cvbConfig.layerBuilder         = gmLayerBuilder;
 
-  Acts::TrackingGeometryBuilder::Config tgbConfig;
-  tgbConfig.trackingVolumeHelper   = cylinderVolumeHelper;
-  tgbConfig.trackingVolumeBuilders = volumeBuilders;
-  auto trackingGeometryBuilder
-      = std::make_shared<const Acts::TrackingGeometryBuilder>(tgbConfig);
+Acts::TrackingGeometryBuilder::Config tgbConfig;
+tgbConfig.trackingVolumeHelper   = cylinderVolumeHelper;
+tgbConfig.trackingVolumeBuilders = volumeBuilders;
+auto trackingGeometryBuilder
+  = std::make_shared<const Acts::TrackingGeometryBuilder>(tgbConfig);
 
-  std::shared_ptr<const Acts::TrackingGeometry> trackingGeometry 
-      = trackingGeometryBuilder->trackingGeometry();
+std::shared_ptr<const Acts::TrackingGeometry> trackingGeometry 
+  = trackingGeometryBuilder->trackingGeometry();
 ```
 
 Tracking surfaces in Acts are coupled to a detector element object, which needs

@@ -1,8 +1,8 @@
 # Propagation and Extrapolation
 
-The track propagation is an essential part of track reconstruction. The Acts propgation code is based on the ATLAS `RungeKuttaPropagator` which is still availalbe in the `Legacy` module.
+The track propagation is an essential part of track reconstruction. The Acts propgation code is based on the ATLAS `RungeKuttaPropagator`, against which newere developments where validated. It has since been removed from the codebase.
 
-## Steppers and Propgator
+## Steppers and Propagator
 
 The Acts propagator allows for different `Stepper` implementations provided as a class template.
 Following the general Acts design, each stepper has a nested cache struct, which is used for caching the field cell and
@@ -68,32 +68,48 @@ while (h != 0.) {
 ### EigenStepper
 
 The `EigenStepper` implements the same functionality as the ATLAS stepper, however, the stepping code 
-is rewritten with using `Eigen` primitives. The following code snippet shows the full Runge-Kutta stepping code. 
+is rewritten with using `Eigen` primitives. The following code snippet shows the Runge-Kutta stepping code. 
 
 ```cpp
 // The following functor starts to perform a Runge-Kutta step of a certain
 // size, going up to the point where it can return an estimate of the local
-// integration error. The results are cached in the local variables above,
+// integration error. The results are stated in the local variables above,
 // allowing integration to continue once the error is deemed satisfactory
-const auto tryRungeKuttaStep = [&](const double h) -> double {
-  // Cache the square and half of the step size
+const auto tryRungeKuttaStep = [&](const double h) -> bool {
+
+  // State the square and half of the step size
   h2     = h * h;
-  half_h = h / 2;
+  half_h = h * 0.5;
 
   // Second Runge-Kutta point
-  const Vector3D pos1 = cache.pos + half_h * cache.dir + h2 / 8 * k1;
-  B_middle            = getField(cache, pos1);
-  k2                  = qop * (cache.dir + half_h * k1).cross(B_middle);
+  const Vector3D pos1 = state.stepping.pos + half_h * state.stepping.dir
+      + h2 * 0.125 * sd.k1;
+  sd.B_middle = getField(state.stepping, pos1);
+  if (!state.stepping.extension.k2(
+          state, sd.k2, sd.B_middle, half_h, sd.k1)) {
+    return false;
+  }
 
   // Third Runge-Kutta point
-  k3 = qop * (cache.dir + half_h * k2).cross(B_middle);
+  if (!state.stepping.extension.k3(
+          state, sd.k3, sd.B_middle, half_h, sd.k2)) {
+    return false;
+  }
 
   // Last Runge-Kutta point
-  const Vector3D pos2 = cache.pos + h * cache.dir + h2 / 2 * k3;
-  B_last              = getField(cache, pos2);
-  k4                  = qop * (cache.dir + h * k3).cross(B_last);
+  const Vector3D pos2
+      = state.stepping.pos + h * state.stepping.dir + h2 * 0.5 * sd.k3;
+  sd.B_last = getField(state.stepping, pos2);
+  if (!state.stepping.extension.k4(state, sd.k4, sd.B_last, h, sd.k3)) {
+    return false;
+  }
 
   // Return an estimate of the local integration error
-  return h * (k1 - k2 - k3 + k4).template lpNorm<1>();
+  error_estimate = std::max(
+      h2 * (sd.k1 - sd.k2 - sd.k3 + sd.k4).template lpNorm<1>(), 1e-20);
+  return true;
 };
 ```
+
+The code includes the extension mechanism, which allows extenting the numerical integration. This is implemented
+for the custom logic required to integrate through a volume with dense material.
