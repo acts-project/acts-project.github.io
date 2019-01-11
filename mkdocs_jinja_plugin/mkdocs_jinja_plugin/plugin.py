@@ -14,6 +14,8 @@ import os
 import re
 import logging
 import gitlab
+import concurrent.futures as cf
+import copy
 
 import jinja2 as j2
 
@@ -74,7 +76,13 @@ class JinjaPlugin(BasePlugin):
     tpl_data = None
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        parent_logger = logging.getLogger("mkdocs")
+        parent_logger_level = parent_logger.getEffectiveLevel()
+        FORMAT = '%(asctime)-15s %(levelname)s - %(threadName)s: %(message)s'
+        logging.basicConfig(level=parent_logger_level, format=FORMAT)
+
+
+        logger.debug("init")
 
         self.env = j2.Environment()
 
@@ -95,70 +103,100 @@ class JinjaPlugin(BasePlugin):
         gl = gitlab.Gitlab(base_url)
         project = gl.projects.get(3031) # acts/acts-core
 
-        commit_threshold = self.config["contributor_commit_threshold"]
-        contributors = get_contributors(project, email_map, name_map, excludes, commit_threshold)
+        with cf.ThreadPoolExecutor(max_workers=10) as tp:
+            commit_threshold = self.config["contributor_commit_threshold"]
+            ft_contributors = tp.submit(get_contributors, project, email_map, name_map, excludes, commit_threshold)
 
-        self.tpl_data = {
-            "tags": get_tags(project),
-            "contributors": contributors,
-            "url_imports": {}
-        }
+            ft_tags = tp.submit(get_tags, project)
 
-        for key, url in self.config["url_imports"].items():
-            logger.info("importing URL from %s", url)
-            md = get_url_src(url)
-            if url.endswith(".md"):
-                md = self._process_md_url_import(url, md, config["site_dir"])
-            self.tpl_data["url_imports"][key] = md
+            self.tpl_data = {
+                "url_imports": {}
+            }
 
-    def _process_md_url_import(self, url, md, site_dir):
-        md_img_ex = r"!\[(?:.*?)\]\((.*?)\)"
-        html_img_ex = r"<img.*src=\"(.*?)\".*>"
-
-        urls = []
-        def repl(m):
-            url = m.group(1)
-
-            # only relative urls
-            if bool(urlparse(url).netloc): return m.group(0)
-            slug = os.path.join("figures", url.replace("/", "_"))
-
-            urls.append((url, slug))
-
-            return "![]({})".format(slug)
-
-        md = re.sub(md_img_ex, repl, md)
-        md = re.sub(html_img_ex, repl, md)
-
-        url_parsed = urlparse(url)
-        url_path_base = os.path.dirname(url_parsed.path)
-        for src, dest in urls:
-            full_url = os.path.join(url_path_base, src)
-            url_parts = list(url_parsed)
-            url_parts[2] = full_url
-            img_url = urlunparse(tuple(url_parts))
-
-            dest_path = os.path.join(site_dir, dest)
-            if os.path.exists(dest_path): continue
-
-            os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-
-            logger.info("downloading %s => %s", img_url, dest)
-            r = requests.get(img_url, stream=True)
-            if r.status_code == 200:
-                with open(dest_path, 'wb') as f:
-                    for chunk in r:
-                        f.write(chunk)
-            else:
-                logger.error("Error downloading %s: %s %s", img_url, r.status_code, r.content)
+            url_import_futures = {}
 
 
-        return md
+            for key, url in self.config["url_imports"].items():
+                f = tp.submit(_handle_url_import, url, config["site_dir"])
+                url_import_futures[key] = f
+
+            # cf.wait(url_import_futures.values())
+
+            for key, f in url_import_futures.items():
+                md = f.result()
+                self.tpl_data["url_imports"][key] = md
+                
+                
+            self.tpl_data["tags"] = ft_tags.result()
+            self.tpl_data["contributors"] = ft_contributors.result()
+
 
     def on_page_markdown(self, md, page, config, files):
+        # print(page, config)
         self._load_data(config)
+        tpl_data = {}
         tpl = self.env.from_string(md)
-        output = tpl.render(**self.tpl_data)
+        tpl_data.update(self.tpl_data)
+        output = tpl.render(**tpl_data)
         return output
 
+def _handle_url_import(url, site_dir):
+    logger.info("importing URL from %s", url)
+    md = get_url_src(url)
+    if url.endswith(".md"):
+        md = _process_md_url_import(url, md, site_dir)
+    logger.info("done importing URL from %s", url)
+    return md
 
+def _process_md_url_import(url, md, site_dir):
+    logger.debug("processing md import")
+    md_img_ex = r"!\[(?:.*?)\]\((.*?)\)"
+    html_img_ex = r"<img.*src=\"(.*?)\".*>"
+    
+    url_parsed = urlparse(url)
+    url_path_base = os.path.dirname(url_parsed.path)
+
+    urls = []
+    def repl(m):
+        url = m.group(1)
+
+        # only relative urls
+        if bool(urlparse(url).netloc): return m.group(0)
+        # target = os.path.join("figures", url.replace("/", "_"))
+
+        target = "{}://{}/".format(url_parsed.scheme, url_parsed.netloc) +os.path.join(url_path_base, url)
+        logger.debug("Rewrite image: %s => %s", url, target)
+        
+
+        urls.append((url, target))
+
+        return "![]({})".format(target)
+
+    md = re.sub(md_img_ex, repl, md)
+    md = re.sub(html_img_ex, repl, md)
+    
+    logger.debug("Found %d images that need to be imported", len(urls))
+
+    # for src, dest in urls:
+        # full_url = os.path.join(url_path_base, src)
+        # url_parts = list(url_parsed)
+        # url_parts[2] = full_url
+        # img_url = urlunparse(tuple(url_parts))
+
+        # dest_path = os.path.join(site_dir, dest)
+        # if os.path.exists(dest_path): continue
+
+        # os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+
+        # logger.info("downloading %s => %s", img_url, dest)
+        # r = requests.get(img_url, stream=True)
+        # if r.status_code == 200:
+            # with open(dest_path, 'wb') as f:
+                # for chunk in r:
+                    # f.write(chunk)
+        # else:
+            # logger.error("Error downloading %s: %s %s", img_url, r.status_code, r.content)
+
+
+    logger.debug("done processing md import")
+    return md
