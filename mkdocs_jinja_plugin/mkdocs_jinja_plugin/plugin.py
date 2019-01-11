@@ -90,9 +90,13 @@ class JinjaPlugin(BasePlugin):
         self.env.filters["iso8601"] = lambda v: iso8601.parse_date(v)
         self.env.filters["datetime_format"] = lambda v, f: v.strftime(f)
 
+    # def on_serve(self, server, config):
+        # JinjaPlugin.is_serve = True
+
     def _load_data(self, config):
-        if self.tpl_data is not None:
+        if JinjaPlugin.tpl_data is not None:
             return
+
 
         base_url = self.config["gitlab_url"]
 
@@ -109,7 +113,7 @@ class JinjaPlugin(BasePlugin):
 
             ft_tags = tp.submit(get_tags, project)
 
-            self.tpl_data = {
+            JinjaPlugin.tpl_data = {
                 "url_imports": {}
             }
 
@@ -127,16 +131,15 @@ class JinjaPlugin(BasePlugin):
                 self.tpl_data["url_imports"][key] = md
                 
                 
-            self.tpl_data["tags"] = ft_tags.result()
-            self.tpl_data["contributors"] = ft_contributors.result()
+            JinjaPlugin.tpl_data["tags"] = ft_tags.result()
+            JinjaPlugin.tpl_data["contributors"] = ft_contributors.result()
 
 
     def on_page_markdown(self, md, page, config, files):
-        # print(page, config)
         self._load_data(config)
         tpl_data = {}
         tpl = self.env.from_string(md)
-        tpl_data.update(self.tpl_data)
+        tpl_data.update(JinjaPlugin.tpl_data)
         output = tpl.render(**tpl_data)
         return output
 
@@ -177,25 +180,6 @@ def _process_md_url_import(url, md, site_dir):
     
     logger.debug("Found %d images that need to be imported", len(urls))
 
-    # for src, dest in urls:
-        # full_url = os.path.join(url_path_base, src)
-        # url_parts = list(url_parsed)
-        # url_parts[2] = full_url
-        # img_url = urlunparse(tuple(url_parts))
-
-        # dest_path = os.path.join(site_dir, dest)
-        # if os.path.exists(dest_path): continue
-
-        # os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-
-        # logger.info("downloading %s => %s", img_url, dest)
-        # r = requests.get(img_url, stream=True)
-        # if r.status_code == 200:
-            # with open(dest_path, 'wb') as f:
-                # for chunk in r:
-                    # f.write(chunk)
-        # else:
-            # logger.error("Error downloading %s: %s %s", img_url, r.status_code, r.content)
 
 
     logger.debug("done processing md import")
