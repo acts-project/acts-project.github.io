@@ -124,13 +124,13 @@ local coordinate system, while different shapes on surfaces are defined by
 `SurfaceBounds` classes which every surface must provide. In case of boundless
 surfaces, a special `InfiniteBounds` class is available.
 
-| Surface Type | Local Coordinates | Bound Types available |
-|:------------------|---------------|:------|
-| `ConeSurface`     | [rphi, z] | `ConeBounds` |
-| `CylinderSurface` | [r, phi] | `CylinderBounds` |
-| `DiscSurface`     | [r, phi] | `RadialBounds`, `DiscTrapezoidalBounds` |
-| `PlaneSurface`    | [x, y] | `RectangleBounds`, `TrapezoidalBounds`, `TriangleBounds`, `InfiniteBounds`, `EllipseBounds` |
-| `PerigeeSurface`, `StrawSurface`  | [d, z] | `CylinderBounds` |
+| Surface Type          | Local Coordinates | Bound Types available                                                                       |
+|:----------------------|-------------------|:--------------------------------------------------------------------------------------------|
+| `ConeSurface`         | [rphi, z]         | `ConeBounds`                                                                                |
+| `CylinderSurface`     | [r, phi]          | `CylinderBounds`                                                                            |
+| `DiscSurface`         | [r, phi]          | `RadialBounds`, `DiscTrapezoidalBounds`                                                     |
+| `PlaneSurface`        | [x, y]            | `RectangleBounds`, `TrapezoidalBounds`, `TriangleBounds`, `InfiniteBounds`, `EllipseBounds` |
+| `PerigeeSurface`, `StrawSurface` | [d, z] | `CylinderBounds`                                                                            |
 
 
 ![CylinderBounds](figures/geometry/CylinderBounds.png)
@@ -158,14 +158,9 @@ detection modules:
 ![CylinderLayer](figures/geometry/CylinderLayer.png)
 
 Modules can be sorted onto layer using all supported binning methods described through the `SurfaceArray` class,
-the binning can be adjusted to fit alsmost perfectly, see:
-
-![DiscLayerAB](figures/geometry/DiscLayerAB.png)
-
-or simply such that it can be fast determined, e.g. through equidistant binning. 
+the binning can be adjusted to fit as good as possible.
 
 ![DiscLayerEB](figures/geometry/DiscLayerEB.png)
-
 
 The un-occupied space in a volume which contains a layer array is filled with objects of type `NavigationLayer`, which allows that in a fully static geometry setp, every single point in a volume can be associated with a layer. Layer objects are confined together in a special `LayerArray` class and can be contained by a `TrackingVolume`.
 
