@@ -2,51 +2,6 @@
 
 The Acts geometry model is strongly based on the ATLAS Tracking geometry. Its core is built on a surface-based description that make up all geometry objects of higher complexity. This design has been chosen as the surface objects can be used together with the track propagation module and thus all geometry objects become natively integrated into the tracking software.
 
-## Identifier
-
-Acts uses an identification scheme, in which objects can be assigned a unique identifier. The concrete implementation of the identifier can be provided by the client code. This is done through the `Identifier` class used in Acts, which can be changed at compile time to be the Identifier class of the experiment. This can be done using the `Acts_CORE_IDENTIFIER_PLUGIN` before compiling Acts:
-
-```cpp
-#ifdef ACTS_CORE_IDENTIFIER_PLUGIN
-#include ACTS_CORE_IDENTIFIER_PLUGIN
-#else
-
-#define IDENTIFIER_TYPE unsigned long long
-#define IDENTIFIER_DIFF_TYPE long long
-
-#include <string>
-
-/// @class Identifier
-///
-/// minimum implementation of an Identifier,
-/// please use the ACTS_CORE_IDENTIFIER_PLUGIN in to use instead if
-/// another type of Identifier is needed
-///
-class Identifier
-{
-// ...
-};
-```
-
-There are very little constraints on the Identifier class, it has to be 
-
-    * default constructable
-    * copy constructable
-    * move constructable 
-    * assignment operator being defined
-    
-
-For compatibility with the ATLAS software, 
-an `is_valid()` method has to be implemented:
-
-     /// Check if id is in a valid state
-      bool is_valid () const;
-
-Other than that, Acts imposes no requirement on the  `Identifier` class.
-
-*QUESTION:*: Can we change this in ATLAS SW to an `operator bool()` ?
-
-
 ## GeometryObject base class and GeometryID
 
 All geometry objects in Acts inherit from a virtual `GeometryObject` base class
@@ -76,7 +31,9 @@ All geometry objects in Acts inherit from a virtual `GeometryObject` base class
      GeometryObject&
      operator=(const GeometryObject& geoID)
      {
-       if (&geoID != this) m_geoID = geoID.m_geoID;
+       if (&geoID != this) {
+         m_geoID = geoID.m_geoID;
+       }
        return *this;
      }
     
@@ -128,7 +85,7 @@ It is used for Acts internal applications, such as material mapping, but not for
     ///  - (Layer)     Surfaces    - uses counting confined layers
     ///  - (Boundary)  Surfaces    - uses counting through boundary surfaces
     ///  - Volumes                 - uses counting given by TrackingGeometry
-
+    
     class GeometryID
     {
     
@@ -146,23 +103,127 @@ It is used for Acts internal applications, such as material mapping, but not for
 
 ## Surface classes
 
-The `Surface` class builds the core class of all geometry objects and can be used natively with the propagation and extrapolation modules. The common `Surface` virtual base defines the public interface of all surfaces. 
+The `Surface` class builds the core class of all geometry objects and can be used natively with the propagation and extrapolation modules. The common `Surface` virtual base defines the public interface of all surfaces. The different concrete `Surface` classes are defined by their respective native local coordiate system, while different shapes on surfaces are defined by `SurfaceBounds` classes which every surface must provide. In case of boundless surfaces, a special `InfiniteBounds` class is available.
+
+| Surface Type | Local Coordinates | Bound Types available |
+|:------------------|---------------|:------|
+| `ConeSurface`     | [rphi, z] | `ConeBounds` |
+| `CylinderSurface` | [r, phi] | `CylinderBounds` |
+| `DiscSurface`     | [r, phi] | `RadialBounds`, `DiscTrapezoidalBounds` |
+| `PlaneSurface`    | [x, y] | `RectangleBounds`, `TrapezoidalBounds`, `TriangleBounds`, `InfiniteBounds`, `EllipseBounds` |
+| `PerigeeSurface`, `StrawSurface`  | [d, z] | `CylinderBounds` |
+
+
+![CylinderBounds](figures/geometry/CylinderBounds.png)
+![DiscBounds](figures/geometry/DiscBounds.png)
+![PlaneBounds](figures/geometry/PlaneBounds.png)
+
 
 ## Layer classes
 
 The `Layer` class is an extension of the `Surface` class that allows the definition of sub surfaces (sensitive surfaces for modules, or extra material surfaces).
 
-## Volume description
+The Layer can simply correspond to a 'virtual' surface in the detector description or represent a more complex object that may contain:
 
-<!--The `Volume` class is a container of `BoundarySurface` objects, where each `BoundarySurface` is an -->
+* a representing surface, which is accessible via a `representingSurface()` method
+* an array of contained surfaces, accessible via `surfaceArray()` method
+* approach surfaces (i.e. boundary surface of the volume occupied by the layer)
+* surface material description on any of the contined surfaces
+   
+The following illustration shows an x-y view of a cylinder layer with planar detection modules:
 
-## Building procedure and volume 'glueing'
+![CylinderLayer](figures/geometry/CylinderLayer.png)
 
-The geometry building procedure follows the ATLAS TrackingGeometry philosophy of a static frame of *glued* volumes,
-that lead the navigation flow through the geometry, 
+Modules can be sorted onto layer using all supported binning methods described through the `SurfaceArray` class,
+the binning can be adjusted to fit alsmost perfectly, see:
+
+![DiscLayerAB](figures/geometry/DiscLayerAB.png)
+
+or simply such that it can be fast determined, e.g. through equidistant binning. 
+
+![DiscLayerEB](figures/geometry/DiscLayerEB.png)
+
+
+The un-occupied space in a volume which contains a layer array is filled with objects of type `NavigationLayer`, which allows that in a fully static geometry setp, every single point in a volume can be associated with a layer. Layer objects are confined together in a special `LayerArray` class and can be contained by a `TrackingVolume`.
+
+![LayerArray](figures/geometry/LayerArray.png)
+
+
+## Volume classes
+
+The `Volume` class is a container of `BoundarySurface` objects, where each `BoundarySurface` is an extension of the `Surface` class with additional information abouit the attached Volumes. The normal vector of the surface defines an *inside* (oposite w.r.t. the normal vector) and an *outside* (along w.r.t. the normal vector) direction. Either a single volume or an array of volumes can be attached to a volume.
+
+The simples volume class is just a collection of surfaces, where the `TrackingVolume` describes a volume that can contain:
+
+* an array of contained layers
+* an array of contained volumes (as a container volume)
+* an array of contained voluems (as *floating* objects)
+* a volume based material description
+   
+The shape of the volume is defined by `VolumeBounds` classes that create the corresponding bounding surfaces and register the attachment to the volume itself at creation.
+
+![VolumeBounds](figures/geometry/VolumeBounds.png)
+![CylinderVolumeBounds](figures/geometry/CylinderVolumeBounds.png)
+
 
 
 ## Material description
 
-### Material mapping from Geant4
+Two types of material description exist, one for a surface based material, one for a volume based material. They will be dealt with differently in the extrapolation.
+
+The basic information for any material is:
+
+* the radiation length X0 
+* the nuclear interaction length L0
+* the atomic weight A
+* the atomic charge Z
+* the density of the material
+this infromation is confined together in the `Material` class.
+
+Surface based material extends this material information by representative thickness, the corresponding object is called `MaterialProperties`. The thickness hereby can be arbitrarily chosen in order to regulate the material budget, it does not have to represent the actual thickness of a detector element. To attach it to a surface, a dedicated `SurfaceMaterial` class (or it's extensions) is used, which allows to also describe binned material.
+
+Possible extensions are:
+
+ * `HomogeneousSurfaceMaterial`, homogeneous material description on a surface
+ * `BinnedSurfaceMaterial`, an arbitrarily binned material description with a corresponding `BinUtility` object
+ * `ProtoSurfaceMaterial`, only binning description (without material) to be used in the material mapping process
+
+
+# Geometry building
+
+The geometry building procedure follows the ATLAS TrackingGeometry philosophy of a static frame of *glued* volumes,
+that lead the navigation flow through the geometry, 
+
+## Attaching a 3D detector geometry
+
+Usually, a 3D detector model geometry exists, which is either native to the full detector simulation (Geant4) or is translated into it. This model, however, is in general too detailed for track reconstruction: navigating through the detailed detector geometry 
+
+For most part of the track reconstruction, only a surface based description of the detector is needed, in order to allow (surface based) material integration and parametrisation/prediction of trajectories on detection surfaces. It is thus necessary that the detection surfaces are described to full detail in the reconstruction geometry (called `TrackingGeometry`). This is guaranteed by a proxy mechanism that connects the detection elmenents (conveniently called `DetectorElement`) to `Surface` object in the reconstruction: 
+
+![DetectorElement](figures/geometry/DetectorElement.png)
+
+### Existing Plugins for 3D geometry libraries
+
+Very simple helper methods for 3D libraries exist, they are certainly not optimised, but used for templating:
+
+* `TGeoDetectorElement` connects a TGeo volume to a `Surface`
+* `DD4HepDetectorElement` connects a DD4Hep volume (based on TGeo) to a `Surface`
+
+## Layer building
+
+`Surface` object that are to be grouped on a layer should be put into a `SurfaceArray` and provided to the layer. Certain helper tools exist to ease the translation and create approprate binning structure:
+* the`SurfaceArrayCreator` can create cylindrical, disc-like & planar layers, where the dimensions of the layer are determined by parsing the provided surfaces. Additionally, an envelope covering the surfaces can be chosen.
+
+## Volume building, packing and glueing
+
+The philosophy of the `TrackingGeometry` is a fully connective geometry setup, i.e. `TrackingVolume` objects are either pure containers for other contained `TrackingVolume` instances (where the contained volumes fully fill the space of the container volume), or are fully attached via the boundary surface mechanisn. The boundary surfaces then act as portals from one `TrackingVolume` into the next one along the trajectory.
+
+The process to create a fully connected tracking geometry is called glueing. Wherever possible, common boundary surfaces are *shared*, where this is not possible, they are *attached*.
+
+![GlueingBC](figures/geometry/GlueingBC.png)
+![GlueingABC](figures/geometry/GlueingABC.png)
+![NavigationABC](figures/geometry/NavigationABC.png)
+
+
+For cylindrical detector setups, a dedicated `CylinderVolumeBuilder` is provided, which performs a variety of volume building, packing and glueing. 
 
