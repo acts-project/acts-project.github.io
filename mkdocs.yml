@@ -63,6 +63,7 @@ nav:
         - Users Guide : guides_users.md
         - Developers Guide : guides_developers.md
         - Contribution Guide : guides_contribution.md
+        - Framework Examples Guide : guides_framework.md
         - CI and Testing Guide : guides_testing.md
         - Administrators Guide: guides_admin.md
     - Clients:
