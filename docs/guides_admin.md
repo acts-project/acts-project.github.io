@@ -9,14 +9,14 @@ In order to release a new version of Acts the following steps need to be taken:
 
 1. Check out all open JIRA issues for the next release in
    [JIRA](https://its.cern.ch/jira/projects/ACTS/versions/).
-2. Create a new branch called `release-X.YY.ZZ` branching off from
-   `origin/master`.
-3. In this branch, update the `ACTS_VERSION` variable in the top-level
-   CMakeLists.txt file to `X.YY.ZZ` and commit the change.
+2. Merge master into the `release` branch.
+3. In that branch, change the content of the file `version_number` at the repository
+   root to the new version `X.Y.Z` and commit.
 4. Pushing this commit to the remote repository should trigger a CI build. Make
    sure that everything compiles without any warnings and all tests look fine.
 5. Create a new annotated tag locally. The tag should have the format
-   `vX.YY.ZZ` and an associated tag message 'version vX.YY.ZZ'.
+   `vX.YY.ZZ` and an associated tag message 'version vX.YY.ZZ' and should point to the
+   commit created in step 3.
 6. Push the tag to the remote repository. This should trigger a CI job which
    rebuilds to documentation and deploys it together with a tar file of the
    source code to the Acts webpage. Make sure that the new release appears
