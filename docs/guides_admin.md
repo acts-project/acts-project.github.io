@@ -18,8 +18,8 @@ In order to release a new version of Acts the following steps need to be taken:
    `vX.YY.ZZ` and an associated tag message 'version vX.YY.ZZ' and should point to the
    commit created in step 3.
 6. Push the tag to the remote repository. This should trigger a CI job which
-   rebuilds to documentation and deploys it together with a tar file of the
-   source code to the Acts webpage. Make sure that the new release appears
+   rebuilds to documentation and deploys it to the Acts webpage. Make sure that 
+   the new release appears
    under the **Releases** section on the [Acts webpage](http://acts.web.cern.ch/ACTS/).
 7. If there is not yet a *milestone* for the next release, create it in 
    [Gitlab](https://gitlab.cern.ch/acts/acts-core/milestones) 
