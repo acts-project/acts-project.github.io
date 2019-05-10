@@ -12,26 +12,12 @@ plugins:
   - jinja:
       gitlab_url: https://gitlab.cern.ch
       repo: acts/acts-core
-      contributor_email_map: 
-        knights_of_ni@gmx.com: "grasland@lal.in2p3.fr"
-        hello@paulgessinger.com: "paul.gessinger@cern.ch"
-        rlangenb@cern.ch: "robert.langenberg@cern.ch"
-        Andreas.Salzburger@cern.ch: "andreas.salzburger@cern.ch"
-        cgumpert@cern.ch: "christian.gumpert@cern.ch"
-        fabian.klimpel@tum.de: "fabian.klimpel@cern.ch"
-        fklimpel@asdf123.cern.ch: "fabian.klimpel@cern.ch"
-      contributor_name_map:
-        "julia.hrdinka@cern.ch": "Julia Hrdinka"
-        "fabian.klimpel@cern.ch": "Fabian Klimpel"
-      contributor_exclude:
-        - ats.jenkins@cern.ch
-      contributor_commit_threshold: 15
       url_imports:
         license: https://gitlab.cern.ch/acts/acts-core/raw/master/LICENSE
         readme: https://gitlab.cern.ch/acts/acts-core/raw/master/README.md
         getting_started: https://gitlab.cern.ch/acts/acts-core/raw/master/getting_started.md
         contributing: https://gitlab.cern.ch/acts/acts-core/raw/master/CONTRIBUTING.md
-
+        authors: https://gitlab.cern.ch/acts/acts-core/blob/master/AUTHORS.md
 
 
 markdown_extensions:
