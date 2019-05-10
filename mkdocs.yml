@@ -17,7 +17,7 @@ plugins:
         readme: https://gitlab.cern.ch/acts/acts-core/raw/master/README.md
         getting_started: https://gitlab.cern.ch/acts/acts-core/raw/master/getting_started.md
         contributing: https://gitlab.cern.ch/acts/acts-core/raw/master/CONTRIBUTING.md
-        authors: https://gitlab.cern.ch/acts/acts-core/blob/master/AUTHORS.md
+        authors: https://gitlab.cern.ch/acts/acts-core/raw/master/AUTHORS.md
 
 
 markdown_extensions:
