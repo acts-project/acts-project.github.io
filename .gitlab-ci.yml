@@ -21,8 +21,8 @@ push_site:
     - unset PYTHONHOME
     - echo "$ATSJENKINS_PASSWORD" | kinit atsjenkins@CERN.CH 2>&1 >/dev/null
     - ./deploy_website
-    environment:
-      name: prod
-      url: https://acts.web.cern.ch/ACTS/
+  environment:
+    name: prod
+    url: https://acts.web.cern.ch/ACTS/
   only:
     - master
