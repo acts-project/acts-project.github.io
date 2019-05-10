@@ -24,36 +24,6 @@ logger = logging.getLogger("jinja-plugin")
 def get_tags(project):
     return project.tags.list(all=True)
 
-def get_contributors(project, email_map, name_map, excludes, commit_threshold):
-    data = project.repository_contributors(all=True)
-    contrib_map = {}
-
-    for contributor in data:
-        email = contributor["email"]
-        if email in excludes: continue
-        contrib_map[email] = contributor
-        if email in name_map:
-            contrib_map[email]["name"] = name_map[email]
-    
-    remove = []
-
-    for email, contributor in contrib_map.items():
-        email = contributor["email"]
-        if email in email_map:
-            commits = contrib_map[email]["commits"]
-            canonical_email = email_map[email]
-            contrib_map[canonical_email]["commits"] += commits
-            remove.append(email)
-
-
-    for email in remove:
-        del contrib_map[email]
-
-    contrib_map = {k: v for k, v in contrib_map.items() if v["commits"] > commit_threshold}
-
-    output = list(contrib_map.values())
-    output = list(reversed(sorted(output, key=lambda c: c["commits"])))
-    return output
 
 def get_url_src(url):
     res = requests.get(url)
@@ -64,13 +34,9 @@ def get_url_src(url):
 class JinjaPlugin(BasePlugin):
 
     config_scheme = (
-        ('gitlab_url', config_options.Type(mkdocs_utils.string_types)),
-        ('repo', config_options.Type(mkdocs_utils.string_types)),
-        ('url_imports', config_options.Type(dict, default={})),
-        ('contributor_email_map', config_options.Type(dict, default={})),
-        ('contributor_name_map', config_options.Type(dict, default={})),
-        ('contributor_exclude', config_options.Type(list, default={})),
-        ('contributor_commit_threshold', config_options.Type(int, default=15))
+        ("gitlab_url", config_options.Type(mkdocs_utils.string_types)),
+        ("repo", config_options.Type(mkdocs_utils.string_types)),
+        ("url_imports", config_options.Type(dict, default={})),
     )
 
     tpl_data = None
@@ -100,16 +66,10 @@ class JinjaPlugin(BasePlugin):
 
         base_url = self.config["gitlab_url"]
 
-        name_map = self.config["contributor_name_map"]
-        email_map = self.config["contributor_email_map"]
-        excludes = self.config["contributor_exclude"]
-
         gl = gitlab.Gitlab(base_url)
         project = gl.projects.get(3031) # acts/acts-core
 
         with cf.ThreadPoolExecutor(max_workers=10) as tp:
-            commit_threshold = self.config["contributor_commit_threshold"]
-            ft_contributors = tp.submit(get_contributors, project, email_map, name_map, excludes, commit_threshold)
 
             ft_tags = tp.submit(get_tags, project)
 
@@ -132,7 +92,6 @@ class JinjaPlugin(BasePlugin):
                 
                 
             JinjaPlugin.tpl_data["tags"] = ft_tags.result()
-            JinjaPlugin.tpl_data["contributors"] = ft_contributors.result()
 
 
     def on_page_markdown(self, md, page, config, files):

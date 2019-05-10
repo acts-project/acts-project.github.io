@@ -1,9 +1,8 @@
 # Authors
 
-{% for contributor in contributors %}
-{%- if loop.index > 1 %}, {%- endif %}
-{{ contributor.name }}
-{%- endfor %}
+{{ url_imports.authors }}
+
+([Detailed contributor information](https://gitlab.cern.ch/acts/acts-core/graphs/master))
 
 ## Contributors to the ATLAS tracking software
 
