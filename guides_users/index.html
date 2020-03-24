@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Users Guide - Acts</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="../license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../modules_geometry/">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="../modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li >
+    <a href="../modules_propagation/">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="../modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="../modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_framework/">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../integration/">Integration</a>
+</li>
+                                    
+<li >
+    <a href="../integration_atlas/">Integration in ATLAS</a>
+</li>
+                                    
+<li >
+    <a href="../integration_fcc/">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="../integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#getting-started">Getting started</a></li>
+            <li><a href="#prerequisites">Prerequisites</a></li>
+            <li><a href="#installation-and-quick-start">Installation and quick start</a></li>
+            <li><a href="#cmake-build-system">CMake build system</a></li>
+            <li><a href="#building-acts">Building Acts</a></li>
+        <li class="main "><a href="#using-acts-in-your-own-cmake-project">Using Acts in your own cmake project</a></li>
+        <li class="main "><a href="#documentation">Documentation</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="getting-started"><a name="getting-started">Getting started</a></h1>
+<ol>
+<li><a href="#getting-started">Getting started</a><ol>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#cmake">CMake build system</a></li>
+<li><a href="#build-lxplus">Build Acts on lxplus</a></li>
+<li><a href="#build-local">Build Acts on your local machine</a></li>
+</ol>
+</li>
+<li><a href="#using-acts">Using Acts in your own cmake project</a></li>
+<li><a href="#documentation">Documentation</a></li>
+</ol>
+<h2 id="prerequisites"><a name="prerequisites">Prerequisites</a></h2>
+<p>Only few dependencies are required to build the Core library of Acts. A list of
+prerequisites required is given below with the version numbers indicating which
+versions were tested. Older versions may or may not work, feedback is very
+welcome.</p>
+<p>The following dependencies are required:</p>
+<ul>
+<li>A C++14 compatible compiler, e.g. <a href="https://gcc.gnu.org">gcc</a> (&gt;= 6.2) or <a href="http://clang.llvm.org">clang</a> (&gt;= 4.0)</li>
+<li><a href="https://cmake.org">cmake</a> (&gt;= 3.7)</li>
+<li><a href="http://boost.org">boost</a> (&gt;= 1.62, with <code>program_options</code> and <code>unit_test_framework</code>)</li>
+<li><a href="http://eigen.tuxfamily.org">Eigen</a> (&gt;= 3.2.9)</li>
+</ul>
+<p>The following dependencies are optional and are only needed for some of the
+components:</p>
+<ul>
+<li><a href="http://dd4hep.cern.ch">DD4Hep</a> (&gt;= 1.02) for the DD4Hep plugin</li>
+<li><a href="http://doxygen.org">doxygen</a> (&gt;= 1.8.11) for the documentation</li>
+<li><a href="http://www.graphviz.org">graphviz</a> (&gt;= 2.28.00) for the documentation</li>
+<li><a href="https://root.cern.ch">ROOT</a> (&gt;= 6.10.00) for the TGeo plugin</li>
+</ul>
+<p>Compatible versions of all dependencies are provided by <strong>LCG releases</strong>.
+The current recommended release for building Acts is the
+<a href="http://lcginfo.cern.ch/release/94">LCG94 Release</a>. This release is also used in the
+continous integration (CI) system to test the software. Setup scripts are provided
+in the repository that can be used to setup this release, and a few others, on
+lxplus machines at CERN (see <a href="#installation">below</a>).</p>
+<h2 id="installation-and-quick-start"><a name="installation">Installation and quick start</a></h2>
+<p>The Acts repository is hosted on the GitLab instance at CERN. In order to aquire the latest
+version from the git repository you can simply clone:</p>
+<pre><code class="bash">git clone https://gitlab.cern.ch/acts/acts-core.git &lt;ACTS_DIR&gt;
+</code></pre>
+
+<p>You can then <code>cd &lt;ACTS_DIR&gt;</code> continue building Acts:</p>
+<pre><code class="bash">source CI/setup_lcg94.sh
+mkdir build &amp;&amp; cd build
+cmake ..
+cmake --build . -- install
+</code></pre>
+
+<h2 id="cmake-build-system"><a name="cmake">CMake build system</a></h2>
+<p>CMake is used as build system for compiling and installing Acts.  For a
+complete list of CMake options please refer to the <a href="https://cmake.org/cmake/help/v3.1/index.html">official documentation</a>
+and this nice <a href="https://cmake.org/Wiki/CMake_Useful_Variables">list of general cmake options</a>.
+Important options relevant for the Acts project are given below. They are set
+by adding <code>-D&lt;OPTION&gt;=&lt;VALUE&gt;</code> to the <code>cmake</code> command.</p>
+<table>
+<thead>
+<tr>
+<th>option</th>
+<th>default</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACTS_BUILD_DD4HEP_PLUGIN</td>
+<td>OFF</td>
+<td>Build DD4HEP geometry plugin</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_DIGITIZATION_PLUGIN</td>
+<td>OFF</td>
+<td>Build Digitization plugin</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_JSON_PLUGIN</td>
+<td>OFF</td>
+<td>Build Json plugin for geometry input/output</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_IDENTIFICATION_PLUGIN</td>
+<td>OFF</td>
+<td>Build Identification plugin</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_TGEO_PLUGIN</td>
+<td>OFF</td>
+<td>Build TGeo geometry plugin</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_FATRAS</td>
+<td>OFF</td>
+<td>Build FAst TRAcking Simulation package</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_LEGACY</td>
+<td>OFF</td>
+<td>Build Legacy package</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_BENCHMARKS</td>
+<td>OFF</td>
+<td>Build benchmarks</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_EXAMPLES</td>
+<td>OFF</td>
+<td>Build examples</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_UNITTESTS</td>
+<td>OFF</td>
+<td>Build unit tests</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_INTEGRATIONTESTS</td>
+<td>OFF</td>
+<td>Build integration tests</td>
+</tr>
+<tr>
+<td>ACTS_BUILD_DOC</td>
+<td>OFF</td>
+<td>Build documentation</td>
+</tr>
+<tr>
+<td>ACTS_USE_BUNDLED_NLOHMANN_JSON</td>
+<td>ON</td>
+<td>Use external or bundled Json library</td>
+</tr>
+<tr>
+<td>CMAKE_INSTALL_PREFIX</td>
+<td></td>
+<td>The installation directory</td>
+</tr>
+<tr>
+<td>CMAKE_PREFIX_PATH</td>
+<td></td>
+<td>Search path for external packages</td>
+</tr>
+<tr>
+<td>CMAKE_CXX_COMPILER</td>
+<td></td>
+<td>Set C++ compiler (e.g. g++ or clang++)</td>
+</tr>
+<tr>
+<td>CMAKE_BUILD_TYPE</td>
+<td></td>
+<td>Build type (e.g. Debug, Release) affects compiler flags</td>
+</tr>
+<tr>
+<td>DD4hep_DIR</td>
+<td></td>
+<td>Path to the DD4hep installation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="building-acts"><a name="building-acts">Building Acts</a></h2>
+<h3 id="building-acts-on-lxplus"><a name="build-lxplus">Building Acts on lxplus</a></h3>
+<p>The first step to build Acts is to acquire supported versions of the
+dependencies.  Which dependencies are required depends on the plugins you
+enable, as mentioned above.</p>
+<p>If you are in an <em>lxplus-like</em> environment (i.e. <code>SLC6</code> or <code>CC7</code>, with
+<code>cvmfs</code>), you can use the setup scripts located in <code>&lt;ACTS_DIR&gt;/CI</code> to get the
+dependencies:</p>
+<pre><code class="bash">source &lt;ACTS_DIR&gt;/CI/setup_lcgXYZ.sh
+</code></pre>
+
+<p>where <code>XYZ</code> is the version number of the LCG release. There are multiple setup
+scripts for different LCG releases, which corresponds to the releases the CI
+tests against. The releases which can be set up using these scripts are therefore
+sure to be compatible. <strong>You can build Acts with any of these releases</strong>.
+Additionally, there is a script called <code>setup_clang.sh</code> which will make the <code>clang</code> compiler available on top of one
+of the LCG releases. This configuration is also tested by the CI.</p>
+<p>Using one of the scripts, you can use the following commands to build Acts with
+all plugins using the same dependency versions as in the continous integration
+system.</p>
+<pre><code class="bash">source CI/setup_lcg94.sh # example, you can use any of the provided scripts.
+mkdir build &amp;&amp; cd build
+cmake -DCMAKE_INSTALL_PREFIX=&lt;path you want&gt; \
+      -DACTS_BUILD_DD4HEP_PLUGIN=ON \
+      -DACTS_BUILD_TGEO_PLUGIN=ON ..
+cmake --build . -- install
+</code></pre>
+
+<p>In this example the DD4hep, Material and TGeo plugins. The install prefix is
+set to <code>&lt;path you want&gt;</code>.</p>
+<h3 id="building-acts-on-your-local-machine"><a name="build-local">Building Acts on your local machine</a></h3>
+<p>Building and running Acts on your local machine is not offically supported.
+However, if you have the necessary prerequisites installed it should be
+possible to use it locally. Acts developers regularly use different
+recent Linux distributions and macOS to build and develop Acts.</p>
+<h1 id="using-acts-in-your-own-cmake-project"><a name="using-acts">Using Acts in your own cmake project</a></h1>
+<p>When using Acts in your own cmake-based project, you need to include the
+following lines in your <code>CMakeLists.txt</code> file:</p>
+<pre><code class="bash">find_package (Acts COMPONENTS comp1 comp2 ...)
+</code></pre>
+
+<p>where <code>compX</code> are the required components from the Acts project. See the
+<code>cmake</code> output for more information about which components are available.</p>
+<h1 id="documentation"><a name="documentation">Documentation</a></h1>
+<p>You can find a complete documentation of the Acts functionality and the class reference guide at <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">http://acts.web.cern.ch/ACTS/latest/doc/index.html</a>.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="../katex-enable.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

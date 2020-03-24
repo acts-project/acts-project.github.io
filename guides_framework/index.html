@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Framework Examples Guide - Acts</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="../license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../modules_geometry/">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="../modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li >
+    <a href="../modules_propagation/">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="../modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="../modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guides_users/">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../integration/">Integration</a>
+</li>
+                                    
+<li >
+    <a href="../integration_atlas/">Integration in ATLAS</a>
+</li>
+                                    
+<li >
+    <a href="../integration_fcc/">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="../integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#framework-and-examples">Framework and Examples</a></li>
+            <li><a href="#the-framework-purpose">The framework purpose</a></li>
+        <li class="main "><a href="#examples">Examples</a></li>
+            <li><a href="#hello-world">Hello World</a></li>
+            <li><a href="#geometry-building">Geometry Building</a></li>
+            <li><a href="#propagation-example">Propagation Example</a></li>
+            <li><a href="#material-mapping-and-material-validation">Material Mapping and Material Validation</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<div class="toc">
+<ul>
+<li><a href="#framework-and-examples">Framework and Examples</a><ul>
+<li><a href="#the-framework-purpose">The framework purpose</a><ul>
+<li><a href="#framework-design">Framework design</a></li>
+<li><a href="#steering">Steering</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#examples">Examples</a><ul>
+<li><a href="#hello-world">Hello World</a></li>
+<li><a href="#geometry-building">Geometry Building</a></li>
+<li><a href="#propagation-example">Propagation Example</a></li>
+<li><a href="#material-mapping-and-material-validation">Material Mapping and Material Validation</a><ul>
+<li><a href="#material-mapping">Material Mapping</a></li>
+<li><a href="#material-validation">Material Validation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="framework-and-examples">Framework and Examples</h1>
+<p><strong>Disclaimer</strong>
+This needs currently the <code>origin/Remove_Legacy_New_Material</code> branch from <code>acts-framework</code> and the according sub modules.</p>
+<h2 id="the-framework-purpose">The framework purpose</h2>
+<p><strong>Disclaimer</strong></p>
+<p>The <code>acts-framework</code> is not designed for any production purpose, it is simply a helper framework that allows to test code from <code>acts-core</code> and <code>acts-fatras</code> in a parallel environment. </p>
+<h3 id="framework-design">Framework design</h3>
+<p>The stucture of the <code>acts-framework</code> is inspired by Gaudi, but in general very rudimentary. It provides a parallel <code>Sequencer</code>, a central store (called <code>WhiteBoard</code>) an algorithm sequence and a reader and writer structure. The <code>Sequencer</code> calls <code>execute</code> on the list of algorithms in the algorithm list.</p>
+<p>To allow parallel events to be processed, a dedicated <code>EventContext</code> object carries the event number and enforced reproducability concerning random number generation. Readers and writers need to be protected with a <code>mutex</code> in such a parallel structure.</p>
+<p>The multithreading is based on the <code>tbb</code> library, which is a requirement for the <code>acts-framework</code>.
+The number of threads is steered by the environment variable <code>ACTSFW_NUM_THREADS</code>.</p>
+<h3 id="steering">Steering</h3>
+<p>The steering of examples is done using the <code>boost_program_options</code> which are defined for each example, depending on the given functionality. By calling a program with the  <code>--help</code> the list of available options is usually printed.</p>
+<h1 id="examples">Examples</h1>
+<h2 id="hello-world">Hello World</h2>
+<p>The most rudimentary example to run is traditionally the <code>HelloWorld</code> example. It demonstrates how to create a simple algorithm,
+the <code>HelloWorld</code> algorithm which is attached as the single algorithm to the senquencer. For this reason it is explained here in a bit more detail.</p>
+<pre><code class="c++">FW::ProcessCode
+FWE::HelloWorldAlgorithm::execute(FW::AlgorithmContext context) const
+{
+  ACTS_INFO(&quot; Hello World! (from event &quot; &lt;&lt; context.eventNumber &lt;&lt; &quot;)&quot;);
+  ACTS_DEBUG(&quot;  - that's an ACTS_DEBUG message&quot;);
+  ACTS_VERBOSE(&quot;  - that's an ACTS_VERBOSE message&quot;);
+  return FW::ProcessCode::SUCCESS;
+}
+</code></pre>
+
+<p>Here is the full program: it starts with the adding of common program options, such as the number of events and the output log level.
+Then, these parameters are read back in from the argument list provided.</p>
+<p>A <code>HelloWorld</code> algorithm is created and added to the sequencer, and finally the chosen <code>nEvents</code> are executed.</p>
+<pre><code class="c++">/// Main read evgen executable
+///
+/// @param argc The argument count
+/// @param argv The argument list
+int
+main(int argc, char* argv[])
+{
+  // Declare the supported program options.
+  po::options_description desc(&quot;Allowed options&quot;);
+  // Add the standard options
+  FW::Options::addCommonOptions&lt;po::options_description&gt;(desc);
+  // Map to store the given program options
+  po::variables_map vm;
+  // Get all options from contain line and store it into the map
+  po::store(po::parse_command_line(argc, argv, desc), vm);
+  po::notify(vm);
+  // Print help if reqested
+  if (vm.count(&quot;help&quot;)) {
+    std::cout &lt;&lt; desc &lt;&lt; std::endl;
+    return 1;
+  }
+  // Read the common options
+  auto nEvents  = FW::Options::readNumberOfEvents&lt;po::variables_map&gt;(vm);
+  auto logLevel = FW::Options::readLogLevel&lt;po::variables_map&gt;(vm);
+
+  // And add the hello world algorithm
+  std::shared_ptr&lt;FW::IAlgorithm&gt; hWorld(
+      new FWE::HelloWorldAlgorithm(logLevel));
+
+  // Create the config object for the sequencer
+  FW::Sequencer::Config seqConfig;
+
+  // Now create the sequencer
+  FW::Sequencer sequencer(seqConfig);
+  sequencer.appendEventAlgorithms({hWorld});
+  sequencer.run(nEvents);
+  // Return 0 for success
+  return 0;
+}
+</code></pre>
+
+<p>Let us first execute the binary with the <code>--help</code> option which prints out the available options for this executable.</p>
+<pre><code class="bash">Allowed options:
+  --help                     Produce help message
+  -n [ --events ] arg (=1)   The number of events to be processed
+  -l [ --loglevel ] arg (=2) The output log level. Please set the wished number
+                             (0 = VERBOSE, 1 = DEBUG, 2 = INFO, 3 = WARNING, 4
+                             = ERROR, 5 = FATAL).
+</code></pre>
+
+<p>Only the number of events and the output log level can be changed for the <code>HelloWorld</code> example, which when executed with default parameters yields</p>
+<pre><code class="bash">
+acts-tester$ ./ACTFWHelloWorldExample
+
+14:38:38    Sequencer      INFO      Appended algorithm HelloWorld
+14:38:38    Sequencer      INFO      Starting event loop for
+14:38:38    Sequencer      INFO        0 services
+14:38:38    Sequencer      INFO        0 readers
+14:38:38    Sequencer      INFO        0 writers
+14:38:38    Sequencer      INFO        1 algorithms
+14:38:38    Sequencer      INFO      Run the event loop
+14:38:38    Sequencer      INFO      start event 0
+14:38:38    HelloWorld     INFO       Hello World! (from event 0)
+14:38:38    Sequencer      INFO      event 0 done
+14:38:38    Sequencer      INFO      Running end-of-run hooks of writers and services
+</code></pre>
+
+<p>One can now modify the number of events and the screen output level, e.g. </p>
+<pre><code class="bash">acts-tester$ ./ACTFWHelloWorldExample -l0
+14:39:37    Sequencer      INFO      Appended algorithm HelloWorld
+14:39:37    Sequencer      INFO      Starting event loop for
+14:39:37    Sequencer      INFO        0 services
+14:39:37    Sequencer      INFO        0 readers
+14:39:37    Sequencer      INFO        0 writers
+14:39:37    Sequencer      INFO        1 algorithms
+14:39:37    Sequencer      INFO      Run the event loop
+14:39:37    Sequencer      INFO      start event 0
+14:39:37    HelloWorld     INFO       Hello World! (from event 0)
+14:39:37    HelloWorld     DEBUG       - that is an ACTS_DEBUG message
+14:39:37    HelloWorld     VERBOSE     - that is an ACTS_VERBOSE message
+14:39:37    Sequencer      INFO      event 0 done
+14:39:37    Sequencer      INFO      Running end-of-run hooks of writers and services
+</code></pre>
+
+<p>or (with <code>export ACTSFW_NUM_THREADS=1</code>):</p>
+<pre><code class="bash">acts-tester$ ./ACTFWHelloWorldExample -n5
+14:41:15    Sequencer      INFO      Appended algorithm HelloWorld
+14:41:15    Sequencer      INFO      Starting event loop for
+14:41:15    Sequencer      INFO        0 services
+14:41:15    Sequencer      INFO        0 readers
+14:41:15    Sequencer      INFO        0 writers
+14:41:15    Sequencer      INFO        1 algorithms
+14:41:15    Sequencer      INFO      Run the event loop
+14:41:15    Sequencer      INFO      start event 0
+14:41:15    HelloWorld     INFO       Hello World! (from event 0)
+14:41:15    Sequencer      INFO      event 0 done
+14:41:15    Sequencer      INFO      start event 1
+14:41:15    HelloWorld     INFO       Hello World! (from event 1)
+14:41:15    Sequencer      INFO      event 1 done
+14:41:15    Sequencer      INFO      start event 2
+14:41:15    HelloWorld     INFO       Hello World! (from event 2)
+14:41:15    Sequencer      INFO      event 2 done
+14:41:15    Sequencer      INFO      start event 3
+14:41:15    HelloWorld     INFO       Hello World! (from event 3)
+14:41:15    Sequencer      INFO      event 3 done
+14:41:15    Sequencer      INFO      start event 4
+14:41:15    HelloWorld     INFO       Hello World! (from event 4)
+14:41:15    Sequencer      INFO      event 4 done
+14:41:15    Sequencer      INFO      Running end-of-run hooks of writers and service
+</code></pre>
+
+<p>When increasing the available number of threads, one can see how the events get executed in parallel and the screen print out gets scrambled:</p>
+<pre><code class="bash">acts-tester$ ./ACTFWHelloWorldExample -n5
+14:43:23    Sequencer      INFO      Appended algorithm HelloWorld
+14:43:23    Sequencer      INFO      Starting event loop for
+14:43:23    Sequencer      INFO        0 services
+14:43:23    Sequencer      INFO        0 readers
+14:43:23    Sequencer      INFO        0 writers
+14:43:23    Sequencer      INFO        1 algorithms
+14:43:23    Sequencer      INFO      Run the event loop
+14:43:23    Sequencer      INFO      start event 2
+14:43:23    Sequencer      INFO      start event 3
+14:43:23    Sequencer      INFO      start event 0
+14:43:23    HelloWorld     INFO       Hello World! (from event 2)
+14:43:23    HelloWorld     INFO       Hello World! (from event 3)
+14:43:23    Sequencer      INFO      start event 4
+14:43:23    Sequencer      INFO      event 3 done
+14:43:23    HelloWorld     INFO       Hello World! (from event 4)
+14:43:23    Sequencer      INFO      start event 1
+14:43:23    HelloWorld     INFO       Hello World! (from event 0)
+14:43:23    Sequencer      INFO      event 2 done
+14:43:23    Sequencer      INFO      event 4 done
+14:43:23    Sequencer      INFO      event 0 done
+14:43:23    HelloWorld     INFO       Hello World! (from event 1)
+14:43:23    Sequencer      INFO      event 1 done
+14:43:23    Sequencer      INFO      Running end-of-run hooks of writers and services
+</code></pre>
+
+<h2 id="geometry-building">Geometry Building</h2>
+<p>This example does not run an event loop, it only build the geometry and evokes writers for the output of the geometry into some visualisation format (<code>.obj</code>). There are different ways to build an Acts geometry, depending on which input geometry is chosen:</p>
+<ul>
+<li>GenericGeometry, i.e. an adhoc geometry descrbed in <code>Detectors/GenericGeometry</code> using an explicit C++ description</li>
+<li>RootGeometry, a TGeo/ROOT based geometry constructed with the <code>TGeoLayerBuilder</code> from <code>acts-core</code></li>
+<li>DD4hepGeometry, a TGeo/DD4hep based geometry constructed with the <code>DD4hepLayerBuilder</code> from <code>acts-core</code></li>
+</ul>
+<p>Let us start with the <code>ACTFWGenericGeometryExample</code>, and inspect the options:</p>
+<pre><code class="bash">./ACTFWGenericGeometryExample --help
+Allowed options:
+  --help                                Produce help message
+  -n [ --events ] arg (=1)              The number of events to be processed
+  -l [ --loglevel ] arg (=2)            The output log level. Please set the
+                                        wished number (0 = VERBOSE, 1 = DEBUG,
+                                        2 = INFO, 3 = WARNING, 4 = ERROR, 5 =
+                                        FATAL).
+  --obj-tg-fileheader arg               The (optional) file header for the
+                                        tracking geometry.
+  --obj-tg-sensitiveheader arg          The (optional) header in front of
+                                        sensitive sensors.
+  --obj-tg-layerheader arg              The (optional) header in front of layer
+                                        surfaces.
+  --obj-sf-fileheader arg               The (optional) file header for the
+                                        surface writer.
+  --obj-sf-phisegments arg (=72)        Number of phi segments to approximate
+                                        curves.
+  --obj-sf-outputPrecission arg (=6)    Floating number output precission.
+  --obj-sf-outputScalor arg (=1)        Scale factor to be applied.
+  --obj-sf-outputThickness arg (=1)     The surface thickness.
+  --obj-sf-outputSensitive arg (=1)     Write sensitive surfaces.
+  --obj-sf-outputLayers arg (=1)        Write layer surfaces.
+  --geo-surface-loglevel arg (=3)       The outoput log level for the surface
+                                        building.
+  --geo-layer-loglevel arg (=3)         The output log level for the layer
+                                        building.
+  --geo-volume-loglevel arg (=3)        The output log level for the volume
+                                        building.
+  --geo-subdetectors arg (= )           Sub detectors for the output writing
+  --geo-material-mode arg (=1)          Modes are: 0 (none), 1 (construct), 2
+                                        (load), 3 (proto)
+  --geo-material-file arg (=material-maps.root)
+                                        File for the material maps to be
+                                        loaded.
+  --output-dir arg                      Output directory location.
+  --output-root arg (=0)                Switch on to write '.root' output
+                                        file(s).
+  --output-csv arg (=0)                 Switch on to write '.csv' output
+                                        file(s).
+  --output-obj arg (=0)                 Switch on to write '.obj' ouput
+                                        file(s).
+  --output-json arg (=0)                Switch on to write '.json' ouput
+                                        file(s).
+</code></pre>
+
+<p>There are different steering options concering the output, most importantly the <code>--geo-subdetectors</code> option that reads the list of sub detectors which should be written out for this detector. The standard <code>GenericGeometry</code> is built from a beam pipe, a pixel detector, a pixel support tube, short strips detector (SStrip) and long strings (LStrip), hence we can evoke the following call.</p>
+<pre><code class="bash">./ACTFWGenericGeometryExample  --output-obj 1 --geo-subdetectors BeamPipe Pixel PST SStrip LStrip
+
+</code></pre>
+
+<p>This creates dedicated <code>obj</code> files that can be used for displaying the detector with a standard viewer that can read the <code>obj</code> format:</p>
+<pre><code class="bash">-rw-r--r--  1 salzburg  staff    13542 Jan 15 16:59 BeamPipe.obj
+-rw-r--r--  1 salzburg  staff  3095801 Jan 15 16:59 LStrip.obj
+-rw-r--r--  1 salzburg  staff    13580 Jan 15 16:59 PST.obj
+-rw-r--r--  1 salzburg  staff  1963033 Jan 15 16:59 Pixel.obj
+-rw-r--r--  1 salzburg  staff  3543361 Jan 15 16:59 SStrip.obj
+</code></pre>
+
+<p>The following is an example of <code>Pixel.obj</code> displayed with a standard online obj viewer</p>
+<p><img alt="Pixel_obj_" src="../figures/framework/Pixel_obj.png" /></p>
+<p>With appropriate input, the <code>ACTFWRootGeometryExample</code> and <code>DD4hepGeometryExample</code> are to be used in a very similar way.</p>
+<h2 id="propagation-example">Propagation Example</h2>
+<p>The <code>PropagationExample</code> again exists for the different geoemtry backends and is based on the <code>Algorithms/PropagationAlgorithm</code> module. It performs random test propagations throught he detector and allows to write them with certain debug information into appropriate writers. </p>
+<p>Let us continue with the <code>Generic</code> geometry example, and first inspect he options: next to the geometry building options (<code>--geo-xxx-yyy</code>) there appear options for the magnetic field setup (<code>--bf-xxx-yyy</code>) and for the behaviour of the propagation (<code>--prop-xx-yy</code>). </p>
+<p>Running </p>
+<pre><code class="bash">actstest$ ./ACTFWGenericPropagationExample -n 10 --prop-ntests 10000 --bf-values 0 0 2 --output-root  1
+</code></pre>
+
+<p>Performs 10 events of each 10000 test propagations through a magnetic field of 2 Tesla in z direction and produces a root output file (by default <code>propagation-steps.root</code>) with the default <code>EigenStepper</code> (Runge-Kutta-Nystrom integration).</p>
+<p>Inspecting the root files reveals the detector and its interaction with the runge kutta propagation algorithm, the following pictures shows all steps the stepper has performed, either due to navigation instruction, accuracy control, abort condition and user setting:</p>
+<p><img alt="propagation_all" src="../figures/framework/propagation_steps_all_barrel.gif" /></p>
+<p>Restricting the steps to only those performed for navigational purposes, shows:</p>
+<p><img alt="propagation_navigation" src="../figures/framework/propagation_steps_navigation_barrel.gif" /></p>
+<p>And, furthermore, requiring that sensitive material was hit, reveils:</p>
+<p><img alt="propagation_sensitive" src="../figures/framework/propagation_steps_sensitive_barrel.gif" /></p>
+<p>Which leaves the steps that are necessary due to accuracy control to be:</p>
+<p><img alt="propagation_rungekutta" src="../figures/framework/propagation_steps_rungekutta_barrel.gif" /></p>
+<p>One can clearly see how lower momentum tracks need more steps.</p>
+<h2 id="material-mapping-and-material-validation">Material Mapping and Material Validation</h2>
+<p>The Acts toolkit consists of an automated system to map a complex detector geometry onto a more suitable, simplified geometry model for reconstruction.</p>
+<h3 id="material-mapping">Material Mapping</h3>
+<p>The <code>MaterialMapping</code> example demonstrates how to map and project material information from a complex detector geometry onto a set of chosen layers. As an input to the <code>MaterialMapping</code> algorithm a collection of recorded material information is needed. </p>
+<p>The input format for the mapper is a collection of <code>MaterialInteraction</code> objects, this is usually generated with <code>Geant4</code> and an appropriate <code>G4UserAction</code> can be found in the <code>acts-framework/Plugins/Geant4</code> plugin. Alternatively, the <code>MaterialInteractor</code> of the <code>acts-core</code> module can also write out such a collection.</p>
+<p>For the purpose of this example, we use the ad-hoc built material description of the <code>GenericDetector</code>, which has certain material properties on sensitive elements and support structure, such as on the beam pipe and the PST. To create an input collection, one just needs to run the <code>ACTFWGenericMaterialValidationExample</code> and write out the recorded material with the root output option.</p>
+<pre><code class="bash"> ./ACTFWGenericMaterialValidationExample -n 1000 --prop-ntests 1000  --prop-energyloss 0  --prop-scattering 0 --prop-record-material 1 --output-root 1
+</code></pre>
+
+<p>This executes 1000 events with each 1000 straight line tracks using the <code>PropagationAlgorithm</code> with energy loss and scattering switched off, but configured to record material and output a root file (default: <code>propagation-material.root</code>).</p>
+<p>Let's inspect the root file, by plotting all position in a central region where material was found</p>
+<p><img alt="material_rawposition_xy" src="../figures/framework/material_rawposition_xy.gif" /></p>
+<p>One can clearly see the support structures and the sensitive surface carrying material. We can also look at the total amount of material in this tracker, here shown in thickness in terms of radiation length:</p>
+<p><img alt="material_rawposition_xy" src="../figures/framework/material_rawtx0vsEta_xy.gif" /></p>
+<p>Now, let us use this input file to map it onto a simpler configuration. The generic detector is designed to do so. When chosing the option <code>--geo-material-mode=3</code>, the exact same detector will be built, but instead of a material descriptionb for sensitive surfaces and support structures, only certain layers are loaded with a so called <code>ProtoSurfaceMaterial</code> object, which is a placeholder for the mapping. It consists of a binning prescription, i.e. a directive how granular one wants the maps on this layer to be done.</p>
+<p>Let us now run the mapping process with the more complicated input from the <code>GenericDetector</code> and map it onto a few surfaces with a dedicated binning structure.</p>
+<pre><code class="bash">./ACTFWGenericMaterialMappingExample -n 1000000 --geo-material-mode=3 --output-root 1 --input-root 1 --input-files propagation-material.root
+</code></pre>
+
+<p>From our prior validation job of 1000 events times 1000 tests we have 1000000 mapping events available. 
+<strong>ATTENTION:</strong>
+Since the mapping process combines information from all events into a single collection of material maps, this has to be run in single trheaded mode, i.e. with <code>export ACTSFW_NUM_THREADS=1</code>.</p>
+<p>At the end of this job, some screen information shows which maps have been produced:</p>
+<pre><code class="bash">15:18:11    Sequencer      INFO      Running end-of-run hooks of writers and services
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol5_lay2_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay2_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay4_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay6_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay8_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay10_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay12_app0_sen0
+15:18:11    IndexedMater   INFO      Writing out map at Material_vol7_lay14_app0_sen0
+</code></pre>
+
+<p>And, in this configuration, a root file containing the maps is produced:</p>
+<pre><code class="bash">-rw-r--r--  1 salzburg  staff  1430046 Jan 16 15:18 material-maps.root
+</code></pre>
+
+<p>We can have a look at those maps and even plot them:</p>
+<p><img alt="material_map_x0" src="../figures/framework/material_map_x0.gif" /></p>
+<p>One can see, how the module structure with its overlaps in now projected into one binned material map.</p>
+<h3 id="material-validation">Material Validation</h3>
+<p>The <code>MaterialValidation</code> example is built upon the <code>PropagationAlgorithm</code>: it runs test propagations and records the material inforamtion in the tracker. If configured with the <code>--root-output 1</code> option, this iformation is written into a <code>root</code> file. It has already be used in the <code>MaterialMapping</code> example to produce the material information that is then later mapped onto the <code>ProtoSurfaceMaterial</code> to produce the material maps to be loaded.</p>
+<p>After having produces such material maps, we can now create the geometry with loaded maps and compare the material budget to the orginal material source.</p>
+<pre><code class="bash">./ACTFWGenericMaterialValidationExample -n 100 --prop-ntests 1000  --prop-energyloss 0  --prop-scattering 0 --prop-record-material 1 --output-root 1 --geo-material-mode 2 --geo-material-file=material-maps.root
+</code></pre>
+
+<p>The options <code>--geo-material-mode 2</code> and <code>--geo-material-file=material-maps.root</code> steer hereby to load the material back from a file and do not construct it ad-hoc.</p>
+<p>Let us compare the material recorded with the original detector (black) and the maps (red), first the positions:</p>
+<p><img alt="material_position_comp" src="../figures/framework/material_positioncomp_xy.gif" />
+<img alt="material_position_comp_detail" src="../figures/framework/material_positioncomp_detail_xy.gif" /></p>
+<p>One can perfectly see how the original map was more detailed and complicated and how the maps concentrate the material on simplified surfaces.</p>
+<p>However, when comparing the total material budget in the detector, only little compromise has been done and due to the binning structure of the maps, the structure in both pseudorapidity and azimuthal angle is pretty much preserved:</p>
+<p><img alt="material_tx0vsEta_comp" src="../figures/framework/material_rawtx0vsEtacomp_xy.gif" />
+<img alt="material_tx0vsPhi_comp" src="../figures/framework/material_rawtx0vsPhicomp_xy.gif" /></p>
+<p>This result can improved by optimising the binning structure.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="../katex-enable.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

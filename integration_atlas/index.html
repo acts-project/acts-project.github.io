@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Integration in ATLAS - Acts</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="../license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../modules_geometry/">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="../modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li >
+    <a href="../modules_propagation/">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="../modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="../modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guides_users/">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_framework/">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../integration/">Integration</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Integration in ATLAS</a>
+</li>
+                                    
+<li >
+    <a href="../integration_fcc/">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="../integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#using-acts-from-athena">Using Acts from Athena</a></li>
+            <li><a href="#current-atlas-inner-detector">Current ATLAS Inner Detector</a></li>
+            <li><a href="#itk">ITk</a></li>
+            <li><a href="#design">Design</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="using-acts-from-athena">Using Acts from Athena</h1>
+<p>First steps have been taken towards use <em>Acts</em> inside <em>Athena</em>. The current
+goal is to demonstrate that the Acts geometry design can accomodate current and
+future ATLAS tracking geometries without requiring dedicated modifications in
+the library.  This means building an <code>Acts::TrackingGeometry</code>, which contains a
+hierarchy of <code>TrackingVolume</code>s. These, in turn, encompass layers of detector
+elements.  Having done this, <code>Acts</code> can be used to propagate particles through
+the geometry. This allows the testing of the navigation that is required to
+follow a particle trajectory through the detector.</p>
+<p>Since Acts is designed to be configurable, the construction of the layer
+structure is delegated to a <code>LayerBuilder</code> utility object. A <code>LayerBuilder</code>
+object, that is aware of Athena and the way the detector geometry is acessible
+within it, can provide Acts with all the information that is needed to
+construct the tracking geometry.</p>
+<pre><code class="cpp">Acts::SurfaceArrayCreator::Config sacCfg;
+sacCfg.surfaceMatcher = matcher; // &lt;- allows injection of Identifier info
+
+auto surfaceArrayCreator = std::make_shared&lt;Acts::SurfaceArrayCreator&gt;(
+sacCfg,
+Acts::getDefaultLogger(&quot;SurfaceArrayCreator&quot;, Acts::Logging::VERBOSE));
+
+// ...
+
+GeoModelLayerBuilder::Config cfg;
+// layer builder gets the detector manager
+cfg.mng = static_cast&lt;const InDetDD::SiDetectorManager*&gt;(manager);
+gmLayerBuilder = std::make_shared&lt;const GMLB&gt;(cfg,
+Acts::getDefaultLogger(&quot;GMLayBldr&quot;, Acts::Logging::VERBOSE));
+
+Acts::CylinderVolumeBuilder::Config cvbConfig;
+cvbConfig.layerEnvelopeR = {0, 0};
+cvbConfig.layerEnvelopeZ       = 2;
+cvbConfig.trackingVolumeHelper = cvh;
+// ...
+cvbConfig.layerBuilder         = gmLayerBuilder;
+
+Acts::TrackingGeometryBuilder::Config tgbConfig;
+tgbConfig.trackingVolumeHelper   = cylinderVolumeHelper;
+tgbConfig.trackingVolumeBuilders = volumeBuilders;
+auto trackingGeometryBuilder
+  = std::make_shared&lt;const Acts::TrackingGeometryBuilder&gt;(tgbConfig);
+
+std::shared_ptr&lt;const Acts::TrackingGeometry&gt; trackingGeometry 
+  = trackingGeometryBuilder-&gt;trackingGeometry();
+</code></pre>
+
+<p>Tracking surfaces in Acts are coupled to a detector element object, which needs
+to fulfill a certain interface. A dedicated detector element class, which can
+wrap an ATLAS detector element object, was written. At this point, the class
+tries to abstract away some differences between detector elements from the
+different ATLAS subdetectors, which are irrelevant to Acts and allow the
+<code>LayerBuilder</code> to be less verbose. The detector identification helpers are an
+example for this. The detector element needs to provide a transform which
+describes the transition into the local reference frame of it's active surface.
+In this case, the transform is stored as a pointer and returned as a const
+reference when requested. This should in principle allow for changes of the
+transforms transparently to Acts. This would be helpful as an initial approach
+to support handling of alignment, since no dedicated infrastructure for
+alignment is in place within Acts.</p>
+<h2 id="current-atlas-inner-detector">Current ATLAS Inner Detector</h2>
+<p>The detector managers allow access to all the detector elements. The layer
+builder loops over all elements and wraps them into a Acts detector element.
+Subsequently, the identifiers attached to the detector elements allow figuring
+out which detector part and layer the elements belong to. The elements are thus
+collected into buckets for each layer in each component. The elements are then
+handed over to the <em>LayerCreator</em> utility, which is part of the Acts core, and
+is versatile enough to handle ATLAS geometries. Identifier information can be
+injected into the <em>LayerCreator</em>, which allows determining layer size and
+binning automatically. </p>
+<p>In the case of the TRT, the layer builder currently uses the <code>TRT_Numerology</code>
+to figure out the number of layers without looping over elements. The detector
+manager provides a method which allows access to detector elements based on the
+indices returned by <code>TRT_Numerology</code>. As of now, every straw is translated into
+a detector element in Acts. The endcaps are built as 160 separate disc layers
+containing one layer of straws. In the barrel, there is one layer per barrel
+ring. The binning is not optimal at this point, an arbitrary <span class="arithmatex">\(\phi\)</span> binning should
+work reasonably well.</p>
+<h2 id="itk">ITk</h2>
+<p>With some modifications, the layer builder can build the ITk geometry in
+<code>20.20</code>. One adjustment is the fact that the meaning of the identifier parts
+<em>eta_module</em> and <em>layer_disk</em> changed for the Pixel endcaps. In the ID,
+<em>layer_disk</em> enumerates the endcap themselves, while <em>eta_module</em> enumerates
+the rings in <span class="arithmatex">\(r\)</span>. In <code>20.20</code>, <em>eta_module</em> enumerates the <span class="arithmatex">\(z\)</span>-position of
+rings, while <em>layer_disk</em> enumerates the rings in <span class="arithmatex">\(r\)</span>. A problem arises here,
+because <em>eta_module</em> now only enumerates rings present in a given <em>eta_module</em>.
+This way, the identifier cannot be used which elements belong to the same layer
+(in the Acts sense).</p>
+<h2 id="design">Design</h2>
+<p>Currently, the tracking geometry is built from inside one algorithm.
+The particle propagation loop also runs within the algorithm. This will need to
+be reworked, so that access to the Acts tracking geometry is available in a
+reusable way.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="../katex-enable.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

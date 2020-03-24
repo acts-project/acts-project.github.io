@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Geometry - Acts</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="../license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="../modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li >
+    <a href="../modules_propagation/">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="../modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="../modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guides_users/">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_framework/">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../integration/">Integration</a>
+</li>
+                                    
+<li >
+    <a href="../integration_atlas/">Integration in ATLAS</a>
+</li>
+                                    
+<li >
+    <a href="../integration_fcc/">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="../integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#geometry-module">Geometry module</a></li>
+            <li><a href="#geometryobject-base-class-and-geometryid">GeometryObject base class and GeometryID</a></li>
+            <li><a href="#surface-classes">Surface classes</a></li>
+            <li><a href="#layer-classes">Layer classes</a></li>
+            <li><a href="#volume-classes">Volume classes</a></li>
+            <li><a href="#material-description">Material description</a></li>
+        <li class="main "><a href="#geometry-building">Geometry building</a></li>
+            <li><a href="#attaching-a-3d-detector-geometry">Attaching a 3D detector geometry</a></li>
+            <li><a href="#layer-building">Layer building</a></li>
+            <li><a href="#volume-building-packing-and-gluing">Volume building, packing and gluing</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="geometry-module">Geometry module</h1>
+<div class="toc">
+<ul>
+<li><a href="#geometry-module">Geometry module</a><ul>
+<li><a href="#geometryobject-base-class-and-geometryid">GeometryObject base class and GeometryID</a></li>
+<li><a href="#surface-classes">Surface classes</a></li>
+<li><a href="#layer-classes">Layer classes</a></li>
+<li><a href="#volume-classes">Volume classes</a></li>
+<li><a href="#material-description">Material description</a></li>
+</ul>
+</li>
+<li><a href="#geometry-building">Geometry building</a><ul>
+<li><a href="#attaching-a-3d-detector-geometry">Attaching a 3D detector geometry</a><ul>
+<li><a href="#existing-plugins-for-3d-geometry-libraries">Existing Plugins for 3D geometry libraries</a></li>
+</ul>
+</li>
+<li><a href="#layer-building">Layer building</a></li>
+<li><a href="#volume-building-packing-and-gluing">Volume building, packing and gluing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The Acts geometry model is strongly based on the ATLAS Tracking geometry. Its
+core is built on a surface-based description that make up all geometry objects
+of higher complexity. This design has been chosen as the surface objects can be
+used together with the track propagation module and thus all geometry objects
+become natively integrated into the tracking software.</p>
+<h2 id="geometryobject-base-class-and-geometryid">GeometryObject base class and GeometryID</h2>
+<p>All geometry objects in Acts inherit from a virtual <code>GeometryObject</code> base class</p>
+<pre><code>/// @class GeometryObject
+///
+/// Base class to provide GeometryID interface:
+/// - simple set and get
+///
+/// It also provides the binningPosition method for
+/// Geometry geometrical object to be binned in BinnedArrays
+///
+class GeometryObject
+{
+public:
+ /// default constructor
+ GeometryObject() : m_geoID(0) {}
+
+ /// constructor from a ready-made value
+ ///
+ /// @param geoID the geometry identifier of the object
+ GeometryObject(const GeometryID&amp; geoID) : m_geoID(geoID) {}
+
+ /// assignment operator
+ ///
+ /// @param geoID the source geoID
+ GeometryObject&amp;
+ operator=(const GeometryObject&amp; geoID)
+ {
+   if (&amp;geoID != this) {
+     m_geoID = geoID.m_geoID;
+   }
+   return *this;
+ }
+
+ /// Return the value
+ /// @return the geometry id by reference
+ const GeometryID&amp;
+ geoID() const;
+
+ /// Force a binning position method
+ ///
+ /// @param bValue is the value in which you want to bin
+ ///
+ /// @return vector 3D used for the binning schema
+ virtual const Vector3D
+ binningPosition(BinningValue bValue) const = 0;
+
+ /// Implement the binningValue
+ ///
+ /// @param bValue is the dobule in which you want to bin
+ ///
+ /// @return float to be used for the binning schema
+ double
+ binningPositionValue(BinningValue bValue) const;
+
+ /// Set the value
+ ///
+ /// @param geoID the geometry identifier to be assigned
+ void
+ assignGeoID(const GeometryID&amp; geoID);
+
+protected:
+ GeometryID m_geoID;
+};
+</code></pre>
+<p>This class ensures that a unique <code>GeometryID</code> is assigned to every geometry
+object. The <code>GeometryID</code> is mainly used for fast identification of the type of
+the geometry object (as most are either extensions or containers of the
+<code>Surface</code> objects) and for the identification of the geometry surfaces after
+building, e.g. for the uploading/assigning of material to the surface after
+creation. The <code>GeometryID</code> uses a simple masking procedure for applying an
+identification schema.</p>
+<p>It is used for Acts internal applications, such as material mapping, but not
+for <code>EventData</code> and <code>Geometry</code> identification in an experiment setup, for this
+the <code>Identifier</code> class is to be used and/or defined.</p>
+<pre><code>typedef uint64_t geo_id_value;
+
+namespace Acts {
+
+/// @class GeometryID
+///
+///  Identifier for Geometry nodes - packing the
+///  - (Sensitive) Surfaces    - uses counting through sensitive surfaces
+///  - (Approach)  Surfaces    - uses counting approach surfaces
+///  - (Layer)     Surfaces    - uses counting confined layers
+///  - (Boundary)  Surfaces    - uses counting through boundary surfaces
+///  - Volumes                 - uses counting given by TrackingGeometry
+
+class GeometryID
+{
+
+public:
+  const static geo_id_value volume_mask    = 0xff00000000000000;
+  const static geo_id_value boundary_mask  = 0x00ff000000000000;
+  const static geo_id_value layer_mask     = 0x0000ff0000000000;
+  const static geo_id_value approach_mask  = 0x000000f000000000;
+  const static geo_id_value sensitive_mask = 0x0000000ffff00000;
+  const static geo_id_value channel_mask   = 0x00000000000fffff;
+
+  ...
+};
+</code></pre>
+<h2 id="surface-classes">Surface classes</h2>
+<p>The <code>Surface</code> class builds the core class of all geometry objects and can be
+used natively with the propagation and extrapolation modules. The common
+<code>Surface</code> virtual base defines the public interface of all surfaces. The
+different concrete <code>Surface</code> classes are defined by their respective native
+local coordinate system, while different shapes on surfaces are defined by
+<code>SurfaceBounds</code> classes which every surface must provide. In case of boundless
+surfaces, a special <code>InfiniteBounds</code> class is available.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Surface Type</th>
+<th>Local Coordinates</th>
+<th align="left">Bound Types available</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>ConeSurface</code></td>
+<td>[rphi, z]</td>
+<td align="left"><code>ConeBounds</code></td>
+</tr>
+<tr>
+<td align="left"><code>CylinderSurface</code></td>
+<td>[r, phi]</td>
+<td align="left"><code>CylinderBounds</code></td>
+</tr>
+<tr>
+<td align="left"><code>DiscSurface</code></td>
+<td>[r, phi]</td>
+<td align="left"><code>RadialBounds</code>, <code>DiscTrapezoidalBounds</code></td>
+</tr>
+<tr>
+<td align="left"><code>PlaneSurface</code></td>
+<td>[x, y]</td>
+<td align="left"><code>RectangleBounds</code>, <code>TrapezoidalBounds</code>, <code>TriangleBounds</code>, <code>InfiniteBounds</code>, <code>EllipseBounds</code></td>
+</tr>
+<tr>
+<td align="left"><code>PerigeeSurface</code>, <code>StrawSurface</code></td>
+<td>[d, z]</td>
+<td align="left"><code>CylinderBounds</code></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="CylinderBounds" src="../figures/geometry/CylinderBounds.png" />
+<img alt="DiscBounds" src="../figures/geometry/DiscBounds.png" />
+<img alt="PlaneBounds" src="../figures/geometry/PlaneBounds.png" /></p>
+<h2 id="layer-classes">Layer classes</h2>
+<p>The <code>Layer</code> class is an extension of the <code>Surface</code> class that allows the
+definition of sub surfaces (sensitive surfaces for modules, or extra material
+surfaces).</p>
+<p>The Layer can simply correspond to a 'virtual' surface in the detector
+description or represent a more complex object that may contain:</p>
+<ul>
+<li>a representing surface, which is accessible via a <code>representingSurface()</code></li>
+<li>method an array of contained surfaces, accessible via <code>surfaceArray()</code> method</li>
+<li>approach surfaces (i.e. boundary surface of the volume occupied by the layer)</li>
+<li>surface material description on any of the confined surfaces</li>
+</ul>
+<p>The following illustration shows an x-y view of a cylinder layer with planar
+detection modules:</p>
+<p><img alt="CylinderLayer" src="../figures/geometry/CylinderLayer.png" /></p>
+<p>Modules can be sorted onto layer using all supported binning methods described through the <code>SurfaceArray</code> class,
+the binning can be adjusted to fit as good as possible.</p>
+<p><img alt="DiscLayerEB" src="../figures/geometry/DiscLayerEB.png" /></p>
+<p>The un-occupied space in a volume which contains a layer array is filled with objects of type <code>NavigationLayer</code>, which allows that in a fully static geometry setp, every single point in a volume can be associated with a layer. Layer objects are confined together in a special <code>LayerArray</code> class and can be contained by a <code>TrackingVolume</code>.</p>
+<p><img alt="LayerArray" src="../figures/geometry/LayerArray.png" /></p>
+<h2 id="volume-classes">Volume classes</h2>
+<p>The <code>Volume</code> class is a container of <code>BoundarySurface</code> objects, where each
+<code>BoundarySurface</code> is an extension of the <code>Surface</code> class with additional
+information abouit the attached Volumes. The normal vector of the surface
+defines an <em>inside</em> (opposite w.r.t. the normal vector) and an <em>outside</em> (along
+w.r.t. the normal vector) direction. Either a single volume or an array of
+volumes can be attached to a volume.</p>
+<p>The simples volume class is just a collection of surfaces, where the
+<code>TrackingVolume</code> describes a volume that can contain:</p>
+<ul>
+<li>an array of contained layers</li>
+<li>an array of contained volumes (as a container volume)</li>
+<li>an array of contained volumes (as <em>floating</em> objects)</li>
+<li>a volume based material description</li>
+</ul>
+<p>The shape of the volume is defined by <code>VolumeBounds</code> classes that create the
+corresponding bounding surfaces and register the attachment to the volume
+itself at creation.</p>
+<p><img alt="VolumeBounds" src="../figures/geometry/VolumeBounds.png" />
+<img alt="CylinderVolumeBounds" src="../figures/geometry/CylinderVolumeBounds.png" /></p>
+<h2 id="material-description">Material description</h2>
+<p>Two types of material description exist, one for a surface based material, one
+for a volume based material. They will be dealt with differently in the
+extrapolation.</p>
+<p>The basic information for any material is:</p>
+<ul>
+<li>the radiation length X0 the nuclear interaction length L0 the atomic weight A</li>
+<li>the atomic charge Z the density of the material</li>
+</ul>
+<p>This information is confined together in the <code>Material</code> class.</p>
+<p>Surface based material extends this material information by representative
+thickness, the corresponding object is called <code>MaterialProperties</code>. The
+thickness hereby can be arbitrarily chosen in order to regulate the material
+budget, it does not have to represent the actual thickness of a detector
+element. To attach it to a surface, a dedicated <code>SurfaceMaterial</code> class (or
+it's extensions) is used, which allows to also describe binned material.</p>
+<p>Possible extensions are:</p>
+<ul>
+<li><code>HomogeneousSurfaceMaterial</code>, homogeneous material description on a surface</li>
+<li><code>BinnedSurfaceMaterial</code>, an arbitrarily binned material description with a
+    corresponding <code>BinUtility</code> object </li>
+<li><code>ProtoSurfaceMaterial</code>, only binning description (without material) to be 
+   used in the material mapping process</li>
+</ul>
+<h1 id="geometry-building">Geometry building</h1>
+<p>The geometry building procedure follows the ATLAS TrackingGeometry philosophy
+of a static frame of <em>glued</em> volumes, that lead the navigation flow through the
+geometry, </p>
+<h2 id="attaching-a-3d-detector-geometry">Attaching a 3D detector geometry</h2>
+<p>Usually, a 3D detector model geometry exists, which is either native to the
+full detector simulation (Geant4) or is translated into it. This model,
+however, is in general too detailed for track reconstruction: navigating
+through the detailed detector geometry </p>
+<p>For most part of the track reconstruction, only a surface based description of
+the detector is needed, in order to allow (surface based) material integration
+and parametrisation/prediction of trajectories on detection surfaces. It is
+thus necessary that the detection surfaces are described to full detail in the
+reconstruction geometry (called <code>TrackingGeometry</code>). This is guaranteed by a
+proxy mechanism that connects the detection elements (conveniently called
+<code>DetectorElement</code>) to <code>Surface</code> object in the reconstruction: </p>
+<p><img alt="DetectorElement" src="../figures/geometry/DetectorElement.png" /></p>
+<h3 id="existing-plugins-for-3d-geometry-libraries">Existing Plugins for 3D geometry libraries</h3>
+<p>Very simple helper methods for 3D libraries exist, they are certainly not
+optimised, but used for templating:</p>
+<ul>
+<li><code>TGeoDetectorElement</code> connects a TGeo volume to a <code>Surface</code></li>
+<li><code>DD4HepDetectorElement</code> connects a DD4Hep volume (based on TGeo) to a <code>Surface</code></li>
+</ul>
+<h2 id="layer-building">Layer building</h2>
+<p><code>Surface</code> object that are to be grouped on a layer should be put into a
+<code>SurfaceArray</code> and provided to the layer. Certain helper tools exist to ease
+the translation and create appropriate binning structure:
+The<code>SurfaceArrayCreator</code> can create cylindrical, disc-like &amp; planar layers,
+where the dimensions of the layer are determined by parsing the provided
+surfaces. Additionally, an envelope covering the surfaces can be chosen.</p>
+<h2 id="volume-building-packing-and-gluing">Volume building, packing and gluing</h2>
+<p>The philosophy of the <code>TrackingGeometry</code> is a fully connective geometry setup,
+i.e. <code>TrackingVolume</code> objects are either pure containers for other contained
+<code>TrackingVolume</code> instances (where the contained volumes fully fill the space of
+the container volume), or are fully attached via the boundary surface
+mechanism. The boundary surfaces then act as portals from one <code>TrackingVolume</code>
+into the next one along the trajectory.</p>
+<p>The process to create a fully connected tracking geometry is called glueing.
+Wherever possible, common boundary surfaces are <em>shared</em>, where this is not
+possible, they are <em>attached</em>.</p>
+<p><img alt="GlueingBC" src="../figures/geometry/GlueingBC.png" />
+<img alt="GlueingABC" src="../figures/geometry/GlueingABC.png" />
+<img alt="NavigationABC" src="../figures/geometry/NavigationABC.png" /></p>
+<p>For cylindrical detector setups, a dedicated <code>CylinderVolumeBuilder</code> is
+provided, which performs a variety of volume building, packing and gluing. </p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="../katex-enable.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

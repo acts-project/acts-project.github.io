@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Propagation - Acts</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="../license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../modules_geometry/">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="../modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="../modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="../modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guides_users/">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_framework/">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../integration/">Integration</a>
+</li>
+                                    
+<li >
+    <a href="../integration_atlas/">Integration in ATLAS</a>
+</li>
+                                    
+<li >
+    <a href="../integration_fcc/">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="../integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#propagation-and-extrapolation">Propagation and Extrapolation</a></li>
+            <li><a href="#steppers-and-propagator">Steppers and Propagator</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="propagation-and-extrapolation">Propagation and Extrapolation</h1>
+<p>The track propagation is an essential part of track reconstruction. The Acts propgation code is based on the ATLAS <code>RungeKuttaPropagator</code>, against which newere developments where validated. It has since been removed from the codebase.</p>
+<h2 id="steppers-and-propagator">Steppers and Propagator</h2>
+<p>The Acts propagator allows for different <code>Stepper</code> implementations provided as a class template.
+Following the general Acts design, each stepper has a nested cache struct, which is used for caching the field cell and
+the update the jacobian for covariance propagation.</p>
+<h3 id="atlasstepper">AtlasStepper</h3>
+<p>The <code>AtlasStepper</code> is a pure transcript from the ATLAS <code>RungeKuttaPropagator</code> and <code>RungeKuttaUtils</code>, and operators with an internal structure of <code>double[]</code>. This example shows a code snippet from the numerical integration.</p>
+<pre><code class="cpp">while (h != 0.) {
+  double S3 = (1. / 3.) * h, S4 = .25 * h, PS2 = Pi * h;
+
+  // First point
+  //
+  double H0[3] = {f0[0] * PS2, f0[1] * PS2, f0[2] * PS2};
+  double A0    = A[1] * H0[2] - A[2] * H0[1];
+  double B0    = A[2] * H0[0] - A[0] * H0[2];
+  double C0    = A[0] * H0[1] - A[1] * H0[0];
+  double A2    = A0 + A[0];
+  double B2    = B0 + A[1];
+  double C2    = C0 + A[2];
+  double A1    = A2 + A[0];
+  double B1    = B2 + A[1];
+  double C1    = C2 + A[2];
+
+  // Second point
+  //
+  if (!Helix) {
+    const Vector3D pos(R[0] + A1 * S4, R[1] + B1 * S4, R[2] + C1 * S4);
+    f = getField(cache, pos);
+  } else {
+    f = f0;
+  }
+
+  double H1[3] = {f[0] * PS2, f[1] * PS2, f[2] * PS2};
+  double A3    = (A[0] + B2 * H1[2]) - C2 * H1[1];
+  double B3    = (A[1] + C2 * H1[0]) - A2 * H1[2];
+  double C3    = (A[2] + A2 * H1[1]) - B2 * H1[0];
+  double A4    = (A[0] + B3 * H1[2]) - C3 * H1[1];
+  double B4    = (A[1] + C3 * H1[0]) - A3 * H1[2];
+  double C4    = (A[2] + A3 * H1[1]) - B3 * H1[0];
+  double A5    = 2. * A4 - A[0];
+  double B5    = 2. * B4 - A[1];
+  double C5    = 2. * C4 - A[2];
+
+  // Last point
+  //
+  if (!Helix) {
+    const Vector3D pos(R[0] + h * A4, R[1] + h * B4, R[2] + h * C4);
+    f = getField(cache, pos);
+  } else {
+    f = f0;
+  }
+
+  double H2[3] = {f[0] * PS2, f[1] * PS2, f[2] * PS2};
+  double A6    = B5 * H2[2] - C5 * H2[1];
+  double B6    = C5 * H2[0] - A5 * H2[2];
+  double C6    = A5 * H2[1] - B5 * H2[0];
+}
+</code></pre>
+
+<h3 id="eigenstepper">EigenStepper</h3>
+<p>The <code>EigenStepper</code> implements the same functionality as the ATLAS stepper, however, the stepping code 
+is rewritten with using <code>Eigen</code> primitives. The following code snippet shows the Runge-Kutta stepping code. </p>
+<pre><code class="cpp">// The following functor starts to perform a Runge-Kutta step of a certain
+// size, going up to the point where it can return an estimate of the local
+// integration error. The results are stated in the local variables above,
+// allowing integration to continue once the error is deemed satisfactory
+const auto tryRungeKuttaStep = [&amp;](const double h) -&gt; bool {
+
+  // State the square and half of the step size
+  h2     = h * h;
+  half_h = h * 0.5;
+
+  // Second Runge-Kutta point
+  const Vector3D pos1 = state.stepping.pos + half_h * state.stepping.dir
+      + h2 * 0.125 * sd.k1;
+  sd.B_middle = getField(state.stepping, pos1);
+  if (!state.stepping.extension.k2(
+          state, sd.k2, sd.B_middle, half_h, sd.k1)) {
+    return false;
+  }
+
+  // Third Runge-Kutta point
+  if (!state.stepping.extension.k3(
+          state, sd.k3, sd.B_middle, half_h, sd.k2)) {
+    return false;
+  }
+
+  // Last Runge-Kutta point
+  const Vector3D pos2
+      = state.stepping.pos + h * state.stepping.dir + h2 * 0.5 * sd.k3;
+  sd.B_last = getField(state.stepping, pos2);
+  if (!state.stepping.extension.k4(state, sd.k4, sd.B_last, h, sd.k3)) {
+    return false;
+  }
+
+  // Return an estimate of the local integration error
+  error_estimate = std::max(
+      h2 * (sd.k1 - sd.k2 - sd.k3 + sd.k4).template lpNorm&lt;1&gt;(), 1e-20);
+  return true;
+};
+</code></pre>
+
+<p>The code includes the extension mechanism, which allows extenting the numerical integration. This is implemented
+for the custom logic required to integrate through a volume with dense material.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="../katex-enable.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

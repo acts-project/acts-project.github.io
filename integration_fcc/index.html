@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Integration in FCCSW - Acts</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="../license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../modules_geometry/">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="../modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li >
+    <a href="../modules_propagation/">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="../modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="../modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../guides_users/">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_framework/">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="../guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../integration/">Integration</a>
+</li>
+                                    
+<li >
+    <a href="../integration_atlas/">Integration in ATLAS</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="../integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#usage-for-the-future-circular-collider-study">Usage for the Future Circular Collider study</a></li>
+            <li><a href="#integration-of-acts-into-fccsw">Integration of Acts into FCCSW</a></li>
+            <li><a href="#forwarding-logging-messages-to-gaudi">Forwarding logging messages to Gaudi</a></li>
+            <li><a href="#geometry-translation">Geometry Translation</a></li>
+            <li><a href="#magnetic-field-implementation">Magnetic Field implementation</a></li>
+            <li><a href="#extrapolation">Extrapolation</a></li>
+            <li><a href="#geometric-digitization">Geometric Digitization</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="usage-for-the-future-circular-collider-study">Usage for the Future Circular Collider study</h1>
+<p>Acts is used as tracking toolkit for the <a href="https://fcc.web.cern.ch/Pages/default.aspx">Future Circular Collider (FCC)</a> design study. The FCC Software suite FCCSW uses <a href="http://gaudi.web.cern.ch/gaudi/">Gaudi</a> as an event processing framework, <a href="https://dd4hep.web.cern.ch/dd4hep/">DD4hep (Detector Description for High Energy Physics)</a> for the geometry description and <a href="http://geant4.web.cern.ch/geant4/">Geant4</a> as a simulation package.
+This chapter describes the currently ongoing integration and usage of Acts in FCCSW.
+Acts makes use of a plugin mechanism to allow interfacing experiment software where necessary, e.g. geometry, identification, event data model, magnetic field. In the core part Acts reduces the dependencies to a minimum using configuration structs which can be interfaced by the user. For more information please see the general <a href="#integration">integration</a> chapter.</p>
+<h2 id="integration-of-acts-into-fccsw">Integration of Acts into FCCSW</h2>
+<p>Gaudi Services, Tools and Algorithms are used to interface to Acts. They either use provided functionality directly or act as wrapper internally holding an instance of the Acts Object. Using the python job option the Acts tools can be configured (using their <a href="#integration_configuration">configuration</a> structs) by the user at runtime:</p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/Gaudi_ACTS.png" title="Gaudi_ACTS" /></p>
+<p>In FCCSW the tracking toolkit is not only used for track fitting but has various applications. For instance the <a href="fcc_bField">magnetic field service</a> of FCCSW is based on the Acts implementation. Another example is the application of fast simulation using the <a href="#fcc_extrapolation">extrapolation</a> through the tracking geometry. Since for the FCChh conceptual design study no specific detector technologies are selected yet, Acts is used to perform geometric <a href="#fcc_digitization">digitization</a>.  </p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/FCCSW_ACTS.png" title="Gaudi_ACTS" /></p>
+<h2 id="forwarding-logging-messages-to-gaudi">Forwarding logging messages to Gaudi</h2>
+<p>As explained <a href="#integration_output">here</a>, the Acts logging messages can be forwarded to the Gaudi message service during an event by overloading the default Acts logging implementation. In the following one can see, for example, overload of the Acts print policy (definition how and where to print):</p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/GaudiLogger.png" title="GaudiLogger" /></p>
+<h2 id="geometry-translation"><a name="fcc_geoTranslation">Geometry Translation</a></h2>
+<p>In FCCSW we require to have one common source of detector description for all applications, including the differnt types of simulation and reconstruction. In order to allow fast reconstruction Acts internally uses a simplfied tracking geometry. <br />
+For automatic and consistent geometry translation from DD4hep the <a href="">plugin mechanism</a> was used and a DD4hepPlugin established. The DD4hepPlugin provides a convenience function handing back the world volume of the Acts tracking geometry from the DD4hep detector. <br />
+Inside FCCSW a tracking geometry service was established which calls the function and hands back the Acts tracking geometry.<br />
+The sensitive surfaces in the tracking geometry have a direct link to the underlying detector element of Acts, which allows to handle conditions data and alignment.</p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/DetElement.png" title="BField" /></p>
+<!--
+from the full and detailed detector description into the simplfied tracking geometry a plugin (DD4hepPlugin) was established.
+
+ To allow the direct translation from DD4hep into the tracking geometry a DD4hep plugin was created in Acts.
+
+ It translates automatically the dd4hep geometry into the with input of the world detector element of dd4hep. 
+The sensitive detector modules of DD4hep are directly translated into Acts. Acts has a direct link to the underlying geometry model.
+Implementation of a dedicated service which provides the automaticllay translated geometry (using acts convert function). Geometry building tool scan through all columes, layers, surfaces and build them form bottom to top to finally receive a single world tracking volume. Sepcial building tools provided by tracking package to help simplify the translation (binning arrays of layers inside folumes, building container volumes, automatic interlinking and glueing of volumes). Translation service provides the tracking geometry and converts the full DD4hep geometry automatically into the tracking geometry (possibly using tools for general translation)
+-->
+
+<h2 id="magnetic-field-implementation"><a name="fcc_bField">Magnetic Field implementation</a></h2>
+<p>As explained <a href="#integration_bField">here</a>, Acts is agnostic to the magnetic field implementation, as long as it follows the given magnetic field <code>concept</code>.
+For convenience Acts provides already two different magentic field implementations which are being used inside FCCSW. Firstly a configurable constant magnetic field service and an interpolated magnetic field service which linearly interpolates the magnetic field within cells of a given grid. To stay independent from the file format Acts provides convenience methods to facilitate creating the grid from std vectors of grid points. Reading in the values from the actual file (e.g. root, txt/csv) happens inside FCCSW. 
+The two configurable FCC magnetic field service implementations (constant and interpolated) hold the dedicated Acts magnetic field implementation as a member and forward the calls to it:</p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/BField_FCCSW_ACTS.png" title="BField" /></p>
+<p>The FCChh magnetic field map which acts as input for the FCC interpolated magnetic service can be easily configured using the gaudi job option file: </p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/BField_FCCSW_ACTS1.png" title="BField1" /></p>
+<h2 id="extrapolation"><a name="fcc_extrapolation">Extrapolation</a></h2>
+<p>The extrapolation through the tracking geometry is used during reconstruction. A second application of the extrapolation through the tracking geometry is for fast simulation. In order to allow both applications to use the extrapolation with different configuration a Gaudi Tool which holds an instance to the Acts extrapolation was created. This tool can be configured differently for both applications at runtime:</p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/FCCSW_extrapolationTool.png" title="extrapolation1" /></p>
+<p>The extrapolation tool can then be used by an Gaudi algorithm which handles the translations from and to the FCC edm. For example in the ExtrapolationTest below the reads in generated particles from the event store and after extrapolating through the tracking geometry, translates the output into FCC track hits:</p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/FCCSW_extrapolationTest.png" title="extrapolation2" /></p>
+<!-- FCCSW follows the approach of ATLAS ISF of common simulation steering. This is done using Geant4 as simulation kernel allowing usage of differnt simulation techniques in different regions of the detector. -->
+
+<h2 id="geometric-digitization"><a name="fcc_digitization">Geometric Digitization</a></h2>
+<p>Because the specific detector technologies which will be used for the future hadron hadron collider are not known yet the Acts geometric digitzation tools are being implemented for FCChh. <br />
+Every detector element inside Acts holds a pointer to a <code>DigitizationModule</code>. The digitization module has information about readout relevant information e.g. segmentation, readout drift direction, lorentz angle. The <code>DD4hepPlugin</code> enables either automatic translation from the given readout information from DD4hep during the conversion or the possibility that the user can append the digitization module. The first version creates one digitzation module for every sensitive surface which is very expensive in CPU. Since many sensitive detector elements will have the same readout segmentation, the second variation allows the user to once create a shared instance of a digitization module and append it to many mdoules. Convenience functions which hand back the Acts digitization module from a given dd4hep readout have been created.<br />
+The Acts geometric digitization determines the cells hit by a particle given the hit position and the momentum direction. Afterwards the clusters are created from the pixels using a connected components analysis algorithm from boost. The user can decide if pixels sharing a common corner or a common edge should be merged. <br />
+Using the Acts digitzation tools one can emulate digital readout as well as analogue readout which smears the energy deposit in the cells.<br />
+Below one can see how the <code>GeometricTrackerDigitizer</code>, which is currently being developed inside FCCSW and uses the Acts digitization tools, can be used in the python job options. It reads in hits (<code>digiTrackHitAssociation</code>) produced by FCC geant4 full simulation and writes out <code>trackClusters</code> to the FCC event store:    </p>
+<p><img alt="Alt Image Text" src="../figures/integration_fcc/FCCSW_digitization.png" title="digitization" /></p>
+<!-- calculates the cluster siz
+Calculates cluster sizes in individual pixels
+Acts allows to mimics geometric digitization. Mimic analogue (smear energy deposits gaussian) and digital readout, taking lorentz-angle into account. Which cells are hit smears energy deposits in cells.
+Possibility to create single particle clusters or connected component algorithm (boost) to create clusters from cells. Need to merge geant4 hits.
+Implementation - append digitization module to detector module (either directly from dd4hep or by user) - allow to use same segmentation for mutiple modules (faster)--></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="../katex-enable.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

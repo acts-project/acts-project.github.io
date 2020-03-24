@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Acts</title>
+        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=".">Acts</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href=".">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="authors/">Authors</a>
+</li>
+                                    
+<li >
+    <a href="license/">License</a>
+</li>
+                                    
+<li >
+    <a href="http://acts.web.cern.ch/ACTS/latest/doc/index.html">Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="modules_geometry/">Geometry</a>
+</li>
+                                    
+<li >
+    <a href="modules_eventdata/">Event Data</a>
+</li>
+                                    
+<li >
+    <a href="modules_propagation/">Propagation</a>
+</li>
+                                    
+<li >
+    <a href="modules_pattern/">Pattern Recognition</a>
+</li>
+                                    
+<li >
+    <a href="modules_fitting/">Track fitting</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="guides_users/">Users Guide</a>
+</li>
+                                    
+<li >
+    <a href="guides_developers/">Developers Guide</a>
+</li>
+                                    
+<li >
+    <a href="guides_contribution/">Contribution Guide</a>
+</li>
+                                    
+<li >
+    <a href="guides_framework/">Framework Examples Guide</a>
+</li>
+                                    
+<li >
+    <a href="guides_testing/">CI and Testing Guide</a>
+</li>
+                                    
+<li >
+    <a href="guides_admin/">Administrators Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="integration/">Integration</a>
+</li>
+                                    
+<li >
+    <a href="integration_atlas/">Integration in ATLAS</a>
+</li>
+                                    
+<li >
+    <a href="integration_fcc/">Integration in FCCSW</a>
+</li>
+                                    
+<li >
+    <a href="integration_trackml/">Tracking Machine Learning Challenge</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://gitlab.cern.ch/acts/acts-core"><i class="fa fa-gitlab"></i> GitLab</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#a-common-tracking-software-acts">A Common Tracking Software (Acts)</a></li>
+        <li class="main "><a href="#latest-release-v01900">Latest release: v0.19.00</a></li>
+        <li class="main "><a href="#introduction">Introduction</a></li>
+            <li><a href="#mailing-list">Mailing list</a></li>
+        <li class="main "><a href="#repository-structure">Repository structure</a></li>
+            <li><a href="#acts-core">acts-core</a></li>
+            <li><a href="#acts-fatras">acts-fatras</a></li>
+            <li><a href="#acts-data">acts-data</a></li>
+            <li><a href="#acts-framework">acts-framework</a></li>
+        <li class="main "><a href="#releases">Releases</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#license-and-authors">License and authors</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="a-common-tracking-software-acts">A Common Tracking Software (Acts)</h1>
+<p><img alt="" src="img/ACTSlogo.gif" /></p>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#repository-structure">Repository structure</a></li>
+<li><a href="#releases">Releases</a></li>
+<li><a href="#license-and-authors">License and authors</a></li>
+</ol>
+<h1 id="latest-release-v01900"><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.19.00">Latest release: v0.19.00</a></h1>
+<p>23 Mar 2020</p>
+<ul>
+<li><a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.19.00/archive.tar.gz">Download</a></li>
+<li><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.19.00">Release Notes</a></li>
+<li><a href="http://acts.web.cern.ch/ACTS/v0.19.00/doc/index.html">Documentation</a></li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<p>This project contains an experiment-independent set of track reconstruction tools. The main philosophy is to provide high-level track reconstruction modules that can be used for any tracking detector. The description of the tracking detector's geometry is optimized for efficient navigation and quick extrapolation of tracks. Converters for several common geometry description languages exist. Having a highly performant, yet largely customizable implementation of track reconstruction algorithms was a primary objective for the design of this toolset. Additionally, the applicability to real-life HEP experiments plays major role in the development process. Apart from algorithmic code, this project also provides an event data model for the description of track parameters and measurements.</p>
+<p>Key features of this project include:
+<em> tracking geometry description which can be constructed from TGeo, DD4Hep, or GDML input,
+</em> simple and efficient event data model,
+<em> performant and highly flexible algorithms for track propagation and fitting,
+</em> basic seed finding algorithms.</p>
+<h2 id="mailing-list">Mailing list</h2>
+<p>In order to receive the latest updates, users of the Acts project are encouraged to subscribe to <a href="https://e-groups.cern.ch/e-groups/Egroup.do?egroupName=acts-users">acts-users@cern.ch</a>. This list provides:</p>
+<ul>
+<li>regular updates on the software,</li>
+<li>access to the <a href="https://its.cern.ch/jira/projects/ACTS/">Acts JIRA project</a> for bug fixes/feature requests,</li>
+<li>a common place for asking any kind of questions.</li>
+</ul>
+<h1 id="repository-structure">Repository structure</h1>
+<p>The repositories for the Acts project can be found at<br>
+<a href="https://gitlab.cern.ch/acts">https://gitlab.cern.ch/acts</a></p>
+<h3 id="acts-core">acts-core</h3>
+<p>The <a href="https://gitlab.cern.ch/acts/acts-core"><code>acts-core</code></a> repository contains the all detector independent software that is part of the Acts toolkit. </p>
+<h3 id="acts-fatras">acts-fatras</h3>
+<p>The <a href="https://gitlab.cern.ch/acts/acts-fatras"><code>acts-fatras</code></a> repository contains the fast track simulation extension of the Acts toolkit. 
+The fast track simulation moduels are currently in  development and available only in a <em>limited</em> way.</p>
+<h3 id="acts-data">acts-data</h3>
+<p>The <a href="https://gitlab.cern.ch/acts/acts-data"><code>acts-data</code></a> repository contains some necessary data files for running the standard Acts examples.</p>
+<h3 id="acts-framework">acts-framework</h3>
+<p>The <a href="https://gitlab.cern.ch/acts/acts-framework"><code>acts-framework</code></a> reposity contains a small event processing framework for development and testing. The framework is capable of parallel event processing if <code>OpenMP</code> is available on the machine.</p>
+<p>Acts test jobs are run in the framework in the continuous integration, and tested for bit-wise identical result between single and multithreaded mode.</p>
+<p>The <code>acts-framework</code> includes <code>acts-core</code> and <code>acts-fatras</code> as submodules in an <code>external</code> folder.</p>
+<h1 id="releases">Releases</h1>
+<h2 id="history">History</h2>
+<table>
+<thead>
+<tr>
+<th>release</th>
+<th>time</th>
+<th>links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v0.19.00</td>
+<td>23 Mar 2020 14:00</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.19.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.19.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.19.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.18.00</td>
+<td>13 Mar 2020 18:43</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.18.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.18.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.18.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.17.00</td>
+<td>06 Mar 2020 18:23</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.17.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.17.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.17.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.16.00</td>
+<td>05 Feb 2020 17:33</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.16.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.16.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.16.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.15.00</td>
+<td>24 Jan 2020 13:17</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.15.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.15.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.15.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.14.00</td>
+<td>20 Jan 2020 14:16</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.14.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.14.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.14.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.13.00</td>
+<td>19 Dec 2019 16:59</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.13.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.13.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.13.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.12.01</td>
+<td>19 Dec 2019 15:16</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.12.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.12.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.12.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.12.00</td>
+<td>10 Dec 2019 12:52</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.12.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.12.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.12.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.11.01</td>
+<td>26 Nov 2019 14:21</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.11.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.11.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.11.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.11.00</td>
+<td>22 Nov 2019 09:30</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.11.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.11.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.11.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.10.05</td>
+<td>21 Oct 2019 09:47</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.10.05">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.10.05/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.10.05/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.10.04</td>
+<td>03 Sep 2019 11:43</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.10.04">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.10.04/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.10.04/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.10.03</td>
+<td>17 Jul 2019 17:00</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.10.03">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.10.03/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.10.03/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.09.05</td>
+<td>16 Jul 2019 14:55</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.09.05">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.09.05/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.09.05/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.09.04</td>
+<td>15 Jul 2019 12:38</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.09.04">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.09.04/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.09.04/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.10.02</td>
+<td>27 Jun 2019 14:23</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.10.02">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.10.02/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.10.02/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.09.03</td>
+<td>27 Jun 2019 14:15</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.09.03">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.09.03/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.09.03/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.10.01</td>
+<td>29 May 2019 17:33</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.10.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.10.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.10.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.10.00</td>
+<td>29 May 2019 14:46</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.10.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.10.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.10.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.09.02</td>
+<td>03 May 2019 08:59</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.09.02">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.09.02/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.09.02/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.09.01</td>
+<td>29 Apr 2019 10:26</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.09.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.09.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.09.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.09.00</td>
+<td>17 Apr 2019 11:22</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.09.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.09.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.09.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.08.02</td>
+<td>21 Mar 2019 12:37</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.08.02">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.08.02/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.08.02/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.08.01</td>
+<td>18 Feb 2019 13:28</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.08.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.08.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.08.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.08.00</td>
+<td>19 Dec 2018 18:33</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.08.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.08.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.08.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.07.03</td>
+<td>12 Dec 2018 09:01</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.07.03">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.07.03/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.07.03/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.07.02</td>
+<td>06 Nov 2018 10:33</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.07.02">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.07.02/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.07.02/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.07.01</td>
+<td>02 Nov 2018 16:20</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.07.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.07.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.07.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.07.00</td>
+<td>03 Sep 2018 15:32</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.07.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.07.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.07.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.06.00</td>
+<td>27 Apr 2018 16:43</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.06.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.06.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.06.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.05.03</td>
+<td>13 Dec 2017 16:35</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.05.03">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.05.03/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.05.03/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.05.02</td>
+<td>25 Oct 2017 16:21</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.05.02">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.05.02/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.05.02/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.05.01</td>
+<td>04 Oct 2017 18:13</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.05.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.05.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.05.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.05.00</td>
+<td>31 Aug 2017 15:12</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.05.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.05.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.05.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.04.01</td>
+<td>30 May 2017 14:16</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.04.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.04.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.04.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.04.00</td>
+<td>09 May 2017 13:40</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.04.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.04.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.04.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.03.02</td>
+<td>24 Mar 2017 12:41</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.03.02">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.03.02/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.03.02/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.04.99</td>
+<td>24 Mar 2017 11:36</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.04.99">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.04.99/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.04.99/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.03.01</td>
+<td>28 Nov 2016 14:22</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.03.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.03.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.03.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.03.00</td>
+<td>11 Nov 2016 17:18</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.03.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.03.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.03.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.02.01</td>
+<td>26 Sep 2016 14:12</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.02.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.02.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.02.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.02.00</td>
+<td>18 Sep 2016 00:43</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.02.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.02.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.02.00/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.01.01</td>
+<td>13 Jun 2016 10:54</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.01.01">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.01.01/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.01.01/doc/index.html">Documentation</a></td>
+</tr>
+<tr>
+<td>v0.01.00</td>
+<td>09 Jun 2016 13:31</td>
+<td><a href="https://gitlab.cern.ch/acts/acts-core/tags/v0.01.00">Release Notes</a>, <a href="https://gitlab.cern.ch/acts/acts-core/repository/v0.01.00/archive.tar.gz">Download</a>, <a href="http://acts.web.cern.ch/ACTS/v0.01.00/doc/index.html">Documentation</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="license-and-authors">License and authors</h2>
+<p>This project is published under the Mozilla Public License, v. 2.0. Details of
+this license can be found in the <a href="LICENSE">LICENSE</a> file or at
+<a href="http://mozilla.org/MPL/2.0/">http://mozilla.org/MPL/2.0/</a>.</p>
+<p>Contributors to the Acts project are listed in <a href="authors/">here</a>.</p>
+<p>The Acts project is based on the ATLAS tracking software. A list of contributors
+to the ATLAS tracking repository can be found <a href="authors/#contributors-to-the-atlas-tracking-software">here</a>.</p>
+<p>The Acts project contains a copy of <a href="http://gcovr.com">gcovr</a> licensed under
+the 3-Clause BSD license.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" defer></script>
+        <script src="katex-enable.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.0
+Build Date UTC : 2020-03-24 11:12:50
+-->
