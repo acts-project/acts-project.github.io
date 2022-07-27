@@ -1,0 +1,18 @@
+{% if page.meta.source %}
+<div class="source-links">
+{% for filename in page.meta.source %}
+    <span class="label label-primary">{{ filename }}</span>
+{% endfor %}
+</div>
+{% endif %}
+
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>
+  This website is <strong>outdated!</strong>. ACTS documentation has moved to ReadTheDocs at:<br>
+  <strong><a href="https://acts.readthedocs.io">acts.readthedocs.io</a>
+</p>
+</div>
+
+
+{{ page.content }}
