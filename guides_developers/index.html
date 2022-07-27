@@ -168,6 +168,15 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>
+  This website is <strong>outdated!</strong>. ACTS documentation has moved to ReadTheDocs at:<br>
+  <strong><a href="https://acts.readthedocs.io">acts.readthedocs.io</a>
+</p>
+</div>
+
+
 <h1 id="developer-guidelines-for-acts">Developer Guidelines for Acts</h1>
 <h2 id="writing-thread-safe-code">Writing thread-safe code</h2>
 <p>Acts aims to be readily usable from multi-threaded event reconstruction frameworks. To achieve this goal, all internal Acts state should either be kept private to a thread or remain constant after initialization. This is supported by aiming at a strict discipline of const-correctness (i.e. data reached via a const pointer cannot be mutated), the only allowed exceptions being deferred initialization code which does not run in parallel such as the geometry building process.</p>
