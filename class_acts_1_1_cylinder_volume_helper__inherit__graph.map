@@ -1,0 +1,5 @@
+<map id="Acts::CylinderVolumeHelper" name="Acts::CylinderVolumeHelper">
+<area shape="rect" id="Node000001" title="The concrete implementation for cylindrical TrackingVolume objects of the ITrackingVolumeCreator inte..." alt="" coords="7,79,211,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_tracking_volume_helper.html" title="Interface class ITrackingVolumeHelper tools, it inherits from IAlgTool." alt="" coords="5,5,213,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,44,112,79,107,79,107,44"/>
+</map>

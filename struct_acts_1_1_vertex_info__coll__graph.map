@@ -1,0 +1,13 @@
+<map id="Acts::VertexInfo" name="Acts::VertexInfo">
+<area shape="rect" id="Node000001" title="Helper struct for storing vertex related information." alt="" coords="913,63,1039,88"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_vertex.html" title="Class for storing vertex objects." alt="" coords="545,5,645,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="659,18,768,26,890,45,942,60,941,65,889,50,767,31,659,23"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="524,55,667,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="681,73,913,73,913,78,681,78"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="8,57,137,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="152,68,524,72,524,77,151,73"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="445,125,745,180"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="759,127,889,101,939,86,940,91,890,106,760,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,151,140,176"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="154,159,445,153,445,158,154,164"/>
+</map>

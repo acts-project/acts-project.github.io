@@ -1,0 +1,10 @@
+<map id="Acts::AdaptiveMultiVertexFinder::State" name="Acts::AdaptiveMultiVertexFinder::State">
+<area shape="rect" id="Node000001" title="State struct for fulfilling interface." alt="" coords="5,272,196,312"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="16,176,185,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,215,103,272,98,272,98,215"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="29,5,161,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,45,103,176,98,176,93,45"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title="Small opaque cache type with configurable small buffer optimization." alt="" coords="117,80,292,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="126,36,189,78,186,82,123,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="184,116,115,178,112,174,180,112"/>
+</map>

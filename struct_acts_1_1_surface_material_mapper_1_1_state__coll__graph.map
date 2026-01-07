@@ -1,0 +1,16 @@
+<map id="Acts::SurfaceMaterialMapper::State" name="Acts::SurfaceMaterialMapper::State">
+<area shape="rect" id="Node000001" title="Nested State struct which is used for the mapping prococess." alt="" coords="917,173,1128,213"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="481,39,690,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="704,89,797,112,894,140,976,171,974,176,892,145,796,117,703,94"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,185,140,210"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,171,116,128,138,106,163,90,201,73,242,61,326,47,407,44,480,49,480,54,407,50,326,53,243,66,203,78,165,94,141,110,120,131,89,174"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="448,127,723,182"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="147,180,164,177,310,163,448,156,448,161,311,169,164,183,148,185"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="448,210,723,265"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="106,215,134,229,165,240,236,252,310,257,381,257,448,253,448,258,382,262,310,263,236,258,163,245,132,234,103,220"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="448,295,723,350"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="85,222,97,249,115,278,137,306,165,327,203,344,244,355,286,361,328,364,410,359,484,347,484,353,411,365,328,369,285,367,243,360,202,349,163,332,133,310,110,281,93,251,81,224"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="737,165,917,181,917,187,736,171"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="736,223,893,208,917,205,918,210,894,213,737,228"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="736,293,814,274,892,251,940,232,983,211,985,216,942,237,894,256,816,279,737,298"/>
+</map>

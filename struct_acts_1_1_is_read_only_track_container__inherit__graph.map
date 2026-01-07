@@ -1,0 +1,11 @@
+<map id="Acts::IsReadOnlyTrackContainer&lt; T &gt;" name="Acts::IsReadOnlyTrackContainer&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,272,162"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_01_4.html" title=" " alt="" coords="541,24,847,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,128,228,99,295,75,357,61,420,52,541,42,542,47,421,57,358,66,297,80,230,104,174,132"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_01_4.html" title=" " alt="" coords="533,92,855,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,137,533,120,533,125,286,142"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html" title=" " alt="" coords="579,156,809,196"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,161,296,167,444,173,579,175,579,180,444,179,296,172,239,166"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html" title=" " alt="" coords="579,220,809,260"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="182,165,236,185,297,203,369,216,443,225,579,235,579,240,443,231,368,221,295,208,234,190,180,170"/>
+</map>

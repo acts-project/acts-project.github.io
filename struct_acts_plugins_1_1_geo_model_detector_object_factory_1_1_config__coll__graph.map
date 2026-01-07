@@ -1,0 +1,7 @@
+<map id="ActsPlugins::GeoModelDetectorObjectFactory::Config" name="ActsPlugins::GeoModelDetectorObjectFactory::Config">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,237,232,277"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,101,212,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,140,121,237,116,237,116,140"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="54,5,183,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,45,121,101,116,101,116,45"/>
+</map>

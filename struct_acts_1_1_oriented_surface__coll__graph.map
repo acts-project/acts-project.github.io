@@ -1,0 +1,9 @@
+<map id="Acts::OrientedSurface" name="Acts::OrientedSurface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="124,212,287,237"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,168,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,149,159,186,191,210,187,214,156,190,114,153"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="8,5,165,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,45,89,101,84,101,84,45"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_direction.html" title="The direction is always with respect to a given momentum, surface normal or other general axes." alt="" coords="192,109,309,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,148,213,213,208,211,237,146"/>
+</map>

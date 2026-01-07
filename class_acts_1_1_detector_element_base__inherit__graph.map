@@ -1,0 +1,15 @@
+<map id="Acts::DetectorElementBase" name="Acts::DetectorElementBase">
+<area shape="rect" id="Node000001" title="This class is the base of all detector elements that are usable by ACTS." alt="" coords="5,95,205,120"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_json_detector_element.html" title="A implementation of a detector element, that is constructed from a JSON description of a surface." alt="" coords="269,5,464,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,86,194,63,253,41,299,28,300,33,254,46,196,68,145,91"/>
+<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_geant4_detector_element.html" title="Detector element representative for Geant4 sensitive elements." alt="" coords="263,55,471,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,91,262,85,263,91,219,96"/>
+<area shape="rect" id="Node000004" href="$class_acts_plugins_1_1_geo_model_detector_element.html" title="Detector element representative for GeoModel based sensitive elements." alt="" coords="253,119,480,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,119,253,123,253,128,218,124"/>
+<area shape="rect" id="Node000006" href="$class_acts_plugins_1_1_t_geo_detector_element.html" title="DetectorElement plugin for ROOT TGeo shapes." alt="" coords="269,183,464,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="146,123,254,169,290,181,289,186,252,174,144,128"/>
+<area shape="rect" id="Node000005" href="$class_acts_plugins_1_1_geo_model_detector_element_i_tk.html" title="Specialization of the GeoModelDetectorElement for the ITk." alt="" coords="528,119,755,159"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="494,137,528,137,528,142,494,142"/>
+<area shape="rect" id="Node000007" href="$class_acts_plugins_1_1_d_d4hep_detector_element.html" title="DetectorElement class implementation for DD4hep geometry." alt="" coords="535,183,748,223"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="478,201,535,201,535,206,478,206"/>
+</map>

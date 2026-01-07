@@ -1,0 +1,10 @@
+<map id="Acts::BoundarySurfaceT&lt; volume_t &gt;" name="Acts::BoundarySurfaceT&lt; volume_t &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="861,43,1039,83"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="435,5,598,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="612,31,861,52,861,58,612,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,50,163,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,52,435,30,436,35,176,57"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="389,79,644,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="128,78,187,95,290,105,389,105,389,110,290,110,186,100,126,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="658,104,747,103,837,95,895,80,896,85,838,100,747,109,658,110"/>
+</map>

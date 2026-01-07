@@ -1,0 +1,11 @@
+<map id="Acts::ObjVisualization3D" name="Acts::ObjVisualization3D">
+<area shape="rect" id="Node000001" title="This helper produces output in the OBJ format." alt="" coords="5,368,188,393"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_visualization3_d.html" title="Partially abstract base class which provides an interface to visualization helper classes." alt="" coords="15,293,179,319"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,333,99,368,94,368,94,333"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_color.html" title="Struct describing a color." alt="" coords="51,197,143,223"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,237,99,293,94,293,94,237"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="23,101,170,127"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="99,141,99,197,94,197,94,141"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="35,5,158,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="99,45,99,101,94,101,94,45"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Acts::CuboidVolumeBuilder::SurfaceConfig" name="Acts::CuboidVolumeBuilder::SurfaceConfig">
+<area shape="rect" id="Node000001" title="This struct stores the data for the construction of a single PlaneSurface." alt="" coords="737,36,936,76"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="437,5,628,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="642,34,738,43,737,49,641,39"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,45,163,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,48,437,29,437,35,177,53"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="441,69,625,109"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="151,70,187,76,320,86,441,88,441,94,320,91,186,81,150,75"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="638,77,713,69,737,67,737,72,714,75,639,83"/>
+</map>
