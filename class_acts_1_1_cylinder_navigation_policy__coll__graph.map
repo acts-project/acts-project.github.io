@@ -1,5 +1,0 @@
-<map id="Acts::CylinderNavigationPolicy" name="Acts::CylinderNavigationPolicy">
-<area shape="rect" id="Node000001" title="Optimized navigation policy for cylindrical volumes that intelligently selects which portals to add a..." alt="" coords="5,79,188,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_navigation_policy.html" title="Base class for all navigation policies." alt="" coords="11,5,183,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,44,99,79,94,79,94,44"/>
-</map>

@@ -1,7 +1,0 @@
-var namespace_acts_1_1_hough_transform_utils_1_1_peak_finders =
-[
-    [ "IslandsAroundMax", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max" ],
-    [ "IslandsAroundMaxConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config" ],
-    [ "LayerGuidedCombinatoric", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric.html", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric" ],
-    [ "LayerGuidedCombinatoricConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config" ]
-];

@@ -1,9 +1,0 @@
-<map id="Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;" name="Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;">
-<area shape="rect" id="Node000001" title="Track parameters not bound to a surface for a single track." alt="" coords="5,69,249,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_generic_free_track_parameters.html" title=" " alt="" coords="551,5,817,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,64,273,59,416,42,550,31,551,36,417,47,274,64,239,70"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_generic_free_track_parameters.html" title=" " alt="" coords="562,69,806,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,87,562,87,562,92,263,92"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_generic_free_track_parameters.html" title=" " alt="" coords="562,133,806,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,109,274,115,423,132,562,143,562,149,423,137,273,120,238,114"/>
-</map>

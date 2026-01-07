@@ -1,5 +1,0 @@
-<map id="ActsPlugins::Geant4DetectorElement" name="ActsPlugins::Geant4DetectorElement">
-<area shape="rect" id="Node000001" title="Detector element representative for Geant4 sensitive elements." alt="" coords="5,79,213,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_detector_element_base.html" title="This class is the base of all detector elements that are usable by ACTS." alt="" coords="9,5,209,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,44,112,79,107,79,107,44"/>
-</map>

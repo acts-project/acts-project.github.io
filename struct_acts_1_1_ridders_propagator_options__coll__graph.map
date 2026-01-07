@@ -1,9 +1,0 @@
-<map id="Acts::RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;" name="Acts::RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,212,233,252"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,191,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,154,118,211,113,212,102,155"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="215,109,381,134"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,143,152,214,149,210,266,139"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="233,5,363,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,45,301,109,295,109,295,45"/>
-</map>

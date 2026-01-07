@@ -1,7 +1,0 @@
-<map id="Acts::RectangleBounds" name="Acts::RectangleBounds">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,176,177"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_planar_bounds.html" title="common base class for all bounds that are in a local x/y cartesian frame" alt="" coords="17,79,164,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,118,93,152,88,152,88,118"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_surface_bounds.html" title="Interface for surface bounds." alt="" coords="13,5,168,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,44,93,79,88,79,88,44"/>
-</map>

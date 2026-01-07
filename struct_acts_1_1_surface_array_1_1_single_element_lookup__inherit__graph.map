@@ -1,5 +1,0 @@
-<map id="Acts::SurfaceArray::SingleElementLookup" name="Acts::SurfaceArray::SingleElementLookup">
-<area shape="rect" id="Node000001" title="Lookup implementation which wraps one element and always returns this element when lookup is called." alt="" coords="5,93,176,133"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html" title="Base interface for all surface lookups." alt="" coords="13,5,169,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,59,93,93,88,93,88,59"/>
-</map>

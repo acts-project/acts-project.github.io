@@ -1,5 +1,0 @@
-<map id="ActsPlugins::TensorRTEdgeClassifier" name="ActsPlugins::TensorRTEdgeClassifier">
-<area shape="rect" id="Node000001" title=" " alt="" coords="36,79,231,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_edge_classification_base.html" title=" " alt="" coords="5,5,261,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,44,136,79,131,79,131,44"/>
-</map>

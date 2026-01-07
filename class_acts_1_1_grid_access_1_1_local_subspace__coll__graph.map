@@ -1,9 +1,0 @@
-<map id="Acts::GridAccess::LocalSubspace&lt; Args &gt;" name="Acts::GridAccess::LocalSubspace&lt; Args &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="38,232,273,272"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html" title="Interface class for owning delegate." alt="" coords="5,121,188,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,172,147,230,143,233,111,175"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="212,121,365,161"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,172,180,234,177,230,253,168"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="227,5,350,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="291,45,291,121,286,121,286,45"/>
-</map>

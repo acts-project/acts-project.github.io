@@ -1,5 +1,0 @@
-<map id="Acts::SeedFilterConfig" name="Acts::SeedFilterConfig">
-<area shape="rect" id="Node000001" title="Structure that holds configuration parameters for the seed filter algorithm." alt="" coords="31,136,195,161"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_seed_confirmation_range_config.html" title="Contains parameters for quality seed confirmation." alt="" coords="5,5,220,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,59,115,136,110,136,110,59"/>
-</map>

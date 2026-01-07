@@ -1,9 +1,0 @@
-<map id="Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;" name="Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;">
-<area shape="rect" id="Node000001" title="Track parameters bound to a reference surface for a single track." alt="" coords="5,69,263,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_generic_bound_track_parameters.html" title=" " alt="" coords="564,5,831,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,64,286,59,429,42,564,31,564,36,430,48,287,64,250,70"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_generic_bound_track_parameters.html" title=" " alt="" coords="569,69,826,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,87,568,87,568,92,277,92"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_generic_bound_track_parameters.html" title=" " alt="" coords="569,133,826,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="250,109,287,115,433,131,569,143,568,148,432,137,286,120,249,114"/>
-</map>

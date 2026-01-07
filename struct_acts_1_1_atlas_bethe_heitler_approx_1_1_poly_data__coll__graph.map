@@ -1,7 +1,0 @@
-<map id="Acts::AtlasBetheHeitlerApprox::PolyData" name="Acts::AtlasBetheHeitlerApprox::PolyData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,237,224,277"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="32,101,197,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,140,117,237,112,237,112,140"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="50,5,179,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,45,117,101,112,101,112,45"/>
-</map>

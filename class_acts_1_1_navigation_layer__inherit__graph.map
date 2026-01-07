@@ -1,7 +1,0 @@
-<map id="Acts::NavigationLayer" name="Acts::NavigationLayer">
-<area shape="rect" id="Node000001" title="Class to be used for gaps in Volumes as a navigational link." alt="" coords="5,152,171,177"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_layer.html" title="Base Class for a Detector Layer in the Tracking Geometry." alt="" coords="41,79,135,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,118,91,152,85,152,85,118"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="5,5,171,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
-</map>

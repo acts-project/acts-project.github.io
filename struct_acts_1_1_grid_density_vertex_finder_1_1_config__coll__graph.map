@@ -1,9 +1,0 @@
-<map id="Acts::GridDensityVertexFinder::Config" name="Acts::GridDensityVertexFinder::Config">
-<area shape="rect" id="Node000001" title="The Config struct." alt="" coords="844,27,1061,67"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_gaussian_grid_track_density.html" title="Implements a 1&#45;dim density grid to be filled with track Gaussian distributions." alt="" coords="433,6,663,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="677,25,844,37,844,42,676,30"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="429,56,667,96"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="680,70,820,61,844,59,844,64,820,67,680,75"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,56,208,96"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,73,429,73,429,79,221,79"/>
-</map>
