@@ -1,0 +1,7 @@
+<map id="Acts::InterpolatedMagneticField" name="Acts::InterpolatedMagneticField">
+<area shape="rect" id="Node000001" title="Base class for interpolated magnetic field providers." alt="" coords="8,79,205,119"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_interpolated_b_field_map.html" title="Interpolates magnetic field value from field values on a given grid." alt="" coords="18,167,195,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,133,109,166,104,166,104,133"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_magnetic_field_provider.html" title="Base class for all magnetic field providers." alt="" coords="5,5,208,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,104,79,104,44"/>
+</map>

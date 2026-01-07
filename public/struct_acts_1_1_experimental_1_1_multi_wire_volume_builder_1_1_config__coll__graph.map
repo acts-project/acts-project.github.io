@@ -1,0 +1,18 @@
+<map id="Acts::Experimental::MultiWireVolumeBuilder::Config" name="Acts::Experimental::MultiWireVolumeBuilder::Config">
+<area shape="rect" id="Node000001" title="Configuration Struct." alt="" coords="691,86,879,141"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="429,13,515,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="529,33,596,47,667,65,719,83,717,88,666,71,595,52,528,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,153,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,23,428,23,428,28,167,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="383,64,561,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="575,91,690,102,690,107,575,96"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="19,102,149,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="162,106,382,88,383,94,163,111"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="387,129,557,154"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="141,128,187,137,290,144,386,144,386,149,290,150,186,143,140,134"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="391,179,553,219"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="567,188,616,180,666,168,735,138,737,143,668,173,618,186,568,194"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,186,163,211"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="176,196,391,196,391,201,176,201"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="571,140,666,135,690,131,691,137,667,140,571,145"/>
+</map>

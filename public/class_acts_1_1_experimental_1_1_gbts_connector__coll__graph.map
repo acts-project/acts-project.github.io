@@ -1,0 +1,10 @@
+<map id="Acts::Experimental::GbtsConnector" name="Acts::Experimental::GbtsConnector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="799,84,944,124"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="421,28,643,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="657,75,799,93,798,98,656,80"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,94,140,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,89,164,87,297,73,421,65,421,70,298,78,164,92,149,94"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="427,123,637,178"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="103,125,132,142,165,155,231,167,300,171,366,170,427,165,427,170,367,175,300,177,231,172,163,160,130,147,101,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="650,133,774,116,798,113,799,118,775,121,650,138"/>
+</map>

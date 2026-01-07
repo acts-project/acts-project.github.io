@@ -1,0 +1,21 @@
+<map id="Acts::Experimental::CompositeSpacePointLineFitter::FitOptions&lt; Cont_t, Calibrator_t &gt;" name="Acts::Experimental::CompositeSpacePointLineFitter::FitOptions&lt; Cont_t, Calibrator_t &gt;">
+<area shape="rect" id="Node000001" title="Configuration object parsed per each fit." alt="" coords="1101,103,1353,157"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="817,5,881,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="895,21,980,36,1078,61,1128,79,1174,100,1172,105,1126,84,1077,66,979,41,894,26"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="757,55,940,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="954,86,1078,103,1102,107,1101,112,1077,109,953,91"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="409,55,569,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="583,73,757,73,757,78,583,78"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,55,208,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="222,73,409,73,409,78,222,78"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="799,120,898,145"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="912,130,1101,128,1101,134,912,135"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_calibration_context.html" title="This is the central definition of the Acts payload object regarding detector calibration." alt="" coords="759,169,939,195"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="952,172,1077,158,1101,154,1102,159,1078,163,953,177"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="438,169,541,195"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="554,179,758,179,758,185,554,185"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="775,219,922,259"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="936,229,1005,217,1077,199,1129,179,1177,155,1179,160,1131,184,1078,205,1006,222,936,234"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="428,227,551,252"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="564,237,775,237,775,242,564,242"/>
+</map>

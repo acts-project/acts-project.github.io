@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_acts_1_1_logging_1_1_output_print_policy.html" title="abstract base class for printing debug output" alt="" coords="5,73,196,113"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_logging_1_1_default_print_policy.html" title="default print policy for debug messages" alt="" coords="259,44,454,84"/>
+<area shape="poly" id="edge171_Node000000_Node000001" title=" " alt="" coords="210,78,259,72,260,78,210,83"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_logging_1_1_output_decorator.html" title="base class for decorating the debug output" alt="" coords="244,109,469,134"/>
+<area shape="poly" id="edge172_Node000000_Node000002" title=" " alt="" coords="210,103,244,106,244,112,210,108"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_logging_1_1_level_output_decorator.html" title="decorate debug message with its debug level" alt="" coords="523,5,719,45"/>
+<area shape="poly" id="edge173_Node000002_Node000003" title=" " alt="" coords="447,102,468,94,482,85,492,75,501,65,516,55,543,43,545,48,519,60,505,69,495,79,486,89,471,98,449,107"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_logging_1_1_named_output_decorator.html" title="decorate debug message with a name" alt="" coords="517,69,725,109"/>
+<area shape="poly" id="edge174_Node000002_Node000004" title=" " alt="" coords="475,104,517,99,517,105,476,110"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_logging_1_1_thread_output_decorator.html" title="decorate debug message with a thread ID" alt="" coords="518,133,725,173"/>
+<area shape="poly" id="edge175_Node000002_Node000005" title=" " alt="" coords="476,133,518,138,518,144,475,138"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_logging_1_1_timed_output_decorator.html" title="decorate debug message with a time stamp" alt="" coords="520,197,723,237"/>
+<area shape="poly" id="edge176_Node000002_Node000006" title=" " alt="" coords="401,137,518,183,554,195,552,200,516,188,399,142"/>
+</map>

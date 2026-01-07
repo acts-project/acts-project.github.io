@@ -1,0 +1,9 @@
+<map id="Acts::ProtoVolume" name="Acts::ProtoVolume">
+<area shape="rect" id="Node000001" title="A proto volume description being used to define an overall structure of either a TrackingVolume or Ex..." alt="" coords="83,191,224,216"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="31,95,118,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,130,119,165,142,189,139,192,115,168,88,133"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,59,77,94,72,94,72,59"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_extent.html" title="A class representing the geometric extent of an object in its possible dimensions,..." alt="" coords="142,95,242,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,134,161,191,156,189,180,132"/>
+</map>

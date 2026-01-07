@@ -1,0 +1,5 @@
+<map id="Acts::CuboidPortalShell" name="Acts::CuboidPortalShell">
+<area shape="rect" id="Node000001" title="Base class for cuboid shaped portal shells, e.g." alt="" coords="5,79,179,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_shell_base.html" title="The portal shell of a volume is the set of portals that describes connections &quot;outside&quot; of the volume..." alt="" coords="12,5,172,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,89,79,89,44"/>
+</map>

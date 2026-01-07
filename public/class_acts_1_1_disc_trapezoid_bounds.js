@@ -1,0 +1,36 @@
+var class_acts_1_1_disc_trapezoid_bounds =
+[
+    [ "BoundValues", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5", [
+      [ "eHalfLengthXminR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a039f097625c1c5a7704585982619bc58", null ],
+      [ "eHalfLengthXmaxR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a0a6537d1f99c94d965e0e7787fc91ebe", null ],
+      [ "eMinR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a092b2d923d583394a2a99bfd866e0ff2", null ],
+      [ "eMaxR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a4c4116aca40c16c8a2cf5dee1bc58fce", null ],
+      [ "eAveragePhi", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5ade21ca56d3403a0787fba92b44f2671f", null ],
+      [ "eStereo", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5aa68f3cd71f53e2da0994cd07ceb254b7", null ],
+      [ "eSize", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5aa8a21fd7b2e0b10a2b35def04544ac18", null ]
+    ] ],
+    [ "DiscTrapezoidBounds", "class_acts_1_1_disc_trapezoid_bounds.html#a8dd80e6efa4c294a45c401c57ef94852", null ],
+    [ "DiscTrapezoidBounds", "class_acts_1_1_disc_trapezoid_bounds.html#ac67a36cf2b1a3cfe8469187795c6af11", null ],
+    [ "binningValuePhi", "class_acts_1_1_disc_trapezoid_bounds.html#ac8fe7e338cdc1f34ab89d18480ca40b7", null ],
+    [ "binningValueR", "class_acts_1_1_disc_trapezoid_bounds.html#a40a2a3f9e714be272fd9e380909aad77", null ],
+    [ "boundToCartesianJacobian", "class_acts_1_1_disc_trapezoid_bounds.html#ad400c074e2a888fcd8f7124c81848026", null ],
+    [ "boundToCartesianMetric", "class_acts_1_1_disc_trapezoid_bounds.html#acbc58bfe54acaaebcfe550b21f976346", null ],
+    [ "center", "class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366", null ],
+    [ "closestPoint", "class_acts_1_1_disc_trapezoid_bounds.html#ad51d59de153a67a21945ae3cf6d2e9bb", null ],
+    [ "coversFullAzimuth", "class_acts_1_1_disc_trapezoid_bounds.html#a56db38ba005a815651f144b79950930a", null ],
+    [ "get", "class_acts_1_1_disc_trapezoid_bounds.html#a0f0ec273645cffd110a8c72f5b0933fc", null ],
+    [ "halfLengthY", "class_acts_1_1_disc_trapezoid_bounds.html#a2716c24e2709d73afe1cc1fcafb92f12", null ],
+    [ "halfPhiSector", "class_acts_1_1_disc_trapezoid_bounds.html#a090c763f36c7c05871b83ce3c8c99e6b", null ],
+    [ "inside", "class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629", null ],
+    [ "inside", "class_acts_1_1_disc_trapezoid_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f", null ],
+    [ "insideRadialBounds", "class_acts_1_1_disc_trapezoid_bounds.html#aaa39c76806305a8c81104ab693726abb", null ],
+    [ "isCartesian", "class_acts_1_1_disc_trapezoid_bounds.html#acc4bff55facedfc7d4508d152baeaaf3", null ],
+    [ "rCenter", "class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562", null ],
+    [ "rMax", "class_acts_1_1_disc_trapezoid_bounds.html#a875555a0d0815a603f21855d6dddf736", null ],
+    [ "rMin", "class_acts_1_1_disc_trapezoid_bounds.html#a4ac73f6be79fcb81e38dec936cd4913f", null ],
+    [ "stereo", "class_acts_1_1_disc_trapezoid_bounds.html#a3985558cd6beeb0ef5ad1e89c2e92a77", null ],
+    [ "toStream", "class_acts_1_1_disc_trapezoid_bounds.html#a9e136004b37e3cf14b355a1bab7b6601", null ],
+    [ "type", "class_acts_1_1_disc_trapezoid_bounds.html#a15eab9814b612533725151de0d4ab9ce", null ],
+    [ "values", "class_acts_1_1_disc_trapezoid_bounds.html#ad2651b0f20670e913b9a634f17d82f95", null ],
+    [ "vertices", "class_acts_1_1_disc_trapezoid_bounds.html#a21755e650390120c29f72d0d77f05015", null ]
+];
