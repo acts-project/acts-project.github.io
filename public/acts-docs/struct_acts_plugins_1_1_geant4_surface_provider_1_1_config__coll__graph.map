@@ -1,0 +1,7 @@
+<map id="ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config" name="ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config">
+<area shape="rect" id="Node000001" title="Nested configuration struct." alt="" coords="31,232,232,287"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,257,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,176,134,232,129,232,129,176"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="53,5,210,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,45,134,121,129,121,129,45"/>
+</map>

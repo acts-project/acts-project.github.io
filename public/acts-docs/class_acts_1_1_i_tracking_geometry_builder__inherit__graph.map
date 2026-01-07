@@ -1,0 +1,7 @@
+<map id="Acts::ITrackingGeometryBuilder" name="Acts::ITrackingGeometryBuilder">
+<area shape="rect" id="Node000001" title="Interface class for the TrackingGeometry building, this is used by the TrackingGeometrySvc to build t..." alt="" coords="126,5,353,31"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_k_d_tree_tracking_geometry_builder.html" title="A Tracking Geometry builder restricted to cylindrical geometries." alt="" coords="5,79,228,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,41,148,81,145,76,208,36"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_tracking_geometry_builder.html" title="The Acts::TrackingGeometry Builder for volumes that wrap around another." alt="" coords="252,86,475,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="271,36,346,84,344,88,268,40"/>
+</map>

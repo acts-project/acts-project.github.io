@@ -1,0 +1,12 @@
+<map id="Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;" name="Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;">
+<area shape="rect" id="Node000001" title="GridSurfaceMaterialT." alt="" coords="5,389,241,429"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_grid_surface_material.html" title=" " alt="" coords="23,285,224,340"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,354,126,389,121,389,121,354"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_i_grid_surface_material_base.html" title="Base class for the concrete templated grid surface material types." alt="" coords="6,80,230,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,119,125,285,120,285,116,120"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_i_grid_surface_material.html" title="Intermediate interface to the grid surface material given access to the grid and the material accesso..." alt="" coords="139,155,331,195"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="148,111,209,152,206,157,145,115"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_i_surface_material.html" title="Base class of all surface&#45;based material description." alt="" coords="35,5,201,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,45,121,80,115,80,115,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="213,207,147,287,143,284,209,204"/>
+</map>

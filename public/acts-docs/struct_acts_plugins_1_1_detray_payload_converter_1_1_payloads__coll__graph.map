@@ -1,0 +1,20 @@
+<map id="ActsPlugins::DetrayPayloadConverter::Payloads" name="ActsPlugins::DetrayPayloadConverter::Payloads">
+<area shape="rect" id="Node000001" title=" " alt="" coords="873,229,1073,269"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="450,44,629,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="643,84,745,114,799,134,851,158,906,192,951,227,947,231,903,196,848,162,797,139,743,119,641,89"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,183,163,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,170,133,123,157,100,186,82,252,59,321,48,389,45,450,48,450,54,389,51,322,53,253,64,188,86,160,104,137,127,101,173"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="438,125,641,179"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="136,177,186,165,317,152,438,148,438,153,317,157,187,171,137,182"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="408,215,671,284"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="114,215,148,237,187,253,242,264,299,269,408,267,408,272,299,275,241,270,186,259,145,242,111,220"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="438,308,641,377"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="97,220,110,250,130,283,156,315,188,339,217,352,249,361,314,370,378,370,438,363,438,369,379,375,313,376,248,366,216,357,185,344,152,319,125,286,106,252,92,223"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="655,175,850,219,885,227,884,232,849,224,654,180"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="685,247,873,247,873,252,685,252"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="654,316,849,275,884,267,886,272,850,280,655,322"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="444,401,635,441"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="647,401,747,375,799,357,848,336,903,302,948,267,951,272,907,307,851,341,801,362,748,380,649,406"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="17,409,151,434"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="165,419,444,419,444,424,165,424"/>
+</map>

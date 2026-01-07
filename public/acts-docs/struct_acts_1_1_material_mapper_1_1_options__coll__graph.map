@@ -1,0 +1,16 @@
+<map id="Acts::MaterialMapper::Options" name="Acts::MaterialMapper::Options">
+<area shape="rect" id="Node000001" title="nested options struct holds some options for the delegated calls" alt="" coords="1135,65,1296,105"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_material_interaction_assignment_1_1_options.html" title="Options for the material interaction matcher The options are used to specify the vetos for the assign..." alt="" coords="769,65,952,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="966,83,1134,83,1134,88,966,88"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="413,15,605,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="619,38,746,57,773,63,772,68,745,63,618,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="48,15,177,41"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="191,25,413,25,413,31,191,31"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_hierarchy_map.html" title=" " alt="" coords="401,65,616,105"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="630,83,769,83,769,88,630,88"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_geometry_hierarchy_map.html" title="Store values mapped into the geometry hierarchy." alt="" coords="5,92,220,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="234,101,401,90,401,95,234,107"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_geometry_hierarchy_map.html" title=" " alt="" coords="401,129,616,169"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="234,126,244,127,401,140,401,145,244,132,233,131"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="629,130,745,111,781,103,782,108,746,116,630,136"/>
+</map>

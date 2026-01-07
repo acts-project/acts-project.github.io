@@ -1,0 +1,15 @@
+<map id="ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions" name="ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions">
+<area shape="rect" id="Node000001" title="Optional configuration for the KDTree." alt="" coords="808,70,1009,125"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_range_x_d.html" title=" " alt="" coords="425,9,597,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="611,39,784,67,808,71,807,77,784,72,610,45"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_range_x_d.html" title="An orthogonal range in an arbitrary number of dimensions." alt="" coords="5,7,176,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,25,425,26,425,31,190,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="397,77,624,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="638,95,808,95,808,100,638,100"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="29,87,152,113"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="166,97,397,95,397,101,166,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="409,141,613,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="626,146,784,123,807,118,808,123,784,128,627,151"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="12,149,169,174"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="183,159,409,159,409,164,183,164"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ActsPlugins::GeoModelDetectorElementITk" name="ActsPlugins::GeoModelDetectorElementITk">
+<area shape="rect" id="Node000001" title="Specialization of the GeoModelDetectorElement for the ITk." alt="" coords="5,167,232,207"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_geo_model_detector_element.html" title="Detector element representative for GeoModel based sensitive elements." alt="" coords="5,79,232,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,133,121,166,116,166,116,133"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_detector_element_base.html" title="This class is the base of all detector elements that are usable by ACTS." alt="" coords="19,5,219,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,44,121,79,116,79,116,44"/>
+</map>

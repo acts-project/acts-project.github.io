@@ -1,0 +1,16 @@
+<map id="Acts::Experimental::GbtsEtaBin" name="Acts::Experimental::GbtsEtaBin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="697,137,843,177"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="385,21,535,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="549,66,611,84,674,106,735,135,733,140,672,110,610,89,548,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,143,135,169"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,131,121,105,158,83,215,64,275,52,333,46,385,43,385,49,334,51,276,57,217,69,160,88,124,109,94,135"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="368,103,552,143"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="148,146,158,145,367,128,368,133,159,151,149,152"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="373,171,547,211"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="105,173,131,185,159,193,214,202,269,205,372,200,372,205,269,210,213,207,158,199,129,190,103,178"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="376,239,544,279"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="87,179,117,219,137,238,160,252,213,270,270,277,325,277,376,272,376,278,325,282,269,282,212,275,158,257,134,242,113,223,83,182"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="566,132,697,147,697,152,566,137"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="561,186,673,176,697,172,698,177,674,181,561,191"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="557,244,615,232,672,214,709,196,740,175,743,180,711,200,674,218,616,237,558,249"/>
+</map>

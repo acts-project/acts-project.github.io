@@ -1,0 +1,28 @@
+<map id="Acts::CylinderVolumeBuilder::Config" name="Acts::CylinderVolumeBuilder::Config">
+<area shape="rect" id="Node000001" title="Nested configuration struct for this CylinderVolumeBuilder." alt="" coords="877,219,1084,259"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="441,19,667,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="682,40,769,56,813,70,855,90,893,118,926,153,970,217,966,220,922,156,890,122,852,94,811,75,768,61,681,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,119,163,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,110,151,95,186,83,251,67,317,55,440,41,441,47,318,61,252,72,187,88,153,100,121,115"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="462,83,646,123"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="176,124,462,106,462,111,177,129"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="469,147,639,187"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="151,145,187,151,336,162,469,165,469,170,336,168,186,156,150,150"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="441,211,667,266"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="107,153,142,186,164,202,188,214,250,232,316,243,381,247,440,247,440,252,380,253,315,248,249,238,186,218,161,206,139,190,104,157"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="511,290,597,315"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="610,295,723,283,853,264,894,256,895,261,854,269,723,288,611,300"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="15,283,153,323"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="167,300,510,300,510,305,167,305"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="660,111,756,128,806,141,854,158,909,186,955,216,952,221,907,190,852,162,804,146,755,133,659,116"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="653,177,854,208,894,216,893,221,853,213,652,182"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="681,236,877,236,877,241,681,241"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="485,340,623,380"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="637,354,741,342,798,330,852,314,907,287,952,257,955,261,910,291,854,318,799,335,742,347,637,359"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="11,347,157,373"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="170,357,485,357,485,363,170,363"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="432,415,676,470"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="689,429,772,410,813,395,852,376,888,350,920,317,965,257,969,261,924,321,892,354,855,381,816,400,774,415,690,435"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="23,441,145,466"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="159,449,432,443,432,448,159,454"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Acts::SingleCylinderPortalShell" name="Acts::SingleCylinderPortalShell">
+<area shape="rect" id="Node000001" title="This class describes a cylinder shell containing a single volume." alt="" coords="5,152,196,192"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cylinder_portal_shell.html" title="Base class for cylinder shaped portal shells, e.g." alt="" coords="9,79,192,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_portal_shell_base.html" title="The portal shell of a volume is the set of portals that describes connections &quot;outside&quot; of the volume..." alt="" coords="21,5,181,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
+</map>

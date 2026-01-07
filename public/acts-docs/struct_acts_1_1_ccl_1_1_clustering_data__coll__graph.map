@@ -1,0 +1,12 @@
+<map id="Acts::Ccl::ClusteringData" name="Acts::Ccl::ClusteringData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="175,212,357,237"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,148,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,145,246,210,243,214,123,150"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="107,5,236,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,39,96,56,85,78,80,101,75,100,80,76,92,53,115,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="173,109,359,134"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="211,35,233,53,253,81,264,107,260,109,248,83,229,56,208,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,148,269,212,263,212,263,148"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_ccl_1_1_disjoint_sets.html" title=" " alt="" coords="384,109,548,134"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="434,143,342,190,292,214,290,210,339,186,432,138"/>
+</map>
