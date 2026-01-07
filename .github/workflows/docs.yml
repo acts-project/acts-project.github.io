@@ -1,0 +1,23 @@
+name: Deploy GitHub Pages from upstream artifact
+
+on:
+  repository_dispatch:
+    types: [ deploy_docs ]
+
+permissions:
+  contents: write   # needed to push to the Pages branch (e.g. gh-pages)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/download-artifact@v4
+       with:
+        path: html
+        repository: '${{ github.event.client_payload.source_repo }}'
+        # github-token: '${{ secrets.CROSS_REPO_PAT_READ_A }}'
+        artifact-ids: '${{ github.event.client_payload.artifact_id }}'
+
+     - name: Inspect
+       run: ls -R html
+
