@@ -17,6 +17,7 @@ jobs:
         repository: '${{ github.event.client_payload.source_repo }}'
         artifact-ids: '${{ github.event.client_payload.artifact_id }}'
         run-id: ${{ github.event.client_payload.run_id }}
+        github-token: ${{ secrets.CROSS_REPO_ARTIFACT_READ }}
 
      - name: Inspect
        run: ls -R html
