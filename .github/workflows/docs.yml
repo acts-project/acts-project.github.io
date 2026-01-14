@@ -31,7 +31,9 @@ jobs:
         github-token: ${{ secrets.CROSS_REPO_ARTIFACT_READ }}
 
 
-     - run: ls -al
+     - run: |
+        ls -al
+        ls -al html
 
      - name: Deploy 🚀
        uses: JamesIves/github-pages-deploy-action@v4
