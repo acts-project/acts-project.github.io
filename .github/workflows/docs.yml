@@ -43,6 +43,11 @@ jobs:
          run-id: ${{ github.event.client_payload.run_id || inputs.run_id }}
          github-token: ${{ secrets.CROSS_REPO_ARTIFACT_READ }}
 
+     - run: |
+        ls -al
+        ls -al artifact
+
+
      - name: Deploy documentation
        env:
          GIT_REF: ${{ github.event.client_payload.ref || inputs.ref }}
