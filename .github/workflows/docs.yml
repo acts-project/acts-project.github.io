@@ -43,9 +43,9 @@ jobs:
          run-id: ${{ github.event.client_payload.run_id || inputs.run_id }}
          github-token: ${{ secrets.CROSS_REPO_ARTIFACT_READ }}
 
-     - run: |
-        ls -al
-        ls -al artifact
+    # - run: |
+     #    ls -al
+     #    ls -al artifact
 
 
      - name: Deploy documentation
@@ -54,7 +54,7 @@ jobs:
        run: |
          uv run scripts/deploy_docs.py \
            --ref "$GIT_REF" \
-           --source-dir artifact/acts-docs \
+           --source-dir artifact \
            --deploy-dir deploy/docs
 
      - name: Deploy
