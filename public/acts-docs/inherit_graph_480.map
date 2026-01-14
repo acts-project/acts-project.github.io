@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_type.html" title="View type over a bitset stored in a 64 bit integer This view allows modifications." alt="" coords="5,5,161,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_proxy_common.html" title=" " alt="" coords="5,30,233,85"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_proxy.html" title=" " alt="" coords="281,5,500,45"/>
+<area shape="poly" id="edge241_Node000000_Node000001" title=" " alt="" coords="247,40,281,36,281,41,247,45"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_proxy.html" title=" " alt="" coords="300,69,481,109"/>
+<area shape="poly" id="edge242_Node000000_Node000002" title=" " alt="" coords="247,70,300,76,299,81,247,75"/>
 </map>

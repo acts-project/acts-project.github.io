@@ -30,5 +30,6 @@ var searchData=
   ['applyrightresult_27',['ApplyRightResult',['../class_acts_1_1_fixed_subspace_helper.html#ac4aea1da74ad4be8b1cacf2c2b7a3107',1,'Acts::FixedSubspaceHelper']]],
   ['axis_28',['Axis',['../class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa04bb959a9d1b7d22b79d671a12a52f6',1,'Acts::HoughTransformUtils::HoughPlane']]],
   ['axisbound_29',['AxisBound',['../namespace_acts_plugins_1_1_svg_1_1_grid_converter.html#a2d4f138fe41cd32b8abb34cdd79415e8',1,'ActsPlugins::Svg::GridConverter']]],
-  ['axisscalar_30',['AxisScalar',['../namespace_acts.html#af1f471897e11492ff0b12b6ff089225d',1,'Acts']]]
+  ['axisscalar_30',['AxisScalar',['../namespace_acts.html#af1f471897e11492ff0b12b6ff089225d',1,'Acts']]],
+  ['axisvariant_31',['AxisVariant',['../namespace_acts_1_1_experimental.html#a50b5e9b447d05f5fb2fe207e54e4953a',1,'Acts::Experimental']]]
 ];

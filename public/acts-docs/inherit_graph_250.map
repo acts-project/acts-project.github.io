@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_impact_point_estimator_1_1_config.html" title=" " alt="" coords="5,5,204,45"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_material_decorator.html" title="Virtual base class for decorators that allow to load material onto a TrackingGeometry." alt="" coords="5,35,185,60"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_json_material_decorator.html" title="Material decorator from Json format." alt="" coords="233,5,436,31"/>
+<area shape="poly" id="edge119_Node000000_Node000001" title=" " alt="" coords="198,32,233,28,234,33,199,37"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_root_material_decorator.html" title="Read the collection of SurfaceMaterial &amp; VolumeMaterial." alt="" coords="240,55,429,95"/>
+<area shape="poly" id="edge120_Node000000_Node000002" title=" " alt="" coords="199,57,240,62,239,67,199,62"/>
 </map>

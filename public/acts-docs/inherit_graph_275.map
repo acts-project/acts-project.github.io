@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_tracking_geometry_builder.html" title="Interface class for the TrackingGeometry building, this is used by the TrackingGeometrySvc to build t..." alt="" coords="5,5,232,31"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_tracking_geometry_builder.html" title="The Acts::TrackingGeometry Builder for volumes that wrap around another." alt="" coords="280,5,503,31"/>
-<area shape="poly" id="edge148_Node000000_Node000001" title=" " alt="" coords="246,15,280,15,280,21,246,21"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_surface_material_accumulater_1_1_state.html" title="The state of the material accumulater, this is used to cache information across tracks/events." alt="" coords="5,5,252,45"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html" title="Nested state struct." alt="" coords="300,5,507,45"/>
+<area shape="poly" id="edge147_Node000000_Node000001" title=" " alt="" coords="266,23,300,23,300,28,266,28"/>
 </map>

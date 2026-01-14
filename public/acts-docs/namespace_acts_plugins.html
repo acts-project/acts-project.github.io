@@ -359,6 +359,16 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga64cb99b8e5651412983806dc65ec396c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to convert the string to binning value.  <br /></td></tr>
 <tr class="memitem:ga3079ad3a90242ce1bbf9c4d76c091dbc" id="r_ga3079ad3a90242ce1bbf9c4d76c091dbc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#ga3079ad3a90242ce1bbf9c4d76c091dbc">stringToAxisDirections</a> (const std::string &amp;binningString, const char &amp;del=',')</td></tr>
 <tr class="memdesc:ga3079ad3a90242ce1bbf9c4d76c091dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to cenvert a binning list string to a vector of binning values e.g.  <br /></td></tr>
+<tr class="memitem:a3dd292e21f34b14d3dd9d50ab9b49e9c" id="r_a3dd292e21f34b14d3dd9d50ab9b49e9c"><td class="memItemLeft" align="right" valign="top">TEfficiency *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd292e21f34b14d3dd9d50ab9b49e9c">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a8a95284c2cff873ec483fc0d62b83805">Acts::Experimental::Efficiency1</a> &amp;boostEff)</td></tr>
+<tr class="memdesc:a3dd292e21f34b14d3dd9d50ab9b49e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Efficiency1 to ROOT TEfficiency.  <br /></td></tr>
+<tr class="memitem:a0d828bfd1ee616ef816b862785b06786" id="r_a0d828bfd1ee616ef816b862785b06786"><td class="memItemLeft" align="right" valign="top">TEfficiency *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d828bfd1ee616ef816b862785b06786">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#acf8910ce91f496a7ced36c4c1f423a42">Acts::Experimental::Efficiency2</a> &amp;boostEff)</td></tr>
+<tr class="memdesc:a0d828bfd1ee616ef816b862785b06786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Efficiency2 to ROOT TEfficiency.  <br /></td></tr>
+<tr class="memitem:a8fa7f25f59b29e87f7d1d6796157d64c" id="r_a8fa7f25f59b29e87f7d1d6796157d64c"><td class="memItemLeft" align="right" valign="top">TH1F *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fa7f25f59b29e87f7d1d6796157d64c">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc">Acts::Experimental::Histogram1</a> &amp;boostHist)</td></tr>
+<tr class="memdesc:a8fa7f25f59b29e87f7d1d6796157d64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Histogram1 to ROOT TH1F.  <br /></td></tr>
+<tr class="memitem:a7a0e9bfa7273c00f4c6f650fd29c9391" id="r_a7a0e9bfa7273c00f4c6f650fd29c9391"><td class="memItemLeft" align="right" valign="top">TH2F *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a0e9bfa7273c00f4c6f650fd29c9391">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b">Acts::Experimental::Histogram2</a> &amp;boostHist)</td></tr>
+<tr class="memdesc:a7a0e9bfa7273c00f4c6f650fd29c9391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Histogram2 to ROOT TH2F.  <br /></td></tr>
+<tr class="memitem:afb5d583683a27dd2f9e7945735c0cfc6" id="r_afb5d583683a27dd2f9e7945735c0cfc6"><td class="memItemLeft" align="right" valign="top">TProfile *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb5d583683a27dd2f9e7945735c0cfc6">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484">Acts::Experimental::ProfileHistogram1</a> &amp;boostProfile)</td></tr>
+<tr class="memdesc:afb5d583683a27dd2f9e7945735c0cfc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert ProfileHistogram1 to ROOT TProfile.  <br /></td></tr>
 <tr class="memitem:gab5ff22deaf2206ac743a1d6d1ebef441" id="r_gab5ff22deaf2206ac743a1d6d1ebef441"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_cylinder_volume_builder.html">Acts::CylinderVolumeBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441">volumeBuilder_dd4hep</a> (dd4hep::DetElement subDetector, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypePhi=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">Acts::equidistant</a>, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeR=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">Acts::equidistant</a>, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeZ=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">Acts::equidistant</a>, double layerEnvelopeR=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double layerEnvelopeZ=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double defaultLayerThickness=<a class="el" href="namespace_acts_1_1_unit_constants.html#a7c3f2a3f53d19935e2967361613908ba">Acts::UnitConstants::fm</a>, const <a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a9633a63a1d4651058cc56a53b243d747">DD4hepLayerBuilder::ElementFactory</a> &amp;detectorElementFactory=<a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a8c6e7aa914a9dbe361916c5dc8dbf994">DD4hepLayerBuilder::defaultDetectorElementFactory</a>)</td></tr>
 <tr class="memdesc:gab5ff22deaf2206ac743a1d6d1ebef441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method internally used to create an Acts::CylinderVolumeBuilder.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -412,6 +422,141 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3dd292e21f34b14d3dd9d50ab9b49e9c" name="a3dd292e21f34b14d3dd9d50ab9b49e9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd292e21f34b14d3dd9d50ab9b49e9c">&#9670;&#160;</a></span>toRoot() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEfficiency * ActsPlugins::toRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#a8a95284c2cff873ec483fc0d62b83805">Acts::Experimental::Efficiency1</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boostEff</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert Efficiency1 to ROOT TEfficiency. </p>
+<p>Creates a new ROOT TEfficiency object with the same binning, passed counts, and total counts as the input boost efficiency histogram.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boostEff</td><td>The boost 1D efficiency histogram to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TEfficiency (caller owns and must delete) </dd></dl>
+
+</div>
+</div>
+<a id="a0d828bfd1ee616ef816b862785b06786" name="a0d828bfd1ee616ef816b862785b06786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d828bfd1ee616ef816b862785b06786">&#9670;&#160;</a></span>toRoot() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEfficiency * ActsPlugins::toRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#acf8910ce91f496a7ced36c4c1f423a42">Acts::Experimental::Efficiency2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boostEff</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert Efficiency2 to ROOT TEfficiency. </p>
+<p>Creates a new ROOT TEfficiency object (2D) with the same binning, passed counts, and total counts as the input boost efficiency histogram.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boostEff</td><td>The boost 2D efficiency histogram to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TEfficiency (caller owns and must delete) </dd></dl>
+
+</div>
+</div>
+<a id="a8fa7f25f59b29e87f7d1d6796157d64c" name="a8fa7f25f59b29e87f7d1d6796157d64c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa7f25f59b29e87f7d1d6796157d64c">&#9670;&#160;</a></span>toRoot() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TH1F * ActsPlugins::toRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc">Acts::Experimental::Histogram1</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boostHist</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert Histogram1 to ROOT TH1F. </p>
+<p>Creates a new ROOT TH1F histogram with the same binning, content, and errors as the input boost histogram.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boostHist</td><td>The boost 1D histogram to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TH1F (caller owns and must delete) </dd></dl>
+
+</div>
+</div>
+<a id="a7a0e9bfa7273c00f4c6f650fd29c9391" name="a7a0e9bfa7273c00f4c6f650fd29c9391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0e9bfa7273c00f4c6f650fd29c9391">&#9670;&#160;</a></span>toRoot() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TH2F * ActsPlugins::toRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b">Acts::Experimental::Histogram2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boostHist</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert Histogram2 to ROOT TH2F. </p>
+<p>Creates a new ROOT TH2F histogram with the same binning, content, and errors as the input boost histogram.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boostHist</td><td>The boost 2D histogram to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TH2F (caller owns and must delete) </dd></dl>
+
+</div>
+</div>
+<a id="afb5d583683a27dd2f9e7945735c0cfc6" name="afb5d583683a27dd2f9e7945735c0cfc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb5d583683a27dd2f9e7945735c0cfc6">&#9670;&#160;</a></span>toRoot() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TProfile * ActsPlugins::toRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484">Acts::Experimental::ProfileHistogram1</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boostProfile</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert ProfileHistogram1 to ROOT TProfile. </p>
+<p>Creates a new ROOT TProfile histogram with the same binning and mean values as the input boost profile histogram.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boostProfile</td><td>The boost profile histogram to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TProfile (caller owns and must delete) </dd></dl>
 
 </div>
 </div>

@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html" target="_top" xlink:title="Configuration &#45; number of bins in each axis.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html" target="_top" xlink:title="struct to define the ranges of the hough histogram.">
 <polygon fill="white" stroke="#666666" points="146,-30 0,-30 0,0 146,0 146,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::HoughTransformUtils</text>
-<text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::HoughPlaneConfig</text>
+<text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::HoughAxisRanges</text>
 </a>
 </g>
 </g>

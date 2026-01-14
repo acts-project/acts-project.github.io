@@ -1,23 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_navigation_policy.html" title="Base class for all navigation policies." alt="" coords="5,301,177,326"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="225,5,484,45"/>
-<area shape="poly" id="edge121_Node000000_Node000001" title=" " alt="" coords="96,286,111,237,136,174,173,110,196,81,224,55,243,43,245,48,227,59,200,84,177,113,141,177,116,239,101,288"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="238,69,471,109"/>
-<area shape="poly" id="edge122_Node000000_Node000002" title=" " alt="" coords="101,287,119,249,146,204,181,158,224,119,245,107,248,112,227,124,185,161,150,207,124,251,106,289"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="239,133,471,173"/>
-<area shape="poly" id="edge123_Node000000_Node000003" title=" " alt="" coords="109,288,157,235,189,207,224,183,250,171,253,176,227,188,192,211,160,239,112,292"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_index_grid_navigation_policy.html" title=" " alt="" coords="235,197,475,237"/>
-<area shape="poly" id="edge124_Node000000_Node000004" title=" " alt="" coords="126,292,172,269,224,247,262,235,264,240,226,252,175,274,129,296"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_cylinder_navigation_policy.html" title="Optimized navigation policy for cylindrical volumes that intelligently selects which portals to add a..." alt="" coords="263,261,446,301"/>
-<area shape="poly" id="edge125_Node000000_Node000005" title=" " alt="" coords="191,299,263,290,263,295,192,304"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html" title="A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye..." alt="" coords="250,325,459,365"/>
-<area shape="poly" id="edge126_Node000000_Node000006" title=" " alt="" coords="192,323,250,330,249,335,191,328"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_index_grid_navigation_policy.html" title="A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye..." alt="" coords="259,389,451,429"/>
-<area shape="poly" id="edge127_Node000000_Node000007" title=" " alt="" coords="129,330,175,353,226,375,264,387,262,392,224,380,172,358,126,335"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_multi_navigation_policy.html" title="Combined navigation policy that calls all contained other navigation policies." alt="" coords="254,454,455,479"/>
-<area shape="poly" id="edge128_Node000000_Node000008" title=" " alt="" coords="112,335,160,389,192,416,227,439,258,451,256,456,224,444,188,421,156,393,108,339"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_surface_array_navigation_policy.html" title="A navigation policy that internally uses the Gen1 SurfaceArray class." alt="" coords="248,504,461,544"/>
-<area shape="poly" id="edge129_Node000000_Node000009" title=" " alt="" coords="107,337,126,372,152,413,186,454,227,488,251,501,249,506,224,493,183,458,148,416,121,375,102,340"/>
-<area shape="rect" id="Node000010" href="$class_acts_1_1_try_all_navigation_policy.html" title="Policy which adds all candidates of the configured type to the stream." alt="" coords="253,569,457,594"/>
-<area shape="poly" id="edge130_Node000000_Node000010" title=" " alt="" coords="102,339,117,386,142,445,178,504,201,531,227,554,254,568,251,573,224,558,197,535,174,508,137,447,112,388,97,340"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_impact_point_estimator.html" title="Estimator for impact point calculations A description of the underlying mathematics can be found here..." alt="" coords="5,5,204,31"/>
 </map>

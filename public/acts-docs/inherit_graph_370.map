@@ -1,11 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_portal_link_base.html" title="PortalLinkBase is the abstract base class for all portal links." alt="" coords="5,55,160,80"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_composite_portal_link.html" title="Composite portal links can graft together other portal link instances, for example grids that could n..." alt="" coords="208,5,401,31"/>
-<area shape="poly" id="edge189_Node000000_Node000001" title=" " alt="" coords="153,49,246,28,247,33,154,54"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_grid_portal_link.html" title="GridPortalLink implements a subdivided surface where the target volume depends on the position on the..." alt="" coords="229,55,380,80"/>
-<area shape="poly" id="edge190_Node000000_Node000002" title=" " alt="" coords="174,65,229,65,229,70,174,70"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_trivial_portal_link.html" title="Trivial portal link links to a single target volume on every point on a surface." alt="" coords="223,104,386,129"/>
-<area shape="poly" id="edge192_Node000000_Node000004" title=" " alt="" coords="154,80,247,101,246,107,153,86"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_grid_portal_link_t.html" title="Concrete class deriving from GridPortalLink that boxes a concrete grid for lookup." alt="" coords="449,47,608,87"/>
-<area shape="poly" id="edge191_Node000002_Node000003" title=" " alt="" coords="394,65,449,65,449,70,394,70"/>
+<area shape="rect" id="Node000000" href="$struct_acts_1_1_portal_1_1_arguments.html" title="Helper struct for the arguments to the portal constructor below using designated initializers." alt="" coords="5,5,180,31"/>
 </map>

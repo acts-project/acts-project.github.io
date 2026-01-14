@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_types_1_1apply_3_01_f_00_01_type_list_3_01_ts_8_8_8_01_4_01_4.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_type_dispatcher.html" target="_top" xlink:title="Template class for type&#45;based function dispatch.">
 <polygon fill="white" stroke="#666666" points="132,-30 0,-30 0,0 132,0 132,-30"/>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Types::apply</text>
-<text text-anchor="middle" x="66" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; F, TypeList&lt; Ts... &gt; &gt;</text>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::TypeDispatcher</text>
+<text text-anchor="middle" x="66" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; base_t, signature_t &gt;</text>
 </a>
 </g>
 </g>

@@ -1,3 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_material_interaction.html" title="The Material interaction struct It records the surface and the passed material This is only necessary..." alt="" coords="5,5,188,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_magnetic_field_provider.html" title="Base class for all magnetic field providers." alt="" coords="5,145,208,171"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_constant_b_field.html" title="The simplest magnetic field implementation is a constant field, which returns the same field values a..." alt="" coords="277,5,433,31"/>
+<area shape="poly" id="edge174_Node000000_Node000001" title=" " alt="" coords="129,134,183,87,218,62,255,41,288,28,290,33,257,46,221,67,187,91,132,138"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_interpolated_magnetic_field.html" title="Base class for interpolated magnetic field providers." alt="" coords="256,55,453,95"/>
+<area shape="poly" id="edge175_Node000000_Node000002" title=" " alt="" coords="157,138,255,105,291,93,293,98,257,110,159,143"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_range_b_field.html" title="Magnetic field provider modelling a magnetic field consisting of several (potentially overlapping) re..." alt="" coords="269,120,441,145"/>
+<area shape="poly" id="edge177_Node000000_Node000004" title=" " alt="" coords="222,144,268,139,269,144,222,149"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_null_b_field.html" title="Null bfield which returns 0 always." alt="" coords="293,169,417,195"/>
+<area shape="poly" id="edge178_Node000000_Node000005" title=" " alt="" coords="222,166,293,173,292,179,221,172"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_solenoid_b_field.html" title="Analytical solenoid magnetic field implementation." alt="" coords="277,219,432,244"/>
+<area shape="poly" id="edge179_Node000000_Node000006" title=" " alt="" coords="159,173,257,203,303,216,301,221,255,209,158,178"/>
+<area shape="rect" id="Node000007" href="$class_acts_plugins_1_1_d_d4hep_field_adapter.html" title=" " alt="" coords="261,269,449,309"/>
+<area shape="poly" id="edge180_Node000000_Node000007" title=" " alt="" coords="137,177,191,215,257,253,289,266,286,271,255,258,188,219,134,181"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_interpolated_b_field_map.html" title="Interpolates magnetic field value from field values on a given grid." alt="" coords="501,55,679,95"/>
+<area shape="poly" id="edge176_Node000002_Node000003" title=" " alt="" coords="467,73,501,73,501,78,467,78"/>
 </map>

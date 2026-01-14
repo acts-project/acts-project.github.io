@@ -1,9 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_plugins_1_1_i_geant4_physical_volume_selector.html" title="Interface class for selectors from physical volumes." alt="" coords="5,69,216,109"/>
-<area shape="rect" id="Node000001" href="$struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html" title="Struct that selects all G4VPhysicalVolume objects." alt="" coords="281,5,491,45"/>
-<area shape="poly" id="edge265_Node000000_Node000001" title=" " alt="" coords="210,64,299,43,300,48,211,69"/>
-<area shape="rect" id="Node000002" href="$struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html" title="Struct that selects G4VPhysicalVolume objects that match one of the provided names,..." alt="" coords="271,69,501,109"/>
-<area shape="poly" id="edge266_Node000000_Node000002" title=" " alt="" coords="230,87,270,87,270,92,230,92"/>
-<area shape="rect" id="Node000003" href="$struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html" title="Struct that selects G4VPhysicalVolume objects based on the allowed range of their position." alt="" coords="264,133,508,173"/>
-<area shape="poly" id="edge267_Node000000_Node000003" title=" " alt="" coords="211,110,300,131,299,136,210,115"/>
+<area shape="rect" id="Node000000" href="$class_acts_plugins_1_1_hashing_annoy.html" title=" " alt="" coords="5,5,204,60"/>
 </map>

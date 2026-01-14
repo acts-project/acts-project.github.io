@@ -1,23 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_portal_shell_base.html" title="The portal shell of a volume is the set of portals that describes connections &quot;outside&quot; of the volume..." alt="" coords="5,216,165,241"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_cuboid_portal_shell.html" title="Base class for cuboid shaped portal shells, e.g." alt="" coords="222,63,395,88"/>
-<area shape="poly" id="edge193_Node000000_Node000001" title=" " alt="" coords="115,206,287,86,290,91,118,210"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_cylinder_portal_shell.html" title="Base class for cylinder shaped portal shells, e.g." alt="" coords="217,191,400,216"/>
-<area shape="poly" id="edge196_Node000000_Node000004" title=" " alt="" coords="179,215,217,211,218,216,180,221"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_diamond_portal_shell.html" title="Base class for diamond shaped portal shells, e.g single volumes with polygon shape or stacked (multip..." alt="" coords="215,248,402,273"/>
-<area shape="poly" id="edge199_Node000000_Node000007" title=" " alt="" coords="179,239,220,245,219,251,179,245"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_trapezoid_portal_shell.html" title="Base class for trapezoid shaped portal shells, e.g." alt="" coords="213,304,404,329"/>
-<area shape="poly" id="edge201_Node000000_Node000009" title=" " alt="" coords="126,245,214,284,266,301,264,306,212,288,124,250"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_cuboid_stack_portal_shell.html" title="This class describes a cuboid shell containing multiple volumes." alt="" coords="452,5,661,31"/>
-<area shape="poly" id="edge194_Node000001_Node000002" title=" " alt="" coords="377,57,500,28,502,33,378,62"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_single_cuboid_portal_shell.html" title="This class describes a cuboid shell containing a single volume." alt="" coords="466,55,647,95"/>
-<area shape="poly" id="edge195_Node000001_Node000003" title=" " alt="" coords="409,73,466,73,466,78,409,78"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_cylinder_stack_portal_shell.html" title="This class describes a cylinder shell containing multiple volumes." alt="" coords="463,119,650,159"/>
-<area shape="poly" id="edge197_Node000004_Node000005" title=" " alt="" coords="372,184,478,157,479,162,373,190"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_single_cylinder_portal_shell.html" title="This class describes a cylinder shell containing a single volume." alt="" coords="461,183,652,223"/>
-<area shape="poly" id="edge198_Node000004_Node000006" title=" " alt="" coords="414,201,461,201,461,206,414,206"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_single_diamond_portal_shell.html" title="Implementation of a portal shell class for a single convex polygon volume." alt="" coords="459,247,654,287"/>
-<area shape="poly" id="edge200_Node000007_Node000008" title=" " alt="" coords="416,261,459,262,459,267,416,266"/>
-<area shape="rect" id="Node000010" href="$class_acts_1_1_single_trapezoid_portal_shell.html" title="This class describes a trapezoid shell containing a single volume." alt="" coords="457,311,656,351"/>
-<area shape="poly" id="edge202_Node000009_Node000010" title=" " alt="" coords="418,320,457,323,457,328,418,326"/>
+<area shape="rect" id="Node000000" href="$struct_acts_1_1_portal_1_1_arguments_1_1_link.html" title="Aggregate over a surface and a volume with optional semantics." alt="" coords="5,5,180,45"/>
 </map>

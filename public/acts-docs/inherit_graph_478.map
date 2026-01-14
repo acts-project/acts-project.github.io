@@ -1,5 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_proxy_common.html" title=" " alt="" coords="5,5,228,60"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_proxy.html" title="Proxy object to access a single point on the trajectory." alt="" coords="276,5,445,60"/>
-<area shape="poly" id="edge243_Node000000_Node000001" title=" " alt="" coords="242,30,276,30,276,35,242,35"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_proxy_common.html" title=" " alt="" coords="5,62,228,117"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_any_track_state_proxy.html" title=" " alt="" coords="276,5,464,45"/>
+<area shape="poly" id="edge236_Node000000_Node000001" title=" " alt="" coords="238,56,290,43,291,48,239,61"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_any_track_state_proxy.html" title=" " alt="" coords="276,69,464,109"/>
+<area shape="poly" id="edge237_Node000000_Node000002" title=" " alt="" coords="242,87,276,87,276,92,242,92"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_any_track_state_proxy.html" title=" " alt="" coords="276,133,464,173"/>
+<area shape="poly" id="edge238_Node000000_Node000003" title=" " alt="" coords="239,118,291,131,290,136,238,123"/>
 </map>

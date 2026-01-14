@@ -158,6 +158,11 @@ var namespace_acts_plugins =
     [ "sortDetElementsByID", "group__dd4hep__plugin.html#ga50507e288756f412c9c07e600ca63e70", null ],
     [ "stringToAxisDirection", "group__dd4hep__plugin.html#ga64cb99b8e5651412983806dc65ec396c", null ],
     [ "stringToAxisDirections", "group__dd4hep__plugin.html#ga3079ad3a90242ce1bbf9c4d76c091dbc", null ],
+    [ "toRoot", "namespace_acts_plugins.html#a3dd292e21f34b14d3dd9d50ab9b49e9c", null ],
+    [ "toRoot", "namespace_acts_plugins.html#a0d828bfd1ee616ef816b862785b06786", null ],
+    [ "toRoot", "namespace_acts_plugins.html#a8fa7f25f59b29e87f7d1d6796157d64c", null ],
+    [ "toRoot", "namespace_acts_plugins.html#a7a0e9bfa7273c00f4c6f650fd29c9391", null ],
+    [ "toRoot", "namespace_acts_plugins.html#afb5d583683a27dd2f9e7945735c0cfc6", null ],
     [ "volumeBuilder_dd4hep", "group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441", null ],
     [ "allowedBinnings", "group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e", null ]
 ];

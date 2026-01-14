@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_sympy_stepper_1_1_config.html" title=" " alt="" coords="5,5,159,45"/>
+<area shape="rect" id="Node000000" href="$struct_acts_1_1_surface_reached.html" title="This is the condition that the Surface has been reached it then triggers a propagation abort." alt="" coords="5,13,168,38"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_forced_surface_reached.html" title="Similar to SurfaceReached, but with an infinite overstep limit." alt="" coords="216,13,423,38"/>
+<area shape="poly" id="edge226_Node000000_Node000001" title=" " alt="" coords="182,23,216,23,216,28,182,28"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_multi_stepper_surface_reached.html" title=" " alt="" coords="471,5,661,45"/>
+<area shape="poly" id="edge227_Node000001_Node000002" title=" " alt="" coords="436,23,470,23,470,28,436,28"/>
 </map>
