@@ -31,10 +31,8 @@ jobs:
          ref: gh-pages
          path: deploy
 
-     - name: Set up Python
-       uses: actions/setup-python@v5
-       with:
-         python-version: '3.12'
+     - name: Set up uv
+       uses: astral-sh/setup-uv@v5
 
      - name: Download artifact
        uses: actions/download-artifact@v4
@@ -49,7 +47,7 @@ jobs:
        env:
          GIT_REF: ${{ github.event.client_payload.ref || inputs.ref }}
        run: |
-         python scripts/deploy_docs.py \
+         uv run scripts/deploy_docs.py \
            --ref "$GIT_REF" \
            --source-dir artifact/acts-docs \
            --deploy-dir deploy/docs

@@ -1,166 +1,107 @@
-#!/usr/bin/env python3
-"""
-Multi-version documentation deployment script.
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "typer>=0.9.0",
+#     "rich>=13.0.0",
+#     "pydantic>=2.0.0",
+# ]
+# ///
+"""Multi-version documentation deployment script."""
 
-Determines deployment target based on git ref and maintains a versions index.
-"""
-
-import argparse
-import json
 import re
 import shutil
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Annotated, Optional
+from typing import Annotated, Literal
+
+import typer
+from pydantic import BaseModel
+from rich import print as rprint
+from rich.console import Console
+
+console = Console()
+app = typer.Typer()
 
 
-def parse_git_ref(ref: str) -> tuple[str, str]:
-    """
-    Parse a git ref to determine version type and name.
+class MainBranchInfo(BaseModel):
+    path: str = "."
+    updated_at: str
 
-    Returns:
-        Tuple of (version_type, version_name) where version_type is 'tag', 'branch', or 'unknown'
-    """
+
+class VersionEntry(BaseModel):
+    version: str
+    path: str
+    tag: str
+    deployed_at: str
+
+
+class VersionsIndex(BaseModel):
+    versions: list[VersionEntry] = []
+    main: MainBranchInfo | None = None
+    generated_at: str | None = None
+
+    @classmethod
+    def load(cls, path: Path) -> "VersionsIndex":
+        if path.exists():
+            return cls.model_validate_json(path.read_text())
+        return cls()
+
+    def save(self, path: Path) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(self.model_dump_json(indent=2) + "\n")
+
+
+RefType = Literal["tag", "branch", "unknown"]
+
+
+def parse_git_ref(ref: str) -> tuple[RefType, str]:
+    """Parse a git ref to determine version type and name."""
     if ref.startswith("refs/tags/"):
         return ("tag", ref.removeprefix("refs/tags/"))
     elif ref.startswith("refs/heads/"):
         return ("branch", ref.removeprefix("refs/heads/"))
     else:
-        # Might be a short ref like 'main' or 'v1.2.3'
         return ("unknown", ref)
 
 
 def normalize_version(version: str) -> str:
-    """
-    Normalize version string for folder naming.
-
-    Strips leading 'v' if present for consistency.
-    """
+    """Normalize version string, stripping leading 'v' if present."""
     return version.lstrip("v")
 
 
-def get_target_folder(ref_type: str, ref_name: str, main_branch: str = "main") -> str:
-    """
-    Determine the target folder for deployment.
-
-    - main branch -> root (empty string for target-folder)
-    - tags -> v{version}/
-    """
-    if ref_type == "branch" and ref_name == main_branch:
-        return ""  # Deploy to root
-    elif ref_type == "tag":
-        version = normalize_version(ref_name)
-        return f"v{version}"
-    elif ref_type == "unknown" and ref_name == main_branch:
-        return ""
-    elif ref_type == "unknown":
-        # Assume it's a version tag
-        version = normalize_version(ref_name)
-        return f"v{version}"
-    else:
-        # Other branches - deploy to branch name folder
-        safe_name = re.sub(r"[^a-zA-Z0-9._-]", "-", ref_name)
-        return safe_name
-
-
-def load_versions_index(index_path: Path) -> dict:
-    """Load existing versions index or create empty one."""
-    if index_path.exists():
-        with open(index_path) as f:
-            return json.load(f)
-    return {"versions": [], "main": None, "generated_at": None}
-
-
-def update_versions_index(
-    index_path: Path,
-    ref_type: str,
-    ref_name: str,
-    target_folder: str,
-    main_branch: str = "main",
-) -> dict:
-    """
-    Update the versions index with new deployment info.
-
-    Returns the updated index.
-    """
-    index = load_versions_index(index_path)
-    now = datetime.now(timezone.utc).isoformat()
-
-    if ref_type == "branch" and ref_name == main_branch:
-        index["main"] = {
-            "path": ".",
-            "updated_at": now,
-        }
-    elif ref_type == "tag" or (ref_type == "unknown" and ref_name != main_branch):
-        version = normalize_version(ref_name)
-        version_entry = {
-            "version": version,
-            "path": target_folder,
-            "tag": ref_name,
-            "deployed_at": now,
-        }
-
-        # Update or add version entry
-        existing_versions = {v["version"]: i for i, v in enumerate(index["versions"])}
-        if version in existing_versions:
-            index["versions"][existing_versions[version]] = version_entry
-        else:
-            index["versions"].append(version_entry)
-
-        # Sort versions by semver (descending)
-        index["versions"].sort(key=lambda v: parse_semver(v["version"]), reverse=True)
-
-    index["generated_at"] = now
-    return index
-
-
 def parse_semver(version: str) -> tuple:
-    """
-    Parse semver string for sorting.
-
-    Returns tuple for comparison, handling non-semver gracefully.
-    """
+    """Parse semver string for sorting."""
     match = re.match(r"(\d+)\.(\d+)\.(\d+)(?:-(.+))?", version)
     if match:
         major, minor, patch, prerelease = match.groups()
-        # Prerelease versions sort before release versions
         pre_sort = (0, prerelease) if prerelease else (1, "")
         return (int(major), int(minor), int(patch), pre_sort)
-    # Fallback for non-semver: sort alphabetically at the end
     return (0, 0, 0, (0, version))
 
 
-def save_versions_index(index_path: Path, index: dict) -> None:
-    """Save versions index to file."""
-    index_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(index_path, "w") as f:
-        json.dump(index, f, indent=2)
-        f.write("\n")
-
-
-def deploy_docs(
-    source_dir: Path,
-    deploy_dir: Path,
-    target_folder: str,
-) -> Path:
-    """
-    Deploy documentation to target folder.
-
-    Returns the path where docs were deployed.
-    """
-    if target_folder:
-        target_path = deploy_dir / target_folder
+def get_target_folder(ref_type: RefType, ref_name: str, main_branch: str) -> str:
+    """Determine the target folder for deployment."""
+    if ref_type == "branch" and ref_name == main_branch:
+        return ""
+    elif ref_type == "tag":
+        return f"tags/v{normalize_version(ref_name)}"
+    elif ref_type == "unknown" and ref_name == main_branch:
+        return ""
+    elif ref_type == "unknown":
+        return f"tags/v{normalize_version(ref_name)}"
     else:
-        target_path = deploy_dir
+        return re.sub(r"[^a-zA-Z0-9._-]", "-", ref_name)
 
-    # Clean target directory if it exists (for updates)
+
+def deploy_docs(source_dir: Path, deploy_dir: Path, target_folder: str) -> Path:
+    """Deploy documentation to target folder."""
+    target_path = deploy_dir / target_folder if target_folder else deploy_dir
+
     if target_path.exists():
         shutil.rmtree(target_path)
 
     target_path.mkdir(parents=True, exist_ok=True)
 
-    # Copy all files from source to target
     for item in source_dir.iterdir():
         dest = target_path / item.name
         if item.is_dir():
@@ -171,76 +112,71 @@ def deploy_docs(
     return target_path
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(
-        description="Deploy documentation with multi-version support"
-    )
-    parser.add_argument(
-        "--ref",
-        required=True,
-        help="Git ref (e.g., refs/tags/v1.2.3 or refs/heads/main)",
-    )
-    parser.add_argument(
-        "--source-dir",
-        type=Path,
-        required=True,
-        help="Directory containing documentation to deploy",
-    )
-    parser.add_argument(
-        "--deploy-dir",
-        type=Path,
-        required=True,
-        help="Root directory for deployed documentation",
-    )
-    parser.add_argument(
-        "--main-branch",
-        default="main",
-        help="Name of the main branch (default: main)",
-    )
-    parser.add_argument(
-        "--index-file",
-        type=Path,
-        default=None,
-        help="Path to versions index JSON file (default: deploy-dir/versions.json)",
-    )
-    parser.add_argument(
-        "--output-target-folder",
-        action="store_true",
-        help="Only output the target folder path (for CI integration)",
-    )
+def update_index(
+    index: VersionsIndex,
+    ref_type: RefType,
+    ref_name: str,
+    target_folder: str,
+    main_branch: str,
+) -> VersionsIndex:
+    """Update the versions index with new deployment info."""
+    now = datetime.now(timezone.utc).isoformat()
 
-    args = parser.parse_args()
+    if ref_type == "branch" and ref_name == main_branch:
+        index.main = MainBranchInfo(updated_at=now)
+    elif ref_type == "tag" or (ref_type == "unknown" and ref_name != main_branch):
+        version = normalize_version(ref_name)
+        entry = VersionEntry(
+            version=version,
+            path=target_folder,
+            tag=ref_name,
+            deployed_at=now,
+        )
 
-    ref_type, ref_name = parse_git_ref(args.ref)
-    target_folder = get_target_folder(ref_type, ref_name, args.main_branch)
+        existing = {v.version: i for i, v in enumerate(index.versions)}
+        if version in existing:
+            index.versions[existing[version]] = entry
+        else:
+            index.versions.append(entry)
 
-    # If only outputting target folder, print and exit
-    if args.output_target_folder:
+        index.versions.sort(key=lambda v: parse_semver(v.version), reverse=True)
+
+    index.generated_at = now
+    return index
+
+
+@app.command()
+def deploy(
+    ref: Annotated[str, typer.Option(help="Git ref (e.g., refs/tags/v1.2.3 or refs/heads/main)")],
+    source_dir: Annotated[Path, typer.Option(help="Directory containing documentation to deploy")],
+    deploy_dir: Annotated[Path, typer.Option(help="Root directory for deployed documentation")],
+    main_branch: Annotated[str, typer.Option(help="Name of the main branch")] = "main",
+    index_file: Annotated[Path | None, typer.Option(help="Path to versions index JSON file")] = None,
+    output_target_folder: Annotated[bool, typer.Option(help="Only output the target folder path")] = False,
+) -> None:
+    """Deploy documentation with multi-version support."""
+    ref_type, ref_name = parse_git_ref(ref)
+    target_folder = get_target_folder(ref_type, ref_name, main_branch)
+
+    if output_target_folder:
         print(target_folder)
-        return 0
+        raise typer.Exit()
 
-    # Validate source directory
-    if not args.source_dir.exists():
-        print(f"Error: Source directory does not exist: {args.source_dir}", file=sys.stderr)
-        return 1
+    if not source_dir.exists():
+        rprint(f"[red]Error:[/red] Source directory does not exist: {source_dir}")
+        raise typer.Exit(1)
 
-    # Determine index file path
-    index_path = args.index_file or (args.deploy_dir / "versions.json")
+    index_path = index_file or (deploy_dir / "versions.json")
 
-    # Deploy documentation
-    print(f"Deploying {ref_type} '{ref_name}' to '{target_folder or '(root)'}'")
-    deployed_path = deploy_docs(args.source_dir, args.deploy_dir, target_folder)
-    print(f"Documentation deployed to: {deployed_path}")
+    rprint(f"[blue]Deploying[/blue] {ref_type} [bold]{ref_name}[/bold] to [green]{target_folder or '(root)'}[/green]")
+    deployed_path = deploy_docs(source_dir, deploy_dir, target_folder)
+    rprint(f"[green]Documentation deployed to:[/green] {deployed_path}")
 
-    # Update versions index
-    index = update_versions_index(
-        index_path, ref_type, ref_name, target_folder, args.main_branch
-    )
-    save_versions_index(index_path, index)
-    print(f"Updated versions index: {index_path}")
-
-    return 0
+    index = VersionsIndex.load(index_path)
+    index = update_index(index, ref_type, ref_name, target_folder, main_branch)
+    index.save(index_path)
+    rprint(f"[green]Updated versions index:[/green] {index_path}")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    app()
