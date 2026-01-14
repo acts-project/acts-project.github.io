@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -123,8 +125,8 @@ $(function(){initNavTree('functions_func_j.html','',''); });
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
 
 <h3 class="doxsection"><a id="index_j" name="index_j"></a>- j -</h3><ul>
-<li>jacobian()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a18c83bf9d5e1cd9fbfd9fa87cdf74d1b">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a963bb4bd89f7e9f6db39b0215ef7ae28">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
-<li>jacobian_impl()&#160;:&#160;<a class="el" href="class_acts_1_1_const_vector_multi_trajectory.html#ad2f210a8978681b5d216d19ad3ad7581">Acts::ConstVectorMultiTrajectory</a>, <a class="el" href="class_acts_1_1_vector_multi_trajectory.html#adebbc517fb93bd8bc351dad2cdfdc587">Acts::VectorMultiTrajectory</a>, <a class="el" href="class_acts_plugins_1_1_const_podio_track_state_container.html#a83b8d426567632f42c03e7693619590e">ActsPlugins::ConstPodioTrackStateContainer</a>, <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html#a2d120edb91ec307cca1fe7c3bc2f28c4">ActsPlugins::MutablePodioTrackStateContainer</a></li>
+<li>jacobian()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#ab42477fb72d8876d5728faa10412c171">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#ac9eca74818528b546517781ffb4d13ba">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a963bb4bd89f7e9f6db39b0215ef7ae28">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>jacobian_impl()&#160;:&#160;<a class="el" href="class_acts_1_1_const_vector_multi_trajectory.html#a8bdf6c1831ba1b7ea005892df5d4f32a">Acts::ConstVectorMultiTrajectory</a>, <a class="el" href="class_acts_1_1_vector_multi_trajectory.html#adebbc517fb93bd8bc351dad2cdfdc587">Acts::VectorMultiTrajectory</a>, <a class="el" href="class_acts_plugins_1_1_const_podio_track_state_container.html#a83b8d426567632f42c03e7693619590e">ActsPlugins::ConstPodioTrackStateContainer</a>, <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html#a2d120edb91ec307cca1fe7c3bc2f28c4">ActsPlugins::MutablePodioTrackStateContainer</a></li>
 <li>Jet()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_fast_jet_1_1_jet.html#a2d655eae867281a99f7c83288e9be3d5">ActsPlugins::FastJet::Jet</a></li>
 <li>jetLabel()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_fast_jet_1_1_jet.html#a31dd57113aba6a26007bcb0c780b0937">ActsPlugins::FastJet::Jet</a></li>
 <li>JsonDetectorElement()&#160;:&#160;<a class="el" href="class_acts_1_1_json_detector_element.html#ac6b0f968f6064c83ac1f424bd6d3be34">Acts::JsonDetectorElement</a></li>

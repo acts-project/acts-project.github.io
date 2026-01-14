@@ -1,5 +1,5 @@
 <map id="Acts::ConeLayer" name="Acts::ConeLayer">
-<area shape="rect" id="Node000001" title="Class to describe a conical detector layer for tracking, it inhertis from both, Layer base class and ..." alt="" coords="143,313,270,339"/>
+<area shape="rect" id="Node000001" title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ..." alt="" coords="143,313,270,339"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_cone_surface.html" title="Class for a conical surface in the Tracking geometry." alt="" coords="83,240,223,265"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,275,200,312,196,315,168,278"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="53,167,211,192"/>

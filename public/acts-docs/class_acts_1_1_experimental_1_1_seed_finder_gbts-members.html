@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -126,15 +128,13 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_seed_finder_gbts.html'
 
 <p>This is the complete list of members for <a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#ad1d21a13093d314cf5cff4fba8e32a37">buildTheGraph</a>(const RoiDescriptor &amp;roi, const std::unique_ptr&lt; GNN_DataStorage &gt; &amp;storage, std::vector&lt; GNN_Edge &gt; &amp;edgeStorage) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a9353f1745f3249e449ceecbfaf322cf6">CreateNodes</a>(const auto &amp;container, int MaxLayers)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a3aa9ac1210769b46504a3b9774032140">CreateSeeds</a>(const RoiDescriptor &amp;roi, const SPContainerComponentsType &amp;SpContainerComponents, int max_layers)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aed6dfc074206908e78c6eae6a2ff94d2">extractSeedsFromTheGraph</a>(int maxLevel, int nEdges, int nHits, std::vector&lt; GNN_Edge &gt; &amp;edgeStorage, std::vector&lt; seedProperties &gt; &amp;vSeedCandidates) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a2f20c2b1a5305884d24d50b7daa76c8c">GNN_DataStorage</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a5e45c825307dff40bb1ad499e4c1fc41">GNN_Edge</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a565fb7e3f9aa972b6429a996a38bbbeb">GNN_Node</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#adffeb8f0c66766e3e262e87bb31b143d">runCCA</a>(int nEdges, std::vector&lt; GNN_Edge &gt; &amp;edgeStorage) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#af1d627ee7d50ef37a180b85ff4772811">SeedFinderGbts</a>(const SeedFinderGbtsConfig config, const GbtsGeometry *gbtsGeo, const std::vector&lt; TrigInDetSiLayer &gt; *layerGeometry, std::unique_ptr&lt; const Acts::Logger &gt; logger=Acts::getDefaultLogger(&quot;Finder&quot;, Acts::Logging::Level::INFO))</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a12b2de117fdd1fd91b6cf13c76f5948d">buildTheGraph</a>(const RoiDescriptor &amp;roi, const std::unique_ptr&lt; GbtsDataStorage &gt; &amp;storage, std::vector&lt; GbtsEdge &gt; &amp;edgeStorage) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a4884cfc16d84d582ceb137901bebc446">createNodes</a>(const SPContainerComponentsType &amp;container, int MaxLayers) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#af47ce34a4ac35bb8bf7585f8d0f01f61">createSeeds</a>(const RoiDescriptor &amp;roi, const SPContainerComponentsType &amp;SpContainerComponents, int max_layers) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#afec30818e826caec7e0dec2413550163">extractSeedsFromTheGraph</a>(int maxLevel, int nEdges, int nHits, std::vector&lt; GbtsEdge &gt; &amp;edgeStorage, std::vector&lt; seedProperties &gt; &amp;vSeedCandidates) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aa3d9ce9d1b62858041f83baec3f845e6">parseGbtsMLLookupTable</a>(const std::string &amp;lutInputFile)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a50453ae69b71556374a6b20ad8bb351a">runCCA</a>(int nEdges, std::vector&lt; GbtsEdge &gt; &amp;edgeStorage) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a6ca2e403c59e3c78a8607026c87c97d6">SeedFinderGbts</a>(const SeedFinderGbtsConfig config, std::unique_ptr&lt; GbtsGeometry &gt; gbtsGeo, const std::vector&lt; TrigInDetSiLayer &gt; *layerGeometry, std::unique_ptr&lt; const Acts::Logger &gt; logger=Acts::getDefaultLogger(&quot;Finder&quot;, Acts::Logging::Level::INFO))</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">Acts::Experimental::SeedFinderGbts</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

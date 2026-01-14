@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -505,13 +507,13 @@ $(function(){initNavTree('_subspace_helpers_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a08a2ca0bdef285b222916dd7ecb30562"><div class="ttname"><a href="namespace_acts.html#a08a2ca0bdef285b222916dd7ecb30562">Acts::enumerate</a></div><div class="ttdeci">constexpr auto enumerate(container_type &amp;&amp;iterable)</div><div class="ttdoc">Helper utility to allow indexed enumeration with structured binding.</div><div class="ttdef"><b>Definition</b> Enumerate.hpp:31</div></div>
 <div class="ttc" id="anamespace_acts_html_a0a9dad86571acffdac06f3af7087d27f"><div class="ttname"><a href="namespace_acts.html#a0a9dad86571acffdac06f3af7087d27f">Acts::projectorToSubspaceIndices</a></div><div class="ttdeci">SubspaceIndices&lt; kFullSize &gt; projectorToSubspaceIndices(const Eigen::DenseBase&lt; Derived &gt; &amp;projector)</div><div class="ttdoc">Convert a projector to subspace indices.</div><div class="ttdef"><b>Definition</b> SubspaceHelpers.hpp:423</div></div>
-<div class="ttc" id="anamespace_acts_html_a1e6b3622ce6e2c9fea228f7b3678e5f4"><div class="ttname"><a href="namespace_acts.html#a1e6b3622ce6e2c9fea228f7b3678e5f4">Acts::ProjectorBitset</a></div><div class="ttdeci">std::uint64_t ProjectorBitset</div><div class="ttdoc">Type alias for bitset representing parameter projections.</div><div class="ttdef"><b>Definition</b> Types.hpp:26</div></div>
+<div class="ttc" id="anamespace_acts_html_a1e6b3622ce6e2c9fea228f7b3678e5f4"><div class="ttname"><a href="namespace_acts.html#a1e6b3622ce6e2c9fea228f7b3678e5f4">Acts::ProjectorBitset</a></div><div class="ttdeci">std::uint64_t ProjectorBitset</div><div class="ttdoc">Type alias for bitset representing parameter projections.</div><div class="ttdef"><b>Definition</b> Types.hpp:32</div></div>
 <div class="ttc" id="anamespace_acts_html_a3cd785914bda5c3810e21a5f54386fd5"><div class="ttname"><a href="namespace_acts.html#a3cd785914bda5c3810e21a5f54386fd5">Acts::serializeSubspaceIndices</a></div><div class="ttdeci">static SerializedSubspaceIndices serializeSubspaceIndices(const SubspaceIndices&lt; FullSize &gt; &amp;indices)</div><div class="ttdoc">Serialize subspace indices to a single 64 bit integer.</div><div class="ttdef"><b>Definition</b> SubspaceHelpers.hpp:66</div></div>
 <div class="ttc" id="anamespace_acts_html_a3dcc6435e936f830c8ce3e2c67122fd5"><div class="ttname"><a href="namespace_acts.html#a3dcc6435e936f830c8ce3e2c67122fd5">Acts::matrixToBitset</a></div><div class="ttdeci">auto matrixToBitset(const Eigen::PlainObjectBase&lt; Derived &gt; &amp;m)</div><div class="ttdoc">Convert an integer matrix to a bitset.</div><div class="ttdef"><b>Definition</b> AlgebraHelpers.hpp:55</div></div>
-<div class="ttc" id="anamespace_acts_html_a6a670110d0ebb9267ec1256f8bd88b6e"><div class="ttname"><a href="namespace_acts.html#a6a670110d0ebb9267ec1256f8bd88b6e">Acts::SubspaceIndices</a></div><div class="ttdeci">std::array&lt; SubspaceIndex, measdim &gt; SubspaceIndices</div><div class="ttdoc">Template alias for subspace indices array.</div><div class="ttdef"><b>Definition</b> Types.hpp:32</div></div>
+<div class="ttc" id="anamespace_acts_html_a6a670110d0ebb9267ec1256f8bd88b6e"><div class="ttname"><a href="namespace_acts.html#a6a670110d0ebb9267ec1256f8bd88b6e">Acts::SubspaceIndices</a></div><div class="ttdeci">std::array&lt; SubspaceIndex, measdim &gt; SubspaceIndices</div><div class="ttdoc">Template alias for subspace indices array.</div><div class="ttdef"><b>Definition</b> Types.hpp:38</div></div>
 <div class="ttc" id="anamespace_acts_html_a9bc2353f4da72bb7afd4d868e278150c"><div class="ttname"><a href="namespace_acts.html#a9bc2353f4da72bb7afd4d868e278150c">Acts::FixedBoundSubspaceHelper</a></div><div class="ttdeci">FixedSubspaceHelper&lt; Acts::eBoundSize, SubspaceSize, std::uint8_t &gt; FixedBoundSubspaceHelper</div><div class="ttdoc">Helper type for fixed-size bound parameter subspaces.</div><div class="ttdef"><b>Definition</b> SubspaceHelpers.hpp:404</div></div>
 <div class="ttc" id="anamespace_acts_html_aaaa9c77f4dd9efc1ac464d9a941f2ef2"><div class="ttname"><a href="namespace_acts.html#aaaa9c77f4dd9efc1ac464d9a941f2ef2">Acts::VariableBoundSubspaceHelper</a></div><div class="ttdeci">VariableSubspaceHelper&lt; Acts::eBoundSize, std::uint8_t &gt; VariableBoundSubspaceHelper</div><div class="ttdoc">Helper type for variable-size bound parameter subspaces.</div><div class="ttdef"><b>Definition</b> SubspaceHelpers.hpp:411</div></div>
-<div class="ttc" id="anamespace_acts_html_ac7fe124c6f6fda8fa31781f93cbd36b8"><div class="ttname"><a href="namespace_acts.html#ac7fe124c6f6fda8fa31781f93cbd36b8">Acts::SerializedSubspaceIndices</a></div><div class="ttdeci">std::uint64_t SerializedSubspaceIndices</div><div class="ttdoc">Type alias for serialized subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:45</div></div>
+<div class="ttc" id="anamespace_acts_html_ac7fe124c6f6fda8fa31781f93cbd36b8"><div class="ttname"><a href="namespace_acts.html#ac7fe124c6f6fda8fa31781f93cbd36b8">Acts::SerializedSubspaceIndices</a></div><div class="ttdeci">std::uint64_t SerializedSubspaceIndices</div><div class="ttdoc">Type alias for serialized subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:51</div></div>
 <div class="ttc" id="anamespace_acts_html_adca167882d01bd6ed5541f83a36031e9"><div class="ttname"><a href="namespace_acts.html#adca167882d01bd6ed5541f83a36031e9">Acts::checkSubspaceIndices</a></div><div class="ttdeci">static bool checkSubspaceIndices(const index_range_t &amp;indexRange, std::size_t fullSize, std::size_t subspaceSize)</div><div class="ttdoc">Check subspace indices for consistency.</div><div class="ttdef"><b>Definition</b> SubspaceHelpers.hpp:36</div></div>
 <div class="ttc" id="anamespace_acts_html_ae62184077e0f01971fe35cb00b8cb20c"><div class="ttname"><a href="namespace_acts.html#ae62184077e0f01971fe35cb00b8cb20c">Acts::deserializeSubspaceIndices</a></div><div class="ttdeci">static SubspaceIndices&lt; FullSize &gt; deserializeSubspaceIndices(SerializedSubspaceIndices serialized)</div><div class="ttdoc">Deserialize subspace indices from a single 64 bit integer.</div><div class="ttdef"><b>Definition</b> SubspaceHelpers.hpp:86</div></div>
 </div><!-- fragment --></div><!-- contents -->

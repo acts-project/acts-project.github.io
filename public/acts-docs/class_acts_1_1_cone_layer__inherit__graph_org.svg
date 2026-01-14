@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Class to describe a conical detector layer for tracking, it inhertis from both, Layer base class and ...">
+<g id="a_Node000001"><a xlink:title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ...">
 <polygon fill="#999999" stroke="#666666" points="198.5,-19 103.5,-19 103.5,0 198.5,0 198.5,-19"/>
 <text text-anchor="middle" x="151" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeLayer</text>
 </a>

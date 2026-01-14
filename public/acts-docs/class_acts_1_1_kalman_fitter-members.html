@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -126,8 +128,8 @@ $(function(){initNavTree('class_acts_1_1_kalman_fitter.html','',''); });
 
 <p>This is the complete list of members for <a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter&lt; propagator_t, traj_t &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html#a0ea77a3941f62b690a9e5dd87cbad806">fit</a>(source_link_iterator_t it, source_link_iterator_t end, const start_parameters_t &amp;sParameters, const KalmanFitterOptions&lt; traj_t &gt; &amp;kfOptions, track_container_t &amp;trackContainer) const</td><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html#a0d65991ef2cdb059972c7a8a93bcbc9a">fit</a>(source_link_iterator_t it, source_link_iterator_t end, const start_parameters_t &amp;sParameters, const KalmanFitterOptions&lt; traj_t &gt; &amp;kfOptions, const std::vector&lt; const Surface * &gt; &amp;sSequence, track_container_t &amp;trackContainer) const</td><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html#ade19e36306d4c2ec20863e97a1e32111">fit</a>(source_link_iterator_t it, source_link_iterator_t end, const BoundTrackParameters &amp;sParameters, const KalmanFitterOptions&lt; traj_t &gt; &amp;kfOptions, track_container_t &amp;trackContainer) const</td><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html#a6efde90854e8a07967e6cf01ebb908dd">fit</a>(source_link_iterator_t it, source_link_iterator_t end, const BoundTrackParameters &amp;sParameters, const KalmanFitterOptions&lt; traj_t &gt; &amp;kfOptions, const std::vector&lt; const Surface * &gt; &amp;sSequence, track_container_t &amp;trackContainer) const</td><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html#a649173e847c828a73c735f1da4edffb2">KalmanFitter</a>(propagator_t pPropagator, std::unique_ptr&lt; const Logger &gt; _logger=getDefaultLogger(&quot;KalmanFitter&quot;, Logging::INFO))</td><td class="entry"><a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

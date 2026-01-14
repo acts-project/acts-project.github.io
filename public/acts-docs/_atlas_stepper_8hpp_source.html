@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -210,7 +212,7 @@ $(function(){initNavTree('_atlas_stepper_8hpp_source.html','',''); });
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="struct_acts_1_1_atlas_stepper_1_1_state.html#a7f628863b78ed9e7d7145a03dbf01f57">  118</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_acts_1_1_atlas_stepper_1_1_state.html#a7f628863b78ed9e7d7145a03dbf01f57">covTransport</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="struct_acts_1_1_atlas_stepper_1_1_state.html#aeb96de3a003f281201a3493dcbbdfea5">  120</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="struct_acts_1_1_atlas_stepper_1_1_state.html#aeb96de3a003f281201a3493dcbbdfea5">jacobian</a>[<a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a> * <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>] = {};</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// accummulated path length cache</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// accumulated path length cache</span></div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="struct_acts_1_1_atlas_stepper_1_1_state.html#aeb5d203462c2924eced88d60cdbb912b">  124</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="struct_acts_1_1_atlas_stepper_1_1_state.html#aeb5d203462c2924eced88d60cdbb912b">pathAccumulated</a> = 0.;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span></div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2">  127</a></span>    std::size_t <a class="code hl_variable" href="struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2">nSteps</a> = 0;</div>

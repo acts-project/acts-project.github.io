@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -131,12 +133,11 @@ $(function(){initNavTree('class_acts_1_1_trapezoid_portal_shell.html','',''); })
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a507b3346b6aaad71d34bd7951399fbb2">fill</a>(TrackingVolume &amp;volume) override</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a0b2fc9d501ccb8c035660826e04b9f6e">isValid</a>() const =0</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#ae405f14894894a77c880802f7118de1d">label</a>() const =0</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#ab6753c4db0be8c9982c9a7891f496a6b">portal</a>(Face face)=0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a49b341a7c462358918cb6fb90aec8a57">portalPtr</a>(Face face)=0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a88c7fe621904f0576d110b2c3c50986b">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face)=0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a0b98844debe41ac27d88b931c09a178d">size</a>() const =0</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a1ef550e5c4edf58677accc129489866a">transform</a>() const =0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a89f1797c3d8498bb59ffc38bcab28c4a">portal</a>(Face face)=0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a88c7fe621904f0576d110b2c3c50986b">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face)=0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a0b98844debe41ac27d88b931c09a178d">size</a>() const =0</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a1ef550e5c4edf58677accc129489866a">transform</a>() const =0</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

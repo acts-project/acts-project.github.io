@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -195,19 +197,18 @@ $(function(){initNavTree('_measurement_selector_8hpp_source.html','',''); });
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <span class="keywordtype">double</span> calculateChi2(</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>      <span class="keyword">const</span> <span class="keywordtype">double</span>* fullCalibrated, <span class="keyword">const</span> <span class="keywordtype">double</span>* fullCalibratedCovariance,</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>      TrackStateTraits&lt;<a class="code hl_variable" href="namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23">MultiTrajectoryTraits::MeasurementSizeMax</a>,</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                       <span class="keyword">false</span>&gt;::Parameters predicted,</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>      TrackStateTraits&lt;<a class="code hl_variable" href="namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23">MultiTrajectoryTraits::MeasurementSizeMax</a>,</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                       <span class="keyword">false</span>&gt;::Covariance predictedCovariance,</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>      <a class="code hl_typedef" href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">BoundSubspaceIndices</a> projector, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> calibratedSize) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  InternalConfig m_config;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>};</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>      <a class="code hl_typedef" href="struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7">TrackStateTraits&lt;kMeasurementSizeMax, false&gt;::Parameters</a> predicted,</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>      <a class="code hl_typedef" href="struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4">TrackStateTraits&lt;kMeasurementSizeMax, false&gt;::Covariance</a></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>          predictedCovariance,</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>      <a class="code hl_typedef" href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">BoundSubspaceIndices</a> projector, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> calibratedSize) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  InternalConfig m_config;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>};</div>
 </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#include &quot;MeasurementSelector.ipp&quot;</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#include &quot;MeasurementSelector.ipp&quot;</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_hierarchy_map_html"><div class="ttname"><a href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a></div><div class="ttdoc">Store values mapped into the geometry hierarchy.</div><div class="ttdef"><b>Definition</b> GeometryHierarchyMap.hpp:62</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:691</div></div>
 <div class="ttc" id="aclass_acts_1_1_measurement_selector_html_a28b08b817f3faf4587bedad3ef1dac37"><div class="ttname"><a href="class_acts_1_1_measurement_selector.html#a28b08b817f3faf4587bedad3ef1dac37">Acts::MeasurementSelector::MeasurementSelector</a></div><div class="ttdeci">MeasurementSelector(const MeasurementSelectorCuts &amp;cuts)</div><div class="ttdoc">Constructor with cuts.</div></div>
@@ -216,14 +217,15 @@ $(function(){initNavTree('_measurement_selector_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_measurement_selector_html_aa383d574fbe1890ef2bd8ed02e81dc0c"><div class="ttname"><a href="class_acts_1_1_measurement_selector.html#aa383d574fbe1890ef2bd8ed02e81dc0c">Acts::MeasurementSelector::MeasurementSelector</a></div><div class="ttdeci">MeasurementSelector()</div><div class="ttdoc">Default constructor.</div></div>
 <div class="ttc" id="aclass_acts_1_1_measurement_selector_html_ad9c2d2789869bdb7bb6ce30f6f0aac9e"><div class="ttname"><a href="class_acts_1_1_measurement_selector.html#ad9c2d2789869bdb7bb6ce30f6f0aac9e">Acts::MeasurementSelector::Config</a></div><div class="ttdeci">Acts::GeometryHierarchyMap&lt; MeasurementSelectorCuts &gt; Config</div><div class="ttdoc">Geometry-dependent cut configuration.</div><div class="ttdef"><b>Definition</b> MeasurementSelector.hpp:61</div></div>
 <div class="ttc" id="aclass_acts_1_1_result_html"><div class="ttname"><a href="class_acts_1_1_result.html">Acts::Result</a></div><div class="ttdoc">Class which encapsulates either a valid result, or an error.</div><div class="ttdef"><b>Definition</b> Result.hpp:26</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_traits_html_a7c4429d08beebb7291abd7d0f3025a23"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23">Acts::MultiTrajectoryTraits::MeasurementSizeMax</a></div><div class="ttdeci">constexpr unsigned int MeasurementSizeMax</div><div class="ttdoc">Maximum number of measurement dimensions supported by trajectory.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:129</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="anamespace_acts_html_a1b6c456f1650d94a2549251f1306dde4"><div class="ttname"><a href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">Acts::BoundSubspaceIndices</a></div><div class="ttdeci">SubspaceIndices&lt; eBoundSize &gt; BoundSubspaceIndices</div><div class="ttdoc">Type alias for bound parameter subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:34</div></div>
+<div class="ttc" id="anamespace_acts_html_a1b6c456f1650d94a2549251f1306dde4"><div class="ttname"><a href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">Acts::BoundSubspaceIndices</a></div><div class="ttdeci">SubspaceIndices&lt; eBoundSize &gt; BoundSubspaceIndices</div><div class="ttdoc">Type alias for bound parameter subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:40</div></div>
 <div class="ttc" id="astruct_acts_1_1_measurement_selector_cuts_html"><div class="ttname"><a href="struct_acts_1_1_measurement_selector_cuts.html">Acts::MeasurementSelectorCuts</a></div><div class="ttdoc">Selection cuts for associating measurements with predicted track parameters on a surface.</div><div class="ttdef"><b>Definition</b> MeasurementSelector.hpp:34</div></div>
 <div class="ttc" id="astruct_acts_1_1_measurement_selector_cuts_html_a0a2fcfde7f4698df7c9b13c2e85ca6fb"><div class="ttname"><a href="struct_acts_1_1_measurement_selector_cuts.html#a0a2fcfde7f4698df7c9b13c2e85ca6fb">Acts::MeasurementSelectorCuts::etaBins</a></div><div class="ttdeci">std::vector&lt; double &gt; etaBins</div><div class="ttdoc">bins in |eta| to specify variable selections</div><div class="ttdef"><b>Definition</b> MeasurementSelector.hpp:36</div></div>
 <div class="ttc" id="astruct_acts_1_1_measurement_selector_cuts_html_a66e47c626973bf8183ab3ac6ea853032"><div class="ttname"><a href="struct_acts_1_1_measurement_selector_cuts.html#a66e47c626973bf8183ab3ac6ea853032">Acts::MeasurementSelectorCuts::chi2CutOff</a></div><div class="ttdeci">std::vector&lt; double &gt; chi2CutOff</div><div class="ttdoc">Maximum local chi2 contribution to classify as measurement.</div><div class="ttdef"><b>Definition</b> MeasurementSelector.hpp:38</div></div>
 <div class="ttc" id="astruct_acts_1_1_measurement_selector_cuts_html_ac151079586a111dacc3c3ca889c1578b"><div class="ttname"><a href="struct_acts_1_1_measurement_selector_cuts.html#ac151079586a111dacc3c3ca889c1578b">Acts::MeasurementSelectorCuts::numMeasurementsCutOff</a></div><div class="ttdeci">std::vector&lt; std::size_t &gt; numMeasurementsCutOff</div><div class="ttdoc">Maximum number of associated measurements on a single surface.</div><div class="ttdef"><b>Definition</b> MeasurementSelector.hpp:40</div></div>
 <div class="ttc" id="astruct_acts_1_1_measurement_selector_cuts_html_ae0cc97ce3837e63997de1b525a25409d"><div class="ttname"><a href="struct_acts_1_1_measurement_selector_cuts.html#ae0cc97ce3837e63997de1b525a25409d">Acts::MeasurementSelectorCuts::chi2CutOffOutlier</a></div><div class="ttdeci">std::vector&lt; double &gt; chi2CutOffOutlier</div><div class="ttdoc">Maximum local chi2 contribution to classify as outlier.</div><div class="ttdef"><b>Definition</b> MeasurementSelector.hpp:42</div></div>
+<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_a1fa1259fa74563db7de20d46dafe96b7"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7">Acts::TrackStateTraits::Parameters</a></div><div class="ttdeci">typename detail_tsp::FixedSizeTypes&lt; eBoundSize, ReadOnly &gt;::CoefficientsMap Parameters</div><div class="ttdef"><b>Definition</b> Types.hpp:97</div></div>
+<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_a891c2f8a165650f2032d3e38a7b815e4"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4">Acts::TrackStateTraits::Covariance</a></div><div class="ttdeci">typename detail_tsp::FixedSizeTypes&lt; eBoundSize, ReadOnly &gt;::CovarianceMap Covariance</div><div class="ttdef"><b>Definition</b> Types.hpp:100</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

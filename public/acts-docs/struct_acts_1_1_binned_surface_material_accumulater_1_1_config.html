@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -141,7 +143,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae2735d0d61012f686f6108d5b6e3ce53" id="r_ae2735d0d61012f686f6108d5b6e3ce53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2735d0d61012f686f6108d5b6e3ce53">geoContext</a></td></tr>
 <tr class="memdesc:ae2735d0d61012f686f6108d5b6e3ce53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry context for coordinate transformations.  <br /></td></tr>
 <tr class="memitem:a406c7b9e0a23a8125e2a9ec5b34fd6ee" id="r_a406c7b9e0a23a8125e2a9ec5b34fd6ee"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406c7b9e0a23a8125e2a9ec5b34fd6ee">materialSurfaces</a> = {}</td></tr>
-<tr class="memdesc:a406c7b9e0a23a8125e2a9ec5b34fd6ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surfaces to be used for the accummulation.  <br /></td></tr>
+<tr class="memdesc:a406c7b9e0a23a8125e2a9ec5b34fd6ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surfaces to be used for the accumulation.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Nested config struct. </p>
@@ -190,7 +192,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The surfaces to be used for the accummulation. </p>
+<p>The surfaces to be used for the accumulation. </p>
 
 </div>
 </div>

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -142,6 +144,9 @@ $(function(){initNavTree('concept_acts_1_1_track_proxy_concept.html','',''); });
 <div class="line"> </div>
 <div class="line">  { cv.particleHypothesis() } -&gt; std::same_as&lt;ParticleHypothesis&gt;;</div>
 <div class="line"> </div>
+<div class="line">  { cv.loc0() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line">  { cv.loc1() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line">  { cv.time() } -&gt; std::same_as&lt;double&gt;;</div>
 <div class="line">  { cv.theta() } -&gt; std::same_as&lt;double&gt;;</div>
 <div class="line">  { cv.phi() } -&gt; std::same_as&lt;double&gt;;</div>
 <div class="line">  { cv.qOverP() } -&gt; std::same_as&lt;double&gt;;</div>

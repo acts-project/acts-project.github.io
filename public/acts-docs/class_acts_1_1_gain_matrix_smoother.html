@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -131,14 +133,14 @@ $(function(){initNavTree('class_acts_1_1_gain_matrix_smoother.html','','class_ac
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7fce168534624ba552bfa9ea6665b96e" id="r_a7fce168534624ba552bfa9ea6665b96e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a></td></tr>
-<tr class="memdesc:a7fce168534624ba552bfa9ea6665b96e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for delegate to get track state covariance matrix.  <br /></td></tr>
-<tr class="memitem:ab6b9b81f9b40ed7a3726d997fccbf062" id="r_ab6b9b81f9b40ed7a3726d997fccbf062"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a></td></tr>
-<tr class="memdesc:ab6b9b81f9b40ed7a3726d997fccbf062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for delegate to get track state parameters.  <br /></td></tr>
+<tr class="memitem:a23174d3f3869acea4f59ab5a0451f592" id="r_a23174d3f3869acea4f59ab5a0451f592"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a></td></tr>
+<tr class="memdesc:a23174d3f3869acea4f59ab5a0451f592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for delegate to get track state covariance matrix.  <br /></td></tr>
+<tr class="memitem:aa38eea482f694d4d3bc9057c1e94a25e" id="r_aa38eea482f694d4d3bc9057c1e94a25e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a></td></tr>
+<tr class="memdesc:aa38eea482f694d4d3bc9057c1e94a25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for delegate to get track state parameters.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aab12ec3a444a5b2391451d27b821f1a2" id="r_aab12ec3a444a5b2391451d27b821f1a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab12ec3a444a5b2391451d27b821f1a2">calculate</a> (void *ts, void *prev_ts, const <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a> &amp;filtered, const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;filteredCovariance, const <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a> &amp;smoothed, const <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a> &amp;predicted, const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;predictedCovariance, const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;smoothedCovariance, const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;jacobian, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memitem:aab12ec3a444a5b2391451d27b821f1a2" id="r_aab12ec3a444a5b2391451d27b821f1a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab12ec3a444a5b2391451d27b821f1a2">calculate</a> (void *ts, void *prev_ts, const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;filtered, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;filteredCovariance, const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;smoothed, const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;predicted, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;predictedCovariance, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;smoothedCovariance, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;jacobian, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
 <tr class="memdesc:aab12ec3a444a5b2391451d27b821f1a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate smoothed parameters for a single track state using gain matrix formalism.  <br /></td></tr>
 <tr class="memitem:acf39dffc609a36adfd027d51c0b56295" id="r_acf39dffc609a36adfd027d51c0b56295"><td class="memTemplParams" colspan="2">template&lt;typename traj_t&gt; </td></tr>
 <tr class="memitem:acf39dffc609a36adfd027d51c0b56295 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf39dffc609a36adfd027d51c0b56295">operator()</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, traj_t &amp;trajectory, std::size_t entryIndex, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
@@ -153,42 +155,40 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Kalman trajectory smoother based on gain matrix formalism. </p>
 <p>This implements not a single smoothing step, but the full backwards smoothing procedure for a filtered, forward trajectory using the stored linearization. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a7fce168534624ba552bfa9ea6665b96e" name="a7fce168534624ba552bfa9ea6665b96e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fce168534624ba552bfa9ea6665b96e">&#9670;&#160;</a></span>GetCovariance</h2>
+<a id="a23174d3f3869acea4f59ab5a0451f592" name="a23174d3f3869acea4f59ab5a0451f592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23174d3f3869acea4f59ab5a0451f592">&#9670;&#160;</a></span>GetCovariance</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">Acts::GainMatrixSmoother::GetCovariance</a></td>
+          <td class="memname">using <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">Acts::GainMatrixSmoother::GetCovariance</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Acts::Delegate</a>&lt;<a class="code hl_struct" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;<a class="code hl_variable" href="namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23">MultiTrajectoryTraits::MeasurementSizeMax</a>,</div>
-<div class="line">                                      <span class="keyword">false</span>&gt;::Covariance(<span class="keywordtype">void</span>*)&gt;</div>
+<div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Acts::Delegate&lt;TrackStateTraits&lt;kMeasurementSizeMax, false&gt;::Covariance</a>(</div>
+<div class="line">          <span class="keywordtype">void</span>*)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:29</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_traits_html_a7c4429d08beebb7291abd7d0f3025a23"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23">Acts::MultiTrajectoryTraits::MeasurementSizeMax</a></div><div class="ttdeci">constexpr unsigned int MeasurementSizeMax</div><div class="ttdoc">Maximum number of measurement dimensions supported by trajectory.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:129</div></div>
-<div class="ttc" id="astruct_acts_1_1_track_state_traits_html"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html">Acts::TrackStateTraits</a></div><div class="ttdef"><b>Definition</b> TrackStateProxy.hpp:137</div></div>
 </div><!-- fragment -->
 <p>Type alias for delegate to get track state covariance matrix. </p>
 
 </div>
 </div>
-<a id="ab6b9b81f9b40ed7a3726d997fccbf062" name="ab6b9b81f9b40ed7a3726d997fccbf062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6b9b81f9b40ed7a3726d997fccbf062">&#9670;&#160;</a></span>GetParameters</h2>
+<a id="aa38eea482f694d4d3bc9057c1e94a25e" name="aa38eea482f694d4d3bc9057c1e94a25e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa38eea482f694d4d3bc9057c1e94a25e">&#9670;&#160;</a></span>GetParameters</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">Acts::GainMatrixSmoother::GetParameters</a></td>
+          <td class="memname">using <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">Acts::GainMatrixSmoother::GetParameters</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Acts::Delegate</a>&lt;<a class="code hl_struct" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;<a class="code hl_variable" href="namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23">MultiTrajectoryTraits::MeasurementSizeMax</a>,</div>
-<div class="line">                                      <span class="keyword">false</span>&gt;::Parameters(<span class="keywordtype">void</span>*)&gt;</div>
+<div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Acts::Delegate&lt;TrackStateTraits&lt;kMeasurementSizeMax, false&gt;::Parameters</a>(</div>
+<div class="line">          <span class="keywordtype">void</span>*)&gt;</div>
 </div><!-- fragment -->
 <p>Type alias for delegate to get track state parameters. </p>
 
@@ -214,37 +214,37 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filtered</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filtered</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filteredCovariance</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filteredCovariance</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>smoothed</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>smoothed</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab6b9b81f9b40ed7a3726d997fccbf062">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>predicted</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>predicted</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>predictedCovariance</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>predictedCovariance</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>smoothedCovariance</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>smoothedCovariance</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a7fce168534624ba552bfa9ea6665b96e">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>jacobian</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>jacobian</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

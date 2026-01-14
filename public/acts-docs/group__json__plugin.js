@@ -102,6 +102,7 @@ var group__json__plugin =
     [ "Acts::from_json", "group__json__plugin.html#gac7844f9f2860fbc63cfe807871dd609e", null ],
     [ "Acts::from_json", "group__json__plugin.html#gad4e3a647d9f5607dcff4abf122189cb1", null ],
     [ "Acts::GeometryHierarchyMapJsonConverter::fromJson", "group__json__plugin.html#ga4ec453becca4f99dad7cd102ed1599a8", null ],
+    [ "Acts::ProtoAxisJsonConverter::fromJson", "group__json__plugin.html#ga7db1175609439b8069b2d0b090773503", null ],
     [ "Acts::DetrayJsonHelper::maskFromBounds", "group__json__plugin.html#ga3503d63a02e59fae80cb71d77642bfaf", null ],
     [ "Acts::NLOHMANN_JSON_SERIALIZE_ENUM", "group__json__plugin.html#gac8895b284676062f1c0bf5f6466a507d", null ],
     [ "Acts::surfaceFromJson", "group__json__plugin.html#ga4ca3159a74a3264197f5b171cd3b7947", null ],
@@ -132,5 +133,6 @@ var group__json__plugin =
     [ "Acts::to_json", "group__json__plugin.html#ga7bd8c6518220699d3b8523a29bbed679", null ],
     [ "Acts::to_json", "group__json__plugin.html#ga8883ce55bef32607470a0518e62d4818", null ],
     [ "Acts::GeometryHierarchyMapJsonConverter::toJson", "group__json__plugin.html#gae3bc8c18a830cf3b08595eafc172e2d3", null ],
+    [ "Acts::ProtoAxisJsonConverter::toJson", "group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9", null ],
     [ "Acts::toJson", "group__json__plugin.html#ga0d44dfc16a076ea3977b8d4632e0bd71", null ]
 ];

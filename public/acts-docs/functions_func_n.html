@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -144,7 +146,7 @@ $(function(){initNavTree('functions_func_n.html','',''); });
 <li>nbytes()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_tensor.html#a0d5e29967da665cf188b59b8f696218f">ActsPlugins::Tensor&lt; T &gt;</a></li>
 <li>ndf()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html#af115db6fce3a1fca2db14c230acaa677">Acts::Experimental::Gx2fSystem</a></li>
 <li>nDims()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html#acad6abb39dd5abdc6e5efc27b3c43a94">Acts::Experimental::Gx2fSystem</a></li>
-<li>nDoF()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#aad3c7a59a8f4f445a05f995dd2920bd8">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
+<li>nDoF()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#ae1d8b88cd4675dc554c5d2e720412598">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a544515aee914c9f4ff8c60f6f6cb94d8">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a></li>
 <li>Negative()&#160;:&#160;<a class="el" href="class_acts_1_1_direction.html#abd3c42fe95d4f61c8146bdf82829d305">Acts::Direction</a></li>
 <li>negativeLayers()&#160;:&#160;<a class="el" href="class_acts_1_1_i_layer_builder.html#a7282df0491591744a822746dbd99f85d">Acts::ILayerBuilder</a>, <a class="el" href="class_acts_1_1_passive_layer_builder.html#a43b34c986e340ab48b029fea57e8b035">Acts::PassiveLayerBuilder</a>, <a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a32455d875cd1930ccbdfbcfc17594a4b">ActsPlugins::DD4hepLayerBuilder</a>, <a class="el" href="class_acts_plugins_1_1_t_geo_layer_builder.html#afcb2b7854195c49037038692aa457074">ActsPlugins::TGeoLayerBuilder</a></li>
 <li>NeighborHoodIndices()&#160;:&#160;<a class="el" href="class_acts_1_1_neighbor_hood_indices.html#a6810f143db5250088adb43694816a5c3">Acts::NeighborHoodIndices</a></li>
@@ -163,10 +165,10 @@ $(function(){initNavTree('functions_func_n.html','',''); });
 <li>nGenSeeds()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_seeding_state.html#a83587f8412c6f43aa1fd16a1aa542177">Acts::Experimental::CompositeSpacePointLineSeeder::SeedingState&lt; UncalibCont_t, CalibCont_t, Delegate_t &gt;</a></li>
 <li>nHighQualityCandidates()&#160;:&#160;<a class="el" href="class_acts_1_1_candidates_for_middle_sp.html#a395f4ae8e52033d76292449b1204be7e">Acts::CandidatesForMiddleSp&lt; external_space_point_t &gt;</a></li>
 <li>nHits()&#160;:&#160;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_cell.html#a2b1f45c5375368384d838bbce1ad2413">Acts::HoughTransformUtils::HoughCell&lt; identifier_t &gt;</a>, <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#a9eb6de9a76a462bbb48fc17265300fc2">Acts::HoughTransformUtils::HoughPlane&lt; identifier_t &gt;</a></li>
-<li>nHoles()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a96b0136175e46bc4852480dd46142a21">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
+<li>nHoles()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a3c4c7a420577293169a0ea7287336a18">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a08cee02df9d3078cf5469a7fcbfbaa98">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a></li>
 <li>nLayers()&#160;:&#160;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_cell.html#a7f43570bf67994000fbb4ac688bc32c4">Acts::HoughTransformUtils::HoughCell&lt; identifier_t &gt;</a>, <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#acb72715a5892dd2e9261e04afca9e160">Acts::HoughTransformUtils::HoughPlane&lt; identifier_t &gt;</a></li>
 <li>nLowQualityCandidates()&#160;:&#160;<a class="el" href="class_acts_1_1_candidates_for_middle_sp.html#a08341a987d1a2a3217d1036f9879e7cf">Acts::CandidatesForMiddleSp&lt; external_space_point_t &gt;</a></li>
-<li>nMeasurements()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a3e98384a05a1bf8621d391b83beca79e">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
+<li>nMeasurements()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#abfa5750c432bff0c8e898d93094e8ba8">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a6288abbc0bb7aa1dc77ec88e92dbddd8">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a></li>
 <li>nominalTransform()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#af8c3a2b37d0ca844d24d3d86c8ab7276">ActsPlugins::GeoModelDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html#a153d9c84528de4cc98d88a774f24c3fc">ActsPlugins::TGeoDetectorElement</a></li>
 <li>None()&#160;:&#160;<a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">Acts::BoundaryTolerance</a>, <a class="el" href="class_acts_1_1_navigation_target.html#aba68db2523738dac032fb8e397ea568f">Acts::NavigationTarget</a></li>
 <li>NonNeutralCharge()&#160;:&#160;<a class="el" href="class_acts_1_1_non_neutral_charge.html#a797544c112cc126365013ac458c6d077">Acts::NonNeutralCharge</a></li>
@@ -176,9 +178,9 @@ $(function(){initNavTree('functions_func_n.html','',''); });
 <li>normal()&#160;:&#160;<a class="el" href="class_acts_1_1_cone_surface.html#ad45a22522485e3e546dc880729f99a45">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_curvilinear_surface.html#a63b235e548be387d2fbf71b2e592104d">Acts::CurvilinearSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a0cafdc3485ed2da5bb8a490908b1d812">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#a59ef0885644da1f7d6f0dbd3da4f158e">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_line_surface.html#a7c50f6f6a00cec299a24624b577000e1">Acts::LineSurface</a>, <a class="el" href="class_acts_1_1_plane_surface.html#a6c7611c77534db86e6fbfcdffe6a8d78">Acts::PlaneSurface</a>, <a class="el" href="class_acts_1_1_regular_surface.html#a633ca765d1e6d7322459fe8890e91993">Acts::RegularSurface</a>, <a class="el" href="class_acts_1_1_surface.html#a7aa938fa6385cb956d9b5da75235289a">Acts::Surface</a></li>
 <li>normals()&#160;:&#160;<a class="el" href="class_acts_1_1_frustum.html#ab67f502162782ede9708c1f6b2fc1fbe">Acts::Frustum&lt; value_t, DIM, SIDES &gt;</a></li>
 <li>Nothing()&#160;:&#160;<a class="el" href="class_acts_1_1_material_slab.html#a214beca508279db58c804c2f95e667aa">Acts::MaterialSlab</a></li>
-<li>nOutliers()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a480e5a7a09b4f0bee588968eb4a52a84">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
-<li>nSharedHits()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#ab7558d39f5db6b45a59758073cecb088">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
-<li>nTrackStates()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#ac5e38c1e9170703d670823d87d106b07">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
+<li>nOutliers()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a037e385d7a35428378b2e3da57b04f87">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#ab18e64082d1f160d83f82453a260e7ca">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a></li>
+<li>nSharedHits()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#aff78397392945c7411f8ddd607a62ad2">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a27ab3ddef2b2048a974a2cd99250c968">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a></li>
+<li>nTrackStates()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_proxy.html#a0c15b80641e4b45f31febd9b988bd59d">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#ac5e38c1e9170703d670823d87d106b07">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a></li>
 <li>NullBField()&#160;:&#160;<a class="el" href="class_acts_1_1_null_b_field.html#aea129d00fb2016ffadf1618fe3dc663c">Acts::NullBField</a></li>
 <li>num_bins()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html#a303084271e46d2daa96564b68bdd7e6f">Acts::Experimental::GbtsGeometry</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html#a9df65af3e44aadd668732fc93f598ffb">Acts::Experimental::GbtsLayer</a></li>
 <li>num_layers()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html#acc7b5cb9ea329227f613de1e7aeb78ae">Acts::Experimental::GbtsGeometry</a></li>

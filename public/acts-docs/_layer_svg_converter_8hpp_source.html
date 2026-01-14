@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -199,7 +201,7 @@ $(function(){initNavTree('_layer_svg_converter_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_layer_converter_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_layer_converter.html">ActsPlugins::Svg::LayerConverter</a></div><div class="ttdef"><b>Definition</b> LayerSvgConverter.hpp:36</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_layer_converter_html_acc662c3f2d3a209bb0f8750eb7a6542d"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_layer_converter.html#acc662c3f2d3a209bb0f8750eb7a6542d">ActsPlugins::Svg::LayerConverter::convert</a></div><div class="ttdeci">std::vector&lt; actsvg::svg::object &gt; convert(const Acts::GeometryContext &amp;gctx, const Acts::Layer &amp;layer, const Options &amp;cOptions)</div><div class="ttdoc">Write/create the layer sheets for a given layer.</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:19</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a2ea27d771566876de4c607d99ffb1433"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a2ea27d771566876de4c607d99ffb1433">ActsPlugins::Svg::ProtoVolume</a></div><div class="ttdeci">actsvg::proto::volume&lt; std::vector&lt; Acts::Vector3 &gt; &gt; ProtoVolume</div><div class="ttdef"><b>Definition</b> LayerSvgConverter.hpp:27</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a930976e5bacf0351e14189bbebb4c904"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a930976e5bacf0351e14189bbebb4c904">ActsPlugins::Svg::noLimitZ</a></div><div class="ttdeci">static const std::array&lt; double, 2 &gt; noLimitZ</div><div class="ttdef"><b>Definition</b> LayerSvgConverter.hpp:29</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_aeaf36644fe4ddfe64ba38c7be34bf1c0"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#aeaf36644fe4ddfe64ba38c7be34bf1c0">ActsPlugins::Svg::noLimitPhi</a></div><div class="ttdeci">static const std::array&lt; double, 2 &gt; noLimitPhi</div><div class="ttdef"><b>Definition</b> LayerSvgConverter.hpp:32</div></div>

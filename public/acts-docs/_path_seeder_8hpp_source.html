@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -255,7 +257,7 @@ $(function(){initNavTree('_path_seeder_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_path_seeder_html_ad0b06422e3ec616daf97ba79267fce9d"><div class="ttname"><a href="class_acts_1_1_path_seeder.html#ad0b06422e3ec616daf97ba79267fce9d">Acts::PathSeeder::findSeeds</a></div><div class="ttdeci">void findSeeds(const GeometryContext &amp;gctx, const std::unordered_map&lt; GeometryIdentifier, grid_t &gt; &amp;sourceLinkGridLookup, container_t &amp;seedCollection) const</div><div class="ttdoc">Extract the IP parameters and sort the source links into the seeds.</div><div class="ttdef"><b>Definition</b> PathSeeder.hpp:112</div></div>
 <div class="ttc" id="aclass_acts_1_1_path_seeder_html_ad87ff6fb84e0ddc9fa3611cc1a4cb46d"><div class="ttname"><a href="class_acts_1_1_path_seeder.html#ad87ff6fb84e0ddc9fa3611cc1a4cb46d">Acts::PathSeeder::PathWidthLookup</a></div><div class="ttdeci">Delegate&lt; std::pair&lt; double, double &gt;( const GeometryContext &amp;, const GeometryIdentifier &amp;)&gt; PathWidthLookup</div><div class="ttdoc">Delegate to provide the path width around the intersection point to pull the source links from the gr...</div><div class="ttdef"><b>Definition</b> PathSeeder.hpp:83</div></div>
 <div class="ttc" id="aclass_acts_1_1_path_seeder_html_ae6892c0895bb6c738977caf6b10903c6"><div class="ttname"><a href="class_acts_1_1_path_seeder.html#ae6892c0895bb6c738977caf6b10903c6">Acts::PathSeeder::PathSeeder</a></div><div class="ttdeci">PathSeeder(const Config &amp;config)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition</b> PathSeeder.hpp:100</div></div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Source linik is a thing.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
 <div class="ttc" id="agroup__algebra__types_html_gabb76f2d48e0590ef82a8afaad39a77b5"><div class="ttname"><a href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a></div><div class="ttdeci">ActsVector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:70</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_ad836aba005ba272c0a77227311e4a0ce"><div class="ttname"><a href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a></div><div class="ttdeci">GenericBoundTrackParameters&lt; ParticleHypothesis &gt; BoundTrackParameters</div><div class="ttdoc">BoundTrackParameters can hold any kind of charge.</div><div class="ttdef"><b>Definition</b> TrackParameters.hpp:34</div></div>

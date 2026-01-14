@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -123,150 +125,23 @@ $(function(){initNavTree('namespace_acts_plugins_1_1_svg_1_1_event_data_converte
   <div class="headertitle"><div class="title">ActsPlugins::Svg::EventDataConverter Namespace Reference<div class="ingroups"><a class="el" href="group__plugins.html">Plugins</a> &raquo; <a class="el" href="group__actsvg__plugin.html">ActSVG Plugin</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Utilities to convert event data to SVG objects.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aaea27d3d680a8be51aa974901d177e27" id="r_aaea27d3d680a8be51aa974901d177e27"><td class="memTemplParams" colspan="2">template&lt;typename view_type&gt; </td></tr>
-<tr class="memitem:aaea27d3d680a8be51aa974901d177e27 template"><td class="memItemLeft" align="right" valign="top">actsvg::svg::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaea27d3d680a8be51aa974901d177e27">point</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;pos, double size, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;style, unsigned int idx)</td></tr>
-<tr class="memdesc:aaea27d3d680a8be51aa974901d177e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write/create a 3D point in a given view.  <br /></td></tr>
-<tr class="memitem:a9877427985b2ab7b00bec84f34afd57d" id="r_a9877427985b2ab7b00bec84f34afd57d"><td class="memItemLeft" align="right" valign="top">actsvg::svg::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9877427985b2ab7b00bec84f34afd57d">pointXY</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;pos, double size, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;style, unsigned int idx=0)</td></tr>
-<tr class="memdesc:a9877427985b2ab7b00bec84f34afd57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write/create a 3D point in XY view.  <br /></td></tr>
-<tr class="memitem:aa54ff1c9ab91d2d40b7edb7f204cc57d" id="r_aa54ff1c9ab91d2d40b7edb7f204cc57d"><td class="memItemLeft" align="right" valign="top">actsvg::svg::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54ff1c9ab91d2d40b7edb7f204cc57d">pointZR</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;pos, double size, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;style, unsigned int idx=0)</td></tr>
-<tr class="memdesc:aa54ff1c9ab91d2d40b7edb7f204cc57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write/create a 3D point in ZR view.  <br /></td></tr>
+<tr class="memitem:gaaea27d3d680a8be51aa974901d177e27" id="r_gaaea27d3d680a8be51aa974901d177e27"><td class="memTemplParams" colspan="2">template&lt;typename view_type&gt; </td></tr>
+<tr class="memitem:gaaea27d3d680a8be51aa974901d177e27 template"><td class="memItemLeft" align="right" valign="top">actsvg::svg::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;pos, double size, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;style, unsigned int idx)</td></tr>
+<tr class="memdesc:gaaea27d3d680a8be51aa974901d177e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write/create a 3D point in a given view.  <br /></td></tr>
+<tr class="memitem:ga9877427985b2ab7b00bec84f34afd57d" id="r_ga9877427985b2ab7b00bec84f34afd57d"><td class="memItemLeft" align="right" valign="top">actsvg::svg::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d">pointXY</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;pos, double size, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;style, unsigned int idx=0)</td></tr>
+<tr class="memdesc:ga9877427985b2ab7b00bec84f34afd57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write/create a 3D point in XY view.  <br /></td></tr>
+<tr class="memitem:gaa54ff1c9ab91d2d40b7edb7f204cc57d" id="r_gaa54ff1c9ab91d2d40b7edb7f204cc57d"><td class="memItemLeft" align="right" valign="top">actsvg::svg::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d">pointZR</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;pos, double size, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;style, unsigned int idx=0)</td></tr>
+<tr class="memdesc:gaa54ff1c9ab91d2d40b7edb7f204cc57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write/create a 3D point in ZR view.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="aaea27d3d680a8be51aa974901d177e27" name="aaea27d3d680a8be51aa974901d177e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaea27d3d680a8be51aa974901d177e27">&#9670;&#160;</a></span>point()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename view_type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">actsvg::svg::object ActsPlugins::Svg::EventDataConverter::point </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>idx</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write/create a 3D point in a given view. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pos</td><td>the position </td></tr>
-    <tr><td class="paramname">size</td><td>the size of the object </td></tr>
-    <tr><td class="paramname">style</td><td>the style of the object </td></tr>
-    <tr><td class="paramname">idx</td><td>the running index</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of svg objects </dd></dl>
-
-</div>
-</div>
-<a id="a9877427985b2ab7b00bec84f34afd57d" name="a9877427985b2ab7b00bec84f34afd57d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9877427985b2ab7b00bec84f34afd57d">&#9670;&#160;</a></span>pointXY()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">actsvg::svg::object ActsPlugins::Svg::EventDataConverter::pointXY </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>idx</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write/create a 3D point in XY view. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pos</td><td>the position </td></tr>
-    <tr><td class="paramname">size</td><td>the size of the object </td></tr>
-    <tr><td class="paramname">style</td><td>the style of the object </td></tr>
-    <tr><td class="paramname">idx</td><td>the running index</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of svg objects </dd></dl>
-
-</div>
-</div>
-<a id="aa54ff1c9ab91d2d40b7edb7f204cc57d" name="aa54ff1c9ab91d2d40b7edb7f204cc57d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa54ff1c9ab91d2d40b7edb7f204cc57d">&#9670;&#160;</a></span>pointZR()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">actsvg::svg::object ActsPlugins::Svg::EventDataConverter::pointZR </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>idx</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write/create a 3D point in ZR view. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pos</td><td>the position </td></tr>
-    <tr><td class="paramname">size</td><td>the size of the object </td></tr>
-    <tr><td class="paramname">style</td><td>the style of the object </td></tr>
-    <tr><td class="paramname">idx</td><td>the running index</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of svg objects </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Utilities to convert event data to SVG objects. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

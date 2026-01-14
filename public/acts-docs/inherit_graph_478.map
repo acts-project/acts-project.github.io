@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_type.html" title="View type over a bitset stored in a 64 bit integer This view allows modifications." alt="" coords="5,5,161,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_proxy_common.html" title=" " alt="" coords="5,5,228,60"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_proxy.html" title="Proxy object to access a single point on the trajectory." alt="" coords="276,5,445,60"/>
+<area shape="poly" id="edge243_Node000000_Node000001" title=" " alt="" coords="242,30,276,30,276,35,242,35"/>
 </map>

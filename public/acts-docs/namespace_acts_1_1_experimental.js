@@ -51,10 +51,7 @@ var namespace_acts_1_1_experimental =
     [ "CompositeSpacePointContainer", "concept_acts_1_1_experimental_1_1_composite_space_point_container.html", null ],
     [ "CompositeSpacePointFastCalibrator", "concept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator.html", null ],
     [ "CompositeSpacePointPtr", "concept_acts_1_1_experimental_1_1_composite_space_point_ptr.html", null ],
-    [ "DetectorBlock", "namespace_acts_1_1_experimental.html#a74b7e08e14a6c61e421cf260e360ef6c", null ],
-    [ "DetectorBlockBuilder", "namespace_acts_1_1_experimental.html#ac6085f07900ec9d505758586713398de", null ],
-    [ "DetectorVolumes", "namespace_acts_1_1_experimental.html#a0ee0e183d86b88d9add4251ffabedef5", null ],
-    [ "ProtoContainer", "namespace_acts_1_1_experimental.html#af8b7a9e981322ce5363e093be4e43a85", null ],
+    [ "GbtsMLLookupTable", "namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84", null ],
     [ "SPContainerComponentsType", "namespace_acts_1_1_experimental.html#a5e17d045983c8d4deba2ca194a7d5336", null ],
     [ "GlobalChiSquareFitterError", "group__errors.html#ga743e4af777584b0f5274baa245f128d2", [
       [ "AIsNotInvertible", "group__errors.html#gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b", null ],

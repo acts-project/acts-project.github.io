@@ -1,9 +1,9 @@
 var namespace_acts_plugins_1_1_svg =
 [
     [ "EventDataConverter", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html", [
-      [ "point", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aaea27d3d680a8be51aa974901d177e27", null ],
-      [ "pointXY", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#a9877427985b2ab7b00bec84f34afd57d", null ],
-      [ "pointZR", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aa54ff1c9ab91d2d40b7edb7f204cc57d", null ]
+      [ "point", "group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27", null ],
+      [ "pointXY", "group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d", null ],
+      [ "pointZR", "group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d", null ]
     ] ],
     [ "GridConverter", "namespace_acts_plugins_1_1_svg_1_1_grid_converter.html", "namespace_acts_plugins_1_1_svg_1_1_grid_converter" ],
     [ "IndexedSurfacesConverter", "namespace_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter.html", "namespace_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter" ],

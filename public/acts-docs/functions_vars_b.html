@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -145,7 +147,6 @@ $(function(){initNavTree('functions_vars_b.html','',''); });
 <li>binning1&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#ab46386b63a05abe5e83dfb62ad00d445">ActsPlugins::TGeoLayerBuilder::LayerConfig</a></li>
 <li>binningDimension&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a6bb01e0abe77802004d8960680ae4145">Acts::CuboidVolumeBuilder::LayerConfig</a>, <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#a367440254364e44ae991c3a390fdfbd9">Acts::CuboidVolumeBuilder::VolumeConfig</a></li>
 <li>binnings&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a7e3e338c000647b85d31a5cf81deaa73">ActsPlugins::DD4hepDetectorSurfaceFactory::Cache</a></li>
-<li>binningValues&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#a6838472be4852884bfaeb6b6de261e29">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions</a></li>
 <li>bins&#160;:&#160;<a class="el" href="struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a432b6f8195ade87a305b685fc769cf70">Acts::SurfaceArrayNavigationPolicy::Config</a></li>
 <li>binsCotThetaDecrease&#160;:&#160;<a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html#a17b7da344f8259b145902310f5992d20">Acts::HoughVertexFinder&lt; spacepoint_t &gt;::Config</a></li>
 <li>binSize&#160;:&#160;<a class="el" href="struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab9c5cca75445b19b828484ee15aacad5">Acts::GaussianGridTrackDensity::Config</a></li>
@@ -153,7 +154,6 @@ $(function(){initNavTree('functions_vars_b.html','',''); });
 <li>binsY&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a9fd353a4a22eb49077c1061c7d4467dc">Acts::CuboidVolumeBuilder::LayerConfig</a></li>
 <li>binsZ&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a068f02f68aa0e246b77accb76534be04">Acts::CuboidVolumeBuilder::LayerConfig</a></li>
 <li>binvalue&#160;:&#160;<a class="el" href="class_acts_1_1_binning_data.html#ad59bcd5dff2cace2c9879c93d7540752">Acts::BinningData</a></li>
-<li>blockBuilder&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume.html#ab6dd62f2edc568288d454f39be0c02b1">Acts::ProtoVolume</a></li>
 <li>bMagCenter&#160;:&#160;<a class="el" href="struct_acts_1_1_solenoid_b_field_1_1_config.html#a190bed2a6135ce425ba4e995dba75af6">Acts::SolenoidBField::Config</a></li>
 <li>bottom&#160;:&#160;<a class="el" href="struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#aca1e9355119835f3349ee7dec653cf19">Acts::StripSpacePointBuilder::StripEnds</a>, <a class="el" href="struct_acts_1_1_triplet_candidate.html#a7ab665fd6e4670cd4044063bc5dec8bb">Acts::TripletCandidate&lt; external_space_point_t &gt;</a></li>
 <li>bottom_hl_v&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a2a45d648b18f89b5f93f6d049600d99e">Acts::Experimental::CylindricalSpacePointKDTree::Candidates</a></li>

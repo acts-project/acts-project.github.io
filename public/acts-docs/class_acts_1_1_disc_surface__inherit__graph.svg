@@ -31,7 +31,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inhertis from both, Layer base class an...">
+<g id="a_Node000006"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an...">
 <polygon fill="white" stroke="#666666" points="180,-19 88,-19 88,0 180,0 180,-19"/>
 <text text-anchor="middle" x="134" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscLayer</text>
 </a>

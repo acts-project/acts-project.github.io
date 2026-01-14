@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -131,6 +133,8 @@ Directory dependency graph for EventData:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-files" class="groupheader"><a id="files" name="files"></a>
 Files</h2></td></tr>
+<tr class="memitem:AnyTrackProxy_2Ehpp" id="r_AnyTrackProxy_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_any_track_proxy_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>AnyTrackProxy.hpp</b></td></tr>
+<tr class="memitem:AnyTrackStateProxy_2Ehpp" id="r_AnyTrackStateProxy_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_any_track_state_proxy_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>AnyTrackStateProxy.hpp</b></td></tr>
 <tr class="memitem:Charge_2Ehpp" id="r_Charge_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_charge_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>Charge.hpp</b></td></tr>
 <tr class="memitem:ChargeConcept_2Ehpp" id="r_ChargeConcept_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_charge_concept_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ChargeConcept.hpp</b></td></tr>
 <tr class="memitem:CompositeSpacePoint_2Ehpp" id="r_CompositeSpacePoint_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_composite_space_point_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>CompositeSpacePoint.hpp</b></td></tr>
@@ -164,9 +168,11 @@ Files</h2></td></tr>
 <tr class="memitem:TrackParameters_2Ehpp" id="r_TrackParameters_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_parameters_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackParameters.hpp</b></td></tr>
 <tr class="memitem:TrackParametersConcept_2Ehpp" id="r_TrackParametersConcept_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_parameters_concept_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackParametersConcept.hpp</b></td></tr>
 <tr class="memitem:TrackProxy_2Ehpp" id="r_TrackProxy_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_proxy_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackProxy.hpp</b></td></tr>
+<tr class="memitem:TrackProxyCommon_2Ehpp" id="r_TrackProxyCommon_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_proxy_common_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackProxyCommon.hpp</b></td></tr>
 <tr class="memitem:TrackProxyConcept_2Ehpp" id="r_TrackProxyConcept_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_proxy_concept_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackProxyConcept.hpp</b></td></tr>
 <tr class="memitem:TrackStatePropMask_2Ehpp" id="r_TrackStatePropMask_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_state_prop_mask_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStatePropMask.hpp</b></td></tr>
 <tr class="memitem:TrackStateProxy_2Ehpp" id="r_TrackStateProxy_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_state_proxy_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxy.hpp</b></td></tr>
+<tr class="memitem:TrackStateProxyCommon_2Ehpp" id="r_TrackStateProxyCommon_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_state_proxy_common_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxyCommon.hpp</b></td></tr>
 <tr class="memitem:TrackStateProxyConcept_2Ehpp" id="r_TrackStateProxyConcept_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_state_proxy_concept_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxyConcept.hpp</b></td></tr>
 <tr class="memitem:TrackStateType_2Ehpp" id="r_TrackStateType_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_track_state_type_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateType.hpp</b></td></tr>
 <tr class="memitem:TransformationHelpers_2Ehpp" id="r_TransformationHelpers_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_transformation_helpers_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>TransformationHelpers.hpp</b></td></tr>

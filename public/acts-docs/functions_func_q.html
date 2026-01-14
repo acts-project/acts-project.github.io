@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -123,7 +125,7 @@ $(function(){initNavTree('functions_func_q.html','',''); });
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
 
 <h3 class="doxsection"><a id="index_q" name="index_q"></a>- q -</h3><ul>
-<li>qOverP()&#160;:&#160;<a class="el" href="class_acts_1_1_any_charge.html#aaa7cdce9c3d6c493e5be8922782a4f7b">Acts::AnyCharge</a>, <a class="el" href="class_acts_1_1_atlas_stepper.html#ad23f9bbbae7b31bc98776ce07691de5c">Acts::AtlasStepper</a>, <a class="el" href="class_acts_1_1_eigen_stepper.html#abd3013c7fdf50e4195402e15e67f2698">Acts::EigenStepper&lt; extension_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#a0c11f29121ba83b147b206d87af5d803">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_free_track_parameters.html#a0855514a8abdd97e72b8958d670edb94">Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_particle_hypothesis.html#a697558b64b1f14e5276db7cd7014bbc2">Acts::GenericParticleHypothesis&lt; charge_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a7a14e17e39979a5d0673c1ecd6d1be51">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="class_acts_1_1_multi_stepper_loop.html#a996d6c0099ebc11d52f79e5a0cdd2f98">Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;</a>, <a class="el" href="struct_acts_1_1_neutral.html#ab78b807c80688f056b48b97511475785">Acts::Neutral</a>, <a class="el" href="class_acts_1_1_non_neutral_charge.html#a47a1e091942004a105c66292aef0b6af">Acts::NonNeutralCharge</a>, <a class="el" href="struct_acts_1_1_singly_charged.html#a3cdeb2ab846d5f79599beae246732d8c">Acts::SinglyCharged</a>, <a class="el" href="class_acts_1_1_straight_line_stepper.html#a2e1d10a832ec0f0352d6303703c44025">Acts::StraightLineStepper</a>, <a class="el" href="class_acts_1_1_sympy_stepper.html#a959b4675cc979671e91885bdd47f6ee4">Acts::SympyStepper</a>, <a class="el" href="class_acts_1_1_track_proxy.html#ae8d700c5c318dc48b459af59d9f66378">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_fatras_1_1_particle.html#a0109e589c93b001c2a0f501266260a62">ActsFatras::Particle</a></li>
+<li>qOverP()&#160;:&#160;<a class="el" href="class_acts_1_1_any_charge.html#aaa7cdce9c3d6c493e5be8922782a4f7b">Acts::AnyCharge</a>, <a class="el" href="class_acts_1_1_any_track_proxy.html#ac15a69aead6417299c317f50cc892791">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_atlas_stepper.html#ad23f9bbbae7b31bc98776ce07691de5c">Acts::AtlasStepper</a>, <a class="el" href="class_acts_1_1_eigen_stepper.html#abd3013c7fdf50e4195402e15e67f2698">Acts::EigenStepper&lt; extension_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#a0c11f29121ba83b147b206d87af5d803">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_free_track_parameters.html#a0855514a8abdd97e72b8958d670edb94">Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_particle_hypothesis.html#a697558b64b1f14e5276db7cd7014bbc2">Acts::GenericParticleHypothesis&lt; charge_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a7a14e17e39979a5d0673c1ecd6d1be51">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="class_acts_1_1_multi_stepper_loop.html#a996d6c0099ebc11d52f79e5a0cdd2f98">Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;</a>, <a class="el" href="struct_acts_1_1_neutral.html#ab78b807c80688f056b48b97511475785">Acts::Neutral</a>, <a class="el" href="class_acts_1_1_non_neutral_charge.html#a47a1e091942004a105c66292aef0b6af">Acts::NonNeutralCharge</a>, <a class="el" href="struct_acts_1_1_singly_charged.html#a3cdeb2ab846d5f79599beae246732d8c">Acts::SinglyCharged</a>, <a class="el" href="class_acts_1_1_straight_line_stepper.html#a2e1d10a832ec0f0352d6303703c44025">Acts::StraightLineStepper</a>, <a class="el" href="class_acts_1_1_sympy_stepper.html#a959b4675cc979671e91885bdd47f6ee4">Acts::SympyStepper</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a71f634ac2f12aac520c0c52588a31315">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a3f44d73d88af48062a58c626359766b8">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a>, <a class="el" href="class_acts_fatras_1_1_particle.html#a0109e589c93b001c2a0f501266260a62">ActsFatras::Particle</a></li>
 <li>quality()&#160;:&#160;<a class="el" href="class_acts_1_1_seed_container2.html#a9c7df8701bcf22f028d94f88f597bb6c">Acts::SeedContainer2</a>, <a class="el" href="class_acts_1_1_seed_proxy2.html#a6bc47e80ec363007721be5d011963c01">Acts::SeedProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_mutable_data.html#a4b0ffe253b673685f1154789de353247">Acts::SpacePointMutableData</a></li>
 </ul>
 </div><!-- contents -->

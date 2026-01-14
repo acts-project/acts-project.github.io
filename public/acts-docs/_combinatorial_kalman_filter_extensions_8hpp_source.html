@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -206,7 +208,7 @@ $(function(){initNavTree('_combinatorial_kalman_filter_extensions_8hpp_source.ht
 <div class="ttc" id="anamespace_acts_1_1_ckf_types_html_a57a4b397a33bbc076c01e39806bf8dfc"><div class="ttname"><a href="namespace_acts_1_1_ckf_types.html#a57a4b397a33bbc076c01e39806bf8dfc">Acts::CkfTypes::BranchVector</a></div><div class="ttdeci">boost::container::small_vector&lt; T, s_maxBranchesPerSurface &gt; BranchVector</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:29</div></div>
 <div class="ttc" id="anamespace_acts_1_1_ckf_types_html_a60a1926242ce2a1d4465eaa0ff5d87c5"><div class="ttname"><a href="namespace_acts_1_1_ckf_types.html#a60a1926242ce2a1d4465eaa0ff5d87c5">Acts::CkfTypes::BoundState</a></div><div class="ttdeci">std::tuple&lt; BoundTrackParameters, BoundMatrix, double &gt; BoundState</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:31</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:20</div></div>
+<div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:21</div></div>
 <div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html"><div class="ttname"><a href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html">Acts::CombinatorialKalmanFilterExtensions</a></div><div class="ttdoc">Extension struct which holds the delegates to customize the CKF behavior.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:45</div></div>
 <div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_a1f5b4a361badcf271beb0bdd2e396daa"><div class="ttname"><a href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a1f5b4a361badcf271beb0bdd2e396daa">Acts::CombinatorialKalmanFilterExtensions::TrackStateCreator</a></div><div class="ttdeci">Delegate&lt; Result&lt; CkfTypes::BranchVector&lt; TrackIndexType &gt; &gt;( const GeometryContext &amp;geoContext, const CalibrationContext &amp;calibrationContext, const Surface &amp;surface, const CkfTypes::BoundState &amp;boundState, TrackIndexType prevTip, std::vector&lt; TrackStateProxy &gt; &amp;trackStateCandidates, traj_t &amp;trajectory, const Logger &amp;logger)&gt; TrackStateCreator</div><div class="ttdoc">Delegate the extension of the trajectory onto the given surface to an external unit.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:86</div></div>
 <div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_a2eb8860fa48d362f4e14406d01b2bca2"><div class="ttname"><a href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a2eb8860fa48d362f4e14406d01b2bca2">Acts::CombinatorialKalmanFilterExtensions::BranchStopperResult</a></div><div class="ttdeci">CombinatorialKalmanFilterBranchStopperResult BranchStopperResult</div><div class="ttdoc">Type alias for branch stopper result enumeration.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:54</div></div>
@@ -219,7 +221,7 @@ $(function(){initNavTree('_combinatorial_kalman_filter_extensions_8hpp_source.ht
 <div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_ae6df1e2ef73946c24aba2b1b07b3a966"><div class="ttname"><a href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ae6df1e2ef73946c24aba2b1b07b3a966">Acts::CombinatorialKalmanFilterExtensions::createTrackStates</a></div><div class="ttdeci">TrackStateCreator createTrackStates</div><div class="ttdoc">The delegate to create new track states.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:97</div></div>
 <div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_af3118dd826fa69138337fe3c8f18b1c2"><div class="ttname"><a href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html#af3118dd826fa69138337fe3c8f18b1c2">Acts::CombinatorialKalmanFilterExtensions::branchStopper</a></div><div class="ttdeci">BranchStopper branchStopper</div><div class="ttdoc">The branch stopper is called during the filtering by the Actor.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:66</div></div>
 <div class="ttc" id="astruct_acts_1_1_delegate_func_tag_html"><div class="ttname"><a href="struct_acts_1_1_delegate_func_tag.html">Acts::DelegateFuncTag</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:23</div></div>
-<div class="ttc" id="astruct_acts_1_1_kalman_fitter_extensions_html_a06733afeb43462b8ee35d45662c02784"><div class="ttname"><a href="struct_acts_1_1_kalman_fitter_extensions.html#a06733afeb43462b8ee35d45662c02784">Acts::KalmanFitterExtensions::Updater</a></div><div class="ttdeci">Delegate&lt; Result&lt; void &gt;(const GeometryContext &amp;, TrackStateProxy, const Logger &amp;)&gt; Updater</div><div class="ttdoc">Type alias for Kalman filter update delegate.</div><div class="ttdef"><b>Definition</b> KalmanFitter.hpp:78</div></div>
+<div class="ttc" id="astruct_acts_1_1_kalman_fitter_extensions_html_a06733afeb43462b8ee35d45662c02784"><div class="ttname"><a href="struct_acts_1_1_kalman_fitter_extensions.html#a06733afeb43462b8ee35d45662c02784">Acts::KalmanFitterExtensions::Updater</a></div><div class="ttdeci">Delegate&lt; Result&lt; void &gt;(const GeometryContext &amp;, TrackStateProxy, const Logger &amp;)&gt; Updater</div><div class="ttdoc">Type alias for Kalman filter update delegate.</div><div class="ttdef"><b>Definition</b> KalmanFitter.hpp:61</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

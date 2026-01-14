@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -124,10 +126,9 @@ $(function(){initNavTree('functions_vars_g.html','',''); });
 
 <h3 class="doxsection"><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>g&#160;:&#160;<a class="el" href="struct_acts_1_1_eigen_stepper_dense_extension.html#a963dc87e2b008ffbe01503d62652b02f">Acts::EigenStepperDenseExtension</a></li>
-<li>g4World&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a0293144767466a7cbb4c4f51283d2ac1">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config</a></li>
 <li>generatedParticles&#160;:&#160;<a class="el" href="struct_acts_fatras_1_1_simulation_result.html#ad907e1117019936badb78325d0136a85">ActsFatras::SimulationResult</a></li>
 <li>geoContext&#160;:&#160;<a class="el" href="struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#ae2735d0d61012f686f6108d5b6e3ce53">Acts::BinnedSurfaceMaterialAccumulater::Config</a>, <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html#ab2f8aaa82bbf1d575c0d0acc68f2c2d3">Acts::CombinatorialKalmanFilterOptions&lt; track_container_t &gt;</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a180f116b8e73a095085b0e9747804763">Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_gsf_options.html#a6fb883383f9095620dc3924aa9b966d8">Acts::GsfOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630">Acts::KalmanFitterOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_navigator_plain_options.html#abc3b1cbb693a31f9c66d18706fa3a4a0">Acts::NavigatorPlainOptions</a>, <a class="el" href="struct_acts_1_1_propagator_options.html#a9b4d7f8f72e665e58feb61516ff52947">Acts::PropagatorOptions&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;</a>, <a class="el" href="struct_acts_1_1_propagator_plain_options.html#a1f912a22923ba5e8f0773fd22a9ee10b">Acts::PropagatorPlainOptions</a>, <a class="el" href="struct_acts_1_1_propagator_state.html#a431629e05c4059186e093b7b0988fa1b">Acts::PropagatorState&lt; propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t &gt;</a>, <a class="el" href="struct_acts_1_1_stepper_plain_options.html#a7994a1279ab203b49c6d9ad9a5212345">Acts::StepperPlainOptions</a>, <a class="el" href="struct_acts_1_1_surface_material_mapper_1_1_state.html#a21f44203146e22b28996acbea4b23eda">Acts::SurfaceMaterialMapper::State</a>, <a class="el" href="struct_acts_1_1_vertexing_options.html#aac275f927ee4683ba1118c3b5904f548">Acts::VertexingOptions</a>, <a class="el" href="struct_acts_1_1_volume_material_mapper_1_1_state.html#a59e267ee95f346133cb124835cefa6ca">Acts::VolumeMaterialMapper::State</a></li>
-<li>geometryIdentifierHook&#160;:&#160;<a class="el" href="struct_acts_1_1_k_d_tree_tracking_geometry_builder_1_1_config.html#a496a050e6cb878bc7ea5699ca816272f">Acts::KDTreeTrackingGeometryBuilder::Config</a>, <a class="el" href="struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3">Acts::TrackingGeometryBuilder::Config</a></li>
+<li>geometryIdentifierHook&#160;:&#160;<a class="el" href="struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3">Acts::TrackingGeometryBuilder::Config</a></li>
 <li>globalMaterial&#160;:&#160;<a class="el" href="struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b">Acts::GloballyIndexedMaterialAccessor</a></li>
 <li>globalToGridLocal&#160;:&#160;<a class="el" href="class_acts_1_1_grid_access_1_1_affine3_transformed.html#a0c52451d2d2f4f644b2f37fb999c48d2">Acts::GridAccess::Affine3Transformed&lt; global_to_grid_local_t &gt;</a></li>
 <li>globalVetos&#160;:&#160;<a class="el" href="struct_acts_1_1_material_interaction_assignment_1_1_options.html#ae4b5573a2762357f7dfc12e2a1d061a8">Acts::MaterialInteractionAssignment::Options</a></li>

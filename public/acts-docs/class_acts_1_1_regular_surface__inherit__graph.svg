@@ -158,7 +158,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="class_acts_1_1_cone_layer.html" target="_top" xlink:title="Class to describe a conical detector layer for tracking, it inhertis from both, Layer base class and ...">
+<g id="a_Node000006"><a xlink:href="class_acts_1_1_cone_layer.html" target="_top" xlink:title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ...">
 <polygon fill="white" stroke="#666666" points="100,-19 5,-19 5,0 100,0 100,-19"/>
 <text text-anchor="middle" x="52.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeLayer</text>
 </a>
@@ -176,7 +176,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="class_acts_1_1_cylinder_layer.html" target="_top" xlink:title="Class to describe a cylindrical detector layer for tracking, it inhertis from both,...">
+<g id="a_Node000008"><a xlink:href="class_acts_1_1_cylinder_layer.html" target="_top" xlink:title="Class to describe a cylindrical detector layer for tracking, it inherits from both,...">
 <polygon fill="white" stroke="#666666" points="239,-19 128,-19 128,0 239,0 239,-19"/>
 <text text-anchor="middle" x="183.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CylinderLayer</text>
 </a>
@@ -194,7 +194,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inhertis from both, Layer base class an...">
+<g id="a_Node000010"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an...">
 <polygon fill="white" stroke="#666666" points="358.5,-19 266.5,-19 266.5,0 358.5,0 358.5,-19"/>
 <text text-anchor="middle" x="312.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscLayer</text>
 </a>
@@ -212,7 +212,7 @@
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="class_acts_1_1_plane_layer.html" target="_top" xlink:title="Class to describe a planar detector layer for tracking, it inhertis from both, Layer base class and P...">
+<g id="a_Node000012"><a xlink:href="class_acts_1_1_plane_layer.html" target="_top" xlink:title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P...">
 <polygon fill="white" stroke="#666666" points="483.5,-19 385.5,-19 385.5,0 483.5,0 483.5,-19"/>
 <text text-anchor="middle" x="434.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PlaneLayer</text>
 </a>

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -176,11 +178,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga920082397516a41a551b2a9883131d66a94c1ac5c5a71671cad67049d837a4da7">Acts::ComponentMergeMethod::eMaxWeight</a>
  }</td></tr>
 <tr class="memdesc:ga920082397516a41a551b2a9883131d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available reduction methods for the reduction of a Gaussian mixture.  <a href="#ga920082397516a41a551b2a9883131d66">More...</a><br /></td></tr>
-<tr class="memitem:ga5d2737be513e48e005e5f1b9566fb459" id="r_ga5d2737be513e48e005e5f1b9566fb459"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d2737be513e48e005e5f1b9566fb459">Acts::KalmanFitterTargetSurfaceStrategy</a> { <a class="el" href="#gga5d2737be513e48e005e5f1b9566fb459a8b04d5e3775d298e78455efc5ca404d5">Acts::KalmanFitterTargetSurfaceStrategy::first</a>
-, <a class="el" href="#gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51">Acts::KalmanFitterTargetSurfaceStrategy::last</a>
-, <a class="el" href="#gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018">Acts::KalmanFitterTargetSurfaceStrategy::firstOrLast</a>
- }</td></tr>
-<tr class="memdesc:ga5d2737be513e48e005e5f1b9566fb459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strategy for selecting track states when reaching target surface in Kalman filter.  <a href="#ga5d2737be513e48e005e5f1b9566fb459">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -234,38 +231,6 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga920082397516a41a551b2a9883131d66a3777ecb542bc8383bb318326dc78543d" name="gga920082397516a41a551b2a9883131d66a3777ecb542bc8383bb318326dc78543d"></a>eMean&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga920082397516a41a551b2a9883131d66a94c1ac5c5a71671cad67049d837a4da7" name="gga920082397516a41a551b2a9883131d66a94c1ac5c5a71671cad67049d837a4da7"></a>eMaxWeight&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ga5d2737be513e48e005e5f1b9566fb459" name="ga5d2737be513e48e005e5f1b9566fb459"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5d2737be513e48e005e5f1b9566fb459">&#9670;&#160;</a></span>KalmanFitterTargetSurfaceStrategy</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#ga5d2737be513e48e005e5f1b9566fb459">Acts::KalmanFitterTargetSurfaceStrategy</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Strategy for selecting track states when reaching target surface in Kalman filter. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga5d2737be513e48e005e5f1b9566fb459a8b04d5e3775d298e78455efc5ca404d5" name="gga5d2737be513e48e005e5f1b9566fb459a8b04d5e3775d298e78455efc5ca404d5"></a>first&#160;</td><td class="fielddoc"><p>Use the first trackstate to reach target surface. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51" name="gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51"></a>last&#160;</td><td class="fielddoc"><p>Use the last trackstate to reach target surface. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018" name="gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018"></a>firstOrLast&#160;</td><td class="fielddoc"><p>Use the first or last trackstate to reach target surface depending on the distance. </p>
-</td></tr>
 </table>
 
 </div>

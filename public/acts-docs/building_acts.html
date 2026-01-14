@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -350,13 +352,20 @@ modules<br  />
 <td class="markdownTableBodyNone">ACTS_BUILD_PLUGIN_HASHING  </td><td class="markdownTableBodyNone">Build Hashing plugin<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">ACTS_BUILD_FATRAS  </td><td class="markdownTableBodyNone">Build FAst TRAcking Simulation package<br  />
+<td class="markdownTableBodyNone">ACTS_BUILD_PYTHON_BINDINGS  </td><td class="markdownTableBodyNone">Build python bindings for all enabled<br  />
+components<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">ACTS_BUILD_FATRAS_GEANT4  </td><td class="markdownTableBodyNone">Build Geant4 Fatras package<br  />
+<td class="markdownTableBodyNone">ACTS_BUILD_FATRAS  </td><td class="markdownTableBodyNone">Build FAst TRAcking Simulation package<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ACTS_BUILD_FATRAS_GEANT4  </td><td class="markdownTableBodyNone">Build Geant4 Fatras package<br  />
+ type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ACTS_BUILD_ALIGNMENT  </td><td class="markdownTableBodyNone">Build Alignment package<br  />
+ type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ACTS_BUILD_EXAMPLES  </td><td class="markdownTableBodyNone">Build basic examples components<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ACTS_BUILD_EXAMPLES_DD4HEP  </td><td class="markdownTableBodyNone">Build DD4hep-based code in the examples<br  />
@@ -380,7 +389,8 @@ modules<br  />
 <td class="markdownTableBodyNone">ACTS_BUILD_EXAMPLES_PYTHIA8  </td><td class="markdownTableBodyNone">Build Pythia8-based code in the examples<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">ACTS_BUILD_EXAMPLES_PYTHON_BINDINGS  </td><td class="markdownTableBodyNone">Build python bindings for the examples<br  />
+<td class="markdownTableBodyNone">ACTS_BUILD_EXAMPLES_PYTHON_BINDINGS  </td><td class="markdownTableBodyNone">[Deprecated] Build python bindings and<br  />
+enables the examples<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ACTS_BUILD_EXAMPLES_ROOT  </td><td class="markdownTableBodyNone">Build modules based on ROOT I/O<br  />

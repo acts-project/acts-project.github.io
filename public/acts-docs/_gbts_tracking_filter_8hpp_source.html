@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -205,7 +207,7 @@ $(function(){initNavTree('_gbts_tracking_filter_8hpp_source.html','',''); });
 </div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
-<div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_edge_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_edge.html">Acts::Experimental::GbtsEdge</a></div><div class="ttdef"><b>Definition</b> GbtsDataStorage.hpp:109</div></div>
+<div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_edge_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_edge.html">Acts::Experimental::GbtsEdge</a></div><div class="ttdef"><b>Definition</b> GbtsDataStorage.hpp:115</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_tracking_filter_html_a034f4fcd1992d5fe3c641ec5359cf340"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a034f4fcd1992d5fe3c641ec5359cf340">Acts::Experimental::GbtsTrackingFilter::m_stateStore</a></div><div class="ttdeci">GbtsEdgeState m_stateStore[MAX_EDGE_STATE]</div><div class="ttdef"><b>Definition</b> GbtsTrackingFilter.hpp:74</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_tracking_filter_html_a2ec3ad0730a7f292df4464561f11b23f"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a2ec3ad0730a7f292df4464561f11b23f">Acts::Experimental::GbtsTrackingFilter::GbtsTrackingFilter</a></div><div class="ttdeci">GbtsTrackingFilter(const std::vector&lt; TrigInDetSiLayer &gt; &amp;g, std::vector&lt; GbtsEdge &gt; &amp;sb, const SeedFinderGbtsConfig &amp;config)</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_tracking_filter_html_a5284a822657f6a5439d69d32cacbb7c1"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a5284a822657f6a5439d69d32cacbb7c1">Acts::Experimental::GbtsTrackingFilter::followTrack</a></div><div class="ttdeci">void followTrack(GbtsEdge *pS, GbtsEdgeState &amp;output)</div></div>

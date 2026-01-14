@@ -169,4 +169,7 @@ var menudata={children:[
 {text:"s",url:"functions_eval.html#index_s"}]},
 {text:"Related Symbols",url:"functions_rela.html",children:[
 {text:"o",url:"functions_rela.html#index_o"}]}]}]},
-{text:"Bibliography",url:"citelist.html"}]}
+{text:"Bibliography",url:"citelist.html"},
+{text:"Deprecated",url:"deprecated.html"},
+{text:"Todos",url:"todo.html"},
+{text:"Bugs",url:"bug.html"}]}

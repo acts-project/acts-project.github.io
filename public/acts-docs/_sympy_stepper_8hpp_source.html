@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -458,7 +460,7 @@ $(function(){initNavTree('_sympy_stepper_8hpp_source.html','',''); });
 <div class="ttc" id="astruct_acts_1_1_sympy_stepper_1_1_state_html_a9ad0d2b2d5918b68db6d67ac73d98c2d"><div class="ttname"><a href="struct_acts_1_1_sympy_stepper_1_1_state.html#a9ad0d2b2d5918b68db6d67ac73d98c2d">Acts::SympyStepper::State::fieldCache</a></div><div class="ttdeci">MagneticFieldProvider::Cache fieldCache</div><div class="ttdoc">This caches the current magnetic field cell and stays (and interpolates) within it as long as this is...</div><div class="ttdef"><b>Definition</b> SympyStepper.hpp:110</div></div>
 <div class="ttc" id="astruct_acts_1_1_sympy_stepper_1_1_state_html_ab63bfcfe3e5321ee9b3cd72cae875a52"><div class="ttname"><a href="struct_acts_1_1_sympy_stepper_1_1_state.html#ab63bfcfe3e5321ee9b3cd72cae875a52">Acts::SympyStepper::State::State</a></div><div class="ttdeci">State(const Options &amp;optionsIn, MagneticFieldProvider::Cache fieldCacheIn)</div><div class="ttdoc">Constructor from the initial bound track parameters.</div><div class="ttdef"><b>Definition</b> SympyStepper.hpp:62</div></div>
 <div class="ttc" id="astruct_acts_1_1_sympy_stepper_1_1_state_html_ad0c11256008469ac2351ae447da73b34"><div class="ttname"><a href="struct_acts_1_1_sympy_stepper_1_1_state.html#ad0c11256008469ac2351ae447da73b34">Acts::SympyStepper::State::materialEffectsAccumulator</a></div><div class="ttdeci">detail::MaterialEffectsAccumulator materialEffectsAccumulator</div><div class="ttdoc">Accumulator for material effects along the trajectory.</div><div class="ttdef"><b>Definition</b> SympyStepper.hpp:116</div></div>
-<div class="ttc" id="astruct_acts_1_1_sympy_stepper_1_1_state_html_ae0938b85fe1b3b23a5caa09c93b174ca"><div class="ttname"><a href="struct_acts_1_1_sympy_stepper_1_1_state.html#ae0938b85fe1b3b23a5caa09c93b174ca">Acts::SympyStepper::State::pathAccumulated</a></div><div class="ttdeci">double pathAccumulated</div><div class="ttdoc">Accummulated path length state.</div><div class="ttdef"><b>Definition</b> SympyStepper.hpp:93</div></div>
+<div class="ttc" id="astruct_acts_1_1_sympy_stepper_1_1_state_html_ae0938b85fe1b3b23a5caa09c93b174ca"><div class="ttname"><a href="struct_acts_1_1_sympy_stepper_1_1_state.html#ae0938b85fe1b3b23a5caa09c93b174ca">Acts::SympyStepper::State::pathAccumulated</a></div><div class="ttdeci">double pathAccumulated</div><div class="ttdoc">Accumulated path length state.</div><div class="ttdef"><b>Definition</b> SympyStepper.hpp:93</div></div>
 <div class="ttc" id="astruct_acts_1_1_sympy_stepper_1_1_state_html_af7d63fb3780b2eac0a66d724491e43b9"><div class="ttname"><a href="struct_acts_1_1_sympy_stepper_1_1_state.html#af7d63fb3780b2eac0a66d724491e43b9">Acts::SympyStepper::State::jacToGlobal</a></div><div class="ttdeci">BoundToFreeMatrix jacToGlobal</div><div class="ttdoc">Jacobian from local to the global frame.</div><div class="ttdef"><b>Definition</b> SympyStepper.hpp:84</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

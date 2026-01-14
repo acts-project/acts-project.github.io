@@ -9,5 +9,7 @@ var searchData=
   ['yieldtype_6',['YieldType',['../namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016',1,'Acts::HoughTransformUtils']]],
   ['ymax_7',['yMax',['../struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#ad824504a64926594079b178debff0c33',1,'Acts::HoughTransformUtils::HoughAxisRanges']]],
   ['ymin_8',['yMin',['../struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a8fcc661394755e55bce40806c9dc21f1',1,'Acts::HoughTransformUtils::HoughAxisRanges']]],
-  ['your_20local_20machine_9',['On your local machine',['../building_acts.html#autotoc_md4',1,'']]]
+  ['your_20local_20machine_9',['On your local machine',['../building_acts.html#autotoc_md4',1,'']]],
+  ['yrecentersize_10',['yRecenterSize',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#ab75d2804637fff285c1b8fddb4970240',1,'Acts::HoughTransformUtils::PeakFinders::SlidingWindowConfig']]],
+  ['ywindowsize_11',['yWindowSize',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#acd1ba92d8a088ebe39d708564991dfd5',1,'Acts::HoughTransformUtils::PeakFinders::SlidingWindowConfig']]]
 ];

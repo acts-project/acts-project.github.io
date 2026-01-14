@@ -29,7 +29,7 @@ var group__track__fitting =
     ] ],
     [ "Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;", "class_acts_1_1_experimental_1_1_gx2_fitter.html", [
       [ "Gx2Fitter", "class_acts_1_1_experimental_1_1_gx2_fitter.html#a8383b3317169135b976a52d85b7f075d", null ],
-      [ "fit", "class_acts_1_1_experimental_1_1_gx2_fitter.html#afa1d4897ec1c22a76f223745e7eaf43d", null ]
+      [ "fit", "class_acts_1_1_experimental_1_1_gx2_fitter.html#a19d49a1d400ea86c037ec1b91bc94d03", null ]
     ] ],
     [ "Acts::Experimental::Gx2FitterExtensions&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html", [
       [ "Calibrator", "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#acfffc4044d5aa391e7da659ab5b8d8f1", null ],
@@ -95,8 +95,8 @@ var group__track__fitting =
       [ "scatteringAngles", "struct_acts_1_1_experimental_1_1_scattering_properties.html#a7d14107e03a8a5f6441eb8a1e7f9db3d", null ]
     ] ],
     [ "Acts::GainMatrixSmoother", "class_acts_1_1_gain_matrix_smoother.html", [
-      [ "GetCovariance", "class_acts_1_1_gain_matrix_smoother.html#a7fce168534624ba552bfa9ea6665b96e", null ],
-      [ "GetParameters", "class_acts_1_1_gain_matrix_smoother.html#ab6b9b81f9b40ed7a3726d997fccbf062", null ],
+      [ "GetCovariance", "class_acts_1_1_gain_matrix_smoother.html#a23174d3f3869acea4f59ab5a0451f592", null ],
+      [ "GetParameters", "class_acts_1_1_gain_matrix_smoother.html#aa38eea482f694d4d3bc9057c1e94a25e", null ],
       [ "calculate", "class_acts_1_1_gain_matrix_smoother.html#aab12ec3a444a5b2391451d27b821f1a2", null ],
       [ "operator()", "class_acts_1_1_gain_matrix_smoother.html#acf39dffc609a36adfd027d51c0b56295", null ],
       [ "doCovCheckAndAttemptFix", "class_acts_1_1_gain_matrix_smoother.html#afeb152cbcdecd1d1f69a2167ebe45625", null ]
@@ -155,8 +155,8 @@ var group__track__fitting =
     ] ],
     [ "Acts::KalmanFitter&lt; propagator_t, traj_t &gt;", "class_acts_1_1_kalman_fitter.html", [
       [ "KalmanFitter", "class_acts_1_1_kalman_fitter.html#a649173e847c828a73c735f1da4edffb2", null ],
-      [ "fit", "class_acts_1_1_kalman_fitter.html#a0d65991ef2cdb059972c7a8a93bcbc9a", null ],
-      [ "fit", "class_acts_1_1_kalman_fitter.html#a0ea77a3941f62b690a9e5dd87cbad806", null ]
+      [ "fit", "class_acts_1_1_kalman_fitter.html#a6efde90854e8a07967e6cf01ebb908dd", null ],
+      [ "fit", "class_acts_1_1_kalman_fitter.html#ade19e36306d4c2ec20863e97a1e32111", null ]
     ] ],
     [ "Acts::KalmanFitterExtensions&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_extensions.html", [
       [ "Calibrator", "struct_acts_1_1_kalman_fitter_extensions.html#ac26d10a568f0374eddc621f087f3d6ac", null ],
@@ -176,8 +176,7 @@ var group__track__fitting =
       [ "updater", "struct_acts_1_1_kalman_fitter_extensions.html#ab374be40f672545d2c63627c1a3c93ff", null ]
     ] ],
     [ "Acts::KalmanFitterOptions&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_options.html", [
-      [ "KalmanFitterOptions", "struct_acts_1_1_kalman_fitter_options.html#aca598b791aae0f6c4c1b3235065c5853", null ],
-      [ "KalmanFitterOptions", "struct_acts_1_1_kalman_fitter_options.html#a74da36683f24027315a1390ee091837b", null ],
+      [ "KalmanFitterOptions", "struct_acts_1_1_kalman_fitter_options.html#a698fb837d25303ee3ef4d3fbf41328ce", null ],
       [ "calibrationContext", "struct_acts_1_1_kalman_fitter_options.html#ab618db66d3f759d4ea04332b80b962cc", null ],
       [ "energyLoss", "struct_acts_1_1_kalman_fitter_options.html#a12ad0407b4bd0809146a3537c68a80ac", null ],
       [ "extensions", "struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839", null ],
@@ -187,9 +186,9 @@ var group__track__fitting =
       [ "multipleScattering", "struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1", null ],
       [ "propagatorPlainOptions", "struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506", null ],
       [ "referenceSurface", "struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be", null ],
-      [ "referenceSurfaceStrategy", "struct_acts_1_1_kalman_fitter_options.html#ab95034f0990fa21a8dbf1bd53037c85a", null ],
-      [ "reversedFiltering", "struct_acts_1_1_kalman_fitter_options.html#a9fff7233c53564820692c04bd00cb1f9", null ],
-      [ "reversedFilteringCovarianceScaling", "struct_acts_1_1_kalman_fitter_options.html#a91ab374e4c220526f636b40ca78a6f63", null ]
+      [ "referenceSurfaceStrategy", "struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765", null ],
+      [ "reverseFiltering", "struct_acts_1_1_kalman_fitter_options.html#a41f3c51b640b3905181ca44bb79e0649", null ],
+      [ "reverseFilteringCovarianceScaling", "struct_acts_1_1_kalman_fitter_options.html#a186d8b8d8db33274bc38707909693c1a", null ]
     ] ],
     [ "Acts::KalmanFitterResult&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_result.html", [
       [ "finished", "struct_acts_1_1_kalman_fitter_result.html#a8a0f3af0fb5d07d2584e99ed1a680c7b", null ],
@@ -200,11 +199,8 @@ var group__track__fitting =
       [ "measurementHoles", "struct_acts_1_1_kalman_fitter_result.html#a33f1c4c6e0186ec5a3117745ab629dcb", null ],
       [ "measurementStates", "struct_acts_1_1_kalman_fitter_result.html#a05c94fb890be1b65ab5df3b31061f596", null ],
       [ "missedActiveSurfaces", "struct_acts_1_1_kalman_fitter_result.html#addfc9004555a1ca3f71733226a733f5d", null ],
-      [ "passedAgainSurfaces", "struct_acts_1_1_kalman_fitter_result.html#aa6d6ac9805608d725c28fc1325fca968", null ],
       [ "pathLimitReached", "struct_acts_1_1_kalman_fitter_result.html#ae61b15f48c6eebe15f4716ad8982bdc1", null ],
-      [ "processedStates", "struct_acts_1_1_kalman_fitter_result.html#ad8c6b639fbbe3549e3ed15fdc27054ee", null ],
-      [ "reversed", "struct_acts_1_1_kalman_fitter_result.html#a7c4d036cb0ddd71430030ce210041224", null ],
-      [ "smoothed", "struct_acts_1_1_kalman_fitter_result.html#a3194d86d07a55f912acb7a8c9925e603", null ]
+      [ "processedStates", "struct_acts_1_1_kalman_fitter_result.html#ad8c6b639fbbe3549e3ed15fdc27054ee", null ]
     ] ],
     [ "Acts::MbfSmoother", "class_acts_1_1_mbf_smoother.html", [
       [ "operator()", "class_acts_1_1_mbf_smoother.html#ace445e5085f6eb5a3fa99ddf46ebd316", null ]
@@ -212,11 +208,6 @@ var group__track__fitting =
     [ "Acts::ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", [
       [ "Acts::ComponentMergeMethod::eMean", "group__track__fitting.html#gga920082397516a41a551b2a9883131d66a3777ecb542bc8383bb318326dc78543d", null ],
       [ "Acts::ComponentMergeMethod::eMaxWeight", "group__track__fitting.html#gga920082397516a41a551b2a9883131d66a94c1ac5c5a71671cad67049d837a4da7", null ]
-    ] ],
-    [ "Acts::KalmanFitterTargetSurfaceStrategy", "group__track__fitting.html#ga5d2737be513e48e005e5f1b9566fb459", [
-      [ "Acts::KalmanFitterTargetSurfaceStrategy::first", "group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a8b04d5e3775d298e78455efc5ca404d5", null ],
-      [ "Acts::KalmanFitterTargetSurfaceStrategy::last", "group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51", null ],
-      [ "Acts::KalmanFitterTargetSurfaceStrategy::firstOrLast", "group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018", null ]
     ] ],
     [ "Acts::Experimental::addMaterialToGx2fSums", "group__track__fitting.html#ga2e4730c98bab4db36b6caaba7a1b606b", null ],
     [ "Acts::Experimental::addMeasurementToGx2fSums", "group__track__fitting.html#ga6b4ab37353c322c5e6a328b74148bf8a", null ],

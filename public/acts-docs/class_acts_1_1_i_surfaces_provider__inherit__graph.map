@@ -1,7 +1,0 @@
-<map id="Acts::ISurfacesProvider" name="Acts::ISurfacesProvider">
-<area shape="rect" id="Node000001" title="This is the interface for providing surfaces to the detector building process." alt="" coords="5,45,177,70"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_kdt_surfaces_provider.html" title="Callable struct wrapper around the KDT surface structure." alt="" coords="231,5,421,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,41,230,36,231,41,192,46"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_geant4_surface_provider.html" title="A surface provider that extracts surfaces from a gdml file." alt="" coords="225,69,427,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,68,225,73,225,78,191,74"/>
-</map>

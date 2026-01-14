@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -131,15 +133,14 @@ $(function(){initNavTree('struct_acts_1_1_kalman_fitter_options.html','',''); })
   <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839">extensions</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#af3e8dfc3681b5b7ae742a14e2d3c32c8">freeToBoundCorrection</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630">geoContext</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#aca598b791aae0f6c4c1b3235065c5853">KalmanFitterOptions</a>(const GeometryContext &amp;gctx, const MagneticFieldContext &amp;mctx, std::reference_wrapper&lt; const CalibrationContext &gt; cctx, KalmanFitterExtensions&lt; traj_t &gt; extensions_, const PropagatorPlainOptions &amp;pOptions, const Surface *rSurface=nullptr, bool mScattering=true, bool eLoss=true, bool rFiltering=false, double rfScaling=1.0, const FreeToBoundCorrection &amp;freeToBoundCorrection_=FreeToBoundCorrection(false))</td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a74da36683f24027315a1390ee091837b">KalmanFitterOptions</a>()=delete</td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed">magFieldContext</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1">multipleScattering</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506">propagatorPlainOptions</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ab95034f0990fa21a8dbf1bd53037c85a">referenceSurfaceStrategy</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a9fff7233c53564820692c04bd00cb1f9">reversedFiltering</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a91ab374e4c220526f636b40ca78a6f63">reversedFilteringCovarianceScaling</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a698fb837d25303ee3ef4d3fbf41328ce">KalmanFitterOptions</a>(const GeometryContext &amp;gctx, const MagneticFieldContext &amp;mctx, std::reference_wrapper&lt; const CalibrationContext &gt; cctx, KalmanFitterExtensions&lt; traj_t &gt; extensions_, const PropagatorPlainOptions &amp;pOptions, const Surface *tSurface=nullptr, bool mScattering=true, bool eLoss=true, bool rFiltering=false, double rfScaling=1.0, const FreeToBoundCorrection &amp;freeToBoundCorrection_=FreeToBoundCorrection(false))</td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed">magFieldContext</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1">multipleScattering</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506">propagatorPlainOptions</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765">referenceSurfaceStrategy</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a41f3c51b640b3905181ca44bb79e0649">reverseFiltering</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a186d8b8d8db33274bc38707909693c1a">reverseFilteringCovarianceScaling</a></td><td class="entry"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

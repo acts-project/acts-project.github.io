@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -212,7 +214,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="keywordtype">double</span> half_h = <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * 0.5;</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="comment">// This sets the reference to the sub matrices</span></div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="comment">// dFdx is already initialised as (3x3) idendity</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="comment">// dFdx is already initialised as (3x3) identity</span></div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keyword">auto</span> dFdT = D.block&lt;3, 3&gt;(0, 4);</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="keyword">auto</span> dFdL = D.block&lt;3, 1&gt;(0, 7);</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="comment">// dGdx is already initialised as (3x3) zero</span></div>

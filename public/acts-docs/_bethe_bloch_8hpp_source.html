@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -183,7 +185,7 @@ $(function(){initNavTree('_bethe_bloch_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_fatras_1_1_particle_html_af0fb921d637cd3cd5d5dcb0965f397f1"><div class="ttname"><a href="class_acts_fatras_1_1_particle.html#af0fb921d637cd3cd5d5dcb0965f397f1">ActsFatras::Particle::correctEnergy</a></div><div class="ttdeci">Particle &amp; correctEnergy(double delta)</div><div class="ttdoc">Change the energy by the given amount.</div><div class="ttdef"><b>Definition</b> Particle.hpp:179</div></div>
 <div class="ttc" id="anamespace_acts_fatras_html"><div class="ttname"><a href="namespace_acts_fatras.html">ActsFatras</a></div><div class="ttdoc">The ACTS Fatras fast simulation plugin.</div></div>
 <div class="ttc" id="anamespace_acts_html_a5e47e30202dec06addb9c315a0b7d674"><div class="ttname"><a href="namespace_acts.html#a5e47e30202dec06addb9c315a0b7d674">Acts::computeEnergyLossLandauSigma</a></div><div class="ttdeci">float computeEnergyLossLandauSigma(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute the Gaussian-equivalent sigma for the ionisation loss fluctuations.</div></div>
-<div class="ttc" id="anamespace_acts_html_aeb22670d2e2303ba2854c2169aa08608"><div class="ttname"><a href="namespace_acts.html#aeb22670d2e2303ba2854c2169aa08608">Acts::computeEnergyLossLandau</a></div><div class="ttdeci">float computeEnergyLossLandau(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute the most propable energy loss due to ionisation and excitation.</div></div>
+<div class="ttc" id="anamespace_acts_html_aeb22670d2e2303ba2854c2169aa08608"><div class="ttname"><a href="namespace_acts.html#aeb22670d2e2303ba2854c2169aa08608">Acts::computeEnergyLossLandau</a></div><div class="ttdeci">float computeEnergyLossLandau(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute the most probable energy loss due to ionisation and excitation.</div></div>
 <div class="ttc" id="astruct_acts_fatras_1_1_bethe_bloch_html"><div class="ttname"><a href="struct_acts_fatras_1_1_bethe_bloch.html">ActsFatras::BetheBloch</a></div><div class="ttdoc">Simulate energy loss using the Bethe-Bloch/Landau description.</div><div class="ttdef"><b>Definition</b> BetheBloch.hpp:25</div></div>
 <div class="ttc" id="astruct_acts_fatras_1_1_bethe_bloch_html_a41c3539cfc917c899fa2ba2786e3035d"><div class="ttname"><a href="struct_acts_fatras_1_1_bethe_bloch.html#a41c3539cfc917c899fa2ba2786e3035d">ActsFatras::BetheBloch::operator()</a></div><div class="ttdeci">std::array&lt; Particle, 0 &gt; operator()(generator_t &amp;generator, const Acts::MaterialSlab &amp;slab, Particle &amp;particle) const</div><div class="ttdoc">Simulate energy loss and update the particle parameters.</div><div class="ttdef"><b>Definition</b> BetheBloch.hpp:40</div></div>
 <div class="ttc" id="astruct_acts_fatras_1_1_bethe_bloch_html_a96b595a940ab83f747e87e090aacf436"><div class="ttname"><a href="struct_acts_fatras_1_1_bethe_bloch.html#a96b595a940ab83f747e87e090aacf436">ActsFatras::BetheBloch::scaleFactorMPV</a></div><div class="ttdeci">double scaleFactorMPV</div><div class="ttdoc">Scaling for most probable value.</div><div class="ttdef"><b>Definition</b> BetheBloch.hpp:27</div></div>

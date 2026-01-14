@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -132,12 +134,11 @@ $(function(){initNavTree('class_acts_1_1_cuboid_stack_portal_shell.html','','');
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_portal_shell.html#a81278d9500685357acf7c0c7f48a0a18">fill</a>(TrackingVolume &amp;volume) override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_portal_shell.html">Acts::CuboidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a94db62622494a2794d7f1ddad8e4cb22">isValid</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a2e605e0af53c39ff0c36a08667aa5bd7">label</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a3c48d26192d96a47b3e24237561875c9">portal</a>(Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a462f53d8b66214a21a2981cc47ccd334">portalPtr</a>(Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a847db678813ff5b4cda0540a9041eb97">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a40832a7b38a59f5e4c73ea2f196d142b">size</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a0edad9102826f624e7f90025ad4d8694">transform</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#aba35f6b76a54091c9ed9b5dbe77e0c86">portal</a>(Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a847db678813ff5b4cda0540a9041eb97">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a40832a7b38a59f5e4c73ea2f196d142b">size</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a0edad9102826f624e7f90025ad4d8694">transform</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html">Acts::CuboidStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

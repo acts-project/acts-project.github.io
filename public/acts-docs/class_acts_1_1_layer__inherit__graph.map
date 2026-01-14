@@ -1,14 +1,14 @@
 <map id="Acts::Layer" name="Acts::Layer">
 <area shape="rect" id="Node000001" title="Base Class for a Detector Layer in the Tracking Geometry." alt="" coords="219,104,313,129"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_cone_layer.html" title="Class to describe a conical detector layer for tracking, it inhertis from both, Layer base class and ..." alt="" coords="381,5,507,31"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_cone_layer.html" title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ..." alt="" coords="381,5,507,31"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="289,92,321,65,360,40,388,28,390,33,363,44,324,69,292,96"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_cylinder_layer.html" title="Class to describe a cylindrical detector layer for tracking, it inhertis from both,..." alt="" coords="370,55,518,80"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_cylinder_layer.html" title="Class to describe a cylindrical detector layer for tracking, it inherits from both,..." alt="" coords="370,55,518,80"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="325,98,396,78,398,83,326,103"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_disc_layer.html" title="Class to describe a disc&#45;like detector layer for tracking, it inhertis from both, Layer base class an..." alt="" coords="383,104,505,129"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_disc_layer.html" title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an..." alt="" coords="383,104,505,129"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="327,114,382,114,382,119,327,119"/>
 <area shape="rect" id="Node000006" href="$class_acts_1_1_navigation_layer.html" title="Class to be used for gaps in Volumes as a navigational link." alt="" coords="361,153,527,179"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="326,131,398,151,396,156,325,136"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_plane_layer.html" title="Class to describe a planar detector layer for tracking, it inhertis from both, Layer base class and P..." alt="" coords="379,203,509,228"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_plane_layer.html" title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P..." alt="" coords="379,203,509,228"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="292,137,324,164,363,189,390,200,388,205,360,194,321,168,289,141"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="5,104,171,129"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,114,218,114,218,119,184,119"/>

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -138,6 +140,7 @@ Classes</h2></td></tr>
 <tr class="memitem:Acts_3A_3AIsReadOnlyTrackContainer_3C_20ActsPlugins_3A_3AMutablePodioTrackContainer_20_3E" id="r_Acts_3A_3AIsReadOnlyTrackContainer_3C_20ActsPlugins_3A_3AMutablePodioTrackContainer_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_01_4.html">Acts::IsReadOnlyTrackContainer&lt; ActsPlugins::MutablePodioTrackContainer &gt;</a></td></tr>
 <tr class="memitem:ActsPlugins_3A_3AConstPodioTrackContainer" id="r_ActsPlugins_3A_3AConstPodioTrackContainer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_const_podio_track_container.html">ActsPlugins::ConstPodioTrackContainer</a></td></tr>
 <tr class="memitem:ActsPlugins_3A_3AConstPodioTrackStateContainer" id="r_ActsPlugins_3A_3AConstPodioTrackStateContainer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_const_podio_track_state_container.html">ActsPlugins::ConstPodioTrackStateContainer</a></td></tr>
+<tr class="memitem:ActsPlugins_3A_3AEDM4hepUtil_3A_3ASimHitAssociation" id="r_ActsPlugins_3A_3AEDM4hepUtil_3A_3ASimHitAssociation"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html">ActsPlugins::EDM4hepUtil::SimHitAssociation</a></td></tr>
 <tr class="memitem:ActsPlugins_3A_3AMutablePodioTrackContainer" id="r_ActsPlugins_3A_3AMutablePodioTrackContainer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_mutable_podio_track_container.html">ActsPlugins::MutablePodioTrackContainer</a></td></tr>
 <tr class="memitem:ActsPlugins_3A_3AMutablePodioTrackStateContainer" id="r_ActsPlugins_3A_3AMutablePodioTrackStateContainer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html">ActsPlugins::MutablePodioTrackStateContainer</a></td></tr>
 <tr class="memitem:ActsPlugins_3A_3APodioTrackContainerBase" id="r_ActsPlugins_3A_3APodioTrackContainerBase"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html">ActsPlugins::PodioTrackContainerBase</a></td></tr>
@@ -148,6 +151,12 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga7e844dcba38aca54a214802db38c7b2f" id="r_ga7e844dcba38aca54a214802db38c7b2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7e844dcba38aca54a214802db38c7b2f">ActsPlugins::ConstPodioTrackStateContainer::ConstPodioTrackStateContainer</a> (const <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html">MutablePodioTrackStateContainer</a> &amp;other)</td></tr>
 <tr class="memdesc:ga7e844dcba38aca54a214802db38c7b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a const track state container from a mutable.  <br /></td></tr>
+<tr class="memitem:gaec2431e6bd278ab0b589b49045b19b58" id="r_gaec2431e6bd278ab0b589b49045b19b58"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec2431e6bd278ab0b589b49045b19b58">ActsPlugins::EDM4hepUtil::getParticle</a> (const edm4hep::SimTrackerHit &amp;hit)</td></tr>
+<tr class="memitem:gaff8fb57f7a4dd01d3894d7849abf74cb" id="r_gaff8fb57f7a4dd01d3894d7849abf74cb"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:gaff8fb57f7a4dd01d3894d7849abf74cb template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff8fb57f7a4dd01d3894d7849abf74cb">ActsPlugins::EDM4hepUtil::readTrack</a> (const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memitem:gad2217a1e566c6c6e331e614f87ffa7b9" id="r_gad2217a1e566c6c6e331e614f87ffa7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2217a1e566c6c6e331e614f87ffa7b9">ActsPlugins::EDM4hepUtil::setParticle</a> (edm4hep::MutableSimTrackerHit &amp;hit, const edm4hep::MCParticle &amp;particle)</td></tr>
+<tr class="memitem:ga5d02aa49e1be2a59a7f50d0ea7f4e58f" id="r_ga5d02aa49e1be2a59a7f50d0ea7f4e58f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:ga5d02aa49e1be2a59a7f50d0ea7f4e58f template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">ActsPlugins::EDM4hepUtil::writeTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ga7e844dcba38aca54a214802db38c7b2f" name="ga7e844dcba38aca54a214802db38c7b2f"></a>
@@ -175,6 +184,115 @@ Functions</h2></td></tr>
 
 <p>Construct a const track state container from a mutable. </p>
 <dl class="section warning"><dt>Warning</dt><dd>If the source mutable container is modified, this container will be corrupted, as surface buffer and dynamic column state can not be synchronized! </dd></dl>
+
+</div>
+</div>
+<a id="gaec2431e6bd278ab0b589b49045b19b58" name="gaec2431e6bd278ab0b589b49045b19b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec2431e6bd278ab0b589b49045b19b58">&#9670;&#160;</a></span>getParticle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">edm4hep::MCParticle ActsPlugins::EDM4hepUtil::getParticle </td>
+          <td>(</td>
+          <td class="paramtype">const edm4hep::SimTrackerHit &amp;</td>          <td class="paramname"><span class="paramname"><em>hit</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaff8fb57f7a4dd01d3894d7849abf74cb" name="gaff8fb57f7a4dd01d3894d7849abf74cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff8fb57f7a4dd01d3894d7849abf74cb">&#9670;&#160;</a></span>readTrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::EDM4hepUtil::readTrack </td>
+          <td>(</td>
+          <td class="paramtype">const edm4hep::Track &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">track_proxy_t &amp;</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>Bz</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad2217a1e566c6c6e331e614f87ffa7b9" name="gad2217a1e566c6c6e331e614f87ffa7b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2217a1e566c6c6e331e614f87ffa7b9">&#9670;&#160;</a></span>setParticle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::EDM4hepUtil::setParticle </td>
+          <td>(</td>
+          <td class="paramtype">edm4hep::MutableSimTrackerHit &amp;</td>          <td class="paramname"><span class="paramname"><em>hit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const edm4hep::MCParticle &amp;</td>          <td class="paramname"><span class="paramname"><em>particle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5d02aa49e1be2a59a7f50d0ea7f4e58f" name="ga5d02aa49e1be2a59a7f50d0ea7f4e58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">&#9670;&#160;</a></span>writeTrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::EDM4hepUtil::writeTrack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">track_proxy_t</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">edm4hep::MutableTrack</td>          <td class="paramname"><span class="paramname"><em>to</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>Bz</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

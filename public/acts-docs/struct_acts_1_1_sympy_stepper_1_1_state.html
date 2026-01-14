@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -168,7 +170,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a599a0d65015b4866e7fe3d62188075a9" id="r_a599a0d65015b4866e7fe3d62188075a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a599a0d65015b4866e7fe3d62188075a9">particleHypothesis</a> = <a class="el" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">ParticleHypothesis::pion</a>()</td></tr>
 <tr class="memdesc:a599a0d65015b4866e7fe3d62188075a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
 <tr class="memitem:ae0938b85fe1b3b23a5caa09c93b174ca" id="r_ae0938b85fe1b3b23a5caa09c93b174ca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0938b85fe1b3b23a5caa09c93b174ca">pathAccumulated</a> = 0.</td></tr>
-<tr class="memdesc:ae0938b85fe1b3b23a5caa09c93b174ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accummulated path length state.  <br /></td></tr>
+<tr class="memdesc:ae0938b85fe1b3b23a5caa09c93b174ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulated path length state.  <br /></td></tr>
 <tr class="memitem:a1a2a1f7fe47f4c250d17b281fe3f574b" id="r_a1a2a1f7fe47f4c250d17b281fe3f574b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a2a1f7fe47f4c250d17b281fe3f574b">previousStepSize</a> = 0.</td></tr>
 <tr class="memdesc:a1a2a1f7fe47f4c250d17b281fe3f574b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last performed step (for overstep limit calculation).  <br /></td></tr>
 <tr class="memitem:a75d9c40ac81f2c3058ba3369134557b9" id="r_a75d9c40ac81f2c3058ba3369134557b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d9c40ac81f2c3058ba3369134557b9">statistics</a></td></tr>
@@ -433,7 +435,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Accummulated path length state. </p>
+<p>Accumulated path length state. </p>
 
 </div>
 </div>

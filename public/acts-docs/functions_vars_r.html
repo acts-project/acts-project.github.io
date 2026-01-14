@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -128,24 +130,25 @@ $(function(){initNavTree('functions_vars_r.html','',''); });
 <li>radLen&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#abad3ee804a24dad2c25bf7e04bbb92d0">Acts::Experimental::SeedFinderGbtsConfig</a></li>
 <li>radLengthPerSeed&#160;:&#160;<a class="el" href="struct_acts_1_1_seed_finder_config.html#a6b2c2c5303cc5bb845df95fc93e9b1a4">Acts::SeedFinderConfig&lt; SpacePoint &gt;</a>, <a class="el" href="struct_acts_1_1_seed_finder_orthogonal_config.html#a4643b4036ad9bdce4d088596c9f3b195">Acts::SeedFinderOrthogonalConfig&lt; SpacePoint &gt;</a>, <a class="el" href="struct_acts_1_1_triplet_seed_finder_1_1_config.html#afd44ea6954d7931bc3c5760ab6e83aa7">Acts::TripletSeedFinder::Config</a></li>
 <li>rAlign&#160;:&#160;<a class="el" href="struct_acts_1_1_seed_finder_config.html#a46fa51c31f07f3c8c814bcb9b3852eee">Acts::SeedFinderConfig&lt; SpacePoint &gt;</a></li>
-<li>range&#160;:&#160;<a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq.html#a575e52bc6e3c9537fd0895ce5dc385e7">Acts::GridAxisGenerators::Eq&lt; aType &gt;</a>, <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq_var.html#a7a7f371875defda9dde639da4d92a061">Acts::GridAxisGenerators::EqVar&lt; aType, bType &gt;</a>, <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555">Acts::GridAxisGenerators::VarEq&lt; aType, bType &gt;</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#aa8e0b82386b12e003fd59c8787474bff">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions</a></li>
+<li>range&#160;:&#160;<a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq.html#a575e52bc6e3c9537fd0895ce5dc385e7">Acts::GridAxisGenerators::Eq&lt; aType &gt;</a>, <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq_var.html#a7a7f371875defda9dde639da4d92a061">Acts::GridAxisGenerators::EqVar&lt; aType, bType &gt;</a>, <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_var_eq.html#a8f7186f88499126aee3e354c20671555">Acts::GridAxisGenerators::VarEq&lt; aType, bType &gt;</a></li>
 <li>range0&#160;:&#160;<a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#adf1b7cbe326aaf6fc65541caf29c5a01">Acts::GridAxisGenerators::EqEq&lt; aType, bType &gt;</a></li>
 <li>range1&#160;:&#160;<a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a25f6c5ac20e621cee290566a772db065">Acts::GridAxisGenerators::EqEq&lt; aType, bType &gt;</a></li>
 <li>rangeIterZ&#160;:&#160;<a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html#ac94352000b99f6bc522faca3dda6a3a2">Acts::HoughVertexFinder&lt; spacepoint_t &gt;::Config</a></li>
 <li>ranges&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a88a2501162df8548686c333fe35a8e3a">Acts::Experimental::CompositeSpacePointLineFitter::Config</a></li>
 <li>rBinEdges&#160;:&#160;<a class="el" href="struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html#a17dc4ac0708b25e6b2eb29ceeb8b0f19">Acts::CylindricalSpacePointGrid2::Config</a></li>
 <li>rBounds&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html#aa36d1357088dd35e4165f1944516a308">Acts::CuboidVolumeBuilder::SurfaceConfig</a></li>
-<li>ReadOnly&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#ace27a3f5a1b1b0709ed834528529a9e7">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_seed_proxy2.html#aa52184dd0535a5d862ff03eb943a9e83">Acts::SeedProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_column_proxy.html#a653886d7ea5206e2fd8cd0e5841fd1b9">Acts::SpacePointColumnProxy&lt; T, read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_proxy2.html#a3d29c8b89a28036d322e6f7525b1b97a">Acts::SpacePointProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_container.html#ab32b67162e716863c0c2f548869fa4ad">Acts::TrackContainer&lt; track_container_t, traj_t, holder_t &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a9842c1a3fb418179d94a69c77ac72fda">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a99b5acfc879ef16dc1c017452b5bbe87">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>ReadOnly&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_proxy.html#acae04f809ce0c4434aa2abb9e619fc01">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_any_track_state_proxy.html#aa1dc782070566edea98fcc21352d2490">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#ace27a3f5a1b1b0709ed834528529a9e7">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_seed_proxy2.html#aa52184dd0535a5d862ff03eb943a9e83">Acts::SeedProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_column_proxy.html#a653886d7ea5206e2fd8cd0e5841fd1b9">Acts::SpacePointColumnProxy&lt; T, read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_proxy2.html#a3d29c8b89a28036d322e6f7525b1b97a">Acts::SpacePointProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_container.html#ab32b67162e716863c0c2f548869fa4ad">Acts::TrackContainer&lt; track_container_t, traj_t, holder_t &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a9842c1a3fb418179d94a69c77ac72fda">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a99b5acfc879ef16dc1c017452b5bbe87">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
 <li>reAssignments&#160;:&#160;<a class="el" href="struct_acts_1_1_material_interaction_assignment_1_1_options.html#a8a5e9d46cb5b249ed71d77697930786b">Acts::MaterialInteractionAssignment::Options</a></li>
 <li>reassignTracksAfterFirstFit&#160;:&#160;<a class="el" href="struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a1aa97c7547e5829698d0837e57d2bc96">Acts::IterativeVertexFinder::Config</a></li>
 <li>recalculateTotals&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_root_material_track_io_1_1_config.html#a56b48cc0258f974efb055b0f36e9ddc2">ActsPlugins::RootMaterialTrackIo::Config</a></li>
 <li>recalibrate&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a9907fd3fa90aecd1b098ff0558b52587">Acts::Experimental::CompositeSpacePointLineFitter::Config</a></li>
+<li>recenter&#160;:&#160;<a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#ad6c797dc14799ebe774d8f316407d8db">Acts::HoughTransformUtils::PeakFinders::SlidingWindowConfig</a></li>
 <li>recoIndices&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_root_measurement_io_1_1_config.html#ad54234ccae6a0f195c01e7059479fbe5">ActsPlugins::RootMeasurementIo::Config</a></li>
 <li>recordInteractions&#160;:&#160;<a class="el" href="struct_acts_1_1_material_interactor.html#acf57d274c33d976f9a6b65afc0e26e24">Acts::MaterialInteractor</a></li>
 <li>referenceExpansion&#160;:&#160;<a class="el" href="struct_acts_1_1_index_grid_filler.html#a32ce9d2ac48df0dce4d367433c2188b5">Acts::IndexGridFiller</a>, <a class="el" href="class_acts_1_1_index_grid_navigation_config.html#a76a8b28cadcebfdea5008660f5981e63">Acts::IndexGridNavigationConfig</a></li>
-<li>referenceGenerator&#160;:&#160;<a class="el" href="class_acts_1_1_index_grid_navigation_config.html#a677ffec43b0d7e22be9ff475380ce460">Acts::IndexGridNavigationConfig</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#ab970e6b6bc50b283ab1ba4ff26a550d2">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions</a></li>
+<li>referenceGenerator&#160;:&#160;<a class="el" href="class_acts_1_1_index_grid_navigation_config.html#a677ffec43b0d7e22be9ff475380ce460">Acts::IndexGridNavigationConfig</a></li>
 <li>referenceSurface&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ab3653855ae2bccf1fd2056150c4d9374">Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_gsf_options.html#ab1f4fdb6cf96b33857e0e070c8156512">Acts::GsfOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">Acts::KalmanFitterOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_projected_reference_generator.html#ac3fc0675be478b09e01d189f81e0f702">Acts::ProjectedReferenceGenerator</a></li>
-<li>referenceSurfaceStrategy&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ab95034f0990fa21a8dbf1bd53037c85a">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
+<li>referenceSurfaceStrategy&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
 <li>refLayerIds&#160;:&#160;<a class="el" href="struct_acts_1_1_path_seeder_1_1_config.html#a3ed8a9773974a68f99eed25a43456fb6">Acts::PathSeeder::Config</a></li>
 <li>relChi2changeCutOff&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a48fed7e05f1ac0ec5e308377c4e6d474">Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;</a></li>
 <li>relinearize&#160;:&#160;<a class="el" href="struct_acts_1_1_vertex_info.html#af2607836b0b0ab18ad3db83f0ce85ac2">Acts::VertexInfo</a></li>
@@ -153,10 +156,8 @@ $(function(){initNavTree('functions_vars_r.html','',''); });
 <li>resolveMaterial&#160;:&#160;<a class="el" href="struct_acts_1_1_navigation_options.html#a4d51d7269042ef7c308a707d760e3303">Acts::NavigationOptions&lt; object_t &gt;</a>, <a class="el" href="struct_acts_1_1_navigator_1_1_config.html#a9023f27a77e242a118d61d21ab445070">Acts::Navigator::Config</a>, <a class="el" href="struct_acts_1_1_try_all_navigator_base_1_1_config.html#a359610dd461edac2a984011224c555a0">Acts::TryAllNavigatorBase::Config</a></li>
 <li>resolvePassive&#160;:&#160;<a class="el" href="struct_acts_1_1_navigation_options.html#a5ed16712b68339f95712bbb9631c7c7d">Acts::NavigationOptions&lt; object_t &gt;</a>, <a class="el" href="struct_acts_1_1_navigator_1_1_config.html#af1c046cc36229b6d9cea735b4e6d66e5">Acts::Navigator::Config</a>, <a class="el" href="struct_acts_1_1_try_all_navigator_base_1_1_config.html#acc55e53dc1cd0177ede54500e75b692d">Acts::TryAllNavigatorBase::Config</a></li>
 <li>resolveSensitive&#160;:&#160;<a class="el" href="struct_acts_1_1_navigation_options.html#aab099f0a7016bf73b62108333f0dceb5">Acts::NavigationOptions&lt; object_t &gt;</a>, <a class="el" href="struct_acts_1_1_navigator_1_1_config.html#ae6fd06e549adbca5719905d7912e2b8b">Acts::Navigator::Config</a>, <a class="el" href="struct_acts_1_1_try_all_navigator_base_1_1_config.html#ab1b156497d8d550370c81b816609467e">Acts::TryAllNavigatorBase::Config</a></li>
-<li>reversed&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_result.html#a7c4d036cb0ddd71430030ce210041224">Acts::KalmanFitterResult&lt; traj_t &gt;</a></li>
-<li>reversedFiltering&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a9fff7233c53564820692c04bd00cb1f9">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
-<li>reversedFilteringCovarianceScaling&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a91ab374e4c220526f636b40ca78a6f63">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
-<li>reverseFilteringCovarianceScaling&#160;:&#160;<a class="el" href="struct_acts_1_1_gsf_options.html#aa635147a6643f90b3a68dac0da2e5f8f">Acts::GsfOptions&lt; traj_t &gt;</a></li>
+<li>reverseFiltering&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a41f3c51b640b3905181ca44bb79e0649">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
+<li>reverseFilteringCovarianceScaling&#160;:&#160;<a class="el" href="struct_acts_1_1_gsf_options.html#aa635147a6643f90b3a68dac0da2e5f8f">Acts::GsfOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a186d8b8d8db33274bc38707909693c1a">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
 <li>reverseFilteringLogic&#160;:&#160;<a class="el" href="struct_acts_1_1_kalman_fitter_extensions.html#a012886161318b7ef7b80ae9445104f0f">Acts::KalmanFitterExtensions&lt; traj_t &gt;</a></li>
 <li>rgb&#160;:&#160;<a class="el" href="struct_acts_1_1_color.html#a5c2a647aee02e1460790f0372d3db81b">Acts::Color</a></li>
 <li>rhoHistName&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a1758501a0f328604ac45ac422556c4fb">ActsPlugins::RootMaterialMapIo::Config</a></li>

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -123,6 +125,9 @@ $(function(){initNavTree('namespace_acts_plugins_1_1_svg_1_1_surface_array_conve
   <div class="headertitle"><div class="title">ActsPlugins::Svg::SurfaceArrayConverter Namespace Reference<div class="ingroups"><a class="el" href="group__plugins.html">Plugins</a> &raquo; <a class="el" href="group__actsvg__plugin.html">ActSVG Plugin</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Utilities to convert a surface array into proto objects for SVG output.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -131,49 +136,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a271e1666026fac6edae8f856d8c9b886" id="r_a271e1666026fac6edae8f856d8c9b886"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_plugins_1_1_svg.html#a1abe728e0de365fb29d46e417dad6405">ProtoIndexedSurfaceGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a271e1666026fac6edae8f856d8c9b886">convert</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface_array.html">Acts::SurfaceArray</a> &amp;surfaceArray, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html">Options</a> &amp;cOptions=<a class="el" href="struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html">Options</a>())</td></tr>
-<tr class="memdesc:a271e1666026fac6edae8f856d8c9b886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a surface array into needed constituents.  <br /></td></tr>
+<tr class="memitem:ga271e1666026fac6edae8f856d8c9b886" id="r_ga271e1666026fac6edae8f856d8c9b886"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_plugins_1_1_svg.html#a1abe728e0de365fb29d46e417dad6405">ProtoIndexedSurfaceGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__actsvg__plugin.html#ga271e1666026fac6edae8f856d8c9b886">convert</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface_array.html">Acts::SurfaceArray</a> &amp;surfaceArray, const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html">Options</a> &amp;cOptions=<a class="el" href="struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html">Options</a>())</td></tr>
+<tr class="memdesc:ga271e1666026fac6edae8f856d8c9b886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a surface array into needed constituents.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a271e1666026fac6edae8f856d8c9b886" name="a271e1666026fac6edae8f856d8c9b886"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a271e1666026fac6edae8f856d8c9b886">&#9670;&#160;</a></span>convert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts_plugins_1_1_svg.html#a1abe728e0de365fb29d46e417dad6405">ProtoIndexedSurfaceGrid</a> ActsPlugins::Svg::SurfaceArrayConverter::convert </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface_array.html">Acts::SurfaceArray</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceArray</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cOptions</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html">Options</a>()</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convert a surface array into needed constituents. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gctx</td><td>is the geometry context of the conversion call </td></tr>
-    <tr><td class="paramname">surfaceArray</td><td>is the surface to convert </td></tr>
-    <tr><td class="paramname">cOptions</td><td>the conversion options</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>the type of view is auto-generated from the binning information, it transforms the surface array into an indexed array of surfaces and then uses these proto objects, one can thus directly use the view function of the indexed surface grid</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>a collection of proto surface object and a grid, and associations </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Utilities to convert a surface array into proto objects for SVG output. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

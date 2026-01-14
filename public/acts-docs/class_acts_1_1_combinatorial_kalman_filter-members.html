@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -128,8 +130,8 @@ $(function(){initNavTree('class_acts_1_1_combinatorial_kalman_filter.html','',''
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html#a00ce8df1692cbd175c8c4c4eb96d127b">CombinatorialKalmanFilter</a>()=delete</td><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html#a73babed6b5e06588d567cfa23fd7b0cf">CombinatorialKalmanFilter</a>(propagator_t pPropagator, std::unique_ptr&lt; const Logger &gt; _logger=getDefaultLogger(&quot;CKF&quot;, Logging::INFO))</td><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html#a33340ad1df7e41525f88566babb3f5fa">findTracks</a>(const start_parameters_t &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer, typename track_container_t::TrackProxy rootBranch) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html#a75673ca4b03769435276a1d19d57a72c">findTracks</a>(const start_parameters_t &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html#af26bb30c3a65c5d38d253044b369bd51">findTracks</a>(const BoundTrackParameters &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer, typename track_container_t::TrackProxy rootBranch) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">findTracks</a>(const BoundTrackParameters &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td><td class="entry"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

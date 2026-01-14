@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -162,62 +164,65 @@ $(function(){initNavTree('_track_proxy_concept_8hpp_source.html','',''); });
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  { cv.particleHypothesis() } -&gt; std::same_as&lt;ParticleHypothesis&gt;;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  { cv.theta() } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  { cv.phi() } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  { cv.qOverP() } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  { cv.absoluteMomentum() } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  { cv.transverseMomentum() } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  { cv.charge() } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  { cv.nMeasurements() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  { cv.nHoles() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  { cv.nOutliers() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  { cv.nSharedHits() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  { cv.chi2() } -&gt; std::convertible_to&lt;float&gt;;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  { cv.nDoF() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  { cv.nTrackStates() } -&gt; std::same_as&lt;unsigned int&gt;;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  { cv.hasColumn(key) } -&gt; std::same_as&lt;bool&gt;;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  { cv.hasColumn(detail_tpc::kConceptKey) } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  { cv.loc0() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  { cv.loc1() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  { cv.time() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  { cv.theta() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  { cv.phi() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  { cv.qOverP() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  { cv.absoluteMomentum() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  { cv.transverseMomentum() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  { cv.charge() } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  { cv.nMeasurements() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  { cv.nHoles() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  { cv.nOutliers() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  { cv.nSharedHits() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  { cv.chi2() } -&gt; std::convertible_to&lt;float&gt;;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  { cv.nDoF() } -&gt; std::convertible_to&lt;unsigned int&gt;;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  { cv.nTrackStates() } -&gt; std::same_as&lt;unsigned int&gt;;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  { cv.template component&lt;int&gt;(key) } -&gt; std::same_as&lt;const int&amp;&gt;;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  {</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    cv.template component&lt;int, detail_tpc::kConceptKey&gt;()</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  } -&gt; std::same_as&lt;const int&amp;&gt;;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  { cv.hasColumn(key) } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  { cv.hasColumn(detail_tpc::kConceptKey) } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  { cv.template component&lt;int&gt;(key) } -&gt; std::same_as&lt;const int&amp;&gt;;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    cv.template component&lt;int, detail_tpc::kConceptKey&gt;()</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  } -&gt; std::same_as&lt;const int&amp;&gt;;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
 </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="concept_acts_1_1_const_track_proxy_concept.html">   72</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_const_track_proxy_concept.html">ConstTrackProxyConcept</a> = <a class="code hl_concept" href="concept_acts_1_1_track_proxy_concept.html">TrackProxyConcept&lt;T&gt;</a>;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="concept_acts_1_1_mutable_track_proxy_concept.html">   75</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_mutable_track_proxy_concept.html">MutableTrackProxyConcept</a> =</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <a class="code hl_concept" href="concept_acts_1_1_track_proxy_concept.html">TrackProxyConcept&lt;T&gt;</a> &amp;&amp; <span class="keyword">requires</span>(T v, <a class="code hl_typedef" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key) {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>      { v.tipIndex() } -&gt; std::same_as&lt;TrackIndexType&amp;&gt;;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>      { v.stemIndex() } -&gt; std::same_as&lt;TrackIndexType&amp;&gt;;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>      { v.parameters() } -&gt; std::same_as&lt;detail_tpc::ParametersMap&gt;;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      { v.covariance() } -&gt; std::same_as&lt;detail_tpc::CovarianceMap&gt;;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="concept_acts_1_1_const_track_proxy_concept.html">   75</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_const_track_proxy_concept.html">ConstTrackProxyConcept</a> = <a class="code hl_concept" href="concept_acts_1_1_track_proxy_concept.html">TrackProxyConcept&lt;T&gt;</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="concept_acts_1_1_mutable_track_proxy_concept.html">   78</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_mutable_track_proxy_concept.html">MutableTrackProxyConcept</a> =</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_concept" href="concept_acts_1_1_track_proxy_concept.html">TrackProxyConcept&lt;T&gt;</a> &amp;&amp; <span class="keyword">requires</span>(T v, <a class="code hl_typedef" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key) {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>      { v.tipIndex() } -&gt; std::same_as&lt;TrackIndexType&amp;&gt;;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      { v.stemIndex() } -&gt; std::same_as&lt;TrackIndexType&amp;&gt;;</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>      { v.nMeasurements() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>      { v.nHoles() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>      { v.nOutliers() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>      { v.nSharedHits() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>      { v.chi2() } -&gt; std::same_as&lt;float&amp;&gt;;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>      { v.nDoF() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>      { v.template component&lt;int&gt;(key) } -&gt; std::same_as&lt;int&amp;&gt;;</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      {</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        v.template component&lt;int, detail_tpc::kConceptKey&gt;()</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>      } -&gt; std::same_as&lt;int&amp;&gt;;</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    };</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>      { v.parameters() } -&gt; std::same_as&lt;detail_tpc::ParametersMap&gt;;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>      { v.covariance() } -&gt; std::same_as&lt;detail_tpc::CovarianceMap&gt;;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>      { v.nMeasurements() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>      { v.nHoles() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>      { v.nOutliers() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>      { v.nSharedHits() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>      { v.chi2() } -&gt; std::same_as&lt;float&amp;&gt;;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      { v.nDoF() } -&gt; std::same_as&lt;unsigned int&amp;&gt;;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>      { v.template component&lt;int&gt;(key) } -&gt; std::same_as&lt;int&amp;&gt;;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>      {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        v.template component&lt;int, detail_tpc::kConceptKey&gt;()</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>      } -&gt; std::same_as&lt;int&amp;&gt;;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    };</div>
 </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="ttc" id="aconcept_acts_1_1_const_track_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_const_track_proxy_concept.html">Acts::ConstTrackProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackProxyConcept.hpp:72</div></div>
-<div class="ttc" id="aconcept_acts_1_1_mutable_track_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_mutable_track_proxy_concept.html">Acts::MutableTrackProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackProxyConcept.hpp:75</div></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="ttc" id="aconcept_acts_1_1_const_track_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_const_track_proxy_concept.html">Acts::ConstTrackProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackProxyConcept.hpp:75</div></div>
+<div class="ttc" id="aconcept_acts_1_1_mutable_track_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_mutable_track_proxy_concept.html">Acts::MutableTrackProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackProxyConcept.hpp:78</div></div>
 <div class="ttc" id="aconcept_acts_1_1_track_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackProxyConcept.hpp:31</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a312705c7759168e892ece2b486788dcc"><div class="ttname"><a href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">Acts::hashString</a></div><div class="ttdeci">consteval HashedString hashString(std::string_view s)</div><div class="ttdoc">Compile-time hash of string literal.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:62</div></div>

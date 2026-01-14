@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -176,7 +178,7 @@ $(function(){initNavTree('functions_b.html','',''); });
 <li>binningValue()&#160;:&#160;<a class="el" href="class_acts_1_1_bin_utility.html#a399209b51ffda59cfe54541519eff758">Acts::BinUtility</a></li>
 <li>binningValuePhi()&#160;:&#160;<a class="el" href="class_acts_1_1_annulus_bounds.html#ad5bfa69465d8b8ba01ca671f306b4acb">Acts::AnnulusBounds</a>, <a class="el" href="class_acts_1_1_disc_bounds.html#aa4c46630e9bf1cd6fd812ba7ca716bf7">Acts::DiscBounds</a>, <a class="el" href="class_acts_1_1_disc_trapezoid_bounds.html#ac8fe7e338cdc1f34ab89d18480ca40b7">Acts::DiscTrapezoidBounds</a>, <a class="el" href="class_acts_1_1_radial_bounds.html#a001bffc05b79fe6cd1e9fc2bfc5abb14">Acts::RadialBounds</a></li>
 <li>binningValueR()&#160;:&#160;<a class="el" href="class_acts_1_1_annulus_bounds.html#ae2de305aaa1e116c5aed2b09e4f5281b">Acts::AnnulusBounds</a>, <a class="el" href="class_acts_1_1_disc_bounds.html#a698ec50cfca910047133cb4c2cd22f16">Acts::DiscBounds</a>, <a class="el" href="class_acts_1_1_disc_trapezoid_bounds.html#a40a2a3f9e714be272fd9e380909aad77">Acts::DiscTrapezoidBounds</a>, <a class="el" href="class_acts_1_1_radial_bounds.html#a0f74405b11702898197ae6537f052eac">Acts::RadialBounds</a></li>
-<li>binningValues()&#160;:&#160;<a class="el" href="class_acts_1_1_surface_array.html#afc402251abb0169c97a4d314ab3b6928">Acts::SurfaceArray</a>, <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html#adefdedb2eb38af7c2b3eef5af31fbc6a">Acts::SurfaceArray::ISurfaceGridLookup</a>, <a class="el" href="struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a17e3d4689689e0fcd60bc91ee9399f4d">Acts::SurfaceArray::SurfaceGridLookup&lt; Axis1, Axis2 &gt;</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#a6838472be4852884bfaeb6b6de261e29">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions</a></li>
+<li>binningValues()&#160;:&#160;<a class="el" href="class_acts_1_1_surface_array.html#afc402251abb0169c97a4d314ab3b6928">Acts::SurfaceArray</a>, <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html#adefdedb2eb38af7c2b3eef5af31fbc6a">Acts::SurfaceArray::ISurfaceGridLookup</a>, <a class="el" href="struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a17e3d4689689e0fcd60bc91ee9399f4d">Acts::SurfaceArray::SurfaceGridLookup&lt; Axis1, Axis2 &gt;</a></li>
 <li>bins()&#160;:&#160;<a class="el" href="class_acts_1_1_binning_data.html#a464a59283e3b04b48c48c4520ca9ec77">Acts::BinningData</a>, <a class="el" href="class_acts_1_1_bin_utility.html#a5ba2e4de0ba542ecf0690e898ea6f371">Acts::BinUtility</a>, <a class="el" href="struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a432b6f8195ade87a305b685fc769cf70">Acts::SurfaceArrayNavigationPolicy::Config</a></li>
 <li>binsCotThetaDecrease&#160;:&#160;<a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html#a17b7da344f8259b145902310f5992d20">Acts::HoughVertexFinder&lt; spacepoint_t &gt;::Config</a></li>
 <li>binSize&#160;:&#160;<a class="el" href="struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab9c5cca75445b19b828484ee15aacad5">Acts::GaussianGridTrackDensity::Config</a></li>
@@ -190,7 +192,6 @@ $(function(){initNavTree('functions_b.html','',''); });
 <li>binvalue&#160;:&#160;<a class="el" href="class_acts_1_1_binning_data.html#ad59bcd5dff2cace2c9879c93d7540752">Acts::BinningData</a></li>
 <li>binWidth()&#160;:&#160;<a class="el" href="class_acts_1_1_grid.html#a642f1696a28ee344a450ac9985697037">Acts::Grid&lt; T, Axes &gt;</a></li>
 <li>bits()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_index.html#abd3e2efc7c5baed6f77fead241cd331b">Acts::MultiIndex&lt; T, BitsPerLevel &gt;</a></li>
-<li>blockBuilder&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume.html#ab6dd62f2edc568288d454f39be0c02b1">Acts::ProtoVolume</a></li>
 <li>Blueprint()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_blueprint.html#ae1c6ff77d68f61555b7a2815e7b5866e">Acts::Experimental::Blueprint</a></li>
 <li>bMagCenter&#160;:&#160;<a class="el" href="struct_acts_1_1_solenoid_b_field_1_1_config.html#a190bed2a6135ce425ba4e995dba75af6">Acts::SolenoidBField::Config</a></li>
 <li>BoostTrackBuilding()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_boost_track_building.html#aba85bdbb422463cf8ada387f09b17607">ActsPlugins::BoostTrackBuilding</a></li>
@@ -250,7 +251,7 @@ $(function(){initNavTree('functions_b.html','',''); });
 <li>buildLayer()&#160;:&#160;<a class="el" href="class_acts_1_1_cuboid_volume_builder.html#a055e2159ad7c8e7de13d1e3aab795ec7">Acts::CuboidVolumeBuilder</a></li>
 <li>buildSpacePoint()&#160;:&#160;<a class="el" href="class_acts_1_1_space_point_builder.html#aca62261e1f50c0faa2997cc29116ab99">Acts::SpacePointBuilder&lt; spacepoint_t &gt;</a></li>
 <li>buildSurface()&#160;:&#160;<a class="el" href="class_acts_1_1_cuboid_volume_builder.html#a914b566aae6a0b7884607c0df91a3689">Acts::CuboidVolumeBuilder</a></li>
-<li>buildTheGraph()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#ad1d21a13093d314cf5cff4fba8e32a37">Acts::Experimental::SeedFinderGbts</a></li>
+<li>buildTheGraph()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a12b2de117fdd1fd91b6cf13c76f5948d">Acts::Experimental::SeedFinderGbts</a></li>
 <li>buildToRadiusZero&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_builder_1_1_config.html#adb55ae97e8be9b4af267555f461f5a95">Acts::CylinderVolumeBuilder::Config</a></li>
 <li>buildVolume()&#160;:&#160;<a class="el" href="class_acts_1_1_cuboid_volume_builder.html#a45875aeb55cce23b8c686e847f764815">Acts::CuboidVolumeBuilder</a>, <a class="el" href="class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a7b59d256440bd1b49a218fb76b83fa86">Acts::Experimental::MultiWireVolumeBuilder</a></li>
 <li>busyLayerLimit&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#ad7e39e2ff4649933525a47b1f5307511">Acts::Experimental::CompositeSpacePointLineSeeder::Config</a></li>

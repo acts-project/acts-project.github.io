@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -138,8 +140,7 @@ $(function(){initNavTree('functions_vars_l.html','',''); });
 <li>layerBuilder&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_builder_1_1_config.html#aedbb1c8a7b23542aabfbe29a7cddeaf5">Acts::CylinderVolumeBuilder::Config</a></li>
 <li>layerCfg&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#a7ba0e96a23d9f941290d209eaa410ee5">Acts::CuboidVolumeBuilder::VolumeConfig</a></li>
 <li>layerConfigurations&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a34a4b7dd267b42e9153c3640d646fae3">ActsPlugins::TGeoLayerBuilder::Config</a></li>
-<li>layerContainer&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume_1_1_container_structure.html#a679061abec2d5f001620a45e2c82b395">Acts::ProtoVolume::ContainerStructure</a></li>
-<li>layerCreator&#160;:&#160;<a class="el" href="struct_acts_1_1_k_d_tree_tracking_geometry_builder_1_1_config.html#abb40aa8ec942a438f499fc93637d2edf">Acts::KDTreeTrackingGeometryBuilder::Config</a>, <a class="el" href="struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6">ActsPlugins::DD4hepLayerBuilder::Config</a>, <a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#ac213b481262f33373107ed052687513a">ActsPlugins::TGeoLayerBuilder::Config</a></li>
+<li>layerCreator&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6">ActsPlugins::DD4hepLayerBuilder::Config</a>, <a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#ac213b481262f33373107ed052687513a">ActsPlugins::TGeoLayerBuilder::Config</a></li>
 <li>layerEnvelopeR&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a32c08eeb7ed4303b6b3dfbf2907afc96">Acts::CylinderVolumeBuilder::Config</a></li>
 <li>layerEnvelopeZ&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_builder_1_1_config.html#aaad89ab6b61accf45424722a6d2fb6a4">Acts::CylinderVolumeBuilder::Config</a></li>
 <li>layerIdentification&#160;:&#160;<a class="el" href="struct_acts_1_1_passive_layer_builder_1_1_config.html#a440874e6d8a016eb3d58ca218c0e6884">Acts::PassiveLayerBuilder::Config</a></li>
@@ -150,10 +151,9 @@ $(function(){initNavTree('functions_vars_l.html','',''); });
 <li>layers&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#ab6955f021c02a5f22d16f74d82fee170">Acts::CuboidVolumeBuilder::VolumeConfig</a>, <a class="el" href="struct_acts_1_1_volume_config.html#a6ca56f36b694350e316eb7a8523cce17">Acts::VolumeConfig</a></li>
 <li>layerSplitToleranceR&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a8b847d96d94061c91562c23acf060c2c">ActsPlugins::TGeoLayerBuilder::Config</a></li>
 <li>layerSplitToleranceZ&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a50d0e118ace653a9a0542f0760386d3c">ActsPlugins::TGeoLayerBuilder::Config</a></li>
-<li>layerType&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume_1_1_internal_structure.html#ae03ec1cb9b71f300782a20d6e2ba95be">Acts::ProtoVolume::InternalStructure</a>, <a class="el" href="struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579">Acts::SurfaceArrayNavigationPolicy::Config</a></li>
+<li>layerType&#160;:&#160;<a class="el" href="struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579">Acts::SurfaceArrayNavigationPolicy::Config</a></li>
 <li>layerZMax&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html#a996563c2490bfda561f628188c535bae">ActsPlugins::HashingAlgorithmConfig</a></li>
 <li>layerZMin&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html#a445386c4a92ed55d6a6a89276b553231">ActsPlugins::HashingAlgorithmConfig</a></li>
-<li>leafSize&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#adfe5611fdb298091fa3eb6c1ee841423">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions</a></li>
 <li>length&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a84bcca381c085fabe341b25b0e857435">Acts::CuboidVolumeBuilder::Config</a>, <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aaedfa42634aec6086960a258040526ca">Acts::CuboidVolumeBuilder::VolumeConfig</a>, <a class="el" href="struct_acts_1_1_solenoid_b_field_1_1_config.html#a7f0c7de7c33d097b0f1e8822fd711ad4">Acts::SolenoidBField::Config</a></li>
 <li>limit&#160;:&#160;<a class="el" href="struct_acts_1_1_space_point_parameters.html#a41e8406769242e2f9feaa7ca27b1987f">Acts::SpacePointParameters</a></li>
 <li>limitExtended&#160;:&#160;<a class="el" href="struct_acts_1_1_space_point_parameters.html#ad684b94102aec1b311657e7f76e3c487">Acts::SpacePointParameters</a></li>

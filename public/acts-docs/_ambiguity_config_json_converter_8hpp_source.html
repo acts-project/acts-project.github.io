@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -141,9 +143,8 @@ $(function(){initNavTree('_ambiguity_config_json_converter_8hpp_source.html','',
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76">   29</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76">ConfigPair</a> =</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    std::pair&lt;std::map&lt;std::size_t, std::size_t&gt;, std::vector&lt;DetectorConfig&gt;&gt;;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="group__json__plugin.html#ga7eae7997e8fa26d213da0e8fa7129515">   34</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__json__plugin.html#gac7844f9f2860fbc63cfe807871dd609e">from_json</a>(<span class="keyword">const</span> nlohmann::json&amp; j, <a class="code hl_typedef" href="group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76">ConfigPair</a>&amp; p);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="agroup__json__plugin_html_ga9d088dc485a7212cbc281898214d46a1"><div class="ttname"><a href="group__json__plugin.html#ga9d088dc485a7212cbc281898214d46a1">Acts::DetectorConfig</a></div><div class="ttdeci">ScoreBasedAmbiguityResolution::DetectorConfig DetectorConfig</div><div class="ttdoc">Type alias for detector-specific ambiguity resolution configuration.</div><div class="ttdef"><b>Definition</b> AmbiguityConfigJsonConverter.hpp:26</div></div>
 <div class="ttc" id="agroup__json__plugin_html_gac7844f9f2860fbc63cfe807871dd609e"><div class="ttname"><a href="group__json__plugin.html#gac7844f9f2860fbc63cfe807871dd609e">Acts::from_json</a></div><div class="ttdeci">void from_json(const nlohmann::json &amp;j, Transform3 &amp;t)</div><div class="ttdoc">Convert JSON to Transform3.</div></div>
 <div class="ttc" id="agroup__json__plugin_html_gad038e458629a5cedf1f825940ffc5f76"><div class="ttname"><a href="group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76">Acts::ConfigPair</a></div><div class="ttdeci">std::pair&lt; std::map&lt; std::size_t, std::size_t &gt;, std::vector&lt; DetectorConfig &gt; &gt; ConfigPair</div><div class="ttdoc">Type alias for a pair of detector configuration and ambiguity resolution configuration.</div><div class="ttdef"><b>Definition</b> AmbiguityConfigJsonConverter.hpp:29</div></div>

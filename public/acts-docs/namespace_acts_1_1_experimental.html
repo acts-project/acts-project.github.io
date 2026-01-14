@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -203,14 +205,7 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a74b7e08e14a6c61e421cf260e360ef6c" id="r_a74b7e08e14a6c61e421cf260e360ef6c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74b7e08e14a6c61e421cf260e360ef6c">DetectorBlock</a> = std::tuple&lt;<a class="el" href="#a0ee0e183d86b88d9add4251ffabedef5">DetectorVolumes</a>, <a class="el" href="#af8b7a9e981322ce5363e093be4e43a85">ProtoContainer</a>&gt;</td></tr>
-<tr class="memdesc:a74b7e08e14a6c61e421cf260e360ef6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current block (volumes and shell).  <br /></td></tr>
-<tr class="memitem:ac6085f07900ec9d505758586713398de" id="r_ac6085f07900ec9d505758586713398de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6085f07900ec9d505758586713398de">DetectorBlockBuilder</a></td></tr>
-<tr class="memdesc:ac6085f07900ec9d505758586713398de"><td class="mdescLeft">&#160;</td><td class="mdescRight">The detector builder function.  <br /></td></tr>
-<tr class="memitem:a0ee0e183d86b88d9add4251ffabedef5" id="r_a0ee0e183d86b88d9add4251ffabedef5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee0e183d86b88d9add4251ffabedef5">DetectorVolumes</a> = std::vector&lt;std::shared_ptr&lt;DetectorVolume&gt;&gt;</td></tr>
-<tr class="memdesc:a0ee0e183d86b88d9add4251ffabedef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current volumes (connected).  <br /></td></tr>
-<tr class="memitem:af8b7a9e981322ce5363e093be4e43a85" id="r_af8b7a9e981322ce5363e093be4e43a85"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b7a9e981322ce5363e093be4e43a85">ProtoContainer</a> = std::map&lt;unsigned int, std::shared_ptr&lt;<a class="el" href="class_acts_1_1_portal.html">Portal</a>&gt;&gt;</td></tr>
-<tr class="memdesc:af8b7a9e981322ce5363e093be4e43a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current shell (i.e. outside portals).  <br /></td></tr>
+<tr class="memitem:af4db2a08d6b55738ef2332c60713ac84" id="r_af4db2a08d6b55738ef2332c60713ac84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> = std::vector&lt;std::array&lt;float, 5&gt;&gt;</td></tr>
 <tr class="memitem:a5e17d045983c8d4deba2ca194a7d5336" id="r_a5e17d045983c8d4deba2ca194a7d5336"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e17d045983c8d4deba2ca194a7d5336">SPContainerComponentsType</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -274,72 +269,17 @@ Functions</h2></td></tr>
 <div class="textblock"><p>Contains code that is not considered stable yet and might change. </p>
 <p>Longer desc </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a74b7e08e14a6c61e421cf260e360ef6c" name="a74b7e08e14a6c61e421cf260e360ef6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74b7e08e14a6c61e421cf260e360ef6c">&#9670;&#160;</a></span>DetectorBlock</h2>
+<a id="af4db2a08d6b55738ef2332c60713ac84" name="af4db2a08d6b55738ef2332c60713ac84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4db2a08d6b55738ef2332c60713ac84">&#9670;&#160;</a></span>GbtsMLLookupTable</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a74b7e08e14a6c61e421cf260e360ef6c">Acts::Experimental::DetectorBlock</a> = std::tuple&lt;<a class="el" href="#a0ee0e183d86b88d9add4251ffabedef5">DetectorVolumes</a>, <a class="el" href="#af8b7a9e981322ce5363e093be4e43a85">ProtoContainer</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#af4db2a08d6b55738ef2332c60713ac84">Acts::Experimental::GbtsMLLookupTable</a> = std::vector&lt;std::array&lt;float, 5&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Current block (volumes and shell). </p>
-
-</div>
-</div>
-<a id="ac6085f07900ec9d505758586713398de" name="ac6085f07900ec9d505758586713398de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6085f07900ec9d505758586713398de">&#9670;&#160;</a></span>DetectorBlockBuilder</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ac6085f07900ec9d505758586713398de">Acts::Experimental::DetectorBlockBuilder</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> std::function&lt;void(</div>
-<div class="line">    <a class="code hl_typedef" href="#a74b7e08e14a6c61e421cf260e360ef6c">DetectorBlock</a>&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <a class="code hl_enumeration" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Acts::Logging::Level</a>)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:29</div></div>
-<div class="ttc" id="agroup__logging_html_ga9b12dd924a4bd3aed921a33779ece95b"><div class="ttname"><a href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Acts::Logging::Level</a></div><div class="ttdeci">Level</div><div class="ttdoc">constants steering the debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:156</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_html_a74b7e08e14a6c61e421cf260e360ef6c"><div class="ttname"><a href="#a74b7e08e14a6c61e421cf260e360ef6c">Acts::Experimental::DetectorBlock</a></div><div class="ttdeci">std::tuple&lt; DetectorVolumes, ProtoContainer &gt; DetectorBlock</div><div class="ttdoc">Current block (volumes and shell).</div><div class="ttdef"><b>Definition</b> ProtoDetector.hpp:40</div></div>
-</div><!-- fragment -->
-<p>The detector builder function. </p>
-
-</div>
-</div>
-<a id="a0ee0e183d86b88d9add4251ffabedef5" name="a0ee0e183d86b88d9add4251ffabedef5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ee0e183d86b88d9add4251ffabedef5">&#9670;&#160;</a></span>DetectorVolumes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a0ee0e183d86b88d9add4251ffabedef5">Acts::Experimental::DetectorVolumes</a> = std::vector&lt;std::shared_ptr&lt;DetectorVolume&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Current volumes (connected). </p>
-
-</div>
-</div>
-<a id="af8b7a9e981322ce5363e093be4e43a85" name="af8b7a9e981322ce5363e093be4e43a85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8b7a9e981322ce5363e093be4e43a85">&#9670;&#160;</a></span>ProtoContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#af8b7a9e981322ce5363e093be4e43a85">Acts::Experimental::ProtoContainer</a> = std::map&lt;unsigned int, std::shared_ptr&lt;<a class="el" href="class_acts_1_1_portal.html">Portal</a>&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Current shell (i.e. outside portals). </p>
 
 </div>
 </div>

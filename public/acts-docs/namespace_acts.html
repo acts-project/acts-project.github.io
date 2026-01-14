@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -218,6 +220,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-safe view into a grid with mutable access.  <a href="class_acts_1_1_any_grid_view.html#details">More...</a><br /></td></tr>
 <tr class="memitem:AnySurfaceReached" id="r_AnySurfaceReached"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_any_surface_reached.html">AnySurfaceReached</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aborter that checks if the propagation has reached any surface.  <a href="struct_acts_1_1_any_surface_reached.html#details">More...</a><br /></td></tr>
+<tr class="memitem:AnyTrack" id="r_AnyTrack"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_track.html">AnyTrack</a></td></tr>
+<tr class="memitem:AnyTrackProxy" id="r_AnyTrackProxy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_track_proxy.html">AnyTrackProxy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased track object This class provides a type-erased interface to track proxies without requiring heap allocation per instance.  <a href="class_acts_1_1_any_track_proxy.html#details">More...</a><br /></td></tr>
+<tr class="memitem:AnyTrackStateProxy" id="r_AnyTrackStateProxy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a></td></tr>
 <tr class="memitem:AppendOnlyNavigationStream" id="r_AppendOnlyNavigationStream"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a></td></tr>
 <tr class="memitem:ApproachDescriptor" id="r_ApproachDescriptor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_approach_descriptor.html">ApproachDescriptor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual base class to decide and return which approaching surface to be taken, the surfaces are std::shared_ptr, as they can be the boundary surfaces of the representingVolume of the Layer.  <a href="class_acts_1_1_approach_descriptor.html#details">More...</a><br /></td></tr>
@@ -287,7 +293,7 @@ Classes</h2></td></tr>
 <tr class="memitem:ConeBounds" id="r_ConeBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cone_bounds.html">ConeBounds</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounds for a conical surface, the opening angle is stored in \( \tan(\alpha) \) and always positively defined.  <a href="class_acts_1_1_cone_bounds.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ConeLayer" id="r_ConeLayer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cone_layer.html">ConeLayer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a conical detector layer for tracking, it inhertis from both, Layer base class and ConeSurface class.  <a href="class_acts_1_1_cone_layer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ConeSurface class.  <a href="class_acts_1_1_cone_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ConeSurface" id="r_ConeSurface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cone_surface.html">ConeSurface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for a conical surface in the Tracking geometry.  <a href="class_acts_1_1_cone_surface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ConeVolumeBounds" id="r_ConeVolumeBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cone_volume_bounds.html">ConeVolumeBounds</a></td></tr>
@@ -323,7 +329,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class which implements a cutout cylinder.  <a href="class_acts_1_1_cutout_cylinder_volume_bounds.html#details">More...</a><br /></td></tr>
 <tr class="memitem:CylinderBounds" id="r_CylinderBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cylinder_bounds.html">CylinderBounds</a></td></tr>
 <tr class="memitem:CylinderLayer" id="r_CylinderLayer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cylinder_layer.html">CylinderLayer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a cylindrical detector layer for tracking, it inhertis from both, Layer base class and CylinderSurface class.  <a href="class_acts_1_1_cylinder_layer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a cylindrical detector layer for tracking, it inherits from both, Layer base class and CylinderSurface class.  <a href="class_acts_1_1_cylinder_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:CylinderNavigationPolicy" id="r_CylinderNavigationPolicy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cylinder_navigation_policy.html">CylinderNavigationPolicy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimized navigation policy for cylindrical volumes that intelligently selects which portals to add as candidates based on geometric analysis.  <a href="class_acts_1_1_cylinder_navigation_policy.html#details">More...</a><br /></td></tr>
 <tr class="memitem:CylinderPortalShell" id="r_CylinderPortalShell"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cylinder_portal_shell.html">CylinderPortalShell</a></td></tr>
@@ -363,7 +369,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fully guided navigator.  <a href="class_acts_1_1_direct_navigator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DiscBounds" id="r_DiscBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_disc_bounds.html">DiscBounds</a></td></tr>
 <tr class="memitem:DiscLayer" id="r_DiscLayer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_disc_layer.html">DiscLayer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a disc-like detector layer for tracking, it inhertis from both, Layer base class and DiscSurface class.  <a href="class_acts_1_1_disc_layer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a disc-like detector layer for tracking, it inherits from both, Layer base class and DiscSurface class.  <a href="class_acts_1_1_disc_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DiscSurface" id="r_DiscSurface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_disc_surface.html">DiscSurface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for a disc surface (or a segment thereof).  <a href="class_acts_1_1_disc_surface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DiscTrapezoidBounds" id="r_DiscTrapezoidBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_disc_trapezoid_bounds.html">DiscTrapezoidBounds</a></td></tr>
@@ -550,8 +556,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class of all surface-based material description.  <a href="class_acts_1_1_i_surface_material.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ISurfaceMaterialAccumulater" id="r_ISurfaceMaterialAccumulater"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_surface_material_accumulater.html">ISurfaceMaterialAccumulater</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for the material mapping, this is the accumulation step.  <a href="class_acts_1_1_i_surface_material_accumulater.html#details">More...</a><br /></td></tr>
-<tr class="memitem:ISurfacesProvider" id="r_ISurfacesProvider"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_surfaces_provider.html">ISurfacesProvider</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the interface for providing surfaces to the detector building process.  <a href="class_acts_1_1_i_surfaces_provider.html#details">More...</a><br /></td></tr>
 <tr class="memitem:IterativeVertexFinder" id="r_IterativeVertexFinder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_iterative_vertex_finder.html">IterativeVertexFinder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements an iterative vertex finder.  <a href="class_acts_1_1_iterative_vertex_finder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ITrackingGeometryBuilder" id="r_ITrackingGeometryBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_tracking_geometry_builder.html">ITrackingGeometryBuilder</a></td></tr>
@@ -593,12 +597,8 @@ Classes</h2></td></tr>
 <tr class="memitem:KalmanFitterResult" id="r_KalmanFitterResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_kalman_fitter_result.html">KalmanFitterResult</a></td></tr>
 <tr class="memitem:KDTree" id="r_KDTree"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_k_d_tree.html">KDTree</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A general k-d tree with fast range search.  <a href="class_acts_1_1_k_d_tree.html#details">More...</a><br /></td></tr>
-<tr class="memitem:KDTreeTrackingGeometryBuilder" id="r_KDTreeTrackingGeometryBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_k_d_tree_tracking_geometry_builder.html">KDTreeTrackingGeometryBuilder</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Tracking Geometry builder restricted to cylindrical geometries.  <a href="class_acts_1_1_k_d_tree_tracking_geometry_builder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:KdtSurfaces" id="r_KdtSurfaces"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_kdt_surfaces.html">KdtSurfaces</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper class around a KDTree of surfaces.  <a href="class_acts_1_1_kdt_surfaces.html#details">More...</a><br /></td></tr>
-<tr class="memitem:KdtSurfacesProvider" id="r_KdtSurfacesProvider"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_kdt_surfaces_provider.html">KdtSurfacesProvider</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callable struct wrapper around the KDT surface structure.  <a href="class_acts_1_1_kdt_surfaces_provider.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Layer" id="r_Layer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_layer.html">Layer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base Class for a Detector Layer in the Tracking Geometry.  <a href="class_acts_1_1_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LayerArrayCreator" id="r_LayerArrayCreator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_layer_array_creator.html">LayerArrayCreator</a></td></tr>
@@ -722,7 +722,7 @@ Classes</h2></td></tr>
 <tr class="memitem:PlanarBounds" id="r_PlanarBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_planar_bounds.html">PlanarBounds</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">common base class for all bounds that are in a local x/y cartesian frame  <a href="class_acts_1_1_planar_bounds.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PlaneLayer" id="r_PlaneLayer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_plane_layer.html">PlaneLayer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a planar detector layer for tracking, it inhertis from both, Layer base class and PlaneSurface class.  <a href="class_acts_1_1_plane_layer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and PlaneSurface class.  <a href="class_acts_1_1_plane_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PlaneSurface" id="r_PlaneSurface"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_plane_surface.html">PlaneSurface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for a planaer in the TrackingGeometry.  <a href="class_acts_1_1_plane_surface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PlyVisualization3D" id="r_PlyVisualization3D"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_ply_visualization3_d.html">PlyVisualization3D</a></td></tr>
@@ -759,16 +759,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to hold statistics of the propagator.  <a href="struct_acts_1_1_propagator_statistics.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProtoAxis" id="r_ProtoAxis"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is a pure run-time placeholder for the axis definition.  <a href="class_acts_1_1_proto_axis.html#details">More...</a><br /></td></tr>
-<tr class="memitem:ProtoDetector" id="r_ProtoDetector"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_proto_detector.html">ProtoDetector</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A proto detector description being used to define an overall structure of either a TrackingGeometry or Experimental::Detector.  <a href="struct_acts_1_1_proto_detector.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProtoLayer" id="r_ProtoLayer"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward-declaration friendly class for backward compatibility This class does not allow modification of the underlying surfaces.  <a href="struct_acts_1_1_proto_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProtoLayerHelper" id="r_ProtoLayerHelper"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_proto_layer_helper.html">ProtoLayerHelper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is designed to parse a vector of Surfaces and sort them into corresponding proto layers.  <a href="class_acts_1_1_proto_layer_helper.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProtoSurfaceMaterialT" id="r_ProtoSurfaceMaterialT"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">proxy to SurfaceMaterial hand over BinUtility or other suitable binning description  <a href="class_acts_1_1_proto_surface_material_t.html#details">More...</a><br /></td></tr>
-<tr class="memitem:ProtoVolume" id="r_ProtoVolume"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_proto_volume.html">ProtoVolume</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A proto volume description being used to define an overall structure of either a TrackingVolume or Experimental::DetectorVolume.  <a href="struct_acts_1_1_proto_volume.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProtoVolumeMaterial" id="r_ProtoVolumeMaterial"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_proto_volume_material.html">ProtoVolumeMaterial</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">proxy to VolumeMaterial hand over BinUtility  <a href="class_acts_1_1_proto_volume_material.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProxyAccessorBase" id="r_ProxyAccessorBase"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_proxy_accessor_base.html">ProxyAccessorBase</a></td></tr>
@@ -833,7 +829,6 @@ Classes</h2></td></tr>
 <tr class="memitem:SolenoidBField" id="r_SolenoidBField"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_solenoid_b_field.html">SolenoidBField</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analytical solenoid magnetic field implementation.  <a href="class_acts_1_1_solenoid_b_field.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SourceLink" id="r_SourceLink"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_source_link.html">SourceLink</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source linik is a thing.  <a href="class_acts_1_1_source_link.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SourceLinkAdapterIterator" id="r_SourceLinkAdapterIterator"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_source_link_adapter_iterator.html">SourceLinkAdapterIterator</a></td></tr>
 <tr class="memitem:SpacePointBuilder" id="r_SpacePointBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_space_point_builder.html">SpacePointBuilder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the particle interaction with surfaces are recorded and digitized measurements on the pixel or strip detectors need further treatment.  <a href="class_acts_1_1_space_point_builder.html#details">More...</a><br /></td></tr>
@@ -916,12 +911,16 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to accumulate and average track lookup tables.  <a href="class_acts_1_1_track_params_lookup_accumulator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackProxy" id="r_TrackProxy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_proxy.html">TrackProxy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy class representing a single track.  <a href="class_acts_1_1_track_proxy.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TrackProxyCommon" id="r_TrackProxyCommon"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_proxy_common.html">TrackProxyCommon</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common CRTP implementation shared by the various track proxy front-ends.  <a href="class_acts_1_1_track_proxy_common.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackSelector" id="r_TrackSelector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_selector.html">TrackSelector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class which performs filtering of tracks.  <a href="class_acts_1_1_track_selector.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackStateCreator" id="r_TrackStateCreator"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_track_state_creator.html">TrackStateCreator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create track states for selected measurements associated to a surface.  <a href="struct_acts_1_1_track_state_creator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackStateProxy" id="r_TrackStateProxy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy.html">TrackStateProxy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy object to access a single point on the trajectory.  <a href="class_acts_1_1_track_state_proxy.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TrackStateProxyCommon" id="r_TrackStateProxyCommon"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html">TrackStateProxyCommon</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common CRTP implementation shared by track state proxy front-ends.  <a href="class_acts_1_1_track_state_proxy_common.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackStateTraits" id="r_TrackStateTraits"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a></td></tr>
 <tr class="memitem:TrackStateType" id="r_TrackStateType"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_type.html">TrackStateType</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">View type over a bitset stored in a 64 bit integer This view allows modifications.  <a href="class_acts_1_1_track_state_type.html#details">More...</a><br /></td></tr>
@@ -1077,6 +1076,12 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:gad51b61e2bb0e1f7a1a6216925133f0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation defined by an angle around a rotation axis in 3D.  <br /></td></tr>
 <tr class="memitem:gae6e6d5aeac9e4cb922c12f41d1f5529e" id="r_gae6e6d5aeac9e4cb922c12f41d1f5529e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__utilities.html#gae6e6d5aeac9e4cb922c12f41d1f5529e">Any</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*)&gt;</td></tr>
 <tr class="memdesc:gae6e6d5aeac9e4cb922c12f41d1f5529e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type-safe container for single values of any type.  <br /></td></tr>
+<tr class="memitem:a2db5437c93715c880d91e795ea966d15" id="r_a2db5437c93715c880d91e795ea966d15"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2db5437c93715c880d91e795ea966d15">AnyConstTrackProxy</a> = <a class="el" href="class_acts_1_1_any_track_proxy.html">AnyTrackProxy</a>&lt;true&gt;</td></tr>
+<tr class="memdesc:a2db5437c93715c880d91e795ea966d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for read-only type-erased track.  <br /></td></tr>
+<tr class="memitem:a58d7c5f9e29f5f51ece398952f4a2a6a" id="r_a58d7c5f9e29f5f51ece398952f4a2a6a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> = <a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a>&lt;true&gt;</td></tr>
+<tr class="memitem:a8d88b3de1937df196eae6628781ac437" id="r_a8d88b3de1937df196eae6628781ac437"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d88b3de1937df196eae6628781ac437">AnyMutableTrackProxy</a> = <a class="el" href="class_acts_1_1_any_track_proxy.html">AnyTrackProxy</a>&lt;false&gt;</td></tr>
+<tr class="memdesc:a8d88b3de1937df196eae6628781ac437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for mutable type-erased track (though currently all operations are const).  <br /></td></tr>
+<tr class="memitem:af82438c3ab8cfa7c43a00e2a821fa1bb" id="r_af82438c3ab8cfa7c43a00e2a821fa1bb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a> = <a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a>&lt;false&gt;</td></tr>
 <tr class="memitem:af1f471897e11492ff0b12b6ff089225d" id="r_af1f471897e11492ff0b12b6ff089225d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f471897e11492ff0b12b6ff089225d">AxisScalar</a> = Vector3::Scalar</td></tr>
 <tr class="memdesc:af1f471897e11492ff0b12b6ff089225d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scalar type used for axis values in surface array binning.  <br /></td></tr>
 <tr class="memitem:a109a2348a2960bbf7f66f07d2da7dd8b" id="r_a109a2348a2960bbf7f66f07d2da7dd8b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a109a2348a2960bbf7f66f07d2da7dd8b">BoundarySurface</a> = <a class="el" href="class_acts_1_1_boundary_surface_t.html">BoundarySurfaceT</a>&lt;<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>&gt;</td></tr>
@@ -1508,14 +1513,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465">KalmanFitterError::NoMeasurementFound</a>
 , <br />
 &#160;&#160;<a class="el" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9">KalmanFitterError::ReversePropagationFailed</a>
+, <a class="el" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971">KalmanFitterError::InconsistentTrackStates</a>
 <br />
  }</td></tr>
 <tr class="memdesc:gac3f65a46059b0f9516370f5bdcb9bddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for Kalman filter operations.  <a href="group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd">More...</a><br /></td></tr>
-<tr class="memitem:ga5d2737be513e48e005e5f1b9566fb459" id="r_ga5d2737be513e48e005e5f1b9566fb459"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga5d2737be513e48e005e5f1b9566fb459">KalmanFitterTargetSurfaceStrategy</a> { <a class="el" href="group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a8b04d5e3775d298e78455efc5ca404d5">KalmanFitterTargetSurfaceStrategy::first</a>
-, <a class="el" href="group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51">KalmanFitterTargetSurfaceStrategy::last</a>
-, <a class="el" href="group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018">KalmanFitterTargetSurfaceStrategy::firstOrLast</a>
- }</td></tr>
-<tr class="memdesc:ga5d2737be513e48e005e5f1b9566fb459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strategy for selecting track states when reaching target surface in Kalman filter.  <a href="group__track__fitting.html#ga5d2737be513e48e005e5f1b9566fb459">More...</a><br /></td></tr>
 <tr class="memitem:ab59015c67d930641de6f1bb7e31e2873" id="r_ab59015c67d930641de6f1bb7e31e2873"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab59015c67d930641de6f1bb7e31e2873">LayerType</a> { <a class="el" href="#ab59015c67d930641de6f1bb7e31e2873a7eee8a5290452963e3934c132a800094">navigation</a> = -1
 , <a class="el" href="#ab59015c67d930641de6f1bb7e31e2873a75938f0b93068f7d9012f32aff225069">passive</a> = 0
 , <a class="el" href="#ab59015c67d930641de6f1bb7e31e2873aff33a3aaf8fc2bb1ae64bf505338a843">active</a> = 1
@@ -1856,7 +1857,7 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:a7969e3bd01832c6be8de5ef2c3e070ef" id="r_a7969e3bd01832c6be8de5ef2c3e070ef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:a7969e3bd01832c6be8de5ef2c3e070ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the mean energy loss due to ionisation and excitation.  <br /></td></tr>
 <tr class="memitem:aeb22670d2e2303ba2854c2169aa08608" id="r_aeb22670d2e2303ba2854c2169aa08608"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb22670d2e2303ba2854c2169aa08608">computeEnergyLossLandau</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
-<tr class="memdesc:aeb22670d2e2303ba2854c2169aa08608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the most propable energy loss due to ionisation and excitation.  <br /></td></tr>
+<tr class="memdesc:aeb22670d2e2303ba2854c2169aa08608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the most probable energy loss due to ionisation and excitation.  <br /></td></tr>
 <tr class="memitem:aad4db30b6dc42d8043e312d4936ced86" id="r_aad4db30b6dc42d8043e312d4936ced86"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4db30b6dc42d8043e312d4936ced86">computeEnergyLossLandauFwhm</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:aad4db30b6dc42d8043e312d4936ced86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the full with half maximum of landau energy loss distribution.  <br /></td></tr>
 <tr class="memitem:a5e47e30202dec06addb9c315a0b7d674" id="r_a5e47e30202dec06addb9c315a0b7d674"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e47e30202dec06addb9c315a0b7d674">computeEnergyLossLandauSigma</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
@@ -2400,7 +2401,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:ad651c70eef2af54126bd856e558b80ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience typedefs for AxisBoundaryTypeTag Constant for open boundary type axis.  <br /></td></tr>
 <tr class="memitem:a5126c57045207c4b5f7e5a88b02e8ed1" id="r_a5126c57045207c4b5f7e5a88b02e8ed1"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#a1b6c456f1650d94a2549251f1306dde4">BoundSubspaceIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5126c57045207c4b5f7e5a88b02e8ed1">kBoundSubspaceIndicesInvalid</a></td></tr>
 <tr class="memdesc:a5126c57045207c4b5f7e5a88b02e8ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">type alias for indices of bound track parameters subspace  <br /></td></tr>
+<tr class="memitem:a1c422bbaca4aaec733b49b97645ea1b4" id="r_a1c422bbaca4aaec733b49b97645ea1b4"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c422bbaca4aaec733b49b97645ea1b4">kMeasurementSizeMax</a> = <a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a></td></tr>
+<tr class="memdesc:a1c422bbaca4aaec733b49b97645ea1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size of measurement dimension supported.  <br /></td></tr>
 <tr class="memitem:a589e3f01b082df3de46c2a6f5e6ce749" id="r_a589e3f01b082df3de46c2a6f5e6ce749"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
+<tr class="memdesc:a589e3f01b082df3de46c2a6f5e6ce749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value for an invalid / unset track EDM related index.  <br /></td></tr>
 <tr class="memitem:aff077588e6b9207d49c53b1556be3a23" id="r_aff077588e6b9207d49c53b1556be3a23"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff077588e6b9207d49c53b1556be3a23">NoTime</a> = std::numeric_limits&lt;float&gt;::quiet_NaN()</td></tr>
 <tr class="memitem:a526e32fbccfb7d636cadc94909fa448d" id="r_a526e32fbccfb7d636cadc94909fa448d"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a526e32fbccfb7d636cadc94909fa448d">PolygonDynamic</a> = -1</td></tr>
 <tr class="memdesc:a526e32fbccfb7d636cadc94909fa448d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag to trigger specialization of a dynamic polygon.  <br /></td></tr>
@@ -2541,6 +2545,66 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Vector type for alignment parameters. </p>
+
+</div>
+</div>
+<a id="a2db5437c93715c880d91e795ea966d15" name="a2db5437c93715c880d91e795ea966d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db5437c93715c880d91e795ea966d15">&#9670;&#160;</a></span>AnyConstTrackProxy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a2db5437c93715c880d91e795ea966d15">Acts::AnyConstTrackProxy</a> = <a class="el" href="class_acts_1_1_any_track_proxy.html">AnyTrackProxy</a>&lt;true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alias for read-only type-erased track. </p>
+
+</div>
+</div>
+<a id="a58d7c5f9e29f5f51ece398952f4a2a6a" name="a58d7c5f9e29f5f51ece398952f4a2a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d7c5f9e29f5f51ece398952f4a2a6a">&#9670;&#160;</a></span>AnyConstTrackStateProxy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a> = <a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a>&lt;true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d88b3de1937df196eae6628781ac437" name="a8d88b3de1937df196eae6628781ac437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d88b3de1937df196eae6628781ac437">&#9670;&#160;</a></span>AnyMutableTrackProxy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a8d88b3de1937df196eae6628781ac437">Acts::AnyMutableTrackProxy</a> = <a class="el" href="class_acts_1_1_any_track_proxy.html">AnyTrackProxy</a>&lt;false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alias for mutable type-erased track (though currently all operations are const). </p>
+
+</div>
+</div>
+<a id="af82438c3ab8cfa7c43a00e2a821fa1bb" name="af82438c3ab8cfa7c43a00e2a821fa1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af82438c3ab8cfa7c43a00e2a821fa1bb">&#9670;&#160;</a></span>AnyMutableTrackStateProxy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#af82438c3ab8cfa7c43a00e2a821fa1bb">Acts::AnyMutableTrackStateProxy</a> = <a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a>&lt;false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3218,7 +3282,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_multi_stepper_loop.html">MultiStepperLoop&lt;EigenStepper&lt;extension_t&gt;</a>, reducer_t&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:139</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:137</div></div>
 </div><!-- fragment -->
 <p>Stepper based on the EigenStepper, but handles Multi-Component Tracks (e.g., for the GSF). </p>
 <p>Internally, this only manages a vector of EigenStepper::States. This simplifies implementation, but has several drawbacks:</p><ul>
@@ -3452,7 +3516,7 @@ template&lt;typename T&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    std::function&lt;std::pair&lt;const BoundVector, const BoundSquareMatrix&gt;(</div>
 <div class="line">        <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_source_link.html">SourceLink</a>&amp;)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Source linik is a thing.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
 </div><!-- fragment -->
 <p>Type alias for accessing parameter covariance matrices. </p>
 <p>Function type for retrieving covariance matrices from measurement parameters </p>
@@ -6594,7 +6658,7 @@ template&lt;typename T, typename U&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Compute the most propable energy loss due to ionisation and excitation. </p>
+<p>Compute the most probable energy loss due to ionisation and excitation. </p>
 <p>Compute the mean energy loss due to ionisation and excitation.   </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -13227,6 +13291,30 @@ template&lt;typename... R&gt; </div>
 
 </div>
 </div>
+<a id="a1c422bbaca4aaec733b49b97645ea1b4" name="a1c422bbaca4aaec733b49b97645ea1b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c422bbaca4aaec733b49b97645ea1b4">&#9670;&#160;</a></span>kMeasurementSizeMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Acts::kMeasurementSizeMax = <a class="el" href="#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum size of measurement dimension supported. </p>
+
+</div>
+</div>
 <a id="a589e3f01b082df3de46c2a6f5e6ce749" name="a589e3f01b082df3de46c2a6f5e6ce749"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a589e3f01b082df3de46c2a6f5e6ce749">&#9670;&#160;</a></span>kTrackIndexInvalid</h2>
 
@@ -13249,6 +13337,8 @@ template&lt;typename... R&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">    std::numeric_limits&lt;TrackIndexType&gt;::max()</div>
 </div><!-- fragment -->
+<p>Sentinel value for an invalid / unset track EDM related index. </p>
+
 </div>
 </div>
 <a id="aff077588e6b9207d49c53b1556be3a23" name="aff077588e6b9207d49c53b1556be3a23"></a>

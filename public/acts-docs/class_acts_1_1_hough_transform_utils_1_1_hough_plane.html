@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -147,14 +149,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a459a47423158909b80e239a10c7f642e" id="r_a459a47423158909b80e239a10c7f642e"><td class="memTemplParams" colspan="2">template&lt;class PointType&gt; </td></tr>
 <tr class="memitem:a459a47423158909b80e239a10c7f642e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a459a47423158909b80e239a10c7f642e">fill</a> (const PointType &amp;measurement, const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html">HoughAxisRanges</a> &amp;axisRanges, <a class="el" href="namespace_acts_1_1_hough_transform_utils.html#a4f7450bd0946cfffbce6490e13ca2882">LineParametrisation</a>&lt; PointType &gt; linePar, <a class="el" href="namespace_acts_1_1_hough_transform_utils.html#a4f7450bd0946cfffbce6490e13ca2882">LineParametrisation</a>&lt; PointType &gt; widthPar, const identifier_t &amp;identifier, unsigned layer=0, <a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> weight=1.0f)</td></tr>
 <tr class="memdesc:a459a47423158909b80e239a10c7f642e"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill and reset methods to modify the grid content  <br /></td></tr>
+<tr class="memitem:a4ee69a51ec878918953309aa78abd169" id="r_a4ee69a51ec878918953309aa78abd169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee69a51ec878918953309aa78abd169">fillBin</a> (std::size_t binX, std::size_t binY, const identifier_t &amp;identifier, unsigned layer, double w=1.0f)</td></tr>
+<tr class="memdesc:a4ee69a51ec878918953309aa78abd169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to fill a bin of the hough histogram.  <br /></td></tr>
 <tr class="memitem:aac64b3abd0ec305152fc0c674ed5579b" id="r_aac64b3abd0ec305152fc0c674ed5579b"><td class="memItemLeft" align="right" valign="top">const std::unordered_set&lt; std::size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac64b3abd0ec305152fc0c674ed5579b">getNonEmptyBins</a> () const</td></tr>
 <tr class="memdesc:aac64b3abd0ec305152fc0c674ed5579b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the list of cells with non-zero content.  <br /></td></tr>
 <tr class="memitem:aa11a43e930d4716c639c29026df4ccd5" id="r_aa11a43e930d4716c639c29026df4ccd5"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa11a43e930d4716c639c29026df4ccd5">globalBin</a> (<a class="el" href="#af25422f9261bee175a1e2003ea9a30c9">Index</a> indexBin) const</td></tr>
 <tr class="memdesc:aa11a43e930d4716c639c29026df4ccd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the globalBin index given the coordinates of the bin  <br /></td></tr>
 <tr class="memitem:a2f2377f1d12274c7ed01b897083f7024" id="r_a2f2377f1d12274c7ed01b897083f7024"><td class="memItemLeft" align="right" valign="top">std::span&lt; const identifier_t, std::dynamic_extent &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2377f1d12274c7ed01b897083f7024">hitIds</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
 <tr class="memdesc:a2f2377f1d12274c7ed01b897083f7024"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the identifiers of all hits in one cell of the histogram  <br /></td></tr>
-<tr class="memitem:a8a839bc96885083f2658b45b6ff7ddbc" id="r_a8a839bc96885083f2658b45b6ff7ddbc"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; unsigned &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a839bc96885083f2658b45b6ff7ddbc">layers</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
-<tr class="memdesc:a8a839bc96885083f2658b45b6ff7ddbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the layers with hits in one cell of the histogram  <br /></td></tr>
+<tr class="memitem:a2464ace78753083a9a90d4f52f201dd8" id="r_a2464ace78753083a9a90d4f52f201dd8"><td class="memItemLeft" align="right" valign="top">std::span&lt; const unsigned, std::dynamic_extent &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2464ace78753083a9a90d4f52f201dd8">layers</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
+<tr class="memdesc:a2464ace78753083a9a90d4f52f201dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the layers with hits in one cell of the histogram  <br /></td></tr>
 <tr class="memitem:a904549a250f14e03df462a05b3c2e40f" id="r_a904549a250f14e03df462a05b3c2e40f"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::size_t, std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a904549a250f14e03df462a05b3c2e40f">locMaxHits</a> () const</td></tr>
 <tr class="memdesc:a904549a250f14e03df462a05b3c2e40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bin indices of the cell containing the largest number of (weighted) hits across the entire histogram  <br /></td></tr>
 <tr class="memitem:a583e96e8c7fb7295ab8a55dd58321dd9" id="r_a583e96e8c7fb7295ab8a55dd58321dd9"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::size_t, std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a583e96e8c7fb7295ab8a55dd58321dd9">locMaxLayers</a> () const</td></tr>
@@ -375,6 +379,56 @@ template&lt;class PointType&gt; </div>
 
 </div>
 </div>
+<a id="a4ee69a51ec878918953309aa78abd169" name="a4ee69a51ec878918953309aa78abd169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee69a51ec878918953309aa78abd169">&#9670;&#160;</a></span>fillBin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class identifier_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::fillBin </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>binX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>binY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const identifier_t &amp;</td>          <td class="paramname"><span class="paramname"><em>identifier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>layer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0f</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper method to fill a bin of the hough histogram. </p>
+<p>Updates the internal helper data structures (maximum tracker etc). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">binX</td><td>bin number along x </td></tr>
+    <tr><td class="paramname">binY</td><td>bin number along y </td></tr>
+    <tr><td class="paramname">identifier</td><td>hit identifier </td></tr>
+    <tr><td class="paramname">layer</td><td>layer index </td></tr>
+    <tr><td class="paramname">w</td><td>optional hit weight </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aac64b3abd0ec305152fc0c674ed5579b" name="aac64b3abd0ec305152fc0c674ed5579b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac64b3abd0ec305152fc0c674ed5579b">&#9670;&#160;</a></span>getNonEmptyBins()</h2>
 
@@ -455,11 +509,17 @@ template&lt;class identifier_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the list of identifiers of the hits for this cell Can include duplicates if a hit was filled more than once </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">out</td><td>of range if indices are not within plane limits </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a8a839bc96885083f2658b45b6ff7ddbc" name="a8a839bc96885083f2658b45b6ff7ddbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a839bc96885083f2658b45b6ff7ddbc">&#9670;&#160;</a></span>layers()</h2>
+<a id="a2464ace78753083a9a90d4f52f201dd8" name="a2464ace78753083a9a90d4f52f201dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2464ace78753083a9a90d4f52f201dd8">&#9670;&#160;</a></span>layers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -467,7 +527,7 @@ template&lt;class identifier_t&gt; </div>
 template&lt;class identifier_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_set&lt; unsigned &gt; <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::layers </td>
+          <td class="memname">std::span&lt; const unsigned, std::dynamic_extent &gt; <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::layers </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>xBin</em></span>, </td>
         </tr>
@@ -487,7 +547,13 @@ template&lt;class identifier_t&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the set of layer indices that have hits for this cell </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the layer indices that have hits for this cell </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">out</td><td>of range if indices are not within plane limits </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -681,6 +747,12 @@ template&lt;class identifier_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the (weighted) number of hits for this cell </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">out</td><td>of range if indices are not within plane limits </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -714,6 +786,12 @@ template&lt;class identifier_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the (weighed) number of layers that have hits for this cell </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">out</td><td>of range if indices are not within plane limits </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -769,6 +847,12 @@ template&lt;class identifier_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the list of identifiers of the hits for this cell Guaranteed to not duplicate identifiers </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">out</td><td>of range if indices are not within plane limits </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

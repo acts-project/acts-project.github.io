@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -128,12 +130,12 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_data_storage.html
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsDataStorage:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_experimental_1_1_gbts_data_storage__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_experimental_1_1_gbts_data_storage__coll__graph.svg" width="100%" height="511"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5adc6b9b3de9c7e5bcd3000e3a1b4f6f" id="r_a5adc6b9b3de9c7e5bcd3000e3a1b4f6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5adc6b9b3de9c7e5bcd3000e3a1b4f6f">GbtsDataStorage</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &amp;geometry, const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;config)</td></tr>
+<tr class="memitem:a7c3d227da484a22bcce8d3d7513e60e0" id="r_a7c3d227da484a22bcce8d3d7513e60e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c3d227da484a22bcce8d3d7513e60e0">GbtsDataStorage</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;config, const <a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> &amp;parseLutFile)</td></tr>
 <tr class="memitem:aa482b421d4635d8495ef3000278bfead" id="r_aa482b421d4635d8495ef3000278bfead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa482b421d4635d8495ef3000278bfead">~GbtsDataStorage</a> ()</td></tr>
 <tr class="memitem:a622464c4be70bc7873f129172b6b5347" id="r_a622464c4be70bc7873f129172b6b5347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622464c4be70bc7873f129172b6b5347">generatePhiIndexing</a> (float dphi)</td></tr>
 <tr class="memitem:adb0d63f4e0211cd7dec5b78ffc5e11ea" id="r_adb0d63f4e0211cd7dec5b78ffc5e11ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb0d63f4e0211cd7dec5b78ffc5e11ea">getEtaBin</a> (int idx)</td></tr>
@@ -145,14 +147,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a5a057fcbbd039fee0cd6481b7158ffe2" id="r_a5a057fcbbd039fee0cd6481b7158ffe2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a057fcbbd039fee0cd6481b7158ffe2">m_config</a></td></tr>
+<tr class="memitem:a372d7129b06dddf0a9e07418bce53bbd" id="r_a372d7129b06dddf0a9e07418bce53bbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a372d7129b06dddf0a9e07418bce53bbd">m_config</a></td></tr>
 <tr class="memitem:a65ae3a79eacb5ab933284f65cc576b2c" id="r_a65ae3a79eacb5ab933284f65cc576b2c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65ae3a79eacb5ab933284f65cc576b2c">m_etaBins</a></td></tr>
-<tr class="memitem:aa7a13005c6c1cf9569a497886e89e196" id="r_aa7a13005c6c1cf9569a497886e89e196"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7a13005c6c1cf9569a497886e89e196">m_geo</a></td></tr>
-<tr class="memitem:a189543ef8f4025b1fe7df71f53c993fd" id="r_a189543ef8f4025b1fe7df71f53c993fd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::array&lt; float, 5 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a189543ef8f4025b1fe7df71f53c993fd">m_mlLUT</a></td></tr>
+<tr class="memitem:a4b12b0cc1e037865f3377d17e03571c6" id="r_a4b12b0cc1e037865f3377d17e03571c6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b12b0cc1e037865f3377d17e03571c6">m_geo</a></td></tr>
+<tr class="memitem:a8fb3acfcb8bcc02a24e636eb69f54af2" id="r_a8fb3acfcb8bcc02a24e636eb69f54af2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb3acfcb8bcc02a24e636eb69f54af2">m_mlLUT</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5adc6b9b3de9c7e5bcd3000e3a1b4f6f" name="a5adc6b9b3de9c7e5bcd3000e3a1b4f6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5adc6b9b3de9c7e5bcd3000e3a1b4f6f">&#9670;&#160;</a></span>GbtsDataStorage()</h2>
+<a id="a7c3d227da484a22bcce8d3d7513e60e0" name="a7c3d227da484a22bcce8d3d7513e60e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c3d227da484a22bcce8d3d7513e60e0">&#9670;&#160;</a></span>GbtsDataStorage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,12 +165,17 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">Acts::Experimental::GbtsDataStorage::GbtsDataStorage </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>, </td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parseLutFile</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -331,8 +338,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a5a057fcbbd039fee0cd6481b7158ffe2" name="a5a057fcbbd039fee0cd6481b7158ffe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a057fcbbd039fee0cd6481b7158ffe2">&#9670;&#160;</a></span>m_config</h2>
+<a id="a372d7129b06dddf0a9e07418bce53bbd" name="a372d7129b06dddf0a9e07418bce53bbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a372d7129b06dddf0a9e07418bce53bbd">&#9670;&#160;</a></span>m_config</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -341,7 +348,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a>&amp; Acts::Experimental::GbtsDataStorage::m_config</td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> Acts::Experimental::GbtsDataStorage::m_config</td>
         </tr>
       </table>
   </td>
@@ -375,8 +382,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7a13005c6c1cf9569a497886e89e196" name="aa7a13005c6c1cf9569a497886e89e196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7a13005c6c1cf9569a497886e89e196">&#9670;&#160;</a></span>m_geo</h2>
+<a id="a4b12b0cc1e037865f3377d17e03571c6" name="a4b12b0cc1e037865f3377d17e03571c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b12b0cc1e037865f3377d17e03571c6">&#9670;&#160;</a></span>m_geo</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +392,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a>&amp; Acts::Experimental::GbtsDataStorage::m_geo</td>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a>&gt; Acts::Experimental::GbtsDataStorage::m_geo</td>
         </tr>
       </table>
   </td>
@@ -397,8 +404,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a189543ef8f4025b1fe7df71f53c993fd" name="a189543ef8f4025b1fe7df71f53c993fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a189543ef8f4025b1fe7df71f53c993fd">&#9670;&#160;</a></span>m_mlLUT</h2>
+<a id="a8fb3acfcb8bcc02a24e636eb69f54af2" name="a8fb3acfcb8bcc02a24e636eb69f54af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb3acfcb8bcc02a24e636eb69f54af2">&#9670;&#160;</a></span>m_mlLUT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +414,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::array&lt;float, 5&gt; &gt; Acts::Experimental::GbtsDataStorage::m_mlLUT</td>
+          <td class="memname"><a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> Acts::Experimental::GbtsDataStorage::m_mlLUT</td>
         </tr>
       </table>
   </td>

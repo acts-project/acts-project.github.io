@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -196,7 +198,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8be505d59fb083da58f3a7147ac9c9d3" id="r_a8be505d59fb083da58f3a7147ac9c9d3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be505d59fb083da58f3a7147ac9c9d3">step</a> {}</td></tr>
 <tr class="memdesc:a8be505d59fb083da58f3a7147ac9c9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning step  <br /></td></tr>
 <tr class="memitem:ad790ff296e80e223f7749c9b122016fb" id="r_ad790ff296e80e223f7749c9b122016fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad790ff296e80e223f7749c9b122016fb">subBinningAdditive</a> {}</td></tr>
-<tr class="memdesc:ad790ff296e80e223f7749c9b122016fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: additive or multipicative  <br /></td></tr>
+<tr class="memdesc:ad790ff296e80e223f7749c9b122016fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: additive or multiplicative  <br /></td></tr>
 <tr class="memitem:a258da64c082b89b71ef6fe7042dd30f2" id="r_a258da64c082b89b71ef6fe7042dd30f2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258da64c082b89b71ef6fe7042dd30f2">subBinningData</a></td></tr>
 <tr class="memdesc:a258da64c082b89b71ef6fe7042dd30f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: describe some sub binning  <br /></td></tr>
 <tr class="memitem:a6b02301389c330fe45bffb2d952e376f" id="r_a6b02301389c330fe45bffb2d952e376f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b02301389c330fe45bffb2d952e376f">type</a> {}</td></tr>
@@ -991,7 +993,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>sub structure: additive or multipicative </p>
+<p>sub structure: additive or multiplicative </p>
 
 </div>
 </div>

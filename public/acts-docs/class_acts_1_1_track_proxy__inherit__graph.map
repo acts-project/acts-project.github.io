@@ -1,11 +1,15 @@
 <map id="Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;" name="Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;">
-<area shape="rect" id="Node000001" title="Proxy class representing a single track." alt="" coords="5,153,188,207"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="407,34,584,89"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,142,174,120,211,102,260,86,311,74,406,62,407,67,312,80,261,91,213,106,176,125,143,147"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="407,113,584,167"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,167,406,146,407,151,202,172"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="407,191,584,246"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,208,212,209,313,218,407,220,406,225,312,224,212,215,201,213"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="407,282,584,337"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="127,216,165,256,188,274,213,288,261,304,311,313,360,317,406,316,406,321,360,322,310,318,259,309,211,293,185,279,162,260,124,220"/>
+<area shape="rect" id="Node000001" title="Proxy class representing a single track." alt="" coords="735,141,917,195"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1136,15,1313,70"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="866,130,900,104,940,83,989,66,1040,55,1136,43,1136,48,1041,60,991,71,942,88,903,109,869,134"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1136,94,1313,149"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="931,149,941,148,1135,127,1136,132,942,153,931,155"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1136,187,1313,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="890,199,942,216,991,224,1042,226,1136,223,1136,228,1042,232,991,229,941,221,888,204"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_track_proxy.html" title=" " alt="" coords="1136,281,1313,335"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="852,205,890,254,915,276,942,294,990,310,1040,319,1090,321,1136,319,1136,324,1090,326,1039,324,988,315,940,298,911,280,886,258,848,208"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_track_proxy_common.html" title=" " alt="" coords="461,126,685,210"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="699,165,735,165,735,171,699,171"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_track_proxy_common.html" title="Common CRTP implementation shared by the various track proxy front&#45;ends." alt="" coords="5,141,193,195"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,165,461,165,461,171,207,171"/>
 </map>

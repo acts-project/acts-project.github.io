@@ -3,7 +3,7 @@ var searchData=
   ['trackcontainerbackend_0',['TrackContainerBackend',['../class_acts_1_1_track_container.html#a45b0ce734d8362c504a5c30a7ba66d36',1,'Acts::TrackContainer']]],
   ['trackestimator_1',['TrackEstimator',['../class_acts_1_1_path_seeder.html#ab8ebb2b99b0c02b09125e37faceaac0e',1,'Acts::PathSeeder']]],
   ['trackgridvector_2',['TrackGridVector',['../class_acts_1_1_gaussian_grid_track_density.html#aab9a44efdb11e502d754d62d71efa200',1,'Acts::GaussianGridTrackDensity::TrackGridVector'],['../class_acts_1_1_grid_density_vertex_finder.html#a49339fd11dc9039c039f6c79f9e68363',1,'Acts::GridDensityVertexFinder::TrackGridVector']]],
-  ['trackindextype_3',['TrackIndexType',['../namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199',1,'Acts']]],
+  ['trackindextype_3',['TrackIndexType',['../namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199',1,'Acts::TrackIndexType'],['../namespace_acts_1_1_multi_trajectory_traits.html#ab10f01c2759ff4e801d804fdf1a91199',1,'Acts::MultiTrajectoryTraits::TrackIndexType']]],
   ['trackinggeometrymaterial_4',['TrackingGeometryMaterial',['../namespace_acts.html#a4840b95a87ca15ddba7ceb31b16a4353',1,'Acts']]],
   ['trackingvolumeandmaterial_5',['TrackingVolumeAndMaterial',['../group__json__plugin.html#ga493120b39f9605cd708b460b16a20c96',1,'Acts']]],
   ['trackingvolumearray_6',['TrackingVolumeArray',['../namespace_acts.html#a28648357639285c87a2440debff326f3',1,'Acts']]],

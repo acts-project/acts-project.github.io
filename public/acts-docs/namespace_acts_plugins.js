@@ -48,7 +48,6 @@ var namespace_acts_plugins =
     [ "Geant4MaterialConverter", "struct_acts_plugins_1_1_geant4_material_converter.html", "struct_acts_plugins_1_1_geant4_material_converter" ],
     [ "Geant4PhysicalVolumeConverter", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html", "struct_acts_plugins_1_1_geant4_physical_volume_converter" ],
     [ "Geant4ShapeConverter", "struct_acts_plugins_1_1_geant4_shape_converter.html", "struct_acts_plugins_1_1_geant4_shape_converter" ],
-    [ "Geant4SurfaceProvider", "class_acts_plugins_1_1_geant4_surface_provider.html", "class_acts_plugins_1_1_geant4_surface_provider" ],
     [ "Geant4VolumeConverter", "struct_acts_plugins_1_1_geant4_volume_converter.html", "struct_acts_plugins_1_1_geant4_volume_converter" ],
     [ "GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html", "class_acts_plugins_1_1_geo_model_detector_element" ],
     [ "GeoModelDetectorElementITk", "class_acts_plugins_1_1_geo_model_detector_element_i_tk.html", "class_acts_plugins_1_1_geo_model_detector_element_i_tk" ],

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -189,7 +191,7 @@ template&lt;class PointType&gt; </div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    std::function&lt;<a class="code hl_typedef" href="#ab0f88306403f132499ddd92cb8922347">CoordType</a>(<a class="code hl_typedef" href="#ab0f88306403f132499ddd92cb8922347">CoordType</a>, <span class="keyword">const</span> PointType&amp;)&gt;</div>
-<div class="ttc" id="anamespace_acts_1_1_hough_transform_utils_html_ab0f88306403f132499ddd92cb8922347"><div class="ttname"><a href="#ab0f88306403f132499ddd92cb8922347">Acts::HoughTransformUtils::CoordType</a></div><div class="ttdeci">double CoordType</div><div class="ttdoc">this type is responsible for encoding the parameters of our hough space</div><div class="ttdef"><b>Definition</b> HoughTransformUtils.hpp:20</div></div>
+<div class="ttc" id="anamespace_acts_1_1_hough_transform_utils_html_ab0f88306403f132499ddd92cb8922347"><div class="ttname"><a href="#ab0f88306403f132499ddd92cb8922347">Acts::HoughTransformUtils::CoordType</a></div><div class="ttdeci">double CoordType</div><div class="ttdoc">this type is responsible for encoding the parameters of our hough space</div><div class="ttdef"><b>Definition</b> HoughTransformUtils.hpp:21</div></div>
 </div><!-- fragment -->
 <p>this function represents a mapping of a coordinate point in detector space to a line in hough space. </p>
 <p>Given the value of the first hough coordinate, it shall return the corresponding second coordinate according to the line parametrisation. Should be implemented by the user. </p><dl class="tparams"><dt>Template Parameters</dt><dd>

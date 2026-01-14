@@ -16,13 +16,14 @@ var searchData=
   ['kgauss_13',['kGauss',['../namespace_acts_1_1_unit_constants.html#ac07e890e8f940db339c75712dfbfea4a',1,'Acts::UnitConstants']]],
   ['kinvalid_14',['kInvalid',['../class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33',1,'Acts::MultiTrajectory::kInvalid'],['../class_acts_1_1_track_container.html#a212d7ed3200cac9a058cfd568857ffb4',1,'Acts::TrackContainer::kInvalid'],['../class_acts_1_1_track_proxy.html#a4bd71bbbb663b7b2c52efcfc1df00ccf',1,'Acts::TrackProxy::kInvalid'],['../class_acts_1_1_track_state_proxy.html#ac971a8625ee702ef7cb743fa52e4f186',1,'Acts::TrackStateProxy::kInvalid'],['../class_acts_plugins_1_1_podio_track_container_base.html#a069ba696b6b92fbc75bf5c85f278bb9c',1,'ActsPlugins::PodioTrackContainerBase::kInvalid'],['../namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c',1,'Acts::MultiTrajectoryTraits::kInvalid']]],
   ['km_15',['km',['../namespace_acts_1_1_unit_constants.html#a943e08f35c4e46914e0cb4ae69a96507',1,'Acts::UnitConstants']]],
-  ['knnval_16',['knnVal',['../struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd',1,'ActsPlugins::TorchMetricLearning::Config']]],
-  ['knoidentifier_17',['kNoIdentifier',['../namespace_acts_plugins_1_1_podio_util.html#a52a8ea807a631993b9a7a3e57c67c139',1,'ActsPlugins::PodioUtil']]],
-  ['knosurface_18',['kNoSurface',['../namespace_acts_plugins_1_1_podio_util.html#ad70c62dcbabe07edfa3d2ee0b0dc4f90',1,'ActsPlugins::PodioUtil']]],
-  ['knumlevels_19',['kNumLevels',['../class_acts_1_1_multi_index.html#ac41f16be14e2def85d64fe15810bc60c',1,'Acts::MultiIndex']]],
-  ['kownership_20',['kOwnership',['../class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a09d50e431c7fcd0a778c17843b55623d',1,'Acts::Delegate&lt; R(Args...), H, O &gt;']]],
-  ['kqop_21',['kQoP',['../struct_acts_1_1_eigen_stepper_1_1_state.html#ab08602006454104ade32d45b60cf34a9',1,'Acts::EigenStepper::State']]],
-  ['krawbits_22',['kRawBits',['../class_acts_1_1_track_state_type.html#ae4e7af32bdf02609ca5df44fe9385610',1,'Acts::TrackStateType::kRawBits'],['../class_acts_1_1_const_track_state_type.html#a6a579eff3aebafb8140112331461fd11',1,'Acts::ConstTrackStateType::kRawBits']]],
-  ['ksubspacesize_23',['kSubspaceSize',['../class_acts_1_1_fixed_subspace_helper.html#afbe57313f6ccfb0557e00dddba5b94a9',1,'Acts::FixedSubspaceHelper']]],
-  ['ktrackindexinvalid_24',['kTrackIndexInvalid',['../namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749',1,'Acts']]]
+  ['kmeasurementsizemax_16',['kMeasurementSizeMax',['../namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4',1,'Acts']]],
+  ['knnval_17',['knnVal',['../struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd',1,'ActsPlugins::TorchMetricLearning::Config']]],
+  ['knoidentifier_18',['kNoIdentifier',['../namespace_acts_plugins_1_1_podio_util.html#a52a8ea807a631993b9a7a3e57c67c139',1,'ActsPlugins::PodioUtil']]],
+  ['knosurface_19',['kNoSurface',['../namespace_acts_plugins_1_1_podio_util.html#ad70c62dcbabe07edfa3d2ee0b0dc4f90',1,'ActsPlugins::PodioUtil']]],
+  ['knumlevels_20',['kNumLevels',['../class_acts_1_1_multi_index.html#ac41f16be14e2def85d64fe15810bc60c',1,'Acts::MultiIndex']]],
+  ['kownership_21',['kOwnership',['../class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a09d50e431c7fcd0a778c17843b55623d',1,'Acts::Delegate&lt; R(Args...), H, O &gt;']]],
+  ['kqop_22',['kQoP',['../struct_acts_1_1_eigen_stepper_1_1_state.html#ab08602006454104ade32d45b60cf34a9',1,'Acts::EigenStepper::State']]],
+  ['krawbits_23',['kRawBits',['../class_acts_1_1_track_state_type.html#ae4e7af32bdf02609ca5df44fe9385610',1,'Acts::TrackStateType::kRawBits'],['../class_acts_1_1_const_track_state_type.html#a6a579eff3aebafb8140112331461fd11',1,'Acts::ConstTrackStateType::kRawBits']]],
+  ['ksubspacesize_24',['kSubspaceSize',['../class_acts_1_1_fixed_subspace_helper.html#afbe57313f6ccfb0557e00dddba5b94a9',1,'Acts::FixedSubspaceHelper']]],
+  ['ktrackindexinvalid_25',['kTrackIndexInvalid',['../namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749',1,'Acts']]]
 ];

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -142,7 +144,7 @@ Public Types</h2></td></tr>
 <tr class="memdesc:ad9d882f2ac3bf3143eeb84fa1dbd84fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const track state proxy from multi-trajectory.  <br /></td></tr>
 <tr class="memitem:a26648638d331daa29debaaed1a716750" id="r_a26648638d331daa29debaaed1a716750"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26648638d331daa29debaaed1a716750">OutlierFinder</a> = <a class="el" href="class_acts_1_1_delegate.html">Delegate</a>&lt;bool(<a class="el" href="#ad9d882f2ac3bf3143eeb84fa1dbd84fb">ConstTrackStateProxy</a>)&gt;</td></tr>
 <tr class="memdesc:a26648638d331daa29debaaed1a716750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for outlier finder delegate to identify measurement outliers.  <br /></td></tr>
-<tr class="memitem:af7398d5398563450d5541ee7caa8867d" id="r_af7398d5398563450d5541ee7caa8867d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7398d5398563450d5541ee7caa8867d">Parameters</a> = typename <a class="el" href="class_acts_1_1_track_state_proxy.html#ab2488c63138a9366f18d8cadd64aeee6">TrackStateProxy::Parameters</a></td></tr>
+<tr class="memitem:af7398d5398563450d5541ee7caa8867d" id="r_af7398d5398563450d5541ee7caa8867d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7398d5398563450d5541ee7caa8867d">Parameters</a> = typename <a class="el" href="class_acts_1_1_track_state_proxy.html#ac11c999ddcc05da568b3a67de7f9dfe3">TrackStateProxy::Parameters</a></td></tr>
 <tr class="memdesc:af7398d5398563450d5541ee7caa8867d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track parameters from track state proxy.  <br /></td></tr>
 <tr class="memitem:ad57ca0a72ed7e987aef26bc2f73bfaca" id="r_ad57ca0a72ed7e987aef26bc2f73bfaca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad57ca0a72ed7e987aef26bc2f73bfaca">TrackStateProxy</a> = typename <a class="el" href="class_acts_1_1_multi_trajectory.html">MultiTrajectory</a>&lt;traj_t&gt;::TrackStateProxy</td></tr>
 <tr class="memdesc:ad57ca0a72ed7e987aef26bc2f73bfaca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable track state proxy from multi-trajectory.  <br /></td></tr>
@@ -188,7 +190,7 @@ template&lt;typename traj_t&gt; </div>
 <div class="ttc" id="aclass_acts_1_1_calibration_context_html"><div class="ttname"><a href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector calibration.</div><div class="ttdef"><b>Definition</b> CalibrationContext.hpp:27</div></div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:29</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:29</div></div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Source linik is a thing.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
 <div class="ttc" id="astruct_acts_1_1_gsf_extensions_html_abbf3590fd17f735ba54ce36fcf7d97ed"><div class="ttname"><a href="struct_acts_1_1_gsf_extensions.html#abbf3590fd17f735ba54ce36fcf7d97ed">Acts::GsfExtensions::TrackStateProxy</a></div><div class="ttdeci">typename traj_t::TrackStateProxy TrackStateProxy</div><div class="ttdoc">Type alias for mutable track state proxy.</div><div class="ttdef"><b>Definition</b> GsfOptions.hpp:58</div></div>
 </div><!-- fragment -->
 <p>Type alias for calibrator delegate to process measurements. </p>
@@ -210,7 +212,7 @@ template&lt;typename traj_t&gt; </div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">MultiTrajectory&lt;traj_t&gt;::ConstTrackStateProxy</a></div>
-<div class="ttc" id="aclass_acts_1_1_multi_trajectory_html_aa515e9bdd41bd33a4561e4e28a2f6d7d"><div class="ttname"><a href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">Acts::MultiTrajectory::ConstTrackStateProxy</a></div><div class="ttdeci">Acts::TrackStateProxy&lt; Derived, MeasurementSizeMax, true &gt; ConstTrackStateProxy</div><div class="ttdoc">Alias for the const version of a track state proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:168</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_trajectory_html_aa515e9bdd41bd33a4561e4e28a2f6d7d"><div class="ttname"><a href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">Acts::MultiTrajectory::ConstTrackStateProxy</a></div><div class="ttdeci">Acts::TrackStateProxy&lt; Derived, MeasurementSizeMax, true &gt; ConstTrackStateProxy</div><div class="ttdoc">Alias for the const version of a track state proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:187</div></div>
 </div><!-- fragment -->
 <p>Type alias for const track state proxy from multi-trajectory. </p>
 
@@ -243,7 +245,7 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html">Acts::Experimental::Gx2FitterExtensions</a>&lt; traj_t &gt;::Parameters = typename <a class="el" href="class_acts_1_1_track_state_proxy.html#ab2488c63138a9366f18d8cadd64aeee6">TrackStateProxy::Parameters</a></td>
+          <td class="memname">using <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html">Acts::Experimental::Gx2FitterExtensions</a>&lt; traj_t &gt;::Parameters = typename <a class="el" href="class_acts_1_1_track_state_proxy.html#ac11c999ddcc05da568b3a67de7f9dfe3">TrackStateProxy::Parameters</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

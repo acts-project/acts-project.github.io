@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -399,7 +401,7 @@ $(function(){initNavTree('_surface_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_surface_html_a9fb68f6cd1d953a649a7e44244d3f954"><div class="ttname"><a href="class_acts_1_1_surface.html#a9fb68f6cd1d953a649a7e44244d3f954">Acts::Surface::Surface</a></div><div class="ttdeci">Surface(const GeometryContext &amp;gctx, const Surface &amp;other, const Transform3 &amp;shift)</div><div class="ttdoc">Copy constructor with optional shift.</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html_aa499eae940b107a7012a2875a100a4fc"><div class="ttname"><a href="class_acts_1_1_surface.html#aa499eae940b107a7012a2875a100a4fc">Acts::Surface::operator==</a></div><div class="ttdeci">bool operator==(const Surface &amp;other) const</div><div class="ttdoc">Comparison (equality) operator The strategy for comparison is (a) first pointer comparison (b) then t...</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html_aa86e26e4537287cce40df221284ff77a"><div class="ttname"><a href="class_acts_1_1_surface.html#aa86e26e4537287cce40df221284ff77a">Acts::Surface::boundToFreeJacobian</a></div><div class="ttdeci">virtual BoundToFreeMatrix boundToFreeJacobian(const GeometryContext &amp;gctx, const Vector3 &amp;position, const Vector3 &amp;direction) const</div><div class="ttdoc">Calculate the jacobian from local to global which the surface knows best, hence the calculation is do...</div></div>
-<div class="ttc" id="aclass_acts_1_1_surface_html_abc1b37b98fdda34da35d19e65ab7c85c"><div class="ttname"><a href="class_acts_1_1_surface.html#abc1b37b98fdda34da35d19e65ab7c85c">Acts::Surface::pathCorrection</a></div><div class="ttdeci">virtual double pathCorrection(const GeometryContext &amp;gctx, const Vector3 &amp;position, const Vector3 &amp;direction) const =0</div><div class="ttdoc">Calucation of the path correction for incident.</div></div>
+<div class="ttc" id="aclass_acts_1_1_surface_html_abc1b37b98fdda34da35d19e65ab7c85c"><div class="ttname"><a href="class_acts_1_1_surface.html#abc1b37b98fdda34da35d19e65ab7c85c">Acts::Surface::pathCorrection</a></div><div class="ttdeci">virtual double pathCorrection(const GeometryContext &amp;gctx, const Vector3 &amp;position, const Vector3 &amp;direction) const =0</div><div class="ttdoc">Calculation of the path correction for incident.</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html_abec410b88b35540550328ddc307284fc"><div class="ttname"><a href="class_acts_1_1_surface.html#abec410b88b35540550328ddc307284fc">Acts::Surface::name</a></div><div class="ttdeci">virtual std::string name() const =0</div><div class="ttdoc">Return properly formatted class name.</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html_ac900594dda62ce72431c6db2143b7611"><div class="ttname"><a href="class_acts_1_1_surface.html#ac900594dda62ce72431c6db2143b7611">Acts::Surface::associatedLayer</a></div><div class="ttdeci">const Layer * associatedLayer() const</div><div class="ttdoc">Return method for the associated Layer in which the surface is embedded.</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html_ac94e8ed380531243a14c6de82bd11f9e"><div class="ttname"><a href="class_acts_1_1_surface.html#ac94e8ed380531243a14c6de82bd11f9e">Acts::Surface::alignmentToPathDerivative</a></div><div class="ttdeci">virtual AlignmentToPathMatrix alignmentToPathDerivative(const GeometryContext &amp;gctx, const Vector3 &amp;position, const Vector3 &amp;direction) const</div><div class="ttdoc">Calculate the derivative of path length at the geometry constraint or point-of-closest-approach w....</div></div>

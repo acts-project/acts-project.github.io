@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -123,8 +125,10 @@ $(function(){initNavTree('functions_type_e.html','',''); });
 <div class="textblock">Here is a list of all typedefs with links to the classes they belong to:</div>
 
 <h3 class="doxsection"><a id="index_e" name="index_e"></a>- e -</h3><ul>
-<li>EffectiveCalibrated&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#ab0ed08ca7282b3640c3e5d16f6a62e42">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#a65ea4ce85c3b6d2516ffce7c81731bbd">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
-<li>EffectiveCalibratedCovariance&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#af37dee5477fc8f723ed159dd0bd4cf0b">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#a707f18a1d55e71af9ee4699896034ed7">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
+<li>EffectiveCalibrated&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#abb5a22a568840d5db0b57015c3cdf96a">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
+<li>EffectiveCalibratedCovariance&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#a70ad68bbb136d1a602fbec002d79aa65">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
+<li>EffectiveCalibratedCovarianceMap&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy_common.html#a23a99e03ffbb25cc9a84e325cfbd01cf">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>EffectiveCalibratedMap&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2640cb1596c0c91b3befbfcafd48f170">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
 <li>ElementFactory&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a9845c651622b7e0eb63bedaab405f791">ActsPlugins::DD4hepDetectorSurfaceFactory</a>, <a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a9633a63a1d4651058cc56a53b243d747">ActsPlugins::DD4hepLayerBuilder</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_surface_factory.html#a14b7f845ca18313af93e26618b25f104">ActsPlugins::Geant4DetectorSurfaceFactory</a>, <a class="el" href="class_acts_plugins_1_1_t_geo_layer_builder.html#aa400709a10b842d6dea0c8da04b70bd9">ActsPlugins::TGeoLayerBuilder</a></li>
 <li>entity_type&#160;:&#160;<a class="el" href="class_acts_1_1_axis_aligned_bounding_box.html#a2e2a5add69d980b11ce2e34184fa9bcc">Acts::AxisAlignedBoundingBox&lt; entity_t, value_t, DIM &gt;</a></li>
 <li>Entry&#160;:&#160;<a class="el" href="class_acts_1_1_kdt_surfaces.html#ac120b35771beaf766a6fff4569b0840b">Acts::KdtSurfaces&lt; kDIM, bSize &gt;</a></li>

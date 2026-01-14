@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -129,33 +131,33 @@ $(function(){initNavTree('namespace_acts_1_1_multi_trajectory_traits.html','',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a072b2371c79c97707d94fdd8e6138b14" id="r_a072b2371c79c97707d94fdd8e6138b14"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a072b2371c79c97707d94fdd8e6138b14">IndexType</a> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td></tr>
-<tr class="memdesc:a072b2371c79c97707d94fdd8e6138b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for trajectory index type.  <br /></td></tr>
+<tr class="memitem:ab10f01c2759ff4e801d804fdf1a91199" id="r_ab10f01c2759ff4e801d804fdf1a91199"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td></tr>
+<tr class="memdesc:ab10f01c2759ff4e801d804fdf1a91199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track index values.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7221fb628b87c07b075c1f808a346d2c" id="r_a7221fb628b87c07b075c1f808a346d2c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a072b2371c79c97707d94fdd8e6138b14">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7221fb628b87c07b075c1f808a346d2c">kInvalid</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
+<tr class="memitem:a7221fb628b87c07b075c1f808a346d2c" id="r_a7221fb628b87c07b075c1f808a346d2c"><td class="memItemLeft" align="right" valign="top">constexpr IndexType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7221fb628b87c07b075c1f808a346d2c">kInvalid</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
 <tr class="memdesc:a7221fb628b87c07b075c1f808a346d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid track state index constant.  <br /></td></tr>
-<tr class="memitem:a7c4429d08beebb7291abd7d0f3025a23" id="r_a7c4429d08beebb7291abd7d0f3025a23"><td class="memItemLeft" align="right" valign="top">constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c4429d08beebb7291abd7d0f3025a23">MeasurementSizeMax</a> = <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a></td></tr>
+<tr class="memitem:a7c4429d08beebb7291abd7d0f3025a23" id="r_a7c4429d08beebb7291abd7d0f3025a23"><td class="memItemLeft" align="right" valign="top">constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c4429d08beebb7291abd7d0f3025a23">MeasurementSizeMax</a> = <a class="el" href="namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4">kMeasurementSizeMax</a></td></tr>
 <tr class="memdesc:a7c4429d08beebb7291abd7d0f3025a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of measurement dimensions supported by trajectory.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This namespace contains typedefs and constant values that are used by other parts of the <code>MultiTrajectory</code> implementation. </p>
-<p>It extracts these from <code>TrackStateTraits</code> using the default maximum measurement dimension. </p>
+<p>It extracts these from <code>TrackStateTraits</code> using the default maximum measurement dimension. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>Use aliased types and constants directly </dd></dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a072b2371c79c97707d94fdd8e6138b14" name="a072b2371c79c97707d94fdd8e6138b14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a072b2371c79c97707d94fdd8e6138b14">&#9670;&#160;</a></span>IndexType</h2>
+<a id="ab10f01c2759ff4e801d804fdf1a91199" name="ab10f01c2759ff4e801d804fdf1a91199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab10f01c2759ff4e801d804fdf1a91199">&#9670;&#160;</a></span>TrackIndexType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a072b2371c79c97707d94fdd8e6138b14">Acts::MultiTrajectoryTraits::IndexType</a> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td>
+          <td class="memname">using <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Type alias for trajectory index type. </p>
+<p>Type alias for track index values. </p>
 
 </div>
 </div>
@@ -170,7 +172,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a072b2371c79c97707d94fdd8e6138b14">IndexType</a> Acts::MultiTrajectoryTraits::kInvalid = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td>
+          <td class="memname">IndexType Acts::MultiTrajectoryTraits::kInvalid = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td>
         </tr>
       </table>
   </td>
@@ -181,6 +183,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Invalid track state index constant. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated</a></b></dt><dd>Use <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -194,7 +197,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int Acts::MultiTrajectoryTraits::MeasurementSizeMax = <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a></td>
+          <td class="memname">unsigned int Acts::MultiTrajectoryTraits::MeasurementSizeMax = <a class="el" href="namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4">kMeasurementSizeMax</a></td>
         </tr>
       </table>
   </td>
@@ -205,6 +208,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maximum number of measurement dimensions supported by trajectory. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>Use <a class="el" href="namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4">Acts::kMeasurementSizeMax</a> instead. </dd></dl>
 
 </div>
 </div>

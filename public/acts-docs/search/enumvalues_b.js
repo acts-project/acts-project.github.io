@@ -1,7 +1,7 @@
 var searchData=
 [
   ['larrow_0',['LArrow',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5a0c719939ec8ba554db6b8b5ba8a7c000',1,'Acts::GraphViz']]],
-  ['last_1',['last',['../group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51',1,'Acts::last'],['../namespace_acts.html#a086febf882ea487434374ef548a90661a98bd1c45684cf587ac2347a92dd7bb51',1,'Acts::last']]],
+  ['last_1',['last',['../namespace_acts.html#a086febf882ea487434374ef548a90661a98bd1c45684cf587ac2347a92dd7bb51',1,'Acts']]],
   ['layertarget_2',['layerTarget',['../class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082a686c163df55238a65ae58bbe9e8f7b62',1,'Acts::Navigator']]],
   ['left_3',['Left',['../class_acts_1_1_table.html#a01c0c8a6a3f170c060379d74c53cdcb7a945d5e233cf7d6240f6b783b36a374ff',1,'Acts::Table']]],
   ['lightbaryon_4',['LightBaryon',['../namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca1c084319d0244f24aa37338cbc757308',1,'Acts']]],

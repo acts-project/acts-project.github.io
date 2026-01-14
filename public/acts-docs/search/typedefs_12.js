@@ -54,13 +54,12 @@ var searchData=
   ['subspaceindices_51',['SubspaceIndices',['../namespace_acts.html#a6a670110d0ebb9267ec1256f8bd88b6e',1,'Acts']]],
   ['surfaceandmaterialwithcontext_52',['SurfaceAndMaterialWithContext',['../group__json__plugin.html#gab39fab40696fab1b03cca78f951db023',1,'Acts']]],
   ['surfaceboundfactory_53',['SurfaceBoundFactory',['../namespace_acts.html#aff81cf741e697ab165fc3579cacda4aa',1,'Acts']]],
-  ['surfacekdt_54',['SurfaceKDT',['../class_acts_1_1_k_d_tree_tracking_geometry_builder.html#aa3ada1a2eb6bc49f2366bc5ea979dadb',1,'Acts::KDTreeTrackingGeometryBuilder']]],
-  ['surfacelookupfunction_55',['SurfaceLookupFunction',['../class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368',1,'ActsPlugins::DetrayPayloadConverter']]],
-  ['surfacematcher_56',['SurfaceMatcher',['../namespace_acts.html#a884d99e12205bfc04d2cc2a8501a3a39',1,'Acts']]],
-  ['surfacematerialmaps_57',['SurfaceMaterialMaps',['../namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65',1,'Acts']]],
-  ['surfacematerialpointer_58',['surfaceMaterialPointer',['../group__json__plugin.html#ga76d1cebc6f43c76e5aaa8ef77d474064',1,'Acts']]],
-  ['surfacematrix_59',['SurfaceMatrix',['../namespace_acts.html#aa80f2fb6a7e543af58af13eedf6fdbd0',1,'Acts']]],
-  ['surfacerange_60',['SurfaceRange',['../class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174',1,'Acts::TrackingVolume']]],
-  ['surfacesequence_61',['SurfaceSequence',['../class_acts_1_1_direct_navigator.html#a775b57f7ec73e6094f6a9b3576a7c440',1,'Acts::DirectNavigator']]],
-  ['surfacevector_62',['SurfaceVector',['../namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd',1,'Acts']]]
+  ['surfacelookupfunction_54',['SurfaceLookupFunction',['../class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368',1,'ActsPlugins::DetrayPayloadConverter']]],
+  ['surfacematcher_55',['SurfaceMatcher',['../namespace_acts.html#a884d99e12205bfc04d2cc2a8501a3a39',1,'Acts']]],
+  ['surfacematerialmaps_56',['SurfaceMaterialMaps',['../namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65',1,'Acts']]],
+  ['surfacematerialpointer_57',['surfaceMaterialPointer',['../group__json__plugin.html#ga76d1cebc6f43c76e5aaa8ef77d474064',1,'Acts']]],
+  ['surfacematrix_58',['SurfaceMatrix',['../namespace_acts.html#aa80f2fb6a7e543af58af13eedf6fdbd0',1,'Acts']]],
+  ['surfacerange_59',['SurfaceRange',['../class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174',1,'Acts::TrackingVolume']]],
+  ['surfacesequence_60',['SurfaceSequence',['../class_acts_1_1_direct_navigator.html#a775b57f7ec73e6094f6a9b3576a7c440',1,'Acts::DirectNavigator']]],
+  ['surfacevector_61',['SurfaceVector',['../namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd',1,'Acts']]]
 ];

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -309,8 +311,8 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail::LoopComponentProxyBase&lt;<span class="keyword">const</span> <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">State::Component</a>,</div>
 <div class="line">                                     <a class="code hl_function" href="#a570b81ba406b8c3eb2451cef7d4a4c15">MultiStepperLoop</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html_a570b81ba406b8c3eb2451cef7d4a4c15"><div class="ttname"><a href="#a570b81ba406b8c3eb2451cef7d4a4c15">Acts::MultiStepperLoop::MultiStepperLoop</a></div><div class="ttdeci">MultiStepperLoop(std::shared_ptr&lt; const MagneticFieldProvider &gt; bField, std::unique_ptr&lt; const Logger &gt; logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every step...</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:243</div></div>
-<div class="ttc" id="astruct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component_html"><div class="ttname"><a href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Acts::MultiStepperLoop::State::Component</a></div><div class="ttdoc">The struct that stores the individual components.</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:196</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html_a570b81ba406b8c3eb2451cef7d4a4c15"><div class="ttname"><a href="#a570b81ba406b8c3eb2451cef7d4a4c15">Acts::MultiStepperLoop::MultiStepperLoop</a></div><div class="ttdeci">MultiStepperLoop(std::shared_ptr&lt; const MagneticFieldProvider &gt; bField, std::unique_ptr&lt; const Logger &gt; logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every step...</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:241</div></div>
+<div class="ttc" id="astruct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component_html"><div class="ttname"><a href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Acts::MultiStepperLoop::State::Component</a></div><div class="ttdoc">The struct that stores the individual components.</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:194</div></div>
 </div><!-- fragment -->
 <p>A proxy struct which allows access to a single component of the multi-component state. </p>
 <p>It has the semantics of a const reference, i.e. it requires a const reference of the single-component state it represents </p>

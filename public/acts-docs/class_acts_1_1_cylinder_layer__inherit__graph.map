@@ -1,5 +1,5 @@
 <map id="Acts::CylinderLayer" name="Acts::CylinderLayer">
-<area shape="rect" id="Node000001" title="Class to describe a cylindrical detector layer for tracking, it inhertis from both,..." alt="" coords="133,313,281,339"/>
+<area shape="rect" id="Node000001" title="Class to describe a cylindrical detector layer for tracking, it inherits from both,..." alt="" coords="133,313,281,339"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_cylinder_surface.html" title="Class for a CylinderSurface in the TrackingGeometry." alt="" coords="67,240,229,265"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,274,199,312,195,315,164,278"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="53,167,211,192"/>

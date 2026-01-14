@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -136,8 +138,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a37803a895d43515e833d1cf06b4f9d95" id="r_a37803a895d43515e833d1cf06b4f9d95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37803a895d43515e833d1cf06b4f9d95">finished</a> = false</td></tr>
 <tr class="memitem:adab513d8310f3c678912fedd080c892d" id="r_adab513d8310f3c678912fedd080c892d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab513d8310f3c678912fedd080c892d">fittedParameters</a></td></tr>
 <tr class="memitem:a3601b92a5c5b20186ddbcb6e5b91303c" id="r_a3601b92a5c5b20186ddbcb6e5b91303c"><td class="memItemLeft" align="right" valign="top">traj_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3601b92a5c5b20186ddbcb6e5b91303c">fittedStates</a> {nullptr}</td></tr>
-<tr class="memitem:a1fcc6883cce53b672d52a46048f62d09" id="r_a1fcc6883cce53b672d52a46048f62d09"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fcc6883cce53b672d52a46048f62d09">lastMeasurementIndex</a> = <a class="el" href="namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c">Acts::MultiTrajectoryTraits::kInvalid</a></td></tr>
-<tr class="memitem:a59171bcbebb93f5d46b83b277424b19b" id="r_a59171bcbebb93f5d46b83b277424b19b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59171bcbebb93f5d46b83b277424b19b">lastTrackIndex</a> = <a class="el" href="namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c">Acts::MultiTrajectoryTraits::kInvalid</a></td></tr>
+<tr class="memitem:a1fcc6883cce53b672d52a46048f62d09" id="r_a1fcc6883cce53b672d52a46048f62d09"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fcc6883cce53b672d52a46048f62d09">lastMeasurementIndex</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></td></tr>
+<tr class="memitem:a59171bcbebb93f5d46b83b277424b19b" id="r_a59171bcbebb93f5d46b83b277424b19b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59171bcbebb93f5d46b83b277424b19b">lastTrackIndex</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></td></tr>
 <tr class="memitem:ac8dbd847196ff121dd8355f961a960b2" id="r_ac8dbd847196ff121dd8355f961a960b2"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8dbd847196ff121dd8355f961a960b2">measurementHoles</a> = 0</td></tr>
 <tr class="memitem:a0f097b1b184732f3eb79b706fd285aed" id="r_a0f097b1b184732f3eb79b706fd285aed"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f097b1b184732f3eb79b706fd285aed">measurementStates</a> = 0</td></tr>
 <tr class="memitem:a00cb901e2b01497ce0bd3fba9c524eca" id="r_a00cb901e2b01497ce0bd3fba9c524eca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00cb901e2b01497ce0bd3fba9c524eca">missedActiveSurfaces</a></td></tr>
@@ -204,7 +206,7 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::lastMeasurementIndex = <a class="el" href="namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c">Acts::MultiTrajectoryTraits::kInvalid</a></td>
+          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::lastMeasurementIndex = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -220,7 +222,7 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::lastTrackIndex = <a class="el" href="namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c">Acts::MultiTrajectoryTraits::kInvalid</a></td>
+          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::lastTrackIndex = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

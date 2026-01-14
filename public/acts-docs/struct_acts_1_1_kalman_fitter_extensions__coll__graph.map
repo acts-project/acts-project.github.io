@@ -1,19 +1,19 @@
 <map id="Acts::KalmanFitterExtensions&lt; traj_t &gt;" name="Acts::KalmanFitterExtensions&lt; traj_t &gt;">
-<area shape="rect" id="Node000001" title="Extension struct which holds delegates to customise the KF behavior." alt="" coords="1039,259,1252,299"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="548,57,845,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="846,128,931,157,1016,192,1072,224,1119,256,1116,261,1069,229,1013,197,929,162,844,133"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,279,208,319"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,265,135,229,159,188,191,150,231,119,268,101,307,87,389,70,471,65,548,67,548,73,471,70,390,75,309,92,270,106,233,124,195,153,164,191,140,231,123,267"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="577,151,817,220"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="139,267,181,237,231,212,295,199,384,190,577,183,577,188,384,196,296,204,233,217,184,242,142,272"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="577,244,817,313"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="222,299,366,299,524,295,576,291,577,296,524,300,366,305,222,304"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="604,337,789,377"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="189,319,232,328,331,340,431,348,604,355,604,360,431,354,331,346,232,333,188,325"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="581,403,812,443"/>
-<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="135,327,178,368,204,387,233,402,276,416,321,426,413,438,502,440,581,436,581,441,502,445,412,443,320,432,275,421,231,406,202,392,175,372,131,331"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="830,210,1015,248,1052,256,1051,261,1014,253,829,215"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="830,276,1038,276,1038,281,830,281"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="803,351,906,342,1014,324,1057,311,1098,296,1100,301,1059,317,1015,329,906,348,803,357"/>
-<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="826,416,920,403,968,391,1014,375,1046,358,1076,338,1123,297,1126,301,1079,342,1048,363,1016,380,969,396,921,408,826,422"/>
+<area shape="rect" id="Node000001" title="Extension struct which holds delegates to customise the KF behavior." alt="" coords="1039,233,1252,273"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="581,55,812,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="807,95,910,125,1016,167,1072,199,1119,231,1116,235,1069,203,1014,172,908,130,805,100"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,233,208,273"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,219,139,188,163,153,194,119,231,94,273,75,318,62,364,53,411,47,501,46,582,52,581,57,501,51,411,53,365,58,319,67,275,80,233,98,197,124,167,156,143,190,125,222"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="548,125,845,195"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="148,224,188,203,231,187,289,176,369,169,548,160,548,165,369,174,290,182,233,192,190,208,151,229"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="577,219,817,288"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="222,251,576,251,576,256,222,256"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="604,312,789,352"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="205,274,232,279,431,306,604,322,604,328,431,311,232,284,204,279"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="577,380,817,449"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="126,284,143,315,167,349,198,380,233,404,275,421,318,433,408,445,497,445,576,437,577,442,497,450,408,451,317,439,273,426,231,409,194,384,163,352,139,318,121,287"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="859,190,1015,223,1052,231,1051,236,1014,228,858,195"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="830,251,1038,251,1038,256,830,256"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="803,326,906,317,1014,299,1057,286,1098,271,1100,276,1059,291,1015,304,906,322,803,331"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="830,400,922,381,969,367,1014,350,1045,332,1075,312,1122,271,1126,275,1078,316,1048,337,1016,354,971,372,923,386,831,405"/>
 </map>

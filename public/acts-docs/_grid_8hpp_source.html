@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -592,7 +594,7 @@ $(function(){initNavTree('_grid_8hpp_source.html','',''); });
 <div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span> </div>
 <div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>  <span class="keyword">static</span> AnyPointType toAnyPointType(<span class="keyword">const</span> point_t&amp; point) {</div>
 <div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>    AnyPointType anyPoint;</div>
-<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>    anyPoint.reserve(<a class="code hl_function" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aaea27d3d680a8be51aa974901d177e27">point</a>.size());</div>
+<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>    anyPoint.reserve(<a class="code hl_function" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a>.size());</div>
 <div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>    std::ranges::copy(point, std::back_inserter(anyPoint));</div>
 <div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>    <span class="keywordflow">return</span> anyPoint;</div>
 <div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>  }</div>
@@ -694,10 +696,10 @@ $(function(){initNavTree('_grid_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_i_grid_html_ab46c309b63c9075b019d70bd9dd61760"><div class="ttname"><a href="class_acts_1_1_i_grid.html#ab46c309b63c9075b019d70bd9dd61760">Acts::IGrid::~IGrid</a></div><div class="ttdeci">virtual ~IGrid()=default</div></div>
 <div class="ttc" id="aclass_acts_1_1_i_grid_html_abbec6942e5bb4bff4000b6346666693c"><div class="ttname"><a href="class_acts_1_1_i_grid.html#abbec6942e5bb4bff4000b6346666693c">Acts::IGrid::atLocalBinsAny</a></div><div class="ttdeci">virtual std::any atLocalBinsAny(AnyIndexType indices) const =0</div><div class="ttdoc">Get the value of a bin for a given set of indices.</div></div>
 <div class="ttc" id="aclass_acts_1_1_i_grid_html_ad7432c51cdb8a6d214a61ae2496a1726"><div class="ttname"><a href="class_acts_1_1_i_grid.html#ad7432c51cdb8a6d214a61ae2496a1726">Acts::IGrid::AnyPointType</a></div><div class="ttdeci">boost::container::small_vector&lt; double, 3 &gt; AnyPointType</div><div class="ttdoc">Type alias for dynamic point type (coordinates as vector of doubles).</div><div class="ttdef"><b>Definition</b> Grid.hpp:65</div></div>
+<div class="ttc" id="agroup__actsvg__plugin_html_gaaea27d3d680a8be51aa974901d177e27"><div class="ttname"><a href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">ActsPlugins::Svg::EventDataConverter::point</a></div><div class="ttdeci">actsvg::svg::object point(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx)</div><div class="ttdoc">Write/create a 3D point in a given view.</div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:56</div></div>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_ae1a6a8868aedfe9a2fa3c3d6d0fae230"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">Acts::UnitConstants::T</a></div><div class="ttdeci">constexpr double T</div><div class="ttdoc">Magnetic field, native unit (eV*s)/(e*m²).</div><div class="ttdef"><b>Definition</b> Units.hpp:172</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a3caf69a4c80cf869115afbab91cd8163"><div class="ttname"><a href="namespace_acts.html#a3caf69a4c80cf869115afbab91cd8163">Acts::interpolate</a></div><div class="ttdeci">T interpolate(const Point1 &amp;position, const Point2 &amp;lowerCorner, const Point3 &amp;upperCorner, const std::array&lt; T, N &gt; &amp;values)</div><div class="ttdoc">performs linear interpolation inside a hyper box</div><div class="ttdef"><b>Definition</b> Interpolation.hpp:76</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html_aaea27d3d680a8be51aa974901d177e27"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aaea27d3d680a8be51aa974901d177e27">ActsPlugins::Svg::EventDataConverter::point</a></div><div class="ttdeci">actsvg::svg::object point(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx)</div><div class="ttdoc">Write/create a 3D point in a given view.</div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:52</div></div>
 <div class="ttc" id="astruct_acts_1_1_type_tag_html"><div class="ttname"><a href="struct_acts_1_1_type_tag.html">Acts::TypeTag</a></div><div class="ttdef"><b>Definition</b> TypeTag.hpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

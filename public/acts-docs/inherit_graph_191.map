@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_geometry_context_ostream_wrapper.html" title="Helper struct that stores an object and a context, and will print it to an outstream." alt="" coords="5,5,236,45"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_generic_particle_hypothesis.html" title=" " alt="" coords="5,5,235,45"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_singly_charged_particle_hypothesis.html" title="Specialized particle hypothesis for singly charged particles." alt="" coords="283,5,483,45"/>
+<area shape="poly" id="edge60_Node000000_Node000001" title=" " alt="" coords="248,23,283,23,283,28,248,28"/>
 </map>

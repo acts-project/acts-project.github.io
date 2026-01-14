@@ -1,5 +1,5 @@
 <map id="Acts::DiscLayer" name="Acts::DiscLayer">
-<area shape="rect" id="Node000001" title="Class to describe a disc&#45;like detector layer for tracking, it inhertis from both, Layer base class an..." alt="" coords="145,313,268,339"/>
+<area shape="rect" id="Node000001" title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an..." alt="" coords="145,313,268,339"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_disc_surface.html" title="Class for a disc surface (or a segment thereof)." alt="" coords="87,240,222,265"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,275,200,312,196,315,169,278"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="53,167,211,192"/>

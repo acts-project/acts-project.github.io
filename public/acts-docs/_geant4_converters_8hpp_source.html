@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -278,7 +280,7 @@ $(function(){initNavTree('_geant4_converters_8hpp_source.html','',''); });
 <div class="ttc" id="astruct_acts_plugins_1_1_geant4_material_converter_html_aa24e85c5071d46b6c5a2f491784e9a0f"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f">ActsPlugins::Geant4MaterialConverter::material</a></div><div class="ttdeci">Acts::Material material(const G4Material &amp;g4Material, double compression=1)</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_geant4_physical_volume_converter_html"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_physical_volume_converter.html">ActsPlugins::Geant4PhysicalVolumeConverter</a></div><div class="ttdef"><b>Definition</b> Geant4Converters.hpp:167</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_geant4_physical_volume_converter_html_a70216c0f1b077c56586d4111134b4336"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336">ActsPlugins::Geant4PhysicalVolumeConverter::forcedType</a></div><div class="ttdeci">Acts::Surface::SurfaceType forcedType</div><div class="ttdoc">Optionally allow to foce a type, throws exception if not possible.</div><div class="ttdef"><b>Definition</b> Geant4Converters.hpp:169</div></div>
-<div class="ttc" id="astruct_acts_plugins_1_1_geant4_physical_volume_converter_html_a8fd76a901060cfabb638bdd0d55df423"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423">ActsPlugins::Geant4PhysicalVolumeConverter::surface</a></div><div class="ttdeci">std::shared_ptr&lt; Acts::Surface &gt; surface(const G4VPhysicalVolume &amp;g4PhysVol, const Acts::Transform3 &amp;toGlobal, bool convertMaterial=false, double compressed=0.)</div><div class="ttdoc">Convert a Geant4 phsyical volume to a surface.</div></div>
+<div class="ttc" id="astruct_acts_plugins_1_1_geant4_physical_volume_converter_html_a8fd76a901060cfabb638bdd0d55df423"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423">ActsPlugins::Geant4PhysicalVolumeConverter::surface</a></div><div class="ttdeci">std::shared_ptr&lt; Acts::Surface &gt; surface(const G4VPhysicalVolume &amp;g4PhysVol, const Acts::Transform3 &amp;toGlobal, bool convertMaterial=false, double compressed=0.)</div><div class="ttdoc">Convert a Geant4 physical volume to a surface.</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_geant4_shape_converter_html"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_shape_converter.html">ActsPlugins::Geant4ShapeConverter</a></div><div class="ttdef"><b>Definition</b> Geant4Converters.hpp:99</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_geant4_shape_converter_html_a015fb69d8527053be5599230181d7ae2"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_shape_converter.html#a015fb69d8527053be5599230181d7ae2">ActsPlugins::Geant4ShapeConverter::planarBounds</a></div><div class="ttdeci">std::tuple&lt; std::shared_ptr&lt; Acts::PlanarBounds &gt;, std::array&lt; int, 2u &gt;, double &gt; planarBounds(const G4VSolid &amp;g4Solid)</div><div class="ttdoc">Convert to general solid into a planar shape.</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_geant4_shape_converter_html_a0c629417caf6d802ca475506ff2c7a71"><div class="ttname"><a href="struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71">ActsPlugins::Geant4ShapeConverter::cylinderBounds</a></div><div class="ttdeci">std::tuple&lt; std::shared_ptr&lt; Acts::CylinderBounds &gt;, double &gt; cylinderBounds(const G4Tubs &amp;g4Tubs)</div><div class="ttdoc">Convert to cylinder bounds.</div></div>

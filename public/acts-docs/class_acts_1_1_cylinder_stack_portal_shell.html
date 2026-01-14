@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -157,11 +159,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaf1b601c8ba6d2a82cea6eaa9561aa2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a portal is <em>valid</em>, e.g.     <br /></td></tr>
 <tr class="memitem:a94795e906aef833369dcf9cb92da7b2b" id="r_a94795e906aef833369dcf9cb92da7b2b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94795e906aef833369dcf9cb92da7b2b">label</a> () const override</td></tr>
 <tr class="memdesc:a94795e906aef833369dcf9cb92da7b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a label for the portal shell for debugging purposes.     <br /></td></tr>
-<tr class="memitem:a05b85fa6aa4b396a280eb2796b17e513" id="r_a05b85fa6aa4b396a280eb2796b17e513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_portal.html">Portal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b85fa6aa4b396a280eb2796b17e513">portal</a> (<a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> face) final</td></tr>
-<tr class="memdesc:a05b85fa6aa4b396a280eb2796b17e513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the portal associated to the given face.     <br /></td></tr>
-<tr class="memitem:adc5c788ce29842449555a14d0d3e1479" id="r_adc5c788ce29842449555a14d0d3e1479"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5c788ce29842449555a14d0d3e1479">portalPtr</a> (<a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> face) final</td></tr>
-<tr class="memdesc:adc5c788ce29842449555a14d0d3e1479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a shared_ptr for the portal associated to the given face.     <br /></td></tr>
-<tr class="memitem:a6c8aceded3540ef6ae66ae9c9ffffe3f" id="r_a6c8aceded3540ef6ae66ae9c9ffffe3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c8aceded3540ef6ae66ae9c9ffffe3f">setPortal</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt; <a class="el" href="#a05b85fa6aa4b396a280eb2796b17e513">portal</a>, <a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> face) final</td></tr>
+<tr class="memitem:a771f3b1960675a5d42097d34ccb29767" id="r_a771f3b1960675a5d42097d34ccb29767"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a771f3b1960675a5d42097d34ccb29767">portal</a> (<a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> face) final</td></tr>
+<tr class="memdesc:a771f3b1960675a5d42097d34ccb29767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a shared_ptr for the portal associated to the given face.     <br /></td></tr>
+<tr class="memitem:a6c8aceded3540ef6ae66ae9c9ffffe3f" id="r_a6c8aceded3540ef6ae66ae9c9ffffe3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c8aceded3540ef6ae66ae9c9ffffe3f">setPortal</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt; <a class="el" href="#a771f3b1960675a5d42097d34ccb29767">portal</a>, <a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> face) final</td></tr>
 <tr class="memdesc:a6c8aceded3540ef6ae66ae9c9ffffe3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the portal associated to the given face.     <br /></td></tr>
 <tr class="memitem:ab3ac2a0da0256e893cdfb16c580a8731" id="r_ab3ac2a0da0256e893cdfb16c580a8731"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3ac2a0da0256e893cdfb16c580a8731">size</a> () const final</td></tr>
 <tr class="memdesc:ab3ac2a0da0256e893cdfb16c580a8731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of portals in the shell.     <br /></td></tr>
@@ -182,7 +182,7 @@ Public Member Functions</h2></td></tr>
 <div class="line">  |  |      |      |&lt;--+</div>
 <div class="line">  +--+---+  v      |   |</div>
 <div class="line">     +---+---------+   |</div>
-<div class="line">     |   |         |   |      Shared <a class="code hl_function" href="#a05b85fa6aa4b396a280eb2796b17e513">portal</a></div>
+<div class="line">     |   |         |   |      Shared <a class="code hl_function" href="#a771f3b1960675a5d42097d34ccb29767">portal</a></div>
 <div class="line">     |   |         |&lt;--+---      (grid)</div>
 <div class="line">     |   v         |   |      PositiveDisc</div>
 <div class="line">     +-------------+   |</div>
@@ -193,7 +193,7 @@ Public Member Functions</h2></td></tr>
 <div class="line">  +-----&gt;      ^            (<span class="keywordflow">if</span> rMin&gt;0)</div>
 <div class="line">         z     |                 |</div>
 <div class="line">               +-----------------+</div>
-<div class="ttc" id="aclass_acts_1_1_cylinder_stack_portal_shell_html_a05b85fa6aa4b396a280eb2796b17e513"><div class="ttname"><a href="#a05b85fa6aa4b396a280eb2796b17e513">Acts::CylinderStackPortalShell::portal</a></div><div class="ttdeci">Portal * portal(Face face) final</div><div class="ttdoc">Retrieve the portal associated to the given face.</div></div>
+<div class="ttc" id="aclass_acts_1_1_cylinder_stack_portal_shell_html_a771f3b1960675a5d42097d34ccb29767"><div class="ttname"><a href="#a771f3b1960675a5d42097d34ccb29767">Acts::CylinderStackPortalShell::portal</a></div><div class="ttdeci">std::shared_ptr&lt; Portal &gt; portal(Face face) final</div><div class="ttdoc">Retrieve a shared_ptr for the portal associated to the given face.</div></div>
 </div><!-- fragment --> </dd>
 <dd>
 The shells must be ordered in the given direction Depending on the stack direction, the portal lookup will return different portals. In the illustration above, the <span class="tt">PositiveDisc</span> portal is shared among all shells, while the <span class="tt">OuterCylinder</span> and <span class="tt">InnerCylinder</span> portals are looked up from the innermost and outermost shell in the r direction. </dd></dl>
@@ -354,8 +354,8 @@ The shells must be ordered in the given direction Depending on the stack directi
 
 </div>
 </div>
-<a id="a05b85fa6aa4b396a280eb2796b17e513" name="a05b85fa6aa4b396a280eb2796b17e513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05b85fa6aa4b396a280eb2796b17e513">&#9670;&#160;</a></span>portal()</h2>
+<a id="a771f3b1960675a5d42097d34ccb29767" name="a771f3b1960675a5d42097d34ccb29767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a771f3b1960675a5d42097d34ccb29767">&#9670;&#160;</a></span>portal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,43 +364,7 @@ The shells must be ordered in the given direction Depending on the stack directi
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_portal.html">Portal</a> * Acts::CylinderStackPortalShell::portal </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a></td>          <td class="paramname"><span class="paramname"><em>face</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Retrieve the portal associated to the given face.    </p>
-<p>Can be nullptr if unset. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">face</td><td>The face to retrieve the portal for </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The portal associated to the face    </dd></dl>
-
-<p>Implements <a class="el" href="class_acts_1_1_cylinder_portal_shell.html#a833dbfcf13c2e477d9cba5f203cb1e77">Acts::CylinderPortalShell</a>.</p>
-
-</div>
-</div>
-<a id="adc5c788ce29842449555a14d0d3e1479" name="adc5c788ce29842449555a14d0d3e1479"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc5c788ce29842449555a14d0d3e1479">&#9670;&#160;</a></span>portalPtr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt; Acts::CylinderStackPortalShell::portalPtr </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt; Acts::CylinderStackPortalShell::portal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a></td>          <td class="paramname"><span class="paramname"><em>face</em></span></td><td>)</td>
           <td></td>
@@ -422,7 +386,7 @@ The shells must be ordered in the given direction Depending on the stack directi
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The portal associated to the face    </dd></dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_cylinder_portal_shell.html#a80b95488b7eb9b80ef382f056e2e2bbe">Acts::CylinderPortalShell</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_cylinder_portal_shell.html#a2b1e342e66fc1cbb295a3d742abce1d0">Acts::CylinderPortalShell</a>.</p>
 
 </div>
 </div>
