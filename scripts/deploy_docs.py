@@ -79,6 +79,9 @@ def parse_semver(version: str) -> tuple:
     return (0, 0, 0, (0, version))
 
 
+SCRIPTS_DIR = Path(__file__).parent
+
+
 def get_target_folder(ref_type: RefType, ref_name: str, main_branch: str) -> str:
     """Determine the target folder for deployment."""
     if ref_type == "branch" and ref_name == main_branch:
@@ -91,6 +94,29 @@ def get_target_folder(ref_type: RefType, ref_name: str, main_branch: str) -> str
         return f"tags/v{normalize_version(ref_name)}"
     else:
         return re.sub(r"[^a-zA-Z0-9._-]", "-", ref_name)
+
+
+def generate_version_selector_js(deploy_dir: Path) -> None:
+    """Generate the version-selector.js file at the deploy root."""
+    source_js = SCRIPTS_DIR / "version-selector.js"
+    dest_js = deploy_dir / "version-selector.js"
+    shutil.copy2(source_js, dest_js)
+
+
+def patch_version_manager_js(deploy_dir: Path) -> int:
+    """
+    Patch all acts-version-manager.js files in the deploy directory.
+
+    Returns the number of files patched.
+    """
+    source_js = SCRIPTS_DIR / "acts-version-manager.js"
+    source_content = source_js.read_text()
+
+    count = 0
+    for js_file in deploy_dir.rglob("acts-version-manager.js"):
+        js_file.write_text(source_content)
+        count += 1
+    return count
 
 
 def deploy_docs(source_dir: Path, deploy_dir: Path, target_folder: str) -> Path:
@@ -176,6 +202,12 @@ def deploy(
     index = update_index(index, ref_type, ref_name, target_folder, main_branch)
     index.save(index_path)
     rprint(f"[green]Updated versions index:[/green] {index_path}")
+
+    generate_version_selector_js(deploy_dir)
+    rprint(f"[green]Generated version selector:[/green] {deploy_dir / 'version-selector.js'}")
+
+    patched_count = patch_version_manager_js(deploy_dir)
+    rprint(f"[green]Patched acts-version-manager.js:[/green] {patched_count} file(s)")
 
 
 if __name__ == "__main__":
