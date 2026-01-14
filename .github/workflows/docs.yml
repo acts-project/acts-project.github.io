@@ -3,6 +3,14 @@ name: Deploy GitHub Pages from upstream artifact
 on:
   repository_dispatch:
     types: [ deploy_docs ]
+  workflow_dispatch:
+    inputs:
+      source_repo:
+        description: 'Source repository (owner/repo)'
+        required: true
+      run_id:
+        description: 'Workflow run ID to download artifact from'
+        required: true
 
 permissions:
   contents: write   # needed to push to the Pages branch (e.g. gh-pages)
@@ -17,9 +25,9 @@ jobs:
      - uses: actions/download-artifact@v4
        with:
         path: html
-        repository: '${{ github.event.client_payload.source_repo }}'
-        artifact-ids: '${{ github.event.client_payload.artifact_id }}'
-        run-id: ${{ github.event.client_payload.run_id }}
+        repository: '${{ github.event.client_payload.source_repo || inputs.source_repo }}'
+        name: acts-docs
+        run-id: ${{ github.event.client_payload.run_id || inputs.run_id }}
         github-token: ${{ secrets.CROSS_REPO_ARTIFACT_READ }}
 
      - name: Deploy 🚀
