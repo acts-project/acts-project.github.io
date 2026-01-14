@@ -184,13 +184,15 @@ class ActsVersionManager {
     if (this.prMetadata) {
       this.renderPRBanner(this.prMetadata);
     } else {
-      const sideNav = document.querySelector('#side-nav');
-      if (sideNav) {
+      // Desktop sidebar
+      const navTree = document.querySelector('#nav-tree');
+      if (navTree) {
         const container = document.createElement('div');
         container.id = 'acts-version-selector';
-        sideNav.prepend(container);
+        navTree.appendChild(container);
         await this.loadExternalVersionSelector();
       }
+
     }
   }
 }

@@ -5,6 +5,8 @@
 (function() {
   'use strict';
 
+  let initialized = false;
+
   async function fetchVersions(siteRoot) {
     try {
       const response = await fetch(`${siteRoot}/versions.json`, { cache: 'no-store' });
@@ -17,48 +19,69 @@
   }
 
   function detectCurrentVersion(currentPath) {
-    // Check if we're in a tagged version: /tags/v1.2.3/...
     const match = currentPath.match(/\/tags\/v([\d.]+(?:-[\w.]+)?)/);
     if (match) {
       return { type: 'tag', version: match[1] };
     }
-    // Otherwise we're on main
     return { type: 'main', version: null };
   }
 
-  function createDropdown(versions, currentVersion, siteRoot) {
-    const container = document.createElement('div');
-    container.className = 'acts-version-dropdown';
-
-    const label = document.createElement('label');
-    label.textContent = 'Version: ';
-    label.htmlFor = 'acts-version-select';
-
-    const select = document.createElement('select');
-    select.id = 'acts-version-select';
-
-    // Add main option
-    const mainOption = document.createElement('option');
-    mainOption.value = '';
-    mainOption.textContent = 'main (development)';
-    if (currentVersion.type === 'main') {
-      mainOption.selected = true;
+  function isOutdated(versions, currentVersion) {
+    if (currentVersion.type !== 'tag' || versions.versions.length === 0) {
+      return false;
     }
-    select.appendChild(mainOption);
+    return currentVersion.version !== versions.versions[0].version;
+  }
 
-    // Add version options (already sorted by semver descending)
+  function createVersionBanner(versions, currentVersion, siteRoot) {
+    const outdated = isOutdated(versions, currentVersion);
+    const latestVersion = versions.versions[0];
+
+    const banner = document.createElement('div');
+    banner.className = 'acts-version-banner';
+    if (outdated) {
+      banner.classList.add('acts-version-banner--outdated');
+    }
+
+    // Warning text for outdated versions
+    let warningHtml = '';
+    if (outdated) {
+      warningHtml = `
+        <div class="acts-version-warning">
+          <strong>You are viewing documentation for an older version (v${currentVersion.version}).</strong>
+          <a href="${siteRoot}/${latestVersion.path}/index.html">View latest stable (v${latestVersion.version})</a>
+          or
+          <a href="${siteRoot}/index.html">development (main)</a>
+        </div>
+      `;
+    }
+
+    // Build select options
+    let optionsHtml = `<option value="">main (development)</option>`;
     for (let i = 0; i < versions.versions.length; i++) {
       const v = versions.versions[i];
-      const option = document.createElement('option');
-      option.value = v.path;
-      option.textContent = i === 0 ? `v${v.version} (latest)` : `v${v.version}`;
-      if (currentVersion.type === 'tag' && currentVersion.version === v.version) {
-        option.selected = true;
-      }
-      select.appendChild(option);
+      const label = i === 0 ? `v${v.version} (latest)` : `v${v.version}`;
+      const selected = (currentVersion.type === 'tag' && currentVersion.version === v.version) ? 'selected' : '';
+      optionsHtml += `<option value="${v.path}" ${selected}>${label}</option>`;
     }
 
-    // Handle version change - always go to index.html
+    // Select main if on main
+    if (currentVersion.type === 'main') {
+      optionsHtml = optionsHtml.replace('value="">', 'value="" selected>');
+    }
+
+    banner.innerHTML = `
+      ${warningHtml}
+      <div class="acts-version-select">
+        <label for="acts-version-select">Version:</label>
+        <select id="acts-version-select">
+          ${optionsHtml}
+        </select>
+      </div>
+    `;
+
+    // Handle version change
+    const select = banner.querySelector('select');
     select.addEventListener('change', function() {
       const selectedPath = this.value;
       let newUrl;
@@ -70,100 +93,119 @@
       window.location.href = newUrl;
     });
 
-    container.appendChild(label);
-    container.appendChild(select);
-
-    return container;
-  }
-
-  function createOutdatedBanner(versions, currentVersion, siteRoot) {
-    // Only show for tagged versions that aren't the latest
-    if (currentVersion.type !== 'tag' || versions.versions.length === 0) {
-      return null;
-    }
-
-    const latestVersion = versions.versions[0];
-    if (currentVersion.version === latestVersion.version) {
-      return null; // This is the latest, no banner needed
-    }
-
-    const banner = document.createElement('div');
-    banner.className = 'acts-outdated-banner';
-    banner.innerHTML = `
-      <strong>You are viewing documentation for an older version (v${currentVersion.version}).</strong><br>
-      <a href="${siteRoot}/${latestVersion.path}/index.html">View latest stable (v${latestVersion.version})</a>
-      &nbsp;|&nbsp;
-      <a href="${siteRoot}/index.html">View development (main)</a>
-    `;
-
     return banner;
   }
 
   function addStyles() {
     const style = document.createElement('style');
     style.textContent = `
-      .acts-version-dropdown {
-        padding: 10px;
+      .acts-version-banner {
+        background: #e7f3ff;
+        border: 1px solid #b3d7ff;
+        border-radius: 4px;
+        padding: 12px 16px;
+        margin-bottom: 16px;
+        color: #1a4a6e;
+      }
+      .acts-version-banner--outdated {
+        background: #fff3cd;
+        border-color: #ffc107;
+        color: #856404;
+      }
+      .acts-version-warning {
         margin-bottom: 10px;
       }
-      .acts-version-dropdown label {
+      .acts-version-warning a {
+        color: #533f03;
         font-weight: bold;
-        margin-right: 5px;
       }
-      .acts-version-dropdown select {
+      .acts-version-select label {
+        font-weight: bold;
+        margin-right: 8px;
+      }
+      .acts-version-select select {
         padding: 4px 8px;
         border-radius: 4px;
         border: 1px solid #ccc;
         background: white;
+        color: #333;
         cursor: pointer;
       }
-      .acts-outdated-banner {
-        background: #fff3cd;
-        border: 1px solid #ffc107;
-        border-radius: 4px;
-        padding: 12px 16px;
-        margin-bottom: 16px;
-        color: #856404;
+
+      /* System dark mode preference (when no explicit toggle) */
+      @media (prefers-color-scheme: dark) {
+        html:not(.light-mode):not(.dark-mode) .acts-version-banner {
+          background: #1e3a5f;
+          border-color: #2d5a8a;
+          color: #b3d7ff;
+        }
+        html:not(.light-mode):not(.dark-mode) .acts-version-banner--outdated {
+          background: #4a3c00;
+          border-color: #6b5a00;
+          color: #ffd966;
+        }
+        html:not(.light-mode):not(.dark-mode) .acts-version-warning a {
+          color: #ffeb99;
+        }
+        html:not(.light-mode):not(.dark-mode) .acts-version-select select {
+          background: #2a2a2a;
+          border-color: #555;
+          color: #eee;
+        }
       }
-      .acts-outdated-banner a {
-        color: #533f03;
-        font-weight: bold;
+
+      /* Explicit dark mode toggle */
+      html.dark-mode .acts-version-banner {
+        background: #1e3a5f;
+        border-color: #2d5a8a;
+        color: #b3d7ff;
+      }
+      html.dark-mode .acts-version-banner--outdated {
+        background: #4a3c00;
+        border-color: #6b5a00;
+        color: #ffd966;
+      }
+      html.dark-mode .acts-version-warning a {
+        color: #ffeb99;
+      }
+      html.dark-mode .acts-version-select select {
+        background: #2a2a2a;
+        border-color: #555;
+        color: #eee;
       }
     `;
     document.head.appendChild(style);
   }
 
   window.initVersionSelector = async function(options) {
-    const { container, currentPath, siteRoot } = options;
+    // Only initialize once, in the content area
+    if (initialized) return;
+    initialized = true;
 
-    const containerEl = document.querySelector(container);
-    if (!containerEl) {
-      console.error('[ACTS] Version selector container not found:', container);
-      return;
-    }
+    const { currentPath, siteRoot } = options;
 
     const versions = await fetchVersions(siteRoot);
     if (!versions || (!versions.main && versions.versions.length === 0)) {
       console.log('[ACTS] No versions available');
-      containerEl.remove();
       return;
     }
 
     addStyles();
 
     const currentVersion = detectCurrentVersion(currentPath);
-    const dropdown = createDropdown(versions, currentVersion, siteRoot);
-    containerEl.appendChild(dropdown);
+    const banner = createVersionBanner(versions, currentVersion, siteRoot);
 
-    // Add outdated banner if needed
-    const banner = createOutdatedBanner(versions, currentVersion, siteRoot);
-    if (banner) {
-      const docContent = document.querySelector('#doc-content');
-      if (docContent) {
-        docContent.prepend(banner);
-      }
+    const docContent = document.querySelector('#doc-content');
+    if (docContent) {
+      docContent.prepend(banner);
     }
 
-    console.log('[ACTS] Version selector rendered, current:', currentVersion);
+    // Remove the sidebar container since we're using the banner instead
+    const sidebarContainer = document.querySelector('#acts-version-selector');
+    if (sidebarContainer) {
+      sidebarContainer.remove();
+    }
+
+    console.log('[ACTS] Version banner rendered, current:', currentVersion);
   };
 })();
