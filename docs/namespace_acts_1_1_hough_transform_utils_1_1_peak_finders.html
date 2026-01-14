@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -137,10 +139,118 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Peak finder inspired by ATLAS ITk event filter developments.  <a href="class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LayerGuidedCombinatoricConfig" id="r_LayerGuidedCombinatoricConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html">LayerGuidedCombinatoricConfig</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">configuration for the LayerGuidedCombinatoric peak finder  <a href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#details">More...</a><br /></td></tr>
+<tr class="memitem:SlidingWindowConfig" id="r_SlidingWindowConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html">SlidingWindowConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Peak finder using sliding window algorithm.  <a href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a243b68b12e2f8e5cd1b6175f0d7f4712" id="r_a243b68b12e2f8e5cd1b6175f0d7f4712"><td class="memTemplParams" colspan="2">template&lt;typename identifier_t, typename pixel_value_t = unsigned char&gt; </td></tr>
+<tr class="memitem:a243b68b12e2f8e5cd1b6175f0d7f4712 template"><td class="memItemLeft" align="right" valign="top">std::vector&lt; pixel_value_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a243b68b12e2f8e5cd1b6175f0d7f4712">hitsCountImage</a> (const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;plane, typename <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt;::Index index, std::size_t xSize, std::size_t ySize, const std::function&lt; pixel_value_t(const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;, int, int)&gt; &amp;summaryFunction=[](const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;plane, int x, int y) { return static_cast&lt; pixel_value_t &gt;(plane.nHits(x, y));})</td></tr>
+<tr class="memdesc:a243b68b12e2f8e5cd1b6175f0d7f4712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain an image around the peak.  <br /></td></tr>
+<tr class="memitem:a96a06681f21418ba3cfd2f13a252a9f8" id="r_a96a06681f21418ba3cfd2f13a252a9f8"><td class="memTemplParams" colspan="2">template&lt;typename identifier_t&gt; </td></tr>
+<tr class="memitem:a96a06681f21418ba3cfd2f13a252a9f8 template"><td class="memItemLeft" align="right" valign="top">std::vector&lt; typename <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt;::Index &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a06681f21418ba3cfd2f13a252a9f8">slidingWindowPeaks</a> (const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;plane, const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html">SlidingWindowConfig</a> &amp;config)</td></tr>
+<tr class="memdesc:a96a06681f21418ba3cfd2f13a252a9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain peaks list in Hough space using Sliding Window algorithm.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>example peak finders. </p>
-</div></div><!-- contents -->
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a243b68b12e2f8e5cd1b6175f0d7f4712" name="a243b68b12e2f8e5cd1b6175f0d7f4712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243b68b12e2f8e5cd1b6175f0d7f4712">&#9670;&#160;</a></span>hitsCountImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename identifier_t, typename pixel_value_t = unsigned char&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; pixel_value_t &gt; Acts::HoughTransformUtils::PeakFinders::hitsCountImage </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt;::Index</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>xSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>ySize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; pixel_value_t(const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;, int, int)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>summaryFunction</em></span><span class="paramdefsep"> = </span><span class="paramdefval">[](const&#160;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt;&#160;identifier_t&#160;&gt;&#160;&amp;plane,&#160;int&#160;x,&#160;int&#160;y)&#160;{&#160;return&#160;static_cast&lt;&#160;pixel_value_t&#160;&gt;(plane.nHits(x,&#160;y));}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtain an image around the peak. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">identifier_t</td><td>Hough plane content </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plane</td><td>Hough plane to work on </td></tr>
+    <tr><td class="paramname">index</td><td>peak center </td></tr>
+    <tr><td class="paramname">xSize</td><td>number of cells around the peak in x direction </td></tr>
+    <tr><td class="paramname">ySize</td><td>number of cells around the peak in y direction </td></tr>
+    <tr><td class="paramname">summaryFunction</td><td>function constructing pixel content, default is just number of hits in cell Other implementations may take into account layers </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the vector with count of hits starting from lower left to upper right corner of rectangular window The "image" is always of the same size, if it would happen to be outside of Hough plane the content is padded with zeros </dd></dl>
+
+</div>
+</div>
+<a id="a96a06681f21418ba3cfd2f13a252a9f8" name="a96a06681f21418ba3cfd2f13a252a9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a06681f21418ba3cfd2f13a252a9f8">&#9670;&#160;</a></span>slidingWindowPeaks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename identifier_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; typename <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt;::Index &gt; Acts::HoughTransformUtils::PeakFinders::slidingWindowPeaks </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a>&lt; identifier_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html">SlidingWindowConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtain peaks list in Hough space using Sliding Window algorithm. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">identifier_t</td><td>Hough plane content </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plane</td><td>Hough plane to work on </td></tr>
+    <tr><td class="paramname">config</td><td>algorithm configuration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>list of indices (pairs of numbers) </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

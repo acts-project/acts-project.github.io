@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -136,10 +138,8 @@ Collaboration diagram for Acts::KalmanFitterOptions&lt; traj_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a74da36683f24027315a1390ee091837b" id="r_a74da36683f24027315a1390ee091837b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74da36683f24027315a1390ee091837b">KalmanFitterOptions</a> ()=delete</td></tr>
-<tr class="memdesc:a74da36683f24027315a1390ee091837b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contexts are required and the options must not be default-constructible.  <br /></td></tr>
-<tr class="memitem:aca598b791aae0f6c4c1b3235065c5853" id="r_aca598b791aae0f6c4c1b3235065c5853"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca598b791aae0f6c4c1b3235065c5853">KalmanFitterOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt; cctx, <a class="el" href="struct_acts_1_1_kalman_fitter_extensions.html">KalmanFitterExtensions</a>&lt; traj_t &gt; extensions_, const <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> &amp;pOptions, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *rSurface=nullptr, bool mScattering=true, bool eLoss=true, bool rFiltering=false, double rfScaling=1.0, const FreeToBoundCorrection &amp;freeToBoundCorrection_=FreeToBoundCorrection(false))</td></tr>
-<tr class="memdesc:aca598b791aae0f6c4c1b3235065c5853"><td class="mdescLeft">&#160;</td><td class="mdescRight">PropagatorOptions with context.  <br /></td></tr>
+<tr class="memitem:a698fb837d25303ee3ef4d3fbf41328ce" id="r_a698fb837d25303ee3ef4d3fbf41328ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698fb837d25303ee3ef4d3fbf41328ce">KalmanFitterOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt; cctx, <a class="el" href="struct_acts_1_1_kalman_fitter_extensions.html">KalmanFitterExtensions</a>&lt; traj_t &gt; extensions_, const <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> &amp;pOptions, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *tSurface=nullptr, bool mScattering=true, bool eLoss=true, bool rFiltering=false, double rfScaling=1.0, const FreeToBoundCorrection &amp;freeToBoundCorrection_=FreeToBoundCorrection(false))</td></tr>
+<tr class="memdesc:a698fb837d25303ee3ef4d3fbf41328ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">PropagatorOptions with context.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -160,13 +160,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a873570248761ee0f7214c84acfbb5506" id="r_a873570248761ee0f7214c84acfbb5506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a873570248761ee0f7214c84acfbb5506">propagatorPlainOptions</a></td></tr>
 <tr class="memdesc:a873570248761ee0f7214c84acfbb5506"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trivial propagator options.  <br /></td></tr>
 <tr class="memitem:af85ef933b345edb15b4cbd8d0e1fe1be" id="r_af85ef933b345edb15b4cbd8d0e1fe1be"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a> = nullptr</td></tr>
-<tr class="memdesc:af85ef933b345edb15b4cbd8d0e1fe1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference Surface.  <br /></td></tr>
-<tr class="memitem:ab95034f0990fa21a8dbf1bd53037c85a" id="r_ab95034f0990fa21a8dbf1bd53037c85a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__track__fitting.html#ga5d2737be513e48e005e5f1b9566fb459">KalmanFitterTargetSurfaceStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab95034f0990fa21a8dbf1bd53037c85a">referenceSurfaceStrategy</a></td></tr>
-<tr class="memdesc:ab95034f0990fa21a8dbf1bd53037c85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strategy to propagate to reference surface.  <br /></td></tr>
-<tr class="memitem:a9fff7233c53564820692c04bd00cb1f9" id="r_a9fff7233c53564820692c04bd00cb1f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fff7233c53564820692c04bd00cb1f9">reversedFiltering</a> = false</td></tr>
-<tr class="memdesc:a9fff7233c53564820692c04bd00cb1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to run filtering in reversed direction overwrite the ReverseFilteringLogic.  <br /></td></tr>
-<tr class="memitem:a91ab374e4c220526f636b40ca78a6f63" id="r_a91ab374e4c220526f636b40ca78a6f63"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ab374e4c220526f636b40ca78a6f63">reversedFilteringCovarianceScaling</a> = 1.0</td></tr>
-<tr class="memdesc:a91ab374e4c220526f636b40ca78a6f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factor by which the covariance of the input of the reversed filtering is scaled.  <br /></td></tr>
+<tr class="memdesc:af85ef933b345edb15b4cbd8d0e1fe1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference surface.  <br /></td></tr>
+<tr class="memitem:aea7cc1577559720d76e963d1bee02765" id="r_aea7cc1577559720d76e963d1bee02765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a086febf882ea487434374ef548a90661">TrackExtrapolationStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea7cc1577559720d76e963d1bee02765">referenceSurfaceStrategy</a></td></tr>
+<tr class="memdesc:aea7cc1577559720d76e963d1bee02765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strategy to propagate to reference surface.  <br /></td></tr>
+<tr class="memitem:a41f3c51b640b3905181ca44bb79e0649" id="r_a41f3c51b640b3905181ca44bb79e0649"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41f3c51b640b3905181ca44bb79e0649">reverseFiltering</a> = false</td></tr>
+<tr class="memdesc:a41f3c51b640b3905181ca44bb79e0649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to run filtering in reversed direction overwrite the ReverseFilteringLogic.  <br /></td></tr>
+<tr class="memitem:a186d8b8d8db33274bc38707909693c1a" id="r_a186d8b8d8db33274bc38707909693c1a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186d8b8d8db33274bc38707909693c1a">reverseFilteringCovarianceScaling</a> = 100.0</td></tr>
+<tr class="memdesc:a186d8b8d8db33274bc38707909693c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factor by which the covariance of the input of the reversed filtering is scaled.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename traj_t&gt;<br />
@@ -178,8 +178,8 @@ struct Acts::KalmanFitterOptions&lt; traj_t &gt;</div><p>Combined options for th
   </dd>
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aca598b791aae0f6c4c1b3235065c5853" name="aca598b791aae0f6c4c1b3235065c5853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca598b791aae0f6c4c1b3235065c5853">&#9670;&#160;</a></span>KalmanFitterOptions() <span class="overload">[1/2]</span></h2>
+<a id="a698fb837d25303ee3ef4d3fbf41328ce" name="a698fb837d25303ee3ef4d3fbf41328ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698fb837d25303ee3ef4d3fbf41328ce">&#9670;&#160;</a></span>KalmanFitterOptions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,7 +214,7 @@ template&lt;typename traj_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *</td>          <td class="paramname"><span class="paramname"><em>rSurface</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *</td>          <td class="paramname"><span class="paramname"><em>tSurface</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -252,44 +252,15 @@ template&lt;typename traj_t&gt; </div>
     <tr><td class="paramname">cctx</td><td>The calibration context for this fit </td></tr>
     <tr><td class="paramname">extensions_</td><td>The KF extensions </td></tr>
     <tr><td class="paramname">pOptions</td><td>The plain propagator options </td></tr>
-    <tr><td class="paramname">rSurface</td><td>The reference surface for the fit to be expressed at </td></tr>
+    <tr><td class="paramname">tSurface</td><td>The target surface for the fit </td></tr>
     <tr><td class="paramname">mScattering</td><td>Whether to include multiple scattering </td></tr>
     <tr><td class="paramname">eLoss</td><td>Whether to include energy loss </td></tr>
-    <tr><td class="paramname">rFiltering</td><td>Whether to run filtering in reversed direction as smoothing </td></tr>
-    <tr><td class="paramname">rfScaling</td><td>Scale factor for the covariance matrix before the backward filtering </td></tr>
+    <tr><td class="paramname">rFiltering</td><td>Whether to run reversed filtering </td></tr>
+    <tr><td class="paramname">rfScaling</td><td>Scaling factor for covariance at input of reversed filtering </td></tr>
     <tr><td class="paramname">freeToBoundCorrection_</td><td>Correction for non-linearity effect during transform from free to bound </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a74da36683f24027315a1390ee091837b" name="a74da36683f24027315a1390ee091837b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74da36683f24027315a1390ee091837b">&#9670;&#160;</a></span>KalmanFitterOptions() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::KalmanFitterOptions </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Contexts are required and the options must not be default-constructible. </p>
 
 </div>
 </div>
@@ -452,12 +423,12 @@ template&lt;typename traj_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The reference Surface. </p>
+<p>The reference surface. </p>
 
 </div>
 </div>
-<a id="ab95034f0990fa21a8dbf1bd53037c85a" name="ab95034f0990fa21a8dbf1bd53037c85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab95034f0990fa21a8dbf1bd53037c85a">&#9670;&#160;</a></span>referenceSurfaceStrategy</h2>
+<a id="aea7cc1577559720d76e963d1bee02765" name="aea7cc1577559720d76e963d1bee02765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7cc1577559720d76e963d1bee02765">&#9670;&#160;</a></span>referenceSurfaceStrategy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,20 +436,20 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__track__fitting.html#ga5d2737be513e48e005e5f1b9566fb459">KalmanFitterTargetSurfaceStrategy</a> <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::referenceSurfaceStrategy</td>
+          <td class="memname"><a class="el" href="namespace_acts.html#a086febf882ea487434374ef548a90661">TrackExtrapolationStrategy</a> <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::referenceSurfaceStrategy</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      <a class="code hl_enumvalue" href="group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018">KalmanFitterTargetSurfaceStrategy::firstOrLast</a></div>
-<div class="ttc" id="agroup__track__fitting_html_gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018"><div class="ttname"><a href="group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018">Acts::KalmanFitterTargetSurfaceStrategy::firstOrLast</a></div><div class="ttdeci">@ firstOrLast</div><div class="ttdoc">Use the first or last trackstate to reach target surface depending on the distance.</div><div class="ttdef"><b>Definition</b> KalmanFitter.hpp:55</div></div>
+<div class="line">      <a class="code hl_enumvalue" href="namespace_acts.html#a086febf882ea487434374ef548a90661a6fc382933a0480bdfa5eb85b743e3018">TrackExtrapolationStrategy::firstOrLast</a></div>
+<div class="ttc" id="anamespace_acts_html_a086febf882ea487434374ef548a90661a6fc382933a0480bdfa5eb85b743e3018"><div class="ttname"><a href="namespace_acts.html#a086febf882ea487434374ef548a90661a6fc382933a0480bdfa5eb85b743e3018">Acts::TrackExtrapolationStrategy::firstOrLast</a></div><div class="ttdeci">@ firstOrLast</div><div class="ttdoc">Use the first or last track state to reach target surface depending on the distance.</div><div class="ttdef"><b>Definition</b> TrackHelpers.hpp:40</div></div>
 </div><!-- fragment -->
 <p>Strategy to propagate to reference surface. </p>
 
 </div>
 </div>
-<a id="a9fff7233c53564820692c04bd00cb1f9" name="a9fff7233c53564820692c04bd00cb1f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fff7233c53564820692c04bd00cb1f9">&#9670;&#160;</a></span>reversedFiltering</h2>
+<a id="a41f3c51b640b3905181ca44bb79e0649" name="a41f3c51b640b3905181ca44bb79e0649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41f3c51b640b3905181ca44bb79e0649">&#9670;&#160;</a></span>reverseFiltering</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +457,7 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::reversedFiltering = false</td>
+          <td class="memname">bool <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::reverseFiltering = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -495,8 +466,8 @@ template&lt;typename traj_t&gt; </div>
 
 </div>
 </div>
-<a id="a91ab374e4c220526f636b40ca78a6f63" name="a91ab374e4c220526f636b40ca78a6f63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91ab374e4c220526f636b40ca78a6f63">&#9670;&#160;</a></span>reversedFilteringCovarianceScaling</h2>
+<a id="a186d8b8d8db33274bc38707909693c1a" name="a186d8b8d8db33274bc38707909693c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a186d8b8d8db33274bc38707909693c1a">&#9670;&#160;</a></span>reverseFilteringCovarianceScaling</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,13 +475,13 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::reversedFilteringCovarianceScaling = 1.0</td>
+          <td class="memname">double <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">Acts::KalmanFitterOptions</a>&lt; traj_t &gt;::reverseFilteringCovarianceScaling = 100.0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Factor by which the covariance of the input of the reversed filtering is scaled. </p>
-<p>This is only used in the backwardfiltering (if reversedFiltering is true or if the ReverseFilteringLogic return true for the track of interest) </p>
+<p>This is only used in the backward filtering (if reverseFiltering is true or if the ReverseFilteringLogic return true for the track of interest). Note that the default value is not tuned and might need adjustment for different use cases. </p>
 
 </div>
 </div>

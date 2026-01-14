@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -137,6 +139,7 @@ $(function(){initNavTree('functions_func_r.html','',''); });
 <li>rangeSearchMapInserter()&#160;:&#160;<a class="el" href="class_acts_1_1_k_d_tree.html#a37b7c9ca6022126c2e47fab00f4c1847">Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;</a></li>
 <li>rangeSearchWithKey()&#160;:&#160;<a class="el" href="class_acts_1_1_k_d_tree.html#ab8b20b808df88e92149002f87753864a">Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;</a></li>
 <li>RangeXD()&#160;:&#160;<a class="el" href="class_acts_1_1_range_x_d.html#aeec3aae321f39c59debe6164fd8a581b">Acts::RangeXD&lt; Dims, Type, Vector &gt;</a></li>
+<li>rank()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_efficiency.html#a2ad39036af1eea73594ff181dc0115b0">Acts::Experimental::Efficiency&lt; Dim &gt;</a>, <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html#aaa0dd7ea0b659e87741420cc9b0876ca">Acts::Experimental::Histogram&lt; Dim &gt;</a>, <a class="el" href="class_acts_1_1_experimental_1_1_profile_histogram.html#ad937409c2180a017fb0cd8c94ca0b0dc">Acts::Experimental::ProfileHistogram&lt; Dim &gt;</a></li>
 <li>Ray()&#160;:&#160;<a class="el" href="class_acts_1_1_ray.html#a8a874813dfd24b7d1b9c74241cbefca2">Acts::Ray&lt; value_t, DIM &gt;</a></li>
 <li>rCenter()&#160;:&#160;<a class="el" href="class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562">Acts::DiscTrapezoidBounds</a></li>
 <li>rColumn()&#160;:&#160;<a class="el" href="class_acts_1_1_space_point_container2.html#a084306170354b1a6d1813f65fed5b24b">Acts::SpacePointContainer2</a></li>
@@ -153,7 +156,7 @@ $(function(){initNavTree('functions_func_r.html','',''); });
 <li>referencePosition()&#160;:&#160;<a class="el" href="class_acts_1_1_cone_surface.html#a11727565fdf31e4b19e34256aa273008">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a1ec919ac4fc7f6dff85f206271d5465f">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#a7430d52a00ea094843b2407a0cce2f6b">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_geometry_object.html#a05681cc42af51a5ac87b269ecb8c3b26">Acts::GeometryObject</a>, <a class="el" href="class_acts_1_1_line_surface.html#a99a0c1ea4f3e908a698a5cddccc842cc">Acts::LineSurface</a>, <a class="el" href="class_acts_1_1_navigation_layer.html#ac45bb260ed5f610adb55ecdece6c9255">Acts::NavigationLayer</a>, <a class="el" href="class_acts_1_1_plane_surface.html#ad8de713be59219473efed84486ba189f">Acts::PlaneSurface</a>, <a class="el" href="class_acts_1_1_volume.html#a3d3d68df22e60fd8528afaf2ca05247d">Acts::Volume</a></li>
 <li>referencePositionValue()&#160;:&#160;<a class="el" href="class_acts_1_1_disc_surface.html#a0ce7ba07ce19eebe120bd1e487f4da58">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_geometry_object.html#a7676d0ddf36068967094fd4a2b069089">Acts::GeometryObject</a></li>
 <li>references()&#160;:&#160;<a class="el" href="struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0">Acts::AxisDirectionReferenceGenerator&lt; bVAL &gt;</a>, <a class="el" href="struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c">Acts::CenterReferenceGenerator</a>, <a class="el" href="struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de">Acts::IReferenceGenerator</a>, <a class="el" href="struct_acts_1_1_polyhedron_reference_generator.html#a64b5009aa9be7697fa913ba69e497c6e">Acts::PolyhedronReferenceGenerator</a>, <a class="el" href="struct_acts_1_1_projected_reference_generator.html#a8899f92a52e1b454a2cdc7af31720696">Acts::ProjectedReferenceGenerator</a></li>
-<li>referenceSurface()&#160;:&#160;<a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#a3908a9422aa83af3da929b6c9f35ea49">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a086711e524430e63c5095709da67fc79">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a3532d5e68a9aa3b10ee8c9dfe7d54af8">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a5d2752b19ae2ec79ee68816f2ad00166">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a412f66e00d2d9194b0d1c1adee50a279">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_fatras_1_1_particle.html#a0e9aa925e4a57b9bf895b3ef401079aa">ActsFatras::Particle</a></li>
+<li>referenceSurface()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_proxy.html#a682d9e8a5c9e94f0558af26fed1c24f9">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_any_track_state_proxy.html#ae929e5fe27918caae4fc4786c88af1b6">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#a3908a9422aa83af3da929b6c9f35ea49">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a086711e524430e63c5095709da67fc79">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a3532d5e68a9aa3b10ee8c9dfe7d54af8">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a5d2752b19ae2ec79ee68816f2ad00166">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a412f66e00d2d9194b0d1c1adee50a279">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_fatras_1_1_particle.html#a0e9aa925e4a57b9bf895b3ef401079aa">ActsFatras::Particle</a></li>
 <li>referenceSurface_impl()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_const_podio_track_container.html#adf5e472f38e0aaa457682dd37d2c0240">ActsPlugins::ConstPodioTrackContainer</a>, <a class="el" href="class_acts_plugins_1_1_const_podio_track_state_container.html#a470c057f4d7205cb9b24da26339e3155">ActsPlugins::ConstPodioTrackStateContainer</a>, <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_container.html#a5f2b53b7ecfb5c31219624049a4a6e63">ActsPlugins::MutablePodioTrackContainer</a>, <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5d80729874f6aaa8ed998d2341ee812b">ActsPlugins::MutablePodioTrackStateContainer</a></li>
 <li>reflect()&#160;:&#160;<a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#a4d5ada0ab65288d3df8511a667d063f8">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_free_track_parameters.html#a732919afdf6b1b73a7f3e903711bf21a">Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;</a></li>
 <li>reflectInPlace()&#160;:&#160;<a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#ad03a469a0e7bae62fc39db17c4051234">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_free_track_parameters.html#a190176e736e699909a355f3d5fca8731">Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;</a></li>
@@ -205,7 +208,7 @@ $(function(){initNavTree('functions_func_r.html','',''); });
 <li>RootMeasurementIo()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_root_measurement_io.html#a6ba6a3cbaaf7930d6616361caec265a8">ActsPlugins::RootMeasurementIo</a></li>
 <li>rotSymmetryAxis()&#160;:&#160;<a class="el" href="class_acts_1_1_cone_surface.html#addb4dc55b29203c66db00b7dc75a64a0">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a407e0037c642f922e2cf7141a4a95dc5">Acts::CylinderSurface</a></li>
 <li>run()&#160;:&#160;<a class="el" href="struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476">ActsFatras::NoDecay</a>, <a class="el" href="class_acts_fatras_1_1_photon_conversion.html#a513b28d61625fb6745e9e2d0abceb252">ActsFatras::PhotonConversion</a>, <a class="el" href="struct_acts_fatras_1_1_point_like_process.html#ad2719025c7e0a85bc8c7036c4eacfdc8">ActsFatras::PointLikeProcess&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;</a>, <a class="el" href="class_acts_plugins_1_1_gnn_pipeline.html#af261162f2c71952fbad6d9fb337729c1">ActsPlugins::GnnPipeline</a></li>
-<li>runCCA()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#adffeb8f0c66766e3e262e87bb31b143d">Acts::Experimental::SeedFinderGbts</a></li>
+<li>runCCA()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a50453ae69b71556374a6b20ad8bb351a">Acts::Experimental::SeedFinderGbts</a></li>
 <li>runContinuous()&#160;:&#160;<a class="el" href="class_acts_fatras_1_1_interaction_list.html#a429e33339a88d6d8d43a6378d16f23ae">ActsFatras::InteractionList&lt; processes_t &gt;</a></li>
 <li>runONNXInference()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_onnx_runtime_base.html#a46ed85cc2ec7aa8c6c3cef78d345c732">ActsPlugins::OnnxRuntimeBase</a></li>
 <li>runONNXInferenceMultiOutput()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_onnx_runtime_base.html#a29a5856f28dd5e5b448521a4b0857c07">ActsPlugins::OnnxRuntimeBase</a></li>

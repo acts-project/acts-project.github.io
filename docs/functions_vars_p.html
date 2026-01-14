@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -131,7 +133,7 @@ $(function(){initNavTree('functions_vars_p.html','',''); });
 <li>parsToUse&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a9739ce462fddedd7e6871ca86ca4399c">Acts::Experimental::CompositeSpacePointLineFitter::Config</a></li>
 <li>particle&#160;:&#160;<a class="el" href="struct_acts_fatras_1_1_failed_particle.html#a6f90cf1f12cefed2152d27429f627252">ActsFatras::FailedParticle</a>, <a class="el" href="struct_acts_fatras_1_1_simulation_result.html#ad757f928276760c1b5fd1606b8251db3">ActsFatras::SimulationResult</a></li>
 <li>particleHypothesis&#160;:&#160;<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html#a29b6ca916d630d39eed6613a4d6d6521">Acts::AtlasStepper::State</a>, <a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html#abd2db299071e6a65af011d9c90660abf">Acts::EigenStepper&lt; extension_t &gt;::State</a>, <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html#a08a58f9698f44d4dc0f767509fe8137a">Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State</a>, <a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a8741c8e57c44526323849fb4d8e38f8f">Acts::StraightLineStepper::State</a>, <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html#a599a0d65015b4866e7fe3d62188075a9">Acts::SympyStepper::State</a></li>
-<li>passedAgainSurfaces&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#ae55cb7107ba2ff7e36325c074304c037">Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_result.html#aa6d6ac9805608d725c28fc1325fca968">Acts::KalmanFitterResult&lt; traj_t &gt;</a></li>
+<li>passedAgainSurfaces&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#ae55cb7107ba2ff7e36325c074304c037">Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;</a></li>
 <li>passiveLayerPhiBins&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_helper_1_1_config.html#a2725666f0cab905c1ab626b7b4f22ac6">Acts::CylinderVolumeHelper::Config</a></li>
 <li>passiveLayerRzBins&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_helper_1_1_config.html#a4cdec467a6647dcd7e28e0c801a2af9b">Acts::CylinderVolumeHelper::Config</a></li>
 <li>passiveLayerThickness&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_helper_1_1_config.html#a24e33dac71f1e331b891cdfc94437756">Acts::CylinderVolumeHelper::Config</a></li>
@@ -190,7 +192,6 @@ $(function(){initNavTree('functions_vars_p.html','',''); });
 <li>propagator&#160;:&#160;<a class="el" href="struct_acts_1_1_helical_track_linearizer_1_1_config.html#af9504a3bd9806993436d9e0467071de4">Acts::HelicalTrackLinearizer::Config</a>, <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_config.html#a1a04999a3f2aed4a3e8488c8c120ea4e">Acts::ImpactPointEstimator::Config</a>, <a class="el" href="struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a7c02a2904587da5a325e09caf31c87eb">Acts::NumericalTrackLinearizer::Config</a>, <a class="el" href="struct_acts_fatras_1_1_single_particle_simulation.html#aef19a5b6581ba3f60f4b538bbfa5ee79">ActsFatras::SingleParticleSimulation&lt; propagator_t, interactions_t, hit_surface_selector_t, decay_t &gt;</a></li>
 <li>propagatorPlainOptions&#160;:&#160;<a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html#a382918c0da74defa038a1178436951af">Acts::CombinatorialKalmanFilterOptions&lt; track_container_t &gt;</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ade0f48477b16ff9f79508f2490452666">Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_gsf_options.html#ae78fe7859ab94acac17312823dd57621">Acts::GsfOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
 <li>properTimeLimit&#160;:&#160;<a class="el" href="struct_acts_fatras_1_1_simulation_result.html#a04a3053fa26e1e75fbdc27ece0145c43">ActsFatras::SimulationResult</a></li>
-<li>protoDetector&#160;:&#160;<a class="el" href="struct_acts_1_1_k_d_tree_tracking_geometry_builder_1_1_config.html#adf3b3ee9197aa7a433eab460ba6ddd76">Acts::KDTreeTrackingGeometryBuilder::Config</a></li>
 <li>protoLayerHelper&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a3575140eee295a6abdb9ae96b02ebab2">ActsPlugins::TGeoLayerBuilder::Config</a></li>
 <li>pT2perRadius&#160;:&#160;<a class="el" href="struct_acts_1_1_seed_finder_options.html#a97354d5cfe024dc496d35e8a59df8f7a">Acts::SeedFinderOptions</a></li>
 <li>ptCoeff&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#a7b32e84a5d368645dc42a135bdb14729">Acts::Experimental::SeedFinderGbtsConfig</a></li>

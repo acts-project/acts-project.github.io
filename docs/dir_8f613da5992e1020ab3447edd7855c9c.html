@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -172,13 +174,11 @@ Files</h2></td></tr>
 <tr class="memitem:ILayerBuilder_2Ehpp" id="r_ILayerBuilder_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_layer_builder_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ILayerBuilder.hpp</b></td></tr>
 <tr class="memitem:IndexGrid_2Ehpp" id="r_IndexGrid_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_index_grid_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>IndexGrid.hpp</b></td></tr>
 <tr class="memitem:IReferenceGenerator_2Ehpp" id="r_IReferenceGenerator_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_reference_generator_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>IReferenceGenerator.hpp</b></td></tr>
-<tr class="memitem:ISurfacesProvider_2Ehpp" id="r_ISurfacesProvider_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_surfaces_provider_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ISurfacesProvider.hpp</b></td></tr>
 <tr class="memitem:ITrackingGeometryBuilder_2Ehpp" id="r_ITrackingGeometryBuilder_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_tracking_geometry_builder_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ITrackingGeometryBuilder.hpp</b></td></tr>
 <tr class="memitem:ITrackingVolumeArrayCreator_2Ehpp" id="r_ITrackingVolumeArrayCreator_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_tracking_volume_array_creator_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ITrackingVolumeArrayCreator.hpp</b></td></tr>
 <tr class="memitem:ITrackingVolumeBuilder_2Ehpp" id="r_ITrackingVolumeBuilder_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_tracking_volume_builder_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ITrackingVolumeBuilder.hpp</b></td></tr>
 <tr class="memitem:ITrackingVolumeHelper_2Ehpp" id="r_ITrackingVolumeHelper_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_i_tracking_volume_helper_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ITrackingVolumeHelper.hpp</b></td></tr>
-<tr class="memitem:KDTreeTrackingGeometryBuilder_2Ehpp" id="r_KDTreeTrackingGeometryBuilder_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_k_d_tree_tracking_geometry_builder_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>KDTreeTrackingGeometryBuilder.hpp</b></td></tr>
-<tr class="memitem:KdtSurfacesProvider_2Ehpp" id="r_KdtSurfacesProvider_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_kdt_surfaces_provider_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>KdtSurfacesProvider.hpp</b></td></tr>
+<tr class="memitem:KdtSurfaces_2Ehpp" id="r_KdtSurfaces_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_kdt_surfaces_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>KdtSurfaces.hpp</b></td></tr>
 <tr class="memitem:Layer_2Ehpp" id="r_Layer_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_layer_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>Layer.hpp</b></td></tr>
 <tr class="memitem:LayerArrayCreator_2Ehpp" id="r_LayerArrayCreator_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_layer_array_creator_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>LayerArrayCreator.hpp</b></td></tr>
 <tr class="memitem:LayerBlueprintNode_2Ehpp" id="r_LayerBlueprintNode_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_layer_blueprint_node_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>LayerBlueprintNode.hpp</b></td></tr>
@@ -194,7 +194,6 @@ Files</h2></td></tr>
 <tr class="memitem:PortalError_2Ehpp" id="r_PortalError_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_portal_error_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>PortalError.hpp</b></td></tr>
 <tr class="memitem:PortalLinkBase_2Ehpp" id="r_PortalLinkBase_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_portal_link_base_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>PortalLinkBase.hpp</b></td></tr>
 <tr class="memitem:PortalShell_2Ehpp" id="r_PortalShell_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_portal_shell_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>PortalShell.hpp</b></td></tr>
-<tr class="memitem:ProtoDetector_2Ehpp" id="r_ProtoDetector_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_proto_detector_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ProtoDetector.hpp</b></td></tr>
 <tr class="memitem:ProtoLayer_2Ehpp" id="r_ProtoLayer_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_proto_layer_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ProtoLayer.hpp</b></td></tr>
 <tr class="memitem:ProtoLayerHelper_2Ehpp" id="r_ProtoLayerHelper_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_proto_layer_helper_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ProtoLayerHelper.hpp</b></td></tr>
 <tr class="memitem:ReferenceGenerators_2Ehpp" id="r_ReferenceGenerators_2Ehpp"><td class="memItemLeft" align="right" valign="top"><a href="_reference_generators_8hpp_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceGenerators.hpp</b></td></tr>

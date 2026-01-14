@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -145,7 +147,7 @@ $(function(){initNavTree('functions_vars_m.html','',''); });
 <li>m_center&#160;:&#160;<a class="el" href="class_acts_1_1_volume.html#a78617a83bb42e2bf0ef210bbc01e4492">Acts::Volume</a></li>
 <li>m_cfg&#160;:&#160;<a class="el" href="class_acts_1_1_cylinder_volume_helper.html#a3273bec4ce04c536fe6a4df84e1031bb">Acts::CylinderVolumeHelper</a>, <a class="el" href="class_acts_1_1_passive_layer_builder.html#aa5e4c0e49d44f225c1c7b79052c109b7">Acts::PassiveLayerBuilder</a>, <a class="el" href="class_acts_1_1_try_all_navigator_base.html#a88433e8fa8b19df5c20a77a6953338fe">Acts::TryAllNavigatorBase</a></li>
 <li>m_childVolumes&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#ae2b328dcb262308c897ef6750a0f3363">Acts::Experimental::ContainerBlueprintNode</a></li>
-<li>m_config&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a5a057fcbbd039fee0cd6481b7158ffe2">Acts::Experimental::GbtsDataStorage</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#ad423c2b38a459b2310eb230b0632268f">Acts::Experimental::GbtsTrackingFilter</a>, <a class="el" href="class_acts_1_1_space_point_builder.html#afdafc2dedaeb7173acc3d9fb067d09ab">Acts::SpacePointBuilder&lt; spacepoint_t &gt;</a></li>
+<li>m_config&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a372d7129b06dddf0a9e07418bce53bbd">Acts::Experimental::GbtsDataStorage</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#ad423c2b38a459b2310eb230b0632268f">Acts::Experimental::GbtsTrackingFilter</a>, <a class="el" href="class_acts_1_1_space_point_builder.html#afdafc2dedaeb7173acc3d9fb067d09ab">Acts::SpacePointBuilder&lt; spacepoint_t &gt;</a></li>
 <li>m_connMap&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a5470169a2c125240693e698e485e5256">Acts::Experimental::GbtsConnector</a></li>
 <li>m_context&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_object_sorter_t.html#a6e3c733dbeb61cfc2799f0c867b46a4d">Acts::GeometryObjectSorterT&lt; T &gt;</a></li>
 <li>m_Cx&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html#add48a14f9fccc13b5d5eb6c93f3ce542">Acts::Experimental::GbtsEdgeState</a></li>
@@ -156,7 +158,7 @@ $(function(){initNavTree('functions_vars_m.html','',''); });
 <li>m_etaBins&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a65ae3a79eacb5ab933284f65cc576b2c">Acts::Experimental::GbtsDataStorage</a></li>
 <li>m_etaBinWidth&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html#a95ff4441c5890c85b59625be5910fbd6">Acts::Experimental::GbtsGeometry</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html#ac3d23602438cbd5dd75cd16a0e9fa370">Acts::Experimental::GbtsLayer</a></li>
 <li>m_gaps&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#a2fdb56b7af76c07c2ff1772ef5022cd1">Acts::Experimental::ContainerBlueprintNode</a>, <a class="el" href="class_acts_1_1_volume_stack.html#a2aead6df79f027421203f8f28ed834d5">Acts::VolumeStack</a></li>
-<li>m_geo&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#aa7a13005c6c1cf9569a497886e89e196">Acts::Experimental::GbtsDataStorage</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a60c932511af71d31ea05cd0d573ff69b">Acts::Experimental::GbtsTrackingFilter</a></li>
+<li>m_geo&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a4b12b0cc1e037865f3377d17e03571c6">Acts::Experimental::GbtsDataStorage</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a60c932511af71d31ea05cd0d573ff69b">Acts::Experimental::GbtsTrackingFilter</a></li>
 <li>m_geometryId&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_object.html#a8670edf1ae6be633b07a2e07f370e1e4">Acts::GeometryObject</a></li>
 <li>m_globalStateCounter&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a945e0afa3dcc5627377b51a0750fe8d1">Acts::Experimental::GbtsTrackingFilter</a></li>
 <li>m_grid&#160;:&#160;<a class="el" href="class_acts_1_1_any_grid_const_view.html#a83748aca0136d93b3b6c67f9dbc93b0e">Acts::AnyGridConstView&lt; T &gt;</a>, <a class="el" href="class_acts_1_1_any_grid_view.html#a923d42411513ca5a1af7a468746bfc79">Acts::AnyGridView&lt; T &gt;</a></li>
@@ -187,7 +189,7 @@ $(function(){initNavTree('functions_vars_m.html','',''); });
 <li>m_minBound&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html#a6864c5cf3ca12c14d2e88945a5ea105b">Acts::Experimental::TrigInDetSiLayer</a></li>
 <li>m_minEta&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html#a733919e2b08dca8524afcd638eb9d79d">Acts::Experimental::GbtsLayer</a></li>
 <li>m_minRadius&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html#ae13b27024282a4e6cddced1659ce1384">Acts::Experimental::GbtsEtaBin</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html#a91d5b8fc0c5cfb55fb53b7e11b5c5a29">Acts::Experimental::GbtsLayer</a></li>
-<li>m_mlLUT&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a189543ef8f4025b1fe7df71f53c993fd">Acts::Experimental::GbtsDataStorage</a></li>
+<li>m_mlLUT&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a8fb3acfcb8bcc02a24e636eb69f54af2">Acts::Experimental::GbtsDataStorage</a></li>
 <li>m_n1&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html#ab403ea3fc8003a36a546b2895257fa22">Acts::Experimental::GbtsEdge</a></li>
 <li>m_n2&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html#a1322c55edfa5c910f78f4c6251028c6f">Acts::Experimental::GbtsEdge</a></li>
 <li>m_name&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#a992d24417a99172bf49a517a3994e3b8">Acts::Experimental::ContainerBlueprintNode</a></li>

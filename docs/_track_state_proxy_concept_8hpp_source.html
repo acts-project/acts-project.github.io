@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -388,18 +390,18 @@ $(function(){initNavTree('_track_state_proxy_concept_8hpp_source.html','',''); }
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    };</div>
 </div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Source linik is a thing.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
 <div class="ttc" id="aconcept_acts_1_1_const_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_const_track_state_proxy_concept.html">Acts::ConstTrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:168</div></div>
 <div class="ttc" id="aconcept_acts_1_1_mutable_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_mutable_track_state_proxy_concept.html">Acts::MutableTrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:208</div></div>
 <div class="ttc" id="aconcept_acts_1_1_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_track_state_proxy_concept.html">Acts::TrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:62</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga3656dcbf643d97f9dbd715aa9e06bf84"><div class="ttname"><a href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, 1 &gt; ActsVector</div><div class="ttdoc">Fixed-size vector type for N-dimensional vectors.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:50</div></div>
 <div class="ttc" id="agroup__algebra__types_html_gacb25019f1218b9a96b29f897dfc5be7f"><div class="ttname"><a href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, kSize &gt; ActsSquareMatrix</div><div class="ttdoc">Fixed-size square matrix type for NxN matrices.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:61</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="anamespace_acts_html_a1b6c456f1650d94a2549251f1306dde4"><div class="ttname"><a href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">Acts::BoundSubspaceIndices</a></div><div class="ttdeci">SubspaceIndices&lt; eBoundSize &gt; BoundSubspaceIndices</div><div class="ttdoc">Type alias for bound parameter subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:34</div></div>
-<div class="ttc" id="anamespace_acts_html_a1e6b3622ce6e2c9fea228f7b3678e5f4"><div class="ttname"><a href="namespace_acts.html#a1e6b3622ce6e2c9fea228f7b3678e5f4">Acts::ProjectorBitset</a></div><div class="ttdeci">std::uint64_t ProjectorBitset</div><div class="ttdoc">Type alias for bitset representing parameter projections.</div><div class="ttdef"><b>Definition</b> Types.hpp:26</div></div>
+<div class="ttc" id="anamespace_acts_html_a1b6c456f1650d94a2549251f1306dde4"><div class="ttname"><a href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">Acts::BoundSubspaceIndices</a></div><div class="ttdeci">SubspaceIndices&lt; eBoundSize &gt; BoundSubspaceIndices</div><div class="ttdoc">Type alias for bound parameter subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:40</div></div>
+<div class="ttc" id="anamespace_acts_html_a1e6b3622ce6e2c9fea228f7b3678e5f4"><div class="ttname"><a href="namespace_acts.html#a1e6b3622ce6e2c9fea228f7b3678e5f4">Acts::ProjectorBitset</a></div><div class="ttdeci">std::uint64_t ProjectorBitset</div><div class="ttdoc">Type alias for bitset representing parameter projections.</div><div class="ttdef"><b>Definition</b> Types.hpp:32</div></div>
 <div class="ttc" id="anamespace_acts_html_a312705c7759168e892ece2b486788dcc"><div class="ttname"><a href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">Acts::hashString</a></div><div class="ttdeci">consteval HashedString hashString(std::string_view s)</div><div class="ttdoc">Compile-time hash of string literal.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:62</div></div>
 <div class="ttc" id="anamespace_acts_html_a316aaac27fda3651c80ea8dfba83492a"><div class="ttname"><a href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a></div><div class="ttdeci">std::uint32_t HashedString</div><div class="ttdoc">Type alias for hashed string representation.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:21</div></div>
-<div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:20</div></div>
+<div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:21</div></div>
 <div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">Acts::TrackStatePropMask</a></div><div class="ttdeci">TrackStatePropMask</div><div class="ttdoc">Collection of bit masks to enable steering which components of a track state should be initialized,...</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:28</div></div>
 <div class="ttc" id="anamespace_acts_html_ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8"><div class="ttname"><a href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">Acts::eBoundSize</a></div><div class="ttdeci">@ eBoundSize</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:55</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -249,7 +251,7 @@ $(function(){initNavTree('_grid_svg_converter_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_grid_converter_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_grid_converter.html">ActsPlugins::Svg::GridConverter</a></div><div class="ttdef"><b>Definition</b> GridSvgConverter.hpp:33</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_grid_converter_html_a2d4f138fe41cd32b8abb34cdd79415e8"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_grid_converter.html#a2d4f138fe41cd32b8abb34cdd79415e8">ActsPlugins::Svg::GridConverter::AxisBound</a></div><div class="ttdeci">std::tuple&lt; std::array&lt; double, 2u &gt;, Acts::AxisDirection &gt; AxisBound</div><div class="ttdef"><b>Definition</b> GridSvgConverter.hpp:36</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_grid_converter_html_abcd87ade8353ebb01fa9236b4b9d97eb"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_grid_converter.html#abcd87ade8353ebb01fa9236b4b9d97eb">ActsPlugins::Svg::GridConverter::convert</a></div><div class="ttdeci">ProtoGrid convert(const grid_type &amp;grid, const std::array&lt; Acts::AxisDirection, grid_type::DIM &gt; &amp;aDirs, const GridConverter::Options &amp;cOptions)</div><div class="ttdoc">Convert an ACTS grid into a actsvg protogrid, it currently works with.</div><div class="ttdef"><b>Definition</b> GridSvgConverter.hpp:60</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:19</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a6a954505b88a4fdc7fecc3a1a178ff1f"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a6a954505b88a4fdc7fecc3a1a178ff1f">ActsPlugins::Svg::defaultGridStyle</a></div><div class="ttdeci">static const Style defaultGridStyle</div><div class="ttdoc">Default style for grid objects.</div><div class="ttdef"><b>Definition</b> SvgUtils.hpp:95</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_aae6f16622e664e7213d67ed161e53e21"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#aae6f16622e664e7213d67ed161e53e21">ActsPlugins::Svg::ProtoGrid</a></div><div class="ttdeci">actsvg::proto::grid ProtoGrid</div><div class="ttdef"><b>Definition</b> GridSvgConverter.hpp:30</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options_html"><div class="ttname"><a href="struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html">ActsPlugins::Svg::GridConverter::Options</a></div><div class="ttdoc">Nested Options struct.</div><div class="ttdef"><b>Definition</b> GridSvgConverter.hpp:40</div></div>

@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_plugins_1_1_t_geo_material_converter.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html" target="_top" xlink:title="Nested configuration struct.">
 <polygon fill="white" stroke="#666666" points="145,-30 0,-30 0,0 145,0 145,-30"/>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TGeoMaterial</text>
-<text text-anchor="middle" x="72.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Converter</text>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TGeoCylinder</text>
+<text text-anchor="middle" x="72.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">DiscSplitter::Config</text>
 </a>
 </g>
 </g>

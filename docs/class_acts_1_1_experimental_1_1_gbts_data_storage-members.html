@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -126,16 +128,16 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_data_storage.html
 
 <p>This is the complete list of members for <a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a5adc6b9b3de9c7e5bcd3000e3a1b4f6f">GbtsDataStorage</a>(const GbtsGeometry &amp;geometry, const SeedFinderGbtsConfig &amp;config)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a7c3d227da484a22bcce8d3d7513e60e0">GbtsDataStorage</a>(std::shared_ptr&lt; const GbtsGeometry &gt; geometry, const SeedFinderGbtsConfig &amp;config, const GbtsMLLookupTable &amp;parseLutFile)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a622464c4be70bc7873f129172b6b5347">generatePhiIndexing</a>(float dphi)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#adb0d63f4e0211cd7dec5b78ffc5e11ea">getEtaBin</a>(int idx)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a30668a31b7743712d53a00ddc7b6f02f">initializeNodes</a>(bool useML)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a7c1f01969af2b3cb1ca34f0858eccb69">loadPixelGraphNodes</a>(short layerIndex, const std::vector&lt; GbtsNode &gt; &amp;coll, bool useML)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a514ba7567c7aa4f04770b0661eab3201">loadStripGraphNodes</a>(short layerIndex, const std::vector&lt; GbtsNode &gt; &amp;coll)</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a5a057fcbbd039fee0cd6481b7158ffe2">m_config</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a372d7129b06dddf0a9e07418bce53bbd">m_config</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a65ae3a79eacb5ab933284f65cc576b2c">m_etaBins</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#aa7a13005c6c1cf9569a497886e89e196">m_geo</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a189543ef8f4025b1fe7df71f53c993fd">m_mlLUT</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a4b12b0cc1e037865f3377d17e03571c6">m_geo</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a8fb3acfcb8bcc02a24e636eb69f54af2">m_mlLUT</a></td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#abb2f9fa1763cc437e4fb94e8335dbb80">numberOfNodes</a>() const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#acbb022ea5481c6e2ea7afc989b7188c9">sortByPhi</a>()</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#aa482b421d4635d8495ef3000278bfead">~GbtsDataStorage</a>()</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">Acts::Experimental::GbtsDataStorage</a></td><td class="entry"></td></tr>

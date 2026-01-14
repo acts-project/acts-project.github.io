@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inhertis from both, Layer base class an...">
+<g id="a_Node000001"><a xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an...">
 <polygon fill="#999999" stroke="#666666" points="1981,-85.5 1889,-85.5 1889,-66.5 1981,-66.5 1981,-85.5"/>
 <text text-anchor="middle" x="1935" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscLayer</text>
 </a>

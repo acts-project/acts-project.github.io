@@ -248,7 +248,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="class_acts_1_1_cone_layer.html" target="_top" xlink:title="Class to describe a conical detector layer for tracking, it inhertis from both, Layer base class and ...">
+<g id="a_Node000009"><a xlink:href="class_acts_1_1_cone_layer.html" target="_top" xlink:title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ...">
 <polygon fill="white" stroke="#666666" points="694,-130 599,-130 599,-111 694,-111 694,-130"/>
 <text text-anchor="middle" x="646.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeLayer</text>
 </a>
@@ -266,7 +266,7 @@ var sectionId = 'dynsection-0';
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="class_acts_1_1_cylinder_layer.html" target="_top" xlink:title="Class to describe a cylindrical detector layer for tracking, it inhertis from both,...">
+<g id="a_Node000011"><a xlink:href="class_acts_1_1_cylinder_layer.html" target="_top" xlink:title="Class to describe a cylindrical detector layer for tracking, it inherits from both,...">
 <polygon fill="white" stroke="#666666" points="702,-93 591,-93 591,-74 702,-74 702,-93"/>
 <text text-anchor="middle" x="646.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CylinderLayer</text>
 </a>
@@ -284,7 +284,7 @@ var sectionId = 'dynsection-0';
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inhertis from both, Layer base class an...">
+<g id="a_Node000013"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an...">
 <polygon fill="white" stroke="#666666" points="692.5,-56 600.5,-56 600.5,-37 692.5,-37 692.5,-56"/>
 <text text-anchor="middle" x="646.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscLayer</text>
 </a>
@@ -302,7 +302,7 @@ var sectionId = 'dynsection-0';
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="class_acts_1_1_plane_layer.html" target="_top" xlink:title="Class to describe a planar detector layer for tracking, it inhertis from both, Layer base class and P...">
+<g id="a_Node000015"><a xlink:href="class_acts_1_1_plane_layer.html" target="_top" xlink:title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P...">
 <polygon fill="white" stroke="#666666" points="695.5,-19 597.5,-19 597.5,0 695.5,0 695.5,-19"/>
 <text text-anchor="middle" x="646.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PlaneLayer</text>
 </a>

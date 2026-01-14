@@ -1,3 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_volume_hit.html" title="The information to be writtern out per hit volume." alt="" coords="5,5,132,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_volume_bounds.html" title="Pure Absract Base Class for Volume bounds." alt="" coords="5,169,160,195"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_cone_volume_bounds.html" title="Volume bound class for describing conical volumes either with cylindrical inlay or outer boundary,..." alt="" coords="223,5,411,31"/>
+<area shape="poly" id="edge249_Node000000_Node000001" title=" " alt="" coords="97,156,141,97,171,66,207,40,232,28,234,33,209,44,175,70,145,100,101,159"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cuboid_volume_bounds.html" title="Bounds for a cubical Volume, the orientedSurfaces(...) method creates a vector of 6 surfaces:" alt="" coords="217,55,417,80"/>
+<area shape="poly" id="edge250_Node000000_Node000002" title=" " alt="" coords="107,158,151,123,207,90,243,78,244,83,209,95,154,127,110,162"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_cutout_cylinder_volume_bounds.html" title="Class which implements a cutout cylinder." alt="" coords="215,105,419,145"/>
+<area shape="poly" id="edge251_Node000000_Node000003" title=" " alt="" coords="148,163,234,142,235,147,149,169"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_cylinder_volume_bounds.html" title="[0] and [1] at positive" alt="" coords="212,169,421,195"/>
+<area shape="poly" id="edge252_Node000000_Node000004" title=" " alt="" coords="174,179,212,179,212,185,174,185"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_diamond_volume_bounds.html" title="Bounds for a polygonal prism shaped Volume, the orientedSurface(...) method creates a vector of 8 sur..." alt="" coords="209,219,424,244"/>
+<area shape="poly" id="edge253_Node000000_Node000005" title=" " alt="" coords="157,195,256,216,255,221,156,200"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_generic_cuboid_volume_bounds.html" title=" " alt="" coords="215,269,418,309"/>
+<area shape="poly" id="edge254_Node000000_Node000006" title=" " alt="" coords="115,200,159,227,209,253,243,266,241,271,207,258,156,232,113,205"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_trapezoid_volume_bounds.html" title="Bounds for a trapezoidal shaped Volume, the orientedSurface(...) method creates a vector of 6 surface..." alt="" coords="208,333,425,359"/>
+<area shape="poly" id="edge255_Node000000_Node000007" title=" " alt="" coords="101,205,145,263,175,293,209,318,237,331,235,336,207,323,172,297,141,266,97,208"/>
 </map>

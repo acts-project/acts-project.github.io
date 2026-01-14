@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -152,7 +154,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae84069f9d12f300a13ab986a395a614e" id="r_ae84069f9d12f300a13ab986a395a614e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae84069f9d12f300a13ab986a395a614e">~BinUtility</a> ()=default</td></tr>
 <tr class="memdesc:ae84069f9d12f300a13ab986a395a614e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Destructor.  <br /></td></tr>
 <tr class="memitem:aec32fc2335b51dc8140397127a5c4ac9" id="r_aec32fc2335b51dc8140397127a5c4ac9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec32fc2335b51dc8140397127a5c4ac9">bin</a> (const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;lposition, std::size_t ba=0) const</td></tr>
-<tr class="memdesc:aec32fc2335b51dc8140397127a5c4ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin from a 2D vector (following local parameters defintitions).  <br /></td></tr>
+<tr class="memdesc:aec32fc2335b51dc8140397127a5c4ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin from a 2D vector (following local parameters definitions).  <br /></td></tr>
 <tr class="memitem:acfce27034ffc7d785de72a3bc623c2d6" id="r_acfce27034ffc7d785de72a3bc623c2d6"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfce27034ffc7d785de72a3bc623c2d6">bin</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, std::size_t ba=0) const</td></tr>
 <tr class="memdesc:acfce27034ffc7d785de72a3bc623c2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin from a 3D vector (already in binning frame).  <br /></td></tr>
 <tr class="memitem:aa0a268edc3c758e838c4656bcf12fcbb" id="r_aa0a268edc3c758e838c4656bcf12fcbb"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a268edc3c758e838c4656bcf12fcbb">binningData</a> () const</td></tr>
@@ -567,7 +569,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bin from a 2D vector (following local parameters defintitions). </p>
+<p>Bin from a 2D vector (following local parameters definitions). </p>
 <ul>
 <li>no optional transform applied</li>
 <li>USE WITH CARE !!</li>

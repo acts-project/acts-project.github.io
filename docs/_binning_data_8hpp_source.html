@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -647,7 +649,7 @@ $(function(){initNavTree('_binning_data_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_binning_data_html_ad59bcd5dff2cace2c9879c93d7540752"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ad59bcd5dff2cace2c9879c93d7540752">Acts::BinningData::binvalue</a></div><div class="ttdeci">AxisDirection binvalue</div><div class="ttdoc">axis direction: AxisX, AxisY, AxisZ, ...</div><div class="ttdef"><b>Definition</b> BinningData.hpp:48</div></div>
 <div class="ttc" id="aclass_acts_1_1_binning_data_html_ad5e22abf0d0e6f2e180cd7c054db5705"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ad5e22abf0d0e6f2e180cd7c054db5705">Acts::BinningData::BinningData</a></div><div class="ttdeci">BinningData(const BinningData &amp;bdata)</div><div class="ttdoc">Copy constructor.</div><div class="ttdef"><b>Definition</b> BinningData.hpp:150</div></div>
 <div class="ttc" id="aclass_acts_1_1_binning_data_html_ad746d22b96a0ab57a614bf0fa7e5654a"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ad746d22b96a0ab57a614bf0fa7e5654a">Acts::BinningData::search</a></div><div class="ttdeci">std::size_t search(float value) const</div><div class="ttdoc">Generic search - forwards to correct function pointer.</div><div class="ttdef"><b>Definition</b> BinningData.hpp:396</div></div>
-<div class="ttc" id="aclass_acts_1_1_binning_data_html_ad790ff296e80e223f7749c9b122016fb"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ad790ff296e80e223f7749c9b122016fb">Acts::BinningData::subBinningAdditive</a></div><div class="ttdeci">bool subBinningAdditive</div><div class="ttdoc">sub structure: additive or multipicative</div><div class="ttdef"><b>Definition</b> BinningData.hpp:57</div></div>
+<div class="ttc" id="aclass_acts_1_1_binning_data_html_ad790ff296e80e223f7749c9b122016fb"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ad790ff296e80e223f7749c9b122016fb">Acts::BinningData::subBinningAdditive</a></div><div class="ttdeci">bool subBinningAdditive</div><div class="ttdoc">sub structure: additive or multiplicative</div><div class="ttdef"><b>Definition</b> BinningData.hpp:57</div></div>
 <div class="ttc" id="aclass_acts_1_1_binning_data_html_ad8e8129f36bfeed6973875d1316dd69e"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ad8e8129f36bfeed6973875d1316dd69e">Acts::BinningData::option</a></div><div class="ttdeci">BinningOption option</div><div class="ttdoc">binning option: open, closed</div><div class="ttdef"><b>Definition</b> BinningData.hpp:47</div></div>
 <div class="ttc" id="aclass_acts_1_1_binning_data_html_addcbccef2b93b6128f619d399fcfabaf"><div class="ttname"><a href="class_acts_1_1_binning_data.html#addcbccef2b93b6128f619d399fcfabaf">Acts::BinningData::min</a></div><div class="ttdeci">float min</div><div class="ttdoc">minimum value</div><div class="ttdef"><b>Definition</b> BinningData.hpp:49</div></div>
 <div class="ttc" id="aclass_acts_1_1_binning_data_html_ade89126f2f6fbdf65a757269428aa8d3"><div class="ttname"><a href="class_acts_1_1_binning_data.html#ade89126f2f6fbdf65a757269428aa8d3">Acts::BinningData::BinningData</a></div><div class="ttdeci">BinningData(BinningOption bOption, AxisDirection bValue, const std::vector&lt; float &gt; &amp;bBoundaries, std::unique_ptr&lt; const BinningData &gt; sBinData=nullptr)</div><div class="ttdoc">Constructor for non-equidistant binning.</div><div class="ttdef"><b>Definition</b> BinningData.hpp:124</div></div>

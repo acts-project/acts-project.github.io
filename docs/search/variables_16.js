@@ -10,14 +10,13 @@ var searchData=
   ['weightcutoff_7',['weightCutoff',['../struct_acts_1_1_gsf_options.html#aef2b39b4e7d66946c5b5fb5ab065f50b',1,'Acts::GsfOptions']]],
   ['weights_8',['weights',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
   ['width_9',['width',['../struct_acts_1_1_table_1_1_column.html#a14f3192877b5d3ccf3c35a3eedec529b',1,'Acts::Table::Column']]],
-  ['worldtransform_10',['worldTransform',['../struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a7252d324d336dccb16dac4bbd8ca147f',1,'ActsPlugins::Geant4SurfaceProvider::Config']]],
-  ['worldvolume_11',['worldVolume',['../struct_acts_1_1_proto_detector.html#a389feef24b52b5d634ec5c6b334328d4',1,'Acts::ProtoDetector::worldVolume'],['../struct_acts_plugins_1_1_geo_model_tree.html#a93b364d241b71ca74f844aa53a93b6fe',1,'ActsPlugins::GeoModelTree::worldVolume']]],
-  ['worldvolumename_12',['worldVolumeName',['../struct_acts_plugins_1_1_geo_model_tree.html#a93f980302b95ba6709d33f2a96f132a8',1,'ActsPlugins::GeoModelTree']]],
-  ['wrapping_13',['wrapping',['../struct_acts_1_1_volume_config.html#aa1c01e1bed2d629e2d4af928ba0e6e80',1,'Acts::VolumeConfig']]],
-  ['writeidentity_14',['writeIdentity',['../struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398',1,'Acts::Transform3JsonConverter::Options']]],
-  ['writematerial_15',['writeMaterial',['../struct_acts_1_1_surface_json_converter_1_1_options.html#aa37197f466651421892c0b9d6cc45920',1,'Acts::SurfaceJsonConverter::Options']]],
-  ['writeprojectedsurfaces_16',['writeProjectedSurfaces',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#aaa1fa9237d6d00f66101ab7c9f3bc406',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
-  ['writesurfaces_17',['writeSurfaces',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#ad6ff18680fea02c928c493424f1c2cdd',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
-  ['wx_18',['wx',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax::Maximum']]],
-  ['wy_19',['wy',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax::Maximum']]]
+  ['worldvolume_10',['worldVolume',['../struct_acts_plugins_1_1_geo_model_tree.html#a93b364d241b71ca74f844aa53a93b6fe',1,'ActsPlugins::GeoModelTree']]],
+  ['worldvolumename_11',['worldVolumeName',['../struct_acts_plugins_1_1_geo_model_tree.html#a93f980302b95ba6709d33f2a96f132a8',1,'ActsPlugins::GeoModelTree']]],
+  ['wrapping_12',['wrapping',['../struct_acts_1_1_volume_config.html#aa1c01e1bed2d629e2d4af928ba0e6e80',1,'Acts::VolumeConfig']]],
+  ['writeidentity_13',['writeIdentity',['../struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398',1,'Acts::Transform3JsonConverter::Options']]],
+  ['writematerial_14',['writeMaterial',['../struct_acts_1_1_surface_json_converter_1_1_options.html#aa37197f466651421892c0b9d6cc45920',1,'Acts::SurfaceJsonConverter::Options']]],
+  ['writeprojectedsurfaces_15',['writeProjectedSurfaces',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#aaa1fa9237d6d00f66101ab7c9f3bc406',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
+  ['writesurfaces_16',['writeSurfaces',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#ad6ff18680fea02c928c493424f1c2cdd',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
+  ['wx_17',['wx',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax::Maximum']]],
+  ['wy_18',['wy',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax::Maximum']]]
 ];

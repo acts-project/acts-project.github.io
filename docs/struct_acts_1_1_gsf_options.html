@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -148,7 +150,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab40e2071c2a5686d979208cc5a92a912" id="r_ab40e2071c2a5686d979208cc5a92a912"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab40e2071c2a5686d979208cc5a92a912">maxComponents</a> = 4</td></tr>
 <tr class="memitem:ae78fe7859ab94acac17312823dd57621" id="r_ae78fe7859ab94acac17312823dd57621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae78fe7859ab94acac17312823dd57621">propagatorPlainOptions</a></td></tr>
 <tr class="memitem:ab1f4fdb6cf96b33857e0e070c8156512" id="r_ab1f4fdb6cf96b33857e0e070c8156512"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1f4fdb6cf96b33857e0e070c8156512">referenceSurface</a> = nullptr</td></tr>
-<tr class="memitem:aa635147a6643f90b3a68dac0da2e5f8f" id="r_aa635147a6643f90b3a68dac0da2e5f8f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa635147a6643f90b3a68dac0da2e5f8f">reverseFilteringCovarianceScaling</a> = 1.0</td></tr>
+<tr class="memitem:aa635147a6643f90b3a68dac0da2e5f8f" id="r_aa635147a6643f90b3a68dac0da2e5f8f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa635147a6643f90b3a68dac0da2e5f8f">reverseFilteringCovarianceScaling</a> = 100.0</td></tr>
+<tr class="memdesc:aa635147a6643f90b3a68dac0da2e5f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling factor for the covariance matrix before reverse filtering.  <br /></td></tr>
 <tr class="memitem:a0fdc09daf23b1db401ce923170a5ebc2" id="r_a0fdc09daf23b1db401ce923170a5ebc2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdc09daf23b1db401ce923170a5ebc2">useExternalSurfaces</a> = true</td></tr>
 <tr class="memdesc:a0fdc09daf23b1db401ce923170a5ebc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use the external-surfaces mechanism of the navigator which switches off the boundary-check for measurement surfaces.  <br /></td></tr>
 <tr class="memitem:aef2b39b4e7d66946c5b5fb5ab065f50b" id="r_aef2b39b4e7d66946c5b5fb5ab065f50b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef2b39b4e7d66946c5b5fb5ab065f50b">weightCutoff</a> = 1.e-4</td></tr>
@@ -368,10 +371,13 @@ template&lt;typename traj_t&gt; </div>
 template&lt;typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="struct_acts_1_1_gsf_options.html">Acts::GsfOptions</a>&lt; traj_t &gt;::reverseFilteringCovarianceScaling = 1.0</td>
+          <td class="memname">double <a class="el" href="struct_acts_1_1_gsf_options.html">Acts::GsfOptions</a>&lt; traj_t &gt;::reverseFilteringCovarianceScaling = 100.0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Scaling factor for the covariance matrix before reverse filtering. </p>
+<p>Note that the default value is not tuned and might need adjustment for different use cases. </p>
 
 </div>
 </div>

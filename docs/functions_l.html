@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -147,9 +149,8 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>layerCfg&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#a7ba0e96a23d9f941290d209eaa410ee5">Acts::CuboidVolumeBuilder::VolumeConfig</a></li>
 <li>LayerConfig()&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a34254e256639726849854fe41928af9d">ActsPlugins::TGeoLayerBuilder::LayerConfig</a></li>
 <li>layerConfigurations&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a34a4b7dd267b42e9153c3640d646fae3">ActsPlugins::TGeoLayerBuilder::Config</a></li>
-<li>layerContainer&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume_1_1_container_structure.html#a679061abec2d5f001620a45e2c82b395">Acts::ProtoVolume::ContainerStructure</a></li>
 <li>LayerCreator()&#160;:&#160;<a class="el" href="class_acts_1_1_layer_creator.html#aa90fff9255a7d04d25fc70ff807b9a9d">Acts::LayerCreator</a></li>
-<li>layerCreator&#160;:&#160;<a class="el" href="struct_acts_1_1_k_d_tree_tracking_geometry_builder_1_1_config.html#abb40aa8ec942a438f499fc93637d2edf">Acts::KDTreeTrackingGeometryBuilder::Config</a>, <a class="el" href="struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6">ActsPlugins::DD4hepLayerBuilder::Config</a>, <a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#ac213b481262f33373107ed052687513a">ActsPlugins::TGeoLayerBuilder::Config</a></li>
+<li>layerCreator&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6">ActsPlugins::DD4hepLayerBuilder::Config</a>, <a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#ac213b481262f33373107ed052687513a">ActsPlugins::TGeoLayerBuilder::Config</a></li>
 <li>layerEnvelopeR&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a32c08eeb7ed4303b6b3dfbf2907afc96">Acts::CylinderVolumeBuilder::Config</a></li>
 <li>layerEnvelopeZ&#160;:&#160;<a class="el" href="struct_acts_1_1_cylinder_volume_builder_1_1_config.html#aaad89ab6b61accf45424722a6d2fb6a4">Acts::CylinderVolumeBuilder::Config</a></li>
 <li>LayerGroup()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html#a98988e896c36812f7eb714b33761c7a4">Acts::Experimental::GbtsConnector::LayerGroup</a></li>
@@ -159,15 +160,14 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>layerPrefix&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#ad4c60d174facd68461a8ec73e7374332">ActsPlugins::RootMaterialMapIo::Config</a></li>
 <li>layerRMax&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html#a3e6d3fcffdc6d3bf07a4bcc92d113792">ActsPlugins::HashingAlgorithmConfig</a></li>
 <li>layerRMin&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html#a4c93fe789c3085306fa254f2232e687d">ActsPlugins::HashingAlgorithmConfig</a></li>
-<li>layers&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#ab6955f021c02a5f22d16f74d82fee170">Acts::CuboidVolumeBuilder::VolumeConfig</a>, <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#a8a839bc96885083f2658b45b6ff7ddbc">Acts::HoughTransformUtils::HoughPlane&lt; identifier_t &gt;</a>, <a class="el" href="struct_acts_1_1_volume_config.html#a6ca56f36b694350e316eb7a8523cce17">Acts::VolumeConfig</a></li>
+<li>layers&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#ab6955f021c02a5f22d16f74d82fee170">Acts::CuboidVolumeBuilder::VolumeConfig</a>, <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#a2464ace78753083a9a90d4f52f201dd8">Acts::HoughTransformUtils::HoughPlane&lt; identifier_t &gt;</a>, <a class="el" href="struct_acts_1_1_volume_config.html#a6ca56f36b694350e316eb7a8523cce17">Acts::VolumeConfig</a></li>
 <li>layerSplitToleranceR&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a8b847d96d94061c91562c23acf060c2c">ActsPlugins::TGeoLayerBuilder::Config</a></li>
 <li>layerSplitToleranceZ&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a50d0e118ace653a9a0542f0760386d3c">ActsPlugins::TGeoLayerBuilder::Config</a></li>
 <li>LayerType&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#aeae5e970d6d2cdda5d72c708adfe8ae9">Acts::Experimental::LayerBlueprintNode</a>, <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html#ab8a1b2c673d4dc434684e4743526ffc9">Acts::SurfaceArrayNavigationPolicy</a></li>
-<li>layerType()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a849e6687989c817436c8f49c704d647b">Acts::Experimental::LayerBlueprintNode</a>, <a class="el" href="class_acts_1_1_layer.html#aa250e5da69ec92d867014f5dea7a59bd">Acts::Layer</a>, <a class="el" href="struct_acts_1_1_proto_volume_1_1_internal_structure.html#ae03ec1cb9b71f300782a20d6e2ba95be">Acts::ProtoVolume::InternalStructure</a>, <a class="el" href="struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579">Acts::SurfaceArrayNavigationPolicy::Config</a></li>
+<li>layerType()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a849e6687989c817436c8f49c704d647b">Acts::Experimental::LayerBlueprintNode</a>, <a class="el" href="class_acts_1_1_layer.html#aa250e5da69ec92d867014f5dea7a59bd">Acts::Layer</a>, <a class="el" href="struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579">Acts::SurfaceArrayNavigationPolicy::Config</a></li>
 <li>layerWheel()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_i_tk_identifier.html#a0954bbca8940bd083817165470067f9f">ActsPlugins::ITkIdentifier</a></li>
 <li>layerZMax&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html#a996563c2490bfda561f628188c535bae">ActsPlugins::HashingAlgorithmConfig</a></li>
 <li>layerZMin&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html#a445386c4a92ed55d6a6a89276b553231">ActsPlugins::HashingAlgorithmConfig</a></li>
-<li>leafSize&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#adfe5611fdb298091fa3eb6c1ee841423">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions</a></li>
 <li>length&#160;:&#160;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_config.html#a84bcca381c085fabe341b25b0e857435">Acts::CuboidVolumeBuilder::Config</a>, <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aaedfa42634aec6086960a258040526ca">Acts::CuboidVolumeBuilder::VolumeConfig</a>, <a class="el" href="struct_acts_1_1_solenoid_b_field_1_1_config.html#a7f0c7de7c33d097b0f1e8822fd711ad4">Acts::SolenoidBField::Config</a></li>
 <li>level()&#160;:&#160;<a class="el" href="class_acts_1_1_logger.html#aad9511da002cd89fad46b6afda1dab33">Acts::Logger</a>, <a class="el" href="class_acts_1_1_logging_1_1_default_filter_policy.html#a514df180464e14c30f3287a63bc546a7">Acts::Logging::DefaultFilterPolicy</a>, <a class="el" href="class_acts_1_1_logging_1_1_output_filter_policy.html#a708963220b29c0e88c9cc20fa795a616">Acts::Logging::OutputFilterPolicy</a>, <a class="el" href="class_acts_1_1_multi_index.html#a62c21412fea796fd5ce4eee2cc2e6d23">Acts::MultiIndex&lt; T, BitsPerLevel &gt;</a></li>
 <li>LevelOutputDecorator()&#160;:&#160;<a class="el" href="class_acts_1_1_logging_1_1_level_output_decorator.html#a0591a1d2e5668530c59e7f0b28dfbe4e">Acts::Logging::LevelOutputDecorator</a></li>
@@ -196,10 +196,10 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>loadFromFiles()&#160;:&#160;<a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a6037eff70ab7bd9acede0a802429b167">Acts::AtlasBetheHeitlerApprox</a></li>
 <li>loadPixelGraphNodes()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a7c1f01969af2b3cb1ca34f0858eccb69">Acts::Experimental::GbtsDataStorage</a></li>
 <li>loadStripGraphNodes()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a514ba7567c7aa4f04770b0661eab3201">Acts::Experimental::GbtsDataStorage</a></li>
-<li>loc0()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a4afd2aca2239c2b080249a42ae6c3e8f">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#aef1f0f9c6f5343cc8103ecec25ef54d6">Acts::TrackSelector::Config</a></li>
+<li>loc0()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_proxy.html#ae982ec43bf91ba1e225be33d6d08b02b">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a8cab0eeb6fedc0e54dce8076ba397cf1">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a4be11ba25cf604d177b3f7c2eeea40de">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#aef1f0f9c6f5343cc8103ecec25ef54d6">Acts::TrackSelector::Config</a></li>
 <li>loc0Max&#160;:&#160;<a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#ac72c787e979a1a63c70edb8f8ee0ec12">Acts::TrackSelector::Config</a></li>
 <li>loc0Min&#160;:&#160;<a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#a09e4801fea9841f5c3225767f2081e2f">Acts::TrackSelector::Config</a></li>
-<li>loc1()&#160;:&#160;<a class="el" href="class_acts_1_1_track_proxy.html#a05a43c267b02678ac108930291fa1fbd">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#a2f14b75712ec3c62f2f55630beb4e4a3">Acts::TrackSelector::Config</a></li>
+<li>loc1()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_proxy.html#aa22340d75260d31f4d3eeb3b9341586a">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a13cc4b9fb8735a87ca7e3b288dcfde1f">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a686eaa8c2be026337203f89682fd4049">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#a2f14b75712ec3c62f2f55630beb4e4a3">Acts::TrackSelector::Config</a></li>
 <li>loc1Max&#160;:&#160;<a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#a219be6d621cf5aaadba5ed14d74772fb">Acts::TrackSelector::Config</a></li>
 <li>loc1Min&#160;:&#160;<a class="el" href="struct_acts_1_1_track_selector_1_1_config.html#a1269730d31125d8f4c66afc093c51b92">Acts::TrackSelector::Config</a></li>
 <li>local_iterator_t&#160;:&#160;<a class="el" href="class_acts_1_1_grid.html#a6086f3ab4bbdd80547dd5e479ae84db4">Acts::Grid&lt; T, Axes &gt;</a></li>

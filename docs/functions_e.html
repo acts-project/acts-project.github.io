@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -146,10 +148,13 @@ $(function(){initNavTree('functions_e.html','',''); });
 <li>eDisc&#160;:&#160;<a class="el" href="class_acts_1_1_surface_bounds.html#af8fc191468cd9d1ce2a8750bdddf88d9a2a68aba706806bf30563ee88bcd7fac3">Acts::SurfaceBounds</a></li>
 <li>eDiscTrapezoid&#160;:&#160;<a class="el" href="class_acts_1_1_surface_bounds.html#af8fc191468cd9d1ce2a8750bdddf88d9a12a3460673ba86b33f06871bc157c8bb">Acts::SurfaceBounds</a></li>
 <li>eEllipse&#160;:&#160;<a class="el" href="class_acts_1_1_surface_bounds.html#af8fc191468cd9d1ce2a8750bdddf88d9a0fe7fcf1d99e126d163568fef63f34e5">Acts::SurfaceBounds</a></li>
-<li>EffectiveCalibrated&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#ab0ed08ca7282b3640c3e5d16f6a62e42">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#a65ea4ce85c3b6d2516ffce7c81731bbd">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
-<li>effectiveCalibrated()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a08aaad4bba4d2f8739cb4e984f95e8f8">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ae5254b01a1b33f36fd4f6769f91a7b75">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
-<li>EffectiveCalibratedCovariance&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#af37dee5477fc8f723ed159dd0bd4cf0b">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#a707f18a1d55e71af9ee4699896034ed7">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
-<li>effectiveCalibratedCovariance()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a259963a25cd22d22cc93526172cc07e9">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#aaa274eb254b676d8d0119bffbdcb9908">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>EffectiveCalibrated&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#abb5a22a568840d5db0b57015c3cdf96a">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
+<li>effectiveCalibrated()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#a649cee87fca37d535738db50a514377f">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a08aaad4bba4d2f8739cb4e984f95e8f8">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a0d0d794fc481cb2061503297db51bec2">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#aa8531df924e58911dcfb579ad7579521">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>EffectiveCalibratedCovariance&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#a70ad68bbb136d1a602fbec002d79aa65">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a></li>
+<li>effectiveCalibratedCovariance()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#ad72b06ca24577a2926275da1c62361c1">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a259963a25cd22d22cc93526172cc07e9">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a9d5455b8b30a2c62a9bc623f9152dc77">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#a9d8384874ef921f58fe0d2ea41b9f643">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>EffectiveCalibratedCovarianceMap&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy_common.html#a23a99e03ffbb25cc9a84e325cfbd01cf">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>EffectiveCalibratedMap&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2640cb1596c0c91b3befbfcafd48f170">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>Efficiency()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_efficiency.html#a4ec2a948c27e5c0f4143789127e8403d">Acts::Experimental::Efficiency&lt; Dim &gt;</a></li>
 <li>eHalfLengthX&#160;:&#160;<a class="el" href="class_acts_1_1_cuboid_volume_bounds.html#a6f5525d6164cb197d53d1656e6c594baa548406d38f49339300bb8176c5b4d670">Acts::CuboidVolumeBounds</a></li>
 <li>eHalfLengthX1&#160;:&#160;<a class="el" href="class_acts_1_1_diamond_volume_bounds.html#a7d42b12fc538ef81d3bded8e9a166919a6e57cff1f061d6dc02052f9c1936ff0b">Acts::DiamondVolumeBounds</a></li>
 <li>eHalfLengthX2&#160;:&#160;<a class="el" href="class_acts_1_1_diamond_volume_bounds.html#a7d42b12fc538ef81d3bded8e9a166919a07377bb8fe006ede43ff7168906050df">Acts::DiamondVolumeBounds</a></li>
@@ -266,11 +271,10 @@ $(function(){initNavTree('functions_e.html','',''); });
 <li>extend()&#160;:&#160;<a class="el" href="class_acts_1_1_cylindrical_space_point_grid2.html#a9a020c69e972ab72ec61c430b272f60b">Acts::CylindricalSpacePointGrid2</a>, <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder.html#a3b69abfde1a8cd2c15cb7fc251a339dd">Acts::Experimental::CylindricalSpacePointKDTreeBuilder</a>, <a class="el" href="class_acts_1_1_extent.html#a0d8c7624c672bc497f8837f7054c6d46">Acts::Extent</a>, <a class="el" href="struct_acts_1_1_propagator_options.html#a7a837419b8bafbcc953c58373e0b3480">Acts::PropagatorOptions&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;</a>, <a class="el" href="struct_acts_1_1_ridders_propagator_options.html#af8b15e8478c0a2d3e5e943ebc3da3629">Acts::RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;</a></li>
 <li>extendTo2d()&#160;:&#160;<a class="el" href="class_acts_1_1_grid_portal_link.html#a78ba5b209630423d4103bb7590ba6ae4">Acts::GridPortalLink</a>, <a class="el" href="class_acts_1_1_grid_portal_link_t.html#aa0079caed9cfbff48d22ca810c499c86">Acts::GridPortalLinkT&lt; Axes &gt;</a></li>
 <li>extendTo2dImpl()&#160;:&#160;<a class="el" href="class_acts_1_1_grid_portal_link.html#ac3dad85ebd1bdcdd01d840b922eb9e4e">Acts::GridPortalLink</a></li>
-<li>extendUp()&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume.html#ac027930f8914bd0721cb2adbed44b58c">Acts::ProtoVolume</a></li>
 <li>extension&#160;:&#160;<a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html#a6f1ff63feede242680707059a21c916a">Acts::EigenStepper&lt; extension_t &gt;::State</a></li>
 <li>extensions&#160;:&#160;<a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html#a9d49ea28002d1c42382cdc1fec4a2cfc">Acts::CombinatorialKalmanFilterOptions&lt; track_container_t &gt;</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#af1b1ef08aa96df34716efc196a81c914">Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_gsf_options.html#a8000125fe2bf278bcf22aeaac22e5f9f">Acts::GsfOptions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839">Acts::KalmanFitterOptions&lt; traj_t &gt;</a></li>
 <li>Extent()&#160;:&#160;<a class="el" href="class_acts_1_1_extent.html#af765a6d37e5608a9598433c47ebcc454">Acts::Extent</a></li>
-<li>extent()&#160;:&#160;<a class="el" href="struct_acts_1_1_polyhedron.html#a206860bd6e319f1f35b07d05ceb90e72">Acts::Polyhedron</a>, <a class="el" href="struct_acts_1_1_proto_volume.html#aab75f32cd262aa3f06bb4708f9cc6041">Acts::ProtoVolume</a></li>
+<li>extent()&#160;:&#160;<a class="el" href="struct_acts_1_1_polyhedron.html#a206860bd6e319f1f35b07d05ceb90e72">Acts::Polyhedron</a></li>
 <li>extentConstraints&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#aaaef016e4efcdfe206f2bb7387a73fc7">ActsPlugins::DD4hepDetectorSurfaceFactory::Cache</a></li>
 <li>ExtentEnvelope()&#160;:&#160;<a class="el" href="struct_acts_1_1_extent_envelope.html#a42c20027bced507eb70272f52eb65fba">Acts::ExtentEnvelope</a></li>
 <li>externalSpacePoint()&#160;:&#160;<a class="el" href="class_acts_1_1_space_point_proxy.html#a3320bc47453728c20616d0e7e70029f6">Acts::SpacePointProxy&lt; container_t &gt;</a></li>
@@ -283,7 +287,7 @@ $(function(){initNavTree('functions_e.html','',''); });
 <li>extractMomentum()&#160;:&#160;<a class="el" href="class_acts_1_1_any_charge.html#aa289ad3b47f404983a58bb428dfce123">Acts::AnyCharge</a>, <a class="el" href="class_acts_1_1_generic_particle_hypothesis.html#aace7c5f34ec521dcd3bddffd09bb6d96">Acts::GenericParticleHypothesis&lt; charge_t &gt;</a>, <a class="el" href="struct_acts_1_1_neutral.html#a6b8bbda278e2860998d41cb37da8f2c3">Acts::Neutral</a>, <a class="el" href="class_acts_1_1_non_neutral_charge.html#a20489eda028b0e37331b6f6b373928ce">Acts::NonNeutralCharge</a>, <a class="el" href="struct_acts_1_1_singly_charged.html#a4a90f0ac8a5c18df58316508a488fd1b">Acts::SinglyCharged</a></li>
 <li>Extractor&#160;:&#160;<a class="el" href="struct_acts_1_1_input_track.html#a8858b27a91669689065fd42251a6f701">Acts::InputTrack</a></li>
 <li>extractParameters&#160;:&#160;<a class="el" href="struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494">Acts::AdaptiveGridDensityVertexFinder::Config</a>, <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#af107f23e7ec8c8ea39c735b160e6586f">Acts::AdaptiveMultiVertexFinder::Config</a>, <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850">Acts::AdaptiveMultiVertexFitter::Config</a>, <a class="el" href="struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7">Acts::FullBilloirVertexFitter::Config</a>, <a class="el" href="struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727">Acts::GaussianTrackDensity::Config</a>, <a class="el" href="struct_acts_1_1_grid_density_vertex_finder_1_1_config.html#afc4020d753a80eeb353a971fe8baba61">Acts::GridDensityVertexFinder::Config</a>, <a class="el" href="struct_acts_1_1_input_track.html#a6f223b11ee345db55961aac4f1d264ee">Acts::InputTrack</a>, <a class="el" href="struct_acts_1_1_iterative_vertex_finder_1_1_config.html#af58b368b9461793379447bb27b600d53">Acts::IterativeVertexFinder::Config</a>, <a class="el" href="struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a6b662091e6d24d1640e5dc3680fa2280">Acts::ZScanVertexFinder::Config</a></li>
-<li>extractSeedsFromTheGraph()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aed6dfc074206908e78c6eae6a2ff94d2">Acts::Experimental::SeedFinderGbts</a></li>
+<li>extractSeedsFromTheGraph()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#afec30818e826caec7e0dec2413550163">Acts::Experimental::SeedFinderGbts</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,5 +1,0 @@
-<map id="ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;" name="ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;">
-<area shape="rect" id="Node000001" title="A surface provider that extracts surfaces from a gdml file." alt="" coords="5,79,207,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_surfaces_provider.html" title="This is the interface for providing surfaces to the detector building process." alt="" coords="20,5,192,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
-</map>

@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -416,7 +418,7 @@ $(function(){initNavTree('_bin_utility_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_bin_utility_html_ae7754c76a267cebb4b1651ba23fb2d45"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#ae7754c76a267cebb4b1651ba23fb2d45">Acts::BinUtility::BinUtility</a></div><div class="ttdeci">BinUtility(const BinUtility &amp;sbu)=default</div><div class="ttdoc">Copy constructor.</div></div>
 <div class="ttc" id="aclass_acts_1_1_bin_utility_html_ae84069f9d12f300a13ab986a395a614e"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#ae84069f9d12f300a13ab986a395a614e">Acts::BinUtility::~BinUtility</a></div><div class="ttdeci">~BinUtility()=default</div><div class="ttdoc">Virtual Destructor.</div></div>
 <div class="ttc" id="aclass_acts_1_1_bin_utility_html_aea1a827dea459d117b2af442f8179dab"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#aea1a827dea459d117b2af442f8179dab">Acts::BinUtility::toString</a></div><div class="ttdeci">std::string toString(const std::string &amp;indent=&quot;&quot;) const</div><div class="ttdoc">Output into a string.</div><div class="ttdef"><b>Definition</b> BinUtility.hpp:351</div></div>
-<div class="ttc" id="aclass_acts_1_1_bin_utility_html_aec32fc2335b51dc8140397127a5c4ac9"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#aec32fc2335b51dc8140397127a5c4ac9">Acts::BinUtility::bin</a></div><div class="ttdeci">std::size_t bin(const Vector2 &amp;lposition, std::size_t ba=0) const</div><div class="ttdoc">Bin from a 2D vector (following local parameters defintitions).</div><div class="ttdef"><b>Definition</b> BinUtility.hpp:245</div></div>
+<div class="ttc" id="aclass_acts_1_1_bin_utility_html_aec32fc2335b51dc8140397127a5c4ac9"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#aec32fc2335b51dc8140397127a5c4ac9">Acts::BinUtility::bin</a></div><div class="ttdeci">std::size_t bin(const Vector2 &amp;lposition, std::size_t ba=0) const</div><div class="ttdoc">Bin from a 2D vector (following local parameters definitions).</div><div class="ttdef"><b>Definition</b> BinUtility.hpp:245</div></div>
 <div class="ttc" id="aclass_acts_1_1_bin_utility_html_aee1e94af2ec3e668204533aaedb9da91"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#aee1e94af2ec3e668204533aaedb9da91">Acts::BinUtility::transform</a></div><div class="ttdeci">const Transform3 &amp; transform() const</div><div class="ttdoc">Transform applied to global positions before lookup.</div><div class="ttdef"><b>Definition</b> BinUtility.hpp:299</div></div>
 <div class="ttc" id="aclass_acts_1_1_bin_utility_html_af11bd92e52cb5105242d9665ed24694c"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#af11bd92e52cb5105242d9665ed24694c">Acts::BinUtility::binTriple</a></div><div class="ttdeci">std::array&lt; std::size_t, 3 &gt; binTriple(const Vector3 &amp;position) const</div><div class="ttdoc">Bin-triple fast access.</div><div class="ttdef"><b>Definition</b> BinUtility.hpp:190</div></div>
 <div class="ttc" id="aclass_acts_1_1_bin_utility_html_af39209238d12c8a482a83fc9e7b68dcc"><div class="ttname"><a href="class_acts_1_1_bin_utility.html#af39209238d12c8a482a83fc9e7b68dcc">Acts::BinUtility::max</a></div><div class="ttdeci">std::size_t max(std::size_t ba=0) const</div><div class="ttdoc">First bin maximal value.</div><div class="ttdef"><b>Definition</b> BinUtility.hpp:277</div></div>

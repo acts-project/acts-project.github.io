@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -135,19 +137,7 @@ $(function(){initNavTree('concept_acts_1_1_common_multi_trajectory_backend.html'
 <div class="line"> </div>
 <div class="line">      { cv.referenceSurface_impl(istate) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
 <div class="line"> </div>
-<div class="line">      { cv.parameters_impl(istate) } -&gt; std::same_as&lt;detail::ConstParameters&gt;;</div>
-<div class="line"> </div>
-<div class="line">      { cv.covariance_impl(istate) } -&gt; std::same_as&lt;detail::ConstCovariance&gt;;</div>
-<div class="line"> </div>
 <div class="line">      { cv.jacobian_impl(istate) } -&gt; std::same_as&lt;detail::ConstCovariance&gt;;</div>
-<div class="line"> </div>
-<div class="line">      {</div>
-<div class="line">        cv.template calibrated_impl&lt;2&gt;(istate)</div>
-<div class="line">      } -&gt; std::same_as&lt;Eigen::Map&lt;const Vector2&gt;&gt;;</div>
-<div class="line"> </div>
-<div class="line">      {</div>
-<div class="line">        cv.template calibratedCovariance_impl&lt;2&gt;(istate)</div>
-<div class="line">      } -&gt; std::same_as&lt;Eigen::Map&lt;const ActsSquareMatrix&lt;2&gt;&gt;&gt;;</div>
 <div class="line"> </div>
 <div class="line">      { cv.has_impl(key, istate) } -&gt; std::same_as&lt;bool&gt;;</div>
 <div class="line"> </div>
@@ -162,7 +152,7 @@ $(function(){initNavTree('concept_acts_1_1_common_multi_trajectory_backend.html'
 <div class="line">    }</div>
 <div class="ttc" id="aconcept_acts_1_1_common_multi_trajectory_backend_html"><div class="ttname"><a href="concept_acts_1_1_common_multi_trajectory_backend.html">Acts::CommonMultiTrajectoryBackend</a></div><div class="ttdef"><b>Definition</b> MultiTrajectoryBackendConcept.hpp:43</div></div>
 <div class="ttc" id="anamespace_acts_html_a316aaac27fda3651c80ea8dfba83492a"><div class="ttname"><a href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a></div><div class="ttdeci">std::uint32_t HashedString</div><div class="ttdoc">Type alias for hashed string representation.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:21</div></div>
-<div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:20</div></div>
+<div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

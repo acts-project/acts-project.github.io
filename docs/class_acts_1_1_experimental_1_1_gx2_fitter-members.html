@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -126,7 +128,7 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gx2_fitter.html','',''
 
 <p>This is the complete list of members for <a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html">Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html#afa1d4897ec1c22a76f223745e7eaf43d">fit</a>(source_link_iterator_t it, source_link_iterator_t end, const start_parameters_t &amp;sParameters, const Gx2FitterOptions&lt; traj_t &gt; &amp;gx2fOptions, track_container_t &amp;trackContainer) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html">Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html#a19d49a1d400ea86c037ec1b91bc94d03">fit</a>(source_link_iterator_t it, source_link_iterator_t end, const BoundTrackParameters &amp;sParameters, const Gx2FitterOptions&lt; traj_t &gt; &amp;gx2fOptions, track_container_t &amp;trackContainer) const</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html">Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html#a8383b3317169135b976a52d85b7f075d">Gx2Fitter</a>(propagator_t pPropagator, std::unique_ptr&lt; const Logger &gt; _logger=getDefaultLogger(&quot;Gx2Fitter&quot;, Logging::INFO))</td><td class="entry"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html">Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

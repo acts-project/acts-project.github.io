@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -194,7 +196,7 @@ $(function(){initNavTree('_binned_surface_material_accumulater_8hpp_source.html'
 <div class="ttc" id="anamespace_acts_html_a9b4dee934b0b193d57604b19bc8cd527"><div class="ttname"><a href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a></div><div class="ttdeci">std::unique_ptr&lt; const Logger &gt; getDefaultLogger(const std::string &amp;name, const Logging::Level &amp;lvl, std::ostream *log_stream=&amp;std::cout)</div><div class="ttdoc">get default debug output logger</div></div>
 <div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_config_html"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html">Acts::BinnedSurfaceMaterialAccumulater::Config</a></div><div class="ttdoc">Nested config struct.</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:27</div></div>
 <div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_config_html_a320794ee0459f90896b64c643f680dc5"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#a320794ee0459f90896b64c643f680dc5">Acts::BinnedSurfaceMaterialAccumulater::Config::emptyBinCorrection</a></div><div class="ttdeci">bool emptyBinCorrection</div><div class="ttdoc">Correct for empty bins (recommended).</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:32</div></div>
-<div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_config_html_a406c7b9e0a23a8125e2a9ec5b34fd6ee"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#a406c7b9e0a23a8125e2a9ec5b34fd6ee">Acts::BinnedSurfaceMaterialAccumulater::Config::materialSurfaces</a></div><div class="ttdeci">std::vector&lt; const Surface * &gt; materialSurfaces</div><div class="ttdoc">The surfaces to be used for the accummulation.</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:35</div></div>
+<div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_config_html_a406c7b9e0a23a8125e2a9ec5b34fd6ee"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#a406c7b9e0a23a8125e2a9ec5b34fd6ee">Acts::BinnedSurfaceMaterialAccumulater::Config::materialSurfaces</a></div><div class="ttdeci">std::vector&lt; const Surface * &gt; materialSurfaces</div><div class="ttdoc">The surfaces to be used for the accumulation.</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:35</div></div>
 <div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_config_html_ae2735d0d61012f686f6108d5b6e3ce53"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#ae2735d0d61012f686f6108d5b6e3ce53">Acts::BinnedSurfaceMaterialAccumulater::Config::geoContext</a></div><div class="ttdeci">GeometryContext geoContext</div><div class="ttdoc">Geometry context for coordinate transformations.</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:29</div></div>
 <div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_state_html"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html">Acts::BinnedSurfaceMaterialAccumulater::State</a></div><div class="ttdoc">Nested state struct.</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:39</div></div>
 <div class="ttc" id="astruct_acts_1_1_binned_surface_material_accumulater_1_1_state_html_a2a2b7b4b2b6f3e9029289c18b40360cd"><div class="ttname"><a href="struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html#a2a2b7b4b2b6f3e9029289c18b40360cd">Acts::BinnedSurfaceMaterialAccumulater::State::accumulatedMaterial</a></div><div class="ttdeci">std::map&lt; GeometryIdentifier, AccumulatedSurfaceMaterial &gt; accumulatedMaterial</div><div class="ttdoc">The accumulated material per geometry ID.</div><div class="ttdef"><b>Definition</b> BinnedSurfaceMaterialAccumulater.hpp:42</div></div>

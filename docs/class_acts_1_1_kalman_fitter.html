@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -133,14 +135,13 @@ $(function(){initNavTree('class_acts_1_1_kalman_fitter.html','','class_acts_1_1_
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a649173e847c828a73c735f1da4edffb2" id="r_a649173e847c828a73c735f1da4edffb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649173e847c828a73c735f1da4edffb2">KalmanFitter</a> (propagator_t pPropagator, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;KalmanFitter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a649173e847c828a73c735f1da4edffb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with propagator and logger.  <br /></td></tr>
-<tr class="memitem:a0d65991ef2cdb059972c7a8a93bcbc9a" id="r_a0d65991ef2cdb059972c7a8a93bcbc9a"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, typename start_parameters_t, typename parameters_t = BoundTrackParameters, TrackContainerFrontend track_container_t&gt; <br />
+<tr class="memitem:a6efde90854e8a07967e6cf01ebb908dd" id="r_a6efde90854e8a07967e6cf01ebb908dd"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; <br />
 requires (isDirectNavigator)</td></tr>
-<tr class="memitem:a0d65991ef2cdb059972c7a8a93bcbc9a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d65991ef2cdb059972c7a8a93bcbc9a">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const start_parameters_t &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;sSequence, track_container_t &amp;trackContainer) const</td></tr>
-<tr class="memdesc:a0d65991ef2cdb059972c7a8a93bcbc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit implementation of the forward filter, calls the the filter and smoother/reversed filter.  <br /></td></tr>
-<tr class="memitem:a0ea77a3941f62b690a9e5dd87cbad806" id="r_a0ea77a3941f62b690a9e5dd87cbad806"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, typename start_parameters_t, typename parameters_t = BoundTrackParameters, TrackContainerFrontend track_container_t&gt; <br />
-requires (!isDirectNavigator)</td></tr>
-<tr class="memitem:a0ea77a3941f62b690a9e5dd87cbad806 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea77a3941f62b690a9e5dd87cbad806">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const start_parameters_t &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, track_container_t &amp;trackContainer) const</td></tr>
-<tr class="memdesc:a0ea77a3941f62b690a9e5dd87cbad806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit implementation of the forward filter, calls the the filter and smoother/reversed filter.  <br /></td></tr>
+<tr class="memitem:a6efde90854e8a07967e6cf01ebb908dd template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6efde90854e8a07967e6cf01ebb908dd">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;sSequence, track_container_t &amp;trackContainer) const</td></tr>
+<tr class="memdesc:a6efde90854e8a07967e6cf01ebb908dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit implementation of the forward filter, calls the the filter and smoother/reversed filter.  <br /></td></tr>
+<tr class="memitem:ade19e36306d4c2ec20863e97a1e32111" id="r_ade19e36306d4c2ec20863e97a1e32111"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; </td></tr>
+<tr class="memitem:ade19e36306d4c2ec20863e97a1e32111 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade19e36306d4c2ec20863e97a1e32111">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, track_container_t &amp;trackContainer) const</td></tr>
+<tr class="memdesc:ade19e36306d4c2ec20863e97a1e32111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit implementation of the forward filter, calls the the filter and smoother/reversed filter.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename propagator_t, typename traj_t&gt;<br />
@@ -200,15 +201,15 @@ template&lt;typename propagator_t, typename traj_t&gt; </div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a0d65991ef2cdb059972c7a8a93bcbc9a" name="a0d65991ef2cdb059972c7a8a93bcbc9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d65991ef2cdb059972c7a8a93bcbc9a">&#9670;&#160;</a></span>fit() <span class="overload">[1/2]</span></h2>
+<a id="a6efde90854e8a07967e6cf01ebb908dd" name="a6efde90854e8a07967e6cf01ebb908dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6efde90854e8a07967e6cf01ebb908dd">&#9670;&#160;</a></span>fit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename propagator_t, typename traj_t&gt; </div>
 <div class="memtemplate">
-template&lt;typename source_link_iterator_t, typename start_parameters_t, typename parameters_t = BoundTrackParameters, TrackContainerFrontend track_container_t&gt; <br />
+template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; <br />
 requires (isDirectNavigator)</div>
       <table class="memname">
         <tr>
@@ -224,7 +225,7 @@ requires (isDirectNavigator)</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const start_parameters_t &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -248,8 +249,6 @@ requires (isDirectNavigator)</div>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">source_link_iterator_t</td><td>Iterator type used to pass source links </td></tr>
-    <tr><td class="paramname">start_parameters_t</td><td>Type of the initial parameters </td></tr>
-    <tr><td class="paramname">parameters_t</td><td>Type of parameters used for local parameters </td></tr>
     <tr><td class="paramname">track_container_t</td><td>Type of the track container</td></tr>
   </table>
   </dd>
@@ -270,16 +269,15 @@ requires (isDirectNavigator)</div>
 
 </div>
 </div>
-<a id="a0ea77a3941f62b690a9e5dd87cbad806" name="a0ea77a3941f62b690a9e5dd87cbad806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea77a3941f62b690a9e5dd87cbad806">&#9670;&#160;</a></span>fit() <span class="overload">[2/2]</span></h2>
+<a id="ade19e36306d4c2ec20863e97a1e32111" name="ade19e36306d4c2ec20863e97a1e32111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade19e36306d4c2ec20863e97a1e32111">&#9670;&#160;</a></span>fit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename propagator_t, typename traj_t&gt; </div>
 <div class="memtemplate">
-template&lt;typename source_link_iterator_t, typename start_parameters_t, typename parameters_t = BoundTrackParameters, TrackContainerFrontend track_container_t&gt; <br />
-requires (!isDirectNavigator)</div>
+template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt; <a class="el" href="class_acts_1_1_kalman_fitter.html">Acts::KalmanFitter</a>&lt; propagator_t, traj_t &gt;::fit </td>
@@ -294,7 +292,7 @@ requires (!isDirectNavigator)</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const start_parameters_t &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -313,8 +311,6 @@ requires (!isDirectNavigator)</div>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">source_link_iterator_t</td><td>Iterator type used to pass source links </td></tr>
-    <tr><td class="paramname">start_parameters_t</td><td>Type of the initial parameters </td></tr>
-    <tr><td class="paramname">parameters_t</td><td>Type of parameters used for local parameters </td></tr>
     <tr><td class="paramname">track_container_t</td><td>Type of the track container</td></tr>
   </table>
   </dd>

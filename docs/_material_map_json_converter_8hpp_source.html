@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -232,9 +234,8 @@ $(function(){initNavTree('_material_map_json_converter_8hpp_source.html','','');
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_logger.html">Logger</a>&amp; logger()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *m_logger; }</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>};</div>
 </div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:29</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_hierarchy_map_json_converter_html"><div class="ttname"><a href="class_acts_1_1_geometry_hierarchy_map_json_converter.html">Acts::GeometryHierarchyMapJsonConverter</a></div><div class="ttdoc">Convert a geometry hierarchy map to/from Json.</div><div class="ttdef"><b>Definition</b> GeometryHierarchyMapJsonConverter.hpp:41</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_identifier_html"><div class="ttname"><a href="class_acts_1_1_geometry_identifier.html">Acts::GeometryIdentifier</a></div><div class="ttdoc">Identifier for geometry nodes within the geometry hierarchy.</div><div class="ttdef"><b>Definition</b> GeometryIdentifier.hpp:31</div></div>

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -129,7 +131,7 @@ $(function(){initNavTree('struct_acts_plugins_1_1_geant4_physical_volume_convert
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8fd76a901060cfabb638bdd0d55df423" id="r_a8fd76a901060cfabb638bdd0d55df423"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd76a901060cfabb638bdd0d55df423">surface</a> (const G4VPhysicalVolume &amp;g4PhysVol, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;toGlobal, bool convertMaterial=false, double compressed=0.)</td></tr>
-<tr class="memdesc:a8fd76a901060cfabb638bdd0d55df423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Geant4 phsyical volume to a surface.  <br /></td></tr>
+<tr class="memdesc:a8fd76a901060cfabb638bdd0d55df423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Geant4 physical volume to a surface.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -166,7 +168,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Convert a Geant4 phsyical volume to a surface. </p>
+<p>Convert a Geant4 physical volume to a surface. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">g4PhysVol</td><td>the physical volume to be constructed </td></tr>

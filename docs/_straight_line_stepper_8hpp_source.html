@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -504,7 +506,7 @@ $(function(){initNavTree('_straight_line_stepper_8hpp_source.html','',''); });
 <div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a387c035a3750adcd8fcea402a5858e0b"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a387c035a3750adcd8fcea402a5858e0b">Acts::StraightLineStepper::State::previousStepSize</a></div><div class="ttdeci">double previousStepSize</div><div class="ttdoc">Previous step size for overstep estimation (ignored for straight line stepper).</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:118</div></div>
 <div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a41e14a64f5bd2ed5648dd994e67ad4d5"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a41e14a64f5bd2ed5648dd994e67ad4d5">Acts::StraightLineStepper::State::covTransport</a></div><div class="ttdeci">bool covTransport</div><div class="ttdoc">Boolean to indicate if you need covariance transport.</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:98</div></div>
 <div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a474dde891dc6b028f1d403950e7ecd10"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a474dde891dc6b028f1d403950e7ecd10">Acts::StraightLineStepper::State::stepSize</a></div><div class="ttdeci">ConstrainedStep stepSize</div><div class="ttdoc">adaptive step size of the runge-kutta integration</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:114</div></div>
-<div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a6111bdf0df9ec6ecbbdecdb0b09192fc"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a6111bdf0df9ec6ecbbdecdb0b09192fc">Acts::StraightLineStepper::State::pathAccumulated</a></div><div class="ttdeci">double pathAccumulated</div><div class="ttdoc">accummulated path length state</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:105</div></div>
+<div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a6111bdf0df9ec6ecbbdecdb0b09192fc"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a6111bdf0df9ec6ecbbdecdb0b09192fc">Acts::StraightLineStepper::State::pathAccumulated</a></div><div class="ttdeci">double pathAccumulated</div><div class="ttdoc">accumulated path length state</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:105</div></div>
 <div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a65b8c2d7aa549a0491f8622917f0335e"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a65b8c2d7aa549a0491f8622917f0335e">Acts::StraightLineStepper::State::jacToGlobal</a></div><div class="ttdeci">BoundToFreeMatrix jacToGlobal</div><div class="ttdoc">Jacobian from local to the global frame.</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:80</div></div>
 <div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a6caac2ad5fd5c4d65fe8d3a7eb00aa78"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a6caac2ad5fd5c4d65fe8d3a7eb00aa78">Acts::StraightLineStepper::State::cov</a></div><div class="ttdeci">Covariance cov</div><div class="ttdoc">Covariance matrix for track parameter uncertainties.</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:100</div></div>
 <div class="ttc" id="astruct_acts_1_1_straight_line_stepper_1_1_state_html_a70665f0248b54cf3e47c0fa08f55487e"><div class="ttname"><a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#a70665f0248b54cf3e47c0fa08f55487e">Acts::StraightLineStepper::State::nSteps</a></div><div class="ttdeci">std::size_t nSteps</div><div class="ttdoc">Total number of performed steps.</div><div class="ttdef"><b>Definition</b> StraightLineStepper.hpp:108</div></div>

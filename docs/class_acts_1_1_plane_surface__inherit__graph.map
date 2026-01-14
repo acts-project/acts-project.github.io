@@ -1,6 +1,6 @@
 <map id="Acts::PlaneSurface" name="Acts::PlaneSurface">
 <area shape="rect" id="Node000001" title="Class for a planaer in the TrackingGeometry." alt="" coords="113,240,255,265"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_plane_layer.html" title="Class to describe a planar detector layer for tracking, it inhertis from both, Layer base class and P..." alt="" coords="119,313,249,339"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_plane_layer.html" title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P..." alt="" coords="119,313,249,339"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="187,279,187,313,181,313,181,279"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_regular_surface.html" title="A physical surface which does not depend on the direction you look at it from." alt="" coords="105,167,263,192"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,206,187,240,181,240,181,206"/>

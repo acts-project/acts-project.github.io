@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -129,8 +131,8 @@ $(function(){initNavTree('functions_func_g.html','',''); });
 <li>GaussianSumFitter()&#160;:&#160;<a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html#a24e63a2d63a65587af752fbb208bad53">Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;</a></li>
 <li>GaussianTrackDensity()&#160;:&#160;<a class="el" href="class_acts_1_1_gaussian_track_density.html#a0c4b8a4a7a5670dc175fce3c48fe1c27">Acts::GaussianTrackDensity</a></li>
 <li>GbtsConnection()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html#a388703563a6c76a45b6edc805484c911">Acts::Experimental::GbtsConnection</a></li>
-<li>GbtsConnector()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a6ac6054b5645f5e09cbc2a0834b1297c">Acts::Experimental::GbtsConnector</a></li>
-<li>GbtsDataStorage()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a5adc6b9b3de9c7e5bcd3000e3a1b4f6f">Acts::Experimental::GbtsDataStorage</a></li>
+<li>GbtsConnector()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_connector.html#afaa93778fad7418b4bab0c40cfe14f26">Acts::Experimental::GbtsConnector</a></li>
+<li>GbtsDataStorage()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a7c3d227da484a22bcce8d3d7513e60e0">Acts::Experimental::GbtsDataStorage</a></li>
 <li>GbtsEdge()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html#abed9363367793299a1a9d04c79299b62">Acts::Experimental::GbtsEdge</a></li>
 <li>GbtsEdgeState()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html#abb85e22bacbf37ef2d6c28218831e50f">Acts::Experimental::GbtsEdgeState</a></li>
 <li>GbtsEtaBin()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a9179e46ff4f4da2933b0266d6f95eb7b">Acts::Experimental::GbtsEtaBin</a></li>
@@ -140,7 +142,6 @@ $(function(){initNavTree('functions_func_g.html','',''); });
 <li>GbtsTrackingFilter()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html#a2ec3ad0730a7f292df4464561f11b23f">Acts::Experimental::GbtsTrackingFilter</a></li>
 <li>Geant4DetectorElement()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a56ee185fbf6ed80fbf21d709690b339c">ActsPlugins::Geant4DetectorElement</a></li>
 <li>Geant4DetectorSurfaceFactory()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_detector_surface_factory.html#a6f6c8d97c015ba3de9ba129a7b3c14ac">ActsPlugins::Geant4DetectorSurfaceFactory</a></li>
-<li>Geant4SurfaceProvider()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_surface_provider.html#ad39d0519b6b19dba16797d35791585db">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;</a></li>
 <li>geantino()&#160;:&#160;<a class="el" href="class_acts_1_1_neutral_particle_hypothesis.html#a9be9c023d36584b011c3be734ce91413">Acts::NeutralParticleHypothesis</a>, <a class="el" href="class_acts_1_1_particle_hypothesis.html#a4885b8adbb836d4e2d2fa6fe81d47e8b">Acts::ParticleHypothesis</a></li>
 <li>generatePath()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#ab267369a2136a6b419808311c1c38314">Acts::Experimental::MultiLayerNavigationPolicy</a></li>
 <li>generatePathLimits()&#160;:&#160;<a class="el" href="class_acts_fatras_1_1_photon_conversion.html#aa8ff8801eb6259ca07883471066428fa">ActsFatras::PhotonConversion</a>, <a class="el" href="struct_acts_fatras_1_1_point_like_process.html#a09cda5240510675a745c70f541d65bcc">ActsFatras::PointLikeProcess&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;</a></li>
@@ -200,7 +201,7 @@ $(function(){initNavTree('functions_func_g.html','',''); });
 <li>getLifetimeSignOfTrack()&#160;:&#160;<a class="el" href="class_acts_1_1_impact_point_estimator.html#ac78a5465ffdd2c4011a9d03dff1cf3bf">Acts::ImpactPointEstimator</a></li>
 <li>getLink()&#160;:&#160;<a class="el" href="class_acts_1_1_portal.html#a97b6b1baca3ec332ecb570ea95fd4313">Acts::Portal</a></li>
 <li>getMapper()&#160;:&#160;<a class="el" href="class_acts_1_1_interpolated_material_map.html#a6e45cb9ad2b2e182fc0906e11fc51445">Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;</a></li>
-<li>getMask()&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#ad287abac373d7c888eb39f26c1fff117">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>getMask()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#a99a91ef793a163aa80bd94c5bd04d969">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a05f976cf656dc5571f37ce6e7408a386">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#a1ac8e0bdf8916e29b81679c64ac5d1a4">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
 <li>getMaterial()&#160;:&#160;<a class="el" href="class_acts_1_1_interpolated_material_map.html#a446e7e28fb456464dde02e2510ad38c8">Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;</a>, <a class="el" href="struct_acts_1_1_material_map_lookup.html#a0f1c8e03f009c1f9d1aa8e3eed8e2259">Acts::MaterialMapLookup&lt; G &gt;</a>, <a class="el" href="struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a7aae18920dedea7de8a59eb0682a89e9">Acts::MaterialMapLookup&lt; G &gt;::MaterialCell</a></li>
 <li>getMaterialCell()&#160;:&#160;<a class="el" href="struct_acts_1_1_material_map_lookup.html#a3b19749c25e1aa0092c81cd00c928ffd">Acts::MaterialMapLookup&lt; G &gt;</a></li>
 <li>getMaterialGradient()&#160;:&#160;<a class="el" href="class_acts_1_1_interpolated_material_map.html#ae393777888c72eed2b41501a54e91b3b">Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;</a></li>
@@ -232,7 +233,7 @@ $(function(){initNavTree('functions_func_g.html','',''); });
 <li>getTrack()&#160;:&#160;<a class="el" href="class_acts_1_1_track_container.html#a8d8a2383ba067c389865ca33ef76cdc6">Acts::TrackContainer&lt; track_container_t, traj_t, holder_t &gt;</a></li>
 <li>getTrackState()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#abc713a2c967f1ee42e06ce8b3f0d3dbe">Acts::MultiTrajectory&lt; derived_t &gt;</a></li>
 <li>getType()&#160;:&#160;<a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a04fde5d8ca66c8ed319ad1fde928884b">Acts::Axis&lt; AxisType::Equidistant, bdt &gt;</a>, <a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a6882d2748442ad12bd8aef80420d0e61">Acts::Axis&lt; AxisType::Variable, bdt &gt;</a>, <a class="el" href="class_acts_1_1_i_axis.html#a0c94b79ff9f1f8da8000c70039f30239">Acts::IAxis</a></li>
-<li>getUncalibratedSourceLink()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a37a4943d7d96f78990c9f224c3eebd00">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ae735c7f377c9d136cd0dae9b404e1363">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>getUncalibratedSourceLink()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#ad6c87f3c619f2bb90af9ad9209acafa0">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a37a4943d7d96f78990c9f224c3eebd00">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ae735c7f377c9d136cd0dae9b404e1363">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
 <li>getUncalibratedSourceLink_impl()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_const_podio_track_state_container.html#ac013ac01bae6ee707252b40beeb30207">ActsPlugins::ConstPodioTrackStateContainer</a>, <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5a18be03414f9484299c0ec74b67d3c4">ActsPlugins::MutablePodioTrackStateContainer</a></li>
 <li>getVertexCompatibility()&#160;:&#160;<a class="el" href="class_acts_1_1_impact_point_estimator.html#a81f039e8f320da2fef3665854ead4f12">Acts::ImpactPointEstimator</a></li>
 <li>getWeight()&#160;:&#160;<a class="el" href="class_acts_1_1_annealing_utility.html#af5b134f0f93f50438b2b5e9afcd881f1">Acts::AnnealingUtility</a></li>

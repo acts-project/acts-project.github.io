@@ -1,6 +1,5 @@
 var group__actsvg__plugin =
 [
-    [ "ActsPlugins::Svg", "namespace_acts_plugins_1_1_svg.html", null ],
     [ "ActsPlugins::Svg::EventDataConverter", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html", null ],
     [ "ActsPlugins::Svg::GridConverter", "namespace_acts_plugins_1_1_svg_1_1_grid_converter.html", null ],
     [ "ActsPlugins::Svg::IndexedSurfacesConverter", "namespace_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter.html", null ],
@@ -74,5 +73,9 @@ var group__actsvg__plugin =
       [ "ActsPlugins::Svg::LayerConverter::eGridInfo", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aa11a9e2a96d6cd65b54e53027f97a5f2c", null ],
       [ "ActsPlugins::Svg::LayerConverter::eCrossSectionXY", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aa7a446ece7abbc84adb45e7bc39cebc9c", null ],
       [ "ActsPlugins::Svg::LayerConverter::eCrossSectionZR", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aa0dbb9e44db70255326f92e428a01e2d5", null ]
-    ] ]
+    ] ],
+    [ "ActsPlugins::Svg::SurfaceArrayConverter::convert", "group__actsvg__plugin.html#ga271e1666026fac6edae8f856d8c9b886", null ],
+    [ "ActsPlugins::Svg::EventDataConverter::point", "group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27", null ],
+    [ "ActsPlugins::Svg::EventDataConverter::pointXY", "group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d", null ],
+    [ "ActsPlugins::Svg::EventDataConverter::pointZR", "group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d", null ]
 ];

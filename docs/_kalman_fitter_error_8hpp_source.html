@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -139,24 +141,26 @@ $(function(){initNavTree('_kalman_fitter_error_8hpp_source.html','',''); });
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9a1dae01a56ad58a9db7ea93bb3c7a1c">   25</a></span>  <a class="code hl_enumvalue" href="group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c">OutputConversionFailed</a>,</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465">   27</a></span>  <a class="code hl_enumvalue" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465">NoMeasurementFound</a>,</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9">   29</a></span>  <a class="code hl_enumvalue" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9">ReversePropagationFailed</a>,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971">   30</a></span>  <a class="code hl_enumvalue" href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971">InconsistentTrackStates</a>,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
 </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespace_acts.html#a190c3b5e3ff20dbd35833e207d4f62c1">   35</a></span>std::error_code <a class="code hl_function" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">make_error_code</a>(<a class="code hl_enumeration" href="group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd">Acts::KalmanFitterError</a> e);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">namespace </span>std {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// register with STL</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">template</span> &lt;&gt;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">struct </span>is_error_code_enum&lt;<a class="code hl_namespace" href="namespace_acts.html">Acts</a>::KalmanFitterError&gt; : std::true_type {};</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}  <span class="comment">// namespace std</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespace_acts.html#a190c3b5e3ff20dbd35833e207d4f62c1">   36</a></span>std::error_code <a class="code hl_function" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">make_error_code</a>(<a class="code hl_enumeration" href="group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd">Acts::KalmanFitterError</a> e);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">namespace </span>std {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// register with STL</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">template</span> &lt;&gt;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">struct </span>is_error_code_enum&lt;<a class="code hl_namespace" href="namespace_acts.html">Acts</a>::KalmanFitterError&gt; : std::true_type {};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}  <span class="comment">// namespace std</span></div>
 <div class="ttc" id="agroup__errors_html_gac3f65a46059b0f9516370f5bdcb9bddd"><div class="ttname"><a href="group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd">Acts::KalmanFitterError</a></div><div class="ttdeci">KalmanFitterError</div><div class="ttdoc">Error codes for Kalman filter operations.</div><div class="ttdef"><b>Definition</b> KalmanFitterError.hpp:18</div></div>
 <div class="ttc" id="agroup__errors_html_gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c"><div class="ttname"><a href="group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c">Acts::CombinatorialKalmanFilterError::OutputConversionFailed</a></div><div class="ttdeci">@ OutputConversionFailed</div><div class="ttdoc">Kalman output conversion failed.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterError.hpp:25</div></div>
 <div class="ttc" id="agroup__errors_html_gga5708898bc604b9dfedc12319218b8c1bab1699d129532c7c6294a1f26fd4032d9"><div class="ttname"><a href="group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab1699d129532c7c6294a1f26fd4032d9">Acts::CombinatorialKalmanFilterError::UpdateFailed</a></div><div class="ttdeci">@ UpdateFailed</div><div class="ttdoc">Kalman update failed.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterError.hpp:21</div></div>
 <div class="ttc" id="agroup__errors_html_gga5708898bc604b9dfedc12319218b8c1bab91834cc99e0c4508dfebaadb2980b7c"><div class="ttname"><a href="group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab91834cc99e0c4508dfebaadb2980b7c">Acts::CombinatorialKalmanFilterError::SmoothFailed</a></div><div class="ttdeci">@ SmoothFailed</div><div class="ttdoc">Kalman smooth failed.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterError.hpp:23</div></div>
 <div class="ttc" id="agroup__errors_html_ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465"><div class="ttname"><a href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465">Acts::KalmanFitterError::NoMeasurementFound</a></div><div class="ttdeci">@ NoMeasurementFound</div><div class="ttdoc">No measurement detected during the propagation.</div><div class="ttdef"><b>Definition</b> KalmanFitterError.hpp:27</div></div>
 <div class="ttc" id="agroup__errors_html_ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9"><div class="ttname"><a href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9">Acts::KalmanFitterError::ReversePropagationFailed</a></div><div class="ttdeci">@ ReversePropagationFailed</div><div class="ttdoc">Reverse propagation failed.</div><div class="ttdef"><b>Definition</b> KalmanFitterError.hpp:29</div></div>
+<div class="ttc" id="agroup__errors_html_ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971"><div class="ttname"><a href="group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971">Acts::KalmanFitterError::InconsistentTrackStates</a></div><div class="ttdeci">@ InconsistentTrackStates</div><div class="ttdef"><b>Definition</b> KalmanFitterError.hpp:30</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a3326d9e357aef12edb2f49a4ea8bae95"><div class="ttname"><a href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">Acts::make_error_code</a></div><div class="ttdeci">std::error_code make_error_code(Acts::PortalError e)</div><div class="ttdoc">Create error code from PortalError.</div></div>
 </div><!-- fragment --></div><!-- contents -->

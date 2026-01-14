@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -225,7 +227,7 @@ Dynamic columns</h2>
 <div class="line">tc.<a class="code hl_function" href="class_acts_1_1_track_container.html#ab4c3f89e93d7c7bd40ae3c36c66359d9">addColumn</a>&lt;<span class="keywordtype">float</span>&gt;(<span class="stringliteral">&quot;col_a&quot;</span>);</div>
 <div class="line">tc.<a class="code hl_function" href="class_acts_1_1_track_container.html#ab4c3f89e93d7c7bd40ae3c36c66359d9">addColumn</a>&lt;uint8_t&gt;(<span class="stringliteral">&quot;col_b&quot;</span>);</div>
 <div class="ttc" id="aclass_acts_1_1_track_container_html"><div class="ttname"><a href="class_acts_1_1_track_container.html">Acts::TrackContainer</a></div><div class="ttdoc">Track container interface class.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:40</div></div>
-<div class="ttc" id="aclass_acts_1_1_track_container_html_ab4c3f89e93d7c7bd40ae3c36c66359d9"><div class="ttname"><a href="class_acts_1_1_track_container.html#ab4c3f89e93d7c7bd40ae3c36c66359d9">Acts::TrackContainer::addColumn</a></div><div class="ttdeci">constexpr void addColumn(std::string_view key)</div><div class="ttdoc">Add a dymanic column to the track container.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:254</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_container_html_ab4c3f89e93d7c7bd40ae3c36c66359d9"><div class="ttname"><a href="class_acts_1_1_track_container.html#ab4c3f89e93d7c7bd40ae3c36c66359d9">Acts::TrackContainer::addColumn</a></div><div class="ttdeci">constexpr void addColumn(std::string_view key)</div><div class="ttdoc">Add a dynamic column to the track container.</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:254</div></div>
 </div><!-- fragment --><p>Adding columns is only supported on <em>mutable</em> track containers, const track containers should contain the original dynamic columns from when they were created. It is up to the backend to implement recovering dynamic columns from e.g. input files.</p>
 <dl class="section note"><dt>Note</dt><dd>Which types are supported depends on the backend being used. See <a class="el" href="#edm_track_backends">Track EDM backends</a> for information on the backends shipped with ACTS, and which types they support.</dd></dl>
 <p>With these dynamic columns registered, it is now possible to set and get values for these columns on tracks.</p>
@@ -237,7 +239,7 @@ Dynamic columns</h2>
 <div class="line">track.component&lt;<span class="keywordtype">float</span>&gt;(<span class="stringliteral">&quot;col_a&quot;</span>_hash) = 52.52;</div>
 <div class="line">std::cout &lt;&lt; track.component&lt;float, <span class="stringliteral">&quot;col_a&quot;</span>_hash&gt;() &lt;&lt; std::endl; <span class="comment">// prints: 52.52</span></div>
 <div class="ttc" id="aclass_acts_1_1_track_container_html_ac25da78703f2ec2067986edf9a767370"><div class="ttname"><a href="class_acts_1_1_track_container.html#ac25da78703f2ec2067986edf9a767370">Acts::TrackContainer::makeTrack</a></div><div class="ttdeci">TrackProxy makeTrack()</div><div class="ttdoc">Add a track to the container and return a track proxy to it This effectively calls addTrack and getTr...</div><div class="ttdef"><b>Definition</b> TrackContainer.hpp:198</div></div>
-<div class="ttc" id="aclass_acts_1_1_track_proxy_html_a47b29d9988c9b0c3b7b86e44a1f5525e"><div class="ttname"><a href="class_acts_1_1_track_proxy.html#a47b29d9988c9b0c3b7b86e44a1f5525e">Acts::TrackProxy::component</a></div><div class="ttdeci">constexpr T &amp; component()</div><div class="ttdoc">Retrieve a mutable reference to a component.</div><div class="ttdef"><b>Definition</b> TrackProxy.hpp:834</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_proxy_html_a47b29d9988c9b0c3b7b86e44a1f5525e"><div class="ttname"><a href="class_acts_1_1_track_proxy.html#a47b29d9988c9b0c3b7b86e44a1f5525e">Acts::TrackProxy::component</a></div><div class="ttdeci">constexpr T &amp; component()</div><div class="ttdoc">Retrieve a mutable reference to a component.</div><div class="ttdef"><b>Definition</b> TrackProxy.hpp:662</div></div>
 </div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd>The expression <span class="tt">"col_a"_hash</span> is a user-defined literal that internally calls <br  />
 <br  />
  <div class="fragment"><div class="line">Acts::hashedString(<span class="stringliteral">&quot;col_a&quot;</span>);</div>
@@ -256,7 +258,7 @@ Accessors</h2>
 <div class="line"><span class="comment">// component access by calling it on a proxy</span></div>
 <div class="line">extra(track) = 42.2;</div>
 <div class="line">std::cout &lt;&lt; extra(track) &lt;&lt; std::endl; <span class="comment">// prints 42.2</span></div>
-<div class="ttc" id="anamespace_acts_html_a79f3daeca2329cfd19dc3baa49e667d0"><div class="ttname"><a href="namespace_acts.html#a79f3daeca2329cfd19dc3baa49e667d0">Acts::ProxyAccessor</a></div><div class="ttdeci">ProxyAccessorBase&lt; T, false &gt; ProxyAccessor</div><div class="ttdoc">Type alias for a mutable proxy accessor.</div><div class="ttdef"><b>Definition</b> ProxyAccessor.hpp:126</div></div>
+<div class="ttc" id="anamespace_acts_html_a79f3daeca2329cfd19dc3baa49e667d0"><div class="ttname"><a href="namespace_acts.html#a79f3daeca2329cfd19dc3baa49e667d0">Acts::ProxyAccessor</a></div><div class="ttdeci">ProxyAccessorBase&lt; T, false &gt; ProxyAccessor</div><div class="ttdoc">Type alias for a mutable proxy accessor.</div><div class="ttdef"><b>Definition</b> ProxyAccessor.hpp:116</div></div>
 </div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd>The same accessor also works for <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a> objects, as it shares the same component access mechanism with <a class="el" href="class_acts_1_1_track_proxy.html">Acts::TrackProxy</a>.</dd></dl>
 <p>The above accessor is a <b>mutable</b> accessor, meaning it can only be used with mutable proxy objects!</p>
 <div class="fragment"><div class="line">ConstTrackProxy&lt;...&gt; constTrack = <span class="comment">/*...*/</span>;</div>
@@ -266,7 +268,7 @@ Accessors</h2>
 <div class="line">std::cout &lt;&lt; extraConst(constTrack) &lt;&lt; std::endl; <span class="comment">// prints 42.2</span></div>
 <div class="line"><span class="comment">// using the const accessor on a mutable proxy also works</span></div>
 <div class="line">std::cout &lt;&lt; extraConst(track) &lt;&lt; std::endl; <span class="comment">// prints 42.2</span></div>
-<div class="ttc" id="anamespace_acts_html_ae0e74469e9117c4b3731cf556cbf832a"><div class="ttname"><a href="namespace_acts.html#ae0e74469e9117c4b3731cf556cbf832a">Acts::ConstProxyAccessor</a></div><div class="ttdeci">ProxyAccessorBase&lt; T, true &gt; ConstProxyAccessor</div><div class="ttdoc">Type alias for a const proxy accessor.</div><div class="ttdef"><b>Definition</b> ProxyAccessor.hpp:131</div></div>
+<div class="ttc" id="anamespace_acts_html_ae0e74469e9117c4b3731cf556cbf832a"><div class="ttname"><a href="namespace_acts.html#ae0e74469e9117c4b3731cf556cbf832a">Acts::ConstProxyAccessor</a></div><div class="ttdeci">ProxyAccessorBase&lt; T, true &gt; ConstProxyAccessor</div><div class="ttdoc">Type alias for a const proxy accessor.</div><div class="ttdef"><b>Definition</b> ProxyAccessor.hpp:121</div></div>
 </div><!-- fragment --><p>For both const and mutable proxy accessors you do not actually need a mutable reference, as the internal accessor state is not mutated after construction. You can safely use a static instance of these accessors to avoid constructing them over and over again:</p>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;TrackProxyConcept track_proxy_t&gt;</div>
 <div class="line"><span class="keywordtype">void</span> doSomething(track_proxy_t track, <span class="keywordtype">float</span> value) {</div>
@@ -295,14 +297,14 @@ Holders</h2>
 How to create a track from scratch</h3>
 <p>Tracks can be created directly from the EDM interface. You start by creating or obtaining a mutable track container:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> tc{<a class="code hl_class" href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a>{}, Acts::VectorMutiTrajectory{}};</div>
-<div class="ttc" id="aclass_acts_1_1_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a></div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:212</div></div>
+<div class="ttc" id="aclass_acts_1_1_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a></div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:211</div></div>
 </div><!-- fragment --><p>A single track can be added like this:</p>
 <div class="fragment"><div class="line"><span class="keyword">auto</span> track = tc.<a class="code hl_function" href="class_acts_1_1_track_container.html#ac25da78703f2ec2067986edf9a767370">makeTrack</a>();</div>
 <div class="line"><span class="comment">// set some properties</span></div>
 <div class="line">track.<a class="code hl_function" href="class_acts_1_1_track_proxy.html#ad17d90489f76fa4e7340cdd219e2bd5e">parameters</a>() &lt;&lt; 0.1_mm, 3_mm, 1/20_GeV, 0.2, 0.4, 25_mm;</div>
 <div class="line">track.setReferenceSurface(</div>
 <div class="line">    Acts::Surface::makeSurface&lt;Acts::PerigeeSurface&gt;(Acts::Vector3::Zero()));</div>
-<div class="ttc" id="aclass_acts_1_1_track_proxy_html_ad17d90489f76fa4e7340cdd219e2bd5e"><div class="ttname"><a href="class_acts_1_1_track_proxy.html#ad17d90489f76fa4e7340cdd219e2bd5e">Acts::TrackProxy::parameters</a></div><div class="ttdeci">ConstParameters parameters() const</div><div class="ttdoc">Get the parameters of the track at the reference surface (e.g.</div><div class="ttdef"><b>Definition</b> TrackProxy.hpp:238</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_proxy_html_ad17d90489f76fa4e7340cdd219e2bd5e"><div class="ttname"><a href="class_acts_1_1_track_proxy.html#ad17d90489f76fa4e7340cdd219e2bd5e">Acts::TrackProxy::parameters</a></div><div class="ttdeci">ConstParameters parameters() const</div><div class="ttdoc">Get the parameters of the track at the reference surface (e.g.</div><div class="ttdef"><b>Definition</b> TrackProxy.hpp:205</div></div>
 </div><!-- fragment --><p>The track is still lacking track states. You can <em>append</em> track states to the track, which means that a track state is attached behind the outermost track state currently assigned.</p>
 <div class="fragment"><div class="line"><span class="keyword">auto</span> ts1 = track.appendTrackState();</div>
 <div class="line">ts1.smoothed() &lt;&lt; 0.4_um, 1_mm, 1/19_GeV, 0.21, 0.37, 40_ns;</div>
@@ -322,13 +324,13 @@ Transient vector backend</h4>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_vector_multi_trajectory.html">Acts::VectorMultiTrajectory</a> mtj{};</div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a> vtc{};</div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> tc{vtc, mtj};</div>
-<div class="ttc" id="aclass_acts_1_1_vector_multi_trajectory_html"><div class="ttname"><a href="class_acts_1_1_vector_multi_trajectory.html">Acts::VectorMultiTrajectory</a></div><div class="ttdoc">In-memory transient multi-trajectory implementation using std::vector as backend.</div><div class="ttdef"><b>Definition</b> VectorMultiTrajectory.hpp:384</div></div>
+<div class="ttc" id="aclass_acts_1_1_vector_multi_trajectory_html"><div class="ttname"><a href="class_acts_1_1_vector_multi_trajectory.html">Acts::VectorMultiTrajectory</a></div><div class="ttdoc">In-memory transient multi-trajectory implementation using std::vector as backend.</div><div class="ttdef"><b>Definition</b> VectorMultiTrajectory.hpp:387</div></div>
 </div><!-- fragment --><p>or</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_const_vector_track_container.html">Acts::ConstVectorTrackContainer</a> vtc{<span class="comment">/* ... */</span>};</div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_const_vector_multi_trajectory.html">Acts::ConstVectorMultiTrajectory</a> mtj{<span class="comment">/* ... */</span>};</div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> ctc{vtc, mtj};</div>
-<div class="ttc" id="aclass_acts_1_1_const_vector_multi_trajectory_html"><div class="ttname"><a href="class_acts_1_1_const_vector_multi_trajectory.html">Acts::ConstVectorMultiTrajectory</a></div><div class="ttdoc">Const version of VectorMultiTrajectory.</div><div class="ttdef"><b>Definition</b> VectorMultiTrajectory.hpp:564</div></div>
-<div class="ttc" id="aclass_acts_1_1_const_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_const_vector_track_container.html">Acts::ConstVectorTrackContainer</a></div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:291</div></div>
+<div class="ttc" id="aclass_acts_1_1_const_vector_multi_trajectory_html"><div class="ttname"><a href="class_acts_1_1_const_vector_multi_trajectory.html">Acts::ConstVectorMultiTrajectory</a></div><div class="ttdoc">Const version of VectorMultiTrajectory.</div><div class="ttdef"><b>Definition</b> VectorMultiTrajectory.hpp:569</div></div>
+<div class="ttc" id="aclass_acts_1_1_const_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_const_vector_track_container.html">Acts::ConstVectorTrackContainer</a></div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:290</div></div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>There are currently no restrictions on types that can be used as dynamic columns. Any type can be stored and retrieved back from the backend. <br  />
 <br  />
  Keep in mind that the transient vector backend does not support persistency, meaning that there is no mechanism to serialize dynamic columns (or static columns for that matter) to disk and read them back in.</dd></dl>

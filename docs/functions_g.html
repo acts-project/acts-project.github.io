@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -125,14 +127,13 @@ $(function(){initNavTree('functions_g.html','',''); });
 <h3 class="doxsection"><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>g&#160;:&#160;<a class="el" href="struct_acts_1_1_eigen_stepper_dense_extension.html#a963dc87e2b008ffbe01503d62652b02f">Acts::EigenStepperDenseExtension</a></li>
 <li>g4PhysicalVolume()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a3057ad8d98240524089488f4e3a5f451">ActsPlugins::Geant4DetectorElement</a></li>
-<li>g4World&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a0293144767466a7cbb4c4f51283d2ac1">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config</a></li>
 <li>gaps()&#160;:&#160;<a class="el" href="class_acts_1_1_volume_stack.html#a4d0cc9a7f9b362b16ac49e97c1b90f10">Acts::VolumeStack</a></li>
 <li>GaussianGridTrackDensity()&#160;:&#160;<a class="el" href="class_acts_1_1_gaussian_grid_track_density.html#a86f11ff26b442348ae330f360bf4a153">Acts::GaussianGridTrackDensity</a></li>
 <li>GaussianSumFitter()&#160;:&#160;<a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html#a24e63a2d63a65587af752fbb208bad53">Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;</a></li>
 <li>GaussianTrackDensity()&#160;:&#160;<a class="el" href="class_acts_1_1_gaussian_track_density.html#a0c4b8a4a7a5670dc175fce3c48fe1c27">Acts::GaussianTrackDensity</a></li>
 <li>GbtsConnection()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html#a388703563a6c76a45b6edc805484c911">Acts::Experimental::GbtsConnection</a></li>
-<li>GbtsConnector()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a6ac6054b5645f5e09cbc2a0834b1297c">Acts::Experimental::GbtsConnector</a></li>
-<li>GbtsDataStorage()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a5adc6b9b3de9c7e5bcd3000e3a1b4f6f">Acts::Experimental::GbtsDataStorage</a></li>
+<li>GbtsConnector()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_connector.html#afaa93778fad7418b4bab0c40cfe14f26">Acts::Experimental::GbtsConnector</a></li>
+<li>GbtsDataStorage()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#a7c3d227da484a22bcce8d3d7513e60e0">Acts::Experimental::GbtsDataStorage</a></li>
 <li>GbtsEdge()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html#abed9363367793299a1a9d04c79299b62">Acts::Experimental::GbtsEdge</a></li>
 <li>GbtsEdgeState()&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html#abb85e22bacbf37ef2d6c28218831e50f">Acts::Experimental::GbtsEdgeState</a></li>
 <li>GbtsEtaBin()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a9179e46ff4f4da2933b0266d6f95eb7b">Acts::Experimental::GbtsEtaBin</a></li>
@@ -144,7 +145,6 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>Geant4DetectorSurfaceFactory()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_detector_surface_factory.html#a6f6c8d97c015ba3de9ba129a7b3c14ac">ActsPlugins::Geant4DetectorSurfaceFactory</a></li>
 <li>Geant4PassiveSurface&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_detector_surface_factory.html#a7d20e7b1516a2bdd7bd0eb5db0cc5e9e">ActsPlugins::Geant4DetectorSurfaceFactory</a></li>
 <li>Geant4SensitiveSurface&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_detector_surface_factory.html#adb50157683caa76982e919c3c52fbc14">ActsPlugins::Geant4DetectorSurfaceFactory</a></li>
-<li>Geant4SurfaceProvider()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_geant4_surface_provider.html#ad39d0519b6b19dba16797d35791585db">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;</a></li>
 <li>geantino()&#160;:&#160;<a class="el" href="class_acts_1_1_neutral_particle_hypothesis.html#a9be9c023d36584b011c3be734ce91413">Acts::NeutralParticleHypothesis</a>, <a class="el" href="class_acts_1_1_particle_hypothesis.html#a4885b8adbb836d4e2d2fa6fe81d47e8b">Acts::ParticleHypothesis</a></li>
 <li>generatedParticles&#160;:&#160;<a class="el" href="struct_acts_fatras_1_1_simulation_result.html#ad907e1117019936badb78325d0136a85">ActsFatras::SimulationResult</a></li>
 <li>generatePath()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#ab267369a2136a6b419808311c1c38314">Acts::Experimental::MultiLayerNavigationPolicy</a></li>
@@ -166,7 +166,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>geometryId()&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_object.html#a798dd6a19dcc5cd79d9b55ed6e474f7a">Acts::GeometryObject</a>, <a class="el" href="struct_acts_1_1_interaction_volume.html#a0b8c377680d4af652edebf0111dc95a7">Acts::InteractionVolume</a>, <a class="el" href="class_acts_fatras_1_1_hit.html#a1b1150a3e52af833e64d027034c67341">ActsFatras::Hit</a></li>
 <li>GeometryIdentifier()&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_identifier.html#aae3abe9931fe5b7faaf13505314ac241">Acts::GeometryIdentifier</a></li>
 <li>GeometryIdentifierBlueprintNode()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a950cb8a78c39d961e36e8c351624bf70">Acts::Experimental::GeometryIdentifierBlueprintNode</a></li>
-<li>geometryIdentifierHook&#160;:&#160;<a class="el" href="struct_acts_1_1_k_d_tree_tracking_geometry_builder_1_1_config.html#a496a050e6cb878bc7ea5699ca816272f">Acts::KDTreeTrackingGeometryBuilder::Config</a>, <a class="el" href="struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3">Acts::TrackingGeometryBuilder::Config</a></li>
+<li>geometryIdentifierHook&#160;:&#160;<a class="el" href="struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3">Acts::TrackingGeometryBuilder::Config</a></li>
 <li>GeometryObject()&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_object.html#aa3649047621ffd92ebbc3dded63b0651">Acts::GeometryObject</a></li>
 <li>GeometryObjectSorterT()&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_object_sorter_t.html#aac4099ea4aa5dfa47b8d2d2f0b687f27">Acts::GeometryObjectSorterT&lt; T &gt;</a></li>
 <li>GeometryVersion&#160;:&#160;<a class="el" href="class_acts_1_1_navigator.html#ab6f463f4b8269bf10128034f5a010bbe">Acts::Navigator</a>, <a class="el" href="class_acts_1_1_tracking_geometry.html#a55e38e7e200a0a1d5f14261b30091b56">Acts::TrackingGeometry</a></li>
@@ -189,7 +189,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getBoundaryType()&#160;:&#160;<a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a3e8fe7d74879b0214c6e11b332620979">Acts::Axis&lt; AxisType::Equidistant, bdt &gt;</a>, <a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#ab1d43ebec8acb1038a4c5deedafe517d">Acts::Axis&lt; AxisType::Variable, bdt &gt;</a>, <a class="el" href="class_acts_1_1_i_axis.html#a933b5ea738b1e040db853b4f8d460279">Acts::IAxis</a></li>
 <li>getCleanedOutTracks()&#160;:&#160;<a class="el" href="class_acts_1_1_score_based_ambiguity_resolution.html#ad1a269f3602ad70790bf2d143484d2fd">Acts::ScoreBasedAmbiguityResolution</a></li>
 <li>getConfiguration()&#160;:&#160;<a class="el" href="class_acts_1_1_cylinder_volume_builder.html#a775f460f8061a28e53de32fe296fbd15">Acts::CylinderVolumeBuilder</a>, <a class="el" href="class_acts_1_1_cylinder_volume_helper.html#ab5e4751828a18137509039923fae8772">Acts::CylinderVolumeHelper</a>, <a class="el" href="class_acts_1_1_layer_creator.html#ac102210b6bc67933e34a198280e4a683">Acts::LayerCreator</a>, <a class="el" href="class_acts_1_1_passive_layer_builder.html#a79fb22480e80983faa72d0a9bd1c7703">Acts::PassiveLayerBuilder</a>, <a class="el" href="class_acts_1_1_tracking_geometry_builder.html#a28f5ec04c3438cea8c84e916b6daf6a0">Acts::TrackingGeometryBuilder</a>, <a class="el" href="group__dd4hep__plugin.html#ga597bb2f116d8b7a4461715822706454b">ActsPlugins::DD4hepLayerBuilder</a>, <a class="el" href="group__dd4hep__plugin.html#gad6da5dbdf350e5823cdd3631f821a841">ActsPlugins::DD4hepVolumeBuilder</a>, <a class="el" href="group__root__plugin.html#ga96a02a3e95f99b7e04bfb6007ab45486">ActsPlugins::TGeoLayerBuilder</a></li>
-<li>GetCovariance&#160;:&#160;<a class="el" href="class_acts_1_1_gain_matrix_smoother.html#a7fce168534624ba552bfa9ea6665b96e">Acts::GainMatrixSmoother</a></li>
+<li>GetCovariance&#160;:&#160;<a class="el" href="class_acts_1_1_gain_matrix_smoother.html#a23174d3f3869acea4f59ab5a0451f592">Acts::GainMatrixSmoother</a></li>
 <li>getCuts()&#160;:&#160;<a class="el" href="struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a6b91a767f8cfb034a3d15f1b58598dfb">Acts::TrackSelector::EtaBinnedConfig</a></li>
 <li>getDistanceAndMomentum()&#160;:&#160;<a class="el" href="class_acts_1_1_impact_point_estimator.html#a7c10eecd619772be9888f67bc15d8898">Acts::ImpactPointEstimator</a></li>
 <li>getEtaBin()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html#adb0d63f4e0211cd7dec5b78ffc5e11ea">Acts::Experimental::GbtsDataStorage</a>, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html#ab040cfb06ce255c44315834685b132df">Acts::Experimental::GbtsLayer</a></li>
@@ -210,7 +210,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getLifetimeSignOfTrack()&#160;:&#160;<a class="el" href="class_acts_1_1_impact_point_estimator.html#ac78a5465ffdd2c4011a9d03dff1cf3bf">Acts::ImpactPointEstimator</a></li>
 <li>getLink()&#160;:&#160;<a class="el" href="class_acts_1_1_portal.html#a97b6b1baca3ec332ecb570ea95fd4313">Acts::Portal</a></li>
 <li>getMapper()&#160;:&#160;<a class="el" href="class_acts_1_1_interpolated_material_map.html#a6e45cb9ad2b2e182fc0906e11fc51445">Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;</a></li>
-<li>getMask()&#160;:&#160;<a class="el" href="class_acts_1_1_track_state_proxy.html#ad287abac373d7c888eb39f26c1fff117">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>getMask()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#a99a91ef793a163aa80bd94c5bd04d969">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a05f976cf656dc5571f37ce6e7408a386">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#a1ac8e0bdf8916e29b81679c64ac5d1a4">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
 <li>getMaterial()&#160;:&#160;<a class="el" href="class_acts_1_1_interpolated_material_map.html#a446e7e28fb456464dde02e2510ad38c8">Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;</a>, <a class="el" href="struct_acts_1_1_material_map_lookup.html#a0f1c8e03f009c1f9d1aa8e3eed8e2259">Acts::MaterialMapLookup&lt; G &gt;</a>, <a class="el" href="struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a7aae18920dedea7de8a59eb0682a89e9">Acts::MaterialMapLookup&lt; G &gt;::MaterialCell</a></li>
 <li>getMaterialCell()&#160;:&#160;<a class="el" href="struct_acts_1_1_material_map_lookup.html#a3b19749c25e1aa0092c81cd00c928ffd">Acts::MaterialMapLookup&lt; G &gt;</a></li>
 <li>getMaterialGradient()&#160;:&#160;<a class="el" href="class_acts_1_1_interpolated_material_map.html#ae393777888c72eed2b41501a54e91b3b">Acts::InterpolatedMaterialMap&lt; Mapper_t &gt;</a></li>
@@ -232,7 +232,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getNBins()&#160;:&#160;<a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a80d784ffcc6763aef657ab200c227fff">Acts::Axis&lt; AxisType::Equidistant, bdt &gt;</a>, <a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a2f359718dbea060ce27d59d251e4582b">Acts::Axis&lt; AxisType::Variable, bdt &gt;</a>, <a class="el" href="class_acts_1_1_i_axis.html#a0cd501e79018e882a23aa76a9c233547">Acts::IAxis</a>, <a class="el" href="class_acts_1_1_interpolated_b_field_map.html#ab741243770b7835033ac0e8cd53ddbf6">Acts::InterpolatedBFieldMap&lt; grid_t &gt;</a>, <a class="el" href="class_acts_1_1_interpolated_magnetic_field.html#a3cf6102b40ab605cfccef8479f518767">Acts::InterpolatedMagneticField</a>, <a class="el" href="struct_acts_1_1_material_map_lookup.html#a60ed3890393c53adc17900c625280f28">Acts::MaterialMapLookup&lt; G &gt;</a></li>
 <li>getNonEmptyBins()&#160;:&#160;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aac64b3abd0ec305152fc0c674ed5579b">Acts::HoughTransformUtils::HoughPlane&lt; identifier_t &gt;</a></li>
 <li>getOrthogonalAxes()&#160;:&#160;<a class="el" href="class_acts_1_1_cuboid_volume_stack.html#a7667915cb2611154e4dc449af1dd78f8">Acts::CuboidVolumeStack</a></li>
-<li>GetParameters&#160;:&#160;<a class="el" href="class_acts_1_1_gain_matrix_smoother.html#ab6b9b81f9b40ed7a3726d997fccbf062">Acts::GainMatrixSmoother</a></li>
+<li>GetParameters&#160;:&#160;<a class="el" href="class_acts_1_1_gain_matrix_smoother.html#aa38eea482f694d4d3bc9057c1e94a25e">Acts::GainMatrixSmoother</a></li>
 <li>getPublishedVol()&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a8991d9a8db19d2e165bd922ec25e5e7c">ActsPlugins::GeoModelTree::VolumePublisher</a></li>
 <li>getSeedFilterConfig()&#160;:&#160;<a class="el" href="class_acts_1_1_seed_filter.html#a8158718b2e67a04d0fa1411de419d7dd">Acts::SeedFilter&lt; external_spacepoint_t &gt;</a></li>
 <li>getSharedPtr()&#160;:&#160;<a class="el" href="class_acts_1_1_surface.html#a5a9660305f3ad5c2e6731942206571a8">Acts::Surface</a></li>
@@ -243,7 +243,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getTrack()&#160;:&#160;<a class="el" href="class_acts_1_1_track_container.html#a8d8a2383ba067c389865ca33ef76cdc6">Acts::TrackContainer&lt; track_container_t, traj_t, holder_t &gt;</a></li>
 <li>getTrackState()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#abc713a2c967f1ee42e06ce8b3f0d3dbe">Acts::MultiTrajectory&lt; derived_t &gt;</a></li>
 <li>getType()&#160;:&#160;<a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a04fde5d8ca66c8ed319ad1fde928884b">Acts::Axis&lt; AxisType::Equidistant, bdt &gt;</a>, <a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a6882d2748442ad12bd8aef80420d0e61">Acts::Axis&lt; AxisType::Variable, bdt &gt;</a>, <a class="el" href="class_acts_1_1_i_axis.html#a0c94b79ff9f1f8da8000c70039f30239">Acts::IAxis</a></li>
-<li>getUncalibratedSourceLink()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a37a4943d7d96f78990c9f224c3eebd00">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ae735c7f377c9d136cd0dae9b404e1363">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>getUncalibratedSourceLink()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#ad6c87f3c619f2bb90af9ad9209acafa0">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a37a4943d7d96f78990c9f224c3eebd00">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ae735c7f377c9d136cd0dae9b404e1363">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
 <li>getUncalibratedSourceLink_impl()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_const_podio_track_state_container.html#ac013ac01bae6ee707252b40beeb30207">ActsPlugins::ConstPodioTrackStateContainer</a>, <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5a18be03414f9484299c0ec74b67d3c4">ActsPlugins::MutablePodioTrackStateContainer</a></li>
 <li>getVertexCompatibility()&#160;:&#160;<a class="el" href="class_acts_1_1_impact_point_estimator.html#a81f039e8f320da2fef3665854ead4f12">Acts::ImpactPointEstimator</a></li>
 <li>getWeight()&#160;:&#160;<a class="el" href="class_acts_1_1_annealing_utility.html#af5b134f0f93f50438b2b5e9afcd881f1">Acts::AnnealingUtility</a></li>
@@ -271,9 +271,6 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>glueVolumes()&#160;:&#160;<a class="el" href="class_acts_1_1_glue_volumes_descriptor.html#a04d6be97dd8f57b4f2708f1df027fc23">Acts::GlueVolumesDescriptor</a></li>
 <li>GlueVolumesDescriptor()&#160;:&#160;<a class="el" href="class_acts_1_1_glue_volumes_descriptor.html#ab38b59f913827f1dd3bc9baae7099df8">Acts::GlueVolumesDescriptor</a></li>
 <li>glueVolumesDescriptor()&#160;:&#160;<a class="el" href="class_acts_1_1_tracking_volume.html#adb732da3591b090e73de9020f20b916a">Acts::TrackingVolume</a></li>
-<li>GNN_DataStorage&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a2f20c2b1a5305884d24d50b7daa76c8c">Acts::Experimental::SeedFinderGbts</a></li>
-<li>GNN_Edge&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a5e45c825307dff40bb1ad499e4c1fc41">Acts::Experimental::SeedFinderGbts</a></li>
-<li>GNN_Node&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a565fb7e3f9aa972b6429a996a38bbbeb">Acts::Experimental::SeedFinderGbts</a></li>
 <li>GnnPipeline()&#160;:&#160;<a class="el" href="class_acts_plugins_1_1_gnn_pipeline.html#a3251b7db350b6fff6c814aeb14c12dcf">ActsPlugins::GnnPipeline</a></li>
 <li>gpuBlocks&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#adaed7137aae438d4a741c09546daf24f">ActsPlugins::ModuleMapCuda::Config</a></li>
 <li>gpuDevice&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#ae104a63b0b7b0bdba872050acb286bcb">ActsPlugins::ModuleMapCuda::Config</a></li>

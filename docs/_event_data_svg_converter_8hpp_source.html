@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -130,42 +132,39 @@ $(function(){initNavTree('_event_data_svg_converter_8hpp_source.html','',''); })
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Acts/Utilities/Logger.hpp&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;ActsPlugins/ActSVG/SvgUtils.hpp&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;actsvg/core.hpp&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins.html">ActsPlugins</a> {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
-<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_svg.html">   19</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html">Svg::EventDataConverter</a> {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#a9877427985b2ab7b00bec84f34afd57d">   29</a></span>actsvg::svg::object <a class="code hl_function" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#a9877427985b2ab7b00bec84f34afd57d">pointXY</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>&amp; pos, <span class="keywordtype">double</span> size,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                            <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a>&amp; style, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx = 0);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aa54ff1c9ab91d2d40b7edb7f204cc57d">   40</a></span>actsvg::svg::object <a class="code hl_function" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aa54ff1c9ab91d2d40b7edb7f204cc57d">pointZR</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>&amp; pos, <span class="keywordtype">double</span> size,</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                            <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a>&amp; style, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx = 0);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> view_type&gt;</div>
-<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aaea27d3d680a8be51aa974901d177e27">   52</a></span>actsvg::svg::object <a class="code hl_function" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aaea27d3d680a8be51aa974901d177e27">point</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>&amp; pos, <span class="keywordtype">double</span> size,</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                          <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a>&amp; style, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx) {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  view_type view;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  std::vector&lt;Acts::Vector3&gt; ps = {pos};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keyword">auto</span> ppos = view(ps)[0];</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">auto</span> [fill, stroke] = style.<a class="code hl_function" href="struct_acts_plugins_1_1_svg_1_1_style.html#a00fd1daf7c614ae7221072c3068c3481">fillAndStroke</a>();</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">auto</span> circle =</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>      actsvg::draw::circle(<span class="stringliteral">&quot;p_&quot;</span> + std::to_string(idx), ppos,</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                           <span class="keyword">static_cast&lt;</span>actsvg::scalar<span class="keyword">&gt;</span>(size), fill, stroke);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordflow">return</span> circle;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html">ActsPlugins::Svg::EventDataConverter</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d">   33</a></span>actsvg::svg::object <a class="code hl_function" href="group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d">pointXY</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>&amp; pos, <span class="keywordtype">double</span> size,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                            <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a>&amp; style, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx = 0);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d">   44</a></span>actsvg::svg::object <a class="code hl_function" href="group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d">pointZR</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>&amp; pos, <span class="keywordtype">double</span> size,</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                            <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a>&amp; style, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx = 0);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> view_type&gt;</div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">   56</a></span>actsvg::svg::object <a class="code hl_function" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>&amp; pos, <span class="keywordtype">double</span> size,</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                          <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_plugins_1_1_svg_1_1_style.html">Style</a>&amp; style, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx) {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  view_type view;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  std::vector&lt;Acts::Vector3&gt; ps = {pos};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keyword">auto</span> ppos = view(ps)[0];</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">auto</span> [fill, stroke] = style.<a class="code hl_function" href="struct_acts_plugins_1_1_svg_1_1_style.html#a00fd1daf7c614ae7221072c3068c3481">fillAndStroke</a>();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">auto</span> circle =</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>      actsvg::draw::circle(<span class="stringliteral">&quot;p_&quot;</span> + std::to_string(idx), ppos,</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                           <span class="keyword">static_cast&lt;</span>actsvg::scalar<span class="keyword">&gt;</span>(size), fill, stroke);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordflow">return</span> circle;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
 </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}  <span class="comment">// namespace Svg::EventDataConverter</span></div>
-</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}  <span class="comment">// namespace ActsPlugins</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>}  <span class="comment">// namespace ActsPlugins::Svg::EventDataConverter</span></div>
+<div class="ttc" id="agroup__actsvg__plugin_html_ga9877427985b2ab7b00bec84f34afd57d"><div class="ttname"><a href="group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d">ActsPlugins::Svg::EventDataConverter::pointXY</a></div><div class="ttdeci">actsvg::svg::object pointXY(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx=0)</div><div class="ttdoc">Write/create a 3D point in XY view.</div></div>
+<div class="ttc" id="agroup__actsvg__plugin_html_gaa54ff1c9ab91d2d40b7edb7f204cc57d"><div class="ttname"><a href="group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d">ActsPlugins::Svg::EventDataConverter::pointZR</a></div><div class="ttdeci">actsvg::svg::object pointZR(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx=0)</div><div class="ttdoc">Write/create a 3D point in ZR view.</div></div>
+<div class="ttc" id="agroup__actsvg__plugin_html_gaaea27d3d680a8be51aa974901d177e27"><div class="ttname"><a href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">ActsPlugins::Svg::EventDataConverter::point</a></div><div class="ttdeci">actsvg::svg::object point(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx)</div><div class="ttdoc">Write/create a 3D point in a given view.</div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:56</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html">ActsPlugins::Svg::EventDataConverter</a></div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:19</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html_a9877427985b2ab7b00bec84f34afd57d"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#a9877427985b2ab7b00bec84f34afd57d">ActsPlugins::Svg::EventDataConverter::pointXY</a></div><div class="ttdeci">actsvg::svg::object pointXY(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx=0)</div><div class="ttdoc">Write/create a 3D point in XY view.</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html_aa54ff1c9ab91d2d40b7edb7f204cc57d"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aa54ff1c9ab91d2d40b7edb7f204cc57d">ActsPlugins::Svg::EventDataConverter::pointZR</a></div><div class="ttdeci">actsvg::svg::object pointZR(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx=0)</div><div class="ttdoc">Write/create a 3D point in ZR view.</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html_aaea27d3d680a8be51aa974901d177e27"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html#aaea27d3d680a8be51aa974901d177e27">ActsPlugins::Svg::EventDataConverter::point</a></div><div class="ttdeci">actsvg::svg::object point(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx)</div><div class="ttdoc">Write/create a 3D point in a given view.</div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:52</div></div>
-<div class="ttc" id="anamespace_acts_plugins_html"><div class="ttname"><a href="namespace_acts_plugins.html">ActsPlugins</a></div><div class="ttdoc">The ACTS plugins namespace: All plugins go here.</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_event_data_converter_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html">ActsPlugins::Svg::EventDataConverter</a></div><div class="ttdoc">Utilities to convert event data to SVG objects.</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_svg_1_1_style_html"><div class="ttname"><a href="struct_acts_plugins_1_1_svg_1_1_style.html">ActsPlugins::Svg::Style</a></div><div class="ttdoc">Style struct.</div><div class="ttdef"><b>Definition</b> SvgUtils.hpp:24</div></div>
 <div class="ttc" id="astruct_acts_plugins_1_1_svg_1_1_style_html_a00fd1daf7c614ae7221072c3068c3481"><div class="ttname"><a href="struct_acts_plugins_1_1_svg_1_1_style.html#a00fd1daf7c614ae7221072c3068c3481">ActsPlugins::Svg::Style::fillAndStroke</a></div><div class="ttdeci">std::tuple&lt; actsvg::style::fill, actsvg::style::stroke &gt; fillAndStroke() const</div><div class="ttdoc">Conversion to fill and stroke object from the base library.</div><div class="ttdef"><b>Definition</b> SvgUtils.hpp:49</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -291,6 +293,7 @@ Reference to a surface that represents this detector element </dd></dl>
 </div><div class="memdoc">
 
 <p>Returns the thickness of the module. </p>
+<dl class="section return"><dt>Returns</dt><dd>double that indicates the thickness of the module </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_json_detector_element.html#aee27f27e4ee8d44d62bf14fd309396c8">Acts::JsonDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a919ee7b56459ace714312c11c3e4c2d2">ActsPlugins::Geant4DetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#a822c7c1e7ac520d98ed063267987831c">ActsPlugins::GeoModelDetectorElement</a>, and <a class="el" href="group__root__plugin.html#gae90c5d88cc8631e53ca331f09e953f71">ActsPlugins::TGeoDetectorElement</a>.</p>
 
@@ -326,6 +329,7 @@ Reference to a surface that represents this detector element </dd></dl>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>reference to the transform of this detector element </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_json_detector_element.html#a8b496e57e6dd5a79ce4b8cb22342a85b">Acts::JsonDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a75fb5aabc9e275d0a2452c7a7c9cb934">ActsPlugins::Geant4DetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#a9f09a4f9a6f1dd47b3c2746236fdc6e6">ActsPlugins::GeoModelDetectorElement</a>, and <a class="el" href="group__root__plugin.html#ga924e7fd740db94693f73ded83d9d19c0">ActsPlugins::TGeoDetectorElement</a>.</p>
 

@@ -43,7 +43,8 @@ var group__errors =
       [ "Acts::KalmanFitterError::SmoothFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bdddab91834cc99e0c4508dfebaadb2980b7c", null ],
       [ "Acts::KalmanFitterError::OutputConversionFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9a1dae01a56ad58a9db7ea93bb3c7a1c", null ],
       [ "Acts::KalmanFitterError::NoMeasurementFound", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465", null ],
-      [ "Acts::KalmanFitterError::ReversePropagationFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9", null ]
+      [ "Acts::KalmanFitterError::ReversePropagationFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9", null ],
+      [ "Acts::KalmanFitterError::InconsistentTrackStates", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971", null ]
     ] ],
     [ "Acts::MagneticFieldError", "group__errors.html#ga62dad9323721a81699d3f7fdca7a9f91", [
       [ "Acts::MagneticFieldError::OutOfBounds", "group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a46dc1018ac1d8fca7c2752a61ce2fd0f", null ],

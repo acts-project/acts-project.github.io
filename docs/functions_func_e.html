@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -123,8 +125,9 @@ $(function(){initNavTree('functions_func_e.html','',''); });
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
 
 <h3 class="doxsection"><a id="index_e" name="index_e"></a>- e -</h3><ul>
-<li>effectiveCalibrated()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a08aaad4bba4d2f8739cb4e984f95e8f8">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ae5254b01a1b33f36fd4f6769f91a7b75">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
-<li>effectiveCalibratedCovariance()&#160;:&#160;<a class="el" href="class_acts_1_1_multi_trajectory.html#a259963a25cd22d22cc93526172cc07e9">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#aaa274eb254b676d8d0119bffbdcb9908">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a></li>
+<li>effectiveCalibrated()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#a649cee87fca37d535738db50a514377f">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a08aaad4bba4d2f8739cb4e984f95e8f8">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a0d0d794fc481cb2061503297db51bec2">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#aa8531df924e58911dcfb579ad7579521">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>effectiveCalibratedCovariance()&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_state_proxy.html#ad72b06ca24577a2926275da1c62361c1">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a259963a25cd22d22cc93526172cc07e9">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a9d5455b8b30a2c62a9bc623f9152dc77">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#a9d8384874ef921f58fe0d2ea41b9f643">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
+<li>Efficiency()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_efficiency.html#a4ec2a948c27e5c0f4143789127e8403d">Acts::Experimental::Efficiency&lt; Dim &gt;</a></li>
 <li>EigenStepper()&#160;:&#160;<a class="el" href="class_acts_1_1_eigen_stepper.html#afd6efefeea706345e2fee52646c14e37">Acts::EigenStepper&lt; extension_t &gt;</a></li>
 <li>electron()&#160;:&#160;<a class="el" href="class_acts_1_1_non_neutral_charged_particle_hypothesis.html#a50a5a068626ba9aecbd4bf73dcf888cc">Acts::NonNeutralChargedParticleHypothesis</a>, <a class="el" href="class_acts_1_1_particle_hypothesis.html#a89856ba69cb0d5ff2ef2d42cd6c7262e">Acts::ParticleHypothesis</a>, <a class="el" href="class_acts_1_1_singly_charged_particle_hypothesis.html#a356db310fa5369f79d76f7c4b43362a5">Acts::SinglyChargedParticleHypothesis</a></li>
 <li>element()&#160;:&#160;<a class="el" href="class_acts_1_1_element_fraction.html#a698b2625949fa671499e4cca23330394">Acts::ElementFraction</a></li>
@@ -162,7 +165,6 @@ $(function(){initNavTree('functions_func_e.html','',''); });
 <li>extend()&#160;:&#160;<a class="el" href="class_acts_1_1_cylindrical_space_point_grid2.html#a9a020c69e972ab72ec61c430b272f60b">Acts::CylindricalSpacePointGrid2</a>, <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder.html#a3b69abfde1a8cd2c15cb7fc251a339dd">Acts::Experimental::CylindricalSpacePointKDTreeBuilder</a>, <a class="el" href="class_acts_1_1_extent.html#a0d8c7624c672bc497f8837f7054c6d46">Acts::Extent</a>, <a class="el" href="struct_acts_1_1_propagator_options.html#a7a837419b8bafbcc953c58373e0b3480">Acts::PropagatorOptions&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;</a>, <a class="el" href="struct_acts_1_1_ridders_propagator_options.html#af8b15e8478c0a2d3e5e943ebc3da3629">Acts::RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;</a></li>
 <li>extendTo2d()&#160;:&#160;<a class="el" href="class_acts_1_1_grid_portal_link.html#a78ba5b209630423d4103bb7590ba6ae4">Acts::GridPortalLink</a>, <a class="el" href="class_acts_1_1_grid_portal_link_t.html#aa0079caed9cfbff48d22ca810c499c86">Acts::GridPortalLinkT&lt; Axes &gt;</a></li>
 <li>extendTo2dImpl()&#160;:&#160;<a class="el" href="class_acts_1_1_grid_portal_link.html#ac3dad85ebd1bdcdd01d840b922eb9e4e">Acts::GridPortalLink</a></li>
-<li>extendUp()&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume.html#ac027930f8914bd0721cb2adbed44b58c">Acts::ProtoVolume</a></li>
 <li>Extent()&#160;:&#160;<a class="el" href="class_acts_1_1_extent.html#af765a6d37e5608a9598433c47ebcc454">Acts::Extent</a></li>
 <li>extent()&#160;:&#160;<a class="el" href="struct_acts_1_1_polyhedron.html#a206860bd6e319f1f35b07d05ceb90e72">Acts::Polyhedron</a></li>
 <li>ExtentEnvelope()&#160;:&#160;<a class="el" href="struct_acts_1_1_extent_envelope.html#a42c20027bced507eb70272f52eb65fba">Acts::ExtentEnvelope</a></li>
@@ -172,7 +174,7 @@ $(function(){initNavTree('functions_func_e.html','',''); });
 <li>extractFitablePars()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a4ed52ae6b594db79c8fff00fdee7a18c">Acts::Experimental::CompositeSpacePointLineFitter</a></li>
 <li>extractMomentum()&#160;:&#160;<a class="el" href="class_acts_1_1_any_charge.html#aa289ad3b47f404983a58bb428dfce123">Acts::AnyCharge</a>, <a class="el" href="class_acts_1_1_generic_particle_hypothesis.html#aace7c5f34ec521dcd3bddffd09bb6d96">Acts::GenericParticleHypothesis&lt; charge_t &gt;</a>, <a class="el" href="struct_acts_1_1_neutral.html#a6b8bbda278e2860998d41cb37da8f2c3">Acts::Neutral</a>, <a class="el" href="class_acts_1_1_non_neutral_charge.html#a20489eda028b0e37331b6f6b373928ce">Acts::NonNeutralCharge</a>, <a class="el" href="struct_acts_1_1_singly_charged.html#a4a90f0ac8a5c18df58316508a488fd1b">Acts::SinglyCharged</a></li>
 <li>extractParameters()&#160;:&#160;<a class="el" href="struct_acts_1_1_input_track.html#a6f223b11ee345db55961aac4f1d264ee">Acts::InputTrack</a></li>
-<li>extractSeedsFromTheGraph()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aed6dfc074206908e78c6eae6a2ff94d2">Acts::Experimental::SeedFinderGbts</a></li>
+<li>extractSeedsFromTheGraph()&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html#afec30818e826caec7e0dec2413550163">Acts::Experimental::SeedFinderGbts</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

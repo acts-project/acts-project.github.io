@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -190,7 +192,7 @@ $(function(){initNavTree('_interactions_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_html_acece53e8206433adba38168d0458c746"><div class="ttname"><a href="namespace_acts.html#acece53e8206433adba38168d0458c746">Acts::computeEnergyLossMode</a></div><div class="ttdeci">float computeEnergyLossMode(const MaterialSlab &amp;slab, PdgParticle absPdg, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute the combined most probably energy loss.</div></div>
 <div class="ttc" id="anamespace_acts_html_ae16ecda47ec9e373b988bb80f0bd7ef3"><div class="ttname"><a href="namespace_acts.html#ae16ecda47ec9e373b988bb80f0bd7ef3">Acts::computeEnergyLossLandauSigmaQOverP</a></div><div class="ttdeci">float computeEnergyLossLandauSigmaQOverP(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute q/p Gaussian-equivalent sigma due to ionisation loss fluctuations.</div></div>
 <div class="ttc" id="anamespace_acts_html_ae9377cc8410b61e349e68a4f1d79772b"><div class="ttname"><a href="namespace_acts.html#ae9377cc8410b61e349e68a4f1d79772b">Acts::deriveEnergyLossBetheQOverP</a></div><div class="ttdeci">float deriveEnergyLossBetheQOverP(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Derivative of the Bethe energy loss with respect to q/p.</div></div>
-<div class="ttc" id="anamespace_acts_html_aeb22670d2e2303ba2854c2169aa08608"><div class="ttname"><a href="namespace_acts.html#aeb22670d2e2303ba2854c2169aa08608">Acts::computeEnergyLossLandau</a></div><div class="ttdeci">float computeEnergyLossLandau(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute the most propable energy loss due to ionisation and excitation.</div></div>
+<div class="ttc" id="anamespace_acts_html_aeb22670d2e2303ba2854c2169aa08608"><div class="ttname"><a href="namespace_acts.html#aeb22670d2e2303ba2854c2169aa08608">Acts::computeEnergyLossLandau</a></div><div class="ttdeci">float computeEnergyLossLandau(const MaterialSlab &amp;slab, float m, float qOverP, float absQ)</div><div class="ttdoc">Compute the most probable energy loss due to ionisation and excitation.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

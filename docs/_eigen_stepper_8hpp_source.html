@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -451,14 +453,14 @@ $(function(){initNavTree('_eigen_stepper_8hpp_source.html','',''); });
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a0db50e1ad097a4a0567aac674f52324c"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a0db50e1ad097a4a0567aac674f52324c">Acts::EigenStepper::State::k3</a></div><div class="ttdeci">Vector3 k3</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:137</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a0f360a26bd1560084a5d48a757a837e7"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a0f360a26bd1560084a5d48a757a837e7">Acts::EigenStepper::State::k1</a></div><div class="ttdeci">Vector3 k1</div><div class="ttdoc">k_i of the RKN4 algorithm</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:137</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a21d667a435caa5f16130cfb06c9f236f"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a21d667a435caa5f16130cfb06c9f236f">Acts::EigenStepper::State::pars</a></div><div class="ttdeci">FreeVector pars</div><div class="ttdoc">Internal free vector parameters.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:86</div></div>
-<div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a22b69289504d1a8146ada8a06f429e3f"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a22b69289504d1a8146ada8a06f429e3f">Acts::EigenStepper::State::pathAccumulated</a></div><div class="ttdeci">double pathAccumulated</div><div class="ttdoc">Accummulated path length state.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:110</div></div>
+<div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a22b69289504d1a8146ada8a06f429e3f"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a22b69289504d1a8146ada8a06f429e3f">Acts::EigenStepper::State::pathAccumulated</a></div><div class="ttdeci">double pathAccumulated</div><div class="ttdoc">Accumulated path length state.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:110</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a2c8b2f45321c4cfdf2ebe45a9fb51fc4"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a2c8b2f45321c4cfdf2ebe45a9fb51fc4">Acts::EigenStepper::State::k2</a></div><div class="ttdeci">Vector3 k2</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:137</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a34fe7c7c6e8c795dbc8137537e83baff"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a34fe7c7c6e8c795dbc8137537e83baff">Acts::EigenStepper::State::stepSize</a></div><div class="ttdeci">ConstrainedStep stepSize</div><div class="ttdoc">Adaptive step size of the runge-kutta integration.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:119</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a3df55494092c83f1a27fe59745cc0a7a"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a3df55494092c83f1a27fe59745cc0a7a">Acts::EigenStepper::State::previousStepSize</a></div><div class="ttdeci">double previousStepSize</div><div class="ttdoc">Last performed step (for overstep limit calculation).</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:122</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a490c1bc1a7d74f9ed43190624bd51815"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a490c1bc1a7d74f9ed43190624bd51815">Acts::EigenStepper::State::covTransport</a></div><div class="ttdeci">bool covTransport</div><div class="ttdoc">Covariance matrix (and indicator) associated with the initial error on track parameters.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:93</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a6f1ff63feede242680707059a21c916a"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a6f1ff63feede242680707059a21c916a">Acts::EigenStepper::State::extension</a></div><div class="ttdeci">extension_t extension</div><div class="ttdoc">Algorithmic extension.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:130</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_a8a1ac475c76daa05791c1fa2b5cb09bd"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#a8a1ac475c76daa05791c1fa2b5cb09bd">Acts::EigenStepper::State::options</a></div><div class="ttdeci">Options options</div><div class="ttdoc">Configuration options for the Eigen stepper.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:83</div></div>
-<div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_aa1e41e33043178704dc32719443b56ca"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#aa1e41e33043178704dc32719443b56ca">Acts::EigenStepper::State::B_first</a></div><div class="ttdeci">Vector3 B_first</div><div class="ttdoc">Magnetic field evaulations.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:135</div></div>
+<div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_aa1e41e33043178704dc32719443b56ca"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#aa1e41e33043178704dc32719443b56ca">Acts::EigenStepper::State::B_first</a></div><div class="ttdeci">Vector3 B_first</div><div class="ttdoc">Magnetic field evaluations.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:135</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_aa7d6a9ce0ca62571fd46b5c7aac90912"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#aa7d6a9ce0ca62571fd46b5c7aac90912">Acts::EigenStepper::State::jacTransport</a></div><div class="ttdeci">FreeMatrix jacTransport</div><div class="ttdoc">Pure transport jacobian part from runge kutta integration.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:104</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_aafe0919185203cc9c14aa8dee5947d08"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#aafe0919185203cc9c14aa8dee5947d08">Acts::EigenStepper::State::jacToGlobal</a></div><div class="ttdeci">BoundToFreeMatrix jacToGlobal</div><div class="ttdoc">Jacobian from local to the global frame.</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:101</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_1_1_state_html_aafe7df6fae0c75335b5c5ba0151ef64b"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_1_1_state.html#aafe7df6fae0c75335b5c5ba0151ef64b">Acts::EigenStepper::State::B_middle</a></div><div class="ttdeci">Vector3 B_middle</div><div class="ttdef"><b>Definition</b> EigenStepper.hpp:135</div></div>

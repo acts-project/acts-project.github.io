@@ -4,8 +4,8 @@ var group__track__finding =
     [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;", "class_acts_1_1_combinatorial_kalman_filter.html", [
       [ "CombinatorialKalmanFilter", "class_acts_1_1_combinatorial_kalman_filter.html#a00ce8df1692cbd175c8c4c4eb96d127b", null ],
       [ "CombinatorialKalmanFilter", "class_acts_1_1_combinatorial_kalman_filter.html#a73babed6b5e06588d567cfa23fd7b0cf", null ],
-      [ "findTracks", "class_acts_1_1_combinatorial_kalman_filter.html#a75673ca4b03769435276a1d19d57a72c", null ],
-      [ "findTracks", "class_acts_1_1_combinatorial_kalman_filter.html#a33340ad1df7e41525f88566babb3f5fa", null ]
+      [ "findTracks", "class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9", null ],
+      [ "findTracks", "class_acts_1_1_combinatorial_kalman_filter.html#af26bb30c3a65c5d38d253044b369bd51", null ]
     ] ],
     [ "Acts::CombinatorialKalmanFilterExtensions&lt; track_container_t &gt;", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html", [
       [ "BranchStopper", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a4d76918f3ff8d6eb24b58514913fd5e1", null ],

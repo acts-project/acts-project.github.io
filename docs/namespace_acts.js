@@ -57,7 +57,7 @@ var namespace_acts =
       [ "create2D", "namespace_acts_1_1_grid_surface_material_factory.html#acd8a481c841154c10ceb992af57c5039", null ]
     ] ],
     [ "GsfConstants", "namespace_acts_1_1_gsf_constants.html", [
-      [ "FinalMultiComponentState", "namespace_acts_1_1_gsf_constants.html#a1b6ac515a5db4b42a695c0c6e95c77a9", null ],
+      [ "FinalMultiComponentState", "namespace_acts_1_1_gsf_constants.html#a73b5bf0550af54e2ce73ac01d357f6bf", null ],
       [ "kFinalMultiComponentStateColumn", "namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed", null ],
       [ "kFwdMaxMaterialXOverX0", "namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297", null ],
       [ "kFwdSumMaterialXOverX0", "namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2", null ]
@@ -83,7 +83,7 @@ var namespace_acts =
     [ "MaterialInteractionAssignment", "namespace_acts_1_1_material_interaction_assignment.html", "namespace_acts_1_1_material_interaction_assignment" ],
     [ "MultiTrajectoryHelpers", "namespace_acts_1_1_multi_trajectory_helpers.html", "namespace_acts_1_1_multi_trajectory_helpers" ],
     [ "MultiTrajectoryTraits", "namespace_acts_1_1_multi_trajectory_traits.html", [
-      [ "IndexType", "namespace_acts_1_1_multi_trajectory_traits.html#a072b2371c79c97707d94fdd8e6138b14", null ],
+      [ "TrackIndexType", "namespace_acts_1_1_multi_trajectory_traits.html#ab10f01c2759ff4e801d804fdf1a91199", null ],
       [ "kInvalid", "namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c", null ],
       [ "MeasurementSizeMax", "namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23", null ]
     ] ],
@@ -116,8 +116,8 @@ var namespace_acts =
       [ "totalBinsFromProtoAxes", "namespace_acts_1_1_proto_axis_helpers.html#a6e25553dc0ef960950163d6928c85e3a", null ]
     ] ],
     [ "ProtoAxisJsonConverter", "namespace_acts_1_1_proto_axis_json_converter.html", [
-      [ "fromJson", "namespace_acts_1_1_proto_axis_json_converter.html#a7db1175609439b8069b2d0b090773503", null ],
-      [ "toJson", "namespace_acts_1_1_proto_axis_json_converter.html#a038acefb1a69555567e98c97b9830cf9", null ]
+      [ "fromJson", "group__json__plugin.html#ga7db1175609439b8069b2d0b090773503", null ],
+      [ "toJson", "group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9", null ]
     ] ],
     [ "StripSpacePointBuilder", "namespace_acts_1_1_strip_space_point_builder.html", "namespace_acts_1_1_strip_space_point_builder" ],
     [ "SurfaceBoundsJsonConverter", "namespace_acts_1_1_surface_bounds_json_converter.html", [
@@ -212,6 +212,9 @@ var namespace_acts =
     [ "AnyGridConstView", "class_acts_1_1_any_grid_const_view.html", "class_acts_1_1_any_grid_const_view" ],
     [ "AnyGridView", "class_acts_1_1_any_grid_view.html", "class_acts_1_1_any_grid_view" ],
     [ "AnySurfaceReached", "struct_acts_1_1_any_surface_reached.html", "struct_acts_1_1_any_surface_reached" ],
+    [ "AnyTrack", "class_acts_1_1_any_track.html", null ],
+    [ "AnyTrackProxy", "class_acts_1_1_any_track_proxy.html", "class_acts_1_1_any_track_proxy" ],
+    [ "AnyTrackStateProxy", "class_acts_1_1_any_track_state_proxy.html", "class_acts_1_1_any_track_state_proxy" ],
     [ "AppendOnlyNavigationStream", "class_acts_1_1_append_only_navigation_stream.html", "class_acts_1_1_append_only_navigation_stream" ],
     [ "ApproachDescriptor", "class_acts_1_1_approach_descriptor.html", "class_acts_1_1_approach_descriptor" ],
     [ "AssertionFailureException", "class_acts_1_1_assertion_failure_exception.html", "class_acts_1_1_assertion_failure_exception" ],
@@ -395,7 +398,6 @@ var namespace_acts =
     [ "IsReadOnlyTrackContainer&lt; VectorTrackContainer &gt;", "struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html", null ],
     [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html", "class_acts_1_1_i_surface_material" ],
     [ "ISurfaceMaterialAccumulater", "class_acts_1_1_i_surface_material_accumulater.html", "class_acts_1_1_i_surface_material_accumulater" ],
-    [ "ISurfacesProvider", "class_acts_1_1_i_surfaces_provider.html", "class_acts_1_1_i_surfaces_provider" ],
     [ "IterativeVertexFinder", "class_acts_1_1_iterative_vertex_finder.html", "class_acts_1_1_iterative_vertex_finder" ],
     [ "ITrackingGeometryBuilder", "class_acts_1_1_i_tracking_geometry_builder.html", "class_acts_1_1_i_tracking_geometry_builder" ],
     [ "ITrackingGeometryJsonDecorator", "class_acts_1_1_i_tracking_geometry_json_decorator.html", "class_acts_1_1_i_tracking_geometry_json_decorator" ],
@@ -417,9 +419,7 @@ var namespace_acts =
     [ "KalmanFitterOptions", "struct_acts_1_1_kalman_fitter_options.html", "struct_acts_1_1_kalman_fitter_options" ],
     [ "KalmanFitterResult", "struct_acts_1_1_kalman_fitter_result.html", "struct_acts_1_1_kalman_fitter_result" ],
     [ "KDTree", "class_acts_1_1_k_d_tree.html", "class_acts_1_1_k_d_tree" ],
-    [ "KDTreeTrackingGeometryBuilder", "class_acts_1_1_k_d_tree_tracking_geometry_builder.html", "class_acts_1_1_k_d_tree_tracking_geometry_builder" ],
     [ "KdtSurfaces", "class_acts_1_1_kdt_surfaces.html", "class_acts_1_1_kdt_surfaces" ],
-    [ "KdtSurfacesProvider", "class_acts_1_1_kdt_surfaces_provider.html", "class_acts_1_1_kdt_surfaces_provider" ],
     [ "Layer", "class_acts_1_1_layer.html", "class_acts_1_1_layer" ],
     [ "LayerArrayCreator", "class_acts_1_1_layer_array_creator.html", "class_acts_1_1_layer_array_creator" ],
     [ "LayerCreator", "class_acts_1_1_layer_creator.html", "class_acts_1_1_layer_creator" ],
@@ -505,11 +505,9 @@ var namespace_acts =
     [ "PropagatorState", "struct_acts_1_1_propagator_state.html", "struct_acts_1_1_propagator_state" ],
     [ "PropagatorStatistics", "struct_acts_1_1_propagator_statistics.html", "struct_acts_1_1_propagator_statistics" ],
     [ "ProtoAxis", "class_acts_1_1_proto_axis.html", "class_acts_1_1_proto_axis" ],
-    [ "ProtoDetector", "struct_acts_1_1_proto_detector.html", "struct_acts_1_1_proto_detector" ],
     [ "ProtoLayer", "struct_acts_1_1_proto_layer.html", "struct_acts_1_1_proto_layer" ],
     [ "ProtoLayerHelper", "class_acts_1_1_proto_layer_helper.html", "class_acts_1_1_proto_layer_helper" ],
     [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html", "class_acts_1_1_proto_surface_material_t" ],
-    [ "ProtoVolume", "struct_acts_1_1_proto_volume.html", "struct_acts_1_1_proto_volume" ],
     [ "ProtoVolumeMaterial", "class_acts_1_1_proto_volume_material.html", "class_acts_1_1_proto_volume_material" ],
     [ "ProxyAccessorBase", "struct_acts_1_1_proxy_accessor_base.html", "struct_acts_1_1_proxy_accessor_base" ],
     [ "RadialBounds", "class_acts_1_1_radial_bounds.html", "class_acts_1_1_radial_bounds" ],
@@ -595,9 +593,11 @@ var namespace_acts =
     [ "TrackingVolumeArrayCreator", "class_acts_1_1_tracking_volume_array_creator.html", "class_acts_1_1_tracking_volume_array_creator" ],
     [ "TrackParamsLookupAccumulator", "class_acts_1_1_track_params_lookup_accumulator.html", "class_acts_1_1_track_params_lookup_accumulator" ],
     [ "TrackProxy", "class_acts_1_1_track_proxy.html", "class_acts_1_1_track_proxy" ],
+    [ "TrackProxyCommon", "class_acts_1_1_track_proxy_common.html", "class_acts_1_1_track_proxy_common" ],
     [ "TrackSelector", "class_acts_1_1_track_selector.html", "class_acts_1_1_track_selector" ],
     [ "TrackStateCreator", "struct_acts_1_1_track_state_creator.html", "struct_acts_1_1_track_state_creator" ],
     [ "TrackStateProxy", "class_acts_1_1_track_state_proxy.html", "class_acts_1_1_track_state_proxy" ],
+    [ "TrackStateProxyCommon", "class_acts_1_1_track_state_proxy_common.html", "class_acts_1_1_track_state_proxy_common" ],
     [ "TrackStateTraits", "struct_acts_1_1_track_state_traits.html", "struct_acts_1_1_track_state_traits" ],
     [ "TrackStateType", "class_acts_1_1_track_state_type.html", "class_acts_1_1_track_state_type" ],
     [ "TrapezoidBounds", "class_acts_1_1_trapezoid_bounds.html", "class_acts_1_1_trapezoid_bounds" ],
@@ -690,6 +690,10 @@ var namespace_acts =
     [ "AlignmentVector", "namespace_acts.html#afbb99f20f52947bab5a7b54c80510bad", null ],
     [ "AngleAxis3", "group__algebra__types.html#gad51b61e2bb0e1f7a1a6216925133f0e2", null ],
     [ "Any", "group__utilities.html#gae6e6d5aeac9e4cb922c12f41d1f5529e", null ],
+    [ "AnyConstTrackProxy", "namespace_acts.html#a2db5437c93715c880d91e795ea966d15", null ],
+    [ "AnyConstTrackStateProxy", "namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a", null ],
+    [ "AnyMutableTrackProxy", "namespace_acts.html#a8d88b3de1937df196eae6628781ac437", null ],
+    [ "AnyMutableTrackStateProxy", "namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb", null ],
     [ "AxisScalar", "namespace_acts.html#af1f471897e11492ff0b12b6ff089225d", null ],
     [ "BoundarySurface", "namespace_acts.html#a109a2348a2960bbf7f66f07d2da7dd8b", null ],
     [ "BoundMatrix", "namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0", null ],
@@ -970,12 +974,8 @@ var namespace_acts =
       [ "SmoothFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bdddab91834cc99e0c4508dfebaadb2980b7c", null ],
       [ "OutputConversionFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9a1dae01a56ad58a9db7ea93bb3c7a1c", null ],
       [ "NoMeasurementFound", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465", null ],
-      [ "ReversePropagationFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9", null ]
-    ] ],
-    [ "KalmanFitterTargetSurfaceStrategy", "group__track__fitting.html#ga5d2737be513e48e005e5f1b9566fb459", [
-      [ "first", "group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a8b04d5e3775d298e78455efc5ca404d5", null ],
-      [ "last", "group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a98bd1c45684cf587ac2347a92dd7bb51", null ],
-      [ "firstOrLast", "group__track__fitting.html#gga5d2737be513e48e005e5f1b9566fb459a6fc382933a0480bdfa5eb85b743e3018", null ]
+      [ "ReversePropagationFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9", null ],
+      [ "InconsistentTrackStates", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971", null ]
     ] ],
     [ "LayerType", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873", [
       [ "navigation", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873a7eee8a5290452963e3934c132a800094", null ],
@@ -1447,6 +1447,7 @@ var namespace_acts =
     [ "AxisClosed", "namespace_acts.html#a175a5c9afec75e82bcac5d420a12a51a", null ],
     [ "AxisOpen", "namespace_acts.html#ad651c70eef2af54126bd856e558b80ed", null ],
     [ "kBoundSubspaceIndicesInvalid", "namespace_acts.html#a5126c57045207c4b5f7e5a88b02e8ed1", null ],
+    [ "kMeasurementSizeMax", "namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4", null ],
     [ "kTrackIndexInvalid", "namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749", null ],
     [ "NoTime", "namespace_acts.html#aff077588e6b9207d49c53b1556be3a23", null ],
     [ "PolygonDynamic", "namespace_acts.html#a526e32fbccfb7d636cadc94909fa448d", null ],

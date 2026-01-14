@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -168,14 +170,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:abd2db299071e6a65af011d9c90660abf" id="r_abd2db299071e6a65af011d9c90660abf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd2db299071e6a65af011d9c90660abf">particleHypothesis</a> = <a class="el" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">ParticleHypothesis::pion</a>()</td></tr>
 <tr class="memdesc:abd2db299071e6a65af011d9c90660abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
 <tr class="memitem:a22b69289504d1a8146ada8a06f429e3f" id="r_a22b69289504d1a8146ada8a06f429e3f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22b69289504d1a8146ada8a06f429e3f">pathAccumulated</a> = 0.</td></tr>
-<tr class="memdesc:a22b69289504d1a8146ada8a06f429e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accummulated path length state.  <br /></td></tr>
+<tr class="memdesc:a22b69289504d1a8146ada8a06f429e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulated path length state.  <br /></td></tr>
 <tr class="memitem:a3df55494092c83f1a27fe59745cc0a7a" id="r_a3df55494092c83f1a27fe59745cc0a7a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df55494092c83f1a27fe59745cc0a7a">previousStepSize</a> = 0.</td></tr>
 <tr class="memdesc:a3df55494092c83f1a27fe59745cc0a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last performed step (for overstep limit calculation).  <br /></td></tr>
 <tr class="memitem:abc2b23d9efa30511d921f8d55d69419a" id="r_abc2b23d9efa30511d921f8d55d69419a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc2b23d9efa30511d921f8d55d69419a">statistics</a></td></tr>
 <tr class="memdesc:abc2b23d9efa30511d921f8d55d69419a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statistics of the stepper.  <br /></td></tr>
 <tr class="memitem:"><td class="memItemLeft anon">struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="memitem:a0d5f3e8e1d994aed344b640f60ee8399" id="r_a0d5f3e8e1d994aed344b640f60ee8399"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;&#160;&#160;<a class="el" href="#aa1e41e33043178704dc32719443b56ca">B_first</a> {}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:a0d5f3e8e1d994aed344b640f60ee8399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field evaulations.  <a href="#aa1e41e33043178704dc32719443b56ca">More...</a><br /></td></tr>
+<tr class="memdesc:a0d5f3e8e1d994aed344b640f60ee8399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field evaluations.  <a href="#aa1e41e33043178704dc32719443b56ca">More...</a><br /></td></tr>
 <tr class="memitem:abe6461fbbaeb0093c6f84872f08c631b" id="r_abe6461fbbaeb0093c6f84872f08c631b"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;&#160;&#160;<a class="el" href="#af83dcedc87bb3c9a02e39a236f2a2cfe">B_last</a> {}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="memitem:a5940bd3f071ae2ef0e00ca49194c0515" id="r_a5940bd3f071ae2ef0e00ca49194c0515"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;&#160;&#160;<a class="el" href="#aafe7df6fae0c75335b5c5ba0151ef64b">B_middle</a> {}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="memitem:aec2bc14230e2c5dffbe1019304c7e051" id="r_aec2bc14230e2c5dffbe1019304c7e051"><td class="memItemLeft anon">&#160;&#160;&#160;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;&#160;&#160;<a class="el" href="#a0f360a26bd1560084a5d48a757a837e7">k1</a> {}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
@@ -243,7 +245,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Magnetic field evaulations. </p>
+<p>Magnetic field evaluations. </p>
 
 </div>
 </div>
@@ -612,7 +614,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Accummulated path length state. </p>
+<p>Accumulated path length state. </p>
 
 </div>
 </div>

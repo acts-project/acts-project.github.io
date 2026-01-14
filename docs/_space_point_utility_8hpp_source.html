@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -215,7 +217,7 @@ $(function(){initNavTree('_space_point_utility_8hpp_source.html','',''); });
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:29</div></div>
 <div class="ttc" id="aclass_acts_1_1_result_html"><div class="ttname"><a href="class_acts_1_1_result.html">Acts::Result</a></div><div class="ttdoc">Class which encapsulates either a valid result, or an error.</div><div class="ttdef"><b>Definition</b> Result.hpp:26</div></div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Source linik is a thing.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
 <div class="ttc" id="aclass_acts_1_1_space_point_utility_html_a15cd707ead740f86d93797481583c8bf"><div class="ttname"><a href="class_acts_1_1_space_point_utility.html#a15cd707ead740f86d93797481583c8bf">Acts::SpacePointUtility::recoverSpacePoint</a></div><div class="ttdeci">Result&lt; void &gt; recoverSpacePoint(SpacePointParameters &amp;spParams, double stripLengthGapTolerance) const</div><div class="ttdoc">This function tests if a space point can be estimated by a more tolerant treatment of construction.</div></div>
 <div class="ttc" id="aclass_acts_1_1_space_point_utility_html_a1876a9e346c085a436aa98c34a95b986"><div class="ttname"><a href="class_acts_1_1_space_point_utility.html#a1876a9e346c085a436aa98c34a95b986">Acts::SpacePointUtility::differenceOfMeasurementsChecked</a></div><div class="ttdeci">Result&lt; double &gt; differenceOfMeasurementsChecked(const Vector3 &amp;pos1, const Vector3 &amp;pos2, const Vector3 &amp;posVertex, const double maxDistance, const double maxAngleTheta2, const double maxAnglePhi2) const</div><div class="ttdoc">Calculates (Delta theta)^2 + (Delta phi)^2 between two SourceLinks.</div></div>
 <div class="ttc" id="aclass_acts_1_1_space_point_utility_html_a41c7dd9d4f9dae54e1e171d78f8b2a49"><div class="ttname"><a href="class_acts_1_1_space_point_utility.html#a41c7dd9d4f9dae54e1e171d78f8b2a49">Acts::SpacePointUtility::SpacePointUtility</a></div><div class="ttdeci">SpacePointUtility(SpacePointBuilderConfig cfg)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition</b> SpacePointUtility.hpp:67</div></div>
@@ -230,7 +232,7 @@ $(function(){initNavTree('_space_point_utility_8hpp_source.html','',''); });
 <div class="ttc" id="agroup__algebra__types_html_gabb76f2d48e0590ef82a8afaad39a77b5"><div class="ttname"><a href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a></div><div class="ttdeci">ActsVector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:70</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a02a4498acaa3e08fdd9553867bb6fd8e"><div class="ttname"><a href="namespace_acts.html#a02a4498acaa3e08fdd9553867bb6fd8e">Acts::ParamCovAccessor</a></div><div class="ttdeci">std::function&lt; std::pair&lt; const BoundVector, const BoundSquareMatrix &gt;( const SourceLink &amp;)&gt; ParamCovAccessor</div><div class="ttdoc">Type alias for accessing parameter covariance matrices.</div><div class="ttdef"><b>Definition</b> SpacePointBuilderOptions.hpp:20</div></div>
-<div class="ttc" id="anamespace_acts_html_a5d7404f9e2ba75e16149f97ec4cfe62e"><div class="ttname"><a href="namespace_acts.html#a5d7404f9e2ba75e16149f97ec4cfe62e">Acts::SourceLinkSurfaceAccessor</a></div><div class="ttdeci">Delegate&lt; const Surface *(const SourceLink &amp;)&gt; SourceLinkSurfaceAccessor</div><div class="ttdoc">Delegate to unpack the surface associated with a source link.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:100</div></div>
+<div class="ttc" id="anamespace_acts_html_a5d7404f9e2ba75e16149f97ec4cfe62e"><div class="ttname"><a href="namespace_acts.html#a5d7404f9e2ba75e16149f97ec4cfe62e">Acts::SourceLinkSurfaceAccessor</a></div><div class="ttdeci">Delegate&lt; const Surface *(const SourceLink &amp;)&gt; SourceLinkSurfaceAccessor</div><div class="ttdoc">Delegate to unpack the surface associated with a source link.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:99</div></div>
 <div class="ttc" id="anamespace_acts_html_a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0"><div class="ttname"><a href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">Acts::BoundSquareMatrix</a></div><div class="ttdeci">ActsSquareMatrix&lt; eBoundSize &gt; BoundSquareMatrix</div><div class="ttdoc">Square matrix type for bound track parameter covariance.</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:122</div></div>
 <div class="ttc" id="anamespace_acts_html_af2571f8c8ebccb37165c668fab4a1c4f"><div class="ttname"><a href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">Acts::BoundVector</a></div><div class="ttdeci">ActsVector&lt; eBoundSize &gt; BoundVector</div><div class="ttdoc">Vector type for bound track parameters.</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:118</div></div>
 <div class="ttc" id="astruct_acts_1_1_space_point_builder_config_html"><div class="ttname"><a href="struct_acts_1_1_space_point_builder_config.html">Acts::SpacePointBuilderConfig</a></div><div class="ttdef"><b>Definition</b> SpacePointBuilderConfig.hpp:16</div></div>

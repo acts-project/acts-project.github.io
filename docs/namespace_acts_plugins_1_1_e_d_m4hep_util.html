@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -130,127 +132,17 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aec2431e6bd278ab0b589b49045b19b58" id="r_aec2431e6bd278ab0b589b49045b19b58"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2431e6bd278ab0b589b49045b19b58">getParticle</a> (const edm4hep::SimTrackerHit &amp;hit)</td></tr>
-<tr class="memitem:aff8fb57f7a4dd01d3894d7849abf74cb" id="r_aff8fb57f7a4dd01d3894d7849abf74cb"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
-<tr class="memitem:aff8fb57f7a4dd01d3894d7849abf74cb template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff8fb57f7a4dd01d3894d7849abf74cb">readTrack</a> (const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memitem:ad2217a1e566c6c6e331e614f87ffa7b9" id="r_ad2217a1e566c6c6e331e614f87ffa7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2217a1e566c6c6e331e614f87ffa7b9">setParticle</a> (edm4hep::MutableSimTrackerHit &amp;hit, const edm4hep::MCParticle &amp;particle)</td></tr>
-<tr class="memitem:a5d02aa49e1be2a59a7f50d0ea7f4e58f" id="r_a5d02aa49e1be2a59a7f50d0ea7f4e58f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
-<tr class="memitem:a5d02aa49e1be2a59a7f50d0ea7f4e58f template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d02aa49e1be2a59a7f50d0ea7f4e58f">writeTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memitem:gaec2431e6bd278ab0b589b49045b19b58" id="r_gaec2431e6bd278ab0b589b49045b19b58"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58">getParticle</a> (const edm4hep::SimTrackerHit &amp;hit)</td></tr>
+<tr class="memitem:gaff8fb57f7a4dd01d3894d7849abf74cb" id="r_gaff8fb57f7a4dd01d3894d7849abf74cb"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:gaff8fb57f7a4dd01d3894d7849abf74cb template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb">readTrack</a> (const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memitem:gad2217a1e566c6c6e331e614f87ffa7b9" id="r_gad2217a1e566c6c6e331e614f87ffa7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9">setParticle</a> (edm4hep::MutableSimTrackerHit &amp;hit, const edm4hep::MCParticle &amp;particle)</td></tr>
+<tr class="memitem:ga5d02aa49e1be2a59a7f50d0ea7f4e58f" id="r_ga5d02aa49e1be2a59a7f50d0ea7f4e58f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:ga5d02aa49e1be2a59a7f50d0ea7f4e58f template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">writeTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a30140d4e77cc12136ee263fca364186a" id="r_a30140d4e77cc12136ee263fca364186a"><td class="memItemLeft" align="right" valign="top">static constexpr std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30140d4e77cc12136ee263fca364186a">EDM4HEP_ACTS_POSITION_TYPE</a> = 42</td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="aec2431e6bd278ab0b589b49045b19b58" name="aec2431e6bd278ab0b589b49045b19b58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec2431e6bd278ab0b589b49045b19b58">&#9670;&#160;</a></span>getParticle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">edm4hep::MCParticle ActsPlugins::EDM4hepUtil::getParticle </td>
-          <td>(</td>
-          <td class="paramtype">const edm4hep::SimTrackerHit &amp;</td>          <td class="paramname"><span class="paramname"><em>hit</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff8fb57f7a4dd01d3894d7849abf74cb" name="aff8fb57f7a4dd01d3894d7849abf74cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff8fb57f7a4dd01d3894d7849abf74cb">&#9670;&#160;</a></span>readTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ActsPlugins::EDM4hepUtil::readTrack </td>
-          <td>(</td>
-          <td class="paramtype">const edm4hep::Track &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">track_proxy_t &amp;</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>Bz</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad2217a1e566c6c6e331e614f87ffa7b9" name="ad2217a1e566c6c6e331e614f87ffa7b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2217a1e566c6c6e331e614f87ffa7b9">&#9670;&#160;</a></span>setParticle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ActsPlugins::EDM4hepUtil::setParticle </td>
-          <td>(</td>
-          <td class="paramtype">edm4hep::MutableSimTrackerHit &amp;</td>          <td class="paramname"><span class="paramname"><em>hit</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const edm4hep::MCParticle &amp;</td>          <td class="paramname"><span class="paramname"><em>particle</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d02aa49e1be2a59a7f50d0ea7f4e58f" name="a5d02aa49e1be2a59a7f50d0ea7f4e58f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d02aa49e1be2a59a7f50d0ea7f4e58f">&#9670;&#160;</a></span>writeTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ActsPlugins::EDM4hepUtil::writeTrack </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">track_proxy_t</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">edm4hep::MutableTrack</td>          <td class="paramname"><span class="paramname"><em>to</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>Bz</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
 <a id="a30140d4e77cc12136ee263fca364186a" name="a30140d4e77cc12136ee263fca364186a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30140d4e77cc12136ee263fca364186a">&#9670;&#160;</a></span>EDM4HEP_ACTS_POSITION_TYPE</h2>

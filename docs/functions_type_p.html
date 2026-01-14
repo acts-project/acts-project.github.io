@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -125,7 +127,8 @@ $(function(){initNavTree('functions_type_p.html','',''); });
 <h3 class="doxsection"><a id="index_p" name="index_p"></a>- p -</h3><ul>
 <li>Pair&#160;:&#160;<a class="el" href="class_acts_1_1_d_b_scan.html#a88bda8027f63ecf8860bdbdcd5bfc4bd">Acts::DBScan&lt; kDims, scalar_t, kLeafSize &gt;</a></li>
 <li>pair_t&#160;:&#160;<a class="el" href="class_acts_1_1_k_d_tree.html#a1f6cc876e7e68a8bf9c23a5065a9b26f">Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;</a></li>
-<li>Parameters&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#af7398d5398563450d5541ee7caa8867d">Acts::Experimental::Gx2FitterExtensions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_extensions.html#a571eb447fa0f25fb0d84debc6c37aeeb">Acts::KalmanFitterExtensions&lt; traj_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a08b17217959e8f509997ecc42788f117">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a7e8c1a9321efd1d543fc582377558df7">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ab2488c63138a9366f18d8cadd64aeee6">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#aaa2dadfd76132843dc9799691d4afc0e">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a>, <a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html#a662f36894e48b9f5f26649bf5db45498">ActsPlugins::PodioTrackContainerBase</a>, <a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#ab57f713d85d3103bcc3995fc287fca6d">ActsPlugins::PodioTrackStateContainerBase</a></li>
+<li>Parameters&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#af7398d5398563450d5541ee7caa8867d">Acts::Experimental::Gx2FitterExtensions&lt; traj_t &gt;</a>, <a class="el" href="struct_acts_1_1_kalman_fitter_extensions.html#a571eb447fa0f25fb0d84debc6c37aeeb">Acts::KalmanFitterExtensions&lt; traj_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a08b17217959e8f509997ecc42788f117">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="class_acts_1_1_track_proxy.html#ac2084c82f0975f4c87ae688a836473f1">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#ac11c999ddcc05da568b3a67de7f9dfe3">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7">Acts::TrackStateTraits&lt; M, ReadOnly &gt;</a>, <a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html#aa7a65dad149212974069dc9731ce2fb4">ActsPlugins::PodioTrackContainerBase</a>, <a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#aa938a9a6d724c57250b3996a4bb308a1">ActsPlugins::PodioTrackStateContainerBase</a></li>
+<li>ParametersMap&#160;:&#160;<a class="el" href="class_acts_1_1_any_track_proxy.html#adee596500cce41c4e3ac86234c91432e">Acts::AnyTrackProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_any_track_state_proxy.html#adc423672851e677412417985f8306875">Acts::AnyTrackStateProxy&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#ae1e81f4a291996c6f5b7f0c7b94b6dca">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a></li>
 <li>ParametersVector&#160;:&#160;<a class="el" href="class_acts_1_1_generic_bound_track_parameters.html#aed1a9a459c6fd62363e96297727609f5">Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_generic_free_track_parameters.html#aeef9a93ca50ed22fce07ca0d5fb6f443">Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;</a>, <a class="el" href="class_acts_1_1_material.html#ac9b70e6986aef6c7b9569576fcf8a781">Acts::Material</a>, <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html#a955db4999cf149caf37c68146d92aad6">Acts::MultiComponentBoundTrackParameters</a>, <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html#aff3813271eefbdde93f627706f0b2d1f">ActsFatras::BoundParametersSmearer&lt; generator_t, kSize &gt;</a>, <a class="el" href="struct_acts_fatras_1_1_cluster.html#aab788def00abafb950ca1be47b9983db">ActsFatras::Cluster&lt; signal_t, kSize &gt;</a>, <a class="el" href="struct_acts_fatras_1_1_free_parameters_smearer.html#a102aaf9ea2b558dda9d9dd13fcc89928">ActsFatras::FreeParametersSmearer&lt; generator_t, kSize &gt;</a></li>
 <li>ParamVec_t&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#aa887d24849546b2caff6df9b8960a395">Acts::Experimental::CompositeSpacePointLineFitter</a></li>
 <li>ParIdx&#160;:&#160;<a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3b00d2bc86a712da4d2b25a6b273d2c8">Acts::Experimental::CompositeSpacePointLineSeeder</a></li>

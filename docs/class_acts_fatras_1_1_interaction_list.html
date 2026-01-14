@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -166,7 +168,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename... processes_t&gt;<br />
 class ActsFatras::InteractionList&lt; processes_t &gt;</div><p>Compile-time set of interaction processes for the simulation. </p>
 <p>Two different type of interaction processes are supported: continuous and point-like interactions.</p>
-<p>Continuous processes scale with the passed material. They tpyically describe effective results of a large number of small interactions such as multiple scattering or ionisation. Continuous process types <b>must</b> provide a call operator with the following signature: </p><pre class="fragment">template &lt;typename generator_t&gt;
+<p>Continuous processes scale with the passed material. They typically describe effective results of a large number of small interactions such as multiple scattering or ionisation. Continuous process types <b>must</b> provide a call operator with the following signature: </p><pre class="fragment">template &lt;typename generator_t&gt;
 bool
 operator()(
     generator_t&amp; rng,

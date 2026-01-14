@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -134,7 +136,7 @@ $(function(){initNavTree('functions_type_i.html','',''); });
 <li>IndexGridType&#160;:&#160;<a class="el" href="class_acts_1_1_index_grid_navigation_policy.html#acfb5244a578e0c6c5ad5ea46ae0eaede">Acts::IndexGridNavigationPolicy&lt; GridType &gt;</a></li>
 <li>IndexRange&#160;:&#160;<a class="el" href="class_acts_1_1_doublets_for_middle_sp.html#a7ad0809dae29ce5d31cbef2f7176f719">Acts::DoubletsForMiddleSp</a>, <a class="el" href="class_acts_1_1_space_point_column_proxy.html#a95aa8024e624db13eab1a0101c6ec6a2">Acts::SpacePointColumnProxy&lt; T, read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_container2.html#ac315e91732f21dabf0e1c884fb73f806">Acts::SpacePointContainer2</a></li>
 <li>IndexSubset&#160;:&#160;<a class="el" href="class_acts_1_1_doublets_for_middle_sp.html#a99fb06aa62461b453d740cc6d14ce998">Acts::DoubletsForMiddleSp</a>, <a class="el" href="class_acts_1_1_space_point_column_proxy.html#a8fa68d87a62a0223094645d7081f1707">Acts::SpacePointColumnProxy&lt; T, read_only &gt;</a>, <a class="el" href="class_acts_1_1_space_point_container2.html#ad100d1fe4c39227676681a4eb7576035">Acts::SpacePointContainer2</a></li>
-<li>IndexType&#160;:&#160;<a class="el" href="class_acts_1_1_fixed_subspace_helper.html#ae49ace227d1d9f570629561da3f76864">Acts::FixedSubspaceHelper&lt; FullSize, SubspaceSize, index_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#a68797e7bfcf2b5a7cd7933169fc10d01">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_seed_proxy2.html#a5f99c00d7bece10e4fd81917f5efaba2">Acts::SeedProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_container.html#ab953d1a3185a9004c6795dbeb25f4a54">Acts::TrackContainer&lt; track_container_t, traj_t, holder_t &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#a53fe18b4659a50f1ff7529423adfd93a">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a88faa591bbaae408e41c6db7fb39e0e5">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_variable_subspace_helper.html#a8a2330ef7d7f834e195336bd45abd07b">Acts::VariableSubspaceHelper&lt; FullSize, index_t &gt;</a>, <a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html#a1d04e9df5c0db2ae8ec6ec30d3cfc3cb">ActsPlugins::PodioTrackContainerBase</a></li>
+<li>IndexType&#160;:&#160;<a class="el" href="class_acts_1_1_fixed_subspace_helper.html#ae49ace227d1d9f570629561da3f76864">Acts::FixedSubspaceHelper&lt; FullSize, SubspaceSize, index_t &gt;</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">Acts::MultiTrajectory&lt; derived_t &gt;</a>, <a class="el" href="class_acts_1_1_seed_proxy2.html#a5f99c00d7bece10e4fd81917f5efaba2">Acts::SeedProxy2&lt; read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_container.html#ab953d1a3185a9004c6795dbeb25f4a54">Acts::TrackContainer&lt; track_container_t, traj_t, holder_t &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy.html#aea2585299cd77688e6fce2073e951dfa">Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_proxy_common.html#a71f28d136197327c32f7ee71c24a3d29">Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html#a88faa591bbaae408e41c6db7fb39e0e5">Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</a>, <a class="el" href="class_acts_1_1_track_state_proxy_common.html#a1eb7bb75ad008d22048fe498e6b11ebb">Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;</a>, <a class="el" href="class_acts_1_1_variable_subspace_helper.html#a8a2330ef7d7f834e195336bd45abd07b">Acts::VariableSubspaceHelper&lt; FullSize, index_t &gt;</a>, <a class="el" href="class_acts_plugins_1_1_podio_track_container_base.html#ab99b151717b2d87edf4b1893c1fdb4d1">ActsPlugins::PodioTrackContainerBase</a></li>
 <li>InputElement&#160;:&#160;<a class="el" href="class_acts_1_1_geometry_hierarchy_map.html#a5f08c12aee917c49a56a86121dad310c">Acts::GeometryHierarchyMap&lt; value_t &gt;</a></li>
 <li>Intersection&#160;:&#160;<a class="el" href="class_acts_1_1_navigation_target.html#aae1dbb755735af1e8edd9e07c51a48a9">Acts::NavigationTarget</a></li>
 <li>IntersectionLookup&#160;:&#160;<a class="el" href="class_acts_1_1_path_seeder.html#a94bb306e7da8c4ba40591392cc522501">Acts::PathSeeder</a></li>

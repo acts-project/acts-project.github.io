@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -131,13 +133,12 @@ $(function(){initNavTree('class_acts_1_1_single_trapezoid_portal_shell.html','',
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html#a507b3346b6aaad71d34bd7951399fbb2">fill</a>(TrackingVolume &amp;volume) override</td><td class="entry"><a class="el" href="class_acts_1_1_trapezoid_portal_shell.html">Acts::TrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a5af2f99b4834d11bf4e484fdf8919b03">isValid</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a848bed244ea2506138b7cbd463da0ddc">label</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a08e47800f5fc0e1eaed7ba61aacb1f07">portal</a>(Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#ab6b3555300db3a5a66d1fe03e2f61119">portalPtr</a>(Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#af7eb238f43ac1234add30ed7957b2bcc">SingleTrapezoidPortalShell</a>(TrackingVolume &amp;volume)</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a52cffaf09dcadbc61fba99ef64e4fbea">size</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#ad6ed032b12ddf3d9ee4ae2f9c345dde0">transform</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a5808fb256dcdb757f8999477b3644131">portal</a>(Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face) override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#af7eb238f43ac1234add30ed7957b2bcc">SingleTrapezoidPortalShell</a>(TrackingVolume &amp;volume)</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a52cffaf09dcadbc61fba99ef64e4fbea">size</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#ad6ed032b12ddf3d9ee4ae2f9c345dde0">transform</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html">Acts::SingleTrapezoidPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

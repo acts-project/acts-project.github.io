@@ -20,11 +20,16 @@ var searchData=
   ['annoymetric_17',['AnnoyMetric',['../group__hashing__plugin.html#gaf528c048d33baf827af46d06ca2b4c67',1,'ActsPlugins']]],
   ['annoymodel_18',['AnnoyModel',['../group__hashing__plugin.html#gaae60dcd2a5c54cf27cf161722cca642b',1,'ActsPlugins']]],
   ['any_19',['Any',['../group__utilities.html#gae6e6d5aeac9e4cb922c12f41d1f5529e',1,'Acts']]],
-  ['anyindextype_20',['AnyIndexType',['../class_acts_1_1_any_grid_view.html#acb3534f6158707f5ec0ff3e1b081ec74',1,'Acts::AnyGridView::AnyIndexType'],['../class_acts_1_1_any_grid_const_view.html#a41a0949bf93ddf27e282413ae1a0e958',1,'Acts::AnyGridConstView::AnyIndexType'],['../class_acts_1_1_i_grid.html#a31a3b1d6d21fe7aa914f42fa40355ce3',1,'Acts::IGrid::AnyIndexType']]],
-  ['anypointtype_21',['AnyPointType',['../class_acts_1_1_any_grid_view.html#ad50783812fcd36b0cb79a201c81634aa',1,'Acts::AnyGridView::AnyPointType'],['../class_acts_1_1_any_grid_const_view.html#a5cccb85b4ef6f3329c07458079cacc79',1,'Acts::AnyGridConstView::AnyPointType'],['../class_acts_1_1_i_grid.html#ad7432c51cdb8a6d214a61ae2496a1726',1,'Acts::IGrid::AnyPointType']]],
-  ['applyleftresult_22',['ApplyLeftResult',['../class_acts_1_1_fixed_subspace_helper.html#a017172055502579bb373652d30e81388',1,'Acts::FixedSubspaceHelper']]],
-  ['applyrightresult_23',['ApplyRightResult',['../class_acts_1_1_fixed_subspace_helper.html#ac4aea1da74ad4be8b1cacf2c2b7a3107',1,'Acts::FixedSubspaceHelper']]],
-  ['axis_24',['Axis',['../class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa04bb959a9d1b7d22b79d671a12a52f6',1,'Acts::HoughTransformUtils::HoughPlane']]],
-  ['axisbound_25',['AxisBound',['../namespace_acts_plugins_1_1_svg_1_1_grid_converter.html#a2d4f138fe41cd32b8abb34cdd79415e8',1,'ActsPlugins::Svg::GridConverter']]],
-  ['axisscalar_26',['AxisScalar',['../namespace_acts.html#af1f471897e11492ff0b12b6ff089225d',1,'Acts']]]
+  ['anyconsttrackproxy_20',['AnyConstTrackProxy',['../namespace_acts.html#a2db5437c93715c880d91e795ea966d15',1,'Acts']]],
+  ['anyconsttrackstateproxy_21',['AnyConstTrackStateProxy',['../namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a',1,'Acts']]],
+  ['anyindextype_22',['AnyIndexType',['../class_acts_1_1_any_grid_view.html#acb3534f6158707f5ec0ff3e1b081ec74',1,'Acts::AnyGridView::AnyIndexType'],['../class_acts_1_1_any_grid_const_view.html#a41a0949bf93ddf27e282413ae1a0e958',1,'Acts::AnyGridConstView::AnyIndexType'],['../class_acts_1_1_i_grid.html#a31a3b1d6d21fe7aa914f42fa40355ce3',1,'Acts::IGrid::AnyIndexType']]],
+  ['anymutabletrackproxy_23',['AnyMutableTrackProxy',['../namespace_acts.html#a8d88b3de1937df196eae6628781ac437',1,'Acts']]],
+  ['anymutabletrackstateproxy_24',['AnyMutableTrackStateProxy',['../namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb',1,'Acts']]],
+  ['anypointtype_25',['AnyPointType',['../class_acts_1_1_any_grid_view.html#ad50783812fcd36b0cb79a201c81634aa',1,'Acts::AnyGridView::AnyPointType'],['../class_acts_1_1_any_grid_const_view.html#a5cccb85b4ef6f3329c07458079cacc79',1,'Acts::AnyGridConstView::AnyPointType'],['../class_acts_1_1_i_grid.html#ad7432c51cdb8a6d214a61ae2496a1726',1,'Acts::IGrid::AnyPointType']]],
+  ['applyleftresult_26',['ApplyLeftResult',['../class_acts_1_1_fixed_subspace_helper.html#a017172055502579bb373652d30e81388',1,'Acts::FixedSubspaceHelper']]],
+  ['applyrightresult_27',['ApplyRightResult',['../class_acts_1_1_fixed_subspace_helper.html#ac4aea1da74ad4be8b1cacf2c2b7a3107',1,'Acts::FixedSubspaceHelper']]],
+  ['axis_28',['Axis',['../class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aa04bb959a9d1b7d22b79d671a12a52f6',1,'Acts::HoughTransformUtils::HoughPlane']]],
+  ['axisbound_29',['AxisBound',['../namespace_acts_plugins_1_1_svg_1_1_grid_converter.html#a2d4f138fe41cd32b8abb34cdd79415e8',1,'ActsPlugins::Svg::GridConverter']]],
+  ['axisscalar_30',['AxisScalar',['../namespace_acts.html#af1f471897e11492ff0b12b6ff089225d',1,'Acts']]],
+  ['axisvariant_31',['AxisVariant',['../namespace_acts_1_1_experimental.html#a50b5e9b447d05f5fb2fe207e54e4953a',1,'Acts::Experimental']]]
 ];

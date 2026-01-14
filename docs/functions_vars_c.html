@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -177,21 +179,18 @@ $(function(){initNavTree('functions_vars_c.html','',''); });
 <li>conn8&#160;:&#160;<a class="el" href="struct_acts_1_1_ccl_1_1_connect2_d.html#a350b35367e6bbc9b7309a2f48c227188">Acts::Ccl::Connect2D&lt; Cell &gt;</a></li>
 <li>connectorInputFile&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#abe315fe69566ab8a39896cb03436e150">Acts::Experimental::SeedFinderGbtsConfig</a></li>
 <li>constantTerm&#160;:&#160;<a class="el" href="struct_acts_1_1_linearized_track.html#a0368ab9b69ba2fa3035dab1b8662c799">Acts::LinearizedTrack</a></li>
-<li>constituentBinning&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume_1_1_container_structure.html#a9878c206a7ed126dd13f5a1c1ff85333">Acts::ProtoVolume::ContainerStructure</a></li>
-<li>constituentVolumes&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume_1_1_container_structure.html#aa7974357b81646c6d2e112d6c24fb2e8">Acts::ProtoVolume::ContainerStructure</a></li>
 <li>constraint&#160;:&#160;<a class="el" href="struct_acts_1_1_vertex_info.html#afc25ea77e6b792bfba14acea1862e019">Acts::VertexInfo</a>, <a class="el" href="struct_acts_1_1_vertexing_options.html#ac7701b21c895e4eb690c27484831a0c5">Acts::VertexingOptions</a></li>
 <li>constraintcutoff&#160;:&#160;<a class="el" href="struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a629b04465ed5bfd4662ff797df7b507f">Acts::ZScanVertexFinder::Config</a></li>
 <li>constrainttemp&#160;:&#160;<a class="el" href="struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a5efd016c5ef52c6887fa6bc522cc7612">Acts::ZScanVertexFinder::Config</a></li>
-<li>container&#160;:&#160;<a class="el" href="struct_acts_1_1_proto_volume.html#abeccf3003286f9ed8063f75b003d9897">Acts::ProtoVolume</a></li>
 <li>containerVolumeConfig&#160;:&#160;<a class="el" href="struct_acts_1_1_wrapping_config.html#a1a4e4fdd8c1d19c3506bfa1a75a91bd1">Acts::WrappingConfig</a></li>
 <li>context&#160;:&#160;<a class="el" href="class_acts_1_1_material_map_json_converter_1_1_config.html#ae14c501ee5465d000dcf7e89db58d8e7">Acts::MaterialMapJsonConverter::Config</a></li>
 <li>converged&#160;:&#160;<a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9">Acts::Experimental::CompositeSpacePointLineFitter::FitParameters</a></li>
 <li>conversionProbScaleFactor&#160;:&#160;<a class="el" href="class_acts_fatras_1_1_photon_conversion.html#a154e65df3294b03bbe4d5aad02a944a5">ActsFatras::PhotonConversion</a></li>
 <li>convertBox&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html#a6b27864a6659e9e60145353c3658ebbb">ActsPlugins::GeoModelDetectorObjectFactory::Config</a></li>
 <li>convertedMaterials&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a406970cabee71bf7f557dd30965e461a">ActsPlugins::DD4hepDetectorSurfaceFactory::Cache</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a69f62f49444123426d73085ac8fdb08d">ActsPlugins::Geant4DetectorSurfaceFactory::Cache</a></li>
-<li>convertedMaterialThickness&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65">ActsPlugins::Geant4DetectorSurfaceFactory::Options</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a5d1ba66926346b0671aa3759956249a2">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config</a></li>
+<li>convertedMaterialThickness&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65">ActsPlugins::Geant4DetectorSurfaceFactory::Options</a></li>
 <li>convertedSurfaces&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a4f87099fbf7690b9e1dc493972be271f">ActsPlugins::DD4hepDetectorSurfaceFactory::Cache</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257">ActsPlugins::Geant4DetectorSurfaceFactory::Cache</a></li>
-<li>convertMaterial&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#ad9cfd01dfa805920050ebfc701eead27">ActsPlugins::DD4hepDetectorSurfaceFactory::Options</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d">ActsPlugins::Geant4DetectorSurfaceFactory::Options</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#af4f064264c91519f1787fbdc08434ecf">ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config</a></li>
+<li>convertMaterial&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#ad9cfd01dfa805920050ebfc701eead27">ActsPlugins::DD4hepDetectorSurfaceFactory::Options</a>, <a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d">ActsPlugins::Geant4DetectorSurfaceFactory::Options</a></li>
 <li>convertNavigationPolicy&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe">ActsPlugins::DetrayPayloadConverter::Config</a></li>
 <li>convertPassive&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a573ce1e7205ac96f57a26efb476fdf9c">ActsPlugins::DD4hepDetectorSurfaceFactory::Options</a></li>
 <li>convertSensitive&#160;:&#160;<a class="el" href="struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a63aac6057bcb106cf3cbce966134fc5b">ActsPlugins::DD4hepDetectorSurfaceFactory::Options</a></li>

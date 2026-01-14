@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -214,7 +216,7 @@ $(function(){initNavTree('_tracking_geometry_svg_converter_8hpp_source.html','',
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_html_a397e1b5f9aa4dfb1c510751bebadbd49"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_converter.html#a397e1b5f9aa4dfb1c510751bebadbd49">ActsPlugins::Svg::TrackingGeometryConverter::convert</a></div><div class="ttdeci">std::vector&lt; actsvg::svg::object &gt; convert(const Acts::GeometryContext &amp;gctx, const Acts::TrackingGeometry &amp;tGeometry, const Options &amp;cOptions)</div><div class="ttdoc">Write svg files per tracking geometry.</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_projections.html">ActsPlugins::Svg::TrackingGeometryProjections</a></div><div class="ttdef"><b>Definition</b> TrackingGeometrySvgConverter.hpp:75</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_html_a200be2f71c82733e91ee48432feb99b0"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_projections.html#a200be2f71c82733e91ee48432feb99b0">ActsPlugins::Svg::TrackingGeometryProjections::convert</a></div><div class="ttdeci">std::array&lt; actsvg::svg::object, 2 &gt; convert(const Acts::GeometryContext &amp;gctx, const Acts::TrackingGeometry &amp;tGeometry, const Options &amp;cOptions)</div><div class="ttdoc">Convert into xy and zr projections only.</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:19</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a2a76b5bebcee1be67c520dc17a5ac3bc"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a2a76b5bebcee1be67c520dc17a5ac3bc">ActsPlugins::Svg::ProtoPortal</a></div><div class="ttdeci">actsvg::proto::portal&lt; std::vector&lt; Acts::Vector3 &gt; &gt; ProtoPortal</div><div class="ttdef"><b>Definition</b> TrackingGeometrySvgConverter.hpp:26</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_ac9373cfca07518a09a32980a0487fef9"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#ac9373cfca07518a09a32980a0487fef9">ActsPlugins::Svg::drawSurfaceArrays</a></div><div class="ttdeci">std::vector&lt; actsvg::svg::object &gt; drawSurfaceArrays(const Acts::GeometryContext &amp;gctx, const Acts::TrackingGeometry &amp;tGeometry)</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_af8868dec51bfb56f905cc427f5a5a0ef"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#af8868dec51bfb56f905cc427f5a5a0ef">ActsPlugins::Svg::drawTrackingGeometry</a></div><div class="ttdeci">std::vector&lt; actsvg::svg::object &gt; drawTrackingGeometry(const Acts::GeometryContext &amp;gctx, const Acts::TrackingGeometry &amp;tGeometry, std::variant&lt; actsvg::views::x_y, actsvg::views::z_r &gt; view, bool drawSurfaces=true, bool highlightMaterial=false)</div></div>

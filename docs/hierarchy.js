@@ -34,6 +34,7 @@ var hierarchy =
     [ "Acts::AnyGridConstView&lt; T &gt;", "class_acts_1_1_any_grid_const_view.html", null ],
     [ "Acts::AnyGridView&lt; T &gt;", "class_acts_1_1_any_grid_view.html", null ],
     [ "Acts::AnySurfaceReached", "struct_acts_1_1_any_surface_reached.html", null ],
+    [ "Acts::AnyTrack&lt; read_only &gt;", "class_acts_1_1_any_track.html", null ],
     [ "Acts::AppendOnlyNavigationStream", "class_acts_1_1_append_only_navigation_stream.html", null ],
     [ "Acts::ApproachDescriptor", "class_acts_1_1_approach_descriptor.html", [
       [ "Acts::GenericApproachDescriptor", "class_acts_1_1_generic_approach_descriptor.html", null ]
@@ -213,6 +214,7 @@ var hierarchy =
     [ "Acts::Experimental::CylindricalSpacePointKDTree::Candidates", "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html", null ],
     [ "Acts::Experimental::CylindricalSpacePointKDTree::Options", "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html", null ],
     [ "Acts::Experimental::CylindricalSpacePointKDTreeBuilder", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder.html", null ],
+    [ "Acts::Experimental::Efficiency&lt; Dim &gt;", "class_acts_1_1_experimental_1_1_efficiency.html", null ],
     [ "Acts::Experimental::GbtsConnection", "struct_acts_1_1_experimental_1_1_gbts_connection.html", null ],
     [ "Acts::Experimental::GbtsConnector", "class_acts_1_1_experimental_1_1_gbts_connector.html", null ],
     [ "Acts::Experimental::GbtsConnector::LayerGroup", "struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html", null ],
@@ -232,9 +234,11 @@ var hierarchy =
     [ "Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html", null ],
     [ "Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_result.html", null ],
     [ "Acts::Experimental::Gx2fSystem", "struct_acts_1_1_experimental_1_1_gx2f_system.html", null ],
+    [ "Acts::Experimental::Histogram&lt; Dim &gt;", "class_acts_1_1_experimental_1_1_histogram.html", null ],
     [ "Acts::Experimental::MultiLayerNavigationPolicy::Config", "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html", null ],
     [ "Acts::Experimental::MultiWireVolumeBuilder", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html", null ],
     [ "Acts::Experimental::MultiWireVolumeBuilder::Config", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html", null ],
+    [ "Acts::Experimental::ProfileHistogram&lt; Dim &gt;", "class_acts_1_1_experimental_1_1_profile_histogram.html", null ],
     [ "Acts::Experimental::RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html", null ],
     [ "Acts::Experimental::ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", null ],
     [ "Acts::Experimental::SeedFinderGbts", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html", null ],
@@ -362,6 +366,7 @@ var hierarchy =
     [ "Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoric&lt; identifier_t &gt;", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric.html", null ],
     [ "Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoric&lt; identifier_t &gt;::Maximum", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html", null ],
     [ "Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoricConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html", null ],
+    [ "Acts::HoughTransformUtils::PeakFinders::SlidingWindowConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html", null ],
     [ "Acts::HoughVertexFinder&lt; spacepoint_t &gt;", "class_acts_1_1_hough_vertex_finder.html", null ],
     [ "Acts::HoughVertexFinder&lt; spacepoint_t &gt;::Config", "struct_acts_1_1_hough_vertex_finder_1_1_config.html", null ],
     [ "Acts::IAssignmentFinder", "class_acts_1_1_i_assignment_finder.html", [
@@ -473,14 +478,9 @@ var hierarchy =
     [ "Acts::ISurfaceMaterialAccumulater::State", "class_acts_1_1_i_surface_material_accumulater_1_1_state.html", [
       [ "Acts::BinnedSurfaceMaterialAccumulater::State", "struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html", null ]
     ] ],
-    [ "Acts::ISurfacesProvider", "class_acts_1_1_i_surfaces_provider.html", [
-      [ "Acts::KdtSurfacesProvider< kDIM, bSize >", "class_acts_1_1_kdt_surfaces_provider.html", null ],
-      [ "ActsPlugins::Geant4SurfaceProvider< kDim, bSize >", "class_acts_plugins_1_1_geant4_surface_provider.html", null ]
-    ] ],
     [ "Acts::IterativeVertexFinder::Config", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html", null ],
     [ "Acts::IterativeVertexFinder::State", "struct_acts_1_1_iterative_vertex_finder_1_1_state.html", null ],
     [ "Acts::ITrackingGeometryBuilder", "class_acts_1_1_i_tracking_geometry_builder.html", [
-      [ "Acts::KDTreeTrackingGeometryBuilder", "class_acts_1_1_k_d_tree_tracking_geometry_builder.html", null ],
       [ "Acts::TrackingGeometryBuilder", "class_acts_1_1_tracking_geometry_builder.html", null ]
     ] ],
     [ "Acts::ITrackingGeometryJsonDecorator", "class_acts_1_1_i_tracking_geometry_json_decorator.html", null ],
@@ -527,7 +527,6 @@ var hierarchy =
     [ "Acts::KalmanFitterOptions&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_options.html", null ],
     [ "Acts::KalmanFitterResult&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_result.html", null ],
     [ "Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;", "class_acts_1_1_k_d_tree.html", null ],
-    [ "Acts::KDTreeTrackingGeometryBuilder::Config", "struct_acts_1_1_k_d_tree_tracking_geometry_builder_1_1_config.html", null ],
     [ "Acts::KdtSurfaces&lt; kDIM, bSize &gt;", "class_acts_1_1_kdt_surfaces.html", null ],
     [ "Acts::LayerArrayCreator::Config", "struct_acts_1_1_layer_array_creator_1_1_config.html", null ],
     [ "Acts::LayerCreator", "class_acts_1_1_layer_creator.html", null ],
@@ -666,12 +665,8 @@ var hierarchy =
     [ "Acts::ProtoAxis", "class_acts_1_1_proto_axis.html", [
       [ "Acts::DirectedProtoAxis", "struct_acts_1_1_directed_proto_axis.html", null ]
     ] ],
-    [ "Acts::ProtoDetector", "struct_acts_1_1_proto_detector.html", null ],
     [ "Acts::ProtoLayerHelper", "class_acts_1_1_proto_layer_helper.html", null ],
     [ "Acts::ProtoLayerHelper::Config", "struct_acts_1_1_proto_layer_helper_1_1_config.html", null ],
-    [ "Acts::ProtoVolume", "struct_acts_1_1_proto_volume.html", null ],
-    [ "Acts::ProtoVolume::ContainerStructure", "struct_acts_1_1_proto_volume_1_1_container_structure.html", null ],
-    [ "Acts::ProtoVolume::InternalStructure", "struct_acts_1_1_proto_volume_1_1_internal_structure.html", null ],
     [ "Acts::ProxyAccessorBase&lt; T, ReadOnly &gt;", "struct_acts_1_1_proxy_accessor_base.html", null ],
     [ "Acts::RangeXD&lt; Dims, Type, Vector &gt;", "class_acts_1_1_range_x_d.html", null ],
     [ "Acts::Ray&lt; value_t, DIM &gt;", "class_acts_1_1_ray.html", null ],
@@ -795,13 +790,43 @@ var hierarchy =
     [ "Acts::TrackingGeometryBuilder::Config", "struct_acts_1_1_tracking_geometry_builder_1_1_config.html", null ],
     [ "Acts::TrackingVolumeArrayCreator::Config", "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html", null ],
     [ "Acts::TrackParamsLookupAccumulator&lt; grid_t &gt;", "class_acts_1_1_track_params_lookup_accumulator.html", null ],
-    [ "Acts::TrackProxy&lt; track_container_t, trajectory_t, holder_t, read_only &gt;", "class_acts_1_1_track_proxy.html", null ],
+    [ "Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;", "class_acts_1_1_track_proxy_common.html", [
+      [ "Acts::TrackProxy< track_container_t, traj_t, holder_t, false >", "class_acts_1_1_track_proxy.html", null ],
+      [ "Acts::TrackProxy< track_container_t, traj_t, holder_t, true >", "class_acts_1_1_track_proxy.html", null ],
+      [ "Acts::TrackProxy< track_container_t, trajectory_t, holder_t, false >", "class_acts_1_1_track_proxy.html", null ],
+      [ "Acts::TrackProxy< track_container_t, trajectory_t, holder_t, true >", "class_acts_1_1_track_proxy.html", null ]
+    ] ],
+    [ "Acts::TrackProxyCommon&lt; AnyTrackProxy&lt; read_only &gt;, TrackIndexType, read_only &gt;", "class_acts_1_1_track_proxy_common.html", [
+      [ "Acts::AnyTrackProxy< false >", "class_acts_1_1_any_track_proxy.html", null ],
+      [ "Acts::AnyTrackProxy< true >", "class_acts_1_1_any_track_proxy.html", null ]
+    ] ],
+    [ "Acts::TrackProxyCommon&lt; AnyTrackProxy&lt; true &gt;, TrackIndexType, true &gt;", "class_acts_1_1_track_proxy_common.html", [
+      [ "Acts::AnyTrackProxy< read_only >", "class_acts_1_1_any_track_proxy.html", null ]
+    ] ],
+    [ "Acts::TrackProxyCommon&lt; TrackProxy&lt; track_container_t, trajectory_t, holder_t, true &gt;, track_container_t::IndexType, true &gt;", "class_acts_1_1_track_proxy_common.html", [
+      [ "Acts::TrackProxy< track_container_t, trajectory_t, holder_t, read_only >", "class_acts_1_1_track_proxy.html", null ]
+    ] ],
     [ "Acts::TrackSelector", "class_acts_1_1_track_selector.html", null ],
     [ "Acts::TrackSelector::Config", "struct_acts_1_1_track_selector_1_1_config.html", null ],
     [ "Acts::TrackSelector::EtaBinnedConfig", "struct_acts_1_1_track_selector_1_1_eta_binned_config.html", null ],
     [ "Acts::TrackSelector::MeasurementCounter", "struct_acts_1_1_track_selector_1_1_measurement_counter.html", null ],
     [ "Acts::TrackStateCreator&lt; source_link_iterator_t, track_container_t &gt;", "struct_acts_1_1_track_state_creator.html", null ],
-    [ "Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;", "class_acts_1_1_track_state_proxy.html", null ],
+    [ "Acts::TrackStateProxyCommon&lt; Derived, read_only &gt;", "class_acts_1_1_track_state_proxy_common.html", [
+      [ "Acts::TrackStateProxy< Derived, MeasurementSizeMax, true >", "class_acts_1_1_track_state_proxy.html", null ],
+      [ "Acts::TrackStateProxy< Derived, MeasurementSizeMax, false >", "class_acts_1_1_track_state_proxy.html", null ]
+    ] ],
+    [ "Acts::TrackStateProxyCommon&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;", "class_acts_1_1_track_state_proxy_common.html", [
+      [ "Acts::AnyTrackStateProxy< false >", "class_acts_1_1_any_track_state_proxy.html", null ],
+      [ "Acts::AnyTrackStateProxy< true >", "class_acts_1_1_any_track_state_proxy.html", null ],
+      [ "Acts::AnyTrackStateProxy< read_only >", "class_acts_1_1_any_track_state_proxy.html", null ]
+    ] ],
+    [ "Acts::TrackStateProxyCommon&lt; TrackStateProxy&lt; trajectory_t, M, read_only &gt;, read_only &gt;", "class_acts_1_1_track_state_proxy_common.html", [
+      [ "Acts::TrackStateProxy< trajectory_t, M, ReadOnly >", "class_acts_1_1_track_state_proxy.html", null ],
+      [ "Acts::TrackStateProxy< trajectory_t, M, true >", "class_acts_1_1_track_state_proxy.html", null ]
+    ] ],
+    [ "Acts::TrackStateProxyCommon&lt; TrackStateProxy&lt; trajectory_t, M, true &gt;, true &gt;", "class_acts_1_1_track_state_proxy_common.html", [
+      [ "Acts::TrackStateProxy< trajectory_t, M, read_only >", "class_acts_1_1_track_state_proxy.html", null ]
+    ] ],
     [ "Acts::TrackStateTraits&lt; M, ReadOnly &gt;", "struct_acts_1_1_track_state_traits.html", null ],
     [ "Acts::TrackStateType", "class_acts_1_1_track_state_type.html", null ],
     [ "Acts::Transform3JsonConverter::Options", "struct_acts_1_1_transform3_json_converter_1_1_options.html", null ],
@@ -965,8 +990,6 @@ var hierarchy =
     [ "ActsPlugins::Geant4MaterialConverter", "struct_acts_plugins_1_1_geant4_material_converter.html", null ],
     [ "ActsPlugins::Geant4PhysicalVolumeConverter", "struct_acts_plugins_1_1_geant4_physical_volume_converter.html", null ],
     [ "ActsPlugins::Geant4ShapeConverter", "struct_acts_plugins_1_1_geant4_shape_converter.html", null ],
-    [ "ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::Config", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html", null ],
-    [ "ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;::KdtOptions", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html", null ],
     [ "ActsPlugins::Geant4VolumeConverter", "struct_acts_plugins_1_1_geant4_volume_converter.html", null ],
     [ "ActsPlugins::GeoModelDetectorObjectFactory", "class_acts_plugins_1_1_geo_model_detector_object_factory.html", null ],
     [ "ActsPlugins::GeoModelDetectorObjectFactory::Cache", "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html", null ],

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -211,7 +213,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa499eae940b107a7012a2875a100a4fc" id="r_aa499eae940b107a7012a2875a100a4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa499eae940b107a7012a2875a100a4fc">operator==</a> (const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;other) const</td></tr>
 <tr class="memdesc:aa499eae940b107a7012a2875a100a4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison (equality) operator The strategy for comparison is (a) first pointer comparison (b) then type comparison (c) then bounds comparison (d) then transform comparison.  <br /></td></tr>
 <tr class="memitem:abc1b37b98fdda34da35d19e65ab7c85c" id="r_abc1b37b98fdda34da35d19e65ab7c85c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1b37b98fdda34da35d19e65ab7c85c">pathCorrection</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const =0</td></tr>
-<tr class="memdesc:abc1b37b98fdda34da35d19e65ab7c85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calucation of the path correction for incident.  <br /></td></tr>
+<tr class="memdesc:abc1b37b98fdda34da35d19e65ab7c85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of the path correction for incident.  <br /></td></tr>
 <tr class="memitem:a76074a485122173fe7d40ae607c6fe3c" id="r_a76074a485122173fe7d40ae607c6fe3c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_acts_1_1_polyhedron.html">Polyhedron</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76074a485122173fe7d40ae607c6fe3c">polyhedronRepresentation</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, unsigned int quarterSegments=2u) const =0</td></tr>
 <tr class="memdesc:a76074a485122173fe7d40ae607c6fe3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Polyhedron for surface objects.  <br /></td></tr>
 <tr class="memitem:a8d77b2de00164240967727e599d6d30d" id="r_a8d77b2de00164240967727e599d6d30d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">Acts::RotationMatrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d77b2de00164240967727e599d6d30d">referenceFrame</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const</td></tr>
@@ -1524,7 +1526,7 @@ template&lt;class T, typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Calucation of the path correction for incident. </p>
+<p>Calculation of the path correction for incident. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>

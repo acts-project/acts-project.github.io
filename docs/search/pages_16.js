@@ -15,7 +15,7 @@ var searchData=
   ['to_20make_20a_20release_12',['How to make a release',['../howto_release.html',1,'']]],
   ['to_20recompiling_13',['Alternative to Recompiling',['../howto_profiling.html#autotoc_md43',1,'']]],
   ['to_20update_20the_20reference_20hashes_14',['to update the reference hashes',['../md_docs_2pages_2examples_2python__bindings.html#autotoc_md65',1,'Running the hash checks locally and how to update the reference hashes'],['../python_bindings.html#autotoc_md70',1,'Running the hash checks locally and how to update the reference hashes']]],
-  ['todo_20list_15',['Todo List',['../todo.html',1,'']]],
+  ['todo_20items_15',['TODO items',['../todo.html',1,'']]],
   ['topics_16',['Advanced Topics',['../group__logging.html#autotoc_md30',1,'']]],
   ['track_20edm_20backends_17',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],
   ['track_20event_20data_20model_18',['High-level Track Event Data Model',['../group__eventdata__tracks.html#edm_Tracks',1,'']]],

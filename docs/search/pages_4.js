@@ -12,10 +12,11 @@ var searchData=
   ['bindings_20for_20examples_9',['Python Bindings for Examples',['../python_bindings.html',1,'']]],
   ['bindings_20for_20the_20examples_10',['Python bindings for the Examples',['../md_docs_2pages_2examples_2python__bindings.html',1,'']]],
   ['branch_11',['Step 1: Update the release branch',['../howto_release.html#autotoc_md50',1,'']]],
-  ['build_20a_20backend_12',['How to build a backend',['../group__eventdata__tracks.html#autotoc_md21',1,'']]],
-  ['build_20caches_13',['Build caches',['../howto_spack.html#autotoc_md57',1,'']]],
-  ['build_20options_14',['Build options',['../building_acts.html#build-options',1,'']]],
-  ['building_20acts_15',['Building ACTS',['../building_acts.html',1,'Building ACTS'],['../building_acts.html#building-acts',1,'Building ACTS']]],
-  ['building_20the_20documentation_16',['Building the documentation',['../building_acts.html#autotoc_md5',1,'']]],
-  ['building_20with_20spack_17',['Building with Spack',['../howto_spack.html',1,'Building with Spack'],['../howto_spack.html#autotoc_md55',1,'Building with Spack']]]
+  ['bugs_12',['Bugs',['../bug.html',1,'']]],
+  ['build_20a_20backend_13',['How to build a backend',['../group__eventdata__tracks.html#autotoc_md21',1,'']]],
+  ['build_20caches_14',['Build caches',['../howto_spack.html#autotoc_md57',1,'']]],
+  ['build_20options_15',['Build options',['../building_acts.html#build-options',1,'']]],
+  ['building_20acts_16',['Building ACTS',['../building_acts.html',1,'Building ACTS'],['../building_acts.html#building-acts',1,'Building ACTS']]],
+  ['building_20the_20documentation_17',['Building the documentation',['../building_acts.html#autotoc_md5',1,'']]],
+  ['building_20with_20spack_18',['Building with Spack',['../howto_spack.html',1,'Building with Spack'],['../howto_spack.html#autotoc_md55',1,'Building with Spack']]]
 ];

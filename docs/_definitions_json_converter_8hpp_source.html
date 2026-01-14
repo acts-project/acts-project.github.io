@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -137,9 +139,8 @@ $(function(){initNavTree('_definitions_json_converter_8hpp_source.html','',''); 
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__json__plugin.html#ga26b713fc99a501d9b357b63b96e19dfa">   24</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__json__plugin.html#ga1337ac3c5d40bcc0364404edc0093acc">to_json</a>(nlohmann::json&amp; j, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_direction.html">Direction</a>&amp; direction);</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__json__plugin.html#gaa3ffa5ada56af263eb0e8bbc53fa5459">   29</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__json__plugin.html#gac7844f9f2860fbc63cfe807871dd609e">from_json</a>(<span class="keyword">const</span> nlohmann::json&amp; j, <a class="code hl_class" href="class_acts_1_1_direction.html">Direction</a>&amp; direction);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_direction_html"><div class="ttname"><a href="class_acts_1_1_direction.html">Acts::Direction</a></div><div class="ttdoc">The direction is always with respect to a given momentum, surface normal or other general axes.</div><div class="ttdef"><b>Definition</b> Direction.hpp:22</div></div>
 <div class="ttc" id="agroup__json__plugin_html_ga1337ac3c5d40bcc0364404edc0093acc"><div class="ttname"><a href="group__json__plugin.html#ga1337ac3c5d40bcc0364404edc0093acc">Acts::to_json</a></div><div class="ttdeci">void to_json(nlohmann::json &amp;j, const Transform3 &amp;t)</div><div class="ttdoc">Convert Transform3 to JSON.</div></div>
 <div class="ttc" id="agroup__json__plugin_html_gac7844f9f2860fbc63cfe807871dd609e"><div class="ttname"><a href="group__json__plugin.html#gac7844f9f2860fbc63cfe807871dd609e">Acts::from_json</a></div><div class="ttdeci">void from_json(const nlohmann::json &amp;j, Transform3 &amp;t)</div><div class="ttdoc">Convert JSON to Transform3.</div></div>

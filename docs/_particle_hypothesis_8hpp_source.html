@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -418,7 +420,7 @@ $(function(){initNavTree('_particle_hypothesis_8hpp_source.html','',''); });
 </div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="ttc" id="aclass_acts_1_1_any_charge_html"><div class="ttname"><a href="class_acts_1_1_any_charge.html">Acts::AnyCharge</a></div><div class="ttdoc">Charge and momentum interpretation for arbitrarily charged particles.</div><div class="ttdef"><b>Definition</b> Charge.hpp:223</div></div>
+<div class="ttc" id="aclass_acts_1_1_any_charge_html"><div class="ttname"><a href="class_acts_1_1_any_charge.html">Acts::AnyCharge</a></div><div class="ttdoc">Charge and momentum interpretation for arbitrarily charged particles.</div><div class="ttdef"><b>Definition</b> Charge.hpp:222</div></div>
 <div class="ttc" id="aclass_acts_1_1_generic_particle_hypothesis_html_a1fa3492565f22f197da410b027c8d8fe"><div class="ttname"><a href="class_acts_1_1_generic_particle_hypothesis.html#a1fa3492565f22f197da410b027c8d8fe">Acts::GenericParticleHypothesis&lt; SinglyCharged &gt;::GenericParticleHypothesis</a></div><div class="ttdeci">constexpr GenericParticleHypothesis(PdgParticle absPdg, float mass, ChargeType chargeType)</div><div class="ttdef"><b>Definition</b> GenericParticleHypothesis.hpp:37</div></div>
 <div class="ttc" id="aclass_acts_1_1_generic_particle_hypothesis_html_a722bcf05aae6c877ab6486639dfa3a92"><div class="ttname"><a href="class_acts_1_1_generic_particle_hypothesis.html#a722bcf05aae6c877ab6486639dfa3a92">Acts::GenericParticleHypothesis&lt; SinglyCharged &gt;::mass</a></div><div class="ttdeci">constexpr float mass() const noexcept</div><div class="ttdef"><b>Definition</b> GenericParticleHypothesis.hpp:72</div></div>
 <div class="ttc" id="aclass_acts_1_1_generic_particle_hypothesis_html_a8cf200edc752205e10396104fa5d52ee"><div class="ttname"><a href="class_acts_1_1_generic_particle_hypothesis.html#a8cf200edc752205e10396104fa5d52ee">Acts::GenericParticleHypothesis&lt; NonNeutralCharge &gt;::chargeType</a></div><div class="ttdeci">constexpr const ChargeType &amp; chargeType() const noexcept</div><div class="ttdef"><b>Definition</b> GenericParticleHypothesis.hpp:113</div></div>
@@ -429,7 +431,7 @@ $(function(){initNavTree('_particle_hypothesis_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_neutral_particle_hypothesis_html_aaee0270cf3fc18aacb4a2a64d8c6190a"><div class="ttname"><a href="class_acts_1_1_neutral_particle_hypothesis.html#aaee0270cf3fc18aacb4a2a64d8c6190a">Acts::NeutralParticleHypothesis::NeutralParticleHypothesis</a></div><div class="ttdeci">constexpr NeutralParticleHypothesis(PdgParticle absPdg, float mass)</div><div class="ttdoc">Constructor with explicit mass.</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:94</div></div>
 <div class="ttc" id="aclass_acts_1_1_neutral_particle_hypothesis_html_af07f54c675c6c1df0873066c841151c7"><div class="ttname"><a href="class_acts_1_1_neutral_particle_hypothesis.html#af07f54c675c6c1df0873066c841151c7">Acts::NeutralParticleHypothesis::NeutralParticleHypothesis</a></div><div class="ttdeci">NeutralParticleHypothesis(PdgParticle absPdg)</div><div class="ttdoc">Constructor with PDG particle code (mass from particle data table).</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:98</div></div>
 <div class="ttc" id="aclass_acts_1_1_neutral_particle_hypothesis_html_afeb58841a85cd8ba28130e6062811533"><div class="ttname"><a href="class_acts_1_1_neutral_particle_hypothesis.html#afeb58841a85cd8ba28130e6062811533">Acts::NeutralParticleHypothesis::NeutralParticleHypothesis</a></div><div class="ttdeci">constexpr NeutralParticleHypothesis(const GenericParticleHypothesis&lt; other_charge_t &gt; &amp;other)</div><div class="ttdoc">Convert from another particle hypothesis with different charge type.</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:104</div></div>
-<div class="ttc" id="aclass_acts_1_1_non_neutral_charge_html"><div class="ttname"><a href="class_acts_1_1_non_neutral_charge.html">Acts::NonNeutralCharge</a></div><div class="ttdoc">Charge and momentum interpretation for arbitrarily charged but not neutral particles.</div><div class="ttdef"><b>Definition</b> Charge.hpp:168</div></div>
+<div class="ttc" id="aclass_acts_1_1_non_neutral_charge_html"><div class="ttname"><a href="class_acts_1_1_non_neutral_charge.html">Acts::NonNeutralCharge</a></div><div class="ttdoc">Charge and momentum interpretation for arbitrarily charged but not neutral particles.</div><div class="ttdef"><b>Definition</b> Charge.hpp:167</div></div>
 <div class="ttc" id="aclass_acts_1_1_non_neutral_charged_particle_hypothesis_html_a0e94b0a7e0937809e06645eed313ebf8"><div class="ttname"><a href="class_acts_1_1_non_neutral_charged_particle_hypothesis.html#a0e94b0a7e0937809e06645eed313ebf8">Acts::NonNeutralChargedParticleHypothesis::pionLike</a></div><div class="ttdeci">static NonNeutralChargedParticleHypothesis pionLike(float absQ)</div><div class="ttdoc">Create a pion-like particle hypothesis with custom charge.</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:188</div></div>
 <div class="ttc" id="aclass_acts_1_1_non_neutral_charged_particle_hypothesis_html_a14b66096e5a8e188ddceed0a867a2a78"><div class="ttname"><a href="class_acts_1_1_non_neutral_charged_particle_hypothesis.html#a14b66096e5a8e188ddceed0a867a2a78">Acts::NonNeutralChargedParticleHypothesis::NonNeutralChargedParticleHypothesis</a></div><div class="ttdeci">NonNeutralChargedParticleHypothesis(PdgParticle absPdg)</div><div class="ttdoc">Constructor with PDG particle code (mass from particle data table).</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:144</div></div>
 <div class="ttc" id="aclass_acts_1_1_non_neutral_charged_particle_hypothesis_html_a50a5a068626ba9aecbd4bf73dcf888cc"><div class="ttname"><a href="class_acts_1_1_non_neutral_charged_particle_hypothesis.html#a50a5a068626ba9aecbd4bf73dcf888cc">Acts::NonNeutralChargedParticleHypothesis::electron</a></div><div class="ttdeci">static NonNeutralChargedParticleHypothesis electron()</div><div class="ttdoc">Create an electron particle hypothesis.</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:168</div></div>

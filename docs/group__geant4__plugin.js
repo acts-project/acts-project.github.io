@@ -59,26 +59,6 @@ var group__geant4__plugin =
       [ "keepAxisOrder", "struct_acts_plugins_1_1_geant4_shape_converter.html#ac33129338df0d4a44e74efe237d5c04b", null ],
       [ "scale", "struct_acts_plugins_1_1_geant4_shape_converter.html#a179061b20780527ad4277a0c5e6c39f2", null ]
     ] ],
-    [ "ActsPlugins::Geant4SurfaceProvider&lt; kDim, bSize &gt;", "class_acts_plugins_1_1_geant4_surface_provider.html", [
-      [ "Config", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html", [
-        [ "convertedMaterialThickness", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a5d1ba66926346b0671aa3759956249a2", null ],
-        [ "convertMaterial", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#af4f064264c91519f1787fbdc08434ecf", null ],
-        [ "g4World", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a0293144767466a7cbb4c4f51283d2ac1", null ],
-        [ "scaleConversion", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a54aff0fc30b003710623e8bf14ee6e5f", null ],
-        [ "surfacePreselector", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#abdc5b06932949eb3b84d03fefeaeae15", null ],
-        [ "worldTransform", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_config.html#a7252d324d336dccb16dac4bbd8ca147f", null ]
-      ] ],
-      [ "KdtOptions", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html", [
-        [ "KdtOptions", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#a18456f0b6e5ced0394f2b43118184b82", null ],
-        [ "binningValues", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#a6838472be4852884bfaeb6b6de261e29", null ],
-        [ "leafSize", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#adfe5611fdb298091fa3eb6c1ee841423", null ],
-        [ "range", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#aa8e0b82386b12e003fd59c8787474bff", null ],
-        [ "referenceGenerator", "struct_acts_plugins_1_1_geant4_surface_provider_1_1_kdt_options.html#ab970e6b6bc50b283ab1ba4ff26a550d2", null ]
-      ] ],
-      [ "Geant4SurfaceProvider", "class_acts_plugins_1_1_geant4_surface_provider.html#ad39d0519b6b19dba16797d35791585db", null ],
-      [ "~Geant4SurfaceProvider", "class_acts_plugins_1_1_geant4_surface_provider.html#a2ab41d276e70655e81ceaa55a4b374cf", null ],
-      [ "surfaces", "class_acts_plugins_1_1_geant4_surface_provider.html#a785b991aeaea499629f7c3beb9ed0e4f", null ]
-    ] ],
     [ "ActsPlugins::Geant4VolumeConverter", "struct_acts_plugins_1_1_geant4_volume_converter.html", [
       [ "cylinderBounds", "struct_acts_plugins_1_1_geant4_volume_converter.html#a8917776e42e20954830b191e230f68bf", null ]
     ] ],

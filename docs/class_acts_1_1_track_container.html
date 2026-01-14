@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -199,7 +201,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4c3f89e93d7c7bd40ae3c36c66359d9" id="r_ab4c3f89e93d7c7bd40ae3c36c66359d9"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; <br />
 requires (!<a class="el" href="#ab32b67162e716863c0c2f548869fa4ad">ReadOnly</a>)</td></tr>
 <tr class="memitem:ab4c3f89e93d7c7bd40ae3c36c66359d9 template"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c3f89e93d7c7bd40ae3c36c66359d9">addColumn</a> (std::string_view key)</td></tr>
-<tr class="memdesc:ab4c3f89e93d7c7bd40ae3c36c66359d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a dymanic column to the track container.  <br /></td></tr>
+<tr class="memdesc:ab4c3f89e93d7c7bd40ae3c36c66359d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a dynamic column to the track container.  <br /></td></tr>
 <tr class="memitem:a3e0560323cb9b4aba2b177c3c8fcbe07" id="r_a3e0560323cb9b4aba2b177c3c8fcbe07"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e0560323cb9b4aba2b177c3c8fcbe07">hasColumn</a> (const std::string &amp;key) const</td></tr>
 <tr class="memdesc:a3e0560323cb9b4aba2b177c3c8fcbe07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this track container has a specific dynamic column.  <br /></td></tr>
 <tr class="memitem:a0183e98858384712e5734d068ffecd95" id="r_a0183e98858384712e5734d068ffecd95"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0183e98858384712e5734d068ffecd95">hasColumn</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key) const</td></tr>
@@ -250,17 +252,17 @@ requires (!<a class="el" href="#ab32b67162e716863c0c2f548869fa4ad">ReadOnly</a>)
 <tr class="memitem:a4a69027fe957e07128f926aa578988bd" id="r_a4a69027fe957e07128f926aa578988bd"><td class="memTemplParams" colspan="2">template&lt;typename T, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key&gt; </td></tr>
 <tr class="memitem:a4a69027fe957e07128f926aa578988bd template"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a69027fe957e07128f926aa578988bd">component</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack) const</td></tr>
 <tr class="memdesc:a4a69027fe957e07128f926aa578988bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const reference to track component using compile-time key.  <br /></td></tr>
-<tr class="memitem:ad4874e508e524f54728531c104ae87b3" id="r_ad4874e508e524f54728531c104ae87b3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#a1cf8f5adf5f851bacb83e9a8f2771891">TrackProxy::Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4874e508e524f54728531c104ae87b3">covariance</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack)</td></tr>
+<tr class="memitem:ad4874e508e524f54728531c104ae87b3" id="r_ad4874e508e524f54728531c104ae87b3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#a23bba492f9faaf7067bac2e09783f12a">TrackProxy::Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4874e508e524f54728531c104ae87b3">covariance</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack)</td></tr>
 <tr class="memdesc:ad4874e508e524f54728531c104ae87b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable covariance matrix for a track.  <br /></td></tr>
-<tr class="memitem:a9bbea6e91778f6f72344f121fa83baf0" id="r_a9bbea6e91778f6f72344f121fa83baf0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#a658d133ca50acf18de523695c5d68f1d">ConstTrackProxy::ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bbea6e91778f6f72344f121fa83baf0">covariance</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack) const</td></tr>
+<tr class="memitem:a9bbea6e91778f6f72344f121fa83baf0" id="r_a9bbea6e91778f6f72344f121fa83baf0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#a3153b3b17cc2a901d99953fb124e9e26">ConstTrackProxy::ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bbea6e91778f6f72344f121fa83baf0">covariance</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack) const</td></tr>
 <tr class="memdesc:a9bbea6e91778f6f72344f121fa83baf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const covariance matrix for a track.  <br /></td></tr>
 <tr class="memitem:ab8b5ca3faeba8cae78db346d38e1d42f" id="r_ab8b5ca3faeba8cae78db346d38e1d42f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b5ca3faeba8cae78db346d38e1d42f">forwardTrackStateRange</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack)</td></tr>
 <tr class="memdesc:ab8b5ca3faeba8cae78db346d38e1d42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable range for iterating track states in forward order.  <br /></td></tr>
 <tr class="memitem:adc38684cb86b84777353f2bf36eb97bb" id="r_adc38684cb86b84777353f2bf36eb97bb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc38684cb86b84777353f2bf36eb97bb">forwardTrackStateRange</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack) const</td></tr>
 <tr class="memdesc:adc38684cb86b84777353f2bf36eb97bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const range for iterating track states in forward order.  <br /></td></tr>
-<tr class="memitem:a18613456e11d58b1ed6af928356d23c3" id="r_a18613456e11d58b1ed6af928356d23c3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#a7e8c1a9321efd1d543fc582377558df7">TrackProxy::Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18613456e11d58b1ed6af928356d23c3">parameters</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack)</td></tr>
+<tr class="memitem:a18613456e11d58b1ed6af928356d23c3" id="r_a18613456e11d58b1ed6af928356d23c3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#ac2084c82f0975f4c87ae688a836473f1">TrackProxy::Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18613456e11d58b1ed6af928356d23c3">parameters</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack)</td></tr>
 <tr class="memdesc:a18613456e11d58b1ed6af928356d23c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable parameters for a track.  <br /></td></tr>
-<tr class="memitem:ad140911c66e1c400f25785b0fa257c7a" id="r_ad140911c66e1c400f25785b0fa257c7a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#ac99d36ea3253a188c77863b2dcc1216c">ConstTrackProxy::ConstParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad140911c66e1c400f25785b0fa257c7a">parameters</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack) const</td></tr>
+<tr class="memitem:ad140911c66e1c400f25785b0fa257c7a" id="r_ad140911c66e1c400f25785b0fa257c7a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_proxy.html#abfa92c8a8998a81dbeb10c596b3eb361">ConstTrackProxy::ConstParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad140911c66e1c400f25785b0fa257c7a">parameters</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack) const</td></tr>
 <tr class="memdesc:ad140911c66e1c400f25785b0fa257c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const parameters for a track.  <br /></td></tr>
 <tr class="memitem:a386379b141da2b6eb7a60fbac0ab1ed4" id="r_a386379b141da2b6eb7a60fbac0ab1ed4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386379b141da2b6eb7a60fbac0ab1ed4">reverseTrackStateRange</a> (<a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a> itrack)</td></tr>
 <tr class="memdesc:a386379b141da2b6eb7a60fbac0ab1ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable range for iterating track states in reverse order.  <br /></td></tr>
@@ -318,7 +320,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_track_proxy.html">Acts::TrackProxy&lt;track_container_t, traj_t, holder_t, true&gt;</a></div>
-<div class="ttc" id="aclass_acts_1_1_track_proxy_html"><div class="ttname"><a href="class_acts_1_1_track_proxy.html">Acts::TrackProxy</a></div><div class="ttdoc">Proxy class representing a single track.</div><div class="ttdef"><b>Definition</b> TrackProxy.hpp:56</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_proxy_html"><div class="ttname"><a href="class_acts_1_1_track_proxy.html">Acts::TrackProxy</a></div><div class="ttdoc">Proxy class representing a single track.</div><div class="ttdef"><b>Definition</b> TrackProxy.hpp:51</div></div>
 </div><!-- fragment -->
 <p>Alias for the const version of a track proxy, with the same backends as this container. </p>
 
@@ -339,7 +341,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">MultiTrajectory&lt;traj_t&gt;::ConstTrackStateProxy</a></div>
-<div class="ttc" id="aclass_acts_1_1_multi_trajectory_html_aa515e9bdd41bd33a4561e4e28a2f6d7d"><div class="ttname"><a href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">Acts::MultiTrajectory::ConstTrackStateProxy</a></div><div class="ttdeci">Acts::TrackStateProxy&lt; Derived, MeasurementSizeMax, true &gt; ConstTrackStateProxy</div><div class="ttdoc">Alias for the const version of a track state proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:168</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_trajectory_html_aa515e9bdd41bd33a4561e4e28a2f6d7d"><div class="ttname"><a href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">Acts::MultiTrajectory::ConstTrackStateProxy</a></div><div class="ttdeci">Acts::TrackStateProxy&lt; Derived, MeasurementSizeMax, true &gt; ConstTrackStateProxy</div><div class="ttdoc">Alias for the const version of a track state proxy, with the same backends as this container.</div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:187</div></div>
 </div><!-- fragment -->
 <p>Type alias for const track state proxy from multi-trajectory. </p>
 
@@ -603,7 +605,7 @@ requires (!<a class="el" href="#ab32b67162e716863c0c2f548869fa4ad">ReadOnly</a>)
 </table>
 </div><div class="memdoc">
 
-<p>Add a dymanic column to the track container. </p>
+<p>Add a dynamic column to the track container. </p>
 <dl class="section note"><dt>Note</dt><dd>Only available if the track container is not read-only </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1008,7 +1010,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#a1cf8f5adf5f851bacb83e9a8f2771891">TrackProxy::Covariance</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::covariance </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#a23bba492f9faaf7067bac2e09783f12a">TrackProxy::Covariance</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::covariance </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>itrack</em></span></td><td>)</td>
           <td></td>
@@ -1044,7 +1046,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#a658d133ca50acf18de523695c5d68f1d">ConstTrackProxy::ConstCovariance</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::covariance </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#a3153b3b17cc2a901d99953fb124e9e26">ConstTrackProxy::ConstCovariance</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::covariance </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>itrack</em></span></td><td>)</td>
           <td> const</td>
@@ -1398,7 +1400,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#a7e8c1a9321efd1d543fc582377558df7">TrackProxy::Parameters</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::parameters </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#ac2084c82f0975f4c87ae688a836473f1">TrackProxy::Parameters</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::parameters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>itrack</em></span></td><td>)</td>
           <td></td>
@@ -1434,7 +1436,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#ac99d36ea3253a188c77863b2dcc1216c">ConstTrackProxy::ConstParameters</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::parameters </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_track_proxy.html#abfa92c8a8998a81dbeb10c596b3eb361">ConstTrackProxy::ConstParameters</a> <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>&lt; track_container_t, traj_t, holder_t &gt;::parameters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ab953d1a3185a9004c6795dbeb25f4a54">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>itrack</em></span></td><td>)</td>
           <td> const</td>
@@ -1759,7 +1761,7 @@ template&lt;<a class="el" href="#a45b0ce734d8362c504a5c30a7ba66d36">TrackContain
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">      <a class="code hl_struct" href="struct_acts_1_1_is_read_only_multi_trajectory.html">IsReadOnlyMultiTrajectory&lt;traj_t&gt;::value</a></div>
-<div class="ttc" id="astruct_acts_1_1_is_read_only_multi_trajectory_html"><div class="ttname"><a href="struct_acts_1_1_is_read_only_multi_trajectory.html">Acts::IsReadOnlyMultiTrajectory</a></div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:137</div></div>
+<div class="ttc" id="astruct_acts_1_1_is_read_only_multi_trajectory_html"><div class="ttname"><a href="struct_acts_1_1_is_read_only_multi_trajectory.html">Acts::IsReadOnlyMultiTrajectory</a></div><div class="ttdef"><b>Definition</b> MultiTrajectory.hpp:153</div></div>
 </div><!-- fragment -->
 <p>Indicates if the track state container is read-only, or if it can be modified. </p>
 

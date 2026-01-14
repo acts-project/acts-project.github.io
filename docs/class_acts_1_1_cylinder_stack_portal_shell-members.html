@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -132,12 +134,11 @@ $(function(){initNavTree('class_acts_1_1_cylinder_stack_portal_shell.html','',''
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_portal_shell.html#a5f6ae956d62563319a6a186ae87b1972">fill</a>(TrackingVolume &amp;volume) override</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_portal_shell.html">Acts::CylinderPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#aaf1b601c8ba6d2a82cea6eaa9561aa2f">isValid</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a94795e906aef833369dcf9cb92da7b2b">label</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a05b85fa6aa4b396a280eb2796b17e513">portal</a>(Face face) final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#adc5c788ce29842449555a14d0d3e1479">portalPtr</a>(Face face) final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a6c8aceded3540ef6ae66ae9c9ffffe3f">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face) final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a11f2938d48e0fa3206d66cd0c1cf68cf">SingleShell</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#ab3ac2a0da0256e893cdfb16c580a8731">size</a>() const final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a771f3b1960675a5d42097d34ccb29767">portal</a>(Face face) final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a6c8aceded3540ef6ae66ae9c9ffffe3f">setPortal</a>(std::shared_ptr&lt; Portal &gt; portal, Face face) final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a11f2938d48e0fa3206d66cd0c1cf68cf">SingleShell</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#ab3ac2a0da0256e893cdfb16c580a8731">size</a>() const final</td><td class="entry"><a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html">Acts::CylinderStackPortalShell</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a>()=default</td><td class="entry"><a class="el" href="class_acts_1_1_portal_shell_base.html">Acts::PortalShellBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

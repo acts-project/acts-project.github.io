@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -381,7 +383,7 @@ $(function(){initNavTree('_indexed_surfaces_svg_converter_8hpp_source.html','','
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_view_html_a2f91f2bfb5f4cac4d00e4f1c7c4cad43"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_view.html#a2f91f2bfb5f4cac4d00e4f1c7c4cad43">ActsPlugins::Svg::View::xy</a></div><div class="ttdeci">static actsvg::svg::object xy(const ProtoIndexedSurfaceGrid &amp;pIndexGrid, const std::string &amp;identification)</div><div class="ttdoc">Convert into an ActsPlugins::Svg::object with an XY view.</div><div class="ttdef"><b>Definition</b> IndexedSurfacesSvgConverter.hpp:189</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_view_html_a40ef348d1719bb025cea88ad3d3750d4"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_view.html#a40ef348d1719bb025cea88ad3d3750d4">ActsPlugins::Svg::View::zrphi</a></div><div class="ttdeci">static actsvg::svg::object zrphi(const ProtoSurface &amp;pSurface, const std::string &amp;identification)</div><div class="ttdoc">Convert into an ActsPlugins::Svg::object with an z-rphi view.</div><div class="ttdef"><b>Definition</b> SurfaceSvgConverter.hpp:100</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_1_1_view_html_ab5e0457ce97842488f539f3fd0006568"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg_1_1_view.html#ab5e0457ce97842488f539f3fd0006568">ActsPlugins::Svg::View::zphi</a></div><div class="ttdeci">static actsvg::svg::object zphi(const ProtoIndexedSurfaceGrid &amp;pIndexGrid, const std::string &amp;identification)</div><div class="ttdoc">Fake zphi method, delegate to xy.</div><div class="ttdef"><b>Definition</b> IndexedSurfacesSvgConverter.hpp:258</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:19</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_svg_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html">ActsPlugins::Svg</a></div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a0bf13f58a5185f1ddeab6c4fa2faf7e1"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a0bf13f58a5185f1ddeab6c4fa2faf7e1">ActsPlugins::Svg::ProtoSurfaces</a></div><div class="ttdeci">std::vector&lt; ProtoSurface &gt; ProtoSurfaces</div><div class="ttdef"><b>Definition</b> IndexedSurfacesSvgConverter.hpp:31</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a1abe728e0de365fb29d46e417dad6405"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a1abe728e0de365fb29d46e417dad6405">ActsPlugins::Svg::ProtoIndexedSurfaceGrid</a></div><div class="ttdeci">std::tuple&lt; ProtoSurfaces, ProtoGrid, ProtoAssociations &gt; ProtoIndexedSurfaceGrid</div><div class="ttdef"><b>Definition</b> IndexedSurfacesSvgConverter.hpp:35</div></div>
 <div class="ttc" id="anamespace_acts_plugins_1_1_svg_html_a99d94eb99a4548030eb3df4dcfa4ed9e"><div class="ttname"><a href="namespace_acts_plugins_1_1_svg.html#a99d94eb99a4548030eb3df4dcfa4ed9e">ActsPlugins::Svg::ProtoSurface</a></div><div class="ttdeci">actsvg::proto::surface&lt; std::vector&lt; Acts::Vector3 &gt; &gt; ProtoSurface</div><div class="ttdef"><b>Definition</b> IndexedSurfacesSvgConverter.hpp:30</div></div>

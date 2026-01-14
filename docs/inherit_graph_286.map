@@ -1,3 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1json_key.html" title="store in a single place the different key used for the material mapping" alt="" coords="5,5,115,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_vertex_finder.html" title="Common interface for both vertex finders and vertex seed finders." alt="" coords="5,159,149,185"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_adaptive_grid_density_vertex_finder.html" title="Vertex finder that makes use of a track density grid." alt="" coords="209,5,403,45"/>
+<area shape="poly" id="edge156_Node000000_Node000001" title=" " alt="" coords="95,147,138,100,166,76,196,55,221,43,223,48,199,60,169,80,142,104,99,150"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_adaptive_multi_vertex_finder.html" title="Implements an iterative vertex finder." alt="" coords="211,69,401,109"/>
+<area shape="poly" id="edge157_Node000000_Node000002" title=" " alt="" coords="118,151,196,119,232,107,234,112,198,124,120,156"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_grid_density_vertex_finder.html" title="Vertex finder that makes use of a track density grid." alt="" coords="197,134,415,159"/>
+<area shape="poly" id="edge158_Node000000_Node000003" title=" " alt="" coords="163,160,197,156,197,161,163,165"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_iterative_vertex_finder.html" title="Implements an iterative vertex finder." alt="" coords="209,183,403,209"/>
+<area shape="poly" id="edge159_Node000000_Node000004" title=" " alt="" coords="163,178,209,183,208,188,163,184"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_track_density_vertex_finder.html" title="Finds a vertex seed based on the maximum of a track density function." alt="" coords="214,233,398,273"/>
+<area shape="poly" id="edge160_Node000000_Node000005" title=" " alt="" coords="122,188,198,217,238,231,236,236,196,223,120,192"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_z_scan_vertex_finder.html" title="Implements a vertex finder based on the mode of z0 values:" alt="" coords="216,298,396,323"/>
+<area shape="poly" id="edge161_Node000000_Node000006" title=" " alt="" coords="99,194,141,240,169,263,199,283,229,296,227,300,196,288,165,268,138,244,95,197"/>
 </map>

@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -128,8 +130,8 @@ $(function(){initNavTree('_gbts_connector_8hpp_source.html','',''); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// TODO: update to C++17 style</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// Consider to moving to detail subdirectory</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;fstream&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_1_1_experimental.html">Acts::Experimental</a> {</div>
@@ -145,7 +147,7 @@ $(function(){initNavTree('_gbts_connector_8hpp_source.html','',''); });
 </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_acts_1_1_experimental_1_1_gbts_connector.html">   27</a></span><span class="keyword">class </span><a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a6ac6054b5645f5e09cbc2a0834b1297c">GbtsConnector</a> {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_acts_1_1_experimental_1_1_gbts_connector.html">   27</a></span><span class="keyword">class </span><a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_connector.html#afaa93778fad7418b4bab0c40cfe14f26">GbtsConnector</a> {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> <span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html">   29</a></span>  <span class="keyword">struct </span><a class="code hl_function" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html#a98988e896c36812f7eb714b33761c7a4">LayerGroup</a> {</div>
@@ -162,7 +164,7 @@ $(function(){initNavTree('_gbts_connector_8hpp_source.html','',''); });
 </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a6ac6054b5645f5e09cbc2a0834b1297c">   40</a></span>  <a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a6ac6054b5645f5e09cbc2a0834b1297c">GbtsConnector</a>(std::ifstream&amp; inFile, <span class="keywordtype">bool</span> LRTmode);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_acts_1_1_experimental_1_1_gbts_connector.html#afaa93778fad7418b4bab0c40cfe14f26">   40</a></span>  <a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_connector.html#afaa93778fad7418b4bab0c40cfe14f26">GbtsConnector</a>(std::string&amp; inFile, <span class="keywordtype">bool</span> LRTmode);</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a4d6cd01381502ea136c00fef5187f107">   41</a></span>  <a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a4d6cd01381502ea136c00fef5187f107">~GbtsConnector</a>();</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a1c123bbff89040eeeb2447759a643048">   43</a></span>  <span class="keywordtype">float</span> <a class="code hl_variable" href="class_acts_1_1_experimental_1_1_gbts_connector.html#a1c123bbff89040eeeb2447759a643048">m_etaBin</a>{};</div>
@@ -176,8 +178,8 @@ $(function(){initNavTree('_gbts_connector_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_connector_html_a1c123bbff89040eeeb2447759a643048"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_connector.html#a1c123bbff89040eeeb2447759a643048">Acts::Experimental::GbtsConnector::m_etaBin</a></div><div class="ttdeci">float m_etaBin</div><div class="ttdef"><b>Definition</b> GbtsConnector.hpp:43</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_connector_html_a4d6cd01381502ea136c00fef5187f107"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_connector.html#a4d6cd01381502ea136c00fef5187f107">Acts::Experimental::GbtsConnector::~GbtsConnector</a></div><div class="ttdeci">~GbtsConnector()</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_connector_html_a5470169a2c125240693e698e485e5256"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_connector.html#a5470169a2c125240693e698e485e5256">Acts::Experimental::GbtsConnector::m_connMap</a></div><div class="ttdeci">std::map&lt; int, std::vector&lt; GbtsConnection * &gt; &gt; m_connMap</div><div class="ttdef"><b>Definition</b> GbtsConnector.hpp:46</div></div>
-<div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_connector_html_a6ac6054b5645f5e09cbc2a0834b1297c"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_connector.html#a6ac6054b5645f5e09cbc2a0834b1297c">Acts::Experimental::GbtsConnector::GbtsConnector</a></div><div class="ttdeci">GbtsConnector(std::ifstream &amp;inFile, bool LRTmode)</div></div>
 <div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_connector_html_ac438df450f27ca49e8448c612e9140b5"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_connector.html#ac438df450f27ca49e8448c612e9140b5">Acts::Experimental::GbtsConnector::m_layerGroups</a></div><div class="ttdeci">std::map&lt; int, std::vector&lt; struct LayerGroup &gt; &gt; m_layerGroups</div><div class="ttdef"><b>Definition</b> GbtsConnector.hpp:45</div></div>
+<div class="ttc" id="aclass_acts_1_1_experimental_1_1_gbts_connector_html_afaa93778fad7418b4bab0c40cfe14f26"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_gbts_connector.html#afaa93778fad7418b4bab0c40cfe14f26">Acts::Experimental::GbtsConnector::GbtsConnector</a></div><div class="ttdeci">GbtsConnector(std::string &amp;inFile, bool LRTmode)</div></div>
 <div class="ttc" id="anamespace_acts_1_1_experimental_html"><div class="ttname"><a href="namespace_acts_1_1_experimental.html">Acts::Experimental</a></div><div class="ttdoc">Contains code that is not considered stable yet and might change.</div></div>
 <div class="ttc" id="astruct_acts_1_1_experimental_1_1_gbts_connection_html_a1fd255c2f865ced8789a268f2a834bea"><div class="ttname"><a href="struct_acts_1_1_experimental_1_1_gbts_connection.html#a1fd255c2f865ced8789a268f2a834bea">Acts::Experimental::GbtsConnection::m_dst</a></div><div class="ttdeci">unsigned int m_dst</div><div class="ttdef"><b>Definition</b> GbtsConnector.hpp:22</div></div>
 <div class="ttc" id="astruct_acts_1_1_experimental_1_1_gbts_connection_html_a388703563a6c76a45b6edc805484c911"><div class="ttname"><a href="struct_acts_1_1_experimental_1_1_gbts_connection.html#a388703563a6c76a45b6edc805484c911">Acts::Experimental::GbtsConnection::GbtsConnection</a></div><div class="ttdeci">GbtsConnection(unsigned int s, unsigned int d)</div></div>

@@ -25,9 +25,7 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!-- <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   extensions: ["tex2jax.js"],
@@ -40,6 +38,7 @@ MathJax.Hub.Config({
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -48,6 +47,9 @@ MathJax.Hub.Config({
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -212,6 +214,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:gad4e3a647d9f5607dcff4abf122189cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to volumeMaterialPointer.  <br /></td></tr>
 <tr class="memitem:ga4ec453becca4f99dad7cd102ed1599a8" id="r_ga4ec453becca4f99dad7cd102ed1599a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html#a1ddf6ceeb06740ffa3d6509f56fa5c63">Container</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ec453becca4f99dad7cd102ed1599a8">Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;::fromJson</a> (const nlohmann::json &amp;encoded) const</td></tr>
 <tr class="memdesc:ga4ec453becca4f99dad7cd102ed1599a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a Json object into a geometry hierarchy map.  <br /></td></tr>
+<tr class="memitem:ga7db1175609439b8069b2d0b090773503" id="r_ga7db1175609439b8069b2d0b090773503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a> (const nlohmann::json &amp;j)</td></tr>
+<tr class="memdesc:ga7db1175609439b8069b2d0b090773503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ProtoAxis from a json object.  <br /></td></tr>
 <tr class="memitem:ga3503d63a02e59fae80cb71d77642bfaf" id="r_ga3503d63a02e59fae80cb71d77642bfaf"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; unsigned int, std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3503d63a02e59fae80cb71d77642bfaf">Acts::DetrayJsonHelper::maskFromBounds</a> (const <a class="el" href="class_acts_1_1_surface_bounds.html">Acts::SurfaceBounds</a> &amp;sBounds, bool portal=false)</td></tr>
 <tr class="memdesc:ga3503d63a02e59fae80cb71d77642bfaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to switch keys from ACTS to detray.  <br /></td></tr>
 <tr class="memitem:gac8895b284676062f1c0bf5f6466a507d" id="r_gac8895b284676062f1c0bf5f6466a507d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8895b284676062f1c0bf5f6466a507d">Acts::NLOHMANN_JSON_SERIALIZE_ENUM</a> (<a class="el" href="namespace_acts.html#aa512dd166058e0512c8c3fb3195bf1f1">Acts::MappingType</a>, { {<a class="el" href="namespace_acts.html#aa512dd166058e0512c8c3fb3195bf1f1a4b89096cd32efd26f913e96e61b96e77">Acts::MappingType::PreMapping</a>, &quot;PreMapping&quot;}, {<a class="el" href="namespace_acts.html#aa512dd166058e0512c8c3fb3195bf1f1a879c8d57398ac17a2d7ecaea65021e85">Acts::MappingType::Default</a>, &quot;Default&quot;}, {<a class="el" href="namespace_acts.html#aa512dd166058e0512c8c3fb3195bf1f1ae9a8b8024c5ca45ba5848e8f46dc38fe">Acts::MappingType::PostMapping</a>, &quot;PostMapping&quot;}, {<a class="el" href="namespace_acts.html#aa512dd166058e0512c8c3fb3195bf1f1aaeef76ca06f887c6eb3fcc9d41de53cd">Acts::MappingType::Sensor</a>, &quot;Sensor&quot;}, }) namespace MaterialJsonConverter</td></tr>
@@ -259,6 +263,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8883ce55bef32607470a0518e62d4818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert volumeMaterialPointer to JSON.  <br /></td></tr>
 <tr class="memitem:gae3bc8c18a830cf3b08595eafc172e2d3" id="r_gae3bc8c18a830cf3b08595eafc172e2d3"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3bc8c18a830cf3b08595eafc172e2d3">Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;::toJson</a> (const <a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html#a1ddf6ceeb06740ffa3d6509f56fa5c63">Container</a> &amp;container, const decorator_t *decorator) const</td></tr>
 <tr class="memdesc:gae3bc8c18a830cf3b08595eafc172e2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode the geometry hierarchy map into a Json object.  <br /></td></tr>
+<tr class="memitem:ga038acefb1a69555567e98c97b9830cf9" id="r_ga038acefb1a69555567e98c97b9830cf9"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;pa)</td></tr>
+<tr class="memdesc:ga038acefb1a69555567e98c97b9830cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the ProtoAxis to a json object.  <br /></td></tr>
 <tr class="memitem:ga0d44dfc16a076ea3977b8d4632e0bd71" id="r_ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0d44dfc16a076ea3977b8d4632e0bd71">Acts::toJson</a> (nlohmann::json &amp;j, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx)</td></tr>
 <tr class="memdesc:ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface.  <br /></td></tr>
 <tr class="memitem:gaca2851b3aa2009676dc7dae2bd4f0539" id="r_gaca2851b3aa2009676dc7dae2bd4f0539"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca2851b3aa2009676dc7dae2bd4f0539">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_config.html">DoubletSeedFinder::Config</a> &amp;config)</td></tr>
@@ -1088,7 +1094,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga4ec453becca4f99dad7cd102ed1599a8" name="ga4ec453becca4f99dad7cd102ed1599a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ec453becca4f99dad7cd102ed1599a8">&#9670;&#160;</a></span>fromJson()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ec453becca4f99dad7cd102ed1599a8">&#9670;&#160;</a></span>fromJson() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1121,6 +1127,32 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 
 </div>
 </div>
+<a id="ga7db1175609439b8069b2d0b090773503" name="ga7db1175609439b8069b2d0b090773503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db1175609439b8069b2d0b090773503">&#9670;&#160;</a></span>fromJson() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a> Acts::ProtoAxisJsonConverter::fromJson </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a ProtoAxis from a json object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>the json object to be read from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ProtoAxis created from the JSON object </dd></dl>
+
+</div>
+</div>
 <a id="ga3503d63a02e59fae80cb71d77642bfaf" name="ga3503d63a02e59fae80cb71d77642bfaf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3503d63a02e59fae80cb71d77642bfaf">&#9670;&#160;</a></span>maskFromBounds()</h2>
 
@@ -1141,7 +1173,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div><div class="memdoc">
 
 <p>Helper function to switch keys from ACTS to detray. </p>
-<p>DETRAY types </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo</a></b></dt><dd>change to detray imports when available annulus2 = 0u, cuboid3 = 1u, cylinder2 = 2u, cylinder3 = 3u, portal_cylinder2 = 4u, rectangle2 = 5u, ring2 = 6u, trapezoid2 = 7u, cell_wire = 8u, straw_wire = 9u, single1 = 10u, single2 = 11u, single3 = 12u, unknown = 13u</dd></dl>
+<p>DETRAY types </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo</a></b></dt><dd>change to detray imports when available annulus2 = 0u, cuboid3 = 1u, cylinder2 = 2u, cylinder3 = 3u, portal_cylinder2 = 4u, rectangle2 = 5u, ring2 = 6u, trapezoid2 = 7u, cell_wire = 8u, straw_wire = 9u, single1 = 10u, single2 = 11u, single3 = 12u, unknown = 13u</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sBounds</td><td>is the surface bounds type </td></tr>
@@ -1959,7 +1991,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gae3bc8c18a830cf3b08595eafc172e2d3" name="gae3bc8c18a830cf3b08595eafc172e2d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae3bc8c18a830cf3b08595eafc172e2d3">&#9670;&#160;</a></span>toJson() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3bc8c18a830cf3b08595eafc172e2d3">&#9670;&#160;</a></span>toJson() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1991,8 +2023,34 @@ template&lt;typename value_t, class decorator_t&gt; </div>
 
 </div>
 </div>
+<a id="ga038acefb1a69555567e98c97b9830cf9" name="ga038acefb1a69555567e98c97b9830cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga038acefb1a69555567e98c97b9830cf9">&#9670;&#160;</a></span>toJson() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json Acts::ProtoAxisJsonConverter::toJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pa</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the ProtoAxis to a json object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pa</td><td>the proto axis to be written out </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>JSON object representing the proto axis </dd></dl>
+
+</div>
+</div>
 <a id="ga0d44dfc16a076ea3977b8d4632e0bd71" name="ga0d44dfc16a076ea3977b8d4632e0bd71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0d44dfc16a076ea3977b8d4632e0bd71">&#9670;&#160;</a></span>toJson() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d44dfc16a076ea3977b8d4632e0bd71">&#9670;&#160;</a></span>toJson() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

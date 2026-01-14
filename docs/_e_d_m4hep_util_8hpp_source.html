@@ -25,14 +25,13 @@ MathJax = {
   },
 };
 </script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
 <!--  -->
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
@@ -41,6 +40,9 @@ MathJax = {
     DoxygenAwesomeParagraphLink.init()
     DoxygenAwesomeInteractiveToc.init()
 </script>
+<!-- ACTS Version Manager -->
+<link href="acts-version-manager.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="acts-version-manager.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -166,51 +168,50 @@ $(function(){initNavTree('_e_d_m4hep_util_8hpp_source.html','',''); });
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins.html">ActsPlugins</a> {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html">   56</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html">EDM4hepUtil</a> {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a">   58</a></span><span class="keyword">static</span> <span class="keyword">constexpr</span> std::int32_t <a class="code hl_variable" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a">EDM4HEP_ACTS_POSITION_TYPE</a> = 42;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">namespace </span>detail {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">struct </span>Parameters {</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector&lt;6&gt;</a> values{};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="comment">// Dummy default</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <a class="code hl_class" href="class_acts_1_1_particle_hypothesis.html">Acts::ParticleHypothesis</a> particleHypothesis =</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>      <a class="code hl_function" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">Acts::ParticleHypothesis::pion</a>();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  std::optional&lt;Acts::BoundSquareMatrix&gt; covariance;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  std::shared_ptr&lt;const Acts::Surface&gt; surface;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a> jacobianToEdm4hep(<span class="keywordtype">double</span> theta, <span class="keywordtype">double</span> qOverP,</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                                            <span class="keywordtype">double</span> Bz);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a> jacobianFromEdm4hep(<span class="keywordtype">double</span> tanLambda, <span class="keywordtype">double</span> omega,</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                                              <span class="keywordtype">double</span> Bz);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">void</span> unpackCovariance(<span class="keyword">const</span> <span class="keywordtype">float</span>* from, <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a>&amp; to);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keywordtype">void</span> packCovariance(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a>&amp; from, <span class="keywordtype">float</span>* to);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>Parameters convertTrackParametersToEdm4hep(</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a>&amp; gctx, <span class="keywordtype">double</span> Bz,</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a>&amp; params);</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><a class="code hl_typedef" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a> convertTrackParametersFromEdm4hep(</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">double</span> Bz, <span class="keyword">const</span> Parameters&amp; params);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}  <span class="comment">// namespace detail</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html">ActsPlugins::EDM4hepUtil</a> {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a">   57</a></span><span class="keyword">static</span> <span class="keyword">constexpr</span> std::int32_t <a class="code hl_variable" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a">EDM4HEP_ACTS_POSITION_TYPE</a> = 42;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">namespace </span>detail {</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">struct </span>Parameters {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector&lt;6&gt;</a> values{};</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="comment">// Dummy default</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <a class="code hl_class" href="class_acts_1_1_particle_hypothesis.html">Acts::ParticleHypothesis</a> particleHypothesis =</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>      <a class="code hl_function" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">Acts::ParticleHypothesis::pion</a>();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  std::optional&lt;Acts::BoundSquareMatrix&gt; covariance;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::shared_ptr&lt;const Acts::Surface&gt; surface;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a> jacobianToEdm4hep(<span class="keywordtype">double</span> theta, <span class="keywordtype">double</span> qOverP,</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                                            <span class="keywordtype">double</span> Bz);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a> jacobianFromEdm4hep(<span class="keywordtype">double</span> tanLambda, <span class="keywordtype">double</span> omega,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                                              <span class="keywordtype">double</span> Bz);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keywordtype">void</span> unpackCovariance(<span class="keyword">const</span> <span class="keywordtype">float</span>* from, <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a>&amp; to);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keywordtype">void</span> packCovariance(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix&lt;6&gt;</a>&amp; from, <span class="keywordtype">float</span>* to);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>Parameters convertTrackParametersToEdm4hep(</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a>&amp; gctx, <span class="keywordtype">double</span> Bz,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a>&amp; params);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><a class="code hl_typedef" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a> convertTrackParametersFromEdm4hep(</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">double</span> Bz, <span class="keyword">const</span> Parameters&amp; params);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}  <span class="comment">// namespace detail</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span></div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="comment">// Compatibility with EDM4hep &lt; 0.99 and &gt;= 0.99</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#aec2431e6bd278ab0b589b49045b19b58">   91</a></span>edm4hep::MCParticle <a class="code hl_function" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#aec2431e6bd278ab0b589b49045b19b58">getParticle</a>(<span class="keyword">const</span> edm4hep::SimTrackerHit&amp; hit);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58">   91</a></span>edm4hep::MCParticle <a class="code hl_function" href="group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58">getParticle</a>(<span class="keyword">const</span> edm4hep::SimTrackerHit&amp; hit);</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#ad2217a1e566c6c6e331e614f87ffa7b9">   93</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#ad2217a1e566c6c6e331e614f87ffa7b9">setParticle</a>(edm4hep::MutableSimTrackerHit&amp; hit,</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9">   93</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9">setParticle</a>(edm4hep::MutableSimTrackerHit&amp; hit,</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                 <span class="keyword">const</span> edm4hep::MCParticle&amp; particle);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="keyword">template</span> &lt;Acts::TrackProxyConcept track_proxy_t&gt;</div>
 <div class="foldopen" id="foldopen00097" data-start="{" data-end="}">
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a5d02aa49e1be2a59a7f50d0ea7f4e58f">   97</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a5d02aa49e1be2a59a7f50d0ea7f4e58f">writeTrack</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a>&amp; gctx, track_proxy_t track,</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">   97</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">writeTrack</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a>&amp; gctx, track_proxy_t track,</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                edm4hep::MutableTrack to, <span class="keywordtype">double</span> Bz,</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_logger.html">Acts::Logger</a>&amp; logger = <a class="code hl_function" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()) {</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Converting track to EDM4hep&quot;</span>);</div>
@@ -312,7 +313,7 @@ $(function(){initNavTree('_e_d_m4hep_util_8hpp_source.html','',''); });
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="keyword">template</span> &lt;Acts::TrackProxyConcept track_proxy_t&gt;</div>
 <div class="foldopen" id="foldopen00197" data-start="{" data-end="}">
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#aff8fb57f7a4dd01d3894d7849abf74cb">  197</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#aff8fb57f7a4dd01d3894d7849abf74cb">readTrack</a>(<span class="keyword">const</span> edm4hep::Track&amp; from, track_proxy_t&amp; track, <span class="keywordtype">double</span> Bz,</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb">  197</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb">readTrack</a>(<span class="keyword">const</span> edm4hep::Track&amp; from, track_proxy_t&amp; track, <span class="keywordtype">double</span> Bz,</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>               <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_logger.html">Acts::Logger</a>&amp; logger = <a class="code hl_function" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()) {</div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  <span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a>;</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>  <a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Reading track from EDM4hep&quot;</span>);</div>
@@ -411,11 +412,9 @@ $(function(){initNavTree('_e_d_m4hep_util_8hpp_source.html','',''); });
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  std::unordered_map&lt;podio::ObjectID, std::size_t&gt; m_edm4hepToInternal;</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>};</div>
 </div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>}  <span class="comment">// namespace EDM4hepUtil</span></div>
-</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span></div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>}  <span class="comment">// namespace ActsPlugins</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>}  <span class="comment">// namespace ActsPlugins::EDM4hepUtil</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:29</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:691</div></div>
 <div class="ttc" id="aclass_acts_1_1_particle_hypothesis_html"><div class="ttname"><a href="class_acts_1_1_particle_hypothesis.html">Acts::ParticleHypothesis</a></div><div class="ttdoc">Specialized particle hypothesis for any kind of charged particles.</div><div class="ttdef"><b>Definition</b> ParticleHypothesis.hpp:211</div></div>
@@ -430,6 +429,10 @@ $(function(){initNavTree('_e_d_m4hep_util_8hpp_source.html','',''); });
 <div class="ttc" id="agroup__algebra__types_html_ga3656dcbf643d97f9dbd715aa9e06bf84"><div class="ttname"><a href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, 1 &gt; ActsVector</div><div class="ttdoc">Fixed-size vector type for N-dimensional vectors.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:50</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="agroup__algebra__types_html_gacb25019f1218b9a96b29f897dfc5be7f"><div class="ttname"><a href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, kSize &gt; ActsSquareMatrix</div><div class="ttdoc">Fixed-size square matrix type for NxN matrices.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:61</div></div>
+<div class="ttc" id="agroup__edm4hep__plugin_html_ga5d02aa49e1be2a59a7f50d0ea7f4e58f"><div class="ttname"><a href="group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">ActsPlugins::EDM4hepUtil::writeTrack</a></div><div class="ttdeci">void writeTrack(const Acts::GeometryContext &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const Acts::Logger &amp;logger=Acts::getDummyLogger())</div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:97</div></div>
+<div class="ttc" id="agroup__edm4hep__plugin_html_gad2217a1e566c6c6e331e614f87ffa7b9"><div class="ttname"><a href="group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9">ActsPlugins::EDM4hepUtil::setParticle</a></div><div class="ttdeci">void setParticle(edm4hep::MutableSimTrackerHit &amp;hit, const edm4hep::MCParticle &amp;particle)</div></div>
+<div class="ttc" id="agroup__edm4hep__plugin_html_gaec2431e6bd278ab0b589b49045b19b58"><div class="ttname"><a href="group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58">ActsPlugins::EDM4hepUtil::getParticle</a></div><div class="ttdeci">edm4hep::MCParticle getParticle(const edm4hep::SimTrackerHit &amp;hit)</div></div>
+<div class="ttc" id="agroup__edm4hep__plugin_html_gaff8fb57f7a4dd01d3894d7849abf74cb"><div class="ttname"><a href="group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb">ActsPlugins::EDM4hepUtil::readTrack</a></div><div class="ttdeci">void readTrack(const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const Acts::Logger &amp;logger=Acts::getDummyLogger())</div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:197</div></div>
 <div class="ttc" id="agroup__logging__macros_html_ga3f6a1f0c2f92795a233960dc6024e99c"><div class="ttname"><a href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a></div><div class="ttdeci">#define ACTS_ERROR(x)</div><div class="ttdoc">macro for error debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:129</div></div>
 <div class="ttc" id="agroup__logging__macros_html_gad5196e525ccf0b3ff5a6e011dc38b385"><div class="ttname"><a href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a></div><div class="ttdeci">#define ACTS_VERBOSE(x)</div><div class="ttdoc">macro for verbose debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:85</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
@@ -438,13 +441,8 @@ $(function(){initNavTree('_e_d_m4hep_util_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">Acts::TrackStatePropMask</a></div><div class="ttdeci">TrackStatePropMask</div><div class="ttdoc">Collection of bit masks to enable steering which components of a track state should be initialized,...</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:28</div></div>
 <div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97">Acts::TrackStatePropMask::Smoothed</a></div><div class="ttdeci">@ Smoothed</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:32</div></div>
 <div class="ttc" id="anamespace_acts_html_ad836aba005ba272c0a77227311e4a0ce"><div class="ttname"><a href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a></div><div class="ttdeci">GenericBoundTrackParameters&lt; ParticleHypothesis &gt; BoundTrackParameters</div><div class="ttdoc">BoundTrackParameters can hold any kind of charge.</div><div class="ttdef"><b>Definition</b> TrackParameters.hpp:34</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html">ActsPlugins::EDM4hepUtil</a></div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:56</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html_a30140d4e77cc12136ee263fca364186a"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a">ActsPlugins::EDM4hepUtil::EDM4HEP_ACTS_POSITION_TYPE</a></div><div class="ttdeci">static constexpr std::int32_t EDM4HEP_ACTS_POSITION_TYPE</div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:58</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html_a5d02aa49e1be2a59a7f50d0ea7f4e58f"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a5d02aa49e1be2a59a7f50d0ea7f4e58f">ActsPlugins::EDM4hepUtil::writeTrack</a></div><div class="ttdeci">void writeTrack(const Acts::GeometryContext &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const Acts::Logger &amp;logger=Acts::getDummyLogger())</div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:97</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html_ad2217a1e566c6c6e331e614f87ffa7b9"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#ad2217a1e566c6c6e331e614f87ffa7b9">ActsPlugins::EDM4hepUtil::setParticle</a></div><div class="ttdeci">void setParticle(edm4hep::MutableSimTrackerHit &amp;hit, const edm4hep::MCParticle &amp;particle)</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html_aec2431e6bd278ab0b589b49045b19b58"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#aec2431e6bd278ab0b589b49045b19b58">ActsPlugins::EDM4hepUtil::getParticle</a></div><div class="ttdeci">edm4hep::MCParticle getParticle(const edm4hep::SimTrackerHit &amp;hit)</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html_aff8fb57f7a4dd01d3894d7849abf74cb"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#aff8fb57f7a4dd01d3894d7849abf74cb">ActsPlugins::EDM4hepUtil::readTrack</a></div><div class="ttdeci">void readTrack(const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const Acts::Logger &amp;logger=Acts::getDummyLogger())</div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:197</div></div>
-<div class="ttc" id="anamespace_acts_plugins_html"><div class="ttname"><a href="namespace_acts_plugins.html">ActsPlugins</a></div><div class="ttdoc">The ACTS plugins namespace: All plugins go here.</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html">ActsPlugins::EDM4hepUtil</a></div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_e_d_m4hep_util_html_a30140d4e77cc12136ee263fca364186a"><div class="ttname"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a">ActsPlugins::EDM4hepUtil::EDM4HEP_ACTS_POSITION_TYPE</a></div><div class="ttdeci">static constexpr std::int32_t EDM4HEP_ACTS_POSITION_TYPE</div><div class="ttdef"><b>Definition</b> EDM4hepUtil.hpp:57</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
