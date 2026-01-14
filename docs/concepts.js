@@ -55,6 +55,7 @@ var concepts =
       [ "FreeTrackParametersConcept", "concept_acts_1_1_free_track_parameters_concept.html", null ],
       [ "GridBinCollection", "concept_acts_1_1_grid_bin_collection.html", null ],
       [ "hasPrintOperator", "concept_acts_1_1has_print_operator.html", null ],
+      [ "HolderFor", "concept_acts_1_1_holder_for.html", null ],
       [ "isValidConvexPolygonSize", "concept_acts_1_1is_valid_convex_polygon_size.html", null ],
       [ "MutableMultiTrajectoryBackend", "concept_acts_1_1_mutable_multi_trajectory_backend.html", null ],
       [ "MutableSurfaceVisitor", "concept_acts_1_1_mutable_surface_visitor.html", null ],

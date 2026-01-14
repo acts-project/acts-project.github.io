@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html" target="_top" xlink:title="Configuration for the IslandsAroundMax peak finder.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html" target="_top" xlink:title="data struct representing a local maximum.">
 <polygon fill="white" stroke="#666666" points="178,-41 0,-41 0,0 178,0 178,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::HoughTransformUtils</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::PeakFinders::IslandsAroundMax</text>
-<text text-anchor="middle" x="89" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Config</text>
+<text text-anchor="middle" x="89" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; identifier_t &gt;::Maximum</text>
 </a>
 </g>
 </g>

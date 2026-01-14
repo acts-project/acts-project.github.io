@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"namespace_acts_plugins_1_1_detray_conversion_utils.html":[5,8,3,0],
+"namespace_acts_plugins_1_1_e_d_m4hep_util.html":[5,8,4,0],
 "namespace_acts_plugins_1_1_e_d_m4hep_util.html#a30140d4e77cc12136ee263fca364186a":[6,0,3,3,5],
 "namespace_acts_plugins_1_1_fast_jet.html":[6,0,3,4],
 "namespace_acts_plugins_1_1_geant4_physical_volume_selectors.html":[5,8,8,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a72d3949958f444e386572241647e6425":[8,0,0,26,1,6],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a75a02ca8e5a4c52d53b50e7d32f76d4b":[6,0,0,51,1,5],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a75a02ca8e5a4c52d53b50e7d32f76d4b":[8,0,0,26,1,5],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89":[6,0,0,51,1,2],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89":[8,0,0,26,1,2],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa6fc33291dfd5e7d9c02ba53c3231534":[6,0,0,51,1,1]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89":[6,0,0,51,1,2]
 };

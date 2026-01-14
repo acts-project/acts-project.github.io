@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_tracking_volume_helper.html" title="Interface class ITrackingVolumeHelper tools, it inherits from IAlgTool." alt="" coords="5,5,213,31"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_cylinder_volume_helper.html" title="The concrete implementation for cylindrical TrackingVolume objects of the ITrackingVolumeCreator inte..." alt="" coords="261,5,465,31"/>
-<area shape="poly" id="edge154_Node000000_Node000001" title=" " alt="" coords="227,15,261,15,261,21,227,21"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_tracking_volume_builder.html" title="Interface class ITrackingVolumeBuilders." alt="" coords="5,31,216,56"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_cuboid_volume_builder.html" title="This class builds a box detector with a configurable amount of surfaces in it." alt="" coords="268,5,467,31"/>
+<area shape="poly" id="edge152_Node000000_Node000001" title=" " alt="" coords="229,29,268,25,268,30,230,34"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_cylinder_volume_builder.html" title="A volume builder to be used for building concentric cylinder volumes." alt="" coords="264,55,471,80"/>
+<area shape="poly" id="edge153_Node000000_Node000002" title=" " alt="" coords="230,52,264,55,264,60,229,57"/>
 </map>

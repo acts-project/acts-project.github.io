@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html" target="_top" xlink:title="Collection of cosmic space point options.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html" target="_top" xlink:title="Collection of cluster pairing options.">
 <polygon fill="white" stroke="#666666" points="155,-30 0,-30 0,0 155,0 155,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StripSpacePointBuilder</text>
-<text text-anchor="middle" x="77.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::CosmicOptions</text>
+<text text-anchor="middle" x="77.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::ClusterPairingOptions</text>
 </a>
 </g>
 </g>
