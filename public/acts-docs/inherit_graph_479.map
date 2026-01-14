@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_track_state_proxy_common.html" title="Common CRTP implementation shared by track state proxy front&#45;ends." alt="" coords="5,53,228,93"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_track_state_proxy.html" title=" " alt="" coords="276,5,521,60"/>
-<area shape="poly" id="edge239_Node000000_Node000001" title=" " alt="" coords="241,52,275,47,276,53,242,58"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_track_state_proxy.html" title=" " alt="" coords="276,84,521,139"/>
-<area shape="poly" id="edge240_Node000000_Node000002" title=" " alt="" coords="242,87,276,92,275,97,241,92"/>
-</map>

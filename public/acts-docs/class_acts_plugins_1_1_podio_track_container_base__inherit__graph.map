@@ -1,7 +1,0 @@
-<map id="ActsPlugins::PodioTrackContainerBase" name="ActsPlugins::PodioTrackContainerBase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="89,5,360,31"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_const_podio_track_container.html" title=" " alt="" coords="5,79,217,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,41,140,81,137,76,195,36"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_mutable_podio_track_container.html" title=" " alt="" coords="242,79,437,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,36,313,76,310,81,252,41"/>
-</map>

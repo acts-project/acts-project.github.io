@@ -1,9 +1,0 @@
-<map id="Acts::GridAxisGenerators::Var&lt; aType &gt;" name="Acts::GridAxisGenerators::Var&lt; aType &gt;">
-<area shape="rect" id="Node000001" title="Templated base generator for variable axis as a tuple &#45; 1D." alt="" coords="5,99,191,139"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_grid_axis_generators_1_1_var.html" title=" " alt="" coords="383,13,569,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,91,214,68,300,51,382,42,382,47,300,56,215,73,153,96"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_grid_axis_generators_1_1_var.html" title=" " alt="" coords="383,91,569,146"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,116,382,116,382,121,204,121"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_grid_axis_generators_1_1_var.html" title=" " alt="" coords="383,170,569,225"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,142,215,164,300,181,382,190,382,195,300,186,214,169,151,147"/>
-</map>

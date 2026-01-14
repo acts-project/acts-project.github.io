@@ -1,5 +1,0 @@
-<map id="ActsPlugins::TGeoDetectorElement" name="ActsPlugins::TGeoDetectorElement">
-<area shape="rect" id="Node000001" title="DetectorElement plugin for ROOT TGeo shapes." alt="" coords="8,79,203,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_detector_element_base.html" title="This class is the base of all detector elements that are usable by ACTS." alt="" coords="5,5,205,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,44,108,79,103,79,103,44"/>
-</map>

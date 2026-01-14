@@ -1,5 +1,0 @@
-<map id="Acts::PropagatorMaterialAssigner&lt; propagator_t &gt;" name="Acts::PropagatorMaterialAssigner&lt; propagator_t &gt;">
-<area shape="rect" id="Node000001" title="A Propagator based material assigner that uses the navigation and transport of the propagator to assi..." alt="" coords="5,79,196,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_assignment_finder.html" title="Interface for the material mapping that seeks the possible assignment candidates for the material int..." alt="" coords="11,5,190,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
-</map>

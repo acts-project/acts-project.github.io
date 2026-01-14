@@ -1,5 +1,0 @@
-<map id="Acts::ProjectedReferenceGenerator" name="Acts::ProjectedReferenceGenerator">
-<area shape="rect" id="Node000001" title="A Projected reference generator which projects the polyhedron vertices onto a given reference surface..." alt="" coords="9,79,195,119"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_i_reference_generator.html" title="An interface for reference point generators." alt="" coords="5,5,199,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,44,105,79,99,79,99,44"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Acts::GaussianTrackDensity::Config" name="Acts::GaussianTrackDensity::Config">
-<area shape="rect" id="Node000001" title="The Config struct." alt="" coords="23,247,225,287"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,136,243,176"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,190,127,246,121,246,121,190"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="23,5,225,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,59,127,136,121,136,121,59"/>
-</map>

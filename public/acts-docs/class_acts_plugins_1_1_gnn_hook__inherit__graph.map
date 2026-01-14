@@ -1,7 +1,0 @@
-<map id="ActsPlugins::GnnHook" name="ActsPlugins::GnnHook">
-<area shape="rect" id="Node000001" title=" " alt="" coords="158,5,323,31"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_graph_store_hook.html" title=" " alt="" coords="5,79,217,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,40,134,81,131,76,206,35"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_truth_graph_metrics_hook.html" title=" " alt="" coords="241,79,499,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,35,350,76,348,81,272,40"/>
-</map>

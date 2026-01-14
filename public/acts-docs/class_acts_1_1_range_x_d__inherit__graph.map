@@ -1,9 +1,0 @@
-<map id="Acts::RangeXD&lt; Dims, Type, Vector &gt;" name="Acts::RangeXD&lt; Dims, Type, Vector &gt;">
-<area shape="rect" id="Node000001" title="An orthogonal range in an arbitrary number of dimensions." alt="" coords="5,69,176,109"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_range_x_d.html" title=" " alt="" coords="413,5,584,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,64,200,59,310,41,413,30,413,35,311,47,200,64,177,69"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_range_x_d.html" title=" " alt="" coords="407,69,590,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,87,407,87,407,92,190,92"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_range_x_d.html" title=" " alt="" coords="371,143,627,183"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,113,201,135,286,151,371,158,370,164,286,156,199,140,140,118"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Acts::IAssignmentFinder" name="Acts::IAssignmentFinder">
-<area shape="rect" id="Node000001" title="Interface for the material mapping that seeks the possible assignment candidates for the material int..." alt="" coords="5,45,184,70"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_intersection_material_assigner.html" title="A purely intersection based material assigner on a trial and error basis." alt="" coords="233,5,422,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,41,232,36,233,41,198,46"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_propagator_material_assigner.html" title="A Propagator based material assigner that uses the navigation and transport of the propagator to assi..." alt="" coords="232,69,423,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,69,232,74,231,79,197,74"/>
-</map>

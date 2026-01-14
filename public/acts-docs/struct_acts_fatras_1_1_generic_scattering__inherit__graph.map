@@ -1,9 +1,0 @@
-<map id="ActsFatras::GenericScattering&lt; scattering_model_t &gt;" name="ActsFatras::GenericScattering&lt; scattering_model_t &gt;">
-<area shape="rect" id="Node000001" title="Simulate (multiple) scattering using a configurable scattering model." alt="" coords="5,69,219,109"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="460,5,673,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,64,242,59,354,43,460,32,460,37,355,48,243,64,214,69"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="460,69,673,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,87,460,87,460,92,232,92"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="460,133,673,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,109,243,115,355,130,460,142,460,147,354,136,242,120,213,115"/>
-</map>

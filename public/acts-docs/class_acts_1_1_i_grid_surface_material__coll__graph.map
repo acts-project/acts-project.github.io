@@ -1,7 +1,0 @@
-<map id="Acts::IGridSurfaceMaterial&lt; grid_value_t &gt;" name="Acts::IGridSurfaceMaterial&lt; grid_value_t &gt;">
-<area shape="rect" id="Node000001" title="Intermediate interface to the grid surface material given access to the grid and the material accesso..." alt="" coords="21,152,213,192"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_i_grid_surface_material_base.html" title="Base class for the concrete templated grid surface material types." alt="" coords="5,79,229,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,118,120,152,115,152,115,118"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_i_surface_material.html" title="Base class of all surface&#45;based material description." alt="" coords="35,5,200,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,44,120,79,115,79,115,44"/>
-</map>

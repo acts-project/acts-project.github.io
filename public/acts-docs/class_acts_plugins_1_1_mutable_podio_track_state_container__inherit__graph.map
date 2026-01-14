@@ -1,9 +1,0 @@
-<map id="ActsPlugins::MutablePodioTrackStateContainer" name="ActsPlugins::MutablePodioTrackStateContainer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="711,37,905,77"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_podio_track_state_container_base.html" title=" " alt="" coords="421,5,630,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="644,36,711,44,710,49,644,41"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="389,69,661,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="675,70,710,66,711,71,675,75"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_trajectory.html" title="Store a trajectory of track states with multiple components." alt="" coords="5,69,160,109"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,87,389,87,389,92,174,92"/>
-</map>
