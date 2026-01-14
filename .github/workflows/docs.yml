@@ -22,9 +22,8 @@ jobs:
         run-id: ${{ github.event.client_payload.run_id }}
         github-token: ${{ secrets.CROSS_REPO_ARTIFACT_READ }}
 
-      # @TODO: Replace this with versioned deployments
      - name: Deploy 🚀
        uses: JamesIves/github-pages-deploy-action@v4
        with:
-         folder: html
-         target-folder: public
+         folder: html/acts-docs
+         target-folder: docs
