@@ -204,6 +204,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f697a247eae77a6eb1f65116ece3367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of bound track parameters local position w.r.t.  <br /></td></tr>
 <tr class="memitem:a7b2cbad2c5f7f25915035cc0fa2c6e96" id="r_a7b2cbad2c5f7f25915035cc0fa2c6e96"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b2cbad2c5f7f25915035cc0fa2c6e96">localToGlobal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;lposition, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const =0</td></tr>
 <tr class="memdesc:a7b2cbad2c5f7f25915035cc0fa2c6e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local to global transformation Generalized local to global transformation for the surface types.  <br /></td></tr>
+<tr class="memitem:ae21355c33b72c2686ba2f8f2839e67f5" id="r_ae21355c33b72c2686ba2f8f2839e67f5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21355c33b72c2686ba2f8f2839e67f5">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
+<tr class="memdesc:ae21355c33b72c2686ba2f8f2839e67f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the surface Transform3 by reference In case a detector element is associated the surface transform is just forwarded to the detector element in order to keep the (mis-)alignment cache cetrally handled.  <br /></td></tr>
 <tr class="memitem:abec410b88b35540550328ddc307284fc" id="r_abec410b88b35540550328ddc307284fc"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec410b88b35540550328ddc307284fc">name</a> () const =0</td></tr>
 <tr class="memdesc:abec410b88b35540550328ddc307284fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return properly formatted class name.  <br /></td></tr>
 <tr class="memitem:a7aa938fa6385cb956d9b5da75235289a" id="r_a7aa938fa6385cb956d9b5da75235289a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa938fa6385cb956d9b5da75235289a">normal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const =0</td></tr>
@@ -226,8 +228,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1c36a82ca5ae9168fd5a63bf2a1f2686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method for printing: the returned object captures the surface and the geometry context and will print the surface.  <br /></td></tr>
 <tr class="memitem:a515ea8fa9c29a662c544c2a24c87aa0a" id="r_a515ea8fa9c29a662c544c2a24c87aa0a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515ea8fa9c29a662c544c2a24c87aa0a">toString</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:a515ea8fa9c29a662c544c2a24c87aa0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output into a std::string.  <br /></td></tr>
-<tr class="memitem:a363ac85362ba9b62f3efc30ef5fc67f6" id="r_a363ac85362ba9b62f3efc30ef5fc67f6"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363ac85362ba9b62f3efc30ef5fc67f6">transform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
-<tr class="memdesc:a363ac85362ba9b62f3efc30ef5fc67f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the surface Transform3 by reference In case a detector element is associated the surface transform is just forwarded to the detector element in order to keep the (mis-)alignment cache cetrally handled.  <br /></td></tr>
+<tr class="memitem:a7a2323c3511f594a3b866c255018c671" id="r_a7a2323c3511f594a3b866c255018c671"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a2323c3511f594a3b866c255018c671">transform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
+<tr class="memdesc:a7a2323c3511f594a3b866c255018c671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the surface Transform3 by reference In case a detector element is associated the surface transform is just forwarded to the detector element in order to keep the (mis-)alignment cache cetrally handled.  <br /></td></tr>
 <tr class="memitem:a0bc615a9e492d2b1771368b7bf297921" id="r_a0bc615a9e492d2b1771368b7bf297921"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a34fd1452f7603ef1f072d3c3233f9ba0">SurfaceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc615a9e492d2b1771368b7bf297921">type</a> () const =0</td></tr>
 <tr class="memdesc:a0bc615a9e492d2b1771368b7bf297921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the Surface type to avoid dynamic casts.  <br /></td></tr>
 <tr class="memitem:a3804756230f7ae5fa25064364c973789" id="r_a3804756230f7ae5fa25064364c973789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3804756230f7ae5fa25064364c973789">visualize</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;viewConfig=<a class="el" href="namespace_acts.html#a0e88165f9dc20c209a6761493b8eb986">s_viewSurface</a>) const</td></tr>
@@ -269,7 +271,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a9fb68f6cd1d953a649a7e44244d3f954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor with optional shift.  <br /></td></tr>
 <tr class="memitem:a8390507a637410b2a7f46333198b1708" id="r_a8390507a637410b2a7f46333198b1708"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8390507a637410b2a7f46333198b1708">Surface</a> (const Surface &amp;other)</td></tr>
 <tr class="memdesc:a8390507a637410b2a7f46333198b1708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
-<tr class="memitem:a2ae67591c6ce6b42568881be16f29ddc" id="r_a2ae67591c6ce6b42568881be16f29ddc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a363ac85362ba9b62f3efc30ef5fc67f6">transform</a>=Transform3::Identity())</td></tr>
+<tr class="memitem:a2ae67591c6ce6b42568881be16f29ddc" id="r_a2ae67591c6ce6b42568881be16f29ddc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a7a2323c3511f594a3b866c255018c671">transform</a>=Transform3::Identity())</td></tr>
 <tr class="memdesc:a2ae67591c6ce6b42568881be16f29ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with Transform3 as a shared object.  <br /></td></tr>
 <tr class="memitem:a10a856c74db9fae99306dd602e6c7e2b" id="r_a10a856c74db9fae99306dd602e6c7e2b"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a856c74db9fae99306dd602e6c7e2b">toStreamImpl</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::ostream &amp;sl) const</td></tr>
 <tr class="memdesc:a10a856c74db9fae99306dd602e6c7e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output Method for std::ostream, to be overloaded by child classes.  <br /></td></tr>
@@ -1327,6 +1329,32 @@ Only call this if you need shared ownership of this object.</dd></dl>
 
 </div>
 </div>
+<a id="ae21355c33b72c2686ba2f8f2839e67f5" name="ae21355c33b72c2686ba2f8f2839e67f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae21355c33b72c2686ba2f8f2839e67f5">&#9670;&#160;</a></span>localToGlobalTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::Surface::localToGlobalTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return method for the surface Transform3 by reference In case a detector element is associated the surface transform is just forwarded to the detector element in order to keep the (mis-)alignment cache cetrally handled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the contextual transform </dd></dl>
+
+</div>
+</div>
 <a id="a1b015430332289b80ecf57688e1b350c" name="a1b015430332289b80ecf57688e1b350c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b015430332289b80ecf57688e1b350c">&#9670;&#160;</a></span>makeShared()</h2>
 
@@ -1771,27 +1799,19 @@ An internal surface transform can invalidate the extrema in the transformed spac
 
 </div>
 </div>
-<a id="a363ac85362ba9b62f3efc30ef5fc67f6" name="a363ac85362ba9b62f3efc30ef5fc67f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a363ac85362ba9b62f3efc30ef5fc67f6">&#9670;&#160;</a></span>transform()</h2>
+<a id="a7a2323c3511f594a3b866c255018c671" name="a7a2323c3511f594a3b866c255018c671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2323c3511f594a3b866c255018c671">&#9670;&#160;</a></span>transform()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::Surface::transform </td>
+          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::Surface::transform </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Return method for the surface Transform3 by reference In case a detector element is associated the surface transform is just forwarded to the detector element in order to keep the (mis-)alignment cache cetrally handled. </p>

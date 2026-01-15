@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[8,0,2,3,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[6,0,3,5,2,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[8,0,2,3,2,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[6,0,3,5,2,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[8,0,2,3,2,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[6,0,3,5,2,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,3,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[5,8,7,16,0],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[5,8,7,16,0,6],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a67f7baa072b083b9a539e560dfbf7760":[5,8,7,16,0,1],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[5,8,7,16,0,3],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691":[5,8,7,16,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480":[5,8,7,16,0,4],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ad2197b8653339d7acf35d5e062d293ad":[5,8,7,16,0,5],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835":[5,8,7,16,0,0]
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[5,8,7,16,0,3]
 };

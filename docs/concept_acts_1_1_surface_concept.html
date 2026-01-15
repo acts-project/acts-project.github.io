@@ -135,7 +135,7 @@ $(function(){initNavTree('concept_acts_1_1_surface_concept.html','',''); });
 <div class="line">  { cs == s2 } -&gt; std::same_as&lt;bool&gt;;</div>
 <div class="line"> </div>
 <div class="line">  { cs.type() } -&gt; std::same_as&lt;Surface::SurfaceType&gt;;</div>
-<div class="line">  { cs.transform(gctx) } -&gt; std::same_as&lt;const Transform3&amp;&gt;;</div>
+<div class="line">  { cs.localToGlobalTransform(gctx) } -&gt; std::same_as&lt;const Transform3&amp;&gt;;</div>
 <div class="line">  { cs.center(gctx) } -&gt; std::same_as&lt;Vector3&gt;;</div>
 <div class="line">  { cs.normal(gctx, <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>{}, <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>{}) } -&gt; std::same_as&lt;Vector3&gt;;</div>
 <div class="line">  { cs.bounds() } -&gt; std::convertible_to&lt;const SurfaceBounds&amp;&gt;;</div>

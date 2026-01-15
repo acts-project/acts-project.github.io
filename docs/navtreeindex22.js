@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"class_acts_1_1_logging_1_1_scoped_failure_threshold.html":[5,6,1,0],
+"class_acts_1_1_logging_1_1_scoped_failure_threshold.html#a006cc7214366b197af39fc8f999c5272":[5,6,1,0,4],
 "class_acts_1_1_logging_1_1_scoped_failure_threshold.html#a21fd5750c2f1c8d0e15fad8f371adc0c":[5,6,1,0,2],
 "class_acts_1_1_logging_1_1_scoped_failure_threshold.html#a2e7c2784170b6aec09f4a3431881cd18":[5,6,1,0,5],
 "class_acts_1_1_logging_1_1_scoped_failure_threshold.html#a674bfa625977e7b0520f834f9d0fa2f7":[5,6,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "class_acts_1_1_multi_intersection.html#a05619e97540e7ac3d2a3b70181781b3c":[8,0,0,274,9],
 "class_acts_1_1_multi_intersection.html#a1955b9924c781676a233cbd5dfc9de2c":[6,0,0,299,18],
 "class_acts_1_1_multi_intersection.html#a1955b9924c781676a233cbd5dfc9de2c":[8,0,0,274,18],
-"class_acts_1_1_multi_intersection.html#a2132fe5a17845f6751e2d6ad7d3cfd94":[6,0,0,299,15],
-"class_acts_1_1_multi_intersection.html#a2132fe5a17845f6751e2d6ad7d3cfd94":[8,0,0,274,15],
-"class_acts_1_1_multi_intersection.html#a4c69c8a7dd568e5e4eaa2c42f3739216":[6,0,0,299,6]
+"class_acts_1_1_multi_intersection.html#a2132fe5a17845f6751e2d6ad7d3cfd94":[6,0,0,299,15]
 };

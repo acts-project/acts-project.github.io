@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"class_acts_1_1_k_d_tree.html#afa6f2805867142cd74b1f0652de4056d":[8,0,0,243,20],
+"class_acts_1_1_kalman_fitter.html":[5,10,17],
 "class_acts_1_1_kalman_fitter.html#a649173e847c828a73c735f1da4edffb2":[5,10,17,0],
 "class_acts_1_1_kalman_fitter.html#a6efde90854e8a07967e6cf01ebb908dd":[5,10,17,1],
 "class_acts_1_1_kalman_fitter.html#ade19e36306d4c2ec20863e97a1e32111":[5,10,17,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "class_acts_1_1_logging_1_1_output_print_policy.html#a1326bcd1b574a887605d9121dd342e12":[5,6,9,1],
 "class_acts_1_1_logging_1_1_output_print_policy.html#a2460aacdad8bc24e911c59b712c050d1":[5,6,9,2],
 "class_acts_1_1_logging_1_1_output_print_policy.html#aae1ca3b00a1b0ee89a4e08d76432708f":[5,6,9,0],
-"class_acts_1_1_logging_1_1_output_print_policy.html#afcd75434fe03bfdb702bdadabd260f63":[5,6,9,3],
-"class_acts_1_1_logging_1_1_scoped_failure_threshold.html":[5,6,1,0],
-"class_acts_1_1_logging_1_1_scoped_failure_threshold.html#a006cc7214366b197af39fc8f999c5272":[5,6,1,0,4]
+"class_acts_1_1_logging_1_1_output_print_policy.html#afcd75434fe03bfdb702bdadabd260f63":[5,6,9,3]
 };
