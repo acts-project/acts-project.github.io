@@ -48,7 +48,7 @@ var searchData=
   ['multitrajectory_3c_20constpodiotrackstatecontainer_20_3e_45',['MultiTrajectory&lt; ConstPodioTrackStateContainer &gt;',['../class_acts_1_1_multi_trajectory.html',1,'Acts']]],
   ['multitrajectory_3c_20constvectormultitrajectory_20_3e_46',['MultiTrajectory&lt; ConstVectorMultiTrajectory &gt;',['../class_acts_1_1_multi_trajectory.html',1,'Acts']]],
   ['multitrajectory_3c_20mutablepodiotrackstatecontainer_20_3e_47',['MultiTrajectory&lt; MutablePodioTrackStateContainer &gt;',['../class_acts_1_1_multi_trajectory.html',1,'Acts']]],
-  ['multitrajectory_3c_20trajectory_5ft_20_3e_48',['MultiTrajectory&lt; trajectory_t &gt;',['../class_acts_1_1_multi_trajectory.html',1,'Acts']]],
+  ['multitrajectory_3c_20trajectory_20_3e_48',['MultiTrajectory&lt; Trajectory &gt;',['../class_acts_1_1_multi_trajectory.html',1,'Acts']]],
   ['multitrajectory_3c_20vectormultitrajectory_20_3e_49',['MultiTrajectory&lt; VectorMultiTrajectory &gt;',['../class_acts_1_1_multi_trajectory.html',1,'Acts']]],
   ['multiwirevolumebuilder_50',['MultiWireVolumeBuilder',['../class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html',1,'Acts::Experimental']]],
   ['mutablepodiotrackcontainer_51',['MutablePodioTrackContainer',['../class_acts_plugins_1_1_mutable_podio_track_container.html',1,'ActsPlugins']]],

@@ -51,7 +51,7 @@ var class_acts_1_1_multi_trajectory =
     [ "visitBackwards", "class_acts_1_1_multi_trajectory.html#a9774b0b8cbb92d20e0ebc06e4192824a", null ],
     [ "MultiTrajectory", "class_acts_1_1_multi_trajectory.html#a666026e35e9835d1449a4b6dbffdbb46", null ],
     [ "AnyTrackStateProxy", "class_acts_1_1_multi_trajectory.html#a13ac8d7d4ac582d960c9902937e8bad8", null ],
-    [ "detail_anytstate::TrackStateHandler", "class_acts_1_1_multi_trajectory.html#a57e32ccd59308dae88658fe8576685c4", null ],
+    [ "detail_anytstate::TrackStateHandler", "class_acts_1_1_multi_trajectory.html#aa1c136b12033ae97d94c941fa9e1f1e2", null ],
     [ "TrackStateProxy< Derived, MeasurementSizeMax, false >", "class_acts_1_1_multi_trajectory.html#aeeb1c150362632e99509d01d1e6056cc", null ],
     [ "TrackStateProxy< Derived, MeasurementSizeMax, true >", "class_acts_1_1_multi_trajectory.html#ab1223c5366cdb4d22530687f7a46699c", null ],
     [ "kInvalid", "class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33", null ],

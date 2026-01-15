@@ -71,7 +71,7 @@ var sectionId = 'dynsection-0';
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_multi_trajectory.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="494,-222 378,-222 378,-192 494,-192 494,-222"/>
 <text text-anchor="start" x="386" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MultiTrajectory</text>
-<text text-anchor="middle" x="436" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; trajectory_t &gt;</text>
+<text text-anchor="middle" x="436" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Trajectory &gt;</text>
 </a>
 </g>
 </g>
@@ -83,7 +83,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="orange" stroke="orange" points="81.35,-130.98 71.92,-126.14 76.27,-135.8 81.35,-130.98"/>
 </a>
 </g>
-<text text-anchor="start" x="186" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; trajectory_t &gt;</text>
+<text text-anchor="start" x="190" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; Trajectory &gt;</text>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
