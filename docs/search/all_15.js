@@ -338,7 +338,7 @@ var searchData=
   ['sourcelinksurfaceaccessor_335',['SourceLinkSurfaceAccessor',['../namespace_acts.html#a5d7404f9e2ba75e16149f97ec4cfe62e',1,'Acts']]],
   ['sourcelinktoidentifier_336',['sourceLinkToIdentifier',['../class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a6160b28684f406806c6872e1de008015',1,'ActsPlugins::PodioUtil::ConversionHelper']]],
   ['sp_337',['sp',['../class_acts_1_1_seed.html#ae43d402239f70137763d9b8f73d895c4',1,'Acts::Seed::sp()'],['../class_acts_1_1_space_point_container.html#a3eb47a4cea0bba0d085e03c47de82343',1,'Acts::SpacePointContainer::sp()']]],
-  ['sp_5fidx_338',['sp_idx',['../struct_acts_1_1_experimental_1_1_gbts_node.html#a40e4f883aa9457c3c640edb45e02716c',1,'Acts::Experimental::GbtsNode']]],
+  ['sp_5fidx_338',['sp_idx',['../class_acts_1_1_experimental_1_1_gbts_node.html#a48aa8a8f39ed325b1308c9ab6bbe6827',1,'Acts::Experimental::GbtsNode::sp_idx() const noexcept'],['../class_acts_1_1_experimental_1_1_gbts_node.html#afadbb30c5064ff249a90e2f59dd14215',1,'Acts::Experimental::GbtsNode::sp_idx() noexcept']]],
   ['sp_5ft_339',['Sp_t',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a91eb37b3bf4ee46e769451165b9f526f',1,'Acts::Experimental::CompositeSpacePointLineFitter::FitOptions']]],
   ['space_20point_20formation_340',['Space Point Formation',['../group__sp__formation.html',1,'']]],
   ['spacepoint_341',['spacePoint',['../class_acts_1_1_triplet_top_candidates_1_1_proxy.html#a972e2df8cdc21f899afd629065d98780',1,'Acts::TripletTopCandidates::Proxy']]],

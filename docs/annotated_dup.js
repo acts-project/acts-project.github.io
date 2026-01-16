@@ -36,7 +36,7 @@ var annotated_dup =
         [ "GbtsEtaBin", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html", "class_acts_1_1_experimental_1_1_gbts_eta_bin" ],
         [ "GbtsGeometry", "class_acts_1_1_experimental_1_1_gbts_geometry.html", "class_acts_1_1_experimental_1_1_gbts_geometry" ],
         [ "GbtsLayer", "class_acts_1_1_experimental_1_1_gbts_layer.html", "class_acts_1_1_experimental_1_1_gbts_layer" ],
-        [ "GbtsNode", "struct_acts_1_1_experimental_1_1_gbts_node.html", "struct_acts_1_1_experimental_1_1_gbts_node" ],
+        [ "GbtsNode", "class_acts_1_1_experimental_1_1_gbts_node.html", "class_acts_1_1_experimental_1_1_gbts_node" ],
         [ "GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", "class_acts_1_1_experimental_1_1_gbts_tracking_filter" ],
         [ "GeometryIdentifierBlueprintNode", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node" ],
         [ "Gx2Fitter", "class_acts_1_1_experimental_1_1_gx2_fitter.html", "class_acts_1_1_experimental_1_1_gx2_fitter" ],

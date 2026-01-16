@@ -29,7 +29,7 @@ var namespace_acts_1_1_experimental =
     [ "GbtsEtaBin", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html", "class_acts_1_1_experimental_1_1_gbts_eta_bin" ],
     [ "GbtsGeometry", "class_acts_1_1_experimental_1_1_gbts_geometry.html", "class_acts_1_1_experimental_1_1_gbts_geometry" ],
     [ "GbtsLayer", "class_acts_1_1_experimental_1_1_gbts_layer.html", "class_acts_1_1_experimental_1_1_gbts_layer" ],
-    [ "GbtsNode", "struct_acts_1_1_experimental_1_1_gbts_node.html", "struct_acts_1_1_experimental_1_1_gbts_node" ],
+    [ "GbtsNode", "class_acts_1_1_experimental_1_1_gbts_node.html", "class_acts_1_1_experimental_1_1_gbts_node" ],
     [ "GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", "class_acts_1_1_experimental_1_1_gbts_tracking_filter" ],
     [ "GeometryIdentifierBlueprintNode", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node" ],
     [ "Gx2Fitter", "class_acts_1_1_experimental_1_1_gx2_fitter.html", "class_acts_1_1_experimental_1_1_gx2_fitter" ],
@@ -94,5 +94,7 @@ var namespace_acts_1_1_experimental =
     [ "to_json", "group__json__plugin.html#gaccd0f02afc4ec7a5f3ad6effe81f9d18", null ],
     [ "to_json", "group__json__plugin.html#ga2e409bb699770dae2ec6955721e6b156", null ],
     [ "updateGx2fCovarianceParams", "group__track__fitting.html#gad4f1ce6c1ef539c4290db1d05ffcd0d7", null ],
-    [ "updateGx2fParams", "group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362", null ]
+    [ "updateGx2fParams", "group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362", null ],
+    [ "MAX_SEG_PER_NODE", "namespace_acts_1_1_experimental.html#a9931450d96cee43f145b2b10a6a587a7", null ],
+    [ "N_SEG_CONNS", "namespace_acts_1_1_experimental.html#a980d415bd59cbe64f83505f18865ef47", null ]
 ];

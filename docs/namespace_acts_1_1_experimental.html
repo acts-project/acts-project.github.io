@@ -162,7 +162,7 @@ Classes</h2></td></tr>
 <tr class="memitem:GbtsEtaBin" id="r_GbtsEtaBin"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a></td></tr>
 <tr class="memitem:GbtsGeometry" id="r_GbtsGeometry"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a></td></tr>
 <tr class="memitem:GbtsLayer" id="r_GbtsLayer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a></td></tr>
-<tr class="memitem:GbtsNode" id="r_GbtsNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a></td></tr>
+<tr class="memitem:GbtsNode" id="r_GbtsNode"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a></td></tr>
 <tr class="memitem:GbtsTrackingFilter" id="r_GbtsTrackingFilter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a></td></tr>
 <tr class="memitem:GeometryIdentifierBlueprintNode" id="r_GeometryIdentifierBlueprintNode"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html">GeometryIdentifierBlueprintNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blueprint node for configuring and applying geometry identifiers to volumes.  <a href="class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#details">More...</a><br /></td></tr>
@@ -290,6 +290,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga348cc1077a60307e9493a9c33177d7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to BroadTripletSeedFilter::Config.  <br /></td></tr>
 <tr class="memitem:ga8559481a0b7d8955d44781ed589ee5e5" id="r_ga8559481a0b7d8955d44781ed589ee5e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga8559481a0b7d8955d44781ed589ee5e5">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html">CylindricalSpacePointGrid2::Config</a> &amp;config)</td></tr>
 <tr class="memdesc:ga8559481a0b7d8955d44781ed589ee5e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to CylindricalSpacePointGrid2::Config.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9931450d96cee43f145b2b10a6a587a7" id="r_a9931450d96cee43f145b2b10a6a587a7"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9931450d96cee43f145b2b10a6a587a7">MAX_SEG_PER_NODE</a> = 1000</td></tr>
+<tr class="memitem:a980d415bd59cbe64f83505f18865ef47" id="r_a980d415bd59cbe64f83505f18865ef47"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a980d415bd59cbe64f83505f18865ef47">N_SEG_CONNS</a> = 6</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains code that is not considered stable yet and might change. </p>
@@ -557,6 +562,51 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A 1D histogram containing the projection </dd></dl>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a9931450d96cee43f145b2b10a6a587a7" name="a9931450d96cee43f145b2b10a6a587a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9931450d96cee43f145b2b10a6a587a7">&#9670;&#160;</a></span>MAX_SEG_PER_NODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Acts::Experimental::MAX_SEG_PER_NODE = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a980d415bd59cbe64f83505f18865ef47" name="a980d415bd59cbe64f83505f18865ef47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a980d415bd59cbe64f83505f18865ef47">&#9670;&#160;</a></span>N_SEG_CONNS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Acts::Experimental::N_SEG_CONNS = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

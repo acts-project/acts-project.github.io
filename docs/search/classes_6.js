@@ -13,7 +13,7 @@ var searchData=
   ['gbtsetabin_10',['GbtsEtaBin',['../class_acts_1_1_experimental_1_1_gbts_eta_bin.html',1,'Acts::Experimental']]],
   ['gbtsgeometry_11',['GbtsGeometry',['../class_acts_1_1_experimental_1_1_gbts_geometry.html',1,'Acts::Experimental']]],
   ['gbtslayer_12',['GbtsLayer',['../class_acts_1_1_experimental_1_1_gbts_layer.html',1,'Acts::Experimental']]],
-  ['gbtsnode_13',['GbtsNode',['../struct_acts_1_1_experimental_1_1_gbts_node.html',1,'Acts::Experimental']]],
+  ['gbtsnode_13',['GbtsNode',['../class_acts_1_1_experimental_1_1_gbts_node.html',1,'Acts::Experimental']]],
   ['gbtstrackingfilter_14',['GbtsTrackingFilter',['../class_acts_1_1_experimental_1_1_gbts_tracking_filter.html',1,'Acts::Experimental']]],
   ['geant4algebraconverter_15',['Geant4AlgebraConverter',['../struct_acts_plugins_1_1_geant4_algebra_converter.html',1,'ActsPlugins']]],
   ['geant4detectorelement_16',['Geant4DetectorElement',['../class_acts_plugins_1_1_geant4_detector_element.html',1,'ActsPlugins']]],

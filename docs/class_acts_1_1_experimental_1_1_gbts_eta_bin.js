@@ -2,7 +2,6 @@ var class_acts_1_1_experimental_1_1_gbts_eta_bin =
 [
     [ "CompareNodesByPhi", "struct_acts_1_1_experimental_1_1_gbts_eta_bin_1_1_compare_nodes_by_phi.html", "struct_acts_1_1_experimental_1_1_gbts_eta_bin_1_1_compare_nodes_by_phi" ],
     [ "GbtsEtaBin", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a9179e46ff4f4da2933b0266d6f95eb7b", null ],
-    [ "~GbtsEtaBin", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a4ad53f58aab0de2a07bb75a8b9ee2728", null ],
     [ "empty", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a6a90925b10084e2375325dc5f639c4a1", null ],
     [ "generatePhiIndexing", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a7ef25d83485737bd9ff7580c61c39c3c", null ],
     [ "getMaxBinRadius", "class_acts_1_1_experimental_1_1_gbts_eta_bin.html#a83d057f486498b31563246f74d33c1bc", null ],

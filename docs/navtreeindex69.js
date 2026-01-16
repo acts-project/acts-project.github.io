@@ -1,9 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"struct_acts_fatras_1_1_point_like_process.html#a756a44d8ffac97fba1b1b8b1684f9ed8":[8,0,1,32,5],
-"struct_acts_fatras_1_1_point_like_process.html#a7b9f4c4ac0ee726788479b29a73fa3ce":[6,0,2,32,2],
-"struct_acts_fatras_1_1_point_like_process.html#a7b9f4c4ac0ee726788479b29a73fa3ce":[8,0,1,32,2],
-"struct_acts_fatras_1_1_point_like_process.html#a81b8406b6fd52b494df59fb373db689f":[6,0,2,32,3],
 "struct_acts_fatras_1_1_point_like_process.html#a81b8406b6fd52b494df59fb373db689f":[8,0,1,32,3],
 "struct_acts_fatras_1_1_point_like_process.html#abe08e38ae90865ce72452622756c2a42":[6,0,2,32,4],
 "struct_acts_fatras_1_1_point_like_process.html#abe08e38ae90865ce72452622756c2a42":[8,0,1,32,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX69 =
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[8,0,2,3,1,3],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#ade5b43f6428b3a01c67207575d4f1e49":[6,0,3,5,1,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#ade5b43f6428b3a01c67207575d4f1e49":[8,0,2,3,1,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[6,0,3,5,2]
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[6,0,3,5,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[8,0,2,3,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[6,0,3,5,2,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[8,0,2,3,2,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[6,0,3,5,2,1]
 };

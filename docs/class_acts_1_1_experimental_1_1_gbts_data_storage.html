@@ -135,13 +135,12 @@ Collaboration diagram for Acts::Experimental::GbtsDataStorage:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7c3d227da484a22bcce8d3d7513e60e0" id="r_a7c3d227da484a22bcce8d3d7513e60e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c3d227da484a22bcce8d3d7513e60e0">GbtsDataStorage</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;config, const <a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> &amp;parseLutFile)</td></tr>
-<tr class="memitem:aa482b421d4635d8495ef3000278bfead" id="r_aa482b421d4635d8495ef3000278bfead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa482b421d4635d8495ef3000278bfead">~GbtsDataStorage</a> ()</td></tr>
+<tr class="memitem:af6e5205631f173ed34ab6bfc99dcf712" id="r_af6e5205631f173ed34ab6bfc99dcf712"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e5205631f173ed34ab6bfc99dcf712">GbtsDataStorage</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;config, <a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> mlLUT)</td></tr>
 <tr class="memitem:a622464c4be70bc7873f129172b6b5347" id="r_a622464c4be70bc7873f129172b6b5347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622464c4be70bc7873f129172b6b5347">generatePhiIndexing</a> (float dphi)</td></tr>
 <tr class="memitem:adb0d63f4e0211cd7dec5b78ffc5e11ea" id="r_adb0d63f4e0211cd7dec5b78ffc5e11ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb0d63f4e0211cd7dec5b78ffc5e11ea">getEtaBin</a> (int idx)</td></tr>
 <tr class="memitem:a30668a31b7743712d53a00ddc7b6f02f" id="r_a30668a31b7743712d53a00ddc7b6f02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30668a31b7743712d53a00ddc7b6f02f">initializeNodes</a> (bool useML)</td></tr>
-<tr class="memitem:a7c1f01969af2b3cb1ca34f0858eccb69" id="r_a7c1f01969af2b3cb1ca34f0858eccb69"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c1f01969af2b3cb1ca34f0858eccb69">loadPixelGraphNodes</a> (short layerIndex, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &amp;coll, bool useML)</td></tr>
-<tr class="memitem:a514ba7567c7aa4f04770b0661eab3201" id="r_a514ba7567c7aa4f04770b0661eab3201"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a514ba7567c7aa4f04770b0661eab3201">loadStripGraphNodes</a> (short layerIndex, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &amp;coll)</td></tr>
+<tr class="memitem:aef395de8d88f194eb2ba968b57d7b96c" id="r_aef395de8d88f194eb2ba968b57d7b96c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef395de8d88f194eb2ba968b57d7b96c">loadPixelGraphNodes</a> (short layerIndex, std::span&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; coll, bool useML)</td></tr>
+<tr class="memitem:aeb163a2e3a20866e92ccff5ae4f7ebf5" id="r_aeb163a2e3a20866e92ccff5ae4f7ebf5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb163a2e3a20866e92ccff5ae4f7ebf5">loadStripGraphNodes</a> (short layerIndex, std::span&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; coll)</td></tr>
 <tr class="memitem:abb2f9fa1763cc437e4fb94e8335dbb80" id="r_abb2f9fa1763cc437e4fb94e8335dbb80"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2f9fa1763cc437e4fb94e8335dbb80">numberOfNodes</a> () const</td></tr>
 <tr class="memitem:acbb022ea5481c6e2ea7afc989b7188c9" id="r_acbb022ea5481c6e2ea7afc989b7188c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbb022ea5481c6e2ea7afc989b7188c9">sortByPhi</a> ()</td></tr>
 </table><table class="memberdecls">
@@ -153,8 +152,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a8fb3acfcb8bcc02a24e636eb69f54af2" id="r_a8fb3acfcb8bcc02a24e636eb69f54af2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb3acfcb8bcc02a24e636eb69f54af2">m_mlLUT</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7c3d227da484a22bcce8d3d7513e60e0" name="a7c3d227da484a22bcce8d3d7513e60e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c3d227da484a22bcce8d3d7513e60e0">&#9670;&#160;</a></span>GbtsDataStorage()</h2>
+<a id="af6e5205631f173ed34ab6bfc99dcf712" name="af6e5205631f173ed34ab6bfc99dcf712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e5205631f173ed34ab6bfc99dcf712">&#9670;&#160;</a></span>GbtsDataStorage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +174,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parseLutFile</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a></td>          <td class="paramname"><span class="paramname"><em>mlLUT</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -183,23 +182,6 @@ Protected Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa482b421d4635d8495ef3000278bfead" name="aa482b421d4635d8495ef3000278bfead"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa482b421d4635d8495ef3000278bfead">&#9670;&#160;</a></span>~GbtsDataStorage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::GbtsDataStorage::~GbtsDataStorage </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -256,8 +238,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c1f01969af2b3cb1ca34f0858eccb69" name="a7c1f01969af2b3cb1ca34f0858eccb69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c1f01969af2b3cb1ca34f0858eccb69">&#9670;&#160;</a></span>loadPixelGraphNodes()</h2>
+<a id="aef395de8d88f194eb2ba968b57d7b96c" name="aef395de8d88f194eb2ba968b57d7b96c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef395de8d88f194eb2ba968b57d7b96c">&#9670;&#160;</a></span>loadPixelGraphNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +252,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>coll</em></span>, </td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>coll</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -282,8 +264,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a514ba7567c7aa4f04770b0661eab3201" name="a514ba7567c7aa4f04770b0661eab3201"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a514ba7567c7aa4f04770b0661eab3201">&#9670;&#160;</a></span>loadStripGraphNodes()</h2>
+<a id="aeb163a2e3a20866e92ccff5ae4f7ebf5" name="aeb163a2e3a20866e92ccff5ae4f7ebf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb163a2e3a20866e92ccff5ae4f7ebf5">&#9670;&#160;</a></span>loadStripGraphNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +278,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>coll</em></span>&#160;)</td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>coll</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

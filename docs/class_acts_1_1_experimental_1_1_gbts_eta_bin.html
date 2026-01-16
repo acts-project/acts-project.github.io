@@ -140,7 +140,6 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9179e46ff4f4da2933b0266d6f95eb7b" id="r_a9179e46ff4f4da2933b0266d6f95eb7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9179e46ff4f4da2933b0266d6f95eb7b">GbtsEtaBin</a> ()</td></tr>
-<tr class="memitem:a4ad53f58aab0de2a07bb75a8b9ee2728" id="r_a4ad53f58aab0de2a07bb75a8b9ee2728"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad53f58aab0de2a07bb75a8b9ee2728">~GbtsEtaBin</a> ()</td></tr>
 <tr class="memitem:a6a90925b10084e2375325dc5f639c4a1" id="r_a6a90925b10084e2375325dc5f639c4a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a90925b10084e2375325dc5f639c4a1">empty</a> () const</td></tr>
 <tr class="memitem:a7ef25d83485737bd9ff7580c61c39c3c" id="r_a7ef25d83485737bd9ff7580c61c39c3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef25d83485737bd9ff7580c61c39c3c">generatePhiIndexing</a> (float dphi)</td></tr>
 <tr class="memitem:a83d057f486498b31563246f74d33c1bc" id="r_a83d057f486498b31563246f74d33c1bc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83d057f486498b31563246f74d33c1bc">getMaxBinRadius</a> () const</td></tr>
@@ -151,11 +150,14 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a36022d98abfb119f953cccd6ceeecf94" id="r_a36022d98abfb119f953cccd6ceeecf94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; unsigned int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36022d98abfb119f953cccd6ceeecf94">m_in</a></td></tr>
+<tr class="memdesc:a36022d98abfb119f953cccd6ceeecf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">vectors of incoming edges, stores indices of edges in the edge vector  <br /></td></tr>
 <tr class="memitem:a73f424631192948182b1eff1e3f99dfb" id="r_a73f424631192948182b1eff1e3f99dfb"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f424631192948182b1eff1e3f99dfb">m_layerKey</a> {0}</td></tr>
 <tr class="memitem:ae7755e691a206cddfcaf85387313b248" id="r_ae7755e691a206cddfcaf85387313b248"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7755e691a206cddfcaf85387313b248">m_maxRadius</a> {}</td></tr>
 <tr class="memitem:ae13b27024282a4e6cddced1659ce1384" id="r_ae13b27024282a4e6cddced1659ce1384"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae13b27024282a4e6cddced1659ce1384">m_minRadius</a> {}</td></tr>
 <tr class="memitem:a590fa8758ce50e093ab513efc98dc77e" id="r_a590fa8758ce50e093ab513efc98dc77e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::array&lt; float, 5 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a590fa8758ce50e093ab513efc98dc77e">m_params</a></td></tr>
-<tr class="memitem:a48b496c39940f8a3be3909193f08b498" id="r_a48b496c39940f8a3be3909193f08b498"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48b496c39940f8a3be3909193f08b498">m_vn</a></td></tr>
+<tr class="memdesc:a590fa8758ce50e093ab513efc98dc77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">node attributes: m_minCutOnTau, m_maxCutOnTau, m_phi, m_r, m_z;  <br /></td></tr>
+<tr class="memitem:a48b496c39940f8a3be3909193f08b498" id="r_a48b496c39940f8a3be3909193f08b498"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48b496c39940f8a3be3909193f08b498">m_vn</a></td></tr>
+<tr class="memdesc:a48b496c39940f8a3be3909193f08b498"><td class="mdescLeft">&#160;</td><td class="mdescRight">nodes of the graph  <br /></td></tr>
 <tr class="memitem:a5db3a531c7ddecd8735f86bfbf2a4467" id="r_a5db3a531c7ddecd8735f86bfbf2a4467"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; float, unsigned int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db3a531c7ddecd8735f86bfbf2a4467">m_vPhiNodes</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -167,23 +169,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Acts::Experimental::GbtsEtaBin::GbtsEtaBin </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ad53f58aab0de2a07bb75a8b9ee2728" name="a4ad53f58aab0de2a07bb75a8b9ee2728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ad53f58aab0de2a07bb75a8b9ee2728">&#9670;&#160;</a></span>~GbtsEtaBin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::GbtsEtaBin::~GbtsEtaBin </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -309,6 +294,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>vectors of incoming edges, stores indices of edges in the edge vector </p>
+
 </div>
 </div>
 <a id="a73f424631192948182b1eff1e3f99dfb" name="a73f424631192948182b1eff1e3f99dfb"></a>
@@ -365,6 +352,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>node attributes: m_minCutOnTau, m_maxCutOnTau, m_phi, m_r, m_z; </p>
+
 </div>
 </div>
 <a id="a48b496c39940f8a3be3909193f08b498" name="a48b496c39940f8a3be3909193f08b498"></a>
@@ -374,10 +363,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a>*&gt; Acts::Experimental::GbtsEtaBin::m_vn</td>
+          <td class="memname">std::vector&lt;const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a>*&gt; Acts::Experimental::GbtsEtaBin::m_vn</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>nodes of the graph </p>
 
 </div>
 </div>

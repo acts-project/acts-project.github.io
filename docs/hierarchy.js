@@ -228,7 +228,7 @@ var hierarchy =
     [ "Acts::Experimental::GbtsEtaBin::CompareNodesByPhi", "struct_acts_1_1_experimental_1_1_gbts_eta_bin_1_1_compare_nodes_by_phi.html", null ],
     [ "Acts::Experimental::GbtsGeometry", "class_acts_1_1_experimental_1_1_gbts_geometry.html", null ],
     [ "Acts::Experimental::GbtsLayer", "class_acts_1_1_experimental_1_1_gbts_layer.html", null ],
-    [ "Acts::Experimental::GbtsNode", "struct_acts_1_1_experimental_1_1_gbts_node.html", null ],
+    [ "Acts::Experimental::GbtsNode", "class_acts_1_1_experimental_1_1_gbts_node.html", null ],
     [ "Acts::Experimental::GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", null ],
     [ "Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;", "class_acts_1_1_experimental_1_1_gx2_fitter.html", null ],
     [ "Acts::Experimental::Gx2FitterExtensions&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html", null ],
