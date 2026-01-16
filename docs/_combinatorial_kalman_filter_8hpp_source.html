@@ -466,7 +466,7 @@ $(function(){initNavTree('_combinatorial_kalman_filter_8hpp_source.html','','');
 <div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>                        result_type&amp; result)<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>      <span class="keyword">using </span>PM = <a class="code hl_enumeration" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a>;</div>
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span> </div>
-<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>      <span class="keywordtype">bool</span> isSensitive = surface-&gt;associatedDetectorElement() != <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>      <span class="keywordtype">bool</span> isSensitive = surface-&gt;isSensitive();</div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>      <span class="keywordtype">bool</span> hasMaterial = surface-&gt;surfaceMaterial() != <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>      <span class="keywordtype">bool</span> isMaterialOnly = hasMaterial &amp;&amp; !isSensitive;</div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>      <span class="keywordtype">bool</span> expectMeasurements = isSensitive;</div>

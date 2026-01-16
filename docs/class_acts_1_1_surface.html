@@ -200,6 +200,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a23b661e68fee3ab78ca59ccb98bf52b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Straight line intersection schema from position/direction.  <br /></td></tr>
 <tr class="memitem:a737d6899bed07338996dadf34b912db0" id="r_a737d6899bed07338996dadf34b912db0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a737d6899bed07338996dadf34b912db0">isOnSurface</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance=<a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>(), double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const</td></tr>
 <tr class="memdesc:a737d6899bed07338996dadf34b912db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The geometric onSurface method.  <br /></td></tr>
+<tr class="memitem:a713d3e163c0d239d69acf24f1f2e3eca" id="r_a713d3e163c0d239d69acf24f1f2e3eca"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a713d3e163c0d239d69acf24f1f2e3eca">isSensitive</a> () const</td></tr>
+<tr class="memdesc:a713d3e163c0d239d69acf24f1f2e3eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the Surface is sensitive.  <br /></td></tr>
 <tr class="memitem:a9f697a247eae77a6eb1f65116ece3367" id="r_a9f697a247eae77a6eb1f65116ece3367"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f697a247eae77a6eb1f65116ece3367">localCartesianToBoundLocalDerivative</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position) const =0</td></tr>
 <tr class="memdesc:a9f697a247eae77a6eb1f65116ece3367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of bound track parameters local position w.r.t.  <br /></td></tr>
 <tr class="memitem:a7b2cbad2c5f7f25915035cc0fa2c6e96" id="r_a7b2cbad2c5f7f25915035cc0fa2c6e96"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b2cbad2c5f7f25915035cc0fa2c6e96">localToGlobal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;lposition, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const =0</td></tr>
@@ -1236,6 +1238,33 @@ Only call this if you need shared ownership of this object.</dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean indication if operation was successful </dd></dl>
+
+</div>
+</div>
+<a id="a713d3e163c0d239d69acf24f1f2e3eca" name="a713d3e163c0d239d69acf24f1f2e3eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a713d3e163c0d239d69acf24f1f2e3eca">&#9670;&#160;</a></span>isSensitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Acts::Surface::isSensitive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether the Surface is sensitive. </p>
 
 </div>
 </div>

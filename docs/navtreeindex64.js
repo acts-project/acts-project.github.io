@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d":[8,0,0,387,2,0],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8":[6,0,0,412,2,7],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8":[8,0,0,387,2,7],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#acb5d9620aa5bb80c0b473c4275df456f":[6,0,0,412,2,10],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#acb5d9620aa5bb80c0b473c4275df456f":[8,0,0,387,2,10],
+"struct_acts_1_1_strip_pair_options.html":[6,0,0,414],
+"struct_acts_1_1_strip_pair_options.html":[8,0,0,389],
+"struct_acts_1_1_strip_pair_options.html#a15d5826d340038755ca0326535abb6cf":[6,0,0,414,1],
 "struct_acts_1_1_strip_pair_options.html#a15d5826d340038755ca0326535abb6cf":[8,0,0,389,1],
 "struct_acts_1_1_strip_pair_options.html#a19afac50b22002aadbb33914a1bfd289":[6,0,0,414,0],
 "struct_acts_1_1_strip_pair_options.html#a19afac50b22002aadbb33914a1bfd289":[8,0,0,389,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[8,0,0,404,5],
 "struct_acts_1_1_surface_selector.html":[6,0,0,430],
 "struct_acts_1_1_surface_selector.html":[8,0,0,405],
-"struct_acts_1_1_surface_selector.html#a00e7eff93f3675ad685a59c0cb3eaf1d":[6,0,0,430,3],
-"struct_acts_1_1_surface_selector.html#a00e7eff93f3675ad685a59c0cb3eaf1d":[8,0,0,405,3],
-"struct_acts_1_1_surface_selector.html#a380da29d67f2a3e99ab67a04125c8fa6":[6,0,0,430,2],
-"struct_acts_1_1_surface_selector.html#a380da29d67f2a3e99ab67a04125c8fa6":[8,0,0,405,2],
-"struct_acts_1_1_surface_selector.html#a4d154553e1cd2eea97d08a19b96a7af8":[6,0,0,430,0],
-"struct_acts_1_1_surface_selector.html#a4d154553e1cd2eea97d08a19b96a7af8":[8,0,0,405,0],
-"struct_acts_1_1_surface_selector.html#a4dfbc2181b583b9f584979a02fbcbe14":[6,0,0,430,1],
-"struct_acts_1_1_surface_selector.html#a4dfbc2181b583b9f584979a02fbcbe14":[8,0,0,405,1],
-"struct_acts_1_1_surface_selector.html#a7169313f447aecc98e9cd63fdad2fb8d":[6,0,0,430,4]
+"struct_acts_1_1_surface_selector.html#a00e7eff93f3675ad685a59c0cb3eaf1d":[6,0,0,430,3]
 };

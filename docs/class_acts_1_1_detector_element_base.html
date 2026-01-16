@@ -140,6 +140,8 @@ Inheritance diagram for Acts::DetectorElementBase:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af62c20b63bff45abbe40089f73d64439" id="r_af62c20b63bff45abbe40089f73d64439"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af62c20b63bff45abbe40089f73d64439">DetectorElementBase</a> ()=default</td></tr>
 <tr class="memitem:af7ca597bc6726126e4925aebd6735136" id="r_af7ca597bc6726126e4925aebd6735136"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7ca597bc6726126e4925aebd6735136">~DetectorElementBase</a> ()=default</td></tr>
+<tr class="memitem:a648377a09e87a2e3349af6dffface549" id="r_a648377a09e87a2e3349af6dffface549"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648377a09e87a2e3349af6dffface549">isSensitive</a> () const</td></tr>
+<tr class="memdesc:a648377a09e87a2e3349af6dffface549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the detector element corresponds to a sensitive surface on which measurements are expressed.  <br /></td></tr>
 <tr class="memitem:ae003240476d1364d78e396b6ba95d2e1" id="r_ae003240476d1364d78e396b6ba95d2e1"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae003240476d1364d78e396b6ba95d2e1">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:ae003240476d1364d78e396b6ba95d2e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the transform for the Element proxy mechanism.  <br /></td></tr>
 <tr class="memitem:a3ed35cfc34235753f9d741e56b81e526" id="r_a3ed35cfc34235753f9d741e56b81e526"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed35cfc34235753f9d741e56b81e526">surface</a> () const =0</td></tr>
@@ -207,6 +209,35 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a648377a09e87a2e3349af6dffface549" name="a648377a09e87a2e3349af6dffface549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648377a09e87a2e3349af6dffface549">&#9670;&#160;</a></span>isSensitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Acts::DetectorElementBase::isSensitive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether the detector element corresponds to a sensitive surface on which measurements are expressed. </p>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_json_detector_element.html#af98f793a3e334ad06d6339def6114cbd">Acts::JsonDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a215ba6b943e8e928e2ba5eb2d8dc5a77">ActsPlugins::Geant4DetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#aa8e9988fe99098bbdded9b18642475db">ActsPlugins::GeoModelDetectorElement</a>, and <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html#a8132f27f988897a784a20db25247ed11">ActsPlugins::TGeoDetectorElement</a>.</p>
+
+</div>
+</div>
 <a id="ae003240476d1364d78e396b6ba95d2e1" name="ae003240476d1364d78e396b6ba95d2e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae003240476d1364d78e396b6ba95d2e1">&#9670;&#160;</a></span>localToGlobalTransform()</h2>
 
@@ -238,6 +269,8 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>reference to the transform to switch from the element's coordinates to the experiment's global coordinate system </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_json_detector_element.html#a71dfacb95fe86b2a735c3a216dfa178e">Acts::JsonDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a52393e320d023c66cf39dc1b2d2cd918">ActsPlugins::Geant4DetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#a0e0571165f189f565434c35009a28167">ActsPlugins::GeoModelDetectorElement</a>, and <a class="el" href="group__root__plugin.html#gaa1f017f131f32f960d35924a66984c9a">ActsPlugins::TGeoDetectorElement</a>.</p>
 
 </div>
 </div>
@@ -366,8 +399,6 @@ Reference to a surface that represents this detector element </dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>reference to the transform of this detector element </dd></dl>
-
-<p>Reimplemented in <a class="el" href="class_acts_1_1_json_detector_element.html#a8b496e57e6dd5a79ce4b8cb22342a85b">Acts::JsonDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a75fb5aabc9e275d0a2452c7a7c9cb934">ActsPlugins::Geant4DetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#a9f09a4f9a6f1dd47b3c2746236fdc6e6">ActsPlugins::GeoModelDetectorElement</a>, and <a class="el" href="group__root__plugin.html#ga924e7fd740db94693f73ded83d9d19c0">ActsPlugins::TGeoDetectorElement</a>.</p>
 
 </div>
 </div>

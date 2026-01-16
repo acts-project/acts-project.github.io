@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[8,0,0,316,0,2],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[6,0,0,341,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[8,0,0,316,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[6,0,0,341,0,0,1],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[8,0,0,316,0,0,1],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a5ff842fdc4501d26c5d749818d3f480a":[6,0,0,341,0,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a5ff842fdc4501d26c5d749818d3f480a":[8,0,0,316,0,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[6,0,0,341,0,0,3],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[8,0,0,316,0,0,3],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[6,0,0,341,0,0,2],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[8,0,0,316,0,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[8,0,0,349,2,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c":[6,0,0,374,2,4],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c":[8,0,0,349,2,4],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#abbaeb9d714a611f67e9e147dcc14fe8a":[6,0,0,374,2,5],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#abbaeb9d714a611f67e9e147dcc14fe8a":[8,0,0,349,2,5],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e":[6,0,0,374,2,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e":[8,0,0,349,2,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[6,0,0,374,2,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[8,0,0,349,2,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[6,0,0,374,2,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[8,0,0,349,2,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[6,0,0,374,2,0]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#abbaeb9d714a611f67e9e147dcc14fe8a":[6,0,0,374,2,5]
 };

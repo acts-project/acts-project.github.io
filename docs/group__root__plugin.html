@@ -166,6 +166,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:gad128c3436a3d02ecf8481fc60d7ff6b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name identification.  <br /></td></tr>
 <tr class="memitem:ga39ae58cede7230ec843b6ff7c2f8fc06" id="r_ga39ae58cede7230ec843b6ff7c2f8fc06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">Identifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39ae58cede7230ec843b6ff7c2f8fc06">ActsPlugins::TGeoDetectorElement::identifier</a> () const</td></tr>
 <tr class="memdesc:ga39ae58cede7230ec843b6ff7c2f8fc06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the detector element identifier.  <br /></td></tr>
+<tr class="memitem:gaa1f017f131f32f960d35924a66984c9a" id="r_gaa1f017f131f32f960d35924a66984c9a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa1f017f131f32f960d35924a66984c9a">ActsPlugins::TGeoDetectorElement::localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx) const override</td></tr>
+<tr class="memdesc:gaa1f017f131f32f960d35924a66984c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return local to global transform associated with this identifier.  <br /></td></tr>
 <tr class="memitem:ga378672f895c4e16375ce7f1217c43427" id="r_ga378672f895c4e16375ce7f1217c43427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga378672f895c4e16375ce7f1217c43427">ActsPlugins::makeMagneticFieldMapRzFromRoot</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 2 &gt; binsRZ, std::array&lt; std::size_t, 2 &gt; nBinsRZ)&gt; &amp;localToGlobalBin, const std::string &amp;fieldMapFile, const std::string &amp;treeName, double lengthUnit, double BFieldUnit, bool firstQuadrant=false)</td></tr>
 <tr class="memdesc:ga378672f895c4e16375ce7f1217c43427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to setup the FieldMap.  <br /></td></tr>
 <tr class="memitem:ga1d6552cacc19e90697dfbb5617e52cc2" id="r_ga1d6552cacc19e90697dfbb5617e52cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d6552cacc19e90697dfbb5617e52cc2">ActsPlugins::makeMagneticFieldMapXyzFromRoot</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 3 &gt; binsXYZ, std::array&lt; std::size_t, 3 &gt; nBinsXYZ)&gt; &amp;localToGlobalBin, const std::string &amp;fieldMapFile, const std::string &amp;treeName, double lengthUnit, double BFieldUnit, bool firstOctant=false)</td></tr>
@@ -176,8 +178,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga931e862e6f5ff0021aa05a4553c41459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return surface associated with this detector element.  <br /></td></tr>
 <tr class="memitem:gae90c5d88cc8631e53ca331f09e953f71" id="r_gae90c5d88cc8631e53ca331f09e953f71"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae90c5d88cc8631e53ca331f09e953f71">ActsPlugins::TGeoDetectorElement::thickness</a> () const override</td></tr>
 <tr class="memdesc:gae90c5d88cc8631e53ca331f09e953f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thickness of the module.  <br /></td></tr>
-<tr class="memitem:ga924e7fd740db94693f73ded83d9d19c0" id="r_ga924e7fd740db94693f73ded83d9d19c0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga924e7fd740db94693f73ded83d9d19c0">ActsPlugins::TGeoDetectorElement::transform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx) const override</td></tr>
-<tr class="memdesc:ga924e7fd740db94693f73ded83d9d19c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return local to global transform associated with this identifier.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ga974d1b63629e3c61e3547034a015676d" name="ga974d1b63629e3c61e3547034a015676d"></a>
@@ -267,6 +267,41 @@ Functions</h2></td></tr>
 
 <p>Get the detector element identifier. </p>
 <dl class="section return"><dt>Returns</dt><dd>The unique identifier for this detector element </dd></dl>
+
+</div>
+</div>
+<a id="gaa1f017f131f32f960d35924a66984c9a" name="gaa1f017f131f32f960d35924a66984c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa1f017f131f32f960d35924a66984c9a">&#9670;&#160;</a></span>localToGlobalTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp; ActsPlugins::TGeoDetectorElement::localToGlobalTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return local to global transform associated with this identifier. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_acts_1_1_detector_element_base.html#ae003240476d1364d78e396b6ba95d2e1">Acts::DetectorElementBase</a>.</p>
 
 </div>
 </div>
@@ -495,41 +530,6 @@ Functions</h2></td></tr>
 Thickness of the detector element in units of length </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_detector_element_base.html#af320e4e3baf51fbd6a67aab984b9d3ad">Acts::DetectorElementBase</a>.</p>
-
-</div>
-</div>
-<a id="ga924e7fd740db94693f73ded83d9d19c0" name="ga924e7fd740db94693f73ded83d9d19c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga924e7fd740db94693f73ded83d9d19c0">&#9670;&#160;</a></span>transform()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp; ActsPlugins::TGeoDetectorElement::transform </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return local to global transform associated with this identifier. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented from <a class="el" href="class_acts_1_1_detector_element_base.html#a8b383b9e0044563bd0825f913e12ddaa">Acts::DetectorElementBase</a>.</p>
 
 </div>
 </div>

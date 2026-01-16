@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_acts_1_1_i_triplet_seed_filter.html#adbf9d2d8336b23fa4be3c291c57e5a36":[6,0,0,256,0],
+"class_acts_1_1_i_triplet_seed_filter.html#adbf9d2d8336b23fa4be3c291c57e5a36":[8,0,0,231,0],
 "class_acts_1_1_i_vertex_finder.html":[6,0,0,257],
 "class_acts_1_1_i_vertex_finder.html":[8,0,0,232],
 "class_acts_1_1_i_vertex_finder.html#a3da86d9fe61b7c6df15495bceaf9cfb8":[6,0,0,257,0],
@@ -232,11 +234,12 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_iterative_vertex_finder.html#ad4274eda0d1ac2184b6044fd63dbbec6":[6,0,0,248,2],
 "class_acts_1_1_iterative_vertex_finder.html#ad4274eda0d1ac2184b6044fd63dbbec6":[8,0,0,223,2],
 "class_acts_1_1_json_detector_element.html":[5,8,11,16],
-"class_acts_1_1_json_detector_element.html#a17a013be207c8aceffa8f484be2a9c93":[5,8,11,16,2],
-"class_acts_1_1_json_detector_element.html#a7dc96c42e90b262948b11829b216f259":[5,8,11,16,1],
-"class_acts_1_1_json_detector_element.html#a8b496e57e6dd5a79ce4b8cb22342a85b":[5,8,11,16,4],
+"class_acts_1_1_json_detector_element.html#a17a013be207c8aceffa8f484be2a9c93":[5,8,11,16,4],
+"class_acts_1_1_json_detector_element.html#a71dfacb95fe86b2a735c3a216dfa178e":[5,8,11,16,2],
+"class_acts_1_1_json_detector_element.html#a7dc96c42e90b262948b11829b216f259":[5,8,11,16,3],
 "class_acts_1_1_json_detector_element.html#ac6b0f968f6064c83ac1f424bd6d3be34":[5,8,11,16,0],
-"class_acts_1_1_json_detector_element.html#aee27f27e4ee8d44d62bf14fd309396c8":[5,8,11,16,3],
+"class_acts_1_1_json_detector_element.html#aee27f27e4ee8d44d62bf14fd309396c8":[5,8,11,16,5],
+"class_acts_1_1_json_detector_element.html#af98f793a3e334ad06d6339def6114cbd":[5,8,11,16,1],
 "class_acts_1_1_json_material_decorator.html":[5,8,11,18],
 "class_acts_1_1_json_material_decorator.html#a553019ef6d9adb5546899327779caf44":[5,8,11,18,2],
 "class_acts_1_1_json_material_decorator.html#a6a337e8ecba6c474b13c8e3164060fff":[5,8,11,18,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_k_d_tree.html#a1f6cc876e7e68a8bf9c23a5065a9b26f":[6,0,0,268,3],
 "class_acts_1_1_k_d_tree.html#a1f6cc876e7e68a8bf9c23a5065a9b26f":[8,0,0,243,3],
 "class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905":[6,0,0,268,4],
-"class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905":[8,0,0,243,4],
-"class_acts_1_1_k_d_tree.html#a37b7c9ca6022126c2e47fab00f4c1847":[6,0,0,268,17],
-"class_acts_1_1_k_d_tree.html#a37b7c9ca6022126c2e47fab00f4c1847":[8,0,0,243,17],
-"class_acts_1_1_k_d_tree.html#a4a1d035d778043fd4cc343efe470a1d8":[6,0,0,268,19]
+"class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905":[8,0,0,243,4]
 };

@@ -2,6 +2,7 @@ var class_acts_1_1_detector_element_base =
 [
     [ "DetectorElementBase", "class_acts_1_1_detector_element_base.html#af62c20b63bff45abbe40089f73d64439", null ],
     [ "~DetectorElementBase", "class_acts_1_1_detector_element_base.html#af7ca597bc6726126e4925aebd6735136", null ],
+    [ "isSensitive", "class_acts_1_1_detector_element_base.html#a648377a09e87a2e3349af6dffface549", null ],
     [ "localToGlobalTransform", "class_acts_1_1_detector_element_base.html#ae003240476d1364d78e396b6ba95d2e1", null ],
     [ "surface", "class_acts_1_1_detector_element_base.html#a3ed35cfc34235753f9d741e56b81e526", null ],
     [ "surface", "class_acts_1_1_detector_element_base.html#aba7b06e643093085d5f8d8c980cee8b7", null ],

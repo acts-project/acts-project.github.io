@@ -35,6 +35,7 @@ var class_acts_1_1_surface =
     [ "insideBounds", "class_acts_1_1_surface.html#a8b2a73e04f09f076f719b5b91cde8a7c", null ],
     [ "intersect", "class_acts_1_1_surface.html#a23b661e68fee3ab78ca59ccb98bf52b9", null ],
     [ "isOnSurface", "class_acts_1_1_surface.html#a737d6899bed07338996dadf34b912db0", null ],
+    [ "isSensitive", "class_acts_1_1_surface.html#a713d3e163c0d239d69acf24f1f2e3eca", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_surface.html#a9f697a247eae77a6eb1f65116ece3367", null ],
     [ "localToGlobal", "class_acts_1_1_surface.html#a7b2cbad2c5f7f25915035cc0fa2c6e96", null ],
     [ "localToGlobalTransform", "class_acts_1_1_surface.html#ae21355c33b72c2686ba2f8f2839e67f5", null ],

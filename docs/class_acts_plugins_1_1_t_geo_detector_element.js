@@ -9,10 +9,11 @@ var class_acts_plugins_1_1_t_geo_detector_element =
     [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a791f2bac7bdec07402b2659e6e8b138a", null ],
     [ "~TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a2c7da38b3b4bc0ee34a3086a8a3611c6", null ],
     [ "identifier", "group__root__plugin.html#ga39ae58cede7230ec843b6ff7c2f8fc06", null ],
+    [ "isSensitive", "class_acts_plugins_1_1_t_geo_detector_element.html#a8132f27f988897a784a20db25247ed11", null ],
+    [ "localToGlobalTransform", "group__root__plugin.html#gaa1f017f131f32f960d35924a66984c9a", null ],
     [ "nominalTransform", "class_acts_plugins_1_1_t_geo_detector_element.html#a153d9c84528de4cc98d88a774f24c3fc", null ],
     [ "surface", "group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2", null ],
     [ "surface", "group__root__plugin.html#ga931e862e6f5ff0021aa05a4553c41459", null ],
     [ "tgeoNode", "class_acts_plugins_1_1_t_geo_detector_element.html#aeca5b6fa0ced368fdeb4c20caff963f4", null ],
-    [ "thickness", "group__root__plugin.html#gae90c5d88cc8631e53ca331f09e953f71", null ],
-    [ "transform", "group__root__plugin.html#ga924e7fd740db94693f73ded83d9d19c0", null ]
+    [ "thickness", "group__root__plugin.html#gae90c5d88cc8631e53ca331f09e953f71", null ]
 ];
