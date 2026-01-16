@@ -8,6 +8,6 @@
 <area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="151,151,200,151,200,156,151,156"/>
 <area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="200,198,369,223"/>
 <area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="130,167,186,183,234,195,232,200,185,188,129,172"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title="Small opaque cache type with configurable small buffer optimization." alt="" coords="197,247,372,273"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="197,247,372,273"/>
 <area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="99,173,138,204,186,232,221,245,219,250,184,237,135,208,95,177"/>
 </map>

@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,230,107,286,102,286,102,230"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="33,5,165,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,44,107,176,101,176,97,45"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title="Small opaque cache type with configurable small buffer optimization." alt="" coords="121,80,296,105"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="121,80,296,105"/>
 <area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="130,36,193,78,190,82,127,41"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="189,117,126,178,122,174,185,113"/>
 </map>

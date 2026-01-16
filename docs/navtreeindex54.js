@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_eigen_stepper_dense_extension.html#a0f7ef10324506d76a4abcc4925241f92":[6,0,0,152,5],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#a0f7ef10324506d76a4abcc4925241f92":[8,0,0,127,5],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#a25ce62107dc409b1f0c96bc450c550f3":[6,0,0,152,4],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#a25ce62107dc409b1f0c96bc450c550f3":[8,0,0,127,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#ab93327515848dfe755f1d8fa07d0a13c":[6,0,0,6,10,0,4],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#ab93327515848dfe755f1d8fa07d0a13c":[8,0,0,2,8,0,4],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#ae1a88971912f03558328586d527d2d7b":[6,0,0,6,10,0,3],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#ae1a88971912f03558328586d527d2d7b":[8,0,0,2,8,0,3],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html":[6,0,0,6,10,1]
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#ae1a88971912f03558328586d527d2d7b":[8,0,0,2,8,0,3]
 };

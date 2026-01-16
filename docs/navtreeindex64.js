@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d":[6,0,0,412,2,0],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d":[8,0,0,387,2,0],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8":[6,0,0,412,2,7],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8":[8,0,0,387,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[6,0,0,429,5],
 "struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[8,0,0,404,5],
 "struct_acts_1_1_surface_selector.html":[6,0,0,430],
-"struct_acts_1_1_surface_selector.html":[8,0,0,405],
-"struct_acts_1_1_surface_selector.html#a00e7eff93f3675ad685a59c0cb3eaf1d":[6,0,0,430,3]
+"struct_acts_1_1_surface_selector.html":[8,0,0,405]
 };

@@ -1,5 +1,5 @@
 <map id="Acts::AnyBase&lt; SIZE &gt;" name="Acts::AnyBase&lt; SIZE &gt;">
-<area shape="rect" id="Node000001" title="Small opaque cache type with configurable small buffer optimization." alt="" coords="187,121,361,146"/>
+<area shape="rect" id="Node000001" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="187,121,361,146"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="592,17,791,57"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,112,345,95,385,80,491,56,591,42,592,47,492,61,386,85,347,100,312,116"/>
 <area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="607,81,776,121"/>

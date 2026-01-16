@@ -18,7 +18,7 @@
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1012,197,1085,196,1161,191,1193,185,1194,191,1162,196,1086,201,1012,202"/>
 <area shape="rect" id="Node000010" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="54,150,186,175"/>
 <area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="200,155,316,150,465,148,630,152,796,165,836,172,835,177,796,171,630,158,465,154,316,156,200,160"/>
-<area shape="rect" id="Node000011" href="$class_acts_1_1_any_base.html" title="Small opaque cache type with configurable small buffer optimization." alt="" coords="419,186,594,211"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="419,186,594,211"/>
 <area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="200,167,419,188,419,193,199,173"/>
 <area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="608,195,828,193,828,198,608,200"/>
 <area shape="rect" id="Node000012" title=" " alt="" coords="826,239,1001,265"/>

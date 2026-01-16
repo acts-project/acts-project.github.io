@@ -8,7 +8,7 @@
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="92,194,132,239,158,260,188,278,241,298,296,312,353,322,410,328,517,332,606,327,607,332,517,337,409,334,352,328,295,317,239,303,186,282,155,265,128,242,88,197"/>
 <area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="607,207,776,233"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="111,188,193,224,306,261,370,275,436,283,502,284,567,275,623,255,669,231,671,235,626,260,569,280,503,289,436,288,369,280,305,266,191,229,109,193"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_any_base.html" title="Small opaque cache type with configurable small buffer optimization." alt="" coords="187,159,361,185"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="187,159,361,185"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="151,169,187,169,187,175,151,175"/>
 <area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="375,162,591,146,592,151,376,167"/>
 <area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="301,149,340,124,384,100,440,79,499,61,606,37,607,42,500,67,442,84,386,105,342,128,304,153"/>

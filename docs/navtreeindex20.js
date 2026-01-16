@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_acts_1_1_i_triplet_seed_filter.html#a97990e1dc88664ea5b91e99e35e4df7d":[8,0,0,231,1],
 "class_acts_1_1_i_triplet_seed_filter.html#adbf9d2d8336b23fa4be3c291c57e5a36":[6,0,0,256,0],
 "class_acts_1_1_i_triplet_seed_filter.html#adbf9d2d8336b23fa4be3c291c57e5a36":[8,0,0,231,0],
 "class_acts_1_1_i_vertex_finder.html":[6,0,0,257],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_k_d_tree.html":[8,0,0,243],
 "class_acts_1_1_k_d_tree.html#a1f6cc876e7e68a8bf9c23a5065a9b26f":[6,0,0,268,3],
 "class_acts_1_1_k_d_tree.html#a1f6cc876e7e68a8bf9c23a5065a9b26f":[8,0,0,243,3],
-"class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905":[6,0,0,268,4],
-"class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905":[8,0,0,243,4]
+"class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905":[6,0,0,268,4]
 };

@@ -148,7 +148,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="class_acts_1_1_any_base.html" target="_top" xlink:title="Small opaque cache type with configurable small buffer optimization.">
+<g id="a_Node000008"><a xlink:href="class_acts_1_1_any_base.html" target="_top" xlink:title="Small opaque type&#45;erased type with configurable small buffer optimization.">
 <polygon fill="white" stroke="#666666" points="267,-214 136,-214 136,-195 267,-195 267,-214"/>
 <text text-anchor="middle" x="201.5" y="-202" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; SIZE &gt;</text>
 </a>

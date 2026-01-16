@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[6,0,3,5,1,3],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[8,0,2,3,1,3],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#ade5b43f6428b3a01c67207575d4f1e49":[6,0,3,5,1,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#ade5b43f6428b3a01c67207575d4f1e49":[8,0,2,3,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[5,8,7,15,0],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[5,8,7,15,0,1],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[5,8,7,15,0,3],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[5,8,7,15,0,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[5,8,7,15,0,2]
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[5,8,7,15,0,0]
 };
