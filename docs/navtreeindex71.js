@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[5,8,7,15,0,0],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[5,8,7,15,0,2],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[5,8,7,16,0],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[5,8,7,16,0,6],

@@ -2,6 +2,7 @@ var NAVTREEINDEX0 =
 {
 "annotated.html":[8,0],
 "bug.html":[12],
+"building_acts.html":[2,4],
 "citelist.html":[9],
 "class_acts_1_1_accumulated_material_slab.html":[5,3,2,0,0],
 "class_acts_1_1_accumulated_material_slab.html#a28997226a3a99efb64bf6464dd5a2138":[5,3,2,0,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_acts_1_1_any_grid_view.html#ac70059b948a9b19fae4fec24c02836e0":[6,0,0,59,11],
 "class_acts_1_1_any_grid_view.html#ac70059b948a9b19fae4fec24c02836e0":[8,0,0,34,11],
 "class_acts_1_1_any_grid_view.html#ac7fec7e128b1c6c9dc7810267ce27031":[6,0,0,59,3],
-"class_acts_1_1_any_grid_view.html#ac7fec7e128b1c6c9dc7810267ce27031":[8,0,0,34,3],
-"class_acts_1_1_any_grid_view.html#acb3534f6158707f5ec0ff3e1b081ec74":[6,0,0,59,0]
+"class_acts_1_1_any_grid_view.html#ac7fec7e128b1c6c9dc7810267ce27031":[8,0,0,34,3]
 };

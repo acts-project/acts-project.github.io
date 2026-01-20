@@ -6,7 +6,7 @@ var searchData=
   ['deprecated_3',['Deprecated',['../deprecated.html',1,'']]],
   ['detection_4',['Charged particle detection',['../tracking.html#charged-particle-detection',1,'']]],
   ['do_20i_20investigate_20a_20physmon_20failure_5',['How do I investigate a physmon failure?',['../physmon.html#autotoc_md36',1,'']]],
-  ['documentation_6',['Building the documentation',['../building_acts.html#autotoc_md5',1,'']]],
-  ['downstream_20code_7',['Using ACTS in downstream code',['../building_acts.html#autotoc_md7',1,'']]],
+  ['documentation_6',['Building the documentation',['../building_acts.html#autotoc_md33',1,'']]],
+  ['downstream_20code_7',['Using ACTS in downstream code',['../building_acts.html#autotoc_md35',1,'']]],
   ['dynamic_20columns_8',['Dynamic columns',['../group__eventdata__tracks.html#track_edm_dynamic_columns',1,'']]]
 ];

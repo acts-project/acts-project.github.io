@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"class_acts_1_1_proto_volume_material.html#abd49006fec14524356802d82a10f36ad":[5,3,2,24,8],
 "class_acts_1_1_proto_volume_material.html#abfb7151f7f8768f68f70987353cb93b0":[5,3,2,24,2],
 "class_acts_1_1_proto_volume_material.html#afffff1d2952b2ef3a47b1684d386dc7a":[5,3,2,24,3],
 "class_acts_1_1_radial_bounds.html":[6,0,0,360],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "class_acts_1_1_result.html":[8,0,0,344],
 "class_acts_1_1_result.html#a05bc8d47b7af0d3285f2cbf8320af9f2":[6,0,0,369,14],
 "class_acts_1_1_result.html#a05bc8d47b7af0d3285f2cbf8320af9f2":[6,0,0,370,12],
-"class_acts_1_1_result.html#a05bc8d47b7af0d3285f2cbf8320af9f2":[8,0,0,344,14],
-"class_acts_1_1_result.html#a05bc8d47b7af0d3285f2cbf8320af9f2":[8,0,0,345,12]
+"class_acts_1_1_result.html#a05bc8d47b7af0d3285f2cbf8320af9f2":[8,0,0,344,14]
 };

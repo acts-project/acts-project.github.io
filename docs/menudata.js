@@ -30,6 +30,7 @@ var menudata={children:[
 {text:"Profiling",url:"howto_profiling.html"},
 {text:"How to make a release",url:"howto_release.html"},
 {text:"Source code formatting",url:"formatting.html"},
+{text:"Building ACTS",url:"building_acts.html"},
 {text:"Building with Spack",url:"howto_spack.html"},
 {text:"Physics performance monitoring",url:"physmon.html"},
 {text:"ROOT file hashes",url:"python_bindings.html#root_file_hashes"}]},

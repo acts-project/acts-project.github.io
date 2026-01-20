@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_lin_circle.html#a0f841965beeb0a3911d3070e29503aa3":[8,0,0,248,5],
 "struct_acts_1_1_lin_circle.html#a146d750bba4fdd35339f8319b353db79":[6,0,0,273,8],
 "struct_acts_1_1_lin_circle.html#a146d750bba4fdd35339f8319b353db79":[8,0,0,248,8],
 "struct_acts_1_1_lin_circle.html#a419262e938090d2d269e7221942efad9":[6,0,0,273,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_navigation_arguments.html#a2755d11ab8f238cb889f46f12899909a":[8,0,0,281,2],
 "struct_acts_1_1_navigation_arguments.html#a6dcdbe3e378b41c3f78c73982e62f577":[6,0,0,306,0],
 "struct_acts_1_1_navigation_arguments.html#a6dcdbe3e378b41c3f78c73982e62f577":[8,0,0,281,0],
-"struct_acts_1_1_navigation_options.html":[6,0,0,308],
-"struct_acts_1_1_navigation_options.html":[8,0,0,283]
+"struct_acts_1_1_navigation_options.html":[6,0,0,308]
 };

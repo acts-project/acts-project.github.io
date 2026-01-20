@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0":[8,0,0,424,4],
 "struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb":[6,0,0,449,3],
 "struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb":[8,0,0,424,3],
 "struct_acts_1_1_tracking_geometry_builder_1_1_config.html":[6,0,0,437,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_vertex_info.html":[8,0,0,447],
 "struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,472,7],
 "struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,447,7],
-"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,472,8],
-"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[8,0,0,447,8]
+"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,472,8]
 };

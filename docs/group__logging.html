@@ -128,7 +128,7 @@ $(function(){initNavTree('group__logging.html','',''); });
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Subsystem for logging and message handling. </p>
 <p>The ACTS logging system provides flexible, hierarchical logging with multiple severity levels and decorators. Logger objects can easily be created using the <a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a> function which should be sufficient to get you started. In case you need more customized debug output, you can make use of the output decorators defined in <span class="tt">Acts::Logging</span> or even write your own implementation of <a class="el" href="class_acts_1_1_logging_1_1_output_decorator.html">Acts::Logging::OutputDecorator</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
 Logging Levels</h2>
 <p>The logging system supports the following severity levels (from lowest to highest):</p>
 <ul>
@@ -139,7 +139,7 @@ Logging Levels</h2>
 <li><a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba0fa06a343ee1bc0d2de92eefed40526e"><span class="tt">ERROR</span></a>:   Error conditions which require follow-up.   </li>
 <li><a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba59165d66154c9163f109689239d9f987"><span class="tt">FATAL</span></a>:   Unrecoverable error conditions.   </li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
 Using Logging Macros</h2>
 <p>When a logger accessible via the <span class="tt">logger()</span> method, see <a class="el" href="#logging_patterns">Logging Patterns</a>, use these macros to perform the actual logging:</p>
 <div class="fragment"><div class="line"><a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Detailed trace information&quot;</span>);</div>
@@ -152,7 +152,7 @@ Using Logging Macros</h2>
 <h2 class="doxsection"><a class="anchor" id="logging_patterns"></a>
 Logging Patterns</h2>
 <p>ACTS provides several patterns for integrating logging into your code, each suited for different use cases.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 Member Logger Pattern</h3>
 <p>Use this pattern when a class needs persistent logging throughout its lifetime. The logger is stored as a member variable and passed to the constructor.</p>
 <p><b>Best for:</b></p>
@@ -184,7 +184,7 @@ Member Logger Pattern</h3>
 <li>ACTS logging macros work directly in member functions</li>
 <li>Ownership transferred to the class instance</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Const Reference Argument Pattern</h3>
 <p>Use this pattern when a function or algorithm should accept a logger from the caller, providing maximum flexibility.</p>
 <p><b>Best for:</b></p>
@@ -205,7 +205,7 @@ Const Reference Argument Pattern</h3>
 <li>Allows caller to choose logging behavior</li>
 <li>Supports dependency injection for testing</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 <span class="tt">getDummyLogger</span> Pattern</h3>
 <p>Use this pattern when logging is optional or should be disabled by default. In contract to <a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>, this function returns a logger that discards all messages, resulting in negligible runtime overhead. It is useful in cases where you don't want to default to logging to <span class="tt">std::cout</span>, but not all call-sites give you easy access to a logger.</p>
 <p><b>Best for:</b></p>
@@ -226,19 +226,19 @@ Const Reference Argument Pattern</h3>
 <li>Common default for function parameters</li>
 <li>Can be overridden with real logger when needed</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
 <span class="tt">getDefaultLogger</span> Factory Function</h3>
 <p>Use this function to create standalone loggers with standard formatting (timestamp, component name, log level). Note that the loggers returned by this function will always look to standard output streams (e.g. <span class="tt">std::cout</span>).</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 Advanced Topics</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
 Custom Output Streams</h3>
 <p><a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a> accepts an optional output stream parameter:</p>
 <div class="fragment"><div class="line"><span class="comment">// Create a logger that writes to a file instead of stdout</span></div>
 <div class="line">std::ofstream logFile(<span class="stringliteral">&quot;mylog.txt&quot;</span>);</div>
 <div class="line"><span class="keyword">auto</span> fileLogger =</div>
 <div class="line">    <a class="code hl_function" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(<span class="stringliteral">&quot;Component&quot;</span>, <a class="code hl_enumvalue" href="#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>, &amp;logFile);</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
 Logger Cloning</h3>
 <p>Loggers can be cloned to create independent instances with optional modifications to the name and/or log level. This is particularly useful when creating sub-component loggers or when you need multiple loggers with similar configurations.</p>
 <div class="fragment"><div class="line"><span class="comment">// Create a base logger</span></div>
@@ -268,7 +268,7 @@ Logger Cloning</h3>
 <div class="line"><span class="comment">// Common pattern: Create sub-component loggers</span></div>
 <div class="line"><span class="keyword">auto</span> updaterLogger = baseLogger-&gt;cloneWithSuffix(<span class="stringliteral">&quot;Updater&quot;</span>);</div>
 <div class="line"><span class="keyword">auto</span> smootherLogger = baseLogger-&gt;cloneWithSuffix(<span class="stringliteral">&quot;Smoother&quot;</span>);</div>
-</div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
+</div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
 Common Use Cases</h4>
 <p><b>Sub-component loggers:</b> When a class has multiple internal components that need separate logging:</p>
 <div class="fragment"><div class="line"><span class="comment">// Example: Class with multiple internal components that need separate logging</span></div>
@@ -296,7 +296,7 @@ Common Use Cases</h4>
 <div class="line"><span class="keyword">auto</span> productionLogger =</div>
 <div class="line">    <a class="code hl_function" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(<span class="stringliteral">&quot;Production&quot;</span>, <a class="code hl_enumvalue" href="#gga9b12dd924a4bd3aed921a33779ece95bae741b1f01e440f80c3ded9911018f796">Acts::Logging::WARNING</a>);</div>
 <div class="line"><span class="keyword">auto</span> testLogger = productionLogger-&gt;clone(<span class="stringliteral">&quot;Test&quot;</span>, <a class="code hl_enumvalue" href="#gga9b12dd924a4bd3aed921a33779ece95ba7f2c44c8d8247eeb651a2b8137c51634">Acts::Logging::VERBOSE</a>);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 Logger Integration</h2>
 <p>In case you are using ACTS in another framework which comes with its own logging facility (e.g. Gaudi) you can pipe the logging output from ACTS tools and algorithms to your framework's logging system by supplying different implementations of:</p>
 <ul>
@@ -318,7 +318,7 @@ Logger Integration</h2>
 </div><!-- fragment --></li>
 <li><b>Passing logger instances to high level components</b> (recommended), and rely on ACTS code to pass them into lower level classes / functions. This is the preferred approach as it allows proper control of log levels from top-level experiment code.</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 Logging Thresholds</h2>
 <p>Generally, log levels in ACTS are only of informative value: even <a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba0fa06a343ee1bc0d2de92eefed40526e">Acts::Logging::Level::ERROR</a> and <a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba59165d66154c9163f109689239d9f987">Acts::Logging::Level::FATAL</a> will only print messages, <b>and not terminate execution</b>.</p>
 <p>This is desirable in an experiment context, where jobs should not immediately terminate when ACTS encounters something that is logged as an error. In a test context, however, this behavior is not optimal: the tests should ensure in known configurations errors do not occur, or only in specific circumstances. To solve this, ACTS implements an optional log <em>threshold</em> mechanism.</p>

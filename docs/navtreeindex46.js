@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"group__root__plugin.html#ga96a02a3e95f99b7e04bfb6007ab45486":[5,8,13,15],
 "group__root__plugin.html#ga974d1b63629e3c61e3547034a015676d":[5,8,13,14],
 "group__root__plugin.html#gaa1f017f131f32f960d35924a66984c9a":[5,8,13,18],
 "group__root__plugin.html#gad128c3436a3d02ecf8481fc60d7ff6b5":[5,8,13,16],
@@ -31,7 +32,7 @@ var NAVTREEINDEX46 =
 "hierarchy.html":[8,1],
 "howto_profiling.html":[2,1],
 "howto_release.html":[2,2],
-"howto_spack.html":[2,4],
+"howto_spack.html":[2,5],
 "index.html":[],
 "index.html":[0],
 "namespace_acts.html":[6,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e":[6,0,0,758],
 "namespace_acts.html#a53977e204b4bd2fafd0c06c26ab2332a":[6,0,0,930],
 "namespace_acts.html#a53ac0eeb93f715e2cd742e45bbc6a706":[6,0,0,539],
-"namespace_acts.html#a56a5418f50fb82641b5616441d39dea1":[6,0,0,741],
-"namespace_acts.html#a571167e3129b91100b194e36a1277f8d":[6,0,0,570]
+"namespace_acts.html#a56a5418f50fb82641b5616441d39dea1":[6,0,0,741]
 };

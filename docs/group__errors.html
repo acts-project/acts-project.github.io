@@ -126,10 +126,10 @@ $(function(){initNavTree('group__errors.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
 Error Handling in ACTS</h1>
 <p>ACTS uses <span class="tt">std::error_code</span> from the C++ Standard Library for type-safe, extensible error handling. This approach allows error codes to be returned from functions without throwing exceptions, while maintaining compatibility with the standard error handling mechanisms. Error codes are typically used with the <a class="el" href="class_acts_1_1_result.html">Acts::Result</a> type for ergonomic error propagation.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
 std::error_code Overview</h2>
 <p><span class="tt">std::error_code</span> is a platform-dependent error code that consists of:</p>
 <ul>
@@ -137,7 +137,7 @@ std::error_code Overview</h2>
 <li>A reference to an error category (error domain)</li>
 </ul>
 <p>Various ACTS components define their own strongly-typed error enum class and register it with the standard library's error code system using <span class="tt">std::is_error_code_enum</span> specialization. This allows seamless conversion to <span class="tt">std::error_code</span> while preserving type safety.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
 Error Enum Pattern</h2>
 <p>All ACTS error enums follow a consistent pattern:</p>
 <div class="fragment"><div class="line"><span class="keyword">enum class</span> MyComponentError {</div>
@@ -149,7 +149,7 @@ Error Enum Pattern</h2>
 <div class="line"><span class="comment">// Factory function to create std::error_code</span></div>
 <div class="line">std::error_code <a class="code hl_function" href="namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95">make_error_code</a>(MyComponentError e);</div>
 </div><!-- fragment --><p>The enums are registered with STL by specializing <span class="tt">std::is_error_code_enum&lt;T&gt;</span> to enable implicit conversion to <span class="tt">std::error_code</span>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
 Usage with Result Type</h2>
 <p>Error codes are typically used with the <a class="el" href="class_acts_1_1_result.html">Acts::Result</a> type, which encapsulates either a successful result or an error:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_result.html">Acts::Result&lt;Track&gt;</a> fitTrack(<span class="keyword">const</span> TrackParameters&amp; params) {</div>
@@ -175,7 +175,7 @@ Usage with Result Type</h2>
 <div class="line">  }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>The <a class="el" href="class_acts_1_1_result.html">Acts::Result</a> type defaults to using <span class="tt">std::error_code</span> as its error type, making it compatible with all ACTS error enums.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
 Benefits</h2>
 <ul>
 <li><b>Type Safety</b>: Each component has its own error enum preventing confusion between different error domains</li>

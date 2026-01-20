@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"class_acts_1_1_broad_triplet_seed_filter.html#a97d8882510b2ca132f09740fae1e817c":[8,0,0,65,4],
 "class_acts_1_1_calibration_context.html":[5,1,0],
 "class_acts_1_1_candidates_for_middle_sp.html":[6,0,0,92],
 "class_acts_1_1_candidates_for_middle_sp.html":[8,0,0,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "class_acts_1_1_cone_volume_bounds.html#afc2a123b6b0faa321030fb46c31306f1":[8,0,0,78,4],
 "class_acts_1_1_const_track_state_type.html":[6,0,0,107],
 "class_acts_1_1_const_track_state_type.html":[8,0,0,82],
-"class_acts_1_1_const_track_state_type.html#a282017f9970a75143e78c309902484a2":[6,0,0,107,7],
-"class_acts_1_1_const_track_state_type.html#a282017f9970a75143e78c309902484a2":[8,0,0,82,7]
+"class_acts_1_1_const_track_state_type.html#a282017f9970a75143e78c309902484a2":[6,0,0,107,7]
 };

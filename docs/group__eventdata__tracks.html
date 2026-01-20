@@ -136,7 +136,7 @@ High-level Track Event Data Model</h1>
 <hr  />
 <h2 class="doxsection"><a class="anchor" id="edm_track_conceptual"></a>
 Conceptual</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
 Architecture</h3>
 <p>The Track EDM is structured such that the memory-layout can be SoA, while presenting an object-oriented interface for convenient usage.</p>
 <p>The image below shows this object-oriented access model for the example of the track container and track proxy object. The track container holds vectors of the various pieces of information, and has methods to add a track, and to allow iteration over all tracks. This iteration, or index based access, yields a track proxy object, which exposes the properties as methods returning references, while internally only holding a pointer to and an index into the track container. The types are built in a way that preserves const-correctness, i.e. even though a track proxy is a value type which can be copied, it will not allow modification of the underlying track container if it is immutable:</p>
@@ -148,7 +148,7 @@ Architecture</h3>
 <div class="line"><span class="keyword">auto</span> trackProxy = trackContainer.getTrack(5); <span class="comment">// is const, even as an lvalue</span></div>
 </div><!-- fragment --><p><img src="edm/proxy.png" alt="Illustration of the proxy pattern used in the track EDM. The track proxy logically represents a single track, and points to the data stored in the track container." class="inline"/></p>
 <p>The track EDM is fully agnostic to the concrete persistency framework of an experiment. This avoids having to convert the data between different representations, if implemented correctly.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
 Implementation</h3>
 <p>To make the EDM implementation independent of an experiment persistency framework, it is separated into a <em>frontend layer</em> and a <em>backend layer</em>. The frontend layer contains user-facing getters and setters, as well as convenience methods that can be helpful. These methods are located either in the proxy objects or in the containers, depending on whether they operate on a single element or the entire container.</p>
 <p>Overall, there are four main classes that make up the frontend layer: <a class="el" href="class_acts_1_1_track_proxy.html">Acts::TrackProxy</a>, <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a>, <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a> and <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>. The latter serves as the track state container, where the name indicates that it is able to handle a branching tree structure of track states. <span class="tt">TrackProxy</span> and <span class="tt">TrackStateProxy</span> expose methods to get the local track parameters and covariance, corresponding reference surface, and also includes global statistics like the total number of measurements, outliers or holes in case of <span class="tt">TrackProxy</span>. <span class="tt">TrackProxy</span> also has a method to conveniently iterate over the associated track states from the last track state to the first one yielding <span class="tt">TrackStateProxy</span> objects from the track state container. In the common case of a track from the center of a cylindrical detector going outward, the default iteration order is from the outside inwards.</p>
@@ -276,7 +276,7 @@ Accessors</h2>
 <div class="line">    <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#a79f3daeca2329cfd19dc3baa49e667d0">Acts::ProxyAccessor&lt;float&gt;</a> extra(<span class="stringliteral">&quot;extra&quot;</span>);</div>
 <div class="line">    extra(track) = value;</div>
 <div class="line">}</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
 Holders</h2>
 <p>The <a class="el" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> implements a mechanism to optionally own the backends that it is constructed with. This is implemented using a <em>holder</em> type, which is passed either as a template parameter, or deduced automatically.</p>
 <p>Available default holders are:</p>
@@ -293,7 +293,7 @@ Holders</h2>
 <div class="line"> </div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer&lt;Acts::VectorTrackContainer, Acts::VectorMultiTrajectory, std::shared_ptr&gt;</a></div>
 <div class="line">tc{vtc, mtj};</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
 How to create a track from scratch</h3>
 <p>Tracks can be created directly from the EDM interface. You start by creating or obtaining a mutable track container:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> tc{<a class="code hl_class" href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a>{}, Acts::VectorMutiTrajectory{}};</div>
@@ -315,9 +315,9 @@ How to create a track from scratch</h3>
 <div class="fragment"><div class="line">track.reverseTrackStates();</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="edm_track_backends"></a>
 Track EDM backends</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
 Backends shipped with ACTS</h3>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
 Transient vector backend</h4>
 <p>The transient vector backend implements the reference backend for the track EDM. It does not implement any persistency directly. The implementation of this backend for both track and track state containers uses separate classes for the mutable and const versions, in order to fully comply with const correctness. It also uses a common base class internally, which is however an implementation detail.</p>
 <p>To build a track container with this backend, you can write</p>
@@ -334,7 +334,7 @@ Transient vector backend</h4>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>There are currently no restrictions on types that can be used as dynamic columns. Any type can be stored and retrieved back from the backend. <br  />
 <br  />
  Keep in mind that the transient vector backend does not support persistency, meaning that there is no mechanism to serialize dynamic columns (or static columns for that matter) to disk and read them back in.</dd></dl>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
 PODIO backend</h4>
 <p>The PODIO track EDM backend shipped with the library uses a custom PODIO-EDM defined in <span class="tt">edm.yml</span> in the ACTS core repository.</p>
 <p>The working model is this:</p>
@@ -370,7 +370,7 @@ Helper for <span class="tt">Surface</span>s and <span class="tt">SourceLink</spa
 <p>Specifically, the PODIO backends will, before persisting and after reading, consult the helper object to convert between an in-memory <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> and an optional identifier. The identifier a 64-bit integer whose interpretation can depend on the experiment, it could be a sensor index (hash in ATLAS) for example.</p>
 <p>If no identifier is returned, that means the surface is not expressible as an identifier, and it needs to be persisted directly, which is implemented centrally. In that case, the defining parameters of the surface are saved, and the object is rebuilt when reading. An example of this is in the case of a reference surface like a perigee surface that represents the beam axis, which is not commonly identified in the experiment geometry.</p>
 <p>A similar mechanism is used for source links. Remember that <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a> is type-erased proxy object that stands for an experiment-specific <em>uncalibrated</em> measurement. As such, the PODIO backend cannot directly store these. For use with the PODIO backends, source links need to be convertible to and from 64-bit integers, with the help of the helper object, that can communicate with the experiment infrastructure.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 How to build a backend</h3>
 <p>Both track and track state backends need to conform to respective concepts. Effectively, the backend has to allow for collection functionality, like getting the current size etc.</p>
 <p>Further, the backend needs to respond to queries for properties of the elements, where the element is identified by an index.</p>
@@ -409,7 +409,7 @@ How to build a backend</h3>
 <div class="line">}</div>
 </div><!-- fragment --><p>The <span class="tt">default</span> statement deals with <a class="el" href="#track_edm_dynamic_columns">Dynamic columns</a>. For support of dynamic columns, the backend needs to implement <span class="tt">hasColumn_impl</span> to return if a column exists, mutable backends need to implement <span class="tt">addColumn_impl</span> which adds a column with a type and a string name. <span class="tt">copyDynamicFrom_impl</span> and <span class="tt">ensureDynamicColumn_impl</span> on mutable backends allows copying dynamic content between container backends. <span class="tt">dynamicKeys_impl</span> returns an iterator pair that informs the caller of which dynamic keys are registered. This is also used in dynamic column copies.</p>
 <p>Both backend types return parameter vectors and covariance matrices. This is always done as <span class="tt">Eigen</span> maps, which have reference semantics into the backing storage.</p>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
 TrackContainer backend</h4>
 <ul>
 <li>Mutable &amp; const<ul>
@@ -433,7 +433,7 @@ TrackContainer backend</h4>
 </ul>
 </li>
 </ul>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 MultiTrajectory (track state) backend</h4>
 <p>The track state container can <a class="el" href="#track_edm_component_sharing">share components</a>. This is implemented for the shareable components by the interface layer looking up a <em>component</em> that stores an index into a separate shareable-component-container. Then, functions exists which return <span class="tt">Eigen</span> maps into the relevant backend storage based on the index looked up as a component before.</p>
 <p>The track state container also handles <em>calibrated</em> measurement in a packed way. This is to say, that for $N$ dimensional measurement, the backend can store only the dimension $N$ and then $N$ numbers representing the measurement vector and \(N\times N\) numbers for the associated covariance matrix. To enable this, a mutable backend exposes <span class="tt">allocateCalibrated_impl</span> which accepts a track state index and the measurement size, and ensures storage is available to hand out a reference into associated backing storage. An example is the transient vector backend, which stores the offset into measurement and covariance matrix vector, and ensures its size is consistent.</p>

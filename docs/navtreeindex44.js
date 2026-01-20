@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"concept_acts_1_1_experimental_1_1_composite_space_point_ptr.html":[7,0,2,4],
 "concept_acts_1_1_free_track_parameters_concept.html":[6,0,0,506],
 "concept_acts_1_1_free_track_parameters_concept.html":[7,0,22],
 "concept_acts_1_1_grid_bin_collection.html":[6,0,0,507],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58":[5,8,4,15],
 "group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb":[5,8,4,16],
 "group__errors.html":[5,4],
-"group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd":[5,4,12],
-"group__errors.html#ga1ce88ea0e4490538ca747b2877e17317":[5,4,3]
+"group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd":[5,4,12]
 };
