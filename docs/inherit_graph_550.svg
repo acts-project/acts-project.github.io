@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_fatras_1_1_casts_1_1_abs_eta.html" target="_top" xlink:title="Retrieve the direction absolute pseudo&#45;rapidity.">
+<g id="a_Node000000"><a xlink:href="struct_acts_fatras_1_1_casts_1_1_abs_vz.html" target="_top" xlink:title="Retrieve the longitudinal absolute distance of the position to the origin.">
 <polygon fill="white" stroke="#666666" points="106,-30 0,-30 0,0 106,0 106,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsFatras::Casts::</text>
-<text text-anchor="middle" x="53" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">AbsEta</text>
+<text text-anchor="middle" x="53" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">AbsVz</text>
 </a>
 </g>
 </g>

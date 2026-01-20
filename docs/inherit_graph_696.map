@@ -1,19 +1,33 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,129,120,155"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_assertion_failure_exception.html" title="Exception type for assertion failures This class captures the information available to the throw_asse..." alt="" coords="168,5,395,31"/>
-<area shape="poly" id="edge289_Node000000_Node000001" title=" " alt="" coords="80,117,117,77,141,56,167,40,195,28,197,33,169,44,144,61,121,80,84,120"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_fusing_exception.html" title="Exception thrown when portals cannot be fused." alt="" coords="180,55,383,80"/>
-<area shape="poly" id="edge290_Node000000_Node000002" title=" " alt="" coords="97,120,167,89,207,77,209,83,169,94,99,125"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_portal_merging_exception.html" title="Exception thrown when portals cannot be merged." alt="" coords="175,104,388,129"/>
-<area shape="poly" id="edge291_Node000000_Node000003" title=" " alt="" coords="133,131,174,126,175,132,134,137"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_surface_merging_exception.html" title="Exception type failures to merge two surfaces." alt="" coords="169,153,393,179"/>
-<area shape="poly" id="edge292_Node000000_Node000004" title=" " alt="" coords="134,147,170,151,169,156,133,152"/>
-<area shape="rect" id="Node000005" href="$struct_acts_plugins_1_1_no_edges_error.html" title="Error that is thrown if no edges are found." alt="" coords="185,203,378,228"/>
-<area shape="poly" id="edge293_Node000000_Node000005" title=" " alt="" coords="101,158,169,187,214,200,212,205,167,193,99,163"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="212,252,351,277"/>
-<area shape="poly" id="edge294_Node000000_Node000006" title=" " alt="" coords="84,163,121,202,144,221,169,237,213,253,211,258,167,242,141,225,117,206,81,167"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_logging_1_1_threshold_failure.html" title="Custom exception class so threshold failures can be caught." alt="" coords="468,213,649,253"/>
-<area shape="poly" id="edge295_Node000006_Node000007" title=" " alt="" coords="364,252,467,240,468,246,365,258"/>
-<area shape="rect" id="Node000008" href="$class_acts_plugins_1_1_detray_unsupported_material_exception.html" title=" " alt="" coords="443,277,675,317"/>
-<area shape="poly" id="edge296_Node000006_Node000008" title=" " alt="" coords="365,272,443,281,442,286,364,277"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,541,124,566"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html" title=" " alt="" coords="217,277,448,317"/>
+<area shape="poly" id="edge297_Node000000_Node000001" title=" " alt="" coords="68,526,79,482,98,428,128,373,148,349,170,327,192,314,216,304,218,309,195,318,174,331,151,352,133,376,103,430,84,484,73,527"/>
+<area shape="rect" id="Node000007" href="$struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html" title=" " alt="" coords="217,341,448,381"/>
+<area shape="poly" id="edge298_Node000000_Node000007" title=" " alt="" coords="73,527,87,495,109,458,136,422,170,391,193,379,216,370,218,375,195,384,174,396,140,425,113,461,92,497,78,529"/>
+<area shape="rect" id="Node000008" href="$struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html" title=" " alt="" coords="217,405,448,445"/>
+<area shape="poly" id="edge299_Node000000_Node000008" title=" " alt="" coords="83,528,121,490,145,471,171,455,216,438,218,443,173,460,148,475,125,494,87,532"/>
+<area shape="rect" id="Node000009" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_01_4.html" title=" " alt="" coords="194,662,471,717"/>
+<area shape="poly" id="edge300_Node000000_Node000009" title=" " alt="" coords="87,575,125,612,173,647,201,659,199,664,171,652,121,616,83,578"/>
+<area shape="rect" id="Node000010" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_vector_multi_trajectory_01_4.html" title=" " alt="" coords="218,741,447,781"/>
+<area shape="poly" id="edge301_Node000000_Node000010" title=" " alt="" coords="76,578,90,613,110,653,138,694,174,727,195,739,219,748,217,753,193,744,170,731,134,697,106,656,85,615,72,580"/>
+<area shape="rect" id="Node000011" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_01_4.html" title=" " alt="" coords="172,805,493,845"/>
+<area shape="poly" id="edge302_Node000000_Node000011" title=" " alt="" coords="72,579,82,626,101,684,131,742,150,769,174,791,192,803,189,807,170,795,146,772,126,745,96,686,77,627,67,580"/>
+<area shape="rect" id="Node000012" href="$struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html" title=" " alt="" coords="218,469,447,509"/>
+<area shape="poly" id="edge303_Node000000_Node000012" title=" " alt="" coords="117,534,171,519,224,507,225,512,173,524,119,539"/>
+<area shape="rect" id="Node000013" href="$struct_acts_1_1_supports_bound_parameters.html" title=" " alt="" coords="217,533,448,573"/>
+<area shape="poly" id="edge304_Node000000_Node000013" title=" " alt="" coords="138,551,217,551,217,556,138,556"/>
+<area shape="rect" id="Node000014" href="$struct_acts_1_1missing__specialization.html" title=" " alt="" coords="229,597,436,637"/>
+<area shape="poly" id="edge305_Node000000_Node000014" title=" " alt="" coords="119,568,173,583,230,596,228,601,171,588,117,573"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,213,121,238"/>
+<area shape="poly" id="edge310_Node000002_Node000001" title=" " alt="" coords="109,241,173,263,220,275,219,280,171,268,107,246"/>
+<area shape="poly" id="edge311_Node000002_Node000007" title=" " alt="" coords="85,247,123,289,147,310,173,327,218,344,216,349,171,332,144,314,119,293,81,251"/>
+<area shape="poly" id="edge312_Node000002_Node000008" title=" " alt="" coords="77,250,91,283,112,322,139,360,174,391,195,403,218,412,216,417,192,408,170,395,135,363,107,324,86,285,72,252"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_01_4.html" title=" " alt="" coords="202,198,463,253"/>
+<area shape="poly" id="edge306_Node000002_Node000003" title=" " alt="" coords="135,223,201,223,201,228,135,228"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_is_read_only_multi_trajectory_3_01_const_vector_multi_trajectory_01_4.html" title=" " alt="" coords="218,5,447,45"/>
+<area shape="poly" id="edge307_Node000002_Node000004" title=" " alt="" coords="72,199,86,165,107,126,135,87,170,55,193,43,217,34,219,39,195,47,174,59,139,91,112,129,91,168,77,201"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_01_4.html" title=" " alt="" coords="180,69,485,109"/>
+<area shape="poly" id="edge308_Node000002_Node000005" title=" " alt="" coords="81,200,119,158,144,137,171,119,199,107,201,112,173,124,147,141,123,162,85,203"/>
+<area shape="rect" id="Node000006" href="$struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html" title=" " alt="" coords="218,133,447,173"/>
+<area shape="poly" id="edge309_Node000002_Node000006" title=" " alt="" coords="107,205,171,183,219,171,220,176,173,188,109,210"/>
 </map>

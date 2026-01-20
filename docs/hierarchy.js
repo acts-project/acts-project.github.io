@@ -579,7 +579,6 @@ var hierarchy =
     [ "Acts::MaterialValidater::Config", "struct_acts_1_1_material_validater_1_1_config.html", null ],
     [ "Acts::MaterialVolume", "struct_acts_1_1_material_volume.html", null ],
     [ "Acts::MbfSmoother", "class_acts_1_1_mbf_smoother.html", null ],
-    [ "Acts::MbfSmoother::InternalTrackState::Measurement", "struct_acts_1_1_mbf_smoother_1_1_internal_track_state_1_1_measurement.html", null ],
     [ "Acts::MeasurementSelector", "class_acts_1_1_measurement_selector.html", null ],
     [ "Acts::MeasurementSelectorCuts", "struct_acts_1_1_measurement_selector_cuts.html", null ],
     [ "Acts::MiddleSpInfo", "struct_acts_1_1_middle_sp_info.html", null ],

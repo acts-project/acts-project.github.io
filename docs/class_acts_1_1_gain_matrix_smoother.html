@@ -140,8 +140,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aab12ec3a444a5b2391451d27b821f1a2" id="r_aab12ec3a444a5b2391451d27b821f1a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab12ec3a444a5b2391451d27b821f1a2">calculate</a> (void *ts, void *prev_ts, const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;filtered, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;filteredCovariance, const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;smoothed, const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;predicted, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;predictedCovariance, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;smoothedCovariance, const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;jacobian, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:aab12ec3a444a5b2391451d27b821f1a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate smoothed parameters for a single track state using gain matrix formalism.  <br /></td></tr>
+<tr class="memitem:ad27ff8963ddf26a17c8ba0171dbae904" id="r_ad27ff8963ddf26a17c8ba0171dbae904"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad27ff8963ddf26a17c8ba0171dbae904">calculate</a> (<a class="el" href="namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a> ts, <a class="el" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> prev_ts, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:ad27ff8963ddf26a17c8ba0171dbae904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate smoothed parameters for a single track state using gain matrix formalism.  <br /></td></tr>
 <tr class="memitem:acf39dffc609a36adfd027d51c0b56295" id="r_acf39dffc609a36adfd027d51c0b56295"><td class="memTemplParams" colspan="2">template&lt;typename traj_t&gt; </td></tr>
 <tr class="memitem:acf39dffc609a36adfd027d51c0b56295 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf39dffc609a36adfd027d51c0b56295">operator()</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, traj_t &amp;trajectory, std::size_t entryIndex, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) const</td></tr>
 <tr class="memdesc:acf39dffc609a36adfd027d51c0b56295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the Kalman smoothing for one trajectory.  <br /></td></tr>
@@ -195,8 +195,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aab12ec3a444a5b2391451d27b821f1a2" name="aab12ec3a444a5b2391451d27b821f1a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab12ec3a444a5b2391451d27b821f1a2">&#9670;&#160;</a></span>calculate()</h2>
+<a id="ad27ff8963ddf26a17c8ba0171dbae904" name="ad27ff8963ddf26a17c8ba0171dbae904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27ff8963ddf26a17c8ba0171dbae904">&#9670;&#160;</a></span>calculate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,47 +204,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::GainMatrixSmoother::calculate </td>
           <td>(</td>
-          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ts</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a></td>          <td class="paramname"><span class="paramname"><em>ts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>prev_ts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filtered</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filteredCovariance</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>smoothed</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#aa38eea482f694d4d3bc9057c1e94a25e">GetParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>predicted</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>predictedCovariance</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>smoothedCovariance</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a23174d3f3869acea4f59ab5a0451f592">GetCovariance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>jacobian</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a></td>          <td class="paramname"><span class="paramname"><em>prev_ts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -258,14 +223,7 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ts</td><td>Current track state to be smoothed </td></tr>
-    <tr><td class="paramname">prev_ts</td><td>Previous track state (already smoothed) </td></tr>
-    <tr><td class="paramname">filtered</td><td>Delegate to get filtered parameters </td></tr>
-    <tr><td class="paramname">filteredCovariance</td><td>Delegate to get filtered covariance </td></tr>
-    <tr><td class="paramname">smoothed</td><td>Delegate to get smoothed parameters </td></tr>
-    <tr><td class="paramname">predicted</td><td>Delegate to get predicted parameters </td></tr>
-    <tr><td class="paramname">predictedCovariance</td><td>Delegate to get predicted covariance </td></tr>
-    <tr><td class="paramname">smoothedCovariance</td><td>Delegate to get smoothed covariance </td></tr>
-    <tr><td class="paramname">jacobian</td><td>Delegate to get Jacobian matrix </td></tr>
+    <tr><td class="paramname">prev_ts</td><td>Previous track state (in forward direction) </td></tr>
     <tr><td class="paramname">logger</td><td>Logger for verbose output </td></tr>
   </table>
   </dd>
