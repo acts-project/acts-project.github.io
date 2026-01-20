@@ -148,8 +148,8 @@ $(function(){initNavTree('_null_b_field_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_acts_1_1_null_b_field.html#a8075b7c3a21351d898e783e9aa3cdf23">   34</a></span>  <a class="code hl_class" href="class_acts_1_1_result.html">Result&lt;Vector3&gt;</a> <a class="code hl_function" href="class_acts_1_1_null_b_field.html#a8075b7c3a21351d898e783e9aa3cdf23">getField</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&amp; position,</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                           <a class="code hl_typedef" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&amp; cache)<span class="keyword"> const override </span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    (void)position;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    (void)cache;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(position);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(cache);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_result.html#ab5adc37a48262f97eeb5fe9b16159401">Result&lt;Vector3&gt;::success</a>(Vector3::Zero());</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  }</div>
 </div>

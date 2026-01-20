@@ -147,7 +147,7 @@ $(function(){initNavTree('_charge_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="struct_acts_1_1_neutral.html#a19472d75a5f975fd64a08ba770c57309">   65</a></span>  <span class="keyword">constexpr</span> <span class="keyword">explicit</span> <a class="code hl_function" href="struct_acts_1_1_neutral.html#a19472d75a5f975fd64a08ba770c57309">Neutral</a>(<span class="keywordtype">float</span> <a class="code hl_function" href="struct_acts_1_1_neutral.html#a7f45240e0f6c02dbbcf339c5e86b7758">absQ</a>) <span class="keyword">noexcept</span> {</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    assert((<a class="code hl_function" href="struct_acts_1_1_neutral.html#a7f45240e0f6c02dbbcf339c5e86b7758">absQ</a> == 0) &amp;&amp; <span class="stringliteral">&quot;Input charge must be zero&quot;</span>);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    (void)<a class="code hl_function" href="struct_acts_1_1_neutral.html#a7f45240e0f6c02dbbcf339c5e86b7758">absQ</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(<a class="code hl_function" href="struct_acts_1_1_neutral.html#a7f45240e0f6c02dbbcf339c5e86b7758">absQ</a>);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  }</div>
 </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
@@ -169,7 +169,7 @@ $(function(){initNavTree('_charge_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00092" data-start="{" data-end="}">
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="struct_acts_1_1_neutral.html#ab78b807c80688f056b48b97511475785">   92</a></span>  <span class="keyword">constexpr</span> <span class="keywordtype">double</span> <a class="code hl_function" href="struct_acts_1_1_neutral.html#ab78b807c80688f056b48b97511475785">qOverP</a>(<span class="keywordtype">double</span> momentum, <span class="keywordtype">float</span> signedQ) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    assert((signedQ != 0) &amp;&amp; <span class="stringliteral">&quot;charge must be 0&quot;</span>);</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    (void)signedQ;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(signedQ);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordflow">return</span> 1.0f / momentum;</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  }</div>
 </div>
@@ -193,7 +193,7 @@ $(function(){initNavTree('_charge_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00119" data-start="{" data-end="}">
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="struct_acts_1_1_singly_charged.html#a47b718b924c6d53a9a2690cff33ad4ca">  119</a></span>  <span class="keyword">constexpr</span> <span class="keyword">explicit</span> <a class="code hl_function" href="struct_acts_1_1_singly_charged.html#a47b718b924c6d53a9a2690cff33ad4ca">SinglyCharged</a>(<span class="keywordtype">float</span> <a class="code hl_function" href="struct_acts_1_1_singly_charged.html#af53c50119d5b1aed8c64678f17403628">absQ</a>) <span class="keyword">noexcept</span> {</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    assert((<a class="code hl_function" href="struct_acts_1_1_singly_charged.html#af53c50119d5b1aed8c64678f17403628">absQ</a> == <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a705fd87e8079f6d88222965eb977437a">UnitConstants::e</a>) &amp;&amp; <span class="stringliteral">&quot;Input charge magnitude must be e&quot;</span>);</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    (void)<a class="code hl_function" href="struct_acts_1_1_singly_charged.html#af53c50119d5b1aed8c64678f17403628">absQ</a>;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(<a class="code hl_function" href="struct_acts_1_1_singly_charged.html#af53c50119d5b1aed8c64678f17403628">absQ</a>);</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  }</div>
 </div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span></div>

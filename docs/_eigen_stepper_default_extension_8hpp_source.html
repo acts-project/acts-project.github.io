@@ -148,7 +148,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>         <span class="keyword">const</span> <span class="keywordtype">double</span> h = 0., <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&amp; kprev = Vector3::Zero())</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">requires</span>(i &gt;= 0 &amp;&amp; i &lt;= 3)</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    (void)volumeMaterial;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(volumeMaterial);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">auto</span> qop = stepper.qOverP(state);</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">// First step does not rely on previous data</span></div>
@@ -166,7 +166,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80">   73</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80">finalize</a>(<span class="keyword">typename</span> stepper_t::State&amp; state, <span class="keyword">const</span> stepper_t&amp; stepper,</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a>* volumeMaterial, <span class="keyword">const</span> <span class="keywordtype">double</span> h)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    (void)volumeMaterial;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(volumeMaterial);</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    propagateTime(state, stepper, h);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -178,7 +178,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f">   95</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f">finalize</a>(<span class="keyword">typename</span> stepper_t::State&amp; state, <span class="keyword">const</span> stepper_t&amp; stepper,</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a>* volumeMaterial, <span class="keyword">const</span> <span class="keywordtype">double</span> h,</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                <a class="code hl_typedef" href="namespace_acts.html#acdde648ddc34cb68123733bebd224cb7">FreeMatrix</a>&amp; D)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    (void)volumeMaterial;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(volumeMaterial);</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    propagateTime(state, stepper, h);</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">return</span> transportMatrix(state, stepper, h, D);</div>

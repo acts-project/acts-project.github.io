@@ -150,8 +150,8 @@ $(function(){initNavTree('_constant_b_field_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9">   43</a></span>  <a class="code hl_class" href="class_acts_1_1_result.html">Result&lt;Vector3&gt;</a> <a class="code hl_function" href="class_acts_1_1_constant_b_field.html#a6c40bcfcb654b185349a73af1087a7d9">getField</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&amp; position,</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                           <a class="code hl_typedef" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&amp; cache)<span class="keyword"> const override </span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    (void)position;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    (void)cache;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(position);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(cache);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_result.html#ab5adc37a48262f97eeb5fe9b16159401">Result&lt;Vector3&gt;::success</a>(m_BField);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
 </div>

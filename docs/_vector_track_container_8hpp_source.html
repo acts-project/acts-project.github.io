@@ -253,7 +253,7 @@ $(function(){initNavTree('_vector_track_container_8hpp_source.html','',''); });
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    result = result &amp;&amp; m_nSharedHits.size() == <a class="code hl_variable" href="namespace_acts_1_1_types.html#a027d1cd3495c5ef2c7e3636625914f8c">size</a>;</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [key, col] : m_dynamic) {</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>      (void)key;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>      <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span><span class="keyword">&gt;</span>(key);</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>      result = result &amp;&amp; col-&gt;size() == <a class="code hl_variable" href="namespace_acts_1_1_types.html#a027d1cd3495c5ef2c7e3636625914f8c">size</a>;</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    }</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
