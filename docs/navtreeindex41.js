@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"class_acts_fatras_1_1_channelizer.html#adafe54f345c082b47316c8d08bbaa3f2":[8,0,1,8,0],
+"class_acts_fatras_1_1_hit.html":[6,0,2,17],
+"class_acts_fatras_1_1_hit.html":[8,0,1,17],
+"class_acts_fatras_1_1_hit.html#a04df0fe2dd0dc935949f3bbe9fa650dd":[6,0,2,17,2],
 "class_acts_fatras_1_1_hit.html#a04df0fe2dd0dc935949f3bbe9fa650dd":[8,0,1,17,2],
 "class_acts_fatras_1_1_hit.html#a174b334286e81407ee8521d8c3225bc9":[6,0,2,17,17],
 "class_acts_fatras_1_1_hit.html#a174b334286e81407ee8521d8c3225bc9":[8,0,1,17,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "class_acts_plugins_1_1_const_podio_track_state_container.html#ac013ac01bae6ee707252b40beeb30207":[5,8,4,7,9],
 "class_acts_plugins_1_1_const_podio_track_state_container.html#ae66465cae7a7c0456371a0a4d0c94482":[5,8,4,7,10],
 "class_acts_plugins_1_1_const_podio_track_state_container.html#afa16276daa31649e10c084608f5d26f2":[5,8,4,7,4],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#afca15d79b7bd82840abc1b8d764e931c":[5,8,4,7,0],
-"class_acts_plugins_1_1_cuda_track_building.html":[5,8,7,1],
-"class_acts_plugins_1_1_cuda_track_building.html#aa540db0e4d6bf782f291d1faa3af3697":[5,8,7,1,2],
-"class_acts_plugins_1_1_cuda_track_building.html#aafea50a33f74058ff15e4aedff24c496":[5,8,7,1,1],
-"class_acts_plugins_1_1_cuda_track_building.html#aedbec097b25d4b70219b2ec87e0cf2e8":[5,8,7,1,3]
+"class_acts_plugins_1_1_const_podio_track_state_container.html#afca15d79b7bd82840abc1b8d764e931c":[5,8,4,7,0]
 };

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md71',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md75',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md72',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md72',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md73',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md77',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['backend_2',['backend',['../group__eventdata__tracks.html#autotoc_md14',1,'How to build a backend'],['../group__eventdata__tracks.html#autotoc_md16',1,'MultiTrajectory (track state) backend'],['../group__eventdata__tracks.html#autotoc_md13',1,'PODIO backend'],['../group__eventdata__tracks.html#autotoc_md15',1,'TrackContainer backend'],['../group__eventdata__tracks.html#autotoc_md12',1,'Transient vector backend']]],
   ['backends_3',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],
   ['backends_20shipped_20with_20acts_4',['Backends shipped with ACTS',['../group__eventdata__tracks.html#autotoc_md11',1,'']]],

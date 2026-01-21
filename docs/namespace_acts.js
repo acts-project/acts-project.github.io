@@ -330,7 +330,7 @@ var namespace_acts =
     [ "GenericCuboidVolumeBounds", "class_acts_1_1_generic_cuboid_volume_bounds.html", "class_acts_1_1_generic_cuboid_volume_bounds" ],
     [ "GenericFreeTrackParameters", "class_acts_1_1_generic_free_track_parameters.html", "class_acts_1_1_generic_free_track_parameters" ],
     [ "GenericParticleHypothesis", "class_acts_1_1_generic_particle_hypothesis.html", "class_acts_1_1_generic_particle_hypothesis" ],
-    [ "GeometryContext", "class_acts_1_1_geometry_context.html", null ],
+    [ "GeometryContext", "class_acts_1_1_geometry_context.html", "class_acts_1_1_geometry_context" ],
     [ "GeometryContextOstreamWrapper", "struct_acts_1_1_geometry_context_ostream_wrapper.html", "struct_acts_1_1_geometry_context_ostream_wrapper" ],
     [ "GeometryHierarchyMap", "class_acts_1_1_geometry_hierarchy_map.html", "class_acts_1_1_geometry_hierarchy_map" ],
     [ "GeometryHierarchyMapJsonConverter", "class_acts_1_1_geometry_hierarchy_map_json_converter.html", "class_acts_1_1_geometry_hierarchy_map_json_converter" ],

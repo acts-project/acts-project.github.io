@@ -89,7 +89,7 @@ var group__dd4hep__plugin =
     [ "ActsPlugins::collectLayers_dd4hep", "group__dd4hep__plugin.html#ga3c99f54853dcba858260d3f1674478cd", null ],
     [ "ActsPlugins::collectSubDetectors_dd4hep", "group__dd4hep__plugin.html#gad21595c06a72a8d15a45e0bd1210c2bd", null ],
     [ "ActsPlugins::DD4hepBinningHelpers::convertBinning", "group__dd4hep__plugin.html#ga49cc5c92e1a7323a8832f103aba2f002", null ],
-    [ "ActsPlugins::convertDD4hepDetector", "group__dd4hep__plugin.html#gae9a145a4764367377e2b4dda20db5d54", null ],
+    [ "ActsPlugins::convertDD4hepDetector", "group__dd4hep__plugin.html#ga836ea8e26dd40df2f49a4d8feb3a6ace", null ],
     [ "ActsPlugins::createProtoMaterial", "group__dd4hep__plugin.html#ga4272c37f6492ae4029a34ab24d0723c5", null ],
     [ "ActsPlugins::cylinderVolumeHelper_dd4hep", "group__dd4hep__plugin.html#gae2894e2fe6f50d26a5b53721dcbb93c8", null ],
     [ "ActsPlugins::extractSeries", "group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776", null ],

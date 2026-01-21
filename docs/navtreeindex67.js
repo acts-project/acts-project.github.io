@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_vertex_info.html":[8,0,0,447],
+"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,472,7],
+"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,447,7],
+"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,472,8],
 "struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[8,0,0,447,8],
 "struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[6,0,0,472,5],
 "struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[8,0,0,447,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1json_key.html#a65315f561cdfd75172a490959c32ab74":[5,8,11,17,7],
 "struct_acts_1_1json_key.html#a7479744df429c8fea9f8ee928e5aa154":[5,8,11,17,1],
 "struct_acts_1_1json_key.html#a77ee8e1c9c2d44148e205602fabeeab5":[5,8,11,17,2],
-"struct_acts_1_1json_key.html#ab4bf758abab9c803b62f84d04f7d56ab":[5,8,11,17,6],
-"struct_acts_1_1json_key.html#ac597499d6cb57761ed7ca2c95fb1bdd2":[5,8,11,17,3],
-"struct_acts_1_1json_key.html#acb766c511c4478d97563b9568422442c":[5,8,11,17,4],
-"struct_acts_1_1missing__specialization.html":[5,8,11,20],
-"struct_acts_1_1overloaded.html":[6,0,0,326]
+"struct_acts_1_1json_key.html#ab4bf758abab9c803b62f84d04f7d56ab":[5,8,11,17,6]
 };

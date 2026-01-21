@@ -150,6 +150,12 @@ $(function(){initNavTree('_diagnostics_8hpp_source.html','',''); });
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define ACTS_DIAGNOSTIC_POP() _ACTS_DO_PRAGMA(GCC diagnostic pop)</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define ACTS_PUSH_IGNORE_DEPRECATED() \</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">  ACTS_DIAGNOSTIC_PUSH()              \</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">  ACTS_DIAGNOSTIC_IGNORE(&quot;-Wdeprecated-declarations&quot;)</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define ACTS_POP_IGNORE_DEPRECATED() ACTS_DIAGNOSTIC_POP()</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

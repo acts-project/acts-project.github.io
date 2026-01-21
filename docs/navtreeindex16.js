@@ -98,6 +98,10 @@ var NAVTREEINDEX16 =
 "class_acts_1_1_generic_particle_hypothesis.html#adce7bafd3b0807428f87d7857e2ee847":[6,0,0,178,5],
 "class_acts_1_1_generic_particle_hypothesis.html#adce7bafd3b0807428f87d7857e2ee847":[8,0,0,153,5],
 "class_acts_1_1_geometry_context.html":[5,1,1],
+"class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379":[5,1,1,3],
+"class_acts_1_1_geometry_context.html#ab17d1575dfe2bbdd62b3c74aefeddaa0":[5,1,1,2],
+"class_acts_1_1_geometry_context.html#abb5cdcf57a02c2248e4b0ea7b979f5b8":[5,1,1,0],
+"class_acts_1_1_geometry_context.html#aed4503dad274ad5f42e1fbc026eef4d5":[5,1,1,1],
 "class_acts_1_1_geometry_hierarchy_map.html":[6,0,0,181],
 "class_acts_1_1_geometry_hierarchy_map.html":[8,0,0,156],
 "class_acts_1_1_geometry_hierarchy_map.html#a10648175c9b5db4a14f4f4b6668561b0":[6,0,0,181,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "class_acts_1_1_glue_volumes_descriptor.html#a04d6be97dd8f57b4f2708f1df027fc23":[6,0,0,189,4],
 "class_acts_1_1_glue_volumes_descriptor.html#a04d6be97dd8f57b4f2708f1df027fc23":[8,0,0,164,4],
 "class_acts_1_1_glue_volumes_descriptor.html#a2b40f3dfbe8fb60c0bd5e0e8f98a128d":[6,0,0,189,1],
-"class_acts_1_1_glue_volumes_descriptor.html#a2b40f3dfbe8fb60c0bd5e0e8f98a128d":[8,0,0,164,1],
-"class_acts_1_1_glue_volumes_descriptor.html#a7e3fcce4fb9303d79f88d8140713d0d3":[6,0,0,189,3],
-"class_acts_1_1_glue_volumes_descriptor.html#a7e3fcce4fb9303d79f88d8140713d0d3":[8,0,0,164,3],
-"class_acts_1_1_glue_volumes_descriptor.html#a94458ab3c6cd741e9f8d64f0783d8ec2":[6,0,0,189,5],
-"class_acts_1_1_glue_volumes_descriptor.html#a94458ab3c6cd741e9f8d64f0783d8ec2":[8,0,0,164,5]
+"class_acts_1_1_glue_volumes_descriptor.html#a2b40f3dfbe8fb60c0bd5e0e8f98a128d":[8,0,0,164,1]
 };

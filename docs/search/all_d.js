@@ -1,7 +1,7 @@
 var searchData=
 [
   ['k_0',['k',['../struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99',1,'Acts::EigenStepperDefaultExtension::k()'],['../struct_acts_1_1_eigen_stepper_dense_extension.html#ab0e3dcfaf673c8d6c59286a583b3ff68',1,'Acts::EigenStepperDenseExtension::k()']]],
-  ['k_20b_20x_20y_20z_20m_1',['k B x y z M',['../group__magnetic__field.html#autotoc_md72',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['k_20b_20x_20y_20z_20m_1',['k B x y z M',['../group__magnetic__field.html#autotoc_md73',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md77',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['k1_2',['k1',['../struct_acts_1_1_eigen_stepper_1_1_state.html#a0f360a26bd1560084a5d48a757a837e7',1,'Acts::EigenStepper::State']]],
   ['k2_3',['k2',['../struct_acts_1_1_eigen_stepper_1_1_state.html#a2c8b2f45321c4cfdf2ebe45a9fb51fc4',1,'Acts::EigenStepper::State']]],
   ['k3_4',['k3',['../struct_acts_1_1_eigen_stepper_1_1_state.html#a0db50e1ad097a4a0567aac674f52324c',1,'Acts::EigenStepper::State']]],

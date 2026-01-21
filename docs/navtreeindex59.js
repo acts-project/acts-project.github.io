@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[8,0,0,247,0,1],
+"struct_acts_1_1_lin_circle.html":[6,0,0,273],
+"struct_acts_1_1_lin_circle.html":[8,0,0,248],
+"struct_acts_1_1_lin_circle.html#a0f841965beeb0a3911d3070e29503aa3":[6,0,0,273,5],
 "struct_acts_1_1_lin_circle.html#a0f841965beeb0a3911d3070e29503aa3":[8,0,0,248,5],
 "struct_acts_1_1_lin_circle.html#a146d750bba4fdd35339f8319b353db79":[6,0,0,273,8],
 "struct_acts_1_1_lin_circle.html#a146d750bba4fdd35339f8319b353db79":[8,0,0,248,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_navigation_arguments.html":[8,0,0,281],
 "struct_acts_1_1_navigation_arguments.html#a059148ea4e6dd378347fbdc0c841c319":[6,0,0,306,1],
 "struct_acts_1_1_navigation_arguments.html#a059148ea4e6dd378347fbdc0c841c319":[8,0,0,281,1],
-"struct_acts_1_1_navigation_arguments.html#a2755d11ab8f238cb889f46f12899909a":[6,0,0,306,2],
-"struct_acts_1_1_navigation_arguments.html#a2755d11ab8f238cb889f46f12899909a":[8,0,0,281,2],
-"struct_acts_1_1_navigation_arguments.html#a6dcdbe3e378b41c3f78c73982e62f577":[6,0,0,306,0],
-"struct_acts_1_1_navigation_arguments.html#a6dcdbe3e378b41c3f78c73982e62f577":[8,0,0,281,0],
-"struct_acts_1_1_navigation_options.html":[6,0,0,308]
+"struct_acts_1_1_navigation_arguments.html#a2755d11ab8f238cb889f46f12899909a":[6,0,0,306,2]
 };

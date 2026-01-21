@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_0',['M',['../group__magnetic__field.html#autotoc_md71',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md75',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md72',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['m_0',['M',['../group__magnetic__field.html#autotoc_md72',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__magnetic__field.html#autotoc_md73',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md77',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['machine_1',['On your local machine',['../building_acts.html#autotoc_md32',1,'']]],
   ['macros_2',['Using Logging Macros',['../group__logging.html#autotoc_md18',1,'']]],
   ['make_20a_20release_3',['How to make a release',['../howto_release.html',1,'']]],

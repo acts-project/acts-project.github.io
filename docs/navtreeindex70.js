@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html":[8,0,2,3,1],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a3dc76c676d227e5be46c4653bf27fdcb":[6,0,3,5,1,1],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a3dc76c676d227e5be46c4653bf27fdcb":[8,0,2,3,1,1],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a650ab1678d1266f09d021327787d990c":[6,0,3,5,1,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a650ab1678d1266f09d021327787d990c":[8,0,2,3,1,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[6,0,3,5,1,3],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[8,0,2,3,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#a4392863d4a7b96125ac04c51ae6a11f8":[5,8,13,13,2],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#a77a0b0c9747c9b5a11f05ec4c27461ca":[5,8,13,13,3],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#a80256424d848dff07e48957223bf836a":[5,8,13,13,0],
-"struct_acts_plugins_1_1_t_geo_surface_converter.html#ac71494f56abfbd320be26d3362b8d06d":[5,8,13,13,1],
-"struct_acts_plugins_1_1_t_geo_surface_converter.html#afef2117d2de3f34f38a83f7e3e2c710e":[5,8,13,13,4],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[5,8,7,15,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[5,8,7,15,0,1],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[5,8,7,15,0,3]
+"struct_acts_plugins_1_1_t_geo_surface_converter.html#ac71494f56abfbd320be26d3362b8d06d":[5,8,13,13,1]
 };

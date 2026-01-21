@@ -135,7 +135,7 @@ var namespace_acts_plugins =
     [ "collectCompounds_dd4hep", "group__dd4hep__plugin.html#ga178c8eb6030272e74937c7a337ef45d8", null ],
     [ "collectLayers_dd4hep", "group__dd4hep__plugin.html#ga3c99f54853dcba858260d3f1674478cd", null ],
     [ "collectSubDetectors_dd4hep", "group__dd4hep__plugin.html#gad21595c06a72a8d15a45e0bd1210c2bd", null ],
-    [ "convertDD4hepDetector", "group__dd4hep__plugin.html#gae9a145a4764367377e2b4dda20db5d54", null ],
+    [ "convertDD4hepDetector", "group__dd4hep__plugin.html#ga836ea8e26dd40df2f49a4d8feb3a6ace", null ],
     [ "createProtoMaterial", "group__dd4hep__plugin.html#ga4272c37f6492ae4029a34ab24d0723c5", null ],
     [ "cylinderVolumeHelper_dd4hep", "group__dd4hep__plugin.html#gae2894e2fe6f50d26a5b53721dcbb93c8", null ],
     [ "extractSeries", "group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776", null ],

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['r_20i_20z_20j_20b_20r_20z_20m_0',['r i z j B r z M',['../group__magnetic__field.html#autotoc_md71',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md75',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['r_20z_20m_1',['r z M',['../group__magnetic__field.html#autotoc_md71',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md75',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['r_20i_20z_20j_20b_20r_20z_20m_0',['r i z j B r z M',['../group__magnetic__field.html#autotoc_md72',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['r_20z_20m_1',['r z M',['../group__magnetic__field.html#autotoc_md72',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md76',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
   ['recompiling_2',['Alternative to Recompiling',['../howto_profiling.html#autotoc_md43',1,'']]],
   ['reconstruction_3',['Vertex reconstruction',['../tracking.html#vertex-reconstruction',1,'']]],
   ['reference_20argument_20pattern_4',['Const Reference Argument Pattern',['../group__logging.html#autotoc_md20',1,'']]],
