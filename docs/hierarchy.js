@@ -1087,7 +1087,7 @@ var hierarchy =
     ] ],
     [ "detail::Extendable", null, [
       [ "Acts::PropagatorResult< parameters_t, args... >", "struct_acts_1_1_propagator_result.html", null ],
-      [ "Acts::PropagatorState< propagator_options_t, StepperState, NavigatorState, extension_state_t... >", "struct_acts_1_1_propagator_state.html", null ],
+      [ "Acts::PropagatorState< propagator_options_t, typename stepper_t::State, typename navigator_t::State, args... >", "struct_acts_1_1_propagator_state.html", null ],
       [ "Acts::PropagatorResult< parameters_t, result_list >", "struct_acts_1_1_propagator_result.html", null ],
       [ "Acts::PropagatorState< propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t >", "struct_acts_1_1_propagator_state.html", null ]
     ] ],

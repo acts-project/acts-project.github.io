@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_1_1_vertex.html#a66e70d52324c14857968e0386a022e5b":[8,0,0,446,4],
+"class_acts_1_1_vertex.html#a728c8471331a8232b719291c11a3cb91":[6,0,0,471,12],
 "class_acts_1_1_vertex.html#a728c8471331a8232b719291c11a3cb91":[8,0,0,446,12],
 "class_acts_1_1_vertex.html#a8d9ac2bbb9657bb822019fa89a673ad9":[6,0,0,471,6],
 "class_acts_1_1_vertex.html#a8d9ac2bbb9657bb822019fa89a673ad9":[8,0,0,446,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "class_acts_fatras_1_1_barcode.html#af76f8f17e601ddb5f12a05feb87123ab":[8,0,1,3,28],
 "class_acts_fatras_1_1_barcode.html#afd1fca36919e4dc7f8ba7af5038b9b85":[6,0,2,3,15],
 "class_acts_fatras_1_1_barcode.html#afd1fca36919e4dc7f8ba7af5038b9b85":[8,0,1,3,15],
-"class_acts_fatras_1_1_channelizer.html":[6,0,2,8],
-"class_acts_fatras_1_1_channelizer.html":[8,0,1,8],
-"class_acts_fatras_1_1_channelizer.html#adafe54f345c082b47316c8d08bbaa3f2":[6,0,2,8,0]
+"class_acts_fatras_1_1_channelizer.html":[6,0,2,8]
 };

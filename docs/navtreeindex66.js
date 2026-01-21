@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[8,0,0,424,0],
+"struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39":[6,0,0,449,1],
 "struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39":[8,0,0,424,1],
 "struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4":[6,0,0,449,2],
 "struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4":[8,0,0,424,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_value_holder.html#ace59063cff8d17a1d593a2b106a742ca":[8,0,0,442,6],
 "struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[6,0,0,467,0],
 "struct_acts_1_1_value_holder.html#ad248ed1c86939ec8946b2ab9414418f3":[8,0,0,442,0],
-"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[6,0,0,467,5],
-"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[8,0,0,442,5],
-"struct_acts_1_1_vertex_info.html":[6,0,0,472]
+"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[6,0,0,467,5]
 };

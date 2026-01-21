@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"group__edm4hep__plugin.html#ga7e844dcba38aca54a214802db38c7b2f":[5,8,4,14],
+"group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9":[5,8,4,17],
 "group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58":[5,8,4,15],
 "group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb":[5,8,4,16],
 "group__errors.html":[5,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,8,12,4],
 "group__pattern__recog.html":[5,7],
 "group__plugins.html":[5,8],
-"group__propagation.html":[5,9],
-"group__root__plugin.html":[5,8,13],
-"group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,8,13,21]
+"group__propagation.html":[5,9]
 };

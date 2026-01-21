@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_impact_parameters_and_sigma.html#a6d7dee624647a0ff8ff0bb87279a96fe":[8,0,0,193,2],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[6,0,0,218,3],
 "struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[8,0,0,193,3],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html":[6,0,0,219,0],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html":[8,0,0,194,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[8,0,0,247,0,4],
 "struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[6,0,0,272,0,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[8,0,0,247,0,0],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[6,0,0,272,0,2],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[8,0,0,247,0,2],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[6,0,0,272,0,1]
+"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[6,0,0,272,0,2]
 };

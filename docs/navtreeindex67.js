@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[8,0,0,442,5],
+"struct_acts_1_1_vertex_info.html":[6,0,0,472],
 "struct_acts_1_1_vertex_info.html":[8,0,0,447],
 "struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,472,7],
 "struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,447,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_1_1json_key.html#a36a4656d2814cf5eb3f20b6c3177f208":[5,8,11,17,0],
 "struct_acts_1_1json_key.html#a4d6c8db7493b99b58961776e30d1f87f":[5,8,11,17,5],
 "struct_acts_1_1json_key.html#a65315f561cdfd75172a490959c32ab74":[5,8,11,17,7],
-"struct_acts_1_1json_key.html#a7479744df429c8fea9f8ee928e5aa154":[5,8,11,17,1],
-"struct_acts_1_1json_key.html#a77ee8e1c9c2d44148e205602fabeeab5":[5,8,11,17,2],
-"struct_acts_1_1json_key.html#ab4bf758abab9c803b62f84d04f7d56ab":[5,8,11,17,6]
+"struct_acts_1_1json_key.html#a7479744df429c8fea9f8ee928e5aa154":[5,8,11,17,1]
 };
