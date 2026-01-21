@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_fatras_1_1_planar_surface_mask.html#a654e78e36e70d21a4103ee51a1c1d856":[6,0,2,31,0],
 "struct_acts_fatras_1_1_planar_surface_mask.html#a654e78e36e70d21a4103ee51a1c1d856":[8,0,1,31,0],
 "struct_acts_fatras_1_1_planar_surface_mask.html#aa852df72c6ac9688999761cf06bc00c1":[6,0,2,31,2],
 "struct_acts_fatras_1_1_planar_surface_mask.html#aa852df72c6ac9688999761cf06bc00c1":[8,0,1,31,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336":[5,8,8,5,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423":[5,8,8,5,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[6,0,3,5,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,3,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html#a8547f7fedd2d8d3f37f1b47a634a42e2":[6,0,3,5,0,0]
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,3,0]
 };

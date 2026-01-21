@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_surface_reached.html#ad9aed839f90509f81732336d54a4865d":[6,0,0,429,0],
 "struct_acts_1_1_surface_reached.html#ad9aed839f90509f81732336d54a4865d":[8,0,0,404,0],
 "struct_acts_1_1_surface_reached.html#af663217706f0d220d408ca1722b41da0":[6,0,0,429,1],
 "struct_acts_1_1_surface_reached.html#af663217706f0d220d408ca1722b41da0":[8,0,0,404,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_track_state_traits.html":[6,0,0,449],
 "struct_acts_1_1_track_state_traits.html":[8,0,0,424],
 "struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[6,0,0,449,5],
-"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[8,0,0,424,5],
-"struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[6,0,0,449,0]
+"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[8,0,0,424,5]
 };

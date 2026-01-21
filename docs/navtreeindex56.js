@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#ae1f909aed45613a11a4bb70fcfd262c8":[6,0,0,6,38,8],
 "struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#ae1f909aed45613a11a4bb70fcfd262c8":[8,0,0,2,36,8],
 "struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#ae42cbf37c75e348635584f5869e17277":[6,0,0,6,38,24],
 "struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#ae42cbf37c75e348635584f5869e17277":[8,0,0,2,36,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#ada682e7b7f5bacd3b931bcb8800b94c1":[8,0,0,5,1,2],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#adf1b7cbe326aaf6fc65541caf29c5a01":[6,0,0,12,1,5],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#adf1b7cbe326aaf6fc65541caf29c5a01":[8,0,0,5,1,5],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_var.html":[6,0,0,12,2],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_var.html":[8,0,0,5,2]
+"struct_acts_1_1_grid_axis_generators_1_1_eq_var.html":[6,0,0,12,2]
 };

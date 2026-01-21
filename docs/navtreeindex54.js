@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f":[6,0,0,151,1],
 "struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f":[8,0,0,126,1],
 "struct_acts_1_1_eigen_stepper_dense_extension.html":[6,0,0,152],
 "struct_acts_1_1_eigen_stepper_dense_extension.html":[8,0,0,127],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a06b1b899abc38afbf1b23176e2af8372":[6,0,0,6,10,0,1],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a06b1b899abc38afbf1b23176e2af8372":[8,0,0,2,8,0,1],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[6,0,0,6,10,0,0],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[8,0,0,2,8,0,0],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a2a45d648b18f89b5f93f6d049600d99e":[6,0,0,6,10,0,2]
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[8,0,0,2,8,0,0]
 };

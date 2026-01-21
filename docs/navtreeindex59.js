@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[6,0,0,272,0,2],
 "struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[8,0,0,247,0,2],
 "struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[6,0,0,272,0,1],
 "struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[8,0,0,247,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_mutable_proto_layer.html":[6,0,0,305],
 "struct_acts_1_1_mutable_proto_layer.html":[8,0,0,280],
 "struct_acts_1_1_navigation_arguments.html":[6,0,0,306],
-"struct_acts_1_1_navigation_arguments.html":[8,0,0,281],
-"struct_acts_1_1_navigation_arguments.html#a059148ea4e6dd378347fbdc0c841c319":[6,0,0,306,1]
+"struct_acts_1_1_navigation_arguments.html":[8,0,0,281]
 };

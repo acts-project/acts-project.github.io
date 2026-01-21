@@ -1818,7 +1818,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a64dfd29b7fe0b00e8ac549675044383e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an axis direction from its string name.  <br /></td></tr>
 <tr class="memitem:ade6d8e84befdfc830b445832d13cfad6" id="r_ade6d8e84befdfc830b445832d13cfad6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6d8e84befdfc830b445832d13cfad6">axisDirectionName</a> (<a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir)</td></tr>
 <tr class="memdesc:ade6d8e84befdfc830b445832d13cfad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of a binning value as a string.  <br /></td></tr>
-<tr class="memitem:a2e79325890b007508379e03efeb37a97" id="r_a2e79325890b007508379e03efeb37a97"><td class="memTemplParams" colspan="2">template&lt;std::integral T&gt; </td></tr>
+<tr class="memitem:a2e79325890b007508379e03efeb37a97" id="r_a2e79325890b007508379e03efeb37a97"><td class="memTemplParams" colspan="2">template&lt;std::unsigned_integral T&gt; </td></tr>
 <tr class="memitem:a2e79325890b007508379e03efeb37a97 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e79325890b007508379e03efeb37a97">binomial</a> (const T n, const T k)</td></tr>
 <tr class="memdesc:a2e79325890b007508379e03efeb37a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the binomial coefficient n n!  <br /></td></tr>
 <tr class="memitem:a91dd49594c44c4f09d8f2bce66889672" id="r_a91dd49594c44c4f09d8f2bce66889672"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91dd49594c44c4f09d8f2bce66889672">binSequence</a> (std::array&lt; std::size_t, 2u &gt; minMaxBins, std::size_t <a class="el" href="#a10e8cfcddde31768275e024c61f03a70">expand</a>, std::size_t nBins, <a class="el" href="#a8cacb654fb3407f6911cfcf424f69ba7">Acts::AxisBoundaryType</a> <a class="el" href="struct_acts_1_1_remove_pointer.html">type</a>)</td></tr>
@@ -1939,9 +1939,9 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:a1c35547ca44e69f20691e806cb8483ae" id="r_a1c35547ca44e69f20691e806cb8483ae"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t, typename propagator_t, typename propagator_options_t&gt; </td></tr>
 <tr class="memitem:a1c35547ca44e69f20691e806cb8483ae template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c35547ca44e69f20691e806cb8483ae">extrapolateTrackToReferenceSurface</a> (track_proxy_t &amp;track, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;referenceSurface, const propagator_t &amp;propagator, propagator_options_t options, <a class="el" href="#a086febf882ea487434374ef548a90661">TrackExtrapolationStrategy</a> strategy, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger= *<a class="el" href="#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;TrackExtrapolation&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a1c35547ca44e69f20691e806cb8483ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extrapolate a track to a reference surface.  <br /></td></tr>
-<tr class="memitem:a8b715ad8da501aa71d4507ec991513fd" id="r_a8b715ad8da501aa71d4507ec991513fd"><td class="memTemplParams" colspan="2">template&lt;std::integral T&gt; </td></tr>
-<tr class="memitem:a8b715ad8da501aa71d4507ec991513fd template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b715ad8da501aa71d4507ec991513fd">factorial</a> (const T upperN, const T lowerN=1)</td></tr>
-<tr class="memdesc:a8b715ad8da501aa71d4507ec991513fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the factorial of a number N!= N*(N-1)....  <br /></td></tr>
+<tr class="memitem:ad7060727516020acbb2cc66a57ed819d" id="r_ad7060727516020acbb2cc66a57ed819d"><td class="memTemplParams" colspan="2">template&lt;std::unsigned_integral T&gt; </td></tr>
+<tr class="memitem:ad7060727516020acbb2cc66a57ed819d template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7060727516020acbb2cc66a57ed819d">factorial</a> (const T N)</td></tr>
+<tr class="memdesc:ad7060727516020acbb2cc66a57ed819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the the factorial of an integer.  <br /></td></tr>
 <tr class="memitem:a370de2c1bb43783346d4a3cbc749dcd3" id="r_a370de2c1bb43783346d4a3cbc749dcd3"><td class="memTemplParams" colspan="2">template&lt;typename... T&gt; </td></tr>
 <tr class="memitem:a370de2c1bb43783346d4a3cbc749dcd3 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370de2c1bb43783346d4a3cbc749dcd3">fastHypot</a> (T... args)</td></tr>
 <tr class="memdesc:a370de2c1bb43783346d4a3cbc749dcd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast hypotenuse calculation for multiple arguments.  <br /></td></tr>
@@ -2223,6 +2223,9 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:a5f8134aad04c378ce314dd9e115f3c17" id="r_a5f8134aad04c378ce314dd9e115f3c17"><td class="memTemplParams" colspan="2">template&lt;typename T, std::integral P&gt; </td></tr>
 <tr class="memitem:a5f8134aad04c378ce314dd9e115f3c17 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8134aad04c378ce314dd9e115f3c17">pow</a> (T x, P p)</td></tr>
 <tr class="memdesc:a5f8134aad04c378ce314dd9e115f3c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the ordinary power of the number x.  <br /></td></tr>
+<tr class="memitem:accac06e45217490944ef25a4b63f1539" id="r_accac06e45217490944ef25a4b63f1539"><td class="memTemplParams" colspan="2">template&lt;std::unsigned_integral T&gt; </td></tr>
+<tr class="memitem:accac06e45217490944ef25a4b63f1539 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accac06e45217490944ef25a4b63f1539">product</a> (const T lowerN, const T upperN)</td></tr>
+<tr class="memdesc:accac06e45217490944ef25a4b63f1539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the product of all integers within the given integer range (nLower)(nLower +1)(...)(upper-1)(upper) If lowerN is bigger than upperN, the function returns one.  <br /></td></tr>
 <tr class="memitem:a0a9dad86571acffdac06f3af7087d27f" id="r_a0a9dad86571acffdac06f3af7087d27f"><td class="memTemplParams" colspan="2">template&lt;std::size_t kFullSize, typename Derived&gt; </td></tr>
 <tr class="memitem:a0a9dad86571acffdac06f3af7087d27f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt; kFullSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a9dad86571acffdac06f3af7087d27f">projectorToSubspaceIndices</a> (const Eigen::DenseBase&lt; Derived &gt; &amp;projector)</td></tr>
 <tr class="memdesc:a0a9dad86571acffdac06f3af7087d27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a projector to subspace indices.  <br /></td></tr>
@@ -6049,7 +6052,7 @@ template&lt;<a class="el" href="#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundary
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::integral T&gt; </div>
+template&lt;std::unsigned_integral T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -7961,13 +7964,13 @@ template&lt;TrackProxyConcept track_proxy_t, typename propagator_t, typename pro
 
 </div>
 </div>
-<a id="a8b715ad8da501aa71d4507ec991513fd" name="a8b715ad8da501aa71d4507ec991513fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b715ad8da501aa71d4507ec991513fd">&#9670;&#160;</a></span>factorial()</h2>
+<a id="ad7060727516020acbb2cc66a57ed819d" name="ad7060727516020acbb2cc66a57ed819d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7060727516020acbb2cc66a57ed819d">&#9670;&#160;</a></span>factorial()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::integral T&gt; </div>
+template&lt;std::unsigned_integral T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -7975,12 +7978,8 @@ template&lt;std::integral T&gt; </div>
         <tr>
           <td class="memname">T Acts::factorial </td>
           <td>(</td>
-          <td class="paramtype">const T</td>          <td class="paramname"><span class="paramname"><em>upperN</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const T</td>          <td class="paramname"><span class="paramname"><em>N</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const T</td>          <td class="paramname"><span class="paramname"><em>lowerN</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -7990,15 +7989,13 @@ template&lt;std::integral T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Calculates the factorial of a number N!= N*(N-1).... </p>
-<p>*3*2*1 </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Calculate the the factorial of an integer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">upperN</td><td>Upper factor until which the factorial is calculated </td></tr>
-    <tr><td class="paramname">lowerN</td><td>Optional argument to remove the first factors from the calculation </td></tr>
+    <tr><td class="paramname">N</td><td>Number of which the factorial is to be calculated </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Factorial result </dd></dl>
 
 </div>
 </div>
@@ -11405,6 +11402,47 @@ template&lt;typename T, std::integral P&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>x raised to the power p </dd></dl>
+
+</div>
+</div>
+<a id="accac06e45217490944ef25a4b63f1539" name="accac06e45217490944ef25a4b63f1539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accac06e45217490944ef25a4b63f1539">&#9670;&#160;</a></span>product()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::unsigned_integral T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T Acts::product </td>
+          <td>(</td>
+          <td class="paramtype">const T</td>          <td class="paramname"><span class="paramname"><em>lowerN</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T</td>          <td class="paramname"><span class="paramname"><em>upperN</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the product of all integers within the given integer range (nLower)(nLower +1)(...)(upper-1)(upper) If lowerN is bigger than upperN, the function returns one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lowerN</td><td>Lower range of the product calculation </td></tr>
+    <tr><td class="paramname">upperN</td><td>Upper range of the product calculation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Factorial result </dd></dl>
 
 </div>
 </div>
