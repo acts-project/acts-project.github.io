@@ -133,7 +133,7 @@ $(function(){initNavTree('concept_acts_1_1_actor_has_act_without_result.html',''
 <div class="line">    <span class="keyword">const</span> actor_t&amp; a, propagator_state_t&amp; state, <span class="keyword">const</span> stepper_t&amp; stepper,</div>
 <div class="line">    <span class="keyword">const</span> navigator_t&amp; navigator, Args&amp;&amp;... args) {</div>
 <div class="line">  {</div>
-<div class="line">    a.act(state, stepper, navigator, std::move&lt;Args&gt;(args)...)</div>
+<div class="line">    a.act(state, stepper, navigator, std::forward&lt;Args&gt;(args)...)</div>
 <div class="line">  } -&gt; std::same_as&lt;Result&lt;void&gt;&gt;;</div>
 <div class="line">}</div>
 <div class="ttc" id="aconcept_acts_1_1_actor_has_act_without_result_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_act_without_result.html">Acts::ActorHasActWithoutResult</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:29</div></div>

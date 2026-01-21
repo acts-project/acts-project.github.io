@@ -136,7 +136,7 @@ $(function(){initNavTree('concept_acts_1_1_actor_has_abort_with_result.html','',
 <div class="line">             <span class="keyword">typename</span> actor_t::result_type&amp; result, Args&amp;&amp;... args) {</div>
 <div class="line">      {</div>
 <div class="line">        a.checkAbort(state, stepper, navigator, result,</div>
-<div class="line">                     std::move&lt;Args&gt;(args)...)</div>
+<div class="line">                     std::forward&lt;Args&gt;(args)...)</div>
 <div class="line">      } -&gt; std::same_as&lt;bool&gt;;</div>
 <div class="line">    }</div>
 <div class="ttc" id="aconcept_acts_1_1_actor_has_abort_with_result_html"><div class="ttname"><a href="concept_acts_1_1_actor_has_abort_with_result.html">Acts::ActorHasAbortWithResult</a></div><div class="ttdef"><b>Definition</b> ActorConcepts.hpp:90</div></div>
