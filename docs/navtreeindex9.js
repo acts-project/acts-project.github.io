@@ -71,8 +71,6 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_diamond_bounds.html#afd696ee4c000607a9ef92ab79099f457":[8,0,0,111,1],
 "class_acts_1_1_diamond_portal_shell.html":[6,0,0,137],
 "class_acts_1_1_diamond_portal_shell.html":[8,0,0,112],
-"class_acts_1_1_diamond_portal_shell.html#a029174161cb6ae65ed1447fafdf8a249":[6,0,0,137,4],
-"class_acts_1_1_diamond_portal_shell.html#a029174161cb6ae65ed1447fafdf8a249":[8,0,0,112,4],
 "class_acts_1_1_diamond_portal_shell.html#a1ac065624c6fe940d40360a65883337a":[6,0,0,137,3],
 "class_acts_1_1_diamond_portal_shell.html#a1ac065624c6fe940d40360a65883337a":[8,0,0,112,3],
 "class_acts_1_1_diamond_portal_shell.html#a4ce2befa26d8f5b4f035b4c57fbc3629":[6,0,0,137,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_disc_surface.html#a005b93afb2575364a190dbb1637e752d":[8,0,0,119,35],
 "class_acts_1_1_disc_surface.html#a0727d3d26f210fbef9736f9046907f29":[6,0,0,144,8],
 "class_acts_1_1_disc_surface.html#a0727d3d26f210fbef9736f9046907f29":[8,0,0,119,8],
-"class_acts_1_1_disc_surface.html#a0ce7ba07ce19eebe120bd1e487f4da58":[6,0,0,144,32]
+"class_acts_1_1_disc_surface.html#a0ce7ba07ce19eebe120bd1e487f4da58":[6,0,0,144,32],
+"class_acts_1_1_disc_surface.html#a0ce7ba07ce19eebe120bd1e487f4da58":[8,0,0,119,32],
+"class_acts_1_1_disc_surface.html#a1ef89d27db93ac548d79b718340b780c":[6,0,0,144,33]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#af25422f9261bee175a1e2003ea9a30c9":[8,0,0,6,3,2],
-"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aff698499c5819f96e381307d826b05e3":[6,0,0,17,3,1],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aff698499c5819f96e381307d826b05e3":[8,0,0,6,3,1],
 "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html":[6,0,0,17,0,0],
 "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html":[8,0,0,6,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "class_acts_1_1_i_triplet_seed_cuts.html#a818fd76ec89d0171e59b2f2de89a48aa":[6,0,0,255,2],
 "class_acts_1_1_i_triplet_seed_cuts.html#a818fd76ec89d0171e59b2f2de89a48aa":[8,0,0,230,2],
 "class_acts_1_1_i_triplet_seed_filter.html":[6,0,0,256],
-"class_acts_1_1_i_triplet_seed_filter.html":[8,0,0,231]
+"class_acts_1_1_i_triplet_seed_filter.html":[8,0,0,231],
+"class_acts_1_1_i_triplet_seed_filter.html#a86a181740199507a8f94f15742abf42e":[6,0,0,256,2],
+"class_acts_1_1_i_triplet_seed_filter.html#a86a181740199507a8f94f15742abf42e":[8,0,0,231,2]
 };

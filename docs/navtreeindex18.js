@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"class_acts_1_1_grid_global_iterator.html#a9d2705be260c6e745ca8e0e9a2a8bcc2":[6,0,0,194,20],
-"class_acts_1_1_grid_global_iterator.html#a9d2705be260c6e745ca8e0e9a2a8bcc2":[8,0,0,169,20],
 "class_acts_1_1_grid_global_iterator.html#a9eefb3db1d02628ad6c7d1aa258699ad":[6,0,0,194,8],
 "class_acts_1_1_grid_global_iterator.html#a9eefb3db1d02628ad6c7d1aa258699ad":[8,0,0,169,8],
 "class_acts_1_1_grid_global_iterator.html#aa2db3c988c62ce1e41f68c5b5549d7db":[6,0,0,194,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#addbda9a32f6236615aed39e8ca86590f":[8,0,0,6,3,4],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#ae983ccb3aeae3d5f3f1cec915d45af8b":[6,0,0,17,3,21],
 "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#ae983ccb3aeae3d5f3f1cec915d45af8b":[8,0,0,6,3,21],
-"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#af25422f9261bee175a1e2003ea9a30c9":[6,0,0,17,3,2]
+"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#af25422f9261bee175a1e2003ea9a30c9":[6,0,0,17,3,2],
+"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#af25422f9261bee175a1e2003ea9a30c9":[8,0,0,6,3,2],
+"class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#aff698499c5819f96e381307d826b05e3":[6,0,0,17,3,1]
 };

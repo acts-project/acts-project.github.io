@@ -1,13 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"struct_acts_1_1_surface_reached.html#ad9aed839f90509f81732336d54a4865d":[6,0,0,429,0],
-"struct_acts_1_1_surface_reached.html#ad9aed839f90509f81732336d54a4865d":[8,0,0,404,0],
-"struct_acts_1_1_surface_reached.html#af663217706f0d220d408ca1722b41da0":[6,0,0,429,1],
-"struct_acts_1_1_surface_reached.html#af663217706f0d220d408ca1722b41da0":[8,0,0,404,1],
-"struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[6,0,0,429,5],
-"struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[8,0,0,404,5],
-"struct_acts_1_1_surface_selector.html":[6,0,0,430],
-"struct_acts_1_1_surface_selector.html":[8,0,0,405],
 "struct_acts_1_1_surface_selector.html#a00e7eff93f3675ad685a59c0cb3eaf1d":[6,0,0,430,3],
 "struct_acts_1_1_surface_selector.html#a00e7eff93f3675ad685a59c0cb3eaf1d":[8,0,0,405,3],
 "struct_acts_1_1_surface_selector.html#a380da29d67f2a3e99ab67a04125c8fa6":[6,0,0,430,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX65 =
 "struct_acts_1_1_track_state_traits.html":[6,0,0,449],
 "struct_acts_1_1_track_state_traits.html":[8,0,0,424],
 "struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[6,0,0,449,5],
-"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[8,0,0,424,5]
+"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[8,0,0,424,5],
+"struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[6,0,0,449,0],
+"struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[8,0,0,424,0],
+"struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39":[6,0,0,449,1],
+"struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39":[8,0,0,424,1],
+"struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4":[6,0,0,449,2],
+"struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4":[8,0,0,424,2],
+"struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0":[6,0,0,449,4],
+"struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0":[8,0,0,424,4]
 };

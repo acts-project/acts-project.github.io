@@ -1,13 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"class_acts_plugins_1_1_const_podio_track_state_container.html#afa16276daa31649e10c084608f5d26f2":[5,8,4,7,4],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#afca15d79b7bd82840abc1b8d764e931c":[5,8,4,7,0],
-"class_acts_plugins_1_1_cuda_track_building.html":[5,8,7,1],
-"class_acts_plugins_1_1_cuda_track_building.html#aa540db0e4d6bf782f291d1faa3af3697":[5,8,7,1,2],
-"class_acts_plugins_1_1_cuda_track_building.html#aafea50a33f74058ff15e4aedff24c496":[5,8,7,1,1],
-"class_acts_plugins_1_1_cuda_track_building.html#aedbec097b25d4b70219b2ec87e0cf2e8":[5,8,7,1,3],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html":[5,8,2,1],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163":[5,8,2,1,2],
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#a0f23262a2b4ae7913b4c8375a6240c63":[5,8,2,1,4],
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#a2f8a73a6477e0e671b717dc472602deb":[5,8,2,1,3],
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57":[5,8,2,1,5],
@@ -249,5 +241,13 @@ var NAVTREEINDEX42 =
 "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a545774839482eee377e4262d78c703c6":[5,8,4,10,2],
 "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5a18be03414f9484299c0ec74b67d3c4":[5,8,4,10,17],
 "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5d09ff36822b7c50ac3128477cbe5cb7":[5,8,4,10,3],
-"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5d80729874f6aaa8ed998d2341ee812b":[5,8,4,10,24]
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5d80729874f6aaa8ed998d2341ee812b":[5,8,4,10,24],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a5f9e9d0cf13e4e8c9fefc73aeee543a5":[5,8,4,10,25],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a6befb2a77582e45b6bb8aa9f8034183c":[5,8,4,10,16],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a6c345414e06b5133bf1b831dc0579c39":[5,8,4,10,12],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a7a07710a901877345b233cce774f06bb":[5,8,4,10,11],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a7eedb3372da9c29c850f7979e2b4d297":[5,8,4,10,7],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a7f7879084696bef73176fd6a0dca08a0":[5,8,4,10,28],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a814151249085aa207e94a29f4bae97d7":[5,8,4,10,10],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#a89bcdf579e444753685603993a86be4a":[5,8,4,10,32]
 };
