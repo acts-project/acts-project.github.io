@@ -151,14 +151,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afa5f1a615344c85b6b4cf99f1c56e43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a portal is <em>valid</em>, e.g.     <br /></td></tr>
 <tr class="memitem:a60672f449e9b89fec58bacf7221c0bf6" id="r_a60672f449e9b89fec58bacf7221c0bf6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60672f449e9b89fec58bacf7221c0bf6">label</a> () const override</td></tr>
 <tr class="memdesc:a60672f449e9b89fec58bacf7221c0bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a label for the portal shell for debugging purposes.     <br /></td></tr>
+<tr class="memitem:a424e81995d16c03600da3e60aeba7b1d" id="r_a424e81995d16c03600da3e60aeba7b1d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424e81995d16c03600da3e60aeba7b1d">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const override</td></tr>
+<tr class="memdesc:a424e81995d16c03600da3e60aeba7b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation matrix for this cuboid portal shell.  <br /></td></tr>
 <tr class="memitem:a9238112af5074e8b5a8960168cac85ac" id="r_a9238112af5074e8b5a8960168cac85ac"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9238112af5074e8b5a8960168cac85ac">portal</a> (<a class="el" href="class_acts_1_1_cuboid_volume_bounds.html#acbc4cbe27928efcbf0da00457ad799ac">Face</a> face) final</td></tr>
 <tr class="memdesc:a9238112af5074e8b5a8960168cac85ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a shared_ptr for the portal associated to the given face.     <br /></td></tr>
 <tr class="memitem:a6aa9657d3a1288cdceff374c5b2baa20" id="r_a6aa9657d3a1288cdceff374c5b2baa20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa9657d3a1288cdceff374c5b2baa20">setPortal</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_portal.html">Portal</a> &gt; <a class="el" href="#a9238112af5074e8b5a8960168cac85ac">portal</a>, <a class="el" href="class_acts_1_1_cuboid_volume_bounds.html#acbc4cbe27928efcbf0da00457ad799ac">Face</a> face) final</td></tr>
 <tr class="memdesc:a6aa9657d3a1288cdceff374c5b2baa20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the portal associated to the given face.     <br /></td></tr>
 <tr class="memitem:a651454c71362c45e592f175ff5a61110" id="r_a651454c71362c45e592f175ff5a61110"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a651454c71362c45e592f175ff5a61110">size</a> () const final</td></tr>
 <tr class="memdesc:a651454c71362c45e592f175ff5a61110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of portals in the shell.     <br /></td></tr>
-<tr class="memitem:a6e2ac14f3ef9a0d06aef5a079bf101ec" id="r_a6e2ac14f3ef9a0d06aef5a079bf101ec"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e2ac14f3ef9a0d06aef5a079bf101ec">transform</a> () const override</td></tr>
-<tr class="memdesc:a6e2ac14f3ef9a0d06aef5a079bf101ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation matrix for this cuboid portal shell.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_cuboid_portal_shell"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_cuboid_portal_shell')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_cuboid_portal_shell.html">Acts::CuboidPortalShell</a></td></tr>
 <tr class="memitem:a81278d9500685357acf7c0c7f48a0a18 inherit pub_methods_class_acts_1_1_cuboid_portal_shell" id="r_a81278d9500685357acf7c0c7f48a0a18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_cuboid_portal_shell.html#a81278d9500685357acf7c0c7f48a0a18">fill</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume) override</td></tr>
 <tr class="memdesc:a81278d9500685357acf7c0c7f48a0a18 inherit pub_methods_class_acts_1_1_cuboid_portal_shell"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the open slots of the shell with a <code>TrivialPortalLink</code> to the given <code class="param">volume</code>.     <br /></td></tr>
@@ -299,6 +299,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a424e81995d16c03600da3e60aeba7b1d" name="a424e81995d16c03600da3e60aeba7b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424e81995d16c03600da3e60aeba7b1d">&#9670;&#160;</a></span>localToGlobalTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::SingleCuboidPortalShell::localToGlobalTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the transformation matrix for this cuboid portal shell. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the transformation matrix </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_cuboid_portal_shell.html#af42983d20ac61565948cd4d3aac08215">Acts::CuboidPortalShell</a>.</p>
+
+</div>
+</div>
 <a id="a9238112af5074e8b5a8960168cac85ac" name="a9238112af5074e8b5a8960168cac85ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9238112af5074e8b5a8960168cac85ac">&#9670;&#160;</a></span>portal()</h2>
 
@@ -402,36 +432,6 @@ Additional Inherited Members</h2></td></tr>
 <p>This number depends on the volume type </p><dl class="section return"><dt>Returns</dt><dd>The number of portals in the shell    </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_portal_shell_base.html#a0b98844debe41ac27d88b931c09a178d">Acts::PortalShellBase</a>.</p>
-
-</div>
-</div>
-<a id="a6e2ac14f3ef9a0d06aef5a079bf101ec" name="a6e2ac14f3ef9a0d06aef5a079bf101ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e2ac14f3ef9a0d06aef5a079bf101ec">&#9670;&#160;</a></span>transform()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::SingleCuboidPortalShell::transform </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the transformation matrix for this cuboid portal shell. </p>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the transformation matrix </dd></dl>
-
-<p>Implements <a class="el" href="class_acts_1_1_cuboid_portal_shell.html#a78f0f128014e5ef105dc8e597f799716">Acts::CuboidPortalShell</a>.</p>
 
 </div>
 </div>

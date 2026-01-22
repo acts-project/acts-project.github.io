@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_eigen_stepper_default_extension.html":[6,0,0,151],
+"struct_acts_1_1_eigen_stepper_default_extension.html":[8,0,0,126],
+"struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80":[6,0,0,151,0],
+"struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80":[8,0,0,126,0],
+"struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99":[6,0,0,151,2],
+"struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99":[8,0,0,126,2],
+"struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f":[6,0,0,151,1],
+"struct_acts_1_1_eigen_stepper_default_extension.html#afe4e62fa683045becdf703703dfa5b3f":[8,0,0,126,1],
 "struct_acts_1_1_eigen_stepper_dense_extension.html":[6,0,0,152],
 "struct_acts_1_1_eigen_stepper_dense_extension.html":[8,0,0,127],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#a038a69c2d97b606342a3d296419c6805":[6,0,0,152,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#abca8f710dbef7c0c6be1ea5288a1da1a":[6,0,0,6,6,3,1],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#abca8f710dbef7c0c6be1ea5288a1da1a":[8,0,0,2,4,3,1],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#ae329fd1255e5c1b99a52b1706ed8aeca":[6,0,0,6,6,3,6],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#ae329fd1255e5c1b99a52b1706ed8aeca":[8,0,0,2,4,3,6],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html":[6,0,0,6,10,0],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html":[8,0,0,2,8,0],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a06b1b899abc38afbf1b23176e2af8372":[6,0,0,6,10,0,1],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a06b1b899abc38afbf1b23176e2af8372":[8,0,0,2,8,0,1],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[6,0,0,6,10,0,0],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a12f73db53317615c5cf62b766f2208f2":[8,0,0,2,8,0,0],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a2a45d648b18f89b5f93f6d049600d99e":[6,0,0,6,10,0,2],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#a2a45d648b18f89b5f93f6d049600d99e":[8,0,0,2,8,0,2]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#ae329fd1255e5c1b99a52b1706ed8aeca":[8,0,0,2,4,3,6]
 };

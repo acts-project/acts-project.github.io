@@ -1,5 +1,13 @@
 var NAVTREEINDEX41 =
 {
+"class_acts_fatras_1_1_barcode.html#af39bf6924172ae946cdd8fbcaa607081":[8,0,1,3,3],
+"class_acts_fatras_1_1_barcode.html#af76f8f17e601ddb5f12a05feb87123ab":[6,0,2,3,28],
+"class_acts_fatras_1_1_barcode.html#af76f8f17e601ddb5f12a05feb87123ab":[8,0,1,3,28],
+"class_acts_fatras_1_1_barcode.html#afd1fca36919e4dc7f8ba7af5038b9b85":[6,0,2,3,15],
+"class_acts_fatras_1_1_barcode.html#afd1fca36919e4dc7f8ba7af5038b9b85":[8,0,1,3,15],
+"class_acts_fatras_1_1_channelizer.html":[6,0,2,8],
+"class_acts_fatras_1_1_channelizer.html":[8,0,1,8],
+"class_acts_fatras_1_1_channelizer.html#adafe54f345c082b47316c8d08bbaa3f2":[6,0,2,8,0],
 "class_acts_fatras_1_1_channelizer.html#adafe54f345c082b47316c8d08bbaa3f2":[8,0,1,8,0],
 "class_acts_fatras_1_1_hit.html":[6,0,2,17],
 "class_acts_fatras_1_1_hit.html":[8,0,1,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX41 =
 "class_acts_plugins_1_1_const_podio_track_state_container.html#a39b01a5c218b9d538a19d4d557f0cbd5":[5,8,4,7,8],
 "class_acts_plugins_1_1_const_podio_track_state_container.html#a470c057f4d7205cb9b24da26339e3155":[5,8,4,7,14],
 "class_acts_plugins_1_1_const_podio_track_state_container.html#a67932d0a32ae4dd976ce486605f6b1ff":[5,8,4,7,13],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#a83b8d426567632f42c03e7693619590e":[5,8,4,7,12],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#a89bcdf579e444753685603993a86be4a":[5,8,4,7,16],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#a93409f288f9cc2a27198a73fb579e2eb":[5,8,4,7,3],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#a9be0f652e2d7e1cf444286e819211cf8":[5,8,4,7,15],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#aaaa204299bc719e0ff9e9932ece244d3":[5,8,4,7,2],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#ac013ac01bae6ee707252b40beeb30207":[5,8,4,7,9],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#ae66465cae7a7c0456371a0a4d0c94482":[5,8,4,7,10],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#afa16276daa31649e10c084608f5d26f2":[5,8,4,7,4],
-"class_acts_plugins_1_1_const_podio_track_state_container.html#afca15d79b7bd82840abc1b8d764e931c":[5,8,4,7,0]
+"class_acts_plugins_1_1_const_podio_track_state_container.html#a83b8d426567632f42c03e7693619590e":[5,8,4,7,12]
 };

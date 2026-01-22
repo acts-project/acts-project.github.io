@@ -146,8 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa796b6e73ee4af5c3ce6347df2ae6e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for the container node.  <br /></td></tr>
 <tr class="memitem:a4cfa4422d1a3343e9940dc7bda746843" id="r_a4cfa4422d1a3343e9940dc7bda746843"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cfa4422d1a3343e9940dc7bda746843">ContainerBlueprintNode</a> (const std::string &amp;<a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#aed390daa5a7bc8b76966b358f53cb355">name</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> axis, <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">VolumeAttachmentStrategy</a> <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#aaebaedaa111b39d45b3b33572f54b344">attachmentStrategy</a>=<a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848a7f56c02b34d312867e3f63c9f21fe5c8">VolumeAttachmentStrategy::Midpoint</a>, <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> resizeStrategy=<a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93a8098b34f582537833b36b58273c3545b">VolumeResizeStrategy::Expand</a>)</td></tr>
 <tr class="memdesc:a4cfa4422d1a3343e9940dc7bda746843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for the container node.  <br /></td></tr>
-<tr class="memitem:a1916567eb019680d37e125c54d2b6a1f" id="r_a1916567eb019680d37e125c54d2b6a1f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1916567eb019680d37e125c54d2b6a1f">makeStack</a> (std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) override</td></tr>
-<tr class="memdesc:a1916567eb019680d37e125c54d2b6a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the volume stack for the container.  <br /></td></tr>
+<tr class="memitem:ad3722e41ea625245898331f91558d9a1" id="r_ad3722e41ea625245898331f91558d9a1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3722e41ea625245898331f91558d9a1">makeStack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) override</td></tr>
+<tr class="memdesc:ad3722e41ea625245898331f91558d9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the volume stack for the container.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_experimental_1_1_container_blueprint_node"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_experimental_1_1_container_blueprint_node')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html">Acts::Experimental::ContainerBlueprintNode</a></td></tr>
 <tr class="memitem:aa796b6e73ee4af5c3ce6347df2ae6e18 inherit pub_methods_class_acts_1_1_experimental_1_1_container_blueprint_node" id="r_aa796b6e73ee4af5c3ce6347df2ae6e18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#aa796b6e73ee4af5c3ce6347df2ae6e18">ContainerBlueprintNode</a> (const std::string &amp;<a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#aed390daa5a7bc8b76966b358f53cb355">name</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> axis, <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">VolumeAttachmentStrategy</a> <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#aaebaedaa111b39d45b3b33572f54b344">attachmentStrategy</a>, std::pair&lt; <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a>, <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#a1b1d3cea6c0b6145a890c27996da686d">resizeStrategies</a>)</td></tr>
 <tr class="memdesc:aa796b6e73ee4af5c3ce6347df2ae6e18 inherit pub_methods_class_acts_1_1_experimental_1_1_container_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for the container node.  <br /></td></tr>
@@ -399,8 +399,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1916567eb019680d37e125c54d2b6a1f" name="a1916567eb019680d37e125c54d2b6a1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1916567eb019680d37e125c54d2b6a1f">&#9670;&#160;</a></span>makeStack()</h2>
+<a id="ad3722e41ea625245898331f91558d9a1" name="ad3722e41ea625245898331f91558d9a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3722e41ea625245898331f91558d9a1">&#9670;&#160;</a></span>makeStack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,6 +411,11 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> &gt; Acts::Experimental::CylinderContainerBlueprintNode::makeStack </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
         </tr>
         <tr>
@@ -429,6 +434,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Make the volume stack for the container. </p>
 <p>This is called by the build method and is implemented by the derived classes. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volumes</td><td>The volumes to stack </td></tr>
     <tr><td class="paramname">logger</td><td>The logger to use </td></tr>
   </table>
@@ -436,7 +442,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The volume stack </dd></dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#acde85594b1feabb9527b626e38f407b9">Acts::Experimental::ContainerBlueprintNode</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#aa65b85ae2da2e2ccac90faf81bcde2e3">Acts::Experimental::ContainerBlueprintNode</a>.</p>
 
 </div>
 </div>

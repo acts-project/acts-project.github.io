@@ -209,8 +209,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a90eb3496e356f8921f194f00553cbe1b" id="r_a90eb3496e356f8921f194f00553cbe1b"><td class="memTemplParams" colspan="2">template&lt;typename BaseShell, typename SingleShell, typename ShellStack&gt; </td></tr>
 <tr class="memitem:a90eb3496e356f8921f194f00553cbe1b template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_portal_shell_base.html">PortalShellBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90eb3496e356f8921f194f00553cbe1b">connectImpl</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_blueprint_options.html">Experimental::BlueprintOptions</a> &amp;options, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> *stack, const std::string &amp;<a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#ad75331d0d8fc351edc7f4d2ad4c6112f">prefix</a>, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:a90eb3496e356f8921f194f00553cbe1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the connect method for container nodes.  <br /></td></tr>
-<tr class="memitem:acde85594b1feabb9527b626e38f407b9" id="r_acde85594b1feabb9527b626e38f407b9"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde85594b1feabb9527b626e38f407b9">makeStack</a> (std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)=0</td></tr>
-<tr class="memdesc:acde85594b1feabb9527b626e38f407b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the volume stack for the container.  <br /></td></tr>
+<tr class="memitem:aa65b85ae2da2e2ccac90faf81bcde2e3" id="r_aa65b85ae2da2e2ccac90faf81bcde2e3"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa65b85ae2da2e2ccac90faf81bcde2e3">makeStack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)=0</td></tr>
+<tr class="memdesc:aa65b85ae2da2e2ccac90faf81bcde2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the volume stack for the container.  <br /></td></tr>
 <tr class="memitem:a71bbb04176d8e2f08f55c6d8eb47c828" id="r_a71bbb04176d8e2f08f55c6d8eb47c828"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71bbb04176d8e2f08f55c6d8eb47c828">typeName</a> () const =0</td></tr>
 <tr class="memdesc:a71bbb04176d8e2f08f55c6d8eb47c828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type name of the container.  <br /></td></tr>
 <tr class="inherit_header pro_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_acts_1_1_experimental_1_1_blueprint_node')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">Acts::Experimental::BlueprintNode</a></td></tr>
@@ -693,8 +693,8 @@ template&lt;typename BaseShell, typename SingleShell, typename ShellStack&gt; </
 
 </div>
 </div>
-<a id="acde85594b1feabb9527b626e38f407b9" name="acde85594b1feabb9527b626e38f407b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acde85594b1feabb9527b626e38f407b9">&#9670;&#160;</a></span>makeStack()</h2>
+<a id="aa65b85ae2da2e2ccac90faf81bcde2e3" name="aa65b85ae2da2e2ccac90faf81bcde2e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa65b85ae2da2e2ccac90faf81bcde2e3">&#9670;&#160;</a></span>makeStack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -705,6 +705,11 @@ template&lt;typename BaseShell, typename SingleShell, typename ShellStack&gt; </
         <tr>
           <td class="memname">virtual std::unique_ptr&lt; <a class="el" href="class_acts_1_1_volume_stack.html">VolumeStack</a> &gt; Acts::Experimental::ContainerBlueprintNode::makeStack </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
         </tr>
         <tr>
@@ -723,6 +728,7 @@ template&lt;typename BaseShell, typename SingleShell, typename ShellStack&gt; </
 <p>Make the volume stack for the container. </p>
 <p>This is called by the build method and is implemented by the derived classes. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volumes</td><td>The volumes to stack </td></tr>
     <tr><td class="paramname">logger</td><td>The logger to use </td></tr>
   </table>
@@ -730,7 +736,7 @@ template&lt;typename BaseShell, typename SingleShell, typename ShellStack&gt; </
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The volume stack </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html#aa21d4f5dc57e0373e277412350f4afe0">Acts::Experimental::CuboidContainerBlueprintNode</a>, and <a class="el" href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html#a1916567eb019680d37e125c54d2b6a1f">Acts::Experimental::CylinderContainerBlueprintNode</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html#a79022e5454fd001e9927784ffbf69e8c">Acts::Experimental::CuboidContainerBlueprintNode</a>, and <a class="el" href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html#ad3722e41ea625245898331f91558d9a1">Acts::Experimental::CylinderContainerBlueprintNode</a>.</p>
 
 </div>
 </div>

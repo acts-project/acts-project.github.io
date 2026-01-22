@@ -9,7 +9,7 @@ var class_acts_1_1_experimental_1_1_container_blueprint_node =
     [ "connectImpl", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#a90eb3496e356f8921f194f00553cbe1b", null ],
     [ "direction", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#a8a75c6e5e7d3435179cea92af137c0a5", null ],
     [ "finalize", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#a767d325d09991945ef89ffc0e2b7fecf", null ],
-    [ "makeStack", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#acde85594b1feabb9527b626e38f407b9", null ],
+    [ "makeStack", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#aa65b85ae2da2e2ccac90faf81bcde2e3", null ],
     [ "name", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#aed390daa5a7bc8b76966b358f53cb355", null ],
     [ "resizeStrategies", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#a1b1d3cea6c0b6145a890c27996da686d", null ],
     [ "setAttachmentStrategy", "class_acts_1_1_experimental_1_1_container_blueprint_node.html#a6e3f85001ff3e54b7f6e6baf340dc925", null ],

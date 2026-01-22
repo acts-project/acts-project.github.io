@@ -1789,8 +1789,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:af4d9c22f5aa9a180415576374f06da6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust the BinUtility bu to a surface  <br /></td></tr>
 <tr class="memitem:af203de69e977c5ee39b61a19a6118f34" id="r_af203de69e977c5ee39b61a19a6118f34"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af203de69e977c5ee39b61a19a6118f34">adjustBinUtility</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu, const <a class="el" href="class_acts_1_1_trapezoid_bounds.html">TrapezoidBounds</a> &amp;pBounds, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform)</td></tr>
 <tr class="memdesc:af203de69e977c5ee39b61a19a6118f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust the BinUtility bu to the dimensions of plane bounds  <br /></td></tr>
-<tr class="memitem:a03a1428acbabf53542cf3f5b41d3f35f" id="r_a03a1428acbabf53542cf3f5b41d3f35f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03a1428acbabf53542cf3f5b41d3f35f">adjustBinUtility</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> &amp;volume)</td></tr>
-<tr class="memdesc:a03a1428acbabf53542cf3f5b41d3f35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust the BinUtility bu to a volume  <br /></td></tr>
+<tr class="memitem:a5724035db76ba20e5895799c26cac470" id="r_a5724035db76ba20e5895799c26cac470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5724035db76ba20e5895799c26cac470">adjustBinUtility</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> &amp;volume)</td></tr>
+<tr class="memdesc:a5724035db76ba20e5895799c26cac470"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust the BinUtility bu to a volume  <br /></td></tr>
 <tr class="memitem:a307086a9afc40c3a9b019463924cb098" id="r_a307086a9afc40c3a9b019463924cb098"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a307086a9afc40c3a9b019463924cb098">allAxisDirections</a> ()</td></tr>
 <tr class="memdesc:a307086a9afc40c3a9b019463924cb098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all possible axis directions.  <br /></td></tr>
 <tr class="memitem:a64261b76df37073220040fe3fa8b1db9" id="r_a64261b76df37073220040fe3fa8b1db9"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Axes&gt; </td></tr>
@@ -5676,8 +5676,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a03a1428acbabf53542cf3f5b41d3f35f" name="a03a1428acbabf53542cf3f5b41d3f35f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a1428acbabf53542cf3f5b41d3f35f">&#9670;&#160;</a></span>adjustBinUtility() <span class="overload">[9/9]</span></h2>
+<a id="a5724035db76ba20e5895799c26cac470" name="a5724035db76ba20e5895799c26cac470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5724035db76ba20e5895799c26cac470">&#9670;&#160;</a></span>adjustBinUtility() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5685,6 +5685,11 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> Acts::adjustBinUtility </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bu</em></span>, </td>
         </tr>
         <tr>
@@ -5698,6 +5703,7 @@ template&lt;typename T&gt; </div>
 <p>adjust the BinUtility bu to a volume </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">bu</td><td>BinUtility at source </td></tr>
     <tr><td class="paramname">volume</td><td>Volume to which the adjustment is being done</td></tr>
   </table>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"namespace_acts_1_1_vector_helpers.html":[6,0,0,40],
+"namespace_acts_1_1_vector_helpers.html#a01038c7e1d281f264fe6a4751db1077d":[6,0,0,40,12],
+"namespace_acts_1_1_vector_helpers.html#a04bda2cc2314dcfa13530ae18507551b":[6,0,0,40,13],
+"namespace_acts_1_1_vector_helpers.html#a0feaffc607ed5e2ce16ce7578a71167b":[6,0,0,40,0],
+"namespace_acts_1_1_vector_helpers.html#a1cfc3dafceb83cd912cd30e80f07ad37":[6,0,0,40,4],
+"namespace_acts_1_1_vector_helpers.html#a567adf0746da2a04018ca3109f86327d":[6,0,0,40,14],
+"namespace_acts_1_1_vector_helpers.html#a5d48c141e31e909435cadedc73e04d04":[6,0,0,40,3],
+"namespace_acts_1_1_vector_helpers.html#a67893bc10865d3b215bc4e85ad627137":[6,0,0,40,2],
 "namespace_acts_1_1_vector_helpers.html#a68c4483e139e9a894aa948fa5a0da1c1":[6,0,0,40,15],
 "namespace_acts_1_1_vector_helpers.html#a7c092206ba6aef3c52737cb16a9cd123":[6,0,0,40,11],
 "namespace_acts_1_1_vector_helpers.html#a8ee03af61ff0aba69eb9486595a69e7e":[6,0,0,40,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a50a5bfdf354c5c896c4592b79bc1f245":[6,0,0,50,0,19],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a50a5bfdf354c5c896c4592b79bc1f245":[8,0,0,25,0,19],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[6,0,0,50,0,10],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[8,0,0,25,0,10],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[6,0,0,50,0,13],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a75c1a6436a50d9d100aace1e805c65eb":[8,0,0,25,0,13],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[6,0,0,50,0,9],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[8,0,0,25,0,9],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a8d8dc1014acb81c97d4341ba03f31f06":[6,0,0,50,0,3],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a8d8dc1014acb81c97d4341ba03f31f06":[8,0,0,25,0,3],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aaad39a5f1bb113fcf1cab7ae1a57708c":[6,0,0,50,0,22],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aaad39a5f1bb113fcf1cab7ae1a57708c":[8,0,0,25,0,22]
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a74b192423379d4023d3824196c42412d":[8,0,0,25,0,10]
 };

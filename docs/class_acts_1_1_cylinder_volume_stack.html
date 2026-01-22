@@ -143,12 +143,12 @@ Collaboration diagram for Acts::CylinderVolumeStack:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a416636321ac95f7e758c3b721f718d8c" id="r_a416636321ac95f7e758c3b721f718d8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a416636321ac95f7e758c3b721f718d8c">CylinderVolumeStack</a> (std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">VolumeAttachmentStrategy</a> strategy, std::pair&lt; <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a>, <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> &gt; resizeStrategies, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:a416636321ac95f7e758c3b721f718d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a vector of volumes and direction.  <br /></td></tr>
-<tr class="memitem:a72d3016d64a49346dc011412a0880c01" id="r_a72d3016d64a49346dc011412a0880c01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d3016d64a49346dc011412a0880c01">CylinderVolumeStack</a> (std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">VolumeAttachmentStrategy</a> strategy=<a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848a7f56c02b34d312867e3f63c9f21fe5c8">VolumeAttachmentStrategy::Midpoint</a>, <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> resizeStrategy=<a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93a8098b34f582537833b36b58273c3545b">VolumeResizeStrategy::Expand</a>, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:a72d3016d64a49346dc011412a0880c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a vector of volumes and direction.  <br /></td></tr>
-<tr class="memitem:a949d87f577dd8299c1f072cefea0749e" id="r_a949d87f577dd8299c1f072cefea0749e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949d87f577dd8299c1f072cefea0749e">update</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds, std::optional&lt; <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt; <a class="el" href="class_acts_1_1_volume.html#a0bddba1cf41efeb046205485d4725e79">transform</a>=std::nullopt, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) override</td></tr>
-<tr class="memdesc:a949d87f577dd8299c1f072cefea0749e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the volume bounds and transform.  <br /></td></tr>
+<tr class="memitem:a0a49ed593909de75d940cb263b1f5f67" id="r_a0a49ed593909de75d940cb263b1f5f67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a49ed593909de75d940cb263b1f5f67">CylinderVolumeStack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">VolumeAttachmentStrategy</a> strategy, std::pair&lt; <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a>, <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> &gt; resizeStrategies, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:a0a49ed593909de75d940cb263b1f5f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a vector of volumes and direction.  <br /></td></tr>
+<tr class="memitem:a07f281f1b9c5ddf9a734cd4d7c945803" id="r_a07f281f1b9c5ddf9a734cd4d7c945803"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07f281f1b9c5ddf9a734cd4d7c945803">CylinderVolumeStack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;volumes, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">VolumeAttachmentStrategy</a> strategy=<a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848a7f56c02b34d312867e3f63c9f21fe5c8">VolumeAttachmentStrategy::Midpoint</a>, <a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> resizeStrategy=<a class="el" href="namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93a8098b34f582537833b36b58273c3545b">VolumeResizeStrategy::Expand</a>, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:a07f281f1b9c5ddf9a734cd4d7c945803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a vector of volumes and direction.  <br /></td></tr>
+<tr class="memitem:adb98f2267c9609a451dbb76aef520b2b" id="r_adb98f2267c9609a451dbb76aef520b2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb98f2267c9609a451dbb76aef520b2b">update</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds, std::optional&lt; <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt; <a class="el" href="class_acts_1_1_volume.html#a0bddba1cf41efeb046205485d4725e79">transform</a>=std::nullopt, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()) override</td></tr>
+<tr class="memdesc:adb98f2267c9609a451dbb76aef520b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the volume bounds and transform.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_volume_stack"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_volume_stack')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_volume_stack.html">Acts::VolumeStack</a></td></tr>
 <tr class="memitem:a4d0cc9a7f9b362b16ac49e97c1b90f10 inherit pub_methods_class_acts_1_1_volume_stack" id="r_a4d0cc9a7f9b362b16ac49e97c1b90f10"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume.html#a5f6c33a0fc325cdd35cec42df304b03f">Volume</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_stack.html#a4d0cc9a7f9b362b16ac49e97c1b90f10">gaps</a> () const</td></tr>
 <tr class="memdesc:a4d0cc9a7f9b362b16ac49e97c1b90f10 inherit pub_methods_class_acts_1_1_volume_stack"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the gap volume that were created during attachment or resizing.  <br /></td></tr>
@@ -166,10 +166,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae3417c821f73a46f2a963f2f4286f697 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:ad801857fa172b330b47d4bb1791c9269 inherit pub_methods_class_acts_1_1_volume" id="r_ad801857fa172b330b47d4bb1791c9269"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#ad801857fa172b330b47d4bb1791c9269">center</a> () const</td></tr>
 <tr class="memdesc:ad801857fa172b330b47d4bb1791c9269 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center position of the volume.  <br /></td></tr>
+<tr class="memitem:a637b6a346bd832842725804f8ec5ad12 inherit pub_methods_class_acts_1_1_volume" id="r_a637b6a346bd832842725804f8ec5ad12"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#a637b6a346bd832842725804f8ec5ad12">center</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
+<tr class="memdesc:a637b6a346bd832842725804f8ec5ad12 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center position of the volume.  <br /></td></tr>
+<tr class="memitem:aafaef8d9e7e1f9e207b5ad484e1e5bf3 inherit pub_methods_class_acts_1_1_volume" id="r_aafaef8d9e7e1f9e207b5ad484e1e5bf3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#aafaef8d9e7e1f9e207b5ad484e1e5bf3">globalToLocalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
+<tr class="memdesc:aafaef8d9e7e1f9e207b5ad484e1e5bf3 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation matrix from the global experiment's.  <br /></td></tr>
+<tr class="memitem:a0802ecdf500e3d9d38f64c5f0a27117a inherit pub_methods_class_acts_1_1_volume" id="r_a0802ecdf500e3d9d38f64c5f0a27117a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#a0802ecdf500e3d9d38f64c5f0a27117a">inside</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;gpos, double tol=0.) const</td></tr>
+<tr class="memdesc:a0802ecdf500e3d9d38f64c5f0a27117a inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inside() method for checks.  <br /></td></tr>
 <tr class="memitem:a21c870289eed90c7d66cb160c3326cf6 inherit pub_methods_class_acts_1_1_volume" id="r_a21c870289eed90c7d66cb160c3326cf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#a21c870289eed90c7d66cb160c3326cf6">inside</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;gpos, double tol=0.) const</td></tr>
 <tr class="memdesc:a21c870289eed90c7d66cb160c3326cf6 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inside() method for checks.  <br /></td></tr>
 <tr class="memitem:ab529234a4617a68606cc0056748fca28 inherit pub_methods_class_acts_1_1_volume" id="r_ab529234a4617a68606cc0056748fca28"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#ab529234a4617a68606cc0056748fca28">itransform</a> () const</td></tr>
 <tr class="memdesc:ab529234a4617a68606cc0056748fca28 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the inverse transform matrix of the volume.  <br /></td></tr>
+<tr class="memitem:ac66d1159bb079d344da6481575691bf6 inherit pub_methods_class_acts_1_1_volume" id="r_ac66d1159bb079d344da6481575691bf6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#ac66d1159bb079d344da6481575691bf6">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
+<tr class="memdesc:ac66d1159bb079d344da6481575691bf6 inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation matrix from the local volume frame to the global experiment's frame.  <br /></td></tr>
 <tr class="memitem:a712c0188a94558b00705ea8a19fd334f inherit pub_methods_class_acts_1_1_volume" id="r_a712c0188a94558b00705ea8a19fd334f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_volume.html#a5f6c33a0fc325cdd35cec42df304b03f">Volume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#a712c0188a94558b00705ea8a19fd334f">operator=</a> (const <a class="el" href="class_acts_1_1_volume.html#a5f6c33a0fc325cdd35cec42df304b03f">Volume</a> &amp;vol)</td></tr>
 <tr class="memdesc:a712c0188a94558b00705ea8a19fd334f inherit pub_methods_class_acts_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 <tr class="memitem:a72f4724a0114ece4e8515e33465316eb inherit pub_methods_class_acts_1_1_volume" id="r_a72f4724a0114ece4e8515e33465316eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html#a72f4724a0114ece4e8515e33465316eb">operator==</a> (const <a class="el" href="class_acts_1_1_volume.html#a5f6c33a0fc325cdd35cec42df304b03f">Volume</a> &amp;other) const</td></tr>
@@ -241,8 +249,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Externally, it presents as a single volume. On construction, the input volumes are modified so that they are connected in z and r and have synchronized bounds. The way this is done can be configured using an <em>attachment</em> and a <em>resize</em> strategy. Depending on the configuration, the input volumes are either extended or gap volumes are created.</p>
 <dl class="section note"><dt>Note</dt><dd>The volumes are never shrunk, because this would potentially result in overlaps of the resulting volumes bounds. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a72d3016d64a49346dc011412a0880c01" name="a72d3016d64a49346dc011412a0880c01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d3016d64a49346dc011412a0880c01">&#9670;&#160;</a></span>CylinderVolumeStack() <span class="overload">[1/2]</span></h2>
+<a id="a07f281f1b9c5ddf9a734cd4d7c945803" name="a07f281f1b9c5ddf9a734cd4d7c945803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f281f1b9c5ddf9a734cd4d7c945803">&#9670;&#160;</a></span>CylinderVolumeStack() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,6 +258,11 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">Acts::CylinderVolumeStack::CylinderVolumeStack </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
         </tr>
         <tr>
@@ -278,6 +291,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Constructor from a vector of volumes and direction. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volumes</td><td>is the vector of volumes </td></tr>
     <tr><td class="paramname">direction</td><td>is the binning direction </td></tr>
     <tr><td class="paramname">strategy</td><td>is the attachment strategy </td></tr>
@@ -301,8 +315,8 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
 
 </div>
 </div>
-<a id="a416636321ac95f7e758c3b721f718d8c" name="a416636321ac95f7e758c3b721f718d8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a416636321ac95f7e758c3b721f718d8c">&#9670;&#160;</a></span>CylinderVolumeStack() <span class="overload">[2/2]</span></h2>
+<a id="a0a49ed593909de75d940cb263b1f5f67" name="a0a49ed593909de75d940cb263b1f5f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a49ed593909de75d940cb263b1f5f67">&#9670;&#160;</a></span>CylinderVolumeStack() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,6 +324,11 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
         <tr>
           <td class="memname">Acts::CylinderVolumeStack::CylinderVolumeStack </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="class_acts_1_1_volume.html">Volume</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
         </tr>
         <tr>
@@ -338,6 +357,7 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
 <p>Constructor from a vector of volumes and direction. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volumes</td><td>is the vector of volumes </td></tr>
     <tr><td class="paramname">direction</td><td>is the binning direction </td></tr>
     <tr><td class="paramname">strategy</td><td>is the attachment strategy </td></tr>
@@ -362,8 +382,8 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a949d87f577dd8299c1f072cefea0749e" name="a949d87f577dd8299c1f072cefea0749e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949d87f577dd8299c1f072cefea0749e">&#9670;&#160;</a></span>update()</h2>
+<a id="adb98f2267c9609a451dbb76aef520b2b" name="adb98f2267c9609a451dbb76aef520b2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb98f2267c9609a451dbb76aef520b2b">&#9670;&#160;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,6 +394,11 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
         <tr>
           <td class="memname">void Acts::CylinderVolumeStack::update </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>volbounds</em></span>, </td>
         </tr>
         <tr>
@@ -397,6 +422,7 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
 <p>Update the volume bounds and transform. </p>
 <p>This will update the bounds of all volumes in the stack to accommodate the new bounds and optionally create gap volumes according to the resize strategy set during construction. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volbounds</td><td>is the new bounds </td></tr>
     <tr><td class="paramname">transform</td><td>is the new transform </td></tr>
     <tr><td class="paramname">logger</td><td>is the logger </td></tr>
@@ -405,7 +431,7 @@ The volumes all need to have <code>CylinerVolumeBounds</code> and cannot have a 
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The volume bounds need to be of type <code>CylinderVolumeBounds</code>. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_acts_1_1_volume.html#a72a26148e534d66dd83746eb9f685eb1">Acts::Volume</a>.</p>
+<p>Reimplemented from <a class="el" href="class_acts_1_1_volume.html#ac00865a2f60d6be6edd3f1e9858bcfdb">Acts::Volume</a>.</p>
 
 </div>
 </div>

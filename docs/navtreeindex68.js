@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#aaf774dd4201c42669be5f6d8db744428":[6,0,0,486,0,9],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#aaf774dd4201c42669be5f6d8db744428":[8,0,0,461,0,9],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#abf83ca5d8c6087076bfb6c110d1cfb36":[6,0,0,486,0,10],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#abf83ca5d8c6087076bfb6c110d1cfb36":[8,0,0,461,0,10],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ac541abebd71a031bfb47473d2d678828":[6,0,0,486,0,11],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ac541abebd71a031bfb47473d2d678828":[8,0,0,461,0,11],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ae9af027aa5bf56073366adb51b85ed0c":[6,0,0,486,0,6],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ae9af027aa5bf56073366adb51b85ed0c":[8,0,0,461,0,6],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_state.html":[6,0,0,486,1],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_state.html":[8,0,0,461,1],
 "struct_acts_1_1json_key.html":[5,8,11,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_fatras_1_1_pdg_excluder.html#a69e2f38728093daa7777a729b8ebd1b5":[6,0,2,27,0],
 "struct_acts_fatras_1_1_pdg_excluder.html#a69e2f38728093daa7777a729b8ebd1b5":[8,0,1,27,0],
 "struct_acts_fatras_1_1_pdg_selector.html":[6,0,2,28],
-"struct_acts_fatras_1_1_pdg_selector.html":[8,0,1,28],
-"struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[6,0,2,28,0],
-"struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[8,0,1,28,0],
-"struct_acts_fatras_1_1_planar_surface_drift.html":[6,0,2,30],
-"struct_acts_fatras_1_1_planar_surface_drift.html":[8,0,1,30],
-"struct_acts_fatras_1_1_planar_surface_drift.html#a027129318d06e558d7e853e554a2f1ef":[6,0,2,30,1],
-"struct_acts_fatras_1_1_planar_surface_drift.html#a027129318d06e558d7e853e554a2f1ef":[8,0,1,30,1],
-"struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[6,0,2,30,0],
-"struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[8,0,1,30,0]
+"struct_acts_fatras_1_1_pdg_selector.html":[8,0,1,28]
 };

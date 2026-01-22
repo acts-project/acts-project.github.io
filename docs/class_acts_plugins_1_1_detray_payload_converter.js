@@ -20,5 +20,5 @@ var class_acts_plugins_1_1_detray_payload_converter =
     [ "convertSurfaceArray", "class_acts_plugins_1_1_detray_payload_converter.html#a99edaf8b41837ffa6d14c0c9b78e5fb9", null ],
     [ "convertTrackingGeometry", "class_acts_plugins_1_1_detray_payload_converter.html#a57fe0c842aba6279bb9afd03cf183c83", null ],
     [ "convertTryAllNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#aa2276135102d853be4d6283722ca633f", null ],
-    [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#aefdfa4a9c58fc028cce769b99bf092b5", null ]
+    [ "convertVolume", "class_acts_plugins_1_1_detray_payload_converter.html#ace1bce4d0eacd16932573ab712a9860b", null ]
 ];

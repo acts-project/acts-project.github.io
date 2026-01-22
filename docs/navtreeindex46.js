@@ -1,5 +1,13 @@
 var NAVTREEINDEX46 =
 {
+"group__material__mapping.html":[5,3,2,0],
+"group__onnx__plugin.html":[5,8,12],
+"group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,8,12,4],
+"group__pattern__recog.html":[5,7],
+"group__plugins.html":[5,8],
+"group__propagation.html":[5,9],
+"group__root__plugin.html":[5,8,13],
+"group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,8,13,21],
 "group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2":[5,8,13,20],
 "group__root__plugin.html#ga378672f895c4e16375ce7f1217c43427":[5,8,13,19],
 "group__root__plugin.html#ga39ae58cede7230ec843b6ff7c2f8fc06":[5,8,13,17],
@@ -44,7 +52,6 @@ var NAVTREEINDEX46 =
 "namespace_acts.html#a011628b4fe22e244f04ee152403c6d5f":[6,0,0,839],
 "namespace_acts.html#a02a4498acaa3e08fdd9553867bb6fd8e":[6,0,0,604],
 "namespace_acts.html#a02e2191d2c123c5d7394238aa560e8d3":[6,0,0,795],
-"namespace_acts.html#a03a1428acbabf53542cf3f5b41d3f35f":[6,0,0,722],
 "namespace_acts.html#a03e61ea4aa32eba6186f7b1151eab506":[6,0,0,964],
 "namespace_acts.html#a04217815a63aceaf6ab6d5b64a057cbe":[6,0,0,819],
 "namespace_acts.html#a0471a5f2ee8a52d07049c3c014a76613":[6,0,0,557],
@@ -242,12 +249,5 @@ var NAVTREEINDEX46 =
 "namespace_acts.html#a507e1521b4ba13a3413804400712f00a":[6,0,0,981],
 "namespace_acts.html#a508ee0f24c070e5785bb517a4b449e69":[6,0,0,933],
 "namespace_acts.html#a5126c57045207c4b5f7e5a88b02e8ed1":[6,0,0,984],
-"namespace_acts.html#a52191edec34daa17746d1937fb06c1fb":[6,0,0,685],
-"namespace_acts.html#a52191edec34daa17746d1937fb06c1fbaa0fefe3b7423f88d38b84c1558ed4880":[6,0,0,685,1],
-"namespace_acts.html#a52191edec34daa17746d1937fb06c1fbab03a0aa5a9868274aece083944113f96":[6,0,0,685,2],
-"namespace_acts.html#a52191edec34daa17746d1937fb06c1fbab748f56cf76526f8606d7463b9df9f2e":[6,0,0,685,0],
-"namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c":[6,0,0,560],
-"namespace_acts.html#a526e32fbccfb7d636cadc94909fa448d":[6,0,0,988],
-"namespace_acts.html#a528016d34d6df141f5cb73973d6edca0":[6,0,0,552],
-"namespace_acts.html#a52e4174147933a017fd8663abf8ae740":[6,0,0,859]
+"namespace_acts.html#a52191edec34daa17746d1937fb06c1fb":[6,0,0,685]
 };

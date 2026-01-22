@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[6,0,2,28,0],
+"struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[8,0,1,28,0],
+"struct_acts_fatras_1_1_planar_surface_drift.html":[6,0,2,30],
+"struct_acts_fatras_1_1_planar_surface_drift.html":[8,0,1,30],
+"struct_acts_fatras_1_1_planar_surface_drift.html#a027129318d06e558d7e853e554a2f1ef":[6,0,2,30,1],
+"struct_acts_fatras_1_1_planar_surface_drift.html#a027129318d06e558d7e853e554a2f1ef":[8,0,1,30,1],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[6,0,2,30,0],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[8,0,1,30,0],
 "struct_acts_fatras_1_1_planar_surface_mask.html":[6,0,2,31],
 "struct_acts_fatras_1_1_planar_surface_mask.html":[8,0,1,31],
 "struct_acts_fatras_1_1_planar_surface_mask.html#a1fc02336f61431cfa85b7611775a241f":[6,0,2,31,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a69f62f49444123426d73085ac8fdb08d":[5,8,8,3,0,0],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9":[5,8,8,3,0,2],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[5,8,8,3,0,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,8,8,3,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html":[5,8,8,3,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[5,8,8,3,2,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[5,8,8,3,2,3],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[5,8,8,3,2,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[5,8,8,3,2,4],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[5,8,8,3,2,0],
-"struct_acts_plugins_1_1_geant4_material_converter.html":[5,8,8,4],
-"struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d":[5,8,8,4,1]
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,8,8,3,1]
 };
