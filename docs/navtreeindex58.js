@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[6,0,0,218,3],
+"struct_acts_1_1_impact_parameters_and_sigma.html#a8ed9ab5adafbb6ae3810c492399e1751":[8,0,0,193,3],
+"struct_acts_1_1_impact_point_estimator_1_1_config.html":[6,0,0,219,0],
+"struct_acts_1_1_impact_point_estimator_1_1_config.html":[8,0,0,194,0],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html#a1a04999a3f2aed4a3e8488c8c120ea4e":[6,0,0,219,0,5],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html#a1a04999a3f2aed4a3e8488c8c120ea4e":[8,0,0,194,0,5],
 "struct_acts_1_1_impact_point_estimator_1_1_config.html#a83251f62fd6191e00bf30132b2752e53":[6,0,0,219,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[6,0,0,272,0,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39":[8,0,0,247,0,0],
 "struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[6,0,0,272,0,2],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[8,0,0,247,0,2],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[6,0,0,272,0,1],
-"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[8,0,0,247,0,1],
-"struct_acts_1_1_lin_circle.html":[6,0,0,273],
-"struct_acts_1_1_lin_circle.html":[8,0,0,248]
+"struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7":[8,0,0,247,0,2]
 };
