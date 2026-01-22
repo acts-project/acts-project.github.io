@@ -34,9 +34,12 @@ var searchData=
   ['format_31',['format',['../struct_acts_1_1_table_1_1_column.html#a300d173e977dd8aceae5a810202bbd55',1,'Acts::Table::Column']]],
   ['forwardseedconfirmationrange_32',['forwardSeedConfirmationRange',['../struct_acts_1_1_seed_filter_config.html#a8f5c7b44ed34a85fad3be0bdef843224',1,'Acts::SeedFilterConfig::forwardSeedConfirmationRange'],['../struct_acts_1_1_seed_finder_config.html#a042e353f2928ea3c648bca934ca6abdc',1,'Acts::SeedFinderConfig::forwardSeedConfirmationRange'],['../struct_acts_1_1_seed_finder_orthogonal_config.html#aba871f0a2bb4713eb615119401b4dfe0',1,'Acts::SeedFinderOrthogonalConfig::forwardSeedConfirmationRange'],['../struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a6df22a6c04f1c87bc4c18ba416cf8f17',1,'Acts::BroadTripletSeedFilter::Config::forwardSeedConfirmationRange']]],
   ['fractioncutoff_33',['fractionCutoff',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMaxConfig']]],
-  ['freetoboundcorrection_34',['freeToBoundCorrection',['../struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a793fdc8ef515a4630a512f73b8e60dd2',1,'Acts::Experimental::Gx2FitterOptions::freeToBoundCorrection'],['../struct_acts_1_1_kalman_fitter_options.html#af3e8dfc3681b5b7ae742a14e2d3c32c8',1,'Acts::KalmanFitterOptions::freeToBoundCorrection']]],
-  ['from_35',['from',['../struct_acts_1_1_graph_viz_1_1_edge.html#a281a8acb960bb6a380ef5ecf2c12c1d4',1,'Acts::GraphViz::Edge']]],
-  ['fs_36',['fs',['../namespace_acts_1_1_unit_constants.html#a3530175873b86d70def5bef01851b1cb',1,'Acts::UnitConstants']]],
-  ['fullphysvol_37',['fullPhysVol',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335',1,'ActsPlugins::GeoModelDetectorObjectFactory::ConvertedGeoVol']]],
-  ['fullscan_38',['FULLSCAN',['../class_acts_1_1_experimental_1_1_roi_descriptor.html#aeefc7e1a931f0488c43d79ae3c00fafa',1,'Acts::Experimental::RoiDescriptor']]]
+  ['freecandidates_34',['freeCandidates',['../struct_acts_1_1_navigator_1_1_state.html#acd57b20134937cee427e2eb238fa859b',1,'Acts::Navigator::State']]],
+  ['freesurfaces_35',['freeSurfaces',['../struct_acts_1_1_navigator_1_1_options.html#ad843066598bd29dfa99adc1a293fef96',1,'Acts::Navigator::Options']]],
+  ['freesurfaceselector_36',['freeSurfaceSelector',['../struct_acts_1_1_navigator_1_1_options.html#ab1e18e3f1ab2bc8e5862770682098158',1,'Acts::Navigator::Options']]],
+  ['freetoboundcorrection_37',['freeToBoundCorrection',['../struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a793fdc8ef515a4630a512f73b8e60dd2',1,'Acts::Experimental::Gx2FitterOptions::freeToBoundCorrection'],['../struct_acts_1_1_kalman_fitter_options.html#af3e8dfc3681b5b7ae742a14e2d3c32c8',1,'Acts::KalmanFitterOptions::freeToBoundCorrection']]],
+  ['from_38',['from',['../struct_acts_1_1_graph_viz_1_1_edge.html#a281a8acb960bb6a380ef5ecf2c12c1d4',1,'Acts::GraphViz::Edge']]],
+  ['fs_39',['fs',['../namespace_acts_1_1_unit_constants.html#a3530175873b86d70def5bef01851b1cb',1,'Acts::UnitConstants']]],
+  ['fullphysvol_40',['fullPhysVol',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335',1,'ActsPlugins::GeoModelDetectorObjectFactory::ConvertedGeoVol']]],
+  ['fullscan_41',['FULLSCAN',['../class_acts_1_1_experimental_1_1_roi_descriptor.html#aeefc7e1a931f0488c43d79ae3c00fafa',1,'Acts::Experimental::RoiDescriptor']]]
 ];

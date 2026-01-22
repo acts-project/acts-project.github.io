@@ -11,6 +11,7 @@ var struct_acts_1_1_navigator_1_1_state =
     [ "currentLayer", "struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46", null ],
     [ "currentSurface", "struct_acts_1_1_navigator_1_1_state.html#aefa673eab0064b8c62288054818468d5", null ],
     [ "currentVolume", "struct_acts_1_1_navigator_1_1_state.html#aa664552fae00e3d87df1121c1e7b3edf", null ],
+    [ "freeCandidates", "struct_acts_1_1_navigator_1_1_state.html#acd57b20134937cee427e2eb238fa859b", null ],
     [ "navBoundaries", "struct_acts_1_1_navigator_1_1_state.html#ad96e96c388da1283aadd8564a4bf8121", null ],
     [ "navBoundaryIndex", "struct_acts_1_1_navigator_1_1_state.html#ae45f13d30b14f759ca96be50b1a35bc4", null ],
     [ "navCandidateIndex", "struct_acts_1_1_navigator_1_1_state.html#a3095e3b1616d0db9aa8753d84fdb4eac", null ],

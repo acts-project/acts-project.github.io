@@ -3,7 +3,7 @@ var class_acts_1_1_navigator =
     [ "Config", "struct_acts_1_1_navigator_1_1_config.html", "struct_acts_1_1_navigator_1_1_config" ],
     [ "Options", "struct_acts_1_1_navigator_1_1_options.html", "struct_acts_1_1_navigator_1_1_options" ],
     [ "State", "struct_acts_1_1_navigator_1_1_state.html", "struct_acts_1_1_navigator_1_1_state" ],
-    [ "ExternalSurfaces", "class_acts_1_1_navigator.html#a220a7a7b8446acf258618402a1e686a9", null ],
+    [ "ExternalSurfaces", "class_acts_1_1_navigator.html#a2255f66d39ed11c63cf8f634113de048", null ],
     [ "GeometryVersion", "class_acts_1_1_navigator.html#ab6f463f4b8269bf10128034f5a010bbe", null ],
     [ "NavigationBoundaries", "class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8", null ],
     [ "NavigationCandidates", "class_acts_1_1_navigator.html#a281b1c2d169dce40f0516056dcc55341", null ],

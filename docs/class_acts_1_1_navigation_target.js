@@ -30,5 +30,6 @@ var class_acts_1_1_navigation_target =
     [ "portal", "class_acts_1_1_navigation_target.html#a8c086e098be3abe50e9349ca92bfb017", null ],
     [ "position", "class_acts_1_1_navigation_target.html#a19ac8f8e907bf6a1c512970008d46c83", null ],
     [ "status", "class_acts_1_1_navigation_target.html#a6ad6b0f25cba6c24c3be7a84f2576541", null ],
-    [ "surface", "class_acts_1_1_navigation_target.html#aa8f65980f99af1abcc4087d3b6546b54", null ]
+    [ "surface", "class_acts_1_1_navigation_target.html#aa8f65980f99af1abcc4087d3b6546b54", null ],
+    [ "operator<<", "class_acts_1_1_navigation_target.html#a9f9926307a750cbc97bb305a8cabed6b", null ]
 ];

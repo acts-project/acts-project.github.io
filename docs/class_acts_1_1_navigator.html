@@ -142,7 +142,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a220a7a7b8446acf258618402a1e686a9" id="r_a220a7a7b8446acf258618402a1e686a9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a220a7a7b8446acf258618402a1e686a9">ExternalSurfaces</a> = std::multimap&lt;std::uint64_t, <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&gt;</td></tr>
+<tr class="memitem:a2255f66d39ed11c63cf8f634113de048" id="r_a2255f66d39ed11c63cf8f634113de048"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2255f66d39ed11c63cf8f634113de048">ExternalSurfaces</a> = std::vector&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&gt;</td></tr>
 <tr class="memitem:ab6f463f4b8269bf10128034f5a010bbe" id="r_ab6f463f4b8269bf10128034f5a010bbe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6f463f4b8269bf10128034f5a010bbe">GeometryVersion</a> = <a class="el" href="class_acts_1_1_tracking_geometry.html#a55e38e7e200a0a1d5f14261b30091b56">TrackingGeometry::GeometryVersion</a></td></tr>
 <tr class="memdesc:ab6f463f4b8269bf10128034f5a010bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for geometry version enumeration.  <br /></td></tr>
 <tr class="memitem:a62cde453e863c790b90bac9907c3cdd8" id="r_a62cde453e863c790b90bac9907c3cdd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62cde453e863c790b90bac9907c3cdd8">NavigationBoundaries</a></td></tr>
@@ -195,14 +195,14 @@ Public Member Functions</h2></td></tr>
 <p>The current navigation stage is cached in the state struct and updated when necessary. If any surface in the extrapolation flow is hit, it is set to the navigation state, such that other actors can deal with it.</p>
 <p>The current target surface is referenced by an index which points into the navigation candidates. The navigation candidates are ordered by the path length to the surface. If a surface is hit, the <span class="tt">state.currentSurface</span> pointer is set. This actors to observe that we are on a surface. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a220a7a7b8446acf258618402a1e686a9" name="a220a7a7b8446acf258618402a1e686a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a220a7a7b8446acf258618402a1e686a9">&#9670;&#160;</a></span>ExternalSurfaces</h2>
+<a id="a2255f66d39ed11c63cf8f634113de048" name="a2255f66d39ed11c63cf8f634113de048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2255f66d39ed11c63cf8f634113de048">&#9670;&#160;</a></span>ExternalSurfaces</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a220a7a7b8446acf258618402a1e686a9">Acts::Navigator::ExternalSurfaces</a> = std::multimap&lt;std::uint64_t, <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a2255f66d39ed11c63cf8f634113de048">Acts::Navigator::ExternalSurfaces</a> = std::vector&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

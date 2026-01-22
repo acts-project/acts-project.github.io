@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"namespace_acts_1_1_vector_helpers.html#aacf20574d54488fb7aa1cc77fbbff365":[6,0,0,40,9],
+"namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4":[6,0,0,40,1],
 "namespace_acts_1_1_vector_helpers.html#ad64ded79ee6ea99222e4fc8558afe451":[6,0,0,40,5],
 "namespace_acts_1_1_vector_helpers.html#ae26dc2eb8d916178f1ad3c72f545ba51":[6,0,0,40,10],
 "namespace_acts_1_1_vector_helpers.html#aee596cee9f20711ff9548f38973c2e1b":[6,0,0,40,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#ae9a132f9032c5a3f66e4c961a2929c4c":[6,0,0,50,0,21],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#ae9a132f9032c5a3f66e4c961a2929c4c":[8,0,0,25,0,21],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aea918d784f8b6f0754a00b46f09288cf":[6,0,0,50,0,5],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aea918d784f8b6f0754a00b46f09288cf":[8,0,0,25,0,5],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#af107f23e7ec8c8ea39c735b160e6586f":[6,0,0,50,0,7],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#af107f23e7ec8c8ea39c735b160e6586f":[8,0,0,25,0,7]
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#aea918d784f8b6f0754a00b46f09288cf":[8,0,0,25,0,5]
 };

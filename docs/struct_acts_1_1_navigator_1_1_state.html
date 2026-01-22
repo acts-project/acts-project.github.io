@@ -162,6 +162,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aefa673eab0064b8c62288054818468d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current surface during navigation.  <br /></td></tr>
 <tr class="memitem:aa664552fae00e3d87df1121c1e7b3edf" id="r_aa664552fae00e3d87df1121c1e7b3edf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa664552fae00e3d87df1121c1e7b3edf">currentVolume</a> = nullptr</td></tr>
 <tr class="memdesc:aa664552fae00e3d87df1121c1e7b3edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current volume during navigation.  <br /></td></tr>
+<tr class="memitem:acd57b20134937cee427e2eb238fa859b" id="r_acd57b20134937cee427e2eb238fa859b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd57b20134937cee427e2eb238fa859b">freeCandidates</a> {}</td></tr>
+<tr class="memdesc:acd57b20134937cee427e2eb238fa859b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free candidates not part of the tracking geometry.  <br /></td></tr>
 <tr class="memitem:ad96e96c388da1283aadd8564a4bf8121" id="r_ad96e96c388da1283aadd8564a4bf8121"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8">NavigationBoundaries</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad96e96c388da1283aadd8564a4bf8121">navBoundaries</a> = {}</td></tr>
 <tr class="memdesc:ad96e96c388da1283aadd8564a4bf8121"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vector of boundary surfaces to work through  <br /></td></tr>
 <tr class="memitem:ae45f13d30b14f759ca96be50b1a35bc4" id="r_ae45f13d30b14f759ca96be50b1a35bc4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45f13d30b14f759ca96be50b1a35bc4">navBoundaryIndex</a></td></tr>
@@ -414,6 +416,23 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Current volume during navigation. </p>
+
+</div>
+</div>
+<a id="acd57b20134937cee427e2eb238fa859b" name="acd57b20134937cee427e2eb238fa859b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd57b20134937cee427e2eb238fa859b">&#9670;&#160;</a></span>freeCandidates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;const <a class="el" href="class_acts_1_1_surface.html">Surface</a>*, bool&gt; &gt; Acts::Navigator::State::freeCandidates {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free candidates not part of the tracking geometry. </p>
+<p>and a boolean indicating whether the surface has already been reached during propagation </p>
 
 </div>
 </div>
