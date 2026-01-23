@@ -125,29 +125,30 @@ $(function(){initNavTree('_geo_model_to_detector_volume_8hpp_source.html','','')
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">// This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// file, You can obtain one at https://mozilla.org/MPL/2.0/.</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;Acts/Utilities/BoundFactory.hpp&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;ActsPlugins/GeoModel/GeoModelDetectorElement.hpp&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Acts/Utilities/BoundFactory.hpp&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;GeoModelKernel/GeoDefinitions.h&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>GeoShape;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins_1_1_geo_model.html">ActsPlugins::GeoModel</a> {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__geomodel__plugin.html#ga544a658c32d6140fcc9990596eaa9ccc">   26</a></span><a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> <a class="code hl_function" href="group__geomodel__plugin.html#ga544a658c32d6140fcc9990596eaa9ccc">volumePosInSpace</a>(<span class="keyword">const</span> PVConstLink&amp; physVol);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__geomodel__plugin.html#ga2a4b62b6b80f97e46549f0a3ae020bfd">   35</a></span>std::shared_ptr&lt;Acts::Volume&gt; <a class="code hl_function" href="group__geomodel__plugin.html#ga2a4b62b6b80f97e46549f0a3ae020bfd">convertVolume</a>(</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a>&amp; trf, <span class="keyword">const</span> GeoShape* shape,</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_typedef" href="namespace_acts.html#aca88659ee97e667013784c4fac8475f2">Acts::VolumeBoundFactory</a>&amp; boundFactory);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}  <span class="comment">// namespace ActsPlugins::GeoModel</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;GeoModelKernel/GeoFullPhysVol.h&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>GeoShape;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_plugins_1_1_geo_model.html">ActsPlugins::GeoModel</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__geomodel__plugin.html#ga544a658c32d6140fcc9990596eaa9ccc">   27</a></span><a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> <a class="code hl_function" href="group__geomodel__plugin.html#ga544a658c32d6140fcc9990596eaa9ccc">volumePosInSpace</a>(<span class="keyword">const</span> PVConstLink&amp; physVol);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="group__geomodel__plugin.html#ga2a4b62b6b80f97e46549f0a3ae020bfd">   36</a></span>std::shared_ptr&lt;Acts::Volume&gt; <a class="code hl_function" href="group__geomodel__plugin.html#ga2a4b62b6b80f97e46549f0a3ae020bfd">convertVolume</a>(</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a>&amp; trf, <span class="keyword">const</span> GeoShape* shape,</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_typedef" href="namespace_acts.html#aca88659ee97e667013784c4fac8475f2">Acts::VolumeBoundFactory</a>&amp; boundFactory);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}  <span class="comment">// namespace ActsPlugins::GeoModel</span></div>
 <div class="ttc" id="agroup__algebra__types_html_ga0b5cf144852112b0c7f251a493d8877e"><div class="ttname"><a href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Affine &gt; Transform3</div><div class="ttdoc">3D affine transformation stored as a 4x4 matrix</div><div class="ttdef"><b>Definition</b> Algebra.hpp:99</div></div>
 <div class="ttc" id="agroup__geomodel__plugin_html_ga2a4b62b6b80f97e46549f0a3ae020bfd"><div class="ttname"><a href="group__geomodel__plugin.html#ga2a4b62b6b80f97e46549f0a3ae020bfd">ActsPlugins::GeoModel::convertVolume</a></div><div class="ttdeci">std::shared_ptr&lt; Acts::Volume &gt; convertVolume(const Acts::Transform3 &amp;trf, const GeoShape *shape, Acts::VolumeBoundFactory &amp;boundFactory)</div><div class="ttdoc">Converts a GeoShape into a bounded volume.</div></div>
 <div class="ttc" id="agroup__geomodel__plugin_html_ga544a658c32d6140fcc9990596eaa9ccc"><div class="ttname"><a href="group__geomodel__plugin.html#ga544a658c32d6140fcc9990596eaa9ccc">ActsPlugins::GeoModel::volumePosInSpace</a></div><div class="ttdeci">Acts::Transform3 volumePosInSpace(const PVConstLink &amp;physVol)</div><div class="ttdoc">Calculates the absolute volume position w.r.t.</div></div>
 <div class="ttc" id="anamespace_acts_html_aca88659ee97e667013784c4fac8475f2"><div class="ttname"><a href="namespace_acts.html#aca88659ee97e667013784c4fac8475f2">Acts::VolumeBoundFactory</a></div><div class="ttdeci">BoundFactory&lt; VolumeBounds &gt; VolumeBoundFactory</div><div class="ttdoc">Abrivation for a factory to construct volume bounds.</div><div class="ttdef"><b>Definition</b> BoundFactory.hpp:122</div></div>
-<div class="ttc" id="anamespace_acts_plugins_1_1_geo_model_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_geo_model.html">ActsPlugins::GeoModel</a></div><div class="ttdef"><b>Definition</b> GeoModelMaterialConverter.hpp:14</div></div>
+<div class="ttc" id="anamespace_acts_plugins_1_1_geo_model_html"><div class="ttname"><a href="namespace_acts_plugins_1_1_geo_model.html">ActsPlugins::GeoModel</a></div><div class="ttdef"><b>Definition</b> GeoModelMaterialConverter.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
