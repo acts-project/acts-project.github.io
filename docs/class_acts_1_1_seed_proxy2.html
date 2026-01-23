@@ -176,8 +176,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a54fd51e93e90e5ba8a90b8f7cc2f3db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the space point indices of the seed.  <br /></td></tr>
 <tr class="memitem:a4f7b3f5cb8daf0af05d00ebbddf5efaf" id="r_a4f7b3f5cb8daf0af05d00ebbddf5efaf"><td class="memItemLeft" align="right" valign="top">std::span&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f7b3f5cb8daf0af05d00ebbddf5efaf">spacePointIndices</a> () noexcept</td></tr>
 <tr class="memdesc:a4f7b3f5cb8daf0af05d00ebbddf5efaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable access to the space point indices of the seed.  <br /></td></tr>
+<tr class="memitem:a7f66e260d860337cda57c6cea57df880" id="r_a7f66e260d860337cda57c6cea57df880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_proxy2_1_1_space_point_range.html">SpacePointRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f66e260d860337cda57c6cea57df880">spacePoints</a> () const</td></tr>
+<tr class="memdesc:a7f66e260d860337cda57c6cea57df880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the space points associated with this seed.  <br /></td></tr>
 <tr class="memitem:ae3d59e6b52d49a4f236da0d0927c3adc" id="r_ae3d59e6b52d49a4f236da0d0927c3adc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_proxy2_1_1_space_point_range.html">SpacePointRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3d59e6b52d49a4f236da0d0927c3adc">spacePoints</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePointContainer) const noexcept</td></tr>
-<tr class="memdesc:ae3d59e6b52d49a4f236da0d0927c3adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the space points associated with this seed.  <br /></td></tr>
+<tr class="memdesc:ae3d59e6b52d49a4f236da0d0927c3adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the space points associated with this seed using an external space point container.  <br /></td></tr>
 <tr class="memitem:a8794e87345341401126fffe1d484bc76" id="r_a8794e87345341401126fffe1d484bc76"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8794e87345341401126fffe1d484bc76">vertexZ</a> () const noexcept</td></tr>
 <tr class="memdesc:a8794e87345341401126fffe1d484bc76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the vertex Z coordinate of the seed.  <br /></td></tr>
 <tr class="memitem:ab5d80d0fc3958195e1b735f5e66cacfc" id="r_ab5d80d0fc3958195e1b735f5e66cacfc"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5d80d0fc3958195e1b735f5e66cacfc">vertexZ</a> () noexcept</td></tr>
@@ -644,8 +646,30 @@ template&lt;bool read_only&gt; </div>
 
 </div>
 </div>
+<a id="a7f66e260d860337cda57c6cea57df880" name="a7f66e260d860337cda57c6cea57df880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f66e260d860337cda57c6cea57df880">&#9670;&#160;</a></span>spacePoints() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_seed_proxy2_1_1_space_point_range.html">SpacePointRange</a> <a class="el" href="class_acts_1_1_seed_proxy2.html">Acts::SeedProxy2</a>&lt; read_only &gt;::spacePoints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the space points associated with this seed. </p>
+<p>The space point container is taken from the seed container. </p><dl class="section return"><dt>Returns</dt><dd>Range of space points for this seed </dd></dl>
+
+</div>
+</div>
 <a id="ae3d59e6b52d49a4f236da0d0927c3adc" name="ae3d59e6b52d49a4f236da0d0927c3adc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3d59e6b52d49a4f236da0d0927c3adc">&#9670;&#160;</a></span>spacePoints()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d59e6b52d49a4f236da0d0927c3adc">&#9670;&#160;</a></span>spacePoints() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -669,10 +693,10 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Get the space points associated with this seed. </p>
+<p>Get the space points associated with this seed using an external space point container. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">spacePointContainer</td><td>Container holding all space points </td></tr>
+    <tr><td class="paramname">spacePointContainer</td><td>External container holding all space points </td></tr>
   </table>
   </dd>
 </dl>

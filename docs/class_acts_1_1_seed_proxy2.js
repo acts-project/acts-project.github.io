@@ -17,6 +17,7 @@ var class_acts_1_1_seed_proxy2 =
     [ "size", "class_acts_1_1_seed_proxy2.html#a0c5e262489663e30f9add0bb6febc9dd", null ],
     [ "spacePointIndices", "class_acts_1_1_seed_proxy2.html#a54fd51e93e90e5ba8a90b8f7cc2f3db8", null ],
     [ "spacePointIndices", "class_acts_1_1_seed_proxy2.html#a4f7b3f5cb8daf0af05d00ebbddf5efaf", null ],
+    [ "spacePoints", "class_acts_1_1_seed_proxy2.html#a7f66e260d860337cda57c6cea57df880", null ],
     [ "spacePoints", "class_acts_1_1_seed_proxy2.html#ae3d59e6b52d49a4f236da0d0927c3adc", null ],
     [ "vertexZ", "class_acts_1_1_seed_proxy2.html#a8794e87345341401126fffe1d484bc76", null ],
     [ "vertexZ", "class_acts_1_1_seed_proxy2.html#ab5d80d0fc3958195e1b735f5e66cacfc", null ],
