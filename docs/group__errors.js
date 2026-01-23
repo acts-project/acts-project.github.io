@@ -60,7 +60,8 @@ var group__errors =
     ] ],
     [ "Acts::NavigatorError", "group__errors.html#ga2cc876d4889b5c6656ed7d5e0c1fca19", [
       [ "Acts::NavigatorError::NotInsideExpectedVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120", null ],
-      [ "Acts::NavigatorError::NotOnExpectedSurface", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a", null ]
+      [ "Acts::NavigatorError::NotOnExpectedSurface", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a", null ],
+      [ "Acts::NavigatorError::NoStartVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2", null ]
     ] ],
     [ "Acts::PortalError", "group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459", [
       [ "Acts::PortalError::PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ]

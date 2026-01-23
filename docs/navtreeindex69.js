@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_fatras_1_1_pdg_selector.html":[8,0,1,28],
 "struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[6,0,2,28,0],
 "struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[8,0,1,28,0],
 "struct_acts_fatras_1_1_planar_surface_drift.html":[6,0,2,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a4e00e1da40a2877a238f5462b036f69f":[5,8,8,3,0,3],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a69f62f49444123426d73085ac8fdb08d":[5,8,8,3,0,0],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9":[5,8,8,3,0,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[5,8,8,3,0,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,8,8,3,1]
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[5,8,8,3,0,1]
 };

@@ -1161,7 +1161,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01279" name="l01279"></a><span class="lineno"> 1279</span>      <span class="keyword">auto</span> propagatorInitResult =</div>
 <div class="line"><a id="l01280" name="l01280"></a><span class="lineno"> 1280</span>          m_propagator.initialize(propagatorState, params);</div>
 <div class="line"><a id="l01281" name="l01281"></a><span class="lineno"> 1281</span>      <span class="keywordflow">if</span> (!propagatorInitResult.ok()) {</div>
-<div class="line"><a id="l01282" name="l01282"></a><span class="lineno"> 1282</span>        <a class="code hl_define" href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
+<div class="line"><a id="l01282" name="l01282"></a><span class="lineno"> 1282</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
 <div class="line"><a id="l01283" name="l01283"></a><span class="lineno"> 1283</span>                   &lt;&lt; propagatorInitResult.error());</div>
 <div class="line"><a id="l01284" name="l01284"></a><span class="lineno"> 1284</span>        <span class="keywordflow">return</span> propagatorInitResult.error();</div>
 <div class="line"><a id="l01285" name="l01285"></a><span class="lineno"> 1285</span>      }</div>
@@ -1181,7 +1181,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01299" name="l01299"></a><span class="lineno"> 1299</span>                                  propagatorOptions, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l01300" name="l01300"></a><span class="lineno"> 1300</span> </div>
 <div class="line"><a id="l01301" name="l01301"></a><span class="lineno"> 1301</span>      <span class="keywordflow">if</span> (!result.ok()) {</div>
-<div class="line"><a id="l01302" name="l01302"></a><span class="lineno"> 1302</span>        <a class="code hl_define" href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error());</div>
+<div class="line"><a id="l01302" name="l01302"></a><span class="lineno"> 1302</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error());</div>
 <div class="line"><a id="l01303" name="l01303"></a><span class="lineno"> 1303</span>        <span class="keywordflow">return</span> result.error();</div>
 <div class="line"><a id="l01304" name="l01304"></a><span class="lineno"> 1304</span>      }</div>
 <div class="line"><a id="l01305" name="l01305"></a><span class="lineno"> 1305</span> </div>
@@ -1325,7 +1325,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01445" name="l01445"></a><span class="lineno"> 1445</span>      <span class="keyword">auto</span> propagatorInitResult =</div>
 <div class="line"><a id="l01446" name="l01446"></a><span class="lineno"> 1446</span>          m_propagator.initialize(propagatorState, params);</div>
 <div class="line"><a id="l01447" name="l01447"></a><span class="lineno"> 1447</span>      <span class="keywordflow">if</span> (!propagatorInitResult.ok()) {</div>
-<div class="line"><a id="l01448" name="l01448"></a><span class="lineno"> 1448</span>        <a class="code hl_define" href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
+<div class="line"><a id="l01448" name="l01448"></a><span class="lineno"> 1448</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
 <div class="line"><a id="l01449" name="l01449"></a><span class="lineno"> 1449</span>                   &lt;&lt; propagatorInitResult.error());</div>
 <div class="line"><a id="l01450" name="l01450"></a><span class="lineno"> 1450</span>        <span class="keywordflow">return</span> propagatorInitResult.error();</div>
 <div class="line"><a id="l01451" name="l01451"></a><span class="lineno"> 1451</span>      }</div>
@@ -1345,7 +1345,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01465" name="l01465"></a><span class="lineno"> 1465</span>                                  propagatorOptions, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l01466" name="l01466"></a><span class="lineno"> 1466</span> </div>
 <div class="line"><a id="l01467" name="l01467"></a><span class="lineno"> 1467</span>      <span class="keywordflow">if</span> (!result.ok()) {</div>
-<div class="line"><a id="l01468" name="l01468"></a><span class="lineno"> 1468</span>        <a class="code hl_define" href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error());</div>
+<div class="line"><a id="l01468" name="l01468"></a><span class="lineno"> 1468</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error());</div>
 <div class="line"><a id="l01469" name="l01469"></a><span class="lineno"> 1469</span>        <span class="keywordflow">return</span> result.error();</div>
 <div class="line"><a id="l01470" name="l01470"></a><span class="lineno"> 1470</span>      }</div>
 <div class="line"><a id="l01471" name="l01471"></a><span class="lineno"> 1471</span> </div>
@@ -1470,7 +1470,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01591" name="l01591"></a><span class="lineno"> 1591</span>      <span class="keyword">auto</span> propagatorInitResult =</div>
 <div class="line"><a id="l01592" name="l01592"></a><span class="lineno"> 1592</span>          m_propagator.initialize(propagatorState, params);</div>
 <div class="line"><a id="l01593" name="l01593"></a><span class="lineno"> 1593</span>      <span class="keywordflow">if</span> (!propagatorInitResult.ok()) {</div>
-<div class="line"><a id="l01594" name="l01594"></a><span class="lineno"> 1594</span>        <a class="code hl_define" href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
+<div class="line"><a id="l01594" name="l01594"></a><span class="lineno"> 1594</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
 <div class="line"><a id="l01595" name="l01595"></a><span class="lineno"> 1595</span>                   &lt;&lt; propagatorInitResult.error());</div>
 <div class="line"><a id="l01596" name="l01596"></a><span class="lineno"> 1596</span>        <span class="keywordflow">return</span> propagatorInitResult.error();</div>
 <div class="line"><a id="l01597" name="l01597"></a><span class="lineno"> 1597</span>      }</div>
@@ -1486,7 +1486,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01607" name="l01607"></a><span class="lineno"> 1607</span>                                  propagatorOptions, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l01608" name="l01608"></a><span class="lineno"> 1608</span> </div>
 <div class="line"><a id="l01609" name="l01609"></a><span class="lineno"> 1609</span>      <span class="keywordflow">if</span> (!result.ok()) {</div>
-<div class="line"><a id="l01610" name="l01610"></a><span class="lineno"> 1610</span>        <a class="code hl_define" href="group__logging__macros.html#ga3f6a1f0c2f92795a233960dc6024e99c">ACTS_ERROR</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error());</div>
+<div class="line"><a id="l01610" name="l01610"></a><span class="lineno"> 1610</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error());</div>
 <div class="line"><a id="l01611" name="l01611"></a><span class="lineno"> 1611</span>        <span class="keywordflow">return</span> result.error();</div>
 <div class="line"><a id="l01612" name="l01612"></a><span class="lineno"> 1612</span>      }</div>
 <div class="line"><a id="l01613" name="l01613"></a><span class="lineno"> 1613</span> </div>

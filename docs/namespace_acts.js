@@ -1023,7 +1023,8 @@ var namespace_acts =
     ] ],
     [ "NavigatorError", "group__errors.html#ga2cc876d4889b5c6656ed7d5e0c1fca19", [
       [ "NotInsideExpectedVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120", null ],
-      [ "NotOnExpectedSurface", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a", null ]
+      [ "NotOnExpectedSurface", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a", null ],
+      [ "NoStartVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2", null ]
     ] ],
     [ "NoiseUpdateMode", "namespace_acts.html#ae866cb8853468d56eec07abde7529017", [
       [ "removeNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8", null ],
