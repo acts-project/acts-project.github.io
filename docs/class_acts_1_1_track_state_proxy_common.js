@@ -53,6 +53,6 @@ var class_acts_1_1_track_state_proxy_common =
     [ "smoothed", "class_acts_1_1_track_state_proxy_common.html#ab2f8197f3ee7aa50ff262176609b5e93", null ],
     [ "smoothedCovariance", "class_acts_1_1_track_state_proxy_common.html#a5eb4b1fa2d11c899936bc94548924179", null ],
     [ "smoothedCovariance", "class_acts_1_1_track_state_proxy_common.html#abab3287e46fcbfc75ef4033e414c49ab", null ],
-    [ "typeFlags", "class_acts_1_1_track_state_proxy_common.html#a0c6f8fbfbfc10fdab23e6340ac4ce0bb", null ],
-    [ "typeFlags", "class_acts_1_1_track_state_proxy_common.html#a8a111551dd462184fe9ce743586cda08", null ]
+    [ "typeFlags", "class_acts_1_1_track_state_proxy_common.html#a6a658e9484366e20acca5e24824d9c4e", null ],
+    [ "typeFlags", "class_acts_1_1_track_state_proxy_common.html#a6de152ca1f25fe8f8534393a52bdabab", null ]
 ];

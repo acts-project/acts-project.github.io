@@ -556,65 +556,64 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00487" name="l00487"></a><span class="lineno">  487</span>             fwdGsfResult.currentTip)) {</div>
 <div class="line"><a id="l00488" name="l00488"></a><span class="lineno">  488</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> found =</div>
 <div class="line"><a id="l00489" name="l00489"></a><span class="lineno">  489</span>          <a class="code hl_function" href="namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d">rangeContainsValue</a>(foundBwd, &amp;state.referenceSurface());</div>
-<div class="line"><a id="l00490" name="l00490"></a><span class="lineno">  490</span>      <span class="keywordflow">if</span> (!found &amp;&amp; state.typeFlags().test(<a class="code hl_enumvalue" href="namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a61c2d35b2b78000035892533a0d84c1b">MeasurementFlag</a>)) {</div>
-<div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span>        state.typeFlags().set(<a class="code hl_enumvalue" href="namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a8ea62dde4ffd73859274aa60475ed51e">OutlierFlag</a>);</div>
-<div class="line"><a id="l00492" name="l00492"></a><span class="lineno">  492</span>        state.typeFlags().reset(<a class="code hl_enumvalue" href="namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a61c2d35b2b78000035892533a0d84c1b">MeasurementFlag</a>);</div>
-<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>        state.unset(<a class="code hl_enumvalue" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97">TrackStatePropMask::Smoothed</a>);</div>
-<div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span>      }</div>
-<div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span> </div>
-<div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span>      measurementStatesFinal +=</div>
-<div class="line"><a id="l00497" name="l00497"></a><span class="lineno">  497</span>          <span class="keyword">static_cast&lt;</span>std::size_t<span class="keyword">&gt;</span>(state.typeFlags().test(<a class="code hl_enumvalue" href="namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a61c2d35b2b78000035892533a0d84c1b">MeasurementFlag</a>));</div>
-<div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span>    }</div>
-<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span> </div>
-<div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span>    <span class="keywordflow">if</span> (measurementStatesFinal == 0) {</div>
-<div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>      <span class="keywordflow">return</span> return_error_or_abort(<a class="code hl_enumvalue" href="group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa78b62f76aa8053db68df72c21e0c71fa">GsfError::NoMeasurementStatesCreatedFinal</a>);</div>
-<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>    }</div>
-<div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span> </div>
-<div class="line"><a id="l00504" name="l00504"></a><span class="lineno">  504</span>    <span class="keyword">auto</span> track = trackContainer.makeTrack();</div>
-<div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>    track.tipIndex() = fwdGsfResult.lastMeasurementTip;</div>
-<div class="line"><a id="l00506" name="l00506"></a><span class="lineno">  506</span> </div>
-<div class="line"><a id="l00507" name="l00507"></a><span class="lineno">  507</span>    <span class="keywordflow">if</span> (options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#ab1f4fdb6cf96b33857e0e070c8156512">referenceSurface</a>) {</div>
-<div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; params = *bwdResult-&gt;endParameters;</div>
-<div class="line"><a id="l00509" name="l00509"></a><span class="lineno">  509</span> </div>
-<div class="line"><a id="l00510" name="l00510"></a><span class="lineno">  510</span>      <span class="keyword">const</span> <span class="keyword">auto</span> [finalPars, finalCov] = detail::mergeGaussianMixture(</div>
-<div class="line"><a id="l00511" name="l00511"></a><span class="lineno">  511</span>          params.components(), params.referenceSurface(),</div>
-<div class="line"><a id="l00512" name="l00512"></a><span class="lineno">  512</span>          options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a967824812ca767a80fae6ecb475a2c1c">componentMergeMethod</a>, [](<span class="keyword">auto</span>&amp; t) {</div>
-<div class="line"><a id="l00513" name="l00513"></a><span class="lineno">  513</span>            return std::tie(std::get&lt;0&gt;(t), std::get&lt;1&gt;(t), *std::get&lt;2&gt;(t));</div>
-<div class="line"><a id="l00514" name="l00514"></a><span class="lineno">  514</span>          });</div>
-<div class="line"><a id="l00515" name="l00515"></a><span class="lineno">  515</span> </div>
-<div class="line"><a id="l00516" name="l00516"></a><span class="lineno">  516</span>      track.parameters() = finalPars;</div>
-<div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span>      track.covariance() = finalCov;</div>
-<div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span> </div>
-<div class="line"><a id="l00519" name="l00519"></a><span class="lineno">  519</span>      track.setReferenceSurface(params.referenceSurface().getSharedPtr());</div>
-<div class="line"><a id="l00520" name="l00520"></a><span class="lineno">  520</span> </div>
-<div class="line"><a id="l00521" name="l00521"></a><span class="lineno">  521</span>      <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
-<div class="line"><a id="l00522" name="l00522"></a><span class="lineno">  522</span>              <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed">GsfConstants::kFinalMultiComponentStateColumn</a>))) {</div>
-<div class="line"><a id="l00523" name="l00523"></a><span class="lineno">  523</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Add final multi-component state to track&quot;</span>);</div>
-<div class="line"><a id="l00524" name="l00524"></a><span class="lineno">  524</span>        track.template component&lt;GsfConstants::FinalMultiComponentState&gt;(</div>
-<div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>            <a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed">GsfConstants::kFinalMultiComponentStateColumn</a>) = std::move(params);</div>
-<div class="line"><a id="l00526" name="l00526"></a><span class="lineno">  526</span>      }</div>
-<div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span>    }</div>
-<div class="line"><a id="l00528" name="l00528"></a><span class="lineno">  528</span> </div>
-<div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
-<div class="line"><a id="l00530" name="l00530"></a><span class="lineno">  530</span>            <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297">GsfConstants::kFwdMaxMaterialXOverX0</a>))) {</div>
-<div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>      track.template component&lt;double&gt;(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297">GsfConstants::kFwdMaxMaterialXOverX0</a>) =</div>
-<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>          fwdGsfResult.maxPathXOverX0.val();</div>
-<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>    }</div>
-<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
-<div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>            <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2">GsfConstants::kFwdSumMaterialXOverX0</a>))) {</div>
-<div class="line"><a id="l00536" name="l00536"></a><span class="lineno">  536</span>      track.template component&lt;double&gt;(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2">GsfConstants::kFwdSumMaterialXOverX0</a>) =</div>
-<div class="line"><a id="l00537" name="l00537"></a><span class="lineno">  537</span>          fwdGsfResult.sumPathXOverX0.val();</div>
-<div class="line"><a id="l00538" name="l00538"></a><span class="lineno">  538</span>    }</div>
-<div class="line"><a id="l00539" name="l00539"></a><span class="lineno">  539</span> </div>
-<div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span>    <a class="code hl_function" href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a>(track);</div>
-<div class="line"><a id="l00541" name="l00541"></a><span class="lineno">  541</span> </div>
-<div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>  }</div>
+<div class="line"><a id="l00490" name="l00490"></a><span class="lineno">  490</span>      <span class="keywordflow">if</span> (!found &amp;&amp; state.typeFlags().isMeasurement()) {</div>
+<div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span>        state.typeFlags().setIsOutlier();</div>
+<div class="line"><a id="l00492" name="l00492"></a><span class="lineno">  492</span>        state.unset(<a class="code hl_enumvalue" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97">TrackStatePropMask::Smoothed</a>);</div>
+<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>      }</div>
+<div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span> </div>
+<div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span>      measurementStatesFinal +=</div>
+<div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span>          <span class="keyword">static_cast&lt;</span>std::size_t<span class="keyword">&gt;</span>(state.typeFlags().isMeasurement());</div>
+<div class="line"><a id="l00497" name="l00497"></a><span class="lineno">  497</span>    }</div>
+<div class="line"><a id="l00498" name="l00498"></a><span class="lineno">  498</span> </div>
+<div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>    <span class="keywordflow">if</span> (measurementStatesFinal == 0) {</div>
+<div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span>      <span class="keywordflow">return</span> return_error_or_abort(<a class="code hl_enumvalue" href="group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa78b62f76aa8053db68df72c21e0c71fa">GsfError::NoMeasurementStatesCreatedFinal</a>);</div>
+<div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>    }</div>
+<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span> </div>
+<div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span>    <span class="keyword">auto</span> track = trackContainer.makeTrack();</div>
+<div class="line"><a id="l00504" name="l00504"></a><span class="lineno">  504</span>    track.tipIndex() = fwdGsfResult.lastMeasurementTip;</div>
+<div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span> </div>
+<div class="line"><a id="l00506" name="l00506"></a><span class="lineno">  506</span>    <span class="keywordflow">if</span> (options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#ab1f4fdb6cf96b33857e0e070c8156512">referenceSurface</a>) {</div>
+<div class="line"><a id="l00507" name="l00507"></a><span class="lineno">  507</span>      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; params = *bwdResult-&gt;endParameters;</div>
+<div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span> </div>
+<div class="line"><a id="l00509" name="l00509"></a><span class="lineno">  509</span>      <span class="keyword">const</span> <span class="keyword">auto</span> [finalPars, finalCov] = detail::mergeGaussianMixture(</div>
+<div class="line"><a id="l00510" name="l00510"></a><span class="lineno">  510</span>          params.components(), params.referenceSurface(),</div>
+<div class="line"><a id="l00511" name="l00511"></a><span class="lineno">  511</span>          options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a967824812ca767a80fae6ecb475a2c1c">componentMergeMethod</a>, [](<span class="keyword">auto</span>&amp; t) {</div>
+<div class="line"><a id="l00512" name="l00512"></a><span class="lineno">  512</span>            return std::tie(std::get&lt;0&gt;(t), std::get&lt;1&gt;(t), *std::get&lt;2&gt;(t));</div>
+<div class="line"><a id="l00513" name="l00513"></a><span class="lineno">  513</span>          });</div>
+<div class="line"><a id="l00514" name="l00514"></a><span class="lineno">  514</span> </div>
+<div class="line"><a id="l00515" name="l00515"></a><span class="lineno">  515</span>      track.parameters() = finalPars;</div>
+<div class="line"><a id="l00516" name="l00516"></a><span class="lineno">  516</span>      track.covariance() = finalCov;</div>
+<div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span> </div>
+<div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span>      track.setReferenceSurface(params.referenceSurface().getSharedPtr());</div>
+<div class="line"><a id="l00519" name="l00519"></a><span class="lineno">  519</span> </div>
+<div class="line"><a id="l00520" name="l00520"></a><span class="lineno">  520</span>      <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
+<div class="line"><a id="l00521" name="l00521"></a><span class="lineno">  521</span>              <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed">GsfConstants::kFinalMultiComponentStateColumn</a>))) {</div>
+<div class="line"><a id="l00522" name="l00522"></a><span class="lineno">  522</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Add final multi-component state to track&quot;</span>);</div>
+<div class="line"><a id="l00523" name="l00523"></a><span class="lineno">  523</span>        track.template component&lt;GsfConstants::FinalMultiComponentState&gt;(</div>
+<div class="line"><a id="l00524" name="l00524"></a><span class="lineno">  524</span>            <a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed">GsfConstants::kFinalMultiComponentStateColumn</a>) = std::move(params);</div>
+<div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>      }</div>
+<div class="line"><a id="l00526" name="l00526"></a><span class="lineno">  526</span>    }</div>
+<div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span> </div>
+<div class="line"><a id="l00528" name="l00528"></a><span class="lineno">  528</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
+<div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span>            <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297">GsfConstants::kFwdMaxMaterialXOverX0</a>))) {</div>
+<div class="line"><a id="l00530" name="l00530"></a><span class="lineno">  530</span>      track.template component&lt;double&gt;(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297">GsfConstants::kFwdMaxMaterialXOverX0</a>) =</div>
+<div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>          fwdGsfResult.maxPathXOverX0.val();</div>
+<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>    }</div>
+<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(</div>
+<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>            <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2">GsfConstants::kFwdSumMaterialXOverX0</a>))) {</div>
+<div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>      track.template component&lt;double&gt;(<a class="code hl_variable" href="namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2">GsfConstants::kFwdSumMaterialXOverX0</a>) =</div>
+<div class="line"><a id="l00536" name="l00536"></a><span class="lineno">  536</span>          fwdGsfResult.sumPathXOverX0.val();</div>
+<div class="line"><a id="l00537" name="l00537"></a><span class="lineno">  537</span>    }</div>
+<div class="line"><a id="l00538" name="l00538"></a><span class="lineno">  538</span> </div>
+<div class="line"><a id="l00539" name="l00539"></a><span class="lineno">  539</span>    <a class="code hl_function" href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a>(track);</div>
+<div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span> </div>
+<div class="line"><a id="l00541" name="l00541"></a><span class="lineno">  541</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>  }</div>
 </div>
-<div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span>};</div>
+<div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>};</div>
 </div>
-<div class="line"><a id="l00545" name="l00545"></a><span class="lineno">  545</span> </div>
-<div class="line"><a id="l00546" name="l00546"></a><span class="lineno">  546</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span> </div>
+<div class="line"><a id="l00545" name="l00545"></a><span class="lineno">  545</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_boundary_tolerance_html_a37f9fa35e522bffbdd6b7107443599cc"><div class="ttname"><a href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">Acts::BoundaryTolerance::None</a></div><div class="ttdeci">static constexpr auto None() noexcept</div><div class="ttdoc">No tolerance i.e.</div><div class="ttdef"><b>Definition</b> BoundaryTolerance.hpp:106</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html_a371b369b8abe30222c10b58aae4b7379"><div class="ttname"><a href="class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379">Acts::GeometryContext::dangerouslyDefaultConstruct</a></div><div class="ttdeci">static GeometryContext dangerouslyDefaultConstruct()</div><div class="ttdoc">Static factory method for default construction.</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:51</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:691</div></div>
@@ -636,8 +635,6 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_1_1_gsf_constants_html_a8370f5e21c19127e3c309a9807ad9297"><div class="ttname"><a href="namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297">Acts::GsfConstants::kFwdMaxMaterialXOverX0</a></div><div class="ttdeci">constexpr std::string_view kFwdMaxMaterialXOverX0</div><div class="ttdef"><b>Definition</b> GsfOptions.hpp:50</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a312705c7759168e892ece2b486788dcc"><div class="ttname"><a href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">Acts::hashString</a></div><div class="ttdeci">consteval HashedString hashString(std::string_view s)</div><div class="ttdoc">Compile-time hash of string literal.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:62</div></div>
-<div class="ttc" id="anamespace_acts_html_a4cc469694ff29fb3f7c7128ad09264a4a61c2d35b2b78000035892533a0d84c1b"><div class="ttname"><a href="namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a61c2d35b2b78000035892533a0d84c1b">Acts::MeasurementFlag</a></div><div class="ttdeci">@ MeasurementFlag</div><div class="ttdef"><b>Definition</b> TrackStateType.hpp:25</div></div>
-<div class="ttc" id="anamespace_acts_html_a4cc469694ff29fb3f7c7128ad09264a4a8ea62dde4ffd73859274aa60475ed51e"><div class="ttname"><a href="namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a8ea62dde4ffd73859274aa60475ed51e">Acts::OutlierFlag</a></div><div class="ttdeci">@ OutlierFlag</div><div class="ttdef"><b>Definition</b> TrackStateType.hpp:27</div></div>
 <div class="ttc" id="anamespace_acts_html_a52191edec34daa17746d1937fb06c1fb"><div class="ttname"><a href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">Acts::IntersectionStatus</a></div><div class="ttdeci">IntersectionStatus</div><div class="ttdoc">Status enum.</div><div class="ttdef"><b>Definition</b> Intersection.hpp:25</div></div>
 <div class="ttc" id="anamespace_acts_html_a52191edec34daa17746d1937fb06c1fbab03a0aa5a9868274aece083944113f96"><div class="ttname"><a href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fbab03a0aa5a9868274aece083944113f96">Acts::IntersectionStatus::onSurface</a></div><div class="ttdeci">@ onSurface</div><div class="ttdef"><b>Definition</b> Intersection.hpp:28</div></div>
 <div class="ttc" id="anamespace_acts_html_a589e3f01b082df3de46c2a6f5e6ce749"><div class="ttname"><a href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></div><div class="ttdeci">static constexpr TrackIndexType kTrackIndexInvalid</div><div class="ttdoc">Sentinel value for an invalid / unset track EDM related index.</div><div class="ttdef"><b>Definition</b> Types.hpp:24</div></div>
@@ -645,7 +642,7 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97">Acts::TrackStatePropMask::Smoothed</a></div><div class="ttdeci">@ Smoothed</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:32</div></div>
 <div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2afe84ed3d6baffd193df85d308e5e908c"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2afe84ed3d6baffd193df85d308e5e908c">Acts::TrackStatePropMask::Filtered</a></div><div class="ttdeci">@ Filtered</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:31</div></div>
 <div class="ttc" id="anamespace_acts_html_ac6d9beca13049b91d5c9e5991f60532d"><div class="ttname"><a href="namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d">Acts::rangeContainsValue</a></div><div class="ttdeci">bool rangeContainsValue(const R &amp;range, const T &amp;value)</div><div class="ttdoc">This can be replaced with C++23 to use the std::ranges::contains method.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:225</div></div>
-<div class="ttc" id="anamespace_acts_html_ad777051d7e6ab464315ae169472719fe"><div class="ttname"><a href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">Acts::calculateTrackQuantities</a></div><div class="ttdeci">void calculateTrackQuantities(track_proxy_t track)</div><div class="ttdoc">Helper function to calculate a number of track level quantities and store them on the track itself.</div><div class="ttdef"><b>Definition</b> TrackHelpers.hpp:396</div></div>
+<div class="ttc" id="anamespace_acts_html_ad777051d7e6ab464315ae169472719fe"><div class="ttname"><a href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">Acts::calculateTrackQuantities</a></div><div class="ttdeci">void calculateTrackQuantities(track_proxy_t track)</div><div class="ttdoc">Helper function to calculate a number of track level quantities and store them on the track itself.</div><div class="ttdef"><b>Definition</b> TrackHelpers.hpp:389</div></div>
 <div class="ttc" id="astruct_acts_1_1_actor_list_html"><div class="ttname"><a href="struct_acts_1_1_actor_list.html">Acts::ActorList</a></div><div class="ttdoc">ActorList implementation to be used with the propagator.</div><div class="ttdef"><b>Definition</b> ActorList.hpp:32</div></div>
 <div class="ttc" id="astruct_acts_1_1_gaussian_sum_fitter_html_a24e63a2d63a65587af752fbb208bad53"><div class="ttname"><a href="struct_acts_1_1_gaussian_sum_fitter.html#a24e63a2d63a65587af752fbb208bad53">Acts::GaussianSumFitter::GaussianSumFitter</a></div><div class="ttdeci">GaussianSumFitter(propagator_t &amp;&amp;propagator, std::shared_ptr&lt; const BetheHeitlerApprox &gt; bha, std::unique_ptr&lt; const Logger &gt; _logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor with propagator, Bethe-Heitler approximation, and logger.</div><div class="ttdef"><b>Definition</b> GaussianSumFitter.hpp:61</div></div>
 <div class="ttc" id="astruct_acts_1_1_gaussian_sum_fitter_html_a3eb80d8a5bba0b463aeff8c4e3bfbcc5"><div class="ttname"><a href="struct_acts_1_1_gaussian_sum_fitter.html#a3eb80d8a5bba0b463aeff8c4e3bfbcc5">Acts::GaussianSumFitter::logger</a></div><div class="ttdeci">const Logger &amp; logger() const</div><div class="ttdoc">Get the logger instance.</div><div class="ttdef"><b>Definition</b> GaussianSumFitter.hpp:83</div></div>

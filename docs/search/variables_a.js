@@ -23,7 +23,7 @@ var searchData=
   ['knumlevels_20',['kNumLevels',['../class_acts_1_1_multi_index.html#ac41f16be14e2def85d64fe15810bc60c',1,'Acts::MultiIndex']]],
   ['kownership_21',['kOwnership',['../class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a09d50e431c7fcd0a778c17843b55623d',1,'Acts::Delegate&lt; R(Args...), H, O &gt;']]],
   ['kqop_22',['kQoP',['../struct_acts_1_1_eigen_stepper_1_1_state.html#ab08602006454104ade32d45b60cf34a9',1,'Acts::EigenStepper::State']]],
-  ['krawbits_23',['kRawBits',['../class_acts_1_1_track_state_type.html#ae4e7af32bdf02609ca5df44fe9385610',1,'Acts::TrackStateType::kRawBits'],['../class_acts_1_1_const_track_state_type.html#a6a579eff3aebafb8140112331461fd11',1,'Acts::ConstTrackStateType::kRawBits']]],
+  ['krawbits_23',['kRawBits',['../class_acts_1_1_track_state_type_base.html#abae7361af4b21541a67c48e8b4c5fcb5',1,'Acts::TrackStateTypeBase']]],
   ['ksubspacesize_24',['kSubspaceSize',['../class_acts_1_1_fixed_subspace_helper.html#afbe57313f6ccfb0557e00dddba5b94a9',1,'Acts::FixedSubspaceHelper']]],
   ['ktrackindexinvalid_25',['kTrackIndexInvalid',['../namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749',1,'Acts']]]
 ];

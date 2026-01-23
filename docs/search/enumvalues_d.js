@@ -16,7 +16,7 @@ var searchData=
   ['negativezfacexy_13',['NegativeZFaceXY',['../class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41a7b5a2ec224182b45b20e56c7f9c45658',1,'Acts::DiamondVolumeBounds::NegativeZFaceXY'],['../class_acts_1_1_trapezoid_volume_bounds.html#a37a239bc146009fe37f583174d13feeba7b5a2ec224182b45b20e56c7f9c45658',1,'Acts::TrapezoidVolumeBounds::NegativeZFaceXY']]],
   ['nexttargetlimitreached_14',['NextTargetLimitReached',['../group__errors.html#ggae4af8513760690d2518f3e01355beb88ae26e9cd0f7d932b1121993fe395d2195',1,'Acts']]],
   ['nocovariance_15',['NoCovariance',['../group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6aaccd0c2127ab1e6f988b33e690715462',1,'Acts']]],
-  ['noexpectedhitflag_16',['NoExpectedHitFlag',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a57fea0596d2e3beed9a65b9569fe9496',1,'Acts']]],
+  ['noexpectedhitflag_16',['NoExpectedHitFlag',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a88412a77548f9def03338ae55ad40405',1,'Acts']]],
   ['nomeasurementexpected_17',['NoMeasurementExpected',['../group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82',1,'Acts']]],
   ['nomeasurementfound_18',['NoMeasurementFound',['../group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465',1,'Acts']]],
   ['nomeasurementstatescreatedbackward_19',['NoMeasurementStatesCreatedBackward',['../group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa77854eb69cd722eed562c1deaf1db15f',1,'Acts']]],
@@ -36,5 +36,6 @@ var searchData=
   ['noverhang_33',['NOverhang',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5a426f97a5006306e4ad8fdbcd1d847b9c',1,'Acts::GraphViz']]],
   ['nowrapping_34',['NoWrapping',['../namespace_acts.html#ac067c47704bdb1b88dd0c21c0e8fd8c2a8d9c18bc517435f25750e460525b60e7',1,'Acts']]],
   ['numericfailure_35',['NumericFailure',['../group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93',1,'Acts']]],
-  ['numtrackstateflags_36',['NumTrackStateFlags',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a22052cbf9db3a1ac37c9ed360acbc6ee',1,'Acts']]]
+  ['numflags_36',['NumFlags',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a8930fc61ddc873c5a81bfb1b5a236849',1,'Acts']]],
+  ['numtrackstateflags_37',['NumTrackStateFlags',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4af6d46816e7748c171424ba4de1ee561c',1,'Acts']]]
 ];

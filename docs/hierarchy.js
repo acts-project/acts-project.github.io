@@ -94,7 +94,6 @@ var hierarchy =
     [ "Acts::ConstantBField::Cache", "struct_acts_1_1_constant_b_field_1_1_cache.html", null ],
     [ "Acts::ConstrainedStep", "class_acts_1_1_constrained_step.html", null ],
     [ "Acts::ConstRefHolder&lt; T &gt;", "struct_acts_1_1_const_ref_holder.html", null ],
-    [ "Acts::ConstTrackStateType", "class_acts_1_1_const_track_state_type.html", null ],
     [ "Acts::CuboidVolumeBuilder::Config", "struct_acts_1_1_cuboid_volume_builder_1_1_config.html", null ],
     [ "Acts::CuboidVolumeBuilder::LayerConfig", "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html", null ],
     [ "Acts::CuboidVolumeBuilder::SurfaceConfig", "struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html", null ],
@@ -829,7 +828,15 @@ var hierarchy =
       [ "Acts::TrackStateProxy< trajectory_t, M, read_only >", "class_acts_1_1_track_state_proxy.html", null ]
     ] ],
     [ "Acts::TrackStateTraits&lt; M, ReadOnly &gt;", "struct_acts_1_1_track_state_traits.html", null ],
-    [ "Acts::TrackStateType", "class_acts_1_1_track_state_type.html", null ],
+    [ "Acts::TrackStateTypeBase&lt; Derived, ReadOnly &gt;", "class_acts_1_1_track_state_type_base.html", null ],
+    [ "Acts::TrackStateTypeBase&lt; TrackStateType, false &gt;", "class_acts_1_1_track_state_type_base.html", [
+      [ "Acts::TrackStateType", "class_acts_1_1_track_state_type.html", null ]
+    ] ],
+    [ "Acts::TrackStateTypeBase&lt; TrackStateTypeMap&lt; ReadOnly &gt;, ReadOnly &gt;", "class_acts_1_1_track_state_type_base.html", [
+      [ "Acts::TrackStateTypeMap< false >", "class_acts_1_1_track_state_type_map.html", null ],
+      [ "Acts::TrackStateTypeMap< true >", "class_acts_1_1_track_state_type_map.html", null ],
+      [ "Acts::TrackStateTypeMap< ReadOnly >", "class_acts_1_1_track_state_type_map.html", null ]
+    ] ],
     [ "Acts::Transform3JsonConverter::Options", "struct_acts_1_1_transform3_json_converter_1_1_options.html", null ],
     [ "Acts::TripletCandidate&lt; external_space_point_t &gt;", "struct_acts_1_1_triplet_candidate.html", null ],
     [ "Acts::TripletSeeder", "class_acts_1_1_triplet_seeder.html", null ],

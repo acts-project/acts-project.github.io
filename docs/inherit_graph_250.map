@@ -1,9 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_layer_builder.html" title="Interface class for ILayerBuilders in a typical | EC&#45; | Central | EC+ | detector setup." alt="" coords="5,63,149,88"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_passive_layer_builder.html" title="The PassiveLayerBuilder is able to build cylinder &amp; disc layers with given dimensions and material." alt="" coords="213,5,403,31"/>
-<area shape="poly" id="edge116_Node000000_Node000001" title=" " alt="" coords="137,56,197,41,249,28,250,33,198,46,138,62"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_d_d4hep_layer_builder.html" title="build layers of one cylinder&#45;endcap setup from DD4hep input" alt="" coords="211,55,405,95"/>
-<area shape="poly" id="edge117_Node000000_Node000002" title=" " alt="" coords="163,73,211,73,211,78,163,78"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_t_geo_layer_builder.html" title="This parses the gGeoManager and looks for a defined combination of volume with contained sensitive de..." alt="" coords="197,120,419,145"/>
-<area shape="poly" id="edge118_Node000000_Node000003" title=" " alt="" coords="138,89,198,105,250,117,249,122,197,110,137,94"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_material_decorator.html" title="Virtual base class for decorators that allow to load material onto a TrackingGeometry." alt="" coords="5,35,185,60"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_json_material_decorator.html" title="Material decorator from Json format." alt="" coords="233,5,436,31"/>
+<area shape="poly" id="edge119_Node000000_Node000001" title=" " alt="" coords="198,32,233,28,234,33,199,37"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_root_material_decorator.html" title="Read the collection of SurfaceMaterial &amp; VolumeMaterial." alt="" coords="240,55,429,95"/>
+<area shape="poly" id="edge120_Node000000_Node000002" title=" " alt="" coords="199,57,240,62,239,67,199,62"/>
 </map>

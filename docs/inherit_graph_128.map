@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html" title="Configuration of the cuts to sort out generated seeds with poor quality." alt="" coords="5,5,249,60"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,249,67"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_seeding_state.html" title="Central auxiliary struct to steer the seeding process." alt="" coords="297,5,541,75"/>
+<area shape="poly" id="edge56_Node000000_Node000001" title=" " alt="" coords="263,37,297,37,297,43,263,43"/>
 </map>

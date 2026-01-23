@@ -27,5 +27,9 @@ var searchData=
   ['invhouse_24',['InvHouse',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5a2493b87e86efc87d793dacef0b44fb71',1,'Acts::GraphViz']]],
   ['invisible_25',['Invisible',['../namespace_acts_1_1_graph_viz.html#a75e437a44dfc570b30b190a7803058aaa8bcda43732b0928d269955e0f09ff76f',1,'Acts::GraphViz']]],
   ['invtrapezium_26',['InvTrapezium',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5af1b835ade813aaa6ae17fd5c1271a8ba',1,'Acts::GraphViz']]],
-  ['invtriangle_27',['InvTriangle',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5ae49327c9a74b33d8b87a640d8b838e04',1,'Acts::GraphViz']]]
+  ['invtriangle_27',['InvTriangle',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5ae49327c9a74b33d8b87a640d8b838e04',1,'Acts::GraphViz']]],
+  ['ishole_28',['IsHole',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a15c97ca0f14b28ab841de0ed869e7674',1,'Acts']]],
+  ['isoutlier_29',['IsOutlier',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4ac091b63e04092df48392563e5215adf0',1,'Acts']]],
+  ['issharedhit_30',['IsSharedHit',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a77df5518d9eb572b69bf0da773dc0199',1,'Acts']]],
+  ['issplithit_31',['IsSplitHit',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a46bf84f36db9355d8211dc2f8647a071',1,'Acts']]]
 ];

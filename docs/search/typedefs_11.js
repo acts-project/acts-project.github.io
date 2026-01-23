@@ -5,7 +5,7 @@ var searchData=
   ['range_5ft_2',['range_t',['../class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905',1,'Acts::KDTree']]],
   ['rangearray_3',['RangeArray',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ada9bdcf80ee9d4dc94b1d5f81291ebc5',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],
   ['rangeconfig_4',['RangeConfig',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#aa63434c398fb5c9cea850acc15f1b5c8',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig']]],
-  ['raw_5ftype_5',['raw_type',['../class_acts_1_1_track_state_type.html#a2bc10b0819f063880c9d1fd38e5c301a',1,'Acts::TrackStateType::raw_type'],['../class_acts_1_1_const_track_state_type.html#a6c8c4f107fc4067ca251661a1a6f96a6',1,'Acts::ConstTrackStateType::raw_type']]],
+  ['raw_5ftype_5',['raw_type',['../class_acts_1_1_track_state_type_base.html#ada3d9d4a435d0d0cac031f07768c6246',1,'Acts::TrackStateTypeBase::raw_type'],['../class_acts_1_1_track_state_type_map.html#ab14c43304f362369d1a6c8495d4c58e8',1,'Acts::TrackStateTypeMap::raw_type']]],
   ['raxistype_6',['RAxisType',['../class_acts_1_1_cylindrical_space_point_grid2.html#ab77859ef7e890a40a07f2ad2d69ccefa',1,'Acts::CylindricalSpacePointGrid2']]],
   ['ray3d_7',['Ray3D',['../namespace_acts.html#a0e3bc17e57fdc272a17b43714e85adeb',1,'Acts']]],
   ['reassignment_8',['ReAssignment',['../namespace_acts_1_1_material_interaction_assignment.html#a151eea181d19c76a37f70fd7846d36b6',1,'Acts::MaterialInteractionAssignment']]],

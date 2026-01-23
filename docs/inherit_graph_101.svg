@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_direct_navigator_1_1_config.html" target="_top" xlink:title="The nested configuration struct.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_direct_navigator_1_1_state.html" target="_top" xlink:title="Nested State struct.">
 <polygon fill="white" stroke="#666666" points="121,-30 0,-30 0,0 121,0 121,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DirectNavigator</text>
-<text text-anchor="middle" x="60.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>
+<text text-anchor="middle" x="60.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::State</text>
 </a>
 </g>
 </g>

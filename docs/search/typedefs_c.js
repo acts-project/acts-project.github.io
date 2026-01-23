@@ -30,5 +30,6 @@ var searchData=
   ['mutabletrackingvolumevector_27',['MutableTrackingVolumeVector',['../namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8',1,'Acts']]],
   ['mutabletrackproxy_28',['MutableTrackProxy',['../class_acts_1_1_track_proxy.html#a00f56d433d15782817a75f9de53a0d14',1,'Acts::TrackProxy']]],
   ['mutabletrackstate_29',['MutableTrackState',['../class_acts_1_1_any_track_state_proxy.html#a815a293d1541d65d2be5dc8b747fd43f',1,'Acts::AnyTrackStateProxy']]],
-  ['mutablevolumerange_30',['MutableVolumeRange',['../class_acts_1_1_tracking_volume.html#a79cf877dedd3348a5f055519492ca7f3',1,'Acts::TrackingVolume']]]
+  ['mutabletrackstatetypemap_30',['MutableTrackStateTypeMap',['../namespace_acts.html#aea0ba56b78fc7596ea8c54f1fdd6dc86',1,'Acts']]],
+  ['mutablevolumerange_31',['MutableVolumeRange',['../class_acts_1_1_tracking_volume.html#a79cf877dedd3348a5f055519492ca7f3',1,'Acts::TrackingVolume']]]
 ];

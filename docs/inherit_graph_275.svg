@@ -11,26 +11,27 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_i_surface_material_accumulater.html" target="_top" xlink:title="Interface for the material mapping, this is the accumulation step.">
-<polygon fill="white" stroke="#666666" points="185,-24.5 0,-24.5 0,-5.5 185,-5.5 185,-24.5"/>
-<text text-anchor="middle" x="92.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ISurfaceMaterialAccumulater</text>
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_i_surface_material_accumulater_1_1_state.html" target="_top" xlink:title="The state of the material accumulater, this is used to cache information across tracks/events.">
+<polygon fill="white" stroke="#666666" points="185,-30 0,-30 0,0 185,0 185,-30"/>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ISurfaceMaterialAccumulater</text>
+<text text-anchor="middle" x="92.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::State</text>
 </a>
 </g>
 </g>
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_acts_1_1_binned_surface_material_accumulater.html" target="_top" xlink:title="The binned surface material accumulater.">
+<g id="a_Node000001"><a xlink:href="struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html" target="_top" xlink:title="Nested state struct.">
 <polygon fill="white" stroke="#666666" points="376,-30 221,-30 221,0 376,0 376,-30"/>
 <text text-anchor="start" x="229" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::BinnedSurfaceMaterial</text>
-<text text-anchor="middle" x="298.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Accumulater</text>
+<text text-anchor="middle" x="298.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Accumulater::State</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
-<g id="edge146_Node000000_Node000001" class="edge">
+<g id="edge147_Node000000_Node000001" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<g id="a_edge146_Node000000_Node000001"><a xlink:title=" ">
+<g id="a_edge147_Node000000_Node000001"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M195.19,-15C203.83,-15 212.48,-15 220.88,-15"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="195.06,-11.5 185.06,-15 195.06,-18.5 195.06,-11.5"/>
 </a>

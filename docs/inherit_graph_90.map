@@ -1,11 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,109,212,134"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_space_point_container2_1_1_range.html" title=" " alt="" coords="260,5,461,45"/>
-<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="149,100,259,55,293,43,295,48,261,60,151,105"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_space_point_container2_1_1_range.html" title=" " alt="" coords="260,69,461,109"/>
-<area shape="poly" id="edge15_Node000000_Node000002" title=" " alt="" coords="222,104,259,99,260,105,223,110"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_doublets_for_middle_sp_1_1_range.html" title=" " alt="" coords="263,133,459,173"/>
-<area shape="poly" id="edge16_Node000000_Node000003" title=" " alt="" coords="223,133,263,138,262,144,222,138"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_space_point_container2_1_1_range.html" title=" " alt="" coords="260,197,461,237"/>
-<area shape="poly" id="edge17_Node000000_Node000004" title=" " alt="" coords="151,137,261,183,295,195,293,200,259,188,149,142"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,173,216,198"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_space_point_container2_1_1_subset.html" title=" " alt="" coords="272,5,473,45"/>
+<area shape="poly" id="edge18_Node000000_Node000001" title=" " alt="" coords="131,161,187,108,224,80,263,55,290,43,292,48,265,60,227,84,191,112,135,165"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_space_point_container2_1_1_subset.html" title=" " alt="" coords="272,69,473,109"/>
+<area shape="poly" id="edge19_Node000000_Node000002" title=" " alt="" coords="151,165,263,119,299,107,301,112,265,124,153,170"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_doublets_for_middle_sp_1_1_subset.html" title=" " alt="" coords="275,133,471,173"/>
+<area shape="poly" id="edge20_Node000000_Node000003" title=" " alt="" coords="228,168,274,163,275,168,229,174"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html" title=" " alt="" coords="275,197,471,237"/>
+<area shape="poly" id="edge21_Node000000_Node000004" title=" " alt="" coords="229,197,275,203,274,208,228,202"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_space_point_column_proxy_1_1_subset.html" title=" " alt="" coords="264,261,481,301"/>
+<area shape="poly" id="edge22_Node000000_Node000005" title=" " alt="" coords="153,201,265,247,301,259,299,264,263,252,151,206"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_space_point_container2_1_1_subset.html" title=" " alt="" coords="272,325,473,365"/>
+<area shape="poly" id="edge23_Node000000_Node000006" title=" " alt="" coords="135,206,191,259,227,287,265,311,292,323,290,328,263,316,224,291,187,263,131,210"/>
 </map>
