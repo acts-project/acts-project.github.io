@@ -59,7 +59,7 @@ var searchData=
   ['nsharedhits_56',['nSharedHits',['../class_acts_1_1_track_proxy_common.html#a27ab3ddef2b2048a974a2cd99250c968',1,'Acts::TrackProxyCommon::nSharedHits() const'],['../class_acts_1_1_track_proxy_common.html#a3be445e6938cc65a9a25ef45ab8e67b3',1,'Acts::TrackProxyCommon::nSharedHits()'],['../class_acts_1_1_track_proxy.html#aff78397392945c7411f8ddd607a62ad2',1,'Acts::TrackProxy::nSharedHits() const'],['../class_acts_1_1_track_proxy.html#a76c346ab876147152acb490f3fcb9a94',1,'Acts::TrackProxy::nSharedHits()']]],
   ['ntrackstates_57',['nTrackStates',['../class_acts_1_1_any_track_proxy.html#a0c15b80641e4b45f31febd9b988bd59d',1,'Acts::AnyTrackProxy::nTrackStates()'],['../class_acts_1_1_track_proxy.html#ac5e38c1e9170703d670823d87d106b07',1,'Acts::TrackProxy::nTrackStates()']]],
   ['nullbfield_58',['NullBField',['../class_acts_1_1_null_b_field.html#aea129d00fb2016ffadf1618fe3dc663c',1,'Acts::NullBField']]],
-  ['num_5fbins_59',['num_bins',['../class_acts_1_1_experimental_1_1_gbts_layer.html#a9df65af3e44aadd668732fc93f598ffb',1,'Acts::Experimental::GbtsLayer::num_bins()'],['../class_acts_1_1_experimental_1_1_gbts_geometry.html#a303084271e46d2daa96564b68bdd7e6f',1,'Acts::Experimental::GbtsGeometry::num_bins() const']]],
+  ['num_5fbins_59',['num_bins',['../class_acts_1_1_experimental_1_1_gbts_geometry.html#a303084271e46d2daa96564b68bdd7e6f',1,'Acts::Experimental::GbtsGeometry']]],
   ['num_5flayers_60',['num_layers',['../class_acts_1_1_experimental_1_1_gbts_geometry.html#acc7b5cb9ea329227f613de1e7aeb78ae',1,'Acts::Experimental::GbtsGeometry']]],
   ['numaxisdirections_61',['numAxisDirections',['../namespace_acts.html#a297fc9345930e9e61a5771aad5dc17c5',1,'Acts']]],
   ['numbercomponents_62',['numberComponents',['../class_acts_1_1_multi_stepper_loop.html#af7f7340a7bcdce9386b74280345687bf',1,'Acts::MultiStepperLoop']]],
@@ -70,5 +70,6 @@ var searchData=
   ['numericaltracklinearizer_67',['NumericalTrackLinearizer',['../class_acts_1_1_numerical_track_linearizer.html#a9d1ef8ae74732e497799e5bafcc2d6c9',1,'Acts::NumericalTrackLinearizer']]],
   ['numlocalbins_68',['numLocalBins',['../class_acts_1_1_any_grid_view.html#a27a7819f3e5aa7079beaa2eec2fe2b9c',1,'Acts::AnyGridView::numLocalBins()'],['../class_acts_1_1_any_grid_const_view.html#ada353d85921b5b67390d19af0c80c60e',1,'Acts::AnyGridConstView::numLocalBins()'],['../class_acts_1_1_grid.html#a437b937ba46437ca3b00b5ec80afcf30',1,'Acts::Grid::numLocalBins()']]],
   ['numlocalbinsany_69',['numLocalBinsAny',['../class_acts_1_1_i_grid.html#a8fb86c4435b3518e189f432b40e13288',1,'Acts::IGrid::numLocalBinsAny()'],['../class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56',1,'Acts::Grid::numLocalBinsAny()']]],
-  ['numstacktraces_70',['numStackTraces',['../struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a87ce8ddf60172f56a42bd16081f901ce',1,'ActsPlugins::FpeMonitor::Result']]]
+  ['numofbins_70',['numOfBins',['../class_acts_1_1_experimental_1_1_gbts_layer.html#a5140e109f93c4ecf406ba0aa97d93002',1,'Acts::Experimental::GbtsLayer']]],
+  ['numstacktraces_71',['numStackTraces',['../struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a87ce8ddf60172f56a42bd16081f901ce',1,'ActsPlugins::FpeMonitor::Result']]]
 ];

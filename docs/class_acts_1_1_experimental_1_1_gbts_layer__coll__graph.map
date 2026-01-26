@@ -1,12 +1,12 @@
 <map id="Acts::Experimental::GbtsLayer" name="Acts::Experimental::GbtsLayer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="172,272,317,312"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html" title=" " alt="" coords="5,101,151,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,151,135,198,180,246,212,270,209,274,176,250,131,201,96,154"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="175,109,314,134"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,148,247,272,242,272,242,148"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="264,5,393,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="312,43,256,110,252,107,308,40"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="339,109,489,134"/>
-<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="350,39,363,53,407,107,403,110,359,56,346,43"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="400,147,360,196,308,250,277,274,274,270,304,246,356,192,396,143"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="655,59,800,99"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html" title=" " alt="" coords="319,5,465,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,31,631,52,655,57,654,62,630,57,478,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="295,77,489,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="503,83,654,78,654,84,503,88"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,121,135,146"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="148,120,298,99,299,105,149,125"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="317,175,467,201"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="148,145,159,147,317,173,316,179,158,152,147,150"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="481,194,556,191,594,183,630,171,655,156,677,137,711,97,715,101,681,140,658,160,632,176,595,189,556,196,481,200"/>
 </map>
