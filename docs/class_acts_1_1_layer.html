@@ -153,6 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acfe044c599120586dd6ebd496c80b99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decompose Layer into (compatible) surfaces.  <br /></td></tr>
 <tr class="memitem:aed90a91423c881e5d97b0e11a3661535" id="r_aed90a91423c881e5d97b0e11a3661535"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed90a91423c881e5d97b0e11a3661535">isOnLayer</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance=<a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()) const</td></tr>
 <tr class="memdesc:aed90a91423c881e5d97b0e11a3661535"><td class="mdescLeft">&#160;</td><td class="mdescRight">geometrical isOnLayer() method  <br /></td></tr>
+<tr class="memitem:a144d635c7c5217b6a4ae26c5e19478e2" id="r_a144d635c7c5217b6a4ae26c5e19478e2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a144d635c7c5217b6a4ae26c5e19478e2">layerThickness</a> () const</td></tr>
+<tr class="memdesc:a144d635c7c5217b6a4ae26c5e19478e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Thickness of the Layer this is by definition along the normal vector of the surfaceRepresentation.  <br /></td></tr>
 <tr class="memitem:aa250e5da69ec92d867014f5dea7a59bd" id="r_aa250e5da69ec92d867014f5dea7a59bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873">LayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa250e5da69ec92d867014f5dea7a59bd">layerType</a> () const</td></tr>
 <tr class="memdesc:aa250e5da69ec92d867014f5dea7a59bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the LayerType  <br /></td></tr>
 <tr class="memitem:a078a57d9583bb64abb0d7cc8a089e340" id="r_a078a57d9583bb64abb0d7cc8a089e340"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a6adf8a32cdb912c9a353cc4cf311fd92">Layer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a078a57d9583bb64abb0d7cc8a089e340">nextLayer</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const</td></tr>
@@ -174,8 +176,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7bd1fc95371dfc4c8af299f9ca41ee8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms the layer into a Surface representation for extrapolation.  <br /></td></tr>
 <tr class="memitem:a9a71c26605aa4cedfb640890daddef4a" id="r_a9a71c26605aa4cedfb640890daddef4a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a71c26605aa4cedfb640890daddef4a">surfaceRepresentation</a> ()=0</td></tr>
 <tr class="memdesc:a9a71c26605aa4cedfb640890daddef4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const version of surface representation access.  <br /></td></tr>
-<tr class="memitem:a878d3f3472ea66079513eba5711d6da6" id="r_a878d3f3472ea66079513eba5711d6da6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a878d3f3472ea66079513eba5711d6da6">thickness</a> () const</td></tr>
-<tr class="memdesc:a878d3f3472ea66079513eba5711d6da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Thickness of the Layer this is by definition along the normal vector of the surfaceRepresentation.  <br /></td></tr>
 <tr class="memitem:a7d3cda11d5576fddea106a174422962a" id="r_a7d3cda11d5576fddea106a174422962a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a9d58056df3cd98c3090db36dda3c730c">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3cda11d5576fddea106a174422962a">trackingVolume</a> () const</td></tr>
 <tr class="memdesc:a7d3cda11d5576fddea106a174422962a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the confining TrackingVolume.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_geometry_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_geometry_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_geometry_object.html">Acts::GeometryObject</a></td></tr>
@@ -198,7 +198,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6adf8a32cdb912c9a353cc4cf311fd92" id="r_a6adf8a32cdb912c9a353cc4cf311fd92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6adf8a32cdb912c9a353cc4cf311fd92">Layer</a> (std::unique_ptr&lt; <a class="el" href="class_acts_1_1_surface_array.html">SurfaceArray</a> &gt; <a class="el" href="#a7a908739fe16b82c8c0fadc973c4b203">surfaceArray</a>, double <a class="el" href="#a878d3f3472ea66079513eba5711d6da6">thickness</a>=0., std::unique_ptr&lt; <a class="el" href="class_acts_1_1_approach_descriptor.html">ApproachDescriptor</a> &gt; ades=nullptr, <a class="el" href="namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873">LayerType</a> laytyp=<a class="el" href="namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873a75938f0b93068f7d9012f32aff225069">passive</a>)</td></tr>
+<tr class="memitem:a6adf8a32cdb912c9a353cc4cf311fd92" id="r_a6adf8a32cdb912c9a353cc4cf311fd92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6adf8a32cdb912c9a353cc4cf311fd92">Layer</a> (std::unique_ptr&lt; <a class="el" href="class_acts_1_1_surface_array.html">SurfaceArray</a> &gt; <a class="el" href="#a7a908739fe16b82c8c0fadc973c4b203">surfaceArray</a>, double thickness=0., std::unique_ptr&lt; <a class="el" href="class_acts_1_1_approach_descriptor.html">ApproachDescriptor</a> &gt; ades=nullptr, <a class="el" href="namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873">LayerType</a> laytyp=<a class="el" href="namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873a75938f0b93068f7d9012f32aff225069">passive</a>)</td></tr>
 <tr class="memdesc:a6adf8a32cdb912c9a353cc4cf311fd92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with pointer to SurfaceArray (passing ownership).  <br /></td></tr>
 <tr class="memitem:ae6126d79cd76192f733c279aad974e99" id="r_ae6126d79cd76192f733c279aad974e99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6126d79cd76192f733c279aad974e99">encloseTrackingVolume</a> (const <a class="el" href="#a9d58056df3cd98c3090db36dda3c730c">TrackingVolume</a> &amp;tvol)</td></tr>
 <tr class="memdesc:ae6126d79cd76192f733c279aad974e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">private method to set enclosing TrackingVolume, called by friend class only optionally, the layer can be resized to the dimensions of the TrackingVolume  <br /></td></tr>
@@ -486,6 +486,26 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>boolean that indicates success of the operation </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_acts_1_1_navigation_layer.html#a425cdab468eb0ae26c557150feb5a00f">Acts::NavigationLayer</a>.</p>
+
+</div>
+</div>
+<a id="a144d635c7c5217b6a4ae26c5e19478e2" name="a144d635c7c5217b6a4ae26c5e19478e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144d635c7c5217b6a4ae26c5e19478e2">&#9670;&#160;</a></span>layerThickness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::Layer::layerThickness </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the Thickness of the Layer this is by definition along the normal vector of the surfaceRepresentation. </p>
+<dl class="section return"><dt>Returns</dt><dd>The layer thickness value </dd></dl>
 
 </div>
 </div>
@@ -788,26 +808,6 @@ template&lt;typename options_t&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Mutable reference to the layer surface </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_cone_layer.html#afefeec97833f86510eece57190de5075">Acts::ConeLayer</a>, <a class="el" href="class_acts_1_1_cylinder_layer.html#ad9b7a6ae785b128877ace8ad937ccf56">Acts::CylinderLayer</a>, <a class="el" href="class_acts_1_1_disc_layer.html#a1c0e45c064733e2f1434711a26344145">Acts::DiscLayer</a>, <a class="el" href="class_acts_1_1_navigation_layer.html#accf162e0045f61f33f883642b6148286">Acts::NavigationLayer</a>, and <a class="el" href="class_acts_1_1_plane_layer.html#aecae93b19fd87046ebdc01319cb5c9f4">Acts::PlaneLayer</a>.</p>
-
-</div>
-</div>
-<a id="a878d3f3472ea66079513eba5711d6da6" name="a878d3f3472ea66079513eba5711d6da6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a878d3f3472ea66079513eba5711d6da6">&#9670;&#160;</a></span>thickness()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::Layer::thickness </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the Thickness of the Layer this is by definition along the normal vector of the surfaceRepresentation. </p>
-<dl class="section return"><dt>Returns</dt><dd>The layer thickness value </dd></dl>
 
 </div>
 </div>
