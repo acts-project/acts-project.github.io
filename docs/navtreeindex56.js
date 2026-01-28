@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[6,0,0,6,33,0,3],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,31,0,3],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html":[5,10,10],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a274350757314c6773ae659910e767239":[5,10,10,3],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,10,10,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_geometry_view3_d.html#aa7854342efe26eaabd8686d1531a37e0":[6,0,0,186,9],
 "struct_acts_1_1_geometry_view3_d.html#aa7854342efe26eaabd8686d1531a37e0":[8,0,0,161,9],
 "struct_acts_1_1_geometry_view3_d.html#ab07f8f8870c2b3c3ce4c7c2012038da5":[6,0,0,186,5],
-"struct_acts_1_1_geometry_view3_d.html#ab07f8f8870c2b3c3ce4c7c2012038da5":[8,0,0,161,5]
+"struct_acts_1_1_geometry_view3_d.html#ab07f8f8870c2b3c3ce4c7c2012038da5":[8,0,0,161,5],
+"struct_acts_1_1_geometry_view3_d.html#ae3e4cc6641ef77f8335a88a7beae5207":[6,0,0,186,10],
+"struct_acts_1_1_geometry_view3_d.html#ae3e4cc6641ef77f8335a88a7beae5207":[8,0,0,161,10]
 };

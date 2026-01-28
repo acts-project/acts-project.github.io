@@ -1,7 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"struct_acts_1_1_space_point_parameters.html#a03fdbef5875701f1fb83bdc589276b77":[6,0,0,405,10],
-"struct_acts_1_1_space_point_parameters.html#a03fdbef5875701f1fb83bdc589276b77":[8,0,0,380,10],
 "struct_acts_1_1_space_point_parameters.html#a210e43a79580cd59afd4091425223d92":[6,0,0,405,7],
 "struct_acts_1_1_space_point_parameters.html#a210e43a79580cd59afd4091425223d92":[8,0,0,380,7],
 "struct_acts_1_1_space_point_parameters.html#a41e8406769242e2f9feaa7ca27b1987f":[6,0,0,405,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html":[6,0,0,420,1],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html":[8,0,0,395,1],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a14e25fc031f7748780a0c948a68fe565":[6,0,0,420,1,2],
-"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a14e25fc031f7748780a0c948a68fe565":[8,0,0,395,1,2]
+"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a14e25fc031f7748780a0c948a68fe565":[8,0,0,395,1,2],
+"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a1a1040b70304f3efc0dce1846da595a0":[6,0,0,420,1,4],
+"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a1a1040b70304f3efc0dce1846da595a0":[8,0,0,395,1,4]
 };
