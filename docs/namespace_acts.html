@@ -1554,12 +1554,12 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a997ca4ce119685f40f03a9a8a6c5346e">MagneticFieldError::NotImplemented</a> = 2
  }</td></tr>
 <tr class="memdesc:ga62dad9323721a81699d3f7fdca7a9f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for magnetic field operations.  <a href="group__errors.html#ga62dad9323721a81699d3f7fdca7a9f91">More...</a><br /></td></tr>
-<tr class="memitem:aa512dd166058e0512c8c3fb3195bf1f1" id="r_aa512dd166058e0512c8c3fb3195bf1f1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1">MappingType</a> { <a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1a4b89096cd32efd26f913e96e61b96e77">PreMapping</a> = -1
-, <a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1a879c8d57398ac17a2d7ecaea65021e85">Default</a> = 0
-, <a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1ae9a8b8024c5ca45ba5848e8f46dc38fe">PostMapping</a> = 1
-, <a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1aaeef76ca06f887c6eb3fcc9d41de53cd">Sensor</a> = 2
+<tr class="memitem:acbcb835a6b809a5f8606de4b53455807" id="r_acbcb835a6b809a5f8606de4b53455807"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbcb835a6b809a5f8606de4b53455807">MappingType</a> : std::int8_t { <a class="el" href="#acbcb835a6b809a5f8606de4b53455807a1a9a35440a7b1d8ee68c4963c7b8ac05">PreMapping</a> = -1
+, <a class="el" href="#acbcb835a6b809a5f8606de4b53455807a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
+, <a class="el" href="#acbcb835a6b809a5f8606de4b53455807a628a043cfe1c965f3cab0020b7030792">PostMapping</a> = 1
+, <a class="el" href="#acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b">Sensor</a> = 2
  }</td></tr>
-<tr class="memdesc:aa512dd166058e0512c8c3fb3195bf1f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum describes the type of surface material mapping.  <a href="#aa512dd166058e0512c8c3fb3195bf1f1">More...</a><br /></td></tr>
+<tr class="memdesc:acbcb835a6b809a5f8606de4b53455807"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum describes the type of surface material mapping.  <a href="#acbcb835a6b809a5f8606de4b53455807">More...</a><br /></td></tr>
 <tr class="memitem:ab0d37c993fdcfd74f77026bbee8e6d02" id="r_ab0d37c993fdcfd74f77026bbee8e6d02"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02">MaterialUpdateStage</a> : int { <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02a4d6938dc46ac97dde005fab44a01386c">PreUpdate</a> = -1
 , <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02a6d52930efc1d9c5bdf5424d98f7cd0dd">FullUpdate</a> = 0
 , <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02ad1265336b66d91a1fc4f5904e34591f4">PostUpdate</a> = 1
@@ -2132,7 +2132,7 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:a3dcc6435e936f830c8ce3e2c67122fd5" id="r_a3dcc6435e936f830c8ce3e2c67122fd5"><td class="memTemplParams" colspan="2">template&lt;typename Derived&gt; </td></tr>
 <tr class="memitem:a3dcc6435e936f830c8ce3e2c67122fd5 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dcc6435e936f830c8ce3e2c67122fd5">matrixToBitset</a> (const Eigen::PlainObjectBase&lt; Derived &gt; &amp;m)</td></tr>
 <tr class="memdesc:a3dcc6435e936f830c8ce3e2c67122fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an integer matrix to a bitset.  <br /></td></tr>
-<tr class="memitem:gac8895b284676062f1c0bf5f6466a507d" id="r_gac8895b284676062f1c0bf5f6466a507d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gac8895b284676062f1c0bf5f6466a507d">NLOHMANN_JSON_SERIALIZE_ENUM</a> (<a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1">Acts::MappingType</a>, { {<a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1a4b89096cd32efd26f913e96e61b96e77">Acts::MappingType::PreMapping</a>, &quot;PreMapping&quot;}, {<a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1a879c8d57398ac17a2d7ecaea65021e85">Acts::MappingType::Default</a>, &quot;Default&quot;}, {<a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1ae9a8b8024c5ca45ba5848e8f46dc38fe">Acts::MappingType::PostMapping</a>, &quot;PostMapping&quot;}, {<a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1aaeef76ca06f887c6eb3fcc9d41de53cd">Acts::MappingType::Sensor</a>, &quot;Sensor&quot;}, }) namespace MaterialJsonConverter</td></tr>
+<tr class="memitem:gac8895b284676062f1c0bf5f6466a507d" id="r_gac8895b284676062f1c0bf5f6466a507d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gac8895b284676062f1c0bf5f6466a507d">NLOHMANN_JSON_SERIALIZE_ENUM</a> (<a class="el" href="#acbcb835a6b809a5f8606de4b53455807">Acts::MappingType</a>, { {<a class="el" href="#acbcb835a6b809a5f8606de4b53455807a1a9a35440a7b1d8ee68c4963c7b8ac05">Acts::MappingType::PreMapping</a>, &quot;PreMapping&quot;}, {<a class="el" href="#acbcb835a6b809a5f8606de4b53455807a7a1920d61156abc05a60135aefe8bc67">Acts::MappingType::Default</a>, &quot;Default&quot;}, {<a class="el" href="#acbcb835a6b809a5f8606de4b53455807a628a043cfe1c965f3cab0020b7030792">Acts::MappingType::PostMapping</a>, &quot;PostMapping&quot;}, {<a class="el" href="#acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b">Acts::MappingType::Sensor</a>, &quot;Sensor&quot;}, }) namespace MaterialJsonConverter</td></tr>
 <tr class="memdesc:gac8895b284676062f1c0bf5f6466a507d"><td class="mdescLeft">&#160;</td><td class="mdescRight">JSON serialization mapping for MappingType enum.  <br /></td></tr>
 <tr class="memitem:a52e4174147933a017fd8663abf8ae740" id="r_a52e4174147933a017fd8663abf8ae740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e4174147933a017fd8663abf8ae740">normalizeBoundParameters</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;boundParams)</td></tr>
 <tr class="memdesc:a52e4174147933a017fd8663abf8ae740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize the bound parameter angles.  <br /></td></tr>
@@ -4847,24 +4847,32 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 
 </div>
 </div>
-<a id="aa512dd166058e0512c8c3fb3195bf1f1" name="aa512dd166058e0512c8c3fb3195bf1f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa512dd166058e0512c8c3fb3195bf1f1">&#9670;&#160;</a></span>MappingType</h2>
+<a id="acbcb835a6b809a5f8606de4b53455807" name="acbcb835a6b809a5f8606de4b53455807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbcb835a6b809a5f8606de4b53455807">&#9670;&#160;</a></span>MappingType</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#aa512dd166058e0512c8c3fb3195bf1f1">Acts::MappingType</a></td>
+          <td class="memname">enum class <a class="el" href="#acbcb835a6b809a5f8606de4b53455807">Acts::MappingType</a> : std::int8_t</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>This enum describes the type of surface material mapping. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa512dd166058e0512c8c3fb3195bf1f1a4b89096cd32efd26f913e96e61b96e77" name="aa512dd166058e0512c8c3fb3195bf1f1a4b89096cd32efd26f913e96e61b96e77"></a>PreMapping&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa512dd166058e0512c8c3fb3195bf1f1a879c8d57398ac17a2d7ecaea65021e85" name="aa512dd166058e0512c8c3fb3195bf1f1a879c8d57398ac17a2d7ecaea65021e85"></a>Default&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa512dd166058e0512c8c3fb3195bf1f1ae9a8b8024c5ca45ba5848e8f46dc38fe" name="aa512dd166058e0512c8c3fb3195bf1f1ae9a8b8024c5ca45ba5848e8f46dc38fe"></a>PostMapping&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa512dd166058e0512c8c3fb3195bf1f1aaeef76ca06f887c6eb3fcc9d41de53cd" name="aa512dd166058e0512c8c3fb3195bf1f1aaeef76ca06f887c6eb3fcc9d41de53cd"></a>Sensor&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acbcb835a6b809a5f8606de4b53455807a1a9a35440a7b1d8ee68c4963c7b8ac05" name="acbcb835a6b809a5f8606de4b53455807a1a9a35440a7b1d8ee68c4963c7b8ac05"></a>PreMapping&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acbcb835a6b809a5f8606de4b53455807a7a1920d61156abc05a60135aefe8bc67" name="acbcb835a6b809a5f8606de4b53455807a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acbcb835a6b809a5f8606de4b53455807a628a043cfe1c965f3cab0020b7030792" name="acbcb835a6b809a5f8606de4b53455807a628a043cfe1c965f3cab0020b7030792"></a>PostMapping&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b" name="acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b"></a>Sensor&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

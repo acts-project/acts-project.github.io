@@ -168,7 +168,7 @@ var group__material =
     [ "Acts::ISurfaceMaterial", "class_acts_1_1_i_surface_material.html", [
       [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a4b85724677f00d18e8f6939aa0b85837", null ],
       [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a6d3255357711ef99fe2b761675deebad", null ],
-      [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a197269def7a61475b9df66267848dbbb", null ],
+      [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#aa2c422b472389baa8c683fe4e38d67a5", null ],
       [ "~ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a1ccdc97ec06bf80f5030a0d8ebfb90b5", null ],
       [ "factor", "class_acts_1_1_i_surface_material.html#a71900310aa87871c0a072d8204022df2", null ],
       [ "mappingType", "class_acts_1_1_i_surface_material.html#a2164d69cc92644590c54c6c12c35af2f", null ],
