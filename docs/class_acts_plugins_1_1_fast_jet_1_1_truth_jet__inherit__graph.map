@@ -1,5 +1,5 @@
-<map id="ActsPlugins::FastJet::TruthJet&lt; TrackContainer &gt;" name="ActsPlugins::FastJet::TruthJet&lt; TrackContainer &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,212,119"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_fast_jet_1_1_jet.html" title="Common class for jets." alt="" coords="22,5,195,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+<map id="ActsPlugins::FastJet::TruthJet" name="ActsPlugins::FastJet::TruthJet">
+<area shape="rect" id="Node000001" title=" " alt="" coords="18,79,166,119"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_fast_jet_1_1_jet.html" title="Common class for jets." alt="" coords="5,5,179,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,89,79,89,44"/>
 </map>

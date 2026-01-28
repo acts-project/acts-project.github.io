@@ -1,7 +1,7 @@
 <map id="ActsPlugins::FastJet::Jet" name="ActsPlugins::FastJet::Jet">
-<area shape="rect" id="Node000001" title="Common class for jets." alt="" coords="5,45,179,70"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_fast_jet_1_1_track_jet.html" title=" " alt="" coords="227,5,435,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,41,226,37,227,42,193,47"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html" title=" " alt="" coords="227,69,434,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,68,228,73,227,78,192,73"/>
+<area shape="rect" id="Node000001" title="Common class for jets." alt="" coords="78,5,251,31"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_fast_jet_1_1_track_jet.html" title=" " alt="" coords="5,79,153,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,42,102,80,98,77,140,38"/>
+<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html" title=" " alt="" coords="177,79,325,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,38,232,77,229,80,186,42"/>
 </map>

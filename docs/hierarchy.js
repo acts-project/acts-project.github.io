@@ -984,8 +984,8 @@ var hierarchy =
     [ "ActsPlugins::EDM4hepUtil::SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", null ],
     [ "ActsPlugins::ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", null ],
     [ "ActsPlugins::FastJet::Jet", "class_acts_plugins_1_1_fast_jet_1_1_jet.html", [
-      [ "ActsPlugins::FastJet::TrackJet< TrackContainer >", "class_acts_plugins_1_1_fast_jet_1_1_track_jet.html", null ],
-      [ "ActsPlugins::FastJet::TruthJet< TrackContainer >", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html", null ]
+      [ "ActsPlugins::FastJet::TrackJet", "class_acts_plugins_1_1_fast_jet_1_1_track_jet.html", null ],
+      [ "ActsPlugins::FastJet::TruthJet", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html", null ]
     ] ],
     [ "ActsPlugins::FpeMonitor", "class_acts_plugins_1_1_fpe_monitor.html", null ],
     [ "ActsPlugins::FpeMonitor::Buffer", "struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html", null ],
