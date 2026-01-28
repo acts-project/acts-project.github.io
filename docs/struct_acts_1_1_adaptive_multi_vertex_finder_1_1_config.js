@@ -1,6 +1,6 @@
 var struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config =
 [
-    [ "Config", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a43d2513432a694c201b34a8bea76e26a", null ],
+    [ "Config", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a508cd2349242406f78624f95d045d2c8", null ],
     [ "addSingleTrackVertices", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a33b777b4571e04d466f590e260f70d10", null ],
     [ "bField", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a316f3dd6880346e76b5429b5a26a76c1", null ],
     [ "defaultConstrFitQuality", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a8d8dc1014acb81c97d4341ba03f31f06", null ],

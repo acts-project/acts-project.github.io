@@ -1,9 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"class_acts_1_1_multi_trajectory.html#ace27a3f5a1b1b0709ed834528529a9e7":[6,0,0,303,56],
-"class_acts_1_1_multi_trajectory.html#ace27a3f5a1b1b0709ed834528529a9e7":[8,0,0,278,56],
-"class_acts_1_1_multi_trajectory.html#ad17b6d374a6555b2bb8ab8c67d605669":[6,0,0,303,36],
-"class_acts_1_1_multi_trajectory.html#ad17b6d374a6555b2bb8ab8c67d605669":[8,0,0,278,36],
 "class_acts_1_1_multi_trajectory.html#ad227167906f8b8250e599eb5c7813849":[6,0,0,303,21],
 "class_acts_1_1_multi_trajectory.html#ad227167906f8b8250e599eb5c7813849":[8,0,0,278,21],
 "class_acts_1_1_multi_trajectory.html#adb4c3f01a00ecc7503cb56debc57abbc":[6,0,0,303,38],
@@ -249,5 +245,9 @@ var NAVTREEINDEX24 =
 "class_acts_1_1_neutral_particle_hypothesis.html#af07f54c675c6c1df0873066c841151c7":[6,0,0,317,1],
 "class_acts_1_1_neutral_particle_hypothesis.html#af07f54c675c6c1df0873066c841151c7":[8,0,0,292,1],
 "class_acts_1_1_neutral_particle_hypothesis.html#afeb58841a85cd8ba28130e6062811533":[6,0,0,317,2],
-"class_acts_1_1_neutral_particle_hypothesis.html#afeb58841a85cd8ba28130e6062811533":[8,0,0,292,2]
+"class_acts_1_1_neutral_particle_hypothesis.html#afeb58841a85cd8ba28130e6062811533":[8,0,0,292,2],
+"class_acts_1_1_non_neutral_charge.html":[5,5,0,2],
+"class_acts_1_1_non_neutral_charge.html#a20489eda028b0e37331b6f6b373928ce":[5,5,0,2,4],
+"class_acts_1_1_non_neutral_charge.html#a47a1e091942004a105c66292aef0b6af":[5,5,0,2,5],
+"class_acts_1_1_non_neutral_charge.html#a797544c112cc126365013ac458c6d077":[5,5,0,2,0]
 };

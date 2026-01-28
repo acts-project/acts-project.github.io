@@ -1,7 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"class_acts_1_1_experimental_1_1_gbts_geometry.html#acc7b5cb9ea329227f613de1e7aeb78ae":[6,0,0,6,19,7],
-"class_acts_1_1_experimental_1_1_gbts_geometry.html#acc7b5cb9ea329227f613de1e7aeb78ae":[8,0,0,2,17,7],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#ad65f43bff152ada3d6e7048ab999ecac":[6,0,0,6,19,12],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#ad65f43bff152ada3d6e7048ab999ecac":[8,0,0,2,17,12],
 "class_acts_1_1_experimental_1_1_gbts_geometry.html#ae042164dbac90266ebcc2233cfae33dd":[6,0,0,6,19,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX13 =
 "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a794b7cb4f9ef1ef52f94b14cd5b73c0c":[8,0,0,2,31,2],
 "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a7b59d256440bd1b49a218fb76b83fa86":[6,0,0,6,33,3],
 "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a7b59d256440bd1b49a218fb76b83fa86":[8,0,0,2,31,3],
-"class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#ac798d189dd8592481b37bb4ce4046e57":[6,0,0,6,33,4]
+"class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#ac798d189dd8592481b37bb4ce4046e57":[6,0,0,6,33,4],
+"class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#ac798d189dd8592481b37bb4ce4046e57":[8,0,0,2,31,4],
+"class_acts_1_1_experimental_1_1_profile_histogram.html":[6,0,0,6,34]
 };

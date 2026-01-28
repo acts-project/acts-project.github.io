@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"class_acts_1_1_cylinder_volume_bounds.html#a3af8966c997837e6034264a1ed7c3975":[8,0,0,100,16],
-"class_acts_1_1_cylinder_volume_bounds.html#a3b0cbf0aa162e82b2e917647fc3879cf":[6,0,0,125,3],
 "class_acts_1_1_cylinder_volume_bounds.html#a3b0cbf0aa162e82b2e917647fc3879cf":[8,0,0,100,3],
 "class_acts_1_1_cylinder_volume_bounds.html#a40184d2dae59ba9da3e44289c8a3e4a4":[6,0,0,125,6],
 "class_acts_1_1_cylinder_volume_bounds.html#a40184d2dae59ba9da3e44289c8a3e4a4":[8,0,0,100,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "class_acts_1_1_detector_element_base.html#aba7b06e643093085d5f8d8c980cee8b7":[8,0,0,109,5],
 "class_acts_1_1_detector_element_base.html#ae003240476d1364d78e396b6ba95d2e1":[6,0,0,134,3],
 "class_acts_1_1_detector_element_base.html#ae003240476d1364d78e396b6ba95d2e1":[8,0,0,109,3],
-"class_acts_1_1_detector_element_base.html#af320e4e3baf51fbd6a67aab984b9d3ad":[6,0,0,134,6]
+"class_acts_1_1_detector_element_base.html#af320e4e3baf51fbd6a67aab984b9d3ad":[6,0,0,134,6],
+"class_acts_1_1_detector_element_base.html#af320e4e3baf51fbd6a67aab984b9d3ad":[8,0,0,109,6],
+"class_acts_1_1_detector_element_base.html#af62c20b63bff45abbe40089f73d64439":[6,0,0,134,0]
 };

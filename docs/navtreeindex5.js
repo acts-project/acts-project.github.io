@@ -248,6 +248,6 @@ var NAVTREEINDEX5 =
 "class_acts_1_1_cone_volume_bounds.html#afc2a123b6b0faa321030fb46c31306f1":[6,0,0,103,4],
 "class_acts_1_1_cone_volume_bounds.html#afc2a123b6b0faa321030fb46c31306f1":[8,0,0,78,4],
 "class_acts_1_1_const_vector_multi_trajectory.html":[5,5,2,0],
-"class_acts_1_1_const_vector_multi_trajectory.html#a027f6615719a7a8d5fe0d217b353fe10":[5,5,2,0,4],
-"class_acts_1_1_const_vector_multi_trajectory.html#a15e4b5d5c9b29431b04cca1e405d0f0a":[5,5,2,0,5]
+"class_acts_1_1_const_vector_multi_trajectory.html#a15e4b5d5c9b29431b04cca1e405d0f0a":[5,5,2,0,3],
+"class_acts_1_1_const_vector_multi_trajectory.html#a16191bc897516d5e3062a5e5dd389375":[5,5,2,0,8]
 };

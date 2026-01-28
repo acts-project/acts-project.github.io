@@ -1,7 +1,7 @@
 var class_acts_1_1_multi_stepper_loop =
 [
     [ "Config", "struct_acts_1_1_multi_stepper_loop_1_1_config.html", "struct_acts_1_1_multi_stepper_loop_1_1_config" ],
-    [ "Options", "struct_acts_1_1_multi_stepper_loop_1_1_options.html", "struct_acts_1_1_multi_stepper_loop_1_1_options" ],
+    [ "Options", "struct_acts_1_1_multi_stepper_loop_1_1_options.html", null ],
     [ "State", "struct_acts_1_1_multi_stepper_loop_1_1_state.html", "struct_acts_1_1_multi_stepper_loop_1_1_state" ],
     [ "BoundState", "class_acts_1_1_multi_stepper_loop.html#a25bae4907217345239b06d2fa164dccb", null ],
     [ "ComponentProxy", "class_acts_1_1_multi_stepper_loop.html#a4c04e0a4abab2458b926bbd31a22786a", null ],

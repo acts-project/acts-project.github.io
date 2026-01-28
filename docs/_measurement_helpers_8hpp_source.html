@@ -139,33 +139,35 @@ $(function(){initNavTree('_measurement_helpers_8hpp_source.html','',''); });
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> I&gt;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">struct </span>visit_measurement_callable {</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> L, <span class="keyword">typename</span> A, <span class="keyword">typename</span> B&gt;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keyword">auto</span> <span class="keyword">static</span> <span class="keyword">constexpr</span> invoke(A&amp;&amp; param, B&amp;&amp; cov, L&amp;&amp; lambda) {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> lambda(param.template head&lt;I&gt;(), cov.template topLeftCorner&lt;I, I&gt;());</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  }</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}  <span class="comment">// namespace detail</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> L, <span class="keyword">typename</span> A, <span class="keyword">typename</span> B&gt;</div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="namespace_acts.html#a480df02015f977ce0a30d288861639ba">   56</a></span><span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#a480df02015f977ce0a30d288861639ba">visit_measurement</a>(A&amp;&amp; param, B&amp;&amp; cov, std::size_t dim, L&amp;&amp; lambda) {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#a41bb20848824690a2a72250980a81e4e">template_switch&lt;detail::visit_measurement_callable, 1, eBoundSize&gt;</a>(</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>      dim, param, cov, lambda);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keyword">auto</span> <span class="keyword">static</span> <span class="keyword">constexpr</span> invoke(<span class="keyword">const</span> A&amp; param, <span class="keyword">const</span> B&amp; cov, L&amp;&amp; lambda) {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> std::forward&lt;L&gt;(lambda)(param.template head&lt;I&gt;(),</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                                   cov.template topLeftCorner&lt;I, I&gt;());</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}  <span class="comment">// namespace detail</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> L, <span class="keyword">typename</span> A, <span class="keyword">typename</span> B&gt;</div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespace_acts.html#ad280db5bd7924498093eb043f76f75a2">   57</a></span><span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ad280db5bd7924498093eb043f76f75a2">visit_measurement</a>(<span class="keyword">const</span> A&amp; param, <span class="keyword">const</span> B&amp; cov, std::size_t dim,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                       L&amp;&amp; lambda) {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#a41bb20848824690a2a72250980a81e4e">template_switch&lt;detail::visit_measurement_callable, 1, eBoundSize&gt;</a>(</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>      dim, param, cov, std::forward&lt;L&gt;(lambda));</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
 </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> L, <span class="keyword">typename</span>... Args&gt;</div>
-<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="namespace_acts.html#acec7ac380cac45f6887d3e73e0f36178">   70</a></span><span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#a480df02015f977ce0a30d288861639ba">visit_measurement</a>(std::size_t dim, L&amp;&amp; lambda, Args&amp;&amp;... args) {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#a508ee0f24c070e5785bb517a4b449e69">template_switch_lambda&lt;1, eBoundSize&gt;</a>(dim, lambda,</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                                               std::forward&lt;Args&gt;(args)...);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> L, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="namespace_acts.html#acec7ac380cac45f6887d3e73e0f36178">   72</a></span><span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ad280db5bd7924498093eb043f76f75a2">visit_measurement</a>(std::size_t dim, L&amp;&amp; lambda, Args&amp;&amp;... args) {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#a508ee0f24c070e5785bb517a4b449e69">template_switch_lambda&lt;1, eBoundSize&gt;</a>(dim, std::forward&lt;L&gt;(lambda),</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                                               std::forward&lt;Args&gt;(args)...);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}</div>
 </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a41bb20848824690a2a72250980a81e4e"><div class="ttname"><a href="namespace_acts.html#a41bb20848824690a2a72250980a81e4e">Acts::template_switch</a></div><div class="ttdeci">auto template_switch(std::size_t v, Args &amp;&amp;... args)</div><div class="ttdoc">Dispatch a call based on a runtime value on a function taking the value at compile time.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:116</div></div>
-<div class="ttc" id="anamespace_acts_html_a480df02015f977ce0a30d288861639ba"><div class="ttname"><a href="namespace_acts.html#a480df02015f977ce0a30d288861639ba">Acts::visit_measurement</a></div><div class="ttdeci">auto visit_measurement(A &amp;&amp;param, B &amp;&amp;cov, std::size_t dim, L &amp;&amp;lambda)</div><div class="ttdoc">Dispatch a lambda call on an overallocated parameter vector and covariance matrix,...</div><div class="ttdef"><b>Definition</b> MeasurementHelpers.hpp:56</div></div>
 <div class="ttc" id="anamespace_acts_html_a508ee0f24c070e5785bb517a4b449e69"><div class="ttname"><a href="namespace_acts.html#a508ee0f24c070e5785bb517a4b449e69">Acts::template_switch_lambda</a></div><div class="ttdeci">auto template_switch_lambda(std::size_t v, Lambda &amp;&amp;func, Args &amp;&amp;... args)</div><div class="ttdoc">Alternative version of template_switch which accepts a generic lambda and communicates the dimension ...</div><div class="ttdef"><b>Definition</b> Helpers.hpp:143</div></div>
+<div class="ttc" id="anamespace_acts_html_ad280db5bd7924498093eb043f76f75a2"><div class="ttname"><a href="namespace_acts.html#ad280db5bd7924498093eb043f76f75a2">Acts::visit_measurement</a></div><div class="ttdeci">auto visit_measurement(const A &amp;param, const B &amp;cov, std::size_t dim, L &amp;&amp;lambda)</div><div class="ttdoc">Dispatch a lambda call on an overallocated parameter vector and covariance matrix,...</div><div class="ttdef"><b>Definition</b> MeasurementHelpers.hpp:57</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

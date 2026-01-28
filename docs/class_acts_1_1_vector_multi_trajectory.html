@@ -144,8 +144,6 @@ Collaboration diagram for Acts::VectorMultiTrajectory:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f01120f92f749ed098fe7c2c9e8324f" id="r_a5f01120f92f749ed098fe7c2c9e8324f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f01120f92f749ed098fe7c2c9e8324f">VectorMultiTrajectory</a> ()=default</td></tr>
-<tr class="memitem:a4efcad30b2bb8a91fb2ec7736a721290" id="r_a4efcad30b2bb8a91fb2ec7736a721290"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4efcad30b2bb8a91fb2ec7736a721290">VectorMultiTrajectory</a> (const VectorMultiTrajectory &amp;other)</td></tr>
-<tr class="memitem:a4ad131407e8285852ad11dccaf247cf8" id="r_a4ad131407e8285852ad11dccaf247cf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad131407e8285852ad11dccaf247cf8">VectorMultiTrajectory</a> (VectorMultiTrajectory &amp;&amp;other) noexcept</td></tr>
 <tr class="memitem:abbe6f2b9c0a1bf032c95b77ef52f6df6" id="r_abbe6f2b9c0a1bf032c95b77ef52f6df6"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:abbe6f2b9c0a1bf032c95b77ef52f6df6 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe6f2b9c0a1bf032c95b77ef52f6df6">addColumn_impl</a> (std::string_view key)</td></tr>
 <tr class="memitem:a5587ac7dcd60c21be8f28b1bd1aec6c0" id="r_a5587ac7dcd60c21be8f28b1bd1aec6c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5587ac7dcd60c21be8f28b1bd1aec6c0">addTrackState_impl</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
@@ -263,7 +261,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>In-memory transient multi-trajectory implementation using <code>std::vector</code> as backend. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f01120f92f749ed098fe7c2c9e8324f" name="a5f01120f92f749ed098fe7c2c9e8324f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f01120f92f749ed098fe7c2c9e8324f">&#9670;&#160;</a></span>VectorMultiTrajectory() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f01120f92f749ed098fe7c2c9e8324f">&#9670;&#160;</a></span>VectorMultiTrajectory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,48 +279,6 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4efcad30b2bb8a91fb2ec7736a721290" name="a4efcad30b2bb8a91fb2ec7736a721290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4efcad30b2bb8a91fb2ec7736a721290">&#9670;&#160;</a></span>VectorMultiTrajectory() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::VectorMultiTrajectory::VectorMultiTrajectory </td>
-          <td>(</td>
-          <td class="paramtype">const VectorMultiTrajectory &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ad131407e8285852ad11dccaf247cf8" name="a4ad131407e8285852ad11dccaf247cf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ad131407e8285852ad11dccaf247cf8">&#9670;&#160;</a></span>VectorMultiTrajectory() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::VectorMultiTrajectory::VectorMultiTrajectory </td>
-          <td>(</td>
-          <td class="paramtype">VectorMultiTrajectory &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

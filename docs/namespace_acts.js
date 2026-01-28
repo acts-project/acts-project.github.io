@@ -1457,7 +1457,7 @@ var namespace_acts =
     [ "unpackSmartPointers", "namespace_acts.html#afe4ec039852e4c66c51e003dad4059d4", null ],
     [ "unpackSmartPointers", "namespace_acts.html#a9d506a7514329cb489387ca5db28c266", null ],
     [ "vecIdxFromSymMat", "namespace_acts.html#af0f11c97998b7bf2a9fc8fabb700798b", null ],
-    [ "visit_measurement", "namespace_acts.html#a480df02015f977ce0a30d288861639ba", null ],
+    [ "visit_measurement", "namespace_acts.html#ad280db5bd7924498093eb043f76f75a2", null ],
     [ "visit_measurement", "namespace_acts.html#acec7ac380cac45f6887d3e73e0f36178", null ],
     [ "xyzCoordinateCheck", "namespace_acts.html#ad202ce3349c6cd35350fa8d6d0a2ecbb", null ],
     [ "zip", "namespace_acts.html#a2baea39f1436221b34dfec4ffac66ee6", null ],

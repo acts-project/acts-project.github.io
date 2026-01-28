@@ -1,15 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#a8cfa9ff04b66386f6f7fd53e40735f3b":[6,0,0,483,1,7],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#a8cfa9ff04b66386f6f7fd53e40735f3b":[8,0,0,458,1,7],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#aa214bd26c2ccd4f83b29a496493775a0":[6,0,0,483,1,4],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#aa214bd26c2ccd4f83b29a496493775a0":[8,0,0,458,1,4],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137":[6,0,0,483,1,2],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137":[8,0,0,458,1,2],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1":[6,0,0,483,1,5],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1":[8,0,0,458,1,5],
-"struct_acts_1_1_volume_selector.html":[6,0,0,484],
-"struct_acts_1_1_volume_selector.html":[8,0,0,459],
 "struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[6,0,0,484,3],
 "struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[8,0,0,459,3],
 "struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a":[6,0,0,484,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX68 =
 "struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[6,0,2,15,5],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[8,0,1,15,5],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[6,0,2,15,2],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[8,0,1,15,2]
+"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[8,0,1,15,2],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aff1c30a5aa9b10aec600e30acb6eb2f7":[6,0,2,15,0],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aff1c30a5aa9b10aec600e30acb6eb2f7":[8,0,1,15,0],
+"struct_acts_fatras_1_1_generic_scattering.html":[6,0,2,16],
+"struct_acts_fatras_1_1_generic_scattering.html":[8,0,1,16],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[6,0,2,16,1],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[8,0,1,16,1],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[6,0,2,16,0],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[8,0,1,16,0],
+"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[6,0,2,18,0],
+"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[8,0,1,18,0]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#ac798d189dd8592481b37bb4ce4046e57":[8,0,0,2,31,4],
-"class_acts_1_1_experimental_1_1_profile_histogram.html":[6,0,0,6,34],
 "class_acts_1_1_experimental_1_1_profile_histogram.html":[8,0,0,2,32],
 "class_acts_1_1_experimental_1_1_profile_histogram.html#a0daad0ac2194d05599554d76fa42310b":[6,0,0,6,34,6],
 "class_acts_1_1_experimental_1_1_profile_histogram.html#a0daad0ac2194d05599554d76fa42310b":[8,0,0,2,32,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "class_acts_1_1_fixed_subspace_helper.html":[8,0,0,138],
 "class_acts_1_1_fixed_subspace_helper.html#a017172055502579bb373652d30e81388":[6,0,0,163,0],
 "class_acts_1_1_fixed_subspace_helper.html#a017172055502579bb373652d30e81388":[8,0,0,138,0],
-"class_acts_1_1_fixed_subspace_helper.html#a01a11c2035140df24702f8a2087a5455":[6,0,0,163,12]
+"class_acts_1_1_fixed_subspace_helper.html#a01a11c2035140df24702f8a2087a5455":[6,0,0,163,12],
+"class_acts_1_1_fixed_subspace_helper.html#a01a11c2035140df24702f8a2087a5455":[8,0,0,138,12],
+"class_acts_1_1_fixed_subspace_helper.html#a0f4cbc414279714ab79913dddc0f906d":[6,0,0,163,18]
 };

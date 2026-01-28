@@ -1,8 +1,6 @@
 var class_acts_1_1_vector_multi_trajectory =
 [
     [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html#a5f01120f92f749ed098fe7c2c9e8324f", null ],
-    [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html#a4efcad30b2bb8a91fb2ec7736a721290", null ],
-    [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html#a4ad131407e8285852ad11dccaf247cf8", null ],
     [ "addColumn_impl", "class_acts_1_1_vector_multi_trajectory.html#abbe6f2b9c0a1bf032c95b77ef52f6df6", null ],
     [ "addTrackState_impl", "class_acts_1_1_vector_multi_trajectory.html#a5587ac7dcd60c21be8f28b1bd1aec6c0", null ],
     [ "addTrackStateComponents_impl", "class_acts_1_1_vector_multi_trajectory.html#af3047c84ff4f325a200293055e2d22a1", null ],

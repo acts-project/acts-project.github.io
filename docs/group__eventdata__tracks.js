@@ -2,10 +2,8 @@ var group__eventdata__tracks =
 [
     [ "Acts::ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html", [
       [ "ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html#aa14dbb3a8102d39ae6daa1a0bf5652f5", null ],
-      [ "ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html#a9311f8dcde6cd78d7771794ec59dcddc", null ],
       [ "ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html#a6e5ebe3601a6094836e342b9947218b5", null ],
       [ "ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html#aef31959084bc8b90565698587975c233", null ],
-      [ "ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html#a027f6615719a7a8d5fe0d217b353fe10", null ],
       [ "calibrated_impl", "class_acts_1_1_const_vector_multi_trajectory.html#a15e4b5d5c9b29431b04cca1e405d0f0a", null ],
       [ "calibratedCovariance_impl", "class_acts_1_1_const_vector_multi_trajectory.html#a3f680bd4b2bfa521bdccb57818d21940", null ],
       [ "component_impl", "class_acts_1_1_const_vector_multi_trajectory.html#a90c0622e165dde1375dc58b5ae69c244", null ],
@@ -19,8 +17,6 @@ var group__eventdata__tracks =
     ] ],
     [ "Acts::VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html", [
       [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html#a5f01120f92f749ed098fe7c2c9e8324f", null ],
-      [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html#a4efcad30b2bb8a91fb2ec7736a721290", null ],
-      [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html#a4ad131407e8285852ad11dccaf247cf8", null ],
       [ "addColumn_impl", "class_acts_1_1_vector_multi_trajectory.html#abbe6f2b9c0a1bf032c95b77ef52f6df6", null ],
       [ "addTrackState_impl", "class_acts_1_1_vector_multi_trajectory.html#a5587ac7dcd60c21be8f28b1bd1aec6c0", null ],
       [ "addTrackStateComponents_impl", "class_acts_1_1_vector_multi_trajectory.html#af3047c84ff4f325a200293055e2d22a1", null ],

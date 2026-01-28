@@ -1,11 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"struct_acts_1_1_experimental_1_1_scattering_properties.html":[5,10,10],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#a274350757314c6773ae659910e767239":[5,10,10,3],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,10,10,0],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#a7d14107e03a8a5f6441eb8a1e7f9db3d":[5,10,10,4],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415":[5,10,10,1],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2":[5,10,10,2],
 "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html":[6,0,0,6,37,0],
 "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html":[8,0,0,2,35,0],
 "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html#a11b8a2343039375550caca686d8158f9":[6,0,0,6,37,0,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_geometry_view3_d.html#ab07f8f8870c2b3c3ce4c7c2012038da5":[6,0,0,186,5],
 "struct_acts_1_1_geometry_view3_d.html#ab07f8f8870c2b3c3ce4c7c2012038da5":[8,0,0,161,5],
 "struct_acts_1_1_geometry_view3_d.html#ae3e4cc6641ef77f8335a88a7beae5207":[6,0,0,186,10],
-"struct_acts_1_1_geometry_view3_d.html#ae3e4cc6641ef77f8335a88a7beae5207":[8,0,0,161,10]
+"struct_acts_1_1_geometry_view3_d.html#ae3e4cc6641ef77f8335a88a7beae5207":[8,0,0,161,10],
+"struct_acts_1_1_geometry_view3_d.html#aea9a6fa72e2d7bb42b58b9152b05d494":[6,0,0,186,1],
+"struct_acts_1_1_geometry_view3_d.html#aea9a6fa72e2d7bb42b58b9152b05d494":[8,0,0,161,1],
+"struct_acts_1_1_geometry_view3_d.html#af0422dcd7e2f8662501b3889a99fe010":[6,0,0,186,7],
+"struct_acts_1_1_geometry_view3_d.html#af0422dcd7e2f8662501b3889a99fe010":[8,0,0,161,7],
+"struct_acts_1_1_globally_indexed_material_accessor.html":[5,3,2,6],
+"struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b":[5,3,2,6,4]
 };

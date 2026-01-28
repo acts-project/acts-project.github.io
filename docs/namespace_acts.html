@@ -2405,9 +2405,9 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 requires (N &gt; 0)</td></tr>
 <tr class="memitem:af0f11c97998b7bf2a9fc8fabb700798b template"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0f11c97998b7bf2a9fc8fabb700798b">vecIdxFromSymMat</a> (const std::size_t i, const std::size_t k)</td></tr>
 <tr class="memdesc:af0f11c97998b7bf2a9fc8fabb700798b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map the indices of the lower triangular part of a symmetric N x N matrix to an unrolled vector index.  <br /></td></tr>
-<tr class="memitem:a480df02015f977ce0a30d288861639ba" id="r_a480df02015f977ce0a30d288861639ba"><td class="memTemplParams" colspan="2">template&lt;typename L, typename A, typename B&gt; </td></tr>
-<tr class="memitem:a480df02015f977ce0a30d288861639ba template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a480df02015f977ce0a30d288861639ba">visit_measurement</a> (A &amp;&amp;param, B &amp;&amp;cov, std::size_t dim, L &amp;&amp;lambda)</td></tr>
-<tr class="memdesc:a480df02015f977ce0a30d288861639ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch a lambda call on an overallocated parameter vector and covariance matrix, based on a runtime dimension value.  <br /></td></tr>
+<tr class="memitem:ad280db5bd7924498093eb043f76f75a2" id="r_ad280db5bd7924498093eb043f76f75a2"><td class="memTemplParams" colspan="2">template&lt;typename L, typename A, typename B&gt; </td></tr>
+<tr class="memitem:ad280db5bd7924498093eb043f76f75a2 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad280db5bd7924498093eb043f76f75a2">visit_measurement</a> (const A &amp;param, const B &amp;cov, std::size_t dim, L &amp;&amp;lambda)</td></tr>
+<tr class="memdesc:ad280db5bd7924498093eb043f76f75a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch a lambda call on an overallocated parameter vector and covariance matrix, based on a runtime dimension value.  <br /></td></tr>
 <tr class="memitem:acec7ac380cac45f6887d3e73e0f36178" id="r_acec7ac380cac45f6887d3e73e0f36178"><td class="memTemplParams" colspan="2">template&lt;typename L, typename... Args&gt; </td></tr>
 <tr class="memitem:acec7ac380cac45f6887d3e73e0f36178 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acec7ac380cac45f6887d3e73e0f36178">visit_measurement</a> (std::size_t dim, L &amp;&amp;lambda, Args &amp;&amp;... args)</td></tr>
 <tr class="memdesc:acec7ac380cac45f6887d3e73e0f36178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch a generic lambda on a measurement dimension.  <br /></td></tr>
@@ -3323,7 +3323,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_multi_stepper_loop.html">MultiStepperLoop&lt;EigenStepper&lt;extension_t&gt;</a>, reducer_t&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:137</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:136</div></div>
 </div><!-- fragment -->
 <p>Stepper based on the EigenStepper, but handles Multi-Component Tracks (e.g., for the GSF). </p>
 <p>Internally, this only manages a vector of EigenStepper::States. This simplifies implementation, but has several drawbacks:</p><ul>
@@ -13135,8 +13135,8 @@ requires (N &gt; 0)</div>
 
 </div>
 </div>
-<a id="a480df02015f977ce0a30d288861639ba" name="a480df02015f977ce0a30d288861639ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a480df02015f977ce0a30d288861639ba">&#9670;&#160;</a></span>visit_measurement() <span class="overload">[1/2]</span></h2>
+<a id="ad280db5bd7924498093eb043f76f75a2" name="ad280db5bd7924498093eb043f76f75a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad280db5bd7924498093eb043f76f75a2">&#9670;&#160;</a></span>visit_measurement() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13146,12 +13146,12 @@ template&lt;typename L, typename A, typename B&gt; </div>
         <tr>
           <td class="memname">auto Acts::visit_measurement </td>
           <td>(</td>
-          <td class="paramtype">A &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>param</em></span>, </td>
+          <td class="paramtype">const A &amp;</td>          <td class="paramname"><span class="paramname"><em>param</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">B &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
+          <td class="paramtype">const B &amp;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
