@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_track_selector_1_1_config.html#aef1f0f9c6f5343cc8103ecec25ef54d6":[6,0,0,444,0,2],
+"struct_acts_1_1_track_selector_1_1_config.html#aef1f0f9c6f5343cc8103ecec25ef54d6":[8,0,0,419,0,2],
 "struct_acts_1_1_track_selector_1_1_config.html#af2db577a335932243909edc3544094ec":[6,0,0,444,0,20],
 "struct_acts_1_1_track_selector_1_1_config.html#af2db577a335932243909edc3544094ec":[8,0,0,419,0,20],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html":[6,0,0,444,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_1_1_type_list.html":[6,0,0,466],
 "struct_acts_1_1_type_list.html":[8,0,0,441],
 "struct_acts_1_1_type_tag.html":[6,0,0,467],
-"struct_acts_1_1_type_tag.html":[8,0,0,442],
-"struct_acts_1_1_types_1_1apply.html":[6,0,0,37,0],
-"struct_acts_1_1_types_1_1apply.html":[8,0,0,16,0]
+"struct_acts_1_1_type_tag.html":[8,0,0,442]
 };

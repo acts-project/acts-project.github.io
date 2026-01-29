@@ -1560,11 +1560,12 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b">Sensor</a> = 2
  }</td></tr>
 <tr class="memdesc:acbcb835a6b809a5f8606de4b53455807"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum describes the type of surface material mapping.  <a href="#acbcb835a6b809a5f8606de4b53455807">More...</a><br /></td></tr>
-<tr class="memitem:ab0d37c993fdcfd74f77026bbee8e6d02" id="r_ab0d37c993fdcfd74f77026bbee8e6d02"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02">MaterialUpdateStage</a> : int { <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02a4d6938dc46ac97dde005fab44a01386c">PreUpdate</a> = -1
-, <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02a6d52930efc1d9c5bdf5424d98f7cd0dd">FullUpdate</a> = 0
-, <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02ad1265336b66d91a1fc4f5904e34591f4">PostUpdate</a> = 1
+<tr class="memitem:a220af422d8795c920a43cf9048fc4726" id="r_a220af422d8795c920a43cf9048fc4726"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a> : std::uint8_t { <a class="el" href="#a220af422d8795c920a43cf9048fc4726af3413da9e97ed78dada82d1330fde5f1">NoUpdate</a> = 0
+, <a class="el" href="#a220af422d8795c920a43cf9048fc4726a4d6938dc46ac97dde005fab44a01386c">PreUpdate</a> = 1
+, <a class="el" href="#a220af422d8795c920a43cf9048fc4726ad1265336b66d91a1fc4f5904e34591f4">PostUpdate</a> = 2
+, <a class="el" href="#a220af422d8795c920a43cf9048fc4726a6d52930efc1d9c5bdf5424d98f7cd0dd">FullUpdate</a> = PreUpdate | PostUpdate
  }</td></tr>
-<tr class="memdesc:ab0d37c993fdcfd74f77026bbee8e6d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a steering enum to tell which material update stage:  <a href="#ab0d37c993fdcfd74f77026bbee8e6d02">More...</a><br /></td></tr>
+<tr class="memdesc:a220af422d8795c920a43cf9048fc4726"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a steering enum to tell which material update mode:  <a href="#a220af422d8795c920a43cf9048fc4726">More...</a><br /></td></tr>
 <tr class="memitem:gaf2646ee646a0b70b9c7ebe6e7f473629" id="r_gaf2646ee646a0b70b9c7ebe6e7f473629"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__errors.html#gaf2646ee646a0b70b9c7ebe6e7f473629">MultiStepperError</a> { <br />
 &#160;&#160;<a class="el" href="group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a5eaae0a19b450f5e78e7c92df5993ae5">MultiStepperError::ComponentNotOnSurface</a> = 1
 , <a class="el" href="group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629acb4aac268e70e319ab0f9c729892e841">MultiStepperError::StateOfMultipleComponentsRequested</a> = 2
@@ -1581,8 +1582,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2">NavigatorError::NoStartVolume</a> = 3
  }</td></tr>
 <tr class="memdesc:ga2cc876d4889b5c6656ed7d5e0c1fca19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for navigator operations.  <a href="group__errors.html#ga2cc876d4889b5c6656ed7d5e0c1fca19">More...</a><br /></td></tr>
-<tr class="memitem:ae866cb8853468d56eec07abde7529017" id="r_ae866cb8853468d56eec07abde7529017"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae866cb8853468d56eec07abde7529017">NoiseUpdateMode</a> : int { <a class="el" href="#ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8">removeNoise</a> = -1
-, <a class="el" href="#ae866cb8853468d56eec07abde7529017a524abb48de7322499dcaefc3f1703f41">addNoise</a> = 1
+<tr class="memitem:ae866cb8853468d56eec07abde7529017" id="r_ae866cb8853468d56eec07abde7529017"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae866cb8853468d56eec07abde7529017">NoiseUpdateMode</a> : int { <a class="el" href="#ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f">removeNoise</a> = -1
+, <a class="el" href="#ae866cb8853468d56eec07abde7529017a3d6ae94c7164ae1bf0349750d9ccd172">addNoise</a> = 1
  }</td></tr>
 <tr class="memdesc:ae866cb8853468d56eec07abde7529017"><td class="mdescLeft">&#160;</td><td class="mdescRight">to tell how to deal with noise term in covariance transport  <a href="#ae866cb8853468d56eec07abde7529017">More...</a><br /></td></tr>
 <tr class="memitem:a9be1c6a7aba3d2c58133f9f2f10db45a" id="r_a9be1c6a7aba3d2c58133f9f2f10db45a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> : std::int32_t { <br />
@@ -1786,6 +1787,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aee44b83052f88cd1f6fe38ad464439d0" id="r_aee44b83052f88cd1f6fe38ad464439d0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:aee44b83052f88cd1f6fe38ad464439d0 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee44b83052f88cd1f6fe38ad464439d0">abs</a> (const T n)</td></tr>
 <tr class="memdesc:aee44b83052f88cd1f6fe38ad464439d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute of a number (Can be removed for c++ 23).  <br /></td></tr>
+<tr class="memitem:a9406e4270f8dd103fba42d4df59f73a7" id="r_a9406e4270f8dd103fba42d4df59f73a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9406e4270f8dd103fba42d4df59f73a7">ACTS_DEFINE_ENUM_BITWISE_OPERATORS</a> (<a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a>)</td></tr>
 <tr class="memitem:a07cc9c5a52b7ad024117cee0d1dd664f" id="r_a07cc9c5a52b7ad024117cee0d1dd664f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cc9c5a52b7ad024117cee0d1dd664f">ACTS_DEFINE_ENUM_BITWISE_OPERATORS</a> (<a class="el" href="#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a>)</td></tr>
 <tr class="memitem:a7e485245a070df5a95f113e9ada82f40" id="r_a7e485245a070df5a95f113e9ada82f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e485245a070df5a95f113e9ada82f40">addBoundParameters</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;lhs, const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;rhs)</td></tr>
 <tr class="memdesc:a7e485245a070df5a95f113e9ada82f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add bound parameters and take care of angle periodicity for phi and theta.  <br /></td></tr>
@@ -2202,8 +2204,8 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:a33de5ebd2b70f42d6ea0a11a1d6025a8" id="r_a33de5ebd2b70f42d6ea0a11a1d6025a8"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33de5ebd2b70f42d6ea0a11a1d6025a8">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#af38a8ff832aa2393884b0dbed498973c">HadronType</a> hadron)</td></tr>
 <tr class="memitem:a772325cf43d5342e1cb392648abc8dfd" id="r_a772325cf43d5342e1cb392648abc8dfd"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772325cf43d5342e1cb392648abc8dfd">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a> status)</td></tr>
 <tr class="memdesc:a772325cf43d5342e1cb392648abc8dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ostream-operator for the IntersectionStatus enum.  <br /></td></tr>
-<tr class="memitem:aaf945d5e789508b76330e694c2a986e2" id="r_aaf945d5e789508b76330e694c2a986e2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf945d5e789508b76330e694c2a986e2">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02">MaterialUpdateStage</a> matUpdate)</td></tr>
-<tr class="memdesc:aaf945d5e789508b76330e694c2a986e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for MaterialUpdateStage.  <br /></td></tr>
+<tr class="memitem:a8917a9496557816cad3f7d4744abafc8" id="r_a8917a9496557816cad3f7d4744abafc8"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8917a9496557816cad3f7d4744abafc8">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a> mode)</td></tr>
+<tr class="memdesc:a8917a9496557816cad3f7d4744abafc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for MaterialUpdateMode.  <br /></td></tr>
 <tr class="memitem:a08e665476c1a12306164bb3aec8904a1" id="r_a08e665476c1a12306164bb3aec8904a1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e665476c1a12306164bb3aec8904a1">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> pdg)</td></tr>
 <tr class="memdesc:a08e665476c1a12306164bb3aec8904a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PDG particle numbers with a descriptive name.  <br /></td></tr>
 <tr class="memitem:a791f673965f85f8c894dd07a00d8bd61" id="r_a791f673965f85f8c894dd07a00d8bd61"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a791f673965f85f8c894dd07a00d8bd61">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask)</td></tr>
@@ -4877,8 +4879,8 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 
 </div>
 </div>
-<a id="ab0d37c993fdcfd74f77026bbee8e6d02" name="ab0d37c993fdcfd74f77026bbee8e6d02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d37c993fdcfd74f77026bbee8e6d02">&#9670;&#160;</a></span>MaterialUpdateStage</h2>
+<a id="a220af422d8795c920a43cf9048fc4726" name="a220af422d8795c920a43cf9048fc4726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a220af422d8795c920a43cf9048fc4726">&#9670;&#160;</a></span>MaterialUpdateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4887,7 +4889,7 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02">Acts::MaterialUpdateStage</a> : int</td>
+          <td class="memname">enum class <a class="el" href="#a220af422d8795c920a43cf9048fc4726">Acts::MaterialUpdateMode</a> : std::uint8_t</td>
         </tr>
       </table>
   </td>
@@ -4897,16 +4899,18 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 </table>
 </div><div class="memdoc">
 
-<p>This is a steering enum to tell which material update stage: </p>
+<p>This is a steering enum to tell which material update mode: </p>
 <ul>
+<li>NoUpdate : no update</li>
 <li>PreUpdate : update on approach of a surface</li>
-<li>FullUpdate : update when passing a surface</li>
-<li>PostUpdate : update when leaving a surface </li>
+<li>PostUpdate : update when leaving a surface</li>
+<li>FullUpdate : update when passing a surface </li>
 </ul>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab0d37c993fdcfd74f77026bbee8e6d02a4d6938dc46ac97dde005fab44a01386c" name="ab0d37c993fdcfd74f77026bbee8e6d02a4d6938dc46ac97dde005fab44a01386c"></a>PreUpdate&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab0d37c993fdcfd74f77026bbee8e6d02a6d52930efc1d9c5bdf5424d98f7cd0dd" name="ab0d37c993fdcfd74f77026bbee8e6d02a6d52930efc1d9c5bdf5424d98f7cd0dd"></a>FullUpdate&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab0d37c993fdcfd74f77026bbee8e6d02ad1265336b66d91a1fc4f5904e34591f4" name="ab0d37c993fdcfd74f77026bbee8e6d02ad1265336b66d91a1fc4f5904e34591f4"></a>PostUpdate&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a220af422d8795c920a43cf9048fc4726af3413da9e97ed78dada82d1330fde5f1" name="a220af422d8795c920a43cf9048fc4726af3413da9e97ed78dada82d1330fde5f1"></a>NoUpdate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a220af422d8795c920a43cf9048fc4726a4d6938dc46ac97dde005fab44a01386c" name="a220af422d8795c920a43cf9048fc4726a4d6938dc46ac97dde005fab44a01386c"></a>PreUpdate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a220af422d8795c920a43cf9048fc4726ad1265336b66d91a1fc4f5904e34591f4" name="a220af422d8795c920a43cf9048fc4726ad1265336b66d91a1fc4f5904e34591f4"></a>PostUpdate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a220af422d8795c920a43cf9048fc4726a6d52930efc1d9c5bdf5424d98f7cd0dd" name="a220af422d8795c920a43cf9048fc4726a6d52930efc1d9c5bdf5424d98f7cd0dd"></a>FullUpdate&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -4916,11 +4920,19 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#ae866cb8853468d56eec07abde7529017">Acts::NoiseUpdateMode</a> : int</td>
+          <td class="memname">enum class <a class="el" href="#ae866cb8853468d56eec07abde7529017">Acts::NoiseUpdateMode</a> : int</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>to tell how to deal with noise term in covariance transport </p>
@@ -4929,8 +4941,8 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 <li>addNoise: add noise term </li>
 </ul>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8" name="ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8"></a>removeNoise&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae866cb8853468d56eec07abde7529017a524abb48de7322499dcaefc3f1703f41" name="ae866cb8853468d56eec07abde7529017a524abb48de7322499dcaefc3f1703f41"></a>addNoise&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f" name="ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f"></a>removeNoise&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae866cb8853468d56eec07abde7529017a3d6ae94c7164ae1bf0349750d9ccd172" name="ae866cb8853468d56eec07abde7529017a3d6ae94c7164ae1bf0349750d9ccd172"></a>addNoise&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -5371,8 +5383,25 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a9406e4270f8dd103fba42d4df59f73a7" name="a9406e4270f8dd103fba42d4df59f73a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9406e4270f8dd103fba42d4df59f73a7">&#9670;&#160;</a></span>ACTS_DEFINE_ENUM_BITWISE_OPERATORS() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::ACTS_DEFINE_ENUM_BITWISE_OPERATORS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a07cc9c5a52b7ad024117cee0d1dd664f" name="a07cc9c5a52b7ad024117cee0d1dd664f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07cc9c5a52b7ad024117cee0d1dd664f">&#9670;&#160;</a></span>ACTS_DEFINE_ENUM_BITWISE_OPERATORS()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07cc9c5a52b7ad024117cee0d1dd664f">&#9670;&#160;</a></span>ACTS_DEFINE_ENUM_BITWISE_OPERATORS() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10965,8 +10994,8 @@ template&lt;typename T, std::size_t D&gt; </div>
 
 </div>
 </div>
-<a id="aaf945d5e789508b76330e694c2a986e2" name="aaf945d5e789508b76330e694c2a986e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf945d5e789508b76330e694c2a986e2">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[22/32]</span></h2>
+<a id="a8917a9496557816cad3f7d4744abafc8" name="a8917a9496557816cad3f7d4744abafc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8917a9496557816cad3f7d4744abafc8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[22/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10979,16 +11008,16 @@ template&lt;typename T, std::size_t D&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ab0d37c993fdcfd74f77026bbee8e6d02">MaterialUpdateStage</a></td>          <td class="paramname"><span class="paramname"><em>matUpdate</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Stream operator for MaterialUpdateStage. </p>
+<p>Stream operator for MaterialUpdateMode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">os</td><td>Output stream </td></tr>
-    <tr><td class="paramname">matUpdate</td><td>MaterialUpdateStage to output </td></tr>
+    <tr><td class="paramname">mode</td><td>MaterialUpdateMode to output </td></tr>
   </table>
   </dd>
 </dl>

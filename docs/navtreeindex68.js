@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_1_1_volume_selector.html":[6,0,0,484],
+"struct_acts_1_1_volume_selector.html":[8,0,0,459],
 "struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[6,0,0,484,3],
 "struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[8,0,0,459,3],
 "struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a":[6,0,0,484,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[6,0,2,16,1],
 "struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[8,0,1,16,1],
 "struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[6,0,2,16,0],
-"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[8,0,1,16,0],
-"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[6,0,2,18,0],
-"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[8,0,1,18,0]
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[8,0,1,16,0]
 };

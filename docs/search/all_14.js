@@ -132,7 +132,7 @@ var searchData=
   ['remainingcandidates_129',['remainingCandidates',['../class_acts_1_1_navigation_stream.html#a840cf9dd85d3cafca416d9b1dc681f92',1,'Acts::NavigationStream']]],
   ['remainingsurfaces_130',['remainingSurfaces',['../struct_acts_1_1_direct_navigator_1_1_state.html#ac6a229aacc01ee409f11697ca3133be4',1,'Acts::DirectNavigator::State']]],
   ['removemissedcomponents_131',['removeMissedComponents',['../class_acts_1_1_multi_stepper_loop.html#a2fde02c90ca222d08e69c44eac6ab577',1,'Acts::MultiStepperLoop']]],
-  ['removenoise_132',['removeNoise',['../namespace_acts.html#ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8',1,'Acts']]],
+  ['removenoise_132',['removeNoise',['../namespace_acts.html#ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f',1,'Acts']]],
   ['removepointer_133',['RemovePointer',['../struct_acts_1_1_remove_pointer.html',1,'Acts']]],
   ['removepointer_3c_20t_20_3e_134',['RemovePointer&lt; T &gt;',['../struct_acts_1_1_remove_pointer_3_01_t_01_4.html',1,'Acts']]],
   ['removepointer_5ft_135',['RemovePointer_t',['../namespace_acts.html#af5dcde8c0f77a3ed6c7887d0c7e1a26d',1,'Acts']]],

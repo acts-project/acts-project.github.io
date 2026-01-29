@@ -7,7 +7,7 @@ var searchData=
   ['rectangle_4',['Rectangle',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5ace9291906a4c3b042650b70d7f3b152e',1,'Acts::GraphViz']]],
   ['referencesurfaceunreachable_5',['ReferenceSurfaceUnreachable',['../group__errors.html#gga6a0e61fbedc5e6713e2830a03af01032a01e340a582a939ceb8a9e86cf879b029',1,'Acts']]],
   ['rejectedhit_6',['RejectedHit',['../class_acts_1_1_score_based_ambiguity_resolution.html#ab87f7b237f0c70ac5c944880b0ab8a7faebf56fe1f73270c6171a8408b893adb1',1,'Acts::ScoreBasedAmbiguityResolution']]],
-  ['removenoise_7',['removeNoise',['../namespace_acts.html#ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8',1,'Acts']]],
+  ['removenoise_7',['removeNoise',['../namespace_acts.html#ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f',1,'Acts']]],
   ['restrictionsite_8',['RestrictionSite',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5a130df254ff2e7b20b462795a38bdf7b4',1,'Acts::GraphViz']]],
   ['reversepropagationfailed_9',['ReversePropagationFailed',['../group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9',1,'Acts']]],
   ['ribosite_10',['Ribosite',['../namespace_acts_1_1_graph_viz.html#a7f16a1c146a9a70ec4cd133c38de82d5a9abca06acab98d8723b857f8a7e5c8c9',1,'Acts::GraphViz']]],

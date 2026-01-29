@@ -1011,10 +1011,11 @@ var namespace_acts =
       [ "PostMapping", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807a628a043cfe1c965f3cab0020b7030792", null ],
       [ "Sensor", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b", null ]
     ] ],
-    [ "MaterialUpdateStage", "namespace_acts.html#ab0d37c993fdcfd74f77026bbee8e6d02", [
-      [ "PreUpdate", "namespace_acts.html#ab0d37c993fdcfd74f77026bbee8e6d02a4d6938dc46ac97dde005fab44a01386c", null ],
-      [ "FullUpdate", "namespace_acts.html#ab0d37c993fdcfd74f77026bbee8e6d02a6d52930efc1d9c5bdf5424d98f7cd0dd", null ],
-      [ "PostUpdate", "namespace_acts.html#ab0d37c993fdcfd74f77026bbee8e6d02ad1265336b66d91a1fc4f5904e34591f4", null ]
+    [ "MaterialUpdateMode", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726", [
+      [ "NoUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726af3413da9e97ed78dada82d1330fde5f1", null ],
+      [ "PreUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726a4d6938dc46ac97dde005fab44a01386c", null ],
+      [ "PostUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726ad1265336b66d91a1fc4f5904e34591f4", null ],
+      [ "FullUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726a6d52930efc1d9c5bdf5424d98f7cd0dd", null ]
     ] ],
     [ "MultiStepperError", "group__errors.html#gaf2646ee646a0b70b9c7ebe6e7f473629", [
       [ "ComponentNotOnSurface", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a5eaae0a19b450f5e78e7c92df5993ae5", null ],
@@ -1030,8 +1031,8 @@ var namespace_acts =
       [ "NoStartVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2", null ]
     ] ],
     [ "NoiseUpdateMode", "namespace_acts.html#ae866cb8853468d56eec07abde7529017", [
-      [ "removeNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017a6cead0401bac5c1c67415a40ec3e6ef8", null ],
-      [ "addNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017a524abb48de7322499dcaefc3f1703f41", null ]
+      [ "removeNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f", null ],
+      [ "addNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017a3d6ae94c7164ae1bf0349750d9ccd172", null ]
     ] ],
     [ "PdgParticle", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45a", [
       [ "eInvalid", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa13a6d0b0ebf11ef63492283b62f06980", null ],
@@ -1192,6 +1193,7 @@ var namespace_acts =
       [ "NoWrapping", "namespace_acts.html#ac067c47704bdb1b88dd0c21c0e8fd8c2a8d9c18bc517435f25750e460525b60e7", null ]
     ] ],
     [ "abs", "namespace_acts.html#aee44b83052f88cd1f6fe38ad464439d0", null ],
+    [ "ACTS_DEFINE_ENUM_BITWISE_OPERATORS", "namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7", null ],
     [ "ACTS_DEFINE_ENUM_BITWISE_OPERATORS", "namespace_acts.html#a07cc9c5a52b7ad024117cee0d1dd664f", null ],
     [ "addBoundParameters", "namespace_acts.html#a7e485245a070df5a95f113e9ada82f40", null ],
     [ "adjustBinUtility", "namespace_acts.html#ac693aa8941b4cbb04d9fda037650199a", null ],
@@ -1374,7 +1376,7 @@ var namespace_acts =
     [ "operator<<", "namespace_acts.html#a7b065972c1a1757a5262be3fa4ed9e13", null ],
     [ "operator<<", "namespace_acts.html#a33de5ebd2b70f42d6ea0a11a1d6025a8", null ],
     [ "operator<<", "namespace_acts.html#a772325cf43d5342e1cb392648abc8dfd", null ],
-    [ "operator<<", "namespace_acts.html#aaf945d5e789508b76330e694c2a986e2", null ],
+    [ "operator<<", "namespace_acts.html#a8917a9496557816cad3f7d4744abafc8", null ],
     [ "operator<<", "namespace_acts.html#a08e665476c1a12306164bb3aec8904a1", null ],
     [ "operator<<", "namespace_acts.html#a791f673965f85f8c894dd07a00d8bd61", null ],
     [ "operator<<", "namespace_acts.html#a37a7254cbaee8f26160339b7a71879ec", null ],
