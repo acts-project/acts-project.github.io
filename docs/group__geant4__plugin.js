@@ -16,7 +16,7 @@ var group__geant4__plugin =
       [ "localToGlobalTransform", "class_acts_plugins_1_1_geant4_detector_element.html#a52393e320d023c66cf39dc1b2d2cd918", null ],
       [ "surface", "class_acts_plugins_1_1_geant4_detector_element.html#af9da09aa2e4fde235605ab044647bd7f", null ],
       [ "surface", "class_acts_plugins_1_1_geant4_detector_element.html#ac4642189a3a5d754f1aea91fe2bd1fb9", null ],
-      [ "thickness", "class_acts_plugins_1_1_geant4_detector_element.html#a919ee7b56459ace714312c11c3e4c2d2", null ]
+      [ "thickness", "class_acts_plugins_1_1_geant4_detector_element.html#a50326c22f9973774a2f1dac9ce321f83", null ]
     ] ],
     [ "ActsPlugins::Geant4DetectorSurfaceFactory", "class_acts_plugins_1_1_geant4_detector_surface_factory.html", [
       [ "Cache", "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html", [

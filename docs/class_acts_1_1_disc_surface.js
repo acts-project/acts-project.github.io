@@ -3,7 +3,7 @@ var class_acts_1_1_disc_surface =
     [ "DiscSurface", "class_acts_1_1_disc_surface.html#a7b3bc892c76f16a6e718248c935eb776", null ],
     [ "DiscSurface", "class_acts_1_1_disc_surface.html#a3ce47f1e5d74ed292785c8217dae80e2", null ],
     [ "DiscSurface", "class_acts_1_1_disc_surface.html#a724953ee2385d21a9d9356792323e6cf", null ],
-    [ "DiscSurface", "class_acts_1_1_disc_surface.html#aad3c7b1255d25b2277777ee7deaeedcd", null ],
+    [ "DiscSurface", "class_acts_1_1_disc_surface.html#ad1ba2b33c00bfcf381924ec31a319232", null ],
     [ "DiscSurface", "class_acts_1_1_disc_surface.html#ab0a251b00cf7ce764eb75e083872bd86", null ],
     [ "DiscSurface", "class_acts_1_1_disc_surface.html#a53ddff32b424e1559fc1c1ba7e7872f0", null ],
     [ "assignSurfaceBounds", "class_acts_1_1_disc_surface.html#af4368a6fadf0cee364f5bbc664e375ee", null ],

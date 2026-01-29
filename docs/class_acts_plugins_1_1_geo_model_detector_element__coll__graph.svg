@@ -32,9 +32,9 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_1_1_detector_element_base.html" target="_top" xlink:title="This class is the base of all detector elements that are usable by ACTS.">
-<polygon fill="white" stroke="#666666" points="160,-85 10,-85 10,-66 160,-66 160,-85"/>
-<text text-anchor="middle" x="85" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DetectorElementBase</text>
+<g id="a_Node000002"><a xlink:href="class_acts_1_1_surface_placement_base.html" target="_top" xlink:title="The SurfacePlacementBase is an API proxy to model the dynamic movement of the Acts::Surface represent...">
+<polygon fill="white" stroke="#666666" points="163,-85 7,-85 7,-66 163,-66 163,-85"/>
+<text text-anchor="middle" x="85" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SurfacePlacementBase</text>
 </a>
 </g>
 </g>

@@ -14,5 +14,5 @@ var class_acts_plugins_1_1_geo_model_detector_element =
     [ "setDatabaseEntryName", "class_acts_plugins_1_1_geo_model_detector_element.html#a5941d439c68354e81b0f8aa2d396b364", null ],
     [ "surface", "class_acts_plugins_1_1_geo_model_detector_element.html#a4193124cdec215fd1c97d1e743fe59de", null ],
     [ "surface", "class_acts_plugins_1_1_geo_model_detector_element.html#af60c37be47965a678cc1f891c1cc9988", null ],
-    [ "thickness", "class_acts_plugins_1_1_geo_model_detector_element.html#a822c7c1e7ac520d98ed063267987831c", null ]
+    [ "thickness", "class_acts_plugins_1_1_geo_model_detector_element.html#ab298fced370c3ce866b8363dcf3e6436", null ]
 ];

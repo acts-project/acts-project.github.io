@@ -97,7 +97,8 @@ var searchData=
   ['surfacehit_94',['SurfaceHit',['../struct_acts_1_1_surface_hit.html',1,'Acts']]],
   ['surfacematerialmapper_95',['SurfaceMaterialMapper',['../class_acts_1_1_surface_material_mapper.html',1,'Acts']]],
   ['surfacemergingexception_96',['SurfaceMergingException',['../class_acts_1_1_surface_merging_exception.html',1,'Acts']]],
-  ['surfacereached_97',['SurfaceReached',['../struct_acts_1_1_surface_reached.html',1,'Acts']]],
-  ['surfaceselector_98',['SurfaceSelector',['../struct_acts_1_1_surface_selector.html',1,'Acts']]],
-  ['sympystepper_99',['SympyStepper',['../class_acts_1_1_sympy_stepper.html',1,'Acts']]]
+  ['surfaceplacementbase_97',['SurfacePlacementBase',['../class_acts_1_1_surface_placement_base.html',1,'Acts']]],
+  ['surfacereached_98',['SurfaceReached',['../struct_acts_1_1_surface_reached.html',1,'Acts']]],
+  ['surfaceselector_99',['SurfaceSelector',['../struct_acts_1_1_surface_selector.html',1,'Acts']]],
+  ['sympystepper_100',['SympyStepper',['../class_acts_1_1_sympy_stepper.html',1,'Acts']]]
 ];

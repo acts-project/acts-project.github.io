@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[6,0,2,16,1],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[8,0,1,16,1],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[6,0,2,16,0],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[8,0,1,16,0],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[6,0,2,18,0],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[8,0,1,18,0],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html#a4952e3525609361abec489fbf0c6b00f":[6,0,2,18,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#ab0c18b47cc5b72a83523c06ccd875dbe":[5,8,3,1,1],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html":[5,8,3,2,0],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe":[5,8,3,2,0,7],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a47fffe026bd0ba8c1a5e396205b558fc":[5,8,3,2,0,8],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a5c282a909f394861043af415a6eff692":[5,8,3,2,0,2],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a6366ebf9a368e06a89e88cbe243a6362":[5,8,3,2,0,9],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a70906ac1e034fdbdbf105daa346f66d4":[5,8,3,2,0,6],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a7900c995640a82e2d40f718d3fa1ca6b":[5,8,3,2,0,1]
+"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a47fffe026bd0ba8c1a5e396205b558fc":[5,8,3,2,0,8]
 };

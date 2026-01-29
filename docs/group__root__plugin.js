@@ -127,7 +127,7 @@ var group__root__plugin =
       [ "surface", "group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2", null ],
       [ "surface", "group__root__plugin.html#ga931e862e6f5ff0021aa05a4553c41459", null ],
       [ "tgeoNode", "class_acts_plugins_1_1_t_geo_detector_element.html#aeca5b6fa0ced368fdeb4c20caff963f4", null ],
-      [ "thickness", "group__root__plugin.html#gae90c5d88cc8631e53ca331f09e953f71", null ]
+      [ "thickness", "group__root__plugin.html#ga7d187f5e03e8a912974234bb15ebf5aa", null ]
     ] ],
     [ "ActsPlugins::TGeoLayerBuilder", "class_acts_plugins_1_1_t_geo_layer_builder.html", [
       [ "Config", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html", [
@@ -220,5 +220,5 @@ var group__root__plugin =
     [ "ActsPlugins::makeMagneticFieldMapXyzFromRoot", "group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2", null ],
     [ "ActsPlugins::TGeoDetectorElement::surface", "group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2", null ],
     [ "ActsPlugins::TGeoDetectorElement::surface", "group__root__plugin.html#ga931e862e6f5ff0021aa05a4553c41459", null ],
-    [ "ActsPlugins::TGeoDetectorElement::thickness", "group__root__plugin.html#gae90c5d88cc8631e53ca331f09e953f71", null ]
+    [ "ActsPlugins::TGeoDetectorElement::thickness", "group__root__plugin.html#ga7d187f5e03e8a912974234bb15ebf5aa", null ]
 ];

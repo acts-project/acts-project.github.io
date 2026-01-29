@@ -5,5 +5,5 @@ var class_acts_1_1_json_detector_element =
     [ "localToGlobalTransform", "class_acts_1_1_json_detector_element.html#a71dfacb95fe86b2a735c3a216dfa178e", null ],
     [ "surface", "class_acts_1_1_json_detector_element.html#a7dc96c42e90b262948b11829b216f259", null ],
     [ "surface", "class_acts_1_1_json_detector_element.html#a17a013be207c8aceffa8f484be2a9c93", null ],
-    [ "thickness", "class_acts_1_1_json_detector_element.html#aee27f27e4ee8d44d62bf14fd309396c8", null ]
+    [ "thickness", "class_acts_1_1_json_detector_element.html#ac85a2c8960a2f049e6e87ece003197a4", null ]
 ];

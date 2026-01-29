@@ -540,6 +540,7 @@ var annotated_dup =
       [ "SurfaceHit", "struct_acts_1_1_surface_hit.html", "struct_acts_1_1_surface_hit" ],
       [ "SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", "class_acts_1_1_surface_material_mapper" ],
       [ "SurfaceMergingException", "class_acts_1_1_surface_merging_exception.html", "class_acts_1_1_surface_merging_exception" ],
+      [ "SurfacePlacementBase", "class_acts_1_1_surface_placement_base.html", "class_acts_1_1_surface_placement_base" ],
       [ "SurfaceReached", "struct_acts_1_1_surface_reached.html", "struct_acts_1_1_surface_reached" ],
       [ "SurfaceSelector", "struct_acts_1_1_surface_selector.html", "struct_acts_1_1_surface_selector" ],
       [ "SympyStepper", "class_acts_1_1_sympy_stepper.html", "class_acts_1_1_sympy_stepper" ],

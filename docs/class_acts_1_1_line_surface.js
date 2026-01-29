@@ -2,7 +2,7 @@ var class_acts_1_1_line_surface =
 [
     [ "LineSurface", "class_acts_1_1_line_surface.html#ac1c9dfb8764da9958d4315aea7112ca3", null ],
     [ "LineSurface", "class_acts_1_1_line_surface.html#a6c94c3bae94ac39ede54bc9edee09337", null ],
-    [ "LineSurface", "class_acts_1_1_line_surface.html#a1a43fec5d040073c04bf830cc982c8e0", null ],
+    [ "LineSurface", "class_acts_1_1_line_surface.html#a9ced44754417d13f82f197c9d4e0dc28", null ],
     [ "LineSurface", "class_acts_1_1_line_surface.html#a33209298731812be08e2c9e062786ef1", null ],
     [ "LineSurface", "class_acts_1_1_line_surface.html#a44fd39979ca4727b790ac3858c950b56", null ],
     [ "alignmentToPathDerivative", "class_acts_1_1_line_surface.html#ac0effe5f6e0865a2b1f8b66fc19012f1", null ],

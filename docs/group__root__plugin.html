@@ -176,8 +176,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga17ad41fa38da45d72a3b6020632207a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return surface associated with this detector element.  <br /></td></tr>
 <tr class="memitem:ga931e862e6f5ff0021aa05a4553c41459" id="r_ga931e862e6f5ff0021aa05a4553c41459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga931e862e6f5ff0021aa05a4553c41459">ActsPlugins::TGeoDetectorElement::surface</a> () override</td></tr>
 <tr class="memdesc:ga931e862e6f5ff0021aa05a4553c41459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return surface associated with this detector element.  <br /></td></tr>
-<tr class="memitem:gae90c5d88cc8631e53ca331f09e953f71" id="r_gae90c5d88cc8631e53ca331f09e953f71"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae90c5d88cc8631e53ca331f09e953f71">ActsPlugins::TGeoDetectorElement::thickness</a> () const override</td></tr>
-<tr class="memdesc:gae90c5d88cc8631e53ca331f09e953f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thickness of the module.  <br /></td></tr>
+<tr class="memitem:ga7d187f5e03e8a912974234bb15ebf5aa" id="r_ga7d187f5e03e8a912974234bb15ebf5aa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7d187f5e03e8a912974234bb15ebf5aa">ActsPlugins::TGeoDetectorElement::thickness</a> () const</td></tr>
+<tr class="memdesc:ga7d187f5e03e8a912974234bb15ebf5aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the thickness of the module.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ga974d1b63629e3c61e3547034a015676d" name="ga974d1b63629e3c61e3547034a015676d"></a>
@@ -301,7 +301,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_acts_1_1_detector_element_base.html#ae003240476d1364d78e396b6ba95d2e1">Acts::DetectorElementBase</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_surface_placement_base.html#ac360078545efe0e1cbb2a7d83d42e96d">Acts::SurfacePlacementBase</a>.</p>
 
 </div>
 </div>
@@ -466,7 +466,7 @@ Functions</h2></td></tr>
 <p>Return surface associated with this detector element. </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the nominal transformation matrix </dd></dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_detector_element_base.html#a3ed35cfc34235753f9d741e56b81e526">Acts::DetectorElementBase</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_surface_placement_base.html#a95c38712a0276b71649be21a2ff45247">Acts::SurfacePlacementBase</a>.</p>
 
 </div>
 </div>
@@ -497,18 +497,15 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Const reference to the surface </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>this is the non-const access </dd></dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_detector_element_base.html#aba7b06e643093085d5f8d8c980cee8b7">Acts::DetectorElementBase</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_surface_placement_base.html#a9352d987465a422097d79cdf7b28f56e">Acts::SurfacePlacementBase</a>.</p>
 
 </div>
 </div>
-<a id="gae90c5d88cc8631e53ca331f09e953f71" name="gae90c5d88cc8631e53ca331f09e953f71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae90c5d88cc8631e53ca331f09e953f71">&#9670;&#160;</a></span>thickness()</h2>
+<a id="ga7d187f5e03e8a912974234bb15ebf5aa" name="ga7d187f5e03e8a912974234bb15ebf5aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d187f5e03e8a912974234bb15ebf5aa">&#9670;&#160;</a></span>thickness()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double ActsPlugins::TGeoDetectorElement::thickness </td>
@@ -517,19 +514,12 @@ Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Returns the thickness of the module. </p>
 <dl class="section return"><dt>Returns</dt><dd>Mutable reference to the surface</dd>
 <dd>
 Thickness of the detector element in units of length </dd></dl>
-
-<p>Implements <a class="el" href="class_acts_1_1_detector_element_base.html#af320e4e3baf51fbd6a67aab984b9d3ad">Acts::DetectorElementBase</a>.</p>
 
 </div>
 </div>

@@ -133,15 +133,12 @@ $(function(){initNavTree('concept_acts_1_1_surface_concept.html','',''); });
 <div class="line">                                  <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a> gctx,</div>
 <div class="line">                                  <a class="code hl_class" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> tolerance) {</div>
 <div class="line">  { cs == s2 } -&gt; std::same_as&lt;bool&gt;;</div>
-<div class="line"> </div>
 <div class="line">  { cs.type() } -&gt; std::same_as&lt;Surface::SurfaceType&gt;;</div>
 <div class="line">  { cs.localToGlobalTransform(gctx) } -&gt; std::same_as&lt;const Transform3&amp;&gt;;</div>
 <div class="line">  { cs.center(gctx) } -&gt; std::same_as&lt;Vector3&gt;;</div>
 <div class="line">  { cs.normal(gctx, <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>{}, <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>{}) } -&gt; std::same_as&lt;Vector3&gt;;</div>
 <div class="line">  { cs.bounds() } -&gt; std::convertible_to&lt;const SurfaceBounds&amp;&gt;;</div>
-<div class="line">  {</div>
-<div class="line">    cs.associatedDetectorElement()</div>
-<div class="line">  } -&gt; std::same_as&lt;const DetectorElementBase*&gt;;</div>
+<div class="line">  { cs.surfacePlacement() } -&gt; std::same_as&lt;const SurfacePlacementBase*&gt;;</div>
 <div class="line"> </div>
 <div class="line">  { cs.associatedLayer() } -&gt; std::same_as&lt;const Layer*&gt;;</div>
 <div class="line">  { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.associateLayer(std::declval&lt;const Layer&amp;&gt;()) } -&gt; std::same_as&lt;void&gt;;</div>

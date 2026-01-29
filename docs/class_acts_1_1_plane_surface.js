@@ -2,7 +2,7 @@ var class_acts_1_1_plane_surface =
 [
     [ "PlaneSurface", "class_acts_1_1_plane_surface.html#a49048b82c9cbf84dcbe99808b90854ac", null ],
     [ "PlaneSurface", "class_acts_1_1_plane_surface.html#aa0f80d79bf62fe6fdeeab2a25b81a9db", null ],
-    [ "PlaneSurface", "class_acts_1_1_plane_surface.html#a9f8340567a83d54774f8427c5e85b401", null ],
+    [ "PlaneSurface", "class_acts_1_1_plane_surface.html#ac615f9fa7192e9893bd81a26b482e5e3", null ],
     [ "PlaneSurface", "class_acts_1_1_plane_surface.html#ae693a3d542abc1855948649b1befc876", null ],
     [ "assignSurfaceBounds", "class_acts_1_1_plane_surface.html#accd93214edee4399da9919ee299ebd12", null ],
     [ "bounds", "class_acts_1_1_plane_surface.html#a8f261b0849edb201bc51cd25c6e530a6", null ],

@@ -1,11 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="13,5,269,45"/>
-<area shape="rect" id="Node000001" href="$class_acts_plugins_1_1_const_podio_track_state_container.html" title=" " alt="" coords="325,37,537,77"/>
-<area shape="poly" id="edge181_Node000000_Node000001" title=" " alt="" coords="283,38,326,43,325,48,283,44"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="5,133,277,173"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_mutable_podio_track_state_container.html" title=" " alt="" coords="334,117,529,157"/>
-<area shape="poly" id="edge182_Node000004_Node000003" title=" " alt="" coords="291,142,334,140,334,145,291,148"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_podio_track_state_container_base.html" title=" " alt="" coords="37,69,246,109"/>
-<area shape="poly" id="edge183_Node000002_Node000001" title=" " alt="" coords="259,74,325,66,325,72,260,79"/>
-<area shape="poly" id="edge184_Node000002_Node000003" title=" " alt="" coords="260,106,334,119,333,124,259,112"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_multi_trajectory.html" title="Store a trajectory of track states with multiple components." alt="" coords="5,5,160,45"/>
 </map>

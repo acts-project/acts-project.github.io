@@ -151,16 +151,6 @@ var hierarchy =
       [ "Acts::ConstVectorTrackContainer", "class_acts_1_1_const_vector_track_container.html", null ],
       [ "Acts::VectorTrackContainer", "class_acts_1_1_vector_track_container.html", null ]
     ] ],
-    [ "Acts::DetectorElementBase", "class_acts_1_1_detector_element_base.html", [
-      [ "Acts::JsonDetectorElement", "class_acts_1_1_json_detector_element.html", null ],
-      [ "ActsPlugins::Geant4DetectorElement", "class_acts_plugins_1_1_geant4_detector_element.html", null ],
-      [ "ActsPlugins::GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html", [
-        [ "ActsPlugins::GeoModelDetectorElementITk", "class_acts_plugins_1_1_geo_model_detector_element_i_tk.html", null ]
-      ] ],
-      [ "ActsPlugins::TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html", [
-        [ "ActsPlugins::DD4hepDetectorElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html", null ]
-      ] ]
-    ] ],
     [ "Acts::Direction", "class_acts_1_1_direction.html", null ],
     [ "Acts::DirectNavigator", "class_acts_1_1_direct_navigator.html", null ],
     [ "Acts::DirectNavigator::Config", "struct_acts_1_1_direct_navigator_1_1_config.html", null ],
@@ -771,6 +761,17 @@ var hierarchy =
     [ "Acts::SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", null ],
     [ "Acts::SurfaceMaterialMapper::Config", "struct_acts_1_1_surface_material_mapper_1_1_config.html", null ],
     [ "Acts::SurfaceMaterialMapper::State", "struct_acts_1_1_surface_material_mapper_1_1_state.html", null ],
+    [ "Acts::SurfacePlacementBase", "class_acts_1_1_surface_placement_base.html", [
+      [ "Acts::DetectorElementBase", "class_acts_1_1_detector_element_base.html", null ],
+      [ "Acts::JsonDetectorElement", "class_acts_1_1_json_detector_element.html", null ],
+      [ "ActsPlugins::Geant4DetectorElement", "class_acts_plugins_1_1_geant4_detector_element.html", null ],
+      [ "ActsPlugins::GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html", [
+        [ "ActsPlugins::GeoModelDetectorElementITk", "class_acts_plugins_1_1_geo_model_detector_element_i_tk.html", null ]
+      ] ],
+      [ "ActsPlugins::TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html", [
+        [ "ActsPlugins::DD4hepDetectorElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html", null ]
+      ] ]
+    ] ],
     [ "Acts::SurfaceReached", "struct_acts_1_1_surface_reached.html", [
       [ "Acts::ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", [
         [ "Acts::MultiStepperSurfaceReached", "struct_acts_1_1_multi_stepper_surface_reached.html", null ]
