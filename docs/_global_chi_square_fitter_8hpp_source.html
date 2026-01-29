@@ -750,8 +750,8 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>        <span class="keywordflow">if</span> (scatteringMapId == scatteringMap-&gt;end()) {</div>
 <div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>          <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;    ... create entry in scattering map.&quot;</span>);</div>
 <div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span> </div>
-<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>          detail::PointwiseMaterialInteraction interaction(state, stepper,</div>
-<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>                                                           navigator);</div>
+<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>          Acts::detail::PointwiseMaterialInteraction interaction(state, stepper,</div>
+<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>                                                                 navigator);</div>
 <div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>          <span class="comment">// We need to evaluate the material to create the correct slab</span></div>
 <div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>          <span class="keyword">const</span> <span class="keywordtype">bool</span> slabIsValid =</div>
 <div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>              interaction.evaluateMaterialSlab(<a class="code hl_enumvalue" href="namespace_acts.html#a220af422d8795c920a43cf9048fc4726a6d52930efc1d9c5bdf5424d98f7cd0dd">MaterialUpdateMode::FullUpdate</a>);</div>
