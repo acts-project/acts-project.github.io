@@ -1,5 +1,11 @@
 var NAVTREEINDEX50 =
 {
+"namespace_acts_1_1_particle_id_helper.html#afd04bb1ca849c6e0413ff41db03b2b34":[6,0,0,27,1],
+"namespace_acts_1_1_particle_id_helper.html#afed96051b798dc5aaaaf59131b952119":[6,0,0,27,2],
+"namespace_acts_1_1_physical_constants.html":[6,0,0,28],
+"namespace_acts_1_1_physical_constants.html#a1d84e7732ed0bc3272bff096737d2b6e":[6,0,0,28,0],
+"namespace_acts_1_1_physical_constants.html#ae64b87b62593f4c52d5a1d88da6d7cf3":[6,0,0,28,1],
+"namespace_acts_1_1_pixel_space_point_builder.html":[6,0,0,29],
 "namespace_acts_1_1_pixel_space_point_builder.html#ad5268dc742b10040a9d39a48289abccd":[6,0,0,29,0],
 "namespace_acts_1_1_portal_json_converter.html":[5,8,11,7],
 "namespace_acts_1_1_portal_json_converter.html#a5cf2df45fea0554f444140b61cb255af":[6,0,0,30,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[6,0,0,47,0],
 "struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[8,0,0,22,0],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html":[6,0,0,48,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html":[8,0,0,23,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a0732eea8a9989f8cf4e5e387833c55a7":[6,0,0,48,0,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a0732eea8a9989f8cf4e5e387833c55a7":[8,0,0,23,0,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a3529c2967ca59d834bd96817527ce96f":[6,0,0,48,0,3],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a3529c2967ca59d834bd96817527ce96f":[8,0,0,23,0,3],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a4f9022577ec913e22e2f7eb98a05b5f7":[6,0,0,48,0,7],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#a4f9022577ec913e22e2f7eb98a05b5f7":[8,0,0,23,0,7]
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html":[8,0,0,23,0]
 };

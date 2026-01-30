@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a3f4f3027d96a8fb6b98f4446ef4a8c19":[6,0,0,6,5,3,3],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a3f4f3027d96a8fb6b98f4446ef4a8c19":[8,0,0,2,3,3,3],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4e1b61ca9638d127014d851e3adec3be":[6,0,0,6,5,3,4],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4e1b61ca9638d127014d851e3adec3be":[8,0,0,2,3,3,4],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4f7ea61941b6624ff6e81f9b055c6bb4":[6,0,0,6,5,3,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4f7ea61941b6624ff6e81f9b055c6bb4":[8,0,0,2,3,3,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a50e9957126be5e42b37ea8103a561a38":[6,0,0,6,5,3,10],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a50e9957126be5e42b37ea8103a561a38":[8,0,0,2,3,3,10],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a695656b48a9b48a8ec68747c974d8cda":[6,0,0,6,5,3,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a4eb057b941849f0da3fade501a6af150":[6,0,0,6,33,0,4],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a4eb057b941849f0da3fade501a6af150":[8,0,0,2,31,0,4],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a6e82f2a397550e5fbac69681f82bc7b1":[6,0,0,6,33,0,2],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a6e82f2a397550e5fbac69681f82bc7b1":[8,0,0,2,31,0,2],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ad367419e80c0d8a6bd8fc1c00bfefd6f":[6,0,0,6,33,0,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ad367419e80c0d8a6bd8fc1c00bfefd6f":[8,0,0,2,31,0,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[6,0,0,6,33,0,1],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[8,0,0,2,31,0,1],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[6,0,0,6,33,0,3],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,31,0,3]
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a6e82f2a397550e5fbac69681f82bc7b1":[8,0,0,2,31,0,2]
 };

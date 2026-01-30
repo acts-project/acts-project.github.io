@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#a8c3545d85245060e4b706cd0da1225a2":[6,0,0,484,1,10],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#a8c3545d85245060e4b706cd0da1225a2":[8,0,0,459,1,10],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#a8cfa9ff04b66386f6f7fd53e40735f3b":[6,0,0,484,1,7],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#a8cfa9ff04b66386f6f7fd53e40735f3b":[8,0,0,459,1,7],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#aa214bd26c2ccd4f83b29a496493775a0":[6,0,0,484,1,4],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#aa214bd26c2ccd4f83b29a496493775a0":[8,0,0,459,1,4],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137":[6,0,0,484,1,2],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137":[8,0,0,459,1,2],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1":[6,0,0,484,1,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[6,0,2,15,4],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[8,0,1,15,4],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[6,0,2,15,5],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[8,0,1,15,5],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[6,0,2,15,2],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[8,0,1,15,2],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aff1c30a5aa9b10aec600e30acb6eb2f7":[6,0,2,15,0],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aff1c30a5aa9b10aec600e30acb6eb2f7":[8,0,1,15,0],
-"struct_acts_fatras_1_1_generic_scattering.html":[6,0,2,16],
-"struct_acts_fatras_1_1_generic_scattering.html":[8,0,1,16]
+"struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[8,0,1,15,5]
 };

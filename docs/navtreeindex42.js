@@ -1,5 +1,11 @@
 var NAVTREEINDEX42 =
 {
+"class_acts_fatras_1_1_particle.html#ab769dba66b465d25c3e99bbc5fd460cf":[8,0,1,26,37],
+"class_acts_fatras_1_1_particle.html#ab7e1b159d48b0fd710d79d029cfdd247":[6,0,2,26,19],
+"class_acts_fatras_1_1_particle.html#ab7e1b159d48b0fd710d79d029cfdd247":[8,0,1,26,19],
+"class_acts_fatras_1_1_particle.html#abc91ce31eb1875b85ec6fed2a6e42743":[6,0,2,26,17],
+"class_acts_fatras_1_1_particle.html#abc91ce31eb1875b85ec6fed2a6e42743":[8,0,1,26,17],
+"class_acts_fatras_1_1_particle.html#abe17d9cec21f59962eace27e61096660":[6,0,2,26,32],
 "class_acts_fatras_1_1_particle.html#abe17d9cec21f59962eace27e61096660":[8,0,1,26,32],
 "class_acts_fatras_1_1_particle.html#ac2d50661d3be6652d53ee16791f8bfce":[6,0,2,26,1],
 "class_acts_fatras_1_1_particle.html#ac2d50661d3be6652d53ee16791f8bfce":[8,0,1,26,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX42 =
 "class_acts_plugins_1_1_hashing_annoy.html#a5be7ec08ef7747d0d7f935992d694617":[5,8,10,2,0],
 "class_acts_plugins_1_1_hashing_training_algorithm.html":[5,8,10,3],
 "class_acts_plugins_1_1_hashing_training_algorithm.html#a06a1da1f9d1faeb5cc3b5b23c4028888":[5,8,10,3,5],
-"class_acts_plugins_1_1_hashing_training_algorithm.html#a59f7b486ba0595aaf85b73b0dc134c75":[5,8,10,3,2],
-"class_acts_plugins_1_1_hashing_training_algorithm.html#a709fd1e98a8135388365429617d7e8de":[5,8,10,3,3],
-"class_acts_plugins_1_1_hashing_training_algorithm.html#a7a0c81145ba59b49cef184620b607390":[5,8,10,3,0],
-"class_acts_plugins_1_1_hashing_training_algorithm.html#ab3eee0ac69be223edcf0c905599196ae":[5,8,10,3,6],
-"class_acts_plugins_1_1_hashing_training_algorithm.html#acedaa5a6e7d6066beb5150910b2dd949":[5,8,10,3,1],
-"class_acts_plugins_1_1_hashing_training_algorithm.html#af6b1068482624c7c4875fcdc0fc7b7e5":[5,8,10,3,4],
-"class_acts_plugins_1_1_i_geant4_physical_volume_selector.html":[5,8,8,8]
+"class_acts_plugins_1_1_hashing_training_algorithm.html#a59f7b486ba0595aaf85b73b0dc134c75":[5,8,10,3,2]
 };

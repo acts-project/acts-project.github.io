@@ -14,7 +14,9 @@ var class_acts_1_1_grid_surface_material_t =
     [ "gridView", "class_acts_1_1_grid_surface_material_t.html#a47a9bdfc8a251631b03a391fab9cb6f9", null ],
     [ "materialAccessor", "class_acts_1_1_grid_surface_material_t.html#a094ea455d74aa554f4c789f1024addb1", null ],
     [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4", null ],
+    [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a57c67692911c878a906319e8a8ffcd5d", null ],
     [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f", null ],
+    [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0", null ],
     [ "scale", "class_acts_1_1_grid_surface_material_t.html#ad9e4d7ed78c2f1d58aaa274dbaa9a195", null ],
     [ "toStream", "class_acts_1_1_grid_surface_material_t.html#ade8750c94a675e0d2daed09dae68b790", null ]
 ];
