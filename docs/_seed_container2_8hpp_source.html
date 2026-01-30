@@ -285,26 +285,12 @@ $(function(){initNavTree('_seed_container2_8hpp_source.html','',''); });
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>  std::shared_ptr&lt;const SpacePointContainer2&gt; m_sharedConstSpacePointContainer;</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  SpacePointContainer2 *m_mutableSpacePointContainer{<span class="keyword">nullptr</span>};</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>  <span class="keyword">const</span> SpacePointContainer2 *m_constSpacePointContainer{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  <span class="keyword">auto</span> knownColumns() &amp; <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="keywordflow">return</span> std::tie(m_spacePointOffsets, m_spacePointCounts, m_qualities,</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>                    m_vertexZs, m_spacePoints);</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>  }</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>  <span class="keyword">auto</span> knownColumns() const &amp; noexcept {</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    <span class="keywordflow">return</span> std::tie(m_spacePointOffsets, m_spacePointCounts, m_qualities,</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>                    m_vertexZs, m_spacePoints);</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  }</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>  <span class="keyword">auto</span> knownColumns() &amp;&amp; <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="keywordflow">return</span> std::tuple(std::move(m_spacePointOffsets),</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>                      std::move(m_spacePointCounts), std::move(m_qualities),</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>                      std::move(m_vertexZs), std::move(m_spacePoints));</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>  }</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>};</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>};</div>
 </div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span><span class="preprocessor">#include &quot;Acts/EventData/SeedContainer2.ipp&quot;</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="preprocessor">#include &quot;Acts/EventData/SeedContainer2.ipp&quot;</span></div>
 <div class="ttc" id="aclass_acts_1_1_seed_container2_html_a0134611ecb15e0f61c00241bb0d3e1c0"><div class="ttname"><a href="class_acts_1_1_seed_container2.html#a0134611ecb15e0f61c00241bb0d3e1c0">Acts::SeedContainer2::createSeed</a></div><div class="ttdeci">MutableProxy createSeed() noexcept</div><div class="ttdoc">Creates a new seed.</div></div>
 <div class="ttc" id="aclass_acts_1_1_seed_container2_html_a062d8dc58ee1fb014ebf80c2ca1bafe9"><div class="ttname"><a href="class_acts_1_1_seed_container2.html#a062d8dc58ee1fb014ebf80c2ca1bafe9">Acts::SeedContainer2::vertexZ</a></div><div class="ttdeci">float vertexZ(Index index) const noexcept</div><div class="ttdoc">Const access to the vertex Z coordinate of the seed at the given index.</div><div class="ttdef"><b>Definition</b> SeedContainer2.hpp:231</div></div>
 <div class="ttc" id="aclass_acts_1_1_seed_container2_html_a1e19b9f8411fa1b32e98f6603f8351b6"><div class="ttname"><a href="class_acts_1_1_seed_container2.html#a1e19b9f8411fa1b32e98f6603f8351b6">Acts::SeedContainer2::assignSpacePointIndices</a></div><div class="ttdeci">void assignSpacePointIndices(Index index, std::span&lt; const SpacePointIndex2 &gt; spacePointIndices)</div><div class="ttdoc">Assigns space point indices to the seed at the given index.</div></div>
