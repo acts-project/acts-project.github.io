@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[6,0,0,17,0,1,2],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[8,0,0,6,0,1,2],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[6,0,0,17,0,1,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[8,0,0,6,0,1,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[6,0,0,17,0,1,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#aa8a8145a0b6254db642c3a8fe85d0f8e":[8,0,0,6,0,1,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[6,0,0,17,0,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a2d892ab7ff1cc04e3151fed006fa4ffd":[8,0,0,222,0,2],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a48a09e1ed681323cb1e44849eafb6b86":[6,0,0,247,0,15],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a48a09e1ed681323cb1e44849eafb6b86":[8,0,0,222,0,15],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a53015392b0b19ba678a66bc06f2f63d7":[6,0,0,247,0,4],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a53015392b0b19ba678a66bc06f2f63d7":[8,0,0,222,0,4],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6888632012c244a8c48de9f35dcec4a3":[6,0,0,247,0,3],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6888632012c244a8c48de9f35dcec4a3":[8,0,0,222,0,3],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6a107e61a7e5badaa03f648003eadf6b":[6,0,0,247,0,1]
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a53015392b0b19ba678a66bc06f2f63d7":[6,0,0,247,0,4]
 };

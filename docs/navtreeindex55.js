@@ -1,5 +1,9 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0829b7ba66ac21f3efd2ac48aa76e8a6":[6,0,0,6,5,3,12],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a0829b7ba66ac21f3efd2ac48aa76e8a6":[8,0,0,2,3,3,12],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a12a7c864c10293bd6dc8088033a409f3":[6,0,0,6,5,3,11],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a12a7c864c10293bd6dc8088033a409f3":[8,0,0,2,3,3,11],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a3f4f3027d96a8fb6b98f4446ef4a8c19":[6,0,0,6,5,3,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a3f4f3027d96a8fb6b98f4446ef4a8c19":[8,0,0,2,3,3,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4e1b61ca9638d127014d851e3adec3be":[6,0,0,6,5,3,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a1f66dd788460e71e1bbc8a7e71377c0d":[6,0,0,6,32,0,0],
 "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a1f66dd788460e71e1bbc8a7e71377c0d":[8,0,0,2,30,0,0],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html":[6,0,0,6,33,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html":[8,0,0,2,31,0],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a4eb057b941849f0da3fade501a6af150":[6,0,0,6,33,0,4],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a4eb057b941849f0da3fade501a6af150":[8,0,0,2,31,0,4],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a6e82f2a397550e5fbac69681f82bc7b1":[6,0,0,6,33,0,2],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a6e82f2a397550e5fbac69681f82bc7b1":[8,0,0,2,31,0,2]
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html":[8,0,0,2,31,0]
 };

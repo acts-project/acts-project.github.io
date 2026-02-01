@@ -155,10 +155,14 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a93a3d50eeac1b601a94f14fe83ef26b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit the time offset if possible.  <br /></td></tr>
 <tr class="memitem:acec2b31e3d3b02eed662de924875720b" id="r_acec2b31e3d3b02eed662de924875720b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acec2b31e3d3b02eed662de924875720b">gradientStep</a> {1.e-4}</td></tr>
 <tr class="memdesc:acec2b31e3d3b02eed662de924875720b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gradient decent step size if the Hessian is singular.  <br /></td></tr>
+<tr class="memitem:a27cd2c5dc3bfd2c12051cf544b3f9ebb" id="r_a27cd2c5dc3bfd2c12051cf544b3f9ebb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cd2c5dc3bfd2c12051cf544b3f9ebb">ignoreFailedPreFit</a> {false}</td></tr>
+<tr class="memdesc:a27cd2c5dc3bfd2c12051cf544b3f9ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch to try the full fit when the fast pre-fitter fails.  <br /></td></tr>
 <tr class="memitem:a10b4cdbe7619c009385b40a08bcff09c" id="r_a10b4cdbe7619c009385b40a08bcff09c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10b4cdbe7619c009385b40a08bcff09c">includeToF</a> {true}</td></tr>
 <tr class="memdesc:a10b4cdbe7619c009385b40a08bcff09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include the time of flight assuming that the particle travels with the speed of light in the time residual calculations.  <br /></td></tr>
 <tr class="memitem:ae44a60091441784c20186b4f0add82e4" id="r_ae44a60091441784c20186b4f0add82e4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae44a60091441784c20186b4f0add82e4">maxIter</a> {1000}</td></tr>
 <tr class="memdesc:ae44a60091441784c20186b4f0add82e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of iterations.  <br /></td></tr>
+<tr class="memitem:a75dab148a95b3a3b40321b0d28950176" id="r_a75dab148a95b3a3b40321b0d28950176"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75dab148a95b3a3b40321b0d28950176">normPrecCutOff</a> {1.e-2}</td></tr>
+<tr class="memdesc:a75dab148a95b3a3b40321b0d28950176"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the parameter change normalized to their uncertainties is below the cutOff the fit is converged.  <br /></td></tr>
 <tr class="memitem:a805c6323ee55c50aa447692f16bfc645" id="r_a805c6323ee55c50aa447692f16bfc645"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a805c6323ee55c50aa447692f16bfc645">nParsOutOfBounds</a> {1}</td></tr>
 <tr class="memdesc:a805c6323ee55c50aa447692f16bfc645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the fit as soon as more than n parameters leave the fit range.  <br /></td></tr>
 <tr class="memitem:a9739ce462fddedd7e6871ca86ca4399c" id="r_a9739ce462fddedd7e6871ca86ca4399c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#af14d381c79143d83514fb371a704f321">FitParIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9739ce462fddedd7e6871ca86ca4399c">parsToUse</a> {}</td></tr>
@@ -290,6 +294,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a27cd2c5dc3bfd2c12051cf544b3f9ebb" name="a27cd2c5dc3bfd2c12051cf544b3f9ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27cd2c5dc3bfd2c12051cf544b3f9ebb">&#9670;&#160;</a></span>ignoreFailedPreFit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineFitter::Config::ignoreFailedPreFit {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switch to try the full fit when the fast pre-fitter fails. </p>
+<p>The flags useFastFitter and fastPreFitter have to be enabled </p>
+
+</div>
+</div>
 <a id="a10b4cdbe7619c009385b40a08bcff09c" name="a10b4cdbe7619c009385b40a08bcff09c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10b4cdbe7619c009385b40a08bcff09c">&#9670;&#160;</a></span>includeToF</h2>
 
@@ -319,6 +340,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Number of iterations. </p>
+
+</div>
+</div>
+<a id="a75dab148a95b3a3b40321b0d28950176" name="a75dab148a95b3a3b40321b0d28950176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75dab148a95b3a3b40321b0d28950176">&#9670;&#160;</a></span>normPrecCutOff</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::Experimental::CompositeSpacePointLineFitter::Config::normPrecCutOff {1.e-2}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If the parameter change normalized to their uncertainties is below the cutOff the fit is converged. </p>
 
 </div>
 </div>
