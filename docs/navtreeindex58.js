@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html":[6,0,0,17,0,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html":[8,0,0,6,0,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[6,0,0,17,0,1,2],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a2d47808a9f177755b35633aa2c69ab78":[8,0,0,6,0,1,2],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html#a9eb54f4497d0a87921f0d5bf9041dfd6":[6,0,0,17,0,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a1aa97c7547e5829698d0837e57d2bc96":[8,0,0,222,0,11],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a2d892ab7ff1cc04e3151fed006fa4ffd":[6,0,0,247,0,2],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a2d892ab7ff1cc04e3151fed006fa4ffd":[8,0,0,222,0,2],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a48a09e1ed681323cb1e44849eafb6b86":[6,0,0,247,0,15],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a48a09e1ed681323cb1e44849eafb6b86":[8,0,0,222,0,15],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a53015392b0b19ba678a66bc06f2f63d7":[6,0,0,247,0,4]
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a48a09e1ed681323cb1e44849eafb6b86":[6,0,0,247,0,15]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#a630d5b3316828b769c3f698ba0f754d8":[5,8,0,12,8],
+"struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#a7f428f3e5fb153454578a1ebfa8c71b0":[5,8,0,12,5],
 "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#ac8391c8ae2a305c685c05ec6b387994e":[5,8,0,12,0],
 "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#ac9bb432ba61a585ff1897ae6fcae57f7":[5,8,0,12,1],
 "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#ad340b4169531dc7c00f64b25bd48532e":[5,8,0,12,6],

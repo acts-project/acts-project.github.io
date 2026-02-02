@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_measurement_selector_cuts.html#ae0cc97ce3837e63997de1b525a25409d":[6,0,0,293,1],
+"struct_acts_1_1_measurement_selector_cuts.html#ae0cc97ce3837e63997de1b525a25409d":[8,0,0,268,1],
 "struct_acts_1_1_middle_sp_info.html":[6,0,0,294],
 "struct_acts_1_1_middle_sp_info.html":[8,0,0,269],
 "struct_acts_1_1_middle_sp_info.html#a10ed3626a06a2c77e06ea931df1817c8":[6,0,0,294,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_neutral.html#ab78b807c80688f056b48b97511475785":[5,5,0,1,5],
 "struct_acts_1_1_neutral.html#abae543827b3d5df2c4bc91b8b06b5898":[5,5,0,1,3],
 "struct_acts_1_1_null_b_field_1_1_cache.html":[5,3,1,6,0],
-"struct_acts_1_1_null_b_field_1_1_cache.html":[5,9,0,6,0],
-"struct_acts_1_1_null_b_field_1_1_cache.html#ac384087da4a2cdfd69b9fdbb33f73c97":[5,3,1,6,0,0],
-"struct_acts_1_1_null_b_field_1_1_cache.html#ac384087da4a2cdfd69b9fdbb33f73c97":[5,9,0,6,0,0]
+"struct_acts_1_1_null_b_field_1_1_cache.html":[5,9,0,6,0]
 };

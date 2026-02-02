@@ -78,7 +78,7 @@ var searchData=
   ['process_5fevent_75',['process_event',['../class_acts_1_1_finite_state_machine.html#a8496eeab3751aa091f45523b9a87c8e6',1,'Acts::FiniteStateMachine']]],
   ['processselectedtrackstates_76',['processSelectedTrackStates',['../struct_acts_1_1_track_state_creator.html#ab5b18a48b4a94ae3c2551128a863f8a7',1,'Acts::TrackStateCreator']]],
   ['product_77',['product',['../namespace_acts.html#accac06e45217490944ef25a4b63f1539',1,'Acts']]],
-  ['profilehistogram_78',['ProfileHistogram',['../class_acts_1_1_experimental_1_1_profile_histogram.html#aaaf59f53435ddca9ed36916393de4085',1,'Acts::Experimental::ProfileHistogram']]],
+  ['profilehistogram_78',['ProfileHistogram',['../class_acts_1_1_experimental_1_1_profile_histogram.html#aff5701f3ff47a1f2ab6ff2326bc63954',1,'Acts::Experimental::ProfileHistogram']]],
   ['projectionx_79',['projectionX',['../namespace_acts_1_1_experimental.html#a3688c368f6d5b76505c520fdb13bebba',1,'Acts::Experimental']]],
   ['projectiony_80',['projectionY',['../namespace_acts_1_1_experimental.html#a89732e9d7c8fe438d172a801ea0f53e7',1,'Acts::Experimental']]],
   ['projectmatrix_81',['projectMatrix',['../class_acts_1_1_fixed_subspace_helper.html#a0f4cbc414279714ab79913dddc0f906d',1,'Acts::FixedSubspaceHelper']]],

@@ -233,7 +233,7 @@ var searchData=
   ['product_230',['product',['../namespace_acts.html#accac06e45217490944ef25a4b63f1539',1,'Acts']]],
   ['profile_231',['Profile',['../howto_profiling.html#autotoc_md44',1,'Produce a CPU Profile'],['../howto_profiling.html#autotoc_md45',1,'Produce a Memory Profile']]],
   ['profile_20as_20a_20graph_232',['View Profile as a Graph',['../howto_profiling.html#autotoc_md48',1,'']]],
-  ['profilehistogram_233',['ProfileHistogram',['../class_acts_1_1_experimental_1_1_profile_histogram.html',1,'Acts::Experimental::ProfileHistogram&lt; Dim &gt;'],['../class_acts_1_1_experimental_1_1_profile_histogram.html#aaaf59f53435ddca9ed36916393de4085',1,'Acts::Experimental::ProfileHistogram::ProfileHistogram()']]],
+  ['profilehistogram_233',['ProfileHistogram',['../class_acts_1_1_experimental_1_1_profile_histogram.html',1,'Acts::Experimental::ProfileHistogram&lt; Dim &gt;'],['../class_acts_1_1_experimental_1_1_profile_histogram.html#aff5701f3ff47a1f2ab6ff2326bc63954',1,'Acts::Experimental::ProfileHistogram::ProfileHistogram()']]],
   ['profilehistogram1_234',['ProfileHistogram1',['../namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484',1,'Acts::Experimental']]],
   ['profilehistogram_3c_201_20_3e_235',['ProfileHistogram&lt; 1 &gt;',['../class_acts_1_1_experimental_1_1_profile_histogram.html',1,'Acts::Experimental']]],
   ['profiling_236',['Performance Profiling',['../howto_profiling.html',1,'']]],

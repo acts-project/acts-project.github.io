@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"namespace_acts_1_1_particle_id_helper.html#ae567470c39aa48986f7d81020dafbf78":[6,0,0,27,3],
+"namespace_acts_1_1_particle_id_helper.html#ae9d5155fd2f75448278c1cdd032a39cb":[6,0,0,27,7],
 "namespace_acts_1_1_particle_id_helper.html#afd04bb1ca849c6e0413ff41db03b2b34":[6,0,0,27,1],
 "namespace_acts_1_1_particle_id_helper.html#afed96051b798dc5aaaaf59131b952119":[6,0,0,27,2],
 "namespace_acts_1_1_physical_constants.html":[6,0,0,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_actor_result_type_extractor.html":[6,0,0,47],
 "struct_acts_1_1_actor_result_type_extractor.html":[8,0,0,22],
 "struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[6,0,0,47,0],
-"struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[8,0,0,22,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html":[6,0,0,48,0],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html":[8,0,0,23,0]
+"struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[8,0,0,22,0]
 };

@@ -138,8 +138,8 @@ Inheritance diagram for Acts::Experimental::ProfileHistogram&lt; Dim &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaaf59f53435ddca9ed36916393de4085" id="r_aaaf59f53435ddca9ed36916393de4085"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf59f53435ddca9ed36916393de4085">ProfileHistogram</a> (std::string <a class="el" href="#a9b4680a3cf44c92dc5a7e35871d1d7d0">name</a>, std::string <a class="el" href="#a0daad0ac2194d05599554d76fa42310b">title</a>, const std::array&lt; <a class="el" href="namespace_acts_1_1_experimental.html#a50b5e9b447d05f5fb2fe207e54e4953a">AxisVariant</a>, Dim &gt; &amp;axes, std::string <a class="el" href="#a8c5bb821a2b6d44ecb7be6ac85272be7">sampleAxisTitle</a>)</td></tr>
-<tr class="memdesc:aaaf59f53435ddca9ed36916393de4085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct multi-dimensional profile histogram from axes.  <br /></td></tr>
+<tr class="memitem:aff5701f3ff47a1f2ab6ff2326bc63954" id="r_aff5701f3ff47a1f2ab6ff2326bc63954"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff5701f3ff47a1f2ab6ff2326bc63954">ProfileHistogram</a> (std::string <a class="el" href="#a9b4680a3cf44c92dc5a7e35871d1d7d0">name</a>, std::string <a class="el" href="#a0daad0ac2194d05599554d76fa42310b">title</a>, const std::array&lt; <a class="el" href="namespace_acts_1_1_experimental.html#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a>, Dim &gt; &amp;axes, std::string <a class="el" href="#a8c5bb821a2b6d44ecb7be6ac85272be7">sampleAxisTitle</a>, <a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; double &gt; sampleRange={})</td></tr>
+<tr class="memdesc:aff5701f3ff47a1f2ab6ff2326bc63954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct multi-dimensional profile histogram from axes.  <br /></td></tr>
 <tr class="memitem:a4ff0d2419c3b74bfb8a8fdfef6e7f0a5" id="r_a4ff0d2419c3b74bfb8a8fdfef6e7f0a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ff0d2419c3b74bfb8a8fdfef6e7f0a5">fill</a> (const std::array&lt; double, Dim &gt; &amp;values, double sample)</td></tr>
 <tr class="memdesc:a4ff0d2419c3b74bfb8a8fdfef6e7f0a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill profile with values and sample.  <br /></td></tr>
 <tr class="memitem:a37813fa81821f7e540bcf4e9ee43c3d2" id="r_a37813fa81821f7e540bcf4e9ee43c3d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts_1_1_experimental.html#afd53f2267d17bc3c62b70f3093af1e84">BoostProfileHist</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37813fa81821f7e540bcf4e9ee43c3d2">histogram</a> () const</td></tr>
@@ -167,8 +167,8 @@ class Acts::Experimental::ProfileHistogram&lt; Dim &gt;</div><p>Multi-dimensiona
   </dd>
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aaaf59f53435ddca9ed36916393de4085" name="aaaf59f53435ddca9ed36916393de4085"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf59f53435ddca9ed36916393de4085">&#9670;&#160;</a></span>ProfileHistogram()</h2>
+<a id="aff5701f3ff47a1f2ab6ff2326bc63954" name="aff5701f3ff47a1f2ab6ff2326bc63954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff5701f3ff47a1f2ab6ff2326bc63954">&#9670;&#160;</a></span>ProfileHistogram()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,12 +188,17 @@ template&lt;std::size_t Dim&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::array&lt; <a class="el" href="namespace_acts_1_1_experimental.html#a50b5e9b447d05f5fb2fe207e54e4953a">AxisVariant</a>, Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>axes</em></span>, </td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="namespace_acts_1_1_experimental.html#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a>, Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>axes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>sampleAxisTitle</em></span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>sampleAxisTitle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; double &gt;</td>          <td class="paramname"><span class="paramname"><em>sampleRange</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -205,6 +210,7 @@ template&lt;std::size_t Dim&gt; </div>
     <tr><td class="paramname">title</td><td>Histogram title (for plotting) </td></tr>
     <tr><td class="paramname">axes</td><td>Array of axes with binning and metadata </td></tr>
     <tr><td class="paramname">sampleAxisTitle</td><td>Title for the sampled axis (profiled quantity) </td></tr>
+    <tr><td class="paramname">sampleRange</td><td>Samples are discarded when outside range </td></tr>
   </table>
   </dd>
 </dl>

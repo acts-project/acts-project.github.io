@@ -211,10 +211,11 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a50b5e9b447d05f5fb2fe207e54e4953a" id="r_a50b5e9b447d05f5fb2fe207e54e4953a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b5e9b447d05f5fb2fe207e54e4953a">AxisVariant</a></td></tr>
-<tr class="memdesc:a50b5e9b447d05f5fb2fe207e54e4953a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost axis variant supporting both variable and regular axes with metadata NOTE: It seems not to be possible to combine compile-time fixed number of axes with boost::histogram::axis::variant.  <br /></td></tr>
+<tr class="memitem:ad6733036f479c3e732e53c10e3be3a39" id="r_ad6733036f479c3e732e53c10e3be3a39"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a></td></tr>
+<tr class="memdesc:ad6733036f479c3e732e53c10e3be3a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost axis variant supporting variable, regular, and log-scale axes with metadata NOTE: It seems not to be possible to combine compile-time fixed number of axes with boost::histogram::axis::variant.  <br /></td></tr>
 <tr class="memitem:a1c0a9d070b5720016943b93abcc352bd" id="r_a1c0a9d070b5720016943b93abcc352bd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c0a9d070b5720016943b93abcc352bd">BoostHist</a></td></tr>
 <tr class="memdesc:a1c0a9d070b5720016943b93abcc352bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Underlying Boost type for histograms.  <br /></td></tr>
+<tr class="memitem:a71f597f44c431241acaa30806a6a6936" id="r_a71f597f44c431241acaa30806a6a6936"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f597f44c431241acaa30806a6a6936">BoostLogAxis</a></td></tr>
 <tr class="memitem:afd53f2267d17bc3c62b70f3093af1e84" id="r_afd53f2267d17bc3c62b70f3093af1e84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd53f2267d17bc3c62b70f3093af1e84">BoostProfileHist</a></td></tr>
 <tr class="memdesc:afd53f2267d17bc3c62b70f3093af1e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Underlying Boost type for ProfileHistogram.  <br /></td></tr>
 <tr class="memitem:ac7a6cc986dade7daa45eadca383cd7a8" id="r_ac7a6cc986dade7daa45eadca383cd7a8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a6cc986dade7daa45eadca383cd7a8">BoostRegularAxis</a></td></tr>
@@ -253,6 +254,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2a01eb359a5aea7c6497367694fefa21" id="r_ga2a01eb359a5aea7c6497367694fefa21"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:ga2a01eb359a5aea7c6497367694fefa21 template"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga2a01eb359a5aea7c6497367694fefa21">countMaterialStates</a> (const track_proxy_t track, const std::unordered_map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_scattering_properties.html">ScatteringProperties</a> &gt; &amp;scatteringMap, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:ga2a01eb359a5aea7c6497367694fefa21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the valid material states in a track for scattering calculations.  <br /></td></tr>
+<tr class="memitem:a8588a307a3c69b3325b415cd65002297" id="r_a8588a307a3c69b3325b415cd65002297"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8588a307a3c69b3325b415cd65002297">extractBinEdges</a> (const <a class="el" href="#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a> &amp;axis)</td></tr>
+<tr class="memdesc:a8588a307a3c69b3325b415cd65002297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract bin edges from an AxisVariant.  <br /></td></tr>
 <tr class="memitem:ga4429cc1ca8b22cab2de57f9ae250865a" id="r_ga4429cc1ca8b22cab2de57f9ae250865a"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:ga4429cc1ca8b22cab2de57f9ae250865a template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga4429cc1ca8b22cab2de57f9ae250865a">fillGx2fSystem</a> (const track_proxy_t track, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html">Gx2fSystem</a> &amp;extendedSystem, const bool multipleScattering, const std::unordered_map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_scattering_properties.html">ScatteringProperties</a> &gt; &amp;scatteringMap, std::vector&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &gt; &amp;geoIdVector, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:ga4429cc1ca8b22cab2de57f9ae250865a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the GX2F system with data from a track.  <br /></td></tr>
@@ -300,21 +303,25 @@ Variables</h2></td></tr>
 <div class="textblock"><p>Contains code that is not considered stable yet and might change. </p>
 <p>Longer desc </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a50b5e9b447d05f5fb2fe207e54e4953a" name="a50b5e9b447d05f5fb2fe207e54e4953a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50b5e9b447d05f5fb2fe207e54e4953a">&#9670;&#160;</a></span>AxisVariant</h2>
+<a id="ad6733036f479c3e732e53c10e3be3a39" name="ad6733036f479c3e732e53c10e3be3a39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6733036f479c3e732e53c10e3be3a39">&#9670;&#160;</a></span>AxisVariant</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a50b5e9b447d05f5fb2fe207e54e4953a">Acts::Experimental::AxisVariant</a></td>
+          <td class="memname">using <a class="el" href="#ad6733036f479c3e732e53c10e3be3a39">Acts::Experimental::AxisVariant</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">    boost::histogram::axis::variant&lt;BoostVariableAxis, BoostRegularAxis&gt;</div>
+<div class="line">    boost::histogram::axis::variant&lt;<a class="code hl_typedef" href="#a949434cf66ed1242e8f40064bb9cdf5f">BoostVariableAxis</a>, <a class="code hl_typedef" href="#ac7a6cc986dade7daa45eadca383cd7a8">BoostRegularAxis</a>,</div>
+<div class="line">                                    <a class="code hl_typedef" href="#a71f597f44c431241acaa30806a6a6936">BoostLogAxis</a>&gt;</div>
+<div class="ttc" id="anamespace_acts_1_1_experimental_html_a71f597f44c431241acaa30806a6a6936"><div class="ttname"><a href="#a71f597f44c431241acaa30806a6a6936">Acts::Experimental::BoostLogAxis</a></div><div class="ttdeci">boost::histogram::axis::regular&lt; double, boost::histogram::axis::transform::log, std::string &gt; BoostLogAxis</div><div class="ttdef"><b>Definition</b> Histogram.hpp:25</div></div>
+<div class="ttc" id="anamespace_acts_1_1_experimental_html_a949434cf66ed1242e8f40064bb9cdf5f"><div class="ttname"><a href="#a949434cf66ed1242e8f40064bb9cdf5f">Acts::Experimental::BoostVariableAxis</a></div><div class="ttdeci">boost::histogram::axis::variable&lt; double, std::string &gt; BoostVariableAxis</div><div class="ttdef"><b>Definition</b> Histogram.hpp:21</div></div>
+<div class="ttc" id="anamespace_acts_1_1_experimental_html_ac7a6cc986dade7daa45eadca383cd7a8"><div class="ttname"><a href="#ac7a6cc986dade7daa45eadca383cd7a8">Acts::Experimental::BoostRegularAxis</a></div><div class="ttdeci">boost::histogram::axis::regular&lt; double, boost::histogram::use_default, std::string &gt; BoostRegularAxis</div><div class="ttdef"><b>Definition</b> Histogram.hpp:22</div></div>
 </div><!-- fragment -->
-<p>Boost axis variant supporting both variable and regular axes with metadata NOTE: It seems not to be possible to combine compile-time fixed number of axes with boost::histogram::axis::variant. </p>
+<p>Boost axis variant supporting variable, regular, and log-scale axes with metadata NOTE: It seems not to be possible to combine compile-time fixed number of axes with boost::histogram::axis::variant. </p>
 <p>Therefore we use std::vector&lt;AxisVariant&gt; internally. </p>
 
 </div>
@@ -335,6 +342,22 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>Underlying Boost type for histograms. </p>
 
+</div>
+</div>
+<a id="a71f597f44c431241acaa30806a6a6936" name="a71f597f44c431241acaa30806a6a6936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f597f44c431241acaa30806a6a6936">&#9670;&#160;</a></span>BoostLogAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a71f597f44c431241acaa30806a6a6936">Acts::Experimental::BoostLogAxis</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> boost::histogram::axis::regular&lt;</div>
+<div class="line">    double, boost::histogram::axis::transform::log, std::string&gt;</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd53f2267d17bc3c62b70f3093af1e84" name="afd53f2267d17bc3c62b70f3093af1e84"></a>
@@ -496,6 +519,33 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a8588a307a3c69b3325b415cd65002297" name="a8588a307a3c69b3325b415cd65002297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8588a307a3c69b3325b415cd65002297">&#9670;&#160;</a></span>extractBinEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; double &gt; Acts::Experimental::extractBinEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extract bin edges from an AxisVariant. </p>
+<p>Works with all axis types (regular, variable, log) in the variant by accessing the generic axis interface.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>The axis variant to extract edges from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of bin edges (size = nBins + 1) </dd></dl>
+
+</div>
+</div>
 <a id="a4d9745c2cefe039d810fb7810cd245fa" name="a4d9745c2cefe039d810fb7810cd245fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d9745c2cefe039d810fb7810cd245fa">&#9670;&#160;</a></span>make_error_code()</h2>
 
