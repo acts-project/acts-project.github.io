@@ -307,7 +307,7 @@ var searchData=
   ['gridtype_304',['GridType',['../class_acts_1_1_grid_portal_link_t.html#ae3210d196e91ef0f36e0045dc07522e8',1,'Acts::GridPortalLinkT::GridType'],['../class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#afd2ddefd712704f6aeea692c2d3c9dca',1,'Acts::Experimental::MultiLayerNavigationPolicy::GridType'],['../class_acts_1_1_cylindrical_space_point_grid2.html#a6a16185b76d258932f5da83b672bf41b',1,'Acts::CylindricalSpacePointGrid2::GridType']]],
   ['gridview_305',['gridView',['../class_acts_1_1_i_grid_surface_material.html#af7ffb937b825bfceac2266c864cc0747',1,'Acts::IGridSurfaceMaterial::gridView()'],['../class_acts_1_1_grid_surface_material_t.html#a47a9bdfc8a251631b03a391fab9cb6f9',1,'Acts::GridSurfaceMaterialT::gridView()']]],
   ['group_306',['group',['../namespace_acts_plugins_1_1_svg.html#a325b953b9a3ca8c2b02837f408c25eb6',1,'ActsPlugins::Svg']]],
-  ['gsfactor_307',['GsfActor',['../struct_acts_1_1_gaussian_sum_fitter.html#abb6f146e0b96323d48977e4b17256d89',1,'Acts::GaussianSumFitter']]],
+  ['gsfactor_307',['GsfActor',['../struct_acts_1_1_gaussian_sum_fitter.html#a5b1204746176700df6a14f88110dd05d',1,'Acts::GaussianSumFitter']]],
   ['gsfcomponent_308',['GsfComponent',['../struct_acts_1_1_gsf_component.html',1,'Acts']]],
   ['gsferror_309',['GsfError',['../group__errors.html#ga83f8b59ffc557631bb7fdd01c18431ca',1,'Acts']]],
   ['gsfextensions_310',['GsfExtensions',['../struct_acts_1_1_gsf_extensions.html',1,'Acts::GsfExtensions&lt; traj_t &gt;'],['../struct_acts_1_1_gsf_extensions.html#a837bfa6a3fc91c2df2f556825336bf8e',1,'Acts::GsfExtensions::GsfExtensions()']]],

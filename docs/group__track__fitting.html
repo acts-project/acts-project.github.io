@@ -197,8 +197,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4429cc1ca8b22cab2de57f9ae250865a" id="r_ga4429cc1ca8b22cab2de57f9ae250865a"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:ga4429cc1ca8b22cab2de57f9ae250865a template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4429cc1ca8b22cab2de57f9ae250865a">Acts::Experimental::fillGx2fSystem</a> (const track_proxy_t track, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html">Gx2fSystem</a> &amp;extendedSystem, const bool multipleScattering, const std::unordered_map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="struct_acts_1_1_experimental_1_1_scattering_properties.html">ScatteringProperties</a> &gt; &amp;scatteringMap, std::vector&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &gt; &amp;geoIdVector, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:ga4429cc1ca8b22cab2de57f9ae250865a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the GX2F system with data from a track.  <br /></td></tr>
-<tr class="memitem:ga78aa81ac4054e37064a177c3d0593f75" id="r_ga78aa81ac4054e37064a177c3d0593f75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga78aa81ac4054e37064a177c3d0593f75">Acts::reduceMixtureLargestWeights</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">Acts::GsfComponent</a> &gt; &amp;cmpCache, std::size_t maxCmpsAfterMerge, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
-<tr class="memdesc:ga78aa81ac4054e37064a177c3d0593f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Very simple mixture reduction method: Just removes the components with the smallest weight until the required number of components is reached.  <br /></td></tr>
+<tr class="memitem:ga5bdb130b59461a2bcaf2c18eee161341" id="r_ga5bdb130b59461a2bcaf2c18eee161341"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5bdb130b59461a2bcaf2c18eee161341">Acts::reduceMixtureLargestWeights</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;cmpCache, std::size_t maxCmpsAfterMerge, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
+<tr class="memdesc:ga5bdb130b59461a2bcaf2c18eee161341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Very simple mixture reduction method: Just removes the components with the smallest weight until the required number of components is reached.  <br /></td></tr>
 <tr class="memitem:ga2d42e87cd0bd4eb9a52fa04db44f033d" id="r_ga2d42e87cd0bd4eb9a52fa04db44f033d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d42e87cd0bd4eb9a52fa04db44f033d">Acts::reduceMixtureWithKLDistance</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;cmpCache, std::size_t maxCmpsAfterMerge, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:ga2d42e87cd0bd4eb9a52fa04db44f033d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greedy component reduction algorithm.  <br /></td></tr>
 <tr class="memitem:gad4f1ce6c1ef539c4290db1d05ffcd0d7" id="r_gad4f1ce6c1ef539c4290db1d05ffcd0d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad4f1ce6c1ef539c4290db1d05ffcd0d7">Acts::Experimental::updateGx2fCovarianceParams</a> (<a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a> &amp;fullCovariancePredicted, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2f_system.html">Gx2fSystem</a> &amp;extendedSystem)</td></tr>
@@ -541,8 +541,8 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
 
 </div>
 </div>
-<a id="ga78aa81ac4054e37064a177c3d0593f75" name="ga78aa81ac4054e37064a177c3d0593f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga78aa81ac4054e37064a177c3d0593f75">&#9670;&#160;</a></span>reduceMixtureLargestWeights()</h2>
+<a id="ga5bdb130b59461a2bcaf2c18eee161341" name="ga5bdb130b59461a2bcaf2c18eee161341"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5bdb130b59461a2bcaf2c18eee161341">&#9670;&#160;</a></span>reduceMixtureLargestWeights()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -550,7 +550,7 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
         <tr>
           <td class="memname">void Acts::reduceMixtureLargestWeights </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">Acts::GsfComponent</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cmpCache</em></span>, </td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cmpCache</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -1398,7 +1398,7 @@ var namespace_acts =
     [ "projectorToSubspaceIndices", "namespace_acts.html#a0a9dad86571acffdac06f3af7087d27f", null ],
     [ "range_medium", "namespace_acts.html#a65c77310254a757a6edcb57a670d058c", null ],
     [ "rangeContainsValue", "namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d", null ],
-    [ "reduceMixtureLargestWeights", "group__track__fitting.html#ga78aa81ac4054e37064a177c3d0593f75", null ],
+    [ "reduceMixtureLargestWeights", "group__track__fitting.html#ga5bdb130b59461a2bcaf2c18eee161341", null ],
     [ "reduceMixtureWithKLDistance", "group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d", null ],
     [ "reflectBoundParameters", "namespace_acts.html#a448dd6193a51777a8b7c05bb1a5630eb", null ],
     [ "reflectFreeParameters", "namespace_acts.html#a13a84cd96d8549b4be2395a91041f6cf", null ],

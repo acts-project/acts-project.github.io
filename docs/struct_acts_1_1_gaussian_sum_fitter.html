@@ -138,8 +138,8 @@ Collaboration diagram for Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;:
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:abb6f146e0b96323d48977e4b17256d89" id="r_abb6f146e0b96323d48977e4b17256d89"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb6f146e0b96323d48977e4b17256d89">GsfActor</a> = detail::GsfActor&lt;traj_t&gt;</td></tr>
-<tr class="memdesc:abb6f146e0b96323d48977e4b17256d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actor type.  <br /></td></tr>
+<tr class="memitem:a5b1204746176700df6a14f88110dd05d" id="r_a5b1204746176700df6a14f88110dd05d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1204746176700df6a14f88110dd05d">GsfActor</a> = detail::Gsf::GsfActor&lt;traj_t&gt;</td></tr>
+<tr class="memdesc:a5b1204746176700df6a14f88110dd05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actor type.  <br /></td></tr>
 <tr class="memitem:a633d70c4d080f44ecf1a7ccd76f8a4d7" id="r_a633d70c4d080f44ecf1a7ccd76f8a4d7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a633d70c4d080f44ecf1a7ccd76f8a4d7">GsfNavigator</a> = typename propagator_t::Navigator</td></tr>
 <tr class="memdesc:a633d70c4d080f44ecf1a7ccd76f8a4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The navigator type.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -184,8 +184,8 @@ struct Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;</div><p>Gaussian Su
 <dd>
 Currently there is no possibility to export the states of the individual components from the GSF, the only information returned in the MultiTrajectory are the means of the states. Therefore, also NO dedicated component smoothing is performed as described e.g. by R. Fruewirth. </dd></dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="abb6f146e0b96323d48977e4b17256d89" name="abb6f146e0b96323d48977e4b17256d89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb6f146e0b96323d48977e4b17256d89">&#9670;&#160;</a></span>GsfActor</h2>
+<a id="a5b1204746176700df6a14f88110dd05d" name="a5b1204746176700df6a14f88110dd05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1204746176700df6a14f88110dd05d">&#9670;&#160;</a></span>GsfActor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,7 +193,7 @@ Currently there is no possibility to export the states of the individual compone
 template&lt;typename propagator_t, typename traj_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::GsfActor = detail::GsfActor&lt;traj_t&gt;</td>
+          <td class="memname">using <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::GsfActor = detail::Gsf::GsfActor&lt;traj_t&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

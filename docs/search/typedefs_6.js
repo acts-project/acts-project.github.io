@@ -36,6 +36,6 @@ var searchData=
   ['gridsizerange_33',['GridSizeRange',['../class_acts_1_1_adaptive_grid_track_density.html#a063660643abdc086a55c1583a2ab7ccb',1,'Acts::AdaptiveGridTrackDensity']]],
   ['gridsurfacematerial_34',['GridSurfaceMaterial',['../group__material.html#ga7f7ecaeb7a0b9e040e5de04892a1e1eb',1,'Acts']]],
   ['gridtype_35',['GridType',['../class_acts_1_1_grid_portal_link_t.html#ae3210d196e91ef0f36e0045dc07522e8',1,'Acts::GridPortalLinkT::GridType'],['../class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#afd2ddefd712704f6aeea692c2d3c9dca',1,'Acts::Experimental::MultiLayerNavigationPolicy::GridType'],['../class_acts_1_1_cylindrical_space_point_grid2.html#a6a16185b76d258932f5da83b672bf41b',1,'Acts::CylindricalSpacePointGrid2::GridType']]],
-  ['gsfactor_36',['GsfActor',['../struct_acts_1_1_gaussian_sum_fitter.html#abb6f146e0b96323d48977e4b17256d89',1,'Acts::GaussianSumFitter']]],
+  ['gsfactor_36',['GsfActor',['../struct_acts_1_1_gaussian_sum_fitter.html#a5b1204746176700df6a14f88110dd05d',1,'Acts::GaussianSumFitter']]],
   ['gsfnavigator_37',['GsfNavigator',['../struct_acts_1_1_gaussian_sum_fitter.html#a633d70c4d080f44ecf1a7ccd76f8a4d7',1,'Acts::GaussianSumFitter']]]
 ];

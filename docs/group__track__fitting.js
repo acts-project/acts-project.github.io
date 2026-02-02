@@ -105,7 +105,7 @@ var group__track__fitting =
       [ "operator()", "class_acts_1_1_gain_matrix_updater.html#a0fb6d9f9b46e6cfb831ec832cc1d9164", null ]
     ] ],
     [ "Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;", "struct_acts_1_1_gaussian_sum_fitter.html", [
-      [ "GsfActor", "struct_acts_1_1_gaussian_sum_fitter.html#abb6f146e0b96323d48977e4b17256d89", null ],
+      [ "GsfActor", "struct_acts_1_1_gaussian_sum_fitter.html#a5b1204746176700df6a14f88110dd05d", null ],
       [ "GsfNavigator", "struct_acts_1_1_gaussian_sum_fitter.html#a633d70c4d080f44ecf1a7ccd76f8a4d7", null ],
       [ "GaussianSumFitter", "struct_acts_1_1_gaussian_sum_fitter.html#a24e63a2d63a65587af752fbb208bad53", null ],
       [ "fit", "struct_acts_1_1_gaussian_sum_fitter.html#af74ed8bca41274f3d7fe77f222549c74", null ],
@@ -215,7 +215,7 @@ var group__track__fitting =
     [ "Acts::Experimental::computeGx2fDeltaParams", "group__track__fitting.html#ga68584ae82d2275abd9b0af855d4048c5", null ],
     [ "Acts::Experimental::countMaterialStates", "group__track__fitting.html#ga2a01eb359a5aea7c6497367694fefa21", null ],
     [ "Acts::Experimental::fillGx2fSystem", "group__track__fitting.html#ga4429cc1ca8b22cab2de57f9ae250865a", null ],
-    [ "Acts::reduceMixtureLargestWeights", "group__track__fitting.html#ga78aa81ac4054e37064a177c3d0593f75", null ],
+    [ "Acts::reduceMixtureLargestWeights", "group__track__fitting.html#ga5bdb130b59461a2bcaf2c18eee161341", null ],
     [ "Acts::reduceMixtureWithKLDistance", "group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d", null ],
     [ "Acts::Experimental::updateGx2fCovarianceParams", "group__track__fitting.html#gad4f1ce6c1ef539c4290db1d05ffcd0d7", null ],
     [ "Acts::Experimental::updateGx2fParams", "group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362", null ]
