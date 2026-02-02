@@ -99,5 +99,7 @@ var group__magnetic__field =
     [ "Acts::fieldMapXYZ", "group__magnetic__field.html#ga0a2a24528115e4a19afa750157c52642", null ],
     [ "Acts::makeMagneticFieldMapRzFromText", "group__magnetic__field.html#ga5867649c2811a2b164af6e62f4ee6d8c", null ],
     [ "Acts::makeMagneticFieldMapXyzFromText", "group__magnetic__field.html#ga3baad317424227151687cad974537339", null ],
-    [ "Acts::solenoidFieldMap", "group__magnetic__field.html#ga5036eb1d51177fbb2503f1dc623d197b", null ]
+    [ "Acts::solenoidFieldMap", "group__magnetic__field.html#ga5036eb1d51177fbb2503f1dc623d197b", null ],
+    [ "Acts::toroidFieldMapCyl", "group__magnetic__field.html#gae38700fee90a4c8ab0d356d752277dfe", null ],
+    [ "Acts::toroidFieldMapXYZ", "group__magnetic__field.html#ga7288826fcbf611555f7f95904dfcab57", null ]
 ];

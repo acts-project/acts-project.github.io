@@ -545,6 +545,7 @@ var annotated_dup =
       [ "SurfaceSelector", "struct_acts_1_1_surface_selector.html", "struct_acts_1_1_surface_selector" ],
       [ "SympyStepper", "class_acts_1_1_sympy_stepper.html", "class_acts_1_1_sympy_stepper" ],
       [ "Table", "class_acts_1_1_table.html", "class_acts_1_1_table" ],
+      [ "ToroidField", "class_acts_1_1_toroid_field.html", "class_acts_1_1_toroid_field" ],
       [ "TrackAtVertex", "struct_acts_1_1_track_at_vertex.html", "struct_acts_1_1_track_at_vertex" ],
       [ "TrackContainer", "class_acts_1_1_track_container.html", "class_acts_1_1_track_container" ],
       [ "TrackDensityVertexFinder", "class_acts_1_1_track_density_vertex_finder.html", "class_acts_1_1_track_density_vertex_finder" ],
