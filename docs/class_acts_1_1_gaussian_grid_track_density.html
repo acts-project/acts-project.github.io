@@ -138,10 +138,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:acd90567ee997cb603bba63a8b2060430" id="r_acd90567ee997cb603bba63a8b2060430"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd90567ee997cb603bba63a8b2060430">MainGridVector</a> = Eigen::Matrix&lt;float, Eigen::Dynamic, 1&gt;</td></tr>
-<tr class="memdesc:acd90567ee997cb603bba63a8b2060430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for main grid vector storing density values along z-axis.  <br /></td></tr>
-<tr class="memitem:aab9a44efdb11e502d754d62d71efa200" id="r_aab9a44efdb11e502d754d62d71efa200"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab9a44efdb11e502d754d62d71efa200">TrackGridVector</a> = Eigen::Matrix&lt;float, Eigen::Dynamic, 1&gt;</td></tr>
-<tr class="memdesc:aab9a44efdb11e502d754d62d71efa200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track grid vector storing single track density distribution.  <br /></td></tr>
+<tr class="memitem:acd90567ee997cb603bba63a8b2060430" id="r_acd90567ee997cb603bba63a8b2060430"><td class="memItemLeft" align="right" valign="top"><a id="acd90567ee997cb603bba63a8b2060430" name="acd90567ee997cb603bba63a8b2060430"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MainGridVector</b> = Eigen::Matrix&lt;float, Eigen::Dynamic, 1&gt;</td></tr>
+<tr class="memdesc:acd90567ee997cb603bba63a8b2060430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for main grid vector storing density values along z-axis. <br /></td></tr>
+<tr class="memitem:aab9a44efdb11e502d754d62d71efa200" id="r_aab9a44efdb11e502d754d62d71efa200"><td class="memItemLeft" align="right" valign="top"><a id="aab9a44efdb11e502d754d62d71efa200" name="aab9a44efdb11e502d754d62d71efa200"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackGridVector</b> = Eigen::Matrix&lt;float, Eigen::Dynamic, 1&gt;</td></tr>
+<tr class="memdesc:aab9a44efdb11e502d754d62d71efa200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track grid vector storing single track density distribution. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -161,40 +163,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements a 1-dim density grid to be filled with track Gaussian distributions. </p>
 <p>Each single track is modelled as a 2(!)-dim Gaussian distribution grid in the d0-z0 plane, but only the overlap with the z-axis (i.e. a 1-dim density vector) needs to be calculated. The position of the highest track density (of either a single bin or the sum of a certain region) can be determined. Single tracks can be cached and removed from the overall density. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="acd90567ee997cb603bba63a8b2060430" name="acd90567ee997cb603bba63a8b2060430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd90567ee997cb603bba63a8b2060430">&#9670;&#160;</a></span>MainGridVector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#acd90567ee997cb603bba63a8b2060430">Acts::GaussianGridTrackDensity::MainGridVector</a> = Eigen::Matrix&lt;float, Eigen::Dynamic, 1&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for main grid vector storing density values along z-axis. </p>
-
-</div>
-</div>
-<a id="aab9a44efdb11e502d754d62d71efa200" name="aab9a44efdb11e502d754d62d71efa200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab9a44efdb11e502d754d62d71efa200">&#9670;&#160;</a></span>TrackGridVector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aab9a44efdb11e502d754d62d71efa200">Acts::GaussianGridTrackDensity::TrackGridVector</a> = Eigen::Matrix&lt;float, Eigen::Dynamic, 1&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for track grid vector storing single track density distribution. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86f11ff26b442348ae330f360bf4a153" name="a86f11ff26b442348ae330f360bf4a153"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86f11ff26b442348ae330f360bf4a153">&#9670;&#160;</a></span>GaussianGridTrackDensity()</h2>
 

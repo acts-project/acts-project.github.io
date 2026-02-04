@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_edge.html','','cl
 </div><!--header-->
 <div class="contents">
 
+<p>Edge between two GBTs nodes with fit parameters.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_data_storage_8hpp_source.html">Acts/Seeding/GbtsDataStorage.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsEdge:</div>
@@ -136,50 +139,42 @@ Collaboration diagram for Acts::Experimental::GbtsEdge:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:CompareLevel" id="r_CompareLevel"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_1_1_compare_level.html">CompareLevel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparator sorting edges by descending level.  <a href="struct_acts_1_1_experimental_1_1_gbts_edge_1_1_compare_level.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a79720ed8823049c02b4d29c04bd85099" id="r_a79720ed8823049c02b4d29c04bd85099"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79720ed8823049c02b4d29c04bd85099">GbtsEdge</a> ()=default</td></tr>
 <tr class="memitem:abed9363367793299a1a9d04c79299b62" id="r_abed9363367793299a1a9d04c79299b62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed9363367793299a1a9d04c79299b62">GbtsEdge</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> *n1, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> *n2, float p1, float p2, float p3)</td></tr>
+<tr class="memdesc:abed9363367793299a1a9d04c79299b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8365d31a176e600d384c9e7561b1a2b4" id="r_a8365d31a176e600d384c9e7561b1a2b4"><td class="memItemLeft" align="right" valign="top">std::int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8365d31a176e600d384c9e7561b1a2b4">m_level</a> {-1}</td></tr>
-<tr class="memitem:ab403ea3fc8003a36a546b2895257fa22" id="r_ab403ea3fc8003a36a546b2895257fa22"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab403ea3fc8003a36a546b2895257fa22">m_n1</a> {nullptr}</td></tr>
-<tr class="memitem:a1322c55edfa5c910f78f4c6251028c6f" id="r_a1322c55edfa5c910f78f4c6251028c6f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1322c55edfa5c910f78f4c6251028c6f">m_n2</a> {nullptr}</td></tr>
-<tr class="memitem:a98630309343ac0705e5e8deb7bfef458" id="r_a98630309343ac0705e5e8deb7bfef458"><td class="memItemLeft" align="right" valign="top">std::int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98630309343ac0705e5e8deb7bfef458">m_next</a> {-1}</td></tr>
-<tr class="memitem:a754f39eec94974c949e79392a22bcf21" id="r_a754f39eec94974c949e79392a22bcf21"><td class="memItemLeft" align="right" valign="top">std::uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a754f39eec94974c949e79392a22bcf21">m_nNei</a> {0}</td></tr>
-<tr class="memitem:a0d2290171c949330ea885f50de646196" id="r_a0d2290171c949330ea885f50de646196"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d2290171c949330ea885f50de646196">m_p</a> {}</td></tr>
-<tr class="memitem:a6aeca2e3c46dea26727a5d6d9bef34ba" id="r_a6aeca2e3c46dea26727a5d6d9bef34ba"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::uint32_t, <a class="el" href="namespace_acts_1_1_experimental.html#a980d415bd59cbe64f83505f18865ef47">N_SEG_CONNS</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aeca2e3c46dea26727a5d6d9bef34ba">m_vNei</a> {}</td></tr>
+<tr class="memitem:a8365d31a176e600d384c9e7561b1a2b4" id="r_a8365d31a176e600d384c9e7561b1a2b4"><td class="memItemLeft" align="right" valign="top"><a id="a8365d31a176e600d384c9e7561b1a2b4" name="a8365d31a176e600d384c9e7561b1a2b4"></a>
+std::int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_level</b> {-1}</td></tr>
+<tr class="memdesc:a8365d31a176e600d384c9e7561b1a2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Level in the graph hierarchy. <br /></td></tr>
+<tr class="memitem:ab403ea3fc8003a36a546b2895257fa22" id="r_ab403ea3fc8003a36a546b2895257fa22"><td class="memItemLeft" align="right" valign="top"><a id="ab403ea3fc8003a36a546b2895257fa22" name="ab403ea3fc8003a36a546b2895257fa22"></a>
+const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_n1</b> {nullptr}</td></tr>
+<tr class="memdesc:ab403ea3fc8003a36a546b2895257fa22"><td class="mdescLeft">&#160;</td><td class="mdescRight">First node of the edge. <br /></td></tr>
+<tr class="memitem:a1322c55edfa5c910f78f4c6251028c6f" id="r_a1322c55edfa5c910f78f4c6251028c6f"><td class="memItemLeft" align="right" valign="top"><a id="a1322c55edfa5c910f78f4c6251028c6f" name="a1322c55edfa5c910f78f4c6251028c6f"></a>
+const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_n2</b> {nullptr}</td></tr>
+<tr class="memdesc:a1322c55edfa5c910f78f4c6251028c6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second node of the edge. <br /></td></tr>
+<tr class="memitem:a98630309343ac0705e5e8deb7bfef458" id="r_a98630309343ac0705e5e8deb7bfef458"><td class="memItemLeft" align="right" valign="top"><a id="a98630309343ac0705e5e8deb7bfef458" name="a98630309343ac0705e5e8deb7bfef458"></a>
+std::int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_next</b> {-1}</td></tr>
+<tr class="memdesc:a98630309343ac0705e5e8deb7bfef458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of next edge. <br /></td></tr>
+<tr class="memitem:a754f39eec94974c949e79392a22bcf21" id="r_a754f39eec94974c949e79392a22bcf21"><td class="memItemLeft" align="right" valign="top"><a id="a754f39eec94974c949e79392a22bcf21" name="a754f39eec94974c949e79392a22bcf21"></a>
+std::uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_nNei</b> {0}</td></tr>
+<tr class="memdesc:a754f39eec94974c949e79392a22bcf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of neighbor edges. <br /></td></tr>
+<tr class="memitem:a0d2290171c949330ea885f50de646196" id="r_a0d2290171c949330ea885f50de646196"><td class="memItemLeft" align="right" valign="top"><a id="a0d2290171c949330ea885f50de646196" name="a0d2290171c949330ea885f50de646196"></a>
+std::array&lt; float, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_p</b> {}</td></tr>
+<tr class="memdesc:a0d2290171c949330ea885f50de646196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit parameters. <br /></td></tr>
+<tr class="memitem:a6aeca2e3c46dea26727a5d6d9bef34ba" id="r_a6aeca2e3c46dea26727a5d6d9bef34ba"><td class="memItemLeft" align="right" valign="top"><a id="a6aeca2e3c46dea26727a5d6d9bef34ba" name="a6aeca2e3c46dea26727a5d6d9bef34ba"></a>
+std::array&lt; std::uint32_t, <a class="el" href="namespace_acts_1_1_experimental.html#a980d415bd59cbe64f83505f18865ef47">N_SEG_CONNS</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_vNei</b> {}</td></tr>
+<tr class="memdesc:a6aeca2e3c46dea26727a5d6d9bef34ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global indices of the connected edges. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a79720ed8823049c02b4d29c04bd85099" name="a79720ed8823049c02b4d29c04bd85099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79720ed8823049c02b4d29c04bd85099">&#9670;&#160;</a></span>GbtsEdge() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::GbtsEdge::GbtsEdge </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Edge between two GBTs nodes with fit parameters. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abed9363367793299a1a9d04c79299b62" name="abed9363367793299a1a9d04c79299b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abed9363367793299a1a9d04c79299b62">&#9670;&#160;</a></span>GbtsEdge() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abed9363367793299a1a9d04c79299b62">&#9670;&#160;</a></span>GbtsEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,104 +207,17 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a8365d31a176e600d384c9e7561b1a2b4" name="a8365d31a176e600d384c9e7561b1a2b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8365d31a176e600d384c9e7561b1a2b4">&#9670;&#160;</a></span>m_level</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::int8_t Acts::Experimental::GbtsEdge::m_level {-1}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab403ea3fc8003a36a546b2895257fa22" name="ab403ea3fc8003a36a546b2895257fa22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab403ea3fc8003a36a546b2895257fa22">&#9670;&#160;</a></span>m_n1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a>* Acts::Experimental::GbtsEdge::m_n1 {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1322c55edfa5c910f78f4c6251028c6f" name="a1322c55edfa5c910f78f4c6251028c6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1322c55edfa5c910f78f4c6251028c6f">&#9670;&#160;</a></span>m_n2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a>* Acts::Experimental::GbtsEdge::m_n2 {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a98630309343ac0705e5e8deb7bfef458" name="a98630309343ac0705e5e8deb7bfef458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98630309343ac0705e5e8deb7bfef458">&#9670;&#160;</a></span>m_next</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::int8_t Acts::Experimental::GbtsEdge::m_next {-1}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a754f39eec94974c949e79392a22bcf21" name="a754f39eec94974c949e79392a22bcf21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a754f39eec94974c949e79392a22bcf21">&#9670;&#160;</a></span>m_nNei</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint8_t Acts::Experimental::GbtsEdge::m_nNei {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d2290171c949330ea885f50de646196" name="a0d2290171c949330ea885f50de646196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d2290171c949330ea885f50de646196">&#9670;&#160;</a></span>m_p</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;float, 3&gt; Acts::Experimental::GbtsEdge::m_p {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6aeca2e3c46dea26727a5d6d9bef34ba" name="a6aeca2e3c46dea26727a5d6d9bef34ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aeca2e3c46dea26727a5d6d9bef34ba">&#9670;&#160;</a></span>m_vNei</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;std::uint32_t, <a class="el" href="namespace_acts_1_1_experimental.html#a980d415bd59cbe64f83505f18865ef47">N_SEG_CONNS</a>&gt; Acts::Experimental::GbtsEdge::m_vNei {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n1</td><td>First node </td></tr>
+    <tr><td class="paramname">n2</td><td>Second node </td></tr>
+    <tr><td class="paramname">p1</td><td>First fit parameter </td></tr>
+    <tr><td class="paramname">p2</td><td>Second fit parameter </td></tr>
+    <tr><td class="paramname">p3</td><td>Third fit parameter </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

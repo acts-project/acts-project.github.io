@@ -126,41 +126,73 @@ $(function(){initNavTree('class_acts_1_1_space_point_container.html','','class_a
 </div><!--header-->
 <div class="contents">
 
+<p>Container wrapper providing space point proxy access.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_space_point_container_8hpp_source.html">Acts/EventData/SpacePointContainer.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab547d2391ebdc78e43b37bd24eb72ef1" id="r_ab547d2391ebdc78e43b37bd24eb72ef1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a></td></tr>
+<tr class="memdesc:ab547d2391ebdc78e43b37bd24eb72ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const iterator type.  <br /></td></tr>
 <tr class="memitem:a330d697b7004f761e88da56964b54e9d" id="r_a330d697b7004f761e88da56964b54e9d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a></td></tr>
-<tr class="memitem:a601304f8c05c12fc1dcd2c624593e62b" id="r_a601304f8c05c12fc1dcd2c624593e62b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> = <a class="el" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a></td></tr>
-<tr class="memitem:aa499df4d25f3eaa7bee788413155e8a0" id="r_aa499df4d25f3eaa7bee788413155e8a0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa499df4d25f3eaa7bee788413155e8a0">size_type</a> = std::size_t</td></tr>
+<tr class="memdesc:a330d697b7004f761e88da56964b54e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator type.  <br /></td></tr>
+<tr class="memitem:a601304f8c05c12fc1dcd2c624593e62b" id="r_a601304f8c05c12fc1dcd2c624593e62b"><td class="memItemLeft" align="right" valign="top"><a id="a601304f8c05c12fc1dcd2c624593e62b" name="a601304f8c05c12fc1dcd2c624593e62b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyType</b> = <a class="el" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a></td></tr>
+<tr class="memdesc:a601304f8c05c12fc1dcd2c624593e62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy type. <br /></td></tr>
+<tr class="memitem:aa499df4d25f3eaa7bee788413155e8a0" id="r_aa499df4d25f3eaa7bee788413155e8a0"><td class="memItemLeft" align="right" valign="top"><a id="aa499df4d25f3eaa7bee788413155e8a0" name="aa499df4d25f3eaa7bee788413155e8a0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>size_type</b> = std::size_t</td></tr>
+<tr class="memdesc:aa499df4d25f3eaa7bee788413155e8a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size type. <br /></td></tr>
 <tr class="memitem:a14ca5f5c89b1e7d27134418ca3648588" id="r_a14ca5f5c89b1e7d27134418ca3648588"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a></td></tr>
-<tr class="memitem:ae870f374eb0bd99566cf84f150d4b960" id="r_ae870f374eb0bd99566cf84f150d4b960"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae870f374eb0bd99566cf84f150d4b960">value_type</a> = <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a></td></tr>
-<tr class="memitem:ae480afbe7a3c49e2515923fa32933740" id="r_ae480afbe7a3c49e2515923fa32933740"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae480afbe7a3c49e2515923fa32933740">ValueType</a> = typename container_t::ValueType</td></tr>
+<tr class="memdesc:a14ca5f5c89b1e7d27134418ca3648588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Space point proxy type.  <br /></td></tr>
+<tr class="memitem:ae870f374eb0bd99566cf84f150d4b960" id="r_ae870f374eb0bd99566cf84f150d4b960"><td class="memItemLeft" align="right" valign="top"><a id="ae870f374eb0bd99566cf84f150d4b960" name="ae870f374eb0bd99566cf84f150d4b960"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a></td></tr>
+<tr class="memdesc:ae870f374eb0bd99566cf84f150d4b960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type. <br /></td></tr>
+<tr class="memitem:ae480afbe7a3c49e2515923fa32933740" id="r_ae480afbe7a3c49e2515923fa32933740"><td class="memItemLeft" align="right" valign="top"><a id="ae480afbe7a3c49e2515923fa32933740" name="ae480afbe7a3c49e2515923fa32933740"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ValueType</b> = typename container_t::ValueType</td></tr>
+<tr class="memdesc:ae480afbe7a3c49e2515923fa32933740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type of the underlying container. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3f8ac33e82a5c61340f1494f73bbb787" id="r_a3f8ac33e82a5c61340f1494f73bbb787"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enable_if_t&lt;Acts::detail::is_same_template&lt;                H, Acts::detail::RefHolder&gt;::value&gt;&gt; </td></tr>
 <tr class="memitem:a3f8ac33e82a5c61340f1494f73bbb787 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> (const <a class="el" href="struct_acts_1_1_space_point_container_config.html">Acts::SpacePointContainerConfig</a> &amp;config, const <a class="el" href="struct_acts_1_1_space_point_container_options.html">Acts::SpacePointContainerOptions</a> &amp;options, const container_t &amp;container)</td></tr>
+<tr class="memdesc:a3f8ac33e82a5c61340f1494f73bbb787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from config, options, and container reference.  <br /></td></tr>
 <tr class="memitem:afaf68e4316d6757f28fa6307d372c8e7" id="r_afaf68e4316d6757f28fa6307d372c8e7"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enable_if_t&lt;Acts::detail::is_same_template&lt;                H, Acts::detail::ValueHolder&gt;::value&gt;&gt; </td></tr>
 <tr class="memitem:afaf68e4316d6757f28fa6307d372c8e7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf68e4316d6757f28fa6307d372c8e7">SpacePointContainer</a> (const <a class="el" href="struct_acts_1_1_space_point_container_config.html">Acts::SpacePointContainerConfig</a> &amp;config, const <a class="el" href="struct_acts_1_1_space_point_container_options.html">Acts::SpacePointContainerOptions</a> &amp;options, container_t &amp;&amp;container)</td></tr>
+<tr class="memdesc:afaf68e4316d6757f28fa6307d372c8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from config, options, and container by moving ownership.  <br /></td></tr>
 <tr class="memitem:a54b9fd288852442de4bd99b8fe8f2583" id="r_a54b9fd288852442de4bd99b8fe8f2583"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54b9fd288852442de4bd99b8fe8f2583">SpacePointContainer</a> (SpacePointContainer &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memitem:a08aafdc4ef2012f3745c19680590a643" id="r_a08aafdc4ef2012f3745c19680590a643"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08aafdc4ef2012f3745c19680590a643">SpacePointContainer</a> (SpacePointContainer &amp;other)=delete</td></tr>
-<tr class="memitem:ab4f37372848a69d604a0bab7c6dbf5ab" id="r_ab4f37372848a69d604a0bab7c6dbf5ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f37372848a69d604a0bab7c6dbf5ab">~SpacePointContainer</a> ()=default</td></tr>
+<tr class="memdesc:a54b9fd288852442de4bd99b8fe8f2583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
+<tr class="memitem:a08aafdc4ef2012f3745c19680590a643" id="r_a08aafdc4ef2012f3745c19680590a643"><td class="memItemLeft" align="right" valign="top"><a id="a08aafdc4ef2012f3745c19680590a643" name="a08aafdc4ef2012f3745c19680590a643"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SpacePointContainer</b> (SpacePointContainer &amp;other)=delete</td></tr>
 <tr class="memitem:a1c00d298305570f12751ddc0b473cd93" id="r_a1c00d298305570f12751ddc0b473cd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c00d298305570f12751ddc0b473cd93">at</a> (const std::size_t n)</td></tr>
+<tr class="memdesc:a1c00d298305570f12751ddc0b473cd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access space point proxy at index n.  <br /></td></tr>
 <tr class="memitem:a6033c4781f692fa4eb3670bb7fd58385" id="r_a6033c4781f692fa4eb3670bb7fd58385"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6033c4781f692fa4eb3670bb7fd58385">at</a> (const std::size_t n) const</td></tr>
+<tr class="memdesc:a6033c4781f692fa4eb3670bb7fd58385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access const space point proxy at index n.  <br /></td></tr>
 <tr class="memitem:abd5324538f64cf028b230dd7a60e9239" id="r_abd5324538f64cf028b230dd7a60e9239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd5324538f64cf028b230dd7a60e9239">begin</a> ()</td></tr>
+<tr class="memdesc:abd5324538f64cf028b230dd7a60e9239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the beginning.  <br /></td></tr>
 <tr class="memitem:a510b4a33f8d39d2ae497cccdd224d737" id="r_a510b4a33f8d39d2ae497cccdd224d737"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a510b4a33f8d39d2ae497cccdd224d737">begin</a> () const</td></tr>
+<tr class="memdesc:a510b4a33f8d39d2ae497cccdd224d737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the beginning.  <br /></td></tr>
 <tr class="memitem:aa56db660fd867378aa3cc273a347628b" id="r_aa56db660fd867378aa3cc273a347628b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa56db660fd867378aa3cc273a347628b">cbegin</a> () const</td></tr>
+<tr class="memdesc:aa56db660fd867378aa3cc273a347628b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the beginning.  <br /></td></tr>
 <tr class="memitem:a6d078ae554b14022f84bb53491202a9b" id="r_a6d078ae554b14022f84bb53491202a9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d078ae554b14022f84bb53491202a9b">cend</a> () const</td></tr>
+<tr class="memdesc:a6d078ae554b14022f84bb53491202a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the end.  <br /></td></tr>
 <tr class="memitem:a16eb3a59bc2994f5512f3880e9c1a487" id="r_a16eb3a59bc2994f5512f3880e9c1a487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16eb3a59bc2994f5512f3880e9c1a487">end</a> ()</td></tr>
+<tr class="memdesc:a16eb3a59bc2994f5512f3880e9c1a487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the end.  <br /></td></tr>
 <tr class="memitem:a68eefb9583ca1a680290df85de16a7d5" id="r_a68eefb9583ca1a680290df85de16a7d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68eefb9583ca1a680290df85de16a7d5">end</a> () const</td></tr>
+<tr class="memdesc:a68eefb9583ca1a680290df85de16a7d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the end.  <br /></td></tr>
 <tr class="memitem:a14f5edee1d2ee3a7bc1d2c66c6f5f777" id="r_a14f5edee1d2ee3a7bc1d2c66c6f5f777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14f5edee1d2ee3a7bc1d2c66c6f5f777">operator=</a> (<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memitem:ad8684aa273accc7da896e8d8e4edc952" id="r_ad8684aa273accc7da896e8d8e4edc952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8684aa273accc7da896e8d8e4edc952">operator=</a> (<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;other)=delete</td></tr>
+<tr class="memdesc:a14f5edee1d2ee3a7bc1d2c66c6f5f777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
+<tr class="memitem:ad8684aa273accc7da896e8d8e4edc952" id="r_ad8684aa273accc7da896e8d8e4edc952"><td class="memItemLeft" align="right" valign="top"><a id="ad8684aa273accc7da896e8d8e4edc952" name="ad8684aa273accc7da896e8d8e4edc952"></a>
+<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;other)=delete</td></tr>
 <tr class="memitem:a88a7830fc5828f118f67b2caf5015e21" id="r_a88a7830fc5828f118f67b2caf5015e21"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a7830fc5828f118f67b2caf5015e21">size</a> () const</td></tr>
+<tr class="memdesc:a88a7830fc5828f118f67b2caf5015e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of space points.  <br /></td></tr>
 <tr class="memitem:a3eb47a4cea0bba0d085e03c47de82343" id="r_a3eb47a4cea0bba0d085e03c47de82343"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ae480afbe7a3c49e2515923fa32933740">ValueType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb47a4cea0bba0d085e03c47de82343">sp</a> (const std::size_t n) const</td></tr>
+<tr class="memdesc:a3eb47a4cea0bba0d085e03c47de82343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access underlying space point value at index n.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt;<br />
+class Acts::SpacePointContainer&lt; container_t, holder_t &gt;</div><p>Container wrapper providing space point proxy access. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="ab547d2391ebdc78e43b37bd24eb72ef1" name="ab547d2391ebdc78e43b37bd24eb72ef1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab547d2391ebdc78e43b37bd24eb72ef1">&#9670;&#160;</a></span>const_iterator</h2>
 
@@ -177,9 +209,11 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
 <b>Initial value:</b><div class="fragment"><div class="line"> detail::ContainerIterator&lt;</div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer&lt;container_t, holder_t&gt;</a>,</div>
 <div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a>&amp;, std::size_t, <span class="keyword">true</span>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_space_point_container_html"><div class="ttname"><a href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a></div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:39</div></div>
-<div class="ttc" id="aclass_acts_1_1_space_point_container_html_a14ca5f5c89b1e7d27134418ca3648588"><div class="ttname"><a href="#a14ca5f5c89b1e7d27134418ca3648588">Acts::SpacePointContainer::SpacePointProxyType</a></div><div class="ttdeci">Acts::SpacePointProxy&lt; Acts::SpacePointContainer&lt; container_t, holder_t &gt; &gt; SpacePointProxyType</div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:45</div></div>
+<div class="ttc" id="aclass_acts_1_1_space_point_container_html"><div class="ttname"><a href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a></div><div class="ttdoc">Container wrapper providing space point proxy access.</div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:44</div></div>
+<div class="ttc" id="aclass_acts_1_1_space_point_container_html_a14ca5f5c89b1e7d27134418ca3648588"><div class="ttname"><a href="#a14ca5f5c89b1e7d27134418ca3648588">Acts::SpacePointContainer::SpacePointProxyType</a></div><div class="ttdeci">Acts::SpacePointProxy&lt; Acts::SpacePointContainer&lt; container_t, holder_t &gt; &gt; SpacePointProxyType</div><div class="ttdoc">Space point proxy type.</div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:51</div></div>
 </div><!-- fragment -->
+<p>Const iterator type. </p>
+
 </div>
 </div>
 <a id="a330d697b7004f761e88da56964b54e9d" name="a330d697b7004f761e88da56964b54e9d"></a>
@@ -199,37 +233,7 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer&lt;container_t, holder_t&gt;</a>, <a class="code hl_typedef" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a>&amp;,</div>
 <div class="line">      std::size_t, <span class="keyword">false</span>&gt;</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a601304f8c05c12fc1dcd2c624593e62b" name="a601304f8c05c12fc1dcd2c624593e62b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a601304f8c05c12fc1dcd2c624593e62b">&#9670;&#160;</a></span>ProxyType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::ProxyType = <a class="el" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa499df4d25f3eaa7bee788413155e8a0" name="aa499df4d25f3eaa7bee788413155e8a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa499df4d25f3eaa7bee788413155e8a0">&#9670;&#160;</a></span>size_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::size_type = std::size_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Iterator type. </p>
 
 </div>
 </div>
@@ -248,45 +252,15 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_space_point_proxy.html">Acts::SpacePointProxy&lt;Acts::SpacePointContainer&lt;container_t, holder_t&gt;</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_space_point_proxy_html"><div class="ttname"><a href="class_acts_1_1_space_point_proxy.html">Acts::SpacePointProxy</a></div><div class="ttdef"><b>Definition</b> SpacePointProxy.hpp:16</div></div>
+<div class="ttc" id="aclass_acts_1_1_space_point_proxy_html"><div class="ttname"><a href="class_acts_1_1_space_point_proxy.html">Acts::SpacePointProxy</a></div><div class="ttdoc">Proxy giving read access to space point data in a container.</div><div class="ttdef"><b>Definition</b> SpacePointProxy.hpp:17</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="ae870f374eb0bd99566cf84f150d4b960" name="ae870f374eb0bd99566cf84f150d4b960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae870f374eb0bd99566cf84f150d4b960">&#9670;&#160;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::value_type = <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae480afbe7a3c49e2515923fa32933740" name="ae480afbe7a3c49e2515923fa32933740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae480afbe7a3c49e2515923fa32933740">&#9670;&#160;</a></span>ValueType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::ValueType = typename container_t::ValueType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Space point proxy type. </p>
 
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3f8ac33e82a5c61340f1494f73bbb787" name="a3f8ac33e82a5c61340f1494f73bbb787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f8ac33e82a5c61340f1494f73bbb787">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8ac33e82a5c61340f1494f73bbb787">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,10 +287,20 @@ template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enabl
       </table>
 </div><div class="memdoc">
 
+<p>Construct from config, options, and container reference. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>Configuration for the space point container </td></tr>
+    <tr><td class="paramname">options</td><td>Options for the space point container </td></tr>
+    <tr><td class="paramname">container</td><td>Reference to the underlying space point container </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="afaf68e4316d6757f28fa6307d372c8e7" name="afaf68e4316d6757f28fa6307d372c8e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaf68e4316d6757f28fa6307d372c8e7">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf68e4316d6757f28fa6307d372c8e7">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,37 +327,20 @@ template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enabl
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a08aafdc4ef2012f3745c19680590a643" name="a08aafdc4ef2012f3745c19680590a643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08aafdc4ef2012f3745c19680590a643">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::SpacePointContainer </td>
-          <td>(</td>
-          <td class="paramtype">SpacePointContainer&lt; container_t, holder_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Construct from config, options, and container by moving ownership. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>Configuration for the space point container </td></tr>
+    <tr><td class="paramname">options</td><td>Options for the space point container </td></tr>
+    <tr><td class="paramname">container</td><td>Rvalue reference to the underlying space point container </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <a id="a54b9fd288852442de4bd99b8fe8f2583" name="a54b9fd288852442de4bd99b8fe8f2583"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54b9fd288852442de4bd99b8fe8f2583">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b9fd288852442de4bd99b8fe8f2583">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,32 +364,13 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ab4f37372848a69d604a0bab7c6dbf5ab" name="ab4f37372848a69d604a0bab7c6dbf5ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4f37372848a69d604a0bab7c6dbf5ab">&#9670;&#160;</a></span>~SpacePointContainer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::~<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Move constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Space point container to move from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -444,6 +392,15 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
       </table>
 </div><div class="memdoc">
 
+<p>Access space point proxy at index n. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Index of the space point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the space point proxy </dd></dl>
+
 </div>
 </div>
 <a id="a6033c4781f692fa4eb3670bb7fd58385" name="a6033c4781f692fa4eb3670bb7fd58385"></a>
@@ -462,6 +419,15 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Access const space point proxy at index n. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Index of the space point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const reference to the space point proxy </dd></dl>
 
 </div>
 </div>
@@ -482,6 +448,9 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
       </table>
 </div><div class="memdoc">
 
+<p>Return an iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the first space point </dd></dl>
+
 </div>
 </div>
 <a id="a510b4a33f8d39d2ae497cccdd224d737" name="a510b4a33f8d39d2ae497cccdd224d737"></a>
@@ -500,6 +469,9 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Return a const iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to the first space point </dd></dl>
 
 </div>
 </div>
@@ -520,6 +492,9 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
       </table>
 </div><div class="memdoc">
 
+<p>Return a const iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to the first space point </dd></dl>
+
 </div>
 </div>
 <a id="a6d078ae554b14022f84bb53491202a9b" name="a6d078ae554b14022f84bb53491202a9b"></a>
@@ -538,6 +513,9 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Return a const iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to one past the last space point </dd></dl>
 
 </div>
 </div>
@@ -558,6 +536,9 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
       </table>
 </div><div class="memdoc">
 
+<p>Return an iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to one past the last space point </dd></dl>
+
 </div>
 </div>
 <a id="a68eefb9583ca1a680290df85de16a7d5" name="a68eefb9583ca1a680290df85de16a7d5"></a>
@@ -577,10 +558,13 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
       </table>
 </div><div class="memdoc">
 
+<p>Return a const iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to one past the last space point </dd></dl>
+
 </div>
 </div>
 <a id="a14f5edee1d2ee3a7bc1d2c66c6f5f777" name="a14f5edee1d2ee3a7bc1d2c66c6f5f777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14f5edee1d2ee3a7bc1d2c66c6f5f777">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f5edee1d2ee3a7bc1d2c66c6f5f777">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -604,32 +588,14 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ad8684aa273accc7da896e8d8e4edc952" name="ad8684aa273accc7da896e8d8e4edc952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8684aa273accc7da896e8d8e4edc952">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp; <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a>&lt; container_t, holder_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Move assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Space point container to move from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this container </dd></dl>
 
 </div>
 </div>
@@ -650,6 +616,9 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
       </table>
 </div><div class="memdoc">
 
+<p>Return the number of space points. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of space points </dd></dl>
+
 </div>
 </div>
 <a id="a3eb47a4cea0bba0d085e03c47de82343" name="a3eb47a4cea0bba0d085e03c47de82343"></a>
@@ -668,6 +637,15 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Access underlying space point value at index n. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Index of the space point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const reference to the underlying space point value </dd></dl>
 
 </div>
 </div>

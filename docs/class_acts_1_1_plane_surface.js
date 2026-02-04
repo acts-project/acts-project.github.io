@@ -24,6 +24,5 @@ var class_acts_1_1_plane_surface =
     [ "polyhedronRepresentation", "class_acts_1_1_plane_surface.html#aa887d69ef70685c7d9bac18422fb4d42", null ],
     [ "referencePosition", "class_acts_1_1_plane_surface.html#ad8de713be59219473efed84486ba189f", null ],
     [ "type", "class_acts_1_1_plane_surface.html#a377d8c83034163242b7a900e4347824c", null ],
-    [ "Surface", "class_acts_1_1_plane_surface.html#a432070efb8401735ea64bc0e98feebe5", null ],
     [ "m_bounds", "class_acts_1_1_plane_surface.html#a7685e098284f8517067be16f02286606", null ]
 ];

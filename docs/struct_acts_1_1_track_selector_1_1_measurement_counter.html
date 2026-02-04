@@ -126,23 +126,33 @@ $(function(){initNavTree('struct_acts_1_1_track_selector_1_1_measurement_counter
 </div><!--header-->
 <div class="contents">
 
+<p>Measurement counting rules for geometry-specific requirements.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_track_selector_8hpp_source.html">Acts/TrackFinding/TrackSelector.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a033a81282f810c938f9e52e19190ebba" id="r_a033a81282f810c938f9e52e19190ebba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033a81282f810c938f9e52e19190ebba">CounterElement</a></td></tr>
+<tr class="memdesc:a033a81282f810c938f9e52e19190ebba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type combining a geometry hierarchy map and a minimum hit count.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a52e570e71ec9ae5f04f9df3b3861dab7" id="r_a52e570e71ec9ae5f04f9df3b3861dab7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e570e71ec9ae5f04f9df3b3861dab7">addCounter</a> (const std::vector&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &gt; &amp;identifiers, unsigned int threshold)</td></tr>
+<tr class="memdesc:a52e570e71ec9ae5f04f9df3b3861dab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new counter with threshold for specified geometry.  <br /></td></tr>
 <tr class="memitem:a4459122e72b3d2c21926cd19a20c2a07" id="r_a4459122e72b3d2c21926cd19a20c2a07"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:a4459122e72b3d2c21926cd19a20c2a07 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4459122e72b3d2c21926cd19a20c2a07">isValidTrack</a> (const track_proxy_t &amp;track) const</td></tr>
+<tr class="memdesc:a4459122e72b3d2c21926cd19a20c2a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if track satisfies all measurement requirements.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae05ab2aa9dadb711fa64c75e807dae84" id="r_ae05ab2aa9dadb711fa64c75e807dae84"><td class="memItemLeft" align="right" valign="top">boost::container::small_vector&lt; <a class="el" href="#a033a81282f810c938f9e52e19190ebba">CounterElement</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae05ab2aa9dadb711fa64c75e807dae84">counters</a></td></tr>
+<tr class="memitem:ae05ab2aa9dadb711fa64c75e807dae84" id="r_ae05ab2aa9dadb711fa64c75e807dae84"><td class="memItemLeft" align="right" valign="top"><a id="ae05ab2aa9dadb711fa64c75e807dae84" name="ae05ab2aa9dadb711fa64c75e807dae84"></a>
+boost::container::small_vector&lt; <a class="el" href="#a033a81282f810c938f9e52e19190ebba">CounterElement</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>counters</b></td></tr>
+<tr class="memdesc:ae05ab2aa9dadb711fa64c75e807dae84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of counter elements. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Measurement counting rules for geometry-specific requirements. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a033a81282f810c938f9e52e19190ebba" name="a033a81282f810c938f9e52e19190ebba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a033a81282f810c938f9e52e19190ebba">&#9670;&#160;</a></span>CounterElement</h2>
 
@@ -157,6 +167,8 @@ Public Attributes</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">        std::pair&lt;GeometryHierarchyMap&lt;unsigned int&gt;, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>&gt;</div>
 </div><!-- fragment -->
+<p>Type combining a geometry hierarchy map and a minimum hit count. </p>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -179,6 +191,15 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Add a new counter with threshold for specified geometry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identifiers</td><td>Geometry identifiers to count measurements in </td></tr>
+    <tr><td class="paramname">threshold</td><td>Minimum number of required measurements </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a4459122e72b3d2c21926cd19a20c2a07" name="a4459122e72b3d2c21926cd19a20c2a07"></a>
@@ -198,20 +219,14 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ae05ab2aa9dadb711fa64c75e807dae84" name="ae05ab2aa9dadb711fa64c75e807dae84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae05ab2aa9dadb711fa64c75e807dae84">&#9670;&#160;</a></span>counters</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::container::small_vector&lt;<a class="el" href="#a033a81282f810c938f9e52e19190ebba">CounterElement</a>, 4&gt; Acts::TrackSelector::MeasurementCounter::counters</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Check if track satisfies all measurement requirements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">track</td><td>The track to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if track satisfies all counter thresholds </dd></dl>
 
 </div>
 </div>

@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_grid_access_1_1_local_subspace.html',''
 </div><!--header-->
 <div class="contents">
 
+<p>Access a local coordinate subspace for bound parameter grids.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_grid_access_helpers_8hpp_source.html">Acts/Utilities/GridAccessHelpers.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::GridAccess::LocalSubspace&lt; Args &gt;:</div>
@@ -140,7 +143,9 @@ Collaboration diagram for Acts::GridAccess::LocalSubspace&lt; Args &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a81e2b604b7e64a9dc898fcf0094a5b6d" id="r_a81e2b604b7e64a9dc898fcf0094a5b6d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81e2b604b7e64a9dc898fcf0094a5b6d">grid_local_t</a> = std::array&lt;double, sizeof...(Args)&gt;</td></tr>
+<tr class="memitem:a81e2b604b7e64a9dc898fcf0094a5b6d" id="r_a81e2b604b7e64a9dc898fcf0094a5b6d"><td class="memItemLeft" align="right" valign="top"><a id="a81e2b604b7e64a9dc898fcf0094a5b6d" name="a81e2b604b7e64a9dc898fcf0094a5b6d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_local_t</b> = std::array&lt;double, sizeof...(Args)&gt;</td></tr>
+<tr class="memdesc:a81e2b604b7e64a9dc898fcf0094a5b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid local coordinate type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -148,31 +153,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a98e039865097030a09274295c5a97eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert that the accessors are unique.  <br /></td></tr>
 <tr class="memitem:abee970d7f44b00e0692dc3af123c5fb3" id="r_abee970d7f44b00e0692dc3af123c5fb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a81e2b604b7e64a9dc898fcf0094a5b6d">grid_local_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee970d7f44b00e0692dc3af123c5fb3">toGridLocal</a> (const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;lposition) const</td></tr>
 <tr class="memdesc:abee970d7f44b00e0692dc3af123c5fb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the local entries.  <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_grid_access_1_1_i_bound_to_grid_local"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_grid_access_1_1_i_bound_to_grid_local')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html">Acts::GridAccess::IBoundToGridLocal</a></td></tr>
-<tr class="memitem:a22b0f80586661ced9df0b2e302e2f0a1 inherit pub_methods_class_acts_1_1_grid_access_1_1_i_bound_to_grid_local" id="r_a22b0f80586661ced9df0b2e302e2f0a1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html#a22b0f80586661ced9df0b2e302e2f0a1">~IBoundToGridLocal</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a9ad13f829371c54ecc3d73453e3162ce" id="r_a9ad13f829371c54ecc3d73453e3162ce"><td class="memItemLeft" align="right" valign="top">static constexpr std::array&lt; std::size_t, sizeof...(Args)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad13f829371c54ecc3d73453e3162ce">accessors</a></td></tr>
+<tr class="memdesc:a9ad13f829371c54ecc3d73453e3162ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor indices.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a81e2b604b7e64a9dc898fcf0094a5b6d" name="a81e2b604b7e64a9dc898fcf0094a5b6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81e2b604b7e64a9dc898fcf0094a5b6d">&#9670;&#160;</a></span>grid_local_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid_access_1_1_local_subspace.html">Acts::GridAccess::LocalSubspace</a>&lt; Args &gt;::grid_local_t = std::array&lt;double, sizeof...(Args)&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;std::size_t... Args&gt;<br />
+class Acts::GridAccess::LocalSubspace&lt; Args &gt;</div><p>Access a local coordinate subspace for bound parameter grids. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a98e039865097030a09274295c5a97eb8" name="a98e039865097030a09274295c5a97eb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98e039865097030a09274295c5a97eb8">&#9670;&#160;</a></span>LocalSubspace()</h2>
 
@@ -257,6 +247,8 @@ template&lt;std::size_t... Args&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">      Args...}</div>
 </div><!-- fragment -->
+<p>Accessor indices. </p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -272,7 +264,7 @@ template&lt;std::size_t... Args&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_grid_access.html">GridAccess</a></li><li class="navelem"><a href="class_acts_1_1_grid_access_1_1_local_subspace.html">LocalSubspace</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>GridAccess</b></li><li class="navelem"><a href="class_acts_1_1_grid_access_1_1_local_subspace.html">LocalSubspace</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

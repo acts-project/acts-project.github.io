@@ -148,22 +148,30 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ade386c7ebf54089177b19aa09e9f8c24" id="r_ade386c7ebf54089177b19aa09e9f8c24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade386c7ebf54089177b19aa09e9f8c24">currentSurface</a> = nullptr</td></tr>
-<tr class="memdesc:ade386c7ebf54089177b19aa09e9f8c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active surface during propagation.  <br /></td></tr>
-<tr class="memitem:aceff8beb97f4497b0bd9bf0b54897e20" id="r_aceff8beb97f4497b0bd9bf0b54897e20"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceff8beb97f4497b0bd9bf0b54897e20">currentVolume</a> = nullptr</td></tr>
-<tr class="memdesc:aceff8beb97f4497b0bd9bf0b54897e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active tracking volume during propagation.  <br /></td></tr>
-<tr class="memitem:ab248122009056ccd8508976b1d8209f5" id="r_ab248122009056ccd8508976b1d8209f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab248122009056ccd8508976b1d8209f5">navigationBreak</a> = false</td></tr>
-<tr class="memdesc:ab248122009056ccd8508976b1d8209f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a break has been detected.  <br /></td></tr>
-<tr class="memitem:aeda4d838541481282f6135c8f8d465bf" id="r_aeda4d838541481282f6135c8f8d465bf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; detail::NavigationObjectCandidate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeda4d838541481282f6135c8f8d465bf">navigationCandidates</a></td></tr>
-<tr class="memdesc:aeda4d838541481282f6135c8f8d465bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vector of navigation candidates to work through.  <br /></td></tr>
-<tr class="memitem:accba29fa50cb59fc4bf73f957651db7a" id="r_accba29fa50cb59fc4bf73f957651db7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_try_all_navigator_base_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accba29fa50cb59fc4bf73f957651db7a">options</a></td></tr>
-<tr class="memdesc:accba29fa50cb59fc4bf73f957651db7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation options containing configuration for this propagation.  <br /></td></tr>
-<tr class="memitem:a578eaffa93579f58e7b7249a25eed5cc" id="r_a578eaffa93579f58e7b7249a25eed5cc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a578eaffa93579f58e7b7249a25eed5cc">startSurface</a> = nullptr</td></tr>
-<tr class="memdesc:a578eaffa93579f58e7b7249a25eed5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface where the propagation started.  <br /></td></tr>
-<tr class="memitem:aade0eb1d46c4f705237186ef12d7a0ce" id="r_aade0eb1d46c4f705237186ef12d7a0ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_navigator_statistics.html">NavigatorStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade0eb1d46c4f705237186ef12d7a0ce">statistics</a></td></tr>
-<tr class="memdesc:aade0eb1d46c4f705237186ef12d7a0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation statistics.  <br /></td></tr>
-<tr class="memitem:a4a73971011973db061541f883642f577" id="r_a4a73971011973db061541f883642f577"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a73971011973db061541f883642f577">targetSurface</a> = nullptr</td></tr>
-<tr class="memdesc:a4a73971011973db061541f883642f577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface that is the target of the propagation.  <br /></td></tr>
+<tr class="memitem:ade386c7ebf54089177b19aa09e9f8c24" id="r_ade386c7ebf54089177b19aa09e9f8c24"><td class="memItemLeft" align="right" valign="top"><a id="ade386c7ebf54089177b19aa09e9f8c24" name="ade386c7ebf54089177b19aa09e9f8c24"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentSurface</b> = nullptr</td></tr>
+<tr class="memdesc:ade386c7ebf54089177b19aa09e9f8c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active surface during propagation. <br /></td></tr>
+<tr class="memitem:aceff8beb97f4497b0bd9bf0b54897e20" id="r_aceff8beb97f4497b0bd9bf0b54897e20"><td class="memItemLeft" align="right" valign="top"><a id="aceff8beb97f4497b0bd9bf0b54897e20" name="aceff8beb97f4497b0bd9bf0b54897e20"></a>
+const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentVolume</b> = nullptr</td></tr>
+<tr class="memdesc:aceff8beb97f4497b0bd9bf0b54897e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active tracking volume during propagation. <br /></td></tr>
+<tr class="memitem:ab248122009056ccd8508976b1d8209f5" id="r_ab248122009056ccd8508976b1d8209f5"><td class="memItemLeft" align="right" valign="top"><a id="ab248122009056ccd8508976b1d8209f5" name="ab248122009056ccd8508976b1d8209f5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>navigationBreak</b> = false</td></tr>
+<tr class="memdesc:ab248122009056ccd8508976b1d8209f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a break has been detected. <br /></td></tr>
+<tr class="memitem:aeda4d838541481282f6135c8f8d465bf" id="r_aeda4d838541481282f6135c8f8d465bf"><td class="memItemLeft" align="right" valign="top"><a id="aeda4d838541481282f6135c8f8d465bf" name="aeda4d838541481282f6135c8f8d465bf"></a>
+std::vector&lt; detail::NavigationObjectCandidate &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>navigationCandidates</b></td></tr>
+<tr class="memdesc:aeda4d838541481282f6135c8f8d465bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vector of navigation candidates to work through. <br /></td></tr>
+<tr class="memitem:accba29fa50cb59fc4bf73f957651db7a" id="r_accba29fa50cb59fc4bf73f957651db7a"><td class="memItemLeft" align="right" valign="top"><a id="accba29fa50cb59fc4bf73f957651db7a" name="accba29fa50cb59fc4bf73f957651db7a"></a>
+<a class="el" href="struct_acts_1_1_try_all_navigator_base_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
+<tr class="memdesc:accba29fa50cb59fc4bf73f957651db7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation options containing configuration for this propagation. <br /></td></tr>
+<tr class="memitem:a578eaffa93579f58e7b7249a25eed5cc" id="r_a578eaffa93579f58e7b7249a25eed5cc"><td class="memItemLeft" align="right" valign="top"><a id="a578eaffa93579f58e7b7249a25eed5cc" name="a578eaffa93579f58e7b7249a25eed5cc"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>startSurface</b> = nullptr</td></tr>
+<tr class="memdesc:a578eaffa93579f58e7b7249a25eed5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface where the propagation started. <br /></td></tr>
+<tr class="memitem:aade0eb1d46c4f705237186ef12d7a0ce" id="r_aade0eb1d46c4f705237186ef12d7a0ce"><td class="memItemLeft" align="right" valign="top"><a id="aade0eb1d46c4f705237186ef12d7a0ce" name="aade0eb1d46c4f705237186ef12d7a0ce"></a>
+<a class="el" href="struct_acts_1_1_navigator_statistics.html">NavigatorStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><b>statistics</b></td></tr>
+<tr class="memdesc:aade0eb1d46c4f705237186ef12d7a0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation statistics. <br /></td></tr>
+<tr class="memitem:a4a73971011973db061541f883642f577" id="r_a4a73971011973db061541f883642f577"><td class="memItemLeft" align="right" valign="top"><a id="a4a73971011973db061541f883642f577" name="a4a73971011973db061541f883642f577"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>targetSurface</b> = nullptr</td></tr>
+<tr class="memdesc:a4a73971011973db061541f883642f577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface that is the target of the propagation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Nested State struct. </p>
@@ -199,135 +207,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ade386c7ebf54089177b19aa09e9f8c24" name="ade386c7ebf54089177b19aa09e9f8c24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade386c7ebf54089177b19aa09e9f8c24">&#9670;&#160;</a></span>currentSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* Acts::TryAllNavigatorBase::State::currentSurface = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Currently active surface during propagation. </p>
-
-</div>
-</div>
-<a id="aceff8beb97f4497b0bd9bf0b54897e20" name="aceff8beb97f4497b0bd9bf0b54897e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceff8beb97f4497b0bd9bf0b54897e20">&#9670;&#160;</a></span>currentVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>* Acts::TryAllNavigatorBase::State::currentVolume = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Currently active tracking volume during propagation. </p>
-
-</div>
-</div>
-<a id="ab248122009056ccd8508976b1d8209f5" name="ab248122009056ccd8508976b1d8209f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab248122009056ccd8508976b1d8209f5">&#9670;&#160;</a></span>navigationBreak</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::TryAllNavigatorBase::State::navigationBreak = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If a break has been detected. </p>
-
-</div>
-</div>
-<a id="aeda4d838541481282f6135c8f8d465bf" name="aeda4d838541481282f6135c8f8d465bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeda4d838541481282f6135c8f8d465bf">&#9670;&#160;</a></span>navigationCandidates</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;detail::NavigationObjectCandidate&gt; Acts::TryAllNavigatorBase::State::navigationCandidates</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The vector of navigation candidates to work through. </p>
-
-</div>
-</div>
-<a id="accba29fa50cb59fc4bf73f957651db7a" name="accba29fa50cb59fc4bf73f957651db7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accba29fa50cb59fc4bf73f957651db7a">&#9670;&#160;</a></span>options</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_try_all_navigator_base_1_1_options.html">Options</a> Acts::TryAllNavigatorBase::State::options</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Navigation options containing configuration for this propagation. </p>
-
-</div>
-</div>
-<a id="a578eaffa93579f58e7b7249a25eed5cc" name="a578eaffa93579f58e7b7249a25eed5cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a578eaffa93579f58e7b7249a25eed5cc">&#9670;&#160;</a></span>startSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* Acts::TryAllNavigatorBase::State::startSurface = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Surface where the propagation started. </p>
-
-</div>
-</div>
-<a id="aade0eb1d46c4f705237186ef12d7a0ce" name="aade0eb1d46c4f705237186ef12d7a0ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aade0eb1d46c4f705237186ef12d7a0ce">&#9670;&#160;</a></span>statistics</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_navigator_statistics.html">NavigatorStatistics</a> Acts::TryAllNavigatorBase::State::statistics</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Navigation statistics. </p>
-
-</div>
-</div>
-<a id="a4a73971011973db061541f883642f577" name="a4a73971011973db061541f883642f577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a73971011973db061541f883642f577">&#9670;&#160;</a></span>targetSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* Acts::TryAllNavigatorBase::State::targetSurface = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Surface that is the target of the propagation. </p>
 
 </div>
 </div>

@@ -23,7 +23,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="630,-218 407,-218 407,-166 630,-166 630,-218"/>
+<polygon fill="white" stroke="#bfbfbf" points="630,-218 407,-218 407,-166 630,-166 630,-218"/>
 <text text-anchor="start" x="415" y="-206" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="415" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="415" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const CalibrationContext</text>
@@ -45,7 +45,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-114 0,-114 0,-84 152,-84 152,-114"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-114 0,-114 0,-84 152,-84 152,-114"/>
 <text text-anchor="start" x="8" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -67,7 +67,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="608.5,-148 428.5,-148 428.5,-96 608.5,-96 608.5,-148"/>
+<polygon fill="white" stroke="#bfbfbf" points="608.5,-148 428.5,-148 428.5,-96 608.5,-96 608.5,-148"/>
 <text text-anchor="start" x="436.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="436.5" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="436.5" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, TrackStateProxy, const</text>
@@ -91,7 +91,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="588,-78 449,-78 449,-48 588,-48 588,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="588,-78 449,-78 449,-48 588,-48 588,-78"/>
 <text text-anchor="start" x="457" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="518.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">(ConstTrackStateProxy)&gt;</text>
 </a>
@@ -111,7 +111,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="605,-30 432,-30 432,0 605,0 605,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="605,-30 432,-30 432,0 605,0 605,-30"/>
 <text text-anchor="start" x="440" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; const</text>
 <text text-anchor="middle" x="518.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> Surface *(const SourceLink &amp;)&gt;</text>
 </a>

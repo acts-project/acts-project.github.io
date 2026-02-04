@@ -133,17 +133,18 @@ $(function(){initNavTree('class_acts_1_1_tracking_geometry.html','','class_acts_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a55e38e7e200a0a1d5f14261b30091b56" id="r_a55e38e7e200a0a1d5f14261b30091b56"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55e38e7e200a0a1d5f14261b30091b56">GeometryVersion</a> { <a class="el" href="#a55e38e7e200a0a1d5f14261b30091b56a96e4415796b83752bb28e748fffa2ed6">Gen1</a>
-, <a class="el" href="#a55e38e7e200a0a1d5f14261b30091b56ab707aabb5e8aa708bf937c7305e47a8e">Gen3</a>
+<tr class="memitem:a55e38e7e200a0a1d5f14261b30091b56" id="r_a55e38e7e200a0a1d5f14261b30091b56"><td class="memItemLeft" align="right" valign="top"><a id="a55e38e7e200a0a1d5f14261b30091b56" name="a55e38e7e200a0a1d5f14261b30091b56"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55e38e7e200a0a1d5f14261b30091b56">GeometryVersion</a> { <b>Gen1</b>
+, <b>Gen3</b>
  }</td></tr>
-<tr class="memdesc:a55e38e7e200a0a1d5f14261b30091b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Which <em>type</em> of geometry this represents: Gen1 or Gen3.  <a href="#a55e38e7e200a0a1d5f14261b30091b56">More...</a><br /></td></tr>
+<tr class="memdesc:a55e38e7e200a0a1d5f14261b30091b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Which <em>type</em> of geometry this represents: Gen1 or Gen3. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac137c560c141758d82971b34c1eab353" id="r_ac137c560c141758d82971b34c1eab353"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac137c560c141758d82971b34c1eab353">TrackingGeometry</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &gt; &amp;highestVolume, const <a class="el" href="class_acts_1_1_i_material_decorator.html">IMaterialDecorator</a> *materialDecorator=nullptr, const <a class="el" href="struct_acts_1_1_geometry_identifier_hook.html">GeometryIdentifierHook</a> &amp;hook={}, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>(), bool close=true)</td></tr>
 <tr class="memdesc:ac137c560c141758d82971b34c1eab353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a62c63f7206272b5f2e7e81064b2100d8" id="r_a62c63f7206272b5f2e7e81064b2100d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62c63f7206272b5f2e7e81064b2100d8">~TrackingGeometry</a> ()</td></tr>
-<tr class="memdesc:a62c63f7206272b5f2e7e81064b2100d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="memitem:a62c63f7206272b5f2e7e81064b2100d8" id="r_a62c63f7206272b5f2e7e81064b2100d8"><td class="memItemLeft" align="right" valign="top"><a id="a62c63f7206272b5f2e7e81064b2100d8" name="a62c63f7206272b5f2e7e81064b2100d8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~TrackingGeometry</b> ()</td></tr>
+<tr class="memdesc:a62c63f7206272b5f2e7e81064b2100d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:a7ee4c8d4ea437543126fb6f2909e03b9" id="r_a7ee4c8d4ea437543126fb6f2909e03b9"><td class="memTemplParams" colspan="2">template&lt;typename Callable&gt; <br />
 requires (detail::callableWithAnyMutable&lt;Callable&gt;() &amp;&amp; !detail::callableWithAnyConst&lt;Callable&gt;())</td></tr>
 <tr class="memitem:a7ee4c8d4ea437543126fb6f2909e03b9 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee4c8d4ea437543126fb6f2909e03b9">apply</a> (Callable &amp;&amp;callable)</td></tr>
@@ -189,36 +190,7 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The TrackingGeometry class is the owner of the constructed TrackingVolumes. </p>
 <p>It enables both, a global search for an asociatedVolume (respectively, if existing, a global search of an associated Layer or the next associated Layer), such as a continuous navigation by BoundarySurfaces between the confined TrackingVolumes. </p>
-</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="a55e38e7e200a0a1d5f14261b30091b56" name="a55e38e7e200a0a1d5f14261b30091b56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55e38e7e200a0a1d5f14261b30091b56">&#9670;&#160;</a></span>GeometryVersion</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#a55e38e7e200a0a1d5f14261b30091b56">Acts::TrackingGeometry::GeometryVersion</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Which <em>type</em> of geometry this represents: Gen1 or Gen3. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a55e38e7e200a0a1d5f14261b30091b56a96e4415796b83752bb28e748fffa2ed6" name="a55e38e7e200a0a1d5f14261b30091b56a96e4415796b83752bb28e748fffa2ed6"></a>Gen1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55e38e7e200a0a1d5f14261b30091b56ab707aabb5e8aa708bf937c7305e47a8e" name="a55e38e7e200a0a1d5f14261b30091b56ab707aabb5e8aa708bf937c7305e47a8e"></a>Gen3&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac137c560c141758d82971b34c1eab353" name="ac137c560c141758d82971b34c1eab353"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac137c560c141758d82971b34c1eab353">&#9670;&#160;</a></span>TrackingGeometry()</h2>
 
@@ -272,25 +244,6 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a62c63f7206272b5f2e7e81064b2100d8" name="a62c63f7206272b5f2e7e81064b2100d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62c63f7206272b5f2e7e81064b2100d8">&#9670;&#160;</a></span>~TrackingGeometry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::TrackingGeometry::~TrackingGeometry </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
 
 </div>
 </div>

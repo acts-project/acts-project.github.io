@@ -1,7 +1,6 @@
 var class_acts_1_1_experimental_1_1_gbts_edge =
 [
     [ "CompareLevel", "struct_acts_1_1_experimental_1_1_gbts_edge_1_1_compare_level.html", "struct_acts_1_1_experimental_1_1_gbts_edge_1_1_compare_level" ],
-    [ "GbtsEdge", "class_acts_1_1_experimental_1_1_gbts_edge.html#a79720ed8823049c02b4d29c04bd85099", null ],
     [ "GbtsEdge", "class_acts_1_1_experimental_1_1_gbts_edge.html#abed9363367793299a1a9d04c79299b62", null ],
     [ "m_level", "class_acts_1_1_experimental_1_1_gbts_edge.html#a8365d31a176e600d384c9e7561b1a2b4", null ],
     [ "m_n1", "class_acts_1_1_experimental_1_1_gbts_edge.html#ab403ea3fc8003a36a546b2895257fa22", null ],

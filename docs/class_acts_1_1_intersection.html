@@ -138,19 +138,22 @@ Inheritance diagram for Acts::Intersection&lt; DIM &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aea5d7fcf6bb04c21e15543c7b366e676" id="r_aea5d7fcf6bb04c21e15543c7b366e676"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea5d7fcf6bb04c21e15543c7b366e676">Position</a> = Eigen::Map&lt;const <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;DIM&gt;&gt;</td></tr>
-<tr class="memdesc:aea5d7fcf6bb04c21e15543c7b366e676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position type.  <br /></td></tr>
+<tr class="memitem:aea5d7fcf6bb04c21e15543c7b366e676" id="r_aea5d7fcf6bb04c21e15543c7b366e676"><td class="memItemLeft" align="right" valign="top"><a id="aea5d7fcf6bb04c21e15543c7b366e676" name="aea5d7fcf6bb04c21e15543c7b366e676"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Position</b> = Eigen::Map&lt;const <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;DIM&gt;&gt;</td></tr>
+<tr class="memdesc:aea5d7fcf6bb04c21e15543c7b366e676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adb25ab1bfb68ce8c847a001f6f196849" id="r_adb25ab1bfb68ce8c847a001f6f196849"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb25ab1bfb68ce8c847a001f6f196849">Intersection</a> (const <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; DIM &gt; &amp;<a class="el" href="#aeaccf2b221582c624ddc0f33b5cc6d34">position</a>, double <a class="el" href="#a733efb83919795905d0366d7d656a76f">pathLength</a>, <a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a> <a class="el" href="#a129b29667d2c9b217d9bb343ca587a9b">status</a>) noexcept</td></tr>
 <tr class="memdesc:adb25ab1bfb68ce8c847a001f6f196849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with arguments.  <br /></td></tr>
-<tr class="memitem:ac0266a932e8af7e6634dd2c91f33cccf" id="r_ac0266a932e8af7e6634dd2c91f33cccf"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0266a932e8af7e6634dd2c91f33cccf">Intersection</a> (const Intersection &amp;) noexcept=default</td></tr>
-<tr class="memdesc:ac0266a932e8af7e6634dd2c91f33cccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
+<tr class="memitem:ac0266a932e8af7e6634dd2c91f33cccf" id="r_ac0266a932e8af7e6634dd2c91f33cccf"><td class="memItemLeft" align="right" valign="top"><a id="ac0266a932e8af7e6634dd2c91f33cccf" name="ac0266a932e8af7e6634dd2c91f33cccf"></a>
+constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>Intersection</b> (const Intersection &amp;) noexcept=default</td></tr>
+<tr class="memdesc:ac0266a932e8af7e6634dd2c91f33cccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br /></td></tr>
 <tr class="memitem:a6270e5826f834134000338dc2e94209e" id="r_a6270e5826f834134000338dc2e94209e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6270e5826f834134000338dc2e94209e">Intersection</a> (const <a class="el" href="#aea5d7fcf6bb04c21e15543c7b366e676">Position</a> &amp;<a class="el" href="#aeaccf2b221582c624ddc0f33b5cc6d34">position</a>, double <a class="el" href="#a733efb83919795905d0366d7d656a76f">pathLength</a>, <a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a> <a class="el" href="#a129b29667d2c9b217d9bb343ca587a9b">status</a>) noexcept</td></tr>
 <tr class="memdesc:a6270e5826f834134000338dc2e94209e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from position vector, path length, and status.  <br /></td></tr>
-<tr class="memitem:a8b00a1df375154e622bed166256da18b" id="r_a8b00a1df375154e622bed166256da18b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b00a1df375154e622bed166256da18b">Intersection</a> (Intersection &amp;&amp;) noexcept=default</td></tr>
-<tr class="memdesc:a8b00a1df375154e622bed166256da18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
+<tr class="memitem:a8b00a1df375154e622bed166256da18b" id="r_a8b00a1df375154e622bed166256da18b"><td class="memItemLeft" align="right" valign="top"><a id="a8b00a1df375154e622bed166256da18b" name="a8b00a1df375154e622bed166256da18b"></a>
+constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>Intersection</b> (Intersection &amp;&amp;) noexcept=default</td></tr>
+<tr class="memdesc:a8b00a1df375154e622bed166256da18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
 <tr class="memitem:a5e7b569ddb471237b1be20784f771065" id="r_a5e7b569ddb471237b1be20784f771065"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e7b569ddb471237b1be20784f771065">Intersection</a> (std::span&lt; const double, DIM &gt; <a class="el" href="#aeaccf2b221582c624ddc0f33b5cc6d34">position</a>, double <a class="el" href="#a733efb83919795905d0366d7d656a76f">pathLength</a>, <a class="el" href="namespace_acts.html#a52191edec34daa17746d1937fb06c1fb">IntersectionStatus</a> <a class="el" href="#a129b29667d2c9b217d9bb343ca587a9b">status</a>) noexcept</td></tr>
 <tr class="memdesc:a5e7b569ddb471237b1be20784f771065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from position span, path length, and status.  <br /></td></tr>
 <tr class="memitem:ab0cc21d17314c1a633a280a81087ee4c" id="r_ab0cc21d17314c1a633a280a81087ee4c"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cc21d17314c1a633a280a81087ee4c">isValid</a> () const noexcept</td></tr>
@@ -180,28 +183,9 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;unsigned int DIM&gt;<br />
 class Acts::Intersection&lt; DIM &gt;</div><p>Intersection struct containing the position, path length and status of an intersection. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aea5d7fcf6bb04c21e15543c7b366e676" name="aea5d7fcf6bb04c21e15543c7b366e676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea5d7fcf6bb04c21e15543c7b366e676">&#9670;&#160;</a></span>Position</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned int DIM&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_intersection.html">Acts::Intersection</a>&lt; DIM &gt;::Position = Eigen::Map&lt;const <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;DIM&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Position type. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adb25ab1bfb68ce8c847a001f6f196849" name="adb25ab1bfb68ce8c847a001f6f196849"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb25ab1bfb68ce8c847a001f6f196849">&#9670;&#160;</a></span>Intersection() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb25ab1bfb68ce8c847a001f6f196849">&#9670;&#160;</a></span>Intersection() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +231,7 @@ template&lt;unsigned int DIM&gt; </div>
 </div>
 </div>
 <a id="a6270e5826f834134000338dc2e94209e" name="a6270e5826f834134000338dc2e94209e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6270e5826f834134000338dc2e94209e">&#9670;&#160;</a></span>Intersection() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6270e5826f834134000338dc2e94209e">&#9670;&#160;</a></span>Intersection() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,7 +277,7 @@ template&lt;unsigned int DIM&gt; </div>
 </div>
 </div>
 <a id="a5e7b569ddb471237b1be20784f771065" name="a5e7b569ddb471237b1be20784f771065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e7b569ddb471237b1be20784f771065">&#9670;&#160;</a></span>Intersection() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7b569ddb471237b1be20784f771065">&#9670;&#160;</a></span>Intersection() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,64 +319,6 @@ template&lt;unsigned int DIM&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ac0266a932e8af7e6634dd2c91f33cccf" name="ac0266a932e8af7e6634dd2c91f33cccf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0266a932e8af7e6634dd2c91f33cccf">&#9670;&#160;</a></span>Intersection() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned int DIM&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_intersection.html">Acts::Intersection</a>&lt; DIM &gt;::Intersection </td>
-          <td>(</td>
-          <td class="paramtype">const Intersection&lt; DIM &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel constexpr">constexpr</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy constructor. </p>
-
-</div>
-</div>
-<a id="a8b00a1df375154e622bed166256da18b" name="a8b00a1df375154e622bed166256da18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b00a1df375154e622bed166256da18b">&#9670;&#160;</a></span>Intersection() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned int DIM&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_intersection.html">Acts::Intersection</a>&lt; DIM &gt;::Intersection </td>
-          <td>(</td>
-          <td class="paramtype">Intersection&lt; DIM &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel constexpr">constexpr</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move constructor. </p>
 
 </div>
 </div>

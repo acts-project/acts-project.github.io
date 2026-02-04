@@ -138,8 +138,9 @@ Inheritance diagram for Acts::INavigationPolicy:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4a5cc5d6ccf2d634e70160e6da727a77" id="r_a4a5cc5d6ccf2d634e70160e6da727a77"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a5cc5d6ccf2d634e70160e6da727a77">~INavigationPolicy</a> ()=default</td></tr>
-<tr class="memdesc:a4a5cc5d6ccf2d634e70160e6da727a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor so policies can be held through this base class.  <br /></td></tr>
+<tr class="memitem:a4a5cc5d6ccf2d634e70160e6da727a77" id="r_a4a5cc5d6ccf2d634e70160e6da727a77"><td class="memItemLeft" align="right" valign="top"><a id="a4a5cc5d6ccf2d634e70160e6da727a77" name="a4a5cc5d6ccf2d634e70160e6da727a77"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~INavigationPolicy</b> ()=default</td></tr>
+<tr class="memdesc:a4a5cc5d6ccf2d634e70160e6da727a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor so policies can be held through this base class. <br /></td></tr>
 <tr class="memitem:ad2694fb8b77a560d184a6a9670d65300" id="r_ad2694fb8b77a560d184a6a9670d65300"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2694fb8b77a560d184a6a9670d65300">connect</a> (<a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;delegate) const =0</td></tr>
 <tr class="memdesc:ad2694fb8b77a560d184a6a9670d65300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a policy with a delegate (usually a member of a volume).  <br /></td></tr>
 <tr class="memitem:add716fb1168fb2f552380b5051df5bc8" id="r_add716fb1168fb2f552380b5051df5bc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add716fb1168fb2f552380b5051df5bc8">visit</a> (const std::function&lt; void(const <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> &amp;)&gt; &amp;visitor) const</td></tr>
@@ -147,8 +148,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6925e631f0576db80fb178edd305e08" id="r_ad6925e631f0576db80fb178edd305e08"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6925e631f0576db80fb178edd305e08">noopInitializeCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
-<tr class="memdesc:ad6925e631f0576db80fb178edd305e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates.  <br /></td></tr>
+<tr class="memitem:ad6925e631f0576db80fb178edd305e08" id="r_ad6925e631f0576db80fb178edd305e08"><td class="memItemLeft" align="right" valign="top"><a id="ad6925e631f0576db80fb178edd305e08" name="ad6925e631f0576db80fb178edd305e08"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitializeCandidates</b> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
+<tr class="memdesc:ad6925e631f0576db80fb178edd305e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -159,35 +161,7 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for all navigation policies. </p>
 <p>The policy needs to be <em>connected</em> to a delegate via a virtual method for it to become active. The update method is not part of the class interface. The conventional <span class="tt">updateState</span> method is only required for use with the navigation policy factory, otherwise <span class="tt">connect</span> is free to connect any function. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4a5cc5d6ccf2d634e70160e6da727a77" name="a4a5cc5d6ccf2d634e70160e6da727a77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a5cc5d6ccf2d634e70160e6da727a77">&#9670;&#160;</a></span>~INavigationPolicy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::INavigationPolicy::~INavigationPolicy </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor so policies can be held through this base class. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ad2694fb8b77a560d184a6a9670d65300" name="ad2694fb8b77a560d184a6a9670d65300"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2694fb8b77a560d184a6a9670d65300">&#9670;&#160;</a></span>connect()</h2>
 
@@ -261,47 +235,6 @@ template&lt;NavigationPolicyConcept T&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ad6925e631f0576db80fb178edd305e08" name="ad6925e631f0576db80fb178edd305e08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6925e631f0576db80fb178edd305e08">&#9670;&#160;</a></span>noopInitializeCandidates()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::INavigationPolicy::noopInitializeCandidates </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Noop update function that is suitable as a default for default navigation delegates. </p>
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 <map id="Acts::MultiStepperSurfaceReached" name="Acts::MultiStepperSurfaceReached">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1621,113,1812,153"/>
+<area shape="rect" id="Node000001" title="Aborter that stops when all components reach the target surface." alt="" coords="1621,113,1812,153"/>
 <area shape="rect" id="Node000002" href="$struct_acts_1_1_forced_surface_reached.html" title="Similar to SurfaceReached, but with an infinite overstep limit." alt="" coords="1365,121,1572,146"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1586,131,1621,131,1621,136,1586,136"/>
 <area shape="rect" id="Node000003" href="$struct_acts_1_1_surface_reached.html" title="This is the condition that the Surface has been reached it then triggers a propagation abort." alt="" coords="1153,121,1316,146"/>

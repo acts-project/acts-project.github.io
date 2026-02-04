@@ -126,15 +126,23 @@ $(function(){initNavTree('class_acts_1_1_append_only_navigation_stream.html','',
 </div><!--header-->
 <div class="contents">
 
+<p>Append-only helper to add candidates to a navigation stream.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_navigation_stream_8hpp_source.html">Acts/Navigation/NavigationStream.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf9420c1510e46a5d0da7d1835bb3669" id="r_aaf9420c1510e46a5d0da7d1835bb3669"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf9420c1510e46a5d0da7d1835bb3669">AppendOnlyNavigationStream</a> (<a class="el" href="class_acts_1_1_navigation_stream.html">NavigationStream</a> &amp;stream)</td></tr>
+<tr class="memdesc:aaf9420c1510e46a5d0da7d1835bb3669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from navigation stream reference.  <br /></td></tr>
 <tr class="memitem:af33bdf691e41a3575063905134cd947d" id="r_af33bdf691e41a3575063905134cd947d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33bdf691e41a3575063905134cd947d">addPortalCandidate</a> (const <a class="el" href="class_acts_1_1_portal.html">Portal</a> &amp;portal)</td></tr>
+<tr class="memdesc:af33bdf691e41a3575063905134cd947d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a portal candidate to the stream.  <br /></td></tr>
 <tr class="memitem:aeedc4f9b2bade3d5d37f678c26b3a2c7" id="r_aeedc4f9b2bade3d5d37f678c26b3a2c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeedc4f9b2bade3d5d37f678c26b3a2c7">addSurfaceCandidate</a> (const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;bTolerance)</td></tr>
+<tr class="memdesc:aeedc4f9b2bade3d5d37f678c26b3a2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a surface candidate to the stream.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Append-only helper to add candidates to a navigation stream. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaf9420c1510e46a5d0da7d1835bb3669" name="aaf9420c1510e46a5d0da7d1835bb3669"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf9420c1510e46a5d0da7d1835bb3669">&#9670;&#160;</a></span>AppendOnlyNavigationStream()</h2>
 
@@ -158,6 +166,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor from navigation stream reference. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>Navigation stream to append to </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -175,6 +191,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a portal candidate to the stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">portal</td><td>The portal to add </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -196,6 +220,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a surface candidate to the stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surface</td><td>The surface to add </td></tr>
+    <tr><td class="paramname">bTolerance</td><td>Boundary tolerance for the surface </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -148,8 +148,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afeb152cbcdecd1d1f69a2167ebe45625" id="r_afeb152cbcdecd1d1f69a2167ebe45625"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb152cbcdecd1d1f69a2167ebe45625">doCovCheckAndAttemptFix</a> = false</td></tr>
-<tr class="memdesc:afeb152cbcdecd1d1f69a2167ebe45625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to check the covariance matrices if they are semi-positive and if not attempt to correct them.  <br /></td></tr>
+<tr class="memitem:afeb152cbcdecd1d1f69a2167ebe45625" id="r_afeb152cbcdecd1d1f69a2167ebe45625"><td class="memItemLeft" align="right" valign="top"><a id="afeb152cbcdecd1d1f69a2167ebe45625" name="afeb152cbcdecd1d1f69a2167ebe45625"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>doCovCheckAndAttemptFix</b> = false</td></tr>
+<tr class="memdesc:afeb152cbcdecd1d1f69a2167ebe45625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to check the covariance matrices if they are semi-positive and if not attempt to correct them. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Kalman trajectory smoother based on gain matrix formalism. </p>
@@ -169,7 +170,7 @@ Public Attributes</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Acts::Delegate&lt;TrackStateTraits&lt;kMeasurementSizeMax, false&gt;::Covariance</a>(</div>
 <div class="line">          <span class="keywordtype">void</span>*)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 </div><!-- fragment -->
 <p>Type alias for delegate to get track state covariance matrix. </p>
 
@@ -274,23 +275,6 @@ template&lt;typename traj_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Success or failure of the smoothing procedure </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="afeb152cbcdecd1d1f69a2167ebe45625" name="afeb152cbcdecd1d1f69a2167ebe45625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeb152cbcdecd1d1f69a2167ebe45625">&#9670;&#160;</a></span>doCovCheckAndAttemptFix</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::GainMatrixSmoother::doCovCheckAndAttemptFix = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether to check the covariance matrices if they are semi-positive and if not attempt to correct them. </p>
 
 </div>
 </div>

@@ -1,6 +1,6 @@
 <map id="Acts::Experimental::GbtsEdge" name="Acts::Experimental::GbtsEdge">
-<area shape="rect" id="Node000001" title=" " alt="" coords="573,67,719,107"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_gbts_node.html" title=" " alt="" coords="310,9,455,49"/>
+<area shape="rect" id="Node000001" title="Edge between two GBTs nodes with fit parameters." alt="" coords="573,67,719,107"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_gbts_node.html" title="GBTs graph node storing space point properties." alt="" coords="310,9,455,49"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="469,40,550,56,580,64,579,69,549,61,468,45"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="303,74,462,99"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="476,84,573,84,573,89,476,89"/>

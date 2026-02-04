@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Base class for PODIO track state containers.">
 <polygon fill="#999999" stroke="#666666" points="157,-54 0,-54 0,-24 157,-24 157,-54"/>
 <text text-anchor="start" x="8" y="-42" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::PodioTrackState</text>
 <text text-anchor="middle" x="78.5" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">ContainerBase</text>
@@ -32,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_const_podio_track_state_container.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_const_podio_track_state_container.html" target="_top" xlink:title="Read&#45;only track state container backend using podio for storage.">
 <polygon fill="white" stroke="#666666" points="352,-78 193,-78 193,-48 352,-48 352,-78"/>
 <text text-anchor="start" x="201" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::ConstPodioTrack</text>
 <text text-anchor="middle" x="272.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">StateContainer</text>
@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_state_container.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_state_container.html" target="_top" xlink:title="Mutable Podio&#45;based track state container implementation.">
 <polygon fill="white" stroke="#666666" points="345.5,-30 199.5,-30 199.5,0 345.5,0 345.5,-30"/>
 <text text-anchor="start" x="207.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::MutablePodio</text>
 <text text-anchor="middle" x="272.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackStateContainer</text>

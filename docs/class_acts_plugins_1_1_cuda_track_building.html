@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_plugins_1_1_cuda_track_building.html','','c
 </div><!--header-->
 <div class="contents">
 
+<p>Track building implementation using CUDA.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_cuda_track_building_8hpp_source.html">ActsPlugins/Gnn/CudaTrackBuilding.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ActsPlugins::CudaTrackBuilding:</div>
@@ -141,17 +144,20 @@ Collaboration diagram for ActsPlugins::CudaTrackBuilding:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_cuda_track_building_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for CUDA track building.  <a href="struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aafea50a33f74058ff15e4aedff24c496" id="r_aafea50a33f74058ff15e4aedff24c496"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafea50a33f74058ff15e4aedff24c496">CudaTrackBuilding</a> (const <a class="el" href="struct_acts_plugins_1_1_cuda_track_building_1_1_config.html">Config</a> &amp;cfg, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger)</td></tr>
+<tr class="memdesc:aafea50a33f74058ff15e4aedff24c496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:aa540db0e4d6bf782f291d1faa3af3697" id="r_aa540db0e4d6bf782f291d1faa3af3697"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_plugins_1_1_cuda_track_building_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa540db0e4d6bf782f291d1faa3af3697">config</a> () const</td></tr>
+<tr class="memdesc:aa540db0e4d6bf782f291d1faa3af3697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get configuration.  <br /></td></tr>
 <tr class="memitem:aedbec097b25d4b70219b2ec87e0cf2e8" id="r_aedbec097b25d4b70219b2ec87e0cf2e8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedbec097b25d4b70219b2ec87e0cf2e8">operator()</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> tensors, std::vector&lt; int &gt; &amp;spacepointIDs, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext={}) override</td></tr>
 <tr class="memdesc:aedbec097b25d4b70219b2ec87e0cf2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform track building.  <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_plugins_1_1_track_building_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_plugins_1_1_track_building_base')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_plugins_1_1_track_building_base.html">ActsPlugins::TrackBuildingBase</a></td></tr>
-<tr class="memitem:a4243daa8ec7f3e619fb43ab88d55e0e9 inherit pub_methods_class_acts_plugins_1_1_track_building_base" id="r_a4243daa8ec7f3e619fb43ab88d55e0e9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_track_building_base.html#a4243daa8ec7f3e619fb43ab88d55e0e9">~TrackBuildingBase</a> ()=default</td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Track building implementation using CUDA. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aafea50a33f74058ff15e4aedff24c496" name="aafea50a33f74058ff15e4aedff24c496"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aafea50a33f74058ff15e4aedff24c496">&#9670;&#160;</a></span>CudaTrackBuilding()</h2>
 
@@ -171,6 +177,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cfg</td><td>Configuration object </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -188,6 +203,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>Configuration object </dd></dl>
 
 </div>
 </div>

@@ -17,10 +17,7 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_cuda_track_building.html#aedbec097b25d4b70219b2ec87e0cf2e8", null ]
     ] ],
     [ "ActsPlugins::Device", "struct_acts_plugins_1_1_device.html", [
-      [ "Type", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366", [
-        [ "eCPU", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6", null ],
-        [ "eCUDA", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366a3adab38689de7b6032d26d2f13c653f9", null ]
-      ] ],
+      [ "Type", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366", null ],
       [ "Cpu", "struct_acts_plugins_1_1_device.html#accc360d8927adc93ed85ecbae8680e62", null ],
       [ "Cuda", "struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0", null ],
       [ "isCpu", "struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72", null ],
@@ -30,7 +27,6 @@ var group__gnn__plugin =
       [ "type", "struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71", null ]
     ] ],
     [ "ActsPlugins::EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html", [
-      [ "~EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html#a9be782871b3a110e3a745674d8b1dc2f", null ],
       [ "operator()", "class_acts_plugins_1_1_edge_classification_base.html#a5ea9de51e7cb3f97d5cc272ef07ad5d0", null ]
     ] ],
     [ "ActsPlugins::ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", [
@@ -38,7 +34,6 @@ var group__gnn__plugin =
       [ "stream", "struct_acts_plugins_1_1_execution_context.html#a56bc994dcfc774112612e334ecbcf7d5", null ]
     ] ],
     [ "ActsPlugins::GnnHook", "class_acts_plugins_1_1_gnn_hook.html", [
-      [ "~GnnHook", "class_acts_plugins_1_1_gnn_hook.html#a0766954148c860c533c8a016013dd96a", null ],
       [ "operator()", "class_acts_plugins_1_1_gnn_hook.html#ae27efd5d2785bab1c4c77d9d1d11f4b3", null ]
     ] ],
     [ "ActsPlugins::GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html", [
@@ -52,12 +47,10 @@ var group__gnn__plugin =
       [ "trackBuildingTime", "struct_acts_plugins_1_1_gnn_timing.html#a3de440d1e92e37fcba509043e648a56c", null ]
     ] ],
     [ "ActsPlugins::GraphConstructionBase", "class_acts_plugins_1_1_graph_construction_base.html", [
-      [ "~GraphConstructionBase", "class_acts_plugins_1_1_graph_construction_base.html#ab055afa54f9a38aa6d8ed5606f14bb8c", null ],
       [ "operator()", "class_acts_plugins_1_1_graph_construction_base.html#a6789470209bda446c6ef5b0cf236044f", null ]
     ] ],
     [ "ActsPlugins::GraphStoreHook", "class_acts_plugins_1_1_graph_store_hook.html", [
       [ "Graph", "class_acts_plugins_1_1_graph_store_hook.html#ad6562e3a309dd2e7ecb71c99bc23e3f0", null ],
-      [ "GraphStoreHook", "class_acts_plugins_1_1_graph_store_hook.html#accf0ebe4b646a8c9530555e7f7f04fb8", null ],
       [ "operator()", "class_acts_plugins_1_1_graph_store_hook.html#a6174c2c84b98045f667e3dcb052a243a", null ],
       [ "storedGraph", "class_acts_plugins_1_1_graph_store_hook.html#a03abbb0c1458a11ebec878a70d55bc22", null ]
     ] ],
@@ -74,7 +67,6 @@ var group__gnn__plugin =
         [ "zScale", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a58a1aea048fdccba2ddb34292655e5ce", null ]
       ] ],
       [ "ModuleMapCuda", "class_acts_plugins_1_1_module_map_cuda.html#a35a93c082cefb8fe5b018276cfb8dee3", null ],
-      [ "~ModuleMapCuda", "class_acts_plugins_1_1_module_map_cuda.html#af9835492f32699491a75f0645283a614", null ],
       [ "config", "class_acts_plugins_1_1_module_map_cuda.html#a3070dc5e352f43b07c1222939f5d8646", null ],
       [ "operator()", "class_acts_plugins_1_1_module_map_cuda.html#ac503115229d12e7574c2f3e7d264bfa7", null ]
     ] ],
@@ -85,7 +77,6 @@ var group__gnn__plugin =
         [ "modelPath", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490", null ]
       ] ],
       [ "OnnxEdgeClassifier", "class_acts_plugins_1_1_onnx_edge_classifier.html#a9297adad1e539bbb67b3b86c548ed9bf", null ],
-      [ "~OnnxEdgeClassifier", "class_acts_plugins_1_1_onnx_edge_classifier.html#a305405612f7feaad1b242380886d9b02", null ],
       [ "config", "class_acts_plugins_1_1_onnx_edge_classifier.html#aab4f56a9746b62d90861d98bd445490e", null ],
       [ "operator()", "class_acts_plugins_1_1_onnx_edge_classifier.html#a03b3811b0c327c9bab8ecb8085a5e653", null ]
     ] ],
@@ -114,7 +105,6 @@ var group__gnn__plugin =
         [ "selectedFeatures", "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804", null ]
       ] ],
       [ "TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a9a2a56f105ee0067ce2fe6d4cc15d8cd", null ],
-      [ "~TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a54c9cda00bc95a3a176bf91137489768", null ],
       [ "config", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a4a8172141409470c3642389cdf260d41", null ],
       [ "operator()", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a67ab78c089a79fe0cb220f5df4f7e8a5", null ]
     ] ],
@@ -129,7 +119,6 @@ var group__gnn__plugin =
         [ "useEdgeFeatures", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9", null ]
       ] ],
       [ "TorchEdgeClassifier", "class_acts_plugins_1_1_torch_edge_classifier.html#aadbe2160cfed5c94ce12a1838a450d80", null ],
-      [ "~TorchEdgeClassifier", "class_acts_plugins_1_1_torch_edge_classifier.html#a3cdda4232bcd9dcc0926a6702bf52407", null ],
       [ "config", "class_acts_plugins_1_1_torch_edge_classifier.html#a8a0560ac52421a117186a5dac7a410d1", null ],
       [ "operator()", "class_acts_plugins_1_1_torch_edge_classifier.html#a810de2cd07128840b2add501569243ac", null ]
     ] ],
@@ -145,12 +134,10 @@ var group__gnn__plugin =
         [ "shuffleDirections", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a9ce9e6d34a76f7971c01bcd938110ecd", null ]
       ] ],
       [ "TorchMetricLearning", "class_acts_plugins_1_1_torch_metric_learning.html#acc50946b4d0fae4a37cdd05b1c663122", null ],
-      [ "~TorchMetricLearning", "class_acts_plugins_1_1_torch_metric_learning.html#a95419cf8646b99c7148626c21ff57c91", null ],
       [ "config", "class_acts_plugins_1_1_torch_metric_learning.html#a5d0a9ba7b1cddd5711279ad787491681", null ],
       [ "operator()", "class_acts_plugins_1_1_torch_metric_learning.html#a89e71121daa7d47bfc129ee900454400", null ]
     ] ],
     [ "ActsPlugins::TrackBuildingBase", "class_acts_plugins_1_1_track_building_base.html", [
-      [ "~TrackBuildingBase", "class_acts_plugins_1_1_track_building_base.html#a4243daa8ec7f3e619fb43ab88d55e0e9", null ],
       [ "operator()", "class_acts_plugins_1_1_track_building_base.html#acbe79e8a8d16aea71703e62163fa0c0c", null ]
     ] ],
     [ "ActsPlugins::TruthGraphMetricsHook", "class_acts_plugins_1_1_truth_graph_metrics_hook.html", [

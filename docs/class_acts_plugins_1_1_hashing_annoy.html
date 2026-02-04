@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_plugins_1_1_hashing_annoy.html','','class_a
 </div><!--header-->
 <div class="contents">
 
+<p>Annoy-based hashing implementation for spacepoint bucketing.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_hashing_annoy_8hpp_source.html">/home/runner/work/acts/acts/Plugins/Hashing/include/ActsPlugins/Hashing/HashingAnnoy.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::HashingAnnoy&lt; external_spacepoint_t, SpacePointContainer &gt;:</div>
@@ -136,12 +139,18 @@ Collaboration diagram for ActsPlugins::HashingAnnoy&lt; external_spacepoint_t, S
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5be7ec08ef7747d0d7f935992d694617" id="r_a5be7ec08ef7747d0d7f935992d694617"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5be7ec08ef7747d0d7f935992d694617">computeSpacePointsBuckets</a> (const <a class="el" href="group__hashing__plugin.html#gaae60dcd2a5c54cf27cf161722cca642b">AnnoyModel</a> *annoyModel, const SpacePointContainer &amp;spacePoints, const unsigned int bucketSize, const unsigned int zBins, const unsigned int phiBins, const double layerRMin, const double layerRMax, const double layerZMin, const double layerZMax)</td></tr>
+<tr class="memdesc:a5be7ec08ef7747d0d7f935992d694617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute space point buckets using Annoy model.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a38ed45e765f0b95e4987cccde185c774" id="r_a38ed45e765f0b95e4987cccde185c774"><td class="memItemLeft" align="right" valign="top">std::map&lt; unsigned int, std::set&lt; external_spacepoint_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38ed45e765f0b95e4987cccde185c774">m_bucketsSPMap</a></td></tr>
+<tr class="memitem:a38ed45e765f0b95e4987cccde185c774" id="r_a38ed45e765f0b95e4987cccde185c774"><td class="memItemLeft" align="right" valign="top"><a id="a38ed45e765f0b95e4987cccde185c774" name="a38ed45e765f0b95e4987cccde185c774"></a>
+std::map&lt; unsigned int, std::set&lt; external_spacepoint_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bucketsSPMap</b></td></tr>
+<tr class="memdesc:a38ed45e765f0b95e4987cccde185c774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of bucket indices to space points. <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt;<br />
+class ActsPlugins::HashingAnnoy&lt; external_spacepoint_t, SpacePointContainer &gt;</div><p>Annoy-based hashing implementation for spacepoint bucketing. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5be7ec08ef7747d0d7f935992d694617" name="a5be7ec08ef7747d0d7f935992d694617"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5be7ec08ef7747d0d7f935992d694617">&#9670;&#160;</a></span>computeSpacePointsBuckets()</h2>
 
@@ -198,22 +207,21 @@ template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt; </d
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a38ed45e765f0b95e4987cccde185c774" name="a38ed45e765f0b95e4987cccde185c774"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38ed45e765f0b95e4987cccde185c774">&#9670;&#160;</a></span>m_bucketsSPMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;unsigned int, std::set&lt;external_spacepoint_t&gt; &gt; <a class="el" href="class_acts_plugins_1_1_hashing_annoy.html">ActsPlugins::HashingAnnoy</a>&lt; external_spacepoint_t, SpacePointContainer &gt;::m_bucketsSPMap</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Compute space point buckets using Annoy model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annoyModel</td><td>Trained Annoy model </td></tr>
+    <tr><td class="paramname">spacePoints</td><td>Space points to bucket </td></tr>
+    <tr><td class="paramname">bucketSize</td><td>Size of each bucket </td></tr>
+    <tr><td class="paramname">zBins</td><td>Number of z bins </td></tr>
+    <tr><td class="paramname">phiBins</td><td>Number of phi bins </td></tr>
+    <tr><td class="paramname">layerRMin</td><td>Minimum radial extent </td></tr>
+    <tr><td class="paramname">layerRMax</td><td>Maximum radial extent </td></tr>
+    <tr><td class="paramname">layerZMin</td><td>Minimum z extent </td></tr>
+    <tr><td class="paramname">layerZMax</td><td>Maximum z extent </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

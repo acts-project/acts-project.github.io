@@ -138,173 +138,37 @@ Collaboration diagram for Acts::CuboidVolumeBuilder::VolumeConfig:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a367440254364e44ae991c3a390fdfbd9" id="r_a367440254364e44ae991c3a390fdfbd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a367440254364e44ae991c3a390fdfbd9">binningDimension</a> = <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a></td></tr>
-<tr class="memdesc:a367440254364e44ae991c3a390fdfbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis direction for layer binning within the volume.  <br /></td></tr>
-<tr class="memitem:a7ba0e96a23d9f941290d209eaa410ee5" id="r_a7ba0e96a23d9f941290d209eaa410ee5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html">LayerConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ba0e96a23d9f941290d209eaa410ee5">layerCfg</a></td></tr>
-<tr class="memdesc:a7ba0e96a23d9f941290d209eaa410ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration objects for layers within this volume.  <br /></td></tr>
-<tr class="memitem:ab6955f021c02a5f22d16f74d82fee170" id="r_ab6955f021c02a5f22d16f74d82fee170"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_layer.html">Layer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6955f021c02a5f22d16f74d82fee170">layers</a></td></tr>
-<tr class="memdesc:ab6955f021c02a5f22d16f74d82fee170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-built layers to be included in this volume.  <br /></td></tr>
-<tr class="memitem:aaedfa42634aec6086960a258040526ca" id="r_aaedfa42634aec6086960a258040526ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaedfa42634aec6086960a258040526ca">length</a> {}</td></tr>
-<tr class="memdesc:aaedfa42634aec6086960a258040526ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions of the volume in x, y, z directions.  <br /></td></tr>
-<tr class="memitem:a14edec6ebc3767c48ced05924ac5e200" id="r_a14edec6ebc3767c48ced05924ac5e200"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14edec6ebc3767c48ced05924ac5e200">name</a> = &quot;Volume&quot;</td></tr>
-<tr class="memdesc:a14edec6ebc3767c48ced05924ac5e200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier name for this tracking volume.  <br /></td></tr>
-<tr class="memitem:aca8d7b10382861e417a46d50c7d34bd2" id="r_aca8d7b10382861e417a46d50c7d34bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca8d7b10382861e417a46d50c7d34bd2">position</a> {}</td></tr>
-<tr class="memdesc:aca8d7b10382861e417a46d50c7d34bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center position of the tracking volume.  <br /></td></tr>
-<tr class="memitem:a3c181c14542187c74db6926a874f8612" id="r_a3c181c14542187c74db6926a874f8612"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c181c14542187c74db6926a874f8612">trackingVolumes</a></td></tr>
-<tr class="memdesc:a3c181c14542187c74db6926a874f8612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-built sub-volumes contained within this volume.  <br /></td></tr>
-<tr class="memitem:aa0191e0acb621f266bffab7266b49c2d" id="r_aa0191e0acb621f266bffab7266b49c2d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html">VolumeConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0191e0acb621f266bffab7266b49c2d">volumeCfg</a></td></tr>
-<tr class="memdesc:aa0191e0acb621f266bffab7266b49c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration objects for sub-volumes within this volume.  <br /></td></tr>
-<tr class="memitem:afc8f82913ae419fea66e9ca1a0101596" id="r_afc8f82913ae419fea66e9ca1a0101596"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8f82913ae419fea66e9ca1a0101596">volumeMaterial</a> = nullptr</td></tr>
-<tr class="memdesc:afc8f82913ae419fea66e9ca1a0101596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume material description for this tracking volume.  <br /></td></tr>
+<tr class="memitem:a367440254364e44ae991c3a390fdfbd9" id="r_a367440254364e44ae991c3a390fdfbd9"><td class="memItemLeft" align="right" valign="top"><a id="a367440254364e44ae991c3a390fdfbd9" name="a367440254364e44ae991c3a390fdfbd9"></a>
+<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>binningDimension</b> = <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a></td></tr>
+<tr class="memdesc:a367440254364e44ae991c3a390fdfbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis direction for layer binning within the volume. <br /></td></tr>
+<tr class="memitem:a7ba0e96a23d9f941290d209eaa410ee5" id="r_a7ba0e96a23d9f941290d209eaa410ee5"><td class="memItemLeft" align="right" valign="top"><a id="a7ba0e96a23d9f941290d209eaa410ee5" name="a7ba0e96a23d9f941290d209eaa410ee5"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html">LayerConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>layerCfg</b></td></tr>
+<tr class="memdesc:a7ba0e96a23d9f941290d209eaa410ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration objects for layers within this volume. <br /></td></tr>
+<tr class="memitem:ab6955f021c02a5f22d16f74d82fee170" id="r_ab6955f021c02a5f22d16f74d82fee170"><td class="memItemLeft" align="right" valign="top"><a id="ab6955f021c02a5f22d16f74d82fee170" name="ab6955f021c02a5f22d16f74d82fee170"></a>
+std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_layer.html">Layer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>layers</b></td></tr>
+<tr class="memdesc:ab6955f021c02a5f22d16f74d82fee170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-built layers to be included in this volume. <br /></td></tr>
+<tr class="memitem:aaedfa42634aec6086960a258040526ca" id="r_aaedfa42634aec6086960a258040526ca"><td class="memItemLeft" align="right" valign="top"><a id="aaedfa42634aec6086960a258040526ca" name="aaedfa42634aec6086960a258040526ca"></a>
+<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>length</b> {}</td></tr>
+<tr class="memdesc:aaedfa42634aec6086960a258040526ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions of the volume in x, y, z directions. <br /></td></tr>
+<tr class="memitem:a14edec6ebc3767c48ced05924ac5e200" id="r_a14edec6ebc3767c48ced05924ac5e200"><td class="memItemLeft" align="right" valign="top"><a id="a14edec6ebc3767c48ced05924ac5e200" name="a14edec6ebc3767c48ced05924ac5e200"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> = &quot;Volume&quot;</td></tr>
+<tr class="memdesc:a14edec6ebc3767c48ced05924ac5e200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier name for this tracking volume. <br /></td></tr>
+<tr class="memitem:aca8d7b10382861e417a46d50c7d34bd2" id="r_aca8d7b10382861e417a46d50c7d34bd2"><td class="memItemLeft" align="right" valign="top"><a id="aca8d7b10382861e417a46d50c7d34bd2" name="aca8d7b10382861e417a46d50c7d34bd2"></a>
+<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>position</b> {}</td></tr>
+<tr class="memdesc:aca8d7b10382861e417a46d50c7d34bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center position of the tracking volume. <br /></td></tr>
+<tr class="memitem:a3c181c14542187c74db6926a874f8612" id="r_a3c181c14542187c74db6926a874f8612"><td class="memItemLeft" align="right" valign="top"><a id="a3c181c14542187c74db6926a874f8612" name="a3c181c14542187c74db6926a874f8612"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackingVolumes</b></td></tr>
+<tr class="memdesc:a3c181c14542187c74db6926a874f8612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-built sub-volumes contained within this volume. <br /></td></tr>
+<tr class="memitem:aa0191e0acb621f266bffab7266b49c2d" id="r_aa0191e0acb621f266bffab7266b49c2d"><td class="memItemLeft" align="right" valign="top"><a id="aa0191e0acb621f266bffab7266b49c2d" name="aa0191e0acb621f266bffab7266b49c2d"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html">VolumeConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>volumeCfg</b></td></tr>
+<tr class="memdesc:aa0191e0acb621f266bffab7266b49c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration objects for sub-volumes within this volume. <br /></td></tr>
+<tr class="memitem:afc8f82913ae419fea66e9ca1a0101596" id="r_afc8f82913ae419fea66e9ca1a0101596"><td class="memItemLeft" align="right" valign="top"><a id="afc8f82913ae419fea66e9ca1a0101596" name="afc8f82913ae419fea66e9ca1a0101596"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>volumeMaterial</b> = nullptr</td></tr>
+<tr class="memdesc:afc8f82913ae419fea66e9ca1a0101596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume material description for this tracking volume. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This struct stores the data for the construction of a cuboid TrackingVolume with a given number of PlaneLayers. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a367440254364e44ae991c3a390fdfbd9" name="a367440254364e44ae991c3a390fdfbd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367440254364e44ae991c3a390fdfbd9">&#9670;&#160;</a></span>binningDimension</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> Acts::CuboidVolumeBuilder::VolumeConfig::binningDimension = <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Axis direction for layer binning within the volume. </p>
-
-</div>
-</div>
-<a id="a7ba0e96a23d9f941290d209eaa410ee5" name="a7ba0e96a23d9f941290d209eaa410ee5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba0e96a23d9f941290d209eaa410ee5">&#9670;&#160;</a></span>layerCfg</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html">LayerConfig</a>&gt; Acts::CuboidVolumeBuilder::VolumeConfig::layerCfg</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configuration objects for layers within this volume. </p>
-
-</div>
-</div>
-<a id="ab6955f021c02a5f22d16f74d82fee170" name="ab6955f021c02a5f22d16f74d82fee170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6955f021c02a5f22d16f74d82fee170">&#9670;&#160;</a></span>layers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_layer.html">Layer</a>&gt; &gt; Acts::CuboidVolumeBuilder::VolumeConfig::layers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pre-built layers to be included in this volume. </p>
-
-</div>
-</div>
-<a id="aaedfa42634aec6086960a258040526ca" name="aaedfa42634aec6086960a258040526ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaedfa42634aec6086960a258040526ca">&#9670;&#160;</a></span>length</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> Acts::CuboidVolumeBuilder::VolumeConfig::length {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Dimensions of the volume in x, y, z directions. </p>
-
-</div>
-</div>
-<a id="a14edec6ebc3767c48ced05924ac5e200" name="a14edec6ebc3767c48ced05924ac5e200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14edec6ebc3767c48ced05924ac5e200">&#9670;&#160;</a></span>name</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string Acts::CuboidVolumeBuilder::VolumeConfig::name = &quot;Volume&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Identifier name for this tracking volume. </p>
-
-</div>
-</div>
-<a id="aca8d7b10382861e417a46d50c7d34bd2" name="aca8d7b10382861e417a46d50c7d34bd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca8d7b10382861e417a46d50c7d34bd2">&#9670;&#160;</a></span>position</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> Acts::CuboidVolumeBuilder::VolumeConfig::position {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Center position of the tracking volume. </p>
-
-</div>
-</div>
-<a id="a3c181c14542187c74db6926a874f8612" name="a3c181c14542187c74db6926a874f8612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c181c14542187c74db6926a874f8612">&#9670;&#160;</a></span>trackingVolumes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>&gt; &gt; Acts::CuboidVolumeBuilder::VolumeConfig::trackingVolumes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pre-built sub-volumes contained within this volume. </p>
-
-</div>
-</div>
-<a id="aa0191e0acb621f266bffab7266b49c2d" name="aa0191e0acb621f266bffab7266b49c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0191e0acb621f266bffab7266b49c2d">&#9670;&#160;</a></span>volumeCfg</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html">VolumeConfig</a>&gt; Acts::CuboidVolumeBuilder::VolumeConfig::volumeCfg</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configuration objects for sub-volumes within this volume. </p>
-
-</div>
-</div>
-<a id="afc8f82913ae419fea66e9ca1a0101596" name="afc8f82913ae419fea66e9ca1a0101596"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc8f82913ae419fea66e9ca1a0101596">&#9670;&#160;</a></span>volumeMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a>&gt; Acts::CuboidVolumeBuilder::VolumeConfig::volumeMaterial = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Volume material description for this tracking volume. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

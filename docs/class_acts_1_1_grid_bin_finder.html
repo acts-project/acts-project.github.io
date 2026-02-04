@@ -149,8 +149,9 @@ requires ( sizeof...(args) == DIM &amp;&amp; (Concepts::same_as_any_of&lt;std::d
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ae36d60bd41e6067691e05aceb92bad0a" id="r_ae36d60bd41e6067691e05aceb92bad0a"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36d60bd41e6067691e05aceb92bad0a">dimCubed</a> = detail::ipow(3, DIM)</td></tr>
-<tr class="memdesc:ae36d60bd41e6067691e05aceb92bad0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of neighbor bins in 3^DIM grid configuration.  <br /></td></tr>
+<tr class="memitem:ae36d60bd41e6067691e05aceb92bad0a" id="r_ae36d60bd41e6067691e05aceb92bad0a"><td class="memItemLeft" align="right" valign="top"><a id="ae36d60bd41e6067691e05aceb92bad0a" name="ae36d60bd41e6067691e05aceb92bad0a"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>dimCubed</b> = detail::ipow(3, DIM)</td></tr>
+<tr class="memdesc:ae36d60bd41e6067691e05aceb92bad0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of neighbor bins in 3^DIM grid configuration. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;std::size_t DIM&gt;<br />
@@ -327,33 +328,6 @@ template&lt;std::size_t DIM&gt; </div>
 
 <p>Get the stored bin edge values for all dimensions. </p>
 <dl class="section return"><dt>Returns</dt><dd>Array of bin edge values for each dimension </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ae36d60bd41e6067691e05aceb92bad0a" name="ae36d60bd41e6067691e05aceb92bad0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae36d60bd41e6067691e05aceb92bad0a">&#9670;&#160;</a></span>dimCubed</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t DIM&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_grid_bin_finder.html">Acts::GridBinFinder</a>&lt; DIM &gt;::dimCubed = detail::ipow(3, DIM)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Number of neighbor bins in 3^DIM grid configuration. </p>
 
 </div>
 </div>

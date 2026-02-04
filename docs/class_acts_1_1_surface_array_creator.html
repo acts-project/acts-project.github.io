@@ -134,7 +134,9 @@ $(function(){initNavTree('class_acts_1_1_surface_array_creator.html','','class_a
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_surface_array_creator_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for the surface array creator.  <a href="struct_acts_1_1_surface_array_creator_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ProtoAxis" id="r_ProtoAxis"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_surface_array_creator_1_1_proto_axis.html">ProtoAxis</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prototype axis definition for surface binning.  <a href="struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -142,19 +144,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3368ec838219be66c52c5cd983b8fc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with explicit config.  <br /></td></tr>
 <tr class="memitem:a5b60785df851ae12a7f10134e16b93d9" id="r_a5b60785df851ae12a7f10134e16b93d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b60785df851ae12a7f10134e16b93d9">SurfaceArrayCreator</a> (std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SurfaceArrayCreator&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a5b60785df851ae12a7f10134e16b93d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with default config.  <br /></td></tr>
-<tr class="memitem:a8ef6f30f4fbda3df8c26827296249717" id="r_a8ef6f30f4fbda3df8c26827296249717"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ef6f30f4fbda3df8c26827296249717">~SurfaceArrayCreator</a> ()=default</td></tr>
-<tr class="memdesc:a8ef6f30f4fbda3df8c26827296249717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="memitem:a8ef6f30f4fbda3df8c26827296249717" id="r_a8ef6f30f4fbda3df8c26827296249717"><td class="memItemLeft" align="right" valign="top"><a id="a8ef6f30f4fbda3df8c26827296249717" name="a8ef6f30f4fbda3df8c26827296249717"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~SurfaceArrayCreator</b> ()=default</td></tr>
+<tr class="memdesc:a8ef6f30f4fbda3df8c26827296249717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:ae0cea453480e51a17a32d428fed2e684" id="r_ae0cea453480e51a17a32d428fed2e684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0cea453480e51a17a32d428fed2e684">setLogger</a> (std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger)</td></tr>
 <tr class="memdesc:ae0cea453480e51a17a32d428fed2e684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set logging instance.  <br /></td></tr>
-<tr class="memitem:a08a6b8cc5984e7b8437b94ba714d0d18" id="r_a08a6b8cc5984e7b8437b94ba714d0d18"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a6b8cc5984e7b8437b94ba714d0d18">surfaceArrayOnCylinder</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypePhi=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">equidistant</a>, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypeZ=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">equidistant</a>, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
+<tr class="memitem:a08a6b8cc5984e7b8437b94ba714d0d18" id="r_a08a6b8cc5984e7b8437b94ba714d0d18"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; SurfaceArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a6b8cc5984e7b8437b94ba714d0d18">surfaceArrayOnCylinder</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypePhi=equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypeZ=equidistant, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
 <tr class="memdesc:a08a6b8cc5984e7b8437b94ba714d0d18"><td class="mdescLeft">&#160;</td><td class="mdescRight">SurfaceArrayCreator interface method.  <br /></td></tr>
-<tr class="memitem:a4eb3f10e03e721feee39538c136be983" id="r_a4eb3f10e03e721feee39538c136be983"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb3f10e03e721feee39538c136be983">surfaceArrayOnCylinder</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, std::size_t binsPhi, std::size_t binsZ, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
+<tr class="memitem:a4eb3f10e03e721feee39538c136be983" id="r_a4eb3f10e03e721feee39538c136be983"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; SurfaceArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb3f10e03e721feee39538c136be983">surfaceArrayOnCylinder</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, std::size_t binsPhi, std::size_t binsZ, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
 <tr class="memdesc:a4eb3f10e03e721feee39538c136be983"><td class="mdescLeft">&#160;</td><td class="mdescRight">SurfaceArrayCreator interface method.  <br /></td></tr>
-<tr class="memitem:a562af6a1207f9d6ecda0308593fa6d70" id="r_a562af6a1207f9d6ecda0308593fa6d70"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562af6a1207f9d6ecda0308593fa6d70">surfaceArrayOnDisc</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypeR, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypePhi, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
+<tr class="memitem:a562af6a1207f9d6ecda0308593fa6d70" id="r_a562af6a1207f9d6ecda0308593fa6d70"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; SurfaceArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562af6a1207f9d6ecda0308593fa6d70">surfaceArrayOnDisc</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypeR, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypePhi, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
 <tr class="memdesc:a562af6a1207f9d6ecda0308593fa6d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">SurfaceArrayCreator interface method.  <br /></td></tr>
-<tr class="memitem:ac40f4fe782d26cccaf7f37683399f16b" id="r_ac40f4fe782d26cccaf7f37683399f16b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40f4fe782d26cccaf7f37683399f16b">surfaceArrayOnDisc</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, std::size_t binsR, std::size_t binsPhi, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
+<tr class="memitem:ac40f4fe782d26cccaf7f37683399f16b" id="r_ac40f4fe782d26cccaf7f37683399f16b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; SurfaceArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40f4fe782d26cccaf7f37683399f16b">surfaceArrayOnDisc</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, std::size_t binsR, std::size_t binsPhi, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
 <tr class="memdesc:ac40f4fe782d26cccaf7f37683399f16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">SurfaceArrayCreator interface method.  <br /></td></tr>
-<tr class="memitem:abc9451e4534299ebf42ba3feb55e8333" id="r_abc9451e4534299ebf42ba3feb55e8333"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc9451e4534299ebf42ba3feb55e8333">surfaceArrayOnPlane</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, std::size_t bins1, std::size_t bins2, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
+<tr class="memitem:abc9451e4534299ebf42ba3feb55e8333" id="r_abc9451e4534299ebf42ba3feb55e8333"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; SurfaceArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc9451e4534299ebf42ba3feb55e8333">surfaceArrayOnPlane</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, std::size_t bins1, std::size_t bins2, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
 <tr class="memdesc:abc9451e4534299ebf42ba3feb55e8333"><td class="mdescLeft">&#160;</td><td class="mdescRight">SurfaceArrayCreator interface method.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -234,33 +237,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a8ef6f30f4fbda3df8c26827296249717" name="a8ef6f30f4fbda3df8c26827296249717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ef6f30f4fbda3df8c26827296249717">&#9670;&#160;</a></span>~SurfaceArrayCreator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::SurfaceArrayCreator::~SurfaceArrayCreator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
 
 </div>
 </div>
@@ -348,7 +324,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt; Acts::SurfaceArrayCreator::surfaceArrayOnCylinder </td>
+          <td class="memname">std::unique_ptr&lt; SurfaceArray &gt; Acts::SurfaceArrayCreator::surfaceArrayOnCylinder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -360,12 +336,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>bTypePhi</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">equidistant</a></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>bTypePhi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">equidistant</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>bTypeZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">equidistant</a></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>bTypeZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval">equidistant</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -413,7 +389,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt; Acts::SurfaceArrayCreator::surfaceArrayOnCylinder </td>
+          <td class="memname">std::unique_ptr&lt; SurfaceArray &gt; Acts::SurfaceArrayCreator::surfaceArrayOnCylinder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -478,7 +454,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt; Acts::SurfaceArrayCreator::surfaceArrayOnDisc </td>
+          <td class="memname">std::unique_ptr&lt; SurfaceArray &gt; Acts::SurfaceArrayCreator::surfaceArrayOnDisc </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -544,7 +520,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt; Acts::SurfaceArrayCreator::surfaceArrayOnDisc </td>
+          <td class="memname">std::unique_ptr&lt; SurfaceArray &gt; Acts::SurfaceArrayCreator::surfaceArrayOnDisc </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -609,7 +585,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="#ae60b81dade3ec39aa60a12b19e21bf65">SurfaceArray</a> &gt; Acts::SurfaceArrayCreator::surfaceArrayOnPlane </td>
+          <td class="memname">std::unique_ptr&lt; SurfaceArray &gt; Acts::SurfaceArrayCreator::surfaceArrayOnPlane </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>

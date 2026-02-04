@@ -138,12 +138,15 @@ Collaboration diagram for ActsFatras::BoundParametersSmearer&lt; generator_t, kS
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3af82346d7895c7bbbd81ae24abbc94f" id="r_a3af82346d7895c7bbbd81ae24abbc94f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3af82346d7895c7bbbd81ae24abbc94f">CovarianceMatrix</a> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a>&lt;kSize&gt;</td></tr>
-<tr class="memdesc:a3af82346d7895c7bbbd81ae24abbc94f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix of dimension kSize x kSize.  <br /></td></tr>
-<tr class="memitem:aff3813271eefbdde93f627706f0b2d1f" id="r_aff3813271eefbdde93f627706f0b2d1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff3813271eefbdde93f627706f0b2d1f">ParametersVector</a> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a>&lt;kSize&gt;</td></tr>
-<tr class="memdesc:aff3813271eefbdde93f627706f0b2d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for parameter vector of dimension kSize.  <br /></td></tr>
-<tr class="memitem:a563eaa0338797cc2b66b441edb4ab50f" id="r_a563eaa0338797cc2b66b441edb4ab50f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563eaa0338797cc2b66b441edb4ab50f">Result</a> = <a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt;std::pair&lt;<a class="el" href="#aff3813271eefbdde93f627706f0b2d1f">ParametersVector</a>, <a class="el" href="#a3af82346d7895c7bbbd81ae24abbc94f">CovarianceMatrix</a>&gt;&gt;</td></tr>
-<tr class="memdesc:a563eaa0338797cc2b66b441edb4ab50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for smearing result containing parameters and covariance.  <br /></td></tr>
+<tr class="memitem:a3af82346d7895c7bbbd81ae24abbc94f" id="r_a3af82346d7895c7bbbd81ae24abbc94f"><td class="memItemLeft" align="right" valign="top"><a id="a3af82346d7895c7bbbd81ae24abbc94f" name="a3af82346d7895c7bbbd81ae24abbc94f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMatrix</b> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a>&lt;kSize&gt;</td></tr>
+<tr class="memdesc:a3af82346d7895c7bbbd81ae24abbc94f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix of dimension kSize x kSize. <br /></td></tr>
+<tr class="memitem:aff3813271eefbdde93f627706f0b2d1f" id="r_aff3813271eefbdde93f627706f0b2d1f"><td class="memItemLeft" align="right" valign="top"><a id="aff3813271eefbdde93f627706f0b2d1f" name="aff3813271eefbdde93f627706f0b2d1f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersVector</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a>&lt;kSize&gt;</td></tr>
+<tr class="memdesc:aff3813271eefbdde93f627706f0b2d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for parameter vector of dimension kSize. <br /></td></tr>
+<tr class="memitem:a563eaa0338797cc2b66b441edb4ab50f" id="r_a563eaa0338797cc2b66b441edb4ab50f"><td class="memItemLeft" align="right" valign="top"><a id="a563eaa0338797cc2b66b441edb4ab50f" name="a563eaa0338797cc2b66b441edb4ab50f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Result</b> = <a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt;std::pair&lt;<a class="el" href="#aff3813271eefbdde93f627706f0b2d1f">ParametersVector</a>, <a class="el" href="#a3af82346d7895c7bbbd81ae24abbc94f">CovarianceMatrix</a>&gt;&gt;</td></tr>
+<tr class="memdesc:a563eaa0338797cc2b66b441edb4ab50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for smearing result containing parameters and covariance. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -157,14 +160,18 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4b61ae78162f09deb92a48878ae96644" id="r_a4b61ae78162f09deb92a48878ae96644"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b61ae78162f09deb92a48878ae96644">forcePositive</a> = {}</td></tr>
-<tr class="memdesc:a4b61ae78162f09deb92a48878ae96644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of flags to force positive values after smearing.  <br /></td></tr>
-<tr class="memitem:ad426a2965f5eaed5db2ba39c79febd0e" id="r_ad426a2965f5eaed5db2ba39c79febd0e"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">Acts::BoundIndices</a>, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad426a2965f5eaed5db2ba39c79febd0e">indices</a> {}</td></tr>
-<tr class="memdesc:ad426a2965f5eaed5db2ba39c79febd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter indices that will be used to create the smeared measurements.  <br /></td></tr>
-<tr class="memitem:a3ec5813b278b9184d68ead0524ad4d3f" id="r_a3ec5813b278b9184d68ead0524ad4d3f"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ec5813b278b9184d68ead0524ad4d3f">maxRetries</a> = 0</td></tr>
-<tr class="memdesc:a3ec5813b278b9184d68ead0524ad4d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of retries for generating positive values when forced.  <br /></td></tr>
-<tr class="memitem:a9f53520f21e926baceebab895f08162b" id="r_a9f53520f21e926baceebab895f08162b"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="namespace_acts_fatras.html#ab2d030bf73774afe826a257a6ad7e710">SingleParameterSmearFunction</a>&lt; generator_t &gt;, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f53520f21e926baceebab895f08162b">smearFunctions</a> {}</td></tr>
-<tr class="memdesc:a9f53520f21e926baceebab895f08162b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of smearing functions for each measurement parameter.  <br /></td></tr>
+<tr class="memitem:a4b61ae78162f09deb92a48878ae96644" id="r_a4b61ae78162f09deb92a48878ae96644"><td class="memItemLeft" align="right" valign="top"><a id="a4b61ae78162f09deb92a48878ae96644" name="a4b61ae78162f09deb92a48878ae96644"></a>
+std::array&lt; bool, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forcePositive</b> = {}</td></tr>
+<tr class="memdesc:a4b61ae78162f09deb92a48878ae96644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of flags to force positive values after smearing. <br /></td></tr>
+<tr class="memitem:ad426a2965f5eaed5db2ba39c79febd0e" id="r_ad426a2965f5eaed5db2ba39c79febd0e"><td class="memItemLeft" align="right" valign="top"><a id="ad426a2965f5eaed5db2ba39c79febd0e" name="ad426a2965f5eaed5db2ba39c79febd0e"></a>
+std::array&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">Acts::BoundIndices</a>, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>indices</b> {}</td></tr>
+<tr class="memdesc:ad426a2965f5eaed5db2ba39c79febd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter indices that will be used to create the smeared measurements. <br /></td></tr>
+<tr class="memitem:a3ec5813b278b9184d68ead0524ad4d3f" id="r_a3ec5813b278b9184d68ead0524ad4d3f"><td class="memItemLeft" align="right" valign="top"><a id="a3ec5813b278b9184d68ead0524ad4d3f" name="a3ec5813b278b9184d68ead0524ad4d3f"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxRetries</b> = 0</td></tr>
+<tr class="memdesc:a3ec5813b278b9184d68ead0524ad4d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of retries for generating positive values when forced. <br /></td></tr>
+<tr class="memitem:a9f53520f21e926baceebab895f08162b" id="r_a9f53520f21e926baceebab895f08162b"><td class="memItemLeft" align="right" valign="top"><a id="a9f53520f21e926baceebab895f08162b" name="a9f53520f21e926baceebab895f08162b"></a>
+std::array&lt; <a class="el" href="namespace_acts_fatras.html#ab2d030bf73774afe826a257a6ad7e710">SingleParameterSmearFunction</a>&lt; generator_t &gt;, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>smearFunctions</b> {}</td></tr>
+<tr class="memdesc:a9f53520f21e926baceebab895f08162b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of smearing functions for each measurement parameter. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename generator_t, std::size_t kSize&gt;<br />
@@ -177,62 +184,7 @@ struct ActsFatras::BoundParametersSmearer&lt; generator_t, kSize &gt;</div><p>Un
   </dd>
 </dl>
 <p>The smearer takes a single simulated <span class="tt">Hit</span> and generates a smeared parameter vector and associated covariance matrix. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a3af82346d7895c7bbbd81ae24abbc94f" name="a3af82346d7895c7bbbd81ae24abbc94f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3af82346d7895c7bbbd81ae24abbc94f">&#9670;&#160;</a></span>CovarianceMatrix</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::CovarianceMatrix = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a>&lt;kSize&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for covariance matrix of dimension kSize x kSize. </p>
-
-</div>
-</div>
-<a id="aff3813271eefbdde93f627706f0b2d1f" name="aff3813271eefbdde93f627706f0b2d1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff3813271eefbdde93f627706f0b2d1f">&#9670;&#160;</a></span>ParametersVector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::ParametersVector = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a>&lt;kSize&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for parameter vector of dimension kSize. </p>
-
-</div>
-</div>
-<a id="a563eaa0338797cc2b66b441edb4ab50f" name="a563eaa0338797cc2b66b441edb4ab50f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a563eaa0338797cc2b66b441edb4ab50f">&#9670;&#160;</a></span>Result</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::Result = <a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt;std::pair&lt;<a class="el" href="#aff3813271eefbdde93f627706f0b2d1f">ParametersVector</a>, <a class="el" href="#a3af82346d7895c7bbbd81ae24abbc94f">CovarianceMatrix</a>&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for smearing result containing parameters and covariance. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5c6288bb15dfc26fe7e71729e78be296" name="a5c6288bb15dfc26fe7e71729e78be296"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c6288bb15dfc26fe7e71729e78be296">&#9670;&#160;</a></span>operator()()</h2>
 
@@ -311,79 +263,6 @@ template&lt;typename generator_t, std::size_t kSize&gt; </div>
 
 <p>Get the number of bound parameters that will be smeared. </p>
 <dl class="section return"><dt>Returns</dt><dd>Number of bound parameters (kSize) </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a4b61ae78162f09deb92a48878ae96644" name="a4b61ae78162f09deb92a48878ae96644"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b61ae78162f09deb92a48878ae96644">&#9670;&#160;</a></span>forcePositive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;bool, kSize&gt; <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::forcePositive = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Array of flags to force positive values after smearing. </p>
-
-</div>
-</div>
-<a id="ad426a2965f5eaed5db2ba39c79febd0e" name="ad426a2965f5eaed5db2ba39c79febd0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad426a2965f5eaed5db2ba39c79febd0e">&#9670;&#160;</a></span>indices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">Acts::BoundIndices</a>, kSize&gt; <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::indices {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parameter indices that will be used to create the smeared measurements. </p>
-
-</div>
-</div>
-<a id="a3ec5813b278b9184d68ead0524ad4d3f" name="a3ec5813b278b9184d68ead0524ad4d3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ec5813b278b9184d68ead0524ad4d3f">&#9670;&#160;</a></span>maxRetries</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::maxRetries = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum number of retries for generating positive values when forced. </p>
-
-</div>
-</div>
-<a id="a9f53520f21e926baceebab895f08162b" name="a9f53520f21e926baceebab895f08162b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f53520f21e926baceebab895f08162b">&#9670;&#160;</a></span>smearFunctions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename generator_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="namespace_acts_fatras.html#ab2d030bf73774afe826a257a6ad7e710">SingleParameterSmearFunction</a>&lt;generator_t&gt;, kSize&gt; <a class="el" href="struct_acts_fatras_1_1_bound_parameters_smearer.html">ActsFatras::BoundParametersSmearer</a>&lt; generator_t, kSize &gt;::smearFunctions {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Array of smearing functions for each measurement parameter. </p>
 
 </div>
 </div>

@@ -10,7 +10,6 @@ var class_acts_1_1_multi_component_bound_track_parameters =
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a355df79b327cabbacfaca6da234465ff", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a10f0a9e42fe4a308acfaf918a07638ef", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a8d4ac7d0125f99abae071d922da5199e", null ],
-    [ "~MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a789e0a2245d201618f3c317ffe0ffe15", null ],
     [ "absoluteMomentum", "class_acts_1_1_multi_component_bound_track_parameters.html#a920332043fbed7b80dfff5bedbfd4966", null ],
     [ "charge", "class_acts_1_1_multi_component_bound_track_parameters.html#a77dda7667d2a095c80cfb6fcfc9edaab", null ],
     [ "components", "class_acts_1_1_multi_component_bound_track_parameters.html#a6f80c22f96fac29e36b284fe18a309e0", null ],

@@ -1,10 +1,6 @@
 var class_acts_1_1_line_bounds =
 [
-    [ "BoundValues", "class_acts_1_1_line_bounds.html#adb6631142b3d547df8a534e1ed7911e4", [
-      [ "eR", "class_acts_1_1_line_bounds.html#adb6631142b3d547df8a534e1ed7911e4af08ec0aaccafc96ceffd2f1517ca8228", null ],
-      [ "eHalfLengthZ", "class_acts_1_1_line_bounds.html#adb6631142b3d547df8a534e1ed7911e4a3842b7fe507b1e83b0b1cda587f55752", null ],
-      [ "eSize", "class_acts_1_1_line_bounds.html#adb6631142b3d547df8a534e1ed7911e4ab1f1356272dac8559a8ae6872c9b2cfc", null ]
-    ] ],
+    [ "BoundValues", "class_acts_1_1_line_bounds.html#adb6631142b3d547df8a534e1ed7911e4", null ],
     [ "LineBounds", "class_acts_1_1_line_bounds.html#a3c95acd90e169a51ffb9ba05f6242e89", null ],
     [ "LineBounds", "class_acts_1_1_line_bounds.html#ab2b3700e3fb865f0d0d47e33be82c45a", null ],
     [ "boundToCartesianJacobian", "class_acts_1_1_line_bounds.html#a0036719241a7f4730666cd406e27c19a", null ],

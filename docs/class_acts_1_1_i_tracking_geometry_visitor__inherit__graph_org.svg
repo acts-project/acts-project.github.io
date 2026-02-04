@@ -58,7 +58,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="601,-78 412,-78 412,-48 601,-48 601,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="601,-78 412,-78 412,-48 601,-48 601,-78"/>
 <text text-anchor="start" x="420" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail::TrackingGeometry</text>
 <text text-anchor="middle" x="506.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">LambdaMutableVisitor&lt; Callable &gt;</text>
 </a>
@@ -77,7 +77,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="590,-30 423,-30 423,0 590,0 590,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="590,-30 423,-30 423,0 590,0 590,-30"/>
 <text text-anchor="start" x="431" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail::TrackingGeometry</text>
 <text text-anchor="middle" x="506.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">LambdaVisitor&lt; Callable &gt;</text>
 </a>

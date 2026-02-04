@@ -143,61 +143,78 @@ Collaboration diagram for Acts::TrackStateProxy&lt; trajectory_t, M, read_only &
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1e895ddc7749c062ea1343f4ad891608" id="r_a1e895ddc7749c062ea1343f4ad891608"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:a1e895ddc7749c062ea1343f4ad891608 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e895ddc7749c062ea1343f4ad891608">Calibrated</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;N, false&gt;::Calibrated</td></tr>
-<tr class="memdesc:a1e895ddc7749c062ea1343f4ad891608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a calibrated measurement vector, where the local measurement dimension is variable.  <br /></td></tr>
+<tr class="memitem:a1e895ddc7749c062ea1343f4ad891608" id="r_a1e895ddc7749c062ea1343f4ad891608"><td class="memTemplParams" colspan="2"><a id="a1e895ddc7749c062ea1343f4ad891608" name="a1e895ddc7749c062ea1343f4ad891608"></a>
+template&lt;std::size_t N&gt; </td></tr>
+<tr class="memitem:a1e895ddc7749c062ea1343f4ad891608 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>Calibrated</b> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;N, false&gt;::Calibrated</td></tr>
+<tr class="memdesc:a1e895ddc7749c062ea1343f4ad891608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a calibrated measurement vector, where the local measurement dimension is variable. <br /></td></tr>
 <tr class="memitem:abe078d39a530a75ce5e36dd39cec3492" id="r_abe078d39a530a75ce5e36dd39cec3492"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
 <tr class="memitem:abe078d39a530a75ce5e36dd39cec3492 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe078d39a530a75ce5e36dd39cec3492">CalibratedCovariance</a></td></tr>
 <tr class="memdesc:abe078d39a530a75ce5e36dd39cec3492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a calibrated measurement covariance matrix, where the local measurement dimension is variable.  <br /></td></tr>
-<tr class="memitem:a6bc7781170388e6a5efc5dbfba2e369b" id="r_a6bc7781170388e6a5efc5dbfba2e369b"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:a6bc7781170388e6a5efc5dbfba2e369b template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bc7781170388e6a5efc5dbfba2e369b">ConstCalibrated</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;N, true&gt;<a class="el" href="#a1e895ddc7749c062ea1343f4ad891608">::Calibrated</a></td></tr>
-<tr class="memdesc:a6bc7781170388e6a5efc5dbfba2e369b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <code>Calibrated</code>, but with const semantics.  <br /></td></tr>
+<tr class="memitem:a6bc7781170388e6a5efc5dbfba2e369b" id="r_a6bc7781170388e6a5efc5dbfba2e369b"><td class="memTemplParams" colspan="2"><a id="a6bc7781170388e6a5efc5dbfba2e369b" name="a6bc7781170388e6a5efc5dbfba2e369b"></a>
+template&lt;std::size_t N&gt; </td></tr>
+<tr class="memitem:a6bc7781170388e6a5efc5dbfba2e369b template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstCalibrated</b> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;N, true&gt;<a class="el" href="#a1e895ddc7749c062ea1343f4ad891608">::Calibrated</a></td></tr>
+<tr class="memdesc:a6bc7781170388e6a5efc5dbfba2e369b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <code>Calibrated</code>, but with const semantics. <br /></td></tr>
 <tr class="memitem:a105d545b90be92b01c15163e89b8c763" id="r_a105d545b90be92b01c15163e89b8c763"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
 <tr class="memitem:a105d545b90be92b01c15163e89b8c763 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105d545b90be92b01c15163e89b8c763">ConstCalibratedCovariance</a></td></tr>
 <tr class="memdesc:a105d545b90be92b01c15163e89b8c763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#abe078d39a530a75ce5e36dd39cec3492">CalibratedCovariance</a>, but with const semantics.  <br /></td></tr>
-<tr class="memitem:a04aa68f896e3a74cfc505a953867aa70" id="r_a04aa68f896e3a74cfc505a953867aa70"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04aa68f896e3a74cfc505a953867aa70">ConstCovariance</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td></tr>
-<tr class="memdesc:a04aa68f896e3a74cfc505a953867aa70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>, but with const semantics.  <br /></td></tr>
+<tr class="memitem:a04aa68f896e3a74cfc505a953867aa70" id="r_a04aa68f896e3a74cfc505a953867aa70"><td class="memItemLeft" align="right" valign="top"><a id="a04aa68f896e3a74cfc505a953867aa70" name="a04aa68f896e3a74cfc505a953867aa70"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstCovariance</b> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td></tr>
+<tr class="memdesc:a04aa68f896e3a74cfc505a953867aa70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>, but with const semantics. <br /></td></tr>
 <tr class="memitem:a7fbdcef77447c959db9a629ce2a1a50a" id="r_a7fbdcef77447c959db9a629ce2a1a50a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fbdcef77447c959db9a629ce2a1a50a">ConstEffectiveCalibrated</a></td></tr>
 <tr class="memdesc:a7fbdcef77447c959db9a629ce2a1a50a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <code>EffectiveCalibrated</code>, but with const semantics.  <br /></td></tr>
 <tr class="memitem:a1ef98ae9574bf01c97c83eb7ab023257" id="r_a1ef98ae9574bf01c97c83eb7ab023257"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef98ae9574bf01c97c83eb7ab023257">ConstEffectiveCalibratedCovariance</a></td></tr>
 <tr class="memdesc:a1ef98ae9574bf01c97c83eb7ab023257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#a70ad68bbb136d1a602fbec002d79aa65">EffectiveCalibratedCovariance</a>, but with const semantics.  <br /></td></tr>
-<tr class="memitem:a3b1a94121abb954a002a593bd61ef840" id="r_a3b1a94121abb954a002a593bd61ef840"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b1a94121abb954a002a593bd61ef840">ConstJacobian</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td></tr>
-<tr class="memdesc:a3b1a94121abb954a002a593bd61ef840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian shape is identical to <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>.  <br /></td></tr>
-<tr class="memitem:aeccd8d3a35af248c909696973307e1e8" id="r_aeccd8d3a35af248c909696973307e1e8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeccd8d3a35af248c909696973307e1e8">ConstParameters</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">::Parameters</a></td></tr>
-<tr class="memdesc:aeccd8d3a35af248c909696973307e1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">Parameters</a>, but with const semantics.  <br /></td></tr>
-<tr class="memitem:ae2d3dcceec1ddf3457f1bc3b18462a3c" id="r_ae2d3dcceec1ddf3457f1bc3b18462a3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2d3dcceec1ddf3457f1bc3b18462a3c">ConstProxyType</a> = <a class="el" href="#a7c64da1d3029b735fd7651a2cc12cd9e">TrackStateProxy</a>&lt;trajectory_t, M, true&gt;</td></tr>
-<tr class="memdesc:ae2d3dcceec1ddf3457f1bc3b18462a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for an associated const track state proxy, with the same backends.  <br /></td></tr>
+<tr class="memitem:a3b1a94121abb954a002a593bd61ef840" id="r_a3b1a94121abb954a002a593bd61ef840"><td class="memItemLeft" align="right" valign="top"><a id="a3b1a94121abb954a002a593bd61ef840" name="a3b1a94121abb954a002a593bd61ef840"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstJacobian</b> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td></tr>
+<tr class="memdesc:a3b1a94121abb954a002a593bd61ef840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian shape is identical to <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>. <br /></td></tr>
+<tr class="memitem:aeccd8d3a35af248c909696973307e1e8" id="r_aeccd8d3a35af248c909696973307e1e8"><td class="memItemLeft" align="right" valign="top"><a id="aeccd8d3a35af248c909696973307e1e8" name="aeccd8d3a35af248c909696973307e1e8"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstParameters</b> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">::Parameters</a></td></tr>
+<tr class="memdesc:aeccd8d3a35af248c909696973307e1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">Parameters</a>, but with const semantics. <br /></td></tr>
+<tr class="memitem:ae2d3dcceec1ddf3457f1bc3b18462a3c" id="r_ae2d3dcceec1ddf3457f1bc3b18462a3c"><td class="memItemLeft" align="right" valign="top"><a id="ae2d3dcceec1ddf3457f1bc3b18462a3c" name="ae2d3dcceec1ddf3457f1bc3b18462a3c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstProxyType</b> = <a class="el" href="#a7c64da1d3029b735fd7651a2cc12cd9e">TrackStateProxy</a>&lt;trajectory_t, M, true&gt;</td></tr>
+<tr class="memdesc:ae2d3dcceec1ddf3457f1bc3b18462a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for an associated const track state proxy, with the same backends. <br /></td></tr>
 <tr class="memitem:a0fb668c32599042bdb52cfa0db146ddb" id="r_a0fb668c32599042bdb52cfa0db146ddb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, false&gt;::Covariance</td></tr>
 <tr class="memdesc:a0fb668c32599042bdb52cfa0db146ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a bound covariance.  <br /></td></tr>
 <tr class="memitem:abb5a22a568840d5db0b57015c3cdf96a" id="r_abb5a22a568840d5db0b57015c3cdf96a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb5a22a568840d5db0b57015c3cdf96a">EffectiveCalibrated</a></td></tr>
 <tr class="memdesc:abb5a22a568840d5db0b57015c3cdf96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a measurement vector, where the local measurement dimension is variable.  <br /></td></tr>
 <tr class="memitem:a70ad68bbb136d1a602fbec002d79aa65" id="r_a70ad68bbb136d1a602fbec002d79aa65"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70ad68bbb136d1a602fbec002d79aa65">EffectiveCalibratedCovariance</a></td></tr>
 <tr class="memdesc:a70ad68bbb136d1a602fbec002d79aa65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a measurement covariance matrix, where the local measurement dimension is variable.  <br /></td></tr>
-<tr class="memitem:a88faa591bbaae408e41c6db7fb39e0e5" id="r_a88faa591bbaae408e41c6db7fb39e0e5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td></tr>
-<tr class="memdesc:a88faa591bbaae408e41c6db7fb39e0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index type of the track state container.  <br /></td></tr>
-<tr class="memitem:aaff8087426b7d32fdb08af4c0fd38381" id="r_aaff8087426b7d32fdb08af4c0fd38381"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff8087426b7d32fdb08af4c0fd38381">Jacobian</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, false&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td></tr>
-<tr class="memdesc:aaff8087426b7d32fdb08af4c0fd38381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian shape is identical to <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>.  <br /></td></tr>
+<tr class="memitem:a88faa591bbaae408e41c6db7fb39e0e5" id="r_a88faa591bbaae408e41c6db7fb39e0e5"><td class="memItemLeft" align="right" valign="top"><a id="a88faa591bbaae408e41c6db7fb39e0e5" name="a88faa591bbaae408e41c6db7fb39e0e5"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td></tr>
+<tr class="memdesc:a88faa591bbaae408e41c6db7fb39e0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index type of the track state container. <br /></td></tr>
+<tr class="memitem:aaff8087426b7d32fdb08af4c0fd38381" id="r_aaff8087426b7d32fdb08af4c0fd38381"><td class="memItemLeft" align="right" valign="top"><a id="aaff8087426b7d32fdb08af4c0fd38381" name="aaff8087426b7d32fdb08af4c0fd38381"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Jacobian</b> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, false&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td></tr>
+<tr class="memdesc:aaff8087426b7d32fdb08af4c0fd38381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian shape is identical to <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>. <br /></td></tr>
 <tr class="memitem:ac11c999ddcc05da568b3a67de7f9dfe3" id="r_ac11c999ddcc05da568b3a67de7f9dfe3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">Parameters</a> = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, false&gt;::Parameters</td></tr>
 <tr class="memdesc:ac11c999ddcc05da568b3a67de7f9dfe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map-type for a bound parameter vector.  <br /></td></tr>
-<tr class="memitem:ab5e5ad251ac9d342e90dfe255b698896" id="r_ab5e5ad251ac9d342e90dfe255b698896"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e5ad251ac9d342e90dfe255b698896">Trajectory</a> = trajectory_t</td></tr>
-<tr class="memdesc:ab5e5ad251ac9d342e90dfe255b698896"><td class="mdescLeft">&#160;</td><td class="mdescRight">The track state container backend given as a template parameter.  <br /></td></tr>
+<tr class="memitem:ab5e5ad251ac9d342e90dfe255b698896" id="r_ab5e5ad251ac9d342e90dfe255b698896"><td class="memItemLeft" align="right" valign="top"><a id="ab5e5ad251ac9d342e90dfe255b698896" name="ab5e5ad251ac9d342e90dfe255b698896"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Trajectory</b> = trajectory_t</td></tr>
+<tr class="memdesc:ab5e5ad251ac9d342e90dfe255b698896"><td class="mdescLeft">&#160;</td><td class="mdescRight">The track state container backend given as a template parameter. <br /></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_track_state_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_track_state_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon&lt; TrackStateProxy&lt; trajectory_t, M, true &gt;, true &gt;</a></td></tr>
-<tr class="memitem:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ae1e81f4a291996c6f5b7f0c7b94b6dca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#ae1e81f4a291996c6f5b7f0c7b94b6dca">ParametersMap</a></td></tr>
-<tr class="memdesc:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameters.  <br /></td></tr>
-<tr class="memitem:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_aae5aa77e2e24848e8b241d784ad23dfd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#aae5aa77e2e24848e8b241d784ad23dfd">ConstParametersMap</a></td></tr>
-<tr class="memdesc:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameters.  <br /></td></tr>
-<tr class="memitem:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2d98de5976dbf8e189a73f2b8ca219b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2d98de5976dbf8e189a73f2b8ca219b0">CovarianceMap</a></td></tr>
-<tr class="memdesc:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameter covariance.  <br /></td></tr>
-<tr class="memitem:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ab0f2f94fc5a3600cc1f61a368e427963"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#ab0f2f94fc5a3600cc1f61a368e427963">ConstCovarianceMap</a></td></tr>
-<tr class="memdesc:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameter covariance.  <br /></td></tr>
-<tr class="memitem:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2640cb1596c0c91b3befbfcafd48f170"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2640cb1596c0c91b3befbfcafd48f170">EffectiveCalibratedMap</a></td></tr>
-<tr class="memdesc:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurements (dynamic size).  <br /></td></tr>
-<tr class="memitem:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a13a94a3c1198948a338b43ab31b1edd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a13a94a3c1198948a338b43ab31b1edd8">ConstEffectiveCalibratedMap</a></td></tr>
-<tr class="memdesc:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurements (dynamic size).  <br /></td></tr>
-<tr class="memitem:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a23a99e03ffbb25cc9a84e325cfbd01cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a23a99e03ffbb25cc9a84e325cfbd01cf">EffectiveCalibratedCovarianceMap</a></td></tr>
-<tr class="memdesc:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurement covariance (dynamic size).  <br /></td></tr>
-<tr class="memitem:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a9c0e91c6a1603f6e8dba7c1e00160fd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a9c0e91c6a1603f6e8dba7c1e00160fd8">ConstEffectiveCalibratedCovarianceMap</a></td></tr>
-<tr class="memdesc:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurement covariance (dynamic size).  <br /></td></tr>
+<tr class="memitem:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ae1e81f4a291996c6f5b7f0c7b94b6dca"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersMap</b></td></tr>
+<tr class="memdesc:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameters. <br /></td></tr>
+<tr class="memitem:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_aae5aa77e2e24848e8b241d784ad23dfd"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstParametersMap</b></td></tr>
+<tr class="memdesc:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameters. <br /></td></tr>
+<tr class="memitem:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2d98de5976dbf8e189a73f2b8ca219b0"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMap</b></td></tr>
+<tr class="memdesc:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameter covariance. <br /></td></tr>
+<tr class="memitem:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ab0f2f94fc5a3600cc1f61a368e427963"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstCovarianceMap</b></td></tr>
+<tr class="memdesc:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameter covariance. <br /></td></tr>
+<tr class="memitem:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2640cb1596c0c91b3befbfcafd48f170"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>EffectiveCalibratedMap</b></td></tr>
+<tr class="memdesc:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurements (dynamic size). <br /></td></tr>
+<tr class="memitem:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a13a94a3c1198948a338b43ab31b1edd8"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstEffectiveCalibratedMap</b></td></tr>
+<tr class="memdesc:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurements (dynamic size). <br /></td></tr>
+<tr class="memitem:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a23a99e03ffbb25cc9a84e325cfbd01cf"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>EffectiveCalibratedCovarianceMap</b></td></tr>
+<tr class="memdesc:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurement covariance (dynamic size). <br /></td></tr>
+<tr class="memitem:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a9c0e91c6a1603f6e8dba7c1e00160fd8"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstEffectiveCalibratedCovarianceMap</b></td></tr>
+<tr class="memdesc:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurement covariance (dynamic size). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -376,7 +393,7 @@ requires (!<a class="el" href="#a99b5acfc879ef16dc1c017452b5bbe87">ReadOnly</a>)
 <tr class="memdesc:a4bb9736a7c382a83ce79d543f563e6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Share a shareable component from another track state.  <br /></td></tr>
 <tr class="memitem:affcbffae2f5137aad8fbc5dffe187f2e" id="r_affcbffae2f5137aad8fbc5dffe187f2e"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; <br />
 requires (!<a class="el" href="#a99b5acfc879ef16dc1c017452b5bbe87">ReadOnly</a>)</td></tr>
-<tr class="memitem:affcbffae2f5137aad8fbc5dffe187f2e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affcbffae2f5137aad8fbc5dffe187f2e">copyFrom</a> (const track_state_proxy_t &amp;other, <a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a>, bool onlyAllocated=true)</td></tr>
+<tr class="memitem:affcbffae2f5137aad8fbc5dffe187f2e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affcbffae2f5137aad8fbc5dffe187f2e">copyFrom</a> (const track_state_proxy_t &amp;other, <a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=TrackStatePropMask::All, bool onlyAllocated=true)</td></tr>
 <tr class="memdesc:affcbffae2f5137aad8fbc5dffe187f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the contents of another track state proxy into this one.  <br /></td></tr>
 <tr id="pub-methods-4" class="groupHeader"><td colspan="2"><div class="groupHeader">Track state proxy Generic component access</div></td></tr>
 <tr><td colspan="2" class="ititle"><div class="groupText"><p><a class="anchor" id="track_state_proxy_generic_component"></a></p>
@@ -469,28 +486,41 @@ requires (!<a class="el" href="#a99b5acfc879ef16dc1c017452b5bbe87">ReadOnly</a>)
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac971a8625ee702ef7cb743fa52e4f186" id="r_ac971a8625ee702ef7cb743fa52e4f186"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac971a8625ee702ef7cb743fa52e4f186">kInvalid</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
-<tr class="memdesc:ac971a8625ee702ef7cb743fa52e4f186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value that indicates an invalid index.  <br /></td></tr>
-<tr class="memitem:a99b5acfc879ef16dc1c017452b5bbe87" id="r_a99b5acfc879ef16dc1c017452b5bbe87"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99b5acfc879ef16dc1c017452b5bbe87">ReadOnly</a> = read_only</td></tr>
-<tr class="memdesc:a99b5acfc879ef16dc1c017452b5bbe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether this track state proxy is read-only or if it can be modified.  <br /></td></tr>
+<tr class="memitem:ac971a8625ee702ef7cb743fa52e4f186" id="r_ac971a8625ee702ef7cb743fa52e4f186"><td class="memItemLeft" align="right" valign="top"><a id="ac971a8625ee702ef7cb743fa52e4f186" name="ac971a8625ee702ef7cb743fa52e4f186"></a>
+static constexpr <a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kInvalid</b> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
+<tr class="memdesc:ac971a8625ee702ef7cb743fa52e4f186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value that indicates an invalid index. <br /></td></tr>
+<tr class="memitem:a99b5acfc879ef16dc1c017452b5bbe87" id="r_a99b5acfc879ef16dc1c017452b5bbe87"><td class="memItemLeft" align="right" valign="top"><a id="a99b5acfc879ef16dc1c017452b5bbe87" name="a99b5acfc879ef16dc1c017452b5bbe87"></a>
+static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadOnly</b> = read_only</td></tr>
+<tr class="memdesc:a99b5acfc879ef16dc1c017452b5bbe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether this track state proxy is read-only or if it can be modified. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3d6c0e3e172cfb8a8a5a64b016880357" id="r_a3d6c0e3e172cfb8a8a5a64b016880357"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d6c0e3e172cfb8a8a5a64b016880357">calibratedCovarianceData</a> () const</td></tr>
+<tr class="memdesc:a3d6c0e3e172cfb8a8a5a64b016880357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const pointer to calibrated covariance data.  <br /></td></tr>
 <tr class="memitem:a93228bc024cce804758a23771a3f0a5e" id="r_a93228bc024cce804758a23771a3f0a5e"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93228bc024cce804758a23771a3f0a5e">calibratedCovarianceDataMutable</a> ()</td></tr>
+<tr class="memdesc:a93228bc024cce804758a23771a3f0a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable pointer to calibrated covariance data.  <br /></td></tr>
 <tr class="memitem:a53acd90035e1c3e155a472d4e55abd00" id="r_a53acd90035e1c3e155a472d4e55abd00"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53acd90035e1c3e155a472d4e55abd00">calibratedData</a> () const</td></tr>
+<tr class="memdesc:a53acd90035e1c3e155a472d4e55abd00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const pointer to calibrated measurement data.  <br /></td></tr>
 <tr class="memitem:ab8035fe0d309c18548cd0c8fc6abe0f4" id="r_ab8035fe0d309c18548cd0c8fc6abe0f4"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8035fe0d309c18548cd0c8fc6abe0f4">calibratedDataMutable</a> ()</td></tr>
+<tr class="memdesc:ab8035fe0d309c18548cd0c8fc6abe0f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable pointer to calibrated measurement data.  <br /></td></tr>
 <tr class="memitem:afcd8287dac42309c07357dc494c24226" id="r_afcd8287dac42309c07357dc494c24226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a04aa68f896e3a74cfc505a953867aa70">ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcd8287dac42309c07357dc494c24226">covarianceAtIndex</a> (<a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a> covIndex) const</td></tr>
+<tr class="memdesc:afcd8287dac42309c07357dc494c24226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get covariance at given index.  <br /></td></tr>
 <tr class="memitem:ac6ebf59da4c60e51f95ce696c3b1e91f" id="r_ac6ebf59da4c60e51f95ce696c3b1e91f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6ebf59da4c60e51f95ce696c3b1e91f">covarianceAtIndexMutable</a> (<a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a> covIndex)</td></tr>
+<tr class="memdesc:ac6ebf59da4c60e51f95ce696c3b1e91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable covariance at given index.  <br /></td></tr>
 <tr class="memitem:a14bee409ce04e472b9a5f007e2bb683c" id="r_a14bee409ce04e472b9a5f007e2bb683c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aeccd8d3a35af248c909696973307e1e8">ConstParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bee409ce04e472b9a5f007e2bb683c">parametersAtIndex</a> (<a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a> parIndex) const</td></tr>
+<tr class="memdesc:a14bee409ce04e472b9a5f007e2bb683c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameters at given index.  <br /></td></tr>
 <tr class="memitem:ad32f3b6734489b4b156277cd99ec1da5" id="r_ad32f3b6734489b4b156277cd99ec1da5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad32f3b6734489b4b156277cd99ec1da5">parametersAtIndexMutable</a> (<a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a> parIndex)</td></tr>
+<tr class="memdesc:ad32f3b6734489b4b156277cd99ec1da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable parameters at given index.  <br /></td></tr>
 <tr class="inherit_header pro_methods_class_acts_1_1_track_state_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_acts_1_1_track_state_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon&lt; TrackStateProxy&lt; trajectory_t, M, true &gt;, true &gt;</a></td></tr>
 <tr class="memitem:a2af33c16285fe18d3b55f573eff37777 inherit pro_methods_class_acts_1_1_track_state_proxy_common" id="r_a2af33c16285fe18d3b55f573eff37777"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_track_state_proxy.html">TrackStateProxy</a>&lt; trajectory_t, M, true &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2af33c16285fe18d3b55f573eff37777">derived</a> ()</td></tr>
+<tr class="memdesc:a2af33c16285fe18d3b55f573eff37777 inherit pro_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast to derived class.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_types_class_acts_1_1_track_state_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_types_class_acts_1_1_track_state_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Types inherited from <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon&lt; TrackStateProxy&lt; trajectory_t, M, true &gt;, true &gt;</a></td></tr>
-<tr class="memitem:a1eb7bb75ad008d22048fe498e6b11ebb inherit pro_types_class_acts_1_1_track_state_proxy_common" id="r_a1eb7bb75ad008d22048fe498e6b11ebb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a1eb7bb75ad008d22048fe498e6b11ebb">IndexType</a></td></tr>
+<tr class="memitem:a1eb7bb75ad008d22048fe498e6b11ebb inherit pro_types_class_acts_1_1_track_state_proxy_common" id="r_a1eb7bb75ad008d22048fe498e6b11ebb"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b></td></tr>
+<tr class="memdesc:a1eb7bb75ad008d22048fe498e6b11ebb inherit pro_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index type for track states. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt;<br />
@@ -504,26 +534,6 @@ class Acts::TrackStateProxy&lt; trajectory_t, M, read_only &gt;</div><p>Proxy ob
   </dd>
 </dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a1e895ddc7749c062ea1343f4ad891608" name="a1e895ddc7749c062ea1343f4ad891608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e895ddc7749c062ea1343f4ad891608">&#9670;&#160;</a></span>Calibrated</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-<div class="memtemplate">
-template&lt;std::size_t N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::Calibrated = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;N, false&gt;::Calibrated</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Map-type for a calibrated measurement vector, where the local measurement dimension is variable. </p>
-
-</div>
-</div>
 <a id="abe078d39a530a75ce5e36dd39cec3492" name="abe078d39a530a75ce5e36dd39cec3492"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe078d39a530a75ce5e36dd39cec3492">&#9670;&#160;</a></span>CalibratedCovariance</h2>
 
@@ -541,29 +551,9 @@ template&lt;std::size_t N&gt; </div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39">TrackStateTraits&lt;N, false&gt;::CalibratedCovariance</a></div>
-<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_a69c1b4dda6f50162722441d089a51a39"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39">Acts::TrackStateTraits::CalibratedCovariance</a></div><div class="ttdeci">typename detail_tsp::FixedSizeTypes&lt; M, ReadOnly &gt;::CovarianceMap CalibratedCovariance</div><div class="ttdef"><b>Definition</b> Types.hpp:104</div></div>
+<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_a69c1b4dda6f50162722441d089a51a39"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#a69c1b4dda6f50162722441d089a51a39">Acts::TrackStateTraits::CalibratedCovariance</a></div><div class="ttdeci">typename detail_tsp::FixedSizeTypes&lt; M, ReadOnly &gt;::CovarianceMap CalibratedCovariance</div><div class="ttdoc">Calibrated measurement covariance matrix type.</div><div class="ttdef"><b>Definition</b> Types.hpp:113</div></div>
 </div><!-- fragment -->
 <p>Map-type for a calibrated measurement covariance matrix, where the local measurement dimension is variable. </p>
-
-</div>
-</div>
-<a id="a6bc7781170388e6a5efc5dbfba2e369b" name="a6bc7781170388e6a5efc5dbfba2e369b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bc7781170388e6a5efc5dbfba2e369b">&#9670;&#160;</a></span>ConstCalibrated</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-<div class="memtemplate">
-template&lt;std::size_t N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::ConstCalibrated = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;N, true&gt;<a class="el" href="#a1e895ddc7749c062ea1343f4ad891608">::Calibrated</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Same as <code>Calibrated</code>, but with const semantics. </p>
 
 </div>
 </div>
@@ -589,24 +579,6 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
-<a id="a04aa68f896e3a74cfc505a953867aa70" name="a04aa68f896e3a74cfc505a953867aa70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04aa68f896e3a74cfc505a953867aa70">&#9670;&#160;</a></span>ConstCovariance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::ConstCovariance = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Same as <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>, but with const semantics. </p>
-
-</div>
-</div>
 <a id="a7fbdcef77447c959db9a629ce2a1a50a" name="a7fbdcef77447c959db9a629ce2a1a50a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fbdcef77447c959db9a629ce2a1a50a">&#9670;&#160;</a></span>ConstEffectiveCalibrated</h2>
 
@@ -622,7 +594,7 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb">TrackStateTraits&lt;M, true&gt;::EffectiveCalibrated</a></div>
-<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_ad1aba98b04ee9311c42f7a393c7e87fb"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb">Acts::TrackStateTraits::EffectiveCalibrated</a></div><div class="ttdeci">typename detail_tsp::DynamicSizeTypes&lt; ReadOnly &gt;::CoefficientsMap EffectiveCalibrated</div><div class="ttdef"><b>Definition</b> Types.hpp:106</div></div>
+<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_ad1aba98b04ee9311c42f7a393c7e87fb"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#ad1aba98b04ee9311c42f7a393c7e87fb">Acts::TrackStateTraits::EffectiveCalibrated</a></div><div class="ttdeci">typename detail_tsp::DynamicSizeTypes&lt; ReadOnly &gt;::CoefficientsMap EffectiveCalibrated</div><div class="ttdoc">Effective calibrated measurement vector type.</div><div class="ttdef"><b>Definition</b> Types.hpp:116</div></div>
 </div><!-- fragment -->
 <p>Same as <code>EffectiveCalibrated</code>, but with const semantics. </p>
 
@@ -643,63 +615,9 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0">TrackStateTraits&lt;M, true&gt;::EffectiveCalibratedCovariance</a></div>
-<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_ab8a875b8aa96b3a6024a5e50c5e816d0"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0">Acts::TrackStateTraits::EffectiveCalibratedCovariance</a></div><div class="ttdeci">typename detail_tsp::DynamicSizeTypes&lt; ReadOnly &gt;::CovarianceMap EffectiveCalibratedCovariance</div><div class="ttdef"><b>Definition</b> Types.hpp:108</div></div>
+<div class="ttc" id="astruct_acts_1_1_track_state_traits_html_ab8a875b8aa96b3a6024a5e50c5e816d0"><div class="ttname"><a href="struct_acts_1_1_track_state_traits.html#ab8a875b8aa96b3a6024a5e50c5e816d0">Acts::TrackStateTraits::EffectiveCalibratedCovariance</a></div><div class="ttdeci">typename detail_tsp::DynamicSizeTypes&lt; ReadOnly &gt;::CovarianceMap EffectiveCalibratedCovariance</div><div class="ttdoc">Effective calibrated measurement covariance matrix type.</div><div class="ttdef"><b>Definition</b> Types.hpp:119</div></div>
 </div><!-- fragment -->
 <p>Same as <a class="el" href="#a70ad68bbb136d1a602fbec002d79aa65">EffectiveCalibratedCovariance</a>, but with const semantics. </p>
-
-</div>
-</div>
-<a id="a3b1a94121abb954a002a593bd61ef840" name="a3b1a94121abb954a002a593bd61ef840"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b1a94121abb954a002a593bd61ef840">&#9670;&#160;</a></span>ConstJacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::ConstJacobian = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Jacobian shape is identical to <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>. </p>
-
-</div>
-</div>
-<a id="aeccd8d3a35af248c909696973307e1e8" name="aeccd8d3a35af248c909696973307e1e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeccd8d3a35af248c909696973307e1e8">&#9670;&#160;</a></span>ConstParameters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::ConstParameters = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, true&gt;<a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">::Parameters</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Same as <a class="el" href="#ac11c999ddcc05da568b3a67de7f9dfe3">Parameters</a>, but with const semantics. </p>
-
-</div>
-</div>
-<a id="ae2d3dcceec1ddf3457f1bc3b18462a3c" name="ae2d3dcceec1ddf3457f1bc3b18462a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2d3dcceec1ddf3457f1bc3b18462a3c">&#9670;&#160;</a></span>ConstProxyType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::ConstProxyType = <a class="el" href="#a7c64da1d3029b735fd7651a2cc12cd9e">TrackStateProxy</a>&lt;trajectory_t, M, true&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Alias for an associated const track state proxy, with the same backends. </p>
 
 </div>
 </div>
@@ -762,42 +680,6 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 
 </div>
 </div>
-<a id="a88faa591bbaae408e41c6db7fb39e0e5" name="a88faa591bbaae408e41c6db7fb39e0e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88faa591bbaae408e41c6db7fb39e0e5">&#9670;&#160;</a></span>IndexType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::IndexType = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The index type of the track state container. </p>
-
-</div>
-</div>
-<a id="aaff8087426b7d32fdb08af4c0fd38381" name="aaff8087426b7d32fdb08af4c0fd38381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaff8087426b7d32fdb08af4c0fd38381">&#9670;&#160;</a></span>Jacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::Jacobian = typename <a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt;M, false&gt;<a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">::Covariance</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Jacobian shape is identical to <a class="el" href="#a0fb668c32599042bdb52cfa0db146ddb">Covariance</a>. </p>
-
-</div>
-</div>
 <a id="ac11c999ddcc05da568b3a67de7f9dfe3" name="ac11c999ddcc05da568b3a67de7f9dfe3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac11c999ddcc05da568b3a67de7f9dfe3">&#9670;&#160;</a></span>Parameters</h2>
 
@@ -814,24 +696,6 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 
 <p>Map-type for a bound parameter vector. </p>
 <p>This has reference semantics, i.e. points at a matrix by an internal pointer. </p>
-
-</div>
-</div>
-<a id="ab5e5ad251ac9d342e90dfe255b698896" name="ab5e5ad251ac9d342e90dfe255b698896"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5e5ad251ac9d342e90dfe255b698896">&#9670;&#160;</a></span>Trajectory</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::Trajectory = trajectory_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The track state container backend given as a template parameter. </p>
 
 </div>
 </div>
@@ -1144,6 +1008,9 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </table>
 </div><div class="memdoc">
 
+<p>Get const pointer to calibrated covariance data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const pointer to calibrated covariance array </dd></dl>
+
 </div>
 </div>
 <a id="a93228bc024cce804758a23771a3f0a5e" name="a93228bc024cce804758a23771a3f0a5e"></a>
@@ -1170,6 +1037,9 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get mutable pointer to calibrated covariance data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to calibrated covariance array </dd></dl>
 
 </div>
 </div>
@@ -1198,6 +1068,9 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </table>
 </div><div class="memdoc">
 
+<p>Get const pointer to calibrated measurement data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const pointer to calibrated data array </dd></dl>
+
 </div>
 </div>
 <a id="ab8035fe0d309c18548cd0c8fc6abe0f4" name="ab8035fe0d309c18548cd0c8fc6abe0f4"></a>
@@ -1224,6 +1097,9 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get mutable pointer to calibrated measurement data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to calibrated data array </dd></dl>
 
 </div>
 </div>
@@ -1616,7 +1492,7 @@ requires (!<a class="el" href="#a99b5acfc879ef16dc1c017452b5bbe87">ReadOnly</a>)
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">TrackStatePropMask::All</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1688,6 +1564,15 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </table>
 </div><div class="memdoc">
 
+<p>Get covariance at given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">covIndex</td><td>Index of covariance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const covariance </dd></dl>
+
 </div>
 </div>
 <a id="ac6ebf59da4c60e51f95ce696c3b1e91f" name="ac6ebf59da4c60e51f95ce696c3b1e91f"></a>
@@ -1714,6 +1599,15 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get mutable covariance at given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">covIndex</td><td>Index of covariance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mutable covariance </dd></dl>
 
 </div>
 </div>
@@ -2454,6 +2348,15 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </table>
 </div><div class="memdoc">
 
+<p>Get parameters at given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parIndex</td><td>Index of parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const parameters </dd></dl>
+
 </div>
 </div>
 <a id="ad32f3b6734489b4b156277cd99ec1da5" name="ad32f3b6734489b4b156277cd99ec1da5"></a>
@@ -2480,6 +2383,15 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get mutable parameters at given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parIndex</td><td>Index of parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mutable parameters </dd></dl>
 
 </div>
 </div>
@@ -3124,59 +3036,6 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ac971a8625ee702ef7cb743fa52e4f186" name="ac971a8625ee702ef7cb743fa52e4f186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac971a8625ee702ef7cb743fa52e4f186">&#9670;&#160;</a></span>kInvalid</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a> <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::kInvalid = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sentinel value that indicates an invalid index. </p>
-
-</div>
-</div>
-<a id="a99b5acfc879ef16dc1c017452b5bbe87" name="a99b5acfc879ef16dc1c017452b5bbe87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99b5acfc879ef16dc1c017452b5bbe87">&#9670;&#160;</a></span>ReadOnly</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::ReadOnly = read_only</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Indicates whether this track state proxy is read-only or if it can be modified. </p>
 
 </div>
 </div>

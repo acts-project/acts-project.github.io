@@ -22,7 +22,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="633,-126 460,-126 460,-96 633,-96 633,-126"/>
+<polygon fill="white" stroke="#bfbfbf" points="633,-126 460,-126 460,-96 633,-96 633,-126"/>
 <text text-anchor="start" x="468" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SupportsBoundParameters</text>
 <text text-anchor="middle" x="546.5" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; EigenStepper&lt;&gt; &gt;</text>
 </a>
@@ -42,7 +42,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="633,-78 460,-78 460,-48 633,-48 633,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="633,-78 460,-78 460,-48 633,-48 633,-78"/>
 <text text-anchor="start" x="468" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SupportsBoundParameters</text>
 <text text-anchor="middle" x="546.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; StraightLineStepper &gt;</text>
 </a>
@@ -62,7 +62,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="633,-30 460,-30 460,0 633,0 633,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="633,-30 460,-30 460,0 633,0 633,-30"/>
 <text text-anchor="start" x="468" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SupportsBoundParameters</text>
 <text text-anchor="middle" x="546.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SympyStepper &gt;</text>
 </a>
@@ -82,7 +82,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="89,-72.5 0,-72.5 0,-53.5 89,-53.5 89,-72.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="89,-72.5 0,-72.5 0,-53.5 89,-53.5 89,-72.5"/>
 <text text-anchor="middle" x="44.5" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::false_type</text>
 </a>
 </g>

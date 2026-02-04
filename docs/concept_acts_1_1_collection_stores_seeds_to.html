@@ -125,15 +125,13 @@ $(function(){initNavTree('concept_acts_1_1_collection_stores_seeds_to.html','','
   <div class="headertitle"><div class="title">Acts::CollectionStoresSeedsTo Concept Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="_seed_finder_8hpp_source.html">Acts/Seeding/SeedFinder.hpp</a>&gt;</code></p>
 <h2 id="header-conceptdef" class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> collection_t, <span class="keyword">typename</span> external_t, std::<span class="keywordtype">size_t</span> N 3ul&gt;</div>
 <div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_collection_stores_seeds_to.html">Acts::CollectionStoresSeedsTo</a> = </div>
 <div class="line">    <span class="keyword">requires</span>(collection_t coll, <a class="code hl_class" href="class_acts_1_1_seed.html">Seed&lt;external_t, N&gt;</a> seed) {</div>
 <div class="line">      detail::pushBackOrInsertAtEnd(coll, seed);</div>
 <div class="line">    }</div>
-<div class="ttc" id="aclass_acts_1_1_seed_html"><div class="ttname"><a href="class_acts_1_1_seed.html">Acts::Seed</a></div><div class="ttdef"><b>Definition</b> Seed.hpp:17</div></div>
+<div class="ttc" id="aclass_acts_1_1_seed_html"><div class="ttname"><a href="class_acts_1_1_seed.html">Acts::Seed</a></div><div class="ttdoc">Seed built from N external space points.</div><div class="ttdef"><b>Definition</b> Seed.hpp:18</div></div>
 <div class="ttc" id="aconcept_acts_1_1_collection_stores_seeds_to_html"><div class="ttname"><a href="concept_acts_1_1_collection_stores_seeds_to.html">Acts::CollectionStoresSeedsTo</a></div><div class="ttdef"><b>Definition</b> SeedFinder.hpp:36</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

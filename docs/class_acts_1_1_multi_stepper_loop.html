@@ -144,8 +144,10 @@ Collaboration diagram for Acts::MultiStepperLoop&lt; single_stepper_t, component
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the multi-stepper loop.  <a href="struct_acts_1_1_multi_stepper_loop_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_options.html">Options</a></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State container for multi-component stepping.  <a href="struct_acts_1_1_multi_stepper_loop_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -155,16 +157,21 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a4c04e0a4abab2458b926bbd31a22786a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A proxy struct which allows access to a single component of the multi-component state.  <br /></td></tr>
 <tr class="memitem:ae7f0c6ca518ae97111f67a4da70423ed" id="r_ae7f0c6ca518ae97111f67a4da70423ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f0c6ca518ae97111f67a4da70423ed">ConstComponentProxy</a></td></tr>
 <tr class="memdesc:ae7f0c6ca518ae97111f67a4da70423ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A proxy struct which allows access to a single component of the multi-component state.  <br /></td></tr>
-<tr class="memitem:a49f9ef065470ab990eec8f3e01eb698a" id="r_a49f9ef065470ab990eec8f3e01eb698a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f9ef065470ab990eec8f3e01eb698a">Reducer</a> = component_reducer_t</td></tr>
-<tr class="memdesc:a49f9ef065470ab990eec8f3e01eb698a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reducer type.  <br /></td></tr>
-<tr class="memitem:ac48fd14cb18d559b290831a2736f312d" id="r_ac48fd14cb18d559b290831a2736f312d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac48fd14cb18d559b290831a2736f312d">SingleConfig</a> = typename SingleStepper::Config</td></tr>
-<tr class="memdesc:ac48fd14cb18d559b290831a2736f312d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the Config of the single component Stepper.  <br /></td></tr>
-<tr class="memitem:aa0f294a69febb3a5fad1e0adae46e0a7" id="r_aa0f294a69febb3a5fad1e0adae46e0a7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0f294a69febb3a5fad1e0adae46e0a7">SingleOptions</a> = typename SingleStepper::Options</td></tr>
-<tr class="memdesc:aa0f294a69febb3a5fad1e0adae46e0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the Single-Component Stepper Options.  <br /></td></tr>
-<tr class="memitem:afb16bd3a77436790ee0e1c4148fb5cf7" id="r_afb16bd3a77436790ee0e1c4148fb5cf7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb16bd3a77436790ee0e1c4148fb5cf7">SingleState</a> = typename SingleStepper::State</td></tr>
-<tr class="memdesc:afb16bd3a77436790ee0e1c4148fb5cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the State of the single component Stepper.  <br /></td></tr>
-<tr class="memitem:a7767f8dd7e4a4a2aec00b0ed9a7411f1" id="r_a7767f8dd7e4a4a2aec00b0ed9a7411f1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7767f8dd7e4a4a2aec00b0ed9a7411f1">SingleStepper</a> = single_stepper_t</td></tr>
-<tr class="memdesc:a7767f8dd7e4a4a2aec00b0ed9a7411f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the Single-Component Eigen Stepper.  <br /></td></tr>
+<tr class="memitem:a49f9ef065470ab990eec8f3e01eb698a" id="r_a49f9ef065470ab990eec8f3e01eb698a"><td class="memItemLeft" align="right" valign="top"><a id="a49f9ef065470ab990eec8f3e01eb698a" name="a49f9ef065470ab990eec8f3e01eb698a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Reducer</b> = component_reducer_t</td></tr>
+<tr class="memdesc:a49f9ef065470ab990eec8f3e01eb698a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reducer type. <br /></td></tr>
+<tr class="memitem:ac48fd14cb18d559b290831a2736f312d" id="r_ac48fd14cb18d559b290831a2736f312d"><td class="memItemLeft" align="right" valign="top"><a id="ac48fd14cb18d559b290831a2736f312d" name="ac48fd14cb18d559b290831a2736f312d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SingleConfig</b> = typename SingleStepper::Config</td></tr>
+<tr class="memdesc:ac48fd14cb18d559b290831a2736f312d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the Config of the single component Stepper. <br /></td></tr>
+<tr class="memitem:aa0f294a69febb3a5fad1e0adae46e0a7" id="r_aa0f294a69febb3a5fad1e0adae46e0a7"><td class="memItemLeft" align="right" valign="top"><a id="aa0f294a69febb3a5fad1e0adae46e0a7" name="aa0f294a69febb3a5fad1e0adae46e0a7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SingleOptions</b> = typename SingleStepper::Options</td></tr>
+<tr class="memdesc:aa0f294a69febb3a5fad1e0adae46e0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the Single-Component Stepper Options. <br /></td></tr>
+<tr class="memitem:afb16bd3a77436790ee0e1c4148fb5cf7" id="r_afb16bd3a77436790ee0e1c4148fb5cf7"><td class="memItemLeft" align="right" valign="top"><a id="afb16bd3a77436790ee0e1c4148fb5cf7" name="afb16bd3a77436790ee0e1c4148fb5cf7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SingleState</b> = typename SingleStepper::State</td></tr>
+<tr class="memdesc:afb16bd3a77436790ee0e1c4148fb5cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the State of the single component Stepper. <br /></td></tr>
+<tr class="memitem:a7767f8dd7e4a4a2aec00b0ed9a7411f1" id="r_a7767f8dd7e4a4a2aec00b0ed9a7411f1"><td class="memItemLeft" align="right" valign="top"><a id="a7767f8dd7e4a4a2aec00b0ed9a7411f1" name="a7767f8dd7e4a4a2aec00b0ed9a7411f1"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SingleStepper</b> = single_stepper_t</td></tr>
+<tr class="memdesc:a7767f8dd7e4a4a2aec00b0ed9a7411f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef to the Single-Component Eigen Stepper. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -236,8 +243,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af87a75205a8a0417f5072228a67143ca" id="r_af87a75205a8a0417f5072228a67143ca"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af87a75205a8a0417f5072228a67143ca">maxComponents</a> = std::numeric_limits&lt;int&gt;::max()</td></tr>
-<tr class="memdesc:af87a75205a8a0417f5072228a67143ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many components can this stepper manage?  <br /></td></tr>
+<tr class="memitem:af87a75205a8a0417f5072228a67143ca" id="r_af87a75205a8a0417f5072228a67143ca"><td class="memItemLeft" align="right" valign="top"><a id="af87a75205a8a0417f5072228a67143ca" name="af87a75205a8a0417f5072228a67143ca"></a>
+static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><b>maxComponents</b> = std::numeric_limits&lt;int&gt;::max()</td></tr>
+<tr class="memdesc:af87a75205a8a0417f5072228a67143ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many components can this stepper manage? <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt;<br />
@@ -311,101 +319,11 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail::LoopComponentProxyBase&lt;<span class="keyword">const</span> <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">State::Component</a>,</div>
 <div class="line">                                     <a class="code hl_function" href="#a570b81ba406b8c3eb2451cef7d4a4c15">MultiStepperLoop</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html_a570b81ba406b8c3eb2451cef7d4a4c15"><div class="ttname"><a href="#a570b81ba406b8c3eb2451cef7d4a4c15">Acts::MultiStepperLoop::MultiStepperLoop</a></div><div class="ttdeci">MultiStepperLoop(std::shared_ptr&lt; const MagneticFieldProvider &gt; bField, std::unique_ptr&lt; const Logger &gt; logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every step...</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:235</div></div>
-<div class="ttc" id="astruct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component_html"><div class="ttname"><a href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Acts::MultiStepperLoop::State::Component</a></div><div class="ttdoc">The struct that stores the individual components.</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:188</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html_a570b81ba406b8c3eb2451cef7d4a4c15"><div class="ttname"><a href="#a570b81ba406b8c3eb2451cef7d4a4c15">Acts::MultiStepperLoop::MultiStepperLoop</a></div><div class="ttdeci">MultiStepperLoop(std::shared_ptr&lt; const MagneticFieldProvider &gt; bField, std::unique_ptr&lt; const Logger &gt; logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every step...</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:241</div></div>
+<div class="ttc" id="astruct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component_html"><div class="ttname"><a href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Acts::MultiStepperLoop::State::Component</a></div><div class="ttdoc">The struct that stores the individual components.</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:190</div></div>
 </div><!-- fragment -->
 <p>A proxy struct which allows access to a single component of the multi-component state. </p>
 <p>It has the semantics of a const reference, i.e. it requires a const reference of the single-component state it represents </p>
-
-</div>
-</div>
-<a id="a49f9ef065470ab990eec8f3e01eb698a" name="a49f9ef065470ab990eec8f3e01eb698a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49f9ef065470ab990eec8f3e01eb698a">&#9670;&#160;</a></span>Reducer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::Reducer = component_reducer_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The reducer type. </p>
-
-</div>
-</div>
-<a id="ac48fd14cb18d559b290831a2736f312d" name="ac48fd14cb18d559b290831a2736f312d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac48fd14cb18d559b290831a2736f312d">&#9670;&#160;</a></span>SingleConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::SingleConfig = typename SingleStepper::Config</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Typedef to the Config of the single component Stepper. </p>
-
-</div>
-</div>
-<a id="aa0f294a69febb3a5fad1e0adae46e0a7" name="aa0f294a69febb3a5fad1e0adae46e0a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0f294a69febb3a5fad1e0adae46e0a7">&#9670;&#160;</a></span>SingleOptions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::SingleOptions = typename SingleStepper::Options</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Typedef to the Single-Component Stepper Options. </p>
-
-</div>
-</div>
-<a id="afb16bd3a77436790ee0e1c4148fb5cf7" name="afb16bd3a77436790ee0e1c4148fb5cf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb16bd3a77436790ee0e1c4148fb5cf7">&#9670;&#160;</a></span>SingleState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::SingleState = typename SingleStepper::State</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Typedef to the State of the single component Stepper. </p>
-
-</div>
-</div>
-<a id="a7767f8dd7e4a4a2aec00b0ed9a7411f1" name="a7767f8dd7e4a4a2aec00b0ed9a7411f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7767f8dd7e4a4a2aec00b0ed9a7411f1">&#9670;&#160;</a></span>SingleStepper</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::SingleStepper = single_stepper_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Typedef to the Single-Component Eigen Stepper. </p>
 
 </div>
 </div>
@@ -1497,33 +1415,6 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>IntersectionStatus indicating the overall status of all components relative to the surface </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="af87a75205a8a0417f5072228a67143ca" name="af87a75205a8a0417f5072228a67143ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af87a75205a8a0417f5072228a67143ca">&#9670;&#160;</a></span>maxComponents</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::maxComponents = std::numeric_limits&lt;int&gt;::max()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>How many components can this stepper manage? </p>
 
 </div>
 </div>

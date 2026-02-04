@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Cache for storing created detector elements and factory objects.">
 <polygon fill="#999999" stroke="#666666" points="824,-110 654,-110 654,-80 824,-80 824,-110"/>
 <text text-anchor="start" x="662" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::GeoModelDetector</text>
 <text text-anchor="middle" x="739" y="-87" font-family="Helvetica,sans-Serif" font-size="10.00">ObjectFactory::Cache</text>

@@ -1,6 +1,6 @@
 <map id="Acts::Navigator::Options" name="Acts::Navigator::Options">
 <area shape="rect" id="Node000001" title="The navigator options." alt="" coords="1695,183,1875,209"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_navigator_plain_options.html" title=" " alt="" coords="1285,103,1489,129"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and surfaces." alt="" coords="1285,103,1489,129"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1504,121,1587,131,1671,148,1718,163,1758,181,1756,186,1716,168,1670,153,1586,136,1503,126"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="839,102,945,127"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="959,112,1285,113,1285,118,959,118"/>

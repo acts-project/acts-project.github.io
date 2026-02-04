@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_atlas_stepper_1_1_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_atlas_stepper_1_1_options.html" target="_top" xlink:title="Stepper options extending plain stepper settings.">
 <polygon fill="white" stroke="#666666" points="731,-277.5 625,-277.5 625,-247.5 731,-247.5 731,-277.5"/>
 <text text-anchor="start" x="633" y="-265.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AtlasStepper</text>
 <text text-anchor="middle" x="678" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>
@@ -41,7 +41,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title="Common options shared by plain steppers.">
 <polygon fill="white" stroke="#666666" points="447.5,-273 304.5,-273 304.5,-254 447.5,-254 447.5,-273"/>
 <text text-anchor="middle" x="376" y="-261" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 </a>
@@ -59,7 +59,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="struct_acts_1_1_stepper_plain_options_1_1_dense.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="struct_acts_1_1_stepper_plain_options_1_1_dense.html" target="_top" xlink:title="Options for dense material effects.">
 <polygon fill="white" stroke="#666666" points="157.5,-279.5 14.5,-279.5 14.5,-249.5 157.5,-249.5 157.5,-279.5"/>
 <text text-anchor="start" x="22.5" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 <text text-anchor="middle" x="86" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Dense</text>

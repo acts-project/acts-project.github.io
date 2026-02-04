@@ -140,32 +140,41 @@ Collaboration diagram for Acts::CombinatorialKalmanFilterOptions&lt; track_conta
 Public Types</h2></td></tr>
 <tr class="memitem:a0b07635510eb143c77e1f5968425a332" id="r_a0b07635510eb143c77e1f5968425a332"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b07635510eb143c77e1f5968425a332">TrackStateContainerBackend</a></td></tr>
 <tr class="memdesc:a0b07635510eb143c77e1f5968425a332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track state container backend.  <br /></td></tr>
-<tr class="memitem:a3e9ede3ff6b973cfa2474d70fdc61996" id="r_a3e9ede3ff6b973cfa2474d70fdc61996"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e9ede3ff6b973cfa2474d70fdc61996">TrackStateProxy</a> = typename track_container_t::TrackStateProxy</td></tr>
-<tr class="memdesc:a3e9ede3ff6b973cfa2474d70fdc61996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track state proxy from the container.  <br /></td></tr>
+<tr class="memitem:a3e9ede3ff6b973cfa2474d70fdc61996" id="r_a3e9ede3ff6b973cfa2474d70fdc61996"><td class="memItemLeft" align="right" valign="top"><a id="a3e9ede3ff6b973cfa2474d70fdc61996" name="a3e9ede3ff6b973cfa2474d70fdc61996"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxy</b> = typename track_container_t::TrackStateProxy</td></tr>
+<tr class="memdesc:a3e9ede3ff6b973cfa2474d70fdc61996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track state proxy from the container. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acd816e27a6a35cb4a9570f0df1d31b87" id="r_acd816e27a6a35cb4a9570f0df1d31b87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd816e27a6a35cb4a9570f0df1d31b87">CombinatorialKalmanFilterOptions</a> ()=delete</td></tr>
-<tr class="memdesc:acd816e27a6a35cb4a9570f0df1d31b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contexts are required and the options must not be default-constructible.  <br /></td></tr>
+<tr class="memitem:acd816e27a6a35cb4a9570f0df1d31b87" id="r_acd816e27a6a35cb4a9570f0df1d31b87"><td class="memItemLeft" align="right" valign="top"><a id="acd816e27a6a35cb4a9570f0df1d31b87" name="acd816e27a6a35cb4a9570f0df1d31b87"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CombinatorialKalmanFilterOptions</b> ()=delete</td></tr>
+<tr class="memdesc:acd816e27a6a35cb4a9570f0df1d31b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contexts are required and the options must not be default-constructible. <br /></td></tr>
 <tr class="memitem:a5d14a321cc463961fd5b6a73a1116990" id="r_a5d14a321cc463961fd5b6a73a1116990"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d14a321cc463961fd5b6a73a1116990">CombinatorialKalmanFilterOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt; cctx, <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html">CombinatorialKalmanFilterExtensions</a>&lt; track_container_t &gt; extensions_, const <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> &amp;pOptions, bool mScattering=true, bool eLoss=true)</td></tr>
 <tr class="memdesc:a5d14a321cc463961fd5b6a73a1116990"><td class="mdescLeft">&#160;</td><td class="mdescRight">PropagatorOptions with context.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a32cda750f9b9cc2d338b374a33b195c7" id="r_a32cda750f9b9cc2d338b374a33b195c7"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32cda750f9b9cc2d338b374a33b195c7">calibrationContext</a></td></tr>
-<tr class="memdesc:a32cda750f9b9cc2d338b374a33b195c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">context object for the calibration  <br /></td></tr>
-<tr class="memitem:a4623340e7a58ca3bf4623bfb8a53ffde" id="r_a4623340e7a58ca3bf4623bfb8a53ffde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4623340e7a58ca3bf4623bfb8a53ffde">energyLoss</a> = true</td></tr>
-<tr class="memdesc:a4623340e7a58ca3bf4623bfb8a53ffde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider energy loss.  <br /></td></tr>
-<tr class="memitem:a9d49ea28002d1c42382cdc1fec4a2cfc" id="r_a9d49ea28002d1c42382cdc1fec4a2cfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html">CombinatorialKalmanFilterExtensions</a>&lt; track_container_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d49ea28002d1c42382cdc1fec4a2cfc">extensions</a></td></tr>
-<tr class="memdesc:a9d49ea28002d1c42382cdc1fec4a2cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filter extensions.  <br /></td></tr>
-<tr class="memitem:ab2f8aaa82bbf1d575c0d0acc68f2c2d3" id="r_ab2f8aaa82bbf1d575c0d0acc68f2c2d3"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2f8aaa82bbf1d575c0d0acc68f2c2d3">geoContext</a></td></tr>
-<tr class="memdesc:ab2f8aaa82bbf1d575c0d0acc68f2c2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry.  <br /></td></tr>
-<tr class="memitem:a4411303ec39804e83cf5bbc72703e5f7" id="r_a4411303ec39804e83cf5bbc72703e5f7"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4411303ec39804e83cf5bbc72703e5f7">magFieldContext</a></td></tr>
-<tr class="memdesc:a4411303ec39804e83cf5bbc72703e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the magnetic field.  <br /></td></tr>
-<tr class="memitem:a146b20193ea6d9c8628157d7fe23957e" id="r_a146b20193ea6d9c8628157d7fe23957e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a146b20193ea6d9c8628157d7fe23957e">multipleScattering</a> = true</td></tr>
-<tr class="memdesc:a146b20193ea6d9c8628157d7fe23957e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider multiple scattering.  <br /></td></tr>
-<tr class="memitem:a382918c0da74defa038a1178436951af" id="r_a382918c0da74defa038a1178436951af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a382918c0da74defa038a1178436951af">propagatorPlainOptions</a></td></tr>
-<tr class="memdesc:a382918c0da74defa038a1178436951af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trivial propagator options.  <br /></td></tr>
+<tr class="memitem:a32cda750f9b9cc2d338b374a33b195c7" id="r_a32cda750f9b9cc2d338b374a33b195c7"><td class="memItemLeft" align="right" valign="top"><a id="a32cda750f9b9cc2d338b374a33b195c7" name="a32cda750f9b9cc2d338b374a33b195c7"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>calibrationContext</b></td></tr>
+<tr class="memdesc:a32cda750f9b9cc2d338b374a33b195c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">context object for the calibration <br /></td></tr>
+<tr class="memitem:a4623340e7a58ca3bf4623bfb8a53ffde" id="r_a4623340e7a58ca3bf4623bfb8a53ffde"><td class="memItemLeft" align="right" valign="top"><a id="a4623340e7a58ca3bf4623bfb8a53ffde" name="a4623340e7a58ca3bf4623bfb8a53ffde"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>energyLoss</b> = true</td></tr>
+<tr class="memdesc:a4623340e7a58ca3bf4623bfb8a53ffde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider energy loss. <br /></td></tr>
+<tr class="memitem:a9d49ea28002d1c42382cdc1fec4a2cfc" id="r_a9d49ea28002d1c42382cdc1fec4a2cfc"><td class="memItemLeft" align="right" valign="top"><a id="a9d49ea28002d1c42382cdc1fec4a2cfc" name="a9d49ea28002d1c42382cdc1fec4a2cfc"></a>
+<a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html">CombinatorialKalmanFilterExtensions</a>&lt; track_container_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>extensions</b></td></tr>
+<tr class="memdesc:a9d49ea28002d1c42382cdc1fec4a2cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filter extensions. <br /></td></tr>
+<tr class="memitem:ab2f8aaa82bbf1d575c0d0acc68f2c2d3" id="r_ab2f8aaa82bbf1d575c0d0acc68f2c2d3"><td class="memItemLeft" align="right" valign="top"><a id="ab2f8aaa82bbf1d575c0d0acc68f2c2d3" name="ab2f8aaa82bbf1d575c0d0acc68f2c2d3"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
+<tr class="memdesc:ab2f8aaa82bbf1d575c0d0acc68f2c2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry. <br /></td></tr>
+<tr class="memitem:a4411303ec39804e83cf5bbc72703e5f7" id="r_a4411303ec39804e83cf5bbc72703e5f7"><td class="memItemLeft" align="right" valign="top"><a id="a4411303ec39804e83cf5bbc72703e5f7" name="a4411303ec39804e83cf5bbc72703e5f7"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>magFieldContext</b></td></tr>
+<tr class="memdesc:a4411303ec39804e83cf5bbc72703e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the magnetic field. <br /></td></tr>
+<tr class="memitem:a146b20193ea6d9c8628157d7fe23957e" id="r_a146b20193ea6d9c8628157d7fe23957e"><td class="memItemLeft" align="right" valign="top"><a id="a146b20193ea6d9c8628157d7fe23957e" name="a146b20193ea6d9c8628157d7fe23957e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>multipleScattering</b> = true</td></tr>
+<tr class="memdesc:a146b20193ea6d9c8628157d7fe23957e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider multiple scattering. <br /></td></tr>
+<tr class="memitem:a382918c0da74defa038a1178436951af" id="r_a382918c0da74defa038a1178436951af"><td class="memItemLeft" align="right" valign="top"><a id="a382918c0da74defa038a1178436951af" name="a382918c0da74defa038a1178436951af"></a>
+<a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><b>propagatorPlainOptions</b></td></tr>
+<tr class="memdesc:a382918c0da74defa038a1178436951af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trivial propagator options. <br /></td></tr>
 <tr class="memitem:a1c9da15dfab6949f7693dd9d767e8043" id="r_a1c9da15dfab6949f7693dd9d767e8043"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c9da15dfab6949f7693dd9d767e8043">skipPrePropagationUpdate</a> = false</td></tr>
 <tr class="memdesc:a1c9da15dfab6949f7693dd9d767e8043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip the pre propagation call.  <br /></td></tr>
 <tr class="memitem:ab133235c9ffb5d24455750421afeb502" id="r_ab133235c9ffb5d24455750421afeb502"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab133235c9ffb5d24455750421afeb502">targetSurface</a> = nullptr</td></tr>
@@ -202,27 +211,9 @@ template&lt;typename track_container_t&gt; </div>
 
 </div>
 </div>
-<a id="a3e9ede3ff6b973cfa2474d70fdc61996" name="a3e9ede3ff6b973cfa2474d70fdc61996"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e9ede3ff6b973cfa2474d70fdc61996">&#9670;&#160;</a></span>TrackStateProxy</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::TrackStateProxy = typename track_container_t::TrackStateProxy</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for track state proxy from the container. </p>
-
-</div>
-</div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5d14a321cc463961fd5b6a73a1116990" name="a5d14a321cc463961fd5b6a73a1116990"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d14a321cc463961fd5b6a73a1116990">&#9670;&#160;</a></span>CombinatorialKalmanFilterOptions() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d14a321cc463961fd5b6a73a1116990">&#9670;&#160;</a></span>CombinatorialKalmanFilterOptions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,162 +274,7 @@ template&lt;typename track_container_t&gt; </div>
 
 </div>
 </div>
-<a id="acd816e27a6a35cb4a9570f0df1d31b87" name="acd816e27a6a35cb4a9570f0df1d31b87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd816e27a6a35cb4a9570f0df1d31b87">&#9670;&#160;</a></span>CombinatorialKalmanFilterOptions() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::CombinatorialKalmanFilterOptions </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Contexts are required and the options must not be default-constructible. </p>
-
-</div>
-</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a32cda750f9b9cc2d338b374a33b195c7" name="a32cda750f9b9cc2d338b374a33b195c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32cda750f9b9cc2d338b374a33b195c7">&#9670;&#160;</a></span>calibrationContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a>&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::calibrationContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>context object for the calibration </p>
-
-</div>
-</div>
-<a id="a4623340e7a58ca3bf4623bfb8a53ffde" name="a4623340e7a58ca3bf4623bfb8a53ffde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4623340e7a58ca3bf4623bfb8a53ffde">&#9670;&#160;</a></span>energyLoss</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::energyLoss = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether to consider energy loss. </p>
-
-</div>
-</div>
-<a id="a9d49ea28002d1c42382cdc1fec4a2cfc" name="a9d49ea28002d1c42382cdc1fec4a2cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d49ea28002d1c42382cdc1fec4a2cfc">&#9670;&#160;</a></span>extensions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html">CombinatorialKalmanFilterExtensions</a>&lt;track_container_t&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::extensions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The filter extensions. </p>
-
-</div>
-</div>
-<a id="ab2f8aaa82bbf1d575c0d0acc68f2c2d3" name="ab2f8aaa82bbf1d575c0d0acc68f2c2d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2f8aaa82bbf1d575c0d0acc68f2c2d3">&#9670;&#160;</a></span>geoContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::geoContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Context object for the geometry. </p>
-
-</div>
-</div>
-<a id="a4411303ec39804e83cf5bbc72703e5f7" name="a4411303ec39804e83cf5bbc72703e5f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4411303ec39804e83cf5bbc72703e5f7">&#9670;&#160;</a></span>magFieldContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a>&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::magFieldContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Context object for the magnetic field. </p>
-
-</div>
-</div>
-<a id="a146b20193ea6d9c8628157d7fe23957e" name="a146b20193ea6d9c8628157d7fe23957e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a146b20193ea6d9c8628157d7fe23957e">&#9670;&#160;</a></span>multipleScattering</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::multipleScattering = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether to consider multiple scattering. </p>
-
-</div>
-</div>
-<a id="a382918c0da74defa038a1178436951af" name="a382918c0da74defa038a1178436951af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a382918c0da74defa038a1178436951af">&#9670;&#160;</a></span>propagatorPlainOptions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::propagatorPlainOptions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The trivial propagator options. </p>
-
-</div>
-</div>
 <a id="a1c9da15dfab6949f7693dd9d767e8043" name="a1c9da15dfab6949f7693dd9d767e8043"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c9da15dfab6949f7693dd9d767e8043">&#9670;&#160;</a></span>skipPrePropagationUpdate</h2>
 

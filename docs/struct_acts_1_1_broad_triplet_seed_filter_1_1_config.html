@@ -138,58 +138,50 @@ Collaboration diagram for Acts::BroadTripletSeedFilter::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a331e3803f3868ef089c25944ca3d75c2" id="r_a331e3803f3868ef089c25944ca3d75c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331e3803f3868ef089c25944ca3d75c2">centralSeedConfirmationRange</a></td></tr>
-<tr class="memdesc:a331e3803f3868ef089c25944ca3d75c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains parameters for central seed confirmation.  <br /></td></tr>
+<tr class="memitem:a331e3803f3868ef089c25944ca3d75c2" id="r_a331e3803f3868ef089c25944ca3d75c2"><td class="memItemLeft" align="right" valign="top"><a id="a331e3803f3868ef089c25944ca3d75c2" name="a331e3803f3868ef089c25944ca3d75c2"></a>
+<a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>centralSeedConfirmationRange</b></td></tr>
+<tr class="memdesc:a331e3803f3868ef089c25944ca3d75c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains parameters for central seed confirmation. <br /></td></tr>
 <tr class="memitem:a983d0053697fd28d1664103fd34476bd" id="r_a983d0053697fd28d1664103fd34476bd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983d0053697fd28d1664103fd34476bd">compatSeedLimit</a> = 2</td></tr>
 <tr class="memdesc:a983d0053697fd28d1664103fd34476bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum limit to number of compatible space-point used in score calculation.  <br /></td></tr>
 <tr class="memitem:abd7658d1bec6f517cb1d73bee43cbbf4" id="r_abd7658d1bec6f517cb1d73bee43cbbf4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd7658d1bec6f517cb1d73bee43cbbf4">compatSeedWeight</a> = 200</td></tr>
 <tr class="memdesc:abd7658d1bec6f517cb1d73bee43cbbf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed weight/score is increased by this value if a compatible seed has been found.  <br /></td></tr>
-<tr class="memitem:a7a180cee914f720e175976e90e15f5c5" id="r_a7a180cee914f720e175976e90e15f5c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a180cee914f720e175976e90e15f5c5">deltaInvHelixDiameter</a> = 0.00003 * (1 / <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>)</td></tr>
-<tr class="memdesc:a7a180cee914f720e175976e90e15f5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allowed difference in curvature (inverted seed radii) between two compatible seeds.  <br /></td></tr>
+<tr class="memitem:a7a180cee914f720e175976e90e15f5c5" id="r_a7a180cee914f720e175976e90e15f5c5"><td class="memItemLeft" align="right" valign="top"><a id="a7a180cee914f720e175976e90e15f5c5" name="a7a180cee914f720e175976e90e15f5c5"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaInvHelixDiameter</b> = 0.00003 * (1 / <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>)</td></tr>
+<tr class="memdesc:a7a180cee914f720e175976e90e15f5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allowed difference in curvature (inverted seed radii) between two compatible seeds. <br /></td></tr>
 <tr class="memitem:af562859ccdbf6f716a8f8eb83c07898a" id="r_af562859ccdbf6f716a8f8eb83c07898a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af562859ccdbf6f716a8f8eb83c07898a">deltaRMin</a> = 5 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:af562859ccdbf6f716a8f8eb83c07898a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum distance between compatible outer space-points to be considered.  <br /></td></tr>
-<tr class="memitem:a5a9edde89e2714a212103b8d7ab3c3df" id="r_a5a9edde89e2714a212103b8d7ab3c3df"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_triplet_seed_cuts.html">ITripletSeedCuts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9edde89e2714a212103b8d7ab3c3df">experimentCuts</a></td></tr>
-<tr class="memdesc:a5a9edde89e2714a212103b8d7ab3c3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom cuts interface for experiments.  <br /></td></tr>
-<tr class="memitem:a6df22a6c04f1c87bc4c18ba416cf8f17" id="r_a6df22a6c04f1c87bc4c18ba416cf8f17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df22a6c04f1c87bc4c18ba416cf8f17">forwardSeedConfirmationRange</a></td></tr>
-<tr class="memdesc:a6df22a6c04f1c87bc4c18ba416cf8f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains parameters for forward seed confirmation.  <br /></td></tr>
+<tr class="memitem:a5a9edde89e2714a212103b8d7ab3c3df" id="r_a5a9edde89e2714a212103b8d7ab3c3df"><td class="memItemLeft" align="right" valign="top"><a id="a5a9edde89e2714a212103b8d7ab3c3df" name="a5a9edde89e2714a212103b8d7ab3c3df"></a>
+std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_triplet_seed_cuts.html">ITripletSeedCuts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>experimentCuts</b></td></tr>
+<tr class="memdesc:a5a9edde89e2714a212103b8d7ab3c3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom cuts interface for experiments. <br /></td></tr>
+<tr class="memitem:a6df22a6c04f1c87bc4c18ba416cf8f17" id="r_a6df22a6c04f1c87bc4c18ba416cf8f17"><td class="memItemLeft" align="right" valign="top"><a id="a6df22a6c04f1c87bc4c18ba416cf8f17" name="a6df22a6c04f1c87bc4c18ba416cf8f17"></a>
+<a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>forwardSeedConfirmationRange</b></td></tr>
+<tr class="memdesc:a6df22a6c04f1c87bc4c18ba416cf8f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains parameters for forward seed confirmation. <br /></td></tr>
 <tr class="memitem:a1d75af6861980823b05b8194f97a2de4" id="r_a1d75af6861980823b05b8194f97a2de4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d75af6861980823b05b8194f97a2de4">impactWeightFactor</a> = 1</td></tr>
 <tr class="memdesc:a1d75af6861980823b05b8194f97a2de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transverse impact parameters (d0) is multiplied by this factor and subtracted from weight.  <br /></td></tr>
 <tr class="memitem:a5f847b6a22bab101edf03dfbba18b4ba" id="r_a5f847b6a22bab101edf03dfbba18b4ba"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f847b6a22bab101edf03dfbba18b4ba">maxQualitySeedsPerSpMConf</a> = 5</td></tr>
 <tr class="memdesc:a5f847b6a22bab101edf03dfbba18b4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of "high-quality" seeds for each inner-middle SP-dublet in seed confirmation.  <br /></td></tr>
-<tr class="memitem:a749bba795ea434c565b220f017438bf1" id="r_a749bba795ea434c565b220f017438bf1"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a749bba795ea434c565b220f017438bf1">maxSeedsPerSpM</a> = 5</td></tr>
-<tr class="memdesc:a749bba795ea434c565b220f017438bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number (minus one) of accepted seeds per middle space-point In dense environments many seeds may be found per middle space-point Only seeds with the highest weight will be kept if this limit is reached.  <br /></td></tr>
+<tr class="memitem:a749bba795ea434c565b220f017438bf1" id="r_a749bba795ea434c565b220f017438bf1"><td class="memItemLeft" align="right" valign="top"><a id="a749bba795ea434c565b220f017438bf1" name="a749bba795ea434c565b220f017438bf1"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>maxSeedsPerSpM</b> = 5</td></tr>
+<tr class="memdesc:a749bba795ea434c565b220f017438bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number (minus one) of accepted seeds per middle space-point In dense environments many seeds may be found per middle space-point Only seeds with the highest weight will be kept if this limit is reached. <br /></td></tr>
 <tr class="memitem:a6fcb592fd3fa2a7b752606b049b6969a" id="r_a6fcb592fd3fa2a7b752606b049b6969a"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fcb592fd3fa2a7b752606b049b6969a">maxSeedsPerSpMConf</a> = 5</td></tr>
 <tr class="memdesc:a6fcb592fd3fa2a7b752606b049b6969a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If seedConfirmation is true we classify seeds as "high-quality" seeds.  <br /></td></tr>
-<tr class="memitem:a02adf6d7dd0afda49534ba900f55dc9a" id="r_a02adf6d7dd0afda49534ba900f55dc9a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02adf6d7dd0afda49534ba900f55dc9a">numSeedIncrement</a> = std::numeric_limits&lt;float&gt;::infinity()</td></tr>
-<tr class="memdesc:a02adf6d7dd0afda49534ba900f55dc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of seeds required before <span class="tt">seedWeightIncrement</span> is applied.  <br /></td></tr>
+<tr class="memitem:a02adf6d7dd0afda49534ba900f55dc9a" id="r_a02adf6d7dd0afda49534ba900f55dc9a"><td class="memItemLeft" align="right" valign="top"><a id="a02adf6d7dd0afda49534ba900f55dc9a" name="a02adf6d7dd0afda49534ba900f55dc9a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>numSeedIncrement</b> = std::numeric_limits&lt;float&gt;::infinity()</td></tr>
+<tr class="memdesc:a02adf6d7dd0afda49534ba900f55dc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of seeds required before <span class="tt">seedWeightIncrement</span> is applied. <br /></td></tr>
 <tr class="memitem:a423336c9910167f3a910076acbe74a23" id="r_a423336c9910167f3a910076acbe74a23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a423336c9910167f3a910076acbe74a23">seedConfirmation</a> = false</td></tr>
 <tr class="memdesc:a423336c9910167f3a910076acbe74a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seeding parameters used for quality seed confirmation.  <br /></td></tr>
-<tr class="memitem:afdcd1baa091ea25ac605febdc028c5f9" id="r_afdcd1baa091ea25ac605febdc028c5f9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdcd1baa091ea25ac605febdc028c5f9">seedWeightIncrement</a> = 0</td></tr>
-<tr class="memdesc:afdcd1baa091ea25ac605febdc028c5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment in seed weight if the number of compatible seeds is larger than numSeedIncrement, this is used in case of high occupancy scenarios if we want to increase the weight of the seed by seedWeightIncrement when the number of compatible seeds is higher than a certain value.  <br /></td></tr>
-<tr class="memitem:a844466f0ad8c347f5b803877f78ffaee" id="r_a844466f0ad8c347f5b803877f78ffaee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a844466f0ad8c347f5b803877f78ffaee">useDeltaRinsteadOfTopRadius</a> = false</td></tr>
-<tr class="memdesc:a844466f0ad8c347f5b803877f78ffaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use deltaR between top and middle SP instead of top radius to search for compatible SPs.  <br /></td></tr>
+<tr class="memitem:afdcd1baa091ea25ac605febdc028c5f9" id="r_afdcd1baa091ea25ac605febdc028c5f9"><td class="memItemLeft" align="right" valign="top"><a id="afdcd1baa091ea25ac605febdc028c5f9" name="afdcd1baa091ea25ac605febdc028c5f9"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>seedWeightIncrement</b> = 0</td></tr>
+<tr class="memdesc:afdcd1baa091ea25ac605febdc028c5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment in seed weight if the number of compatible seeds is larger than numSeedIncrement, this is used in case of high occupancy scenarios if we want to increase the weight of the seed by seedWeightIncrement when the number of compatible seeds is higher than a certain value. <br /></td></tr>
+<tr class="memitem:a844466f0ad8c347f5b803877f78ffaee" id="r_a844466f0ad8c347f5b803877f78ffaee"><td class="memItemLeft" align="right" valign="top"><a id="a844466f0ad8c347f5b803877f78ffaee" name="a844466f0ad8c347f5b803877f78ffaee"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useDeltaRinsteadOfTopRadius</b> = false</td></tr>
+<tr class="memdesc:a844466f0ad8c347f5b803877f78ffaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use deltaR between top and middle SP instead of top radius to search for compatible SPs. <br /></td></tr>
 <tr class="memitem:aa7feb688f75872a96180b09d8f3d1dbb" id="r_aa7feb688f75872a96180b09d8f3d1dbb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7feb688f75872a96180b09d8f3d1dbb">zOriginWeightFactor</a> = 1</td></tr>
 <tr class="memdesc:aa7feb688f75872a96180b09d8f3d1dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The logitudinal impact parameters (z0) is multiplied by this factor and subtracted from weight.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure that holds configuration parameters for the seed filter algorithm. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a331e3803f3868ef089c25944ca3d75c2" name="a331e3803f3868ef089c25944ca3d75c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a331e3803f3868ef089c25944ca3d75c2">&#9670;&#160;</a></span>centralSeedConfirmationRange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a> Acts::BroadTripletSeedFilter::Config::centralSeedConfirmationRange</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Contains parameters for central seed confirmation. </p>
-
-</div>
-</div>
 <a id="a983d0053697fd28d1664103fd34476bd" name="a983d0053697fd28d1664103fd34476bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a983d0053697fd28d1664103fd34476bd">&#9670;&#160;</a></span>compatSeedLimit</h2>
 
@@ -226,22 +218,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a180cee914f720e175976e90e15f5c5" name="a7a180cee914f720e175976e90e15f5c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a180cee914f720e175976e90e15f5c5">&#9670;&#160;</a></span>deltaInvHelixDiameter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BroadTripletSeedFilter::Config::deltaInvHelixDiameter = 0.00003 * (1 / <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allowed difference in curvature (inverted seed radii) between two compatible seeds. </p>
-
-</div>
-</div>
 <a id="af562859ccdbf6f716a8f8eb83c07898a" name="af562859ccdbf6f716a8f8eb83c07898a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af562859ccdbf6f716a8f8eb83c07898a">&#9670;&#160;</a></span>deltaRMin</h2>
 
@@ -256,38 +232,6 @@ Public Attributes</h2></td></tr>
 
 <p>Minimum distance between compatible outer space-points to be considered. </p>
 <p>This is used to avoid counting space-points from the same layer </p>
-
-</div>
-</div>
-<a id="a5a9edde89e2714a212103b8d7ab3c3df" name="a5a9edde89e2714a212103b8d7ab3c3df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9edde89e2714a212103b8d7ab3c3df">&#9670;&#160;</a></span>experimentCuts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_acts_1_1_i_triplet_seed_cuts.html">ITripletSeedCuts</a>&gt; Acts::BroadTripletSeedFilter::Config::experimentCuts</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Custom cuts interface for experiments. </p>
-
-</div>
-</div>
-<a id="a6df22a6c04f1c87bc4c18ba416cf8f17" name="a6df22a6c04f1c87bc4c18ba416cf8f17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6df22a6c04f1c87bc4c18ba416cf8f17">&#9670;&#160;</a></span>forwardSeedConfirmationRange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a> Acts::BroadTripletSeedFilter::Config::forwardSeedConfirmationRange</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Contains parameters for forward seed confirmation. </p>
 
 </div>
 </div>
@@ -325,22 +269,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a749bba795ea434c565b220f017438bf1" name="a749bba795ea434c565b220f017438bf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a749bba795ea434c565b220f017438bf1">&#9670;&#160;</a></span>maxSeedsPerSpM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int Acts::BroadTripletSeedFilter::Config::maxSeedsPerSpM = 5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum number (minus one) of accepted seeds per middle space-point In dense environments many seeds may be found per middle space-point Only seeds with the highest weight will be kept if this limit is reached. </p>
-
-</div>
-</div>
 <a id="a6fcb592fd3fa2a7b752606b049b6969a" name="a6fcb592fd3fa2a7b752606b049b6969a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fcb592fd3fa2a7b752606b049b6969a">&#9670;&#160;</a></span>maxSeedsPerSpMConf</h2>
 
@@ -358,22 +286,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a02adf6d7dd0afda49534ba900f55dc9a" name="a02adf6d7dd0afda49534ba900f55dc9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02adf6d7dd0afda49534ba900f55dc9a">&#9670;&#160;</a></span>numSeedIncrement</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BroadTripletSeedFilter::Config::numSeedIncrement = std::numeric_limits&lt;float&gt;::infinity()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of seeds required before <span class="tt">seedWeightIncrement</span> is applied. </p>
-
-</div>
-</div>
 <a id="a423336c9910167f3a910076acbe74a23" name="a423336c9910167f3a910076acbe74a23"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a423336c9910167f3a910076acbe74a23">&#9670;&#160;</a></span>seedConfirmation</h2>
 
@@ -388,38 +300,6 @@ Public Attributes</h2></td></tr>
 
 <p>Seeding parameters used for quality seed confirmation. </p>
 <p>Enable quality seed confirmation, this is different than default seeding confirmation because it can also be defined for different (r, z) regions of the detector (e.g. forward or central region) by SeedConfirmationRange. Seeds are classified as "high-quality" seeds and normal quality seeds. Normal quality seeds are only selected if no other "high-quality" seed has been found for that inner-middle doublet. </p>
-
-</div>
-</div>
-<a id="afdcd1baa091ea25ac605febdc028c5f9" name="afdcd1baa091ea25ac605febdc028c5f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdcd1baa091ea25ac605febdc028c5f9">&#9670;&#160;</a></span>seedWeightIncrement</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BroadTripletSeedFilter::Config::seedWeightIncrement = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Increment in seed weight if the number of compatible seeds is larger than numSeedIncrement, this is used in case of high occupancy scenarios if we want to increase the weight of the seed by seedWeightIncrement when the number of compatible seeds is higher than a certain value. </p>
-
-</div>
-</div>
-<a id="a844466f0ad8c347f5b803877f78ffaee" name="a844466f0ad8c347f5b803877f78ffaee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a844466f0ad8c347f5b803877f78ffaee">&#9670;&#160;</a></span>useDeltaRinsteadOfTopRadius</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::BroadTripletSeedFilter::Config::useDeltaRinsteadOfTopRadius = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Use deltaR between top and middle SP instead of top radius to search for compatible SPs. </p>
 
 </div>
 </div>

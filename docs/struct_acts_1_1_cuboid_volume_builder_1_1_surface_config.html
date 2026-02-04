@@ -138,119 +138,28 @@ Collaboration diagram for Acts::CuboidVolumeBuilder::SurfaceConfig:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad530e0a11c236c42432588f6badf5735" id="r_ad530e0a11c236c42432588f6badf5735"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="class_acts_1_1_surface_placement_base.html">SurfacePlacementBase</a> *(const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_rectangle_bounds.html">RectangleBounds</a> &gt;, double)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad530e0a11c236c42432588f6badf5735">detElementConstructor</a></td></tr>
-<tr class="memdesc:ad530e0a11c236c42432588f6badf5735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor function for optional detector elements Arguments are transform, rectangle bounds and thickness.  <br /></td></tr>
-<tr class="memitem:a539ea65f309a1970d2a3d7c14fba809f" id="r_a539ea65f309a1970d2a3d7c14fba809f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a539ea65f309a1970d2a3d7c14fba809f">position</a> {}</td></tr>
-<tr class="memdesc:a539ea65f309a1970d2a3d7c14fba809f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center position of the surface.  <br /></td></tr>
-<tr class="memitem:aa36d1357088dd35e4165f1944516a308" id="r_aa36d1357088dd35e4165f1944516a308"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_rectangle_bounds.html">RectangleBounds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa36d1357088dd35e4165f1944516a308">rBounds</a> = nullptr</td></tr>
-<tr class="memdesc:aa36d1357088dd35e4165f1944516a308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rectangle bounds defining surface dimensions.  <br /></td></tr>
-<tr class="memitem:a8e916ee38b04771877cd649bf8d4c35f" id="r_a8e916ee38b04771877cd649bf8d4c35f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e916ee38b04771877cd649bf8d4c35f">rotation</a> = RotationMatrix3::Identity()</td></tr>
-<tr class="memdesc:a8e916ee38b04771877cd649bf8d4c35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation matrix defining surface orientation.  <br /></td></tr>
-<tr class="memitem:a042b45d9d149a0f5c7f4c5dbc153dce9" id="r_a042b45d9d149a0f5c7f4c5dbc153dce9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a042b45d9d149a0f5c7f4c5dbc153dce9">surMat</a> = nullptr</td></tr>
-<tr class="memdesc:a042b45d9d149a0f5c7f4c5dbc153dce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface material description.  <br /></td></tr>
-<tr class="memitem:ab8d43c2762ed9663a79410a79864c73c" id="r_ab8d43c2762ed9663a79410a79864c73c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d43c2762ed9663a79410a79864c73c">thickness</a> = 0.</td></tr>
-<tr class="memdesc:ab8d43c2762ed9663a79410a79864c73c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material thickness of the surface.  <br /></td></tr>
+<tr class="memitem:ad530e0a11c236c42432588f6badf5735" id="r_ad530e0a11c236c42432588f6badf5735"><td class="memItemLeft" align="right" valign="top"><a id="ad530e0a11c236c42432588f6badf5735" name="ad530e0a11c236c42432588f6badf5735"></a>
+std::function&lt; <a class="el" href="class_acts_1_1_surface_placement_base.html">SurfacePlacementBase</a> *(const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_rectangle_bounds.html">RectangleBounds</a> &gt;, double)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>detElementConstructor</b></td></tr>
+<tr class="memdesc:ad530e0a11c236c42432588f6badf5735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor function for optional detector elements Arguments are transform, rectangle bounds and thickness. <br /></td></tr>
+<tr class="memitem:a539ea65f309a1970d2a3d7c14fba809f" id="r_a539ea65f309a1970d2a3d7c14fba809f"><td class="memItemLeft" align="right" valign="top"><a id="a539ea65f309a1970d2a3d7c14fba809f" name="a539ea65f309a1970d2a3d7c14fba809f"></a>
+<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>position</b> {}</td></tr>
+<tr class="memdesc:a539ea65f309a1970d2a3d7c14fba809f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center position of the surface. <br /></td></tr>
+<tr class="memitem:aa36d1357088dd35e4165f1944516a308" id="r_aa36d1357088dd35e4165f1944516a308"><td class="memItemLeft" align="right" valign="top"><a id="aa36d1357088dd35e4165f1944516a308" name="aa36d1357088dd35e4165f1944516a308"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_rectangle_bounds.html">RectangleBounds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>rBounds</b> = nullptr</td></tr>
+<tr class="memdesc:aa36d1357088dd35e4165f1944516a308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rectangle bounds defining surface dimensions. <br /></td></tr>
+<tr class="memitem:a8e916ee38b04771877cd649bf8d4c35f" id="r_a8e916ee38b04771877cd649bf8d4c35f"><td class="memItemLeft" align="right" valign="top"><a id="a8e916ee38b04771877cd649bf8d4c35f" name="a8e916ee38b04771877cd649bf8d4c35f"></a>
+<a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>rotation</b> = RotationMatrix3::Identity()</td></tr>
+<tr class="memdesc:a8e916ee38b04771877cd649bf8d4c35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation matrix defining surface orientation. <br /></td></tr>
+<tr class="memitem:a042b45d9d149a0f5c7f4c5dbc153dce9" id="r_a042b45d9d149a0f5c7f4c5dbc153dce9"><td class="memItemLeft" align="right" valign="top"><a id="a042b45d9d149a0f5c7f4c5dbc153dce9" name="a042b45d9d149a0f5c7f4c5dbc153dce9"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surMat</b> = nullptr</td></tr>
+<tr class="memdesc:a042b45d9d149a0f5c7f4c5dbc153dce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface material description. <br /></td></tr>
+<tr class="memitem:ab8d43c2762ed9663a79410a79864c73c" id="r_ab8d43c2762ed9663a79410a79864c73c"><td class="memItemLeft" align="right" valign="top"><a id="ab8d43c2762ed9663a79410a79864c73c" name="ab8d43c2762ed9663a79410a79864c73c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>thickness</b> = 0.</td></tr>
+<tr class="memdesc:ab8d43c2762ed9663a79410a79864c73c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material thickness of the surface. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This struct stores the data for the construction of a single PlaneSurface. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad530e0a11c236c42432588f6badf5735" name="ad530e0a11c236c42432588f6badf5735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad530e0a11c236c42432588f6badf5735">&#9670;&#160;</a></span>detElementConstructor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;<a class="el" href="class_acts_1_1_surface_placement_base.html">SurfacePlacementBase</a>*( const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&amp;, std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_rectangle_bounds.html">RectangleBounds</a>&gt;, double)&gt; Acts::CuboidVolumeBuilder::SurfaceConfig::detElementConstructor</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constructor function for optional detector elements Arguments are transform, rectangle bounds and thickness. </p>
-
-</div>
-</div>
-<a id="a539ea65f309a1970d2a3d7c14fba809f" name="a539ea65f309a1970d2a3d7c14fba809f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a539ea65f309a1970d2a3d7c14fba809f">&#9670;&#160;</a></span>position</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> Acts::CuboidVolumeBuilder::SurfaceConfig::position {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Center position of the surface. </p>
-
-</div>
-</div>
-<a id="aa36d1357088dd35e4165f1944516a308" name="aa36d1357088dd35e4165f1944516a308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa36d1357088dd35e4165f1944516a308">&#9670;&#160;</a></span>rBounds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_rectangle_bounds.html">RectangleBounds</a>&gt; Acts::CuboidVolumeBuilder::SurfaceConfig::rBounds = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Rectangle bounds defining surface dimensions. </p>
-
-</div>
-</div>
-<a id="a8e916ee38b04771877cd649bf8d4c35f" name="a8e916ee38b04771877cd649bf8d4c35f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e916ee38b04771877cd649bf8d4c35f">&#9670;&#160;</a></span>rotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a> Acts::CuboidVolumeBuilder::SurfaceConfig::rotation = RotationMatrix3::Identity()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Rotation matrix defining surface orientation. </p>
-
-</div>
-</div>
-<a id="a042b45d9d149a0f5c7f4c5dbc153dce9" name="a042b45d9d149a0f5c7f4c5dbc153dce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042b45d9d149a0f5c7f4c5dbc153dce9">&#9670;&#160;</a></span>surMat</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a>&gt; Acts::CuboidVolumeBuilder::SurfaceConfig::surMat = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Surface material description. </p>
-
-</div>
-</div>
-<a id="ab8d43c2762ed9663a79410a79864c73c" name="ab8d43c2762ed9663a79410a79864c73c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8d43c2762ed9663a79410a79864c73c">&#9670;&#160;</a></span>thickness</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::CuboidVolumeBuilder::SurfaceConfig::thickness = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Material thickness of the surface. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

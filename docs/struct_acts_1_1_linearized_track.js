@@ -1,6 +1,5 @@
 var struct_acts_1_1_linearized_track =
 [
-    [ "LinearizedTrack", "struct_acts_1_1_linearized_track.html#a8ed9fe71691bfe5c62d13ef9041928a4", null ],
     [ "LinearizedTrack", "struct_acts_1_1_linearized_track.html#ac3890bafc454fe1c942de72b9a3daf9b", null ],
     [ "constantTerm", "struct_acts_1_1_linearized_track.html#a0368ab9b69ba2fa3035dab1b8662c799", null ],
     [ "covarianceAtPCA", "struct_acts_1_1_linearized_track.html#a562503eb963768ad2b9dfc5c25051d89", null ],

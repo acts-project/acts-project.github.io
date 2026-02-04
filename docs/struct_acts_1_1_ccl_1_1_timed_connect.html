@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_ccl_1_1_timed_connect.html','','struct
 </div><!--header-->
 <div class="contents">
 
+<p>Connection type with an added time compatibility requirement.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_timed_clusterization_8hpp_source.html">Acts/Clusterization/TimedClusterization.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::Ccl::TimedConnect&lt; Cell, N &gt;:</div>
@@ -140,46 +143,25 @@ Collaboration diagram for Acts::Ccl::TimedConnect&lt; Cell, N &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a383d5c2c37e93d76251e5aa173442ecf" id="r_a383d5c2c37e93d76251e5aa173442ecf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a383d5c2c37e93d76251e5aa173442ecf">TimedConnect</a> ()=default</td></tr>
 <tr class="memitem:a2a08d0a6a8d5184cd372c38ddb5d0b44" id="r_a2a08d0a6a8d5184cd372c38ddb5d0b44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a08d0a6a8d5184cd372c38ddb5d0b44">TimedConnect</a> (double time)</td></tr>
+<tr class="memdesc:a2a08d0a6a8d5184cd372c38ddb5d0b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:ab0f5366a199611f0f526855db18b4079" id="r_ab0f5366a199611f0f526855db18b4079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f5366a199611f0f526855db18b4079">TimedConnect</a> (double time, bool commonCorner)</td></tr>
-<tr class="memitem:ab501da3986b00713fae29619c0e723d6" id="r_ab501da3986b00713fae29619c0e723d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab501da3986b00713fae29619c0e723d6">~TimedConnect</a> () override=default</td></tr>
-<tr class="memitem:a383c7365f42cbde86e5bfb434f240c7d" id="r_a383c7365f42cbde86e5bfb434f240c7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_ccl.html#ab4b1aafb39146b0d004b518adca72c9d">ConnectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a383c7365f42cbde86e5bfb434f240c7d">operator()</a> (const Cell &amp;ref, const Cell &amp;iter) const override</td></tr>
+<tr class="memdesc:ab0f5366a199611f0f526855db18b4079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a383c7365f42cbde86e5bfb434f240c7d" id="r_a383c7365f42cbde86e5bfb434f240c7d"><td class="memItemLeft" align="right" valign="top">ConnectResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a383c7365f42cbde86e5bfb434f240c7d">operator()</a> (const Cell &amp;ref, const Cell &amp;iter) const override</td></tr>
+<tr class="memdesc:a383c7365f42cbde86e5bfb434f240c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two cells are connected in space and time.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af7563214bededba9c56dc7edf3cebb2a" id="r_af7563214bededba9c56dc7edf3cebb2a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7563214bededba9c56dc7edf3cebb2a">timeTolerance</a> {std::numeric_limits&lt;double&gt;::max()}</td></tr>
+<tr class="memitem:af7563214bededba9c56dc7edf3cebb2a" id="r_af7563214bededba9c56dc7edf3cebb2a"><td class="memItemLeft" align="right" valign="top"><a id="af7563214bededba9c56dc7edf3cebb2a" name="af7563214bededba9c56dc7edf3cebb2a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>timeTolerance</b> {std::numeric_limits&lt;double&gt;::max()}</td></tr>
+<tr class="memdesc:af7563214bededba9c56dc7edf3cebb2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum time difference for cells to be considered connected. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a383d5c2c37e93d76251e5aa173442ecf" name="a383d5c2c37e93d76251e5aa173442ecf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a383d5c2c37e93d76251e5aa173442ecf">&#9670;&#160;</a></span>TimedConnect() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html">Acts::Ccl::HasRetrievableTimeInfo</a> Cell, std::size_t N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_ccl_1_1_timed_connect.html">Acts::Ccl::TimedConnect</a>&lt; Cell, N &gt;::TimedConnect </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html">Acts::Ccl::HasRetrievableTimeInfo</a> Cell, std::size_t N&gt;<br />
+struct Acts::Ccl::TimedConnect&lt; Cell, N &gt;</div><p>Connection type with an added time compatibility requirement. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2a08d0a6a8d5184cd372c38ddb5d0b44" name="a2a08d0a6a8d5184cd372c38ddb5d0b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a08d0a6a8d5184cd372c38ddb5d0b44">&#9670;&#160;</a></span>TimedConnect() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a08d0a6a8d5184cd372c38ddb5d0b44">&#9670;&#160;</a></span>TimedConnect() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,10 +185,18 @@ template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_in
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Time tolerance </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ab0f5366a199611f0f526855db18b4079" name="ab0f5366a199611f0f526855db18b4079"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0f5366a199611f0f526855db18b4079">&#9670;&#160;</a></span>TimedConnect() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f5366a199611f0f526855db18b4079">&#9670;&#160;</a></span>TimedConnect() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,32 +216,14 @@ template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_in
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ab501da3986b00713fae29619c0e723d6" name="ab501da3986b00713fae29619c0e723d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab501da3986b00713fae29619c0e723d6">&#9670;&#160;</a></span>~TimedConnect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html">Acts::Ccl::HasRetrievableTimeInfo</a> Cell, std::size_t N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_ccl_1_1_timed_connect.html">Acts::Ccl::TimedConnect</a>&lt; Cell, N &gt;::~<a class="el" href="#a383d5c2c37e93d76251e5aa173442ecf">TimedConnect</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Time tolerance </td></tr>
+    <tr><td class="paramname">commonCorner</td><td>Whether cells sharing only a corner are considered connected </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -268,7 +240,7 @@ template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_ccl.html#ab4b1aafb39146b0d004b518adca72c9d">ConnectResult</a> <a class="el" href="struct_acts_1_1_ccl_1_1_timed_connect.html">Acts::Ccl::TimedConnect</a>&lt; Cell, N &gt;::operator() </td>
+          <td class="memname">ConnectResult <a class="el" href="struct_acts_1_1_ccl_1_1_timed_connect.html">Acts::Ccl::TimedConnect</a>&lt; Cell, N &gt;::operator() </td>
           <td>(</td>
           <td class="paramtype">const Cell &amp;</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
         </tr>
@@ -285,22 +257,15 @@ template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_in
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="af7563214bededba9c56dc7edf3cebb2a" name="af7563214bededba9c56dc7edf3cebb2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7563214bededba9c56dc7edf3cebb2a">&#9670;&#160;</a></span>timeTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html">Acts::Ccl::HasRetrievableTimeInfo</a> Cell, std::size_t N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="struct_acts_1_1_ccl_1_1_timed_connect.html">Acts::Ccl::TimedConnect</a>&lt; Cell, N &gt;::timeTolerance {std::numeric_limits&lt;double&gt;::max()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Check if two cells are connected in space and time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ref</td><td>Reference cell </td></tr>
+    <tr><td class="paramname">iter</td><td>Candidate cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Connection result </dd></dl>
 
 </div>
 </div>
@@ -317,7 +282,7 @@ template&lt;<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_time_in
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_ccl.html">Ccl</a></li><li class="navelem"><a href="struct_acts_1_1_ccl_1_1_timed_connect.html">TimedConnect</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>Ccl</b></li><li class="navelem"><a href="struct_acts_1_1_ccl_1_1_timed_connect.html">TimedConnect</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

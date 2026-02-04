@@ -138,12 +138,13 @@ Collaboration diagram for Acts::MaterialInteractionAssignment::Options:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae4b5573a2762357f7dfc12e2a1d061a8" id="r_ae4b5573a2762357f7dfc12e2a1d061a8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts_1_1_material_interaction_assignment.html#a6f84a486962e1a1a17191818a51af217">GlobalVeto</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b5573a2762357f7dfc12e2a1d061a8">globalVetos</a> = {}</td></tr>
+<tr class="memitem:ae4b5573a2762357f7dfc12e2a1d061a8" id="r_ae4b5573a2762357f7dfc12e2a1d061a8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; GlobalVeto &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b5573a2762357f7dfc12e2a1d061a8">globalVetos</a> = {}</td></tr>
 <tr class="memdesc:ae4b5573a2762357f7dfc12e2a1d061a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow global vetos for the assignment, e.g.  <br /></td></tr>
-<tr class="memitem:a89c5deca8a9ca32d01c97a073c1b4fd4" id="r_a89c5deca8a9ca32d01c97a073c1b4fd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt; <a class="el" href="namespace_acts_1_1_material_interaction_assignment.html#a440ce42397b5f5e6bd766e1ed4f85fdd">LocalVeto</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89c5deca8a9ca32d01c97a073c1b4fd4">localVetos</a> = {}</td></tr>
+<tr class="memitem:a89c5deca8a9ca32d01c97a073c1b4fd4" id="r_a89c5deca8a9ca32d01c97a073c1b4fd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt; LocalVeto &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89c5deca8a9ca32d01c97a073c1b4fd4">localVetos</a> = {}</td></tr>
 <tr class="memdesc:a89c5deca8a9ca32d01c97a073c1b4fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow specific vetoes for the assignment, e.g.  <br /></td></tr>
-<tr class="memitem:a8a5e9d46cb5b249ed71d77697930786b" id="r_a8a5e9d46cb5b249ed71d77697930786b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt; <a class="el" href="namespace_acts_1_1_material_interaction_assignment.html#a151eea181d19c76a37f70fd7846d36b6">ReAssignment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a5e9d46cb5b249ed71d77697930786b">reAssignments</a> = {}</td></tr>
-<tr class="memdesc:a8a5e9d46cb5b249ed71d77697930786b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow re-assignment of the material interaction, e.g. to respect.  <br /></td></tr>
+<tr class="memitem:a8a5e9d46cb5b249ed71d77697930786b" id="r_a8a5e9d46cb5b249ed71d77697930786b"><td class="memItemLeft" align="right" valign="top"><a id="a8a5e9d46cb5b249ed71d77697930786b" name="a8a5e9d46cb5b249ed71d77697930786b"></a>
+<a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt; ReAssignment &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>reAssignments</b> = {}</td></tr>
+<tr class="memdesc:a8a5e9d46cb5b249ed71d77697930786b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow re-assignment of the material interaction, e.g. to respect. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Options for the material interaction matcher The options are used to specify the vetos for the assignment. </p>
@@ -155,7 +156,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="namespace_acts_1_1_material_interaction_assignment.html#a6f84a486962e1a1a17191818a51af217">GlobalVeto</a>&gt; Acts::MaterialInteractionAssignment::Options::globalVetos = {}</td>
+          <td class="memname">std::vector&lt;GlobalVeto&gt; Acts::MaterialInteractionAssignment::Options::globalVetos = {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -172,29 +173,13 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt;<a class="el" href="namespace_acts_1_1_material_interaction_assignment.html#a440ce42397b5f5e6bd766e1ed4f85fdd">LocalVeto</a>&gt; Acts::MaterialInteractionAssignment::Options::localVetos = {}</td>
+          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt;LocalVeto&gt; Acts::MaterialInteractionAssignment::Options::localVetos = {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Allow specific vetoes for the assignment, e.g. </p>
 <p>only locally to surface, rest to next mapper (e.g. volume mapper) </p>
-
-</div>
-</div>
-<a id="a8a5e9d46cb5b249ed71d77697930786b" name="a8a5e9d46cb5b249ed71d77697930786b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a5e9d46cb5b249ed71d77697930786b">&#9670;&#160;</a></span>reAssignments</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt;<a class="el" href="namespace_acts_1_1_material_interaction_assignment.html#a151eea181d19c76a37f70fd7846d36b6">ReAssignment</a>&gt; Acts::MaterialInteractionAssignment::Options::reAssignments = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allow re-assignment of the material interaction, e.g. to respect. </p>
 
 </div>
 </div>
@@ -211,7 +196,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_material_interaction_assignment.html">MaterialInteractionAssignment</a></li><li class="navelem"><a href="struct_acts_1_1_material_interaction_assignment_1_1_options.html">Options</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>MaterialInteractionAssignment</b></li><li class="navelem"><a href="struct_acts_1_1_material_interaction_assignment_1_1_options.html">Options</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -1,15 +1,6 @@
 var class_acts_1_1_annulus_bounds =
 [
-    [ "BoundValues", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656", [
-      [ "eMinR", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656a2c71aa0b5d65101f4370af80df7bc490", null ],
-      [ "eMaxR", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656a042b4017ebf5efaee5fc4cdabd24a0e0", null ],
-      [ "eMinPhiRel", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656aacf7437176ec2931209afd19d2b7ebe5", null ],
-      [ "eMaxPhiRel", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656a182b86b69b2e624dc0716e0fedaac219", null ],
-      [ "eAveragePhi", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656a80d8895b04a1bb5fa7470c38ad7f398e", null ],
-      [ "eOriginX", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656aedd8e90e6665a0153d79a825fb47a374", null ],
-      [ "eOriginY", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656a074620fa8675b24e8c097693a13c889a", null ],
-      [ "eSize", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656aa51aa25b5f7a632803a771dd20246ca1", null ]
-    ] ],
+    [ "BoundValues", "class_acts_1_1_annulus_bounds.html#a8273c476eab10e5a37541d00a4599656", null ],
     [ "AnnulusBounds", "class_acts_1_1_annulus_bounds.html#a74fab27143cff8d3dfef4028d34ae7ad", null ],
     [ "AnnulusBounds", "class_acts_1_1_annulus_bounds.html#a3ae626f5b73f76474a1511b41365626f", null ],
     [ "binningValuePhi", "class_acts_1_1_annulus_bounds.html#ad5bfa69465d8b8ba01ca671f306b4acb", null ],

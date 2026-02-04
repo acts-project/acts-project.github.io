@@ -297,7 +297,7 @@ Holders</h2>
 How to create a track from scratch</h3>
 <p>Tracks can be created directly from the EDM interface. You start by creating or obtaining a mutable track container:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> tc{<a class="code hl_class" href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a>{}, Acts::VectorMutiTrajectory{}};</div>
-<div class="ttc" id="aclass_acts_1_1_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a></div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:211</div></div>
+<div class="ttc" id="aclass_acts_1_1_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_vector_track_container.html">Acts::VectorTrackContainer</a></div><div class="ttdoc">Track container backend using std::vector for storage.</div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:215</div></div>
 </div><!-- fragment --><p>A single track can be added like this:</p>
 <div class="fragment"><div class="line"><span class="keyword">auto</span> track = tc.<a class="code hl_function" href="class_acts_1_1_track_container.html#ac25da78703f2ec2067986edf9a767370">makeTrack</a>();</div>
 <div class="line"><span class="comment">// set some properties</span></div>
@@ -329,8 +329,8 @@ Transient vector backend</h4>
 <div class="fragment"><div class="line"><a class="code hl_class" href="class_acts_1_1_const_vector_track_container.html">Acts::ConstVectorTrackContainer</a> vtc{<span class="comment">/* ... */</span>};</div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_const_vector_multi_trajectory.html">Acts::ConstVectorMultiTrajectory</a> mtj{<span class="comment">/* ... */</span>};</div>
 <div class="line"><a class="code hl_class" href="class_acts_1_1_track_container.html">Acts::TrackContainer</a> ctc{vtc, mtj};</div>
-<div class="ttc" id="aclass_acts_1_1_const_vector_multi_trajectory_html"><div class="ttname"><a href="class_acts_1_1_const_vector_multi_trajectory.html">Acts::ConstVectorMultiTrajectory</a></div><div class="ttdoc">Const version of VectorMultiTrajectory.</div><div class="ttdef"><b>Definition</b> VectorMultiTrajectory.hpp:563</div></div>
-<div class="ttc" id="aclass_acts_1_1_const_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_const_vector_track_container.html">Acts::ConstVectorTrackContainer</a></div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:290</div></div>
+<div class="ttc" id="aclass_acts_1_1_const_vector_multi_trajectory_html"><div class="ttname"><a href="class_acts_1_1_const_vector_multi_trajectory.html">Acts::ConstVectorMultiTrajectory</a></div><div class="ttdoc">Const version of VectorMultiTrajectory.</div><div class="ttdef"><b>Definition</b> VectorMultiTrajectory.hpp:569</div></div>
+<div class="ttc" id="aclass_acts_1_1_const_vector_track_container_html"><div class="ttname"><a href="class_acts_1_1_const_vector_track_container.html">Acts::ConstVectorTrackContainer</a></div><div class="ttdoc">Read-only vector-backed track container.</div><div class="ttdef"><b>Definition</b> VectorTrackContainer.hpp:315</div></div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>There are currently no restrictions on types that can be used as dynamic columns. Any type can be stored and retrieved back from the backend. <br  />
 <br  />
  Keep in mind that the transient vector backend does not support persistency, meaning that there is no mechanism to serialize dynamic columns (or static columns for that matter) to disk and read them back in.</dd></dl>

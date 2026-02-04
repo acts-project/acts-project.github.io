@@ -126,41 +126,33 @@ $(function(){initNavTree('class_acts_plugins_1_1_hashing_algorithm.html','','cla
 </div><!--header-->
 <div class="contents">
 
+<p>Hashing-based algorithm for spacepoint grouping.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_hashing_algorithm_8hpp_source.html">/home/runner/work/acts/acts/Plugins/Hashing/include/ActsPlugins/Hashing/HashingAlgorithm.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a133f4380f7ac8905d0b42409cceed80c" id="r_a133f4380f7ac8905d0b42409cceed80c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133f4380f7ac8905d0b42409cceed80c">Config</a> = <a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html">HashingAlgorithmConfig</a></td></tr>
+<tr class="memitem:a133f4380f7ac8905d0b42409cceed80c" id="r_a133f4380f7ac8905d0b42409cceed80c"><td class="memItemLeft" align="right" valign="top"><a id="a133f4380f7ac8905d0b42409cceed80c" name="a133f4380f7ac8905d0b42409cceed80c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Config</b> = <a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html">HashingAlgorithmConfig</a></td></tr>
+<tr class="memdesc:a133f4380f7ac8905d0b42409cceed80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration type for the hashing algorithm. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa515dbe4ca77bad6aa81a03e4d549c19" id="r_aa515dbe4ca77bad6aa81a03e4d549c19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa515dbe4ca77bad6aa81a03e4d549c19">HashingAlgorithm</a> ()=default</td></tr>
 <tr class="memitem:ac0562924081c5cd21e6056e16f80f342" id="r_ac0562924081c5cd21e6056e16f80f342"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0562924081c5cd21e6056e16f80f342">HashingAlgorithm</a> (const <a class="el" href="#a133f4380f7ac8905d0b42409cceed80c">Config</a> &amp;cfg)</td></tr>
+<tr class="memdesc:ac0562924081c5cd21e6056e16f80f342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a3f33403eabe17d52336a70713941978c" id="r_a3f33403eabe17d52336a70713941978c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a133f4380f7ac8905d0b42409cceed80c">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f33403eabe17d52336a70713941978c">config</a> () const</td></tr>
 <tr class="memdesc:a3f33403eabe17d52336a70713941978c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get readonly access to the config parameters.  <br /></td></tr>
 <tr class="memitem:ace562098e78b033e34a89523960ebb42" id="r_ace562098e78b033e34a89523960ebb42"><td class="memTemplParams" colspan="2">template&lt;typename collection_t&gt; </td></tr>
 <tr class="memitem:ace562098e78b033e34a89523960ebb42 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace562098e78b033e34a89523960ebb42">execute</a> (SpacePointContainer &amp;spacePoints, <a class="el" href="group__hashing__plugin.html#gaae60dcd2a5c54cf27cf161722cca642b">AnnoyModel</a> *annoyModel, collection_t &amp;outputCollection) const</td></tr>
+<tr class="memdesc:ace562098e78b033e34a89523960ebb42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the hashing algorithm.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a133f4380f7ac8905d0b42409cceed80c" name="a133f4380f7ac8905d0b42409cceed80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a133f4380f7ac8905d0b42409cceed80c">&#9670;&#160;</a></span>Config</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_plugins_1_1_hashing_algorithm.html">ActsPlugins::HashingAlgorithm</a>&lt; external_spacepoint_t, SpacePointContainer &gt;::Config = <a class="el" href="struct_acts_plugins_1_1_hashing_algorithm_config.html">HashingAlgorithmConfig</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt;<br />
+class ActsPlugins::HashingAlgorithm&lt; external_spacepoint_t, SpacePointContainer &gt;</div><p>Hashing-based algorithm for spacepoint grouping. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac0562924081c5cd21e6056e16f80f342" name="ac0562924081c5cd21e6056e16f80f342"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0562924081c5cd21e6056e16f80f342">&#9670;&#160;</a></span>HashingAlgorithm() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0562924081c5cd21e6056e16f80f342">&#9670;&#160;</a></span>HashingAlgorithm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,32 +176,13 @@ template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt; </d
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aa515dbe4ca77bad6aa81a03e4d549c19" name="aa515dbe4ca77bad6aa81a03e4d549c19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa515dbe4ca77bad6aa81a03e4d549c19">&#9670;&#160;</a></span>HashingAlgorithm() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_plugins_1_1_hashing_algorithm.html">ActsPlugins::HashingAlgorithm</a>&lt; external_spacepoint_t, SpacePointContainer &gt;::HashingAlgorithm </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cfg</td><td>Configuration parameters </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -232,6 +205,7 @@ template&lt;typename external_spacepoint_t, typename SpacePointContainer&gt; </d
 </div><div class="memdoc">
 
 <p>Get readonly access to the config parameters. </p>
+<dl class="section return"><dt>Returns</dt><dd>Configuration parameters </dd></dl>
 
 </div>
 </div>
@@ -262,6 +236,16 @@ template&lt;typename collection_t&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Execute the hashing algorithm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacePoints</td><td>Space points to process </td></tr>
+    <tr><td class="paramname">annoyModel</td><td>Annoy model for nearest neighbor search </td></tr>
+    <tr><td class="paramname">outputCollection</td><td>Output collection for grouped space points </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

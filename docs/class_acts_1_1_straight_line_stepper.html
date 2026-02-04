@@ -135,19 +135,24 @@ $(function(){initNavTree('class_acts_1_1_straight_line_stepper.html','','class_a
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_config.html">Config</a></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_options.html">Options</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for straight line propagation.  <a href="struct_acts_1_1_straight_line_stepper_1_1_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State for track parameter propagation.  <a href="struct_acts_1_1_straight_line_stepper_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:af47c8abbcbc7276efebca57b36e7df3c" id="r_af47c8abbcbc7276efebca57b36e7df3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47c8abbcbc7276efebca57b36e7df3c">BField</a> = <a class="el" href="class_acts_1_1_null_b_field.html">NullBField</a></td></tr>
-<tr class="memdesc:af47c8abbcbc7276efebca57b36e7df3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for magnetic field (null field for straight line propagation).  <br /></td></tr>
-<tr class="memitem:a38dbd8ab7cf0d2b2c30325c5c6c36812" id="r_a38dbd8ab7cf0d2b2c30325c5c6c36812"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38dbd8ab7cf0d2b2c30325c5c6c36812">BoundState</a> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#a90280ce4aad966df2a48f43e22534eae">Jacobian</a>, double&gt;</td></tr>
-<tr class="memdesc:a38dbd8ab7cf0d2b2c30325c5c6c36812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state containing parameters, jacobian, and path length.  <br /></td></tr>
-<tr class="memitem:a23601676bc44d8575beee2612ac37571" id="r_a23601676bc44d8575beee2612ac37571"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23601676bc44d8575beee2612ac37571">Covariance</a> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
-<tr class="memdesc:a23601676bc44d8575beee2612ac37571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix.  <br /></td></tr>
-<tr class="memitem:a90280ce4aad966df2a48f43e22534eae" id="r_a90280ce4aad966df2a48f43e22534eae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90280ce4aad966df2a48f43e22534eae">Jacobian</a> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
-<tr class="memdesc:a90280ce4aad966df2a48f43e22534eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for transport jacobian matrix.  <br /></td></tr>
+<tr class="memitem:af47c8abbcbc7276efebca57b36e7df3c" id="r_af47c8abbcbc7276efebca57b36e7df3c"><td class="memItemLeft" align="right" valign="top"><a id="af47c8abbcbc7276efebca57b36e7df3c" name="af47c8abbcbc7276efebca57b36e7df3c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BField</b> = <a class="el" href="class_acts_1_1_null_b_field.html">NullBField</a></td></tr>
+<tr class="memdesc:af47c8abbcbc7276efebca57b36e7df3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for magnetic field (null field for straight line propagation). <br /></td></tr>
+<tr class="memitem:a38dbd8ab7cf0d2b2c30325c5c6c36812" id="r_a38dbd8ab7cf0d2b2c30325c5c6c36812"><td class="memItemLeft" align="right" valign="top"><a id="a38dbd8ab7cf0d2b2c30325c5c6c36812" name="a38dbd8ab7cf0d2b2c30325c5c6c36812"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#a90280ce4aad966df2a48f43e22534eae">Jacobian</a>, double&gt;</td></tr>
+<tr class="memdesc:a38dbd8ab7cf0d2b2c30325c5c6c36812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state containing parameters, jacobian, and path length. <br /></td></tr>
+<tr class="memitem:a23601676bc44d8575beee2612ac37571" id="r_a23601676bc44d8575beee2612ac37571"><td class="memItemLeft" align="right" valign="top"><a id="a23601676bc44d8575beee2612ac37571" name="a23601676bc44d8575beee2612ac37571"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Covariance</b> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
+<tr class="memdesc:a23601676bc44d8575beee2612ac37571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix. <br /></td></tr>
+<tr class="memitem:a90280ce4aad966df2a48f43e22534eae" id="r_a90280ce4aad966df2a48f43e22534eae"><td class="memItemLeft" align="right" valign="top"><a id="a90280ce4aad966df2a48f43e22534eae" name="a90280ce4aad966df2a48f43e22534eae"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Jacobian</b> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
+<tr class="memdesc:a90280ce4aad966df2a48f43e22534eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for transport jacobian matrix. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -207,72 +212,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>straight line stepper based on Surface intersection </p>
 <p>The straight line stepper is a simple navigation stepper to be used to navigate through the tracking geometry. It can be used for simple material mapping, navigation validation </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="af47c8abbcbc7276efebca57b36e7df3c" name="af47c8abbcbc7276efebca57b36e7df3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af47c8abbcbc7276efebca57b36e7df3c">&#9670;&#160;</a></span>BField</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#af47c8abbcbc7276efebca57b36e7df3c">Acts::StraightLineStepper::BField</a> = <a class="el" href="class_acts_1_1_null_b_field.html">NullBField</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for magnetic field (null field for straight line propagation). </p>
-
-</div>
-</div>
-<a id="a38dbd8ab7cf0d2b2c30325c5c6c36812" name="a38dbd8ab7cf0d2b2c30325c5c6c36812"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38dbd8ab7cf0d2b2c30325c5c6c36812">&#9670;&#160;</a></span>BoundState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a38dbd8ab7cf0d2b2c30325c5c6c36812">Acts::StraightLineStepper::BoundState</a> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#a90280ce4aad966df2a48f43e22534eae">Jacobian</a>, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for bound state containing parameters, jacobian, and path length. </p>
-
-</div>
-</div>
-<a id="a23601676bc44d8575beee2612ac37571" name="a23601676bc44d8575beee2612ac37571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23601676bc44d8575beee2612ac37571">&#9670;&#160;</a></span>Covariance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a23601676bc44d8575beee2612ac37571">Acts::StraightLineStepper::Covariance</a> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for covariance matrix. </p>
-
-</div>
-</div>
-<a id="a90280ce4aad966df2a48f43e22534eae" name="a90280ce4aad966df2a48f43e22534eae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90280ce4aad966df2a48f43e22534eae">&#9670;&#160;</a></span>Jacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a90280ce4aad966df2a48f43e22534eae">Acts::StraightLineStepper::Jacobian</a> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for transport jacobian matrix. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ae32b293e7a626ddeeb0ede8f38d2f9d5" name="ae32b293e7a626ddeeb0ede8f38d2f9d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae32b293e7a626ddeeb0ede8f38d2f9d5">&#9670;&#160;</a></span>absoluteMomentum()</h2>
 

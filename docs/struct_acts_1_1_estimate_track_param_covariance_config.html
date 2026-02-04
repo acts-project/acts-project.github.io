@@ -139,10 +139,12 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aeb0a6b78b273a76f0ac78f599f1f1e7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The initial sigma for the q/pt.  <br /></td></tr>
 <tr class="memitem:a3d9728686902509ca1c865b5b4aed9e8" id="r_a3d9728686902509ca1c865b5b4aed9e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d9728686902509ca1c865b5b4aed9e8">initialSigmas</a></td></tr>
 <tr class="memdesc:a3d9728686902509ca1c865b5b4aed9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The initial sigmas for the track parameters.  <br /></td></tr>
-<tr class="memitem:a2aa7180c0d7390a81af83965e8a8cc60" id="r_a2aa7180c0d7390a81af83965e8a8cc60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aa7180c0d7390a81af83965e8a8cc60">initialVarInflation</a> = {1., 1., 1., 1., 1., 1.}</td></tr>
-<tr class="memdesc:a2aa7180c0d7390a81af83965e8a8cc60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inflation factors for the variances of the track parameters.  <br /></td></tr>
-<tr class="memitem:a17d522256bc135c1667e3a12daa2bb50" id="r_a17d522256bc135c1667e3a12daa2bb50"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d522256bc135c1667e3a12daa2bb50">noTimeVarInflation</a> = 100.</td></tr>
-<tr class="memdesc:a17d522256bc135c1667e3a12daa2bb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inflation factor for time uncertainty if the time parameter was not estimated.  <br /></td></tr>
+<tr class="memitem:a2aa7180c0d7390a81af83965e8a8cc60" id="r_a2aa7180c0d7390a81af83965e8a8cc60"><td class="memItemLeft" align="right" valign="top"><a id="a2aa7180c0d7390a81af83965e8a8cc60" name="a2aa7180c0d7390a81af83965e8a8cc60"></a>
+<a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>initialVarInflation</b> = {1., 1., 1., 1., 1., 1.}</td></tr>
+<tr class="memdesc:a2aa7180c0d7390a81af83965e8a8cc60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inflation factors for the variances of the track parameters. <br /></td></tr>
+<tr class="memitem:a17d522256bc135c1667e3a12daa2bb50" id="r_a17d522256bc135c1667e3a12daa2bb50"><td class="memItemLeft" align="right" valign="top"><a id="a17d522256bc135c1667e3a12daa2bb50" name="a17d522256bc135c1667e3a12daa2bb50"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>noTimeVarInflation</b> = 100.</td></tr>
+<tr class="memdesc:a17d522256bc135c1667e3a12daa2bb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inflation factor for time uncertainty if the time parameter was not estimated. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for the estimation of the covariance matrix of the track parameters with <span class="tt">estimateTrackParamCovariance</span>. </p>
@@ -205,38 +207,6 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_ac72f496e47d9f3eb447b8348962e49b5"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#ac72f496e47d9f3eb447b8348962e49b5">Acts::UnitConstants::GeV</a></div><div class="ttdeci">constexpr double GeV</div><div class="ttdoc">Gigaelectronvolt - native unit for energy/mass/momentum.</div><div class="ttdef"><b>Definition</b> Units.hpp:147</div></div>
 </div><!-- fragment -->
 <p>The initial sigmas for the track parameters. </p>
-
-</div>
-</div>
-<a id="a2aa7180c0d7390a81af83965e8a8cc60" name="a2aa7180c0d7390a81af83965e8a8cc60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aa7180c0d7390a81af83965e8a8cc60">&#9670;&#160;</a></span>initialVarInflation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::EstimateTrackParamCovarianceConfig::initialVarInflation = {1., 1., 1., 1., 1., 1.}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The inflation factors for the variances of the track parameters. </p>
-
-</div>
-</div>
-<a id="a17d522256bc135c1667e3a12daa2bb50" name="a17d522256bc135c1667e3a12daa2bb50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17d522256bc135c1667e3a12daa2bb50">&#9670;&#160;</a></span>noTimeVarInflation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::EstimateTrackParamCovarianceConfig::noTimeVarInflation = 100.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The inflation factor for time uncertainty if the time parameter was not estimated. </p>
 
 </div>
 </div>

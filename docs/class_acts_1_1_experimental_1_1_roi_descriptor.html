@@ -126,107 +126,118 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_roi_descriptor.html','
 </div><!--header-->
 <div class="contents">
 
+<p>Region-of-interest descriptor with eta/phi/zed bounds.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_roi_descriptor_8hpp_source.html">Acts/TrackFinding/RoiDescriptor.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac373ef71553359b594df249c6d30cca2" id="r_ac373ef71553359b594df249c6d30cca2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac373ef71553359b594df249c6d30cca2">roi_iterator</a> = std::vector&lt;const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a>*&gt;::const_iterator</td></tr>
+<tr class="memitem:ac373ef71553359b594df249c6d30cca2" id="r_ac373ef71553359b594df249c6d30cca2"><td class="memItemLeft" align="right" valign="top"><a id="ac373ef71553359b594df249c6d30cca2" name="ac373ef71553359b594df249c6d30cca2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>roi_iterator</b> = std::vector&lt;const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a>*&gt;::const_iterator</td></tr>
+<tr class="memdesc:ac373ef71553359b594df249c6d30cca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator type for RoI constituents. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2fa4dbebeba7b9c811be946a2e5fd9d2" id="r_a2fa4dbebeba7b9c811be946a2e5fd9d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fa4dbebeba7b9c811be946a2e5fd9d2">RoiDescriptor</a> (const RoiDescriptor &amp;roi)</td></tr>
+<tr class="memdesc:a2fa4dbebeba7b9c811be946a2e5fd9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a364ab735be021c955367a6b3347ea1b6" id="r_a364ab735be021c955367a6b3347ea1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> (double <a class="el" href="#ae470c71d41483d8c7d070a4847c59120">eta</a>, double <a class="el" href="#a62a1bdc8ecabbee1730a79ea8a417db6">etaMinus</a>, double <a class="el" href="#ac440fd3bbb3131e464fab98a669216c9">etaPlus</a>, double <a class="el" href="#a0020e84bb63c473367858220de1c8bfc">phi</a>, double <a class="el" href="#ac23feef188764413e0be740fb9835beb">phiMinus</a>, double <a class="el" href="#aa16e2e1080896b6fde89e29f8ef5f24f">phiPlus</a>, double <a class="el" href="#a4b267cfd4e53589c0669e7d47ea9b6d8">zed</a>=0, double <a class="el" href="#a2a8f4a42c59b3b268e00f5b7815a38b3">zedMinus</a>=-s_zedWidthDefault, double <a class="el" href="#ade4c0ddc527995006bb3c92346207db6">zedPlus</a>=s_zedWidthDefault)</td></tr>
 <tr class="memdesc:a364ab735be021c955367a6b3347ea1b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
-<tr class="memitem:abadfb203ab7536f7557f3eba8ba78c51" id="r_abadfb203ab7536f7557f3eba8ba78c51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abadfb203ab7536f7557f3eba8ba78c51">~RoiDescriptor</a> ()</td></tr>
 <tr class="memitem:ab776fd1009fe5da0810c7f439e910bc5" id="r_ab776fd1009fe5da0810c7f439e910bc5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab776fd1009fe5da0810c7f439e910bc5">at</a> (int i) const</td></tr>
 <tr class="memdesc:ab776fd1009fe5da0810c7f439e910bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">find an RoiDescriptor constituent  <br /></td></tr>
 <tr class="memitem:adc0e6cf12526de213b47432d3fa91eb5" id="r_adc0e6cf12526de213b47432d3fa91eb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac373ef71553359b594df249c6d30cca2">roi_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc0e6cf12526de213b47432d3fa91eb5">begin</a> () const</td></tr>
 <tr class="memdesc:adc0e6cf12526de213b47432d3fa91eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterators  <br /></td></tr>
-<tr class="memitem:acc544485bf9a3b060f6a40e07abd4fe4" id="r_acc544485bf9a3b060f6a40e07abd4fe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc544485bf9a3b060f6a40e07abd4fe4">clear</a> ()</td></tr>
-<tr class="memdesc:acc544485bf9a3b060f6a40e07abd4fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the vector  <br /></td></tr>
+<tr class="memitem:acc544485bf9a3b060f6a40e07abd4fe4" id="r_acc544485bf9a3b060f6a40e07abd4fe4"><td class="memItemLeft" align="right" valign="top"><a id="acc544485bf9a3b060f6a40e07abd4fe4" name="acc544485bf9a3b060f6a40e07abd4fe4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="memdesc:acc544485bf9a3b060f6a40e07abd4fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the vector <br /></td></tr>
 <tr class="memitem:af062ae4f9b551dd621f3be7eabcb107d" id="r_af062ae4f9b551dd621f3be7eabcb107d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af062ae4f9b551dd621f3be7eabcb107d">composite</a> () const</td></tr>
 <tr class="memdesc:af062ae4f9b551dd621f3be7eabcb107d"><td class="mdescLeft">&#160;</td><td class="mdescRight">SuperRoI compatibility methods.  <br /></td></tr>
 <tr class="memitem:a3569e982a6667c4967331582e152f6fa" id="r_a3569e982a6667c4967331582e152f6fa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3569e982a6667c4967331582e152f6fa">drdzMinus</a> () const</td></tr>
-<tr class="memdesc:a3569e982a6667c4967331582e152f6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">dr/dz at the rear of the RoI  <br /></td></tr>
+<tr class="memdesc:a3569e982a6667c4967331582e152f6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dr/dz at the rear of the RoI.  <br /></td></tr>
 <tr class="memitem:a99c09a6277f031d796ee79620603bad2" id="r_a99c09a6277f031d796ee79620603bad2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c09a6277f031d796ee79620603bad2">drdzPlus</a> () const</td></tr>
-<tr class="memdesc:a99c09a6277f031d796ee79620603bad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">dr/dz at the front of the RoI  <br /></td></tr>
+<tr class="memdesc:a99c09a6277f031d796ee79620603bad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dr/dz at the front of the RoI.  <br /></td></tr>
 <tr class="memitem:a3a54020ef7ee0e4652c669496e2335f8" id="r_a3a54020ef7ee0e4652c669496e2335f8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a54020ef7ee0e4652c669496e2335f8">dzdrMinus</a> () const</td></tr>
-<tr class="memdesc:a3a54020ef7ee0e4652c669496e2335f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the gradients  <br /></td></tr>
+<tr class="memdesc:a3a54020ef7ee0e4652c669496e2335f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the gradients Get dz/dr at the rear of the RoI  <br /></td></tr>
 <tr class="memitem:a11cb89753d8b85279689f6cc6cfcb9cd" id="r_a11cb89753d8b85279689f6cc6cfcb9cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11cb89753d8b85279689f6cc6cfcb9cd">dzdrPlus</a> () const</td></tr>
-<tr class="memdesc:a11cb89753d8b85279689f6cc6cfcb9cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">dz/dr at the front of the RoI  <br /></td></tr>
+<tr class="memdesc:a11cb89753d8b85279689f6cc6cfcb9cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dz/dr at the front of the RoI.  <br /></td></tr>
 <tr class="memitem:a4e054971f9743f82455d2206b511559f" id="r_a4e054971f9743f82455d2206b511559f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac373ef71553359b594df249c6d30cca2">roi_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e054971f9743f82455d2206b511559f">end</a> () const</td></tr>
+<tr class="memdesc:a4e054971f9743f82455d2206b511559f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get end iterator.  <br /></td></tr>
 <tr class="memitem:ae470c71d41483d8c7d070a4847c59120" id="r_ae470c71d41483d8c7d070a4847c59120"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae470c71d41483d8c7d070a4847c59120">eta</a> () const</td></tr>
+<tr class="memdesc:ae470c71d41483d8c7d070a4847c59120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get eta coordinate of RoI center.  <br /></td></tr>
 <tr class="memitem:a62a1bdc8ecabbee1730a79ea8a417db6" id="r_a62a1bdc8ecabbee1730a79ea8a417db6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62a1bdc8ecabbee1730a79ea8a417db6">etaMinus</a> () const</td></tr>
-<tr class="memdesc:a62a1bdc8ecabbee1730a79ea8a417db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets eta at zMinus  <br /></td></tr>
+<tr class="memdesc:a62a1bdc8ecabbee1730a79ea8a417db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets eta at zMinus.  <br /></td></tr>
 <tr class="memitem:ac440fd3bbb3131e464fab98a669216c9" id="r_ac440fd3bbb3131e464fab98a669216c9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac440fd3bbb3131e464fab98a669216c9">etaPlus</a> () const</td></tr>
-<tr class="memdesc:ac440fd3bbb3131e464fab98a669216c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets eta at zedPlus  <br /></td></tr>
+<tr class="memdesc:ac440fd3bbb3131e464fab98a669216c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets eta at zedPlus.  <br /></td></tr>
 <tr class="memitem:a3fc2d396123ccc9156e4f8449f99c6c1" id="r_a3fc2d396123ccc9156e4f8449f99c6c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fc2d396123ccc9156e4f8449f99c6c1">isFullscan</a> () const</td></tr>
 <tr class="memdesc:a3fc2d396123ccc9156e4f8449f99c6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">output  <br /></td></tr>
 <tr class="memitem:abed1aa95aecadbeb556e6ee8cc7ab9f7" id="r_abed1aa95aecadbeb556e6ee8cc7ab9f7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed1aa95aecadbeb556e6ee8cc7ab9f7">l1Id</a> () const</td></tr>
+<tr class="memdesc:abed1aa95aecadbeb556e6ee8cc7ab9f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get lvl1 event number.  <br /></td></tr>
 <tr class="memitem:a1773e6ae2a73b26f60f2fb7b59243929" id="r_a1773e6ae2a73b26f60f2fb7b59243929"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1773e6ae2a73b26f60f2fb7b59243929">manageConstituents</a> () const</td></tr>
-<tr class="memdesc:a1773e6ae2a73b26f60f2fb7b59243929"><td class="mdescLeft">&#160;</td><td class="mdescRight">always manage constituents ???  <br /></td></tr>
+<tr class="memdesc:a1773e6ae2a73b26f60f2fb7b59243929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Always manage constituents.  <br /></td></tr>
 <tr class="memitem:aba19920002b30e7bf026bbef82392908" id="r_aba19920002b30e7bf026bbef82392908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba19920002b30e7bf026bbef82392908">manageConstituents</a> (bool b)</td></tr>
+<tr class="memdesc:aba19920002b30e7bf026bbef82392908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether to manage constituents.  <br /></td></tr>
 <tr class="memitem:a6162cdfd2d7283de45abb9a067694311" id="r_a6162cdfd2d7283de45abb9a067694311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6162cdfd2d7283de45abb9a067694311">operator=</a> (const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> &amp;r)</td></tr>
+<tr class="memdesc:a6162cdfd2d7283de45abb9a067694311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
 <tr class="memitem:a0020e84bb63c473367858220de1c8bfc" id="r_a0020e84bb63c473367858220de1c8bfc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0020e84bb63c473367858220de1c8bfc">phi</a> () const</td></tr>
+<tr class="memdesc:a0020e84bb63c473367858220de1c8bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get phi coordinate of RoI center.  <br /></td></tr>
 <tr class="memitem:ac23feef188764413e0be740fb9835beb" id="r_ac23feef188764413e0be740fb9835beb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23feef188764413e0be740fb9835beb">phiMinus</a> () const</td></tr>
-<tr class="memdesc:ac23feef188764413e0be740fb9835beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets phiMinus  <br /></td></tr>
+<tr class="memdesc:ac23feef188764413e0be740fb9835beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets phiMinus.  <br /></td></tr>
 <tr class="memitem:aa16e2e1080896b6fde89e29f8ef5f24f" id="r_aa16e2e1080896b6fde89e29f8ef5f24f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa16e2e1080896b6fde89e29f8ef5f24f">phiPlus</a> () const</td></tr>
-<tr class="memdesc:aa16e2e1080896b6fde89e29f8ef5f24f"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets phiPlus  <br /></td></tr>
+<tr class="memdesc:aa16e2e1080896b6fde89e29f8ef5f24f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets phiPlus.  <br /></td></tr>
 <tr class="memitem:a9677b9120694c7fc627ebe55c79f29d9" id="r_a9677b9120694c7fc627ebe55c79f29d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9677b9120694c7fc627ebe55c79f29d9">push_back</a> (const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> *roi)</td></tr>
 <tr class="memdesc:a9677b9120694c7fc627ebe55c79f29d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a RoiDescriptor  <br /></td></tr>
 <tr class="memitem:a524f69702ceb42860c87c6a06294f503" id="r_a524f69702ceb42860c87c6a06294f503"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a524f69702ceb42860c87c6a06294f503">reserve</a> (std::size_t s)</td></tr>
 <tr class="memdesc:a524f69702ceb42860c87c6a06294f503"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserve elements in vector  <br /></td></tr>
 <tr class="memitem:a15acbe60367ebbbbff2944596a2e9508" id="r_a15acbe60367ebbbbff2944596a2e9508"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15acbe60367ebbbbff2944596a2e9508">rhoMax</a> (double z) const</td></tr>
+<tr class="memdesc:a15acbe60367ebbbbff2944596a2e9508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum rho at given z.  <br /></td></tr>
 <tr class="memitem:a2def464b86b950612ef7b550b4467876" id="r_a2def464b86b950612ef7b550b4467876"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2def464b86b950612ef7b550b4467876">rhoMin</a> (double z) const</td></tr>
+<tr class="memdesc:a2def464b86b950612ef7b550b4467876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get minimum rho at given z.  <br /></td></tr>
 <tr class="memitem:a6dd99a795ec47ec1eb928dfd81dee5a8" id="r_a6dd99a795ec47ec1eb928dfd81dee5a8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dd99a795ec47ec1eb928dfd81dee5a8">roiId</a> () const</td></tr>
+<tr class="memdesc:a6dd99a795ec47ec1eb928dfd81dee5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get RoI identifier.  <br /></td></tr>
 <tr class="memitem:a7e23830a32fa0f81413b87fa7bba94fc" id="r_a7e23830a32fa0f81413b87fa7bba94fc"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e23830a32fa0f81413b87fa7bba94fc">roiWord</a> () const</td></tr>
+<tr class="memdesc:a7e23830a32fa0f81413b87fa7bba94fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get lvl1 RoI word.  <br /></td></tr>
 <tr class="memitem:a88e866b63f70ec05f7db818d0fd61c21" id="r_a88e866b63f70ec05f7db818d0fd61c21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88e866b63f70ec05f7db818d0fd61c21">setComposite</a> (bool b=true)</td></tr>
+<tr class="memdesc:a88e866b63f70ec05f7db818d0fd61c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set composite flag.  <br /></td></tr>
 <tr class="memitem:aacbfb57e03c9b05fd12309f287bcd80a" id="r_aacbfb57e03c9b05fd12309f287bcd80a"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbfb57e03c9b05fd12309f287bcd80a">size</a> () const</td></tr>
 <tr class="memdesc:aacbfb57e03c9b05fd12309f287bcd80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of constituents  <br /></td></tr>
 <tr class="memitem:abfa9ed03d3e30effc3b6fee318498766" id="r_abfa9ed03d3e30effc3b6fee318498766"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa9ed03d3e30effc3b6fee318498766">version</a> () const</td></tr>
-<tr class="memdesc:abfa9ed03d3e30effc3b6fee318498766"><td class="mdescLeft">&#160;</td><td class="mdescRight">versioning  <br /></td></tr>
+<tr class="memdesc:abfa9ed03d3e30effc3b6fee318498766"><td class="mdescLeft">&#160;</td><td class="mdescRight">versioning Get version identifier  <br /></td></tr>
 <tr class="memitem:aed2145075a5e1cdb7b483f57d7de4eb9" id="r_aed2145075a5e1cdb7b483f57d7de4eb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed2145075a5e1cdb7b483f57d7de4eb9">version</a> (int v)</td></tr>
+<tr class="memdesc:aed2145075a5e1cdb7b483f57d7de4eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set version identifier.  <br /></td></tr>
 <tr class="memitem:a4b267cfd4e53589c0669e7d47ea9b6d8" id="r_a4b267cfd4e53589c0669e7d47ea9b6d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b267cfd4e53589c0669e7d47ea9b6d8">zed</a> () const</td></tr>
+<tr class="memdesc:a4b267cfd4e53589c0669e7d47ea9b6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get z coordinate of RoI center.  <br /></td></tr>
 <tr class="memitem:a59980989154fe18a12b4d4b8c6a26425" id="r_a59980989154fe18a12b4d4b8c6a26425"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59980989154fe18a12b4d4b8c6a26425">zedMax</a> (double r) const</td></tr>
+<tr class="memdesc:a59980989154fe18a12b4d4b8c6a26425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum z at given radius.  <br /></td></tr>
 <tr class="memitem:a5ac75899dece422298380c55895c9d30" id="r_a5ac75899dece422298380c55895c9d30"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ac75899dece422298380c55895c9d30">zedMin</a> (double r) const</td></tr>
-<tr class="memdesc:a5ac75899dece422298380c55895c9d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">methods to calculate z position at the RoI boundary at a given radius  <br /></td></tr>
+<tr class="memdesc:a5ac75899dece422298380c55895c9d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">methods to calculate z position at the RoI boundary at a given radius Get minimum z at given radius  <br /></td></tr>
 <tr class="memitem:a2a8f4a42c59b3b268e00f5b7815a38b3" id="r_a2a8f4a42c59b3b268e00f5b7815a38b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a8f4a42c59b3b268e00f5b7815a38b3">zedMinus</a> () const</td></tr>
-<tr class="memdesc:a2a8f4a42c59b3b268e00f5b7815a38b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">z at the most backward end of the RoI  <br /></td></tr>
+<tr class="memdesc:a2a8f4a42c59b3b268e00f5b7815a38b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get z at the most backward end of the RoI.  <br /></td></tr>
 <tr class="memitem:a8e96524a8b43a463ce4627fb7051c211" id="r_a8e96524a8b43a463ce4627fb7051c211"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e96524a8b43a463ce4627fb7051c211">zedOuterMinus</a> () const</td></tr>
-<tr class="memdesc:a8e96524a8b43a463ce4627fb7051c211"><td class="mdescLeft">&#160;</td><td class="mdescRight">z at the most backward end of the RoI  <br /></td></tr>
+<tr class="memdesc:a8e96524a8b43a463ce4627fb7051c211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get z at the most backward end of the RoI at outer radius.  <br /></td></tr>
 <tr class="memitem:ae16655dd136725abf832298d07b30a4d" id="r_ae16655dd136725abf832298d07b30a4d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae16655dd136725abf832298d07b30a4d">zedOuterPlus</a> () const</td></tr>
-<tr class="memdesc:ae16655dd136725abf832298d07b30a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">z at the most forward end of the RoI  <br /></td></tr>
+<tr class="memdesc:ae16655dd136725abf832298d07b30a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get z at the most forward end of the RoI at outer radius.  <br /></td></tr>
 <tr class="memitem:ade4c0ddc527995006bb3c92346207db6" id="r_ade4c0ddc527995006bb3c92346207db6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4c0ddc527995006bb3c92346207db6">zedPlus</a> () const</td></tr>
 <tr class="memdesc:ade4c0ddc527995006bb3c92346207db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">these quantities probably don't need to be used any more  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf6d9070b1480037f9d597e709ee0c9e" id="r_aaf6d9070b1480037f9d597e709ee0c9e"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf6d9070b1480037f9d597e709ee0c9e">zedWidthDefault</a> ()</td></tr>
+<tr class="memdesc:aaf6d9070b1480037f9d597e709ee0c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default z-width.  <br /></td></tr>
 <tr class="memitem:a33cd223088ee74654b1be7a1790cc09d" id="r_a33cd223088ee74654b1be7a1790cc09d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33cd223088ee74654b1be7a1790cc09d">zedWidthDefault</a> (double d)</td></tr>
 <tr class="memdesc:a33cd223088ee74654b1be7a1790cc09d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set default z-width (but only before any RoiDescriptor has been created)  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aeefc7e1a931f0488c43d79ae3c00fafa" id="r_aeefc7e1a931f0488c43d79ae3c00fafa"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeefc7e1a931f0488c43d79ae3c00fafa">FULLSCAN</a> = true</td></tr>
-<tr class="memdesc:aeefc7e1a931f0488c43d79ae3c00fafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenient  <br /></td></tr>
-<tr class="memitem:a9391e6908f316b595d7923496810248f" id="r_a9391e6908f316b595d7923496810248f"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9391e6908f316b595d7923496810248f">ROI</a> = false</td></tr>
+<tr class="memitem:aeefc7e1a931f0488c43d79ae3c00fafa" id="r_aeefc7e1a931f0488c43d79ae3c00fafa"><td class="memItemLeft" align="right" valign="top"><a id="aeefc7e1a931f0488c43d79ae3c00fafa" name="aeefc7e1a931f0488c43d79ae3c00fafa"></a>
+static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>FULLSCAN</b> = true</td></tr>
+<tr class="memdesc:aeefc7e1a931f0488c43d79ae3c00fafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenient <br /></td></tr>
+<tr class="memitem:a9391e6908f316b595d7923496810248f" id="r_a9391e6908f316b595d7923496810248f"><td class="memItemLeft" align="right" valign="top"><a id="a9391e6908f316b595d7923496810248f" name="a9391e6908f316b595d7923496810248f"></a>
+static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ROI</b> = false</td></tr>
+<tr class="memdesc:a9391e6908f316b595d7923496810248f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for region-of-interest mode. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ac373ef71553359b594df249c6d30cca2" name="ac373ef71553359b594df249c6d30cca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac373ef71553359b594df249c6d30cca2">&#9670;&#160;</a></span>roi_iterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ac373ef71553359b594df249c6d30cca2">Acts::Experimental::RoiDescriptor::roi_iterator</a> = std::vector&lt;const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a>*&gt;::const_iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Region-of-interest descriptor with eta/phi/zed bounds. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a364ab735be021c955367a6b3347ea1b6" name="a364ab735be021c955367a6b3347ea1b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a364ab735be021c955367a6b3347ea1b6">&#9670;&#160;</a></span>RoiDescriptor() <span class="overload">[1/2]</span></h2>
 
@@ -314,22 +325,13 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="abadfb203ab7536f7557f3eba8ba78c51" name="abadfb203ab7536f7557f3eba8ba78c51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abadfb203ab7536f7557f3eba8ba78c51">&#9670;&#160;</a></span>~RoiDescriptor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::RoiDescriptor::~RoiDescriptor </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">roi</td><td>The RoI to copy </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -350,6 +352,13 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>find an RoiDescriptor constituent </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Index of the constituent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The RoI constituent at the given index </dd></dl>
 
 </div>
 </div>
@@ -369,25 +378,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>iterators </p>
-
-</div>
-</div>
-<a id="acc544485bf9a3b060f6a40e07abd4fe4" name="acc544485bf9a3b060f6a40e07abd4fe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc544485bf9a3b060f6a40e07abd4fe4">&#9670;&#160;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::Experimental::RoiDescriptor::clear </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>clear the vector </p>
+<dl class="section return"><dt>Returns</dt><dd>Begin iterator </dd></dl>
 
 </div>
 </div>
@@ -407,7 +398,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>SuperRoI compatibility methods. </p>
-<p>am I a SuperRoi? </p>
+<p>am I a SuperRoi? </p><dl class="section return"><dt>Returns</dt><dd>True if composite RoI </dd></dl>
 
 </div>
 </div>
@@ -426,7 +417,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>dr/dz at the rear of the RoI </p>
+<p>Get dr/dz at the rear of the RoI. </p>
+<dl class="section return"><dt>Returns</dt><dd>Gradient drdz at rear </dd></dl>
 
 </div>
 </div>
@@ -445,7 +437,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>dr/dz at the front of the RoI </p>
+<p>Get dr/dz at the front of the RoI. </p>
+<dl class="section return"><dt>Returns</dt><dd>Gradient drdz at front </dd></dl>
 
 </div>
 </div>
@@ -464,8 +457,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>return the gradients </p>
-<p>dz/dr at the rear of the RoI </p>
+<p>return the gradients Get dz/dr at the rear of the RoI </p>
+<dl class="section return"><dt>Returns</dt><dd>Gradient dzdr at rear dz/dr at the rear of the RoI </dd></dl>
 
 </div>
 </div>
@@ -484,7 +477,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>dz/dr at the front of the RoI </p>
+<p>Get dz/dr at the front of the RoI. </p>
+<dl class="section return"><dt>Returns</dt><dd>Gradient dzdr at front </dd></dl>
 
 </div>
 </div>
@@ -503,6 +497,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get end iterator. </p>
+<dl class="section return"><dt>Returns</dt><dd>End iterator </dd></dl>
+
 </div>
 </div>
 <a id="ae470c71d41483d8c7d070a4847c59120" name="ae470c71d41483d8c7d070a4847c59120"></a>
@@ -519,6 +516,9 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get eta coordinate of RoI center. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eta coordinate </dd></dl>
 
 </div>
 </div>
@@ -537,7 +537,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>gets eta at zMinus </p>
+<p>Gets eta at zMinus. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eta at rear </dd></dl>
 
 </div>
 </div>
@@ -556,7 +557,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>gets eta at zedPlus </p>
+<p>Gets eta at zedPlus. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eta at front </dd></dl>
 
 </div>
 </div>
@@ -576,7 +578,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>output </p>
-<p>is this a full scan RoI? </p>
+<p>is this a full scan RoI? </p><dl class="section return"><dt>Returns</dt><dd>True if full scan RoI </dd></dl>
 
 </div>
 </div>
@@ -595,6 +597,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get lvl1 event number. </p>
+<dl class="section return"><dt>Returns</dt><dd>Level 1 ID </dd></dl>
+
 </div>
 </div>
 <a id="a1773e6ae2a73b26f60f2fb7b59243929" name="a1773e6ae2a73b26f60f2fb7b59243929"></a>
@@ -612,7 +617,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>always manage constituents ??? </p>
+<p>Always manage constituents. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if managing constituents </dd></dl>
 
 </div>
 </div>
@@ -631,6 +637,14 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set whether to manage constituents. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>True to manage constituents </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6162cdfd2d7283de45abb9a067694311" name="a6162cdfd2d7283de45abb9a067694311"></a>
@@ -647,6 +661,15 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Copy assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>The RoI to copy </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this RoI </dd></dl>
 
 </div>
 </div>
@@ -665,6 +688,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get phi coordinate of RoI center. </p>
+<dl class="section return"><dt>Returns</dt><dd>Phi coordinate </dd></dl>
+
 </div>
 </div>
 <a id="ac23feef188764413e0be740fb9835beb" name="ac23feef188764413e0be740fb9835beb"></a>
@@ -682,7 +708,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>gets phiMinus </p>
+<p>Gets phiMinus. </p>
+<dl class="section return"><dt>Returns</dt><dd>Minimum phi </dd></dl>
 
 </div>
 </div>
@@ -701,7 +728,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>gets phiPlus </p>
+<p>Gets phiPlus. </p>
+<dl class="section return"><dt>Returns</dt><dd>Maximum phi </dd></dl>
 
 </div>
 </div>
@@ -721,6 +749,12 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>add a RoiDescriptor </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">roi</td><td>RoI constituent to add </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -740,6 +774,12 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>reserve elements in vector </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>Number of elements to reserve </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -758,6 +798,15 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get maximum rho at given z. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">z</td><td>Z coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum rho </dd></dl>
+
 </div>
 </div>
 <a id="a2def464b86b950612ef7b550b4467876" name="a2def464b86b950612ef7b550b4467876"></a>
@@ -774,6 +823,15 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get minimum rho at given z. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">z</td><td>Z coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Minimum rho </dd></dl>
 
 </div>
 </div>
@@ -792,6 +850,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get RoI identifier. </p>
+<dl class="section return"><dt>Returns</dt><dd>RoI ID </dd></dl>
+
 </div>
 </div>
 <a id="a7e23830a32fa0f81413b87fa7bba94fc" name="a7e23830a32fa0f81413b87fa7bba94fc"></a>
@@ -809,6 +870,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get lvl1 RoI word. </p>
+<dl class="section return"><dt>Returns</dt><dd>RoI word </dd></dl>
+
 </div>
 </div>
 <a id="a88e866b63f70ec05f7db818d0fd61c21" name="a88e866b63f70ec05f7db818d0fd61c21"></a>
@@ -825,6 +889,14 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set composite flag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>True to mark as composite </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -844,6 +916,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>number of constituents </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of constituent RoIs </dd></dl>
 
 </div>
 </div>
@@ -862,7 +935,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>versioning </p>
+<p>versioning Get version identifier </p>
+<dl class="section return"><dt>Returns</dt><dd>Version number </dd></dl>
 
 </div>
 </div>
@@ -881,6 +955,14 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set version identifier. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Version number </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a4b267cfd4e53589c0669e7d47ea9b6d8" name="a4b267cfd4e53589c0669e7d47ea9b6d8"></a>
@@ -897,6 +979,9 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get z coordinate of RoI center. </p>
+<dl class="section return"><dt>Returns</dt><dd>Z coordinate </dd></dl>
 
 </div>
 </div>
@@ -915,6 +1000,15 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get maximum z at given radius. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>Radius coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum z position </dd></dl>
+
 </div>
 </div>
 <a id="a5ac75899dece422298380c55895c9d30" name="a5ac75899dece422298380c55895c9d30"></a>
@@ -932,7 +1026,14 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>methods to calculate z position at the RoI boundary at a given radius </p>
+<p>methods to calculate z position at the RoI boundary at a given radius Get minimum z at given radius </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>Radius coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Minimum z position </dd></dl>
 
 </div>
 </div>
@@ -951,7 +1052,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>z at the most backward end of the RoI </p>
+<p>Get z at the most backward end of the RoI. </p>
+<dl class="section return"><dt>Returns</dt><dd>Z at rear z at the most backward end of the RoI </dd></dl>
 
 </div>
 </div>
@@ -970,7 +1072,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>z at the most backward end of the RoI </p>
+<p>Get z at the most backward end of the RoI at outer radius. </p>
+<dl class="section return"><dt>Returns</dt><dd>Z at rear outer radius z at the most backward end of the RoI </dd></dl>
 
 </div>
 </div>
@@ -989,7 +1092,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>z at the most forward end of the RoI </p>
+<p>Get z at the most forward end of the RoI at outer radius. </p>
+<dl class="section return"><dt>Returns</dt><dd>Z at front outer radius z at the most forward end of the RoI </dd></dl>
 
 </div>
 </div>
@@ -1010,7 +1114,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>these quantities probably don't need to be used any more </p>
 <ul>
-<li>they are implemented here only because we had them in the original legacy interface z at the most forward end of the RoI </li>
+<li>they are implemented here only because we had them in the original legacy interface Get z at the most forward end of the RoI <dl class="section return"><dt>Returns</dt><dd>Z at front z at the most forward end of the RoI </dd></dl>
+</li>
 </ul>
 
 </div>
@@ -1038,6 +1143,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get default z-width. </p>
+<dl class="section return"><dt>Returns</dt><dd>Default z width </dd></dl>
+
 </div>
 </div>
 <a id="a33cd223088ee74654b1be7a1790cc09d" name="a33cd223088ee74654b1be7a1790cc09d"></a>
@@ -1064,53 +1172,12 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set default z-width (but only before any RoiDescriptor has been created) </p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aeefc7e1a931f0488c43d79ae3c00fafa" name="aeefc7e1a931f0488c43d79ae3c00fafa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeefc7e1a931f0488c43d79ae3c00fafa">&#9670;&#160;</a></span>FULLSCAN</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::RoiDescriptor::FULLSCAN = true</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>convenient </p>
-
-</div>
-</div>
-<a id="a9391e6908f316b595d7923496810248f" name="a9391e6908f316b595d7923496810248f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9391e6908f316b595d7923496810248f">&#9670;&#160;</a></span>ROI</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::RoiDescriptor::ROI = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>Default z width value </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

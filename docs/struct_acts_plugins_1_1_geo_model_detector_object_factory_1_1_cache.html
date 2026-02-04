@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_plugins_1_1_geo_model_detector_object_fact
 </div><!--header-->
 <div class="contents">
 
+<p>Cache for storing created detector elements and factory objects.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_geo_model_detector_object_factory_8hpp_source.html">/home/runner/work/acts/acts/Plugins/GeoModel/include/ActsPlugins/GeoModel/GeoModelDetectorObjectFactory.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::GeoModelDetectorObjectFactory::Cache:</div>
@@ -135,28 +138,20 @@ Collaboration diagram for ActsPlugins::GeoModelDetectorObjectFactory::Cache:</di
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a98c6c8fb5a90d813df5ed522f013595f" id="r_a98c6c8fb5a90d813df5ed522f013595f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__geomodel__plugin.html#gabad005b7065f09ad1583ba62dd6322a4">GeoModelSensitiveSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c6c8fb5a90d813df5ed522f013595f">sensitiveSurfaces</a></td></tr>
+<tr class="memitem:a98c6c8fb5a90d813df5ed522f013595f" id="r_a98c6c8fb5a90d813df5ed522f013595f"><td class="memItemLeft" align="right" valign="top"><a id="a98c6c8fb5a90d813df5ed522f013595f" name="a98c6c8fb5a90d813df5ed522f013595f"></a>
+std::vector&lt; <a class="el" href="group__geomodel__plugin.html#gabad005b7065f09ad1583ba62dd6322a4">GeoModelSensitiveSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sensitiveSurfaces</b></td></tr>
+<tr class="memdesc:a98c6c8fb5a90d813df5ed522f013595f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The created detector elements and their surfaces. <br /></td></tr>
 <tr class="memitem:a6234958c7b7e1e21631f686cda31664a" id="r_a6234958c7b7e1e21631f686cda31664a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="namespace_acts.html#aff81cf741e697ab165fc3579cacda4aa">Acts::SurfaceBoundFactory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6234958c7b7e1e21631f686cda31664a">surfBoundFactory</a></td></tr>
 <tr class="memdesc:a6234958c7b7e1e21631f686cda31664a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the surface bound factory.  <br /></td></tr>
 <tr class="memitem:a0ff99ef6c3d481d954901ad541a1ba02" id="r_a0ff99ef6c3d481d954901ad541a1ba02"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="namespace_acts.html#aca88659ee97e667013784c4fac8475f2">Acts::VolumeBoundFactory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ff99ef6c3d481d954901ad541a1ba02">volumeBoundFactory</a></td></tr>
 <tr class="memdesc:a0ff99ef6c3d481d954901ad541a1ba02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the volume bound factory *&zwj;/.  <br /></td></tr>
-<tr class="memitem:a1ed7120890246fdd36492a911d7432f4" id="r_a1ed7120890246fdd36492a911d7432f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_geo_model_detector_object_factory.html#abb6897c433c96f4feb26bfbe31dbfcbc">ConvertedVolList_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed7120890246fdd36492a911d7432f4">volumeBoxFPVs</a> {}</td></tr>
+<tr class="memitem:a1ed7120890246fdd36492a911d7432f4" id="r_a1ed7120890246fdd36492a911d7432f4"><td class="memItemLeft" align="right" valign="top"><a id="a1ed7120890246fdd36492a911d7432f4" name="a1ed7120890246fdd36492a911d7432f4"></a>
+<a class="el" href="class_acts_plugins_1_1_geo_model_detector_object_factory.html#abb6897c433c96f4feb26bfbe31dbfcbc">ConvertedVolList_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>volumeBoxFPVs</b> {}</td></tr>
+<tr class="memdesc:a1ed7120890246fdd36492a911d7432f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The created representation of bounding boxes and the corresponding Full Physical Volumes. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a98c6c8fb5a90d813df5ed522f013595f" name="a98c6c8fb5a90d813df5ed522f013595f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98c6c8fb5a90d813df5ed522f013595f">&#9670;&#160;</a></span>sensitiveSurfaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="group__geomodel__plugin.html#gabad005b7065f09ad1583ba62dd6322a4">GeoModelSensitiveSurface</a>&gt; ActsPlugins::GeoModelDetectorObjectFactory::Cache::sensitiveSurfaces</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Cache for storing created detector elements and factory objects. </p>
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a6234958c7b7e1e21631f686cda31664a" name="a6234958c7b7e1e21631f686cda31664a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6234958c7b7e1e21631f686cda31664a">&#9670;&#160;</a></span>surfBoundFactory</h2>
 
@@ -190,20 +185,6 @@ Public Attributes</h2></td></tr>
 <div class="line">        std::make_shared&lt;Acts::VolumeBoundFactory&gt;()</div>
 </div><!-- fragment -->
 <p>Pointer to the volume bound factory *&zwj;/. </p>
-
-</div>
-</div>
-<a id="a1ed7120890246fdd36492a911d7432f4" name="a1ed7120890246fdd36492a911d7432f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ed7120890246fdd36492a911d7432f4">&#9670;&#160;</a></span>volumeBoxFPVs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_plugins_1_1_geo_model_detector_object_factory.html#abb6897c433c96f4feb26bfbe31dbfcbc">ConvertedVolList_t</a> ActsPlugins::GeoModelDetectorObjectFactory::Cache::volumeBoxFPVs {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

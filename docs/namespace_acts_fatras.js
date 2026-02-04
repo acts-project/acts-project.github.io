@@ -1,6 +1,5 @@
 var namespace_acts_fatras =
 [
-    [ "Casts", "namespace_acts_fatras_1_1_casts.html", "namespace_acts_fatras_1_1_casts" ],
     [ "AbsPdgExcluder", "struct_acts_fatras_1_1_abs_pdg_excluder.html", "struct_acts_fatras_1_1_abs_pdg_excluder" ],
     [ "AbsPdgSelector", "struct_acts_fatras_1_1_abs_pdg_selector.html", "struct_acts_fatras_1_1_abs_pdg_selector" ],
     [ "Barcode", "class_acts_fatras_1_1_barcode.html", "class_acts_fatras_1_1_barcode" ],
@@ -55,20 +54,8 @@ var namespace_acts_fatras =
       [ "MaskingError", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0abff279d56cb31d81e2b1a9f71a5394d5", null ],
       [ "MaximumRetriesExceeded", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0ae887f671d35b1e3abb22adb9d2eff469", null ]
     ] ],
-    [ "ParticleOutcome", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabe", [
-      [ "Alive", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabeabd9f7c5d6ab4201b138a3e51dab7056f", null ],
-      [ "KilledInteraction", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabea4dc9d1f7c18470b2f4ed4558b0c6f78e", null ],
-      [ "KilledVolumeExit", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabea5a5c052daceb4ad97ab4208bc1b54b67", null ],
-      [ "KilledTime", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabea464a2701b16a994b7916d578ca90dd6a", null ],
-      [ "KilledSecondaryParticle", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabea540fbfca1f15a827e7db56977ecf265b", null ]
-    ] ],
-    [ "ProcessType", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fc", [
-      [ "eUndefined", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fca46e5240f02f262bbbb359a08c45c083d", null ],
-      [ "eDecay", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fca4a4ec149439e5a828788f62cbc86400b", null ],
-      [ "ePhotonConversion", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fca89489d4ebcb432b49c73bc4acfe0e604", null ],
-      [ "eBremsstrahlung", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fca62284501b0a03dc951f07895a37ff213", null ],
-      [ "eNuclearInteraction", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fca5f04abf1492f159d95d07cdb482b28af", null ]
-    ] ],
+    [ "ParticleOutcome", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabe", null ],
+    [ "ProcessType", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fc", null ],
     [ "make_error_code", "namespace_acts_fatras.html#a4d0eb5f8789de1300cafc2d643a6f82a", null ],
     [ "makeStandardChargedElectroMagneticInteractions", "namespace_acts_fatras.html#a8d11660adb3bcd883e687c8d3e099d18", null ],
     [ "makeStandardNeutralElectroMagneticInteractions", "namespace_acts_fatras.html#ad110498041b0e25e1daa2411062494b0", null ],

@@ -133,8 +133,9 @@ $(function(){initNavTree('class_acts_1_1_combinatorial_kalman_filter.html','','c
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a00ce8df1692cbd175c8c4c4eb96d127b" id="r_a00ce8df1692cbd175c8c4c4eb96d127b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00ce8df1692cbd175c8c4c4eb96d127b">CombinatorialKalmanFilter</a> ()=delete</td></tr>
-<tr class="memdesc:a00ce8df1692cbd175c8c4c4eb96d127b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor is deleted.  <br /></td></tr>
+<tr class="memitem:a00ce8df1692cbd175c8c4c4eb96d127b" id="r_a00ce8df1692cbd175c8c4c4eb96d127b"><td class="memItemLeft" align="right" valign="top"><a id="a00ce8df1692cbd175c8c4c4eb96d127b" name="a00ce8df1692cbd175c8c4c4eb96d127b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CombinatorialKalmanFilter</b> ()=delete</td></tr>
+<tr class="memdesc:a00ce8df1692cbd175c8c4c4eb96d127b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor is deleted. <br /></td></tr>
 <tr class="memitem:a73babed6b5e06588d567cfa23fd7b0cf" id="r_a73babed6b5e06588d567cfa23fd7b0cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73babed6b5e06588d567cfa23fd7b0cf">CombinatorialKalmanFilter</a> (propagator_t pPropagator, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;CKF&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a73babed6b5e06588d567cfa23fd7b0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with propagator and logging level.  <br /></td></tr>
 <tr class="memitem:a6433994384494e412829666abdb4cde9" id="r_a6433994384494e412829666abdb4cde9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6433994384494e412829666abdb4cde9">findTracks</a> (const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;initialParameters, const <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer) const -&gt; <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td></tr>
@@ -158,37 +159,8 @@ class Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</
 <p>Measurements are not required to be ordered for the CombinatorialKalmanFilter, measurement ordering needs to be figured out by the navigation of the propagator.</p>
 <p>The void components are provided mainly for unit testing. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a00ce8df1692cbd175c8c4c4eb96d127b" name="a00ce8df1692cbd175c8c4c4eb96d127b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00ce8df1692cbd175c8c4c4eb96d127b">&#9670;&#160;</a></span>CombinatorialKalmanFilter() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename track_container_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter</a>&lt; propagator_t, track_container_t &gt;::CombinatorialKalmanFilter </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor is deleted. </p>
-
-</div>
-</div>
 <a id="a73babed6b5e06588d567cfa23fd7b0cf" name="a73babed6b5e06588d567cfa23fd7b0cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73babed6b5e06588d567cfa23fd7b0cf">&#9670;&#160;</a></span>CombinatorialKalmanFilter() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73babed6b5e06588d567cfa23fd7b0cf">&#9670;&#160;</a></span>CombinatorialKalmanFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">

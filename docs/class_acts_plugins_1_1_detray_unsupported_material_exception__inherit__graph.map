@@ -1,5 +1,5 @@
 <map id="ActsPlugins::DetrayUnsupportedMaterialException" name="ActsPlugins::DetrayUnsupportedMaterialException">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,237,192"/>
+<area shape="rect" id="Node000001" title="Exception thrown when encountering unsupported material types in Detray conversion." alt="" coords="5,152,237,192"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="52,79,191,104"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,118,124,152,119,152,119,118"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="64,5,179,31"/>

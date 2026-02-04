@@ -69,7 +69,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="630,-292.51 407,-292.51 407,-240.51 630,-240.51 630,-292.51"/>
+<polygon fill="white" stroke="#bfbfbf" points="630,-292.51 407,-292.51 407,-240.51 630,-240.51 630,-292.51"/>
 <text text-anchor="start" x="415" y="-280.51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="415" y="-269.51" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="415" y="-258.51" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const CalibrationContext</text>
@@ -91,7 +91,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-170.51 0,-170.51 0,-140.51 152,-140.51 152,-170.51"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-170.51 0,-170.51 0,-140.51 152,-140.51 152,-170.51"/>
 <text text-anchor="start" x="8" y="-158.51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-147.51" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -113,7 +113,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="608.5,-222.51 428.5,-222.51 428.5,-170.51 608.5,-170.51 608.5,-222.51"/>
+<polygon fill="white" stroke="#bfbfbf" points="608.5,-222.51 428.5,-222.51 428.5,-170.51 608.5,-170.51 608.5,-222.51"/>
 <text text-anchor="start" x="436.5" y="-210.51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="436.5" y="-199.51" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="436.5" y="-188.51" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, TrackStateProxy, const</text>
@@ -137,7 +137,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="588,-152.51 449,-152.51 449,-122.51 588,-122.51 588,-152.51"/>
+<polygon fill="white" stroke="#bfbfbf" points="588,-152.51 449,-152.51 449,-122.51 588,-122.51 588,-152.51"/>
 <text text-anchor="start" x="457" y="-140.51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="518.5" y="-129.51" font-family="Helvetica,sans-Serif" font-size="10.00">(ConstTrackStateProxy)&gt;</text>
 </a>
@@ -157,7 +157,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="605,-104.51 432,-104.51 432,-74.51 605,-74.51 605,-104.51"/>
+<polygon fill="white" stroke="#bfbfbf" points="605,-104.51 432,-104.51 432,-74.51 605,-74.51 605,-104.51"/>
 <text text-anchor="start" x="440" y="-92.51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; const</text>
 <text text-anchor="middle" x="518.5" y="-81.51" font-family="Helvetica,sans-Serif" font-size="10.00"> Surface *(const SourceLink &amp;)&gt;</text>
 </a>
@@ -178,7 +178,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="596.5,-56.51 440.5,-56.51 440.5,-4.51 596.5,-4.51 596.5,-56.51"/>
+<polygon fill="white" stroke="#bfbfbf" points="596.5,-56.51 440.5,-56.51 440.5,-4.51 596.5,-4.51 596.5,-56.51"/>
 <text text-anchor="start" x="448.5" y="-44.51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="448.5" y="-33.51" font-family="Helvetica,sans-Serif" font-size="10.00">(std::vector&lt; GsfComponent</text>
 <text text-anchor="start" x="448.5" y="-22.51" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;, std::size_t, const</text>

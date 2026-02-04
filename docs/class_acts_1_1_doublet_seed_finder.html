@@ -140,7 +140,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aac303c7471fa8a1352293fa8e9a526cc" id="r_aac303c7471fa8a1352293fa8e9a526cc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac303c7471fa8a1352293fa8e9a526cc">~DoubletSeedFinder</a> ()=default</td></tr>
 <tr class="memitem:a968891077bcade98e5dc1505dc735eb8" id="r_a968891077bcade98e5dc1505dc735eb8"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html">DerivedConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a968891077bcade98e5dc1505dc735eb8">config</a> () const =0</td></tr>
 <tr class="memdesc:a968891077bcade98e5dc1505dc735eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the configuration of the doublet seed finder.  <br /></td></tr>
 <tr class="memitem:a1983a9ef39d63b47add1adac7a5d0755" id="r_a1983a9ef39d63b47add1adac7a5d0755"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1983a9ef39d63b47add1adac7a5d0755">createDoublets</a> (const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;middleSp, const <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a> &amp;middleSpInfo, <a class="el" href="class_acts_1_1_space_point_container2.html#a97b60c6d237fb8556f8affd655109822">SpacePointContainer2::ConstRange</a> &amp;candidateSps, <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;compatibleDoublets) const =0</td></tr>
@@ -159,33 +158,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Interface and a collection of standard implementations for a doublet seed finder. </p>
 <p>Given a starting space point and a collection of candidates, it finds all doublets that satisfy the selection criteria. For the standard implementations the criteria are given by interaction point cuts.</p>
 <dl class="section note"><dt>Note</dt><dd>The standard implementations rely on virtual function dispatch which did not turn out to affect the performance after measurement. </dd></dl>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aac303c7471fa8a1352293fa8e9a526cc" name="aac303c7471fa8a1352293fa8e9a526cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac303c7471fa8a1352293fa8e9a526cc">&#9670;&#160;</a></span>~DoubletSeedFinder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::DoubletSeedFinder::~DoubletSeedFinder </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="afd0c71f324af4b1c5d083b69eae5a36d" name="afd0c71f324af4b1c5d083b69eae5a36d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd0c71f324af4b1c5d083b69eae5a36d">&#9670;&#160;</a></span>computeMiddleSpInfo()</h2>
 

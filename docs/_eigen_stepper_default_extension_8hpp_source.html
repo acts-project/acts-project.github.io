@@ -192,7 +192,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keyword">auto</span> m = stepper.particleHypothesis(state).mass();</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">auto</span> p = stepper.absoluteMomentum(state);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keyword">auto</span> dtds = std::sqrt(1 + m * m / (p * p));</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    state.pars[<a class="code hl_enumvalue" href="namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca73bbfd1eb6084375bbd8cf207abcf2d2">eFreeTime</a>] += h * dtds;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    state.pars[eFreeTime] += h * dtds;</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">if</span> (state.covTransport) {</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>      state.derivative(3) = dtds;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    }</div>
@@ -233,12 +233,12 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="comment">// For the case without energy loss</span></div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    dk1dL = dir.cross(sd.B_first);</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    dk2dL = (dir + half_h * sd.k1).<a class="code hl_function" href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">cross</a>(sd.B_middle) +</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    dk2dL = (dir + half_h * sd.k1).cross(sd.B_middle) +</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            qop * half_h * dk1dL.cross(sd.B_middle);</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    dk3dL = (dir + half_h * sd.k2).<a class="code hl_function" href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">cross</a>(sd.B_middle) +</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    dk3dL = (dir + half_h * sd.k2).cross(sd.B_middle) +</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            qop * half_h * dk2dL.cross(sd.B_middle);</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    dk4dL =</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        (dir + <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * sd.k3).<a class="code hl_function" href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">cross</a>(sd.B_last) + qop * <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * dk3dL.cross(sd.B_last);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        (dir + <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * sd.k3).cross(sd.B_last) + qop * <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * dk3dL.cross(sd.B_last);</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    dk1dT(0, 1) = sd.B_first.z();</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    dk1dT(0, 2) = -sd.B_first.y();</div>
@@ -249,13 +249,13 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    dk1dT *= qop;</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    dk2dT += half_h * dk1dT;</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    dk2dT = qop * <a class="code hl_function" href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">VectorHelpers::cross</a>(dk2dT, sd.B_middle);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    dk2dT = qop * VectorHelpers::cross(dk2dT, sd.B_middle);</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    dk3dT += half_h * dk2dT;</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    dk3dT = qop * <a class="code hl_function" href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">VectorHelpers::cross</a>(dk3dT, sd.B_middle);</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    dk3dT = qop * VectorHelpers::cross(dk3dT, sd.B_middle);</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    dk4dT += <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * dk3dT;</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    dk4dT = qop * <a class="code hl_function" href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">VectorHelpers::cross</a>(dk4dT, sd.B_last);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    dk4dT = qop * VectorHelpers::cross(dk4dT, sd.B_last);</div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    dFdT.setIdentity();</div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    dFdT += <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> / 6. * (dk1dT + dk2dT + dk3dT);</div>
@@ -279,9 +279,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="ttc" id="agroup__algebra__types_html_gaa9dacb7a0481f6908ad7fc61d3523c9f"><div class="ttname"><a href="group__algebra__types.html#gaa9dacb7a0481f6908ad7fc61d3523c9f">Acts::SquareMatrix3</a></div><div class="ttdeci">ActsSquareMatrix&lt; 3 &gt; SquareMatrix3</div><div class="ttdoc">3x3 square matrix type, typically used for 3D coordinate covariance</div><div class="ttdef"><b>Definition</b> Algebra.hpp:79</div></div>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_a3f0102c07cb8f08075e66a7c86894182"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">Acts::UnitConstants::h</a></div><div class="ttdeci">constexpr double h</div><div class="ttdoc">Hour - 3600 seconds.</div><div class="ttdef"><b>Definition</b> Units.hpp:137</div></div>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_aa0b5dd062eddcdda72af1809b341ab0f"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f">Acts::UnitConstants::m</a></div><div class="ttdeci">constexpr double m</div><div class="ttdoc">Meter.</div><div class="ttdef"><b>Definition</b> Units.hpp:100</div></div>
-<div class="ttc" id="anamespace_acts_1_1_vector_helpers_html_ab1d965e7d012208c08c27a465d7fb1c4"><div class="ttname"><a href="namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4">Acts::VectorHelpers::cross</a></div><div class="ttdeci">SquareMatrix3 cross(const SquareMatrix3 &amp;m, const Vector3 &amp;v)</div><div class="ttdoc">Calculates column-wise cross products of a matrix and a vector and stores the result column-wise in a...</div><div class="ttdef"><b>Definition</b> VectorHelpers.hpp:210</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="anamespace_acts_html_a6c086a09086424ffb3ace68710e8e92ca73bbfd1eb6084375bbd8cf207abcf2d2"><div class="ttname"><a href="namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca73bbfd1eb6084375bbd8cf207abcf2d2">Acts::eFreeTime</a></div><div class="ttdeci">@ eFreeTime</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:71</div></div>
 <div class="ttc" id="anamespace_acts_html_acdde648ddc34cb68123733bebd224cb7"><div class="ttname"><a href="namespace_acts.html#acdde648ddc34cb68123733bebd224cb7">Acts::FreeMatrix</a></div><div class="ttdeci">ActsMatrix&lt; eFreeSize, eFreeSize &gt; FreeMatrix</div><div class="ttdoc">Matrix type for free track parameter transformations.</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:130</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_default_extension_html"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_default_extension.html">Acts::EigenStepperDefaultExtension</a></div><div class="ttdoc">Default evaluator of the k_i&#39;s and elements of the transport matrix D of the RKN4 stepping.</div><div class="ttdef"><b>Definition</b> EigenStepperDefaultExtension.hpp:23</div></div>
 <div class="ttc" id="astruct_acts_1_1_eigen_stepper_default_extension_html_a5583a180f7f65025e833a3ae29b0ca80"><div class="ttname"><a href="struct_acts_1_1_eigen_stepper_default_extension.html#a5583a180f7f65025e833a3ae29b0ca80">Acts::EigenStepperDefaultExtension::finalize</a></div><div class="ttdeci">bool finalize(typename stepper_t::State &amp;state, const stepper_t &amp;stepper, const IVolumeMaterial *volumeMaterial, const double h) const</div><div class="ttdoc">Veto function after a RKN4 step was accepted by judging on the error of the step.</div><div class="ttdef"><b>Definition</b> EigenStepperDefaultExtension.hpp:73</div></div>
@@ -293,7 +291,7 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_88539a45249c559c7784773bf319526e.html">Propagator</a></li><li class="navelem"><b>EigenStepperDefaultExtension.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>Propagator</b></li><li class="navelem"><b>EigenStepperDefaultExtension.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

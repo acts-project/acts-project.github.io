@@ -134,6 +134,7 @@ $(function(){initNavTree('class_acts_1_1_impact_point_estimator.html','','class_
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration settings for the impact point estimator.  <a href="struct_acts_1_1_impact_point_estimator_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_state.html">State</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State struct.  <a href="struct_acts_1_1_impact_point_estimator_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -143,8 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0766ce6aaaa592e21bb6b96b98ec86e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a4e59c09176077dcac5922385401d0e02" id="r_a4e59c09176077dcac5922385401d0e02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e59c09176077dcac5922385401d0e02">ImpactPointEstimator</a> (const ImpactPointEstimator &amp;other)</td></tr>
 <tr class="memdesc:a4e59c09176077dcac5922385401d0e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor to clone logger (class owns a unique pointer to it, which can't be copied).  <br /></td></tr>
-<tr class="memitem:a9ccea201cdf538a0ed4f5a44f7cb18db" id="r_a9ccea201cdf538a0ed4f5a44f7cb18db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ccea201cdf538a0ed4f5a44f7cb18db">ImpactPointEstimator</a> (ImpactPointEstimator &amp;&amp;)=default</td></tr>
-<tr class="memdesc:a9ccea201cdf538a0ed4f5a44f7cb18db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor for impact point estimator.  <br /></td></tr>
+<tr class="memitem:a9ccea201cdf538a0ed4f5a44f7cb18db" id="r_a9ccea201cdf538a0ed4f5a44f7cb18db"><td class="memItemLeft" align="right" valign="top"><a id="a9ccea201cdf538a0ed4f5a44f7cb18db" name="a9ccea201cdf538a0ed4f5a44f7cb18db"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ImpactPointEstimator</b> (ImpactPointEstimator &amp;&amp;)=default</td></tr>
+<tr class="memdesc:a9ccea201cdf538a0ed4f5a44f7cb18db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor for impact point estimator. <br /></td></tr>
 <tr class="memitem:a60df925c3ccd36423ad8eea8c0228360" id="r_a60df925c3ccd36423ad8eea8c0228360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60df925c3ccd36423ad8eea8c0228360">calculateDistance</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;trkParams, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;vtxPos, <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a60df925c3ccd36423ad8eea8c0228360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates 3D distance between a track and a vertex.  <br /></td></tr>
 <tr class="memitem:ac1ac97791affe6ea342df7eb404a07a9" id="r_ac1ac97791affe6ea342df7eb404a07a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1ac97791affe6ea342df7eb404a07a9">estimate3DImpactParameters</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;trkParams, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;vtxPos, <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -166,7 +168,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Estimator for impact point calculations A description of the underlying mathematics can be found here: <a href="https://github.com/acts-project/acts/pull/2506">https://github.com/acts-project/acts/pull/2506</a> TODO: Upload reference at a better place. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0766ce6aaaa592e21bb6b96b98ec86e5" name="a0766ce6aaaa592e21bb6b96b98ec86e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0766ce6aaaa592e21bb6b96b98ec86e5">&#9670;&#160;</a></span>ImpactPointEstimator() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0766ce6aaaa592e21bb6b96b98ec86e5">&#9670;&#160;</a></span>ImpactPointEstimator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,7 +206,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4e59c09176077dcac5922385401d0e02" name="a4e59c09176077dcac5922385401d0e02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e59c09176077dcac5922385401d0e02">&#9670;&#160;</a></span>ImpactPointEstimator() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e59c09176077dcac5922385401d0e02">&#9670;&#160;</a></span>ImpactPointEstimator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,33 +227,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a9ccea201cdf538a0ed4f5a44f7cb18db" name="a9ccea201cdf538a0ed4f5a44f7cb18db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ccea201cdf538a0ed4f5a44f7cb18db">&#9670;&#160;</a></span>ImpactPointEstimator() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ImpactPointEstimator::ImpactPointEstimator </td>
-          <td>(</td>
-          <td class="paramtype">ImpactPointEstimator &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move constructor for impact point estimator. </p>
 
 </div>
 </div>

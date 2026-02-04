@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_graph_construction_base.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_graph_construction_base.html" target="_top" xlink:title="Base class for graph construction algorithms.">
 <polygon fill="white" stroke="#666666" points="194,-45.5 0,-45.5 0,-26.5 194,-26.5 194,-45.5"/>
 <text text-anchor="middle" x="97" y="-33.5" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::GraphConstructionBase</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_module_map_cuda.html" target="_top" xlink:title=" ">
+<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_module_map_cuda.html" target="_top" xlink:title="CUDA&#45;based module map for graph construction.">
 <polygon fill="white" stroke="#666666" points="391,-67.5 230,-67.5 230,-48.5 391,-48.5 391,-67.5"/>
 <text text-anchor="middle" x="310.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::ModuleMapCuda</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_torch_metric_learning.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_torch_metric_learning.html" target="_top" xlink:title="Graph construction using PyTorch metric learning.">
 <polygon fill="white" stroke="#666666" points="378,-30 243,-30 243,0 378,0 378,-30"/>
 <text text-anchor="start" x="251" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TorchMetric</text>
 <text text-anchor="middle" x="310.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Learning</text>

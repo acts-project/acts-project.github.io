@@ -138,17 +138,18 @@ Inheritance diagram for Acts::ITrackingVolumeHelper:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aebd3f6fe0ffa9d019b62417b8d3c0c76" id="r_aebd3f6fe0ffa9d019b62417b8d3c0c76"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebd3f6fe0ffa9d019b62417b8d3c0c76">~ITrackingVolumeHelper</a> ()=default</td></tr>
-<tr class="memdesc:aebd3f6fe0ffa9d019b62417b8d3c0c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:aebd3f6fe0ffa9d019b62417b8d3c0c76" id="r_aebd3f6fe0ffa9d019b62417b8d3c0c76"><td class="memItemLeft" align="right" valign="top"><a id="aebd3f6fe0ffa9d019b62417b8d3c0c76" name="aebd3f6fe0ffa9d019b62417b8d3c0c76"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ITrackingVolumeHelper</b> ()=default</td></tr>
+<tr class="memdesc:aebd3f6fe0ffa9d019b62417b8d3c0c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="memitem:a76db34c0919ff96ace92dc0121ffa43b" id="r_a76db34c0919ff96ace92dc0121ffa43b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76db34c0919ff96ace92dc0121ffa43b">createContainerTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a4230ba1191701d7b7fbed04b39a8d2f2">TrackingVolumeVector</a> &amp;volumes) const =0</td></tr>
 <tr class="memdesc:a76db34c0919ff96ace92dc0121ffa43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a one level higher TrackingVolue.  <br /></td></tr>
-<tr class="memitem:a0d31bfdfdc88c414bda8f0ddfd7aa668" id="r_a0d31bfdfdc88c414bda8f0ddfd7aa668"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d31bfdfdc88c414bda8f0ddfd7aa668">createGapTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> &amp;mtvVector, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, double loc0Min, double loc0Max, double loc1Min, double loc1Max, const std::vector&lt; double &gt; &amp;layerPositions, bool cylinder=true, const std::string &amp;volumeName=&quot;UndefinedVolume&quot;, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a>) const =0</td></tr>
+<tr class="memitem:a0d31bfdfdc88c414bda8f0ddfd7aa668" id="r_a0d31bfdfdc88c414bda8f0ddfd7aa668"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d31bfdfdc88c414bda8f0ddfd7aa668">createGapTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> &amp;mtvVector, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, double loc0Min, double loc0Max, double loc1Min, double loc1Max, const std::vector&lt; double &gt; &amp;layerPositions, bool cylinder=true, const std::string &amp;volumeName=&quot;UndefinedVolume&quot;, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=arbitrary) const =0</td></tr>
 <tr class="memdesc:a0d31bfdfdc88c414bda8f0ddfd7aa668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a gap volume from dimensions and.  <br /></td></tr>
 <tr class="memitem:a3815d206bfa1d0908f1588a550bacd54" id="r_a3815d206bfa1d0908f1588a550bacd54"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3815d206bfa1d0908f1588a550bacd54">createGapTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> &amp;mtvVector, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, double loc0Min, double loc0Max, double loc1Min, double loc1Max, unsigned int materialLayers, bool cylinder=true, const std::string &amp;volumeName=&quot;UndefinedVolume&quot;) const =0</td></tr>
 <tr class="memdesc:a3815d206bfa1d0908f1588a550bacd54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a gap volume from dimensions and.  <br /></td></tr>
-<tr class="memitem:ac9457d0b5000c57d1c7f196d25892916" id="r_ac9457d0b5000c57d1c7f196d25892916"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9457d0b5000c57d1c7f196d25892916">createTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">LayerVector</a> &amp;layers, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> mtvVector, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, double loc0Min, double loc0Max, double loc1Min, double loc1Max, const std::string &amp;volumeName=&quot;UndefinedVolume&quot;, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a>) const =0</td></tr>
+<tr class="memitem:ac9457d0b5000c57d1c7f196d25892916" id="r_ac9457d0b5000c57d1c7f196d25892916"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9457d0b5000c57d1c7f196d25892916">createTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">LayerVector</a> &amp;layers, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> mtvVector, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, double loc0Min, double loc0Max, double loc1Min, double loc1Max, const std::string &amp;volumeName=&quot;UndefinedVolume&quot;, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=arbitrary) const =0</td></tr>
 <tr class="memdesc:ac9457d0b5000c57d1c7f196d25892916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a TrackingVolume* from a set of layers and (optional) parameters.  <br /></td></tr>
-<tr class="memitem:a745c4f098b1d018eee2b8e8763bbad6d" id="r_a745c4f098b1d018eee2b8e8763bbad6d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a745c4f098b1d018eee2b8e8763bbad6d">createTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">LayerVector</a> &amp;layers, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volumeBounds, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> mtvVector={}, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity(), const std::string &amp;volumeName=&quot;UndefinedVolume&quot;, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a>) const =0</td></tr>
+<tr class="memitem:a745c4f098b1d018eee2b8e8763bbad6d" id="r_a745c4f098b1d018eee2b8e8763bbad6d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a745c4f098b1d018eee2b8e8763bbad6d">createTrackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">LayerVector</a> &amp;layers, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; volumeMaterial, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volumeBounds, <a class="el" href="namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8">MutableTrackingVolumeVector</a> mtvVector={}, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity(), const std::string &amp;volumeName=&quot;UndefinedVolume&quot;, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=arbitrary) const =0</td></tr>
 <tr class="memdesc:a745c4f098b1d018eee2b8e8763bbad6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a TrackingVolume* from a set of layers and (optional) parameters.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -156,35 +157,7 @@ Public Member Functions</h2></td></tr>
 <p>The ITrackingVolumeHelper is a tool to pack a set of layers into a volume, or - to wrap several volumes into a container volume.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo</a></b></dt><dd>add documentation how this is done</dd></dl>
 <p>TrackingVolumes only exist as std::shared_ptr </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aebd3f6fe0ffa9d019b62417b8d3c0c76" name="aebd3f6fe0ffa9d019b62417b8d3c0c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebd3f6fe0ffa9d019b62417b8d3c0c76">&#9670;&#160;</a></span>~ITrackingVolumeHelper()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ITrackingVolumeHelper::~ITrackingVolumeHelper </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a76db34c0919ff96ace92dc0121ffa43b" name="a76db34c0919ff96ace92dc0121ffa43b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76db34c0919ff96ace92dc0121ffa43b">&#9670;&#160;</a></span>createContainerTrackingVolume()</h2>
 
@@ -288,7 +261,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval">arbitrary</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -461,7 +434,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval">arbitrary</span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -537,7 +510,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval">arbitrary</span>&#160;) const</td>
         </tr>
       </table>
   </td>

@@ -159,7 +159,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a49d176d8f372c0b9bb839732c1c145" id="r_a1a49d176d8f372c0b9bb839732c1c145"><td class="memTemplParams" colspan="2">template&lt;typename val_t, typename cov_t&gt; <br />
-requires (!read_only &amp;&amp; Concepts::eigen_base_is_fixed_size&lt;val_t&gt; &amp;&amp; Concepts::eigen_bases_have_same_num_rows&lt;val_t, cov_t&gt; &amp;&amp; Concepts::eigen_base_is_square&lt;cov_t&gt; &amp;&amp; Eigen::PlainObjectBase&lt;val_t&gt;::RowsAtCompileTime &lt;= static_cast&lt;std::underlying_type_t&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">BoundIndices</a>&gt;&gt;(<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>))</td></tr>
+requires (!read_only &amp;&amp; Concepts::eigen_base_is_fixed_size&lt;val_t&gt; &amp;&amp; Concepts::eigen_bases_have_same_num_rows&lt;val_t, cov_t&gt; &amp;&amp; Concepts::eigen_base_is_square&lt;cov_t&gt; &amp;&amp; Eigen::PlainObjectBase&lt;val_t&gt;::RowsAtCompileTime &lt;= static_cast&lt;std::underlying_type_t&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">BoundIndices</a>&gt;&gt;(eBoundSize))</td></tr>
 <tr class="memitem:a1a49d176d8f372c0b9bb839732c1c145 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a49d176d8f372c0b9bb839732c1c145">allocateCalibrated</a> (const Eigen::DenseBase&lt; val_t &gt; &amp;val, const Eigen::DenseBase&lt; cov_t &gt; &amp;cov)</td></tr>
 <tr class="memdesc:a1a49d176d8f372c0b9bb839732c1c145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and initialize calibrated data from static-size Eigen objects.  <br /></td></tr>
 <tr class="memitem:ab713b76deb010857f3ff5d2a5f38ee47" id="r_ab713b76deb010857f3ff5d2a5f38ee47"><td class="memTemplParams" colspan="2">template&lt;std::size_t measdim&gt; <br />
@@ -261,12 +261,16 @@ requires (!read_only &amp;&amp; std::convertible_to&lt;std::ranges::range_value_
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-types" class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:a1eb7bb75ad008d22048fe498e6b11ebb" id="r_a1eb7bb75ad008d22048fe498e6b11ebb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eb7bb75ad008d22048fe498e6b11ebb">IndexType</a> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></td></tr>
+<tr class="memitem:a1eb7bb75ad008d22048fe498e6b11ebb" id="r_a1eb7bb75ad008d22048fe498e6b11ebb"><td class="memItemLeft" align="right" valign="top"><a id="a1eb7bb75ad008d22048fe498e6b11ebb" name="a1eb7bb75ad008d22048fe498e6b11ebb"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></td></tr>
+<tr class="memdesc:a1eb7bb75ad008d22048fe498e6b11ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index type for track states. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2af33c16285fe18d3b55f573eff37777" id="r_a2af33c16285fe18d3b55f573eff37777"><td class="memItemLeft" align="right" valign="top">constexpr Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2af33c16285fe18d3b55f573eff37777">derived</a> ()</td></tr>
+<tr class="memdesc:a2af33c16285fe18d3b55f573eff37777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast to derived class.  <br /></td></tr>
 <tr class="memitem:ac799c31f084c67609453fcb259f57743" id="r_ac799c31f084c67609453fcb259f57743"><td class="memItemLeft" align="right" valign="top">constexpr const Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac799c31f084c67609453fcb259f57743">derived</a> () const</td></tr>
+<tr class="memdesc:ac799c31f084c67609453fcb259f57743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast to derived class (const).  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Derived, bool read_only&gt;<br />
@@ -420,30 +424,6 @@ template&lt;typename Derived, bool read_only&gt; </div>
 
 </div>
 </div>
-<a id="a1eb7bb75ad008d22048fe498e6b11ebb" name="a1eb7bb75ad008d22048fe498e6b11ebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb7bb75ad008d22048fe498e6b11ebb">&#9670;&#160;</a></span>IndexType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived, bool read_only&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; Derived, read_only &gt;::IndexType = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae1e81f4a291996c6f5b7f0c7b94b6dca" name="ae1e81f4a291996c6f5b7f0c7b94b6dca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1e81f4a291996c6f5b7f0c7b94b6dca">&#9670;&#160;</a></span>ParametersMap</h2>
 
@@ -474,7 +454,7 @@ template&lt;typename Derived, bool read_only&gt; </div>
 template&lt;typename Derived, bool read_only&gt; </div>
 <div class="memtemplate">
 template&lt;typename val_t, typename cov_t&gt; <br />
-requires (!read_only &amp;&amp; Concepts::eigen_base_is_fixed_size&lt;val_t&gt; &amp;&amp; Concepts::eigen_bases_have_same_num_rows&lt;val_t, cov_t&gt; &amp;&amp; Concepts::eigen_base_is_square&lt;cov_t&gt; &amp;&amp; Eigen::PlainObjectBase&lt;val_t&gt;::RowsAtCompileTime &lt;= static_cast&lt;std::underlying_type_t&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">BoundIndices</a>&gt;&gt;(<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>))</div>
+requires (!read_only &amp;&amp; Concepts::eigen_base_is_fixed_size&lt;val_t&gt; &amp;&amp; Concepts::eigen_bases_have_same_num_rows&lt;val_t, cov_t&gt; &amp;&amp; Concepts::eigen_base_is_square&lt;cov_t&gt; &amp;&amp; Eigen::PlainObjectBase&lt;val_t&gt;::RowsAtCompileTime &lt;= static_cast&lt;std::underlying_type_t&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">BoundIndices</a>&gt;&gt;(eBoundSize))</div>
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; Derived, read_only &gt;::allocateCalibrated </td>
@@ -720,6 +700,9 @@ template&lt;typename Derived, bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Cast to derived class. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to derived proxy </dd></dl>
+
 </div>
 </div>
 <a id="ac799c31f084c67609453fcb259f57743" name="ac799c31f084c67609453fcb259f57743"></a>
@@ -746,6 +729,9 @@ template&lt;typename Derived, bool read_only&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Cast to derived class (const). </p>
+<dl class="section return"><dt>Returns</dt><dd>Const reference to derived proxy </dd></dl>
 
 </div>
 </div>

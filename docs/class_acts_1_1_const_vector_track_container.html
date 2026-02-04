@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_const_vector_track_container.html','','
 </div><!--header-->
 <div class="contents">
 
+<p>Read-only vector-backed track container.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_vector_track_container_8hpp_source.html">Acts/EventData/VectorTrackContainer.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::ConstVectorTrackContainer:</div>
@@ -140,35 +143,27 @@ Collaboration diagram for Acts::ConstVectorTrackContainer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a72b92cc57dbc70fcfeb47cacf526af90" id="r_a72b92cc57dbc70fcfeb47cacf526af90"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72b92cc57dbc70fcfeb47cacf526af90">ConstVectorTrackContainer</a> ()</td></tr>
 <tr class="memitem:a57b866111821c016b8b5eaefea79da40" id="r_a57b866111821c016b8b5eaefea79da40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57b866111821c016b8b5eaefea79da40">ConstVectorTrackContainer</a> (const ConstVectorTrackContainer &amp;other)=default</td></tr>
+<tr class="memdesc:a57b866111821c016b8b5eaefea79da40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:aa244bb85bc71d6ce0cdc1d1c7d22ea41" id="r_aa244bb85bc71d6ce0cdc1d1c7d22ea41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa244bb85bc71d6ce0cdc1d1c7d22ea41">ConstVectorTrackContainer</a> (const <a class="el" href="class_acts_1_1_vector_track_container.html">VectorTrackContainer</a> &amp;other)</td></tr>
-<tr class="memitem:ab80ee9843b07cc1af5780752a54def9f" id="r_ab80ee9843b07cc1af5780752a54def9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80ee9843b07cc1af5780752a54def9f">ConstVectorTrackContainer</a> (ConstVectorTrackContainer &amp;&amp;)=default</td></tr>
+<tr class="memdesc:aa244bb85bc71d6ce0cdc1d1c7d22ea41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor from VectorTrackContainer.  <br /></td></tr>
+<tr class="memitem:ab80ee9843b07cc1af5780752a54def9f" id="r_ab80ee9843b07cc1af5780752a54def9f"><td class="memItemLeft" align="right" valign="top"><a id="ab80ee9843b07cc1af5780752a54def9f" name="ab80ee9843b07cc1af5780752a54def9f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ConstVectorTrackContainer</b> (ConstVectorTrackContainer &amp;&amp;)=default</td></tr>
+<tr class="memdesc:ab80ee9843b07cc1af5780752a54def9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
 <tr class="memitem:a803ecd4eb9bbee1f5ff6e4d0fd003d2d" id="r_a803ecd4eb9bbee1f5ff6e4d0fd003d2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803ecd4eb9bbee1f5ff6e4d0fd003d2d">ConstVectorTrackContainer</a> (<a class="el" href="class_acts_1_1_vector_track_container.html">VectorTrackContainer</a> &amp;&amp;other)</td></tr>
+<tr class="memdesc:a803ecd4eb9bbee1f5ff6e4d0fd003d2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor from VectorTrackContainer.  <br /></td></tr>
 <tr class="memitem:af7b3daed94209a0e7e6f995a506b78b8" id="r_af7b3daed94209a0e7e6f995a506b78b8"><td class="memItemLeft" align="right" valign="top">std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7b3daed94209a0e7e6f995a506b78b8">component_impl</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">HashedString</a> key, IndexType itrack) const</td></tr>
+<tr class="memdesc:af7b3daed94209a0e7e6f995a506b78b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a component from a track.  <br /></td></tr>
 <tr class="memitem:a07e3952c81fb3e6ee728ea581b0902da" id="r_a07e3952c81fb3e6ee728ea581b0902da"><td class="memItemLeft" align="right" valign="top">ConstCovariance&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e3952c81fb3e6ee728ea581b0902da">covariance</a> (IndexType itrack) const</td></tr>
+<tr class="memdesc:a07e3952c81fb3e6ee728ea581b0902da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get covariance for a track.  <br /></td></tr>
 <tr class="memitem:adca0513d4570a981215e125aa4494b6b" id="r_adca0513d4570a981215e125aa4494b6b"><td class="memItemLeft" align="right" valign="top">ConstParameters&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca0513d4570a981215e125aa4494b6b">parameters</a> (IndexType itrack) const</td></tr>
+<tr class="memdesc:adca0513d4570a981215e125aa4494b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameters for a track.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a72b92cc57dbc70fcfeb47cacf526af90" name="a72b92cc57dbc70fcfeb47cacf526af90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72b92cc57dbc70fcfeb47cacf526af90">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ConstVectorTrackContainer::ConstVectorTrackContainer </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Read-only vector-backed track container. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57b866111821c016b8b5eaefea79da40" name="a57b866111821c016b8b5eaefea79da40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57b866111821c016b8b5eaefea79da40">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b866111821c016b8b5eaefea79da40">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,10 +185,18 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The container to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aa244bb85bc71d6ce0cdc1d1c7d22ea41" name="aa244bb85bc71d6ce0cdc1d1c7d22ea41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa244bb85bc71d6ce0cdc1d1c7d22ea41">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa244bb85bc71d6ce0cdc1d1c7d22ea41">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,35 +218,18 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ab80ee9843b07cc1af5780752a54def9f" name="ab80ee9843b07cc1af5780752a54def9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab80ee9843b07cc1af5780752a54def9f">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ConstVectorTrackContainer::ConstVectorTrackContainer </td>
-          <td>(</td>
-          <td class="paramtype">ConstVectorTrackContainer &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Copy constructor from VectorTrackContainer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The container to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <a id="a803ecd4eb9bbee1f5ff6e4d0fd003d2d" name="a803ecd4eb9bbee1f5ff6e4d0fd003d2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a803ecd4eb9bbee1f5ff6e4d0fd003d2d">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a803ecd4eb9bbee1f5ff6e4d0fd003d2d">&#9670;&#160;</a></span>ConstVectorTrackContainer() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,6 +250,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Move constructor from VectorTrackContainer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The container to move from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -287,6 +281,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get a component from a track. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The component key </td></tr>
+    <tr><td class="paramname">itrack</td><td>The track index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Component value as std::any </dd></dl>
+
 </div>
 </div>
 <a id="a07e3952c81fb3e6ee728ea581b0902da" name="a07e3952c81fb3e6ee728ea581b0902da"></a>
@@ -304,6 +308,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get covariance for a track. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itrack</td><td>The track index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Covariance matrix </dd></dl>
+
 </div>
 </div>
 <a id="adca0513d4570a981215e125aa4494b6b" name="adca0513d4570a981215e125aa4494b6b"></a>
@@ -320,6 +333,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get parameters for a track. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itrack</td><td>The track index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Parameters vector </dd></dl>
 
 </div>
 </div>

@@ -23,7 +23,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="656.5,-190.5 608.5,-190.5 608.5,-171.5 656.5,-171.5 656.5,-190.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="656.5,-190.5 608.5,-190.5 608.5,-171.5 656.5,-171.5 656.5,-190.5"/>
 <text text-anchor="middle" x="632.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">Cont_t</text>
 </a>
 </g>
@@ -42,7 +42,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="701,-153 564,-153 564,-123 701,-123 701,-153"/>
+<polygon fill="white" stroke="#bfbfbf" points="701,-153 564,-153 564,-123 701,-123 701,-153"/>
 <text text-anchor="start" x="572" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="632.5" y="-130" font-family="Helvetica,sans-Serif" font-size="10.00">(const Sp_t &amp;)&gt;&lt; Sp_t &gt;</text>
 </a>
@@ -62,7 +62,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="423,-153 303,-153 303,-123 423,-123 423,-153"/>
+<polygon fill="white" stroke="#bfbfbf" points="423,-153 303,-153 303,-123 423,-123 423,-153"/>
 <text text-anchor="start" x="311" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="363" y="-130" font-family="Helvetica,sans-Serif" font-size="10.00">(const Sp_t &amp;)&gt;</text>
 </a>
@@ -82,7 +82,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-153 0,-153 0,-123 152,-123 152,-153"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-153 0,-153 0,-123 152,-123 152,-153"/>
 <text text-anchor="start" x="8" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-130" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -102,7 +102,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="669.5,-104.5 595.5,-104.5 595.5,-85.5 669.5,-85.5 669.5,-104.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="669.5,-104.5 595.5,-104.5 595.5,-85.5 669.5,-85.5 669.5,-104.5"/>
 <text text-anchor="middle" x="632.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibrator_t</text>
 </a>
 </g>
@@ -140,7 +140,7 @@
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="401.5,-67.5 324.5,-67.5 324.5,-48.5 401.5,-48.5 401.5,-67.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="401.5,-67.5 324.5,-67.5 324.5,-48.5 401.5,-48.5 401.5,-67.5"/>
 <text text-anchor="middle" x="363" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">ContextType</text>
 </a>
 </g>

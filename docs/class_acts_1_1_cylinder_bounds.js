@@ -1,14 +1,6 @@
 var class_acts_1_1_cylinder_bounds =
 [
-    [ "BoundValues", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396", [
-      [ "eR", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396aada7da8fcdfc61919973b9e65db5be5e", null ],
-      [ "eHalfLengthZ", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396a50319ba091819e8ba663c64554246caa", null ],
-      [ "eHalfPhiSector", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396aefca4ea57f1f04547c78c9e481daee65", null ],
-      [ "eAveragePhi", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396a03dbe6423b8f48005d2c700190c05f3b", null ],
-      [ "eBevelMinZ", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396a10585083306520e496a05993ec021dab", null ],
-      [ "eBevelMaxZ", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396aabb3e14ac626cb595562b4550bddf3dd", null ],
-      [ "eSize", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396a528cc4c37ef6da59131928c331657f75", null ]
-    ] ],
+    [ "BoundValues", "class_acts_1_1_cylinder_bounds.html#ae113f991be67aeeb210d7c199712a396", null ],
     [ "CylinderBounds", "class_acts_1_1_cylinder_bounds.html#ae8f8595b798d3a26020fcb79e0d2711a", null ],
     [ "CylinderBounds", "class_acts_1_1_cylinder_bounds.html#ab53fcae21381181b71419004d533dea9", null ],
     [ "boundToCartesianJacobian", "class_acts_1_1_cylinder_bounds.html#a335a592b2b0aa7a8964841290d9c2416", null ],

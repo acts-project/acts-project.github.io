@@ -138,282 +138,56 @@ Collaboration diagram for Acts::ScoreBasedAmbiguityResolution::DetectorConfig:</
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9bce331f713646212e8206e693bda6ca" id="r_a9bce331f713646212e8206e693bda6ca"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bce331f713646212e8206e693bda6ca">detectorId</a> = 0</td></tr>
-<tr class="memdesc:a9bce331f713646212e8206e693bda6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for this detector configuration.  <br /></td></tr>
-<tr class="memitem:a91f38fa087782e47c59edb75da756fd9" id="r_a91f38fa087782e47c59edb75da756fd9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f38fa087782e47c59edb75da756fd9">etaBins</a> = {-5, 5}</td></tr>
-<tr class="memdesc:a91f38fa087782e47c59edb75da756fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin boundaries for this detector.  <br /></td></tr>
-<tr class="memitem:a3324b66034f4371502f9bb35944a9d3c" id="r_a3324b66034f4371502f9bb35944a9d3c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3324b66034f4371502f9bb35944a9d3c">factorHits</a> = {1.0}</td></tr>
-<tr class="memdesc:a3324b66034f4371502f9bb35944a9d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list of values from 0 to 1, the higher number of hits, higher value in the list is multiplied to ambuiguity score applied only if useAmbiguityScoring is true  <br /></td></tr>
-<tr class="memitem:a9614ac2aad54dc9ae86023eed0e1adb8" id="r_a9614ac2aad54dc9ae86023eed0e1adb8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9614ac2aad54dc9ae86023eed0e1adb8">factorHoles</a> = {1.0}</td></tr>
-<tr class="memdesc:a9614ac2aad54dc9ae86023eed0e1adb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list of values from 0 to 1, the higher number of holes, lower value in the list is multiplied to ambuiguity score applied only if useAmbiguityScoring is true  <br /></td></tr>
-<tr class="memitem:a6d9b83274055a5b5aab662dbcdf664a6" id="r_a6d9b83274055a5b5aab662dbcdf664a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9b83274055a5b5aab662dbcdf664a6">hitsScoreWeight</a> = 0</td></tr>
-<tr class="memdesc:a6d9b83274055a5b5aab662dbcdf664a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for hits in track scoring.  <br /></td></tr>
-<tr class="memitem:a87c3d1bbacc9a01d86bbdaf00cc35c34" id="r_a87c3d1bbacc9a01d86bbdaf00cc35c34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c3d1bbacc9a01d86bbdaf00cc35c34">holesScoreWeight</a> = 0</td></tr>
-<tr class="memdesc:a87c3d1bbacc9a01d86bbdaf00cc35c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for holes in track scoring.  <br /></td></tr>
-<tr class="memitem:a068696e96775f1da2df2e4dc450ff10b" id="r_a068696e96775f1da2df2e4dc450ff10b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068696e96775f1da2df2e4dc450ff10b">maxHits</a> = 0</td></tr>
-<tr class="memdesc:a068696e96775f1da2df2e4dc450ff10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed hits for tracks in this detector.  <br /></td></tr>
-<tr class="memitem:a46c5d796e1a965f56c180d9cc87f2240" id="r_a46c5d796e1a965f56c180d9cc87f2240"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c5d796e1a965f56c180d9cc87f2240">maxHoles</a> = 0</td></tr>
-<tr class="memdesc:a46c5d796e1a965f56c180d9cc87f2240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed holes for tracks in this detector.  <br /></td></tr>
-<tr class="memitem:ab0b5a40b38ed383d09eb743dbfc65604" id="r_ab0b5a40b38ed383d09eb743dbfc65604"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0b5a40b38ed383d09eb743dbfc65604">maxHolesPerEta</a> = {0}</td></tr>
-<tr class="memdesc:ab0b5a40b38ed383d09eb743dbfc65604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed holes per eta bin.  <br /></td></tr>
-<tr class="memitem:a1e19293a76837c8cbce9b25df3ec5913" id="r_a1e19293a76837c8cbce9b25df3ec5913"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e19293a76837c8cbce9b25df3ec5913">maxOutliersPerEta</a> = {0}</td></tr>
-<tr class="memdesc:a1e19293a76837c8cbce9b25df3ec5913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed outliers per eta bin.  <br /></td></tr>
-<tr class="memitem:aed2cf50a07564819d23ee92bdba8811e" id="r_aed2cf50a07564819d23ee92bdba8811e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed2cf50a07564819d23ee92bdba8811e">maxSharedHitsPerEta</a> = {0}</td></tr>
-<tr class="memdesc:aed2cf50a07564819d23ee92bdba8811e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed shared hits per eta bin.  <br /></td></tr>
-<tr class="memitem:ac1b756c230ba9cfae0494e28dcfda3fa" id="r_ac1b756c230ba9cfae0494e28dcfda3fa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1b756c230ba9cfae0494e28dcfda3fa">minHitsPerEta</a> = {0}</td></tr>
-<tr class="memdesc:ac1b756c230ba9cfae0494e28dcfda3fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum required hits per eta bin.  <br /></td></tr>
-<tr class="memitem:adc9988a81f5c4d0ed665e266c9e8abb4" id="r_adc9988a81f5c4d0ed665e266c9e8abb4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc9988a81f5c4d0ed665e266c9e8abb4">otherScoreWeight</a> = 0</td></tr>
-<tr class="memdesc:adc9988a81f5c4d0ed665e266c9e8abb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for other track states in scoring.  <br /></td></tr>
-<tr class="memitem:a87b091b23f045a956aa18f1833eecbbb" id="r_a87b091b23f045a956aa18f1833eecbbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b091b23f045a956aa18f1833eecbbb">outliersScoreWeight</a> = 0</td></tr>
-<tr class="memdesc:a87b091b23f045a956aa18f1833eecbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for outliers in track scoring.  <br /></td></tr>
-<tr class="memitem:a6eaa2d6186981f26b7c3cae0efb5d416" id="r_a6eaa2d6186981f26b7c3cae0efb5d416"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eaa2d6186981f26b7c3cae0efb5d416">sharedHitsFlag</a> = false</td></tr>
-<tr class="memdesc:a6eaa2d6186981f26b7c3cae0efb5d416"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the shared hits are considered as bad hits for this detector  <br /></td></tr>
+<tr class="memitem:a9bce331f713646212e8206e693bda6ca" id="r_a9bce331f713646212e8206e693bda6ca"><td class="memItemLeft" align="right" valign="top"><a id="a9bce331f713646212e8206e693bda6ca" name="a9bce331f713646212e8206e693bda6ca"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>detectorId</b> = 0</td></tr>
+<tr class="memdesc:a9bce331f713646212e8206e693bda6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for this detector configuration. <br /></td></tr>
+<tr class="memitem:a91f38fa087782e47c59edb75da756fd9" id="r_a91f38fa087782e47c59edb75da756fd9"><td class="memItemLeft" align="right" valign="top"><a id="a91f38fa087782e47c59edb75da756fd9" name="a91f38fa087782e47c59edb75da756fd9"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>etaBins</b> = {-5, 5}</td></tr>
+<tr class="memdesc:a91f38fa087782e47c59edb75da756fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin boundaries for this detector. <br /></td></tr>
+<tr class="memitem:a3324b66034f4371502f9bb35944a9d3c" id="r_a3324b66034f4371502f9bb35944a9d3c"><td class="memItemLeft" align="right" valign="top"><a id="a3324b66034f4371502f9bb35944a9d3c" name="a3324b66034f4371502f9bb35944a9d3c"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>factorHits</b> = {1.0}</td></tr>
+<tr class="memdesc:a3324b66034f4371502f9bb35944a9d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list of values from 0 to 1, the higher number of hits, higher value in the list is multiplied to ambuiguity score applied only if useAmbiguityScoring is true <br /></td></tr>
+<tr class="memitem:a9614ac2aad54dc9ae86023eed0e1adb8" id="r_a9614ac2aad54dc9ae86023eed0e1adb8"><td class="memItemLeft" align="right" valign="top"><a id="a9614ac2aad54dc9ae86023eed0e1adb8" name="a9614ac2aad54dc9ae86023eed0e1adb8"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>factorHoles</b> = {1.0}</td></tr>
+<tr class="memdesc:a9614ac2aad54dc9ae86023eed0e1adb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">a list of values from 0 to 1, the higher number of holes, lower value in the list is multiplied to ambuiguity score applied only if useAmbiguityScoring is true <br /></td></tr>
+<tr class="memitem:a6d9b83274055a5b5aab662dbcdf664a6" id="r_a6d9b83274055a5b5aab662dbcdf664a6"><td class="memItemLeft" align="right" valign="top"><a id="a6d9b83274055a5b5aab662dbcdf664a6" name="a6d9b83274055a5b5aab662dbcdf664a6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>hitsScoreWeight</b> = 0</td></tr>
+<tr class="memdesc:a6d9b83274055a5b5aab662dbcdf664a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for hits in track scoring. <br /></td></tr>
+<tr class="memitem:a87c3d1bbacc9a01d86bbdaf00cc35c34" id="r_a87c3d1bbacc9a01d86bbdaf00cc35c34"><td class="memItemLeft" align="right" valign="top"><a id="a87c3d1bbacc9a01d86bbdaf00cc35c34" name="a87c3d1bbacc9a01d86bbdaf00cc35c34"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>holesScoreWeight</b> = 0</td></tr>
+<tr class="memdesc:a87c3d1bbacc9a01d86bbdaf00cc35c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for holes in track scoring. <br /></td></tr>
+<tr class="memitem:a068696e96775f1da2df2e4dc450ff10b" id="r_a068696e96775f1da2df2e4dc450ff10b"><td class="memItemLeft" align="right" valign="top"><a id="a068696e96775f1da2df2e4dc450ff10b" name="a068696e96775f1da2df2e4dc450ff10b"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxHits</b> = 0</td></tr>
+<tr class="memdesc:a068696e96775f1da2df2e4dc450ff10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed hits for tracks in this detector. <br /></td></tr>
+<tr class="memitem:a46c5d796e1a965f56c180d9cc87f2240" id="r_a46c5d796e1a965f56c180d9cc87f2240"><td class="memItemLeft" align="right" valign="top"><a id="a46c5d796e1a965f56c180d9cc87f2240" name="a46c5d796e1a965f56c180d9cc87f2240"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxHoles</b> = 0</td></tr>
+<tr class="memdesc:a46c5d796e1a965f56c180d9cc87f2240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed holes for tracks in this detector. <br /></td></tr>
+<tr class="memitem:ab0b5a40b38ed383d09eb743dbfc65604" id="r_ab0b5a40b38ed383d09eb743dbfc65604"><td class="memItemLeft" align="right" valign="top"><a id="ab0b5a40b38ed383d09eb743dbfc65604" name="ab0b5a40b38ed383d09eb743dbfc65604"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>maxHolesPerEta</b> = {0}</td></tr>
+<tr class="memdesc:ab0b5a40b38ed383d09eb743dbfc65604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed holes per eta bin. <br /></td></tr>
+<tr class="memitem:a1e19293a76837c8cbce9b25df3ec5913" id="r_a1e19293a76837c8cbce9b25df3ec5913"><td class="memItemLeft" align="right" valign="top"><a id="a1e19293a76837c8cbce9b25df3ec5913" name="a1e19293a76837c8cbce9b25df3ec5913"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>maxOutliersPerEta</b> = {0}</td></tr>
+<tr class="memdesc:a1e19293a76837c8cbce9b25df3ec5913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed outliers per eta bin. <br /></td></tr>
+<tr class="memitem:aed2cf50a07564819d23ee92bdba8811e" id="r_aed2cf50a07564819d23ee92bdba8811e"><td class="memItemLeft" align="right" valign="top"><a id="aed2cf50a07564819d23ee92bdba8811e" name="aed2cf50a07564819d23ee92bdba8811e"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>maxSharedHitsPerEta</b> = {0}</td></tr>
+<tr class="memdesc:aed2cf50a07564819d23ee92bdba8811e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed shared hits per eta bin. <br /></td></tr>
+<tr class="memitem:ac1b756c230ba9cfae0494e28dcfda3fa" id="r_ac1b756c230ba9cfae0494e28dcfda3fa"><td class="memItemLeft" align="right" valign="top"><a id="ac1b756c230ba9cfae0494e28dcfda3fa" name="ac1b756c230ba9cfae0494e28dcfda3fa"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>minHitsPerEta</b> = {0}</td></tr>
+<tr class="memdesc:ac1b756c230ba9cfae0494e28dcfda3fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum required hits per eta bin. <br /></td></tr>
+<tr class="memitem:adc9988a81f5c4d0ed665e266c9e8abb4" id="r_adc9988a81f5c4d0ed665e266c9e8abb4"><td class="memItemLeft" align="right" valign="top"><a id="adc9988a81f5c4d0ed665e266c9e8abb4" name="adc9988a81f5c4d0ed665e266c9e8abb4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>otherScoreWeight</b> = 0</td></tr>
+<tr class="memdesc:adc9988a81f5c4d0ed665e266c9e8abb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for other track states in scoring. <br /></td></tr>
+<tr class="memitem:a87b091b23f045a956aa18f1833eecbbb" id="r_a87b091b23f045a956aa18f1833eecbbb"><td class="memItemLeft" align="right" valign="top"><a id="a87b091b23f045a956aa18f1833eecbbb" name="a87b091b23f045a956aa18f1833eecbbb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>outliersScoreWeight</b> = 0</td></tr>
+<tr class="memdesc:a87b091b23f045a956aa18f1833eecbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight for outliers in track scoring. <br /></td></tr>
+<tr class="memitem:a6eaa2d6186981f26b7c3cae0efb5d416" id="r_a6eaa2d6186981f26b7c3cae0efb5d416"><td class="memItemLeft" align="right" valign="top"><a id="a6eaa2d6186981f26b7c3cae0efb5d416" name="a6eaa2d6186981f26b7c3cae0efb5d416"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>sharedHitsFlag</b> = false</td></tr>
+<tr class="memdesc:a6eaa2d6186981f26b7c3cae0efb5d416"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the shared hits are considered as bad hits for this detector <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Detector configuration struct : contains the configuration for each detector. </p>
 <p>The configuration can be saved in a json file and loaded from there. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a9bce331f713646212e8206e693bda6ca" name="a9bce331f713646212e8206e693bda6ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bce331f713646212e8206e693bda6ca">&#9670;&#160;</a></span>detectorId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::ScoreBasedAmbiguityResolution::DetectorConfig::detectorId = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Unique identifier for this detector configuration. </p>
-
-</div>
-</div>
-<a id="a91f38fa087782e47c59edb75da756fd9" name="a91f38fa087782e47c59edb75da756fd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f38fa087782e47c59edb75da756fd9">&#9670;&#160;</a></span>etaBins</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::etaBins = {-5, 5}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Eta bin boundaries for this detector. </p>
-
-</div>
-</div>
-<a id="a3324b66034f4371502f9bb35944a9d3c" name="a3324b66034f4371502f9bb35944a9d3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3324b66034f4371502f9bb35944a9d3c">&#9670;&#160;</a></span>factorHits</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::factorHits = {1.0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>a list of values from 0 to 1, the higher number of hits, higher value in the list is multiplied to ambuiguity score applied only if useAmbiguityScoring is true </p>
-
-</div>
-</div>
-<a id="a9614ac2aad54dc9ae86023eed0e1adb8" name="a9614ac2aad54dc9ae86023eed0e1adb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9614ac2aad54dc9ae86023eed0e1adb8">&#9670;&#160;</a></span>factorHoles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::factorHoles = {1.0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>a list of values from 0 to 1, the higher number of holes, lower value in the list is multiplied to ambuiguity score applied only if useAmbiguityScoring is true </p>
-
-</div>
-</div>
-<a id="a6d9b83274055a5b5aab662dbcdf664a6" name="a6d9b83274055a5b5aab662dbcdf664a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d9b83274055a5b5aab662dbcdf664a6">&#9670;&#160;</a></span>hitsScoreWeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::ScoreBasedAmbiguityResolution::DetectorConfig::hitsScoreWeight = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Weight for hits in track scoring. </p>
-
-</div>
-</div>
-<a id="a87c3d1bbacc9a01d86bbdaf00cc35c34" name="a87c3d1bbacc9a01d86bbdaf00cc35c34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87c3d1bbacc9a01d86bbdaf00cc35c34">&#9670;&#160;</a></span>holesScoreWeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::ScoreBasedAmbiguityResolution::DetectorConfig::holesScoreWeight = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Weight for holes in track scoring. </p>
-
-</div>
-</div>
-<a id="a068696e96775f1da2df2e4dc450ff10b" name="a068696e96775f1da2df2e4dc450ff10b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a068696e96775f1da2df2e4dc450ff10b">&#9670;&#160;</a></span>maxHits</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::ScoreBasedAmbiguityResolution::DetectorConfig::maxHits = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum allowed hits for tracks in this detector. </p>
-
-</div>
-</div>
-<a id="a46c5d796e1a965f56c180d9cc87f2240" name="a46c5d796e1a965f56c180d9cc87f2240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46c5d796e1a965f56c180d9cc87f2240">&#9670;&#160;</a></span>maxHoles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::ScoreBasedAmbiguityResolution::DetectorConfig::maxHoles = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum allowed holes for tracks in this detector. </p>
-
-</div>
-</div>
-<a id="ab0b5a40b38ed383d09eb743dbfc65604" name="ab0b5a40b38ed383d09eb743dbfc65604"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b5a40b38ed383d09eb743dbfc65604">&#9670;&#160;</a></span>maxHolesPerEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::maxHolesPerEta = {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum allowed holes per eta bin. </p>
-
-</div>
-</div>
-<a id="a1e19293a76837c8cbce9b25df3ec5913" name="a1e19293a76837c8cbce9b25df3ec5913"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e19293a76837c8cbce9b25df3ec5913">&#9670;&#160;</a></span>maxOutliersPerEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::maxOutliersPerEta = {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum allowed outliers per eta bin. </p>
-
-</div>
-</div>
-<a id="aed2cf50a07564819d23ee92bdba8811e" name="aed2cf50a07564819d23ee92bdba8811e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed2cf50a07564819d23ee92bdba8811e">&#9670;&#160;</a></span>maxSharedHitsPerEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::maxSharedHitsPerEta = {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum allowed shared hits per eta bin. </p>
-
-</div>
-</div>
-<a id="ac1b756c230ba9cfae0494e28dcfda3fa" name="ac1b756c230ba9cfae0494e28dcfda3fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1b756c230ba9cfae0494e28dcfda3fa">&#9670;&#160;</a></span>minHitsPerEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::ScoreBasedAmbiguityResolution::DetectorConfig::minHitsPerEta = {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Minimum required hits per eta bin. </p>
-
-</div>
-</div>
-<a id="adc9988a81f5c4d0ed665e266c9e8abb4" name="adc9988a81f5c4d0ed665e266c9e8abb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc9988a81f5c4d0ed665e266c9e8abb4">&#9670;&#160;</a></span>otherScoreWeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::ScoreBasedAmbiguityResolution::DetectorConfig::otherScoreWeight = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Weight for other track states in scoring. </p>
-
-</div>
-</div>
-<a id="a87b091b23f045a956aa18f1833eecbbb" name="a87b091b23f045a956aa18f1833eecbbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87b091b23f045a956aa18f1833eecbbb">&#9670;&#160;</a></span>outliersScoreWeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::ScoreBasedAmbiguityResolution::DetectorConfig::outliersScoreWeight = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Weight for outliers in track scoring. </p>
-
-</div>
-</div>
-<a id="a6eaa2d6186981f26b7c3cae0efb5d416" name="a6eaa2d6186981f26b7c3cae0efb5d416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eaa2d6186981f26b7c3cae0efb5d416">&#9670;&#160;</a></span>sharedHitsFlag</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::ScoreBasedAmbiguityResolution::DetectorConfig::sharedHitsFlag = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>if true, the shared hits are considered as bad hits for this detector </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

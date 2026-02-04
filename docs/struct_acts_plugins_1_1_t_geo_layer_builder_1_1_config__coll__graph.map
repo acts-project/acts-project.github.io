@@ -24,7 +24,7 @@
 <area shape="rect" id="Node000011" title=" " alt="" coords="787,427,961,453"/>
 <area shape="poly" id="edge14_Node000011_Node000010" title=" " alt="" coords="408,418,450,425,539,434,629,438,786,440,786,445,629,444,539,439,449,431,408,424"/>
 <area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="975,446,1026,445,1081,440,1137,429,1189,410,1228,385,1262,354,1309,293,1313,297,1266,357,1232,389,1192,414,1138,434,1082,445,1027,451,975,451"/>
-<area shape="rect" id="Node000012" href="$struct_acts_1_1_surface_binning_matcher.html" title=" " alt="" coords="769,477,979,502"/>
+<area shape="rect" id="Node000012" href="$struct_acts_1_1_surface_binning_matcher.html" title="Helper to compare surfaces for binning equivalence." alt="" coords="769,477,979,502"/>
 <area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="951,501,1006,506,1068,506,1131,495,1161,486,1189,472,1214,455,1237,434,1273,384,1299,334,1315,294,1320,296,1304,337,1278,387,1241,437,1218,459,1192,477,1163,491,1132,501,1069,511,1006,512,951,507"/>
 <area shape="rect" id="Node000013" title=" " alt="" coords="263,477,425,502"/>
 <area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="439,487,769,487,769,492,439,492"/>

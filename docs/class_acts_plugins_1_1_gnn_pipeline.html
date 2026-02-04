@@ -126,14 +126,21 @@ $(function(){initNavTree('class_acts_plugins_1_1_gnn_pipeline.html','','class_ac
 </div><!--header-->
 <div class="contents">
 
+<p>Graph Neural Network pipeline for track finding.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gnn_pipeline_8hpp_source.html">ActsPlugins/Gnn/GnnPipeline.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3251b7db350b6fff6c814aeb14c12dcf" id="r_a3251b7db350b6fff6c814aeb14c12dcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3251b7db350b6fff6c814aeb14c12dcf">GnnPipeline</a> (std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_graph_construction_base.html">GraphConstructionBase</a> &gt; graphConstructor, std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_edge_classification_base.html">EdgeClassificationBase</a> &gt; &gt; edgeClassifiers, std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_track_building_base.html">TrackBuildingBase</a> &gt; trackBuilder, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger)</td></tr>
+<tr class="memdesc:a3251b7db350b6fff6c814aeb14c12dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct GNN pipeline.  <br /></td></tr>
 <tr class="memitem:af261162f2c71952fbad6d9fb337729c1" id="r_af261162f2c71952fbad6d9fb337729c1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af261162f2c71952fbad6d9fb337729c1">run</a> (std::vector&lt; float &gt; &amp;features, const std::vector&lt; std::uint64_t &gt; &amp;moduleIds, std::vector&lt; int &gt; &amp;spacepointIDs, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device, const <a class="el" href="class_acts_plugins_1_1_gnn_hook.html">GnnHook</a> &amp;hook={}, <a class="el" href="struct_acts_plugins_1_1_gnn_timing.html">GnnTiming</a> *timing=nullptr) const</td></tr>
+<tr class="memdesc:af261162f2c71952fbad6d9fb337729c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the GNN pipeline.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Graph Neural Network pipeline for track finding. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3251b7db350b6fff6c814aeb14c12dcf" name="a3251b7db350b6fff6c814aeb14c12dcf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3251b7db350b6fff6c814aeb14c12dcf">&#9670;&#160;</a></span>GnnPipeline()</h2>
 
@@ -162,6 +169,17 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Construct GNN pipeline. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graphConstructor</td><td>Graph construction stage </td></tr>
+    <tr><td class="paramname">edgeClassifiers</td><td>Edge classification stages </td></tr>
+    <tr><td class="paramname">trackBuilder</td><td>Track building stage </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -204,6 +222,20 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Run the GNN pipeline. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">features</td><td>Input feature vector </td></tr>
+    <tr><td class="paramname">moduleIds</td><td>Module identifiers for each spacepoint </td></tr>
+    <tr><td class="paramname">spacepointIDs</td><td>Spacepoint identifiers </td></tr>
+    <tr><td class="paramname">device</td><td>Device to run on (CPU/GPU) </td></tr>
+    <tr><td class="paramname">hook</td><td>Optional callback hook for pipeline execution </td></tr>
+    <tr><td class="paramname">timing</td><td>Optional timing output </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of track candidates (each track is a vector of spacepoint IDs) </dd></dl>
 
 </div>
 </div>

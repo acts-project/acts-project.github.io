@@ -1,11 +1,6 @@
 var class_acts_1_1_constrained_step =
 [
-    [ "Type", "class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5", [
-      [ "Navigator", "class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5a7392e5a07cc56647b45a9598ce4d646d", null ],
-      [ "Actor", "class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5a1cc84619677de81ee6e44149845270a3", null ],
-      [ "User", "class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5a8f9bfe9d1345237cb3b2b205864da075", null ]
-    ] ],
-    [ "ConstrainedStep", "class_acts_1_1_constrained_step.html#a289d6405fe79983cffdf65d6efc33efc", null ],
+    [ "Type", "class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5", null ],
     [ "ConstrainedStep", "class_acts_1_1_constrained_step.html#aee2052ae647f13bdaa015f0b7a1645d9", null ],
     [ "accuracy", "class_acts_1_1_constrained_step.html#afb814ab1d4dd131732895efabd453e2b", null ],
     [ "release", "class_acts_1_1_constrained_step.html#ad3f0ad67b0dfda0925de929bc80dcfd7", null ],

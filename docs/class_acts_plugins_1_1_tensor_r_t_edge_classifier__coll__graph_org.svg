@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Edge classifier using TensorRT inference.">
 <polygon fill="#999999" stroke="#666666" points="169,-30 23,-30 23,0 169,0 169,-30"/>
 <text text-anchor="start" x="31" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TensorRTEdge</text>
 <text text-anchor="middle" x="96" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Classifier</text>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_edge_classification_base.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_edge_classification_base.html" target="_top" xlink:title="Base class for edge classification stage in GNN pipeline.">
 <polygon fill="white" stroke="#666666" points="192,-85 0,-85 0,-66 192,-66 192,-85"/>
 <text text-anchor="middle" x="96" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::EdgeClassificationBase</text>
 </a>

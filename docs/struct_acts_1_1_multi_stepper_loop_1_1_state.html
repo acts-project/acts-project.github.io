@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_multi_stepper_loop_1_1_state.html','',
 </div><!--header-->
 <div class="contents">
 
+<p>State container for multi-component stepping.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_multi_stepper_loop_8hpp_source.html">Acts/Propagator/MultiStepperLoop.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State:</div>
@@ -145,20 +148,35 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab29cf03bda37276223d5ddf5c83cfb67" id="r_ab29cf03bda37276223d5ddf5c83cfb67"><td class="memItemLeft" align="right" valign="top">SmallVector&lt; <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Component</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab29cf03bda37276223d5ddf5c83cfb67">components</a></td></tr>
-<tr class="memdesc:ab29cf03bda37276223d5ddf5c83cfb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">The components of which the state consists.  <br /></td></tr>
-<tr class="memitem:a5f6c3750ea18e699575472a89c1947a3" id="r_a5f6c3750ea18e699575472a89c1947a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6c3750ea18e699575472a89c1947a3">covTransport</a> = false</td></tr>
-<tr class="memitem:a0ee4f1648a8aa2a1c4897d96ca907abc" id="r_a0ee4f1648a8aa2a1c4897d96ca907abc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee4f1648a8aa2a1c4897d96ca907abc">options</a></td></tr>
-<tr class="memitem:a08a58f9698f44d4dc0f767509fe8137a" id="r_a08a58f9698f44d4dc0f767509fe8137a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a58f9698f44d4dc0f767509fe8137a">particleHypothesis</a> = <a class="el" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">ParticleHypothesis::pion</a>()</td></tr>
-<tr class="memdesc:a08a58f9698f44d4dc0f767509fe8137a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
-<tr class="memitem:aad63b7c922ec7ae52c1c49e4d4a7320c" id="r_aad63b7c922ec7ae52c1c49e4d4a7320c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad63b7c922ec7ae52c1c49e4d4a7320c">pathAccumulated</a> = 0.</td></tr>
-<tr class="memitem:ad620153acbe330f6af039d78b8ad7e9e" id="r_ad620153acbe330f6af039d78b8ad7e9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad620153acbe330f6af039d78b8ad7e9e">statistics</a></td></tr>
-<tr class="memdesc:ad620153acbe330f6af039d78b8ad7e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stepper statistics.  <br /></td></tr>
-<tr class="memitem:a79d9c4b3885f1ae68be1506da13d097c" id="r_a79d9c4b3885f1ae68be1506da13d097c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79d9c4b3885f1ae68be1506da13d097c">stepCounterAfterFirstComponentOnSurface</a></td></tr>
-<tr class="memdesc:a79d9c4b3885f1ae68be1506da13d097c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step-limit counter which limits the number of steps when one component reached a surface.  <br /></td></tr>
-<tr class="memitem:a463d532d1d76aa6a83cd3bbf96cfed24" id="r_a463d532d1d76aa6a83cd3bbf96cfed24"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a463d532d1d76aa6a83cd3bbf96cfed24">steps</a> = 0</td></tr>
+<tr class="memitem:ab29cf03bda37276223d5ddf5c83cfb67" id="r_ab29cf03bda37276223d5ddf5c83cfb67"><td class="memItemLeft" align="right" valign="top"><a id="ab29cf03bda37276223d5ddf5c83cfb67" name="ab29cf03bda37276223d5ddf5c83cfb67"></a>
+SmallVector&lt; <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Component</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>components</b></td></tr>
+<tr class="memdesc:ab29cf03bda37276223d5ddf5c83cfb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">The components of which the state consists. <br /></td></tr>
+<tr class="memitem:a5f6c3750ea18e699575472a89c1947a3" id="r_a5f6c3750ea18e699575472a89c1947a3"><td class="memItemLeft" align="right" valign="top"><a id="a5f6c3750ea18e699575472a89c1947a3" name="a5f6c3750ea18e699575472a89c1947a3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
+<tr class="memdesc:a5f6c3750ea18e699575472a89c1947a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to transport covariance. <br /></td></tr>
+<tr class="memitem:a0ee4f1648a8aa2a1c4897d96ca907abc" id="r_a0ee4f1648a8aa2a1c4897d96ca907abc"><td class="memItemLeft" align="right" valign="top"><a id="a0ee4f1648a8aa2a1c4897d96ca907abc" name="a0ee4f1648a8aa2a1c4897d96ca907abc"></a>
+<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
+<tr class="memdesc:a0ee4f1648a8aa2a1c4897d96ca907abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for the propagation. <br /></td></tr>
+<tr class="memitem:a08a58f9698f44d4dc0f767509fe8137a" id="r_a08a58f9698f44d4dc0f767509fe8137a"><td class="memItemLeft" align="right" valign="top"><a id="a08a58f9698f44d4dc0f767509fe8137a" name="a08a58f9698f44d4dc0f767509fe8137a"></a>
+<a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&#160;</td><td class="memItemRight" valign="bottom"><b>particleHypothesis</b> = <a class="el" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">ParticleHypothesis::pion</a>()</td></tr>
+<tr class="memdesc:a08a58f9698f44d4dc0f767509fe8137a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis. <br /></td></tr>
+<tr class="memitem:aad63b7c922ec7ae52c1c49e4d4a7320c" id="r_aad63b7c922ec7ae52c1c49e4d4a7320c"><td class="memItemLeft" align="right" valign="top"><a id="aad63b7c922ec7ae52c1c49e4d4a7320c" name="aad63b7c922ec7ae52c1c49e4d4a7320c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>pathAccumulated</b> = 0.</td></tr>
+<tr class="memdesc:aad63b7c922ec7ae52c1c49e4d4a7320c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulated path length. <br /></td></tr>
+<tr class="memitem:ad620153acbe330f6af039d78b8ad7e9e" id="r_ad620153acbe330f6af039d78b8ad7e9e"><td class="memItemLeft" align="right" valign="top"><a id="ad620153acbe330f6af039d78b8ad7e9e" name="ad620153acbe330f6af039d78b8ad7e9e"></a>
+<a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a>&#160;</td><td class="memItemRight" valign="bottom"><b>statistics</b></td></tr>
+<tr class="memdesc:ad620153acbe330f6af039d78b8ad7e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stepper statistics. <br /></td></tr>
+<tr class="memitem:a79d9c4b3885f1ae68be1506da13d097c" id="r_a79d9c4b3885f1ae68be1506da13d097c"><td class="memItemLeft" align="right" valign="top"><a id="a79d9c4b3885f1ae68be1506da13d097c" name="a79d9c4b3885f1ae68be1506da13d097c"></a>
+std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stepCounterAfterFirstComponentOnSurface</b></td></tr>
+<tr class="memdesc:a79d9c4b3885f1ae68be1506da13d097c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step-limit counter which limits the number of steps when one component reached a surface. <br /></td></tr>
+<tr class="memitem:a463d532d1d76aa6a83cd3bbf96cfed24" id="r_a463d532d1d76aa6a83cd3bbf96cfed24"><td class="memItemLeft" align="right" valign="top"><a id="a463d532d1d76aa6a83cd3bbf96cfed24" name="a463d532d1d76aa6a83cd3bbf96cfed24"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>steps</b> = 0</td></tr>
+<tr class="memdesc:a463d532d1d76aa6a83cd3bbf96cfed24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of steps taken. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt;<br />
+struct Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State</div><p>State container for multi-component stepping. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0acbfd55d99b1059c1a24be17715e232" name="a0acbfd55d99b1059c1a24be17715e232"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0acbfd55d99b1059c1a24be17715e232">&#9670;&#160;</a></span>State()</h2>
 
@@ -192,143 +210,6 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>the covariance matrix is copied when needed </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ab29cf03bda37276223d5ddf5c83cfb67" name="ab29cf03bda37276223d5ddf5c83cfb67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab29cf03bda37276223d5ddf5c83cfb67">&#9670;&#160;</a></span>components</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">SmallVector&lt;<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Component</a>&gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::components</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The components of which the state consists. </p>
-
-</div>
-</div>
-<a id="a5f6c3750ea18e699575472a89c1947a3" name="a5f6c3750ea18e699575472a89c1947a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f6c3750ea18e699575472a89c1947a3">&#9670;&#160;</a></span>covTransport</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::covTransport = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ee4f1648a8aa2a1c4897d96ca907abc" name="a0ee4f1648a8aa2a1c4897d96ca907abc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ee4f1648a8aa2a1c4897d96ca907abc">&#9670;&#160;</a></span>options</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_options.html">Options</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::options</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a08a58f9698f44d4dc0f767509fe8137a" name="a08a58f9698f44d4dc0f767509fe8137a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08a58f9698f44d4dc0f767509fe8137a">&#9670;&#160;</a></span>particleHypothesis</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::particleHypothesis = <a class="el" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">ParticleHypothesis::pion</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Particle hypothesis. </p>
-
-</div>
-</div>
-<a id="aad63b7c922ec7ae52c1c49e4d4a7320c" name="aad63b7c922ec7ae52c1c49e4d4a7320c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad63b7c922ec7ae52c1c49e4d4a7320c">&#9670;&#160;</a></span>pathAccumulated</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::pathAccumulated = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad620153acbe330f6af039d78b8ad7e9e" name="ad620153acbe330f6af039d78b8ad7e9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad620153acbe330f6af039d78b8ad7e9e">&#9670;&#160;</a></span>statistics</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_stepper_statistics.html">StepperStatistics</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::statistics</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The stepper statistics. </p>
-
-</div>
-</div>
-<a id="a79d9c4b3885f1ae68be1506da13d097c" name="a79d9c4b3885f1ae68be1506da13d097c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d9c4b3885f1ae68be1506da13d097c">&#9670;&#160;</a></span>stepCounterAfterFirstComponentOnSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;std::size_t&gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::stepCounterAfterFirstComponentOnSurface</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Step-limit counter which limits the number of steps when one component reached a surface. </p>
-
-</div>
-</div>
-<a id="a463d532d1d76aa6a83cd3bbf96cfed24" name="a463d532d1d76aa6a83cd3bbf96cfed24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a463d532d1d76aa6a83cd3bbf96cfed24">&#9670;&#160;</a></span>steps</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::State::steps = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

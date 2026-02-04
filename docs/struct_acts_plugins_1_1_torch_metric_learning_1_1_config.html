@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_plugins_1_1_torch_metric_learning_1_1_conf
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration struct for Torch metric learning.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_torch_metric_learning_8hpp_source.html">ActsPlugins/Gnn/TorchMetricLearning.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::TorchMetricLearning::Config:</div>
@@ -135,129 +138,34 @@ Collaboration diagram for ActsPlugins::TorchMetricLearning::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a15ac654ce8bde97893fd3bfe9eedc1b2" id="r_a15ac654ce8bde97893fd3bfe9eedc1b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15ac654ce8bde97893fd3bfe9eedc1b2">deviceID</a> = 0</td></tr>
-<tr class="memitem:ad4dc2930b3bbd374c89a74174b9b0d46" id="r_ad4dc2930b3bbd374c89a74174b9b0d46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4dc2930b3bbd374c89a74174b9b0d46">embeddingDim</a> = 8</td></tr>
-<tr class="memitem:ae341ca5a5218420ce852e961001222dd" id="r_ae341ca5a5218420ce852e961001222dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae341ca5a5218420ce852e961001222dd">knnVal</a> = 500</td></tr>
-<tr class="memitem:aba7188d23a4425717cfcd77d8b128b60" id="r_aba7188d23a4425717cfcd77d8b128b60"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7188d23a4425717cfcd77d8b128b60">modelPath</a></td></tr>
-<tr class="memitem:aad5017f4e550af46cfc538c2a0de4952" id="r_aad5017f4e550af46cfc538c2a0de4952"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad5017f4e550af46cfc538c2a0de4952">phiScale</a> = 3.141592654</td></tr>
-<tr class="memitem:a784c0c55a0a9f407c565e72b09297998" id="r_a784c0c55a0a9f407c565e72b09297998"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784c0c55a0a9f407c565e72b09297998">rVal</a> = 1.6</td></tr>
-<tr class="memitem:ad3d9b3eb45c5d293942df89182d3a625" id="r_ad3d9b3eb45c5d293942df89182d3a625"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3d9b3eb45c5d293942df89182d3a625">selectedFeatures</a> = {}</td></tr>
-<tr class="memitem:a9ce9e6d34a76f7971c01bcd938110ecd" id="r_a9ce9e6d34a76f7971c01bcd938110ecd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce9e6d34a76f7971c01bcd938110ecd">shuffleDirections</a> = false</td></tr>
+<tr class="memitem:a15ac654ce8bde97893fd3bfe9eedc1b2" id="r_a15ac654ce8bde97893fd3bfe9eedc1b2"><td class="memItemLeft" align="right" valign="top"><a id="a15ac654ce8bde97893fd3bfe9eedc1b2" name="a15ac654ce8bde97893fd3bfe9eedc1b2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>deviceID</b> = 0</td></tr>
+<tr class="memdesc:a15ac654ce8bde97893fd3bfe9eedc1b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUDA device ID to use for inference. <br /></td></tr>
+<tr class="memitem:ad4dc2930b3bbd374c89a74174b9b0d46" id="r_ad4dc2930b3bbd374c89a74174b9b0d46"><td class="memItemLeft" align="right" valign="top"><a id="ad4dc2930b3bbd374c89a74174b9b0d46" name="ad4dc2930b3bbd374c89a74174b9b0d46"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>embeddingDim</b> = 8</td></tr>
+<tr class="memdesc:ad4dc2930b3bbd374c89a74174b9b0d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensionality of the embedding space. <br /></td></tr>
+<tr class="memitem:ae341ca5a5218420ce852e961001222dd" id="r_ae341ca5a5218420ce852e961001222dd"><td class="memItemLeft" align="right" valign="top"><a id="ae341ca5a5218420ce852e961001222dd" name="ae341ca5a5218420ce852e961001222dd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>knnVal</b> = 500</td></tr>
+<tr class="memdesc:ae341ca5a5218420ce852e961001222dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of nearest neighbors. <br /></td></tr>
+<tr class="memitem:aba7188d23a4425717cfcd77d8b128b60" id="r_aba7188d23a4425717cfcd77d8b128b60"><td class="memItemLeft" align="right" valign="top"><a id="aba7188d23a4425717cfcd77d8b128b60" name="aba7188d23a4425717cfcd77d8b128b60"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>modelPath</b></td></tr>
+<tr class="memdesc:aba7188d23a4425717cfcd77d8b128b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the PyTorch model file. <br /></td></tr>
+<tr class="memitem:aad5017f4e550af46cfc538c2a0de4952" id="r_aad5017f4e550af46cfc538c2a0de4952"><td class="memItemLeft" align="right" valign="top"><a id="aad5017f4e550af46cfc538c2a0de4952" name="aad5017f4e550af46cfc538c2a0de4952"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>phiScale</b> = 3.141592654</td></tr>
+<tr class="memdesc:aad5017f4e550af46cfc538c2a0de4952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling factor for phi coordinate in edge features. <br /></td></tr>
+<tr class="memitem:a784c0c55a0a9f407c565e72b09297998" id="r_a784c0c55a0a9f407c565e72b09297998"><td class="memItemLeft" align="right" valign="top"><a id="a784c0c55a0a9f407c565e72b09297998" name="a784c0c55a0a9f407c565e72b09297998"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>rVal</b> = 1.6</td></tr>
+<tr class="memdesc:a784c0c55a0a9f407c565e72b09297998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius value for graph construction. <br /></td></tr>
+<tr class="memitem:ad3d9b3eb45c5d293942df89182d3a625" id="r_ad3d9b3eb45c5d293942df89182d3a625"><td class="memItemLeft" align="right" valign="top"><a id="ad3d9b3eb45c5d293942df89182d3a625" name="ad3d9b3eb45c5d293942df89182d3a625"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selectedFeatures</b> = {}</td></tr>
+<tr class="memdesc:ad3d9b3eb45c5d293942df89182d3a625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected feature indices for input. <br /></td></tr>
+<tr class="memitem:a9ce9e6d34a76f7971c01bcd938110ecd" id="r_a9ce9e6d34a76f7971c01bcd938110ecd"><td class="memItemLeft" align="right" valign="top"><a id="a9ce9e6d34a76f7971c01bcd938110ecd" name="a9ce9e6d34a76f7971c01bcd938110ecd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>shuffleDirections</b> = false</td></tr>
+<tr class="memdesc:a9ce9e6d34a76f7971c01bcd938110ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to shuffle edge directions. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a15ac654ce8bde97893fd3bfe9eedc1b2" name="a15ac654ce8bde97893fd3bfe9eedc1b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15ac654ce8bde97893fd3bfe9eedc1b2">&#9670;&#160;</a></span>deviceID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::TorchMetricLearning::Config::deviceID = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad4dc2930b3bbd374c89a74174b9b0d46" name="ad4dc2930b3bbd374c89a74174b9b0d46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4dc2930b3bbd374c89a74174b9b0d46">&#9670;&#160;</a></span>embeddingDim</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::TorchMetricLearning::Config::embeddingDim = 8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae341ca5a5218420ce852e961001222dd" name="ae341ca5a5218420ce852e961001222dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae341ca5a5218420ce852e961001222dd">&#9670;&#160;</a></span>knnVal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::TorchMetricLearning::Config::knnVal = 500</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aba7188d23a4425717cfcd77d8b128b60" name="aba7188d23a4425717cfcd77d8b128b60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba7188d23a4425717cfcd77d8b128b60">&#9670;&#160;</a></span>modelPath</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ActsPlugins::TorchMetricLearning::Config::modelPath</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad5017f4e550af46cfc538c2a0de4952" name="aad5017f4e550af46cfc538c2a0de4952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad5017f4e550af46cfc538c2a0de4952">&#9670;&#160;</a></span>phiScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::TorchMetricLearning::Config::phiScale = 3.141592654</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a784c0c55a0a9f407c565e72b09297998" name="a784c0c55a0a9f407c565e72b09297998"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a784c0c55a0a9f407c565e72b09297998">&#9670;&#160;</a></span>rVal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::TorchMetricLearning::Config::rVal = 1.6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad3d9b3eb45c5d293942df89182d3a625" name="ad3d9b3eb45c5d293942df89182d3a625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3d9b3eb45c5d293942df89182d3a625">&#9670;&#160;</a></span>selectedFeatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;int&gt; ActsPlugins::TorchMetricLearning::Config::selectedFeatures = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9ce9e6d34a76f7971c01bcd938110ecd" name="a9ce9e6d34a76f7971c01bcd938110ecd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ce9e6d34a76f7971c01bcd938110ecd">&#9670;&#160;</a></span>shuffleDirections</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ActsPlugins::TorchMetricLearning::Config::shuffleDirections = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration struct for Torch metric learning. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

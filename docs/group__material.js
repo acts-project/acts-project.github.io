@@ -16,7 +16,6 @@ var group__material =
     ] ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
       [ "Component", "class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3", null ],
-      [ "~BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html#ae00e351510ed0f3f13f31d62f63acf7d", null ],
       [ "maxComponents", "class_acts_1_1_bethe_heitler_approx.html#a8b593569b93fbc23758df47e785b81af", null ],
       [ "mixture", "class_acts_1_1_bethe_heitler_approx.html#a2f4ffb5dc53aa252ded57259eb91c619", null ],
       [ "validXOverX0", "class_acts_1_1_bethe_heitler_approx.html#a24eff665b135214e214cb999fd15cad9", null ]
@@ -50,15 +49,12 @@ var group__material =
       [ "ElementFraction", "class_acts_1_1_element_fraction.html#a6557d23c933ecef99e18592e78638510", null ],
       [ "ElementFraction", "class_acts_1_1_element_fraction.html#a9557d6682a9178b59eb0bceaf4584bb3", null ],
       [ "ElementFraction", "class_acts_1_1_element_fraction.html#a50188937733c142dfc715ab94ec6153b", null ],
-      [ "~ElementFraction", "class_acts_1_1_element_fraction.html#a05ea8bf2082588928304a6c58746112c", null ],
       [ "element", "class_acts_1_1_element_fraction.html#a698b2625949fa671499e4cca23330394", null ],
       [ "fraction", "class_acts_1_1_element_fraction.html#ac1f6498b2a4c74c9e751818de3c6c993", null ],
       [ "operator=", "class_acts_1_1_element_fraction.html#a40be03b373819661a3e837b17493f7b2", null ],
       [ "operator=", "class_acts_1_1_element_fraction.html#a76eb23a56aa22fa9d4a450f622845928", null ],
-      [ "MaterialComposition", "class_acts_1_1_element_fraction.html#a586fecc4d1edcf6cf9371c16fee4610c", null ],
       [ "operator<", "class_acts_1_1_element_fraction.html#a87093104d5c705d6e4520e96bf9e9b8d", null ],
-      [ "operator<<", "class_acts_1_1_element_fraction.html#a71c09ca03ddbc479a06e64a1e57192ab", null ],
-      [ "operator==", "class_acts_1_1_element_fraction.html#ae4cd3eccf6d532549da6ef768aa669f2", null ]
+      [ "operator<<", "class_acts_1_1_element_fraction.html#a71c09ca03ddbc479a06e64a1e57192ab", null ]
     ] ],
     [ "Acts::GloballyIndexedMaterialAccessor", "struct_acts_1_1_globally_indexed_material_accessor.html", [
       [ "grid_value_type", "struct_acts_1_1_globally_indexed_material_accessor.html#abe070b15ec816f5a57295c30d388c637", null ],
@@ -121,9 +117,7 @@ var group__material =
       [ "toStream", "class_acts_1_1_homogeneous_volume_material.html#aaac3ffb21c83a9afd07ae4c44e8ca5df", null ],
       [ "operator==", "class_acts_1_1_homogeneous_volume_material.html#ad66d8fe3a7d249fe56327a2cce9ef664", null ]
     ] ],
-    [ "Acts::IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", [
-      [ "~IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html#aae69b540e44bb10bd866b9a39e55c470", null ]
-    ] ],
+    [ "Acts::IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", null ],
     [ "Acts::IGridSurfaceMaterial&lt; grid_value_t &gt;", "class_acts_1_1_i_grid_surface_material.html", [
       [ "boundToGridLocal", "class_acts_1_1_i_grid_surface_material.html#a3e322fee53238e46cb1f7608954e8261", null ],
       [ "globalToGridLocal", "class_acts_1_1_i_grid_surface_material.html#a000f4a1101ee145a1c372f241f06cf3f", null ],

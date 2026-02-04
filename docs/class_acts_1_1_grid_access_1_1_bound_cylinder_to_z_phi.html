@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi
 </div><!--header-->
 <div class="contents">
 
+<p>Convert bound cylinder local coordinates to Z-Phi grid coordinates.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_grid_access_helpers_8hpp_source.html">Acts/Utilities/GridAccessHelpers.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::GridAccess::BoundCylinderToZPhi:</div>
@@ -140,37 +143,29 @@ Collaboration diagram for Acts::GridAccess::BoundCylinderToZPhi:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7bf0982a3768ad89fbc36d8114854004" id="r_a7bf0982a3768ad89fbc36d8114854004"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bf0982a3768ad89fbc36d8114854004">BoundDiscToRPhi</a> = <a class="el" href="class_acts_1_1_grid_access_1_1_local_subspace.html">LocalSubspace</a>&lt;0u, 1u&gt;</td></tr>
+<tr class="memitem:a7bf0982a3768ad89fbc36d8114854004" id="r_a7bf0982a3768ad89fbc36d8114854004"><td class="memItemLeft" align="right" valign="top"><a id="a7bf0982a3768ad89fbc36d8114854004" name="a7bf0982a3768ad89fbc36d8114854004"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundDiscToRPhi</b> = <a class="el" href="class_acts_1_1_grid_access_1_1_local_subspace.html">LocalSubspace</a>&lt;0u, 1u&gt;</td></tr>
+<tr class="memdesc:a7bf0982a3768ad89fbc36d8114854004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for disc-to-RPhi transformation. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afa3c63091bf5d86d5672dde07f45c8c5" id="r_afa3c63091bf5d86d5672dde07f45c8c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa3c63091bf5d86d5672dde07f45c8c5">BoundCylinderToZPhi</a> (double r, double z)</td></tr>
 <tr class="memdesc:afa3c63091bf5d86d5672dde07f45c8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with arguments.  <br /></td></tr>
 <tr class="memitem:aec3fdaf565bdf760856b5f6813c11d57" id="r_aec3fdaf565bdf760856b5f6813c11d57"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec3fdaf565bdf760856b5f6813c11d57">toGridLocal</a> (const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;local) const</td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_grid_access_1_1_i_bound_to_grid_local"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_grid_access_1_1_i_bound_to_grid_local')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html">Acts::GridAccess::IBoundToGridLocal</a></td></tr>
-<tr class="memitem:a22b0f80586661ced9df0b2e302e2f0a1 inherit pub_methods_class_acts_1_1_grid_access_1_1_i_bound_to_grid_local" id="r_a22b0f80586661ced9df0b2e302e2f0a1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html#a22b0f80586661ced9df0b2e302e2f0a1">~IBoundToGridLocal</a> ()=default</td></tr>
+<tr class="memdesc:aec3fdaf565bdf760856b5f6813c11d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert local coordinates to grid coordinates.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1bba59f967a1dab41e976404f677a123" id="r_a1bba59f967a1dab41e976404f677a123"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bba59f967a1dab41e976404f677a123">radius</a> = 1.</td></tr>
-<tr class="memitem:ac907502a47799a9804d3f5fffdd9f446" id="r_ac907502a47799a9804d3f5fffdd9f446"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac907502a47799a9804d3f5fffdd9f446">shift</a> = 0.</td></tr>
+<tr class="memitem:a1bba59f967a1dab41e976404f677a123" id="r_a1bba59f967a1dab41e976404f677a123"><td class="memItemLeft" align="right" valign="top"><a id="a1bba59f967a1dab41e976404f677a123" name="a1bba59f967a1dab41e976404f677a123"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>radius</b> = 1.</td></tr>
+<tr class="memdesc:a1bba59f967a1dab41e976404f677a123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cylinder radius. <br /></td></tr>
+<tr class="memitem:ac907502a47799a9804d3f5fffdd9f446" id="r_ac907502a47799a9804d3f5fffdd9f446"><td class="memItemLeft" align="right" valign="top"><a id="ac907502a47799a9804d3f5fffdd9f446" name="ac907502a47799a9804d3f5fffdd9f446"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>shift</b> = 0.</td></tr>
+<tr class="memdesc:ac907502a47799a9804d3f5fffdd9f446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z-coordinate shift. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a7bf0982a3768ad89fbc36d8114854004" name="a7bf0982a3768ad89fbc36d8114854004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bf0982a3768ad89fbc36d8114854004">&#9670;&#160;</a></span>BoundDiscToRPhi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a7bf0982a3768ad89fbc36d8114854004">Acts::GridAccess::BoundCylinderToZPhi::BoundDiscToRPhi</a> = <a class="el" href="class_acts_1_1_grid_access_1_1_local_subspace.html">LocalSubspace</a>&lt;0u, 1u&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Convert bound cylinder local coordinates to Z-Phi grid coordinates. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afa3c63091bf5d86d5672dde07f45c8c5" name="afa3c63091bf5d86d5672dde07f45c8c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa3c63091bf5d86d5672dde07f45c8c5">&#9670;&#160;</a></span>BoundCylinderToZPhi()</h2>
 
@@ -217,34 +212,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a1bba59f967a1dab41e976404f677a123" name="a1bba59f967a1dab41e976404f677a123"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bba59f967a1dab41e976404f677a123">&#9670;&#160;</a></span>radius</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::GridAccess::BoundCylinderToZPhi::radius = 1.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac907502a47799a9804d3f5fffdd9f446" name="ac907502a47799a9804d3f5fffdd9f446"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac907502a47799a9804d3f5fffdd9f446">&#9670;&#160;</a></span>shift</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::GridAccess::BoundCylinderToZPhi::shift = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Convert local coordinates to grid coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">local</td><td>Local coordinates </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Grid coordinates </dd></dl>
 
 </div>
 </div>
@@ -261,7 +236,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_grid_access.html">GridAccess</a></li><li class="navelem"><a href="class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi.html">BoundCylinderToZPhi</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>GridAccess</b></li><li class="navelem"><a href="class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi.html">BoundCylinderToZPhi</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

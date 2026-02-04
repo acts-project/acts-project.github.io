@@ -143,26 +143,35 @@ Collaboration diagram for Acts::FixedSubspaceHelper&lt; FullSize, SubspaceSize, 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a017172055502579bb373652d30e81388" id="r_a017172055502579bb373652d30e81388"><td class="memTemplParams" colspan="2">template&lt;std::size_t K&gt; </td></tr>
-<tr class="memitem:a017172055502579bb373652d30e81388 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017172055502579bb373652d30e81388">ApplyLeftResult</a> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
-<tr class="memdesc:a017172055502579bb373652d30e81388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for left application result matrix.  <br /></td></tr>
-<tr class="memitem:ac4aea1da74ad4be8b1cacf2c2b7a3107" id="r_ac4aea1da74ad4be8b1cacf2c2b7a3107"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:ac4aea1da74ad4be8b1cacf2c2b7a3107 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4aea1da74ad4be8b1cacf2c2b7a3107">ApplyRightResult</a> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
-<tr class="memdesc:ac4aea1da74ad4be8b1cacf2c2b7a3107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for right application result matrix.  <br /></td></tr>
-<tr class="memitem:a9d9d7bdc91d26723d9c7608eb9504ba5" id="r_a9d9d7bdc91d26723d9c7608eb9504ba5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d9d7bdc91d26723d9c7608eb9504ba5">Container</a> = std::array&lt;<a class="el" href="#ae49ace227d1d9f570629561da3f76864">IndexType</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
-<tr class="memdesc:a9d9d7bdc91d26723d9c7608eb9504ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for container storing subspace indices.  <br /></td></tr>
-<tr class="memitem:a88146459307037a29562b0ac34ff8467" id="r_a88146459307037a29562b0ac34ff8467"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88146459307037a29562b0ac34ff8467">Expander</a> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
-<tr class="memdesc:a88146459307037a29562b0ac34ff8467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for expansion matrix (full x subspace).  <br /></td></tr>
-<tr class="memitem:ae49ace227d1d9f570629561da3f76864" id="r_ae49ace227d1d9f570629561da3f76864"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae49ace227d1d9f570629561da3f76864">IndexType</a> = index_t</td></tr>
-<tr class="memdesc:ae49ace227d1d9f570629561da3f76864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for index type used to specify subspace indices.  <br /></td></tr>
-<tr class="memitem:a59b69cedfca9f5b38086d69d63aae580" id="r_a59b69cedfca9f5b38086d69d63aae580"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59b69cedfca9f5b38086d69d63aae580">Projector</a> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a>&gt;</td></tr>
-<tr class="memdesc:a59b69cedfca9f5b38086d69d63aae580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for projection matrix (subspace x full).  <br /></td></tr>
-<tr class="memitem:a583395313fa6b230288fafe77b1e9704" id="r_a583395313fa6b230288fafe77b1e9704"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a583395313fa6b230288fafe77b1e9704">size_type</a> = std::size_t</td></tr>
-<tr class="memdesc:a583395313fa6b230288fafe77b1e9704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for size type.  <br /></td></tr>
-<tr class="memitem:a46c2a60ea333071cb53a540b67e1adf2" id="r_a46c2a60ea333071cb53a540b67e1adf2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c2a60ea333071cb53a540b67e1adf2">SquareMatrix</a> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
-<tr class="memdesc:a46c2a60ea333071cb53a540b67e1adf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for subspace square matrix.  <br /></td></tr>
-<tr class="memitem:a83510eb1e824eeeb3917a7780cc69cca" id="r_a83510eb1e824eeeb3917a7780cc69cca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83510eb1e824eeeb3917a7780cc69cca">Vector</a> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
-<tr class="memdesc:a83510eb1e824eeeb3917a7780cc69cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for subspace vector.  <br /></td></tr>
+<tr class="memitem:a017172055502579bb373652d30e81388" id="r_a017172055502579bb373652d30e81388"><td class="memTemplParams" colspan="2"><a id="a017172055502579bb373652d30e81388" name="a017172055502579bb373652d30e81388"></a>
+template&lt;std::size_t K&gt; </td></tr>
+<tr class="memitem:a017172055502579bb373652d30e81388 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyLeftResult</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
+<tr class="memdesc:a017172055502579bb373652d30e81388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for left application result matrix. <br /></td></tr>
+<tr class="memitem:ac4aea1da74ad4be8b1cacf2c2b7a3107" id="r_ac4aea1da74ad4be8b1cacf2c2b7a3107"><td class="memTemplParams" colspan="2"><a id="ac4aea1da74ad4be8b1cacf2c2b7a3107" name="ac4aea1da74ad4be8b1cacf2c2b7a3107"></a>
+template&lt;std::size_t N&gt; </td></tr>
+<tr class="memitem:ac4aea1da74ad4be8b1cacf2c2b7a3107 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyRightResult</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
+<tr class="memdesc:ac4aea1da74ad4be8b1cacf2c2b7a3107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for right application result matrix. <br /></td></tr>
+<tr class="memitem:a9d9d7bdc91d26723d9c7608eb9504ba5" id="r_a9d9d7bdc91d26723d9c7608eb9504ba5"><td class="memItemLeft" align="right" valign="top"><a id="a9d9d7bdc91d26723d9c7608eb9504ba5" name="a9d9d7bdc91d26723d9c7608eb9504ba5"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Container</b> = std::array&lt;<a class="el" href="#ae49ace227d1d9f570629561da3f76864">IndexType</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
+<tr class="memdesc:a9d9d7bdc91d26723d9c7608eb9504ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for container storing subspace indices. <br /></td></tr>
+<tr class="memitem:a88146459307037a29562b0ac34ff8467" id="r_a88146459307037a29562b0ac34ff8467"><td class="memItemLeft" align="right" valign="top"><a id="a88146459307037a29562b0ac34ff8467" name="a88146459307037a29562b0ac34ff8467"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Expander</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
+<tr class="memdesc:a88146459307037a29562b0ac34ff8467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for expansion matrix (full x subspace). <br /></td></tr>
+<tr class="memitem:ae49ace227d1d9f570629561da3f76864" id="r_ae49ace227d1d9f570629561da3f76864"><td class="memItemLeft" align="right" valign="top"><a id="ae49ace227d1d9f570629561da3f76864" name="ae49ace227d1d9f570629561da3f76864"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b> = index_t</td></tr>
+<tr class="memdesc:ae49ace227d1d9f570629561da3f76864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for index type used to specify subspace indices. <br /></td></tr>
+<tr class="memitem:a59b69cedfca9f5b38086d69d63aae580" id="r_a59b69cedfca9f5b38086d69d63aae580"><td class="memItemLeft" align="right" valign="top"><a id="a59b69cedfca9f5b38086d69d63aae580" name="a59b69cedfca9f5b38086d69d63aae580"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Projector</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a>&gt;</td></tr>
+<tr class="memdesc:a59b69cedfca9f5b38086d69d63aae580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for projection matrix (subspace x full). <br /></td></tr>
+<tr class="memitem:a583395313fa6b230288fafe77b1e9704" id="r_a583395313fa6b230288fafe77b1e9704"><td class="memItemLeft" align="right" valign="top"><a id="a583395313fa6b230288fafe77b1e9704" name="a583395313fa6b230288fafe77b1e9704"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>size_type</b> = std::size_t</td></tr>
+<tr class="memdesc:a583395313fa6b230288fafe77b1e9704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for size type. <br /></td></tr>
+<tr class="memitem:a46c2a60ea333071cb53a540b67e1adf2" id="r_a46c2a60ea333071cb53a540b67e1adf2"><td class="memItemLeft" align="right" valign="top"><a id="a46c2a60ea333071cb53a540b67e1adf2" name="a46c2a60ea333071cb53a540b67e1adf2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix</b> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
+<tr class="memdesc:a46c2a60ea333071cb53a540b67e1adf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for subspace square matrix. <br /></td></tr>
+<tr class="memitem:a83510eb1e824eeeb3917a7780cc69cca" id="r_a83510eb1e824eeeb3917a7780cc69cca"><td class="memItemLeft" align="right" valign="top"><a id="a83510eb1e824eeeb3917a7780cc69cca" name="a83510eb1e824eeeb3917a7780cc69cca"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td></tr>
+<tr class="memdesc:a83510eb1e824eeeb3917a7780cc69cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for subspace vector. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -200,10 +209,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a545feac78cbf5e4e8d4599e60e095fd6" id="r_a545feac78cbf5e4e8d4599e60e095fd6"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a> = FullSize</td></tr>
-<tr class="memdesc:a545feac78cbf5e4e8d4599e60e095fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the full parameter space.  <br /></td></tr>
-<tr class="memitem:afbe57313f6ccfb0557e00dddba5b94a9" id="r_afbe57313f6ccfb0557e00dddba5b94a9"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a> = SubspaceSize</td></tr>
-<tr class="memdesc:afbe57313f6ccfb0557e00dddba5b94a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the subspace parameter space.  <br /></td></tr>
+<tr class="memitem:a545feac78cbf5e4e8d4599e60e095fd6" id="r_a545feac78cbf5e4e8d4599e60e095fd6"><td class="memItemLeft" align="right" valign="top"><a id="a545feac78cbf5e4e8d4599e60e095fd6" name="a545feac78cbf5e4e8d4599e60e095fd6"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>kFullSize</b> = FullSize</td></tr>
+<tr class="memdesc:a545feac78cbf5e4e8d4599e60e095fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the full parameter space. <br /></td></tr>
+<tr class="memitem:afbe57313f6ccfb0557e00dddba5b94a9" id="r_afbe57313f6ccfb0557e00dddba5b94a9"><td class="memItemLeft" align="right" valign="top"><a id="afbe57313f6ccfb0557e00dddba5b94a9" name="afbe57313f6ccfb0557e00dddba5b94a9"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>kSubspaceSize</b> = SubspaceSize</td></tr>
+<tr class="memdesc:afbe57313f6ccfb0557e00dddba5b94a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the subspace parameter space. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt;<br />
@@ -216,174 +227,7 @@ class Acts::FixedSubspaceHelper&lt; FullSize, SubspaceSize, index_t &gt;</div><p
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a017172055502579bb373652d30e81388" name="a017172055502579bb373652d30e81388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a017172055502579bb373652d30e81388">&#9670;&#160;</a></span>ApplyLeftResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-<div class="memtemplate">
-template&lt;std::size_t K&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::ApplyLeftResult = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for left application result matrix. </p>
-
-</div>
-</div>
-<a id="ac4aea1da74ad4be8b1cacf2c2b7a3107" name="ac4aea1da74ad4be8b1cacf2c2b7a3107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4aea1da74ad4be8b1cacf2c2b7a3107">&#9670;&#160;</a></span>ApplyRightResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-<div class="memtemplate">
-template&lt;std::size_t N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::ApplyRightResult = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for right application result matrix. </p>
-
-</div>
-</div>
-<a id="a9d9d7bdc91d26723d9c7608eb9504ba5" name="a9d9d7bdc91d26723d9c7608eb9504ba5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d9d7bdc91d26723d9c7608eb9504ba5">&#9670;&#160;</a></span>Container</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::Container = std::array&lt;<a class="el" href="#ae49ace227d1d9f570629561da3f76864">IndexType</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for container storing subspace indices. </p>
-
-</div>
-</div>
-<a id="a88146459307037a29562b0ac34ff8467" name="a88146459307037a29562b0ac34ff8467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88146459307037a29562b0ac34ff8467">&#9670;&#160;</a></span>Expander</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::Expander = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a>, <a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for expansion matrix (full x subspace). </p>
-
-</div>
-</div>
-<a id="ae49ace227d1d9f570629561da3f76864" name="ae49ace227d1d9f570629561da3f76864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae49ace227d1d9f570629561da3f76864">&#9670;&#160;</a></span>IndexType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::IndexType = index_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for index type used to specify subspace indices. </p>
-
-</div>
-</div>
-<a id="a59b69cedfca9f5b38086d69d63aae580" name="a59b69cedfca9f5b38086d69d63aae580"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59b69cedfca9f5b38086d69d63aae580">&#9670;&#160;</a></span>Projector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::Projector = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>, <a class="el" href="#a545feac78cbf5e4e8d4599e60e095fd6">kFullSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for projection matrix (subspace x full). </p>
-
-</div>
-</div>
-<a id="a583395313fa6b230288fafe77b1e9704" name="a583395313fa6b230288fafe77b1e9704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a583395313fa6b230288fafe77b1e9704">&#9670;&#160;</a></span>size_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::size_type = std::size_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for size type. </p>
-
-</div>
-</div>
-<a id="a46c2a60ea333071cb53a540b67e1adf2" name="a46c2a60ea333071cb53a540b67e1adf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46c2a60ea333071cb53a540b67e1adf2">&#9670;&#160;</a></span>SquareMatrix</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::SquareMatrix = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for subspace square matrix. </p>
-
-</div>
-</div>
-<a id="a83510eb1e824eeeb3917a7780cc69cca" name="a83510eb1e824eeeb3917a7780cc69cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83510eb1e824eeeb3917a7780cc69cca">&#9670;&#160;</a></span>Vector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::Vector = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;<a class="el" href="#afbe57313f6ccfb0557e00dddba5b94a9">kSubspaceSize</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for subspace vector. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adec8c0fff9408d8c50c4cb76c5bcb8bf" name="adec8c0fff9408d8c50c4cb76c5bcb8bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adec8c0fff9408d8c50c4cb76c5bcb8bf">&#9670;&#160;</a></span>FixedSubspaceHelper()</h2>
 
@@ -753,59 +597,6 @@ template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = s
 
 <p>Get the size of the subspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>Number of indices in the subspace (always SubspaceSize) </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a545feac78cbf5e4e8d4599e60e095fd6" name="a545feac78cbf5e4e8d4599e60e095fd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a545feac78cbf5e4e8d4599e60e095fd6">&#9670;&#160;</a></span>kFullSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::kFullSize = FullSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Size of the full parameter space. </p>
-
-</div>
-</div>
-<a id="afbe57313f6ccfb0557e00dddba5b94a9" name="afbe57313f6ccfb0557e00dddba5b94a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbe57313f6ccfb0557e00dddba5b94a9">&#9670;&#160;</a></span>kSubspaceSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t FullSize, std::size_t SubspaceSize, typename index_t = std::uint8_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_fixed_subspace_helper.html">Acts::FixedSubspaceHelper</a>&lt; FullSize, SubspaceSize, index_t &gt;::kSubspaceSize = SubspaceSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Size of the subspace parameter space. </p>
 
 </div>
 </div>

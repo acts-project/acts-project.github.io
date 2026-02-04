@@ -138,18 +138,20 @@ Collaboration diagram for ActsFatras::Channel&lt; signal_t, kSize &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a48a3ac7e94c92c0cc6b2da6f84a63994" id="r_a48a3ac7e94c92c0cc6b2da6f84a63994"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48a3ac7e94c92c0cc6b2da6f84a63994">Channel</a> ()=delete</td></tr>
 <tr class="memitem:aa6742a2ed761216c9f23ab1e4f658747" id="r_aa6742a2ed761216c9f23ab1e4f658747"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6742a2ed761216c9f23ab1e4f658747">Channel</a> (std::array&lt; <a class="el" href="namespace_acts_fatras.html#a0c8c63b13522aa38c4ae7d0c273e4dad">Cell</a>, kSize &gt; cellId_, signal_t value_, std::unordered_set&lt; unsigned int &gt; links_={})</td></tr>
 <tr class="memdesc:aa6742a2ed761216c9f23ab1e4f658747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Channel constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6b5bfc0114c0c282b547fcd71ea7a41b" id="r_a6b5bfc0114c0c282b547fcd71ea7a41b"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="namespace_acts_fatras.html#a0c8c63b13522aa38c4ae7d0c273e4dad">Cell</a>, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b5bfc0114c0c282b547fcd71ea7a41b">cellId</a></td></tr>
-<tr class="memdesc:a6b5bfc0114c0c282b547fcd71ea7a41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cell identification in sizeof..(kParameters) dimensions.  <br /></td></tr>
-<tr class="memitem:aeb188804bf95213dfee1713816148906" id="r_aeb188804bf95213dfee1713816148906"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb188804bf95213dfee1713816148906">links</a> = {}</td></tr>
-<tr class="memdesc:aeb188804bf95213dfee1713816148906"><td class="mdescLeft">&#160;</td><td class="mdescRight">The potential (truth) links.  <br /></td></tr>
-<tr class="memitem:acdc736c10a8f65962e45d14deb3b5c5c" id="r_acdc736c10a8f65962e45d14deb3b5c5c"><td class="memItemLeft" align="right" valign="top">signal_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdc736c10a8f65962e45d14deb3b5c5c">value</a> = 0</td></tr>
-<tr class="memdesc:acdc736c10a8f65962e45d14deb3b5c5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The signal value, as complex as possible, but need += operator and double() cast for the weight.  <br /></td></tr>
+<tr class="memitem:a6b5bfc0114c0c282b547fcd71ea7a41b" id="r_a6b5bfc0114c0c282b547fcd71ea7a41b"><td class="memItemLeft" align="right" valign="top"><a id="a6b5bfc0114c0c282b547fcd71ea7a41b" name="a6b5bfc0114c0c282b547fcd71ea7a41b"></a>
+std::array&lt; <a class="el" href="namespace_acts_fatras.html#a0c8c63b13522aa38c4ae7d0c273e4dad">Cell</a>, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cellId</b></td></tr>
+<tr class="memdesc:a6b5bfc0114c0c282b547fcd71ea7a41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cell identification in sizeof..(kParameters) dimensions. <br /></td></tr>
+<tr class="memitem:aeb188804bf95213dfee1713816148906" id="r_aeb188804bf95213dfee1713816148906"><td class="memItemLeft" align="right" valign="top"><a id="aeb188804bf95213dfee1713816148906" name="aeb188804bf95213dfee1713816148906"></a>
+std::unordered_set&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>links</b> = {}</td></tr>
+<tr class="memdesc:aeb188804bf95213dfee1713816148906"><td class="mdescLeft">&#160;</td><td class="mdescRight">The potential (truth) links. <br /></td></tr>
+<tr class="memitem:acdc736c10a8f65962e45d14deb3b5c5c" id="r_acdc736c10a8f65962e45d14deb3b5c5c"><td class="memItemLeft" align="right" valign="top"><a id="acdc736c10a8f65962e45d14deb3b5c5c" name="acdc736c10a8f65962e45d14deb3b5c5c"></a>
+signal_t&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> = 0</td></tr>
+<tr class="memdesc:acdc736c10a8f65962e45d14deb3b5c5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The signal value, as complex as possible, but need += operator and double() cast for the weight. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename signal_t, std::size_t kSize&gt;<br />
@@ -163,7 +165,7 @@ struct ActsFatras::Channel&lt; signal_t, kSize &gt;</div><p>A channel definition
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa6742a2ed761216c9f23ab1e4f658747" name="aa6742a2ed761216c9f23ab1e4f658747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6742a2ed761216c9f23ab1e4f658747">&#9670;&#160;</a></span>Channel() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6742a2ed761216c9f23ab1e4f658747">&#9670;&#160;</a></span>Channel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,88 +199,6 @@ template&lt;typename signal_t, std::size_t kSize&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a48a3ac7e94c92c0cc6b2da6f84a63994" name="a48a3ac7e94c92c0cc6b2da6f84a63994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48a3ac7e94c92c0cc6b2da6f84a63994">&#9670;&#160;</a></span>Channel() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_fatras_1_1_channel.html">ActsFatras::Channel</a>&lt; signal_t, kSize &gt;::Channel </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a6b5bfc0114c0c282b547fcd71ea7a41b" name="a6b5bfc0114c0c282b547fcd71ea7a41b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b5bfc0114c0c282b547fcd71ea7a41b">&#9670;&#160;</a></span>cellId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="namespace_acts_fatras.html#a0c8c63b13522aa38c4ae7d0c273e4dad">Cell</a>, kSize&gt; <a class="el" href="struct_acts_fatras_1_1_channel.html">ActsFatras::Channel</a>&lt; signal_t, kSize &gt;::cellId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The cell identification in sizeof..(kParameters) dimensions. </p>
-
-</div>
-</div>
-<a id="aeb188804bf95213dfee1713816148906" name="aeb188804bf95213dfee1713816148906"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb188804bf95213dfee1713816148906">&#9670;&#160;</a></span>links</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unordered_set&lt;unsigned int&gt; <a class="el" href="struct_acts_fatras_1_1_channel.html">ActsFatras::Channel</a>&lt; signal_t, kSize &gt;::links = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The potential (truth) links. </p>
-
-</div>
-</div>
-<a id="acdc736c10a8f65962e45d14deb3b5c5c" name="acdc736c10a8f65962e45d14deb3b5c5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdc736c10a8f65962e45d14deb3b5c5c">&#9670;&#160;</a></span>value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">signal_t <a class="el" href="struct_acts_fatras_1_1_channel.html">ActsFatras::Channel</a>&lt; signal_t, kSize &gt;::value = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The signal value, as complex as possible, but need += operator and double() cast for the weight. </p>
 
 </div>
 </div>

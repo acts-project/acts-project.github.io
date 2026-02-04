@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Subset view of doublets addressed by index and cotTheta pairs.">
 <polygon fill="#999999" stroke="#666666" points="392,-35.5 245,-35.5 245,-5.5 392,-5.5 392,-35.5"/>
 <text text-anchor="start" x="253" y="-23.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DoubletsForMiddleSp</text>
 <text text-anchor="middle" x="318.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Subset2</text>
@@ -22,7 +22,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="209,-41 0,-41 0,0 209,0 209,-41"/>
+<polygon fill="white" stroke="#bfbfbf" points="209,-41 0,-41 0,0 209,0 209,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail::ContainerSubset</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Subset2, Subset2, DoubletsForMiddle</text>
 <text text-anchor="middle" x="104.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Sp, Proxy2, IndexAndCotTheta, true &gt;</text>

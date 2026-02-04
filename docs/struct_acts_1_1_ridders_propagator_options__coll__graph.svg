@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Options for Ridders&#45;based covariance propagation.">
 <polygon fill="#999999" stroke="#666666" points="171,-30 0,-30 0,0 171,0 171,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::RiddersPropagatorOptions</text>
 <text text-anchor="middle" x="85.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; propagator_t, actor_list_t &gt;</text>
@@ -33,7 +33,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="139,-113 0,-113 0,-83 139,-83 139,-113"/>
+<polygon fill="white" stroke="#bfbfbf" points="139,-113 0,-113 0,-83 139,-83 139,-113"/>
 <text text-anchor="start" x="8" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">propagator_t::template</text>
 <text text-anchor="middle" x="69.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> Options&lt; ActorList&lt;&gt; &gt;</text>
 </a>

@@ -1,5 +1,5 @@
 <map id="ActsPlugins::TorchEdgeClassifier::Config" name="ActsPlugins::TorchEdgeClassifier::Config">
-<area shape="rect" id="Node000001" title=" " alt="" coords="33,212,263,252"/>
+<area shape="rect" id="Node000001" title="Configuration struct for Torch edge classifier." alt="" coords="33,212,263,252"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="37,116,123,141"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,153,110,187,130,210,126,213,106,189,87,155"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,45"/>

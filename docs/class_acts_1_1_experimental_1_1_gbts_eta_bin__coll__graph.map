@@ -1,5 +1,5 @@
 <map id="Acts::Experimental::GbtsEtaBin" name="Acts::Experimental::GbtsEtaBin">
-<area shape="rect" id="Node000001" title=" " alt="" coords="697,137,843,177"/>
+<area shape="rect" id="Node000001" title="Eta&#45;bin container for GBTs nodes and edge data." alt="" coords="697,137,843,177"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="385,21,535,75"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="549,66,611,84,674,106,735,135,733,140,672,110,610,89,548,71"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,143,135,169"/>

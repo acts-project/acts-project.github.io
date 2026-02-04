@@ -151,30 +151,42 @@ requires (i &gt;= 0 &amp;&amp; i &lt;= 3)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af968998db80bbef89bb7786a16a3b7cb" id="r_af968998db80bbef89bb7786a16a3b7cb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af968998db80bbef89bb7786a16a3b7cb">currentMomentum</a> = 0.</td></tr>
-<tr class="memdesc:af968998db80bbef89bb7786a16a3b7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum at a certain point.  <br /></td></tr>
-<tr class="memitem:a25ce62107dc409b1f0c96bc450c550f3" id="r_a25ce62107dc409b1f0c96bc450c550f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_eigen_stepper_default_extension.html">EigenStepperDefaultExtension</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ce62107dc409b1f0c96bc450c550f3">defaultExtension</a></td></tr>
-<tr class="memdesc:a25ce62107dc409b1f0c96bc450c550f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fallback extension.  <br /></td></tr>
-<tr class="memitem:a0f7ef10324506d76a4abcc4925241f92" id="r_a0f7ef10324506d76a4abcc4925241f92"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f7ef10324506d76a4abcc4925241f92">dgdqopValue</a> = 0.</td></tr>
-<tr class="memdesc:a0f7ef10324506d76a4abcc4925241f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative d(dEds)d(q/p) evaluated at the initial point.  <br /></td></tr>
-<tr class="memitem:af7280a29b87bfbea378afbfb9273acb5" id="r_af7280a29b87bfbea378afbfb9273acb5"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7280a29b87bfbea378afbfb9273acb5">dLdl</a> {}</td></tr>
-<tr class="memdesc:af7280a29b87bfbea378afbfb9273acb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivatives dLambda''dlambda at each sub-step point.  <br /></td></tr>
-<tr class="memitem:ab4727c2e62837553180e1806a5f7ed1f" id="r_ab4727c2e62837553180e1806a5f7ed1f"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4727c2e62837553180e1806a5f7ed1f">dPds</a> {}</td></tr>
-<tr class="memdesc:ab4727c2e62837553180e1806a5f7ed1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivatives dPds at each sub-step.  <br /></td></tr>
-<tr class="memitem:a41e98a298c8f5697c636e646d8ecfae2" id="r_a41e98a298c8f5697c636e646d8ecfae2"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41e98a298c8f5697c636e646d8ecfae2">energy</a> {}</td></tr>
-<tr class="memdesc:a41e98a298c8f5697c636e646d8ecfae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Energy at each sub-step.  <br /></td></tr>
-<tr class="memitem:a963dc87e2b008ffbe01503d62652b02f" id="r_a963dc87e2b008ffbe01503d62652b02f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963dc87e2b008ffbe01503d62652b02f">g</a> = 0.</td></tr>
-<tr class="memdesc:a963dc87e2b008ffbe01503d62652b02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative dEds at the initial point.  <br /></td></tr>
-<tr class="memitem:a95e4cccb41f8e8e2c6487f61e49f7a2b" id="r_a95e4cccb41f8e8e2c6487f61e49f7a2b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95e4cccb41f8e8e2c6487f61e49f7a2b">initialMomentum</a> = 0.</td></tr>
-<tr class="memdesc:a95e4cccb41f8e8e2c6487f61e49f7a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particles momentum at k1.  <br /></td></tr>
-<tr class="memitem:a376b15ea2637716ffff5efdc0ac93034" id="r_a376b15ea2637716ffff5efdc0ac93034"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376b15ea2637716ffff5efdc0ac93034">Lambdappi</a> {}</td></tr>
-<tr class="memdesc:a376b15ea2637716ffff5efdc0ac93034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambda''_i.  <br /></td></tr>
-<tr class="memitem:a83926fe811cd9d2f4014b072318505a9" id="r_a83926fe811cd9d2f4014b072318505a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83926fe811cd9d2f4014b072318505a9">material</a> = <a class="el" href="class_acts_1_1_material.html#aa01ba381497dcc08f853dc4a22df651d">Material::Vacuum</a>()</td></tr>
-<tr class="memdesc:a83926fe811cd9d2f4014b072318505a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material that will be passed TODO : Might not be needed anymore.  <br /></td></tr>
-<tr class="memitem:a038a69c2d97b606342a3d296419c6805" id="r_a038a69c2d97b606342a3d296419c6805"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a038a69c2d97b606342a3d296419c6805">qop</a> {}</td></tr>
-<tr class="memdesc:a038a69c2d97b606342a3d296419c6805"><td class="mdescLeft">&#160;</td><td class="mdescRight">q/p at each sub-step  <br /></td></tr>
-<tr class="memitem:a0dd98b7820e272d385a6c2309ead40f6" id="r_a0dd98b7820e272d385a6c2309ead40f6"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dd98b7820e272d385a6c2309ead40f6">tKi</a> {}</td></tr>
-<tr class="memdesc:a0dd98b7820e272d385a6c2309ead40f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">k_i equivalent for the time propagation  <br /></td></tr>
+<tr class="memitem:af968998db80bbef89bb7786a16a3b7cb" id="r_af968998db80bbef89bb7786a16a3b7cb"><td class="memItemLeft" align="right" valign="top"><a id="af968998db80bbef89bb7786a16a3b7cb" name="af968998db80bbef89bb7786a16a3b7cb"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>currentMomentum</b> = 0.</td></tr>
+<tr class="memdesc:af968998db80bbef89bb7786a16a3b7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum at a certain point. <br /></td></tr>
+<tr class="memitem:a25ce62107dc409b1f0c96bc450c550f3" id="r_a25ce62107dc409b1f0c96bc450c550f3"><td class="memItemLeft" align="right" valign="top"><a id="a25ce62107dc409b1f0c96bc450c550f3" name="a25ce62107dc409b1f0c96bc450c550f3"></a>
+<a class="el" href="struct_acts_1_1_eigen_stepper_default_extension.html">EigenStepperDefaultExtension</a>&#160;</td><td class="memItemRight" valign="bottom"><b>defaultExtension</b></td></tr>
+<tr class="memdesc:a25ce62107dc409b1f0c96bc450c550f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fallback extension. <br /></td></tr>
+<tr class="memitem:a0f7ef10324506d76a4abcc4925241f92" id="r_a0f7ef10324506d76a4abcc4925241f92"><td class="memItemLeft" align="right" valign="top"><a id="a0f7ef10324506d76a4abcc4925241f92" name="a0f7ef10324506d76a4abcc4925241f92"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>dgdqopValue</b> = 0.</td></tr>
+<tr class="memdesc:a0f7ef10324506d76a4abcc4925241f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative d(dEds)d(q/p) evaluated at the initial point. <br /></td></tr>
+<tr class="memitem:af7280a29b87bfbea378afbfb9273acb5" id="r_af7280a29b87bfbea378afbfb9273acb5"><td class="memItemLeft" align="right" valign="top"><a id="af7280a29b87bfbea378afbfb9273acb5" name="af7280a29b87bfbea378afbfb9273acb5"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dLdl</b> {}</td></tr>
+<tr class="memdesc:af7280a29b87bfbea378afbfb9273acb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivatives dLambda''dlambda at each sub-step point. <br /></td></tr>
+<tr class="memitem:ab4727c2e62837553180e1806a5f7ed1f" id="r_ab4727c2e62837553180e1806a5f7ed1f"><td class="memItemLeft" align="right" valign="top"><a id="ab4727c2e62837553180e1806a5f7ed1f" name="ab4727c2e62837553180e1806a5f7ed1f"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dPds</b> {}</td></tr>
+<tr class="memdesc:ab4727c2e62837553180e1806a5f7ed1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivatives dPds at each sub-step. <br /></td></tr>
+<tr class="memitem:a41e98a298c8f5697c636e646d8ecfae2" id="r_a41e98a298c8f5697c636e646d8ecfae2"><td class="memItemLeft" align="right" valign="top"><a id="a41e98a298c8f5697c636e646d8ecfae2" name="a41e98a298c8f5697c636e646d8ecfae2"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>energy</b> {}</td></tr>
+<tr class="memdesc:a41e98a298c8f5697c636e646d8ecfae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Energy at each sub-step. <br /></td></tr>
+<tr class="memitem:a963dc87e2b008ffbe01503d62652b02f" id="r_a963dc87e2b008ffbe01503d62652b02f"><td class="memItemLeft" align="right" valign="top"><a id="a963dc87e2b008ffbe01503d62652b02f" name="a963dc87e2b008ffbe01503d62652b02f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>g</b> = 0.</td></tr>
+<tr class="memdesc:a963dc87e2b008ffbe01503d62652b02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative dEds at the initial point. <br /></td></tr>
+<tr class="memitem:a95e4cccb41f8e8e2c6487f61e49f7a2b" id="r_a95e4cccb41f8e8e2c6487f61e49f7a2b"><td class="memItemLeft" align="right" valign="top"><a id="a95e4cccb41f8e8e2c6487f61e49f7a2b" name="a95e4cccb41f8e8e2c6487f61e49f7a2b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>initialMomentum</b> = 0.</td></tr>
+<tr class="memdesc:a95e4cccb41f8e8e2c6487f61e49f7a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particles momentum at k1. <br /></td></tr>
+<tr class="memitem:a376b15ea2637716ffff5efdc0ac93034" id="r_a376b15ea2637716ffff5efdc0ac93034"><td class="memItemLeft" align="right" valign="top"><a id="a376b15ea2637716ffff5efdc0ac93034" name="a376b15ea2637716ffff5efdc0ac93034"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Lambdappi</b> {}</td></tr>
+<tr class="memdesc:a376b15ea2637716ffff5efdc0ac93034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambda''_i. <br /></td></tr>
+<tr class="memitem:a83926fe811cd9d2f4014b072318505a9" id="r_a83926fe811cd9d2f4014b072318505a9"><td class="memItemLeft" align="right" valign="top"><a id="a83926fe811cd9d2f4014b072318505a9" name="a83926fe811cd9d2f4014b072318505a9"></a>
+<a class="el" href="class_acts_1_1_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><b>material</b> = <a class="el" href="class_acts_1_1_material.html#aa01ba381497dcc08f853dc4a22df651d">Material::Vacuum</a>()</td></tr>
+<tr class="memdesc:a83926fe811cd9d2f4014b072318505a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material that will be passed TODO : Might not be needed anymore. <br /></td></tr>
+<tr class="memitem:a038a69c2d97b606342a3d296419c6805" id="r_a038a69c2d97b606342a3d296419c6805"><td class="memItemLeft" align="right" valign="top"><a id="a038a69c2d97b606342a3d296419c6805" name="a038a69c2d97b606342a3d296419c6805"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>qop</b> {}</td></tr>
+<tr class="memdesc:a038a69c2d97b606342a3d296419c6805"><td class="mdescLeft">&#160;</td><td class="mdescRight">q/p at each sub-step <br /></td></tr>
+<tr class="memitem:a0dd98b7820e272d385a6c2309ead40f6" id="r_a0dd98b7820e272d385a6c2309ead40f6"><td class="memItemLeft" align="right" valign="top"><a id="a0dd98b7820e272d385a6c2309ead40f6" name="a0dd98b7820e272d385a6c2309ead40f6"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tKi</b> {}</td></tr>
+<tr class="memdesc:a0dd98b7820e272d385a6c2309ead40f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">k_i equivalent for the time propagation <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Evaluator of the k_i's and elements of the transport matrix D of the RKN4 stepping. </p>
@@ -365,199 +377,6 @@ requires (i &gt;= 0 &amp;&amp; i &lt;= 3)</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Boolean flag if the calculation is valid </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="af968998db80bbef89bb7786a16a3b7cb" name="af968998db80bbef89bb7786a16a3b7cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af968998db80bbef89bb7786a16a3b7cb">&#9670;&#160;</a></span>currentMomentum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::EigenStepperDenseExtension::currentMomentum = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Momentum at a certain point. </p>
-
-</div>
-</div>
-<a id="a25ce62107dc409b1f0c96bc450c550f3" name="a25ce62107dc409b1f0c96bc450c550f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25ce62107dc409b1f0c96bc450c550f3">&#9670;&#160;</a></span>defaultExtension</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_eigen_stepper_default_extension.html">EigenStepperDefaultExtension</a> Acts::EigenStepperDenseExtension::defaultExtension</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fallback extension. </p>
-
-</div>
-</div>
-<a id="a0f7ef10324506d76a4abcc4925241f92" name="a0f7ef10324506d76a4abcc4925241f92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f7ef10324506d76a4abcc4925241f92">&#9670;&#160;</a></span>dgdqopValue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::EigenStepperDenseExtension::dgdqopValue = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Derivative d(dEds)d(q/p) evaluated at the initial point. </p>
-
-</div>
-</div>
-<a id="af7280a29b87bfbea378afbfb9273acb5" name="af7280a29b87bfbea378afbfb9273acb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7280a29b87bfbea378afbfb9273acb5">&#9670;&#160;</a></span>dLdl</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::EigenStepperDenseExtension::dLdl {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Derivatives dLambda''dlambda at each sub-step point. </p>
-
-</div>
-</div>
-<a id="ab4727c2e62837553180e1806a5f7ed1f" name="ab4727c2e62837553180e1806a5f7ed1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4727c2e62837553180e1806a5f7ed1f">&#9670;&#160;</a></span>dPds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::EigenStepperDenseExtension::dPds {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Derivatives dPds at each sub-step. </p>
-
-</div>
-</div>
-<a id="a41e98a298c8f5697c636e646d8ecfae2" name="a41e98a298c8f5697c636e646d8ecfae2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41e98a298c8f5697c636e646d8ecfae2">&#9670;&#160;</a></span>energy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::EigenStepperDenseExtension::energy {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Energy at each sub-step. </p>
-
-</div>
-</div>
-<a id="a963dc87e2b008ffbe01503d62652b02f" name="a963dc87e2b008ffbe01503d62652b02f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a963dc87e2b008ffbe01503d62652b02f">&#9670;&#160;</a></span>g</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::EigenStepperDenseExtension::g = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Derivative dEds at the initial point. </p>
-
-</div>
-</div>
-<a id="a95e4cccb41f8e8e2c6487f61e49f7a2b" name="a95e4cccb41f8e8e2c6487f61e49f7a2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e4cccb41f8e8e2c6487f61e49f7a2b">&#9670;&#160;</a></span>initialMomentum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::EigenStepperDenseExtension::initialMomentum = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Particles momentum at k1. </p>
-
-</div>
-</div>
-<a id="a376b15ea2637716ffff5efdc0ac93034" name="a376b15ea2637716ffff5efdc0ac93034"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a376b15ea2637716ffff5efdc0ac93034">&#9670;&#160;</a></span>Lambdappi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::EigenStepperDenseExtension::Lambdappi {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Lambda''_i. </p>
-
-</div>
-</div>
-<a id="a83926fe811cd9d2f4014b072318505a9" name="a83926fe811cd9d2f4014b072318505a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83926fe811cd9d2f4014b072318505a9">&#9670;&#160;</a></span>material</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_material.html">Material</a> Acts::EigenStepperDenseExtension::material = <a class="el" href="class_acts_1_1_material.html#aa01ba381497dcc08f853dc4a22df651d">Material::Vacuum</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Material that will be passed TODO : Might not be needed anymore. </p>
-
-</div>
-</div>
-<a id="a038a69c2d97b606342a3d296419c6805" name="a038a69c2d97b606342a3d296419c6805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a038a69c2d97b606342a3d296419c6805">&#9670;&#160;</a></span>qop</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::EigenStepperDenseExtension::qop {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>q/p at each sub-step </p>
-
-</div>
-</div>
-<a id="a0dd98b7820e272d385a6c2309ead40f6" name="a0dd98b7820e272d385a6c2309ead40f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dd98b7820e272d385a6c2309ead40f6">&#9670;&#160;</a></span>tKi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::EigenStepperDenseExtension::tKi {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>k_i equivalent for the time propagation </p>
 
 </div>
 </div>

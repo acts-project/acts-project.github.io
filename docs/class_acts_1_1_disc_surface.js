@@ -34,6 +34,5 @@ var class_acts_1_1_disc_surface =
     [ "referencePosition", "class_acts_1_1_disc_surface.html#a7430d52a00ea094843b2407a0cce2f6b", null ],
     [ "referencePositionValue", "class_acts_1_1_disc_surface.html#a0ce7ba07ce19eebe120bd1e487f4da58", null ],
     [ "type", "class_acts_1_1_disc_surface.html#a1ef89d27db93ac548d79b718340b780c", null ],
-    [ "Surface", "class_acts_1_1_disc_surface.html#a432070efb8401735ea64bc0e98feebe5", null ],
     [ "m_bounds", "class_acts_1_1_disc_surface.html#a005b93afb2575364a190dbb1637e752d", null ]
 ];

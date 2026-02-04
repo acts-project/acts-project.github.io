@@ -1,17 +1,17 @@
 var annotated_dup =
 [
     [ "Acts", "namespace_acts.html", [
-      [ "AngleHelpers", "namespace_acts_1_1_angle_helpers.html", [
+      [ "AngleHelpers", null, [
         [ "EtaThetaConversionTraits", "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html", null ],
         [ "EtaThetaConversionTraits&lt; double &gt;", "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html", "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4" ],
         [ "EtaThetaConversionTraits&lt; float &gt;", "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html", "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4" ]
       ] ],
-      [ "Ccl", "namespace_acts_1_1_ccl.html", [
+      [ "Ccl", null, [
         [ "ClusteringData", "struct_acts_1_1_ccl_1_1_clustering_data.html", "struct_acts_1_1_ccl_1_1_clustering_data" ],
         [ "Connect1D", "struct_acts_1_1_ccl_1_1_connect1_d.html", "struct_acts_1_1_ccl_1_1_connect1_d" ],
         [ "Connect2D", "struct_acts_1_1_ccl_1_1_connect2_d.html", "struct_acts_1_1_ccl_1_1_connect2_d" ],
         [ "DefaultConnect", "struct_acts_1_1_ccl_1_1_default_connect.html", null ],
-        [ "DefaultConnect&lt; Cell, 1 &gt;", "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_011_01_4.html", "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_011_01_4" ],
+        [ "DefaultConnect&lt; Cell, 1 &gt;", "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_011_01_4.html", null ],
         [ "DefaultConnect&lt; Cell, 2 &gt;", "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4.html", "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4" ],
         [ "DisjointSets", "class_acts_1_1_ccl_1_1_disjoint_sets.html", "class_acts_1_1_ccl_1_1_disjoint_sets" ],
         [ "TimedConnect", "struct_acts_1_1_ccl_1_1_timed_connect.html", "struct_acts_1_1_ccl_1_1_timed_connect" ]
@@ -57,16 +57,16 @@ var annotated_dup =
         [ "StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", "class_acts_1_1_experimental_1_1_static_blueprint_node" ],
         [ "TrigInDetSiLayer", "class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html", "class_acts_1_1_experimental_1_1_trig_in_det_si_layer" ]
       ] ],
-      [ "GraphViz", "namespace_acts_1_1_graph_viz.html", [
+      [ "GraphViz", null, [
         [ "Edge", "struct_acts_1_1_graph_viz_1_1_edge.html", "struct_acts_1_1_graph_viz_1_1_edge" ],
         [ "Node", "struct_acts_1_1_graph_viz_1_1_node.html", "struct_acts_1_1_graph_viz_1_1_node" ]
       ] ],
-      [ "GridAccess", "namespace_acts_1_1_grid_access.html", [
+      [ "GridAccess", null, [
         [ "Affine3Transformed", "class_acts_1_1_grid_access_1_1_affine3_transformed.html", "class_acts_1_1_grid_access_1_1_affine3_transformed" ],
         [ "BoundCylinderToZPhi", "class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi.html", "class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi" ],
         [ "GlobalSubspace", "class_acts_1_1_grid_access_1_1_global_subspace.html", "class_acts_1_1_grid_access_1_1_global_subspace" ],
-        [ "IBoundToGridLocal", "class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html", "class_acts_1_1_grid_access_1_1_i_bound_to_grid_local" ],
-        [ "IGlobalToGridLocal", "class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html", "class_acts_1_1_grid_access_1_1_i_global_to_grid_local" ],
+        [ "IBoundToGridLocal", "class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html", null ],
+        [ "IGlobalToGridLocal", "class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html", null ],
         [ "LocalSubspace", "class_acts_1_1_grid_access_1_1_local_subspace.html", "class_acts_1_1_grid_access_1_1_local_subspace" ]
       ] ],
       [ "GridAxisGenerators", "namespace_acts_1_1_grid_axis_generators.html", [
@@ -77,7 +77,7 @@ var annotated_dup =
         [ "VarEq", "struct_acts_1_1_grid_axis_generators_1_1_var_eq.html", "struct_acts_1_1_grid_axis_generators_1_1_var_eq" ],
         [ "VarVar", "struct_acts_1_1_grid_axis_generators_1_1_var_var.html", "struct_acts_1_1_grid_axis_generators_1_1_var_var" ]
       ] ],
-      [ "HoughTransformUtils", "namespace_acts_1_1_hough_transform_utils.html", [
+      [ "HoughTransformUtils", null, [
         [ "PeakFinders", "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html", [
           [ "IslandsAroundMax", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html", "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max" ],
           [ "IslandsAroundMaxConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config" ],
@@ -90,13 +90,13 @@ var annotated_dup =
         [ "HoughPlane", "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html", "class_acts_1_1_hough_transform_utils_1_1_hough_plane" ],
         [ "HoughPlaneConfig", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config" ]
       ] ],
-      [ "IndexGridNavigationJsonConverter", "namespace_acts_1_1_index_grid_navigation_json_converter.html", [
+      [ "IndexGridNavigationJsonConverter", null, [
         [ "Options", "struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html", "struct_acts_1_1_index_grid_navigation_json_converter_1_1_options" ]
       ] ],
-      [ "JsonSurfacesReader", "namespace_acts_1_1_json_surfaces_reader.html", [
+      [ "JsonSurfacesReader", null, [
         [ "Options", "struct_acts_1_1_json_surfaces_reader_1_1_options.html", "struct_acts_1_1_json_surfaces_reader_1_1_options" ]
       ] ],
-      [ "Logging", "namespace_acts_1_1_logging.html", [
+      [ "Logging", null, [
         [ "DefaultFilterPolicy", "class_acts_1_1_logging_1_1_default_filter_policy.html", "class_acts_1_1_logging_1_1_default_filter_policy" ],
         [ "DefaultPrintPolicy", "class_acts_1_1_logging_1_1_default_print_policy.html", "class_acts_1_1_logging_1_1_default_print_policy" ],
         [ "LevelOutputDecorator", "class_acts_1_1_logging_1_1_level_output_decorator.html", "class_acts_1_1_logging_1_1_level_output_decorator" ],
@@ -109,29 +109,29 @@ var annotated_dup =
         [ "ThresholdFailure", "class_acts_1_1_logging_1_1_threshold_failure.html", null ],
         [ "TimedOutputDecorator", "class_acts_1_1_logging_1_1_timed_output_decorator.html", "class_acts_1_1_logging_1_1_timed_output_decorator" ]
       ] ],
-      [ "MaterialInteractionAssignment", "namespace_acts_1_1_material_interaction_assignment.html", [
+      [ "MaterialInteractionAssignment", null, [
         [ "Options", "struct_acts_1_1_material_interaction_assignment_1_1_options.html", "struct_acts_1_1_material_interaction_assignment_1_1_options" ],
         [ "Result", "struct_acts_1_1_material_interaction_assignment_1_1_result.html", "struct_acts_1_1_material_interaction_assignment_1_1_result" ]
       ] ],
-      [ "MultiTrajectoryHelpers", "namespace_acts_1_1_multi_trajectory_helpers.html", [
+      [ "MultiTrajectoryHelpers", null, [
         [ "TrajectoryState", "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html", "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state" ]
       ] ],
-      [ "PortalJsonConverter", "namespace_acts_1_1_portal_json_converter.html", [
+      [ "PortalJsonConverter", null, [
         [ "Options", "struct_acts_1_1_portal_json_converter_1_1_options.html", "struct_acts_1_1_portal_json_converter_1_1_options" ]
       ] ],
-      [ "StripSpacePointBuilder", "namespace_acts_1_1_strip_space_point_builder.html", [
+      [ "StripSpacePointBuilder", null, [
         [ "ClusterPairingOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html", "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options" ],
         [ "ConstrainedOptions", "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html", "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options" ],
         [ "CosmicOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html", "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options" ],
         [ "StripEnds", "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html", "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends" ]
       ] ],
-      [ "SurfaceJsonConverter", "namespace_acts_1_1_surface_json_converter.html", [
+      [ "SurfaceJsonConverter", null, [
         [ "Options", "struct_acts_1_1_surface_json_converter_1_1_options.html", "struct_acts_1_1_surface_json_converter_1_1_options" ]
       ] ],
-      [ "Transform3JsonConverter", "namespace_acts_1_1_transform3_json_converter.html", [
+      [ "Transform3JsonConverter", null, [
         [ "Options", "struct_acts_1_1_transform3_json_converter_1_1_options.html", "struct_acts_1_1_transform3_json_converter_1_1_options" ]
       ] ],
-      [ "Types", "namespace_acts_1_1_types.html", [
+      [ "Types", null, [
         [ "apply", "struct_acts_1_1_types_1_1apply.html", null ],
         [ "apply&lt; F, TypeList&lt; Ts... &gt; &gt;", "struct_acts_1_1_types_1_1apply_3_01_f_00_01_type_list_3_01_ts_8_8_8_01_4_01_4.html", "struct_acts_1_1_types_1_1apply_3_01_f_00_01_type_list_3_01_ts_8_8_8_01_4_01_4" ],
         [ "count", "struct_acts_1_1_types_1_1count.html", null ],
@@ -245,7 +245,7 @@ var annotated_dup =
       [ "DBScan", "class_acts_1_1_d_b_scan.html", "class_acts_1_1_d_b_scan" ],
       [ "Delegate", "class_acts_1_1_delegate.html", null ],
       [ "Delegate&lt; R(Args...), H, O &gt;", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4" ],
-      [ "DelegateFuncTag", "struct_acts_1_1_delegate_func_tag.html", "struct_acts_1_1_delegate_func_tag" ],
+      [ "DelegateFuncTag", "struct_acts_1_1_delegate_func_tag.html", null ],
       [ "DetectorElementBase", "class_acts_1_1_detector_element_base.html", "class_acts_1_1_detector_element_base" ],
       [ "DiamondBounds", "class_acts_1_1_diamond_bounds.html", "class_acts_1_1_diamond_bounds" ],
       [ "DiamondPortalShell", "class_acts_1_1_diamond_portal_shell.html", "class_acts_1_1_diamond_portal_shell" ],
@@ -276,7 +276,7 @@ var annotated_dup =
       [ "ExtentEnvelope", "struct_acts_1_1_extent_envelope.html", "struct_acts_1_1_extent_envelope" ],
       [ "FiniteStateMachine", "class_acts_1_1_finite_state_machine.html", "class_acts_1_1_finite_state_machine" ],
       [ "FixedSubspaceHelper", "class_acts_1_1_fixed_subspace_helper.html", "class_acts_1_1_fixed_subspace_helper" ],
-      [ "ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", "struct_acts_1_1_forced_surface_reached" ],
+      [ "ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", null ],
       [ "Frustum", "class_acts_1_1_frustum.html", "class_acts_1_1_frustum" ],
       [ "FsmwMode1dFinder", "class_acts_1_1_fsmw_mode1d_finder.html", "class_acts_1_1_fsmw_mode1d_finder" ],
       [ "FullBilloirVertexFitter", "class_acts_1_1_full_billoir_vertex_fitter.html", "class_acts_1_1_full_billoir_vertex_fitter" ],
@@ -323,7 +323,7 @@ var annotated_dup =
       [ "IConfinedTrackingVolumeBuilder", "class_acts_1_1_i_confined_tracking_volume_builder.html", "class_acts_1_1_i_confined_tracking_volume_builder" ],
       [ "IExperimentCuts", "class_acts_1_1_i_experiment_cuts.html", "class_acts_1_1_i_experiment_cuts" ],
       [ "IGrid", "class_acts_1_1_i_grid.html", "class_acts_1_1_i_grid" ],
-      [ "IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", "struct_acts_1_1_i_grid_material_accessor" ],
+      [ "IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", null ],
       [ "IGridSurfaceMaterial", "class_acts_1_1_i_grid_surface_material.html", "class_acts_1_1_i_grid_surface_material" ],
       [ "IGridSurfaceMaterialBase", "class_acts_1_1_i_grid_surface_material_base.html", null ],
       [ "ILayerArrayCreator", "class_acts_1_1_i_layer_array_creator.html", "class_acts_1_1_i_layer_array_creator" ],
@@ -604,7 +604,7 @@ var annotated_dup =
       [ "ZScanVertexFinder", "class_acts_1_1_z_scan_vertex_finder.html", "class_acts_1_1_z_scan_vertex_finder" ]
     ] ],
     [ "ActsFatras", "namespace_acts_fatras.html", [
-      [ "Casts", "namespace_acts_fatras_1_1_casts.html", [
+      [ "Casts", null, [
         [ "AbsEta", "struct_acts_fatras_1_1_casts_1_1_abs_eta.html", "struct_acts_fatras_1_1_casts_1_1_abs_eta" ],
         [ "AbsVz", "struct_acts_fatras_1_1_casts_1_1_abs_vz.html", "struct_acts_fatras_1_1_casts_1_1_abs_vz" ],
         [ "E", "struct_acts_fatras_1_1_casts_1_1_e.html", "struct_acts_fatras_1_1_casts_1_1_e" ],
@@ -654,46 +654,46 @@ var annotated_dup =
       [ "SingleParticleSimulation", "struct_acts_fatras_1_1_single_particle_simulation.html", "struct_acts_fatras_1_1_single_particle_simulation" ]
     ] ],
     [ "ActsPlugins", "namespace_acts_plugins.html", [
-      [ "DetrayConversionUtils", "namespace_acts_plugins_1_1_detray_conversion_utils.html", [
+      [ "DetrayConversionUtils", null, [
         [ "Cache", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache" ]
       ] ],
-      [ "EDM4hepUtil", "namespace_acts_plugins_1_1_e_d_m4hep_util.html", [
+      [ "EDM4hepUtil", null, [
         [ "SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association" ]
       ] ],
-      [ "FastJet", "namespace_acts_plugins_1_1_fast_jet.html", [
+      [ "FastJet", null, [
         [ "Jet", "class_acts_plugins_1_1_fast_jet_1_1_jet.html", "class_acts_plugins_1_1_fast_jet_1_1_jet" ],
         [ "TrackJet", "class_acts_plugins_1_1_fast_jet_1_1_track_jet.html", "class_acts_plugins_1_1_fast_jet_1_1_track_jet" ],
         [ "TruthJet", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet" ]
       ] ],
-      [ "Geant4PhysicalVolumeSelectors", "namespace_acts_plugins_1_1_geant4_physical_volume_selectors.html", [
+      [ "Geant4PhysicalVolumeSelectors", null, [
         [ "AllSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector" ],
         [ "NameSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector" ],
         [ "PositionSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector" ]
       ] ],
-      [ "PodioUtil", "namespace_acts_plugins_1_1_podio_util.html", [
+      [ "PodioUtil", null, [
         [ "ConversionHelper", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper" ]
       ] ],
-      [ "Svg", "namespace_acts_plugins_1_1_svg.html", [
-        [ "GridConverter", "namespace_acts_plugins_1_1_svg_1_1_grid_converter.html", [
+      [ "Svg", null, [
+        [ "GridConverter", null, [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options" ]
         ] ],
-        [ "IndexedSurfacesConverter", "namespace_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter.html", [
+        [ "IndexedSurfacesConverter", null, [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter_1_1_options" ]
         ] ],
-        [ "LayerConverter", "namespace_acts_plugins_1_1_svg_1_1_layer_converter.html", [
+        [ "LayerConverter", null, [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options" ]
         ] ],
         [ "SurfaceArrayConverter", "namespace_acts_plugins_1_1_svg_1_1_surface_array_converter.html", [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options" ]
         ] ],
-        [ "SurfaceConverter", "namespace_acts_plugins_1_1_svg_1_1_surface_converter.html", [
+        [ "SurfaceConverter", null, [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_surface_converter_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_surface_converter_1_1_options" ]
         ] ],
-        [ "TrackingGeometryConverter", "namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_converter.html", [
+        [ "TrackingGeometryConverter", null, [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options" ],
           [ "State", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state" ]
         ] ],
-        [ "TrackingGeometryProjections", "namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_projections.html", [
+        [ "TrackingGeometryProjections", null, [
           [ "Options", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options" ]
         ] ],
         [ "Style", "struct_acts_plugins_1_1_svg_1_1_style.html", "struct_acts_plugins_1_1_svg_1_1_style" ]

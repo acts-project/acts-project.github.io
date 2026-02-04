@@ -140,8 +140,9 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a94bb306e7da8c4ba40591392cc522501" id="r_a94bb306e7da8c4ba40591392cc522501"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94bb306e7da8c4ba40591392cc522501">IntersectionLookup</a></td></tr>
 <tr class="memdesc:a94bb306e7da8c4ba40591392cc522501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to find the intersections for the given pivot source link.  <br /></td></tr>
-<tr class="memitem:a4a0f57aa917c736843c941b92ba76537" id="r_a4a0f57aa917c736843c941b92ba76537"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a0f57aa917c736843c941b92ba76537">PathSeed</a> = std::pair&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, std::vector&lt;<a class="el" href="class_acts_1_1_source_link.html">SourceLink</a>&gt;&gt;</td></tr>
-<tr class="memdesc:a4a0f57aa917c736843c941b92ba76537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for path seed consisting of track parameters and source links.  <br /></td></tr>
+<tr class="memitem:a4a0f57aa917c736843c941b92ba76537" id="r_a4a0f57aa917c736843c941b92ba76537"><td class="memItemLeft" align="right" valign="top"><a id="a4a0f57aa917c736843c941b92ba76537" name="a4a0f57aa917c736843c941b92ba76537"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>PathSeed</b> = std::pair&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, std::vector&lt;<a class="el" href="class_acts_1_1_source_link.html">SourceLink</a>&gt;&gt;</td></tr>
+<tr class="memdesc:a4a0f57aa917c736843c941b92ba76537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for path seed consisting of track parameters and source links. <br /></td></tr>
 <tr class="memitem:ad87ff6fb84e0ddc9fa3611cc1a4cb46d" id="r_ad87ff6fb84e0ddc9fa3611cc1a4cb46d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad87ff6fb84e0ddc9fa3611cc1a4cb46d">PathWidthLookup</a></td></tr>
 <tr class="memdesc:ad87ff6fb84e0ddc9fa3611cc1a4cb46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to provide the path width around the intersection point to pull the source links from the grid.  <br /></td></tr>
 <tr class="memitem:ab8ebb2b99b0c02b09125e37faceaac0e" id="r_ab8ebb2b99b0c02b09125e37faceaac0e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8ebb2b99b0c02b09125e37faceaac0e">TrackEstimator</a></td></tr>
@@ -151,8 +152,9 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae6892c0895bb6c738977caf6b10903c6" id="r_ae6892c0895bb6c738977caf6b10903c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6892c0895bb6c738977caf6b10903c6">PathSeeder</a> (const <a class="el" href="struct_acts_1_1_path_seeder_1_1_config.html">Config</a> &amp;config)</td></tr>
 <tr class="memdesc:ae6892c0895bb6c738977caf6b10903c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a3f3705570ec5284c1bd0645cb7f5738a" id="r_a3f3705570ec5284c1bd0645cb7f5738a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f3705570ec5284c1bd0645cb7f5738a">~PathSeeder</a> ()=default</td></tr>
-<tr class="memdesc:a3f3705570ec5284c1bd0645cb7f5738a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="memitem:a3f3705570ec5284c1bd0645cb7f5738a" id="r_a3f3705570ec5284c1bd0645cb7f5738a"><td class="memItemLeft" align="right" valign="top"><a id="a3f3705570ec5284c1bd0645cb7f5738a" name="a3f3705570ec5284c1bd0645cb7f5738a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~PathSeeder</b> ()=default</td></tr>
+<tr class="memdesc:a3f3705570ec5284c1bd0645cb7f5738a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:ad0b06422e3ec616daf97ba79267fce9d" id="r_ad0b06422e3ec616daf97ba79267fce9d"><td class="memTemplParams" colspan="2">template&lt;Acts::detail::SourceLinkGrid grid_t, typename container_t&gt; </td></tr>
 <tr class="memitem:ad0b06422e3ec616daf97ba79267fce9d template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0b06422e3ec616daf97ba79267fce9d">findSeeds</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::unordered_map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, grid_t &gt; &amp;sourceLinkGridLookup, container_t &amp;seedCollection) const</td></tr>
 <tr class="memdesc:ad0b06422e3ec616daf97ba79267fce9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the IP parameters and sort the source links into the seeds.  <br /></td></tr>
@@ -184,7 +186,7 @@ Handling of the rotated surfaces has to happen in the user-defined delegate func
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate&lt;std::vector&lt;std::pair&lt;GeometryIdentifier, Vector2&gt;</a>&gt;(</div>
 <div class="line">          <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>&amp;)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:29</div></div>
+<div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="anamespace_acts_html_ad836aba005ba272c0a77227311e4a0ce"><div class="ttname"><a href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">Acts::BoundTrackParameters</a></div><div class="ttdeci">GenericBoundTrackParameters&lt; ParticleHypothesis &gt; BoundTrackParameters</div><div class="ttdoc">BoundTrackParameters can hold any kind of charge.</div><div class="ttdef"><b>Definition</b> TrackParameters.hpp:34</div></div>
 </div><!-- fragment -->
@@ -194,22 +196,6 @@ Handling of the rotated surfaces has to happen in the user-defined delegate func
 <li>Track parameters at the reference tracking layer</li>
 </ul>
 <dl class="section return"><dt>Returns</dt><dd>Vector of pairs of the geometry identifier and the local intersection point </dd></dl>
-
-</div>
-</div>
-<a id="a4a0f57aa917c736843c941b92ba76537" name="a4a0f57aa917c736843c941b92ba76537"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a0f57aa917c736843c941b92ba76537">&#9670;&#160;</a></span>PathSeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a4a0f57aa917c736843c941b92ba76537">Acts::PathSeeder::PathSeed</a> = std::pair&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, std::vector&lt;<a class="el" href="class_acts_1_1_source_link.html">SourceLink</a>&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for path seed consisting of track parameters and source links. </p>
 
 </div>
 </div>
@@ -251,7 +237,7 @@ Handling of the rotated surfaces has to happen in the user-defined delegate func
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate&lt;std::pair&lt;BoundTrackParameters, BoundTrackParameters&gt;</a>(</div>
 <div class="line">          <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_source_link.html">SourceLink</a>&amp;)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Type-erased source link wrapper.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
 </div><!-- fragment -->
 <p>Delegate to estimate the IP parameters and the momentum direction at the reference tracking layer. </p>
 <ul>
@@ -293,33 +279,6 @@ Handling of the rotated surfaces has to happen in the user-defined delegate func
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a3f3705570ec5284c1bd0645cb7f5738a" name="a3f3705570ec5284c1bd0645cb7f5738a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f3705570ec5284c1bd0645cb7f5738a">&#9670;&#160;</a></span>~PathSeeder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::PathSeeder::~PathSeeder </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
 
 </div>
 </div>

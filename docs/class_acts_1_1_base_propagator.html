@@ -138,62 +138,19 @@ Inheritance diagram for Acts::BasePropagator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa1e769ef9385069a60ce1ff87ae6d8d9" id="r_aa1e769ef9385069a60ce1ff87ae6d8d9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e769ef9385069a60ce1ff87ae6d8d9">Options</a> = <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a></td></tr>
-<tr class="memdesc:aa1e769ef9385069a60ce1ff87ae6d8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base propagator options.  <br /></td></tr>
+<tr class="memitem:aa1e769ef9385069a60ce1ff87ae6d8d9" id="r_aa1e769ef9385069a60ce1ff87ae6d8d9"><td class="memItemLeft" align="right" valign="top"><a id="aa1e769ef9385069a60ce1ff87ae6d8d9" name="aa1e769ef9385069a60ce1ff87ae6d8d9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Options</b> = <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a></td></tr>
+<tr class="memdesc:aa1e769ef9385069a60ce1ff87ae6d8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base propagator options. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5b7b41897009727bd81e37e52345511a" id="r_a5b7b41897009727bd81e37e52345511a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b7b41897009727bd81e37e52345511a">~BasePropagator</a> ()=default</td></tr>
 <tr class="memitem:a82cf549cbfb0e403072b9d19e69df68e" id="r_a82cf549cbfb0e403072b9d19e69df68e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82cf549cbfb0e403072b9d19e69df68e">propagateToSurface</a> (const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;start, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;target, const <a class="el" href="#aa1e769ef9385069a60ce1ff87ae6d8d9">Options</a> &amp;options) const =0</td></tr>
 <tr class="memdesc:a82cf549cbfb0e403072b9d19e69df68e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to propagate start bound track parameters to a target surface.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Common simplified base interface for propagators. </p>
 <p>This class only supports propagation from start bound parameters to a target surface and returns only the end bound parameters. Navigation is performed if the underlying propagator is configured with an appropriate navigator. No custom actors or aborters are supported. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aa1e769ef9385069a60ce1ff87ae6d8d9" name="aa1e769ef9385069a60ce1ff87ae6d8d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1e769ef9385069a60ce1ff87ae6d8d9">&#9670;&#160;</a></span>Options</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aa1e769ef9385069a60ce1ff87ae6d8d9">Acts::BasePropagator::Options</a> = <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Base propagator options. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5b7b41897009727bd81e37e52345511a" name="a5b7b41897009727bd81e37e52345511a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b7b41897009727bd81e37e52345511a">&#9670;&#160;</a></span>~BasePropagator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::BasePropagator::~BasePropagator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a82cf549cbfb0e403072b9d19e69df68e" name="a82cf549cbfb0e403072b9d19e69df68e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82cf549cbfb0e403072b9d19e69df68e">&#9670;&#160;</a></span>propagateToSurface()</h2>
 

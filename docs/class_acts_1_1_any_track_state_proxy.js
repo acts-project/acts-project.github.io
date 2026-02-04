@@ -85,7 +85,5 @@ var class_acts_1_1_any_track_state_proxy =
     [ "typeFlags", "class_acts_1_1_any_track_state_proxy.html#a85b6b3c9817e220f957ff0bb87f9d42b", null ],
     [ "typeFlags", "class_acts_1_1_any_track_state_proxy.html#a6e231b2a4fe98d90f1f88e659daa2cd3", null ],
     [ "unset", "class_acts_1_1_any_track_state_proxy.html#a492b95ce2123211cc3ad06ab45502579", null ],
-    [ "AnyTrackStateProxy", "class_acts_1_1_any_track_state_proxy.html#a13ac8d7d4ac582d960c9902937e8bad8", null ],
-    [ "TrackStateProxyCommon< AnyTrackStateProxy< read_only >, read_only >", "class_acts_1_1_any_track_state_proxy.html#a77a421e4ca79ed6c34a9c500099b5b1f", null ],
     [ "ReadOnly", "class_acts_1_1_any_track_state_proxy.html#aa1dc782070566edea98fcc21352d2490", null ]
 ];

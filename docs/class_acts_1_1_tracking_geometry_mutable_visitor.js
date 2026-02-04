@@ -1,6 +1,5 @@
 var class_acts_1_1_tracking_geometry_mutable_visitor =
 [
-    [ "~TrackingGeometryMutableVisitor", "class_acts_1_1_tracking_geometry_mutable_visitor.html#a6b7954cfa9e37427608161d7c426e228", null ],
     [ "ITrackingGeometryVisitor", "class_acts_1_1_tracking_geometry_mutable_visitor.html#aa3f5affba00725386cbc344fdaad4c28", null ],
     [ "visitBoundarySurface", "class_acts_1_1_tracking_geometry_mutable_visitor.html#a0a9c5616e88d9c3bf3a49642d21b8f0d", null ],
     [ "visitLayer", "class_acts_1_1_tracking_geometry_mutable_visitor.html#a23abd9540954aafa7590b9b6abf8f935", null ],

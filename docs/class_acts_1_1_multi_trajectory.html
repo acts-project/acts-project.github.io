@@ -140,10 +140,12 @@ Inheritance diagram for Acts::MultiTrajectory&lt; derived_t &gt;:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:aa515e9bdd41bd33a4561e4e28a2f6d7d" id="r_aa515e9bdd41bd33a4561e4e28a2f6d7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa515e9bdd41bd33a4561e4e28a2f6d7d">ConstTrackStateProxy</a></td></tr>
 <tr class="memdesc:aa515e9bdd41bd33a4561e4e28a2f6d7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the const version of a track state proxy, with the same backends as this container.  <br /></td></tr>
-<tr class="memitem:aa8a4caeade42be932d877b47df74a46b" id="r_aa8a4caeade42be932d877b47df74a46b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8a4caeade42be932d877b47df74a46b">Derived</a> = derived_t</td></tr>
-<tr class="memdesc:aa8a4caeade42be932d877b47df74a46b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for derived multi-trajectory implementation.  <br /></td></tr>
-<tr class="memitem:acc2f7cfa1ead74d814c27442d2a5cca6" id="r_acc2f7cfa1ead74d814c27442d2a5cca6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td></tr>
-<tr class="memdesc:acc2f7cfa1ead74d814c27442d2a5cca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index type of the track state container.  <br /></td></tr>
+<tr class="memitem:aa8a4caeade42be932d877b47df74a46b" id="r_aa8a4caeade42be932d877b47df74a46b"><td class="memItemLeft" align="right" valign="top"><a id="aa8a4caeade42be932d877b47df74a46b" name="aa8a4caeade42be932d877b47df74a46b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Derived</b> = derived_t</td></tr>
+<tr class="memdesc:aa8a4caeade42be932d877b47df74a46b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for derived multi-trajectory implementation. <br /></td></tr>
+<tr class="memitem:acc2f7cfa1ead74d814c27442d2a5cca6" id="r_acc2f7cfa1ead74d814c27442d2a5cca6"><td class="memItemLeft" align="right" valign="top"><a id="acc2f7cfa1ead74d814c27442d2a5cca6" name="acc2f7cfa1ead74d814c27442d2a5cca6"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b> = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td></tr>
+<tr class="memdesc:acc2f7cfa1ead74d814c27442d2a5cca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index type of the track state container. <br /></td></tr>
 <tr class="memitem:a0b475cc7c3a072cfd2c10218b270ac73" id="r_a0b475cc7c3a072cfd2c10218b270ac73"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a></td></tr>
 <tr class="memdesc:a0b475cc7c3a072cfd2c10218b270ac73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the mutable version of a track state proxy, with the same backends as this container.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -160,9 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abc713a2c967f1ee42e06ce8b3f0d3dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a read-only point on the trajectory by index.  <br /></td></tr>
 <tr class="memitem:a9c31316cb66b5899c197dd123c12279e" id="r_a9c31316cb66b5899c197dd123c12279e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c31316cb66b5899c197dd123c12279e">getTrackState</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate)</td></tr>
 <tr class="memdesc:a9c31316cb66b5899c197dd123c12279e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a writable point on the trajectory by index.  <br /></td></tr>
-<tr class="memitem:ae9864201c83f722389efccf4283e42a1" id="r_ae9864201c83f722389efccf4283e42a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9864201c83f722389efccf4283e42a1">addTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a>, <a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
+<tr class="memitem:ae9864201c83f722389efccf4283e42a1" id="r_ae9864201c83f722389efccf4283e42a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9864201c83f722389efccf4283e42a1">addTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=TrackStatePropMask::All, <a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
 <tr class="memdesc:ae9864201c83f722389efccf4283e42a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a track state without providing explicit information.  <br /></td></tr>
-<tr class="memitem:a500a86f3f804e0985ef6507d96fcb607" id="r_a500a86f3f804e0985ef6507d96fcb607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a500a86f3f804e0985ef6507d96fcb607">makeTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a>, <a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
+<tr class="memitem:a500a86f3f804e0985ef6507d96fcb607" id="r_a500a86f3f804e0985ef6507d96fcb607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a500a86f3f804e0985ef6507d96fcb607">makeTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=TrackStatePropMask::All, <a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
 <tr class="memdesc:a500a86f3f804e0985ef6507d96fcb607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a track state to the container and return a track state proxy to it This effectively calls <code>addTrackState</code> and <code>getTrackState</code>.  <br /></td></tr>
 <tr id="pub-methods-1" class="groupHeader"><td colspan="2"><div class="groupHeader">MultiTrajectory track state iteration</div></td></tr>
 <tr><td colspan="2" class="ititle"><div class="groupText"><p><a class="anchor" id="track_state_container_iteration"></a></p>
@@ -196,16 +198,18 @@ requires (!<a class="el" href="#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a>)
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ae1036a6cfdbc58713c185e401a84db33" id="r_ae1036a6cfdbc58713c185e401a84db33"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
-<tr class="memdesc:ae1036a6cfdbc58713c185e401a84db33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value that indicates an invalid index.  <br /></td></tr>
-<tr class="memitem:a8dff0884defdebb87e4d53568335b3bc" id="r_a8dff0884defdebb87e4d53568335b3bc"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dff0884defdebb87e4d53568335b3bc">MeasurementSizeMax</a> = <a class="el" href="namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4">kMeasurementSizeMax</a></td></tr>
-<tr class="memdesc:a8dff0884defdebb87e4d53568335b3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of measurement dimensions supported by this trajectory.  <br /></td></tr>
-<tr class="memitem:ace27a3f5a1b1b0709ed834528529a9e7" id="r_ace27a3f5a1b1b0709ed834528529a9e7"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a> = <a class="el" href="struct_acts_1_1_is_read_only_multi_trajectory.html">IsReadOnlyMultiTrajectory</a>&lt;<a class="el" href="#aa8a4caeade42be932d877b47df74a46b">Derived</a>&gt;::value</td></tr>
-<tr class="memdesc:ace27a3f5a1b1b0709ed834528529a9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether this multi-trajectory is read-only.  <br /></td></tr>
+<tr class="memitem:ae1036a6cfdbc58713c185e401a84db33" id="r_ae1036a6cfdbc58713c185e401a84db33"><td class="memItemLeft" align="right" valign="top"><a id="ae1036a6cfdbc58713c185e401a84db33" name="ae1036a6cfdbc58713c185e401a84db33"></a>
+static constexpr <a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kInvalid</b> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
+<tr class="memdesc:ae1036a6cfdbc58713c185e401a84db33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value that indicates an invalid index. <br /></td></tr>
+<tr class="memitem:a8dff0884defdebb87e4d53568335b3bc" id="r_a8dff0884defdebb87e4d53568335b3bc"><td class="memItemLeft" align="right" valign="top"><a id="a8dff0884defdebb87e4d53568335b3bc" name="a8dff0884defdebb87e4d53568335b3bc"></a>
+static constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>MeasurementSizeMax</b> = <a class="el" href="namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4">kMeasurementSizeMax</a></td></tr>
+<tr class="memdesc:a8dff0884defdebb87e4d53568335b3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of measurement dimensions supported by this trajectory. <br /></td></tr>
+<tr class="memitem:ace27a3f5a1b1b0709ed834528529a9e7" id="r_ace27a3f5a1b1b0709ed834528529a9e7"><td class="memItemLeft" align="right" valign="top"><a id="ace27a3f5a1b1b0709ed834528529a9e7" name="ace27a3f5a1b1b0709ed834528529a9e7"></a>
+static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadOnly</b> = <a class="el" href="struct_acts_1_1_is_read_only_multi_trajectory.html">IsReadOnlyMultiTrajectory</a>&lt;<a class="el" href="#aa8a4caeade42be932d877b47df74a46b">Derived</a>&gt;::value</td></tr>
+<tr class="memdesc:ace27a3f5a1b1b0709ed834528529a9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether this multi-trajectory is read-only. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a57f0068d3ab739f020b85225fa8ba562" id="r_a57f0068d3ab739f020b85225fa8ba562"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57f0068d3ab739f020b85225fa8ba562">MultiTrajectory</a> ()=default</td></tr>
 <tr class="memitem:a17531c73a186a75d283ae33c2475afe3" id="r_a17531c73a186a75d283ae33c2475afe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17531c73a186a75d283ae33c2475afe3">addTrackStateComponents</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate, <a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask)</td></tr>
 <tr class="memdesc:a17531c73a186a75d283ae33c2475afe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add additional components to an existing track state.  <br /></td></tr>
 <tr class="memitem:a6ac8af65f921dbd9974a50ece86c0616" id="r_a6ac8af65f921dbd9974a50ece86c0616"><td class="memTemplParams" colspan="2">template&lt;std::size_t measdim, typename val_t, typename cov_t&gt; </td></tr>
@@ -244,7 +248,9 @@ requires (!<a class="el" href="#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a>)
 <tr class="memitem:a61efd11a9070694acfec77bd245051d7 template"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61efd11a9070694acfec77bd245051d7">component</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
 <tr class="memdesc:a61efd11a9070694acfec77bd245051d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a const reference to a component.  <br /></td></tr>
 <tr class="memitem:ad227167906f8b8250e599eb5c7813849" id="r_ad227167906f8b8250e599eb5c7813849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a0fb668c32599042bdb52cfa0db146ddb">TrackStateProxy::Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad227167906f8b8250e599eb5c7813849">covariance</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> covIdx)</td></tr>
+<tr class="memdesc:ad227167906f8b8250e599eb5c7813849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get covariance for a track state.  <br /></td></tr>
 <tr class="memitem:a1dfe20e2fa5b92e0d883613fe93ac087" id="r_a1dfe20e2fa5b92e0d883613fe93ac087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a04aa68f896e3a74cfc505a953867aa70">ConstTrackStateProxy::ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dfe20e2fa5b92e0d883613fe93ac087">covariance</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> covIdx) const</td></tr>
+<tr class="memdesc:a1dfe20e2fa5b92e0d883613fe93ac087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get covariance for a track state (const).  <br /></td></tr>
 <tr class="memitem:a08aaad4bba4d2f8739cb4e984f95e8f8" id="r_a08aaad4bba4d2f8739cb4e984f95e8f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#abb5a22a568840d5db0b57015c3cdf96a">TrackStateProxy::EffectiveCalibrated</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08aaad4bba4d2f8739cb4e984f95e8f8">effectiveCalibrated</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate)</td></tr>
 <tr class="memdesc:a08aaad4bba4d2f8739cb4e984f95e8f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a calibrated measurement covariance proxy instance for a measurement at a given index.  <br /></td></tr>
 <tr class="memitem:a77f15c41bcd75a8f51b8fe6927e4f5f0" id="r_a77f15c41bcd75a8f51b8fe6927e4f5f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#abb5a22a568840d5db0b57015c3cdf96a">ConstTrackStateProxy::EffectiveCalibrated</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f15c41bcd75a8f51b8fe6927e4f5f0">effectiveCalibrated</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
@@ -265,7 +271,9 @@ requires (!<a class="el" href="#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a>)
 <tr class="memitem:ad17b6d374a6555b2bb8ab8c67d605669" id="r_ad17b6d374a6555b2bb8ab8c67d605669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a3b1a94121abb954a002a593bd61ef840">ConstTrackStateProxy::ConstJacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad17b6d374a6555b2bb8ab8c67d605669">jacobian</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
 <tr class="memdesc:ad17b6d374a6555b2bb8ab8c67d605669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a jacobian proxy instance for a jacobian at a given index.  <br /></td></tr>
 <tr class="memitem:adb4c3f01a00ecc7503cb56debc57abbc" id="r_adb4c3f01a00ecc7503cb56debc57abbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#ac11c999ddcc05da568b3a67de7f9dfe3">TrackStateProxy::Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4c3f01a00ecc7503cb56debc57abbc">parameters</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> parIdx)</td></tr>
+<tr class="memdesc:adb4c3f01a00ecc7503cb56debc57abbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameters for a track state.  <br /></td></tr>
 <tr class="memitem:a3c96beceef51d553050aceb09e2e7133" id="r_a3c96beceef51d553050aceb09e2e7133"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#aeccd8d3a35af248c909696973307e1e8">ConstTrackStateProxy::ConstParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c96beceef51d553050aceb09e2e7133">parameters</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> parIdx) const</td></tr>
+<tr class="memdesc:a3c96beceef51d553050aceb09e2e7133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameters for a track state (const).  <br /></td></tr>
 <tr class="memitem:a3532d5e68a9aa3b10ee8c9dfe7d54af8" id="r_a3532d5e68a9aa3b10ee8c9dfe7d54af8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3532d5e68a9aa3b10ee8c9dfe7d54af8">referenceSurface</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
 <tr class="memdesc:a3532d5e68a9aa3b10ee8c9dfe7d54af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reference surface for a track state.  <br /></td></tr>
 <tr class="memitem:adec346393427a38cde215547b9a4697b" id="r_adec346393427a38cde215547b9a4697b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec346393427a38cde215547b9a4697b">setReferenceSurface</a> (<a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; surface)</td></tr>
@@ -297,45 +305,9 @@ template&lt;typename derived_t&gt; </div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy&lt;Derived, MeasurementSizeMax, true&gt;</a></div>
-<div class="ttc" id="aclass_acts_1_1_track_state_proxy_html"><div class="ttname"><a href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a></div><div class="ttdoc">Proxy object to access a single point on the trajectory.</div><div class="ttdef"><b>Definition</b> TrackStateProxy.hpp:89</div></div>
+<div class="ttc" id="aclass_acts_1_1_track_state_proxy_html"><div class="ttname"><a href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a></div><div class="ttdoc">Proxy object to access a single point on the trajectory.</div><div class="ttdef"><b>Definition</b> TrackStateProxy.hpp:91</div></div>
 </div><!-- fragment -->
 <p>Alias for the const version of a track state proxy, with the same backends as this container. </p>
-
-</div>
-</div>
-<a id="aa8a4caeade42be932d877b47df74a46b" name="aa8a4caeade42be932d877b47df74a46b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a4caeade42be932d877b47df74a46b">&#9670;&#160;</a></span>Derived</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename derived_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::Derived = derived_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for derived multi-trajectory implementation. </p>
-
-</div>
-</div>
-<a id="acc2f7cfa1ead74d814c27442d2a5cca6" name="acc2f7cfa1ead74d814c27442d2a5cca6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc2f7cfa1ead74d814c27442d2a5cca6">&#9670;&#160;</a></span>IndexType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename derived_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::IndexType = <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The index type of the track state container. </p>
 
 </div>
 </div>
@@ -356,34 +328,6 @@ template&lt;typename derived_t&gt; </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy&lt;Derived, MeasurementSizeMax, false&gt;</a></div>
 </div><!-- fragment -->
 <p>Alias for the mutable version of a track state proxy, with the same backends as this container. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a57f0068d3ab739f020b85225fa8ba562" name="a57f0068d3ab739f020b85225fa8ba562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57f0068d3ab739f020b85225fa8ba562">&#9670;&#160;</a></span>MultiTrajectory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename derived_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::MultiTrajectory </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -438,7 +382,7 @@ template&lt;typename derived_t&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::addTrackState </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">TrackStatePropMask::All</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1081,6 +1025,15 @@ template&lt;typename derived_t&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Get covariance for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">covIdx</td><td>The covariance index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Covariance matrix </dd></dl>
+
 </div>
 </div>
 <a id="a1dfe20e2fa5b92e0d883613fe93ac087" name="a1dfe20e2fa5b92e0d883613fe93ac087"></a>
@@ -1107,6 +1060,15 @@ template&lt;typename derived_t&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get covariance for a track state (const). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">covIdx</td><td>The covariance index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const covariance matrix </dd></dl>
 
 </div>
 </div>
@@ -1602,7 +1564,7 @@ template&lt;typename derived_t&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a> <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::makeTrackState </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">TrackStatePropMask::All</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1650,6 +1612,15 @@ template&lt;typename derived_t&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Get parameters for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parIdx</td><td>The parameter index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Parameters vector </dd></dl>
+
 </div>
 </div>
 <a id="a3c96beceef51d553050aceb09e2e7133" name="a3c96beceef51d553050aceb09e2e7133"></a>
@@ -1676,6 +1647,15 @@ template&lt;typename derived_t&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get parameters for a track state (const). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parIdx</td><td>The parameter index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const parameters vector </dd></dl>
 
 </div>
 </div>
@@ -2003,85 +1983,6 @@ requires detail_lt::VisitorConcept&lt;F, <a class="el" href="#aa515e9bdd41bd33a4
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ae1036a6cfdbc58713c185e401a84db33" name="ae1036a6cfdbc58713c185e401a84db33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1036a6cfdbc58713c185e401a84db33">&#9670;&#160;</a></span>kInvalid</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename derived_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::kInvalid = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sentinel value that indicates an invalid index. </p>
-
-</div>
-</div>
-<a id="a8dff0884defdebb87e4d53568335b3bc" name="a8dff0884defdebb87e4d53568335b3bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dff0884defdebb87e4d53568335b3bc">&#9670;&#160;</a></span>MeasurementSizeMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename derived_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::MeasurementSizeMax = <a class="el" href="namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4">kMeasurementSizeMax</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Maximum number of measurement dimensions supported by this trajectory. </p>
-
-</div>
-</div>
-<a id="ace27a3f5a1b1b0709ed834528529a9e7" name="ace27a3f5a1b1b0709ed834528529a9e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace27a3f5a1b1b0709ed834528529a9e7">&#9670;&#160;</a></span>ReadOnly</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename derived_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory</a>&lt; derived_t &gt;::ReadOnly = <a class="el" href="struct_acts_1_1_is_read_only_multi_trajectory.html">IsReadOnlyMultiTrajectory</a>&lt;<a class="el" href="#aa8a4caeade42be932d877b47df74a46b">Derived</a>&gt;::value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Flag indicating whether this multi-trajectory is read-only. </p>
 
 </div>
 </div>

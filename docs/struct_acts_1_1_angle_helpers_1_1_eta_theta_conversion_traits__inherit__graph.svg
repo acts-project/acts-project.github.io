@@ -33,7 +33,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html" target="_top" xlink:title="Conversion limits for double eta/theta calculations.">
 <polygon fill="white" stroke="#666666" points="392,-100 245,-100 245,-59 392,-59 392,-100"/>
 <text text-anchor="start" x="253" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AngleHelpers</text>
 <text text-anchor="start" x="253" y="-77" font-family="Helvetica,sans-Serif" font-size="10.00">::EtaThetaConversionTraits</text>
@@ -54,7 +54,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html" target="_top" xlink:title="Conversion limits for float eta/theta calculations.">
 <polygon fill="white" stroke="#666666" points="392,-41 245,-41 245,0 392,0 392,-41"/>
 <text text-anchor="start" x="253" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AngleHelpers</text>
 <text text-anchor="start" x="253" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::EtaThetaConversionTraits</text>

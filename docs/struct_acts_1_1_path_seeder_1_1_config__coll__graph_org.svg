@@ -21,7 +21,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="640,-254 412,-254 412,-202 640,-202 640,-254"/>
+<polygon fill="white" stroke="#bfbfbf" points="640,-254 412,-254 412,-202 640,-202 640,-254"/>
 <text text-anchor="start" x="420" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="420" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">::pair&lt; BoundTrackParameters,</text>
 <text text-anchor="start" x="420" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00"> BoundTrackParameters &gt;(const</text>
@@ -43,7 +43,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-159 0,-159 0,-129 152,-129 152,-159"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-159 0,-159 0,-129 152,-129 152,-159"/>
 <text text-anchor="start" x="8" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -65,7 +65,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="625.5,-181.5 426.5,-181.5 426.5,-118.5 625.5,-118.5 625.5,-181.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="625.5,-181.5 426.5,-181.5 426.5,-118.5 625.5,-118.5 625.5,-181.5"/>
 <text text-anchor="start" x="434.5" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="434.5" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">::vector&lt; std::pair</text>
 <text text-anchor="start" x="434.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; GeometryIdentifier,</text>
@@ -91,7 +91,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="614.5,-100 437.5,-100 437.5,-48 614.5,-48 614.5,-100"/>
+<polygon fill="white" stroke="#bfbfbf" points="614.5,-100 437.5,-100 437.5,-48 614.5,-48 614.5,-100"/>
 <text text-anchor="start" x="445.5" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="445.5" y="-77" font-family="Helvetica,sans-Serif" font-size="10.00">::pair&lt; double, double</text>
 <text text-anchor="start" x="445.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt;(const GeometryContext</text>

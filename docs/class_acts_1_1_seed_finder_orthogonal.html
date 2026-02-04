@@ -126,57 +126,51 @@ $(function(){initNavTree('class_acts_1_1_seed_finder_orthogonal.html','','class_
 </div><!--header-->
 <div class="contents">
 
+<p>Orthogonal range-search based seed finder.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_seed_finder_orthogonal_8hpp_source.html">Acts/Seeding/SeedFinderOrthogonal.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab08b3591db969540511a0437ca0317da" id="r_ab08b3591db969540511a0437ca0317da"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08b3591db969540511a0437ca0317da">seed_t</a> = <a class="el" href="class_acts_1_1_seed.html">Seed</a>&lt;external_spacepoint_t&gt;</td></tr>
-<tr class="memdesc:ab08b3591db969540511a0437ca0317da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The seed type used by this seeder internally.  <br /></td></tr>
+<tr class="memitem:ab08b3591db969540511a0437ca0317da" id="r_ab08b3591db969540511a0437ca0317da"><td class="memItemLeft" align="right" valign="top"><a id="ab08b3591db969540511a0437ca0317da" name="ab08b3591db969540511a0437ca0317da"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>seed_t</b> = <a class="el" href="class_acts_1_1_seed.html">Seed</a>&lt;external_spacepoint_t&gt;</td></tr>
+<tr class="memdesc:ab08b3591db969540511a0437ca0317da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The seed type used by this seeder internally. <br /></td></tr>
 <tr class="memitem:aaf3565a0b7db51ad7db4adec1cd98b6d" id="r_aaf3565a0b7db51ad7db4adec1cd98b6d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf3565a0b7db51ad7db4adec1cd98b6d">tree_t</a></td></tr>
 <tr class="memdesc:aaf3565a0b7db51ad7db4adec1cd98b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The k-d tree type used by this seeder internally, which is three-dimensional, contains internal spacepoint pointers, uses the Acts scalar type for coordinates, stores its coordinates in std::arrays, and has leaf size 4.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abde88dcd6dfd22071a704f051b6c6917" id="r_abde88dcd6dfd22071a704f051b6c6917"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde88dcd6dfd22071a704f051b6c6917">SeedFinderOrthogonal</a> ()=default</td></tr>
 <tr class="memitem:a746d1d26a75f76c87d8f9659b27c3444" id="r_a746d1d26a75f76c87d8f9659b27c3444"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a> (const <a class="el" href="struct_acts_1_1_seed_finder_orthogonal_config.html">Acts::SeedFinderOrthogonalConfig</a>&lt; external_spacepoint_t &gt; &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
 <tr class="memdesc:a746d1d26a75f76c87d8f9659b27c3444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new orthogonal seed finder.  <br /></td></tr>
-<tr class="memitem:a8d932e16092c2fc16857af920b5708f6" id="r_a8d932e16092c2fc16857af920b5708f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d932e16092c2fc16857af920b5708f6">SeedFinderOrthogonal</a> (const SeedFinderOrthogonal&lt; external_spacepoint_t &gt; &amp;)=delete</td></tr>
-<tr class="memitem:a5e83b3ae669c1443a09b1ecf101ba406" id="r_a5e83b3ae669c1443a09b1ecf101ba406"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e83b3ae669c1443a09b1ecf101ba406">SeedFinderOrthogonal</a> (SeedFinderOrthogonal&lt; external_spacepoint_t &gt; &amp;&amp;) noexcept=default</td></tr>
-<tr class="memitem:af0592993572aee926fe61087f30a5a44" id="r_af0592993572aee926fe61087f30a5a44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0592993572aee926fe61087f30a5a44">~SeedFinderOrthogonal</a> ()=default</td></tr>
-<tr class="memdesc:af0592993572aee926fe61087f30a5a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the orthogonal seed finder object.  <br /></td></tr>
+<tr class="memitem:a8d932e16092c2fc16857af920b5708f6" id="r_a8d932e16092c2fc16857af920b5708f6"><td class="memItemLeft" align="right" valign="top"><a id="a8d932e16092c2fc16857af920b5708f6" name="a8d932e16092c2fc16857af920b5708f6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SeedFinderOrthogonal</b> (const SeedFinderOrthogonal&lt; external_spacepoint_t &gt; &amp;)=delete</td></tr>
+<tr class="memitem:a5e83b3ae669c1443a09b1ecf101ba406" id="r_a5e83b3ae669c1443a09b1ecf101ba406"><td class="memItemLeft" align="right" valign="top"><a id="a5e83b3ae669c1443a09b1ecf101ba406" name="a5e83b3ae669c1443a09b1ecf101ba406"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SeedFinderOrthogonal</b> (SeedFinderOrthogonal&lt; external_spacepoint_t &gt; &amp;&amp;) noexcept=default</td></tr>
+<tr class="memdesc:a5e83b3ae669c1443a09b1ecf101ba406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
+<tr class="memitem:af0592993572aee926fe61087f30a5a44" id="r_af0592993572aee926fe61087f30a5a44"><td class="memItemLeft" align="right" valign="top"><a id="af0592993572aee926fe61087f30a5a44" name="af0592993572aee926fe61087f30a5a44"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~SeedFinderOrthogonal</b> ()=default</td></tr>
+<tr class="memdesc:af0592993572aee926fe61087f30a5a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the orthogonal seed finder object. <br /></td></tr>
 <tr class="memitem:a961adadefc7371cfc47ade25e194ef81" id="r_a961adadefc7371cfc47ade25e194ef81"><td class="memTemplParams" colspan="2">template&lt;typename input_container_t&gt; </td></tr>
 <tr class="memitem:a961adadefc7371cfc47ade25e194ef81 template"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ab08b3591db969540511a0437ca0317da">seed_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a961adadefc7371cfc47ade25e194ef81">createSeeds</a> (const <a class="el" href="struct_acts_1_1_seed_finder_options.html">Acts::SeedFinderOptions</a> &amp;options, const input_container_t &amp;spacePoints) const</td></tr>
 <tr class="memdesc:a961adadefc7371cfc47ade25e194ef81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform seed finding, returning a new container of seeds.  <br /></td></tr>
 <tr class="memitem:af215543f3f428c92c6d8963bff2071ab" id="r_af215543f3f428c92c6d8963bff2071ab"><td class="memTemplParams" colspan="2">template&lt;typename input_container_t, typename output_container_t&gt; </td></tr>
 <tr class="memitem:af215543f3f428c92c6d8963bff2071ab template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af215543f3f428c92c6d8963bff2071ab">createSeeds</a> (const <a class="el" href="struct_acts_1_1_seed_finder_options.html">Acts::SeedFinderOptions</a> &amp;options, const input_container_t &amp;spacePoints, output_container_t &amp;out_cont) const</td></tr>
 <tr class="memdesc:af215543f3f428c92c6d8963bff2071ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform seed finding, appending seeds to a container.  <br /></td></tr>
-<tr class="memitem:af3e3fdd065eebafa8e31f21455399893" id="r_af3e3fdd065eebafa8e31f21455399893"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e3fdd065eebafa8e31f21455399893">operator=</a> (const <a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;)=delete</td></tr>
+<tr class="memitem:af3e3fdd065eebafa8e31f21455399893" id="r_af3e3fdd065eebafa8e31f21455399893"><td class="memItemLeft" align="right" valign="top"><a id="af3e3fdd065eebafa8e31f21455399893" name="af3e3fdd065eebafa8e31f21455399893"></a>
+<a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;)=delete</td></tr>
 <tr class="memitem:a0c9ba1ddb3b94de917dd8d1d24421168" id="r_a0c9ba1ddb3b94de917dd8d1d24421168"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c9ba1ddb3b94de917dd8d1d24421168">operator=</a> (<a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;&amp;) noexcept=default</td></tr>
+<tr class="memdesc:a0c9ba1ddb3b94de917dd8d1d24421168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:af47e8e650bcc302ae5ee4c2f2de17011" id="r_af47e8e650bcc302ae5ee4c2f2de17011"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47e8e650bcc302ae5ee4c2f2de17011">NDims</a> = 3</td></tr>
 <tr class="memdesc:af47e8e650bcc302ae5ee4c2f2de17011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of dimensions in which to embed points.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ab08b3591db969540511a0437ca0317da" name="ab08b3591db969540511a0437ca0317da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab08b3591db969540511a0437ca0317da">&#9670;&#160;</a></span>seed_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_seed_finder_orthogonal.html">Acts::SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt;::seed_t = <a class="el" href="class_acts_1_1_seed.html">Seed</a>&lt;external_spacepoint_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The seed type used by this seeder internally. </p>
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_spacepoint_t&gt;<br />
+class Acts::SeedFinderOrthogonal&lt; external_spacepoint_t &gt;</div><p>Orthogonal range-search based seed finder. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="aaf3565a0b7db51ad7db4adec1cd98b6d" name="aaf3565a0b7db51ad7db4adec1cd98b6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf3565a0b7db51ad7db4adec1cd98b6d">&#9670;&#160;</a></span>tree_t</h2>
 
@@ -200,7 +194,7 @@ template&lt;typename external_spacepoint_t&gt; </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a746d1d26a75f76c87d8f9659b27c3444" name="a746d1d26a75f76c87d8f9659b27c3444"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a746d1d26a75f76c87d8f9659b27c3444">&#9670;&#160;</a></span>SeedFinderOrthogonal() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a746d1d26a75f76c87d8f9659b27c3444">&#9670;&#160;</a></span>SeedFinderOrthogonal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,116 +230,6 @@ template&lt;typename external_spacepoint_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="af0592993572aee926fe61087f30a5a44" name="af0592993572aee926fe61087f30a5a44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0592993572aee926fe61087f30a5a44">&#9670;&#160;</a></span>~SeedFinderOrthogonal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_seed_finder_orthogonal.html">Acts::SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt;::~<a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destroy the orthogonal seed finder object. </p>
-
-</div>
-</div>
-<a id="abde88dcd6dfd22071a704f051b6c6917" name="abde88dcd6dfd22071a704f051b6c6917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde88dcd6dfd22071a704f051b6c6917">&#9670;&#160;</a></span>SeedFinderOrthogonal() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_seed_finder_orthogonal.html">Acts::SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt;::SeedFinderOrthogonal </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d932e16092c2fc16857af920b5708f6" name="a8d932e16092c2fc16857af920b5708f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d932e16092c2fc16857af920b5708f6">&#9670;&#160;</a></span>SeedFinderOrthogonal() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_seed_finder_orthogonal.html">Acts::SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt;::SeedFinderOrthogonal </td>
-          <td>(</td>
-          <td class="paramtype">const SeedFinderOrthogonal&lt; external_spacepoint_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e83b3ae669c1443a09b1ecf101ba406" name="a5e83b3ae669c1443a09b1ecf101ba406"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e83b3ae669c1443a09b1ecf101ba406">&#9670;&#160;</a></span>SeedFinderOrthogonal() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_seed_finder_orthogonal.html">Acts::SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt;::SeedFinderOrthogonal </td>
-          <td>(</td>
-          <td class="paramtype">SeedFinderOrthogonal&lt; external_spacepoint_t &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -442,35 +326,8 @@ template&lt;typename input_container_t, typename output_container_t&gt; </div>
 
 </div>
 </div>
-<a id="af3e3fdd065eebafa8e31f21455399893" name="af3e3fdd065eebafa8e31f21455399893"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3e3fdd065eebafa8e31f21455399893">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp; <a class="el" href="class_acts_1_1_seed_finder_orthogonal.html">Acts::SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a746d1d26a75f76c87d8f9659b27c3444">SeedFinderOrthogonal</a>&lt; external_spacepoint_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0c9ba1ddb3b94de917dd8d1d24421168" name="a0c9ba1ddb3b94de917dd8d1d24421168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c9ba1ddb3b94de917dd8d1d24421168">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9ba1ddb3b94de917dd8d1d24421168">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -493,6 +350,9 @@ template&lt;typename external_spacepoint_t&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Move assignment operator. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
 
 </div>
 </div>

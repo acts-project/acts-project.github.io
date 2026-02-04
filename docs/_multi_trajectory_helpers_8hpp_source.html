@@ -134,8 +134,7 @@ $(function(){initNavTree('_multi_trajectory_helpers_8hpp_source.html','',''); })
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_multi_trajectory_helpers.html">   17</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_1_1_multi_trajectory_helpers.html">Acts::MultiTrajectoryHelpers</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span>Acts::MultiTrajectoryHelpers {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
 <div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">   21</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">TrajectoryState</a> {</div>
@@ -156,12 +155,11 @@ $(function(){initNavTree('_multi_trajectory_helpers_8hpp_source.html','',''); })
 </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">// Container for trajectory summary info at a specific volume</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_multi_trajectory_helpers.html#aa14f63a6b4797b05f45f86a4f60977d4">   51</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_acts_1_1_multi_trajectory_helpers.html#aa14f63a6b4797b05f45f86a4f60977d4">VolumeTrajectoryStateContainer</a> =</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">using </span>VolumeTrajectoryStateContainer =</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    std::unordered_map&lt;GeometryIdentifier::Value, TrajectoryState&gt;;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> traj_t&gt;</div>
-<div class="foldopen" id="foldopen00061" data-start="{" data-end="}">
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_multi_trajectory_helpers.html#a5ddd81e711828db0d037899368368609">   61</a></span><a class="code hl_struct" href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">TrajectoryState</a> <a class="code hl_function" href="namespace_acts_1_1_multi_trajectory_helpers.html#a5ddd81e711828db0d037899368368609">trajectoryState</a>(<span class="keyword">const</span> traj_t&amp; multiTraj, std::size_t tipIndex) {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><a class="code hl_struct" href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">TrajectoryState</a> trajectoryState(<span class="keyword">const</span> traj_t&amp; multiTraj, std::size_t tipIndex) {</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <a class="code hl_struct" href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">TrajectoryState</a> trajState;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  multiTraj.visitBackwards(tipIndex, [&amp;](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; state) {</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// Get the volume Id of this surface</span></div>
@@ -191,14 +189,12 @@ $(function(){initNavTree('_multi_trajectory_helpers_8hpp_source.html','',''); })
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  });</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <span class="keywordflow">return</span> trajState;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>}</div>
-</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> traj_t&gt;</div>
-<div class="foldopen" id="foldopen00104" data-start="{" data-end="}">
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_multi_trajectory_helpers.html#a92e1edc962a2fb9eb2f0e6e0e12eaaed">  104</a></span><a class="code hl_typedef" href="namespace_acts_1_1_multi_trajectory_helpers.html#aa14f63a6b4797b05f45f86a4f60977d4">VolumeTrajectoryStateContainer</a> <a class="code hl_function" href="namespace_acts_1_1_multi_trajectory_helpers.html#a5ddd81e711828db0d037899368368609">trajectoryState</a>(</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>VolumeTrajectoryStateContainer trajectoryState(</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keyword">const</span> traj_t&amp; multiTraj, std::size_t tipIndex,</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keyword">const</span> std::vector&lt;GeometryIdentifier::Value&gt;&amp; volumeIds) {</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <a class="code hl_typedef" href="namespace_acts_1_1_multi_trajectory_helpers.html#aa14f63a6b4797b05f45f86a4f60977d4">VolumeTrajectoryStateContainer</a> trajStateContainer;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  VolumeTrajectoryStateContainer trajStateContainer;</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  multiTraj.visitBackwards(tipIndex, [&amp;](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; state) {</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="comment">// Get the volume Id of this surface</span></div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keyword">const</span> <span class="keyword">auto</span>&amp; geoID = state.referenceSurface().geometryId();</div>
@@ -234,33 +230,21 @@ $(function(){initNavTree('_multi_trajectory_helpers_8hpp_source.html','',''); })
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  });</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  <span class="keywordflow">return</span> trajStateContainer;</div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>}</div>
-</div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span></div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> track_state_proxy_t&gt;</div>
-<div class="foldopen" id="foldopen00153" data-start="{" data-end="}">
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_multi_trajectory_helpers.html#abe60fed5273ebaef1485b500deb8827d">  153</a></span><a class="code hl_typedef" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a> <a class="code hl_function" href="namespace_acts_1_1_multi_trajectory_helpers.html#abe60fed5273ebaef1485b500deb8827d">freeFiltered</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx,</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><a class="code hl_typedef" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a> freeFiltered(<span class="keyword">const</span> GeometryContext&amp; gctx,</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                        <span class="keyword">const</span> track_state_proxy_t&amp; trackStateProxy) {</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#ad9f59a5d52f546c1b662706a19fa5f42">transformBoundToFreeParameters</a>(trackStateProxy.referenceSurface(),</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>                                        gctx, trackStateProxy.filtered());</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>}</div>
-</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span></div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> track_state_proxy_t&gt;</div>
-<div class="foldopen" id="foldopen00168" data-start="{" data-end="}">
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_multi_trajectory_helpers.html#a2c1e59cb76d07c1cfff24e7b650805d2">  168</a></span><a class="code hl_typedef" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a> <a class="code hl_function" href="namespace_acts_1_1_multi_trajectory_helpers.html#a2c1e59cb76d07c1cfff24e7b650805d2">freeSmoothed</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx,</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><a class="code hl_typedef" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a> freeSmoothed(<span class="keyword">const</span> GeometryContext&amp; gctx,</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>                        <span class="keyword">const</span> track_state_proxy_t&amp; trackStateProxy) {</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#ad9f59a5d52f546c1b662706a19fa5f42">transformBoundToFreeParameters</a>(trackStateProxy.referenceSurface(),</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>                                        gctx, trackStateProxy.smoothed());</div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>}</div>
-</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>}  <span class="comment">// namespace Acts::MultiTrajectoryHelpers</span></div>
-</div>
-<div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_helpers_html"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_helpers.html">Acts::MultiTrajectoryHelpers</a></div><div class="ttdef"><b>Definition</b> MultiTrajectoryHelpers.hpp:17</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_helpers_html_a2c1e59cb76d07c1cfff24e7b650805d2"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_helpers.html#a2c1e59cb76d07c1cfff24e7b650805d2">Acts::MultiTrajectoryHelpers::freeSmoothed</a></div><div class="ttdeci">FreeVector freeSmoothed(const GeometryContext &amp;gctx, const track_state_proxy_t &amp;trackStateProxy)</div><div class="ttdoc">Transforms the smoothed parameters from a TrackStateProxy to free parameters.</div><div class="ttdef"><b>Definition</b> MultiTrajectoryHelpers.hpp:168</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_helpers_html_a5ddd81e711828db0d037899368368609"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_helpers.html#a5ddd81e711828db0d037899368368609">Acts::MultiTrajectoryHelpers::trajectoryState</a></div><div class="ttdeci">TrajectoryState trajectoryState(const traj_t &amp;multiTraj, std::size_t tipIndex)</div><div class="ttdoc">Getter for global trajectory info.</div><div class="ttdef"><b>Definition</b> MultiTrajectoryHelpers.hpp:61</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_helpers_html_aa14f63a6b4797b05f45f86a4f60977d4"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_helpers.html#aa14f63a6b4797b05f45f86a4f60977d4">Acts::MultiTrajectoryHelpers::VolumeTrajectoryStateContainer</a></div><div class="ttdeci">std::unordered_map&lt; GeometryIdentifier::Value, TrajectoryState &gt; VolumeTrajectoryStateContainer</div><div class="ttdef"><b>Definition</b> MultiTrajectoryHelpers.hpp:51</div></div>
-<div class="ttc" id="anamespace_acts_1_1_multi_trajectory_helpers_html_abe60fed5273ebaef1485b500deb8827d"><div class="ttname"><a href="namespace_acts_1_1_multi_trajectory_helpers.html#abe60fed5273ebaef1485b500deb8827d">Acts::MultiTrajectoryHelpers::freeFiltered</a></div><div class="ttdeci">FreeVector freeFiltered(const GeometryContext &amp;gctx, const track_state_proxy_t &amp;trackStateProxy)</div><div class="ttdoc">Transforms the filtered parameters from a TrackStateProxy to free parameters.</div><div class="ttdef"><b>Definition</b> MultiTrajectoryHelpers.hpp:153</div></div>
 <div class="ttc" id="anamespace_acts_html_a34a846c2589150628ba6e05624221307"><div class="ttname"><a href="namespace_acts.html#a34a846c2589150628ba6e05624221307">Acts::FreeVector</a></div><div class="ttdeci">ActsVector&lt; eFreeSize &gt; FreeVector</div><div class="ttdoc">Vector type for free track parameters.</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:128</div></div>
 <div class="ttc" id="anamespace_acts_html_ac6d9beca13049b91d5c9e5991f60532d"><div class="ttname"><a href="namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d">Acts::rangeContainsValue</a></div><div class="ttdeci">bool rangeContainsValue(const R &amp;range, const T &amp;value)</div><div class="ttdoc">This can be replaced with C++23 to use the std::ranges::contains method.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:225</div></div>
 <div class="ttc" id="anamespace_acts_html_ad9f59a5d52f546c1b662706a19fa5f42"><div class="ttname"><a href="namespace_acts.html#ad9f59a5d52f546c1b662706a19fa5f42">Acts::transformBoundToFreeParameters</a></div><div class="ttdeci">FreeVector transformBoundToFreeParameters(const Surface &amp;surface, const GeometryContext &amp;geoCtx, const BoundVector &amp;boundParams)</div><div class="ttdoc">Transform bound track parameters into equivalent free track parameters.</div></div>
@@ -284,7 +268,7 @@ $(function(){initNavTree('_multi_trajectory_helpers_8hpp_source.html','',''); })
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_89e84df95f8c32f2962532a6d6ea4eaf.html">EventData</a></li><li class="navelem"><b>MultiTrajectoryHelpers.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>EventData</b></li><li class="navelem"><b>MultiTrajectoryHelpers.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

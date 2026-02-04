@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Default connection type for 2&#45;D grids.">
 <polygon fill="#999999" stroke="#666666" points="202,-30 62,-30 62,0 202,0 202,-30"/>
 <text text-anchor="start" x="70" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::DefaultConnect</text>
 <text text-anchor="middle" x="132" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Cell, 2 &gt;</text>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_ccl_1_1_connect2_d.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_ccl_1_1_connect2_d.html" target="_top" xlink:title="Default connection type for 2&#45;D grids with 4&#45; or 8&#45;cell connectivity.">
 <polygon fill="white" stroke="#666666" points="118,-113 0,-113 0,-83 118,-83 118,-113"/>
 <text text-anchor="start" x="8" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::Connect2D</text>
 <text text-anchor="middle" x="59" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Cell &gt;</text>
@@ -41,7 +41,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="struct_acts_1_1_ccl_1_1_default_connect.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="276,-113 136,-113 136,-83 276,-83 276,-113"/>
+<polygon fill="white" stroke="#bfbfbf" points="276,-113 136,-113 136,-83 276,-83 276,-113"/>
 <text text-anchor="start" x="144" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::DefaultConnect</text>
 <text text-anchor="middle" x="206" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Cell, GridDim &gt;</text>
 </a>

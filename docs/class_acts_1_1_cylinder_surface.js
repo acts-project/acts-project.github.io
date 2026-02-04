@@ -27,6 +27,5 @@ var class_acts_1_1_cylinder_surface =
     [ "referencePosition", "class_acts_1_1_cylinder_surface.html#a1ec919ac4fc7f6dff85f206271d5465f", null ],
     [ "rotSymmetryAxis", "class_acts_1_1_cylinder_surface.html#a407e0037c642f922e2cf7141a4a95dc5", null ],
     [ "type", "class_acts_1_1_cylinder_surface.html#ab8367176d30e1fb4bf496f64f8b3b59e", null ],
-    [ "Surface", "class_acts_1_1_cylinder_surface.html#a432070efb8401735ea64bc0e98feebe5", null ],
     [ "m_bounds", "class_acts_1_1_cylinder_surface.html#a3474693828aa2437e217821d615154b0", null ]
 ];

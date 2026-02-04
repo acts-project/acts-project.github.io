@@ -21,7 +21,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="598,-196.5 402,-196.5 402,-155.5 598,-155.5 598,-196.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="598,-196.5 402,-196.5 402,-155.5 598,-155.5 598,-196.5"/>
 <text text-anchor="start" x="410" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyMultiTrajectory</text>
 <text text-anchor="start" x="410" y="-173.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ActsPlugins::ConstPodioTrackState</text>
 <text text-anchor="middle" x="500" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">Container &gt;</text>
@@ -43,7 +43,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="604,-137.5 396,-137.5 396,-96.5 604,-96.5 604,-137.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="604,-137.5 396,-137.5 396,-96.5 604,-96.5 604,-137.5"/>
 <text text-anchor="start" x="404" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyMultiTrajectory</text>
 <text text-anchor="start" x="404" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ActsPlugins::MutablePodioTrackState</text>
 <text text-anchor="middle" x="500" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">Container &gt;</text>
@@ -65,7 +65,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="struct_acts_1_1_is_read_only_multi_trajectory_3_01_const_vector_multi_trajectory_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="586,-78 414,-78 414,-48 586,-48 586,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="586,-78 414,-78 414,-48 586,-48 586,-78"/>
 <text text-anchor="start" x="422" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyMultiTrajectory</text>
 <text text-anchor="middle" x="500" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ConstVectorMultiTrajectory &gt;</text>
 </a>
@@ -85,7 +85,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="struct_acts_1_1_is_read_only_multi_trajectory_3_01_vector_multi_trajectory_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="586,-30 414,-30 414,0 586,0 586,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="586,-30 414,-30 414,0 586,0 586,-30"/>
 <text text-anchor="start" x="422" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyMultiTrajectory</text>
 <text text-anchor="middle" x="500" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; VectorMultiTrajectory &gt;</text>
 </a>

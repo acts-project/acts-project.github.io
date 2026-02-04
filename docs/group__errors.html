@@ -206,6 +206,7 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#ggaebbb9744bded7af55e310fecf0f4f0c0ae887f671d35b1e3abb22adb9d2eff469">ActsFatras::DigitizationError::MaximumRetriesExceeded</a>
 <br />
  }</td></tr>
+<tr class="memdesc:gaebbb9744bded7af55e310fecf0f4f0c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for digitization operations.  <a href="#gaebbb9744bded7af55e310fecf0f4f0c0">More...</a><br /></td></tr>
 <tr class="memitem:ga21cb0f3d4dc02db3af0291385e70d4e0" id="r_ga21cb0f3d4dc02db3af0291385e70d4e0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21cb0f3d4dc02db3af0291385e70d4e0">Acts::EigenStepperError</a> { <a class="el" href="#gga21cb0f3d4dc02db3af0291385e70d4e0ac96e8be3a0e8b6f5dd6d219249a81180">Acts::EigenStepperError::StepSizeStalled</a> = 1
 , <a class="el" href="#gga21cb0f3d4dc02db3af0291385e70d4e0adec88b388126e180a1d7807815c6c8dd">Acts::EigenStepperError::StepInvalid</a>
 , <a class="el" href="#gga21cb0f3d4dc02db3af0291385e70d4e0a2c4a5f9ada6b6941b6f25ba17affbab7">Acts::EigenStepperError::StepSizeAdjustmentFailed</a>
@@ -216,11 +217,13 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga1ce88ea0e4490538ca747b2877e17317a6d7ce060249870aeef245ea7aad52ed0">ActsPlugins::GeoModelConversionError::UnkownShape</a>
 , <a class="el" href="#gga1ce88ea0e4490538ca747b2877e17317a89bee9aff604972a1db820c948a17e62">ActsPlugins::GeoModelConversionError::MissingLogicalVolume</a>
  }</td></tr>
+<tr class="memdesc:ga1ce88ea0e4490538ca747b2877e17317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for GeoModel conversion operations.  <a href="#ga1ce88ea0e4490538ca747b2877e17317">More...</a><br /></td></tr>
 <tr class="memitem:ga743e4af777584b0f5274baa245f128d2" id="r_ga743e4af777584b0f5274baa245f128d2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga743e4af777584b0f5274baa245f128d2">Acts::Experimental::GlobalChiSquareFitterError</a> { <a class="el" href="#gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b">Acts::Experimental::GlobalChiSquareFitterError::AIsNotInvertible</a> = 1
 , <a class="el" href="#gga743e4af777584b0f5274baa245f128d2a3b3d2eb22dedef6fb1b0764f548a47ad">Acts::Experimental::GlobalChiSquareFitterError::DidNotConverge</a> = 2
 , <a class="el" href="#gga743e4af777584b0f5274baa245f128d2a8db59ff9cd9fb040b09744480e74f82d">Acts::Experimental::GlobalChiSquareFitterError::NotEnoughMeasurements</a> = 3
 , <a class="el" href="#gga743e4af777584b0f5274baa245f128d2afca2bdd7ddf8f0b59711ad7fbd8a7ab0">Acts::Experimental::GlobalChiSquareFitterError::UpdatePushedToNewVolume</a> = 4
  }</td></tr>
+<tr class="memdesc:ga743e4af777584b0f5274baa245f128d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for global chi-square fitter operations.  <a href="#ga743e4af777584b0f5274baa245f128d2">More...</a><br /></td></tr>
 <tr class="memitem:ga83f8b59ffc557631bb7fdd01c18431ca" id="r_ga83f8b59ffc557631bb7fdd01c18431ca"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83f8b59ffc557631bb7fdd01c18431ca">Acts::GsfError</a> { <a class="el" href="#gga83f8b59ffc557631bb7fdd01c18431caacd3ce8112cc132a6786646eff9689454">Acts::GsfError::StartParametersHaveNoCovariance</a>
 , <a class="el" href="#gga83f8b59ffc557631bb7fdd01c18431caa6d0086586e767bdd2adbe51bfe8a6a51">Acts::GsfError::NoMeasurementStatesCreatedForward</a>
 , <a class="el" href="#gga83f8b59ffc557631bb7fdd01c18431caa77854eb69cd722eed562c1deaf1db15f">Acts::GsfError::NoMeasurementStatesCreatedBackward</a>
@@ -234,7 +237,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465">Acts::KalmanFitterError::NoMeasurementFound</a>
 , <br />
 &#160;&#160;<a class="el" href="#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9">Acts::KalmanFitterError::ReversePropagationFailed</a>
-, <a class="el" href="#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971">Acts::KalmanFitterError::InconsistentTrackStates</a>
+, <b>InconsistentTrackStates</b>
 <br />
  }</td></tr>
 <tr class="memdesc:gac3f65a46059b0f9516370f5bdcb9bddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for Kalman filter operations.  <a href="#gac3f65a46059b0f9516370f5bdcb9bddd">More...</a><br /></td></tr>
@@ -361,6 +364,8 @@ Enumerations</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Error codes for digitization operations. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaebbb9744bded7af55e310fecf0f4f0c0a7ac6622a5288b4ef6c1bc502f1dc3e21" name="ggaebbb9744bded7af55e310fecf0f4f0c0a7ac6622a5288b4ef6c1bc502f1dc3e21"></a>SmearingOutOfRange&#160;</td><td class="fielddoc"><p>Smeared out of surface bounds. </p>
 </td></tr>
@@ -427,6 +432,8 @@ Enumerations</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Error codes for GeoModel conversion operations. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga1ce88ea0e4490538ca747b2877e17317ab0b9ec361e712e8d51dd90fd8faa2fbf" name="gga1ce88ea0e4490538ca747b2877e17317ab0b9ec361e712e8d51dd90fd8faa2fbf"></a>WrongShapeForConverter&#160;</td><td class="fielddoc"><p>Wrong shape provided for this converter. </p>
 </td></tr>
@@ -459,6 +466,8 @@ Enumerations</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Error codes for global chi-square fitter operations. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b" name="gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b"></a>AIsNotInvertible&#160;</td><td class="fielddoc"><p>aMatrix is not invertible. </p>
 </td></tr>
@@ -538,7 +547,6 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9" name="ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9"></a>ReversePropagationFailed&#160;</td><td class="fielddoc"><p>Reverse propagation failed. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971" name="ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971"></a>InconsistentTrackStates&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

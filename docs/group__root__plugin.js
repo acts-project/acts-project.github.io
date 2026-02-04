@@ -1,7 +1,6 @@
 var group__root__plugin =
 [
     [ "ActsPlugins::ITGeoDetectorElementSplitter", "class_acts_plugins_1_1_i_t_geo_detector_element_splitter.html", [
-      [ "~ITGeoDetectorElementSplitter", "class_acts_plugins_1_1_i_t_geo_detector_element_splitter.html#a743b9392ef19c2f1747c76c92348ddd7", null ],
       [ "split", "class_acts_plugins_1_1_i_t_geo_detector_element_splitter.html#ac04756b209f654927f38404cdd98f501", null ]
     ] ],
     [ "ActsPlugins::ITGeoIdentifierProvider", "class_acts_plugins_1_1_i_t_geo_identifier_provider.html", [
@@ -108,7 +107,6 @@ var group__root__plugin =
         [ "discRadialSegments", "struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html#a7ba4c4d8f33bc54f076a06c0bf1ce16e", null ]
       ] ],
       [ "TGeoCylinderDiscSplitter", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#a30e170590383c9f2daaeec332b6d8351", null ],
-      [ "~TGeoCylinderDiscSplitter", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#ad3417cfb445ab8e27fe04ae151ce62db", null ],
       [ "split", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#ac62e51318813d1a76e6512f932b2c00a", null ]
     ] ],
     [ "ActsPlugins::TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html", [
@@ -119,7 +117,6 @@ var group__root__plugin =
       [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#aa6ca54a5434fce20edb246890b79431e", null ],
       [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a9e21aae70818581af4f5b17254ac9b70", null ],
       [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a791f2bac7bdec07402b2659e6e8b138a", null ],
-      [ "~TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a2c7da38b3b4bc0ee34a3086a8a3611c6", null ],
       [ "identifier", "group__root__plugin.html#ga39ae58cede7230ec843b6ff7c2f8fc06", null ],
       [ "isSensitive", "class_acts_plugins_1_1_t_geo_detector_element.html#a8132f27f988897a784a20db25247ed11", null ],
       [ "localToGlobalTransform", "group__root__plugin.html#gaa1f017f131f32f960d35924a66984c9a", null ],
@@ -147,7 +144,6 @@ var group__root__plugin =
       [ "LayerConfig", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html", [
         [ "RangeConfig", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#aa63434c398fb5c9cea850acc15f1b5c8", null ],
         [ "SplitConfig", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a90d3fcddd61d1a1d7c4fbd99d2d2fc44", null ],
-        [ "LayerConfig", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a34254e256639726849854fe41928af9d", null ],
         [ "binning0", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#acaeb3101f8027c50d5c4d529000f0c5c", null ],
         [ "binning1", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#ab46386b63a05abe5e83dfb62ad00d445", null ],
         [ "envelope", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a0386afc8194477f5ede2807e2015ae35", null ],

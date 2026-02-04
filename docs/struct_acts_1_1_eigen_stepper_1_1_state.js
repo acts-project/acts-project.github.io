@@ -2,8 +2,6 @@ var struct_acts_1_1_eigen_stepper_1_1_state =
 [
     [ "State", "struct_acts_1_1_eigen_stepper_1_1_state.html#abcbbde8b980754b79de1c377223871b2", null ],
     [ "B_first", "struct_acts_1_1_eigen_stepper_1_1_state.html#aa1e41e33043178704dc32719443b56ca", null ],
-    [ "B_last", "struct_acts_1_1_eigen_stepper_1_1_state.html#af83dcedc87bb3c9a02e39a236f2a2cfe", null ],
-    [ "B_middle", "struct_acts_1_1_eigen_stepper_1_1_state.html#aafe7df6fae0c75335b5c5ba0151ef64b", null ],
     [ "cov", "struct_acts_1_1_eigen_stepper_1_1_state.html#aecebb20ea443f591fd9bf17f7bd6e71a", null ],
     [ "covTransport", "struct_acts_1_1_eigen_stepper_1_1_state.html#a490c1bc1a7d74f9ed43190624bd51815", null ],
     [ "derivative", "struct_acts_1_1_eigen_stepper_1_1_state.html#afedbdf02889bda6f4a7119bf84d8c809", null ],
@@ -13,9 +11,6 @@ var struct_acts_1_1_eigen_stepper_1_1_state =
     [ "jacToGlobal", "struct_acts_1_1_eigen_stepper_1_1_state.html#aafe0919185203cc9c14aa8dee5947d08", null ],
     [ "jacTransport", "struct_acts_1_1_eigen_stepper_1_1_state.html#aa7d6a9ce0ca62571fd46b5c7aac90912", null ],
     [ "k1", "struct_acts_1_1_eigen_stepper_1_1_state.html#a0f360a26bd1560084a5d48a757a837e7", null ],
-    [ "k2", "struct_acts_1_1_eigen_stepper_1_1_state.html#a2c8b2f45321c4cfdf2ebe45a9fb51fc4", null ],
-    [ "k3", "struct_acts_1_1_eigen_stepper_1_1_state.html#a0db50e1ad097a4a0567aac674f52324c", null ],
-    [ "k4", "struct_acts_1_1_eigen_stepper_1_1_state.html#ac591e17f04f349d1c6daaf3fbe2f38d2", null ],
     [ "kQoP", "struct_acts_1_1_eigen_stepper_1_1_state.html#ab08602006454104ade32d45b60cf34a9", null ],
     [ "nSteps", "struct_acts_1_1_eigen_stepper_1_1_state.html#a0c56af9899c29e9d1373cb593d4f6111", null ],
     [ "nStepTrials", "struct_acts_1_1_eigen_stepper_1_1_state.html#ae7ada818b0c4b0a273cc0e6741021ca8", null ],

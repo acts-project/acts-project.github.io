@@ -144,16 +144,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab87f7b237f0c70ac5c944880b0ab8a7f" id="r_ab87f7b237f0c70ac5c944880b0ab8a7f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7f">TrackStateTypes</a> : std::uint8_t { <br />
-&#160;&#160;<a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7fadc2490f2bdbe2bb76395ddf1d3a2215b">UnsharedHit</a>
-, <a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7fa0a835e71cd610a06b14b8a10daa09041">SharedHit</a>
-, <a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7faebf56fe1f73270c6171a8408b893adb1">RejectedHit</a>
-, <a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7fa95a204e5dc8e7fe68d397be6ffcb0b01">Outlier</a>
+<tr class="memitem:ab87f7b237f0c70ac5c944880b0ab8a7f" id="r_ab87f7b237f0c70ac5c944880b0ab8a7f"><td class="memItemLeft" align="right" valign="top"><a id="ab87f7b237f0c70ac5c944880b0ab8a7f" name="ab87f7b237f0c70ac5c944880b0ab8a7f"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7f">TrackStateTypes</a> : std::uint8_t { <br />
+&#160;&#160;<b>UnsharedHit</b>
+, <b>SharedHit</b>
+, <b>RejectedHit</b>
+, <b>Outlier</b>
 , <br />
-&#160;&#160;<a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7fa7d9ad3dad09fbd0d37d4aefd3520231c">OtherTrackStateType</a>
+&#160;&#160;<b>OtherTrackStateType</b>
 <br />
  }</td></tr>
-<tr class="memdesc:ab87f7b237f0c70ac5c944880b0ab8a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of track state types for ambiguity resolution.  <a href="#ab87f7b237f0c70ac5c944880b0ab8a7f">More...</a><br /></td></tr>
+<tr class="memdesc:ab87f7b237f0c70ac5c944880b0ab8a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of track state types for ambiguity resolution. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -180,39 +180,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generic implementation of the score based ambiguity resolution. </p>
 <p>The alhorithm is based on the following steps: 1) Compute the initial state of the tracks 2) Compute the score of each track 3) Removes hits that are not good enough for each track 4) Remove tracks that have a score below a certain threshold or not have enough hits 5) Remove tracks that are not good enough based on cuts Contains method for data preparations </p>
-</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="ab87f7b237f0c70ac5c944880b0ab8a7f" name="ab87f7b237f0c70ac5c944880b0ab8a7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab87f7b237f0c70ac5c944880b0ab8a7f">&#9670;&#160;</a></span>TrackStateTypes</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#ab87f7b237f0c70ac5c944880b0ab8a7f">Acts::ScoreBasedAmbiguityResolution::TrackStateTypes</a> : std::uint8_t</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Enumeration of track state types for ambiguity resolution. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab87f7b237f0c70ac5c944880b0ab8a7fadc2490f2bdbe2bb76395ddf1d3a2215b" name="ab87f7b237f0c70ac5c944880b0ab8a7fadc2490f2bdbe2bb76395ddf1d3a2215b"></a>UnsharedHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab87f7b237f0c70ac5c944880b0ab8a7fa0a835e71cd610a06b14b8a10daa09041" name="ab87f7b237f0c70ac5c944880b0ab8a7fa0a835e71cd610a06b14b8a10daa09041"></a>SharedHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab87f7b237f0c70ac5c944880b0ab8a7faebf56fe1f73270c6171a8408b893adb1" name="ab87f7b237f0c70ac5c944880b0ab8a7faebf56fe1f73270c6171a8408b893adb1"></a>RejectedHit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab87f7b237f0c70ac5c944880b0ab8a7fa95a204e5dc8e7fe68d397be6ffcb0b01" name="ab87f7b237f0c70ac5c944880b0ab8a7fa95a204e5dc8e7fe68d397be6ffcb0b01"></a>Outlier&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab87f7b237f0c70ac5c944880b0ab8a7fa7d9ad3dad09fbd0d37d4aefd3520231c" name="ab87f7b237f0c70ac5c944880b0ab8a7fa7d9ad3dad09fbd0d37d4aefd3520231c"></a>OtherTrackStateType&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1485e42b8b0c5d7d622d5eded77d118a" name="a1485e42b8b0c5d7d622d5eded77d118a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1485e42b8b0c5d7d622d5eded77d118a">&#9670;&#160;</a></span>ScoreBasedAmbiguityResolution()</h2>
 

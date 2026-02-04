@@ -143,23 +143,26 @@ Collaboration diagram for Acts::IndexGrid&lt; grid_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4239aba4f91273de7de37a430b4ad396" id="r_a4239aba4f91273de7de37a430b4ad396"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> = grid_t</td></tr>
-<tr class="memdesc:a4239aba4f91273de7de37a430b4ad396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the grid type.  <br /></td></tr>
+<tr class="memitem:a4239aba4f91273de7de37a430b4ad396" id="r_a4239aba4f91273de7de37a430b4ad396"><td class="memItemLeft" align="right" valign="top"><a id="a4239aba4f91273de7de37a430b4ad396" name="a4239aba4f91273de7de37a430b4ad396"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_type</b> = grid_t</td></tr>
+<tr class="memdesc:a4239aba4f91273de7de37a430b4ad396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the grid type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a26f90f254eefa3d4ec4c32aa2ce62c6f" id="r_a26f90f254eefa3d4ec4c32aa2ce62c6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26f90f254eefa3d4ec4c32aa2ce62c6f">IndexGrid</a> ()=delete</td></tr>
 <tr class="memitem:adba5bf73593643d98bcc473a6cacd6f1" id="r_adba5bf73593643d98bcc473a6cacd6f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba5bf73593643d98bcc473a6cacd6f1">IndexGrid</a> (<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;igrid, const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;icasts, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;itr=Transform3::Identity())</td></tr>
 <tr class="memdesc:adba5bf73593643d98bcc473a6cacd6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a grid based surface attacher.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a7da103a36a9bf583351f10642d0f4fdf" id="r_a7da103a36a9bf583351f10642d0f4fdf"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7da103a36a9bf583351f10642d0f4fdf">casts</a> {}</td></tr>
-<tr class="memdesc:a7da103a36a9bf583351f10642d0f4fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are the cast parameters - copied from constructor.  <br /></td></tr>
-<tr class="memitem:ac133f4132a37b296b4dd306b8de731e3" id="r_ac133f4132a37b296b4dd306b8de731e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac133f4132a37b296b4dd306b8de731e3">grid</a></td></tr>
-<tr class="memdesc:ac133f4132a37b296b4dd306b8de731e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The grid where the indices are stored.  <br /></td></tr>
-<tr class="memitem:ab61cfca41624548c4c76ebf51ebdf854" id="r_ab61cfca41624548c4c76ebf51ebdf854"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61cfca41624548c4c76ebf51ebdf854">transform</a> = Transform3::Identity()</td></tr>
-<tr class="memdesc:ab61cfca41624548c4c76ebf51ebdf854"><td class="mdescLeft">&#160;</td><td class="mdescRight">A transform to be applied to the position.  <br /></td></tr>
+<tr class="memitem:a7da103a36a9bf583351f10642d0f4fdf" id="r_a7da103a36a9bf583351f10642d0f4fdf"><td class="memItemLeft" align="right" valign="top"><a id="a7da103a36a9bf583351f10642d0f4fdf" name="a7da103a36a9bf583351f10642d0f4fdf"></a>
+std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>casts</b> {}</td></tr>
+<tr class="memdesc:a7da103a36a9bf583351f10642d0f4fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are the cast parameters - copied from constructor. <br /></td></tr>
+<tr class="memitem:ac133f4132a37b296b4dd306b8de731e3" id="r_ac133f4132a37b296b4dd306b8de731e3"><td class="memItemLeft" align="right" valign="top"><a id="ac133f4132a37b296b4dd306b8de731e3" name="ac133f4132a37b296b4dd306b8de731e3"></a>
+<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>grid</b></td></tr>
+<tr class="memdesc:ac133f4132a37b296b4dd306b8de731e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The grid where the indices are stored. <br /></td></tr>
+<tr class="memitem:ab61cfca41624548c4c76ebf51ebdf854" id="r_ab61cfca41624548c4c76ebf51ebdf854"><td class="memItemLeft" align="right" valign="top"><a id="ab61cfca41624548c4c76ebf51ebdf854" name="ab61cfca41624548c4c76ebf51ebdf854"></a>
+<a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transform</b> = Transform3::Identity()</td></tr>
+<tr class="memdesc:ab61cfca41624548c4c76ebf51ebdf854"><td class="mdescLeft">&#160;</td><td class="mdescRight">A transform to be applied to the position. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename grid_t&gt;<br />
@@ -175,28 +178,9 @@ class Acts::IndexGrid&lt; grid_t &gt;</div><p>This is an index grid based naviga
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a4239aba4f91273de7de37a430b4ad396" name="a4239aba4f91273de7de37a430b4ad396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4239aba4f91273de7de37a430b4ad396">&#9670;&#160;</a></span>grid_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::grid_type = grid_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Broadcast the grid type. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adba5bf73593643d98bcc473a6cacd6f1" name="adba5bf73593643d98bcc473a6cacd6f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adba5bf73593643d98bcc473a6cacd6f1">&#9670;&#160;</a></span>IndexGrid() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adba5bf73593643d98bcc473a6cacd6f1">&#9670;&#160;</a></span>IndexGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,88 +214,6 @@ template&lt;typename grid_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a26f90f254eefa3d4ec4c32aa2ce62c6f" name="a26f90f254eefa3d4ec4c32aa2ce62c6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26f90f254eefa3d4ec4c32aa2ce62c6f">&#9670;&#160;</a></span>IndexGrid() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::IndexGrid </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a7da103a36a9bf583351f10642d0f4fdf" name="a7da103a36a9bf583351f10642d0f4fdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7da103a36a9bf583351f10642d0f4fdf">&#9670;&#160;</a></span>casts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM&gt; <a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::casts {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>These are the cast parameters - copied from constructor. </p>
-
-</div>
-</div>
-<a id="ac133f4132a37b296b4dd306b8de731e3" name="ac133f4132a37b296b4dd306b8de731e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac133f4132a37b296b4dd306b8de731e3">&#9670;&#160;</a></span>grid</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> <a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::grid</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The grid where the indices are stored. </p>
-
-</div>
-</div>
-<a id="ab61cfca41624548c4c76ebf51ebdf854" name="ab61cfca41624548c4c76ebf51ebdf854"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab61cfca41624548c4c76ebf51ebdf854">&#9670;&#160;</a></span>transform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> <a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::transform = Transform3::Identity()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A transform to be applied to the position. </p>
 
 </div>
 </div>

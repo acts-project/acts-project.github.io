@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_event_data_view3_d.html','','struct_ac
 </div><!--header-->
 <div class="contents">
 
+<p>Utilities to visualize event data in 3D.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_event_data_view3_d_8hpp_source.html">Acts/Visualization/EventDataView3D.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -147,7 +150,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a59030216f354ac1d475e8f459949d004 template"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59030216f354ac1d475e8f459949d004">drawMultiTrajectory</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const traj_t &amp;multiTraj, const std::size_t &amp;entryIndex, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx=<a class="el" href="class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379">GeometryContext::dangerouslyDefaultConstruct</a>(), double momentumScale=1., double locErrorScale=1., double angularErrorScale=1., const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;surfaceConfig=<a class="el" href="namespace_acts.html#a2e6deff8fee97c4b0739e26f4ad59496">s_viewSensitive</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;measurementConfig=<a class="el" href="namespace_acts.html#a2a554d4531937faeff795eae33ae831c">s_viewMeasurement</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;predictedConfig=<a class="el" href="namespace_acts.html#a254ae108fc03e77b6696a99306f5cf97">s_viewPredicted</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;filteredConfig=<a class="el" href="namespace_acts.html#a8eecb9e1cadbd7e2d179dc57de6c37b7">s_viewFiltered</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;smoothedConfig=<a class="el" href="namespace_acts.html#a11cf9f040a91360f791598e0fec7b03a">s_viewSmoothed</a>)</td></tr>
 <tr class="memdesc:a59030216f354ac1d475e8f459949d004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to draw one trajectory stored in a MultiTrajectory object.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Utilities to visualize event data in 3D. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a9a9069880314ee9ab7a9f282e2e5d5ce" name="a9a9069880314ee9ab7a9f282e2e5d5ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a9069880314ee9ab7a9f282e2e5d5ce">&#9670;&#160;</a></span>createEllipse()</h2>
 
@@ -213,6 +218,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of 3D points representing the ellipse </dd></dl>
 
 </div>
 </div>
@@ -246,6 +252,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Array containing [eigenvalue0, eigenvalue1, theta] </dd></dl>
 
 </div>
 </div>

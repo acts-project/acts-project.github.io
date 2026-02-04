@@ -138,28 +138,33 @@ Collaboration diagram for ActsFatras::Cluster&lt; signal_t, kSize &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac5a1ac9ca4cdaef4deb97868f64de1b0" id="r_ac5a1ac9ca4cdaef4deb97868f64de1b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5a1ac9ca4cdaef4deb97868f64de1b0">CovarianceMatrix</a> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a>&lt;kSize&gt;</td></tr>
-<tr class="memdesc:ac5a1ac9ca4cdaef4deb97868f64de1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix of dimension kSize x kSize.  <br /></td></tr>
-<tr class="memitem:aab788def00abafb950ca1be47b9983db" id="r_aab788def00abafb950ca1be47b9983db"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab788def00abafb950ca1be47b9983db">ParametersVector</a> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a>&lt;kSize&gt;</td></tr>
-<tr class="memdesc:aab788def00abafb950ca1be47b9983db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for parameter vector of dimension kSize.  <br /></td></tr>
+<tr class="memitem:ac5a1ac9ca4cdaef4deb97868f64de1b0" id="r_ac5a1ac9ca4cdaef4deb97868f64de1b0"><td class="memItemLeft" align="right" valign="top"><a id="ac5a1ac9ca4cdaef4deb97868f64de1b0" name="ac5a1ac9ca4cdaef4deb97868f64de1b0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMatrix</b> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a>&lt;kSize&gt;</td></tr>
+<tr class="memdesc:ac5a1ac9ca4cdaef4deb97868f64de1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix of dimension kSize x kSize. <br /></td></tr>
+<tr class="memitem:aab788def00abafb950ca1be47b9983db" id="r_aab788def00abafb950ca1be47b9983db"><td class="memItemLeft" align="right" valign="top"><a id="aab788def00abafb950ca1be47b9983db" name="aab788def00abafb950ca1be47b9983db"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersVector</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a>&lt;kSize&gt;</td></tr>
+<tr class="memdesc:aab788def00abafb950ca1be47b9983db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for parameter vector of dimension kSize. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d3a2bfc5e9f166ab15ec71394035fad" id="r_a2d3a2bfc5e9f166ab15ec71394035fad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d3a2bfc5e9f166ab15ec71394035fad">Cluster</a> ()=delete</td></tr>
 <tr class="memitem:a3f91e5054ca4de381f7ac5b49f41c9d2" id="r_a3f91e5054ca4de381f7ac5b49f41c9d2"><td class="memTemplParams" colspan="2">template&lt;typename parameters_t, typename covariance_t&gt; </td></tr>
 <tr class="memitem:a3f91e5054ca4de381f7ac5b49f41c9d2 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f91e5054ca4de381f7ac5b49f41c9d2">Cluster</a> (const Eigen::MatrixBase&lt; parameters_t &gt; &amp;p, const Eigen::MatrixBase&lt; covariance_t &gt; &amp;c, std::array&lt; unsigned int, kSize &gt; cSize, std::vector&lt; <a class="el" href="struct_acts_fatras_1_1_channel.html">Channel</a>&lt; signal_t, kSize &gt; &gt; cChannels)</td></tr>
 <tr class="memdesc:a3f91e5054ca4de381f7ac5b49f41c9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cluster constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a13f5468a84e5153c08fe5e887e033e18" id="r_a13f5468a84e5153c08fe5e887e033e18"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_fatras_1_1_channel.html">Channel</a>&lt; signal_t, kSize &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13f5468a84e5153c08fe5e887e033e18">channels</a></td></tr>
-<tr class="memdesc:a13f5468a84e5153c08fe5e887e033e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constituating signal channels.  <br /></td></tr>
-<tr class="memitem:ac60bad16e8aa7baefc1dc8ef2339e47f" id="r_ac60bad16e8aa7baefc1dc8ef2339e47f"><td class="memItemLeft" align="right" valign="top">std::array&lt; unsigned int, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac60bad16e8aa7baefc1dc8ef2339e47f">clusterSize</a></td></tr>
-<tr class="memdesc:ac60bad16e8aa7baefc1dc8ef2339e47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The resulting cluster size along each channel dimension.  <br /></td></tr>
-<tr class="memitem:a600a5ab96929bef044c6629ca19d7178" id="r_a600a5ab96929bef044c6629ca19d7178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac5a1ac9ca4cdaef4deb97868f64de1b0">CovarianceMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a600a5ab96929bef044c6629ca19d7178">covariance</a> = CovarianceMatrix::Zero()</td></tr>
-<tr class="memdesc:a600a5ab96929bef044c6629ca19d7178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement covariance.  <br /></td></tr>
-<tr class="memitem:af9b2b77cca2b5a07410ea7cc8d23cd78" id="r_af9b2b77cca2b5a07410ea7cc8d23cd78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aab788def00abafb950ca1be47b9983db">ParametersVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b2b77cca2b5a07410ea7cc8d23cd78">parameters</a> = ParametersVector::Zero()</td></tr>
-<tr class="memdesc:af9b2b77cca2b5a07410ea7cc8d23cd78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measured parameters.  <br /></td></tr>
+<tr class="memitem:a13f5468a84e5153c08fe5e887e033e18" id="r_a13f5468a84e5153c08fe5e887e033e18"><td class="memItemLeft" align="right" valign="top"><a id="a13f5468a84e5153c08fe5e887e033e18" name="a13f5468a84e5153c08fe5e887e033e18"></a>
+std::vector&lt; <a class="el" href="struct_acts_fatras_1_1_channel.html">Channel</a>&lt; signal_t, kSize &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>channels</b></td></tr>
+<tr class="memdesc:a13f5468a84e5153c08fe5e887e033e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constituating signal channels. <br /></td></tr>
+<tr class="memitem:ac60bad16e8aa7baefc1dc8ef2339e47f" id="r_ac60bad16e8aa7baefc1dc8ef2339e47f"><td class="memItemLeft" align="right" valign="top"><a id="ac60bad16e8aa7baefc1dc8ef2339e47f" name="ac60bad16e8aa7baefc1dc8ef2339e47f"></a>
+std::array&lt; unsigned int, kSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>clusterSize</b></td></tr>
+<tr class="memdesc:ac60bad16e8aa7baefc1dc8ef2339e47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The resulting cluster size along each channel dimension. <br /></td></tr>
+<tr class="memitem:a600a5ab96929bef044c6629ca19d7178" id="r_a600a5ab96929bef044c6629ca19d7178"><td class="memItemLeft" align="right" valign="top"><a id="a600a5ab96929bef044c6629ca19d7178" name="a600a5ab96929bef044c6629ca19d7178"></a>
+<a class="el" href="#ac5a1ac9ca4cdaef4deb97868f64de1b0">CovarianceMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>covariance</b> = CovarianceMatrix::Zero()</td></tr>
+<tr class="memdesc:a600a5ab96929bef044c6629ca19d7178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement covariance. <br /></td></tr>
+<tr class="memitem:af9b2b77cca2b5a07410ea7cc8d23cd78" id="r_af9b2b77cca2b5a07410ea7cc8d23cd78"><td class="memItemLeft" align="right" valign="top"><a id="af9b2b77cca2b5a07410ea7cc8d23cd78" name="af9b2b77cca2b5a07410ea7cc8d23cd78"></a>
+<a class="el" href="#aab788def00abafb950ca1be47b9983db">ParametersVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>parameters</b> = ParametersVector::Zero()</td></tr>
+<tr class="memdesc:af9b2b77cca2b5a07410ea7cc8d23cd78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measured parameters. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename signal_t, std::size_t kSize&gt;<br />
@@ -171,46 +176,9 @@ struct ActsFatras::Cluster&lt; signal_t, kSize &gt;</div><p>A (simulated) cluste
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ac5a1ac9ca4cdaef4deb97868f64de1b0" name="ac5a1ac9ca4cdaef4deb97868f64de1b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5a1ac9ca4cdaef4deb97868f64de1b0">&#9670;&#160;</a></span>CovarianceMatrix</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::CovarianceMatrix = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a>&lt;kSize&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for covariance matrix of dimension kSize x kSize. </p>
-
-</div>
-</div>
-<a id="aab788def00abafb950ca1be47b9983db" name="aab788def00abafb950ca1be47b9983db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab788def00abafb950ca1be47b9983db">&#9670;&#160;</a></span>ParametersVector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::ParametersVector = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a>&lt;kSize&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for parameter vector of dimension kSize. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3f91e5054ca4de381f7ac5b49f41c9d2" name="a3f91e5054ca4de381f7ac5b49f41c9d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f91e5054ca4de381f7ac5b49f41c9d2">&#9670;&#160;</a></span>Cluster() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f91e5054ca4de381f7ac5b49f41c9d2">&#9670;&#160;</a></span>Cluster()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,106 +220,6 @@ template&lt;typename parameters_t, typename covariance_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a2d3a2bfc5e9f166ab15ec71394035fad" name="a2d3a2bfc5e9f166ab15ec71394035fad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d3a2bfc5e9f166ab15ec71394035fad">&#9670;&#160;</a></span>Cluster() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::Cluster </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a13f5468a84e5153c08fe5e887e033e18" name="a13f5468a84e5153c08fe5e887e033e18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13f5468a84e5153c08fe5e887e033e18">&#9670;&#160;</a></span>channels</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_fatras_1_1_channel.html">Channel</a>&lt;signal_t, kSize&gt; &gt; <a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::channels</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The constituating signal channels. </p>
-
-</div>
-</div>
-<a id="ac60bad16e8aa7baefc1dc8ef2339e47f" name="ac60bad16e8aa7baefc1dc8ef2339e47f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac60bad16e8aa7baefc1dc8ef2339e47f">&#9670;&#160;</a></span>clusterSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;unsigned int, kSize&gt; <a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::clusterSize</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The resulting cluster size along each channel dimension. </p>
-
-</div>
-</div>
-<a id="a600a5ab96929bef044c6629ca19d7178" name="a600a5ab96929bef044c6629ca19d7178"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a600a5ab96929bef044c6629ca19d7178">&#9670;&#160;</a></span>covariance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ac5a1ac9ca4cdaef4deb97868f64de1b0">CovarianceMatrix</a> <a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::covariance = CovarianceMatrix::Zero()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Measurement covariance. </p>
-
-</div>
-</div>
-<a id="af9b2b77cca2b5a07410ea7cc8d23cd78" name="af9b2b77cca2b5a07410ea7cc8d23cd78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9b2b77cca2b5a07410ea7cc8d23cd78">&#9670;&#160;</a></span>parameters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename signal_t, std::size_t kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#aab788def00abafb950ca1be47b9983db">ParametersVector</a> <a class="el" href="struct_acts_fatras_1_1_cluster.html">ActsFatras::Cluster</a>&lt; signal_t, kSize &gt;::parameters = ParametersVector::Zero()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Measured parameters. </p>
 
 </div>
 </div>

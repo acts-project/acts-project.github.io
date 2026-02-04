@@ -1,5 +1,5 @@
 <map id="ActsPlugins::GeoModelDetectorObjectFactory::Cache" name="ActsPlugins::GeoModelDetectorObjectFactory::Cache">
-<area shape="rect" id="Node000001" title=" " alt="" coords="877,107,1104,147"/>
+<area shape="rect" id="Node000001" title="Cache for storing created detector elements and factory objects." alt="" coords="877,107,1104,147"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="438,5,670,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="684,38,768,52,854,72,944,104,943,109,853,77,767,58,683,43"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="19,43,149,69"/>

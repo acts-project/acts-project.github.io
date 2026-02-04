@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html" target="_top" xlink:title="Seed metadata produced by the GBTs algorithm.">
 <polygon fill="white" stroke="#666666" points="178,-30 0,-30 0,0 178,0 178,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="89" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::SeedFinderGbts::seedProperties</text>

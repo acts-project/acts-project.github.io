@@ -138,7 +138,6 @@ Collaboration diagram for Acts::BinningData:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abca8753679c6973e09a8562dd8c9d9d0" id="r_abca8753679c6973e09a8562dd8c9d9d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abca8753679c6973e09a8562dd8c9d9d0">BinningData</a> ()=default</td></tr>
 <tr class="memitem:a652c017c532bc2e17a520c3716b79516" id="r_a652c017c532bc2e17a520c3716b79516"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> bValue, float bMin, float bMax)</td></tr>
 <tr class="memdesc:a652c017c532bc2e17a520c3716b79516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for 0D binning.  <br /></td></tr>
 <tr class="memitem:ade89126f2f6fbdf65a757269428aa8d3" id="r_ade89126f2f6fbdf65a757269428aa8d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade89126f2f6fbdf65a757269428aa8d3">BinningData</a> (<a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">BinningOption</a> bOption, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> bValue, const std::vector&lt; float &gt; &amp;bBoundaries, std::unique_ptr&lt; const BinningData &gt; sBinData=nullptr)</td></tr>
@@ -149,7 +148,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad5e22abf0d0e6f2e180cd7c054db5705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a8d8fbf18a1eead6c21d8fe7206bfe3b8" id="r_a8d8fbf18a1eead6c21d8fe7206bfe3b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d8fbf18a1eead6c21d8fe7206bfe3b8">BinningData</a> (const <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &amp;dpAxis)</td></tr>
 <tr class="memdesc:a8d8fbf18a1eead6c21d8fe7206bfe3b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from DirectedProtoAxis.  <br /></td></tr>
-<tr class="memitem:aaf040150bd71f750179c2bdc0bb5985b" id="r_aaf040150bd71f750179c2bdc0bb5985b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf040150bd71f750179c2bdc0bb5985b">~BinningData</a> ()=default</td></tr>
 <tr class="memitem:a464a59283e3b04b48c48c4520ca9ec77" id="r_a464a59283e3b04b48c48c4520ca9ec77"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464a59283e3b04b48c48c4520ca9ec77">bins</a> () const</td></tr>
 <tr class="memdesc:a464a59283e3b04b48c48c4520ca9ec77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bins - including sub bins.  <br /></td></tr>
 <tr class="memitem:a69a1459cc6f0d2628e649d6530ac9f48" id="r_a69a1459cc6f0d2628e649d6530ac9f48"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a1459cc6f0d2628e649d6530ac9f48">boundaries</a> () const</td></tr>
@@ -187,24 +185,33 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad59bcd5dff2cace2c9879c93d7540752" id="r_ad59bcd5dff2cace2c9879c93d7540752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad59bcd5dff2cace2c9879c93d7540752">binvalue</a> {}</td></tr>
-<tr class="memdesc:ad59bcd5dff2cace2c9879c93d7540752"><td class="mdescLeft">&#160;</td><td class="mdescRight">axis direction: AxisX, AxisY, AxisZ, ...  <br /></td></tr>
-<tr class="memitem:a51c0294d8b7b9f42a3f4f855e3ebc012" id="r_a51c0294d8b7b9f42a3f4f855e3ebc012"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51c0294d8b7b9f42a3f4f855e3ebc012">max</a> {}</td></tr>
-<tr class="memdesc:a51c0294d8b7b9f42a3f4f855e3ebc012"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum value  <br /></td></tr>
-<tr class="memitem:addcbccef2b93b6128f619d399fcfabaf" id="r_addcbccef2b93b6128f619d399fcfabaf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addcbccef2b93b6128f619d399fcfabaf">min</a> {}</td></tr>
-<tr class="memdesc:addcbccef2b93b6128f619d399fcfabaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum value  <br /></td></tr>
-<tr class="memitem:ad8e8129f36bfeed6973875d1316dd69e" id="r_ad8e8129f36bfeed6973875d1316dd69e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">BinningOption</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8e8129f36bfeed6973875d1316dd69e">option</a> {}</td></tr>
-<tr class="memdesc:ad8e8129f36bfeed6973875d1316dd69e"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning option: open, closed  <br /></td></tr>
-<tr class="memitem:a8be505d59fb083da58f3a7147ac9c9d3" id="r_a8be505d59fb083da58f3a7147ac9c9d3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be505d59fb083da58f3a7147ac9c9d3">step</a> {}</td></tr>
-<tr class="memdesc:a8be505d59fb083da58f3a7147ac9c9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning step  <br /></td></tr>
-<tr class="memitem:ad790ff296e80e223f7749c9b122016fb" id="r_ad790ff296e80e223f7749c9b122016fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad790ff296e80e223f7749c9b122016fb">subBinningAdditive</a> {}</td></tr>
-<tr class="memdesc:ad790ff296e80e223f7749c9b122016fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: additive or multiplicative  <br /></td></tr>
-<tr class="memitem:a258da64c082b89b71ef6fe7042dd30f2" id="r_a258da64c082b89b71ef6fe7042dd30f2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258da64c082b89b71ef6fe7042dd30f2">subBinningData</a></td></tr>
-<tr class="memdesc:a258da64c082b89b71ef6fe7042dd30f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: describe some sub binning  <br /></td></tr>
-<tr class="memitem:a6b02301389c330fe45bffb2d952e376f" id="r_a6b02301389c330fe45bffb2d952e376f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b02301389c330fe45bffb2d952e376f">type</a> {}</td></tr>
-<tr class="memdesc:a6b02301389c330fe45bffb2d952e376f"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning type: equidistant, arbitrary  <br /></td></tr>
-<tr class="memitem:a255a0d4b70b97279d66823cfc0809d0e" id="r_a255a0d4b70b97279d66823cfc0809d0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255a0d4b70b97279d66823cfc0809d0e">zdim</a> {}</td></tr>
-<tr class="memdesc:a255a0d4b70b97279d66823cfc0809d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">zero dimensional binning : direct access  <br /></td></tr>
+<tr class="memitem:ad59bcd5dff2cace2c9879c93d7540752" id="r_ad59bcd5dff2cace2c9879c93d7540752"><td class="memItemLeft" align="right" valign="top"><a id="ad59bcd5dff2cace2c9879c93d7540752" name="ad59bcd5dff2cace2c9879c93d7540752"></a>
+<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>binvalue</b> {}</td></tr>
+<tr class="memdesc:ad59bcd5dff2cace2c9879c93d7540752"><td class="mdescLeft">&#160;</td><td class="mdescRight">axis direction: AxisX, AxisY, AxisZ, ... <br /></td></tr>
+<tr class="memitem:a51c0294d8b7b9f42a3f4f855e3ebc012" id="r_a51c0294d8b7b9f42a3f4f855e3ebc012"><td class="memItemLeft" align="right" valign="top"><a id="a51c0294d8b7b9f42a3f4f855e3ebc012" name="a51c0294d8b7b9f42a3f4f855e3ebc012"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>max</b> {}</td></tr>
+<tr class="memdesc:a51c0294d8b7b9f42a3f4f855e3ebc012"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum value <br /></td></tr>
+<tr class="memitem:addcbccef2b93b6128f619d399fcfabaf" id="r_addcbccef2b93b6128f619d399fcfabaf"><td class="memItemLeft" align="right" valign="top"><a id="addcbccef2b93b6128f619d399fcfabaf" name="addcbccef2b93b6128f619d399fcfabaf"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>min</b> {}</td></tr>
+<tr class="memdesc:addcbccef2b93b6128f619d399fcfabaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum value <br /></td></tr>
+<tr class="memitem:ad8e8129f36bfeed6973875d1316dd69e" id="r_ad8e8129f36bfeed6973875d1316dd69e"><td class="memItemLeft" align="right" valign="top"><a id="ad8e8129f36bfeed6973875d1316dd69e" name="ad8e8129f36bfeed6973875d1316dd69e"></a>
+<a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">BinningOption</a>&#160;</td><td class="memItemRight" valign="bottom"><b>option</b> {}</td></tr>
+<tr class="memdesc:ad8e8129f36bfeed6973875d1316dd69e"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning option: open, closed <br /></td></tr>
+<tr class="memitem:a8be505d59fb083da58f3a7147ac9c9d3" id="r_a8be505d59fb083da58f3a7147ac9c9d3"><td class="memItemLeft" align="right" valign="top"><a id="a8be505d59fb083da58f3a7147ac9c9d3" name="a8be505d59fb083da58f3a7147ac9c9d3"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>step</b> {}</td></tr>
+<tr class="memdesc:a8be505d59fb083da58f3a7147ac9c9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning step <br /></td></tr>
+<tr class="memitem:ad790ff296e80e223f7749c9b122016fb" id="r_ad790ff296e80e223f7749c9b122016fb"><td class="memItemLeft" align="right" valign="top"><a id="ad790ff296e80e223f7749c9b122016fb" name="ad790ff296e80e223f7749c9b122016fb"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>subBinningAdditive</b> {}</td></tr>
+<tr class="memdesc:ad790ff296e80e223f7749c9b122016fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: additive or multiplicative <br /></td></tr>
+<tr class="memitem:a258da64c082b89b71ef6fe7042dd30f2" id="r_a258da64c082b89b71ef6fe7042dd30f2"><td class="memItemLeft" align="right" valign="top"><a id="a258da64c082b89b71ef6fe7042dd30f2" name="a258da64c082b89b71ef6fe7042dd30f2"></a>
+std::unique_ptr&lt; const <a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>subBinningData</b></td></tr>
+<tr class="memdesc:a258da64c082b89b71ef6fe7042dd30f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub structure: describe some sub binning <br /></td></tr>
+<tr class="memitem:a6b02301389c330fe45bffb2d952e376f" id="r_a6b02301389c330fe45bffb2d952e376f"><td class="memItemLeft" align="right" valign="top"><a id="a6b02301389c330fe45bffb2d952e376f" name="a6b02301389c330fe45bffb2d952e376f"></a>
+<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> {}</td></tr>
+<tr class="memdesc:a6b02301389c330fe45bffb2d952e376f"><td class="mdescLeft">&#160;</td><td class="mdescRight">binning type: equidistant, arbitrary <br /></td></tr>
+<tr class="memitem:a255a0d4b70b97279d66823cfc0809d0e" id="r_a255a0d4b70b97279d66823cfc0809d0e"><td class="memItemLeft" align="right" valign="top"><a id="a255a0d4b70b97279d66823cfc0809d0e" name="a255a0d4b70b97279d66823cfc0809d0e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
+<tr class="memdesc:a255a0d4b70b97279d66823cfc0809d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">zero dimensional binning : direct access <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class holds all the data necessary for the bin calculation. </p>
@@ -215,7 +222,7 @@ Public Attributes</h2></td></tr>
 <p>structure is equidistant additive : sub structure replaces one bin (and one bin only) </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a652c017c532bc2e17a520c3716b79516" name="a652c017c532bc2e17a520c3716b79516"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a652c017c532bc2e17a520c3716b79516">&#9670;&#160;</a></span>BinningData() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a652c017c532bc2e17a520c3716b79516">&#9670;&#160;</a></span>BinningData() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +258,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a82dc5fcc85752638f4d130099ae6efd0" name="a82dc5fcc85752638f4d130099ae6efd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82dc5fcc85752638f4d130099ae6efd0">&#9670;&#160;</a></span>BinningData() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82dc5fcc85752638f4d130099ae6efd0">&#9670;&#160;</a></span>BinningData() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +318,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ade89126f2f6fbdf65a757269428aa8d3" name="ade89126f2f6fbdf65a757269428aa8d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade89126f2f6fbdf65a757269428aa8d3">&#9670;&#160;</a></span>BinningData() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade89126f2f6fbdf65a757269428aa8d3">&#9670;&#160;</a></span>BinningData() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +360,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad5e22abf0d0e6f2e180cd7c054db5705" name="ad5e22abf0d0e6f2e180cd7c054db5705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5e22abf0d0e6f2e180cd7c054db5705">&#9670;&#160;</a></span>BinningData() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e22abf0d0e6f2e180cd7c054db5705">&#9670;&#160;</a></span>BinningData() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +385,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8d8fbf18a1eead6c21d8fe7206bfe3b8" name="a8d8fbf18a1eead6c21d8fe7206bfe3b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d8fbf18a1eead6c21d8fe7206bfe3b8">&#9670;&#160;</a></span>BinningData() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8fbf18a1eead6c21d8fe7206bfe3b8">&#9670;&#160;</a></span>BinningData() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,56 +414,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="abca8753679c6973e09a8562dd8c9d9d0" name="abca8753679c6973e09a8562dd8c9d9d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abca8753679c6973e09a8562dd8c9d9d0">&#9670;&#160;</a></span>BinningData() <span class="overload">[6/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::BinningData::BinningData </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaf040150bd71f750179c2bdc0bb5985b" name="aaf040150bd71f750179c2bdc0bb5985b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf040150bd71f750179c2bdc0bb5985b">&#9670;&#160;</a></span>~BinningData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::BinningData::~BinningData </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -897,151 +854,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>float value of width </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad59bcd5dff2cace2c9879c93d7540752" name="ad59bcd5dff2cace2c9879c93d7540752"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59bcd5dff2cace2c9879c93d7540752">&#9670;&#160;</a></span>binvalue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> Acts::BinningData::binvalue {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>axis direction: AxisX, AxisY, AxisZ, ... </p>
-
-</div>
-</div>
-<a id="a51c0294d8b7b9f42a3f4f855e3ebc012" name="a51c0294d8b7b9f42a3f4f855e3ebc012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51c0294d8b7b9f42a3f4f855e3ebc012">&#9670;&#160;</a></span>max</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BinningData::max {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>maximum value </p>
-
-</div>
-</div>
-<a id="addcbccef2b93b6128f619d399fcfabaf" name="addcbccef2b93b6128f619d399fcfabaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addcbccef2b93b6128f619d399fcfabaf">&#9670;&#160;</a></span>min</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BinningData::min {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>minimum value </p>
-
-</div>
-</div>
-<a id="ad8e8129f36bfeed6973875d1316dd69e" name="ad8e8129f36bfeed6973875d1316dd69e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8e8129f36bfeed6973875d1316dd69e">&#9670;&#160;</a></span>option</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">BinningOption</a> Acts::BinningData::option {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>binning option: open, closed </p>
-
-</div>
-</div>
-<a id="a8be505d59fb083da58f3a7147ac9c9d3" name="a8be505d59fb083da58f3a7147ac9c9d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8be505d59fb083da58f3a7147ac9c9d3">&#9670;&#160;</a></span>step</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BinningData::step {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>binning step </p>
-
-</div>
-</div>
-<a id="ad790ff296e80e223f7749c9b122016fb" name="ad790ff296e80e223f7749c9b122016fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad790ff296e80e223f7749c9b122016fb">&#9670;&#160;</a></span>subBinningAdditive</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::BinningData::subBinningAdditive {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>sub structure: additive or multiplicative </p>
-
-</div>
-</div>
-<a id="a258da64c082b89b71ef6fe7042dd30f2" name="a258da64c082b89b71ef6fe7042dd30f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a258da64c082b89b71ef6fe7042dd30f2">&#9670;&#160;</a></span>subBinningData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;const <a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a>&gt; Acts::BinningData::subBinningData</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>sub structure: describe some sub binning </p>
-
-</div>
-</div>
-<a id="a6b02301389c330fe45bffb2d952e376f" name="a6b02301389c330fe45bffb2d952e376f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b02301389c330fe45bffb2d952e376f">&#9670;&#160;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> Acts::BinningData::type {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>binning type: equidistant, arbitrary </p>
-
-</div>
-</div>
-<a id="a255a0d4b70b97279d66823cfc0809d0e" name="a255a0d4b70b97279d66823cfc0809d0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a255a0d4b70b97279d66823cfc0809d0e">&#9670;&#160;</a></span>zdim</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::BinningData::zdim {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>zero dimensional binning : direct access </p>
 
 </div>
 </div>

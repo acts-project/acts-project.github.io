@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Collection of mutable data used by clustering utilities.">
 <polygon fill="#999999" stroke="#666666" points="264,-19 127,-19 127,0 264,0 264,-19"/>
 <text text-anchor="middle" x="195.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::ClusteringData</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="class_acts_1_1_ccl_1_1_disjoint_sets.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="class_acts_1_1_ccl_1_1_disjoint_sets.html" target="_top" xlink:title="Wrapper around boost::disjoint_sets used by the clustering helpers.">
 <polygon fill="white" stroke="#666666" points="407,-96.5 284,-96.5 284,-77.5 407,-77.5 407,-96.5"/>
 <text text-anchor="middle" x="345.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::DisjointSets</text>
 </a>

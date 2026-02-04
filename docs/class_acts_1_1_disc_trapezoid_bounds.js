@@ -1,14 +1,6 @@
 var class_acts_1_1_disc_trapezoid_bounds =
 [
-    [ "BoundValues", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5", [
-      [ "eHalfLengthXminR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a039f097625c1c5a7704585982619bc58", null ],
-      [ "eHalfLengthXmaxR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a0a6537d1f99c94d965e0e7787fc91ebe", null ],
-      [ "eMinR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a092b2d923d583394a2a99bfd866e0ff2", null ],
-      [ "eMaxR", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5a4c4116aca40c16c8a2cf5dee1bc58fce", null ],
-      [ "eAveragePhi", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5ade21ca56d3403a0787fba92b44f2671f", null ],
-      [ "eStereo", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5aa68f3cd71f53e2da0994cd07ceb254b7", null ],
-      [ "eSize", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5aa8a21fd7b2e0b10a2b35def04544ac18", null ]
-    ] ],
+    [ "BoundValues", "class_acts_1_1_disc_trapezoid_bounds.html#ab177e1e74a1f1147cf165b27c3e5adb5", null ],
     [ "DiscTrapezoidBounds", "class_acts_1_1_disc_trapezoid_bounds.html#a8dd80e6efa4c294a45c401c57ef94852", null ],
     [ "DiscTrapezoidBounds", "class_acts_1_1_disc_trapezoid_bounds.html#ac67a36cf2b1a3cfe8469187795c6af11", null ],
     [ "binningValuePhi", "class_acts_1_1_disc_trapezoid_bounds.html#ac8fe7e338cdc1f34ab89d18480ca40b7", null ],

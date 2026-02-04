@@ -202,11 +202,9 @@ $(function(){initNavTree('_direction_8hpp_source.html','',''); });
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_acts_1_1_direction.html#addfb1472d67547078f0c3cc6ed0fa002">  110</a></span>  std::string <a class="code hl_function" href="class_acts_1_1_direction.html#addfb1472d67547078f0c3cc6ed0fa002">toString</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="foldopen" id="foldopen00112" data-start="{" data-end="}">
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="class_acts_1_1_direction.html#ae892ff03b8875a6f8bb13ec045e29447">  112</a></span>  <span class="keyword">friend</span> <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code hl_friend" href="class_acts_1_1_direction.html#ae892ff03b8875a6f8bb13ec045e29447">operator==</a>(Direction lhs, Direction rhs) {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="keyword">friend</span> <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> operator==(Direction lhs, Direction rhs) {</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">return</span> lhs.m_value == rhs.m_value;</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  }</div>
-</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="keyword">explicit</span> <span class="keyword">constexpr</span> <a class="code hl_class" href="class_acts_1_1_direction.html">Direction</a>(Value value) : m_value(value) {}</div>
@@ -314,7 +312,6 @@ $(function(){initNavTree('_direction_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_direction_html_abd3c42fe95d4f61c8146bdf82829d305"><div class="ttname"><a href="class_acts_1_1_direction.html#abd3c42fe95d4f61c8146bdf82829d305">Acts::Direction::Negative</a></div><div class="ttdeci">static constexpr Direction Negative()</div><div class="ttdoc">Create negative direction (-1).</div><div class="ttdef"><b>Definition</b> Direction.hpp:32</div></div>
 <div class="ttc" id="aclass_acts_1_1_direction_html_ace1031c6551ace96091ecc0b230bf8bc"><div class="ttname"><a href="class_acts_1_1_direction.html#ace1031c6551ace96091ecc0b230bf8bc">Acts::Direction::fromIndex</a></div><div class="ttdeci">static constexpr Direction fromIndex(std::size_t index)</div><div class="ttdoc">Convert and index [0,1] to a direction e.g.</div><div class="ttdef"><b>Definition</b> Direction.hpp:81</div></div>
 <div class="ttc" id="aclass_acts_1_1_direction_html_addfb1472d67547078f0c3cc6ed0fa002"><div class="ttname"><a href="class_acts_1_1_direction.html#addfb1472d67547078f0c3cc6ed0fa002">Acts::Direction::toString</a></div><div class="ttdeci">std::string toString() const</div><div class="ttdoc">Convert direction to string representation.</div></div>
-<div class="ttc" id="aclass_acts_1_1_direction_html_ae892ff03b8875a6f8bb13ec045e29447"><div class="ttname"><a href="class_acts_1_1_direction.html#ae892ff03b8875a6f8bb13ec045e29447">Acts::Direction::operator==</a></div><div class="ttdeci">friend constexpr bool operator==(Direction lhs, Direction rhs)</div><div class="ttdef"><b>Definition</b> Direction.hpp:112</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a61cc9ce9d77ed191d22251f2fd7af429"><div class="ttname"><a href="namespace_acts.html#a61cc9ce9d77ed191d22251f2fd7af429">Acts::operator*=</a></div><div class="ttdeci">constexpr int operator*=(int &amp;value, Direction dir)</div><div class="ttdoc">Multiply-assign integer with Direction.</div><div class="ttdef"><b>Definition</b> Direction.hpp:202</div></div>
@@ -326,7 +323,7 @@ $(function(){initNavTree('_direction_8hpp_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_62fbbd6a510b16fcf411bb4b53b66c8e.html">Definitions</a></li><li class="navelem"><b>Direction.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>Definitions</b></li><li class="navelem"><b>Direction.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

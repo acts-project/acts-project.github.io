@@ -21,7 +21,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html" target="_top" xlink:title="Container blueprint node stacking cuboid volumes.">
 <polygon fill="white" stroke="#666666" points="497.5,-78 324.5,-78 324.5,-48 497.5,-48 497.5,-78"/>
 <text text-anchor="start" x="332.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="411" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">::CuboidContainerBlueprintNode</text>
@@ -40,7 +40,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html" target="_top" xlink:title="Container blueprint node stacking cylindrical volumes.">
 <polygon fill="white" stroke="#666666" points="501,-30 321,-30 321,0 501,0 501,-30"/>
 <text text-anchor="start" x="329" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="411" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::CylinderContainerBlueprintNode</text>

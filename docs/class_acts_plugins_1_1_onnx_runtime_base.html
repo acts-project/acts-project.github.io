@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_plugins_1_1_onnx_runtime_base.html','','cla
 </div><!--header-->
 <div class="contents">
 
+<p>General class that sets up the ONNX runtime framework for loading an ML model and using it for inference.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_onnx_runtime_base_8hpp_source.html">/home/runner/work/acts/acts/Plugins/Onnx/include/ActsPlugins/Onnx/OnnxRuntimeBase.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ActsPlugins::OnnxRuntimeBase:</div>
@@ -135,12 +138,14 @@ Inheritance diagram for ActsPlugins::OnnxRuntimeBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:affb0ccea4df739bc87fd0d0ff4537ac6" id="r_affb0ccea4df739bc87fd0d0ff4537ac6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb0ccea4df739bc87fd0d0ff4537ac6">OnnxRuntimeBase</a> ()=default</td></tr>
-<tr class="memdesc:affb0ccea4df739bc87fd0d0ff4537ac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
+<tr class="memitem:affb0ccea4df739bc87fd0d0ff4537ac6" id="r_affb0ccea4df739bc87fd0d0ff4537ac6"><td class="memItemLeft" align="right" valign="top"><a id="affb0ccea4df739bc87fd0d0ff4537ac6" name="affb0ccea4df739bc87fd0d0ff4537ac6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>OnnxRuntimeBase</b> ()=default</td></tr>
+<tr class="memdesc:affb0ccea4df739bc87fd0d0ff4537ac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:a318877c0fd206407b63ea7175361cf1f" id="r_a318877c0fd206407b63ea7175361cf1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318877c0fd206407b63ea7175361cf1f">OnnxRuntimeBase</a> (Ort::Env &amp;env, const char *modelPath)</td></tr>
 <tr class="memdesc:a318877c0fd206407b63ea7175361cf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parametrized constructor.  <br /></td></tr>
-<tr class="memitem:a5d9c02a70ad0284ca45e9ff2971d6be0" id="r_a5d9c02a70ad0284ca45e9ff2971d6be0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9c02a70ad0284ca45e9ff2971d6be0">~OnnxRuntimeBase</a> ()=default</td></tr>
-<tr class="memdesc:a5d9c02a70ad0284ca45e9ff2971d6be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor.  <br /></td></tr>
+<tr class="memitem:a5d9c02a70ad0284ca45e9ff2971d6be0" id="r_a5d9c02a70ad0284ca45e9ff2971d6be0"><td class="memItemLeft" align="right" valign="top"><a id="a5d9c02a70ad0284ca45e9ff2971d6be0" name="a5d9c02a70ad0284ca45e9ff2971d6be0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~OnnxRuntimeBase</b> ()=default</td></tr>
+<tr class="memdesc:a5d9c02a70ad0284ca45e9ff2971d6be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor. <br /></td></tr>
 <tr class="memitem:a9fdfd19a1c399dfa20b1e513e2303333" id="r_a9fdfd19a1c399dfa20b1e513e2303333"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fdfd19a1c399dfa20b1e513e2303333">runONNXInference</a> (<a class="el" href="group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa">NetworkBatchInput</a> &amp;inputTensorValues) const</td></tr>
 <tr class="memdesc:a9fdfd19a1c399dfa20b1e513e2303333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the ONNX inference function for a batch of input.  <br /></td></tr>
 <tr class="memitem:a46ed85cc2ec7aa8c6c3cef78d345c732" id="r_a46ed85cc2ec7aa8c6c3cef78d345c732"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46ed85cc2ec7aa8c6c3cef78d345c732">runONNXInference</a> (std::vector&lt; float &gt; &amp;inputTensorValues) const</td></tr>
@@ -148,36 +153,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29a5856f28dd5e5b448521a4b0857c07" id="r_a29a5856f28dd5e5b448521a4b0857c07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::vector&lt; float &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29a5856f28dd5e5b448521a4b0857c07">runONNXInferenceMultiOutput</a> (<a class="el" href="group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa">NetworkBatchInput</a> &amp;inputTensorValues) const</td></tr>
 <tr class="memdesc:a29a5856f28dd5e5b448521a4b0857c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the multi-output ONNX inference function for a batch of input.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="affb0ccea4df739bc87fd0d0ff4537ac6" name="affb0ccea4df739bc87fd0d0ff4537ac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affb0ccea4df739bc87fd0d0ff4537ac6">&#9670;&#160;</a></span>OnnxRuntimeBase() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::OnnxRuntimeBase::OnnxRuntimeBase </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. </p>
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>General class that sets up the ONNX runtime framework for loading an ML model and using it for inference. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a318877c0fd206407b63ea7175361cf1f" name="a318877c0fd206407b63ea7175361cf1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a318877c0fd206407b63ea7175361cf1f">&#9670;&#160;</a></span>OnnxRuntimeBase() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a318877c0fd206407b63ea7175361cf1f">&#9670;&#160;</a></span>OnnxRuntimeBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,33 +183,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a5d9c02a70ad0284ca45e9ff2971d6be0" name="a5d9c02a70ad0284ca45e9ff2971d6be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d9c02a70ad0284ca45e9ff2971d6be0">&#9670;&#160;</a></span>~OnnxRuntimeBase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::OnnxRuntimeBase::~OnnxRuntimeBase </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default destructor. </p>
 
 </div>
 </div>

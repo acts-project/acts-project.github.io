@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_seed_finder_1_1_seeding_state.html',''
 </div><!--header-->
 <div class="contents">
 
+<p>Scratch buffers used during seeding for a middle space point.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_seed_finder_8hpp_source.html">Acts/Seeding/SeedFinder.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState:</div>
@@ -135,196 +138,44 @@ Collaboration diagram for Acts::SeedFinder&lt; external_spacepoint_t, grid_t, pl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4ca7d509020256c9c8d344750f73252a" id="r_a4ca7d509020256c9c8d344750f73252a"><td class="memItemLeft" align="right" valign="top">boost::container::small_vector&lt; <a class="el" href="struct_acts_1_1_neighbour.html">Neighbour</a>&lt; grid_t &gt;, detail::ipow(3, grid_t::DIM)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ca7d509020256c9c8d344750f73252a">bottomNeighbours</a> {}</td></tr>
-<tr class="memitem:a68d48a825b1c119d291b0f9d0ae26377" id="r_a68d48a825b1c119d291b0f9d0ae26377"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_candidates_for_middle_sp.html">CandidatesForMiddleSp</a>&lt; const external_spacepoint_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68d48a825b1c119d291b0f9d0ae26377">candidatesCollector</a> {}</td></tr>
-<tr class="memitem:a50c379ebd1678a000037bd620ec7dfc4" id="r_a50c379ebd1678a000037bd620ec7dfc4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const external_spacepoint_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50c379ebd1678a000037bd620ec7dfc4">compatBottomSP</a> {}</td></tr>
-<tr class="memitem:ac873e8d2f52515a67e3e6e5590b0a14a" id="r_ac873e8d2f52515a67e3e6e5590b0a14a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const external_spacepoint_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac873e8d2f52515a67e3e6e5590b0a14a">compatTopSP</a> {}</td></tr>
-<tr class="memitem:ae63249b726a05bbafc844d28b300ae94" id="r_ae63249b726a05bbafc844d28b300ae94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae63249b726a05bbafc844d28b300ae94">curvatures</a> {}</td></tr>
-<tr class="memitem:ab3f47ec25be0ddd79c54a967ac209bf7" id="r_ab3f47ec25be0ddd79c54a967ac209bf7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3f47ec25be0ddd79c54a967ac209bf7">impactParameters</a> {}</td></tr>
-<tr class="memitem:a0f33125fbaeb1c93f39360169216cc80" id="r_a0f33125fbaeb1c93f39360169216cc80"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f33125fbaeb1c93f39360169216cc80">linCircleBottom</a> {}</td></tr>
-<tr class="memitem:a86afdfe9eb7d7900fc2a9e0b620070d8" id="r_a86afdfe9eb7d7900fc2a9e0b620070d8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86afdfe9eb7d7900fc2a9e0b620070d8">linCircleTop</a> {}</td></tr>
-<tr class="memitem:a7068b4a39c6b046c1a51b440c8b8e856" id="r_a7068b4a39c6b046c1a51b440c8b8e856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_space_point_mutable_data.html">SpacePointMutableData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7068b4a39c6b046c1a51b440c8b8e856">spacePointMutableData</a> {}</td></tr>
-<tr class="memitem:a794b10aa33f8afa6258c5172755d4558" id="r_a794b10aa33f8afa6258c5172755d4558"><td class="memItemLeft" align="right" valign="top">boost::container::small_vector&lt; <a class="el" href="struct_acts_1_1_neighbour.html">Neighbour</a>&lt; grid_t &gt;, detail::ipow(3, grid_t::DIM)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794b10aa33f8afa6258c5172755d4558">topNeighbours</a> {}</td></tr>
-<tr class="memitem:af0957704ceb08083a6722f8727551043" id="r_af0957704ceb08083a6722f8727551043"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const external_spacepoint_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0957704ceb08083a6722f8727551043">topSpVec</a> {}</td></tr>
+<tr class="memitem:a4ca7d509020256c9c8d344750f73252a" id="r_a4ca7d509020256c9c8d344750f73252a"><td class="memItemLeft" align="right" valign="top"><a id="a4ca7d509020256c9c8d344750f73252a" name="a4ca7d509020256c9c8d344750f73252a"></a>
+boost::container::small_vector&lt; <a class="el" href="struct_acts_1_1_neighbour.html">Neighbour</a>&lt; grid_t &gt;, detail::ipow(3, grid_t::DIM)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bottomNeighbours</b> {}</td></tr>
+<tr class="memdesc:a4ca7d509020256c9c8d344750f73252a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Managing bottom doublet candidates. <br /></td></tr>
+<tr class="memitem:a68d48a825b1c119d291b0f9d0ae26377" id="r_a68d48a825b1c119d291b0f9d0ae26377"><td class="memItemLeft" align="right" valign="top"><a id="a68d48a825b1c119d291b0f9d0ae26377" name="a68d48a825b1c119d291b0f9d0ae26377"></a>
+<a class="el" href="class_acts_1_1_candidates_for_middle_sp.html">CandidatesForMiddleSp</a>&lt; const external_spacepoint_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>candidatesCollector</b> {}</td></tr>
+<tr class="memdesc:a68d48a825b1c119d291b0f9d0ae26377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Managing seed candidates for SpM. <br /></td></tr>
+<tr class="memitem:a50c379ebd1678a000037bd620ec7dfc4" id="r_a50c379ebd1678a000037bd620ec7dfc4"><td class="memItemLeft" align="right" valign="top"><a id="a50c379ebd1678a000037bd620ec7dfc4" name="a50c379ebd1678a000037bd620ec7dfc4"></a>
+std::vector&lt; const external_spacepoint_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compatBottomSP</b> {}</td></tr>
+<tr class="memdesc:a50c379ebd1678a000037bd620ec7dfc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bottom space points compatible with middle. <br /></td></tr>
+<tr class="memitem:ac873e8d2f52515a67e3e6e5590b0a14a" id="r_ac873e8d2f52515a67e3e6e5590b0a14a"><td class="memItemLeft" align="right" valign="top"><a id="ac873e8d2f52515a67e3e6e5590b0a14a" name="ac873e8d2f52515a67e3e6e5590b0a14a"></a>
+std::vector&lt; const external_spacepoint_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compatTopSP</b> {}</td></tr>
+<tr class="memdesc:ac873e8d2f52515a67e3e6e5590b0a14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Top space points compatible with middle. <br /></td></tr>
+<tr class="memitem:ae63249b726a05bbafc844d28b300ae94" id="r_ae63249b726a05bbafc844d28b300ae94"><td class="memItemLeft" align="right" valign="top"><a id="ae63249b726a05bbafc844d28b300ae94" name="ae63249b726a05bbafc844d28b300ae94"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>curvatures</b> {}</td></tr>
+<tr class="memdesc:ae63249b726a05bbafc844d28b300ae94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Curvatures vector to avoid reallocation in each loop. <br /></td></tr>
+<tr class="memitem:ab3f47ec25be0ddd79c54a967ac209bf7" id="r_ab3f47ec25be0ddd79c54a967ac209bf7"><td class="memItemLeft" align="right" valign="top"><a id="ab3f47ec25be0ddd79c54a967ac209bf7" name="ab3f47ec25be0ddd79c54a967ac209bf7"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>impactParameters</b> {}</td></tr>
+<tr class="memdesc:ab3f47ec25be0ddd79c54a967ac209bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impact parameters vector to avoid reallocation in each loop. <br /></td></tr>
+<tr class="memitem:a0f33125fbaeb1c93f39360169216cc80" id="r_a0f33125fbaeb1c93f39360169216cc80"><td class="memItemLeft" align="right" valign="top"><a id="a0f33125fbaeb1c93f39360169216cc80" name="a0f33125fbaeb1c93f39360169216cc80"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>linCircleBottom</b> {}</td></tr>
+<tr class="memdesc:a0f33125fbaeb1c93f39360169216cc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters required to calculate circle with linear equation for bottom-middle. <br /></td></tr>
+<tr class="memitem:a86afdfe9eb7d7900fc2a9e0b620070d8" id="r_a86afdfe9eb7d7900fc2a9e0b620070d8"><td class="memItemLeft" align="right" valign="top"><a id="a86afdfe9eb7d7900fc2a9e0b620070d8" name="a86afdfe9eb7d7900fc2a9e0b620070d8"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>linCircleTop</b> {}</td></tr>
+<tr class="memdesc:a86afdfe9eb7d7900fc2a9e0b620070d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters required to calculate circle with linear equation for middle-top. <br /></td></tr>
+<tr class="memitem:a7068b4a39c6b046c1a51b440c8b8e856" id="r_a7068b4a39c6b046c1a51b440c8b8e856"><td class="memItemLeft" align="right" valign="top"><a id="a7068b4a39c6b046c1a51b440c8b8e856" name="a7068b4a39c6b046c1a51b440c8b8e856"></a>
+<a class="el" href="class_acts_1_1_space_point_mutable_data.html">SpacePointMutableData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>spacePointMutableData</b> {}</td></tr>
+<tr class="memdesc:a7068b4a39c6b046c1a51b440c8b8e856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable variables for Space points used in the seeding. <br /></td></tr>
+<tr class="memitem:a794b10aa33f8afa6258c5172755d4558" id="r_a794b10aa33f8afa6258c5172755d4558"><td class="memItemLeft" align="right" valign="top"><a id="a794b10aa33f8afa6258c5172755d4558" name="a794b10aa33f8afa6258c5172755d4558"></a>
+boost::container::small_vector&lt; <a class="el" href="struct_acts_1_1_neighbour.html">Neighbour</a>&lt; grid_t &gt;, detail::ipow(3, grid_t::DIM)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>topNeighbours</b> {}</td></tr>
+<tr class="memdesc:a794b10aa33f8afa6258c5172755d4558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Managing top doublet candidates. <br /></td></tr>
+<tr class="memitem:af0957704ceb08083a6722f8727551043" id="r_af0957704ceb08083a6722f8727551043"><td class="memItemLeft" align="right" valign="top"><a id="af0957704ceb08083a6722f8727551043" name="af0957704ceb08083a6722f8727551043"></a>
+std::vector&lt; const external_spacepoint_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>topSpVec</b> {}</td></tr>
+<tr class="memdesc:af0957704ceb08083a6722f8727551043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Top space points vector to avoid reallocation in each loop. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a4ca7d509020256c9c8d344750f73252a" name="a4ca7d509020256c9c8d344750f73252a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ca7d509020256c9c8d344750f73252a">&#9670;&#160;</a></span>bottomNeighbours</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::container::small_vector&lt;<a class="el" href="struct_acts_1_1_neighbour.html">Neighbour</a>&lt;grid_t&gt;, detail::ipow(3, grid_t::DIM)&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::bottomNeighbours {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a68d48a825b1c119d291b0f9d0ae26377" name="a68d48a825b1c119d291b0f9d0ae26377"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d48a825b1c119d291b0f9d0ae26377">&#9670;&#160;</a></span>candidatesCollector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_candidates_for_middle_sp.html">CandidatesForMiddleSp</a>&lt;const external_spacepoint_t&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::candidatesCollector {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50c379ebd1678a000037bd620ec7dfc4" name="a50c379ebd1678a000037bd620ec7dfc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50c379ebd1678a000037bd620ec7dfc4">&#9670;&#160;</a></span>compatBottomSP</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;const external_spacepoint_t*&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::compatBottomSP {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac873e8d2f52515a67e3e6e5590b0a14a" name="ac873e8d2f52515a67e3e6e5590b0a14a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac873e8d2f52515a67e3e6e5590b0a14a">&#9670;&#160;</a></span>compatTopSP</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;const external_spacepoint_t*&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::compatTopSP {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae63249b726a05bbafc844d28b300ae94" name="ae63249b726a05bbafc844d28b300ae94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae63249b726a05bbafc844d28b300ae94">&#9670;&#160;</a></span>curvatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::curvatures {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab3f47ec25be0ddd79c54a967ac209bf7" name="ab3f47ec25be0ddd79c54a967ac209bf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3f47ec25be0ddd79c54a967ac209bf7">&#9670;&#160;</a></span>impactParameters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::impactParameters {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f33125fbaeb1c93f39360169216cc80" name="a0f33125fbaeb1c93f39360169216cc80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f33125fbaeb1c93f39360169216cc80">&#9670;&#160;</a></span>linCircleBottom</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a>&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::linCircleBottom {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86afdfe9eb7d7900fc2a9e0b620070d8" name="a86afdfe9eb7d7900fc2a9e0b620070d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86afdfe9eb7d7900fc2a9e0b620070d8">&#9670;&#160;</a></span>linCircleTop</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a>&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::linCircleTop {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7068b4a39c6b046c1a51b440c8b8e856" name="a7068b4a39c6b046c1a51b440c8b8e856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7068b4a39c6b046c1a51b440c8b8e856">&#9670;&#160;</a></span>spacePointMutableData</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_mutable_data.html">SpacePointMutableData</a> <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::spacePointMutableData {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a794b10aa33f8afa6258c5172755d4558" name="a794b10aa33f8afa6258c5172755d4558"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a794b10aa33f8afa6258c5172755d4558">&#9670;&#160;</a></span>topNeighbours</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::container::small_vector&lt;<a class="el" href="struct_acts_1_1_neighbour.html">Neighbour</a>&lt;grid_t&gt;, detail::ipow(3, grid_t::DIM)&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::topNeighbours {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af0957704ceb08083a6722f8727551043" name="af0957704ceb08083a6722f8727551043"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0957704ceb08083a6722f8727551043">&#9670;&#160;</a></span>topSpVec</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;const external_spacepoint_t*&gt; <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState::topSpVec {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt;<br />
+struct Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState</div><p>Scratch buffers used during seeding for a middle space point. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

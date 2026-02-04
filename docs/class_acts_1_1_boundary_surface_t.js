@@ -4,7 +4,6 @@ var class_acts_1_1_boundary_surface_t =
     [ "BoundarySurfaceT", "class_acts_1_1_boundary_surface_t.html#ad9123d09f047a18eca166b564c9997e4", null ],
     [ "BoundarySurfaceT", "class_acts_1_1_boundary_surface_t.html#a6058354fe3bd8e1ea05148759cd6113c", null ],
     [ "BoundarySurfaceT", "class_acts_1_1_boundary_surface_t.html#acf6bb704fb9973daab8861640f20e4ca", null ],
-    [ "~BoundarySurfaceT", "class_acts_1_1_boundary_surface_t.html#ad5ee733321beedaf4a7811fbfa03382e", null ],
     [ "attachedVolume", "class_acts_1_1_boundary_surface_t.html#af88998dcde3c0cfd0a2bbc69c934bea9", null ],
     [ "attachVolume", "class_acts_1_1_boundary_surface_t.html#a7526b5d03d4138ff4c9bb7c1bbf2432c", null ],
     [ "attachVolumeArray", "class_acts_1_1_boundary_surface_t.html#a64b20288369bf04d81c8baf10358e843", null ],

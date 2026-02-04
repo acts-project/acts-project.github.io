@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_plugins_1_1_graph_store_hook.html','','clas
 </div><!--header-->
 <div class="contents">
 
+<p>Hook for storing graph data during GNN pipeline execution.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_graph_store_hook_8hpp_source.html">ActsPlugins/Gnn/GraphStoreHook.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ActsPlugins::GraphStoreHook:</div>
@@ -140,50 +143,20 @@ Collaboration diagram for ActsPlugins::GraphStoreHook:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ad6562e3a309dd2e7ecb71c99bc23e3f0" id="r_ad6562e3a309dd2e7ecb71c99bc23e3f0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6562e3a309dd2e7ecb71c99bc23e3f0">Graph</a> = std::pair&lt;std::vector&lt;std::int64_t&gt;, std::vector&lt;float&gt;&gt;</td></tr>
+<tr class="memitem:ad6562e3a309dd2e7ecb71c99bc23e3f0" id="r_ad6562e3a309dd2e7ecb71c99bc23e3f0"><td class="memItemLeft" align="right" valign="top"><a id="ad6562e3a309dd2e7ecb71c99bc23e3f0" name="ad6562e3a309dd2e7ecb71c99bc23e3f0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Graph</b> = std::pair&lt;std::vector&lt;std::int64_t&gt;, std::vector&lt;float&gt;&gt;</td></tr>
+<tr class="memdesc:ad6562e3a309dd2e7ecb71c99bc23e3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graph data structure (edges, edge features). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:accf0ebe4b646a8c9530555e7f7f04fb8" id="r_accf0ebe4b646a8c9530555e7f7f04fb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accf0ebe4b646a8c9530555e7f7f04fb8">GraphStoreHook</a> ()</td></tr>
 <tr class="memitem:a6174c2c84b98045f667e3dcb052a243a" id="r_a6174c2c84b98045f667e3dcb052a243a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6174c2c84b98045f667e3dcb052a243a">operator()</a> (const <a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> &amp;tensors, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execCtx) const override</td></tr>
+<tr class="memdesc:a6174c2c84b98045f667e3dcb052a243a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store graph data during pipeline execution.  <br /></td></tr>
 <tr class="memitem:a03abbb0c1458a11ebec878a70d55bc22" id="r_a03abbb0c1458a11ebec878a70d55bc22"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ad6562e3a309dd2e7ecb71c99bc23e3f0">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03abbb0c1458a11ebec878a70d55bc22">storedGraph</a> () const</td></tr>
-<tr class="inherit_header pub_methods_class_acts_plugins_1_1_gnn_hook"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_plugins_1_1_gnn_hook')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_plugins_1_1_gnn_hook.html">ActsPlugins::GnnHook</a></td></tr>
-<tr class="memitem:a0766954148c860c533c8a016013dd96a inherit pub_methods_class_acts_plugins_1_1_gnn_hook" id="r_a0766954148c860c533c8a016013dd96a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_gnn_hook.html#a0766954148c860c533c8a016013dd96a">~GnnHook</a> ()=default</td></tr>
+<tr class="memdesc:a03abbb0c1458a11ebec878a70d55bc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the stored graph data.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ad6562e3a309dd2e7ecb71c99bc23e3f0" name="ad6562e3a309dd2e7ecb71c99bc23e3f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6562e3a309dd2e7ecb71c99bc23e3f0">&#9670;&#160;</a></span>Graph</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ad6562e3a309dd2e7ecb71c99bc23e3f0">ActsPlugins::GraphStoreHook::Graph</a> = std::pair&lt;std::vector&lt;std::int64_t&gt;, std::vector&lt;float&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="accf0ebe4b646a8c9530555e7f7f04fb8" name="accf0ebe4b646a8c9530555e7f7f04fb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accf0ebe4b646a8c9530555e7f7f04fb8">&#9670;&#160;</a></span>GraphStoreHook()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::GraphStoreHook::GraphStoreHook </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Hook for storing graph data during GNN pipeline execution. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a6174c2c84b98045f667e3dcb052a243a" name="a6174c2c84b98045f667e3dcb052a243a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6174c2c84b98045f667e3dcb052a243a">&#9670;&#160;</a></span>operator()()</h2>
 
@@ -211,6 +184,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Store graph data during pipeline execution. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tensors</td><td>Pipeline tensor data </td></tr>
+    <tr><td class="paramname">execCtx</td><td>Execution context </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented from <a class="el" href="class_acts_plugins_1_1_gnn_hook.html#ae27efd5d2785bab1c4c77d9d1d11f4b3">ActsPlugins::GnnHook</a>.</p>
 
 </div>
@@ -229,6 +211,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the stored graph data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the stored graph </dd></dl>
 
 </div>
 </div>

@@ -195,7 +195,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="887,-486.18 759,-486.18 759,-456.18 887,-456.18 887,-486.18"/>
+<polygon fill="white" stroke="#bfbfbf" points="887,-486.18 759,-486.18 759,-456.18 887,-456.18 887,-486.18"/>
 <text text-anchor="start" x="767" y="-474.18" font-family="Helvetica,sans-Serif" font-size="10.00">std::enable_shared</text>
 <text text-anchor="middle" x="823" y="-463.18" font-family="Helvetica,sans-Serif" font-size="10.00">_from_this&lt; Surface &gt;</text>
 </a>

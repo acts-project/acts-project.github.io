@@ -143,59 +143,57 @@ Collaboration diagram for Acts::CylinderVolumeBounds:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aaa8295fb3cb34114060fd1d8d372da96" id="r_aaa8295fb3cb34114060fd1d8d372da96"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96">BoundValues</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96aae841f0d8294eac2dcfb66e762ecf871">eMinR</a> = 0
-, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a1647c51342fb4140175b3f3fce9a3c0c">eMaxR</a> = 1
-, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96aba439fd1ee0016da1788033f2f512e1c">eHalfLengthZ</a> = 2
-, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96abc03b40bf146423ea30ae083e0432355">eHalfPhiSector</a> = 3
+<tr class="memitem:aaa8295fb3cb34114060fd1d8d372da96" id="r_aaa8295fb3cb34114060fd1d8d372da96"><td class="memItemLeft" align="right" valign="top"><a id="aaa8295fb3cb34114060fd1d8d372da96" name="aaa8295fb3cb34114060fd1d8d372da96"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96">BoundValues</a> : unsigned int { <br />
+&#160;&#160;<b>eMinR</b> = 0
+, <b>eMaxR</b> = 1
+, <b>eHalfLengthZ</b> = 2
+, <b>eHalfPhiSector</b> = 3
 , <br />
-&#160;&#160;<a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a6c201c1e4c085ad6e3727f6137a7a9d0">eAveragePhi</a> = 4
-, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a3421d5b019c58033f581d9a9e9783db2">eBevelMinZ</a> = 5
-, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a81bbcb51cede683c029e3244bdce21fe">eBevelMaxZ</a> = 6
-, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a6ba80e2d1083f194faaab60c148606b4">eSize</a>
+&#160;&#160;<b>eAveragePhi</b> = 4
+, <b>eBevelMinZ</b> = 5
+, <b>eBevelMaxZ</b> = 6
+, <b>eSize</b>
 <br />
  }</td></tr>
-<tr class="memdesc:aaa8295fb3cb34114060fd1d8d372da96"><td class="mdescLeft">&#160;</td><td class="mdescRight">for streaming and access  <a href="#aaa8295fb3cb34114060fd1d8d372da96">More...</a><br /></td></tr>
+<tr class="memdesc:aaa8295fb3cb34114060fd1d8d372da96"><td class="mdescLeft">&#160;</td><td class="mdescRight">for streaming and access <br /></td></tr>
 <tr class="memitem:a51216b38aa994bf843ad58377b046a02" id="r_a51216b38aa994bf843ad58377b046a02"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51216b38aa994bf843ad58377b046a02">Face</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a51216b38aa994bf843ad58377b046a02aaaae39062a0913863bc2e5a4eb9c3f43">PositiveDisc</a> = BoundarySurfaceFace::positiveFaceXY
-, <a class="el" href="#a51216b38aa994bf843ad58377b046a02a23120c14d8965c28a83d086557e0534c">NegativeDisc</a> = BoundarySurfaceFace::negativeFaceXY
-, <a class="el" href="#a51216b38aa994bf843ad58377b046a02ad9cf2cd2f868ccc9316e9442ad062b9b">OuterCylinder</a> = BoundarySurfaceFace::tubeOuterCover
-, <a class="el" href="#a51216b38aa994bf843ad58377b046a02aac2f242969177499cf39e0e85c24227f">InnerCylinder</a> = BoundarySurfaceFace::tubeInnerCover
+&#160;&#160;<b>PositiveDisc</b> = BoundarySurfaceFace::positiveFaceXY
+, <b>NegativeDisc</b> = BoundarySurfaceFace::negativeFaceXY
+, <b>OuterCylinder</b> = BoundarySurfaceFace::tubeOuterCover
+, <b>InnerCylinder</b> = BoundarySurfaceFace::tubeInnerCover
 , <br />
-&#160;&#160;<a class="el" href="#a51216b38aa994bf843ad58377b046a02a31974d86e07eb407387df630db8e4070">NegativePhiPlane</a> = BoundarySurfaceFace::tubeSectorNegativePhi
-, <a class="el" href="#a51216b38aa994bf843ad58377b046a02a718c19d2340eec691ed8e76941175ab8">PositivePhiPlane</a> = BoundarySurfaceFace::tubeSectorPositivePhi
+&#160;&#160;<b>NegativePhiPlane</b> = BoundarySurfaceFace::tubeSectorNegativePhi
+, <b>PositivePhiPlane</b> = BoundarySurfaceFace::tubeSectorPositivePhi
 <br />
  }</td></tr>
 <tr class="memdesc:a51216b38aa994bf843ad58377b046a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum describing the possible faces of a cylinder volume.  <a href="#a51216b38aa994bf843ad58377b046a02">More...</a><br /></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_volume_bounds"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_volume_bounds')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a></td></tr>
-<tr class="memitem:a3840f312b207bfdd5cbbcc4ac9981495 inherit pub_types_class_acts_1_1_volume_bounds" id="r_a3840f312b207bfdd5cbbcc4ac9981495"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495">BoundsType</a> { <br />
-&#160;&#160;<a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a9a0cd7911f39e925e5b29f602780e2c8">eCone</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495aa3e9dfa095ec5d399034912e501cb5b4">eCuboid</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a1353c349ebba70c186c63b5abe06176e">eCutoutCylinder</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495adf9307543366162ca5ef664dc41df064">eCylinder</a>
+<tr class="memitem:a3840f312b207bfdd5cbbcc4ac9981495 inherit pub_types_class_acts_1_1_volume_bounds" id="r_a3840f312b207bfdd5cbbcc4ac9981495"><td class="memItemLeft" align="right" valign="top"><a id="a3840f312b207bfdd5cbbcc4ac9981495" name="a3840f312b207bfdd5cbbcc4ac9981495"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495">BoundsType</a> { <br />
+&#160;&#160;<b>eCone</b>
+, <b>eCuboid</b>
+, <b>eCutoutCylinder</b>
+, <b>eCylinder</b>
 , <br />
-&#160;&#160;<a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a8a2fe50b80f4ee00c225d458ef41c69e">eGenericCuboid</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495abaf59e1244c0ccb30b4644667e4fe9b5">eTrapezoid</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a473f5f5ee5e2c717fcaea06d66782ae2">eDiamond</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495ad4d8daafac40a4c03967f6dc9db5a717">eOther</a>
+&#160;&#160;<b>eGenericCuboid</b>
+, <b>eTrapezoid</b>
+, <b>eDiamond</b>
+, <b>eOther</b>
 <br />
  }</td></tr>
-<tr class="memdesc:a3840f312b207bfdd5cbbcc4ac9981495"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type.  <a href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495">More...</a><br /></td></tr>
+<tr class="memdesc:a3840f312b207bfdd5cbbcc4ac9981495"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaf2b8e9425a19728961e3b1ed98bd64a" id="r_aaf2b8e9425a19728961e3b1ed98bd64a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf2b8e9425a19728961e3b1ed98bd64a">CylinderVolumeBounds</a> ()=delete</td></tr>
 <tr class="memitem:a53576911a993b1bf17aac3e08c9838f5" id="r_a53576911a993b1bf17aac3e08c9838f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53576911a993b1bf17aac3e08c9838f5">CylinderVolumeBounds</a> (const <a class="el" href="class_acts_1_1_cylinder_bounds.html">CylinderBounds</a> &amp;cBounds, double thickness)</td></tr>
 <tr class="memdesc:a53576911a993b1bf17aac3e08c9838f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - extruded from cylinder bounds and thickness.  <br /></td></tr>
 <tr class="memitem:a66c905eb141b683f27d164d846841bcc" id="r_a66c905eb141b683f27d164d846841bcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66c905eb141b683f27d164d846841bcc">CylinderVolumeBounds</a> (const CylinderVolumeBounds &amp;cylbo)</td></tr>
 <tr class="memdesc:a66c905eb141b683f27d164d846841bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor.  <br /></td></tr>
 <tr class="memitem:a40184d2dae59ba9da3e44289c8a3e4a4" id="r_a40184d2dae59ba9da3e44289c8a3e4a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40184d2dae59ba9da3e44289c8a3e4a4">CylinderVolumeBounds</a> (const <a class="el" href="class_acts_1_1_radial_bounds.html">RadialBounds</a> &amp;rBounds, double thickness)</td></tr>
 <tr class="memdesc:a40184d2dae59ba9da3e44289c8a3e4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - extruded from radial bounds and thickness.  <br /></td></tr>
-<tr class="memitem:af6b927b5ea1b3fb41d2794b996bc8d9e" id="r_af6b927b5ea1b3fb41d2794b996bc8d9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b927b5ea1b3fb41d2794b996bc8d9e">CylinderVolumeBounds</a> (const std::array&lt; double, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a6ba80e2d1083f194faaab60c148606b4">eSize</a> &gt; &amp;<a class="el" href="#a832a9a77c6f0e2d7d62084c097d3bd38">values</a>)</td></tr>
+<tr class="memitem:af6b927b5ea1b3fb41d2794b996bc8d9e" id="r_af6b927b5ea1b3fb41d2794b996bc8d9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b927b5ea1b3fb41d2794b996bc8d9e">CylinderVolumeBounds</a> (const std::array&lt; double, eSize &gt; &amp;<a class="el" href="#a832a9a77c6f0e2d7d62084c097d3bd38">values</a>)</td></tr>
 <tr class="memdesc:af6b927b5ea1b3fb41d2794b996bc8d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - from a fixed size array.  <br /></td></tr>
 <tr class="memitem:a3b0cbf0aa162e82b2e917647fc3879cf" id="r_a3b0cbf0aa162e82b2e917647fc3879cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b0cbf0aa162e82b2e917647fc3879cf">CylinderVolumeBounds</a> (double rmin, double rmax, double halfz, double halfphi=std::numbers::pi, double avgphi=0., double bevelMinZ=0., double bevelMaxZ=0.)</td></tr>
 <tr class="memdesc:a3b0cbf0aa162e82b2e917647fc3879cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:af375e8c251c4900d1ba786b7e8948373" id="r_af375e8c251c4900d1ba786b7e8948373"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af375e8c251c4900d1ba786b7e8948373">~CylinderVolumeBounds</a> () override=default</td></tr>
 <tr class="memitem:ad953f70d12bdc2ecb3972f69362fa99a" id="r_ad953f70d12bdc2ecb3972f69362fa99a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b">Volume::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad953f70d12bdc2ecb3972f69362fa99a">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> *trf=nullptr, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;envelope={0, 0, 0}, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> *entity=nullptr) const final</td></tr>
 <tr class="memdesc:ad953f70d12bdc2ecb3972f69362fa99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:a4e48bf043c4bdcdd2fcf754a4bc4b115" id="r_a4e48bf043c4bdcdd2fcf754a4bc4b115"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e48bf043c4bdcdd2fcf754a4bc4b115">canonicalAxes</a> () const override</td></tr>
@@ -204,7 +202,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a96ad46f500817fa168042248dce2e929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the bound values.  <br /></td></tr>
 <tr class="memitem:ade4d67ba88dadf950d5b38f323b71530" id="r_ade4d67ba88dadf950d5b38f323b71530"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4d67ba88dadf950d5b38f323b71530">inside</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;pos, double tol=0.) const override</td></tr>
 <tr class="memdesc:ade4d67ba88dadf950d5b38f323b71530"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method checks if position in the 3D volume frame is inside the cylinder.  <br /></td></tr>
-<tr class="memitem:ac83a64c69eb18f9f5d1c16afd38ca661" id="r_ac83a64c69eb18f9f5d1c16afd38ca661"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaf2b8e9425a19728961e3b1ed98bd64a">CylinderVolumeBounds</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83a64c69eb18f9f5d1c16afd38ca661">operator=</a> (const <a class="el" href="#aaf2b8e9425a19728961e3b1ed98bd64a">CylinderVolumeBounds</a> &amp;cylbo)=default</td></tr>
+<tr class="memitem:ac83a64c69eb18f9f5d1c16afd38ca661" id="r_ac83a64c69eb18f9f5d1c16afd38ca661"><td class="memItemLeft" align="right" valign="top">CylinderVolumeBounds &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83a64c69eb18f9f5d1c16afd38ca661">operator=</a> (const CylinderVolumeBounds &amp;cylbo)=default</td></tr>
 <tr class="memdesc:ac83a64c69eb18f9f5d1c16afd38ca661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 <tr class="memitem:a1be0caba64c10f58e6e51544855c4722" id="r_a1be0caba64c10f58e6e51544855c4722"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_oriented_surface.html">OrientedSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1be0caba64c10f58e6e51544855c4722">orientedSurfaces</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const override</td></tr>
 <tr class="memdesc:a1be0caba64c10f58e6e51544855c4722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oriented surfaces, i.e.  <br /></td></tr>
@@ -222,15 +220,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a73e83c1605c8bbdfac4e7f51717969d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the bounds type - for persistency optimization.  <br /></td></tr>
 <tr class="memitem:a832a9a77c6f0e2d7d62084c097d3bd38" id="r_a832a9a77c6f0e2d7d62084c097d3bd38"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832a9a77c6f0e2d7d62084c097d3bd38">values</a> () const final</td></tr>
 <tr class="memdesc:a832a9a77c6f0e2d7d62084c097d3bd38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the bound values as dynamically sized vector.  <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_volume_bounds"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_volume_bounds')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a></td></tr>
-<tr class="memitem:a51370d477bcc159f12e16df8dd772caf inherit pub_methods_class_acts_1_1_volume_bounds" id="r_a51370d477bcc159f12e16df8dd772caf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a51370d477bcc159f12e16df8dd772caf">VolumeBounds</a> ()=default</td></tr>
-<tr class="memitem:a94227dab63034d4fe92166a03e287957 inherit pub_methods_class_acts_1_1_volume_bounds" id="r_a94227dab63034d4fe92166a03e287957"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a94227dab63034d4fe92166a03e287957">~VolumeBounds</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_class_acts_1_1_volume_bounds"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_class_acts_1_1_volume_bounds')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a></td></tr>
-<tr class="memitem:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds" id="r_accdf685a7cfd6aaee828b462262d2e63"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#accdf685a7cfd6aaee828b462262d2e63">s_boundsTypeNames</a></td></tr>
-<tr class="memdesc:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static member to get the name of the BoundsType.  <br /></td></tr>
+<tr class="memitem:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds" id="r_accdf685a7cfd6aaee828b462262d2e63"><td class="memItemLeft" align="right" valign="top">
+static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s_boundsTypeNames</b></td></tr>
+<tr class="memdesc:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static member to get the name of the BoundsType. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>[0] and [1] at positive \( \phi \) </p>
@@ -257,32 +253,6 @@ Additional Inherited Members</h2></td></tr>
 </li>
 </ul>
 </div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="aaa8295fb3cb34114060fd1d8d372da96" name="aaa8295fb3cb34114060fd1d8d372da96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa8295fb3cb34114060fd1d8d372da96">&#9670;&#160;</a></span>BoundValues</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96">Acts::CylinderVolumeBounds::BoundValues</a> : unsigned int</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>for streaming and access </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96aae841f0d8294eac2dcfb66e762ecf871" name="aaa8295fb3cb34114060fd1d8d372da96aae841f0d8294eac2dcfb66e762ecf871"></a>eMinR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96a1647c51342fb4140175b3f3fce9a3c0c" name="aaa8295fb3cb34114060fd1d8d372da96a1647c51342fb4140175b3f3fce9a3c0c"></a>eMaxR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96aba439fd1ee0016da1788033f2f512e1c" name="aaa8295fb3cb34114060fd1d8d372da96aba439fd1ee0016da1788033f2f512e1c"></a>eHalfLengthZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96abc03b40bf146423ea30ae083e0432355" name="aaa8295fb3cb34114060fd1d8d372da96abc03b40bf146423ea30ae083e0432355"></a>eHalfPhiSector&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96a6c201c1e4c085ad6e3727f6137a7a9d0" name="aaa8295fb3cb34114060fd1d8d372da96a6c201c1e4c085ad6e3727f6137a7a9d0"></a>eAveragePhi&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96a3421d5b019c58033f581d9a9e9783db2" name="aaa8295fb3cb34114060fd1d8d372da96a3421d5b019c58033f581d9a9e9783db2"></a>eBevelMinZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96a81bbcb51cede683c029e3244bdce21fe" name="aaa8295fb3cb34114060fd1d8d372da96a81bbcb51cede683c029e3244bdce21fe"></a>eBevelMaxZ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaa8295fb3cb34114060fd1d8d372da96a6ba80e2d1083f194faaab60c148606b4" name="aaa8295fb3cb34114060fd1d8d372da96a6ba80e2d1083f194faaab60c148606b4"></a>eSize&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <a id="a51216b38aa994bf843ad58377b046a02" name="a51216b38aa994bf843ad58377b046a02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51216b38aa994bf843ad58377b046a02">&#9670;&#160;</a></span>Face</h2>
 
@@ -305,45 +275,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Enum describing the possible faces of a cylinder volume. </p>
 <dl class="section note"><dt>Note</dt><dd>These values are synchronized with the BoundarySurfaceFace enum. Once Gen1 is removed, this can be changed. </dd></dl>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51216b38aa994bf843ad58377b046a02aaaae39062a0913863bc2e5a4eb9c3f43" name="a51216b38aa994bf843ad58377b046a02aaaae39062a0913863bc2e5a4eb9c3f43"></a>PositiveDisc&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51216b38aa994bf843ad58377b046a02a23120c14d8965c28a83d086557e0534c" name="a51216b38aa994bf843ad58377b046a02a23120c14d8965c28a83d086557e0534c"></a>NegativeDisc&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51216b38aa994bf843ad58377b046a02ad9cf2cd2f868ccc9316e9442ad062b9b" name="a51216b38aa994bf843ad58377b046a02ad9cf2cd2f868ccc9316e9442ad062b9b"></a>OuterCylinder&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51216b38aa994bf843ad58377b046a02aac2f242969177499cf39e0e85c24227f" name="a51216b38aa994bf843ad58377b046a02aac2f242969177499cf39e0e85c24227f"></a>InnerCylinder&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51216b38aa994bf843ad58377b046a02a31974d86e07eb407387df630db8e4070" name="a51216b38aa994bf843ad58377b046a02a31974d86e07eb407387df630db8e4070"></a>NegativePhiPlane&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51216b38aa994bf843ad58377b046a02a718c19d2340eec691ed8e76941175ab8" name="a51216b38aa994bf843ad58377b046a02a718c19d2340eec691ed8e76941175ab8"></a>PositivePhiPlane&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aaf2b8e9425a19728961e3b1ed98bd64a" name="aaf2b8e9425a19728961e3b1ed98bd64a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf2b8e9425a19728961e3b1ed98bd64a">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::CylinderVolumeBounds::CylinderVolumeBounds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3b0cbf0aa162e82b2e917647fc3879cf" name="a3b0cbf0aa162e82b2e917647fc3879cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b0cbf0aa162e82b2e917647fc3879cf">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b0cbf0aa162e82b2e917647fc3879cf">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="af6b927b5ea1b3fb41d2794b996bc8d9e" name="af6b927b5ea1b3fb41d2794b996bc8d9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6b927b5ea1b3fb41d2794b996bc8d9e">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b927b5ea1b3fb41d2794b996bc8d9e">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,7 +351,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">Acts::CylinderVolumeBounds::CylinderVolumeBounds </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; double, <a class="el" href="#aaa8295fb3cb34114060fd1d8d372da96a6ba80e2d1083f194faaab60c148606b4">eSize</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td class="paramtype">const std::array&lt; double, eSize &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -436,7 +373,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a53576911a993b1bf17aac3e08c9838f5" name="a53576911a993b1bf17aac3e08c9838f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53576911a993b1bf17aac3e08c9838f5">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a53576911a993b1bf17aac3e08c9838f5">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a40184d2dae59ba9da3e44289c8a3e4a4" name="a40184d2dae59ba9da3e44289c8a3e4a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40184d2dae59ba9da3e44289c8a3e4a4">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40184d2dae59ba9da3e44289c8a3e4a4">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,7 +433,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a66c905eb141b683f27d164d846841bcc" name="a66c905eb141b683f27d164d846841bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66c905eb141b683f27d164d846841bcc">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66c905eb141b683f27d164d846841bcc">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,31 +454,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="af375e8c251c4900d1ba786b7e8948373" name="af375e8c251c4900d1ba786b7e8948373"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af375e8c251c4900d1ba786b7e8948373">&#9670;&#160;</a></span>~CylinderVolumeBounds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::CylinderVolumeBounds::~CylinderVolumeBounds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -701,9 +613,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aaf2b8e9425a19728961e3b1ed98bd64a">CylinderVolumeBounds</a> &amp; Acts::CylinderVolumeBounds::operator= </td>
+          <td class="memname">CylinderVolumeBounds &amp; Acts::CylinderVolumeBounds::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aaf2b8e9425a19728961e3b1ed98bd64a">CylinderVolumeBounds</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cylbo</em></span></td><td>)</td>
+          <td class="paramtype">const CylinderVolumeBounds &amp;</td>          <td class="paramname"><span class="paramname"><em>cylbo</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -134,18 +134,21 @@ $(function(){initNavTree('class_acts_1_1_boundary_tolerance.html','','class_acts
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:AbsoluteEuclideanParams" id="r_AbsoluteEuclideanParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html">AbsoluteEuclideanParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for absolute Euclidean boundary tolerance.  <a href="struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Chi2BoundParams" id="r_Chi2BoundParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html">Chi2BoundParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for chi2 boundary tolerance in bound coordinates.  <a href="struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Chi2CartesianParams" id="r_Chi2CartesianParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html">Chi2CartesianParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for chi2 boundary tolerance in Cartesian coordinates.  <a href="struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#details">More...</a><br /></td></tr>
 <tr class="memitem:InfiniteParams" id="r_InfiniteParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_boundary_tolerance_1_1_infinite_params.html">InfiniteParams</a></td></tr>
 <tr class="memitem:NoneParams" id="r_NoneParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_boundary_tolerance_1_1_none_params.html">NoneParams</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a388a012afa5f9d77996d4b797d741231" id="r_a388a012afa5f9d77996d4b797d741231"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a388a012afa5f9d77996d4b797d741231">ToleranceMode</a> { <a class="el" href="#a388a012afa5f9d77996d4b797d741231a3bc026b815790a05493fa56fc4b8d8bd">Extend</a>
-, <a class="el" href="#a388a012afa5f9d77996d4b797d741231a6adf97f83acf6453d4a6a4b1070f3754">None</a>
-, <a class="el" href="#a388a012afa5f9d77996d4b797d741231a1bb54971ab41a5a931b23159019fd73f">Shrink</a>
+<tr class="memitem:a388a012afa5f9d77996d4b797d741231" id="r_a388a012afa5f9d77996d4b797d741231"><td class="memItemLeft" align="right" valign="top"><a id="a388a012afa5f9d77996d4b797d741231" name="a388a012afa5f9d77996d4b797d741231"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a388a012afa5f9d77996d4b797d741231">ToleranceMode</a> { <b>Extend</b>
+, <b>None</b>
+, <b>Shrink</b>
  }</td></tr>
-<tr class="memdesc:a388a012afa5f9d77996d4b797d741231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration defining how tolerance should be applied to boundaries.  <a href="#a388a012afa5f9d77996d4b797d741231">More...</a><br /></td></tr>
+<tr class="memdesc:a388a012afa5f9d77996d4b797d741231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration defining how tolerance should be applied to boundaries. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -202,37 +205,7 @@ Static Public Member Functions</h2></td></tr>
 <li>Chi2Cartesian: Chi2 tolerance in Cartesian coordinates. Similar to Chi2Bound, but the chi2 value is calculated in Cartesian coordinates.</li>
 </ul>
 <p>The bound coordinates residual is defined as the difference between the point checked and the closest point on the boundary. The Jacobian is the derivative of the bound coordinates with respect to the Cartesian coordinates. </p>
-</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="a388a012afa5f9d77996d4b797d741231" name="a388a012afa5f9d77996d4b797d741231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a388a012afa5f9d77996d4b797d741231">&#9670;&#160;</a></span>ToleranceMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#a388a012afa5f9d77996d4b797d741231">Acts::BoundaryTolerance::ToleranceMode</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Enumeration defining how tolerance should be applied to boundaries. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a388a012afa5f9d77996d4b797d741231a3bc026b815790a05493fa56fc4b8d8bd" name="a388a012afa5f9d77996d4b797d741231a3bc026b815790a05493fa56fc4b8d8bd"></a>Extend&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a388a012afa5f9d77996d4b797d741231a6adf97f83acf6453d4a6a4b1070f3754" name="a388a012afa5f9d77996d4b797d741231a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a388a012afa5f9d77996d4b797d741231a1bb54971ab41a5a931b23159019fd73f" name="a388a012afa5f9d77996d4b797d741231a1bb54971ab41a5a931b23159019fd73f"></a>Shrink&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad69d3ab994cee2bc1aed3133e479cdd6" name="ad69d3ab994cee2bc1aed3133e479cdd6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad69d3ab994cee2bc1aed3133e479cdd6">&#9670;&#160;</a></span>BoundaryTolerance() <span class="overload">[1/2]</span></h2>
 

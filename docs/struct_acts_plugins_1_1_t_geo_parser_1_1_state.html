@@ -138,84 +138,23 @@ Collaboration diagram for ActsPlugins::TGeoParser::State:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2a3be5e09e482bd1457c86cff9ad8cf0" id="r_a2a3be5e09e482bd1457c86cff9ad8cf0"><td class="memItemLeft" align="right" valign="top">TGeoNode *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a3be5e09e482bd1457c86cff9ad8cf0">node</a> = nullptr</td></tr>
-<tr class="memdesc:a2a3be5e09e482bd1457c86cff9ad8cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current ROOT geometry node being parsed.  <br /></td></tr>
-<tr class="memitem:aeef2edf4897c133d02388296c2ab9b14" id="r_aeef2edf4897c133d02388296c2ab9b14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeef2edf4897c133d02388296c2ab9b14">onBranch</a> = false</td></tr>
-<tr class="memdesc:aeef2edf4897c133d02388296c2ab9b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if parsing is on the selected geometry branch.  <br /></td></tr>
-<tr class="memitem:afca5d1717715d8b5b1723104087d21fb" id="r_afca5d1717715d8b5b1723104087d21fb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html">SelectedNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afca5d1717715d8b5b1723104087d21fb">selectedNodes</a> = {}</td></tr>
-<tr class="memdesc:afca5d1717715d8b5b1723104087d21fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of nodes selected during parsing.  <br /></td></tr>
-<tr class="memitem:ad14f14cc961709722006a67e17c1ef89" id="r_ad14f14cc961709722006a67e17c1ef89"><td class="memItemLeft" align="right" valign="top">TGeoVolume *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad14f14cc961709722006a67e17c1ef89">volume</a> = nullptr</td></tr>
-<tr class="memdesc:ad14f14cc961709722006a67e17c1ef89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current ROOT geometry volume being parsed.  <br /></td></tr>
+<tr class="memitem:a2a3be5e09e482bd1457c86cff9ad8cf0" id="r_a2a3be5e09e482bd1457c86cff9ad8cf0"><td class="memItemLeft" align="right" valign="top"><a id="a2a3be5e09e482bd1457c86cff9ad8cf0" name="a2a3be5e09e482bd1457c86cff9ad8cf0"></a>
+TGeoNode *&#160;</td><td class="memItemRight" valign="bottom"><b>node</b> = nullptr</td></tr>
+<tr class="memdesc:a2a3be5e09e482bd1457c86cff9ad8cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current ROOT geometry node being parsed. <br /></td></tr>
+<tr class="memitem:aeef2edf4897c133d02388296c2ab9b14" id="r_aeef2edf4897c133d02388296c2ab9b14"><td class="memItemLeft" align="right" valign="top"><a id="aeef2edf4897c133d02388296c2ab9b14" name="aeef2edf4897c133d02388296c2ab9b14"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>onBranch</b> = false</td></tr>
+<tr class="memdesc:aeef2edf4897c133d02388296c2ab9b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if parsing is on the selected geometry branch. <br /></td></tr>
+<tr class="memitem:afca5d1717715d8b5b1723104087d21fb" id="r_afca5d1717715d8b5b1723104087d21fb"><td class="memItemLeft" align="right" valign="top"><a id="afca5d1717715d8b5b1723104087d21fb" name="afca5d1717715d8b5b1723104087d21fb"></a>
+std::vector&lt; <a class="el" href="struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html">SelectedNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selectedNodes</b> = {}</td></tr>
+<tr class="memdesc:afca5d1717715d8b5b1723104087d21fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of nodes selected during parsing. <br /></td></tr>
+<tr class="memitem:ad14f14cc961709722006a67e17c1ef89" id="r_ad14f14cc961709722006a67e17c1ef89"><td class="memItemLeft" align="right" valign="top"><a id="ad14f14cc961709722006a67e17c1ef89" name="ad14f14cc961709722006a67e17c1ef89"></a>
+TGeoVolume *&#160;</td><td class="memItemRight" valign="bottom"><b>volume</b> = nullptr</td></tr>
+<tr class="memdesc:ad14f14cc961709722006a67e17c1ef89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current ROOT geometry volume being parsed. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Nested state struct. </p>
 <p>This is needed for the recursive parsing of the geometry, it collects the information during the parsing process and keeps track of the built up transform </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a2a3be5e09e482bd1457c86cff9ad8cf0" name="a2a3be5e09e482bd1457c86cff9ad8cf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a3be5e09e482bd1457c86cff9ad8cf0">&#9670;&#160;</a></span>node</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TGeoNode* ActsPlugins::TGeoParser::State::node = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The current ROOT geometry node being parsed. </p>
-
-</div>
-</div>
-<a id="aeef2edf4897c133d02388296c2ab9b14" name="aeef2edf4897c133d02388296c2ab9b14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeef2edf4897c133d02388296c2ab9b14">&#9670;&#160;</a></span>onBranch</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ActsPlugins::TGeoParser::State::onBranch = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Flag indicating if parsing is on the selected geometry branch. </p>
-
-</div>
-</div>
-<a id="afca5d1717715d8b5b1723104087d21fb" name="afca5d1717715d8b5b1723104087d21fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afca5d1717715d8b5b1723104087d21fb">&#9670;&#160;</a></span>selectedNodes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html">SelectedNode</a>&gt; ActsPlugins::TGeoParser::State::selectedNodes = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Collection of nodes selected during parsing. </p>
-
-</div>
-</div>
-<a id="ad14f14cc961709722006a67e17c1ef89" name="ad14f14cc961709722006a67e17c1ef89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad14f14cc961709722006a67e17c1ef89">&#9670;&#160;</a></span>volume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TGeoVolume* ActsPlugins::TGeoParser::State::volume = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The current ROOT geometry volume being parsed. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

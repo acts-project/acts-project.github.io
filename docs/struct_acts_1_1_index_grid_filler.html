@@ -149,12 +149,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae4eda429527bdfbda553a44eb291e779" id="r_ae4eda429527bdfbda553a44eb291e779"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4eda429527bdfbda553a44eb291e779">binExpansion</a> = {}</td></tr>
-<tr class="memdesc:ae4eda429527bdfbda553a44eb291e779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin expansion where needed - in integer bins.  <br /></td></tr>
+<tr class="memitem:ae4eda429527bdfbda553a44eb291e779" id="r_ae4eda429527bdfbda553a44eb291e779"><td class="memItemLeft" align="right" valign="top"><a id="ae4eda429527bdfbda553a44eb291e779" name="ae4eda429527bdfbda553a44eb291e779"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>binExpansion</b> = {}</td></tr>
+<tr class="memdesc:ae4eda429527bdfbda553a44eb291e779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin expansion where needed - in integer bins. <br /></td></tr>
 <tr class="memitem:a145fe4a099afb3eb38d7a560578f3f30" id="r_a145fe4a099afb3eb38d7a560578f3f30"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a145fe4a099afb3eb38d7a560578f3f30">oLogger</a></td></tr>
 <tr class="memdesc:a145fe4a099afb3eb38d7a560578f3f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Screen output logger.  <br /></td></tr>
-<tr class="memitem:a32ce9d2ac48df0dce4d367433c2188b5" id="r_a32ce9d2ac48df0dce4d367433c2188b5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ce9d2ac48df0dce4d367433c2188b5">referenceExpansion</a> = {}</td></tr>
-<tr class="memdesc:a32ce9d2ac48df0dce4d367433c2188b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference expansion - is applied before bin expansion.  <br /></td></tr>
+<tr class="memitem:a32ce9d2ac48df0dce4d367433c2188b5" id="r_a32ce9d2ac48df0dce4d367433c2188b5"><td class="memItemLeft" align="right" valign="top"><a id="a32ce9d2ac48df0dce4d367433c2188b5" name="a32ce9d2ac48df0dce4d367433c2188b5"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>referenceExpansion</b> = {}</td></tr>
+<tr class="memdesc:a32ce9d2ac48df0dce4d367433c2188b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference expansion - is applied before bin expansion. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A helper class that fills surfaces into predefined grids. </p>
@@ -181,7 +183,14 @@ template&lt;typename index_grid, typename indices&gt; </div>
 </div><div class="memdoc">
 
 <p>Helper method to fill a dedicated list of indices into the entire grid. </p>
-<p>This is useful if e.g. certain objects are to be attempted in any case, regardless of their binning. </p>
+<p>This is useful if e.g. certain objects are to be attempted in any case, regardless of their binning.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iGrid</td><td>The index grid to fill </td></tr>
+    <tr><td class="paramname">idcs</td><td>The indices to assign to all bins </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -266,22 +275,6 @@ template&lt;typename index_grid, typename indexed_objects, typename reference_ge
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ae4eda429527bdfbda553a44eb291e779" name="ae4eda429527bdfbda553a44eb291e779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4eda429527bdfbda553a44eb291e779">&#9670;&#160;</a></span>binExpansion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::IndexGridFiller::binExpansion = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Bin expansion where needed - in integer bins. </p>
-
-</div>
-</div>
 <a id="a145fe4a099afb3eb38d7a560578f3f30" name="a145fe4a099afb3eb38d7a560578f3f30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a145fe4a099afb3eb38d7a560578f3f30">&#9670;&#160;</a></span>oLogger</h2>
 
@@ -295,26 +288,10 @@ template&lt;typename index_grid, typename indexed_objects, typename reference_ge
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">      <a class="code hl_function" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(<span class="stringliteral">&quot;IndexGridFiller&quot;</span>, <a class="code hl_enumvalue" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>)</div>
-<div class="ttc" id="agroup__logging_html_gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260"><div class="ttname"><a href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a></div><div class="ttdeci">@ INFO</div><div class="ttdoc">General information messages.</div><div class="ttdef"><b>Definition</b> Logger.hpp:159</div></div>
+<div class="ttc" id="agroup__logging_html_gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260"><div class="ttname"><a href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a></div><div class="ttdeci">@ INFO</div><div class="ttdoc">General information messages.</div><div class="ttdef"><b>Definition</b> Logger.hpp:161</div></div>
 <div class="ttc" id="anamespace_acts_html_a9b4dee934b0b193d57604b19bc8cd527"><div class="ttname"><a href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a></div><div class="ttdeci">std::unique_ptr&lt; const Logger &gt; getDefaultLogger(const std::string &amp;name, const Logging::Level &amp;lvl, std::ostream *log_stream=&amp;std::cout)</div><div class="ttdoc">get default debug output logger</div></div>
 </div><!-- fragment -->
 <p>Screen output logger. </p>
-
-</div>
-</div>
-<a id="a32ce9d2ac48df0dce4d367433c2188b5" name="a32ce9d2ac48df0dce4d367433c2188b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32ce9d2ac48df0dce4d367433c2188b5">&#9670;&#160;</a></span>referenceExpansion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::IndexGridFiller::referenceExpansion = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference expansion - is applied before bin expansion. </p>
 
 </div>
 </div>

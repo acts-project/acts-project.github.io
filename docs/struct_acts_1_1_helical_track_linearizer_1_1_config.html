@@ -140,10 +140,12 @@ Collaboration diagram for Acts::HelicalTrackLinearizer::Config:</div>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a398766265c07ccb15645912c0b9ae407" id="r_a398766265c07ccb15645912c0b9ae407"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a398766265c07ccb15645912c0b9ae407">bField</a></td></tr>
 <tr class="memdesc:a398766265c07ccb15645912c0b9ae407"><td class="mdescLeft">&#160;</td><td class="mdescRight">The magnetic field provider for helical track propagation.  <br /></td></tr>
-<tr class="memitem:af9504a3bd9806993436d9e0467071de4" id="r_af9504a3bd9806993436d9e0467071de4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9504a3bd9806993436d9e0467071de4">propagator</a></td></tr>
-<tr class="memdesc:af9504a3bd9806993436d9e0467071de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track propagator for linearization calculations.  <br /></td></tr>
-<tr class="memitem:abac8f80305e9de5fe1fcdd064173f40e" id="r_abac8f80305e9de5fe1fcdd064173f40e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac8f80305e9de5fe1fcdd064173f40e">targetTolerance</a> = 1e-12</td></tr>
-<tr class="memdesc:abac8f80305e9de5fe1fcdd064173f40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance determining how close we need to get to the Perigee surface to reach it during propagation.  <br /></td></tr>
+<tr class="memitem:af9504a3bd9806993436d9e0467071de4" id="r_af9504a3bd9806993436d9e0467071de4"><td class="memItemLeft" align="right" valign="top"><a id="af9504a3bd9806993436d9e0467071de4" name="af9504a3bd9806993436d9e0467071de4"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>propagator</b></td></tr>
+<tr class="memdesc:af9504a3bd9806993436d9e0467071de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track propagator for linearization calculations. <br /></td></tr>
+<tr class="memitem:abac8f80305e9de5fe1fcdd064173f40e" id="r_abac8f80305e9de5fe1fcdd064173f40e"><td class="memItemLeft" align="right" valign="top"><a id="abac8f80305e9de5fe1fcdd064173f40e" name="abac8f80305e9de5fe1fcdd064173f40e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>targetTolerance</b> = 1e-12</td></tr>
+<tr class="memdesc:abac8f80305e9de5fe1fcdd064173f40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance determining how close we need to get to the Perigee surface to reach it during propagation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration struct. </p>
@@ -163,38 +165,6 @@ Public Attributes</h2></td></tr>
 <div class="line">        std::make_shared&lt;NullBField&gt;()</div>
 </div><!-- fragment -->
 <p>The magnetic field provider for helical track propagation. </p>
-
-</div>
-</div>
-<a id="af9504a3bd9806993436d9e0467071de4" name="af9504a3bd9806993436d9e0467071de4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9504a3bd9806993436d9e0467071de4">&#9670;&#160;</a></span>propagator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a>&gt; Acts::HelicalTrackLinearizer::Config::propagator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Track propagator for linearization calculations. </p>
-
-</div>
-</div>
-<a id="abac8f80305e9de5fe1fcdd064173f40e" name="abac8f80305e9de5fe1fcdd064173f40e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abac8f80305e9de5fe1fcdd064173f40e">&#9670;&#160;</a></span>targetTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::HelicalTrackLinearizer::Config::targetTolerance = 1e-12</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Tolerance determining how close we need to get to the Perigee surface to reach it during propagation. </p>
 
 </div>
 </div>

@@ -133,88 +133,24 @@ $(function(){initNavTree('struct_acts_1_1_interpolated_b_field_map_1_1_cache.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac87c47a7005682e1107e9df89bbba53f" id="r_ac87c47a7005682e1107e9df89bbba53f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac87c47a7005682e1107e9df89bbba53f">Cache</a> (const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;)</td></tr>
-<tr class="memdesc:ac87c47a7005682e1107e9df89bbba53f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with magnetic field context.  <br /></td></tr>
+<tr class="memitem:ac87c47a7005682e1107e9df89bbba53f" id="r_ac87c47a7005682e1107e9df89bbba53f"><td class="memItemLeft" align="right" valign="top"><a id="ac87c47a7005682e1107e9df89bbba53f" name="ac87c47a7005682e1107e9df89bbba53f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Cache</b> (const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;)</td></tr>
+<tr class="memdesc:ac87c47a7005682e1107e9df89bbba53f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with magnetic field context. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4ee0c05dd49764b3616091cd0bed9a29" id="r_a4ee0c05dd49764b3616091cd0bed9a29"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html">FieldCell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee0c05dd49764b3616091cd0bed9a29">fieldCell</a></td></tr>
-<tr class="memdesc:a4ee0c05dd49764b3616091cd0bed9a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stored field cell containing interpolation data.  <br /></td></tr>
-<tr class="memitem:aa387f1612a6a9499254063c1d92930a1" id="r_aa387f1612a6a9499254063c1d92930a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa387f1612a6a9499254063c1d92930a1">initialized</a> = false</td></tr>
-<tr class="memdesc:aa387f1612a6a9499254063c1d92930a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if the cache has been initialized.  <br /></td></tr>
+<tr class="memitem:a4ee0c05dd49764b3616091cd0bed9a29" id="r_a4ee0c05dd49764b3616091cd0bed9a29"><td class="memItemLeft" align="right" valign="top"><a id="a4ee0c05dd49764b3616091cd0bed9a29" name="a4ee0c05dd49764b3616091cd0bed9a29"></a>
+std::optional&lt; <a class="el" href="struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html">FieldCell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>fieldCell</b></td></tr>
+<tr class="memdesc:a4ee0c05dd49764b3616091cd0bed9a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stored field cell containing interpolation data. <br /></td></tr>
+<tr class="memitem:aa387f1612a6a9499254063c1d92930a1" id="r_aa387f1612a6a9499254063c1d92930a1"><td class="memItemLeft" align="right" valign="top"><a id="aa387f1612a6a9499254063c1d92930a1" name="aa387f1612a6a9499254063c1d92930a1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized</b> = false</td></tr>
+<tr class="memdesc:aa387f1612a6a9499254063c1d92930a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if the cache has been initialized. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename grid_t&gt;<br />
 struct Acts::InterpolatedBFieldMap&lt; grid_t &gt;::Cache</div><p>Cache for field cell to improve performance of field lookups. </p>
 <p>This cache stores the current field cell which contains the interpolation data for a confined region of space. By caching the cell, subsequent lookups at nearby positions (e.g., during track propagation) can avoid expensive grid queries. The cache automatically updates when a position outside the current cell is queried. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac87c47a7005682e1107e9df89bbba53f" name="ac87c47a7005682e1107e9df89bbba53f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac87c47a7005682e1107e9df89bbba53f">&#9670;&#160;</a></span>Cache()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; grid_t &gt;::Cache::Cache </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor with magnetic field context. </p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a4ee0c05dd49764b3616091cd0bed9a29" name="a4ee0c05dd49764b3616091cd0bed9a29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee0c05dd49764b3616091cd0bed9a29">&#9670;&#160;</a></span>fieldCell</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html">FieldCell</a>&gt; <a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; grid_t &gt;::Cache::fieldCell</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Stored field cell containing interpolation data. </p>
-
-</div>
-</div>
-<a id="aa387f1612a6a9499254063c1d92930a1" name="aa387f1612a6a9499254063c1d92930a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa387f1612a6a9499254063c1d92930a1">&#9670;&#160;</a></span>initialized</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; grid_t &gt;::Cache::initialized = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Flag indicating if the cache has been initialized. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

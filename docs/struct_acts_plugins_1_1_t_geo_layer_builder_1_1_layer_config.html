@@ -139,12 +139,10 @@ Collaboration diagram for ActsPlugins::TGeoLayerBuilder::LayerConfig:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aa63434c398fb5c9cea850acc15f1b5c8" id="r_aa63434c398fb5c9cea850acc15f1b5c8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa63434c398fb5c9cea850acc15f1b5c8">RangeConfig</a></td></tr>
-<tr class="memitem:a90d3fcddd61d1a1d7c4fbd99d2d2fc44" id="r_a90d3fcddd61d1a1d7c4fbd99d2d2fc44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90d3fcddd61d1a1d7c4fbd99d2d2fc44">SplitConfig</a> = std::pair&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a>, double&gt;</td></tr>
-<tr class="memdesc:a90d3fcddd61d1a1d7c4fbd99d2d2fc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for range configuration with axis direction and bounds.  <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a34254e256639726849854fe41928af9d" id="r_a34254e256639726849854fe41928af9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34254e256639726849854fe41928af9d">LayerConfig</a> ()=default</td></tr>
+<tr class="memdesc:aa63434c398fb5c9cea850acc15f1b5c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for range configuration with axis direction and bounds.  <br /></td></tr>
+<tr class="memitem:a90d3fcddd61d1a1d7c4fbd99d2d2fc44" id="r_a90d3fcddd61d1a1d7c4fbd99d2d2fc44"><td class="memItemLeft" align="right" valign="top"><a id="a90d3fcddd61d1a1d7c4fbd99d2d2fc44" name="a90d3fcddd61d1a1d7c4fbd99d2d2fc44"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SplitConfig</b> = std::pair&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a>, double&gt;</td></tr>
+<tr class="memdesc:a90d3fcddd61d1a1d7c4fbd99d2d2fc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for split configuration with axis direction and position. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -154,16 +152,21 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ab46386b63a05abe5e83dfb62ad00d445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binning setup in l1: nbins (-1 -&gt; automated), axis binning type.  <br /></td></tr>
 <tr class="memitem:a0386afc8194477f5ede2807e2015ae35" id="r_a0386afc8194477f5ede2807e2015ae35"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0386afc8194477f5ede2807e2015ae35">envelope</a></td></tr>
 <tr class="memdesc:a0386afc8194477f5ede2807e2015ae35"><td class="mdescLeft">&#160;</td><td class="mdescRight">The envelope to be built around the layer.  <br /></td></tr>
-<tr class="memitem:ab0bf7735cfc17b0b350e98aeba9235a6" id="r_ab0bf7735cfc17b0b350e98aeba9235a6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0bf7735cfc17b0b350e98aeba9235a6">localAxes</a> = &quot;XYZ&quot;</td></tr>
-<tr class="memdesc:ab0bf7735cfc17b0b350e98aeba9235a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The local axis definition of TGeo object to Acts::Surface.  <br /></td></tr>
-<tr class="memitem:ad9d7125fd621b4421905effd8c3f5609" id="r_ad9d7125fd621b4421905effd8c3f5609"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#aa63434c398fb5c9cea850acc15f1b5c8">RangeConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9d7125fd621b4421905effd8c3f5609">parseRanges</a> = {}</td></tr>
-<tr class="memdesc:ad9d7125fd621b4421905effd8c3f5609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse ranges: parameter and ranges.  <br /></td></tr>
-<tr class="memitem:a207e55e016394858fc2c8ea67ced890c" id="r_a207e55e016394858fc2c8ea67ced890c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a207e55e016394858fc2c8ea67ced890c">sensorNames</a> = {}</td></tr>
-<tr class="memdesc:a207e55e016394858fc2c8ea67ced890c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identify the sensor(s) by name.  <br /></td></tr>
-<tr class="memitem:a8dcdba2d8b1abf2f063cda2a1b6f916d" id="r_a8dcdba2d8b1abf2f063cda2a1b6f916d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a90d3fcddd61d1a1d7c4fbd99d2d2fc44">SplitConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dcdba2d8b1abf2f063cda2a1b6f916d">splitConfigs</a> = {}</td></tr>
-<tr class="memdesc:a8dcdba2d8b1abf2f063cda2a1b6f916d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer splitting: parameter and tolerance.  <br /></td></tr>
-<tr class="memitem:a7e8c068e1839be893fb9a24c5d4db243" id="r_a7e8c068e1839be893fb9a24c5d4db243"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e8c068e1839be893fb9a24c5d4db243">volumeName</a> = &quot;&quot;</td></tr>
-<tr class="memdesc:a7e8c068e1839be893fb9a24c5d4db243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for split configuration with axis direction and position.  <br /></td></tr>
+<tr class="memitem:ab0bf7735cfc17b0b350e98aeba9235a6" id="r_ab0bf7735cfc17b0b350e98aeba9235a6"><td class="memItemLeft" align="right" valign="top"><a id="ab0bf7735cfc17b0b350e98aeba9235a6" name="ab0bf7735cfc17b0b350e98aeba9235a6"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>localAxes</b> = &quot;XYZ&quot;</td></tr>
+<tr class="memdesc:ab0bf7735cfc17b0b350e98aeba9235a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The local axis definition of TGeo object to Acts::Surface. <br /></td></tr>
+<tr class="memitem:ad9d7125fd621b4421905effd8c3f5609" id="r_ad9d7125fd621b4421905effd8c3f5609"><td class="memItemLeft" align="right" valign="top"><a id="ad9d7125fd621b4421905effd8c3f5609" name="ad9d7125fd621b4421905effd8c3f5609"></a>
+std::vector&lt; <a class="el" href="#aa63434c398fb5c9cea850acc15f1b5c8">RangeConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>parseRanges</b> = {}</td></tr>
+<tr class="memdesc:ad9d7125fd621b4421905effd8c3f5609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse ranges: parameter and ranges. <br /></td></tr>
+<tr class="memitem:a207e55e016394858fc2c8ea67ced890c" id="r_a207e55e016394858fc2c8ea67ced890c"><td class="memItemLeft" align="right" valign="top"><a id="a207e55e016394858fc2c8ea67ced890c" name="a207e55e016394858fc2c8ea67ced890c"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sensorNames</b> = {}</td></tr>
+<tr class="memdesc:a207e55e016394858fc2c8ea67ced890c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identify the sensor(s) by name. <br /></td></tr>
+<tr class="memitem:a8dcdba2d8b1abf2f063cda2a1b6f916d" id="r_a8dcdba2d8b1abf2f063cda2a1b6f916d"><td class="memItemLeft" align="right" valign="top"><a id="a8dcdba2d8b1abf2f063cda2a1b6f916d" name="a8dcdba2d8b1abf2f063cda2a1b6f916d"></a>
+std::vector&lt; <a class="el" href="#a90d3fcddd61d1a1d7c4fbd99d2d2fc44">SplitConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>splitConfigs</b> = {}</td></tr>
+<tr class="memdesc:a8dcdba2d8b1abf2f063cda2a1b6f916d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer splitting: parameter and tolerance. <br /></td></tr>
+<tr class="memitem:a7e8c068e1839be893fb9a24c5d4db243" id="r_a7e8c068e1839be893fb9a24c5d4db243"><td class="memItemLeft" align="right" valign="top"><a id="a7e8c068e1839be893fb9a24c5d4db243" name="a7e8c068e1839be893fb9a24c5d4db243"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>volumeName</b> = &quot;&quot;</td></tr>
+<tr class="memdesc:a7e8c068e1839be893fb9a24c5d4db243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identify the search volume by name. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper config structs for volume parsing. </p>
@@ -182,47 +185,7 @@ Public Attributes</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">        std::pair&lt;Acts::AxisDirection, std::pair&lt;double, double&gt;&gt;</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a90d3fcddd61d1a1d7c4fbd99d2d2fc44" name="a90d3fcddd61d1a1d7c4fbd99d2d2fc44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90d3fcddd61d1a1d7c4fbd99d2d2fc44">&#9670;&#160;</a></span>SplitConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a90d3fcddd61d1a1d7c4fbd99d2d2fc44">ActsPlugins::TGeoLayerBuilder::LayerConfig::SplitConfig</a> = std::pair&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a>, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 <p>Type alias for range configuration with axis direction and bounds. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a34254e256639726849854fe41928af9d" name="a34254e256639726849854fe41928af9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34254e256639726849854fe41928af9d">&#9670;&#160;</a></span>LayerConfig()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::TGeoLayerBuilder::LayerConfig::LayerConfig </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -239,8 +202,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">        {-1, <a class="code hl_enumvalue" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">Acts::equidistant</a>}}</div>
-<div class="ttc" id="anamespace_acts_html_a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe"><div class="ttname"><a href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">Acts::equidistant</a></div><div class="ttdeci">@ equidistant</div><div class="ttdef"><b>Definition</b> BinningType.hpp:31</div></div>
+<div class="line">        {-1, Acts::equidistant}}</div>
 </div><!-- fragment -->
 <p>Binning setup in l0: nbins (-1 -&gt; automated), axis binning type. </p>
 
@@ -258,7 +220,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">        {-1, <a class="code hl_enumvalue" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe">Acts::equidistant</a>}}</div>
+<div class="line">        {-1, Acts::equidistant}}</div>
 </div><!-- fragment -->
 <p>Binning setup in l1: nbins (-1 -&gt; automated), axis binning type. </p>
 
@@ -280,87 +242,6 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_a44fb500abc41c8b4d2937824ad76f8bd"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></div><div class="ttdeci">constexpr double mm</div><div class="ttdoc">Millimeter - native unit for length.</div><div class="ttdef"><b>Definition</b> Units.hpp:88</div></div>
 </div><!-- fragment -->
 <p>The envelope to be built around the layer. </p>
-
-</div>
-</div>
-<a id="ab0bf7735cfc17b0b350e98aeba9235a6" name="ab0bf7735cfc17b0b350e98aeba9235a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0bf7735cfc17b0b350e98aeba9235a6">&#9670;&#160;</a></span>localAxes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ActsPlugins::TGeoLayerBuilder::LayerConfig::localAxes = &quot;XYZ&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The local axis definition of TGeo object to Acts::Surface. </p>
-
-</div>
-</div>
-<a id="ad9d7125fd621b4421905effd8c3f5609" name="ad9d7125fd621b4421905effd8c3f5609"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9d7125fd621b4421905effd8c3f5609">&#9670;&#160;</a></span>parseRanges</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#aa63434c398fb5c9cea850acc15f1b5c8">RangeConfig</a>&gt; ActsPlugins::TGeoLayerBuilder::LayerConfig::parseRanges = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parse ranges: parameter and ranges. </p>
-
-</div>
-</div>
-<a id="a207e55e016394858fc2c8ea67ced890c" name="a207e55e016394858fc2c8ea67ced890c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a207e55e016394858fc2c8ea67ced890c">&#9670;&#160;</a></span>sensorNames</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; ActsPlugins::TGeoLayerBuilder::LayerConfig::sensorNames = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Identify the sensor(s) by name. </p>
-
-</div>
-</div>
-<a id="a8dcdba2d8b1abf2f063cda2a1b6f916d" name="a8dcdba2d8b1abf2f063cda2a1b6f916d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dcdba2d8b1abf2f063cda2a1b6f916d">&#9670;&#160;</a></span>splitConfigs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#a90d3fcddd61d1a1d7c4fbd99d2d2fc44">SplitConfig</a>&gt; ActsPlugins::TGeoLayerBuilder::LayerConfig::splitConfigs = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Layer splitting: parameter and tolerance. </p>
-
-</div>
-</div>
-<a id="a7e8c068e1839be893fb9a24c5d4db243" name="a7e8c068e1839be893fb9a24c5d4db243"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e8c068e1839be893fb9a24c5d4db243">&#9670;&#160;</a></span>volumeName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ActsPlugins::TGeoLayerBuilder::LayerConfig::volumeName = &quot;&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for split configuration with axis direction and position. </p>
-<p>Identify the search volume by name </p>
 
 </div>
 </div>

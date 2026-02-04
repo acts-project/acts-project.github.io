@@ -58,7 +58,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Configuration settings for the impact point estimator.">
 <polygon fill="#999999" stroke="#666666" points="729,-55 580,-55 580,-25 729,-25 729,-55"/>
 <text text-anchor="start" x="588" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ImpactPointEstimator</text>
 <text text-anchor="middle" x="654.5" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>

@@ -68,7 +68,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="423,-78 290,-78 290,-48 423,-48 423,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="423,-78 290,-78 290,-48 423,-48 423,-78"/>
 <text text-anchor="start" x="298" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail_vmt::Vector</text>
 <text text-anchor="middle" x="356.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">MultiTrajectoryBase</text>
 </a>

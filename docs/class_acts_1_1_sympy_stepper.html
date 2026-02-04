@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_sympy_stepper.html','','class_acts_1_1_
 </div><!--header-->
 <div class="contents">
 
+<p>Stepper implementation using sympy-generated expressions.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_sympy_stepper_8hpp_source.html">Acts/Propagator/SympyStepper.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::SympyStepper:</div>
@@ -136,16 +139,23 @@ Collaboration diagram for Acts::SympyStepper:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the sympy stepper.  <a href="struct_acts_1_1_sympy_stepper_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_options.html">Options</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime options for sympy propagation.  <a href="struct_acts_1_1_sympy_stepper_1_1_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State for track parameter propagation.  <a href="struct_acts_1_1_sympy_stepper_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a731d778445e75acd514943c53d21858a" id="r_a731d778445e75acd514943c53d21858a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a731d778445e75acd514943c53d21858a">BoundState</a> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a>, double&gt;</td></tr>
-<tr class="memitem:aa3bbb839311017bd5864f7c13cd8c60a" id="r_aa3bbb839311017bd5864f7c13cd8c60a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3bbb839311017bd5864f7c13cd8c60a">Covariance</a> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
-<tr class="memitem:a8826040bfa95929033396097ceb33673" id="r_a8826040bfa95929033396097ceb33673"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
-<tr class="memdesc:a8826040bfa95929033396097ceb33673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian, Covariance and State definitions.  <br /></td></tr>
+<tr class="memitem:a731d778445e75acd514943c53d21858a" id="r_a731d778445e75acd514943c53d21858a"><td class="memItemLeft" align="right" valign="top"><a id="a731d778445e75acd514943c53d21858a" name="a731d778445e75acd514943c53d21858a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a>, double&gt;</td></tr>
+<tr class="memdesc:a731d778445e75acd514943c53d21858a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound state tuple containing parameters, Jacobian, and path length. <br /></td></tr>
+<tr class="memitem:aa3bbb839311017bd5864f7c13cd8c60a" id="r_aa3bbb839311017bd5864f7c13cd8c60a"><td class="memItemLeft" align="right" valign="top"><a id="aa3bbb839311017bd5864f7c13cd8c60a" name="aa3bbb839311017bd5864f7c13cd8c60a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Covariance</b> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
+<tr class="memdesc:aa3bbb839311017bd5864f7c13cd8c60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix type. <br /></td></tr>
+<tr class="memitem:a8826040bfa95929033396097ceb33673" id="r_a8826040bfa95929033396097ceb33673"><td class="memItemLeft" align="right" valign="top"><a id="a8826040bfa95929033396097ceb33673" name="a8826040bfa95929033396097ceb33673"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Jacobian</b> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
+<tr class="memdesc:a8826040bfa95929033396097ceb33673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian, Covariance and State definitions. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -168,8 +178,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af676c32b72033dd89f6f7a61b1721ef9" id="r_af676c32b72033dd89f6f7a61b1721ef9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af676c32b72033dd89f6f7a61b1721ef9">getStepSize</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:af676c32b72033dd89f6f7a61b1721ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size.  <br /></td></tr>
 <tr class="memitem:a4bed18a9ec352167f3cea0a952f6920d" id="r_a4bed18a9ec352167f3cea0a952f6920d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bed18a9ec352167f3cea0a952f6920d">initialize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;par) const</td></tr>
+<tr class="memdesc:a4bed18a9ec352167f3cea0a952f6920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the state from bound track parameters.  <br /></td></tr>
 <tr class="memitem:a6f7ff251e1a9dc5e81a1492cff90857c" id="r_a6f7ff251e1a9dc5e81a1492cff90857c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f7ff251e1a9dc5e81a1492cff90857c">initialize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;boundParams, const std::optional&lt; <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a> &gt; &amp;cov, <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a> <a class="el" href="#a690a1d13e444e4f5905aa398b6c694ac">particleHypothesis</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memdesc:a6f7ff251e1a9dc5e81a1492cff90857c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the state from bound parameters.  <br /></td></tr>
 <tr class="memitem:a19d8760d7d3fc2e7a513bdbfa2c1b448" id="r_a19d8760d7d3fc2e7a513bdbfa2c1b448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19d8760d7d3fc2e7a513bdbfa2c1b448">makeState</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_options.html">Options</a> &amp;options) const</td></tr>
+<tr class="memdesc:a19d8760d7d3fc2e7a513bdbfa2c1b448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a state object.  <br /></td></tr>
 <tr class="memitem:addd9cde39a7d3188df4cfb8cefd39358" id="r_addd9cde39a7d3188df4cfb8cefd39358"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addd9cde39a7d3188df4cfb8cefd39358">momentum</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:addd9cde39a7d3188df4cfb8cefd39358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum accessor.  <br /></td></tr>
 <tr class="memitem:a73a899e4d932f0e9cf4542c0a2752b25" id="r_a73a899e4d932f0e9cf4542c0a2752b25"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73a899e4d932f0e9cf4542c0a2752b25">outputStepSize</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -207,55 +220,13 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ab4d678f2a095ffea496d4673861ec556" id="r_ab4d678f2a095ffea496d4673861ec556"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d678f2a095ffea496d4673861ec556">m_bField</a></td></tr>
-<tr class="memdesc:ab4d678f2a095ffea496d4673861ec556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field inside of the detector.  <br /></td></tr>
+<tr class="memitem:ab4d678f2a095ffea496d4673861ec556" id="r_ab4d678f2a095ffea496d4673861ec556"><td class="memItemLeft" align="right" valign="top"><a id="ab4d678f2a095ffea496d4673861ec556" name="ab4d678f2a095ffea496d4673861ec556"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bField</b></td></tr>
+<tr class="memdesc:ab4d678f2a095ffea496d4673861ec556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field inside of the detector. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a731d778445e75acd514943c53d21858a" name="a731d778445e75acd514943c53d21858a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a731d778445e75acd514943c53d21858a">&#9670;&#160;</a></span>BoundState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a731d778445e75acd514943c53d21858a">Acts::SympyStepper::BoundState</a> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#a8826040bfa95929033396097ceb33673">Jacobian</a>, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa3bbb839311017bd5864f7c13cd8c60a" name="aa3bbb839311017bd5864f7c13cd8c60a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3bbb839311017bd5864f7c13cd8c60a">&#9670;&#160;</a></span>Covariance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aa3bbb839311017bd5864f7c13cd8c60a">Acts::SympyStepper::Covariance</a> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8826040bfa95929033396097ceb33673" name="a8826040bfa95929033396097ceb33673"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8826040bfa95929033396097ceb33673">&#9670;&#160;</a></span>Jacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a8826040bfa95929033396097ceb33673">Acts::SympyStepper::Jacobian</a> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Jacobian, Covariance and State definitions. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Stepper implementation using sympy-generated expressions. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4e3f712290f4e8c9ceb28141bf01a8b0" name="a4e3f712290f4e8c9ceb28141bf01a8b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e3f712290f4e8c9ceb28141bf01a8b0">&#9670;&#160;</a></span>SympyStepper() <span class="overload">[1/2]</span></h2>
 
@@ -345,6 +316,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Absolute momentum </dd></dl>
 
 </div>
 </div>
@@ -419,6 +391,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Particle charge </dd></dl>
 
 </div>
 </div>
@@ -481,6 +454,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Direction vector </dd></dl>
 
 </div>
 </div>
@@ -511,6 +485,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Magnetic field vector </dd></dl>
 
 </div>
 </div>
@@ -541,6 +516,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Step size </dd></dl>
 
 </div>
 </div>
@@ -562,6 +538,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialize the state from bound track parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The state to initialize </td></tr>
+    <tr><td class="paramname">par</td><td>The bound track parameters </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -599,6 +584,18 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize the state from bound parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The state to initialize </td></tr>
+    <tr><td class="paramname">boundParams</td><td>Bound track parameters vector </td></tr>
+    <tr><td class="paramname">cov</td><td>Covariance matrix </td></tr>
+    <tr><td class="paramname">particleHypothesis</td><td>Particle hypothesis </td></tr>
+    <tr><td class="paramname">surface</td><td>Reference surface </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a19d8760d7d3fc2e7a513bdbfa2c1b448" name="a19d8760d7d3fc2e7a513bdbfa2c1b448"></a>
@@ -615,6 +612,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Create a state object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>Stepper options </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>State object </dd></dl>
 
 </div>
 </div>
@@ -640,6 +646,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Momentum vector </dd></dl>
 
 </div>
 </div>
@@ -665,6 +672,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>String representation of step size </dd></dl>
 
 </div>
 </div>
@@ -690,6 +698,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Particle hypothesis </dd></dl>
 
 </div>
 </div>
@@ -715,6 +724,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Position vector </dd></dl>
 
 </div>
 </div>
@@ -767,6 +777,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Charge over momentum </dd></dl>
 
 </div>
 </div>
@@ -885,6 +896,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Time </dd></dl>
 
 </div>
 </div>
@@ -1195,31 +1207,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ab4d678f2a095ffea496d4673861ec556" name="ab4d678f2a095ffea496d4673861ec556"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4d678f2a095ffea496d4673861ec556">&#9670;&#160;</a></span>m_bField</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a>&gt; Acts::SympyStepper::m_bField</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Magnetic field inside of the detector. </p>
+<dl class="section return"><dt>Returns</dt><dd>Intersection status </dd></dl>
 
 </div>
 </div>

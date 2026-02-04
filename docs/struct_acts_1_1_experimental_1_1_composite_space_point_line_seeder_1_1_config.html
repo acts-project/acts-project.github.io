@@ -138,112 +138,42 @@ Collaboration diagram for Acts::Experimental::CompositeSpacePointLineSeeder::Con
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad7e39e2ff4649933525a47b1f5307511" id="r_ad7e39e2ff4649933525a47b1f5307511"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7e39e2ff4649933525a47b1f5307511">busyLayerLimit</a> {2}</td></tr>
-<tr class="memdesc:ad7e39e2ff4649933525a47b1f5307511"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many drift circles may be on a layer to be used for seeding.  <br /></td></tr>
-<tr class="memitem:a77447ed643e8ae1bdfdd1dc175d28b43" id="r_a77447ed643e8ae1bdfdd1dc175d28b43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77447ed643e8ae1bdfdd1dc175d28b43">busyLimitCountGood</a> {true}</td></tr>
-<tr class="memdesc:a77447ed643e8ae1bdfdd1dc175d28b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layers may contain measurements with bad hits and hence the.  <br /></td></tr>
-<tr class="memitem:adc141b55cbba0da6a6bc666faa89ece9" id="r_adc141b55cbba0da6a6bc666faa89ece9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc141b55cbba0da6a6bc666faa89ece9">hitPullCut</a> {5.}</td></tr>
-<tr class="memdesc:adc141b55cbba0da6a6bc666faa89ece9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper cut on the hit chi2 w.r.t. seed in order to be associated to the seed.  <br /></td></tr>
-<tr class="memitem:ae9eb6d0b4e2c8ba4e41f7a1be8593048" id="r_ae9eb6d0b4e2c8ba4e41f7a1be8593048"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9eb6d0b4e2c8ba4e41f7a1be8593048">interceptRange</a> {0., 0.}</td></tr>
-<tr class="memdesc:ae9eb6d0b4e2c8ba4e41f7a1be8593048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut on the intercept range.  <br /></td></tr>
-<tr class="memitem:aa26760d4ae6f3adba0159cd6fd72dfad" id="r_aa26760d4ae6f3adba0159cd6fd72dfad"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa26760d4ae6f3adba0159cd6fd72dfad">nStrawHitCut</a> {3}</td></tr>
-<tr class="memdesc:aa26760d4ae6f3adba0159cd6fd72dfad"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many drift circle hits needs the seed to contain in order to be valid.  <br /></td></tr>
+<tr class="memitem:ad7e39e2ff4649933525a47b1f5307511" id="r_ad7e39e2ff4649933525a47b1f5307511"><td class="memItemLeft" align="right" valign="top"><a id="ad7e39e2ff4649933525a47b1f5307511" name="ad7e39e2ff4649933525a47b1f5307511"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>busyLayerLimit</b> {2}</td></tr>
+<tr class="memdesc:ad7e39e2ff4649933525a47b1f5307511"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many drift circles may be on a layer to be used for seeding. <br /></td></tr>
+<tr class="memitem:a77447ed643e8ae1bdfdd1dc175d28b43" id="r_a77447ed643e8ae1bdfdd1dc175d28b43"><td class="memItemLeft" align="right" valign="top"><a id="a77447ed643e8ae1bdfdd1dc175d28b43" name="a77447ed643e8ae1bdfdd1dc175d28b43"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>busyLimitCountGood</b> {true}</td></tr>
+<tr class="memdesc:a77447ed643e8ae1bdfdd1dc175d28b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layers may contain measurements with bad hits and hence the. <br /></td></tr>
+<tr class="memitem:adc141b55cbba0da6a6bc666faa89ece9" id="r_adc141b55cbba0da6a6bc666faa89ece9"><td class="memItemLeft" align="right" valign="top"><a id="adc141b55cbba0da6a6bc666faa89ece9" name="adc141b55cbba0da6a6bc666faa89ece9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>hitPullCut</b> {5.}</td></tr>
+<tr class="memdesc:adc141b55cbba0da6a6bc666faa89ece9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper cut on the hit chi2 w.r.t. seed in order to be associated to the seed. <br /></td></tr>
+<tr class="memitem:ae9eb6d0b4e2c8ba4e41f7a1be8593048" id="r_ae9eb6d0b4e2c8ba4e41f7a1be8593048"><td class="memItemLeft" align="right" valign="top"><a id="ae9eb6d0b4e2c8ba4e41f7a1be8593048" name="ae9eb6d0b4e2c8ba4e41f7a1be8593048"></a>
+std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>interceptRange</b> {0., 0.}</td></tr>
+<tr class="memdesc:ae9eb6d0b4e2c8ba4e41f7a1be8593048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut on the intercept range. <br /></td></tr>
+<tr class="memitem:aa26760d4ae6f3adba0159cd6fd72dfad" id="r_aa26760d4ae6f3adba0159cd6fd72dfad"><td class="memItemLeft" align="right" valign="top"><a id="aa26760d4ae6f3adba0159cd6fd72dfad" name="aa26760d4ae6f3adba0159cd6fd72dfad"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStrawHitCut</b> {3}</td></tr>
+<tr class="memdesc:aa26760d4ae6f3adba0159cd6fd72dfad"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many drift circle hits needs the seed to contain in order to be valid. <br /></td></tr>
 <tr class="memitem:a640ab7bbe71e50e37b63a7c2af8f1b57" id="r_a640ab7bbe71e50e37b63a7c2af8f1b57"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a640ab7bbe71e50e37b63a7c2af8f1b57">nStrawLayHitCut</a> {2. / 3.}</td></tr>
 <tr class="memdesc:a640ab7bbe71e50e37b63a7c2af8f1b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hit cut based on the fraction of collected tube layers.  <br /></td></tr>
-<tr class="memitem:aa19f836f73f2f1627926c8bf76e6cdf7" id="r_aa19f836f73f2f1627926c8bf76e6cdf7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa19f836f73f2f1627926c8bf76e6cdf7">overlapCorridor</a> {true}</td></tr>
-<tr class="memdesc:aa19f836f73f2f1627926c8bf76e6cdf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether a new seed candidate shares the same left-right solution with already accepted ones Reject the seed if it has the same amount of hits.  <br /></td></tr>
-<tr class="memitem:a36b30b4d0aad0e4c25346871e0358439" id="r_a36b30b4d0aad0e4c25346871e0358439"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36b30b4d0aad0e4c25346871e0358439">startWithPattern</a> {false}</td></tr>
-<tr class="memdesc:a36b30b4d0aad0e4c25346871e0358439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try at the first time the external seed parameters as candidate.  <br /></td></tr>
-<tr class="memitem:a6f2e8d9f531cdcfe170d9d6310b3d379" id="r_a6f2e8d9f531cdcfe170d9d6310b3d379"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2e8d9f531cdcfe170d9d6310b3d379">thetaRange</a> {0., 0.}</td></tr>
-<tr class="memdesc:a6f2e8d9f531cdcfe170d9d6310b3d379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut on the theta angle.  <br /></td></tr>
-<tr class="memitem:a10c417fdebc4a6c39b03ae506ccc8381" id="r_a10c417fdebc4a6c39b03ae506ccc8381"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10c417fdebc4a6c39b03ae506ccc8381">tightenHitCut</a> {true}</td></tr>
-<tr class="memdesc:a10c417fdebc4a6c39b03ae506ccc8381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Once a seed with even more than initially required hits is found, reject all following seeds with less hits.  <br /></td></tr>
-<tr class="memitem:a34d1f04c33fd99476b28d3774e2ff3b9" id="r_a34d1f04c33fd99476b28d3774e2ff3b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34d1f04c33fd99476b28d3774e2ff3b9">useSimpleStrawPull</a> {true}</td></tr>
-<tr class="memdesc:a34d1f04c33fd99476b28d3774e2ff3b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use explicitly the line distance and the driftRadius to calculate the pull from the seed line to the space point.  <br /></td></tr>
+<tr class="memitem:aa19f836f73f2f1627926c8bf76e6cdf7" id="r_aa19f836f73f2f1627926c8bf76e6cdf7"><td class="memItemLeft" align="right" valign="top"><a id="aa19f836f73f2f1627926c8bf76e6cdf7" name="aa19f836f73f2f1627926c8bf76e6cdf7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>overlapCorridor</b> {true}</td></tr>
+<tr class="memdesc:aa19f836f73f2f1627926c8bf76e6cdf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether a new seed candidate shares the same left-right solution with already accepted ones Reject the seed if it has the same amount of hits. <br /></td></tr>
+<tr class="memitem:a36b30b4d0aad0e4c25346871e0358439" id="r_a36b30b4d0aad0e4c25346871e0358439"><td class="memItemLeft" align="right" valign="top"><a id="a36b30b4d0aad0e4c25346871e0358439" name="a36b30b4d0aad0e4c25346871e0358439"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>startWithPattern</b> {false}</td></tr>
+<tr class="memdesc:a36b30b4d0aad0e4c25346871e0358439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try at the first time the external seed parameters as candidate. <br /></td></tr>
+<tr class="memitem:a6f2e8d9f531cdcfe170d9d6310b3d379" id="r_a6f2e8d9f531cdcfe170d9d6310b3d379"><td class="memItemLeft" align="right" valign="top"><a id="a6f2e8d9f531cdcfe170d9d6310b3d379" name="a6f2e8d9f531cdcfe170d9d6310b3d379"></a>
+std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>thetaRange</b> {0., 0.}</td></tr>
+<tr class="memdesc:a6f2e8d9f531cdcfe170d9d6310b3d379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut on the theta angle. <br /></td></tr>
+<tr class="memitem:a10c417fdebc4a6c39b03ae506ccc8381" id="r_a10c417fdebc4a6c39b03ae506ccc8381"><td class="memItemLeft" align="right" valign="top"><a id="a10c417fdebc4a6c39b03ae506ccc8381" name="a10c417fdebc4a6c39b03ae506ccc8381"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>tightenHitCut</b> {true}</td></tr>
+<tr class="memdesc:a10c417fdebc4a6c39b03ae506ccc8381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Once a seed with even more than initially required hits is found, reject all following seeds with less hits. <br /></td></tr>
+<tr class="memitem:a34d1f04c33fd99476b28d3774e2ff3b9" id="r_a34d1f04c33fd99476b28d3774e2ff3b9"><td class="memItemLeft" align="right" valign="top"><a id="a34d1f04c33fd99476b28d3774e2ff3b9" name="a34d1f04c33fd99476b28d3774e2ff3b9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useSimpleStrawPull</b> {true}</td></tr>
+<tr class="memdesc:a34d1f04c33fd99476b28d3774e2ff3b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use explicitly the line distance and the driftRadius to calculate the pull from the seed line to the space point. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration of the cuts to sort out generated seeds with poor quality. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad7e39e2ff4649933525a47b1f5307511" name="ad7e39e2ff4649933525a47b1f5307511"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7e39e2ff4649933525a47b1f5307511">&#9670;&#160;</a></span>busyLayerLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::Experimental::CompositeSpacePointLineSeeder::Config::busyLayerLimit {2}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>How many drift circles may be on a layer to be used for seeding. </p>
-
-</div>
-</div>
-<a id="a77447ed643e8ae1bdfdd1dc175d28b43" name="a77447ed643e8ae1bdfdd1dc175d28b43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77447ed643e8ae1bdfdd1dc175d28b43">&#9670;&#160;</a></span>busyLimitCountGood</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineSeeder::Config::busyLimitCountGood {true}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Layers may contain measurements with bad hits and hence the. </p>
-
-</div>
-</div>
-<a id="adc141b55cbba0da6a6bc666faa89ece9" name="adc141b55cbba0da6a6bc666faa89ece9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc141b55cbba0da6a6bc666faa89ece9">&#9670;&#160;</a></span>hitPullCut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::Experimental::CompositeSpacePointLineSeeder::Config::hitPullCut {5.}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Upper cut on the hit chi2 w.r.t. seed in order to be associated to the seed. </p>
-
-</div>
-</div>
-<a id="ae9eb6d0b4e2c8ba4e41f7a1be8593048" name="ae9eb6d0b4e2c8ba4e41f7a1be8593048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9eb6d0b4e2c8ba4e41f7a1be8593048">&#9670;&#160;</a></span>interceptRange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 2&gt; Acts::Experimental::CompositeSpacePointLineSeeder::Config::interceptRange {0., 0.}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cut on the intercept range. </p>
-
-</div>
-</div>
-<a id="aa26760d4ae6f3adba0159cd6fd72dfad" name="aa26760d4ae6f3adba0159cd6fd72dfad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa26760d4ae6f3adba0159cd6fd72dfad">&#9670;&#160;</a></span>nStrawHitCut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::Experimental::CompositeSpacePointLineSeeder::Config::nStrawHitCut {3}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>How many drift circle hits needs the seed to contain in order to be valid. </p>
-
-</div>
-</div>
 <a id="a640ab7bbe71e50e37b63a7c2af8f1b57" name="a640ab7bbe71e50e37b63a7c2af8f1b57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a640ab7bbe71e50e37b63a7c2af8f1b57">&#9670;&#160;</a></span>nStrawLayHitCut</h2>
 
@@ -258,86 +188,6 @@ Public Attributes</h2></td></tr>
 
 <p>Hit cut based on the fraction of collected tube layers. </p>
 <p>The seed must pass the tighter of the two requirements. </p>
-
-</div>
-</div>
-<a id="aa19f836f73f2f1627926c8bf76e6cdf7" name="aa19f836f73f2f1627926c8bf76e6cdf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa19f836f73f2f1627926c8bf76e6cdf7">&#9670;&#160;</a></span>overlapCorridor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineSeeder::Config::overlapCorridor {true}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check whether a new seed candidate shares the same left-right solution with already accepted ones Reject the seed if it has the same amount of hits. </p>
-
-</div>
-</div>
-<a id="a36b30b4d0aad0e4c25346871e0358439" name="a36b30b4d0aad0e4c25346871e0358439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36b30b4d0aad0e4c25346871e0358439">&#9670;&#160;</a></span>startWithPattern</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineSeeder::Config::startWithPattern {false}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Try at the first time the external seed parameters as candidate. </p>
-
-</div>
-</div>
-<a id="a6f2e8d9f531cdcfe170d9d6310b3d379" name="a6f2e8d9f531cdcfe170d9d6310b3d379"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f2e8d9f531cdcfe170d9d6310b3d379">&#9670;&#160;</a></span>thetaRange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 2&gt; Acts::Experimental::CompositeSpacePointLineSeeder::Config::thetaRange {0., 0.}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cut on the theta angle. </p>
-
-</div>
-</div>
-<a id="a10c417fdebc4a6c39b03ae506ccc8381" name="a10c417fdebc4a6c39b03ae506ccc8381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c417fdebc4a6c39b03ae506ccc8381">&#9670;&#160;</a></span>tightenHitCut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineSeeder::Config::tightenHitCut {true}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Once a seed with even more than initially required hits is found, reject all following seeds with less hits. </p>
-
-</div>
-</div>
-<a id="a34d1f04c33fd99476b28d3774e2ff3b9" name="a34d1f04c33fd99476b28d3774e2ff3b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34d1f04c33fd99476b28d3774e2ff3b9">&#9670;&#160;</a></span>useSimpleStrawPull</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineSeeder::Config::useSimpleStrawPull {true}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Use explicitly the line distance and the driftRadius to calculate the pull from the seed line to the space point. </p>
 
 </div>
 </div>

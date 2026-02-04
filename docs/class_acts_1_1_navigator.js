@@ -9,12 +9,7 @@ var class_acts_1_1_navigator =
     [ "NavigationCandidates", "class_acts_1_1_navigator.html#a281b1c2d169dce40f0516056dcc55341", null ],
     [ "NavigationLayers", "class_acts_1_1_navigator.html#a492eb943ad2c06526442465303caa698", null ],
     [ "NavigationSurfaces", "class_acts_1_1_navigator.html#a67daeae75247dabc70dd251c58b56980", null ],
-    [ "Stage", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082", [
-      [ "initial", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082acc51b81974287ab79cef9e94fe778cc9", null ],
-      [ "surfaceTarget", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082a18c05af3b86387545cf8b3aa1f993ee6", null ],
-      [ "layerTarget", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082a686c163df55238a65ae58bbe9e8f7b62", null ],
-      [ "boundaryTarget", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082a987c42081a91ff7d76841ad749b3f75a", null ]
-    ] ],
+    [ "Stage", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082", null ],
     [ "Navigator", "class_acts_1_1_navigator.html#ad746a9326f43e651436f192404ed5f23", null ],
     [ "checkTargetValid", "class_acts_1_1_navigator.html#a1c7794977152b1279715f9d7374bda17", null ],
     [ "currentSurface", "class_acts_1_1_navigator.html#a51c546be2b770dba8255f396bec27490", null ],

@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Read&#45;only vector&#45;backed track container.">
 <polygon fill="#999999" stroke="#666666" points="175,-19 0,-19 0,0 175,0 175,-19"/>
 <text text-anchor="middle" x="87.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConstVectorTrackContainer</text>
 </a>
@@ -32,7 +32,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="151.5,-85 23.5,-85 23.5,-55 151.5,-55 151.5,-85"/>
+<polygon fill="white" stroke="#bfbfbf" points="151.5,-85 23.5,-85 23.5,-55 151.5,-55 151.5,-85"/>
 <text text-anchor="start" x="31.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail_vtc::Vector</text>
 <text text-anchor="middle" x="87.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">TrackContainerBase</text>
 </a>

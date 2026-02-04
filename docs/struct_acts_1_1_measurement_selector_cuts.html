@@ -138,84 +138,23 @@ Collaboration diagram for Acts::MeasurementSelectorCuts:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a66e47c626973bf8183ab3ac6ea853032" id="r_a66e47c626973bf8183ab3ac6ea853032"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e47c626973bf8183ab3ac6ea853032">chi2CutOff</a> {15}</td></tr>
-<tr class="memdesc:a66e47c626973bf8183ab3ac6ea853032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum local chi2 contribution to classify as measurement.  <br /></td></tr>
-<tr class="memitem:ae0cc97ce3837e63997de1b525a25409d" id="r_ae0cc97ce3837e63997de1b525a25409d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0cc97ce3837e63997de1b525a25409d">chi2CutOffOutlier</a> {}</td></tr>
-<tr class="memdesc:ae0cc97ce3837e63997de1b525a25409d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum local chi2 contribution to classify as outlier.  <br /></td></tr>
-<tr class="memitem:a0a2fcfde7f4698df7c9b13c2e85ca6fb" id="r_a0a2fcfde7f4698df7c9b13c2e85ca6fb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a2fcfde7f4698df7c9b13c2e85ca6fb">etaBins</a> {}</td></tr>
-<tr class="memdesc:a0a2fcfde7f4698df7c9b13c2e85ca6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">bins in |eta| to specify variable selections  <br /></td></tr>
-<tr class="memitem:ac151079586a111dacc3c3ca889c1578b" id="r_ac151079586a111dacc3c3ca889c1578b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac151079586a111dacc3c3ca889c1578b">numMeasurementsCutOff</a> {1}</td></tr>
-<tr class="memdesc:ac151079586a111dacc3c3ca889c1578b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of associated measurements on a single surface.  <br /></td></tr>
+<tr class="memitem:a66e47c626973bf8183ab3ac6ea853032" id="r_a66e47c626973bf8183ab3ac6ea853032"><td class="memItemLeft" align="right" valign="top"><a id="a66e47c626973bf8183ab3ac6ea853032" name="a66e47c626973bf8183ab3ac6ea853032"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>chi2CutOff</b> {15}</td></tr>
+<tr class="memdesc:a66e47c626973bf8183ab3ac6ea853032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum local chi2 contribution to classify as measurement. <br /></td></tr>
+<tr class="memitem:ae0cc97ce3837e63997de1b525a25409d" id="r_ae0cc97ce3837e63997de1b525a25409d"><td class="memItemLeft" align="right" valign="top"><a id="ae0cc97ce3837e63997de1b525a25409d" name="ae0cc97ce3837e63997de1b525a25409d"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>chi2CutOffOutlier</b> {}</td></tr>
+<tr class="memdesc:ae0cc97ce3837e63997de1b525a25409d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum local chi2 contribution to classify as outlier. <br /></td></tr>
+<tr class="memitem:a0a2fcfde7f4698df7c9b13c2e85ca6fb" id="r_a0a2fcfde7f4698df7c9b13c2e85ca6fb"><td class="memItemLeft" align="right" valign="top"><a id="a0a2fcfde7f4698df7c9b13c2e85ca6fb" name="a0a2fcfde7f4698df7c9b13c2e85ca6fb"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>etaBins</b> {}</td></tr>
+<tr class="memdesc:a0a2fcfde7f4698df7c9b13c2e85ca6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">bins in |eta| to specify variable selections <br /></td></tr>
+<tr class="memitem:ac151079586a111dacc3c3ca889c1578b" id="r_ac151079586a111dacc3c3ca889c1578b"><td class="memItemLeft" align="right" valign="top"><a id="ac151079586a111dacc3c3ca889c1578b" name="ac151079586a111dacc3c3ca889c1578b"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>numMeasurementsCutOff</b> {1}</td></tr>
+<tr class="memdesc:ac151079586a111dacc3c3ca889c1578b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of associated measurements on a single surface. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Selection cuts for associating measurements with predicted track parameters on a surface. </p>
 <p>The default configuration only takes the best matching measurement without a cut on the local chi2. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a66e47c626973bf8183ab3ac6ea853032" name="a66e47c626973bf8183ab3ac6ea853032"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e47c626973bf8183ab3ac6ea853032">&#9670;&#160;</a></span>chi2CutOff</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::MeasurementSelectorCuts::chi2CutOff {15}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum local chi2 contribution to classify as measurement. </p>
-
-</div>
-</div>
-<a id="ae0cc97ce3837e63997de1b525a25409d" name="ae0cc97ce3837e63997de1b525a25409d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0cc97ce3837e63997de1b525a25409d">&#9670;&#160;</a></span>chi2CutOffOutlier</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::MeasurementSelectorCuts::chi2CutOffOutlier {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum local chi2 contribution to classify as outlier. </p>
-
-</div>
-</div>
-<a id="a0a2fcfde7f4698df7c9b13c2e85ca6fb" name="a0a2fcfde7f4698df7c9b13c2e85ca6fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a2fcfde7f4698df7c9b13c2e85ca6fb">&#9670;&#160;</a></span>etaBins</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::MeasurementSelectorCuts::etaBins {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>bins in |eta| to specify variable selections </p>
-
-</div>
-</div>
-<a id="ac151079586a111dacc3c3ca889c1578b" name="ac151079586a111dacc3c3ca889c1578b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac151079586a111dacc3c3ca889c1578b">&#9670;&#160;</a></span>numMeasurementsCutOff</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::MeasurementSelectorCuts::numMeasurementsCutOff {1}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum number of associated measurements on a single surface. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

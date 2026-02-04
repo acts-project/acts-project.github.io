@@ -1,7 +1,6 @@
 var class_acts_plugins_1_1_geo_model_detector_element =
 [
     [ "ContextType", "class_acts_plugins_1_1_geo_model_detector_element.html#a5bab63530432e189c7987277e0f0a45f", null ],
-    [ "GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html#abc0ce33268ac07fc111f2285f95e9cd8", null ],
     [ "GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html#af8b2af57dc794a3b24f5a8bf0e308ee0", null ],
     [ "attachSurface", "class_acts_plugins_1_1_geo_model_detector_element.html#a60a2999ed655e708e54c23d7948c0025", null ],
     [ "createDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html#a5c7b8dcc01c0e55bd8f699359a437884", null ],

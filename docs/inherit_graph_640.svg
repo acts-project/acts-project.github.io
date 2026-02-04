@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_plugins_1_1_gnn_timing.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="struct_acts_plugins_1_1_gnn_timing.html" target="_top" xlink:title="Timing information for GNN pipeline execution.">
 <polygon fill="white" stroke="#666666" points="132,-19 0,-19 0,0 132,0 132,-19"/>
 <text text-anchor="middle" x="66" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::GnnTiming</text>
 </a>

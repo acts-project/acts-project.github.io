@@ -138,13 +138,15 @@ Inheritance diagram for Acts::IVertexFinder:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3da86d9fe61b7c6df15495bceaf9cfb8" id="r_a3da86d9fe61b7c6df15495bceaf9cfb8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3da86d9fe61b7c6df15495bceaf9cfb8">State</a> = <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt;128&gt;</td></tr>
-<tr class="memdesc:a3da86d9fe61b7c6df15495bceaf9cfb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased wrapper for concrete state objects.  <br /></td></tr>
+<tr class="memitem:a3da86d9fe61b7c6df15495bceaf9cfb8" id="r_a3da86d9fe61b7c6df15495bceaf9cfb8"><td class="memItemLeft" align="right" valign="top"><a id="a3da86d9fe61b7c6df15495bceaf9cfb8" name="a3da86d9fe61b7c6df15495bceaf9cfb8"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> = <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt;128&gt;</td></tr>
+<tr class="memdesc:a3da86d9fe61b7c6df15495bceaf9cfb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased wrapper for concrete state objects. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ba4b8efbe9e166823d2d0933fdf0631" id="r_a7ba4b8efbe9e166823d2d0933fdf0631"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ba4b8efbe9e166823d2d0933fdf0631">~IVertexFinder</a> ()=default</td></tr>
-<tr class="memdesc:a7ba4b8efbe9e166823d2d0933fdf0631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:a7ba4b8efbe9e166823d2d0933fdf0631" id="r_a7ba4b8efbe9e166823d2d0933fdf0631"><td class="memItemLeft" align="right" valign="top"><a id="a7ba4b8efbe9e166823d2d0933fdf0631" name="a7ba4b8efbe9e166823d2d0933fdf0631"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IVertexFinder</b> ()=default</td></tr>
+<tr class="memdesc:a7ba4b8efbe9e166823d2d0933fdf0631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="memitem:ad9b8b2173fc27265d49c5c23ff71392d" id="r_ad9b8b2173fc27265d49c5c23ff71392d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b8b2173fc27265d49c5c23ff71392d">find</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a> &gt; &amp;trackVector, const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;vertexingOptions, <a class="el" href="#a3da86d9fe61b7c6df15495bceaf9cfb8">State</a> &amp;state) const =0</td></tr>
 <tr class="memdesc:ad9b8b2173fc27265d49c5c23ff71392d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main finder method that will return a set of found vertex candidates.  <br /></td></tr>
 <tr class="memitem:a47bf5a6ddce7bef2c2f43623aff3439c" id="r_a47bf5a6ddce7bef2c2f43623aff3439c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a3da86d9fe61b7c6df15495bceaf9cfb8">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47bf5a6ddce7bef2c2f43623aff3439c">makeState</a> (const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx) const =0</td></tr>
@@ -154,52 +156,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Common interface for both vertex finders and vertex seed finders. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a3da86d9fe61b7c6df15495bceaf9cfb8" name="a3da86d9fe61b7c6df15495bceaf9cfb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3da86d9fe61b7c6df15495bceaf9cfb8">&#9670;&#160;</a></span>State</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a3da86d9fe61b7c6df15495bceaf9cfb8">Acts::IVertexFinder::State</a> = <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt;128&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type-erased wrapper for concrete state objects. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7ba4b8efbe9e166823d2d0933fdf0631" name="a7ba4b8efbe9e166823d2d0933fdf0631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba4b8efbe9e166823d2d0933fdf0631">&#9670;&#160;</a></span>~IVertexFinder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::IVertexFinder::~IVertexFinder </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ad9b8b2173fc27265d49c5c23ff71392d" name="ad9b8b2173fc27265d49c5c23ff71392d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9b8b2173fc27265d49c5c23ff71392d">&#9670;&#160;</a></span>find()</h2>
 

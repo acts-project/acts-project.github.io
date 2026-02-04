@@ -1,5 +1,5 @@
 <map id="ActsPlugins::FastJet::TruthJet" name="ActsPlugins::FastJet::TruthJet">
-<area shape="rect" id="Node000001" title=" " alt="" coords="18,79,166,119"/>
+<area shape="rect" id="Node000001" title="Jet constructed from truth particles." alt="" coords="18,79,166,119"/>
 <area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_fast_jet_1_1_jet.html" title="Common class for jets." alt="" coords="5,5,179,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,89,79,89,44"/>
 </map>

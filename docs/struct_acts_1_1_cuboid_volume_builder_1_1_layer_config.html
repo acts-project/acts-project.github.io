@@ -138,191 +138,40 @@ Collaboration diagram for Acts::CuboidVolumeBuilder::LayerConfig:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a7f57faf29ba100ef66b7507cc49a9d95" id="r_a7f57faf29ba100ef66b7507cc49a9d95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f57faf29ba100ef66b7507cc49a9d95">active</a> = false</td></tr>
-<tr class="memdesc:a7f57faf29ba100ef66b7507cc49a9d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether layer participates in track finding.  <br /></td></tr>
-<tr class="memitem:a6bb01e0abe77802004d8960680ae4145" id="r_a6bb01e0abe77802004d8960680ae4145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bb01e0abe77802004d8960680ae4145">binningDimension</a> = <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a></td></tr>
-<tr class="memdesc:a6bb01e0abe77802004d8960680ae4145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis direction for surface binning within the layer.  <br /></td></tr>
-<tr class="memitem:a9fd353a4a22eb49077c1061c7d4467dc" id="r_a9fd353a4a22eb49077c1061c7d4467dc"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fd353a4a22eb49077c1061c7d4467dc">binsY</a> = 1</td></tr>
-<tr class="memdesc:a9fd353a4a22eb49077c1061c7d4467dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins for surface arrangement in Y direction.  <br /></td></tr>
-<tr class="memitem:a068f02f68aa0e246b77accb76534be04" id="r_a068f02f68aa0e246b77accb76534be04"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068f02f68aa0e246b77accb76534be04">binsZ</a> = 1</td></tr>
-<tr class="memdesc:a068f02f68aa0e246b77accb76534be04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins for surface arrangement in Z direction.  <br /></td></tr>
-<tr class="memitem:a10bf73e1dc5ac5a2ac49fa7144d30bdf" id="r_a10bf73e1dc5ac5a2ac49fa7144d30bdf"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10bf73e1dc5ac5a2ac49fa7144d30bdf">envelopeX</a> {0, 0}</td></tr>
-<tr class="memdesc:a10bf73e1dc5ac5a2ac49fa7144d30bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope extensions in X direction [negative, positive].  <br /></td></tr>
-<tr class="memitem:a2da3153b308ae495231fb4783e2d7c4d" id="r_a2da3153b308ae495231fb4783e2d7c4d"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2da3153b308ae495231fb4783e2d7c4d">envelopeY</a> {0, 0}</td></tr>
-<tr class="memdesc:a2da3153b308ae495231fb4783e2d7c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope extensions in Y direction [negative, positive].  <br /></td></tr>
-<tr class="memitem:af6d12297011182d9b7f92d646230e987" id="r_af6d12297011182d9b7f92d646230e987"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d12297011182d9b7f92d646230e987">envelopeZ</a> {0, 0}</td></tr>
-<tr class="memdesc:af6d12297011182d9b7f92d646230e987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope extensions in Z direction [negative, positive].  <br /></td></tr>
-<tr class="memitem:a51440034729341e3d8e59b9bdf7869ae" id="r_a51440034729341e3d8e59b9bdf7869ae"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51440034729341e3d8e59b9bdf7869ae">rotation</a> {std::nullopt}</td></tr>
-<tr class="memdesc:a51440034729341e3d8e59b9bdf7869ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional rotation transformation for this layer.  <br /></td></tr>
-<tr class="memitem:a2e9f0a59f5fe5f290057dc4b64f5ad80" id="r_a2e9f0a59f5fe5f290057dc4b64f5ad80"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html">SurfaceConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9f0a59f5fe5f290057dc4b64f5ad80">surfaceCfg</a></td></tr>
-<tr class="memdesc:a2e9f0a59f5fe5f290057dc4b64f5ad80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration objects for surfaces in this layer.  <br /></td></tr>
-<tr class="memitem:a676dbc66f5100c732c043444efb330c1" id="r_a676dbc66f5100c732c043444efb330c1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a676dbc66f5100c732c043444efb330c1">surfaces</a></td></tr>
-<tr class="memdesc:a676dbc66f5100c732c043444efb330c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-built surfaces to be included in this layer.  <br /></td></tr>
+<tr class="memitem:a7f57faf29ba100ef66b7507cc49a9d95" id="r_a7f57faf29ba100ef66b7507cc49a9d95"><td class="memItemLeft" align="right" valign="top"><a id="a7f57faf29ba100ef66b7507cc49a9d95" name="a7f57faf29ba100ef66b7507cc49a9d95"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>active</b> = false</td></tr>
+<tr class="memdesc:a7f57faf29ba100ef66b7507cc49a9d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether layer participates in track finding. <br /></td></tr>
+<tr class="memitem:a6bb01e0abe77802004d8960680ae4145" id="r_a6bb01e0abe77802004d8960680ae4145"><td class="memItemLeft" align="right" valign="top"><a id="a6bb01e0abe77802004d8960680ae4145" name="a6bb01e0abe77802004d8960680ae4145"></a>
+<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>binningDimension</b> = <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a></td></tr>
+<tr class="memdesc:a6bb01e0abe77802004d8960680ae4145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis direction for surface binning within the layer. <br /></td></tr>
+<tr class="memitem:a9fd353a4a22eb49077c1061c7d4467dc" id="r_a9fd353a4a22eb49077c1061c7d4467dc"><td class="memItemLeft" align="right" valign="top"><a id="a9fd353a4a22eb49077c1061c7d4467dc" name="a9fd353a4a22eb49077c1061c7d4467dc"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>binsY</b> = 1</td></tr>
+<tr class="memdesc:a9fd353a4a22eb49077c1061c7d4467dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins for surface arrangement in Y direction. <br /></td></tr>
+<tr class="memitem:a068f02f68aa0e246b77accb76534be04" id="r_a068f02f68aa0e246b77accb76534be04"><td class="memItemLeft" align="right" valign="top"><a id="a068f02f68aa0e246b77accb76534be04" name="a068f02f68aa0e246b77accb76534be04"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>binsZ</b> = 1</td></tr>
+<tr class="memdesc:a068f02f68aa0e246b77accb76534be04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins for surface arrangement in Z direction. <br /></td></tr>
+<tr class="memitem:a10bf73e1dc5ac5a2ac49fa7144d30bdf" id="r_a10bf73e1dc5ac5a2ac49fa7144d30bdf"><td class="memItemLeft" align="right" valign="top"><a id="a10bf73e1dc5ac5a2ac49fa7144d30bdf" name="a10bf73e1dc5ac5a2ac49fa7144d30bdf"></a>
+std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>envelopeX</b> {0, 0}</td></tr>
+<tr class="memdesc:a10bf73e1dc5ac5a2ac49fa7144d30bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope extensions in X direction [negative, positive]. <br /></td></tr>
+<tr class="memitem:a2da3153b308ae495231fb4783e2d7c4d" id="r_a2da3153b308ae495231fb4783e2d7c4d"><td class="memItemLeft" align="right" valign="top"><a id="a2da3153b308ae495231fb4783e2d7c4d" name="a2da3153b308ae495231fb4783e2d7c4d"></a>
+std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>envelopeY</b> {0, 0}</td></tr>
+<tr class="memdesc:a2da3153b308ae495231fb4783e2d7c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope extensions in Y direction [negative, positive]. <br /></td></tr>
+<tr class="memitem:af6d12297011182d9b7f92d646230e987" id="r_af6d12297011182d9b7f92d646230e987"><td class="memItemLeft" align="right" valign="top"><a id="af6d12297011182d9b7f92d646230e987" name="af6d12297011182d9b7f92d646230e987"></a>
+std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>envelopeZ</b> {0, 0}</td></tr>
+<tr class="memdesc:af6d12297011182d9b7f92d646230e987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope extensions in Z direction [negative, positive]. <br /></td></tr>
+<tr class="memitem:a51440034729341e3d8e59b9bdf7869ae" id="r_a51440034729341e3d8e59b9bdf7869ae"><td class="memItemLeft" align="right" valign="top"><a id="a51440034729341e3d8e59b9bdf7869ae" name="a51440034729341e3d8e59b9bdf7869ae"></a>
+std::optional&lt; <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>rotation</b> {std::nullopt}</td></tr>
+<tr class="memdesc:a51440034729341e3d8e59b9bdf7869ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional rotation transformation for this layer. <br /></td></tr>
+<tr class="memitem:a2e9f0a59f5fe5f290057dc4b64f5ad80" id="r_a2e9f0a59f5fe5f290057dc4b64f5ad80"><td class="memItemLeft" align="right" valign="top"><a id="a2e9f0a59f5fe5f290057dc4b64f5ad80" name="a2e9f0a59f5fe5f290057dc4b64f5ad80"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html">SurfaceConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceCfg</b></td></tr>
+<tr class="memdesc:a2e9f0a59f5fe5f290057dc4b64f5ad80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration objects for surfaces in this layer. <br /></td></tr>
+<tr class="memitem:a676dbc66f5100c732c043444efb330c1" id="r_a676dbc66f5100c732c043444efb330c1"><td class="memItemLeft" align="right" valign="top"><a id="a676dbc66f5100c732c043444efb330c1" name="a676dbc66f5100c732c043444efb330c1"></a>
+std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfaces</b></td></tr>
+<tr class="memdesc:a676dbc66f5100c732c043444efb330c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-built surfaces to be included in this layer. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This struct stores the data for the construction of a PlaneLayer. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a7f57faf29ba100ef66b7507cc49a9d95" name="a7f57faf29ba100ef66b7507cc49a9d95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f57faf29ba100ef66b7507cc49a9d95">&#9670;&#160;</a></span>active</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::CuboidVolumeBuilder::LayerConfig::active = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Flag indicating whether layer participates in track finding. </p>
-
-</div>
-</div>
-<a id="a6bb01e0abe77802004d8960680ae4145" name="a6bb01e0abe77802004d8960680ae4145"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bb01e0abe77802004d8960680ae4145">&#9670;&#160;</a></span>binningDimension</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> Acts::CuboidVolumeBuilder::LayerConfig::binningDimension = <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Axis direction for surface binning within the layer. </p>
-
-</div>
-</div>
-<a id="a9fd353a4a22eb49077c1061c7d4467dc" name="a9fd353a4a22eb49077c1061c7d4467dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fd353a4a22eb49077c1061c7d4467dc">&#9670;&#160;</a></span>binsY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::CuboidVolumeBuilder::LayerConfig::binsY = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of bins for surface arrangement in Y direction. </p>
-
-</div>
-</div>
-<a id="a068f02f68aa0e246b77accb76534be04" name="a068f02f68aa0e246b77accb76534be04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a068f02f68aa0e246b77accb76534be04">&#9670;&#160;</a></span>binsZ</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::CuboidVolumeBuilder::LayerConfig::binsZ = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of bins for surface arrangement in Z direction. </p>
-
-</div>
-</div>
-<a id="a10bf73e1dc5ac5a2ac49fa7144d30bdf" name="a10bf73e1dc5ac5a2ac49fa7144d30bdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10bf73e1dc5ac5a2ac49fa7144d30bdf">&#9670;&#160;</a></span>envelopeX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 2u&gt; Acts::CuboidVolumeBuilder::LayerConfig::envelopeX {0, 0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Envelope extensions in X direction [negative, positive]. </p>
-
-</div>
-</div>
-<a id="a2da3153b308ae495231fb4783e2d7c4d" name="a2da3153b308ae495231fb4783e2d7c4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2da3153b308ae495231fb4783e2d7c4d">&#9670;&#160;</a></span>envelopeY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 2u&gt; Acts::CuboidVolumeBuilder::LayerConfig::envelopeY {0, 0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Envelope extensions in Y direction [negative, positive]. </p>
-
-</div>
-</div>
-<a id="af6d12297011182d9b7f92d646230e987" name="af6d12297011182d9b7f92d646230e987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d12297011182d9b7f92d646230e987">&#9670;&#160;</a></span>envelopeZ</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 2u&gt; Acts::CuboidVolumeBuilder::LayerConfig::envelopeZ {0, 0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Envelope extensions in Z direction [negative, positive]. </p>
-
-</div>
-</div>
-<a id="a51440034729341e3d8e59b9bdf7869ae" name="a51440034729341e3d8e59b9bdf7869ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51440034729341e3d8e59b9bdf7869ae">&#9670;&#160;</a></span>rotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&gt; Acts::CuboidVolumeBuilder::LayerConfig::rotation {std::nullopt}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Optional rotation transformation for this layer. </p>
-
-</div>
-</div>
-<a id="a2e9f0a59f5fe5f290057dc4b64f5ad80" name="a2e9f0a59f5fe5f290057dc4b64f5ad80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e9f0a59f5fe5f290057dc4b64f5ad80">&#9670;&#160;</a></span>surfaceCfg</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html">SurfaceConfig</a>&gt; Acts::CuboidVolumeBuilder::LayerConfig::surfaceCfg</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configuration objects for surfaces in this layer. </p>
-
-</div>
-</div>
-<a id="a676dbc66f5100c732c043444efb330c1" name="a676dbc66f5100c732c043444efb330c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a676dbc66f5100c732c043444efb330c1">&#9670;&#160;</a></span>surfaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_surface.html">Surface</a>&gt; &gt; Acts::CuboidVolumeBuilder::LayerConfig::surfaces</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pre-built surfaces to be included in this layer. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

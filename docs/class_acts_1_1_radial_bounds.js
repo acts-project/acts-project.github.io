@@ -1,12 +1,6 @@
 var class_acts_1_1_radial_bounds =
 [
-    [ "BoundValues", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1", [
-      [ "eMinR", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1a61f39c92e37e4e092836b79d41d1fc38", null ],
-      [ "eMaxR", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1ae2d1b1f1422e99105665999a6723267c", null ],
-      [ "eHalfPhiSector", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1ab7a83c31fd50c8cf14e809eb814368ef", null ],
-      [ "eAveragePhi", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1accdf681f319b5912683c49cba960eea3", null ],
-      [ "eSize", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1abcb83dbed3f18086430dcc99c41e896e", null ]
-    ] ],
+    [ "BoundValues", "class_acts_1_1_radial_bounds.html#a6af4d7d3e14120079bf4d2dcccb6fcc1", null ],
     [ "RadialBounds", "class_acts_1_1_radial_bounds.html#a3d7adb564b0dadc009769af229b8d1fc", null ],
     [ "RadialBounds", "class_acts_1_1_radial_bounds.html#a19eda46e6f3fff76bac2c46f5aa36e8e", null ],
     [ "binningValuePhi", "class_acts_1_1_radial_bounds.html#a001bffc05b79fe6cd1e9fc2bfc5abb14", null ],

@@ -138,16 +138,20 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac9e9beab63f9d08ca0bf2a91474ed952" id="r_ac9e9beab63f9d08ca0bf2a91474ed952"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9e9beab63f9d08ca0bf2a91474ed952">Bin</a> = std::pair&lt;std::int32_t, std::int32_t&gt;</td></tr>
-<tr class="memdesc:ac9e9beab63f9d08ca0bf2a91474ed952"><td class="mdescLeft">&#160;</td><td class="mdescRight">The first (second) integer indicates the bin's z (t) position.  <br /></td></tr>
-<tr class="memitem:adf6803a630528868f14d3f52eb5ec769" id="r_adf6803a630528868f14d3f52eb5ec769"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6803a630528868f14d3f52eb5ec769">DensityMap</a> = boost::container::flat_map&lt;<a class="el" href="#ac9e9beab63f9d08ca0bf2a91474ed952">Bin</a>, float&gt;</td></tr>
-<tr class="memdesc:adf6803a630528868f14d3f52eb5ec769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping between bins and track densities.  <br /></td></tr>
+<tr class="memitem:ac9e9beab63f9d08ca0bf2a91474ed952" id="r_ac9e9beab63f9d08ca0bf2a91474ed952"><td class="memItemLeft" align="right" valign="top"><a id="ac9e9beab63f9d08ca0bf2a91474ed952" name="ac9e9beab63f9d08ca0bf2a91474ed952"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Bin</b> = std::pair&lt;std::int32_t, std::int32_t&gt;</td></tr>
+<tr class="memdesc:ac9e9beab63f9d08ca0bf2a91474ed952"><td class="mdescLeft">&#160;</td><td class="mdescRight">The first (second) integer indicates the bin's z (t) position. <br /></td></tr>
+<tr class="memitem:adf6803a630528868f14d3f52eb5ec769" id="r_adf6803a630528868f14d3f52eb5ec769"><td class="memItemLeft" align="right" valign="top"><a id="adf6803a630528868f14d3f52eb5ec769" name="adf6803a630528868f14d3f52eb5ec769"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>DensityMap</b> = boost::container::flat_map&lt;<a class="el" href="#ac9e9beab63f9d08ca0bf2a91474ed952">Bin</a>, float&gt;</td></tr>
+<tr class="memdesc:adf6803a630528868f14d3f52eb5ec769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping between bins and track densities. <br /></td></tr>
 <tr class="memitem:a063660643abdc086a55c1583a2ab7ccb" id="r_a063660643abdc086a55c1583a2ab7ccb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a063660643abdc086a55c1583a2ab7ccb">GridSizeRange</a></td></tr>
 <tr class="memdesc:a063660643abdc086a55c1583a2ab7ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional grid size range.  <br /></td></tr>
-<tr class="memitem:a5c1fe2f728cbe5f3edd361693cf13d4a" id="r_a5c1fe2f728cbe5f3edd361693cf13d4a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c1fe2f728cbe5f3edd361693cf13d4a">ZTPosition</a> = std::pair&lt;double, double&gt;</td></tr>
-<tr class="memdesc:a5c1fe2f728cbe5f3edd361693cf13d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinates in the z-t plane; the t value will be set to 0 if time vertex seeding is disabled.  <br /></td></tr>
-<tr class="memitem:a33d4529bc88c3e1300d9db351f511455" id="r_a33d4529bc88c3e1300d9db351f511455"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d4529bc88c3e1300d9db351f511455">ZTPositionAndWidth</a> = std::pair&lt;<a class="el" href="#a5c1fe2f728cbe5f3edd361693cf13d4a">ZTPosition</a>, double&gt;</td></tr>
-<tr class="memdesc:a33d4529bc88c3e1300d9db351f511455"><td class="mdescLeft">&#160;</td><td class="mdescRight">z-t position of a maximum and its width  <br /></td></tr>
+<tr class="memitem:a5c1fe2f728cbe5f3edd361693cf13d4a" id="r_a5c1fe2f728cbe5f3edd361693cf13d4a"><td class="memItemLeft" align="right" valign="top"><a id="a5c1fe2f728cbe5f3edd361693cf13d4a" name="a5c1fe2f728cbe5f3edd361693cf13d4a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ZTPosition</b> = std::pair&lt;double, double&gt;</td></tr>
+<tr class="memdesc:a5c1fe2f728cbe5f3edd361693cf13d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinates in the z-t plane; the t value will be set to 0 if time vertex seeding is disabled. <br /></td></tr>
+<tr class="memitem:a33d4529bc88c3e1300d9db351f511455" id="r_a33d4529bc88c3e1300d9db351f511455"><td class="memItemLeft" align="right" valign="top"><a id="a33d4529bc88c3e1300d9db351f511455" name="a33d4529bc88c3e1300d9db351f511455"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ZTPositionAndWidth</b> = std::pair&lt;<a class="el" href="#a5c1fe2f728cbe5f3edd361693cf13d4a">ZTPosition</a>, double&gt;</td></tr>
+<tr class="memdesc:a33d4529bc88c3e1300d9db351f511455"><td class="mdescLeft">&#160;</td><td class="mdescRight">z-t position of a maximum and its width <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -171,38 +175,6 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Implements a 1D (no time seeding) / 2D (time seeding) grid that is filled with track densities. </p>
 <p>Each track is modelled by a 2D / 3D Gaussian distribution in the d0-z0 / d0-z0-t0 plane, which is evaluated at d0=0. Therefore, each track effectively lives in 1D / 2D. The position of the highest track density (of either a single bin or the sum of a certain region) can be determined. Single tracks can be cached and removed from the overall density. Unlike in the GaussianGridTrackDensity, the overall density map grows adaptively when tracks densities are added to the grid. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ac9e9beab63f9d08ca0bf2a91474ed952" name="ac9e9beab63f9d08ca0bf2a91474ed952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9e9beab63f9d08ca0bf2a91474ed952">&#9670;&#160;</a></span>Bin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ac9e9beab63f9d08ca0bf2a91474ed952">Acts::AdaptiveGridTrackDensity::Bin</a> = std::pair&lt;std::int32_t, std::int32_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The first (second) integer indicates the bin's z (t) position. </p>
-
-</div>
-</div>
-<a id="adf6803a630528868f14d3f52eb5ec769" name="adf6803a630528868f14d3f52eb5ec769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf6803a630528868f14d3f52eb5ec769">&#9670;&#160;</a></span>DensityMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#adf6803a630528868f14d3f52eb5ec769">Acts::AdaptiveGridTrackDensity::DensityMap</a> = boost::container::flat_map&lt;<a class="el" href="#ac9e9beab63f9d08ca0bf2a91474ed952">Bin</a>, float&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mapping between bins and track densities. </p>
-
-</div>
-</div>
 <a id="a063660643abdc086a55c1583a2ab7ccb" name="a063660643abdc086a55c1583a2ab7ccb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a063660643abdc086a55c1583a2ab7ccb">&#9670;&#160;</a></span>GridSizeRange</h2>
 
@@ -218,38 +190,6 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">      std::pair&lt;std::optional&lt;std::uint32_t&gt;, std::optional&lt;std::uint32_t&gt;&gt;</div>
 </div><!-- fragment -->
 <p>Optional grid size range. </p>
-
-</div>
-</div>
-<a id="a5c1fe2f728cbe5f3edd361693cf13d4a" name="a5c1fe2f728cbe5f3edd361693cf13d4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c1fe2f728cbe5f3edd361693cf13d4a">&#9670;&#160;</a></span>ZTPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a5c1fe2f728cbe5f3edd361693cf13d4a">Acts::AdaptiveGridTrackDensity::ZTPosition</a> = std::pair&lt;double, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Coordinates in the z-t plane; the t value will be set to 0 if time vertex seeding is disabled. </p>
-
-</div>
-</div>
-<a id="a33d4529bc88c3e1300d9db351f511455" name="a33d4529bc88c3e1300d9db351f511455"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d4529bc88c3e1300d9db351f511455">&#9670;&#160;</a></span>ZTPositionAndWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a33d4529bc88c3e1300d9db351f511455">Acts::AdaptiveGridTrackDensity::ZTPositionAndWidth</a> = std::pair&lt;<a class="el" href="#a5c1fe2f728cbe5f3edd361693cf13d4a">ZTPosition</a>, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>z-t position of a maximum and its width </p>
 
 </div>
 </div>

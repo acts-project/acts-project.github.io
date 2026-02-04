@@ -133,15 +133,18 @@ $(function(){initNavTree('struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publ
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a17eb9a475cb2597bea7b63def3219904" id="r_a17eb9a475cb2597bea7b63def3219904"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17eb9a475cb2597bea7b63def3219904">PublisherMap_t</a> = std::unordered_map&lt;std::string, <a class="el" href="#aa1e96c8a02fd5336af4c5e25f8a7b553">VolumeMap_t</a>&gt;</td></tr>
-<tr class="memdesc:a17eb9a475cb2597bea7b63def3219904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the published map per system.  <br /></td></tr>
-<tr class="memitem:aa1e96c8a02fd5336af4c5e25f8a7b553" id="r_aa1e96c8a02fd5336af4c5e25f8a7b553"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e96c8a02fd5336af4c5e25f8a7b553">VolumeMap_t</a> = std::map&lt;std::string, <a class="el" href="struct_acts_plugins_1_1_geo_model_tree.html#ab78ea5dfda0e6db0b470f6ff747a828f">FpvConstLink</a>&gt;</td></tr>
-<tr class="memdesc:aa1e96c8a02fd5336af4c5e25f8a7b553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the published full physical volumes.  <br /></td></tr>
+<tr class="memitem:a17eb9a475cb2597bea7b63def3219904" id="r_a17eb9a475cb2597bea7b63def3219904"><td class="memItemLeft" align="right" valign="top"><a id="a17eb9a475cb2597bea7b63def3219904" name="a17eb9a475cb2597bea7b63def3219904"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>PublisherMap_t</b> = std::unordered_map&lt;std::string, <a class="el" href="#aa1e96c8a02fd5336af4c5e25f8a7b553">VolumeMap_t</a>&gt;</td></tr>
+<tr class="memdesc:a17eb9a475cb2597bea7b63def3219904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the published map per system. <br /></td></tr>
+<tr class="memitem:aa1e96c8a02fd5336af4c5e25f8a7b553" id="r_aa1e96c8a02fd5336af4c5e25f8a7b553"><td class="memItemLeft" align="right" valign="top"><a id="aa1e96c8a02fd5336af4c5e25f8a7b553" name="aa1e96c8a02fd5336af4c5e25f8a7b553"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeMap_t</b> = std::map&lt;std::string, <a class="el" href="struct_acts_plugins_1_1_geo_model_tree.html#ab78ea5dfda0e6db0b470f6ff747a828f">FpvConstLink</a>&gt;</td></tr>
+<tr class="memdesc:aa1e96c8a02fd5336af4c5e25f8a7b553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the published full physical volumes. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac7f439b83d154f8108b4dd40cbbcd281" id="r_ac7f439b83d154f8108b4dd40cbbcd281"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f439b83d154f8108b4dd40cbbcd281">VolumePublisher</a> ()=default</td></tr>
-<tr class="memdesc:ac7f439b83d154f8108b4dd40cbbcd281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
+<tr class="memitem:ac7f439b83d154f8108b4dd40cbbcd281" id="r_ac7f439b83d154f8108b4dd40cbbcd281"><td class="memItemLeft" align="right" valign="top"><a id="ac7f439b83d154f8108b4dd40cbbcd281" name="ac7f439b83d154f8108b4dd40cbbcd281"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>VolumePublisher</b> ()=default</td></tr>
+<tr class="memdesc:ac7f439b83d154f8108b4dd40cbbcd281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:a0d727aeb1bf53ba0d995ec38690675ca" id="r_a0d727aeb1bf53ba0d995ec38690675ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d727aeb1bf53ba0d995ec38690675ca">VolumePublisher</a> (const std::shared_ptr&lt; GeoModelIO::ReadGeoModel &gt; &amp;geoReader) noexcept</td></tr>
 <tr class="memdesc:a0d727aeb1bf53ba0d995ec38690675ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor taking an instance to the GeoModelReader.  <br /></td></tr>
 <tr class="memitem:a8991d9a8db19d2e165bd922ec25e5e7c" id="r_a8991d9a8db19d2e165bd922ec25e5e7c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#aa1e96c8a02fd5336af4c5e25f8a7b553">VolumeMap_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8991d9a8db19d2e165bd922ec25e5e7c">getPublishedVol</a> (const std::string &amp;systemName)</td></tr>
@@ -154,69 +157,9 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper struct to manage the list of published full physical volumes. </p>
 <p>These volumes have unique name tags and seed the construction of tracking volumes. The list of published full physical volumes are the name tags associated with a particular node in the GeoModel tree. The lists are usually separated by subdetector and are shipped together with the SQLite database. The latter is queried, if the geometry is constructed from an external file. If the geometry is built dynamically in memory, the VolumePublisher provides the mechanism to store and return the published volumes. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a17eb9a475cb2597bea7b63def3219904" name="a17eb9a475cb2597bea7b63def3219904"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17eb9a475cb2597bea7b63def3219904">&#9670;&#160;</a></span>PublisherMap_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a17eb9a475cb2597bea7b63def3219904">ActsPlugins::GeoModelTree::VolumePublisher::PublisherMap_t</a> = std::unordered_map&lt;std::string, <a class="el" href="#aa1e96c8a02fd5336af4c5e25f8a7b553">VolumeMap_t</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Abrivation of the published map per system. </p>
-
-</div>
-</div>
-<a id="aa1e96c8a02fd5336af4c5e25f8a7b553" name="aa1e96c8a02fd5336af4c5e25f8a7b553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1e96c8a02fd5336af4c5e25f8a7b553">&#9670;&#160;</a></span>VolumeMap_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aa1e96c8a02fd5336af4c5e25f8a7b553">ActsPlugins::GeoModelTree::VolumePublisher::VolumeMap_t</a> = std::map&lt;std::string, <a class="el" href="struct_acts_plugins_1_1_geo_model_tree.html#ab78ea5dfda0e6db0b470f6ff747a828f">FpvConstLink</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Abrivation of the published full physical volumes. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac7f439b83d154f8108b4dd40cbbcd281" name="ac7f439b83d154f8108b4dd40cbbcd281"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7f439b83d154f8108b4dd40cbbcd281">&#9670;&#160;</a></span>VolumePublisher() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::GeoModelTree::VolumePublisher::VolumePublisher </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. </p>
-
-</div>
-</div>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d727aeb1bf53ba0d995ec38690675ca" name="a0d727aeb1bf53ba0d995ec38690675ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d727aeb1bf53ba0d995ec38690675ca">&#9670;&#160;</a></span>VolumePublisher() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d727aeb1bf53ba0d995ec38690675ca">&#9670;&#160;</a></span>VolumePublisher()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +182,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor taking an instance to the GeoModelReader. </p>
-<p>If the publisher does not know yet about the system, the published volumes are queried from the database </p>
+<p>If the publisher does not know yet about the system, the published volumes are queried from the database </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geoReader</td><td>Pointer to the GeoModelReader instance </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -266,6 +214,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the volume map for the subsystem </dd></dl>
 
 </div>
 </div>
@@ -292,7 +241,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">systemName</td><td>Subsystem name under which the list will be registered </td></tr>
-    <tr><td class="paramname">publishedVols</td><td>List of volumes to publish. </td></tr>
+    <tr><td class="paramname">publishedVols</td><td>List of volumes to publish </td></tr>
   </table>
   </dd>
 </dl>
@@ -315,6 +264,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the pointer to the ReadGeoModel instance (might be invalid). </p>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the GeoModelReader </dd></dl>
 
 </div>
 </div>

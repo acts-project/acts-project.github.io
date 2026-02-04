@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Subset view over selected column entries.">
 <polygon fill="#999999" stroke="#666666" points="163,-30 0,-30 0,0 163,0 163,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointColumnProxy</text>
 <text text-anchor="middle" x="81.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T, read_only &gt;::Subset</text>
@@ -33,7 +33,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="160.5,-107 2.5,-107 2.5,-66 160.5,-66 160.5,-107"/>
+<polygon fill="white" stroke="#bfbfbf" points="160.5,-107 2.5,-107 2.5,-66 160.5,-66 160.5,-107"/>
 <text text-anchor="start" x="10.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail::ContainerSubset</text>
 <text text-anchor="start" x="10.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Subset, Subset, Column,</text>
 <text text-anchor="middle" x="81.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> Value, Index, ReadOnly &gt;</text>

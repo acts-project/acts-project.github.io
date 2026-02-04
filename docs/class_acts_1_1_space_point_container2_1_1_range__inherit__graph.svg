@@ -58,7 +58,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Range facade over contiguous index spans.">
 <polygon fill="#999999" stroke="#666666" points="363,-54 212,-54 212,-24 363,-24 363,-54"/>
 <text text-anchor="start" x="220" y="-42" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer2</text>
 <text text-anchor="middle" x="287.5" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">::Range&lt; read_only &gt;</text>
@@ -109,7 +109,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="175,-65 0,-65 0,-13 175,-13 175,-65"/>
+<polygon fill="white" stroke="#bfbfbf" points="175,-65 0,-65 0,-13 175,-13 175,-65"/>
 <text text-anchor="start" x="8" y="-53" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail::ContainerRange</text>
 <text text-anchor="start" x="8" y="-42" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Range&lt; read_only &gt;, Range</text>
 <text text-anchor="start" x="8" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; true &gt;, SpacePointContainer2,</text>

@@ -1,6 +1,5 @@
 var struct_acts_1_1_lin_circle =
 [
-    [ "LinCircle", "struct_acts_1_1_lin_circle.html#a79bdc3d941c54b25d378325475c9f735", null ],
     [ "LinCircle", "struct_acts_1_1_lin_circle.html#aaff823bd90a170d9db5e4e7df114da49", null ],
     [ "cotTheta", "struct_acts_1_1_lin_circle.html#ad227fdb2c7d23d66570462222b098273", null ],
     [ "Er", "struct_acts_1_1_lin_circle.html#ae278fbf49b60425723ca44c6866242d1", null ],

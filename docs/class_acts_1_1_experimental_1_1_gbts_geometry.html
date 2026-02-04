@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_geometry.html',''
 </div><!--header-->
 <div class="contents">
 
+<p>Geometry helper built from silicon layers and connectors.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_geometry_8hpp_source.html">Acts/Seeding/GbtsGeometry.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsGeometry:</div>
@@ -136,27 +139,49 @@ Collaboration diagram for Acts::Experimental::GbtsGeometry:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab454c0ed2d76f2f8c2b1b5a69d2ed57f" id="r_ab454c0ed2d76f2f8c2b1b5a69d2ed57f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab454c0ed2d76f2f8c2b1b5a69d2ed57f">GbtsGeometry</a> (const std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;layers, const std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_connector.html">GbtsConnector</a> &gt; &amp;conn)</td></tr>
+<tr class="memdesc:ab454c0ed2d76f2f8c2b1b5a69d2ed57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a4c1a702294aa8f6a4d65b9ced085d4ba" id="r_a4c1a702294aa8f6a4d65b9ced085d4ba"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::pair&lt; int, std::vector&lt; int &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c1a702294aa8f6a4d65b9ced085d4ba">bin_groups</a> () const</td></tr>
+<tr class="memdesc:a4c1a702294aa8f6a4d65b9ced085d4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin groups.  <br /></td></tr>
 <tr class="memitem:ae042164dbac90266ebcc2233cfae33dd" id="r_ae042164dbac90266ebcc2233cfae33dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae042164dbac90266ebcc2233cfae33dd">getGbtsLayerByIndex</a> (std::int32_t idx) const</td></tr>
+<tr class="memdesc:ae042164dbac90266ebcc2233cfae33dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer by index.  <br /></td></tr>
 <tr class="memitem:aff1720efb4dbcda54b39ee0ea8c0aaee" id="r_aff1720efb4dbcda54b39ee0ea8c0aaee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff1720efb4dbcda54b39ee0ea8c0aaee">getGbtsLayerByKey</a> (std::uint32_t key) const</td></tr>
+<tr class="memdesc:aff1720efb4dbcda54b39ee0ea8c0aaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer by key.  <br /></td></tr>
 <tr class="memitem:a495b5e8668fd089c20b0421e21ab5e10" id="r_a495b5e8668fd089c20b0421e21ab5e10"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a495b5e8668fd089c20b0421e21ab5e10">getGbtsLayerKeyByIndex</a> (int idx) const</td></tr>
+<tr class="memdesc:a495b5e8668fd089c20b0421e21ab5e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer key by index.  <br /></td></tr>
 <tr class="memitem:a303084271e46d2daa96564b68bdd7e6f" id="r_a303084271e46d2daa96564b68bdd7e6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303084271e46d2daa96564b68bdd7e6f">num_bins</a> () const</td></tr>
+<tr class="memdesc:a303084271e46d2daa96564b68bdd7e6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of eta bins.  <br /></td></tr>
 <tr class="memitem:acc7b5cb9ea329227f613de1e7aeb78ae" id="r_acc7b5cb9ea329227f613de1e7aeb78ae"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc7b5cb9ea329227f613de1e7aeb78ae">num_layers</a> () const</td></tr>
+<tr class="memdesc:acc7b5cb9ea329227f613de1e7aeb78ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of layers.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab005944928a970fd2474b8d7940dad8d" id="r_ab005944928a970fd2474b8d7940dad8d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab005944928a970fd2474b8d7940dad8d">addNewLayer</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &amp;l, int bin0)</td></tr>
+<tr class="memdesc:ab005944928a970fd2474b8d7940dad8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new layer.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a78adcef84231d340dad1f45afc39c43e" id="r_a78adcef84231d340dad1f45afc39c43e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, std::vector&lt; int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78adcef84231d340dad1f45afc39c43e">m_binGroups</a></td></tr>
-<tr class="memitem:a95ff4441c5890c85b59625be5910fbd6" id="r_a95ff4441c5890c85b59625be5910fbd6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ff4441c5890c85b59625be5910fbd6">m_etaBinWidth</a> {}</td></tr>
-<tr class="memitem:a0ea3bc952bd7b84339ec6b009a85b678" id="r_a0ea3bc952bd7b84339ec6b009a85b678"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea3bc952bd7b84339ec6b009a85b678">m_layArray</a></td></tr>
-<tr class="memitem:a8a2de90ed1ae55fe38499c1e5eb9cb61" id="r_a8a2de90ed1ae55fe38499c1e5eb9cb61"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2de90ed1ae55fe38499c1e5eb9cb61">m_layerKeys</a></td></tr>
-<tr class="memitem:ad65f43bff152ada3d6e7048ab999ecac" id="r_ad65f43bff152ada3d6e7048ab999ecac"><td class="memItemLeft" align="right" valign="top">std::map&lt; unsigned int, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad65f43bff152ada3d6e7048ab999ecac">m_layMap</a></td></tr>
-<tr class="memitem:aa760fd2f4df22659cd5ff2866b4f0e91" id="r_aa760fd2f4df22659cd5ff2866b4f0e91"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa760fd2f4df22659cd5ff2866b4f0e91">m_nEtaBins</a> {}</td></tr>
+<tr class="memitem:a78adcef84231d340dad1f45afc39c43e" id="r_a78adcef84231d340dad1f45afc39c43e"><td class="memItemLeft" align="right" valign="top"><a id="a78adcef84231d340dad1f45afc39c43e" name="a78adcef84231d340dad1f45afc39c43e"></a>
+std::vector&lt; std::pair&lt; int, std::vector&lt; int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_binGroups</b></td></tr>
+<tr class="memdesc:a78adcef84231d340dad1f45afc39c43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin groups. <br /></td></tr>
+<tr class="memitem:a95ff4441c5890c85b59625be5910fbd6" id="r_a95ff4441c5890c85b59625be5910fbd6"><td class="memItemLeft" align="right" valign="top"><a id="a95ff4441c5890c85b59625be5910fbd6" name="a95ff4441c5890c85b59625be5910fbd6"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_etaBinWidth</b> {}</td></tr>
+<tr class="memdesc:a95ff4441c5890c85b59625be5910fbd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin width. <br /></td></tr>
+<tr class="memitem:a0ea3bc952bd7b84339ec6b009a85b678" id="r_a0ea3bc952bd7b84339ec6b009a85b678"><td class="memItemLeft" align="right" valign="top"><a id="a0ea3bc952bd7b84339ec6b009a85b678" name="a0ea3bc952bd7b84339ec6b009a85b678"></a>
+std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_layArray</b></td></tr>
+<tr class="memdesc:a0ea3bc952bd7b84339ec6b009a85b678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer array. <br /></td></tr>
+<tr class="memitem:a8a2de90ed1ae55fe38499c1e5eb9cb61" id="r_a8a2de90ed1ae55fe38499c1e5eb9cb61"><td class="memItemLeft" align="right" valign="top"><a id="a8a2de90ed1ae55fe38499c1e5eb9cb61" name="a8a2de90ed1ae55fe38499c1e5eb9cb61"></a>
+std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_layerKeys</b></td></tr>
+<tr class="memdesc:a8a2de90ed1ae55fe38499c1e5eb9cb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer keys. <br /></td></tr>
+<tr class="memitem:ad65f43bff152ada3d6e7048ab999ecac" id="r_ad65f43bff152ada3d6e7048ab999ecac"><td class="memItemLeft" align="right" valign="top"><a id="ad65f43bff152ada3d6e7048ab999ecac" name="ad65f43bff152ada3d6e7048ab999ecac"></a>
+std::map&lt; unsigned int, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_layMap</b></td></tr>
+<tr class="memdesc:ad65f43bff152ada3d6e7048ab999ecac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer map. <br /></td></tr>
+<tr class="memitem:aa760fd2f4df22659cd5ff2866b4f0e91" id="r_aa760fd2f4df22659cd5ff2866b4f0e91"><td class="memItemLeft" align="right" valign="top"><a id="aa760fd2f4df22659cd5ff2866b4f0e91" name="aa760fd2f4df22659cd5ff2866b4f0e91"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_nEtaBins</b> {}</td></tr>
+<tr class="memdesc:aa760fd2f4df22659cd5ff2866b4f0e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of eta bins. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Geometry helper built from silicon layers and connectors. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab454c0ed2d76f2f8c2b1b5a69d2ed57f" name="ab454c0ed2d76f2f8c2b1b5a69d2ed57f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab454c0ed2d76f2f8c2b1b5a69d2ed57f">&#9670;&#160;</a></span>GbtsGeometry()</h2>
 
@@ -175,6 +200,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layers</td><td>Silicon layers for geometry </td></tr>
+    <tr><td class="paramname">conn</td><td>Connector for layer connections </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -206,6 +240,16 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Add new layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">l</td><td>Silicon layer to add </td></tr>
+    <tr><td class="paramname">bin0</td><td>Starting bin index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the newly added layer </dd></dl>
+
 </div>
 </div>
 <a id="a4c1a702294aa8f6a4d65b9ced085d4ba" name="a4c1a702294aa8f6a4d65b9ced085d4ba"></a>
@@ -222,6 +266,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get bin groups. </p>
+<dl class="section return"><dt>Returns</dt><dd>Bin groups vector </dd></dl>
 
 </div>
 </div>
@@ -240,6 +287,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get layer by index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Layer index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to layer or nullptr </dd></dl>
+
 </div>
 </div>
 <a id="aff1720efb4dbcda54b39ee0ea8c0aaee" name="aff1720efb4dbcda54b39ee0ea8c0aaee"></a>
@@ -256,6 +312,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get layer by key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Layer key </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to layer or nullptr </dd></dl>
 
 </div>
 </div>
@@ -274,6 +339,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get layer key by index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Layer index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Layer key </dd></dl>
+
 </div>
 </div>
 <a id="a303084271e46d2daa96564b68bdd7e6f" name="a303084271e46d2daa96564b68bdd7e6f"></a>
@@ -290,6 +364,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get number of eta bins. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of eta bins </dd></dl>
 
 </div>
 </div>
@@ -308,138 +385,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a78adcef84231d340dad1f45afc39c43e" name="a78adcef84231d340dad1f45afc39c43e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78adcef84231d340dad1f45afc39c43e">&#9670;&#160;</a></span>m_binGroups</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;int, std::vector&lt;int&gt; &gt; &gt; Acts::Experimental::GbtsGeometry::m_binGroups</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a95ff4441c5890c85b59625be5910fbd6" name="a95ff4441c5890c85b59625be5910fbd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95ff4441c5890c85b59625be5910fbd6">&#9670;&#160;</a></span>m_etaBinWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsGeometry::m_etaBinWidth {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ea3bc952bd7b84339ec6b009a85b678" name="a0ea3bc952bd7b84339ec6b009a85b678"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea3bc952bd7b84339ec6b009a85b678">&#9670;&#160;</a></span>m_layArray</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a>&gt; &gt; Acts::Experimental::GbtsGeometry::m_layArray</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a2de90ed1ae55fe38499c1e5eb9cb61" name="a8a2de90ed1ae55fe38499c1e5eb9cb61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a2de90ed1ae55fe38499c1e5eb9cb61">&#9670;&#160;</a></span>m_layerKeys</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; Acts::Experimental::GbtsGeometry::m_layerKeys</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad65f43bff152ada3d6e7048ab999ecac" name="ad65f43bff152ada3d6e7048ab999ecac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad65f43bff152ada3d6e7048ab999ecac">&#9670;&#160;</a></span>m_layMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;unsigned int, <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a>*&gt; Acts::Experimental::GbtsGeometry::m_layMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa760fd2f4df22659cd5ff2866b4f0e91" name="aa760fd2f4df22659cd5ff2866b4f0e91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa760fd2f4df22659cd5ff2866b4f0e91">&#9670;&#160;</a></span>m_nEtaBins</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::Experimental::GbtsGeometry::m_nEtaBins {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Get number of layers. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of layers </dd></dl>
 
 </div>
 </div>

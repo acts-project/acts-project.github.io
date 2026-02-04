@@ -311,7 +311,7 @@ var sectionId = 'dynsection-0';
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="struct_acts_1_1_surface_binning_matcher.html" target="_top" xlink:title=" ">
+<g id="a_Node000012"><a xlink:href="struct_acts_1_1_surface_binning_matcher.html" target="_top" xlink:title="Helper to compare surfaces for binning equivalence.">
 <polygon fill="white" stroke="#666666" points="730,-25.01 573,-25.01 573,-6.01 730,-6.01 730,-25.01"/>
 <text text-anchor="middle" x="651.5" y="-13.01" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SurfaceBinningMatcher</text>
 </a>

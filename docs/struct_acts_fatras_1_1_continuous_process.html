@@ -149,14 +149,18 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a073d4df2893d9ca3a9e45267d42fd591" id="r_a073d4df2893d9ca3a9e45267d42fd591"><td class="memItemLeft" align="right" valign="top">physics_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a073d4df2893d9ca3a9e45267d42fd591">physics</a></td></tr>
-<tr class="memdesc:a073d4df2893d9ca3a9e45267d42fd591"><td class="mdescLeft">&#160;</td><td class="mdescRight">The physics interactions implementation.  <br /></td></tr>
-<tr class="memitem:abb5e6700b5302b6e8ccf6f3bcd658cd3" id="r_abb5e6700b5302b6e8ccf6f3bcd658cd3"><td class="memItemLeft" align="right" valign="top">child_particle_selector_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb5e6700b5302b6e8ccf6f3bcd658cd3">selectChildParticle</a></td></tr>
-<tr class="memdesc:abb5e6700b5302b6e8ccf6f3bcd658cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Child selection: if a generated child particle should be kept.  <br /></td></tr>
-<tr class="memitem:a052081767ab6ec53157e32de1077d325" id="r_a052081767ab6ec53157e32de1077d325"><td class="memItemLeft" align="right" valign="top">input_particle_selector_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a052081767ab6ec53157e32de1077d325">selectInputParticle</a></td></tr>
-<tr class="memdesc:a052081767ab6ec53157e32de1077d325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input selection: if this process applies to this particle.  <br /></td></tr>
-<tr class="memitem:ad1fa30b2796cafcf580ad9a501dad75d" id="r_ad1fa30b2796cafcf580ad9a501dad75d"><td class="memItemLeft" align="right" valign="top">output_particle_selector_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1fa30b2796cafcf580ad9a501dad75d">selectOutputParticle</a></td></tr>
-<tr class="memdesc:ad1fa30b2796cafcf580ad9a501dad75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output selection: if the particle is still valid after the interaction.  <br /></td></tr>
+<tr class="memitem:a073d4df2893d9ca3a9e45267d42fd591" id="r_a073d4df2893d9ca3a9e45267d42fd591"><td class="memItemLeft" align="right" valign="top"><a id="a073d4df2893d9ca3a9e45267d42fd591" name="a073d4df2893d9ca3a9e45267d42fd591"></a>
+physics_t&#160;</td><td class="memItemRight" valign="bottom"><b>physics</b></td></tr>
+<tr class="memdesc:a073d4df2893d9ca3a9e45267d42fd591"><td class="mdescLeft">&#160;</td><td class="mdescRight">The physics interactions implementation. <br /></td></tr>
+<tr class="memitem:abb5e6700b5302b6e8ccf6f3bcd658cd3" id="r_abb5e6700b5302b6e8ccf6f3bcd658cd3"><td class="memItemLeft" align="right" valign="top"><a id="abb5e6700b5302b6e8ccf6f3bcd658cd3" name="abb5e6700b5302b6e8ccf6f3bcd658cd3"></a>
+child_particle_selector_t&#160;</td><td class="memItemRight" valign="bottom"><b>selectChildParticle</b></td></tr>
+<tr class="memdesc:abb5e6700b5302b6e8ccf6f3bcd658cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Child selection: if a generated child particle should be kept. <br /></td></tr>
+<tr class="memitem:a052081767ab6ec53157e32de1077d325" id="r_a052081767ab6ec53157e32de1077d325"><td class="memItemLeft" align="right" valign="top"><a id="a052081767ab6ec53157e32de1077d325" name="a052081767ab6ec53157e32de1077d325"></a>
+input_particle_selector_t&#160;</td><td class="memItemRight" valign="bottom"><b>selectInputParticle</b></td></tr>
+<tr class="memdesc:a052081767ab6ec53157e32de1077d325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input selection: if this process applies to this particle. <br /></td></tr>
+<tr class="memitem:ad1fa30b2796cafcf580ad9a501dad75d" id="r_ad1fa30b2796cafcf580ad9a501dad75d"><td class="memItemLeft" align="right" valign="top"><a id="ad1fa30b2796cafcf580ad9a501dad75d" name="ad1fa30b2796cafcf580ad9a501dad75d"></a>
+output_particle_selector_t&#160;</td><td class="memItemRight" valign="bottom"><b>selectOutputParticle</b></td></tr>
+<tr class="memdesc:ad1fa30b2796cafcf580ad9a501dad75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output selection: if the particle is still valid after the interaction. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;detail::ContinuousProcessConcept physics_t, typename input_particle_selector_t, typename output_particle_selector_t, typename child_particle_selector_t = output_particle_selector_t&gt;<br />
@@ -229,79 +233,6 @@ template&lt;typename generator_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a073d4df2893d9ca3a9e45267d42fd591" name="a073d4df2893d9ca3a9e45267d42fd591"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a073d4df2893d9ca3a9e45267d42fd591">&#9670;&#160;</a></span>physics</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ContinuousProcessConcept physics_t, typename input_particle_selector_t, typename output_particle_selector_t, typename child_particle_selector_t = output_particle_selector_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">physics_t <a class="el" href="struct_acts_fatras_1_1_continuous_process.html">ActsFatras::ContinuousProcess</a>&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;::physics</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The physics interactions implementation. </p>
-
-</div>
-</div>
-<a id="abb5e6700b5302b6e8ccf6f3bcd658cd3" name="abb5e6700b5302b6e8ccf6f3bcd658cd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb5e6700b5302b6e8ccf6f3bcd658cd3">&#9670;&#160;</a></span>selectChildParticle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ContinuousProcessConcept physics_t, typename input_particle_selector_t, typename output_particle_selector_t, typename child_particle_selector_t = output_particle_selector_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">child_particle_selector_t <a class="el" href="struct_acts_fatras_1_1_continuous_process.html">ActsFatras::ContinuousProcess</a>&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;::selectChildParticle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Child selection: if a generated child particle should be kept. </p>
-
-</div>
-</div>
-<a id="a052081767ab6ec53157e32de1077d325" name="a052081767ab6ec53157e32de1077d325"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a052081767ab6ec53157e32de1077d325">&#9670;&#160;</a></span>selectInputParticle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ContinuousProcessConcept physics_t, typename input_particle_selector_t, typename output_particle_selector_t, typename child_particle_selector_t = output_particle_selector_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">input_particle_selector_t <a class="el" href="struct_acts_fatras_1_1_continuous_process.html">ActsFatras::ContinuousProcess</a>&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;::selectInputParticle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Input selection: if this process applies to this particle. </p>
-
-</div>
-</div>
-<a id="ad1fa30b2796cafcf580ad9a501dad75d" name="ad1fa30b2796cafcf580ad9a501dad75d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1fa30b2796cafcf580ad9a501dad75d">&#9670;&#160;</a></span>selectOutputParticle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ContinuousProcessConcept physics_t, typename input_particle_selector_t, typename output_particle_selector_t, typename child_particle_selector_t = output_particle_selector_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">output_particle_selector_t <a class="el" href="struct_acts_fatras_1_1_continuous_process.html">ActsFatras::ContinuousProcess</a>&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;::selectOutputParticle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Output selection: if the particle is still valid after the interaction. </p>
 
 </div>
 </div>

@@ -128,10 +128,6 @@ $(function(){initNavTree('group__track__finding.html','',''); });
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Algorithms and data structures for track finding. </p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:Acts_3A_3ACkfTypes" id="r_Acts_3A_3ACkfTypes"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_ckf_types.html">Acts::CkfTypes</a></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Acts_3A_3ACombinatorialKalmanFilter_3C_20propagator_5Ft_2C_20track_5Fcontainer_5Ft_20_3E" id="r_Acts_3A_3ACombinatorialKalmanFilter_3C_20propagator_5Ft_2C_20track_5Fcontainer_5Ft_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</a></td></tr>
@@ -141,45 +137,16 @@ Classes</h2></td></tr>
 <tr class="memitem:Acts_3A_3ACombinatorialKalmanFilterOptions_3C_20track_5Fcontainer_5Ft_20_3E" id="r_Acts_3A_3ACombinatorialKalmanFilterOptions_3C_20track_5Fcontainer_5Ft_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions&lt; track_container_t &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined options for the combinatorial Kalman filter.  <a href="struct_acts_1_1_combinatorial_kalman_filter_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3ACombinatorialKalmanFilterResult_3C_20track_5Fcontainer_5Ft_20_3E" id="r_Acts_3A_3ACombinatorialKalmanFilterResult_3C_20track_5Fcontainer_5Ft_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result container for the combinatorial Kalman filter actor.  <a href="struct_acts_1_1_combinatorial_kalman_filter_result.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gaeebbf038ee135dbf867fe05d0f61d09b" id="r_gaeebbf038ee135dbf867fe05d0f61d09b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeebbf038ee135dbf867fe05d0f61d09b">Acts::CombinatorialKalmanFilterBranchStopperResult</a> { <a class="el" href="#ggaeebbf038ee135dbf867fe05d0f61d09baa0bfb8e59e6c13fc8d990781f77694fe">Acts::CombinatorialKalmanFilterBranchStopperResult::Continue</a>
-, <a class="el" href="#ggaeebbf038ee135dbf867fe05d0f61d09ba1d92ea9652ee828fa2b40c68b9fe8623">Acts::CombinatorialKalmanFilterBranchStopperResult::StopAndDrop</a>
-, <a class="el" href="#ggaeebbf038ee135dbf867fe05d0f61d09badbf311296df3376417089a7fb1da6ffd">Acts::CombinatorialKalmanFilterBranchStopperResult::StopAndKeep</a>
+<tr class="memitem:gaeebbf038ee135dbf867fe05d0f61d09b" id="r_gaeebbf038ee135dbf867fe05d0f61d09b"><td class="memItemLeft" align="right" valign="top"><a id="gaeebbf038ee135dbf867fe05d0f61d09b" name="gaeebbf038ee135dbf867fe05d0f61d09b"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeebbf038ee135dbf867fe05d0f61d09b">Acts::CombinatorialKalmanFilterBranchStopperResult</a> { <b>Continue</b>
+, <b>StopAndDrop</b>
+, <b>StopAndKeep</b>
  }</td></tr>
-<tr class="memdesc:gaeebbf038ee135dbf867fe05d0f61d09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return type of the <span class="tt">BranchStopper</span> delegate for the CombinatorialKalmanFilter.  <a href="#gaeebbf038ee135dbf867fe05d0f61d09b">More...</a><br /></td></tr>
+<tr class="memdesc:gaeebbf038ee135dbf867fe05d0f61d09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return type of the <span class="tt">BranchStopper</span> delegate for the CombinatorialKalmanFilter. <br /></td></tr>
 </table>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="gaeebbf038ee135dbf867fe05d0f61d09b" name="gaeebbf038ee135dbf867fe05d0f61d09b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeebbf038ee135dbf867fe05d0f61d09b">&#9670;&#160;</a></span>CombinatorialKalmanFilterBranchStopperResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#gaeebbf038ee135dbf867fe05d0f61d09b">Acts::CombinatorialKalmanFilterBranchStopperResult</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return type of the <span class="tt">BranchStopper</span> delegate for the CombinatorialKalmanFilter. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaeebbf038ee135dbf867fe05d0f61d09baa0bfb8e59e6c13fc8d990781f77694fe" name="ggaeebbf038ee135dbf867fe05d0f61d09baa0bfb8e59e6c13fc8d990781f77694fe"></a>Continue&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ggaeebbf038ee135dbf867fe05d0f61d09ba1d92ea9652ee828fa2b40c68b9fe8623" name="ggaeebbf038ee135dbf867fe05d0f61d09ba1d92ea9652ee828fa2b40c68b9fe8623"></a>StopAndDrop&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ggaeebbf038ee135dbf867fe05d0f61d09badbf311296df3376417089a7fb1da6ffd" name="ggaeebbf038ee135dbf867fe05d0f61d09badbf311296df3376417089a7fb1da6ffd"></a>StopAndKeep&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

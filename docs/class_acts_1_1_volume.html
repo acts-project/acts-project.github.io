@@ -152,7 +152,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5f6c33a0fc325cdd35cec42df304b03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicit constructor with shared arguments.  <br /></td></tr>
 <tr class="memitem:ac16facb9da7ed3a54aa89aef433545fd" id="r_ac16facb9da7ed3a54aa89aef433545fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac16facb9da7ed3a54aa89aef433545fd">Volume</a> (const Volume &amp;vol, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;shift=Transform3::Identity())</td></tr>
 <tr class="memdesc:ac16facb9da7ed3a54aa89aef433545fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor - with optional shift.  <br /></td></tr>
-<tr class="memitem:a7aa698aa4f479929739cd957592fdf29" id="r_a7aa698aa4f479929739cd957592fdf29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa698aa4f479929739cd957592fdf29">~Volume</a> () noexcept override=default</td></tr>
 <tr class="memitem:a545e9e249d401a0dbfbe7598be4cea53" id="r_a545e9e249d401a0dbfbe7598be4cea53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a545e9e249d401a0dbfbe7598be4cea53">assignVolumeBounds</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds)</td></tr>
 <tr class="memdesc:a545e9e249d401a0dbfbe7598be4cea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set volume bounds and update volume bounding boxes implicitly.  <br /></td></tr>
 <tr class="memitem:ae3417c821f73a46f2a963f2f4286f697" id="r_ae3417c821f73a46f2a963f2f4286f697"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2dc575b3470c5cab3448c8557a8793b">BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3417c821f73a46f2a963f2f4286f697">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;envelope={0, 0, 0}) const</td></tr>
@@ -196,13 +195,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c2c82ae12ff61b3d67e72a0cfa611a9" id="r_a6c2c82ae12ff61b3d67e72a0cfa611a9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2c82ae12ff61b3d67e72a0cfa611a9">volumeBoundsPtr</a> () const</td></tr>
 <tr class="memdesc:a6c2c82ae12ff61b3d67e72a0cfa611a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shared pointer to the const volume bounds.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_geometry_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_geometry_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_geometry_object.html">Acts::GeometryObject</a></td></tr>
-<tr class="memitem:aa3649047621ffd92ebbc3dded63b0651 inherit pub_methods_class_acts_1_1_geometry_object" id="r_aa3649047621ffd92ebbc3dded63b0651"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#aa3649047621ffd92ebbc3dded63b0651">GeometryObject</a> ()=default</td></tr>
-<tr class="memdesc:aa3649047621ffd92ebbc3dded63b0651 inherit pub_methods_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defaulted constructor.  <br /></td></tr>
+<tr class="memitem:aa3649047621ffd92ebbc3dded63b0651 inherit pub_methods_class_acts_1_1_geometry_object" id="r_aa3649047621ffd92ebbc3dded63b0651"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>GeometryObject</b> ()=default</td></tr>
+<tr class="memdesc:aa3649047621ffd92ebbc3dded63b0651 inherit pub_methods_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defaulted constructor. <br /></td></tr>
 <tr class="memitem:a856a66acfeaebf0915d8df18d75b1ebf inherit pub_methods_class_acts_1_1_geometry_object" id="r_a856a66acfeaebf0915d8df18d75b1ebf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#a856a66acfeaebf0915d8df18d75b1ebf">GeometryObject</a> (const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &amp;<a class="el" href="class_acts_1_1_geometry_object.html#a798dd6a19dcc5cd79d9b55ed6e474f7a">geometryId</a>)</td></tr>
 <tr class="memdesc:a856a66acfeaebf0915d8df18d75b1ebf inherit pub_methods_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a value.  <br /></td></tr>
-<tr class="memitem:a72f319258ef848e32b0ec8cdebc6acbb inherit pub_methods_class_acts_1_1_geometry_object" id="r_a72f319258ef848e32b0ec8cdebc6acbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#a72f319258ef848e32b0ec8cdebc6acbb">GeometryObject</a> (const GeometryObject &amp;)=default</td></tr>
-<tr class="memdesc:a72f319258ef848e32b0ec8cdebc6acbb inherit pub_methods_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defaulted copy constructor.  <br /></td></tr>
-<tr class="memitem:af76698124ad0ee6abddb62caebcc2bf3 inherit pub_methods_class_acts_1_1_geometry_object" id="r_af76698124ad0ee6abddb62caebcc2bf3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#af76698124ad0ee6abddb62caebcc2bf3">~GeometryObject</a> () noexcept=default</td></tr>
+<tr class="memitem:a72f319258ef848e32b0ec8cdebc6acbb inherit pub_methods_class_acts_1_1_geometry_object" id="r_a72f319258ef848e32b0ec8cdebc6acbb"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>GeometryObject</b> (const GeometryObject &amp;)=default</td></tr>
+<tr class="memdesc:a72f319258ef848e32b0ec8cdebc6acbb inherit pub_methods_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defaulted copy constructor. <br /></td></tr>
 <tr class="memitem:ab156ca1460c8174c20427e4832d32f89 inherit pub_methods_class_acts_1_1_geometry_object" id="r_ab156ca1460c8174c20427e4832d32f89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#ab156ca1460c8174c20427e4832d32f89">assignGeometryId</a> (const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &amp;<a class="el" href="class_acts_1_1_geometry_object.html#a798dd6a19dcc5cd79d9b55ed6e474f7a">geometryId</a>)</td></tr>
 <tr class="memdesc:ab156ca1460c8174c20427e4832d32f89 inherit pub_methods_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value.  <br /></td></tr>
 <tr class="memitem:a798dd6a19dcc5cd79d9b55ed6e474f7a inherit pub_methods_class_acts_1_1_geometry_object" id="r_a798dd6a19dcc5cd79d9b55ed6e474f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#a798dd6a19dcc5cd79d9b55ed6e474f7a">geometryId</a> () const</td></tr>
@@ -211,15 +211,19 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a78617a83bb42e2bf0ef210bbc01e4492" id="r_a78617a83bb42e2bf0ef210bbc01e4492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78617a83bb42e2bf0ef210bbc01e4492">m_center</a></td></tr>
-<tr class="memdesc:a78617a83bb42e2bf0ef210bbc01e4492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center position of the volume in global coordinates.  <br /></td></tr>
-<tr class="memitem:afb973d01158f8d893bde844b43b60e4d" id="r_afb973d01158f8d893bde844b43b60e4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb973d01158f8d893bde844b43b60e4d">m_itransform</a></td></tr>
-<tr class="memdesc:afb973d01158f8d893bde844b43b60e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse of the transform matrix for efficient calculations.  <br /></td></tr>
-<tr class="memitem:a214e9bc3a4cc4eb92bfe08d4fad6fcf9" id="r_a214e9bc3a4cc4eb92bfe08d4fad6fcf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a214e9bc3a4cc4eb92bfe08d4fad6fcf9">m_transform</a></td></tr>
-<tr class="memdesc:a214e9bc3a4cc4eb92bfe08d4fad6fcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform matrix that positions the volume in 3D space.  <br /></td></tr>
+<tr class="memitem:a78617a83bb42e2bf0ef210bbc01e4492" id="r_a78617a83bb42e2bf0ef210bbc01e4492"><td class="memItemLeft" align="right" valign="top"><a id="a78617a83bb42e2bf0ef210bbc01e4492" name="a78617a83bb42e2bf0ef210bbc01e4492"></a>
+<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_center</b></td></tr>
+<tr class="memdesc:a78617a83bb42e2bf0ef210bbc01e4492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center position of the volume in global coordinates. <br /></td></tr>
+<tr class="memitem:afb973d01158f8d893bde844b43b60e4d" id="r_afb973d01158f8d893bde844b43b60e4d"><td class="memItemLeft" align="right" valign="top"><a id="afb973d01158f8d893bde844b43b60e4d" name="afb973d01158f8d893bde844b43b60e4d"></a>
+<a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_itransform</b></td></tr>
+<tr class="memdesc:afb973d01158f8d893bde844b43b60e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse of the transform matrix for efficient calculations. <br /></td></tr>
+<tr class="memitem:a214e9bc3a4cc4eb92bfe08d4fad6fcf9" id="r_a214e9bc3a4cc4eb92bfe08d4fad6fcf9"><td class="memItemLeft" align="right" valign="top"><a id="a214e9bc3a4cc4eb92bfe08d4fad6fcf9" name="a214e9bc3a4cc4eb92bfe08d4fad6fcf9"></a>
+<a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_transform</b></td></tr>
+<tr class="memdesc:a214e9bc3a4cc4eb92bfe08d4fad6fcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform matrix that positions the volume in 3D space. <br /></td></tr>
 <tr class="inherit_header pro_attribs_class_acts_1_1_geometry_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_acts_1_1_geometry_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="class_acts_1_1_geometry_object.html">Acts::GeometryObject</a></td></tr>
-<tr class="memitem:a8670edf1ae6be633b07a2e07f370e1e4 inherit pro_attribs_class_acts_1_1_geometry_object" id="r_a8670edf1ae6be633b07a2e07f370e1e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_geometry_object.html#a8670edf1ae6be633b07a2e07f370e1e4">m_geometryId</a></td></tr>
-<tr class="memdesc:a8670edf1ae6be633b07a2e07f370e1e4 inherit pro_attribs_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique geometry identifier for this object.  <br /></td></tr>
+<tr class="memitem:a8670edf1ae6be633b07a2e07f370e1e4 inherit pro_attribs_class_acts_1_1_geometry_object" id="r_a8670edf1ae6be633b07a2e07f370e1e4"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_geometryId</b></td></tr>
+<tr class="memdesc:a8670edf1ae6be633b07a2e07f370e1e4 inherit pro_attribs_class_acts_1_1_geometry_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique geometry identifier for this object. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>It inherits from GeometryObject for geometry identification. </p>
@@ -300,31 +304,6 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a7aa698aa4f479929739cd957592fdf29" name="a7aa698aa4f479929739cd957592fdf29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7aa698aa4f479929739cd957592fdf29">&#9670;&#160;</a></span>~Volume()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Volume::~Volume </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -449,6 +428,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The global to local transformation matrix </dd></dl>
 
 </div>
 </div>
@@ -564,6 +544,7 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The local to global transformation matrix </dd></dl>
 
 </div>
 </div>
@@ -895,79 +876,6 @@ Protected Attributes</h2></td></tr>
 
 <p>Get shared pointer to the const volume bounds. </p>
 <dl class="section return"><dt>Returns</dt><dd>Const shared pointer to the volume bounds object </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a78617a83bb42e2bf0ef210bbc01e4492" name="a78617a83bb42e2bf0ef210bbc01e4492"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78617a83bb42e2bf0ef210bbc01e4492">&#9670;&#160;</a></span>m_center</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> Acts::Volume::m_center</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Center position of the volume in global coordinates. </p>
-
-</div>
-</div>
-<a id="afb973d01158f8d893bde844b43b60e4d" name="afb973d01158f8d893bde844b43b60e4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb973d01158f8d893bde844b43b60e4d">&#9670;&#160;</a></span>m_itransform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> Acts::Volume::m_itransform</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Inverse of the transform matrix for efficient calculations. </p>
-
-</div>
-</div>
-<a id="a214e9bc3a4cc4eb92bfe08d4fad6fcf9" name="a214e9bc3a4cc4eb92bfe08d4fad6fcf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a214e9bc3a4cc4eb92bfe08d4fad6fcf9">&#9670;&#160;</a></span>m_transform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> Acts::Volume::m_transform</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Transform matrix that positions the volume in 3D space. </p>
 
 </div>
 </div>

@@ -21,6 +21,5 @@ var class_acts_1_1_space_point_column_proxy =
     [ "operator[]", "class_acts_1_1_space_point_column_proxy.html#adebb68107cfa94ad963e496fa2902dae", null ],
     [ "operator[]", "class_acts_1_1_space_point_column_proxy.html#abb3b1bcaeff20f46ba87c86adb74ed07", null ],
     [ "subset", "class_acts_1_1_space_point_column_proxy.html#a798375ac0da8649841ae0ec525d27e35", null ],
-    [ "SpacePointContainer2", "class_acts_1_1_space_point_column_proxy.html#a3f6b8bf527edda646d3c3d9027d4dd0b", null ],
     [ "ReadOnly", "class_acts_1_1_space_point_column_proxy.html#a653886d7ea5206e2fd8cd0e5841fd1b9", null ]
 ];

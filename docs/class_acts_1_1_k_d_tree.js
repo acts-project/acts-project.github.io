@@ -7,7 +7,6 @@ var class_acts_1_1_k_d_tree =
     [ "range_t", "class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905", null ],
     [ "value_t", "class_acts_1_1_k_d_tree.html#ae02250e28e6f37fef5c4842cf117cde8", null ],
     [ "vector_t", "class_acts_1_1_k_d_tree.html#aac3b54fdba4fd6e1664fdb4aa76cc8e2", null ],
-    [ "KDTree", "class_acts_1_1_k_d_tree.html#ad6b1ae24524c2a66da0ed4728c0ce6c9", null ],
     [ "KDTree", "class_acts_1_1_k_d_tree.html#a5beec053dcd793da0082e3a42c14c222", null ],
     [ "begin", "class_acts_1_1_k_d_tree.html#a548c141ee128d23391c5914aa4285bed", null ],
     [ "end", "class_acts_1_1_k_d_tree.html#af3d00f7ca0847dd7ee11090608f34050", null ],

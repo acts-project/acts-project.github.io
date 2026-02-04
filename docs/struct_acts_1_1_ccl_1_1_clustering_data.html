@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_ccl_1_1_clustering_data.html','','stru
 </div><!--header-->
 <div class="contents">
 
+<p>Collection of mutable data used by clustering utilities.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_clusterization_8hpp_source.html">Acts/Clusterization/Clusterization.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Ccl::ClusteringData:</div>
@@ -135,76 +138,25 @@ Collaboration diagram for Acts::Ccl::ClusteringData:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d08ad8f5d9d9464c572122107490541" id="r_a0d08ad8f5d9d9464c572122107490541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d08ad8f5d9d9464c572122107490541">clear</a> ()</td></tr>
+<tr class="memitem:a0d08ad8f5d9d9464c572122107490541" id="r_a0d08ad8f5d9d9464c572122107490541"><td class="memItemLeft" align="right" valign="top"><a id="a0d08ad8f5d9d9464c572122107490541" name="a0d08ad8f5d9d9464c572122107490541"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="memdesc:a0d08ad8f5d9d9464c572122107490541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all clustering data. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a827c711277c8bae2adaefdeba2573ed4" id="r_a827c711277c8bae2adaefdeba2573ed4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_ccl_1_1_disjoint_sets.html">Acts::Ccl::DisjointSets</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a827c711277c8bae2adaefdeba2573ed4">ds</a> {}</td></tr>
-<tr class="memitem:a41d66a7fe1e6785d6e60460796d8426e" id="r_a41d66a7fe1e6785d6e60460796d8426e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts_1_1_ccl.html#aab137e09512e5cf0ef0a62331591cffe">Acts::Ccl::Label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d66a7fe1e6785d6e60460796d8426e">labels</a> {}</td></tr>
-<tr class="memitem:a9d05bddc22efdf8b8330874827eb02d5" id="r_a9d05bddc22efdf8b8330874827eb02d5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d05bddc22efdf8b8330874827eb02d5">nClusters</a> {}</td></tr>
+<tr class="memitem:a827c711277c8bae2adaefdeba2573ed4" id="r_a827c711277c8bae2adaefdeba2573ed4"><td class="memItemLeft" align="right" valign="top"><a id="a827c711277c8bae2adaefdeba2573ed4" name="a827c711277c8bae2adaefdeba2573ed4"></a>
+<a class="el" href="class_acts_1_1_ccl_1_1_disjoint_sets.html">Acts::Ccl::DisjointSets</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ds</b> {}</td></tr>
+<tr class="memdesc:a827c711277c8bae2adaefdeba2573ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disjoint sets data structure for clustering. <br /></td></tr>
+<tr class="memitem:a41d66a7fe1e6785d6e60460796d8426e" id="r_a41d66a7fe1e6785d6e60460796d8426e"><td class="memItemLeft" align="right" valign="top"><a id="a41d66a7fe1e6785d6e60460796d8426e" name="a41d66a7fe1e6785d6e60460796d8426e"></a>
+std::vector&lt; Acts::Ccl::Label &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>labels</b> {}</td></tr>
+<tr class="memdesc:a41d66a7fe1e6785d6e60460796d8426e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cluster labels for each cell. <br /></td></tr>
+<tr class="memitem:a9d05bddc22efdf8b8330874827eb02d5" id="r_a9d05bddc22efdf8b8330874827eb02d5"><td class="memItemLeft" align="right" valign="top"><a id="a9d05bddc22efdf8b8330874827eb02d5" name="a9d05bddc22efdf8b8330874827eb02d5"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>nClusters</b> {}</td></tr>
+<tr class="memdesc:a9d05bddc22efdf8b8330874827eb02d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of cells per cluster. <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a0d08ad8f5d9d9464c572122107490541" name="a0d08ad8f5d9d9464c572122107490541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d08ad8f5d9d9464c572122107490541">&#9670;&#160;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::Ccl::ClusteringData::clear </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a827c711277c8bae2adaefdeba2573ed4" name="a827c711277c8bae2adaefdeba2573ed4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a827c711277c8bae2adaefdeba2573ed4">&#9670;&#160;</a></span>ds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_ccl_1_1_disjoint_sets.html">Acts::Ccl::DisjointSets</a> Acts::Ccl::ClusteringData::ds {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41d66a7fe1e6785d6e60460796d8426e" name="a41d66a7fe1e6785d6e60460796d8426e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41d66a7fe1e6785d6e60460796d8426e">&#9670;&#160;</a></span>labels</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="namespace_acts_1_1_ccl.html#aab137e09512e5cf0ef0a62331591cffe">Acts::Ccl::Label</a>&gt; Acts::Ccl::ClusteringData::labels {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9d05bddc22efdf8b8330874827eb02d5" name="a9d05bddc22efdf8b8330874827eb02d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d05bddc22efdf8b8330874827eb02d5">&#9670;&#160;</a></span>nClusters</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::Ccl::ClusteringData::nClusters {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Collection of mutable data used by clustering utilities. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
@@ -217,7 +169,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_ccl.html">Ccl</a></li><li class="navelem"><a href="struct_acts_1_1_ccl_1_1_clustering_data.html">ClusteringData</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>Ccl</b></li><li class="navelem"><a href="struct_acts_1_1_ccl_1_1_clustering_data.html">ClusteringData</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

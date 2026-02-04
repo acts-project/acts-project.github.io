@@ -1,6 +1,5 @@
 var group__track__finding =
 [
-    [ "Acts::CkfTypes", "namespace_acts_1_1_ckf_types.html", null ],
     [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;", "class_acts_1_1_combinatorial_kalman_filter.html", [
       [ "CombinatorialKalmanFilter", "class_acts_1_1_combinatorial_kalman_filter.html#a00ce8df1692cbd175c8c4c4eb96d127b", null ],
       [ "CombinatorialKalmanFilter", "class_acts_1_1_combinatorial_kalman_filter.html#a73babed6b5e06588d567cfa23fd7b0cf", null ],
@@ -46,9 +45,5 @@ var group__track__finding =
       [ "trackStateCandidates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a55dca6d2484c5e8af3b48996fdb51a51", null ],
       [ "trackStates", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a28bd3d27b349ab3e0cace0a90eb2d306", null ]
     ] ],
-    [ "Acts::CombinatorialKalmanFilterBranchStopperResult", "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b", [
-      [ "Acts::CombinatorialKalmanFilterBranchStopperResult::Continue", "group__track__finding.html#ggaeebbf038ee135dbf867fe05d0f61d09baa0bfb8e59e6c13fc8d990781f77694fe", null ],
-      [ "Acts::CombinatorialKalmanFilterBranchStopperResult::StopAndDrop", "group__track__finding.html#ggaeebbf038ee135dbf867fe05d0f61d09ba1d92ea9652ee828fa2b40c68b9fe8623", null ],
-      [ "Acts::CombinatorialKalmanFilterBranchStopperResult::StopAndKeep", "group__track__finding.html#ggaeebbf038ee135dbf867fe05d0f61d09badbf311296df3376417089a7fb1da6ffd", null ]
-    ] ]
+    [ "Acts::CombinatorialKalmanFilterBranchStopperResult", "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b", null ]
 ];

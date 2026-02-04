@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration struct for TensorRT edge classifier.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_tensor_r_t_edge_classifier_8hpp_source.html">ActsPlugins/Gnn/TensorRTEdgeClassifier.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::TensorRTEdgeClassifier::Config:</div>
@@ -135,69 +138,22 @@ Collaboration diagram for ActsPlugins::TensorRTEdgeClassifier::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aae9b014f8ad181a601abb27151d5c057" id="r_aae9b014f8ad181a601abb27151d5c057"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae9b014f8ad181a601abb27151d5c057">cut</a> = 0.5</td></tr>
-<tr class="memitem:a061206525fae8530a6f33f6f386814f2" id="r_a061206525fae8530a6f33f6f386814f2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a061206525fae8530a6f33f6f386814f2">modelPath</a></td></tr>
-<tr class="memitem:af6f0a4eab073abfdd57b07c74055ae7b" id="r_af6f0a4eab073abfdd57b07c74055ae7b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f0a4eab073abfdd57b07c74055ae7b">numExecutionContexts</a> = 1</td></tr>
-<tr class="memitem:a86183f5f6385075ffc9e75273e9ad804" id="r_a86183f5f6385075ffc9e75273e9ad804"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86183f5f6385075ffc9e75273e9ad804">selectedFeatures</a></td></tr>
+<tr class="memitem:aae9b014f8ad181a601abb27151d5c057" id="r_aae9b014f8ad181a601abb27151d5c057"><td class="memItemLeft" align="right" valign="top"><a id="aae9b014f8ad181a601abb27151d5c057" name="aae9b014f8ad181a601abb27151d5c057"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>cut</b> = 0.5</td></tr>
+<tr class="memdesc:aae9b014f8ad181a601abb27151d5c057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classification score threshold for edge filtering. <br /></td></tr>
+<tr class="memitem:a061206525fae8530a6f33f6f386814f2" id="r_a061206525fae8530a6f33f6f386814f2"><td class="memItemLeft" align="right" valign="top"><a id="a061206525fae8530a6f33f6f386814f2" name="a061206525fae8530a6f33f6f386814f2"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>modelPath</b></td></tr>
+<tr class="memdesc:a061206525fae8530a6f33f6f386814f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the TensorRT model file. <br /></td></tr>
+<tr class="memitem:af6f0a4eab073abfdd57b07c74055ae7b" id="r_af6f0a4eab073abfdd57b07c74055ae7b"><td class="memItemLeft" align="right" valign="top"><a id="af6f0a4eab073abfdd57b07c74055ae7b" name="af6f0a4eab073abfdd57b07c74055ae7b"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>numExecutionContexts</b> = 1</td></tr>
+<tr class="memdesc:af6f0a4eab073abfdd57b07c74055ae7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of parallel execution contexts for inference. <br /></td></tr>
+<tr class="memitem:a86183f5f6385075ffc9e75273e9ad804" id="r_a86183f5f6385075ffc9e75273e9ad804"><td class="memItemLeft" align="right" valign="top"><a id="a86183f5f6385075ffc9e75273e9ad804" name="a86183f5f6385075ffc9e75273e9ad804"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selectedFeatures</b></td></tr>
+<tr class="memdesc:a86183f5f6385075ffc9e75273e9ad804"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of feature indices to use for edge classification. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aae9b014f8ad181a601abb27151d5c057" name="aae9b014f8ad181a601abb27151d5c057"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae9b014f8ad181a601abb27151d5c057">&#9670;&#160;</a></span>cut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::TensorRTEdgeClassifier::Config::cut = 0.5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a061206525fae8530a6f33f6f386814f2" name="a061206525fae8530a6f33f6f386814f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a061206525fae8530a6f33f6f386814f2">&#9670;&#160;</a></span>modelPath</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ActsPlugins::TensorRTEdgeClassifier::Config::modelPath</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af6f0a4eab073abfdd57b07c74055ae7b" name="af6f0a4eab073abfdd57b07c74055ae7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6f0a4eab073abfdd57b07c74055ae7b">&#9670;&#160;</a></span>numExecutionContexts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t ActsPlugins::TensorRTEdgeClassifier::Config::numExecutionContexts = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86183f5f6385075ffc9e75273e9ad804" name="a86183f5f6385075ffc9e75273e9ad804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86183f5f6385075ffc9e75273e9ad804">&#9670;&#160;</a></span>selectedFeatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;int&gt; ActsPlugins::TensorRTEdgeClassifier::Config::selectedFeatures</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration struct for TensorRT edge classifier. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

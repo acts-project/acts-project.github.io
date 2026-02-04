@@ -33,7 +33,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="178,-113 0,-113 0,-83 178,-83 178,-113"/>
+<polygon fill="white" stroke="#bfbfbf" points="178,-113 0,-113 0,-83 178,-83 178,-113"/>
 <text text-anchor="start" x="8" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; BoundTrack</text>
 <text text-anchor="middle" x="89" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">Parameters(const InputTrack &amp;)&gt;</text>
 </a>
@@ -53,7 +53,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="165,-211 13,-211 13,-181 165,-181 165,-211"/>
+<polygon fill="white" stroke="#bfbfbf" points="165,-211 13,-211 13,-181 165,-181 165,-211"/>
 <text text-anchor="start" x="21" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="89" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>

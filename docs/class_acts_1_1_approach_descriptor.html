@@ -138,8 +138,6 @@ Inheritance diagram for Acts::ApproachDescriptor:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a997a82bf5d85fa084bdcaf7e2ad1dc43" id="r_a997a82bf5d85fa084bdcaf7e2ad1dc43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a997a82bf5d85fa084bdcaf7e2ad1dc43">ApproachDescriptor</a> ()=default</td></tr>
-<tr class="memitem:ab2370c09f09c4ae73bcdc2956b8a080c" id="r_ab2370c09f09c4ae73bcdc2956b8a080c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2370c09f09c4ae73bcdc2956b8a080c">~ApproachDescriptor</a> ()=default</td></tr>
 <tr class="memitem:a669f44e881c1dfb9501722abbc3f0817" id="r_a669f44e881c1dfb9501722abbc3f0817"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a669f44e881c1dfb9501722abbc3f0817">approachSurface</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance, double nearLimit, double farLimit) const =0</td></tr>
 <tr class="memdesc:a669f44e881c1dfb9501722abbc3f0817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the surface on approach.  <br /></td></tr>
 <tr class="memitem:ab42420782c57e63f554f4fdb63519d1b" id="r_ab42420782c57e63f554f4fdb63519d1b"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42420782c57e63f554f4fdb63519d1b">containedSurfaces</a> () const =0</td></tr>
@@ -151,58 +149,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Virtual base class to decide and return which approaching surface to be taken, the surfaces are std::shared_ptr, as they can be the boundary surfaces of the representingVolume of the Layer. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a997a82bf5d85fa084bdcaf7e2ad1dc43" name="a997a82bf5d85fa084bdcaf7e2ad1dc43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a997a82bf5d85fa084bdcaf7e2ad1dc43">&#9670;&#160;</a></span>ApproachDescriptor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ApproachDescriptor::ApproachDescriptor </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab2370c09f09c4ae73bcdc2956b8a080c" name="ab2370c09f09c4ae73bcdc2956b8a080c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2370c09f09c4ae73bcdc2956b8a080c">&#9670;&#160;</a></span>~ApproachDescriptor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ApproachDescriptor::~ApproachDescriptor </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a669f44e881c1dfb9501722abbc3f0817" name="a669f44e881c1dfb9501722abbc3f0817"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a669f44e881c1dfb9501722abbc3f0817">&#9670;&#160;</a></span>approachSurface()</h2>
 

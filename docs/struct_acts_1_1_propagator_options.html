@@ -143,12 +143,15 @@ Collaboration diagram for Acts::PropagatorOptions&lt; stepper_options_t, navigat
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a32cc330e78ae01bf7f6f6907755e271d" id="r_a32cc330e78ae01bf7f6f6907755e271d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32cc330e78ae01bf7f6f6907755e271d">actor_list_type</a> = actor_list_t</td></tr>
-<tr class="memdesc:a32cc330e78ae01bf7f6f6907755e271d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for actor list.  <br /></td></tr>
-<tr class="memitem:a3fa243fe6a92d5de0e8bba183f9be6b4" id="r_a3fa243fe6a92d5de0e8bba183f9be6b4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fa243fe6a92d5de0e8bba183f9be6b4">navigator_options_type</a> = navigator_options_t</td></tr>
-<tr class="memdesc:a3fa243fe6a92d5de0e8bba183f9be6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for navigator options.  <br /></td></tr>
-<tr class="memitem:a0ac797193d8a738f7204dbb5c42501bc" id="r_a0ac797193d8a738f7204dbb5c42501bc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac797193d8a738f7204dbb5c42501bc">stepper_options_type</a> = stepper_options_t</td></tr>
-<tr class="memdesc:a0ac797193d8a738f7204dbb5c42501bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for stepper options.  <br /></td></tr>
+<tr class="memitem:a32cc330e78ae01bf7f6f6907755e271d" id="r_a32cc330e78ae01bf7f6f6907755e271d"><td class="memItemLeft" align="right" valign="top"><a id="a32cc330e78ae01bf7f6f6907755e271d" name="a32cc330e78ae01bf7f6f6907755e271d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>actor_list_type</b> = actor_list_t</td></tr>
+<tr class="memdesc:a32cc330e78ae01bf7f6f6907755e271d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for actor list. <br /></td></tr>
+<tr class="memitem:a3fa243fe6a92d5de0e8bba183f9be6b4" id="r_a3fa243fe6a92d5de0e8bba183f9be6b4"><td class="memItemLeft" align="right" valign="top"><a id="a3fa243fe6a92d5de0e8bba183f9be6b4" name="a3fa243fe6a92d5de0e8bba183f9be6b4"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>navigator_options_type</b> = navigator_options_t</td></tr>
+<tr class="memdesc:a3fa243fe6a92d5de0e8bba183f9be6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for navigator options. <br /></td></tr>
+<tr class="memitem:a0ac797193d8a738f7204dbb5c42501bc" id="r_a0ac797193d8a738f7204dbb5c42501bc"><td class="memItemLeft" align="right" valign="top"><a id="a0ac797193d8a738f7204dbb5c42501bc" name="a0ac797193d8a738f7204dbb5c42501bc"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>stepper_options_type</b> = stepper_options_t</td></tr>
+<tr class="memdesc:a0ac797193d8a738f7204dbb5c42501bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for stepper options. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -159,23 +162,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a837419b8bafbcc953c58373e0b3480" id="r_a7a837419b8bafbcc953c58373e0b3480"><td class="memTemplParams" colspan="2">template&lt;typename extended_actor_list_t&gt; </td></tr>
 <tr class="memitem:a7a837419b8bafbcc953c58373e0b3480 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a949991168fbefbd8d2051f97a53ae1e1">PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, extended_actor_list_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a837419b8bafbcc953c58373e0b3480">extend</a> (extended_actor_list_t extendedActorList) const</td></tr>
 <tr class="memdesc:a7a837419b8bafbcc953c58373e0b3480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand the options with extended actors.  <br /></td></tr>
-<tr class="memitem:ae8d94972492fd885ef0f8481f07cab09" id="r_ae8d94972492fd885ef0f8481f07cab09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d94972492fd885ef0f8481f07cab09">operator PropagatorPlainOptions</a> () const</td></tr>
-<tr class="memdesc:ae8d94972492fd885ef0f8481f07cab09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to plain options.  <br /></td></tr>
+<tr class="memitem:ae8d94972492fd885ef0f8481f07cab09" id="r_ae8d94972492fd885ef0f8481f07cab09"><td class="memItemLeft" align="right" valign="top"><a id="ae8d94972492fd885ef0f8481f07cab09" name="ae8d94972492fd885ef0f8481f07cab09"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator PropagatorPlainOptions</b> () const</td></tr>
+<tr class="memdesc:ae8d94972492fd885ef0f8481f07cab09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to plain options. <br /></td></tr>
 <tr class="memitem:afe5f64b8c7250c808a7b35e9fe6c995c" id="r_afe5f64b8c7250c808a7b35e9fe6c995c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe5f64b8c7250c808a7b35e9fe6c995c">setPlainOptions</a> (const <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> &amp;pOptions)</td></tr>
 <tr class="memdesc:afe5f64b8c7250c808a7b35e9fe6c995c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the plain options.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae204a6ef1b0e1c706ce43094a5712ab2" id="r_ae204a6ef1b0e1c706ce43094a5712ab2"><td class="memItemLeft" align="right" valign="top">actor_list_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a></td></tr>
-<tr class="memdesc:ae204a6ef1b0e1c706ce43094a5712ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of actions.  <br /></td></tr>
-<tr class="memitem:a9b4d7f8f72e665e58feb61516ff52947" id="r_a9b4d7f8f72e665e58feb61516ff52947"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b4d7f8f72e665e58feb61516ff52947">geoContext</a></td></tr>
-<tr class="memdesc:a9b4d7f8f72e665e58feb61516ff52947"><td class="mdescLeft">&#160;</td><td class="mdescRight">The context object for the geometry.  <br /></td></tr>
-<tr class="memitem:a5e607fc37b12e52ecb938ee06f2bfe89" id="r_a5e607fc37b12e52ecb938ee06f2bfe89"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e607fc37b12e52ecb938ee06f2bfe89">magFieldContext</a></td></tr>
-<tr class="memdesc:a5e607fc37b12e52ecb938ee06f2bfe89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The context object for the magnetic field.  <br /></td></tr>
-<tr class="memitem:ab5d8e300919f72b80bb447c415f523f5" id="r_ab5d8e300919f72b80bb447c415f523f5"><td class="memItemLeft" align="right" valign="top">navigator_options_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5d8e300919f72b80bb447c415f523f5">navigation</a></td></tr>
-<tr class="memdesc:ab5d8e300919f72b80bb447c415f523f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigator options.  <br /></td></tr>
-<tr class="memitem:a6f9715e246cf8b08d96443a5b3242697" id="r_a6f9715e246cf8b08d96443a5b3242697"><td class="memItemLeft" align="right" valign="top">stepper_options_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f9715e246cf8b08d96443a5b3242697">stepping</a></td></tr>
-<tr class="memdesc:a6f9715e246cf8b08d96443a5b3242697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stepper options.  <br /></td></tr>
+<tr class="memitem:ae204a6ef1b0e1c706ce43094a5712ab2" id="r_ae204a6ef1b0e1c706ce43094a5712ab2"><td class="memItemLeft" align="right" valign="top"><a id="ae204a6ef1b0e1c706ce43094a5712ab2" name="ae204a6ef1b0e1c706ce43094a5712ab2"></a>
+actor_list_t&#160;</td><td class="memItemRight" valign="bottom"><b>actorList</b></td></tr>
+<tr class="memdesc:ae204a6ef1b0e1c706ce43094a5712ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of actions. <br /></td></tr>
+<tr class="memitem:a9b4d7f8f72e665e58feb61516ff52947" id="r_a9b4d7f8f72e665e58feb61516ff52947"><td class="memItemLeft" align="right" valign="top"><a id="a9b4d7f8f72e665e58feb61516ff52947" name="a9b4d7f8f72e665e58feb61516ff52947"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
+<tr class="memdesc:a9b4d7f8f72e665e58feb61516ff52947"><td class="mdescLeft">&#160;</td><td class="mdescRight">The context object for the geometry. <br /></td></tr>
+<tr class="memitem:a5e607fc37b12e52ecb938ee06f2bfe89" id="r_a5e607fc37b12e52ecb938ee06f2bfe89"><td class="memItemLeft" align="right" valign="top"><a id="a5e607fc37b12e52ecb938ee06f2bfe89" name="a5e607fc37b12e52ecb938ee06f2bfe89"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>magFieldContext</b></td></tr>
+<tr class="memdesc:a5e607fc37b12e52ecb938ee06f2bfe89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The context object for the magnetic field. <br /></td></tr>
+<tr class="memitem:ab5d8e300919f72b80bb447c415f523f5" id="r_ab5d8e300919f72b80bb447c415f523f5"><td class="memItemLeft" align="right" valign="top"><a id="ab5d8e300919f72b80bb447c415f523f5" name="ab5d8e300919f72b80bb447c415f523f5"></a>
+navigator_options_t&#160;</td><td class="memItemRight" valign="bottom"><b>navigation</b></td></tr>
+<tr class="memdesc:ab5d8e300919f72b80bb447c415f523f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigator options. <br /></td></tr>
+<tr class="memitem:a6f9715e246cf8b08d96443a5b3242697" id="r_a6f9715e246cf8b08d96443a5b3242697"><td class="memItemLeft" align="right" valign="top"><a id="a6f9715e246cf8b08d96443a5b3242697" name="a6f9715e246cf8b08d96443a5b3242697"></a>
+stepper_options_t&#160;</td><td class="memItemRight" valign="bottom"><b>stepping</b></td></tr>
+<tr class="memdesc:a6f9715e246cf8b08d96443a5b3242697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stepper options. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt;<br />
@@ -186,62 +195,7 @@ struct Acts::PropagatorOptions&lt; stepper_options_t, navigator_options_t, actor
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a32cc330e78ae01bf7f6f6907755e271d" name="a32cc330e78ae01bf7f6f6907755e271d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32cc330e78ae01bf7f6f6907755e271d">&#9670;&#160;</a></span>actor_list_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::actor_list_type = actor_list_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for actor list. </p>
-
-</div>
-</div>
-<a id="a3fa243fe6a92d5de0e8bba183f9be6b4" name="a3fa243fe6a92d5de0e8bba183f9be6b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fa243fe6a92d5de0e8bba183f9be6b4">&#9670;&#160;</a></span>navigator_options_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::navigator_options_type = navigator_options_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for navigator options. </p>
-
-</div>
-</div>
-<a id="a0ac797193d8a738f7204dbb5c42501bc" name="a0ac797193d8a738f7204dbb5c42501bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ac797193d8a738f7204dbb5c42501bc">&#9670;&#160;</a></span>stepper_options_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::stepper_options_type = stepper_options_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for stepper options. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a949991168fbefbd8d2051f97a53ae1e1" name="a949991168fbefbd8d2051f97a53ae1e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a949991168fbefbd8d2051f97a53ae1e1">&#9670;&#160;</a></span>PropagatorOptions() <span class="overload">[1/2]</span></h2>
 
@@ -346,35 +300,6 @@ template&lt;typename extended_actor_list_t&gt; </div>
 
 </div>
 </div>
-<a id="ae8d94972492fd885ef0f8481f07cab09" name="ae8d94972492fd885ef0f8481f07cab09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8d94972492fd885ef0f8481f07cab09">&#9670;&#160;</a></span>operator PropagatorPlainOptions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::operator <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert to plain options. </p>
-
-</div>
-</div>
 <a id="afe5f64b8c7250c808a7b35e9fe6c995c" name="afe5f64b8c7250c808a7b35e9fe6c995c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe5f64b8c7250c808a7b35e9fe6c995c">&#9670;&#160;</a></span>setPlainOptions()</h2>
 
@@ -399,97 +324,6 @@ template&lt;typename stepper_options_t, typename navigator_options_t, typename a
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ae204a6ef1b0e1c706ce43094a5712ab2" name="ae204a6ef1b0e1c706ce43094a5712ab2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae204a6ef1b0e1c706ce43094a5712ab2">&#9670;&#160;</a></span>actorList</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">actor_list_t <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::actorList</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of actions. </p>
-
-</div>
-</div>
-<a id="a9b4d7f8f72e665e58feb61516ff52947" name="a9b4d7f8f72e665e58feb61516ff52947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b4d7f8f72e665e58feb61516ff52947">&#9670;&#160;</a></span>geoContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&gt; <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::geoContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The context object for the geometry. </p>
-
-</div>
-</div>
-<a id="a5e607fc37b12e52ecb938ee06f2bfe89" name="a5e607fc37b12e52ecb938ee06f2bfe89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e607fc37b12e52ecb938ee06f2bfe89">&#9670;&#160;</a></span>magFieldContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a>&gt; <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::magFieldContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The context object for the magnetic field. </p>
-
-</div>
-</div>
-<a id="ab5d8e300919f72b80bb447c415f523f5" name="ab5d8e300919f72b80bb447c415f523f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5d8e300919f72b80bb447c415f523f5">&#9670;&#160;</a></span>navigation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">navigator_options_t <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::navigation</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Navigator options. </p>
-
-</div>
-</div>
-<a id="a6f9715e246cf8b08d96443a5b3242697" name="a6f9715e246cf8b08d96443a5b3242697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f9715e246cf8b08d96443a5b3242697">&#9670;&#160;</a></span>stepping</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename stepper_options_t, typename navigator_options_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">stepper_options_t <a class="el" href="struct_acts_1_1_propagator_options.html">Acts::PropagatorOptions</a>&lt; stepper_options_t, navigator_options_t, actor_list_t &gt;::stepping</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Stepper options. </p>
 
 </div>
 </div>

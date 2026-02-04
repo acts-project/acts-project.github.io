@@ -1,5 +1,5 @@
 <map id="Acts::Experimental::GbtsGeometry" name="Acts::Experimental::GbtsGeometry">
-<area shape="rect" id="Node000001" title=" " alt="" coords="751,144,896,184"/>
+<area shape="rect" id="Node000001" title="Geometry helper built from silicon layers and connectors." alt="" coords="751,144,896,184"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="417,21,591,75"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="605,71,728,112,788,141,786,146,726,117,604,76"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,34,140,59"/>

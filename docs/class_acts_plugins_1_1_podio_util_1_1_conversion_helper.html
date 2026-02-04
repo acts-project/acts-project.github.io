@@ -126,16 +126,25 @@ $(function(){initNavTree('class_acts_plugins_1_1_podio_util_1_1_conversion_helpe
 </div><!--header-->
 <div class="contents">
 
+<p>Helper interface for converting between ACTS and PODIO types.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_podio_util_8hpp_source.html">/home/runner/work/acts/acts/Plugins/EDM4hep/include/ActsPlugins/EDM4hep/PodioUtil.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a24dd0c37bbc228b96a5d3ccfdfc018a2" id="r_a24dd0c37bbc228b96a5d3ccfdfc018a2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24dd0c37bbc228b96a5d3ccfdfc018a2">identifierToSourceLink</a> (<a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a> identifier) const =0</td></tr>
-<tr class="memitem:a3c0a4b7adf29a5cdd8ee3a48a445dd77" id="r_a3c0a4b7adf29a5cdd8ee3a48a445dd77"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0a4b7adf29a5cdd8ee3a48a445dd77">identifierToSurface</a> (<a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a> identifier) const =0</td></tr>
-<tr class="memitem:a6160b28684f406806c6872e1de008015" id="r_a6160b28684f406806c6872e1de008015"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6160b28684f406806c6872e1de008015">sourceLinkToIdentifier</a> (const <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a> &amp;sl)=0</td></tr>
-<tr class="memitem:a56b4f9b14a785698a7121df1c4addd14" id="r_a56b4f9b14a785698a7121df1c4addd14"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; <a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b4f9b14a785698a7121df1c4addd14">surfaceToIdentifier</a> (const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface) const =0</td></tr>
+<tr class="memitem:a24dd0c37bbc228b96a5d3ccfdfc018a2" id="r_a24dd0c37bbc228b96a5d3ccfdfc018a2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24dd0c37bbc228b96a5d3ccfdfc018a2">identifierToSourceLink</a> (Identifier identifier) const =0</td></tr>
+<tr class="memdesc:a24dd0c37bbc228b96a5d3ccfdfc018a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert identifier to source link.  <br /></td></tr>
+<tr class="memitem:a3c0a4b7adf29a5cdd8ee3a48a445dd77" id="r_a3c0a4b7adf29a5cdd8ee3a48a445dd77"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0a4b7adf29a5cdd8ee3a48a445dd77">identifierToSurface</a> (Identifier identifier) const =0</td></tr>
+<tr class="memdesc:a3c0a4b7adf29a5cdd8ee3a48a445dd77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert identifier to surface.  <br /></td></tr>
+<tr class="memitem:a6160b28684f406806c6872e1de008015" id="r_a6160b28684f406806c6872e1de008015"><td class="memItemLeft" align="right" valign="top">virtual Identifier&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6160b28684f406806c6872e1de008015">sourceLinkToIdentifier</a> (const <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a> &amp;sl)=0</td></tr>
+<tr class="memdesc:a6160b28684f406806c6872e1de008015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert source link to identifier.  <br /></td></tr>
+<tr class="memitem:a56b4f9b14a785698a7121df1c4addd14" id="r_a56b4f9b14a785698a7121df1c4addd14"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; Identifier &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b4f9b14a785698a7121df1c4addd14">surfaceToIdentifier</a> (const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface) const =0</td></tr>
+<tr class="memdesc:a56b4f9b14a785698a7121df1c4addd14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert surface to identifier.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Helper interface for converting between ACTS and PODIO types. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a24dd0c37bbc228b96a5d3ccfdfc018a2" name="a24dd0c37bbc228b96a5d3ccfdfc018a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24dd0c37bbc228b96a5d3ccfdfc018a2">&#9670;&#160;</a></span>identifierToSourceLink()</h2>
 
@@ -148,7 +157,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a> ActsPlugins::PodioUtil::ConversionHelper::identifierToSourceLink </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a></td>          <td class="paramname"><span class="paramname"><em>identifier</em></span></td><td>)</td>
+          <td class="paramtype">Identifier</td>          <td class="paramname"><span class="paramname"><em>identifier</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -158,6 +167,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert identifier to source link. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identifier</td><td>The identifier to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Source link for the identifier </dd></dl>
 
 </div>
 </div>
@@ -173,7 +191,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> * ActsPlugins::PodioUtil::ConversionHelper::identifierToSurface </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a></td>          <td class="paramname"><span class="paramname"><em>identifier</em></span></td><td>)</td>
+          <td class="paramtype">Identifier</td>          <td class="paramname"><span class="paramname"><em>identifier</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -183,6 +201,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert identifier to surface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identifier</td><td>The identifier to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the surface </dd></dl>
 
 </div>
 </div>
@@ -196,7 +223,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a> ActsPlugins::PodioUtil::ConversionHelper::sourceLinkToIdentifier </td>
+          <td class="memname">virtual Identifier ActsPlugins::PodioUtil::ConversionHelper::sourceLinkToIdentifier </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sl</em></span></td><td>)</td>
           <td></td>
@@ -208,6 +235,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert source link to identifier. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sl</td><td>The source link to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Identifier for the source link </dd></dl>
 
 </div>
 </div>
@@ -221,7 +257,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::optional&lt; <a class="el" href="namespace_acts_plugins_1_1_podio_util.html#afc207004baed850a41d40eaf8ad765cc">Identifier</a> &gt; ActsPlugins::PodioUtil::ConversionHelper::surfaceToIdentifier </td>
+          <td class="memname">virtual std::optional&lt; Identifier &gt; ActsPlugins::PodioUtil::ConversionHelper::surfaceToIdentifier </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span></td><td>)</td>
           <td> const</td>
@@ -233,6 +269,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert surface to identifier. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surface</td><td>The surface to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Optional identifier for the surface </dd></dl>
 
 </div>
 </div>
@@ -249,7 +294,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts_plugins.html">ActsPlugins</a></li><li class="navelem"><a href="namespace_acts_plugins_1_1_podio_util.html">PodioUtil</a></li><li class="navelem"><a href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">ConversionHelper</a></li>
+    <li class="navelem"><a href="namespace_acts_plugins.html">ActsPlugins</a></li><li class="navelem"><b>PodioUtil</b></li><li class="navelem"><a href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">ConversionHelper</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

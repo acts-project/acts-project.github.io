@@ -138,8 +138,9 @@ Inheritance diagram for Acts::ActorList&lt; actors_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a949773e7df88529209db3a8c4b03a31c" id="r_a949773e7df88529209db3a8c4b03a31c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949773e7df88529209db3a8c4b03a31c">ActorList</a> ()=default</td></tr>
-<tr class="memdesc:a949773e7df88529209db3a8c4b03a31c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
+<tr class="memitem:a949773e7df88529209db3a8c4b03a31c" id="r_a949773e7df88529209db3a8c4b03a31c"><td class="memItemLeft" align="right" valign="top"><a id="a949773e7df88529209db3a8c4b03a31c" name="a949773e7df88529209db3a8c4b03a31c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ActorList</b> ()=default</td></tr>
+<tr class="memdesc:a949773e7df88529209db3a8c4b03a31c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:afa8f8292e0ee39aa534a5339db218c9c" id="r_afa8f8292e0ee39aa534a5339db218c9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa8f8292e0ee39aa534a5339db218c9c">ActorList</a> (ActorList&lt; actors_t... &gt; &amp;&amp;actors) noexcept=default</td></tr>
 <tr class="memdesc:afa8f8292e0ee39aa534a5339db218c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default move constructor.  <br /></td></tr>
 <tr class="memitem:a80ef777d53f4d5da7fc8de0f74aa438d" id="r_a80ef777d53f4d5da7fc8de0f74aa438d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80ef777d53f4d5da7fc8de0f74aa438d">ActorList</a> (const ActorList&lt; actors_t... &gt; &amp;actors)=default</td></tr>
@@ -174,37 +175,8 @@ requires ((std::is_default_constructible_v&lt;actors_t&gt; &amp;&amp; ...) &amp;
 struct Acts::ActorList&lt; actors_t &gt;</div><p>ActorList implementation to be used with the propagator. </p>
 <p>This is the ActorList struct that is used in the propagator to define a list of different actors_t that are each executed during the stepping procedure </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a949773e7df88529209db3a8c4b03a31c" name="a949773e7df88529209db3a8c4b03a31c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949773e7df88529209db3a8c4b03a31c">&#9670;&#160;</a></span>ActorList() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename... actors_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_actor_list.html">Acts::ActorList</a>&lt; actors_t &gt;::ActorList </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. </p>
-
-</div>
-</div>
 <a id="a80ef777d53f4d5da7fc8de0f74aa438d" name="a80ef777d53f4d5da7fc8de0f74aa438d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80ef777d53f4d5da7fc8de0f74aa438d">&#9670;&#160;</a></span>ActorList() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ef777d53f4d5da7fc8de0f74aa438d">&#9670;&#160;</a></span>ActorList() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +211,7 @@ template&lt;typename... actors_t&gt; </div>
 </div>
 </div>
 <a id="afa8f8292e0ee39aa534a5339db218c9c" name="afa8f8292e0ee39aa534a5339db218c9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa8f8292e0ee39aa534a5339db218c9c">&#9670;&#160;</a></span>ActorList() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa8f8292e0ee39aa534a5339db218c9c">&#9670;&#160;</a></span>ActorList() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +246,7 @@ template&lt;typename... actors_t&gt; </div>
 </div>
 </div>
 <a id="a05fd37108a97686dc024fd13c503cd83" name="a05fd37108a97686dc024fd13c503cd83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05fd37108a97686dc024fd13c503cd83">&#9670;&#160;</a></span>ActorList() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a05fd37108a97686dc024fd13c503cd83">&#9670;&#160;</a></span>ActorList() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,7 +281,7 @@ template&lt;typename... actors_t&gt; </div>
 </div>
 </div>
 <a id="a62d5a25df2bfe0af023248f6d6006859" name="a62d5a25df2bfe0af023248f6d6006859"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62d5a25df2bfe0af023248f6d6006859">&#9670;&#160;</a></span>ActorList() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a62d5a25df2bfe0af023248f6d6006859">&#9670;&#160;</a></span>ActorList() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -395,6 +367,7 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>A Result&lt;void&gt; indicating success or failure </dd></dl>
 
 </div>
 </div>

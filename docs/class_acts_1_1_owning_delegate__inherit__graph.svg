@@ -69,7 +69,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_owning_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="519.5,-470.75 349.5,-470.75 349.5,-418.75 519.5,-418.75 519.5,-470.75"/>
+<polygon fill="white" stroke="#bfbfbf" points="519.5,-470.75 349.5,-470.75 349.5,-418.75 519.5,-418.75 519.5,-470.75"/>
 <text text-anchor="start" x="357.5" y="-458.75" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="start" x="357.5" y="-447.75" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; typename grid_t::point</text>
 <text text-anchor="start" x="357.5" y="-436.75" font-family="Helvetica,sans-Serif" font-size="10.00">_t(const Vector2 &amp;), GridAccess</text>
@@ -94,7 +94,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_owning_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="519.5,-385.75 349.5,-385.75 349.5,-333.75 519.5,-333.75 519.5,-385.75"/>
+<polygon fill="white" stroke="#bfbfbf" points="519.5,-385.75 349.5,-385.75 349.5,-333.75 519.5,-333.75 519.5,-385.75"/>
 <text text-anchor="start" x="357.5" y="-373.75" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="start" x="357.5" y="-362.75" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; typename grid_t::point</text>
 <text text-anchor="start" x="357.5" y="-351.75" font-family="Helvetica,sans-Serif" font-size="10.00">_t(const Vector3 &amp;), GridAccess</text>
@@ -119,7 +119,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="526.5,-315.75 342.5,-315.75 342.5,-263.75 526.5,-263.75 526.5,-315.75"/>
+<polygon fill="white" stroke="#bfbfbf" points="526.5,-315.75 342.5,-315.75 342.5,-263.75 526.5,-263.75 526.5,-315.75"/>
 <text text-anchor="start" x="350.5" y="-303.75" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="start" x="350.5" y="-292.75" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::array&lt; double,</text>
 <text text-anchor="start" x="350.5" y="-281.75" font-family="Helvetica,sans-Serif" font-size="10.00"> 1u &gt;(const Vector2 &amp;)</text>
@@ -143,7 +143,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="527,-245.75 342,-245.75 342,-193.75 527,-193.75 527,-245.75"/>
+<polygon fill="white" stroke="#bfbfbf" points="527,-245.75 342,-245.75 342,-193.75 527,-193.75 527,-245.75"/>
 <text text-anchor="start" x="350" y="-233.75" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="start" x="350" y="-222.75" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::array&lt; double,</text>
 <text text-anchor="start" x="350" y="-211.75" font-family="Helvetica,sans-Serif" font-size="10.00"> 1u &gt;(const Vector3 &amp;)</text>
@@ -167,7 +167,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="526.5,-175.75 342.5,-175.75 342.5,-123.75 526.5,-123.75 526.5,-175.75"/>
+<polygon fill="white" stroke="#bfbfbf" points="526.5,-175.75 342.5,-175.75 342.5,-123.75 526.5,-123.75 526.5,-175.75"/>
 <text text-anchor="start" x="350.5" y="-163.75" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="start" x="350.5" y="-152.75" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::array&lt; double,</text>
 <text text-anchor="start" x="350.5" y="-141.75" font-family="Helvetica,sans-Serif" font-size="10.00"> 2u &gt;(const Vector2 &amp;)</text>
@@ -191,7 +191,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="527,-105.75 342,-105.75 342,-53.75 527,-53.75 527,-105.75"/>
+<polygon fill="white" stroke="#bfbfbf" points="527,-105.75 342,-105.75 342,-53.75 527,-53.75 527,-105.75"/>
 <text text-anchor="start" x="350" y="-93.75" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="start" x="350" y="-82.75" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::array&lt; double,</text>
 <text text-anchor="start" x="350" y="-71.75" font-family="Helvetica,sans-Serif" font-size="10.00"> 2u &gt;(const Vector3 &amp;)</text>

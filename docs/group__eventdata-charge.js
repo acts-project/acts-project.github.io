@@ -11,7 +11,6 @@ var group__eventdata_charge =
       [ "operator==", "class_acts_1_1_any_charge.html#ad75ef19028c310b26c67ba0be3355d2f", null ]
     ] ],
     [ "Acts::Neutral", "struct_acts_1_1_neutral.html", [
-      [ "Neutral", "struct_acts_1_1_neutral.html#aaf9f68e0aebcd4e9da323960bd422e6b", null ],
       [ "Neutral", "struct_acts_1_1_neutral.html#a19472d75a5f975fd64a08ba770c57309", null ],
       [ "absQ", "struct_acts_1_1_neutral.html#a7f45240e0f6c02dbbcf339c5e86b7758", null ],
       [ "extractCharge", "struct_acts_1_1_neutral.html#abae543827b3d5df2c4bc91b8b06b5898", null ],
@@ -29,7 +28,6 @@ var group__eventdata_charge =
       [ "operator==", "class_acts_1_1_non_neutral_charge.html#acdd1259bd5703015bb5cdeb646e72312", null ]
     ] ],
     [ "Acts::SinglyCharged", "struct_acts_1_1_singly_charged.html", [
-      [ "SinglyCharged", "struct_acts_1_1_singly_charged.html#a264372cd4875ac159967f11bd81610c3", null ],
       [ "SinglyCharged", "struct_acts_1_1_singly_charged.html#a47b718b924c6d53a9a2690cff33ad4ca", null ],
       [ "absQ", "struct_acts_1_1_singly_charged.html#af53c50119d5b1aed8c64678f17403628", null ],
       [ "extractCharge", "struct_acts_1_1_singly_charged.html#adb6fb91a8f85597f1ecaef087711e587", null ],

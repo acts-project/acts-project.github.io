@@ -140,13 +140,15 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aaccba8c877036071c1fb8f1728db19c2" id="r_aaccba8c877036071c1fb8f1728db19c2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaccba8c877036071c1fb8f1728db19c2">StraightLinePropagator</a> = <a class="el" href="class_acts_1_1_propagator.html">Propagator</a>&lt;<a class="el" href="class_acts_1_1_straight_line_stepper.html">StraightLineStepper</a>, <a class="el" href="class_acts_1_1_navigator.html">Navigator</a>&gt;</td></tr>
-<tr class="memdesc:aaccba8c877036071c1fb8f1728db19c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for straight line propagator used in material mapping.  <br /></td></tr>
+<tr class="memitem:aaccba8c877036071c1fb8f1728db19c2" id="r_aaccba8c877036071c1fb8f1728db19c2"><td class="memItemLeft" align="right" valign="top"><a id="aaccba8c877036071c1fb8f1728db19c2" name="aaccba8c877036071c1fb8f1728db19c2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StraightLinePropagator</b> = <a class="el" href="class_acts_1_1_propagator.html">Propagator</a>&lt;<a class="el" href="class_acts_1_1_straight_line_stepper.html">StraightLineStepper</a>, <a class="el" href="class_acts_1_1_navigator.html">Navigator</a>&gt;</td></tr>
+<tr class="memdesc:aaccba8c877036071c1fb8f1728db19c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for straight line propagator used in material mapping. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9d1cef0b6c7023d73213b0cec7191daf" id="r_a9d1cef0b6c7023d73213b0cec7191daf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1cef0b6c7023d73213b0cec7191daf">SurfaceMaterialMapper</a> ()=delete</td></tr>
-<tr class="memdesc:a9d1cef0b6c7023d73213b0cec7191daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the Default constructor.  <br /></td></tr>
+<tr class="memitem:a9d1cef0b6c7023d73213b0cec7191daf" id="r_a9d1cef0b6c7023d73213b0cec7191daf"><td class="memItemLeft" align="right" valign="top"><a id="a9d1cef0b6c7023d73213b0cec7191daf" name="a9d1cef0b6c7023d73213b0cec7191daf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SurfaceMaterialMapper</b> ()=delete</td></tr>
+<tr class="memdesc:a9d1cef0b6c7023d73213b0cec7191daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the Default constructor. <br /></td></tr>
 <tr class="memitem:a09d298a561aca82a92ff47fd1ad4b62b" id="r_a09d298a561aca82a92ff47fd1ad4b62b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d298a561aca82a92ff47fd1ad4b62b">SurfaceMaterialMapper</a> (const <a class="el" href="struct_acts_1_1_surface_material_mapper_1_1_config.html">Config</a> &amp;cfg, <a class="el" href="#aaccba8c877036071c1fb8f1728db19c2">StraightLinePropagator</a> propagator, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; slogger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SurfaceMaterialMapper&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a09d298a561aca82a92ff47fd1ad4b62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with config object.  <br /></td></tr>
 <tr class="memitem:acf3c71ea54469f3cbabf50c7f4011c28" id="r_acf3c71ea54469f3cbabf50c7f4011c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_surface_material_mapper_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3c71ea54469f3cbabf50c7f4011c28">createState</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;tGeometry) const</td></tr>
@@ -169,53 +171,9 @@ Public Member Functions</h2></td></tr>
 <p>3) A number of N material tracks is read in, each track has : origin, direction, material steps &lt; position, step length, x0, l0, a, z, rho &gt;</p>
 <p>for each track: surfaces along the origin/direction path are collected the closest material steps are assigned</p>
 <p>4) Each 'hit' bin per event is counted and averaged at the end of the run </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aaccba8c877036071c1fb8f1728db19c2" name="aaccba8c877036071c1fb8f1728db19c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaccba8c877036071c1fb8f1728db19c2">&#9670;&#160;</a></span>StraightLinePropagator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aaccba8c877036071c1fb8f1728db19c2">Acts::SurfaceMaterialMapper::StraightLinePropagator</a> = <a class="el" href="class_acts_1_1_propagator.html">Propagator</a>&lt;<a class="el" href="class_acts_1_1_straight_line_stepper.html">StraightLineStepper</a>, <a class="el" href="class_acts_1_1_navigator.html">Navigator</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for straight line propagator used in material mapping. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9d1cef0b6c7023d73213b0cec7191daf" name="a9d1cef0b6c7023d73213b0cec7191daf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d1cef0b6c7023d73213b0cec7191daf">&#9670;&#160;</a></span>SurfaceMaterialMapper() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::SurfaceMaterialMapper::SurfaceMaterialMapper </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delete the Default constructor. </p>
-
-</div>
-</div>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a09d298a561aca82a92ff47fd1ad4b62b" name="a09d298a561aca82a92ff47fd1ad4b62b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09d298a561aca82a92ff47fd1ad4b62b">&#9670;&#160;</a></span>SurfaceMaterialMapper() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d298a561aca82a92ff47fd1ad4b62b">&#9670;&#160;</a></span>SurfaceMaterialMapper()</h2>
 
 <div class="memitem">
 <div class="memproto">

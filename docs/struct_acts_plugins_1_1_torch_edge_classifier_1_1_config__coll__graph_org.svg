@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Configuration struct for Torch edge classifier.">
 <polygon fill="#999999" stroke="#666666" points="193.5,-30 20.5,-30 20.5,0 193.5,0 193.5,-30"/>
 <text text-anchor="start" x="28.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TorchEdgeClassifier</text>
 <text text-anchor="middle" x="107" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>

@@ -6,7 +6,6 @@ var class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4 =
     [ "holder_type", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a8b51a1ac84bff41f82304516a7cef6e4", null ],
     [ "return_type", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a47a06675d6941a9343d043e36574fc17", null ],
     [ "signature_type", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#ad1d6b126513434c96784b1b2bd35c04c", null ],
-    [ "Delegate", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a1992d0b13831aecae58ee594fdf6f7c7", null ],
     [ "Delegate", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#ae5c7a5061d17db50c1e6125a338fa4d1", null ],
     [ "Delegate", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#abcd191123983912c621c89d0516715d2", null ],
     [ "Delegate", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a6d9c1c02684e9374183bce865fd86b2a", null ],

@@ -145,14 +145,18 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1442c56154ad29584473f1387aabcdb0" id="r_a1442c56154ad29584473f1387aabcdb0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1442c56154ad29584473f1387aabcdb0">bField</a></td></tr>
-<tr class="memdesc:a1442c56154ad29584473f1387aabcdb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field provider for numerical linearization.  <br /></td></tr>
-<tr class="memitem:aa87b3b8ef9f0ca545f2cbf191f8d6055" id="r_aa87b3b8ef9f0ca545f2cbf191f8d6055"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa87b3b8ef9f0ca545f2cbf191f8d6055">delta</a> = 1e-8</td></tr>
-<tr class="memdesc:aa87b3b8ef9f0ca545f2cbf191f8d6055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting size of the perturbation delta for calculation of numerical derivatives (i.e., f'(x) ~ (f(x+delta) - f(x)) / delta).  <br /></td></tr>
-<tr class="memitem:a7c02a2904587da5a325e09caf31c87eb" id="r_a7c02a2904587da5a325e09caf31c87eb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c02a2904587da5a325e09caf31c87eb">propagator</a></td></tr>
-<tr class="memdesc:a7c02a2904587da5a325e09caf31c87eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track propagator for numerical calculations.  <br /></td></tr>
-<tr class="memitem:ada68a716e489836e3c0d8315a197ca37" id="r_ada68a716e489836e3c0d8315a197ca37"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada68a716e489836e3c0d8315a197ca37">targetTolerance</a> = 1e-12</td></tr>
-<tr class="memdesc:ada68a716e489836e3c0d8315a197ca37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance determining how close we need to get to a surface to reach it during propagation.  <br /></td></tr>
+<tr class="memitem:a1442c56154ad29584473f1387aabcdb0" id="r_a1442c56154ad29584473f1387aabcdb0"><td class="memItemLeft" align="right" valign="top"><a id="a1442c56154ad29584473f1387aabcdb0" name="a1442c56154ad29584473f1387aabcdb0"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bField</b></td></tr>
+<tr class="memdesc:a1442c56154ad29584473f1387aabcdb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field provider for numerical linearization. <br /></td></tr>
+<tr class="memitem:aa87b3b8ef9f0ca545f2cbf191f8d6055" id="r_aa87b3b8ef9f0ca545f2cbf191f8d6055"><td class="memItemLeft" align="right" valign="top"><a id="aa87b3b8ef9f0ca545f2cbf191f8d6055" name="aa87b3b8ef9f0ca545f2cbf191f8d6055"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>delta</b> = 1e-8</td></tr>
+<tr class="memdesc:aa87b3b8ef9f0ca545f2cbf191f8d6055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting size of the perturbation delta for calculation of numerical derivatives (i.e., f'(x) ~ (f(x+delta) - f(x)) / delta). <br /></td></tr>
+<tr class="memitem:a7c02a2904587da5a325e09caf31c87eb" id="r_a7c02a2904587da5a325e09caf31c87eb"><td class="memItemLeft" align="right" valign="top"><a id="a7c02a2904587da5a325e09caf31c87eb" name="a7c02a2904587da5a325e09caf31c87eb"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>propagator</b></td></tr>
+<tr class="memdesc:a7c02a2904587da5a325e09caf31c87eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track propagator for numerical calculations. <br /></td></tr>
+<tr class="memitem:ada68a716e489836e3c0d8315a197ca37" id="r_ada68a716e489836e3c0d8315a197ca37"><td class="memItemLeft" align="right" valign="top"><a id="ada68a716e489836e3c0d8315a197ca37" name="ada68a716e489836e3c0d8315a197ca37"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>targetTolerance</b> = 1e-12</td></tr>
+<tr class="memdesc:ada68a716e489836e3c0d8315a197ca37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance determining how close we need to get to a surface to reach it during propagation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration struct. </p>
@@ -225,71 +229,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a1442c56154ad29584473f1387aabcdb0" name="a1442c56154ad29584473f1387aabcdb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1442c56154ad29584473f1387aabcdb0">&#9670;&#160;</a></span>bField</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a>&gt; Acts::NumericalTrackLinearizer::Config::bField</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Magnetic field provider for numerical linearization. </p>
-
-</div>
-</div>
-<a id="aa87b3b8ef9f0ca545f2cbf191f8d6055" name="aa87b3b8ef9f0ca545f2cbf191f8d6055"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa87b3b8ef9f0ca545f2cbf191f8d6055">&#9670;&#160;</a></span>delta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::NumericalTrackLinearizer::Config::delta = 1e-8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Setting size of the perturbation delta for calculation of numerical derivatives (i.e., f'(x) ~ (f(x+delta) - f(x)) / delta). </p>
-
-</div>
-</div>
-<a id="a7c02a2904587da5a325e09caf31c87eb" name="a7c02a2904587da5a325e09caf31c87eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c02a2904587da5a325e09caf31c87eb">&#9670;&#160;</a></span>propagator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a>&gt; Acts::NumericalTrackLinearizer::Config::propagator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Track propagator for numerical calculations. </p>
-
-</div>
-</div>
-<a id="ada68a716e489836e3c0d8315a197ca37" name="ada68a716e489836e3c0d8315a197ca37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada68a716e489836e3c0d8315a197ca37">&#9670;&#160;</a></span>targetTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::NumericalTrackLinearizer::Config::targetTolerance = 1e-12</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Tolerance determining how close we need to get to a surface to reach it during propagation. </p>
 
 </div>
 </div>

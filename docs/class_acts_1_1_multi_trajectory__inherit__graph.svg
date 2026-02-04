@@ -205,7 +205,7 @@ var sectionId = 'dynsection-0';
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="class_acts_plugins_1_1_const_podio_track_state_container.html" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="class_acts_plugins_1_1_const_podio_track_state_container.html" target="_top" xlink:title="Read&#45;only track state container backend using podio for storage.">
 <polygon fill="white" stroke="#666666" points="742,-78 583,-78 583,-48 742,-48 742,-78"/>
 <text text-anchor="start" x="591" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::ConstPodioTrack</text>
 <text text-anchor="middle" x="662.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">StateContainer</text>
@@ -224,7 +224,7 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_state_container.html" target="_top" xlink:title=" ">
+<g id="a_Node000010"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_state_container.html" target="_top" xlink:title="Mutable Podio&#45;based track state container implementation.">
 <polygon fill="white" stroke="#666666" points="735.5,-30 589.5,-30 589.5,0 735.5,0 735.5,-30"/>
 <text text-anchor="start" x="597.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::MutablePodio</text>
 <text text-anchor="middle" x="662.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackStateContainer</text>

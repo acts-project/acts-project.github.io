@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_space_point_container2_1_1_subset.html'
 </div><!--header-->
 <div class="contents">
 
+<p>Subset facade over arbitrary index sets.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_space_point_container2_8hpp_source.html">Acts/EventData/SpacePointContainer2.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::SpacePointContainer2::Subset&lt; read_only &gt;:</div>
@@ -141,13 +144,18 @@ Collaboration diagram for Acts::SpacePointContainer2::Subset&lt; read_only &gt;:
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aca538277123433529bd31460e4bc952c" id="r_aca538277123433529bd31460e4bc952c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca538277123433529bd31460e4bc952c">Base</a></td></tr>
+<tr class="memdesc:aca538277123433529bd31460e4bc952c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class type.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0cc21db472e9ffca8e5414d184c96f0" id="r_ac0cc21db472e9ffca8e5414d184c96f0"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
 <tr class="memitem:ac0cc21db472e9ffca8e5414d184c96f0 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0cc21db472e9ffca8e5414d184c96f0">zip</a> (const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; Ts &gt; &amp;...columns) const noexcept</td></tr>
+<tr class="memdesc:ac0cc21db472e9ffca8e5414d184c96f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zip this subset with additional columns.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;bool read_only&gt;<br />
+class Acts::SpacePointContainer2::Subset&lt; read_only &gt;</div><p>Subset facade over arbitrary index sets. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="aca538277123433529bd31460e4bc952c" name="aca538277123433529bd31460e4bc952c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca538277123433529bd31460e4bc952c">&#9670;&#160;</a></span>Base</h2>
 
@@ -166,12 +174,14 @@ template&lt;bool read_only&gt; </div>
 <div class="line">        std::conditional_t&lt;read_only, <a class="code hl_typedef" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a>,</div>
 <div class="line">                           <a class="code hl_typedef" href="namespace_acts.html#aab89f1e4f2b712860bba81478a4861cd">MutableSpacePointProxy2</a>&gt;,</div>
 <div class="line">        <a class="code hl_typedef" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>, read_only&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_space_point_container2_1_1_subset_html"><div class="ttname"><a href="class_acts_1_1_space_point_container2_1_1_subset.html">Acts::SpacePointContainer2::Subset</a></div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:907</div></div>
+<div class="ttc" id="aclass_acts_1_1_space_point_container2_1_1_subset_html"><div class="ttname"><a href="class_acts_1_1_space_point_container2_1_1_subset.html">Acts::SpacePointContainer2::Subset</a></div><div class="ttdoc">Subset facade over arbitrary index sets.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:918</div></div>
 <div class="ttc" id="aclass_acts_1_1_space_point_container2_html_a61c8dcc7ae4547b223972cbb660178bd"><div class="ttname"><a href="class_acts_1_1_space_point_container2.html#a61c8dcc7ae4547b223972cbb660178bd">Acts::SpacePointContainer2::SpacePointContainer2</a></div><div class="ttdeci">SpacePointContainer2(SpacePointColumns columns=SpacePointColumns::None) noexcept</div><div class="ttdoc">Constructs and empty space point container.</div></div>
-<div class="ttc" id="anamespace_acts_html_a59d378bfaff7526c72743adf3da1bc1f"><div class="ttname"><a href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">Acts::SpacePointIndex2</a></div><div class="ttdeci">std::uint32_t SpacePointIndex2</div><div class="ttdef"><b>Definition</b> Types.hpp:53</div></div>
-<div class="ttc" id="anamespace_acts_html_aab89f1e4f2b712860bba81478a4861cd"><div class="ttname"><a href="namespace_acts.html#aab89f1e4f2b712860bba81478a4861cd">Acts::MutableSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; false &gt; MutableSpacePointProxy2</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:40</div></div>
-<div class="ttc" id="anamespace_acts_html_acd104d9fd9886e714af3bf67c53e508f"><div class="ttname"><a href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">Acts::ConstSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; true &gt; ConstSpacePointProxy2</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:41</div></div>
+<div class="ttc" id="anamespace_acts_html_a59d378bfaff7526c72743adf3da1bc1f"><div class="ttname"><a href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">Acts::SpacePointIndex2</a></div><div class="ttdeci">std::uint32_t SpacePointIndex2</div><div class="ttdoc">Index type for space points.</div><div class="ttdef"><b>Definition</b> Types.hpp:54</div></div>
+<div class="ttc" id="anamespace_acts_html_aab89f1e4f2b712860bba81478a4861cd"><div class="ttname"><a href="namespace_acts.html#aab89f1e4f2b712860bba81478a4861cd">Acts::MutableSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; false &gt; MutableSpacePointProxy2</div><div class="ttdoc">Mutable proxy to a space point allowing modification.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:42</div></div>
+<div class="ttc" id="anamespace_acts_html_acd104d9fd9886e714af3bf67c53e508f"><div class="ttname"><a href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">Acts::ConstSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; true &gt; ConstSpacePointProxy2</div><div class="ttdoc">Const proxy to a space point for read-only access.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:44</div></div>
 </div><!-- fragment -->
+<p>Base class type. </p>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -201,6 +211,15 @@ template&lt;typename... Ts&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Zip this subset with additional columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>Additional columns to zip with the subset </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Zipped subset with additional columns </dd></dl>
 
 </div>
 </div>

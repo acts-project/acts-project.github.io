@@ -135,10 +135,12 @@ $(function(){initNavTree('class_acts_1_1_hough_transform_utils_1_1_hough_plane.h
 Public Types</h2></td></tr>
 <tr class="memitem:aa04bb959a9d1b7d22b79d671a12a52f6" id="r_aa04bb959a9d1b7d22b79d671a12a52f6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a></td></tr>
 <tr class="memdesc:aa04bb959a9d1b7d22b79d671a12a52f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">hough histogram representation as a 2D-indexable vector of hough cells  <br /></td></tr>
-<tr class="memitem:aff698499c5819f96e381307d826b05e3" id="r_aff698499c5819f96e381307d826b05e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff698499c5819f96e381307d826b05e3">HoughHist</a> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_cell.html">HoughCell</a>&lt;identifier_t&gt;, <a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a>, <a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a>&gt;</td></tr>
-<tr class="memdesc:aff698499c5819f96e381307d826b05e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for Hough histogram grid.  <br /></td></tr>
-<tr class="memitem:af25422f9261bee175a1e2003ea9a30c9" id="r_af25422f9261bee175a1e2003ea9a30c9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af25422f9261bee175a1e2003ea9a30c9">Index</a> = typename <a class="el" href="class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d">HoughHist::index_t</a></td></tr>
-<tr class="memdesc:af25422f9261bee175a1e2003ea9a30c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for histogram index type.  <br /></td></tr>
+<tr class="memitem:aff698499c5819f96e381307d826b05e3" id="r_aff698499c5819f96e381307d826b05e3"><td class="memItemLeft" align="right" valign="top"><a id="aff698499c5819f96e381307d826b05e3" name="aff698499c5819f96e381307d826b05e3"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>HoughHist</b> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_cell.html">HoughCell</a>&lt;identifier_t&gt;, <a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a>, <a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a>&gt;</td></tr>
+<tr class="memdesc:aff698499c5819f96e381307d826b05e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for Hough histogram grid. <br /></td></tr>
+<tr class="memitem:af25422f9261bee175a1e2003ea9a30c9" id="r_af25422f9261bee175a1e2003ea9a30c9"><td class="memItemLeft" align="right" valign="top"><a id="af25422f9261bee175a1e2003ea9a30c9" name="af25422f9261bee175a1e2003ea9a30c9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Index</b> = typename <a class="el" href="class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d">HoughHist::index_t</a></td></tr>
+<tr class="memdesc:af25422f9261bee175a1e2003ea9a30c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for histogram index type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:addbda9a32f6236615aed39e8ca86590f" id="r_addbda9a32f6236615aed39e8ca86590f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af25422f9261bee175a1e2003ea9a30c9">Index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addbda9a32f6236615aed39e8ca86590f">axisBins</a> (std::size_t <a class="el" href="#aa11a43e930d4716c639c29026df4ccd5">globalBin</a>) const</td></tr>
 <tr class="memdesc:addbda9a32f6236615aed39e8ca86590f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the coordinates of the bin given the global bin index  <br /></td></tr>
 <tr class="memitem:a459a47423158909b80e239a10c7f642e" id="r_a459a47423158909b80e239a10c7f642e"><td class="memTemplParams" colspan="2">template&lt;class PointType&gt; </td></tr>
-<tr class="memitem:a459a47423158909b80e239a10c7f642e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a459a47423158909b80e239a10c7f642e">fill</a> (const PointType &amp;measurement, const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html">HoughAxisRanges</a> &amp;axisRanges, <a class="el" href="namespace_acts_1_1_hough_transform_utils.html#a4f7450bd0946cfffbce6490e13ca2882">LineParametrisation</a>&lt; PointType &gt; linePar, <a class="el" href="namespace_acts_1_1_hough_transform_utils.html#a4f7450bd0946cfffbce6490e13ca2882">LineParametrisation</a>&lt; PointType &gt; widthPar, const identifier_t &amp;identifier, unsigned layer=0, <a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> weight=1.0f)</td></tr>
+<tr class="memitem:a459a47423158909b80e239a10c7f642e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a459a47423158909b80e239a10c7f642e">fill</a> (const PointType &amp;measurement, const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html">HoughAxisRanges</a> &amp;axisRanges, LineParametrisation&lt; PointType &gt; linePar, LineParametrisation&lt; PointType &gt; widthPar, const identifier_t &amp;identifier, unsigned layer=0, YieldType weight=1.0f)</td></tr>
 <tr class="memdesc:a459a47423158909b80e239a10c7f642e"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill and reset methods to modify the grid content  <br /></td></tr>
 <tr class="memitem:a4ee69a51ec878918953309aa78abd169" id="r_a4ee69a51ec878918953309aa78abd169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee69a51ec878918953309aa78abd169">fillBin</a> (std::size_t binX, std::size_t binY, const identifier_t &amp;identifier, unsigned layer, double w=1.0f)</td></tr>
 <tr class="memdesc:a4ee69a51ec878918953309aa78abd169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to fill a bin of the hough histogram.  <br /></td></tr>
@@ -163,19 +165,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a904549a250f14e03df462a05b3c2e40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bin indices of the cell containing the largest number of (weighted) hits across the entire histogram  <br /></td></tr>
 <tr class="memitem:a583e96e8c7fb7295ab8a55dd58321dd9" id="r_a583e96e8c7fb7295ab8a55dd58321dd9"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::size_t, std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a583e96e8c7fb7295ab8a55dd58321dd9">locMaxLayers</a> () const</td></tr>
 <tr class="memdesc:a583e96e8c7fb7295ab8a55dd58321dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bin indices of the cell containing the largest number of (weighted) layers with hits across the entire histogram  <br /></td></tr>
-<tr class="memitem:ab1bb4dddda6e10766e620ccd5512d952" id="r_ab1bb4dddda6e10766e620ccd5512d952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1bb4dddda6e10766e620ccd5512d952">maxHits</a> () const</td></tr>
+<tr class="memitem:ab1bb4dddda6e10766e620ccd5512d952" id="r_ab1bb4dddda6e10766e620ccd5512d952"><td class="memItemLeft" align="right" valign="top">YieldType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1bb4dddda6e10766e620ccd5512d952">maxHits</a> () const</td></tr>
 <tr class="memdesc:ab1bb4dddda6e10766e620ccd5512d952"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum number of (weighted) hits seen in a single cell across the entire histrogram.  <br /></td></tr>
-<tr class="memitem:a4995072c01e9c4ac4e4ac1f73eb42bb6" id="r_a4995072c01e9c4ac4e4ac1f73eb42bb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4995072c01e9c4ac4e4ac1f73eb42bb6">maxLayers</a> () const</td></tr>
+<tr class="memitem:a4995072c01e9c4ac4e4ac1f73eb42bb6" id="r_a4995072c01e9c4ac4e4ac1f73eb42bb6"><td class="memItemLeft" align="right" valign="top">YieldType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4995072c01e9c4ac4e4ac1f73eb42bb6">maxLayers</a> () const</td></tr>
 <tr class="memdesc:a4995072c01e9c4ac4e4ac1f73eb42bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the maximum number of (weighted) layers with hits seen in a single cell across the entire histrogram.  <br /></td></tr>
 <tr class="memitem:ada2bae9d65d1fb8521f6392c35df4f3c" id="r_ada2bae9d65d1fb8521f6392c35df4f3c"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada2bae9d65d1fb8521f6392c35df4f3c">nBinsX</a> () const</td></tr>
 <tr class="memdesc:ada2bae9d65d1fb8521f6392c35df4f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of bins on the first coordinate  <br /></td></tr>
 <tr class="memitem:a3b8441f76c4d0b3b411f395cf3c750c4" id="r_a3b8441f76c4d0b3b411f395cf3c750c4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8441f76c4d0b3b411f395cf3c750c4">nBinsY</a> () const</td></tr>
 <tr class="memdesc:a3b8441f76c4d0b3b411f395cf3c750c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of bins on the second coordinate  <br /></td></tr>
-<tr class="memitem:aa307108cd88fa1980449b49440b3583f" id="r_aa307108cd88fa1980449b49440b3583f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa307108cd88fa1980449b49440b3583f">nHits</a> (std::size_t <a class="el" href="#aa11a43e930d4716c639c29026df4ccd5">globalBin</a>) const</td></tr>
+<tr class="memitem:aa307108cd88fa1980449b49440b3583f" id="r_aa307108cd88fa1980449b49440b3583f"><td class="memItemLeft" align="right" valign="top">YieldType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa307108cd88fa1980449b49440b3583f">nHits</a> (std::size_t <a class="el" href="#aa11a43e930d4716c639c29026df4ccd5">globalBin</a>) const</td></tr>
 <tr class="memdesc:aa307108cd88fa1980449b49440b3583f"><td class="mdescLeft">&#160;</td><td class="mdescRight">access the (weighted) number of hits in one cell of the histogram from globalBin index  <br /></td></tr>
-<tr class="memitem:a9eb6de9a76a462bbb48fc17265300fc2" id="r_a9eb6de9a76a462bbb48fc17265300fc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eb6de9a76a462bbb48fc17265300fc2">nHits</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
+<tr class="memitem:a9eb6de9a76a462bbb48fc17265300fc2" id="r_a9eb6de9a76a462bbb48fc17265300fc2"><td class="memItemLeft" align="right" valign="top">YieldType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eb6de9a76a462bbb48fc17265300fc2">nHits</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
 <tr class="memdesc:a9eb6de9a76a462bbb48fc17265300fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">access the (weighted) number of hits in one cell of the histogram from bin's coordinates  <br /></td></tr>
-<tr class="memitem:acb72715a5892dd2e9261e04afca9e160" id="r_acb72715a5892dd2e9261e04afca9e160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb72715a5892dd2e9261e04afca9e160">nLayers</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
+<tr class="memitem:acb72715a5892dd2e9261e04afca9e160" id="r_acb72715a5892dd2e9261e04afca9e160"><td class="memItemLeft" align="right" valign="top">YieldType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb72715a5892dd2e9261e04afca9e160">nLayers</a> (std::size_t xBin, std::size_t yBin) const</td></tr>
 <tr class="memdesc:acb72715a5892dd2e9261e04afca9e160"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the (weighted) number of layers with hits in one cell of the histogram  <br /></td></tr>
 <tr class="memitem:a3caf5012d2111dba15423a0cac2674b1" id="r_a3caf5012d2111dba15423a0cac2674b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3caf5012d2111dba15423a0cac2674b1">reset</a> ()</td></tr>
 <tr class="memdesc:a3caf5012d2111dba15423a0cac2674b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets the contents of the grid.  <br /></td></tr>
@@ -205,42 +207,6 @@ template&lt;class identifier_t&gt; </div>
 <div class="ttc" id="aclass_acts_1_1_axis_html"><div class="ttname"><a href="class_acts_1_1_axis.html">Acts::Axis</a></div><div class="ttdoc">calculate bin indices from a given binning structure</div><div class="ttdef"><b>Definition</b> AxisDefinitions.hpp:147</div></div>
 </div><!-- fragment -->
 <p>hough histogram representation as a 2D-indexable vector of hough cells </p>
-
-</div>
-</div>
-<a id="aff698499c5819f96e381307d826b05e3" name="aff698499c5819f96e381307d826b05e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff698499c5819f96e381307d826b05e3">&#9670;&#160;</a></span>HoughHist</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class identifier_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::HoughHist = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;<a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_cell.html">HoughCell</a>&lt;identifier_t&gt;, <a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a>, <a class="el" href="#aa04bb959a9d1b7d22b79d671a12a52f6">Axis</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for Hough histogram grid. </p>
-
-</div>
-</div>
-<a id="af25422f9261bee175a1e2003ea9a30c9" name="af25422f9261bee175a1e2003ea9a30c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af25422f9261bee175a1e2003ea9a30c9">&#9670;&#160;</a></span>Index</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class identifier_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::Index = typename <a class="el" href="class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d">HoughHist::index_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for histogram index type. </p>
 
 </div>
 </div>
@@ -332,12 +298,12 @@ template&lt;class PointType&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#a4f7450bd0946cfffbce6490e13ca2882">LineParametrisation</a>&lt; PointType &gt;</td>          <td class="paramname"><span class="paramname"><em>linePar</em></span>, </td>
+          <td class="paramtype">LineParametrisation&lt; PointType &gt;</td>          <td class="paramname"><span class="paramname"><em>linePar</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#a4f7450bd0946cfffbce6490e13ca2882">LineParametrisation</a>&lt; PointType &gt;</td>          <td class="paramname"><span class="paramname"><em>widthPar</em></span>, </td>
+          <td class="paramtype">LineParametrisation&lt; PointType &gt;</td>          <td class="paramname"><span class="paramname"><em>widthPar</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -352,7 +318,7 @@ template&lt;class PointType&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a></td>          <td class="paramname"><span class="paramname"><em>weight</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0f</span>&#160;)</td>
+          <td class="paramtype">YieldType</td>          <td class="paramname"><span class="paramname"><em>weight</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0f</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -610,7 +576,7 @@ template&lt;class identifier_t&gt; </div>
 template&lt;class identifier_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::maxHits </td>
+          <td class="memname">YieldType <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::maxHits </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -632,7 +598,7 @@ template&lt;class identifier_t&gt; </div>
 template&lt;class identifier_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::maxLayers </td>
+          <td class="memname">YieldType <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::maxLayers </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -698,7 +664,7 @@ template&lt;class identifier_t&gt; </div>
 template&lt;class identifier_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::nHits </td>
+          <td class="memname">YieldType <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::nHits </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>globalBin</em></span></td><td>)</td>
           <td> const</td>
@@ -726,7 +692,7 @@ template&lt;class identifier_t&gt; </div>
 template&lt;class identifier_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::nHits </td>
+          <td class="memname">YieldType <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::nHits </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>xBin</em></span>, </td>
         </tr>
@@ -765,7 +731,7 @@ template&lt;class identifier_t&gt; </div>
 template&lt;class identifier_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_hough_transform_utils.html#aae397123caa7181e24c163efa43e2016">YieldType</a> <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::nLayers </td>
+          <td class="memname">YieldType <a class="el" href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">Acts::HoughTransformUtils::HoughPlane</a>&lt; identifier_t &gt;::nLayers </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>xBin</em></span>, </td>
         </tr>
@@ -869,7 +835,7 @@ template&lt;class identifier_t&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_hough_transform_utils.html">HoughTransformUtils</a></li><li class="navelem"><a href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>HoughTransformUtils</b></li><li class="navelem"><a href="class_acts_1_1_hough_transform_utils_1_1_hough_plane.html">HoughPlane</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

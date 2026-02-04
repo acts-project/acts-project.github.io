@@ -138,24 +138,30 @@ Inheritance diagram for Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &g
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac2c84406149b63ecac1c106f26d18082" id="r_ac2c84406149b63ecac1c106f26d18082"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c84406149b63ecac1c106f26d18082">const_iterator_t</a> = typename vector_t::const_iterator</td></tr>
-<tr class="memdesc:ac2c84406149b63ecac1c106f26d18082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const iterator over coordinate-value pairs.  <br /></td></tr>
-<tr class="memitem:ae1307adc3a8f2a8a2929d0fd77d4961a" id="r_ae1307adc3a8f2a8a2929d0fd77d4961a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1307adc3a8f2a8a2929d0fd77d4961a">coordinate_t</a> = Vector&lt;Scalar, Dims&gt;</td></tr>
-<tr class="memdesc:ae1307adc3a8f2a8a2929d0fd77d4961a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of coordinates for points.  <br /></td></tr>
-<tr class="memitem:a60157fe6772d1be83c00bc02fe080935" id="r_a60157fe6772d1be83c00bc02fe080935"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60157fe6772d1be83c00bc02fe080935">iterator_t</a> = typename vector_t::iterator</td></tr>
-<tr class="memdesc:a60157fe6772d1be83c00bc02fe080935"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of iterators in our vectors.  <br /></td></tr>
-<tr class="memitem:a1f6cc876e7e68a8bf9c23a5065a9b26f" id="r_a1f6cc876e7e68a8bf9c23a5065a9b26f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6cc876e7e68a8bf9c23a5065a9b26f">pair_t</a> = std::pair&lt;<a class="el" href="#ae1307adc3a8f2a8a2929d0fd77d4961a">coordinate_t</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt;</td></tr>
-<tr class="memdesc:a1f6cc876e7e68a8bf9c23a5065a9b26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of coordinate-value pairs.  <br /></td></tr>
-<tr class="memitem:a2d219773a7e6cc44d411b58ce59b8905" id="r_a2d219773a7e6cc44d411b58ce59b8905"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d219773a7e6cc44d411b58ce59b8905">range_t</a> = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;Dims, Scalar&gt;</td></tr>
-<tr class="memdesc:a2d219773a7e6cc44d411b58ce59b8905"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type describing a multi-dimensional orthogonal range.  <br /></td></tr>
-<tr class="memitem:ae02250e28e6f37fef5c4842cf117cde8" id="r_ae02250e28e6f37fef5c4842cf117cde8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae02250e28e6f37fef5c4842cf117cde8">value_t</a> = <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a></td></tr>
-<tr class="memdesc:ae02250e28e6f37fef5c4842cf117cde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of value contained in this k-d tree.  <br /></td></tr>
-<tr class="memitem:aac3b54fdba4fd6e1664fdb4aa76cc8e2" id="r_aac3b54fdba4fd6e1664fdb4aa76cc8e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3b54fdba4fd6e1664fdb4aa76cc8e2">vector_t</a> = std::vector&lt;<a class="el" href="#a1f6cc876e7e68a8bf9c23a5065a9b26f">pair_t</a>&gt;</td></tr>
-<tr class="memdesc:aac3b54fdba4fd6e1664fdb4aa76cc8e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of a vector of coordinate-value pairs.  <br /></td></tr>
+<tr class="memitem:ac2c84406149b63ecac1c106f26d18082" id="r_ac2c84406149b63ecac1c106f26d18082"><td class="memItemLeft" align="right" valign="top"><a id="ac2c84406149b63ecac1c106f26d18082" name="ac2c84406149b63ecac1c106f26d18082"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_iterator_t</b> = typename vector_t::const_iterator</td></tr>
+<tr class="memdesc:ac2c84406149b63ecac1c106f26d18082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const iterator over coordinate-value pairs. <br /></td></tr>
+<tr class="memitem:ae1307adc3a8f2a8a2929d0fd77d4961a" id="r_ae1307adc3a8f2a8a2929d0fd77d4961a"><td class="memItemLeft" align="right" valign="top"><a id="ae1307adc3a8f2a8a2929d0fd77d4961a" name="ae1307adc3a8f2a8a2929d0fd77d4961a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>coordinate_t</b> = Vector&lt;Scalar, Dims&gt;</td></tr>
+<tr class="memdesc:ae1307adc3a8f2a8a2929d0fd77d4961a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of coordinates for points. <br /></td></tr>
+<tr class="memitem:a60157fe6772d1be83c00bc02fe080935" id="r_a60157fe6772d1be83c00bc02fe080935"><td class="memItemLeft" align="right" valign="top"><a id="a60157fe6772d1be83c00bc02fe080935" name="a60157fe6772d1be83c00bc02fe080935"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator_t</b> = typename vector_t::iterator</td></tr>
+<tr class="memdesc:a60157fe6772d1be83c00bc02fe080935"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of iterators in our vectors. <br /></td></tr>
+<tr class="memitem:a1f6cc876e7e68a8bf9c23a5065a9b26f" id="r_a1f6cc876e7e68a8bf9c23a5065a9b26f"><td class="memItemLeft" align="right" valign="top"><a id="a1f6cc876e7e68a8bf9c23a5065a9b26f" name="a1f6cc876e7e68a8bf9c23a5065a9b26f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>pair_t</b> = std::pair&lt;<a class="el" href="#ae1307adc3a8f2a8a2929d0fd77d4961a">coordinate_t</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt;</td></tr>
+<tr class="memdesc:a1f6cc876e7e68a8bf9c23a5065a9b26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of coordinate-value pairs. <br /></td></tr>
+<tr class="memitem:a2d219773a7e6cc44d411b58ce59b8905" id="r_a2d219773a7e6cc44d411b58ce59b8905"><td class="memItemLeft" align="right" valign="top"><a id="a2d219773a7e6cc44d411b58ce59b8905" name="a2d219773a7e6cc44d411b58ce59b8905"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>range_t</b> = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;Dims, Scalar&gt;</td></tr>
+<tr class="memdesc:a2d219773a7e6cc44d411b58ce59b8905"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type describing a multi-dimensional orthogonal range. <br /></td></tr>
+<tr class="memitem:ae02250e28e6f37fef5c4842cf117cde8" id="r_ae02250e28e6f37fef5c4842cf117cde8"><td class="memItemLeft" align="right" valign="top"><a id="ae02250e28e6f37fef5c4842cf117cde8" name="ae02250e28e6f37fef5c4842cf117cde8"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_t</b> = <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a></td></tr>
+<tr class="memdesc:ae02250e28e6f37fef5c4842cf117cde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of value contained in this k-d tree. <br /></td></tr>
+<tr class="memitem:aac3b54fdba4fd6e1664fdb4aa76cc8e2" id="r_aac3b54fdba4fd6e1664fdb4aa76cc8e2"><td class="memItemLeft" align="right" valign="top"><a id="aac3b54fdba4fd6e1664fdb4aa76cc8e2" name="aac3b54fdba4fd6e1664fdb4aa76cc8e2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>vector_t</b> = std::vector&lt;<a class="el" href="#a1f6cc876e7e68a8bf9c23a5065a9b26f">pair_t</a>&gt;</td></tr>
+<tr class="memdesc:aac3b54fdba4fd6e1664fdb4aa76cc8e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of a vector of coordinate-value pairs. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6b1ae24524c2a66da0ed4728c0ce6c9" id="r_ad6b1ae24524c2a66da0ed4728c0ce6c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6b1ae24524c2a66da0ed4728c0ce6c9">KDTree</a> ()=delete</td></tr>
 <tr class="memitem:a5beec053dcd793da0082e3a42c14c222" id="r_a5beec053dcd793da0082e3a42c14c222"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5beec053dcd793da0082e3a42c14c222">KDTree</a> (<a class="el" href="#aac3b54fdba4fd6e1664fdb4aa76cc8e2">vector_t</a> &amp;&amp;d)</td></tr>
 <tr class="memdesc:a5beec053dcd793da0082e3a42c14c222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a k-d tree from a vector of position-value pairs.  <br /></td></tr>
 <tr class="memitem:a548c141ee128d23391c5914aa4285bed" id="r_a548c141ee128d23391c5914aa4285bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac2c84406149b63ecac1c106f26d18082">const_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a548c141ee128d23391c5914aa4285bed">begin</a> (void) const</td></tr>
@@ -205,163 +211,9 @@ class Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;</div><p>A gener
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ac2c84406149b63ecac1c106f26d18082" name="ac2c84406149b63ecac1c106f26d18082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2c84406149b63ecac1c106f26d18082">&#9670;&#160;</a></span>const_iterator_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::const_iterator_t = typename vector_t::const_iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for const iterator over coordinate-value pairs. </p>
-
-</div>
-</div>
-<a id="ae1307adc3a8f2a8a2929d0fd77d4961a" name="ae1307adc3a8f2a8a2929d0fd77d4961a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1307adc3a8f2a8a2929d0fd77d4961a">&#9670;&#160;</a></span>coordinate_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::coordinate_t = Vector&lt;Scalar, Dims&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The type of coordinates for points. </p>
-
-</div>
-</div>
-<a id="a60157fe6772d1be83c00bc02fe080935" name="a60157fe6772d1be83c00bc02fe080935"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60157fe6772d1be83c00bc02fe080935">&#9670;&#160;</a></span>iterator_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::iterator_t = typename vector_t::iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The type of iterators in our vectors. </p>
-
-</div>
-</div>
-<a id="a1f6cc876e7e68a8bf9c23a5065a9b26f" name="a1f6cc876e7e68a8bf9c23a5065a9b26f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f6cc876e7e68a8bf9c23a5065a9b26f">&#9670;&#160;</a></span>pair_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::pair_t = std::pair&lt;<a class="el" href="#ae1307adc3a8f2a8a2929d0fd77d4961a">coordinate_t</a>, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The type of coordinate-value pairs. </p>
-
-</div>
-</div>
-<a id="a2d219773a7e6cc44d411b58ce59b8905" name="a2d219773a7e6cc44d411b58ce59b8905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d219773a7e6cc44d411b58ce59b8905">&#9670;&#160;</a></span>range_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::range_t = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;Dims, Scalar&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The type describing a multi-dimensional orthogonal range. </p>
-
-</div>
-</div>
-<a id="ae02250e28e6f37fef5c4842cf117cde8" name="ae02250e28e6f37fef5c4842cf117cde8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae02250e28e6f37fef5c4842cf117cde8">&#9670;&#160;</a></span>value_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::value_t = <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The type of value contained in this k-d tree. </p>
-
-</div>
-</div>
-<a id="aac3b54fdba4fd6e1664fdb4aa76cc8e2" name="aac3b54fdba4fd6e1664fdb4aa76cc8e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3b54fdba4fd6e1664fdb4aa76cc8e2">&#9670;&#160;</a></span>vector_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::vector_t = std::vector&lt;<a class="el" href="#a1f6cc876e7e68a8bf9c23a5065a9b26f">pair_t</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The type of a vector of coordinate-value pairs. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad6b1ae24524c2a66da0ed4728c0ce6c9" name="ad6b1ae24524c2a66da0ed4728c0ce6c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6b1ae24524c2a66da0ed4728c0ce6c9">&#9670;&#160;</a></span>KDTree() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t Dims, typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, typename Scalar = double, template&lt; typename, std::size_t &gt; typename Vector = std::array, std::size_t LeafSize = 4&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_k_d_tree.html">Acts::KDTree</a>&lt; Dims, <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Scalar, Vector, LeafSize &gt;::KDTree </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5beec053dcd793da0082e3a42c14c222" name="a5beec053dcd793da0082e3a42c14c222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5beec053dcd793da0082e3a42c14c222">&#9670;&#160;</a></span>KDTree() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5beec053dcd793da0082e3a42c14c222">&#9670;&#160;</a></span>KDTree()</h2>
 
 <div class="memitem">
 <div class="memproto">

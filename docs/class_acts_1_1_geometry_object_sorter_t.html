@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_geometry_object_sorter_t.html','','clas
 </div><!--header-->
 <div class="contents">
 
+<p>Sorter functor for geometry objects by reference position.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_geometry_object_sorter_8hpp_source.html">Acts/Geometry/GeometryObjectSorter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::GeometryObjectSorterT&lt; T &gt;:</div>
@@ -142,11 +145,20 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a6e3c733dbeb61cfc2799f0c867b46a4d" id="r_a6e3c733dbeb61cfc2799f0c867b46a4d"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e3c733dbeb61cfc2799f0c867b46a4d">m_context</a></td></tr>
-<tr class="memitem:a2d781154eb4f4abccf5f23abd54192bf" id="r_a2d781154eb4f4abccf5f23abd54192bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_object_sorter_t.html">ObjectSorterT</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d781154eb4f4abccf5f23abd54192bf">m_objectSorter</a></td></tr>
-<tr class="memitem:abd8a039ffd4e9dd4498d4793835bbb11" id="r_abd8a039ffd4e9dd4498d4793835bbb11"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd8a039ffd4e9dd4498d4793835bbb11">m_transform</a></td></tr>
+<tr class="memitem:a6e3c733dbeb61cfc2799f0c867b46a4d" id="r_a6e3c733dbeb61cfc2799f0c867b46a4d"><td class="memItemLeft" align="right" valign="top"><a id="a6e3c733dbeb61cfc2799f0c867b46a4d" name="a6e3c733dbeb61cfc2799f0c867b46a4d"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_context</b></td></tr>
+<tr class="memdesc:a6e3c733dbeb61cfc2799f0c867b46a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry context for the sorting operation. <br /></td></tr>
+<tr class="memitem:a2d781154eb4f4abccf5f23abd54192bf" id="r_a2d781154eb4f4abccf5f23abd54192bf"><td class="memItemLeft" align="right" valign="top"><a id="a2d781154eb4f4abccf5f23abd54192bf" name="a2d781154eb4f4abccf5f23abd54192bf"></a>
+<a class="el" href="class_acts_1_1_object_sorter_t.html">ObjectSorterT</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_objectSorter</b></td></tr>
+<tr class="memdesc:a2d781154eb4f4abccf5f23abd54192bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sorting function object for vectors. <br /></td></tr>
+<tr class="memitem:abd8a039ffd4e9dd4498d4793835bbb11" id="r_abd8a039ffd4e9dd4498d4793835bbb11"><td class="memItemLeft" align="right" valign="top"><a id="abd8a039ffd4e9dd4498d4793835bbb11" name="abd8a039ffd4e9dd4498d4793835bbb11"></a>
+std::shared_ptr&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_transform</b></td></tr>
+<tr class="memdesc:abd8a039ffd4e9dd4498d4793835bbb11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional transformation to apply before sorting. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class Acts::GeometryObjectSorterT&lt; T &gt;</div><p>Sorter functor for geometry objects by reference position. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aac4099ea4aa5dfa47b8d2d2f0b687f27" name="aac4099ea4aa5dfa47b8d2d2f0b687f27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac4099ea4aa5dfa47b8d2d2f0b687f27">&#9670;&#160;</a></span>GeometryObjectSorterT()</h2>
 
@@ -208,87 +220,14 @@ template&lt;class T&gt; </div>
 </div><div class="memdoc">
 
 <p>Comparison operator. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
     <tr><td class="paramname">one</td><td>is the first object </td></tr>
     <tr><td class="paramname">two</td><td>is the second object</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean indicator </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a6e3c733dbeb61cfc2799f0c867b46a4d" name="a6e3c733dbeb61cfc2799f0c867b46a4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e3c733dbeb61cfc2799f0c867b46a4d">&#9670;&#160;</a></span>m_context</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&gt; <a class="el" href="class_acts_1_1_geometry_object_sorter_t.html">Acts::GeometryObjectSorterT</a>&lt; T &gt;::m_context</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d781154eb4f4abccf5f23abd54192bf" name="a2d781154eb4f4abccf5f23abd54192bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d781154eb4f4abccf5f23abd54192bf">&#9670;&#160;</a></span>m_objectSorter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_object_sorter_t.html">ObjectSorterT</a>&lt;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&gt; <a class="el" href="class_acts_1_1_geometry_object_sorter_t.html">Acts::GeometryObjectSorterT</a>&lt; T &gt;::m_objectSorter</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abd8a039ffd4e9dd4498d4793835bbb11" name="abd8a039ffd4e9dd4498d4793835bbb11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd8a039ffd4e9dd4498d4793835bbb11">&#9670;&#160;</a></span>m_transform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&gt; <a class="el" href="class_acts_1_1_geometry_object_sorter_t.html">Acts::GeometryObjectSorterT</a>&lt; T &gt;::m_transform</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

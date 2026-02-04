@@ -12,6 +12,5 @@ var class_acts_1_1_generic_particle_hypothesis =
     [ "mass", "class_acts_1_1_generic_particle_hypothesis.html#a722bcf05aae6c877ab6486639dfa3a92", null ],
     [ "qOverP", "class_acts_1_1_generic_particle_hypothesis.html#a697558b64b1f14e5276db7cd7014bbc2", null ],
     [ "toStream", "class_acts_1_1_generic_particle_hypothesis.html#a000dbfa12af342f68f4646e04245b3a2", null ],
-    [ "operator<<", "class_acts_1_1_generic_particle_hypothesis.html#a6befa9c9535fb89caa52e03406d7afe4", null ],
-    [ "operator==", "class_acts_1_1_generic_particle_hypothesis.html#a290d3cc20194d894cfdac87240979d71", null ]
+    [ "operator<<", "class_acts_1_1_generic_particle_hypothesis.html#a6befa9c9535fb89caa52e03406d7afe4", null ]
 ];

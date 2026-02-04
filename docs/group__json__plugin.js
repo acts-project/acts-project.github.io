@@ -1,18 +1,6 @@
 var group__json__plugin =
 [
-    [ "Acts::AxisJsonConverter", "namespace_acts_1_1_axis_json_converter.html", null ],
     [ "Acts::DetrayJsonHelper", "namespace_acts_1_1_detray_json_helper.html", null ],
-    [ "Acts::GeometryIdentifierJsonConverter", "namespace_acts_1_1_geometry_identifier_json_converter.html", null ],
-    [ "Acts::GridAccessJsonConverter", "namespace_acts_1_1_grid_access_json_converter.html", null ],
-    [ "Acts::GridJsonConverter", "namespace_acts_1_1_grid_json_converter.html", null ],
-    [ "Acts::IndexedGridJsonHelper", "namespace_acts_1_1_indexed_grid_json_helper.html", null ],
-    [ "Acts::JsonSurfacesReader", "namespace_acts_1_1_json_surfaces_reader.html", null ],
-    [ "Acts::PortalJsonConverter", "namespace_acts_1_1_portal_json_converter.html", null ],
-    [ "Acts::ProtoAxisJsonConverter", "namespace_acts_1_1_proto_axis_json_converter.html", null ],
-    [ "Acts::SurfaceBoundsJsonConverter", "namespace_acts_1_1_surface_bounds_json_converter.html", null ],
-    [ "Acts::SurfaceJsonConverter", "namespace_acts_1_1_surface_json_converter.html", null ],
-    [ "Acts::Transform3JsonConverter", "namespace_acts_1_1_transform3_json_converter.html", null ],
-    [ "Acts::VolumeBoundsJsonConverter", "namespace_acts_1_1_volume_bounds_json_converter.html", null ],
     [ "Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;", "class_acts_1_1_geometry_hierarchy_map_json_converter.html", [
       [ "Container", "class_acts_1_1_geometry_hierarchy_map_json_converter.html#a1ddf6ceeb06740ffa3d6509f56fa5c63", null ],
       [ "Value", "class_acts_1_1_geometry_hierarchy_map_json_converter.html#a08d24fd0d1815c15954dd7fe94c444d7", null ],
@@ -21,12 +9,10 @@ var group__json__plugin =
       [ "toJson", "group__json__plugin.html#gae3bc8c18a830cf3b08595eafc172e2d3", null ]
     ] ],
     [ "Acts::ITrackingGeometryJsonDecorator", "class_acts_1_1_i_tracking_geometry_json_decorator.html", [
-      [ "~ITrackingGeometryJsonDecorator", "class_acts_1_1_i_tracking_geometry_json_decorator.html#a1f2b990e361ba4e20a7bb78f8f4933bf", null ],
       [ "decorate", "class_acts_1_1_i_tracking_geometry_json_decorator.html#a6d970a65d06c50c5a56a1b0c4f74ef8d", null ],
       [ "decorate", "class_acts_1_1_i_tracking_geometry_json_decorator.html#af33c326ef68447a68a6f10dd8a8c2b67", null ]
     ] ],
     [ "Acts::IVolumeMaterialJsonDecorator", "class_acts_1_1_i_volume_material_json_decorator.html", [
-      [ "~IVolumeMaterialJsonDecorator", "class_acts_1_1_i_volume_material_json_decorator.html#a6c14166c220dff9454b83b910f6eaa23", null ],
       [ "decorate", "class_acts_1_1_i_volume_material_json_decorator.html#a462ba83ca0b4b5cf2132a9da55202a51", null ],
       [ "decorate", "class_acts_1_1_i_volume_material_json_decorator.html#a81564b8c273bd4b9649635acaf43bfb6", null ]
     ] ],

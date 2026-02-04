@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Configuration options for the adaptive multi&#45;vertex fit.">
 <polygon fill="#999999" stroke="#666666" points="901,-180 758,-180 758,-150 901,-150 901,-180"/>
 <text text-anchor="start" x="766" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AdaptiveMultiVertex</text>
 <text text-anchor="middle" x="829.5" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00">Fitter::Config</text>
@@ -60,7 +60,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="595,-160 417,-160 417,-130 595,-130 595,-160"/>
+<polygon fill="white" stroke="#bfbfbf" points="595,-160 417,-160 417,-130 595,-130 595,-160"/>
 <text text-anchor="start" x="425" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; BoundTrack</text>
 <text text-anchor="middle" x="506" y="-137" font-family="Helvetica,sans-Serif" font-size="10.00">Parameters(const InputTrack &amp;)&gt;</text>
 </a>
@@ -80,7 +80,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-103 0,-103 0,-73 152,-73 152,-103"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-103 0,-103 0,-73 152,-73 152,-103"/>
 <text text-anchor="start" x="8" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -101,7 +101,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="625,-96 387,-96 387,0 625,0 625,-96"/>
+<polygon fill="white" stroke="#bfbfbf" points="625,-96 387,-96 387,0 625,0 625,-96"/>
 <text text-anchor="start" x="395" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="395" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; LinearizedTrack &gt;(const</text>
 <text text-anchor="start" x="395" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00"> BoundTrackParameters &amp;params,</text>

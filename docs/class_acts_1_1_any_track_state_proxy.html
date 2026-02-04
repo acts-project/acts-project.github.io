@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_any_track_state_proxy.html','','class_a
 </div><!--header-->
 <div class="contents">
 
+<p>Type-erased track state proxy for any trajectory backend.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_any_track_state_proxy_8hpp_source.html">Acts/EventData/AnyTrackStateProxy.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::AnyTrackStateProxy&lt; read_only &gt;:</div>
@@ -141,34 +144,58 @@ Collaboration diagram for Acts::AnyTrackStateProxy&lt; read_only &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a61415e41ae49f14682de23df352b3311" id="r_a61415e41ae49f14682de23df352b3311"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a></td></tr>
+<tr class="memdesc:a61415e41ae49f14682de23df352b3311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const covariance map type.  <br /></td></tr>
 <tr class="memitem:a444c3350d52eec9226c3ab43c451ece1" id="r_a444c3350d52eec9226c3ab43c451ece1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a444c3350d52eec9226c3ab43c451ece1">ConstEffectiveCalibratedCovarianceMap</a></td></tr>
+<tr class="memdesc:a444c3350d52eec9226c3ab43c451ece1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const effective calibrated covariance map type.  <br /></td></tr>
 <tr class="memitem:a8d6e18147f2f14d7ade8fe25cc419d05" id="r_a8d6e18147f2f14d7ade8fe25cc419d05"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6e18147f2f14d7ade8fe25cc419d05">ConstEffectiveCalibratedMap</a></td></tr>
+<tr class="memdesc:a8d6e18147f2f14d7ade8fe25cc419d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const effective calibrated map type.  <br /></td></tr>
 <tr class="memitem:ad1c1965e6b7c55f6868592f66a9d3ce7" id="r_ad1c1965e6b7c55f6868592f66a9d3ce7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a></td></tr>
-<tr class="memitem:ae0bd5e7208d076dcf8cad82a369c31bf" id="r_ae0bd5e7208d076dcf8cad82a369c31bf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0bd5e7208d076dcf8cad82a369c31bf">ConstProxyType</a> = <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt;true&gt;</td></tr>
-<tr class="memitem:adfa982f237f23256c5e98c81db6328f1" id="r_adfa982f237f23256c5e98c81db6328f1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfa982f237f23256c5e98c81db6328f1">ConstTrackState</a> = <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt;true&gt;</td></tr>
-<tr class="memitem:a0327a84d04c6feb5cc957cac001d9511" id="r_a0327a84d04c6feb5cc957cac001d9511"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0327a84d04c6feb5cc957cac001d9511">ContainerPointer</a> = std::conditional_t&lt;<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a>, const void*, void*&gt;</td></tr>
+<tr class="memdesc:ad1c1965e6b7c55f6868592f66a9d3ce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const parameters map type.  <br /></td></tr>
+<tr class="memitem:ae0bd5e7208d076dcf8cad82a369c31bf" id="r_ae0bd5e7208d076dcf8cad82a369c31bf"><td class="memItemLeft" align="right" valign="top"><a id="ae0bd5e7208d076dcf8cad82a369c31bf" name="ae0bd5e7208d076dcf8cad82a369c31bf"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstProxyType</b> = AnyTrackStateProxy&lt;true&gt;</td></tr>
+<tr class="memdesc:ae0bd5e7208d076dcf8cad82a369c31bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const proxy type alias. <br /></td></tr>
+<tr class="memitem:adfa982f237f23256c5e98c81db6328f1" id="r_adfa982f237f23256c5e98c81db6328f1"><td class="memItemLeft" align="right" valign="top"><a id="adfa982f237f23256c5e98c81db6328f1" name="adfa982f237f23256c5e98c81db6328f1"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstTrackState</b> = AnyTrackStateProxy&lt;true&gt;</td></tr>
+<tr class="memdesc:adfa982f237f23256c5e98c81db6328f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const track state proxy type. <br /></td></tr>
+<tr class="memitem:a0327a84d04c6feb5cc957cac001d9511" id="r_a0327a84d04c6feb5cc957cac001d9511"><td class="memItemLeft" align="right" valign="top"><a id="a0327a84d04c6feb5cc957cac001d9511" name="a0327a84d04c6feb5cc957cac001d9511"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ContainerPointer</b> = std::conditional_t&lt;<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a>, const void*, void*&gt;</td></tr>
+<tr class="memdesc:a0327a84d04c6feb5cc957cac001d9511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container pointer type. <br /></td></tr>
 <tr class="memitem:a176314887440d1123b1463a15629866e" id="r_a176314887440d1123b1463a15629866e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a></td></tr>
+<tr class="memdesc:a176314887440d1123b1463a15629866e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable covariance map type.  <br /></td></tr>
 <tr class="memitem:a2c145f0aa09d27fedd60394a243c994f" id="r_a2c145f0aa09d27fedd60394a243c994f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c145f0aa09d27fedd60394a243c994f">MutableEffectiveCalibratedCovarianceMap</a></td></tr>
+<tr class="memdesc:a2c145f0aa09d27fedd60394a243c994f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable effective calibrated covariance map type.  <br /></td></tr>
 <tr class="memitem:ac19607648a3258a2ed949fdcffc651a0" id="r_ac19607648a3258a2ed949fdcffc651a0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19607648a3258a2ed949fdcffc651a0">MutableEffectiveCalibratedMap</a></td></tr>
-<tr class="memitem:a815a293d1541d65d2be5dc8b747fd43f" id="r_a815a293d1541d65d2be5dc8b747fd43f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815a293d1541d65d2be5dc8b747fd43f">MutableTrackState</a> = <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt;false&gt;</td></tr>
+<tr class="memdesc:ac19607648a3258a2ed949fdcffc651a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable effective calibrated map type.  <br /></td></tr>
+<tr class="memitem:a815a293d1541d65d2be5dc8b747fd43f" id="r_a815a293d1541d65d2be5dc8b747fd43f"><td class="memItemLeft" align="right" valign="top"><a id="a815a293d1541d65d2be5dc8b747fd43f" name="a815a293d1541d65d2be5dc8b747fd43f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableTrackState</b> = AnyTrackStateProxy&lt;false&gt;</td></tr>
+<tr class="memdesc:a815a293d1541d65d2be5dc8b747fd43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable track state proxy type. <br /></td></tr>
 <tr class="memitem:adc423672851e677412417985f8306875" id="r_adc423672851e677412417985f8306875"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a></td></tr>
+<tr class="memdesc:adc423672851e677412417985f8306875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable parameters map type.  <br /></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_track_state_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_track_state_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;</a></td></tr>
-<tr class="memitem:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ae1e81f4a291996c6f5b7f0c7b94b6dca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#ae1e81f4a291996c6f5b7f0c7b94b6dca">ParametersMap</a></td></tr>
-<tr class="memdesc:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameters.  <br /></td></tr>
-<tr class="memitem:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_aae5aa77e2e24848e8b241d784ad23dfd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#aae5aa77e2e24848e8b241d784ad23dfd">ConstParametersMap</a></td></tr>
-<tr class="memdesc:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameters.  <br /></td></tr>
-<tr class="memitem:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2d98de5976dbf8e189a73f2b8ca219b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2d98de5976dbf8e189a73f2b8ca219b0">CovarianceMap</a></td></tr>
-<tr class="memdesc:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameter covariance.  <br /></td></tr>
-<tr class="memitem:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ab0f2f94fc5a3600cc1f61a368e427963"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#ab0f2f94fc5a3600cc1f61a368e427963">ConstCovarianceMap</a></td></tr>
-<tr class="memdesc:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameter covariance.  <br /></td></tr>
-<tr class="memitem:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2640cb1596c0c91b3befbfcafd48f170"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2640cb1596c0c91b3befbfcafd48f170">EffectiveCalibratedMap</a></td></tr>
-<tr class="memdesc:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurements (dynamic size).  <br /></td></tr>
-<tr class="memitem:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a13a94a3c1198948a338b43ab31b1edd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a13a94a3c1198948a338b43ab31b1edd8">ConstEffectiveCalibratedMap</a></td></tr>
-<tr class="memdesc:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurements (dynamic size).  <br /></td></tr>
-<tr class="memitem:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a23a99e03ffbb25cc9a84e325cfbd01cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a23a99e03ffbb25cc9a84e325cfbd01cf">EffectiveCalibratedCovarianceMap</a></td></tr>
-<tr class="memdesc:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurement covariance (dynamic size).  <br /></td></tr>
-<tr class="memitem:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a9c0e91c6a1603f6e8dba7c1e00160fd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a9c0e91c6a1603f6e8dba7c1e00160fd8">ConstEffectiveCalibratedCovarianceMap</a></td></tr>
-<tr class="memdesc:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurement covariance (dynamic size).  <br /></td></tr>
+<tr class="memitem:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ae1e81f4a291996c6f5b7f0c7b94b6dca"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersMap</b></td></tr>
+<tr class="memdesc:ae1e81f4a291996c6f5b7f0c7b94b6dca inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameters. <br /></td></tr>
+<tr class="memitem:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_aae5aa77e2e24848e8b241d784ad23dfd"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstParametersMap</b></td></tr>
+<tr class="memdesc:aae5aa77e2e24848e8b241d784ad23dfd inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameters. <br /></td></tr>
+<tr class="memitem:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2d98de5976dbf8e189a73f2b8ca219b0"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMap</b></td></tr>
+<tr class="memdesc:a2d98de5976dbf8e189a73f2b8ca219b0 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for bound track parameter covariance. <br /></td></tr>
+<tr class="memitem:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_ab0f2f94fc5a3600cc1f61a368e427963"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstCovarianceMap</b></td></tr>
+<tr class="memdesc:ab0f2f94fc5a3600cc1f61a368e427963 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for bound track parameter covariance. <br /></td></tr>
+<tr class="memitem:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a2640cb1596c0c91b3befbfcafd48f170"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>EffectiveCalibratedMap</b></td></tr>
+<tr class="memdesc:a2640cb1596c0c91b3befbfcafd48f170 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurements (dynamic size). <br /></td></tr>
+<tr class="memitem:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a13a94a3c1198948a338b43ab31b1edd8"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstEffectiveCalibratedMap</b></td></tr>
+<tr class="memdesc:a13a94a3c1198948a338b43ab31b1edd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurements (dynamic size). <br /></td></tr>
+<tr class="memitem:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a23a99e03ffbb25cc9a84e325cfbd01cf"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>EffectiveCalibratedCovarianceMap</b></td></tr>
+<tr class="memdesc:a23a99e03ffbb25cc9a84e325cfbd01cf inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable Eigen map type for calibrated measurement covariance (dynamic size). <br /></td></tr>
+<tr class="memitem:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common" id="r_a9c0e91c6a1603f6e8dba7c1e00160fd8"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstEffectiveCalibratedCovarianceMap</b></td></tr>
+<tr class="memdesc:a9c0e91c6a1603f6e8dba7c1e00160fd8 inherit pub_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const Eigen map type for calibrated measurement covariance (dynamic size). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -406,28 +433,57 @@ requires (!<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a>)
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa1dc782070566edea98fcc21352d2490" id="r_aa1dc782070566edea98fcc21352d2490"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> = read_only</td></tr>
+<tr class="memitem:aa1dc782070566edea98fcc21352d2490" id="r_aa1dc782070566edea98fcc21352d2490"><td class="memItemLeft" align="right" valign="top"><a id="aa1dc782070566edea98fcc21352d2490" name="aa1dc782070566edea98fcc21352d2490"></a>
+static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadOnly</b> = read_only</td></tr>
+<tr class="memdesc:aa1dc782070566edea98fcc21352d2490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this proxy provides read-only or mutable access. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab47779dfdea8e69548f5995ae59d19b7" id="r_ab47779dfdea8e69548f5995ae59d19b7"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab47779dfdea8e69548f5995ae59d19b7">calibratedCovarianceData</a> () const</td></tr>
+<tr class="memdesc:ab47779dfdea8e69548f5995ae59d19b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access const calibrated measurement covariance data.  <br /></td></tr>
 <tr class="memitem:a9b819cb05ab709a229b41f6950cafb25" id="r_a9b819cb05ab709a229b41f6950cafb25"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b819cb05ab709a229b41f6950cafb25">calibratedCovarianceDataMutable</a> ()</td></tr>
+<tr class="memdesc:a9b819cb05ab709a229b41f6950cafb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access mutable calibrated measurement covariance data.  <br /></td></tr>
 <tr class="memitem:a3d20857de31671af1a61800d302929ea" id="r_a3d20857de31671af1a61800d302929ea"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d20857de31671af1a61800d302929ea">calibratedData</a> () const</td></tr>
+<tr class="memdesc:a3d20857de31671af1a61800d302929ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access const calibrated measurement data.  <br /></td></tr>
 <tr class="memitem:a105a52f88eb5df8fd55291485da4abe0" id="r_a105a52f88eb5df8fd55291485da4abe0"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105a52f88eb5df8fd55291485da4abe0">calibratedDataMutable</a> ()</td></tr>
+<tr class="memdesc:a105a52f88eb5df8fd55291485da4abe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access mutable calibrated measurement data.  <br /></td></tr>
 <tr class="memitem:a4408dcec29a933a678ed017c0d730d70" id="r_a4408dcec29a933a678ed017c0d730d70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4408dcec29a933a678ed017c0d730d70">covarianceAtIndex</a> (IndexType covIndex) const</td></tr>
+<tr class="memdesc:a4408dcec29a933a678ed017c0d730d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access const covariance at specific index.  <br /></td></tr>
 <tr class="memitem:aedf0ae8016e33b57c838559565c8007d" id="r_aedf0ae8016e33b57c838559565c8007d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedf0ae8016e33b57c838559565c8007d">covarianceAtIndexMutable</a> (IndexType covIndex) const</td></tr>
+<tr class="memdesc:aedf0ae8016e33b57c838559565c8007d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access mutable covariance at specific index.  <br /></td></tr>
 <tr class="memitem:a8a1d0f50789d3693562cf431c4c9fee8" id="r_a8a1d0f50789d3693562cf431c4c9fee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a1d0f50789d3693562cf431c4c9fee8">parametersAtIndex</a> (IndexType parIndex) const</td></tr>
+<tr class="memdesc:a8a1d0f50789d3693562cf431c4c9fee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access const parameters at specific index.  <br /></td></tr>
 <tr class="memitem:ad5f9f6dbba2bbc8d66deec1b23047acd" id="r_ad5f9f6dbba2bbc8d66deec1b23047acd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5f9f6dbba2bbc8d66deec1b23047acd">parametersAtIndexMutable</a> (IndexType parIndex) const</td></tr>
+<tr class="memdesc:ad5f9f6dbba2bbc8d66deec1b23047acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access mutable parameters at specific index.  <br /></td></tr>
 <tr class="inherit_header pro_methods_class_acts_1_1_track_state_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_acts_1_1_track_state_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;</a></td></tr>
 <tr class="memitem:a2af33c16285fe18d3b55f573eff37777 inherit pro_methods_class_acts_1_1_track_state_proxy_common" id="r_a2af33c16285fe18d3b55f573eff37777"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a>&lt; read_only &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2af33c16285fe18d3b55f573eff37777">derived</a> ()</td></tr>
+<tr class="memdesc:a2af33c16285fe18d3b55f573eff37777 inherit pro_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast to derived class.  <br /></td></tr>
 <tr class="memitem:ac799c31f084c67609453fcb259f57743 inherit pro_methods_class_acts_1_1_track_state_proxy_common" id="r_ac799c31f084c67609453fcb259f57743"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="class_acts_1_1_any_track_state_proxy.html">AnyTrackStateProxy</a>&lt; read_only &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#ac799c31f084c67609453fcb259f57743">derived</a> () const</td></tr>
+<tr class="memdesc:ac799c31f084c67609453fcb259f57743 inherit pro_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast to derived class (const).  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_types_class_acts_1_1_track_state_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_types_class_acts_1_1_track_state_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Types inherited from <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;</a></td></tr>
-<tr class="memitem:a1eb7bb75ad008d22048fe498e6b11ebb inherit pro_types_class_acts_1_1_track_state_proxy_common" id="r_a1eb7bb75ad008d22048fe498e6b11ebb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a1eb7bb75ad008d22048fe498e6b11ebb">IndexType</a></td></tr>
+<tr class="memitem:a1eb7bb75ad008d22048fe498e6b11ebb inherit pro_types_class_acts_1_1_track_state_proxy_common" id="r_a1eb7bb75ad008d22048fe498e6b11ebb"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b></td></tr>
+<tr class="memdesc:a1eb7bb75ad008d22048fe498e6b11ebb inherit pro_types_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index type for track states. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;bool read_only&gt;<br />
+class Acts::AnyTrackStateProxy&lt; read_only &gt;</div><p>Type-erased track state proxy for any trajectory backend. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">read_only</td><td>True for const access, false for mutable access.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Provides the TrackStateProxy interface by delegating to a runtime handler. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">read_only</td><td>True for const access, false for mutable access. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a61415e41ae49f14682de23df352b3311" name="a61415e41ae49f14682de23df352b3311"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61415e41ae49f14682de23df352b3311">&#9670;&#160;</a></span>ConstCovarianceMap</h2>
 
@@ -444,6 +500,8 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail_anytstate::TrackStateHandlerConstBase::ConstCovarianceMap</div>
 </div><!-- fragment -->
+<p>Const covariance map type. </p>
+
 </div>
 </div>
 <a id="a444c3350d52eec9226c3ab43c451ece1" name="a444c3350d52eec9226c3ab43c451ece1"></a>
@@ -462,6 +520,8 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> detail_anytstate::</div>
 <div class="line">      TrackStateHandlerConstBase::ConstEffectiveCalibratedCovarianceMap</div>
 </div><!-- fragment -->
+<p>Const effective calibrated covariance map type. </p>
+
 </div>
 </div>
 <a id="a8d6e18147f2f14d7ade8fe25cc419d05" name="a8d6e18147f2f14d7ade8fe25cc419d05"></a>
@@ -480,6 +540,8 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail_anytstate::TrackStateHandlerConstBase::ConstEffectiveCalibratedMap</div>
 </div><!-- fragment -->
+<p>Const effective calibrated map type. </p>
+
 </div>
 </div>
 <a id="ad1c1965e6b7c55f6868592f66a9d3ce7" name="ad1c1965e6b7c55f6868592f66a9d3ce7"></a>
@@ -498,53 +560,7 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail_anytstate::TrackStateHandlerConstBase::ConstParametersMap</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="ae0bd5e7208d076dcf8cad82a369c31bf" name="ae0bd5e7208d076dcf8cad82a369c31bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0bd5e7208d076dcf8cad82a369c31bf">&#9670;&#160;</a></span>ConstProxyType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool read_only&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_any_track_state_proxy.html">Acts::AnyTrackStateProxy</a>&lt; read_only &gt;::ConstProxyType = <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt;true&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adfa982f237f23256c5e98c81db6328f1" name="adfa982f237f23256c5e98c81db6328f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfa982f237f23256c5e98c81db6328f1">&#9670;&#160;</a></span>ConstTrackState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool read_only&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_any_track_state_proxy.html">Acts::AnyTrackStateProxy</a>&lt; read_only &gt;::ConstTrackState = <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt;true&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0327a84d04c6feb5cc957cac001d9511" name="a0327a84d04c6feb5cc957cac001d9511"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0327a84d04c6feb5cc957cac001d9511">&#9670;&#160;</a></span>ContainerPointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool read_only&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_any_track_state_proxy.html">Acts::AnyTrackStateProxy</a>&lt; read_only &gt;::ContainerPointer = std::conditional_t&lt;<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a>, const void*, void*&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Const parameters map type. </p>
 
 </div>
 </div>
@@ -564,6 +580,8 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail_anytstate::TrackStateHandlerConstBase::CovarianceMap</div>
 </div><!-- fragment -->
+<p>Mutable covariance map type. </p>
+
 </div>
 </div>
 <a id="a2c145f0aa09d27fedd60394a243c994f" name="a2c145f0aa09d27fedd60394a243c994f"></a>
@@ -582,6 +600,8 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> detail_anytstate::</div>
 <div class="line">      TrackStateHandlerConstBase::EffectiveCalibratedCovarianceMap</div>
 </div><!-- fragment -->
+<p>Mutable effective calibrated covariance map type. </p>
+
 </div>
 </div>
 <a id="ac19607648a3258a2ed949fdcffc651a0" name="ac19607648a3258a2ed949fdcffc651a0"></a>
@@ -600,21 +620,7 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail_anytstate::TrackStateHandlerConstBase::EffectiveCalibratedMap</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a815a293d1541d65d2be5dc8b747fd43f" name="a815a293d1541d65d2be5dc8b747fd43f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a815a293d1541d65d2be5dc8b747fd43f">&#9670;&#160;</a></span>MutableTrackState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool read_only&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_any_track_state_proxy.html">Acts::AnyTrackStateProxy</a>&lt; read_only &gt;::MutableTrackState = <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt;false&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Mutable effective calibrated map type. </p>
 
 </div>
 </div>
@@ -634,6 +640,8 @@ template&lt;bool read_only&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail_anytstate::TrackStateHandlerConstBase::ParametersMap</div>
 </div><!-- fragment -->
+<p>Mutable parameters map type. </p>
+
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -691,7 +699,7 @@ requires (<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> |
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::allocateCalibrated </td>
+          <td class="memname">void <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::allocateCalibrated </td>
           <td>(</td>
           <td class="paramtype">const Eigen::DenseBase&lt; val_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>val</em></span>, </td>
         </tr>
@@ -757,7 +765,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, false &gt;::Calibrated <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::calibrated </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, false &gt;::Calibrated <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::calibrated </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -785,7 +793,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, true &gt;::Calibrated <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::calibrated </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, true &gt;::Calibrated <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::calibrated </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -813,7 +821,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, false &gt;::CalibratedCovariance <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::calibratedCovariance </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, false &gt;::CalibratedCovariance <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::calibratedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -841,7 +849,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, true &gt;::CalibratedCovariance <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::calibratedCovariance </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_track_state_traits.html">TrackStateTraits</a>&lt; measdim, true &gt;::CalibratedCovariance <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::calibratedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -885,6 +893,9 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Access const calibrated measurement covariance data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to const calibrated covariance data </dd></dl>
+
 </div>
 </div>
 <a id="a9b819cb05ab709a229b41f6950cafb25" name="a9b819cb05ab709a229b41f6950cafb25"></a>
@@ -911,6 +922,9 @@ template&lt;bool read_only&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Access mutable calibrated measurement covariance data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to mutable calibrated covariance data </dd></dl>
 
 </div>
 </div>
@@ -939,6 +953,9 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Access const calibrated measurement data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to const calibrated data </dd></dl>
+
 </div>
 </div>
 <a id="a105a52f88eb5df8fd55291485da4abe0" name="a105a52f88eb5df8fd55291485da4abe0"></a>
@@ -965,6 +982,9 @@ template&lt;bool read_only&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Access mutable calibrated measurement data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to mutable calibrated data </dd></dl>
 
 </div>
 </div>
@@ -999,7 +1019,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float &amp; <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::chi2 </td>
+          <td class="memname">float &amp; <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::chi2 </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1021,7 +1041,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::chi2 </td>
+          <td class="memname">float <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::chi2 </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1252,7 +1272,7 @@ template&lt;typename T&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::covariance </td>
+          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::covariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1290,6 +1310,15 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Access const covariance at specific index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">covIndex</td><td>Covariance index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const covariance map </dd></dl>
+
 </div>
 </div>
 <a id="aedf0ae8016e33b57c838559565c8007d" name="aedf0ae8016e33b57c838559565c8007d"></a>
@@ -1317,6 +1346,15 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Access mutable covariance at specific index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">covIndex</td><td>Covariance index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mutable covariance map </dd></dl>
+
 </div>
 </div>
 <a id="ad1192c5d211494118ebe309d01fd130d" name="ad1192c5d211494118ebe309d01fd130d"></a>
@@ -1328,7 +1366,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2640cb1596c0c91b3befbfcafd48f170">EffectiveCalibratedMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::effectiveCalibrated </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a2640cb1596c0c91b3befbfcafd48f170">EffectiveCalibratedMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::effectiveCalibrated </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1350,7 +1388,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a8d6e18147f2f14d7ade8fe25cc419d05">ConstEffectiveCalibratedMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::effectiveCalibrated </td>
+          <td class="memname"><a class="el" href="#a8d6e18147f2f14d7ade8fe25cc419d05">ConstEffectiveCalibratedMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::effectiveCalibrated </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1372,7 +1410,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a23a99e03ffbb25cc9a84e325cfbd01cf">EffectiveCalibratedCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::effectiveCalibratedCovariance </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a23a99e03ffbb25cc9a84e325cfbd01cf">EffectiveCalibratedCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::effectiveCalibratedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1394,7 +1432,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a444c3350d52eec9226c3ab43c451ece1">ConstEffectiveCalibratedCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::effectiveCalibratedCovariance </td>
+          <td class="memname"><a class="el" href="#a444c3350d52eec9226c3ab43c451ece1">ConstEffectiveCalibratedCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::effectiveCalibratedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1416,7 +1454,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::filtered </td>
+          <td class="memname"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::filtered </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1438,7 +1476,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::filtered </td>
+          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::filtered </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1460,7 +1498,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::filteredCovariance </td>
+          <td class="memname"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::filteredCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1482,7 +1520,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::filteredCovariance </td>
+          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::filteredCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1504,7 +1542,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::getMask </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::getMask </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1634,7 +1672,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasCalibrated </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasCalibrated </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1712,7 +1750,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasFiltered </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasFiltered </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1734,7 +1772,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasJacobian </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasJacobian </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1756,7 +1794,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasPredicted </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasPredicted </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1778,7 +1816,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasPrevious </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasPrevious </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1800,7 +1838,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasProjector </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasProjector </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1844,7 +1882,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::hasSmoothed </td>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::hasSmoothed </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1932,7 +1970,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::parameters </td>
+          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::parameters </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1970,6 +2008,15 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Access const parameters at specific index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parIndex</td><td>Parameter index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const parameters map </dd></dl>
+
 </div>
 </div>
 <a id="ad5f9f6dbba2bbc8d66deec1b23047acd" name="ad5f9f6dbba2bbc8d66deec1b23047acd"></a>
@@ -1997,6 +2044,15 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Access mutable parameters at specific index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parIndex</td><td>Parameter index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mutable parameters map </dd></dl>
+
 </div>
 </div>
 <a id="a44def9ed39929b6996dd2b8d0a05f39e" name="a44def9ed39929b6996dd2b8d0a05f39e"></a>
@@ -2008,7 +2064,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">double &amp; <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::pathLength </td>
+          <td class="memname">double &amp; <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::pathLength </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2030,7 +2086,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::pathLength </td>
+          <td class="memname">double <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::pathLength </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2052,7 +2108,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::predicted </td>
+          <td class="memname"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::predicted </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2074,7 +2130,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::predicted </td>
+          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::predicted </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2096,7 +2152,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::predictedCovariance </td>
+          <td class="memname"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::predictedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2118,7 +2174,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::predictedCovariance </td>
+          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::predictedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2140,7 +2196,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &amp; <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::previous </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> &amp; <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::previous </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2162,7 +2218,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::previous </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::previous </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2184,7 +2240,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#aaaa9c77f4dd9efc1ac464d9a941f2ef2">VariableBoundSubspaceHelper</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::projectorSubspaceHelper </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#aaaa9c77f4dd9efc1ac464d9a941f2ef2">VariableBoundSubspaceHelper</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::projectorSubspaceHelper </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2206,7 +2262,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">BoundSubspaceIndices</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::projectorSubspaceIndices </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">BoundSubspaceIndices</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::projectorSubspaceIndices </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2250,7 +2306,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::setProjectorSubspaceIndices </td>
+          <td class="memname">void <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::setProjectorSubspaceIndices </td>
           <td>(</td>
           <td class="paramtype">const index_range_t &amp;</td>          <td class="paramname"><span class="paramname"><em>subspaceIndices</em></span></td><td>)</td>
           <td></td>
@@ -2337,7 +2393,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::smoothed </td>
+          <td class="memname"><a class="el" href="#adc423672851e677412417985f8306875">ParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::smoothed </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2359,7 +2415,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::smoothed </td>
+          <td class="memname"><a class="el" href="#ad1c1965e6b7c55f6868592f66a9d3ce7">ConstParametersMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::smoothed </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2381,7 +2437,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::smoothedCovariance </td>
+          <td class="memname"><a class="el" href="#a176314887440d1123b1463a15629866e">CovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::smoothedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2403,7 +2459,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::smoothedCovariance </td>
+          <td class="memname"><a class="el" href="#a61415e41ae49f14682de23df352b3311">ConstCovarianceMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::smoothedCovariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2425,7 +2481,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#aea0ba56b78fc7596ea8c54f1fdd6dc86">MutableTrackStateTypeMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::typeFlags </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#aea0ba56b78fc7596ea8c54f1fdd6dc86">MutableTrackStateTypeMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::typeFlags </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2447,7 +2503,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a396cf9dc9d64968f658960b949be9db2">ConstTrackStateTypeMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; <a class="el" href="#a13ac8d7d4ac582d960c9902937e8bad8">AnyTrackStateProxy</a>&lt; read_only &gt;, read_only &gt;::typeFlags </td>
+          <td class="memname"><a class="el" href="namespace_acts.html#a396cf9dc9d64968f658960b949be9db2">ConstTrackStateTypeMap</a> <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; AnyTrackStateProxy&lt; read_only &gt;, read_only &gt;::typeFlags </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2484,31 +2540,6 @@ template&lt;bool read_only&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aa1dc782070566edea98fcc21352d2490" name="aa1dc782070566edea98fcc21352d2490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1dc782070566edea98fcc21352d2490">&#9670;&#160;</a></span>ReadOnly</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool read_only&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_any_track_state_proxy.html">Acts::AnyTrackStateProxy</a>&lt; read_only &gt;::ReadOnly = read_only</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

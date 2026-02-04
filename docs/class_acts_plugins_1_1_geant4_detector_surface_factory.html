@@ -134,7 +134,7 @@ $(function(){initNavTree('class_acts_plugins_1_1_geant4_detector_surface_factory
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Cache" id="r_Cache"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html">Cache</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for passive surface.  <a href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nested cache that records the conversion status.  <a href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nested configuration struct that holds global lifetime configuration.  <a href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html">Options</a></td></tr>
@@ -144,14 +144,17 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a14b7f845ca18313af93e26618b25f104" id="r_a14b7f845ca18313af93e26618b25f104"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14b7f845ca18313af93e26618b25f104">ElementFactory</a></td></tr>
 <tr class="memdesc:a14b7f845ca18313af93e26618b25f104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for detector element factory function.  <br /></td></tr>
-<tr class="memitem:a7d20e7b1516a2bdd7bd0eb5db0cc5e9e" id="r_a7d20e7b1516a2bdd7bd0eb5db0cc5e9e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d20e7b1516a2bdd7bd0eb5db0cc5e9e">Geant4PassiveSurface</a> = std::shared_ptr&lt;<a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a>&gt;</td></tr>
+<tr class="memitem:a7d20e7b1516a2bdd7bd0eb5db0cc5e9e" id="r_a7d20e7b1516a2bdd7bd0eb5db0cc5e9e"><td class="memItemLeft" align="right" valign="top"><a id="a7d20e7b1516a2bdd7bd0eb5db0cc5e9e" name="a7d20e7b1516a2bdd7bd0eb5db0cc5e9e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Geant4PassiveSurface</b> = std::shared_ptr&lt;<a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a>&gt;</td></tr>
+<tr class="memdesc:a7d20e7b1516a2bdd7bd0eb5db0cc5e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for passive surface. <br /></td></tr>
 <tr class="memitem:adb50157683caa76982e919c3c52fbc14" id="r_adb50157683caa76982e919c3c52fbc14"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb50157683caa76982e919c3c52fbc14">Geant4SensitiveSurface</a></td></tr>
 <tr class="memdesc:adb50157683caa76982e919c3c52fbc14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for sensitive surface with detector element.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f6c8d97c015ba3de9ba129a7b3c14ac" id="r_a6f6c8d97c015ba3de9ba129a7b3c14ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f6c8d97c015ba3de9ba129a7b3c14ac">Geant4DetectorSurfaceFactory</a> ()=delete</td></tr>
-<tr class="memdesc:a6f6c8d97c015ba3de9ba129a7b3c14ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Geant4 detector element factory.  <br /></td></tr>
+<tr class="memitem:a6f6c8d97c015ba3de9ba129a7b3c14ac" id="r_a6f6c8d97c015ba3de9ba129a7b3c14ac"><td class="memItemLeft" align="right" valign="top"><a id="a6f6c8d97c015ba3de9ba129a7b3c14ac" name="a6f6c8d97c015ba3de9ba129a7b3c14ac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Geant4DetectorSurfaceFactory</b> ()=delete</td></tr>
+<tr class="memdesc:a6f6c8d97c015ba3de9ba129a7b3c14ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Geant4 detector element factory. <br /></td></tr>
 <tr class="memitem:ac9216901ab6e59d3d1813480d97452a7" id="r_ac9216901ab6e59d3d1813480d97452a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9216901ab6e59d3d1813480d97452a7">Geant4DetectorSurfaceFactory</a> (const <a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html">Config</a> &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; mlogger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Geant4DetectorSurfaceFactory&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:ac9216901ab6e59d3d1813480d97452a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Geant4 detector element factory with a configuration.  <br /></td></tr>
 <tr class="memitem:a67420d7f309ead78966f043753ac6403" id="r_a67420d7f309ead78966f043753ac6403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67420d7f309ead78966f043753ac6403">construct</a> (<a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html">Cache</a> &amp;cache, const G4Transform3D &amp;g4ToGlobal, const G4VPhysicalVolume &amp;g4PhysVol, const <a class="el" href="struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html">Options</a> &amp;option)</td></tr>
@@ -180,20 +183,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d20e7b1516a2bdd7bd0eb5db0cc5e9e" name="a7d20e7b1516a2bdd7bd0eb5db0cc5e9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d20e7b1516a2bdd7bd0eb5db0cc5e9e">&#9670;&#160;</a></span>Geant4PassiveSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a7d20e7b1516a2bdd7bd0eb5db0cc5e9e">ActsPlugins::Geant4DetectorSurfaceFactory::Geant4PassiveSurface</a> = std::shared_ptr&lt;<a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="adb50157683caa76982e919c3c52fbc14" name="adb50157683caa76982e919c3c52fbc14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb50157683caa76982e919c3c52fbc14">&#9670;&#160;</a></span>Geant4SensitiveSurface</h2>
 
@@ -214,35 +203,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6f6c8d97c015ba3de9ba129a7b3c14ac" name="a6f6c8d97c015ba3de9ba129a7b3c14ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f6c8d97c015ba3de9ba129a7b3c14ac">&#9670;&#160;</a></span>Geant4DetectorSurfaceFactory() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::Geant4DetectorSurfaceFactory::Geant4DetectorSurfaceFactory </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The Geant4 detector element factory. </p>
-
-</div>
-</div>
 <a id="ac9216901ab6e59d3d1813480d97452a7" name="ac9216901ab6e59d3d1813480d97452a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9216901ab6e59d3d1813480d97452a7">&#9670;&#160;</a></span>Geant4DetectorSurfaceFactory() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9216901ab6e59d3d1813480d97452a7">&#9670;&#160;</a></span>Geant4DetectorSurfaceFactory()</h2>
 
 <div class="memitem">
 <div class="memproto">

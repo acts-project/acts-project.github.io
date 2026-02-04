@@ -41,6 +41,5 @@ var searchData=
   ['volumemap_5ft_38',['VolumeMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#aa1e96c8a02fd5336af4c5e25f8a7b553',1,'ActsPlugins::GeoModelTree::VolumePublisher']]],
   ['volumematerialmaps_39',['VolumeMaterialMaps',['../namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04',1,'Acts']]],
   ['volumematerialpointer_40',['volumeMaterialPointer',['../group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae',1,'Acts']]],
-  ['volumerange_41',['VolumeRange',['../class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b',1,'Acts::TrackingVolume']]],
-  ['volumetrajectorystatecontainer_42',['VolumeTrajectoryStateContainer',['../namespace_acts_1_1_multi_trajectory_helpers.html#aa14f63a6b4797b05f45f86a4f60977d4',1,'Acts::MultiTrajectoryHelpers']]]
+  ['volumerange_41',['VolumeRange',['../class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b',1,'Acts::TrackingVolume']]]
 ];

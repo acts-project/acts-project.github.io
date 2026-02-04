@@ -126,21 +126,37 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_trig_in_det_si_layer.h
 </div><!--header-->
 <div class="contents">
 
+<p>Lightweight silicon layer description for GBTs geometry.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_geometry_8hpp_source.html">Acts/Seeding/GbtsGeometry.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a5e831adda342c4e1855066873547f3" id="r_a7a5e831adda342c4e1855066873547f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a5e831adda342c4e1855066873547f3">TrigInDetSiLayer</a> (int subdet, short int <a class="el" href="struct_acts_1_1_remove_pointer.html">type</a>, float center, float min, float max)</td></tr>
+<tr class="memdesc:a7a5e831adda342c4e1855066873547f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ada2e018063062947ce12b0b6aceb5568" id="r_ada2e018063062947ce12b0b6aceb5568"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada2e018063062947ce12b0b6aceb5568">m_maxBound</a></td></tr>
-<tr class="memitem:a6864c5cf3ca12c14d2e88945a5ea105b" id="r_a6864c5cf3ca12c14d2e88945a5ea105b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6864c5cf3ca12c14d2e88945a5ea105b">m_minBound</a></td></tr>
-<tr class="memitem:a54e960770167862f5ea7e4d578ed5473" id="r_a54e960770167862f5ea7e4d578ed5473"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54e960770167862f5ea7e4d578ed5473">m_refCoord</a></td></tr>
-<tr class="memitem:a29849f553d46fd58b9d74dce7eda9c95" id="r_a29849f553d46fd58b9d74dce7eda9c95"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29849f553d46fd58b9d74dce7eda9c95">m_subdet</a></td></tr>
-<tr class="memitem:aeab75d9bf53ec7494e6a773f41ba74f1" id="r_aeab75d9bf53ec7494e6a773f41ba74f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab75d9bf53ec7494e6a773f41ba74f1">m_type</a></td></tr>
+<tr class="memitem:ada2e018063062947ce12b0b6aceb5568" id="r_ada2e018063062947ce12b0b6aceb5568"><td class="memItemLeft" align="right" valign="top"><a id="ada2e018063062947ce12b0b6aceb5568" name="ada2e018063062947ce12b0b6aceb5568"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxBound</b></td></tr>
+<tr class="memdesc:ada2e018063062947ce12b0b6aceb5568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum boundary coordinate. <br /></td></tr>
+<tr class="memitem:a6864c5cf3ca12c14d2e88945a5ea105b" id="r_a6864c5cf3ca12c14d2e88945a5ea105b"><td class="memItemLeft" align="right" valign="top"><a id="a6864c5cf3ca12c14d2e88945a5ea105b" name="a6864c5cf3ca12c14d2e88945a5ea105b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_minBound</b></td></tr>
+<tr class="memdesc:a6864c5cf3ca12c14d2e88945a5ea105b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum boundary coordinate. <br /></td></tr>
+<tr class="memitem:a54e960770167862f5ea7e4d578ed5473" id="r_a54e960770167862f5ea7e4d578ed5473"><td class="memItemLeft" align="right" valign="top"><a id="a54e960770167862f5ea7e4d578ed5473" name="a54e960770167862f5ea7e4d578ed5473"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_refCoord</b></td></tr>
+<tr class="memdesc:a54e960770167862f5ea7e4d578ed5473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference coordinate (z for barrel, r for endcap). <br /></td></tr>
+<tr class="memitem:a29849f553d46fd58b9d74dce7eda9c95" id="r_a29849f553d46fd58b9d74dce7eda9c95"><td class="memItemLeft" align="right" valign="top"><a id="a29849f553d46fd58b9d74dce7eda9c95" name="a29849f553d46fd58b9d74dce7eda9c95"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_subdet</b></td></tr>
+<tr class="memdesc:a29849f553d46fd58b9d74dce7eda9c95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined subdetector ID. <br /></td></tr>
+<tr class="memitem:aeab75d9bf53ec7494e6a773f41ba74f1" id="r_aeab75d9bf53ec7494e6a773f41ba74f1"><td class="memItemLeft" align="right" valign="top"><a id="aeab75d9bf53ec7494e6a773f41ba74f1" name="aeab75d9bf53ec7494e6a773f41ba74f1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_type</b></td></tr>
+<tr class="memdesc:aeab75d9bf53ec7494e6a773f41ba74f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer type (0: barrel, +/-n: endcap). <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Lightweight silicon layer description for GBTs geometry. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7a5e831adda342c4e1855066873547f3" name="a7a5e831adda342c4e1855066873547f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a5e831adda342c4e1855066873547f3">&#9670;&#160;</a></span>TrigInDetSiLayer()</h2>
 
@@ -175,76 +191,17 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ada2e018063062947ce12b0b6aceb5568" name="ada2e018063062947ce12b0b6aceb5568"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada2e018063062947ce12b0b6aceb5568">&#9670;&#160;</a></span>m_maxBound</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::TrigInDetSiLayer::m_maxBound</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6864c5cf3ca12c14d2e88945a5ea105b" name="a6864c5cf3ca12c14d2e88945a5ea105b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6864c5cf3ca12c14d2e88945a5ea105b">&#9670;&#160;</a></span>m_minBound</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::TrigInDetSiLayer::m_minBound</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54e960770167862f5ea7e4d578ed5473" name="a54e960770167862f5ea7e4d578ed5473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54e960770167862f5ea7e4d578ed5473">&#9670;&#160;</a></span>m_refCoord</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::TrigInDetSiLayer::m_refCoord</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a29849f553d46fd58b9d74dce7eda9c95" name="a29849f553d46fd58b9d74dce7eda9c95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29849f553d46fd58b9d74dce7eda9c95">&#9670;&#160;</a></span>m_subdet</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::Experimental::TrigInDetSiLayer::m_subdet</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeab75d9bf53ec7494e6a773f41ba74f1" name="aeab75d9bf53ec7494e6a773f41ba74f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeab75d9bf53ec7494e6a773f41ba74f1">&#9670;&#160;</a></span>m_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::Experimental::TrigInDetSiLayer::m_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subdet</td><td>Subdetector identifier </td></tr>
+    <tr><td class="paramname">type</td><td>Layer type (0: barrel, +/-n: endcap) </td></tr>
+    <tr><td class="paramname">center</td><td>Reference coordinate </td></tr>
+    <tr><td class="paramname">min</td><td>Minimum boundary </td></tr>
+    <tr><td class="paramname">max</td><td>Maximum boundary </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

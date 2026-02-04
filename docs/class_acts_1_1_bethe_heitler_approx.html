@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_bethe_heitler_approx.html','','class_ac
 </div><!--header-->
 <div class="contents">
 
+<p>Interface for Bethe-Heitler Gaussian mixture approximations.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_bethe_heitler_approx_8hpp_source.html">Acts/TrackFitting/BetheHeitlerApprox.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::BetheHeitlerApprox:</div>
@@ -135,57 +138,22 @@ Inheritance diagram for Acts::BetheHeitlerApprox:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a28880193b20f2bd2ea69fcdd20cae1a3" id="r_a28880193b20f2bd2ea69fcdd20cae1a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> = detail::GaussianComponent</td></tr>
+<tr class="memitem:a28880193b20f2bd2ea69fcdd20cae1a3" id="r_a28880193b20f2bd2ea69fcdd20cae1a3"><td class="memItemLeft" align="right" valign="top"><a id="a28880193b20f2bd2ea69fcdd20cae1a3" name="a28880193b20f2bd2ea69fcdd20cae1a3"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> = detail::GaussianComponent</td></tr>
+<tr class="memdesc:a28880193b20f2bd2ea69fcdd20cae1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for Gaussian mixture component. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae00e351510ed0f3f13f31d62f63acf7d" id="r_ae00e351510ed0f3f13f31d62f63acf7d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae00e351510ed0f3f13f31d62f63acf7d">~BetheHeitlerApprox</a> ()=default</td></tr>
 <tr class="memitem:a8b593569b93fbc23758df47e785b81af" id="r_a8b593569b93fbc23758df47e785b81af"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b593569b93fbc23758df47e785b81af">maxComponents</a> () const =0</td></tr>
+<tr class="memdesc:a8b593569b93fbc23758df47e785b81af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of components in the mixture.  <br /></td></tr>
 <tr class="memitem:a2f4ffb5dc53aa252ded57259eb91c619" id="r_a2f4ffb5dc53aa252ded57259eb91c619"><td class="memItemLeft" align="right" valign="top">virtual std::span&lt; <a class="el" href="#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f4ffb5dc53aa252ded57259eb91c619">mixture</a> (double xOverX0, std::span&lt; <a class="el" href="#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> &gt; mixture) const =0</td></tr>
+<tr class="memdesc:a2f4ffb5dc53aa252ded57259eb91c619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute mixture for given x/X0.  <br /></td></tr>
 <tr class="memitem:a24eff665b135214e214cb999fd15cad9" id="r_a24eff665b135214e214cb999fd15cad9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24eff665b135214e214cb999fd15cad9">validXOverX0</a> (double xOverX0) const =0</td></tr>
+<tr class="memdesc:a24eff665b135214e214cb999fd15cad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if x/X0 value is valid for this approximation.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a28880193b20f2bd2ea69fcdd20cae1a3" name="a28880193b20f2bd2ea69fcdd20cae1a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28880193b20f2bd2ea69fcdd20cae1a3">&#9670;&#160;</a></span>Component</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a28880193b20f2bd2ea69fcdd20cae1a3">Acts::BetheHeitlerApprox::Component</a> = detail::GaussianComponent</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae00e351510ed0f3f13f31d62f63acf7d" name="ae00e351510ed0f3f13f31d62f63acf7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae00e351510ed0f3f13f31d62f63acf7d">&#9670;&#160;</a></span>~BetheHeitlerApprox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::BetheHeitlerApprox::~BetheHeitlerApprox </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interface for Bethe-Heitler Gaussian mixture approximations. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a8b593569b93fbc23758df47e785b81af" name="a8b593569b93fbc23758df47e785b81af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b593569b93fbc23758df47e785b81af">&#9670;&#160;</a></span>maxComponents()</h2>
 
@@ -208,6 +176,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Maximum number of components in the mixture. </p>
+<dl class="section return"><dt>Returns</dt><dd>Maximum number of components </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a026234443669787c85d4c374d7a98dbd">Acts::AtlasBetheHeitlerApprox</a>, and <a class="el" href="class_acts_1_1_bethe_heitler_approx_single_cmp.html#ad4dd08c7ece504dc4b3e31dbf3c6033b">Acts::BetheHeitlerApproxSingleCmp</a>.</p>
 
@@ -240,6 +211,16 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Compute mixture for given x/X0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xOverX0</td><td>Material thickness in radiation lengths </td></tr>
+    <tr><td class="paramname">mixture</td><td>Output span for mixture components </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Span of computed mixture components </dd></dl>
+
 <p>Implemented in <a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a58069d4b85319f6870ca3a52b8e6ea30">Acts::AtlasBetheHeitlerApprox</a>, and <a class="el" href="class_acts_1_1_bethe_heitler_approx_single_cmp.html#afd87dbee49050e629cec396043e86e09">Acts::BetheHeitlerApproxSingleCmp</a>.</p>
 
 </div>
@@ -266,6 +247,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if x/X0 value is valid for this approximation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xOverX0</td><td>Material thickness in radiation lengths </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if value is valid </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a17ef496b2c1950d883a24cfae5016623">Acts::AtlasBetheHeitlerApprox</a>, and <a class="el" href="class_acts_1_1_bethe_heitler_approx_single_cmp.html#ab98bf528ac5e0c3c833d81836e420d77">Acts::BetheHeitlerApproxSingleCmp</a>.</p>
 

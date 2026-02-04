@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_fast_jet_1_1_track_jet.html" target="_top" xlink:title=" ">
+<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_fast_jet_1_1_track_jet.html" target="_top" xlink:title="Jet constructed from reconstructed tracks.">
 <polygon fill="white" stroke="#666666" points="277,-78 166,-78 166,-48 277,-48 277,-78"/>
 <text text-anchor="start" x="174" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::FastJet</text>
 <text text-anchor="middle" x="221.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">::TrackJet</text>
@@ -39,7 +39,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html" target="_top" xlink:title="Jet constructed from truth particles.">
 <polygon fill="white" stroke="#666666" points="277,-30 166,-30 166,0 277,0 277,-30"/>
 <text text-anchor="start" x="174" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::FastJet</text>
 <text text-anchor="middle" x="221.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::TruthJet</text>

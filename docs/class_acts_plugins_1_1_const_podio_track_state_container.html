@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_plugins_1_1_const_podio_track_state_contain
 </div><!--header-->
 <div class="contents">
 
+<p>Read-only track state container backend using podio for storage.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_podio_track_state_container_8hpp_source.html">/home/runner/work/acts/acts/Plugins/EDM4hep/include/ActsPlugins/EDM4hep/PodioTrackStateContainer.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ActsPlugins::ConstPodioTrackStateContainer:</div>
@@ -143,22 +146,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga7e844dcba38aca54a214802db38c7b2f" id="r_ga7e844dcba38aca54a214802db38c7b2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edm4hep__plugin.html#ga7e844dcba38aca54a214802db38c7b2f">ConstPodioTrackStateContainer</a> (const <a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html">MutablePodioTrackStateContainer</a> &amp;other)</td></tr>
 <tr class="memdesc:ga7e844dcba38aca54a214802db38c7b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a const track state container from a mutable.  <br /></td></tr>
 <tr class="memitem:afca15d79b7bd82840abc1b8d764e931c" id="r_afca15d79b7bd82840abc1b8d764e931c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afca15d79b7bd82840abc1b8d764e931c">ConstPodioTrackStateContainer</a> (const <a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, const ActsPodioEdm::TrackStateCollection &amp;trackStates, const ActsPodioEdm::BoundParametersCollection &amp;params, const ActsPodioEdm::JacobianCollection &amp;jacs)</td></tr>
+<tr class="memdesc:afca15d79b7bd82840abc1b8d764e931c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from collections.  <br /></td></tr>
 <tr class="memitem:aaaa204299bc719e0ff9e9932ece244d3" id="r_aaaa204299bc719e0ff9e9932ece244d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaa204299bc719e0ff9e9932ece244d3">ConstPodioTrackStateContainer</a> (const <a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, const podio::Frame &amp;frame, const std::string &amp;suffix=&quot;&quot;)</td></tr>
+<tr class="memdesc:aaaa204299bc719e0ff9e9932ece244d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from frame.  <br /></td></tr>
 <tr class="memitem:a93409f288f9cc2a27198a73fb579e2eb" id="r_a93409f288f9cc2a27198a73fb579e2eb"><td class="memTemplParams" colspan="2">template&lt;std::size_t measdim&gt; </td></tr>
 <tr class="memitem:a93409f288f9cc2a27198a73fb579e2eb template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a6bc7781170388e6a5efc5dbfba2e369b">ConstTrackStateProxy::ConstCalibrated</a>&lt; measdim &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93409f288f9cc2a27198a73fb579e2eb">calibrated_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> index) const</td></tr>
+<tr class="memdesc:a93409f288f9cc2a27198a73fb579e2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get calibrated measurement.  <br /></td></tr>
 <tr class="memitem:afa16276daa31649e10c084608f5d26f2" id="r_afa16276daa31649e10c084608f5d26f2"><td class="memTemplParams" colspan="2">template&lt;std::size_t measdim&gt; </td></tr>
 <tr class="memitem:afa16276daa31649e10c084608f5d26f2 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a105d545b90be92b01c15163e89b8c763">ConstTrackStateProxy::ConstCalibratedCovariance</a>&lt; measdim &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa16276daa31649e10c084608f5d26f2">calibratedCovariance_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> index) const</td></tr>
+<tr class="memdesc:afa16276daa31649e10c084608f5d26f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get calibrated measurement covariance.  <br /></td></tr>
 <tr class="memitem:a089af95e62a7db9053da0add34f3ba79" id="r_a089af95e62a7db9053da0add34f3ba79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a089af95e62a7db9053da0add34f3ba79">calibratedSize_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:a089af95e62a7db9053da0add34f3ba79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get calibrated measurement size.  <br /></td></tr>
 <tr class="memitem:a01cc7ef7cbc82837bf5384fd445b5f84" id="r_a01cc7ef7cbc82837bf5384fd445b5f84"><td class="memItemLeft" align="right" valign="top">std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01cc7ef7cbc82837bf5384fd445b5f84">component_impl</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:a01cc7ef7cbc82837bf5384fd445b5f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a component from a track state.  <br /></td></tr>
 <tr class="memitem:a27e12ea0eb0eb84bd57f771fc30d1dab" id="r_a27e12ea0eb0eb84bd57f771fc30d1dab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#ad1dde03ebd3f8c3ea5c6cf0a1f9da262">ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e12ea0eb0eb84bd57f771fc30d1dab">covariance_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:a27e12ea0eb0eb84bd57f771fc30d1dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get covariance for a track state.  <br /></td></tr>
 <tr class="memitem:a39b01a5c218b9d538a19d4d557f0cbd5" id="r_a39b01a5c218b9d538a19d4d557f0cbd5"><td class="memItemLeft" align="right" valign="top">Acts::detail::DynamicKeyRange&lt; podio_detail::ConstDynamicColumnBase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39b01a5c218b9d538a19d4d557f0cbd5">dynamicKeys_impl</a> () const</td></tr>
+<tr class="memdesc:a39b01a5c218b9d538a19d4d557f0cbd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dynamic column keys.  <br /></td></tr>
 <tr class="memitem:ac013ac01bae6ee707252b40beeb30207" id="r_ac013ac01bae6ee707252b40beeb30207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac013ac01bae6ee707252b40beeb30207">getUncalibratedSourceLink_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:ac013ac01bae6ee707252b40beeb30207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get uncalibrated source link for a track state.  <br /></td></tr>
 <tr class="memitem:ae66465cae7a7c0456371a0a4d0c94482" id="r_ae66465cae7a7c0456371a0a4d0c94482"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66465cae7a7c0456371a0a4d0c94482">has_impl</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:ae66465cae7a7c0456371a0a4d0c94482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a component exists for a track state.  <br /></td></tr>
 <tr class="memitem:a0be265fbfee5471e0a4f79954b05e64d" id="r_a0be265fbfee5471e0a4f79954b05e64d"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be265fbfee5471e0a4f79954b05e64d">hasColumn_impl</a> (<a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key) const</td></tr>
+<tr class="memdesc:a0be265fbfee5471e0a4f79954b05e64d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a column exists.  <br /></td></tr>
 <tr class="memitem:a83b8d426567632f42c03e7693619590e" id="r_a83b8d426567632f42c03e7693619590e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#ad1dde03ebd3f8c3ea5c6cf0a1f9da262">ConstCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b8d426567632f42c03e7693619590e">jacobian_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:a83b8d426567632f42c03e7693619590e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get jacobian for a track state.  <br /></td></tr>
 <tr class="memitem:a67932d0a32ae4dd976ce486605f6b1ff" id="r_a67932d0a32ae4dd976ce486605f6b1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a05c6924843d8947630dfb7c73187e64a">ConstParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67932d0a32ae4dd976ce486605f6b1ff">parameters_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:a67932d0a32ae4dd976ce486605f6b1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameters for a track state.  <br /></td></tr>
 <tr class="memitem:a470c057f4d7205cb9b24da26339e3155" id="r_a470c057f4d7205cb9b24da26339e3155"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a470c057f4d7205cb9b24da26339e3155">referenceSurface_impl</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
+<tr class="memdesc:a470c057f4d7205cb9b24da26339e3155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference surface for a track state.  <br /></td></tr>
 <tr class="memitem:a9be0f652e2d7e1cf444286e819211cf8" id="r_a9be0f652e2d7e1cf444286e819211cf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be0f652e2d7e1cf444286e819211cf8">size_impl</a> () const</td></tr>
+<tr class="memdesc:a9be0f652e2d7e1cf444286e819211cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of track states.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_multi_trajectory"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_multi_trajectory')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory&lt; ConstPodioTrackStateContainer &gt;</a></td></tr>
 <tr class="memitem:ab1507f7e3ccfd4598497bd1d187ae4b3 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_ab1507f7e3ccfd4598497bd1d187ae4b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ab1507f7e3ccfd4598497bd1d187ae4b3">clear</a> ()</td></tr>
 <tr class="memdesc:ab1507f7e3ccfd4598497bd1d187ae4b3 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the <code>MultiTrajectory</code>.  <br /></td></tr>
@@ -166,9 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aae15d9d7031cdb2d1f64bed07940a738 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of track states contained.  <br /></td></tr>
 <tr class="memitem:abc713a2c967f1ee42e06ce8b3f0d3dbe inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_abc713a2c967f1ee42e06ce8b3f0d3dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">ConstTrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#abc713a2c967f1ee42e06ce8b3f0d3dbe">getTrackState</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
 <tr class="memdesc:abc713a2c967f1ee42e06ce8b3f0d3dbe inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a read-only point on the trajectory by index.  <br /></td></tr>
-<tr class="memitem:ae9864201c83f722389efccf4283e42a1 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_ae9864201c83f722389efccf4283e42a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ae9864201c83f722389efccf4283e42a1">addTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
+<tr class="memitem:ae9864201c83f722389efccf4283e42a1 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_ae9864201c83f722389efccf4283e42a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ae9864201c83f722389efccf4283e42a1">addTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=TrackStatePropMask::All, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
 <tr class="memdesc:ae9864201c83f722389efccf4283e42a1 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a track state without providing explicit information.  <br /></td></tr>
-<tr class="memitem:a500a86f3f804e0985ef6507d96fcb607 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_a500a86f3f804e0985ef6507d96fcb607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a500a86f3f804e0985ef6507d96fcb607">makeTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680">TrackStatePropMask::All</a>, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
+<tr class="memitem:a500a86f3f804e0985ef6507d96fcb607 inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_a500a86f3f804e0985ef6507d96fcb607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_trajectory.html#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a500a86f3f804e0985ef6507d96fcb607">makeTrackState</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask=TrackStatePropMask::All, <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iprevious=<a class="el" href="class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a>)</td></tr>
 <tr class="memdesc:a500a86f3f804e0985ef6507d96fcb607 inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a track state to the container and return a track state proxy to it This effectively calls <code>addTrackState</code> and <code>getTrackState</code>.  <br /></td></tr>
 <tr class="memitem:a9774b0b8cbb92d20e0ebc06e4192824a inherit pub_methods_class_acts_1_1_multi_trajectory" id="r_a9774b0b8cbb92d20e0ebc06e4192824a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a9774b0b8cbb92d20e0ebc06e4192824a">visitBackwards</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> iendpoint, F &amp;&amp;callable) const</td></tr>
 <tr class="memdesc:a9774b0b8cbb92d20e0ebc06e4192824a inherit pub_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visit all previous states starting at a given endpoint.  <br /></td></tr>
@@ -187,27 +205,37 @@ Public Member Functions</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_class_acts_plugins_1_1_podio_track_state_container_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_plugins_1_1_podio_track_state_container_base')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html">ActsPlugins::PodioTrackStateContainerBase</a></td></tr>
 <tr class="memitem:ad1dde03ebd3f8c3ea5c6cf0a1f9da262 inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base" id="r_ad1dde03ebd3f8c3ea5c6cf0a1f9da262"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#ad1dde03ebd3f8c3ea5c6cf0a1f9da262">ConstCovariance</a></td></tr>
+<tr class="memdesc:ad1dde03ebd3f8c3ea5c6cf0a1f9da262 inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const covariance map type.  <br /></td></tr>
 <tr class="memitem:a05c6924843d8947630dfb7c73187e64a inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a05c6924843d8947630dfb7c73187e64a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a05c6924843d8947630dfb7c73187e64a">ConstParameters</a></td></tr>
+<tr class="memdesc:a05c6924843d8947630dfb7c73187e64a inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const parameters map type.  <br /></td></tr>
 <tr class="memitem:a5207e8eb2ee3d9f7868174de16fb352a inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a5207e8eb2ee3d9f7868174de16fb352a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a5207e8eb2ee3d9f7868174de16fb352a">Covariance</a></td></tr>
+<tr class="memdesc:a5207e8eb2ee3d9f7868174de16fb352a inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable covariance map type.  <br /></td></tr>
 <tr class="memitem:aa938a9a6d724c57250b3996a4bb308a1 inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base" id="r_aa938a9a6d724c57250b3996a4bb308a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#aa938a9a6d724c57250b3996a4bb308a1">Parameters</a></td></tr>
+<tr class="memdesc:aa938a9a6d724c57250b3996a4bb308a1 inherit pub_types_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable parameters map type.  <br /></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_multi_trajectory"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_multi_trajectory')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory&lt; ConstPodioTrackStateContainer &gt;</a></td></tr>
-<tr class="memitem:aa515e9bdd41bd33a4561e4e28a2f6d7d inherit pub_types_class_acts_1_1_multi_trajectory" id="r_aa515e9bdd41bd33a4561e4e28a2f6d7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#aa515e9bdd41bd33a4561e4e28a2f6d7d">ConstTrackStateProxy</a></td></tr>
-<tr class="memdesc:aa515e9bdd41bd33a4561e4e28a2f6d7d inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the const version of a track state proxy, with the same backends as this container.  <br /></td></tr>
-<tr class="memitem:aa8a4caeade42be932d877b47df74a46b inherit pub_types_class_acts_1_1_multi_trajectory" id="r_aa8a4caeade42be932d877b47df74a46b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#aa8a4caeade42be932d877b47df74a46b">Derived</a></td></tr>
-<tr class="memdesc:aa8a4caeade42be932d877b47df74a46b inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for derived multi-trajectory implementation.  <br /></td></tr>
-<tr class="memitem:acc2f7cfa1ead74d814c27442d2a5cca6 inherit pub_types_class_acts_1_1_multi_trajectory" id="r_acc2f7cfa1ead74d814c27442d2a5cca6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a></td></tr>
-<tr class="memdesc:acc2f7cfa1ead74d814c27442d2a5cca6 inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index type of the track state container.  <br /></td></tr>
-<tr class="memitem:a0b475cc7c3a072cfd2c10218b270ac73 inherit pub_types_class_acts_1_1_multi_trajectory" id="r_a0b475cc7c3a072cfd2c10218b270ac73"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a0b475cc7c3a072cfd2c10218b270ac73">TrackStateProxy</a></td></tr>
-<tr class="memdesc:a0b475cc7c3a072cfd2c10218b270ac73 inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the mutable version of a track state proxy, with the same backends as this container.  <br /></td></tr>
+<tr class="memitem:aa515e9bdd41bd33a4561e4e28a2f6d7d inherit pub_types_class_acts_1_1_multi_trajectory" id="r_aa515e9bdd41bd33a4561e4e28a2f6d7d"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstTrackStateProxy</b></td></tr>
+<tr class="memdesc:aa515e9bdd41bd33a4561e4e28a2f6d7d inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the const version of a track state proxy, with the same backends as this container. <br /></td></tr>
+<tr class="memitem:aa8a4caeade42be932d877b47df74a46b inherit pub_types_class_acts_1_1_multi_trajectory" id="r_aa8a4caeade42be932d877b47df74a46b"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Derived</b></td></tr>
+<tr class="memdesc:aa8a4caeade42be932d877b47df74a46b inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for derived multi-trajectory implementation. <br /></td></tr>
+<tr class="memitem:acc2f7cfa1ead74d814c27442d2a5cca6 inherit pub_types_class_acts_1_1_multi_trajectory" id="r_acc2f7cfa1ead74d814c27442d2a5cca6"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b></td></tr>
+<tr class="memdesc:acc2f7cfa1ead74d814c27442d2a5cca6 inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index type of the track state container. <br /></td></tr>
+<tr class="memitem:a0b475cc7c3a072cfd2c10218b270ac73 inherit pub_types_class_acts_1_1_multi_trajectory" id="r_a0b475cc7c3a072cfd2c10218b270ac73"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxy</b></td></tr>
+<tr class="memdesc:a0b475cc7c3a072cfd2c10218b270ac73 inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the mutable version of a track state proxy, with the same backends as this container. <br /></td></tr>
 <tr class="inherit_header pub_static_attribs_class_acts_1_1_multi_trajectory"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_class_acts_1_1_multi_trajectory')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory&lt; ConstPodioTrackStateContainer &gt;</a></td></tr>
-<tr class="memitem:ae1036a6cfdbc58713c185e401a84db33 inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_ae1036a6cfdbc58713c185e401a84db33"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ae1036a6cfdbc58713c185e401a84db33">kInvalid</a></td></tr>
-<tr class="memdesc:ae1036a6cfdbc58713c185e401a84db33 inherit pub_static_attribs_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value that indicates an invalid index.  <br /></td></tr>
-<tr class="memitem:a8dff0884defdebb87e4d53568335b3bc inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_a8dff0884defdebb87e4d53568335b3bc"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a8dff0884defdebb87e4d53568335b3bc">MeasurementSizeMax</a></td></tr>
-<tr class="memdesc:a8dff0884defdebb87e4d53568335b3bc inherit pub_static_attribs_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of measurement dimensions supported by this trajectory.  <br /></td></tr>
-<tr class="memitem:ace27a3f5a1b1b0709ed834528529a9e7 inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_ace27a3f5a1b1b0709ed834528529a9e7"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ace27a3f5a1b1b0709ed834528529a9e7">ReadOnly</a></td></tr>
-<tr class="memdesc:ace27a3f5a1b1b0709ed834528529a9e7 inherit pub_static_attribs_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether this multi-trajectory is read-only.  <br /></td></tr>
+<tr class="memitem:ae1036a6cfdbc58713c185e401a84db33 inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_ae1036a6cfdbc58713c185e401a84db33"><td class="memItemLeft" align="right" valign="top">
+static constexpr <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kInvalid</b></td></tr>
+<tr class="memdesc:ae1036a6cfdbc58713c185e401a84db33 inherit pub_static_attribs_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value that indicates an invalid index. <br /></td></tr>
+<tr class="memitem:a8dff0884defdebb87e4d53568335b3bc inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_a8dff0884defdebb87e4d53568335b3bc"><td class="memItemLeft" align="right" valign="top">
+static constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>MeasurementSizeMax</b></td></tr>
+<tr class="memdesc:a8dff0884defdebb87e4d53568335b3bc inherit pub_static_attribs_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of measurement dimensions supported by this trajectory. <br /></td></tr>
+<tr class="memitem:ace27a3f5a1b1b0709ed834528529a9e7 inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_ace27a3f5a1b1b0709ed834528529a9e7"><td class="memItemLeft" align="right" valign="top">
+static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadOnly</b></td></tr>
+<tr class="memdesc:ace27a3f5a1b1b0709ed834528529a9e7 inherit pub_static_attribs_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether this multi-trajectory is read-only. <br /></td></tr>
 <tr class="inherit_header pro_methods_class_acts_1_1_multi_trajectory"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_acts_1_1_multi_trajectory')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory&lt; ConstPodioTrackStateContainer &gt;</a></td></tr>
-<tr class="memitem:a57f0068d3ab739f020b85225fa8ba562 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_a57f0068d3ab739f020b85225fa8ba562"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a57f0068d3ab739f020b85225fa8ba562">MultiTrajectory</a> ()=default</td></tr>
 <tr class="memitem:a17531c73a186a75d283ae33c2475afe3 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_a17531c73a186a75d283ae33c2475afe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a17531c73a186a75d283ae33c2475afe3">addTrackStateComponents</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate, <a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask)</td></tr>
 <tr class="memdesc:a17531c73a186a75d283ae33c2475afe3 inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add additional components to an existing track state.  <br /></td></tr>
 <tr class="memitem:af435fa6e1819de8248d87a822e0fb758 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_af435fa6e1819de8248d87a822e0fb758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#af435fa6e1819de8248d87a822e0fb758">allocateCalibrated</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate, std::size_t measdim)</td></tr>
@@ -221,6 +249,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aac4bfd27ae7ca5c58c49c0ef65d7f4be inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_aac4bfd27ae7ca5c58c49c0ef65d7f4be"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#aac4bfd27ae7ca5c58c49c0ef65d7f4be">component</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate)</td></tr>
 <tr class="memdesc:aac4bfd27ae7ca5c58c49c0ef65d7f4be inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a mutable reference to a component.  <br /></td></tr>
 <tr class="memitem:ad227167906f8b8250e599eb5c7813849 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_ad227167906f8b8250e599eb5c7813849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a0fb668c32599042bdb52cfa0db146ddb">TrackStateProxy::Covariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ad227167906f8b8250e599eb5c7813849">covariance</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> covIdx)</td></tr>
+<tr class="memdesc:ad227167906f8b8250e599eb5c7813849 inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get covariance for a track state.  <br /></td></tr>
 <tr class="memitem:a08aaad4bba4d2f8739cb4e984f95e8f8 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_a08aaad4bba4d2f8739cb4e984f95e8f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#abb5a22a568840d5db0b57015c3cdf96a">TrackStateProxy::EffectiveCalibrated</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a08aaad4bba4d2f8739cb4e984f95e8f8">effectiveCalibrated</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate)</td></tr>
 <tr class="memdesc:a08aaad4bba4d2f8739cb4e984f95e8f8 inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a calibrated measurement covariance proxy instance for a measurement at a given index.  <br /></td></tr>
 <tr class="memitem:a259963a25cd22d22cc93526172cc07e9 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_a259963a25cd22d22cc93526172cc07e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#a70ad68bbb136d1a602fbec002d79aa65">TrackStateProxy::EffectiveCalibratedCovariance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a259963a25cd22d22cc93526172cc07e9">effectiveCalibratedCovariance</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate)</td></tr>
@@ -232,6 +261,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac9eca74818528b546517781ffb4d13ba inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_ac9eca74818528b546517781ffb4d13ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#aaff8087426b7d32fdb08af4c0fd38381">TrackStateProxy::Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#ac9eca74818528b546517781ffb4d13ba">jacobian</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate)</td></tr>
 <tr class="memdesc:ac9eca74818528b546517781ffb4d13ba inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a jacobian proxy instance for a jacobian at a given index.  <br /></td></tr>
 <tr class="memitem:adb4c3f01a00ecc7503cb56debc57abbc inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_adb4c3f01a00ecc7503cb56debc57abbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy.html#ac11c999ddcc05da568b3a67de7f9dfe3">TrackStateProxy::Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#adb4c3f01a00ecc7503cb56debc57abbc">parameters</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> parIdx)</td></tr>
+<tr class="memdesc:adb4c3f01a00ecc7503cb56debc57abbc inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameters for a track state.  <br /></td></tr>
 <tr class="memitem:a3532d5e68a9aa3b10ee8c9dfe7d54af8 inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_a3532d5e68a9aa3b10ee8c9dfe7d54af8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#a3532d5e68a9aa3b10ee8c9dfe7d54af8">referenceSurface</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate) const</td></tr>
 <tr class="memdesc:a3532d5e68a9aa3b10ee8c9dfe7d54af8 inherit pro_methods_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reference surface for a track state.  <br /></td></tr>
 <tr class="memitem:adec346393427a38cde215547b9a4697b inherit pro_methods_class_acts_1_1_multi_trajectory" id="r_adec346393427a38cde215547b9a4697b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_multi_trajectory.html#adec346393427a38cde215547b9a4697b">setReferenceSurface</a> (<a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a> istate, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; surface)</td></tr>
@@ -245,13 +275,19 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Member Functions inherited from <a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html">ActsPlugins::PodioTrackStateContainerBase</a></td></tr>
 <tr class="memitem:acffaaea33f4705ef88b2b63f24733416 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_acffaaea33f4705ef88b2b63f24733416"><td class="memTemplParams" colspan="2">template&lt;bool EnsureConst, typename T&gt; </td></tr>
 <tr class="memitem:acffaaea33f4705ef88b2b63f24733416 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#acffaaea33f4705ef88b2b63f24733416">component_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
+<tr class="memdesc:acffaaea33f4705ef88b2b63f24733416 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a component from a track state.  <br /></td></tr>
 <tr class="memitem:aeb9104b031a9818de13e65ce6db42d43 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_aeb9104b031a9818de13e65ce6db42d43"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:aeb9104b031a9818de13e65ce6db42d43 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#aeb9104b031a9818de13e65ce6db42d43">has_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
+<tr class="memdesc:aeb9104b031a9818de13e65ce6db42d43 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a component exists for a track state.  <br /></td></tr>
 <tr class="memitem:a74f1104b097aa6a7bbbddaf63f661d45 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a74f1104b097aa6a7bbbddaf63f661d45"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a74f1104b097aa6a7bbbddaf63f661d45 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a74f1104b097aa6a7bbbddaf63f661d45">hasColumn_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key)</td></tr>
+<tr class="memdesc:a74f1104b097aa6a7bbbddaf63f661d45 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a column exists.  <br /></td></tr>
 <tr class="memitem:accaf2c83ecd7eddcb05aa5f2f7ced6ff inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_accaf2c83ecd7eddcb05aa5f2f7ced6ff"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#accaf2c83ecd7eddcb05aa5f2f7ced6ff">populateSurfaceBuffer</a> (const <a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, const ActsPodioEdm::TrackStateCollection &amp;collection, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; &gt; &amp;surfaces) noexcept</td></tr>
+<tr class="memdesc:accaf2c83ecd7eddcb05aa5f2f7ced6ff inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate surface buffer from track state collection.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Read-only track state container backend using podio for storage. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afca15d79b7bd82840abc1b8d764e931c" name="afca15d79b7bd82840abc1b8d764e931c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afca15d79b7bd82840abc1b8d764e931c">&#9670;&#160;</a></span>ConstPodioTrackStateContainer() <span class="overload">[1/2]</span></h2>
 
@@ -281,6 +317,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor from collections. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">helper</td><td>Conversion helper </td></tr>
+    <tr><td class="paramname">trackStates</td><td>Track state collection </td></tr>
+    <tr><td class="paramname">params</td><td>Parameters collection </td></tr>
+    <tr><td class="paramname">jacs</td><td>Jacobian collection </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aaaa204299bc719e0ff9e9932ece244d3" name="aaaa204299bc719e0ff9e9932ece244d3"></a>
@@ -307,6 +354,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor from frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">helper</td><td>Conversion helper </td></tr>
+    <tr><td class="paramname">frame</td><td>Frame containing track state data </td></tr>
+    <tr><td class="paramname">suffix</td><td>Optional collection name suffix </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -327,6 +384,15 @@ template&lt;std::size_t measdim&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get calibrated measurement. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Calibrated measurement </dd></dl>
+
 </div>
 </div>
 <a id="afa16276daa31649e10c084608f5d26f2" name="afa16276daa31649e10c084608f5d26f2"></a>
@@ -346,6 +412,15 @@ template&lt;std::size_t measdim&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get calibrated measurement covariance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Calibrated measurement covariance </dd></dl>
+
 </div>
 </div>
 <a id="a089af95e62a7db9053da0add34f3ba79" name="a089af95e62a7db9053da0add34f3ba79"></a>
@@ -362,6 +437,15 @@ template&lt;std::size_t measdim&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get calibrated measurement size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Measurement size </dd></dl>
 
 </div>
 </div>
@@ -384,6 +468,16 @@ template&lt;std::size_t measdim&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get a component from a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Component key </td></tr>
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Component value </dd></dl>
+
 </div>
 </div>
 <a id="a27e12ea0eb0eb84bd57f771fc30d1dab" name="a27e12ea0eb0eb84bd57f771fc30d1dab"></a>
@@ -400,6 +494,15 @@ template&lt;std::size_t measdim&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get covariance for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Track covariance matrix </dd></dl>
 
 </div>
 </div>
@@ -418,6 +521,9 @@ template&lt;std::size_t measdim&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get dynamic column keys. </p>
+<dl class="section return"><dt>Returns</dt><dd>Range of dynamic column keys </dd></dl>
+
 </div>
 </div>
 <a id="ac013ac01bae6ee707252b40beeb30207" name="ac013ac01bae6ee707252b40beeb30207"></a>
@@ -434,6 +540,15 @@ template&lt;std::size_t measdim&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get uncalibrated source link for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Uncalibrated source link </dd></dl>
 
 </div>
 </div>
@@ -464,6 +579,16 @@ template&lt;std::size_t measdim&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Check if a component exists for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Component key </td></tr>
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if component exists </dd></dl>
+
 </div>
 </div>
 <a id="a0be265fbfee5471e0a4f79954b05e64d" name="a0be265fbfee5471e0a4f79954b05e64d"></a>
@@ -489,6 +614,15 @@ template&lt;std::size_t measdim&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Check if a column exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Column key </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if column exists </dd></dl>
+
 </div>
 </div>
 <a id="a83b8d426567632f42c03e7693619590e" name="a83b8d426567632f42c03e7693619590e"></a>
@@ -505,6 +639,15 @@ template&lt;std::size_t measdim&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get jacobian for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Jacobian matrix </dd></dl>
 
 </div>
 </div>
@@ -523,6 +666,15 @@ template&lt;std::size_t measdim&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get parameters for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Track parameters </dd></dl>
+
 </div>
 </div>
 <a id="a470c057f4d7205cb9b24da26339e3155" name="a470c057f4d7205cb9b24da26339e3155"></a>
@@ -540,6 +692,15 @@ template&lt;std::size_t measdim&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get reference surface for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference surface pointer </dd></dl>
+
 </div>
 </div>
 <a id="a9be0f652e2d7e1cf444286e819211cf8" name="a9be0f652e2d7e1cf444286e819211cf8"></a>
@@ -556,6 +717,9 @@ template&lt;std::size_t measdim&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get number of track states. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of track states </dd></dl>
 
 </div>
 </div>

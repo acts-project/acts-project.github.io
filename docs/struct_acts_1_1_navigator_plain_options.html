@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_navigator_plain_options.html','','stru
 </div><!--header-->
 <div class="contents">
 
+<p>Plain navigator options carrying geometry context and surfaces.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_navigator_options_8hpp_source.html">Acts/Propagator/NavigatorOptions.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::NavigatorPlainOptions:</div>
@@ -145,12 +148,19 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:abc3b1cbb693a31f9c66d18706fa3a4a0" id="r_abc3b1cbb693a31f9c66d18706fa3a4a0"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc3b1cbb693a31f9c66d18706fa3a4a0">geoContext</a></td></tr>
-<tr class="memdesc:abc3b1cbb693a31f9c66d18706fa3a4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry.  <br /></td></tr>
-<tr class="memitem:a98e6559987f783bef55691fc441dab05" id="r_a98e6559987f783bef55691fc441dab05"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98e6559987f783bef55691fc441dab05">startSurface</a> {}</td></tr>
-<tr class="memitem:acd9c071fde31ef68e855da1880c4526d" id="r_acd9c071fde31ef68e855da1880c4526d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd9c071fde31ef68e855da1880c4526d">targetSurface</a> {}</td></tr>
+<tr class="memitem:abc3b1cbb693a31f9c66d18706fa3a4a0" id="r_abc3b1cbb693a31f9c66d18706fa3a4a0"><td class="memItemLeft" align="right" valign="top"><a id="abc3b1cbb693a31f9c66d18706fa3a4a0" name="abc3b1cbb693a31f9c66d18706fa3a4a0"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
+<tr class="memdesc:abc3b1cbb693a31f9c66d18706fa3a4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry. <br /></td></tr>
+<tr class="memitem:a98e6559987f783bef55691fc441dab05" id="r_a98e6559987f783bef55691fc441dab05"><td class="memItemLeft" align="right" valign="top"><a id="a98e6559987f783bef55691fc441dab05" name="a98e6559987f783bef55691fc441dab05"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>startSurface</b> {}</td></tr>
+<tr class="memdesc:a98e6559987f783bef55691fc441dab05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start surface for navigation. <br /></td></tr>
+<tr class="memitem:acd9c071fde31ef68e855da1880c4526d" id="r_acd9c071fde31ef68e855da1880c4526d"><td class="memItemLeft" align="right" valign="top"><a id="acd9c071fde31ef68e855da1880c4526d" name="acd9c071fde31ef68e855da1880c4526d"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>targetSurface</b> {}</td></tr>
+<tr class="memdesc:acd9c071fde31ef68e855da1880c4526d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target surface for navigation. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Plain navigator options carrying geometry context and surfaces. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae39cf9c4751da457815d5be80fba23b9" name="ae39cf9c4751da457815d5be80fba23b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae39cf9c4751da457815d5be80fba23b9">&#9670;&#160;</a></span>NavigatorPlainOptions()</h2>
 
@@ -175,51 +185,12 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>NavigatorPlainOptions with context. </p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="abc3b1cbb693a31f9c66d18706fa3a4a0" name="abc3b1cbb693a31f9c66d18706fa3a4a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc3b1cbb693a31f9c66d18706fa3a4a0">&#9670;&#160;</a></span>geoContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&gt; Acts::NavigatorPlainOptions::geoContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Context object for the geometry. </p>
-
-</div>
-</div>
-<a id="a98e6559987f783bef55691fc441dab05" name="a98e6559987f783bef55691fc441dab05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98e6559987f783bef55691fc441dab05">&#9670;&#160;</a></span>startSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* Acts::NavigatorPlainOptions::startSurface {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd9c071fde31ef68e855da1880c4526d" name="acd9c071fde31ef68e855da1880c4526d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd9c071fde31ef68e855da1880c4526d">&#9670;&#160;</a></span>targetSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* Acts::NavigatorPlainOptions::targetSurface {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

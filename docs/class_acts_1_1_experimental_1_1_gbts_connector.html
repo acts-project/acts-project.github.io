@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_connector.html','
 </div><!--header-->
 <div class="contents">
 
+<p>Loader and container for GBTs layer connection data.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_connector_8hpp_source.html">Acts/TrackFinding/GbtsConnector.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsConnector:</div>
@@ -136,19 +139,28 @@ Collaboration diagram for Acts::Experimental::GbtsConnector:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:LayerGroup" id="r_LayerGroup"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html">LayerGroup</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group of connections targeting a destination layer.  <a href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afaa93778fad7418b4bab0c40cfe14f26" id="r_afaa93778fad7418b4bab0c40cfe14f26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaa93778fad7418b4bab0c40cfe14f26">GbtsConnector</a> (std::string &amp;inFile, bool LRTmode)</td></tr>
-<tr class="memitem:a4d6cd01381502ea136c00fef5187f107" id="r_a4d6cd01381502ea136c00fef5187f107"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d6cd01381502ea136c00fef5187f107">~GbtsConnector</a> ()</td></tr>
+<tr class="memdesc:afaa93778fad7418b4bab0c40cfe14f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5470169a2c125240693e698e485e5256" id="r_a5470169a2c125240693e698e485e5256"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5470169a2c125240693e698e485e5256">m_connMap</a></td></tr>
-<tr class="memitem:a1c123bbff89040eeeb2447759a643048" id="r_a1c123bbff89040eeeb2447759a643048"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c123bbff89040eeeb2447759a643048">m_etaBin</a> {}</td></tr>
-<tr class="memitem:ac438df450f27ca49e8448c612e9140b5" id="r_ac438df450f27ca49e8448c612e9140b5"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; struct <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html">LayerGroup</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac438df450f27ca49e8448c612e9140b5">m_layerGroups</a></td></tr>
+<tr class="memitem:a5470169a2c125240693e698e485e5256" id="r_a5470169a2c125240693e698e485e5256"><td class="memItemLeft" align="right" valign="top"><a id="a5470169a2c125240693e698e485e5256" name="a5470169a2c125240693e698e485e5256"></a>
+std::map&lt; int, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_connMap</b></td></tr>
+<tr class="memdesc:a5470169a2c125240693e698e485e5256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of connections indexed by layer. <br /></td></tr>
+<tr class="memitem:a1c123bbff89040eeeb2447759a643048" id="r_a1c123bbff89040eeeb2447759a643048"><td class="memItemLeft" align="right" valign="top"><a id="a1c123bbff89040eeeb2447759a643048" name="a1c123bbff89040eeeb2447759a643048"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_etaBin</b> {}</td></tr>
+<tr class="memdesc:a1c123bbff89040eeeb2447759a643048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin size. <br /></td></tr>
+<tr class="memitem:ac438df450f27ca49e8448c612e9140b5" id="r_ac438df450f27ca49e8448c612e9140b5"><td class="memItemLeft" align="right" valign="top"><a id="ac438df450f27ca49e8448c612e9140b5" name="ac438df450f27ca49e8448c612e9140b5"></a>
+std::map&lt; int, std::vector&lt; struct <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html">LayerGroup</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_layerGroups</b></td></tr>
+<tr class="memdesc:ac438df450f27ca49e8448c612e9140b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of layer groups indexed by layer. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Loader and container for GBTs layer connection data. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afaa93778fad7418b4bab0c40cfe14f26" name="afaa93778fad7418b4bab0c40cfe14f26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaa93778fad7418b4bab0c40cfe14f26">&#9670;&#160;</a></span>GbtsConnector()</h2>
 
@@ -168,65 +180,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a4d6cd01381502ea136c00fef5187f107" name="a4d6cd01381502ea136c00fef5187f107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d6cd01381502ea136c00fef5187f107">&#9670;&#160;</a></span>~GbtsConnector()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::GbtsConnector::~GbtsConnector </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a5470169a2c125240693e698e485e5256" name="a5470169a2c125240693e698e485e5256"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5470169a2c125240693e698e485e5256">&#9670;&#160;</a></span>m_connMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;int, std::vector&lt;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a>*&gt; &gt; Acts::Experimental::GbtsConnector::m_connMap</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1c123bbff89040eeeb2447759a643048" name="a1c123bbff89040eeeb2447759a643048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c123bbff89040eeeb2447759a643048">&#9670;&#160;</a></span>m_etaBin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsConnector::m_etaBin {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac438df450f27ca49e8448c612e9140b5" name="ac438df450f27ca49e8448c612e9140b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac438df450f27ca49e8448c612e9140b5">&#9670;&#160;</a></span>m_layerGroups</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;int, std::vector&lt;struct <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html">LayerGroup</a>&gt; &gt; Acts::Experimental::GbtsConnector::m_layerGroups</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inFile</td><td>Input configuration file path </td></tr>
+    <tr><td class="paramname">LRTmode</td><td>Enable LRT (Large Radius Tracking) mode </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

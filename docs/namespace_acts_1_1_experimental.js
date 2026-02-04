@@ -1,15 +1,5 @@
 var namespace_acts_1_1_experimental =
 [
-    [ "CombinatorialSeedSolver", "namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html", [
-      [ "betaMatrix", "namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#a422b433c452837b430bcaea5e50633b9", null ],
-      [ "defineParameters", "namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#ad639e4adadb297d6a74210d7ce5923a5", null ],
-      [ "seedSolution", "namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#adae619e025a37a464f4fd6b0d6e990a4", null ]
-    ] ],
-    [ "Gx2fConstants", "namespace_acts_1_1_experimental_1_1_gx2f_constants.html", [
-      [ "gx2fnUpdateColumn", "namespace_acts_1_1_experimental_1_1_gx2f_constants.html#a4b88ea9fd05e4a4bd34258f82806dfec", null ],
-      [ "phiThetaProjector", "namespace_acts_1_1_experimental_1_1_gx2f_constants.html#a832e7b14d2e82d7e465b18e749642709", null ],
-      [ "trackStateMask", "namespace_acts_1_1_experimental_1_1_gx2f_constants.html#a1f1f51c5c599e990bacfbe0bdfb0a908", null ]
-    ] ],
     [ "Blueprint", "class_acts_1_1_experimental_1_1_blueprint.html", "class_acts_1_1_experimental_1_1_blueprint" ],
     [ "BlueprintNode", "class_acts_1_1_experimental_1_1_blueprint_node.html", "class_acts_1_1_experimental_1_1_blueprint_node" ],
     [ "BlueprintOptions", "struct_acts_1_1_experimental_1_1_blueprint_options.html", "struct_acts_1_1_experimental_1_1_blueprint_options" ],

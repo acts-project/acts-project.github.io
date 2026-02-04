@@ -140,15 +140,15 @@ Collaboration diagram for Acts::BoundarySurfaceT&lt; volume_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa37849ad95d69a68efc5c524263aabe5" id="r_aa37849ad95d69a68efc5c524263aabe5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37849ad95d69a68efc5c524263aabe5">BoundarySurfaceT</a> ()=default</td></tr>
-<tr class="memdesc:aa37849ad95d69a68efc5c524263aabe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
+<tr class="memitem:aa37849ad95d69a68efc5c524263aabe5" id="r_aa37849ad95d69a68efc5c524263aabe5"><td class="memItemLeft" align="right" valign="top"><a id="aa37849ad95d69a68efc5c524263aabe5" name="aa37849ad95d69a68efc5c524263aabe5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BoundarySurfaceT</b> ()=default</td></tr>
+<tr class="memdesc:aa37849ad95d69a68efc5c524263aabe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:ad9123d09f047a18eca166b564c9997e4" id="r_ad9123d09f047a18eca166b564c9997e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9123d09f047a18eca166b564c9997e4">BoundarySurfaceT</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; surface, const volume_t *inside, const volume_t *outside)</td></tr>
 <tr class="memdesc:ad9123d09f047a18eca166b564c9997e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a Boundary with exact two Volumes attached to it.  <br /></td></tr>
 <tr class="memitem:acf6bb704fb9973daab8861640f20e4ca" id="r_acf6bb704fb9973daab8861640f20e4ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6bb704fb9973daab8861640f20e4ca">BoundarySurfaceT</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; surface, std::shared_ptr&lt; const VolumeArray &gt; insideArray, std::shared_ptr&lt; const VolumeArray &gt; outsideArray)</td></tr>
 <tr class="memdesc:acf6bb704fb9973daab8861640f20e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a Boundary with exact multiple Volumes attached to it.  <br /></td></tr>
 <tr class="memitem:a6058354fe3bd8e1ea05148759cd6113c" id="r_a6058354fe3bd8e1ea05148759cd6113c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6058354fe3bd8e1ea05148759cd6113c">BoundarySurfaceT</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; surface, VolumePtr inside, VolumePtr outside)</td></tr>
 <tr class="memdesc:a6058354fe3bd8e1ea05148759cd6113c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a Boundary with exact two Volumes attached to it.  <br /></td></tr>
-<tr class="memitem:ad5ee733321beedaf4a7811fbfa03382e" id="r_ad5ee733321beedaf4a7811fbfa03382e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5ee733321beedaf4a7811fbfa03382e">~BoundarySurfaceT</a> ()=default</td></tr>
 <tr class="memitem:af88998dcde3c0cfd0a2bbc69c934bea9" id="r_af88998dcde3c0cfd0a2bbc69c934bea9"><td class="memItemLeft" align="right" valign="top">virtual const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af88998dcde3c0cfd0a2bbc69c934bea9">attachedVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir) const</td></tr>
 <tr class="memdesc:af88998dcde3c0cfd0a2bbc69c934bea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next Volume depending on GlobalPosition, GlobalMomentum, dir on the TrackParameters and the requested direction.  <br /></td></tr>
 <tr class="memitem:a7526b5d03d4138ff4c9bb7c1bbf2432c" id="r_a7526b5d03d4138ff4c9bb7c1bbf2432c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7526b5d03d4138ff4c9bb7c1bbf2432c">attachVolume</a> (const volume_t *volume, <a class="el" href="class_acts_1_1_direction.html">Direction</a> dir)</td></tr>
@@ -165,16 +165,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a34291ec155d6beb63606bbaeb1325f95" id="r_a34291ec155d6beb63606bbaeb1325f95"><td class="memItemLeft" align="right" valign="top">const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34291ec155d6beb63606bbaeb1325f95">m_alongVolume</a> {}</td></tr>
-<tr class="memdesc:a34291ec155d6beb63606bbaeb1325f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">the outside (w.r.t. normal vector) volume to point to if only one exists  <br /></td></tr>
-<tr class="memitem:a9bcae800a158a628edb7df3ddde85ac9" id="r_a9bcae800a158a628edb7df3ddde85ac9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const VolumeArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bcae800a158a628edb7df3ddde85ac9">m_alongVolumeArray</a> {}</td></tr>
-<tr class="memdesc:a9bcae800a158a628edb7df3ddde85ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the outside (w.r.t. normal vector) volume array to point to  <br /></td></tr>
-<tr class="memitem:a7bcac519d931fc1f0b8b4c5c8716fc73" id="r_a7bcac519d931fc1f0b8b4c5c8716fc73"><td class="memItemLeft" align="right" valign="top">const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bcac519d931fc1f0b8b4c5c8716fc73">m_oppositeVolume</a> {}</td></tr>
-<tr class="memdesc:a7bcac519d931fc1f0b8b4c5c8716fc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">the inside (w.r.t. normal vector) volume to point to if only one exists  <br /></td></tr>
-<tr class="memitem:ac7a2fe12ef345c25578fa3e95adbcdcf" id="r_ac7a2fe12ef345c25578fa3e95adbcdcf"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const VolumeArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a2fe12ef345c25578fa3e95adbcdcf">m_oppositeVolumeArray</a> {}</td></tr>
-<tr class="memdesc:ac7a2fe12ef345c25578fa3e95adbcdcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the inside (w.r.t. normal vector) volume array to point to  <br /></td></tr>
-<tr class="memitem:a6cf3b1154fd39eb3d29fd3a3ac4751c1" id="r_a6cf3b1154fd39eb3d29fd3a3ac4751c1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf3b1154fd39eb3d29fd3a3ac4751c1">m_surface</a> {}</td></tr>
-<tr class="memdesc:a6cf3b1154fd39eb3d29fd3a3ac4751c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the represented surface by this  <br /></td></tr>
+<tr class="memitem:a34291ec155d6beb63606bbaeb1325f95" id="r_a34291ec155d6beb63606bbaeb1325f95"><td class="memItemLeft" align="right" valign="top"><a id="a34291ec155d6beb63606bbaeb1325f95" name="a34291ec155d6beb63606bbaeb1325f95"></a>
+const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><b>m_alongVolume</b> {}</td></tr>
+<tr class="memdesc:a34291ec155d6beb63606bbaeb1325f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">the outside (w.r.t. normal vector) volume to point to if only one exists <br /></td></tr>
+<tr class="memitem:a9bcae800a158a628edb7df3ddde85ac9" id="r_a9bcae800a158a628edb7df3ddde85ac9"><td class="memItemLeft" align="right" valign="top"><a id="a9bcae800a158a628edb7df3ddde85ac9" name="a9bcae800a158a628edb7df3ddde85ac9"></a>
+std::shared_ptr&lt; const VolumeArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_alongVolumeArray</b> {}</td></tr>
+<tr class="memdesc:a9bcae800a158a628edb7df3ddde85ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the outside (w.r.t. normal vector) volume array to point to <br /></td></tr>
+<tr class="memitem:a7bcac519d931fc1f0b8b4c5c8716fc73" id="r_a7bcac519d931fc1f0b8b4c5c8716fc73"><td class="memItemLeft" align="right" valign="top"><a id="a7bcac519d931fc1f0b8b4c5c8716fc73" name="a7bcac519d931fc1f0b8b4c5c8716fc73"></a>
+const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><b>m_oppositeVolume</b> {}</td></tr>
+<tr class="memdesc:a7bcac519d931fc1f0b8b4c5c8716fc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">the inside (w.r.t. normal vector) volume to point to if only one exists <br /></td></tr>
+<tr class="memitem:ac7a2fe12ef345c25578fa3e95adbcdcf" id="r_ac7a2fe12ef345c25578fa3e95adbcdcf"><td class="memItemLeft" align="right" valign="top"><a id="ac7a2fe12ef345c25578fa3e95adbcdcf" name="ac7a2fe12ef345c25578fa3e95adbcdcf"></a>
+std::shared_ptr&lt; const VolumeArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_oppositeVolumeArray</b> {}</td></tr>
+<tr class="memdesc:ac7a2fe12ef345c25578fa3e95adbcdcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the inside (w.r.t. normal vector) volume array to point to <br /></td></tr>
+<tr class="memitem:a6cf3b1154fd39eb3d29fd3a3ac4751c1" id="r_a6cf3b1154fd39eb3d29fd3a3ac4751c1"><td class="memItemLeft" align="right" valign="top"><a id="a6cf3b1154fd39eb3d29fd3a3ac4751c1" name="a6cf3b1154fd39eb3d29fd3a3ac4751c1"></a>
+std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_surface</b> {}</td></tr>
+<tr class="memdesc:a6cf3b1154fd39eb3d29fd3a3ac4751c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the represented surface by this <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class volume_t&gt;<br />
@@ -188,37 +193,8 @@ class Acts::BoundarySurfaceT&lt; volume_t &gt;</div><dl class="tparams"><dt>Temp
 <dl class="section note"><dt>Note</dt><dd>along/oppose definitions are given with respect to the normal vector of the boundary surface.</dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo</a></b></dt><dd>change to one schema with BinnedArray0D </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa37849ad95d69a68efc5c524263aabe5" name="aa37849ad95d69a68efc5c524263aabe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa37849ad95d69a68efc5c524263aabe5">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::BoundarySurfaceT </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. </p>
-
-</div>
-</div>
 <a id="ad9123d09f047a18eca166b564c9997e4" name="ad9123d09f047a18eca166b564c9997e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9123d09f047a18eca166b564c9997e4">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9123d09f047a18eca166b564c9997e4">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +235,7 @@ template&lt;class volume_t&gt; </div>
 </div>
 </div>
 <a id="a6058354fe3bd8e1ea05148759cd6113c" name="a6058354fe3bd8e1ea05148759cd6113c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6058354fe3bd8e1ea05148759cd6113c">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6058354fe3bd8e1ea05148759cd6113c">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,7 +276,7 @@ template&lt;class volume_t&gt; </div>
 </div>
 </div>
 <a id="acf6bb704fb9973daab8861640f20e4ca" name="acf6bb704fb9973daab8861640f20e4ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf6bb704fb9973daab8861640f20e4ca">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6bb704fb9973daab8861640f20e4ca">&#9670;&#160;</a></span>BoundarySurfaceT() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,33 +313,6 @@ template&lt;class volume_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ad5ee733321beedaf4a7811fbfa03382e" name="ad5ee733321beedaf4a7811fbfa03382e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5ee733321beedaf4a7811fbfa03382e">&#9670;&#160;</a></span>~BoundarySurfaceT()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::~<a class="el" href="#aa37849ad95d69a68efc5c524263aabe5">BoundarySurfaceT</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -569,137 +518,6 @@ template&lt;class volume_t&gt; </div>
 
 <p>The Surface Representation of this. </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the surface representation of this boundary </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a34291ec155d6beb63606bbaeb1325f95" name="a34291ec155d6beb63606bbaeb1325f95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34291ec155d6beb63606bbaeb1325f95">&#9670;&#160;</a></span>m_alongVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const volume_t* <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::m_alongVolume {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the outside (w.r.t. normal vector) volume to point to if only one exists </p>
-
-</div>
-</div>
-<a id="a9bcae800a158a628edb7df3ddde85ac9" name="a9bcae800a158a628edb7df3ddde85ac9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bcae800a158a628edb7df3ddde85ac9">&#9670;&#160;</a></span>m_alongVolumeArray</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const VolumeArray&gt; <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::m_alongVolumeArray {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the outside (w.r.t. normal vector) volume array to point to </p>
-
-</div>
-</div>
-<a id="a7bcac519d931fc1f0b8b4c5c8716fc73" name="a7bcac519d931fc1f0b8b4c5c8716fc73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bcac519d931fc1f0b8b4c5c8716fc73">&#9670;&#160;</a></span>m_oppositeVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const volume_t* <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::m_oppositeVolume {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the inside (w.r.t. normal vector) volume to point to if only one exists </p>
-
-</div>
-</div>
-<a id="ac7a2fe12ef345c25578fa3e95adbcdcf" name="ac7a2fe12ef345c25578fa3e95adbcdcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a2fe12ef345c25578fa3e95adbcdcf">&#9670;&#160;</a></span>m_oppositeVolumeArray</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const VolumeArray&gt; <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::m_oppositeVolumeArray {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the inside (w.r.t. normal vector) volume array to point to </p>
-
-</div>
-</div>
-<a id="a6cf3b1154fd39eb3d29fd3a3ac4751c1" name="a6cf3b1154fd39eb3d29fd3a3ac4751c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cf3b1154fd39eb3d29fd3a3ac4751c1">&#9670;&#160;</a></span>m_surface</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class volume_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a>&gt; <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::m_surface {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the represented surface by this </p>
 
 </div>
 </div>

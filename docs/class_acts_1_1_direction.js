@@ -12,6 +12,5 @@ var class_acts_1_1_direction =
     [ "OppositeNormal", "class_acts_1_1_direction.html#a867192d8e53106c5fcc5de422088db3c", null ],
     [ "Positive", "class_acts_1_1_direction.html#a4e4eb24a20d7ff1f44453c794c0d8830", null ],
     [ "sign", "class_acts_1_1_direction.html#a9ab636ec6ae901a6fdfc0c5b3faa173f", null ],
-    [ "toString", "class_acts_1_1_direction.html#addfb1472d67547078f0c3cc6ed0fa002", null ],
-    [ "operator==", "class_acts_1_1_direction.html#ae892ff03b8875a6f8bb13ec045e29447", null ]
+    [ "toString", "class_acts_1_1_direction.html#addfb1472d67547078f0c3cc6ed0fa002", null ]
 ];

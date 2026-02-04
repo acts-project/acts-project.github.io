@@ -3,7 +3,6 @@ var class_acts_1_1_experimental_1_1_roi_descriptor =
     [ "roi_iterator", "class_acts_1_1_experimental_1_1_roi_descriptor.html#ac373ef71553359b594df249c6d30cca2", null ],
     [ "RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a364ab735be021c955367a6b3347ea1b6", null ],
     [ "RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a2fa4dbebeba7b9c811be946a2e5fd9d2", null ],
-    [ "~RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html#abadfb203ab7536f7557f3eba8ba78c51", null ],
     [ "at", "class_acts_1_1_experimental_1_1_roi_descriptor.html#ab776fd1009fe5da0810c7f439e910bc5", null ],
     [ "begin", "class_acts_1_1_experimental_1_1_roi_descriptor.html#adc0e6cf12526de213b47432d3fa91eb5", null ],
     [ "clear", "class_acts_1_1_experimental_1_1_roi_descriptor.html#acc544485bf9a3b060f6a40e07abd4fe4", null ],

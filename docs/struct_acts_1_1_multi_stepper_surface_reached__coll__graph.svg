@@ -58,7 +58,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Aborter that stops when all components reach the target surface.">
 <polygon fill="#999999" stroke="#666666" points="1355,-102 1212,-102 1212,-72 1355,-72 1355,-102"/>
 <text text-anchor="start" x="1220" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MultiStepperSurface</text>
 <text text-anchor="middle" x="1283.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">Reached</text>
@@ -161,7 +161,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="430.5,-138 302.5,-138 302.5,-108 430.5,-108 430.5,-138"/>
+<polygon fill="white" stroke="#bfbfbf" points="430.5,-138 302.5,-138 302.5,-108 430.5,-108 430.5,-138"/>
 <text text-anchor="start" x="310.5" y="-126" font-family="Helvetica,sans-Serif" font-size="10.00">std::enable_shared</text>
 <text text-anchor="middle" x="366.5" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">_from_this&lt; Surface &gt;</text>
 </a>

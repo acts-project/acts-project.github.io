@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Track building implementation using Boost.">
 <polygon fill="#999999" stroke="#666666" points="172,-19 0,-19 0,0 172,0 172,-19"/>
 <text text-anchor="middle" x="86" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::BoostTrackBuilding</text>
 </a>
@@ -31,7 +31,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_track_building_base.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_track_building_base.html" target="_top" xlink:title="Base class for track building implementations.">
 <polygon fill="white" stroke="#666666" points="170,-74 2,-74 2,-55 170,-55 170,-74"/>
 <text text-anchor="middle" x="86" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TrackBuildingBase</text>
 </a>

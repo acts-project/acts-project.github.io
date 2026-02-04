@@ -31,7 +31,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_1_1_bethe_heitler_approx.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_1_1_bethe_heitler_approx.html" target="_top" xlink:title="Interface for Bethe&#45;Heitler Gaussian mixture approximations.">
 <polygon fill="white" stroke="#666666" points="152,-74 12,-74 12,-55 152,-55 152,-74"/>
 <text text-anchor="middle" x="82" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::BetheHeitlerApprox</text>
 </a>

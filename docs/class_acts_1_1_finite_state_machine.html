@@ -143,8 +143,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa3ebbac03c60cd4a5c7eb461eb71f518" id="r_aa3ebbac03c60cd4a5c7eb461eb71f518"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ebbac03c60cd4a5c7eb461eb71f518">StateVariant</a> = std::variant&lt;<a class="el" href="struct_acts_1_1_finite_state_machine_1_1_terminated.html">Terminated</a>, States...&gt;</td></tr>
-<tr class="memdesc:aa3ebbac03c60cd4a5c7eb461eb71f518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variant type allowing tagged type erased storage of the current state of the FSM.  <br /></td></tr>
+<tr class="memitem:aa3ebbac03c60cd4a5c7eb461eb71f518" id="r_aa3ebbac03c60cd4a5c7eb461eb71f518"><td class="memItemLeft" align="right" valign="top"><a id="aa3ebbac03c60cd4a5c7eb461eb71f518" name="aa3ebbac03c60cd4a5c7eb461eb71f518"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StateVariant</b> = std::variant&lt;<a class="el" href="struct_acts_1_1_finite_state_machine_1_1_terminated.html">Terminated</a>, States...&gt;</td></tr>
+<tr class="memdesc:aa3ebbac03c60cd4a5c7eb461eb71f518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variant type allowing tagged type erased storage of the current state of the FSM. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -171,10 +172,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-types" class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:ac399fa2255382d208cdf23cdf3a9d80a" id="r_ac399fa2255382d208cdf23cdf3a9d80a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac399fa2255382d208cdf23cdf3a9d80a">event_return</a> = std::optional&lt;<a class="el" href="#aa3ebbac03c60cd4a5c7eb461eb71f518">StateVariant</a>&gt;</td></tr>
-<tr class="memdesc:ac399fa2255382d208cdf23cdf3a9d80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for event return type (optional state variant).  <br /></td></tr>
-<tr class="memitem:a1b3f19ac204ede898df2b07fe625f72e" id="r_a1b3f19ac204ede898df2b07fe625f72e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3f19ac204ede898df2b07fe625f72e">fsm_base</a> = <a class="el" href="#a4c7659c62696f6895e3b12019049632a">FiniteStateMachine</a>&lt;Derived, States...&gt;</td></tr>
-<tr class="memdesc:a1b3f19ac204ede898df2b07fe625f72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for finite state machine base class.  <br /></td></tr>
+<tr class="memitem:ac399fa2255382d208cdf23cdf3a9d80a" id="r_ac399fa2255382d208cdf23cdf3a9d80a"><td class="memItemLeft" align="right" valign="top"><a id="ac399fa2255382d208cdf23cdf3a9d80a" name="ac399fa2255382d208cdf23cdf3a9d80a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>event_return</b> = std::optional&lt;<a class="el" href="#aa3ebbac03c60cd4a5c7eb461eb71f518">StateVariant</a>&gt;</td></tr>
+<tr class="memdesc:ac399fa2255382d208cdf23cdf3a9d80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for event return type (optional state variant). <br /></td></tr>
+<tr class="memitem:a1b3f19ac204ede898df2b07fe625f72e" id="r_a1b3f19ac204ede898df2b07fe625f72e"><td class="memItemLeft" align="right" valign="top"><a id="a1b3f19ac204ede898df2b07fe625f72e" name="a1b3f19ac204ede898df2b07fe625f72e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>fsm_base</b> = <a class="el" href="#a4c7659c62696f6895e3b12019049632a">FiniteStateMachine</a>&lt;Derived, States...&gt;</td></tr>
+<tr class="memdesc:a1b3f19ac204ede898df2b07fe625f72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for finite state machine base class. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -223,78 +226,7 @@ class Acts::FiniteStateMachine&lt; Derived, States &gt;</div><p>Implementation o
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ac399fa2255382d208cdf23cdf3a9d80a" name="ac399fa2255382d208cdf23cdf3a9d80a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac399fa2255382d208cdf23cdf3a9d80a">&#9670;&#160;</a></span>event_return</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived, typename... States&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_finite_state_machine.html">Acts::FiniteStateMachine</a>&lt; Derived, States &gt;::event_return = std::optional&lt;<a class="el" href="#aa3ebbac03c60cd4a5c7eb461eb71f518">StateVariant</a>&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type alias for event return type (optional state variant). </p>
-
-</div>
-</div>
-<a id="a1b3f19ac204ede898df2b07fe625f72e" name="a1b3f19ac204ede898df2b07fe625f72e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3f19ac204ede898df2b07fe625f72e">&#9670;&#160;</a></span>fsm_base</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived, typename... States&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_finite_state_machine.html">Acts::FiniteStateMachine</a>&lt; Derived, States &gt;::fsm_base = <a class="el" href="#a4c7659c62696f6895e3b12019049632a">FiniteStateMachine</a>&lt;Derived, States...&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type alias for finite state machine base class. </p>
-
-</div>
-</div>
-<a id="aa3ebbac03c60cd4a5c7eb461eb71f518" name="aa3ebbac03c60cd4a5c7eb461eb71f518"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3ebbac03c60cd4a5c7eb461eb71f518">&#9670;&#160;</a></span>StateVariant</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived, typename... States&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_finite_state_machine.html">Acts::FiniteStateMachine</a>&lt; Derived, States &gt;::StateVariant = std::variant&lt;<a class="el" href="struct_acts_1_1_finite_state_machine_1_1_terminated.html">Terminated</a>, States...&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Variant type allowing tagged type erased storage of the current state of the FSM. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4c7659c62696f6895e3b12019049632a" name="a4c7659c62696f6895e3b12019049632a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c7659c62696f6895e3b12019049632a">&#9670;&#160;</a></span>FiniteStateMachine() <span class="overload">[1/2]</span></h2>
 

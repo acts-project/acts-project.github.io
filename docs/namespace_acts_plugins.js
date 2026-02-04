@@ -1,30 +1,14 @@
 var namespace_acts_plugins =
 [
-    [ "Covfie", "namespace_acts_plugins_1_1_covfie.html", [
-      [ "BuilderBackend", "group__covfie__plugin.html#gaca57c83275c8793820d7328a1c9812c5", null ],
-      [ "ConstantField", "group__covfie__plugin.html#gaf244b74318255087713a0a9b695ec597", null ],
-      [ "InterpolatedField", "group__covfie__plugin.html#gaacb71f1b14342e9d934e0e47d9898d4e", null ],
-      [ "covfieField", "group__covfie__plugin.html#gad4c1e8c579d2dd73d3c95b1148593d86", null ],
-      [ "covfieField", "group__covfie__plugin.html#ga068d6e5620fd6883ba7fec7d192a069d", null ],
-      [ "covfieField", "group__covfie__plugin.html#gaad17e47fcefc1e54f25983aba157bca8", null ]
+    [ "Svg", null, [
+      [ "EventDataConverter", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html", [
+        [ "point", "group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27", null ],
+        [ "pointXY", "group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d", null ],
+        [ "pointZR", "group__actsvg__plugin.html#gaa54ff1c9ab91d2d40b7edb7f204cc57d", null ]
+      ] ],
+      [ "SurfaceArrayConverter", "namespace_acts_plugins_1_1_svg_1_1_surface_array_converter.html", "namespace_acts_plugins_1_1_svg_1_1_surface_array_converter" ],
+      [ "Style", "struct_acts_plugins_1_1_svg_1_1_style.html", "struct_acts_plugins_1_1_svg_1_1_style" ]
     ] ],
-    [ "DD4hepBinningHelpers", "namespace_acts_plugins_1_1_d_d4hep_binning_helpers.html", [
-      [ "convertBinning", "group__dd4hep__plugin.html#ga49cc5c92e1a7323a8832f103aba2f002", null ]
-    ] ],
-    [ "DetrayConversionUtils", "namespace_acts_plugins_1_1_detray_conversion_utils.html", "namespace_acts_plugins_1_1_detray_conversion_utils" ],
-    [ "EDM4hepUtil", "namespace_acts_plugins_1_1_e_d_m4hep_util.html", "namespace_acts_plugins_1_1_e_d_m4hep_util" ],
-    [ "FastJet", "namespace_acts_plugins_1_1_fast_jet.html", "namespace_acts_plugins_1_1_fast_jet" ],
-    [ "Geant4PhysicalVolumeSelectors", "namespace_acts_plugins_1_1_geant4_physical_volume_selectors.html", "namespace_acts_plugins_1_1_geant4_physical_volume_selectors" ],
-    [ "GeoModel", "namespace_acts_plugins_1_1_geo_model.html", [
-      [ "convertVolume", "group__geomodel__plugin.html#ga2a4b62b6b80f97e46549f0a3ae020bfd", null ],
-      [ "geoMaterialConverter", "group__geomodel__plugin.html#ga51d7c1e112f8c5dc6ac67a2b2ea8176c", null ],
-      [ "volumePosInSpace", "group__geomodel__plugin.html#ga544a658c32d6140fcc9990596eaa9ccc", null ]
-    ] ],
-    [ "GeoModelReader", "namespace_acts_plugins_1_1_geo_model_reader.html", [
-      [ "readFromDb", "group__geomodel__plugin.html#gab3d7ecc66157246a8e3471378760dd67", null ]
-    ] ],
-    [ "PodioUtil", "namespace_acts_plugins_1_1_podio_util.html", "namespace_acts_plugins_1_1_podio_util" ],
-    [ "Svg", "namespace_acts_plugins_1_1_svg.html", "namespace_acts_plugins_1_1_svg" ],
     [ "AmbiguityTrackClassifier", "class_acts_plugins_1_1_ambiguity_track_classifier.html", "class_acts_plugins_1_1_ambiguity_track_classifier" ],
     [ "BoostTrackBuilding", "class_acts_plugins_1_1_boost_track_building.html", "class_acts_plugins_1_1_boost_track_building" ],
     [ "ConstPodioTrackContainer", "class_acts_plugins_1_1_const_podio_track_container.html", "class_acts_plugins_1_1_const_podio_track_container" ],
@@ -111,16 +95,7 @@ var namespace_acts_plugins =
     [ "GeoTubeConverter", "group__geomodel__plugin.html#gaca8906ca7e77c14131160283a0619eab", null ],
     [ "GeoUnionDoubleTrdConverter", "group__geomodel__plugin.html#ga61a535f53f60eff609e30d24527d5b9f", null ],
     [ "NetworkBatchInput", "group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa", null ],
-    [ "FpeType", "group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7", [
-      [ "INTDIV", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7a7cc7bf39c5e418dbd2e6b010bec8bfb6", null ],
-      [ "INTOVF", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7af78c9e11dcd6d0c758510a410d7df97d", null ],
-      [ "FLTDIV", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7ab002656adf91f4ad6b2efe0742ecba6b", null ],
-      [ "FLTOVF", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7a0f075a0eadba5efca11b9bc59e5f86ed", null ],
-      [ "FLTUND", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7aefb71c77e911196bfbd047fffabbceea", null ],
-      [ "FLTRES", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7a3cc03fd4120262cebc1d7fc56ccbc26a", null ],
-      [ "FLTINV", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7a801485fcb7203f20b824e08998ed6f11", null ],
-      [ "FLTSUB", "group__fpemonitoring__plugin.html#gga14e3ffdaa56621e36c02794e12eb77f7af6a48a7d86497584b917ea518499a325", null ]
-    ] ],
+    [ "FpeType", "group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7", null ],
     [ "GeoModelConversionError", "group__errors.html#ga1ce88ea0e4490538ca747b2877e17317", [
       [ "WrongShapeForConverter", "group__errors.html#gga1ce88ea0e4490538ca747b2877e17317ab0b9ec361e712e8d51dd90fd8faa2fbf", null ],
       [ "InvalidShapeParameters", "group__errors.html#gga1ce88ea0e4490538ca747b2877e17317a42f0eb02b7e565a60040b6ad8f28696b", null ],

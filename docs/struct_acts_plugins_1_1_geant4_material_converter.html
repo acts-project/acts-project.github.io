@@ -126,15 +126,21 @@ $(function(){initNavTree('struct_acts_plugins_1_1_geant4_material_converter.html
 </div><!--header-->
 <div class="contents">
 
+<p>Converter for Geant4 materials to ACTS material description.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_geant4_converters_8hpp_source.html">ActsPlugins/Geant4/Geant4Converters.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa24e85c5071d46b6c5a2f491784e9a0f" id="r_aa24e85c5071d46b6c5a2f491784e9a0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_material.html">Acts::Material</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa24e85c5071d46b6c5a2f491784e9a0f">material</a> (const G4Material &amp;g4Material, double compression=1)</td></tr>
+<tr class="memdesc:aa24e85c5071d46b6c5a2f491784e9a0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Geant4 material to ACTS material.  <br /></td></tr>
 <tr class="memitem:a4503d1a5ec2770e611200d5ec425d39d" id="r_a4503d1a5ec2770e611200d5ec425d39d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_homogeneous_surface_material.html">Acts::HomogeneousSurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4503d1a5ec2770e611200d5ec425d39d">surfaceMaterial</a> (const G4Material &amp;g4Material, double original, double compressed)</td></tr>
 <tr class="memdesc:a4503d1a5ec2770e611200d5ec425d39d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Geant4 material to a surface material description.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Converter for Geant4 materials to ACTS material description. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="aa24e85c5071d46b6c5a2f491784e9a0f" name="aa24e85c5071d46b6c5a2f491784e9a0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa24e85c5071d46b6c5a2f491784e9a0f">&#9670;&#160;</a></span>material()</h2>
 
@@ -153,6 +159,16 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert Geant4 material to ACTS material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g4Material</td><td>Geant4 material to convert </td></tr>
+    <tr><td class="paramname">compression</td><td>Material compression factor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ACTS material description </dd></dl>
 
 </div>
 </div>
@@ -189,6 +205,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>ACTS surface material description </dd></dl>
 
 </div>
 </div>

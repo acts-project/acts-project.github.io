@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_space_point_builder_config.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_space_point_builder_config.html" target="_top" xlink:title="Configuration for space point builder setup.">
 <polygon fill="white" stroke="#666666" points="877,-85 714,-85 714,-66 877,-66 877,-85"/>
 <text text-anchor="middle" x="795.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointBuilderConfig</text>
 </a>
@@ -101,7 +101,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="536,-67.5 363,-67.5 363,-37.5 536,-37.5 536,-67.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="536,-67.5 363,-67.5 363,-37.5 536,-37.5 536,-67.5"/>
 <text text-anchor="start" x="371" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; const</text>
 <text text-anchor="middle" x="449.5" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Surface *(const SourceLink &amp;)&gt;</text>
 </a>
@@ -121,7 +121,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-63.5 0,-63.5 0,-33.5 152,-33.5 152,-63.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-63.5 0,-63.5 0,-33.5 152,-33.5 152,-63.5"/>
 <text text-anchor="start" x="8" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>

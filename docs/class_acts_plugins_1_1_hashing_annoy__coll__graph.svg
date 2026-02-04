@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Annoy&#45;based hashing implementation for spacepoint bucketing.">
 <polygon fill="#999999" stroke="#666666" points="149,-41 0,-41 0,0 149,0 149,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::HashingAnnoy</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; external_spacepoint_t,</text>

@@ -133,10 +133,10 @@ $(function(){initNavTree('struct_acts_plugins_1_1_device.html','','struct_acts_p
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8d6402367687af920630e52d91c4c366" id="r_a8d6402367687af920630e52d91c4c366"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a> { <a class="el" href="#a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6">eCPU</a>
-, <a class="el" href="#a8d6402367687af920630e52d91c4c366a3adab38689de7b6032d26d2f13c653f9">eCUDA</a>
+<tr class="memitem:a8d6402367687af920630e52d91c4c366" id="r_a8d6402367687af920630e52d91c4c366"><td class="memItemLeft" align="right" valign="top"><a id="a8d6402367687af920630e52d91c4c366" name="a8d6402367687af920630e52d91c4c366"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a> { <b>eCPU</b>
+, <b>eCUDA</b>
  }</td></tr>
-<tr class="memdesc:a8d6402367687af920630e52d91c4c366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type enumeration.  <a href="#a8d6402367687af920630e52d91c4c366">More...</a><br /></td></tr>
+<tr class="memdesc:a8d6402367687af920630e52d91c4c366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type enumeration. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -145,6 +145,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f4a90fb663d1a054e7217269d41755d" id="r_a6f4a90fb663d1a054e7217269d41755d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f4a90fb663d1a054e7217269d41755d">isCuda</a> () const</td></tr>
 <tr class="memdesc:a6f4a90fb663d1a054e7217269d41755d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if device is configured for CUDA execution.  <br /></td></tr>
 <tr class="memitem:ab415c73a916bc8a0eea4a67b4e065064" id="r_ab415c73a916bc8a0eea4a67b4e065064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab415c73a916bc8a0eea4a67b4e065064">operator==</a> (const <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> &amp;) const =default</td></tr>
+<tr class="memdesc:ab415c73a916bc8a0eea4a67b4e065064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two device descriptors for equality.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -155,43 +156,16 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afe74d25b11d7a9544bf8fe22bfcc7739" id="r_afe74d25b11d7a9544bf8fe22bfcc7739"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe74d25b11d7a9544bf8fe22bfcc7739">index</a> = 0</td></tr>
-<tr class="memdesc:afe74d25b11d7a9544bf8fe22bfcc7739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device index for multi-GPU systems.  <br /></td></tr>
-<tr class="memitem:a8fa5c6856600a9ebf8795b67a6940b71" id="r_a8fa5c6856600a9ebf8795b67a6940b71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fa5c6856600a9ebf8795b67a6940b71">type</a> = <a class="el" href="#a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6">Type::eCPU</a></td></tr>
-<tr class="memdesc:a8fa5c6856600a9ebf8795b67a6940b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type (CPU or CUDA).  <br /></td></tr>
+<tr class="memitem:afe74d25b11d7a9544bf8fe22bfcc7739" id="r_afe74d25b11d7a9544bf8fe22bfcc7739"><td class="memItemLeft" align="right" valign="top"><a id="afe74d25b11d7a9544bf8fe22bfcc7739" name="afe74d25b11d7a9544bf8fe22bfcc7739"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> = 0</td></tr>
+<tr class="memdesc:afe74d25b11d7a9544bf8fe22bfcc7739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device index for multi-GPU systems. <br /></td></tr>
+<tr class="memitem:a8fa5c6856600a9ebf8795b67a6940b71" id="r_a8fa5c6856600a9ebf8795b67a6940b71"><td class="memItemLeft" align="right" valign="top"><a id="a8fa5c6856600a9ebf8795b67a6940b71" name="a8fa5c6856600a9ebf8795b67a6940b71"></a>
+<a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = Type::eCPU</td></tr>
+<tr class="memdesc:a8fa5c6856600a9ebf8795b67a6940b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device type (CPU or CUDA). <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple device description struct. </p>
-</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="a8d6402367687af920630e52d91c4c366" name="a8d6402367687af920630e52d91c4c366"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d6402367687af920630e52d91c4c366">&#9670;&#160;</a></span>Type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#a8d6402367687af920630e52d91c4c366">ActsPlugins::Device::Type</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Device type enumeration. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6" name="a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6"></a>eCPU&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8d6402367687af920630e52d91c4c366a3adab38689de7b6032d26d2f13c653f9" name="a8d6402367687af920630e52d91c4c366a3adab38689de7b6032d26d2f13c653f9"></a>eCUDA&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="accc360d8927adc93ed85ecbae8680e62" name="accc360d8927adc93ed85ecbae8680e62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accc360d8927adc93ed85ecbae8680e62">&#9670;&#160;</a></span>Cpu()</h2>
 
@@ -317,38 +291,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="afe74d25b11d7a9544bf8fe22bfcc7739" name="afe74d25b11d7a9544bf8fe22bfcc7739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe74d25b11d7a9544bf8fe22bfcc7739">&#9670;&#160;</a></span>index</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t ActsPlugins::Device::index = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Device index for multi-GPU systems. </p>
-
-</div>
-</div>
-<a id="a8fa5c6856600a9ebf8795b67a6940b71" name="a8fa5c6856600a9ebf8795b67a6940b71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fa5c6856600a9ebf8795b67a6940b71">&#9670;&#160;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a8d6402367687af920630e52d91c4c366">Type</a> ActsPlugins::Device::type = <a class="el" href="#a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6">Type::eCPU</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Device type (CPU or CUDA). </p>
+<p>Compare two device descriptors for equality. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if both devices have same type and index </dd></dl>
 
 </div>
 </div>

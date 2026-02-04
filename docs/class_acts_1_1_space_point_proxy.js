@@ -2,7 +2,6 @@ var class_acts_1_1_space_point_proxy =
 [
     [ "ContainerType", "class_acts_1_1_space_point_proxy.html#a0b0babb2a5a76c5ae07ab0cafb7eb615", null ],
     [ "ValueType", "class_acts_1_1_space_point_proxy.html#a2d23728f2a92ecaf4d2ec23f035b6c67", null ],
-    [ "SpacePointProxy", "class_acts_1_1_space_point_proxy.html#a45b601ec2dfb2768b556bd67af7f9791", null ],
     [ "SpacePointProxy", "class_acts_1_1_space_point_proxy.html#afda002f5082e7e87548c3a7ff4a5b685", null ],
     [ "bottomStripVector", "class_acts_1_1_space_point_proxy.html#a72a86157e4ee9f72ecaa861220959b2f", null ],
     [ "externalSpacePoint", "class_acts_1_1_space_point_proxy.html#a3320bc47453728c20616d0e7e70029f6", null ],

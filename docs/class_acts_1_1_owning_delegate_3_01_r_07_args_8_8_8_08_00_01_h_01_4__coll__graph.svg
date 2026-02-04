@@ -69,7 +69,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="472,-78 315,-78 315,-48 472,-48 472,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="472,-78 315,-78 315,-48 472,-48 472,-78"/>
 <text text-anchor="start" x="323" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; R(Args...)</text>
 <text text-anchor="middle" x="393.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">, H, DelegateType::Owning &gt;</text>
 </a>
@@ -88,7 +88,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-78 0,-78 0,-48 152,-48 152,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-78 0,-78 0,-48 152,-48 152,-78"/>
 <text text-anchor="start" x="8" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -109,7 +109,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_owning_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="456,-30 331,-30 331,0 456,0 456,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="456,-30 331,-30 331,0 456,0 456,-30"/>
 <text text-anchor="start" x="339" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::OwningDelegate</text>
 <text text-anchor="middle" x="393.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; typename, H &gt;</text>
 </a>

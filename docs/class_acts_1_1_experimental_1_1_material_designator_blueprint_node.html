@@ -145,7 +145,6 @@ Collaboration diagram for Acts::Experimental::MaterialDesignatorBlueprintNode:</
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0bd371b525967c8ddd5dc9a78748cc59" id="r_a0bd371b525967c8ddd5dc9a78748cc59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> (const std::string &amp;<a class="el" href="#a9888f21ff711da2d5c32bc2c3ef8b17b">name</a>)</td></tr>
 <tr class="memdesc:a0bd371b525967c8ddd5dc9a78748cc59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for the material designator node.  <br /></td></tr>
-<tr class="memitem:acb2f56145502e388f73d17a9f0b459bf" id="r_acb2f56145502e388f73d17a9f0b459bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb2f56145502e388f73d17a9f0b459bf">~MaterialDesignatorBlueprintNode</a> () override</td></tr>
 <tr class="memitem:aa5f49503206d5ed8c795183288d305af" id="r_aa5f49503206d5ed8c795183288d305af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_volume.html">Volume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5f49503206d5ed8c795183288d305af">build</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_blueprint_options.html">BlueprintOptions</a> &amp;options, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()) override</td></tr>
 <tr class="memdesc:aa5f49503206d5ed8c795183288d305af"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method participates in the geometry construction.  <br /></td></tr>
 <tr class="memitem:a602ae3e542b9b775cd628e65e7f04250" id="r_a602ae3e542b9b775cd628e65e7f04250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a602ae3e542b9b775cd628e65e7f04250">configureFace</a> (<a class="el" href="class_acts_1_1_cuboid_volume_bounds.html#acbc4cbe27928efcbf0da00457ad799ac">CuboidVolumeBounds::Face</a> face, const <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &amp;loc0, const <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &amp;loc1)</td></tr>
@@ -165,16 +164,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3817ba942ef384246cb6efde49a8ea3" id="r_aa3817ba942ef384246cb6efde49a8ea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3817ba942ef384246cb6efde49a8ea3">toStream</a> (std::ostream &amp;os) const override</td></tr>
 <tr class="memdesc:aa3817ba942ef384246cb6efde49a8ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual method to determine stream representation.     <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_experimental_1_1_blueprint_node')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">Acts::Experimental::BlueprintNode</a></td></tr>
-<tr class="memitem:a21404680be31c52acd7bc3928aae8d6c inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_a21404680be31c52acd7bc3928aae8d6c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a21404680be31c52acd7bc3928aae8d6c">~BlueprintNode</a> ()=default</td></tr>
-<tr class="memdesc:a21404680be31c52acd7bc3928aae8d6c inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor to ensure correct cleanup.  <br /></td></tr>
+<tr class="memitem:a21404680be31c52acd7bc3928aae8d6c inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_a21404680be31c52acd7bc3928aae8d6c"><td class="memItemLeft" align="right" valign="top">
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~BlueprintNode</b> ()=default</td></tr>
+<tr class="memdesc:a21404680be31c52acd7bc3928aae8d6c inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor to ensure correct cleanup. <br /></td></tr>
 <tr class="memitem:a9a43b266c627448fdf5f6d74175599ba inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_a9a43b266c627448fdf5f6d74175599ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a9a43b266c627448fdf5f6d74175599ba">addChild</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt; child)</td></tr>
 <tr class="memdesc:a9a43b266c627448fdf5f6d74175599ba inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a <code class="param">child</code> to this node.  <br /></td></tr>
 <tr class="memitem:a68c731fc92bb0591a762291edfe26853 inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_a68c731fc92bb0591a762291edfe26853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a994fb12006f54cb73cd1f5877af84e9a">MutableChildRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a68c731fc92bb0591a762291edfe26853">children</a> ()</td></tr>
 <tr class="memdesc:a68c731fc92bb0591a762291edfe26853 inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a994fb12006f54cb73cd1f5877af84e9a">MutableChildRange</a> to the children of this node.  <br /></td></tr>
 <tr class="memitem:a22b0fa07bcffbaf88c5f1e2769e2c85b inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_a22b0fa07bcffbaf88c5f1e2769e2c85b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a501c1d101d1d16b7fbda97a69275c5db">ChildRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a22b0fa07bcffbaf88c5f1e2769e2c85b">children</a> () const</td></tr>
 <tr class="memdesc:a22b0fa07bcffbaf88c5f1e2769e2c85b inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#a501c1d101d1d16b7fbda97a69275c5db">ChildRange</a> to the children of this node.  <br /></td></tr>
-<tr class="memitem:ab5059dc79aeb6191490b295fa3718cbc inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_ab5059dc79aeb6191490b295fa3718cbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#ab5059dc79aeb6191490b295fa3718cbc">clearChildren</a> ()</td></tr>
-<tr class="memdesc:ab5059dc79aeb6191490b295fa3718cbc inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all children from this node.  <br /></td></tr>
+<tr class="memitem:ab5059dc79aeb6191490b295fa3718cbc inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_ab5059dc79aeb6191490b295fa3718cbc"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clearChildren</b> ()</td></tr>
+<tr class="memdesc:ab5059dc79aeb6191490b295fa3718cbc inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all children from this node. <br /></td></tr>
 <tr class="memitem:aad22d59cc879cf384d911ae3460436d9 inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_aad22d59cc879cf384d911ae3460436d9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#aad22d59cc879cf384d911ae3460436d9">depth</a> () const</td></tr>
 <tr class="memdesc:aad22d59cc879cf384d911ae3460436d9 inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the depth of this node in the blueprint tree.  <br /></td></tr>
 <tr class="memitem:af2a9e5c389279f756bc3060cd4cc7bd0 inherit pub_methods_class_acts_1_1_experimental_1_1_blueprint_node" id="r_af2a9e5c389279f756bc3060cd4cc7bd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html#af2a9e5c389279f756bc3060cd4cc7bd0">graphviz</a> (std::ostream &amp;os) const</td></tr>
@@ -243,31 +244,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="acb2f56145502e388f73d17a9f0b459bf" name="acb2f56145502e388f73d17a9f0b459bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb2f56145502e388f73d17a9f0b459bf">&#9670;&#160;</a></span>~MaterialDesignatorBlueprintNode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::MaterialDesignatorBlueprintNode::~MaterialDesignatorBlueprintNode </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

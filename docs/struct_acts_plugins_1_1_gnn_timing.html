@@ -126,77 +126,32 @@ $(function(){initNavTree('struct_acts_plugins_1_1_gnn_timing.html','','struct_ac
 </div><!--header-->
 <div class="contents">
 
+<p>Timing information for GNN pipeline execution.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gnn_pipeline_8hpp_source.html">ActsPlugins/Gnn/GnnPipeline.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a791906be719a14714c6a250c536e3ace" id="r_a791906be719a14714c6a250c536e3ace"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a> = std::chrono::duration&lt;float, std::milli&gt;</td></tr>
+<tr class="memitem:a791906be719a14714c6a250c536e3ace" id="r_a791906be719a14714c6a250c536e3ace"><td class="memItemLeft" align="right" valign="top"><a id="a791906be719a14714c6a250c536e3ace" name="a791906be719a14714c6a250c536e3ace"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Duration</b> = std::chrono::duration&lt;float, std::milli&gt;</td></tr>
+<tr class="memdesc:a791906be719a14714c6a250c536e3ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration type in milliseconds. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9a98e199ad0210ff2e3ef5f477da9e39" id="r_a9a98e199ad0210ff2e3ef5f477da9e39"><td class="memItemLeft" align="right" valign="top">boost::container::small_vector&lt; <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a98e199ad0210ff2e3ef5f477da9e39">classifierTimes</a></td></tr>
-<tr class="memitem:a21d7f699b42493f04aadb08f02af17a2" id="r_a21d7f699b42493f04aadb08f02af17a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d7f699b42493f04aadb08f02af17a2">graphBuildingTime</a> = <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>{0.f}</td></tr>
-<tr class="memitem:a3de440d1e92e37fcba509043e648a56c" id="r_a3de440d1e92e37fcba509043e648a56c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3de440d1e92e37fcba509043e648a56c">trackBuildingTime</a> = <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>{0.f}</td></tr>
+<tr class="memitem:a9a98e199ad0210ff2e3ef5f477da9e39" id="r_a9a98e199ad0210ff2e3ef5f477da9e39"><td class="memItemLeft" align="right" valign="top"><a id="a9a98e199ad0210ff2e3ef5f477da9e39" name="a9a98e199ad0210ff2e3ef5f477da9e39"></a>
+boost::container::small_vector&lt; <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>classifierTimes</b></td></tr>
+<tr class="memdesc:a9a98e199ad0210ff2e3ef5f477da9e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time spent in each classifier stage. <br /></td></tr>
+<tr class="memitem:a21d7f699b42493f04aadb08f02af17a2" id="r_a21d7f699b42493f04aadb08f02af17a2"><td class="memItemLeft" align="right" valign="top"><a id="a21d7f699b42493f04aadb08f02af17a2" name="a21d7f699b42493f04aadb08f02af17a2"></a>
+<a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>graphBuildingTime</b> = <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>{0.f}</td></tr>
+<tr class="memdesc:a21d7f699b42493f04aadb08f02af17a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time spent building the graph. <br /></td></tr>
+<tr class="memitem:a3de440d1e92e37fcba509043e648a56c" id="r_a3de440d1e92e37fcba509043e648a56c"><td class="memItemLeft" align="right" valign="top"><a id="a3de440d1e92e37fcba509043e648a56c" name="a3de440d1e92e37fcba509043e648a56c"></a>
+<a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>trackBuildingTime</b> = <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>{0.f}</td></tr>
+<tr class="memdesc:a3de440d1e92e37fcba509043e648a56c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time spent building tracks. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a791906be719a14714c6a250c536e3ace" name="a791906be719a14714c6a250c536e3ace"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a791906be719a14714c6a250c536e3ace">&#9670;&#160;</a></span>Duration</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a791906be719a14714c6a250c536e3ace">ActsPlugins::GnnTiming::Duration</a> = std::chrono::duration&lt;float, std::milli&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a9a98e199ad0210ff2e3ef5f477da9e39" name="a9a98e199ad0210ff2e3ef5f477da9e39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a98e199ad0210ff2e3ef5f477da9e39">&#9670;&#160;</a></span>classifierTimes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::container::small_vector&lt;<a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>, 3&gt; ActsPlugins::GnnTiming::classifierTimes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a21d7f699b42493f04aadb08f02af17a2" name="a21d7f699b42493f04aadb08f02af17a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21d7f699b42493f04aadb08f02af17a2">&#9670;&#160;</a></span>graphBuildingTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a> ActsPlugins::GnnTiming::graphBuildingTime = <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>{0.f}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3de440d1e92e37fcba509043e648a56c" name="a3de440d1e92e37fcba509043e648a56c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3de440d1e92e37fcba509043e648a56c">&#9670;&#160;</a></span>trackBuildingTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a> ActsPlugins::GnnTiming::trackBuildingTime = <a class="el" href="#a791906be719a14714c6a250c536e3ace">Duration</a>{0.f}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Timing information for GNN pipeline execution. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

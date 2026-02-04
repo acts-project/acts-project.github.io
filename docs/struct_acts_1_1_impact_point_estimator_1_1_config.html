@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_impact_point_estimator_1_1_config.html
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration settings for the impact point estimator.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_impact_point_estimator_8hpp_source.html">Acts/Vertexing/ImpactPointEstimator.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::ImpactPointEstimator::Config:</div>
@@ -142,16 +145,22 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9fe03ab50c5fc93878303b7cfeba8e0e" id="r_a9fe03ab50c5fc93878303b7cfeba8e0e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fe03ab50c5fc93878303b7cfeba8e0e">bField</a></td></tr>
-<tr class="memdesc:a9fe03ab50c5fc93878303b7cfeba8e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field.  <br /></td></tr>
-<tr class="memitem:a9eab9fc465513660237209f68023723a" id="r_a9eab9fc465513660237209f68023723a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eab9fc465513660237209f68023723a">maxIterations</a> = 20</td></tr>
-<tr class="memdesc:a9eab9fc465513660237209f68023723a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max. number of iterations in Newton method.  <br /></td></tr>
-<tr class="memitem:ab6f704df215e689cc672cd4e7a33cd09" id="r_ab6f704df215e689cc672cd4e7a33cd09"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6f704df215e689cc672cd4e7a33cd09">precision</a> = 1.e-10</td></tr>
-<tr class="memdesc:ab6f704df215e689cc672cd4e7a33cd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Desired precision of deltaPhi in Newton method.  <br /></td></tr>
-<tr class="memitem:a1a04999a3f2aed4a3e8488c8c120ea4e" id="r_a1a04999a3f2aed4a3e8488c8c120ea4e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a04999a3f2aed4a3e8488c8c120ea4e">propagator</a></td></tr>
-<tr class="memdesc:a1a04999a3f2aed4a3e8488c8c120ea4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagator.  <br /></td></tr>
+<tr class="memitem:a9fe03ab50c5fc93878303b7cfeba8e0e" id="r_a9fe03ab50c5fc93878303b7cfeba8e0e"><td class="memItemLeft" align="right" valign="top"><a id="a9fe03ab50c5fc93878303b7cfeba8e0e" name="a9fe03ab50c5fc93878303b7cfeba8e0e"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bField</b></td></tr>
+<tr class="memdesc:a9fe03ab50c5fc93878303b7cfeba8e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field. <br /></td></tr>
+<tr class="memitem:a9eab9fc465513660237209f68023723a" id="r_a9eab9fc465513660237209f68023723a"><td class="memItemLeft" align="right" valign="top"><a id="a9eab9fc465513660237209f68023723a" name="a9eab9fc465513660237209f68023723a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>maxIterations</b> = 20</td></tr>
+<tr class="memdesc:a9eab9fc465513660237209f68023723a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max. number of iterations in Newton method. <br /></td></tr>
+<tr class="memitem:ab6f704df215e689cc672cd4e7a33cd09" id="r_ab6f704df215e689cc672cd4e7a33cd09"><td class="memItemLeft" align="right" valign="top"><a id="ab6f704df215e689cc672cd4e7a33cd09" name="ab6f704df215e689cc672cd4e7a33cd09"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>precision</b> = 1.e-10</td></tr>
+<tr class="memdesc:ab6f704df215e689cc672cd4e7a33cd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Desired precision of deltaPhi in Newton method. <br /></td></tr>
+<tr class="memitem:a1a04999a3f2aed4a3e8488c8c120ea4e" id="r_a1a04999a3f2aed4a3e8488c8c120ea4e"><td class="memItemLeft" align="right" valign="top"><a id="a1a04999a3f2aed4a3e8488c8c120ea4e" name="a1a04999a3f2aed4a3e8488c8c120ea4e"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>propagator</b></td></tr>
+<tr class="memdesc:a1a04999a3f2aed4a3e8488c8c120ea4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagator. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration settings for the impact point estimator. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae1d58e7797f10b965b8fe39b7a8ebdec" name="ae1d58e7797f10b965b8fe39b7a8ebdec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1d58e7797f10b965b8fe39b7a8ebdec">&#9670;&#160;</a></span>Config() <span class="overload">[1/2]</span></h2>
 
@@ -220,71 +229,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a9fe03ab50c5fc93878303b7cfeba8e0e" name="a9fe03ab50c5fc93878303b7cfeba8e0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fe03ab50c5fc93878303b7cfeba8e0e">&#9670;&#160;</a></span>bField</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a>&gt; Acts::ImpactPointEstimator::Config::bField</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Magnetic field. </p>
-
-</div>
-</div>
-<a id="a9eab9fc465513660237209f68023723a" name="a9eab9fc465513660237209f68023723a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eab9fc465513660237209f68023723a">&#9670;&#160;</a></span>maxIterations</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::ImpactPointEstimator::Config::maxIterations = 20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Max. number of iterations in Newton method. </p>
-
-</div>
-</div>
-<a id="ab6f704df215e689cc672cd4e7a33cd09" name="ab6f704df215e689cc672cd4e7a33cd09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6f704df215e689cc672cd4e7a33cd09">&#9670;&#160;</a></span>precision</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::ImpactPointEstimator::Config::precision = 1.e-10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Desired precision of deltaPhi in Newton method. </p>
-
-</div>
-</div>
-<a id="a1a04999a3f2aed4a3e8488c8c120ea4e" name="a1a04999a3f2aed4a3e8488c8c120ea4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a04999a3f2aed4a3e8488c8c120ea4e">&#9670;&#160;</a></span>propagator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_base_propagator.html">BasePropagator</a>&gt; Acts::ImpactPointEstimator::Config::propagator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Propagator. </p>
 
 </div>
 </div>

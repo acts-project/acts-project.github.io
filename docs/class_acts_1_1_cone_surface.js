@@ -26,6 +26,5 @@ var class_acts_1_1_cone_surface =
     [ "referencePosition", "class_acts_1_1_cone_surface.html#a11727565fdf31e4b19e34256aa273008", null ],
     [ "rotSymmetryAxis", "class_acts_1_1_cone_surface.html#addb4dc55b29203c66db00b7dc75a64a0", null ],
     [ "type", "class_acts_1_1_cone_surface.html#a1615c6196ef1195776e744ad674e9a8c", null ],
-    [ "Surface", "class_acts_1_1_cone_surface.html#a432070efb8401735ea64bc0e98feebe5", null ],
     [ "m_bounds", "class_acts_1_1_cone_surface.html#aff3297a3fd7b5239dcdd710d10877163", null ]
 ];

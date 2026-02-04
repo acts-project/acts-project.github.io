@@ -138,13 +138,15 @@ Collaboration diagram for Acts::Polyhedron:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a2402da64e8462cd5009a79f22cf452e2" id="r_a2402da64e8462cd5009a79f22cf452e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> = std::vector&lt;std::size_t&gt;</td></tr>
-<tr class="memdesc:a2402da64e8462cd5009a79f22cf452e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for face definition as vertex indices.  <br /></td></tr>
+<tr class="memitem:a2402da64e8462cd5009a79f22cf452e2" id="r_a2402da64e8462cd5009a79f22cf452e2"><td class="memItemLeft" align="right" valign="top"><a id="a2402da64e8462cd5009a79f22cf452e2" name="a2402da64e8462cd5009a79f22cf452e2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FaceType</b> = std::vector&lt;std::size_t&gt;</td></tr>
+<tr class="memdesc:a2402da64e8462cd5009a79f22cf452e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for face definition as vertex indices. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1bb7bfa193a480a15ed47b9e71b70200" id="r_a1bb7bfa193a480a15ed47b9e71b70200"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bb7bfa193a480a15ed47b9e71b70200">Polyhedron</a> ()=default</td></tr>
-<tr class="memdesc:a1bb7bfa193a480a15ed47b9e71b70200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
+<tr class="memitem:a1bb7bfa193a480a15ed47b9e71b70200" id="r_a1bb7bfa193a480a15ed47b9e71b70200"><td class="memItemLeft" align="right" valign="top"><a id="a1bb7bfa193a480a15ed47b9e71b70200" name="a1bb7bfa193a480a15ed47b9e71b70200"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Polyhedron</b> ()=default</td></tr>
+<tr class="memdesc:a1bb7bfa193a480a15ed47b9e71b70200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:a0508d64c486687fb4666cb4022b75389" id="r_a0508d64c486687fb4666cb4022b75389"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0508d64c486687fb4666cb4022b75389">Polyhedron</a> (const std::vector&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt; &amp;verticesIn, const std::vector&lt; <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> &gt; &amp;facesIn, const std::vector&lt; <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> &gt; &amp;triangularMeshIn, bool isExact=true)</td></tr>
 <tr class="memdesc:a0508d64c486687fb4666cb4022b75389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor from a vector of vertices and a vector of faces.  <br /></td></tr>
 <tr class="memitem:a206860bd6e319f1f35b07d05ceb90e72" id="r_a206860bd6e319f1f35b07d05ceb90e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_extent.html">Extent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a206860bd6e319f1f35b07d05ceb90e72">extent</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
@@ -158,65 +160,23 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad7a857d29513c57d89ac840535a85679" id="r_ad7a857d29513c57d89ac840535a85679"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7a857d29513c57d89ac840535a85679">exact</a> = true</td></tr>
-<tr class="memdesc:ad7a857d29513c57d89ac840535a85679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is this an exact representation (approximating curved spaces).  <br /></td></tr>
+<tr class="memitem:ad7a857d29513c57d89ac840535a85679" id="r_ad7a857d29513c57d89ac840535a85679"><td class="memItemLeft" align="right" valign="top"><a id="ad7a857d29513c57d89ac840535a85679" name="ad7a857d29513c57d89ac840535a85679"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>exact</b> = true</td></tr>
+<tr class="memdesc:ad7a857d29513c57d89ac840535a85679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is this an exact representation (approximating curved spaces). <br /></td></tr>
 <tr class="memitem:ad8180c433e3de5a24fa79e13f0af72b0" id="r_ad8180c433e3de5a24fa79e13f0af72b0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8180c433e3de5a24fa79e13f0af72b0">faces</a></td></tr>
 <tr class="memdesc:ad8180c433e3de5a24fa79e13f0af72b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of faces connecting the vertices.  <br /></td></tr>
 <tr class="memitem:aade98f3c755acfbea6c723966e861060" id="r_aade98f3c755acfbea6c723966e861060"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade98f3c755acfbea6c723966e861060">triangularMesh</a></td></tr>
 <tr class="memdesc:aade98f3c755acfbea6c723966e861060"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of faces connecting the vertices.  <br /></td></tr>
-<tr class="memitem:acf1718e7f498ba1ce4d85c9038d40ad3" id="r_acf1718e7f498ba1ce4d85c9038d40ad3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf1718e7f498ba1ce4d85c9038d40ad3">vertices</a></td></tr>
-<tr class="memdesc:acf1718e7f498ba1ce4d85c9038d40ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of 3D vertices as vectors.  <br /></td></tr>
+<tr class="memitem:acf1718e7f498ba1ce4d85c9038d40ad3" id="r_acf1718e7f498ba1ce4d85c9038d40ad3"><td class="memItemLeft" align="right" valign="top"><a id="acf1718e7f498ba1ce4d85c9038d40ad3" name="acf1718e7f498ba1ce4d85c9038d40ad3"></a>
+std::vector&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertices</b></td></tr>
+<tr class="memdesc:acf1718e7f498ba1ce4d85c9038d40ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of 3D vertices as vectors. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Struct which contains a cartesian approximation for any surface type. </p>
 <p>It contains a list of cartesian vertices in the global frame, and additionally a list of lists of indices which indicate which vertices form a face. Each entry in <code>faces</code> is a face, which is in turn a list of vertices that need to be connected to form a face. This allows the <code>objString</code> method to produce a ready-to-go obj output. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a2402da64e8462cd5009a79f22cf452e2" name="a2402da64e8462cd5009a79f22cf452e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2402da64e8462cd5009a79f22cf452e2">&#9670;&#160;</a></span>FaceType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">Acts::Polyhedron::FaceType</a> = std::vector&lt;std::size_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for face definition as vertex indices. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1bb7bfa193a480a15ed47b9e71b70200" name="a1bb7bfa193a480a15ed47b9e71b70200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bb7bfa193a480a15ed47b9e71b70200">&#9670;&#160;</a></span>Polyhedron() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Polyhedron::Polyhedron </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. </p>
-
-</div>
-</div>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0508d64c486687fb4666cb4022b75389" name="a0508d64c486687fb4666cb4022b75389"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0508d64c486687fb4666cb4022b75389">&#9670;&#160;</a></span>Polyhedron() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0508d64c486687fb4666cb4022b75389">&#9670;&#160;</a></span>Polyhedron()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,22 +326,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad7a857d29513c57d89ac840535a85679" name="ad7a857d29513c57d89ac840535a85679"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7a857d29513c57d89ac840535a85679">&#9670;&#160;</a></span>exact</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Polyhedron::exact = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Is this an exact representation (approximating curved spaces). </p>
-
-</div>
-</div>
 <a id="ad8180c433e3de5a24fa79e13f0af72b0" name="ad8180c433e3de5a24fa79e13f0af72b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8180c433e3de5a24fa79e13f0af72b0">&#9670;&#160;</a></span>faces</h2>
 
@@ -415,22 +359,6 @@ Public Attributes</h2></td></tr>
 <p>each face is a list of vertices v</p><ul>
 <li>in this case restricted to a triangular representation </li>
 </ul>
-
-</div>
-</div>
-<a id="acf1718e7f498ba1ce4d85c9038d40ad3" name="acf1718e7f498ba1ce4d85c9038d40ad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf1718e7f498ba1ce4d85c9038d40ad3">&#9670;&#160;</a></span>vertices</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&gt; Acts::Polyhedron::vertices</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of 3D vertices as vectors. </p>
 
 </div>
 </div>

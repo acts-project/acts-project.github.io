@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_space_point_container2_1_1_range.html',
 </div><!--header-->
 <div class="contents">
 
+<p>Range facade over contiguous index spans.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_space_point_container2_8hpp_source.html">Acts/EventData/SpacePointContainer2.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::SpacePointContainer2::Range&lt; read_only &gt;:</div>
@@ -141,13 +144,18 @@ Collaboration diagram for Acts::SpacePointContainer2::Range&lt; read_only &gt;:<
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a2b6cebba16091b5ba1aa48cb23a31bba" id="r_a2b6cebba16091b5ba1aa48cb23a31bba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6cebba16091b5ba1aa48cb23a31bba">Base</a></td></tr>
+<tr class="memdesc:a2b6cebba16091b5ba1aa48cb23a31bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class type.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e1ff58fc65565b0890b3d3eef1ffe62" id="r_a3e1ff58fc65565b0890b3d3eef1ffe62"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
 <tr class="memitem:a3e1ff58fc65565b0890b3d3eef1ffe62 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e1ff58fc65565b0890b3d3eef1ffe62">zip</a> (const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; Ts &gt; &amp;...columns) const noexcept</td></tr>
+<tr class="memdesc:a3e1ff58fc65565b0890b3d3eef1ffe62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zip this range with additional columns.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;bool read_only&gt;<br />
+class Acts::SpacePointContainer2::Range&lt; read_only &gt;</div><p>Range facade over contiguous index spans. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a2b6cebba16091b5ba1aa48cb23a31bba" name="a2b6cebba16091b5ba1aa48cb23a31bba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b6cebba16091b5ba1aa48cb23a31bba">&#9670;&#160;</a></span>Base</h2>
 
@@ -165,9 +173,11 @@ template&lt;bool read_only&gt; </div>
 <div class="line">        Acts::detail::ContainerRange&lt;Range&lt;read_only&gt;, <a class="code hl_class" href="class_acts_1_1_space_point_container2_1_1_range.html">Range&lt;true&gt;</a>,</div>
 <div class="line">                                     <a class="code hl_function" href="class_acts_1_1_space_point_container2.html#a61c8dcc7ae4547b223972cbb660178bd">SpacePointContainer2</a>, <a class="code hl_typedef" href="class_acts_1_1_doublets_for_middle_sp.html#aab4e28dd36b25696262e75956c00a9c2">Index</a>, read_only&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_doublets_for_middle_sp_html_aab4e28dd36b25696262e75956c00a9c2"><div class="ttname"><a href="class_acts_1_1_doublets_for_middle_sp.html#aab4e28dd36b25696262e75956c00a9c2">Acts::DoubletsForMiddleSp::Index</a></div><div class="ttdeci">std::uint32_t Index</div><div class="ttdoc">Type alias for index type used in doublets container.</div><div class="ttdef"><b>Definition</b> DoubletSeedFinder.hpp:29</div></div>
-<div class="ttc" id="aclass_acts_1_1_space_point_container2_1_1_range_html"><div class="ttname"><a href="class_acts_1_1_space_point_container2_1_1_range.html">Acts::SpacePointContainer2::Range</a></div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:871</div></div>
+<div class="ttc" id="aclass_acts_1_1_space_point_container2_1_1_range_html"><div class="ttname"><a href="class_acts_1_1_space_point_container2_1_1_range.html">Acts::SpacePointContainer2::Range</a></div><div class="ttdoc">Range facade over contiguous index spans.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:877</div></div>
 <div class="ttc" id="aclass_acts_1_1_space_point_container2_html_a61c8dcc7ae4547b223972cbb660178bd"><div class="ttname"><a href="class_acts_1_1_space_point_container2.html#a61c8dcc7ae4547b223972cbb660178bd">Acts::SpacePointContainer2::SpacePointContainer2</a></div><div class="ttdeci">SpacePointContainer2(SpacePointColumns columns=SpacePointColumns::None) noexcept</div><div class="ttdoc">Constructs and empty space point container.</div></div>
 </div><!-- fragment -->
+<p>Base class type. </p>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -197,6 +207,15 @@ template&lt;typename... Ts&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Zip this range with additional columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>Additional columns to zip with the range </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Zipped range with additional columns </dd></dl>
 
 </div>
 </div>

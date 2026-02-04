@@ -138,8 +138,9 @@ Inheritance diagram for Acts::ITrackingVolumeArrayCreator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2d424a0872722bef6e1bd2f0704eb7a" id="r_ac2d424a0872722bef6e1bd2f0704eb7a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2d424a0872722bef6e1bd2f0704eb7a">~ITrackingVolumeArrayCreator</a> ()=default</td></tr>
-<tr class="memdesc:ac2d424a0872722bef6e1bd2f0704eb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:ac2d424a0872722bef6e1bd2f0704eb7a" id="r_ac2d424a0872722bef6e1bd2f0704eb7a"><td class="memItemLeft" align="right" valign="top"><a id="ac2d424a0872722bef6e1bd2f0704eb7a" name="ac2d424a0872722bef6e1bd2f0704eb7a"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ITrackingVolumeArrayCreator</b> ()=default</td></tr>
+<tr class="memdesc:ac2d424a0872722bef6e1bd2f0704eb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="memitem:a8d772e034e08d66f99cf39b38aecf8be" id="r_a8d772e034e08d66f99cf39b38aecf8be"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; const <a class="el" href="namespace_acts.html#a28648357639285c87a2440debff326f3">TrackingVolumeArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d772e034e08d66f99cf39b38aecf8be">trackingVolumeArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a4230ba1191701d7b7fbed04b39a8d2f2">TrackingVolumeVector</a> &amp;vols, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const =0</td></tr>
 <tr class="memdesc:a8d772e034e08d66f99cf39b38aecf8be"><td class="mdescLeft">&#160;</td><td class="mdescRight">TrackingVolumeArrayCreator interface method - creates array depending on the binning type.  <br /></td></tr>
 </table>
@@ -151,35 +152,7 @@ Public Member Functions</h2></td></tr>
 <li>navigation and glueing</li>
 </ul>
 <p>Arrays for glueing and confinement are often the same, therefore the newly created TrackingVolumeArray is done by a shared_ptr </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac2d424a0872722bef6e1bd2f0704eb7a" name="ac2d424a0872722bef6e1bd2f0704eb7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2d424a0872722bef6e1bd2f0704eb7a">&#9670;&#160;</a></span>~ITrackingVolumeArrayCreator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ITrackingVolumeArrayCreator::~ITrackingVolumeArrayCreator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a8d772e034e08d66f99cf39b38aecf8be" name="a8d772e034e08d66f99cf39b38aecf8be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d772e034e08d66f99cf39b38aecf8be">&#9670;&#160;</a></span>trackingVolumeArray()</h2>
 

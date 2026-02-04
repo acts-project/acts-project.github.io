@@ -138,10 +138,12 @@ Inheritance diagram for Acts::BinnedArray&lt; T &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a77b70574e124dfd86b2310fa8ed519" id="r_a3a77b70574e124dfd86b2310fa8ed519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a77b70574e124dfd86b2310fa8ed519">BinnedArray</a> ()=default</td></tr>
-<tr class="memdesc:a3a77b70574e124dfd86b2310fa8ed519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor - needed for inherited classes.  <br /></td></tr>
-<tr class="memitem:ab1da20c6fb817597502ec66c8ddbbad5" id="r_ab1da20c6fb817597502ec66c8ddbbad5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1da20c6fb817597502ec66c8ddbbad5">~BinnedArray</a> ()=default</td></tr>
-<tr class="memdesc:ab1da20c6fb817597502ec66c8ddbbad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Destructor.  <br /></td></tr>
+<tr class="memitem:a3a77b70574e124dfd86b2310fa8ed519" id="r_a3a77b70574e124dfd86b2310fa8ed519"><td class="memItemLeft" align="right" valign="top"><a id="a3a77b70574e124dfd86b2310fa8ed519" name="a3a77b70574e124dfd86b2310fa8ed519"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BinnedArray</b> ()=default</td></tr>
+<tr class="memdesc:a3a77b70574e124dfd86b2310fa8ed519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor - needed for inherited classes. <br /></td></tr>
+<tr class="memitem:ab1da20c6fb817597502ec66c8ddbbad5" id="r_ab1da20c6fb817597502ec66c8ddbbad5"><td class="memItemLeft" align="right" valign="top"><a id="ab1da20c6fb817597502ec66c8ddbbad5" name="ab1da20c6fb817597502ec66c8ddbbad5"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~BinnedArray</b> ()=default</td></tr>
+<tr class="memdesc:ab1da20c6fb817597502ec66c8ddbbad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Destructor. <br /></td></tr>
 <tr class="memitem:afaeea9f4364b3055139ab87d7b247f12" id="r_afaeea9f4364b3055139ab87d7b247f12"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaeea9f4364b3055139ab87d7b247f12">arrayObjects</a> () const =0</td></tr>
 <tr class="memdesc:afaeea9f4364b3055139ab87d7b247f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all unique object.  <br /></td></tr>
 <tr class="memitem:afc891f2262dd6b02c5f7e9fd35a4d647" id="r_afc891f2262dd6b02c5f7e9fd35a4d647"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc891f2262dd6b02c5f7e9fd35a4d647">binUtility</a> () const =0</td></tr>
@@ -164,66 +166,7 @@ class Acts::BinnedArray&lt; T &gt;</div><p>Pure virtual base class for Binned Ar
 <li>there is only one restriction: T must be of pointer type in order to be initialized with nullptr and to allow for nullptr return type</li>
 <li>the BinnedArray is designed for 0D, 1D, 2D, and 3D binning </li>
 </ul>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3a77b70574e124dfd86b2310fa8ed519" name="a3a77b70574e124dfd86b2310fa8ed519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a77b70574e124dfd86b2310fa8ed519">&#9670;&#160;</a></span>BinnedArray()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_binned_array.html">Acts::BinnedArray</a>&lt; T &gt;::BinnedArray </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default Constructor - needed for inherited classes. </p>
-
-</div>
-</div>
-<a id="ab1da20c6fb817597502ec66c8ddbbad5" name="ab1da20c6fb817597502ec66c8ddbbad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1da20c6fb817597502ec66c8ddbbad5">&#9670;&#160;</a></span>~BinnedArray()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="class_acts_1_1_binned_array.html">Acts::BinnedArray</a>&lt; T &gt;::~<a class="el" href="#a3a77b70574e124dfd86b2310fa8ed519">BinnedArray</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual Destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="afaeea9f4364b3055139ab87d7b247f12" name="afaeea9f4364b3055139ab87d7b247f12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaeea9f4364b3055139ab87d7b247f12">&#9670;&#160;</a></span>arrayObjects()</h2>
 

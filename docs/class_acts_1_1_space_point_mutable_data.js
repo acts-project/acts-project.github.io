@@ -6,7 +6,6 @@ var class_acts_1_1_space_point_mutable_data =
     [ "~SpacePointMutableData", "class_acts_1_1_space_point_mutable_data.html#a4f57f300c33a0e8c46678f71683cc393", null ],
     [ "clear", "class_acts_1_1_space_point_mutable_data.html#add163a64eaf2e55ff7c016f290cbd3d3", null ],
     [ "deltaR", "class_acts_1_1_space_point_mutable_data.html#af0f5d065e0c3b4e11d81ec7369a61a71", null ],
-    [ "operator=", "class_acts_1_1_space_point_mutable_data.html#a6f265e3a5ae895811c9ec77551f06926", null ],
     [ "operator=", "class_acts_1_1_space_point_mutable_data.html#a26825968b05dc604f5d6e04f6b40ccb3", null ],
     [ "quality", "class_acts_1_1_space_point_mutable_data.html#a4b0ffe253b673685f1154789de353247", null ],
     [ "resize", "class_acts_1_1_space_point_mutable_data.html#a1287e75e9582e778a3a41432a70c2c54", null ],

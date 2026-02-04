@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_ridders_propagator_options.html','','s
 </div><!--header-->
 <div class="contents">
 
+<p>Options for Ridders-based covariance propagation.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_ridders_propagator_8hpp_source.html">Acts/Propagator/RiddersPropagator.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;:</div>
@@ -140,10 +143,18 @@ Collaboration diagram for Acts::RiddersPropagatorOptions&lt; propagator_t, actor
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4df35c0bd7d0be1fd78c21c7cfae8cd5" id="r_a4df35c0bd7d0be1fd78c21c7cfae8cd5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df35c0bd7d0be1fd78c21c7cfae8cd5">actor_list_type</a> = actor_list_t</td></tr>
-<tr class="memitem:a18c0130cb232f0ad6097052ff3c9f918" id="r_a18c0130cb232f0ad6097052ff3c9f918"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c0130cb232f0ad6097052ff3c9f918">base_type</a> = propagator_t::template Options&lt;actor_list_t&gt;</td></tr>
-<tr class="memitem:abbb23c4461fe0e83524929e0c51eb458" id="r_abbb23c4461fe0e83524929e0c51eb458"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbb23c4461fe0e83524929e0c51eb458">navigator_options_type</a> = typename base_type::navigator_options_type</td></tr>
-<tr class="memitem:a461c42da548392a59b3f0e6d4e051302" id="r_a461c42da548392a59b3f0e6d4e051302"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a461c42da548392a59b3f0e6d4e051302">stepper_options_type</a> = typename base_type::stepper_options_type</td></tr>
+<tr class="memitem:a4df35c0bd7d0be1fd78c21c7cfae8cd5" id="r_a4df35c0bd7d0be1fd78c21c7cfae8cd5"><td class="memItemLeft" align="right" valign="top"><a id="a4df35c0bd7d0be1fd78c21c7cfae8cd5" name="a4df35c0bd7d0be1fd78c21c7cfae8cd5"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>actor_list_type</b> = actor_list_t</td></tr>
+<tr class="memdesc:a4df35c0bd7d0be1fd78c21c7cfae8cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actor list type. <br /></td></tr>
+<tr class="memitem:a18c0130cb232f0ad6097052ff3c9f918" id="r_a18c0130cb232f0ad6097052ff3c9f918"><td class="memItemLeft" align="right" valign="top"><a id="a18c0130cb232f0ad6097052ff3c9f918" name="a18c0130cb232f0ad6097052ff3c9f918"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>base_type</b> = propagator_t::template Options&lt;actor_list_t&gt;</td></tr>
+<tr class="memdesc:a18c0130cb232f0ad6097052ff3c9f918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base type. <br /></td></tr>
+<tr class="memitem:abbb23c4461fe0e83524929e0c51eb458" id="r_abbb23c4461fe0e83524929e0c51eb458"><td class="memItemLeft" align="right" valign="top"><a id="abbb23c4461fe0e83524929e0c51eb458" name="abbb23c4461fe0e83524929e0c51eb458"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>navigator_options_type</b> = typename base_type::navigator_options_type</td></tr>
+<tr class="memdesc:abbb23c4461fe0e83524929e0c51eb458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigator options type. <br /></td></tr>
+<tr class="memitem:a461c42da548392a59b3f0e6d4e051302" id="r_a461c42da548392a59b3f0e6d4e051302"><td class="memItemLeft" align="right" valign="top"><a id="a461c42da548392a59b3f0e6d4e051302" name="a461c42da548392a59b3f0e6d4e051302"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>stepper_options_type</b> = typename base_type::stepper_options_type</td></tr>
+<tr class="memdesc:a461c42da548392a59b3f0e6d4e051302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stepper options type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -159,75 +170,14 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:afc884bffc601dbc5f041c79aaf5da80c" id="r_afc884bffc601dbc5f041c79aaf5da80c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc884bffc601dbc5f041c79aaf5da80c">deviationFactors</a> = {-2, -1, 1, 2}</td></tr>
 <tr class="memdesc:afc884bffc601dbc5f041c79aaf5da80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different factors applied to the initial scale to create the deviations of the individual bound track parameters.  <br /></td></tr>
-<tr class="memitem:aeed4b1a6666671249ddba0594b0204cd" id="r_aeed4b1a6666671249ddba0594b0204cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeed4b1a6666671249ddba0594b0204cd">deviationScale</a> = {1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4}</td></tr>
-<tr class="memdesc:aeed4b1a6666671249ddba0594b0204cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial scale for the deviation of the individual bound track parameters.  <br /></td></tr>
+<tr class="memitem:aeed4b1a6666671249ddba0594b0204cd" id="r_aeed4b1a6666671249ddba0594b0204cd"><td class="memItemLeft" align="right" valign="top"><a id="aeed4b1a6666671249ddba0594b0204cd" name="aeed4b1a6666671249ddba0594b0204cd"></a>
+<a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>deviationScale</b> = {1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4}</td></tr>
+<tr class="memdesc:aeed4b1a6666671249ddba0594b0204cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial scale for the deviation of the individual bound track parameters. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a4df35c0bd7d0be1fd78c21c7cfae8cd5" name="a4df35c0bd7d0be1fd78c21c7cfae8cd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4df35c0bd7d0be1fd78c21c7cfae8cd5">&#9670;&#160;</a></span>actor_list_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_ridders_propagator_options.html">Acts::RiddersPropagatorOptions</a>&lt; propagator_t, actor_list_t &gt;::actor_list_type = actor_list_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a18c0130cb232f0ad6097052ff3c9f918" name="a18c0130cb232f0ad6097052ff3c9f918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18c0130cb232f0ad6097052ff3c9f918">&#9670;&#160;</a></span>base_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_ridders_propagator_options.html">Acts::RiddersPropagatorOptions</a>&lt; propagator_t, actor_list_t &gt;::base_type = propagator_t::template Options&lt;actor_list_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abbb23c4461fe0e83524929e0c51eb458" name="abbb23c4461fe0e83524929e0c51eb458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbb23c4461fe0e83524929e0c51eb458">&#9670;&#160;</a></span>navigator_options_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_ridders_propagator_options.html">Acts::RiddersPropagatorOptions</a>&lt; propagator_t, actor_list_t &gt;::navigator_options_type = typename base_type::navigator_options_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a461c42da548392a59b3f0e6d4e051302" name="a461c42da548392a59b3f0e6d4e051302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a461c42da548392a59b3f0e6d4e051302">&#9670;&#160;</a></span>stepper_options_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_ridders_propagator_options.html">Acts::RiddersPropagatorOptions</a>&lt; propagator_t, actor_list_t &gt;::stepper_options_type = typename base_type::stepper_options_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt;<br />
+struct Acts::RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;</div><p>Options for Ridders-based covariance propagation. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a82e52f021e0e78c7117507a931750c06" name="a82e52f021e0e78c7117507a931750c06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82e52f021e0e78c7117507a931750c06">&#9670;&#160;</a></span>RiddersPropagatorOptions() <span class="overload">[1/2]</span></h2>
 
@@ -250,6 +200,13 @@ template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt;
 </div><div class="memdoc">
 
 <p>PropagatorOptions with context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">mctx</td><td>Magnetic field context </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -279,6 +236,12 @@ template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt;
 </div><div class="memdoc">
 
 <p>PropagatorOptions with context and plain options. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pOptions</td><td>Plain propagator options </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -315,6 +278,7 @@ template&lt;typename extended_actor_list_t&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>New options with extended actor list </dd></dl>
 
 </div>
 </div>
@@ -335,24 +299,6 @@ template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt;
 
 <p>Different factors applied to the initial scale to create the deviations of the individual bound track parameters. </p>
 <p>The resulting function value deviations are then fitted to a line to determine the first order derivatives of the final parameters wrt. the initial parameters. </p>
-
-</div>
-</div>
-<a id="aeed4b1a6666671249ddba0594b0204cd" name="aeed4b1a6666671249ddba0594b0204cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeed4b1a6666671249ddba0594b0204cd">&#9670;&#160;</a></span>deviationScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename actor_list_t = ActorList&lt;&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> <a class="el" href="struct_acts_1_1_ridders_propagator_options.html">Acts::RiddersPropagatorOptions</a>&lt; propagator_t, actor_list_t &gt;::deviationScale = {1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initial scale for the deviation of the individual bound track parameters. </p>
 
 </div>
 </div>

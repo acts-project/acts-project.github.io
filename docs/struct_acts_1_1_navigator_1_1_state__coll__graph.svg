@@ -86,7 +86,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="struct_acts_1_1_navigator_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="struct_acts_1_1_navigator_plain_options.html" target="_top" xlink:title="Plain navigator options carrying geometry context and surfaces.">
 <polygon fill="white" stroke="#666666" points="1188,-611.04 1035,-611.04 1035,-592.04 1188,-592.04 1188,-611.04"/>
 <text text-anchor="middle" x="1111.5" y="-599.04" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::NavigatorPlainOptions</text>
 </a>
@@ -210,7 +210,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="474.5,-570.54 346.5,-570.54 346.5,-540.54 474.5,-540.54 474.5,-570.54"/>
+<polygon fill="white" stroke="#bfbfbf" points="474.5,-570.54 346.5,-570.54 346.5,-540.54 474.5,-540.54 474.5,-570.54"/>
 <text text-anchor="start" x="354.5" y="-558.54" font-family="Helvetica,sans-Serif" font-size="10.00">std::enable_shared</text>
 <text text-anchor="middle" x="410.5" y="-547.54" font-family="Helvetica,sans-Serif" font-size="10.00">_from_this&lt; Surface &gt;</text>
 </a>
@@ -460,7 +460,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000015" class="node">
 <title>Node15</title>
 <g id="a_Node000015"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1197.5,-437.54 1025.5,-437.54 1025.5,-363.54 1197.5,-363.54 1197.5,-437.54"/>
+<polygon fill="white" stroke="#bfbfbf" points="1197.5,-437.54 1025.5,-437.54 1025.5,-363.54 1197.5,-363.54 1197.5,-437.54"/>
 <text text-anchor="start" x="1033.5" y="-425.54" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="start" x="1033.5" y="-414.54" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="1033.5" y="-403.54" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;gctx, const TrackingVolume</text>
@@ -484,7 +484,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000016" class="node">
 <title>Node16</title>
 <g id="a_Node000016"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="816,-393.54 664,-393.54 664,-363.54 816,-363.54 816,-393.54"/>
+<polygon fill="white" stroke="#bfbfbf" points="816,-393.54 664,-393.54 664,-363.54 816,-363.54 816,-393.54"/>
 <text text-anchor="start" x="672" y="-381.54" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="740" y="-370.54" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>

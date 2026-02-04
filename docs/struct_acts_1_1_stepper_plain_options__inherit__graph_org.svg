@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Common options shared by plain steppers.">
 <polygon fill="#999999" stroke="#666666" points="143,-96.5 0,-96.5 0,-77.5 143,-77.5 143,-96.5"/>
 <text text-anchor="middle" x="71.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_atlas_stepper_1_1_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_atlas_stepper_1_1_options.html" target="_top" xlink:title="Stepper options extending plain stepper settings.">
 <polygon fill="white" stroke="#666666" points="302,-174 196,-174 196,-144 302,-144 302,-174"/>
 <text text-anchor="start" x="204" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AtlasStepper</text>
 <text text-anchor="middle" x="249" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>
@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="struct_acts_1_1_eigen_stepper_1_1_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="struct_acts_1_1_eigen_stepper_1_1_options.html" target="_top" xlink:title="Stepper options including geometry and magnetic field contexts.">
 <polygon fill="white" stroke="#666666" points="319,-126 179,-126 179,-96 319,-96 319,-126"/>
 <text text-anchor="start" x="187" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::EigenStepper</text>
 <text text-anchor="middle" x="249" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; extension_t &gt;::Options</text>
@@ -58,7 +58,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="struct_acts_1_1_straight_line_stepper_1_1_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="struct_acts_1_1_straight_line_stepper_1_1_options.html" target="_top" xlink:title="Configuration options for straight line propagation.">
 <polygon fill="white" stroke="#666666" points="319,-78 179,-78 179,-48 319,-48 319,-78"/>
 <text text-anchor="start" x="187" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StraightLineStepper</text>
 <text text-anchor="middle" x="249" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>
@@ -77,7 +77,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="struct_acts_1_1_sympy_stepper_1_1_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="struct_acts_1_1_sympy_stepper_1_1_options.html" target="_top" xlink:title="Runtime options for sympy propagation.">
 <polygon fill="white" stroke="#666666" points="306.5,-30 191.5,-30 191.5,0 306.5,0 306.5,-30"/>
 <text text-anchor="start" x="199.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SympyStepper</text>
 <text text-anchor="middle" x="249" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>

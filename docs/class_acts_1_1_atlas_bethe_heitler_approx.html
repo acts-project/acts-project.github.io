@@ -144,13 +144,17 @@ Collaboration diagram for Acts::AtlasBetheHeitlerApprox:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:PolyData" id="r_PolyData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html">PolyData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polynomial coefficient sets for a Gaussian mixture component.  <a href="struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa6ac00297c80c291d0f4d96a001746b9" id="r_aa6ac00297c80c291d0f4d96a001746b9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6ac00297c80c291d0f4d96a001746b9">Data</a> = std::vector&lt;<a class="el" href="struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html">PolyData</a>&gt;</td></tr>
-<tr class="memdesc:aa6ac00297c80c291d0f4d96a001746b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for array of polynomial data for all components.  <br /></td></tr>
+<tr class="memitem:aa6ac00297c80c291d0f4d96a001746b9" id="r_aa6ac00297c80c291d0f4d96a001746b9"><td class="memItemLeft" align="right" valign="top"><a id="aa6ac00297c80c291d0f4d96a001746b9" name="aa6ac00297c80c291d0f4d96a001746b9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b> = std::vector&lt;<a class="el" href="struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html">PolyData</a>&gt;</td></tr>
+<tr class="memdesc:aa6ac00297c80c291d0f4d96a001746b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for array of polynomial data for all components. <br /></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_bethe_heitler_approx"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_bethe_heitler_approx')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_bethe_heitler_approx.html">Acts::BetheHeitlerApprox</a></td></tr>
-<tr class="memitem:a28880193b20f2bd2ea69fcdd20cae1a3 inherit pub_types_class_acts_1_1_bethe_heitler_approx" id="r_a28880193b20f2bd2ea69fcdd20cae1a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> = detail::GaussianComponent</td></tr>
+<tr class="memitem:a28880193b20f2bd2ea69fcdd20cae1a3 inherit pub_types_class_acts_1_1_bethe_heitler_approx" id="r_a28880193b20f2bd2ea69fcdd20cae1a3"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> = detail::GaussianComponent</td></tr>
+<tr class="memdesc:a28880193b20f2bd2ea69fcdd20cae1a3 inherit pub_types_class_acts_1_1_bethe_heitler_approx"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for Gaussian mixture component. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -162,8 +166,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a58069d4b85319f6870ca3a52b8e6ea30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the mixture from the polynomials and reweights them, so that the sum of all weights is 1.  <br /></td></tr>
 <tr class="memitem:a17ef496b2c1950d883a24cfae5016623" id="r_a17ef496b2c1950d883a24cfae5016623"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ef496b2c1950d883a24cfae5016623">validXOverX0</a> (const double xOverX0) const override</td></tr>
 <tr class="memdesc:a17ef496b2c1950d883a24cfae5016623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an input is valid for the parameterization.  <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_bethe_heitler_approx"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_bethe_heitler_approx')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_bethe_heitler_approx.html">Acts::BetheHeitlerApprox</a></td></tr>
-<tr class="memitem:ae00e351510ed0f3f13f31d62f63acf7d inherit pub_methods_class_acts_1_1_bethe_heitler_approx" id="r_ae00e351510ed0f3f13f31d62f63acf7d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_bethe_heitler_approx.html#ae00e351510ed0f3f13f31d62f63acf7d">~BetheHeitlerApprox</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -173,24 +175,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class approximates the Bethe-Heitler distribution as a gaussian mixture. </p>
 <p>To enable an approximation for continuous input variables, the weights, means and variances are internally parametrized as a Nth order polynomial. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo</a></b></dt><dd>This class is rather inflexible: It forces two data representations, making it a bit awkward to add a single parameterization. It would be good to generalize this at some point.</dd></dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aa6ac00297c80c291d0f4d96a001746b9" name="aa6ac00297c80c291d0f4d96a001746b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6ac00297c80c291d0f4d96a001746b9">&#9670;&#160;</a></span>Data</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aa6ac00297c80c291d0f4d96a001746b9">Acts::AtlasBetheHeitlerApprox::Data</a> = std::vector&lt;<a class="el" href="struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html">PolyData</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for array of polynomial data for all components. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9099b6a6e452a64df0b5cef473af288c" name="a9099b6a6e452a64df0b5cef473af288c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9099b6a6e452a64df0b5cef473af288c">&#9670;&#160;</a></span>AtlasBetheHeitlerApprox()</h2>
 

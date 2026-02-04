@@ -1,5 +1,5 @@
 <map id="Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState" name="Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="956,186,1177,241"/>
+<area shape="rect" id="Node000001" title="Scratch buffers used during seeding for a middle space point." alt="" coords="956,186,1177,241"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="521,52,717,92"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="731,63,831,70,883,81,933,98,966,115,997,138,1044,184,1041,188,993,142,963,120,931,102,882,86,830,76,730,68"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="50,127,179,153"/>

@@ -1,9 +1,6 @@
 var class_acts_1_1_tracking_geometry =
 [
-    [ "GeometryVersion", "class_acts_1_1_tracking_geometry.html#a55e38e7e200a0a1d5f14261b30091b56", [
-      [ "Gen1", "class_acts_1_1_tracking_geometry.html#a55e38e7e200a0a1d5f14261b30091b56a96e4415796b83752bb28e748fffa2ed6", null ],
-      [ "Gen3", "class_acts_1_1_tracking_geometry.html#a55e38e7e200a0a1d5f14261b30091b56ab707aabb5e8aa708bf937c7305e47a8e", null ]
-    ] ],
+    [ "GeometryVersion", "class_acts_1_1_tracking_geometry.html#a55e38e7e200a0a1d5f14261b30091b56", null ],
     [ "TrackingGeometry", "class_acts_1_1_tracking_geometry.html#ac137c560c141758d82971b34c1eab353", null ],
     [ "~TrackingGeometry", "class_acts_1_1_tracking_geometry.html#a62c63f7206272b5f2e7e81064b2100d8", null ],
     [ "apply", "class_acts_1_1_tracking_geometry.html#a7ee4c8d4ea437543126fb6f2909e03b9", null ],

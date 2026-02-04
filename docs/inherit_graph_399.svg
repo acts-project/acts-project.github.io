@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_seed_finder.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_seed_finder.html" target="_top" xlink:title="Seed finder operating on grid&#45;based space points.">
 <polygon fill="white" stroke="#666666" points="186,-30 0,-30 0,0 186,0 186,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SeedFinder&lt; external</text>
 <text text-anchor="middle" x="93" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">_spacepoint_t, grid_t, platform_t &gt;</text>

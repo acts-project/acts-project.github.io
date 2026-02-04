@@ -1,5 +1,5 @@
 <map id="Acts::SpacePointBuilderConfig" name="Acts::SpacePointBuilderConfig">
-<area shape="rect" id="Node000001" title=" " alt="" coords="895,51,1112,77"/>
+<area shape="rect" id="Node000001" title="Configuration for space point builder setup." alt="" coords="895,51,1112,77"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="507,9,703,49"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="717,36,895,52,894,57,716,42"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="28,14,185,39"/>

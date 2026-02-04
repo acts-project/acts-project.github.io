@@ -126,12 +126,17 @@ $(function(){initNavTree('class_acts_1_1_source_link.html','','class_acts_1_1_so
 </div><!--header-->
 <div class="contents">
 
+<p>Type-erased source link wrapper.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_source_link_8hpp_source.html">Acts/EventData/SourceLink.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a42265494dc77213b06ae4167bcf6d50e" id="r_a42265494dc77213b06ae4167bcf6d50e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42265494dc77213b06ae4167bcf6d50e">SourceLink</a> (const SourceLink &amp;other)=default</td></tr>
+<tr class="memdesc:a42265494dc77213b06ae4167bcf6d50e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a0409b1633522a0d6e1a9d14da57bb86f" id="r_a0409b1633522a0d6e1a9d14da57bb86f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0409b1633522a0d6e1a9d14da57bb86f">SourceLink</a> (SourceLink &amp;&amp;other)=default</td></tr>
+<tr class="memdesc:a0409b1633522a0d6e1a9d14da57bb86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
 <tr class="memitem:a4cf163d8351dda9673ef5056f87d49e5" id="r_a4cf163d8351dda9673ef5056f87d49e5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; <br />
 requires (!std::same_as&lt;std::decay_t&lt;T&gt;, SourceLink&gt;)</td></tr>
 <tr class="memitem:a4cf163d8351dda9673ef5056f87d49e5 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf163d8351dda9673ef5056f87d49e5">SourceLink</a> (T &amp;&amp;upstream)</td></tr>
@@ -143,9 +148,13 @@ requires (!std::same_as&lt;std::decay_t&lt;T&gt;, SourceLink&gt;)</td></tr>
 <tr class="memitem:abc7ddc3f96a26283262adb6603b7d45a template"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7ddc3f96a26283262adb6603b7d45a">get</a> () const</td></tr>
 <tr class="memdesc:abc7ddc3f96a26283262adb6603b7d45a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concrete source link class getter, const version.  <br /></td></tr>
 <tr class="memitem:a8f753bc71df7839333e483e06b1100b9" id="r_a8f753bc71df7839333e483e06b1100b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42265494dc77213b06ae4167bcf6d50e">SourceLink</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f753bc71df7839333e483e06b1100b9">operator=</a> (const <a class="el" href="#a42265494dc77213b06ae4167bcf6d50e">SourceLink</a> &amp;other)=default</td></tr>
+<tr class="memdesc:a8f753bc71df7839333e483e06b1100b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
 <tr class="memitem:a30a0b15d63ba2f38e9b4acea38a1b714" id="r_a30a0b15d63ba2f38e9b4acea38a1b714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42265494dc77213b06ae4167bcf6d50e">SourceLink</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30a0b15d63ba2f38e9b4acea38a1b714">operator=</a> (<a class="el" href="#a42265494dc77213b06ae4167bcf6d50e">SourceLink</a> &amp;&amp;other)=default</td></tr>
+<tr class="memdesc:a30a0b15d63ba2f38e9b4acea38a1b714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Type-erased source link wrapper. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42265494dc77213b06ae4167bcf6d50e" name="a42265494dc77213b06ae4167bcf6d50e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42265494dc77213b06ae4167bcf6d50e">&#9670;&#160;</a></span>SourceLink() <span class="overload">[1/3]</span></h2>
 
@@ -168,6 +177,14 @@ requires (!std::same_as&lt;std::decay_t&lt;T&gt;, SourceLink&gt;)</td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Source link to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -193,6 +210,14 @@ requires (!std::same_as&lt;std::decay_t&lt;T&gt;, SourceLink&gt;)</td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Move constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Source link to move from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -318,6 +343,15 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Copy assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Source link to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this source link </dd></dl>
+
 </div>
 </div>
 <a id="a30a0b15d63ba2f38e9b4acea38a1b714" name="a30a0b15d63ba2f38e9b4acea38a1b714"></a>
@@ -342,6 +376,15 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Move assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Source link to move from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this source link </dd></dl>
 
 </div>
 </div>

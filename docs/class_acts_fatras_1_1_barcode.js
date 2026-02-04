@@ -30,6 +30,5 @@ var class_acts_fatras_1_1_barcode =
     [ "withSubParticle", "class_acts_fatras_1_1_barcode.html#a999f4a5b7544c12d183b809364de68a4", null ],
     [ "withVertexPrimary", "class_acts_fatras_1_1_barcode.html#af76f8f17e601ddb5f12a05feb87123ab", null ],
     [ "withVertexSecondary", "class_acts_fatras_1_1_barcode.html#a7b7f0fed2e2f8845a3608a8a6d691cc2", null ],
-    [ "operator<<", "class_acts_fatras_1_1_barcode.html#a496f1f50ea70f1e021686d4c1ccb51d1", null ],
-    [ "operator<=>", "class_acts_fatras_1_1_barcode.html#a3c08378437649c7ea336242d12eae185", null ]
+    [ "operator<<", "class_acts_fatras_1_1_barcode.html#a496f1f50ea70f1e021686d4c1ccb51d1", null ]
 ];

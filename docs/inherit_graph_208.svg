@@ -40,7 +40,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi.html" target="_top" xlink:title="Convert bound cylinder local coordinates to Z&#45;Phi grid coordinates.">
 <polygon fill="white" stroke="#666666" points="348.5,-78 173.5,-78 173.5,-48 348.5,-48 348.5,-78"/>
 <text text-anchor="start" x="181.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::GridAccess::BoundCylinder</text>
 <text text-anchor="middle" x="261" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">ToZPhi</text>
@@ -59,7 +59,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="class_acts_1_1_grid_access_1_1_local_subspace.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="class_acts_1_1_grid_access_1_1_local_subspace.html" target="_top" xlink:title="Access a local coordinate subspace for bound parameter grids.">
 <polygon fill="white" stroke="#666666" points="349,-30 173,-30 173,0 349,0 349,-30"/>
 <text text-anchor="start" x="181" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::GridAccess::LocalSubspace</text>
 <text text-anchor="middle" x="261" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Args &gt;</text>

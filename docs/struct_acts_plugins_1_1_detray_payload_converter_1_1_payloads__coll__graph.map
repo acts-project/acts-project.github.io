@@ -1,5 +1,5 @@
 <map id="ActsPlugins::DetrayPayloadConverter::Payloads" name="ActsPlugins::DetrayPayloadConverter::Payloads">
-<area shape="rect" id="Node000001" title=" " alt="" coords="873,229,1073,269"/>
+<area shape="rect" id="Node000001" title="Container for all Detray payload outputs." alt="" coords="873,229,1073,269"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="450,44,629,84"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="643,84,745,114,799,134,851,158,906,192,951,227,947,231,903,196,848,162,797,139,743,119,641,89"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,183,163,209"/>

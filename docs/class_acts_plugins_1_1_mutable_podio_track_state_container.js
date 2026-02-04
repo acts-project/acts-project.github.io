@@ -30,7 +30,5 @@ var class_acts_plugins_1_1_mutable_podio_track_state_container =
     [ "setUncalibratedSourceLink_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ac3581c4594e326d402118b383dff5afb", null ],
     [ "shareFrom_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a7f7879084696bef73176fd6a0dca08a0", null ],
     [ "size_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a9136afcd8384a3f55808dd1160859d23", null ],
-    [ "unset_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a469f1258daaf0d164a42c5d704312361", null ],
-    [ "ConstPodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ae48f5f927303f694443d9efad389f29a", null ],
-    [ "PodioTrackStateContainerBase", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a89bcdf579e444753685603993a86be4a", null ]
+    [ "unset_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a469f1258daaf0d164a42c5d704312361", null ]
 ];

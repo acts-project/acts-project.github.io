@@ -106,7 +106,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title="Common options shared by plain steppers.">
 <polygon fill="white" stroke="#666666" points="989,-179.5 846,-179.5 846,-160.5 989,-160.5 989,-179.5"/>
 <text text-anchor="middle" x="917.5" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 </a>
@@ -125,7 +125,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="struct_acts_1_1_stepper_plain_options_1_1_dense.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="struct_acts_1_1_stepper_plain_options_1_1_dense.html" target="_top" xlink:title="Options for dense material effects.">
 <polygon fill="white" stroke="#666666" points="732,-193 589,-193 589,-163 732,-163 732,-193"/>
 <text text-anchor="start" x="597" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 <text text-anchor="middle" x="660.5" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00">::Dense</text>
@@ -145,7 +145,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="struct_acts_1_1_navigator_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="struct_acts_1_1_navigator_plain_options.html" target="_top" xlink:title="Plain navigator options carrying geometry context and surfaces.">
 <polygon fill="white" stroke="#666666" points="994,-138.5 841,-138.5 841,-119.5 994,-119.5 994,-138.5"/>
 <text text-anchor="middle" x="917.5" y="-126.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::NavigatorPlainOptions</text>
 </a>
@@ -232,7 +232,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="430.5,-138 302.5,-138 302.5,-108 430.5,-108 430.5,-138"/>
+<polygon fill="white" stroke="#bfbfbf" points="430.5,-138 302.5,-138 302.5,-108 430.5,-108 430.5,-138"/>
 <text text-anchor="start" x="310.5" y="-126" font-family="Helvetica,sans-Serif" font-size="10.00">std::enable_shared</text>
 <text text-anchor="middle" x="366.5" y="-115" font-family="Helvetica,sans-Serif" font-size="10.00">_from_this&lt; Surface &gt;</text>
 </a>

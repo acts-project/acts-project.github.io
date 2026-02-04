@@ -141,14 +141,18 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a670afe39882806c3f6b24c784bd7a80d" id="r_a670afe39882806c3f6b24c784bd7a80d"><td class="memItemLeft" align="right" valign="top">charged_simulator_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a670afe39882806c3f6b24c784bd7a80d">charged</a></td></tr>
-<tr class="memdesc:a670afe39882806c3f6b24c784bd7a80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulator for charged particles.  <br /></td></tr>
-<tr class="memitem:a4a30561e39ac229892263092ed89d2a5" id="r_a4a30561e39ac229892263092ed89d2a5"><td class="memItemLeft" align="right" valign="top">neutral_simulator_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a30561e39ac229892263092ed89d2a5">neutral</a></td></tr>
-<tr class="memdesc:a4a30561e39ac229892263092ed89d2a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulator for neutral particles.  <br /></td></tr>
-<tr class="memitem:a4e61a2f9eecd215cc117ef98e7a676e5" id="r_a4e61a2f9eecd215cc117ef98e7a676e5"><td class="memItemLeft" align="right" valign="top">charged_selector_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e61a2f9eecd215cc117ef98e7a676e5">selectCharged</a></td></tr>
-<tr class="memdesc:a4e61a2f9eecd215cc117ef98e7a676e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selector for charged particle simulation.  <br /></td></tr>
-<tr class="memitem:a2460b893ee3ca9720e46d9e70d0fc089" id="r_a2460b893ee3ca9720e46d9e70d0fc089"><td class="memItemLeft" align="right" valign="top">neutral_selector_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2460b893ee3ca9720e46d9e70d0fc089">selectNeutral</a></td></tr>
-<tr class="memdesc:a2460b893ee3ca9720e46d9e70d0fc089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selector for neutral particle simulation.  <br /></td></tr>
+<tr class="memitem:a670afe39882806c3f6b24c784bd7a80d" id="r_a670afe39882806c3f6b24c784bd7a80d"><td class="memItemLeft" align="right" valign="top"><a id="a670afe39882806c3f6b24c784bd7a80d" name="a670afe39882806c3f6b24c784bd7a80d"></a>
+charged_simulator_t&#160;</td><td class="memItemRight" valign="bottom"><b>charged</b></td></tr>
+<tr class="memdesc:a670afe39882806c3f6b24c784bd7a80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulator for charged particles. <br /></td></tr>
+<tr class="memitem:a4a30561e39ac229892263092ed89d2a5" id="r_a4a30561e39ac229892263092ed89d2a5"><td class="memItemLeft" align="right" valign="top"><a id="a4a30561e39ac229892263092ed89d2a5" name="a4a30561e39ac229892263092ed89d2a5"></a>
+neutral_simulator_t&#160;</td><td class="memItemRight" valign="bottom"><b>neutral</b></td></tr>
+<tr class="memdesc:a4a30561e39ac229892263092ed89d2a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulator for neutral particles. <br /></td></tr>
+<tr class="memitem:a4e61a2f9eecd215cc117ef98e7a676e5" id="r_a4e61a2f9eecd215cc117ef98e7a676e5"><td class="memItemLeft" align="right" valign="top"><a id="a4e61a2f9eecd215cc117ef98e7a676e5" name="a4e61a2f9eecd215cc117ef98e7a676e5"></a>
+charged_selector_t&#160;</td><td class="memItemRight" valign="bottom"><b>selectCharged</b></td></tr>
+<tr class="memdesc:a4e61a2f9eecd215cc117ef98e7a676e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selector for charged particle simulation. <br /></td></tr>
+<tr class="memitem:a2460b893ee3ca9720e46d9e70d0fc089" id="r_a2460b893ee3ca9720e46d9e70d0fc089"><td class="memItemLeft" align="right" valign="top"><a id="a2460b893ee3ca9720e46d9e70d0fc089" name="a2460b893ee3ca9720e46d9e70d0fc089"></a>
+neutral_selector_t&#160;</td><td class="memItemRight" valign="bottom"><b>selectNeutral</b></td></tr>
+<tr class="memdesc:a2460b893ee3ca9720e46d9e70d0fc089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selector for neutral particle simulation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename charged_selector_t, typename charged_simulator_t, typename neutral_selector_t, typename neutral_simulator_t&gt;<br />
@@ -279,79 +283,6 @@ Failed particles are removed from the regular output, i.e. they do not appear in
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a670afe39882806c3f6b24c784bd7a80d" name="a670afe39882806c3f6b24c784bd7a80d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a670afe39882806c3f6b24c784bd7a80d">&#9670;&#160;</a></span>charged</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename charged_selector_t, typename charged_simulator_t, typename neutral_selector_t, typename neutral_simulator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">charged_simulator_t <a class="el" href="struct_acts_fatras_1_1_simulation.html">ActsFatras::Simulation</a>&lt; charged_selector_t, charged_simulator_t, neutral_selector_t, neutral_simulator_t &gt;::charged</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Simulator for charged particles. </p>
-
-</div>
-</div>
-<a id="a4a30561e39ac229892263092ed89d2a5" name="a4a30561e39ac229892263092ed89d2a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a30561e39ac229892263092ed89d2a5">&#9670;&#160;</a></span>neutral</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename charged_selector_t, typename charged_simulator_t, typename neutral_selector_t, typename neutral_simulator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">neutral_simulator_t <a class="el" href="struct_acts_fatras_1_1_simulation.html">ActsFatras::Simulation</a>&lt; charged_selector_t, charged_simulator_t, neutral_selector_t, neutral_simulator_t &gt;::neutral</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Simulator for neutral particles. </p>
-
-</div>
-</div>
-<a id="a4e61a2f9eecd215cc117ef98e7a676e5" name="a4e61a2f9eecd215cc117ef98e7a676e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e61a2f9eecd215cc117ef98e7a676e5">&#9670;&#160;</a></span>selectCharged</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename charged_selector_t, typename charged_simulator_t, typename neutral_selector_t, typename neutral_simulator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">charged_selector_t <a class="el" href="struct_acts_fatras_1_1_simulation.html">ActsFatras::Simulation</a>&lt; charged_selector_t, charged_simulator_t, neutral_selector_t, neutral_simulator_t &gt;::selectCharged</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selector for charged particle simulation. </p>
-
-</div>
-</div>
-<a id="a2460b893ee3ca9720e46d9e70d0fc089" name="a2460b893ee3ca9720e46d9e70d0fc089"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2460b893ee3ca9720e46d9e70d0fc089">&#9670;&#160;</a></span>selectNeutral</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename charged_selector_t, typename charged_simulator_t, typename neutral_selector_t, typename neutral_simulator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">neutral_selector_t <a class="el" href="struct_acts_fatras_1_1_simulation.html">ActsFatras::Simulation</a>&lt; charged_selector_t, charged_simulator_t, neutral_selector_t, neutral_simulator_t &gt;::selectNeutral</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selector for neutral particle simulation. </p>
 
 </div>
 </div>

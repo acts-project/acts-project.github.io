@@ -171,11 +171,11 @@ $(function(){initNavTree('_track_state_proxy_concept_8hpp_source.html','',''); }
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                        Eigen::ColMajor | Eigen::AutoAlign&gt;&gt;;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">auto</span> ProjectorFlags = Eigen::RowMajor | Eigen::AutoAlign;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">using </span>Projector = Eigen::Matrix&lt;<span class="keyword">typename</span> Covariance::Scalar, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>,</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                                <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, ProjectorFlags&gt;;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">using </span>Projector = Eigen::Matrix&lt;<span class="keyword">typename</span> Covariance::Scalar, eBoundSize,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                                eBoundSize, ProjectorFlags&gt;;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">using </span>EffectiveProjector =</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    Eigen::Matrix&lt;<span class="keyword">typename</span> Projector::Scalar, Eigen::Dynamic, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>,</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                  ProjectorFlags, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, <a class="code hl_enumvalue" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>&gt;;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    Eigen::Matrix&lt;<span class="keyword">typename</span> Projector::Scalar, Eigen::Dynamic, eBoundSize,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                  ProjectorFlags, eBoundSize, eBoundSize&gt;;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}  <span class="comment">// namespace detail</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
@@ -392,7 +392,7 @@ $(function(){initNavTree('_track_state_proxy_concept_8hpp_source.html','',''); }
 </div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdef"><b>Definition</b> SourceLink.hpp:28</div></div>
+<div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Type-erased source link wrapper.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
 <div class="ttc" id="aconcept_acts_1_1_const_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_const_track_state_proxy_concept.html">Acts::ConstTrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:169</div></div>
 <div class="ttc" id="aconcept_acts_1_1_mutable_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_mutable_track_state_proxy_concept.html">Acts::MutableTrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:209</div></div>
 <div class="ttc" id="aconcept_acts_1_1_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_track_state_proxy_concept.html">Acts::TrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:63</div></div>
@@ -405,14 +405,13 @@ $(function(){initNavTree('_track_state_proxy_concept_8hpp_source.html','',''); }
 <div class="ttc" id="anamespace_acts_html_a316aaac27fda3651c80ea8dfba83492a"><div class="ttname"><a href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a></div><div class="ttdeci">std::uint32_t HashedString</div><div class="ttdoc">Type alias for hashed string representation.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:21</div></div>
 <div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:21</div></div>
 <div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">Acts::TrackStatePropMask</a></div><div class="ttdeci">TrackStatePropMask</div><div class="ttdoc">Collection of bit masks to enable steering which components of a track state should be initialized,...</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:28</div></div>
-<div class="ttc" id="anamespace_acts_html_ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8"><div class="ttname"><a href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">Acts::eBoundSize</a></div><div class="ttdeci">@ eBoundSize</div><div class="ttdef"><b>Definition</b> TrackParametrization.hpp:55</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_89e84df95f8c32f2962532a6d6ea4eaf.html">EventData</a></li><li class="navelem"><b>TrackStateProxyConcept.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>EventData</b></li><li class="navelem"><b>TrackStateProxyConcept.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

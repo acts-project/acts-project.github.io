@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_types_1_1get_back_3_01_type_list_3_01_
 </div><!--header-->
 <div class="contents">
 
+<p>Get the last type from a type list.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_type_list_8hpp_source.html">Acts/Utilities/TypeList.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::Types::getBack&lt; TypeList&lt; T, Ts... &gt; &gt;:</div>
@@ -141,8 +144,12 @@ Collaboration diagram for Acts::Types::getBack&lt; TypeList&lt; T, Ts... &gt; &g
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ae6fc80f0c277ff3581616f2704146ad1" id="r_ae6fc80f0c277ff3581616f2704146ad1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6fc80f0c277ff3581616f2704146ad1">type</a></td></tr>
+<tr class="memdesc:ae6fc80f0c277ff3581616f2704146ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last type in list.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T, typename... Ts&gt;<br />
+struct Acts::Types::getBack&lt; TypeList&lt; T, Ts... &gt; &gt;</div><p>Get the last type from a type list. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="ae6fc80f0c277ff3581616f2704146ad1" name="ae6fc80f0c277ff3581616f2704146ad1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6fc80f0c277ff3581616f2704146ad1">&#9670;&#160;</a></span>type</h2>
 
@@ -159,9 +166,11 @@ template&lt;typename T, typename... Ts&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> std::conditional_t&lt;<span class="keyword">sizeof</span>...(Ts) == 0, T,</div>
 <div class="line">                                  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_types_1_1get_back.html">getBack</a>&lt;<a class="code hl_struct" href="struct_acts_1_1_type_list.html">TypeList&lt;Ts...&gt;</a>&gt;<a class="code hl_typedef" href="#ae6fc80f0c277ff3581616f2704146ad1">::type</a>&gt;</div>
 <div class="ttc" id="astruct_acts_1_1_type_list_html"><div class="ttname"><a href="struct_acts_1_1_type_list.html">Acts::TypeList</a></div><div class="ttdoc">type list implementation</div><div class="ttdef"><b>Definition</b> TypeList.hpp:20</div></div>
-<div class="ttc" id="astruct_acts_1_1_types_1_1get_back_3_01_type_list_3_01_t_00_01_ts_8_8_8_01_4_01_4_html_ae6fc80f0c277ff3581616f2704146ad1"><div class="ttname"><a href="#ae6fc80f0c277ff3581616f2704146ad1">Acts::Types::getBack&lt; TypeList&lt; T, Ts... &gt; &gt;::type</a></div><div class="ttdeci">std::conditional_t&lt; sizeof...(Ts)==0, T, typename getBack&lt; TypeList&lt; Ts... &gt; &gt;::type &gt; type</div><div class="ttdef"><b>Definition</b> TypeList.hpp:58</div></div>
-<div class="ttc" id="astruct_acts_1_1_types_1_1get_back_html"><div class="ttname"><a href="struct_acts_1_1_types_1_1get_back.html">Acts::Types::getBack</a></div><div class="ttdoc">Access the last type.</div><div class="ttdef"><b>Definition</b> TypeList.hpp:54</div></div>
+<div class="ttc" id="astruct_acts_1_1_types_1_1get_back_3_01_type_list_3_01_t_00_01_ts_8_8_8_01_4_01_4_html_ae6fc80f0c277ff3581616f2704146ad1"><div class="ttname"><a href="#ae6fc80f0c277ff3581616f2704146ad1">Acts::Types::getBack&lt; TypeList&lt; T, Ts... &gt; &gt;::type</a></div><div class="ttdeci">std::conditional_t&lt; sizeof...(Ts)==0, T, typename getBack&lt; TypeList&lt; Ts... &gt; &gt;::type &gt; type</div><div class="ttdoc">Last type in list.</div><div class="ttdef"><b>Definition</b> TypeList.hpp:62</div></div>
+<div class="ttc" id="astruct_acts_1_1_types_1_1get_back_html"><div class="ttname"><a href="struct_acts_1_1_types_1_1get_back.html">Acts::Types::getBack</a></div><div class="ttdoc">Access the last type.</div><div class="ttdef"><b>Definition</b> TypeList.hpp:56</div></div>
 </div><!-- fragment -->
+<p>Last type in list. </p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -177,7 +186,7 @@ template&lt;typename T, typename... Ts&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_types.html">Types</a></li><li class="navelem"><a href="struct_acts_1_1_types_1_1get_back_3_01_type_list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html">getBack&lt; TypeList&lt; T, Ts... &gt; &gt;</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>Types</b></li><li class="navelem"><a href="struct_acts_1_1_types_1_1get_back_3_01_type_list_3_01_t_00_01_ts_8_8_8_01_4_01_4.html">getBack&lt; TypeList&lt; T, Ts... &gt; &gt;</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_generic_cuboid_volume_bounds.html','','
 </div><!--header-->
 <div class="contents">
 
+<p>Volume bounds described by eight arbitrary cuboid vertices.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_generic_cuboid_volume_bounds_8hpp_source.html">Acts/Geometry/GenericCuboidVolumeBounds.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::GenericCuboidVolumeBounds:</div>
@@ -145,12 +148,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1ab7cf2b5c5ed6ddd2b548da122d72b6" id="r_a1ab7cf2b5c5ed6ddd2b548da122d72b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ab7cf2b5c5ed6ddd2b548da122d72b6">GenericCuboidVolumeBounds</a> ()=delete</td></tr>
 <tr class="memitem:a136696eb82bfde0cefd3cb70f58ebb8c" id="r_a136696eb82bfde0cefd3cb70f58ebb8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136696eb82bfde0cefd3cb70f58ebb8c">GenericCuboidVolumeBounds</a> (const std::array&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>, 8 &gt; &amp;vertices) noexcept(false)</td></tr>
 <tr class="memdesc:a136696eb82bfde0cefd3cb70f58ebb8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a set of vertices.  <br /></td></tr>
 <tr class="memitem:a8971c1471615d62d60c0cbd36c720dff" id="r_a8971c1471615d62d60c0cbd36c720dff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8971c1471615d62d60c0cbd36c720dff">GenericCuboidVolumeBounds</a> (const std::array&lt; double, <a class="el" href="struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c">BoundValues::eSize</a> &gt; &amp;<a class="el" href="#a6a20d59a80d992ed2c06d2d8b3a0e16a">values</a>) noexcept(false)</td></tr>
 <tr class="memdesc:a8971c1471615d62d60c0cbd36c720dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a fixed size array.  <br /></td></tr>
-<tr class="memitem:a2e532098c7b4e0ffdacaabf7e5d55883" id="r_a2e532098c7b4e0ffdacaabf7e5d55883"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e532098c7b4e0ffdacaabf7e5d55883">~GenericCuboidVolumeBounds</a> () override=default</td></tr>
 <tr class="memitem:a9596f70ccbb4df70dd943af4020cba5a" id="r_a9596f70ccbb4df70dd943af4020cba5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b">Volume::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9596f70ccbb4df70dd943af4020cba5a">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> *trf=nullptr, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;envelope={0, 0, 0}, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> *entity=nullptr) const final</td></tr>
 <tr class="memdesc:a9596f70ccbb4df70dd943af4020cba5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:aa1aad6c6ebcca5105f35b1082a998d0e" id="r_aa1aad6c6ebcca5105f35b1082a998d0e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1aad6c6ebcca5105f35b1082a998d0e">canonicalAxes</a> () const override</td></tr>
@@ -167,8 +168,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a20d59a80d992ed2c06d2d8b3a0e16a" id="r_a6a20d59a80d992ed2c06d2d8b3a0e16a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a20d59a80d992ed2c06d2d8b3a0e16a">values</a> () const final</td></tr>
 <tr class="memdesc:a6a20d59a80d992ed2c06d2d8b3a0e16a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the bound values as dynamically sized vector.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_volume_bounds"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_volume_bounds')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a></td></tr>
-<tr class="memitem:a51370d477bcc159f12e16df8dd772caf inherit pub_methods_class_acts_1_1_volume_bounds" id="r_a51370d477bcc159f12e16df8dd772caf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a51370d477bcc159f12e16df8dd772caf">VolumeBounds</a> ()=default</td></tr>
-<tr class="memitem:a94227dab63034d4fe92166a03e287957 inherit pub_methods_class_acts_1_1_volume_bounds" id="r_a94227dab63034d4fe92166a03e287957"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a94227dab63034d4fe92166a03e287957">~VolumeBounds</a> ()=default</td></tr>
 <tr class="memitem:a4bde0b3c9d70391129f19bb8c9e461cd inherit pub_methods_class_acts_1_1_volume_bounds" id="r_a4bde0b3c9d70391129f19bb8c9e461cd"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a4bde0b3c9d70391129f19bb8c9e461cd">referenceBorder</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
 <tr class="memdesc:a4bde0b3c9d70391129f19bb8c9e461cd inherit pub_methods_class_acts_1_1_volume_bounds"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binning borders in double.  <br /></td></tr>
 <tr class="memitem:aceaf78edf7fb73a022ab6c56b975a7dd inherit pub_methods_class_acts_1_1_volume_bounds" id="r_aceaf78edf7fb73a022ab6c56b975a7dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#aceaf78edf7fb73a022ab6c56b975a7dd">referenceOffset</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
@@ -177,51 +176,29 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_volume_bounds"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_volume_bounds')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a></td></tr>
-<tr class="memitem:a3840f312b207bfdd5cbbcc4ac9981495 inherit pub_types_class_acts_1_1_volume_bounds" id="r_a3840f312b207bfdd5cbbcc4ac9981495"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495">BoundsType</a> { <br />
-&#160;&#160;<a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a9a0cd7911f39e925e5b29f602780e2c8">eCone</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495aa3e9dfa095ec5d399034912e501cb5b4">eCuboid</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a1353c349ebba70c186c63b5abe06176e">eCutoutCylinder</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495adf9307543366162ca5ef664dc41df064">eCylinder</a>
+<tr class="memitem:a3840f312b207bfdd5cbbcc4ac9981495 inherit pub_types_class_acts_1_1_volume_bounds" id="r_a3840f312b207bfdd5cbbcc4ac9981495"><td class="memItemLeft" align="right" valign="top"><a id="a3840f312b207bfdd5cbbcc4ac9981495" name="a3840f312b207bfdd5cbbcc4ac9981495"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495">BoundsType</a> { <br />
+&#160;&#160;<b>eCone</b>
+, <b>eCuboid</b>
+, <b>eCutoutCylinder</b>
+, <b>eCylinder</b>
 , <br />
-&#160;&#160;<a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a8a2fe50b80f4ee00c225d458ef41c69e">eGenericCuboid</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495abaf59e1244c0ccb30b4644667e4fe9b5">eTrapezoid</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495a473f5f5ee5e2c717fcaea06d66782ae2">eDiamond</a>
-, <a class="el" href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495ad4d8daafac40a4c03967f6dc9db5a717">eOther</a>
+&#160;&#160;<b>eGenericCuboid</b>
+, <b>eTrapezoid</b>
+, <b>eDiamond</b>
+, <b>eOther</b>
 <br />
  }</td></tr>
-<tr class="memdesc:a3840f312b207bfdd5cbbcc4ac9981495"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type.  <a href="class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495">More...</a><br /></td></tr>
+<tr class="memdesc:a3840f312b207bfdd5cbbcc4ac9981495"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type. <br /></td></tr>
 <tr class="inherit_header pub_static_attribs_class_acts_1_1_volume_bounds"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_class_acts_1_1_volume_bounds')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a></td></tr>
-<tr class="memitem:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds" id="r_accdf685a7cfd6aaee828b462262d2e63"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume_bounds.html#accdf685a7cfd6aaee828b462262d2e63">s_boundsTypeNames</a></td></tr>
-<tr class="memdesc:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static member to get the name of the BoundsType.  <br /></td></tr>
+<tr class="memitem:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds" id="r_accdf685a7cfd6aaee828b462262d2e63"><td class="memItemLeft" align="right" valign="top">
+static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s_boundsTypeNames</b></td></tr>
+<tr class="memdesc:accdf685a7cfd6aaee828b462262d2e63 inherit pub_static_attribs_class_acts_1_1_volume_bounds"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static member to get the name of the BoundsType. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1ab7cf2b5c5ed6ddd2b548da122d72b6" name="a1ab7cf2b5c5ed6ddd2b548da122d72b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ab7cf2b5c5ed6ddd2b548da122d72b6">&#9670;&#160;</a></span>GenericCuboidVolumeBounds() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::GenericCuboidVolumeBounds::GenericCuboidVolumeBounds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Volume bounds described by eight arbitrary cuboid vertices. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a136696eb82bfde0cefd3cb70f58ebb8c" name="a136696eb82bfde0cefd3cb70f58ebb8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a136696eb82bfde0cefd3cb70f58ebb8c">&#9670;&#160;</a></span>GenericCuboidVolumeBounds() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a136696eb82bfde0cefd3cb70f58ebb8c">&#9670;&#160;</a></span>GenericCuboidVolumeBounds() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +236,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a8971c1471615d62d60c0cbd36c720dff" name="a8971c1471615d62d60c0cbd36c720dff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8971c1471615d62d60c0cbd36c720dff">&#9670;&#160;</a></span>GenericCuboidVolumeBounds() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8971c1471615d62d60c0cbd36c720dff">&#9670;&#160;</a></span>GenericCuboidVolumeBounds() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,31 +265,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a2e532098c7b4e0ffdacaabf7e5d55883" name="a2e532098c7b4e0ffdacaabf7e5d55883"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e532098c7b4e0ffdacaabf7e5d55883">&#9670;&#160;</a></span>~GenericCuboidVolumeBounds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::GenericCuboidVolumeBounds::~GenericCuboidVolumeBounds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -532,6 +484,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The output stream </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de">Acts::VolumeBounds</a>.</p>
 

@@ -1,6 +1,5 @@
 var struct_acts_1_1_vertex_info =
 [
-    [ "VertexInfo", "struct_acts_1_1_vertex_info.html#aa475a2a36fe1d6164232e1f1c845c0f0", null ],
     [ "VertexInfo", "struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415", null ],
     [ "constraint", "struct_acts_1_1_vertex_info.html#afc25ea77e6b792bfba14acea1862e019", null ],
     [ "impactParams3D", "struct_acts_1_1_vertex_info.html#a749dc13ddc68140c10ef28625be8575d", null ],

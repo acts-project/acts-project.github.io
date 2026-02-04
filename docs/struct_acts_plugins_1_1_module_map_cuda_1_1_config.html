@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_plugins_1_1_module_map_cuda_1_1_config.htm
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration for ModuleMapCuda.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_module_map_cuda_8hpp_source.html">ActsPlugins/Gnn/ModuleMapCuda.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::ModuleMapCuda::Config:</div>
@@ -135,144 +138,37 @@ Collaboration diagram for ActsPlugins::ModuleMapCuda::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a309ec1d3a08d0fe9dc066ae858bae633" id="r_a309ec1d3a08d0fe9dc066ae858bae633"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a309ec1d3a08d0fe9dc066ae858bae633">epsilon</a> = 1e-8f</td></tr>
-<tr class="memitem:a6a5deca179b9b91ac1411c767a5dfa5e" id="r_a6a5deca179b9b91ac1411c767a5dfa5e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a5deca179b9b91ac1411c767a5dfa5e">etaScale</a> = 1.0</td></tr>
-<tr class="memitem:adaed7137aae438d4a741c09546daf24f" id="r_adaed7137aae438d4a741c09546daf24f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaed7137aae438d4a741c09546daf24f">gpuBlocks</a> = 512</td></tr>
-<tr class="memitem:ae104a63b0b7b0bdba872050acb286bcb" id="r_ae104a63b0b7b0bdba872050acb286bcb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae104a63b0b7b0bdba872050acb286bcb">gpuDevice</a> = 0</td></tr>
-<tr class="memitem:a46280d8fb7195b73cc09d827630ea376" id="r_a46280d8fb7195b73cc09d827630ea376"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46280d8fb7195b73cc09d827630ea376">moduleMapPath</a></td></tr>
-<tr class="memitem:a041a908632ce7a24e68a0b81c26ad66b" id="r_a041a908632ce7a24e68a0b81c26ad66b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a041a908632ce7a24e68a0b81c26ad66b">moreParallel</a> = true</td></tr>
-<tr class="memitem:a03b067774629d5397fc852ecbd10ae2f" id="r_a03b067774629d5397fc852ecbd10ae2f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b067774629d5397fc852ecbd10ae2f">phiScale</a> = 1.0</td></tr>
-<tr class="memitem:a81dd6fb189a118e4f5a3a2e691b006ae" id="r_a81dd6fb189a118e4f5a3a2e691b006ae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81dd6fb189a118e4f5a3a2e691b006ae">rScale</a> = 1.0</td></tr>
-<tr class="memitem:a58a1aea048fdccba2ddb34292655e5ce" id="r_a58a1aea048fdccba2ddb34292655e5ce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a1aea048fdccba2ddb34292655e5ce">zScale</a> = 1.0</td></tr>
+<tr class="memitem:a309ec1d3a08d0fe9dc066ae858bae633" id="r_a309ec1d3a08d0fe9dc066ae858bae633"><td class="memItemLeft" align="right" valign="top"><a id="a309ec1d3a08d0fe9dc066ae858bae633" name="a309ec1d3a08d0fe9dc066ae858bae633"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>epsilon</b> = 1e-8f</td></tr>
+<tr class="memdesc:a309ec1d3a08d0fe9dc066ae858bae633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Small numerical constant for stability. <br /></td></tr>
+<tr class="memitem:a6a5deca179b9b91ac1411c767a5dfa5e" id="r_a6a5deca179b9b91ac1411c767a5dfa5e"><td class="memItemLeft" align="right" valign="top"><a id="a6a5deca179b9b91ac1411c767a5dfa5e" name="a6a5deca179b9b91ac1411c767a5dfa5e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>etaScale</b> = 1.0</td></tr>
+<tr class="memdesc:a6a5deca179b9b91ac1411c767a5dfa5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pseudorapidity scaling factor. <br /></td></tr>
+<tr class="memitem:adaed7137aae438d4a741c09546daf24f" id="r_adaed7137aae438d4a741c09546daf24f"><td class="memItemLeft" align="right" valign="top"><a id="adaed7137aae438d4a741c09546daf24f" name="adaed7137aae438d4a741c09546daf24f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>gpuBlocks</b> = 512</td></tr>
+<tr class="memdesc:adaed7137aae438d4a741c09546daf24f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of GPU blocks. <br /></td></tr>
+<tr class="memitem:ae104a63b0b7b0bdba872050acb286bcb" id="r_ae104a63b0b7b0bdba872050acb286bcb"><td class="memItemLeft" align="right" valign="top"><a id="ae104a63b0b7b0bdba872050acb286bcb" name="ae104a63b0b7b0bdba872050acb286bcb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>gpuDevice</b> = 0</td></tr>
+<tr class="memdesc:ae104a63b0b7b0bdba872050acb286bcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUDA device ID. <br /></td></tr>
+<tr class="memitem:a46280d8fb7195b73cc09d827630ea376" id="r_a46280d8fb7195b73cc09d827630ea376"><td class="memItemLeft" align="right" valign="top"><a id="a46280d8fb7195b73cc09d827630ea376" name="a46280d8fb7195b73cc09d827630ea376"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>moduleMapPath</b></td></tr>
+<tr class="memdesc:a46280d8fb7195b73cc09d827630ea376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to module map file. <br /></td></tr>
+<tr class="memitem:a041a908632ce7a24e68a0b81c26ad66b" id="r_a041a908632ce7a24e68a0b81c26ad66b"><td class="memItemLeft" align="right" valign="top"><a id="a041a908632ce7a24e68a0b81c26ad66b" name="a041a908632ce7a24e68a0b81c26ad66b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>moreParallel</b> = true</td></tr>
+<tr class="memdesc:a041a908632ce7a24e68a0b81c26ad66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable more parallel execution. <br /></td></tr>
+<tr class="memitem:a03b067774629d5397fc852ecbd10ae2f" id="r_a03b067774629d5397fc852ecbd10ae2f"><td class="memItemLeft" align="right" valign="top"><a id="a03b067774629d5397fc852ecbd10ae2f" name="a03b067774629d5397fc852ecbd10ae2f"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>phiScale</b> = 1.0</td></tr>
+<tr class="memdesc:a03b067774629d5397fc852ecbd10ae2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Azimuthal coordinate scaling factor. <br /></td></tr>
+<tr class="memitem:a81dd6fb189a118e4f5a3a2e691b006ae" id="r_a81dd6fb189a118e4f5a3a2e691b006ae"><td class="memItemLeft" align="right" valign="top"><a id="a81dd6fb189a118e4f5a3a2e691b006ae" name="a81dd6fb189a118e4f5a3a2e691b006ae"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>rScale</b> = 1.0</td></tr>
+<tr class="memdesc:a81dd6fb189a118e4f5a3a2e691b006ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial coordinate scaling factor. <br /></td></tr>
+<tr class="memitem:a58a1aea048fdccba2ddb34292655e5ce" id="r_a58a1aea048fdccba2ddb34292655e5ce"><td class="memItemLeft" align="right" valign="top"><a id="a58a1aea048fdccba2ddb34292655e5ce" name="a58a1aea048fdccba2ddb34292655e5ce"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>zScale</b> = 1.0</td></tr>
+<tr class="memdesc:a58a1aea048fdccba2ddb34292655e5ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z-coordinate scaling factor. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a309ec1d3a08d0fe9dc066ae858bae633" name="a309ec1d3a08d0fe9dc066ae858bae633"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a309ec1d3a08d0fe9dc066ae858bae633">&#9670;&#160;</a></span>epsilon</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::ModuleMapCuda::Config::epsilon = 1e-8f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a5deca179b9b91ac1411c767a5dfa5e" name="a6a5deca179b9b91ac1411c767a5dfa5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a5deca179b9b91ac1411c767a5dfa5e">&#9670;&#160;</a></span>etaScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::ModuleMapCuda::Config::etaScale = 1.0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adaed7137aae438d4a741c09546daf24f" name="adaed7137aae438d4a741c09546daf24f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaed7137aae438d4a741c09546daf24f">&#9670;&#160;</a></span>gpuBlocks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::ModuleMapCuda::Config::gpuBlocks = 512</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae104a63b0b7b0bdba872050acb286bcb" name="ae104a63b0b7b0bdba872050acb286bcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae104a63b0b7b0bdba872050acb286bcb">&#9670;&#160;</a></span>gpuDevice</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::ModuleMapCuda::Config::gpuDevice = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a46280d8fb7195b73cc09d827630ea376" name="a46280d8fb7195b73cc09d827630ea376"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46280d8fb7195b73cc09d827630ea376">&#9670;&#160;</a></span>moduleMapPath</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ActsPlugins::ModuleMapCuda::Config::moduleMapPath</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a041a908632ce7a24e68a0b81c26ad66b" name="a041a908632ce7a24e68a0b81c26ad66b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a041a908632ce7a24e68a0b81c26ad66b">&#9670;&#160;</a></span>moreParallel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ActsPlugins::ModuleMapCuda::Config::moreParallel = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03b067774629d5397fc852ecbd10ae2f" name="a03b067774629d5397fc852ecbd10ae2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03b067774629d5397fc852ecbd10ae2f">&#9670;&#160;</a></span>phiScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::ModuleMapCuda::Config::phiScale = 1.0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81dd6fb189a118e4f5a3a2e691b006ae" name="a81dd6fb189a118e4f5a3a2e691b006ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81dd6fb189a118e4f5a3a2e691b006ae">&#9670;&#160;</a></span>rScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::ModuleMapCuda::Config::rScale = 1.0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a58a1aea048fdccba2ddb34292655e5ce" name="a58a1aea048fdccba2ddb34292655e5ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58a1aea048fdccba2ddb34292655e5ce">&#9670;&#160;</a></span>zScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::ModuleMapCuda::Config::zScale = 1.0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration for ModuleMapCuda. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

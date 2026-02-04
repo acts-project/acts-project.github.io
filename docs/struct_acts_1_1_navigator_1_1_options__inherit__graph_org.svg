@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_navigator_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_navigator_plain_options.html" target="_top" xlink:title="Plain navigator options carrying geometry context and surfaces.">
 <polygon fill="white" stroke="#666666" points="153,-74 0,-74 0,-55 153,-55 153,-74"/>
 <text text-anchor="middle" x="76.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::NavigatorPlainOptions</text>
 </a>

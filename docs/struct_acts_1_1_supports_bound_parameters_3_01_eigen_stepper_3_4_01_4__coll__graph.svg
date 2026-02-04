@@ -33,7 +33,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="89,-169 0,-169 0,-150 89,-150 89,-169"/>
+<polygon fill="white" stroke="#bfbfbf" points="89,-169 0,-169 0,-150 89,-150 89,-169"/>
 <text text-anchor="middle" x="44.5" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00">std::false_type</text>
 </a>
 </g>
@@ -51,7 +51,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="struct_acts_1_1_supports_bound_parameters.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="234,-113 61,-113 61,-83 234,-83 234,-113"/>
+<polygon fill="white" stroke="#bfbfbf" points="234,-113 61,-113 61,-83 234,-83 234,-113"/>
 <text text-anchor="start" x="69" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SupportsBoundParameters</text>
 <text text-anchor="middle" x="147.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; stepper_t &gt;</text>
 </a>
@@ -70,7 +70,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="336.5,-107.5 252.5,-107.5 252.5,-88.5 336.5,-88.5 336.5,-107.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="336.5,-107.5 252.5,-107.5 252.5,-88.5 336.5,-88.5 336.5,-107.5"/>
 <text text-anchor="middle" x="294.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::true_type</text>
 </a>
 </g>

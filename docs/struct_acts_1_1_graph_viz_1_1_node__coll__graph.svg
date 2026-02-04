@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="GraphViz node descriptor.">
 <polygon fill="#999999" stroke="#666666" points="168.5,-19 49.5,-19 49.5,0 168.5,0 168.5,-19"/>
 <text text-anchor="middle" x="109" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::GraphViz::Node</text>
 </a>

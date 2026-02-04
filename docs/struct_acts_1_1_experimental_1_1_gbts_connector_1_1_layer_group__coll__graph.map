@@ -1,5 +1,5 @@
 <map id="Acts::Experimental::GbtsConnector::LayerGroup" name="Acts::Experimental::GbtsConnector::LayerGroup">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,247,215,287"/>
+<area shape="rect" id="Node000001" title="Group of connections targeting a destination layer." alt="" coords="5,247,215,287"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="31,121,189,176"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,190,113,246,107,246,107,190"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="45,5,175,31"/>

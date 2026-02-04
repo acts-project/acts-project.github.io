@@ -138,43 +138,16 @@ Inheritance diagram for Acts::ILayerArrayCreator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af669f7942698a06fef08a5766afc8e1c" id="r_af669f7942698a06fef08a5766afc8e1c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af669f7942698a06fef08a5766afc8e1c">~ILayerArrayCreator</a> ()=default</td></tr>
-<tr class="memdesc:af669f7942698a06fef08a5766afc8e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
-<tr class="memitem:adca0ea4332d78911ca760bb705544c5c" id="r_adca0ea4332d78911ca760bb705544c5c"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; const <a class="el" href="namespace_acts.html#ab749c2bd4901201fd7cc09b7f370a34e">LayerArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca0ea4332d78911ca760bb705544c5c">layerArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">LayerVector</a> &amp;layers, double min, double max, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=<a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> bvalue=<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a>) const =0</td></tr>
+<tr class="memitem:af669f7942698a06fef08a5766afc8e1c" id="r_af669f7942698a06fef08a5766afc8e1c"><td class="memItemLeft" align="right" valign="top"><a id="af669f7942698a06fef08a5766afc8e1c" name="af669f7942698a06fef08a5766afc8e1c"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ILayerArrayCreator</b> ()=default</td></tr>
+<tr class="memdesc:af669f7942698a06fef08a5766afc8e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+<tr class="memitem:adca0ea4332d78911ca760bb705544c5c" id="r_adca0ea4332d78911ca760bb705544c5c"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; const <a class="el" href="namespace_acts.html#ab749c2bd4901201fd7cc09b7f370a34e">LayerArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca0ea4332d78911ca760bb705544c5c">layerArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">LayerVector</a> &amp;layers, double min, double max, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> btype=arbitrary, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> bvalue=<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9">AxisDirection::AxisX</a>) const =0</td></tr>
 <tr class="memdesc:adca0ea4332d78911ca760bb705544c5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">LayerArrayCreator interface method.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface class ILayerArrayCreators, it inherits from IAlgTool. </p>
 <p>It receives the LayerVector and creates an array with NaivgationLayer objects filled in between. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af669f7942698a06fef08a5766afc8e1c" name="af669f7942698a06fef08a5766afc8e1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af669f7942698a06fef08a5766afc8e1c">&#9670;&#160;</a></span>~ILayerArrayCreator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ILayerArrayCreator::~ILayerArrayCreator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="adca0ea4332d78911ca760bb705544c5c" name="adca0ea4332d78911ca760bb705544c5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adca0ea4332d78911ca760bb705544c5c">&#9670;&#160;</a></span>layerArray()</h2>
 
@@ -207,7 +180,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330">arbitrary</a></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a></td>          <td class="paramname"><span class="paramname"><em>btype</em></span><span class="paramdefsep"> = </span><span class="paramdefval">arbitrary</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

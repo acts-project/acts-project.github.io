@@ -151,9 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aef7ea7bb54a3021620c9c7e7ce4d1ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Placeholder constructor for auto-range binning.  <br /></td></tr>
 <tr class="memitem:a63d4ef0e5a19118d0b61bf53b9eef953" id="r_a63d4ef0e5a19118d0b61bf53b9eef953"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63d4ef0e5a19118d0b61bf53b9eef953">ProtoAxis</a> (const ProtoAxis &amp;other)</td></tr>
 <tr class="memdesc:a63d4ef0e5a19118d0b61bf53b9eef953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom copy constructor.  <br /></td></tr>
-<tr class="memitem:ad239ad73b2bc82130b3305151e0bfb4a" id="r_ad239ad73b2bc82130b3305151e0bfb4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad239ad73b2bc82130b3305151e0bfb4a">ProtoAxis</a> (ProtoAxis &amp;&amp;)=default</td></tr>
-<tr class="memdesc:ad239ad73b2bc82130b3305151e0bfb4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
-<tr class="memitem:a41e0e44538bccd6f89dab0e056ce16b5" id="r_a41e0e44538bccd6f89dab0e056ce16b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41e0e44538bccd6f89dab0e056ce16b5">~ProtoAxis</a> ()=default</td></tr>
+<tr class="memitem:ad239ad73b2bc82130b3305151e0bfb4a" id="r_ad239ad73b2bc82130b3305151e0bfb4a"><td class="memItemLeft" align="right" valign="top"><a id="ad239ad73b2bc82130b3305151e0bfb4a" name="ad239ad73b2bc82130b3305151e0bfb4a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ProtoAxis</b> (ProtoAxis &amp;&amp;)=default</td></tr>
+<tr class="memdesc:ad239ad73b2bc82130b3305151e0bfb4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
 <tr class="memitem:a14f0205ae21523a63ba6de7c1794bf12" id="r_a14f0205ae21523a63ba6de7c1794bf12"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14f0205ae21523a63ba6de7c1794bf12">getAxis</a> () const</td></tr>
 <tr class="memdesc:a14f0205ae21523a63ba6de7c1794bf12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the IAxis representation.  <br /></td></tr>
 <tr class="memitem:abf2546ad7e1dc870d89ab196da5995fa" id="r_abf2546ad7e1dc870d89ab196da5995fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2546ad7e1dc870d89ab196da5995fa">isAutorange</a> () const</td></tr>
@@ -169,10 +169,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a29a955e56271bda5f84eb75040417ba2" id="r_a29a955e56271bda5f84eb75040417ba2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29a955e56271bda5f84eb75040417ba2">m_autorange</a> = false</td></tr>
-<tr class="memdesc:a29a955e56271bda5f84eb75040417ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate if this is a place holder auto-range binning.  <br /></td></tr>
-<tr class="memitem:a5de9c114bf63b0568c8d8ce819fd6a31" id="r_a5de9c114bf63b0568c8d8ce819fd6a31"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de9c114bf63b0568c8d8ce819fd6a31">m_axis</a> = nullptr</td></tr>
-<tr class="memdesc:a5de9c114bf63b0568c8d8ce819fd6a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis representation.  <br /></td></tr>
+<tr class="memitem:a29a955e56271bda5f84eb75040417ba2" id="r_a29a955e56271bda5f84eb75040417ba2"><td class="memItemLeft" align="right" valign="top"><a id="a29a955e56271bda5f84eb75040417ba2" name="a29a955e56271bda5f84eb75040417ba2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_autorange</b> = false</td></tr>
+<tr class="memdesc:a29a955e56271bda5f84eb75040417ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate if this is a place holder auto-range binning. <br /></td></tr>
+<tr class="memitem:a5de9c114bf63b0568c8d8ce819fd6a31" id="r_a5de9c114bf63b0568c8d8ce819fd6a31"><td class="memItemLeft" align="right" valign="top"><a id="a5de9c114bf63b0568c8d8ce819fd6a31" name="a5de9c114bf63b0568c8d8ce819fd6a31"></a>
+std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_axis</b> = nullptr</td></tr>
+<tr class="memdesc:a5de9c114bf63b0568c8d8ce819fd6a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis representation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is a pure run-time placeholder for the axis definition. </p>
@@ -180,7 +182,7 @@ Protected Attributes</h2></td></tr>
 <p>In addition to a simple axis definitions, it holds also a description of the axis direction. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae8e7da1065db25a88edd990bfa3adbbf" name="ae8e7da1065db25a88edd990bfa3adbbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8e7da1065db25a88edd990bfa3adbbf">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8e7da1065db25a88edd990bfa3adbbf">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +212,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abc7ed6179edd0c682f0f597f9e34c673" name="abc7ed6179edd0c682f0f597f9e34c673"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc7ed6179edd0c682f0f597f9e34c673">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7ed6179edd0c682f0f597f9e34c673">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,7 +254,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aef7ea7bb54a3021620c9c7e7ce4d1ed7" name="aef7ea7bb54a3021620c9c7e7ce4d1ed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef7ea7bb54a3021620c9c7e7ce4d1ed7">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7ea7bb54a3021620c9c7e7ce4d1ed7">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,7 +285,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a63d4ef0e5a19118d0b61bf53b9eef953" name="a63d4ef0e5a19118d0b61bf53b9eef953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63d4ef0e5a19118d0b61bf53b9eef953">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d4ef0e5a19118d0b61bf53b9eef953">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,58 +306,6 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ad239ad73b2bc82130b3305151e0bfb4a" name="ad239ad73b2bc82130b3305151e0bfb4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad239ad73b2bc82130b3305151e0bfb4a">&#9670;&#160;</a></span>ProtoAxis() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ProtoAxis::ProtoAxis </td>
-          <td>(</td>
-          <td class="paramtype">ProtoAxis &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move constructor. </p>
-
-</div>
-</div>
-<a id="a41e0e44538bccd6f89dab0e056ce16b5" name="a41e0e44538bccd6f89dab0e056ce16b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41e0e44538bccd6f89dab0e056ce16b5">&#9670;&#160;</a></span>~ProtoAxis()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ProtoAxis::~ProtoAxis </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -510,55 +460,6 @@ In case of equidistant binning, it will adapt the bin size, and NOT change the n
 
 <p>Dump into a string. </p>
 <dl class="section return"><dt>Returns</dt><dd>the string representation </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a29a955e56271bda5f84eb75040417ba2" name="a29a955e56271bda5f84eb75040417ba2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29a955e56271bda5f84eb75040417ba2">&#9670;&#160;</a></span>m_autorange</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::ProtoAxis::m_autorange = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Indicate if this is a place holder auto-range binning. </p>
-
-</div>
-</div>
-<a id="a5de9c114bf63b0568c8d8ce819fd6a31" name="a5de9c114bf63b0568c8d8ce819fd6a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5de9c114bf63b0568c8d8ce819fd6a31">&#9670;&#160;</a></span>m_axis</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_acts_1_1_i_axis.html">IAxis</a>&gt; Acts::ProtoAxis::m_axis = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The axis representation. </p>
 
 </div>
 </div>

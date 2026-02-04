@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_plugins_1_1_gnn_hook.html','','class_acts_p
 </div><!--header-->
 <div class="contents">
 
+<p>Hook interface for GNN pipeline callbacks.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gnn_pipeline_8hpp_source.html">ActsPlugins/Gnn/GnnPipeline.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ActsPlugins::GnnHook:</div>
@@ -135,36 +138,12 @@ Inheritance diagram for ActsPlugins::GnnHook:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0766954148c860c533c8a016013dd96a" id="r_a0766954148c860c533c8a016013dd96a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0766954148c860c533c8a016013dd96a">~GnnHook</a> ()=default</td></tr>
 <tr class="memitem:ae27efd5d2785bab1c4c77d9d1d11f4b3" id="r_ae27efd5d2785bab1c4c77d9d1d11f4b3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae27efd5d2785bab1c4c77d9d1d11f4b3">operator()</a> (const <a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> &amp;, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;) const</td></tr>
+<tr class="memdesc:ae27efd5d2785bab1c4c77d9d1d11f4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback operator invoked during pipeline execution.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0766954148c860c533c8a016013dd96a" name="a0766954148c860c533c8a016013dd96a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0766954148c860c533c8a016013dd96a">&#9670;&#160;</a></span>~GnnHook()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual ActsPlugins::GnnHook::~GnnHook </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Hook interface for GNN pipeline callbacks. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ae27efd5d2785bab1c4c77d9d1d11f4b3" name="ae27efd5d2785bab1c4c77d9d1d11f4b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae27efd5d2785bab1c4c77d9d1d11f4b3">&#9670;&#160;</a></span>operator()()</h2>
 
@@ -191,6 +170,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Callback operator invoked during pipeline execution. </p>
 
 <p>Reimplemented in <a class="el" href="class_acts_plugins_1_1_graph_store_hook.html#a6174c2c84b98045f667e3dcb052a243a">ActsPlugins::GraphStoreHook</a>, and <a class="el" href="class_acts_plugins_1_1_truth_graph_metrics_hook.html#acc17cc45074e1b6aaed5c06cb7accd5d">ActsPlugins::TruthGraphMetricsHook</a>.</p>
 

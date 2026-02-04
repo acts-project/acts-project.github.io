@@ -140,10 +140,12 @@ Collaboration diagram for Acts::BroadTripletSeedFilter::State:</div>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a65c74635dd5b524d2c8d22270ff9fd09" id="r_a65c74635dd5b524d2c8d22270ff9fd09"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c74635dd5b524d2c8d22270ff9fd09">bestSeedQualityMap</a></td></tr>
 <tr class="memdesc:a65c74635dd5b524d2c8d22270ff9fd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store the best seed quality for each space point This is used to avoid creating seeds with lower quality than the best seed quality already found for that space point The key is the space point index, and the value is the best seed quality found for that space point.  <br /></td></tr>
-<tr class="memitem:a5db8c374396ae33a0b43a61fd4a39b44" id="r_a5db8c374396ae33a0b43a61fd4a39b44"><td class="memItemLeft" align="right" valign="top">CandidatesForMiddleSp2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db8c374396ae33a0b43a61fd4a39b44">candidatesCollector</a></td></tr>
-<tr class="memdesc:a5db8c374396ae33a0b43a61fd4a39b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector for triplet candidates associated with middle space points.  <br /></td></tr>
-<tr class="memitem:aae449d5e09faa2f3689611b12f80f553" id="r_aae449d5e09faa2f3689611b12f80f553"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae449d5e09faa2f3689611b12f80f553">rMaxSeedConf</a> {}</td></tr>
-<tr class="memdesc:aae449d5e09faa2f3689611b12f80f553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum radius for seed confirmation.  <br /></td></tr>
+<tr class="memitem:a5db8c374396ae33a0b43a61fd4a39b44" id="r_a5db8c374396ae33a0b43a61fd4a39b44"><td class="memItemLeft" align="right" valign="top"><a id="a5db8c374396ae33a0b43a61fd4a39b44" name="a5db8c374396ae33a0b43a61fd4a39b44"></a>
+CandidatesForMiddleSp2&#160;</td><td class="memItemRight" valign="bottom"><b>candidatesCollector</b></td></tr>
+<tr class="memdesc:a5db8c374396ae33a0b43a61fd4a39b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector for triplet candidates associated with middle space points. <br /></td></tr>
+<tr class="memitem:aae449d5e09faa2f3689611b12f80f553" id="r_aae449d5e09faa2f3689611b12f80f553"><td class="memItemLeft" align="right" valign="top"><a id="aae449d5e09faa2f3689611b12f80f553" name="aae449d5e09faa2f3689611b12f80f553"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>rMaxSeedConf</b> {}</td></tr>
+<tr class="memdesc:aae449d5e09faa2f3689611b12f80f553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum radius for seed confirmation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>State of the filter that is communicated between different stages. </p>
@@ -162,38 +164,6 @@ Public Attributes</h2></td></tr>
 
 <p>Map to store the best seed quality for each space point This is used to avoid creating seeds with lower quality than the best seed quality already found for that space point The key is the space point index, and the value is the best seed quality found for that space point. </p>
 <dl class="section note"><dt>Note</dt><dd>The index is the space point index, not the seed index. <span class="tt">copyFromIndex</span> will be used if available. </dd></dl>
-
-</div>
-</div>
-<a id="a5db8c374396ae33a0b43a61fd4a39b44" name="a5db8c374396ae33a0b43a61fd4a39b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5db8c374396ae33a0b43a61fd4a39b44">&#9670;&#160;</a></span>candidatesCollector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">CandidatesForMiddleSp2 Acts::BroadTripletSeedFilter::State::candidatesCollector</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Collector for triplet candidates associated with middle space points. </p>
-
-</div>
-</div>
-<a id="aae449d5e09faa2f3689611b12f80f553" name="aae449d5e09faa2f3689611b12f80f553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae449d5e09faa2f3689611b12f80f553">&#9670;&#160;</a></span>rMaxSeedConf</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::BroadTripletSeedFilter::State::rMaxSeedConf {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum radius for seed confirmation. </p>
 
 </div>
 </div>

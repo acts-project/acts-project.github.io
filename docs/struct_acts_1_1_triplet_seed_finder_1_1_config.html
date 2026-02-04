@@ -140,16 +140,20 @@ Inheritance diagram for Acts::TripletSeedFinder::Config:</div>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2ab085da515e074758ee85d32396bbd8" id="r_a2ab085da515e074758ee85d32396bbd8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab085da515e074758ee85d32396bbd8">helixCutTolerance</a> = 1</td></tr>
 <tr class="memdesc:a2ab085da515e074758ee85d32396bbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter which can loosen the tolerance of the track seed to form a helix.  <br /></td></tr>
-<tr class="memitem:aaca0e64766e5d8bec877725091ffe47d" id="r_aaca0e64766e5d8bec877725091ffe47d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca0e64766e5d8bec877725091ffe47d">impactMax</a> = 20 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
-<tr class="memdesc:aaca0e64766e5d8bec877725091ffe47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value of impact parameter estimation of the seed candidates.  <br /></td></tr>
+<tr class="memitem:aaca0e64766e5d8bec877725091ffe47d" id="r_aaca0e64766e5d8bec877725091ffe47d"><td class="memItemLeft" align="right" valign="top"><a id="aaca0e64766e5d8bec877725091ffe47d" name="aaca0e64766e5d8bec877725091ffe47d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>impactMax</b> = 20 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
+<tr class="memdesc:aaca0e64766e5d8bec877725091ffe47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value of impact parameter estimation of the seed candidates. <br /></td></tr>
 <tr class="memitem:a2b53ee52ca5a8e67699a16f6a82fe150" id="r_a2b53ee52ca5a8e67699a16f6a82fe150"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b53ee52ca5a8e67699a16f6a82fe150">minPt</a> = 400 * <a class="el" href="namespace_acts_1_1_unit_constants.html#aa9c5856d1aeb24b113eb4eb6907b1bab">UnitConstants::MeV</a></td></tr>
 <tr class="memdesc:a2b53ee52ca5a8e67699a16f6a82fe150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum transverse momentum (pT) used to check the r-z slope compatibility of triplets with maximum multiple scattering effect (produced by the minimum allowed pT particle) + a certain uncertainty term.  <br /></td></tr>
-<tr class="memitem:afd44ea6954d7931bc3c5760ab6e83aa7" id="r_afd44ea6954d7931bc3c5760ab6e83aa7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd44ea6954d7931bc3c5760ab6e83aa7">radLengthPerSeed</a> = 0.05</td></tr>
-<tr class="memdesc:afd44ea6954d7931bc3c5760ab6e83aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Term that accounts for the thickness of scattering medium in radiation lengths in the Lynch &amp; Dahl correction to the Highland equation default is 5%.  <br /></td></tr>
-<tr class="memitem:a3689f281628a3346aa3df4afd061a200" id="r_a3689f281628a3346aa3df4afd061a200"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3689f281628a3346aa3df4afd061a200">sigmaScattering</a> = 5</td></tr>
-<tr class="memdesc:a3689f281628a3346aa3df4afd061a200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of sigmas of scattering angle to be considered in the minimum pT scattering term.  <br /></td></tr>
-<tr class="memitem:a125afabc9c3413738ec6786e7271b246" id="r_a125afabc9c3413738ec6786e7271b246"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a125afabc9c3413738ec6786e7271b246">sortedByCotTheta</a> = true</td></tr>
-<tr class="memdesc:a125afabc9c3413738ec6786e7271b246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the input doublets are sorted by cotTheta.  <br /></td></tr>
+<tr class="memitem:afd44ea6954d7931bc3c5760ab6e83aa7" id="r_afd44ea6954d7931bc3c5760ab6e83aa7"><td class="memItemLeft" align="right" valign="top"><a id="afd44ea6954d7931bc3c5760ab6e83aa7" name="afd44ea6954d7931bc3c5760ab6e83aa7"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>radLengthPerSeed</b> = 0.05</td></tr>
+<tr class="memdesc:afd44ea6954d7931bc3c5760ab6e83aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Term that accounts for the thickness of scattering medium in radiation lengths in the Lynch &amp; Dahl correction to the Highland equation default is 5%. <br /></td></tr>
+<tr class="memitem:a3689f281628a3346aa3df4afd061a200" id="r_a3689f281628a3346aa3df4afd061a200"><td class="memItemLeft" align="right" valign="top"><a id="a3689f281628a3346aa3df4afd061a200" name="a3689f281628a3346aa3df4afd061a200"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaScattering</b> = 5</td></tr>
+<tr class="memdesc:a3689f281628a3346aa3df4afd061a200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of sigmas of scattering angle to be considered in the minimum pT scattering term. <br /></td></tr>
+<tr class="memitem:a125afabc9c3413738ec6786e7271b246" id="r_a125afabc9c3413738ec6786e7271b246"><td class="memItemLeft" align="right" valign="top"><a id="a125afabc9c3413738ec6786e7271b246" name="a125afabc9c3413738ec6786e7271b246"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>sortedByCotTheta</b> = true</td></tr>
+<tr class="memdesc:a125afabc9c3413738ec6786e7271b246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the input doublets are sorted by cotTheta. <br /></td></tr>
 <tr class="memitem:a6759b19c90ff253131eb131d83e000dc" id="r_a6759b19c90ff253131eb131d83e000dc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6759b19c90ff253131eb131d83e000dc">toleranceParam</a> = 1.1 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a6759b19c90ff253131eb131d83e000dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance parameter used to check the compatibility of space-point coordinates in xyz.  <br /></td></tr>
 <tr class="memitem:a3a4fca5e415ebf06f46d5d8dd2fc3aa6" id="r_a3a4fca5e415ebf06f46d5d8dd2fc3aa6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a4fca5e415ebf06f46d5d8dd2fc3aa6">useStripInfo</a> = false</td></tr>
@@ -176,22 +180,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaca0e64766e5d8bec877725091ffe47d" name="aaca0e64766e5d8bec877725091ffe47d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaca0e64766e5d8bec877725091ffe47d">&#9670;&#160;</a></span>impactMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::TripletSeedFinder::Config::impactMax = 20 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum value of impact parameter estimation of the seed candidates. </p>
-
-</div>
-</div>
 <a id="a2b53ee52ca5a8e67699a16f6a82fe150" name="a2b53ee52ca5a8e67699a16f6a82fe150"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b53ee52ca5a8e67699a16f6a82fe150">&#9670;&#160;</a></span>minPt</h2>
 
@@ -206,54 +194,6 @@ Public Attributes</h2></td></tr>
 
 <p>Minimum transverse momentum (pT) used to check the r-z slope compatibility of triplets with maximum multiple scattering effect (produced by the minimum allowed pT particle) + a certain uncertainty term. </p>
 <p>Check the documentation for more information <a href="https://acts.readthedocs.io/en/latest/core/reconstruction/pattern_recognition/seeding.html">https://acts.readthedocs.io/en/latest/core/reconstruction/pattern_recognition/seeding.html</a> </p>
-
-</div>
-</div>
-<a id="afd44ea6954d7931bc3c5760ab6e83aa7" name="afd44ea6954d7931bc3c5760ab6e83aa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd44ea6954d7931bc3c5760ab6e83aa7">&#9670;&#160;</a></span>radLengthPerSeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::TripletSeedFinder::Config::radLengthPerSeed = 0.05</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Term that accounts for the thickness of scattering medium in radiation lengths in the Lynch &amp; Dahl correction to the Highland equation default is 5%. </p>
-
-</div>
-</div>
-<a id="a3689f281628a3346aa3df4afd061a200" name="a3689f281628a3346aa3df4afd061a200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3689f281628a3346aa3df4afd061a200">&#9670;&#160;</a></span>sigmaScattering</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::TripletSeedFinder::Config::sigmaScattering = 5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of sigmas of scattering angle to be considered in the minimum pT scattering term. </p>
-
-</div>
-</div>
-<a id="a125afabc9c3413738ec6786e7271b246" name="a125afabc9c3413738ec6786e7271b246"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a125afabc9c3413738ec6786e7271b246">&#9670;&#160;</a></span>sortedByCotTheta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::TripletSeedFinder::Config::sortedByCotTheta = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether the input doublets are sorted by cotTheta. </p>
 
 </div>
 </div>

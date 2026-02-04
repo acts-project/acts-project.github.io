@@ -138,8 +138,9 @@ Inheritance diagram for Acts::ITrackingVolumeBuilder:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2eca9306d1b8442b74283c2c679854e" id="r_ac2eca9306d1b8442b74283c2c679854e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eca9306d1b8442b74283c2c679854e">~ITrackingVolumeBuilder</a> ()=default</td></tr>
-<tr class="memdesc:ac2eca9306d1b8442b74283c2c679854e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:ac2eca9306d1b8442b74283c2c679854e" id="r_ac2eca9306d1b8442b74283c2c679854e"><td class="memItemLeft" align="right" valign="top"><a id="ac2eca9306d1b8442b74283c2c679854e" name="ac2eca9306d1b8442b74283c2c679854e"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ITrackingVolumeBuilder</b> ()=default</td></tr>
+<tr class="memdesc:ac2eca9306d1b8442b74283c2c679854e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="memitem:aefa4de0bd36bd623435a37bfde7bcffe" id="r_aefa4de0bd36bd623435a37bfde7bcffe"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a813d99d294c94b676e4e7763b4af7901">MutableTrackingVolumePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefa4de0bd36bd623435a37bfde7bcffe">trackingVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="namespace_acts.html#a2d207ef0f7109becc8fba98cb145ed9d">TrackingVolumePtr</a> oppositeVolume=nullptr, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; outsideBounds=nullptr) const =0</td></tr>
 <tr class="memdesc:aefa4de0bd36bd623435a37bfde7bcffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ITrackingVolumeBuilder interface method.  <br /></td></tr>
 </table>
@@ -147,35 +148,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Interface class ITrackingVolumeBuilders. </p>
 <p>this returns the sub-detector tracking volume that is wrapped by the next outer one in the TrackingGeometry building process</p>
 <p>If an innerVolume is given, this is wrapped If a VolumeBounds object is given this defines the maximum extent. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac2eca9306d1b8442b74283c2c679854e" name="ac2eca9306d1b8442b74283c2c679854e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2eca9306d1b8442b74283c2c679854e">&#9670;&#160;</a></span>~ITrackingVolumeBuilder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ITrackingVolumeBuilder::~ITrackingVolumeBuilder </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="aefa4de0bd36bd623435a37bfde7bcffe" name="aefa4de0bd36bd623435a37bfde7bcffe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefa4de0bd36bd623435a37bfde7bcffe">&#9670;&#160;</a></span>trackingVolume()</h2>
 

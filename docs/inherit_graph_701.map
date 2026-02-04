@@ -14,6 +14,6 @@
 <area shape="poly" id="edge300_Node000000_Node000006" title=" " alt="" coords="84,163,121,202,144,221,169,237,213,253,211,258,167,242,141,225,117,206,81,167"/>
 <area shape="rect" id="Node000007" href="$class_acts_1_1_logging_1_1_threshold_failure.html" title="Custom exception class so threshold failures can be caught." alt="" coords="468,213,649,253"/>
 <area shape="poly" id="edge301_Node000006_Node000007" title=" " alt="" coords="364,252,467,240,468,246,365,258"/>
-<area shape="rect" id="Node000008" href="$class_acts_plugins_1_1_detray_unsupported_material_exception.html" title=" " alt="" coords="443,277,675,317"/>
+<area shape="rect" id="Node000008" href="$class_acts_plugins_1_1_detray_unsupported_material_exception.html" title="Exception thrown when encountering unsupported material types in Detray conversion." alt="" coords="443,277,675,317"/>
 <area shape="poly" id="edge302_Node000006_Node000008" title=" " alt="" coords="365,272,443,281,442,286,364,277"/>
 </map>

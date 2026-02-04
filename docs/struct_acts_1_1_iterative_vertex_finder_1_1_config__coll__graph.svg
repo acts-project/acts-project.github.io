@@ -88,7 +88,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="625,-277.5 387,-277.5 387,-181.5 625,-181.5 625,-277.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="625,-277.5 387,-277.5 387,-181.5 625,-181.5 625,-277.5"/>
 <text text-anchor="start" x="395" y="-265.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="395" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; LinearizedTrack &gt;(const</text>
 <text text-anchor="start" x="395" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00"> BoundTrackParameters &amp;params,</text>
@@ -114,7 +114,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-183.5 0,-183.5 0,-153.5 152,-153.5 152,-183.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-183.5 0,-183.5 0,-153.5 152,-153.5 152,-183.5"/>
 <text text-anchor="start" x="8" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-160.5" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="595,-163.5 417,-163.5 417,-133.5 595,-133.5 595,-163.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="595,-163.5 417,-163.5 417,-133.5 595,-133.5 595,-163.5"/>
 <text text-anchor="start" x="425" y="-151.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; BoundTrack</text>
 <text text-anchor="middle" x="506" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">Parameters(const InputTrack &amp;)&gt;</text>
 </a>

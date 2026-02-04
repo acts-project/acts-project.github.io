@@ -138,192 +138,42 @@ Collaboration diagram for Acts::Experimental::CompositeSpacePointLineFitter::Fit
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a91eb37b3bf4ee46e769451165b9f526f" id="r_a91eb37b3bf4ee46e769451165b9f526f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91eb37b3bf4ee46e769451165b9f526f">Sp_t</a> = <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#afb0b5765005b47f822082f2a462c6890">SpacePoint_t</a>&lt;Cont_t&gt;</td></tr>
-<tr class="memdesc:a91eb37b3bf4ee46e769451165b9f526f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the SpacePoint type.  <br /></td></tr>
+<tr class="memitem:a91eb37b3bf4ee46e769451165b9f526f" id="r_a91eb37b3bf4ee46e769451165b9f526f"><td class="memItemLeft" align="right" valign="top"><a id="a91eb37b3bf4ee46e769451165b9f526f" name="a91eb37b3bf4ee46e769451165b9f526f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Sp_t</b> = <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#afb0b5765005b47f822082f2a462c6890">SpacePoint_t</a>&lt;Cont_t&gt;</td></tr>
+<tr class="memdesc:a91eb37b3bf4ee46e769451165b9f526f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the SpacePoint type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9e22c69713f59ed04d21503f9c73a123" id="r_a9e22c69713f59ed04d21503f9c73a123"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e22c69713f59ed04d21503f9c73a123">FitOptions</a> ()=default</td></tr>
-<tr class="memdesc:a9e22c69713f59ed04d21503f9c73a123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard constructor.  <br /></td></tr>
+<tr class="memitem:a9e22c69713f59ed04d21503f9c73a123" id="r_a9e22c69713f59ed04d21503f9c73a123"><td class="memItemLeft" align="right" valign="top"><a id="a9e22c69713f59ed04d21503f9c73a123" name="a9e22c69713f59ed04d21503f9c73a123"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FitOptions</b> ()=default</td></tr>
+<tr class="memdesc:a9e22c69713f59ed04d21503f9c73a123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard constructor. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6677c1bddaf9b81c17c48d31396cf497" id="r_a6677c1bddaf9b81c17c48d31396cf497"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6677c1bddaf9b81c17c48d31396cf497">calibContext</a> {}</td></tr>
-<tr class="memdesc:a6677c1bddaf9b81c17c48d31396cf497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Experiment specific calibration context.  <br /></td></tr>
-<tr class="memitem:a00d357b2ed736dd1a26352636a77c99d" id="r_a00d357b2ed736dd1a26352636a77c99d"><td class="memItemLeft" align="right" valign="top">const Calibrator_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00d357b2ed736dd1a26352636a77c99d">calibrator</a> {nullptr}</td></tr>
-<tr class="memdesc:a00d357b2ed736dd1a26352636a77c99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibrator.  <br /></td></tr>
-<tr class="memitem:a35db9d34eb456f4553b0122e2a8e121d" id="r_a35db9d34eb456f4553b0122e2a8e121d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35db9d34eb456f4553b0122e2a8e121d">localToGlobal</a> {Acts::Transform3::Identity()}</td></tr>
-<tr class="memdesc:a35db9d34eb456f4553b0122e2a8e121d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local to global transform.  <br /></td></tr>
-<tr class="memitem:a2716efe7cb3a400719be0994b2e08cff" id="r_a2716efe7cb3a400719be0994b2e08cff"><td class="memItemLeft" align="right" valign="top">Cont_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2716efe7cb3a400719be0994b2e08cff">measurements</a> {}</td></tr>
-<tr class="memdesc:a2716efe7cb3a400719be0994b2e08cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of measurements to fit.  <br /></td></tr>
-<tr class="memitem:a1c8174dff52f877ec429a2897c24a053" id="r_a1c8174dff52f877ec429a2897c24a053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a269b566b6d98feae3fc4459bb6183075">Selector_t</a>&lt; <a class="el" href="#a91eb37b3bf4ee46e769451165b9f526f">Sp_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8174dff52f877ec429a2897c24a053">selector</a> {}</td></tr>
-<tr class="memdesc:a1c8174dff52f877ec429a2897c24a053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Good hit selector.  <br /></td></tr>
-<tr class="memitem:ae4b0e30d97a82dcc75e77883fa132643" id="r_ae4b0e30d97a82dcc75e77883fa132643"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#aa887d24849546b2caff6df9b8960a395">ParamVec_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b0e30d97a82dcc75e77883fa132643">startParameters</a> {<a class="el" href="namespace_acts.html#a77ed58950d2c88dfa04891d7042b426a">filledArray</a>&lt;double, <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#adcce20bc25c030ebb4a7a4d149de9f6f">s_nPars</a>&gt;(0)}</td></tr>
-<tr class="memdesc:ae4b0e30d97a82dcc75e77883fa132643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial parameter guess.  <br /></td></tr>
+<tr class="memitem:a6677c1bddaf9b81c17c48d31396cf497" id="r_a6677c1bddaf9b81c17c48d31396cf497"><td class="memItemLeft" align="right" valign="top"><a id="a6677c1bddaf9b81c17c48d31396cf497" name="a6677c1bddaf9b81c17c48d31396cf497"></a>
+<a class="el" href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a>&#160;</td><td class="memItemRight" valign="bottom"><b>calibContext</b> {}</td></tr>
+<tr class="memdesc:a6677c1bddaf9b81c17c48d31396cf497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Experiment specific calibration context. <br /></td></tr>
+<tr class="memitem:a00d357b2ed736dd1a26352636a77c99d" id="r_a00d357b2ed736dd1a26352636a77c99d"><td class="memItemLeft" align="right" valign="top"><a id="a00d357b2ed736dd1a26352636a77c99d" name="a00d357b2ed736dd1a26352636a77c99d"></a>
+const Calibrator_t *&#160;</td><td class="memItemRight" valign="bottom"><b>calibrator</b> {nullptr}</td></tr>
+<tr class="memdesc:a00d357b2ed736dd1a26352636a77c99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibrator. <br /></td></tr>
+<tr class="memitem:a35db9d34eb456f4553b0122e2a8e121d" id="r_a35db9d34eb456f4553b0122e2a8e121d"><td class="memItemLeft" align="right" valign="top"><a id="a35db9d34eb456f4553b0122e2a8e121d" name="a35db9d34eb456f4553b0122e2a8e121d"></a>
+<a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>localToGlobal</b> {Acts::Transform3::Identity()}</td></tr>
+<tr class="memdesc:a35db9d34eb456f4553b0122e2a8e121d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local to global transform. <br /></td></tr>
+<tr class="memitem:a2716efe7cb3a400719be0994b2e08cff" id="r_a2716efe7cb3a400719be0994b2e08cff"><td class="memItemLeft" align="right" valign="top"><a id="a2716efe7cb3a400719be0994b2e08cff" name="a2716efe7cb3a400719be0994b2e08cff"></a>
+Cont_t&#160;</td><td class="memItemRight" valign="bottom"><b>measurements</b> {}</td></tr>
+<tr class="memdesc:a2716efe7cb3a400719be0994b2e08cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of measurements to fit. <br /></td></tr>
+<tr class="memitem:a1c8174dff52f877ec429a2897c24a053" id="r_a1c8174dff52f877ec429a2897c24a053"><td class="memItemLeft" align="right" valign="top"><a id="a1c8174dff52f877ec429a2897c24a053" name="a1c8174dff52f877ec429a2897c24a053"></a>
+<a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a269b566b6d98feae3fc4459bb6183075">Selector_t</a>&lt; <a class="el" href="#a91eb37b3bf4ee46e769451165b9f526f">Sp_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selector</b> {}</td></tr>
+<tr class="memdesc:a1c8174dff52f877ec429a2897c24a053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Good hit selector. <br /></td></tr>
+<tr class="memitem:ae4b0e30d97a82dcc75e77883fa132643" id="r_ae4b0e30d97a82dcc75e77883fa132643"><td class="memItemLeft" align="right" valign="top"><a id="ae4b0e30d97a82dcc75e77883fa132643" name="ae4b0e30d97a82dcc75e77883fa132643"></a>
+<a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#aa887d24849546b2caff6df9b8960a395">ParamVec_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>startParameters</b> {<a class="el" href="namespace_acts.html#a77ed58950d2c88dfa04891d7042b426a">filledArray</a>&lt;double, <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#adcce20bc25c030ebb4a7a4d149de9f6f">s_nPars</a>&gt;(0)}</td></tr>
+<tr class="memdesc:ae4b0e30d97a82dcc75e77883fa132643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial parameter guess. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt;<br />
 struct Acts::Experimental::CompositeSpacePointLineFitter::FitOptions&lt; Cont_t, Calibrator_t &gt;</div><p>Configuration object parsed per each fit. </p>
 <p>It contains the measurement container, a pointer to the measurement calibrator + calibration context, a delegate used to sort out badly calibrated measurements, and also initial start parameters stemming from an external seeder. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a91eb37b3bf4ee46e769451165b9f526f" name="a91eb37b3bf4ee46e769451165b9f526f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91eb37b3bf4ee46e769451165b9f526f">&#9670;&#160;</a></span>Sp_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::Sp_t = <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#afb0b5765005b47f822082f2a462c6890">SpacePoint_t</a>&lt;Cont_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Abrivation of the SpacePoint type. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9e22c69713f59ed04d21503f9c73a123" name="a9e22c69713f59ed04d21503f9c73a123"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e22c69713f59ed04d21503f9c73a123">&#9670;&#160;</a></span>FitOptions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::FitOptions </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Standard constructor. </p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a6677c1bddaf9b81c17c48d31396cf497" name="a6677c1bddaf9b81c17c48d31396cf497"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6677c1bddaf9b81c17c48d31396cf497">&#9670;&#160;</a></span>calibContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a> <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::calibContext {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Experiment specific calibration context. </p>
-
-</div>
-</div>
-<a id="a00d357b2ed736dd1a26352636a77c99d" name="a00d357b2ed736dd1a26352636a77c99d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00d357b2ed736dd1a26352636a77c99d">&#9670;&#160;</a></span>calibrator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const Calibrator_t* <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::calibrator {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calibrator. </p>
-
-</div>
-</div>
-<a id="a35db9d34eb456f4553b0122e2a8e121d" name="a35db9d34eb456f4553b0122e2a8e121d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35db9d34eb456f4553b0122e2a8e121d">&#9670;&#160;</a></span>localToGlobal</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::localToGlobal {Acts::Transform3::Identity()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Local to global transform. </p>
-
-</div>
-</div>
-<a id="a2716efe7cb3a400719be0994b2e08cff" name="a2716efe7cb3a400719be0994b2e08cff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2716efe7cb3a400719be0994b2e08cff">&#9670;&#160;</a></span>measurements</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">Cont_t <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::measurements {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of measurements to fit. </p>
-
-</div>
-</div>
-<a id="a1c8174dff52f877ec429a2897c24a053" name="a1c8174dff52f877ec429a2897c24a053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c8174dff52f877ec429a2897c24a053">&#9670;&#160;</a></span>selector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a269b566b6d98feae3fc4459bb6183075">Selector_t</a>&lt;<a class="el" href="#a91eb37b3bf4ee46e769451165b9f526f">Sp_t</a>&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::selector {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Good hit selector. </p>
-
-</div>
-</div>
-<a id="ae4b0e30d97a82dcc75e77883fa132643" name="ae4b0e30d97a82dcc75e77883fa132643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4b0e30d97a82dcc75e77883fa132643">&#9670;&#160;</a></span>startParameters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;CompositeSpacePointContainer Cont_t, CompositeSpacePointCalibrator&lt; Cont_t, Cont_t &gt; Calibrator_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#aa887d24849546b2caff6df9b8960a395">ParamVec_t</a> <a class="el" href="struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html">Acts::Experimental::CompositeSpacePointLineFitter::FitOptions</a>&lt; Cont_t, Calibrator_t &gt;::startParameters {<a class="el" href="namespace_acts.html#a77ed58950d2c88dfa04891d7042b426a">filledArray</a>&lt;double, <a class="el" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#adcce20bc25c030ebb4a7a4d149de9f6f">s_nPars</a>&gt;(0)}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initial parameter guess. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

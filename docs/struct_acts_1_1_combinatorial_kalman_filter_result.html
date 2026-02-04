@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_combinatorial_kalman_filter_result.htm
 </div><!--header-->
 <div class="contents">
 
+<p>Result container for the combinatorial Kalman filter actor.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_combinatorial_kalman_filter_8hpp_source.html">Acts/TrackFinding/CombinatorialKalmanFilter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;:</div>
@@ -135,44 +138,49 @@ Collaboration diagram for Acts::CombinatorialKalmanFilterResult&lt; track_contai
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aee765c2e0fc9de1426e4c26bdb9d5974" id="r_aee765c2e0fc9de1426e4c26bdb9d5974"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a> = typename track_container_t::TrackProxy</td></tr>
+<tr class="memitem:aee765c2e0fc9de1426e4c26bdb9d5974" id="r_aee765c2e0fc9de1426e4c26bdb9d5974"><td class="memItemLeft" align="right" valign="top"><a id="aee765c2e0fc9de1426e4c26bdb9d5974" name="aee765c2e0fc9de1426e4c26bdb9d5974"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackProxy</b> = typename track_container_t::TrackProxy</td></tr>
+<tr class="memdesc:aee765c2e0fc9de1426e4c26bdb9d5974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track proxy type. <br /></td></tr>
 <tr class="memitem:ab850eaba1be89fd518a10e150a4f5d08" id="r_ab850eaba1be89fd518a10e150a4f5d08"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab850eaba1be89fd518a10e150a4f5d08">TrackStateContainerBackend</a></td></tr>
-<tr class="memitem:a7c5abbf62ad317d63b468bf4fc93b96c" id="r_a7c5abbf62ad317d63b468bf4fc93b96c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c5abbf62ad317d63b468bf4fc93b96c">TrackStateProxy</a> = typename track_container_t::TrackStateProxy</td></tr>
+<tr class="memdesc:ab850eaba1be89fd518a10e150a4f5d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track state container backend type.  <br /></td></tr>
+<tr class="memitem:a7c5abbf62ad317d63b468bf4fc93b96c" id="r_a7c5abbf62ad317d63b468bf4fc93b96c"><td class="memItemLeft" align="right" valign="top"><a id="a7c5abbf62ad317d63b468bf4fc93b96c" name="a7c5abbf62ad317d63b468bf4fc93b96c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxy</b> = typename track_container_t::TrackStateProxy</td></tr>
+<tr class="memdesc:a7c5abbf62ad317d63b468bf4fc93b96c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track state proxy type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5b651c101b3ac817c16a572282046f9d" id="r_a5b651c101b3ac817c16a572282046f9d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b651c101b3ac817c16a572282046f9d">activeBranches</a></td></tr>
-<tr class="memdesc:a5b651c101b3ac817c16a572282046f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices into <span class="tt">tracks</span> which mark active branches.  <br /></td></tr>
-<tr class="memitem:a18226eea5e75b89fa8e907f67916e4e0" id="r_a18226eea5e75b89fa8e907f67916e4e0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18226eea5e75b89fa8e907f67916e4e0">collectedTracks</a></td></tr>
-<tr class="memdesc:a18226eea5e75b89fa8e907f67916e4e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices into <span class="tt">tracks</span> which mark active branches.  <br /></td></tr>
-<tr class="memitem:ad2700e631c01f620f6f9a3cc918cbf8e" id="r_ad2700e631c01f620f6f9a3cc918cbf8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2700e631c01f620f6f9a3cc918cbf8e">finished</a> = false</td></tr>
-<tr class="memdesc:ad2700e631c01f620f6f9a3cc918cbf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicator if track finding has been done.  <br /></td></tr>
-<tr class="memitem:a00c98956d536de14d80156261a8b990b" id="r_a00c98956d536de14d80156261a8b990b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_path_limit_reached.html">PathLimitReached</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00c98956d536de14d80156261a8b990b">pathLimitReached</a></td></tr>
-<tr class="memdesc:a00c98956d536de14d80156261a8b990b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path limit aborter.  <br /></td></tr>
-<tr class="memitem:ac873f603dc57e07b43867ce2ef66e203" id="r_ac873f603dc57e07b43867ce2ef66e203"><td class="memItemLeft" align="right" valign="top">track_container_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac873f603dc57e07b43867ce2ef66e203">tracks</a> {nullptr}</td></tr>
-<tr class="memdesc:ac873f603dc57e07b43867ce2ef66e203"><td class="mdescLeft">&#160;</td><td class="mdescRight">The track container to store the found tracks.  <br /></td></tr>
-<tr class="memitem:a55dca6d2484c5e8af3b48996fdb51a51" id="r_a55dca6d2484c5e8af3b48996fdb51a51"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a7c5abbf62ad317d63b468bf4fc93b96c">TrackStateProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55dca6d2484c5e8af3b48996fdb51a51">trackStateCandidates</a></td></tr>
-<tr class="memdesc:a55dca6d2484c5e8af3b48996fdb51a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track state candidates buffer which can be used by the track state creator.  <br /></td></tr>
-<tr class="memitem:a28bd3d27b349ab3e0cace0a90eb2d306" id="r_a28bd3d27b349ab3e0cace0a90eb2d306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab850eaba1be89fd518a10e150a4f5d08">TrackStateContainerBackend</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28bd3d27b349ab3e0cace0a90eb2d306">trackStates</a> {nullptr}</td></tr>
-<tr class="memdesc:a28bd3d27b349ab3e0cace0a90eb2d306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fitted states that the actor has handled.  <br /></td></tr>
+<tr class="memitem:a5b651c101b3ac817c16a572282046f9d" id="r_a5b651c101b3ac817c16a572282046f9d"><td class="memItemLeft" align="right" valign="top"><a id="a5b651c101b3ac817c16a572282046f9d" name="a5b651c101b3ac817c16a572282046f9d"></a>
+std::vector&lt; <a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>activeBranches</b></td></tr>
+<tr class="memdesc:a5b651c101b3ac817c16a572282046f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices into <span class="tt">tracks</span> which mark active branches. <br /></td></tr>
+<tr class="memitem:a18226eea5e75b89fa8e907f67916e4e0" id="r_a18226eea5e75b89fa8e907f67916e4e0"><td class="memItemLeft" align="right" valign="top"><a id="a18226eea5e75b89fa8e907f67916e4e0" name="a18226eea5e75b89fa8e907f67916e4e0"></a>
+std::vector&lt; <a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>collectedTracks</b></td></tr>
+<tr class="memdesc:a18226eea5e75b89fa8e907f67916e4e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices into <span class="tt">tracks</span> which mark active branches. <br /></td></tr>
+<tr class="memitem:ad2700e631c01f620f6f9a3cc918cbf8e" id="r_ad2700e631c01f620f6f9a3cc918cbf8e"><td class="memItemLeft" align="right" valign="top"><a id="ad2700e631c01f620f6f9a3cc918cbf8e" name="ad2700e631c01f620f6f9a3cc918cbf8e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>finished</b> = false</td></tr>
+<tr class="memdesc:ad2700e631c01f620f6f9a3cc918cbf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicator if track finding has been done. <br /></td></tr>
+<tr class="memitem:a00c98956d536de14d80156261a8b990b" id="r_a00c98956d536de14d80156261a8b990b"><td class="memItemLeft" align="right" valign="top"><a id="a00c98956d536de14d80156261a8b990b" name="a00c98956d536de14d80156261a8b990b"></a>
+<a class="el" href="struct_acts_1_1_path_limit_reached.html">PathLimitReached</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pathLimitReached</b></td></tr>
+<tr class="memdesc:a00c98956d536de14d80156261a8b990b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path limit aborter. <br /></td></tr>
+<tr class="memitem:ac873f603dc57e07b43867ce2ef66e203" id="r_ac873f603dc57e07b43867ce2ef66e203"><td class="memItemLeft" align="right" valign="top"><a id="ac873f603dc57e07b43867ce2ef66e203" name="ac873f603dc57e07b43867ce2ef66e203"></a>
+track_container_t *&#160;</td><td class="memItemRight" valign="bottom"><b>tracks</b> {nullptr}</td></tr>
+<tr class="memdesc:ac873f603dc57e07b43867ce2ef66e203"><td class="mdescLeft">&#160;</td><td class="mdescRight">The track container to store the found tracks. <br /></td></tr>
+<tr class="memitem:a55dca6d2484c5e8af3b48996fdb51a51" id="r_a55dca6d2484c5e8af3b48996fdb51a51"><td class="memItemLeft" align="right" valign="top"><a id="a55dca6d2484c5e8af3b48996fdb51a51" name="a55dca6d2484c5e8af3b48996fdb51a51"></a>
+std::vector&lt; <a class="el" href="#a7c5abbf62ad317d63b468bf4fc93b96c">TrackStateProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackStateCandidates</b></td></tr>
+<tr class="memdesc:a55dca6d2484c5e8af3b48996fdb51a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track state candidates buffer which can be used by the track state creator. <br /></td></tr>
+<tr class="memitem:a28bd3d27b349ab3e0cace0a90eb2d306" id="r_a28bd3d27b349ab3e0cace0a90eb2d306"><td class="memItemLeft" align="right" valign="top"><a id="a28bd3d27b349ab3e0cace0a90eb2d306" name="a28bd3d27b349ab3e0cace0a90eb2d306"></a>
+<a class="el" href="#ab850eaba1be89fd518a10e150a4f5d08">TrackStateContainerBackend</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>trackStates</b> {nullptr}</td></tr>
+<tr class="memdesc:a28bd3d27b349ab3e0cace0a90eb2d306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fitted states that the actor has handled. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aee765c2e0fc9de1426e4c26bdb9d5974" name="aee765c2e0fc9de1426e4c26bdb9d5974"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee765c2e0fc9de1426e4c26bdb9d5974">&#9670;&#160;</a></span>TrackProxy</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::TrackProxy = typename track_container_t::TrackProxy</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename track_container_t&gt;<br />
+struct Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;</div><p>Result container for the combinatorial Kalman filter actor. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">track_container_t</td><td>Type of the track container storing results </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="ab850eaba1be89fd518a10e150a4f5d08" name="ab850eaba1be89fd518a10e150a4f5d08"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab850eaba1be89fd518a10e150a4f5d08">&#9670;&#160;</a></span>TrackStateContainerBackend</h2>
 
@@ -189,148 +197,7 @@ template&lt;typename track_container_t&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> track_container_t::TrackStateContainerBackend</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a7c5abbf62ad317d63b468bf4fc93b96c" name="a7c5abbf62ad317d63b468bf4fc93b96c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c5abbf62ad317d63b468bf4fc93b96c">&#9670;&#160;</a></span>TrackStateProxy</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::TrackStateProxy = typename track_container_t::TrackStateProxy</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a5b651c101b3ac817c16a572282046f9d" name="a5b651c101b3ac817c16a572282046f9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b651c101b3ac817c16a572282046f9d">&#9670;&#160;</a></span>activeBranches</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a>&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::activeBranches</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indices into <span class="tt">tracks</span> which mark active branches. </p>
-
-</div>
-</div>
-<a id="a18226eea5e75b89fa8e907f67916e4e0" name="a18226eea5e75b89fa8e907f67916e4e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18226eea5e75b89fa8e907f67916e4e0">&#9670;&#160;</a></span>collectedTracks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#aee765c2e0fc9de1426e4c26bdb9d5974">TrackProxy</a>&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::collectedTracks</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indices into <span class="tt">tracks</span> which mark active branches. </p>
-
-</div>
-</div>
-<a id="ad2700e631c01f620f6f9a3cc918cbf8e" name="ad2700e631c01f620f6f9a3cc918cbf8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2700e631c01f620f6f9a3cc918cbf8e">&#9670;&#160;</a></span>finished</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::finished = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicator if track finding has been done. </p>
-
-</div>
-</div>
-<a id="a00c98956d536de14d80156261a8b990b" name="a00c98956d536de14d80156261a8b990b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00c98956d536de14d80156261a8b990b">&#9670;&#160;</a></span>pathLimitReached</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_path_limit_reached.html">PathLimitReached</a> <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::pathLimitReached</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Path limit aborter. </p>
-
-</div>
-</div>
-<a id="ac873f603dc57e07b43867ce2ef66e203" name="ac873f603dc57e07b43867ce2ef66e203"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac873f603dc57e07b43867ce2ef66e203">&#9670;&#160;</a></span>tracks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">track_container_t* <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::tracks {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The track container to store the found tracks. </p>
-
-</div>
-</div>
-<a id="a55dca6d2484c5e8af3b48996fdb51a51" name="a55dca6d2484c5e8af3b48996fdb51a51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55dca6d2484c5e8af3b48996fdb51a51">&#9670;&#160;</a></span>trackStateCandidates</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#a7c5abbf62ad317d63b468bf4fc93b96c">TrackStateProxy</a>&gt; <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::trackStateCandidates</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Track state candidates buffer which can be used by the track state creator. </p>
-
-</div>
-</div>
-<a id="a28bd3d27b349ab3e0cace0a90eb2d306" name="a28bd3d27b349ab3e0cace0a90eb2d306"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28bd3d27b349ab3e0cace0a90eb2d306">&#9670;&#160;</a></span>trackStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename track_container_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ab850eaba1be89fd518a10e150a4f5d08">TrackStateContainerBackend</a>* <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">Acts::CombinatorialKalmanFilterResult</a>&lt; track_container_t &gt;::trackStates {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fitted states that the actor has handled. </p>
+<p>Track state container backend type. </p>
 
 </div>
 </div>

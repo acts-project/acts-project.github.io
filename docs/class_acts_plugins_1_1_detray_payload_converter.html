@@ -126,43 +126,68 @@ $(function(){initNavTree('class_acts_plugins_1_1_detray_payload_converter.html',
 </div><!--header-->
 <div class="contents">
 
+<p>Converter for ACTS geometry to Detray payload format.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_detray_payload_converter_8hpp_source.html">/home/runner/work/acts/acts/Plugins/Detray/include/ActsPlugins/Detray/DetrayPayloadConverter.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the Detray payload converter.  <a href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Payloads" id="r_Payloads"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html">Payloads</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for all Detray payload outputs.  <a href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ad2012c6f039307d9851ae990f0c1e9df" id="r_ad2012c6f039307d9851ae990f0c1e9df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a></td></tr>
+<tr class="memdesc:ad2012c6f039307d9851ae990f0c1e9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detray surface grid payload type.  <br /></td></tr>
 <tr class="memitem:a499988a0f185746f8a3d523526a26d52" id="r_a499988a0f185746f8a3d523526a26d52"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a499988a0f185746f8a3d523526a26d52">DetraySurfaceMaterial</a></td></tr>
+<tr class="memdesc:a499988a0f185746f8a3d523526a26d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detray surface material payload type.  <br /></td></tr>
 <tr class="memitem:a2840e76e22a9a76d7d8150cd321f0368" id="r_a2840e76e22a9a76d7d8150cd321f0368"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a></td></tr>
 <tr class="memdesc:a2840e76e22a9a76d7d8150cd321f0368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function type for looking up surface indices in detray conversion.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a49ab7c6d3a59f3928524e6fe71f7555d" id="r_a49ab7c6d3a59f3928524e6fe71f7555d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ab7c6d3a59f3928524e6fe71f7555d">DetrayPayloadConverter</a> (const <a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html">Config</a> &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;DetrayPayloadConverter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
+<tr class="memdesc:a49ab7c6d3a59f3928524e6fe71f7555d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a741a18bab7430a1634222fcddb450c54" id="r_a741a18bab7430a1634222fcddb450c54"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; detray::io::grid_payload&lt; detray::io::material_slab_payload, detray::io::material_id &gt; &gt;, detray::io::material_volume_payload &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741a18bab7430a1634222fcddb450c54">convertMaterial</a> (const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume, const std::unordered_map&lt; const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> *, std::size_t &gt; &amp;surfaceIndices, detray::io::volume_payload &amp;volPayload) const</td></tr>
+<tr class="memdesc:a741a18bab7430a1634222fcddb450c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert material.  <br /></td></tr>
 <tr class="memitem:a2b921159db15734d73e130c6ae5aa83e" id="r_a2b921159db15734d73e130c6ae5aa83e"><td class="memItemLeft" align="right" valign="top">detray::io::surface_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b921159db15734d73e130c6ae5aa83e">convertSurface</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface, bool portal=false) const</td></tr>
+<tr class="memdesc:a2b921159db15734d73e130c6ae5aa83e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert surface.  <br /></td></tr>
 <tr class="memitem:a57fe0c842aba6279bb9afd03cf183c83" id="r_a57fe0c842aba6279bb9afd03cf183c83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html">Payloads</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fe0c842aba6279bb9afd03cf183c83">convertTrackingGeometry</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &amp;geometry) const</td></tr>
+<tr class="memdesc:a57fe0c842aba6279bb9afd03cf183c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert tracking geometry.  <br /></td></tr>
 <tr class="memitem:ace1bce4d0eacd16932573ab712a9860b" id="r_ace1bce4d0eacd16932573ab712a9860b"><td class="memItemLeft" align="right" valign="top">detray::io::volume_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace1bce4d0eacd16932573ab712a9860b">convertVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume) const</td></tr>
+<tr class="memdesc:ace1bce4d0eacd16932573ab712a9860b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert volume.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3407bf7aa72836346ae80e098f76b89c" id="r_a3407bf7aa72836346ae80e098f76b89c"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#a499988a0f185746f8a3d523526a26d52">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3407bf7aa72836346ae80e098f76b89c">convertBinnedSurfaceMaterial</a> (const <a class="el" href="class_acts_1_1_binned_surface_material.html">Acts::BinnedSurfaceMaterial</a> &amp;material)</td></tr>
+<tr class="memdesc:a3407bf7aa72836346ae80e098f76b89c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert binned surface material.  <br /></td></tr>
 <tr class="memitem:af637f67bec806bb733cdc5a036ac6101" id="r_af637f67bec806bb733cdc5a036ac6101"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af637f67bec806bb733cdc5a036ac6101">convertCylinderNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_cylinder_navigation_policy.html">Acts::CylinderNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:af637f67bec806bb733cdc5a036ac6101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert cylinder navigation policy.  <br /></td></tr>
 <tr class="memitem:a7e0b46ea83e451ee868f54a08bd9743a" id="r_a7e0b46ea83e451ee868f54a08bd9743a"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#a499988a0f185746f8a3d523526a26d52">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e0b46ea83e451ee868f54a08bd9743a">convertGridSurfaceMaterial</a> (const <a class="el" href="class_acts_1_1_i_grid_surface_material_base.html">Acts::IGridSurfaceMaterialBase</a> &amp;material)</td></tr>
+<tr class="memdesc:a7e0b46ea83e451ee868f54a08bd9743a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert grid surface material.  <br /></td></tr>
 <tr class="memitem:a5b0bec3b5921606905656405e1e93e5f" id="r_a5b0bec3b5921606905656405e1e93e5f"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#a499988a0f185746f8a3d523526a26d52">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b0bec3b5921606905656405e1e93e5f">convertHomogeneousSurfaceMaterial</a> (const <a class="el" href="class_acts_1_1_homogeneous_surface_material.html">Acts::HomogeneousSurfaceMaterial</a> &amp;material)</td></tr>
+<tr class="memdesc:a5b0bec3b5921606905656405e1e93e5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert homogeneous surface material.  <br /></td></tr>
 <tr class="memitem:adf6c138a139b24e70160498fadccde30" id="r_adf6c138a139b24e70160498fadccde30"><td class="memItemLeft" align="right" valign="top">static detray::io::mask_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6c138a139b24e70160498fadccde30">convertMask</a> (const <a class="el" href="class_acts_1_1_surface_bounds.html">Acts::SurfaceBounds</a> &amp;bounds, bool forPortal)</td></tr>
+<tr class="memdesc:adf6c138a139b24e70160498fadccde30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert surface bounds to detray mask payload.  <br /></td></tr>
 <tr class="memitem:a574896548ff04ce806532d47a44b8227" id="r_a574896548ff04ce806532d47a44b8227"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a574896548ff04ce806532d47a44b8227">convertMultiLayerNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html">Acts::Experimental::MultiLayerNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a574896548ff04ce806532d47a44b8227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert multi layer navigation policy.  <br /></td></tr>
 <tr class="memitem:a4da94ad1f29faf63857d84be9e4154d4" id="r_a4da94ad1f29faf63857d84be9e4154d4"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4da94ad1f29faf63857d84be9e4154d4">convertMultiNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_multi_navigation_policy.html">Acts::MultiNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a4da94ad1f29faf63857d84be9e4154d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert multi navigation policy.  <br /></td></tr>
 <tr class="memitem:a1ad5a8a48aa270052ed30e0fb733d163" id="r_a1ad5a8a48aa270052ed30e0fb733d163"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#a499988a0f185746f8a3d523526a26d52">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad5a8a48aa270052ed30e0fb733d163">convertProtoSurfaceMaterialBinUtility</a> (const <a class="el" href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a>&lt; <a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a> &gt; &amp;material)</td></tr>
+<tr class="memdesc:a1ad5a8a48aa270052ed30e0fb733d163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert proto surface material with bin utility.  <br /></td></tr>
 <tr class="memitem:a48f306c935dc40d0ac00bfa367bda133" id="r_a48f306c935dc40d0ac00bfa367bda133"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#a499988a0f185746f8a3d523526a26d52">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f306c935dc40d0ac00bfa367bda133">convertProtoSurfaceMaterialProtoAxes</a> (const <a class="el" href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a>&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_directed_proto_axis.html">Acts::DirectedProtoAxis</a> &gt; &gt; &amp;material)</td></tr>
+<tr class="memdesc:a48f306c935dc40d0ac00bfa367bda133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert proto surface material with proto axes.  <br /></td></tr>
 <tr class="memitem:a99edaf8b41837ffa6d14c0c9b78e5fb9" id="r_a99edaf8b41837ffa6d14c0c9b78e5fb9"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99edaf8b41837ffa6d14c0c9b78e5fb9">convertSurfaceArray</a> (const <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html">Acts::SurfaceArrayNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a99edaf8b41837ffa6d14c0c9b78e5fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert surface array navigation policy.  <br /></td></tr>
 <tr class="memitem:aa2276135102d853be4d6283722ca633f" id="r_aa2276135102d853be4d6283722ca633f"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2276135102d853be4d6283722ca633f">convertTryAllNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_try_all_navigation_policy.html">Acts::TryAllNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:aa2276135102d853be4d6283722ca633f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert try all navigation policy.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Converter for ACTS geometry to Detray payload format. </p>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="ad2012c6f039307d9851ae990f0c1e9df" name="ad2012c6f039307d9851ae990f0c1e9df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2012c6f039307d9851ae990f0c1e9df">&#9670;&#160;</a></span>DetraySurfaceGrid</h2>
 
@@ -177,6 +202,8 @@ Static Public Member Functions</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detray::io::grid_payload&lt;std::size_t, detray::io::accel_id&gt;</div>
 </div><!-- fragment -->
+<p>Detray surface grid payload type. </p>
+
 </div>
 </div>
 <a id="a499988a0f185746f8a3d523526a26d52" name="a499988a0f185746f8a3d523526a26d52"></a>
@@ -195,6 +222,8 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">                                            detray::io::material_id&gt;,</div>
 <div class="line">                   detray::io::material_slab_payload&gt;</div>
 </div><!-- fragment -->
+<p>Detray surface material payload type. </p>
+
 </div>
 </div>
 <a id="a2840e76e22a9a76d7d8150cd321f0368" name="a2840e76e22a9a76d7d8150cd321f0368"></a>
@@ -244,6 +273,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>Configuration object </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -269,6 +307,15 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert binned surface material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td>Binned surface material </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface material payload </dd></dl>
 
 </div>
 </div>
@@ -309,6 +356,18 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert cylinder navigation policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Cylinder navigation policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+
 </div>
 </div>
 <a id="a7e0b46ea83e451ee868f54a08bd9743a" name="a7e0b46ea83e451ee868f54a08bd9743a"></a>
@@ -334,6 +393,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert grid surface material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td>Grid surface material </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface material payload </dd></dl>
+
 </div>
 </div>
 <a id="a5b0bec3b5921606905656405e1e93e5f" name="a5b0bec3b5921606905656405e1e93e5f"></a>
@@ -358,6 +426,15 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert homogeneous surface material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td>Homogeneous surface material </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface material payload </dd></dl>
 
 </div>
 </div>
@@ -387,6 +464,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert surface bounds to detray mask payload. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bounds</td><td>the surface bounds to convert </td></tr>
@@ -394,6 +473,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray mask payload </dd></dl>
 
 </div>
 </div>
@@ -420,6 +500,17 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volume</td><td>Tracking volume </td></tr>
+    <tr><td class="paramname">surfaceIndices</td><td>Surface indices map </td></tr>
+    <tr><td class="paramname">volPayload</td><td>Volume payload </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Material grids and volume material payloads </dd></dl>
 
 </div>
 </div>
@@ -460,6 +551,18 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert multi layer navigation policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Multi layer navigation policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+
 </div>
 </div>
 <a id="a4da94ad1f29faf63857d84be9e4154d4" name="a4da94ad1f29faf63857d84be9e4154d4"></a>
@@ -499,6 +602,19 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert multi navigation policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Multi navigation policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This is a noop, the payload converter will actually traverse the children via <span class="tt">visit</span>. </dd></dl>
+
 </div>
 </div>
 <a id="a1ad5a8a48aa270052ed30e0fb733d163" name="a1ad5a8a48aa270052ed30e0fb733d163"></a>
@@ -523,6 +639,15 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert proto surface material with bin utility. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td>Proto surface material </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface material payload </dd></dl>
 
 </div>
 </div>
@@ -549,6 +674,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert proto surface material with proto axes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td>Proto surface material </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface material payload </dd></dl>
+
 </div>
 </div>
 <a id="a2b921159db15734d73e130c6ae5aa83e" name="a2b921159db15734d73e130c6ae5aa83e"></a>
@@ -574,6 +708,17 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert surface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surface</td><td>Surface to convert </td></tr>
+    <tr><td class="paramname">portal</td><td>Is portal surface </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface payload </dd></dl>
 
 </div>
 </div>
@@ -614,6 +759,18 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert surface array navigation policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Surface array navigation policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+
 </div>
 </div>
 <a id="a57fe0c842aba6279bb9afd03cf183c83" name="a57fe0c842aba6279bb9afd03cf183c83"></a>
@@ -634,6 +791,16 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert tracking geometry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">geometry</td><td>Tracking geometry to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray payloads </dd></dl>
 
 </div>
 </div>
@@ -674,6 +841,18 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convert try all navigation policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>Try all navigation policy </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">surfaceLookup</td><td>Surface lookup function </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
+
 </div>
 </div>
 <a id="ace1bce4d0eacd16932573ab712a9860b" name="ace1bce4d0eacd16932573ab712a9860b"></a>
@@ -694,6 +873,16 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+    <tr><td class="paramname">volume</td><td>Volume to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Detray volume payload </dd></dl>
 
 </div>
 </div>

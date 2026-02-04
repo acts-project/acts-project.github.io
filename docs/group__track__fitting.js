@@ -1,7 +1,5 @@
 var group__track__fitting =
 [
-    [ "Acts::Experimental::Gx2fConstants", "namespace_acts_1_1_experimental_1_1_gx2f_constants.html", null ],
-    [ "Acts::GsfConstants", "namespace_acts_1_1_gsf_constants.html", null ],
     [ "Acts::AtlasBetheHeitlerApprox", "class_acts_1_1_atlas_bethe_heitler_approx.html", [
       [ "PolyData", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html", [
         [ "meanCoeffs", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#a806d0c26cc4f10791f8c8059f4fd4858", null ],
@@ -17,7 +15,6 @@ var group__track__fitting =
     ] ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
       [ "Component", "class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3", null ],
-      [ "~BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html#ae00e351510ed0f3f13f31d62f63acf7d", null ],
       [ "maxComponents", "class_acts_1_1_bethe_heitler_approx.html#a8b593569b93fbc23758df47e785b81af", null ],
       [ "mixture", "class_acts_1_1_bethe_heitler_approx.html#a2f4ffb5dc53aa252ded57259eb91c619", null ],
       [ "validXOverX0", "class_acts_1_1_bethe_heitler_approx.html#a24eff665b135214e214cb999fd15cad9", null ]
@@ -205,10 +202,7 @@ var group__track__fitting =
     [ "Acts::MbfSmoother", "class_acts_1_1_mbf_smoother.html", [
       [ "operator()", "class_acts_1_1_mbf_smoother.html#ace445e5085f6eb5a3fa99ddf46ebd316", null ]
     ] ],
-    [ "Acts::ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", [
-      [ "Acts::ComponentMergeMethod::eMean", "group__track__fitting.html#gga920082397516a41a551b2a9883131d66a3777ecb542bc8383bb318326dc78543d", null ],
-      [ "Acts::ComponentMergeMethod::eMaxWeight", "group__track__fitting.html#gga920082397516a41a551b2a9883131d66a94c1ac5c5a71671cad67049d837a4da7", null ]
-    ] ],
+    [ "Acts::ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", null ],
     [ "Acts::Experimental::addMaterialToGx2fSums", "group__track__fitting.html#ga2e4730c98bab4db36b6caaba7a1b606b", null ],
     [ "Acts::Experimental::addMeasurementToGx2fSums", "group__track__fitting.html#ga6b4ab37353c322c5e6a328b74148bf8a", null ],
     [ "Acts::Experimental::addMeasurementToGx2fSumsBackend", "group__track__fitting.html#ga5dc7667fa9886694323a291f67ebd831", null ],

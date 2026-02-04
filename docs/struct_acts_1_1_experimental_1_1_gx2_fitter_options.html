@@ -138,35 +138,47 @@ Collaboration diagram for Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;:<
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa5206c36cacf8a2c3ef9b3d8a349b646" id="r_aa5206c36cacf8a2c3ef9b3d8a349b646"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5206c36cacf8a2c3ef9b3d8a349b646">Gx2FitterOptions</a> ()=delete</td></tr>
-<tr class="memdesc:aa5206c36cacf8a2c3ef9b3d8a349b646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contexts are required and the options must not be default-constructible.  <br /></td></tr>
+<tr class="memitem:aa5206c36cacf8a2c3ef9b3d8a349b646" id="r_aa5206c36cacf8a2c3ef9b3d8a349b646"><td class="memItemLeft" align="right" valign="top"><a id="aa5206c36cacf8a2c3ef9b3d8a349b646" name="aa5206c36cacf8a2c3ef9b3d8a349b646"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Gx2FitterOptions</b> ()=delete</td></tr>
+<tr class="memdesc:aa5206c36cacf8a2c3ef9b3d8a349b646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contexts are required and the options must not be default-constructible. <br /></td></tr>
 <tr class="memitem:a2fb106e351092e2350beee5fc0d172bf" id="r_a2fb106e351092e2350beee5fc0d172bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fb106e351092e2350beee5fc0d172bf">Gx2FitterOptions</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt; cctx, <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html">Gx2FitterExtensions</a>&lt; traj_t &gt; extensions_, const <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> &amp;pOptions, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *rSurface=nullptr, bool mScattering=false, bool eLoss=false, const FreeToBoundCorrection &amp;freeToBoundCorrection_=FreeToBoundCorrection(false), const std::size_t nUpdateMax_=5, double relChi2changeCutOff_=1e-5)</td></tr>
 <tr class="memdesc:a2fb106e351092e2350beee5fc0d172bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">PropagatorOptions with context.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab5c32fd4ffe17ed4755ad61c0c1d901e" id="r_ab5c32fd4ffe17ed4755ad61c0c1d901e"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5c32fd4ffe17ed4755ad61c0c1d901e">calibrationContext</a></td></tr>
-<tr class="memdesc:ab5c32fd4ffe17ed4755ad61c0c1d901e"><td class="mdescLeft">&#160;</td><td class="mdescRight">context object for the calibration  <br /></td></tr>
-<tr class="memitem:adb427a70473cf26177afa82f8efcb6e5" id="r_adb427a70473cf26177afa82f8efcb6e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb427a70473cf26177afa82f8efcb6e5">energyLoss</a> = false</td></tr>
-<tr class="memdesc:adb427a70473cf26177afa82f8efcb6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider energy loss.  <br /></td></tr>
-<tr class="memitem:af1b1ef08aa96df34716efc196a81c914" id="r_af1b1ef08aa96df34716efc196a81c914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html">Gx2FitterExtensions</a>&lt; traj_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1b1ef08aa96df34716efc196a81c914">extensions</a></td></tr>
-<tr class="memdesc:af1b1ef08aa96df34716efc196a81c914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extensions for calibration and outlier finding.  <br /></td></tr>
-<tr class="memitem:a793fdc8ef515a4630a512f73b8e60dd2" id="r_a793fdc8ef515a4630a512f73b8e60dd2"><td class="memItemLeft" align="right" valign="top">FreeToBoundCorrection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a793fdc8ef515a4630a512f73b8e60dd2">freeToBoundCorrection</a></td></tr>
-<tr class="memdesc:a793fdc8ef515a4630a512f73b8e60dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to include non-linear correction during global to local transformation.  <br /></td></tr>
-<tr class="memitem:a180f116b8e73a095085b0e9747804763" id="r_a180f116b8e73a095085b0e9747804763"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180f116b8e73a095085b0e9747804763">geoContext</a></td></tr>
-<tr class="memdesc:a180f116b8e73a095085b0e9747804763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry.  <br /></td></tr>
-<tr class="memitem:a7951f35faf1f06b90798e11eeae59beb" id="r_a7951f35faf1f06b90798e11eeae59beb"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7951f35faf1f06b90798e11eeae59beb">magFieldContext</a></td></tr>
-<tr class="memdesc:a7951f35faf1f06b90798e11eeae59beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the magnetic field.  <br /></td></tr>
-<tr class="memitem:a1d27e8d322f9d5ee1e32fe14336a2377" id="r_a1d27e8d322f9d5ee1e32fe14336a2377"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d27e8d322f9d5ee1e32fe14336a2377">multipleScattering</a> = false</td></tr>
-<tr class="memdesc:a1d27e8d322f9d5ee1e32fe14336a2377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider multiple scattering.  <br /></td></tr>
-<tr class="memitem:acd7a4cac5bf6ecde98970083fadb866b" id="r_acd7a4cac5bf6ecde98970083fadb866b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd7a4cac5bf6ecde98970083fadb866b">nUpdateMax</a> = 5</td></tr>
-<tr class="memdesc:acd7a4cac5bf6ecde98970083fadb866b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of iterations during the fit (abort condition).  <br /></td></tr>
-<tr class="memitem:ade0f48477b16ff9f79508f2490452666" id="r_ade0f48477b16ff9f79508f2490452666"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0f48477b16ff9f79508f2490452666">propagatorPlainOptions</a></td></tr>
-<tr class="memdesc:ade0f48477b16ff9f79508f2490452666"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trivial propagator options.  <br /></td></tr>
-<tr class="memitem:ab3653855ae2bccf1fd2056150c4d9374" id="r_ab3653855ae2bccf1fd2056150c4d9374"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3653855ae2bccf1fd2056150c4d9374">referenceSurface</a> = nullptr</td></tr>
-<tr class="memdesc:ab3653855ae2bccf1fd2056150c4d9374"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference Surface.  <br /></td></tr>
-<tr class="memitem:a48fed7e05f1ac0ec5e308377c4e6d474" id="r_a48fed7e05f1ac0ec5e308377c4e6d474"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48fed7e05f1ac0ec5e308377c4e6d474">relChi2changeCutOff</a> = 1e-7</td></tr>
-<tr class="memdesc:a48fed7e05f1ac0ec5e308377c4e6d474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for convergence (abort condition). Set to 0 to skip.  <br /></td></tr>
+<tr class="memitem:ab5c32fd4ffe17ed4755ad61c0c1d901e" id="r_ab5c32fd4ffe17ed4755ad61c0c1d901e"><td class="memItemLeft" align="right" valign="top"><a id="ab5c32fd4ffe17ed4755ad61c0c1d901e" name="ab5c32fd4ffe17ed4755ad61c0c1d901e"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>calibrationContext</b></td></tr>
+<tr class="memdesc:ab5c32fd4ffe17ed4755ad61c0c1d901e"><td class="mdescLeft">&#160;</td><td class="mdescRight">context object for the calibration <br /></td></tr>
+<tr class="memitem:adb427a70473cf26177afa82f8efcb6e5" id="r_adb427a70473cf26177afa82f8efcb6e5"><td class="memItemLeft" align="right" valign="top"><a id="adb427a70473cf26177afa82f8efcb6e5" name="adb427a70473cf26177afa82f8efcb6e5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>energyLoss</b> = false</td></tr>
+<tr class="memdesc:adb427a70473cf26177afa82f8efcb6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider energy loss. <br /></td></tr>
+<tr class="memitem:af1b1ef08aa96df34716efc196a81c914" id="r_af1b1ef08aa96df34716efc196a81c914"><td class="memItemLeft" align="right" valign="top"><a id="af1b1ef08aa96df34716efc196a81c914" name="af1b1ef08aa96df34716efc196a81c914"></a>
+<a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html">Gx2FitterExtensions</a>&lt; traj_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>extensions</b></td></tr>
+<tr class="memdesc:af1b1ef08aa96df34716efc196a81c914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extensions for calibration and outlier finding. <br /></td></tr>
+<tr class="memitem:a793fdc8ef515a4630a512f73b8e60dd2" id="r_a793fdc8ef515a4630a512f73b8e60dd2"><td class="memItemLeft" align="right" valign="top"><a id="a793fdc8ef515a4630a512f73b8e60dd2" name="a793fdc8ef515a4630a512f73b8e60dd2"></a>
+FreeToBoundCorrection&#160;</td><td class="memItemRight" valign="bottom"><b>freeToBoundCorrection</b></td></tr>
+<tr class="memdesc:a793fdc8ef515a4630a512f73b8e60dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to include non-linear correction during global to local transformation. <br /></td></tr>
+<tr class="memitem:a180f116b8e73a095085b0e9747804763" id="r_a180f116b8e73a095085b0e9747804763"><td class="memItemLeft" align="right" valign="top"><a id="a180f116b8e73a095085b0e9747804763" name="a180f116b8e73a095085b0e9747804763"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
+<tr class="memdesc:a180f116b8e73a095085b0e9747804763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry. <br /></td></tr>
+<tr class="memitem:a7951f35faf1f06b90798e11eeae59beb" id="r_a7951f35faf1f06b90798e11eeae59beb"><td class="memItemLeft" align="right" valign="top"><a id="a7951f35faf1f06b90798e11eeae59beb" name="a7951f35faf1f06b90798e11eeae59beb"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>magFieldContext</b></td></tr>
+<tr class="memdesc:a7951f35faf1f06b90798e11eeae59beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the magnetic field. <br /></td></tr>
+<tr class="memitem:a1d27e8d322f9d5ee1e32fe14336a2377" id="r_a1d27e8d322f9d5ee1e32fe14336a2377"><td class="memItemLeft" align="right" valign="top"><a id="a1d27e8d322f9d5ee1e32fe14336a2377" name="a1d27e8d322f9d5ee1e32fe14336a2377"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>multipleScattering</b> = false</td></tr>
+<tr class="memdesc:a1d27e8d322f9d5ee1e32fe14336a2377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to consider multiple scattering. <br /></td></tr>
+<tr class="memitem:acd7a4cac5bf6ecde98970083fadb866b" id="r_acd7a4cac5bf6ecde98970083fadb866b"><td class="memItemLeft" align="right" valign="top"><a id="acd7a4cac5bf6ecde98970083fadb866b" name="acd7a4cac5bf6ecde98970083fadb866b"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nUpdateMax</b> = 5</td></tr>
+<tr class="memdesc:acd7a4cac5bf6ecde98970083fadb866b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of iterations during the fit (abort condition). <br /></td></tr>
+<tr class="memitem:ade0f48477b16ff9f79508f2490452666" id="r_ade0f48477b16ff9f79508f2490452666"><td class="memItemLeft" align="right" valign="top"><a id="ade0f48477b16ff9f79508f2490452666" name="ade0f48477b16ff9f79508f2490452666"></a>
+<a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><b>propagatorPlainOptions</b></td></tr>
+<tr class="memdesc:ade0f48477b16ff9f79508f2490452666"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trivial propagator options. <br /></td></tr>
+<tr class="memitem:ab3653855ae2bccf1fd2056150c4d9374" id="r_ab3653855ae2bccf1fd2056150c4d9374"><td class="memItemLeft" align="right" valign="top"><a id="ab3653855ae2bccf1fd2056150c4d9374" name="ab3653855ae2bccf1fd2056150c4d9374"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>referenceSurface</b> = nullptr</td></tr>
+<tr class="memdesc:ab3653855ae2bccf1fd2056150c4d9374"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference Surface. <br /></td></tr>
+<tr class="memitem:a48fed7e05f1ac0ec5e308377c4e6d474" id="r_a48fed7e05f1ac0ec5e308377c4e6d474"><td class="memItemLeft" align="right" valign="top"><a id="a48fed7e05f1ac0ec5e308377c4e6d474" name="a48fed7e05f1ac0ec5e308377c4e6d474"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>relChi2changeCutOff</b> = 1e-7</td></tr>
+<tr class="memdesc:a48fed7e05f1ac0ec5e308377c4e6d474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for convergence (abort condition). Set to 0 to skip. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename traj_t&gt;<br />
@@ -179,7 +191,7 @@ struct Acts::Experimental::Gx2FitterOptions&lt; traj_t &gt;</div><p>Combined opt
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2fb106e351092e2350beee5fc0d172bf" name="a2fb106e351092e2350beee5fc0d172bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fb106e351092e2350beee5fc0d172bf">&#9670;&#160;</a></span>Gx2FitterOptions() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb106e351092e2350beee5fc0d172bf">&#9670;&#160;</a></span>Gx2FitterOptions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,234 +273,6 @@ template&lt;typename traj_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="aa5206c36cacf8a2c3ef9b3d8a349b646" name="aa5206c36cacf8a2c3ef9b3d8a349b646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5206c36cacf8a2c3ef9b3d8a349b646">&#9670;&#160;</a></span>Gx2FitterOptions() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::Gx2FitterOptions </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Contexts are required and the options must not be default-constructible. </p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ab5c32fd4ffe17ed4755ad61c0c1d901e" name="ab5c32fd4ffe17ed4755ad61c0c1d901e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5c32fd4ffe17ed4755ad61c0c1d901e">&#9670;&#160;</a></span>calibrationContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_calibration_context.html">CalibrationContext</a>&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::calibrationContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>context object for the calibration </p>
-
-</div>
-</div>
-<a id="adb427a70473cf26177afa82f8efcb6e5" name="adb427a70473cf26177afa82f8efcb6e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb427a70473cf26177afa82f8efcb6e5">&#9670;&#160;</a></span>energyLoss</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::energyLoss = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether to consider energy loss. </p>
-
-</div>
-</div>
-<a id="af1b1ef08aa96df34716efc196a81c914" name="af1b1ef08aa96df34716efc196a81c914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1b1ef08aa96df34716efc196a81c914">&#9670;&#160;</a></span>extensions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html">Gx2FitterExtensions</a>&lt;traj_t&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::extensions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Extensions for calibration and outlier finding. </p>
-
-</div>
-</div>
-<a id="a793fdc8ef515a4630a512f73b8e60dd2" name="a793fdc8ef515a4630a512f73b8e60dd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a793fdc8ef515a4630a512f73b8e60dd2">&#9670;&#160;</a></span>freeToBoundCorrection</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">FreeToBoundCorrection <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::freeToBoundCorrection</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether to include non-linear correction during global to local transformation. </p>
-
-</div>
-</div>
-<a id="a180f116b8e73a095085b0e9747804763" name="a180f116b8e73a095085b0e9747804763"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a180f116b8e73a095085b0e9747804763">&#9670;&#160;</a></span>geoContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::geoContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Context object for the geometry. </p>
-
-</div>
-</div>
-<a id="a7951f35faf1f06b90798e11eeae59beb" name="a7951f35faf1f06b90798e11eeae59beb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7951f35faf1f06b90798e11eeae59beb">&#9670;&#160;</a></span>magFieldContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a>&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::magFieldContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Context object for the magnetic field. </p>
-
-</div>
-</div>
-<a id="a1d27e8d322f9d5ee1e32fe14336a2377" name="a1d27e8d322f9d5ee1e32fe14336a2377"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d27e8d322f9d5ee1e32fe14336a2377">&#9670;&#160;</a></span>multipleScattering</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::multipleScattering = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Whether to consider multiple scattering. </p>
-
-</div>
-</div>
-<a id="acd7a4cac5bf6ecde98970083fadb866b" name="acd7a4cac5bf6ecde98970083fadb866b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7a4cac5bf6ecde98970083fadb866b">&#9670;&#160;</a></span>nUpdateMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::nUpdateMax = 5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Max number of iterations during the fit (abort condition). </p>
-
-</div>
-</div>
-<a id="ade0f48477b16ff9f79508f2490452666" name="ade0f48477b16ff9f79508f2490452666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade0f48477b16ff9f79508f2490452666">&#9670;&#160;</a></span>propagatorPlainOptions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a> <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::propagatorPlainOptions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The trivial propagator options. </p>
-
-</div>
-</div>
-<a id="ab3653855ae2bccf1fd2056150c4d9374" name="ab3653855ae2bccf1fd2056150c4d9374"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3653855ae2bccf1fd2056150c4d9374">&#9670;&#160;</a></span>referenceSurface</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::referenceSurface = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The reference Surface. </p>
-
-</div>
-</div>
-<a id="a48fed7e05f1ac0ec5e308377c4e6d474" name="a48fed7e05f1ac0ec5e308377c4e6d474"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48fed7e05f1ac0ec5e308377c4e6d474">&#9670;&#160;</a></span>relChi2changeCutOff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Acts::Experimental::Gx2FitterOptions</a>&lt; traj_t &gt;::relChi2changeCutOff = 1e-7</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check for convergence (abort condition). Set to 0 to skip. </p>
 
 </div>
 </div>

@@ -138,7 +138,6 @@ Inheritance diagram for Acts::IGrid:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab46c309b63c9075b019d70bd9dd61760" id="r_ab46c309b63c9075b019d70bd9dd61760"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab46c309b63c9075b019d70bd9dd61760">~IGrid</a> ()=default</td></tr>
 <tr class="memitem:a5c7655b06cfe2983e91be87f839491c5" id="r_a5c7655b06cfe2983e91be87f839491c5"><td class="memItemLeft" align="right" valign="top">virtual boost::container::small_vector&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> *, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7655b06cfe2983e91be87f839491c5">axes</a> () const =0</td></tr>
 <tr class="memdesc:a5c7655b06cfe2983e91be87f839491c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a dynamically sized vector of axis objects for inspection.  <br /></td></tr>
 <tr class="memitem:a83974f9d3a8b1ed3ea4bdbc4bc957b97" id="r_a83974f9d3a8b1ed3ea4bdbc4bc957b97"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83974f9d3a8b1ed3ea4bdbc4bc957b97">dimensions</a> () const =0</td></tr>
@@ -155,8 +154,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a128ca3d826ef384157247b3a1efdb249" id="r_a128ca3d826ef384157247b3a1efdb249"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a128ca3d826ef384157247b3a1efdb249">toStream</a> (std::ostream &amp;os) const =0</td></tr>
 <tr class="memitem:a31a3b1d6d21fe7aa914f42fa40355ce3" id="r_a31a3b1d6d21fe7aa914f42fa40355ce3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> = boost::container::small_vector&lt;std::size_t, 3&gt;</td></tr>
 <tr class="memdesc:a31a3b1d6d21fe7aa914f42fa40355ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased interface to access the contents of the grid.  <br /></td></tr>
-<tr class="memitem:ad7432c51cdb8a6d214a61ae2496a1726" id="r_ad7432c51cdb8a6d214a61ae2496a1726"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a> = boost::container::small_vector&lt;double, 3&gt;</td></tr>
-<tr class="memdesc:ad7432c51cdb8a6d214a61ae2496a1726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic point type (coordinates as vector of doubles).  <br /></td></tr>
+<tr class="memitem:ad7432c51cdb8a6d214a61ae2496a1726" id="r_ad7432c51cdb8a6d214a61ae2496a1726"><td class="memItemLeft" align="right" valign="top"><a id="ad7432c51cdb8a6d214a61ae2496a1726" name="ad7432c51cdb8a6d214a61ae2496a1726"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = boost::container::small_vector&lt;double, 3&gt;</td></tr>
+<tr class="memdesc:ad7432c51cdb8a6d214a61ae2496a1726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic point type (coordinates as vector of doubles). <br /></td></tr>
 <tr class="memitem:a10e05d6d588b52c587dc369c9ebc5cc4" id="r_a10e05d6d588b52c587dc369c9ebc5cc4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e05d6d588b52c587dc369c9ebc5cc4">lowerLeftBinEdgeAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices) const =0</td></tr>
 <tr class="memdesc:a10e05d6d588b52c587dc369c9ebc5cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lower left edge of a bin for a given set of indices.  <br /></td></tr>
 <tr class="memitem:a5d4df4a2a08aced99121462451a61a74" id="r_a5d4df4a2a08aced99121462451a61a74"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d4df4a2a08aced99121462451a61a74">upperRightBinEdgeAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices) const =0</td></tr>
@@ -183,48 +183,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>Type-erased interface to access the contents of the grid. </p>
 <dl class="section note"><dt>Note</dt><dd>This interface has non-negligible runtime overhead due to packing and unpacking from/to <code>std::any</code> and the dynamically sized index and point types. <b>USE WITH CARE!</b> </dd></dl>
-
-</div>
-</div>
-<a id="ad7432c51cdb8a6d214a61ae2496a1726" name="ad7432c51cdb8a6d214a61ae2496a1726"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7432c51cdb8a6d214a61ae2496a1726">&#9670;&#160;</a></span>AnyPointType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">Acts::IGrid::AnyPointType</a> = boost::container::small_vector&lt;double, 3&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for dynamic point type (coordinates as vector of doubles). </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab46c309b63c9075b019d70bd9dd61760" name="ab46c309b63c9075b019d70bd9dd61760"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab46c309b63c9075b019d70bd9dd61760">&#9670;&#160;</a></span>~IGrid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::IGrid::~IGrid </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

@@ -22,7 +22,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="728.5,-2428.64 555.5,-2428.64 555.5,-2398.64 728.5,-2398.64 728.5,-2428.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="728.5,-2428.64 555.5,-2428.64 555.5,-2398.64 728.5,-2398.64 728.5,-2428.64"/>
 <text text-anchor="start" x="563.5" y="-2416.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; const</text>
 <text text-anchor="middle" x="642" y="-2405.64" font-family="Helvetica,sans-Serif" font-size="10.00"> Surface *(const SourceLink &amp;)&gt;</text>
 </a>
@@ -43,7 +43,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="732.5,-2360.14 551.5,-2360.14 551.5,-2297.14 732.5,-2297.14 732.5,-2360.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="732.5,-2360.14 551.5,-2360.14 551.5,-2297.14 732.5,-2297.14 732.5,-2360.14"/>
 <text text-anchor="start" x="559.5" y="-2348.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="559.5" y="-2337.14" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="559.5" y="-2326.14" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const NavigationArguments</text>
@@ -69,7 +69,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="728,-2278.64 556,-2278.64 556,-2204.64 728,-2204.64 728,-2278.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="728,-2278.64 556,-2278.64 556,-2204.64 728,-2204.64 728,-2278.64"/>
 <text text-anchor="start" x="564" y="-2266.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="start" x="564" y="-2255.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="564" y="-2244.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;gctx, const TrackingVolume</text>
@@ -97,7 +97,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="702,-2186.64 582,-2186.64 582,-2156.64 702,-2156.64 702,-2186.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="702,-2186.64 582,-2186.64 582,-2156.64 702,-2156.64 702,-2186.64"/>
 <text text-anchor="start" x="590" y="-2174.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="642" y="-2163.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const Sp_t &amp;)&gt;</text>
 </a>
@@ -117,7 +117,7 @@
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="716,-2138.14 568,-2138.14 568,-2097.14 716,-2097.14 716,-2138.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="716,-2138.14 568,-2138.14 568,-2097.14 716,-2097.14 716,-2138.14"/>
 <text text-anchor="start" x="576" y="-2126.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="start" x="576" y="-2115.14" font-family="Helvetica,sans-Serif" font-size="10.00">(ConstDeRef_t&lt; typename</text>
 <text text-anchor="middle" x="642" y="-2104.14" font-family="Helvetica,sans-Serif" font-size="10.00"> Cont_t::value_type &gt;)&gt;</text>
@@ -140,7 +140,7 @@
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="756,-2074.64 528,-2074.64 528,-2022.64 756,-2022.64 756,-2074.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="756,-2074.64 528,-2074.64 528,-2022.64 756,-2022.64 756,-2074.64"/>
 <text text-anchor="start" x="536" y="-2062.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="536" y="-2051.64" font-family="Helvetica,sans-Serif" font-size="10.00">::pair&lt; BoundTrackParameters,</text>
 <text text-anchor="start" x="536" y="-2040.64" font-family="Helvetica,sans-Serif" font-size="10.00"> BoundTrackParameters &gt;(const</text>
@@ -164,7 +164,7 @@
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="741.5,-2001.14 542.5,-2001.14 542.5,-1938.14 741.5,-1938.14 741.5,-2001.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="741.5,-2001.14 542.5,-2001.14 542.5,-1938.14 741.5,-1938.14 741.5,-2001.14"/>
 <text text-anchor="start" x="550.5" y="-1989.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="550.5" y="-1978.14" font-family="Helvetica,sans-Serif" font-size="10.00">::vector&lt; std::pair</text>
 <text text-anchor="start" x="550.5" y="-1967.14" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; GeometryIdentifier,</text>
@@ -190,7 +190,7 @@
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="730.5,-1919.64 553.5,-1919.64 553.5,-1867.64 730.5,-1867.64 730.5,-1919.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="730.5,-1919.64 553.5,-1919.64 553.5,-1867.64 730.5,-1867.64 730.5,-1919.64"/>
 <text text-anchor="start" x="561.5" y="-1907.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="561.5" y="-1896.64" font-family="Helvetica,sans-Serif" font-size="10.00">::pair&lt; double, double</text>
 <text text-anchor="start" x="561.5" y="-1885.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt;(const GeometryContext</text>
@@ -214,7 +214,7 @@
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="731,-1849.64 553,-1849.64 553,-1797.64 731,-1797.64 731,-1849.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="731,-1849.64 553,-1849.64 553,-1797.64 731,-1797.64 731,-1849.64"/>
 <text text-anchor="start" x="561" y="-1837.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="start" x="561" y="-1826.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const ConstSpacePointProxy2</text>
 <text text-anchor="start" x="561" y="-1815.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const ConstSpacePointProxy2</text>
@@ -238,7 +238,7 @@
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="727,-1774.14 557,-1774.14 557,-1733.14 727,-1733.14 727,-1774.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="727,-1774.14 557,-1774.14 557,-1733.14 727,-1733.14 727,-1774.14"/>
 <text text-anchor="start" x="565" y="-1762.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; BranchStopper</text>
 <text text-anchor="start" x="565" y="-1751.14" font-family="Helvetica,sans-Serif" font-size="10.00">Result(const TrackProxy &amp;,</text>
 <text text-anchor="middle" x="642" y="-1740.14" font-family="Helvetica,sans-Serif" font-size="10.00"> const TrackStateProxy &amp;)&gt;</text>
@@ -261,7 +261,7 @@
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="809,-1654.14 475,-1654.14 475,-1547.14 809,-1547.14 809,-1654.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="809,-1654.14 475,-1654.14 475,-1547.14 809,-1547.14 809,-1654.14"/>
 <text text-anchor="start" x="483" y="-1642.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="483" y="-1631.14" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; CkfTypes::BranchVector</text>
 <text text-anchor="start" x="483" y="-1620.14" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; TrackIndexType &gt; &gt;(const</text>
@@ -296,7 +296,7 @@
 <g id="Node000014" class="node">
 <title>Node14</title>
 <g id="a_Node000014"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="727,-1528.64 557,-1528.64 557,-1476.64 727,-1476.64 727,-1528.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="727,-1528.64 557,-1528.64 557,-1476.64 727,-1476.64 727,-1528.64"/>
 <text text-anchor="start" x="565" y="-1516.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; std</text>
 <text text-anchor="start" x="565" y="-1505.64" font-family="Helvetica,sans-Serif" font-size="10.00">::pair&lt; source_link</text>
 <text text-anchor="start" x="565" y="-1494.64" font-family="Helvetica,sans-Serif" font-size="10.00">_iterator_t, source_link</text>
@@ -321,7 +321,7 @@
 <g id="Node000015" class="node">
 <title>Node15</title>
 <g id="a_Node000015"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="738.5,-1421.14 545.5,-1421.14 545.5,-1336.14 738.5,-1336.14 738.5,-1421.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="738.5,-1421.14 545.5,-1421.14 545.5,-1336.14 738.5,-1336.14 738.5,-1421.14"/>
 <text text-anchor="start" x="553.5" y="-1409.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="553.5" y="-1398.14" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::pair&lt; typename</text>
 <text text-anchor="start" x="553.5" y="-1387.14" font-family="Helvetica,sans-Serif" font-size="10.00"> candidate_container_t</text>
@@ -352,7 +352,7 @@
 <g id="Node000016" class="node">
 <title>Node16</title>
 <g id="a_Node000016"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="728,-1314.14 556,-1314.14 556,-1273.14 728,-1273.14 728,-1314.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="728,-1314.14 556,-1314.14 556,-1273.14 728,-1273.14 728,-1314.14"/>
 <text text-anchor="start" x="564" y="-1302.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; TrackState</text>
 <text text-anchor="start" x="564" y="-1291.14" font-family="Helvetica,sans-Serif" font-size="10.00">Traits&lt; kMeasurementSizeMax,</text>
 <text text-anchor="middle" x="642" y="-1280.14" font-family="Helvetica,sans-Serif" font-size="10.00"> false &gt;::Parameters(void *)&gt;</text>
@@ -376,7 +376,7 @@
 <g id="Node000017" class="node">
 <title>Node17</title>
 <g id="a_Node000017"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="728,-1229.14 556,-1229.14 556,-1188.14 728,-1188.14 728,-1229.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="728,-1229.14 556,-1229.14 556,-1188.14 728,-1188.14 728,-1229.14"/>
 <text text-anchor="start" x="564" y="-1217.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; TrackState</text>
 <text text-anchor="start" x="564" y="-1206.14" font-family="Helvetica,sans-Serif" font-size="10.00">Traits&lt; kMeasurementSizeMax,</text>
 <text text-anchor="middle" x="642" y="-1195.14" font-family="Helvetica,sans-Serif" font-size="10.00"> false &gt;::Covariance(void *)&gt;</text>
@@ -400,7 +400,7 @@
 <g id="Node000018" class="node">
 <title>Node18</title>
 <g id="a_Node000018"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="753.5,-1167.64 530.5,-1167.64 530.5,-1115.64 753.5,-1115.64 753.5,-1167.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="753.5,-1167.64 530.5,-1167.64 530.5,-1115.64 753.5,-1115.64 753.5,-1167.64"/>
 <text text-anchor="start" x="538.5" y="-1155.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="538.5" y="-1144.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="538.5" y="-1133.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const CalibrationContext</text>
@@ -424,7 +424,7 @@
 <g id="Node000019" class="node">
 <title>Node19</title>
 <g id="a_Node000019"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="732,-1097.64 552,-1097.64 552,-1045.64 732,-1045.64 732,-1097.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="732,-1097.64 552,-1097.64 552,-1045.64 732,-1045.64 732,-1097.64"/>
 <text text-anchor="start" x="560" y="-1085.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="560" y="-1074.64" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="560" y="-1063.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, TrackStateProxy, const</text>
@@ -448,7 +448,7 @@
 <g id="Node000020" class="node">
 <title>Node20</title>
 <g id="a_Node000020"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="711.5,-1027.64 572.5,-1027.64 572.5,-997.64 711.5,-997.64 711.5,-1027.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="711.5,-1027.64 572.5,-1027.64 572.5,-997.64 711.5,-997.64 711.5,-1027.64"/>
 <text text-anchor="start" x="580.5" y="-1015.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="642" y="-1004.64" font-family="Helvetica,sans-Serif" font-size="10.00">(ConstTrackStateProxy)&gt;</text>
 </a>
@@ -468,7 +468,7 @@
 <g id="Node000021" class="node">
 <title>Node21</title>
 <g id="a_Node000021"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="720,-979.64 564,-979.64 564,-927.64 720,-927.64 720,-979.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="720,-979.64 564,-979.64 564,-927.64 720,-927.64 720,-979.64"/>
 <text text-anchor="start" x="572" y="-967.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="572" y="-956.64" font-family="Helvetica,sans-Serif" font-size="10.00">(std::vector&lt; GsfComponent</text>
 <text text-anchor="start" x="572" y="-945.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;, std::size_t, const</text>
@@ -492,7 +492,7 @@
 <g id="Node000022" class="node">
 <title>Node22</title>
 <g id="a_Node000022"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="732,-899.64 552,-899.64 552,-847.64 732,-847.64 732,-899.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="732,-899.64 552,-899.64 552,-847.64 732,-847.64 732,-899.64"/>
 <text text-anchor="start" x="560" y="-887.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="560" y="-876.64" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="560" y="-865.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, traj_t &amp;, std::size_t,</text>
@@ -517,7 +517,7 @@
 <g id="Node000023" class="node">
 <title>Node23</title>
 <g id="a_Node000023"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="718.5,-824.14 565.5,-824.14 565.5,-783.14 718.5,-783.14 718.5,-824.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="718.5,-824.14 565.5,-824.14 565.5,-783.14 718.5,-783.14 718.5,-824.14"/>
 <text text-anchor="start" x="573.5" y="-812.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; R(Args...)</text>
 <text text-anchor="start" x="573.5" y="-801.14" font-family="Helvetica,sans-Serif" font-size="10.00">, holder_type, DelegateType</text>
 <text text-anchor="middle" x="642" y="-790.14" font-family="Helvetica,sans-Serif" font-size="10.00">::Owning &gt;</text>
@@ -540,7 +540,7 @@
 <g id="Node000024" class="node">
 <title>Node24</title>
 <g id="a_Node000024"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="718.5,-754.14 565.5,-754.14 565.5,-713.14 718.5,-713.14 718.5,-754.14"/>
+<polygon fill="white" stroke="#bfbfbf" points="718.5,-754.14 565.5,-754.14 565.5,-713.14 718.5,-713.14 718.5,-754.14"/>
 <text text-anchor="start" x="573.5" y="-742.14" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; R(Args...)</text>
 <text text-anchor="start" x="573.5" y="-731.14" font-family="Helvetica,sans-Serif" font-size="10.00">, holder_type, DelegateType</text>
 <text text-anchor="middle" x="642" y="-720.14" font-family="Helvetica,sans-Serif" font-size="10.00">::NonOwning &gt;</text>
@@ -563,7 +563,7 @@
 <g id="Node000025" class="node">
 <title>Node25</title>
 <g id="a_Node000025"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="731,-693.64 553,-693.64 553,-663.64 731,-663.64 731,-693.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="731,-693.64 553,-693.64 553,-663.64 731,-663.64 731,-693.64"/>
 <text text-anchor="start" x="561" y="-681.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; BoundTrack</text>
 <text text-anchor="middle" x="642" y="-670.64" font-family="Helvetica,sans-Serif" font-size="10.00">Parameters(const InputTrack &amp;)&gt;</text>
 </a>
@@ -584,7 +584,7 @@
 <g id="Node000026" class="node">
 <title>Node26</title>
 <g id="a_Node000026"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="761,-608.64 523,-608.64 523,-512.64 761,-512.64 761,-608.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="761,-608.64 523,-608.64 523,-512.64 761,-512.64 761,-608.64"/>
 <text text-anchor="start" x="531" y="-596.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="531" y="-585.64" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; LinearizedTrack &gt;(const</text>
 <text text-anchor="start" x="531" y="-574.64" font-family="Helvetica,sans-Serif" font-size="10.00"> BoundTrackParameters &amp;params,</text>
@@ -617,7 +617,7 @@
 <g id="Node000027" class="node">
 <title>Node27</title>
 <g id="a_Node000027"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="720.5,-494.64 563.5,-494.64 563.5,-464.64 720.5,-464.64 720.5,-494.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="720.5,-494.64 563.5,-494.64 563.5,-464.64 720.5,-464.64 720.5,-494.64"/>
 <text text-anchor="start" x="571.5" y="-482.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; R(Args...)</text>
 <text text-anchor="middle" x="642" y="-471.64" font-family="Helvetica,sans-Serif" font-size="10.00">, H, DelegateType::Owning &gt;</text>
 </a>
@@ -658,7 +658,7 @@
 <g id="Node000030" class="node">
 <title>Node30</title>
 <g id="a_Node000030"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="732,-398.64 552,-398.64 552,-368.64 732,-368.64 732,-398.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="732,-398.64 552,-398.64 552,-368.64 732,-368.64 732,-398.64"/>
 <text text-anchor="start" x="560" y="-386.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="642" y="-375.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const external_spacepoint_t &amp;)&gt;</text>
 </a>
@@ -679,7 +679,7 @@
 <g id="Node000031" class="node">
 <title>Node31</title>
 <g id="a_Node000031"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="727,-340.64 557,-340.64 557,-288.64 727,-288.64 727,-340.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="727,-340.64 557,-340.64 557,-288.64 727,-288.64 727,-340.64"/>
 <text text-anchor="start" x="565" y="-328.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="start" x="565" y="-317.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const external_spacepoint</text>
 <text text-anchor="start" x="565" y="-306.64" font-family="Helvetica,sans-Serif" font-size="10.00">_t &amp;, const external_spacepoint</text>
@@ -704,7 +704,7 @@
 <g id="Node000032" class="node">
 <title>Node32</title>
 <g id="a_Node000032"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="705,-270.64 579,-270.64 579,-240.64 705,-240.64 705,-270.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="705,-270.64 579,-270.64 579,-240.64 705,-240.64 705,-270.64"/>
 <text text-anchor="start" x="587" y="-258.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="642" y="-247.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const SpacePoint &amp;)&gt;</text>
 </a>
@@ -724,7 +724,7 @@
 <g id="Node000033" class="node">
 <title>Node33</title>
 <g id="a_Node000033"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="714,-217.64 570,-217.64 570,-165.64 714,-165.64 714,-217.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="714,-217.64 570,-217.64 570,-165.64 714,-165.64 714,-217.64"/>
 <text text-anchor="start" x="578" y="-205.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="start" x="578" y="-194.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const SpacePoint &amp;,</text>
 <text text-anchor="start" x="578" y="-183.64" font-family="Helvetica,sans-Serif" font-size="10.00"> const SpacePoint &amp;, float,</text>
@@ -748,7 +748,7 @@
 <g id="Node000034" class="node">
 <title>Node34</title>
 <g id="a_Node000034"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="702,-147.64 582,-147.64 582,-117.64 702,-117.64 702,-147.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="702,-147.64 582,-147.64 582,-117.64 702,-117.64 702,-147.64"/>
 <text text-anchor="start" x="590" y="-135.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="642" y="-124.64" font-family="Helvetica,sans-Serif" font-size="10.00">(float, float)&gt;</text>
 </a>
@@ -768,7 +768,7 @@
 <g id="Node000035" class="node">
 <title>Node35</title>
 <g id="a_Node000035"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="732,-85.64 552,-85.64 552,-33.64 732,-33.64 732,-85.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="732,-85.64 552,-85.64 552,-33.64 732,-33.64 732,-85.64"/>
 <text text-anchor="start" x="560" y="-73.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="560" y="-62.64" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="560" y="-51.64" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, TrackStateContainerBackend</text>
@@ -793,7 +793,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1032,-2186.64 895,-2186.64 895,-2156.64 1032,-2156.64 1032,-2186.64"/>
+<polygon fill="white" stroke="#bfbfbf" points="1032,-2186.64 895,-2186.64 895,-2156.64 1032,-2156.64 1032,-2186.64"/>
 <text text-anchor="start" x="903" y="-2174.64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="963.5" y="-2163.64" font-family="Helvetica,sans-Serif" font-size="10.00">(const Sp_t &amp;)&gt;&lt; Sp_t &gt;</text>
 </a>

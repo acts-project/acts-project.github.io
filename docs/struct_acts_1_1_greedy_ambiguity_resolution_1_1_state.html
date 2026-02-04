@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.
 </div><!--header-->
 <div class="contents">
 
+<p>Mutable state used by the greedy ambiguity resolution.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_greedy_ambiguity_resolution_8hpp_source.html">Acts/AmbiguityResolution/GreedyAmbiguityResolution.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::GreedyAmbiguityResolution::State:</div>
@@ -135,114 +138,31 @@ Collaboration diagram for Acts::GreedyAmbiguityResolution::State:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad13627e4e2fb866fc3f547929ce57122" id="r_ad13627e4e2fb866fc3f547929ce57122"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad13627e4e2fb866fc3f547929ce57122">measurementsPerTrack</a></td></tr>
-<tr class="memitem:a301940fa731d622d221ff6b290bcffd4" id="r_a301940fa731d622d221ff6b290bcffd4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a301940fa731d622d221ff6b290bcffd4">numberOfTracks</a> {}</td></tr>
-<tr class="memitem:a551ee100d1f737b3fb74118eff70b88f" id="r_a551ee100d1f737b3fb74118eff70b88f"><td class="memItemLeft" align="right" valign="top">boost::container::flat_set&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551ee100d1f737b3fb74118eff70b88f">selectedTracks</a></td></tr>
-<tr class="memitem:a5db7def77faaa253c4139ab6a7beac9d" id="r_a5db7def77faaa253c4139ab6a7beac9d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db7def77faaa253c4139ab6a7beac9d">sharedMeasurementsPerTrack</a></td></tr>
-<tr class="memitem:aa8d186290cfb450f3c32e7f597816735" id="r_aa8d186290cfb450f3c32e7f597816735"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8d186290cfb450f3c32e7f597816735">trackChi2</a></td></tr>
-<tr class="memitem:a5c8e6b1bb5ec5d44db3c806399b2d574" id="r_a5c8e6b1bb5ec5d44db3c806399b2d574"><td class="memItemLeft" align="right" valign="top">boost::container::flat_map&lt; std::size_t, boost::container::flat_set&lt; std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8e6b1bb5ec5d44db3c806399b2d574">tracksPerMeasurement</a></td></tr>
-<tr class="memitem:aff82b43b9e5efed0689fc66f7833aa03" id="r_aff82b43b9e5efed0689fc66f7833aa03"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff82b43b9e5efed0689fc66f7833aa03">trackTips</a></td></tr>
+<tr class="memitem:ad13627e4e2fb866fc3f547929ce57122" id="r_ad13627e4e2fb866fc3f547929ce57122"><td class="memItemLeft" align="right" valign="top"><a id="ad13627e4e2fb866fc3f547929ce57122" name="ad13627e4e2fb866fc3f547929ce57122"></a>
+std::vector&lt; std::vector&lt; std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>measurementsPerTrack</b></td></tr>
+<tr class="memdesc:ad13627e4e2fb866fc3f547929ce57122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement indices for each track. <br /></td></tr>
+<tr class="memitem:a301940fa731d622d221ff6b290bcffd4" id="r_a301940fa731d622d221ff6b290bcffd4"><td class="memItemLeft" align="right" valign="top"><a id="a301940fa731d622d221ff6b290bcffd4" name="a301940fa731d622d221ff6b290bcffd4"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>numberOfTracks</b> {}</td></tr>
+<tr class="memdesc:a301940fa731d622d221ff6b290bcffd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of tracks. <br /></td></tr>
+<tr class="memitem:a551ee100d1f737b3fb74118eff70b88f" id="r_a551ee100d1f737b3fb74118eff70b88f"><td class="memItemLeft" align="right" valign="top"><a id="a551ee100d1f737b3fb74118eff70b88f" name="a551ee100d1f737b3fb74118eff70b88f"></a>
+boost::container::flat_set&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selectedTracks</b></td></tr>
+<tr class="memdesc:a551ee100d1f737b3fb74118eff70b88f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of track indices selected as good tracks. <br /></td></tr>
+<tr class="memitem:a5db7def77faaa253c4139ab6a7beac9d" id="r_a5db7def77faaa253c4139ab6a7beac9d"><td class="memItemLeft" align="right" valign="top"><a id="a5db7def77faaa253c4139ab6a7beac9d" name="a5db7def77faaa253c4139ab6a7beac9d"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sharedMeasurementsPerTrack</b></td></tr>
+<tr class="memdesc:a5db7def77faaa253c4139ab6a7beac9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of shared measurements for each track. <br /></td></tr>
+<tr class="memitem:aa8d186290cfb450f3c32e7f597816735" id="r_aa8d186290cfb450f3c32e7f597816735"><td class="memItemLeft" align="right" valign="top"><a id="aa8d186290cfb450f3c32e7f597816735" name="aa8d186290cfb450f3c32e7f597816735"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackChi2</b></td></tr>
+<tr class="memdesc:aa8d186290cfb450f3c32e7f597816735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi-squared value for each track. <br /></td></tr>
+<tr class="memitem:a5c8e6b1bb5ec5d44db3c806399b2d574" id="r_a5c8e6b1bb5ec5d44db3c806399b2d574"><td class="memItemLeft" align="right" valign="top"><a id="a5c8e6b1bb5ec5d44db3c806399b2d574" name="a5c8e6b1bb5ec5d44db3c806399b2d574"></a>
+boost::container::flat_map&lt; std::size_t, boost::container::flat_set&lt; std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tracksPerMeasurement</b></td></tr>
+<tr class="memdesc:a5c8e6b1bb5ec5d44db3c806399b2d574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map from measurement index to set of track indices using it. <br /></td></tr>
+<tr class="memitem:aff82b43b9e5efed0689fc66f7833aa03" id="r_aff82b43b9e5efed0689fc66f7833aa03"><td class="memItemLeft" align="right" valign="top"><a id="aff82b43b9e5efed0689fc66f7833aa03" name="aff82b43b9e5efed0689fc66f7833aa03"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackTips</b></td></tr>
+<tr class="memdesc:aff82b43b9e5efed0689fc66f7833aa03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track tips for each track. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad13627e4e2fb866fc3f547929ce57122" name="ad13627e4e2fb866fc3f547929ce57122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad13627e4e2fb866fc3f547929ce57122">&#9670;&#160;</a></span>measurementsPerTrack</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::size_t&gt; &gt; Acts::GreedyAmbiguityResolution::State::measurementsPerTrack</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a301940fa731d622d221ff6b290bcffd4" name="a301940fa731d622d221ff6b290bcffd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a301940fa731d622d221ff6b290bcffd4">&#9670;&#160;</a></span>numberOfTracks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::GreedyAmbiguityResolution::State::numberOfTracks {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a551ee100d1f737b3fb74118eff70b88f" name="a551ee100d1f737b3fb74118eff70b88f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a551ee100d1f737b3fb74118eff70b88f">&#9670;&#160;</a></span>selectedTracks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::container::flat_set&lt;std::size_t&gt; Acts::GreedyAmbiguityResolution::State::selectedTracks</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5db7def77faaa253c4139ab6a7beac9d" name="a5db7def77faaa253c4139ab6a7beac9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5db7def77faaa253c4139ab6a7beac9d">&#9670;&#160;</a></span>sharedMeasurementsPerTrack</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::GreedyAmbiguityResolution::State::sharedMeasurementsPerTrack</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8d186290cfb450f3c32e7f597816735" name="aa8d186290cfb450f3c32e7f597816735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d186290cfb450f3c32e7f597816735">&#9670;&#160;</a></span>trackChi2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; Acts::GreedyAmbiguityResolution::State::trackChi2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c8e6b1bb5ec5d44db3c806399b2d574" name="a5c8e6b1bb5ec5d44db3c806399b2d574"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c8e6b1bb5ec5d44db3c806399b2d574">&#9670;&#160;</a></span>tracksPerMeasurement</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::container::flat_map&lt;std::size_t, boost::container::flat_set&lt;std::size_t&gt; &gt; Acts::GreedyAmbiguityResolution::State::tracksPerMeasurement</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff82b43b9e5efed0689fc66f7833aa03" name="aff82b43b9e5efed0689fc66f7833aa03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff82b43b9e5efed0689fc66f7833aa03">&#9670;&#160;</a></span>trackTips</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;int&gt; Acts::GreedyAmbiguityResolution::State::trackTips</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Mutable state used by the greedy ambiguity resolution. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

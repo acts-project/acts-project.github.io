@@ -102,11 +102,6 @@ var class_acts_1_1_track_state_proxy =
     [ "typeFlags", "class_acts_1_1_track_state_proxy.html#a791a21c02ce98188ac4b5dd56da9811f", null ],
     [ "typeFlags", "class_acts_1_1_track_state_proxy.html#a23edcbb710e2a286de0052f4cc549661", null ],
     [ "unset", "class_acts_1_1_track_state_proxy.html#a58ecea4d41d25884af489e1391a1fdb5", null ],
-    [ "Acts::MultiTrajectory< Trajectory >", "class_acts_1_1_track_state_proxy.html#ab9e915530f83a51a05929103381890b4", null ],
-    [ "AnyTrackStateProxy", "class_acts_1_1_track_state_proxy.html#a13ac8d7d4ac582d960c9902937e8bad8", null ],
-    [ "TrackStateProxy< Trajectory, M, false >", "class_acts_1_1_track_state_proxy.html#a8aff1ce5ff45126e503e78885b5597dc", null ],
-    [ "TrackStateProxy< Trajectory, M, true >", "class_acts_1_1_track_state_proxy.html#afb8f0c68e04a6a6b5e4ac975da0d7f31", null ],
-    [ "TrackStateProxyCommon< TrackStateProxy< trajectory_t, M, read_only >, read_only >", "class_acts_1_1_track_state_proxy.html#a287024d4e06fb042f93f55ff1ba734f4", null ],
     [ "kInvalid", "class_acts_1_1_track_state_proxy.html#ac971a8625ee702ef7cb743fa52e4f186", null ],
     [ "ReadOnly", "class_acts_1_1_track_state_proxy.html#a99b5acfc879ef16dc1c017452b5bbe87", null ]
 ];

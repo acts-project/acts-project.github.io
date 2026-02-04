@@ -126,16 +126,25 @@ $(function(){initNavTree('class_acts_1_1_triplet_top_candidates_1_1_proxy.html',
 </div><!--header-->
 <div class="contents">
 
+<p>Proxy providing access to a triplet candidate.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_triplet_seed_finder_8hpp_source.html">Acts/Seeding2/TripletSeedFinder.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac818fb33fe7c206bb86caaf36c5e062a" id="r_ac818fb33fe7c206bb86caaf36c5e062a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac818fb33fe7c206bb86caaf36c5e062a">Proxy</a> (const <a class="el" href="class_acts_1_1_triplet_top_candidates.html">TripletTopCandidates</a> *container, <a class="el" href="class_acts_1_1_triplet_top_candidates.html#a5fed05479bebdeea8122e3b5a82f3a4d">Index</a> index)</td></tr>
+<tr class="memdesc:ac818fb33fe7c206bb86caaf36c5e062a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:adc623d248f564c10564c5f40150c7e6a" id="r_adc623d248f564c10564c5f40150c7e6a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc623d248f564c10564c5f40150c7e6a">curvature</a> () const</td></tr>
+<tr class="memdesc:adc623d248f564c10564c5f40150c7e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the curvature estimation.  <br /></td></tr>
 <tr class="memitem:aae82d96f4f8be092a06fa9a2bbbb173e" id="r_aae82d96f4f8be092a06fa9a2bbbb173e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae82d96f4f8be092a06fa9a2bbbb173e">impactParameter</a> () const</td></tr>
+<tr class="memdesc:aae82d96f4f8be092a06fa9a2bbbb173e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the impact parameter estimation.  <br /></td></tr>
 <tr class="memitem:a972e2df8cdc21f899afd629065d98780" id="r_a972e2df8cdc21f899afd629065d98780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a972e2df8cdc21f899afd629065d98780">spacePoint</a> () const</td></tr>
+<tr class="memdesc:a972e2df8cdc21f899afd629065d98780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the space point index.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Proxy providing access to a triplet candidate. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac818fb33fe7c206bb86caaf36c5e062a" name="ac818fb33fe7c206bb86caaf36c5e062a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac818fb33fe7c206bb86caaf36c5e062a">&#9670;&#160;</a></span>Proxy()</h2>
 
@@ -155,6 +164,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>The container to proxy </td></tr>
+    <tr><td class="paramname">index</td><td>The index of the candidate in the container </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -173,6 +191,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get the curvature estimation. </p>
+<dl class="section return"><dt>Returns</dt><dd>The curvature value </dd></dl>
+
 </div>
 </div>
 <a id="aae82d96f4f8be092a06fa9a2bbbb173e" name="aae82d96f4f8be092a06fa9a2bbbb173e"></a>
@@ -190,6 +211,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get the impact parameter estimation. </p>
+<dl class="section return"><dt>Returns</dt><dd>The impact parameter value </dd></dl>
+
 </div>
 </div>
 <a id="a972e2df8cdc21f899afd629065d98780" name="a972e2df8cdc21f899afd629065d98780"></a>
@@ -206,6 +230,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the space point index. </p>
+<dl class="section return"><dt>Returns</dt><dd>The space point index </dd></dl>
 
 </div>
 </div>

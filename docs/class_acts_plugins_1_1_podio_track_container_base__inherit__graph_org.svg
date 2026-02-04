@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Base class for PODIO track containers.">
 <polygon fill="#999999" stroke="#666666" points="266,-85 63,-85 63,-66 266,-66 266,-85"/>
 <text text-anchor="middle" x="164.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::PodioTrackContainerBase</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_const_podio_track_container.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_const_podio_track_container.html" target="_top" xlink:title="Read&#45;only track container backend using podio for storage.">
 <polygon fill="white" stroke="#666666" points="159,-30 0,-30 0,0 159,0 159,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::ConstPodioTrack</text>
 <text text-anchor="middle" x="79.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Container</text>
@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_container.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_container.html" target="_top" xlink:title="Mutable Podio&#45;based track container implementation.">
 <polygon fill="white" stroke="#666666" points="323.5,-30 177.5,-30 177.5,0 323.5,0 323.5,-30"/>
 <text text-anchor="start" x="185.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::MutablePodio</text>
 <text text-anchor="middle" x="250.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackContainer</text>

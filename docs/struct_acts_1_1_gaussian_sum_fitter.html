@@ -138,10 +138,12 @@ Collaboration diagram for Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;:
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5b1204746176700df6a14f88110dd05d" id="r_a5b1204746176700df6a14f88110dd05d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1204746176700df6a14f88110dd05d">GsfActor</a> = detail::Gsf::GsfActor&lt;traj_t&gt;</td></tr>
-<tr class="memdesc:a5b1204746176700df6a14f88110dd05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actor type.  <br /></td></tr>
-<tr class="memitem:a633d70c4d080f44ecf1a7ccd76f8a4d7" id="r_a633d70c4d080f44ecf1a7ccd76f8a4d7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a633d70c4d080f44ecf1a7ccd76f8a4d7">GsfNavigator</a> = typename propagator_t::Navigator</td></tr>
-<tr class="memdesc:a633d70c4d080f44ecf1a7ccd76f8a4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The navigator type.  <br /></td></tr>
+<tr class="memitem:a5b1204746176700df6a14f88110dd05d" id="r_a5b1204746176700df6a14f88110dd05d"><td class="memItemLeft" align="right" valign="top"><a id="a5b1204746176700df6a14f88110dd05d" name="a5b1204746176700df6a14f88110dd05d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>GsfActor</b> = detail::Gsf::GsfActor&lt;traj_t&gt;</td></tr>
+<tr class="memdesc:a5b1204746176700df6a14f88110dd05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actor type. <br /></td></tr>
+<tr class="memitem:a633d70c4d080f44ecf1a7ccd76f8a4d7" id="r_a633d70c4d080f44ecf1a7ccd76f8a4d7"><td class="memItemLeft" align="right" valign="top"><a id="a633d70c4d080f44ecf1a7ccd76f8a4d7" name="a633d70c4d080f44ecf1a7ccd76f8a4d7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>GsfNavigator</b> = typename propagator_t::Navigator</td></tr>
+<tr class="memdesc:a633d70c4d080f44ecf1a7ccd76f8a4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The navigator type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -161,14 +163,18 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab3ec1e7fae4e37e84d6b15a7561d4946" id="r_ab3ec1e7fae4e37e84d6b15a7561d4946"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3ec1e7fae4e37e84d6b15a7561d4946">m_actorLogger</a></td></tr>
-<tr class="memdesc:ab3ec1e7fae4e37e84d6b15a7561d4946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logger instance for actor debugging.  <br /></td></tr>
-<tr class="memitem:ab9f41087f2d15f0a011d72c7a59783c2" id="r_ab9f41087f2d15f0a011d72c7a59783c2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_bethe_heitler_approx.html">BetheHeitlerApprox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f41087f2d15f0a011d72c7a59783c2">m_betheHeitlerApproximation</a></td></tr>
-<tr class="memdesc:ab9f41087f2d15f0a011d72c7a59783c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fitter holds the instance of the bethe heitler approx.  <br /></td></tr>
-<tr class="memitem:a88cceed65068787f99f1b132f2155fee" id="r_a88cceed65068787f99f1b132f2155fee"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cceed65068787f99f1b132f2155fee">m_logger</a></td></tr>
-<tr class="memdesc:a88cceed65068787f99f1b132f2155fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The logger.  <br /></td></tr>
-<tr class="memitem:ac50e1c5ee71d653734151363deb6317a" id="r_ac50e1c5ee71d653734151363deb6317a"><td class="memItemLeft" align="right" valign="top">propagator_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac50e1c5ee71d653734151363deb6317a">m_propagator</a></td></tr>
-<tr class="memdesc:ac50e1c5ee71d653734151363deb6317a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagator instance used by the fit function.  <br /></td></tr>
+<tr class="memitem:ab3ec1e7fae4e37e84d6b15a7561d4946" id="r_ab3ec1e7fae4e37e84d6b15a7561d4946"><td class="memItemLeft" align="right" valign="top"><a id="ab3ec1e7fae4e37e84d6b15a7561d4946" name="ab3ec1e7fae4e37e84d6b15a7561d4946"></a>
+std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_actorLogger</b></td></tr>
+<tr class="memdesc:ab3ec1e7fae4e37e84d6b15a7561d4946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logger instance for actor debugging. <br /></td></tr>
+<tr class="memitem:ab9f41087f2d15f0a011d72c7a59783c2" id="r_ab9f41087f2d15f0a011d72c7a59783c2"><td class="memItemLeft" align="right" valign="top"><a id="ab9f41087f2d15f0a011d72c7a59783c2" name="ab9f41087f2d15f0a011d72c7a59783c2"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_bethe_heitler_approx.html">BetheHeitlerApprox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_betheHeitlerApproximation</b></td></tr>
+<tr class="memdesc:ab9f41087f2d15f0a011d72c7a59783c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fitter holds the instance of the bethe heitler approx. <br /></td></tr>
+<tr class="memitem:a88cceed65068787f99f1b132f2155fee" id="r_a88cceed65068787f99f1b132f2155fee"><td class="memItemLeft" align="right" valign="top"><a id="a88cceed65068787f99f1b132f2155fee" name="a88cceed65068787f99f1b132f2155fee"></a>
+std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_logger</b></td></tr>
+<tr class="memdesc:a88cceed65068787f99f1b132f2155fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The logger. <br /></td></tr>
+<tr class="memitem:ac50e1c5ee71d653734151363deb6317a" id="r_ac50e1c5ee71d653734151363deb6317a"><td class="memItemLeft" align="right" valign="top"><a id="ac50e1c5ee71d653734151363deb6317a" name="ac50e1c5ee71d653734151363deb6317a"></a>
+propagator_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_propagator</b></td></tr>
+<tr class="memdesc:ac50e1c5ee71d653734151363deb6317a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagator instance used by the fit function. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename propagator_t, typename traj_t&gt;<br />
@@ -183,44 +189,7 @@ struct Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;</div><p>Gaussian Su
 <dl class="section note"><dt>Note</dt><dd>This GSF implementation tries to be as compatible to the KalmanFitter as possible. However, strict compatibility is not garantueed. </dd>
 <dd>
 Currently there is no possibility to export the states of the individual components from the GSF, the only information returned in the MultiTrajectory are the means of the states. Therefore, also NO dedicated component smoothing is performed as described e.g. by R. Fruewirth. </dd></dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a5b1204746176700df6a14f88110dd05d" name="a5b1204746176700df6a14f88110dd05d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b1204746176700df6a14f88110dd05d">&#9670;&#160;</a></span>GsfActor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::GsfActor = detail::Gsf::GsfActor&lt;traj_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The actor type. </p>
-
-</div>
-</div>
-<a id="a633d70c4d080f44ecf1a7ccd76f8a4d7" name="a633d70c4d080f44ecf1a7ccd76f8a4d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a633d70c4d080f44ecf1a7ccd76f8a4d7">&#9670;&#160;</a></span>GsfNavigator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::GsfNavigator = typename propagator_t::Navigator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The navigator type. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a24e63a2d63a65587af752fbb208bad53" name="a24e63a2d63a65587af752fbb208bad53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24e63a2d63a65587af752fbb208bad53">&#9670;&#160;</a></span>GaussianSumFitter()</h2>
 
@@ -456,79 +425,6 @@ template&lt;typename propagator_t, typename traj_t&gt; </div>
 
 <p>Get the logger instance. </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the logger </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ab3ec1e7fae4e37e84d6b15a7561d4946" name="ab3ec1e7fae4e37e84d6b15a7561d4946"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3ec1e7fae4e37e84d6b15a7561d4946">&#9670;&#160;</a></span>m_actorLogger</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;const <a class="el" href="class_acts_1_1_logger.html">Logger</a>&gt; <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::m_actorLogger</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logger instance for actor debugging. </p>
-
-</div>
-</div>
-<a id="ab9f41087f2d15f0a011d72c7a59783c2" name="ab9f41087f2d15f0a011d72c7a59783c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9f41087f2d15f0a011d72c7a59783c2">&#9670;&#160;</a></span>m_betheHeitlerApproximation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_bethe_heitler_approx.html">BetheHeitlerApprox</a>&gt; <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::m_betheHeitlerApproximation</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The fitter holds the instance of the bethe heitler approx. </p>
-
-</div>
-</div>
-<a id="a88cceed65068787f99f1b132f2155fee" name="a88cceed65068787f99f1b132f2155fee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88cceed65068787f99f1b132f2155fee">&#9670;&#160;</a></span>m_logger</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;const <a class="el" href="class_acts_1_1_logger.html">Logger</a>&gt; <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::m_logger</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The logger. </p>
-
-</div>
-</div>
-<a id="ac50e1c5ee71d653734151363deb6317a" name="ac50e1c5ee71d653734151363deb6317a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50e1c5ee71d653734151363deb6317a">&#9670;&#160;</a></span>m_propagator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename propagator_t, typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">propagator_t <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">Acts::GaussianSumFitter</a>&lt; propagator_t, traj_t &gt;::m_propagator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The propagator instance used by the fit function. </p>
 
 </div>
 </div>

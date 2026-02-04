@@ -138,8 +138,12 @@ Inheritance diagram for Acts::GeometryHierarchyMapJsonConverter&lt; value_t, dec
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1ddf6ceeb06740ffa3d6509f56fa5c63" id="r_a1ddf6ceeb06740ffa3d6509f56fa5c63"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ddf6ceeb06740ffa3d6509f56fa5c63">Container</a> = <a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt;value_t&gt;</td></tr>
-<tr class="memitem:a08d24fd0d1815c15954dd7fe94c444d7" id="r_a08d24fd0d1815c15954dd7fe94c444d7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08d24fd0d1815c15954dd7fe94c444d7">Value</a> = value_t</td></tr>
+<tr class="memitem:a1ddf6ceeb06740ffa3d6509f56fa5c63" id="r_a1ddf6ceeb06740ffa3d6509f56fa5c63"><td class="memItemLeft" align="right" valign="top"><a id="a1ddf6ceeb06740ffa3d6509f56fa5c63" name="a1ddf6ceeb06740ffa3d6509f56fa5c63"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Container</b> = <a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt;value_t&gt;</td></tr>
+<tr class="memdesc:a1ddf6ceeb06740ffa3d6509f56fa5c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container type being converted. <br /></td></tr>
+<tr class="memitem:a08d24fd0d1815c15954dd7fe94c444d7" id="r_a08d24fd0d1815c15954dd7fe94c444d7"><td class="memItemLeft" align="right" valign="top"><a id="a08d24fd0d1815c15954dd7fe94c444d7" name="a08d24fd0d1815c15954dd7fe94c444d7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Value</b> = value_t</td></tr>
+<tr class="memdesc:a08d24fd0d1815c15954dd7fe94c444d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value type stored in the hierarchy map. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -162,40 +166,7 @@ class Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;</div
 <p>The value type is expected to be directly convertible to/from a Json object. It has to be either a fundamental type or appropriate <span class="tt">to_json(json&amp;, const
 value_t&amp;)</span> and <span class="tt">from_json(const json&amp;, value_t&amp;)</span> functions must be available. See the relevant <a href="https://nlohmann.github.io/json/features/arbitrary_types/">nlohmann::json documentation</a> for further information.</p>
 <p>A user-defined identifier is stored in the encoded Json object that is used to identify which value type is stored in the file. The identifier is checked for consistency when decoding the Json object. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a1ddf6ceeb06740ffa3d6509f56fa5c63" name="a1ddf6ceeb06740ffa3d6509f56fa5c63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ddf6ceeb06740ffa3d6509f56fa5c63">&#9670;&#160;</a></span>Container</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t, class decorator_t = void&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html">Acts::GeometryHierarchyMapJsonConverter</a>&lt; value_t, decorator_t &gt;::Container = <a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">GeometryHierarchyMap</a>&lt;value_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a08d24fd0d1815c15954dd7fe94c444d7" name="a08d24fd0d1815c15954dd7fe94c444d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08d24fd0d1815c15954dd7fe94c444d7">&#9670;&#160;</a></span>Value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t, class decorator_t = void&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html">Acts::GeometryHierarchyMapJsonConverter</a>&lt; value_t, decorator_t &gt;::Value = value_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a60a954847dbe4539e379ff43330a1332" name="a60a954847dbe4539e379ff43330a1332"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60a954847dbe4539e379ff43330a1332">&#9670;&#160;</a></span>GeometryHierarchyMapJsonConverter()</h2>
 

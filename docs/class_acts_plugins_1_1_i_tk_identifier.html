@@ -126,11 +126,15 @@ $(function(){initNavTree('class_acts_plugins_1_1_i_tk_identifier.html','','class
 </div><!--header-->
 <div class="contents">
 
+<p>Identifier class for ITk detector elements.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_geo_model_detector_element_i_tk_8hpp_source.html">/home/runner/work/acts/acts/Plugins/GeoModel/include/ActsPlugins/GeoModel/GeoModelDetectorElementITk.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afb6734774726ec3edfbd189080bf641c" id="r_afb6734774726ec3edfbd189080bf641c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb6734774726ec3edfbd189080bf641c">ITkIdentifier</a> (int <a class="el" href="#ab890183ef966d5de6ea6a98e5fe9f5aa">hardware</a>, int <a class="el" href="#a53831177a6f7c6cf152e459819331076">barrelEndcap</a>, int <a class="el" href="#a0954bbca8940bd083817165470067f9f">layerWheel</a>, int <a class="el" href="#a012afab6fb7265cd543736421171d8f7">etaModule</a>, int <a class="el" href="#ac653987838f1c546ebc51e12f7260d13">phiModule</a>, int <a class="el" href="#a39f7f567161b70cef0ab631532c63521">side</a>)</td></tr>
+<tr class="memdesc:afb6734774726ec3edfbd189080bf641c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a53831177a6f7c6cf152e459819331076" id="r_a53831177a6f7c6cf152e459819331076"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53831177a6f7c6cf152e459819331076">barrelEndcap</a> () const</td></tr>
 <tr class="memdesc:a53831177a6f7c6cf152e459819331076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the barrel-endcap specifier (-2,0,2).  <br /></td></tr>
 <tr class="memitem:a012afab6fb7265cd543736421171d8f7" id="r_a012afab6fb7265cd543736421171d8f7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a012afab6fb7265cd543736421171d8f7">etaModule</a> () const</td></tr>
@@ -146,7 +150,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3456964c59c629dfb0154dc517b29817" id="r_a3456964c59c629dfb0154dc517b29817"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3456964c59c629dfb0154dc517b29817">value</a> () const</td></tr>
 <tr class="memdesc:a3456964c59c629dfb0154dc517b29817"><td class="mdescLeft">&#160;</td><td class="mdescRight">A unique identifier that represents the combination of specifiers.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Identifier class for ITk detector elements. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afb6734774726ec3edfbd189080bf641c" name="afb6734774726ec3edfbd189080bf641c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb6734774726ec3edfbd189080bf641c">&#9670;&#160;</a></span>ITkIdentifier()</h2>
 
@@ -186,6 +192,19 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hardware</td><td>Hardware type (pixel=0, strip=1) </td></tr>
+    <tr><td class="paramname">barrelEndcap</td><td>Barrel/endcap specifier (-2,0,2) </td></tr>
+    <tr><td class="paramname">layerWheel</td><td>Layer or wheel number </td></tr>
+    <tr><td class="paramname">etaModule</td><td>Eta module index </td></tr>
+    <tr><td class="paramname">phiModule</td><td>Phi module index </td></tr>
+    <tr><td class="paramname">side</td><td>Side for double sided strip modules </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -205,6 +224,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access the barrel-endcap specifier (-2,0,2). </p>
+<dl class="section return"><dt>Returns</dt><dd>Barrel/endcap identifier </dd></dl>
 
 </div>
 </div>
@@ -224,6 +244,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access the eta module specifier. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eta module index </dd></dl>
 
 </div>
 </div>
@@ -243,6 +264,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access the hardware specifier (pixel=0, strip=1). </p>
+<dl class="section return"><dt>Returns</dt><dd>Hardware type </dd></dl>
 
 </div>
 </div>
@@ -262,6 +284,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access the layer specifier. </p>
+<dl class="section return"><dt>Returns</dt><dd>Layer or wheel number </dd></dl>
 
 </div>
 </div>
@@ -281,6 +304,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access the phi module specifier. </p>
+<dl class="section return"><dt>Returns</dt><dd>Phi module index </dd></dl>
 
 </div>
 </div>
@@ -300,6 +324,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access the side (for double sided strip modules). </p>
+<dl class="section return"><dt>Returns</dt><dd>Side identifier </dd></dl>
 
 </div>
 </div>
@@ -319,6 +344,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A unique identifier that represents the combination of specifiers. </p>
+<dl class="section return"><dt>Returns</dt><dd>Unique identifier value </dd></dl>
 
 </div>
 </div>

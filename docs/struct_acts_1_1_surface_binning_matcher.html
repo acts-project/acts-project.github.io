@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_surface_binning_matcher.html','','stru
 </div><!--header-->
 <div class="contents">
 
+<p>Helper to compare surfaces for binning equivalence.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_surface_binning_matcher_8hpp_source.html">Acts/Geometry/SurfaceBinningMatcher.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::SurfaceBinningMatcher:</div>
@@ -135,65 +138,27 @@ Collaboration diagram for Acts::SurfaceBinningMatcher:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5b206e265de691e51faa6f715fcc4765" id="r_a5b206e265de691e51faa6f715fcc4765"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b206e265de691e51faa6f715fcc4765">Range</a> = std::pair&lt;double, double&gt;</td></tr>
-<tr class="memdesc:a5b206e265de691e51faa6f715fcc4765"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning tolerance parameters.  <br /></td></tr>
+<tr class="memitem:a5b206e265de691e51faa6f715fcc4765" id="r_a5b206e265de691e51faa6f715fcc4765"><td class="memItemLeft" align="right" valign="top"><a id="a5b206e265de691e51faa6f715fcc4765" name="a5b206e265de691e51faa6f715fcc4765"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Range</b> = std::pair&lt;double, double&gt;</td></tr>
+<tr class="memdesc:a5b206e265de691e51faa6f715fcc4765"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning tolerance parameters. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2846d674c4af61af9ce11fc2bf671ab" id="r_ac2846d674c4af61af9ce11fc2bf671ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2846d674c4af61af9ce11fc2bf671ab">SurfaceBinningMatcher</a> ()=default</td></tr>
 <tr class="memitem:a2686934982bda2d9b4bfc54e4d99b758" id="r_a2686934982bda2d9b4bfc54e4d99b758"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2686934982bda2d9b4bfc54e4d99b758">SurfaceBinningMatcher</a> (const std::vector&lt; <a class="el" href="#a5b206e265de691e51faa6f715fcc4765">Range</a> &gt; &amp;tolpars)</td></tr>
+<tr class="memdesc:a2686934982bda2d9b4bfc54e4d99b758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with tolerance parameters.  <br /></td></tr>
 <tr class="memitem:ab6162535b8724ee65ccd60c845e596d2" id="r_ab6162535b8724ee65ccd60c845e596d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6162535b8724ee65ccd60c845e596d2">operator()</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a> aDir, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> *one, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> *other) const</td></tr>
 <tr class="memdesc:ab6162535b8724ee65ccd60c845e596d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check function for surface equivalent.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a41e22f927dd21ea1631eb847bf1fa475" id="r_a41e22f927dd21ea1631eb847bf1fa475"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#a5b206e265de691e51faa6f715fcc4765">Range</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41e22f927dd21ea1631eb847bf1fa475">tolerances</a></td></tr>
+<tr class="memdesc:a41e22f927dd21ea1631eb847bf1fa475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance ranges for each axis direction.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a5b206e265de691e51faa6f715fcc4765" name="a5b206e265de691e51faa6f715fcc4765"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b206e265de691e51faa6f715fcc4765">&#9670;&#160;</a></span>Range</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a5b206e265de691e51faa6f715fcc4765">Acts::SurfaceBinningMatcher::Range</a> = std::pair&lt;double, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The binning tolerance parameters. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac2846d674c4af61af9ce11fc2bf671ab" name="ac2846d674c4af61af9ce11fc2bf671ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2846d674c4af61af9ce11fc2bf671ab">&#9670;&#160;</a></span>SurfaceBinningMatcher() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::SurfaceBinningMatcher::SurfaceBinningMatcher </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Helper to compare surfaces for binning equivalence. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2686934982bda2d9b4bfc54e4d99b758" name="a2686934982bda2d9b4bfc54e4d99b758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2686934982bda2d9b4bfc54e4d99b758">&#9670;&#160;</a></span>SurfaceBinningMatcher() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2686934982bda2d9b4bfc54e4d99b758">&#9670;&#160;</a></span>SurfaceBinningMatcher()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,6 +179,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructor with tolerance parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolpars</td><td>The tolerance ranges for binning comparison </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -257,6 +230,7 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>True if surfaces are binning-equivalent </dd></dl>
 
 </div>
 </div>
@@ -276,6 +250,8 @@ Public Attributes</h2></td></tr>
 <div class="line">                                {0., 0.}}</div>
 <div class="ttc" id="anamespace_acts_html_a297fc9345930e9e61a5771aad5dc17c5"><div class="ttname"><a href="namespace_acts.html#a297fc9345930e9e61a5771aad5dc17c5">Acts::numAxisDirections</a></div><div class="ttdeci">constexpr std::size_t numAxisDirections()</div><div class="ttdoc">Returns the total number of axis directions.</div><div class="ttdef"><b>Definition</b> AxisDefinitions.hpp:43</div></div>
 </div><!-- fragment -->
+<p>Tolerance ranges for each axis direction. </p>
+
 </div>
 </div>
 </div><!-- contents -->

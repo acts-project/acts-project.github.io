@@ -147,7 +147,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="class_acts_plugins_1_1_detray_unsupported_material_exception.html" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="class_acts_plugins_1_1_detray_unsupported_material_exception.html" target="_top" xlink:title="Exception thrown when encountering unsupported material types in Detray conversion.">
 <polygon fill="white" stroke="#666666" points="502,-30 328,-30 328,0 502,0 502,-30"/>
 <text text-anchor="start" x="336" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::DetrayUnsupported</text>
 <text text-anchor="middle" x="415" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">MaterialException</text>

@@ -169,7 +169,7 @@ Construction</h2>
 <div class="line"><a class="code hl_function" href="#abb5cdcf57a02c2248e4b0ea7b979f5b8">GeometryContext</a> gctx{alignment};</div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html_abb5cdcf57a02c2248e4b0ea7b979f5b8"><div class="ttname"><a href="#abb5cdcf57a02c2248e4b0ea7b979f5b8">Acts::GeometryContext::GeometryContext</a></div><div class="ttdeci">GeometryContext()=default</div><div class="ttdoc">Default constructor.</div></div>
 </div><!-- fragment --><p>For testing or simple applications without alignment: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> gctx = <a class="code hl_function" href="#a371b369b8abe30222c10b58aae4b7379">GeometryContext::dangerouslyDefaultConstruct</a>();</div>
-<div class="ttc" id="aclass_acts_1_1_geometry_context_html_a371b369b8abe30222c10b58aae4b7379"><div class="ttname"><a href="#a371b369b8abe30222c10b58aae4b7379">Acts::GeometryContext::dangerouslyDefaultConstruct</a></div><div class="ttdeci">static GeometryContext dangerouslyDefaultConstruct()</div><div class="ttdoc">Static factory method for default construction.</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:51</div></div>
+<div class="ttc" id="aclass_acts_1_1_geometry_context_html_a371b369b8abe30222c10b58aae4b7379"><div class="ttname"><a href="#a371b369b8abe30222c10b58aae4b7379">Acts::GeometryContext::dangerouslyDefaultConstruct</a></div><div class="ttdeci">static GeometryContext dangerouslyDefaultConstruct()</div><div class="ttdoc">Static factory method for default construction.</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:52</div></div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>The default constructor is deprecated. Use the factory method dangerouslyDefaultConstruct() to make empty context creation explicit. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abb5cdcf57a02c2248e4b0ea7b979f5b8" name="abb5cdcf57a02c2248e4b0ea7b979f5b8"></a>
@@ -310,6 +310,7 @@ requires (!std::is_same_v&lt;std::decay_t&lt;T&gt;, GeometryContext&gt; &amp;&am
 
 <p>Static factory method for default construction. </p>
 <dl class="section note"><dt>Note</dt><dd>Use this when you need a default context for testing or simple applications without alignment/conditions data </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A default-constructed GeometryContext </dd></dl>
 
 </div>
 </div>

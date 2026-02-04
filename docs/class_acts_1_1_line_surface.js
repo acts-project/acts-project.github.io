@@ -22,6 +22,5 @@ var class_acts_1_1_line_surface =
     [ "pathCorrection", "class_acts_1_1_line_surface.html#adf1f5aa831abd06b67758f2f72d4d1bd", null ],
     [ "referenceFrame", "class_acts_1_1_line_surface.html#a76c0e8a2ebef582e8dde471be15fec18", null ],
     [ "referencePosition", "class_acts_1_1_line_surface.html#a99a0c1ea4f3e908a698a5cddccc842cc", null ],
-    [ "Surface", "class_acts_1_1_line_surface.html#a432070efb8401735ea64bc0e98feebe5", null ],
     [ "m_bounds", "class_acts_1_1_line_surface.html#ac1f3098d30fd4aab4553f6ea4c0cc233", null ]
 ];

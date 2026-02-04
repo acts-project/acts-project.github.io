@@ -143,11 +143,13 @@ Collaboration diagram for Acts::GridAxisGenerators::Eq&lt; aType &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac902e612b892822f53ad3cea0612a90e" id="r_ac902e612b892822f53ad3cea0612a90e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ac902e612b892822f53ad3cea0612a90e template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac902e612b892822f53ad3cea0612a90e">grid_type</a> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;T, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, aType&gt;&gt;</td></tr>
-<tr class="memdesc:ac902e612b892822f53ad3cea0612a90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the grid type.  <br /></td></tr>
-<tr class="memitem:af5508520381deec872dcbd773f275653" id="r_af5508520381deec872dcbd773f275653"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5508520381deec872dcbd773f275653">return_type</a> = std::tuple&lt;<a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, aType&gt;&gt;</td></tr>
-<tr class="memdesc:af5508520381deec872dcbd773f275653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the return_type.  <br /></td></tr>
+<tr class="memitem:ac902e612b892822f53ad3cea0612a90e" id="r_ac902e612b892822f53ad3cea0612a90e"><td class="memTemplParams" colspan="2"><a id="ac902e612b892822f53ad3cea0612a90e" name="ac902e612b892822f53ad3cea0612a90e"></a>
+template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ac902e612b892822f53ad3cea0612a90e template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_type</b> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;T, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, aType&gt;&gt;</td></tr>
+<tr class="memdesc:ac902e612b892822f53ad3cea0612a90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the grid type. <br /></td></tr>
+<tr class="memitem:af5508520381deec872dcbd773f275653" id="r_af5508520381deec872dcbd773f275653"><td class="memItemLeft" align="right" valign="top"><a id="af5508520381deec872dcbd773f275653" name="af5508520381deec872dcbd773f275653"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>return_type</b> = std::tuple&lt;<a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, aType&gt;&gt;</td></tr>
+<tr class="memdesc:af5508520381deec872dcbd773f275653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the return_type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -156,10 +158,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5522b2c551f0efb95d8d01aaa961f1ad" id="r_a5522b2c551f0efb95d8d01aaa961f1ad"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5522b2c551f0efb95d8d01aaa961f1ad">nBins</a> = 0u</td></tr>
-<tr class="memdesc:a5522b2c551f0efb95d8d01aaa961f1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins for the equidistant axis.  <br /></td></tr>
-<tr class="memitem:a575e52bc6e3c9537fd0895ce5dc385e7" id="r_a575e52bc6e3c9537fd0895ce5dc385e7"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a575e52bc6e3c9537fd0895ce5dc385e7">range</a> = {}</td></tr>
-<tr class="memdesc:a575e52bc6e3c9537fd0895ce5dc385e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range [min, max] for the equidistant axis.  <br /></td></tr>
+<tr class="memitem:a5522b2c551f0efb95d8d01aaa961f1ad" id="r_a5522b2c551f0efb95d8d01aaa961f1ad"><td class="memItemLeft" align="right" valign="top"><a id="a5522b2c551f0efb95d8d01aaa961f1ad" name="a5522b2c551f0efb95d8d01aaa961f1ad"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nBins</b> = 0u</td></tr>
+<tr class="memdesc:a5522b2c551f0efb95d8d01aaa961f1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins for the equidistant axis. <br /></td></tr>
+<tr class="memitem:a575e52bc6e3c9537fd0895ce5dc385e7" id="r_a575e52bc6e3c9537fd0895ce5dc385e7"><td class="memItemLeft" align="right" valign="top"><a id="a575e52bc6e3c9537fd0895ce5dc385e7" name="a575e52bc6e3c9537fd0895ce5dc385e7"></a>
+std::array&lt; double, 2u &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>range</b> = {}</td></tr>
+<tr class="memdesc:a575e52bc6e3c9537fd0895ce5dc385e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range [min, max] for the equidistant axis. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aType&gt;<br />
@@ -170,46 +174,7 @@ struct Acts::GridAxisGenerators::Eq&lt; aType &gt;</div><p>Templated base genera
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ac902e612b892822f53ad3cea0612a90e" name="ac902e612b892822f53ad3cea0612a90e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac902e612b892822f53ad3cea0612a90e">&#9670;&#160;</a></span>grid_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aType&gt; </div>
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq.html">Acts::GridAxisGenerators::Eq</a>&lt; aType &gt;::grid_type = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;T, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, aType&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Broadcast the grid type. </p>
-
-</div>
-</div>
-<a id="af5508520381deec872dcbd773f275653" name="af5508520381deec872dcbd773f275653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5508520381deec872dcbd773f275653">&#9670;&#160;</a></span>return_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aType&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq.html">Acts::GridAxisGenerators::Eq</a>&lt; aType &gt;::return_type = std::tuple&lt;<a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, aType&gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Broadcast the return_type. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a1d1600b8cf9d1dc38118e9eba1ad95fc" name="a1d1600b8cf9d1dc38118e9eba1ad95fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d1600b8cf9d1dc38118e9eba1ad95fc">&#9670;&#160;</a></span>operator()()</h2>
 
@@ -229,43 +194,6 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 <p>Call operator that generates the Axis. </p>
 <dl class="section return"><dt>Returns</dt><dd>Tuple containing the generated equidistant axis </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a5522b2c551f0efb95d8d01aaa961f1ad" name="a5522b2c551f0efb95d8d01aaa961f1ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5522b2c551f0efb95d8d01aaa961f1ad">&#9670;&#160;</a></span>nBins</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aType&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq.html">Acts::GridAxisGenerators::Eq</a>&lt; aType &gt;::nBins = 0u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of bins for the equidistant axis. </p>
-
-</div>
-</div>
-<a id="a575e52bc6e3c9537fd0895ce5dc385e7" name="a575e52bc6e3c9537fd0895ce5dc385e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a575e52bc6e3c9537fd0895ce5dc385e7">&#9670;&#160;</a></span>range</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aType&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 2u&gt; <a class="el" href="struct_acts_1_1_grid_axis_generators_1_1_eq.html">Acts::GridAxisGenerators::Eq</a>&lt; aType &gt;::range = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Range [min, max] for the equidistant axis. </p>
 
 </div>
 </div>

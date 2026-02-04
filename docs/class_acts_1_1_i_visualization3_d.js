@@ -1,7 +1,6 @@
 var class_acts_1_1_i_visualization3_d =
 [
     [ "FaceType", "class_acts_1_1_i_visualization3_d.html#af3e74f1a8465d44ee951760e2d6067b8", null ],
-    [ "~IVisualization3D", "class_acts_1_1_i_visualization3_d.html#a0057147eecd4b9098e23ac052cce1adb", null ],
     [ "clear", "class_acts_1_1_i_visualization3_d.html#a5e1197bd19f514313f2642621e43de0e", null ],
     [ "face", "class_acts_1_1_i_visualization3_d.html#a9d91d69bfb2bceb5e8762b05bd505595", null ],
     [ "faces", "class_acts_1_1_i_visualization3_d.html#a0a3c57a8dcaed07a2e0f827d36c8e3c0", null ],

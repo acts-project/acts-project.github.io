@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_ccl_1_1_connect2_d.html','','struct_ac
 </div><!--header-->
 <div class="contents">
 
+<p>Default connection type for 2-D grids with 4- or 8-cell connectivity.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_clusterization_8hpp_source.html">Acts/Clusterization/Clusterization.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::Ccl::Connect2D&lt; Cell &gt;:</div>
@@ -135,45 +138,24 @@ Inheritance diagram for Acts::Ccl::Connect2D&lt; Cell &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a07dab52454a7b25e5123db9b912eb90e" id="r_a07dab52454a7b25e5123db9b912eb90e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07dab52454a7b25e5123db9b912eb90e">Connect2D</a> ()=default</td></tr>
 <tr class="memitem:a0fa68f8740e0c9603730e93e5dfd0b01" id="r_a0fa68f8740e0c9603730e93e5dfd0b01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fa68f8740e0c9603730e93e5dfd0b01">Connect2D</a> (bool commonCorner)</td></tr>
-<tr class="memitem:a34d7faae1132b3a3419936ace791ef84" id="r_a34d7faae1132b3a3419936ace791ef84"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34d7faae1132b3a3419936ace791ef84">~Connect2D</a> ()=default</td></tr>
-<tr class="memitem:a450291a0ab0e50578a97b224ba488cf2" id="r_a450291a0ab0e50578a97b224ba488cf2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts_1_1_ccl.html#ab4b1aafb39146b0d004b518adca72c9d">ConnectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a450291a0ab0e50578a97b224ba488cf2">operator()</a> (const Cell &amp;ref, const Cell &amp;iter) const</td></tr>
+<tr class="memdesc:a0fa68f8740e0c9603730e93e5dfd0b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a450291a0ab0e50578a97b224ba488cf2" id="r_a450291a0ab0e50578a97b224ba488cf2"><td class="memItemLeft" align="right" valign="top">virtual ConnectResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a450291a0ab0e50578a97b224ba488cf2">operator()</a> (const Cell &amp;ref, const Cell &amp;iter) const</td></tr>
+<tr class="memdesc:a450291a0ab0e50578a97b224ba488cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two cells are connected.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a350b35367e6bbc9b7309a2f48c227188" id="r_a350b35367e6bbc9b7309a2f48c227188"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a350b35367e6bbc9b7309a2f48c227188">conn8</a> {true}</td></tr>
+<tr class="memitem:a350b35367e6bbc9b7309a2f48c227188" id="r_a350b35367e6bbc9b7309a2f48c227188"><td class="memItemLeft" align="right" valign="top"><a id="a350b35367e6bbc9b7309a2f48c227188" name="a350b35367e6bbc9b7309a2f48c227188"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>conn8</b> {true}</td></tr>
+<tr class="memdesc:a350b35367e6bbc9b7309a2f48c227188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use 8-cell connectivity (true) or 4-cell connectivity (false). <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a07dab52454a7b25e5123db9b912eb90e" name="a07dab52454a7b25e5123db9b912eb90e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07dab52454a7b25e5123db9b912eb90e">&#9670;&#160;</a></span>Connect2D() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Cell&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_ccl_1_1_connect2_d.html">Acts::Ccl::Connect2D</a>&lt; Cell &gt;::Connect2D </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename Cell&gt;<br />
+requires (<a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_column_info.html">Acts::Ccl::HasRetrievableColumnInfo</a>&lt;Cell&gt; &amp;&amp; <a class="el" href="concept_acts_1_1_ccl_1_1_has_retrievable_row_info.html">Acts::Ccl::HasRetrievableRowInfo</a>&lt;Cell&gt;)<br />
+struct Acts::Ccl::Connect2D&lt; Cell &gt;</div><p>Default connection type for 2-D grids with 4- or 8-cell connectivity. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0fa68f8740e0c9603730e93e5dfd0b01" name="a0fa68f8740e0c9603730e93e5dfd0b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fa68f8740e0c9603730e93e5dfd0b01">&#9670;&#160;</a></span>Connect2D() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa68f8740e0c9603730e93e5dfd0b01">&#9670;&#160;</a></span>Connect2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,32 +179,13 @@ template&lt;typename Cell&gt; </div>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a34d7faae1132b3a3419936ace791ef84" name="a34d7faae1132b3a3419936ace791ef84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34d7faae1132b3a3419936ace791ef84">&#9670;&#160;</a></span>~Connect2D()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Cell&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="struct_acts_1_1_ccl_1_1_connect2_d.html">Acts::Ccl::Connect2D</a>&lt; Cell &gt;::~<a class="el" href="#a07dab52454a7b25e5123db9b912eb90e">Connect2D</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commonCorner</td><td>Whether cells sharing only a corner are considered connected </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -239,7 +202,7 @@ template&lt;typename Cell&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_acts_1_1_ccl.html#ab4b1aafb39146b0d004b518adca72c9d">ConnectResult</a> <a class="el" href="struct_acts_1_1_ccl_1_1_connect2_d.html">Acts::Ccl::Connect2D</a>&lt; Cell &gt;::operator() </td>
+          <td class="memname">virtual ConnectResult <a class="el" href="struct_acts_1_1_ccl_1_1_connect2_d.html">Acts::Ccl::Connect2D</a>&lt; Cell &gt;::operator() </td>
           <td>(</td>
           <td class="paramtype">const Cell &amp;</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
         </tr>
@@ -256,22 +219,15 @@ template&lt;typename Cell&gt; </div>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a350b35367e6bbc9b7309a2f48c227188" name="a350b35367e6bbc9b7309a2f48c227188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a350b35367e6bbc9b7309a2f48c227188">&#9670;&#160;</a></span>conn8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Cell&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_ccl_1_1_connect2_d.html">Acts::Ccl::Connect2D</a>&lt; Cell &gt;::conn8 {true}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Check if two cells are connected. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ref</td><td>Reference cell </td></tr>
+    <tr><td class="paramname">iter</td><td>Candidate cell </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Connection result </dd></dl>
 
 </div>
 </div>
@@ -288,7 +244,7 @@ template&lt;typename Cell&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_ccl.html">Ccl</a></li><li class="navelem"><a href="struct_acts_1_1_ccl_1_1_connect2_d.html">Connect2D</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>Ccl</b></li><li class="navelem"><a href="struct_acts_1_1_ccl_1_1_connect2_d.html">Connect2D</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -252,9 +252,9 @@ $(function(){initNavTree('_any_8hpp_source.html','',''); });
 </div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="preprocessor">#if defined(_ACTS_ANY_ENABLE_VERBOSE)</span></div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  <a class="code hl_function" href="class_acts_1_1_any_base.html#a0136f06dc307245dda008d56503441c9">AnyBase</a>() { _ACTS_ANY_VERBOSE(<span class="stringliteral">&quot;Default construct this=&quot;</span> &lt;&lt; <span class="keyword">this</span>); };</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  <a class="code hl_function" href="class_acts_1_1_any_base.html#a67fda4de2fbc9d5411fca63f2c893b01">AnyBase</a>() { _ACTS_ANY_VERBOSE(<span class="stringliteral">&quot;Default construct this=&quot;</span> &lt;&lt; <span class="keyword">this</span>); };</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="class_acts_1_1_any_base.html#a0136f06dc307245dda008d56503441c9">  159</a></span>  <a class="code hl_function" href="class_acts_1_1_any_base.html#a0136f06dc307245dda008d56503441c9">AnyBase</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>  <a class="code hl_function" href="class_acts_1_1_any_base.html#a67fda4de2fbc9d5411fca63f2c893b01">AnyBase</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span></div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
@@ -315,7 +315,7 @@ $(function(){initNavTree('_any_8hpp_source.html','',''); });
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>  }</div>
 </div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="class_acts_1_1_any_base.html#a48d511778b413e07bd8c16a8758b786f">  228</a></span>  <a class="code hl_function" href="class_acts_1_1_any_base.html#a48d511778b413e07bd8c16a8758b786f">~AnyBase</a>() { destroy(); }</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  <a class="code hl_class" href="class_acts_1_1_any_base.html">~AnyBase</a>() { destroy(); }</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span></div>
 <div class="foldopen" id="foldopen00232" data-start="{" data-end="}">
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="class_acts_1_1_any_base.html#a7f5379043325f33164f7c5f33ceca410">  232</a></span>  <a class="code hl_function" href="class_acts_1_1_any_base.html#a7f5379043325f33164f7c5f33ceca410">AnyBase</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_acts_1_1_any_base.html#a67fda4de2fbc9d5411fca63f2c893b01">AnyBase</a>&amp; other) _ACTS_ANY_NOEXCEPT {</div>
@@ -700,11 +700,9 @@ $(function(){initNavTree('_any_8hpp_source.html','',''); });
 <div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_all_html"><div class="ttname"><a href="class_acts_1_1_any_base_all.html">Acts::AnyBaseAll</a></div><div class="ttdoc">Base class for all instances of AnyBase regarfless of SBO size.</div><div class="ttdef"><b>Definition</b> Any.hpp:115</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html"><div class="ttname"><a href="class_acts_1_1_any_base.html">Acts::AnyBase</a></div><div class="ttdoc">Small opaque type-erased type with configurable small buffer optimization.</div><div class="ttdef"><b>Definition</b> Any.hpp:136</div></div>
-<div class="ttc" id="aclass_acts_1_1_any_base_html_a0136f06dc307245dda008d56503441c9"><div class="ttname"><a href="class_acts_1_1_any_base.html#a0136f06dc307245dda008d56503441c9">Acts::AnyBase::AnyBase</a></div><div class="ttdeci">AnyBase()=default</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html_a158602e18a2e5f6a86acef6b672fb6e9"><div class="ttname"><a href="class_acts_1_1_any_base.html#a158602e18a2e5f6a86acef6b672fb6e9">Acts::AnyBase::emplace</a></div><div class="ttdeci">T &amp; emplace(Args &amp;&amp;... args)</div><div class="ttdoc">Construct a new value in place, destroying any existing value.</div><div class="ttdef"><b>Definition</b> Any.hpp:186</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html_a2d6c5dc4c63bf4f339d0962bb4495d50"><div class="ttname"><a href="class_acts_1_1_any_base.html#a2d6c5dc4c63bf4f339d0962bb4495d50">Acts::AnyBase::AnyBase</a></div><div class="ttdeci">AnyBase(T &amp;&amp;value) _ACTS_ANY_NOEXCEPT</div><div class="ttdoc">Construct from any value type.</div><div class="ttdef"><b>Definition</b> Any.hpp:166</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html_a2e550a6e2632f48420f537b114af3710"><div class="ttname"><a href="class_acts_1_1_any_base.html#a2e550a6e2632f48420f537b114af3710">Acts::AnyBase::as</a></div><div class="ttdeci">const T &amp; as() const</div><div class="ttdoc">Get const reference to stored value of specified type.</div><div class="ttdef"><b>Definition</b> Any.hpp:216</div></div>
-<div class="ttc" id="aclass_acts_1_1_any_base_html_a48d511778b413e07bd8c16a8758b786f"><div class="ttname"><a href="class_acts_1_1_any_base.html#a48d511778b413e07bd8c16a8758b786f">Acts::AnyBase::~AnyBase</a></div><div class="ttdeci">~AnyBase()</div><div class="ttdef"><b>Definition</b> Any.hpp:228</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html_a67fda4de2fbc9d5411fca63f2c893b01"><div class="ttname"><a href="class_acts_1_1_any_base.html#a67fda4de2fbc9d5411fca63f2c893b01">Acts::AnyBase::AnyBase</a></div><div class="ttdeci">AnyBase(std::in_place_type_t&lt; T &gt;, Args &amp;&amp;... args)</div><div class="ttdoc">Construct with in-place type construction.</div><div class="ttdef"><b>Definition</b> Any.hpp:150</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html_a72aff693da9df500e165dedadca0f3d7"><div class="ttname"><a href="class_acts_1_1_any_base.html#a72aff693da9df500e165dedadca0f3d7">Acts::AnyBase::as</a></div><div class="ttdeci">T &amp; as()</div><div class="ttdoc">Get reference to stored value of specified type.</div><div class="ttdef"><b>Definition</b> Any.hpp:198</div></div>
 <div class="ttc" id="aclass_acts_1_1_any_base_html_a7f5379043325f33164f7c5f33ceca410"><div class="ttname"><a href="class_acts_1_1_any_base.html#a7f5379043325f33164f7c5f33ceca410">Acts::AnyBase::AnyBase</a></div><div class="ttdeci">AnyBase(const AnyBase &amp;other) _ACTS_ANY_NOEXCEPT</div><div class="ttdoc">Copy constructor.</div><div class="ttdef"><b>Definition</b> Any.hpp:232</div></div>
@@ -721,7 +719,7 @@ $(function(){initNavTree('_any_8hpp_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_dfa0f8b006fa133d2686acb3b8294582.html">Utilities</a></li><li class="navelem"><b>Any.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>Utilities</b></li><li class="navelem"><b>Any.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

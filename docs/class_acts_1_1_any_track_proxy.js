@@ -40,6 +40,5 @@ var class_acts_1_1_any_track_proxy =
     [ "theta", "class_acts_1_1_any_track_proxy.html#a8be13ec247bf287b76647538dcfc2bae", null ],
     [ "time", "class_acts_1_1_any_track_proxy.html#a56a29fdaa45f321b9b683ba5295b4cd1", null ],
     [ "transverseMomentum", "class_acts_1_1_any_track_proxy.html#ae409a395e7a5be6d80f398936cbf380f", null ],
-    [ "AnyTrackProxy", "class_acts_1_1_any_track_proxy.html#ae02bf2f1e78d7b1530f49aa87c9e1e04", null ],
     [ "ReadOnly", "class_acts_1_1_any_track_proxy.html#acae04f809ce0c4434aa2abb9e619fc01", null ]
 ];

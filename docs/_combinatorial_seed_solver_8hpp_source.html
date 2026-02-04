@@ -139,14 +139,12 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;ranges&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html">   22</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html">Acts::Experimental::CombinatorialSeedSolver</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">namespace </span>Acts::Experimental::CombinatorialSeedSolver {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">template</span> &lt;Experimental::CompositeSpacePo<span class="keywordtype">int</span>Ptr Po<span class="keywordtype">int</span>_t&gt;</div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#a422b433c452837b430bcaea5e50633b9">   43</a></span><a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> <a class="code hl_function" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#a422b433c452837b430bcaea5e50633b9">betaMatrix</a>(<span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett) {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> betaMatrix(<span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett) {</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> bMatrix{SquareMatrix2::Identity()};</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b1Aterm = (layerQuartett[3]-&gt;sensorDirection().dot(</div>
@@ -188,12 +186,10 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordflow">return</span> bMatrix;</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>}</div>
-</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">template</span> &lt;Experimental::CompositeSpacePo<span class="keywordtype">int</span>Ptr Po<span class="keywordtype">int</span>_t&gt;</div>
-<div class="foldopen" id="foldopen00092" data-start="{" data-end="}">
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#ad639e4adadb297d6a74210d7ce5923a5">   92</a></span>std::array&lt;double, 4&gt; <a class="code hl_function" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#ad639e4adadb297d6a74210d7ce5923a5">defineParameters</a>(</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a>&amp; <a class="code hl_function" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#a422b433c452837b430bcaea5e50633b9">betaMatrix</a>,</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>std::array&lt;double, 4&gt; defineParameters(</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a>&amp; betaMatrix,</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett) {</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordtype">double</span> A = (layerQuartett[0]-&gt;localPosition().z() -</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>              layerQuartett[1]-&gt;localPosition().z());</div>
@@ -222,7 +218,7 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>               A * (layerQuartett[3]-&gt;localPosition() -</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                    layerQuartett[2]-&gt;localPosition());</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <a class="code hl_typedef" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> solution = <a class="code hl_function" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#a422b433c452837b430bcaea5e50633b9">betaMatrix</a>.inverse() * y2.block&lt;2, 1&gt;(0, 0);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <a class="code hl_typedef" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> solution = betaMatrix.inverse() * y2.block&lt;2, 1&gt;(0, 0);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordtype">double</span> kappa = solution.x();</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  <span class="keywordtype">double</span> gamma = solution.y();</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
@@ -245,12 +241,10 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  <span class="keywordflow">return</span> std::array&lt;double, 4&gt;({lambda, alpha, gamma, kappa});</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>}</div>
-</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="comment">// Solve the equations for the seed position and direction (M,DM)</span></div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">template</span> &lt;Experimental::CompositeSpacePo<span class="keywordtype">int</span>Ptr Po<span class="keywordtype">int</span>_t&gt;</div>
-<div class="foldopen" id="foldopen00153" data-start="{" data-end="}">
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#adae619e025a37a464f4fd6b0d6e990a4">  153</a></span>std::pair&lt;Vector3, Vector3&gt; <a class="code hl_function" href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#adae619e025a37a464f4fd6b0d6e990a4">seedSolution</a>(</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>std::pair&lt;Vector3, Vector3&gt; seedSolution(</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett,</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keyword">const</span> std::array&lt;double, 4&gt;&amp; parameters) {</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>  <span class="comment">// estimate the seed positionInChamber from the 1st equation of the system of</span></div>
@@ -268,24 +262,17 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>  <span class="comment">// calculate the position at z=0</span></div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>  <a class="code hl_typedef" href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Intersection3D</a> intersectionZ0 = PlanarHelper::intersectPlane(</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>      seedPosition, seedDirection, Vector3::UnitZ(), 0.0);</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> seedPositionZ0 = intersectionZ0.<a class="code hl_function" href="class_acts_1_1_intersection.html#aeaccf2b221582c624ddc0f33b5cc6d34">position</a>();</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> seedPositionZ0 = intersectionZ0.position();</div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>  <span class="keywordflow">return</span> std::make_pair(seedPositionZ0,</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                        <a class="code hl_function" href="namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e">copySign</a>(seedDirection, seedDirection.z()));</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>};</div>
-</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>}  <span class="comment">// namespace Acts::Experimental::CombinatorialSeedSolver</span></div>
-</div>
-<div class="ttc" id="aclass_acts_1_1_intersection_html_aeaccf2b221582c624ddc0f33b5cc6d34"><div class="ttname"><a href="class_acts_1_1_intersection.html#aeaccf2b221582c624ddc0f33b5cc6d34">Acts::Intersection::position</a></div><div class="ttdeci">Position position() const noexcept</div><div class="ttdoc">Returns the position of the interseciton.</div><div class="ttdef"><b>Definition</b> Intersection.hpp:99</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga57a9cb002daaf227c693f2992fa5540c"><div class="ttname"><a href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">Acts::SquareMatrix2</a></div><div class="ttdeci">ActsSquareMatrix&lt; 2 &gt; SquareMatrix2</div><div class="ttdoc">2x2 square matrix type, typically used for 2D coordinate covariance</div><div class="ttdef"><b>Definition</b> Algebra.hpp:77</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="agroup__algebra__types_html_gabb76f2d48e0590ef82a8afaad39a77b5"><div class="ttname"><a href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a></div><div class="ttdeci">ActsVector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:70</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_1_1_combinatorial_seed_solver_html"><div class="ttname"><a href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html">Acts::Experimental::CombinatorialSeedSolver</a></div><div class="ttdef"><b>Definition</b> CombinatorialSeedSolver.hpp:22</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_1_1_combinatorial_seed_solver_html_a422b433c452837b430bcaea5e50633b9"><div class="ttname"><a href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#a422b433c452837b430bcaea5e50633b9">Acts::Experimental::CombinatorialSeedSolver::betaMatrix</a></div><div class="ttdeci">SquareMatrix2 betaMatrix(const std::array&lt; Point_t, 4 &gt; &amp;layerQuartett)</div><div class="ttdoc">A Combinatorial Seed Solver for seed estimation from combinatoric hits from four layers (e....</div><div class="ttdef"><b>Definition</b> CombinatorialSeedSolver.hpp:43</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_1_1_combinatorial_seed_solver_html_ad639e4adadb297d6a74210d7ce5923a5"><div class="ttname"><a href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#ad639e4adadb297d6a74210d7ce5923a5">Acts::Experimental::CombinatorialSeedSolver::defineParameters</a></div><div class="ttdeci">std::array&lt; double, 4 &gt; defineParameters(const SquareMatrix2 &amp;betaMatrix, const std::array&lt; Point_t, 4 &gt; &amp;layerQuartett)</div><div class="ttdoc">calculates the parameters lambda,alpha,gamma,kappa of the system</div><div class="ttdef"><b>Definition</b> CombinatorialSeedSolver.hpp:92</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_1_1_combinatorial_seed_solver_html_adae619e025a37a464f4fd6b0d6e990a4"><div class="ttname"><a href="namespace_acts_1_1_experimental_1_1_combinatorial_seed_solver.html#adae619e025a37a464f4fd6b0d6e990a4">Acts::Experimental::CombinatorialSeedSolver::seedSolution</a></div><div class="ttdeci">std::pair&lt; Vector3, Vector3 &gt; seedSolution(const std::array&lt; Point_t, 4 &gt; &amp;layerQuartett, const std::array&lt; double, 4 &gt; &amp;parameters)</div><div class="ttdoc">solves the equation system to calculate the seed</div><div class="ttdef"><b>Definition</b> CombinatorialSeedSolver.hpp:153</div></div>
-<div class="ttc" id="anamespace_acts_html_a52e4326c57b1b3eadc5a72d2c774bd7e"><div class="ttname"><a href="namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e">Acts::copySign</a></div><div class="ttdeci">constexpr out_t copySign(const out_t &amp;copyTo, const sign_t &amp;sign)</div><div class="ttdoc">Copies the sign of a signed variable onto the copyTo input object Return type &amp; magnitude remain unaf...</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:42</div></div>
+<div class="ttc" id="anamespace_acts_html_a52e4326c57b1b3eadc5a72d2c774bd7e"><div class="ttname"><a href="namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e">Acts::copySign</a></div><div class="ttdeci">constexpr out_t copySign(const out_t &amp;copyTo, const sign_t &amp;sign)</div><div class="ttdoc">Copies the sign of a signed variable onto the copyTo input object Return type &amp; magnitude remain unaf...</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:43</div></div>
 <div class="ttc" id="anamespace_acts_html_ac5af012605f2c07d2ccec54168574925"><div class="ttname"><a href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Acts::Intersection3D</a></div><div class="ttdeci">Intersection&lt; 3 &gt; Intersection3D</div><div class="ttdoc">Type alias for 3D intersection.</div><div class="ttdef"><b>Definition</b> Intersection.hpp:178</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -293,7 +280,7 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_c0302fbefacbae8285e34891103a9786.html">Seeding</a></li><li class="navelem"><b>CombinatorialSeedSolver.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>Seeding</b></li><li class="navelem"><b>CombinatorialSeedSolver.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

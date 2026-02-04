@@ -143,26 +143,36 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a59e267ee95f346133cb124835cefa6ca" id="r_a59e267ee95f346133cb124835cefa6ca"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e267ee95f346133cb124835cefa6ca">geoContext</a></td></tr>
-<tr class="memdesc:a59e267ee95f346133cb124835cefa6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the geometry context for the mapping.  <br /></td></tr>
-<tr class="memitem:acd15522344bc6c726423557291379137" id="r_acd15522344bc6c726423557291379137"><td class="memItemLeft" align="right" valign="top">std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="namespace_acts.html#ab0989576baab7a8793e3f7cbeec08cae">Grid2D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd15522344bc6c726423557291379137">grid2D</a></td></tr>
-<tr class="memdesc:acd15522344bc6c726423557291379137"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 2D material grid for each geometry ID.  <br /></td></tr>
-<tr class="memitem:a89a0ab5a2801ec11530f8795543e9f63" id="r_a89a0ab5a2801ec11530f8795543e9f63"><td class="memItemLeft" align="right" valign="top">std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="namespace_acts.html#a9449d6ac28ec406ddfcf71fd50003e59">Grid3D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a0ab5a2801ec11530f8795543e9f63">grid3D</a></td></tr>
-<tr class="memdesc:a89a0ab5a2801ec11530f8795543e9f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 3D material grid for each geometry ID.  <br /></td></tr>
-<tr class="memitem:aa214bd26c2ccd4f83b29a496493775a0" id="r_aa214bd26c2ccd4f83b29a496493775a0"><td class="memItemLeft" align="right" valign="top">std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="class_acts_1_1_accumulated_volume_material.html">Acts::AccumulatedVolumeMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa214bd26c2ccd4f83b29a496493775a0">homogeneousGrid</a></td></tr>
-<tr class="memdesc:aa214bd26c2ccd4f83b29a496493775a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recorded material per geometry ID.  <br /></td></tr>
-<tr class="memitem:af62b72a1e0b030281e645916a07839d1" id="r_af62b72a1e0b030281e645916a07839d1"><td class="memItemLeft" align="right" valign="top">std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af62b72a1e0b030281e645916a07839d1">magFieldContext</a></td></tr>
-<tr class="memdesc:af62b72a1e0b030281e645916a07839d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the magnetic field context.  <br /></td></tr>
-<tr class="memitem:a3e31cc9b4e303c58c8ecc4e7f355f6af" id="r_a3e31cc9b4e303c58c8ecc4e7f355f6af"><td class="memItemLeft" align="right" valign="top">std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e31cc9b4e303c58c8ecc4e7f355f6af">materialBin</a></td></tr>
-<tr class="memdesc:a3e31cc9b4e303c58c8ecc4e7f355f6af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning for each geometry ID.  <br /></td></tr>
-<tr class="memitem:a8cfa9ff04b66386f6f7fd53e40735f3b" id="r_a8cfa9ff04b66386f6f7fd53e40735f3b"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cfa9ff04b66386f6f7fd53e40735f3b">surfaceMaterial</a></td></tr>
-<tr class="memdesc:a8cfa9ff04b66386f6f7fd53e40735f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface material of the input tracking geometry.  <br /></td></tr>
-<tr class="memitem:a38b8809f75628edebd9b2edd18998284" id="r_a38b8809f75628edebd9b2edd18998284"><td class="memItemLeft" align="right" valign="top">std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::function&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b8809f75628edebd9b2edd18998284">transform2D</a></td></tr>
-<tr class="memdesc:a38b8809f75628edebd9b2edd18998284"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recorded 2D transform associated the grid for each geometry ID.  <br /></td></tr>
-<tr class="memitem:a7c34618ac2b0b36296a1985d7c0189a2" id="r_a7c34618ac2b0b36296a1985d7c0189a2"><td class="memItemLeft" align="right" valign="top">std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::function&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c34618ac2b0b36296a1985d7c0189a2">transform3D</a></td></tr>
-<tr class="memdesc:a7c34618ac2b0b36296a1985d7c0189a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recorded 3D transform associated the material grid for each geometry ID.  <br /></td></tr>
-<tr class="memitem:a8c3545d85245060e4b706cd0da1225a2" id="r_a8c3545d85245060e4b706cd0da1225a2"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c3545d85245060e4b706cd0da1225a2">volumeMaterial</a></td></tr>
-<tr class="memdesc:a8c3545d85245060e4b706cd0da1225a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The created volume material from it.  <br /></td></tr>
+<tr class="memitem:a59e267ee95f346133cb124835cefa6ca" id="r_a59e267ee95f346133cb124835cefa6ca"><td class="memItemLeft" align="right" valign="top"><a id="a59e267ee95f346133cb124835cefa6ca" name="a59e267ee95f346133cb124835cefa6ca"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
+<tr class="memdesc:a59e267ee95f346133cb124835cefa6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the geometry context for the mapping. <br /></td></tr>
+<tr class="memitem:acd15522344bc6c726423557291379137" id="r_acd15522344bc6c726423557291379137"><td class="memItemLeft" align="right" valign="top"><a id="acd15522344bc6c726423557291379137" name="acd15522344bc6c726423557291379137"></a>
+std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="namespace_acts.html#ab0989576baab7a8793e3f7cbeec08cae">Grid2D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>grid2D</b></td></tr>
+<tr class="memdesc:acd15522344bc6c726423557291379137"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 2D material grid for each geometry ID. <br /></td></tr>
+<tr class="memitem:a89a0ab5a2801ec11530f8795543e9f63" id="r_a89a0ab5a2801ec11530f8795543e9f63"><td class="memItemLeft" align="right" valign="top"><a id="a89a0ab5a2801ec11530f8795543e9f63" name="a89a0ab5a2801ec11530f8795543e9f63"></a>
+std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="namespace_acts.html#a9449d6ac28ec406ddfcf71fd50003e59">Grid3D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>grid3D</b></td></tr>
+<tr class="memdesc:a89a0ab5a2801ec11530f8795543e9f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 3D material grid for each geometry ID. <br /></td></tr>
+<tr class="memitem:aa214bd26c2ccd4f83b29a496493775a0" id="r_aa214bd26c2ccd4f83b29a496493775a0"><td class="memItemLeft" align="right" valign="top"><a id="aa214bd26c2ccd4f83b29a496493775a0" name="aa214bd26c2ccd4f83b29a496493775a0"></a>
+std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="class_acts_1_1_accumulated_volume_material.html">Acts::AccumulatedVolumeMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>homogeneousGrid</b></td></tr>
+<tr class="memdesc:aa214bd26c2ccd4f83b29a496493775a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recorded material per geometry ID. <br /></td></tr>
+<tr class="memitem:af62b72a1e0b030281e645916a07839d1" id="r_af62b72a1e0b030281e645916a07839d1"><td class="memItemLeft" align="right" valign="top"><a id="af62b72a1e0b030281e645916a07839d1" name="af62b72a1e0b030281e645916a07839d1"></a>
+std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>magFieldContext</b></td></tr>
+<tr class="memdesc:af62b72a1e0b030281e645916a07839d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the magnetic field context. <br /></td></tr>
+<tr class="memitem:a3e31cc9b4e303c58c8ecc4e7f355f6af" id="r_a3e31cc9b4e303c58c8ecc4e7f355f6af"><td class="memItemLeft" align="right" valign="top"><a id="a3e31cc9b4e303c58c8ecc4e7f355f6af" name="a3e31cc9b4e303c58c8ecc4e7f355f6af"></a>
+std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>materialBin</b></td></tr>
+<tr class="memdesc:a3e31cc9b4e303c58c8ecc4e7f355f6af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning for each geometry ID. <br /></td></tr>
+<tr class="memitem:a8cfa9ff04b66386f6f7fd53e40735f3b" id="r_a8cfa9ff04b66386f6f7fd53e40735f3b"><td class="memItemLeft" align="right" valign="top"><a id="a8cfa9ff04b66386f6f7fd53e40735f3b" name="a8cfa9ff04b66386f6f7fd53e40735f3b"></a>
+std::map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceMaterial</b></td></tr>
+<tr class="memdesc:a8cfa9ff04b66386f6f7fd53e40735f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface material of the input tracking geometry. <br /></td></tr>
+<tr class="memitem:a38b8809f75628edebd9b2edd18998284" id="r_a38b8809f75628edebd9b2edd18998284"><td class="memItemLeft" align="right" valign="top"><a id="a38b8809f75628edebd9b2edd18998284" name="a38b8809f75628edebd9b2edd18998284"></a>
+std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::function&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>transform2D</b></td></tr>
+<tr class="memdesc:a38b8809f75628edebd9b2edd18998284"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recorded 2D transform associated the grid for each geometry ID. <br /></td></tr>
+<tr class="memitem:a7c34618ac2b0b36296a1985d7c0189a2" id="r_a7c34618ac2b0b36296a1985d7c0189a2"><td class="memItemLeft" align="right" valign="top"><a id="a7c34618ac2b0b36296a1985d7c0189a2" name="a7c34618ac2b0b36296a1985d7c0189a2"></a>
+std::map&lt; const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::function&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>transform3D</b></td></tr>
+<tr class="memdesc:a7c34618ac2b0b36296a1985d7c0189a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recorded 3D transform associated the material grid for each geometry ID. <br /></td></tr>
+<tr class="memitem:a8c3545d85245060e4b706cd0da1225a2" id="r_a8c3545d85245060e4b706cd0da1225a2"><td class="memItemLeft" align="right" valign="top"><a id="a8c3545d85245060e4b706cd0da1225a2" name="a8c3545d85245060e4b706cd0da1225a2"></a>
+std::map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>volumeMaterial</b></td></tr>
+<tr class="memdesc:a8c3545d85245060e4b706cd0da1225a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The created volume material from it. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Nested State struct which is used for the mapping prococess. </p>
@@ -194,167 +204,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a59e267ee95f346133cb124835cefa6ca" name="a59e267ee95f346133cb124835cefa6ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59e267ee95f346133cb124835cefa6ca">&#9670;&#160;</a></span>geoContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&gt; Acts::VolumeMaterialMapper::State::geoContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference to the geometry context for the mapping. </p>
-
-</div>
-</div>
-<a id="acd15522344bc6c726423557291379137" name="acd15522344bc6c726423557291379137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd15522344bc6c726423557291379137">&#9670;&#160;</a></span>grid2D</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="namespace_acts.html#ab0989576baab7a8793e3f7cbeec08cae">Grid2D</a>&gt; Acts::VolumeMaterialMapper::State::grid2D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The 2D material grid for each geometry ID. </p>
-
-</div>
-</div>
-<a id="a89a0ab5a2801ec11530f8795543e9f63" name="a89a0ab5a2801ec11530f8795543e9f63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89a0ab5a2801ec11530f8795543e9f63">&#9670;&#160;</a></span>grid3D</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="namespace_acts.html#a9449d6ac28ec406ddfcf71fd50003e59">Grid3D</a>&gt; Acts::VolumeMaterialMapper::State::grid3D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The 3D material grid for each geometry ID. </p>
-
-</div>
-</div>
-<a id="aa214bd26c2ccd4f83b29a496493775a0" name="aa214bd26c2ccd4f83b29a496493775a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa214bd26c2ccd4f83b29a496493775a0">&#9670;&#160;</a></span>homogeneousGrid</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="class_acts_1_1_accumulated_volume_material.html">Acts::AccumulatedVolumeMaterial</a>&gt; Acts::VolumeMaterialMapper::State::homogeneousGrid</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The recorded material per geometry ID. </p>
-
-</div>
-</div>
-<a id="af62b72a1e0b030281e645916a07839d1" name="af62b72a1e0b030281e645916a07839d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af62b72a1e0b030281e645916a07839d1">&#9670;&#160;</a></span>magFieldContext</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::reference_wrapper&lt;const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a>&gt; Acts::VolumeMaterialMapper::State::magFieldContext</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference to the magnetic field context. </p>
-
-</div>
-</div>
-<a id="a3e31cc9b4e303c58c8ecc4e7f355f6af" name="a3e31cc9b4e303c58c8ecc4e7f355f6af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e31cc9b4e303c58c8ecc4e7f355f6af">&#9670;&#160;</a></span>materialBin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a>&gt; Acts::VolumeMaterialMapper::State::materialBin</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The binning for each geometry ID. </p>
-
-</div>
-</div>
-<a id="a8cfa9ff04b66386f6f7fd53e40735f3b" name="a8cfa9ff04b66386f6f7fd53e40735f3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cfa9ff04b66386f6f7fd53e40735f3b">&#9670;&#160;</a></span>surfaceMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a>&gt; &gt; Acts::VolumeMaterialMapper::State::surfaceMaterial</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The surface material of the input tracking geometry. </p>
-
-</div>
-</div>
-<a id="a38b8809f75628edebd9b2edd18998284" name="a38b8809f75628edebd9b2edd18998284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38b8809f75628edebd9b2edd18998284">&#9670;&#160;</a></span>transform2D</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::function&lt;<a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &gt; Acts::VolumeMaterialMapper::State::transform2D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The recorded 2D transform associated the grid for each geometry ID. </p>
-
-</div>
-</div>
-<a id="a7c34618ac2b0b36296a1985d7c0189a2" name="a7c34618ac2b0b36296a1985d7c0189a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c34618ac2b0b36296a1985d7c0189a2">&#9670;&#160;</a></span>transform3D</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::function&lt;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &gt; Acts::VolumeMaterialMapper::State::transform3D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The recorded 3D transform associated the material grid for each geometry ID. </p>
-
-</div>
-</div>
-<a id="a8c3545d85245060e4b706cd0da1225a2" name="a8c3545d85245060e4b706cd0da1225a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c3545d85245060e4b706cd0da1225a2">&#9670;&#160;</a></span>volumeMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::unique_ptr&lt;const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a>&gt; &gt; Acts::VolumeMaterialMapper::State::volumeMaterial</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The created volume material from it. </p>
 
 </div>
 </div>

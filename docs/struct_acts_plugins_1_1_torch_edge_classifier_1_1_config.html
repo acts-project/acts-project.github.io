@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_plugins_1_1_torch_edge_classifier_1_1_conf
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration struct for Torch edge classifier.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_torch_edge_classifier_8hpp_source.html">ActsPlugins/Gnn/TorchEdgeClassifier.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::TorchEdgeClassifier::Config:</div>
@@ -135,114 +138,31 @@ Collaboration diagram for ActsPlugins::TorchEdgeClassifier::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adccb4128138cd1501f72b9f5a1fd1835" id="r_adccb4128138cd1501f72b9f5a1fd1835"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adccb4128138cd1501f72b9f5a1fd1835">cut</a> = 0.5</td></tr>
-<tr class="memitem:a67f7baa072b083b9a539e560dfbf7760" id="r_a67f7baa072b083b9a539e560dfbf7760"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f7baa072b083b9a539e560dfbf7760">deviceID</a> = 0</td></tr>
-<tr class="memitem:a89e72e8d6940944281de3dff5a1d7691" id="r_a89e72e8d6940944281de3dff5a1d7691"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e72e8d6940944281de3dff5a1d7691">modelPath</a></td></tr>
-<tr class="memitem:a84ec37190a62db43149c818a30cedd9c" id="r_a84ec37190a62db43149c818a30cedd9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84ec37190a62db43149c818a30cedd9c">nChunks</a> = 1</td></tr>
-<tr class="memitem:ab563c4912bb580f369ccd3c24972f480" id="r_ab563c4912bb580f369ccd3c24972f480"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab563c4912bb580f369ccd3c24972f480">selectedFeatures</a> = {}</td></tr>
-<tr class="memitem:ad2197b8653339d7acf35d5e062d293ad" id="r_ad2197b8653339d7acf35d5e062d293ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2197b8653339d7acf35d5e062d293ad">undirected</a> = false</td></tr>
-<tr class="memitem:a3df0886d247535a7ac9fb14f01861ba9" id="r_a3df0886d247535a7ac9fb14f01861ba9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df0886d247535a7ac9fb14f01861ba9">useEdgeFeatures</a> = false</td></tr>
+<tr class="memitem:adccb4128138cd1501f72b9f5a1fd1835" id="r_adccb4128138cd1501f72b9f5a1fd1835"><td class="memItemLeft" align="right" valign="top"><a id="adccb4128138cd1501f72b9f5a1fd1835" name="adccb4128138cd1501f72b9f5a1fd1835"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>cut</b> = 0.5</td></tr>
+<tr class="memdesc:adccb4128138cd1501f72b9f5a1fd1835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classification score threshold for edge filtering. <br /></td></tr>
+<tr class="memitem:a67f7baa072b083b9a539e560dfbf7760" id="r_a67f7baa072b083b9a539e560dfbf7760"><td class="memItemLeft" align="right" valign="top"><a id="a67f7baa072b083b9a539e560dfbf7760" name="a67f7baa072b083b9a539e560dfbf7760"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>deviceID</b> = 0</td></tr>
+<tr class="memdesc:a67f7baa072b083b9a539e560dfbf7760"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUDA device ID to use for inference. <br /></td></tr>
+<tr class="memitem:a89e72e8d6940944281de3dff5a1d7691" id="r_a89e72e8d6940944281de3dff5a1d7691"><td class="memItemLeft" align="right" valign="top"><a id="a89e72e8d6940944281de3dff5a1d7691" name="a89e72e8d6940944281de3dff5a1d7691"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>modelPath</b></td></tr>
+<tr class="memdesc:a89e72e8d6940944281de3dff5a1d7691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the PyTorch model file. <br /></td></tr>
+<tr class="memitem:a84ec37190a62db43149c818a30cedd9c" id="r_a84ec37190a62db43149c818a30cedd9c"><td class="memItemLeft" align="right" valign="top"><a id="a84ec37190a62db43149c818a30cedd9c" name="a84ec37190a62db43149c818a30cedd9c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>nChunks</b> = 1</td></tr>
+<tr class="memdesc:a84ec37190a62db43149c818a30cedd9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of chunks to process. <br /></td></tr>
+<tr class="memitem:ab563c4912bb580f369ccd3c24972f480" id="r_ab563c4912bb580f369ccd3c24972f480"><td class="memItemLeft" align="right" valign="top"><a id="ab563c4912bb580f369ccd3c24972f480" name="ab563c4912bb580f369ccd3c24972f480"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>selectedFeatures</b> = {}</td></tr>
+<tr class="memdesc:ab563c4912bb580f369ccd3c24972f480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected feature indices for input. <br /></td></tr>
+<tr class="memitem:ad2197b8653339d7acf35d5e062d293ad" id="r_ad2197b8653339d7acf35d5e062d293ad"><td class="memItemLeft" align="right" valign="top"><a id="ad2197b8653339d7acf35d5e062d293ad" name="ad2197b8653339d7acf35d5e062d293ad"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>undirected</b> = false</td></tr>
+<tr class="memdesc:ad2197b8653339d7acf35d5e062d293ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to treat graph as undirected. <br /></td></tr>
+<tr class="memitem:a3df0886d247535a7ac9fb14f01861ba9" id="r_a3df0886d247535a7ac9fb14f01861ba9"><td class="memItemLeft" align="right" valign="top"><a id="a3df0886d247535a7ac9fb14f01861ba9" name="a3df0886d247535a7ac9fb14f01861ba9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useEdgeFeatures</b> = false</td></tr>
+<tr class="memdesc:a3df0886d247535a7ac9fb14f01861ba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use edge features. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="adccb4128138cd1501f72b9f5a1fd1835" name="adccb4128138cd1501f72b9f5a1fd1835"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adccb4128138cd1501f72b9f5a1fd1835">&#9670;&#160;</a></span>cut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ActsPlugins::TorchEdgeClassifier::Config::cut = 0.5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a67f7baa072b083b9a539e560dfbf7760" name="a67f7baa072b083b9a539e560dfbf7760"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67f7baa072b083b9a539e560dfbf7760">&#9670;&#160;</a></span>deviceID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::TorchEdgeClassifier::Config::deviceID = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a89e72e8d6940944281de3dff5a1d7691" name="a89e72e8d6940944281de3dff5a1d7691"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89e72e8d6940944281de3dff5a1d7691">&#9670;&#160;</a></span>modelPath</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ActsPlugins::TorchEdgeClassifier::Config::modelPath</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a84ec37190a62db43149c818a30cedd9c" name="a84ec37190a62db43149c818a30cedd9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84ec37190a62db43149c818a30cedd9c">&#9670;&#160;</a></span>nChunks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ActsPlugins::TorchEdgeClassifier::Config::nChunks = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab563c4912bb580f369ccd3c24972f480" name="ab563c4912bb580f369ccd3c24972f480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab563c4912bb580f369ccd3c24972f480">&#9670;&#160;</a></span>selectedFeatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;int&gt; ActsPlugins::TorchEdgeClassifier::Config::selectedFeatures = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad2197b8653339d7acf35d5e062d293ad" name="ad2197b8653339d7acf35d5e062d293ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2197b8653339d7acf35d5e062d293ad">&#9670;&#160;</a></span>undirected</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ActsPlugins::TorchEdgeClassifier::Config::undirected = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3df0886d247535a7ac9fb14f01861ba9" name="a3df0886d247535a7ac9fb14f01861ba9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3df0886d247535a7ac9fb14f01861ba9">&#9670;&#160;</a></span>useEdgeFeatures</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ActsPlugins::TorchEdgeClassifier::Config::useEdgeFeatures = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration struct for Torch edge classifier. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

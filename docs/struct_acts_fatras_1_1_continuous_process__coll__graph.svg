@@ -35,7 +35,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="134,-124 72,-124 72,-105 134,-105 134,-124"/>
+<polygon fill="white" stroke="#bfbfbf" points="134,-124 72,-124 72,-105 134,-105 134,-124"/>
 <text text-anchor="middle" x="103" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">physics_t</text>
 </a>
 </g>

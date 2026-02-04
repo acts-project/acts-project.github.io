@@ -152,10 +152,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7391d17d3f399017e9367dd5bea8c412" id="r_a7391d17d3f399017e9367dd5bea8c412"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7391d17d3f399017e9367dd5bea8c412">FieldType</a> = typename <a class="el" href="class_acts_1_1_grid.html#ab991c0a988e9448afb12046fadd43013">Grid::value_type</a></td></tr>
-<tr class="memdesc:a7391d17d3f399017e9367dd5bea8c412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for magnetic field vector type.  <br /></td></tr>
-<tr class="memitem:a2fcae0b13c4f54a32f5c5e0eb359dc1a" id="r_a2fcae0b13c4f54a32f5c5e0eb359dc1a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fcae0b13c4f54a32f5c5e0eb359dc1a">Grid</a> = grid_t</td></tr>
-<tr class="memdesc:a2fcae0b13c4f54a32f5c5e0eb359dc1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for magnetic field grid.  <br /></td></tr>
+<tr class="memitem:a7391d17d3f399017e9367dd5bea8c412" id="r_a7391d17d3f399017e9367dd5bea8c412"><td class="memItemLeft" align="right" valign="top"><a id="a7391d17d3f399017e9367dd5bea8c412" name="a7391d17d3f399017e9367dd5bea8c412"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FieldType</b> = typename <a class="el" href="class_acts_1_1_grid.html#ab991c0a988e9448afb12046fadd43013">Grid::value_type</a></td></tr>
+<tr class="memdesc:a7391d17d3f399017e9367dd5bea8c412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for magnetic field vector type. <br /></td></tr>
+<tr class="memitem:a2fcae0b13c4f54a32f5c5e0eb359dc1a" id="r_a2fcae0b13c4f54a32f5c5e0eb359dc1a"><td class="memItemLeft" align="right" valign="top"><a id="a2fcae0b13c4f54a32f5c5e0eb359dc1a" name="a2fcae0b13c4f54a32f5c5e0eb359dc1a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Grid</b> = grid_t</td></tr>
+<tr class="memdesc:a2fcae0b13c4f54a32f5c5e0eb359dc1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for magnetic field grid. <br /></td></tr>
 <tr class="inherit_header pub_types_class_acts_1_1_magnetic_field_provider"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_acts_1_1_magnetic_field_provider')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a></td></tr>
 <tr class="memitem:a1f11a18dff2bb4106d1c1f76ff25e1d9 inherit pub_types_class_acts_1_1_magnetic_field_provider" id="r_a1f11a18dff2bb4106d1c1f76ff25e1d9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">Cache</a> = <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt;sizeof(char) * 512&gt;</td></tr>
 <tr class="memdesc:a1f11a18dff2bb4106d1c1f76ff25e1d9 inherit pub_types_class_acts_1_1_magnetic_field_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque cache type that can store arbitrary implementation specific cache data.  <br /></td></tr>
@@ -186,13 +188,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2040f18dfa17f426a2f9df531c89722b"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether given 3D position is inside look-up domain  <br /></td></tr>
 <tr class="memitem:a30e0d1e2ea26cc20078710917553fc4d" id="r_a30e0d1e2ea26cc20078710917553fc4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30e0d1e2ea26cc20078710917553fc4d">makeCache</a> (const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx) const final</td></tr>
 <tr class="memdesc:a30e0d1e2ea26cc20078710917553fc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an opaque cache for the magnetic field.     <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_magnetic_field_provider"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_magnetic_field_provider')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a></td></tr>
-<tr class="memitem:a541652dca242a66fc55fadd24e12e2a0 inherit pub_methods_class_acts_1_1_magnetic_field_provider" id="r_a541652dca242a66fc55fadd24e12e2a0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a541652dca242a66fc55fadd24e12e2a0">~MagneticFieldProvider</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a293e3a0400c18a307e9a5fe6e104d7ff" id="r_a293e3a0400c18a307e9a5fe6e104d7ff"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a293e3a0400c18a307e9a5fe6e104d7ff">DIM_POS</a> = <a class="el" href="class_acts_1_1_grid.html#a70f9ce730a3ae12db001f3041cf0abb0">Grid::DIM</a></td></tr>
-<tr class="memdesc:a293e3a0400c18a307e9a5fe6e104d7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensionality of the position space for field interpolation.  <br /></td></tr>
+<tr class="memitem:a293e3a0400c18a307e9a5fe6e104d7ff" id="r_a293e3a0400c18a307e9a5fe6e104d7ff"><td class="memItemLeft" align="right" valign="top"><a id="a293e3a0400c18a307e9a5fe6e104d7ff" name="a293e3a0400c18a307e9a5fe6e104d7ff"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>DIM_POS</b> = <a class="el" href="class_acts_1_1_grid.html#a70f9ce730a3ae12db001f3041cf0abb0">Grid::DIM</a></td></tr>
+<tr class="memdesc:a293e3a0400c18a307e9a5fe6e104d7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensionality of the position space for field interpolation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename grid_t&gt;<br />
@@ -215,44 +216,7 @@ class Acts::InterpolatedBFieldMap&lt; grid_t &gt;</div><p>Interpolates magnetic 
   </table>
   </dd>
 </dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a7391d17d3f399017e9367dd5bea8c412" name="a7391d17d3f399017e9367dd5bea8c412"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7391d17d3f399017e9367dd5bea8c412">&#9670;&#160;</a></span>FieldType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; grid_t &gt;::FieldType = typename <a class="el" href="class_acts_1_1_grid.html#ab991c0a988e9448afb12046fadd43013">Grid::value_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for magnetic field vector type. </p>
-
-</div>
-</div>
-<a id="a2fcae0b13c4f54a32f5c5e0eb359dc1a" name="a2fcae0b13c4f54a32f5c5e0eb359dc1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fcae0b13c4f54a32f5c5e0eb359dc1a">&#9670;&#160;</a></span>Grid</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; grid_t &gt;::Grid = grid_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for magnetic field grid. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac0ac336f219458f0879f86e71e40be69" name="ac0ac336f219458f0879f86e71e40be69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0ac336f219458f0879f86e71e40be69">&#9670;&#160;</a></span>InterpolatedBFieldMap()</h2>
 
@@ -650,33 +614,6 @@ template&lt;typename grid_t&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Cache The opaque cache object    </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_magnetic_field_provider.html#abb7f95f21fb87e6cb2cbe723d98711b6">Acts::MagneticFieldProvider</a>.</p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a293e3a0400c18a307e9a5fe6e104d7ff" name="a293e3a0400c18a307e9a5fe6e104d7ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a293e3a0400c18a307e9a5fe6e104d7ff">&#9670;&#160;</a></span>DIM_POS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename grid_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; grid_t &gt;::DIM_POS = <a class="el" href="class_acts_1_1_grid.html#a70f9ce730a3ae12db001f3041cf0abb0">Grid::DIM</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Dimensionality of the position space for field interpolation. </p>
 
 </div>
 </div>

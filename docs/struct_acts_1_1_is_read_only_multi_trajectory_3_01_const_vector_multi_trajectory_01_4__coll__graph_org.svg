@@ -22,7 +22,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="84,-102 0,-102 0,-83 84,-83 84,-102"/>
+<polygon fill="white" stroke="#bfbfbf" points="84,-102 0,-102 0,-83 84,-83 84,-102"/>
 <text text-anchor="middle" x="42" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">std::true_type</text>
 </a>
 </g>
@@ -40,7 +40,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="struct_acts_1_1_is_read_only_multi_trajectory.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="302,-102 102,-102 102,-83 302,-83 302,-102"/>
+<polygon fill="white" stroke="#bfbfbf" points="302,-102 102,-102 102,-83 302,-83 302,-102"/>
 <text text-anchor="middle" x="202" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyMultiTrajectory&lt; T &gt;</text>
 </a>
 </g>

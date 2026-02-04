@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_
 </div><!--header-->
 <div class="contents">
 
+<p>Parameters for chi2 boundary tolerance in Cartesian coordinates.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_boundary_tolerance_8hpp_source.html">Acts/Surfaces/BoundaryTolerance.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::BoundaryTolerance::Chi2CartesianParams:</div>
@@ -136,14 +139,22 @@ Collaboration diagram for Acts::BoundaryTolerance::Chi2CartesianParams:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6efeac7f1d5c324796812b51dd118aca" id="r_a6efeac7f1d5c324796812b51dd118aca"><td class="memItemLeft" align="right" valign="top">Eigen::Map&lt; <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6efeac7f1d5c324796812b51dd118aca">weightMatrix</a> ()</td></tr>
+<tr class="memdesc:a6efeac7f1d5c324796812b51dd118aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get weight matrix as Eigen matrix.  <br /></td></tr>
 <tr class="memitem:ac86262018841bc4130c1cb717d0ac647" id="r_ac86262018841bc4130c1cb717d0ac647"><td class="memItemLeft" align="right" valign="top">Eigen::Map&lt; const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86262018841bc4130c1cb717d0ac647">weightMatrix</a> () const</td></tr>
+<tr class="memdesc:ac86262018841bc4130c1cb717d0ac647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get weight matrix as const Eigen matrix.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae548b2ce597c37f039496ada9c0d43af" id="r_ae548b2ce597c37f039496ada9c0d43af"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae548b2ce597c37f039496ada9c0d43af">maxChi2</a> {}</td></tr>
-<tr class="memitem:ae3362820c8755974dd027d1a327a2565" id="r_ae3362820c8755974dd027d1a327a2565"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3362820c8755974dd027d1a327a2565">weight</a> {}</td></tr>
+<tr class="memitem:ae548b2ce597c37f039496ada9c0d43af" id="r_ae548b2ce597c37f039496ada9c0d43af"><td class="memItemLeft" align="right" valign="top"><a id="ae548b2ce597c37f039496ada9c0d43af" name="ae548b2ce597c37f039496ada9c0d43af"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>maxChi2</b> {}</td></tr>
+<tr class="memdesc:ae548b2ce597c37f039496ada9c0d43af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum chi2 value. <br /></td></tr>
+<tr class="memitem:ae3362820c8755974dd027d1a327a2565" id="r_ae3362820c8755974dd027d1a327a2565"><td class="memItemLeft" align="right" valign="top"><a id="ae3362820c8755974dd027d1a327a2565" name="ae3362820c8755974dd027d1a327a2565"></a>
+std::array&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>weight</b> {}</td></tr>
+<tr class="memdesc:ae3362820c8755974dd027d1a327a2565"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight matrix stored as flat array. <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters for chi2 boundary tolerance in Cartesian coordinates. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a6efeac7f1d5c324796812b51dd118aca" name="a6efeac7f1d5c324796812b51dd118aca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6efeac7f1d5c324796812b51dd118aca">&#9670;&#160;</a></span>weightMatrix() <span class="overload">[1/2]</span></h2>
 
@@ -158,6 +169,9 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get weight matrix as Eigen matrix. </p>
+<dl class="section return"><dt>Returns</dt><dd>Mapped weight matrix </dd></dl>
 
 </div>
 </div>
@@ -176,34 +190,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ae548b2ce597c37f039496ada9c0d43af" name="ae548b2ce597c37f039496ada9c0d43af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae548b2ce597c37f039496ada9c0d43af">&#9670;&#160;</a></span>maxChi2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::BoundaryTolerance::Chi2CartesianParams::maxChi2 {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae3362820c8755974dd027d1a327a2565" name="ae3362820c8755974dd027d1a327a2565"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3362820c8755974dd027d1a327a2565">&#9670;&#160;</a></span>weight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;double, 4&gt; Acts::BoundaryTolerance::Chi2CartesianParams::weight {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Get weight matrix as const Eigen matrix. </p>
+<dl class="section return"><dt>Returns</dt><dd>Mapped weight matrix </dd></dl>
 
 </div>
 </div>

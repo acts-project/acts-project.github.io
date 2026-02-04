@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_onnx_runtime_base.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_onnx_runtime_base.html" target="_top" xlink:title="General class that sets up the ONNX runtime framework for loading an ML model and using it for infere...">
 <polygon fill="white" stroke="#666666" points="170,-19 0,-19 0,0 170,0 170,-19"/>
 <text text-anchor="middle" x="85" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::OnnxRuntimeBase</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_m_l_track_classifier.html" target="_top" xlink:title=" ">
+<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_m_l_track_classifier.html" target="_top" xlink:title="Specialized class that labels tracks as good/duplicate/fake using a deep neural network.">
 <polygon fill="white" stroke="#666666" points="369,-19 206,-19 206,0 369,0 369,-19"/>
 <text text-anchor="middle" x="287.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::MLTrackClassifier</text>
 </a>

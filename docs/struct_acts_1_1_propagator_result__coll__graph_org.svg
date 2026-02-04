@@ -23,7 +23,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="105,-124 0,-124 0,-94 105,-94 105,-124"/>
+<polygon fill="white" stroke="#bfbfbf" points="105,-124 0,-124 0,-94 105,-94 105,-124"/>
 <text text-anchor="start" x="8" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">detail::Extendable</text>
 <text text-anchor="middle" x="52.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; result_list... &gt;</text>
 </a>

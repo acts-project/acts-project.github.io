@@ -5,8 +5,6 @@ var class_acts_1_1_binning_data =
     [ "BinningData", "class_acts_1_1_binning_data.html#ade89126f2f6fbdf65a757269428aa8d3", null ],
     [ "BinningData", "class_acts_1_1_binning_data.html#ad5e22abf0d0e6f2e180cd7c054db5705", null ],
     [ "BinningData", "class_acts_1_1_binning_data.html#a8d8fbf18a1eead6c21d8fe7206bfe3b8", null ],
-    [ "BinningData", "class_acts_1_1_binning_data.html#abca8753679c6973e09a8562dd8c9d9d0", null ],
-    [ "~BinningData", "class_acts_1_1_binning_data.html#aaf040150bd71f750179c2bdc0bb5985b", null ],
     [ "bins", "class_acts_1_1_binning_data.html#a464a59283e3b04b48c48c4520ca9ec77", null ],
     [ "boundaries", "class_acts_1_1_binning_data.html#a69a1459cc6f0d2628e649d6530ac9f48", null ],
     [ "center", "class_acts_1_1_binning_data.html#a5adc498833a8d79d1a7fc7dec84932f2", null ],

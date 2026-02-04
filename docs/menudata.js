@@ -161,13 +161,7 @@ var menudata={children:[
 {text:"l",url:"functions_enum.html#index_l"},
 {text:"s",url:"functions_enum.html#index_s"},
 {text:"t",url:"functions_enum.html#index_t"}]},
-{text:"Enumerator",url:"functions_eval.html",children:[
-{text:"c",url:"functions_eval.html#index_c"},
-{text:"d",url:"functions_eval.html#index_d"},
-{text:"e",url:"functions_eval.html#index_e"},
-{text:"o",url:"functions_eval.html#index_o"},
-{text:"p",url:"functions_eval.html#index_p"},
-{text:"s",url:"functions_eval.html#index_s"}]},
+{text:"Enumerator",url:"functions_eval.html"},
 {text:"Related Symbols",url:"functions_rela.html",children:[
 {text:"o",url:"functions_rela.html#index_o"}]}]}]},
 {text:"Bibliography",url:"citelist.html"},

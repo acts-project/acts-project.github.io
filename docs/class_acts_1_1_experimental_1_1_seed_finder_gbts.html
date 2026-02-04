@@ -126,23 +126,36 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_seed_finder_gbts.html'
 </div><!--header-->
 <div class="contents">
 
+<p>Seed finder implementing the GBTs seeding workflow.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_seed_finder_gbts_8hpp_source.html">Acts/Seeding/SeedFinderGbts.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:seedProperties" id="r_seedProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html">seedProperties</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed metadata produced by the GBTs algorithm.  <a href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ca2e403c59e3c78a8607026c87c97d6" id="r_a6ca2e403c59e3c78a8607026c87c97d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ca2e403c59e3c78a8607026c87c97d6">SeedFinderGbts</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> config, std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; gbtsGeo, const std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; *layerGeometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
+<tr class="memdesc:a6ca2e403c59e3c78a8607026c87c97d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a12b2de117fdd1fd91b6cf13c76f5948d" id="r_a12b2de117fdd1fd91b6cf13c76f5948d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12b2de117fdd1fd91b6cf13c76f5948d">buildTheGraph</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">GbtsDataStorage</a> &gt; &amp;storage, std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;edgeStorage) const</td></tr>
+<tr class="memdesc:a12b2de117fdd1fd91b6cf13c76f5948d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build doublet graph from nodes.  <br /></td></tr>
 <tr class="memitem:a4884cfc16d84d582ceb137901bebc446" id="r_a4884cfc16d84d582ceb137901bebc446"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4884cfc16d84d582ceb137901bebc446">createNodes</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a5e17d045983c8d4deba2ca194a7d5336">SPContainerComponentsType</a> &amp;container, int MaxLayers) const</td></tr>
+<tr class="memdesc:a4884cfc16d84d582ceb137901bebc446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create graph nodes from spacepoints.  <br /></td></tr>
 <tr class="memitem:af47ce34a4ac35bb8bf7585f8d0f01f61" id="r_af47ce34a4ac35bb8bf7585f8d0f01f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47ce34a4ac35bb8bf7585f8d0f01f61">createSeeds</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const <a class="el" href="namespace_acts_1_1_experimental.html#a5e17d045983c8d4deba2ca194a7d5336">SPContainerComponentsType</a> &amp;SpContainerComponents, int max_layers) const</td></tr>
+<tr class="memdesc:af47ce34a4ac35bb8bf7585f8d0f01f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from spacepoints in a region of interest.  <br /></td></tr>
 <tr class="memitem:afec30818e826caec7e0dec2413550163" id="r_afec30818e826caec7e0dec2413550163"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afec30818e826caec7e0dec2413550163">extractSeedsFromTheGraph</a> (int maxLevel, int nEdges, int nHits, std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;edgeStorage, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html">seedProperties</a> &gt; &amp;vSeedCandidates) const</td></tr>
+<tr class="memdesc:afec30818e826caec7e0dec2413550163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract seed candidates from the graph.  <br /></td></tr>
 <tr class="memitem:aa3d9ce9d1b62858041f83baec3f845e6" id="r_aa3d9ce9d1b62858041f83baec3f845e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84">GbtsMLLookupTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d9ce9d1b62858041f83baec3f845e6">parseGbtsMLLookupTable</a> (const std::string &amp;lutInputFile)</td></tr>
+<tr class="memdesc:aa3d9ce9d1b62858041f83baec3f845e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse machine learning lookup table from file.  <br /></td></tr>
 <tr class="memitem:a50453ae69b71556374a6b20ad8bb351a" id="r_a50453ae69b71556374a6b20ad8bb351a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50453ae69b71556374a6b20ad8bb351a">runCCA</a> (int nEdges, std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;edgeStorage) const</td></tr>
+<tr class="memdesc:a50453ae69b71556374a6b20ad8bb351a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run connected component analysis on the graph.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Seed finder implementing the GBTs seeding workflow. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6ca2e403c59e3c78a8607026c87c97d6" name="a6ca2e403c59e3c78a8607026c87c97d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ca2e403c59e3c78a8607026c87c97d6">&#9670;&#160;</a></span>SeedFinderGbts()</h2>
 
@@ -172,6 +185,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>Configuration for the seed finder </td></tr>
+    <tr><td class="paramname">gbtsGeo</td><td>GBTs geometry </td></tr>
+    <tr><td class="paramname">layerGeometry</td><td>Layer geometry information </td></tr>
+    <tr><td class="paramname">logger</td><td>Logging instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -199,6 +223,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Build doublet graph from nodes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">roi</td><td>Region of interest descriptor </td></tr>
+    <tr><td class="paramname">storage</td><td>Data storage containing nodes </td></tr>
+    <tr><td class="paramname">edgeStorage</td><td>Storage for generated edges </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pair of edge count and maximum level </dd></dl>
+
 </div>
 </div>
 <a id="a4884cfc16d84d582ceb137901bebc446" name="a4884cfc16d84d582ceb137901bebc446"></a>
@@ -219,6 +254,16 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Create graph nodes from spacepoints. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>Spacepoint container components </td></tr>
+    <tr><td class="paramname">MaxLayers</td><td>Maximum number of layers </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of node vectors organized by layer </dd></dl>
 
 </div>
 </div>
@@ -245,6 +290,17 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Create seeds from spacepoints in a region of interest. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">roi</td><td>Region of interest descriptor </td></tr>
+    <tr><td class="paramname">SpContainerComponents</td><td>Spacepoint container components </td></tr>
+    <tr><td class="paramname">max_layers</td><td>Maximum number of layers </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Container with generated seeds </dd></dl>
 
 </div>
 </div>
@@ -282,6 +338,18 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Extract seed candidates from the graph. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxLevel</td><td>Maximum level in the graph </td></tr>
+    <tr><td class="paramname">nEdges</td><td>Number of edges </td></tr>
+    <tr><td class="paramname">nHits</td><td>Number of hits </td></tr>
+    <tr><td class="paramname">edgeStorage</td><td>Storage containing edges </td></tr>
+    <tr><td class="paramname">vSeedCandidates</td><td>Output vector for seed candidates </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aa3d9ce9d1b62858041f83baec3f845e6" name="aa3d9ce9d1b62858041f83baec3f845e6"></a>
@@ -298,6 +366,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Parse machine learning lookup table from file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lutInputFile</td><td>Path to the lookup table input file </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Parsed machine learning lookup table </dd></dl>
 
 </div>
 </div>
@@ -319,6 +396,16 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Run connected component analysis on the graph. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nEdges</td><td>Number of edges in the graph </td></tr>
+    <tr><td class="paramname">edgeStorage</td><td>Storage containing graph edges </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of connected components found </dd></dl>
 
 </div>
 </div>

@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_tracking_filter.h
 </div><!--header-->
 <div class="contents">
 
+<p>Tracking filter operating on the GBTs edge graph.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_tracking_filter_8hpp_source.html">Acts/Seeding/GbtsTrackingFilter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsTrackingFilter:</div>
@@ -136,28 +139,49 @@ Collaboration diagram for Acts::Experimental::GbtsTrackingFilter:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ec3ad0730a7f292df4464561f11b23f" id="r_a2ec3ad0730a7f292df4464561f11b23f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec3ad0730a7f292df4464561f11b23f">GbtsTrackingFilter</a> (const std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;g, std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;sb, const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;config)</td></tr>
+<tr class="memdesc:a2ec3ad0730a7f292df4464561f11b23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a37b4daa748c6db30c658b99175dd9ee8" id="r_a37b4daa748c6db30c658b99175dd9ee8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37b4daa748c6db30c658b99175dd9ee8">followTrack</a> (<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;pS, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> &amp;output)</td></tr>
+<tr class="memdesc:a37b4daa748c6db30c658b99175dd9ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Follow track starting from edge.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa15d3c18cf948b89773c077d801d3423" id="r_aa15d3c18cf948b89773c077d801d3423"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa15d3c18cf948b89773c077d801d3423">MAX_EDGE_STATE</a> = 2500</td></tr>
+<tr class="memitem:aa15d3c18cf948b89773c077d801d3423" id="r_aa15d3c18cf948b89773c077d801d3423"><td class="memItemLeft" align="right" valign="top"><a id="aa15d3c18cf948b89773c077d801d3423" name="aa15d3c18cf948b89773c077d801d3423"></a>
+static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_EDGE_STATE</b> = 2500</td></tr>
+<tr class="memdesc:aa15d3c18cf948b89773c077d801d3423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of edge states. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8d914af9c1e11b4f6776a288d63fc39e" id="r_a8d914af9c1e11b4f6776a288d63fc39e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d914af9c1e11b4f6776a288d63fc39e">getLayerType</a> (int l)</td></tr>
+<tr class="memdesc:a8d914af9c1e11b4f6776a288d63fc39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer type from layer index.  <br /></td></tr>
 <tr class="memitem:a83181ef4a025e35d50af043efdf33990" id="r_a83181ef4a025e35d50af043efdf33990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83181ef4a025e35d50af043efdf33990">propagate</a> (<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;pS, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> &amp;ts)</td></tr>
+<tr class="memdesc:a83181ef4a025e35d50af043efdf33990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate edge state.  <br /></td></tr>
 <tr class="memitem:a93f3dfcf6fb32bc69b87369d2c2a0cd2" id="r_a93f3dfcf6fb32bc69b87369d2c2a0cd2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93f3dfcf6fb32bc69b87369d2c2a0cd2">update</a> (<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;pS, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> &amp;ts)</td></tr>
+<tr class="memdesc:a93f3dfcf6fb32bc69b87369d2c2a0cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update edge state with edge.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ad423c2b38a459b2310eb230b0632268f" id="r_ad423c2b38a459b2310eb230b0632268f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad423c2b38a459b2310eb230b0632268f">m_config</a></td></tr>
-<tr class="memitem:a60c932511af71d31ea05cd0d573ff69b" id="r_a60c932511af71d31ea05cd0d573ff69b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60c932511af71d31ea05cd0d573ff69b">m_geo</a></td></tr>
-<tr class="memitem:a945e0afa3dcc5627377b51a0750fe8d1" id="r_a945e0afa3dcc5627377b51a0750fe8d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a945e0afa3dcc5627377b51a0750fe8d1">m_globalStateCounter</a> {0}</td></tr>
-<tr class="memitem:aff4d284dc1d5398cb3e919be2db9ccb7" id="r_aff4d284dc1d5398cb3e919be2db9ccb7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff4d284dc1d5398cb3e919be2db9ccb7">m_segStore</a></td></tr>
-<tr class="memitem:a1de6550ae00eca94fd1ee0358cd0611b" id="r_a1de6550ae00eca94fd1ee0358cd0611b"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>, <a class="el" href="#aa15d3c18cf948b89773c077d801d3423">MAX_EDGE_STATE</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de6550ae00eca94fd1ee0358cd0611b">m_stateStore</a></td></tr>
-<tr class="memitem:af43e3de2090a33529c22eef53fc6543f" id="r_af43e3de2090a33529c22eef53fc6543f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af43e3de2090a33529c22eef53fc6543f">m_stateVec</a></td></tr>
+<tr class="memitem:ad423c2b38a459b2310eb230b0632268f" id="r_ad423c2b38a459b2310eb230b0632268f"><td class="memItemLeft" align="right" valign="top"><a id="ad423c2b38a459b2310eb230b0632268f" name="ad423c2b38a459b2310eb230b0632268f"></a>
+const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_config</b></td></tr>
+<tr class="memdesc:ad423c2b38a459b2310eb230b0632268f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for seed finder. <br /></td></tr>
+<tr class="memitem:a60c932511af71d31ea05cd0d573ff69b" id="r_a60c932511af71d31ea05cd0d573ff69b"><td class="memItemLeft" align="right" valign="top"><a id="a60c932511af71d31ea05cd0d573ff69b" name="a60c932511af71d31ea05cd0d573ff69b"></a>
+const std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_geo</b></td></tr>
+<tr class="memdesc:a60c932511af71d31ea05cd0d573ff69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry layer description. <br /></td></tr>
+<tr class="memitem:a945e0afa3dcc5627377b51a0750fe8d1" id="r_a945e0afa3dcc5627377b51a0750fe8d1"><td class="memItemLeft" align="right" valign="top"><a id="a945e0afa3dcc5627377b51a0750fe8d1" name="a945e0afa3dcc5627377b51a0750fe8d1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_globalStateCounter</b> {0}</td></tr>
+<tr class="memdesc:a945e0afa3dcc5627377b51a0750fe8d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global state counter. <br /></td></tr>
+<tr class="memitem:aff4d284dc1d5398cb3e919be2db9ccb7" id="r_aff4d284dc1d5398cb3e919be2db9ccb7"><td class="memItemLeft" align="right" valign="top"><a id="aff4d284dc1d5398cb3e919be2db9ccb7" name="aff4d284dc1d5398cb3e919be2db9ccb7"></a>
+std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_segStore</b></td></tr>
+<tr class="memdesc:aff4d284dc1d5398cb3e919be2db9ccb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edge storage. <br /></td></tr>
+<tr class="memitem:a1de6550ae00eca94fd1ee0358cd0611b" id="r_a1de6550ae00eca94fd1ee0358cd0611b"><td class="memItemLeft" align="right" valign="top"><a id="a1de6550ae00eca94fd1ee0358cd0611b" name="a1de6550ae00eca94fd1ee0358cd0611b"></a>
+std::array&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>, <a class="el" href="#aa15d3c18cf948b89773c077d801d3423">MAX_EDGE_STATE</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_stateStore</b></td></tr>
+<tr class="memdesc:a1de6550ae00eca94fd1ee0358cd0611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">State storage array. <br /></td></tr>
+<tr class="memitem:af43e3de2090a33529c22eef53fc6543f" id="r_af43e3de2090a33529c22eef53fc6543f"><td class="memItemLeft" align="right" valign="top"><a id="af43e3de2090a33529c22eef53fc6543f" name="af43e3de2090a33529c22eef53fc6543f"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_stateVec</b></td></tr>
+<tr class="memdesc:af43e3de2090a33529c22eef53fc6543f"><td class="mdescLeft">&#160;</td><td class="mdescRight">State vector. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Tracking filter operating on the GBTs edge graph. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2ec3ad0730a7f292df4464561f11b23f" name="a2ec3ad0730a7f292df4464561f11b23f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ec3ad0730a7f292df4464561f11b23f">&#9670;&#160;</a></span>GbtsTrackingFilter()</h2>
 
@@ -182,6 +206,16 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g</td><td>Geometry layer description </td></tr>
+    <tr><td class="paramname">sb</td><td>Edge storage </td></tr>
+    <tr><td class="paramname">config</td><td>Configuration for seed finder </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -203,6 +237,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Follow track starting from edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pS</td><td>Starting edge </td></tr>
+    <tr><td class="paramname">output</td><td>Output edge state </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -228,6 +271,15 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get layer type from layer index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">l</td><td>Layer index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Layer type </dd></dl>
 
 </div>
 </div>
@@ -258,6 +310,15 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Propagate edge state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pS</td><td>Edge to propagate from </td></tr>
+    <tr><td class="paramname">ts</td><td>Edge state to update </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a93f3dfcf6fb32bc69b87369d2c2a0cd2" name="a93f3dfcf6fb32bc69b87369d2c2a0cd2"></a>
@@ -287,160 +348,15 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad423c2b38a459b2310eb230b0632268f" name="ad423c2b38a459b2310eb230b0632268f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad423c2b38a459b2310eb230b0632268f">&#9670;&#160;</a></span>m_config</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html">SeedFinderGbtsConfig</a>&amp; Acts::Experimental::GbtsTrackingFilter::m_config</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a60c932511af71d31ea05cd0d573ff69b" name="a60c932511af71d31ea05cd0d573ff69b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c932511af71d31ea05cd0d573ff69b">&#9670;&#160;</a></span>m_geo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a>&gt;&amp; Acts::Experimental::GbtsTrackingFilter::m_geo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a945e0afa3dcc5627377b51a0750fe8d1" name="a945e0afa3dcc5627377b51a0750fe8d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a945e0afa3dcc5627377b51a0750fe8d1">&#9670;&#160;</a></span>m_globalStateCounter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::Experimental::GbtsTrackingFilter::m_globalStateCounter {0}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff4d284dc1d5398cb3e919be2db9ccb7" name="aff4d284dc1d5398cb3e919be2db9ccb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff4d284dc1d5398cb3e919be2db9ccb7">&#9670;&#160;</a></span>m_segStore</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a>&gt;&amp; Acts::Experimental::GbtsTrackingFilter::m_segStore</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1de6550ae00eca94fd1ee0358cd0611b" name="a1de6550ae00eca94fd1ee0358cd0611b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1de6550ae00eca94fd1ee0358cd0611b">&#9670;&#160;</a></span>m_stateStore</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>, <a class="el" href="#aa15d3c18cf948b89773c077d801d3423">MAX_EDGE_STATE</a>&gt; Acts::Experimental::GbtsTrackingFilter::m_stateStore</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af43e3de2090a33529c22eef53fc6543f" name="af43e3de2090a33529c22eef53fc6543f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af43e3de2090a33529c22eef53fc6543f">&#9670;&#160;</a></span>m_stateVec</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>*&gt; Acts::Experimental::GbtsTrackingFilter::m_stateVec</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa15d3c18cf948b89773c077d801d3423" name="aa15d3c18cf948b89773c077d801d3423"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa15d3c18cf948b89773c077d801d3423">&#9670;&#160;</a></span>MAX_EDGE_STATE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::Experimental::GbtsTrackingFilter::MAX_EDGE_STATE = 2500</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Update edge state with edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pS</td><td>Edge to update with </td></tr>
+    <tr><td class="paramname">ts</td><td>Edge state to update </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Success flag </dd></dl>
 
 </div>
 </div>

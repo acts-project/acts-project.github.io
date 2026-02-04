@@ -15,6 +15,5 @@ var class_acts_plugins_1_1_const_podio_track_state_container =
     [ "jacobian_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a83b8d426567632f42c03e7693619590e", null ],
     [ "parameters_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a67932d0a32ae4dd976ce486605f6b1ff", null ],
     [ "referenceSurface_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a470c057f4d7205cb9b24da26339e3155", null ],
-    [ "size_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a9be0f652e2d7e1cf444286e819211cf8", null ],
-    [ "PodioTrackStateContainerBase", "class_acts_plugins_1_1_const_podio_track_state_container.html#a89bcdf579e444753685603993a86be4a", null ]
+    [ "size_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a9be0f652e2d7e1cf444286e819211cf8", null ]
 ];

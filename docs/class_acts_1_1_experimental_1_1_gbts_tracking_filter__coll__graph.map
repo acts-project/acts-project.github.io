@@ -1,5 +1,5 @@
 <map id="Acts::Experimental::GbtsTrackingFilter" name="Acts::Experimental::GbtsTrackingFilter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="941,168,1088,208"/>
+<area shape="rect" id="Node000001" title="Tracking filter operating on the GBTs edge graph." alt="" coords="941,168,1088,208"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="544,29,783,69"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="792,70,856,89,919,114,960,139,993,166,990,170,957,143,916,118,854,94,791,75"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="193,102,323,127"/>
@@ -14,7 +14,7 @@
 <area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="805,236,917,213,947,205,949,211,918,219,806,241"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="197,269,319,294"/>
 <area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="333,280,505,277,529,276,529,281,505,283,333,286"/>
-<area shape="rect" id="Node000008" href="$struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" title=" " alt="" coords="577,324,750,364"/>
+<area shape="rect" id="Node000008" href="$struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" title="Configuration options for the GBTs seed finder." alt="" coords="577,324,750,364"/>
 <area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="763,319,839,295,916,262,957,235,991,206,994,210,960,239,919,266,841,300,764,324"/>
 <area shape="rect" id="Node000009" title=" " alt="" coords="215,342,301,367"/>
 <area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="315,353,505,351,577,347,577,353,505,356,315,358"/>

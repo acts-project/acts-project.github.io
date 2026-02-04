@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion
 </div><!--header-->
 <div class="contents">
 
+<p>Conversion limits for <span class="tt">float</span> eta/theta calculations.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_angle_helpers_8hpp_source.html">Acts/Utilities/AngleHelpers.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::AngleHelpers::EtaThetaConversionTraits&lt; float &gt;:</div>
@@ -140,101 +143,23 @@ Collaboration diagram for Acts::AngleHelpers::EtaThetaConversionTraits&lt; float
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:acc0a59fe9a10912ab81c4237d33fd22b" id="r_acc0a59fe9a10912ab81c4237d33fd22b"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc0a59fe9a10912ab81c4237d33fd22b">maxEta</a> = 80.0f</td></tr>
-<tr class="memitem:a408800bbe915db1bd2d7b33433ffa48a" id="r_a408800bbe915db1bd2d7b33433ffa48a"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a408800bbe915db1bd2d7b33433ffa48a">maxTheta</a> = std::numbers::pi_v&lt;float&gt; - <a class="el" href="#a4ac43aa7a5da9285f2e81ab2db653c4c">minTheta</a></td></tr>
-<tr class="memitem:a24b7bb8a5c95a83020733541e0ccc1a0" id="r_a24b7bb8a5c95a83020733541e0ccc1a0"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24b7bb8a5c95a83020733541e0ccc1a0">minEta</a> = -<a class="el" href="#acc0a59fe9a10912ab81c4237d33fd22b">maxEta</a></td></tr>
-<tr class="memitem:a4ac43aa7a5da9285f2e81ab2db653c4c" id="r_a4ac43aa7a5da9285f2e81ab2db653c4c"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ac43aa7a5da9285f2e81ab2db653c4c">minTheta</a> = 1e-6f</td></tr>
+<tr class="memitem:acc0a59fe9a10912ab81c4237d33fd22b" id="r_acc0a59fe9a10912ab81c4237d33fd22b"><td class="memItemLeft" align="right" valign="top"><a id="acc0a59fe9a10912ab81c4237d33fd22b" name="acc0a59fe9a10912ab81c4237d33fd22b"></a>
+static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><b>maxEta</b> = 80.0f</td></tr>
+<tr class="memdesc:acc0a59fe9a10912ab81c4237d33fd22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum eta value for float precision. <br /></td></tr>
+<tr class="memitem:a408800bbe915db1bd2d7b33433ffa48a" id="r_a408800bbe915db1bd2d7b33433ffa48a"><td class="memItemLeft" align="right" valign="top"><a id="a408800bbe915db1bd2d7b33433ffa48a" name="a408800bbe915db1bd2d7b33433ffa48a"></a>
+static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><b>maxTheta</b> = std::numbers::pi_v&lt;float&gt; - <a class="el" href="#a4ac43aa7a5da9285f2e81ab2db653c4c">minTheta</a></td></tr>
+<tr class="memdesc:a408800bbe915db1bd2d7b33433ffa48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum theta value for float precision. <br /></td></tr>
+<tr class="memitem:a24b7bb8a5c95a83020733541e0ccc1a0" id="r_a24b7bb8a5c95a83020733541e0ccc1a0"><td class="memItemLeft" align="right" valign="top"><a id="a24b7bb8a5c95a83020733541e0ccc1a0" name="a24b7bb8a5c95a83020733541e0ccc1a0"></a>
+static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><b>minEta</b> = -<a class="el" href="#acc0a59fe9a10912ab81c4237d33fd22b">maxEta</a></td></tr>
+<tr class="memdesc:a24b7bb8a5c95a83020733541e0ccc1a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum eta value for float precision. <br /></td></tr>
+<tr class="memitem:a4ac43aa7a5da9285f2e81ab2db653c4c" id="r_a4ac43aa7a5da9285f2e81ab2db653c4c"><td class="memItemLeft" align="right" valign="top"><a id="a4ac43aa7a5da9285f2e81ab2db653c4c" name="a4ac43aa7a5da9285f2e81ab2db653c4c"></a>
+static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><b>minTheta</b> = 1e-6f</td></tr>
+<tr class="memdesc:a4ac43aa7a5da9285f2e81ab2db653c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum theta value for float precision. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="acc0a59fe9a10912ab81c4237d33fd22b" name="acc0a59fe9a10912ab81c4237d33fd22b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc0a59fe9a10912ab81c4237d33fd22b">&#9670;&#160;</a></span>maxEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float <a class="el" href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html">Acts::AngleHelpers::EtaThetaConversionTraits</a>&lt; float &gt;::maxEta = 80.0f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a408800bbe915db1bd2d7b33433ffa48a" name="a408800bbe915db1bd2d7b33433ffa48a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a408800bbe915db1bd2d7b33433ffa48a">&#9670;&#160;</a></span>maxTheta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float <a class="el" href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html">Acts::AngleHelpers::EtaThetaConversionTraits</a>&lt; float &gt;::maxTheta = std::numbers::pi_v&lt;float&gt; - <a class="el" href="#a4ac43aa7a5da9285f2e81ab2db653c4c">minTheta</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a24b7bb8a5c95a83020733541e0ccc1a0" name="a24b7bb8a5c95a83020733541e0ccc1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24b7bb8a5c95a83020733541e0ccc1a0">&#9670;&#160;</a></span>minEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float <a class="el" href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html">Acts::AngleHelpers::EtaThetaConversionTraits</a>&lt; float &gt;::minEta = -<a class="el" href="#acc0a59fe9a10912ab81c4237d33fd22b">maxEta</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ac43aa7a5da9285f2e81ab2db653c4c" name="a4ac43aa7a5da9285f2e81ab2db653c4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ac43aa7a5da9285f2e81ab2db653c4c">&#9670;&#160;</a></span>minTheta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float <a class="el" href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html">Acts::AngleHelpers::EtaThetaConversionTraits</a>&lt; float &gt;::minTheta = 1e-6f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Conversion limits for <span class="tt">float</span> eta/theta calculations. </p>
+<p>Defines safe min/max theta and eta values for <span class="tt">float</span> precision. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
@@ -247,7 +172,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_angle_helpers.html">AngleHelpers</a></li><li class="navelem"><a href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html">EtaThetaConversionTraits&lt; float &gt;</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>AngleHelpers</b></li><li class="navelem"><a href="struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html">EtaThetaConversionTraits&lt; float &gt;</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

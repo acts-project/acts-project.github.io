@@ -32,7 +32,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="113.5,-74 36.5,-74 36.5,-55 113.5,-55 113.5,-74"/>
+<polygon fill="white" stroke="#bfbfbf" points="113.5,-74 36.5,-74 36.5,-55 113.5,-55 113.5,-74"/>
 <text text-anchor="middle" x="75" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ContextType</text>
 </a>
 </g>

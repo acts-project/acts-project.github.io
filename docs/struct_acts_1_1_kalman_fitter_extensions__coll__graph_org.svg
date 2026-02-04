@@ -22,7 +22,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="605,-296.21 432,-296.21 432,-266.21 605,-266.21 605,-296.21"/>
+<polygon fill="white" stroke="#bfbfbf" points="605,-296.21 432,-296.21 432,-266.21 605,-266.21 605,-296.21"/>
 <text text-anchor="start" x="440" y="-284.21" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; const</text>
 <text text-anchor="middle" x="518.5" y="-273.21" font-family="Helvetica,sans-Serif" font-size="10.00"> Surface *(const SourceLink &amp;)&gt;</text>
 </a>
@@ -42,7 +42,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-162.21 0,-162.21 0,-132.21 152,-132.21 152,-162.21"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-162.21 0,-162.21 0,-132.21 152,-132.21 152,-162.21"/>
 <text text-anchor="start" x="8" y="-150.21" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-139.21" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>
@@ -63,7 +63,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="630,-243.21 407,-243.21 407,-191.21 630,-191.21 630,-243.21"/>
+<polygon fill="white" stroke="#bfbfbf" points="630,-243.21 407,-243.21 407,-191.21 630,-191.21 630,-243.21"/>
 <text text-anchor="start" x="415" y="-231.21" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; void</text>
 <text text-anchor="start" x="415" y="-220.21" font-family="Helvetica,sans-Serif" font-size="10.00">(const GeometryContext</text>
 <text text-anchor="start" x="415" y="-209.21" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const CalibrationContext</text>
@@ -87,7 +87,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="608.5,-173.21 428.5,-173.21 428.5,-121.21 608.5,-121.21 608.5,-173.21"/>
+<polygon fill="white" stroke="#bfbfbf" points="608.5,-173.21 428.5,-173.21 428.5,-121.21 608.5,-121.21 608.5,-173.21"/>
 <text text-anchor="start" x="436.5" y="-161.21" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="436.5" y="-150.21" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="436.5" y="-139.21" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, TrackStateProxy, const</text>
@@ -111,7 +111,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="588,-103.21 449,-103.21 449,-73.21 588,-73.21 588,-103.21"/>
+<polygon fill="white" stroke="#bfbfbf" points="588,-103.21 449,-103.21 449,-73.21 588,-73.21 588,-103.21"/>
 <text text-anchor="start" x="457" y="-91.21" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
 <text text-anchor="middle" x="518.5" y="-80.21" font-family="Helvetica,sans-Serif" font-size="10.00">(ConstTrackStateProxy)&gt;</text>
 </a>
@@ -131,7 +131,7 @@
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="608.5,-52.21 428.5,-52.21 428.5,-0.21 608.5,-0.21 608.5,-52.21"/>
+<polygon fill="white" stroke="#bfbfbf" points="608.5,-52.21 428.5,-52.21 428.5,-0.21 608.5,-0.21 608.5,-52.21"/>
 <text text-anchor="start" x="436.5" y="-40.21" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; Result</text>
 <text text-anchor="start" x="436.5" y="-29.21" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void &gt;(const GeometryContext</text>
 <text text-anchor="start" x="436.5" y="-18.21" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, traj_t &amp;, std::size_t,</text>

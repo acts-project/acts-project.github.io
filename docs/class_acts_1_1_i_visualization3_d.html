@@ -143,12 +143,12 @@ Collaboration diagram for Acts::IVisualization3D:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:af3e74f1a8465d44ee951760e2d6067b8" id="r_af3e74f1a8465d44ee951760e2d6067b8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e74f1a8465d44ee951760e2d6067b8">FaceType</a> = std::vector&lt;std::size_t&gt;</td></tr>
-<tr class="memdesc:af3e74f1a8465d44ee951760e2d6067b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for face definition as vertex indices.  <br /></td></tr>
+<tr class="memitem:af3e74f1a8465d44ee951760e2d6067b8" id="r_af3e74f1a8465d44ee951760e2d6067b8"><td class="memItemLeft" align="right" valign="top"><a id="af3e74f1a8465d44ee951760e2d6067b8" name="af3e74f1a8465d44ee951760e2d6067b8"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FaceType</b> = std::vector&lt;std::size_t&gt;</td></tr>
+<tr class="memdesc:af3e74f1a8465d44ee951760e2d6067b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for face definition as vertex indices. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0057147eecd4b9098e23ac052cce1adb" id="r_a0057147eecd4b9098e23ac052cce1adb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0057147eecd4b9098e23ac052cce1adb">~IVisualization3D</a> ()=default</td></tr>
 <tr class="memitem:a5e1197bd19f514313f2642621e43de0e" id="r_a5e1197bd19f514313f2642621e43de0e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e1197bd19f514313f2642621e43de0e">clear</a> ()=0</td></tr>
 <tr class="memdesc:a5e1197bd19f514313f2642621e43de0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all contents of this helper.  <br /></td></tr>
 <tr class="memitem:a9d91d69bfb2bceb5e8762b05bd505595" id="r_a9d91d69bfb2bceb5e8762b05bd505595"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d91d69bfb2bceb5e8762b05bd505595">face</a> (const std::vector&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt; &amp;vtxs, <a class="el" href="struct_acts_1_1_color.html">Color</a> color=<a class="el" href="#a89eb28fbee0b949cacfaeac2bbdd7cf6">s_defaultColor</a>)=0</td></tr>
@@ -168,56 +168,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a89eb28fbee0b949cacfaeac2bbdd7cf6" id="r_a89eb28fbee0b949cacfaeac2bbdd7cf6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="struct_acts_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89eb28fbee0b949cacfaeac2bbdd7cf6">s_defaultColor</a> = {120, 120, 120}</td></tr>
-<tr class="memdesc:a89eb28fbee0b949cacfaeac2bbdd7cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default color used for visualization when no color is specified.  <br /></td></tr>
+<tr class="memitem:a89eb28fbee0b949cacfaeac2bbdd7cf6" id="r_a89eb28fbee0b949cacfaeac2bbdd7cf6"><td class="memItemLeft" align="right" valign="top"><a id="a89eb28fbee0b949cacfaeac2bbdd7cf6" name="a89eb28fbee0b949cacfaeac2bbdd7cf6"></a>
+static constexpr <a class="el" href="struct_acts_1_1_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><b>s_defaultColor</b> = {120, 120, 120}</td></tr>
+<tr class="memdesc:a89eb28fbee0b949cacfaeac2bbdd7cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default color used for visualization when no color is specified. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Partially abstract base class which provides an interface to visualization helper classes. </p>
 <p>It provides a number of methods that all the helpers need to conform to. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="af3e74f1a8465d44ee951760e2d6067b8" name="af3e74f1a8465d44ee951760e2d6067b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3e74f1a8465d44ee951760e2d6067b8">&#9670;&#160;</a></span>FaceType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#af3e74f1a8465d44ee951760e2d6067b8">Acts::IVisualization3D::FaceType</a> = std::vector&lt;std::size_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for face definition as vertex indices. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0057147eecd4b9098e23ac052cce1adb" name="a0057147eecd4b9098e23ac052cce1adb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0057147eecd4b9098e23ac052cce1adb">&#9670;&#160;</a></span>~IVisualization3D()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::IVisualization3D::~IVisualization3D </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5e1197bd19f514313f2642621e43de0e" name="a5e1197bd19f514313f2642621e43de0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e1197bd19f514313f2642621e43de0e">&#9670;&#160;</a></span>clear()</h2>
 
@@ -523,31 +481,6 @@ Static Public Attributes</h2></td></tr>
 </dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_obj_visualization3_d.html#a7ee13eb70b6e39994dd9034bbe7be6f9">Acts::ObjVisualization3D</a>, and <a class="el" href="class_acts_1_1_ply_visualization3_d.html#ae2e9572b54a07b81797532fa8d7e80f5">Acts::PlyVisualization3D&lt; T &gt;</a>.</p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a89eb28fbee0b949cacfaeac2bbdd7cf6" name="a89eb28fbee0b949cacfaeac2bbdd7cf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89eb28fbee0b949cacfaeac2bbdd7cf6">&#9670;&#160;</a></span>s_defaultColor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_color.html">Color</a> Acts::IVisualization3D::s_defaultColor = {120, 120, 120}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default color used for visualization when no color is specified. </p>
 
 </div>
 </div>

@@ -1,14 +1,14 @@
 var concepts =
 [
     [ "Acts", "namespace_acts.html", [
-      [ "Ccl", "namespace_acts_1_1_ccl.html", [
+      [ "Ccl", null, [
         [ "CanAcceptCell", "concept_acts_1_1_ccl_1_1_can_accept_cell.html", null ],
         [ "CanReserve", "concept_acts_1_1_ccl_1_1_can_reserve.html", null ],
         [ "HasRetrievableColumnInfo", "concept_acts_1_1_ccl_1_1_has_retrievable_column_info.html", null ],
         [ "HasRetrievableRowInfo", "concept_acts_1_1_ccl_1_1_has_retrievable_row_info.html", null ],
         [ "HasRetrievableTimeInfo", "concept_acts_1_1_ccl_1_1_has_retrievable_time_info.html", null ]
       ] ],
-      [ "Concepts", "namespace_acts_1_1_concepts.html", [
+      [ "Concepts", null, [
         [ "arithmetic", "concept_acts_1_1_concepts_1_1arithmetic.html", null ],
         [ "BasicTrackParameters", "concept_acts_1_1_concepts_1_1_basic_track_parameters.html", null ],
         [ "BoundConvertibleTrackParameters", "concept_acts_1_1_concepts_1_1_bound_convertible_track_parameters.html", null ],

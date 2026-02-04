@@ -20,11 +20,6 @@ var group__fastjet__plugin =
       [ "setConstituentIndices", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html#af751f3a2e36760a5d59e5e2f47f19fc9", null ],
       [ "setConstituents", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html#a373ee40c00dc0bdcde5e9dfc801ae44e", null ]
     ] ],
-    [ "ActsPlugins::FastJet::JetLabel", "group__fastjet__plugin.html#gacf1110d8ef811615311ad0091214c4fb", [
-      [ "ActsPlugins::FastJet::JetLabel::Unknown", "group__fastjet__plugin.html#ggacf1110d8ef811615311ad0091214c4fba88183b946cc5f0e8c96b2e66e1c74a7e", null ],
-      [ "ActsPlugins::FastJet::JetLabel::BJet", "group__fastjet__plugin.html#ggacf1110d8ef811615311ad0091214c4fba4c115462e822ce242c2b6d24a4c74f37", null ],
-      [ "ActsPlugins::FastJet::JetLabel::CJet", "group__fastjet__plugin.html#ggacf1110d8ef811615311ad0091214c4fbab623ef8ee4e01cc35373e2cbc0f54382", null ],
-      [ "ActsPlugins::FastJet::JetLabel::LightJet", "group__fastjet__plugin.html#ggacf1110d8ef811615311ad0091214c4fbacc4140ac4e20194bfcb1ea4618642d7d", null ]
-    ] ],
+    [ "ActsPlugins::FastJet::JetLabel", "group__fastjet__plugin.html#gacf1110d8ef811615311ad0091214c4fb", null ],
     [ "ActsPlugins::FastJet::operator<<", "group__fastjet__plugin.html#ga3900cd810dfe793796f95c29c34f5fa5", null ]
 ];

@@ -138,8 +138,9 @@ Inheritance diagram for Acts::SurfacePlacementBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a12a0de6b838aa06d6974fc31049ee298" id="r_a12a0de6b838aa06d6974fc31049ee298"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a0de6b838aa06d6974fc31049ee298">~SurfacePlacementBase</a> ()=default</td></tr>
-<tr class="memdesc:a12a0de6b838aa06d6974fc31049ee298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual default constructor.  <br /></td></tr>
+<tr class="memitem:a12a0de6b838aa06d6974fc31049ee298" id="r_a12a0de6b838aa06d6974fc31049ee298"><td class="memItemLeft" align="right" valign="top"><a id="a12a0de6b838aa06d6974fc31049ee298" name="a12a0de6b838aa06d6974fc31049ee298"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~SurfacePlacementBase</b> ()=default</td></tr>
+<tr class="memdesc:a12a0de6b838aa06d6974fc31049ee298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual default constructor. <br /></td></tr>
 <tr class="memitem:a51c5657682feff7e9b6b5fe374052976" id="r_a51c5657682feff7e9b6b5fe374052976"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51c5657682feff7e9b6b5fe374052976">isSensitive</a> () const =0</td></tr>
 <tr class="memdesc:a51c5657682feff7e9b6b5fe374052976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the placement corresponds to a surface on which the measurements from the experiment are represented, i.e.  <br /></td></tr>
 <tr class="memitem:ac360078545efe0e1cbb2a7d83d42e96d" id="r_ac360078545efe0e1cbb2a7d83d42e96d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac360078545efe0e1cbb2a7d83d42e96d">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const =0</td></tr>
@@ -154,35 +155,7 @@ Public Member Functions</h2></td></tr>
 <p>the experiment's sensor planes.</p>
 <p>If the user wants to let the sensor surface float, he has to implement an experiment-specifc class inheriting from SurfacePlacementBase and to instantiate the surface with such an instance.</p>
 <p>In every call for the Surface's current position the GeometryContext which is also contextualized by the experiment is piped through the entire call stack until its piped back to the experiment specific implementation via the call of the <span class="tt">SurfacePlacementBase::localToGlobalTransform</span>. There the user needs to unpack the GeometryContext, look-up the appropriate cached transform and return it back to the Acts library </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a12a0de6b838aa06d6974fc31049ee298" name="a12a0de6b838aa06d6974fc31049ee298"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12a0de6b838aa06d6974fc31049ee298">&#9670;&#160;</a></span>~SurfacePlacementBase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::SurfacePlacementBase::~SurfacePlacementBase </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual default constructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a51c5657682feff7e9b6b5fe374052976" name="a51c5657682feff7e9b6b5fe374052976"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51c5657682feff7e9b6b5fe374052976">&#9670;&#160;</a></span>isSensitive()</h2>
 
@@ -207,7 +180,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns whether the placement corresponds to a surface on which the measurements from the experiment are represented, i.e. </p>
-<p>it is </p>
+<p>it is </p><dl class="section return"><dt>Returns</dt><dd>True if this is a sensitive surface </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_detector_element_base.html#ae6b433ca8b19c1c607aa3edac9d39ebd">Acts::DetectorElementBase</a>, <a class="el" href="class_acts_1_1_json_detector_element.html#af98f793a3e334ad06d6339def6114cbd">Acts::JsonDetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geant4_detector_element.html#a215ba6b943e8e928e2ba5eb2d8dc5a77">ActsPlugins::Geant4DetectorElement</a>, <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element.html#aa8e9988fe99098bbdded9b18642475db">ActsPlugins::GeoModelDetectorElement</a>, and <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html#a8132f27f988897a784a20db25247ed11">ActsPlugins::TGeoDetectorElement</a>.</p>
 

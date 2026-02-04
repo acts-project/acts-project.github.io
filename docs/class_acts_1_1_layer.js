@@ -19,7 +19,6 @@ var class_acts_1_1_layer =
     [ "surfaceRepresentation", "class_acts_1_1_layer.html#a7bd1fc95371dfc4c8af299f9ca41ee8f", null ],
     [ "surfaceRepresentation", "class_acts_1_1_layer.html#a9a71c26605aa4cedfb640890daddef4a", null ],
     [ "trackingVolume", "class_acts_1_1_layer.html#a7d3cda11d5576fddea106a174422962a", null ],
-    [ "Gen1GeometryClosureVisitor", "class_acts_1_1_layer.html#a286d758d3630fb01086a7c0883788a4b", null ],
     [ "TrackingVolume", "class_acts_1_1_layer.html#a9d58056df3cd98c3090db36dda3c730c", null ],
     [ "m_approachDescriptor", "class_acts_1_1_layer.html#a096e1dc700289cbda7f2e084865b6d6e", null ],
     [ "m_layerThickness", "class_acts_1_1_layer.html#af4bf7b8deba88844943a78bd037a94a0", null ],

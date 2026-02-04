@@ -1,6 +1,5 @@
 var group__detray__plugin =
 [
-    [ "ActsPlugins::DetrayConversionUtils", "namespace_acts_plugins_1_1_detray_conversion_utils.html", null ],
     [ "ActsPlugins::DetrayConversionUtils::Cache", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html", [
       [ "localSurfaceLinks", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#a63102a13a0190dd4a35d8e0235d7863f", null ],
       [ "volumeLinks", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#ab0c18b47cc5b72a83523c06ccd875dbe", null ]
@@ -11,7 +10,6 @@ var group__detray__plugin =
           [ "Identifier", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1a29ee5d1ebcc033234938a5234f1f2075", null ],
           [ "DetectorElement", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1a17247e8342b8e88031255c2c226f5172", null ]
         ] ],
-        [ "Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a7900c995640a82e2d40f718d3fa1ca6b", null ],
         [ "Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a5c282a909f394861043af415a6eff692", null ],
         [ "Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ac7c29289527625f7205aaed565e73e55", null ],
         [ "operator=", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a7deec81bea4311b997e64f208a04d0a2", null ],

@@ -1,5 +1,5 @@
 <map id="Acts::ImpactPointEstimator::Config" name="Acts::ImpactPointEstimator::Config">
-<area shape="rect" id="Node000001" title=" " alt="" coords="779,48,977,88"/>
+<area shape="rect" id="Node000001" title="Configuration settings for the impact point estimator." alt="" coords="779,48,977,88"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="428,17,651,57"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="665,46,779,56,778,62,664,51"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,57,163,82"/>

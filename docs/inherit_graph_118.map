@@ -10,9 +10,9 @@
 <area shape="poly" id="edge46_Node000000_Node000006" title=" " alt="" coords="165,174,199,183,245,195,243,200,198,188,164,179"/>
 <area shape="rect" id="Node000007" href="$class_acts_1_1_experimental_1_1_static_blueprint_node.html" title="The static blueprint node wraps a single already&#45;constructred TrackingVolume." alt="" coords="243,261,403,301"/>
 <area shape="poly" id="edge47_Node000000_Node000007" title=" " alt="" coords="110,181,151,216,200,247,243,263,241,268,197,252,148,220,107,185"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html" title=" " alt="" coords="499,37,730,77"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html" title="Container blueprint node stacking cuboid volumes." alt="" coords="499,37,730,77"/>
 <area shape="poly" id="edge43_Node000002_Node000003" title=" " alt="" coords="430,75,499,67,499,73,430,80"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html" title=" " alt="" coords="495,101,735,141"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html" title="Container blueprint node stacking cylindrical volumes." alt="" coords="495,101,735,141"/>
 <area shape="poly" id="edge44_Node000002_Node000004" title=" " alt="" coords="430,98,495,106,494,111,430,104"/>
 <area shape="rect" id="Node000008" href="$class_acts_1_1_experimental_1_1_layer_blueprint_node.html" title="The layer node is essentially an auto&#45;sizing wrapper around a set of surfaces." alt="" coords="535,261,694,301"/>
 <area shape="poly" id="edge48_Node000007_Node000008" title=" " alt="" coords="416,279,535,279,535,284,416,284"/>

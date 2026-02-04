@@ -144,10 +144,12 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a44b40755b7e733aa4f29936ec606c92d" id="r_a44b40755b7e733aa4f29936ec606c92d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a> ()=default</td></tr>
-<tr class="memdesc:a44b40755b7e733aa4f29936ec606c92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty default constructor.  <br /></td></tr>
-<tr class="memitem:ab731891a3db345749995225d97470910" id="r_ab731891a3db345749995225d97470910"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab731891a3db345749995225d97470910">BoundFactory</a> (const BoundFactory &amp;other)=delete</td></tr>
-<tr class="memdesc:ab731891a3db345749995225d97470910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the copy constructor.  <br /></td></tr>
+<tr class="memitem:a44b40755b7e733aa4f29936ec606c92d" id="r_a44b40755b7e733aa4f29936ec606c92d"><td class="memItemLeft" align="right" valign="top"><a id="a44b40755b7e733aa4f29936ec606c92d" name="a44b40755b7e733aa4f29936ec606c92d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BoundFactory</b> ()=default</td></tr>
+<tr class="memdesc:a44b40755b7e733aa4f29936ec606c92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty default constructor. <br /></td></tr>
+<tr class="memitem:ab731891a3db345749995225d97470910" id="r_ab731891a3db345749995225d97470910"><td class="memItemLeft" align="right" valign="top"><a id="ab731891a3db345749995225d97470910" name="ab731891a3db345749995225d97470910"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BoundFactory</b> (const BoundFactory &amp;other)=delete</td></tr>
+<tr class="memdesc:ab731891a3db345749995225d97470910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the copy constructor. <br /></td></tr>
 <tr class="memitem:aaf610c013aede738482d6ea4d577fe11" id="r_aaf610c013aede738482d6ea4d577fe11"><td class="memTemplParams" colspan="2">template&lt;typename BoundsImpl_t&gt; <br />
 requires (std::is_base_of_v&lt;BoundsType_t, BoundsImpl_t&gt;)</td></tr>
 <tr class="memitem:aaf610c013aede738482d6ea4d577fe11 template"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="#ad532db8cbe4fca3e175e5a83698bfe78">BoundsRet_t</a>&lt; BoundsImpl_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf610c013aede738482d6ea4d577fe11">insert</a> (const std::shared_ptr&lt; BoundsImpl_t &gt; &amp;bounds)</td></tr>
@@ -156,8 +158,9 @@ requires (std::is_base_of_v&lt;BoundsType_t, BoundsImpl_t&gt;)</td></tr>
 requires (std::is_base_of_v&lt;BoundsType_t, BoundsImpl_t&gt;)</td></tr>
 <tr class="memitem:a291d3547966206798e31b949e4bbdfcd template"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="#ad532db8cbe4fca3e175e5a83698bfe78">BoundsRet_t</a>&lt; BoundsImpl_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291d3547966206798e31b949e4bbdfcd">makeBounds</a> (argList... args)</td></tr>
 <tr class="memdesc:a291d3547966206798e31b949e4bbdfcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory method to construct new bounds from the passed arguments.  <br /></td></tr>
-<tr class="memitem:aea5588fbecfe7c9c7757a8575f8f7d28" id="r_aea5588fbecfe7c9c7757a8575f8f7d28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea5588fbecfe7c9c7757a8575f8f7d28">operator=</a> (const <a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a> &amp;other)=delete</td></tr>
-<tr class="memdesc:aea5588fbecfe7c9c7757a8575f8f7d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete copy assignment.  <br /></td></tr>
+<tr class="memitem:aea5588fbecfe7c9c7757a8575f8f7d28" id="r_aea5588fbecfe7c9c7757a8575f8f7d28"><td class="memItemLeft" align="right" valign="top"><a id="aea5588fbecfe7c9c7757a8575f8f7d28" name="aea5588fbecfe7c9c7757a8575f8f7d28"></a>
+<a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a> &amp;other)=delete</td></tr>
+<tr class="memdesc:aea5588fbecfe7c9c7757a8575f8f7d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete copy assignment. <br /></td></tr>
 <tr class="memitem:a48b9c9b30253ecfaf70c578244d4cabb" id="r_a48b9c9b30253ecfaf70c578244d4cabb"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48b9c9b30253ecfaf70c578244d4cabb">size</a> () const</td></tr>
 <tr class="memdesc:a48b9c9b30253ecfaf70c578244d4cabb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of cached objects inside the bound factory.  <br /></td></tr>
 </table>
@@ -186,65 +189,6 @@ template&lt;typename T&gt; </div>
 </div><!-- fragment -->
 <p>Abbreviation of the class return type. </p>
 <p>If the set is over const objects, the return type is const as well and non-const otherwise </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a44b40755b7e733aa4f29936ec606c92d" name="a44b40755b7e733aa4f29936ec606c92d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44b40755b7e733aa4f29936ec606c92d">&#9670;&#160;</a></span>BoundFactory() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ComparableBoundConcept BoundsType_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_bound_factory.html">Acts::BoundFactory</a>&lt; BoundsType_t &gt;::BoundFactory </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Empty default constructor. </p>
-
-</div>
-</div>
-<a id="ab731891a3db345749995225d97470910" name="ab731891a3db345749995225d97470910"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab731891a3db345749995225d97470910">&#9670;&#160;</a></span>BoundFactory() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ComparableBoundConcept BoundsType_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_bound_factory.html">Acts::BoundFactory</a>&lt; BoundsType_t &gt;::BoundFactory </td>
-          <td>(</td>
-          <td class="paramtype">const BoundFactory&lt; BoundsType_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delete the copy constructor. </p>
 
 </div>
 </div>
@@ -320,35 +264,6 @@ requires (std::is_base_of_v&lt;BoundsType_t, BoundsImpl_t&gt;)</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the newly constructed bounds or to an already existing equivalent bound object </dd></dl>
-
-</div>
-</div>
-<a id="aea5588fbecfe7c9c7757a8575f8f7d28" name="aea5588fbecfe7c9c7757a8575f8f7d28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea5588fbecfe7c9c7757a8575f8f7d28">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;detail::ComparableBoundConcept BoundsType_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a> &amp; <a class="el" href="class_acts_1_1_bound_factory.html">Acts::BoundFactory</a>&lt; BoundsType_t &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a44b40755b7e733aa4f29936ec606c92d">BoundFactory</a>&lt; BoundsType_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Delete copy assignment. </p>
 
 </div>
 </div>

@@ -145,12 +145,15 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aacbe27722151cd03bbb9383e1bf1696c" id="r_aacbe27722151cd03bbb9383e1bf1696c"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, std::pair&lt; int, <a class="el" href="class_acts_1_1_grid_density_vertex_finder.html#a49339fd11dc9039c039f6c79f9e68363">TrackGridVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbe27722151cd03bbb9383e1bf1696c">binAndTrackGridMap</a></td></tr>
 <tr class="memdesc:aacbe27722151cd03bbb9383e1bf1696c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store z-bin and track grid (i.e.  <br /></td></tr>
-<tr class="memitem:a2be88dcf449ddaa654a4040b3bc4d87c" id="r_a2be88dcf449ddaa654a4040b3bc4d87c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2be88dcf449ddaa654a4040b3bc4d87c">isInitialized</a> = false</td></tr>
-<tr class="memdesc:a2be88dcf449ddaa654a4040b3bc4d87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if the state has been initialized.  <br /></td></tr>
-<tr class="memitem:ab9c7fe5fc6a0e72a9a017ba4f153c6e0" id="r_ab9c7fe5fc6a0e72a9a017ba4f153c6e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_grid_density_vertex_finder.html#a7ab4a6076a97e8d3040bfd62c1d3fb99">MainGridVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c7fe5fc6a0e72a9a017ba4f153c6e0">mainGrid</a></td></tr>
-<tr class="memdesc:ab9c7fe5fc6a0e72a9a017ba4f153c6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main density grid for vertex finding.  <br /></td></tr>
-<tr class="memitem:a5687313a61d10918126f793965c0f769" id="r_a5687313a61d10918126f793965c0f769"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5687313a61d10918126f793965c0f769">trackSelectionMap</a></td></tr>
-<tr class="memdesc:a5687313a61d10918126f793965c0f769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store bool if track has passed track selection or not.  <br /></td></tr>
+<tr class="memitem:a2be88dcf449ddaa654a4040b3bc4d87c" id="r_a2be88dcf449ddaa654a4040b3bc4d87c"><td class="memItemLeft" align="right" valign="top"><a id="a2be88dcf449ddaa654a4040b3bc4d87c" name="a2be88dcf449ddaa654a4040b3bc4d87c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isInitialized</b> = false</td></tr>
+<tr class="memdesc:a2be88dcf449ddaa654a4040b3bc4d87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if the state has been initialized. <br /></td></tr>
+<tr class="memitem:ab9c7fe5fc6a0e72a9a017ba4f153c6e0" id="r_ab9c7fe5fc6a0e72a9a017ba4f153c6e0"><td class="memItemLeft" align="right" valign="top"><a id="ab9c7fe5fc6a0e72a9a017ba4f153c6e0" name="ab9c7fe5fc6a0e72a9a017ba4f153c6e0"></a>
+<a class="el" href="class_acts_1_1_grid_density_vertex_finder.html#a7ab4a6076a97e8d3040bfd62c1d3fb99">MainGridVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mainGrid</b></td></tr>
+<tr class="memdesc:ab9c7fe5fc6a0e72a9a017ba4f153c6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main density grid for vertex finding. <br /></td></tr>
+<tr class="memitem:a5687313a61d10918126f793965c0f769" id="r_a5687313a61d10918126f793965c0f769"><td class="memItemLeft" align="right" valign="top"><a id="a5687313a61d10918126f793965c0f769" name="a5687313a61d10918126f793965c0f769"></a>
+std::map&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackSelectionMap</b></td></tr>
+<tr class="memdesc:a5687313a61d10918126f793965c0f769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store bool if track has passed track selection or not. <br /></td></tr>
 <tr class="memitem:a9dc61664de4e51e0f1b9d34c747b10ae" id="r_a9dc61664de4e51e0f1b9d34c747b10ae"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dc61664de4e51e0f1b9d34c747b10ae">tracksToRemove</a></td></tr>
 <tr class="memdesc:a9dc61664de4e51e0f1b9d34c747b10ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store tracks that have been removed from track collection.  <br /></td></tr>
 </table>
@@ -206,54 +209,6 @@ Public Attributes</h2></td></tr>
 
 <p>Map to store z-bin and track grid (i.e. </p>
 <p>the density contribution of a single track to the main grid) for every single track </p>
-
-</div>
-</div>
-<a id="a2be88dcf449ddaa654a4040b3bc4d87c" name="a2be88dcf449ddaa654a4040b3bc4d87c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2be88dcf449ddaa654a4040b3bc4d87c">&#9670;&#160;</a></span>isInitialized</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::GridDensityVertexFinder::State::isInitialized = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Flag indicating if the state has been initialized. </p>
-
-</div>
-</div>
-<a id="ab9c7fe5fc6a0e72a9a017ba4f153c6e0" name="ab9c7fe5fc6a0e72a9a017ba4f153c6e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9c7fe5fc6a0e72a9a017ba4f153c6e0">&#9670;&#160;</a></span>mainGrid</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_grid_density_vertex_finder.html#a7ab4a6076a97e8d3040bfd62c1d3fb99">MainGridVector</a> Acts::GridDensityVertexFinder::State::mainGrid</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The main density grid for vertex finding. </p>
-
-</div>
-</div>
-<a id="a5687313a61d10918126f793965c0f769" name="a5687313a61d10918126f793965c0f769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5687313a61d10918126f793965c0f769">&#9670;&#160;</a></span>trackSelectionMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;<a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, bool&gt; Acts::GridDensityVertexFinder::State::trackSelectionMap</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Map to store bool if track has passed track selection or not. </p>
 
 </div>
 </div>

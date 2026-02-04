@@ -138,65 +138,19 @@ Collaboration diagram for Acts::RecordedMaterial:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adab9ae62f471f8274547a481a1a9d903" id="r_adab9ae62f471f8274547a481a1a9d903"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab9ae62f471f8274547a481a1a9d903">materialInL0</a> = 0.</td></tr>
-<tr class="memdesc:adab9ae62f471f8274547a481a1a9d903"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accumulated materialInL0.  <br /></td></tr>
-<tr class="memitem:af23ad55fd74f81de24988a82b3b999a9" id="r_af23ad55fd74f81de24988a82b3b999a9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_material_interaction.html">MaterialInteraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af23ad55fd74f81de24988a82b3b999a9">materialInteractions</a></td></tr>
-<tr class="memdesc:af23ad55fd74f81de24988a82b3b999a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This one is only filled when recordInteractions is switched on.  <br /></td></tr>
-<tr class="memitem:a725cbce93898cc0d54043bbda64d4f52" id="r_a725cbce93898cc0d54043bbda64d4f52"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a725cbce93898cc0d54043bbda64d4f52">materialInX0</a> = 0.</td></tr>
-<tr class="memdesc:a725cbce93898cc0d54043bbda64d4f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accumulated material in units of X0 (radiation length).  <br /></td></tr>
+<tr class="memitem:adab9ae62f471f8274547a481a1a9d903" id="r_adab9ae62f471f8274547a481a1a9d903"><td class="memItemLeft" align="right" valign="top"><a id="adab9ae62f471f8274547a481a1a9d903" name="adab9ae62f471f8274547a481a1a9d903"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>materialInL0</b> = 0.</td></tr>
+<tr class="memdesc:adab9ae62f471f8274547a481a1a9d903"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accumulated materialInL0. <br /></td></tr>
+<tr class="memitem:af23ad55fd74f81de24988a82b3b999a9" id="r_af23ad55fd74f81de24988a82b3b999a9"><td class="memItemLeft" align="right" valign="top"><a id="af23ad55fd74f81de24988a82b3b999a9" name="af23ad55fd74f81de24988a82b3b999a9"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_material_interaction.html">MaterialInteraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>materialInteractions</b></td></tr>
+<tr class="memdesc:af23ad55fd74f81de24988a82b3b999a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This one is only filled when recordInteractions is switched on. <br /></td></tr>
+<tr class="memitem:a725cbce93898cc0d54043bbda64d4f52" id="r_a725cbce93898cc0d54043bbda64d4f52"><td class="memItemLeft" align="right" valign="top"><a id="a725cbce93898cc0d54043bbda64d4f52" name="a725cbce93898cc0d54043bbda64d4f52"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>materialInX0</b> = 0.</td></tr>
+<tr class="memdesc:a725cbce93898cc0d54043bbda64d4f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accumulated material in units of X0 (radiation length). <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple result struct to be returned It mainly acts as an internal state which is created for every propagation/extrapolation step. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="adab9ae62f471f8274547a481a1a9d903" name="adab9ae62f471f8274547a481a1a9d903"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adab9ae62f471f8274547a481a1a9d903">&#9670;&#160;</a></span>materialInL0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::RecordedMaterial::materialInL0 = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The accumulated materialInL0. </p>
-
-</div>
-</div>
-<a id="af23ad55fd74f81de24988a82b3b999a9" name="af23ad55fd74f81de24988a82b3b999a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af23ad55fd74f81de24988a82b3b999a9">&#9670;&#160;</a></span>materialInteractions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_material_interaction.html">MaterialInteraction</a>&gt; Acts::RecordedMaterial::materialInteractions</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This one is only filled when recordInteractions is switched on. </p>
-
-</div>
-</div>
-<a id="a725cbce93898cc0d54043bbda64d4f52" name="a725cbce93898cc0d54043bbda64d4f52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a725cbce93898cc0d54043bbda64d4f52">&#9670;&#160;</a></span>materialInX0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::RecordedMaterial::materialInX0 = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The accumulated material in units of X0 (radiation length). </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

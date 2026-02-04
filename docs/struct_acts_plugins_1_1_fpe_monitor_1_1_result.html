@@ -126,54 +126,45 @@ $(function(){initNavTree('struct_acts_plugins_1_1_fpe_monitor_1_1_result.html','
 </div><!--header-->
 <div class="contents">
 
+<p>Result of FPE monitoring containing counts and stack traces.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_fpe_monitor_8hpp_source.html">/home/runner/work/acts/acts/Plugins/FpeMonitoring/include/ActsPlugins/FpeMonitoring/FpeMonitor.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:FpeInfo" id="r_FpeInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html">FpeInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about a floating-point exception occurrence.  <a href="struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ada1d228336e64f09003cfeafcee3a8b5" id="r_ada1d228336e64f09003cfeafcee3a8b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a> ()=default</td></tr>
 <tr class="memitem:a5470e39ed75d62ca4cb3d7550ec48886" id="r_a5470e39ed75d62ca4cb3d7550ec48886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5470e39ed75d62ca4cb3d7550ec48886">add</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type, void *stackPtr, std::size_t bufferSize)</td></tr>
+<tr class="memdesc:a5470e39ed75d62ca4cb3d7550ec48886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an exception occurrence from raw stack data.  <br /></td></tr>
 <tr class="memitem:ad84c3766fc79f27fe6852a37930637f3" id="r_ad84c3766fc79f27fe6852a37930637f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84c3766fc79f27fe6852a37930637f3">contains</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type, const boost::stacktrace::stacktrace &amp;st) const</td></tr>
+<tr class="memdesc:ad84c3766fc79f27fe6852a37930637f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result contains a specific exception type and stack trace.  <br /></td></tr>
 <tr class="memitem:a358d162b94abbdc71a20c24ca04ff512" id="r_a358d162b94abbdc71a20c24ca04ff512"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a358d162b94abbdc71a20c24ca04ff512">count</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type) const</td></tr>
-<tr class="memitem:a5b1895fe2215ebe8640e7d925281dcf1" id="r_a5b1895fe2215ebe8640e7d925281dcf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1895fe2215ebe8640e7d925281dcf1">deduplicate</a> ()</td></tr>
+<tr class="memdesc:a358d162b94abbdc71a20c24ca04ff512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get count of exceptions of a specific type.  <br /></td></tr>
+<tr class="memitem:a5b1895fe2215ebe8640e7d925281dcf1" id="r_a5b1895fe2215ebe8640e7d925281dcf1"><td class="memItemLeft" align="right" valign="top"><a id="a5b1895fe2215ebe8640e7d925281dcf1" name="a5b1895fe2215ebe8640e7d925281dcf1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>deduplicate</b> ()</td></tr>
+<tr class="memdesc:a5b1895fe2215ebe8640e7d925281dcf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove duplicate stack traces. <br /></td></tr>
 <tr class="memitem:a249a7ade65f820b24df6157d24e7c61e" id="r_a249a7ade65f820b24df6157d24e7c61e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249a7ade65f820b24df6157d24e7c61e">encountered</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type) const</td></tr>
+<tr class="memdesc:a249a7ade65f820b24df6157d24e7c61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an exception type was encountered.  <br /></td></tr>
 <tr class="memitem:ac33168caf14667c50d0e9dbd8b56e8c7" id="r_ac33168caf14667c50d0e9dbd8b56e8c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac33168caf14667c50d0e9dbd8b56e8c7">hasStackTraces</a> () const</td></tr>
-<tr class="memitem:a8446a2c76348ac0d0ca4a300e6b79077" id="r_a8446a2c76348ac0d0ca4a300e6b79077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8446a2c76348ac0d0ca4a300e6b79077">merge</a> (const <a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a> &amp;with)</td></tr>
-<tr class="memitem:a4dd4246aafe71f48a7b689325612e6c2" id="r_a4dd4246aafe71f48a7b689325612e6c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd4246aafe71f48a7b689325612e6c2">merged</a> (const <a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a> &amp;with) const</td></tr>
+<tr class="memdesc:ac33168caf14667c50d0e9dbd8b56e8c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if there are any stack traces.  <br /></td></tr>
+<tr class="memitem:a8446a2c76348ac0d0ca4a300e6b79077" id="r_a8446a2c76348ac0d0ca4a300e6b79077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8446a2c76348ac0d0ca4a300e6b79077">merge</a> (const Result &amp;with)</td></tr>
+<tr class="memdesc:a8446a2c76348ac0d0ca4a300e6b79077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge another result into this one.  <br /></td></tr>
+<tr class="memitem:a4dd4246aafe71f48a7b689325612e6c2" id="r_a4dd4246aafe71f48a7b689325612e6c2"><td class="memItemLeft" align="right" valign="top">Result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd4246aafe71f48a7b689325612e6c2">merged</a> (const Result &amp;with) const</td></tr>
+<tr class="memdesc:a4dd4246aafe71f48a7b689325612e6c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge with another result and return new result.  <br /></td></tr>
 <tr class="memitem:a87ce8ddf60172f56a42bd16081f901ce" id="r_a87ce8ddf60172f56a42bd16081f901ce"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87ce8ddf60172f56a42bd16081f901ce">numStackTraces</a> () const</td></tr>
+<tr class="memdesc:a87ce8ddf60172f56a42bd16081f901ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of stack traces.  <br /></td></tr>
 <tr class="memitem:afd78aac499b6ee506643370d87f2d955" id="r_afd78aac499b6ee506643370d87f2d955"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html">FpeInfo</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd78aac499b6ee506643370d87f2d955">stackTraces</a> () const</td></tr>
+<tr class="memdesc:afd78aac499b6ee506643370d87f2d955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all stack traces.  <br /></td></tr>
 <tr class="memitem:a74135e8e563cdfe9536d79445f9583ff" id="r_a74135e8e563cdfe9536d79445f9583ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74135e8e563cdfe9536d79445f9583ff">summary</a> (std::ostream &amp;os, std::size_t depth=std::numeric_limits&lt; std::size_t &gt;::max()) const</td></tr>
+<tr class="memdesc:a74135e8e563cdfe9536d79445f9583ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print summary of exceptions.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ada1d228336e64f09003cfeafcee3a8b5" name="ada1d228336e64f09003cfeafcee3a8b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada1d228336e64f09003cfeafcee3a8b5">&#9670;&#160;</a></span>Result()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::FpeMonitor::Result::Result </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Result of FPE monitoring containing counts and stack traces. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5470e39ed75d62ca4cb3d7550ec48886" name="a5470e39ed75d62ca4cb3d7550ec48886"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5470e39ed75d62ca4cb3d7550ec48886">&#9670;&#160;</a></span>add()</h2>
 
@@ -198,6 +189,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Add an exception occurrence from raw stack data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Exception type </td></tr>
+    <tr><td class="paramname">stackPtr</td><td>Pointer to stack data </td></tr>
+    <tr><td class="paramname">bufferSize</td><td>Size of stack buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad84c3766fc79f27fe6852a37930637f3" name="ad84c3766fc79f27fe6852a37930637f3"></a>
@@ -219,6 +220,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if result contains a specific exception type and stack trace. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Exception type </td></tr>
+    <tr><td class="paramname">st</td><td>Stack trace to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if contained </dd></dl>
+
 </div>
 </div>
 <a id="a358d162b94abbdc71a20c24ca04ff512" name="a358d162b94abbdc71a20c24ca04ff512"></a>
@@ -236,22 +247,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a5b1895fe2215ebe8640e7d925281dcf1" name="a5b1895fe2215ebe8640e7d925281dcf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b1895fe2215ebe8640e7d925281dcf1">&#9670;&#160;</a></span>deduplicate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ActsPlugins::FpeMonitor::Result::deduplicate </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Get count of exceptions of a specific type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Exception type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of occurrences </dd></dl>
 
 </div>
 </div>
@@ -270,6 +273,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if an exception type was encountered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Exception type to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if encountered </dd></dl>
+
 </div>
 </div>
 <a id="ac33168caf14667c50d0e9dbd8b56e8c7" name="ac33168caf14667c50d0e9dbd8b56e8c7"></a>
@@ -287,6 +299,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if there are any stack traces. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if stack traces are present </dd></dl>
+
 </div>
 </div>
 <a id="a8446a2c76348ac0d0ca4a300e6b79077" name="a8446a2c76348ac0d0ca4a300e6b79077"></a>
@@ -298,11 +313,19 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void ActsPlugins::FpeMonitor::Result::merge </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>with</em></span></td><td>)</td>
+          <td class="paramtype">const Result &amp;</td>          <td class="paramname"><span class="paramname"><em>with</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Merge another result into this one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">with</td><td>Result to merge </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -313,13 +336,22 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a> ActsPlugins::FpeMonitor::Result::merged </td>
+          <td class="memname">Result ActsPlugins::FpeMonitor::Result::merged </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ada1d228336e64f09003cfeafcee3a8b5">Result</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>with</em></span></td><td>)</td>
+          <td class="paramtype">const Result &amp;</td>          <td class="paramname"><span class="paramname"><em>with</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Merge with another result and return new result. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">with</td><td>Result to merge with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Merged result </dd></dl>
 
 </div>
 </div>
@@ -338,6 +370,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get number of stack traces. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of stack traces </dd></dl>
+
 </div>
 </div>
 <a id="afd78aac499b6ee506643370d87f2d955" name="afd78aac499b6ee506643370d87f2d955"></a>
@@ -354,6 +389,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get all stack traces. </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of FPE information </dd></dl>
 
 </div>
 </div>
@@ -375,6 +413,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Print summary of exceptions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">os</td><td>Output stream </td></tr>
+    <tr><td class="paramname">depth</td><td>Maximum stack trace depth </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

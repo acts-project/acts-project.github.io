@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Configuration for the sympy stepper.">
 <polygon fill="#999999" stroke="#666666" points="141,-30 26,-30 26,0 141,0 141,-30"/>
 <text text-anchor="start" x="34" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SympyStepper</text>
 <text text-anchor="middle" x="83.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>

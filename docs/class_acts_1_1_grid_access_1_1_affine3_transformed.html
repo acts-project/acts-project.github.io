@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_grid_access_1_1_affine3_transformed.htm
 </div><!--header-->
 <div class="contents">
 
+<p>Adapter that applies an affine transform before grid-local conversion.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_grid_access_helpers_8hpp_source.html">Acts/Utilities/GridAccessHelpers.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::GridAccess::Affine3Transformed&lt; global_to_grid_local_t &gt;:</div>
@@ -140,7 +143,9 @@ Collaboration diagram for Acts::GridAccess::Affine3Transformed&lt; global_to_gri
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa9cc496b24acdd3af78f988e81355f0c" id="r_aa9cc496b24acdd3af78f988e81355f0c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9cc496b24acdd3af78f988e81355f0c">grid_local_t</a> = typename global_to_grid_local_t::grid_local_t</td></tr>
+<tr class="memitem:aa9cc496b24acdd3af78f988e81355f0c" id="r_aa9cc496b24acdd3af78f988e81355f0c"><td class="memItemLeft" align="right" valign="top"><a id="aa9cc496b24acdd3af78f988e81355f0c" name="aa9cc496b24acdd3af78f988e81355f0c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_local_t</b> = typename global_to_grid_local_t::grid_local_t</td></tr>
+<tr class="memdesc:aa9cc496b24acdd3af78f988e81355f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid-local coordinate type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -148,34 +153,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a72e5b1ce198bfa5e507504dc15fc7edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:ab517e578be9fb711f27370621a46366f" id="r_ab517e578be9fb711f27370621a46366f"><td class="memItemLeft" align="right" valign="top">global_to_grid_local_t::grid_local_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab517e578be9fb711f27370621a46366f">toGridLocal</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position) const</td></tr>
 <tr class="memdesc:ab517e578be9fb711f27370621a46366f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform in to the local frame, then the grid local position.  <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_grid_access_1_1_i_global_to_grid_local"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_grid_access_1_1_i_global_to_grid_local')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html">Acts::GridAccess::IGlobalToGridLocal</a></td></tr>
-<tr class="memitem:aeea67aa991af13d367c256a4f961d434 inherit pub_methods_class_acts_1_1_grid_access_1_1_i_global_to_grid_local" id="r_aeea67aa991af13d367c256a4f961d434"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html#aeea67aa991af13d367c256a4f961d434">~IGlobalToGridLocal</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0c52451d2d2f4f644b2f37fb999c48d2" id="r_a0c52451d2d2f4f644b2f37fb999c48d2"><td class="memItemLeft" align="right" valign="top">global_to_grid_local_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c52451d2d2f4f644b2f37fb999c48d2">globalToGridLocal</a></td></tr>
-<tr class="memdesc:a0c52451d2d2f4f644b2f37fb999c48d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The global to local transformation.  <br /></td></tr>
-<tr class="memitem:a6a292ebc4c9be7935b3722713e0757bb" id="r_a6a292ebc4c9be7935b3722713e0757bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a292ebc4c9be7935b3722713e0757bb">transform</a></td></tr>
-<tr class="memdesc:a6a292ebc4c9be7935b3722713e0757bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transformation matrix.  <br /></td></tr>
+<tr class="memitem:a0c52451d2d2f4f644b2f37fb999c48d2" id="r_a0c52451d2d2f4f644b2f37fb999c48d2"><td class="memItemLeft" align="right" valign="top"><a id="a0c52451d2d2f4f644b2f37fb999c48d2" name="a0c52451d2d2f4f644b2f37fb999c48d2"></a>
+global_to_grid_local_t&#160;</td><td class="memItemRight" valign="bottom"><b>globalToGridLocal</b></td></tr>
+<tr class="memdesc:a0c52451d2d2f4f644b2f37fb999c48d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The global to local transformation. <br /></td></tr>
+<tr class="memitem:a6a292ebc4c9be7935b3722713e0757bb" id="r_a6a292ebc4c9be7935b3722713e0757bb"><td class="memItemLeft" align="right" valign="top"><a id="a6a292ebc4c9be7935b3722713e0757bb" name="a6a292ebc4c9be7935b3722713e0757bb"></a>
+<a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transform</b></td></tr>
+<tr class="memdesc:a6a292ebc4c9be7935b3722713e0757bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transformation matrix. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aa9cc496b24acdd3af78f988e81355f0c" name="aa9cc496b24acdd3af78f988e81355f0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9cc496b24acdd3af78f988e81355f0c">&#9670;&#160;</a></span>grid_local_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename global_to_grid_local_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid_access_1_1_affine3_transformed.html">Acts::GridAccess::Affine3Transformed</a>&lt; global_to_grid_local_t &gt;::grid_local_t = typename global_to_grid_local_t::grid_local_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename global_to_grid_local_t&gt;<br />
+class Acts::GridAccess::Affine3Transformed&lt; global_to_grid_local_t &gt;</div><p>Adapter that applies an affine transform before grid-local conversion. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a72e5b1ce198bfa5e507504dc15fc7edb" name="a72e5b1ce198bfa5e507504dc15fc7edb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72e5b1ce198bfa5e507504dc15fc7edb">&#9670;&#160;</a></span>Affine3Transformed()</h2>
 
@@ -237,43 +228,6 @@ template&lt;typename global_to_grid_local_t&gt; </div>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a0c52451d2d2f4f644b2f37fb999c48d2" name="a0c52451d2d2f4f644b2f37fb999c48d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c52451d2d2f4f644b2f37fb999c48d2">&#9670;&#160;</a></span>globalToGridLocal</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename global_to_grid_local_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">global_to_grid_local_t <a class="el" href="class_acts_1_1_grid_access_1_1_affine3_transformed.html">Acts::GridAccess::Affine3Transformed</a>&lt; global_to_grid_local_t &gt;::globalToGridLocal</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The global to local transformation. </p>
-
-</div>
-</div>
-<a id="a6a292ebc4c9be7935b3722713e0757bb" name="a6a292ebc4c9be7935b3722713e0757bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a292ebc4c9be7935b3722713e0757bb">&#9670;&#160;</a></span>transform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename global_to_grid_local_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> <a class="el" href="class_acts_1_1_grid_access_1_1_affine3_transformed.html">Acts::GridAccess::Affine3Transformed</a>&lt; global_to_grid_local_t &gt;::transform</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The transformation matrix. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -287,7 +241,7 @@ template&lt;typename global_to_grid_local_t&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_grid_access.html">GridAccess</a></li><li class="navelem"><a href="class_acts_1_1_grid_access_1_1_affine3_transformed.html">Affine3Transformed</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>GridAccess</b></li><li class="navelem"><a href="class_acts_1_1_grid_access_1_1_affine3_transformed.html">Affine3Transformed</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

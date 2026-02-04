@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_gnn_hook.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_gnn_hook.html" target="_top" xlink:title="Hook interface for GNN pipeline callbacks.">
 <polygon fill="white" stroke="#666666" points="124,-37 0,-37 0,-18 124,-18 124,-37"/>
 <text text-anchor="middle" x="62" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::GnnHook</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_graph_store_hook.html" target="_top" xlink:title=" ">
+<g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_graph_store_hook.html" target="_top" xlink:title="Hook for storing graph data during GNN pipeline execution.">
 <polygon fill="white" stroke="#666666" points="336.5,-56 177.5,-56 177.5,-37 336.5,-37 336.5,-56"/>
 <text text-anchor="middle" x="257" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::GraphStoreHook</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_truth_graph_metrics_hook.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_truth_graph_metrics_hook.html" target="_top" xlink:title="Hook for calculating metrics using truth graph information.">
 <polygon fill="white" stroke="#666666" points="354,-19 160,-19 160,0 354,0 354,-19"/>
 <text text-anchor="middle" x="257" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TruthGraphMetricsHook</text>
 </a>

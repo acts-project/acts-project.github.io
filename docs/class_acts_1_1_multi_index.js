@@ -17,8 +17,5 @@ var class_acts_1_1_multi_index =
     [ "set", "class_acts_1_1_multi_index.html#aae5bdbabd5558c360fa22e96cdd11637", null ],
     [ "value", "class_acts_1_1_multi_index.html#ac27b6b8d96962d2f348b36b98b2b7677", null ],
     [ "Zeros", "class_acts_1_1_multi_index.html#a5d3b7cb2ed77ece4349ed212f71b7e54", null ],
-    [ "operator<", "class_acts_1_1_multi_index.html#a5eb4f18103cf33a337505c195a9463b2", null ],
-    [ "operator<<", "class_acts_1_1_multi_index.html#a9ac7734b405f4618496b121f855dd699", null ],
-    [ "operator==", "class_acts_1_1_multi_index.html#a66204b7c763f6234c12642c6d8b44708", null ],
     [ "kNumLevels", "class_acts_1_1_multi_index.html#ac41f16be14e2def85d64fe15810bc60c", null ]
 ];

@@ -137,14 +137,14 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a547d1fbe91e2b1110c05cb4d77e68820" id="r_a547d1fbe91e2b1110c05cb4d77e68820"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a547d1fbe91e2b1110c05cb4d77e68820">SortingConfig</a> = std::pair&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, double&gt;</td></tr>
-<tr class="memdesc:a547d1fbe91e2b1110c05cb4d77e68820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for sorting configuration with axis direction and tolerance.  <br /></td></tr>
+<tr class="memitem:a547d1fbe91e2b1110c05cb4d77e68820" id="r_a547d1fbe91e2b1110c05cb4d77e68820"><td class="memItemLeft" align="right" valign="top"><a id="a547d1fbe91e2b1110c05cb4d77e68820" name="a547d1fbe91e2b1110c05cb4d77e68820"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SortingConfig</b> = std::pair&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, double&gt;</td></tr>
+<tr class="memdesc:a547d1fbe91e2b1110c05cb4d77e68820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for sorting configuration with axis direction and tolerance. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a88fcad68d02418f731187e999f82e669" id="r_a88fcad68d02418f731187e999f82e669"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88fcad68d02418f731187e999f82e669">ProtoLayerHelper</a> (const <a class="el" href="struct_acts_1_1_proto_layer_helper_1_1_config.html">Config</a> &amp;, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;ProtoLayerHelper&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a88fcad68d02418f731187e999f82e669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with explicit config.  <br /></td></tr>
-<tr class="memitem:a3e9eb3c9a1c41183273d88f0425c6aa9" id="r_a3e9eb3c9a1c41183273d88f0425c6aa9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e9eb3c9a1c41183273d88f0425c6aa9">~ProtoLayerHelper</a> ()=default</td></tr>
 <tr class="memitem:a668ac8f706cecd4fd8aa64e3507549ee" id="r_a668ac8f706cecd4fd8aa64e3507549ee"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668ac8f706cecd4fd8aa64e3507549ee">protoLayers</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;surfaces, const <a class="el" href="#a547d1fbe91e2b1110c05cb4d77e68820">SortingConfig</a> &amp;sorting) const</td></tr>
 <tr class="memdesc:a668ac8f706cecd4fd8aa64e3507549ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the surfaces into ProtoLayers.  <br /></td></tr>
 <tr class="memitem:ac447a413d951a33adc660ae0ffcbaead" id="r_ac447a413d951a33adc660ae0ffcbaead"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac447a413d951a33adc660ae0ffcbaead">protoLayers</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;surfaces, const std::vector&lt; <a class="el" href="#a547d1fbe91e2b1110c05cb4d77e68820">SortingConfig</a> &gt; &amp;sortings) const</td></tr>
@@ -153,24 +153,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is designed to parse a vector of Surfaces and sort them into corresponding proto layers. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo</a></b></dt><dd>write more documentation on how this is done </dd></dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a547d1fbe91e2b1110c05cb4d77e68820" name="a547d1fbe91e2b1110c05cb4d77e68820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a547d1fbe91e2b1110c05cb4d77e68820">&#9670;&#160;</a></span>SortingConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a547d1fbe91e2b1110c05cb4d77e68820">Acts::ProtoLayerHelper::SortingConfig</a> = std::pair&lt;<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for sorting configuration with axis direction and tolerance. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a88fcad68d02418f731187e999f82e669" name="a88fcad68d02418f731187e999f82e669"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88fcad68d02418f731187e999f82e669">&#9670;&#160;</a></span>ProtoLayerHelper()</h2>
 
@@ -205,31 +188,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a3e9eb3c9a1c41183273d88f0425c6aa9" name="a3e9eb3c9a1c41183273d88f0425c6aa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e9eb3c9a1c41183273d88f0425c6aa9">&#9670;&#160;</a></span>~ProtoLayerHelper()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::ProtoLayerHelper::~ProtoLayerHelper </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

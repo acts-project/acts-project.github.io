@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1s
 </div><!--header-->
 <div class="contents">
 
+<p>Seed metadata produced by the GBTs algorithm.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_seed_finder_gbts_8hpp_source.html">Acts/Seeding/SeedFinderGbts.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::SeedFinderGbts::seedProperties:</div>
@@ -136,15 +139,25 @@ Collaboration diagram for Acts::Experimental::SeedFinderGbts::seedProperties:</d
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a954bfee6262e5ed096cd9cbc3843ef1d" id="r_a954bfee6262e5ed096cd9cbc3843ef1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a954bfee6262e5ed096cd9cbc3843ef1d">seedProperties</a> (float quality, int clone, std::vector&lt; unsigned int &gt; sps)</td></tr>
+<tr class="memdesc:a954bfee6262e5ed096cd9cbc3843ef1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a11b8a2343039375550caca686d8158f9" id="r_a11b8a2343039375550caca686d8158f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11b8a2343039375550caca686d8158f9">operator&lt;</a> (<a class="el" href="#a954bfee6262e5ed096cd9cbc3843ef1d">seedProperties</a> const &amp;o) const</td></tr>
+<tr class="memdesc:a11b8a2343039375550caca686d8158f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8d1ab317b8cc229cc61c85a925725fb1" id="r_a8d1ab317b8cc229cc61c85a925725fb1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1ab317b8cc229cc61c85a925725fb1">isClone</a> {}</td></tr>
-<tr class="memitem:ac8244cd0f4ca55768c7f4df0f00ec076" id="r_ac8244cd0f4ca55768c7f4df0f00ec076"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8244cd0f4ca55768c7f4df0f00ec076">seedQuality</a> {}</td></tr>
-<tr class="memitem:a1703f99e52d840be6bd06c70bead36a1" id="r_a1703f99e52d840be6bd06c70bead36a1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1703f99e52d840be6bd06c70bead36a1">spacepoints</a> {}</td></tr>
+<tr class="memitem:a8d1ab317b8cc229cc61c85a925725fb1" id="r_a8d1ab317b8cc229cc61c85a925725fb1"><td class="memItemLeft" align="right" valign="top"><a id="a8d1ab317b8cc229cc61c85a925725fb1" name="a8d1ab317b8cc229cc61c85a925725fb1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>isClone</b> {}</td></tr>
+<tr class="memdesc:a8d1ab317b8cc229cc61c85a925725fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clone flag. <br /></td></tr>
+<tr class="memitem:ac8244cd0f4ca55768c7f4df0f00ec076" id="r_ac8244cd0f4ca55768c7f4df0f00ec076"><td class="memItemLeft" align="right" valign="top"><a id="ac8244cd0f4ca55768c7f4df0f00ec076" name="ac8244cd0f4ca55768c7f4df0f00ec076"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>seedQuality</b> {}</td></tr>
+<tr class="memdesc:ac8244cd0f4ca55768c7f4df0f00ec076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed quality score. <br /></td></tr>
+<tr class="memitem:a1703f99e52d840be6bd06c70bead36a1" id="r_a1703f99e52d840be6bd06c70bead36a1"><td class="memItemLeft" align="right" valign="top"><a id="a1703f99e52d840be6bd06c70bead36a1" name="a1703f99e52d840be6bd06c70bead36a1"></a>
+std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>spacepoints</b> {}</td></tr>
+<tr class="memdesc:a1703f99e52d840be6bd06c70bead36a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spacepoint indices. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Seed metadata produced by the GBTs algorithm. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a954bfee6262e5ed096cd9cbc3843ef1d" name="a954bfee6262e5ed096cd9cbc3843ef1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a954bfee6262e5ed096cd9cbc3843ef1d">&#9670;&#160;</a></span>seedProperties()</h2>
 
@@ -169,6 +182,16 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">quality</td><td>Seed quality score </td></tr>
+    <tr><td class="paramname">clone</td><td>Clone flag </td></tr>
+    <tr><td class="paramname">sps</td><td>Spacepoint indices </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -187,48 +210,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a8d1ab317b8cc229cc61c85a925725fb1" name="a8d1ab317b8cc229cc61c85a925725fb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d1ab317b8cc229cc61c85a925725fb1">&#9670;&#160;</a></span>isClone</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Acts::Experimental::SeedFinderGbts::seedProperties::isClone {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac8244cd0f4ca55768c7f4df0f00ec076" name="ac8244cd0f4ca55768c7f4df0f00ec076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8244cd0f4ca55768c7f4df0f00ec076">&#9670;&#160;</a></span>seedQuality</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::SeedFinderGbts::seedProperties::seedQuality {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1703f99e52d840be6bd06c70bead36a1" name="a1703f99e52d840be6bd06c70bead36a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1703f99e52d840be6bd06c70bead36a1">&#9670;&#160;</a></span>spacepoints</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; Acts::Experimental::SeedFinderGbts::seedProperties::spacepoints {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Comparison operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">o</td><td>Other seed properties to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if this is less than other </dd></dl>
 
 </div>
 </div>

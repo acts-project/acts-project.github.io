@@ -140,14 +140,18 @@ Collaboration diagram for Acts::TryAllNavigatorBase::Config:</div>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3341957353dbe1714b02130396741af2" id="r_a3341957353dbe1714b02130396741af2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3341957353dbe1714b02130396741af2">boundaryToleranceSurfaceApproach</a></td></tr>
 <tr class="memdesc:a3341957353dbe1714b02130396741af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Which boundary checks to perform for surface approach.  <br /></td></tr>
-<tr class="memitem:a359610dd461edac2a984011224c555a0" id="r_a359610dd461edac2a984011224c555a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a359610dd461edac2a984011224c555a0">resolveMaterial</a> = true</td></tr>
-<tr class="memdesc:a359610dd461edac2a984011224c555a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop at every material surface (whether it is passive or not)  <br /></td></tr>
-<tr class="memitem:acc55e53dc1cd0177ede54500e75b692d" id="r_acc55e53dc1cd0177ede54500e75b692d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc55e53dc1cd0177ede54500e75b692d">resolvePassive</a> = false</td></tr>
-<tr class="memdesc:acc55e53dc1cd0177ede54500e75b692d"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop at every surface regardless what it is  <br /></td></tr>
-<tr class="memitem:ab1b156497d8d550370c81b816609467e" id="r_ab1b156497d8d550370c81b816609467e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1b156497d8d550370c81b816609467e">resolveSensitive</a> = true</td></tr>
-<tr class="memdesc:ab1b156497d8d550370c81b816609467e"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop at every sensitive surface (whether it has material or not)  <br /></td></tr>
-<tr class="memitem:a3a68cae5fe11ee124fedcaebcb54b5d6" id="r_a3a68cae5fe11ee124fedcaebcb54b5d6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a68cae5fe11ee124fedcaebcb54b5d6">trackingGeometry</a></td></tr>
-<tr class="memdesc:a3a68cae5fe11ee124fedcaebcb54b5d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracking Geometry for this Navigator.  <br /></td></tr>
+<tr class="memitem:a359610dd461edac2a984011224c555a0" id="r_a359610dd461edac2a984011224c555a0"><td class="memItemLeft" align="right" valign="top"><a id="a359610dd461edac2a984011224c555a0" name="a359610dd461edac2a984011224c555a0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>resolveMaterial</b> = true</td></tr>
+<tr class="memdesc:a359610dd461edac2a984011224c555a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop at every material surface (whether it is passive or not) <br /></td></tr>
+<tr class="memitem:acc55e53dc1cd0177ede54500e75b692d" id="r_acc55e53dc1cd0177ede54500e75b692d"><td class="memItemLeft" align="right" valign="top"><a id="acc55e53dc1cd0177ede54500e75b692d" name="acc55e53dc1cd0177ede54500e75b692d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>resolvePassive</b> = false</td></tr>
+<tr class="memdesc:acc55e53dc1cd0177ede54500e75b692d"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop at every surface regardless what it is <br /></td></tr>
+<tr class="memitem:ab1b156497d8d550370c81b816609467e" id="r_ab1b156497d8d550370c81b816609467e"><td class="memItemLeft" align="right" valign="top"><a id="ab1b156497d8d550370c81b816609467e" name="ab1b156497d8d550370c81b816609467e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>resolveSensitive</b> = true</td></tr>
+<tr class="memdesc:ab1b156497d8d550370c81b816609467e"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop at every sensitive surface (whether it has material or not) <br /></td></tr>
+<tr class="memitem:a3a68cae5fe11ee124fedcaebcb54b5d6" id="r_a3a68cae5fe11ee124fedcaebcb54b5d6"><td class="memItemLeft" align="right" valign="top"><a id="a3a68cae5fe11ee124fedcaebcb54b5d6" name="a3a68cae5fe11ee124fedcaebcb54b5d6"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackingGeometry</b></td></tr>
+<tr class="memdesc:a3a68cae5fe11ee124fedcaebcb54b5d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracking Geometry for this Navigator. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for this Navigator. </p>
@@ -165,73 +169,9 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">        <a class="code hl_function" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</div>
-<div class="ttc" id="aclass_acts_1_1_boundary_tolerance_html_a37f9fa35e522bffbdd6b7107443599cc"><div class="ttname"><a href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">Acts::BoundaryTolerance::None</a></div><div class="ttdeci">static constexpr auto None() noexcept</div><div class="ttdoc">No tolerance i.e.</div><div class="ttdef"><b>Definition</b> BoundaryTolerance.hpp:106</div></div>
+<div class="ttc" id="aclass_acts_1_1_boundary_tolerance_html_a37f9fa35e522bffbdd6b7107443599cc"><div class="ttname"><a href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">Acts::BoundaryTolerance::None</a></div><div class="ttdeci">static constexpr auto None() noexcept</div><div class="ttdoc">No tolerance i.e.</div><div class="ttdef"><b>Definition</b> BoundaryTolerance.hpp:122</div></div>
 </div><!-- fragment -->
 <p>Which boundary checks to perform for surface approach. </p>
-
-</div>
-</div>
-<a id="a359610dd461edac2a984011224c555a0" name="a359610dd461edac2a984011224c555a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a359610dd461edac2a984011224c555a0">&#9670;&#160;</a></span>resolveMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::TryAllNavigatorBase::Config::resolveMaterial = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>stop at every material surface (whether it is passive or not) </p>
-
-</div>
-</div>
-<a id="acc55e53dc1cd0177ede54500e75b692d" name="acc55e53dc1cd0177ede54500e75b692d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc55e53dc1cd0177ede54500e75b692d">&#9670;&#160;</a></span>resolvePassive</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::TryAllNavigatorBase::Config::resolvePassive = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>stop at every surface regardless what it is </p>
-
-</div>
-</div>
-<a id="ab1b156497d8d550370c81b816609467e" name="ab1b156497d8d550370c81b816609467e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1b156497d8d550370c81b816609467e">&#9670;&#160;</a></span>resolveSensitive</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::TryAllNavigatorBase::Config::resolveSensitive = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>stop at every sensitive surface (whether it has material or not) </p>
-
-</div>
-</div>
-<a id="a3a68cae5fe11ee124fedcaebcb54b5d6" name="a3a68cae5fe11ee124fedcaebcb54b5d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a68cae5fe11ee124fedcaebcb54b5d6">&#9670;&#160;</a></span>trackingGeometry</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a>&gt; Acts::TryAllNavigatorBase::Config::trackingGeometry</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Tracking Geometry for this Navigator. </p>
 
 </div>
 </div>

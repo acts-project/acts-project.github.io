@@ -1,20 +1,10 @@
 var class_acts_1_1_surface =
 [
-    [ "SurfaceType", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0", [
-      [ "Cone", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0a9500807f494fea928b0c02c6831b1bc6", null ],
-      [ "Cylinder", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0aa997f5ccb5150365e8622161d610f575", null ],
-      [ "Disc", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0a1ba44d6d20145ae45ddb87f1dfccf304", null ],
-      [ "Perigee", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0a362560c9d54c69a04d76d1858201bec4", null ],
-      [ "Plane", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0a0ef417dbcfa7c48e3fe8cbc6648e33a6", null ],
-      [ "Straw", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0aa9597db8c0f4c9506c4d01d7f42de005", null ],
-      [ "Curvilinear", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0a8cae7f38a5912d7b4e5399e6238d8b4f", null ],
-      [ "Other", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0a5ce17ecad7b6bed89667ea05c9b618bc", null ]
-    ] ],
+    [ "SurfaceType", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0", null ],
     [ "Surface", "class_acts_1_1_surface.html#a2ae67591c6ce6b42568881be16f29ddc", null ],
     [ "Surface", "class_acts_1_1_surface.html#a2d2a64d0a93e7e8a1ed72234f6f0e299", null ],
     [ "Surface", "class_acts_1_1_surface.html#a362fefd7e074b60b9b2d4595b7e3f198", null ],
     [ "Surface", "class_acts_1_1_surface.html#a0c12b2fa33d81de9c50157fabf814ba5", null ],
-    [ "~Surface", "class_acts_1_1_surface.html#a730e3e090bbc441e4bd2891cbae84f15", null ],
     [ "alignmentToBoundDerivative", "class_acts_1_1_surface.html#a26b77cdb1dedf4fb87e4702f562106e3", null ],
     [ "alignmentToPathDerivative", "class_acts_1_1_surface.html#ac94e8ed380531243a14c6de82bd11f9e", null ],
     [ "assignDetectorElement", "class_acts_1_1_surface.html#a2e9b416713079ad30b68014f5b9ce1da", null ],
@@ -61,8 +51,6 @@ var class_acts_1_1_surface =
     [ "transform", "class_acts_1_1_surface.html#a7a2323c3511f594a3b866c255018c671", null ],
     [ "type", "class_acts_1_1_surface.html#a0bc615a9e492d2b1771368b7bf297921", null ],
     [ "visualize", "class_acts_1_1_surface.html#a3804756230f7ae5fa25064364c973789", null ],
-    [ "GeometryContextOstreamWrapper< Surface >", "class_acts_1_1_surface.html#a7d2e83d7456597e8bc618583aeb67e41", null ],
-    [ "operator<<", "class_acts_1_1_surface.html#a10083f30c4ea2c3ea9ad25db125249fe", null ],
     [ "m_transform", "class_acts_1_1_surface.html#acc5413d1678ec7d5b2f67498b0b38cfa", null ],
     [ "s_surfaceTypeNames", "class_acts_1_1_surface.html#a599b254f27b5f548f8be5f3d899fee9a", null ]
 ];

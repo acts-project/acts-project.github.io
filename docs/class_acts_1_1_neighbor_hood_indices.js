@@ -1,7 +1,6 @@
 var class_acts_1_1_neighbor_hood_indices =
 [
     [ "iterator", "class_acts_1_1_neighbor_hood_indices_1_1iterator.html", "class_acts_1_1_neighbor_hood_indices_1_1iterator" ],
-    [ "NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html#a6810f143db5250088adb43694816a5c3", null ],
     [ "NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html#a66aa7ed93759cb0c6bde2ed60715ba73", null ],
     [ "NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html#a79864692fe32b0113a953c2fc50743a1", null ],
     [ "begin", "class_acts_1_1_neighbor_hood_indices.html#a719af6a3e595e2216ca08d6c0448130d", null ],

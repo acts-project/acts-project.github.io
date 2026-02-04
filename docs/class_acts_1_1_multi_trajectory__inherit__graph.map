@@ -14,8 +14,8 @@
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="714,92,772,92,772,97,714,97"/>
 <area shape="rect" id="Node000006" href="$class_acts_1_1_vector_multi_trajectory.html" title="In&#45;memory transient multi&#45;trajectory implementation using std::vector as backend." alt="" coords="791,146,987,171"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="696,156,790,156,790,161,696,161"/>
-<area shape="rect" id="Node000008" href="$class_acts_plugins_1_1_const_podio_track_state_container.html" title=" " alt="" coords="783,203,995,243"/>
+<area shape="rect" id="Node000008" href="$class_acts_plugins_1_1_const_podio_track_state_container.html" title="Read&#45;only track state container backend using podio for storage." alt="" coords="783,203,995,243"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="729,220,782,220,782,225,729,225"/>
-<area shape="rect" id="Node000010" href="$class_acts_plugins_1_1_mutable_podio_track_state_container.html" title=" " alt="" coords="791,267,986,307"/>
+<area shape="rect" id="Node000010" href="$class_acts_plugins_1_1_mutable_podio_track_state_container.html" title="Mutable Podio&#45;based track state container implementation." alt="" coords="791,267,986,307"/>
 <area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="736,284,791,284,791,289,736,289"/>
 </map>

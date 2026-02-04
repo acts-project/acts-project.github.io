@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Tracking filter operating on the GBTs edge graph.">
 <polygon fill="#999999" stroke="#666666" points="812,-155 702,-155 702,-125 812,-125 812,-155"/>
 <text text-anchor="start" x="710" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="757" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsTrackingFilter</text>
@@ -164,7 +164,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" target="_top" xlink:title="Configuration options for the GBTs seed finder.">
 <polygon fill="white" stroke="#666666" points="558.5,-38 428.5,-38 428.5,-8 558.5,-8 558.5,-38"/>
 <text text-anchor="start" x="436.5" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="493.5" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">::SeedFinderGbtsConfig</text>

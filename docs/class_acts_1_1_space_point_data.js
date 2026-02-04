@@ -7,7 +7,6 @@ var class_acts_1_1_space_point_data =
     [ "bottomStripVector", "class_acts_1_1_space_point_data.html#a16286c4fa4c331f97f74154640d141e1", null ],
     [ "clear", "class_acts_1_1_space_point_data.html#afe684b19a2a631903d0e47787cf2209e", null ],
     [ "hasDynamicVariable", "class_acts_1_1_space_point_data.html#a613f73752d0d3ea1852295c43a933f77", null ],
-    [ "operator=", "class_acts_1_1_space_point_data.html#a28b833d43840cc858c02cb371469ee92", null ],
     [ "operator=", "class_acts_1_1_space_point_data.html#a0725bf59a17f2cdc863d975f01880f85", null ],
     [ "phi", "class_acts_1_1_space_point_data.html#a148fa733ddfccd74e11c69c7a9daf45c", null ],
     [ "radius", "class_acts_1_1_space_point_data.html#a32f05ef9c6f1e316b12c5e3ef6db8425", null ],

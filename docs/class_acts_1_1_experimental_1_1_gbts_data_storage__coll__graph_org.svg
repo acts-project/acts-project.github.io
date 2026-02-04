@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Storage container for GBTs nodes and edges.">
 <polygon fill="#999999" stroke="#666666" points="837,-107 728,-107 728,-77 837,-77 837,-107"/>
 <text text-anchor="start" x="736" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="782.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsDataStorage</text>
@@ -61,7 +61,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" target="_top" xlink:title="Configuration options for the GBTs seed finder.">
 <polygon fill="white" stroke="#666666" points="599,-131 469,-131 469,-101 599,-101 599,-131"/>
 <text text-anchor="start" x="477" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="534" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00">::SeedFinderGbtsConfig</text>

@@ -1,13 +1,6 @@
 var class_acts_1_1_diamond_bounds =
 [
-    [ "BoundValues", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03e", [
-      [ "eHalfLengthXnegY", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03ea3703f01d928eb4f5335f09b37edb0cdb", null ],
-      [ "eHalfLengthXzeroY", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03ea0fea7aa6344b3bd2edc22f8d88f94151", null ],
-      [ "eHalfLengthXposY", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03ea836f9a498e790c732e34f0dd3e6bb0a4", null ],
-      [ "eHalfLengthYneg", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03ea4301dfba31ec343350ea0b6b39c5fe2b", null ],
-      [ "eHalfLengthYpos", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03ea1371c70f397ee05835c04fa6d69522f2", null ],
-      [ "eSize", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03ea17a47c35c282e30d61cb2a01b3b4ef67", null ]
-    ] ],
+    [ "BoundValues", "class_acts_1_1_diamond_bounds.html#afa16db4a1b5c05ef61c5eaf0e210b03e", null ],
     [ "DiamondBounds", "class_acts_1_1_diamond_bounds.html#afd696ee4c000607a9ef92ab79099f457", null ],
     [ "DiamondBounds", "class_acts_1_1_diamond_bounds.html#a7e1fad89c49fc5b267b801ab2d198504", null ],
     [ "boundingBox", "class_acts_1_1_diamond_bounds.html#aced280668f28b8bb293d35eaf6c5d198", null ],

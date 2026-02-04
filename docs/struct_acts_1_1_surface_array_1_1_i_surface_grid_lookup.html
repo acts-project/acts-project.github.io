@@ -138,8 +138,9 @@ Inheritance diagram for Acts::SurfaceArray::ISurfaceGridLookup:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d5ddc711ba216f74b56c633f21891e4" id="r_a4d5ddc711ba216f74b56c633f21891e4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5ddc711ba216f74b56c633f21891e4">~ISurfaceGridLookup</a> ()=0</td></tr>
-<tr class="memdesc:a4d5ddc711ba216f74b56c633f21891e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure virtual destructor.  <br /></td></tr>
+<tr class="memitem:a4d5ddc711ba216f74b56c633f21891e4" id="r_a4d5ddc711ba216f74b56c633f21891e4"><td class="memItemLeft" align="right" valign="top"><a id="a4d5ddc711ba216f74b56c633f21891e4" name="a4d5ddc711ba216f74b56c633f21891e4"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISurfaceGridLookup</b> ()=0</td></tr>
+<tr class="memdesc:a4d5ddc711ba216f74b56c633f21891e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure virtual destructor. <br /></td></tr>
 <tr class="memitem:adefdedb2eb38af7c2b3eef5af31fbc6a" id="r_adefdedb2eb38af7c2b3eef5af31fbc6a"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefdedb2eb38af7c2b3eef5af31fbc6a">binningValues</a> () const</td></tr>
 <tr class="memdesc:adefdedb2eb38af7c2b3eef5af31fbc6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning values described by this surface grid lookup They are in order of the axes (optional) and empty for eingle lookups.  <br /></td></tr>
 <tr class="memitem:acfa6270ff57e8c3c62560a078f877249" id="r_acfa6270ff57e8c3c62560a078f877249"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfa6270ff57e8c3c62560a078f877249">fill</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;<a class="el" href="class_acts_1_1_surface_array.html#afe774c4e663f0b412eea16a860215ece">surfaces</a>)=0</td></tr>
@@ -167,35 +168,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base interface for all surface lookups. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4d5ddc711ba216f74b56c633f21891e4" name="a4d5ddc711ba216f74b56c633f21891e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d5ddc711ba216f74b56c633f21891e4">&#9670;&#160;</a></span>~ISurfaceGridLookup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::SurfaceArray::ISurfaceGridLookup::~ISurfaceGridLookup </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pure virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="adefdedb2eb38af7c2b3eef5af31fbc6a" name="adefdedb2eb38af7c2b3eef5af31fbc6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adefdedb2eb38af7c2b3eef5af31fbc6a">&#9670;&#160;</a></span>binningValues()</h2>
 

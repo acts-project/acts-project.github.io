@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Structure holding a selected TGeo node with its global transform.">
 <polygon fill="#999999" stroke="#666666" points="151.5,-30 17.5,-30 17.5,0 151.5,0 151.5,-30"/>
 <text text-anchor="start" x="25.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::TGeoParser</text>
 <text text-anchor="middle" x="84.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::SelectedNode</text>

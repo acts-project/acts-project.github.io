@@ -126,17 +126,29 @@ $(function(){initNavTree('class_acts_1_1_ccl_1_1_disjoint_sets.html','','class_a
 </div><!--header-->
 <div class="contents">
 
+<p>Wrapper around <span class="tt">boost::disjoint_sets</span> used by the clustering helpers.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_clusterization_8hpp_source.html">Acts/Clusterization/Clusterization.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afaf6b2826bb5097562997049363831ff" id="r_afaf6b2826bb5097562997049363831ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf6b2826bb5097562997049363831ff">DisjointSets</a> (std::size_t initial_size=128)</td></tr>
-<tr class="memitem:a18dc339522fd90ecc00293f91c3d79e7" id="r_a18dc339522fd90ecc00293f91c3d79e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18dc339522fd90ecc00293f91c3d79e7">clear</a> ()</td></tr>
-<tr class="memitem:a11a4e061115c92466cb5a00007a49fa4" id="r_a11a4e061115c92466cb5a00007a49fa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_ccl.html#aab137e09512e5cf0ef0a62331591cffe">Acts::Ccl::Label</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11a4e061115c92466cb5a00007a49fa4">findSet</a> (std::size_t x)</td></tr>
-<tr class="memitem:a85310e7dfb9b349131990f770edfc2f0" id="r_a85310e7dfb9b349131990f770edfc2f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_1_1_ccl.html#aab137e09512e5cf0ef0a62331591cffe">Acts::Ccl::Label</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85310e7dfb9b349131990f770edfc2f0">makeSet</a> ()</td></tr>
+<tr class="memdesc:afaf6b2826bb5097562997049363831ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a18dc339522fd90ecc00293f91c3d79e7" id="r_a18dc339522fd90ecc00293f91c3d79e7"><td class="memItemLeft" align="right" valign="top"><a id="a18dc339522fd90ecc00293f91c3d79e7" name="a18dc339522fd90ecc00293f91c3d79e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="memdesc:a18dc339522fd90ecc00293f91c3d79e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all sets and reset to initial state. <br /></td></tr>
+<tr class="memitem:a11a4e061115c92466cb5a00007a49fa4" id="r_a11a4e061115c92466cb5a00007a49fa4"><td class="memItemLeft" align="right" valign="top">Acts::Ccl::Label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11a4e061115c92466cb5a00007a49fa4">findSet</a> (std::size_t x)</td></tr>
+<tr class="memdesc:a11a4e061115c92466cb5a00007a49fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the representative of a set.  <br /></td></tr>
+<tr class="memitem:a85310e7dfb9b349131990f770edfc2f0" id="r_a85310e7dfb9b349131990f770edfc2f0"><td class="memItemLeft" align="right" valign="top">Acts::Ccl::Label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85310e7dfb9b349131990f770edfc2f0">makeSet</a> ()</td></tr>
+<tr class="memdesc:a85310e7dfb9b349131990f770edfc2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new set.  <br /></td></tr>
 <tr class="memitem:a6ecff3345ce2003f67bb282e3c3e98e1" id="r_a6ecff3345ce2003f67bb282e3c3e98e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ecff3345ce2003f67bb282e3c3e98e1">unionSet</a> (std::size_t x, std::size_t y)</td></tr>
+<tr class="memdesc:a6ecff3345ce2003f67bb282e3c3e98e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union two sets.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Wrapper around <span class="tt">boost::disjoint_sets</span> used by the clustering helpers. </p>
+<p>Avoids the overhead of <span class="tt">boost::vector_property_map</span> while keeping the interface small for the clustering workflow. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afaf6b2826bb5097562997049363831ff" name="afaf6b2826bb5097562997049363831ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaf6b2826bb5097562997049363831ff">&#9670;&#160;</a></span>DisjointSets()</h2>
 
@@ -160,26 +172,17 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">initial_size</td><td>Initial size of the disjoint sets </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a18dc339522fd90ecc00293f91c3d79e7" name="a18dc339522fd90ecc00293f91c3d79e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18dc339522fd90ecc00293f91c3d79e7">&#9670;&#160;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::Ccl::DisjointSets::clear </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a11a4e061115c92466cb5a00007a49fa4" name="a11a4e061115c92466cb5a00007a49fa4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11a4e061115c92466cb5a00007a49fa4">&#9670;&#160;</a></span>findSet()</h2>
 
@@ -187,13 +190,22 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_ccl.html#aab137e09512e5cf0ef0a62331591cffe">Acts::Ccl::Label</a> Acts::Ccl::DisjointSets::findSet </td>
+          <td class="memname">Acts::Ccl::Label Acts::Ccl::DisjointSets::findSet </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Find the representative of a set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Element to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The label of the set containing x </dd></dl>
 
 </div>
 </div>
@@ -204,13 +216,16 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts_1_1_ccl.html#aab137e09512e5cf0ef0a62331591cffe">Acts::Ccl::Label</a> Acts::Ccl::DisjointSets::makeSet </td>
+          <td class="memname">Acts::Ccl::Label Acts::Ccl::DisjointSets::makeSet </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Create a new set. </p>
+<dl class="section return"><dt>Returns</dt><dd>The label of the new set </dd></dl>
 
 </div>
 </div>
@@ -233,6 +248,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Union two sets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>First set </td></tr>
+    <tr><td class="paramname">y</td><td>Second set </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -248,7 +272,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_ccl.html">Ccl</a></li><li class="navelem"><a href="class_acts_1_1_ccl_1_1_disjoint_sets.html">DisjointSets</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>Ccl</b></li><li class="navelem"><a href="class_acts_1_1_ccl_1_1_disjoint_sets.html">DisjointSets</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

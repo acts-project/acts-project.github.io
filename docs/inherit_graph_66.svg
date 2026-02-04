@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_ccl_1_1_disjoint_sets.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_ccl_1_1_disjoint_sets.html" target="_top" xlink:title="Wrapper around boost::disjoint_sets used by the clustering helpers.">
 <polygon fill="white" stroke="#666666" points="123,-19 0,-19 0,0 123,0 123,-19"/>
 <text text-anchor="middle" x="61.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::DisjointSets</text>
 </a>

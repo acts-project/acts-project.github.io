@@ -138,25 +138,28 @@ Inheritance diagram for Acts::GeometryHierarchyMap&lt; value_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5f08c12aee917c49a56a86121dad310c" id="r_a5f08c12aee917c49a56a86121dad310c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f08c12aee917c49a56a86121dad310c">InputElement</a> = typename std::pair&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, value_t&gt;</td></tr>
-<tr class="memdesc:a5f08c12aee917c49a56a86121dad310c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined geometry identifier and value element. Only used for input.  <br /></td></tr>
-<tr class="memitem:a70358ad91c8d3270eb2e70a67635fcb9" id="r_a70358ad91c8d3270eb2e70a67635fcb9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70358ad91c8d3270eb2e70a67635fcb9">Iterator</a> = typename std::vector&lt;value_t&gt;::const_iterator</td></tr>
-<tr class="memdesc:a70358ad91c8d3270eb2e70a67635fcb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const iterator over stored values.  <br /></td></tr>
-<tr class="memitem:a3da67f6ea3c707d2d6a6e6e97d35d1c0" id="r_a3da67f6ea3c707d2d6a6e6e97d35d1c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3da67f6ea3c707d2d6a6e6e97d35d1c0">Value</a> = value_t</td></tr>
-<tr class="memdesc:a3da67f6ea3c707d2d6a6e6e97d35d1c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for stored value type.  <br /></td></tr>
+<tr class="memitem:a5f08c12aee917c49a56a86121dad310c" id="r_a5f08c12aee917c49a56a86121dad310c"><td class="memItemLeft" align="right" valign="top"><a id="a5f08c12aee917c49a56a86121dad310c" name="a5f08c12aee917c49a56a86121dad310c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>InputElement</b> = typename std::pair&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, value_t&gt;</td></tr>
+<tr class="memdesc:a5f08c12aee917c49a56a86121dad310c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined geometry identifier and value element. Only used for input. <br /></td></tr>
+<tr class="memitem:a70358ad91c8d3270eb2e70a67635fcb9" id="r_a70358ad91c8d3270eb2e70a67635fcb9"><td class="memItemLeft" align="right" valign="top"><a id="a70358ad91c8d3270eb2e70a67635fcb9" name="a70358ad91c8d3270eb2e70a67635fcb9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Iterator</b> = typename std::vector&lt;value_t&gt;::const_iterator</td></tr>
+<tr class="memdesc:a70358ad91c8d3270eb2e70a67635fcb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const iterator over stored values. <br /></td></tr>
+<tr class="memitem:a3da67f6ea3c707d2d6a6e6e97d35d1c0" id="r_a3da67f6ea3c707d2d6a6e6e97d35d1c0"><td class="memItemLeft" align="right" valign="top"><a id="a3da67f6ea3c707d2d6a6e6e97d35d1c0" name="a3da67f6ea3c707d2d6a6e6e97d35d1c0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Value</b> = value_t</td></tr>
+<tr class="memdesc:a3da67f6ea3c707d2d6a6e6e97d35d1c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for stored value type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac25b16d9f0bb6a2def13ea47a4590b38" id="r_ac25b16d9f0bb6a2def13ea47a4590b38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac25b16d9f0bb6a2def13ea47a4590b38">GeometryHierarchyMap</a> ()=default</td></tr>
-<tr class="memitem:a2bee82f3bc42a3765ea688cd3862436d" id="r_a2bee82f3bc42a3765ea688cd3862436d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bee82f3bc42a3765ea688cd3862436d">GeometryHierarchyMap</a> (const GeometryHierarchyMap &amp;)=default</td></tr>
-<tr class="memdesc:a2bee82f3bc42a3765ea688cd3862436d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
-<tr class="memitem:aa6d18022818a6b06fce1cf66812607db" id="r_aa6d18022818a6b06fce1cf66812607db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d18022818a6b06fce1cf66812607db">GeometryHierarchyMap</a> (GeometryHierarchyMap &amp;&amp;) noexcept=default</td></tr>
-<tr class="memdesc:aa6d18022818a6b06fce1cf66812607db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
+<tr class="memitem:a2bee82f3bc42a3765ea688cd3862436d" id="r_a2bee82f3bc42a3765ea688cd3862436d"><td class="memItemLeft" align="right" valign="top"><a id="a2bee82f3bc42a3765ea688cd3862436d" name="a2bee82f3bc42a3765ea688cd3862436d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>GeometryHierarchyMap</b> (const GeometryHierarchyMap &amp;)=default</td></tr>
+<tr class="memdesc:a2bee82f3bc42a3765ea688cd3862436d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br /></td></tr>
+<tr class="memitem:aa6d18022818a6b06fce1cf66812607db" id="r_aa6d18022818a6b06fce1cf66812607db"><td class="memItemLeft" align="right" valign="top"><a id="aa6d18022818a6b06fce1cf66812607db" name="aa6d18022818a6b06fce1cf66812607db"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>GeometryHierarchyMap</b> (GeometryHierarchyMap &amp;&amp;) noexcept=default</td></tr>
+<tr class="memdesc:aa6d18022818a6b06fce1cf66812607db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
 <tr class="memitem:a23cfacac635e4046e286d0ba46b07ec9" id="r_a23cfacac635e4046e286d0ba46b07ec9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23cfacac635e4046e286d0ba46b07ec9">GeometryHierarchyMap</a> (std::initializer_list&lt; <a class="el" href="#a5f08c12aee917c49a56a86121dad310c">InputElement</a> &gt; elements)</td></tr>
 <tr class="memdesc:a23cfacac635e4046e286d0ba46b07ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the container from an initializer list.  <br /></td></tr>
 <tr class="memitem:a96422b782756c668bdcf45460ea53bd7" id="r_a96422b782756c668bdcf45460ea53bd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96422b782756c668bdcf45460ea53bd7">GeometryHierarchyMap</a> (std::vector&lt; <a class="el" href="#a5f08c12aee917c49a56a86121dad310c">InputElement</a> &gt; elements)</td></tr>
 <tr class="memdesc:a96422b782756c668bdcf45460ea53bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the container from the given elements.  <br /></td></tr>
-<tr class="memitem:a6201f2f1e482a8cb5276b372784f99e0" id="r_a6201f2f1e482a8cb5276b372784f99e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6201f2f1e482a8cb5276b372784f99e0">~GeometryHierarchyMap</a> ()=default</td></tr>
 <tr class="memitem:a48b1a8db7f081aeb442e733ad9c344e6" id="r_a48b1a8db7f081aeb442e733ad9c344e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a70358ad91c8d3270eb2e70a67635fcb9">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48b1a8db7f081aeb442e733ad9c344e6">begin</a> () const</td></tr>
 <tr class="memdesc:a48b1a8db7f081aeb442e733ad9c344e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator pointing to the beginning of the stored values.  <br /></td></tr>
 <tr class="memitem:a10648175c9b5db4a14f4f4b6668561b0" id="r_a10648175c9b5db4a14f4f4b6668561b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10648175c9b5db4a14f4f4b6668561b0">contains</a> (const <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &amp;id) const</td></tr>
@@ -199,64 +202,9 @@ if (it != container.end()) {
 const auto&amp; element4 = container.valueAt(4);
 </pre><dl class="section note"><dt>Note</dt><dd>No guarantees are given for the element order when using range-based or index-based access. Any apparent ordering must be considered an implementation detail and might change.</dd></dl>
 <p>Adding elements is potentially expensive as the internal lookup structure must be updated. In addition, modifying an element in-place could change its identifier which would also break the lookup. Thus, the container can not be modified after construction to prevent misuse. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a5f08c12aee917c49a56a86121dad310c" name="a5f08c12aee917c49a56a86121dad310c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f08c12aee917c49a56a86121dad310c">&#9670;&#160;</a></span>InputElement</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::InputElement = typename std::pair&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, value_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Combined geometry identifier and value element. Only used for input. </p>
-
-</div>
-</div>
-<a id="a70358ad91c8d3270eb2e70a67635fcb9" name="a70358ad91c8d3270eb2e70a67635fcb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70358ad91c8d3270eb2e70a67635fcb9">&#9670;&#160;</a></span>Iterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::Iterator = typename std::vector&lt;value_t&gt;::const_iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for const iterator over stored values. </p>
-
-</div>
-</div>
-<a id="a3da67f6ea3c707d2d6a6e6e97d35d1c0" name="a3da67f6ea3c707d2d6a6e6e97d35d1c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3da67f6ea3c707d2d6a6e6e97d35d1c0">&#9670;&#160;</a></span>Value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::Value = value_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for stored value type. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a96422b782756c668bdcf45460ea53bd7" name="a96422b782756c668bdcf45460ea53bd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96422b782756c668bdcf45460ea53bd7">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96422b782756c668bdcf45460ea53bd7">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +239,7 @@ template&lt;typename value_t&gt; </div>
 </div>
 </div>
 <a id="a23cfacac635e4046e286d0ba46b07ec9" name="a23cfacac635e4046e286d0ba46b07ec9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23cfacac635e4046e286d0ba46b07ec9">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a23cfacac635e4046e286d0ba46b07ec9">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,118 +262,6 @@ template&lt;typename value_t&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ac25b16d9f0bb6a2def13ea47a4590b38" name="ac25b16d9f0bb6a2def13ea47a4590b38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac25b16d9f0bb6a2def13ea47a4590b38">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::GeometryHierarchyMap </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2bee82f3bc42a3765ea688cd3862436d" name="a2bee82f3bc42a3765ea688cd3862436d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bee82f3bc42a3765ea688cd3862436d">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::GeometryHierarchyMap </td>
-          <td>(</td>
-          <td class="paramtype">const GeometryHierarchyMap&lt; value_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy constructor. </p>
-
-</div>
-</div>
-<a id="aa6d18022818a6b06fce1cf66812607db" name="aa6d18022818a6b06fce1cf66812607db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6d18022818a6b06fce1cf66812607db">&#9670;&#160;</a></span>GeometryHierarchyMap() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::GeometryHierarchyMap </td>
-          <td>(</td>
-          <td class="paramtype">GeometryHierarchyMap&lt; value_t &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move constructor. </p>
-
-</div>
-</div>
-<a id="a6201f2f1e482a8cb5276b372784f99e0" name="a6201f2f1e482a8cb5276b372784f99e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6201f2f1e482a8cb5276b372784f99e0">&#9670;&#160;</a></span>~GeometryHierarchyMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename value_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_geometry_hierarchy_map.html">Acts::GeometryHierarchyMap</a>&lt; value_t &gt;::~<a class="el" href="#a96422b782756c668bdcf45460ea53bd7">GeometryHierarchyMap</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

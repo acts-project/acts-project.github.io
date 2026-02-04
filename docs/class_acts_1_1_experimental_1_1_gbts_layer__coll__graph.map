@@ -1,6 +1,6 @@
 <map id="Acts::Experimental::GbtsLayer" name="Acts::Experimental::GbtsLayer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="655,59,800,99"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html" title=" " alt="" coords="319,5,465,45"/>
+<area shape="rect" id="Node000001" title="Layer helper with eta&#45;bin access for GBTs seeding." alt="" coords="655,59,800,99"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html" title="Lightweight silicon layer description for GBTs geometry." alt="" coords="319,5,465,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,31,631,52,655,57,654,62,630,57,478,36"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="295,77,489,102"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="503,83,654,78,654,84,503,88"/>

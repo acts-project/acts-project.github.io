@@ -5,7 +5,6 @@ var class_acts_1_1_proto_axis =
     [ "ProtoAxis", "class_acts_1_1_proto_axis.html#aef7ea7bb54a3021620c9c7e7ce4d1ed7", null ],
     [ "ProtoAxis", "class_acts_1_1_proto_axis.html#a63d4ef0e5a19118d0b61bf53b9eef953", null ],
     [ "ProtoAxis", "class_acts_1_1_proto_axis.html#ad239ad73b2bc82130b3305151e0bfb4a", null ],
-    [ "~ProtoAxis", "class_acts_1_1_proto_axis.html#a41e0e44538bccd6f89dab0e056ce16b5", null ],
     [ "getAxis", "class_acts_1_1_proto_axis.html#a14f0205ae21523a63ba6de7c1794bf12", null ],
     [ "isAutorange", "class_acts_1_1_proto_axis.html#abf2546ad7e1dc870d89ab196da5995fa", null ],
     [ "operator=", "class_acts_1_1_proto_axis.html#a6748da2664b8b426d677521f460ae441", null ],

@@ -1,7 +1,6 @@
 var struct_acts_plugins_1_1_fpe_monitor_1_1_buffer =
 [
     [ "Buffer", "struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html#a5a3e0cbced7fc369b0147b6675cf274a", null ],
-    [ "Buffer", "struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html#a58881002026a6740ba02e769e5c33f68", null ],
     [ "Buffer", "struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html#a1eee3cbe973172fbc0d550caaf01bb54", null ],
     [ "data", "struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html#af67248f60429b2d5f0a5594794b634ac", null ],
     [ "next", "struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html#a5d302c140f7f1ae4351ff4b0a4e0e07a", null ],

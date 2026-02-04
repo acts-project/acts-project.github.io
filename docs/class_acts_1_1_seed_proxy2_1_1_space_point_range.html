@@ -126,18 +126,30 @@ $(function(){initNavTree('class_acts_1_1_seed_proxy2_1_1_space_point_range.html'
 </div><!--header-->
 <div class="contents">
 
+<p>Range facade for the seed space points.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_seed_proxy2_8hpp_source.html">Acts/EventData/SeedProxy2.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5baa42c934b7df2451508121d5258af1" id="r_a5baa42c934b7df2451508121d5258af1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5baa42c934b7df2451508121d5258af1">SpacePointRange</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePointContainer, std::span&lt; const <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; <a class="el" href="class_acts_1_1_seed_proxy2.html#a4f7b3f5cb8daf0af05d00ebbddf5efaf">spacePointIndices</a>) noexcept</td></tr>
+<tr class="memdesc:a5baa42c934b7df2451508121d5258af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a81b82ab9af009a4dcb5cd222483fd9b6" id="r_a81b82ab9af009a4dcb5cd222483fd9b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html">SpacePointIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81b82ab9af009a4dcb5cd222483fd9b6">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:a81b82ab9af009a4dcb5cd222483fd9b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get iterator to the beginning.  <br /></td></tr>
 <tr class="memitem:a713d4c60b2f8cce7eda25d4a5fdc6b4c" id="r_a713d4c60b2f8cce7eda25d4a5fdc6b4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a713d4c60b2f8cce7eda25d4a5fdc6b4c">empty</a> () const noexcept</td></tr>
+<tr class="memdesc:a713d4c60b2f8cce7eda25d4a5fdc6b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the range is empty.  <br /></td></tr>
 <tr class="memitem:a1ada8f3c399ecbb873d22f11d3ab12ea" id="r_a1ada8f3c399ecbb873d22f11d3ab12ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html">SpacePointIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ada8f3c399ecbb873d22f11d3ab12ea">end</a> () const noexcept</td></tr>
+<tr class="memdesc:a1ada8f3c399ecbb873d22f11d3ab12ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get iterator to the end.  <br /></td></tr>
 <tr class="memitem:aac1df42efffe4e110bbb6b08a2ac1f05" id="r_aac1df42efffe4e110bbb6b08a2ac1f05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac1df42efffe4e110bbb6b08a2ac1f05">operator[]</a> (std::size_t <a class="el" href="class_acts_1_1_seed_proxy2.html#a9c10e4e591d93bb10d37d0150fd50cbb">index</a>) const noexcept</td></tr>
+<tr class="memdesc:aac1df42efffe4e110bbb6b08a2ac1f05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscript operator.  <br /></td></tr>
 <tr class="memitem:a6ae3f7f70f924bbc938b551856b12c53" id="r_a6ae3f7f70f924bbc938b551856b12c53"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ae3f7f70f924bbc938b551856b12c53">size</a> () const noexcept</td></tr>
+<tr class="memdesc:a6ae3f7f70f924bbc938b551856b12c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of space points in the range.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;bool read_only&gt;<br />
+class Acts::SeedProxy2&lt; read_only &gt;::SpacePointRange</div><p>Range facade for the seed space points. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5baa42c934b7df2451508121d5258af1" name="a5baa42c934b7df2451508121d5258af1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5baa42c934b7df2451508121d5258af1">&#9670;&#160;</a></span>SpacePointRange()</h2>
 
@@ -167,6 +179,15 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacePointContainer</td><td>The space point container </td></tr>
+    <tr><td class="paramname">spacePointIndices</td><td>The space point indices </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -195,6 +216,9 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Get iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the first space point </dd></dl>
+
 </div>
 </div>
 <a id="a713d4c60b2f8cce7eda25d4a5fdc6b4c" name="a713d4c60b2f8cce7eda25d4a5fdc6b4c"></a>
@@ -221,6 +245,9 @@ template&lt;bool read_only&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if the range is empty. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the range is empty </dd></dl>
 
 </div>
 </div>
@@ -249,6 +276,9 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Get iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator past the last space point </dd></dl>
+
 </div>
 </div>
 <a id="aac1df42efffe4e110bbb6b08a2ac1f05" name="aac1df42efffe4e110bbb6b08a2ac1f05"></a>
@@ -276,6 +306,15 @@ template&lt;bool read_only&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Subscript operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the space point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Proxy to the space point at the given index </dd></dl>
+
 </div>
 </div>
 <a id="a6ae3f7f70f924bbc938b551856b12c53" name="a6ae3f7f70f924bbc938b551856b12c53"></a>
@@ -302,6 +341,9 @@ template&lt;bool read_only&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get the number of space points in the range. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of space points </dd></dl>
 
 </div>
 </div>

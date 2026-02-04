@@ -138,8 +138,9 @@ Inheritance diagram for Acts::Logging::OutputFilterPolicy:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:addaa7b0a6e64b885bf14ab028287e297" id="r_addaa7b0a6e64b885bf14ab028287e297"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addaa7b0a6e64b885bf14ab028287e297">~OutputFilterPolicy</a> ()=default</td></tr>
-<tr class="memdesc:addaa7b0a6e64b885bf14ab028287e297"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual default destructor  <br /></td></tr>
+<tr class="memitem:addaa7b0a6e64b885bf14ab028287e297" id="r_addaa7b0a6e64b885bf14ab028287e297"><td class="memItemLeft" align="right" valign="top"><a id="addaa7b0a6e64b885bf14ab028287e297" name="addaa7b0a6e64b885bf14ab028287e297"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~OutputFilterPolicy</b> ()=default</td></tr>
+<tr class="memdesc:addaa7b0a6e64b885bf14ab028287e297"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual default destructor <br /></td></tr>
 <tr class="memitem:a52d9f6f0e3366376dadad13e20787863" id="r_a52d9f6f0e3366376dadad13e20787863"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="class_acts_1_1_logging_1_1_output_filter_policy.html">OutputFilterPolicy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52d9f6f0e3366376dadad13e20787863">clone</a> (<a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Level</a> <a class="el" href="#a708963220b29c0e88c9cc20fa795a616">level</a>) const =0</td></tr>
 <tr class="memdesc:a52d9f6f0e3366376dadad13e20787863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a copy of this filter policy with a new level.  <br /></td></tr>
 <tr class="memitem:aa5c7a9002978345371d6f2fb9f9f4b0f" id="r_aa5c7a9002978345371d6f2fb9f9f4b0f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c7a9002978345371d6f2fb9f9f4b0f">doPrint</a> (const <a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Level</a> &amp;lvl) const =0</td></tr>
@@ -150,35 +151,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>abstract base class for filtering debug output </p>
 <p>Implementations of this interface need to define whether a debug message with a certain debug level is processed or filtered out. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="addaa7b0a6e64b885bf14ab028287e297" name="addaa7b0a6e64b885bf14ab028287e297"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addaa7b0a6e64b885bf14ab028287e297">&#9670;&#160;</a></span>~OutputFilterPolicy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::Logging::OutputFilterPolicy::~OutputFilterPolicy </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>virtual default destructor </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a52d9f6f0e3366376dadad13e20787863" name="a52d9f6f0e3366376dadad13e20787863"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52d9f6f0e3366376dadad13e20787863">&#9670;&#160;</a></span>clone()</h2>
 
@@ -294,7 +267,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_logging.html">Logging</a></li><li class="navelem"><a href="class_acts_1_1_logging_1_1_output_filter_policy.html">OutputFilterPolicy</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>Logging</b></li><li class="navelem"><a href="class_acts_1_1_logging_1_1_output_filter_policy.html">OutputFilterPolicy</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -68,7 +68,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="631,-177 402,-177 402,-147 631,-147 631,-177"/>
+<polygon fill="white" stroke="#bfbfbf" points="631,-177 402,-177 402,-147 631,-147 631,-177"/>
 <text text-anchor="start" x="410" y="-165" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyTrackContainer</text>
 <text text-anchor="middle" x="516.5" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ActsPlugins::ConstPodioTrackContainer &gt;</text>
 </a>
@@ -89,7 +89,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="637,-126 396,-126 396,-96 637,-96 637,-126"/>
+<polygon fill="white" stroke="#bfbfbf" points="637,-126 396,-126 396,-96 637,-96 637,-126"/>
 <text text-anchor="start" x="404" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyTrackContainer</text>
 <text text-anchor="middle" x="516.5" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ActsPlugins::MutablePodioTrackContainer &gt;</text>
 </a>
@@ -110,7 +110,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="602.5,-78 430.5,-78 430.5,-48 602.5,-48 602.5,-78"/>
+<polygon fill="white" stroke="#bfbfbf" points="602.5,-78 430.5,-78 430.5,-48 602.5,-48 602.5,-78"/>
 <text text-anchor="start" x="438.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyTrackContainer</text>
 <text text-anchor="middle" x="516.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ConstVectorTrackContainer &gt;</text>
 </a>
@@ -130,7 +130,7 @@ var sectionId = 'dynsection-0';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="602.5,-30 430.5,-30 430.5,0 602.5,0 602.5,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="602.5,-30 430.5,-30 430.5,0 602.5,0 602.5,-30"/>
 <text text-anchor="start" x="438.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IsReadOnlyTrackContainer</text>
 <text text-anchor="middle" x="516.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; VectorTrackContainer &gt;</text>
 </a>

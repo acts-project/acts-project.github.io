@@ -60,7 +60,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="496,-30 318,-30 318,0 496,0 496,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="496,-30 318,-30 318,0 496,0 496,-30"/>
 <text text-anchor="start" x="326" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; BoundTrack</text>
 <text text-anchor="middle" x="407" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Parameters(const InputTrack &amp;)&gt;</text>
 </a>
@@ -80,7 +80,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="152,-30 0,-30 0,0 152,0 152,-30"/>
+<polygon fill="white" stroke="#bfbfbf" points="152,-30 0,-30 0,0 152,0 152,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; typename,</text>
 <text text-anchor="middle" x="76" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> H, DelegateType &gt;</text>
 </a>

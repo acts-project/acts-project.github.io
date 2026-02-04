@@ -11,6 +11,5 @@ var class_acts_1_1_surface_array_creator =
     [ "surfaceArrayOnCylinder", "class_acts_1_1_surface_array_creator.html#a4eb3f10e03e721feee39538c136be983", null ],
     [ "surfaceArrayOnDisc", "class_acts_1_1_surface_array_creator.html#a562af6a1207f9d6ecda0308593fa6d70", null ],
     [ "surfaceArrayOnDisc", "class_acts_1_1_surface_array_creator.html#ac40f4fe782d26cccaf7f37683399f16b", null ],
-    [ "surfaceArrayOnPlane", "class_acts_1_1_surface_array_creator.html#abc9451e4534299ebf42ba3feb55e8333", null ],
-    [ "SurfaceArray", "class_acts_1_1_surface_array_creator.html#ae60b81dade3ec39aa60a12b19e21bf65", null ]
+    [ "surfaceArrayOnPlane", "class_acts_1_1_surface_array_creator.html#abc9451e4534299ebf42ba3feb55e8333", null ]
 ];

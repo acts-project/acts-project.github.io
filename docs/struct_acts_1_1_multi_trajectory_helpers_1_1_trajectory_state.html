@@ -138,245 +138,49 @@ Collaboration diagram for Acts::MultiTrajectoryHelpers::TrajectoryState:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a72d7b093a5438e95495054fa3c7a03ab" id="r_a72d7b093a5438e95495054fa3c7a03ab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d7b093a5438e95495054fa3c7a03ab">chi2Sum</a> = 0</td></tr>
-<tr class="memdesc:a72d7b093a5438e95495054fa3c7a03ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum of chi-squared values from measurements.  <br /></td></tr>
-<tr class="memitem:adadf65077d823e2562cf062dae00c7e9" id="r_adadf65077d823e2562cf062dae00c7e9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adadf65077d823e2562cf062dae00c7e9">measurementChi2</a> = {}</td></tr>
-<tr class="memdesc:adadf65077d823e2562cf062dae00c7e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi-squared contribution from each measurement.  <br /></td></tr>
-<tr class="memitem:ae9da1e35a604907e5a699fe9e1defc13" id="r_ae9da1e35a604907e5a699fe9e1defc13"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9da1e35a604907e5a699fe9e1defc13">measurementLayer</a> = {}</td></tr>
-<tr class="memdesc:ae9da1e35a604907e5a699fe9e1defc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer identifiers for measurement surfaces.  <br /></td></tr>
-<tr class="memitem:ad5c3093b2432ca94921320359834c52b" id="r_ad5c3093b2432ca94921320359834c52b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c3093b2432ca94921320359834c52b">measurementVolume</a> = {}</td></tr>
-<tr class="memdesc:ad5c3093b2432ca94921320359834c52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume identifiers for measurement surfaces.  <br /></td></tr>
-<tr class="memitem:a94505601e945a50a99b0de5ad5066806" id="r_a94505601e945a50a99b0de5ad5066806"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94505601e945a50a99b0de5ad5066806">NDF</a> = 0</td></tr>
-<tr class="memdesc:a94505601e945a50a99b0de5ad5066806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of degrees of freedom in track fit.  <br /></td></tr>
-<tr class="memitem:a3f21656720a02a046fc53ea9c4990e90" id="r_a3f21656720a02a046fc53ea9c4990e90"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f21656720a02a046fc53ea9c4990e90">nHoles</a> = 0</td></tr>
-<tr class="memdesc:a3f21656720a02a046fc53ea9c4990e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of hole states in trajectory.  <br /></td></tr>
-<tr class="memitem:ae14fcd6d4b1f27092379bd0f6127ed82" id="r_ae14fcd6d4b1f27092379bd0f6127ed82"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae14fcd6d4b1f27092379bd0f6127ed82">nMeasurements</a> = 0</td></tr>
-<tr class="memdesc:ae14fcd6d4b1f27092379bd0f6127ed82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of track states with measurements.  <br /></td></tr>
-<tr class="memitem:aa0954fa684b22f5606a2dfb1f99dec02" id="r_aa0954fa684b22f5606a2dfb1f99dec02"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0954fa684b22f5606a2dfb1f99dec02">nOutliers</a> = 0</td></tr>
-<tr class="memdesc:aa0954fa684b22f5606a2dfb1f99dec02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of track states marked as outliers.  <br /></td></tr>
-<tr class="memitem:aaa040163b118207defdf856c937623d1" id="r_aaa040163b118207defdf856c937623d1"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa040163b118207defdf856c937623d1">nSharedHits</a> = 0</td></tr>
-<tr class="memdesc:aaa040163b118207defdf856c937623d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of hits shared with other tracks.  <br /></td></tr>
-<tr class="memitem:ac10b44c3e812160d82bf82dd6eca85d7" id="r_ac10b44c3e812160d82bf82dd6eca85d7"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac10b44c3e812160d82bf82dd6eca85d7">nStates</a> = 0</td></tr>
-<tr class="memdesc:ac10b44c3e812160d82bf82dd6eca85d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of track states in trajectory.  <br /></td></tr>
-<tr class="memitem:a03458ebd39b878843ca3267fd411c129" id="r_a03458ebd39b878843ca3267fd411c129"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03458ebd39b878843ca3267fd411c129">outlierChi2</a> = {}</td></tr>
-<tr class="memdesc:a03458ebd39b878843ca3267fd411c129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi-squared contribution from each outlier.  <br /></td></tr>
-<tr class="memitem:a1fe8b8ea3d3a9dc6f40298322ba8f96e" id="r_a1fe8b8ea3d3a9dc6f40298322ba8f96e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fe8b8ea3d3a9dc6f40298322ba8f96e">outlierLayer</a> = {}</td></tr>
-<tr class="memdesc:a1fe8b8ea3d3a9dc6f40298322ba8f96e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer identifiers for outlier surfaces.  <br /></td></tr>
-<tr class="memitem:a622a3e3abd0fb89ad38142e83306237b" id="r_a622a3e3abd0fb89ad38142e83306237b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622a3e3abd0fb89ad38142e83306237b">outlierVolume</a> = {}</td></tr>
-<tr class="memdesc:a622a3e3abd0fb89ad38142e83306237b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume identifiers for outlier surfaces.  <br /></td></tr>
+<tr class="memitem:a72d7b093a5438e95495054fa3c7a03ab" id="r_a72d7b093a5438e95495054fa3c7a03ab"><td class="memItemLeft" align="right" valign="top"><a id="a72d7b093a5438e95495054fa3c7a03ab" name="a72d7b093a5438e95495054fa3c7a03ab"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>chi2Sum</b> = 0</td></tr>
+<tr class="memdesc:a72d7b093a5438e95495054fa3c7a03ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum of chi-squared values from measurements. <br /></td></tr>
+<tr class="memitem:adadf65077d823e2562cf062dae00c7e9" id="r_adadf65077d823e2562cf062dae00c7e9"><td class="memItemLeft" align="right" valign="top"><a id="adadf65077d823e2562cf062dae00c7e9" name="adadf65077d823e2562cf062dae00c7e9"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>measurementChi2</b> = {}</td></tr>
+<tr class="memdesc:adadf65077d823e2562cf062dae00c7e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi-squared contribution from each measurement. <br /></td></tr>
+<tr class="memitem:ae9da1e35a604907e5a699fe9e1defc13" id="r_ae9da1e35a604907e5a699fe9e1defc13"><td class="memItemLeft" align="right" valign="top"><a id="ae9da1e35a604907e5a699fe9e1defc13" name="ae9da1e35a604907e5a699fe9e1defc13"></a>
+std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>measurementLayer</b> = {}</td></tr>
+<tr class="memdesc:ae9da1e35a604907e5a699fe9e1defc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer identifiers for measurement surfaces. <br /></td></tr>
+<tr class="memitem:ad5c3093b2432ca94921320359834c52b" id="r_ad5c3093b2432ca94921320359834c52b"><td class="memItemLeft" align="right" valign="top"><a id="ad5c3093b2432ca94921320359834c52b" name="ad5c3093b2432ca94921320359834c52b"></a>
+std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>measurementVolume</b> = {}</td></tr>
+<tr class="memdesc:ad5c3093b2432ca94921320359834c52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume identifiers for measurement surfaces. <br /></td></tr>
+<tr class="memitem:a94505601e945a50a99b0de5ad5066806" id="r_a94505601e945a50a99b0de5ad5066806"><td class="memItemLeft" align="right" valign="top"><a id="a94505601e945a50a99b0de5ad5066806" name="a94505601e945a50a99b0de5ad5066806"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>NDF</b> = 0</td></tr>
+<tr class="memdesc:a94505601e945a50a99b0de5ad5066806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of degrees of freedom in track fit. <br /></td></tr>
+<tr class="memitem:a3f21656720a02a046fc53ea9c4990e90" id="r_a3f21656720a02a046fc53ea9c4990e90"><td class="memItemLeft" align="right" valign="top"><a id="a3f21656720a02a046fc53ea9c4990e90" name="a3f21656720a02a046fc53ea9c4990e90"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nHoles</b> = 0</td></tr>
+<tr class="memdesc:a3f21656720a02a046fc53ea9c4990e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of hole states in trajectory. <br /></td></tr>
+<tr class="memitem:ae14fcd6d4b1f27092379bd0f6127ed82" id="r_ae14fcd6d4b1f27092379bd0f6127ed82"><td class="memItemLeft" align="right" valign="top"><a id="ae14fcd6d4b1f27092379bd0f6127ed82" name="ae14fcd6d4b1f27092379bd0f6127ed82"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nMeasurements</b> = 0</td></tr>
+<tr class="memdesc:ae14fcd6d4b1f27092379bd0f6127ed82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of track states with measurements. <br /></td></tr>
+<tr class="memitem:aa0954fa684b22f5606a2dfb1f99dec02" id="r_aa0954fa684b22f5606a2dfb1f99dec02"><td class="memItemLeft" align="right" valign="top"><a id="aa0954fa684b22f5606a2dfb1f99dec02" name="aa0954fa684b22f5606a2dfb1f99dec02"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nOutliers</b> = 0</td></tr>
+<tr class="memdesc:aa0954fa684b22f5606a2dfb1f99dec02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of track states marked as outliers. <br /></td></tr>
+<tr class="memitem:aaa040163b118207defdf856c937623d1" id="r_aaa040163b118207defdf856c937623d1"><td class="memItemLeft" align="right" valign="top"><a id="aaa040163b118207defdf856c937623d1" name="aaa040163b118207defdf856c937623d1"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nSharedHits</b> = 0</td></tr>
+<tr class="memdesc:aaa040163b118207defdf856c937623d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of hits shared with other tracks. <br /></td></tr>
+<tr class="memitem:ac10b44c3e812160d82bf82dd6eca85d7" id="r_ac10b44c3e812160d82bf82dd6eca85d7"><td class="memItemLeft" align="right" valign="top"><a id="ac10b44c3e812160d82bf82dd6eca85d7" name="ac10b44c3e812160d82bf82dd6eca85d7"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStates</b> = 0</td></tr>
+<tr class="memdesc:ac10b44c3e812160d82bf82dd6eca85d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of track states in trajectory. <br /></td></tr>
+<tr class="memitem:a03458ebd39b878843ca3267fd411c129" id="r_a03458ebd39b878843ca3267fd411c129"><td class="memItemLeft" align="right" valign="top"><a id="a03458ebd39b878843ca3267fd411c129" name="a03458ebd39b878843ca3267fd411c129"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>outlierChi2</b> = {}</td></tr>
+<tr class="memdesc:a03458ebd39b878843ca3267fd411c129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi-squared contribution from each outlier. <br /></td></tr>
+<tr class="memitem:a1fe8b8ea3d3a9dc6f40298322ba8f96e" id="r_a1fe8b8ea3d3a9dc6f40298322ba8f96e"><td class="memItemLeft" align="right" valign="top"><a id="a1fe8b8ea3d3a9dc6f40298322ba8f96e" name="a1fe8b8ea3d3a9dc6f40298322ba8f96e"></a>
+std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>outlierLayer</b> = {}</td></tr>
+<tr class="memdesc:a1fe8b8ea3d3a9dc6f40298322ba8f96e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer identifiers for outlier surfaces. <br /></td></tr>
+<tr class="memitem:a622a3e3abd0fb89ad38142e83306237b" id="r_a622a3e3abd0fb89ad38142e83306237b"><td class="memItemLeft" align="right" valign="top"><a id="a622a3e3abd0fb89ad38142e83306237b" name="a622a3e3abd0fb89ad38142e83306237b"></a>
+std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>outlierVolume</b> = {}</td></tr>
+<tr class="memdesc:a622a3e3abd0fb89ad38142e83306237b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume identifiers for outlier surfaces. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Struct for brief trajectory summary info. </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a72d7b093a5438e95495054fa3c7a03ab" name="a72d7b093a5438e95495054fa3c7a03ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d7b093a5438e95495054fa3c7a03ab">&#9670;&#160;</a></span>chi2Sum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::MultiTrajectoryHelpers::TrajectoryState::chi2Sum = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sum of chi-squared values from measurements. </p>
-
-</div>
-</div>
-<a id="adadf65077d823e2562cf062dae00c7e9" name="adadf65077d823e2562cf062dae00c7e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adadf65077d823e2562cf062dae00c7e9">&#9670;&#160;</a></span>measurementChi2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::MultiTrajectoryHelpers::TrajectoryState::measurementChi2 = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Chi-squared contribution from each measurement. </p>
-
-</div>
-</div>
-<a id="ae9da1e35a604907e5a699fe9e1defc13" name="ae9da1e35a604907e5a699fe9e1defc13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9da1e35a604907e5a699fe9e1defc13">&#9670;&#160;</a></span>measurementLayer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; Acts::MultiTrajectoryHelpers::TrajectoryState::measurementLayer = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Layer identifiers for measurement surfaces. </p>
-
-</div>
-</div>
-<a id="ad5c3093b2432ca94921320359834c52b" name="ad5c3093b2432ca94921320359834c52b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5c3093b2432ca94921320359834c52b">&#9670;&#160;</a></span>measurementVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; Acts::MultiTrajectoryHelpers::TrajectoryState::measurementVolume = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Volume identifiers for measurement surfaces. </p>
-
-</div>
-</div>
-<a id="a94505601e945a50a99b0de5ad5066806" name="a94505601e945a50a99b0de5ad5066806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94505601e945a50a99b0de5ad5066806">&#9670;&#160;</a></span>NDF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::MultiTrajectoryHelpers::TrajectoryState::NDF = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of degrees of freedom in track fit. </p>
-
-</div>
-</div>
-<a id="a3f21656720a02a046fc53ea9c4990e90" name="a3f21656720a02a046fc53ea9c4990e90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f21656720a02a046fc53ea9c4990e90">&#9670;&#160;</a></span>nHoles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::MultiTrajectoryHelpers::TrajectoryState::nHoles = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of hole states in trajectory. </p>
-
-</div>
-</div>
-<a id="ae14fcd6d4b1f27092379bd0f6127ed82" name="ae14fcd6d4b1f27092379bd0f6127ed82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae14fcd6d4b1f27092379bd0f6127ed82">&#9670;&#160;</a></span>nMeasurements</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::MultiTrajectoryHelpers::TrajectoryState::nMeasurements = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of track states with measurements. </p>
-
-</div>
-</div>
-<a id="aa0954fa684b22f5606a2dfb1f99dec02" name="aa0954fa684b22f5606a2dfb1f99dec02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0954fa684b22f5606a2dfb1f99dec02">&#9670;&#160;</a></span>nOutliers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::MultiTrajectoryHelpers::TrajectoryState::nOutliers = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of track states marked as outliers. </p>
-
-</div>
-</div>
-<a id="aaa040163b118207defdf856c937623d1" name="aaa040163b118207defdf856c937623d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa040163b118207defdf856c937623d1">&#9670;&#160;</a></span>nSharedHits</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::MultiTrajectoryHelpers::TrajectoryState::nSharedHits = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of hits shared with other tracks. </p>
-
-</div>
-</div>
-<a id="ac10b44c3e812160d82bf82dd6eca85d7" name="ac10b44c3e812160d82bf82dd6eca85d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac10b44c3e812160d82bf82dd6eca85d7">&#9670;&#160;</a></span>nStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Acts::MultiTrajectoryHelpers::TrajectoryState::nStates = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Total number of track states in trajectory. </p>
-
-</div>
-</div>
-<a id="a03458ebd39b878843ca3267fd411c129" name="a03458ebd39b878843ca3267fd411c129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03458ebd39b878843ca3267fd411c129">&#9670;&#160;</a></span>outlierChi2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::MultiTrajectoryHelpers::TrajectoryState::outlierChi2 = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Chi-squared contribution from each outlier. </p>
-
-</div>
-</div>
-<a id="a1fe8b8ea3d3a9dc6f40298322ba8f96e" name="a1fe8b8ea3d3a9dc6f40298322ba8f96e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fe8b8ea3d3a9dc6f40298322ba8f96e">&#9670;&#160;</a></span>outlierLayer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; Acts::MultiTrajectoryHelpers::TrajectoryState::outlierLayer = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Layer identifiers for outlier surfaces. </p>
-
-</div>
-</div>
-<a id="a622a3e3abd0fb89ad38142e83306237b" name="a622a3e3abd0fb89ad38142e83306237b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a622a3e3abd0fb89ad38142e83306237b">&#9670;&#160;</a></span>outlierVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; Acts::MultiTrajectoryHelpers::TrajectoryState::outlierVolume = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Volume identifiers for outlier surfaces. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
@@ -389,7 +193,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_multi_trajectory_helpers.html">MultiTrajectoryHelpers</a></li><li class="navelem"><a href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">TrajectoryState</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><b>MultiTrajectoryHelpers</b></li><li class="navelem"><a href="struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html">TrajectoryState</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

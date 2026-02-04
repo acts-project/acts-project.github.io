@@ -1,15 +1,7 @@
 var group__actsvg__plugin =
 [
     [ "ActsPlugins::Svg::EventDataConverter", "namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html", null ],
-    [ "ActsPlugins::Svg::GridConverter", "namespace_acts_plugins_1_1_svg_1_1_grid_converter.html", null ],
-    [ "ActsPlugins::Svg::IndexedSurfacesConverter", "namespace_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter.html", null ],
-    [ "ActsPlugins::Svg::LayerConverter", "namespace_acts_plugins_1_1_svg_1_1_layer_converter.html", null ],
-    [ "ActsPlugins::Svg::Sheet", "namespace_acts_plugins_1_1_svg_1_1_sheet.html", null ],
     [ "ActsPlugins::Svg::SurfaceArrayConverter", "namespace_acts_plugins_1_1_svg_1_1_surface_array_converter.html", null ],
-    [ "ActsPlugins::Svg::SurfaceConverter", "namespace_acts_plugins_1_1_svg_1_1_surface_converter.html", null ],
-    [ "ActsPlugins::Svg::TrackingGeometryConverter", "namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_converter.html", null ],
-    [ "ActsPlugins::Svg::TrackingGeometryProjections", "namespace_acts_plugins_1_1_svg_1_1_tracking_geometry_projections.html", null ],
-    [ "ActsPlugins::Svg::View", "namespace_acts_plugins_1_1_svg_1_1_view.html", null ],
     [ "ActsPlugins::Svg::GridConverter::Options", "struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html", [
       [ "optionalBound", "struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html#a3f9dbb831a713b84ee7417d376f1d53e", null ],
       [ "style", "struct_acts_plugins_1_1_svg_1_1_grid_converter_1_1_options.html#ac477033394f51210e086881ae91f136c", null ]
@@ -62,18 +54,7 @@ var group__actsvg__plugin =
       [ "xyCrossSection", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#a770b9ecdb1ee33a5e113060e0f0c9b90", null ],
       [ "zrCrossSection", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#aeba562c12c9577dd82a75ca1563125f0", null ]
     ] ],
-    [ "ActsPlugins::Svg::TrackingGeometryProjections::Options", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html", [
-      [ "prefix", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#ade0e9b98e23c7c28fcd18e8258a177a1", null ],
-      [ "rzAxes", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2f1ed3fc5e73508c1a6d976dee7e5c0f", null ],
-      [ "rzEtaLines", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a2222a15a827a105266536efd3b8e8318", null ],
-      [ "trackingGeometryOptions", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html#a8fb885e238cc4bb82dc353c50794c5d4", null ]
-    ] ],
-    [ "ActsPlugins::Svg::LayerConverter::Sheets", "group__actsvg__plugin.html#ga7e3877c269fbcd066540e55056ee866a", [
-      [ "ActsPlugins::Svg::LayerConverter::eModuleInfo", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aaabd99ad8a126fa5c536cb7a3be18ed61", null ],
-      [ "ActsPlugins::Svg::LayerConverter::eGridInfo", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aa11a9e2a96d6cd65b54e53027f97a5f2c", null ],
-      [ "ActsPlugins::Svg::LayerConverter::eCrossSectionXY", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aa7a446ece7abbc84adb45e7bc39cebc9c", null ],
-      [ "ActsPlugins::Svg::LayerConverter::eCrossSectionZR", "group__actsvg__plugin.html#gga7e3877c269fbcd066540e55056ee866aa0dbb9e44db70255326f92e428a01e2d5", null ]
-    ] ],
+    [ "ActsPlugins::Svg::LayerConverter::Sheets", "group__actsvg__plugin.html#ga7e3877c269fbcd066540e55056ee866a", null ],
     [ "ActsPlugins::Svg::SurfaceArrayConverter::convert", "group__actsvg__plugin.html#ga271e1666026fac6edae8f856d8c9b886", null ],
     [ "ActsPlugins::Svg::EventDataConverter::point", "group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27", null ],
     [ "ActsPlugins::Svg::EventDataConverter::pointXY", "group__actsvg__plugin.html#ga9877427985b2ab7b00bec84f34afd57d", null ],

@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe
 </div><!--header-->
 <div class="contents">
 
+<p>Information about a floating-point exception occurrence.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_fpe_monitor_8hpp_source.html">/home/runner/work/acts/acts/Plugins/FpeMonitoring/include/ActsPlugins/FpeMonitoring/FpeMonitor.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsPlugins::FpeMonitor::Result::FpeInfo:</div>
@@ -136,15 +139,23 @@ Collaboration diagram for ActsPlugins::FpeMonitor::Result::FpeInfo:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3039e1bf95e810d286006387f5831a97" id="r_a3039e1bf95e810d286006387f5831a97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3039e1bf95e810d286006387f5831a97">FpeInfo</a> (std::size_t countIn, <a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> typeIn, std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt; stIn)</td></tr>
-<tr class="memitem:a97d1868a13e470e2fd6074be543c6d51" id="r_a97d1868a13e470e2fd6074be543c6d51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d1868a13e470e2fd6074be543c6d51">~FpeInfo</a> ()</td></tr>
+<tr class="memdesc:a3039e1bf95e810d286006387f5831a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aecc43af6fe5f2fe8c0e6c4f03f0e84b2" id="r_aecc43af6fe5f2fe8c0e6c4f03f0e84b2"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc43af6fe5f2fe8c0e6c4f03f0e84b2">count</a></td></tr>
-<tr class="memitem:a6ffa1b85fe435e3e8bff1b29eb54b8f9" id="r_a6ffa1b85fe435e3e8bff1b29eb54b8f9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ffa1b85fe435e3e8bff1b29eb54b8f9">st</a></td></tr>
-<tr class="memitem:aa8808eea0426d348a96520e71593a935" id="r_aa8808eea0426d348a96520e71593a935"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8808eea0426d348a96520e71593a935">type</a></td></tr>
+<tr class="memitem:aecc43af6fe5f2fe8c0e6c4f03f0e84b2" id="r_aecc43af6fe5f2fe8c0e6c4f03f0e84b2"><td class="memItemLeft" align="right" valign="top"><a id="aecc43af6fe5f2fe8c0e6c4f03f0e84b2" name="aecc43af6fe5f2fe8c0e6c4f03f0e84b2"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b></td></tr>
+<tr class="memdesc:aecc43af6fe5f2fe8c0e6c4f03f0e84b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times this exception occurred. <br /></td></tr>
+<tr class="memitem:a6ffa1b85fe435e3e8bff1b29eb54b8f9" id="r_a6ffa1b85fe435e3e8bff1b29eb54b8f9"><td class="memItemLeft" align="right" valign="top"><a id="a6ffa1b85fe435e3e8bff1b29eb54b8f9" name="a6ffa1b85fe435e3e8bff1b29eb54b8f9"></a>
+std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>st</b></td></tr>
+<tr class="memdesc:a6ffa1b85fe435e3e8bff1b29eb54b8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack trace where the exception occurred. <br /></td></tr>
+<tr class="memitem:aa8808eea0426d348a96520e71593a935" id="r_aa8808eea0426d348a96520e71593a935"><td class="memItemLeft" align="right" valign="top"><a id="aa8808eea0426d348a96520e71593a935" name="aa8808eea0426d348a96520e71593a935"></a>
+<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<tr class="memdesc:aa8808eea0426d348a96520e71593a935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of floating-point exception. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Information about a floating-point exception occurrence. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3039e1bf95e810d286006387f5831a97" name="a3039e1bf95e810d286006387f5831a97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3039e1bf95e810d286006387f5831a97">&#9670;&#160;</a></span>FpeInfo()</h2>
 
@@ -169,65 +180,15 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a97d1868a13e470e2fd6074be543c6d51" name="a97d1868a13e470e2fd6074be543c6d51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d1868a13e470e2fd6074be543c6d51">&#9670;&#160;</a></span>~FpeInfo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::FpeMonitor::Result::FpeInfo::~FpeInfo </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aecc43af6fe5f2fe8c0e6c4f03f0e84b2" name="aecc43af6fe5f2fe8c0e6c4f03f0e84b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecc43af6fe5f2fe8c0e6c4f03f0e84b2">&#9670;&#160;</a></span>count</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t ActsPlugins::FpeMonitor::Result::FpeInfo::count</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6ffa1b85fe435e3e8bff1b29eb54b8f9" name="a6ffa1b85fe435e3e8bff1b29eb54b8f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ffa1b85fe435e3e8bff1b29eb54b8f9">&#9670;&#160;</a></span>st</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const boost::stacktrace::stacktrace&gt; ActsPlugins::FpeMonitor::Result::FpeInfo::st</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8808eea0426d348a96520e71593a935" name="aa8808eea0426d348a96520e71593a935"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8808eea0426d348a96520e71593a935">&#9670;&#160;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> ActsPlugins::FpeMonitor::Result::FpeInfo::type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">countIn</td><td>Number of occurrences </td></tr>
+    <tr><td class="paramname">typeIn</td><td>Exception type </td></tr>
+    <tr><td class="paramname">stIn</td><td>Stack trace </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

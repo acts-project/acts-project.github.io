@@ -122,7 +122,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="class_acts_1_1_generic_cuboid_volume_bounds.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="class_acts_1_1_generic_cuboid_volume_bounds.html" target="_top" xlink:title="Volume bounds described by eight arbitrary cuboid vertices.">
 <polygon fill="white" stroke="#666666" points="309.5,-67.5 157.5,-67.5 157.5,-37.5 309.5,-37.5 309.5,-67.5"/>
 <text text-anchor="start" x="165.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::GenericCuboidVolume</text>
 <text text-anchor="middle" x="233.5" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00">Bounds</text>

@@ -143,24 +143,32 @@ Collaboration diagram for Acts::Grid&lt; T, Axes &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8205b4577a2ace49cda7d815afeb19a7" id="r_a8205b4577a2ace49cda7d815afeb19a7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8205b4577a2ace49cda7d815afeb19a7">const_reference</a> = const <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a>&amp;</td></tr>
-<tr class="memdesc:a8205b4577a2ace49cda7d815afeb19a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constant reference type to values stored  <br /></td></tr>
-<tr class="memitem:ac24fac812625c7c0d227e0fdf028c2b2" id="r_ac24fac812625c7c0d227e0fdf028c2b2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac24fac812625c7c0d227e0fdf028c2b2">global_iterator_t</a> = <a class="el" href="class_acts_1_1_grid_global_iterator.html">GridGlobalIterator</a>&lt;T, Axes...&gt;</td></tr>
-<tr class="memdesc:ac24fac812625c7c0d227e0fdf028c2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">global iterator type  <br /></td></tr>
-<tr class="memitem:a55c9e732ec7e0e0e4800490d8272d33d" id="r_a55c9e732ec7e0e0e4800490d8272d33d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55c9e732ec7e0e0e4800490d8272d33d">index_t</a> = std::array&lt;std::size_t, <a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a>&gt;</td></tr>
-<tr class="memdesc:a55c9e732ec7e0e0e4800490d8272d33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">index type using local bin indices along each axis  <br /></td></tr>
-<tr class="memitem:a6086f3ab4bbdd80547dd5e479ae84db4" id="r_a6086f3ab4bbdd80547dd5e479ae84db4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6086f3ab4bbdd80547dd5e479ae84db4">local_iterator_t</a> = <a class="el" href="class_acts_1_1_grid_local_iterator.html">GridLocalIterator</a>&lt;T, Axes...&gt;</td></tr>
-<tr class="memdesc:a6086f3ab4bbdd80547dd5e479ae84db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">local iterator type  <br /></td></tr>
-<tr class="memitem:a08b042739a01f10b6335cba8b263cd5f" id="r_a08b042739a01f10b6335cba8b263cd5f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b042739a01f10b6335cba8b263cd5f">point_t</a> = std::array&lt;double, <a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a>&gt;</td></tr>
-<tr class="memdesc:a08b042739a01f10b6335cba8b263cd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">type for points in d-dimensional grid space  <br /></td></tr>
-<tr class="memitem:aba9b11f16410c5a8246230a819fec8ad" id="r_aba9b11f16410c5a8246230a819fec8ad"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba9b11f16410c5a8246230a819fec8ad">reference</a> = <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a>&amp;</td></tr>
-<tr class="memdesc:aba9b11f16410c5a8246230a819fec8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference type to values stored  <br /></td></tr>
-<tr class="memitem:ab991c0a988e9448afb12046fadd43013" id="r_ab991c0a988e9448afb12046fadd43013"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a> = T</td></tr>
-<tr class="memdesc:ab991c0a988e9448afb12046fadd43013"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of values stored  <br /></td></tr>
+<tr class="memitem:a8205b4577a2ace49cda7d815afeb19a7" id="r_a8205b4577a2ace49cda7d815afeb19a7"><td class="memItemLeft" align="right" valign="top"><a id="a8205b4577a2ace49cda7d815afeb19a7" name="a8205b4577a2ace49cda7d815afeb19a7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_reference</b> = const <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a>&amp;</td></tr>
+<tr class="memdesc:a8205b4577a2ace49cda7d815afeb19a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constant reference type to values stored <br /></td></tr>
+<tr class="memitem:ac24fac812625c7c0d227e0fdf028c2b2" id="r_ac24fac812625c7c0d227e0fdf028c2b2"><td class="memItemLeft" align="right" valign="top"><a id="ac24fac812625c7c0d227e0fdf028c2b2" name="ac24fac812625c7c0d227e0fdf028c2b2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>global_iterator_t</b> = <a class="el" href="class_acts_1_1_grid_global_iterator.html">GridGlobalIterator</a>&lt;T, Axes...&gt;</td></tr>
+<tr class="memdesc:ac24fac812625c7c0d227e0fdf028c2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">global iterator type <br /></td></tr>
+<tr class="memitem:a55c9e732ec7e0e0e4800490d8272d33d" id="r_a55c9e732ec7e0e0e4800490d8272d33d"><td class="memItemLeft" align="right" valign="top"><a id="a55c9e732ec7e0e0e4800490d8272d33d" name="a55c9e732ec7e0e0e4800490d8272d33d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>index_t</b> = std::array&lt;std::size_t, <a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a>&gt;</td></tr>
+<tr class="memdesc:a55c9e732ec7e0e0e4800490d8272d33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">index type using local bin indices along each axis <br /></td></tr>
+<tr class="memitem:a6086f3ab4bbdd80547dd5e479ae84db4" id="r_a6086f3ab4bbdd80547dd5e479ae84db4"><td class="memItemLeft" align="right" valign="top"><a id="a6086f3ab4bbdd80547dd5e479ae84db4" name="a6086f3ab4bbdd80547dd5e479ae84db4"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>local_iterator_t</b> = <a class="el" href="class_acts_1_1_grid_local_iterator.html">GridLocalIterator</a>&lt;T, Axes...&gt;</td></tr>
+<tr class="memdesc:a6086f3ab4bbdd80547dd5e479ae84db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">local iterator type <br /></td></tr>
+<tr class="memitem:a08b042739a01f10b6335cba8b263cd5f" id="r_a08b042739a01f10b6335cba8b263cd5f"><td class="memItemLeft" align="right" valign="top"><a id="a08b042739a01f10b6335cba8b263cd5f" name="a08b042739a01f10b6335cba8b263cd5f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>point_t</b> = std::array&lt;double, <a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a>&gt;</td></tr>
+<tr class="memdesc:a08b042739a01f10b6335cba8b263cd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">type for points in d-dimensional grid space <br /></td></tr>
+<tr class="memitem:aba9b11f16410c5a8246230a819fec8ad" id="r_aba9b11f16410c5a8246230a819fec8ad"><td class="memItemLeft" align="right" valign="top"><a id="aba9b11f16410c5a8246230a819fec8ad" name="aba9b11f16410c5a8246230a819fec8ad"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b> = <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a>&amp;</td></tr>
+<tr class="memdesc:aba9b11f16410c5a8246230a819fec8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference type to values stored <br /></td></tr>
+<tr class="memitem:ab991c0a988e9448afb12046fadd43013" id="r_ab991c0a988e9448afb12046fadd43013"><td class="memItemLeft" align="right" valign="top"><a id="ab991c0a988e9448afb12046fadd43013" name="ab991c0a988e9448afb12046fadd43013"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = T</td></tr>
+<tr class="memdesc:ab991c0a988e9448afb12046fadd43013"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of values stored <br /></td></tr>
 <tr class="memitem:a31a3b1d6d21fe7aa914f42fa40355ce3" id="r_a31a3b1d6d21fe7aa914f42fa40355ce3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_grid.html#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> = boost::container::small_vector&lt;std::size_t, 3&gt;</td></tr>
 <tr class="memdesc:a31a3b1d6d21fe7aa914f42fa40355ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased interface to access the contents of the grid.  <br /></td></tr>
-<tr class="memitem:ad7432c51cdb8a6d214a61ae2496a1726" id="r_ad7432c51cdb8a6d214a61ae2496a1726"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_grid.html#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a> = boost::container::small_vector&lt;double, 3&gt;</td></tr>
-<tr class="memdesc:ad7432c51cdb8a6d214a61ae2496a1726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic point type (coordinates as vector of doubles).  <br /></td></tr>
+<tr class="memitem:ad7432c51cdb8a6d214a61ae2496a1726" id="r_ad7432c51cdb8a6d214a61ae2496a1726"><td class="memItemLeft" align="right" valign="top"><a id="ad7432c51cdb8a6d214a61ae2496a1726" name="ad7432c51cdb8a6d214a61ae2496a1726"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = boost::container::small_vector&lt;double, 3&gt;</td></tr>
+<tr class="memdesc:ad7432c51cdb8a6d214a61ae2496a1726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic point type (coordinates as vector of doubles). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -272,13 +280,12 @@ requires (Concepts::interpolatable&lt;T, Point, std::array&lt;double, <a class="
 <tr class="memdesc:a8aa9a817970fc420b74a9f1dec6aeb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the upper right edge of a bin for a given set of indices.     <br /></td></tr>
 <tr class="memitem:a7306115e1f89b930216172dc5c60de04" id="r_a7306115e1f89b930216172dc5c60de04"><td class="memItemLeft" align="right" valign="top">const std::type_info &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7306115e1f89b930216172dc5c60de04">valueType</a> () const override</td></tr>
 <tr class="memdesc:a7306115e1f89b930216172dc5c60de04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the values stored in the grid.     <br /></td></tr>
-<tr class="inherit_header pub_methods_class_acts_1_1_i_grid"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_i_grid')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_grid.html">Acts::IGrid</a></td></tr>
-<tr class="memitem:ab46c309b63c9075b019d70bd9dd61760 inherit pub_methods_class_acts_1_1_i_grid" id="r_ab46c309b63c9075b019d70bd9dd61760"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_grid.html#ab46c309b63c9075b019d70bd9dd61760">~IGrid</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a70f9ce730a3ae12db001f3041cf0abb0" id="r_a70f9ce730a3ae12db001f3041cf0abb0"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a> = sizeof...(Axes)</td></tr>
-<tr class="memdesc:a70f9ce730a3ae12db001f3041cf0abb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of dimensions of the grid  <br /></td></tr>
+<tr class="memitem:a70f9ce730a3ae12db001f3041cf0abb0" id="r_a70f9ce730a3ae12db001f3041cf0abb0"><td class="memItemLeft" align="right" valign="top"><a id="a70f9ce730a3ae12db001f3041cf0abb0" name="a70f9ce730a3ae12db001f3041cf0abb0"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>DIM</b> = sizeof...(Axes)</td></tr>
+<tr class="memdesc:a70f9ce730a3ae12db001f3041cf0abb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of dimensions of the grid <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -299,134 +306,7 @@ class Acts::Grid&lt; T, Axes &gt;</div><p>class for describing a regular multi-d
 <dl class="section note"><dt>Note</dt><dd><code>T</code> must be default-constructible. </dd>
 <dd>
 <code>T</code> must not be <code>bool</code>, because <code>std::vector&lt;bool&gt;</code> is special and does not return references to its elements. </dd></dl>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a8205b4577a2ace49cda7d815afeb19a7" name="a8205b4577a2ace49cda7d815afeb19a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8205b4577a2ace49cda7d815afeb19a7">&#9670;&#160;</a></span>const_reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::const_reference = const <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a>&amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>constant reference type to values stored </p>
-
-</div>
-</div>
-<a id="ac24fac812625c7c0d227e0fdf028c2b2" name="ac24fac812625c7c0d227e0fdf028c2b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24fac812625c7c0d227e0fdf028c2b2">&#9670;&#160;</a></span>global_iterator_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::global_iterator_t = <a class="el" href="class_acts_1_1_grid_global_iterator.html">GridGlobalIterator</a>&lt;T, Axes...&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>global iterator type </p>
-
-</div>
-</div>
-<a id="a55c9e732ec7e0e0e4800490d8272d33d" name="a55c9e732ec7e0e0e4800490d8272d33d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55c9e732ec7e0e0e4800490d8272d33d">&#9670;&#160;</a></span>index_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::index_t = std::array&lt;std::size_t, <a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>index type using local bin indices along each axis </p>
-
-</div>
-</div>
-<a id="a6086f3ab4bbdd80547dd5e479ae84db4" name="a6086f3ab4bbdd80547dd5e479ae84db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6086f3ab4bbdd80547dd5e479ae84db4">&#9670;&#160;</a></span>local_iterator_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::local_iterator_t = <a class="el" href="class_acts_1_1_grid_local_iterator.html">GridLocalIterator</a>&lt;T, Axes...&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>local iterator type </p>
-
-</div>
-</div>
-<a id="a08b042739a01f10b6335cba8b263cd5f" name="a08b042739a01f10b6335cba8b263cd5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08b042739a01f10b6335cba8b263cd5f">&#9670;&#160;</a></span>point_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::point_t = std::array&lt;double, <a class="el" href="#a70f9ce730a3ae12db001f3041cf0abb0">DIM</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>type for points in d-dimensional grid space </p>
-
-</div>
-</div>
-<a id="aba9b11f16410c5a8246230a819fec8ad" name="aba9b11f16410c5a8246230a819fec8ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba9b11f16410c5a8246230a819fec8ad">&#9670;&#160;</a></span>reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::reference = <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a>&amp;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>reference type to values stored </p>
-
-</div>
-</div>
-<a id="ab991c0a988e9448afb12046fadd43013" name="ab991c0a988e9448afb12046fadd43013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab991c0a988e9448afb12046fadd43013">&#9670;&#160;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::value_type = T</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>type of values stored </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aac697c56117d7c86c8d095f46ab13715" name="aac697c56117d7c86c8d095f46ab13715"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac697c56117d7c86c8d095f46ab13715">&#9670;&#160;</a></span>Grid() <span class="overload">[1/6]</span></h2>
 
@@ -2008,33 +1888,6 @@ template&lt;typename T, class... Axes&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>The type of the values stored in the grid    </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_i_grid.html#a4bc379c1d86be80f112821eb29b72217">Acts::IGrid</a>.</p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a70f9ce730a3ae12db001f3041cf0abb0" name="a70f9ce730a3ae12db001f3041cf0abb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f9ce730a3ae12db001f3041cf0abb0">&#9670;&#160;</a></span>DIM</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::DIM = sizeof...(Axes)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>number of dimensions of the grid </p>
 
 </div>
 </div>

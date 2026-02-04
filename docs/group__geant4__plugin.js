@@ -1,6 +1,5 @@
 var group__geant4__plugin =
 [
-    [ "ActsPlugins::Geant4PhysicalVolumeSelectors", "namespace_acts_plugins_1_1_geant4_physical_volume_selectors.html", null ],
     [ "ActsPlugins::Geant4AlgebraConverter", "struct_acts_plugins_1_1_geant4_algebra_converter.html", [
       [ "transform", "struct_acts_plugins_1_1_geant4_algebra_converter.html#aa97a8225fd036bb1bb99adee55d771a4", null ],
       [ "transform", "struct_acts_plugins_1_1_geant4_algebra_converter.html#a77ed19f4b3e441710f8d77544ca9de53", null ],
@@ -64,7 +63,6 @@ var group__geant4__plugin =
       [ "cylinderBounds", "struct_acts_plugins_1_1_geant4_volume_converter.html#a8917776e42e20954830b191e230f68bf", null ]
     ] ],
     [ "ActsPlugins::IGeant4PhysicalVolumeSelector", "class_acts_plugins_1_1_i_geant4_physical_volume_selector.html", [
-      [ "~IGeant4PhysicalVolumeSelector", "class_acts_plugins_1_1_i_geant4_physical_volume_selector.html#ac54de1f615d933afd80eb427615281a6", null ],
       [ "select", "class_acts_plugins_1_1_i_geant4_physical_volume_selector.html#aaaf78617ea3cf7499271630134dce40b", null ]
     ] ]
 ];

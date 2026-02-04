@@ -58,7 +58,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Eta&#45;bin container for GBTs nodes and edge data.">
 <polygon fill="#999999" stroke="#666666" points="628,-107.57 519,-107.57 519,-77.57 628,-77.57 628,-107.57"/>
 <text text-anchor="start" x="527" y="-95.57" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="573.5" y="-84.57" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsEtaBin</text>

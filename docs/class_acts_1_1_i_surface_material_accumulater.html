@@ -143,8 +143,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0bc744e32cdb3f0ab74cf0f3abc15563" id="r_a0bc744e32cdb3f0ab74cf0f3abc15563"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc744e32cdb3f0ab74cf0f3abc15563">~ISurfaceMaterialAccumulater</a> ()=default</td></tr>
-<tr class="memdesc:a0bc744e32cdb3f0ab74cf0f3abc15563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:a0bc744e32cdb3f0ab74cf0f3abc15563" id="r_a0bc744e32cdb3f0ab74cf0f3abc15563"><td class="memItemLeft" align="right" valign="top"><a id="a0bc744e32cdb3f0ab74cf0f3abc15563" name="a0bc744e32cdb3f0ab74cf0f3abc15563"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISurfaceMaterialAccumulater</b> ()=default</td></tr>
+<tr class="memdesc:a0bc744e32cdb3f0ab74cf0f3abc15563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="memitem:af90269e8979563e44ad3adf5306d0bae" id="r_af90269e8979563e44ad3adf5306d0bae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af90269e8979563e44ad3adf5306d0bae">accumulate</a> (<a class="el" href="class_acts_1_1_i_surface_material_accumulater_1_1_state.html">State</a> &amp;state, const std::vector&lt; <a class="el" href="struct_acts_1_1_material_interaction.html">MaterialInteraction</a> &gt; &amp;interactions, const std::vector&lt; <a class="el" href="struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html">IAssignmentFinder::SurfaceAssignment</a> &gt; &amp;surfacesWithoutAssignment) const =0</td></tr>
 <tr class="memdesc:af90269e8979563e44ad3adf5306d0bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulate the material interaction on the surface.  <br /></td></tr>
 <tr class="memitem:ae21471059df6912ce39a9d0cdbce6b1e" id="r_ae21471059df6912ce39a9d0cdbce6b1e"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_surface_material_accumulater_1_1_state.html">State</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21471059df6912ce39a9d0cdbce6b1e">createState</a> () const =0</td></tr>
@@ -154,35 +155,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for the material mapping, this is the accumulation step. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0bc744e32cdb3f0ab74cf0f3abc15563" name="a0bc744e32cdb3f0ab74cf0f3abc15563"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bc744e32cdb3f0ab74cf0f3abc15563">&#9670;&#160;</a></span>~ISurfaceMaterialAccumulater()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ISurfaceMaterialAccumulater::~ISurfaceMaterialAccumulater </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="af90269e8979563e44ad3adf5306d0bae" name="af90269e8979563e44ad3adf5306d0bae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af90269e8979563e44ad3adf5306d0bae">&#9670;&#160;</a></span>accumulate()</h2>
 

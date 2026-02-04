@@ -138,8 +138,9 @@ Inheritance diagram for Acts::PortalShellBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a66e23293bbf7b5d286e54b4e84751f58" id="r_a66e23293bbf7b5d286e54b4e84751f58"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e23293bbf7b5d286e54b4e84751f58">~PortalShellBase</a> ()=default</td></tr>
-<tr class="memdesc:a66e23293bbf7b5d286e54b4e84751f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:a66e23293bbf7b5d286e54b4e84751f58" id="r_a66e23293bbf7b5d286e54b4e84751f58"><td class="memItemLeft" align="right" valign="top"><a id="a66e23293bbf7b5d286e54b4e84751f58" name="a66e23293bbf7b5d286e54b4e84751f58"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</b> ()=default</td></tr>
+<tr class="memdesc:a66e23293bbf7b5d286e54b4e84751f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 <tr class="memitem:ac968f1ebc65c5106de79eebd084afa3d" id="r_ac968f1ebc65c5106de79eebd084afa3d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac968f1ebc65c5106de79eebd084afa3d">applyToVolume</a> ()=0</td></tr>
 <tr class="memdesc:ac968f1ebc65c5106de79eebd084afa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct the shell to register the portals with the volume, handing over shared ownership in the process.  <br /></td></tr>
 <tr class="memitem:add7d28fe9d64f35395fcc2add7d413a2" id="r_add7d28fe9d64f35395fcc2add7d413a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add7d28fe9d64f35395fcc2add7d413a2">fill</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)=0</td></tr>
@@ -155,35 +156,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>The portal shell of a volume is the set of portals that describes connections "outside" of the volume. </p>
 <p>Which boundary surfaces of a volume are included in the shell depends on the volume. Portal shells are only used during geometry construction, and are not part of the final geometry description.</p>
 <p>This class is the base class for all portal shells </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a66e23293bbf7b5d286e54b4e84751f58" name="a66e23293bbf7b5d286e54b4e84751f58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e23293bbf7b5d286e54b4e84751f58">&#9670;&#160;</a></span>~PortalShellBase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::PortalShellBase::~PortalShellBase </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Virtual destructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ac968f1ebc65c5106de79eebd084afa3d" name="ac968f1ebc65c5106de79eebd084afa3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac968f1ebc65c5106de79eebd084afa3d">&#9670;&#160;</a></span>applyToVolume()</h2>
 

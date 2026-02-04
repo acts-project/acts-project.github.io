@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_cylindrical_space_poi
 </div><!--header-->
 <div class="contents">
 
+<p>Candidate space point indices grouped by z ordering.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_cylindrical_space_point_k_d_tree_8hpp_source.html">Acts/Seeding2/CylindricalSpacePointKDTree.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::CylindricalSpacePointKDTree::Candidates:</div>
@@ -135,38 +138,30 @@ Collaboration diagram for Acts::Experimental::CylindricalSpacePointKDTree::Candi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a12f73db53317615c5cf62b766f2208f2" id="r_a12f73db53317615c5cf62b766f2208f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f73db53317615c5cf62b766f2208f2">clear</a> ()</td></tr>
+<tr class="memitem:a12f73db53317615c5cf62b766f2208f2" id="r_a12f73db53317615c5cf62b766f2208f2"><td class="memItemLeft" align="right" valign="top"><a id="a12f73db53317615c5cf62b766f2208f2" name="a12f73db53317615c5cf62b766f2208f2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="memdesc:a12f73db53317615c5cf62b766f2208f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all candidate vectors. <br /></td></tr>
 <tr class="memitem:a06b1b899abc38afbf1b23176e2af8372" id="r_a06b1b899abc38afbf1b23176e2af8372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06b1b899abc38afbf1b23176e2af8372">reserve</a> (std::size_t n)</td></tr>
+<tr class="memdesc:a06b1b899abc38afbf1b23176e2af8372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve space for candidates.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2a45d648b18f89b5f93f6d049600d99e" id="r_a2a45d648b18f89b5f93f6d049600d99e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a45d648b18f89b5f93f6d049600d99e">bottom_hl_v</a></td></tr>
-<tr class="memdesc:a2a45d648b18f89b5f93f6d049600d99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">denotes the candidate bottom points assuming that the track has monotonically <em>decreasing</em> z position  <br /></td></tr>
-<tr class="memitem:ae1a88971912f03558328586d527d2d7b" id="r_ae1a88971912f03558328586d527d2d7b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1a88971912f03558328586d527d2d7b">bottom_lh_v</a></td></tr>
-<tr class="memdesc:ae1a88971912f03558328586d527d2d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">denotes the candidates bottom seed points, assuming that the track has monotonically <em>increasing</em> z position  <br /></td></tr>
-<tr class="memitem:ab93327515848dfe755f1d8fa07d0a13c" id="r_ab93327515848dfe755f1d8fa07d0a13c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab93327515848dfe755f1d8fa07d0a13c">top_hl_v</a></td></tr>
-<tr class="memdesc:ab93327515848dfe755f1d8fa07d0a13c"><td class="mdescLeft">&#160;</td><td class="mdescRight">are the candidate top points for a decreasing z track  <br /></td></tr>
-<tr class="memitem:a3a5463ee6ddda6fe904b3752e83fcb97" id="r_a3a5463ee6ddda6fe904b3752e83fcb97"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a5463ee6ddda6fe904b3752e83fcb97">top_lh_v</a></td></tr>
-<tr class="memdesc:a3a5463ee6ddda6fe904b3752e83fcb97"><td class="mdescLeft">&#160;</td><td class="mdescRight">are the candidate top points for an increasing z track  <br /></td></tr>
+<tr class="memitem:a2a45d648b18f89b5f93f6d049600d99e" id="r_a2a45d648b18f89b5f93f6d049600d99e"><td class="memItemLeft" align="right" valign="top"><a id="a2a45d648b18f89b5f93f6d049600d99e" name="a2a45d648b18f89b5f93f6d049600d99e"></a>
+std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bottom_hl_v</b></td></tr>
+<tr class="memdesc:a2a45d648b18f89b5f93f6d049600d99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">denotes the candidate bottom points assuming that the track has monotonically <em>decreasing</em> z position <br /></td></tr>
+<tr class="memitem:ae1a88971912f03558328586d527d2d7b" id="r_ae1a88971912f03558328586d527d2d7b"><td class="memItemLeft" align="right" valign="top"><a id="ae1a88971912f03558328586d527d2d7b" name="ae1a88971912f03558328586d527d2d7b"></a>
+std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bottom_lh_v</b></td></tr>
+<tr class="memdesc:ae1a88971912f03558328586d527d2d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">denotes the candidates bottom seed points, assuming that the track has monotonically <em>increasing</em> z position <br /></td></tr>
+<tr class="memitem:ab93327515848dfe755f1d8fa07d0a13c" id="r_ab93327515848dfe755f1d8fa07d0a13c"><td class="memItemLeft" align="right" valign="top"><a id="ab93327515848dfe755f1d8fa07d0a13c" name="ab93327515848dfe755f1d8fa07d0a13c"></a>
+std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>top_hl_v</b></td></tr>
+<tr class="memdesc:ab93327515848dfe755f1d8fa07d0a13c"><td class="mdescLeft">&#160;</td><td class="mdescRight">are the candidate top points for a decreasing z track <br /></td></tr>
+<tr class="memitem:a3a5463ee6ddda6fe904b3752e83fcb97" id="r_a3a5463ee6ddda6fe904b3752e83fcb97"><td class="memItemLeft" align="right" valign="top"><a id="a3a5463ee6ddda6fe904b3752e83fcb97" name="a3a5463ee6ddda6fe904b3752e83fcb97"></a>
+std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>top_lh_v</b></td></tr>
+<tr class="memdesc:a3a5463ee6ddda6fe904b3752e83fcb97"><td class="mdescLeft">&#160;</td><td class="mdescRight">are the candidate top points for an increasing z track <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a12f73db53317615c5cf62b766f2208f2" name="a12f73db53317615c5cf62b766f2208f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12f73db53317615c5cf62b766f2208f2">&#9670;&#160;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::Experimental::CylindricalSpacePointKDTree::Candidates::clear </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Candidate space point indices grouped by z ordering. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a06b1b899abc38afbf1b23176e2af8372" name="a06b1b899abc38afbf1b23176e2af8372"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06b1b899abc38afbf1b23176e2af8372">&#9670;&#160;</a></span>reserve()</h2>
 
@@ -182,70 +177,13 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a2a45d648b18f89b5f93f6d049600d99e" name="a2a45d648b18f89b5f93f6d049600d99e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a45d648b18f89b5f93f6d049600d99e">&#9670;&#160;</a></span>bottom_hl_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>&gt; Acts::Experimental::CylindricalSpacePointKDTree::Candidates::bottom_hl_v</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>denotes the candidate bottom points assuming that the track has monotonically <em>decreasing</em> z position </p>
-
-</div>
-</div>
-<a id="ae1a88971912f03558328586d527d2d7b" name="ae1a88971912f03558328586d527d2d7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1a88971912f03558328586d527d2d7b">&#9670;&#160;</a></span>bottom_lh_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>&gt; Acts::Experimental::CylindricalSpacePointKDTree::Candidates::bottom_lh_v</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>denotes the candidates bottom seed points, assuming that the track has monotonically <em>increasing</em> z position </p>
-
-</div>
-</div>
-<a id="ab93327515848dfe755f1d8fa07d0a13c" name="ab93327515848dfe755f1d8fa07d0a13c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab93327515848dfe755f1d8fa07d0a13c">&#9670;&#160;</a></span>top_hl_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>&gt; Acts::Experimental::CylindricalSpacePointKDTree::Candidates::top_hl_v</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>are the candidate top points for a decreasing z track </p>
-
-</div>
-</div>
-<a id="a3a5463ee6ddda6fe904b3752e83fcb97" name="a3a5463ee6ddda6fe904b3752e83fcb97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a5463ee6ddda6fe904b3752e83fcb97">&#9670;&#160;</a></span>top_lh_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>&gt; Acts::Experimental::CylindricalSpacePointKDTree::Candidates::top_lh_v</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>are the candidate top points for an increasing z track </p>
+<p>Reserve space for candidates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Number of candidates to reserve space for </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

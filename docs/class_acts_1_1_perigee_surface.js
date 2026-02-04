@@ -8,6 +8,5 @@ var class_acts_1_1_perigee_surface =
     [ "operator=", "class_acts_1_1_perigee_surface.html#a3907b466dc4f819bcd9529dfa67d98ee", null ],
     [ "polyhedronRepresentation", "class_acts_1_1_perigee_surface.html#a2c27587f2d637a46b51e217fe24a99c2", null ],
     [ "toStreamImpl", "class_acts_1_1_perigee_surface.html#ad683910f8e9bb1c5adc77811a8467250", null ],
-    [ "type", "class_acts_1_1_perigee_surface.html#a2c55b049f9b6c6b39e60117bda7ca38d", null ],
-    [ "Surface", "class_acts_1_1_perigee_surface.html#a432070efb8401735ea64bc0e98feebe5", null ]
+    [ "type", "class_acts_1_1_perigee_surface.html#a2c55b049f9b6c6b39e60117bda7ca38d", null ]
 ];

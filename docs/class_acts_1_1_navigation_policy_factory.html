@@ -133,8 +133,9 @@ $(function(){initNavTree('class_acts_1_1_navigation_policy_factory.html','','cla
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5185b6a55ec266fa049bfb8f02b2245d" id="r_a5185b6a55ec266fa049bfb8f02b2245d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5185b6a55ec266fa049bfb8f02b2245d">NavigationPolicyFactory</a> ()=default</td></tr>
-<tr class="memdesc:a5185b6a55ec266fa049bfb8f02b2245d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <br /></td></tr>
+<tr class="memitem:a5185b6a55ec266fa049bfb8f02b2245d" id="r_a5185b6a55ec266fa049bfb8f02b2245d"><td class="memItemLeft" align="right" valign="top"><a id="a5185b6a55ec266fa049bfb8f02b2245d" name="a5185b6a55ec266fa049bfb8f02b2245d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>NavigationPolicyFactory</b> ()=default</td></tr>
+<tr class="memdesc:a5185b6a55ec266fa049bfb8f02b2245d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:a0ff9eb0f037e35b3ccf3bf673529acca" id="r_a0ff9eb0f037e35b3ccf3bf673529acca"><td class="memTemplParams" colspan="2">template&lt;NavigationPolicyConcept P, typename... Args&gt; <br />
 requires (std::is_constructible_v&lt;P, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>&amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a>&amp;, Args...&gt; &amp;&amp; (std::is_copy_constructible_v&lt;Args&gt; &amp;&amp; ...))</td></tr>
 <tr class="memitem:a0ff9eb0f037e35b3ccf3bf673529acca template"><td class="memItemLeft" align="right" valign="top">constexpr NavigationPolicyFactory&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ff9eb0f037e35b3ccf3bf673529acca">add</a> (Args &amp;&amp;... args) &amp;&amp;</td></tr>
@@ -159,35 +160,7 @@ requires (detail::NavigationPolicyIsolatedFactoryConcept&lt;Fn, Args...&gt;)</td
 <div class="line"> .<a class="code hl_function" href="#ac8dc51645fc81c4ee60dda94ad27112a">asUniquePtr</a>();</div>
 <div class="ttc" id="aclass_acts_1_1_navigation_policy_factory_html_a0ff9eb0f037e35b3ccf3bf673529acca"><div class="ttname"><a href="#a0ff9eb0f037e35b3ccf3bf673529acca">Acts::NavigationPolicyFactory::add</a></div><div class="ttdeci">constexpr NavigationPolicyFactory add(Args &amp;&amp;... args) &amp;&amp;</div><div class="ttdoc">Add a navigation policy to the factory.</div><div class="ttdef"><b>Definition</b> NavigationPolicyFactory.hpp:78</div></div>
 <div class="ttc" id="aclass_acts_1_1_navigation_policy_factory_html_ac8dc51645fc81c4ee60dda94ad27112a"><div class="ttname"><a href="#ac8dc51645fc81c4ee60dda94ad27112a">Acts::NavigationPolicyFactory::asUniquePtr</a></div><div class="ttdeci">std::unique_ptr&lt; NavigationPolicyFactory &gt; asUniquePtr() &amp;&amp;</div><div class="ttdoc">Move the factory into a unique pointer.</div><div class="ttdef"><b>Definition</b> NavigationPolicyFactory.hpp:111</div></div>
-</div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5185b6a55ec266fa049bfb8f02b2245d" name="a5185b6a55ec266fa049bfb8f02b2245d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5185b6a55ec266fa049bfb8f02b2245d">&#9670;&#160;</a></span>NavigationPolicyFactory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::NavigationPolicyFactory::NavigationPolicyFactory </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><!-- fragment --> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a0ff9eb0f037e35b3ccf3bf673529acca" name="a0ff9eb0f037e35b3ccf3bf673529acca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ff9eb0f037e35b3ccf3bf673529acca">&#9670;&#160;</a></span>add() <span class="overload">[1/2]</span></h2>
 

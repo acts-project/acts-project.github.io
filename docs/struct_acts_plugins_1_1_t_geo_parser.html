@@ -136,13 +136,15 @@ Classes</h2></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_parser_1_1_options.html">Options</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nested configuration struct.  <a href="struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SelectedNode" id="r_SelectedNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html">SelectedNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure holding a selected TGeo node with its global transform.  <a href="struct_acts_plugins_1_1_t_geo_parser_1_1_selected_node.html#details">More...</a><br /></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_parser_1_1_state.html">State</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nested state struct.  <a href="struct_acts_plugins_1_1_t_geo_parser_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aee6ea1301fb7908e8fd254723a732585" id="r_aee6ea1301fb7908e8fd254723a732585"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee6ea1301fb7908e8fd254723a732585">ParseRange</a> = std::pair&lt;double, double&gt;</td></tr>
-<tr class="memdesc:aee6ea1301fb7908e8fd254723a732585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for parsing range as min/max bounds pair.  <br /></td></tr>
+<tr class="memitem:aee6ea1301fb7908e8fd254723a732585" id="r_aee6ea1301fb7908e8fd254723a732585"><td class="memItemLeft" align="right" valign="top"><a id="aee6ea1301fb7908e8fd254723a732585" name="aee6ea1301fb7908e8fd254723a732585"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParseRange</b> = std::pair&lt;double, double&gt;</td></tr>
+<tr class="memdesc:aee6ea1301fb7908e8fd254723a732585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for parsing range as min/max bounds pair. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -154,24 +156,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>TGeoParser is a helper struct that walks recursively through a TGeometry and selects by string comparison the TGeoNodes that match the criteria. </p>
 <p>It also buils up the global transform for the conversion into an ACTS Surface </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aee6ea1301fb7908e8fd254723a732585" name="aee6ea1301fb7908e8fd254723a732585"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee6ea1301fb7908e8fd254723a732585">&#9670;&#160;</a></span>ParseRange</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#aee6ea1301fb7908e8fd254723a732585">ActsPlugins::TGeoParser::ParseRange</a> = std::pair&lt;double, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for parsing range as min/max bounds pair. </p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="acff30ce1cb6b59373a25a484bf327cf8" name="acff30ce1cb6b59373a25a484bf327cf8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acff30ce1cb6b59373a25a484bf327cf8">&#9670;&#160;</a></span>findNodeRecursive()</h2>
 

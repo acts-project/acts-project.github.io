@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_types_1_1filter_3_01_pred_01_4.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_types_1_1filter_3_01_pred_01_4.html" target="_top" xlink:title="Base case for empty type list filter.">
 <polygon fill="white" stroke="#666666" points="100,-30 0,-30 0,0 100,0 100,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Types::filter</text>
 <text text-anchor="middle" x="50" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Pred &gt;</text>
@@ -41,7 +41,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="struct_acts_1_1_types_1_1filter_3_01_pred_00_01_t_00_01_ts_8_8_8_01_4.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="struct_acts_1_1_types_1_1filter_3_01_pred_00_01_t_00_01_ts_8_8_8_01_4.html" target="_top" xlink:title="Filter a type list using a predicate.">
 <polygon fill="white" stroke="#666666" points="218,-30 118,-30 118,0 218,0 218,-30"/>
 <text text-anchor="start" x="126" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Types::filter</text>
 <text text-anchor="middle" x="168" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Pred, T, Ts... &gt;</text>

@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Subset facade over arbitrary index sets.">
 <polygon fill="#999999" stroke="#666666" points="422,-52 271,-52 271,-22 422,-22 422,-52"/>
 <text text-anchor="start" x="279" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer2</text>
 <text text-anchor="middle" x="346.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">::Subset&lt; read_only &gt;</text>
@@ -22,7 +22,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="235,-74 0,-74 0,0 235,0 235,-74"/>
+<polygon fill="white" stroke="#bfbfbf" points="235,-74 0,-74 0,0 235,0 235,-74"/>
 <text text-anchor="start" x="8" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::detail::ContainerSubset</text>
 <text text-anchor="start" x="8" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Subset&lt; read_only &gt;, Subset</text>
 <text text-anchor="start" x="8" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; true &gt;, SpacePointContainer2,</text>

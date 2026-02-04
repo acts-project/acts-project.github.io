@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_layer.html','','c
 </div><!--header-->
 <div class="contents">
 
+<p>Layer helper with eta-bin access for GBTs seeding.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_geometry_8hpp_source.html">Acts/Seeding/GbtsGeometry.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsLayer:</div>
@@ -136,33 +139,73 @@ Collaboration diagram for Acts::Experimental::GbtsLayer:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab351c55f4516534b34b295da346e6af3" id="r_ab351c55f4516534b34b295da346e6af3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab351c55f4516534b34b295da346e6af3">GbtsLayer</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &amp;ls, float ew, std::int32_t bin0)</td></tr>
+<tr class="memdesc:ab351c55f4516534b34b295da346e6af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a3f0454ef95e5a5de03c154a59d9fb528" id="r_a3f0454ef95e5a5de03c154a59d9fb528"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::int32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0454ef95e5a5de03c154a59d9fb528">getBins</a> () const</td></tr>
+<tr class="memdesc:a3f0454ef95e5a5de03c154a59d9fb528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bins.  <br /></td></tr>
 <tr class="memitem:ab040cfb06ce255c44315834685b132df" id="r_ab040cfb06ce255c44315834685b132df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab040cfb06ce255c44315834685b132df">getEtaBin</a> (float zh, float rh) const</td></tr>
+<tr class="memdesc:ab040cfb06ce255c44315834685b132df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get eta bin for given z and r coordinates.  <br /></td></tr>
 <tr class="memitem:ab9c192b73256b2e21e614b47de8c9ee1" id="r_ab9c192b73256b2e21e614b47de8c9ee1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c192b73256b2e21e614b47de8c9ee1">getLayer</a> () const</td></tr>
+<tr class="memdesc:ab9c192b73256b2e21e614b47de8c9ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer.  <br /></td></tr>
 <tr class="memitem:a5e9ec735e547ff257deaff954fb7b8de" id="r_a5e9ec735e547ff257deaff954fb7b8de"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9ec735e547ff257deaff954fb7b8de">getMaxBinRadius</a> (int idx) const</td></tr>
+<tr class="memdesc:a5e9ec735e547ff257deaff954fb7b8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum radius for bin index.  <br /></td></tr>
 <tr class="memitem:a17b56503a017ce6e70d0beeb63045c78" id="r_a17b56503a017ce6e70d0beeb63045c78"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17b56503a017ce6e70d0beeb63045c78">getMinBinRadius</a> (int idx) const</td></tr>
+<tr class="memdesc:a17b56503a017ce6e70d0beeb63045c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get minimum radius for bin index.  <br /></td></tr>
 <tr class="memitem:a5140e109f93c4ecf406ba0aa97d93002" id="r_a5140e109f93c4ecf406ba0aa97d93002"><td class="memItemLeft" align="right" valign="top">std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5140e109f93c4ecf406ba0aa97d93002">numOfBins</a> () const</td></tr>
+<tr class="memdesc:a5140e109f93c4ecf406ba0aa97d93002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of bins.  <br /></td></tr>
 <tr class="memitem:afa35301daf2014ae862f7f8d76a99a46" id="r_afa35301daf2014ae862f7f8d76a99a46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa35301daf2014ae862f7f8d76a99a46">verifyBin</a> (const <a class="el" href="#ab351c55f4516534b34b295da346e6af3">GbtsLayer</a> *pL, int b1, int b2, float min_z0, float max_z0) const</td></tr>
+<tr class="memdesc:afa35301daf2014ae862f7f8d76a99a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify bin compatibility.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a527d6323b75dbd1402bf36b8567dec3c" id="r_a527d6323b75dbd1402bf36b8567dec3c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a527d6323b75dbd1402bf36b8567dec3c">m_bins</a></td></tr>
-<tr class="memitem:a95dd7d580d1636688bdfd80521c80afd" id="r_a95dd7d580d1636688bdfd80521c80afd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95dd7d580d1636688bdfd80521c80afd">m_etaBin</a> {}</td></tr>
-<tr class="memitem:ac3d23602438cbd5dd75cd16a0e9fa370" id="r_ac3d23602438cbd5dd75cd16a0e9fa370"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d23602438cbd5dd75cd16a0e9fa370">m_etaBinWidth</a> {}</td></tr>
-<tr class="memitem:a7a02c565da7c332b6baa4dd21c77cde4" id="r_a7a02c565da7c332b6baa4dd21c77cde4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a02c565da7c332b6baa4dd21c77cde4">m_layer</a> {}</td></tr>
-<tr class="memitem:ae4845f98760e9b7878e5323a321838d2" id="r_ae4845f98760e9b7878e5323a321838d2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4845f98760e9b7878e5323a321838d2">m_maxBinCoord</a></td></tr>
-<tr class="memitem:ae01252fb00d1ae90578f9fac891ce467" id="r_ae01252fb00d1ae90578f9fac891ce467"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae01252fb00d1ae90578f9fac891ce467">m_maxEta</a> {}</td></tr>
-<tr class="memitem:ad7b7c7eec73d792dbb3f24cf91019177" id="r_ad7b7c7eec73d792dbb3f24cf91019177"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7b7c7eec73d792dbb3f24cf91019177">m_maxRadius</a></td></tr>
-<tr class="memitem:a2f2b1281f99f690873958bdd7945b5ea" id="r_a2f2b1281f99f690873958bdd7945b5ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2b1281f99f690873958bdd7945b5ea">m_minBinCoord</a></td></tr>
-<tr class="memitem:a733919e2b08dca8524afcd638eb9d79d" id="r_a733919e2b08dca8524afcd638eb9d79d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a733919e2b08dca8524afcd638eb9d79d">m_minEta</a> {}</td></tr>
-<tr class="memitem:a91d5b8fc0c5cfb55fb53b7e11b5c5a29" id="r_a91d5b8fc0c5cfb55fb53b7e11b5c5a29"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91d5b8fc0c5cfb55fb53b7e11b5c5a29">m_minRadius</a></td></tr>
-<tr class="memitem:adaa033438494f310efac62c42f340105" id="r_adaa033438494f310efac62c42f340105"><td class="memItemLeft" align="right" valign="top">std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa033438494f310efac62c42f340105">m_nBins</a> {}</td></tr>
-<tr class="memitem:a0e1729bc33f840935f17b28ac3233185" id="r_a0e1729bc33f840935f17b28ac3233185"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e1729bc33f840935f17b28ac3233185">m_r1</a> {}</td></tr>
-<tr class="memitem:a86ebc743610d1ceda236318cad32d258" id="r_a86ebc743610d1ceda236318cad32d258"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86ebc743610d1ceda236318cad32d258">m_r2</a> {}</td></tr>
-<tr class="memitem:a4dcf1239bcd4d157fe5fa5c4752ba12d" id="r_a4dcf1239bcd4d157fe5fa5c4752ba12d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dcf1239bcd4d157fe5fa5c4752ba12d">m_z1</a> {}</td></tr>
-<tr class="memitem:a23d0bb02fb33324bc75379515492033c" id="r_a23d0bb02fb33324bc75379515492033c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23d0bb02fb33324bc75379515492033c">m_z2</a> {}</td></tr>
+<tr class="memitem:a527d6323b75dbd1402bf36b8567dec3c" id="r_a527d6323b75dbd1402bf36b8567dec3c"><td class="memItemLeft" align="right" valign="top"><a id="a527d6323b75dbd1402bf36b8567dec3c" name="a527d6323b75dbd1402bf36b8567dec3c"></a>
+std::vector&lt; std::int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bins</b></td></tr>
+<tr class="memdesc:a527d6323b75dbd1402bf36b8567dec3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta-bin indices. <br /></td></tr>
+<tr class="memitem:a95dd7d580d1636688bdfd80521c80afd" id="r_a95dd7d580d1636688bdfd80521c80afd"><td class="memItemLeft" align="right" valign="top"><a id="a95dd7d580d1636688bdfd80521c80afd" name="a95dd7d580d1636688bdfd80521c80afd"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_etaBin</b> {}</td></tr>
+<tr class="memdesc:a95dd7d580d1636688bdfd80521c80afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin. <br /></td></tr>
+<tr class="memitem:ac3d23602438cbd5dd75cd16a0e9fa370" id="r_ac3d23602438cbd5dd75cd16a0e9fa370"><td class="memItemLeft" align="right" valign="top"><a id="ac3d23602438cbd5dd75cd16a0e9fa370" name="ac3d23602438cbd5dd75cd16a0e9fa370"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_etaBinWidth</b> {}</td></tr>
+<tr class="memdesc:ac3d23602438cbd5dd75cd16a0e9fa370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin width. <br /></td></tr>
+<tr class="memitem:a7a02c565da7c332b6baa4dd21c77cde4" id="r_a7a02c565da7c332b6baa4dd21c77cde4"><td class="memItemLeft" align="right" valign="top"><a id="a7a02c565da7c332b6baa4dd21c77cde4" name="a7a02c565da7c332b6baa4dd21c77cde4"></a>
+const <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_layer</b> {}</td></tr>
+<tr class="memdesc:a7a02c565da7c332b6baa4dd21c77cde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer. <br /></td></tr>
+<tr class="memitem:ae4845f98760e9b7878e5323a321838d2" id="r_ae4845f98760e9b7878e5323a321838d2"><td class="memItemLeft" align="right" valign="top"><a id="ae4845f98760e9b7878e5323a321838d2" name="ae4845f98760e9b7878e5323a321838d2"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxBinCoord</b></td></tr>
+<tr class="memdesc:ae4845f98760e9b7878e5323a321838d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum bin coordinate. <br /></td></tr>
+<tr class="memitem:ae01252fb00d1ae90578f9fac891ce467" id="r_ae01252fb00d1ae90578f9fac891ce467"><td class="memItemLeft" align="right" valign="top"><a id="ae01252fb00d1ae90578f9fac891ce467" name="ae01252fb00d1ae90578f9fac891ce467"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxEta</b> {}</td></tr>
+<tr class="memdesc:ae01252fb00d1ae90578f9fac891ce467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum eta. <br /></td></tr>
+<tr class="memitem:ad7b7c7eec73d792dbb3f24cf91019177" id="r_ad7b7c7eec73d792dbb3f24cf91019177"><td class="memItemLeft" align="right" valign="top"><a id="ad7b7c7eec73d792dbb3f24cf91019177" name="ad7b7c7eec73d792dbb3f24cf91019177"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxRadius</b></td></tr>
+<tr class="memdesc:ad7b7c7eec73d792dbb3f24cf91019177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum radius per bin. <br /></td></tr>
+<tr class="memitem:a2f2b1281f99f690873958bdd7945b5ea" id="r_a2f2b1281f99f690873958bdd7945b5ea"><td class="memItemLeft" align="right" valign="top"><a id="a2f2b1281f99f690873958bdd7945b5ea" name="a2f2b1281f99f690873958bdd7945b5ea"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_minBinCoord</b></td></tr>
+<tr class="memdesc:a2f2b1281f99f690873958bdd7945b5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum bin coordinate. <br /></td></tr>
+<tr class="memitem:a733919e2b08dca8524afcd638eb9d79d" id="r_a733919e2b08dca8524afcd638eb9d79d"><td class="memItemLeft" align="right" valign="top"><a id="a733919e2b08dca8524afcd638eb9d79d" name="a733919e2b08dca8524afcd638eb9d79d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_minEta</b> {}</td></tr>
+<tr class="memdesc:a733919e2b08dca8524afcd638eb9d79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum eta. <br /></td></tr>
+<tr class="memitem:a91d5b8fc0c5cfb55fb53b7e11b5c5a29" id="r_a91d5b8fc0c5cfb55fb53b7e11b5c5a29"><td class="memItemLeft" align="right" valign="top"><a id="a91d5b8fc0c5cfb55fb53b7e11b5c5a29" name="a91d5b8fc0c5cfb55fb53b7e11b5c5a29"></a>
+std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_minRadius</b></td></tr>
+<tr class="memdesc:a91d5b8fc0c5cfb55fb53b7e11b5c5a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum radius per bin. <br /></td></tr>
+<tr class="memitem:adaa033438494f310efac62c42f340105" id="r_adaa033438494f310efac62c42f340105"><td class="memItemLeft" align="right" valign="top"><a id="adaa033438494f310efac62c42f340105" name="adaa033438494f310efac62c42f340105"></a>
+std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_nBins</b> {}</td></tr>
+<tr class="memdesc:adaa033438494f310efac62c42f340105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins. <br /></td></tr>
+<tr class="memitem:a0e1729bc33f840935f17b28ac3233185" id="r_a0e1729bc33f840935f17b28ac3233185"><td class="memItemLeft" align="right" valign="top"><a id="a0e1729bc33f840935f17b28ac3233185" name="a0e1729bc33f840935f17b28ac3233185"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_r1</b> {}</td></tr>
+<tr class="memdesc:a0e1729bc33f840935f17b28ac3233185"><td class="mdescLeft">&#160;</td><td class="mdescRight">First radius coordinate. <br /></td></tr>
+<tr class="memitem:a86ebc743610d1ceda236318cad32d258" id="r_a86ebc743610d1ceda236318cad32d258"><td class="memItemLeft" align="right" valign="top"><a id="a86ebc743610d1ceda236318cad32d258" name="a86ebc743610d1ceda236318cad32d258"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_r2</b> {}</td></tr>
+<tr class="memdesc:a86ebc743610d1ceda236318cad32d258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second radius coordinate. <br /></td></tr>
+<tr class="memitem:a4dcf1239bcd4d157fe5fa5c4752ba12d" id="r_a4dcf1239bcd4d157fe5fa5c4752ba12d"><td class="memItemLeft" align="right" valign="top"><a id="a4dcf1239bcd4d157fe5fa5c4752ba12d" name="a4dcf1239bcd4d157fe5fa5c4752ba12d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_z1</b> {}</td></tr>
+<tr class="memdesc:a4dcf1239bcd4d157fe5fa5c4752ba12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">First z coordinate. <br /></td></tr>
+<tr class="memitem:a23d0bb02fb33324bc75379515492033c" id="r_a23d0bb02fb33324bc75379515492033c"><td class="memItemLeft" align="right" valign="top"><a id="a23d0bb02fb33324bc75379515492033c" name="a23d0bb02fb33324bc75379515492033c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_z2</b> {}</td></tr>
+<tr class="memdesc:a23d0bb02fb33324bc75379515492033c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second z coordinate. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Layer helper with eta-bin access for GBTs seeding. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab351c55f4516534b34b295da346e6af3" name="ab351c55f4516534b34b295da346e6af3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab351c55f4516534b34b295da346e6af3">&#9670;&#160;</a></span>GbtsLayer()</h2>
 
@@ -187,6 +230,16 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ls</td><td>Silicon layer descriptor </td></tr>
+    <tr><td class="paramname">ew</td><td>Eta bin width </td></tr>
+    <tr><td class="paramname">bin0</td><td>Starting bin index </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -204,6 +257,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get bins. </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of bin indices </dd></dl>
 
 </div>
 </div>
@@ -226,6 +282,16 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get eta bin for given z and r coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">zh</td><td>Z coordinate </td></tr>
+    <tr><td class="paramname">rh</td><td>Radius coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Eta bin index </dd></dl>
+
 </div>
 </div>
 <a id="ab9c192b73256b2e21e614b47de8c9ee1" name="ab9c192b73256b2e21e614b47de8c9ee1"></a>
@@ -242,6 +308,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get layer. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the silicon layer </dd></dl>
 
 </div>
 </div>
@@ -260,6 +329,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get maximum radius for bin index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Bin index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum radius for the bin </dd></dl>
+
 </div>
 </div>
 <a id="a17b56503a017ce6e70d0beeb63045c78" name="a17b56503a017ce6e70d0beeb63045c78"></a>
@@ -277,6 +355,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get minimum radius for bin index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Bin index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Minimum radius for the bin </dd></dl>
+
 </div>
 </div>
 <a id="a5140e109f93c4ecf406ba0aa97d93002" name="a5140e109f93c4ecf406ba0aa97d93002"></a>
@@ -293,6 +380,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get number of bins. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of bins </dd></dl>
 
 </div>
 </div>
@@ -330,336 +420,18 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a527d6323b75dbd1402bf36b8567dec3c" name="a527d6323b75dbd1402bf36b8567dec3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a527d6323b75dbd1402bf36b8567dec3c">&#9670;&#160;</a></span>m_bins</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::int32_t&gt; Acts::Experimental::GbtsLayer::m_bins</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a95dd7d580d1636688bdfd80521c80afd" name="a95dd7d580d1636688bdfd80521c80afd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95dd7d580d1636688bdfd80521c80afd">&#9670;&#160;</a></span>m_etaBin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_etaBin {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3d23602438cbd5dd75cd16a0e9fa370" name="ac3d23602438cbd5dd75cd16a0e9fa370"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3d23602438cbd5dd75cd16a0e9fa370">&#9670;&#160;</a></span>m_etaBinWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_etaBinWidth {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a02c565da7c332b6baa4dd21c77cde4" name="a7a02c565da7c332b6baa4dd21c77cde4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a02c565da7c332b6baa4dd21c77cde4">&#9670;&#160;</a></span>m_layer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a>* Acts::Experimental::GbtsLayer::m_layer {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4845f98760e9b7878e5323a321838d2" name="ae4845f98760e9b7878e5323a321838d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4845f98760e9b7878e5323a321838d2">&#9670;&#160;</a></span>m_maxBinCoord</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; Acts::Experimental::GbtsLayer::m_maxBinCoord</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae01252fb00d1ae90578f9fac891ce467" name="ae01252fb00d1ae90578f9fac891ce467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae01252fb00d1ae90578f9fac891ce467">&#9670;&#160;</a></span>m_maxEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_maxEta {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad7b7c7eec73d792dbb3f24cf91019177" name="ad7b7c7eec73d792dbb3f24cf91019177"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7b7c7eec73d792dbb3f24cf91019177">&#9670;&#160;</a></span>m_maxRadius</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; Acts::Experimental::GbtsLayer::m_maxRadius</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f2b1281f99f690873958bdd7945b5ea" name="a2f2b1281f99f690873958bdd7945b5ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f2b1281f99f690873958bdd7945b5ea">&#9670;&#160;</a></span>m_minBinCoord</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; Acts::Experimental::GbtsLayer::m_minBinCoord</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a733919e2b08dca8524afcd638eb9d79d" name="a733919e2b08dca8524afcd638eb9d79d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a733919e2b08dca8524afcd638eb9d79d">&#9670;&#160;</a></span>m_minEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_minEta {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a91d5b8fc0c5cfb55fb53b7e11b5c5a29" name="a91d5b8fc0c5cfb55fb53b7e11b5c5a29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91d5b8fc0c5cfb55fb53b7e11b5c5a29">&#9670;&#160;</a></span>m_minRadius</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; Acts::Experimental::GbtsLayer::m_minRadius</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adaa033438494f310efac62c42f340105" name="adaa033438494f310efac62c42f340105"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaa033438494f310efac62c42f340105">&#9670;&#160;</a></span>m_nBins</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::int32_t Acts::Experimental::GbtsLayer::m_nBins {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e1729bc33f840935f17b28ac3233185" name="a0e1729bc33f840935f17b28ac3233185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e1729bc33f840935f17b28ac3233185">&#9670;&#160;</a></span>m_r1</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_r1 {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86ebc743610d1ceda236318cad32d258" name="a86ebc743610d1ceda236318cad32d258"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86ebc743610d1ceda236318cad32d258">&#9670;&#160;</a></span>m_r2</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_r2 {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4dcf1239bcd4d157fe5fa5c4752ba12d" name="a4dcf1239bcd4d157fe5fa5c4752ba12d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dcf1239bcd4d157fe5fa5c4752ba12d">&#9670;&#160;</a></span>m_z1</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_z1 {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a23d0bb02fb33324bc75379515492033c" name="a23d0bb02fb33324bc75379515492033c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23d0bb02fb33324bc75379515492033c">&#9670;&#160;</a></span>m_z2</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::m_z2 {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Verify bin compatibility. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pL</td><td>Other layer to compare with </td></tr>
+    <tr><td class="paramname">b1</td><td>First bin index </td></tr>
+    <tr><td class="paramname">b2</td><td>Second bin index </td></tr>
+    <tr><td class="paramname">min_z0</td><td>Minimum z0 coordinate </td></tr>
+    <tr><td class="paramname">max_z0</td><td>Maximum z0 coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if bins are compatible </dd></dl>
 
 </div>
 </div>

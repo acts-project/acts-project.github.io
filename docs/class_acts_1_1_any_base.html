@@ -143,7 +143,6 @@ Collaboration diagram for Acts::AnyBase&lt; SIZE &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0136f06dc307245dda008d56503441c9" id="r_a0136f06dc307245dda008d56503441c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0136f06dc307245dda008d56503441c9">AnyBase</a> ()=default</td></tr>
 <tr class="memitem:ab8d809bb20d9b9930839fa71e7c812c9" id="r_ab8d809bb20d9b9930839fa71e7c812c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d809bb20d9b9930839fa71e7c812c9">AnyBase</a> (AnyBase &amp;&amp;other) _ACTS_ANY_NOEXCEPT</td></tr>
 <tr class="memdesc:ab8d809bb20d9b9930839fa71e7c812c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
 <tr class="memitem:a7f5379043325f33164f7c5f33ceca410" id="r_a7f5379043325f33164f7c5f33ceca410"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5379043325f33164f7c5f33ceca410">AnyBase</a> (const AnyBase &amp;other) _ACTS_ANY_NOEXCEPT</td></tr>
@@ -156,7 +155,6 @@ requires (std::is_copy_assignable_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; std:
 requires (!std::same_as&lt;std::decay_t&lt;T&gt;, AnyBase&lt;SIZE&gt;&gt; &amp;&amp; std::is_copy_assignable_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; std::is_copy_constructible_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; (sizeof(std::decay_t&lt;T&gt;) &gt; SIZE || (std::is_move_assignable_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; std::is_move_constructible_v&lt;std::decay_t&lt;T&gt;&gt;)))</td></tr>
 <tr class="memitem:a2d6c5dc4c63bf4f339d0962bb4495d50 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6c5dc4c63bf4f339d0962bb4495d50">AnyBase</a> (T &amp;&amp;value) _ACTS_ANY_NOEXCEPT</td></tr>
 <tr class="memdesc:a2d6c5dc4c63bf4f339d0962bb4495d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from any value type.  <br /></td></tr>
-<tr class="memitem:a48d511778b413e07bd8c16a8758b786f" id="r_a48d511778b413e07bd8c16a8758b786f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d511778b413e07bd8c16a8758b786f">~AnyBase</a> ()</td></tr>
 <tr class="memitem:a72aff693da9df500e165dedadca0f3d7" id="r_a72aff693da9df500e165dedadca0f3d7"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a72aff693da9df500e165dedadca0f3d7 template"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72aff693da9df500e165dedadca0f3d7">as</a> ()</td></tr>
 <tr class="memdesc:a72aff693da9df500e165dedadca0f3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to stored value of specified type.  <br /></td></tr>
@@ -191,7 +189,7 @@ In summary:<ul>
 </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a67fda4de2fbc9d5411fca63f2c893b01" name="a67fda4de2fbc9d5411fca63f2c893b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67fda4de2fbc9d5411fca63f2c893b01">&#9670;&#160;</a></span>AnyBase() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67fda4de2fbc9d5411fca63f2c893b01">&#9670;&#160;</a></span>AnyBase() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,35 +237,8 @@ requires (std::is_copy_assignable_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; std:
 
 </div>
 </div>
-<a id="a0136f06dc307245dda008d56503441c9" name="a0136f06dc307245dda008d56503441c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0136f06dc307245dda008d56503441c9">&#9670;&#160;</a></span>AnyBase() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t SIZE&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; SIZE &gt;::AnyBase </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2d6c5dc4c63bf4f339d0962bb4495d50" name="a2d6c5dc4c63bf4f339d0962bb4495d50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6c5dc4c63bf4f339d0962bb4495d50">&#9670;&#160;</a></span>AnyBase() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6c5dc4c63bf4f339d0962bb4495d50">&#9670;&#160;</a></span>AnyBase() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,27 +281,8 @@ requires (!std::same_as&lt;std::decay_t&lt;T&gt;, AnyBase&lt;SIZE&gt;&gt; &amp;&
 
 </div>
 </div>
-<a id="a48d511778b413e07bd8c16a8758b786f" name="a48d511778b413e07bd8c16a8758b786f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48d511778b413e07bd8c16a8758b786f">&#9670;&#160;</a></span>~AnyBase()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t SIZE&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; SIZE &gt;::~<a class="el" href="#a67fda4de2fbc9d5411fca63f2c893b01">AnyBase</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7f5379043325f33164f7c5f33ceca410" name="a7f5379043325f33164f7c5f33ceca410"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f5379043325f33164f7c5f33ceca410">&#9670;&#160;</a></span>AnyBase() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5379043325f33164f7c5f33ceca410">&#9670;&#160;</a></span>AnyBase() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +309,7 @@ template&lt;std::size_t SIZE&gt; </div>
 </div>
 </div>
 <a id="ab8d809bb20d9b9930839fa71e7c812c9" name="ab8d809bb20d9b9930839fa71e7c812c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8d809bb20d9b9930839fa71e7c812c9">&#9670;&#160;</a></span>AnyBase() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d809bb20d9b9930839fa71e7c812c9">&#9670;&#160;</a></span>AnyBase() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

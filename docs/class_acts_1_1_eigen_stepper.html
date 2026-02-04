@@ -139,18 +139,23 @@ Collaboration diagram for Acts::EigenStepper&lt; extension_t &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_eigen_stepper_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the Eigen stepper.  <a href="struct_acts_1_1_eigen_stepper_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_eigen_stepper_1_1_options.html">Options</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stepper options including geometry and magnetic field contexts.  <a href="struct_acts_1_1_eigen_stepper_1_1_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html">State</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State for track parameter propagation.  <a href="struct_acts_1_1_eigen_stepper_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7860f627c6e8f80fdb6e290d322abc62" id="r_a7860f627c6e8f80fdb6e290d322abc62"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7860f627c6e8f80fdb6e290d322abc62">BoundState</a> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#ae822928de6a4a328e265630ddf43d161">Jacobian</a>, double&gt;</td></tr>
-<tr class="memdesc:a7860f627c6e8f80fdb6e290d322abc62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state tuple containing parameters, jacobian, and path length.  <br /></td></tr>
-<tr class="memitem:ad0e7054f127d55564ae51602bd1099e2" id="r_ad0e7054f127d55564ae51602bd1099e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0e7054f127d55564ae51602bd1099e2">Covariance</a> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
-<tr class="memdesc:ad0e7054f127d55564ae51602bd1099e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix (bound square matrix).  <br /></td></tr>
-<tr class="memitem:ae822928de6a4a328e265630ddf43d161" id="r_ae822928de6a4a328e265630ddf43d161"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae822928de6a4a328e265630ddf43d161">Jacobian</a> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
-<tr class="memdesc:ae822928de6a4a328e265630ddf43d161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian, Covariance and State definitions.  <br /></td></tr>
+<tr class="memitem:a7860f627c6e8f80fdb6e290d322abc62" id="r_a7860f627c6e8f80fdb6e290d322abc62"><td class="memItemLeft" align="right" valign="top"><a id="a7860f627c6e8f80fdb6e290d322abc62" name="a7860f627c6e8f80fdb6e290d322abc62"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#ae822928de6a4a328e265630ddf43d161">Jacobian</a>, double&gt;</td></tr>
+<tr class="memdesc:a7860f627c6e8f80fdb6e290d322abc62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state tuple containing parameters, jacobian, and path length. <br /></td></tr>
+<tr class="memitem:ad0e7054f127d55564ae51602bd1099e2" id="r_ad0e7054f127d55564ae51602bd1099e2"><td class="memItemLeft" align="right" valign="top"><a id="ad0e7054f127d55564ae51602bd1099e2" name="ad0e7054f127d55564ae51602bd1099e2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Covariance</b> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
+<tr class="memdesc:ad0e7054f127d55564ae51602bd1099e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for covariance matrix (bound square matrix). <br /></td></tr>
+<tr class="memitem:ae822928de6a4a328e265630ddf43d161" id="r_ae822928de6a4a328e265630ddf43d161"><td class="memItemLeft" align="right" valign="top"><a id="ae822928de6a4a328e265630ddf43d161" name="ae822928de6a4a328e265630ddf43d161"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Jacobian</b> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
+<tr class="memdesc:ae822928de6a4a328e265630ddf43d161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian, Covariance and State definitions. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -215,8 +220,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a05602c635fad5a79f02dfa4f5d8debbd" id="r_a05602c635fad5a79f02dfa4f5d8debbd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05602c635fad5a79f02dfa4f5d8debbd">m_bField</a></td></tr>
-<tr class="memdesc:a05602c635fad5a79f02dfa4f5d8debbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field inside of the detector.  <br /></td></tr>
+<tr class="memitem:a05602c635fad5a79f02dfa4f5d8debbd" id="r_a05602c635fad5a79f02dfa4f5d8debbd"><td class="memItemLeft" align="right" valign="top"><a id="a05602c635fad5a79f02dfa4f5d8debbd" name="a05602c635fad5a79f02dfa4f5d8debbd"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bField</b></td></tr>
+<tr class="memdesc:a05602c635fad5a79f02dfa4f5d8debbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field inside of the detector. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename extension_t = EigenStepperDefaultExtension&gt;<br />
@@ -224,62 +230,7 @@ class Acts::EigenStepper&lt; extension_t &gt;</div><p>Runge-Kutta-Nystroem stepp
 <p>r = (x,y,z) ... global position T = (Ax,Ay,Az) ... momentum direction (normalized)</p>
 <p>dr/ds = T dT/ds = q/p * (T x B)</p>
 <p>with s being the arc length of the track, q the charge of the particle, p the momentum magnitude and B the magnetic field </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a7860f627c6e8f80fdb6e290d322abc62" name="a7860f627c6e8f80fdb6e290d322abc62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7860f627c6e8f80fdb6e290d322abc62">&#9670;&#160;</a></span>BoundState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_eigen_stepper.html">Acts::EigenStepper</a>&lt; extension_t &gt;::BoundState = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="#ae822928de6a4a328e265630ddf43d161">Jacobian</a>, double&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for bound state tuple containing parameters, jacobian, and path length. </p>
-
-</div>
-</div>
-<a id="ad0e7054f127d55564ae51602bd1099e2" name="ad0e7054f127d55564ae51602bd1099e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0e7054f127d55564ae51602bd1099e2">&#9670;&#160;</a></span>Covariance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_eigen_stepper.html">Acts::EigenStepper</a>&lt; extension_t &gt;::Covariance = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for covariance matrix (bound square matrix). </p>
-
-</div>
-</div>
-<a id="ae822928de6a4a328e265630ddf43d161" name="ae822928de6a4a328e265630ddf43d161"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae822928de6a4a328e265630ddf43d161">&#9670;&#160;</a></span>Jacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_eigen_stepper.html">Acts::EigenStepper</a>&lt; extension_t &gt;::Jacobian = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Jacobian, Covariance and State definitions. </p>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afd6efefeea706345e2fee52646c14e37" name="afd6efefeea706345e2fee52646c14e37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd6efefeea706345e2fee52646c14e37">&#9670;&#160;</a></span>EigenStepper() <span class="overload">[1/2]</span></h2>
 
@@ -1319,33 +1270,6 @@ template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Status of the intersection indicating whether surface was reached </dd></dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a05602c635fad5a79f02dfa4f5d8debbd" name="a05602c635fad5a79f02dfa4f5d8debbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05602c635fad5a79f02dfa4f5d8debbd">&#9670;&#160;</a></span>m_bField</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a>&gt; <a class="el" href="class_acts_1_1_eigen_stepper.html">Acts::EigenStepper</a>&lt; extension_t &gt;::m_bField</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Magnetic field inside of the detector. </p>
 
 </div>
 </div>

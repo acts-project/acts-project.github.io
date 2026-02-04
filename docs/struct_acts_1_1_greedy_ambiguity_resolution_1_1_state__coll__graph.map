@@ -1,5 +1,5 @@
 <map id="Acts::GreedyAmbiguityResolution::State" name="Acts::GreedyAmbiguityResolution::State">
-<area shape="rect" id="Node000001" title=" " alt="" coords="751,85,992,125"/>
+<area shape="rect" id="Node000001" title="Mutable state used by the greedy ambiguity resolution." alt="" coords="751,85,992,125"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="335,9,473,34"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="488,22,602,32,727,52,777,66,823,83,821,88,776,71,726,57,601,37,487,27"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,95,135,121"/>

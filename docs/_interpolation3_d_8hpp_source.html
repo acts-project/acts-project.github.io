@@ -134,12 +134,10 @@ $(function(){initNavTree('_interpolation3_d_8hpp_source.html','',''); });
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;unsupported/Eigen/Splines&gt;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_interpolation3_d.html">   17</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_1_1_interpolation3_d.html">Acts::Interpolation3D</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span>Acts::Interpolation3D {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> trajectory_type&gt;</div>
-<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespace_acts_1_1_interpolation3_d.html#abfc7c8ca744e8b3292e6220567e3254f">   35</a></span>trajectory_type <a class="code hl_function" href="namespace_acts_1_1_interpolation3_d.html#abfc7c8ca744e8b3292e6220567e3254f">spline</a>(<span class="keyword">const</span> trajectory_type&amp; inputsRaw, std::size_t nPoints,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>trajectory_type spline(<span class="keyword">const</span> trajectory_type&amp; inputsRaw, std::size_t nPoints,</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                       <span class="keywordtype">bool</span> keepOriginalHits = <span class="keyword">false</span>) {</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  trajectory_type output;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <span class="keywordflow">if</span> (inputsRaw.empty()) {</div>
@@ -179,10 +177,10 @@ $(function(){initNavTree('_interpolation3_d_8hpp_source.html','',''); });
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">double</span> step = 1. / (nPoints - 1);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; nPoints; ++i) {</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>      <span class="keywordtype">double</span> t = i * step;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>      InputVectorType point;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>      point[0] = spline3D(t)[0];</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>      point[1] = spline3D(t)[1];</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>      point[2] = spline3D(t)[2];</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>      InputVectorType <a class="code hl_function" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>      <a class="code hl_function" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a>[0] = spline3D(t)[0];</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>      <a class="code hl_function" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a>[1] = spline3D(t)[1];</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>      <a class="code hl_function" href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">point</a>[2] = spline3D(t)[2];</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>      output.push_back(point);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    }</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  }</div>
@@ -205,20 +203,17 @@ $(function(){initNavTree('_interpolation3_d_8hpp_source.html','',''); });
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordflow">return</span> output;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>}</div>
-</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}  <span class="comment">// namespace Acts::Interpolation3D</span></div>
-</div>
+<div class="ttc" id="agroup__actsvg__plugin_html_gaaea27d3d680a8be51aa974901d177e27"><div class="ttname"><a href="group__actsvg__plugin.html#gaaea27d3d680a8be51aa974901d177e27">ActsPlugins::Svg::EventDataConverter::point</a></div><div class="ttdeci">actsvg::svg::object point(const Acts::Vector3 &amp;pos, double size, const Style &amp;style, unsigned int idx)</div><div class="ttdoc">Write/create a 3D point in a given view.</div><div class="ttdef"><b>Definition</b> EventDataSvgConverter.hpp:56</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
-<div class="ttc" id="anamespace_acts_1_1_interpolation3_d_html"><div class="ttname"><a href="namespace_acts_1_1_interpolation3_d.html">Acts::Interpolation3D</a></div><div class="ttdef"><b>Definition</b> Interpolation3D.hpp:17</div></div>
-<div class="ttc" id="anamespace_acts_1_1_interpolation3_d_html_abfc7c8ca744e8b3292e6220567e3254f"><div class="ttname"><a href="namespace_acts_1_1_interpolation3_d.html#abfc7c8ca744e8b3292e6220567e3254f">Acts::Interpolation3D::spline</a></div><div class="ttdeci">trajectory_type spline(const trajectory_type &amp;inputsRaw, std::size_t nPoints, bool keepOriginalHits=false)</div><div class="ttdoc">Helper function to interpolate points using a spline from Eigen.</div><div class="ttdef"><b>Definition</b> Interpolation3D.hpp:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_d95fcee9fc14676fd267aa4810a036ed.html">Visualization</a></li><li class="navelem"><b>Interpolation3D.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>Visualization</b></li><li class="navelem"><b>Interpolation3D.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

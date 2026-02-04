@@ -1,5 +1,5 @@
 <map id="ActsPlugins::Svg::TrackingGeometryProjections::Options" name="ActsPlugins::Svg::TrackingGeometryProjections::Options">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1349,148,1567,188"/>
+<area shape="rect" id="Node000001" title="Options for tracking geometry projections." alt="" coords="1349,148,1567,188"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="548,117,635,142"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="649,129,1349,161,1349,166,649,135"/>
 <area shape="rect" id="Node000004" href="$struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_options.html" title="Nested Options struct for the writing configuration." alt="" coords="915,59,1124,99"/>

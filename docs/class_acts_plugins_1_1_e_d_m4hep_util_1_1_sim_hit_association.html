@@ -126,17 +126,27 @@ $(function(){initNavTree('class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_asso
 </div><!--header-->
 <div class="contents">
 
+<p>Helper class for associating simulation hits between EDM4hep and internal indices.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_e_d_m4hep_util_8hpp_source.html">/home/runner/work/acts/acts/Plugins/EDM4hep/include/ActsPlugins/EDM4hep/EDM4hepUtil.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5887de074d9113db314bf2dc4d125fc5" id="r_a5887de074d9113db314bf2dc4d125fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5887de074d9113db314bf2dc4d125fc5">add</a> (std::size_t internalIndex, const edm4hep::SimTrackerHit &amp;edm4hepHit)</td></tr>
+<tr class="memdesc:a5887de074d9113db314bf2dc4d125fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add association between internal index and EDM4hep hit.  <br /></td></tr>
 <tr class="memitem:a469ae0cc327ee04e61e12c5b50e3e487" id="r_a469ae0cc327ee04e61e12c5b50e3e487"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a469ae0cc327ee04e61e12c5b50e3e487">lookup</a> (const edm4hep::SimTrackerHit &amp;hit) const</td></tr>
+<tr class="memdesc:a469ae0cc327ee04e61e12c5b50e3e487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look up internal index by EDM4hep hit.  <br /></td></tr>
 <tr class="memitem:a66f72bf044a68b3a82f53f80c73817c0" id="r_a66f72bf044a68b3a82f53f80c73817c0"><td class="memItemLeft" align="right" valign="top">edm4hep::SimTrackerHit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66f72bf044a68b3a82f53f80c73817c0">lookup</a> (std::size_t internalIndex) const</td></tr>
+<tr class="memdesc:a66f72bf044a68b3a82f53f80c73817c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look up EDM4hep hit by internal index.  <br /></td></tr>
 <tr class="memitem:ade6fa220e4a6161f30f274c77f873361" id="r_ade6fa220e4a6161f30f274c77f873361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6fa220e4a6161f30f274c77f873361">reserve</a> (std::size_t <a class="el" href="#a7c8d2dc9714cecc7016ee0b3a73bc3b2">size</a>)</td></tr>
+<tr class="memdesc:ade6fa220e4a6161f30f274c77f873361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve space for associations.  <br /></td></tr>
 <tr class="memitem:a7c8d2dc9714cecc7016ee0b3a73bc3b2" id="r_a7c8d2dc9714cecc7016ee0b3a73bc3b2"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c8d2dc9714cecc7016ee0b3a73bc3b2">size</a> () const</td></tr>
+<tr class="memdesc:a7c8d2dc9714cecc7016ee0b3a73bc3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of associations.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Helper class for associating simulation hits between EDM4hep and internal indices. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5887de074d9113db314bf2dc4d125fc5" name="a5887de074d9113db314bf2dc4d125fc5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5887de074d9113db314bf2dc4d125fc5">&#9670;&#160;</a></span>add()</h2>
 
@@ -156,6 +166,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Add association between internal index and EDM4hep hit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">internalIndex</td><td>Internal hit index </td></tr>
+    <tr><td class="paramname">edm4hepHit</td><td>EDM4hep hit object </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a469ae0cc327ee04e61e12c5b50e3e487" name="a469ae0cc327ee04e61e12c5b50e3e487"></a>
@@ -172,6 +191,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Look up internal index by EDM4hep hit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hit</td><td>EDM4hep hit object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Internal hit index </dd></dl>
 
 </div>
 </div>
@@ -198,6 +226,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Look up EDM4hep hit by internal index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">internalIndex</td><td>Internal hit index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>EDM4hep hit object </dd></dl>
+
 </div>
 </div>
 <a id="ade6fa220e4a6161f30f274c77f873361" name="ade6fa220e4a6161f30f274c77f873361"></a>
@@ -214,6 +251,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reserve space for associations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>Number of associations to reserve </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -232,6 +277,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get number of associations. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of associations </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -247,7 +295,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts_plugins.html">ActsPlugins</a></li><li class="navelem"><a href="namespace_acts_plugins_1_1_e_d_m4hep_util.html">EDM4hepUtil</a></li><li class="navelem"><a href="class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html">SimHitAssociation</a></li>
+    <li class="navelem"><a href="namespace_acts_plugins.html">ActsPlugins</a></li><li class="navelem"><b>EDM4hepUtil</b></li><li class="navelem"><a href="class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html">SimHitAssociation</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

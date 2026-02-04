@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_gx2_fitter_result.htm
 </div><!--header-->
 <div class="contents">
 
+<p>Result container for a global chi-square fit.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_global_chi_square_fitter_8hpp_source.html">Acts/TrackFitting/GlobalChiSquareFitter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;:</div>
@@ -135,68 +138,44 @@ Collaboration diagram for Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;:</
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a37803a895d43515e833d1cf06b4f9d95" id="r_a37803a895d43515e833d1cf06b4f9d95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37803a895d43515e833d1cf06b4f9d95">finished</a> = false</td></tr>
-<tr class="memitem:adab513d8310f3c678912fedd080c892d" id="r_adab513d8310f3c678912fedd080c892d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab513d8310f3c678912fedd080c892d">fittedParameters</a></td></tr>
-<tr class="memitem:a3601b92a5c5b20186ddbcb6e5b91303c" id="r_a3601b92a5c5b20186ddbcb6e5b91303c"><td class="memItemLeft" align="right" valign="top">traj_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3601b92a5c5b20186ddbcb6e5b91303c">fittedStates</a> {nullptr}</td></tr>
+<tr class="memitem:a37803a895d43515e833d1cf06b4f9d95" id="r_a37803a895d43515e833d1cf06b4f9d95"><td class="memItemLeft" align="right" valign="top"><a id="a37803a895d43515e833d1cf06b4f9d95" name="a37803a895d43515e833d1cf06b4f9d95"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>finished</b> = false</td></tr>
+<tr class="memdesc:a37803a895d43515e833d1cf06b4f9d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicator if track fitting has been done. <br /></td></tr>
+<tr class="memitem:adab513d8310f3c678912fedd080c892d" id="r_adab513d8310f3c678912fedd080c892d"><td class="memItemLeft" align="right" valign="top"><a id="adab513d8310f3c678912fedd080c892d" name="adab513d8310f3c678912fedd080c892d"></a>
+std::optional&lt; <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>fittedParameters</b></td></tr>
+<tr class="memdesc:adab513d8310f3c678912fedd080c892d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The optional Parameters at the provided surface. <br /></td></tr>
+<tr class="memitem:a3601b92a5c5b20186ddbcb6e5b91303c" id="r_a3601b92a5c5b20186ddbcb6e5b91303c"><td class="memItemLeft" align="right" valign="top"><a id="a3601b92a5c5b20186ddbcb6e5b91303c" name="a3601b92a5c5b20186ddbcb6e5b91303c"></a>
+traj_t *&#160;</td><td class="memItemRight" valign="bottom"><b>fittedStates</b> {nullptr}</td></tr>
+<tr class="memdesc:a3601b92a5c5b20186ddbcb6e5b91303c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fitted states that the actor has handled. <br /></td></tr>
 <tr class="memitem:a1fcc6883cce53b672d52a46048f62d09" id="r_a1fcc6883cce53b672d52a46048f62d09"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fcc6883cce53b672d52a46048f62d09">lastMeasurementIndex</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></td></tr>
+<tr class="memdesc:a1fcc6883cce53b672d52a46048f62d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the index of the 'tip' of the track stored in multitrajectory.  <br /></td></tr>
 <tr class="memitem:a59171bcbebb93f5d46b83b277424b19b" id="r_a59171bcbebb93f5d46b83b277424b19b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59171bcbebb93f5d46b83b277424b19b">lastTrackIndex</a> = <a class="el" href="namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749">Acts::kTrackIndexInvalid</a></td></tr>
+<tr class="memdesc:a59171bcbebb93f5d46b83b277424b19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the index of the 'tip' of the states stored in multitrajectory.  <br /></td></tr>
 <tr class="memitem:ac8dbd847196ff121dd8355f961a960b2" id="r_ac8dbd847196ff121dd8355f961a960b2"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8dbd847196ff121dd8355f961a960b2">measurementHoles</a> = 0</td></tr>
-<tr class="memitem:a0f097b1b184732f3eb79b706fd285aed" id="r_a0f097b1b184732f3eb79b706fd285aed"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f097b1b184732f3eb79b706fd285aed">measurementStates</a> = 0</td></tr>
-<tr class="memitem:a00cb901e2b01497ce0bd3fba9c524eca" id="r_a00cb901e2b01497ce0bd3fba9c524eca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00cb901e2b01497ce0bd3fba9c524eca">missedActiveSurfaces</a></td></tr>
-<tr class="memitem:ae55cb7107ba2ff7e36325c074304c037" id="r_ae55cb7107ba2ff7e36325c074304c037"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55cb7107ba2ff7e36325c074304c037">passedAgainSurfaces</a></td></tr>
-<tr class="memitem:a7f83dfa33ab0c026c617306038dbcb10" id="r_a7f83dfa33ab0c026c617306038dbcb10"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f83dfa33ab0c026c617306038dbcb10">processedMeasurements</a> = 0</td></tr>
-<tr class="memitem:acd6f0ec2eefa30f29085ce66190cb038" id="r_acd6f0ec2eefa30f29085ce66190cb038"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6f0ec2eefa30f29085ce66190cb038">processedStates</a> = 0</td></tr>
-<tr class="memitem:a13bbf1ef93783a60de491d2e9a5227c7" id="r_a13bbf1ef93783a60de491d2e9a5227c7"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bbf1ef93783a60de491d2e9a5227c7">surfaceCount</a> = 0</td></tr>
+<tr class="memdesc:ac8dbd847196ff121dd8355f961a960b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for measurements holes A hole correspond to a surface with an associated detector element with no associated measurement.  <br /></td></tr>
+<tr class="memitem:a0f097b1b184732f3eb79b706fd285aed" id="r_a0f097b1b184732f3eb79b706fd285aed"><td class="memItemLeft" align="right" valign="top"><a id="a0f097b1b184732f3eb79b706fd285aed" name="a0f097b1b184732f3eb79b706fd285aed"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>measurementStates</b> = 0</td></tr>
+<tr class="memdesc:a0f097b1b184732f3eb79b706fd285aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for states with non-outlier measurements. <br /></td></tr>
+<tr class="memitem:a00cb901e2b01497ce0bd3fba9c524eca" id="r_a00cb901e2b01497ce0bd3fba9c524eca"><td class="memItemLeft" align="right" valign="top"><a id="a00cb901e2b01497ce0bd3fba9c524eca" name="a00cb901e2b01497ce0bd3fba9c524eca"></a>
+std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>missedActiveSurfaces</b></td></tr>
+<tr class="memdesc:a00cb901e2b01497ce0bd3fba9c524eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement surfaces without hits. <br /></td></tr>
+<tr class="memitem:ae55cb7107ba2ff7e36325c074304c037" id="r_ae55cb7107ba2ff7e36325c074304c037"><td class="memItemLeft" align="right" valign="top"><a id="ae55cb7107ba2ff7e36325c074304c037" name="ae55cb7107ba2ff7e36325c074304c037"></a>
+std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>passedAgainSurfaces</b></td></tr>
+<tr class="memdesc:ae55cb7107ba2ff7e36325c074304c037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement surfaces handled in both forward and backward filtering. <br /></td></tr>
+<tr class="memitem:a7f83dfa33ab0c026c617306038dbcb10" id="r_a7f83dfa33ab0c026c617306038dbcb10"><td class="memItemLeft" align="right" valign="top"><a id="a7f83dfa33ab0c026c617306038dbcb10" name="a7f83dfa33ab0c026c617306038dbcb10"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>processedMeasurements</b> = 0</td></tr>
+<tr class="memdesc:a7f83dfa33ab0c026c617306038dbcb10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for handled measurements. <br /></td></tr>
+<tr class="memitem:acd6f0ec2eefa30f29085ce66190cb038" id="r_acd6f0ec2eefa30f29085ce66190cb038"><td class="memItemLeft" align="right" valign="top"><a id="acd6f0ec2eefa30f29085ce66190cb038" name="acd6f0ec2eefa30f29085ce66190cb038"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>processedStates</b> = 0</td></tr>
+<tr class="memdesc:acd6f0ec2eefa30f29085ce66190cb038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for handled states. <br /></td></tr>
+<tr class="memitem:a13bbf1ef93783a60de491d2e9a5227c7" id="r_a13bbf1ef93783a60de491d2e9a5227c7"><td class="memItemLeft" align="right" valign="top"><a id="a13bbf1ef93783a60de491d2e9a5227c7" name="a13bbf1ef93783a60de491d2e9a5227c7"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceCount</b> = 0</td></tr>
+<tr class="memdesc:a13bbf1ef93783a60de491d2e9a5227c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count how many surfaces have been hit. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a37803a895d43515e833d1cf06b4f9d95" name="a37803a895d43515e833d1cf06b4f9d95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37803a895d43515e833d1cf06b4f9d95">&#9670;&#160;</a></span>finished</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::finished = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adab513d8310f3c678912fedd080c892d" name="adab513d8310f3c678912fedd080c892d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adab513d8310f3c678912fedd080c892d">&#9670;&#160;</a></span>fittedParameters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::fittedParameters</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3601b92a5c5b20186ddbcb6e5b91303c" name="a3601b92a5c5b20186ddbcb6e5b91303c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3601b92a5c5b20186ddbcb6e5b91303c">&#9670;&#160;</a></span>fittedStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">traj_t* <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::fittedStates {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename traj_t&gt;<br />
+struct Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;</div><p>Result container for a global chi-square fit. </p>
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a1fcc6883cce53b672d52a46048f62d09" name="a1fcc6883cce53b672d52a46048f62d09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fcc6883cce53b672d52a46048f62d09">&#9670;&#160;</a></span>lastMeasurementIndex</h2>
 
@@ -210,6 +189,9 @@ template&lt;typename traj_t&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This is the index of the 'tip' of the track stored in multitrajectory. </p>
+<p>This corresponds to the last measurement state in the multitrajectory. Since this KF only stores one trajectory, it is unambiguous. Acts::TrackTraits::kInvalid is the start of a trajectory. </p>
 
 </div>
 </div>
@@ -227,6 +209,9 @@ template&lt;typename traj_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>This is the index of the 'tip' of the states stored in multitrajectory. </p>
+<p>This corresponds to the last state in the multitrajectory. Since this KF only stores one trajectory, it is unambiguous. Acts::TrackTraits::kInvalid is the start of a trajectory. </p>
+
 </div>
 </div>
 <a id="ac8dbd847196ff121dd8355f961a960b2" name="ac8dbd847196ff121dd8355f961a960b2"></a>
@@ -243,101 +228,8 @@ template&lt;typename traj_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a0f097b1b184732f3eb79b706fd285aed" name="a0f097b1b184732f3eb79b706fd285aed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f097b1b184732f3eb79b706fd285aed">&#9670;&#160;</a></span>measurementStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::measurementStates = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00cb901e2b01497ce0bd3fba9c524eca" name="a00cb901e2b01497ce0bd3fba9c524eca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00cb901e2b01497ce0bd3fba9c524eca">&#9670;&#160;</a></span>missedActiveSurfaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;const <a class="el" href="class_acts_1_1_surface.html">Surface</a>*&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::missedActiveSurfaces</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae55cb7107ba2ff7e36325c074304c037" name="ae55cb7107ba2ff7e36325c074304c037"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae55cb7107ba2ff7e36325c074304c037">&#9670;&#160;</a></span>passedAgainSurfaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;const <a class="el" href="class_acts_1_1_surface.html">Surface</a>*&gt; <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::passedAgainSurfaces</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f83dfa33ab0c026c617306038dbcb10" name="a7f83dfa33ab0c026c617306038dbcb10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f83dfa33ab0c026c617306038dbcb10">&#9670;&#160;</a></span>processedMeasurements</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::processedMeasurements = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd6f0ec2eefa30f29085ce66190cb038" name="acd6f0ec2eefa30f29085ce66190cb038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd6f0ec2eefa30f29085ce66190cb038">&#9670;&#160;</a></span>processedStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::processedStates = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a13bbf1ef93783a60de491d2e9a5227c7" name="a13bbf1ef93783a60de491d2e9a5227c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13bbf1ef93783a60de491d2e9a5227c7">&#9670;&#160;</a></span>surfaceCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename traj_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_result.html">Acts::Experimental::Gx2FitterResult</a>&lt; traj_t &gt;::surfaceCount = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Counter for measurements holes A hole correspond to a surface with an associated detector element with no associated measurement. </p>
+<p>Holes are only taken into account if they are between the first and last measurements. </p>
 
 </div>
 </div>

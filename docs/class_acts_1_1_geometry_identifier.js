@@ -5,7 +5,6 @@ var class_acts_1_1_geometry_identifier =
     [ "GeometryIdentifier", "class_acts_1_1_geometry_identifier.html#a07aaacd25469625e01dbb1743bc436fd", null ],
     [ "GeometryIdentifier", "class_acts_1_1_geometry_identifier.html#a5497e456c218a392a1cd5be037ee6d08", null ],
     [ "GeometryIdentifier", "class_acts_1_1_geometry_identifier.html#a605fe8017fea16f11c03b2258e712405", null ],
-    [ "~GeometryIdentifier", "class_acts_1_1_geometry_identifier.html#a4b7dfc98cd8aa70daf9d86863e93406d", null ],
     [ "approach", "class_acts_1_1_geometry_identifier.html#ac74edaae5e0aa23ac789c9f4ce493cee", null ],
     [ "boundary", "class_acts_1_1_geometry_identifier.html#a701b7e15515e8470110e48f268236aa4", null ],
     [ "extra", "class_acts_1_1_geometry_identifier.html#a6a0fe76edd5bc7b92cdc57216a784323", null ],
@@ -28,7 +27,5 @@ var class_acts_1_1_geometry_identifier =
     [ "withLayer", "class_acts_1_1_geometry_identifier.html#a04b78287b8bb2656d46d62272d787c61", null ],
     [ "withPassive", "class_acts_1_1_geometry_identifier.html#a88ca5cb80f4a3ee648596b5ebb0989ec", null ],
     [ "withSensitive", "class_acts_1_1_geometry_identifier.html#a79020250502aac3bcf9662af99a2b038", null ],
-    [ "withVolume", "class_acts_1_1_geometry_identifier.html#a5b338dab39c55b34c998e3daf95c55c9", null ],
-    [ "operator<", "class_acts_1_1_geometry_identifier.html#a6eb4144f78c341761d3f8e9042ca9668", null ],
-    [ "operator==", "class_acts_1_1_geometry_identifier.html#a897eeeae4d036150a6ea5b2c1f61fdc7", null ]
+    [ "withVolume", "class_acts_1_1_geometry_identifier.html#a5b338dab39c55b34c998e3daf95c55c9", null ]
 ];

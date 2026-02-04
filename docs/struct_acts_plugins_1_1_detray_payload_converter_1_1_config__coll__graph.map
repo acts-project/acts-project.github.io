@@ -1,5 +1,5 @@
 <map id="ActsPlugins::DetrayPayloadConverter::Config" name="ActsPlugins::DetrayPayloadConverter::Config">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1644,103,1844,143"/>
+<area shape="rect" id="Node000001" title="Configuration for the Detray payload converter." alt="" coords="1644,103,1844,143"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_tracking_volume.html" title="Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure." alt="" coords="1183,19,1345,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1358,44,1621,92,1658,100,1656,105,1619,97,1357,50"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_volume.html" title="It inherits from GeometryObject for geometry identification." alt="" coords="588,15,695,41"/>

@@ -157,8 +157,9 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a7de3a77bcd9eaa2c3313ef3f6ae681" id="r_a2a7de3a77bcd9eaa2c3313ef3f6ae681"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a7de3a77bcd9eaa2c3313ef3f6ae681">TGeoLayerBuilder</a> (const <a class="el" href="struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html">Config</a> &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;TGeoLayerBuilder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a2a7de3a77bcd9eaa2c3313ef3f6ae681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a1db703d13687de12b2ee4d995a7e03ef" id="r_a1db703d13687de12b2ee4d995a7e03ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db703d13687de12b2ee4d995a7e03ef">~TGeoLayerBuilder</a> () override</td></tr>
-<tr class="memdesc:a1db703d13687de12b2ee4d995a7e03ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="memitem:a1db703d13687de12b2ee4d995a7e03ef" id="r_a1db703d13687de12b2ee4d995a7e03ef"><td class="memItemLeft" align="right" valign="top"><a id="a1db703d13687de12b2ee4d995a7e03ef" name="a1db703d13687de12b2ee4d995a7e03ef"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~TGeoLayerBuilder</b> () override</td></tr>
+<tr class="memdesc:a1db703d13687de12b2ee4d995a7e03ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:aeb67656d82f52138bfe2fba891e1c0c6" id="r_aeb67656d82f52138bfe2fba891e1c0c6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2">Acts::LayerVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb67656d82f52138bfe2fba891e1c0c6">centralLayers</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx) const final</td></tr>
 <tr class="memdesc:aeb67656d82f52138bfe2fba891e1c0c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">LayerBuilder interface method - returning the central layers.  <br /></td></tr>
 <tr class="memitem:ga974d1b63629e3c61e3547034a015676d" id="r_ga974d1b63629e3c61e3547034a015676d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html">TGeoDetectorElement</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__root__plugin.html#ga974d1b63629e3c61e3547034a015676d">detectorElements</a> () const</td></tr>
@@ -176,8 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a189bd7682020e9b03e815f596215e38c" id="r_a189bd7682020e9b03e815f596215e38c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a189bd7682020e9b03e815f596215e38c">setLogger</a> (std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; newLogger)</td></tr>
 <tr class="memdesc:a189bd7682020e9b03e815f596215e38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set logging instance.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_i_layer_builder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_i_layer_builder')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_layer_builder.html">Acts::ILayerBuilder</a></td></tr>
-<tr class="memitem:a53922422c54024100826bfe8cd345bd1 inherit pub_methods_class_acts_1_1_i_layer_builder" id="r_a53922422c54024100826bfe8cd345bd1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_layer_builder.html#a53922422c54024100826bfe8cd345bd1">~ILayerBuilder</a> ()=default</td></tr>
-<tr class="memdesc:a53922422c54024100826bfe8cd345bd1 inherit pub_methods_class_acts_1_1_i_layer_builder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <br /></td></tr>
+<tr class="memitem:a53922422c54024100826bfe8cd345bd1 inherit pub_methods_class_acts_1_1_i_layer_builder" id="r_a53922422c54024100826bfe8cd345bd1"><td class="memItemLeft" align="right" valign="top">
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ILayerBuilder</b> ()=default</td></tr>
+<tr class="memdesc:a53922422c54024100826bfe8cd345bd1 inherit pub_methods_class_acts_1_1_i_layer_builder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -204,7 +206,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">TGeoDetectorElement::Identifier</a>&amp;, <span class="keyword">const</span> TGeoNode&amp;,</div>
 <div class="line">      <span class="keyword">const</span> TGeoMatrix&amp; tGeoMatrix, <span class="keyword">const</span> std::string&amp; axes, <span class="keywordtype">double</span> scalor,</div>
 <div class="line">      std::shared_ptr&lt;const Acts::ISurfaceMaterial&gt; material)&gt;</div>
-<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_detector_element_html_a3efcc3fde6be6c334ac40cd2f481a527"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">ActsPlugins::TGeoDetectorElement::Identifier</a></div><div class="ttdeci">identifier_type Identifier</div><div class="ttdef"><b>Definition</b> TGeoDetectorElement.hpp:47</div></div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_detector_element_html_a3efcc3fde6be6c334ac40cd2f481a527"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">ActsPlugins::TGeoDetectorElement::Identifier</a></div><div class="ttdeci">identifier_type Identifier</div><div class="ttdoc">Identifier alias.</div><div class="ttdef"><b>Definition</b> TGeoDetectorElement.hpp:50</div></div>
 </div><!-- fragment -->
 <p>Type alias for detector element factory function. </p>
 
@@ -246,33 +248,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a1db703d13687de12b2ee4d995a7e03ef" name="a1db703d13687de12b2ee4d995a7e03ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1db703d13687de12b2ee4d995a7e03ef">&#9670;&#160;</a></span>~TGeoLayerBuilder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::TGeoLayerBuilder::~TGeoLayerBuilder </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
 
 </div>
 </div>

@@ -143,53 +143,18 @@ Collaboration diagram for Acts::RemovePointer&lt; T &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a07a32634408556efd71eff1ceddf0f4c" id="r_a07a32634408556efd71eff1ceddf0f4c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07a32634408556efd71eff1ceddf0f4c">type</a> = std::remove_pointer_t&lt;T&gt;</td></tr>
-<tr class="memdesc:a07a32634408556efd71eff1ceddf0f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the type pointed to by raw pointer.  <br /></td></tr>
-<tr class="memitem:a1d729ed4c289f41c66e8647c4b2b759b" id="r_a1d729ed4c289f41c66e8647c4b2b759b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d729ed4c289f41c66e8647c4b2b759b">type</a> = typename T::element_type</td></tr>
-<tr class="memdesc:a1d729ed4c289f41c66e8647c4b2b759b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the element type pointed to by smart pointer.  <br /></td></tr>
+<tr class="memitem:a07a32634408556efd71eff1ceddf0f4c" id="r_a07a32634408556efd71eff1ceddf0f4c"><td class="memItemLeft" align="right" valign="top"><a id="a07a32634408556efd71eff1ceddf0f4c" name="a07a32634408556efd71eff1ceddf0f4c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = std::remove_pointer_t&lt;T&gt;</td></tr>
+<tr class="memdesc:a07a32634408556efd71eff1ceddf0f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the type pointed to by raw pointer. <br /></td></tr>
+<tr class="memitem:a1d729ed4c289f41c66e8647c4b2b759b" id="r_a1d729ed4c289f41c66e8647c4b2b759b"><td class="memItemLeft" align="right" valign="top"><a id="a1d729ed4c289f41c66e8647c4b2b759b" name="a1d729ed4c289f41c66e8647c4b2b759b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = typename T::element_type</td></tr>
+<tr class="memdesc:a1d729ed4c289f41c66e8647c4b2b759b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for the element type pointed to by smart pointer. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;SmartPointerConcept T&gt;<br />
 struct Acts::RemovePointer&lt; T &gt;</div><p>This specialization allows std::remove_pointer to work with types satisfying Acts::SmartPointerConcept, similar to how it works with raw pointers. </p>
 <p>ordinary specialization for pointers </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a07a32634408556efd71eff1ceddf0f4c" name="a07a32634408556efd71eff1ceddf0f4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07a32634408556efd71eff1ceddf0f4c">&#9670;&#160;</a></span>type <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;SmartPointerConcept T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_remove_pointer.html">Acts::RemovePointer</a>&lt; T &gt;::type = std::remove_pointer_t&lt;T&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for the type pointed to by raw pointer. </p>
-
-</div>
-</div>
-<a id="a1d729ed4c289f41c66e8647c4b2b759b" name="a1d729ed4c289f41c66e8647c4b2b759b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d729ed4c289f41c66e8647c4b2b759b">&#9670;&#160;</a></span>type <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;SmartPointerConcept T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_remove_pointer.html">Acts::RemovePointer</a>&lt; T &gt;::type = typename T::element_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for the element type pointed to by smart pointer. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

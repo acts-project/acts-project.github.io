@@ -1,9 +1,6 @@
 var struct_acts_plugins_1_1_device =
 [
-    [ "Type", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366", [
-      [ "eCPU", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366aeb4eb1a6c8ae9c0034299ca79590cde6", null ],
-      [ "eCUDA", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366a3adab38689de7b6032d26d2f13c653f9", null ]
-    ] ],
+    [ "Type", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366", null ],
     [ "Cpu", "struct_acts_plugins_1_1_device.html#accc360d8927adc93ed85ecbae8680e62", null ],
     [ "Cuda", "struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0", null ],
     [ "isCpu", "struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72", null ],

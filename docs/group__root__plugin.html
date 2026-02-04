@@ -150,9 +150,11 @@ Classes</h2></td></tr>
 <tr class="memitem:ActsPlugins_3A_3ATGeoLayerBuilder" id="r_ActsPlugins_3A_3ATGeoLayerBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_t_geo_layer_builder.html">ActsPlugins::TGeoLayerBuilder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This parses the gGeoManager and looks for a defined combination of volume with contained sensitive detector element.  <a href="class_acts_plugins_1_1_t_geo_layer_builder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ActsPlugins_3A_3ATGeoMaterialConverter" id="r_ActsPlugins_3A_3ATGeoMaterialConverter"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_material_converter.html">ActsPlugins::TGeoMaterialConverter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct for converting TGeo materials to ACTS materials.  <a href="struct_acts_plugins_1_1_t_geo_material_converter.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ActsPlugins_3A_3ATGeoParser" id="r_ActsPlugins_3A_3ATGeoParser"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_parser.html">ActsPlugins::TGeoParser</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TGeoParser is a helper struct that walks recursively through a TGeometry and selects by string comparison the TGeoNodes that match the criteria.  <a href="struct_acts_plugins_1_1_t_geo_parser.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ActsPlugins_3A_3ATGeoPrimitivesHelper" id="r_ActsPlugins_3A_3ATGeoPrimitivesHelper"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_primitives_helper.html">ActsPlugins::TGeoPrimitivesHelper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct for creating ACTS primitives from TGeo geometry.  <a href="struct_acts_plugins_1_1_t_geo_primitives_helper.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ActsPlugins_3A_3ATGeoSurfaceConverter" id="r_ActsPlugins_3A_3ATGeoSurfaceConverter"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_t_geo_surface_converter.html">ActsPlugins::TGeoSurfaceConverter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct to convert TGeoShapes into Surface or Volume Bounds.  <a href="struct_acts_plugins_1_1_t_geo_surface_converter.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -300,6 +302,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the transformation matrix from local to global coordinates </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_surface_placement_base.html#ac360078545efe0e1cbb2a7d83d42e96d">Acts::SurfacePlacementBase</a>.</p>
 
@@ -368,6 +371,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Interpolated magnetic field map in R-Z coordinates </dd></dl>
 
 </div>
 </div>
@@ -437,6 +441,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Interpolated magnetic field map in X-Y-Z coordinates </dd></dl>
 
 </div>
 </div>
@@ -464,7 +469,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return surface associated with this detector element. </p>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the nominal transformation matrix </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Const reference to the surface </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_surface_placement_base.html#a95c38712a0276b71649be21a2ff45247">Acts::SurfacePlacementBase</a>.</p>
 
@@ -494,8 +499,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return surface associated with this detector element. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to the surface </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>this is the non-const access </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Mutable reference to the surface </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_surface_placement_base.html#a9352d987465a422097d79cdf7b28f56e">Acts::SurfacePlacementBase</a>.</p>
 
@@ -517,9 +522,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the thickness of the module. </p>
-<dl class="section return"><dt>Returns</dt><dd>Mutable reference to the surface</dd>
-<dd>
-Thickness of the detector element in units of length </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Thickness of the detector element in units of length </dd></dl>
 
 </div>
 </div>

@@ -9,9 +9,7 @@ var class_acts_1_1_space_point_container =
     [ "ValueType", "class_acts_1_1_space_point_container.html#ae480afbe7a3c49e2515923fa32933740", null ],
     [ "SpacePointContainer", "class_acts_1_1_space_point_container.html#a3f8ac33e82a5c61340f1494f73bbb787", null ],
     [ "SpacePointContainer", "class_acts_1_1_space_point_container.html#afaf68e4316d6757f28fa6307d372c8e7", null ],
-    [ "SpacePointContainer", "class_acts_1_1_space_point_container.html#a08aafdc4ef2012f3745c19680590a643", null ],
     [ "SpacePointContainer", "class_acts_1_1_space_point_container.html#a54b9fd288852442de4bd99b8fe8f2583", null ],
-    [ "~SpacePointContainer", "class_acts_1_1_space_point_container.html#ab4f37372848a69d604a0bab7c6dbf5ab", null ],
     [ "at", "class_acts_1_1_space_point_container.html#a1c00d298305570f12751ddc0b473cd93", null ],
     [ "at", "class_acts_1_1_space_point_container.html#a6033c4781f692fa4eb3670bb7fd58385", null ],
     [ "begin", "class_acts_1_1_space_point_container.html#abd5324538f64cf028b230dd7a60e9239", null ],
@@ -21,8 +19,6 @@ var class_acts_1_1_space_point_container =
     [ "end", "class_acts_1_1_space_point_container.html#a16eb3a59bc2994f5512f3880e9c1a487", null ],
     [ "end", "class_acts_1_1_space_point_container.html#a68eefb9583ca1a680290df85de16a7d5", null ],
     [ "operator=", "class_acts_1_1_space_point_container.html#a14f5edee1d2ee3a7bc1d2c66c6f5f777", null ],
-    [ "operator=", "class_acts_1_1_space_point_container.html#ad8684aa273accc7da896e8d8e4edc952", null ],
     [ "size", "class_acts_1_1_space_point_container.html#a88a7830fc5828f118f67b2caf5015e21", null ],
-    [ "sp", "class_acts_1_1_space_point_container.html#a3eb47a4cea0bba0d085e03c47de82343", null ],
-    [ "Acts::SpacePointProxy< Acts::SpacePointContainer< container_t, holder_t > >", "class_acts_1_1_space_point_container.html#a962331527a45a35e7b6a6a161f6b55b8", null ]
+    [ "sp", "class_acts_1_1_space_point_container.html#a3eb47a4cea0bba0d085e03c47de82343", null ]
 ];

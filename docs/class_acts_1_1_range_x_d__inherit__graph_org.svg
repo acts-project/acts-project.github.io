@@ -83,7 +83,7 @@
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:href="class_acts_1_1_range_x_d.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="701,-81 564,-81 564,-51 701,-51 701,-81"/>
+<polygon fill="white" stroke="#bfbfbf" points="701,-81 564,-81 564,-51 701,-51 701,-81"/>
 <text text-anchor="start" x="572" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::RangeXD&lt; 1, Type,</text>
 <text text-anchor="middle" x="632.5" y="-58" font-family="Helvetica,sans-Serif" font-size="10.00"> Vector &gt;&lt; double &gt;</text>
 </a>

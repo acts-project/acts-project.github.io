@@ -150,8 +150,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a27a3d585b9875e516863023d526b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current tracking volume (always nullptr for void navigator).  <br /></td></tr>
 <tr class="memitem:a515498024f9adc6f73697631fe170142" id="r_a515498024f9adc6f73697631fe170142"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515498024f9adc6f73697631fe170142">currentVolumeMaterial</a> (const <a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;) const</td></tr>
 <tr class="memdesc:a515498024f9adc6f73697631fe170142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current volume material (always nullptr for void navigator).  <br /></td></tr>
-<tr class="memitem:ae406878ba54bbfb91cb44c1bf6d33d88" id="r_ae406878ba54bbfb91cb44c1bf6d33d88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae406878ba54bbfb91cb44c1bf6d33d88">handleSurfaceReached</a> (<a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;) const</td></tr>
-<tr class="memdesc:ae406878ba54bbfb91cb44c1bf6d33d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles reaching a surface (does nothing for void navigator).  <br /></td></tr>
+<tr class="memitem:ae406878ba54bbfb91cb44c1bf6d33d88" id="r_ae406878ba54bbfb91cb44c1bf6d33d88"><td class="memItemLeft" align="right" valign="top"><a id="ae406878ba54bbfb91cb44c1bf6d33d88" name="ae406878ba54bbfb91cb44c1bf6d33d88"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleSurfaceReached</b> (<a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;) const</td></tr>
+<tr class="memdesc:ae406878ba54bbfb91cb44c1bf6d33d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles reaching a surface (does nothing for void navigator). <br /></td></tr>
 <tr class="memitem:a0f1f8538d7ca620c54dabe4988967b56" id="r_a0f1f8538d7ca620c54dabe4988967b56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f1f8538d7ca620c54dabe4988967b56">initialize</a> (<a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;, <a class="el" href="class_acts_1_1_direction.html">Direction</a>) const</td></tr>
 <tr class="memdesc:a0f1f8538d7ca620c54dabe4988967b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the void navigator (always succeeds and does nothing).  <br /></td></tr>
 <tr class="memitem:a0ed69c256877b9b7da6d57a8ea62b8bd" id="r_a0ed69c256877b9b7da6d57a8ea62b8bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ed69c256877b9b7da6d57a8ea62b8bd">makeState</a> (const <a class="el" href="struct_acts_1_1_void_navigator_1_1_options.html">Options</a> &amp;options) const</td></tr>
@@ -255,39 +256,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns the current volume material (always nullptr for void navigator). </p>
 <dl class="section return"><dt>Returns</dt><dd>Always nullptr since void navigator has no material </dd></dl>
-
-</div>
-</div>
-<a id="ae406878ba54bbfb91cb44c1bf6d33d88" name="ae406878ba54bbfb91cb44c1bf6d33d88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae406878ba54bbfb91cb44c1bf6d33d88">&#9670;&#160;</a></span>handleSurfaceReached()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::VoidNavigator::handleSurfaceReached </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Handles reaching a surface (does nothing for void navigator). </p>
 
 </div>
 </div>

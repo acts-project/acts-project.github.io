@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2087,188,2147,204,2146,209,2086,193"/>
 <area shape="rect" id="Node000003" href="$struct_acts_1_1_try_all_navigator_base_1_1_options.html" title="Options for this Navigator." alt="" coords="1497,181,1687,221"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1701,195,1878,183,1902,180,1902,185,1879,188,1701,201"/>
-<area shape="rect" id="Node000004" href="$struct_acts_1_1_navigator_plain_options.html" title=" " alt="" coords="1043,191,1247,217"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and surfaces." alt="" coords="1043,191,1247,217"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1260,201,1497,199,1497,205,1260,206"/>
 <area shape="rect" id="Node000005" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="791,151,897,177"/>
 <area shape="poly" id="edge12_Node000002_Node000005" title=" " alt="" coords="911,160,921,160,1400,156,1879,160,1903,161,1903,166,1879,165,1400,161,921,165,911,165"/>

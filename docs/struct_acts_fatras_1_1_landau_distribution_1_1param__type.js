@@ -2,7 +2,6 @@ var struct_acts_fatras_1_1_landau_distribution_1_1param__type =
 [
     [ "distribution_type", "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a17ba3f876f4e404f33674b61de715c55", null ],
     [ "param_type", "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26", null ],
-    [ "param_type", "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a126be712605b5345afb30632042da61d", null ],
     [ "param_type", "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a03d23a2bd1a2c2731e2da3c480666063", null ],
     [ "param_type", "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a30d68dec055aa12f5b1fd6ff15213287", null ],
     [ "operator=", "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#abb9eb5b7258429c3315dd26fd43d2cf7", null ],

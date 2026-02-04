@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Layer helper with eta&#45;bin access for GBTs seeding.">
 <polygon fill="#999999" stroke="#666666" points="596,-106.5 487,-106.5 487,-76.5 596,-76.5 596,-106.5"/>
 <text text-anchor="start" x="495" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="541.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsLayer</text>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html" target="_top" xlink:title="Lightweight silicon layer description for GBTs geometry.">
 <polygon fill="white" stroke="#666666" points="344.5,-146.5 235.5,-146.5 235.5,-116.5 344.5,-116.5 344.5,-146.5"/>
 <text text-anchor="start" x="243.5" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="290" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00">::TrigInDetSiLayer</text>

@@ -3,7 +3,6 @@ var class_acts_1_1_binned_group =
     [ "BinnedGroup", "class_acts_1_1_binned_group.html#a74b9d811564858be9ea37e7eba0ee6b7", null ],
     [ "BinnedGroup", "class_acts_1_1_binned_group.html#a3f4e6b0074c9d5cd212742e779d770ce", null ],
     [ "BinnedGroup", "class_acts_1_1_binned_group.html#a1aa6f3f1874d5175c3c784cb61fe1303", null ],
-    [ "BinnedGroup", "class_acts_1_1_binned_group.html#a4ae508e746a040d554425f0b6b5d2064", null ],
     [ "BinnedGroup", "class_acts_1_1_binned_group.html#a750ec8b02c0eb604d9e1a656e64bba4a", null ],
     [ "BinnedGroup", "class_acts_1_1_binned_group.html#a18d3e1f7940d54caec97667639b3a8a7", null ],
     [ "~BinnedGroup", "class_acts_1_1_binned_group.html#a18cd35de462c60f07e5b23b044fa58fc", null ],

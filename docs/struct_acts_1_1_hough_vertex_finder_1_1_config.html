@@ -146,24 +146,32 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a17b7da344f8259b145902310f5992d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the actual number of measurements is below "targetSPs", then the number of bins along cot(theta)-axis decreases.  <br /></td></tr>
 <tr class="memitem:a65aea080c40498e4590fe5f2b88735a9" id="r_a65aea080c40498e4590fe5f2b88735a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65aea080c40498e4590fe5f2b88735a9">defVtxPosition</a></td></tr>
 <tr class="memdesc:a65aea080c40498e4590fe5f2b88735a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default position of the vertex in X, Y, and Z coordinates.  <br /></td></tr>
-<tr class="memitem:ab81be682623ea8e52ea7cf29ad628f4d" id="r_ab81be682623ea8e52ea7cf29ad628f4d"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab81be682623ea8e52ea7cf29ad628f4d">fillNeighbours</a> = 0</td></tr>
-<tr class="memdesc:ab81be682623ea8e52ea7cf29ad628f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of neighbouring bins in Hough plane to fill in the cot(theta) direction.  <br /></td></tr>
-<tr class="memitem:a6272e37a7ddbd589f09affc62545480d" id="r_a6272e37a7ddbd589f09affc62545480d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6272e37a7ddbd589f09affc62545480d">maxAbsEta</a> = 4.0f</td></tr>
-<tr class="memdesc:a6272e37a7ddbd589f09affc62545480d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum absolute pseudorapidity for vertex finding.  <br /></td></tr>
-<tr class="memitem:a4989cb94d290f55f8aea6c9813168b0f" id="r_a4989cb94d290f55f8aea6c9813168b0f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4989cb94d290f55f8aea6c9813168b0f">minAbsEta</a> = 0.3f</td></tr>
-<tr class="memdesc:a4989cb94d290f55f8aea6c9813168b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum and maximum ranges in |eta|; the |eta| will not be set outside these bounds even if targetSPs is not reached.  <br /></td></tr>
-<tr class="memitem:ac582b22b76ae05b42808abc811c8fbb6" id="r_ac582b22b76ae05b42808abc811c8fbb6"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac582b22b76ae05b42808abc811c8fbb6">minHits</a> = 4</td></tr>
-<tr class="memdesc:ac582b22b76ae05b42808abc811c8fbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum number of hits in Hough plane to consider the cell to contain a track.  <br /></td></tr>
-<tr class="memitem:aa3f68aa1a569453cc7d7ff4943144566" id="r_aa3f68aa1a569453cc7d7ff4943144566"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f68aa1a569453cc7d7ff4943144566">nBinsCotThetaIterZ</a> {8000, 8000, 8000}</td></tr>
-<tr class="memdesc:aa3f68aa1a569453cc7d7ff4943144566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins along cot(theta)-axis of the Hough image for each iteration.  <br /></td></tr>
-<tr class="memitem:ae767456e46646964e9e5e84618b9e84f" id="r_ae767456e46646964e9e5e84618b9e84f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae767456e46646964e9e5e84618b9e84f">nBinsZIterZ</a> {800, 180, 80}</td></tr>
-<tr class="memdesc:ae767456e46646964e9e5e84618b9e84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins along z-axis of the Hough image for each iteration.  <br /></td></tr>
-<tr class="memitem:ae2382671a06bd21cb7da324d58632a53" id="r_ae2382671a06bd21cb7da324d58632a53"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2382671a06bd21cb7da324d58632a53">peakWidth</a> = 3</td></tr>
-<tr class="memdesc:ae2382671a06bd21cb7da324d58632a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of the peak when estimating vertex position.  <br /></td></tr>
+<tr class="memitem:ab81be682623ea8e52ea7cf29ad628f4d" id="r_ab81be682623ea8e52ea7cf29ad628f4d"><td class="memItemLeft" align="right" valign="top"><a id="ab81be682623ea8e52ea7cf29ad628f4d" name="ab81be682623ea8e52ea7cf29ad628f4d"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>fillNeighbours</b> = 0</td></tr>
+<tr class="memdesc:ab81be682623ea8e52ea7cf29ad628f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of neighbouring bins in Hough plane to fill in the cot(theta) direction. <br /></td></tr>
+<tr class="memitem:a6272e37a7ddbd589f09affc62545480d" id="r_a6272e37a7ddbd589f09affc62545480d"><td class="memItemLeft" align="right" valign="top"><a id="a6272e37a7ddbd589f09affc62545480d" name="a6272e37a7ddbd589f09affc62545480d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>maxAbsEta</b> = 4.0f</td></tr>
+<tr class="memdesc:a6272e37a7ddbd589f09affc62545480d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum absolute pseudorapidity for vertex finding. <br /></td></tr>
+<tr class="memitem:a4989cb94d290f55f8aea6c9813168b0f" id="r_a4989cb94d290f55f8aea6c9813168b0f"><td class="memItemLeft" align="right" valign="top"><a id="a4989cb94d290f55f8aea6c9813168b0f" name="a4989cb94d290f55f8aea6c9813168b0f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>minAbsEta</b> = 0.3f</td></tr>
+<tr class="memdesc:a4989cb94d290f55f8aea6c9813168b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum and maximum ranges in |eta|; the |eta| will not be set outside these bounds even if targetSPs is not reached. <br /></td></tr>
+<tr class="memitem:ac582b22b76ae05b42808abc811c8fbb6" id="r_ac582b22b76ae05b42808abc811c8fbb6"><td class="memItemLeft" align="right" valign="top"><a id="ac582b22b76ae05b42808abc811c8fbb6" name="ac582b22b76ae05b42808abc811c8fbb6"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>minHits</b> = 4</td></tr>
+<tr class="memdesc:ac582b22b76ae05b42808abc811c8fbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum number of hits in Hough plane to consider the cell to contain a track. <br /></td></tr>
+<tr class="memitem:aa3f68aa1a569453cc7d7ff4943144566" id="r_aa3f68aa1a569453cc7d7ff4943144566"><td class="memItemLeft" align="right" valign="top"><a id="aa3f68aa1a569453cc7d7ff4943144566" name="aa3f68aa1a569453cc7d7ff4943144566"></a>
+std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>nBinsCotThetaIterZ</b> {8000, 8000, 8000}</td></tr>
+<tr class="memdesc:aa3f68aa1a569453cc7d7ff4943144566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins along cot(theta)-axis of the Hough image for each iteration. <br /></td></tr>
+<tr class="memitem:ae767456e46646964e9e5e84618b9e84f" id="r_ae767456e46646964e9e5e84618b9e84f"><td class="memItemLeft" align="right" valign="top"><a id="ae767456e46646964e9e5e84618b9e84f" name="ae767456e46646964e9e5e84618b9e84f"></a>
+std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>nBinsZIterZ</b> {800, 180, 80}</td></tr>
+<tr class="memdesc:ae767456e46646964e9e5e84618b9e84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bins along z-axis of the Hough image for each iteration. <br /></td></tr>
+<tr class="memitem:ae2382671a06bd21cb7da324d58632a53" id="r_ae2382671a06bd21cb7da324d58632a53"><td class="memItemLeft" align="right" valign="top"><a id="ae2382671a06bd21cb7da324d58632a53" name="ae2382671a06bd21cb7da324d58632a53"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>peakWidth</b> = 3</td></tr>
+<tr class="memdesc:ae2382671a06bd21cb7da324d58632a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of the peak when estimating vertex position. <br /></td></tr>
 <tr class="memitem:ac94352000b99f6bc522faca3dda6a3a2" id="r_ac94352000b99f6bc522faca3dda6a3a2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac94352000b99f6bc522faca3dda6a3a2">rangeIterZ</a></td></tr>
 <tr class="memdesc:ac94352000b99f6bc522faca3dda6a3a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The algorithm starts peak searching considering wide range in Z and then iteratively constrain itself to narrower ranges around previously found peak.  <br /></td></tr>
-<tr class="memitem:a65df7ce373b55ff1dd5d20503a2e15bd" id="r_a65df7ce373b55ff1dd5d20503a2e15bd"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65df7ce373b55ff1dd5d20503a2e15bd">targetSPs</a> = 10000</td></tr>
-<tr class="memdesc:a65df7ce373b55ff1dd5d20503a2e15bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ideal amount of spacepoints; |eta| range will be limited to contain approximately this amount of SPs.  <br /></td></tr>
+<tr class="memitem:a65df7ce373b55ff1dd5d20503a2e15bd" id="r_a65df7ce373b55ff1dd5d20503a2e15bd"><td class="memItemLeft" align="right" valign="top"><a id="a65df7ce373b55ff1dd5d20503a2e15bd" name="a65df7ce373b55ff1dd5d20503a2e15bd"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>targetSPs</b> = 10000</td></tr>
+<tr class="memdesc:a65df7ce373b55ff1dd5d20503a2e15bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ideal amount of spacepoints; |eta| range will be limited to contain approximately this amount of SPs. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename spacepoint_t&gt;<br />
@@ -247,132 +255,6 @@ template&lt;typename spacepoint_t&gt; </div>
 
 </div>
 </div>
-<a id="ab81be682623ea8e52ea7cf29ad628f4d" name="ab81be682623ea8e52ea7cf29ad628f4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81be682623ea8e52ea7cf29ad628f4d">&#9670;&#160;</a></span>fillNeighbours</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::fillNeighbours = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of neighbouring bins in Hough plane to fill in the cot(theta) direction. </p>
-
-</div>
-</div>
-<a id="a6272e37a7ddbd589f09affc62545480d" name="a6272e37a7ddbd589f09affc62545480d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6272e37a7ddbd589f09affc62545480d">&#9670;&#160;</a></span>maxAbsEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::maxAbsEta = 4.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maximum absolute pseudorapidity for vertex finding. </p>
-
-</div>
-</div>
-<a id="a4989cb94d290f55f8aea6c9813168b0f" name="a4989cb94d290f55f8aea6c9813168b0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4989cb94d290f55f8aea6c9813168b0f">&#9670;&#160;</a></span>minAbsEta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::minAbsEta = 0.3f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Minimum and maximum ranges in |eta|; the |eta| will not be set outside these bounds even if targetSPs is not reached. </p>
-
-</div>
-</div>
-<a id="ac582b22b76ae05b42808abc811c8fbb6" name="ac582b22b76ae05b42808abc811c8fbb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac582b22b76ae05b42808abc811c8fbb6">&#9670;&#160;</a></span>minHits</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::minHits = 4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Minimum number of hits in Hough plane to consider the cell to contain a track. </p>
-
-</div>
-</div>
-<a id="aa3f68aa1a569453cc7d7ff4943144566" name="aa3f68aa1a569453cc7d7ff4943144566"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3f68aa1a569453cc7d7ff4943144566">&#9670;&#160;</a></span>nBinsCotThetaIterZ</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::uint32_t&gt; <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::nBinsCotThetaIterZ {8000, 8000, 8000}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of bins along cot(theta)-axis of the Hough image for each iteration. </p>
-
-</div>
-</div>
-<a id="ae767456e46646964e9e5e84618b9e84f" name="ae767456e46646964e9e5e84618b9e84f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae767456e46646964e9e5e84618b9e84f">&#9670;&#160;</a></span>nBinsZIterZ</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::uint32_t&gt; <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::nBinsZIterZ {800, 180, 80}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of bins along z-axis of the Hough image for each iteration. </p>
-
-</div>
-</div>
-<a id="ae2382671a06bd21cb7da324d58632a53" name="ae2382671a06bd21cb7da324d58632a53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2382671a06bd21cb7da324d58632a53">&#9670;&#160;</a></span>peakWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::peakWidth = 3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Width of the peak when estimating vertex position. </p>
-
-</div>
-</div>
 <a id="ac94352000b99f6bc522faca3dda6a3a2" name="ac94352000b99f6bc522faca3dda6a3a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac94352000b99f6bc522faca3dda6a3a2">&#9670;&#160;</a></span>rangeIterZ</h2>
 
@@ -392,24 +274,6 @@ template&lt;typename spacepoint_t&gt; </div>
 </div><!-- fragment -->
 <p>The algorithm starts peak searching considering wide range in Z and then iteratively constrain itself to narrower ranges around previously found peak. </p>
 <p>At the same time it may adapt other Hough-image parameters in each step. </p>
-
-</div>
-</div>
-<a id="a65df7ce373b55ff1dd5d20503a2e15bd" name="a65df7ce373b55ff1dd5d20503a2e15bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65df7ce373b55ff1dd5d20503a2e15bd">&#9670;&#160;</a></span>targetSPs</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::Config::targetSPs = 10000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Ideal amount of spacepoints; |eta| range will be limited to contain approximately this amount of SPs. </p>
 
 </div>
 </div>

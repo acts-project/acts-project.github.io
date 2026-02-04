@@ -139,7 +139,6 @@ Inheritance diagram for Acts::ITrackingGeometryVisitor:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3f5affba00725386cbc344fdaad4c28" id="r_aa3f5affba00725386cbc344fdaad4c28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f5affba00725386cbc344fdaad4c28">ITrackingGeometryVisitor</a> (bool <a class="el" href="#a76b096e043fe7e09a6b86fc880405160">visitDepthFirst</a>=false)</td></tr>
-<tr class="memitem:a0a88742c3ef0d763edf17ee4c5839b58" id="r_a0a88742c3ef0d763edf17ee4c5839b58"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a88742c3ef0d763edf17ee4c5839b58">~ITrackingGeometryVisitor</a> ()=0</td></tr>
 <tr class="memitem:a76b096e043fe7e09a6b86fc880405160" id="r_a76b096e043fe7e09a6b86fc880405160"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76b096e043fe7e09a6b86fc880405160">visitDepthFirst</a> () const</td></tr>
 <tr class="memdesc:a76b096e043fe7e09a6b86fc880405160"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicate the order of visiting  <br /></td></tr>
 </table>
@@ -147,31 +146,6 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Base class for tracking geometry visitors. </p>
 <p>This class provides a common interface for both const and mutable visitors to the tracking geometry hierarchy. It allows decide on the visiting order based on the visitInDepth flag. If true, the visiting happens from the outermost volume and goes deeper to the volumes into the hierarchy. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0a88742c3ef0d763edf17ee4c5839b58" name="a0a88742c3ef0d763edf17ee4c5839b58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a88742c3ef0d763edf17ee4c5839b58">&#9670;&#160;</a></span>~ITrackingGeometryVisitor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::ITrackingGeometryVisitor::~ITrackingGeometryVisitor </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa3f5affba00725386cbc344fdaad4c28" name="aa3f5affba00725386cbc344fdaad4c28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa3f5affba00725386cbc344fdaad4c28">&#9670;&#160;</a></span>ITrackingGeometryVisitor()</h2>
 

@@ -126,103 +126,35 @@ $(function(){initNavTree('struct_acts_1_1_impact_parameters_and_sigma.html','','
 </div><!--header-->
 <div class="contents">
 
+<p>Impact parameters and their uncertainties with optional timing.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_impact_point_estimator_8hpp_source.html">Acts/Vertexing/ImpactPointEstimator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3715ab051fc7e9a0b6e4170ebcaa84c2" id="r_a3715ab051fc7e9a0b6e4170ebcaa84c2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3715ab051fc7e9a0b6e4170ebcaa84c2">d0</a> = 0.</td></tr>
-<tr class="memitem:a5977c69dc8eef5b6e49cd6c7b9c965d5" id="r_a5977c69dc8eef5b6e49cd6c7b9c965d5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5977c69dc8eef5b6e49cd6c7b9c965d5">deltaT</a> = std::nullopt</td></tr>
-<tr class="memitem:a6d7dee624647a0ff8ff0bb87279a96fe" id="r_a6d7dee624647a0ff8ff0bb87279a96fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d7dee624647a0ff8ff0bb87279a96fe">sigmaD0</a> = 0.</td></tr>
-<tr class="memitem:a8ed9ab5adafbb6ae3810c492399e1751" id="r_a8ed9ab5adafbb6ae3810c492399e1751"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed9ab5adafbb6ae3810c492399e1751">sigmaDeltaT</a> = std::nullopt</td></tr>
-<tr class="memitem:a0055158a8a13eb2908255f83f2fe9a00" id="r_a0055158a8a13eb2908255f83f2fe9a00"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0055158a8a13eb2908255f83f2fe9a00">sigmaZ0</a> = 0.</td></tr>
-<tr class="memitem:a01b2e408696061c166d5135b1df6a9cf" id="r_a01b2e408696061c166d5135b1df6a9cf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b2e408696061c166d5135b1df6a9cf">z0</a> = 0.</td></tr>
+<tr class="memitem:a3715ab051fc7e9a0b6e4170ebcaa84c2" id="r_a3715ab051fc7e9a0b6e4170ebcaa84c2"><td class="memItemLeft" align="right" valign="top"><a id="a3715ab051fc7e9a0b6e4170ebcaa84c2" name="a3715ab051fc7e9a0b6e4170ebcaa84c2"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d0</b> = 0.</td></tr>
+<tr class="memdesc:a3715ab051fc7e9a0b6e4170ebcaa84c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transverse impact parameter. <br /></td></tr>
+<tr class="memitem:a5977c69dc8eef5b6e49cd6c7b9c965d5" id="r_a5977c69dc8eef5b6e49cd6c7b9c965d5"><td class="memItemLeft" align="right" valign="top"><a id="a5977c69dc8eef5b6e49cd6c7b9c965d5" name="a5977c69dc8eef5b6e49cd6c7b9c965d5"></a>
+std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>deltaT</b> = std::nullopt</td></tr>
+<tr class="memdesc:a5977c69dc8eef5b6e49cd6c7b9c965d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time difference at the 2D PCA. <br /></td></tr>
+<tr class="memitem:a6d7dee624647a0ff8ff0bb87279a96fe" id="r_a6d7dee624647a0ff8ff0bb87279a96fe"><td class="memItemLeft" align="right" valign="top"><a id="a6d7dee624647a0ff8ff0bb87279a96fe" name="a6d7dee624647a0ff8ff0bb87279a96fe"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaD0</b> = 0.</td></tr>
+<tr class="memdesc:a6d7dee624647a0ff8ff0bb87279a96fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uncertainty on transverse impact parameter. <br /></td></tr>
+<tr class="memitem:a8ed9ab5adafbb6ae3810c492399e1751" id="r_a8ed9ab5adafbb6ae3810c492399e1751"><td class="memItemLeft" align="right" valign="top"><a id="a8ed9ab5adafbb6ae3810c492399e1751" name="a8ed9ab5adafbb6ae3810c492399e1751"></a>
+std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaDeltaT</b> = std::nullopt</td></tr>
+<tr class="memdesc:a8ed9ab5adafbb6ae3810c492399e1751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uncertainty on time difference. <br /></td></tr>
+<tr class="memitem:a0055158a8a13eb2908255f83f2fe9a00" id="r_a0055158a8a13eb2908255f83f2fe9a00"><td class="memItemLeft" align="right" valign="top"><a id="a0055158a8a13eb2908255f83f2fe9a00" name="a0055158a8a13eb2908255f83f2fe9a00"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaZ0</b> = 0.</td></tr>
+<tr class="memdesc:a0055158a8a13eb2908255f83f2fe9a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uncertainty on longitudinal impact parameter. <br /></td></tr>
+<tr class="memitem:a01b2e408696061c166d5135b1df6a9cf" id="r_a01b2e408696061c166d5135b1df6a9cf"><td class="memItemLeft" align="right" valign="top"><a id="a01b2e408696061c166d5135b1df6a9cf" name="a01b2e408696061c166d5135b1df6a9cf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>z0</b> = 0.</td></tr>
+<tr class="memdesc:a01b2e408696061c166d5135b1df6a9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitudinal impact parameter. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a3715ab051fc7e9a0b6e4170ebcaa84c2" name="a3715ab051fc7e9a0b6e4170ebcaa84c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3715ab051fc7e9a0b6e4170ebcaa84c2">&#9670;&#160;</a></span>d0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::ImpactParametersAndSigma::d0 = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5977c69dc8eef5b6e49cd6c7b9c965d5" name="a5977c69dc8eef5b6e49cd6c7b9c965d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5977c69dc8eef5b6e49cd6c7b9c965d5">&#9670;&#160;</a></span>deltaT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;double&gt; Acts::ImpactParametersAndSigma::deltaT = std::nullopt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d7dee624647a0ff8ff0bb87279a96fe" name="a6d7dee624647a0ff8ff0bb87279a96fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d7dee624647a0ff8ff0bb87279a96fe">&#9670;&#160;</a></span>sigmaD0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::ImpactParametersAndSigma::sigmaD0 = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8ed9ab5adafbb6ae3810c492399e1751" name="a8ed9ab5adafbb6ae3810c492399e1751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ed9ab5adafbb6ae3810c492399e1751">&#9670;&#160;</a></span>sigmaDeltaT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;double&gt; Acts::ImpactParametersAndSigma::sigmaDeltaT = std::nullopt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0055158a8a13eb2908255f83f2fe9a00" name="a0055158a8a13eb2908255f83f2fe9a00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0055158a8a13eb2908255f83f2fe9a00">&#9670;&#160;</a></span>sigmaZ0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::ImpactParametersAndSigma::sigmaZ0 = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a01b2e408696061c166d5135b1df6a9cf" name="a01b2e408696061c166d5135b1df6a9cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01b2e408696061c166d5135b1df6a9cf">&#9670;&#160;</a></span>z0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::ImpactParametersAndSigma::z0 = 0.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Impact parameters and their uncertainties with optional timing. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

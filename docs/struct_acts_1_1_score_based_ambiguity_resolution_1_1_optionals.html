@@ -138,8 +138,9 @@ Collaboration diagram for Acts::ScoreBasedAmbiguityResolution::Optionals&lt; tra
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aff0a092a21d36d86a9e2ec11def3a5f9" id="r_aff0a092a21d36d86a9e2ec11def3a5f9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff0a092a21d36d86a9e2ec11def3a5f9">OptionalCuts</a> = std::function&lt;bool(const track_proxy_t&amp;)&gt;</td></tr>
-<tr class="memdesc:aff0a092a21d36d86a9e2ec11def3a5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for optional track cuts function.  <br /></td></tr>
+<tr class="memitem:aff0a092a21d36d86a9e2ec11def3a5f9" id="r_aff0a092a21d36d86a9e2ec11def3a5f9"><td class="memItemLeft" align="right" valign="top"><a id="aff0a092a21d36d86a9e2ec11def3a5f9" name="aff0a092a21d36d86a9e2ec11def3a5f9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>OptionalCuts</b> = std::function&lt;bool(const track_proxy_t&amp;)&gt;</td></tr>
+<tr class="memdesc:aff0a092a21d36d86a9e2ec11def3a5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for optional track cuts function. <br /></td></tr>
 <tr class="memitem:ac2d0b37a730b684df9772face98d746e" id="r_ac2d0b37a730b684df9772face98d746e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2d0b37a730b684df9772face98d746e">OptionalHitSelection</a></td></tr>
 <tr class="memdesc:ac2d0b37a730b684df9772face98d746e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for optional hit selection function.  <br /></td></tr>
 <tr class="memitem:ad833f6ca372dd94592330cfafb07a61d" id="r_ad833f6ca372dd94592330cfafb07a61d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a></td></tr>
@@ -147,38 +148,24 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aeebe57c5c03a5abb1e7929909c492fd3" id="r_aeebe57c5c03a5abb1e7929909c492fd3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#aff0a092a21d36d86a9e2ec11def3a5f9">OptionalCuts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeebe57c5c03a5abb1e7929909c492fd3">cuts</a> = {}</td></tr>
-<tr class="memdesc:aeebe57c5c03a5abb1e7929909c492fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom track selection cuts to apply.  <br /></td></tr>
-<tr class="memitem:ab41d348f831a8e348516de3e6a354a3c" id="r_ab41d348f831a8e348516de3e6a354a3c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ac2d0b37a730b684df9772face98d746e">OptionalHitSelection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab41d348f831a8e348516de3e6a354a3c">hitSelections</a> = {}</td></tr>
-<tr class="memdesc:ab41d348f831a8e348516de3e6a354a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom hit selection functions for track states.  <br /></td></tr>
-<tr class="memitem:abbaeb9d714a611f67e9e147dcc14fe8a" id="r_abbaeb9d714a611f67e9e147dcc14fe8a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbaeb9d714a611f67e9e147dcc14fe8a">scores</a> = {}</td></tr>
-<tr class="memdesc:abbaeb9d714a611f67e9e147dcc14fe8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">applied only if useAmbiguityScoring is true  <br /></td></tr>
-<tr class="memitem:aa5cfdb699f4b07e36e22747c220f3b37" id="r_aa5cfdb699f4b07e36e22747c220f3b37"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5cfdb699f4b07e36e22747c220f3b37">weights</a> = {}</td></tr>
-<tr class="memdesc:aa5cfdb699f4b07e36e22747c220f3b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom track score modifiers/weights.  <br /></td></tr>
+<tr class="memitem:aeebe57c5c03a5abb1e7929909c492fd3" id="r_aeebe57c5c03a5abb1e7929909c492fd3"><td class="memItemLeft" align="right" valign="top"><a id="aeebe57c5c03a5abb1e7929909c492fd3" name="aeebe57c5c03a5abb1e7929909c492fd3"></a>
+std::vector&lt; <a class="el" href="#aff0a092a21d36d86a9e2ec11def3a5f9">OptionalCuts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cuts</b> = {}</td></tr>
+<tr class="memdesc:aeebe57c5c03a5abb1e7929909c492fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom track selection cuts to apply. <br /></td></tr>
+<tr class="memitem:ab41d348f831a8e348516de3e6a354a3c" id="r_ab41d348f831a8e348516de3e6a354a3c"><td class="memItemLeft" align="right" valign="top"><a id="ab41d348f831a8e348516de3e6a354a3c" name="ab41d348f831a8e348516de3e6a354a3c"></a>
+std::vector&lt; <a class="el" href="#ac2d0b37a730b684df9772face98d746e">OptionalHitSelection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hitSelections</b> = {}</td></tr>
+<tr class="memdesc:ab41d348f831a8e348516de3e6a354a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom hit selection functions for track states. <br /></td></tr>
+<tr class="memitem:abbaeb9d714a611f67e9e147dcc14fe8a" id="r_abbaeb9d714a611f67e9e147dcc14fe8a"><td class="memItemLeft" align="right" valign="top"><a id="abbaeb9d714a611f67e9e147dcc14fe8a" name="abbaeb9d714a611f67e9e147dcc14fe8a"></a>
+std::vector&lt; <a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>scores</b> = {}</td></tr>
+<tr class="memdesc:abbaeb9d714a611f67e9e147dcc14fe8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">applied only if useAmbiguityScoring is true <br /></td></tr>
+<tr class="memitem:aa5cfdb699f4b07e36e22747c220f3b37" id="r_aa5cfdb699f4b07e36e22747c220f3b37"><td class="memItemLeft" align="right" valign="top"><a id="aa5cfdb699f4b07e36e22747c220f3b37" name="aa5cfdb699f4b07e36e22747c220f3b37"></a>
+std::vector&lt; <a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>weights</b> = {}</td></tr>
+<tr class="memdesc:aa5cfdb699f4b07e36e22747c220f3b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom track score modifiers/weights. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;TrackProxyConcept track_proxy_t&gt;<br />
 struct Acts::ScoreBasedAmbiguityResolution::Optionals&lt; track_proxy_t &gt;</div><p>Optionals struct: contains the optional cuts, weights and score to be applied. </p>
 <p>The default cuts and scoring has only a basic set of cuts and score-modifiers. For more flexibility users can define custom cuts and scores using this structure. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aff0a092a21d36d86a9e2ec11def3a5f9" name="aff0a092a21d36d86a9e2ec11def3a5f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff0a092a21d36d86a9e2ec11def3a5f9">&#9670;&#160;</a></span>OptionalCuts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;TrackProxyConcept track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html">Acts::ScoreBasedAmbiguityResolution::Optionals</a>&lt; track_proxy_t &gt;::OptionalCuts = std::function&lt;bool(const track_proxy_t&amp;)&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for optional track cuts function. </p>
-
-</div>
-</div>
 <a id="ac2d0b37a730b684df9772face98d746e" name="ac2d0b37a730b684df9772face98d746e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2d0b37a730b684df9772face98d746e">&#9670;&#160;</a></span>OptionalHitSelection</h2>
 
@@ -218,79 +205,6 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
 <div class="line">        std::function&lt;void(<span class="keyword">const</span> track_proxy_t&amp;, <span class="keywordtype">double</span>&amp;)&gt;</div>
 </div><!-- fragment -->
 <p>Type alias for optional score modifier function. </p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aeebe57c5c03a5abb1e7929909c492fd3" name="aeebe57c5c03a5abb1e7929909c492fd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeebe57c5c03a5abb1e7929909c492fd3">&#9670;&#160;</a></span>cuts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;TrackProxyConcept track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#aff0a092a21d36d86a9e2ec11def3a5f9">OptionalCuts</a>&gt; <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html">Acts::ScoreBasedAmbiguityResolution::Optionals</a>&lt; track_proxy_t &gt;::cuts = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Custom track selection cuts to apply. </p>
-
-</div>
-</div>
-<a id="ab41d348f831a8e348516de3e6a354a3c" name="ab41d348f831a8e348516de3e6a354a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab41d348f831a8e348516de3e6a354a3c">&#9670;&#160;</a></span>hitSelections</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;TrackProxyConcept track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#ac2d0b37a730b684df9772face98d746e">OptionalHitSelection</a>&gt; <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html">Acts::ScoreBasedAmbiguityResolution::Optionals</a>&lt; track_proxy_t &gt;::hitSelections = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Custom hit selection functions for track states. </p>
-
-</div>
-</div>
-<a id="abbaeb9d714a611f67e9e147dcc14fe8a" name="abbaeb9d714a611f67e9e147dcc14fe8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbaeb9d714a611f67e9e147dcc14fe8a">&#9670;&#160;</a></span>scores</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;TrackProxyConcept track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a>&gt; <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html">Acts::ScoreBasedAmbiguityResolution::Optionals</a>&lt; track_proxy_t &gt;::scores = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>applied only if useAmbiguityScoring is true </p>
-
-</div>
-</div>
-<a id="aa5cfdb699f4b07e36e22747c220f3b37" name="aa5cfdb699f4b07e36e22747c220f3b37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5cfdb699f4b07e36e22747c220f3b37">&#9670;&#160;</a></span>weights</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;TrackProxyConcept track_proxy_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="#ad833f6ca372dd94592330cfafb07a61d">OptionalScoreModifier</a>&gt; <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html">Acts::ScoreBasedAmbiguityResolution::Optionals</a>&lt; track_proxy_t &gt;::weights = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Custom track score modifiers/weights. </p>
 
 </div>
 </div>

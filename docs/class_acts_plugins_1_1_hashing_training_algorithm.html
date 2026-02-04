@@ -126,41 +126,36 @@ $(function(){initNavTree('class_acts_plugins_1_1_hashing_training_algorithm.html
 </div><!--header-->
 <div class="contents">
 
+<p>Training algorithm for hashing models.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_hashing_training_8hpp_source.html">/home/runner/work/acts/acts/Plugins/Hashing/include/ActsPlugins/Hashing/HashingTraining.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7a0c81145ba59b49cef184620b607390" id="r_a7a0c81145ba59b49cef184620b607390"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a0c81145ba59b49cef184620b607390">Config</a> = <a class="el" href="struct_acts_plugins_1_1_hashing_training_config.html">HashingTrainingConfig</a></td></tr>
+<tr class="memitem:a7a0c81145ba59b49cef184620b607390" id="r_a7a0c81145ba59b49cef184620b607390"><td class="memItemLeft" align="right" valign="top"><a id="a7a0c81145ba59b49cef184620b607390" name="a7a0c81145ba59b49cef184620b607390"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Config</b> = <a class="el" href="struct_acts_plugins_1_1_hashing_training_config.html">HashingTrainingConfig</a></td></tr>
+<tr class="memdesc:a7a0c81145ba59b49cef184620b607390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a59f7b486ba0595aaf85b73b0dc134c75" id="r_a59f7b486ba0595aaf85b73b0dc134c75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f7b486ba0595aaf85b73b0dc134c75">HashingTrainingAlgorithm</a> ()=default</td></tr>
 <tr class="memitem:acedaa5a6e7d6066beb5150910b2dd949" id="r_acedaa5a6e7d6066beb5150910b2dd949"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acedaa5a6e7d6066beb5150910b2dd949">HashingTrainingAlgorithm</a> (const <a class="el" href="#a7a0c81145ba59b49cef184620b607390">Config</a> &amp;cfg)</td></tr>
-<tr class="memitem:a709fd1e98a8135388365429617d7e8de" id="r_a709fd1e98a8135388365429617d7e8de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a709fd1e98a8135388365429617d7e8de">HashingTrainingAlgorithm</a> (const HashingTrainingAlgorithm&lt; SpacePointContainer &gt; &amp;)=delete</td></tr>
+<tr class="memdesc:acedaa5a6e7d6066beb5150910b2dd949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a709fd1e98a8135388365429617d7e8de" id="r_a709fd1e98a8135388365429617d7e8de"><td class="memItemLeft" align="right" valign="top"><a id="a709fd1e98a8135388365429617d7e8de" name="a709fd1e98a8135388365429617d7e8de"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>HashingTrainingAlgorithm</b> (const HashingTrainingAlgorithm&lt; SpacePointContainer &gt; &amp;)=delete</td></tr>
 <tr class="memitem:af6b1068482624c7c4875fcdc0fc7b7e5" id="r_af6b1068482624c7c4875fcdc0fc7b7e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a7a0c81145ba59b49cef184620b607390">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b1068482624c7c4875fcdc0fc7b7e5">config</a> () const</td></tr>
+<tr class="memdesc:af6b1068482624c7c4875fcdc0fc7b7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get readonly access to the config parameters.  <br /></td></tr>
 <tr class="memitem:a06a1da1f9d1faeb5cc3b5b23c4028888" id="r_a06a1da1f9d1faeb5cc3b5b23c4028888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__hashing__plugin.html#gaae60dcd2a5c54cf27cf161722cca642b">AnnoyModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06a1da1f9d1faeb5cc3b5b23c4028888">execute</a> (SpacePointContainer spacePoints) const</td></tr>
+<tr class="memdesc:a06a1da1f9d1faeb5cc3b5b23c4028888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Train and return the Annoy model.  <br /></td></tr>
 <tr class="memitem:ab3eee0ac69be223edcf0c905599196ae" id="r_ab3eee0ac69be223edcf0c905599196ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#acedaa5a6e7d6066beb5150910b2dd949">HashingTrainingAlgorithm</a>&lt; SpacePointContainer &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3eee0ac69be223edcf0c905599196ae">operator=</a> (const <a class="el" href="#acedaa5a6e7d6066beb5150910b2dd949">HashingTrainingAlgorithm</a>&lt; SpacePointContainer &gt; &amp;)=default</td></tr>
+<tr class="memdesc:ab3eee0ac69be223edcf0c905599196ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a7a0c81145ba59b49cef184620b607390" name="a7a0c81145ba59b49cef184620b607390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a0c81145ba59b49cef184620b607390">&#9670;&#160;</a></span>Config</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SpacePointContainer&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_plugins_1_1_hashing_training_algorithm.html">ActsPlugins::HashingTrainingAlgorithm</a>&lt; SpacePointContainer &gt;::Config = <a class="el" href="struct_acts_plugins_1_1_hashing_training_config.html">HashingTrainingConfig</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename SpacePointContainer&gt;<br />
+class ActsPlugins::HashingTrainingAlgorithm&lt; SpacePointContainer &gt;</div><p>Training algorithm for hashing models. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acedaa5a6e7d6066beb5150910b2dd949" name="acedaa5a6e7d6066beb5150910b2dd949"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acedaa5a6e7d6066beb5150910b2dd949">&#9670;&#160;</a></span>HashingTrainingAlgorithm() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acedaa5a6e7d6066beb5150910b2dd949">&#9670;&#160;</a></span>HashingTrainingAlgorithm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,59 +179,13 @@ template&lt;typename SpacePointContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a59f7b486ba0595aaf85b73b0dc134c75" name="a59f7b486ba0595aaf85b73b0dc134c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59f7b486ba0595aaf85b73b0dc134c75">&#9670;&#160;</a></span>HashingTrainingAlgorithm() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SpacePointContainer&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_plugins_1_1_hashing_training_algorithm.html">ActsPlugins::HashingTrainingAlgorithm</a>&lt; SpacePointContainer &gt;::HashingTrainingAlgorithm </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a709fd1e98a8135388365429617d7e8de" name="a709fd1e98a8135388365429617d7e8de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a709fd1e98a8135388365429617d7e8de">&#9670;&#160;</a></span>HashingTrainingAlgorithm() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SpacePointContainer&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_plugins_1_1_hashing_training_algorithm.html">ActsPlugins::HashingTrainingAlgorithm</a>&lt; SpacePointContainer &gt;::HashingTrainingAlgorithm </td>
-          <td>(</td>
-          <td class="paramtype">const HashingTrainingAlgorithm&lt; SpacePointContainer &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cfg</td><td>Configuration parameters </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -258,6 +207,9 @@ template&lt;typename SpacePointContainer&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get readonly access to the config parameters. </p>
+<dl class="section return"><dt>Returns</dt><dd>Configuration parameters </dd></dl>
+
 </div>
 </div>
 <a id="a06a1da1f9d1faeb5cc3b5b23c4028888" name="a06a1da1f9d1faeb5cc3b5b23c4028888"></a>
@@ -276,6 +228,15 @@ template&lt;typename SpacePointContainer&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Train and return the Annoy model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacePoints</td><td>Space points for training </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Trained Annoy model </dd></dl>
 
 </div>
 </div>
@@ -303,6 +264,9 @@ template&lt;typename SpacePointContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Assignment operator. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
 
 </div>
 </div>

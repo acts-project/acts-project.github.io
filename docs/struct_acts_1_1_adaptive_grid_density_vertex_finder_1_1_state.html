@@ -138,84 +138,23 @@ Collaboration diagram for Acts::AdaptiveGridDensityVertexFinder::State:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a072cd655e8dbee68e72b501a548e0253" id="r_a072cd655e8dbee68e72b501a548e0253"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a072cd655e8dbee68e72b501a548e0253">isInitialized</a> = false</td></tr>
-<tr class="memdesc:a072cd655e8dbee68e72b501a548e0253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether the state has been initialized.  <br /></td></tr>
-<tr class="memitem:a6f6aaec3be2fe16474e4ba0fd9c13ad5" id="r_a6f6aaec3be2fe16474e4ba0fd9c13ad5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_adaptive_grid_density_vertex_finder.html#a5f7c0c3f1e406c9702519c378692f33f">DensityMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f6aaec3be2fe16474e4ba0fd9c13ad5">mainDensityMap</a></td></tr>
-<tr class="memdesc:a6f6aaec3be2fe16474e4ba0fd9c13ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main density map storing cumulative track density per z-bin.  <br /></td></tr>
-<tr class="memitem:a2f3622cdee3f348416dfebb4e778e120" id="r_a2f3622cdee3f348416dfebb4e778e120"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, <a class="el" href="class_acts_1_1_adaptive_grid_density_vertex_finder.html#a5f7c0c3f1e406c9702519c378692f33f">DensityMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f3622cdee3f348416dfebb4e778e120">trackDensities</a></td></tr>
-<tr class="memdesc:a2f3622cdee3f348416dfebb4e778e120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map storing individual track density contributions.  <br /></td></tr>
-<tr class="memitem:a12b85117619dea9c10f8000a971f932b" id="r_a12b85117619dea9c10f8000a971f932b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12b85117619dea9c10f8000a971f932b">tracksToRemove</a></td></tr>
-<tr class="memdesc:a12b85117619dea9c10f8000a971f932b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of tracks to be removed from density calculation.  <br /></td></tr>
+<tr class="memitem:a072cd655e8dbee68e72b501a548e0253" id="r_a072cd655e8dbee68e72b501a548e0253"><td class="memItemLeft" align="right" valign="top"><a id="a072cd655e8dbee68e72b501a548e0253" name="a072cd655e8dbee68e72b501a548e0253"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isInitialized</b> = false</td></tr>
+<tr class="memdesc:a072cd655e8dbee68e72b501a548e0253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether the state has been initialized. <br /></td></tr>
+<tr class="memitem:a6f6aaec3be2fe16474e4ba0fd9c13ad5" id="r_a6f6aaec3be2fe16474e4ba0fd9c13ad5"><td class="memItemLeft" align="right" valign="top"><a id="a6f6aaec3be2fe16474e4ba0fd9c13ad5" name="a6f6aaec3be2fe16474e4ba0fd9c13ad5"></a>
+<a class="el" href="class_acts_1_1_adaptive_grid_density_vertex_finder.html#a5f7c0c3f1e406c9702519c378692f33f">DensityMap</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mainDensityMap</b></td></tr>
+<tr class="memdesc:a6f6aaec3be2fe16474e4ba0fd9c13ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main density map storing cumulative track density per z-bin. <br /></td></tr>
+<tr class="memitem:a2f3622cdee3f348416dfebb4e778e120" id="r_a2f3622cdee3f348416dfebb4e778e120"><td class="memItemLeft" align="right" valign="top"><a id="a2f3622cdee3f348416dfebb4e778e120" name="a2f3622cdee3f348416dfebb4e778e120"></a>
+std::unordered_map&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, <a class="el" href="class_acts_1_1_adaptive_grid_density_vertex_finder.html#a5f7c0c3f1e406c9702519c378692f33f">DensityMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>trackDensities</b></td></tr>
+<tr class="memdesc:a2f3622cdee3f348416dfebb4e778e120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map storing individual track density contributions. <br /></td></tr>
+<tr class="memitem:a12b85117619dea9c10f8000a971f932b" id="r_a12b85117619dea9c10f8000a971f932b"><td class="memItemLeft" align="right" valign="top"><a id="a12b85117619dea9c10f8000a971f932b" name="a12b85117619dea9c10f8000a971f932b"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tracksToRemove</b></td></tr>
+<tr class="memdesc:a12b85117619dea9c10f8000a971f932b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of tracks to be removed from density calculation. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The State struct. </p>
 <p>Only needed if cacheGridStateForTrackRemoval == true </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a072cd655e8dbee68e72b501a548e0253" name="a072cd655e8dbee68e72b501a548e0253"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a072cd655e8dbee68e72b501a548e0253">&#9670;&#160;</a></span>isInitialized</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::AdaptiveGridDensityVertexFinder::State::isInitialized = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Flag indicating whether the state has been initialized. </p>
-
-</div>
-</div>
-<a id="a6f6aaec3be2fe16474e4ba0fd9c13ad5" name="a6f6aaec3be2fe16474e4ba0fd9c13ad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f6aaec3be2fe16474e4ba0fd9c13ad5">&#9670;&#160;</a></span>mainDensityMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_adaptive_grid_density_vertex_finder.html#a5f7c0c3f1e406c9702519c378692f33f">DensityMap</a> Acts::AdaptiveGridDensityVertexFinder::State::mainDensityMap</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Main density map storing cumulative track density per z-bin. </p>
-
-</div>
-</div>
-<a id="a2f3622cdee3f348416dfebb4e778e120" name="a2f3622cdee3f348416dfebb4e778e120"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f3622cdee3f348416dfebb4e778e120">&#9670;&#160;</a></span>trackDensities</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>, <a class="el" href="class_acts_1_1_adaptive_grid_density_vertex_finder.html#a5f7c0c3f1e406c9702519c378692f33f">DensityMap</a>&gt; Acts::AdaptiveGridDensityVertexFinder::State::trackDensities</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Map storing individual track density contributions. </p>
-
-</div>
-</div>
-<a id="a12b85117619dea9c10f8000a971f932b" name="a12b85117619dea9c10f8000a971f932b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12b85117619dea9c10f8000a971f932b">&#9670;&#160;</a></span>tracksToRemove</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="struct_acts_1_1_input_track.html">InputTrack</a>&gt; Acts::AdaptiveGridDensityVertexFinder::State::tracksToRemove</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Vector of tracks to be removed from density calculation. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

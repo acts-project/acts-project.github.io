@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Stepper options extending plain stepper settings.">
 <polygon fill="#999999" stroke="#666666" points="124.5,-30 18.5,-30 18.5,0 124.5,0 124.5,-30"/>
 <text text-anchor="start" x="26.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AtlasStepper</text>
 <text text-anchor="middle" x="71.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title="Common options shared by plain steppers.">
 <polygon fill="white" stroke="#666666" points="143,-85 0,-85 0,-66 143,-66 143,-85"/>
 <text text-anchor="middle" x="71.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 </a>

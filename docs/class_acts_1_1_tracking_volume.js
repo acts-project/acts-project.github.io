@@ -6,9 +6,6 @@ var class_acts_1_1_tracking_volume =
     [ "PortalRange", "class_acts_1_1_tracking_volume.html#ae4b24f909cdb2da7c408f37ac8322d74", null ],
     [ "SurfaceRange", "class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174", null ],
     [ "VolumeRange", "class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b", null ],
-    [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#a5f34735756c941e120b2dac7a5cd3157", null ],
-    [ "~TrackingVolume", "class_acts_1_1_tracking_volume.html#aad0384085fabb3cc50f0e4a77ffda596", null ],
-    [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#a2639e9ece4227de68be90cee19c117b7", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#a6ea1e3188898687a94db523efaa97c76", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#a2b0a767432c559884dc313724133ac20", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#ad00c2e89ba21178dabf83e6762344d57", null ],
@@ -39,7 +36,6 @@ var class_acts_1_1_tracking_volume =
     [ "motherVolume", "class_acts_1_1_tracking_volume.html#a5871feea852b8b48605c77bb03a79987", null ],
     [ "navigationPolicy", "class_acts_1_1_tracking_volume.html#ab5bce26fd5c4007f507c3562ad1cc7e8", null ],
     [ "navigationPolicy", "class_acts_1_1_tracking_volume.html#a47aa5b5e01e60e79c57b8253c28515e6", null ],
-    [ "operator=", "class_acts_1_1_tracking_volume.html#a780d06fc175962d393c68531259c3ee0", null ],
     [ "operator=", "class_acts_1_1_tracking_volume.html#aab3d37e02f7c716ac5fb7dfd1b827848", null ],
     [ "portals", "class_acts_1_1_tracking_volume.html#ac037bebe33ea14d05a6213dd8f1c9b37", null ],
     [ "portals", "class_acts_1_1_tracking_volume.html#ac7a4fd8eecd975f746148a70bd890bfe", null ],
@@ -58,6 +54,5 @@ var class_acts_1_1_tracking_volume =
     [ "volumeMaterialPtr", "class_acts_1_1_tracking_volume.html#ac74f3d6de2e37340ab9474483b18ef2f", null ],
     [ "volumeName", "class_acts_1_1_tracking_volume.html#a824f1d065f2da06733c362e732e60ab4", null ],
     [ "volumes", "class_acts_1_1_tracking_volume.html#a3cec06c61682b2fd649a8f617e7c612e", null ],
-    [ "volumes", "class_acts_1_1_tracking_volume.html#a76e9b424d66a5e9151b0e0588e5d0ddc", null ],
-    [ "TrackingGeometry", "class_acts_1_1_tracking_volume.html#a0155fe457351ce22446dff2ca8e3e951", null ]
+    [ "volumes", "class_acts_1_1_tracking_volume.html#a76e9b424d66a5e9151b0e0588e5d0ddc", null ]
 ];

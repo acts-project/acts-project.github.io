@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Connection type with an added time compatibility requirement.">
 <polygon fill="#999999" stroke="#666666" points="137.5,-30 2.5,-30 2.5,0 137.5,0 137.5,-30"/>
 <text text-anchor="start" x="10.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::TimedConnect</text>
 <text text-anchor="middle" x="70" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Cell, N &gt;</text>
@@ -33,7 +33,7 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="struct_acts_1_1_ccl_1_1_default_connect.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="140,-97 0,-97 0,-67 140,-67 140,-97"/>
+<polygon fill="white" stroke="#bfbfbf" points="140,-97 0,-97 0,-67 140,-67 140,-97"/>
 <text text-anchor="start" x="8" y="-85" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::DefaultConnect</text>
 <text text-anchor="middle" x="70" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Cell, N &gt;</text>
 </a>
@@ -52,7 +52,7 @@
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="struct_acts_1_1_ccl_1_1_default_connect.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="140,-180 0,-180 0,-150 140,-150 140,-180"/>
+<polygon fill="white" stroke="#bfbfbf" points="140,-180 0,-180 0,-150 140,-150 140,-180"/>
 <text text-anchor="start" x="8" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Ccl::DefaultConnect</text>
 <text text-anchor="middle" x="70" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Cell, GridDim &gt;</text>
 </a>

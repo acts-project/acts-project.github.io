@@ -143,7 +143,7 @@ $(function(){initNavTree('_d_b_scan_8hpp_source.html','',''); });
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">template</span> &lt;std::size_t kDims, <span class="keyword">typename</span> scalar_t = double,</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>          std::size_t kLeafSize = 4&gt;</div>
 <div class="foldopen" id="foldopen00047" data-start="{" data-end="};">
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_acts_1_1_d_b_scan.html">   47</a></span><span class="keyword">class </span><a class="code hl_function" href="class_acts_1_1_d_b_scan.html#a3192c16aa6fe63da174ed0f38d01b13d">DBScan</a> {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_acts_1_1_d_b_scan.html">   47</a></span><span class="keyword">class </span>DBScan {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_acts_1_1_d_b_scan.html#aacb77d891b53dc35b36b6381cc32c4f6">   50</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="class_acts_1_1_d_b_scan.html#aacb77d891b53dc35b36b6381cc32c4f6">Point</a> = std::array&lt;scalar_t, kDims&gt;;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
@@ -156,7 +156,7 @@ $(function(){initNavTree('_d_b_scan_8hpp_source.html','',''); });
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_acts_1_1_d_b_scan.html#aef7633d4242eb8b0d33286bbba36afc4">   62</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="class_acts_1_1_d_b_scan.html#aef7633d4242eb8b0d33286bbba36afc4">Tree</a> = <a class="code hl_class" href="class_acts_1_1_k_d_tree.html">KDTree&lt;kDims, std::size_t, scalar_t, std::array, kLeafSize&gt;</a>;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="comment">// Remove the default constructor.</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="class_acts_1_1_d_b_scan.html#a3192c16aa6fe63da174ed0f38d01b13d">   65</a></span>  <a class="code hl_function" href="class_acts_1_1_d_b_scan.html#a3192c16aa6fe63da174ed0f38d01b13d">DBScan</a>() = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  DBScan() = <span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
 <div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_acts_1_1_d_b_scan.html#a07f47f30d9a77bb67c3fccaf06c5f951">   73</a></span>  <span class="keyword">explicit</span> <a class="code hl_function" href="class_acts_1_1_d_b_scan.html#a07f47f30d9a77bb67c3fccaf06c5f951">DBScan</a>(scalar_t epsilon = 1.0, std::size_t minPoints = 1,</div>
@@ -292,7 +292,6 @@ $(function(){initNavTree('_d_b_scan_8hpp_source.html','',''); });
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_d_b_scan_html_a07f47f30d9a77bb67c3fccaf06c5f951"><div class="ttname"><a href="class_acts_1_1_d_b_scan.html#a07f47f30d9a77bb67c3fccaf06c5f951">Acts::DBScan::DBScan</a></div><div class="ttdeci">DBScan(scalar_t epsilon=1.0, std::size_t minPoints=1, bool onePointCluster=false)</div><div class="ttdoc">Construct the DBScan algorithm with a given epsilon and minPoints.</div><div class="ttdef"><b>Definition</b> DBScan.hpp:73</div></div>
-<div class="ttc" id="aclass_acts_1_1_d_b_scan_html_a3192c16aa6fe63da174ed0f38d01b13d"><div class="ttname"><a href="class_acts_1_1_d_b_scan.html#a3192c16aa6fe63da174ed0f38d01b13d">Acts::DBScan::DBScan</a></div><div class="ttdeci">DBScan()=delete</div></div>
 <div class="ttc" id="aclass_acts_1_1_d_b_scan_html_a4e25c15d46d7adca4a7b49dfcd3968a5"><div class="ttname"><a href="class_acts_1_1_d_b_scan.html#a4e25c15d46d7adca4a7b49dfcd3968a5">Acts::DBScan::VectorPairs</a></div><div class="ttdeci">std::vector&lt; Pair &gt; VectorPairs</div><div class="ttdoc">Type alias for vector of coordinate-ID pairs.</div><div class="ttdef"><b>Definition</b> DBScan.hpp:59</div></div>
 <div class="ttc" id="aclass_acts_1_1_d_b_scan_html_a88bda8027f63ecf8860bdbdcd5bfc4bd"><div class="ttname"><a href="class_acts_1_1_d_b_scan.html#a88bda8027f63ecf8860bdbdcd5bfc4bd">Acts::DBScan::Pair</a></div><div class="ttdeci">std::pair&lt; Point, std::size_t &gt; Pair</div><div class="ttdoc">Type alias for pair of point coordinates with unique identifier.</div><div class="ttdef"><b>Definition</b> DBScan.hpp:56</div></div>
 <div class="ttc" id="aclass_acts_1_1_d_b_scan_html_aacb77d891b53dc35b36b6381cc32c4f6"><div class="ttname"><a href="class_acts_1_1_d_b_scan.html#aacb77d891b53dc35b36b6381cc32c4f6">Acts::DBScan::Point</a></div><div class="ttdeci">std::array&lt; scalar_t, kDims &gt; Point</div><div class="ttdoc">Type alias for coordinates of points in N-dimensional space.</div><div class="ttdef"><b>Definition</b> DBScan.hpp:50</div></div>
@@ -311,7 +310,7 @@ $(function(){initNavTree('_d_b_scan_8hpp_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a href="dir_4cd4c13d01dc4f9c94211f072e8c6dd9.html">include</a></li><li class="navelem"><a href="dir_672856899003cae50a73e87982228a15.html">Acts</a></li><li class="navelem"><a href="dir_dfa0f8b006fa133d2686acb3b8294582.html">Utilities</a></li><li class="navelem"><b>DBScan.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>Utilities</b></li><li class="navelem"><b>DBScan.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

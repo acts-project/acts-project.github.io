@@ -1,7 +1,6 @@
 var class_acts_1_1_experimental_1_1_material_designator_blueprint_node =
 [
     [ "MaterialDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a0bd371b525967c8ddd5dc9a78748cc59", null ],
-    [ "~MaterialDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#acb2f56145502e388f73d17a9f0b459bf", null ],
     [ "build", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#aa5f49503206d5ed8c795183288d305af", null ],
     [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a602ae3e542b9b775cd628e65e7f04250", null ],
     [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#ac224a99cf317e08d2bcb1eb0cdbb2e49", null ],

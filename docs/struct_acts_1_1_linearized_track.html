@@ -133,30 +133,38 @@ $(function(){initNavTree('struct_acts_1_1_linearized_track.html','','struct_acts
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8ed9fe71691bfe5c62d13ef9041928a4" id="r_a8ed9fe71691bfe5c62d13ef9041928a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed9fe71691bfe5c62d13ef9041928a4">LinearizedTrack</a> ()=default</td></tr>
-<tr class="memitem:ac3890bafc454fe1c942de72b9a3daf9b" id="r_ac3890bafc454fe1c942de72b9a3daf9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3890bafc454fe1c942de72b9a3daf9b">LinearizedTrack</a> (const <a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;paramsAtPCA, const <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a> &amp;parCovarianceAtPCA, const <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a> &amp;parWeightAtPCA, const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;linPoint, const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 4 &gt; &amp;posJacobian, const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 3 &gt; &amp;momJacobian, const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;momentum, const <a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;constTerm)</td></tr>
+<tr class="memitem:ac3890bafc454fe1c942de72b9a3daf9b" id="r_ac3890bafc454fe1c942de72b9a3daf9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3890bafc454fe1c942de72b9a3daf9b">LinearizedTrack</a> (const <a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;paramsAtPCA, const <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a> &amp;parCovarianceAtPCA, const <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a> &amp;parWeightAtPCA, const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;linPoint, const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; eBoundSize, 4 &gt; &amp;posJacobian, const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; eBoundSize, 3 &gt; &amp;momJacobian, const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;momentum, const <a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;constTerm)</td></tr>
 <tr class="memdesc:ac3890bafc454fe1c942de72b9a3daf9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor taking perigee parameters and covariance matrix of track propagated to closest approach (PCA) of linearization point, position and momentum Jacobian and const term.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0368ab9b69ba2fa3035dab1b8662c799" id="r_a0368ab9b69ba2fa3035dab1b8662c799"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0368ab9b69ba2fa3035dab1b8662c799">constantTerm</a> {BoundVector::Zero()}</td></tr>
-<tr class="memdesc:a0368ab9b69ba2fa3035dab1b8662c799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant term in linearized track equation.  <br /></td></tr>
-<tr class="memitem:a562503eb963768ad2b9dfc5c25051d89" id="r_a562503eb963768ad2b9dfc5c25051d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562503eb963768ad2b9dfc5c25051d89">covarianceAtPCA</a> {BoundSquareMatrix::Zero()}</td></tr>
-<tr class="memdesc:a562503eb963768ad2b9dfc5c25051d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix of track parameters at PCA.  <br /></td></tr>
-<tr class="memitem:ae0f47560a6bd5274360f6e0e84691529" id="r_ae0f47560a6bd5274360f6e0e84691529"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0f47560a6bd5274360f6e0e84691529">linearizationPoint</a> {Vector4::Zero()}</td></tr>
-<tr class="memdesc:ae0f47560a6bd5274360f6e0e84691529"><td class="mdescLeft">&#160;</td><td class="mdescRight">4D point where track was linearized for vertex fitting  <br /></td></tr>
-<tr class="memitem:afe8fed78296d3fdbe2293ab0d5368007" id="r_afe8fed78296d3fdbe2293ab0d5368007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe8fed78296d3fdbe2293ab0d5368007">momentumAtPCA</a> {Vector3::Zero()}</td></tr>
-<tr class="memdesc:afe8fed78296d3fdbe2293ab0d5368007"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D momentum vector at point of closest approach  <br /></td></tr>
-<tr class="memitem:a4189473353955274efac3a797d4e61bd" id="r_a4189473353955274efac3a797d4e61bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4189473353955274efac3a797d4e61bd">momentumJacobian</a> {<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 3&gt;::Zero()}</td></tr>
-<tr class="memdesc:a4189473353955274efac3a797d4e61bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian of track parameters w.r.t. track momentum.  <br /></td></tr>
-<tr class="memitem:aa65636e40ded5923a13f293b369a6178" id="r_aa65636e40ded5923a13f293b369a6178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa65636e40ded5923a13f293b369a6178">parametersAtPCA</a> {BoundVector::Zero()}</td></tr>
-<tr class="memdesc:aa65636e40ded5923a13f293b369a6178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track parameters at the point of closest approach.  <br /></td></tr>
-<tr class="memitem:a0fdf707cfe866bc3fb367154e0cf306c" id="r_a0fdf707cfe866bc3fb367154e0cf306c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdf707cfe866bc3fb367154e0cf306c">positionAtPCA</a> {Vector4::Zero()}</td></tr>
-<tr class="memdesc:a0fdf707cfe866bc3fb367154e0cf306c"><td class="mdescLeft">&#160;</td><td class="mdescRight">4D position of track at point of closest approach  <br /></td></tr>
-<tr class="memitem:ae3a1c1712e949c205157c0f32ee6af34" id="r_ae3a1c1712e949c205157c0f32ee6af34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3a1c1712e949c205157c0f32ee6af34">positionJacobian</a> {<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 4&gt;::Zero()}</td></tr>
-<tr class="memdesc:ae3a1c1712e949c205157c0f32ee6af34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian of track parameters w.r.t. vertex position.  <br /></td></tr>
-<tr class="memitem:a9840cad20dc2c2e4af64b93e75d0d71a" id="r_a9840cad20dc2c2e4af64b93e75d0d71a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9840cad20dc2c2e4af64b93e75d0d71a">weightAtPCA</a> {BoundSquareMatrix::Zero()}</td></tr>
-<tr class="memdesc:a9840cad20dc2c2e4af64b93e75d0d71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight matrix (inverse covariance) at PCA.  <br /></td></tr>
+<tr class="memitem:a0368ab9b69ba2fa3035dab1b8662c799" id="r_a0368ab9b69ba2fa3035dab1b8662c799"><td class="memItemLeft" align="right" valign="top"><a id="a0368ab9b69ba2fa3035dab1b8662c799" name="a0368ab9b69ba2fa3035dab1b8662c799"></a>
+<a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>constantTerm</b> {BoundVector::Zero()}</td></tr>
+<tr class="memdesc:a0368ab9b69ba2fa3035dab1b8662c799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant term in linearized track equation. <br /></td></tr>
+<tr class="memitem:a562503eb963768ad2b9dfc5c25051d89" id="r_a562503eb963768ad2b9dfc5c25051d89"><td class="memItemLeft" align="right" valign="top"><a id="a562503eb963768ad2b9dfc5c25051d89" name="a562503eb963768ad2b9dfc5c25051d89"></a>
+<a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>covarianceAtPCA</b> {BoundSquareMatrix::Zero()}</td></tr>
+<tr class="memdesc:a562503eb963768ad2b9dfc5c25051d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix of track parameters at PCA. <br /></td></tr>
+<tr class="memitem:ae0f47560a6bd5274360f6e0e84691529" id="r_ae0f47560a6bd5274360f6e0e84691529"><td class="memItemLeft" align="right" valign="top"><a id="ae0f47560a6bd5274360f6e0e84691529" name="ae0f47560a6bd5274360f6e0e84691529"></a>
+<a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><b>linearizationPoint</b> {Vector4::Zero()}</td></tr>
+<tr class="memdesc:ae0f47560a6bd5274360f6e0e84691529"><td class="mdescLeft">&#160;</td><td class="mdescRight">4D point where track was linearized for vertex fitting <br /></td></tr>
+<tr class="memitem:afe8fed78296d3fdbe2293ab0d5368007" id="r_afe8fed78296d3fdbe2293ab0d5368007"><td class="memItemLeft" align="right" valign="top"><a id="afe8fed78296d3fdbe2293ab0d5368007" name="afe8fed78296d3fdbe2293ab0d5368007"></a>
+<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>momentumAtPCA</b> {Vector3::Zero()}</td></tr>
+<tr class="memdesc:afe8fed78296d3fdbe2293ab0d5368007"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D momentum vector at point of closest approach <br /></td></tr>
+<tr class="memitem:a4189473353955274efac3a797d4e61bd" id="r_a4189473353955274efac3a797d4e61bd"><td class="memItemLeft" align="right" valign="top"><a id="a4189473353955274efac3a797d4e61bd" name="a4189473353955274efac3a797d4e61bd"></a>
+<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; eBoundSize, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>momentumJacobian</b> {<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eBoundSize, 3&gt;::Zero()}</td></tr>
+<tr class="memdesc:a4189473353955274efac3a797d4e61bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian of track parameters w.r.t. track momentum. <br /></td></tr>
+<tr class="memitem:aa65636e40ded5923a13f293b369a6178" id="r_aa65636e40ded5923a13f293b369a6178"><td class="memItemLeft" align="right" valign="top"><a id="aa65636e40ded5923a13f293b369a6178" name="aa65636e40ded5923a13f293b369a6178"></a>
+<a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>parametersAtPCA</b> {BoundVector::Zero()}</td></tr>
+<tr class="memdesc:aa65636e40ded5923a13f293b369a6178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track parameters at the point of closest approach. <br /></td></tr>
+<tr class="memitem:a0fdf707cfe866bc3fb367154e0cf306c" id="r_a0fdf707cfe866bc3fb367154e0cf306c"><td class="memItemLeft" align="right" valign="top"><a id="a0fdf707cfe866bc3fb367154e0cf306c" name="a0fdf707cfe866bc3fb367154e0cf306c"></a>
+<a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><b>positionAtPCA</b> {Vector4::Zero()}</td></tr>
+<tr class="memdesc:a0fdf707cfe866bc3fb367154e0cf306c"><td class="mdescLeft">&#160;</td><td class="mdescRight">4D position of track at point of closest approach <br /></td></tr>
+<tr class="memitem:ae3a1c1712e949c205157c0f32ee6af34" id="r_ae3a1c1712e949c205157c0f32ee6af34"><td class="memItemLeft" align="right" valign="top"><a id="ae3a1c1712e949c205157c0f32ee6af34" name="ae3a1c1712e949c205157c0f32ee6af34"></a>
+<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; eBoundSize, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>positionJacobian</b> {<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eBoundSize, 4&gt;::Zero()}</td></tr>
+<tr class="memdesc:ae3a1c1712e949c205157c0f32ee6af34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian of track parameters w.r.t. vertex position. <br /></td></tr>
+<tr class="memitem:a9840cad20dc2c2e4af64b93e75d0d71a" id="r_a9840cad20dc2c2e4af64b93e75d0d71a"><td class="memItemLeft" align="right" valign="top"><a id="a9840cad20dc2c2e4af64b93e75d0d71a" name="a9840cad20dc2c2e4af64b93e75d0d71a"></a>
+<a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>weightAtPCA</b> {BoundSquareMatrix::Zero()}</td></tr>
+<tr class="memdesc:a9840cad20dc2c2e4af64b93e75d0d71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight matrix (inverse covariance) at PCA. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for linear expansion of track parameters in vicinity of vertex. </p>
@@ -164,33 +172,8 @@ Public Attributes</h2></td></tr>
 <p>F_k= D_k (x_k - x_0k) + E_k (p_k - p_0k) + F^0_k</p>
 <p>where F_k are the parameters at perigee nearest to the linearization point, x_k is the position of the vertex, p_k the track momentum at the vertex, and F^0_k is the constant term of expansion. D_k and E_k are matrices of derivatives, denoted hereafter as "positionJacobian" and "momentumJacobian" respectively. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8ed9fe71691bfe5c62d13ef9041928a4" name="a8ed9fe71691bfe5c62d13ef9041928a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ed9fe71691bfe5c62d13ef9041928a4">&#9670;&#160;</a></span>LinearizedTrack() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::LinearizedTrack::LinearizedTrack </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac3890bafc454fe1c942de72b9a3daf9b" name="ac3890bafc454fe1c942de72b9a3daf9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3890bafc454fe1c942de72b9a3daf9b">&#9670;&#160;</a></span>LinearizedTrack() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3890bafc454fe1c942de72b9a3daf9b">&#9670;&#160;</a></span>LinearizedTrack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,12 +201,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>posJacobian</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; eBoundSize, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>posJacobian</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; <a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>momJacobian</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; eBoundSize, 3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>momJacobian</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -258,151 +241,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a0368ab9b69ba2fa3035dab1b8662c799" name="a0368ab9b69ba2fa3035dab1b8662c799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0368ab9b69ba2fa3035dab1b8662c799">&#9670;&#160;</a></span>constantTerm</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::LinearizedTrack::constantTerm {BoundVector::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constant term in linearized track equation. </p>
-
-</div>
-</div>
-<a id="a562503eb963768ad2b9dfc5c25051d89" name="a562503eb963768ad2b9dfc5c25051d89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a562503eb963768ad2b9dfc5c25051d89">&#9670;&#160;</a></span>covarianceAtPCA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a> Acts::LinearizedTrack::covarianceAtPCA {BoundSquareMatrix::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Covariance matrix of track parameters at PCA. </p>
-
-</div>
-</div>
-<a id="ae0f47560a6bd5274360f6e0e84691529" name="ae0f47560a6bd5274360f6e0e84691529"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0f47560a6bd5274360f6e0e84691529">&#9670;&#160;</a></span>linearizationPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> Acts::LinearizedTrack::linearizationPoint {Vector4::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>4D point where track was linearized for vertex fitting </p>
-
-</div>
-</div>
-<a id="afe8fed78296d3fdbe2293ab0d5368007" name="afe8fed78296d3fdbe2293ab0d5368007"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe8fed78296d3fdbe2293ab0d5368007">&#9670;&#160;</a></span>momentumAtPCA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> Acts::LinearizedTrack::momentumAtPCA {Vector3::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>3D momentum vector at point of closest approach </p>
-
-</div>
-</div>
-<a id="a4189473353955274efac3a797d4e61bd" name="a4189473353955274efac3a797d4e61bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4189473353955274efac3a797d4e61bd">&#9670;&#160;</a></span>momentumJacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 3&gt; Acts::LinearizedTrack::momentumJacobian {<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 3&gt;::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Jacobian of track parameters w.r.t. track momentum. </p>
-
-</div>
-</div>
-<a id="aa65636e40ded5923a13f293b369a6178" name="aa65636e40ded5923a13f293b369a6178"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa65636e40ded5923a13f293b369a6178">&#9670;&#160;</a></span>parametersAtPCA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::LinearizedTrack::parametersAtPCA {BoundVector::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Track parameters at the point of closest approach. </p>
-
-</div>
-</div>
-<a id="a0fdf707cfe866bc3fb367154e0cf306c" name="a0fdf707cfe866bc3fb367154e0cf306c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fdf707cfe866bc3fb367154e0cf306c">&#9670;&#160;</a></span>positionAtPCA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> Acts::LinearizedTrack::positionAtPCA {Vector4::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>4D position of track at point of closest approach </p>
-
-</div>
-</div>
-<a id="ae3a1c1712e949c205157c0f32ee6af34" name="ae3a1c1712e949c205157c0f32ee6af34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3a1c1712e949c205157c0f32ee6af34">&#9670;&#160;</a></span>positionJacobian</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 4&gt; Acts::LinearizedTrack::positionJacobian {<a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8">eBoundSize</a>, 4&gt;::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Jacobian of track parameters w.r.t. vertex position. </p>
-
-</div>
-</div>
-<a id="a9840cad20dc2c2e4af64b93e75d0d71a" name="a9840cad20dc2c2e4af64b93e75d0d71a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9840cad20dc2c2e4af64b93e75d0d71a">&#9670;&#160;</a></span>weightAtPCA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a> Acts::LinearizedTrack::weightAtPCA {BoundSquareMatrix::Zero()}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Weight matrix (inverse covariance) at PCA. </p>
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 <map id="Acts::GenericCuboidVolumeBounds" name="Acts::GenericCuboidVolumeBounds">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,272,208,312"/>
+<area shape="rect" id="Node000001" title="Volume bounds described by eight arbitrary cuboid vertices." alt="" coords="5,272,208,312"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_volume_bounds.html" title="Pure Absract Base Class for Volume bounds." alt="" coords="29,197,184,223"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,236,109,272,104,272,104,236"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="13,101,200,127"/>

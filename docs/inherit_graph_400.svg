@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_seed_finder_1_1_seeding_state.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_seed_finder_1_1_seeding_state.html" target="_top" xlink:title="Scratch buffers used during seeding for a middle space point.">
 <polygon fill="white" stroke="#666666" points="166,-41 0,-41 0,0 166,0 166,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SeedFinder&lt; external</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">_spacepoint_t, grid_t, platform</text>

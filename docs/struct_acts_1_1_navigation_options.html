@@ -138,24 +138,33 @@ Collaboration diagram for Acts::NavigationOptions&lt; object_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab4a9ea1b3b75e387f5574eb26c1cdd1e" id="r_ab4a9ea1b3b75e387f5574eb26c1cdd1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a9ea1b3b75e387f5574eb26c1cdd1e">boundaryTolerance</a> = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td></tr>
-<tr class="memdesc:ab4a9ea1b3b75e387f5574eb26c1cdd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The boundary check directive.  <br /></td></tr>
-<tr class="memitem:a1a235112244eba1d560952bbec75c044" id="r_a1a235112244eba1d560952bbec75c044"><td class="memItemLeft" align="right" valign="top">const object_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a235112244eba1d560952bbec75c044">endObject</a> = nullptr</td></tr>
-<tr class="memdesc:a1a235112244eba1d560952bbec75c044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hint for end object.  <br /></td></tr>
-<tr class="memitem:af9ce009448b61195b5607c492b762e79" id="r_af9ce009448b61195b5607c492b762e79"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9ce009448b61195b5607c492b762e79">externalSurfaces</a> = {}</td></tr>
-<tr class="memdesc:af9ce009448b61195b5607c492b762e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">External surface identifier for which the boundary check is ignored.  <br /></td></tr>
-<tr class="memitem:aae4e4fa4454e5db57750f6df85bda15e" id="r_aae4e4fa4454e5db57750f6df85bda15e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae4e4fa4454e5db57750f6df85bda15e">farLimit</a> = std::numeric_limits&lt;double&gt;::max()</td></tr>
-<tr class="memdesc:aae4e4fa4454e5db57750f6df85bda15e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum distance for a surface to be considered.  <br /></td></tr>
-<tr class="memitem:ac3ebc466bfa8e1bf5cd2a523628df833" id="r_ac3ebc466bfa8e1bf5cd2a523628df833"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3ebc466bfa8e1bf5cd2a523628df833">nearLimit</a> = 0</td></tr>
-<tr class="memdesc:ac3ebc466bfa8e1bf5cd2a523628df833"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimum distance for a surface to be considered.  <br /></td></tr>
-<tr class="memitem:a4d51d7269042ef7c308a707d760e3303" id="r_a4d51d7269042ef7c308a707d760e3303"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d51d7269042ef7c308a707d760e3303">resolveMaterial</a> = true</td></tr>
-<tr class="memdesc:a4d51d7269042ef7c308a707d760e3303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Always look for material.  <br /></td></tr>
-<tr class="memitem:a5ed16712b68339f95712bbb9631c7c7d" id="r_a5ed16712b68339f95712bbb9631c7c7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ed16712b68339f95712bbb9631c7c7d">resolvePassive</a> = false</td></tr>
-<tr class="memdesc:a5ed16712b68339f95712bbb9631c7c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">always look for passive  <br /></td></tr>
-<tr class="memitem:aab099f0a7016bf73b62108333f0dceb5" id="r_aab099f0a7016bf73b62108333f0dceb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab099f0a7016bf73b62108333f0dceb5">resolveSensitive</a> = true</td></tr>
-<tr class="memdesc:aab099f0a7016bf73b62108333f0dceb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Always look for sensitive.  <br /></td></tr>
-<tr class="memitem:a38e8e066531a59277c9dd3e81d0975a0" id="r_a38e8e066531a59277c9dd3e81d0975a0"><td class="memItemLeft" align="right" valign="top">const object_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38e8e066531a59277c9dd3e81d0975a0">startObject</a> = nullptr</td></tr>
-<tr class="memdesc:a38e8e066531a59277c9dd3e81d0975a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hint for start object.  <br /></td></tr>
+<tr class="memitem:ab4a9ea1b3b75e387f5574eb26c1cdd1e" id="r_ab4a9ea1b3b75e387f5574eb26c1cdd1e"><td class="memItemLeft" align="right" valign="top"><a id="ab4a9ea1b3b75e387f5574eb26c1cdd1e" name="ab4a9ea1b3b75e387f5574eb26c1cdd1e"></a>
+<a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boundaryTolerance</b> = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td></tr>
+<tr class="memdesc:ab4a9ea1b3b75e387f5574eb26c1cdd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The boundary check directive. <br /></td></tr>
+<tr class="memitem:a1a235112244eba1d560952bbec75c044" id="r_a1a235112244eba1d560952bbec75c044"><td class="memItemLeft" align="right" valign="top"><a id="a1a235112244eba1d560952bbec75c044" name="a1a235112244eba1d560952bbec75c044"></a>
+const object_t *&#160;</td><td class="memItemRight" valign="bottom"><b>endObject</b> = nullptr</td></tr>
+<tr class="memdesc:a1a235112244eba1d560952bbec75c044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hint for end object. <br /></td></tr>
+<tr class="memitem:af9ce009448b61195b5607c492b762e79" id="r_af9ce009448b61195b5607c492b762e79"><td class="memItemLeft" align="right" valign="top"><a id="af9ce009448b61195b5607c492b762e79" name="af9ce009448b61195b5607c492b762e79"></a>
+std::vector&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>externalSurfaces</b> = {}</td></tr>
+<tr class="memdesc:af9ce009448b61195b5607c492b762e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">External surface identifier for which the boundary check is ignored. <br /></td></tr>
+<tr class="memitem:aae4e4fa4454e5db57750f6df85bda15e" id="r_aae4e4fa4454e5db57750f6df85bda15e"><td class="memItemLeft" align="right" valign="top"><a id="aae4e4fa4454e5db57750f6df85bda15e" name="aae4e4fa4454e5db57750f6df85bda15e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>farLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
+<tr class="memdesc:aae4e4fa4454e5db57750f6df85bda15e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum distance for a surface to be considered. <br /></td></tr>
+<tr class="memitem:ac3ebc466bfa8e1bf5cd2a523628df833" id="r_ac3ebc466bfa8e1bf5cd2a523628df833"><td class="memItemLeft" align="right" valign="top"><a id="ac3ebc466bfa8e1bf5cd2a523628df833" name="ac3ebc466bfa8e1bf5cd2a523628df833"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>nearLimit</b> = 0</td></tr>
+<tr class="memdesc:ac3ebc466bfa8e1bf5cd2a523628df833"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimum distance for a surface to be considered. <br /></td></tr>
+<tr class="memitem:a4d51d7269042ef7c308a707d760e3303" id="r_a4d51d7269042ef7c308a707d760e3303"><td class="memItemLeft" align="right" valign="top"><a id="a4d51d7269042ef7c308a707d760e3303" name="a4d51d7269042ef7c308a707d760e3303"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>resolveMaterial</b> = true</td></tr>
+<tr class="memdesc:a4d51d7269042ef7c308a707d760e3303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Always look for material. <br /></td></tr>
+<tr class="memitem:a5ed16712b68339f95712bbb9631c7c7d" id="r_a5ed16712b68339f95712bbb9631c7c7d"><td class="memItemLeft" align="right" valign="top"><a id="a5ed16712b68339f95712bbb9631c7c7d" name="a5ed16712b68339f95712bbb9631c7c7d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>resolvePassive</b> = false</td></tr>
+<tr class="memdesc:a5ed16712b68339f95712bbb9631c7c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">always look for passive <br /></td></tr>
+<tr class="memitem:aab099f0a7016bf73b62108333f0dceb5" id="r_aab099f0a7016bf73b62108333f0dceb5"><td class="memItemLeft" align="right" valign="top"><a id="aab099f0a7016bf73b62108333f0dceb5" name="aab099f0a7016bf73b62108333f0dceb5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>resolveSensitive</b> = true</td></tr>
+<tr class="memdesc:aab099f0a7016bf73b62108333f0dceb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Always look for sensitive. <br /></td></tr>
+<tr class="memitem:a38e8e066531a59277c9dd3e81d0975a0" id="r_a38e8e066531a59277c9dd3e81d0975a0"><td class="memItemLeft" align="right" valign="top"><a id="a38e8e066531a59277c9dd3e81d0975a0" name="a38e8e066531a59277c9dd3e81d0975a0"></a>
+const object_t *&#160;</td><td class="memItemRight" valign="bottom"><b>startObject</b> = nullptr</td></tr>
+<tr class="memdesc:a38e8e066531a59277c9dd3e81d0975a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hint for start object. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename object_t&gt;<br />
@@ -166,170 +175,7 @@ struct Acts::NavigationOptions&lt; object_t &gt;</div><p>The navigation options 
   </table>
   </dd>
 </dl>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ab4a9ea1b3b75e387f5574eb26c1cdd1e" name="ab4a9ea1b3b75e387f5574eb26c1cdd1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4a9ea1b3b75e387f5574eb26c1cdd1e">&#9670;&#160;</a></span>boundaryTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::boundaryTolerance = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The boundary check directive. </p>
-
-</div>
-</div>
-<a id="a1a235112244eba1d560952bbec75c044" name="a1a235112244eba1d560952bbec75c044"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a235112244eba1d560952bbec75c044">&#9670;&#160;</a></span>endObject</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const object_t* <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::endObject = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Hint for end object. </p>
-
-</div>
-</div>
-<a id="af9ce009448b61195b5607c492b762e79" name="af9ce009448b61195b5607c492b762e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9ce009448b61195b5607c492b762e79">&#9670;&#160;</a></span>externalSurfaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&gt; <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::externalSurfaces = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>External surface identifier for which the boundary check is ignored. </p>
-
-</div>
-</div>
-<a id="aae4e4fa4454e5db57750f6df85bda15e" name="aae4e4fa4454e5db57750f6df85bda15e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae4e4fa4454e5db57750f6df85bda15e">&#9670;&#160;</a></span>farLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::farLimit = std::numeric_limits&lt;double&gt;::max()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The maximum distance for a surface to be considered. </p>
-
-</div>
-</div>
-<a id="ac3ebc466bfa8e1bf5cd2a523628df833" name="ac3ebc466bfa8e1bf5cd2a523628df833"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3ebc466bfa8e1bf5cd2a523628df833">&#9670;&#160;</a></span>nearLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">double <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::nearLimit = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The minimum distance for a surface to be considered. </p>
-
-</div>
-</div>
-<a id="a4d51d7269042ef7c308a707d760e3303" name="a4d51d7269042ef7c308a707d760e3303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d51d7269042ef7c308a707d760e3303">&#9670;&#160;</a></span>resolveMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::resolveMaterial = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Always look for material. </p>
-
-</div>
-</div>
-<a id="a5ed16712b68339f95712bbb9631c7c7d" name="a5ed16712b68339f95712bbb9631c7c7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ed16712b68339f95712bbb9631c7c7d">&#9670;&#160;</a></span>resolvePassive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::resolvePassive = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>always look for passive </p>
-
-</div>
-</div>
-<a id="aab099f0a7016bf73b62108333f0dceb5" name="aab099f0a7016bf73b62108333f0dceb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab099f0a7016bf73b62108333f0dceb5">&#9670;&#160;</a></span>resolveSensitive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::resolveSensitive = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Always look for sensitive. </p>
-
-</div>
-</div>
-<a id="a38e8e066531a59277c9dd3e81d0975a0" name="a38e8e066531a59277c9dd3e81d0975a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38e8e066531a59277c9dd3e81d0975a0">&#9670;&#160;</a></span>startObject</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename object_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const object_t* <a class="el" href="struct_acts_1_1_navigation_options.html">Acts::NavigationOptions</a>&lt; object_t &gt;::startObject = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Hint for start object. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -11,16 +11,7 @@ var class_acts_1_1_diamond_volume_bounds =
       [ "eBetaAngle", "class_acts_1_1_diamond_volume_bounds.html#a7d42b12fc538ef81d3bded8e9a166919ac4a04e8f1e0e18dcb964a4a75a39d151", null ],
       [ "eSize", "class_acts_1_1_diamond_volume_bounds.html#a7d42b12fc538ef81d3bded8e9a166919a2ebcd38cfdbb4b23dc36887f6183184a", null ]
     ] ],
-    [ "Face", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41", [
-      [ "NegativeZFaceXY", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41a7b5a2ec224182b45b20e56c7f9c45658", null ],
-      [ "PositiveZFaceXY", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41a1967294592437b77a62f3527b9063280", null ],
-      [ "NegativeXFaceYZ12", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41ade512913f0e6cfb8c2470c8da1e32e56", null ],
-      [ "PositiveXFaceYZ12", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41a0cbe6a73e01f5d194a68773d42fc434b", null ],
-      [ "NegativeXFaceYZ23", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41a7bafccfbeb87c91585eaea46e22837ea", null ],
-      [ "PositiveXFaceYZ23", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41aea6a3d9a5704f2607242f300148a6b75", null ],
-      [ "NegativeYFaceZX", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41a3058552d9f13ff5c44c9554e0316ac83", null ],
-      [ "PositiveYFaceZX", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41ae9d03accc0deaee473173a504e514f19", null ]
-    ] ],
+    [ "Face", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41", null ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a3b0f35b5844019959dd39b6ab69de3fb", null ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a86fabfede3e3ab5c471bc32a3870130d", null ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a7625325edac9ed678c0d47d52b6b6b83", null ],

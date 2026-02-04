@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_gbts_connection.html'
 </div><!--header-->
 <div class="contents">
 
+<p>Connection between two GBTs layers with binning information.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_connector_8hpp_source.html">Acts/TrackFinding/GbtsConnector.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsConnection:</div>
@@ -136,14 +139,23 @@ Collaboration diagram for Acts::Experimental::GbtsConnection:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a388703563a6c76a45b6edc805484c911" id="r_a388703563a6c76a45b6edc805484c911"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a388703563a6c76a45b6edc805484c911">GbtsConnection</a> (unsigned int s, unsigned int d)</td></tr>
+<tr class="memdesc:a388703563a6c76a45b6edc805484c911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a89f3cbc95048f611520c0e0f03b6bcaf" id="r_a89f3cbc95048f611520c0e0f03b6bcaf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f3cbc95048f611520c0e0f03b6bcaf">m_binTable</a></td></tr>
-<tr class="memitem:a1fd255c2f865ced8789a268f2a834bea" id="r_a1fd255c2f865ced8789a268f2a834bea"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fd255c2f865ced8789a268f2a834bea">m_dst</a></td></tr>
-<tr class="memitem:a5b9fbb49ed3dcedc8e3fc3a326b01945" id="r_a5b9fbb49ed3dcedc8e3fc3a326b01945"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b9fbb49ed3dcedc8e3fc3a326b01945">m_src</a></td></tr>
+<tr class="memitem:a89f3cbc95048f611520c0e0f03b6bcaf" id="r_a89f3cbc95048f611520c0e0f03b6bcaf"><td class="memItemLeft" align="right" valign="top"><a id="a89f3cbc95048f611520c0e0f03b6bcaf" name="a89f3cbc95048f611520c0e0f03b6bcaf"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_binTable</b></td></tr>
+<tr class="memdesc:a89f3cbc95048f611520c0e0f03b6bcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binning table for the connection. <br /></td></tr>
+<tr class="memitem:a1fd255c2f865ced8789a268f2a834bea" id="r_a1fd255c2f865ced8789a268f2a834bea"><td class="memItemLeft" align="right" valign="top"><a id="a1fd255c2f865ced8789a268f2a834bea" name="a1fd255c2f865ced8789a268f2a834bea"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dst</b></td></tr>
+<tr class="memdesc:a1fd255c2f865ced8789a268f2a834bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destination layer index. <br /></td></tr>
+<tr class="memitem:a5b9fbb49ed3dcedc8e3fc3a326b01945" id="r_a5b9fbb49ed3dcedc8e3fc3a326b01945"><td class="memItemLeft" align="right" valign="top"><a id="a5b9fbb49ed3dcedc8e3fc3a326b01945" name="a5b9fbb49ed3dcedc8e3fc3a326b01945"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_src</b></td></tr>
+<tr class="memdesc:a5b9fbb49ed3dcedc8e3fc3a326b01945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source and destination layer indices. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Connection between two GBTs layers with binning information. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a388703563a6c76a45b6edc805484c911" name="a388703563a6c76a45b6edc805484c911"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a388703563a6c76a45b6edc805484c911">&#9670;&#160;</a></span>GbtsConnection()</h2>
 
@@ -163,48 +175,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a89f3cbc95048f611520c0e0f03b6bcaf" name="a89f3cbc95048f611520c0e0f03b6bcaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89f3cbc95048f611520c0e0f03b6bcaf">&#9670;&#160;</a></span>m_binTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;int&gt; Acts::Experimental::GbtsConnection::m_binTable</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1fd255c2f865ced8789a268f2a834bea" name="a1fd255c2f865ced8789a268f2a834bea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fd255c2f865ced8789a268f2a834bea">&#9670;&#160;</a></span>m_dst</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int Acts::Experimental::GbtsConnection::m_dst</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5b9fbb49ed3dcedc8e3fc3a326b01945" name="a5b9fbb49ed3dcedc8e3fc3a326b01945"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b9fbb49ed3dcedc8e3fc3a326b01945">&#9670;&#160;</a></span>m_src</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int Acts::Experimental::GbtsConnection::m_src</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>Source layer index </td></tr>
+    <tr><td class="paramname">d</td><td>Destination layer index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

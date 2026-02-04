@@ -136,6 +136,7 @@ Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the accessor Contains the tags used for writing and reading, tag names are configuration, as they are not very likely to change.  <a href="struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MaterialTreePayload" id="r_MaterialTreePayload"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html">MaterialTreePayload</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Payload structure for material tree data.  <a href="struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for writing the material maps Folder names are optional as it allows to write more maps into one file, e.g.  <a href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -143,8 +144,9 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d8cece30eb8a390c89db7515d13a9a9" id="r_a4d8cece30eb8a390c89db7515d13a9a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8cece30eb8a390c89db7515d13a9a9">RootMaterialMapIo</a> (const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_config.html">Config</a> &amp;cfg, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; mLogger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;RootMaterialMapIo&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a4d8cece30eb8a390c89db7515d13a9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from config struct.  <br /></td></tr>
-<tr class="memitem:a5824f10d399a424969247829959c3f12" id="r_a5824f10d399a424969247829959c3f12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5824f10d399a424969247829959c3f12">~RootMaterialMapIo</a> ()=default</td></tr>
-<tr class="memdesc:a5824f10d399a424969247829959c3f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="memitem:a5824f10d399a424969247829959c3f12" id="r_a5824f10d399a424969247829959c3f12"><td class="memItemLeft" align="right" valign="top"><a id="a5824f10d399a424969247829959c3f12" name="a5824f10d399a424969247829959c3f12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~RootMaterialMapIo</b> ()=default</td></tr>
+<tr class="memdesc:a5824f10d399a424969247829959c3f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:a19e2344d1e1e1019a9e143deacff6a7d" id="r_a19e2344d1e1e1019a9e143deacff6a7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a4840b95a87ca15ddba7ceb31b16a4353">Acts::TrackingGeometryMaterial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19e2344d1e1e1019a9e143deacff6a7d">read</a> (TFile &amp;rFile, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
 <tr class="memdesc:a19e2344d1e1e1019a9e143deacff6a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the detector maps.  <br /></td></tr>
 <tr class="memitem:afba601243469a1affe643b20ef227065" id="r_afba601243469a1affe643b20ef227065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba601243469a1affe643b20ef227065">write</a> (TFile &amp;rFile, const <a class="el" href="class_acts_1_1_geometry_identifier.html">Acts::GeometryIdentifier</a> &amp;geoID, const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &amp;surfaceMaterial, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
@@ -193,33 +195,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5824f10d399a424969247829959c3f12" name="a5824f10d399a424969247829959c3f12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5824f10d399a424969247829959c3f12">&#9670;&#160;</a></span>~RootMaterialMapIo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ActsPlugins::RootMaterialMapIo::~RootMaterialMapIo </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-</div>
-</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a19e2344d1e1e1019a9e143deacff6a7d" name="a19e2344d1e1e1019a9e143deacff6a7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19e2344d1e1e1019a9e143deacff6a7d">&#9670;&#160;</a></span>read()</h2>
@@ -248,6 +223,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>TrackingGeometryMaterial with material read from file </dd></dl>
 
 </div>
 </div>

@@ -1,87 +1,19 @@
 var namespace_acts =
 [
-    [ "AngleHelpers", "namespace_acts_1_1_angle_helpers.html", "namespace_acts_1_1_angle_helpers" ],
-    [ "AxisJsonConverter", "namespace_acts_1_1_axis_json_converter.html", [
-      [ "toJson", "namespace_acts_1_1_axis_json_converter.html#a227609369a5bd7dd07d9acf43e88d694", null ],
-      [ "toJsonDetray", "namespace_acts_1_1_axis_json_converter.html#ab0f906ef60351660026fa1c46d3a00f5", null ]
-    ] ],
-    [ "Ccl", "namespace_acts_1_1_ccl.html", "namespace_acts_1_1_ccl" ],
-    [ "CkfTypes", "namespace_acts_1_1_ckf_types.html", [
-      [ "BoundState", "namespace_acts_1_1_ckf_types.html#a60a1926242ce2a1d4465eaa0ff5d87c5", null ],
-      [ "BranchVector", "namespace_acts_1_1_ckf_types.html#a57a4b397a33bbc076c01e39806bf8dfc", null ],
-      [ "s_maxBranchesPerSurface", "namespace_acts_1_1_ckf_types.html#a1bfa8f53ca6847f4ebc0f6a01fcaf6c9", null ]
-    ] ],
-    [ "Concepts", "namespace_acts_1_1_concepts.html", "namespace_acts_1_1_concepts" ],
     [ "DetrayJsonHelper", "namespace_acts_1_1_detray_json_helper.html", [
       [ "accelerationLink", "group__json__plugin.html#ga88f081a4e44f75a16a48334e8d8bc8d0", null ],
       [ "addVolumeLink", "group__json__plugin.html#ga315122d1d994e640dbc7e6a05b79f5b2", null ],
       [ "maskFromBounds", "group__json__plugin.html#ga3503d63a02e59fae80cb71d77642bfaf", null ]
     ] ],
     [ "Experimental", "namespace_acts_1_1_experimental.html", "namespace_acts_1_1_experimental" ],
-    [ "GeometryIdentifierJsonConverter", "namespace_acts_1_1_geometry_identifier_json_converter.html", [
-      [ "decodeIdentifier", "namespace_acts_1_1_geometry_identifier_json_converter.html#af2845d480d6b448258db32dcb13061b9", null ],
-      [ "encodeIdentifier", "namespace_acts_1_1_geometry_identifier_json_converter.html#a1c6910fb8199c7c212e21ac7c93ca95c", null ]
-    ] ],
-    [ "GraphViz", "namespace_acts_1_1_graph_viz.html", "namespace_acts_1_1_graph_viz" ],
-    [ "GridAccess", "namespace_acts_1_1_grid_access.html", "namespace_acts_1_1_grid_access" ],
-    [ "GridAccessHelpers", "namespace_acts_1_1_grid_access_helpers.html", [
-      [ "accessLocal", "namespace_acts_1_1_grid_access_helpers.html#a2268484b2d2a41fae3a19caf3e085b44", null ],
-      [ "castPosition", "namespace_acts_1_1_grid_access_helpers.html#a32e52015f55800e9efae94630a00c604", null ],
-      [ "fillCasts", "namespace_acts_1_1_grid_access_helpers.html#ad4b083be91d5524828735af2f22d3019", null ],
-      [ "fillLocal", "namespace_acts_1_1_grid_access_helpers.html#af0ea59101cb3e8ee8ba8adb7039874ab", null ]
-    ] ],
-    [ "GridAccessJsonConverter", "namespace_acts_1_1_grid_access_json_converter.html", [
-      [ "boundToGridLocal1DimDelegateFromJson", "namespace_acts_1_1_grid_access_json_converter.html#a7c885545ec11fd6f8409e7fd5e69cac0", null ],
-      [ "boundToGridLocal2DimDelegateFromJson", "namespace_acts_1_1_grid_access_json_converter.html#abd7d5b0b3a47a7443299164e2836b630", null ],
-      [ "boundToGridLocalFromJson", "namespace_acts_1_1_grid_access_json_converter.html#a2427265745e9a430855209c490292063", null ],
-      [ "globalToGridLocal1DimDelegateFromJson", "namespace_acts_1_1_grid_access_json_converter.html#a0591a463748e32567e36fcb13be05971", null ],
-      [ "globalToGridLocal2DimDelegateFromJson", "namespace_acts_1_1_grid_access_json_converter.html#af93f3ace2e5899b726deff85b43e5eec", null ],
-      [ "globalToGridLocalFromJson", "namespace_acts_1_1_grid_access_json_converter.html#a99cb99d83408636cc7bdb1550f7feeef", null ],
-      [ "toJson", "namespace_acts_1_1_grid_access_json_converter.html#a9f74f3fa3bdd04f0b1e86765349bc9d9", null ],
-      [ "toJson", "namespace_acts_1_1_grid_access_json_converter.html#a28f90968c8c135906bd4ab003a64392e", null ]
-    ] ],
     [ "GridAxisGenerators", "namespace_acts_1_1_grid_axis_generators.html", "namespace_acts_1_1_grid_axis_generators" ],
-    [ "GridJsonConverter", "namespace_acts_1_1_grid_json_converter.html", [
-      [ "fromJson", "namespace_acts_1_1_grid_json_converter.html#a3c723b360577eba097e8ac3d019fff70", null ],
-      [ "toJson", "namespace_acts_1_1_grid_json_converter.html#a884a843775497b798a36df9804cbb23f", null ],
-      [ "toJsonDetray", "namespace_acts_1_1_grid_json_converter.html#adea4bc7dc0c112237ccc3b07b3eb7555", null ]
+    [ "HoughTransformUtils", null, [
+      [ "PeakFinders", "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html", "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders" ],
+      [ "HoughAxisRanges", "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html", "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges" ],
+      [ "HoughCell", "class_acts_1_1_hough_transform_utils_1_1_hough_cell.html", "class_acts_1_1_hough_transform_utils_1_1_hough_cell" ],
+      [ "HoughPlane", "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html", "class_acts_1_1_hough_transform_utils_1_1_hough_plane" ],
+      [ "HoughPlaneConfig", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config" ]
     ] ],
-    [ "GridSurfaceMaterialFactory", "namespace_acts_1_1_grid_surface_material_factory.html", [
-      [ "create", "namespace_acts_1_1_grid_surface_material_factory.html#a903da01279b0db3d46cd194f520f8540", null ],
-      [ "create", "namespace_acts_1_1_grid_surface_material_factory.html#a3b8e1e33a41c0bce239e8a829e94739a", null ],
-      [ "create", "namespace_acts_1_1_grid_surface_material_factory.html#ae9111dcacfbd142fd3ab9988317c30a0", null ],
-      [ "create", "namespace_acts_1_1_grid_surface_material_factory.html#aa54e0913fafa3ce6756a802e7026e93f", null ],
-      [ "create", "namespace_acts_1_1_grid_surface_material_factory.html#ad2dbcb6a95825305c034db95ca0575fb", null ],
-      [ "create", "namespace_acts_1_1_grid_surface_material_factory.html#a5e6383287a402f5af20733e83f4abd13", null ],
-      [ "create1D", "namespace_acts_1_1_grid_surface_material_factory.html#abdc5f3dd24cc172c932c8c8e561d2ca4", null ],
-      [ "create2D", "namespace_acts_1_1_grid_surface_material_factory.html#acd8a481c841154c10ceb992af57c5039", null ]
-    ] ],
-    [ "GsfConstants", "namespace_acts_1_1_gsf_constants.html", [
-      [ "FinalMultiComponentState", "namespace_acts_1_1_gsf_constants.html#a73b5bf0550af54e2ce73ac01d357f6bf", null ],
-      [ "kFinalMultiComponentStateColumn", "namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed", null ],
-      [ "kFwdMaxMaterialXOverX0", "namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297", null ],
-      [ "kFwdSumMaterialXOverX0", "namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2", null ]
-    ] ],
-    [ "HashedStringLiteral", "namespace_acts_1_1_hashed_string_literal.html", [
-      [ "operator\"\"_hash", "namespace_acts_1_1_hashed_string_literal.html#aae0762f4c92ad2afb33e073c5045c2f2", null ]
-    ] ],
-    [ "HoughTransformUtils", "namespace_acts_1_1_hough_transform_utils.html", "namespace_acts_1_1_hough_transform_utils" ],
-    [ "IndexedGridJsonHelper", "namespace_acts_1_1_indexed_grid_json_helper.html", [
-      [ "convertImpl", "namespace_acts_1_1_indexed_grid_json_helper.html#ac71d216f2916e50100640ee3a2169569", null ],
-      [ "generateFromJson", "namespace_acts_1_1_indexed_grid_json_helper.html#aacac18fa58eed10e0d8dca10d3a18d23", null ]
-    ] ],
-    [ "IndexGridNavigationJsonConverter", "namespace_acts_1_1_index_grid_navigation_json_converter.html", "namespace_acts_1_1_index_grid_navigation_json_converter" ],
-    [ "Interpolation3D", "namespace_acts_1_1_interpolation3_d.html", [
-      [ "spline", "namespace_acts_1_1_interpolation3_d.html#abfc7c8ca744e8b3292e6220567e3254f", null ]
-    ] ],
-    [ "JsonSurfacesReader", "namespace_acts_1_1_json_surfaces_reader.html", "namespace_acts_1_1_json_surfaces_reader" ],
-    [ "KalmanVertexUpdater", "namespace_acts_1_1_kalman_vertex_updater.html", [
-      [ "updateTrackWithVertex", "namespace_acts_1_1_kalman_vertex_updater.html#a312df67018ed327408f7f8874e7d16aa", null ],
-      [ "updateVertexWithTrack", "namespace_acts_1_1_kalman_vertex_updater.html#a53f82079bad89197c25988ae477dbec4", null ]
-    ] ],
-    [ "Logging", "namespace_acts_1_1_logging.html", "namespace_acts_1_1_logging" ],
-    [ "MaterialInteractionAssignment", "namespace_acts_1_1_material_interaction_assignment.html", "namespace_acts_1_1_material_interaction_assignment" ],
-    [ "MultiTrajectoryHelpers", "namespace_acts_1_1_multi_trajectory_helpers.html", "namespace_acts_1_1_multi_trajectory_helpers" ],
     [ "MultiTrajectoryTraits", "namespace_acts_1_1_multi_trajectory_traits.html", [
       [ "TrackIndexType", "namespace_acts_1_1_multi_trajectory_traits.html#ab10f01c2759ff4e801d804fdf1a91199", null ],
       [ "kInvalid", "namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c", null ],
@@ -102,32 +34,6 @@ var namespace_acts =
       [ "c", "namespace_acts_1_1_physical_constants.html#a1d84e7732ed0bc3272bff096737d2b6e", null ],
       [ "hbar", "namespace_acts_1_1_physical_constants.html#ae64b87b62593f4c52d5a1d88da6d7cf3", null ]
     ] ],
-    [ "PixelSpacePointBuilder", "namespace_acts_1_1_pixel_space_point_builder.html", [
-      [ "computeVarianceZR", "namespace_acts_1_1_pixel_space_point_builder.html#ad5268dc742b10040a9d39a48289abccd", null ]
-    ] ],
-    [ "PortalJsonConverter", "namespace_acts_1_1_portal_json_converter.html", "namespace_acts_1_1_portal_json_converter" ],
-    [ "ProtoAxisHelpers", "namespace_acts_1_1_proto_axis_helpers.html", [
-      [ "binFromProtoAxis", "namespace_acts_1_1_proto_axis_helpers.html#a5aef3d93d66940837149c53a78f02a62", null ],
-      [ "binFromProtoAxis", "namespace_acts_1_1_proto_axis_helpers.html#ad7b499621ea1eea8b8832b515db2285a", null ],
-      [ "binsFromProtoAxes", "namespace_acts_1_1_proto_axis_helpers.html#adfc78e2cb2bb44afb61cc995dcf303ee", null ],
-      [ "binsOfProtoAxis", "namespace_acts_1_1_proto_axis_helpers.html#a5829cc7de1585cb7d5cc57cc5bbfa191", null ],
-      [ "binTripleFromProtoAxes", "namespace_acts_1_1_proto_axis_helpers.html#aa0851ea1f0c781904c90fe3d289d5933", null ],
-      [ "maxBin", "namespace_acts_1_1_proto_axis_helpers.html#a3f5050db33345fbf20c71da4d8988ac9", null ],
-      [ "totalBinsFromProtoAxes", "namespace_acts_1_1_proto_axis_helpers.html#a6e25553dc0ef960950163d6928c85e3a", null ]
-    ] ],
-    [ "ProtoAxisJsonConverter", "namespace_acts_1_1_proto_axis_json_converter.html", [
-      [ "fromJson", "group__json__plugin.html#ga7db1175609439b8069b2d0b090773503", null ],
-      [ "toJson", "group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9", null ]
-    ] ],
-    [ "StripSpacePointBuilder", "namespace_acts_1_1_strip_space_point_builder.html", "namespace_acts_1_1_strip_space_point_builder" ],
-    [ "SurfaceBoundsJsonConverter", "namespace_acts_1_1_surface_bounds_json_converter.html", [
-      [ "fromJson", "namespace_acts_1_1_surface_bounds_json_converter.html#ae2b3b8e768c91cff459b3e3673495402", null ],
-      [ "toJson", "namespace_acts_1_1_surface_bounds_json_converter.html#a421f2b2876613463150c742861104902", null ],
-      [ "toJsonDetray", "namespace_acts_1_1_surface_bounds_json_converter.html#abf57c241a8ea5bd04de7252d36ff5a31", null ]
-    ] ],
-    [ "SurfaceJsonConverter", "namespace_acts_1_1_surface_json_converter.html", "namespace_acts_1_1_surface_json_converter" ],
-    [ "Transform3JsonConverter", "namespace_acts_1_1_transform3_json_converter.html", "namespace_acts_1_1_transform3_json_converter" ],
-    [ "Types", "namespace_acts_1_1_types.html", "namespace_acts_1_1_types" ],
     [ "UnitConstants", "namespace_acts_1_1_unit_constants.html", [
       [ "cm", "namespace_acts_1_1_unit_constants.html#aa190d4eb78a4f8937ce8b8019ab44a9e", null ],
       [ "cm2", "namespace_acts_1_1_unit_constants.html#a372061f7fa8f9f45b7dbd79f5c07495e", null ],
@@ -170,29 +76,6 @@ var namespace_acts =
       [ "us", "namespace_acts_1_1_unit_constants.html#a439603e3988eb64d1df38bae322adbd3", null ]
     ] ],
     [ "UnitLiterals", "namespace_acts_1_1_unit_literals.html", null ],
-    [ "VectorHelpers", "namespace_acts_1_1_vector_helpers.html", [
-      [ "cast", "namespace_acts_1_1_vector_helpers.html#a0feaffc607ed5e2ce16ce7578a71167b", null ],
-      [ "cross", "namespace_acts_1_1_vector_helpers.html#ab1d965e7d012208c08c27a465d7fb1c4", null ],
-      [ "deltaR", "namespace_acts_1_1_vector_helpers.html#a67893bc10865d3b215bc4e85ad627137", null ],
-      [ "eta", "namespace_acts_1_1_vector_helpers.html#a5d48c141e31e909435cadedc73e04d04", null ],
-      [ "eta", "namespace_acts_1_1_vector_helpers.html#a1cfc3dafceb83cd912cd30e80f07ad37", null ],
-      [ "evaluateTrigonomics", "namespace_acts_1_1_vector_helpers.html#ad64ded79ee6ea99222e4fc8558afe451", null ],
-      [ "incidentAngles", "namespace_acts_1_1_vector_helpers.html#a8ee03af61ff0aba69eb9486595a69e7e", null ],
-      [ "makeVector4", "namespace_acts_1_1_vector_helpers.html#aee596cee9f20711ff9548f38973c2e1b", null ],
-      [ "perp", "namespace_acts_1_1_vector_helpers.html#a9d0d7e35444d5f4a0ae7accb0a2c70db", null ],
-      [ "phi", "namespace_acts_1_1_vector_helpers.html#aacf20574d54488fb7aa1cc77fbbff365", null ],
-      [ "phi", "namespace_acts_1_1_vector_helpers.html#ae26dc2eb8d916178f1ad3c72f545ba51", null ],
-      [ "phi", "namespace_acts_1_1_vector_helpers.html#a7c092206ba6aef3c52737cb16a9cd123", null ],
-      [ "position", "namespace_acts_1_1_vector_helpers.html#a01038c7e1d281f264fe6a4751db1077d", null ],
-      [ "position", "namespace_acts_1_1_vector_helpers.html#a04bda2cc2314dcfa13530ae18507551b", null ],
-      [ "theta", "namespace_acts_1_1_vector_helpers.html#a567adf0746da2a04018ca3109f86327d", null ],
-      [ "theta", "namespace_acts_1_1_vector_helpers.html#a68c4483e139e9a894aa948fa5a0da1c1", null ]
-    ] ],
-    [ "VolumeBoundsJsonConverter", "namespace_acts_1_1_volume_bounds_json_converter.html", [
-      [ "fromJson", "namespace_acts_1_1_volume_bounds_json_converter.html#a7aaa7c2ff6498eedf687e590260c5006", null ],
-      [ "fromJson", "namespace_acts_1_1_volume_bounds_json_converter.html#a6fea4a710b93eda15c20ff9ed2b985fd", null ],
-      [ "toJson", "namespace_acts_1_1_volume_bounds_json_converter.html#acb7e5d0823dc3fe34f6ca21593c6d375", null ]
-    ] ],
     [ "AccumulatedMaterialSlab", "class_acts_1_1_accumulated_material_slab.html", "class_acts_1_1_accumulated_material_slab" ],
     [ "AccumulatedSurfaceMaterial", "class_acts_1_1_accumulated_surface_material.html", "class_acts_1_1_accumulated_surface_material" ],
     [ "AccumulatedVolumeMaterial", "class_acts_1_1_accumulated_volume_material.html", "class_acts_1_1_accumulated_volume_material" ],
@@ -284,7 +167,7 @@ var namespace_acts =
     [ "DBScan", "class_acts_1_1_d_b_scan.html", "class_acts_1_1_d_b_scan" ],
     [ "Delegate", "class_acts_1_1_delegate.html", null ],
     [ "Delegate&lt; R(Args...), H, O &gt;", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4" ],
-    [ "DelegateFuncTag", "struct_acts_1_1_delegate_func_tag.html", "struct_acts_1_1_delegate_func_tag" ],
+    [ "DelegateFuncTag", "struct_acts_1_1_delegate_func_tag.html", null ],
     [ "DetectorElementBase", "class_acts_1_1_detector_element_base.html", "class_acts_1_1_detector_element_base" ],
     [ "DiamondBounds", "class_acts_1_1_diamond_bounds.html", "class_acts_1_1_diamond_bounds" ],
     [ "DiamondPortalShell", "class_acts_1_1_diamond_portal_shell.html", "class_acts_1_1_diamond_portal_shell" ],
@@ -315,7 +198,7 @@ var namespace_acts =
     [ "ExtentEnvelope", "struct_acts_1_1_extent_envelope.html", "struct_acts_1_1_extent_envelope" ],
     [ "FiniteStateMachine", "class_acts_1_1_finite_state_machine.html", "class_acts_1_1_finite_state_machine" ],
     [ "FixedSubspaceHelper", "class_acts_1_1_fixed_subspace_helper.html", "class_acts_1_1_fixed_subspace_helper" ],
-    [ "ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", "struct_acts_1_1_forced_surface_reached" ],
+    [ "ForcedSurfaceReached", "struct_acts_1_1_forced_surface_reached.html", null ],
     [ "Frustum", "class_acts_1_1_frustum.html", "class_acts_1_1_frustum" ],
     [ "FsmwMode1dFinder", "class_acts_1_1_fsmw_mode1d_finder.html", "class_acts_1_1_fsmw_mode1d_finder" ],
     [ "FullBilloirVertexFitter", "class_acts_1_1_full_billoir_vertex_fitter.html", "class_acts_1_1_full_billoir_vertex_fitter" ],
@@ -362,7 +245,7 @@ var namespace_acts =
     [ "IConfinedTrackingVolumeBuilder", "class_acts_1_1_i_confined_tracking_volume_builder.html", "class_acts_1_1_i_confined_tracking_volume_builder" ],
     [ "IExperimentCuts", "class_acts_1_1_i_experiment_cuts.html", "class_acts_1_1_i_experiment_cuts" ],
     [ "IGrid", "class_acts_1_1_i_grid.html", "class_acts_1_1_i_grid" ],
-    [ "IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", "struct_acts_1_1_i_grid_material_accessor" ],
+    [ "IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", null ],
     [ "IGridSurfaceMaterial", "class_acts_1_1_i_grid_surface_material.html", "class_acts_1_1_i_grid_surface_material" ],
     [ "IGridSurfaceMaterialBase", "class_acts_1_1_i_grid_surface_material_base.html", null ],
     [ "ILayerArrayCreator", "class_acts_1_1_i_layer_array_creator.html", "class_acts_1_1_i_layer_array_creator" ],
@@ -823,15 +706,7 @@ var namespace_acts =
     [ "VolumeBoundFactory", "namespace_acts.html#aca88659ee97e667013784c4fac8475f2", null ],
     [ "VolumeMaterialMaps", "namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04", null ],
     [ "volumeMaterialPointer", "group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae", null ],
-    [ "AlignmentIndices", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159", [
-      [ "eAlignmentCenter0", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159aaef292026444af947478c571db012acd", null ],
-      [ "eAlignmentCenter1", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159ac75845e02a00fcf3d8a1e8579b550f06", null ],
-      [ "eAlignmentCenter2", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159a617f7adc10f363908f07af4ec7bc8633", null ],
-      [ "eAlignmentRotation0", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159a597a8de9dee10809695ff4bd6df486d4", null ],
-      [ "eAlignmentRotation1", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159a8ad05c974aec053517f0da995ba14d1d", null ],
-      [ "eAlignmentRotation2", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159ad497001f2d872027a1ee296173d125ef", null ],
-      [ "eAlignmentSize", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159a99b77fdc7d20ab5e468aae94c722a989", null ]
-    ] ],
+    [ "AlignmentIndices", "namespace_acts.html#a578206dbf1d765d06d19c1ec233a4159", null ],
     [ "AxisBoundaryType", "namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7", [
       [ "Open", "namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7ac3bf447eabe632720a3aa1a7ce401274", null ],
       [ "Bound", "namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7a685d1f2146dd079015e81918414e8971", null ],
@@ -839,8 +714,6 @@ var namespace_acts =
     ] ],
     [ "AxisDirection", "namespace_acts.html#a1462738699cb376ae92c59811987f4ea", [
       [ "AxisX", "namespace_acts.html#a1462738699cb376ae92c59811987f4eaa38b0844100a915cd3c87159b391161b9", null ],
-      [ "AxisY", "namespace_acts.html#a1462738699cb376ae92c59811987f4eaab30a50c686982b3b209cf1234f4247cd", null ],
-      [ "AxisZ", "namespace_acts.html#a1462738699cb376ae92c59811987f4eaadd1071c1aa89157c2386d3303413218f", null ],
       [ "AxisR", "namespace_acts.html#a1462738699cb376ae92c59811987f4eaa66964a770b69520967ff845d6a141d7b", null ],
       [ "AxisPhi", "namespace_acts.html#a1462738699cb376ae92c59811987f4eaa767ac49408b49422cdfdfa90582e7c50", null ],
       [ "AxisRPhi", "namespace_acts.html#a1462738699cb376ae92c59811987f4eaaac2cc7059f8482e8c68cc9849e8a9883", null ],
@@ -852,58 +725,11 @@ var namespace_acts =
       [ "Equidistant", "namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52", null ],
       [ "Variable", "namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa47c14840d8e15331fa420b9b2f757cd9", null ]
     ] ],
-    [ "BinningOption", "namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769", [
-      [ "open", "namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769a67f93521db5cc254387b8e1437c0691e", null ],
-      [ "closed", "namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769a612c34ec7764ae1c94b0382e8bd7534c", null ]
-    ] ],
-    [ "BinningType", "namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81", [
-      [ "equidistant", "namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a04ff25f891b11a721d2e600256a072fe", null ],
-      [ "arbitrary", "namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81a3fb230d5b902fe93692b1f49e7175330", null ]
-    ] ],
-    [ "BoundarySurfaceFace", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3", [
-      [ "negativeFaceXY", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a5d700bbf3210b96dff5d012da022356e", null ],
-      [ "positiveFaceXY", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a3badb5ad699267cc1a28104441d94b54", null ],
-      [ "negativeFaceYZ", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a3294c592ff615ee3c44b46e7efc22127", null ],
-      [ "positiveFaceYZ", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a4e27416cba7eb8a49ab97d922973dc4d", null ],
-      [ "negativeFaceZX", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a2bb138735d0be5d1b535262344472a62", null ],
-      [ "positiveFaceZX", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3ab2b6bf00a36b9daf9c8ecef5bbf9f5fe", null ],
-      [ "cylinderCover", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a43c803702f6b49fe865151617ae1cf81", null ],
-      [ "tubeInnerCover", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3ae9823396740c5ac0ec5530c5f5f692ef", null ],
-      [ "tubeOuterCover", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3aceff7580baab43d7f4b284d71e76dd2c", null ],
-      [ "tubeSectorNegativePhi", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a486df768d6da0470744a1061c973ea17", null ],
-      [ "tubeSectorPositivePhi", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3afeaf47f7a139d2f5fe67a66429d62e49", null ],
-      [ "tubeSectorInnerCover", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3af68f13975eeb1abccb155ef5b06c09ea", null ],
-      [ "tubeSectorOuterCover", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3ac40da2094a0ce562c252a8f883c4439c", null ],
-      [ "trapezoidFaceAlpha", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a5161a0d6a21c039846664ebcb9f10ad5", null ],
-      [ "trapezoidFaceBeta", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3aba35a7a655d5560cbbcbb657680e4089", null ],
-      [ "index0", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a0f93dcc0cf89a91eed40a82af3184e72", null ],
-      [ "index1", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a0b93936a59efef879bf69ab34f755964", null ],
-      [ "index2", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a312584e16590945fb13813268f963d4a", null ],
-      [ "index3", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3ac618d3184185f1567e2af0bf1e196189", null ],
-      [ "index4", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3ab5d6337bb7ba571539ca9fe73132dd70", null ],
-      [ "index5", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a34dc1389401d5d65bc4a1afb71e0f898", null ],
-      [ "index6", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a3285c51c14f80248857d027ba6306b32", null ],
-      [ "index7", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a658371a18be45142005f224715810b79", null ],
-      [ "index8", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a3f62b73ba16ca67d539b0eea46f82564", null ],
-      [ "index9", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3a6322b794b9e4e6e6934526a2ed3651ad", null ],
-      [ "index10", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3ae71bbf8540421d745ac7154811ae8181", null ],
-      [ "index11", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3adf5b663d9a4d3b2593032dcaebfac7a9", null ],
-      [ "undefinedFace", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3af0f501d6c9600e66c267af09f0574e8a", null ]
-    ] ],
-    [ "BoundIndices", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7", [
-      [ "eBoundLoc0", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a319222836e2703f23f7abbec507ea82e", null ],
-      [ "eBoundLoc1", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a4259ac51b5652240e3102b8f32de1e58", null ],
-      [ "eBoundPhi", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a66c6483e3948c3bf8284289300e30375", null ],
-      [ "eBoundTheta", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a9ca150ef5e671d4463771fb250fffdb7", null ],
-      [ "eBoundQOverP", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a4391499f36e0f4817927d2bca12ece83", null ],
-      [ "eBoundTime", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a31c17ef85d34327f7da749b96b1f0f5f", null ],
-      [ "eBoundSize", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7a5db0a5bb5e8e9b2b691dbab14f6168b8", null ]
-    ] ],
-    [ "CombinatorialKalmanFilterBranchStopperResult", "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b", [
-      [ "Continue", "group__track__finding.html#ggaeebbf038ee135dbf867fe05d0f61d09baa0bfb8e59e6c13fc8d990781f77694fe", null ],
-      [ "StopAndDrop", "group__track__finding.html#ggaeebbf038ee135dbf867fe05d0f61d09ba1d92ea9652ee828fa2b40c68b9fe8623", null ],
-      [ "StopAndKeep", "group__track__finding.html#ggaeebbf038ee135dbf867fe05d0f61d09badbf311296df3376417089a7fb1da6ffd", null ]
-    ] ],
+    [ "BinningOption", "namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769", null ],
+    [ "BinningType", "namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81", null ],
+    [ "BoundarySurfaceFace", "namespace_acts.html#a324b54b2d52fbc9244d94e305d9203d3", null ],
+    [ "BoundIndices", "namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7", null ],
+    [ "CombinatorialKalmanFilterBranchStopperResult", "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b", null ],
     [ "CombinatorialKalmanFilterError", "group__errors.html#ga5708898bc604b9dfedc12319218b8c1b", [
       [ "UpdateFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab1699d129532c7c6294a1f26fd4032d9", null ],
       [ "SmoothFailed", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab91834cc99e0c4508dfebaadb2980b7c", null ],
@@ -912,113 +738,39 @@ var namespace_acts =
       [ "PropagationReachesMaxSteps", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1bacad57a44b12889a25020a697b8b3aa25", null ],
       [ "NoMeasurementExpected", "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82", null ]
     ] ],
-    [ "ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", [
-      [ "eMean", "group__track__fitting.html#gga920082397516a41a551b2a9883131d66a3777ecb542bc8383bb318326dc78543d", null ],
-      [ "eMaxWeight", "group__track__fitting.html#gga920082397516a41a551b2a9883131d66a94c1ac5c5a71671cad67049d837a4da7", null ]
-    ] ],
-    [ "CoordinateIndices", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecc", [
-      [ "ePos0", "namespace_acts.html#a07a86fac65395a5f95452259e7872eccac46dd3bdcb88e54d86077aa499e4a84d", null ],
-      [ "ePos1", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca85bf6038f2eee2fb999303930ca53005", null ],
-      [ "ePos2", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca1485bf9e3844cb8613b7c8a3db1a8658", null ],
-      [ "eTime", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca42f43e4f9334887d02a4f321975e5af3", null ],
-      [ "eMom0", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca2499a9f1c7c7c4479671ef8460cae0fb", null ],
-      [ "eMom1", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca46e52afdf781a6081758894aa7b932f1", null ],
-      [ "eMom2", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca8254871e7ee04710d4c9b89ad973bc2d", null ],
-      [ "eEnergy", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca8d77cea2a8b00c8305dc21dc92c19620", null ],
-      [ "eX", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca14506a1394164c5803e7f6db4e7a225b", null ],
-      [ "eY", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecca044d957dc4b3a5e03bbc2f48fe6c143d", null ],
-      [ "eZ", "namespace_acts.html#a07a86fac65395a5f95452259e7872eccac492522bc7badaffc0024a54070e5a97", null ]
-    ] ],
-    [ "DelegateType", "namespace_acts.html#abd2611d6c7dda89bd26dd00c64538490", [
-      [ "Owning", "namespace_acts.html#abd2611d6c7dda89bd26dd00c64538490ae0fdb994c5952ea712f1509aeb7ba380", null ],
-      [ "NonOwning", "namespace_acts.html#abd2611d6c7dda89bd26dd00c64538490a64a6a344ccce441462a47f08e206df86", null ]
-    ] ],
-    [ "DetectorMeasurementInfo", "namespace_acts.html#a940f149b53e1e3b9e3c4302f082e0fe9", [
-      [ "eDefault", "namespace_acts.html#a940f149b53e1e3b9e3c4302f082e0fe9aaf71f03861810014d736fcbae9d6050e", null ],
-      [ "eDetailed", "namespace_acts.html#a940f149b53e1e3b9e3c4302f082e0fe9acaf83905292e2bacf405591fb8b79727", null ]
-    ] ],
+    [ "ComponentMergeMethod", "group__track__fitting.html#ga920082397516a41a551b2a9883131d66", null ],
+    [ "CoordinateIndices", "namespace_acts.html#a07a86fac65395a5f95452259e7872ecc", null ],
+    [ "DelegateType", "namespace_acts.html#abd2611d6c7dda89bd26dd00c64538490", null ],
+    [ "DetectorMeasurementInfo", "namespace_acts.html#a940f149b53e1e3b9e3c4302f082e0fe9", null ],
     [ "EigenStepperError", "group__errors.html#ga21cb0f3d4dc02db3af0291385e70d4e0", [
       [ "StepSizeStalled", "group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0ac96e8be3a0e8b6f5dd6d219249a81180", null ],
       [ "StepInvalid", "group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0adec88b388126e180a1d7807815c6c8dd", null ],
       [ "StepSizeAdjustmentFailed", "group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0a2c4a5f9ada6b6941b6f25ba17affbab7", null ]
     ] ],
-    [ "FreeIndices", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92c", [
-      [ "eFreePos0", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca4f1d0ebd2431f946d8f901bac6617db9", null ],
-      [ "eFreePos1", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca45d56ebce4df7ade3176b2c0b6e6c90e", null ],
-      [ "eFreePos2", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca5a25393ea9eb37898e45369ea02ae6fd", null ],
-      [ "eFreeTime", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca73bbfd1eb6084375bbd8cf207abcf2d2", null ],
-      [ "eFreeDir0", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca3994d4b5c6c143561e23cd964d61f916", null ],
-      [ "eFreeDir1", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca21c44b4c6040114e447c024a5bdc4c88", null ],
-      [ "eFreeDir2", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92cac12a01ff06374c51606d4761c1ff0421", null ],
-      [ "eFreeQOverP", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92cab2fad9ef29e2cec612213d6174338fed", null ],
-      [ "eFreeSize", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92ca15f9e9d870d2680cc3dfdd89c7a609cd", null ]
-    ] ],
+    [ "FreeIndices", "namespace_acts.html#a6c086a09086424ffb3ace68710e8e92c", null ],
     [ "GsfError", "group__errors.html#ga83f8b59ffc557631bb7fdd01c18431ca", [
       [ "StartParametersHaveNoCovariance", "group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caacd3ce8112cc132a6786646eff9689454", null ],
       [ "NoMeasurementStatesCreatedForward", "group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa6d0086586e767bdd2adbe51bfe8a6a51", null ],
       [ "NoMeasurementStatesCreatedBackward", "group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa77854eb69cd722eed562c1deaf1db15f", null ],
       [ "NoMeasurementStatesCreatedFinal", "group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa78b62f76aa8053db68df72c21e0c71fa", null ]
     ] ],
-    [ "HadronType", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973c", [
-      [ "Hadron", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca05fd33582850f21e2bac245a57bbcae3", null ],
-      [ "BBbarMeson", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca18a3f4d13a168be3fdc6e6760c9d70c8", null ],
-      [ "CCbarMeson", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973cafe4b1b6a56ba9f1d9b3c68b9fd4fd050", null ],
-      [ "BottomMeson", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973cabda747bb379bd7a6c7c91ae3e0c9ad6d", null ],
-      [ "BottomBaryon", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca3d0d31ea59ea13b6d0e3ce5cfba8ba0e", null ],
-      [ "CharmedMeson", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973caeb2955155f246ef86400cc8045f3c18a", null ],
-      [ "CharmedBaryon", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca36871f11d12474317be626854e8335c8", null ],
-      [ "StrangeMeson", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca15b2a12bd2d6241cabca2a828dc01f63", null ],
-      [ "StrangeBaryon", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973caf0cd241c4882b44a45437d98659451ad", null ],
-      [ "LightMeson", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973caaf0ffccf43f99415f875121886d30ce3", null ],
-      [ "LightBaryon", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca1c084319d0244f24aa37338cbc757308", null ],
-      [ "Unknown", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973ca88183b946cc5f0e8c96b2e66e1c74a7e", null ]
-    ] ],
-    [ "IntersectionStatus", "namespace_acts.html#a52191edec34daa17746d1937fb06c1fb", [
-      [ "unreachable", "namespace_acts.html#a52191edec34daa17746d1937fb06c1fbab748f56cf76526f8606d7463b9df9f2e", null ],
-      [ "reachable", "namespace_acts.html#a52191edec34daa17746d1937fb06c1fbaa0fefe3b7423f88d38b84c1558ed4880", null ],
-      [ "onSurface", "namespace_acts.html#a52191edec34daa17746d1937fb06c1fbab03a0aa5a9868274aece083944113f96", null ]
-    ] ],
+    [ "HadronType", "namespace_acts.html#af38a8ff832aa2393884b0dbed498973c", null ],
+    [ "IntersectionStatus", "namespace_acts.html#a52191edec34daa17746d1937fb06c1fb", null ],
     [ "KalmanFitterError", "group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd", [
       [ "UpdateFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bdddab1699d129532c7c6294a1f26fd4032d9", null ],
       [ "SmoothFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bdddab91834cc99e0c4508dfebaadb2980b7c", null ],
       [ "OutputConversionFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9a1dae01a56ad58a9db7ea93bb3c7a1c", null ],
       [ "NoMeasurementFound", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda0a5bbca22e12682affb21d70ecb3c465", null ],
-      [ "ReversePropagationFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9", null ],
-      [ "InconsistentTrackStates", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda9d3db6a24d28f29f1ffa6c8ce8606971", null ]
+      [ "ReversePropagationFailed", "group__errors.html#ggac3f65a46059b0f9516370f5bdcb9bddda210024a5a0be9f5a6cd5824097e286e9", null ]
     ] ],
-    [ "LayerType", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873", [
-      [ "navigation", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873a7eee8a5290452963e3934c132a800094", null ],
-      [ "passive", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873a75938f0b93068f7d9012f32aff225069", null ],
-      [ "active", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873aff33a3aaf8fc2bb1ae64bf505338a843", null ]
-    ] ],
-    [ "LinIndices", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53", [
-      [ "eLinPos0", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53ab61ccb9775fba63767ea82991f2a4aa8", null ],
-      [ "eLinPos1", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53a69def383f20e8b9915d8ef079cf9b5fc", null ],
-      [ "eLinPos2", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53afdcdc15b4f318d666f6054195345ddf5", null ],
-      [ "eLinTime", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53a964cd218b4f8977c94a74127040f4889", null ],
-      [ "eLinPhi", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53aaaebd448f83490d1a3aab1754d7c86c8", null ],
-      [ "eLinTheta", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53aa502ce288aaa601d0c5ed8b50f8842bc", null ],
-      [ "eLinQOverP", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53a1fa05a18a7a067f7f835e59deb2343d8", null ],
-      [ "eLinSize", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53a032dc8fb65e403795ae6c9d212a9ec99", null ],
-      [ "eLinPosSize", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53a286de5443484550d3526a78083ac78e9", null ],
-      [ "eLinMomSize", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53a535cc24e8940862d22a62dad726a2d22", null ]
-    ] ],
+    [ "LayerType", "namespace_acts.html#ab59015c67d930641de6f1bb7e31e2873", null ],
+    [ "LinIndices", "namespace_acts.html#ad7711ff8b0a2ed1a71deaa920bf8de53", null ],
     [ "MagneticFieldError", "group__errors.html#ga62dad9323721a81699d3f7fdca7a9f91", [
       [ "OutOfBounds", "group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a46dc1018ac1d8fca7c2752a61ce2fd0f", null ],
       [ "NotImplemented", "group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a997ca4ce119685f40f03a9a8a6c5346e", null ]
     ] ],
-    [ "MappingType", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807", [
-      [ "PreMapping", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807a1a9a35440a7b1d8ee68c4963c7b8ac05", null ],
-      [ "Default", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807a7a1920d61156abc05a60135aefe8bc67", null ],
-      [ "PostMapping", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807a628a043cfe1c965f3cab0020b7030792", null ],
-      [ "Sensor", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807a06b185256c71c1aec263c6e22bf8ef6b", null ]
-    ] ],
-    [ "MaterialUpdateMode", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726", [
-      [ "NoUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726af3413da9e97ed78dada82d1330fde5f1", null ],
-      [ "PreUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726a4d6938dc46ac97dde005fab44a01386c", null ],
-      [ "PostUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726ad1265336b66d91a1fc4f5904e34591f4", null ],
-      [ "FullUpdate", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726a6d52930efc1d9c5bdf5424d98f7cd0dd", null ]
-    ] ],
+    [ "MappingType", "namespace_acts.html#acbcb835a6b809a5f8606de4b53455807", null ],
+    [ "MaterialUpdateMode", "namespace_acts.html#a220af422d8795c920a43cf9048fc4726", null ],
     [ "MultiStepperError", "group__errors.html#gaf2646ee646a0b70b9c7ebe6e7f473629", [
       [ "ComponentNotOnSurface", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629a5eaae0a19b450f5e78e7c92df5993ae5", null ],
       [ "StateOfMultipleComponentsRequested", "group__errors.html#ggaf2646ee646a0b70b9c7ebe6e7f473629acb4aac268e70e319ab0f9c729892e841", null ],
@@ -1032,44 +784,8 @@ var namespace_acts =
       [ "NotOnExpectedSurface", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a", null ],
       [ "NoStartVolume", "group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2", null ]
     ] ],
-    [ "NoiseUpdateMode", "namespace_acts.html#ae866cb8853468d56eec07abde7529017", [
-      [ "removeNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017af330426f81070d60d83672c606c8e40f", null ],
-      [ "addNoise", "namespace_acts.html#ae866cb8853468d56eec07abde7529017a3d6ae94c7164ae1bf0349750d9ccd172", null ]
-    ] ],
-    [ "PdgParticle", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45a", [
-      [ "eInvalid", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa13a6d0b0ebf11ef63492283b62f06980", null ],
-      [ "eElectron", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa37d22ad8c1c4d8f9978fb361dc0afd97", null ],
-      [ "eAntiElectron", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa7ad9d5e84f03e12c6975bd9d777b2bae", null ],
-      [ "ePositron", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa2fb00d1e473c1551df098fbec5799821", null ],
-      [ "eMuon", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aabd17e2bdce82e55f45068a7d2b2f9b7d", null ],
-      [ "eAntiMuon", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa54358b25b4d27f147aca846e51ebcd64", null ],
-      [ "eTau", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa98d074094e790340c26424143eed5027", null ],
-      [ "eAntiTau", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aaa4c0641c077f3dd69c074c61e32f6aa0", null ],
-      [ "eGamma", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa93b2449a6d5111598190a4c5ee9aa9f4", null ],
-      [ "ePionZero", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aaf1358b190ecf758556ccc6487184f6d0", null ],
-      [ "ePionPlus", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aaf08fabfa0dde26e4cc054f5628edf9da", null ],
-      [ "ePionMinus", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa3540c2184257b4bb0fbfabf3d04a6703", null ],
-      [ "eKaonPlus", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aacae7f3de2b60dfc8d6d8bff99a7d5992", null ],
-      [ "eKaonMinus", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa9f390790c94434763ff0a21a3543c1b2", null ],
-      [ "eNeutron", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa53098b2a6aa14ce2fa1d6d0a6850ebd2", null ],
-      [ "eAntiNeutron", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa2887b3f033a578994325bd49bd918b16", null ],
-      [ "eProton", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aadaa2c708e4438ed9b8c0146c5c2e7b47", null ],
-      [ "eAntiProton", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aaffdb7d1ac82a29b8a83b4356f2302a1a", null ],
-      [ "eLead", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa2c1d791271000b6be35a03f5174fc05c", null ],
-      [ "eJPsi", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aae10b772b24a08619b6fac59a704cffc3", null ],
-      [ "eB0", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa8f0bbf2aca73f4ace66a179b8f4a69e7", null ],
-      [ "eBPlus", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aadbf51e07b8eb6e3142922ef908362a87", null ],
-      [ "eD0", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aab6968f1400c64c29c7cb6a71885cf301", null ],
-      [ "eDPlus", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa65e442ad8935aa7f1282d63903279639", null ],
-      [ "eAntiB0", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa21c3e8341cb36bb0b70e32c7b6182e60", null ],
-      [ "eAntiD0", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aab990975b83ba30997cce3ec1a694aa59", null ],
-      [ "eNeutrinoE", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa349ae6e855149993b77aa6dc43972357", null ],
-      [ "eNeutrinoMu", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa7dae5dacbd97034404b762d7f6f6e1af", null ],
-      [ "eNeutrinoTau", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aac1c88472c153a63ab704929618b8db94", null ],
-      [ "eAntiNeutrinoE", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa23ea58bf613804f599e55e53b2317512", null ],
-      [ "eAntiNeutrinoMu", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aaf488ada9f417f7d9bebfbee0311e6723", null ],
-      [ "eAntiNeutrinoTau", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45aa08d9b0340d013b6b8a82c9b2ab1fbe5f", null ]
-    ] ],
+    [ "NoiseUpdateMode", "namespace_acts.html#ae866cb8853468d56eec07abde7529017", null ],
+    [ "PdgParticle", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45a", null ],
     [ "PortalError", "group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459", [
       [ "PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ]
     ] ],
@@ -1085,10 +801,7 @@ var namespace_acts =
       [ "preStep", "namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05baac36043718849057413af081e5880a60", null ],
       [ "postStep", "namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05ba6611d3ea55ba2b9a3c8daeec0e77a35f", null ]
     ] ],
-    [ "SpacePointCandidateType", "namespace_acts.html#a71eb0dc21ee83a011a86dbd801338057", [
-      [ "eBottom", "namespace_acts.html#a71eb0dc21ee83a011a86dbd801338057a776f50b8d2af1233e8900eb42f93adab", null ],
-      [ "eTop", "namespace_acts.html#a71eb0dc21ee83a011a86dbd801338057ae64af3a3ced78854860e9eccf0322873", null ]
-    ] ],
+    [ "SpacePointCandidateType", "namespace_acts.html#a71eb0dc21ee83a011a86dbd801338057", null ],
     [ "SpacePointColumns", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c", [
       [ "None", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "SourceLinks", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca3084fee3544f80ff6a40e639984e89f9", null ],
@@ -1134,15 +847,6 @@ var namespace_acts =
       [ "firstOrLast", "namespace_acts.html#a086febf882ea487434374ef548a90661a6fc382933a0480bdfa5eb85b743e3018", null ]
     ] ],
     [ "TrackStateFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4", [
-      [ "MeasurementFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a5ab907035771b249eef1898aee9eef27", null ],
-      [ "ParameterFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4ad1de22774063b4af412d38b0554ff29b", null ],
-      [ "OutlierFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a1e43a5994f81bfccaf097ae3ad4b8f7e", null ],
-      [ "HoleFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a84ab1a6dc81dc1f5ab85f8d812aaeca6", null ],
-      [ "MaterialFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a9136cf7a1d0a21c97850c49311c07716", null ],
-      [ "SharedHitFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4aafd19fb5a95678c118ef0f2946cfa99e", null ],
-      [ "SplitHitFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4ad6a9206c22759effaccc634594bb94c9", null ],
-      [ "NoExpectedHitFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a88412a77548f9def03338ae55ad40405", null ],
-      [ "NumTrackStateFlags", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4af6d46816e7748c171424ba4de1ee561c", null ],
       [ "HasMeasurement", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a378bc5ffc9b6aeb75399a803eecc0606", null ],
       [ "HasParameters", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4aec34ce78b3e909951ac2be05b24ca2f7", null ],
       [ "IsOutlier", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4ac091b63e04092df48392563e5215adf0", null ],
@@ -1153,15 +857,7 @@ var namespace_acts =
       [ "HasNoExpectedHit", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a58293ad622b967205faf98457b729118", null ],
       [ "NumFlags", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a8930fc61ddc873c5a81bfb1b5a236849", null ]
     ] ],
-    [ "TrackStatePropMask", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2", [
-      [ "None", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "Predicted", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2a015e111693f10da4f3fc32814a41e7ad", null ],
-      [ "Filtered", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2afe84ed3d6baffd193df85d308e5e908c", null ],
-      [ "Smoothed", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ac5d48c613aa395e2f92d06e97b85aa97", null ],
-      [ "Jacobian", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ae54aa0f510685bd0be4cbe3750fa7fc5", null ],
-      [ "Calibrated", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2aa4002a60656b604f448b7794842c8fb4", null ],
-      [ "All", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
-    ] ],
+    [ "TrackStatePropMask", "namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2", null ],
     [ "VertexingError", "group__errors.html#ga1f61f3856fa7ffded6d06723801cf8e6", [
       [ "NumericFailure", "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93", null ],
       [ "EmptyInput", "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6ace1e7d82baa32665deec88097ce70f3e", null ],
@@ -1310,7 +1006,6 @@ var namespace_acts =
     [ "isFreeVectorValid", "namespace_acts.html#abe77e44cea219bce9c03f8b2344bebaa", null ],
     [ "isNucleus", "namespace_acts.html#a0dad26c0de75201a5b5d1fe7ce6c88e3", null ],
     [ "joinStrings", "namespace_acts.html#aac11e8ec3784f7325583119c7b36bb06", null ],
-    [ "joinStrings", "namespace_acts.html#a1d589f70433525252ee4e7a5c412ac44", null ],
     [ "joinStrings", "namespace_acts.html#addbd41a294e15a0ec2b8c05ef65a6552", null ],
     [ "localIndices", "namespace_acts.html#af0aae08c33000aa753f3f047c0258722", null ],
     [ "make_error_code", "namespace_acts.html#a76fa69095a6c107291628ba01d426ddb", null ],

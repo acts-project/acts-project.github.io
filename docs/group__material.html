@@ -138,6 +138,7 @@ Classes</h2></td></tr>
 <tr class="memitem:Acts_3A_3AAtlasBetheHeitlerApprox" id="r_Acts_3A_3AAtlasBetheHeitlerApprox"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class approximates the Bethe-Heitler distribution as a gaussian mixture.  <a href="class_acts_1_1_atlas_bethe_heitler_approx.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3ABetheHeitlerApprox" id="r_Acts_3A_3ABetheHeitlerApprox"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_bethe_heitler_approx.html">Acts::BetheHeitlerApprox</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for Bethe-Heitler Gaussian mixture approximations.  <a href="class_acts_1_1_bethe_heitler_approx.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3ABetheHeitlerApproxSingleCmp" id="r_Acts_3A_3ABetheHeitlerApproxSingleCmp"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_bethe_heitler_approx_single_cmp.html">Acts::BetheHeitlerApproxSingleCmp</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class approximates the Bethe-Heitler with only one component.  <a href="class_acts_1_1_bethe_heitler_approx_single_cmp.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3ABinnedSurfaceMaterial" id="r_Acts_3A_3ABinnedSurfaceMaterial"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_binned_surface_material.html">Acts::BinnedSurfaceMaterial</a></td></tr>
@@ -196,8 +197,9 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:gaad5c814e3aa3cfb77dd2dc46abc2099b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for surface material indexed by local coordinates.  <br /></td></tr>
 <tr class="memitem:gadfa3ab1557fc9f1b6d7227d617a1ef4f" id="r_gadfa3ab1557fc9f1b6d7227d617a1ef4f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadfa3ab1557fc9f1b6d7227d617a1ef4f">Acts::ProtoGridSurfaceMaterial</a></td></tr>
 <tr class="memdesc:gadfa3ab1557fc9f1b6d7227d617a1ef4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a prototype surface material using a grid of ProtoAxis A surface material implementation that uses a vector of ProtoAxis for grid-based binning.  <br /></td></tr>
-<tr class="memitem:gabad517c3d330be68557175bbe3e71402" id="r_gabad517c3d330be68557175bbe3e71402"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabad517c3d330be68557175bbe3e71402">Acts::ProtoSurfaceMaterial</a> = <a class="el" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT</a>&lt;<a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a>&gt;</td></tr>
-<tr class="memdesc:gabad517c3d330be68557175bbe3e71402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a prototype surface material using BinUtility A surface material implementation that uses BinUtility for binning.  <br /></td></tr>
+<tr class="memitem:gabad517c3d330be68557175bbe3e71402" id="r_gabad517c3d330be68557175bbe3e71402"><td class="memItemLeft" align="right" valign="top"><a id="gabad517c3d330be68557175bbe3e71402" name="gabad517c3d330be68557175bbe3e71402"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::ProtoSurfaceMaterial</b> = <a class="el" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT</a>&lt;<a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a>&gt;</td></tr>
+<tr class="memdesc:gabad517c3d330be68557175bbe3e71402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a prototype surface material using BinUtility A surface material implementation that uses BinUtility for binning. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -294,22 +296,6 @@ template&lt;typename grid_type&gt; </div>
 <div class="ttc" id="aclass_acts_1_1_proto_surface_material_t_html"><div class="ttname"><a href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a></div><div class="ttdoc">proxy to SurfaceMaterial hand over BinUtility or other suitable binning description</div><div class="ttdef"><b>Definition</b> ProtoSurfaceMaterial.hpp:34</div></div>
 </div><!-- fragment -->
 <p>Type alias for a prototype surface material using a grid of ProtoAxis A surface material implementation that uses a vector of ProtoAxis for grid-based binning. </p>
-
-</div>
-</div>
-<a id="gabad517c3d330be68557175bbe3e71402" name="gabad517c3d330be68557175bbe3e71402"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabad517c3d330be68557175bbe3e71402">&#9670;&#160;</a></span>ProtoSurfaceMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#gabad517c3d330be68557175bbe3e71402">Acts::ProtoSurfaceMaterial</a> = <a class="el" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT</a>&lt;<a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type alias for a prototype surface material using BinUtility A surface material implementation that uses BinUtility for binning. </p>
 
 </div>
 </div>

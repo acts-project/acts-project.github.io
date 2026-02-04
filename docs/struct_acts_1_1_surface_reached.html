@@ -143,7 +143,6 @@ Collaboration diagram for Acts::SurfaceReached:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9aed839f90509f81732336d54a4865d" id="r_ad9aed839f90509f81732336d54a4865d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9aed839f90509f81732336d54a4865d">SurfaceReached</a> ()=default</td></tr>
 <tr class="memitem:af663217706f0d220d408ca1722b41da0" id="r_af663217706f0d220d408ca1722b41da0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af663217706f0d220d408ca1722b41da0">SurfaceReached</a> (double nLimit)</td></tr>
 <tr class="memdesc:af663217706f0d220d408ca1722b41da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with custom near limit.  <br /></td></tr>
 <tr class="memitem:a6cca0b47bff733f04213a8ac01e41200" id="r_a6cca0b47bff733f04213a8ac01e41200"><td class="memTemplParams" colspan="2">template&lt;typename propagator_state_t, typename stepper_t, typename navigator_t&gt; </td></tr>
@@ -152,43 +151,20 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2e157d743eba564961eac741c2b492ee" id="r_a2e157d743eba564961eac741c2b492ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e157d743eba564961eac741c2b492ee">boundaryTolerance</a> = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td></tr>
-<tr class="memdesc:a2e157d743eba564961eac741c2b492ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary tolerance for surface intersection checks.  <br /></td></tr>
+<tr class="memitem:a2e157d743eba564961eac741c2b492ee" id="r_a2e157d743eba564961eac741c2b492ee"><td class="memItemLeft" align="right" valign="top"><a id="a2e157d743eba564961eac741c2b492ee" name="a2e157d743eba564961eac741c2b492ee"></a>
+<a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boundaryTolerance</b> = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td></tr>
+<tr class="memdesc:a2e157d743eba564961eac741c2b492ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary tolerance for surface intersection checks. <br /></td></tr>
 <tr class="memitem:a1926ba7ff0eb8dcfc6dd6cbad5eb5a49" id="r_a1926ba7ff0eb8dcfc6dd6cbad5eb5a49"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49">nearLimit</a> = -100 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478">UnitConstants::um</a></td></tr>
 <tr class="memdesc:a1926ba7ff0eb8dcfc6dd6cbad5eb5a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance limit to discard intersections "behind us".  <br /></td></tr>
-<tr class="memitem:aff385c3a2dd335e2c82e607a6d018e7e" id="r_aff385c3a2dd335e2c82e607a6d018e7e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff385c3a2dd335e2c82e607a6d018e7e">surface</a> = nullptr</td></tr>
-<tr class="memdesc:aff385c3a2dd335e2c82e607a6d018e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target surface to reach for propagation termination.  <br /></td></tr>
+<tr class="memitem:aff385c3a2dd335e2c82e607a6d018e7e" id="r_aff385c3a2dd335e2c82e607a6d018e7e"><td class="memItemLeft" align="right" valign="top"><a id="aff385c3a2dd335e2c82e607a6d018e7e" name="aff385c3a2dd335e2c82e607a6d018e7e"></a>
+const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>surface</b> = nullptr</td></tr>
+<tr class="memdesc:aff385c3a2dd335e2c82e607a6d018e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target surface to reach for propagation termination. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the condition that the Surface has been reached it then triggers a propagation abort. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad9aed839f90509f81732336d54a4865d" name="ad9aed839f90509f81732336d54a4865d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9aed839f90509f81732336d54a4865d">&#9670;&#160;</a></span>SurfaceReached() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::SurfaceReached::SurfaceReached </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af663217706f0d220d408ca1722b41da0" name="af663217706f0d220d408ca1722b41da0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af663217706f0d220d408ca1722b41da0">&#9670;&#160;</a></span>SurfaceReached() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af663217706f0d220d408ca1722b41da0">&#9670;&#160;</a></span>SurfaceReached()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,22 +251,6 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a2e157d743eba564961eac741c2b492ee" name="a2e157d743eba564961eac741c2b492ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e157d743eba564961eac741c2b492ee">&#9670;&#160;</a></span>boundaryTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> Acts::SurfaceReached::boundaryTolerance = <a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Boundary tolerance for surface intersection checks. </p>
-
-</div>
-</div>
 <a id="a1926ba7ff0eb8dcfc6dd6cbad5eb5a49" name="a1926ba7ff0eb8dcfc6dd6cbad5eb5a49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49">&#9670;&#160;</a></span>nearLimit</h2>
 
@@ -305,22 +265,6 @@ template&lt;typename propagator_state_t, typename stepper_t, typename navigator_
 
 <p>Distance limit to discard intersections "behind us". </p>
 <dl class="section note"><dt>Note</dt><dd>this is only necessary because some surfaces have more than one intersection </dd></dl>
-
-</div>
-</div>
-<a id="aff385c3a2dd335e2c82e607a6d018e7e" name="aff385c3a2dd335e2c82e607a6d018e7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff385c3a2dd335e2c82e607a6d018e7e">&#9670;&#160;</a></span>surface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a>* Acts::SurfaceReached::surface = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Target surface to reach for propagation termination. </p>
 
 </div>
 </div>

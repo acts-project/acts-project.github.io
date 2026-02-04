@@ -111,7 +111,7 @@
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="128,-250 0,-250 0,-220 128,-220 128,-250"/>
+<polygon fill="white" stroke="#bfbfbf" points="128,-250 0,-250 0,-220 128,-220 128,-250"/>
 <text text-anchor="start" x="8" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">std::enable_shared</text>
 <text text-anchor="middle" x="64" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">_from_this&lt; Surface &gt;</text>
 </a>

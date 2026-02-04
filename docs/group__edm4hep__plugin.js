@@ -1,7 +1,5 @@
 var group__edm4hep__plugin =
 [
-    [ "ActsPlugins::EDM4hepUtil", "namespace_acts_plugins_1_1_e_d_m4hep_util.html", null ],
-    [ "ActsPlugins::PodioUtil", "namespace_acts_plugins_1_1_podio_util.html", null ],
     [ "Acts::IsReadOnlyMultiTrajectory&lt; ActsPlugins::ConstPodioTrackStateContainer &gt;", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_01_4.html", null ],
     [ "Acts::IsReadOnlyMultiTrajectory&lt; ActsPlugins::MutablePodioTrackStateContainer &gt;", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_01_4.html", null ],
     [ "Acts::IsReadOnlyTrackContainer&lt; ActsPlugins::ConstPodioTrackContainer &gt;", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_01_4.html", null ],
@@ -35,8 +33,7 @@ var group__edm4hep__plugin =
       [ "jacobian_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a83b8d426567632f42c03e7693619590e", null ],
       [ "parameters_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a67932d0a32ae4dd976ce486605f6b1ff", null ],
       [ "referenceSurface_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a470c057f4d7205cb9b24da26339e3155", null ],
-      [ "size_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a9be0f652e2d7e1cf444286e819211cf8", null ],
-      [ "PodioTrackStateContainerBase", "class_acts_plugins_1_1_const_podio_track_state_container.html#a89bcdf579e444753685603993a86be4a", null ]
+      [ "size_impl", "class_acts_plugins_1_1_const_podio_track_state_container.html#a9be0f652e2d7e1cf444286e819211cf8", null ]
     ] ],
     [ "ActsPlugins::EDM4hepUtil::SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", [
       [ "add", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#a5887de074d9113db314bf2dc4d125fc5", null ],
@@ -104,9 +101,7 @@ var group__edm4hep__plugin =
       [ "setUncalibratedSourceLink_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ac3581c4594e326d402118b383dff5afb", null ],
       [ "shareFrom_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a7f7879084696bef73176fd6a0dca08a0", null ],
       [ "size_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a9136afcd8384a3f55808dd1160859d23", null ],
-      [ "unset_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a469f1258daaf0d164a42c5d704312361", null ],
-      [ "ConstPodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ae48f5f927303f694443d9efad389f29a", null ],
-      [ "PodioTrackStateContainerBase", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a89bcdf579e444753685603993a86be4a", null ]
+      [ "unset_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a469f1258daaf0d164a42c5d704312361", null ]
     ] ],
     [ "ActsPlugins::PodioTrackContainerBase", "class_acts_plugins_1_1_podio_track_container_base.html", [
       [ "ConstCovariance", "class_acts_plugins_1_1_podio_track_container_base.html#a4c3e6f7a7d0e05319f07085c4c760252", null ],

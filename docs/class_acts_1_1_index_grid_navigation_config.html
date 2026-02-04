@@ -126,6 +126,9 @@ $(function(){initNavTree('class_acts_1_1_index_grid_navigation_config.html','','
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration for the index-grid based navigation policy.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_index_grid_navigation_policy_8hpp_source.html">Acts/Navigation/IndexGridNavigationPolicy.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::IndexGridNavigationConfig:</div>
@@ -135,48 +138,21 @@ Collaboration diagram for Acts::IndexGridNavigationConfig:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af0f42be893cc17f75e06e8b7f25dad17" id="r_af0f42be893cc17f75e06e8b7f25dad17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0f42be893cc17f75e06e8b7f25dad17">binExpansion</a> = {}</td></tr>
-<tr class="memdesc:af0f42be893cc17f75e06e8b7f25dad17"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning expansion for grid neighbor lookups.  <br /></td></tr>
-<tr class="memitem:a76a8b28cadcebfdea5008660f5981e63" id="r_a76a8b28cadcebfdea5008660f5981e63"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76a8b28cadcebfdea5008660f5981e63">referenceExpansion</a> = {}</td></tr>
-<tr class="memdesc:a76a8b28cadcebfdea5008660f5981e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference expansion.  <br /></td></tr>
+<tr class="memitem:af0f42be893cc17f75e06e8b7f25dad17" id="r_af0f42be893cc17f75e06e8b7f25dad17"><td class="memItemLeft" align="right" valign="top"><a id="af0f42be893cc17f75e06e8b7f25dad17" name="af0f42be893cc17f75e06e8b7f25dad17"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>binExpansion</b> = {}</td></tr>
+<tr class="memdesc:af0f42be893cc17f75e06e8b7f25dad17"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning expansion for grid neighbor lookups. <br /></td></tr>
+<tr class="memitem:a76a8b28cadcebfdea5008660f5981e63" id="r_a76a8b28cadcebfdea5008660f5981e63"><td class="memItemLeft" align="right" valign="top"><a id="a76a8b28cadcebfdea5008660f5981e63" name="a76a8b28cadcebfdea5008660f5981e63"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>referenceExpansion</b> = {}</td></tr>
+<tr class="memdesc:a76a8b28cadcebfdea5008660f5981e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference expansion. <br /></td></tr>
 <tr class="memitem:a677ffec43b0d7e22be9ff475380ce460" id="r_a677ffec43b0d7e22be9ff475380ce460"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="struct_acts_1_1_i_reference_generator.html">IReferenceGenerator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a677ffec43b0d7e22be9ff475380ce460">referenceGenerator</a></td></tr>
 <tr class="memdesc:a677ffec43b0d7e22be9ff475380ce460"><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference generator.  <br /></td></tr>
-<tr class="memitem:a3a110c45a99408f24d0bc8d759ed4d30" id="r_a3a110c45a99408f24d0bc8d759ed4d30"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a110c45a99408f24d0bc8d759ed4d30">surface</a> = nullptr</td></tr>
-<tr class="memdesc:a3a110c45a99408f24d0bc8d759ed4d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">A potential lookup surface - this would be intersected first, assumption is always closest forward.  <br /></td></tr>
+<tr class="memitem:a3a110c45a99408f24d0bc8d759ed4d30" id="r_a3a110c45a99408f24d0bc8d759ed4d30"><td class="memItemLeft" align="right" valign="top"><a id="a3a110c45a99408f24d0bc8d759ed4d30" name="a3a110c45a99408f24d0bc8d759ed4d30"></a>
+std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surface</b> = nullptr</td></tr>
+<tr class="memdesc:a3a110c45a99408f24d0bc8d759ed4d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">A potential lookup surface - this would be intersected first, assumption is always closest forward. <br /></td></tr>
 </table>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="af0f42be893cc17f75e06e8b7f25dad17" name="af0f42be893cc17f75e06e8b7f25dad17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0f42be893cc17f75e06e8b7f25dad17">&#9670;&#160;</a></span>binExpansion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::size_t&gt; Acts::IndexGridNavigationConfig::binExpansion = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The binning expansion for grid neighbor lookups. </p>
-
-</div>
-</div>
-<a id="a76a8b28cadcebfdea5008660f5981e63" name="a76a8b28cadcebfdea5008660f5981e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76a8b28cadcebfdea5008660f5981e63">&#9670;&#160;</a></span>referenceExpansion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; Acts::IndexGridNavigationConfig::referenceExpansion = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The reference expansion. </p>
-
-</div>
-</div>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration for the index-grid based navigation policy. </p>
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a677ffec43b0d7e22be9ff475380ce460" name="a677ffec43b0d7e22be9ff475380ce460"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a677ffec43b0d7e22be9ff475380ce460">&#9670;&#160;</a></span>referenceGenerator</h2>
 
@@ -192,22 +168,6 @@ Public Attributes</h2></td></tr>
 <div class="line">      std::make_shared&lt;PolyhedronReferenceGenerator&gt;()</div>
 </div><!-- fragment -->
 <p>The reference generator. </p>
-
-</div>
-</div>
-<a id="a3a110c45a99408f24d0bc8d759ed4d30" name="a3a110c45a99408f24d0bc8d759ed4d30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a110c45a99408f24d0bc8d759ed4d30">&#9670;&#160;</a></span>surface</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_acts_1_1_surface.html">Surface</a>&gt; Acts::IndexGridNavigationConfig::surface = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A potential lookup surface - this would be intersected first, assumption is always closest forward. </p>
 
 </div>
 </div>

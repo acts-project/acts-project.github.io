@@ -134,30 +134,40 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_cylindrical_space_poin
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Candidates" id="r_Candidates"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html">Candidates</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Candidate space point indices grouped by z ordering.  <a href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for cylindrical space point selection.  <a href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1f218d5f574a2086229523cfa168e310" id="r_a1f218d5f574a2086229523cfa168e310"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f218d5f574a2086229523cfa168e310">Dim</a> { <a class="el" href="#a1f218d5f574a2086229523cfa168e310a31fd0f3b468ba9479515b14373e32385">DimPhi</a> = 0
-, <a class="el" href="#a1f218d5f574a2086229523cfa168e310ac8716fd2234b0a81c370b0216e9525d4">DimR</a> = 1
-, <a class="el" href="#a1f218d5f574a2086229523cfa168e310ae9b879c0aecf7cfbe96378661840638d">DimZ</a> = 2
+<tr class="memitem:a1f218d5f574a2086229523cfa168e310" id="r_a1f218d5f574a2086229523cfa168e310"><td class="memItemLeft" align="right" valign="top"><a id="a1f218d5f574a2086229523cfa168e310" name="a1f218d5f574a2086229523cfa168e310"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f218d5f574a2086229523cfa168e310">Dim</a> { <b>DimPhi</b> = 0
+, <b>DimR</b> = 1
+, <b>DimZ</b> = 2
  }</td></tr>
-<tr class="memdesc:a1f218d5f574a2086229523cfa168e310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of the different dimensions in which we can apply cuts.  <a href="#a1f218d5f574a2086229523cfa168e310">More...</a><br /></td></tr>
-<tr class="memitem:a60520f46a59df158c51ea7824b2f9bbe" id="r_a60520f46a59df158c51ea7824b2f9bbe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a> = std::uint32_t</td></tr>
-<tr class="memdesc:a60520f46a59df158c51ea7824b2f9bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Space point index type used in the grid.  <br /></td></tr>
-<tr class="memitem:a7e0e9e0676ec900fc62de206564d7db7" id="r_a7e0e9e0676ec900fc62de206564d7db7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e0e9e0676ec900fc62de206564d7db7">Tree</a> = <a class="el" href="class_acts_1_1_k_d_tree.html">KDTree</a>&lt;<a class="el" href="#a8af7afc67f4d3b3e2daec071badc60c7">NDims</a>, <a class="el" href="#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>, float, std::array, 4&gt;</td></tr>
-<tr class="memdesc:a7e0e9e0676ec900fc62de206564d7db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The k-d tree type used by this seeder internally, which is three-dimensional, contains internal spacepoint pointers, uses the Acts scalar type for coordinates, stores its coordinates in std::arrays, and has leaf size 4.  <br /></td></tr>
+<tr class="memdesc:a1f218d5f574a2086229523cfa168e310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of the different dimensions in which we can apply cuts. <br /></td></tr>
+<tr class="memitem:a60520f46a59df158c51ea7824b2f9bbe" id="r_a60520f46a59df158c51ea7824b2f9bbe"><td class="memItemLeft" align="right" valign="top"><a id="a60520f46a59df158c51ea7824b2f9bbe" name="a60520f46a59df158c51ea7824b2f9bbe"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SpacePointIndex</b> = std::uint32_t</td></tr>
+<tr class="memdesc:a60520f46a59df158c51ea7824b2f9bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Space point index type used in the grid. <br /></td></tr>
+<tr class="memitem:a7e0e9e0676ec900fc62de206564d7db7" id="r_a7e0e9e0676ec900fc62de206564d7db7"><td class="memItemLeft" align="right" valign="top"><a id="a7e0e9e0676ec900fc62de206564d7db7" name="a7e0e9e0676ec900fc62de206564d7db7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Tree</b> = <a class="el" href="class_acts_1_1_k_d_tree.html">KDTree</a>&lt;<a class="el" href="#a8af7afc67f4d3b3e2daec071badc60c7">NDims</a>, <a class="el" href="#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>, float, std::array, 4&gt;</td></tr>
+<tr class="memdesc:a7e0e9e0676ec900fc62de206564d7db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The k-d tree type used by this seeder internally, which is three-dimensional, contains internal spacepoint pointers, uses the Acts scalar type for coordinates, stores its coordinates in std::arrays, and has leaf size 4. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6cdef4e496e1e7e97da4deaf1917bcd" id="r_ad6cdef4e496e1e7e97da4deaf1917bcd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6cdef4e496e1e7e97da4deaf1917bcd">CylindricalSpacePointKDTree</a> (<a class="el" href="#a7e0e9e0676ec900fc62de206564d7db7">Tree</a> tree, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;CylindricalSpacePointKDTree&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
 <tr class="memdesc:ad6cdef4e496e1e7e97da4deaf1917bcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a cylindrical space point grid with the given configuration and an optional logger.  <br /></td></tr>
 <tr class="memitem:aff66c7c642c660f01a6a46eef60cde81" id="r_aff66c7c642c660f01a6a46eef60cde81"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff66c7c642c660f01a6a46eef60cde81">begin</a> () const</td></tr>
+<tr class="memdesc:aff66c7c642c660f01a6a46eef60cde81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the beginning of the tree.  <br /></td></tr>
 <tr class="memitem:a00456439d8ef0d27f2a538e5be467841" id="r_a00456439d8ef0d27f2a538e5be467841"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00456439d8ef0d27f2a538e5be467841">end</a> () const</td></tr>
+<tr class="memdesc:a00456439d8ef0d27f2a538e5be467841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the end of the tree.  <br /></td></tr>
 <tr class="memitem:a925fc8b7e976cacc29cb879fdb2dea57" id="r_a925fc8b7e976cacc29cb879fdb2dea57"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a925fc8b7e976cacc29cb879fdb2dea57">size</a> () const</td></tr>
+<tr class="memdesc:a925fc8b7e976cacc29cb879fdb2dea57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of space points in the tree.  <br /></td></tr>
 <tr class="memitem:a9e378eb19d9e641b7cd512da40829a4c" id="r_a9e378eb19d9e641b7cd512da40829a4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905">Tree::range_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e378eb19d9e641b7cd512da40829a4c">validTupleOrthoRangeHL</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;options, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;high) const</td></tr>
+<tr class="memdesc:a9e378eb19d9e641b7cd512da40829a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get valid orthogonal range for high-low pairs.  <br /></td></tr>
 <tr class="memitem:ac97a39922ae582495c7562141301496c" id="r_ac97a39922ae582495c7562141301496c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905">Tree::range_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97a39922ae582495c7562141301496c">validTupleOrthoRangeLH</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;options, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;low) const</td></tr>
+<tr class="memdesc:ac97a39922ae582495c7562141301496c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get valid orthogonal range for low-high pairs.  <br /></td></tr>
 <tr class="memitem:a9fb7b7420241d6fa9ccc21bc5496e57d" id="r_a9fb7b7420241d6fa9ccc21bc5496e57d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fb7b7420241d6fa9ccc21bc5496e57d">validTuples</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;lhOptions, const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;hlOptions, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;spM, std::size_t nTopSeedConf, <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html">Candidates</a> &amp;candidates) const</td></tr>
+<tr class="memdesc:a9fb7b7420241d6fa9ccc21bc5496e57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find valid seed tuples.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -167,62 +177,7 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A cylindrical space point KD-tree used for seeding in a cylindrical detector geometry. </p>
 <p>The tree is defined in cylindrical coordinates (phi, r, z) and allows for efficient access to space points based on their azimuthal angle, radial distance, and z-coordinate. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a60520f46a59df158c51ea7824b2f9bbe" name="a60520f46a59df158c51ea7824b2f9bbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60520f46a59df158c51ea7824b2f9bbe">&#9670;&#160;</a></span>SpacePointIndex</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a60520f46a59df158c51ea7824b2f9bbe">Acts::Experimental::CylindricalSpacePointKDTree::SpacePointIndex</a> = std::uint32_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Space point index type used in the grid. </p>
-
-</div>
-</div>
-<a id="a7e0e9e0676ec900fc62de206564d7db7" name="a7e0e9e0676ec900fc62de206564d7db7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e0e9e0676ec900fc62de206564d7db7">&#9670;&#160;</a></span>Tree</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a7e0e9e0676ec900fc62de206564d7db7">Acts::Experimental::CylindricalSpacePointKDTree::Tree</a> = <a class="el" href="class_acts_1_1_k_d_tree.html">KDTree</a>&lt;<a class="el" href="#a8af7afc67f4d3b3e2daec071badc60c7">NDims</a>, <a class="el" href="#a60520f46a59df158c51ea7824b2f9bbe">SpacePointIndex</a>, float, std::array, 4&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The k-d tree type used by this seeder internally, which is three-dimensional, contains internal spacepoint pointers, uses the Acts scalar type for coordinates, stores its coordinates in std::arrays, and has leaf size 4. </p>
-
-</div>
-</div>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="a1f218d5f574a2086229523cfa168e310" name="a1f218d5f574a2086229523cfa168e310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f218d5f574a2086229523cfa168e310">&#9670;&#160;</a></span>Dim</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a1f218d5f574a2086229523cfa168e310">Acts::Experimental::CylindricalSpacePointKDTree::Dim</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enumeration of the different dimensions in which we can apply cuts. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1f218d5f574a2086229523cfa168e310a31fd0f3b468ba9479515b14373e32385" name="a1f218d5f574a2086229523cfa168e310a31fd0f3b468ba9479515b14373e32385"></a>DimPhi&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f218d5f574a2086229523cfa168e310ac8716fd2234b0a81c370b0216e9525d4" name="a1f218d5f574a2086229523cfa168e310ac8716fd2234b0a81c370b0216e9525d4"></a>DimR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f218d5f574a2086229523cfa168e310ae9b879c0aecf7cfbe96378661840638d" name="a1f218d5f574a2086229523cfa168e310ae9b879c0aecf7cfbe96378661840638d"></a>DimZ&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad6cdef4e496e1e7e97da4deaf1917bcd" name="ad6cdef4e496e1e7e97da4deaf1917bcd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6cdef4e496e1e7e97da4deaf1917bcd">&#9670;&#160;</a></span>CylindricalSpacePointKDTree()</h2>
 
@@ -251,6 +206,13 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Construct a cylindrical space point grid with the given configuration and an optional logger. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tree</td><td>KD tree </td></tr>
+    <tr><td class="paramname">logger</td><td>Optional logger </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -270,6 +232,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return iterator to the beginning of the tree. </p>
+<dl class="section return"><dt>Returns</dt><dd>Begin iterator </dd></dl>
+
 </div>
 </div>
 <a id="a00456439d8ef0d27f2a538e5be467841" name="a00456439d8ef0d27f2a538e5be467841"></a>
@@ -287,6 +252,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return iterator to the end of the tree. </p>
+<dl class="section return"><dt>Returns</dt><dd>End iterator </dd></dl>
+
 </div>
 </div>
 <a id="a925fc8b7e976cacc29cb879fdb2dea57" name="a925fc8b7e976cacc29cb879fdb2dea57"></a>
@@ -303,6 +271,9 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Return the number of space points in the tree. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of space points </dd></dl>
 
 </div>
 </div>
@@ -325,6 +296,16 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get valid orthogonal range for high-low pairs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>Search options </td></tr>
+    <tr><td class="paramname">high</td><td>High space point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Valid range </dd></dl>
+
 </div>
 </div>
 <a id="ac97a39922ae582495c7562141301496c" name="ac97a39922ae582495c7562141301496c"></a>
@@ -345,6 +326,16 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get valid orthogonal range for low-high pairs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>Search options </td></tr>
+    <tr><td class="paramname">low</td><td>Low space point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Valid range </dd></dl>
 
 </div>
 </div>
@@ -381,6 +372,18 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Find valid seed tuples. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhOptions</td><td>Low-high search options </td></tr>
+    <tr><td class="paramname">hlOptions</td><td>High-low search options </td></tr>
+    <tr><td class="paramname">spM</td><td>Middle space point </td></tr>
+    <tr><td class="paramname">nTopSeedConf</td><td>Number of top seed configurations </td></tr>
+    <tr><td class="paramname">candidates</td><td>Output candidates container </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

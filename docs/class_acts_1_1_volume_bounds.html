@@ -143,24 +143,22 @@ Collaboration diagram for Acts::VolumeBounds:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3840f312b207bfdd5cbbcc4ac9981495" id="r_a3840f312b207bfdd5cbbcc4ac9981495"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495">BoundsType</a> { <br />
-&#160;&#160;<a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495a9a0cd7911f39e925e5b29f602780e2c8">eCone</a>
-, <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495aa3e9dfa095ec5d399034912e501cb5b4">eCuboid</a>
-, <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495a1353c349ebba70c186c63b5abe06176e">eCutoutCylinder</a>
-, <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495adf9307543366162ca5ef664dc41df064">eCylinder</a>
+<tr class="memitem:a3840f312b207bfdd5cbbcc4ac9981495" id="r_a3840f312b207bfdd5cbbcc4ac9981495"><td class="memItemLeft" align="right" valign="top"><a id="a3840f312b207bfdd5cbbcc4ac9981495" name="a3840f312b207bfdd5cbbcc4ac9981495"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495">BoundsType</a> { <br />
+&#160;&#160;<b>eCone</b>
+, <b>eCuboid</b>
+, <b>eCutoutCylinder</b>
+, <b>eCylinder</b>
 , <br />
-&#160;&#160;<a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495a8a2fe50b80f4ee00c225d458ef41c69e">eGenericCuboid</a>
-, <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495abaf59e1244c0ccb30b4644667e4fe9b5">eTrapezoid</a>
-, <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495a473f5f5ee5e2c717fcaea06d66782ae2">eDiamond</a>
-, <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495ad4d8daafac40a4c03967f6dc9db5a717">eOther</a>
+&#160;&#160;<b>eGenericCuboid</b>
+, <b>eTrapezoid</b>
+, <b>eDiamond</b>
+, <b>eOther</b>
 <br />
  }</td></tr>
-<tr class="memdesc:a3840f312b207bfdd5cbbcc4ac9981495"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type.  <a href="#a3840f312b207bfdd5cbbcc4ac9981495">More...</a><br /></td></tr>
+<tr class="memdesc:a3840f312b207bfdd5cbbcc4ac9981495"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a51370d477bcc159f12e16df8dd772caf" id="r_a51370d477bcc159f12e16df8dd772caf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51370d477bcc159f12e16df8dd772caf">VolumeBounds</a> ()=default</td></tr>
-<tr class="memitem:a94227dab63034d4fe92166a03e287957" id="r_a94227dab63034d4fe92166a03e287957"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94227dab63034d4fe92166a03e287957">~VolumeBounds</a> ()=default</td></tr>
 <tr class="memitem:abd732eccae5655606b3e9e4a3f2ccab8" id="r_abd732eccae5655606b3e9e4a3f2ccab8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b">Volume::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd732eccae5655606b3e9e4a3f2ccab8">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> *trf=nullptr, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;envelope={0, 0, 0}, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> *entity=nullptr) const =0</td></tr>
 <tr class="memdesc:abd732eccae5655606b3e9e4a3f2ccab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:afc773796288bbb544e90f89242f182aa" id="r_afc773796288bbb544e90f89242f182aa"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc773796288bbb544e90f89242f182aa">canonicalAxes</a> () const</td></tr>
@@ -182,100 +180,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:accdf685a7cfd6aaee828b462262d2e63" id="r_accdf685a7cfd6aaee828b462262d2e63"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accdf685a7cfd6aaee828b462262d2e63">s_boundsTypeNames</a></td></tr>
-<tr class="memdesc:accdf685a7cfd6aaee828b462262d2e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static member to get the name of the BoundsType.  <br /></td></tr>
+<tr class="memitem:accdf685a7cfd6aaee828b462262d2e63" id="r_accdf685a7cfd6aaee828b462262d2e63"><td class="memItemLeft" align="right" valign="top"><a id="accdf685a7cfd6aaee828b462262d2e63" name="accdf685a7cfd6aaee828b462262d2e63"></a>
+static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s_boundsTypeNames</b></td></tr>
+<tr class="memdesc:accdf685a7cfd6aaee828b462262d2e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static member to get the name of the BoundsType. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pure Absract Base Class for Volume bounds. </p>
 <p>Acts::VolumeBounds are a set of up to six confining Surfaces that are stored in a std::vector. Each type of Acts::VolumeBounds has to implement a orientedSurfaces() and a inside() method.</p>
 <p>The Volume, retrieving a set of Surfaces from the VolumeBounds, can turn the Surfaces into BoundarySurfaces. </p>
-</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="a3840f312b207bfdd5cbbcc4ac9981495" name="a3840f312b207bfdd5cbbcc4ac9981495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3840f312b207bfdd5cbbcc4ac9981495">&#9670;&#160;</a></span>BoundsType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#a3840f312b207bfdd5cbbcc4ac9981495">Acts::VolumeBounds::BoundsType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This is nested to the VolumeBounds, as also SurfaceBounds will have Bounds Type. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495a9a0cd7911f39e925e5b29f602780e2c8" name="a3840f312b207bfdd5cbbcc4ac9981495a9a0cd7911f39e925e5b29f602780e2c8"></a>eCone&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495aa3e9dfa095ec5d399034912e501cb5b4" name="a3840f312b207bfdd5cbbcc4ac9981495aa3e9dfa095ec5d399034912e501cb5b4"></a>eCuboid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495a1353c349ebba70c186c63b5abe06176e" name="a3840f312b207bfdd5cbbcc4ac9981495a1353c349ebba70c186c63b5abe06176e"></a>eCutoutCylinder&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495adf9307543366162ca5ef664dc41df064" name="a3840f312b207bfdd5cbbcc4ac9981495adf9307543366162ca5ef664dc41df064"></a>eCylinder&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495a8a2fe50b80f4ee00c225d458ef41c69e" name="a3840f312b207bfdd5cbbcc4ac9981495a8a2fe50b80f4ee00c225d458ef41c69e"></a>eGenericCuboid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495abaf59e1244c0ccb30b4644667e4fe9b5" name="a3840f312b207bfdd5cbbcc4ac9981495abaf59e1244c0ccb30b4644667e4fe9b5"></a>eTrapezoid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495a473f5f5ee5e2c717fcaea06d66782ae2" name="a3840f312b207bfdd5cbbcc4ac9981495a473f5f5ee5e2c717fcaea06d66782ae2"></a>eDiamond&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3840f312b207bfdd5cbbcc4ac9981495ad4d8daafac40a4c03967f6dc9db5a717" name="a3840f312b207bfdd5cbbcc4ac9981495ad4d8daafac40a4c03967f6dc9db5a717"></a>eOther&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a51370d477bcc159f12e16df8dd772caf" name="a51370d477bcc159f12e16df8dd772caf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51370d477bcc159f12e16df8dd772caf">&#9670;&#160;</a></span>VolumeBounds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::VolumeBounds::VolumeBounds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94227dab63034d4fe92166a03e287957" name="a94227dab63034d4fe92166a03e287957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94227dab63034d4fe92166a03e287957">&#9670;&#160;</a></span>~VolumeBounds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Acts::VolumeBounds::~VolumeBounds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="abd732eccae5655606b3e9e4a3f2ccab8" name="abd732eccae5655606b3e9e4a3f2ccab8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd732eccae5655606b3e9e4a3f2ccab8">&#9670;&#160;</a></span>boundingBox()</h2>
 
@@ -598,31 +511,6 @@ Static Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>of the stored values for this SurfaceBounds object </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_cone_volume_bounds.html#a85fd8c300f6a6d35195892dbe484c76a">Acts::ConeVolumeBounds</a>, <a class="el" href="class_acts_1_1_cuboid_volume_bounds.html#aac5717703bb5d891dd53743c726aa861">Acts::CuboidVolumeBounds</a>, <a class="el" href="class_acts_1_1_cutout_cylinder_volume_bounds.html#a06f8a59612e182755c3e9ad6334bd5cf">Acts::CutoutCylinderVolumeBounds</a>, <a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a832a9a77c6f0e2d7d62084c097d3bd38">Acts::CylinderVolumeBounds</a>, <a class="el" href="class_acts_1_1_diamond_volume_bounds.html#ab10a7a69cd5101d7d023099982e24c63">Acts::DiamondVolumeBounds</a>, <a class="el" href="class_acts_1_1_generic_cuboid_volume_bounds.html#a6a20d59a80d992ed2c06d2d8b3a0e16a">Acts::GenericCuboidVolumeBounds</a>, and <a class="el" href="class_acts_1_1_trapezoid_volume_bounds.html#aac26a8908494c01aa8d6fa9c44b07f8a">Acts::TrapezoidVolumeBounds</a>.</p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="accdf685a7cfd6aaee828b462262d2e63" name="accdf685a7cfd6aaee828b462262d2e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accdf685a7cfd6aaee828b462262d2e63">&#9670;&#160;</a></span>s_boundsTypeNames</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;std::string&gt; Acts::VolumeBounds::s_boundsTypeNames</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Static member to get the name of the BoundsType. </p>
 
 </div>
 </div>

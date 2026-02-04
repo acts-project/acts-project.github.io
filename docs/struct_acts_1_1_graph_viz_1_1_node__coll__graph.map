@@ -1,5 +1,5 @@
 <map id="Acts::GraphViz::Node" name="Acts::GraphViz::Node">
-<area shape="rect" id="Node000001" title=" " alt="" coords="71,232,230,257"/>
+<area shape="rect" id="Node000001" title="GraphViz node descriptor." alt="" coords="71,232,230,257"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="35,116,122,141"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,152,145,230,141,233,91,155"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,45"/>

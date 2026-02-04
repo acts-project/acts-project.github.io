@@ -1,5 +1,5 @@
 <map id="Acts::CylindricalSpacePointGrid2::Config" name="Acts::CylindricalSpacePointGrid2::Config">
-<area shape="rect" id="Node000001" title=" " alt="" coords="73,252,272,292"/>
+<area shape="rect" id="Node000001" title="Configuration parameters for the cylindrical space point grid." alt="" coords="73,252,272,292"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,129,156,154"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,164,141,226,160,250,155,253,137,230,94,167"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="16,5,145,31"/>

@@ -126,45 +126,44 @@ $(function(){initNavTree('class_acts_1_1_seed.html','','class_acts_1_1_seed-memb
 </div><!--header-->
 <div class="contents">
 
+<p>Seed built from N external space points.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_seed_8hpp_source.html">Acts/EventData/Seed.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4b2fb4b91bf781e67b2e3664f904ccdd" id="r_a4b2fb4b91bf781e67b2e3664f904ccdd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b2fb4b91bf781e67b2e3664f904ccdd">value_type</a> = external_spacepoint_t</td></tr>
+<tr class="memitem:a4b2fb4b91bf781e67b2e3664f904ccdd" id="r_a4b2fb4b91bf781e67b2e3664f904ccdd"><td class="memItemLeft" align="right" valign="top"><a id="a4b2fb4b91bf781e67b2e3664f904ccdd" name="a4b2fb4b91bf781e67b2e3664f904ccdd"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = external_spacepoint_t</td></tr>
+<tr class="memdesc:a4b2fb4b91bf781e67b2e3664f904ccdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the external space point. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c9858e784126e5322bc6bc7c2c81d9d" id="r_a8c9858e784126e5322bc6bc7c2c81d9d"><td class="memTemplParams" colspan="2">template&lt;typename... args_t&gt; <br />
 requires (sizeof...(args_t) == N) &amp;&amp; (std::same_as&lt;external_spacepoint_t, args_t&gt; &amp;&amp; ...)</td></tr>
 <tr class="memitem:a8c9858e784126e5322bc6bc7c2c81d9d template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9858e784126e5322bc6bc7c2c81d9d">Seed</a> (const args_t &amp;... points)</td></tr>
+<tr class="memdesc:a8c9858e784126e5322bc6bc7c2c81d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from N space points.  <br /></td></tr>
 <tr class="memitem:ad5ad65ac013ac9e3292c2b34e3d74aef" id="r_ad5ad65ac013ac9e3292c2b34e3d74aef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5ad65ac013ac9e3292c2b34e3d74aef">seedQuality</a> () const</td></tr>
+<tr class="memdesc:ad5ad65ac013ac9e3292c2b34e3d74aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the quality of the seed.  <br /></td></tr>
 <tr class="memitem:a0c3e211f9d83696faa7fc862a20ea392" id="r_a0c3e211f9d83696faa7fc862a20ea392"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c3e211f9d83696faa7fc862a20ea392">setQuality</a> (float <a class="el" href="#ad5ad65ac013ac9e3292c2b34e3d74aef">seedQuality</a>)</td></tr>
+<tr class="memdesc:a0c3e211f9d83696faa7fc862a20ea392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the quality of the seed.  <br /></td></tr>
 <tr class="memitem:a0a16c76871a9a9c86933f7021330e2c6" id="r_a0a16c76871a9a9c86933f7021330e2c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a16c76871a9a9c86933f7021330e2c6">setVertexZ</a> (float vertex)</td></tr>
+<tr class="memdesc:a0a16c76871a9a9c86933f7021330e2c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the z-coordinate of the vertex.  <br /></td></tr>
 <tr class="memitem:ae43d402239f70137763d9b8f73d895c4" id="r_ae43d402239f70137763d9b8f73d895c4"><td class="memItemLeft" align="right" valign="top">const std::array&lt; const external_spacepoint_t *, N &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae43d402239f70137763d9b8f73d895c4">sp</a> () const</td></tr>
+<tr class="memdesc:ae43d402239f70137763d9b8f73d895c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the space points in the seed.  <br /></td></tr>
 <tr class="memitem:ab354204998323ada4db19ac92bebb4c3" id="r_ab354204998323ada4db19ac92bebb4c3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab354204998323ada4db19ac92bebb4c3">z</a> () const</td></tr>
+<tr class="memdesc:ab354204998323ada4db19ac92bebb4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the z-coordinate of the vertex.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac299d5afe3e1ae7ec77c961a4149c965" id="r_ac299d5afe3e1ae7ec77c961a4149c965"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac299d5afe3e1ae7ec77c961a4149c965">DIM</a> = N</td></tr>
+<tr class="memitem:ac299d5afe3e1ae7ec77c961a4149c965" id="r_ac299d5afe3e1ae7ec77c961a4149c965"><td class="memItemLeft" align="right" valign="top"><a id="ac299d5afe3e1ae7ec77c961a4149c965" name="ac299d5afe3e1ae7ec77c961a4149c965"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>DIM</b> = N</td></tr>
+<tr class="memdesc:ac299d5afe3e1ae7ec77c961a4149c965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of space points in the seed. <br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a4b2fb4b91bf781e67b2e3664f904ccdd" name="a4b2fb4b91bf781e67b2e3664f904ccdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b2fb4b91bf781e67b2e3664f904ccdd">&#9670;&#160;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_seed.html">Acts::Seed</a>&lt; external_spacepoint_t, N &gt;::value_type = external_spacepoint_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt;<br />
+class Acts::Seed&lt; external_spacepoint_t, N &gt;</div><p>Seed built from N external space points. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8c9858e784126e5322bc6bc7c2c81d9d" name="a8c9858e784126e5322bc6bc7c2c81d9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c9858e784126e5322bc6bc7c2c81d9d">&#9670;&#160;</a></span>Seed()</h2>
 
@@ -193,6 +192,14 @@ requires (sizeof...(args_t) == N) &amp;&amp; (std::same_as&lt;external_spacepoin
 </table>
 </div><div class="memdoc">
 
+<p>Constructor from N space points. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">points</td><td>The space points to build the seed from </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
@@ -213,6 +220,9 @@ template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Get the quality of the seed. </p>
+<dl class="section return"><dt>Returns</dt><dd>The seed quality value </dd></dl>
+
 </div>
 </div>
 <a id="a0c3e211f9d83696faa7fc862a20ea392" name="a0c3e211f9d83696faa7fc862a20ea392"></a>
@@ -231,6 +241,14 @@ template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the quality of the seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seedQuality</td><td>The seed quality value </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -251,6 +269,14 @@ template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Set the z-coordinate of the vertex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertex</td><td>The vertex z-coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ae43d402239f70137763d9b8f73d895c4" name="ae43d402239f70137763d9b8f73d895c4"></a>
@@ -269,6 +295,9 @@ template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the space points in the seed. </p>
+<dl class="section return"><dt>Returns</dt><dd>Array of pointers to the space points </dd></dl>
 
 </div>
 </div>
@@ -289,30 +318,8 @@ template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ac299d5afe3e1ae7ec77c961a4149c965" name="ac299d5afe3e1ae7ec77c961a4149c965"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac299d5afe3e1ae7ec77c961a4149c965">&#9670;&#160;</a></span>DIM</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename external_spacepoint_t, std::size_t N = 3ul&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_seed.html">Acts::Seed</a>&lt; external_spacepoint_t, N &gt;::DIM = N</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Get the z-coordinate of the vertex. </p>
+<dl class="section return"><dt>Returns</dt><dd>The vertex z-coordinate </dd></dl>
 
 </div>
 </div>

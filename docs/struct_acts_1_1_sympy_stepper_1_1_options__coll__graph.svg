@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Runtime options for sympy propagation.">
 <polygon fill="#999999" stroke="#666666" points="129,-30 14,-30 14,0 129,0 129,-30"/>
 <text text-anchor="start" x="22" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SympyStepper</text>
 <text text-anchor="middle" x="71.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>
@@ -32,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_stepper_plain_options.html" target="_top" xlink:title="Common options shared by plain steppers.">
 <polygon fill="white" stroke="#666666" points="143,-86 0,-86 0,-67 143,-67 143,-86"/>
 <text text-anchor="middle" x="71.5" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="struct_acts_1_1_stepper_plain_options_1_1_dense.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="struct_acts_1_1_stepper_plain_options_1_1_dense.html" target="_top" xlink:title="Options for dense material effects.">
 <polygon fill="white" stroke="#666666" points="143,-169 0,-169 0,-139 143,-139 143,-169"/>
 <text text-anchor="start" x="8" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::StepperPlainOptions</text>
 <text text-anchor="middle" x="71.5" y="-146" font-family="Helvetica,sans-Serif" font-size="10.00">::Dense</text>

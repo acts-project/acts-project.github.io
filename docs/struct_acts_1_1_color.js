@@ -1,6 +1,5 @@
 var struct_acts_1_1_color =
 [
-    [ "Color", "struct_acts_1_1_color.html#afb0b273a00671c7a2834842a97db494b", null ],
     [ "Color", "struct_acts_1_1_color.html#afd06e8ba71bb77e71186f8c8040bb822", null ],
     [ "Color", "struct_acts_1_1_color.html#aca80c2b7c493fee982f354c71d3069cf", null ],
     [ "Color", "struct_acts_1_1_color.html#aaefd2e998c108d0b3af2fdbc9c4f0bb9", null ],

@@ -126,6 +126,9 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_gbts_connector_1_1_la
 </div><!--header-->
 <div class="contents">
 
+<p>Group of connections targeting a destination layer.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_gbts_connector_8hpp_source.html">Acts/TrackFinding/GbtsConnector.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsConnector::LayerGroup:</div>
@@ -136,13 +139,20 @@ Collaboration diagram for Acts::Experimental::GbtsConnector::LayerGroup:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a98988e896c36812f7eb714b33761c7a4" id="r_a98988e896c36812f7eb714b33761c7a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98988e896c36812f7eb714b33761c7a4">LayerGroup</a> (unsigned int l1Key, const std::vector&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a> * &gt; &amp;v)</td></tr>
+<tr class="memdesc:a98988e896c36812f7eb714b33761c7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a98b8c2a0849e8afb3fe6db0068fbfb89" id="r_a98b8c2a0849e8afb3fe6db0068fbfb89"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98b8c2a0849e8afb3fe6db0068fbfb89">m_dst</a></td></tr>
-<tr class="memitem:a56d9d70573be0b8fab71b821697c27ea" id="r_a56d9d70573be0b8fab71b821697c27ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56d9d70573be0b8fab71b821697c27ea">m_sources</a></td></tr>
+<tr class="memitem:a98b8c2a0849e8afb3fe6db0068fbfb89" id="r_a98b8c2a0849e8afb3fe6db0068fbfb89"><td class="memItemLeft" align="right" valign="top"><a id="a98b8c2a0849e8afb3fe6db0068fbfb89" name="a98b8c2a0849e8afb3fe6db0068fbfb89"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dst</b></td></tr>
+<tr class="memdesc:a98b8c2a0849e8afb3fe6db0068fbfb89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The target layer of the group. <br /></td></tr>
+<tr class="memitem:a56d9d70573be0b8fab71b821697c27ea" id="r_a56d9d70573be0b8fab71b821697c27ea"><td class="memItemLeft" align="right" valign="top"><a id="a56d9d70573be0b8fab71b821697c27ea" name="a56d9d70573be0b8fab71b821697c27ea"></a>
+std::vector&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_sources</b></td></tr>
+<tr class="memdesc:a56d9d70573be0b8fab71b821697c27ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source layers of the group. <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Group of connections targeting a destination layer. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a98988e896c36812f7eb714b33761c7a4" name="a98988e896c36812f7eb714b33761c7a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98988e896c36812f7eb714b33761c7a4">&#9670;&#160;</a></span>LayerGroup()</h2>
 
@@ -162,34 +172,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a98b8c2a0849e8afb3fe6db0068fbfb89" name="a98b8c2a0849e8afb3fe6db0068fbfb89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98b8c2a0849e8afb3fe6db0068fbfb89">&#9670;&#160;</a></span>m_dst</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int Acts::Experimental::GbtsConnector::LayerGroup::m_dst</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a56d9d70573be0b8fab71b821697c27ea" name="a56d9d70573be0b8fab71b821697c27ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56d9d70573be0b8fab71b821697c27ea">&#9670;&#160;</a></span>m_sources</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connection.html">GbtsConnection</a>*&gt; Acts::Experimental::GbtsConnector::LayerGroup::m_sources</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">l1Key</td><td>Destination layer key </td></tr>
+    <tr><td class="paramname">v</td><td>Vector of source connections </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
