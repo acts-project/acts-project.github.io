@@ -1,5 +1,5 @@
 <map id="Acts::LayerCreator::Config" name="Acts::LayerCreator::Config">
-<area shape="rect" id="Node000001" title="Configuration for the LayerCreator This is the nexted configuration struct for the LayerCreator class..." alt="" coords="147,252,289,292"/>
+<area shape="rect" id="Node000001" title="Configuration for the LayerCreator This is the nested configuration struct for the LayerCreator class..." alt="" coords="147,252,289,292"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,121,215,161"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,173,130,201,147,226,177,250,173,254,143,230,126,203,115,175"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="31,5,189,31"/>
