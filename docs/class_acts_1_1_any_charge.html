@@ -147,6 +147,8 @@ constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>AnyCharge</b> (<
 <tr class="memdesc:a7dec5b93d031a8c0994659f5c450f4da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the signed charge from q/p.  <br /></td></tr>
 <tr class="memitem:aa289ad3b47f404983a58bb428dfce123" id="r_aa289ad3b47f404983a58bb428dfce123"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa289ad3b47f404983a58bb428dfce123">extractMomentum</a> (double <a class="el" href="#aaa7cdce9c3d6c493e5be8922782a4f7b">qOverP</a>) const noexcept</td></tr>
 <tr class="memdesc:aa289ad3b47f404983a58bb428dfce123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract momentum magnitude from q/p.  <br /></td></tr>
+<tr class="memitem:a31286dda3bf11d80fcfe0fffcdc0db6c" id="r_a31286dda3bf11d80fcfe0fffcdc0db6c"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31286dda3bf11d80fcfe0fffcdc0db6c">operator==</a> (const <a class="el" href="#a379aaae8cf89dd0723007a8e8b48bb45">AnyCharge</a> &amp;rhs) const noexcept=default</td></tr>
+<tr class="memdesc:a31286dda3bf11d80fcfe0fffcdc0db6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare for equality.  <br /></td></tr>
 <tr class="memitem:aaa7cdce9c3d6c493e5be8922782a4f7b" id="r_aaa7cdce9c3d6c493e5be8922782a4f7b"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa7cdce9c3d6c493e5be8922782a4f7b">qOverP</a> (double momentum, float signedQ) const noexcept</td></tr>
 <tr class="memdesc:aaa7cdce9c3d6c493e5be8922782a4f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute q/p from momentum and signed charge.  <br /></td></tr>
 </table>
@@ -281,6 +283,40 @@ constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>AnyCharge</b> (<
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Momentum magnitude (handles both charged and neutral particles) </dd></dl>
+
+</div>
+</div>
+<a id="a31286dda3bf11d80fcfe0fffcdc0db6c" name="a31286dda3bf11d80fcfe0fffcdc0db6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31286dda3bf11d80fcfe0fffcdc0db6c">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::AnyCharge::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a379aaae8cf89dd0723007a8e8b48bb45">AnyCharge</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare for equality. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The AnyCharge to compare to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the two AnyCharge objects are equal, false otherwise </dd></dl>
 
 </div>
 </div>

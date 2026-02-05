@@ -141,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adb6fb91a8f85597f1ecaef087711e587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the signed charge from q/p.  <br /></td></tr>
 <tr class="memitem:a4a90f0ac8a5c18df58316508a488fd1b" id="r_a4a90f0ac8a5c18df58316508a488fd1b"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a90f0ac8a5c18df58316508a488fd1b">extractMomentum</a> (double <a class="el" href="#a3cdeb2ab846d5f79599beae246732d8c">qOverP</a>) const noexcept</td></tr>
 <tr class="memdesc:a4a90f0ac8a5c18df58316508a488fd1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract momentum magnitude from q/p.  <br /></td></tr>
+<tr class="memitem:a93fcb405e9a7d0e2062d892b54feea79" id="r_a93fcb405e9a7d0e2062d892b54feea79"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93fcb405e9a7d0e2062d892b54feea79">operator==</a> (const SinglyCharged &amp;rhs) const noexcept=default</td></tr>
+<tr class="memdesc:a93fcb405e9a7d0e2062d892b54feea79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare for equality.  <br /></td></tr>
 <tr class="memitem:a3cdeb2ab846d5f79599beae246732d8c" id="r_a3cdeb2ab846d5f79599beae246732d8c"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cdeb2ab846d5f79599beae246732d8c">qOverP</a> (double momentum, float signedQ) const noexcept</td></tr>
 <tr class="memdesc:a3cdeb2ab846d5f79599beae246732d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute q/p from momentum and signed charge.  <br /></td></tr>
 </table>
@@ -274,6 +276,40 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Momentum magnitude calculated as charge/qOverP </dd></dl>
+
+</div>
+</div>
+<a id="a93fcb405e9a7d0e2062d892b54feea79" name="a93fcb405e9a7d0e2062d892b54feea79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93fcb405e9a7d0e2062d892b54feea79">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::SinglyCharged::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const SinglyCharged &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare for equality. </p>
+<p>This is always <span class="tt">true</span> as <span class="tt">SinglyCharged</span> has no internal state. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The SinglyCharged to compare to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the two SinglyCharged objects are equal, false otherwise </dd></dl>
 
 </div>
 </div>

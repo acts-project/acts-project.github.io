@@ -141,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abae543827b3d5df2c4bc91b8b06b5898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the signed charge from q/p.  <br /></td></tr>
 <tr class="memitem:a6b8bbda278e2860998d41cb37da8f2c3" id="r_a6b8bbda278e2860998d41cb37da8f2c3"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b8bbda278e2860998d41cb37da8f2c3">extractMomentum</a> (double <a class="el" href="#ab78b807c80688f056b48b97511475785">qOverP</a>) const noexcept</td></tr>
 <tr class="memdesc:a6b8bbda278e2860998d41cb37da8f2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract momentum magnitude from q/p.  <br /></td></tr>
+<tr class="memitem:a0bf8677d39d6cf0e498c2fe600405be1" id="r_a0bf8677d39d6cf0e498c2fe600405be1"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf8677d39d6cf0e498c2fe600405be1">operator==</a> (const Neutral &amp;rhs) const noexcept=default</td></tr>
+<tr class="memdesc:a0bf8677d39d6cf0e498c2fe600405be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare for equality.  <br /></td></tr>
 <tr class="memitem:ab78b807c80688f056b48b97511475785" id="r_ab78b807c80688f056b48b97511475785"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab78b807c80688f056b48b97511475785">qOverP</a> (double momentum, float signedQ) const noexcept</td></tr>
 <tr class="memdesc:ab78b807c80688f056b48b97511475785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute q/p from momentum and signed charge.  <br /></td></tr>
 </table>
@@ -268,6 +270,40 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Momentum magnitude calculated as 1/qOverP </dd></dl>
+
+</div>
+</div>
+<a id="a0bf8677d39d6cf0e498c2fe600405be1" name="a0bf8677d39d6cf0e498c2fe600405be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf8677d39d6cf0e498c2fe600405be1">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Neutral::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const Neutral &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare for equality. </p>
+<p>This is always <span class="tt">true</span> as <span class="tt">Neutral</span> has no internal state. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The Neutral to compare to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the two Neutral objects are equal, false otherwise </dd></dl>
 
 </div>
 </div>

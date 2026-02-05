@@ -152,7 +152,7 @@ $(function(){initNavTree('_enumerate_8hpp_source.html','',''); });
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>      ++iter;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#a75e0f8b70f2049a83af6fcefd0f8093e">operator*</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> std::tie(i, *iter); }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">auto</span> operator*()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> std::tie(i, *iter); }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  };</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keyword">struct </span>iterable_wrapper {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    container_type iterable;</div>
@@ -166,7 +166,6 @@ $(function(){initNavTree('_enumerate_8hpp_source.html','',''); });
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a08a2ca0bdef285b222916dd7ecb30562"><div class="ttname"><a href="namespace_acts.html#a08a2ca0bdef285b222916dd7ecb30562">Acts::enumerate</a></div><div class="ttdeci">constexpr auto enumerate(container_type &amp;&amp;iterable)</div><div class="ttdoc">Helper utility to allow indexed enumeration with structured binding.</div><div class="ttdef"><b>Definition</b> Enumerate.hpp:31</div></div>
-<div class="ttc" id="anamespace_acts_html_a75e0f8b70f2049a83af6fcefd0f8093e"><div class="ttname"><a href="namespace_acts.html#a75e0f8b70f2049a83af6fcefd0f8093e">Acts::operator*</a></div><div class="ttdeci">constexpr int operator*(Direction dir, int value)</div><div class="ttdoc">Multiply Direction with integer.</div><div class="ttdef"><b>Definition</b> Direction.hpp:134</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

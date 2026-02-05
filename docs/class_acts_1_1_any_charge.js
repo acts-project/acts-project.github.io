@@ -6,6 +6,6 @@ var class_acts_1_1_any_charge =
     [ "absQ", "class_acts_1_1_any_charge.html#abc8c7b8766d5f39f7cf3e02d5fa27c95", null ],
     [ "extractCharge", "class_acts_1_1_any_charge.html#a7dec5b93d031a8c0994659f5c450f4da", null ],
     [ "extractMomentum", "class_acts_1_1_any_charge.html#aa289ad3b47f404983a58bb428dfce123", null ],
-    [ "qOverP", "class_acts_1_1_any_charge.html#aaa7cdce9c3d6c493e5be8922782a4f7b", null ],
-    [ "operator==", "class_acts_1_1_any_charge.html#ad75ef19028c310b26c67ba0be3355d2f", null ]
+    [ "operator==", "class_acts_1_1_any_charge.html#a31286dda3bf11d80fcfe0fffcdc0db6c", null ],
+    [ "qOverP", "class_acts_1_1_any_charge.html#aaa7cdce9c3d6c493e5be8922782a4f7b", null ]
 ];
