@@ -421,6 +421,8 @@ var annotated_dup =
       [ "NavigationLayer", "class_acts_1_1_navigation_layer.html", "class_acts_1_1_navigation_layer" ],
       [ "NavigationOptions", "struct_acts_1_1_navigation_options.html", "struct_acts_1_1_navigation_options" ],
       [ "NavigationPolicyFactory", "class_acts_1_1_navigation_policy_factory.html", "class_acts_1_1_navigation_policy_factory" ],
+      [ "NavigationPolicyState", "class_acts_1_1_navigation_policy_state.html", "class_acts_1_1_navigation_policy_state" ],
+      [ "NavigationPolicyStateManager", "class_acts_1_1_navigation_policy_state_manager.html", "class_acts_1_1_navigation_policy_state_manager" ],
       [ "NavigationStream", "class_acts_1_1_navigation_stream.html", "class_acts_1_1_navigation_stream" ],
       [ "NavigationTarget", "class_acts_1_1_navigation_target.html", "class_acts_1_1_navigation_target" ],
       [ "Navigator", "class_acts_1_1_navigator.html", "class_acts_1_1_navigator" ],

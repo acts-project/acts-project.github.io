@@ -30,7 +30,7 @@ var class_acts_1_1_tracking_volume =
     [ "glueTrackingVolume", "class_acts_1_1_tracking_volume.html#a8e93c4271d9e20201213657ec59f8227", null ],
     [ "glueTrackingVolumes", "class_acts_1_1_tracking_volume.html#a4f671480f343ab77260c9ce458698707", null ],
     [ "glueVolumesDescriptor", "class_acts_1_1_tracking_volume.html#adb732da3591b090e73de9020f20b916a", null ],
-    [ "initializeNavigationCandidates", "class_acts_1_1_tracking_volume.html#ae325cf7b33d49af57fd424f2795fcaa4", null ],
+    [ "initializeNavigationCandidates", "class_acts_1_1_tracking_volume.html#ab682bdc16e28e2766899e5af4382bcae", null ],
     [ "lowestTrackingVolume", "class_acts_1_1_tracking_volume.html#a426c0a7b582fe21e466833e59f17c06e", null ],
     [ "motherVolume", "class_acts_1_1_tracking_volume.html#a6cccb37ba8cb6b11e2c9512bc09fda88", null ],
     [ "motherVolume", "class_acts_1_1_tracking_volume.html#a5871feea852b8b48605c77bb03a79987", null ],

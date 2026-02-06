@@ -2,7 +2,7 @@ var searchData=
 [
   ['navigationboundaries_0',['NavigationBoundaries',['../class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8',1,'Acts::Navigator']]],
   ['navigationcandidates_1',['NavigationCandidates',['../class_acts_1_1_navigator.html#a281b1c2d169dce40f0516056dcc55341',1,'Acts::Navigator']]],
-  ['navigationdelegate_2',['NavigationDelegate',['../namespace_acts.html#a3c7053506015dae00ae1b4273764fb86',1,'Acts']]],
+  ['navigationdelegate_2',['NavigationDelegate',['../namespace_acts.html#acde434daddaaeec4037aed488a49cefb',1,'Acts']]],
   ['navigationlayers_3',['NavigationLayers',['../class_acts_1_1_navigator.html#a492eb943ad2c06526442465303caa698',1,'Acts::Navigator']]],
   ['navigationsurfaces_4',['NavigationSurfaces',['../class_acts_1_1_navigator.html#a67daeae75247dabc70dd251c58b56980',1,'Acts::Navigator']]],
   ['navigator_5',['Navigator',['../class_acts_1_1_propagator.html#a093685d05bccdf473c4c7af3ae5e9cef',1,'Acts::Propagator::Navigator'],['../class_acts_1_1_ridders_propagator.html#a17459c648492ff58106e5e737a8e8f06',1,'Acts::RiddersPropagator::Navigator']]],

@@ -23,6 +23,7 @@ var struct_acts_1_1_navigator_1_1_state =
     [ "navSurfaceIndex", "struct_acts_1_1_navigator_1_1_state.html#ac7ebe3f762cdb3df57f327e43f58435c", null ],
     [ "navSurfaces", "struct_acts_1_1_navigator_1_1_state.html#aa48bb4efe5699e2ba7dd04c83b62d483", null ],
     [ "options", "struct_acts_1_1_navigator_1_1_state.html#a0ec9d252d55889edcb6bce4aad0e30c9", null ],
+    [ "policyStateManager", "struct_acts_1_1_navigator_1_1_state.html#af2969f4b15e9ea5dd8a00fba1c699c89", null ],
     [ "startLayer", "struct_acts_1_1_navigator_1_1_state.html#ab60b9f0f8c6248efd957c338531d984b", null ],
     [ "startSurface", "struct_acts_1_1_navigator_1_1_state.html#ab3293e7a9ef7ee9dc85f3a93a5fce0e8", null ],
     [ "startVolume", "struct_acts_1_1_navigator_1_1_state.html#aae9ade56747841b1ab9aad67782b516c", null ],

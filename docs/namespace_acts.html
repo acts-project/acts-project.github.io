@@ -663,6 +663,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The navigation options for the tracking geometry.  <a href="struct_acts_1_1_navigation_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:NavigationPolicyFactory" id="r_NavigationPolicyFactory"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_navigation_policy_factory.html">NavigationPolicyFactory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for navigation policy factories.  <a href="class_acts_1_1_navigation_policy_factory.html#details">More...</a><br /></td></tr>
+<tr class="memitem:NavigationPolicyState" id="r_NavigationPolicyState"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper class for a navigation policy state stored in the state manager.  <a href="class_acts_1_1_navigation_policy_state.html#details">More...</a><br /></td></tr>
+<tr class="memitem:NavigationPolicyStateManager" id="r_NavigationPolicyStateManager"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manager class for navigation policy states.  <a href="class_acts_1_1_navigation_policy_state_manager.html#details">More...</a><br /></td></tr>
 <tr class="memitem:NavigationStream" id="r_NavigationStream"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_navigation_stream.html">NavigationStream</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The NavigationStream is a container for the navigation candidates that are currentlu processed in a given context.  <a href="class_acts_1_1_navigation_stream.html#details">More...</a><br /></td></tr>
 <tr class="memitem:NavigationTarget" id="r_NavigationTarget"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a></td></tr>
@@ -1056,7 +1060,7 @@ Concepts</h2></td></tr>
 <tr class="memitem:MutableTrackProxyConcept" id="r_MutableTrackProxyConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_mutable_track_proxy_concept.html">MutableTrackProxyConcept</a></td></tr>
 <tr class="memitem:MutableTrackStateProxyConcept" id="r_MutableTrackStateProxyConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_mutable_track_state_proxy_concept.html">MutableTrackStateProxyConcept</a></td></tr>
 <tr class="memitem:NavigationPolicyConcept" id="r_NavigationPolicyConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_navigation_policy_concept.html">NavigationPolicyConcept</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concept for a navigation policy This exists so <span class="tt">updateState</span> can be a non-virtual method and we still have a way to enforce it exists. <br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concept for a navigation policy This exists so <span class="tt">initializeCandidates</span> can be a non-virtual method and we still have a way to enforce it exists. <br /></td></tr>
 <tr class="memitem:PointerConcept" id="r_PointerConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_pointer_concept.html">PointerConcept</a></td></tr>
 <tr class="memitem:RegularSurfaceConcept" id="r_RegularSurfaceConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_regular_surface_concept.html">RegularSurfaceConcept</a></td></tr>
 <tr class="memitem:SatisfyCandidateConcept" id="r_SatisfyCandidateConcept"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="concept_acts_1_1_satisfy_candidate_concept.html">SatisfyCandidateConcept</a></td></tr>
@@ -1266,8 +1270,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableSpacePointPro
 <tr class="memitem:aea0ba56b78fc7596ea8c54f1fdd6dc86" id="r_aea0ba56b78fc7596ea8c54f1fdd6dc86"><td class="memItemLeft" align="right" valign="top"><a id="aea0ba56b78fc7596ea8c54f1fdd6dc86" name="aea0ba56b78fc7596ea8c54f1fdd6dc86"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableTrackStateTypeMap</b> = <a class="el" href="class_acts_1_1_track_state_type_map.html">TrackStateTypeMap</a>&lt;false&gt;</td></tr>
 <tr class="memdesc:aea0ba56b78fc7596ea8c54f1fdd6dc86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable track state type map allowing modification. <br /></td></tr>
-<tr class="memitem:a3c7053506015dae00ae1b4273764fb86" id="r_a3c7053506015dae00ae1b4273764fb86"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a></td></tr>
-<tr class="memdesc:a3c7053506015dae00ae1b4273764fb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Central alias for the navigation delegate.  <br /></td></tr>
+<tr class="memitem:acde434daddaaeec4037aed488a49cefb" id="r_acde434daddaaeec4037aed488a49cefb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a></td></tr>
+<tr class="memdesc:acde434daddaaeec4037aed488a49cefb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Central alias for the navigation delegate.  <br /></td></tr>
 <tr class="memitem:a5a251193de228b8045bfae4dea56eeaa" id="r_a5a251193de228b8045bfae4dea56eeaa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a251193de228b8045bfae4dea56eeaa">NeutralBoundTrackParameters</a></td></tr>
 <tr class="memdesc:a5a251193de228b8045bfae4dea56eeaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track parameters of neutral particles.  <br /></td></tr>
 <tr class="memitem:a250e93cd47012384de7861dfa23d7706" id="r_a250e93cd47012384de7861dfa23d7706"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a250e93cd47012384de7861dfa23d7706">NeutralFreeTrackParameters</a></td></tr>
@@ -3006,25 +3010,26 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 
 </div>
 </div>
-<a id="a3c7053506015dae00ae1b4273764fb86" name="a3c7053506015dae00ae1b4273764fb86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c7053506015dae00ae1b4273764fb86">&#9670;&#160;</a></span>NavigationDelegate</h2>
+<a id="acde434daddaaeec4037aed488a49cefb" name="acde434daddaaeec4037aed488a49cefb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acde434daddaaeec4037aed488a49cefb">&#9670;&#160;</a></span>NavigationDelegate</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a3c7053506015dae00ae1b4273764fb86">Acts::NavigationDelegate</a></td>
+          <td class="memname">using <a class="el" href="#acde434daddaaeec4037aed488a49cefb">Acts::NavigationDelegate</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">    <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;void(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a>&amp;,</div>
-<div class="line">                  <a class="code hl_class" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a>&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_logger.html">Logger</a>&amp;)&gt;</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;void(</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a>&amp;, <a class="code hl_class" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a>&amp;,</div>
+<div class="line">    <a class="code hl_class" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a>&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_logger.html">Logger</a>&amp;)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_append_only_navigation_stream_html"><div class="ttname"><a href="class_acts_1_1_append_only_navigation_stream.html">Acts::AppendOnlyNavigationStream</a></div><div class="ttdoc">Append-only helper to add candidates to a navigation stream.</div><div class="ttdef"><b>Definition</b> NavigationStream.hpp:156</div></div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:693</div></div>
-<div class="ttc" id="astruct_acts_1_1_navigation_arguments_html"><div class="ttname"><a href="struct_acts_1_1_navigation_arguments.html">Acts::NavigationArguments</a></div><div class="ttdoc">Struct that serves as the argument to the navigation delegate.</div><div class="ttdef"><b>Definition</b> NavigationDelegate.hpp:24</div></div>
+<div class="ttc" id="aclass_acts_1_1_navigation_policy_state_html"><div class="ttname"><a href="class_acts_1_1_navigation_policy_state.html">Acts::NavigationPolicyState</a></div><div class="ttdoc">Wrapper class for a navigation policy state stored in the state manager.</div><div class="ttdef"><b>Definition</b> INavigationPolicy.hpp:31</div></div>
+<div class="ttc" id="astruct_acts_1_1_navigation_arguments_html"><div class="ttname"><a href="struct_acts_1_1_navigation_arguments.html">Acts::NavigationArguments</a></div><div class="ttdoc">Struct that serves as the argument to the navigation delegate.</div><div class="ttdef"><b>Definition</b> NavigationDelegate.hpp:25</div></div>
 </div><!-- fragment -->
 <p>Central alias for the navigation delegate. </p>
 <p>This type is owning to support (type-erased) navigation delegate chains (i.e. multiple policies). </p>

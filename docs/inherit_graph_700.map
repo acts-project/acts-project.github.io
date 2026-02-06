@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,45,140,70"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_propagator.html" title=" " alt="" coords="188,5,383,45"/>
-<area shape="poly" id="edge293_Node000000_Node000001" title=" " alt="" coords="153,43,187,37,188,43,154,48"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_propagator.html" title="Propagator for particles (optionally in a magnetic field)." alt="" coords="189,69,382,109"/>
-<area shape="poly" id="edge294_Node000000_Node000002" title=" " alt="" coords="154,67,189,72,188,77,154,72"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,37,177,77"/>
+<area shape="rect" id="Node000001" href="$struct_acts_1_1_ridders_propagator_options.html" title=" " alt="" coords="225,5,453,45"/>
+<area shape="poly" id="edge287_Node000000_Node000001" title=" " alt="" coords="191,42,225,37,225,43,191,47"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_ridders_propagator_options.html" title="Options for Ridders&#45;based covariance propagation." alt="" coords="225,69,453,109"/>
+<area shape="poly" id="edge288_Node000000_Node000002" title=" " alt="" coords="191,68,225,72,225,77,191,73"/>
 </map>

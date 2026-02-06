@@ -145,26 +145,32 @@ Collaboration diagram for Acts::CylinderNavigationPolicy:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b73eff8aac730549ddc2cc25a0c0c82" id="r_a7b73eff8aac730549ddc2cc25a0c0c82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b73eff8aac730549ddc2cc25a0c0c82">CylinderNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:a7b73eff8aac730549ddc2cc25a0c0c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a volume.  <br /></td></tr>
-<tr class="memitem:ad8265669622a577a9dd6b84c2559b0d9" id="r_ad8265669622a577a9dd6b84c2559b0d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8265669622a577a9dd6b84c2559b0d9">connect</a> (<a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;delegate) const override</td></tr>
+<tr class="memitem:ad8265669622a577a9dd6b84c2559b0d9" id="r_ad8265669622a577a9dd6b84c2559b0d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8265669622a577a9dd6b84c2559b0d9">connect</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const override</td></tr>
 <tr class="memdesc:ad8265669622a577a9dd6b84c2559b0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the policy to a navigation delegate.  <br /></td></tr>
-<tr class="memitem:a4e7849281f8e4aecded40f5746353dd8" id="r_a4e7849281f8e4aecded40f5746353dd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e7849281f8e4aecded40f5746353dd8">initializeCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;args, <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;stream, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
-<tr class="memdesc:a4e7849281f8e4aecded40f5746353dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intelligently select and add portal candidates based on geometric analysis.  <br /></td></tr>
+<tr class="memitem:a5dae592351629bb9d68171193c22a8c5" id="r_a5dae592351629bb9d68171193c22a8c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dae592351629bb9d68171193c22a8c5">initializeCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;args, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;state, <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;stream, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:a5dae592351629bb9d68171193c22a8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intelligently select and add portal candidates based on geometric analysis.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_i_navigation_policy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_i_navigation_policy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a></td></tr>
 <tr class="memitem:a4a5cc5d6ccf2d634e70160e6da727a77 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_a4a5cc5d6ccf2d634e70160e6da727a77"><td class="memItemLeft" align="right" valign="top">
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~INavigationPolicy</b> ()=default</td></tr>
 <tr class="memdesc:a4a5cc5d6ccf2d634e70160e6da727a77 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor so policies can be held through this base class. <br /></td></tr>
+<tr class="memitem:a94a661888a510f3d6f37136214069f28 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_a94a661888a510f3d6f37136214069f28"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#a94a661888a510f3d6f37136214069f28">createState</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> args, <a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a> &amp;stateManager, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:a94a661888a510f3d6f37136214069f28 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and initialize the state for this policy.  <br /></td></tr>
+<tr class="memitem:ab2ad48b54b1c574ea2700bc40fa8c6a6 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_ab2ad48b54b1c574ea2700bc40fa8c6a6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#ab2ad48b54b1c574ea2700bc40fa8c6a6">isValid</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> args, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;state, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:ab2ad48b54b1c574ea2700bc40fa8c6a6 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the policy is in a valid state for navigation.  <br /></td></tr>
+<tr class="memitem:afebd3a428f89eee6d74e609926d1ff75 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_afebd3a428f89eee6d74e609926d1ff75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#afebd3a428f89eee6d74e609926d1ff75">popState</a> (<a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a> &amp;stateManager, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:afebd3a428f89eee6d74e609926d1ff75 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the state for this policy from the state manager.  <br /></td></tr>
 <tr class="memitem:add716fb1168fb2f552380b5051df5bc8 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_add716fb1168fb2f552380b5051df5bc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#add716fb1168fb2f552380b5051df5bc8">visit</a> (const std::function&lt; void(const <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> &amp;)&gt; &amp;visitor) const</td></tr>
 <tr class="memdesc:add716fb1168fb2f552380b5051df5bc8 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to walk over all navigation policies.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_acts_1_1_i_navigation_policy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_acts_1_1_i_navigation_policy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a></td></tr>
-<tr class="memitem:ad6925e631f0576db80fb178edd305e08 inherit pub_static_methods_class_acts_1_1_i_navigation_policy" id="r_ad6925e631f0576db80fb178edd305e08"><td class="memItemLeft" align="right" valign="top">
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitializeCandidates</b> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
-<tr class="memdesc:ad6925e631f0576db80fb178edd305e08 inherit pub_static_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates. <br /></td></tr>
+<tr class="memitem:a348ceea213899087a43da1e2105cfeef inherit pub_static_methods_class_acts_1_1_i_navigation_policy" id="r_a348ceea213899087a43da1e2105cfeef"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitializeCandidates</b> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
+<tr class="memdesc:a348ceea213899087a43da1e2105cfeef inherit pub_static_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates. <br /></td></tr>
 <tr class="inherit_header pro_methods_class_acts_1_1_i_navigation_policy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_acts_1_1_i_navigation_policy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a></td></tr>
 <tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 inherit pro_methods_class_acts_1_1_i_navigation_policy" id="r_a6a2bef72c7ff7f6176debf91c3eaa781"><td class="memTemplParams" colspan="2">template&lt;NavigationPolicyConcept T&gt; </td></tr>
-<tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 inherit pro_methods_class_acts_1_1_i_navigation_policy template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#a6a2bef72c7ff7f6176debf91c3eaa781">connectDefault</a> (<a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;delegate) const</td></tr>
+<tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 inherit pro_methods_class_acts_1_1_i_navigation_policy template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#a6a2bef72c7ff7f6176debf91c3eaa781">connectDefault</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const</td></tr>
 <tr class="memdesc:a6a2bef72c7ff7f6176debf91c3eaa781 inherit pro_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal helper function for derived classes that conform to the concept and have a conventional <span class="tt">updateState</span> method.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -236,7 +242,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
         <tr>
           <td class="memname">void Acts::CylinderNavigationPolicy::connect </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>delegate</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>delegate</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -259,8 +265,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
 
 </div>
 </div>
-<a id="a4e7849281f8e4aecded40f5746353dd8" name="a4e7849281f8e4aecded40f5746353dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e7849281f8e4aecded40f5746353dd8">&#9670;&#160;</a></span>initializeCandidates()</h2>
+<a id="a5dae592351629bb9d68171193c22a8c5" name="a5dae592351629bb9d68171193c22a8c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dae592351629bb9d68171193c22a8c5">&#9670;&#160;</a></span>initializeCandidates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,6 +280,11 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -298,6 +309,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
   <table class="params">
     <tr><td class="paramname">gctx</td><td>is the geometry context </td></tr>
     <tr><td class="paramname">args</td><td>are the navigation arguments containing position and direction </td></tr>
+    <tr><td class="paramname">state</td><td>is the navigation policy state </td></tr>
     <tr><td class="paramname">stream</td><td>is the navigation stream to update with selected candidates </td></tr>
     <tr><td class="paramname">logger</td><td>is the logger for debugging output </td></tr>
   </table>

@@ -136,26 +136,36 @@ Inheritance diagram for Acts::INavigationPolicy:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_i_navigation_policy__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:EmptyState" id="r_EmptyState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_i_navigation_policy_1_1_empty_state.html">EmptyState</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a5cc5d6ccf2d634e70160e6da727a77" id="r_a4a5cc5d6ccf2d634e70160e6da727a77"><td class="memItemLeft" align="right" valign="top"><a id="a4a5cc5d6ccf2d634e70160e6da727a77" name="a4a5cc5d6ccf2d634e70160e6da727a77"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~INavigationPolicy</b> ()=default</td></tr>
 <tr class="memdesc:a4a5cc5d6ccf2d634e70160e6da727a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor so policies can be held through this base class. <br /></td></tr>
-<tr class="memitem:ad2694fb8b77a560d184a6a9670d65300" id="r_ad2694fb8b77a560d184a6a9670d65300"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2694fb8b77a560d184a6a9670d65300">connect</a> (<a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;delegate) const =0</td></tr>
+<tr class="memitem:ad2694fb8b77a560d184a6a9670d65300" id="r_ad2694fb8b77a560d184a6a9670d65300"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2694fb8b77a560d184a6a9670d65300">connect</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const =0</td></tr>
 <tr class="memdesc:ad2694fb8b77a560d184a6a9670d65300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a policy with a delegate (usually a member of a volume).  <br /></td></tr>
+<tr class="memitem:a94a661888a510f3d6f37136214069f28" id="r_a94a661888a510f3d6f37136214069f28"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a661888a510f3d6f37136214069f28">createState</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> args, <a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a> &amp;stateManager, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:a94a661888a510f3d6f37136214069f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and initialize the state for this policy.  <br /></td></tr>
+<tr class="memitem:ab2ad48b54b1c574ea2700bc40fa8c6a6" id="r_ab2ad48b54b1c574ea2700bc40fa8c6a6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ad48b54b1c574ea2700bc40fa8c6a6">isValid</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> args, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;state, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:ab2ad48b54b1c574ea2700bc40fa8c6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the policy is in a valid state for navigation.  <br /></td></tr>
+<tr class="memitem:afebd3a428f89eee6d74e609926d1ff75" id="r_afebd3a428f89eee6d74e609926d1ff75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afebd3a428f89eee6d74e609926d1ff75">popState</a> (<a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a> &amp;stateManager, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:afebd3a428f89eee6d74e609926d1ff75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the state for this policy from the state manager.  <br /></td></tr>
 <tr class="memitem:add716fb1168fb2f552380b5051df5bc8" id="r_add716fb1168fb2f552380b5051df5bc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add716fb1168fb2f552380b5051df5bc8">visit</a> (const std::function&lt; void(const <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> &amp;)&gt; &amp;visitor) const</td></tr>
 <tr class="memdesc:add716fb1168fb2f552380b5051df5bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to walk over all navigation policies.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6925e631f0576db80fb178edd305e08" id="r_ad6925e631f0576db80fb178edd305e08"><td class="memItemLeft" align="right" valign="top"><a id="ad6925e631f0576db80fb178edd305e08" name="ad6925e631f0576db80fb178edd305e08"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitializeCandidates</b> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
-<tr class="memdesc:ad6925e631f0576db80fb178edd305e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates. <br /></td></tr>
+<tr class="memitem:a348ceea213899087a43da1e2105cfeef" id="r_a348ceea213899087a43da1e2105cfeef"><td class="memItemLeft" align="right" valign="top"><a id="a348ceea213899087a43da1e2105cfeef" name="a348ceea213899087a43da1e2105cfeef"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitializeCandidates</b> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
+<tr class="memdesc:a348ceea213899087a43da1e2105cfeef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781" id="r_a6a2bef72c7ff7f6176debf91c3eaa781"><td class="memTemplParams" colspan="2">template&lt;NavigationPolicyConcept T&gt; </td></tr>
-<tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a2bef72c7ff7f6176debf91c3eaa781">connectDefault</a> (<a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;delegate) const</td></tr>
+<tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a2bef72c7ff7f6176debf91c3eaa781">connectDefault</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const</td></tr>
 <tr class="memdesc:a6a2bef72c7ff7f6176debf91c3eaa781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal helper function for derived classes that conform to the concept and have a conventional <span class="tt">updateState</span> method.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -174,7 +184,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void Acts::INavigationPolicy::connect </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>delegate</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>delegate</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -211,7 +221,7 @@ template&lt;NavigationPolicyConcept T&gt; </div>
         <tr>
           <td class="memname">void Acts::INavigationPolicy::connectDefault </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a3c7053506015dae00ae1b4273764fb86">NavigationDelegate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>delegate</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>delegate</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -235,6 +245,151 @@ template&lt;NavigationPolicyConcept T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a94a661888a510f3d6f37136214069f28" name="a94a661888a510f3d6f37136214069f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a661888a510f3d6f37136214069f28">&#9670;&#160;</a></span>createState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Acts::INavigationPolicy::createState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a></td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stateManager</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create and initialize the state for this policy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">args</td><td>The navigation arguments </td></tr>
+    <tr><td class="paramname">stateManager</td><td>The state manager to push the new state onto </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger for debug output </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_multi_navigation_policy.html#acf8bebffe5aeef49e9bb9502ef5f0765">Acts::MultiNavigationPolicy</a>.</p>
+
+</div>
+</div>
+<a id="ab2ad48b54b1c574ea2700bc40fa8c6a6" name="ab2ad48b54b1c574ea2700bc40fa8c6a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ad48b54b1c574ea2700bc40fa8c6a6">&#9670;&#160;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Acts::INavigationPolicy::isValid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a></td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the policy is in a valid state for navigation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">args</td><td>The navigation arguments </td></tr>
+    <tr><td class="paramname">state</td><td>The navigation policy state to check </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger for debug output </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the policy state is valid, false otherwise </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_multi_navigation_policy.html#a9b22228293d412998151f2f9338e43fc">Acts::MultiNavigationPolicy</a>.</p>
+
+</div>
+</div>
+<a id="afebd3a428f89eee6d74e609926d1ff75" name="afebd3a428f89eee6d74e609926d1ff75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afebd3a428f89eee6d74e609926d1ff75">&#9670;&#160;</a></span>popState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Acts::INavigationPolicy::popState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_navigation_policy_state_manager.html">NavigationPolicyStateManager</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stateManager</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove the state for this policy from the state manager. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stateManager</td><td>The state manager to pop the state from </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger for debug output </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_multi_navigation_policy.html#ae907cff6d01d6edcda4df7d14956608b">Acts::MultiNavigationPolicy</a>.</p>
 
 </div>
 </div>

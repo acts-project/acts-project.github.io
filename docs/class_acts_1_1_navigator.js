@@ -11,7 +11,7 @@ var class_acts_1_1_navigator =
     [ "NavigationSurfaces", "class_acts_1_1_navigator.html#a67daeae75247dabc70dd251c58b56980", null ],
     [ "Stage", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082", null ],
     [ "Navigator", "class_acts_1_1_navigator.html#ad746a9326f43e651436f192404ed5f23", null ],
-    [ "checkTargetValid", "class_acts_1_1_navigator.html#a1c7794977152b1279715f9d7374bda17", null ],
+    [ "checkTargetValid", "class_acts_1_1_navigator.html#a67fab1ac0cf19c85e7931bcd8513e34b", null ],
     [ "currentSurface", "class_acts_1_1_navigator.html#a51c546be2b770dba8255f396bec27490", null ],
     [ "currentVolume", "class_acts_1_1_navigator.html#afc3e1c0b1f71e08c6d87c47fc5eccaac", null ],
     [ "currentVolumeMaterial", "class_acts_1_1_navigator.html#a8871dbc07e018a7457c72e2c15f3cdeb", null ],
