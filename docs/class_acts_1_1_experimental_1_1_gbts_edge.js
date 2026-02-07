@@ -8,5 +8,5 @@ var class_acts_1_1_experimental_1_1_gbts_edge =
     [ "m_next", "class_acts_1_1_experimental_1_1_gbts_edge.html#a98630309343ac0705e5e8deb7bfef458", null ],
     [ "m_nNei", "class_acts_1_1_experimental_1_1_gbts_edge.html#a754f39eec94974c949e79392a22bcf21", null ],
     [ "m_p", "class_acts_1_1_experimental_1_1_gbts_edge.html#a0d2290171c949330ea885f50de646196", null ],
-    [ "m_vNei", "class_acts_1_1_experimental_1_1_gbts_edge.html#a6aeca2e3c46dea26727a5d6d9bef34ba", null ]
+    [ "m_vNei", "class_acts_1_1_experimental_1_1_gbts_edge.html#a256da2f3deb804b44723d514c9edbb24", null ]
 ];

@@ -56,7 +56,7 @@ var namespace_acts_1_1_experimental =
     [ "Histogram1", "namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc", null ],
     [ "Histogram2", "namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b", null ],
     [ "ProfileHistogram1", "namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484", null ],
-    [ "SPContainerComponentsType", "namespace_acts_1_1_experimental.html#a5e17d045983c8d4deba2ca194a7d5336", null ],
+    [ "SPContainerComponentsType", "namespace_acts_1_1_experimental.html#aa5331d44d3d8b9792083abd5754d8bff", null ],
     [ "GlobalChiSquareFitterError", "group__errors.html#ga743e4af777584b0f5274baa245f128d2", [
       [ "AIsNotInvertible", "group__errors.html#gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b", null ],
       [ "DidNotConverge", "group__errors.html#gga743e4af777584b0f5274baa245f128d2a3b3d2eb22dedef6fb1b0764f548a47ad", null ],
@@ -87,6 +87,6 @@ var namespace_acts_1_1_experimental =
     [ "to_json", "group__json__plugin.html#ga2e409bb699770dae2ec6955721e6b156", null ],
     [ "updateGx2fCovarianceParams", "group__track__fitting.html#gad4f1ce6c1ef539c4290db1d05ffcd0d7", null ],
     [ "updateGx2fParams", "group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362", null ],
-    [ "MAX_SEG_PER_NODE", "namespace_acts_1_1_experimental.html#a9931450d96cee43f145b2b10a6a587a7", null ],
-    [ "N_SEG_CONNS", "namespace_acts_1_1_experimental.html#a980d415bd59cbe64f83505f18865ef47", null ]
+    [ "gbtsMaxSegPerNode", "namespace_acts_1_1_experimental.html#ac1004bfbc2e0e4d5c5e3a0342f3bb08c", null ],
+    [ "gbtsNumSegConns", "namespace_acts_1_1_experimental.html#a5075698390536c386c95f4179ebb6e65", null ]
 ];

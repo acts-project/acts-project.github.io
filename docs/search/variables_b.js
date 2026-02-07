@@ -52,7 +52,7 @@ var searchData=
   ['location_49',['location',['../struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a3c5321e0bb8e7f4206da59d7dda1beb0',1,'ActsFatras::LandauDistribution::param_type']]],
   ['logger_50',['logger',['../struct_acts_fatras_1_1_single_particle_simulation.html#a45c6caf690469fbfc41946180d66ca28',1,'ActsFatras::SingleParticleSimulation']]],
   ['lowerbound_51',['lowerBound',['../struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03',1,'Acts::GaussianTrackDensity::TrackEntry']]],
-  ['lrtmode_52',['LRTmode',['../struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#a6006c53d447ef78f4d781237f160d5be',1,'Acts::Experimental::SeedFinderGbtsConfig']]],
+  ['lrtmode_52',['lrtMode',['../struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#aa77cd4d8805d21ac12c995e7963556d7',1,'Acts::Experimental::SeedFinderGbtsConfig']]],
   ['luminousregion_53',['luminousRegion',['../struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77',1,'Acts::ProjectedReferenceGenerator']]],
   ['lutinputfile_54',['lutInputFile',['../struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#a5ab36dd64aa3ae0cb3937edd264f8623',1,'Acts::Experimental::SeedFinderGbtsConfig']]]
 ];

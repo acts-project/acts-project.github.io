@@ -232,7 +232,7 @@ var hierarchy =
     [ "Acts::Experimental::RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html", null ],
     [ "Acts::Experimental::ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", null ],
     [ "Acts::Experimental::SeedFinderGbts", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html", null ],
-    [ "Acts::Experimental::SeedFinderGbts::seedProperties", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html", null ],
+    [ "Acts::Experimental::SeedFinderGbts::SeedProperties", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html", null ],
     [ "Acts::Experimental::SeedFinderGbtsConfig", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html", null ],
     [ "Acts::Experimental::TrigInDetSiLayer", "class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html", null ],
     [ "Acts::ExpSafeLimit&lt; T &gt;", "struct_acts_1_1_exp_safe_limit.html", null ],

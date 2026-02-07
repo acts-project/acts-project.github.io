@@ -45,7 +45,7 @@ var searchData=
   ['addmaterialtogx2fsums_42',['addMaterialToGx2fSums',['../group__track__fitting.html#ga2e4730c98bab4db36b6caaba7a1b606b',1,'Acts::Experimental']]],
   ['addmeasurementtogx2fsums_43',['addMeasurementToGx2fSums',['../group__track__fitting.html#ga6b4ab37353c322c5e6a328b74148bf8a',1,'Acts::Experimental']]],
   ['addmeasurementtogx2fsumsbackend_44',['addMeasurementToGx2fSumsBackend',['../group__track__fitting.html#ga5dc7667fa9886694323a291f67ebd831',1,'Acts::Experimental']]],
-  ['addnewlayer_45',['addNewLayer',['../class_acts_1_1_experimental_1_1_gbts_geometry.html#ab005944928a970fd2474b8d7940dad8d',1,'Acts::Experimental::GbtsGeometry']]],
+  ['addnewlayer_45',['addNewLayer',['../class_acts_1_1_experimental_1_1_gbts_geometry.html#aa35c3169843a3fe5a7f055e4e7dffebf',1,'Acts::Experimental::GbtsGeometry']]],
   ['addportal_46',['addPortal',['../class_acts_1_1_tracking_volume.html#a9d89857a653f525a05d51d4627f2f9b3',1,'Acts::TrackingVolume']]],
   ['addportalcandidate_47',['addPortalCandidate',['../class_acts_1_1_navigation_stream.html#a0a90d0c507100b1d5256f7b648de6a7a',1,'Acts::NavigationStream::addPortalCandidate()'],['../class_acts_1_1_append_only_navigation_stream.html#af33bdf691e41a3575063905134cd947d',1,'Acts::AppendOnlyNavigationStream::addPortalCandidate()']]],
   ['addrow_48',['addRow',['../class_acts_1_1_table.html#a0be5e15cf98797549c69dd905611b671',1,'Acts::Table']]],

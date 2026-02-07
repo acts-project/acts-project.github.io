@@ -22,7 +22,7 @@ var searchData=
   ['seedfinderorthogonalconfig_19',['SeedFinderOrthogonalConfig',['../struct_acts_1_1_seed_finder_orthogonal_config.html',1,'Acts']]],
   ['seedfinderorthogonalconfig_3c_20external_5fspacepoint_5ft_20_3e_20',['SeedFinderOrthogonalConfig&lt; external_spacepoint_t &gt;',['../struct_acts_1_1_seed_finder_orthogonal_config.html',1,'Acts']]],
   ['seedingstate_21',['SeedingState',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_seeding_state.html',1,'Acts::Experimental::CompositeSpacePointLineSeeder::SeedingState&lt; UncalibCont_t, CalibCont_t, Delegate_t &gt;'],['../struct_acts_1_1_seed_finder_1_1_seeding_state.html',1,'Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedingState']]],
-  ['seedproperties_22',['seedProperties',['../struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1seed_properties.html',1,'Acts::Experimental::SeedFinderGbts']]],
+  ['seedproperties_22',['SeedProperties',['../struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html',1,'Acts::Experimental::SeedFinderGbts']]],
   ['seedproxy2_23',['SeedProxy2',['../class_acts_1_1_seed_proxy2.html',1,'Acts']]],
   ['seedproxy2_3c_20false_20_3e_24',['SeedProxy2&lt; false &gt;',['../class_acts_1_1_seed_proxy2.html',1,'Acts']]],
   ['seedproxy2_3c_20true_20_3e_25',['SeedProxy2&lt; true &gt;',['../class_acts_1_1_seed_proxy2.html',1,'Acts']]],

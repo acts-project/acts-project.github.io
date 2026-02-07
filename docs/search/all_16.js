@@ -275,7 +275,7 @@ var searchData=
   ['tree_5ft_272',['tree_t',['../class_acts_1_1_seed_finder_orthogonal.html#aaf3565a0b7db51ad7db4adec1cd98b6d',1,'Acts::SeedFinderOrthogonal']]],
   ['triangularmesh_273',['triangularMesh',['../struct_acts_1_1_polyhedron.html#aade98f3c755acfbea6c723966e861060',1,'Acts::Polyhedron']]],
   ['triangulate_274',['triangulate',['../struct_acts_1_1_view_config.html#a1ac48ea178e09c0c3b99507165cc98bb',1,'Acts::ViewConfig']]],
-  ['trigindetsilayer_275',['TrigInDetSiLayer',['../class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html',1,'Acts::Experimental::TrigInDetSiLayer'],['../class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html#a7a5e831adda342c4e1855066873547f3',1,'Acts::Experimental::TrigInDetSiLayer::TrigInDetSiLayer()']]],
+  ['trigindetsilayer_275',['TrigInDetSiLayer',['../class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html',1,'Acts::Experimental::TrigInDetSiLayer'],['../class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html#ac52d14a9941a2bfeab6b6830eb453bf7',1,'Acts::Experimental::TrigInDetSiLayer::TrigInDetSiLayer()']]],
   ['trimtrack_276',['trimTrack',['../namespace_acts.html#a6e6d2189fe95760f3a86d6ebe3b9c4c5',1,'Acts']]],
   ['trimtrackback_277',['trimTrackBack',['../namespace_acts.html#a324f2413eb01813d83b0e41bddf41e0a',1,'Acts']]],
   ['trimtrackfront_278',['trimTrackFront',['../namespace_acts.html#ad010dd74247d5542680768a03ce1fd08',1,'Acts']]],

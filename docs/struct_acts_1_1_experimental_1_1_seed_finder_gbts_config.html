@@ -165,9 +165,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>edge_mask_min_eta</b
 <tr class="memitem:ae1f909aed45613a11a4bb70fcfd262c8" id="r_ae1f909aed45613a11a4bb70fcfd262c8"><td class="memItemLeft" align="right" valign="top"><a id="ae1f909aed45613a11a4bb70fcfd262c8" name="ae1f909aed45613a11a4bb70fcfd262c8"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>hit_share_threshold</b> = 0.49</td></tr>
 <tr class="memdesc:ae1f909aed45613a11a4bb70fcfd262c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold for hit sharing between seeds. <br /></td></tr>
-<tr class="memitem:a6006c53d447ef78f4d781237f160d5be" id="r_a6006c53d447ef78f4d781237f160d5be"><td class="memItemLeft" align="right" valign="top"><a id="a6006c53d447ef78f4d781237f160d5be" name="a6006c53d447ef78f4d781237f160d5be"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>LRTmode</b> = false</td></tr>
-<tr class="memdesc:a6006c53d447ef78f4d781237f160d5be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Large Radius Tracking mode. <br /></td></tr>
+<tr class="memitem:aa77cd4d8805d21ac12c995e7963556d7" id="r_aa77cd4d8805d21ac12c995e7963556d7"><td class="memItemLeft" align="right" valign="top"><a id="aa77cd4d8805d21ac12c995e7963556d7" name="aa77cd4d8805d21ac12c995e7963556d7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>lrtMode</b> = false</td></tr>
+<tr class="memdesc:aa77cd4d8805d21ac12c995e7963556d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Large Radius Tracking mode. <br /></td></tr>
 <tr class="memitem:a5ab36dd64aa3ae0cb3937edd264f8623" id="r_a5ab36dd64aa3ae0cb3937edd264f8623"><td class="memItemLeft" align="right" valign="top"><a id="a5ab36dd64aa3ae0cb3937edd264f8623" name="a5ab36dd64aa3ae0cb3937edd264f8623"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>lutInputFile</b></td></tr>
 <tr class="memdesc:a5ab36dd64aa3ae0cb3937edd264f8623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look-up table input file path. <br /></td></tr>
@@ -193,19 +193,20 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>maxDChi2_y</b> = 6.0
 float&#160;</td><td class="memItemRight" valign="bottom"><b>minDeltaRadius</b> = 2.0</td></tr>
 <tr class="memdesc:a926508914f04cfdf73d33dcf42b6c458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum delta radius between layers. <br /></td></tr>
 <tr class="memitem:a9b07d4b6b1c961e1c95a7dcfa052143a" id="r_a9b07d4b6b1c961e1c95a7dcfa052143a"><td class="memItemLeft" align="right" valign="top"><a id="a9b07d4b6b1c961e1c95a7dcfa052143a" name="a9b07d4b6b1c961e1c95a7dcfa052143a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>minPt</b> = 1000. * <a class="el" href="namespace_acts_1_1_unit_constants.html#aa9c5856d1aeb24b113eb4eb6907b1bab">UnitConstants::MeV</a></td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>minPt</b> = 1.0f * <a class="el" href="namespace_acts_1_1_unit_constants.html#ac72f496e47d9f3eb447b8348962e49b5">UnitConstants::GeV</a></td></tr>
 <tr class="memdesc:a9b07d4b6b1c961e1c95a7dcfa052143a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum transverse momentum. <br /></td></tr>
-<tr class="memitem:a16dc6037656f459bf887a4a811b70f96" id="r_a16dc6037656f459bf887a4a811b70f96"><td class="memItemLeft" align="right" valign="top"><a id="a16dc6037656f459bf887a4a811b70f96" name="a16dc6037656f459bf887a4a811b70f96"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nMaxEdges</b> = 2000000</td></tr>
-<tr class="memdesc:a16dc6037656f459bf887a4a811b70f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of Gbts edges/doublets. <br /></td></tr>
+<tr class="memitem:a6988c7a9643dc70da33399be05556d93" id="r_a6988c7a9643dc70da33399be05556d93"><td class="memItemLeft" align="right" valign="top"><a id="a6988c7a9643dc70da33399be05556d93" name="a6988c7a9643dc70da33399be05556d93"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nMaxEdges</b> = 2000000</td></tr>
+<tr class="memdesc:a6988c7a9643dc70da33399be05556d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of Gbts edges/doublets. <br /></td></tr>
 <tr class="memitem:a196b711dc5722a8e89f5dbf6f03c650b" id="r_a196b711dc5722a8e89f5dbf6f03c650b"><td class="memItemLeft" align="right" valign="top"><a id="a196b711dc5722a8e89f5dbf6f03c650b" name="a196b711dc5722a8e89f5dbf6f03c650b"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>nMaxPhiSlice</b> = 53</td></tr>
 <tr class="memdesc:a196b711dc5722a8e89f5dbf6f03c650b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of phi slices. <br /></td></tr>
 <tr class="memitem:a0e90c868e8a54082571cbe5611df3618" id="r_a0e90c868e8a54082571cbe5611df3618"><td class="memItemLeft" align="right" valign="top"><a id="a0e90c868e8a54082571cbe5611df3618" name="a0e90c868e8a54082571cbe5611df3618"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>phiSliceWidth</b> {}</td></tr>
 <tr class="memdesc:a0e90c868e8a54082571cbe5611df3618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phi slice width (derived in CreateSeeds function). <br /></td></tr>
-<tr class="memitem:a7b32e84a5d368645dc42a135bdb14729" id="r_a7b32e84a5d368645dc42a135bdb14729"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b32e84a5d368645dc42a135bdb14729">ptCoeff</a></td></tr>
-<tr class="memdesc:a7b32e84a5d368645dc42a135bdb14729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transverse momentum coefficient (~0.3*B/2 - assumes nominal field of 2*T).  <br /></td></tr>
+<tr class="memitem:a7b32e84a5d368645dc42a135bdb14729" id="r_a7b32e84a5d368645dc42a135bdb14729"><td class="memItemLeft" align="right" valign="top"><a id="a7b32e84a5d368645dc42a135bdb14729" name="a7b32e84a5d368645dc42a135bdb14729"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>ptCoeff</b> = 0.29997 * 1.9972 / 2.0</td></tr>
+<tr class="memdesc:a7b32e84a5d368645dc42a135bdb14729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transverse momentum coefficient (~0.3*B/2 - assumes nominal field of 2*T). <br /></td></tr>
 <tr class="memitem:abad3ee804a24dad2c25bf7e04bbb92d0" id="r_abad3ee804a24dad2c25bf7e04bbb92d0"><td class="memItemLeft" align="right" valign="top"><a id="abad3ee804a24dad2c25bf7e04bbb92d0" name="abad3ee804a24dad2c25bf7e04bbb92d0"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>radLen</b> = 0.025</td></tr>
 <tr class="memdesc:abad3ee804a24dad2c25bf7e04bbb92d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radiation length fraction per layer (2.5% per layer). <br /></td></tr>
@@ -299,24 +300,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>weight_y</b> = 0.5</
 <div class="line">      0.0f</div>
 </div><!-- fragment -->
 <p>Eta bin width override (0 uses default from connection file). </p>
-
-</div>
-</div>
-<a id="a7b32e84a5d368645dc42a135bdb14729" name="a7b32e84a5d368645dc42a135bdb14729"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b32e84a5d368645dc42a135bdb14729">&#9670;&#160;</a></span>ptCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Acts::Experimental::SeedFinderGbtsConfig::ptCoeff</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      0.29997 * 1.9972 / 2.0</div>
-</div><!-- fragment -->
-<p>Transverse momentum coefficient (~0.3*B/2 - assumes nominal field of 2*T). </p>
 
 </div>
 </div>
