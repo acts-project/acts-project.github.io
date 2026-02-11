@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[6,0,0,238,0,1],
+"struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2":[8,0,0,246,0,1],
 "struct_acts_1_1_lin_circle.html":[6,0,0,239],
 "struct_acts_1_1_lin_circle.html":[8,0,0,247],
 "struct_acts_1_1_lin_circle.html#a0f841965beeb0a3911d3070e29503aa3":[6,0,0,239,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_navigation_stream_1_1_query_point.html":[6,0,0,278,0],
 "struct_acts_1_1_navigation_stream_1_1_query_point.html":[8,0,0,286,0],
 "struct_acts_1_1_navigation_stream_1_1_query_point.html#aa1219469627fcf0226131c226cbed88b":[6,0,0,278,0,0],
-"struct_acts_1_1_navigation_stream_1_1_query_point.html#aa1219469627fcf0226131c226cbed88b":[8,0,0,286,0,0],
-"struct_acts_1_1_navigation_stream_1_1_query_point.html#ab882e3b8a84d0e9054839644b64dcfb8":[6,0,0,278,0,1],
-"struct_acts_1_1_navigation_stream_1_1_query_point.html#ab882e3b8a84d0e9054839644b64dcfb8":[8,0,0,286,0,1]
+"struct_acts_1_1_navigation_stream_1_1_query_point.html#aa1219469627fcf0226131c226cbed88b":[8,0,0,286,0,0]
 };

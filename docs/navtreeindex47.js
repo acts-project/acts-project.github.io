@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_atlas_stepper_1_1_state.html#ab1f318320ffe8a75d0dcea82ef24a98b":[8,0,0,43,2,25],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#ac5d94694b54896c4a7c9883ec493133a":[6,0,0,35,2,26],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#ac5d94694b54896c4a7c9883ec493133a":[8,0,0,43,2,26],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2":[6,0,0,35,2,15],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2":[8,0,0,43,2,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2e9f0a59f5fe5f290057dc4b64f5ad80":[8,0,0,90,1,8],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a51440034729341e3d8e59b9bdf7869ae":[6,0,0,82,1,7],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a51440034729341e3d8e59b9bdf7869ae":[8,0,0,90,1,7],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[6,0,0,82,1,9],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[8,0,0,90,1,9],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a6bb01e0abe77802004d8960680ae4145":[6,0,0,82,1,1]
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[6,0,0,82,1,9]
 };

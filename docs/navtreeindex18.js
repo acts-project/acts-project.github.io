@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_acts_1_1_i_grid_surface_material_base.html":[5,3,2,13],
+"class_acts_1_1_i_layer_array_creator.html":[6,0,0,181],
 "class_acts_1_1_i_layer_array_creator.html":[8,0,0,189],
 "class_acts_1_1_i_layer_array_creator.html#adca0ea4332d78911ca760bb705544c5c":[6,0,0,181,1],
 "class_acts_1_1_i_layer_array_creator.html#adca0ea4332d78911ca760bb705544c5c":[8,0,0,189,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_acts_1_1_infinite_bounds.html#af481d2e883ac004ef5bca011aaa409b2":[8,0,0,200,3],
 "class_acts_1_1_interpolated_b_field_map.html":[5,3,1,1],
 "class_acts_1_1_interpolated_b_field_map.html":[5,9,0,1],
-"class_acts_1_1_interpolated_b_field_map.html#a2040f18dfa17f426a2f9df531c89722b":[5,3,1,1,15],
-"class_acts_1_1_interpolated_b_field_map.html#a2040f18dfa17f426a2f9df531c89722b":[5,9,0,1,15],
-"class_acts_1_1_interpolated_b_field_map.html#a293e3a0400c18a307e9a5fe6e104d7ff":[5,3,1,1,17]
+"class_acts_1_1_interpolated_b_field_map.html#a2040f18dfa17f426a2f9df531c89722b":[5,3,1,1,15]
 };

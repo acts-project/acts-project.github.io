@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a58f78ec7bdd22e3086b0388631323c26":[8,0,0,13,0,2],
+"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a656dc079210078a31fb4860522909ce6":[8,0,0,13,0,3],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#aeaac5fe821760f51006dfc9635cfa482":[8,0,0,13,0,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html":[8,0,0,13,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#a16d94cfd84956fafa0582baa22f202c7":[8,0,0,13,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a599a0d65015b4866e7fe3d62188075a9":[6,0,0,400,2,13],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a599a0d65015b4866e7fe3d62188075a9":[8,0,0,408,2,13],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a62198fb4e23b5bada78f7d04fbf64755":[6,0,0,400,2,12],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a62198fb4e23b5bada78f7d04fbf64755":[8,0,0,408,2,12],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a632405a133655ca77ba863972999080f":[6,0,0,400,2,1],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a632405a133655ca77ba863972999080f":[8,0,0,408,2,1]
+"struct_acts_1_1_sympy_stepper_1_1_state.html#a62198fb4e23b5bada78f7d04fbf64755":[8,0,0,408,2,12]
 };

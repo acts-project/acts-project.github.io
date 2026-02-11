@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[8,0,1,35,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[6,0,2,34,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[8,0,1,35,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[6,0,2,34,1,2],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[8,0,1,35,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_gnn_timing.html":[5,8,7,7],
 "struct_acts_plugins_1_1_gnn_timing.html#a21d7f699b42493f04aadb08f02af17a2":[5,8,7,7,2],
 "struct_acts_plugins_1_1_gnn_timing.html#a3de440d1e92e37fcba509043e648a56c":[5,8,7,7,3],
-"struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace":[5,8,7,7,0],
-"struct_acts_plugins_1_1_gnn_timing.html#a9a98e199ad0210ff2e3ef5f477da9e39":[5,8,7,7,1],
-"struct_acts_plugins_1_1_hashing_algorithm_config.html":[5,8,10,1]
+"struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace":[5,8,7,7,0]
 };

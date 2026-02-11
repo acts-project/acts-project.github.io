@@ -365,8 +365,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae735c7f377c9d136cd0dae9b404e1363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uncalibrated measurement in the form of a source link.  <br /></td></tr>
 <tr class="memitem:ad9e34422bd144eca89d0a0a3a3b085ab" id="r_ad9e34422bd144eca89d0a0a3a3b085ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e34422bd144eca89d0a0a3a3b085ab">setUncalibratedSourceLink</a> (<a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &amp;&amp;sourceLink)</td></tr>
 <tr class="memdesc:ad9e34422bd144eca89d0a0a3a3b085ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an uncalibrated source link.  <br /></td></tr>
-<tr class="memitem:a9861fa7fb806028eb6ab74c98152e9c1" id="r_a9861fa7fb806028eb6ab74c98152e9c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9861fa7fb806028eb6ab74c98152e9c1">hasUncalibratedSourceLink</a> () const</td></tr>
-<tr class="memdesc:a9861fa7fb806028eb6ab74c98152e9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the point has an associated uncalibrated measurement.  <br /></td></tr>
 <tr class="memitem:a9288cb73d98dd95221ae6dd086d802fd" id="r_a9288cb73d98dd95221ae6dd086d802fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a88faa591bbaae408e41c6db7fb39e0e5">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9288cb73d98dd95221ae6dd086d802fd">calibratedSize</a> () const</td></tr>
 <tr class="memdesc:a9288cb73d98dd95221ae6dd086d802fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the (dynamic) number of dimensions stored for this measurement.  <br /></td></tr>
 <tr class="memitem:a8a6f76ec69c3de04836a2d2982be565a" id="r_a8a6f76ec69c3de04836a2d2982be565a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a6f76ec69c3de04836a2d2982be565a">allocateCalibrated</a> (std::size_t measdim)</td></tr>
@@ -461,6 +459,8 @@ requires (!<a class="el" href="#a99b5acfc879ef16dc1c017452b5bbe87">ReadOnly</a>)
 <tr class="memdesc:a09e8129dc01278f91c0c0a98967e2438 inherit pub_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for presence of a measurement projector.  <br /></td></tr>
 <tr class="memitem:ac134ba5a7322e18dd19d34de4b52bcf4 inherit pub_methods_class_acts_1_1_track_state_proxy_common" id="r_ac134ba5a7322e18dd19d34de4b52bcf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#ac134ba5a7322e18dd19d34de4b52bcf4">hasSmoothed</a> () const</td></tr>
 <tr class="memdesc:ac134ba5a7322e18dd19d34de4b52bcf4 inherit pub_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for presence of smoothed track parameters.  <br /></td></tr>
+<tr class="memitem:acf6c7c7a02560ae37fac4946c8934e0e inherit pub_methods_class_acts_1_1_track_state_proxy_common" id="r_acf6c7c7a02560ae37fac4946c8934e0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#acf6c7c7a02560ae37fac4946c8934e0e">hasUncalibratedSourceLink</a> () const</td></tr>
+<tr class="memdesc:acf6c7c7a02560ae37fac4946c8934e0e inherit pub_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for presence of an uncalibrated source link.  <br /></td></tr>
 <tr class="memitem:a6c71b60c654cdf30f156e51816cbf86e inherit pub_methods_class_acts_1_1_track_state_proxy_common" id="r_a6c71b60c654cdf30f156e51816cbf86e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#aae5aa77e2e24848e8b241d784ad23dfd">ConstParametersMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#a6c71b60c654cdf30f156e51816cbf86e">parameters</a> () const</td></tr>
 <tr class="memdesc:a6c71b60c654cdf30f156e51816cbf86e inherit pub_methods_class_acts_1_1_track_state_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the best available parameters (smoothed, filtered, or predicted).  <br /></td></tr>
 <tr class="memitem:aac65653b4fb788bdc1a796f934f7d9d6 inherit pub_methods_class_acts_1_1_track_state_proxy_common" id="r_aac65653b4fb788bdc1a796f934f7d9d6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_state_proxy_common.html#aac65653b4fb788bdc1a796f934f7d9d6">pathLength</a> () const</td></tr>
@@ -2143,28 +2143,6 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 
 <p>Check for presence of smoothed track parameters. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the smoothed component exists. </dd></dl>
-
-</div>
-</div>
-<a id="a9861fa7fb806028eb6ab74c98152e9c1" name="a9861fa7fb806028eb6ab74c98152e9c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9861fa7fb806028eb6ab74c98152e9c1">&#9670;&#160;</a></span>hasUncalibratedSourceLink()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy.html">Acts::TrackStateProxy</a>&lt; trajectory_t, M, read_only &gt;::hasUncalibratedSourceLink </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check if the point has an associated uncalibrated measurement. </p>
-<dl class="section return"><dt>Returns</dt><dd>Whether it is set </dd></dl>
 
 </div>
 </div>

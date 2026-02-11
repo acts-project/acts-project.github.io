@@ -214,6 +214,8 @@ requires (!read_only)</td></tr>
 <tr class="memdesc:a09e8129dc01278f91c0c0a98967e2438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for presence of a measurement projector.  <br /></td></tr>
 <tr class="memitem:ac134ba5a7322e18dd19d34de4b52bcf4" id="r_ac134ba5a7322e18dd19d34de4b52bcf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac134ba5a7322e18dd19d34de4b52bcf4">hasSmoothed</a> () const</td></tr>
 <tr class="memdesc:ac134ba5a7322e18dd19d34de4b52bcf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for presence of smoothed track parameters.  <br /></td></tr>
+<tr class="memitem:acf6c7c7a02560ae37fac4946c8934e0e" id="r_acf6c7c7a02560ae37fac4946c8934e0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6c7c7a02560ae37fac4946c8934e0e">hasUncalibratedSourceLink</a> () const</td></tr>
+<tr class="memdesc:acf6c7c7a02560ae37fac4946c8934e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for presence of an uncalibrated source link.  <br /></td></tr>
 <tr class="memitem:a6c71b60c654cdf30f156e51816cbf86e" id="r_a6c71b60c654cdf30f156e51816cbf86e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aae5aa77e2e24848e8b241d784ad23dfd">ConstParametersMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c71b60c654cdf30f156e51816cbf86e">parameters</a> () const</td></tr>
 <tr class="memdesc:a6c71b60c654cdf30f156e51816cbf86e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the best available parameters (smoothed, filtered, or predicted).  <br /></td></tr>
 <tr class="memitem:afa2f19195e7339ea0ea9c6ff1130e018" id="r_afa2f19195e7339ea0ea9c6ff1130e018"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa2f19195e7339ea0ea9c6ff1130e018">pathLength</a> ()</td></tr>
@@ -1084,6 +1086,28 @@ template&lt;typename Derived, bool read_only&gt; </div>
 
 <p>Check for presence of smoothed track parameters. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the smoothed component exists. </dd></dl>
+
+</div>
+</div>
+<a id="acf6c7c7a02560ae37fac4946c8934e0e" name="acf6c7c7a02560ae37fac4946c8934e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6c7c7a02560ae37fac4946c8934e0e">&#9670;&#160;</a></span>hasUncalibratedSourceLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Derived, bool read_only&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_state_proxy_common.html">Acts::TrackStateProxyCommon</a>&lt; Derived, read_only &gt;::hasUncalibratedSourceLink </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check for presence of an uncalibrated source link. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if an uncalibrated source link is stored. </dd></dl>
 
 </div>
 </div>

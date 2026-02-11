@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"class_acts_1_1_binned_surface_material.html#a0678c18dbd2d0049b6561860c64f8689":[5,3,2,4,1],
+"class_acts_1_1_binned_surface_material.html#a21c75deba7263c4428d0a612f6069b99":[5,3,2,4,5],
 "class_acts_1_1_binned_surface_material.html#a512b28c9238f17db2c8ae36245ca406b":[5,3,2,4,13],
 "class_acts_1_1_binned_surface_material.html#a53fb16bddca84dc4809edb9d09cc1c96":[5,3,2,4,3],
 "class_acts_1_1_binned_surface_material.html#a57c67692911c878a906319e8a8ffcd5d":[5,3,2,4,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_cone_bounds.html#a03a66d5c549c8b8ba1c34f942f7e6400":[8,0,0,75,12],
 "class_acts_1_1_cone_bounds.html#a05906f136b5759b97e7c09c5528cd343":[6,0,0,67,14],
 "class_acts_1_1_cone_bounds.html#a05906f136b5759b97e7c09c5528cd343":[8,0,0,75,14],
-"class_acts_1_1_cone_bounds.html#a1d72dcbcfcff8798eb4a4725d28db7f8":[6,0,0,67,6],
-"class_acts_1_1_cone_bounds.html#a1d72dcbcfcff8798eb4a4725d28db7f8":[8,0,0,75,6],
-"class_acts_1_1_cone_bounds.html#a31f581c9055fb6292f13e2e7430b267b":[6,0,0,67,2]
+"class_acts_1_1_cone_bounds.html#a1d72dcbcfcff8798eb4a4725d28db7f8":[6,0,0,67,6]
 };

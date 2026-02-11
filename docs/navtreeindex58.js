@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a4c24c112195d3bf66e748817f4b28c12":[8,0,0,361,6],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a510c1765a60c136d709ecdc533853d6f":[6,0,0,353,19],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a510c1765a60c136d709ecdc533853d6f":[8,0,0,361,19],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a53704f5e8d48570836b1b561e7021c59":[6,0,0,353,20],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a53704f5e8d48570836b1b561e7021c59":[8,0,0,361,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_strip_pair_options.html#ab7f584230c0afd4881bd6f223492c163":[6,0,0,382,2],
 "struct_acts_1_1_strip_pair_options.html#ab7f584230c0afd4881bd6f223492c163":[8,0,0,390,2],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html":[8,0,0,13,0],
-"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a0228b6f3bf61608d70c1eccc5353181d":[8,0,0,13,0,0],
-"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a58f78ec7bdd22e3086b0388631323c26":[8,0,0,13,0,2],
-"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a656dc079210078a31fb4860522909ce6":[8,0,0,13,0,3]
+"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a0228b6f3bf61608d70c1eccc5353181d":[8,0,0,13,0,0]
 };
