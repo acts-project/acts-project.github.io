@@ -1,17 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"struct_acts_1_1_projected_reference_generator.html":[8,0,0,322],
-"struct_acts_1_1_projected_reference_generator.html#a4f823da84889ecf711d1a011661c8ff5":[6,0,0,314,1],
-"struct_acts_1_1_projected_reference_generator.html#a4f823da84889ecf711d1a011661c8ff5":[8,0,0,322,1],
-"struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77":[6,0,0,314,2],
-"struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77":[8,0,0,322,2],
-"struct_acts_1_1_projected_reference_generator.html#a8899f92a52e1b454a2cdc7af31720696":[6,0,0,314,0],
-"struct_acts_1_1_projected_reference_generator.html#a8899f92a52e1b454a2cdc7af31720696":[8,0,0,322,0],
-"struct_acts_1_1_projected_reference_generator.html#ab0b401b716e3ab69bb15e317d2244206":[6,0,0,314,3],
-"struct_acts_1_1_projected_reference_generator.html#ab0b401b716e3ab69bb15e317d2244206":[8,0,0,322,3],
-"struct_acts_1_1_projected_reference_generator.html#ac3fc0675be478b09e01d189f81e0f702":[6,0,0,314,4],
-"struct_acts_1_1_projected_reference_generator.html#ac3fc0675be478b09e01d189f81e0f702":[8,0,0,322,4],
-"struct_acts_1_1_propagator_options.html":[6,0,0,317],
 "struct_acts_1_1_propagator_options.html":[8,0,0,325],
 "struct_acts_1_1_propagator_options.html#a0ac797193d8a738f7204dbb5c42501bc":[6,0,0,317,2],
 "struct_acts_1_1_propagator_options.html#a0ac797193d8a738f7204dbb5c42501bc":[8,0,0,325,2],
@@ -249,5 +237,17 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[8,0,0,350,3,1],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[6,0,0,342,3,0],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[8,0,0,350,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[6,0,0,342,3,2]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[6,0,0,342,3,2],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[8,0,0,350,3,2],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[6,0,0,342,3,3],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[8,0,0,350,3,3],
+"struct_acts_1_1_seed_confirmation_range_config.html":[6,0,0,344],
+"struct_acts_1_1_seed_confirmation_range_config.html":[8,0,0,352],
+"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[6,0,0,344,4],
+"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[8,0,0,352,4],
+"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[6,0,0,344,5],
+"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[8,0,0,352,5],
+"struct_acts_1_1_seed_confirmation_range_config.html#a7e8dc6c35ec546e4b608daf565ebd46a":[6,0,0,344,3],
+"struct_acts_1_1_seed_confirmation_range_config.html#a7e8dc6c35ec546e4b608daf565ebd46a":[8,0,0,352,3],
+"struct_acts_1_1_seed_confirmation_range_config.html#a8fcecb7b38eda57122080724c7e1be01":[6,0,0,344,7]
 };

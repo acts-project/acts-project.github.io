@@ -49,8 +49,7 @@ var searchData=
   ['btypephi_46',['bTypePhi',['../struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ad90d3f801f2e2f0579eed0e6802ace2d',1,'ActsPlugins::DD4hepLayerBuilder::Config']]],
   ['btyper_47',['bTypeR',['../struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ab4841249faa891db39e229526126b9a5',1,'ActsPlugins::DD4hepLayerBuilder::Config']]],
   ['btypez_48',['bTypeZ',['../struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a6b994c0a72ff176b5c7f7bf584e899f1',1,'ActsPlugins::DD4hepLayerBuilder::Config']]],
-  ['bucketsize_49',['bucketSize',['../struct_acts_plugins_1_1_hashing_algorithm_config.html#a717a820b23736dc9f0e5924e2bb2d628',1,'ActsPlugins::HashingAlgorithmConfig']]],
-  ['buildtoradiuszero_50',['buildToRadiusZero',['../struct_acts_1_1_cylinder_volume_builder_1_1_config.html#adb55ae97e8be9b4af267555f461f5a95',1,'Acts::CylinderVolumeBuilder::Config']]],
-  ['busylayerlimit_51',['busyLayerLimit',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#ad7e39e2ff4649933525a47b1f5307511',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Config']]],
-  ['busylimitcountgood_52',['busyLimitCountGood',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#a77447ed643e8ae1bdfdd1dc175d28b43',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Config']]]
+  ['buildtoradiuszero_49',['buildToRadiusZero',['../struct_acts_1_1_cylinder_volume_builder_1_1_config.html#adb55ae97e8be9b4af267555f461f5a95',1,'Acts::CylinderVolumeBuilder::Config']]],
+  ['busylayerlimit_50',['busyLayerLimit',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#ad7e39e2ff4649933525a47b1f5307511',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Config']]],
+  ['busylimitcountgood_51',['busyLimitCountGood',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#a77447ed643e8ae1bdfdd1dc175d28b43',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Config']]]
 ];

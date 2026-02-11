@@ -1,15 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"class_acts_plugins_1_1_t_geo_layer_builder.html#afcb2b7854195c49037038692aa457074":[5,8,13,9,10],
-"class_acts_plugins_1_1_tensor.html":[5,8,7,14],
-"class_acts_plugins_1_1_tensor.html#a0d5e29967da665cf188b59b8f696218f":[5,8,7,14,6],
-"class_acts_plugins_1_1_tensor.html#a0e3fbe7f9b2180795e0f6c409e42817f":[5,8,7,14,3],
-"class_acts_plugins_1_1_tensor.html#a3b3ad7a522ae066cb38650bbaa5b29cf":[5,8,7,14,0],
-"class_acts_plugins_1_1_tensor.html#a5116cc307034d204c3aac52262760e71":[5,8,7,14,7],
-"class_acts_plugins_1_1_tensor.html#aa146d878dd257a1eacf98f18e8c2d21d":[5,8,7,14,4],
-"class_acts_plugins_1_1_tensor.html#aa64d6e9fe5be8a9029aa0356aa5c6ff0":[5,8,7,14,8],
-"class_acts_plugins_1_1_tensor.html#aa75e55dba73c49c15a17d3cc28f22353":[5,8,7,14,2],
-"class_acts_plugins_1_1_tensor.html#ad7c56ccb124d8a5013f975652512f289":[5,8,7,14,1],
 "class_acts_plugins_1_1_tensor.html#afe5cb69bb86eb20527d5aedf777c7585":[5,8,7,14,5],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html":[5,8,7,15],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a4a8172141409470c3642389cdf260d41":[5,8,7,15,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX41 =
 "functions_vars_s.html":[8,2,2,18],
 "functions_vars_t.html":[8,2,2,19],
 "functions_vars_u.html":[8,2,2,20],
-"functions_vars_v.html":[8,2,2,21]
+"functions_vars_v.html":[8,2,2,21],
+"functions_vars_w.html":[8,2,2,22],
+"functions_vars_x.html":[8,2,2,23],
+"functions_vars_y.html":[8,2,2,24],
+"functions_vars_z.html":[8,2,2,25],
+"functions_w.html":[8,2,0,22],
+"functions_x.html":[8,2,0,23],
+"functions_y.html":[8,2,0,24],
+"functions_z.html":[8,2,0,25],
+"functions_~.html":[8,2,0,26],
+"group__actsvg__plugin.html":[5,8,0]
 };

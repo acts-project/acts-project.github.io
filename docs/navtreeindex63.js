@@ -1,17 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"struct_acts_fatras_1_1_bethe_heitler.html#a9d96b6812b9760d0937cd1bb144cf403":[8,0,1,5,2],
-"struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[6,0,2,4,0],
-"struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[8,0,1,5,0],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html":[6,0,2,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html":[8,0,1,6],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3af82346d7895c7bbbd81ae24abbc94f":[6,0,2,5,0],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3af82346d7895c7bbbd81ae24abbc94f":[8,0,1,6,0],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[6,0,2,5,7],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[8,0,1,6,7],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a4b61ae78162f09deb92a48878ae96644":[6,0,2,5,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a4b61ae78162f09deb92a48878ae96644":[8,0,1,6,5],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a563eaa0338797cc2b66b441edb4ab50f":[6,0,2,5,2],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a563eaa0338797cc2b66b441edb4ab50f":[8,0,1,6,2],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a5b0f49991dd80806a1b48c7d45ad2a2d":[6,0,2,5,4],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a5b0f49991dd80806a1b48c7d45ad2a2d":[8,0,1,6,4],
@@ -249,5 +237,17 @@ var NAVTREEINDEX63 =
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[8,0,1,35,0,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[6,0,2,34,0,0],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[8,0,1,35,0,0],
-"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[6,0,2,34,0,3]
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[6,0,2,34,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[8,0,1,35,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[6,0,2,34,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[8,0,1,35,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[6,0,2,34,1,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[8,0,1,35,1,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[6,0,2,34,1,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[8,0,1,35,1,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[6,0,2,34,1,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[8,0,1,35,1,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a8ebb500bba954af6a6cedcfb5e8500a6":[6,0,2,34,1,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a8ebb500bba954af6a6cedcfb5e8500a6":[8,0,1,35,1,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#acedae300b39757fdcff27f7d39383aad":[6,0,2,34,1,4]
 };

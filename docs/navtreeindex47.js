@@ -1,17 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ab1f318320ffe8a75d0dcea82ef24a98b":[8,0,0,43,2,25],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ac5d94694b54896c4a7c9883ec493133a":[6,0,0,35,2,26],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ac5d94694b54896c4a7c9883ec493133a":[8,0,0,43,2,26],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2":[6,0,0,35,2,15],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ac91d30f1cdc099ac947f438a9ffa19c2":[8,0,0,43,2,15],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#aca20fb95811e29333423c7709ec61156":[6,0,0,35,2,0],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#aca20fb95811e29333423c7709ec61156":[8,0,0,43,2,0],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ad71ad2fcbb566ebb722e8fb735ef9568":[6,0,0,35,2,22],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ad71ad2fcbb566ebb722e8fb735ef9568":[8,0,0,43,2,22],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ad858449be3e43a107e288615aab73679":[6,0,0,35,2,14],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ad858449be3e43a107e288615aab73679":[8,0,0,43,2,14],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#aeb5d203462c2924eced88d60cdbb912b":[6,0,0,35,2,20],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#aeb5d203462c2924eced88d60cdbb912b":[8,0,0,43,2,20],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#aeb96de3a003f281201a3493dcbbdfea5":[6,0,0,35,2,10],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#aeb96de3a003f281201a3493dcbbdfea5":[8,0,0,43,2,10],
@@ -249,5 +237,17 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a2e9f0a59f5fe5f290057dc4b64f5ad80":[8,0,0,90,1,8],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a51440034729341e3d8e59b9bdf7869ae":[6,0,0,82,1,7],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a51440034729341e3d8e59b9bdf7869ae":[8,0,0,90,1,7],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[6,0,0,82,1,9]
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[6,0,0,82,1,9],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a676dbc66f5100c732c043444efb330c1":[8,0,0,90,1,9],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a6bb01e0abe77802004d8960680ae4145":[6,0,0,82,1,1],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a6bb01e0abe77802004d8960680ae4145":[8,0,0,90,1,1],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a7f57faf29ba100ef66b7507cc49a9d95":[6,0,0,82,1,0],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a7f57faf29ba100ef66b7507cc49a9d95":[8,0,0,90,1,0],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a9fd353a4a22eb49077c1061c7d4467dc":[6,0,0,82,1,2],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a9fd353a4a22eb49077c1061c7d4467dc":[8,0,0,90,1,2],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#af6d12297011182d9b7f92d646230e987":[6,0,0,82,1,6],
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#af6d12297011182d9b7f92d646230e987":[8,0,0,90,1,6],
+"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html":[6,0,0,82,2],
+"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html":[8,0,0,90,2],
+"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html#a042b45d9d149a0f5c7f4c5dbc153dce9":[6,0,0,82,2,4]
 };

@@ -1028,11 +1028,6 @@ var hierarchy =
       [ "ActsPlugins::ModuleMapCuda", "class_acts_plugins_1_1_module_map_cuda.html", null ],
       [ "ActsPlugins::TorchMetricLearning", "class_acts_plugins_1_1_torch_metric_learning.html", null ]
     ] ],
-    [ "ActsPlugins::HashingAlgorithm&lt; external_spacepoint_t, SpacePointContainer &gt;", "class_acts_plugins_1_1_hashing_algorithm.html", null ],
-    [ "ActsPlugins::HashingAlgorithmConfig", "struct_acts_plugins_1_1_hashing_algorithm_config.html", null ],
-    [ "ActsPlugins::HashingAnnoy&lt; external_spacepoint_t, SpacePointContainer &gt;", "class_acts_plugins_1_1_hashing_annoy.html", null ],
-    [ "ActsPlugins::HashingTrainingAlgorithm&lt; SpacePointContainer &gt;", "class_acts_plugins_1_1_hashing_training_algorithm.html", null ],
-    [ "ActsPlugins::HashingTrainingConfig", "struct_acts_plugins_1_1_hashing_training_config.html", null ],
     [ "ActsPlugins::IGeant4PhysicalVolumeSelector", "class_acts_plugins_1_1_i_geant4_physical_volume_selector.html", [
       [ "ActsPlugins::Geant4PhysicalVolumeSelectors::AllSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html", null ],
       [ "ActsPlugins::Geant4PhysicalVolumeSelectors::NameSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html", null ],

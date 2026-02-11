@@ -41,6 +41,8 @@ var class_acts_1_1_space_point_proxy2 =
     [ "x", "class_acts_1_1_space_point_proxy2.html#a2aeca5d6491a3140a1a223ccebf1ad89", null ],
     [ "xy", "class_acts_1_1_space_point_proxy2.html#ae19f250d0d47ebfaefb1e99e2c360a9f", null ],
     [ "xy", "class_acts_1_1_space_point_proxy2.html#aec4616e45bdb2ba12f05b29761f0bc0d", null ],
+    [ "xyz", "class_acts_1_1_space_point_proxy2.html#a902e458b562dc17a7dafb986aee1493a", null ],
+    [ "xyz", "class_acts_1_1_space_point_proxy2.html#ae1d383c325a20c6f49887d3f63c2f251", null ],
     [ "xyzr", "class_acts_1_1_space_point_proxy2.html#a59966d9eaa062062ab0bd265a757fb9a", null ],
     [ "xyzr", "class_acts_1_1_space_point_proxy2.html#a0223a4884394a2d175b394068bea6895", null ],
     [ "y", "class_acts_1_1_space_point_proxy2.html#a4c2dfda6ed4dae376a603373811281bd", null ],

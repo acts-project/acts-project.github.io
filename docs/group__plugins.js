@@ -10,7 +10,7 @@ var group__plugins =
     [ "GNN Plugin", "group__gnn__plugin.html", "group__gnn__plugin" ],
     [ "Geant4 Plugin", "group__geant4__plugin.html", "group__geant4__plugin" ],
     [ "GeoModel Plugin", "group__geomodel__plugin.html", "group__geomodel__plugin" ],
-    [ "Hashing Plugin", "group__hashing__plugin.html", "group__hashing__plugin" ],
+    [ "Hashing Plugin", "group__hashing__plugin.html", null ],
     [ "JSON Plugin", "group__json__plugin.html", "group__json__plugin" ],
     [ "ONNX Plugin", "group__onnx__plugin.html", "group__onnx__plugin" ],
     [ "ROOT Plugin", "group__root__plugin.html", "group__root__plugin" ]

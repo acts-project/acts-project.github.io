@@ -227,6 +227,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae19f250d0d47ebfaefb1e99e2c360a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const reference to XY coordinates of the space point.  <br /></td></tr>
 <tr class="memitem:aec4616e45bdb2ba12f05b29761f0bc0d" id="r_aec4616e45bdb2ba12f05b29761f0bc0d"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 2 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec4616e45bdb2ba12f05b29761f0bc0d">xy</a> () const noexcept</td></tr>
 <tr class="memdesc:aec4616e45bdb2ba12f05b29761f0bc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable reference to XY coordinates of the space point.  <br /></td></tr>
+<tr class="memitem:a902e458b562dc17a7dafb986aee1493a" id="r_a902e458b562dc17a7dafb986aee1493a"><td class="memItemLeft" align="right" valign="top">const std::array&lt; float, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902e458b562dc17a7dafb986aee1493a">xyz</a> () const noexcept</td></tr>
+<tr class="memdesc:a902e458b562dc17a7dafb986aee1493a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const reference to XYZ coordinates of the space point.  <br /></td></tr>
+<tr class="memitem:ae1d383c325a20c6f49887d3f63c2f251" id="r_ae1d383c325a20c6f49887d3f63c2f251"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1d383c325a20c6f49887d3f63c2f251">xyz</a> () const noexcept</td></tr>
+<tr class="memdesc:ae1d383c325a20c6f49887d3f63c2f251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mutable reference to XYZ coordinates of the space point.  <br /></td></tr>
 <tr class="memitem:a59966d9eaa062062ab0bd265a757fb9a" id="r_a59966d9eaa062062ab0bd265a757fb9a"><td class="memItemLeft" align="right" valign="top">const std::array&lt; float, 4 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59966d9eaa062062ab0bd265a757fb9a">xyzr</a> () const noexcept</td></tr>
 <tr class="memdesc:a59966d9eaa062062ab0bd265a757fb9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const reference to XYZR coordinates of the space point.  <br /></td></tr>
 <tr class="memitem:a0223a4884394a2d175b394068bea6895" id="r_a0223a4884394a2d175b394068bea6895"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 4 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0223a4884394a2d175b394068bea6895">xyzr</a> () const noexcept</td></tr>
@@ -1463,6 +1467,66 @@ template&lt;bool read_only&gt; </div>
 
 <p>Get mutable reference to XY coordinates of the space point. </p>
 <dl class="section return"><dt>Returns</dt><dd>Mutable reference to array containing [x, y] coordinates </dd></dl>
+
+</div>
+</div>
+<a id="a902e458b562dc17a7dafb986aee1493a" name="a902e458b562dc17a7dafb986aee1493a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902e458b562dc17a7dafb986aee1493a">&#9670;&#160;</a></span>xyz() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::array&lt; float, 3 &gt; &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::xyz </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get const reference to XYZ coordinates of the space point. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const reference to array containing [x, y, z] coordinates </dd></dl>
+
+</div>
+</div>
+<a id="ae1d383c325a20c6f49887d3f63c2f251" name="ae1d383c325a20c6f49887d3f63c2f251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d383c325a20c6f49887d3f63c2f251">&#9670;&#160;</a></span>xyz() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; float, 3 &gt; &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::xyz </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get mutable reference to XYZ coordinates of the space point. </p>
+<dl class="section return"><dt>Returns</dt><dd>Mutable reference to array containing [x, y, z] coordinates </dd></dl>
 
 </div>
 </div>

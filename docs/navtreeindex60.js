@@ -1,17 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a632405a133655ca77ba863972999080f":[6,0,0,400,2,1],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a632405a133655ca77ba863972999080f":[8,0,0,408,2,1],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a7106268ea0c0de7e92c9cc5365bb0b64":[6,0,0,400,2,11],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a7106268ea0c0de7e92c9cc5365bb0b64":[8,0,0,408,2,11],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a75d9c40ac81f2c3058ba3369134557b9":[6,0,0,400,2,16],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a75d9c40ac81f2c3058ba3369134557b9":[8,0,0,408,2,16],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a760ef335fef159670851843b341c2b49":[6,0,0,400,2,3],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a760ef335fef159670851843b341c2b49":[8,0,0,408,2,3],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a994c5c59246ae5e6a4d81dd8bf949ba1":[6,0,0,400,2,5],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a994c5c59246ae5e6a4d81dd8bf949ba1":[8,0,0,408,2,5],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a9ad0d2b2d5918b68db6d67ac73d98c2d":[6,0,0,400,2,4],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a9ad0d2b2d5918b68db6d67ac73d98c2d":[8,0,0,408,2,4],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#ab63bfcfe3e5321ee9b3cd72cae875a52":[6,0,0,400,2,0],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#ab63bfcfe3e5321ee9b3cd72cae875a52":[8,0,0,408,2,0],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#ad0c11256008469ac2351ae447da73b34":[6,0,0,400,2,8],
@@ -249,5 +237,17 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_track_state_creator.html#adb487866bb426554d131c7eb11a916f8":[6,0,0,416,3],
 "struct_acts_1_1_track_state_creator.html#adb487866bb426554d131c7eb11a916f8":[8,0,0,424,3],
 "struct_acts_1_1_track_state_creator.html#adff0ad4ca31bc9f787869fe3d3518450":[6,0,0,416,4],
-"struct_acts_1_1_track_state_creator.html#adff0ad4ca31bc9f787869fe3d3518450":[8,0,0,424,4]
+"struct_acts_1_1_track_state_creator.html#adff0ad4ca31bc9f787869fe3d3518450":[8,0,0,424,4],
+"struct_acts_1_1_track_state_creator.html#af2e214eb0fbc233df1f4ff608c8f0530":[6,0,0,416,10],
+"struct_acts_1_1_track_state_creator.html#af2e214eb0fbc233df1f4ff608c8f0530":[8,0,0,424,10],
+"struct_acts_1_1_track_state_creator.html#afc1f111d387b28f661ebff969d1d601a":[6,0,0,416,8],
+"struct_acts_1_1_track_state_creator.html#afc1f111d387b28f661ebff969d1d601a":[8,0,0,424,8],
+"struct_acts_1_1_track_state_creator.html#afd11f6b9f0515b512161f1591c69a563":[6,0,0,416,2],
+"struct_acts_1_1_track_state_creator.html#afd11f6b9f0515b512161f1591c69a563":[8,0,0,424,2],
+"struct_acts_1_1_track_state_traits.html":[6,0,0,419],
+"struct_acts_1_1_track_state_traits.html":[8,0,0,427],
+"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[6,0,0,419,5],
+"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[8,0,0,427,5],
+"struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[6,0,0,419,0],
+"struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[8,0,0,427,0]
 };
