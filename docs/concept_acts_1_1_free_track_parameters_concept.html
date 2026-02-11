@@ -136,9 +136,7 @@ $(function(){initNavTree('concept_acts_1_1_free_track_parameters_concept.html','
 <div class="line">    <a class="code hl_concept" href="concept_acts_1_1_concepts_1_1_basic_track_parameters.html">Concepts::BasicTrackParameters&lt;Parameters&gt;</a> &amp;&amp;</div>
 <div class="line">    <span class="keyword">requires</span>(<span class="keyword">const</span> Parameters &amp;p) {</div>
 <div class="line">      { p.parameters() } -&gt; std::convertible_to&lt;FreeVector&gt;;</div>
-<div class="line">      {</div>
-<div class="line">        p.covariance()</div>
-<div class="line">      } -&gt; std::convertible_to&lt;std::optional&lt;FreeSquareMatrix&gt;&gt;;</div>
+<div class="line">      { p.covariance() } -&gt; std::convertible_to&lt;std::optional&lt;FreeMatrix&gt;&gt;;</div>
 <div class="line">      { p.fourPosition() } -&gt; std::same_as&lt;Vector4&gt;;</div>
 <div class="line">      { p.position() } -&gt; std::same_as&lt;Vector3&gt;;</div>
 <div class="line">    }</div>

@@ -208,7 +208,7 @@ var searchData=
   ['globalbinfromposition_205',['globalBinFromPosition',['../class_acts_1_1_grid.html#af134da2f418beee5f6f1836ad1592d0e',1,'Acts::Grid']]],
   ['globalbinindex_206',['globalBinIndex',['../class_acts_1_1_grid_global_iterator.html#ac0af5b8005cc8537f1c3056972925897',1,'Acts::GridGlobalIterator::globalBinIndex()'],['../class_acts_1_1_grid_local_iterator.html#a23f8b3043d73c241d2005989da09de62',1,'Acts::GridLocalIterator::globalBinIndex()']]],
   ['globalchisquarefittererror_207',['GlobalChiSquareFitterError',['../group__errors.html#ga743e4af777584b0f5274baa245f128d2',1,'Acts::Experimental']]],
-  ['globalcoords_208',['globalCoords',['../class_acts_1_1_space_point_utility.html#af557527b31eb05d5e97c2eef71609251',1,'Acts::SpacePointUtility']]],
+  ['globalcoords_208',['globalCoords',['../class_acts_1_1_space_point_utility.html#a1cb9cb91b2bef11a0107385f190a8760',1,'Acts::SpacePointUtility']]],
   ['globallyindexedmaterialaccessor_209',['GloballyIndexedMaterialAccessor',['../struct_acts_1_1_globally_indexed_material_accessor.html',1,'Acts::GloballyIndexedMaterialAccessor'],['../struct_acts_1_1_globally_indexed_material_accessor.html#a3db24238ed5ecb7b055a881d460797cc',1,'Acts::GloballyIndexedMaterialAccessor::GloballyIndexedMaterialAccessor()']]],
   ['globallyindexedsurfacematerial_210',['GloballyIndexedSurfaceMaterial',['../group__material.html#gac15aff2ad0a7029a89bd903885de3310',1,'Acts']]],
   ['globalmaterial_211',['globalMaterial',['../struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b',1,'Acts::GloballyIndexedMaterialAccessor']]],

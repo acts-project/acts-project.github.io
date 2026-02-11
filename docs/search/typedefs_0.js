@@ -6,7 +6,7 @@ var searchData=
   ['actsdynamicmatrix_3',['ActsDynamicMatrix',['../group__algebra__types.html#gaf15191675bb2966bbd872040097b1bdd',1,'Acts']]],
   ['actsdynamicvector_4',['ActsDynamicVector',['../group__algebra__types.html#ga18de0b258c3f7da012a164e8a4cdb75c',1,'Acts']]],
   ['actsmatrix_5',['ActsMatrix',['../group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d',1,'Acts']]],
-  ['actssquarematrix_6',['ActsSquareMatrix',['../group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f',1,'Acts']]],
+  ['actssquarematrix_6',['ActsSquareMatrix',['../group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f',1,'Acts::ActsSquareMatrix'],['../namespace_acts.html#acb25019f1218b9a96b29f897dfc5be7f',1,'Acts::ActsSquareMatrix'],['../namespace_acts.html#acb25019f1218b9a96b29f897dfc5be7f',1,'Acts::ActsSquareMatrix']]],
   ['actsvector_7',['ActsVector',['../group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84',1,'Acts']]],
   ['alignmentmatrix_8',['AlignmentMatrix',['../namespace_acts.html#ad74665d2c9210b7b7c61b07a4b1d7882',1,'Acts']]],
   ['alignmentrowvector_9',['AlignmentRowVector',['../namespace_acts.html#aa018f2e119b454c3cb4a886ee1738287',1,'Acts']]],

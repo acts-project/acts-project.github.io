@@ -5,7 +5,7 @@ var class_acts_1_1_straight_line_stepper =
     [ "State", "struct_acts_1_1_straight_line_stepper_1_1_state.html", "struct_acts_1_1_straight_line_stepper_1_1_state" ],
     [ "BField", "class_acts_1_1_straight_line_stepper.html#af47c8abbcbc7276efebca57b36e7df3c", null ],
     [ "BoundState", "class_acts_1_1_straight_line_stepper.html#a38dbd8ab7cf0d2b2c30325c5c6c36812", null ],
-    [ "Covariance", "class_acts_1_1_straight_line_stepper.html#a23601676bc44d8575beee2612ac37571", null ],
+    [ "Covariance", "class_acts_1_1_straight_line_stepper.html#a1c8fe5bb662fd14e8c10027c10a26202", null ],
     [ "Jacobian", "class_acts_1_1_straight_line_stepper.html#a90280ce4aad966df2a48f43e22534eae", null ],
     [ "absoluteMomentum", "class_acts_1_1_straight_line_stepper.html#ae32b293e7a626ddeeb0ede8f38d2f9d5", null ],
     [ "boundState", "class_acts_1_1_straight_line_stepper.html#a59b36ca6d0b977cd2cc6f27de2863390", null ],

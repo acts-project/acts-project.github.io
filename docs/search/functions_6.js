@@ -129,7 +129,7 @@ var searchData=
   ['globalbinfromlocalbins_126',['globalBinFromLocalBins',['../class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0',1,'Acts::Grid']]],
   ['globalbinfromposition_127',['globalBinFromPosition',['../class_acts_1_1_grid.html#af134da2f418beee5f6f1836ad1592d0e',1,'Acts::Grid']]],
   ['globalbinindex_128',['globalBinIndex',['../class_acts_1_1_grid_global_iterator.html#ac0af5b8005cc8537f1c3056972925897',1,'Acts::GridGlobalIterator::globalBinIndex()'],['../class_acts_1_1_grid_local_iterator.html#a23f8b3043d73c241d2005989da09de62',1,'Acts::GridLocalIterator::globalBinIndex()']]],
-  ['globalcoords_129',['globalCoords',['../class_acts_1_1_space_point_utility.html#af557527b31eb05d5e97c2eef71609251',1,'Acts::SpacePointUtility']]],
+  ['globalcoords_129',['globalCoords',['../class_acts_1_1_space_point_utility.html#a1cb9cb91b2bef11a0107385f190a8760',1,'Acts::SpacePointUtility']]],
   ['globallyindexedmaterialaccessor_130',['GloballyIndexedMaterialAccessor',['../struct_acts_1_1_globally_indexed_material_accessor.html#a3db24238ed5ecb7b055a881d460797cc',1,'Acts::GloballyIndexedMaterialAccessor']]],
   ['globalmaximum_131',['globalMaximum',['../class_acts_1_1_gaussian_track_density.html#ab8794dc81a04000b09b2eac56873ef93',1,'Acts::GaussianTrackDensity']]],
   ['globalmaximumwithwidth_132',['globalMaximumWithWidth',['../class_acts_1_1_gaussian_track_density.html#aac656c631f00ce79884bd7e66de28e52',1,'Acts::GaussianTrackDensity']]],

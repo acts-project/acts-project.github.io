@@ -96,7 +96,7 @@ var searchData=
   ['actsplugins_93',['ActsPlugins',['../namespace_acts_plugins.html',1,'']]],
   ['actsplugins_3a_3asvg_3a_3aeventdataconverter_94',['EventDataConverter',['../namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html',1,'ActsPlugins::Svg']]],
   ['actsplugins_3a_3asvg_3a_3asurfacearrayconverter_95',['SurfaceArrayConverter',['../namespace_acts_plugins_1_1_svg_1_1_surface_array_converter.html',1,'ActsPlugins::Svg']]],
-  ['actssquarematrix_96',['ActsSquareMatrix',['../group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f',1,'Acts']]],
+  ['actssquarematrix_96',['ActsSquareMatrix',['../group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f',1,'Acts::ActsSquareMatrix'],['../namespace_acts.html#acb25019f1218b9a96b29f897dfc5be7f',1,'Acts::ActsSquareMatrix'],['../namespace_acts.html#acb25019f1218b9a96b29f897dfc5be7f',1,'Acts::ActsSquareMatrix']]],
   ['actsvector_97',['ActsVector',['../group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84',1,'Acts']]],
   ['actsvg_20plugin_98',['ActSVG Plugin',['../group__actsvg__plugin.html',1,'']]],
   ['adapt_99',['adapt',['../struct_acts_1_1_volume_config.html#a023c4036e883a02f335fe58099a1b0d1',1,'Acts::VolumeConfig']]],

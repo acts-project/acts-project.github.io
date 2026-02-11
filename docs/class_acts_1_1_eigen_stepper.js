@@ -4,7 +4,7 @@ var class_acts_1_1_eigen_stepper =
     [ "Options", "struct_acts_1_1_eigen_stepper_1_1_options.html", "struct_acts_1_1_eigen_stepper_1_1_options" ],
     [ "State", "struct_acts_1_1_eigen_stepper_1_1_state.html", "struct_acts_1_1_eigen_stepper_1_1_state" ],
     [ "BoundState", "class_acts_1_1_eigen_stepper.html#a7860f627c6e8f80fdb6e290d322abc62", null ],
-    [ "Covariance", "class_acts_1_1_eigen_stepper.html#ad0e7054f127d55564ae51602bd1099e2", null ],
+    [ "Covariance", "class_acts_1_1_eigen_stepper.html#aa1993e173ca9d2b7b70471a23326fce3", null ],
     [ "Jacobian", "class_acts_1_1_eigen_stepper.html#ae822928de6a4a328e265630ddf43d161", null ],
     [ "EigenStepper", "class_acts_1_1_eigen_stepper.html#afd6efefeea706345e2fee52646c14e37", null ],
     [ "EigenStepper", "class_acts_1_1_eigen_stepper.html#a359be0880aec90317b017b586510e740", null ],

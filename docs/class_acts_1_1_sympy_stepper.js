@@ -4,7 +4,7 @@ var class_acts_1_1_sympy_stepper =
     [ "Options", "struct_acts_1_1_sympy_stepper_1_1_options.html", "struct_acts_1_1_sympy_stepper_1_1_options" ],
     [ "State", "struct_acts_1_1_sympy_stepper_1_1_state.html", "struct_acts_1_1_sympy_stepper_1_1_state" ],
     [ "BoundState", "class_acts_1_1_sympy_stepper.html#a731d778445e75acd514943c53d21858a", null ],
-    [ "Covariance", "class_acts_1_1_sympy_stepper.html#aa3bbb839311017bd5864f7c13cd8c60a", null ],
+    [ "Covariance", "class_acts_1_1_sympy_stepper.html#a345d6791e09cd24d1838489e59792254", null ],
     [ "Jacobian", "class_acts_1_1_sympy_stepper.html#a8826040bfa95929033396097ceb33673", null ],
     [ "SympyStepper", "class_acts_1_1_sympy_stepper.html#a4e3f712290f4e8c9ceb28141bf01a8b0", null ],
     [ "SympyStepper", "class_acts_1_1_sympy_stepper.html#abbd8c30bf9e4ca3a0962b8f0a1d51304", null ],

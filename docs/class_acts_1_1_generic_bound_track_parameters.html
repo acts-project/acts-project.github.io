@@ -138,9 +138,9 @@ Inheritance diagram for Acts::GenericBoundTrackParameters&lt; particle_hypothesi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:af280d640319c0b1ce6c8a3c5ebcd9a6b" id="r_af280d640319c0b1ce6c8a3c5ebcd9a6b"><td class="memItemLeft" align="right" valign="top"><a id="af280d640319c0b1ce6c8a3c5ebcd9a6b" name="af280d640319c0b1ce6c8a3c5ebcd9a6b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMatrix</b> = <a class="el" href="namespace_acts.html#a9eaf1a3cdef9ce06df2d3f7b4a8ac3b0">BoundSquareMatrix</a></td></tr>
-<tr class="memdesc:af280d640319c0b1ce6c8a3c5ebcd9a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track covariance matrix. <br /></td></tr>
+<tr class="memitem:af64c4993b2c58fec91b49dca5030dc96" id="r_af64c4993b2c58fec91b49dca5030dc96"><td class="memItemLeft" align="right" valign="top"><a id="af64c4993b2c58fec91b49dca5030dc96" name="af64c4993b2c58fec91b49dca5030dc96"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMatrix</b> = <a class="el" href="namespace_acts.html#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a></td></tr>
+<tr class="memdesc:af64c4993b2c58fec91b49dca5030dc96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track covariance matrix. <br /></td></tr>
 <tr class="memitem:aed1a9a459c6fd62363e96297727609f5" id="r_aed1a9a459c6fd62363e96297727609f5"><td class="memItemLeft" align="right" valign="top"><a id="aed1a9a459c6fd62363e96297727609f5" name="aed1a9a459c6fd62363e96297727609f5"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersVector</b> = <a class="el" href="namespace_acts.html#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a></td></tr>
 <tr class="memdesc:aed1a9a459c6fd62363e96297727609f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track parameters vector. <br /></td></tr>
@@ -153,15 +153,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a731b3097b5f5a143342fe5f2e2415c0c" id="r_a731b3097b5f5a143342fe5f2e2415c0c"><td class="memTemplParams" colspan="2">template&lt;typename other_particle_hypothesis_t&gt; </td></tr>
 <tr class="memitem:a731b3097b5f5a143342fe5f2e2415c0c template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a731b3097b5f5a143342fe5f2e2415c0c">GenericBoundTrackParameters</a> (const GenericBoundTrackParameters&lt; other_particle_hypothesis_t &gt; &amp;other)</td></tr>
 <tr class="memdesc:a731b3097b5f5a143342fe5f2e2415c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a bound track parameter with a different hypothesis.  <br /></td></tr>
-<tr class="memitem:a8da30b7f41cb0940fb9438dac5d125d5" id="r_a8da30b7f41cb0940fb9438dac5d125d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; surface, const <a class="el" href="#aed1a9a459c6fd62363e96297727609f5">ParametersVector</a> &amp;params, std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>)</td></tr>
+<tr class="memitem:a8da30b7f41cb0940fb9438dac5d125d5" id="r_a8da30b7f41cb0940fb9438dac5d125d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; surface, const <a class="el" href="#aed1a9a459c6fd62363e96297727609f5">ParametersVector</a> &amp;params, std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>)</td></tr>
 <tr class="memdesc:a8da30b7f41cb0940fb9438dac5d125d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a parameters vector on the surface and particle charge.  <br /></td></tr>
 <tr class="memitem:ac8fc8c3983e7e6cc7613dfbec286d9d2" id="r_ac8fc8c3983e7e6cc7613dfbec286d9d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8fc8c3983e7e6cc7613dfbec286d9d2">absoluteMomentum</a> () const</td></tr>
 <tr class="memdesc:ac8fc8c3983e7e6cc7613dfbec286d9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute momentum.  <br /></td></tr>
 <tr class="memitem:a5e532110f2014b0fab3207f2a7f63c59" id="r_a5e532110f2014b0fab3207f2a7f63c59"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e532110f2014b0fab3207f2a7f63c59">charge</a> () const</td></tr>
 <tr class="memdesc:a5e532110f2014b0fab3207f2a7f63c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle electric charge.  <br /></td></tr>
-<tr class="memitem:a127ae646b046e533d38e87a740df13da" id="r_a127ae646b046e533d38e87a740df13da"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127ae646b046e533d38e87a740df13da">covariance</a> ()</td></tr>
+<tr class="memitem:a127ae646b046e533d38e87a740df13da" id="r_a127ae646b046e533d38e87a740df13da"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127ae646b046e533d38e87a740df13da">covariance</a> ()</td></tr>
 <tr class="memdesc:a127ae646b046e533d38e87a740df13da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional covariance matrix.  <br /></td></tr>
-<tr class="memitem:ac2bf1d5a0d1d4ea52c0970578322c708" id="r_ac2bf1d5a0d1d4ea52c0970578322c708"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2bf1d5a0d1d4ea52c0970578322c708">covariance</a> () const</td></tr>
+<tr class="memitem:ac2bf1d5a0d1d4ea52c0970578322c708" id="r_ac2bf1d5a0d1d4ea52c0970578322c708"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2bf1d5a0d1d4ea52c0970578322c708">covariance</a> () const</td></tr>
 <tr class="memdesc:ac2bf1d5a0d1d4ea52c0970578322c708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional covariance matrix.  <br /></td></tr>
 <tr class="memitem:abd4383444587d4608797210e6af62800" id="r_abd4383444587d4608797210e6af62800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd4383444587d4608797210e6af62800">direction</a> () const</td></tr>
 <tr class="memdesc:abd4383444587d4608797210e6af62800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit direction three-vector, i.e.  <br /></td></tr>
@@ -214,11 +214,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reflectInPlace</b> ()
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a550438516d9a8247162203f582c3e233" id="r_a550438516d9a8247162203f582c3e233"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550438516d9a8247162203f582c3e233">create</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; surface, const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir, double <a class="el" href="#a0c11f29121ba83b147b206d87af5d803">qOverP</a>, std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
+<tr class="memitem:a550438516d9a8247162203f582c3e233" id="r_a550438516d9a8247162203f582c3e233"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550438516d9a8247162203f582c3e233">create</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; surface, const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir, double <a class="el" href="#a0c11f29121ba83b147b206d87af5d803">qOverP</a>, std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
 <tr class="memdesc:a550438516d9a8247162203f582c3e233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory to construct from four-position, direction, absolute momentum, and charge.  <br /></td></tr>
-<tr class="memitem:ad3ed2d9445834f90dcbdd7824cbd916c" id="r_ad3ed2d9445834f90dcbdd7824cbd916c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3ed2d9445834f90dcbdd7824cbd916c">createCurvilinear</a> (const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir, double <a class="el" href="#a0c11f29121ba83b147b206d87af5d803">qOverP</a>, std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>)</td></tr>
+<tr class="memitem:ad3ed2d9445834f90dcbdd7824cbd916c" id="r_ad3ed2d9445834f90dcbdd7824cbd916c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3ed2d9445834f90dcbdd7824cbd916c">createCurvilinear</a> (const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir, double <a class="el" href="#a0c11f29121ba83b147b206d87af5d803">qOverP</a>, std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>)</td></tr>
 <tr class="memdesc:ad3ed2d9445834f90dcbdd7824cbd916c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from four-position, direction, and qOverP.  <br /></td></tr>
-<tr class="memitem:a053cc61a330320c9a8029cc33b142e77" id="r_a053cc61a330320c9a8029cc33b142e77"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a053cc61a330320c9a8029cc33b142e77">createCurvilinear</a> (const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, double <a class="el" href="#aa6a4049db693a372f30428e76176a173">phi</a>, double <a class="el" href="#a9758b8bc6ec75cdfa2bd96347a5390cb">theta</a>, double <a class="el" href="#a0c11f29121ba83b147b206d87af5d803">qOverP</a>, std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>)</td></tr>
+<tr class="memitem:a053cc61a330320c9a8029cc33b142e77" id="r_a053cc61a330320c9a8029cc33b142e77"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a8da30b7f41cb0940fb9438dac5d125d5">GenericBoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a053cc61a330320c9a8029cc33b142e77">createCurvilinear</a> (const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, double <a class="el" href="#aa6a4049db693a372f30428e76176a173">phi</a>, double <a class="el" href="#a9758b8bc6ec75cdfa2bd96347a5390cb">theta</a>, double <a class="el" href="#a0c11f29121ba83b147b206d87af5d803">qOverP</a>, std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a29ab8ea131a0dd205b64d2ebb90a069c">ParticleHypothesis</a> <a class="el" href="#adf071621785d52d1ee9a673c3776c528">particleHypothesis</a>)</td></tr>
 <tr class="memdesc:a053cc61a330320c9a8029cc33b142e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from four-position, angles, and qOverP.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -254,7 +254,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -369,7 +369,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
 template&lt;class particle_hypothesis_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; &amp; <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html">Acts::GenericBoundTrackParameters</a>&lt; particle_hypothesis_t &gt;::covariance </td>
+          <td class="memname">std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; &amp; <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html">Acts::GenericBoundTrackParameters</a>&lt; particle_hypothesis_t &gt;::covariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -391,7 +391,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
 template&lt;class particle_hypothesis_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt; &amp; <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html">Acts::GenericBoundTrackParameters</a>&lt; particle_hypothesis_t &gt;::covariance </td>
+          <td class="memname">const std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt; &amp; <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html">Acts::GenericBoundTrackParameters</a>&lt; particle_hypothesis_t &gt;::covariance </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -443,7 +443,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -511,7 +511,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -575,7 +575,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="#af280d640319c0b1ce6c8a3c5ebcd9a6b">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="#af64c4993b2c58fec91b49dca5030dc96">CovarianceMatrix</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cov</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
