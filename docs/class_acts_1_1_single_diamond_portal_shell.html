@@ -143,8 +143,8 @@ Collaboration diagram for Acts::SingleDiamondPortalShell:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a95f5951eaf9f13f44091632ee3ff58e9" id="r_a95f5951eaf9f13f44091632ee3ff58e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f5951eaf9f13f44091632ee3ff58e9">SingleDiamondPortalShell</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
-<tr class="memdesc:a95f5951eaf9f13f44091632ee3ff58e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of a convex polygon shape portal shell for the given volume.  <br /></td></tr>
+<tr class="memitem:ab227831c13e10fa76341b44d84050221" id="r_ab227831c13e10fa76341b44d84050221"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab227831c13e10fa76341b44d84050221">SingleDiamondPortalShell</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
+<tr class="memdesc:ab227831c13e10fa76341b44d84050221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of a convex polygon shape portal shell for the given volume.  <br /></td></tr>
 <tr class="memitem:a0eba965f7cb964352d7521bc40cf14e6" id="r_a0eba965f7cb964352d7521bc40cf14e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eba965f7cb964352d7521bc40cf14e6">applyToVolume</a> () override</td></tr>
 <tr class="memdesc:a0eba965f7cb964352d7521bc40cf14e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct the shell to register the portals with the volume, handing over shared ownership in the process.     <br /></td></tr>
 <tr class="memitem:a559bf66079e39eaeea85e96c9e131201" id="r_a559bf66079e39eaeea85e96c9e131201"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559bf66079e39eaeea85e96c9e131201">isValid</a> () const override</td></tr>
@@ -175,8 +175,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of a portal shell class for a single convex polygon volume. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a95f5951eaf9f13f44091632ee3ff58e9" name="a95f5951eaf9f13f44091632ee3ff58e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f5951eaf9f13f44091632ee3ff58e9">&#9670;&#160;</a></span>SingleDiamondPortalShell()</h2>
+<a id="ab227831c13e10fa76341b44d84050221" name="ab227831c13e10fa76341b44d84050221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab227831c13e10fa76341b44d84050221">&#9670;&#160;</a></span>SingleDiamondPortalShell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,8 +187,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
         <tr>
           <td class="memname">Acts::SingleDiamondPortalShell::SingleDiamondPortalShell </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -201,6 +205,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 <p>Constructor of a convex polygon shape portal shell for the given volume. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volume</td><td>The tracking volume this portal shell is associated with </td></tr>
   </table>
   </dd>

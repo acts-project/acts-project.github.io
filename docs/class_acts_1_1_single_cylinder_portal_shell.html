@@ -153,8 +153,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6986ff627bfd419b43f8341a1fe058cd" id="r_a6986ff627bfd419b43f8341a1fe058cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6986ff627bfd419b43f8341a1fe058cd">SingleCylinderPortalShell</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
-<tr class="memdesc:a6986ff627bfd419b43f8341a1fe058cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a single cylinder portal shell for the given volume.  <br /></td></tr>
+<tr class="memitem:a87988bb5af40058b0024b7b648015ba7" id="r_a87988bb5af40058b0024b7b648015ba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87988bb5af40058b0024b7b648015ba7">SingleCylinderPortalShell</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
+<tr class="memdesc:a87988bb5af40058b0024b7b648015ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a single cylinder portal shell for the given volume.  <br /></td></tr>
 <tr class="memitem:a07176925643521dc720ad271e70aec9f" id="r_a07176925643521dc720ad271e70aec9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07176925643521dc720ad271e70aec9f">applyToVolume</a> () override</td></tr>
 <tr class="memdesc:a07176925643521dc720ad271e70aec9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct the shell to register the portals with the volume, handing over shared ownership in the process.     <br /></td></tr>
 <tr class="memitem:ad23afa4a8b912d577530a050359008dc" id="r_ad23afa4a8b912d577530a050359008dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad23afa4a8b912d577530a050359008dc">isValid</a> () const override</td></tr>
@@ -179,8 +179,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</
 <div class="textblock"><p>This class describes a cylinder shell containing a single volume. </p>
 <p>The available faces depend on the configuration of the cylinder volume bounds. If a phi sector is configured, the shell will have corresponding portal slots. If the inner radius is non-zero, the shell will have an inner cylinder portal slot. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6986ff627bfd419b43f8341a1fe058cd" name="a6986ff627bfd419b43f8341a1fe058cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6986ff627bfd419b43f8341a1fe058cd">&#9670;&#160;</a></span>SingleCylinderPortalShell()</h2>
+<a id="a87988bb5af40058b0024b7b648015ba7" name="a87988bb5af40058b0024b7b648015ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87988bb5af40058b0024b7b648015ba7">&#9670;&#160;</a></span>SingleCylinderPortalShell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,8 +191,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</
         <tr>
           <td class="memname">Acts::SingleCylinderPortalShell::SingleCylinderPortalShell </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -205,6 +209,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</
 <p>Construct a single cylinder portal shell for the given volume. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volume</td><td>The volume to create the shell for </td></tr>
   </table>
   </dd>

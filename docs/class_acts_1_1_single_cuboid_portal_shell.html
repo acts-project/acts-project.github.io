@@ -143,8 +143,8 @@ Collaboration diagram for Acts::SingleCuboidPortalShell:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a758a192ab0d37d6e56a573335acee4eb" id="r_a758a192ab0d37d6e56a573335acee4eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a758a192ab0d37d6e56a573335acee4eb">SingleCuboidPortalShell</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
-<tr class="memdesc:a758a192ab0d37d6e56a573335acee4eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a single cuboid portal shell for the given volume.  <br /></td></tr>
+<tr class="memitem:aef5b3cd5b4a69fc7a6a19eefee3f02c3" id="r_aef5b3cd5b4a69fc7a6a19eefee3f02c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5b3cd5b4a69fc7a6a19eefee3f02c3">SingleCuboidPortalShell</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
+<tr class="memdesc:aef5b3cd5b4a69fc7a6a19eefee3f02c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a single cuboid portal shell for the given volume.  <br /></td></tr>
 <tr class="memitem:a679fc30538a101748b5e2c946dfb797b" id="r_a679fc30538a101748b5e2c946dfb797b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679fc30538a101748b5e2c946dfb797b">applyToVolume</a> () override</td></tr>
 <tr class="memdesc:a679fc30538a101748b5e2c946dfb797b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct the shell to register the portals with the volume, handing over shared ownership in the process.     <br /></td></tr>
 <tr class="memitem:afa5f1a615344c85b6b4cf99f1c56e43a" id="r_afa5f1a615344c85b6b4cf99f1c56e43a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5f1a615344c85b6b4cf99f1c56e43a">isValid</a> () const override</td></tr>
@@ -177,8 +177,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class describes a cuboid shell containing a single volume. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a758a192ab0d37d6e56a573335acee4eb" name="a758a192ab0d37d6e56a573335acee4eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a758a192ab0d37d6e56a573335acee4eb">&#9670;&#160;</a></span>SingleCuboidPortalShell()</h2>
+<a id="aef5b3cd5b4a69fc7a6a19eefee3f02c3" name="aef5b3cd5b4a69fc7a6a19eefee3f02c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5b3cd5b4a69fc7a6a19eefee3f02c3">&#9670;&#160;</a></span>SingleCuboidPortalShell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,8 +189,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
         <tr>
           <td class="memname">Acts::SingleCuboidPortalShell::SingleCuboidPortalShell </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -203,6 +207,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 <p>Construct a single cuboid portal shell for the given volume. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volume</td><td>The volume to create the shell for </td></tr>
   </table>
   </dd>

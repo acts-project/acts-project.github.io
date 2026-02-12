@@ -143,8 +143,8 @@ Collaboration diagram for Acts::SingleTrapezoidPortalShell:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af7eb238f43ac1234add30ed7957b2bcc" id="r_af7eb238f43ac1234add30ed7957b2bcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7eb238f43ac1234add30ed7957b2bcc">SingleTrapezoidPortalShell</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
-<tr class="memdesc:af7eb238f43ac1234add30ed7957b2bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a single trapezoid shell for the given tracking volume.  <br /></td></tr>
+<tr class="memitem:ab25c783f2dab3b176bc059197f462c81" id="r_ab25c783f2dab3b176bc059197f462c81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab25c783f2dab3b176bc059197f462c81">SingleTrapezoidPortalShell</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
+<tr class="memdesc:ab25c783f2dab3b176bc059197f462c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a single trapezoid shell for the given tracking volume.  <br /></td></tr>
 <tr class="memitem:a98a9ea43768cddc42a74bed2b532952a" id="r_a98a9ea43768cddc42a74bed2b532952a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98a9ea43768cddc42a74bed2b532952a">applyToVolume</a> () override</td></tr>
 <tr class="memdesc:a98a9ea43768cddc42a74bed2b532952a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct the shell to register the portals with the volume, handing over shared ownership in the process.     <br /></td></tr>
 <tr class="memitem:a5af2f99b4834d11bf4e484fdf8919b03" id="r_a5af2f99b4834d11bf4e484fdf8919b03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5af2f99b4834d11bf4e484fdf8919b03">isValid</a> () const override</td></tr>
@@ -175,8 +175,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class describes a trapezoid shell containing a single volume. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af7eb238f43ac1234add30ed7957b2bcc" name="af7eb238f43ac1234add30ed7957b2bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7eb238f43ac1234add30ed7957b2bcc">&#9670;&#160;</a></span>SingleTrapezoidPortalShell()</h2>
+<a id="ab25c783f2dab3b176bc059197f462c81" name="ab25c783f2dab3b176bc059197f462c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab25c783f2dab3b176bc059197f462c81">&#9670;&#160;</a></span>SingleTrapezoidPortalShell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,8 +187,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
         <tr>
           <td class="memname">Acts::SingleTrapezoidPortalShell::SingleTrapezoidPortalShell </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -201,6 +205,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 <p>Construct a single trapezoid shell for the given tracking volume. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
     <tr><td class="paramname">volume</td><td>The volume to create the shell for </td></tr>
   </table>
   </dd>
