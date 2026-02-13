@@ -1,0 +1,21 @@
+<map id="Acts::SeedFinderOrthogonalConfig&lt; SpacePoint &gt;" name="Acts::SeedFinderOrthogonalConfig&lt; SpacePoint &gt;">
+<area shape="rect" id="Node000001" title="Structure that holds configuration parameters for the orthogonal seed finder algorithm." alt="" coords="901,145,1104,185"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="424,28,636,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="650,49,762,61,821,73,878,90,932,115,976,143,973,148,929,119,876,94,820,78,761,67,649,54"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="28,35,185,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,45,424,45,424,51,199,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="443,92,617,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="631,115,750,124,878,139,903,143,903,148,877,144,749,130,631,120"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="42,99,171,125"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="185,109,442,109,442,115,185,115"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="445,157,615,182"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="629,166,901,164,901,169,629,171"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="34,157,179,182"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="193,167,445,167,445,172,193,172"/>
+<area shape="rect" id="Node000008" href="$struct_acts_1_1_seed_confirmation_range_config.html" title="Contains parameters for quality seed confirmation." alt="" coords="423,219,637,259"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="651,238,762,233,820,226,877,215,921,201,962,183,964,188,923,206,878,220,821,231,762,238,651,244"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="450,283,610,323"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="624,306,682,305,747,299,813,287,876,267,908,250,938,228,983,184,986,187,941,232,911,254,878,272,814,292,747,305,682,310,624,311"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,283,208,323"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="222,300,450,300,450,305,222,305"/>
+</map>

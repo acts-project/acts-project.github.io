@@ -1,0 +1,12 @@
+<map id="Acts::Experimental::GbtsEdge" name="Acts::Experimental::GbtsEdge">
+<area shape="rect" id="Node000001" title="Edge between two GBTs nodes with fit parameters." alt="" coords="635,67,780,107"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_gbts_node.html" title="GBTs graph node storing space point properties." alt="" coords="365,9,511,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="525,39,611,56,642,64,640,69,610,61,524,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="359,74,517,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="531,84,635,84,635,89,531,89"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,107,128,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,110,152,109,358,91,358,96,152,115,142,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="348,128,528,168"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="105,136,153,152,202,159,253,161,348,157,348,163,253,167,202,164,151,157,103,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="541,127,610,112,640,104,641,109,611,117,542,132"/>
+</map>

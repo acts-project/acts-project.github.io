@@ -1,0 +1,25 @@
+<map id="Acts::DirectNavigator::Options" name="Acts::DirectNavigator::Options">
+<area shape="rect" id="Node000001" title="The nested options struct." alt="" coords="1421,116,1583,156"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and surfaces." alt="" coords="1105,94,1309,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1323,115,1421,125,1421,131,1323,121"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="802,94,909,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="923,104,1105,104,1105,109,923,109"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="411,15,577,41"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="591,40,677,56,767,76,819,91,817,96,766,81,676,61,590,45"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,15,187,41"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="201,25,411,25,411,31,201,31"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="409,65,579,105"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="593,88,802,101,801,106,593,94"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="392,130,596,185"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="609,147,766,127,810,117,811,122,767,132,610,152"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="35,145,157,170"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="171,155,392,155,392,160,171,160"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="409,209,579,249"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="592,226,635,221,680,211,725,196,765,174,773,166,777,157,781,147,789,137,819,117,822,122,792,141,785,150,782,159,777,169,768,178,727,201,682,216,636,226,593,231"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="17,217,175,242"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="188,227,409,227,409,232,188,232"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1137,144,1278,184"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1292,158,1397,149,1421,146,1422,152,1398,155,1292,163"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="791,151,920,177"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="934,161,1136,161,1136,167,934,167"/>
+</map>

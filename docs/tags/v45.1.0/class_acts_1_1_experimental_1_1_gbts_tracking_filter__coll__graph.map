@@ -1,0 +1,23 @@
+<map id="Acts::Experimental::GbtsTrackingFilter" name="Acts::Experimental::GbtsTrackingFilter">
+<area shape="rect" id="Node000001" title="Tracking filter operating on the GBTs edge graph." alt="" coords="1007,171,1153,211"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="607,32,845,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="860,72,923,90,984,115,1025,141,1059,168,1056,172,1022,145,981,120,921,95,858,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="193,105,323,130"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,95,316,82,346,71,412,57,480,48,606,44,607,49,480,54,413,62,347,76,318,86,292,100"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="629,103,823,143"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="337,116,629,119,629,124,336,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="607,171,845,211"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="288,136,316,153,348,167,413,182,480,191,546,195,606,196,606,201,546,201,479,197,412,188,346,172,313,158,285,140"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="837,134,983,160,1015,168,1013,173,982,165,836,139"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="860,188,1006,188,1006,193,860,193"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="589,244,863,284"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="869,239,982,216,1013,208,1014,213,983,221,870,244"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="197,271,319,297"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="333,283,443,284,565,280,589,278,589,284,565,285,443,289,333,289"/>
+<area shape="rect" id="Node000008" href="$struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html" title="Configuration options for the GBTs seed finder." alt="" coords="639,327,813,367"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="826,322,904,298,981,264,1022,237,1056,209,1060,213,1026,242,984,269,906,303,827,327"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="215,345,301,370"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="315,355,565,353,639,350,639,355,565,359,315,361"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,337,144,377"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="158,355,214,355,214,360,158,360"/>
+</map>
