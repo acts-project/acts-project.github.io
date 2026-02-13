@@ -1,9 +1,0 @@
-<map id="Acts::CuboidVolumeBounds" name="Acts::CuboidVolumeBounds">
-<area shape="rect" id="Node000001" title="Bounds for a cubical Volume, the orientedSurfaces(...) method creates a vector of 6 surfaces:" alt="" coords="5,272,205,297"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_volume_bounds.html" title="Pure Absract Base Class for Volume bounds." alt="" coords="28,197,183,223"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,237,108,272,103,272,103,237"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="12,101,199,127"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,141,108,197,103,197,103,141"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="41,5,170,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="108,45,108,101,103,101,103,45"/>
-</map>

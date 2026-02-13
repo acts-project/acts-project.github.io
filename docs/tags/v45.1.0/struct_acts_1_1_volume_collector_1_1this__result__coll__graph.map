@@ -1,7 +1,0 @@
-<map id="Acts::VolumeCollector&lt; Selector &gt;::this_result" name="Acts::VolumeCollector&lt; Selector &gt;::this_result">
-<area shape="rect" id="Node000001" title="Simple result struct to be returned It has all the VolumeHit objects that are collected (and thus hav..." alt="" coords="5,212,187,252"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="25,101,167,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,155,99,212,93,212,93,155"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="31,5,161,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,45,99,101,93,101,93,45"/>
-</map>

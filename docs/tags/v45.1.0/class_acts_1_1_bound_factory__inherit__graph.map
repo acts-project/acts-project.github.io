@@ -1,7 +1,0 @@
-<map id="Acts::BoundFactory&lt; BoundsType_t &gt;" name="Acts::BoundFactory&lt; BoundsType_t &gt;">
-<area shape="rect" id="Node000001" title="Factory helper class to construct volume or surface bounds where the constructed bounds are cached in..." alt="" coords="129,5,275,45"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_bound_factory.html" title=" " alt="" coords="5,116,193,156"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,54,103,71,96,93,97,116,92,116,91,92,98,68,115,51"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_bound_factory.html" title=" " alt="" coords="230,116,379,156"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,51,277,68,293,91,302,115,297,117,288,93,273,71,254,55"/>
-</map>
