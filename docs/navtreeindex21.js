@@ -1,8 +1,8 @@
 var NAVTREEINDEX21 =
 {
 "class_acts_1_1_material_validater.html#a567ac9b86db37f25af2490815c12c48f":[8,0,0,264,1],
-"class_acts_1_1_mbf_smoother.html":[5,10,19],
-"class_acts_1_1_mbf_smoother.html#ace445e5085f6eb5a3fa99ddf46ebd316":[5,10,19,0],
+"class_acts_1_1_mbf_smoother.html":[5,10,18],
+"class_acts_1_1_mbf_smoother.html#ace445e5085f6eb5a3fa99ddf46ebd316":[5,10,18,0],
 "class_acts_1_1_measurement_selector.html":[6,0,0,259],
 "class_acts_1_1_measurement_selector.html":[8,0,0,267],
 "class_acts_1_1_measurement_selector.html#a28b08b817f3faf4587bedad3ef1dac37":[6,0,0,259,2],
