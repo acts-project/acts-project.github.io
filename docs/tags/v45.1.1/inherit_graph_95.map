@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="30,69,207,109"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_const_vector_multi_trajectory.html" title="Const version of VectorMultiTrajectory." alt="" coords="280,49,513,74"/>
+<area shape="poly" id="edge33_Node000000_Node000001" title=" " alt="" coords="221,76,280,70,280,76,221,82"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_vector_multi_trajectory.html" title="In&#45;memory transient multi&#45;trajectory implementation using std::vector as backend." alt="" coords="299,105,495,130"/>
+<area shape="poly" id="edge34_Node000000_Node000003" title=" " alt="" coords="221,97,299,105,298,110,221,102"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="5,5,232,45"/>
+<area shape="poly" id="edge35_Node000002_Node000001" title=" " alt="" coords="246,39,299,46,298,51,245,44"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="23,133,214,173"/>
+<area shape="poly" id="edge36_Node000004_Node000003" title=" " alt="" coords="228,137,298,127,299,133,228,142"/>
+</map>

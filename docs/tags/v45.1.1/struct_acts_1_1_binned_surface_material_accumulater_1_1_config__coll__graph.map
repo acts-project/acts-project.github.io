@@ -1,0 +1,11 @@
+<map id="Acts::BinnedSurfaceMaterialAccumulater::Config" name="Acts::BinnedSurfaceMaterialAccumulater::Config">
+<area shape="rect" id="Node000001" title="Nested config struct." alt="" coords="80,212,287,252"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_geometry_context.html" title="This is the central definition of the Acts payload object regarding detector geometry status (e...." alt="" coords="5,109,180,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,143,147,186,168,210,164,214,143,190,108,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="41,5,144,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,45,95,109,90,109,90,45"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="205,101,346,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,155,231,190,207,214,203,210,227,186,253,151"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,5,340,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="278,45,278,101,273,101,273,45"/>
+</map>
