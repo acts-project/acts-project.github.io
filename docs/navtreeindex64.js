@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[8,0,1,35,1,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[6,0,2,34,1,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[8,0,1,35,1,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a8ebb500bba954af6a6cedcfb5e8500a6":[6,0,2,34,1,0],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a8ebb500bba954af6a6cedcfb5e8500a6":[8,0,1,35,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a03b067774629d5397fc852ecbd10ae2f":[5,8,7,10,0,6],
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a041a908632ce7a24e68a0b81c26ad66b":[5,8,7,10,0,5],
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a309ec1d3a08d0fe9dc066ae858bae633":[5,8,7,10,0,0],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a46280d8fb7195b73cc09d827630ea376":[5,8,7,10,0,4],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a58a1aea048fdccba2ddb34292655e5ce":[5,8,7,10,0,8],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a6a5deca179b9b91ac1411c767a5dfa5e":[5,8,7,10,0,1]
+"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a46280d8fb7195b73cc09d827630ea376":[5,8,7,10,0,4]
 };

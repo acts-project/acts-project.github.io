@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_vertexing_options.html#ae1f12978b6dd84d3c2169ef4e39d409a":[8,0,0,453,6],
+"struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[6,0,0,445,2],
 "struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[8,0,0,453,2],
 "struct_acts_1_1_view_config.html":[6,0,0,446],
 "struct_acts_1_1_view_config.html":[8,0,0,454],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_fatras_1_1_bethe_heitler.html#abd6286899567d06722ae01f9d0f93a17":[8,0,1,5,0],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html":[6,0,2,5],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html":[8,0,1,6],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3af82346d7895c7bbbd81ae24abbc94f":[6,0,2,5,0],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3af82346d7895c7bbbd81ae24abbc94f":[8,0,1,6,0],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[6,0,2,5,7]
+"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3af82346d7895c7bbbd81ae24abbc94f":[6,0,2,5,0]
 };

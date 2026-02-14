@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"class_acts_plugins_1_1_tensor.html#aa75e55dba73c49c15a17d3cc28f22353":[5,8,7,14,2],
+"class_acts_plugins_1_1_tensor.html#ad7c56ccb124d8a5013f975652512f289":[5,8,7,14,1],
 "class_acts_plugins_1_1_tensor.html#afe5cb69bb86eb20527d5aedf777c7585":[5,8,7,14,5],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html":[5,8,7,15],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a4a8172141409470c3642389cdf260d41":[5,8,7,15,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "functions_w.html":[8,2,0,22],
 "functions_x.html":[8,2,0,23],
 "functions_y.html":[8,2,0,24],
-"functions_z.html":[8,2,0,25],
-"functions_~.html":[8,2,0,26],
-"group__actsvg__plugin.html":[5,8,0]
+"functions_z.html":[8,2,0,25]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_plugins_1_1_geant4_detector_element.html#a56ee185fbf6ed80fbf21d709690b339c":[5,8,8,1,1],
+"class_acts_plugins_1_1_geant4_detector_element.html#abb07d8a84d19739ae6f497ce32c80488":[5,8,8,1,0],
 "class_acts_plugins_1_1_geant4_detector_element.html#ac4642189a3a5d754f1aea91fe2bd1fb9":[5,8,8,1,6],
 "class_acts_plugins_1_1_geant4_detector_element.html#af9da09aa2e4fde235605ab044647bd7f":[5,8,8,1,5],
 "class_acts_plugins_1_1_geant4_detector_surface_factory.html":[5,8,8,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "class_acts_plugins_1_1_tensor.html#a3b3ad7a522ae066cb38650bbaa5b29cf":[5,8,7,14,0],
 "class_acts_plugins_1_1_tensor.html#a5116cc307034d204c3aac52262760e71":[5,8,7,14,7],
 "class_acts_plugins_1_1_tensor.html#aa146d878dd257a1eacf98f18e8c2d21d":[5,8,7,14,4],
-"class_acts_plugins_1_1_tensor.html#aa64d6e9fe5be8a9029aa0356aa5c6ff0":[5,8,7,14,8],
-"class_acts_plugins_1_1_tensor.html#aa75e55dba73c49c15a17d3cc28f22353":[5,8,7,14,2],
-"class_acts_plugins_1_1_tensor.html#ad7c56ccb124d8a5013f975652512f289":[5,8,7,14,1]
+"class_acts_plugins_1_1_tensor.html#aa64d6e9fe5be8a9029aa0356aa5c6ff0":[5,8,7,14,8]
 };

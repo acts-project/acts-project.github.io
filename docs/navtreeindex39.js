@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[8,0,1,26,13],
+"class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[6,0,2,25,38],
 "class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[8,0,1,26,38],
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[6,0,2,25,16],
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[8,0,1,26,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "class_acts_plugins_1_1_geant4_detector_element.html#a215ba6b943e8e928e2ba5eb2d8dc5a77":[5,8,8,1,3],
 "class_acts_plugins_1_1_geant4_detector_element.html#a3057ad8d98240524089488f4e3a5f451":[5,8,8,1,2],
 "class_acts_plugins_1_1_geant4_detector_element.html#a50326c22f9973774a2f1dac9ce321f83":[5,8,8,1,7],
-"class_acts_plugins_1_1_geant4_detector_element.html#a52393e320d023c66cf39dc1b2d2cd918":[5,8,8,1,4],
-"class_acts_plugins_1_1_geant4_detector_element.html#a56ee185fbf6ed80fbf21d709690b339c":[5,8,8,1,1],
-"class_acts_plugins_1_1_geant4_detector_element.html#abb07d8a84d19739ae6f497ce32c80488":[5,8,8,1,0]
+"class_acts_plugins_1_1_geant4_detector_element.html#a52393e320d023c66cf39dc1b2d2cd918":[5,8,8,1,4]
 };
