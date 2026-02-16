@@ -148,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a37b34e6dceeb1f499ef4e59b4c28b7e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">instantiate the (empty) hough plane  <br /></td></tr>
 <tr class="memitem:addbda9a32f6236615aed39e8ca86590f" id="r_addbda9a32f6236615aed39e8ca86590f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af25422f9261bee175a1e2003ea9a30c9">Index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addbda9a32f6236615aed39e8ca86590f">axisBins</a> (std::size_t <a class="el" href="#aa11a43e930d4716c639c29026df4ccd5">globalBin</a>) const</td></tr>
 <tr class="memdesc:addbda9a32f6236615aed39e8ca86590f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the coordinates of the bin given the global bin index  <br /></td></tr>
-<tr class="memitem:a459a47423158909b80e239a10c7f642e" id="r_a459a47423158909b80e239a10c7f642e"><td class="memTemplParams" colspan="2">template&lt;class PointType&gt; </td></tr>
-<tr class="memitem:a459a47423158909b80e239a10c7f642e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a459a47423158909b80e239a10c7f642e">fill</a> (const PointType &amp;measurement, const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html">HoughAxisRanges</a> &amp;axisRanges, LineParametrisation&lt; PointType &gt; linePar, LineParametrisation&lt; PointType &gt; widthPar, const identifier_t &amp;identifier, unsigned layer=0, YieldType weight=1.0f)</td></tr>
-<tr class="memdesc:a459a47423158909b80e239a10c7f642e"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill and reset methods to modify the grid content  <br /></td></tr>
+<tr class="memitem:ae054caeec6bc00e22a49fec60cb7c80a" id="r_ae054caeec6bc00e22a49fec60cb7c80a"><td class="memTemplParams" colspan="2">template&lt;class PointType&gt; </td></tr>
+<tr class="memitem:ae054caeec6bc00e22a49fec60cb7c80a template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae054caeec6bc00e22a49fec60cb7c80a">fill</a> (const PointType &amp;measurement, const <a class="el" href="struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html">HoughAxisRanges</a> &amp;axisRanges, const LineParametrisation&lt; PointType &gt; &amp;linePar, const LineParametrisation&lt; PointType &gt; &amp;widthPar, const identifier_t &amp;identifier, unsigned layer=0, YieldType weight=1.0f)</td></tr>
+<tr class="memdesc:ae054caeec6bc00e22a49fec60cb7c80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill and reset methods to modify the grid content  <br /></td></tr>
 <tr class="memitem:a4ee69a51ec878918953309aa78abd169" id="r_a4ee69a51ec878918953309aa78abd169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee69a51ec878918953309aa78abd169">fillBin</a> (std::size_t binX, std::size_t binY, const identifier_t &amp;identifier, unsigned layer, double w=1.0f)</td></tr>
 <tr class="memdesc:a4ee69a51ec878918953309aa78abd169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to fill a bin of the hough histogram.  <br /></td></tr>
 <tr class="memitem:aac64b3abd0ec305152fc0c674ed5579b" id="r_aac64b3abd0ec305152fc0c674ed5579b"><td class="memItemLeft" align="right" valign="top">const std::unordered_set&lt; std::size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac64b3abd0ec305152fc0c674ed5579b">getNonEmptyBins</a> () const</td></tr>
@@ -275,8 +275,8 @@ template&lt;class identifier_t&gt; </div>
 
 </div>
 </div>
-<a id="a459a47423158909b80e239a10c7f642e" name="a459a47423158909b80e239a10c7f642e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a459a47423158909b80e239a10c7f642e">&#9670;&#160;</a></span>fill()</h2>
+<a id="ae054caeec6bc00e22a49fec60cb7c80a" name="ae054caeec6bc00e22a49fec60cb7c80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae054caeec6bc00e22a49fec60cb7c80a">&#9670;&#160;</a></span>fill()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,12 +298,12 @@ template&lt;class PointType&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">LineParametrisation&lt; PointType &gt;</td>          <td class="paramname"><span class="paramname"><em>linePar</em></span>, </td>
+          <td class="paramtype">const LineParametrisation&lt; PointType &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>linePar</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">LineParametrisation&lt; PointType &gt;</td>          <td class="paramname"><span class="paramname"><em>widthPar</em></span>, </td>
+          <td class="paramtype">const LineParametrisation&lt; PointType &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>widthPar</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

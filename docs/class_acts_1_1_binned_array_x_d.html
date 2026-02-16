@@ -149,8 +149,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa1ab87a722d8c64731669ec677191eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with a grid and a BinUtility.  <br /></td></tr>
 <tr class="memitem:a1ee718a8bb7b1a450420ac9f9bf417c2" id="r_a1ee718a8bb7b1a450420ac9f9bf417c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ee718a8bb7b1a450420ac9f9bf417c2">BinnedArrayXD</a> (const std::vector&lt; TAP &gt; &amp;tapvector, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &gt; bu)</td></tr>
 <tr class="memdesc:a1ee718a8bb7b1a450420ac9f9bf417c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with std::vector and a BinUtility.  <br /></td></tr>
-<tr class="memitem:ad112d1f17246f6b183a8380bbedc13a5" id="r_ad112d1f17246f6b183a8380bbedc13a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad112d1f17246f6b183a8380bbedc13a5">BinnedArrayXD</a> (T <a class="el" href="#aedd2f63f632efdcb2e0c60b2b9d561f5">object</a>)</td></tr>
-<tr class="memdesc:ad112d1f17246f6b183a8380bbedc13a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for single object.  <br /></td></tr>
+<tr class="memitem:a1053aa626109a2a9f641cbbbab8439bf" id="r_a1053aa626109a2a9f641cbbbab8439bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1053aa626109a2a9f641cbbbab8439bf">BinnedArrayXD</a> (const T &amp;<a class="el" href="#aedd2f63f632efdcb2e0c60b2b9d561f5">object</a>)</td></tr>
+<tr class="memdesc:a1053aa626109a2a9f641cbbbab8439bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for single object.  <br /></td></tr>
 <tr class="memitem:ac1cf1f5d1cfbd6395172b02fb1e51263" id="r_ac1cf1f5d1cfbd6395172b02fb1e51263"><td class="memItemLeft" align="right" valign="top"><a id="ac1cf1f5d1cfbd6395172b02fb1e51263" name="ac1cf1f5d1cfbd6395172b02fb1e51263"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~BinnedArrayXD</b> () override=default</td></tr>
 <tr class="memdesc:ac1cf1f5d1cfbd6395172b02fb1e51263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
@@ -168,7 +168,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2591d77d2b932433d99a9458d649fdd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object in the array from a global position.  <br /></td></tr>
 <tr class="memitem:a6775f5bdfb465df885e8054257046637" id="r_a6775f5bdfb465df885e8054257046637"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::vector&lt; std::vector&lt; T &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6775f5bdfb465df885e8054257046637">objectGrid</a> () const final</td></tr>
 <tr class="memdesc:a6775f5bdfb465df885e8054257046637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the object grid multiple entries are allowed and wanted.  <br /></td></tr>
-<tr class="memitem:a6df95c83572d78846062557510a0b668" id="r_a6df95c83572d78846062557510a0b668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad112d1f17246f6b183a8380bbedc13a5">BinnedArrayXD</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df95c83572d78846062557510a0b668">operator=</a> (const <a class="el" href="#ad112d1f17246f6b183a8380bbedc13a5">BinnedArrayXD</a>&lt; T &gt; &amp;barr)=delete</td></tr>
+<tr class="memitem:a6df95c83572d78846062557510a0b668" id="r_a6df95c83572d78846062557510a0b668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1053aa626109a2a9f641cbbbab8439bf">BinnedArrayXD</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df95c83572d78846062557510a0b668">operator=</a> (const <a class="el" href="#a1053aa626109a2a9f641cbbbab8439bf">BinnedArrayXD</a>&lt; T &gt; &amp;barr)=delete</td></tr>
 <tr class="memdesc:a6df95c83572d78846062557510a0b668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_binned_array"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_binned_array')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_binned_array.html">Acts::BinnedArray&lt; T &gt;</a></td></tr>
 <tr class="memitem:a3a77b70574e124dfd86b2310fa8ed519 inherit pub_methods_class_acts_1_1_binned_array" id="r_a3a77b70574e124dfd86b2310fa8ed519"><td class="memItemLeft" align="right" valign="top">
@@ -184,8 +184,8 @@ class Acts::BinnedArrayXD&lt; T &gt;</div><p>Avoiding a map search, the template
 <p>This can be 0D, 1D, 2D, and 3D in regular binning</p>
 <p>the type of Binning is given defined through the BinUtility </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad112d1f17246f6b183a8380bbedc13a5" name="ad112d1f17246f6b183a8380bbedc13a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad112d1f17246f6b183a8380bbedc13a5">&#9670;&#160;</a></span>BinnedArrayXD() <span class="overload">[1/4]</span></h2>
+<a id="a1053aa626109a2a9f641cbbbab8439bf" name="a1053aa626109a2a9f641cbbbab8439bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1053aa626109a2a9f641cbbbab8439bf">&#9670;&#160;</a></span>BinnedArrayXD() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +198,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_binned_array_x_d.html">Acts::BinnedArrayXD</a>&lt; T &gt;::BinnedArrayXD </td>
           <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -590,9 +590,9 @@ template&lt;class T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ad112d1f17246f6b183a8380bbedc13a5">BinnedArrayXD</a> &amp; <a class="el" href="class_acts_1_1_binned_array_x_d.html">Acts::BinnedArrayXD</a>&lt; T &gt;::operator= </td>
+          <td class="memname"><a class="el" href="#a1053aa626109a2a9f641cbbbab8439bf">BinnedArrayXD</a> &amp; <a class="el" href="class_acts_1_1_binned_array_x_d.html">Acts::BinnedArrayXD</a>&lt; T &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ad112d1f17246f6b183a8380bbedc13a5">BinnedArrayXD</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>barr</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a1053aa626109a2a9f641cbbbab8439bf">BinnedArrayXD</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>barr</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

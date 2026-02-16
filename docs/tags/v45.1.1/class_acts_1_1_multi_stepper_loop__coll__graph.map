@@ -1,5 +1,0 @@
-<map id="Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;" name="Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;">
-<area shape="rect" id="Node000001" title="Stepper based on a single&#45;component stepper, but can handle Multi&#45;Component Tracks (e...." alt="" coords="5,79,231,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="53,5,183,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,44,121,79,115,79,115,44"/>
-</map>

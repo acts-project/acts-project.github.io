@@ -1,6 +1,6 @@
 var class_acts_1_1_binned_array_x_d =
 [
-    [ "BinnedArrayXD", "class_acts_1_1_binned_array_x_d.html#ad112d1f17246f6b183a8380bbedc13a5", null ],
+    [ "BinnedArrayXD", "class_acts_1_1_binned_array_x_d.html#a1053aa626109a2a9f641cbbbab8439bf", null ],
     [ "BinnedArrayXD", "class_acts_1_1_binned_array_x_d.html#a1ee718a8bb7b1a450420ac9f9bf417c2", null ],
     [ "BinnedArrayXD", "class_acts_1_1_binned_array_x_d.html#aa1ab87a722d8c64731669ec677191eb6", null ],
     [ "BinnedArrayXD", "class_acts_1_1_binned_array_x_d.html#af48d2f0d3f041f75de3b3358a671d4db", null ],

@@ -4,7 +4,7 @@ var group__geomodel__plugin =
       [ "ContextType", "class_acts_plugins_1_1_geo_model_detector_element.html#a5bab63530432e189c7987277e0f0a45f", null ],
       [ "GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html#af8b2af57dc794a3b24f5a8bf0e308ee0", null ],
       [ "attachSurface", "class_acts_plugins_1_1_geo_model_detector_element.html#a60a2999ed655e708e54c23d7948c0025", null ],
-      [ "createDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html#a5c7b8dcc01c0e55bd8f699359a437884", null ],
+      [ "createDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html#ae828be34a268c5a091b981a938fd6621", null ],
       [ "databaseEntryName", "class_acts_plugins_1_1_geo_model_detector_element.html#a33d4c8362869ceccb10d15f73dad26f1", null ],
       [ "isSensitive", "class_acts_plugins_1_1_geo_model_detector_element.html#aa8e9988fe99098bbdded9b18642475db", null ],
       [ "localToGlobalTransform", "class_acts_plugins_1_1_geo_model_detector_element.html#a0e0571165f189f565434c35009a28167", null ],

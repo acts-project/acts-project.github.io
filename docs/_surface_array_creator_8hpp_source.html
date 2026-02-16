@@ -335,8 +335,8 @@ $(function(){initNavTree('_surface_array_creator_8hpp_source.html','',''); });
 <div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>  <span class="keyword">template</span> &lt;AxisBoundaryType bdtA, AxisBoundaryType bdtB&gt;</div>
 <div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>  <span class="keyword">static</span> std::unique_ptr&lt;SurfaceArray::ISurfaceGridLookup&gt;</div>
 <div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>  makeSurfaceGridLookup2D(std::shared_ptr&lt;RegularSurface&gt; surface,</div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>                          <span class="keywordtype">double</span> layerTolerance, ProtoAxis pAxisA,</div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>                          ProtoAxis pAxisB) {</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>                          <span class="keywordtype">double</span> layerTolerance, <span class="keyword">const</span> ProtoAxis&amp; pAxisA,</div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>                          <span class="keyword">const</span> ProtoAxis&amp; pAxisB) {</div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>    <span class="keyword">using </span>ISGL = SurfaceArray::ISurfaceGridLookup;</div>
 <div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>    std::unique_ptr&lt;ISGL&gt; ptr;</div>
 <div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span> </div>

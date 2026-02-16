@@ -166,7 +166,7 @@ Member Logger Pattern</h3>
 <div class="line">  std::unique_ptr&lt;const Acts::Logger&gt; m_logger;</div>
 <div class="line">  <span class="keyword">const</span> Acts::Logger &amp;logger()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *m_logger; }</div>
 <div class="line"> </div>
-<div class="line">  MyClass(std::unique_ptr&lt;const Acts::Logger&gt; logger)</div>
+<div class="line">  <span class="keyword">explicit</span> MyClass(std::unique_ptr&lt;const Acts::Logger&gt; logger)</div>
 <div class="line">      : m_logger(std::move(logger)) {}</div>
 <div class="line"> </div>
 <div class="line">  <span class="keywordtype">void</span> doWork() { <a class="code hl_define" href="group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821">ACTS_INFO</a>(<span class="stringliteral">&quot;Doing work in MyClass&quot;</span>); }</div>

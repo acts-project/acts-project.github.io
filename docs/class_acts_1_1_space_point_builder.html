@@ -143,7 +143,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5df2f6702740ad00921d1fb32c3edd00" id="r_a5df2f6702740ad00921d1fb32c3edd00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5df2f6702740ad00921d1fb32c3edd00">SpacePointBuilder</a> (const <a class="el" href="struct_acts_1_1_space_point_builder_config.html">SpacePointBuilderConfig</a> &amp;cfg, <a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a> func, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; <a class="el" href="#ab27961c5cc55923b413b03003dc2a751">logger</a>=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SpacePointBuilder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
+<tr class="memitem:a0ba18ff42d83423c6c3f1ac395a5e59c" id="r_a0ba18ff42d83423c6c3f1ac395a5e59c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ba18ff42d83423c6c3f1ac395a5e59c">SpacePointBuilder</a> (const <a class="el" href="struct_acts_1_1_space_point_builder_config.html">SpacePointBuilderConfig</a> &amp;cfg, const <a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a> &amp;func, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; <a class="el" href="#ab27961c5cc55923b413b03003dc2a751">logger</a>=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SpacePointBuilder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memitem:aca62261e1f50c0faa2997cc29116ab99" id="r_aca62261e1f50c0faa2997cc29116ab99"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; typename container_t&gt; </td></tr>
 <tr class="memitem:aca62261e1f50c0faa2997cc29116ab99 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca62261e1f50c0faa2997cc29116ab99">buildSpacePoint</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;sourceLinks, const <a class="el" href="struct_acts_1_1_space_point_builder_options.html">SpacePointBuilderOptions</a> &amp;opt, std::back_insert_iterator&lt; container_t&lt; spacepoint_t &gt; &gt; spacePointIt) const</td></tr>
 <tr class="memdesc:aca62261e1f50c0faa2997cc29116ab99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the space points out of a given collection of SourceLinks and stores the results.  <br /></td></tr>
@@ -199,8 +199,8 @@ template&lt;typename spacepoint_t&gt; </div>
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5df2f6702740ad00921d1fb32c3edd00" name="a5df2f6702740ad00921d1fb32c3edd00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5df2f6702740ad00921d1fb32c3edd00">&#9670;&#160;</a></span>SpacePointBuilder()</h2>
+<a id="a0ba18ff42d83423c6c3f1ac395a5e59c" name="a0ba18ff42d83423c6c3f1ac395a5e59c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba18ff42d83423c6c3f1ac395a5e59c">&#9670;&#160;</a></span>SpacePointBuilder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +215,7 @@ template&lt;typename spacepoint_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

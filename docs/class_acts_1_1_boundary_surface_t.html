@@ -153,8 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af88998dcde3c0cfd0a2bbc69c934bea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next Volume depending on GlobalPosition, GlobalMomentum, dir on the TrackParameters and the requested direction.  <br /></td></tr>
 <tr class="memitem:a7526b5d03d4138ff4c9bb7c1bbf2432c" id="r_a7526b5d03d4138ff4c9bb7c1bbf2432c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7526b5d03d4138ff4c9bb7c1bbf2432c">attachVolume</a> (const volume_t *volume, <a class="el" href="class_acts_1_1_direction.html">Direction</a> dir)</td></tr>
 <tr class="memdesc:a7526b5d03d4138ff4c9bb7c1bbf2432c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method: attach a Volume to this BoundarySurfaceT this is done during the geometry construction.  <br /></td></tr>
-<tr class="memitem:a64b20288369bf04d81c8baf10358e843" id="r_a64b20288369bf04d81c8baf10358e843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64b20288369bf04d81c8baf10358e843">attachVolumeArray</a> (std::shared_ptr&lt; const VolumeArray &gt; volumes, <a class="el" href="class_acts_1_1_direction.html">Direction</a> dir)</td></tr>
-<tr class="memdesc:a64b20288369bf04d81c8baf10358e843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method: attach a Volume to this BoundarySurfaceT this is done during the geometry construction.  <br /></td></tr>
+<tr class="memitem:a987f4234ae1fbec94baa6c4b1592f100" id="r_a987f4234ae1fbec94baa6c4b1592f100"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a987f4234ae1fbec94baa6c4b1592f100">attachVolumeArray</a> (const std::shared_ptr&lt; const VolumeArray &gt; &amp;volumes, <a class="el" href="class_acts_1_1_direction.html">Direction</a> dir)</td></tr>
+<tr class="memdesc:a987f4234ae1fbec94baa6c4b1592f100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method: attach a Volume to this BoundarySurfaceT this is done during the geometry construction.  <br /></td></tr>
 <tr class="memitem:ad604cb684d6bc646008452a8d2737711" id="r_ad604cb684d6bc646008452a8d2737711"><td class="memTemplParams" colspan="2">template&lt;class parameters_t&gt; </td></tr>
 <tr class="memitem:ad604cb684d6bc646008452a8d2737711 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad604cb684d6bc646008452a8d2737711">onBoundary</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const parameters_t &amp;pars) const</td></tr>
 <tr class="memdesc:ad604cb684d6bc646008452a8d2737711"><td class="mdescLeft">&#160;</td><td class="mdescRight">templated onBoundary method  <br /></td></tr>
@@ -396,8 +396,8 @@ template&lt;class volume_t&gt; </div>
 
 </div>
 </div>
-<a id="a64b20288369bf04d81c8baf10358e843" name="a64b20288369bf04d81c8baf10358e843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64b20288369bf04d81c8baf10358e843">&#9670;&#160;</a></span>attachVolumeArray()</h2>
+<a id="a987f4234ae1fbec94baa6c4b1592f100" name="a987f4234ae1fbec94baa6c4b1592f100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a987f4234ae1fbec94baa6c4b1592f100">&#9670;&#160;</a></span>attachVolumeArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +407,7 @@ template&lt;class volume_t&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="class_acts_1_1_boundary_surface_t.html">Acts::BoundarySurfaceT</a>&lt; volume_t &gt;::attachVolumeArray </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; const VolumeArray &gt;</td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
+          <td class="paramtype">const std::shared_ptr&lt; const VolumeArray &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>volumes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

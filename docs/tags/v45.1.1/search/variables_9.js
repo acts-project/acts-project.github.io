@@ -1,8 +1,0 @@
-var searchData=
-[
-  ['j_0',['J',['../namespace_acts_1_1_unit_constants.html#abc4f62a83ef45919eae805f79fe6bd86',1,'Acts::UnitConstants']]],
-  ['jacobian_1',['jacobian',['../struct_acts_1_1_atlas_stepper_1_1_state.html#aeb96de3a003f281201a3493dcbbdfea5',1,'Acts::AtlasStepper::State::jacobian'],['../struct_acts_1_1_eigen_stepper_1_1_state.html#ac96a0a5d18d9c4faca33a8a92f1f487a',1,'Acts::EigenStepper::State::jacobian'],['../struct_acts_1_1_straight_line_stepper_1_1_state.html#a9210bf83689ee4b4ddfcd808650cc148',1,'Acts::StraightLineStepper::State::jacobian'],['../struct_acts_1_1_sympy_stepper_1_1_state.html#a994c5c59246ae5e6a4d81dd8bf949ba1',1,'Acts::SympyStepper::State::jacobian']]],
-  ['jactoglobal_2',['jacToGlobal',['../struct_acts_1_1_eigen_stepper_1_1_state.html#aafe0919185203cc9c14aa8dee5947d08',1,'Acts::EigenStepper::State::jacToGlobal'],['../struct_acts_1_1_straight_line_stepper_1_1_state.html#a65b8c2d7aa549a0491f8622917f0335e',1,'Acts::StraightLineStepper::State::jacToGlobal'],['../struct_acts_1_1_sympy_stepper_1_1_state.html#af7d63fb3780b2eac0a66d724491e43b9',1,'Acts::SympyStepper::State::jacToGlobal']]],
-  ['jactransport_3',['jacTransport',['../struct_acts_1_1_eigen_stepper_1_1_state.html#aa7d6a9ce0ca62571fd46b5c7aac90912',1,'Acts::EigenStepper::State::jacTransport'],['../struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8',1,'Acts::StraightLineStepper::State::jacTransport'],['../struct_acts_1_1_sympy_stepper_1_1_state.html#a2acc87786cd99b82200961bca76b8c7b',1,'Acts::SympyStepper::State::jacTransport']]],
-  ['jsonentrypath_4',['jsonEntryPath',['../struct_acts_1_1_json_surfaces_reader_1_1_options.html#a57e0b29472eaed7612f4c352b68d3eea',1,'Acts::JsonSurfacesReader::Options']]]
-];

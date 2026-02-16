@@ -14,9 +14,9 @@ var class_acts_1_1_k_d_tree =
     [ "rangeSearch", "class_acts_1_1_k_d_tree.html#aa042dbbfdb3f2e6f0dfd93cbe7ee241a", null ],
     [ "rangeSearchInserter", "class_acts_1_1_k_d_tree.html#ae82c86ebcf45f62fdb917bdee827ce8b", null ],
     [ "rangeSearchInserterWithKey", "class_acts_1_1_k_d_tree.html#a66c49d1ac523bc2a876893e016df0425", null ],
-    [ "rangeSearchMap", "class_acts_1_1_k_d_tree.html#a663ee56c81b40c9b439d29c0230ccf11", null ],
+    [ "rangeSearchMap", "class_acts_1_1_k_d_tree.html#a36f2e3fa73c2fec1199801ccc621f6b8", null ],
     [ "rangeSearchMapDiscard", "class_acts_1_1_k_d_tree.html#aa0d2ba1d044f9524d349f6aebadff8cc", null ],
-    [ "rangeSearchMapInserter", "class_acts_1_1_k_d_tree.html#a37b7c9ca6022126c2e47fab00f4c1847", null ],
+    [ "rangeSearchMapInserter", "class_acts_1_1_k_d_tree.html#a47297b41e5082de0e2984af92aab047d", null ],
     [ "rangeSearchWithKey", "class_acts_1_1_k_d_tree.html#ab8b20b808df88e92149002f87753864a", null ],
     [ "rangeSearchWithKey", "class_acts_1_1_k_d_tree.html#a4a1d035d778043fd4cc343efe470a1d8", null ],
     [ "size", "class_acts_1_1_k_d_tree.html#afa6f2805867142cd74b1f0652de4056d", null ]

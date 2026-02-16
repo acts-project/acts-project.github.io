@@ -185,14 +185,14 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalLinkBase</b
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad2ae5b8832d202c7a51013d2e9ac6108" id="r_ad2ae5b8832d202c7a51013d2e9ac6108"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2ae5b8832d202c7a51013d2e9ac6108">fillMergedGrid</a> (const <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;a, const <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;b, <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;merged, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:ad2ae5b8832d202c7a51013d2e9ac6108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to fill the bin contents after merging.  <br /></td></tr>
+<tr class="memitem:ae14cb3d63fb8b59c419820e48afafb3e" id="r_ae14cb3d63fb8b59c419820e48afafb3e"><td class="memTemplParams" colspan="2">template&lt;AxisConcept axis_1_t, AxisConcept axis_2_t&gt; </td></tr>
+<tr class="memitem:ae14cb3d63fb8b59c419820e48afafb3e template"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_1_t, axis_2_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae14cb3d63fb8b59c419820e48afafb3e">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, axis_1_t axis1, axis_2_t axis2)</td></tr>
+<tr class="memdesc:ae14cb3d63fb8b59c419820e48afafb3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a two-dimensional grid portal link, which allows using template deduction to figure out the right type.  <br /></td></tr>
+<tr class="memitem:a3b377acceb94d04c7d43c24ac32c4914" id="r_a3b377acceb94d04c7d43c24ac32c4914"><td class="memTemplParams" colspan="2">template&lt;AxisConcept axis_t&gt; </td></tr>
+<tr class="memitem:a3b377acceb94d04c7d43c24ac32c4914 template"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b377acceb94d04c7d43c24ac32c4914">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, axis_t &amp;&amp;axis)</td></tr>
+<tr class="memdesc:a3b377acceb94d04c7d43c24ac32c4914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a one-dimensional grid portal link, which allows using template deduction to figure out the right type.  <br /></td></tr>
 <tr class="memitem:a05d15d6f8d767977bd3274b8555bb569" id="r_a05d15d6f8d767977bd3274b8555bb569"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d15d6f8d767977bd3274b8555bb569">make</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;<a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>)</td></tr>
 <tr class="memdesc:a05d15d6f8d767977bd3274b8555bb569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for an automatically sized one-dimensional grid.  <br /></td></tr>
-<tr class="memitem:a7146bbc2242e47d63012ea4c17c708e8" id="r_a7146bbc2242e47d63012ea4c17c708e8"><td class="memTemplParams" colspan="2">template&lt;AxisConcept axis_1_t, AxisConcept axis_2_t&gt; </td></tr>
-<tr class="memitem:a7146bbc2242e47d63012ea4c17c708e8 template"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_1_t, axis_2_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7146bbc2242e47d63012ea4c17c708e8">make</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; <a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, axis_1_t axis1, axis_2_t axis2)</td></tr>
-<tr class="memdesc:a7146bbc2242e47d63012ea4c17c708e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a two-dimensional grid portal link, which allows using template deduction to figure out the right type.  <br /></td></tr>
-<tr class="memitem:adba99509afb380d44ec854597e48f1f1" id="r_adba99509afb380d44ec854597e48f1f1"><td class="memTemplParams" colspan="2">template&lt;AxisConcept axis_t&gt; </td></tr>
-<tr class="memitem:adba99509afb380d44ec854597e48f1f1 template"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba99509afb380d44ec854597e48f1f1">make</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; <a class="el" href="class_acts_1_1_portal_link_base.html#ae706bba39e86a210651c99c1ba52c5c3">surface</a>, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, axis_t &amp;&amp;axis)</td></tr>
-<tr class="memdesc:adba99509afb380d44ec854597e48f1f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for a one-dimensional grid portal link, which allows using template deduction to figure out the right type.  <br /></td></tr>
 <tr class="memitem:a90e2157bbbe24d21344b6e2284f840ce" id="r_a90e2157bbbe24d21344b6e2284f840ce"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_link_base.html#a30b89ac576f08ec0c64433effb5a7276">PortalLinkBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90e2157bbbe24d21344b6e2284f840ce">merge</a> (const <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;a, const <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &amp;b, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> <a class="el" href="#a15942315060e068882de821aa94c08f7">direction</a>, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
 <tr class="memdesc:a90e2157bbbe24d21344b6e2284f840ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge two grid portal links into a single one.  <br /></td></tr>
 <tr class="inherit_header pub_static_methods_class_acts_1_1_portal_link_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_acts_1_1_portal_link_base')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="class_acts_1_1_portal_link_base.html">Acts::PortalLinkBase</a></td></tr>
@@ -804,53 +804,8 @@ std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">Reg
 
 </div>
 </div>
-<a id="a05d15d6f8d767977bd3274b8555bb569" name="a05d15d6f8d767977bd3274b8555bb569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05d15d6f8d767977bd3274b8555bb569">&#9670;&#160;</a></span>make() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt; Acts::GridPortalLink::make </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Factory function for an automatically sized one-dimensional grid. </p>
-<p>This produces a single-bin grid with boundaries taken from the bounds of <code class="param">surface</code> along <code class="param">direction</code>. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">surface</td><td>The surface </td></tr>
-    <tr><td class="paramname">volume</td><td>The tracking volume </td></tr>
-    <tr><td class="paramname">direction</td><td>The binning direction </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A unique pointer to the grid portal link </dd></dl>
-
-</div>
-</div>
-<a id="a7146bbc2242e47d63012ea4c17c708e8" name="a7146bbc2242e47d63012ea4c17c708e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7146bbc2242e47d63012ea4c17c708e8">&#9670;&#160;</a></span>make() <span class="overload">[2/3]</span></h2>
+<a id="ae14cb3d63fb8b59c419820e48afafb3e" name="ae14cb3d63fb8b59c419820e48afafb3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14cb3d63fb8b59c419820e48afafb3e">&#9670;&#160;</a></span>make() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -863,7 +818,7 @@ template&lt;AxisConcept axis_1_t, AxisConcept axis_2_t&gt; </div>
         <tr>
           <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_1_t, axis_2_t &gt; &gt; Acts::GridPortalLink::make </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -904,8 +859,8 @@ template&lt;AxisConcept axis_1_t, AxisConcept axis_2_t&gt; </div>
 
 </div>
 </div>
-<a id="adba99509afb380d44ec854597e48f1f1" name="adba99509afb380d44ec854597e48f1f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adba99509afb380d44ec854597e48f1f1">&#9670;&#160;</a></span>make() <span class="overload">[3/3]</span></h2>
+<a id="a3b377acceb94d04c7d43c24ac32c4914" name="a3b377acceb94d04c7d43c24ac32c4914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b377acceb94d04c7d43c24ac32c4914">&#9670;&#160;</a></span>make() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -918,7 +873,7 @@ template&lt;AxisConcept axis_t&gt; </div>
         <tr>
           <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_grid_portal_link_t.html">GridPortalLinkT</a>&lt; axis_t &gt; &gt; Acts::GridPortalLink::make </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -954,6 +909,51 @@ template&lt;AxisConcept axis_t&gt; </div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>The axis boundaries are checked against the bounds of <code class="param">surface</code>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A unique pointer to the grid portal link </dd></dl>
+
+</div>
+</div>
+<a id="a05d15d6f8d767977bd3274b8555bb569" name="a05d15d6f8d767977bd3274b8555bb569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d15d6f8d767977bd3274b8555bb569">&#9670;&#160;</a></span>make() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="#a6c7027d6549a2134eac24d699527f822">GridPortalLink</a> &gt; Acts::GridPortalLink::make </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Factory function for an automatically sized one-dimensional grid. </p>
+<p>This produces a single-bin grid with boundaries taken from the bounds of <code class="param">surface</code> along <code class="param">direction</code>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surface</td><td>The surface </td></tr>
+    <tr><td class="paramname">volume</td><td>The tracking volume </td></tr>
+    <tr><td class="paramname">direction</td><td>The binning direction </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>A unique pointer to the grid portal link </dd></dl>
 
 </div>

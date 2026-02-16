@@ -177,9 +177,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~SurfacePlacementB
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5c7b8dcc01c0e55bd8f699359a437884" id="r_a5c7b8dcc01c0e55bd8f699359a437884"><td class="memTemplParams" colspan="2">template&lt;typename SurfaceType, typename BoundsType&gt; </td></tr>
-<tr class="memitem:a5c7b8dcc01c0e55bd8f699359a437884 template"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; GeoModelDetectorElement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7b8dcc01c0e55bd8f699359a437884">createDetectorElement</a> (const PVConstLink &amp;geoPhysVol, const std::shared_ptr&lt; BoundsType &gt; bounds, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;sfTransform, double <a class="el" href="#ab298fced370c3ce866b8363dcf3e6436">thickness</a>)</td></tr>
-<tr class="memdesc:a5c7b8dcc01c0e55bd8f699359a437884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory to create a planar detector element with connected surface.  <br /></td></tr>
+<tr class="memitem:ae828be34a268c5a091b981a938fd6621" id="r_ae828be34a268c5a091b981a938fd6621"><td class="memTemplParams" colspan="2">template&lt;typename SurfaceType, typename BoundsType&gt; </td></tr>
+<tr class="memitem:ae828be34a268c5a091b981a938fd6621 template"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; GeoModelDetectorElement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae828be34a268c5a091b981a938fd6621">createDetectorElement</a> (const PVConstLink &amp;geoPhysVol, const std::shared_ptr&lt; const BoundsType &gt; &amp;bounds, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;sfTransform, double <a class="el" href="#ab298fced370c3ce866b8363dcf3e6436">thickness</a>)</td></tr>
+<tr class="memdesc:ae828be34a268c5a091b981a938fd6621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory to create a planar detector element with connected surface.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -265,8 +265,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5c7b8dcc01c0e55bd8f699359a437884" name="a5c7b8dcc01c0e55bd8f699359a437884"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c7b8dcc01c0e55bd8f699359a437884">&#9670;&#160;</a></span>createDetectorElement()</h2>
+<a id="ae828be34a268c5a091b981a938fd6621" name="ae828be34a268c5a091b981a938fd6621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae828be34a268c5a091b981a938fd6621">&#9670;&#160;</a></span>createDetectorElement()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +284,7 @@ template&lt;typename SurfaceType, typename BoundsType&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; BoundsType &gt;</td>          <td class="paramname"><span class="paramname"><em>bounds</em></span>, </td>
+          <td class="paramtype">const std::shared_ptr&lt; const BoundsType &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bounds</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
