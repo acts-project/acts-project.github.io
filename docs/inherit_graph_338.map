@@ -1,11 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="13,5,269,45"/>
-<area shape="rect" id="Node000001" href="$class_acts_plugins_1_1_const_podio_track_state_container.html" title="Read&#45;only track state container backend using podio for storage." alt="" coords="325,37,537,77"/>
-<area shape="poly" id="edge176_Node000000_Node000001" title=" " alt="" coords="283,38,326,43,325,48,283,44"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="5,133,277,173"/>
-<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_mutable_podio_track_state_container.html" title="Mutable Podio&#45;based track state container implementation." alt="" coords="334,117,529,157"/>
-<area shape="poly" id="edge177_Node000004_Node000003" title=" " alt="" coords="291,142,334,140,334,145,291,148"/>
-<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_podio_track_state_container_base.html" title="Base class for PODIO track state containers." alt="" coords="37,69,246,109"/>
-<area shape="poly" id="edge178_Node000002_Node000001" title=" " alt="" coords="259,74,325,66,325,72,260,79"/>
-<area shape="poly" id="edge179_Node000002_Node000003" title=" " alt="" coords="260,106,334,119,333,124,259,112"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="13,5,255,60"/>
+<area shape="rect" id="Node000001" href="$class_acts_plugins_1_1_const_podio_track_state_container.html" title="Read&#45;only track state container backend using podio for storage." alt="" coords="323,51,535,91"/>
+<area shape="poly" id="edge176_Node000000_Node000001" title=" " alt="" coords="269,48,323,55,322,60,268,53"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_multi_trajectory.html" title=" " alt="" coords="5,149,263,204"/>
+<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_mutable_podio_track_state_container.html" title="Mutable Podio&#45;based track state container implementation." alt="" coords="311,119,547,159"/>
+<area shape="poly" id="edge177_Node000004_Node000003" title=" " alt="" coords="276,156,310,152,311,157,277,161"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_podio_track_state_container_base.html" title="Base class for PODIO track state containers." alt="" coords="29,85,239,125"/>
+<area shape="poly" id="edge178_Node000002_Node000001" title=" " alt="" coords="252,89,322,81,323,86,253,94"/>
+<area shape="poly" id="edge179_Node000002_Node000003" title=" " alt="" coords="253,116,310,123,310,128,252,121"/>
 </map>

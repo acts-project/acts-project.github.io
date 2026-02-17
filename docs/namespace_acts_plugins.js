@@ -119,6 +119,8 @@ var namespace_acts_plugins =
     [ "make_error_code", "namespace_acts_plugins.html#a2526e749fd364aea904da498207163d5", null ],
     [ "makeMagneticFieldMapRzFromRoot", "group__root__plugin.html#ga378672f895c4e16375ce7f1217c43427", null ],
     [ "makeMagneticFieldMapXyzFromRoot", "group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2", null ],
+    [ "MutablePodioTrackContainer", "group__edm4hep__plugin.html#ga0553ea3f5ddda553c15902ee002f8f97", null ],
+    [ "MutablePodioTrackStateContainer", "group__edm4hep__plugin.html#gacb0bef92079ae5ca55d05b6857e20c16", null ],
     [ "operator<<", "group__geomodel__plugin.html#ga4c0bca82a1840ec2b919b6b4e8f750a2", null ],
     [ "operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
     [ "operator<<", "group__fpemonitoring__plugin.html#ga47240ba288d121f6493b4d7b83cf8ace", null ],

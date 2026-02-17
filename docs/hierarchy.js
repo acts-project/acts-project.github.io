@@ -580,14 +580,14 @@ var hierarchy =
     [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State", "struct_acts_1_1_multi_stepper_loop_1_1_state.html", null ],
     [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State::Component", "struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html", null ],
     [ "Acts::MultiTrajectory&lt; derived_t &gt;", "class_acts_1_1_multi_trajectory.html", null ],
-    [ "Acts::MultiTrajectory&lt; ConstPodioTrackStateContainer &gt;", "class_acts_1_1_multi_trajectory.html", [
-      [ "ActsPlugins::ConstPodioTrackStateContainer", "class_acts_plugins_1_1_const_podio_track_state_container.html", null ]
+    [ "Acts::MultiTrajectory&lt; ConstPodioTrackStateContainer&lt; holder_t &gt; &gt;", "class_acts_1_1_multi_trajectory.html", [
+      [ "ActsPlugins::ConstPodioTrackStateContainer< holder_t >", "class_acts_plugins_1_1_const_podio_track_state_container.html", null ]
     ] ],
     [ "Acts::MultiTrajectory&lt; ConstVectorMultiTrajectory &gt;", "class_acts_1_1_multi_trajectory.html", [
       [ "Acts::ConstVectorMultiTrajectory", "class_acts_1_1_const_vector_multi_trajectory.html", null ]
     ] ],
-    [ "Acts::MultiTrajectory&lt; MutablePodioTrackStateContainer &gt;", "class_acts_1_1_multi_trajectory.html", [
-      [ "ActsPlugins::MutablePodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html", null ]
+    [ "Acts::MultiTrajectory&lt; MutablePodioTrackStateContainer&lt; holder_t &gt; &gt;", "class_acts_1_1_multi_trajectory.html", [
+      [ "ActsPlugins::MutablePodioTrackStateContainer< holder_t >", "class_acts_plugins_1_1_mutable_podio_track_state_container.html", null ]
     ] ],
     [ "Acts::MultiTrajectory&lt; VectorMultiTrajectory &gt;", "class_acts_1_1_multi_trajectory.html", [
       [ "Acts::VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html", null ]
@@ -1046,12 +1046,12 @@ var hierarchy =
     ] ],
     [ "ActsPlugins::PipelineTensors", "struct_acts_plugins_1_1_pipeline_tensors.html", null ],
     [ "ActsPlugins::PodioTrackContainerBase", "class_acts_plugins_1_1_podio_track_container_base.html", [
-      [ "ActsPlugins::ConstPodioTrackContainer", "class_acts_plugins_1_1_const_podio_track_container.html", null ],
-      [ "ActsPlugins::MutablePodioTrackContainer", "class_acts_plugins_1_1_mutable_podio_track_container.html", null ]
+      [ "ActsPlugins::ConstPodioTrackContainer< holder_t >", "class_acts_plugins_1_1_const_podio_track_container.html", null ],
+      [ "ActsPlugins::MutablePodioTrackContainer< holder_t >", "class_acts_plugins_1_1_mutable_podio_track_container.html", null ]
     ] ],
     [ "ActsPlugins::PodioTrackStateContainerBase", "class_acts_plugins_1_1_podio_track_state_container_base.html", [
-      [ "ActsPlugins::ConstPodioTrackStateContainer", "class_acts_plugins_1_1_const_podio_track_state_container.html", null ],
-      [ "ActsPlugins::MutablePodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html", null ]
+      [ "ActsPlugins::ConstPodioTrackStateContainer< holder_t >", "class_acts_plugins_1_1_const_podio_track_state_container.html", null ],
+      [ "ActsPlugins::MutablePodioTrackStateContainer< holder_t >", "class_acts_plugins_1_1_mutable_podio_track_state_container.html", null ]
     ] ],
     [ "ActsPlugins::PodioUtil::ConversionHelper", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html", null ],
     [ "ActsPlugins::RootMaterialDecorator::Config", "class_acts_plugins_1_1_root_material_decorator_1_1_config.html", null ],
@@ -1140,9 +1140,9 @@ var hierarchy =
       [ "Acts::SupportsBoundParameters< EigenStepper<> >", "struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< StraightLineStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< SympyStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html", null ],
-      [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::MutablePodioTrackStateContainer >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_01_4.html", null ],
+      [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::MutablePodioTrackStateContainer< holder_t > >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyMultiTrajectory< VectorMultiTrajectory >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_vector_multi_trajectory_01_4.html", null ],
-      [ "Acts::IsReadOnlyTrackContainer< ActsPlugins::MutablePodioTrackContainer >", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_01_4.html", null ],
+      [ "Acts::IsReadOnlyTrackContainer< ActsPlugins::MutablePodioTrackContainer< holder_t > >", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyTrackContainer< VectorTrackContainer >", "struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< stepper_t >", "struct_acts_1_1_supports_bound_parameters.html", null ],
       [ "Acts::missing_specialization< T, decorator_t >", "struct_acts_1_1missing__specialization.html", null ]
@@ -1151,9 +1151,9 @@ var hierarchy =
       [ "Acts::Types::getSize< TypeList< Ts... > >", "struct_acts_1_1_types_1_1get_size_3_01_type_list_3_01_ts_8_8_8_01_4_01_4.html", null ]
     ] ],
     [ "std::true_type", null, [
-      [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::ConstPodioTrackStateContainer >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_01_4.html", null ],
+      [ "Acts::IsReadOnlyMultiTrajectory< ActsPlugins::ConstPodioTrackStateContainer< holder_t > >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyMultiTrajectory< ConstVectorMultiTrajectory >", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_const_vector_multi_trajectory_01_4.html", null ],
-      [ "Acts::IsReadOnlyTrackContainer< ActsPlugins::ConstPodioTrackContainer >", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_01_4.html", null ],
+      [ "Acts::IsReadOnlyTrackContainer< ActsPlugins::ConstPodioTrackContainer< holder_t > >", "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_3_01holder__t_01_4_01_4.html", null ],
       [ "Acts::IsReadOnlyTrackContainer< ConstVectorTrackContainer >", "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< EigenStepper<> >", "struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html", null ],
       [ "Acts::SupportsBoundParameters< StraightLineStepper >", "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html", null ],

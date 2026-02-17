@@ -1,5 +1,14 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_track_state_creator.html#aa01a61184fe25275d81f0fee42d4d44b":[6,0,0,416,5],
+"struct_acts_1_1_track_state_creator.html#aa01a61184fe25275d81f0fee42d4d44b":[8,0,0,424,5],
+"struct_acts_1_1_track_state_creator.html#ab5b18a48b4a94ae3c2551128a863f8a7":[6,0,0,416,11],
+"struct_acts_1_1_track_state_creator.html#ab5b18a48b4a94ae3c2551128a863f8a7":[8,0,0,424,11],
+"struct_acts_1_1_track_state_creator.html#adb487866bb426554d131c7eb11a916f8":[6,0,0,416,3],
+"struct_acts_1_1_track_state_creator.html#adb487866bb426554d131c7eb11a916f8":[8,0,0,424,3],
+"struct_acts_1_1_track_state_creator.html#adff0ad4ca31bc9f787869fe3d3518450":[6,0,0,416,4],
+"struct_acts_1_1_track_state_creator.html#adff0ad4ca31bc9f787869fe3d3518450":[8,0,0,424,4],
+"struct_acts_1_1_track_state_creator.html#af2e214eb0fbc233df1f4ff608c8f0530":[6,0,0,416,10],
 "struct_acts_1_1_track_state_creator.html#af2e214eb0fbc233df1f4ff608c8f0530":[8,0,0,424,10],
 "struct_acts_1_1_track_state_creator.html#afc1f111d387b28f661ebff969d1d601a":[6,0,0,416,8],
 "struct_acts_1_1_track_state_creator.html#afc1f111d387b28f661ebff969d1d601a":[8,0,0,424,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_vertex_info.html#acfa64785ef451c97196b2fbb3257a27e":[8,0,0,452,3],
 "struct_acts_1_1_vertex_info.html#af2607836b0b0ab18ad3db83f0ce85ac2":[6,0,0,444,5],
 "struct_acts_1_1_vertex_info.html#af2607836b0b0ab18ad3db83f0ce85ac2":[8,0,0,452,5],
-"struct_acts_1_1_vertex_info.html#afc25ea77e6b792bfba14acea1862e019":[6,0,0,444,1],
-"struct_acts_1_1_vertex_info.html#afc25ea77e6b792bfba14acea1862e019":[8,0,0,452,1],
-"struct_acts_1_1_vertexing_options.html":[6,0,0,445],
-"struct_acts_1_1_vertexing_options.html":[8,0,0,453],
-"struct_acts_1_1_vertexing_options.html#a21cc7a26b97c4a143c8b785f3fa675fd":[6,0,0,445,1],
-"struct_acts_1_1_vertexing_options.html#a21cc7a26b97c4a143c8b785f3fa675fd":[8,0,0,453,1],
-"struct_acts_1_1_vertexing_options.html#a51b8a6e95b545cd976fec1300f2e0b96":[6,0,0,445,0],
-"struct_acts_1_1_vertexing_options.html#a51b8a6e95b545cd976fec1300f2e0b96":[8,0,0,453,0],
-"struct_acts_1_1_vertexing_options.html#aac275f927ee4683ba1118c3b5904f548":[6,0,0,445,4],
-"struct_acts_1_1_vertexing_options.html#aac275f927ee4683ba1118c3b5904f548":[8,0,0,453,4]
+"struct_acts_1_1_vertex_info.html#afc25ea77e6b792bfba14acea1862e019":[6,0,0,444,1]
 };

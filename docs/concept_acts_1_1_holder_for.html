@@ -131,11 +131,12 @@ $(function(){initNavTree('concept_acts_1_1_holder_for.html','',''); });
 
 <p><code>#include &lt;<a class="el" href="_holders_8hpp_source.html">Acts/Utilities/Holders.hpp</a>&gt;</code></p>
 <h2 id="header-conceptdef" class="groupheader">Concept definition</h2>
-<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> &gt; <span class="keyword">class </span>Holder, <span class="keyword">typename</span> T&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_holder_for.html">Acts::HolderFor</a> = </div>
-<div class="line">    std::move_constructible&lt;Holder&lt;T&gt;&gt; &amp;&amp; <a class="code hl_concept" href="concept_acts_1_1_pointer_concept.html">PointerConcept&lt;Holder&lt;T&gt;</a>&gt;</div>
+<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">template</span>&lt; <span class="keyword">typename</span>... &gt; <span class="keyword">class </span>Holder, typename T&gt;</div>
+<div class="line">concept <a class="code hl_namespace" href="namespace_acts.html">Acts</a>::<a class="code hl_concept" href="concept_acts_1_1_holder_for.html">HolderFor</a> = </div>
+<div class="line">    std::move_constructible&lt;Holder&lt;T&gt;&gt; &amp;&amp; <a class="code hl_concept" href="concept_acts_1_1_pointer_concept.html">PointerConcept</a>&lt;Holder&lt;T&gt;&gt;</div>
 <div class="ttc" id="aconcept_acts_1_1_holder_for_html"><div class="ttname"><a href="concept_acts_1_1_holder_for.html">Acts::HolderFor</a></div><div class="ttdoc">Concept for holder templates that provide pointer-like access.</div><div class="ttdef"><b>Definition</b> Holders.hpp:136</div></div>
 <div class="ttc" id="aconcept_acts_1_1_pointer_concept_html"><div class="ttname"><a href="concept_acts_1_1_pointer_concept.html">Acts::PointerConcept</a></div><div class="ttdef"><b>Definition</b> PointerTraits.hpp:40</div></div>
+<div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 </div><!-- fragment --><a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept for holder templates that provide pointer-like access. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>

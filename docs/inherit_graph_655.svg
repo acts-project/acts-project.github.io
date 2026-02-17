@@ -23,7 +23,7 @@
 <g id="a_Node000001"><a xlink:href="class_acts_plugins_1_1_const_podio_track_container.html" target="_top" xlink:title="Read&#45;only track container backend using podio for storage.">
 <polygon fill="white" stroke="#666666" points="398,-78 239,-78 239,-48 398,-48 398,-78"/>
 <text text-anchor="start" x="247" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::ConstPodioTrack</text>
-<text text-anchor="middle" x="318.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">Container</text>
+<text text-anchor="middle" x="318.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">Container&lt; holder_t &gt;</text>
 </a>
 </g>
 </g>
@@ -40,9 +40,9 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="class_acts_plugins_1_1_mutable_podio_track_container.html" target="_top" xlink:title="Mutable Podio&#45;based track container implementation.">
-<polygon fill="white" stroke="#666666" points="391.5,-30 245.5,-30 245.5,0 391.5,0 391.5,-30"/>
-<text text-anchor="start" x="253.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::MutablePodio</text>
-<text text-anchor="middle" x="318.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackContainer</text>
+<polygon fill="white" stroke="#666666" points="394.5,-30 242.5,-30 242.5,0 394.5,0 394.5,-30"/>
+<text text-anchor="start" x="250.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::MutablePodio</text>
+<text text-anchor="middle" x="318.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackContainer&lt; holder_t &gt;</text>
 </a>
 </g>
 </g>
@@ -50,7 +50,7 @@
 <g id="edge277_Node000000_Node000002" class="edge">
 <title>Node0&#45;&gt;Node2</title>
 <g id="a_edge277_Node000000_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M198.16,-28.32C214.06,-26.55 230.31,-24.73 245.49,-23.04"/>
+<path fill="none" stroke="#63b8ff" d="M198.02,-28.34C212.89,-26.68 228.07,-24.98 242.41,-23.38"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="197.33,-24.89 187.78,-29.48 198.11,-31.85 197.33,-24.89"/>
 </a>
 </g>

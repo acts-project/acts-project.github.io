@@ -1,5 +1,14 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_navigation_options.html#ac3ebc466bfa8e1bf5cd2a523628df833":[6,0,0,274,4],
+"struct_acts_1_1_navigation_options.html#ac3ebc466bfa8e1bf5cd2a523628df833":[8,0,0,282,4],
+"struct_acts_1_1_navigation_options.html#af9ce009448b61195b5607c492b762e79":[6,0,0,274,2],
+"struct_acts_1_1_navigation_options.html#af9ce009448b61195b5607c492b762e79":[8,0,0,282,2],
+"struct_acts_1_1_navigation_stream_1_1_query_point.html":[6,0,0,278,0],
+"struct_acts_1_1_navigation_stream_1_1_query_point.html":[8,0,0,286,0],
+"struct_acts_1_1_navigation_stream_1_1_query_point.html#aa1219469627fcf0226131c226cbed88b":[6,0,0,278,0,0],
+"struct_acts_1_1_navigation_stream_1_1_query_point.html#aa1219469627fcf0226131c226cbed88b":[8,0,0,286,0,0],
+"struct_acts_1_1_navigation_stream_1_1_query_point.html#ab882e3b8a84d0e9054839644b64dcfb8":[6,0,0,278,0,1],
 "struct_acts_1_1_navigation_stream_1_1_query_point.html#ab882e3b8a84d0e9054839644b64dcfb8":[8,0,0,286,0,1],
 "struct_acts_1_1_navigator_1_1_config.html":[6,0,0,280,0],
 "struct_acts_1_1_navigator_1_1_config.html":[8,0,0,288,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[8,0,0,317,0,2],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[6,0,0,309,0,0],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[8,0,0,317,0,0],
-"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[6,0,0,309,0,0,0],
-"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[8,0,0,317,0,0,0],
-"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[6,0,0,309,0,0,2],
-"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[8,0,0,317,0,0,2],
-"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[6,0,0,309,0,0,1],
-"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[8,0,0,317,0,0,1],
-"struct_acts_1_1_portal_json_converter_1_1_options.html":[8,0,0,12,0],
-"struct_acts_1_1_portal_json_converter_1_1_options.html#af1988c7a4aeead6f3546b00581b68999":[8,0,0,12,0,0],
-"struct_acts_1_1_projected_reference_generator.html":[6,0,0,314],
-"struct_acts_1_1_projected_reference_generator.html":[8,0,0,322]
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[6,0,0,309,0,0,0]
 };

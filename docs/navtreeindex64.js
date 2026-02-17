@@ -1,5 +1,14 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html":[8,0,1,35,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a1568b8f750b95bbbd60a895a74d88e74":[6,0,2,34,0,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a1568b8f750b95bbbd60a895a74d88e74":[8,0,1,35,0,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[6,0,2,34,0,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[8,0,1,35,0,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[6,0,2,34,0,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[8,0,1,35,0,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[6,0,2,34,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[8,0,1,35,0,3],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[6,0,2,34,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[8,0,1,35,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[6,0,2,34,1,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html":[5,8,9,3,0],
 "struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a0d727aeb1bf53ba0d995ec38690675ca":[5,8,9,3,0,3],
 "struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a17eb9a475cb2597bea7b63def3219904":[5,8,9,3,0,0],
-"struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a26b95c4496ce0ae49e365f4f7b464bd1":[5,8,9,3,0,5],
-"struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a49ef59f65ad7b91326ffc60fa569069a":[5,8,9,3,0,6],
-"struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a8991d9a8db19d2e165bd922ec25e5e7c":[5,8,9,3,0,4],
-"struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#aa1e96c8a02fd5336af4c5e25f8a7b553":[5,8,9,3,0,1],
-"struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#ac7f439b83d154f8108b4dd40cbbcd281":[5,8,9,3,0,2],
-"struct_acts_plugins_1_1_gnn_timing.html":[5,8,7,7],
-"struct_acts_plugins_1_1_gnn_timing.html#a21d7f699b42493f04aadb08f02af17a2":[5,8,7,7,2],
-"struct_acts_plugins_1_1_gnn_timing.html#a3de440d1e92e37fcba509043e648a56c":[5,8,7,7,3],
-"struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace":[5,8,7,7,0],
-"struct_acts_plugins_1_1_gnn_timing.html#a9a98e199ad0210ff2e3ef5f477da9e39":[5,8,7,7,1]
+"struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a26b95c4496ce0ae49e365f4f7b464bd1":[5,8,9,3,0,5]
 };

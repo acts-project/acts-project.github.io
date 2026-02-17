@@ -1,5 +1,14 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[8,0,0,317,0,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[6,0,0,309,0,0,2],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[8,0,0,317,0,0,2],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[6,0,0,309,0,0,1],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[8,0,0,317,0,0,1],
+"struct_acts_1_1_portal_json_converter_1_1_options.html":[8,0,0,12,0],
+"struct_acts_1_1_portal_json_converter_1_1_options.html#af1988c7a4aeead6f3546b00581b68999":[8,0,0,12,0,0],
+"struct_acts_1_1_projected_reference_generator.html":[6,0,0,314],
+"struct_acts_1_1_projected_reference_generator.html":[8,0,0,322],
 "struct_acts_1_1_projected_reference_generator.html#a4f823da84889ecf711d1a011661c8ff5":[6,0,0,314,1],
 "struct_acts_1_1_projected_reference_generator.html#a4f823da84889ecf711d1a011661c8ff5":[8,0,0,322,1],
 "struct_acts_1_1_projected_reference_generator.html#a579032a66ff1b8d8d959c123d7439c77":[6,0,0,314,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d":[8,0,0,350,2,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[6,0,0,342,2,3],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3":[8,0,0,350,2,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[6,0,0,342,2,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[8,0,0,350,2,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[6,0,0,342,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[8,0,0,350,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[6,0,0,342,3,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[8,0,0,350,3,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[6,0,0,342,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[8,0,0,350,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[6,0,0,342,3,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[8,0,0,350,3,2]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[6,0,0,342,2,0]
 };
