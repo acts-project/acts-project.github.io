@@ -15,7 +15,7 @@ var class_acts_1_1_interpolated_b_field_map =
     [ "getMin", "class_acts_1_1_interpolated_b_field_map.html#a739667ea26a41c76d5e9777732dae0ba", null ],
     [ "getNBins", "class_acts_1_1_interpolated_b_field_map.html#ab741243770b7835033ac0e8cd53ddbf6", null ],
     [ "isInside", "class_acts_1_1_interpolated_b_field_map.html#a5b8fe09e7f4eff3c898920fb64b5824d", null ],
-    [ "isInsideLocal", "class_acts_1_1_interpolated_b_field_map.html#a2040f18dfa17f426a2f9df531c89722b", null ],
+    [ "isInsideLocal", "class_acts_1_1_interpolated_b_field_map.html#a024ae8673b94bad89fee4b592306da88", null ],
     [ "makeCache", "class_acts_1_1_interpolated_b_field_map.html#a30e0d1e2ea26cc20078710917553fc4d", null ],
     [ "DIM_POS", "class_acts_1_1_interpolated_b_field_map.html#a293e3a0400c18a307e9a5fe6e104d7ff", null ]
 ];

@@ -1,5 +1,10 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a510c1765a60c136d709ecdc533853d6f":[6,0,0,353,19],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a510c1765a60c136d709ecdc533853d6f":[8,0,0,361,19],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a53704f5e8d48570836b1b561e7021c59":[6,0,0,353,20],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a53704f5e8d48570836b1b561e7021c59":[8,0,0,361,20],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a5c741d2f2784e76111528fa753f960de":[6,0,0,353,39],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a5c741d2f2784e76111528fa753f960de":[8,0,0,361,39],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a5fa47dfc4c4daafa0c63e281f33c86bf":[6,0,0,353,11],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a5fa47dfc4c4daafa0c63e281f33c86bf":[8,0,0,361,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_strip_pair_options.html#ab7f584230c0afd4881bd6f223492c163":[8,0,0,390,2],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html":[8,0,0,13,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a0228b6f3bf61608d70c1eccc5353181d":[8,0,0,13,0,0],
-"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a58f78ec7bdd22e3086b0388631323c26":[8,0,0,13,0,2],
-"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a656dc079210078a31fb4860522909ce6":[8,0,0,13,0,3],
-"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#aeaac5fe821760f51006dfc9635cfa482":[8,0,0,13,0,1],
-"struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html":[8,0,0,13,1],
-"struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#a16d94cfd84956fafa0582baa22f202c7":[8,0,0,13,1,2],
-"struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#a7f18d580b5f1ecff6be29ddd6847c034":[8,0,0,13,1,1]
+"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a58f78ec7bdd22e3086b0388631323c26":[8,0,0,13,0,2]
 };

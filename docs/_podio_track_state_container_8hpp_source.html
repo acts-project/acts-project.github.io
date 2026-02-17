@@ -859,10 +859,10 @@ $(function(){initNavTree('_podio_track_state_container_8hpp_source.html','','');
 <div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span> </div>
 <div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>    data.measdim = measdim;</div>
 <div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span> </div>
-<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>    Eigen::Map&lt;Acts::ActsVector&lt;measdim&gt;&gt; valMap(data.measurement.data());</div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>    Eigen::Map&lt;Acts::Vector&lt;measdim&gt;&gt; valMap(data.measurement.data());</div>
 <div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>    valMap = val;</div>
 <div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span> </div>
-<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>    Eigen::Map&lt;Acts::ActsSquareMatrix&lt;measdim&gt;&gt; covMap(</div>
+<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>    Eigen::Map&lt;Acts::SquareMatrix&lt;measdim&gt;&gt; covMap(</div>
 <div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>        data.measurementCovariance.data());</div>
 <div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>    covMap = cov;</div>
 <div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>  }</div>

@@ -144,25 +144,25 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">template</span> &lt;Experimental::CompositeSpacePo<span class="keywordtype">int</span>Ptr Po<span class="keywordtype">int</span>_t&gt;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> betaMatrix(<span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett) {</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> bMatrix{SquareMatrix2::Identity()};</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> betaMatrix(<span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett) {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> bMatrix{SquareMatrix2::Identity()};</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b1Aterm = (layerQuartett[3]-&gt;sensorDirection().dot(</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> b1Aterm = (layerQuartett[3]-&gt;sensorDirection().dot(</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                        layerQuartett[1]-&gt;sensorDirection())) *</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                        layerQuartett[1]-&gt;sensorDirection() -</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                    layerQuartett[3]-&gt;sensorDirection();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b1Gterm = (layerQuartett[3]-&gt;sensorDirection().dot(</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> b1Gterm = (layerQuartett[3]-&gt;sensorDirection().dot(</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                        layerQuartett[0]-&gt;sensorDirection())) *</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                        layerQuartett[0]-&gt;sensorDirection() -</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                    (layerQuartett[3]-&gt;sensorDirection().dot(</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                        layerQuartett[1]-&gt;sensorDirection())) *</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                        layerQuartett[1]-&gt;sensorDirection();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b2Aterm = layerQuartett[2]-&gt;sensorDirection() -</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> b2Aterm = layerQuartett[2]-&gt;sensorDirection() -</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                    (layerQuartett[2]-&gt;sensorDirection().dot(</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                        layerQuartett[1]-&gt;sensorDirection())) *</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                        layerQuartett[1]-&gt;sensorDirection();</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b2Kterm = (layerQuartett[2]-&gt;sensorDirection().dot(</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> b2Kterm = (layerQuartett[2]-&gt;sensorDirection().dot(</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                        layerQuartett[1]-&gt;sensorDirection())) *</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                        layerQuartett[1]-&gt;sensorDirection() -</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                    (layerQuartett[2]-&gt;sensorDirection().dot(</div>
@@ -178,18 +178,18 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>              layerQuartett[3]-&gt;localPosition().z());</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="comment">// define B matrix</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b1 = A * b1Aterm + G * b1Gterm;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> b2 = K * b2Kterm + A * b2Aterm;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> b1 = A * b1Aterm + G * b1Gterm;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> b2 = K * b2Kterm + A * b2Aterm;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  bMatrix.col(0) = <a class="code hl_typedef" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a>(b1.x(), b1.y());</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  bMatrix.col(1) = <a class="code hl_typedef" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a>(b2.x(), b2.y());</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  bMatrix.col(0) = <a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>(b1.x(), b1.y());</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  bMatrix.col(1) = <a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>(b2.x(), b2.y());</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordflow">return</span> bMatrix;</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>}</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">template</span> &lt;Experimental::CompositeSpacePo<span class="keywordtype">int</span>Ptr Po<span class="keywordtype">int</span>_t&gt;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>std::array&lt;double, 4&gt; defineParameters(</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a>&amp; betaMatrix,</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&amp; betaMatrix,</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">const</span> std::array&lt;Point_t, 4&gt;&amp; layerQuartett) {</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordtype">double</span> A = (layerQuartett[0]-&gt;localPosition().z() -</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>              layerQuartett[1]-&gt;localPosition().z());</div>
@@ -199,17 +199,17 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>              layerQuartett[3]-&gt;localPosition().z());</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="comment">// Define y2 for the linear system</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> y0 = K * (layerQuartett[2]-&gt;localPosition() -</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> y0 = K * (layerQuartett[2]-&gt;localPosition() -</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                    layerQuartett[0]-&gt;localPosition()) +</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>               G * (layerQuartett[0]-&gt;localPosition() -</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                    layerQuartett[3]-&gt;localPosition());</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> y1 = A * (layerQuartett[3]-&gt;localPosition() -</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> y1 = A * (layerQuartett[3]-&gt;localPosition() -</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                    layerQuartett[2]-&gt;localPosition()) +</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>               G * (layerQuartett[1]-&gt;localPosition() -</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                    layerQuartett[3]-&gt;localPosition()) +</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>               K * (layerQuartett[2]-&gt;localPosition() -</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>                    layerQuartett[1]-&gt;localPosition());</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> y2 = (K - G) * (layerQuartett[0]-&gt;localPosition() -</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> y2 = (K - G) * (layerQuartett[0]-&gt;localPosition() -</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                          layerQuartett[1]-&gt;localPosition()) -</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>               (y1.dot(layerQuartett[1]-&gt;sensorDirection())) *</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                   layerQuartett[1]-&gt;sensorDirection() +</div>
@@ -218,7 +218,7 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>               A * (layerQuartett[3]-&gt;localPosition() -</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                    layerQuartett[2]-&gt;localPosition());</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <a class="code hl_typedef" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> solution = betaMatrix.inverse() * y2.block&lt;2, 1&gt;(0, 0);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> solution = betaMatrix.inverse() * y2.block&lt;2, 1&gt;(0, 0);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordtype">double</span> kappa = solution.x();</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  <span class="keywordtype">double</span> gamma = solution.y();</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
@@ -249,12 +249,12 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keyword">const</span> std::array&lt;double, 4&gt;&amp; parameters) {</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>  <span class="comment">// estimate the seed positionInChamber from the 1st equation of the system of</span></div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  <span class="comment">// the layer equations</span></div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> seedPosition = layerQuartett[0]-&gt;localPosition() +</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> seedPosition = layerQuartett[0]-&gt;localPosition() +</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>                         parameters[0] * layerQuartett[0]-&gt;sensorDirection();</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  <span class="comment">// estimate the seed direction from the 2nd equation of the system of the</span></div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  <span class="comment">// layer equations</span></div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> seedDirection =</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> seedDirection =</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>      ((layerQuartett[1]-&gt;localPosition() +</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        parameters[1] * layerQuartett[1]-&gt;sensorDirection() - seedPosition))</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>          .normalized();</div>
@@ -262,16 +262,16 @@ $(function(){initNavTree('_combinatorial_seed_solver_8hpp_source.html','',''); }
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>  <span class="comment">// calculate the position at z=0</span></div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>  <a class="code hl_typedef" href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Intersection3D</a> intersectionZ0 = PlanarHelper::intersectPlane(</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>      seedPosition, seedDirection, Vector3::UnitZ(), 0.0);</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> seedPositionZ0 = intersectionZ0.position();</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> seedPositionZ0 = intersectionZ0.position();</div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>  <span class="keywordflow">return</span> std::make_pair(seedPositionZ0,</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                        <a class="code hl_function" href="namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e">copySign</a>(seedDirection, seedDirection.z()));</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>};</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>}  <span class="comment">// namespace Acts::Experimental::CombinatorialSeedSolver</span></div>
-<div class="ttc" id="agroup__algebra__types_html_ga57a9cb002daaf227c693f2992fa5540c"><div class="ttname"><a href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">Acts::SquareMatrix2</a></div><div class="ttdeci">ActsSquareMatrix&lt; 2 &gt; SquareMatrix2</div><div class="ttdoc">2x2 square matrix type, typically used for 2D coordinate covariance</div><div class="ttdef"><b>Definition</b> Algebra.hpp:77</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
-<div class="ttc" id="agroup__algebra__types_html_gabb76f2d48e0590ef82a8afaad39a77b5"><div class="ttname"><a href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a></div><div class="ttdeci">ActsVector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:70</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:98</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga531fe33218d5453c0f8952e826ced3ed"><div class="ttname"><a href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a></div><div class="ttdeci">Vector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:96</div></div>
+<div class="ttc" id="agroup__algebra__types_html_gacf45a96b60fa44322913e6e18323ee95"><div class="ttname"><a href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">Acts::SquareMatrix2</a></div><div class="ttdeci">SquareMatrix&lt; 2 &gt; SquareMatrix2</div><div class="ttdoc">2x2 square matrix type, typically used for 2D coordinate covariance</div><div class="ttdef"><b>Definition</b> Algebra.hpp:103</div></div>
 <div class="ttc" id="anamespace_acts_html_a52e4326c57b1b3eadc5a72d2c774bd7e"><div class="ttname"><a href="namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e">Acts::copySign</a></div><div class="ttdeci">constexpr out_t copySign(const out_t &amp;copyTo, const sign_t &amp;sign)</div><div class="ttdoc">Copies the sign of a signed variable onto the copyTo input object Return type &amp; magnitude remain unaf...</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:43</div></div>
 <div class="ttc" id="anamespace_acts_html_ac5af012605f2c07d2ccec54168574925"><div class="ttname"><a href="namespace_acts.html#ac5af012605f2c07d2ccec54168574925">Acts::Intersection3D</a></div><div class="ttdeci">Intersection&lt; 3 &gt; Intersection3D</div><div class="ttdoc">Type alias for 3D intersection.</div><div class="ttdef"><b>Definition</b> Intersection.hpp:178</div></div>
 </div><!-- fragment --></div><!-- contents -->

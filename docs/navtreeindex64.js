@@ -1,5 +1,10 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[6,0,2,34,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[8,0,1,35,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[6,0,2,34,1,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[8,0,1,35,1,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[6,0,2,34,1,3],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[8,0,1,35,1,3],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[6,0,2,34,1,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[8,0,1,35,1,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_gnn_timing.html#a21d7f699b42493f04aadb08f02af17a2":[5,8,7,7,2],
 "struct_acts_plugins_1_1_gnn_timing.html#a3de440d1e92e37fcba509043e648a56c":[5,8,7,7,3],
 "struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace":[5,8,7,7,0],
-"struct_acts_plugins_1_1_gnn_timing.html#a9a98e199ad0210ff2e3ef5f477da9e39":[5,8,7,7,1],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html":[5,8,7,10,0],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a03b067774629d5397fc852ecbd10ae2f":[5,8,7,10,0,6],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a041a908632ce7a24e68a0b81c26ad66b":[5,8,7,10,0,5],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a309ec1d3a08d0fe9dc066ae858bae633":[5,8,7,10,0,0],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a46280d8fb7195b73cc09d827630ea376":[5,8,7,10,0,4]
+"struct_acts_plugins_1_1_gnn_timing.html#a9a98e199ad0210ff2e3ef5f477da9e39":[5,8,7,7,1]
 };

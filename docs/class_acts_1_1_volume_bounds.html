@@ -159,17 +159,17 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abd732eccae5655606b3e9e4a3f2ccab8" id="r_abd732eccae5655606b3e9e4a3f2ccab8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b">Volume::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd732eccae5655606b3e9e4a3f2ccab8">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> *trf=nullptr, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;envelope={0, 0, 0}, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> *entity=nullptr) const =0</td></tr>
+<tr class="memitem:abd732eccae5655606b3e9e4a3f2ccab8" id="r_abd732eccae5655606b3e9e4a3f2ccab8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b">Volume::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd732eccae5655606b3e9e4a3f2ccab8">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> *trf=nullptr, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;envelope={0, 0, 0}, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> *entity=nullptr) const =0</td></tr>
 <tr class="memdesc:abd732eccae5655606b3e9e4a3f2ccab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:afc773796288bbb544e90f89242f182aa" id="r_afc773796288bbb544e90f89242f182aa"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc773796288bbb544e90f89242f182aa">canonicalAxes</a> () const</td></tr>
 <tr class="memdesc:afc773796288bbb544e90f89242f182aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the canonical axis direction that fully describe the shape's extent.  <br /></td></tr>
-<tr class="memitem:a593e6aacdec820606c957353cfa221d7" id="r_a593e6aacdec820606c957353cfa221d7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593e6aacdec820606c957353cfa221d7">inside</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;gpos, double tol=0.) const =0</td></tr>
+<tr class="memitem:a593e6aacdec820606c957353cfa221d7" id="r_a593e6aacdec820606c957353cfa221d7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593e6aacdec820606c957353cfa221d7">inside</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;gpos, double tol=0.) const =0</td></tr>
 <tr class="memdesc:a593e6aacdec820606c957353cfa221d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checking if position given in volume frame is inside.  <br /></td></tr>
 <tr class="memitem:aa91588b4e4a49163ef5f106f29ec9540" id="r_aa91588b4e4a49163ef5f106f29ec9540"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="struct_acts_1_1_oriented_surface.html">OrientedSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91588b4e4a49163ef5f106f29ec9540">orientedSurfaces</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const =0</td></tr>
 <tr class="memdesc:aa91588b4e4a49163ef5f106f29ec9540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oriented surfaces, i.e.  <br /></td></tr>
 <tr class="memitem:a4bde0b3c9d70391129f19bb8c9e461cd" id="r_a4bde0b3c9d70391129f19bb8c9e461cd"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bde0b3c9d70391129f19bb8c9e461cd">referenceBorder</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
 <tr class="memdesc:a4bde0b3c9d70391129f19bb8c9e461cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binning borders in double.  <br /></td></tr>
-<tr class="memitem:aceaf78edf7fb73a022ab6c56b975a7dd" id="r_aceaf78edf7fb73a022ab6c56b975a7dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceaf78edf7fb73a022ab6c56b975a7dd">referenceOffset</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
+<tr class="memitem:aceaf78edf7fb73a022ab6c56b975a7dd" id="r_aceaf78edf7fb73a022ab6c56b975a7dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceaf78edf7fb73a022ab6c56b975a7dd">referenceOffset</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
 <tr class="memdesc:aceaf78edf7fb73a022ab6c56b975a7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binning offset - overloaded for some R-binning types.  <br /></td></tr>
 <tr class="memitem:a131ba8dce505a6514fcd64f93bd462de" id="r_a131ba8dce505a6514fcd64f93bd462de"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a131ba8dce505a6514fcd64f93bd462de">toStream</a> (std::ostream &amp;sl) const =0</td></tr>
 <tr class="memdesc:a131ba8dce505a6514fcd64f93bd462de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output Method for std::ostream, to be overloaded by child classes.  <br /></td></tr>
@@ -206,7 +206,7 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{0,&#160;0,&#160;0}</span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{0,&#160;0,&#160;0}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -279,7 +279,7 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
         <tr>
           <td class="memname">virtual bool Acts::VolumeBounds::inside </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gpos</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gpos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -392,7 +392,7 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> Acts::VolumeBounds::referenceOffset </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> Acts::VolumeBounds::referenceOffset </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>aDir</em></span></td><td>)</td>
           <td> const</td>

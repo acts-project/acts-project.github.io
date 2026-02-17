@@ -149,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acf6bb704fb9973daab8861640f20e4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a Boundary with exact multiple Volumes attached to it.  <br /></td></tr>
 <tr class="memitem:a6058354fe3bd8e1ea05148759cd6113c" id="r_a6058354fe3bd8e1ea05148759cd6113c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6058354fe3bd8e1ea05148759cd6113c">BoundarySurfaceT</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; surface, VolumePtr inside, VolumePtr outside)</td></tr>
 <tr class="memdesc:a6058354fe3bd8e1ea05148759cd6113c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a Boundary with exact two Volumes attached to it.  <br /></td></tr>
-<tr class="memitem:af88998dcde3c0cfd0a2bbc69c934bea9" id="r_af88998dcde3c0cfd0a2bbc69c934bea9"><td class="memItemLeft" align="right" valign="top">virtual const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af88998dcde3c0cfd0a2bbc69c934bea9">attachedVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir) const</td></tr>
+<tr class="memitem:af88998dcde3c0cfd0a2bbc69c934bea9" id="r_af88998dcde3c0cfd0a2bbc69c934bea9"><td class="memItemLeft" align="right" valign="top">virtual const volume_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af88998dcde3c0cfd0a2bbc69c934bea9">attachedVolume</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;dir) const</td></tr>
 <tr class="memdesc:af88998dcde3c0cfd0a2bbc69c934bea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next Volume depending on GlobalPosition, GlobalMomentum, dir on the TrackParameters and the requested direction.  <br /></td></tr>
 <tr class="memitem:a7526b5d03d4138ff4c9bb7c1bbf2432c" id="r_a7526b5d03d4138ff4c9bb7c1bbf2432c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7526b5d03d4138ff4c9bb7c1bbf2432c">attachVolume</a> (const volume_t *volume, <a class="el" href="class_acts_1_1_direction.html">Direction</a> dir)</td></tr>
 <tr class="memdesc:a7526b5d03d4138ff4c9bb7c1bbf2432c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method: attach a Volume to this BoundarySurfaceT this is done during the geometry construction.  <br /></td></tr>
@@ -336,12 +336,12 @@ template&lt;class volume_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>

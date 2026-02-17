@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a20080a3fa537f25639db053b8dc6042c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this object constrains a given direction.  <br /></td></tr>
 <tr class="memitem:abef9a6567d1323a69b019e87e0186a09" id="r_abef9a6567d1323a69b019e87e0186a09"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abef9a6567d1323a69b019e87e0186a09">contains</a> (const <a class="el" href="#af765a6d37e5608a9598433c47ebcc454">Extent</a> &amp;rhs, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; aDir=std::nullopt) const</td></tr>
 <tr class="memdesc:abef9a6567d1323a69b019e87e0186a09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains check.  <br /></td></tr>
-<tr class="memitem:a23f1c201b474dceaef36e1b251581554" id="r_a23f1c201b474dceaef36e1b251581554"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23f1c201b474dceaef36e1b251581554">contains</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;vtx) const</td></tr>
+<tr class="memitem:a23f1c201b474dceaef36e1b251581554" id="r_a23f1c201b474dceaef36e1b251581554"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23f1c201b474dceaef36e1b251581554">contains</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;vtx) const</td></tr>
 <tr class="memdesc:a23f1c201b474dceaef36e1b251581554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains check for a single point.  <br /></td></tr>
 <tr class="memitem:ac2e479bf3df4366746ab188be894e1fc" id="r_ac2e479bf3df4366746ab188be894e1fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_extent_envelope.html">ExtentEnvelope</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e479bf3df4366746ab188be894e1fc">envelope</a> ()</td></tr>
 <tr class="memdesc:ac2e479bf3df4366746ab188be894e1fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the envelope - non-const access.  <br /></td></tr>
@@ -151,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abe0aed8f424def9b242e225b987ed258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the envelope - const access.  <br /></td></tr>
 <tr class="memitem:a373873dc84e0a7384c66c2c0649d5ec9" id="r_a373873dc84e0a7384c66c2c0649d5ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a373873dc84e0a7384c66c2c0649d5ec9">extend</a> (const <a class="el" href="#af765a6d37e5608a9598433c47ebcc454">Extent</a> &amp;rhs, const std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;aDirs=<a class="el" href="namespace_acts.html#a307086a9afc40c3a9b019463924cb098">allAxisDirections</a>(), bool applyEnv=true)</td></tr>
 <tr class="memdesc:a373873dc84e0a7384c66c2c0649d5ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extend with another geometric extent, usually pushes the current range to the boundaries of the rhs extent, unless the current extent is already bigger.  <br /></td></tr>
-<tr class="memitem:a0d8c7624c672bc497f8837f7054c6d46" id="r_a0d8c7624c672bc497f8837f7054c6d46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8c7624c672bc497f8837f7054c6d46">extend</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;vtx, const std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;aDirs=<a class="el" href="namespace_acts.html#a307086a9afc40c3a9b019463924cb098">allAxisDirections</a>(), bool applyEnv=true, bool fillHistograms=false)</td></tr>
+<tr class="memitem:a0d8c7624c672bc497f8837f7054c6d46" id="r_a0d8c7624c672bc497f8837f7054c6d46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8c7624c672bc497f8837f7054c6d46">extend</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;vtx, const std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;aDirs=<a class="el" href="namespace_acts.html#a307086a9afc40c3a9b019463924cb098">allAxisDirections</a>(), bool applyEnv=true, bool fillHistograms=false)</td></tr>
 <tr class="memdesc:a0d8c7624c672bc497f8837f7054c6d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extend with a position vertex.  <br /></td></tr>
 <tr class="memitem:a3dd316acd285378d7368c2445ef553f7" id="r_a3dd316acd285378d7368c2445ef553f7"><td class="memTemplParams" colspan="2">template&lt;typename vector_iterator_t&gt; </td></tr>
 <tr class="memitem:a3dd316acd285378d7368c2445ef553f7 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd316acd285378d7368c2445ef553f7">extend</a> (const vector_iterator_t &amp;start, const vector_iterator_t &amp;end, const std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;aDirs=<a class="el" href="namespace_acts.html#a307086a9afc40c3a9b019463924cb098">allAxisDirections</a>(), bool applyEnv=true, bool fillHistograms=false)</td></tr>
@@ -354,7 +354,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool Acts::Extent::contains </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vtx</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vtx</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -458,7 +458,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::Extent::extend </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vtx</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vtx</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

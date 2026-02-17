@@ -143,7 +143,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2273dd0876de816392e4502fd603c326" id="r_a2273dd0876de816392e4502fd603c326"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2273dd0876de816392e4502fd603c326">getField</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, <a class="el" href="#a1f11a18dff2bb4106d1c1f76ff25e1d9">Cache</a> &amp;cache) const =0</td></tr>
+<tr class="memitem:a2273dd0876de816392e4502fd603c326" id="r_a2273dd0876de816392e4502fd603c326"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2273dd0876de816392e4502fd603c326">getField</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, <a class="el" href="#a1f11a18dff2bb4106d1c1f76ff25e1d9">Cache</a> &amp;cache) const =0</td></tr>
 <tr class="memdesc:a2273dd0876de816392e4502fd603c326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve magnetic field value at a given location.  <br /></td></tr>
 <tr class="memitem:abb7f95f21fb87e6cb2cbe723d98711b6" id="r_abb7f95f21fb87e6cb2cbe723d98711b6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a1f11a18dff2bb4106d1c1f76ff25e1d9">Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb7f95f21fb87e6cb2cbe723d98711b6">makeCache</a> (const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx) const =0</td></tr>
 <tr class="memdesc:abb7f95f21fb87e6cb2cbe723d98711b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an opaque cache for the magnetic field.  <br /></td></tr>
@@ -162,17 +162,17 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="comment">// Make an opaque cache for field lookups</span></div>
 <div class="line"><span class="keyword">auto</span> cache = fieldProvider.<a class="code hl_function" href="#abb7f95f21fb87e6cb2cbe723d98711b6">makeCache</a>(fieldContext);</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> lookupResult = fieldProvider.<a class="code hl_function" href="#a2273dd0876de816392e4502fd603c326">getField</a>(<a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>{10, 10, 10},</div>
+<div class="line"><span class="keyword">auto</span> lookupResult = fieldProvider.<a class="code hl_function" href="#a2273dd0876de816392e4502fd603c326">getField</a>(<a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>{10, 10, 10},</div>
 <div class="line">                                  cache);</div>
 <div class="line"><span class="keywordflow">if</span>(!lookupResult.ok()) {</div>
 <div class="line">   <span class="keywordflow">throw</span> std::runtime_error{<span class="stringliteral">&quot;Field lookup failure&quot;</span>};</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_typedef" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> fieldValue = *lookupResult;</div>
+<div class="line"><a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> fieldValue = *lookupResult;</div>
 <div class="ttc" id="aclass_acts_1_1_magnetic_field_provider_html"><div class="ttname"><a href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a></div><div class="ttdoc">Base class for all magnetic field providers.</div><div class="ttdef"><b>Definition</b> MagneticFieldProvider.hpp:64</div></div>
 <div class="ttc" id="aclass_acts_1_1_magnetic_field_provider_html_a2273dd0876de816392e4502fd603c326"><div class="ttname"><a href="#a2273dd0876de816392e4502fd603c326">Acts::MagneticFieldProvider::getField</a></div><div class="ttdeci">virtual Result&lt; Vector3 &gt; getField(const Vector3 &amp;position, Cache &amp;cache) const =0</div><div class="ttdoc">Retrieve magnetic field value at a given location.</div></div>
 <div class="ttc" id="aclass_acts_1_1_magnetic_field_provider_html_abb7f95f21fb87e6cb2cbe723d98711b6"><div class="ttname"><a href="#abb7f95f21fb87e6cb2cbe723d98711b6">Acts::MagneticFieldProvider::makeCache</a></div><div class="ttdeci">virtual Cache makeCache(const MagneticFieldContext &amp;mctx) const =0</div><div class="ttdoc">Make an opaque cache for the magnetic field.</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga8183a99dab8a7c6fff67d7c6c05bfb22"><div class="ttname"><a href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a></div><div class="ttdeci">ActsVector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:98</div></div>
 </div><!-- fragment --> </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a1f11a18dff2bb4106d1c1f76ff25e1d9" name="a1f11a18dff2bb4106d1c1f76ff25e1d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f11a18dff2bb4106d1c1f76ff25e1d9">&#9670;&#160;</a></span>Cache</h2>
@@ -203,9 +203,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt; Acts::MagneticFieldProvider::getField </td>
+          <td class="memname">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; Acts::MagneticFieldProvider::getField </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

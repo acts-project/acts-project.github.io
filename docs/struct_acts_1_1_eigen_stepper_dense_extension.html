@@ -142,11 +142,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6261dca7ad60b14858173ba85f594060 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6261dca7ad60b14858173ba85f594060">finalize</a> (typename stepper_t::State &amp;state, const stepper_t &amp;stepper, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *volumeMaterial, const double h) const</td></tr>
 <tr class="memdesc:a6261dca7ad60b14858173ba85f594060"><td class="mdescLeft">&#160;</td><td class="mdescRight">After a RKN4 step was accepted by the stepper this method has an additional veto on the quality of the step.  <br /></td></tr>
 <tr class="memitem:aa75c7df01c5d39cf65c50c08bf3bf8dc" id="r_aa75c7df01c5d39cf65c50c08bf3bf8dc"><td class="memTemplParams" colspan="2">template&lt;typename stepper_t&gt; </td></tr>
-<tr class="memitem:aa75c7df01c5d39cf65c50c08bf3bf8dc template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75c7df01c5d39cf65c50c08bf3bf8dc">finalize</a> (typename stepper_t::State &amp;state, const stepper_t &amp;stepper, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *volumeMaterial, const double h, <a class="el" href="namespace_acts.html#acdde648ddc34cb68123733bebd224cb7">FreeMatrix</a> &amp;D) const</td></tr>
+<tr class="memitem:aa75c7df01c5d39cf65c50c08bf3bf8dc template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75c7df01c5d39cf65c50c08bf3bf8dc">finalize</a> (typename stepper_t::State &amp;state, const stepper_t &amp;stepper, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *volumeMaterial, const double h, <a class="el" href="namespace_acts.html#ad1a683ac2eb65ca8f44fdb2ab856836c">FreeMatrix</a> &amp;D) const</td></tr>
 <tr class="memdesc:aa75c7df01c5d39cf65c50c08bf3bf8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">After a RKN4 step was accepted by the stepper this method has an additional veto on the quality of the step.  <br /></td></tr>
 <tr class="memitem:ab0e3dcfaf673c8d6c59286a583b3ff68" id="r_ab0e3dcfaf673c8d6c59286a583b3ff68"><td class="memTemplParams" colspan="2">template&lt;int i, typename stepper_t&gt; <br />
 requires (i &gt;= 0 &amp;&amp; i &lt;= 3)</td></tr>
-<tr class="memitem:ab0e3dcfaf673c8d6c59286a583b3ff68 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e3dcfaf673c8d6c59286a583b3ff68">k</a> (const typename stepper_t::State &amp;state, const stepper_t &amp;stepper, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *volumeMaterial, <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;knew, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;bField, std::array&lt; double, 4 &gt; &amp;kQoP, const double h=0., const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;kprev=Vector3::Zero())</td></tr>
+<tr class="memitem:ab0e3dcfaf673c8d6c59286a583b3ff68 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e3dcfaf673c8d6c59286a583b3ff68">k</a> (const typename stepper_t::State &amp;state, const stepper_t &amp;stepper, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *volumeMaterial, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;knew, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField, std::array&lt; double, 4 &gt; &amp;kQoP, const double h=0., const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;kprev=Vector3::Zero())</td></tr>
 <tr class="memdesc:ab0e3dcfaf673c8d6c59286a583b3ff68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluator of the k_i's of the RKN4.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -275,7 +275,7 @@ template&lt;typename stepper_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#acdde648ddc34cb68123733bebd224cb7">FreeMatrix</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>D</em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#ad1a683ac2eb65ca8f44fdb2ab856836c">FreeMatrix</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>D</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -329,12 +329,12 @@ requires (i &gt;= 0 &amp;&amp; i &lt;= 3)</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>knew</em></span>, </td>
+          <td class="paramtype"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>knew</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -349,7 +349,7 @@ requires (i &gt;= 0 &amp;&amp; i &lt;= 3)</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>kprev</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3::Zero()</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>kprev</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3::Zero()</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

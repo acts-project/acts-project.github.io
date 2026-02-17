@@ -185,7 +185,7 @@ var searchData=
   ['exit_182',['exit',['../struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a71efd5349a6f756c130d48dff74cb944',1,'Acts::IAssignmentFinder::VolumeAssignment']]],
   ['expand_183',['Expand',['../namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93a8098b34f582537833b36b58273c3545b',1,'Acts']]],
   ['expand_184',['expand',['../class_acts_1_1_range_x_d.html#a4e5d353c3d2196ebe3ec2a9f55bf26b6',1,'Acts::RangeXD::expand(std::size_t i, const Type &amp;min, const Type &amp;max)'],['../class_acts_1_1_range_x_d.html#a62a74c19dc71934d6a1e39fd759b70a8',1,'Acts::RangeXD::expand(const Type &amp;min, const Type &amp;max)'],['../namespace_acts.html#a10e8cfcddde31768275e024c61f03a70',1,'Acts::expand()']]],
-  ['expander_185',['Expander',['../class_acts_1_1_fixed_subspace_helper.html#a88146459307037a29562b0ac34ff8467',1,'Acts::FixedSubspaceHelper']]],
+  ['expander_185',['Expander',['../class_acts_1_1_fixed_subspace_helper.html#a473f988ad735a0fe35897b6c0e7badca',1,'Acts::FixedSubspaceHelper']]],
   ['expander_186',['expander',['../class_acts_1_1_fixed_subspace_helper.html#a9588354afbd50b01e905997fbca0b9fb',1,'Acts::FixedSubspaceHelper']]],
   ['expandmax_187',['expandMax',['../class_acts_1_1_range_x_d.html#a8d191f30c404545286b22e4ef1934c81',1,'Acts::RangeXD::expandMax(std::size_t i, const Type &amp;v)'],['../class_acts_1_1_range_x_d.html#a2de31b80e6bdc4c80b4d38f782bdaf3e',1,'Acts::RangeXD::expandMax(const Type &amp;v)']]],
   ['expandmin_188',['expandMin',['../class_acts_1_1_range_x_d.html#a5df879f3df4a752759c3e94136c2c031',1,'Acts::RangeXD::expandMin(std::size_t i, const Type &amp;v)'],['../class_acts_1_1_range_x_d.html#a571cf93c227de6a65683756a0feb5792',1,'Acts::RangeXD::expandMin(const Type &amp;v)']]],

@@ -21,12 +21,12 @@ var group__magnetic__field =
         [ "grid", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#ad8d51e0f43b664bd4c959ecac45b7841", null ],
         [ "scale", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a2f14ee23705a6ba569006649e15b086e", null ],
         [ "transformBField", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a0a710c9e048ee68865822edfe39b62c6", null ],
-        [ "transformPos", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a3373363eee61b0b6cfe9d4a00e5c05c3", null ]
+        [ "transformPos", "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a3676804a99a64af42a06671734bd0de7", null ]
       ] ],
       [ "FieldCell", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html", [
         [ "FieldCell", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1f203f4cb00108dca4bc6aae19540237", null ],
-        [ "getField", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1089dd7e57e7d81fba376c8fb676fcad", null ],
-        [ "isInside", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a117d49d2d80b77c4dbd52b1e56f8f9c5", null ],
+        [ "getField", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe", null ],
+        [ "isInside", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1b6514eb580b994c4bfb6b284f3d4752", null ],
         [ "N", "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09", null ]
       ] ],
       [ "FieldType", "class_acts_1_1_interpolated_b_field_map.html#a7391d17d3f399017e9367dd5bea8c412", null ],
@@ -41,7 +41,7 @@ var group__magnetic__field =
       [ "getMin", "class_acts_1_1_interpolated_b_field_map.html#a739667ea26a41c76d5e9777732dae0ba", null ],
       [ "getNBins", "class_acts_1_1_interpolated_b_field_map.html#ab741243770b7835033ac0e8cd53ddbf6", null ],
       [ "isInside", "class_acts_1_1_interpolated_b_field_map.html#a5b8fe09e7f4eff3c898920fb64b5824d", null ],
-      [ "isInsideLocal", "class_acts_1_1_interpolated_b_field_map.html#a2040f18dfa17f426a2f9df531c89722b", null ],
+      [ "isInsideLocal", "class_acts_1_1_interpolated_b_field_map.html#a024ae8673b94bad89fee4b592306da88", null ],
       [ "makeCache", "class_acts_1_1_interpolated_b_field_map.html#a30e0d1e2ea26cc20078710917553fc4d", null ],
       [ "DIM_POS", "class_acts_1_1_interpolated_b_field_map.html#a293e3a0400c18a307e9a5fe6e104d7ff", null ]
     ] ],

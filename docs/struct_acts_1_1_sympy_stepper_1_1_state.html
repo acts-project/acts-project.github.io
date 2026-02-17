@@ -150,7 +150,7 @@ Public Attributes</h2></td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = false</td></tr>
 <tr class="memdesc:a1d34555b923cd19d53f59a1b15147afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix (and indicator) associated with the initial error on track parameters. <br /></td></tr>
 <tr class="memitem:a760ef335fef159670851843b341c2b49" id="r_a760ef335fef159670851843b341c2b49"><td class="memItemLeft" align="right" valign="top"><a id="a760ef335fef159670851843b341c2b49" name="a760ef335fef159670851843b341c2b49"></a>
-<a class="el" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>derivative</b> = FreeVector::Zero()</td></tr>
+<a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>derivative</b> = FreeVector::Zero()</td></tr>
 <tr class="memdesc:a760ef335fef159670851843b341c2b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagation derivative. <br /></td></tr>
 <tr class="memitem:a9ad0d2b2d5918b68db6d67ac73d98c2d" id="r_a9ad0d2b2d5918b68db6d67ac73d98c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad0d2b2d5918b68db6d67ac73d98c2d">fieldCache</a></td></tr>
 <tr class="memdesc:a9ad0d2b2d5918b68db6d67ac73d98c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This caches the current magnetic field cell and stays (and interpolates) within it as long as this is valid.  <br /></td></tr>
@@ -158,10 +158,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = fa
 <a class="el" href="class_acts_1_1_sympy_stepper.html#a8826040bfa95929033396097ceb33673">Jacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b> = Jacobian::Identity()</td></tr>
 <tr class="memdesc:a994c5c59246ae5e6a4d81dd8bf949ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full jacobian of the transport entire transport. <br /></td></tr>
 <tr class="memitem:af7d63fb3780b2eac0a66d724491e43b9" id="r_af7d63fb3780b2eac0a66d724491e43b9"><td class="memItemLeft" align="right" valign="top"><a id="af7d63fb3780b2eac0a66d724491e43b9" name="af7d63fb3780b2eac0a66d724491e43b9"></a>
-<a class="el" href="namespace_acts.html#a528016d34d6df141f5cb73973d6edca0">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacToGlobal</b> = BoundToFreeMatrix::Zero()</td></tr>
+<a class="el" href="namespace_acts.html#aa7db1d65428d10880cd7643f8e6eddb4">BoundToFreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacToGlobal</b> = BoundToFreeMatrix::Zero()</td></tr>
 <tr class="memdesc:af7d63fb3780b2eac0a66d724491e43b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian from local to the global frame. <br /></td></tr>
 <tr class="memitem:a2acc87786cd99b82200961bca76b8c7b" id="r_a2acc87786cd99b82200961bca76b8c7b"><td class="memItemLeft" align="right" valign="top"><a id="a2acc87786cd99b82200961bca76b8c7b" name="a2acc87786cd99b82200961bca76b8c7b"></a>
-<a class="el" href="namespace_acts.html#acdde648ddc34cb68123733bebd224cb7">FreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacTransport</b> = FreeMatrix::Identity()</td></tr>
+<a class="el" href="namespace_acts.html#ad1a683ac2eb65ca8f44fdb2ab856836c">FreeMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jacTransport</b> = FreeMatrix::Identity()</td></tr>
 <tr class="memdesc:a2acc87786cd99b82200961bca76b8c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure transport jacobian part from runge kutta integration. <br /></td></tr>
 <tr class="memitem:ad0c11256008469ac2351ae447da73b34" id="r_ad0c11256008469ac2351ae447da73b34"><td class="memItemLeft" align="right" valign="top"><a id="ad0c11256008469ac2351ae447da73b34" name="ad0c11256008469ac2351ae447da73b34"></a>
 detail::MaterialEffectsAccumulator&#160;</td><td class="memItemRight" valign="bottom"><b>materialEffectsAccumulator</b></td></tr>
@@ -176,7 +176,7 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nStepTrials</b
 <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:a7106268ea0c0de7e92c9cc5365bb0b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for the stepper. <br /></td></tr>
 <tr class="memitem:a62198fb4e23b5bada78f7d04fbf64755" id="r_a62198fb4e23b5bada78f7d04fbf64755"><td class="memItemLeft" align="right" valign="top"><a id="a62198fb4e23b5bada78f7d04fbf64755" name="a62198fb4e23b5bada78f7d04fbf64755"></a>
-<a class="el" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pars</b> = FreeVector::Zero()</td></tr>
+<a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pars</b> = FreeVector::Zero()</td></tr>
 <tr class="memdesc:a62198fb4e23b5bada78f7d04fbf64755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal free vector parameters. <br /></td></tr>
 <tr class="memitem:a599a0d65015b4866e7fe3d62188075a9" id="r_a599a0d65015b4866e7fe3d62188075a9"><td class="memItemLeft" align="right" valign="top"><a id="a599a0d65015b4866e7fe3d62188075a9" name="a599a0d65015b4866e7fe3d62188075a9"></a>
 <a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&#160;</td><td class="memItemRight" valign="bottom"><b>particleHypothesis</b> = <a class="el" href="class_acts_1_1_particle_hypothesis.html#a963c15014185a0480f89ce287524fc2a">ParticleHypothesis::pion</a>()</td></tr>

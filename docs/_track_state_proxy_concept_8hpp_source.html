@@ -151,10 +151,10 @@ $(function(){initNavTree('_track_state_proxy_concept_8hpp_source.html','',''); }
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">using </span>ConstCovariance = Eigen::Map&lt;const BoundMatrix&gt;;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">using </span>Measurement = Eigen::Map&lt;Vector2&gt;;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">using </span>MeasurementCovariance = Eigen::Map&lt;ActsSquareMatrix&lt;2&gt;&gt;;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">using </span>MeasurementCovariance = Eigen::Map&lt;SquareMatrix&lt;2&gt;&gt;;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">using </span>ConstMeasurement = Eigen::Map&lt;const Vector2&gt;;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">using </span>ConstMeasurementCovariance = Eigen::Map&lt;const ActsSquareMatrix&lt;2&gt;&gt;;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">using </span>ConstMeasurementCovariance = Eigen::Map&lt;const SquareMatrix&lt;2&gt;&gt;;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">using </span>DynamicMeasurement =</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    Eigen::Map&lt;Eigen::Matrix&lt;Covariance::Scalar, Eigen::Dynamic, 1,</div>
@@ -379,28 +379,27 @@ $(function(){initNavTree('_track_state_proxy_concept_8hpp_source.html','',''); }
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>      { v.allocateCalibrated(measdim) };</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>      { v.allocateCalibrated(<a class="code hl_typedef" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector&lt;1&gt;</a>{}, <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix&lt;1&gt;</a>{}) };</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>      { v.allocateCalibrated(<a class="code hl_typedef" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector&lt;1&gt;</a>{}, <a class="code hl_typedef" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix&lt;1&gt;</a>{}) };</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>      <span class="comment">// Assuming intermediate values are also allowed</span></div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>      {</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        v.allocateCalibrated(<a class="code hl_typedef" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector&lt;eBoundSize&gt;</a>{},</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>                             <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix&lt;eBoundSize&gt;</a>{})</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>      };</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>      { v.chi2() } -&gt; std::same_as&lt;float&amp;&gt;;</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>      { v.pathLength() } -&gt; std::same_as&lt;double&amp;&gt;;</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>      { v.typeFlags() } -&gt; std::same_as&lt;MutableTrackStateTypeMap&gt;;</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    };</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        v.allocateCalibrated(<a class="code hl_typedef" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector&lt;eBoundSize&gt;</a>{}, <a class="code hl_typedef" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix&lt;eBoundSize&gt;</a>{})</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>      };</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>      { v.chi2() } -&gt; std::same_as&lt;float&amp;&gt;;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>      { v.pathLength() } -&gt; std::same_as&lt;double&amp;&gt;;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>      { v.typeFlags() } -&gt; std::same_as&lt;MutableTrackStateTypeMap&gt;;</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    };</div>
 </div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Type-erased source link wrapper.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
 <div class="ttc" id="aconcept_acts_1_1_const_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_const_track_state_proxy_concept.html">Acts::ConstTrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:172</div></div>
 <div class="ttc" id="aconcept_acts_1_1_mutable_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_mutable_track_state_proxy_concept.html">Acts::MutableTrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:212</div></div>
 <div class="ttc" id="aconcept_acts_1_1_track_state_proxy_concept_html"><div class="ttname"><a href="concept_acts_1_1_track_state_proxy_concept.html">Acts::TrackStateProxyConcept</a></div><div class="ttdef"><b>Definition</b> TrackStateProxyConcept.hpp:63</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga3656dcbf643d97f9dbd715aa9e06bf84"><div class="ttname"><a href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, 1 &gt; ActsVector</div><div class="ttdoc">Fixed-size vector type for N-dimensional vectors.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:50</div></div>
-<div class="ttc" id="agroup__algebra__types_html_gacb25019f1218b9a96b29f897dfc5be7f"><div class="ttname"><a href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, kSize &gt; ActsSquareMatrix</div><div class="ttdoc">Fixed-size square matrix type for NxN matrices.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:61</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga5fb69f475a7d72c8214332057c3135d5"><div class="ttname"><a href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Acts::Vector</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, 1 &gt; Vector</div><div class="ttdoc">Fixed-size vector type for N-dimensional vectors.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:50</div></div>
+<div class="ttc" id="agroup__algebra__types_html_gaedd227e590be3a9c43c10d6654022b77"><div class="ttname"><a href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">Acts::SquareMatrix</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, kSize &gt; SquareMatrix</div><div class="ttdoc">Fixed-size square matrix type for NxN matrices.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:61</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a1b6c456f1650d94a2549251f1306dde4"><div class="ttname"><a href="namespace_acts.html#a1b6c456f1650d94a2549251f1306dde4">Acts::BoundSubspaceIndices</a></div><div class="ttdeci">SubspaceIndices&lt; eBoundSize &gt; BoundSubspaceIndices</div><div class="ttdoc">Type alias for bound parameter subspace indices.</div><div class="ttdef"><b>Definition</b> Types.hpp:40</div></div>
 <div class="ttc" id="anamespace_acts_html_a1e6b3622ce6e2c9fea228f7b3678e5f4"><div class="ttname"><a href="namespace_acts.html#a1e6b3622ce6e2c9fea228f7b3678e5f4">Acts::ProjectorBitset</a></div><div class="ttdeci">std::uint64_t ProjectorBitset</div><div class="ttdoc">Type alias for bitset representing parameter projections.</div><div class="ttdef"><b>Definition</b> Types.hpp:32</div></div>

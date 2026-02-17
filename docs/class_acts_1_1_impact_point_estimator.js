@@ -8,8 +8,8 @@ var class_acts_1_1_impact_point_estimator =
     [ "calculateDistance", "class_acts_1_1_impact_point_estimator.html#a60df925c3ccd36423ad8eea8c0228360", null ],
     [ "estimate3DImpactParameters", "class_acts_1_1_impact_point_estimator.html#ac1ac97791affe6ea342df7eb404a07a9", null ],
     [ "get3DLifetimeSignOfTrack", "class_acts_1_1_impact_point_estimator.html#aebaabe1957927a770ca37202f07e35f1", null ],
-    [ "getDistanceAndMomentum", "class_acts_1_1_impact_point_estimator.html#a7c10eecd619772be9888f67bc15d8898", null ],
+    [ "getDistanceAndMomentum", "class_acts_1_1_impact_point_estimator.html#a5095509ca906a51b15ca0ea13e19c8aa", null ],
     [ "getImpactParameters", "class_acts_1_1_impact_point_estimator.html#a4b1112b1625c9360dc169b219285a11e", null ],
     [ "getLifetimeSignOfTrack", "class_acts_1_1_impact_point_estimator.html#ac78a5465ffdd2c4011a9d03dff1cf3bf", null ],
-    [ "getVertexCompatibility", "class_acts_1_1_impact_point_estimator.html#a81f039e8f320da2fef3665854ead4f12", null ]
+    [ "getVertexCompatibility", "class_acts_1_1_impact_point_estimator.html#a7479ac65a2381e436fe63530c136a90b", null ]
 ];

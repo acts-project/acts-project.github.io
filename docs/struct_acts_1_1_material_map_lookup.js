@@ -2,7 +2,7 @@ var struct_acts_1_1_material_map_lookup =
 [
     [ "MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html", "struct_acts_1_1_material_map_lookup_1_1_material_cell" ],
     [ "Grid_t", "struct_acts_1_1_material_map_lookup.html#a3ef869ee18854d087d775aa00b9821e2", null ],
-    [ "MaterialMapLookup", "struct_acts_1_1_material_map_lookup.html#a6ff6d7c14d82afb68061cba839171f81", null ],
+    [ "MaterialMapLookup", "struct_acts_1_1_material_map_lookup.html#ac35940a0af1725b004bfc5c1c538736c", null ],
     [ "getGrid", "struct_acts_1_1_material_map_lookup.html#a4927918c8d2ed819320b0a33f4e47567", null ],
     [ "getMaterial", "struct_acts_1_1_material_map_lookup.html#a0f1c8e03f009c1f9d1aa8e3eed8e2259", null ],
     [ "getMaterialCell", "struct_acts_1_1_material_map_lookup.html#a3b19749c25e1aa0092c81cd00c928ffd", null ],

@@ -168,7 +168,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>NavigationLayers</b>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad746a9326f43e651436f192404ed5f23" id="r_ad746a9326f43e651436f192404ed5f23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad746a9326f43e651436f192404ed5f23">Navigator</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_config.html">Config</a> cfg, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;Navigator&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
 <tr class="memdesc:ad746a9326f43e651436f192404ed5f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with configuration object.  <br /></td></tr>
-<tr class="memitem:a67fab1ac0cf19c85e7931bcd8513e34b" id="r_a67fab1ac0cf19c85e7931bcd8513e34b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67fab1ac0cf19c85e7931bcd8513e34b">checkTargetValid</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const</td></tr>
+<tr class="memitem:a67fab1ac0cf19c85e7931bcd8513e34b" id="r_a67fab1ac0cf19c85e7931bcd8513e34b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67fab1ac0cf19c85e7931bcd8513e34b">checkTargetValid</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
 <tr class="memdesc:a67fab1ac0cf19c85e7931bcd8513e34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current target is still valid.  <br /></td></tr>
 <tr class="memitem:a51c546be2b770dba8255f396bec27490" id="r_a51c546be2b770dba8255f396bec27490"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51c546be2b770dba8255f396bec27490">currentSurface</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a51c546be2b770dba8255f396bec27490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current surface from navigation state.  <br /></td></tr>
@@ -178,15 +178,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8871dbc07e018a7457c72e2c15f3cdeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get material properties of the current volume.  <br /></td></tr>
 <tr class="memitem:a46fb5f073d623e4f60535db2f0ea2e15" id="r_a46fb5f073d623e4f60535db2f0ea2e15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46fb5f073d623e4f60535db2f0ea2e15">endOfWorldReached</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a46fb5f073d623e4f60535db2f0ea2e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if navigation has reached the end of the world (no current volume).  <br /></td></tr>
-<tr class="memitem:af412c4c5f28367a8d749ed312c6c2a91" id="r_af412c4c5f28367a8d749ed312c6c2a91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af412c4c5f28367a8d749ed312c6c2a91">handleSurfaceReached</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memitem:af412c4c5f28367a8d749ed312c6c2a91" id="r_af412c4c5f28367a8d749ed312c6c2a91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af412c4c5f28367a8d749ed312c6c2a91">handleSurfaceReached</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
 <tr class="memdesc:af412c4c5f28367a8d749ed312c6c2a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the surface reached.  <br /></td></tr>
-<tr class="memitem:a8b9e4d4c57cb27a037e5f09bff21e7bc" id="r_a8b9e4d4c57cb27a037e5f09bff21e7bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b9e4d4c57cb27a037e5f09bff21e7bc">initialize</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propagationDirection) const</td></tr>
+<tr class="memitem:a8b9e4d4c57cb27a037e5f09bff21e7bc" id="r_a8b9e4d4c57cb27a037e5f09bff21e7bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b9e4d4c57cb27a037e5f09bff21e7bc">initialize</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propagationDirection) const</td></tr>
 <tr class="memdesc:a8b9e4d4c57cb27a037e5f09bff21e7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the navigator state.  <br /></td></tr>
 <tr class="memitem:a6e93e59bc32e6d10abf17e202d5a62d6" id="r_a6e93e59bc32e6d10abf17e202d5a62d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e93e59bc32e6d10abf17e202d5a62d6">makeState</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_options.html">Options</a> &amp;options) const</td></tr>
 <tr class="memdesc:a6e93e59bc32e6d10abf17e202d5a62d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a navigation state from options.  <br /></td></tr>
 <tr class="memitem:a29861e95b2f6542f6a1c0ce196777069" id="r_a29861e95b2f6542f6a1c0ce196777069"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29861e95b2f6542f6a1c0ce196777069">navigationBreak</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a29861e95b2f6542f6a1c0ce196777069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if navigation should be interrupted.  <br /></td></tr>
-<tr class="memitem:a84f17ec872df4b6f17bf0a92a47f6f06" id="r_a84f17ec872df4b6f17bf0a92a47f6f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f17ec872df4b6f17bf0a92a47f6f06">nextTarget</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const</td></tr>
+<tr class="memitem:a84f17ec872df4b6f17bf0a92a47f6f06" id="r_a84f17ec872df4b6f17bf0a92a47f6f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f17ec872df4b6f17bf0a92a47f6f06">nextTarget</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
 <tr class="memdesc:a84f17ec872df4b6f17bf0a92a47f6f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next target surface.  <br /></td></tr>
 <tr class="memitem:ab6643ddef08efd64e0093879bb27c879" id="r_ab6643ddef08efd64e0093879bb27c879"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6643ddef08efd64e0093879bb27c879">startSurface</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ab6643ddef08efd64e0093879bb27c879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the starting surface from navigation state.  <br /></td></tr>
@@ -307,12 +307,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -449,12 +449,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -495,12 +495,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -596,12 +596,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

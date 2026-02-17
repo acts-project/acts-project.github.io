@@ -157,8 +157,8 @@ var group__material =
       [ "getMapper", "class_acts_1_1_interpolated_material_map.html#a6e45cb9ad2b2e182fc0906e11fc51445", null ],
       [ "getMaterial", "class_acts_1_1_interpolated_material_map.html#a446e7e28fb456464dde02e2510ad38c8", null ],
       [ "getMaterial", "class_acts_1_1_interpolated_material_map.html#a70ddbf71ca1995611ea3e5248ad7c2f0", null ],
-      [ "getMaterialGradient", "class_acts_1_1_interpolated_material_map.html#ae393777888c72eed2b41501a54e91b3b", null ],
-      [ "getMaterialGradient", "class_acts_1_1_interpolated_material_map.html#a29e91049c5b07d2a96fde015b232dbdd", null ],
+      [ "getMaterialGradient", "class_acts_1_1_interpolated_material_map.html#a0e24c0dd55dbbe9dacf17e0fed2b59af", null ],
+      [ "getMaterialGradient", "class_acts_1_1_interpolated_material_map.html#aaaef693094374616b614933404427ff1", null ],
       [ "isInside", "class_acts_1_1_interpolated_material_map.html#a2e9fb09de766586179efd55d5cc791e6", null ],
       [ "material", "class_acts_1_1_interpolated_material_map.html#a08b9e93a210c8c3fba82d79c91e67c4c", null ],
       [ "toStream", "class_acts_1_1_interpolated_material_map.html#a8aed80aca40331b159cd7b0d9f486005", null ]
@@ -208,13 +208,13 @@ var group__material =
     ] ],
     [ "Acts::MaterialMapLookup&lt; G &gt;", "struct_acts_1_1_material_map_lookup.html", [
       [ "MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html", [
-        [ "MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a3abb02a6fbf3daa5cba9b679659d165d", null ],
+        [ "MaterialCell", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a447ddc3fe86b30e01125b66c0d29112e", null ],
         [ "getMaterial", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a7aae18920dedea7de8a59eb0682a89e9", null ],
         [ "isInside", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a1a257c46b79aa8799e3e9b8774fee4b8", null ],
         [ "N", "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a8d259edab66cba82a13643fba5699c29", null ]
       ] ],
       [ "Grid_t", "struct_acts_1_1_material_map_lookup.html#a3ef869ee18854d087d775aa00b9821e2", null ],
-      [ "MaterialMapLookup", "struct_acts_1_1_material_map_lookup.html#a6ff6d7c14d82afb68061cba839171f81", null ],
+      [ "MaterialMapLookup", "struct_acts_1_1_material_map_lookup.html#ac35940a0af1725b004bfc5c1c538736c", null ],
       [ "getGrid", "struct_acts_1_1_material_map_lookup.html#a4927918c8d2ed819320b0a33f4e47567", null ],
       [ "getMaterial", "struct_acts_1_1_material_map_lookup.html#a0f1c8e03f009c1f9d1aa8e3eed8e2259", null ],
       [ "getMaterialCell", "struct_acts_1_1_material_map_lookup.html#a3b19749c25e1aa0092c81cd00c928ffd", null ],

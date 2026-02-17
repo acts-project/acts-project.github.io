@@ -201,7 +201,7 @@ $(function(){initNavTree('_multi_trajectory_backend_concept_8hpp_source.html',''
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>      {</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        v.template calibratedCovariance_impl&lt;2&gt;(istate)</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      } -&gt; std::same_as&lt;Eigen::Map&lt;const ActsSquareMatrix&lt;2&gt;&gt;&gt;;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      } -&gt; std::same_as&lt;Eigen::Map&lt;const SquareMatrix&lt;2&gt;&gt;&gt;;</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    };</div>
 </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
@@ -224,7 +224,7 @@ $(function(){initNavTree('_multi_trajectory_backend_concept_8hpp_source.html',''
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>      {</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        v.template calibratedCovariance_impl&lt;2&gt;(istate)</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>      } -&gt; std::same_as&lt;Eigen::Map&lt;ActsSquareMatrix&lt;2&gt;&gt;&gt;;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>      } -&gt; std::same_as&lt;Eigen::Map&lt;SquareMatrix&lt;2&gt;&gt;&gt;;</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>      { v.addTrackState_impl() } -&gt; std::same_as&lt;TrackIndexType&gt;;</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
@@ -243,30 +243,27 @@ $(function(){initNavTree('_multi_trajectory_backend_concept_8hpp_source.html',''
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>      { v.template addColumn_impl&lt;float&gt;(col) };</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>      { v.template addColumn_impl&lt;double&gt;(col) };</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>      {</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        v.allocateCalibrated_impl(istate, <a class="code hl_typedef" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector&lt;1&gt;</a>{},</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                                  <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix&lt;1&gt;</a>{})</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>      };</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>      <span class="comment">// Assuming intermediate values also work</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>      {</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        v.allocateCalibrated_impl(istate, <a class="code hl_typedef" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector&lt;eBoundSize&gt;</a>{},</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                                  <a class="code hl_typedef" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix&lt;eBoundSize&gt;</a>{})</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>      };</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>      { v.setUncalibratedSourceLink_impl(istate, std::move(sl)) };</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>      { v.setReferenceSurface_impl(istate, surface) };</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>      { v.copyDynamicFrom_impl(istate, key, std::declval&lt;const std::any&amp;&gt;()) };</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    };</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>      { v.allocateCalibrated_impl(istate, <a class="code hl_typedef" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector&lt;1&gt;</a>{}, <a class="code hl_typedef" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix&lt;1&gt;</a>{}) };</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>      <span class="comment">// Assuming intermediate values also work</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>      {</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        v.allocateCalibrated_impl(istate, <a class="code hl_typedef" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector&lt;eBoundSize&gt;</a>{},</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                                  <a class="code hl_typedef" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix&lt;eBoundSize&gt;</a>{})</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>      };</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>      { v.setUncalibratedSourceLink_impl(istate, std::move(sl)) };</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>      { v.setReferenceSurface_impl(istate, surface) };</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>      { v.copyDynamicFrom_impl(istate, key, std::declval&lt;const std::any&amp;&gt;()) };</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    };</div>
 </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Type-erased source link wrapper.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
 <div class="ttc" id="aconcept_acts_1_1_common_multi_trajectory_backend_html"><div class="ttname"><a href="concept_acts_1_1_common_multi_trajectory_backend.html">Acts::CommonMultiTrajectoryBackend</a></div><div class="ttdef"><b>Definition</b> MultiTrajectoryBackendConcept.hpp:43</div></div>
 <div class="ttc" id="aconcept_acts_1_1_const_multi_trajectory_backend_html"><div class="ttname"><a href="concept_acts_1_1_const_multi_trajectory_backend.html">Acts::ConstMultiTrajectoryBackend</a></div><div class="ttdef"><b>Definition</b> MultiTrajectoryBackendConcept.hpp:66</div></div>
 <div class="ttc" id="aconcept_acts_1_1_mutable_multi_trajectory_backend_html"><div class="ttname"><a href="concept_acts_1_1_mutable_multi_trajectory_backend.html">Acts::MutableMultiTrajectoryBackend</a></div><div class="ttdef"><b>Definition</b> MultiTrajectoryBackendConcept.hpp:85</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga3656dcbf643d97f9dbd715aa9e06bf84"><div class="ttname"><a href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">Acts::ActsVector</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, 1 &gt; ActsVector</div><div class="ttdoc">Fixed-size vector type for N-dimensional vectors.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:50</div></div>
-<div class="ttc" id="agroup__algebra__types_html_gacb25019f1218b9a96b29f897dfc5be7f"><div class="ttname"><a href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, kSize &gt; ActsSquareMatrix</div><div class="ttdoc">Fixed-size square matrix type for NxN matrices.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:61</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga5fb69f475a7d72c8214332057c3135d5"><div class="ttname"><a href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Acts::Vector</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, 1 &gt; Vector</div><div class="ttdoc">Fixed-size vector type for N-dimensional vectors.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:50</div></div>
+<div class="ttc" id="agroup__algebra__types_html_gaedd227e590be3a9c43c10d6654022b77"><div class="ttname"><a href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">Acts::SquareMatrix</a></div><div class="ttdeci">Eigen::Matrix&lt; double, kSize, kSize &gt; SquareMatrix</div><div class="ttdoc">Fixed-size square matrix type for NxN matrices.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:61</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a316aaac27fda3651c80ea8dfba83492a"><div class="ttname"><a href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a></div><div class="ttdeci">std::uint32_t HashedString</div><div class="ttdoc">Type alias for hashed string representation.</div><div class="ttdef"><b>Definition</b> HashedString.hpp:21</div></div>
 <div class="ttc" id="anamespace_acts_html_a7a6813a649567fb613b8214ad5e7399cae1e1d3d40573127e9ee0480caf1283d6"><div class="ttname"><a href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cae1e1d3d40573127e9ee0480caf1283d6">Acts::SpacePointColumns::R</a></div><div class="ttdeci">@ R</div><div class="ttdoc">Radial coordinate.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:54</div></div>

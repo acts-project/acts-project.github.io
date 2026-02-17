@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8b520ff4b46530b1d5dd39bd2e8593c" id="r_ae8b520ff4b46530b1d5dd39bd2e8593c"><td class="memItemLeft" align="right" valign="top"><a id="ae8b520ff4b46530b1d5dd39bd2e8593c" name="ae8b520ff4b46530b1d5dd39bd2e8593c"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IAssignmentFinder</b> ()=default</td></tr>
 <tr class="memdesc:ae8b520ff4b46530b1d5dd39bd2e8593c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
-<tr class="memitem:aa75338944804faf8a3713810af01afd3" id="r_aa75338944804faf8a3713810af01afd3"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html">SurfaceAssignment</a> &gt;, std::vector&lt; <a class="el" href="struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html">VolumeAssignment</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75338944804faf8a3713810af01afd3">assignmentCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction) const =0</td></tr>
+<tr class="memitem:aa75338944804faf8a3713810af01afd3" id="r_aa75338944804faf8a3713810af01afd3"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html">SurfaceAssignment</a> &gt;, std::vector&lt; <a class="el" href="struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html">VolumeAssignment</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75338944804faf8a3713810af01afd3">assignmentCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const =0</td></tr>
 <tr class="memdesc:aa75338944804faf8a3713810af01afd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface method for generating assignment candidates for the material interaction assignment to surfaces or volumes.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -176,12 +176,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IAssignmentFinder
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>

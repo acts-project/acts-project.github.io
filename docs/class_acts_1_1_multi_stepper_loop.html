@@ -195,9 +195,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8e36c69a3252b98c7e3a207dc2dc3360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an constant iterable which can be plugged into a range-based for-loop to iterate over components.  <br /></td></tr>
 <tr class="memitem:aa4655ee78def889ce17191cc2185a773" id="r_aa4655ee78def889ce17191cc2185a773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a25bae4907217345239b06d2fa164dccb">BoundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4655ee78def889ce17191cc2185a773">curvilinearState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, bool transportCov=true) const</td></tr>
 <tr class="memdesc:aa4655ee78def889ce17191cc2185a773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return a curvilinear state at the current position.  <br /></td></tr>
-<tr class="memitem:adfbd62497eb2d734077831f052b39917" id="r_adfbd62497eb2d734077831f052b39917"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbd62497eb2d734077831f052b39917">direction</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memitem:adfbd62497eb2d734077831f052b39917" id="r_adfbd62497eb2d734077831f052b39917"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbd62497eb2d734077831f052b39917">direction</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:adfbd62497eb2d734077831f052b39917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum direction accessor.  <br /></td></tr>
-<tr class="memitem:ad02581b5a3f99db0fd84cb274e15272f" id="r_ad02581b5a3f99db0fd84cb274e15272f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02581b5a3f99db0fd84cb274e15272f">getField</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;pos) const</td></tr>
+<tr class="memitem:ad02581b5a3f99db0fd84cb274e15272f" id="r_ad02581b5a3f99db0fd84cb274e15272f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02581b5a3f99db0fd84cb274e15272f">getField</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;pos) const</td></tr>
 <tr class="memdesc:ad02581b5a3f99db0fd84cb274e15272f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the field for the stepping, it checks first if the access is still within the Cell, and updates the cell if necessary.  <br /></td></tr>
 <tr class="memitem:a17c46fd3911200c3b49c41b1c71f70b2" id="r_a17c46fd3911200c3b49c41b1c71f70b2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17c46fd3911200c3b49c41b1c71f70b2">getStepSize</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a17c46fd3911200c3b49c41b1c71f70b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size.  <br /></td></tr>
@@ -205,7 +205,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a422d81f88543bdc4b38e50f464c9cde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the stepper state from multi-component bound track parameters.  <br /></td></tr>
 <tr class="memitem:ac294b68a4777e63aecb2b587f7e56643" id="r_ac294b68a4777e63aecb2b587f7e56643"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac294b68a4777e63aecb2b587f7e56643">makeState</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_options.html">Options</a> &amp;options) const</td></tr>
 <tr class="memdesc:ac294b68a4777e63aecb2b587f7e56643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a state object for multi-stepping.  <br /></td></tr>
-<tr class="memitem:a0d05d15a0ba03da5a4e99820166ca3a4" id="r_a0d05d15a0ba03da5a4e99820166ca3a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d05d15a0ba03da5a4e99820166ca3a4">momentum</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memitem:a0d05d15a0ba03da5a4e99820166ca3a4" id="r_a0d05d15a0ba03da5a4e99820166ca3a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d05d15a0ba03da5a4e99820166ca3a4">momentum</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a0d05d15a0ba03da5a4e99820166ca3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum accessor.  <br /></td></tr>
 <tr class="memitem:af7f7340a7bcdce9386b74280345687bf" id="r_af7f7340a7bcdce9386b74280345687bf"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7f7340a7bcdce9386b74280345687bf">numberComponents</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:af7f7340a7bcdce9386b74280345687bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of components.  <br /></td></tr>
@@ -213,7 +213,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a350103911e41093a317343014652774d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output the Step Size of all components into one std::string.  <br /></td></tr>
 <tr class="memitem:a2bd33807eab7aa336729b6e4071ddfa3" id="r_a2bd33807eab7aa336729b6e4071ddfa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bd33807eab7aa336729b6e4071ddfa3">particleHypothesis</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a2bd33807eab7aa336729b6e4071ddfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
-<tr class="memitem:a77b755cb0045ae54b5970effe08a041a" id="r_a77b755cb0045ae54b5970effe08a041a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b755cb0045ae54b5970effe08a041a">position</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
+<tr class="memitem:a77b755cb0045ae54b5970effe08a041a" id="r_a77b755cb0045ae54b5970effe08a041a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b755cb0045ae54b5970effe08a041a">position</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a77b755cb0045ae54b5970effe08a041a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global particle position accessor.  <br /></td></tr>
 <tr class="memitem:a95bae37aba1f2ffb3da2bb6f283cbdc7" id="r_a95bae37aba1f2ffb3da2bb6f283cbdc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95bae37aba1f2ffb3da2bb6f283cbdc7">prepareCurvilinearState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a95bae37aba1f2ffb3da2bb6f283cbdc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">If necessary fill additional members needed for curvilinearState.  <br /></td></tr>
@@ -693,7 +693,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::direction </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::direction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td> const</td>
@@ -721,14 +721,14 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::getField </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::getField </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -849,7 +849,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::momentum </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::momentum </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td> const</td>
@@ -961,7 +961,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::position </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::position </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td> const</td>

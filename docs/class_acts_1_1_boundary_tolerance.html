@@ -172,7 +172,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6360e8229638a6a45fa781ef53a2f978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the tolerance is infinite.  <br /></td></tr>
 <tr class="memitem:abe8e875adb94723934f317f510d0dba1" id="r_abe8e875adb94723934f317f510d0dba1"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe8e875adb94723934f317f510d0dba1">isNone</a> () const</td></tr>
 <tr class="memdesc:abe8e875adb94723934f317f510d0dba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the is no tolerance.  <br /></td></tr>
-<tr class="memitem:a6c5ab6513841391316adcbe7dcb119e3" id="r_a6c5ab6513841391316adcbe7dcb119e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5ab6513841391316adcbe7dcb119e3">isTolerated</a> (const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;boundDelta, const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &amp;boundToCartesian) const</td></tr>
+<tr class="memitem:a6c5ab6513841391316adcbe7dcb119e3" id="r_a6c5ab6513841391316adcbe7dcb119e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5ab6513841391316adcbe7dcb119e3">isTolerated</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;boundDelta, const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;boundToCartesian) const</td></tr>
 <tr class="memdesc:a6c5ab6513841391316adcbe7dcb119e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the bound position delta is tolerated.  <br /></td></tr>
 <tr class="memitem:ac6d71d1f7df4a6a05767940e0e267d3f" id="r_ac6d71d1f7df4a6a05767940e0e267d3f"><td class="memItemLeft" align="right" valign="top">BoundaryTolerance &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d71d1f7df4a6a05767940e0e267d3f">operator=</a> (BoundaryTolerance &amp;&amp;other) noexcept=default</td></tr>
 <tr class="memdesc:ac6d71d1f7df4a6a05767940e0e267d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
@@ -185,9 +185,9 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9187fd5f2f2c7ed5da72a9d326e0304c" id="r_a9187fd5f2f2c7ed5da72a9d326e0304c"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9187fd5f2f2c7ed5da72a9d326e0304c">AbsoluteEuclidean</a> (double tolerance) noexcept</td></tr>
 <tr class="memdesc:a9187fd5f2f2c7ed5da72a9d326e0304c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute tolerance in Euclidean distance.  <br /></td></tr>
-<tr class="memitem:ab00c0147b889ba68a662ee56ff9695fc" id="r_ab00c0147b889ba68a662ee56ff9695fc"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab00c0147b889ba68a662ee56ff9695fc">Chi2Bound</a> (const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &amp;weight, double maxChi2) noexcept</td></tr>
+<tr class="memitem:ab00c0147b889ba68a662ee56ff9695fc" id="r_ab00c0147b889ba68a662ee56ff9695fc"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab00c0147b889ba68a662ee56ff9695fc">Chi2Bound</a> (const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;weight, double maxChi2) noexcept</td></tr>
 <tr class="memdesc:ab00c0147b889ba68a662ee56ff9695fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi2 tolerance in bound coordinates.  <br /></td></tr>
-<tr class="memitem:aa57da1cf1f2acda9527d1e80a28861e0" id="r_aa57da1cf1f2acda9527d1e80a28861e0"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa57da1cf1f2acda9527d1e80a28861e0">Chi2Cartesian</a> (const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &amp;weight, double maxChi2) noexcept</td></tr>
+<tr class="memitem:aa57da1cf1f2acda9527d1e80a28861e0" id="r_aa57da1cf1f2acda9527d1e80a28861e0"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa57da1cf1f2acda9527d1e80a28861e0">Chi2Cartesian</a> (const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;weight, double maxChi2) noexcept</td></tr>
 <tr class="memdesc:aa57da1cf1f2acda9527d1e80a28861e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chi2 tolerance in Cartesian coordinates.  <br /></td></tr>
 <tr class="memitem:a8f2376046ddf8c108006502775cd1aef" id="r_a8f2376046ddf8c108006502775cd1aef"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2376046ddf8c108006502775cd1aef">Infinite</a> () noexcept</td></tr>
 <tr class="memdesc:a8f2376046ddf8c108006502775cd1aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Infinite tolerance i.e.  <br /></td></tr>
@@ -403,7 +403,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">auto Acts::BoundaryTolerance::Chi2Bound </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>weight</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>weight</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -442,7 +442,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">auto Acts::BoundaryTolerance::Chi2Cartesian </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>weight</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>weight</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -646,12 +646,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool Acts::BoundaryTolerance::isTolerated </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundDelta</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundDelta</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundToCartesian</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundToCartesian</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

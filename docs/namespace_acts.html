@@ -1080,45 +1080,24 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gaf15191675bb2966bbd872040097b1bdd" id="r_gaf15191675bb2966bbd872040097b1bdd"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>ActsDynamicMatrix</b> = Eigen::Matrix&lt;double, Eigen::Dynamic, Eigen::Dynamic&gt;</td></tr>
-<tr class="memdesc:gaf15191675bb2966bbd872040097b1bdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic-sized matrix type. <br /></td></tr>
-<tr class="memitem:ga18de0b258c3f7da012a164e8a4cdb75c" id="r_ga18de0b258c3f7da012a164e8a4cdb75c"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>ActsDynamicVector</b> = Eigen::Matrix&lt;double, Eigen::Dynamic, 1&gt;</td></tr>
-<tr class="memdesc:ga18de0b258c3f7da012a164e8a4cdb75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic-sized vector type. <br /></td></tr>
-<tr class="memitem:ga99cd1a5ee6b7c5cf8a3aca54526ab67d" id="r_ga99cd1a5ee6b7c5cf8a3aca54526ab67d"><td class="memTemplParams" colspan="2">template&lt;unsigned int kRows, unsigned int kCols&gt; </td></tr>
-<tr class="memitem:ga99cd1a5ee6b7c5cf8a3aca54526ab67d template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a> = Eigen::Matrix&lt;double, kRows, kCols&gt;</td></tr>
-<tr class="memdesc:ga99cd1a5ee6b7c5cf8a3aca54526ab67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size matrix type for NxM matrices.  <br /></td></tr>
-<tr class="memitem:gacb25019f1218b9a96b29f897dfc5be7f" id="r_gacb25019f1218b9a96b29f897dfc5be7f"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
-<tr class="memitem:gacb25019f1218b9a96b29f897dfc5be7f template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a> = Eigen::Matrix&lt;double, kSize, kSize&gt;</td></tr>
-<tr class="memdesc:gacb25019f1218b9a96b29f897dfc5be7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
-<tr class="memitem:acb25019f1218b9a96b29f897dfc5be7f" id="r_acb25019f1218b9a96b29f897dfc5be7f"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
-<tr class="memitem:acb25019f1218b9a96b29f897dfc5be7f template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a></td></tr>
-<tr class="memdesc:acb25019f1218b9a96b29f897dfc5be7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
-<tr class="memitem:acb25019f1218b9a96b29f897dfc5be7f" id="r_acb25019f1218b9a96b29f897dfc5be7f"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
-<tr class="memitem:acb25019f1218b9a96b29f897dfc5be7f template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a></td></tr>
-<tr class="memdesc:acb25019f1218b9a96b29f897dfc5be7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
-<tr class="memitem:ga3656dcbf643d97f9dbd715aa9e06bf84" id="r_ga3656dcbf643d97f9dbd715aa9e06bf84"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
-<tr class="memitem:ga3656dcbf643d97f9dbd715aa9e06bf84 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a> = Eigen::Matrix&lt;double, kSize, 1&gt;</td></tr>
-<tr class="memdesc:ga3656dcbf643d97f9dbd715aa9e06bf84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size vector type for N-dimensional vectors.  <br /></td></tr>
-<tr class="memitem:ad74665d2c9210b7b7c61b07a4b1d7882" id="r_ad74665d2c9210b7b7c61b07a4b1d7882"><td class="memItemLeft" align="right" valign="top"><a id="ad74665d2c9210b7b7c61b07a4b1d7882" name="ad74665d2c9210b7b7c61b07a4b1d7882"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eAlignmentSize, eAlignmentSize&gt;</td></tr>
-<tr class="memdesc:ad74665d2c9210b7b7c61b07a4b1d7882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Square matrix type for alignment parameters. <br /></td></tr>
-<tr class="memitem:aa018f2e119b454c3cb4a886ee1738287" id="r_aa018f2e119b454c3cb4a886ee1738287"><td class="memItemLeft" align="right" valign="top"><a id="aa018f2e119b454c3cb4a886ee1738287" name="aa018f2e119b454c3cb4a886ee1738287"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentRowVector</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;1, eAlignmentSize&gt;</td></tr>
-<tr class="memdesc:aa018f2e119b454c3cb4a886ee1738287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row vector type for alignment parameters. <br /></td></tr>
-<tr class="memitem:afb10c5cb981e8a26821fd8afafc6d10f" id="r_afb10c5cb981e8a26821fd8afafc6d10f"><td class="memItemLeft" align="right" valign="top"><a id="afb10c5cb981e8a26821fd8afafc6d10f" name="afb10c5cb981e8a26821fd8afafc6d10f"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentToBoundMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eBoundSize, eAlignmentSize&gt;</td></tr>
-<tr class="memdesc:afb10c5cb981e8a26821fd8afafc6d10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for transforming alignment parameters to bound parameters. <br /></td></tr>
-<tr class="memitem:ab42a56895184458a0c2b4de6f112469b" id="r_ab42a56895184458a0c2b4de6f112469b"><td class="memItemLeft" align="right" valign="top"><a id="ab42a56895184458a0c2b4de6f112469b" name="ab42a56895184458a0c2b4de6f112469b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentToPathMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;1, eAlignmentSize&gt;</td></tr>
-<tr class="memdesc:ab42a56895184458a0c2b4de6f112469b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for transforming alignment parameters to path length. <br /></td></tr>
-<tr class="memitem:a53ac0eeb93f715e2cd742e45bbc6a706" id="r_a53ac0eeb93f715e2cd742e45bbc6a706"><td class="memItemLeft" align="right" valign="top"><a id="a53ac0eeb93f715e2cd742e45bbc6a706" name="a53ac0eeb93f715e2cd742e45bbc6a706"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentToPositionMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;3, eAlignmentSize&gt;</td></tr>
-<tr class="memdesc:a53ac0eeb93f715e2cd742e45bbc6a706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for transforming alignment parameters to position. <br /></td></tr>
-<tr class="memitem:afbb99f20f52947bab5a7b54c80510bad" id="r_afbb99f20f52947bab5a7b54c80510bad"><td class="memItemLeft" align="right" valign="top"><a id="afbb99f20f52947bab5a7b54c80510bad" name="afbb99f20f52947bab5a7b54c80510bad"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentVector</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;eAlignmentSize&gt;</td></tr>
-<tr class="memdesc:afbb99f20f52947bab5a7b54c80510bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for alignment parameters. <br /></td></tr>
+<tr class="memitem:a8d2a9eacf555f86f4769bbbcfa276b1e" id="r_a8d2a9eacf555f86f4769bbbcfa276b1e"><td class="memItemLeft" align="right" valign="top"><a id="a8d2a9eacf555f86f4769bbbcfa276b1e" name="a8d2a9eacf555f86f4769bbbcfa276b1e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eAlignmentSize, eAlignmentSize&gt;</td></tr>
+<tr class="memdesc:a8d2a9eacf555f86f4769bbbcfa276b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Square matrix type for alignment parameters. <br /></td></tr>
+<tr class="memitem:a93bb8b389c354d08309d3be40eb00b68" id="r_a93bb8b389c354d08309d3be40eb00b68"><td class="memItemLeft" align="right" valign="top"><a id="a93bb8b389c354d08309d3be40eb00b68" name="a93bb8b389c354d08309d3be40eb00b68"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentRowVector</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;1, eAlignmentSize&gt;</td></tr>
+<tr class="memdesc:a93bb8b389c354d08309d3be40eb00b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row vector type for alignment parameters. <br /></td></tr>
+<tr class="memitem:a72c66db9f558730c39a21c68b2445f7d" id="r_a72c66db9f558730c39a21c68b2445f7d"><td class="memItemLeft" align="right" valign="top"><a id="a72c66db9f558730c39a21c68b2445f7d" name="a72c66db9f558730c39a21c68b2445f7d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentToBoundMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eBoundSize, eAlignmentSize&gt;</td></tr>
+<tr class="memdesc:a72c66db9f558730c39a21c68b2445f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for transforming alignment parameters to bound parameters. <br /></td></tr>
+<tr class="memitem:ad22a1a1df085e95b0599f61f573c61f9" id="r_ad22a1a1df085e95b0599f61f573c61f9"><td class="memItemLeft" align="right" valign="top"><a id="ad22a1a1df085e95b0599f61f573c61f9" name="ad22a1a1df085e95b0599f61f573c61f9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentToPathMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;1, eAlignmentSize&gt;</td></tr>
+<tr class="memdesc:ad22a1a1df085e95b0599f61f573c61f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for transforming alignment parameters to path length. <br /></td></tr>
+<tr class="memitem:a0a5ac8394f84a8abaacd448fbf952072" id="r_a0a5ac8394f84a8abaacd448fbf952072"><td class="memItemLeft" align="right" valign="top"><a id="a0a5ac8394f84a8abaacd448fbf952072" name="a0a5ac8394f84a8abaacd448fbf952072"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentToPositionMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;3, eAlignmentSize&gt;</td></tr>
+<tr class="memdesc:a0a5ac8394f84a8abaacd448fbf952072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for transforming alignment parameters to position. <br /></td></tr>
+<tr class="memitem:a1d339fdede4c59944bfafbeda659492b" id="r_a1d339fdede4c59944bfafbeda659492b"><td class="memItemLeft" align="right" valign="top"><a id="a1d339fdede4c59944bfafbeda659492b" name="a1d339fdede4c59944bfafbeda659492b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AlignmentVector</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;eAlignmentSize&gt;</td></tr>
+<tr class="memdesc:a1d339fdede4c59944bfafbeda659492b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for alignment parameters. <br /></td></tr>
 <tr class="memitem:gad51b61e2bb0e1f7a1a6216925133f0e2" id="r_gad51b61e2bb0e1f7a1a6216925133f0e2"><td class="memItemLeft" align="right" valign="top">
 using&#160;</td><td class="memItemRight" valign="bottom"><b>AngleAxis3</b> = Eigen::AngleAxis&lt;double&gt;</td></tr>
 <tr class="memdesc:gad51b61e2bb0e1f7a1a6216925133f0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation defined by an angle around a rotation axis in 3D. <br /></td></tr>
@@ -1142,21 +1121,21 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AxisScalar</b> = Vec
 <tr class="memitem:a109a2348a2960bbf7f66f07d2da7dd8b" id="r_a109a2348a2960bbf7f66f07d2da7dd8b"><td class="memItemLeft" align="right" valign="top"><a id="a109a2348a2960bbf7f66f07d2da7dd8b" name="a109a2348a2960bbf7f66f07d2da7dd8b"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundarySurface</b> = <a class="el" href="class_acts_1_1_boundary_surface_t.html">BoundarySurfaceT</a>&lt;<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>&gt;</td></tr>
 <tr class="memdesc:a109a2348a2960bbf7f66f07d2da7dd8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for boundary surface with TrackingVolume. <br /></td></tr>
-<tr class="memitem:a40a2ff0a11454e7af0dc0a4bcab7b1b0" id="r_a40a2ff0a11454e7af0dc0a4bcab7b1b0"><td class="memItemLeft" align="right" valign="top"><a id="a40a2ff0a11454e7af0dc0a4bcab7b1b0" name="a40a2ff0a11454e7af0dc0a4bcab7b1b0"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eBoundSize, eBoundSize&gt;</td></tr>
-<tr class="memdesc:a40a2ff0a11454e7af0dc0a4bcab7b1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for bound track parameter transformations. <br /></td></tr>
+<tr class="memitem:aec0a40be468eddaf61a46560269bd97e" id="r_aec0a40be468eddaf61a46560269bd97e"><td class="memItemLeft" align="right" valign="top"><a id="aec0a40be468eddaf61a46560269bd97e" name="aec0a40be468eddaf61a46560269bd97e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eBoundSize, eBoundSize&gt;</td></tr>
+<tr class="memdesc:aec0a40be468eddaf61a46560269bd97e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for bound track parameter transformations. <br /></td></tr>
 <tr class="memitem:a1b6c456f1650d94a2549251f1306dde4" id="r_a1b6c456f1650d94a2549251f1306dde4"><td class="memItemLeft" align="right" valign="top"><a id="a1b6c456f1650d94a2549251f1306dde4" name="a1b6c456f1650d94a2549251f1306dde4"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundSubspaceIndices</b> = <a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt;eBoundSize&gt;</td></tr>
 <tr class="memdesc:a1b6c456f1650d94a2549251f1306dde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound parameter subspace indices. <br /></td></tr>
-<tr class="memitem:a528016d34d6df141f5cb73973d6edca0" id="r_a528016d34d6df141f5cb73973d6edca0"><td class="memItemLeft" align="right" valign="top"><a id="a528016d34d6df141f5cb73973d6edca0" name="a528016d34d6df141f5cb73973d6edca0"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundToFreeMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eFreeSize, eBoundSize&gt;</td></tr>
-<tr class="memdesc:a528016d34d6df141f5cb73973d6edca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from bound to free track parameters. <br /></td></tr>
+<tr class="memitem:aa7db1d65428d10880cd7643f8e6eddb4" id="r_aa7db1d65428d10880cd7643f8e6eddb4"><td class="memItemLeft" align="right" valign="top"><a id="aa7db1d65428d10880cd7643f8e6eddb4" name="aa7db1d65428d10880cd7643f8e6eddb4"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundToFreeMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eFreeSize, eBoundSize&gt;</td></tr>
+<tr class="memdesc:aa7db1d65428d10880cd7643f8e6eddb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from bound to free track parameters. <br /></td></tr>
 <tr class="memitem:ad836aba005ba272c0a77227311e4a0ce" id="r_ad836aba005ba272c0a77227311e4a0ce"><td class="memItemLeft" align="right" valign="top"><a id="ad836aba005ba272c0a77227311e4a0ce" name="ad836aba005ba272c0a77227311e4a0ce"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundTrackParameters</b> = <a class="el" href="class_acts_1_1_generic_bound_track_parameters.html">GenericBoundTrackParameters</a>&lt;<a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&gt;</td></tr>
 <tr class="memdesc:ad836aba005ba272c0a77227311e4a0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">BoundTrackParameters can hold any kind of charge. <br /></td></tr>
-<tr class="memitem:af2571f8c8ebccb37165c668fab4a1c4f" id="r_af2571f8c8ebccb37165c668fab4a1c4f"><td class="memItemLeft" align="right" valign="top"><a id="af2571f8c8ebccb37165c668fab4a1c4f" name="af2571f8c8ebccb37165c668fab4a1c4f"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundVector</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;eBoundSize&gt;</td></tr>
-<tr class="memdesc:af2571f8c8ebccb37165c668fab4a1c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for bound track parameters. <br /></td></tr>
+<tr class="memitem:a019f0610fe8fe3f7b3692d7ef6a2dded" id="r_a019f0610fe8fe3f7b3692d7ef6a2dded"><td class="memItemLeft" align="right" valign="top"><a id="a019f0610fe8fe3f7b3692d7ef6a2dded" name="a019f0610fe8fe3f7b3692d7ef6a2dded"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundVector</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;eBoundSize&gt;</td></tr>
+<tr class="memdesc:a019f0610fe8fe3f7b3692d7ef6a2dded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for bound track parameters. <br /></td></tr>
 <tr class="memitem:gad038e458629a5cedf1f825940ffc5f76" id="r_gad038e458629a5cedf1f825940ffc5f76"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76">ConfigPair</a></td></tr>
 <tr class="memdesc:gad038e458629a5cedf1f825940ffc5f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a pair of detector configuration and ambiguity resolution configuration.  <br /></td></tr>
 <tr class="memitem:abe4f9e4a5e3fd2a023039cbfec3ef858" id="r_abe4f9e4a5e3fd2a023039cbfec3ef858"><td class="memTemplParams" colspan="2">template&lt;bool C, typename T&gt; </td></tr>
@@ -1184,6 +1163,18 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstTrackStateTypeM
 <tr class="memdesc:a396cf9dc9d64968f658960b949be9db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const track state type map for read-only access. <br /></td></tr>
 <tr class="memitem:ga9d088dc485a7212cbc281898214d46a1" id="r_ga9d088dc485a7212cbc281898214d46a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga9d088dc485a7212cbc281898214d46a1">DetectorConfig</a> = <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html">ScoreBasedAmbiguityResolution::DetectorConfig</a></td></tr>
 <tr class="memdesc:ga9d088dc485a7212cbc281898214d46a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for detector-specific ambiguity resolution configuration.  <br /></td></tr>
+<tr class="memitem:a62fe975cbacb8a857c515a8eaa5dca93" id="r_a62fe975cbacb8a857c515a8eaa5dca93"><td class="memItemLeft" align="right" valign="top"><a id="a62fe975cbacb8a857c515a8eaa5dca93" name="a62fe975cbacb8a857c515a8eaa5dca93"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>DynamicMatrix</b></td></tr>
+<tr class="memdesc:a62fe975cbacb8a857c515a8eaa5dca93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic-sized matrix type. <br /></td></tr>
+<tr class="memitem:ga62fe975cbacb8a857c515a8eaa5dca93" id="r_ga62fe975cbacb8a857c515a8eaa5dca93"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>DynamicMatrix</b> = Eigen::Matrix&lt;double, Eigen::Dynamic, Eigen::Dynamic&gt;</td></tr>
+<tr class="memdesc:ga62fe975cbacb8a857c515a8eaa5dca93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic-sized matrix type. <br /></td></tr>
+<tr class="memitem:a7665a674b2136aff2843e51b3f337cba" id="r_a7665a674b2136aff2843e51b3f337cba"><td class="memItemLeft" align="right" valign="top"><a id="a7665a674b2136aff2843e51b3f337cba" name="a7665a674b2136aff2843e51b3f337cba"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>DynamicVector</b></td></tr>
+<tr class="memdesc:a7665a674b2136aff2843e51b3f337cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic-sized vector type. <br /></td></tr>
+<tr class="memitem:ga7665a674b2136aff2843e51b3f337cba" id="r_ga7665a674b2136aff2843e51b3f337cba"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>DynamicVector</b> = Eigen::Matrix&lt;double, Eigen::Dynamic, 1&gt;</td></tr>
+<tr class="memdesc:ga7665a674b2136aff2843e51b3f337cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic-sized vector type. <br /></td></tr>
 <tr class="memitem:a5d7e85d7c82a496bd6ae9f7560355973" id="r_a5d7e85d7c82a496bd6ae9f7560355973"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d7e85d7c82a496bd6ae9f7560355973">EAxis</a> = <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt;<a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>&gt;</td></tr>
 <tr class="memdesc:a5d7e85d7c82a496bd6ae9f7560355973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for equidistant axis with open boundary type.  <br /></td></tr>
 <tr class="memitem:aa009e51d59c1a881d343ba0f9fcacbbc" id="r_aa009e51d59c1a881d343ba0f9fcacbbc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa009e51d59c1a881d343ba0f9fcacbbc">Envelope</a> = std::array&lt;double, 2&gt;</td></tr>
@@ -1191,21 +1182,21 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstTrackStateTypeM
 <tr class="memitem:a9bc2353f4da72bb7afd4d868e278150c" id="r_a9bc2353f4da72bb7afd4d868e278150c"><td class="memTemplParams" colspan="2">template&lt;std::size_t SubspaceSize&gt; </td></tr>
 <tr class="memitem:a9bc2353f4da72bb7afd4d868e278150c template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc2353f4da72bb7afd4d868e278150c">FixedBoundSubspaceHelper</a></td></tr>
 <tr class="memdesc:a9bc2353f4da72bb7afd4d868e278150c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper type for fixed-size bound parameter subspaces.  <br /></td></tr>
-<tr class="memitem:acdde648ddc34cb68123733bebd224cb7" id="r_acdde648ddc34cb68123733bebd224cb7"><td class="memItemLeft" align="right" valign="top"><a id="acdde648ddc34cb68123733bebd224cb7" name="acdde648ddc34cb68123733bebd224cb7"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eFreeSize, eFreeSize&gt;</td></tr>
-<tr class="memdesc:acdde648ddc34cb68123733bebd224cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for free track parameter transformations. <br /></td></tr>
-<tr class="memitem:a8d9bd328a23a650ba4dbe1b1bedcb276" id="r_a8d9bd328a23a650ba4dbe1b1bedcb276"><td class="memItemLeft" align="right" valign="top"><a id="a8d9bd328a23a650ba4dbe1b1bedcb276" name="a8d9bd328a23a650ba4dbe1b1bedcb276"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeToBoundMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;eBoundSize, eFreeSize&gt;</td></tr>
-<tr class="memdesc:a8d9bd328a23a650ba4dbe1b1bedcb276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from free to bound track parameters. <br /></td></tr>
-<tr class="memitem:a9fba2b6f3c302ad14749697283c510bd" id="r_a9fba2b6f3c302ad14749697283c510bd"><td class="memItemLeft" align="right" valign="top"><a id="a9fba2b6f3c302ad14749697283c510bd" name="a9fba2b6f3c302ad14749697283c510bd"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeToPathMatrix</b> = <a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt;1, eFreeSize&gt;</td></tr>
-<tr class="memdesc:a9fba2b6f3c302ad14749697283c510bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from free parameters to path length. <br /></td></tr>
+<tr class="memitem:ad1a683ac2eb65ca8f44fdb2ab856836c" id="r_ad1a683ac2eb65ca8f44fdb2ab856836c"><td class="memItemLeft" align="right" valign="top"><a id="ad1a683ac2eb65ca8f44fdb2ab856836c" name="ad1a683ac2eb65ca8f44fdb2ab856836c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eFreeSize, eFreeSize&gt;</td></tr>
+<tr class="memdesc:ad1a683ac2eb65ca8f44fdb2ab856836c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for free track parameter transformations. <br /></td></tr>
+<tr class="memitem:ae99f85f3ec433523b8064f5f2daa38b7" id="r_ae99f85f3ec433523b8064f5f2daa38b7"><td class="memItemLeft" align="right" valign="top"><a id="ae99f85f3ec433523b8064f5f2daa38b7" name="ae99f85f3ec433523b8064f5f2daa38b7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeToBoundMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;eBoundSize, eFreeSize&gt;</td></tr>
+<tr class="memdesc:ae99f85f3ec433523b8064f5f2daa38b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from free to bound track parameters. <br /></td></tr>
+<tr class="memitem:a6a5beb945158d8185b7baf48937105ec" id="r_a6a5beb945158d8185b7baf48937105ec"><td class="memItemLeft" align="right" valign="top"><a id="a6a5beb945158d8185b7baf48937105ec" name="a6a5beb945158d8185b7baf48937105ec"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeToPathMatrix</b> = <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt;1, eFreeSize&gt;</td></tr>
+<tr class="memdesc:a6a5beb945158d8185b7baf48937105ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix type for mapping from free parameters to path length. <br /></td></tr>
 <tr class="memitem:a571167e3129b91100b194e36a1277f8d" id="r_a571167e3129b91100b194e36a1277f8d"><td class="memItemLeft" align="right" valign="top"><a id="a571167e3129b91100b194e36a1277f8d" name="a571167e3129b91100b194e36a1277f8d"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeTrackParameters</b> = <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">GenericFreeTrackParameters</a>&lt;<a class="el" href="class_acts_1_1_particle_hypothesis.html">ParticleHypothesis</a>&gt;</td></tr>
 <tr class="memdesc:a571167e3129b91100b194e36a1277f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">FreeTrackParameters can hold any kind of charge. <br /></td></tr>
-<tr class="memitem:a34a846c2589150628ba6e05624221307" id="r_a34a846c2589150628ba6e05624221307"><td class="memItemLeft" align="right" valign="top"><a id="a34a846c2589150628ba6e05624221307" name="a34a846c2589150628ba6e05624221307"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeVector</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;eFreeSize&gt;</td></tr>
-<tr class="memdesc:a34a846c2589150628ba6e05624221307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for free track parameters. <br /></td></tr>
+<tr class="memitem:a202d7a130eccaece9a3dab80d52bbd21" id="r_a202d7a130eccaece9a3dab80d52bbd21"><td class="memItemLeft" align="right" valign="top"><a id="a202d7a130eccaece9a3dab80d52bbd21" name="a202d7a130eccaece9a3dab80d52bbd21"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>FreeVector</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;eFreeSize&gt;</td></tr>
+<tr class="memdesc:a202d7a130eccaece9a3dab80d52bbd21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type for free track parameters. <br /></td></tr>
 <tr class="memitem:gac15aff2ad0a7029a89bd903885de3310" id="r_gac15aff2ad0a7029a89bd903885de3310"><td class="memTemplParams" colspan="2">template&lt;typename grid_type&gt; </td></tr>
 <tr class="memitem:gac15aff2ad0a7029a89bd903885de3310 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__material.html#gac15aff2ad0a7029a89bd903885de3310">GloballyIndexedSurfaceMaterial</a></td></tr>
 <tr class="memdesc:gac15aff2ad0a7029a89bd903885de3310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for surface material indexed by global coordinates.  <br /></td></tr>
@@ -1242,6 +1233,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>IntersectionIndex</b
 <tr class="memdesc:acda8cc2353ab952431bd685a4450c1dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a matrix of material slabs.  <br /></td></tr>
 <tr class="memitem:ae02784ae49dd0d917418a3878453a4c1" id="r_ae02784ae49dd0d917418a3878453a4c1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae02784ae49dd0d917418a3878453a4c1">MaterialSlabVector</a> = std::vector&lt;<a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a>&gt;</td></tr>
 <tr class="memdesc:ae02784ae49dd0d917418a3878453a4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a vector of material slabs.  <br /></td></tr>
+<tr class="memitem:a6601cf34fab9264b809ec0bc9364048d" id="r_a6601cf34fab9264b809ec0bc9364048d"><td class="memTemplParams" colspan="2">template&lt;unsigned int kRows, unsigned int kCols&gt; </td></tr>
+<tr class="memitem:a6601cf34fab9264b809ec0bc9364048d template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6601cf34fab9264b809ec0bc9364048d">Matrix</a></td></tr>
+<tr class="memdesc:a6601cf34fab9264b809ec0bc9364048d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size matrix type for NxM matrices.  <br /></td></tr>
+<tr class="memitem:ga6601cf34fab9264b809ec0bc9364048d" id="r_ga6601cf34fab9264b809ec0bc9364048d"><td class="memTemplParams" colspan="2">template&lt;unsigned int kRows, unsigned int kCols&gt; </td></tr>
+<tr class="memitem:ga6601cf34fab9264b809ec0bc9364048d template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a> = Eigen::Matrix&lt;double, kRows, kCols&gt;</td></tr>
+<tr class="memdesc:ga6601cf34fab9264b809ec0bc9364048d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size matrix type for NxM matrices.  <br /></td></tr>
 <tr class="memitem:a4db7019218e46140392e9e7c6061081c" id="r_a4db7019218e46140392e9e7c6061081c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4db7019218e46140392e9e7c6061081c">MaxMomentumReducerLoop</a></td></tr>
 <tr class="memdesc:a4db7019218e46140392e9e7c6061081c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for loop reducer based on maximum momentum.  <br /></td></tr>
 <tr class="memitem:a8c6ffaa75197866a88bcc862b93306e3" id="r_a8c6ffaa75197866a88bcc862b93306e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c6ffaa75197866a88bcc862b93306e3">MaxWeightReducerLoop</a></td></tr>
@@ -1291,7 +1288,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ProtoSurfaceMaterial
 <tr class="memitem:a79f3daeca2329cfd19dc3baa49e667d0 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f3daeca2329cfd19dc3baa49e667d0">ProxyAccessor</a> = <a class="el" href="struct_acts_1_1_proxy_accessor_base.html">ProxyAccessorBase</a>&lt;T, false&gt;</td></tr>
 <tr class="memdesc:a79f3daeca2329cfd19dc3baa49e667d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a mutable proxy accessor.  <br /></td></tr>
 <tr class="memitem:a81478db625a7b35501d5f651f5d1d4fd" id="r_a81478db625a7b35501d5f651f5d1d4fd"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, template&lt; typename, std::size_t &gt; typename Vector = std::array&gt; </td></tr>
-<tr class="memitem:a81478db625a7b35501d5f651f5d1d4fd template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a> = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;1, <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Vector&gt;</td></tr>
+<tr class="memitem:a81478db625a7b35501d5f651f5d1d4fd template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a> = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;1, <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&gt;</td></tr>
 <tr class="memdesc:a81478db625a7b35501d5f651f5d1d4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a one-dimensional range.  <br /></td></tr>
 <tr class="memitem:a0e3bc17e57fdc272a17b43714e85adeb" id="r_a0e3bc17e57fdc272a17b43714e85adeb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e3bc17e57fdc272a17b43714e85adeb">Ray3D</a> = <a class="el" href="class_acts_1_1_ray.html">Ray</a>&lt;double, 3&gt;</td></tr>
 <tr class="memdesc:a0e3bc17e57fdc272a17b43714e85adeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a 3D ray using double precision.  <br /></td></tr>
@@ -1320,10 +1317,10 @@ template&lt;typename T&gt; </td></tr>
 <tr class="memitem:af5dcde8c0f77a3ed6c7887d0c7e1a26d template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>RemovePointer_t</b> = <a class="el" href="struct_acts_1_1_remove_pointer.html">RemovePointer</a>&lt;T&gt;<a class="el" href="struct_acts_1_1_remove_pointer.html">::type</a></td></tr>
 <tr class="memdesc:af5dcde8c0f77a3ed6c7887d0c7e1a26d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper type alias for removing pointer from type. <br /></td></tr>
 <tr class="memitem:ga2b55eb1db420c7fb941dd1fe03065fba" id="r_ga2b55eb1db420c7fb941dd1fe03065fba"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>RotationMatrix2</b> = <a class="el" href="group__algebra__types.html#ga57a9cb002daaf227c693f2992fa5540c">SquareMatrix2</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>RotationMatrix2</b> = <a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a></td></tr>
 <tr class="memdesc:ga2b55eb1db420c7fb941dd1fe03065fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D rotation matrix <br /></td></tr>
 <tr class="memitem:ga04f891882a45afadbe07df33ad1c181c" id="r_ga04f891882a45afadbe07df33ad1c181c"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>RotationMatrix3</b> = <a class="el" href="group__algebra__types.html#gaa9dacb7a0481f6908ad7fc61d3523c9f">SquareMatrix3</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>RotationMatrix3</b> = <a class="el" href="group__algebra__types.html#ga864d7f61366a0ea1436890803b2f3469">SquareMatrix3</a></td></tr>
 <tr class="memdesc:ga04f891882a45afadbe07df33ad1c181c"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D rotation matrix <br /></td></tr>
 <tr class="memitem:ac4045b2d1b45e4878781a1aef72ce245" id="r_ac4045b2d1b45e4878781a1aef72ce245"><td class="memItemLeft" align="right" valign="top"><a id="ac4045b2d1b45e4878781a1aef72ce245" name="ac4045b2d1b45e4878781a1aef72ce245"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>SeedIndex2</b> = std::uint32_t</td></tr>
@@ -1346,15 +1343,27 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>SpacePointIndexRange
 <tr class="memitem:a61285991285178e9661e36267761d52d" id="r_a61285991285178e9661e36267761d52d"><td class="memItemLeft" align="right" valign="top"><a id="a61285991285178e9661e36267761d52d" name="a61285991285178e9661e36267761d52d"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>SpacePointIndexSubset2</b> = std::span&lt;const <a class="el" href="#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>&gt;</td></tr>
 <tr class="memdesc:a61285991285178e9661e36267761d52d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subset of space point indices represented as a span. <br /></td></tr>
-<tr class="memitem:ga57a9cb002daaf227c693f2992fa5540c" id="r_ga57a9cb002daaf227c693f2992fa5540c"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix2</b> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt;2&gt;</td></tr>
-<tr class="memdesc:ga57a9cb002daaf227c693f2992fa5540c"><td class="mdescLeft">&#160;</td><td class="mdescRight">2x2 square matrix type, typically used for 2D coordinate covariance <br /></td></tr>
-<tr class="memitem:gaa9dacb7a0481f6908ad7fc61d3523c9f" id="r_gaa9dacb7a0481f6908ad7fc61d3523c9f"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix3</b> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt;3&gt;</td></tr>
-<tr class="memdesc:gaa9dacb7a0481f6908ad7fc61d3523c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">3x3 square matrix type, typically used for 3D coordinate covariance <br /></td></tr>
-<tr class="memitem:ga1afbdebccbfa71435c541dab8d565108" id="r_ga1afbdebccbfa71435c541dab8d565108"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix4</b> = <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt;4&gt;</td></tr>
-<tr class="memdesc:ga1afbdebccbfa71435c541dab8d565108"><td class="mdescLeft">&#160;</td><td class="mdescRight">4x4 square matrix type, typically used for 4D coordinate covariance <br /></td></tr>
+<tr class="memitem:aedd227e590be3a9c43c10d6654022b77" id="r_aedd227e590be3a9c43c10d6654022b77"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
+<tr class="memitem:aedd227e590be3a9c43c10d6654022b77 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd227e590be3a9c43c10d6654022b77">SquareMatrix</a></td></tr>
+<tr class="memdesc:aedd227e590be3a9c43c10d6654022b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
+<tr class="memitem:gaedd227e590be3a9c43c10d6654022b77" id="r_gaedd227e590be3a9c43c10d6654022b77"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
+<tr class="memitem:gaedd227e590be3a9c43c10d6654022b77 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a> = Eigen::Matrix&lt;double, kSize, kSize&gt;</td></tr>
+<tr class="memdesc:gaedd227e590be3a9c43c10d6654022b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
+<tr class="memitem:aedd227e590be3a9c43c10d6654022b77" id="r_aedd227e590be3a9c43c10d6654022b77"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
+<tr class="memitem:aedd227e590be3a9c43c10d6654022b77 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd227e590be3a9c43c10d6654022b77">SquareMatrix</a></td></tr>
+<tr class="memdesc:aedd227e590be3a9c43c10d6654022b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
+<tr class="memitem:aedd227e590be3a9c43c10d6654022b77" id="r_aedd227e590be3a9c43c10d6654022b77"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
+<tr class="memitem:aedd227e590be3a9c43c10d6654022b77 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd227e590be3a9c43c10d6654022b77">SquareMatrix</a></td></tr>
+<tr class="memdesc:aedd227e590be3a9c43c10d6654022b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size square matrix type for NxN matrices.  <br /></td></tr>
+<tr class="memitem:gacf45a96b60fa44322913e6e18323ee95" id="r_gacf45a96b60fa44322913e6e18323ee95"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix2</b> = <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt;2&gt;</td></tr>
+<tr class="memdesc:gacf45a96b60fa44322913e6e18323ee95"><td class="mdescLeft">&#160;</td><td class="mdescRight">2x2 square matrix type, typically used for 2D coordinate covariance <br /></td></tr>
+<tr class="memitem:ga864d7f61366a0ea1436890803b2f3469" id="r_ga864d7f61366a0ea1436890803b2f3469"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix3</b> = <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt;3&gt;</td></tr>
+<tr class="memdesc:ga864d7f61366a0ea1436890803b2f3469"><td class="mdescLeft">&#160;</td><td class="mdescRight">3x3 square matrix type, typically used for 3D coordinate covariance <br /></td></tr>
+<tr class="memitem:gaa3f7405c2f5c3ee11fec4797a91acf99" id="r_gaa3f7405c2f5c3ee11fec4797a91acf99"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SquareMatrix4</b> = <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt;4&gt;</td></tr>
+<tr class="memdesc:gaa3f7405c2f5c3ee11fec4797a91acf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">4x4 square matrix type, typically used for 4D coordinate covariance <br /></td></tr>
 <tr class="memitem:a1670ec4e030e90f0bce7b5154a9d12bb" id="r_a1670ec4e030e90f0bce7b5154a9d12bb"><td class="memItemLeft" align="right" valign="top"><a id="a1670ec4e030e90f0bce7b5154a9d12bb" name="a1670ec4e030e90f0bce7b5154a9d12bb"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>SubspaceIndex</b> = std::uint8_t</td></tr>
 <tr class="memdesc:a1670ec4e030e90f0bce7b5154a9d12bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for subspace index. <br /></td></tr>
@@ -1387,7 +1396,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackIndexType</b> =
 <tr class="memdesc:a4840b95a87ca15ddba7ceb31b16a4353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for tracking geometry material containing surface and volume maps.  <br /></td></tr>
 <tr class="memitem:ga493120b39f9605cd708b460b16a20c96" id="r_ga493120b39f9605cd708b460b16a20c96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga493120b39f9605cd708b460b16a20c96">TrackingVolumeAndMaterial</a></td></tr>
 <tr class="memdesc:ga493120b39f9605cd708b460b16a20c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pair containing a tracking volume and its associated material.  <br /></td></tr>
-<tr class="memitem:adf2d7adffd50e2d6dd1dbeb65fb658ed" id="r_adf2d7adffd50e2d6dd1dbeb65fb658ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2d7adffd50e2d6dd1dbeb65fb658ed">TrackingVolumeOrderPosition</a> = std::pair&lt;<a class="el" href="#a2d207ef0f7109becc8fba98cb145ed9d">TrackingVolumePtr</a>, <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&gt;</td></tr>
+<tr class="memitem:adf2d7adffd50e2d6dd1dbeb65fb658ed" id="r_adf2d7adffd50e2d6dd1dbeb65fb658ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2d7adffd50e2d6dd1dbeb65fb658ed">TrackingVolumeOrderPosition</a> = std::pair&lt;<a class="el" href="#a2d207ef0f7109becc8fba98cb145ed9d">TrackingVolumePtr</a>, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&gt;</td></tr>
 <tr class="memdesc:adf2d7adffd50e2d6dd1dbeb65fb658ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pair associating a tracking volume with its position vector.  <br /></td></tr>
 <tr class="memitem:a852fc4a2512213a43398b39341378a1d" id="r_a852fc4a2512213a43398b39341378a1d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852fc4a2512213a43398b39341378a1d">TrackLinearizer</a></td></tr>
 <tr class="memdesc:a852fc4a2512213a43398b39341378a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A delegate for linearizing a track at a given point in time and surface.  <br /></td></tr>
@@ -1407,19 +1416,25 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Translation3</b> = E
 using&#160;</td><td class="memItemRight" valign="bottom"><b>V3Matrix</b> = std::vector&lt;<a class="el" href="#a6173fd5678f75d05d96cd30cfb5bab0a">V3Vector</a>&gt;</td></tr>
 <tr class="memdesc:ab89ce687d622245c5610b79701471285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix (2D vector) of 3D vectors, used for storing grid-like collections of 3D points. <br /></td></tr>
 <tr class="memitem:a6173fd5678f75d05d96cd30cfb5bab0a" id="r_a6173fd5678f75d05d96cd30cfb5bab0a"><td class="memItemLeft" align="right" valign="top"><a id="a6173fd5678f75d05d96cd30cfb5bab0a" name="a6173fd5678f75d05d96cd30cfb5bab0a"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>V3Vector</b> = std::vector&lt;<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>V3Vector</b> = std::vector&lt;<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&gt;</td></tr>
 <tr class="memdesc:a6173fd5678f75d05d96cd30cfb5bab0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of 3D vectors, used for storing collections of 3D points. <br /></td></tr>
 <tr class="memitem:aaaa9c77f4dd9efc1ac464d9a941f2ef2" id="r_aaaa9c77f4dd9efc1ac464d9a941f2ef2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaa9c77f4dd9efc1ac464d9a941f2ef2">VariableBoundSubspaceHelper</a></td></tr>
 <tr class="memdesc:aaaa9c77f4dd9efc1ac464d9a941f2ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper type for variable-size bound parameter subspaces.  <br /></td></tr>
-<tr class="memitem:gabb76f2d48e0590ef82a8afaad39a77b5" id="r_gabb76f2d48e0590ef82a8afaad39a77b5"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector2</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;2&gt;</td></tr>
-<tr class="memdesc:gabb76f2d48e0590ef82a8afaad39a77b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">2-dimensional vector type for 2D coordinates <br /></td></tr>
-<tr class="memitem:ga8183a99dab8a7c6fff67d7c6c05bfb22" id="r_ga8183a99dab8a7c6fff67d7c6c05bfb22"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector3</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;3&gt;</td></tr>
-<tr class="memdesc:ga8183a99dab8a7c6fff67d7c6c05bfb22"><td class="mdescLeft">&#160;</td><td class="mdescRight">3-dimensional vector type for e.g. spatial coordinates and momenta <br /></td></tr>
-<tr class="memitem:ga3a320a58e0d6145e3f7ecf78c289dfd7" id="r_ga3a320a58e0d6145e3f7ecf78c289dfd7"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector4</b> = <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt;4&gt;</td></tr>
-<tr class="memdesc:ga3a320a58e0d6145e3f7ecf78c289dfd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">4-dimensional vector type for space-time coordinates <br /></td></tr>
+<tr class="memitem:a5fb69f475a7d72c8214332057c3135d5" id="r_a5fb69f475a7d72c8214332057c3135d5"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
+<tr class="memitem:a5fb69f475a7d72c8214332057c3135d5 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb69f475a7d72c8214332057c3135d5">Vector</a></td></tr>
+<tr class="memdesc:a5fb69f475a7d72c8214332057c3135d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size vector type for N-dimensional vectors.  <br /></td></tr>
+<tr class="memitem:ga5fb69f475a7d72c8214332057c3135d5" id="r_ga5fb69f475a7d72c8214332057c3135d5"><td class="memTemplParams" colspan="2">template&lt;unsigned int kSize&gt; </td></tr>
+<tr class="memitem:ga5fb69f475a7d72c8214332057c3135d5 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a> = Eigen::Matrix&lt;double, kSize, 1&gt;</td></tr>
+<tr class="memdesc:ga5fb69f475a7d72c8214332057c3135d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed-size vector type for N-dimensional vectors.  <br /></td></tr>
+<tr class="memitem:ga531fe33218d5453c0f8952e826ced3ed" id="r_ga531fe33218d5453c0f8952e826ced3ed"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector2</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;2&gt;</td></tr>
+<tr class="memdesc:ga531fe33218d5453c0f8952e826ced3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">2-dimensional vector type for 2D coordinates <br /></td></tr>
+<tr class="memitem:ga49fabee4702da952f70b234a021e39c5" id="r_ga49fabee4702da952f70b234a021e39c5"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector3</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;3&gt;</td></tr>
+<tr class="memdesc:ga49fabee4702da952f70b234a021e39c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">3-dimensional vector type for e.g. spatial coordinates and momenta <br /></td></tr>
+<tr class="memitem:ga211f2201e5faee8fc4243cb3be9bc97f" id="r_ga211f2201e5faee8fc4243cb3be9bc97f"><td class="memItemLeft" align="right" valign="top">
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector4</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;4&gt;</td></tr>
+<tr class="memdesc:ga211f2201e5faee8fc4243cb3be9bc97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">4-dimensional vector type for space-time coordinates <br /></td></tr>
 <tr class="memitem:aca88659ee97e667013784c4fac8475f2" id="r_aca88659ee97e667013784c4fac8475f2"><td class="memItemLeft" align="right" valign="top"><a id="aca88659ee97e667013784c4fac8475f2" name="aca88659ee97e667013784c4fac8475f2"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeBoundFactory</b> = <a class="el" href="class_acts_1_1_bound_factory.html">BoundFactory</a>&lt;<a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a>&gt;</td></tr>
 <tr class="memdesc:aca88659ee97e667013784c4fac8475f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation for a factory to construct volume bounds. <br /></td></tr>
@@ -1923,7 +1938,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a07cc9c5a52b7ad024117cee0d1dd664f" id="r_a07cc9c5a52b7ad024117cee0d1dd664f"><td class="memItemLeft" align="right" valign="top"><a id="a07cc9c5a52b7ad024117cee0d1dd664f" name="a07cc9c5a52b7ad024117cee0d1dd664f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ACTS_DEFINE_ENUM_BITWISE_OPERATORS</b> (<a class="el" href="#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a>)</td></tr>
 <tr class="memdesc:a07cc9c5a52b7ad024117cee0d1dd664f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable bitwise operators for SpacePointColumns enum. <br /></td></tr>
-<tr class="memitem:a7e485245a070df5a95f113e9ada82f40" id="r_a7e485245a070df5a95f113e9ada82f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e485245a070df5a95f113e9ada82f40">addBoundParameters</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;lhs, const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;rhs)</td></tr>
+<tr class="memitem:a7e485245a070df5a95f113e9ada82f40" id="r_a7e485245a070df5a95f113e9ada82f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e485245a070df5a95f113e9ada82f40">addBoundParameters</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;lhs, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;rhs)</td></tr>
 <tr class="memdesc:a7e485245a070df5a95f113e9ada82f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add bound parameters and take care of angle periodicity for phi and theta.  <br /></td></tr>
 <tr class="memitem:ac693aa8941b4cbb04d9fda037650199a" id="r_ac693aa8941b4cbb04d9fda037650199a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac693aa8941b4cbb04d9fda037650199a">adjustBinUtility</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu, const <a class="el" href="class_acts_1_1_cuboid_volume_bounds.html">CuboidVolumeBounds</a> &amp;cBounds, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform)</td></tr>
 <tr class="memdesc:ac693aa8941b4cbb04d9fda037650199a"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust the BinUtility bu to the dimensions of cuboid volume bounds  <br /></td></tr>
@@ -1978,35 +1993,35 @@ Functions</h2></td></tr>
 <tr class="memitem:a1faa0708be032bfc6c3a725525972191" id="r_a1faa0708be032bfc6c3a725525972191"><td class="memTemplParams" colspan="2">template&lt;typename MatrixType&gt; </td></tr>
 <tr class="memitem:a1faa0708be032bfc6c3a725525972191 template"><td class="memItemLeft" align="right" valign="top">MatrixType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1faa0708be032bfc6c3a725525972191">bitsetToMatrix</a> (const std::bitset&lt; MatrixType::RowsAtCompileTime *MatrixType::ColsAtCompileTime &gt; bs)</td></tr>
 <tr class="memdesc:a1faa0708be032bfc6c3a725525972191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a bitset to a matrix of integers, with each element set to the bit value.  <br /></td></tr>
-<tr class="memitem:a37d4a4f8919f71e49c4136b1a5877125" id="r_a37d4a4f8919f71e49c4136b1a5877125"><td class="memTemplParams" colspan="2">template&lt;typename A, typename B&gt; </td></tr>
-<tr class="memitem:a37d4a4f8919f71e49c4136b1a5877125 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; A::RowsAtCompileTime, B::ColsAtCompileTime &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37d4a4f8919f71e49c4136b1a5877125">blockedMult</a> (const A &amp;a, const B &amp;b)</td></tr>
-<tr class="memdesc:a37d4a4f8919f71e49c4136b1a5877125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a blocked matrix multiplication, avoiding Eigen GEMM methods.  <br /></td></tr>
+<tr class="memitem:a1142658554f401928053b764adb7bcc7" id="r_a1142658554f401928053b764adb7bcc7"><td class="memTemplParams" colspan="2">template&lt;typename A, typename B&gt; </td></tr>
+<tr class="memitem:a1142658554f401928053b764adb7bcc7 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; A::RowsAtCompileTime, B::ColsAtCompileTime &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1142658554f401928053b764adb7bcc7">blockedMult</a> (const A &amp;a, const B &amp;b)</td></tr>
+<tr class="memdesc:a1142658554f401928053b764adb7bcc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a blocked matrix multiplication, avoiding Eigen GEMM methods.  <br /></td></tr>
 <tr class="memitem:a73d5129d1a16a6e63564cdf881a9b647" id="r_a73d5129d1a16a6e63564cdf881a9b647"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
 <tr class="memitem:a73d5129d1a16a6e63564cdf881a9b647 template"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d5129d1a16a6e63564cdf881a9b647">calculateFilteredChi2</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:a73d5129d1a16a6e63564cdf881a9b647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the filtered chi2.  <br /></td></tr>
-<tr class="memitem:a605d198d063b46f931c36b96948e3f7f" id="r_a605d198d063b46f931c36b96948e3f7f"><td class="memTemplParams" colspan="2">template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
-<tr class="memitem:a605d198d063b46f931c36b96948e3f7f template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt; nMeasurementDim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a605d198d063b46f931c36b96948e3f7f">calculateFilteredResidual</a> (track_state_proxy_t trackState)</td></tr>
-<tr class="memdesc:a605d198d063b46f931c36b96948e3f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the filtered residual and its covariance.  <br /></td></tr>
+<tr class="memitem:ace59d46d0e289f50f02edc7e64e19846" id="r_ace59d46d0e289f50f02edc7e64e19846"><td class="memTemplParams" colspan="2">template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
+<tr class="memitem:ace59d46d0e289f50f02edc7e64e19846 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; nMeasurementDim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace59d46d0e289f50f02edc7e64e19846">calculateFilteredResidual</a> (track_state_proxy_t trackState)</td></tr>
+<tr class="memdesc:ace59d46d0e289f50f02edc7e64e19846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the filtered residual and its covariance.  <br /></td></tr>
 <tr class="memitem:adf94b572ac2237a3112a156cfce109ab" id="r_adf94b572ac2237a3112a156cfce109ab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf94b572ac2237a3112a156cfce109ab">calculateNucleusMass</a> (<a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> pdg)</td></tr>
 <tr class="memdesc:adf94b572ac2237a3112a156cfce109ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mass of a nucleus using Bethe-Weizsacker formula Parameters obtained from <a href="https://www.actaphys.uj.edu.pl/R/37/6/1833">https://www.actaphys.uj.edu.pl/R/37/6/1833</a>.  <br /></td></tr>
 <tr class="memitem:a56a5418f50fb82641b5616441d39dea1" id="r_a56a5418f50fb82641b5616441d39dea1"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
 <tr class="memitem:a56a5418f50fb82641b5616441d39dea1 template"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a5418f50fb82641b5616441d39dea1">calculatePredictedChi2</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:a56a5418f50fb82641b5616441d39dea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the predicted chi2.  <br /></td></tr>
-<tr class="memitem:a912468fb270d9bd53a076eda3ff91d52" id="r_a912468fb270d9bd53a076eda3ff91d52"><td class="memTemplParams" colspan="2">template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
-<tr class="memitem:a912468fb270d9bd53a076eda3ff91d52 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt; nMeasurementDim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a912468fb270d9bd53a076eda3ff91d52">calculatePredictedResidual</a> (track_state_proxy_t trackState)</td></tr>
-<tr class="memdesc:a912468fb270d9bd53a076eda3ff91d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the predicted residual and its covariance.  <br /></td></tr>
+<tr class="memitem:a84f331e1aba0cb89d6aa5bc9e8a0c0c9" id="r_a84f331e1aba0cb89d6aa5bc9e8a0c0c9"><td class="memTemplParams" colspan="2">template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
+<tr class="memitem:a84f331e1aba0cb89d6aa5bc9e8a0c0c9 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; nMeasurementDim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f331e1aba0cb89d6aa5bc9e8a0c0c9">calculatePredictedResidual</a> (track_state_proxy_t trackState)</td></tr>
+<tr class="memdesc:a84f331e1aba0cb89d6aa5bc9e8a0c0c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the predicted residual and its covariance.  <br /></td></tr>
 <tr class="memitem:ad0961bb226a8e46e32d709866e7eed73" id="r_ad0961bb226a8e46e32d709866e7eed73"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
 <tr class="memitem:ad0961bb226a8e46e32d709866e7eed73 template"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0961bb226a8e46e32d709866e7eed73">calculateSmoothedChi2</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:ad0961bb226a8e46e32d709866e7eed73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the smoothed chi2.  <br /></td></tr>
-<tr class="memitem:a5a6a0f03dead89351e61bdd4d0d98dc1" id="r_a5a6a0f03dead89351e61bdd4d0d98dc1"><td class="memTemplParams" colspan="2">template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
-<tr class="memitem:a5a6a0f03dead89351e61bdd4d0d98dc1 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt; nMeasurementDim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a6a0f03dead89351e61bdd4d0d98dc1">calculateSmoothedResidual</a> (track_state_proxy_t trackState)</td></tr>
-<tr class="memdesc:a5a6a0f03dead89351e61bdd4d0d98dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the smoothed residual and its covariance.  <br /></td></tr>
+<tr class="memitem:abbe3a7801a7a84cd085e8b0755cf020c" id="r_abbe3a7801a7a84cd085e8b0755cf020c"><td class="memTemplParams" colspan="2">template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
+<tr class="memitem:abbe3a7801a7a84cd085e8b0755cf020c template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; nMeasurementDim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe3a7801a7a84cd085e8b0755cf020c">calculateSmoothedResidual</a> (track_state_proxy_t trackState)</td></tr>
+<tr class="memdesc:abbe3a7801a7a84cd085e8b0755cf020c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the smoothed residual and its covariance.  <br /></td></tr>
 <tr class="memitem:ad777051d7e6ab464315ae169472719fe" id="r_ad777051d7e6ab464315ae169472719fe"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; <br />
 requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:ad777051d7e6ab464315ae169472719fe template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a> (track_proxy_t track)</td></tr>
 <tr class="memdesc:ad777051d7e6ab464315ae169472719fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate a number of track level quantities and store them on the track itself.  <br /></td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2" id="r_afded89f5410ca396ea21fee04cf8d1e2"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
-<tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>, <a class="el" href="#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a> (track_state_proxy_t trackState)</td></tr>
+<tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:afded89f5410ca396ea21fee04cf8d1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the unbiased track parameters and their covariance (i.e.  <br /></td></tr>
 <tr class="memitem:adca167882d01bd6ed5541f83a36031e9" id="r_adca167882d01bd6ed5541f83a36031e9"><td class="memTemplParams" colspan="2">template&lt;std::ranges::sized_range index_range_t&gt; </td></tr>
 <tr class="memitem:adca167882d01bd6ed5541f83a36031e9 template"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca167882d01bd6ed5541f83a36031e9">checkSubspaceIndices</a> (const index_range_t &amp;indexRange, std::size_t fullSize, std::size_t subspaceSize)</td></tr>
@@ -2045,9 +2060,9 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memdesc:acc4fdbb4f35d269522bc19c0d224ec30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method that creates the cache grid for the mapping.  <br /></td></tr>
 <tr class="memitem:a085dd4ac5023951306e2309b2605be92" id="r_a085dd4ac5023951306e2309b2605be92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9449d6ac28ec406ddfcf71fd50003e59">Grid3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085dd4ac5023951306e2309b2605be92">createGrid</a> (<a class="el" href="#ae3b4d4995155fcbfd29d48adc9f73a0d">MaterialGridAxisData</a> gridAxis1, <a class="el" href="#ae3b4d4995155fcbfd29d48adc9f73a0d">MaterialGridAxisData</a> gridAxis2, <a class="el" href="#ae3b4d4995155fcbfd29d48adc9f73a0d">MaterialGridAxisData</a> gridAxis3)</td></tr>
 <tr class="memdesc:a085dd4ac5023951306e2309b2605be92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method that creates the cache grid for the mapping.  <br /></td></tr>
-<tr class="memitem:a2ab7a78eb37d8ad1adaeaf04d6d92c92" id="r_a2ab7a78eb37d8ad1adaeaf04d6d92c92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab0989576baab7a8793e3f7cbeec08cae">Grid2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab7a78eb37d8ad1adaeaf04d6d92c92">createGrid2D</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bins, std::function&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &amp;transfoGlobalToLocal)</td></tr>
+<tr class="memitem:a2ab7a78eb37d8ad1adaeaf04d6d92c92" id="r_a2ab7a78eb37d8ad1adaeaf04d6d92c92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab0989576baab7a8793e3f7cbeec08cae">Grid2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab7a78eb37d8ad1adaeaf04d6d92c92">createGrid2D</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bins, std::function&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>)&gt; &amp;transfoGlobalToLocal)</td></tr>
 <tr class="memdesc:a2ab7a78eb37d8ad1adaeaf04d6d92c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 2DGrid using a BinUtility.  <br /></td></tr>
-<tr class="memitem:ae92c97bfcfa43c9625c931928128a992" id="r_ae92c97bfcfa43c9625c931928128a992"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9449d6ac28ec406ddfcf71fd50003e59">Grid3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92c97bfcfa43c9625c931928128a992">createGrid3D</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bins, std::function&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &amp;transfoGlobalToLocal)</td></tr>
+<tr class="memitem:ae92c97bfcfa43c9625c931928128a992" id="r_ae92c97bfcfa43c9625c931928128a992"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9449d6ac28ec406ddfcf71fd50003e59">Grid3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92c97bfcfa43c9625c931928128a992">createGrid3D</a> (const <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bins, std::function&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>)&gt; &amp;transfoGlobalToLocal)</td></tr>
 <tr class="memdesc:ae92c97bfcfa43c9625c931928128a992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 3DGrid using a BinUtility.  <br /></td></tr>
 <tr class="memitem:gaee816f677b99eb0cbeb1d35a580cc391" id="r_gaee816f677b99eb0cbeb1d35a580cc391"><td class="memTemplParams" colspan="2">template&lt;class T, class decorator_t&gt; </td></tr>
 <tr class="memitem:gaee816f677b99eb0cbeb1d35a580cc391 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gaee816f677b99eb0cbeb1d35a580cc391">decorateJson</a> (const decorator_t *decorator, const T &amp;src, nlohmann::json &amp;dest)</td></tr>
@@ -2072,15 +2087,15 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:a08a2ca0bdef285b222916dd7ecb30562" id="r_a08a2ca0bdef285b222916dd7ecb30562"><td class="memTemplParams" colspan="2">template&lt;typename container_type, typename index_type = typename std::decay_t&lt;container_type&gt;::size_type, typename container_type_iter = decltype(std::begin(std::declval&lt;container_type&gt;())), typename = decltype(std::end(std::declval&lt;container_type&gt;()))&gt; </td></tr>
 <tr class="memitem:a08a2ca0bdef285b222916dd7ecb30562 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a2ca0bdef285b222916dd7ecb30562">enumerate</a> (container_type &amp;&amp;iterable)</td></tr>
 <tr class="memdesc:a08a2ca0bdef285b222916dd7ecb30562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper utility to allow indexed enumeration with structured binding.  <br /></td></tr>
-<tr class="memitem:a41ce01de709daded7eca97fac1268093" id="r_a41ce01de709daded7eca97fac1268093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ce01de709daded7eca97fac1268093">estimateTrackParamCovariance</a> (const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;config, const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;params, bool hasTime)</td></tr>
+<tr class="memitem:a41ce01de709daded7eca97fac1268093" id="r_a41ce01de709daded7eca97fac1268093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ce01de709daded7eca97fac1268093">estimateTrackParamCovariance</a> (const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;config, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;params, bool hasTime)</td></tr>
 <tr class="memdesc:a41ce01de709daded7eca97fac1268093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the covariance matrix of the given track parameters based on the provided configuration.  <br /></td></tr>
 <tr class="memitem:a6993b7c73820f46cd3c74271787accb8" id="r_a6993b7c73820f46cd3c74271787accb8"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range spacepoint_range_t&gt; </td></tr>
-<tr class="memitem:a6993b7c73820f46cd3c74271787accb8 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6993b7c73820f46cd3c74271787accb8">estimateTrackParamsFromSeed</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, spacepoint_range_t spRange, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;bField)</td></tr>
+<tr class="memitem:a6993b7c73820f46cd3c74271787accb8 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6993b7c73820f46cd3c74271787accb8">estimateTrackParamsFromSeed</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, spacepoint_range_t spRange, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:a6993b7c73820f46cd3c74271787accb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the full track parameters from three space points.  <br /></td></tr>
-<tr class="memitem:af38513640e42e706177f3812515d1b62" id="r_af38513640e42e706177f3812515d1b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38513640e42e706177f3812515d1b62">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;sp0, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;bField)</td></tr>
+<tr class="memitem:af38513640e42e706177f3812515d1b62" id="r_af38513640e42e706177f3812515d1b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38513640e42e706177f3812515d1b62">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:af38513640e42e706177f3812515d1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the full track parameters from three space points.  <br /></td></tr>
 <tr class="memitem:a57fee6bb48f063dd49269e39bfdc36fc" id="r_a57fee6bb48f063dd49269e39bfdc36fc"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range spacepoint_range_t&gt; </td></tr>
-<tr class="memitem:a57fee6bb48f063dd49269e39bfdc36fc template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fee6bb48f063dd49269e39bfdc36fc">estimateTrackParamsFromSeed</a> (spacepoint_range_t spRange, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;bField)</td></tr>
+<tr class="memitem:a57fee6bb48f063dd49269e39bfdc36fc template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fee6bb48f063dd49269e39bfdc36fc">estimateTrackParamsFromSeed</a> (spacepoint_range_t spRange, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:a57fee6bb48f063dd49269e39bfdc36fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the full track parameters from three space points.  <br /></td></tr>
 <tr class="memitem:a10e8cfcddde31768275e024c61f03a70" id="r_a10e8cfcddde31768275e024c61f03a70"><td class="memTemplParams" colspan="2">template&lt;typename queries_type, typename expansion_type, std::size_t kDIM&gt; </td></tr>
 <tr class="memitem:a10e8cfcddde31768275e024c61f03a70 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e8cfcddde31768275e024c61f03a70">expand</a> (queries_type &amp;gridQueries, const expansion_type &amp;referenceExpansion)</td></tr>
@@ -2099,9 +2114,9 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:a370de2c1bb43783346d4a3cbc749dcd3" id="r_a370de2c1bb43783346d4a3cbc749dcd3"><td class="memTemplParams" colspan="2">template&lt;typename... T&gt; </td></tr>
 <tr class="memitem:a370de2c1bb43783346d4a3cbc749dcd3 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370de2c1bb43783346d4a3cbc749dcd3">fastHypot</a> (T... args)</td></tr>
 <tr class="memdesc:a370de2c1bb43783346d4a3cbc749dcd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast hypotenuse calculation for multiple arguments.  <br /></td></tr>
-<tr class="memitem:ga38f23b40e50cf64609d44c5392c00088" id="r_ga38f23b40e50cf64609d44c5392c00088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga38f23b40e50cf64609d44c5392c00088">fieldMapRZ</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 2 &gt; binsRZ, std::array&lt; std::size_t, 2 &gt; nBinsRZ)&gt; &amp;localToGlobalBin, std::vector&lt; double &gt; rPos, std::vector&lt; double &gt; zPos, const std::vector&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a> &gt; &amp;bField, double lengthUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>, double BFieldUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">UnitConstants::T</a>, bool firstQuadrant=false)</td></tr>
+<tr class="memitem:ga38f23b40e50cf64609d44c5392c00088" id="r_ga38f23b40e50cf64609d44c5392c00088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga38f23b40e50cf64609d44c5392c00088">fieldMapRZ</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 2 &gt; binsRZ, std::array&lt; std::size_t, 2 &gt; nBinsRZ)&gt; &amp;localToGlobalBin, std::vector&lt; double &gt; rPos, std::vector&lt; double &gt; zPos, const std::vector&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a> &gt; &amp;bField, double lengthUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>, double BFieldUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">UnitConstants::T</a>, bool firstQuadrant=false)</td></tr>
 <tr class="memdesc:ga38f23b40e50cf64609d44c5392c00088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to set up the FieldMap.  <br /></td></tr>
-<tr class="memitem:ga0a2a24528115e4a19afa750157c52642" id="r_ga0a2a24528115e4a19afa750157c52642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga0a2a24528115e4a19afa750157c52642">fieldMapXYZ</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 3 &gt; binsXYZ, std::array&lt; std::size_t, 3 &gt; nBinsXYZ)&gt; &amp;localToGlobalBin, std::vector&lt; double &gt; xPos, std::vector&lt; double &gt; yPos, std::vector&lt; double &gt; zPos, const std::vector&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a> &gt; &amp;bField, double lengthUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>, double BFieldUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">UnitConstants::T</a>, bool firstOctant=false)</td></tr>
+<tr class="memitem:ga0a2a24528115e4a19afa750157c52642" id="r_ga0a2a24528115e4a19afa750157c52642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga0a2a24528115e4a19afa750157c52642">fieldMapXYZ</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 3 &gt; binsXYZ, std::array&lt; std::size_t, 3 &gt; nBinsXYZ)&gt; &amp;localToGlobalBin, std::vector&lt; double &gt; xPos, std::vector&lt; double &gt; yPos, std::vector&lt; double &gt; zPos, const std::vector&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &gt; &amp;bField, double lengthUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a>, double BFieldUnit=<a class="el" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">UnitConstants::T</a>, bool firstOctant=false)</td></tr>
 <tr class="memdesc:ga0a2a24528115e4a19afa750157c52642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to set up the FieldMap.  <br /></td></tr>
 <tr class="memitem:a77ed58950d2c88dfa04891d7042b426a" id="r_a77ed58950d2c88dfa04891d7042b426a"><td class="memTemplParams" colspan="2">template&lt;typename T, std::size_t N&gt; </td></tr>
 <tr class="memitem:a77ed58950d2c88dfa04891d7042b426a template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; T, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77ed58950d2c88dfa04891d7042b426a">filledArray</a> (const T &amp;defVal)</td></tr>
@@ -2129,8 +2144,8 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:abcb3220aecf93487a5ec2e1a23a1b625" id="r_abcb3220aecf93487a5ec2e1a23a1b625"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; </td></tr>
 <tr class="memitem:abcb3220aecf93487a5ec2e1a23a1b625 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::pair&lt; typename track_proxy_t::ConstTrackStateProxy, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcb3220aecf93487a5ec2e1a23a1b625">findTrackStateForExtrapolation</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoContext, const track_proxy_t &amp;track, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;referenceSurface, <a class="el" href="#a086febf882ea487434374ef548a90661">TrackExtrapolationStrategy</a> strategy, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger= *<a class="el" href="#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;TrackExtrapolation&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:abcb3220aecf93487a5ec2e1a23a1b625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a track state for extrapolation.  <br /></td></tr>
-<tr class="memitem:a76da3358e590b2f7561bce0ed3bc3a41" id="r_a76da3358e590b2f7561bce0ed3bc3a41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76da3358e590b2f7561bce0ed3bc3a41">freeToSphericalDirectionJacobian</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction)</td></tr>
-<tr class="memdesc:a76da3358e590b2f7561bce0ed3bc3a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for free to spherical direction vector transformation.  <br /></td></tr>
+<tr class="memitem:ae5f6661b3b21a87f2e174dde11c3bff2" id="r_ae5f6661b3b21a87f2e174dde11c3bff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f6661b3b21a87f2e174dde11c3bff2">freeToSphericalDirectionJacobian</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction)</td></tr>
+<tr class="memdesc:ae5f6661b3b21a87f2e174dde11c3bff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for free to spherical direction vector transformation.  <br /></td></tr>
 <tr class="memitem:ga6aaf7d1fd1b61101aeb7f6e35e642781" id="r_ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga6aaf7d1fd1b61101aeb7f6e35e642781">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
 <tr class="memdesc:ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to BinningData.  <br /></td></tr>
 <tr class="memitem:ga6aa02daa239b9da9ab61a7d5a330bfc1" id="r_ga6aa02daa239b9da9ab61a7d5a330bfc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga6aa02daa239b9da9ab61a7d5a330bfc1">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu)</td></tr>
@@ -2164,7 +2179,7 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memdesc:a9b4dee934b0b193d57604b19bc8cd527"><td class="mdescLeft">&#160;</td><td class="mdescRight">get default debug output logger  <br /></td></tr>
 <tr class="memitem:ac3958b2d3af64792cac019893486c394" id="r_ac3958b2d3af64792cac019893486c394"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3958b2d3af64792cac019893486c394">getDummyLogger</a> ()</td></tr>
 <tr class="memdesc:ac3958b2d3af64792cac019893486c394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a dummy logger that discards all output.  <br /></td></tr>
-<tr class="memitem:a4415f5f0dacad71be15d93860d45750e" id="r_a4415f5f0dacad71be15d93860d45750e"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4415f5f0dacad71be15d93860d45750e">globalToLocalFromBin</a> (<a class="el" href="#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a> &amp;<a class="el" href="struct_acts_1_1_remove_pointer.html">type</a>)</td></tr>
+<tr class="memitem:a4415f5f0dacad71be15d93860d45750e" id="r_a4415f5f0dacad71be15d93860d45750e"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4415f5f0dacad71be15d93860d45750e">globalToLocalFromBin</a> (<a class="el" href="#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a> &amp;<a class="el" href="struct_acts_1_1_remove_pointer.html">type</a>)</td></tr>
 <tr class="memdesc:a4415f5f0dacad71be15d93860d45750e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a function that return the coordinate corresponding to type of bin  <br /></td></tr>
 <tr class="memitem:a6e446526e27c813da589b5e2bc1a874c" id="r_a6e446526e27c813da589b5e2bc1a874c"><td class="memTemplParams" colspan="2">template&lt;typename T, class... Axes&gt; </td></tr>
 <tr class="memitem:a6e446526e27c813da589b5e2bc1a874c template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e446526e27c813da589b5e2bc1a874c">Grid</a> (<a class="el" href="struct_acts_1_1_type_tag.html">TypeTag</a>&lt; T &gt;, Axes &amp;&amp;... axes) -&gt; Grid&lt; T, Axes... &gt;</td></tr>
@@ -2186,9 +2201,9 @@ requires (FullSize &lt;= 8)</td></tr>
 requires (Concepts::interpolatable&lt;T, Point1, Point2, Point3&gt;)</td></tr>
 <tr class="memitem:a3caf69a4c80cf869115afbab91cd8163 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3caf69a4c80cf869115afbab91cd8163">interpolate</a> (const Point1 &amp;position, const Point2 &amp;lowerCorner, const Point3 &amp;upperCorner, const std::array&lt; T, N &gt; &amp;values)</td></tr>
 <tr class="memdesc:a3caf69a4c80cf869115afbab91cd8163"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs linear interpolation inside a hyper box  <br /></td></tr>
-<tr class="memitem:a94a8f9b03ea4540ab29e8d70330fa7f0" id="r_a94a8f9b03ea4540ab29e8d70330fa7f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a8f9b03ea4540ab29e8d70330fa7f0">isBoundVectorValid</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;v, bool validateAngleRange, double epsilon=1e-6, double maxAbsEta=std::numeric_limits&lt; double &gt;::infinity())</td></tr>
+<tr class="memitem:a94a8f9b03ea4540ab29e8d70330fa7f0" id="r_a94a8f9b03ea4540ab29e8d70330fa7f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a8f9b03ea4540ab29e8d70330fa7f0">isBoundVectorValid</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;v, bool validateAngleRange, double epsilon=1e-6, double maxAbsEta=std::numeric_limits&lt; double &gt;::infinity())</td></tr>
 <tr class="memdesc:a94a8f9b03ea4540ab29e8d70330fa7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a bound vector is valid.  <br /></td></tr>
-<tr class="memitem:abe77e44cea219bce9c03f8b2344bebaa" id="r_abe77e44cea219bce9c03f8b2344bebaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe77e44cea219bce9c03f8b2344bebaa">isFreeVectorValid</a> (const <a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> &amp;v, double epsilon=1e-6, double maxAbsEta=std::numeric_limits&lt; double &gt;::infinity())</td></tr>
+<tr class="memitem:abe77e44cea219bce9c03f8b2344bebaa" id="r_abe77e44cea219bce9c03f8b2344bebaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe77e44cea219bce9c03f8b2344bebaa">isFreeVectorValid</a> (const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;v, double epsilon=1e-6, double maxAbsEta=std::numeric_limits&lt; double &gt;::infinity())</td></tr>
 <tr class="memdesc:abe77e44cea219bce9c03f8b2344bebaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a free vector is valid.  <br /></td></tr>
 <tr class="memitem:a0dad26c0de75201a5b5d1fe7ce6c88e3" id="r_a0dad26c0de75201a5b5d1fe7ce6c88e3"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dad26c0de75201a5b5d1fe7ce6c88e3">isNucleus</a> (<a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> pdg)</td></tr>
 <tr class="memdesc:a0dad26c0de75201a5b5d1fe7ce6c88e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the PDG belongs to a nucleus, i.e.  <br /></td></tr>
@@ -2249,9 +2264,9 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:a424d9f0cd5324b8c7aa9b7d108626772" id="r_a424d9f0cd5324b8c7aa9b7d108626772"><td class="memTemplParams" colspan="2">template&lt;typename payload_t&gt; </td></tr>
 <tr class="memitem:a424d9f0cd5324b8c7aa9b7d108626772 template"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_grid.html">IGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424d9f0cd5324b8c7aa9b7d108626772">makeGrid</a> (const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;a, const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;b)</td></tr>
 <tr class="memdesc:a424d9f0cd5324b8c7aa9b7d108626772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create a 2D grid from a two proto axes.  <br /></td></tr>
-<tr class="memitem:ga5867649c2811a2b164af6e62f4ee6d8c" id="r_ga5867649c2811a2b164af6e62f4ee6d8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga5867649c2811a2b164af6e62f4ee6d8c">makeMagneticFieldMapRzFromText</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 2 &gt; binsRZ, std::array&lt; std::size_t, 2 &gt; nBinsRZ)&gt; &amp;localToGlobalBin, const std::string &amp;fieldMapFile, double lengthUnit, double BFieldUnit, bool firstQuadrant=false, const std::string &amp;delimiter=&quot;&quot;)</td></tr>
+<tr class="memitem:ga5867649c2811a2b164af6e62f4ee6d8c" id="r_ga5867649c2811a2b164af6e62f4ee6d8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga5867649c2811a2b164af6e62f4ee6d8c">makeMagneticFieldMapRzFromText</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 2 &gt; binsRZ, std::array&lt; std::size_t, 2 &gt; nBinsRZ)&gt; &amp;localToGlobalBin, const std::string &amp;fieldMapFile, double lengthUnit, double BFieldUnit, bool firstQuadrant=false, const std::string &amp;delimiter=&quot;&quot;)</td></tr>
 <tr class="memdesc:ga5867649c2811a2b164af6e62f4ee6d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to set up the FieldMapper.  <br /></td></tr>
-<tr class="memitem:ga3baad317424227151687cad974537339" id="r_ga3baad317424227151687cad974537339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga3baad317424227151687cad974537339">makeMagneticFieldMapXyzFromText</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 3 &gt; binsXYZ, std::array&lt; std::size_t, 3 &gt; nBinsXYZ)&gt; &amp;localToGlobalBin, const std::string &amp;fieldMapFile, double lengthUnit, double BFieldUnit, bool firstOctant=false, const std::string &amp;delimiter=&quot;&quot;)</td></tr>
+<tr class="memitem:ga3baad317424227151687cad974537339" id="r_ga3baad317424227151687cad974537339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga3baad317424227151687cad974537339">makeMagneticFieldMapXyzFromText</a> (const std::function&lt; std::size_t(std::array&lt; std::size_t, 3 &gt; binsXYZ, std::array&lt; std::size_t, 3 &gt; nBinsXYZ)&gt; &amp;localToGlobalBin, const std::string &amp;fieldMapFile, double lengthUnit, double BFieldUnit, bool firstOctant=false, const std::string &amp;delimiter=&quot;&quot;)</td></tr>
 <tr class="memdesc:ga3baad317424227151687cad974537339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to set up the FieldMapper.  <br /></td></tr>
 <tr class="memitem:aba9e1010998ed0a39553174f81cc6c3c" id="r_aba9e1010998ed0a39553174f81cc6c3c"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba9e1010998ed0a39553174f81cc6c3c">makeNucleusGroundState</a> (<a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> pdg)</td></tr>
 <tr class="memdesc:aba9e1010998ed0a39553174f81cc6c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an excited nucleus to its ground state.  <br /></td></tr>
@@ -2272,7 +2287,7 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:gac8895b284676062f1c0bf5f6466a507d" id="r_gac8895b284676062f1c0bf5f6466a507d"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>NLOHMANN_JSON_SERIALIZE_ENUM</b> (<a class="el" href="#acbcb835a6b809a5f8606de4b53455807">Acts::MappingType</a>, { {Acts::MappingType::PreMapping, &quot;PreMapping&quot;}, {Acts::MappingType::Default, &quot;Default&quot;}, {Acts::MappingType::PostMapping, &quot;PostMapping&quot;}, {Acts::MappingType::Sensor, &quot;Sensor&quot;}, }) namespace MaterialJsonConverter</td></tr>
 <tr class="memdesc:gac8895b284676062f1c0bf5f6466a507d"><td class="mdescLeft">&#160;</td><td class="mdescRight">JSON serialization mapping for MappingType enum. <br /></td></tr>
-<tr class="memitem:a52e4174147933a017fd8663abf8ae740" id="r_a52e4174147933a017fd8663abf8ae740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e4174147933a017fd8663abf8ae740">normalizeBoundParameters</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;boundParams)</td></tr>
+<tr class="memitem:a52e4174147933a017fd8663abf8ae740" id="r_a52e4174147933a017fd8663abf8ae740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e4174147933a017fd8663abf8ae740">normalizeBoundParameters</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams)</td></tr>
 <tr class="memdesc:a52e4174147933a017fd8663abf8ae740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize the bound parameter angles.  <br /></td></tr>
 <tr class="memitem:a297fc9345930e9e61a5771aad5dc17c5" id="r_a297fc9345930e9e61a5771aad5dc17c5"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a297fc9345930e9e61a5771aad5dc17c5">numAxisDirections</a> ()</td></tr>
 <tr class="memdesc:a297fc9345930e9e61a5771aad5dc17c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of axis directions.  <br /></td></tr>
@@ -2369,9 +2384,9 @@ template&lt;class... Ts&gt; </td></tr>
 <tr class="memdesc:ga5bdb130b59461a2bcaf2c18eee161341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Very simple mixture reduction method: Just removes the components with the smallest weight until the required number of components is reached.  <br /></td></tr>
 <tr class="memitem:ga2d42e87cd0bd4eb9a52fa04db44f033d" id="r_ga2d42e87cd0bd4eb9a52fa04db44f033d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d">reduceMixtureWithKLDistance</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;cmpCache, std::size_t maxCmpsAfterMerge, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:ga2d42e87cd0bd4eb9a52fa04db44f033d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greedy component reduction algorithm.  <br /></td></tr>
-<tr class="memitem:a448dd6193a51777a8b7c05bb1a5630eb" id="r_a448dd6193a51777a8b7c05bb1a5630eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448dd6193a51777a8b7c05bb1a5630eb">reflectBoundParameters</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;boundParams)</td></tr>
+<tr class="memitem:a448dd6193a51777a8b7c05bb1a5630eb" id="r_a448dd6193a51777a8b7c05bb1a5630eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448dd6193a51777a8b7c05bb1a5630eb">reflectBoundParameters</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams)</td></tr>
 <tr class="memdesc:a448dd6193a51777a8b7c05bb1a5630eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reflect bound track parameters.  <br /></td></tr>
-<tr class="memitem:a13a84cd96d8549b4be2395a91041f6cf" id="r_a13a84cd96d8549b4be2395a91041f6cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13a84cd96d8549b4be2395a91041f6cf">reflectFreeParameters</a> (const <a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> &amp;freeParams)</td></tr>
+<tr class="memitem:a13a84cd96d8549b4be2395a91041f6cf" id="r_a13a84cd96d8549b4be2395a91041f6cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13a84cd96d8549b4be2395a91041f6cf">reflectFreeParameters</a> (const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;freeParams)</td></tr>
 <tr class="memdesc:a13a84cd96d8549b4be2395a91041f6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reflect free track parameters.  <br /></td></tr>
 <tr class="memitem:ac74ee49f1e16ede102272f390974153b" id="r_ac74ee49f1e16ede102272f390974153b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ac74ee49f1e16ede102272f390974153b template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac74ee49f1e16ede102272f390974153b">safeExp</a> (T val) noexcept</td></tr>
@@ -2389,14 +2404,14 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:aa55a3919271931efb60a076dc3a7bf8c" id="r_aa55a3919271931efb60a076dc3a7bf8c"><td class="memTemplParams" colspan="2">template&lt;TrackContainerFrontend track_container_t&gt; </td></tr>
 <tr class="memitem:aa55a3919271931efb60a076dc3a7bf8c template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa55a3919271931efb60a076dc3a7bf8c">smoothTracks</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoContext, const track_container_t &amp;trackContainer, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger= *<a class="el" href="#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;TrackSmoother&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:aa55a3919271931efb60a076dc3a7bf8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smooth tracks using the gain matrix smoother.  <br /></td></tr>
-<tr class="memitem:ga5036eb1d51177fbb2503f1dc623d197b" id="r_ga5036eb1d51177fbb2503f1dc623d197b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga5036eb1d51177fbb2503f1dc623d197b">solenoidFieldMap</a> (const std::pair&lt; double, double &gt; &amp;rLim, const std::pair&lt; double, double &gt; &amp;zLim, const std::pair&lt; std::size_t, std::size_t &gt; &amp;nBins, const <a class="el" href="class_acts_1_1_solenoid_b_field.html">SolenoidBField</a> &amp;field)</td></tr>
+<tr class="memitem:ga5036eb1d51177fbb2503f1dc623d197b" id="r_ga5036eb1d51177fbb2503f1dc623d197b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga5036eb1d51177fbb2503f1dc623d197b">solenoidFieldMap</a> (const std::pair&lt; double, double &gt; &amp;rLim, const std::pair&lt; double, double &gt; &amp;zLim, const std::pair&lt; std::size_t, std::size_t &gt; &amp;nBins, const <a class="el" href="class_acts_1_1_solenoid_b_field.html">SolenoidBField</a> &amp;field)</td></tr>
 <tr class="memdesc:ga5036eb1d51177fbb2503f1dc623d197b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function which takes an existing SolenoidBField instance and creates a field mapper by sampling grid points from the analytical solenoid field.  <br /></td></tr>
-<tr class="memitem:a7f3025a1035f83082b5d5bc164041ae7" id="r_a7f3025a1035f83082b5d5bc164041ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; 3, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f3025a1035f83082b5d5bc164041ae7">sphericalToFreeDirectionJacobian</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction)</td></tr>
-<tr class="memdesc:a7f3025a1035f83082b5d5bc164041ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for spherical to free direction vector transformation.  <br /></td></tr>
+<tr class="memitem:a399512421c6c002cc4eaba1fe5b08765" id="r_a399512421c6c002cc4eaba1fe5b08765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399512421c6c002cc4eaba1fe5b08765">sphericalToFreeDirectionJacobian</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction)</td></tr>
+<tr class="memdesc:a399512421c6c002cc4eaba1fe5b08765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for spherical to free direction vector transformation.  <br /></td></tr>
 <tr class="memitem:a838abb77213dd8944857456b1e506b02" id="r_a838abb77213dd8944857456b1e506b02"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a838abb77213dd8944857456b1e506b02 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a838abb77213dd8944857456b1e506b02">square</a> (T x)</td></tr>
 <tr class="memdesc:a838abb77213dd8944857456b1e506b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the passed number.  <br /></td></tr>
-<tr class="memitem:a263c06f4eb074079421fd6fefe19a873" id="r_a263c06f4eb074079421fd6fefe19a873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a263c06f4eb074079421fd6fefe19a873">subtractBoundParameters</a> (const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;lhs, const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;rhs)</td></tr>
+<tr class="memitem:a263c06f4eb074079421fd6fefe19a873" id="r_a263c06f4eb074079421fd6fefe19a873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a263c06f4eb074079421fd6fefe19a873">subtractBoundParameters</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;lhs, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;rhs)</td></tr>
 <tr class="memdesc:a263c06f4eb074079421fd6fefe19a873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtract bound parameters and take care of angle periodicity for phi and theta.  <br /></td></tr>
 <tr class="memitem:ad66d0dd0baa4fbbc5e1bdbe45a311bd6" id="r_ad66d0dd0baa4fbbc5e1bdbe45a311bd6"><td class="memTemplParams" colspan="2">template&lt;std::integral T&gt; </td></tr>
 <tr class="memitem:ad66d0dd0baa4fbbc5e1bdbe45a311bd6 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">sumUpToN</a> (const T N)</td></tr>
@@ -2460,9 +2475,9 @@ requires (N &gt; 1)</td></tr>
 <tr class="memdesc:af63cae486ae37da877b7ec92f7a74f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a vector to a fixed-size array with truncating or padding.  <br /></td></tr>
 <tr class="memitem:ga0d44dfc16a076ea3977b8d4632e0bd71" id="r_ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga0d44dfc16a076ea3977b8d4632e0bd71">toJson</a> (nlohmann::json &amp;j, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx)</td></tr>
 <tr class="memdesc:ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface.  <br /></td></tr>
-<tr class="memitem:gae38700fee90a4c8ab0d356d752277dfe" id="r_gae38700fee90a4c8ab0d356d752277dfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#gae38700fee90a4c8ab0d356d752277dfe">toroidFieldMapCyl</a> (const std::pair&lt; double, double &gt; &amp;rLim, const std::pair&lt; double, double &gt; &amp;phiLim, const std::pair&lt; double, double &gt; &amp;zLim, const std::tuple&lt; std::size_t, std::size_t, std::size_t &gt; &amp;nBins, const <a class="el" href="class_acts_1_1_toroid_field.html">ToroidField</a> &amp;field)</td></tr>
+<tr class="memitem:gae38700fee90a4c8ab0d356d752277dfe" id="r_gae38700fee90a4c8ab0d356d752277dfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#gae38700fee90a4c8ab0d356d752277dfe">toroidFieldMapCyl</a> (const std::pair&lt; double, double &gt; &amp;rLim, const std::pair&lt; double, double &gt; &amp;phiLim, const std::pair&lt; double, double &gt; &amp;zLim, const std::tuple&lt; std::size_t, std::size_t, std::size_t &gt; &amp;nBins, const <a class="el" href="class_acts_1_1_toroid_field.html">ToroidField</a> &amp;field)</td></tr>
 <tr class="memdesc:gae38700fee90a4c8ab0d356d752277dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function which takes an existing ToroidField instance and creates a cylindrical field mapper by sampling grid points from the analytical toroidal field.  <br /></td></tr>
-<tr class="memitem:ga7288826fcbf611555f7f95904dfcab57" id="r_ga7288826fcbf611555f7f95904dfcab57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga7288826fcbf611555f7f95904dfcab57">toroidFieldMapXYZ</a> (const std::pair&lt; double, double &gt; &amp;xLim, const std::pair&lt; double, double &gt; &amp;yLim, const std::pair&lt; double, double &gt; &amp;zLim, const std::tuple&lt; std::size_t, std::size_t, std::size_t &gt; &amp;nBins, const <a class="el" href="class_acts_1_1_toroid_field.html">ToroidField</a> &amp;field)</td></tr>
+<tr class="memitem:ga7288826fcbf611555f7f95904dfcab57" id="r_ga7288826fcbf611555f7f95904dfcab57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_interpolated_b_field_map.html">Acts::InterpolatedBFieldMap</a>&lt; <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt;, <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">Acts::AxisType::Equidistant</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__magnetic__field.html#ga7288826fcbf611555f7f95904dfcab57">toroidFieldMapXYZ</a> (const std::pair&lt; double, double &gt; &amp;xLim, const std::pair&lt; double, double &gt; &amp;yLim, const std::pair&lt; double, double &gt; &amp;zLim, const std::tuple&lt; std::size_t, std::size_t, std::size_t &gt; &amp;nBins, const <a class="el" href="class_acts_1_1_toroid_field.html">ToroidField</a> &amp;field)</td></tr>
 <tr class="memdesc:ga7288826fcbf611555f7f95904dfcab57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function which takes an existing ToroidField instance and creates a Cartesian field mapper by sampling grid points from the analytical toroidal field.  <br /></td></tr>
 <tr class="memitem:a9a4d2dc77ae0f047a17aa6a9af7f97b6" id="r_a9a4d2dc77ae0f047a17aa6a9af7f97b6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a4d2dc77ae0f047a17aa6a9af7f97b6">toString</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;transform, int precision=4, const std::string &amp;offset=&quot;&quot;)</td></tr>
 <tr class="memdesc:a9a4d2dc77ae0f047a17aa6a9af7f97b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out a transform in a structured way.  <br /></td></tr>
@@ -2485,7 +2500,7 @@ requires (N &gt; 1)</td></tr>
 <tr class="memitem:ad41840b27b2e48680e78ca36d14dfcf1" id="r_ad41840b27b2e48680e78ca36d14dfcf1"><td class="memTemplParams" colspan="2">template&lt;TrackContainerBackend track_container_t, typename traj_t&gt; </td></tr>
 <tr class="memitem:ad41840b27b2e48680e78ca36d14dfcf1 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad41840b27b2e48680e78ca36d14dfcf1">TrackContainer</a> (track_container_t &amp;container, traj_t &amp;traj) -&gt; TrackContainer&lt; track_container_t, traj_t, <a class="el" href="struct_acts_1_1_ref_holder.html">RefHolder</a> &gt;</td></tr>
 <tr class="memdesc:ad41840b27b2e48680e78ca36d14dfcf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction guide for TrackContainer with lvalue references.  <br /></td></tr>
-<tr class="memitem:ad9f59a5d52f546c1b662706a19fa5f42" id="r_ad9f59a5d52f546c1b662706a19fa5f42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9f59a5d52f546c1b662706a19fa5f42">transformBoundToFreeParameters</a> (const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;boundParams)</td></tr>
+<tr class="memitem:ad9f59a5d52f546c1b662706a19fa5f42" id="r_ad9f59a5d52f546c1b662706a19fa5f42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9f59a5d52f546c1b662706a19fa5f42">transformBoundToFreeParameters</a> (const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams)</td></tr>
 <tr class="memdesc:ad9f59a5d52f546c1b662706a19fa5f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform bound track parameters into equivalent free track parameters.  <br /></td></tr>
 <tr class="memitem:a03e61ea4aa32eba6186f7b1151eab506" id="r_a03e61ea4aa32eba6186f7b1151eab506"><td class="memTemplParams" colspan="2">template&lt;typename external_spacepoint_t, typename callable_t&gt; </td></tr>
 <tr class="memitem:a03e61ea4aa32eba6186f7b1151eab506 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03e61ea4aa32eba6186f7b1151eab506">transformCoordinates</a> (<a class="el" href="class_acts_1_1_space_point_mutable_data.html">Acts::SpacePointMutableData</a> &amp;mutableData, const external_spacepoint_t &amp;sp, const external_spacepoint_t &amp;spM, bool bottom, callable_t &amp;&amp;extractFunction)</td></tr>
@@ -2493,13 +2508,13 @@ requires (N &gt; 1)</td></tr>
 <tr class="memitem:ac6f70f8d70a4d580df9fb45724d40b82" id="r_ac6f70f8d70a4d580df9fb45724d40b82"><td class="memTemplParams" colspan="2">template&lt;typename external_spacepoint_t&gt; </td></tr>
 <tr class="memitem:ac6f70f8d70a4d580df9fb45724d40b82 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f70f8d70a4d580df9fb45724d40b82">transformCoordinates</a> (<a class="el" href="class_acts_1_1_space_point_mutable_data.html">Acts::SpacePointMutableData</a> &amp;mutableData, const std::vector&lt; const external_spacepoint_t * &gt; &amp;vec, const external_spacepoint_t &amp;spM, bool bottom, std::vector&lt; <a class="el" href="struct_acts_1_1_lin_circle.html">LinCircle</a> &gt; &amp;linCircleVec)</td></tr>
 <tr class="memdesc:ac6f70f8d70a4d580df9fb45724d40b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform a vector of spacepoints to u-v space circles with respect to a given middle spacepoint.  <br /></td></tr>
-<tr class="memitem:a68a45911e56331406f861490dc249b1c" id="r_a68a45911e56331406f861490dc249b1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68a45911e56331406f861490dc249b1c">transformFreeToBoundParameters</a> (const <a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> &amp;freeParams, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, double tolerance=<a class="el" href="#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
+<tr class="memitem:a68a45911e56331406f861490dc249b1c" id="r_a68a45911e56331406f861490dc249b1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68a45911e56331406f861490dc249b1c">transformFreeToBoundParameters</a> (const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;freeParams, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, double tolerance=<a class="el" href="#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
 <tr class="memdesc:a68a45911e56331406f861490dc249b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert free track parameters to bound track parameters.  <br /></td></tr>
-<tr class="memitem:ae82c7a6d9af871513fdea936d657a12d" id="r_ae82c7a6d9af871513fdea936d657a12d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae82c7a6d9af871513fdea936d657a12d">transformFreeToBoundParameters</a> (const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;position, double time, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction, double qOverP, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, double tolerance=<a class="el" href="#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
+<tr class="memitem:ae82c7a6d9af871513fdea936d657a12d" id="r_ae82c7a6d9af871513fdea936d657a12d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae82c7a6d9af871513fdea936d657a12d">transformFreeToBoundParameters</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, double time, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, double qOverP, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoCtx, double tolerance=<a class="el" href="#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
 <tr class="memdesc:ae82c7a6d9af871513fdea936d657a12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert position and direction to bound track parameters.  <br /></td></tr>
-<tr class="memitem:a75b7d632126d8eca83e972e0a282ffa1" id="r_a75b7d632126d8eca83e972e0a282ffa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b7d632126d8eca83e972e0a282ffa1">transformFreeToCurvilinearParameters</a> (double time, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;direction, double qOverP)</td></tr>
+<tr class="memitem:a75b7d632126d8eca83e972e0a282ffa1" id="r_a75b7d632126d8eca83e972e0a282ffa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b7d632126d8eca83e972e0a282ffa1">transformFreeToCurvilinearParameters</a> (double time, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, double qOverP)</td></tr>
 <tr class="memdesc:a75b7d632126d8eca83e972e0a282ffa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert direction to curvilinear track parameters.  <br /></td></tr>
-<tr class="memitem:a0df692764710bba740096a20fd161cf0" id="r_a0df692764710bba740096a20fd161cf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0df692764710bba740096a20fd161cf0">transformFreeToCurvilinearParameters</a> (double time, double phi, double theta, double qOverP)</td></tr>
+<tr class="memitem:a0df692764710bba740096a20fd161cf0" id="r_a0df692764710bba740096a20fd161cf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0df692764710bba740096a20fd161cf0">transformFreeToCurvilinearParameters</a> (double time, double phi, double theta, double qOverP)</td></tr>
 <tr class="memdesc:a0df692764710bba740096a20fd161cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert direction angles to curvilinear track parameters.  <br /></td></tr>
 <tr class="memitem:a6e6d2189fe95760f3a86d6ebe3b9c4c5" id="r_a6e6d2189fe95760f3a86d6ebe3b9c4c5"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t&gt; <br />
 requires (!track_proxy_t::ReadOnly)</td></tr>
@@ -2647,54 +2662,6 @@ constexpr <a class="el" href="#aa009e51d59c1a881d343ba0f9fcacbbc">Envelope</a>&#
 <div class="textblock"><p>The main namespace encompassing all ACTS code. </p>
 <dl class="section note"><dt>Note</dt><dd>This file is foreseen for the <span class="tt">Geometry</span> module to replace <span class="tt">Extent</span> </dd></dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="acb25019f1218b9a96b29f897dfc5be7f" name="acb25019f1218b9a96b29f897dfc5be7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb25019f1218b9a96b29f897dfc5be7f">&#9670;&#160;</a></span>ActsSquareMatrix <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned int kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fixed-size square matrix type for NxN matrices. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">kSize</td><td>The dimension of the square matrix </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="acb25019f1218b9a96b29f897dfc5be7f" name="acb25019f1218b9a96b29f897dfc5be7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb25019f1218b9a96b29f897dfc5be7f">&#9670;&#160;</a></span>ActsSquareMatrix <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;unsigned int kSize&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">Acts::ActsSquareMatrix</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fixed-size square matrix type for NxN matrices. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">kSize</td><td>The dimension of the square matrix </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="abe4f9e4a5e3fd2a023039cbfec3ef858" name="abe4f9e4a5e3fd2a023039cbfec3ef858"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe4f9e4a5e3fd2a023039cbfec3ef858">&#9670;&#160;</a></span>const_if_t</h2>
 
@@ -2970,6 +2937,31 @@ template&lt;std::size_t SubspaceSize&gt; </div>
 
 </div>
 </div>
+<a id="a6601cf34fab9264b809ec0bc9364048d" name="a6601cf34fab9264b809ec0bc9364048d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6601cf34fab9264b809ec0bc9364048d">&#9670;&#160;</a></span>Matrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int kRows, unsigned int kCols&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Acts::Matrix</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fixed-size matrix type for NxM matrices. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">kRows</td><td>Number of rows </td></tr>
+    <tr><td class="paramname">kCols</td><td>Number of columns </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a4db7019218e46140392e9e7c6061081c" name="a4db7019218e46140392e9e7c6061081c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4db7019218e46140392e9e7c6061081c">&#9670;&#160;</a></span>MaxMomentumReducerLoop</h2>
 
@@ -3211,7 +3203,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, template&lt; typename, std::size_t &gt; typename Vector = std::array&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a81478db625a7b35501d5f651f5d1d4fd">Acts::Range1D</a> = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;1, <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, Vector&gt;</td>
+          <td class="memname">using <a class="el" href="#a81478db625a7b35501d5f651f5d1d4fd">Acts::Range1D</a> = <a class="el" href="class_acts_1_1_range_x_d.html">RangeXD</a>&lt;1, <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Type</a>, <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3491,6 +3483,78 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 
 </div>
 </div>
+<a id="aedd227e590be3a9c43c10d6654022b77" name="aedd227e590be3a9c43c10d6654022b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd227e590be3a9c43c10d6654022b77">&#9670;&#160;</a></span>SquareMatrix <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int kSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">Acts::SquareMatrix</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fixed-size square matrix type for NxN matrices. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">kSize</td><td>The dimension of the square matrix </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aedd227e590be3a9c43c10d6654022b77" name="aedd227e590be3a9c43c10d6654022b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd227e590be3a9c43c10d6654022b77">&#9670;&#160;</a></span>SquareMatrix <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int kSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">Acts::SquareMatrix</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fixed-size square matrix type for NxN matrices. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">kSize</td><td>The dimension of the square matrix </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aedd227e590be3a9c43c10d6654022b77" name="aedd227e590be3a9c43c10d6654022b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd227e590be3a9c43c10d6654022b77">&#9670;&#160;</a></span>SquareMatrix <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int kSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">Acts::SquareMatrix</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fixed-size square matrix type for NxN matrices. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">kSize</td><td>The dimension of the square matrix </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a884d99e12205bfc04d2cc2a8501a3a39" name="a884d99e12205bfc04d2cc2a8501a3a39"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a884d99e12205bfc04d2cc2a8501a3a39">&#9670;&#160;</a></span>SurfaceMatcher</h2>
 
@@ -3583,7 +3647,7 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#adf2d7adffd50e2d6dd1dbeb65fb658ed">Acts::TrackingVolumeOrderPosition</a> = std::pair&lt;<a class="el" href="#a2d207ef0f7109becc8fba98cb145ed9d">TrackingVolumePtr</a>, <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#adf2d7adffd50e2d6dd1dbeb65fb658ed">Acts::TrackingVolumeOrderPosition</a> = std::pair&lt;<a class="el" href="#a2d207ef0f7109becc8fba98cb145ed9d">TrackingVolumePtr</a>, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3653,6 +3717,30 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 </div><!-- fragment -->
 <p>Helper type for variable-size bound parameter subspaces. </p>
 <p>Provides utilities for working with variable-size subspaces of bound track parameters. </p>
+
+</div>
+</div>
+<a id="a5fb69f475a7d72c8214332057c3135d5" name="a5fb69f475a7d72c8214332057c3135d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb69f475a7d72c8214332057c3135d5">&#9670;&#160;</a></span>Vector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;unsigned int kSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Acts::Vector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fixed-size vector type for N-dimensional vectors. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">kSize</td><td>The dimension of the vector </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -4315,14 +4403,14 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::addBoundParameters </td>
+          <td class="memname"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> Acts::addBoundParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lhs</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lhs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5172,8 +5260,8 @@ template&lt;typename MatrixType&gt; </div>
 
 </div>
 </div>
-<a id="a37d4a4f8919f71e49c4136b1a5877125" name="a37d4a4f8919f71e49c4136b1a5877125"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37d4a4f8919f71e49c4136b1a5877125">&#9670;&#160;</a></span>blockedMult()</h2>
+<a id="a1142658554f401928053b764adb7bcc7" name="a1142658554f401928053b764adb7bcc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1142658554f401928053b764adb7bcc7">&#9670;&#160;</a></span>blockedMult()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5181,7 +5269,7 @@ template&lt;typename MatrixType&gt; </div>
 template&lt;typename A, typename B&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; A::RowsAtCompileTime, B::ColsAtCompileTime &gt; Acts::blockedMult </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; A::RowsAtCompileTime, B::ColsAtCompileTime &gt; Acts::blockedMult </td>
           <td>(</td>
           <td class="paramtype">const A &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -5246,8 +5334,8 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 
 </div>
 </div>
-<a id="a605d198d063b46f931c36b96948e3f7f" name="a605d198d063b46f931c36b96948e3f7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a605d198d063b46f931c36b96948e3f7f">&#9670;&#160;</a></span>calculateFilteredResidual()</h2>
+<a id="ace59d46d0e289f50f02edc7e64e19846" name="ace59d46d0e289f50f02edc7e64e19846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace59d46d0e289f50f02edc7e64e19846">&#9670;&#160;</a></span>calculateFilteredResidual()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5255,7 +5343,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt; nMeasurementDim &gt; &gt; Acts::calculateFilteredResidual </td>
+          <td class="memname">std::pair&lt; <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; nMeasurementDim &gt; &gt; Acts::calculateFilteredResidual </td>
           <td>(</td>
           <td class="paramtype">track_state_proxy_t</td>          <td class="paramname"><span class="paramname"><em>trackState</em></span></td><td>)</td>
           <td></td>
@@ -5341,8 +5429,8 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 
 </div>
 </div>
-<a id="a912468fb270d9bd53a076eda3ff91d52" name="a912468fb270d9bd53a076eda3ff91d52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a912468fb270d9bd53a076eda3ff91d52">&#9670;&#160;</a></span>calculatePredictedResidual()</h2>
+<a id="a84f331e1aba0cb89d6aa5bc9e8a0c0c9" name="a84f331e1aba0cb89d6aa5bc9e8a0c0c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f331e1aba0cb89d6aa5bc9e8a0c0c9">&#9670;&#160;</a></span>calculatePredictedResidual()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5350,7 +5438,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt; nMeasurementDim &gt; &gt; Acts::calculatePredictedResidual </td>
+          <td class="memname">std::pair&lt; <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; nMeasurementDim &gt; &gt; Acts::calculatePredictedResidual </td>
           <td>(</td>
           <td class="paramtype">track_state_proxy_t</td>          <td class="paramname"><span class="paramname"><em>trackState</em></span></td><td>)</td>
           <td></td>
@@ -5410,8 +5498,8 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 
 </div>
 </div>
-<a id="a5a6a0f03dead89351e61bdd4d0d98dc1" name="a5a6a0f03dead89351e61bdd4d0d98dc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a6a0f03dead89351e61bdd4d0d98dc1">&#9670;&#160;</a></span>calculateSmoothedResidual()</h2>
+<a id="abbe3a7801a7a84cd085e8b0755cf020c" name="abbe3a7801a7a84cd085e8b0755cf020c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe3a7801a7a84cd085e8b0755cf020c">&#9670;&#160;</a></span>calculateSmoothedResidual()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5419,7 +5507,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 template&lt;std::size_t nMeasurementDim, TrackStateProxyConcept track_state_proxy_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="group__algebra__types.html#ga3656dcbf643d97f9dbd715aa9e06bf84">ActsVector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gacb25019f1218b9a96b29f897dfc5be7f">ActsSquareMatrix</a>&lt; nMeasurementDim &gt; &gt; Acts::calculateSmoothedResidual </td>
+          <td class="memname">std::pair&lt; <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt; nMeasurementDim &gt;, <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; nMeasurementDim &gt; &gt; Acts::calculateSmoothedResidual </td>
           <td>(</td>
           <td class="paramtype">track_state_proxy_t</td>          <td class="paramname"><span class="paramname"><em>trackState</em></span></td><td>)</td>
           <td></td>
@@ -5488,7 +5576,7 @@ requires (!track_proxy_t::ReadOnly)</div>
 template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a>, <a class="el" href="#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a> &gt; Acts::calculateUnbiasedParametersCovariance </td>
+          <td class="memname">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; Acts::calculateUnbiasedParametersCovariance </td>
           <td>(</td>
           <td class="paramtype">track_state_proxy_t</td>          <td class="paramname"><span class="paramname"><em>trackState</em></span></td><td>)</td>
           <td></td>
@@ -6211,7 +6299,7 @@ T x U = V
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="group__algebra__types.html#gabb76f2d48e0590ef82a8afaad39a77b5">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>transfoGlobalToLocal</em></span>&#160;)</td>
+          <td class="paramtype">std::function&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a>(<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>transfoGlobalToLocal</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6243,7 +6331,7 @@ T x U = V
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>transfoGlobalToLocal</em></span>&#160;)</td>
+          <td class="paramtype">std::function&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>transfoGlobalToLocal</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6595,14 +6683,14 @@ template&lt;typename container_type, typename index_type = typename std::decay_t
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a40a2ff0a11454e7af0dc0a4bcab7b1b0">BoundMatrix</a> Acts::estimateTrackParamCovariance </td>
+          <td class="memname"><a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> Acts::estimateTrackParamCovariance </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6635,7 +6723,7 @@ template&lt;typename container_type, typename index_type = typename std::decay_t
 template&lt;std::ranges::range spacepoint_range_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &gt; Acts::estimateTrackParamsFromSeed </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt; Acts::estimateTrackParamsFromSeed </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -6652,7 +6740,7 @@ template&lt;std::ranges::range spacepoint_range_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6686,24 +6774,24 @@ template&lt;std::ranges::range spacepoint_range_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> Acts::estimateTrackParamsFromSeed </td>
+          <td class="memname"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> Acts::estimateTrackParamsFromSeed </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp0</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp0</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp1</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp1</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp2</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp2</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6740,14 +6828,14 @@ template&lt;std::ranges::range spacepoint_range_t&gt; </div>
 template&lt;std::ranges::range spacepoint_range_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> Acts::estimateTrackParamsFromSeed </td>
+          <td class="memname"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> Acts::estimateTrackParamsFromSeed </td>
           <td>(</td>
           <td class="paramtype">spacepoint_range_t</td>          <td class="paramname"><span class="paramname"><em>spRange</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -7380,16 +7468,16 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
 
 </div>
 </div>
-<a id="a76da3358e590b2f7561bce0ed3bc3a41" name="a76da3358e590b2f7561bce0ed3bc3a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76da3358e590b2f7561bce0ed3bc3a41">&#9670;&#160;</a></span>freeToSphericalDirectionJacobian()</h2>
+<a id="ae5f6661b3b21a87f2e174dde11c3bff2" name="ae5f6661b3b21a87f2e174dde11c3bff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f6661b3b21a87f2e174dde11c3bff2">&#9670;&#160;</a></span>freeToSphericalDirectionJacobian()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; 2, 3 &gt; Acts::freeToSphericalDirectionJacobian </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 2, 3 &gt; Acts::freeToSphericalDirectionJacobian </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -7476,7 +7564,7 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; double(<a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Acts::Vector3</a>)&gt; Acts::globalToLocalFromBin </td>
+          <td class="memname">std::function&lt; double(<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>)&gt; Acts::globalToLocalFromBin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
@@ -7778,7 +7866,7 @@ requires (Concepts::interpolatable&lt;T, Point1, Point2, Point3&gt;)</div>
         <tr>
           <td class="memname">bool Acts::isBoundVectorValid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -7826,7 +7914,7 @@ requires (Concepts::interpolatable&lt;T, Point1, Point2, Point3&gt;)</div>
         <tr>
           <td class="memname">bool Acts::isFreeVectorValid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -8739,9 +8827,9 @@ template&lt;typename Derived&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::normalizeBoundParameters </td>
+          <td class="memname"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> Acts::normalizeBoundParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundParams</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundParams</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -10075,9 +10163,9 @@ template&lt;typename R, typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::reflectBoundParameters </td>
+          <td class="memname"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> Acts::reflectBoundParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundParams</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundParams</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -10101,9 +10189,9 @@ template&lt;typename R, typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> Acts::reflectFreeParameters </td>
+          <td class="memname"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> Acts::reflectFreeParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>freeParams</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>freeParams</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -10340,16 +10428,16 @@ template&lt;TrackContainerFrontend track_container_t&gt; </div>
 
 </div>
 </div>
-<a id="a7f3025a1035f83082b5d5bc164041ae7" name="a7f3025a1035f83082b5d5bc164041ae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f3025a1035f83082b5d5bc164041ae7">&#9670;&#160;</a></span>sphericalToFreeDirectionJacobian()</h2>
+<a id="a399512421c6c002cc4eaba1fe5b08765" name="a399512421c6c002cc4eaba1fe5b08765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399512421c6c002cc4eaba1fe5b08765">&#9670;&#160;</a></span>sphericalToFreeDirectionJacobian()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga99cd1a5ee6b7c5cf8a3aca54526ab67d">ActsMatrix</a>&lt; 3, 2 &gt; Acts::sphericalToFreeDirectionJacobian </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 2 &gt; Acts::sphericalToFreeDirectionJacobian </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -10410,14 +10498,14 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::subtractBoundParameters </td>
+          <td class="memname"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> Acts::subtractBoundParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lhs</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lhs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -10916,7 +11004,7 @@ template&lt;TrackContainerBackend track_container_t, typename traj_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> Acts::transformBoundToFreeParameters </td>
+          <td class="memname"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> Acts::transformBoundToFreeParameters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
         </tr>
@@ -10928,7 +11016,7 @@ template&lt;TrackContainerBackend track_container_t, typename traj_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundParams</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boundParams</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -11067,9 +11155,9 @@ template&lt;typename external_spacepoint_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &gt; Acts::transformFreeToBoundParameters </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt; Acts::transformFreeToBoundParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a34a846c2589150628ba6e05624221307">FreeVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>freeParams</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>freeParams</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -11110,9 +11198,9 @@ template&lt;typename external_spacepoint_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> &gt; Acts::transformFreeToBoundParameters </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt; Acts::transformFreeToBoundParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -11122,7 +11210,7 @@ template&lt;typename external_spacepoint_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -11171,14 +11259,14 @@ template&lt;typename external_spacepoint_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::transformFreeToCurvilinearParameters </td>
+          <td class="memname"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> Acts::transformFreeToCurvilinearParameters </td>
           <td>(</td>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>time</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -11209,7 +11297,7 @@ template&lt;typename external_spacepoint_t&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af2571f8c8ebccb37165c668fab4a1c4f">BoundVector</a> Acts::transformFreeToCurvilinearParameters </td>
+          <td class="memname"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> Acts::transformFreeToCurvilinearParameters </td>
           <td>(</td>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>time</em></span>, </td>
         </tr>
@@ -11850,7 +11938,7 @@ template&lt;typename... R&gt; </div>
 <div class="line">    <a class="code hl_typedef" href="group__algebra__types.html#gad51b61e2bb0e1f7a1a6216925133f0e2">AngleAxis3</a>(std::numbers::pi / 2., Vector3::UnitY()) *</div>
 <div class="line">    <a class="code hl_typedef" href="group__algebra__types.html#gad51b61e2bb0e1f7a1a6216925133f0e2">AngleAxis3</a>(std::numbers::pi / 2., Vector3::UnitZ()) *</div>
 <div class="line">    Transform3::Identity()</div>
-<div class="ttc" id="agroup__algebra__types_html_gad51b61e2bb0e1f7a1a6216925133f0e2"><div class="ttname"><a href="group__algebra__types.html#gad51b61e2bb0e1f7a1a6216925133f0e2">Acts::AngleAxis3</a></div><div class="ttdeci">Eigen::AngleAxis&lt; double &gt; AngleAxis3</div><div class="ttdoc">Rotation defined by an angle around a rotation axis in 3D.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:94</div></div>
+<div class="ttc" id="agroup__algebra__types_html_gad51b61e2bb0e1f7a1a6216925133f0e2"><div class="ttname"><a href="group__algebra__types.html#gad51b61e2bb0e1f7a1a6216925133f0e2">Acts::AngleAxis3</a></div><div class="ttdeci">Eigen::AngleAxis&lt; double &gt; AngleAxis3</div><div class="ttdoc">Rotation defined by an angle around a rotation axis in 3D.</div><div class="ttdef"><b>Definition</b> Algebra.hpp:120</div></div>
 </div><!-- fragment -->
 <p>YZ plane transformation. </p>
 

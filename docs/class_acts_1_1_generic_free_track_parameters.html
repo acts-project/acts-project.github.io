@@ -139,10 +139,10 @@ Inheritance diagram for Acts::GenericFreeTrackParameters&lt; particle_hypothesis
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a025e8e955558853690e0a20372732197" id="r_a025e8e955558853690e0a20372732197"><td class="memItemLeft" align="right" valign="top"><a id="a025e8e955558853690e0a20372732197" name="a025e8e955558853690e0a20372732197"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMatrix</b> = <a class="el" href="namespace_acts.html#acdde648ddc34cb68123733bebd224cb7">FreeMatrix</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>CovarianceMatrix</b> = <a class="el" href="namespace_acts.html#ad1a683ac2eb65ca8f44fdb2ab856836c">FreeMatrix</a></td></tr>
 <tr class="memdesc:a025e8e955558853690e0a20372732197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for free track covariance matrix. <br /></td></tr>
 <tr class="memitem:aeef9a93ca50ed22fce07ca0d5fb6f443" id="r_aeef9a93ca50ed22fce07ca0d5fb6f443"><td class="memItemLeft" align="right" valign="top"><a id="aeef9a93ca50ed22fce07ca0d5fb6f443" name="aeef9a93ca50ed22fce07ca0d5fb6f443"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersVector</b> = <a class="el" href="namespace_acts.html#a34a846c2589150628ba6e05624221307">FreeVector</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ParametersVector</b> = <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a></td></tr>
 <tr class="memdesc:aeef9a93ca50ed22fce07ca0d5fb6f443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for free track parameters vector. <br /></td></tr>
 <tr class="memitem:a135a1a5c8b8e6a74f6f7ebc27e87e320" id="r_a135a1a5c8b8e6a74f6f7ebc27e87e320"><td class="memItemLeft" align="right" valign="top"><a id="a135a1a5c8b8e6a74f6f7ebc27e87e320" name="a135a1a5c8b8e6a74f6f7ebc27e87e320"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ParticleHypothesis</b> = particle_hypothesis_t</td></tr>
@@ -155,9 +155,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4c8c4eab4eba19b4bcd6e30399cdb3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a free track parameter with a different hypothesis.  <br /></td></tr>
 <tr class="memitem:a5c34008193c7b61f4ab8acf8c48f431a" id="r_a5c34008193c7b61f4ab8acf8c48f431a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c34008193c7b61f4ab8acf8c48f431a">GenericFreeTrackParameters</a> (const <a class="el" href="#aeef9a93ca50ed22fce07ca0d5fb6f443">ParametersVector</a> &amp;params, std::optional&lt; <a class="el" href="#a025e8e955558853690e0a20372732197">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a135a1a5c8b8e6a74f6f7ebc27e87e320">ParticleHypothesis</a> <a class="el" href="#abd94987182cc11e7256c226f40ec1d30">particleHypothesis</a>)</td></tr>
 <tr class="memdesc:a5c34008193c7b61f4ab8acf8c48f431a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a parameters vector and particle charge.  <br /></td></tr>
-<tr class="memitem:a44aa60788b94c1329802467ba22c69ea" id="r_a44aa60788b94c1329802467ba22c69ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44aa60788b94c1329802467ba22c69ea">GenericFreeTrackParameters</a> (const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;dir, double <a class="el" href="#a0855514a8abdd97e72b8958d670edb94">qOverP</a>, std::optional&lt; <a class="el" href="#a025e8e955558853690e0a20372732197">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a135a1a5c8b8e6a74f6f7ebc27e87e320">ParticleHypothesis</a> <a class="el" href="#abd94987182cc11e7256c226f40ec1d30">particleHypothesis</a>)</td></tr>
+<tr class="memitem:a44aa60788b94c1329802467ba22c69ea" id="r_a44aa60788b94c1329802467ba22c69ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44aa60788b94c1329802467ba22c69ea">GenericFreeTrackParameters</a> (const <a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a> &amp;pos4, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;dir, double <a class="el" href="#a0855514a8abdd97e72b8958d670edb94">qOverP</a>, std::optional&lt; <a class="el" href="#a025e8e955558853690e0a20372732197">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a135a1a5c8b8e6a74f6f7ebc27e87e320">ParticleHypothesis</a> <a class="el" href="#abd94987182cc11e7256c226f40ec1d30">particleHypothesis</a>)</td></tr>
 <tr class="memdesc:a44aa60788b94c1329802467ba22c69ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from four-position, direction, absolute momentum, and charge.  <br /></td></tr>
-<tr class="memitem:a2101f68bb6526ca02209cb464fad0f5a" id="r_a2101f68bb6526ca02209cb464fad0f5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2101f68bb6526ca02209cb464fad0f5a">GenericFreeTrackParameters</a> (const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;pos4, double <a class="el" href="#a77ba580ab175521ab4784f92e68f968f">phi</a>, double <a class="el" href="#a93744f6e9b9a3d4d4426251beca67775">theta</a>, double <a class="el" href="#a0855514a8abdd97e72b8958d670edb94">qOverP</a>, std::optional&lt; <a class="el" href="#a025e8e955558853690e0a20372732197">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a135a1a5c8b8e6a74f6f7ebc27e87e320">ParticleHypothesis</a> <a class="el" href="#abd94987182cc11e7256c226f40ec1d30">particleHypothesis</a>)</td></tr>
+<tr class="memitem:a2101f68bb6526ca02209cb464fad0f5a" id="r_a2101f68bb6526ca02209cb464fad0f5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2101f68bb6526ca02209cb464fad0f5a">GenericFreeTrackParameters</a> (const <a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a> &amp;pos4, double <a class="el" href="#a77ba580ab175521ab4784f92e68f968f">phi</a>, double <a class="el" href="#a93744f6e9b9a3d4d4426251beca67775">theta</a>, double <a class="el" href="#a0855514a8abdd97e72b8958d670edb94">qOverP</a>, std::optional&lt; <a class="el" href="#a025e8e955558853690e0a20372732197">CovarianceMatrix</a> &gt; cov, <a class="el" href="#a135a1a5c8b8e6a74f6f7ebc27e87e320">ParticleHypothesis</a> <a class="el" href="#abd94987182cc11e7256c226f40ec1d30">particleHypothesis</a>)</td></tr>
 <tr class="memdesc:a2101f68bb6526ca02209cb464fad0f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from four-position, angles, absolute momentum, and charge.  <br /></td></tr>
 <tr class="memitem:a02f6bf996f82e63a54a9dbcb4649ea2a" id="r_a02f6bf996f82e63a54a9dbcb4649ea2a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02f6bf996f82e63a54a9dbcb4649ea2a">absoluteMomentum</a> () const</td></tr>
 <tr class="memdesc:a02f6bf996f82e63a54a9dbcb4649ea2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute momentum.  <br /></td></tr>
@@ -165,14 +165,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1e08d94d1337d8b2a1678abb2fa911fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle electric charge.  <br /></td></tr>
 <tr class="memitem:ae99a3f9827722bbb6128b6101bdbda52" id="r_ae99a3f9827722bbb6128b6101bdbda52"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; <a class="el" href="#a025e8e955558853690e0a20372732197">CovarianceMatrix</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae99a3f9827722bbb6128b6101bdbda52">covariance</a> () const</td></tr>
 <tr class="memdesc:ae99a3f9827722bbb6128b6101bdbda52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional covariance matrix.  <br /></td></tr>
-<tr class="memitem:a0c78f36eb06887c7f49ca6508024525a" id="r_a0c78f36eb06887c7f49ca6508024525a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c78f36eb06887c7f49ca6508024525a">direction</a> () const</td></tr>
+<tr class="memitem:a0c78f36eb06887c7f49ca6508024525a" id="r_a0c78f36eb06887c7f49ca6508024525a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c78f36eb06887c7f49ca6508024525a">direction</a> () const</td></tr>
 <tr class="memdesc:a0c78f36eb06887c7f49ca6508024525a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit direction three-vector, i.e.  <br /></td></tr>
-<tr class="memitem:a72bcc95c112ebfd61d04e8e64af2d645" id="r_a72bcc95c112ebfd61d04e8e64af2d645"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72bcc95c112ebfd61d04e8e64af2d645">fourPosition</a> () const</td></tr>
+<tr class="memitem:a72bcc95c112ebfd61d04e8e64af2d645" id="r_a72bcc95c112ebfd61d04e8e64af2d645"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72bcc95c112ebfd61d04e8e64af2d645">fourPosition</a> () const</td></tr>
 <tr class="memdesc:a72bcc95c112ebfd61d04e8e64af2d645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Space-time position four-vector.  <br /></td></tr>
 <tr class="memitem:aaa82ee277f94db7473864dfb199d357f" id="r_aaa82ee277f94db7473864dfb199d357f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespace_acts.html#a6c086a09086424ffb3ace68710e8e92c">FreeIndices</a> kIndex&gt; </td></tr>
 <tr class="memitem:aaa82ee277f94db7473864dfb199d357f template"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa82ee277f94db7473864dfb199d357f">get</a> () const</td></tr>
 <tr class="memdesc:aaa82ee277f94db7473864dfb199d357f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a single parameter value identified by its index.  <br /></td></tr>
-<tr class="memitem:a912857681c7fc3e5a0450705e948f7e9" id="r_a912857681c7fc3e5a0450705e948f7e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a912857681c7fc3e5a0450705e948f7e9">momentum</a> () const</td></tr>
+<tr class="memitem:a912857681c7fc3e5a0450705e948f7e9" id="r_a912857681c7fc3e5a0450705e948f7e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a912857681c7fc3e5a0450705e948f7e9">momentum</a> () const</td></tr>
 <tr class="memdesc:a912857681c7fc3e5a0450705e948f7e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum three-vector.  <br /></td></tr>
 <tr class="memitem:a5ca5e75de50bd02ad39d2ce98c06688e" id="r_a5ca5e75de50bd02ad39d2ce98c06688e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#aeef9a93ca50ed22fce07ca0d5fb6f443">ParametersVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ca5e75de50bd02ad39d2ce98c06688e">parameters</a> () const</td></tr>
 <tr class="memdesc:a5ca5e75de50bd02ad39d2ce98c06688e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters vector.  <br /></td></tr>
@@ -180,7 +180,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abd94987182cc11e7256c226f40ec1d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle hypothesis.  <br /></td></tr>
 <tr class="memitem:a77ba580ab175521ab4784f92e68f968f" id="r_a77ba580ab175521ab4784f92e68f968f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77ba580ab175521ab4784f92e68f968f">phi</a> () const</td></tr>
 <tr class="memdesc:a77ba580ab175521ab4784f92e68f968f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phi direction.  <br /></td></tr>
-<tr class="memitem:a1cc573c7b2c7010f08946adb7be92713" id="r_a1cc573c7b2c7010f08946adb7be92713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc573c7b2c7010f08946adb7be92713">position</a> () const</td></tr>
+<tr class="memitem:a1cc573c7b2c7010f08946adb7be92713" id="r_a1cc573c7b2c7010f08946adb7be92713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc573c7b2c7010f08946adb7be92713">position</a> () const</td></tr>
 <tr class="memdesc:a1cc573c7b2c7010f08946adb7be92713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial position three-vector.  <br /></td></tr>
 <tr class="memitem:a0855514a8abdd97e72b8958d670edb94" id="r_a0855514a8abdd97e72b8958d670edb94"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0855514a8abdd97e72b8958d670edb94">qOverP</a> () const</td></tr>
 <tr class="memdesc:a0855514a8abdd97e72b8958d670edb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge over momentum.  <br /></td></tr>
@@ -263,12 +263,12 @@ template&lt;class particle_hypothesis_t&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::GenericFreeTrackParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos4</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos4</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -313,7 +313,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::GenericFreeTrackParameters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos4</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos4</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -509,7 +509,7 @@ template&lt;FreeTrackParametersConcept other_track_parameter_t&gt; </div>
 template&lt;class particle_hypothesis_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::direction </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::direction </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -531,7 +531,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
 template&lt;class particle_hypothesis_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga3a320a58e0d6145e3f7ecf78c289dfd7">Vector4</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::fourPosition </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::fourPosition </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -583,7 +583,7 @@ template&lt;<a class="el" href="namespace_acts.html#a6c086a09086424ffb3ace68710e
 template&lt;class particle_hypothesis_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::momentum </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::momentum </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -671,7 +671,7 @@ template&lt;class particle_hypothesis_t&gt; </div>
 template&lt;class particle_hypothesis_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__algebra__types.html#ga8183a99dab8a7c6fff67d7c6c05bfb22">Vector3</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::position </td>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> <a class="el" href="class_acts_1_1_generic_free_track_parameters.html">Acts::GenericFreeTrackParameters</a>&lt; particle_hypothesis_t &gt;::position </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
