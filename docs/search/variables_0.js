@@ -2,10 +2,10 @@ var searchData=
 [
   ['abortonerror_0',['abortOnError',['../struct_acts_1_1_gsf_options.html#aeee4d872e28d82703ebbc93c5904ffa0',1,'Acts::GsfOptions']]],
   ['absetaedges_1',['absEtaEdges',['../struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aa08ed7378b3b4513213f33e711b01602',1,'Acts::TrackSelector::EtaBinnedConfig']]],
-  ['absetafractions_2',['absEtaFractions',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#aadf3ef0ffddc03b4ca7107dffb1ef9d9',1,'Acts::HoughVertexFinder::Config']]],
+  ['absetafractions_2',['absEtaFractions',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#aadf3ef0ffddc03b4ca7107dffb1ef9d9',1,'Acts::HoughVertexFinder::Config::absEtaFractions'],['../struct_acts_1_1_hough_vertex_finder2_1_1_config.html#a697642528f98420b0240f8b0abc8b7d5',1,'Acts::HoughVertexFinder2::Config::absEtaFractions']]],
   ['absetamax_3',['absEtaMax',['../struct_acts_1_1_track_selector_1_1_config.html#ac2c1e9129f47782d127dfb2e6e502baf',1,'Acts::TrackSelector::Config']]],
   ['absetamin_4',['absEtaMin',['../struct_acts_1_1_track_selector_1_1_config.html#a6cf3a559e98866f060c3746568e4ca32',1,'Acts::TrackSelector::Config']]],
-  ['absetaranges_5',['absEtaRanges',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#a2d8a77c250667c1ff5d144e6b3168d17',1,'Acts::HoughVertexFinder::Config']]],
+  ['absetaranges_5',['absEtaRanges',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#a2d8a77c250667c1ff5d144e6b3168d17',1,'Acts::HoughVertexFinder::Config::absEtaRanges'],['../struct_acts_1_1_hough_vertex_finder2_1_1_config.html#a1a07443585ed58987b067061dba8d0dc',1,'Acts::HoughVertexFinder2::Config::absEtaRanges']]],
   ['absolutepathlength_6',['absolutePathLength',['../struct_acts_1_1_stepper_statistics.html#a3b05dd166d178a7b0990593b749b3569',1,'Acts::StepperStatistics']]],
   ['accessorconfig_7',['accessorConfig',['../class_acts_plugins_1_1_root_material_decorator_1_1_config.html#ade6d4cb4e6b800fa259f0c6b0d5c4be3',1,'ActsPlugins::RootMaterialDecorator::Config']]],
   ['accessoroptions_8',['accessorOptions',['../class_acts_plugins_1_1_root_material_decorator_1_1_config.html#a941ea654245ec31bb7277c93a537ce75',1,'ActsPlugins::RootMaterialDecorator::Config']]],

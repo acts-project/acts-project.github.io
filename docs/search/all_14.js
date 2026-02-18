@@ -26,7 +26,7 @@ var searchData=
   ['rangearray_23',['RangeArray',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ada9bdcf80ee9d4dc94b1d5f81291ebc5',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],
   ['rangeconfig_24',['RangeConfig',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#aa63434c398fb5c9cea850acc15f1b5c8',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig']]],
   ['rangecontainsvalue_25',['rangeContainsValue',['../namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d',1,'Acts']]],
-  ['rangeiterz_26',['rangeIterZ',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#ac94352000b99f6bc522faca3dda6a3a2',1,'Acts::HoughVertexFinder::Config']]],
+  ['rangeiterz_26',['rangeIterZ',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#ac94352000b99f6bc522faca3dda6a3a2',1,'Acts::HoughVertexFinder::Config::rangeIterZ'],['../struct_acts_1_1_hough_vertex_finder2_1_1_config.html#a11c51cb73d648b6484ac35f8b6a51c3c',1,'Acts::HoughVertexFinder2::Config::rangeIterZ']]],
   ['ranges_27',['ranges',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a88a2501162df8548686c333fe35a8e3a',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],
   ['rangesearch_28',['rangeSearch',['../class_acts_1_1_k_d_tree.html#ae865099dcc6b83b85b68c06314e9df53',1,'Acts::KDTree::rangeSearch(const range_t &amp;r) const'],['../class_acts_1_1_k_d_tree.html#aa042dbbfdb3f2e6f0dfd93cbe7ee241a',1,'Acts::KDTree::rangeSearch(const range_t &amp;r, std::vector&lt; Type &gt; &amp;v) const']]],
   ['rangesearchinserter_29',['rangeSearchInserter',['../class_acts_1_1_k_d_tree.html#ae82c86ebcf45f62fdb917bdee827ce8b',1,'Acts::KDTree']]],

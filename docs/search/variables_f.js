@@ -24,7 +24,7 @@ var searchData=
   ['pathlimit_21',['pathLimit',['../struct_acts_fatras_1_1_single_particle_simulation.html#a1cfbb9f8dde02827b9c55f0baf643f63',1,'ActsFatras::SingleParticleSimulation']]],
   ['pathlimitreached_22',['pathLimitReached',['../struct_acts_1_1_combinatorial_kalman_filter_result.html#a00c98956d536de14d80156261a8b990b',1,'Acts::CombinatorialKalmanFilterResult::pathLimitReached'],['../struct_acts_1_1_kalman_fitter_result.html#ae61b15f48c6eebe15f4716ad8982bdc1',1,'Acts::KalmanFitterResult::pathLimitReached']]],
   ['pathwidthprovider_23',['pathWidthProvider',['../struct_acts_1_1_path_seeder_1_1_config.html#a18db0039db00a18f6531836756752651',1,'Acts::PathSeeder::Config']]],
-  ['peakwidth_24',['peakWidth',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae2382671a06bd21cb7da324d58632a53',1,'Acts::HoughVertexFinder::Config']]],
+  ['peakwidth_24',['peakWidth',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae2382671a06bd21cb7da324d58632a53',1,'Acts::HoughVertexFinder::Config::peakWidth'],['../struct_acts_1_1_hough_vertex_finder2_1_1_config.html#ade5dd2ed1b9f2cceca7b6943677c5c44',1,'Acts::HoughVertexFinder2::Config::peakWidth']]],
   ['pextent_25',['pExtent',['../struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a4c7c43aa9dc982f021d81a3033843255',1,'ActsPlugins::DD4hepDetectorSurfaceFactory::Cache']]],
   ['phi_26',['phi',['../struct_acts_1_1_extent_envelope_1_1_arguments.html#affa1869cd94c88450e97c88875797e3e',1,'Acts::ExtentEnvelope::Arguments']]],
   ['phibindeflectioncoverage_27',['phiBinDeflectionCoverage',['../struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html#aa891bbf59b3f9623a4e924d1e316f580',1,'Acts::CylindricalSpacePointGrid2::Config']]],
