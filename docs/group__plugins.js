@@ -6,7 +6,6 @@ var group__plugins =
     [ "Detray Plugin", "group__detray__plugin.html", "group__detray__plugin" ],
     [ "EDM4hep Plugin", "group__edm4hep__plugin.html", "group__edm4hep__plugin" ],
     [ "FPE Monitoring Plugin", "group__fpemonitoring__plugin.html", "group__fpemonitoring__plugin" ],
-    [ "FastJet Plugin", "group__fastjet__plugin.html", "group__fastjet__plugin" ],
     [ "GNN Plugin", "group__gnn__plugin.html", "group__gnn__plugin" ],
     [ "Geant4 Plugin", "group__geant4__plugin.html", "group__geant4__plugin" ],
     [ "GeoModel Plugin", "group__geomodel__plugin.html", "group__geomodel__plugin" ],

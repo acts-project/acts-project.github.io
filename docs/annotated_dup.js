@@ -663,11 +663,6 @@ var annotated_dup =
       [ "EDM4hepUtil", null, [
         [ "SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association" ]
       ] ],
-      [ "FastJet", null, [
-        [ "Jet", "class_acts_plugins_1_1_fast_jet_1_1_jet.html", "class_acts_plugins_1_1_fast_jet_1_1_jet" ],
-        [ "TrackJet", "class_acts_plugins_1_1_fast_jet_1_1_track_jet.html", "class_acts_plugins_1_1_fast_jet_1_1_track_jet" ],
-        [ "TruthJet", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet.html", "class_acts_plugins_1_1_fast_jet_1_1_truth_jet" ]
-      ] ],
       [ "Geant4PhysicalVolumeSelectors", null, [
         [ "AllSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector" ],
         [ "NameSelector", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html", "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector" ],

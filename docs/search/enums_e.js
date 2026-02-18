@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['particleoutcome_0',['ParticleOutcome',['../namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabe',1,'ActsFatras']]],
-  ['pdgparticle_1',['PdgParticle',['../namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45a',1,'Acts']]],
-  ['portalerror_2',['PortalError',['../group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459',1,'Acts']]],
-  ['processtype_3',['ProcessType',['../namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fc',1,'ActsFatras']]],
-  ['propagatorerror_4',['PropagatorError',['../group__errors.html#gae4af8513760690d2518f3e01355beb88',1,'Acts']]],
-  ['propagatorstage_5',['PropagatorStage',['../namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05b',1,'Acts']]]
+  ['sensitivestrategy_0',['SensitiveStrategy',['../struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1',1,'ActsPlugins::DetrayPayloadConverter::Config']]],
+  ['sheets_1',['Sheets',['../group__actsvg__plugin.html#ga7e3877c269fbcd066540e55056ee866a',1,'ActsPlugins::Svg::LayerConverter']]],
+  ['spacepointcandidatetype_2',['SpacePointCandidateType',['../namespace_acts.html#a71eb0dc21ee83a011a86dbd801338057',1,'Acts']]],
+  ['spacepointcolumns_3',['SpacePointColumns',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c',1,'Acts']]],
+  ['spacepointformationerror_4',['SpacePointFormationError',['../group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd',1,'Acts']]],
+  ['stage_5',['Stage',['../class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082',1,'Acts::Navigator']]],
+  ['surfaceerror_6',['SurfaceError',['../group__errors.html#gac32894235c42ab9d5e6bf5c5cd1f6f3d',1,'Acts']]],
+  ['surfacetype_7',['SurfaceType',['../class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0',1,'Acts::Surface']]]
 ];
