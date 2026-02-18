@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html" target="_top" xlink:title="Extension struct which holds the delegates to customize the CKF behavior.">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_combinatorial_kalman_filter.html" target="_top" xlink:title="Combinatorial Kalman filter to find tracks.">
 <polygon fill="white" stroke="#666666" points="150,-41 0,-41 0,0 150,0 150,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CombinatorialKalman</text>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">FilterExtensions&lt; track</text>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Filter&lt; propagator_t, track</text>
 <text text-anchor="middle" x="75" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">_container_t &gt;</text>
 </a>
 </g>

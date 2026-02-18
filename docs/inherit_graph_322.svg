@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_material_mapper_1_1_options.html" target="_top" xlink:title="nested options struct holds some options for the delegated calls">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_material_mapper_1_1_config.html" target="_top" xlink:title="nested configuration struct">
 <polygon fill="white" stroke="#666666" points="121,-30 0,-30 0,0 121,0 121,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MaterialMapper</text>
-<text text-anchor="middle" x="60.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Options</text>
+<text text-anchor="middle" x="60.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>
 </a>
 </g>
 </g>

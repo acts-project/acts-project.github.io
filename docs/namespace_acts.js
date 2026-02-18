@@ -128,6 +128,7 @@ var namespace_acts =
     [ "CalibrationContext", "class_acts_1_1_calibration_context.html", null ],
     [ "CandidatesForMiddleSp", "class_acts_1_1_candidates_for_middle_sp.html", "class_acts_1_1_candidates_for_middle_sp" ],
     [ "CenterReferenceGenerator", "struct_acts_1_1_center_reference_generator.html", "struct_acts_1_1_center_reference_generator" ],
+    [ "CloneablePtr", "class_acts_1_1_cloneable_ptr.html", "class_acts_1_1_cloneable_ptr" ],
     [ "Color", "struct_acts_1_1_color.html", "struct_acts_1_1_color" ],
     [ "CombinatorialKalmanFilter", "class_acts_1_1_combinatorial_kalman_filter.html", "class_acts_1_1_combinatorial_kalman_filter" ],
     [ "CombinatorialKalmanFilterExtensions", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html", "struct_acts_1_1_combinatorial_kalman_filter_extensions" ],

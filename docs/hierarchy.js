@@ -86,6 +86,7 @@ var hierarchy =
       [ "Acts::Ccl::TimedConnect< Cell, N >", "struct_acts_1_1_ccl_1_1_timed_connect.html", null ]
     ] ],
     [ "Acts::Ccl::DisjointSets", "class_acts_1_1_ccl_1_1_disjoint_sets.html", null ],
+    [ "Acts::CloneablePtr&lt; T &gt;", "class_acts_1_1_cloneable_ptr.html", null ],
     [ "Acts::Color", "struct_acts_1_1_color.html", null ],
     [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;", "class_acts_1_1_combinatorial_kalman_filter.html", null ],
     [ "Acts::CombinatorialKalmanFilterExtensions&lt; track_container_t &gt;", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html", null ],
