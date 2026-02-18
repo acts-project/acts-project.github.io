@@ -25,7 +25,7 @@ var group__track__fitting =
       [ "validXOverX0", "class_acts_1_1_bethe_heitler_approx_single_cmp.html#ab98bf528ac5e0c3c833d81836e420d77", null ]
     ] ],
     [ "Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;", "class_acts_1_1_experimental_1_1_gx2_fitter.html", [
-      [ "Gx2Fitter", "class_acts_1_1_experimental_1_1_gx2_fitter.html#a8383b3317169135b976a52d85b7f075d", null ],
+      [ "Gx2Fitter", "class_acts_1_1_experimental_1_1_gx2_fitter.html#a687744d7428372f54db166e1001b1a84", null ],
       [ "fit", "class_acts_1_1_experimental_1_1_gx2_fitter.html#a19d49a1d400ea86c037ec1b91bc94d03", null ]
     ] ],
     [ "Acts::Experimental::Gx2FitterExtensions&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html", [

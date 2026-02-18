@@ -133,8 +133,8 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gx2_fitter.html','','c
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8383b3317169135b976a52d85b7f075d" id="r_a8383b3317169135b976a52d85b7f075d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8383b3317169135b976a52d85b7f075d">Gx2Fitter</a> (propagator_t pPropagator, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;Gx2Fitter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
-<tr class="memdesc:a8383b3317169135b976a52d85b7f075d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the Global Chi-Square Fitter.  <br /></td></tr>
+<tr class="memitem:a687744d7428372f54db166e1001b1a84" id="r_a687744d7428372f54db166e1001b1a84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687744d7428372f54db166e1001b1a84">Gx2Fitter</a> (const propagator_t &amp;pPropagator, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;Gx2Fitter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
+<tr class="memdesc:a687744d7428372f54db166e1001b1a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the Global Chi-Square Fitter.  <br /></td></tr>
 <tr class="memitem:a19d49a1d400ea86c037ec1b91bc94d03" id="r_a19d49a1d400ea86c037ec1b91bc94d03"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; <br />
 requires (!isDirectNavigator)</td></tr>
 <tr class="memitem:a19d49a1d400ea86c037ec1b91bc94d03 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19d49a1d400ea86c037ec1b91bc94d03">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_experimental_1_1_gx2_fitter_options.html">Gx2FitterOptions</a>&lt; traj_t &gt; &amp;gx2fOptions, track_container_t &amp;trackContainer) const</td></tr>
@@ -151,8 +151,8 @@ class Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;</div><p>Global
 </dl>
 <p>TODO Write description </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8383b3317169135b976a52d85b7f075d" name="a8383b3317169135b976a52d85b7f075d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8383b3317169135b976a52d85b7f075d">&#9670;&#160;</a></span>Gx2Fitter()</h2>
+<a id="a687744d7428372f54db166e1001b1a84" name="a687744d7428372f54db166e1001b1a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a687744d7428372f54db166e1001b1a84">&#9670;&#160;</a></span>Gx2Fitter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +165,7 @@ template&lt;typename propagator_t, typename traj_t&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_experimental_1_1_gx2_fitter.html">Acts::Experimental::Gx2Fitter</a>&lt; propagator_t, traj_t &gt;::Gx2Fitter </td>
           <td>(</td>
-          <td class="paramtype">propagator_t</td>          <td class="paramname"><span class="paramname"><em>pPropagator</em></span>, </td>
+          <td class="paramtype">const propagator_t &amp;</td>          <td class="paramname"><span class="paramname"><em>pPropagator</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -102,7 +102,7 @@ var NAVTREEINDEX12 =
 "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#aff6b6ab6e0012b40433e42df763ca5d5":[8,0,0,2,21,6],
 "class_acts_1_1_experimental_1_1_gx2_fitter.html":[5,10,3],
 "class_acts_1_1_experimental_1_1_gx2_fitter.html#a19d49a1d400ea86c037ec1b91bc94d03":[5,10,3,1],
-"class_acts_1_1_experimental_1_1_gx2_fitter.html#a8383b3317169135b976a52d85b7f075d":[5,10,3,0],
+"class_acts_1_1_experimental_1_1_gx2_fitter.html#a687744d7428372f54db166e1001b1a84":[5,10,3,0],
 "class_acts_1_1_experimental_1_1_histogram.html":[6,0,0,1,27],
 "class_acts_1_1_experimental_1_1_histogram.html":[8,0,0,2,27],
 "class_acts_1_1_experimental_1_1_histogram.html#a1cf6593d5151393274cdc625bb128742":[6,0,0,1,27,5],
