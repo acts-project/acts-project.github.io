@@ -2,7 +2,6 @@ var class_acts_1_1_experimental_1_1_roi_descriptor =
 [
     [ "roi_iterator", "class_acts_1_1_experimental_1_1_roi_descriptor.html#ac373ef71553359b594df249c6d30cca2", null ],
     [ "RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a364ab735be021c955367a6b3347ea1b6", null ],
-    [ "RoiDescriptor", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a2fa4dbebeba7b9c811be946a2e5fd9d2", null ],
     [ "at", "class_acts_1_1_experimental_1_1_roi_descriptor.html#ab776fd1009fe5da0810c7f439e910bc5", null ],
     [ "begin", "class_acts_1_1_experimental_1_1_roi_descriptor.html#adc0e6cf12526de213b47432d3fa91eb5", null ],
     [ "clear", "class_acts_1_1_experimental_1_1_roi_descriptor.html#acc544485bf9a3b060f6a40e07abd4fe4", null ],
@@ -19,7 +18,6 @@ var class_acts_1_1_experimental_1_1_roi_descriptor =
     [ "l1Id", "class_acts_1_1_experimental_1_1_roi_descriptor.html#abed1aa95aecadbeb556e6ee8cc7ab9f7", null ],
     [ "manageConstituents", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a1773e6ae2a73b26f60f2fb7b59243929", null ],
     [ "manageConstituents", "class_acts_1_1_experimental_1_1_roi_descriptor.html#aba19920002b30e7bf026bbef82392908", null ],
-    [ "operator=", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a6162cdfd2d7283de45abb9a067694311", null ],
     [ "phi", "class_acts_1_1_experimental_1_1_roi_descriptor.html#a0020e84bb63c473367858220de1c8bfc", null ],
     [ "phiMinus", "class_acts_1_1_experimental_1_1_roi_descriptor.html#ac23feef188764413e0be740fb9835beb", null ],
     [ "phiPlus", "class_acts_1_1_experimental_1_1_roi_descriptor.html#aa16e2e1080896b6fde89e29f8ef5f24f", null ],

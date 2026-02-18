@@ -1,7 +1,7 @@
 var searchData=
 [
   ['gaussianmixturescattering_0',['GaussianMixtureScattering',['../namespace_acts_fatras.html#a0130e177c4f96f57c2a7378f02a38242',1,'ActsFatras']]],
-  ['gbtsmllookuptable_1',['GbtsMLLookupTable',['../namespace_acts_1_1_experimental.html#af4db2a08d6b55738ef2332c60713ac84',1,'Acts::Experimental']]],
+  ['gbtsmllookuptable_1',['GbtsMlLookupTable',['../namespace_acts_1_1_experimental.html#ae4d79088238e5447e4df0e2c6db58496',1,'Acts::Experimental']]],
   ['geant4passivesurface_2',['Geant4PassiveSurface',['../class_acts_plugins_1_1_geant4_detector_surface_factory.html#a7d20e7b1516a2bdd7bd0eb5db0cc5e9e',1,'ActsPlugins::Geant4DetectorSurfaceFactory']]],
   ['geant4sensitivesurface_3',['Geant4SensitiveSurface',['../class_acts_plugins_1_1_geant4_detector_surface_factory.html#adb50157683caa76982e919c3c52fbc14',1,'ActsPlugins::Geant4DetectorSurfaceFactory']]],
   ['generalmixturescattering_4',['GeneralMixtureScattering',['../namespace_acts_fatras.html#afc5656fd5d938a49295726f9519cef7d',1,'ActsFatras']]],

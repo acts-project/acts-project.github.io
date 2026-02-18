@@ -140,8 +140,8 @@ Collaboration diagram for Acts::Experimental::SeedFinderGbts::SeedProperties:</d
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d073cc303c8a9ef355dfb996199fd71" id="r_a0d073cc303c8a9ef355dfb996199fd71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d073cc303c8a9ef355dfb996199fd71">SeedProperties</a> (float quality, std::int32_t clone, std::vector&lt; std::uint32_t &gt; sps)</td></tr>
 <tr class="memdesc:a0d073cc303c8a9ef355dfb996199fd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a785350d78b45f2883819e4eec8a3e2d5" id="r_a785350d78b45f2883819e4eec8a3e2d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a785350d78b45f2883819e4eec8a3e2d5">operator&lt;</a> (<a class="el" href="#a0d073cc303c8a9ef355dfb996199fd71">SeedProperties</a> const &amp;o) const</td></tr>
-<tr class="memdesc:a785350d78b45f2883819e4eec8a3e2d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <br /></td></tr>
+<tr class="memitem:a4d86a1d709f3b3f663e845bfef8ab55f" id="r_a4d86a1d709f3b3f663e845bfef8ab55f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d86a1d709f3b3f663e845bfef8ab55f">operator&lt;=&gt;</a> (const <a class="el" href="#a0d073cc303c8a9ef355dfb996199fd71">SeedProperties</a> &amp;o) const =default</td></tr>
+<tr class="memdesc:a4d86a1d709f3b3f663e845bfef8ab55f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -151,9 +151,9 @@ std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>isClone</b> {
 <tr class="memitem:a224a49d82e1e98dcd9f33268af75b03c" id="r_a224a49d82e1e98dcd9f33268af75b03c"><td class="memItemLeft" align="right" valign="top"><a id="a224a49d82e1e98dcd9f33268af75b03c" name="a224a49d82e1e98dcd9f33268af75b03c"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>seedQuality</b> {}</td></tr>
 <tr class="memdesc:a224a49d82e1e98dcd9f33268af75b03c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed quality score. <br /></td></tr>
-<tr class="memitem:a9eb5017324c446be7ccfc73a28247d53" id="r_a9eb5017324c446be7ccfc73a28247d53"><td class="memItemLeft" align="right" valign="top"><a id="a9eb5017324c446be7ccfc73a28247d53" name="a9eb5017324c446be7ccfc73a28247d53"></a>
-std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>spacepoints</b> {}</td></tr>
-<tr class="memdesc:a9eb5017324c446be7ccfc73a28247d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spacepoint indices. <br /></td></tr>
+<tr class="memitem:a36a3960cff36035536f1fb43f6c9f7d7" id="r_a36a3960cff36035536f1fb43f6c9f7d7"><td class="memItemLeft" align="right" valign="top"><a id="a36a3960cff36035536f1fb43f6c9f7d7" name="a36a3960cff36035536f1fb43f6c9f7d7"></a>
+std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>spacePoints</b></td></tr>
+<tr class="memdesc:a36a3960cff36035536f1fb43f6c9f7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spacepoint indices. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Seed metadata produced by the GBTs algorithm. </p>
@@ -195,19 +195,27 @@ std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bo
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a785350d78b45f2883819e4eec8a3e2d5" name="a785350d78b45f2883819e4eec8a3e2d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a785350d78b45f2883819e4eec8a3e2d5">&#9670;&#160;</a></span>operator&lt;()</h2>
+<a id="a4d86a1d709f3b3f663e845bfef8ab55f" name="a4d86a1d709f3b3f663e845bfef8ab55f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d86a1d709f3b3f663e845bfef8ab55f">&#9670;&#160;</a></span>operator&lt;=&gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Acts::Experimental::SeedFinderGbts::SeedProperties::operator&lt; </td>
+          <td class="memname">auto Acts::Experimental::SeedFinderGbts::SeedProperties::operator&lt;=&gt; </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a0d073cc303c8a9ef355dfb996199fd71">SeedProperties</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>o</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0d073cc303c8a9ef355dfb996199fd71">SeedProperties</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>o</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Comparison operator. </p>

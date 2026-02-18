@@ -68,9 +68,10 @@ var searchData=
   ['dophibinningoptimization_65',['doPhiBinningOptimization',['../struct_acts_1_1_surface_array_creator_1_1_config.html#a12b9ed2190366ee7b364d7730409bfbe',1,'Acts::SurfaceArrayCreator::Config']]],
   ['dorealmultivertex_66',['doRealMultiVertex',['../struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a4d0add7e44e83d210cb62562d2735950',1,'Acts::AdaptiveMultiVertexFinder::Config']]],
   ['dosmoothing_67',['doSmoothing',['../struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a6829855a08dc2750db944131db7ec59a',1,'Acts::AdaptiveMultiVertexFitter::Config']]],
-  ['doubletfilterrz_68',['doubletFilterRZ',['../struct_acts_1_1_experimental_1_1_seed_finder_gbts_config.html#a6228e08b0ac9801bba2558fab2d26dd6',1,'Acts::Experimental::SeedFinderGbtsConfig']]],
+  ['doubletfilterrz_68',['doubletFilterRZ',['../struct_acts_1_1_experimental_1_1_gbts_config.html#ab5f592127c5e28844e3c5558bf263995',1,'Acts::Experimental::GbtsConfig']]],
   ['dpds_69',['dPds',['../struct_acts_1_1_eigen_stepper_dense_extension.html#ab4727c2e62837553180e1806a5f7ed1f',1,'Acts::EigenStepperDenseExtension']]],
   ['ds_70',['ds',['../struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4',1,'Acts::Ccl::ClusteringData']]],
-  ['dtheta_71',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
-  ['dy0_72',['dY0',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a12f9c504ee52652e24661736dc465267',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
+  ['dst_71',['dst',['../struct_acts_1_1_experimental_1_1_gbts_connection.html#acad5faf3f798fe1896a815f8e12110ea',1,'Acts::Experimental::GbtsConnection::dst'],['../struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html#a2a5d9ae9b1143f1fb342e258aa70403c',1,'Acts::Experimental::GbtsConnector::LayerGroup::dst']]],
+  ['dtheta_72',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
+  ['dy0_73',['dY0',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a12f9c504ee52652e24661736dc465267',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
 ];

@@ -139,8 +139,6 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>roi_iterator</b> = s
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2fa4dbebeba7b9c811be946a2e5fd9d2" id="r_a2fa4dbebeba7b9c811be946a2e5fd9d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fa4dbebeba7b9c811be946a2e5fd9d2">RoiDescriptor</a> (const RoiDescriptor &amp;roi)</td></tr>
-<tr class="memdesc:a2fa4dbebeba7b9c811be946a2e5fd9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a364ab735be021c955367a6b3347ea1b6" id="r_a364ab735be021c955367a6b3347ea1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> (double <a class="el" href="#ae470c71d41483d8c7d070a4847c59120">eta</a>, double <a class="el" href="#a62a1bdc8ecabbee1730a79ea8a417db6">etaMinus</a>, double <a class="el" href="#ac440fd3bbb3131e464fab98a669216c9">etaPlus</a>, double <a class="el" href="#a0020e84bb63c473367858220de1c8bfc">phi</a>, double <a class="el" href="#ac23feef188764413e0be740fb9835beb">phiMinus</a>, double <a class="el" href="#aa16e2e1080896b6fde89e29f8ef5f24f">phiPlus</a>, double <a class="el" href="#a4b267cfd4e53589c0669e7d47ea9b6d8">zed</a>=0, double <a class="el" href="#a2a8f4a42c59b3b268e00f5b7815a38b3">zedMinus</a>=-s_zedWidthDefault, double <a class="el" href="#ade4c0ddc527995006bb3c92346207db6">zedPlus</a>=s_zedWidthDefault)</td></tr>
 <tr class="memdesc:a364ab735be021c955367a6b3347ea1b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
 <tr class="memitem:ab776fd1009fe5da0810c7f439e910bc5" id="r_ab776fd1009fe5da0810c7f439e910bc5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab776fd1009fe5da0810c7f439e910bc5">at</a> (int i) const</td></tr>
@@ -176,8 +174,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:a1773e6ae2a73b26f60f2fb7b59243929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Always manage constituents.  <br /></td></tr>
 <tr class="memitem:aba19920002b30e7bf026bbef82392908" id="r_aba19920002b30e7bf026bbef82392908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba19920002b30e7bf026bbef82392908">manageConstituents</a> (bool b)</td></tr>
 <tr class="memdesc:aba19920002b30e7bf026bbef82392908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether to manage constituents.  <br /></td></tr>
-<tr class="memitem:a6162cdfd2d7283de45abb9a067694311" id="r_a6162cdfd2d7283de45abb9a067694311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6162cdfd2d7283de45abb9a067694311">operator=</a> (const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> &amp;r)</td></tr>
-<tr class="memdesc:a6162cdfd2d7283de45abb9a067694311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
 <tr class="memitem:a0020e84bb63c473367858220de1c8bfc" id="r_a0020e84bb63c473367858220de1c8bfc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0020e84bb63c473367858220de1c8bfc">phi</a> () const</td></tr>
 <tr class="memdesc:a0020e84bb63c473367858220de1c8bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get phi coordinate of RoI center.  <br /></td></tr>
 <tr class="memitem:ac23feef188764413e0be740fb9835beb" id="r_ac23feef188764413e0be740fb9835beb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23feef188764413e0be740fb9835beb">phiMinus</a> () const</td></tr>
@@ -239,7 +235,7 @@ static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ROI<
 <div class="textblock"><p>Region-of-interest descriptor with eta/phi/zed bounds. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a364ab735be021c955367a6b3347ea1b6" name="a364ab735be021c955367a6b3347ea1b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a364ab735be021c955367a6b3347ea1b6">&#9670;&#160;</a></span>RoiDescriptor() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a364ab735be021c955367a6b3347ea1b6">&#9670;&#160;</a></span>RoiDescriptor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,31 +300,6 @@ static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ROI<
     <tr><td class="paramname">zed</td><td>zed of RoI </td></tr>
     <tr><td class="paramname">zedMinus</td><td>zed at rear of RoI </td></tr>
     <tr><td class="paramname">zedPlus</td><td>zed at front of RoI </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a2fa4dbebeba7b9c811be946a2e5fd9d2" name="a2fa4dbebeba7b9c811be946a2e5fd9d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fa4dbebeba7b9c811be946a2e5fd9d2">&#9670;&#160;</a></span>RoiDescriptor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::RoiDescriptor::RoiDescriptor </td>
-          <td>(</td>
-          <td class="paramtype">const RoiDescriptor &amp;</td>          <td class="paramname"><span class="paramname"><em>roi</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Copy constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">roi</td><td>The RoI to copy </td></tr>
   </table>
   </dd>
 </dl>
@@ -644,32 +615,6 @@ static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>ROI<
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a6162cdfd2d7283de45abb9a067694311" name="a6162cdfd2d7283de45abb9a067694311"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6162cdfd2d7283de45abb9a067694311">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> &amp; Acts::Experimental::RoiDescriptor::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a364ab735be021c955367a6b3347ea1b6">RoiDescriptor</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Copy assignment operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">r</td><td>The RoI to copy </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to this RoI </dd></dl>
 
 </div>
 </div>

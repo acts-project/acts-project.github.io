@@ -67,7 +67,7 @@ var searchData=
   ['trapezoidbounds_64',['TrapezoidBounds',['../class_acts_1_1_trapezoid_bounds.html',1,'Acts']]],
   ['trapezoidportalshell_65',['TrapezoidPortalShell',['../class_acts_1_1_trapezoid_portal_shell.html',1,'Acts']]],
   ['trapezoidvolumebounds_66',['TrapezoidVolumeBounds',['../class_acts_1_1_trapezoid_volume_bounds.html',1,'Acts']]],
-  ['trigindetsilayer_67',['TrigInDetSiLayer',['../class_acts_1_1_experimental_1_1_trig_in_det_si_layer.html',1,'Acts::Experimental']]],
+  ['trigindetsilayer_67',['TrigInDetSiLayer',['../struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html',1,'Acts::Experimental']]],
   ['tripletcandidate_68',['TripletCandidate',['../struct_acts_1_1_triplet_candidate.html',1,'Acts']]],
   ['tripletseeder_69',['TripletSeeder',['../class_acts_1_1_triplet_seeder.html',1,'Acts']]],
   ['tripletseedfinder_70',['TripletSeedFinder',['../class_acts_1_1_triplet_seed_finder.html',1,'Acts']]],

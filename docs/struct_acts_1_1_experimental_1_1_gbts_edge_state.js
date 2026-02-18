@@ -1,18 +1,16 @@
 var struct_acts_1_1_experimental_1_1_gbts_edge_state =
 [
-    [ "Compare", "struct_acts_1_1_experimental_1_1_gbts_edge_state_1_1_compare.html", "struct_acts_1_1_experimental_1_1_gbts_edge_state_1_1_compare" ],
     [ "GbtsEdgeState", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a979ce2eb4c0f5756fd0b08652b554271", null ],
-    [ "clone", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#af993e6584371aca7bcb1f17a50556e96", null ],
-    [ "initialize", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a074d09665ccad331f89ba534bfc4ce1c", null ],
-    [ "m_c", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#ae7b0836a5c5e18212945fc9a54d922ad", null ],
-    [ "m_Cx", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#add48a14f9fccc13b5d5eb6c93f3ce542", null ],
-    [ "m_Cy", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a6e034468d887fe9ac14408febf04b011", null ],
-    [ "m_initialized", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#ac1c63b01f9e704d569a2dbbd03896f6c", null ],
-    [ "m_J", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#ae193a6fe8f72c3acc1588a3b86c6b97f", null ],
-    [ "m_refX", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#aaa211c5b06634c87aa347ac4424763cc", null ],
-    [ "m_refY", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#af6389ba4c4ee91e22315240657c48842", null ],
-    [ "m_s", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a08facebee4037112a0463f04cd167cea", null ],
-    [ "m_vs", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a63d0663af2367be0d444898deda6b3f4", null ],
-    [ "m_X", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#aff45528f6dde525bd1471099ece4281a", null ],
-    [ "m_Y", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#aec1efc1a17db6b6feeeb130865685903", null ]
+    [ "initialize", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#abf94b30343bff53ba57443bfa35fe917", null ],
+    [ "c", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf", null ],
+    [ "cx", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a74932b18b3d80b79c870849833f4553f", null ],
+    [ "cy", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a914c0873f13e66a6698fb6743a56a8b7", null ],
+    [ "initialized", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0a9bac92fa9e2697515df710560ab4b8", null ],
+    [ "j", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0225fa98f3ca1c96f901144b8e355fae", null ],
+    [ "refX", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a17e0bd61f536779644c045b17aecde6e", null ],
+    [ "refY", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#ac0cb728080d67342bbef4e3a721c3b00", null ],
+    [ "s", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#abd4326e44df2dd8640a5b225c05bc8da", null ],
+    [ "vs", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a592b1740a5e3259ce312ab0248adb0d5", null ],
+    [ "x", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a09bd7ec4ae08f386df2ea8477444a517", null ],
+    [ "y", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a29dc3057ca14c36df3b9fe67664ee921", null ]
 ];
