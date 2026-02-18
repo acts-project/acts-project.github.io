@@ -1,5 +1,8 @@
 var NAVTREEINDEX46 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a72d3949958f444e386572241647e6425":[8,0,0,26,1,6],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a75a02ca8e5a4c52d53b50e7d32f76d4b":[6,0,0,18,1,5],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a75a02ca8e5a4c52d53b50e7d32f76d4b":[8,0,0,26,1,5],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89":[6,0,0,18,1,2],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89":[8,0,0,26,1,2],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa6fc33291dfd5e7d9c02ba53c3231534":[6,0,0,18,1,1],
@@ -46,13 +49,13 @@ var NAVTREEINDEX46 =
 "struct_acts_1_1_any_surface_reached.html#a073f28bc5145b4b26d71b2a487f212cc":[6,0,0,27,0],
 "struct_acts_1_1_any_surface_reached.html#a073f28bc5145b4b26d71b2a487f212cc":[8,0,0,35,0],
 "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html":[5,3,2,1,0],
-"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html":[5,10,0,0],
+"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html":[5,11,0,0],
 "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#a806d0c26cc4f10791f8c8059f4fd4858":[5,3,2,1,0,0],
-"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#a806d0c26cc4f10791f8c8059f4fd4858":[5,10,0,0,0],
+"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#a806d0c26cc4f10791f8c8059f4fd4858":[5,11,0,0,0],
 "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#aa460f1ac0037863d935c228ea3411597":[5,3,2,1,0,1],
-"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#aa460f1ac0037863d935c228ea3411597":[5,10,0,0,1],
+"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#aa460f1ac0037863d935c228ea3411597":[5,11,0,0,1],
 "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#ac6c7d084a64554a95befce192b56293f":[5,3,2,1,0,2],
-"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#ac6c7d084a64554a95befce192b56293f":[5,10,0,0,2],
+"struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#ac6c7d084a64554a95befce192b56293f":[5,11,0,0,2],
 "struct_acts_1_1_atlas_stepper_1_1_config.html":[6,0,0,35,0],
 "struct_acts_1_1_atlas_stepper_1_1_config.html":[8,0,0,43,0],
 "struct_acts_1_1_atlas_stepper_1_1_config.html#a84d3f3c142ae47956e755181e051cd5f":[6,0,0,35,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX46 =
 "struct_acts_1_1_color.html#a1adb05eb916045365335b694ffeb88b3":[6,0,0,62,7],
 "struct_acts_1_1_color.html#a1adb05eb916045365335b694ffeb88b3":[8,0,0,70,7],
 "struct_acts_1_1_color.html#a211c5c51d93f38676c26f6a649785b11":[6,0,0,62,9],
-"struct_acts_1_1_color.html#a211c5c51d93f38676c26f6a649785b11":[8,0,0,70,9],
-"struct_acts_1_1_color.html#a2635bf065433542f59c8b7ff802aa634":[6,0,0,62,8],
-"struct_acts_1_1_color.html#a2635bf065433542f59c8b7ff802aa634":[8,0,0,70,8],
-"struct_acts_1_1_color.html#a42594d9bc1adb9b3aad1747b80e39d32":[6,0,0,62,3]
+"struct_acts_1_1_color.html#a211c5c51d93f38676c26f6a649785b11":[8,0,0,70,9]
 };

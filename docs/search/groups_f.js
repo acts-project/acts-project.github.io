@@ -5,5 +5,6 @@ var searchData=
   ['track_20finding_2',['Track Finding',['../group__track__finding.html',1,'']]],
   ['track_20fitting_3',['Track Fitting',['../group__track__fitting.html',1,'']]],
   ['track_20parameters_4',['Charge interpretation for track parameters',['../group__eventdata-charge.html',1,'']]],
-  ['types_5',['Algebra types',['../group__algebra__types.html',1,'']]]
+  ['track_20parameters_20from_20seed_5',['Estimate track parameters from seed',['../group__est__track__params.html',1,'']]],
+  ['types_6',['Algebra types',['../group__algebra__types.html',1,'']]]
 ];

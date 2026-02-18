@@ -2091,16 +2091,20 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:a08a2ca0bdef285b222916dd7ecb30562" id="r_a08a2ca0bdef285b222916dd7ecb30562"><td class="memTemplParams" colspan="2">template&lt;typename container_type, typename index_type = typename std::decay_t&lt;container_type&gt;::size_type, typename container_type_iter = decltype(std::begin(std::declval&lt;container_type&gt;())), typename = decltype(std::end(std::declval&lt;container_type&gt;()))&gt; </td></tr>
 <tr class="memitem:a08a2ca0bdef285b222916dd7ecb30562 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a2ca0bdef285b222916dd7ecb30562">enumerate</a> (container_type &amp;&amp;iterable)</td></tr>
 <tr class="memdesc:a08a2ca0bdef285b222916dd7ecb30562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper utility to allow indexed enumeration with structured binding.  <br /></td></tr>
-<tr class="memitem:a41ce01de709daded7eca97fac1268093" id="r_a41ce01de709daded7eca97fac1268093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ce01de709daded7eca97fac1268093">estimateTrackParamCovariance</a> (const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;config, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;params, bool hasTime)</td></tr>
-<tr class="memdesc:a41ce01de709daded7eca97fac1268093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the covariance matrix of the given track parameters based on the provided configuration.  <br /></td></tr>
-<tr class="memitem:a6993b7c73820f46cd3c74271787accb8" id="r_a6993b7c73820f46cd3c74271787accb8"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range spacepoint_range_t&gt; </td></tr>
-<tr class="memitem:a6993b7c73820f46cd3c74271787accb8 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6993b7c73820f46cd3c74271787accb8">estimateTrackParamsFromSeed</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, spacepoint_range_t spRange, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
-<tr class="memdesc:a6993b7c73820f46cd3c74271787accb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the full track parameters from three space points.  <br /></td></tr>
-<tr class="memitem:af38513640e42e706177f3812515d1b62" id="r_af38513640e42e706177f3812515d1b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38513640e42e706177f3812515d1b62">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
-<tr class="memdesc:af38513640e42e706177f3812515d1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the full track parameters from three space points.  <br /></td></tr>
-<tr class="memitem:a57fee6bb48f063dd49269e39bfdc36fc" id="r_a57fee6bb48f063dd49269e39bfdc36fc"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range spacepoint_range_t&gt; </td></tr>
-<tr class="memitem:a57fee6bb48f063dd49269e39bfdc36fc template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57fee6bb48f063dd49269e39bfdc36fc">estimateTrackParamsFromSeed</a> (spacepoint_range_t spRange, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
-<tr class="memdesc:a57fee6bb48f063dd49269e39bfdc36fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the full track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:ga41ce01de709daded7eca97fac1268093" id="r_ga41ce01de709daded7eca97fac1268093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga41ce01de709daded7eca97fac1268093">estimateTrackParamCovariance</a> (const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;config, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;params, bool hasTime)</td></tr>
+<tr class="memdesc:ga41ce01de709daded7eca97fac1268093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the covariance matrix of the given track parameters based on the provided configuration.  <br /></td></tr>
+<tr class="memitem:ga732bf076c17c6bde6d8b9481f6632079" id="r_ga732bf076c17c6bde6d8b9481f6632079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga732bf076c17c6bde6d8b9481f6632079">estimateTrackParamsFromSeed</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, double t0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
+<tr class="memdesc:ga732bf076c17c6bde6d8b9481f6632079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate bound track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:ga6993b7c73820f46cd3c74271787accb8" id="r_ga6993b7c73820f46cd3c74271787accb8"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range spacepoint_range_t&gt; </td></tr>
+<tr class="memitem:ga6993b7c73820f46cd3c74271787accb8 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga6993b7c73820f46cd3c74271787accb8">estimateTrackParamsFromSeed</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, spacepoint_range_t spRange, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
+<tr class="memdesc:ga6993b7c73820f46cd3c74271787accb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate bound track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:gaf38513640e42e706177f3812515d1b62" id="r_gaf38513640e42e706177f3812515d1b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#gaf38513640e42e706177f3812515d1b62">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
+<tr class="memdesc:gaf38513640e42e706177f3812515d1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:ga7fe761cda6f4044341697468a153ab19" id="r_ga7fe761cda6f4044341697468a153ab19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga7fe761cda6f4044341697468a153ab19">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, double t0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
+<tr class="memdesc:ga7fe761cda6f4044341697468a153ab19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:ga57fee6bb48f063dd49269e39bfdc36fc" id="r_ga57fee6bb48f063dd49269e39bfdc36fc"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range spacepoint_range_t&gt; </td></tr>
+<tr class="memitem:ga57fee6bb48f063dd49269e39bfdc36fc template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga57fee6bb48f063dd49269e39bfdc36fc">estimateTrackParamsFromSeed</a> (spacepoint_range_t spRange, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
+<tr class="memdesc:ga57fee6bb48f063dd49269e39bfdc36fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
 <tr class="memitem:a10e8cfcddde31768275e024c61f03a70" id="r_a10e8cfcddde31768275e024c61f03a70"><td class="memTemplParams" colspan="2">template&lt;typename queries_type, typename expansion_type, std::size_t kDIM&gt; </td></tr>
 <tr class="memitem:a10e8cfcddde31768275e024c61f03a70 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e8cfcddde31768275e024c61f03a70">expand</a> (queries_type &amp;gridQueries, const expansion_type &amp;referenceExpansion)</td></tr>
 <tr class="memdesc:a10e8cfcddde31768275e024c61f03a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to expand the grid queries along a given dimension.  <br /></td></tr>
@@ -6677,190 +6681,6 @@ template&lt;typename container_type, typename index_type = typename std::decay_t
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Enumerable wrapper with index and value pairs </dd></dl>
-
-</div>
-</div>
-<a id="a41ce01de709daded7eca97fac1268093" name="a41ce01de709daded7eca97fac1268093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ce01de709daded7eca97fac1268093">&#9670;&#160;</a></span>estimateTrackParamCovariance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> Acts::estimateTrackParamCovariance </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>hasTime</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Estimate the covariance matrix of the given track parameters based on the provided configuration. </p>
-<p>The assumption is that we can model the uncertainty of the track parameters as a diagonal matrix with the provided initial sigmas. The inflation factors are used to inflate the initial variances based on the provided configuration. The uncertainty of q/p is estimated based on the relative uncertainty of the q/pt and the theta uncertainty.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">config</td><td>is the configuration for the estimation </td></tr>
-    <tr><td class="paramname">params</td><td>is the track parameters </td></tr>
-    <tr><td class="paramname">hasTime</td><td>is true if the track parameters have time</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the covariance matrix of the track parameters </dd></dl>
-
-</div>
-</div>
-<a id="a6993b7c73820f46cd3c74271787accb8" name="a6993b7c73820f46cd3c74271787accb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6993b7c73820f46cd3c74271787accb8">&#9670;&#160;</a></span>estimateTrackParamsFromSeed() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::ranges::range spacepoint_range_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt; Acts::estimateTrackParamsFromSeed </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">spacepoint_range_t</td>          <td class="paramname"><span class="paramname"><em>spRange</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Estimate the full track parameters from three space points. </p>
-<p>This method is based on the conformal map transformation. It estimates the full bound track parameters, i.e. (loc0, loc1, phi, theta, q/p, t) at the bottom space point. The bottom space is assumed to be the first element in the range defined by the iterators. It must lie on the surface provided for the representation of the bound track parameters. The magnetic field (which might be along any direction) is also necessary for the momentum estimation.</p>
-<p>It resembles the method used in ATLAS for the track parameters estimated from seed, i.e. the function InDet::SiTrackMaker_xk::getAtaPlane here: <a href="https://acode-browser.usatlas.bnl.gov/lxr/source/athena/InnerGeometry/InDetRecTools/SiTrackMakerTool_xk/src/SiTrackMaker_xk.cxx">https://acode-browser.usatlas.bnl.gov/lxr/source/athena/InnerGeometry/InDetRecTools/SiTrackMakerTool_xk/src/SiTrackMaker_xk.cxx</a></p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">spacepoint_iterator_t</td><td>The type of space point iterator</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gctx</td><td>is the geometry context </td></tr>
-    <tr><td class="paramname">spRange</td><td>is the range of space points </td></tr>
-    <tr><td class="paramname">surface</td><td>is the surface of the bottom space point. The estimated bound track parameters will be represented also at this surface </td></tr>
-    <tr><td class="paramname">bField</td><td>is the magnetic field vector</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>bound parameters </dd></dl>
-
-</div>
-</div>
-<a id="af38513640e42e706177f3812515d1b62" name="af38513640e42e706177f3812515d1b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af38513640e42e706177f3812515d1b62">&#9670;&#160;</a></span>estimateTrackParamsFromSeed() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> Acts::estimateTrackParamsFromSeed </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp1</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp2</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Estimate the full track parameters from three space points. </p>
-<p>This method is based on the conformal map transformation. It estimates the full free track parameters, i.e. (x, y, z, t, dx, dy, dz, q/p) at the bottom space point. The bottom space is assumed to be the first element in the range defined by the iterators. The magnetic field (which might be along any direction) is also necessary for the momentum estimation.</p>
-<p>This is a purely spatial estimation, i.e. the time parameter will be set to 0.</p>
-<p>It resembles the method used in ATLAS for the track parameters estimated from seed, i.e. the function InDet::SiTrackMaker_xk::getAtaPlane here: <a href="https://acode-browser.usatlas.bnl.gov/lxr/source/athena/InnerGeometry/InDetRecTools/SiTrackMakerTool_xk/src/SiTrackMaker_xk.cxx">https://acode-browser.usatlas.bnl.gov/lxr/source/athena/InnerGeometry/InDetRecTools/SiTrackMakerTool_xk/src/SiTrackMaker_xk.cxx</a></p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">spacepoint_iterator_t</td><td>The type of space point iterator</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sp0</td><td>is the bottom space point </td></tr>
-    <tr><td class="paramname">sp1</td><td>is the middle space point </td></tr>
-    <tr><td class="paramname">sp2</td><td>is the top space point </td></tr>
-    <tr><td class="paramname">bField</td><td>is the magnetic field vector</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the free parameters </dd></dl>
-
-</div>
-</div>
-<a id="a57fee6bb48f063dd49269e39bfdc36fc" name="a57fee6bb48f063dd49269e39bfdc36fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57fee6bb48f063dd49269e39bfdc36fc">&#9670;&#160;</a></span>estimateTrackParamsFromSeed() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::ranges::range spacepoint_range_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> Acts::estimateTrackParamsFromSeed </td>
-          <td>(</td>
-          <td class="paramtype">spacepoint_range_t</td>          <td class="paramname"><span class="paramname"><em>spRange</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Estimate the full track parameters from three space points. </p>
-<p>This method is based on the conformal map transformation. It estimates the full free track parameters, i.e. (x, y, z, t, dx, dy, dz, q/p) at the bottom space point. The bottom space is assumed to be the first element in the range defined by the iterators. The magnetic field (which might be along any direction) is also necessary for the momentum estimation.</p>
-<p>It resembles the method used in ATLAS for the track parameters estimated from seed, i.e. the function InDet::SiTrackMaker_xk::getAtaPlane here: <a href="https://acode-browser.usatlas.bnl.gov/lxr/source/athena/InnerGeometry/InDetRecTools/SiTrackMakerTool_xk/src/SiTrackMaker_xk.cxx">https://acode-browser.usatlas.bnl.gov/lxr/source/athena/InnerGeometry/InDetRecTools/SiTrackMakerTool_xk/src/SiTrackMaker_xk.cxx</a></p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">spacepoint_iterator_t</td><td>The type of space point iterator</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">spRange</td><td>is the range of space points </td></tr>
-    <tr><td class="paramname">bField</td><td>is the magnetic field vector</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the free parameters </dd></dl>
 
 </div>
 </div>

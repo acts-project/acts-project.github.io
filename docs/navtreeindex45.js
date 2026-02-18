@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"namespace_acts_1_1_unit_constants.html#a3530175873b86d70def5bef01851b1cb":[6,0,0,7,7],
+"namespace_acts_1_1_unit_constants.html#a35835d34c7350277e80ceb2c81d20895":[6,0,0,7,13],
+"namespace_acts_1_1_unit_constants.html#a372061f7fa8f9f45b7dbd79f5c07495e":[6,0,0,7,1],
 "namespace_acts_1_1_unit_constants.html#a3c2306f2168243ce1b461df5b0a3b579":[6,0,0,7,3],
 "namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182":[6,0,0,7,11],
 "namespace_acts_1_1_unit_constants.html#a42a562233a5d6d8b02e6321db94c6229":[6,0,0,7,18],
@@ -61,8 +64,8 @@ var NAVTREEINDEX45 =
 "namespace_acts_plugins.html#aafbee9abd742ee35551c04421ce92d5c":[6,0,3,117],
 "namespace_acts_plugins.html#adbf2696929f3ff34ce66755b356c1ee9":[6,0,3,116],
 "namespace_acts_plugins.html#af5ce6b7d9a68cece7e747f9753030831":[6,0,3,115],
-"namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html":[5,8,0,0],
-"namespace_acts_plugins_1_1_svg_1_1_surface_array_converter.html":[5,8,0,1],
+"namespace_acts_plugins_1_1_svg_1_1_event_data_converter.html":[5,9,0,0],
+"namespace_acts_plugins_1_1_svg_1_1_surface_array_converter.html":[5,9,0,1],
 "namespaces.html":[6,0],
 "pages.html":[],
 "physmon.html":[2,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952":[8,0,0,26,1,10],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a4c37136ebbd66d98fb56f99b01a68914":[6,0,0,18,1,0],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a4c37136ebbd66d98fb56f99b01a68914":[8,0,0,26,1,0],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a72d3949958f444e386572241647e6425":[6,0,0,18,1,6],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a72d3949958f444e386572241647e6425":[8,0,0,26,1,6],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a75a02ca8e5a4c52d53b50e7d32f76d4b":[6,0,0,18,1,5],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a75a02ca8e5a4c52d53b50e7d32f76d4b":[8,0,0,26,1,5]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a72d3949958f444e386572241647e6425":[6,0,0,18,1,6]
 };
