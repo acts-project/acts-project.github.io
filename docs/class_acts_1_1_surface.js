@@ -2,7 +2,7 @@ var class_acts_1_1_surface =
 [
     [ "SurfaceType", "class_acts_1_1_surface.html#a34fd1452f7603ef1f072d3c3233f9ba0", null ],
     [ "Surface", "class_acts_1_1_surface.html#a2ae67591c6ce6b42568881be16f29ddc", null ],
-    [ "Surface", "class_acts_1_1_surface.html#a2d2a64d0a93e7e8a1ed72234f6f0e299", null ],
+    [ "Surface", "class_acts_1_1_surface.html#aaa9f70808a279d640e9ae960cbf58615", null ],
     [ "Surface", "class_acts_1_1_surface.html#a362fefd7e074b60b9b2d4595b7e3f198", null ],
     [ "Surface", "class_acts_1_1_surface.html#a0c12b2fa33d81de9c50157fabf814ba5", null ],
     [ "alignmentToBoundDerivative", "class_acts_1_1_surface.html#a26b77cdb1dedf4fb87e4702f562106e3", null ],
@@ -36,7 +36,7 @@ var class_acts_1_1_surface =
     [ "makeShared", "class_acts_1_1_surface.html#a1b015430332289b80ecf57688e1b350c", null ],
     [ "name", "class_acts_1_1_surface.html#abec410b88b35540550328ddc307284fc", null ],
     [ "normal", "class_acts_1_1_surface.html#a7aa938fa6385cb956d9b5da75235289a", null ],
-    [ "operator=", "class_acts_1_1_surface.html#a0fc461beeda802f110cbdd480da516f5", null ],
+    [ "operator=", "class_acts_1_1_surface.html#af2d39a89fb21242671fd1b9872ec1d6f", null ],
     [ "operator==", "class_acts_1_1_surface.html#aa499eae940b107a7012a2875a100a4fc", null ],
     [ "pathCorrection", "class_acts_1_1_surface.html#abc1b37b98fdda34da35d19e65ab7c85c", null ],
     [ "polyhedronRepresentation", "class_acts_1_1_surface.html#a76074a485122173fe7d40ae607c6fe3c", null ],
@@ -51,6 +51,6 @@ var class_acts_1_1_surface =
     [ "transform", "class_acts_1_1_surface.html#a7a2323c3511f594a3b866c255018c671", null ],
     [ "type", "class_acts_1_1_surface.html#a0bc615a9e492d2b1771368b7bf297921", null ],
     [ "visualize", "class_acts_1_1_surface.html#a3804756230f7ae5fa25064364c973789", null ],
-    [ "m_transform", "class_acts_1_1_surface.html#acc5413d1678ec7d5b2f67498b0b38cfa", null ],
+    [ "m_transform", "class_acts_1_1_surface.html#a99e3c34eb6331004ae29abe7ceb0e0df", null ],
     [ "s_surfaceTypeNames", "class_acts_1_1_surface.html#a599b254f27b5f548f8be5f3d899fee9a", null ]
 ];

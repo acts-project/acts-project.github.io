@@ -245,10 +245,10 @@
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="430,-30 303,-30 303,0 430,0 430,-30"/>
-<text text-anchor="start" x="311" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">std::unique_ptr&lt; const</text>
-<text text-anchor="middle" x="366.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> Transform3 &gt;</text>
+<g id="a_Node000013"><a xlink:href="class_acts_1_1_cloneable_ptr.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="428,-30 305,-30 305,0 428,0 428,-30"/>
+<text text-anchor="start" x="313" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CloneablePtr</text>
+<text text-anchor="middle" x="366.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; const Transform3 &gt;</text>
 </a>
 </g>
 </g>
@@ -256,8 +256,8 @@
 <g id="edge12_Node000007_Node000013" class="edge">
 <title>Node13&#45;&gt;Node7</title>
 <g id="a_edge12_Node000007_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M440.43,-24.42C479.91,-30.91 529.05,-41.26 571,-57 599.09,-67.54 628.9,-86.13 645.76,-97.43"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="440.78,-20.93 430.35,-22.81 439.68,-27.85 440.78,-20.93"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M437.99,-24.02C477.88,-30.49 528.19,-40.94 571,-57 599.09,-67.54 628.9,-86.13 645.76,-97.43"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="438.51,-20.56 428.09,-22.47 437.42,-27.48 438.51,-20.56"/>
 </a>
 </g>
 <text text-anchor="start" x="484" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_transform</text>
@@ -265,9 +265,9 @@
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="127,-24.5 9,-24.5 9,-5.5 127,-5.5 127,-24.5"/>
-<text text-anchor="middle" x="68" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::unique_ptr&lt; T &gt;</text>
+<g id="a_Node000014"><a xlink:href="class_acts_1_1_cloneable_ptr.html" target="_top" xlink:title="A copyable smart pointer that uses a cloner function to copy the managed object.">
+<polygon fill="white" stroke="#666666" points="135,-24.5 1,-24.5 1,-5.5 135,-5.5 135,-24.5"/>
+<text text-anchor="middle" x="68" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CloneablePtr&lt; T &gt;</text>
 </a>
 </g>
 </g>
@@ -275,8 +275,8 @@
 <g id="edge13_Node000013_Node000014" class="edge">
 <title>Node14&#45;&gt;Node13</title>
 <g id="a_edge13_Node000013_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M137.28,-15C187.16,-15 254.27,-15 302.8,-15"/>
-<polygon fill="orange" stroke="orange" points="137.23,-11.5 127.23,-15 137.23,-18.5 137.23,-11.5"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M145.2,-15C194.72,-15 258.43,-15 304.58,-15"/>
+<polygon fill="orange" stroke="orange" points="145.17,-11.5 135.17,-15 145.17,-18.5 145.17,-11.5"/>
 </a>
 </g>
 <text text-anchor="start" x="160" y="-20.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; const Transform3 &gt;</text>

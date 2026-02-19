@@ -219,8 +219,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abec410b88b35540550328ddc307284fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return properly formatted class name.  <br /></td></tr>
 <tr class="memitem:a7aa938fa6385cb956d9b5da75235289a" id="r_a7aa938fa6385cb956d9b5da75235289a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa938fa6385cb956d9b5da75235289a">normal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const =0</td></tr>
 <tr class="memdesc:a7aa938fa6385cb956d9b5da75235289a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the surface normal at a given <code class="param">position</code> and <code class="param">direction</code>.  <br /></td></tr>
-<tr class="memitem:a0fc461beeda802f110cbdd480da516f5" id="r_a0fc461beeda802f110cbdd480da516f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc461beeda802f110cbdd480da516f5">operator=</a> (const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;other)</td></tr>
-<tr class="memdesc:a0fc461beeda802f110cbdd480da516f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
+<tr class="memitem:af2d39a89fb21242671fd1b9872ec1d6f" id="r_af2d39a89fb21242671fd1b9872ec1d6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2d39a89fb21242671fd1b9872ec1d6f">operator=</a> (const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;other) noexcept=default</td></tr>
+<tr class="memdesc:af2d39a89fb21242671fd1b9872ec1d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 <tr class="memitem:aa499eae940b107a7012a2875a100a4fc" id="r_aa499eae940b107a7012a2875a100a4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa499eae940b107a7012a2875a100a4fc">operator==</a> (const <a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp;other) const</td></tr>
 <tr class="memdesc:aa499eae940b107a7012a2875a100a4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison (equality) operator The strategy for comparison is (a) first pointer comparison (b) then type comparison (c) then bounds comparison (d) then transform comparison.  <br /></td></tr>
 <tr class="memitem:abc1b37b98fdda34da35d19e65ab7c85c" id="r_abc1b37b98fdda34da35d19e65ab7c85c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1b37b98fdda34da35d19e65ab7c85c">pathCorrection</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const =0</td></tr>
@@ -279,8 +279,8 @@ Static Public Attributes</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0c12b2fa33d81de9c50157fabf814ba5" id="r_a0c12b2fa33d81de9c50157fabf814ba5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c12b2fa33d81de9c50157fabf814ba5">Surface</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const Surface &amp;other, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;shift) noexcept</td></tr>
 <tr class="memdesc:a0c12b2fa33d81de9c50157fabf814ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor with optional shift.  <br /></td></tr>
-<tr class="memitem:a2d2a64d0a93e7e8a1ed72234f6f0e299" id="r_a2d2a64d0a93e7e8a1ed72234f6f0e299"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d2a64d0a93e7e8a1ed72234f6f0e299">Surface</a> (const Surface &amp;other) noexcept</td></tr>
-<tr class="memdesc:a2d2a64d0a93e7e8a1ed72234f6f0e299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
+<tr class="memitem:aaa9f70808a279d640e9ae960cbf58615" id="r_aaa9f70808a279d640e9ae960cbf58615"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa9f70808a279d640e9ae960cbf58615">Surface</a> (const Surface &amp;other) noexcept=default</td></tr>
+<tr class="memdesc:aaa9f70808a279d640e9ae960cbf58615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a362fefd7e074b60b9b2d4595b7e3f198" id="r_a362fefd7e074b60b9b2d4595b7e3f198"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a362fefd7e074b60b9b2d4595b7e3f198">Surface</a> (const <a class="el" href="class_acts_1_1_surface_placement_base.html">SurfacePlacementBase</a> &amp;placement) noexcept</td></tr>
 <tr class="memdesc:a362fefd7e074b60b9b2d4595b7e3f198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from SurfacePlacement: Element proxy.  <br /></td></tr>
 <tr class="memitem:a2ae67591c6ce6b42568881be16f29ddc" id="r_a2ae67591c6ce6b42568881be16f29ddc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a7a2323c3511f594a3b866c255018c671">transform</a>=Transform3::Identity())</td></tr>
@@ -290,9 +290,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:acc5413d1678ec7d5b2f67498b0b38cfa" id="r_acc5413d1678ec7d5b2f67498b0b38cfa"><td class="memItemLeft" align="right" valign="top"><a id="acc5413d1678ec7d5b2f67498b0b38cfa" name="acc5413d1678ec7d5b2f67498b0b38cfa"></a>
-std::unique_ptr&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_transform</b> {}</td></tr>
-<tr class="memdesc:acc5413d1678ec7d5b2f67498b0b38cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform3 definition that positions (translation, rotation) the surface in global space. <br /></td></tr>
+<tr class="memitem:a99e3c34eb6331004ae29abe7ceb0e0df" id="r_a99e3c34eb6331004ae29abe7ceb0e0df"><td class="memItemLeft" align="right" valign="top"><a id="a99e3c34eb6331004ae29abe7ceb0e0df" name="a99e3c34eb6331004ae29abe7ceb0e0df"></a>
+<a class="el" href="class_acts_1_1_cloneable_ptr.html">CloneablePtr</a>&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_transform</b> {}</td></tr>
+<tr class="memdesc:a99e3c34eb6331004ae29abe7ceb0e0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform3 definition that positions (translation, rotation) the surface in global space. <br /></td></tr>
 <tr class="inherit_header pro_attribs_class_acts_1_1_geometry_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_acts_1_1_geometry_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="class_acts_1_1_geometry_object.html">Acts::GeometryObject</a></td></tr>
 <tr class="memitem:a8670edf1ae6be633b07a2e07f370e1e4 inherit pro_attribs_class_acts_1_1_geometry_object" id="r_a8670edf1ae6be633b07a2e07f370e1e4"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_geometryId</b></td></tr>
@@ -355,8 +355,8 @@ std::unique_ptr&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf
 
 </div>
 </div>
-<a id="a2d2a64d0a93e7e8a1ed72234f6f0e299" name="a2d2a64d0a93e7e8a1ed72234f6f0e299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d2a64d0a93e7e8a1ed72234f6f0e299">&#9670;&#160;</a></span>Surface() <span class="overload">[2/4]</span></h2>
+<a id="aaa9f70808a279d640e9ae960cbf58615" name="aaa9f70808a279d640e9ae960cbf58615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa9f70808a279d640e9ae960cbf58615">&#9670;&#160;</a></span>Surface() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +373,7 @@ std::unique_ptr&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1564,11 +1564,14 @@ template&lt;class T, typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a0fc461beeda802f110cbdd480da516f5" name="a0fc461beeda802f110cbdd480da516f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fc461beeda802f110cbdd480da516f5">&#9670;&#160;</a></span>operator=()</h2>
+<a id="af2d39a89fb21242671fd1b9872ec1d6f" name="af2d39a89fb21242671fd1b9872ec1d6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d39a89fb21242671fd1b9872ec1d6f">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> &amp; Acts::Surface::operator= </td>
@@ -1577,6 +1580,11 @@ template&lt;class T, typename... Args&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Assignment operator. </p>

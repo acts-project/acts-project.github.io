@@ -23,8 +23,8 @@
 <area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="609,204,766,185,832,174,833,180,767,191,610,209"/>
 <area shape="rect" id="Node000012" title=" " alt="" coords="35,205,157,230"/>
 <area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="171,215,392,215,392,220,171,220"/>
-<area shape="rect" id="Node000013" title=" " alt="" coords="409,269,579,309"/>
-<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="592,274,678,257,766,231,821,204,865,177,868,182,823,209,768,236,679,262,593,279"/>
-<area shape="rect" id="Node000014" title=" " alt="" coords="17,277,175,302"/>
-<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="188,287,409,287,409,292,188,292"/>
+<area shape="rect" id="Node000013" href="$class_acts_1_1_cloneable_ptr.html" title=" " alt="" coords="412,269,576,309"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="589,275,676,258,766,231,821,204,865,177,868,182,823,209,768,236,677,263,590,280"/>
+<area shape="rect" id="Node000014" href="$class_acts_1_1_cloneable_ptr.html" title="A copyable smart pointer that uses a cloner function to copy the managed object." alt="" coords="7,277,185,302"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="199,287,411,287,411,292,199,292"/>
 </map>
