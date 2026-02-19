@@ -59,7 +59,7 @@ var searchData=
   ['_7esample_56',['~Sample',['../class_acts_1_1_averaging_scoped_timer_1_1_sample.html#ab4e4c960cb401870f44e4fe6f1bf6a8d',1,'Acts::AveragingScopedTimer::Sample']]],
   ['_7escopedtimer_57',['~ScopedTimer',['../class_acts_1_1_scoped_timer.html#a9941d80d8e92323b85965aa1ae270ef7',1,'Acts::ScopedTimer']]],
   ['_7eseedcontainer2_58',['~SeedContainer2',['../class_acts_1_1_seed_container2.html#ade841021cbf402e6e3df6a507ea5bb0e',1,'Acts::SeedContainer2']]],
-  ['_7eseedfinderorthogonal_59',['~SeedFinderOrthogonal',['../class_acts_1_1_seed_finder_orthogonal.html#af0592993572aee926fe61087f30a5a44',1,'Acts::SeedFinderOrthogonal']]],
+  ['_7eseedfinderorthogonal_59',['~SeedFinderOrthogonal',['../class_acts_1_1_seed_finder_orthogonal.html#a1a56b0d5d44e1df24c5f00e2a6de239a',1,'Acts::SeedFinderOrthogonal']]],
   ['_7espacepointcontainer2_60',['~SpacePointContainer2',['../class_acts_1_1_space_point_container2.html#a0871f54720bc84f4f777edb6c66cbc11',1,'Acts::SpacePointContainer2']]],
   ['_7espacepointdata_61',['~SpacePointData',['../class_acts_1_1_space_point_data.html#a963bef8d1d1d65fff43b6b5bb8980846',1,'Acts::SpacePointData']]],
   ['_7espacepointmutabledata_62',['~SpacePointMutableData',['../class_acts_1_1_space_point_mutable_data.html#a4f57f300c33a0e8c46678f71683cc393',1,'Acts::SpacePointMutableData']]],

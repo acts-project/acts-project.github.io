@@ -138,14 +138,14 @@ Inheritance diagram for ActsPlugins::TrackBuildingBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acbe79e8a8d16aea71703e62163fa0c0c" id="r_acbe79e8a8d16aea71703e62163fa0c0c"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe79e8a8d16aea71703e62163fa0c0c">operator()</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> tensors, std::vector&lt; int &gt; &amp;spacepointIDs, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext={})=0</td></tr>
-<tr class="memdesc:acbe79e8a8d16aea71703e62163fa0c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform track building.  <br /></td></tr>
+<tr class="memitem:a6cb188acd0eb9341dca9a6c3441965d3" id="r_a6cb188acd0eb9341dca9a6c3441965d3"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cb188acd0eb9341dca9a6c3441965d3">operator()</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> tensors, std::vector&lt; int &gt; &amp;spacePointIDs, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext={})=0</td></tr>
+<tr class="memdesc:a6cb188acd0eb9341dca9a6c3441965d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform track building.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for track building implementations. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="acbe79e8a8d16aea71703e62163fa0c0c" name="acbe79e8a8d16aea71703e62163fa0c0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbe79e8a8d16aea71703e62163fa0c0c">&#9670;&#160;</a></span>operator()()</h2>
+<a id="a6cb188acd0eb9341dca9a6c3441965d3" name="a6cb188acd0eb9341dca9a6c3441965d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cb188acd0eb9341dca9a6c3441965d3">&#9670;&#160;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacepointIDs</em></span>, </td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePointIDs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -180,14 +180,14 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tensors</td><td>Input pipeline tensors </td></tr>
-    <tr><td class="paramname">spacepointIDs</td><td>IDs of the nodes (must have size=n_nodes) </td></tr>
+    <tr><td class="paramname">spacePointIDs</td><td>IDs of the nodes (must have size=n_nodes) </td></tr>
     <tr><td class="paramname">execContext</td><td>Device &amp; stream information</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>tracks (as vectors of node-IDs) </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_plugins_1_1_boost_track_building.html#ab32824e4ad780b281d7897a0c1b4730c">ActsPlugins::BoostTrackBuilding</a>, and <a class="el" href="class_acts_plugins_1_1_cuda_track_building.html#aedbec097b25d4b70219b2ec87e0cf2e8">ActsPlugins::CudaTrackBuilding</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_plugins_1_1_boost_track_building.html#a1c51e8e9535951f5c483f6fb628d9a23">ActsPlugins::BoostTrackBuilding</a>, and <a class="el" href="class_acts_plugins_1_1_cuda_track_building.html#a1a673249a12e3d22b9c8861ee387af74">ActsPlugins::CudaTrackBuilding</a>.</p>
 
 </div>
 </div>

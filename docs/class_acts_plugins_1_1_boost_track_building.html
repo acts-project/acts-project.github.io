@@ -151,8 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aba85bdbb422463cf8ada387f09b17607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a596162f9bcb230a7f98040dc86f692d4" id="r_a596162f9bcb230a7f98040dc86f692d4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_plugins_1_1_boost_track_building_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a596162f9bcb230a7f98040dc86f692d4">config</a> () const</td></tr>
 <tr class="memdesc:a596162f9bcb230a7f98040dc86f692d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get configuration.  <br /></td></tr>
-<tr class="memitem:ab32824e4ad780b281d7897a0c1b4730c" id="r_ab32824e4ad780b281d7897a0c1b4730c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab32824e4ad780b281d7897a0c1b4730c">operator()</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> tensors, std::vector&lt; int &gt; &amp;spacepointIDs, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext={}) override</td></tr>
-<tr class="memdesc:ab32824e4ad780b281d7897a0c1b4730c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform track building.  <br /></td></tr>
+<tr class="memitem:a1c51e8e9535951f5c483f6fb628d9a23" id="r_a1c51e8e9535951f5c483f6fb628d9a23"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c51e8e9535951f5c483f6fb628d9a23">operator()</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> tensors, std::vector&lt; int &gt; &amp;spacePointIDs, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext={}) override</td></tr>
+<tr class="memdesc:a1c51e8e9535951f5c483f6fb628d9a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform track building.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Track building implementation using Boost. </p>
@@ -208,8 +208,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab32824e4ad780b281d7897a0c1b4730c" name="ab32824e4ad780b281d7897a0c1b4730c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab32824e4ad780b281d7897a0c1b4730c">&#9670;&#160;</a></span>operator()()</h2>
+<a id="a1c51e8e9535951f5c483f6fb628d9a23" name="a1c51e8e9535951f5c483f6fb628d9a23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c51e8e9535951f5c483f6fb628d9a23">&#9670;&#160;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,7 +225,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacepointIDs</em></span>, </td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePointIDs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -244,14 +244,14 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tensors</td><td>Input pipeline tensors </td></tr>
-    <tr><td class="paramname">spacepointIDs</td><td>IDs of the nodes (must have size=n_nodes) </td></tr>
+    <tr><td class="paramname">spacePointIDs</td><td>IDs of the nodes (must have size=n_nodes) </td></tr>
     <tr><td class="paramname">execContext</td><td>Device &amp; stream information</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>tracks (as vectors of node-IDs) </dd></dl>
 
-<p>Implements <a class="el" href="class_acts_plugins_1_1_track_building_base.html#acbe79e8a8d16aea71703e62163fa0c0c">ActsPlugins::TrackBuildingBase</a>.</p>
+<p>Implements <a class="el" href="class_acts_plugins_1_1_track_building_base.html#a6cb188acd0eb9341dca9a6c3441965d3">ActsPlugins::TrackBuildingBase</a>.</p>
 
 </div>
 </div>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::SpacePointBuilder&lt; spacepoint_t &gt; Class Template Reference</title>
+<title>ACTS: Acts::SpacePointBuilder&lt; space_point_t &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,7 +122,7 @@ $(function(){initNavTree('class_acts_1_1_space_point_builder.html','','class_act
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::SpacePointBuilder&lt; spacepoint_t &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::SpacePointBuilder&lt; space_point_t &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -131,64 +131,64 @@ $(function(){initNavTree('class_acts_1_1_space_point_builder.html','','class_act
 
 <p><code>#include &lt;<a class="el" href="_space_point_builder_8hpp_source.html">Acts/SpacePointFormation/SpacePointBuilder.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for Acts::SpacePointBuilder&lt; spacepoint_t &gt;:</div>
+Collaboration diagram for Acts::SpacePointBuilder&lt; space_point_t &gt;:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_space_point_builder__coll__graph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9c89abcff9454ce8d9532c1e15ec8206" id="r_a9c89abcff9454ce8d9532c1e15ec8206"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a></td></tr>
-<tr class="memdesc:a9c89abcff9454ce8d9532c1e15ec8206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for space point builder function.  <br /></td></tr>
+<tr class="memitem:a448928e7f99a9e537bc997869756708a" id="r_a448928e7f99a9e537bc997869756708a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448928e7f99a9e537bc997869756708a">BuilderFunction</a></td></tr>
+<tr class="memdesc:a448928e7f99a9e537bc997869756708a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for space point builder function.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0ba18ff42d83423c6c3f1ac395a5e59c" id="r_a0ba18ff42d83423c6c3f1ac395a5e59c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ba18ff42d83423c6c3f1ac395a5e59c">SpacePointBuilder</a> (const <a class="el" href="struct_acts_1_1_space_point_builder_config.html">SpacePointBuilderConfig</a> &amp;cfg, const <a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a> &amp;func, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; <a class="el" href="#ab27961c5cc55923b413b03003dc2a751">logger</a>=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SpacePointBuilder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
-<tr class="memitem:aca62261e1f50c0faa2997cc29116ab99" id="r_aca62261e1f50c0faa2997cc29116ab99"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; typename container_t&gt; </td></tr>
-<tr class="memitem:aca62261e1f50c0faa2997cc29116ab99 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca62261e1f50c0faa2997cc29116ab99">buildSpacePoint</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;sourceLinks, const <a class="el" href="struct_acts_1_1_space_point_builder_options.html">SpacePointBuilderOptions</a> &amp;opt, std::back_insert_iterator&lt; container_t&lt; spacepoint_t &gt; &gt; spacePointIt) const</td></tr>
-<tr class="memdesc:aca62261e1f50c0faa2997cc29116ab99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the space points out of a given collection of SourceLinks and stores the results.  <br /></td></tr>
-<tr class="memitem:a78aba46e5ee7bdc69025fd6f34250285" id="r_a78aba46e5ee7bdc69025fd6f34250285"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78aba46e5ee7bdc69025fd6f34250285">makeSourceLinkPairs</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;slinksFront, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;slinksBack, std::vector&lt; std::pair&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a>, <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &gt; &amp;slinkPairs, const <a class="el" href="struct_acts_1_1_strip_pair_options.html">StripPairOptions</a> &amp;pairOpt) const</td></tr>
-<tr class="memdesc:a78aba46e5ee7bdc69025fd6f34250285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches possible combinations of two SourceLinks on different surfaces that may come from the same particles.  <br /></td></tr>
+<tr class="memitem:a08bc848eff9d7fa258f981d4767a20d8" id="r_a08bc848eff9d7fa258f981d4767a20d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08bc848eff9d7fa258f981d4767a20d8">SpacePointBuilder</a> (const <a class="el" href="struct_acts_1_1_space_point_builder_config.html">SpacePointBuilderConfig</a> &amp;cfg, const <a class="el" href="#a448928e7f99a9e537bc997869756708a">BuilderFunction</a> &amp;func, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; <a class="el" href="#ac09efee2076fce3ec721516943206999">logger</a>=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SpacePointBuilder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
+<tr class="memitem:a569a9c5d760bb6c5fd798ab3d5afda38" id="r_a569a9c5d760bb6c5fd798ab3d5afda38"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; typename container_t&gt; </td></tr>
+<tr class="memitem:a569a9c5d760bb6c5fd798ab3d5afda38 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569a9c5d760bb6c5fd798ab3d5afda38">buildSpacePoint</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;sourceLinks, const <a class="el" href="struct_acts_1_1_space_point_builder_options.html">SpacePointBuilderOptions</a> &amp;opt, std::back_insert_iterator&lt; container_t&lt; space_point_t &gt; &gt; spacePointIt) const</td></tr>
+<tr class="memdesc:a569a9c5d760bb6c5fd798ab3d5afda38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the space points out of a given collection of SourceLinks and stores the results.  <br /></td></tr>
+<tr class="memitem:aa12cc5a4167dfb431db4500e217ee22d" id="r_aa12cc5a4167dfb431db4500e217ee22d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12cc5a4167dfb431db4500e217ee22d">makeSourceLinkPairs</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;slinksFront, const std::vector&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &amp;slinksBack, std::vector&lt; std::pair&lt; <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a>, <a class="el" href="class_acts_1_1_source_link.html">SourceLink</a> &gt; &gt; &amp;slinkPairs, const <a class="el" href="struct_acts_1_1_strip_pair_options.html">StripPairOptions</a> &amp;pairOpt) const</td></tr>
+<tr class="memdesc:aa12cc5a4167dfb431db4500e217ee22d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches possible combinations of two SourceLinks on different surfaces that may come from the same particles.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab27961c5cc55923b413b03003dc2a751" id="r_ab27961c5cc55923b413b03003dc2a751"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab27961c5cc55923b413b03003dc2a751">logger</a> () const</td></tr>
-<tr class="memdesc:ab27961c5cc55923b413b03003dc2a751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the logger instance.  <br /></td></tr>
+<tr class="memitem:ac09efee2076fce3ec721516943206999" id="r_ac09efee2076fce3ec721516943206999"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac09efee2076fce3ec721516943206999">logger</a> () const</td></tr>
+<tr class="memdesc:ac09efee2076fce3ec721516943206999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the logger instance.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:afdafc2dedaeb7173acc3d9fb067d09ab" id="r_afdafc2dedaeb7173acc3d9fb067d09ab"><td class="memItemLeft" align="right" valign="top"><a id="afdafc2dedaeb7173acc3d9fb067d09ab" name="afdafc2dedaeb7173acc3d9fb067d09ab"></a>
+<tr class="memitem:a2797213ade70d1aa5819fd229d25e5f2" id="r_a2797213ade70d1aa5819fd229d25e5f2"><td class="memItemLeft" align="right" valign="top"><a id="a2797213ade70d1aa5819fd229d25e5f2" name="a2797213ade70d1aa5819fd229d25e5f2"></a>
 <a class="el" href="struct_acts_1_1_space_point_builder_config.html">SpacePointBuilderConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_config</b></td></tr>
-<tr class="memdesc:afdafc2dedaeb7173acc3d9fb067d09ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the single hit space point builder. <br /></td></tr>
-<tr class="memitem:a1a4387f6dece1a4da406d19bc8a03645" id="r_a1a4387f6dece1a4da406d19bc8a03645"><td class="memItemLeft" align="right" valign="top"><a id="a1a4387f6dece1a4da406d19bc8a03645" name="a1a4387f6dece1a4da406d19bc8a03645"></a>
+<tr class="memdesc:a2797213ade70d1aa5819fd229d25e5f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the single hit space point builder. <br /></td></tr>
+<tr class="memitem:a8ff6486845c4d970010fce595177949b" id="r_a8ff6486845c4d970010fce595177949b"><td class="memItemLeft" align="right" valign="top"><a id="a8ff6486845c4d970010fce595177949b" name="a8ff6486845c4d970010fce595177949b"></a>
 std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_logger</b></td></tr>
-<tr class="memdesc:a1a4387f6dece1a4da406d19bc8a03645"><td class="mdescLeft">&#160;</td><td class="mdescRight">the logging instance <br /></td></tr>
-<tr class="memitem:a02cc5767ed1a7ec59a0eb44c30666484" id="r_a02cc5767ed1a7ec59a0eb44c30666484"><td class="memItemLeft" align="right" valign="top"><a id="a02cc5767ed1a7ec59a0eb44c30666484" name="a02cc5767ed1a7ec59a0eb44c30666484"></a>
-<a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_spConstructor</b></td></tr>
-<tr class="memdesc:a02cc5767ed1a7ec59a0eb44c30666484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create external space point The constructor of spacepoint_t with Vector3 global pos, Vector2 global cov, and vector of source link pointers. <br /></td></tr>
-<tr class="memitem:ac738229a502a99df4b6c560d0ddeced3" id="r_ac738229a502a99df4b6c560d0ddeced3"><td class="memItemLeft" align="right" valign="top"><a id="ac738229a502a99df4b6c560d0ddeced3" name="ac738229a502a99df4b6c560d0ddeced3"></a>
+<tr class="memdesc:a8ff6486845c4d970010fce595177949b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the logging instance <br /></td></tr>
+<tr class="memitem:a59862aba416fdbb6bf6cac955d53487a" id="r_a59862aba416fdbb6bf6cac955d53487a"><td class="memItemLeft" align="right" valign="top"><a id="a59862aba416fdbb6bf6cac955d53487a" name="a59862aba416fdbb6bf6cac955d53487a"></a>
+<a class="el" href="#a448928e7f99a9e537bc997869756708a">BuilderFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_spConstructor</b></td></tr>
+<tr class="memdesc:a59862aba416fdbb6bf6cac955d53487a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create external space point The constructor of space_point_t with Vector3 global pos, Vector2 global cov, and vector of source link pointers. <br /></td></tr>
+<tr class="memitem:a31d3413024e2d52592cb4c135a36bca9" id="r_a31d3413024e2d52592cb4c135a36bca9"><td class="memItemLeft" align="right" valign="top"><a id="a31d3413024e2d52592cb4c135a36bca9" name="a31d3413024e2d52592cb4c135a36bca9"></a>
 std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_space_point_utility.html">SpacePointUtility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_spUtility</b></td></tr>
-<tr class="memdesc:ac738229a502a99df4b6c560d0ddeced3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility for space point calculations. <br /></td></tr>
+<tr class="memdesc:a31d3413024e2d52592cb4c135a36bca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility for space point calculations. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename spacepoint_t&gt;<br />
-class Acts::SpacePointBuilder&lt; spacepoint_t &gt;</div><p>After the particle interaction with surfaces are recorded and digitized measurements on the pixel or strip detectors need further treatment. </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename space_point_t&gt;<br />
+class Acts::SpacePointBuilder&lt; space_point_t &gt;</div><p>After the particle interaction with surfaces are recorded and digitized measurements on the pixel or strip detectors need further treatment. </p>
 <p>This class takes the SouceLinks and provides the corresponding space points. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a9c89abcff9454ce8d9532c1e15ec8206" name="a9c89abcff9454ce8d9532c1e15ec8206"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c89abcff9454ce8d9532c1e15ec8206">&#9670;&#160;</a></span>BuilderFunction</h2>
+<a id="a448928e7f99a9e537bc997869756708a" name="a448928e7f99a9e537bc997869756708a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448928e7f99a9e537bc997869756708a">&#9670;&#160;</a></span>BuilderFunction</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; spacepoint_t &gt;::BuilderFunction</td>
+          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; space_point_t &gt;::BuilderFunction</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> std::function&lt;spacepoint_t(</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> std::function&lt;space_point_t(</div>
 <div class="line">      <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>, std::optional&lt;double&gt;, <a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a>,</div>
 <div class="line">      std::optional&lt;double&gt;, boost::container::static_vector&lt;SourceLink, 2&gt;)&gt;</div>
 <div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:98</div></div>
@@ -199,28 +199,28 @@ template&lt;typename spacepoint_t&gt; </div>
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0ba18ff42d83423c6c3f1ac395a5e59c" name="a0ba18ff42d83423c6c3f1ac395a5e59c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ba18ff42d83423c6c3f1ac395a5e59c">&#9670;&#160;</a></span>SpacePointBuilder()</h2>
+<a id="a08bc848eff9d7fa258f981d4767a20d8" name="a08bc848eff9d7fa258f981d4767a20d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08bc848eff9d7fa258f981d4767a20d8">&#9670;&#160;</a></span>SpacePointBuilder()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; spacepoint_t &gt;::SpacePointBuilder </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; space_point_t &gt;::SpacePointBuilder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_space_point_builder_config.html">SpacePointBuilderConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a9c89abcff9454ce8d9532c1e15ec8206">BuilderFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a448928e7f99a9e537bc997869756708a">BuilderFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SpacePointBuilder&lt;&#160;spacepoint_t&#160;&gt;&quot;,&#160;Logging::INFO)</span>&#160;)</td>
+          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;SpacePointBuilder&lt;&#160;space_point_t&#160;&gt;&quot;,&#160;Logging::INFO)</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -236,18 +236,18 @@ template&lt;typename spacepoint_t&gt; </div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aca62261e1f50c0faa2997cc29116ab99" name="aca62261e1f50c0faa2997cc29116ab99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca62261e1f50c0faa2997cc29116ab99">&#9670;&#160;</a></span>buildSpacePoint()</h2>
+<a id="a569a9c5d760bb6c5fd798ab3d5afda38" name="a569a9c5d760bb6c5fd798ab3d5afda38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569a9c5d760bb6c5fd798ab3d5afda38">&#9670;&#160;</a></span>buildSpacePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
 <div class="memtemplate">
 template&lt;template&lt; typename... &gt; typename container_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; spacepoint_t &gt;::buildSpacePoint </td>
+          <td class="memname">void <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; space_point_t &gt;::buildSpacePoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -264,7 +264,7 @@ template&lt;template&lt; typename... &gt; typename container_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::back_insert_iterator&lt; container_t&lt; spacepoint_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>spacePointIt</em></span>&#160;) const</td>
+          <td class="paramtype">std::back_insert_iterator&lt; container_t&lt; space_point_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>spacePointIt</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -282,19 +282,19 @@ template&lt;template&lt; typename... &gt; typename container_t&gt; </div>
 
 </div>
 </div>
-<a id="ab27961c5cc55923b413b03003dc2a751" name="ab27961c5cc55923b413b03003dc2a751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab27961c5cc55923b413b03003dc2a751">&#9670;&#160;</a></span>logger()</h2>
+<a id="ac09efee2076fce3ec721516943206999" name="ac09efee2076fce3ec721516943206999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac09efee2076fce3ec721516943206999">&#9670;&#160;</a></span>logger()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp; <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; spacepoint_t &gt;::logger </td>
+          <td class="memname">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp; <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; space_point_t &gt;::logger </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -312,16 +312,16 @@ template&lt;typename spacepoint_t&gt; </div>
 
 </div>
 </div>
-<a id="a78aba46e5ee7bdc69025fd6f34250285" name="a78aba46e5ee7bdc69025fd6f34250285"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78aba46e5ee7bdc69025fd6f34250285">&#9670;&#160;</a></span>makeSourceLinkPairs()</h2>
+<a id="aa12cc5a4167dfb431db4500e217ee22d" name="aa12cc5a4167dfb431db4500e217ee22d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12cc5a4167dfb431db4500e217ee22d">&#9670;&#160;</a></span>makeSourceLinkPairs()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; spacepoint_t &gt;::makeSourceLinkPairs </td>
+          <td class="memname">void <a class="el" href="class_acts_1_1_space_point_builder.html">Acts::SpacePointBuilder</a>&lt; space_point_t &gt;::makeSourceLinkPairs </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>

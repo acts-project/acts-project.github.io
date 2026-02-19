@@ -4,7 +4,7 @@ var group__gnn__plugin =
       [ "Config", "struct_acts_plugins_1_1_boost_track_building_1_1_config.html", null ],
       [ "BoostTrackBuilding", "class_acts_plugins_1_1_boost_track_building.html#aba85bdbb422463cf8ada387f09b17607", null ],
       [ "config", "class_acts_plugins_1_1_boost_track_building.html#a596162f9bcb230a7f98040dc86f692d4", null ],
-      [ "operator()", "class_acts_plugins_1_1_boost_track_building.html#ab32824e4ad780b281d7897a0c1b4730c", null ]
+      [ "operator()", "class_acts_plugins_1_1_boost_track_building.html#a1c51e8e9535951f5c483f6fb628d9a23", null ]
     ] ],
     [ "ActsPlugins::CudaTrackBuilding", "class_acts_plugins_1_1_cuda_track_building.html", [
       [ "Config", "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html", [
@@ -14,7 +14,7 @@ var group__gnn__plugin =
       ] ],
       [ "CudaTrackBuilding", "class_acts_plugins_1_1_cuda_track_building.html#aafea50a33f74058ff15e4aedff24c496", null ],
       [ "config", "class_acts_plugins_1_1_cuda_track_building.html#aa540db0e4d6bf782f291d1faa3af3697", null ],
-      [ "operator()", "class_acts_plugins_1_1_cuda_track_building.html#aedbec097b25d4b70219b2ec87e0cf2e8", null ]
+      [ "operator()", "class_acts_plugins_1_1_cuda_track_building.html#a1a673249a12e3d22b9c8861ee387af74", null ]
     ] ],
     [ "ActsPlugins::Device", "struct_acts_plugins_1_1_device.html", [
       [ "Type", "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366", null ],
@@ -38,7 +38,7 @@ var group__gnn__plugin =
     ] ],
     [ "ActsPlugins::GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html", [
       [ "GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html#a3251b7db350b6fff6c814aeb14c12dcf", null ],
-      [ "run", "class_acts_plugins_1_1_gnn_pipeline.html#af261162f2c71952fbad6d9fb337729c1", null ]
+      [ "run", "class_acts_plugins_1_1_gnn_pipeline.html#a3a2531b48802645e589e3b3e6bb3d042", null ]
     ] ],
     [ "ActsPlugins::GnnTiming", "struct_acts_plugins_1_1_gnn_timing.html", [
       [ "Duration", "struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace", null ],
@@ -138,7 +138,7 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_torch_metric_learning.html#a89e71121daa7d47bfc129ee900454400", null ]
     ] ],
     [ "ActsPlugins::TrackBuildingBase", "class_acts_plugins_1_1_track_building_base.html", [
-      [ "operator()", "class_acts_plugins_1_1_track_building_base.html#acbe79e8a8d16aea71703e62163fa0c0c", null ]
+      [ "operator()", "class_acts_plugins_1_1_track_building_base.html#a6cb188acd0eb9341dca9a6c3441965d3", null ]
     ] ],
     [ "ActsPlugins::TruthGraphMetricsHook", "class_acts_plugins_1_1_truth_graph_metrics_hook.html", [
       [ "TruthGraphMetricsHook", "class_acts_plugins_1_1_truth_graph_metrics_hook.html#a6bcaaf946f9053c54f8599d1f44268db", null ],

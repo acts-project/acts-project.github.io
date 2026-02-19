@@ -7,7 +7,7 @@ var searchData=
   ['shipped_20with_20acts_4',['Backends shipped with ACTS',['../group__eventdata__tracks.html#autotoc_md11',1,'']]],
   ['source_20code_20formatting_5',['Source code formatting',['../formatting.html',1,'']]],
   ['sourcelinks_6',['Helper for &lt;span class=&quot;tt&quot;&gt;Surface&lt;/span&gt;s and &lt;span class=&quot;tt&quot;&gt;SourceLink&lt;/span&gt;s',['../group__eventdata__tracks.html#podio_helper',1,'']]],
-  ['spacepoint_20formation_7',['Spacepoint formation',['../tracking.html#spacepoint-formation',1,'']]],
+  ['space_20point_20formation_7',['Space point formation',['../tracking.html#space-point-formation',1,'']]],
   ['spack_8',['Spack',['../howto_spack.html',1,'Building with Spack'],['../howto_spack.html#autotoc_md55',1,'Building with Spack']]],
   ['start_9',['Quick start',['../building_acts.html#autotoc_md29',1,'']]],
   ['state_20backend_10',['MultiTrajectory (track state) backend',['../group__eventdata__tracks.html#autotoc_md16',1,'']]],

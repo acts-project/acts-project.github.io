@@ -5,7 +5,7 @@ var searchData=
   ['iboundtogridlocal_2',['IBoundToGridLocal',['../class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html',1,'Acts::GridAccess']]],
   ['iconfinedtrackingvolumebuilder_3',['IConfinedTrackingVolumeBuilder',['../class_acts_1_1_i_confined_tracking_volume_builder.html',1,'Acts']]],
   ['iexperimentcuts_4',['IExperimentCuts',['../class_acts_1_1_i_experiment_cuts.html',1,'Acts']]],
-  ['iexperimentcuts_3c_20external_5fspacepoint_5ft_20_3e_5',['IExperimentCuts&lt; external_spacepoint_t &gt;',['../class_acts_1_1_i_experiment_cuts.html',1,'Acts']]],
+  ['iexperimentcuts_3c_20external_5fspace_5fpoint_5ft_20_3e_5',['IExperimentCuts&lt; external_space_point_t &gt;',['../class_acts_1_1_i_experiment_cuts.html',1,'Acts']]],
   ['igeant4physicalvolumeselector_6',['IGeant4PhysicalVolumeSelector',['../class_acts_plugins_1_1_i_geant4_physical_volume_selector.html',1,'ActsPlugins']]],
   ['igeoshapeconverter_7',['IGeoShapeConverter',['../class_acts_plugins_1_1_i_geo_shape_converter.html',1,'ActsPlugins']]],
   ['iglobaltogridlocal_8',['IGlobalToGridLocal',['../class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html',1,'Acts::GridAccess']]],

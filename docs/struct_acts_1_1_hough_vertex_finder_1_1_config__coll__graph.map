@@ -1,5 +1,5 @@
-<map id="Acts::HoughVertexFinder&lt; spacepoint_t &gt;::Config" name="Acts::HoughVertexFinder&lt; spacepoint_t &gt;::Config">
-<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="99,237,283,277"/>
+<map id="Acts::HoughVertexFinder&lt; space_point_t &gt;::Config" name="Acts::HoughVertexFinder&lt; space_point_t &gt;::Config">
+<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="95,237,286,277"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,101,171,127"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,139,116,175,139,212,164,235,161,239,135,215,111,177,95,141"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="126,5,255,31"/>

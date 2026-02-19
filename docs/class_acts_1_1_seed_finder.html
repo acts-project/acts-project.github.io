@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt; Class Template Reference</title>
+<title>ACTS: Acts::SeedFinder&lt; external_space_point_t, grid_t, platform_t &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,7 +122,7 @@ $(function(){initNavTree('class_acts_1_1_seed_finder.html','','class_acts_1_1_se
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::SeedFinder&lt; external_space_point_t, grid_t, platform_t &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -138,32 +138,32 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a95ccd78789cc047354db506a97da5bbb" id="r_a95ccd78789cc047354db506a97da5bbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ccd78789cc047354db506a97da5bbb">SeedFinder</a> (const <a class="el" href="struct_acts_1_1_seed_finder_config.html">SeedFinderConfig</a>&lt; external_spacepoint_t &gt; &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
-<tr class="memdesc:a95ccd78789cc047354db506a97da5bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The only constructor.  <br /></td></tr>
-<tr class="memitem:a1a450e11017407d3eb1a54ee366209c9" id="r_a1a450e11017407d3eb1a54ee366209c9"><td class="memTemplParams" colspan="2">template&lt;typename container_t, GridBinCollection sp_range_t&gt; <br />
-requires CollectionStoresSeedsTo&lt;container_t, external_spacepoint_t, 3ul&gt;</td></tr>
-<tr class="memitem:a1a450e11017407d3eb1a54ee366209c9 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a450e11017407d3eb1a54ee366209c9">createSeedsForGroup</a> (const <a class="el" href="struct_acts_1_1_seed_finder_options.html">SeedFinderOptions</a> &amp;options, <a class="el" href="struct_acts_1_1_seed_finder_1_1_seeding_state.html">SeedingState</a> &amp;state, const grid_t &amp;grid, container_t &amp;outputCollection, const sp_range_t &amp;bottomSPs, const std::size_t middleSPs, const sp_range_t &amp;topSPs, const <a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; float &gt; &amp;rMiddleSPRange) const</td></tr>
-<tr class="memdesc:a1a450e11017407d3eb1a54ee366209c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create all seeds from the space points in the three iterators.  <br /></td></tr>
+<tr class="memitem:a67bd37136a1d2b97bf7dcbdbc70565be" id="r_a67bd37136a1d2b97bf7dcbdbc70565be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67bd37136a1d2b97bf7dcbdbc70565be">SeedFinder</a> (const <a class="el" href="struct_acts_1_1_seed_finder_config.html">SeedFinderConfig</a>&lt; external_space_point_t &gt; &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
+<tr class="memdesc:a67bd37136a1d2b97bf7dcbdbc70565be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The only constructor.  <br /></td></tr>
+<tr class="memitem:af1f111b9db07536c22ba1d36dac072c2" id="r_af1f111b9db07536c22ba1d36dac072c2"><td class="memTemplParams" colspan="2">template&lt;typename container_t, GridBinCollection sp_range_t&gt; <br />
+requires CollectionStoresSeedsTo&lt;container_t, external_space_point_t, 3ul&gt;</td></tr>
+<tr class="memitem:af1f111b9db07536c22ba1d36dac072c2 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f111b9db07536c22ba1d36dac072c2">createSeedsForGroup</a> (const <a class="el" href="struct_acts_1_1_seed_finder_options.html">SeedFinderOptions</a> &amp;options, <a class="el" href="struct_acts_1_1_seed_finder_1_1_seeding_state.html">SeedingState</a> &amp;state, const grid_t &amp;grid, container_t &amp;outputCollection, const sp_range_t &amp;bottomSPs, const std::size_t middleSPs, const sp_range_t &amp;topSPs, const <a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; float &gt; &amp;rMiddleSPRange) const</td></tr>
+<tr class="memdesc:af1f111b9db07536c22ba1d36dac072c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create all seeds from the space points in the three iterators.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt;<br />
-class Acts::SeedFinder&lt; external_spacepoint_t, grid_t, platform_t &gt;</div><p>Seed finder operating on grid-based space points. </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename external_space_point_t, typename grid_t, typename platform_t = void*&gt;<br />
+class Acts::SeedFinder&lt; external_space_point_t, grid_t, platform_t &gt;</div><p>Seed finder operating on grid-based space points. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a95ccd78789cc047354db506a97da5bbb" name="a95ccd78789cc047354db506a97da5bbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95ccd78789cc047354db506a97da5bbb">&#9670;&#160;</a></span>SeedFinder()</h2>
+<a id="a67bd37136a1d2b97bf7dcbdbc70565be" name="a67bd37136a1d2b97bf7dcbdbc70565be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67bd37136a1d2b97bf7dcbdbc70565be">&#9670;&#160;</a></span>SeedFinder()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
+template&lt;typename external_space_point_t, typename grid_t, typename platform_t = void*&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::SeedFinder </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_space_point_t, grid_t, platform_t &gt;::SeedFinder </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_seed_finder_config.html">SeedFinderConfig</a>&lt; external_spacepoint_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_seed_finder_config.html">SeedFinderConfig</a>&lt; external_space_point_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -190,19 +190,19 @@ template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a1a450e11017407d3eb1a54ee366209c9" name="a1a450e11017407d3eb1a54ee366209c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a450e11017407d3eb1a54ee366209c9">&#9670;&#160;</a></span>createSeedsForGroup()</h2>
+<a id="af1f111b9db07536c22ba1d36dac072c2" name="af1f111b9db07536c22ba1d36dac072c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f111b9db07536c22ba1d36dac072c2">&#9670;&#160;</a></span>createSeedsForGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename external_spacepoint_t, typename grid_t, typename platform_t = void*&gt; </div>
+template&lt;typename external_space_point_t, typename grid_t, typename platform_t = void*&gt; </div>
 <div class="memtemplate">
 template&lt;typename container_t, GridBinCollection sp_range_t&gt; <br />
-requires CollectionStoresSeedsTo&lt;container_t, external_spacepoint_t, 3ul&gt;</div>
+requires CollectionStoresSeedsTo&lt;container_t, external_space_point_t, 3ul&gt;</div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_spacepoint_t, grid_t, platform_t &gt;::createSeedsForGroup </td>
+          <td class="memname">void <a class="el" href="class_acts_1_1_seed_finder.html">Acts::SeedFinder</a>&lt; external_space_point_t, grid_t, platform_t &gt;::createSeedsForGroup </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_seed_finder_options.html">SeedFinderOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>

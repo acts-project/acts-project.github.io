@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::HoughVertexFinder&lt; spacepoint_t &gt; Class Template Reference</title>
+<title>ACTS: Acts::HoughVertexFinder&lt; space_point_t &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,11 +122,11 @@ $(function(){initNavTree('class_acts_1_1_hough_vertex_finder.html','','class_act
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::HoughVertexFinder&lt; spacepoint_t &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::HoughVertexFinder&lt; space_point_t &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Implements the vertex finder based on the spacepoints using Hough transform For more information, see arXiv:2410.14494 0.  
+<p>Implements the vertex finder based on the space points using Hough transform For more information, see arXiv:2410.14494 0.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_hough_vertex_finder_8hpp_source.html">Acts/Vertexing/HoughVertexFinder.hpp</a>&gt;</code></p>
@@ -138,56 +138,56 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7e681df43bbd972c779db870837abdef" id="r_a7e681df43bbd972c779db870837abdef"><td class="memItemLeft" align="right" valign="top"><a id="a7e681df43bbd972c779db870837abdef" name="a7e681df43bbd972c779db870837abdef"></a>
+<tr class="memitem:af271376324bc827733a6e4516277c610" id="r_af271376324bc827733a6e4516277c610"><td class="memItemLeft" align="right" valign="top"><a id="af271376324bc827733a6e4516277c610" name="af271376324bc827733a6e4516277c610"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>HoughAxis</b> = <a class="el" href="class_acts_1_1_axis.html">Axis</a>&lt;<a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, <a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7ac3bf447eabe632720a3aa1a7ce401274">AxisBoundaryType::Open</a>&gt;</td></tr>
-<tr class="memdesc:a7e681df43bbd972c779db870837abdef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for equidistant axis used in Hough transform. <br /></td></tr>
-<tr class="memitem:a6570fbb5165b840c77f06e67bca399d7" id="r_a6570fbb5165b840c77f06e67bca399d7"><td class="memItemLeft" align="right" valign="top"><a id="a6570fbb5165b840c77f06e67bca399d7" name="a6570fbb5165b840c77f06e67bca399d7"></a>
+<tr class="memdesc:af271376324bc827733a6e4516277c610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for equidistant axis used in Hough transform. <br /></td></tr>
+<tr class="memitem:a18445c0c17cf17ba24b2df8bf105f2dc" id="r_a18445c0c17cf17ba24b2df8bf105f2dc"><td class="memItemLeft" align="right" valign="top"><a id="a18445c0c17cf17ba24b2df8bf105f2dc" name="a18445c0c17cf17ba24b2df8bf105f2dc"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>HoughCount_t</b> = std::uint16_t</td></tr>
-<tr class="memdesc:a6570fbb5165b840c77f06e67bca399d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for count values in Hough histogram bins. <br /></td></tr>
-<tr class="memitem:a30ade0a744e1880f5956b9e7fe27e41f" id="r_a30ade0a744e1880f5956b9e7fe27e41f"><td class="memItemLeft" align="right" valign="top"><a id="a30ade0a744e1880f5956b9e7fe27e41f" name="a30ade0a744e1880f5956b9e7fe27e41f"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>HoughHist</b> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;<a class="el" href="#a6570fbb5165b840c77f06e67bca399d7">HoughCount_t</a>, <a class="el" href="#a7e681df43bbd972c779db870837abdef">HoughAxis</a>, <a class="el" href="#a7e681df43bbd972c779db870837abdef">HoughAxis</a>&gt;</td></tr>
-<tr class="memdesc:a30ade0a744e1880f5956b9e7fe27e41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for 2D histogram used in Hough transform. <br /></td></tr>
+<tr class="memdesc:a18445c0c17cf17ba24b2df8bf105f2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for count values in Hough histogram bins. <br /></td></tr>
+<tr class="memitem:a5959c8795875946d381bdc3ddf0d791d" id="r_a5959c8795875946d381bdc3ddf0d791d"><td class="memItemLeft" align="right" valign="top"><a id="a5959c8795875946d381bdc3ddf0d791d" name="a5959c8795875946d381bdc3ddf0d791d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>HoughHist</b> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;<a class="el" href="#a18445c0c17cf17ba24b2df8bf105f2dc">HoughCount_t</a>, <a class="el" href="#af271376324bc827733a6e4516277c610">HoughAxis</a>, <a class="el" href="#af271376324bc827733a6e4516277c610">HoughAxis</a>&gt;</td></tr>
+<tr class="memdesc:a5959c8795875946d381bdc3ddf0d791d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for 2D histogram used in Hough transform. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a61214da8b0a974a49a26396dc2707188" id="r_a61214da8b0a974a49a26396dc2707188"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61214da8b0a974a49a26396dc2707188">HoughVertexFinder</a> (<a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a> cfg, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; lgr=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;HoughVertexFinder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
-<tr class="memdesc:a61214da8b0a974a49a26396dc2707188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:ab7b2259cc38b44a938c79a3f9223e612" id="r_ab7b2259cc38b44a938c79a3f9223e612"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b2259cc38b44a938c79a3f9223e612">config</a> () const</td></tr>
-<tr class="memdesc:ab7b2259cc38b44a938c79a3f9223e612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the config.  <br /></td></tr>
-<tr class="memitem:a45b87c088905ef5320670000417d06c9" id="r_a45b87c088905ef5320670000417d06c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b87c088905ef5320670000417d06c9">find</a> (const std::vector&lt; spacepoint_t &gt; &amp;spacepoints) const</td></tr>
-<tr class="memdesc:a45b87c088905ef5320670000417d06c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the vertex based on the provided spacepoints.  <br /></td></tr>
+<tr class="memitem:a4cc43eca41b4e8816542e9e22d7f67b4" id="r_a4cc43eca41b4e8816542e9e22d7f67b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc43eca41b4e8816542e9e22d7f67b4">HoughVertexFinder</a> (<a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a> cfg, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; lgr=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;HoughVertexFinder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
+<tr class="memdesc:a4cc43eca41b4e8816542e9e22d7f67b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:af7a792324f4ee26418d6a95688d4dc70" id="r_af7a792324f4ee26418d6a95688d4dc70"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7a792324f4ee26418d6a95688d4dc70">config</a> () const</td></tr>
+<tr class="memdesc:af7a792324f4ee26418d6a95688d4dc70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the config.  <br /></td></tr>
+<tr class="memitem:ad88b42307e4fd954558f6278495bb12f" id="r_ad88b42307e4fd954558f6278495bb12f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad88b42307e4fd954558f6278495bb12f">find</a> (const std::vector&lt; space_point_t &gt; &amp;spacePoints) const</td></tr>
+<tr class="memdesc:ad88b42307e4fd954558f6278495bb12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the vertex based on the provided space points.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename spacepoint_t&gt;<br />
-class Acts::HoughVertexFinder&lt; spacepoint_t &gt;</div><p>Implements the vertex finder based on the spacepoints using Hough transform For more information, see arXiv:2410.14494 0. </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename space_point_t&gt;<br />
+class Acts::HoughVertexFinder&lt; space_point_t &gt;</div><p>Implements the vertex finder based on the space points using Hough transform For more information, see arXiv:2410.14494 0. </p>
 <p>Assumes there is only 1 vertex and that it has a high multiplicity</p><ol type="1">
 <li>Estimates what eta range is really necessary</li>
-<li>Creates Hough space (z_vtx - cot(theta)) from spacepoints within that eta range</li>
+<li>Creates Hough space (z_vtx - cot(theta)) from space points within that eta range</li>
 <li>Subtracts the coincidentally crossed lines in the Hough space</li>
 <li>Makes a projection to the Z axis and finds a peak - that is the vertex position</li>
 <li>Repeats 2-4 if necessary </li>
 </ol>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a61214da8b0a974a49a26396dc2707188" name="a61214da8b0a974a49a26396dc2707188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61214da8b0a974a49a26396dc2707188">&#9670;&#160;</a></span>HoughVertexFinder()</h2>
+<a id="a4cc43eca41b4e8816542e9e22d7f67b4" name="a4cc43eca41b4e8816542e9e22d7f67b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc43eca41b4e8816542e9e22d7f67b4">&#9670;&#160;</a></span>HoughVertexFinder()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::HoughVertexFinder </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; space_point_t &gt;::HoughVertexFinder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a></td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>lgr</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;HoughVertexFinder&lt;&#160;spacepoint_t&#160;&gt;&quot;,&#160;Logging::INFO)</span>&#160;)</td>
+          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>lgr</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;HoughVertexFinder&lt;&#160;space_point_t&#160;&gt;&quot;,&#160;Logging::INFO)</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -209,16 +209,16 @@ template&lt;typename spacepoint_t&gt; </div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ab7b2259cc38b44a938c79a3f9223e612" name="ab7b2259cc38b44a938c79a3f9223e612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b2259cc38b44a938c79a3f9223e612">&#9670;&#160;</a></span>config()</h2>
+<a id="af7a792324f4ee26418d6a95688d4dc70" name="af7a792324f4ee26418d6a95688d4dc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7a792324f4ee26418d6a95688d4dc70">&#9670;&#160;</a></span>config()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a> &amp; <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::config </td>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_hough_vertex_finder_1_1_config.html">Config</a> &amp; <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; space_point_t &gt;::config </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -231,27 +231,27 @@ template&lt;typename spacepoint_t&gt; </div>
 
 </div>
 </div>
-<a id="a45b87c088905ef5320670000417d06c9" name="a45b87c088905ef5320670000417d06c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45b87c088905ef5320670000417d06c9">&#9670;&#160;</a></span>find()</h2>
+<a id="ad88b42307e4fd954558f6278495bb12f" name="ad88b42307e4fd954558f6278495bb12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad88b42307e4fd954558f6278495bb12f">&#9670;&#160;</a></span>find()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename spacepoint_t&gt; </div>
+template&lt;typename space_point_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &gt; <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; spacepoint_t &gt;::find </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &gt; <a class="el" href="class_acts_1_1_hough_vertex_finder.html">Acts::HoughVertexFinder</a>&lt; space_point_t &gt;::find </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; spacepoint_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacepoints</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; space_point_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds the vertex based on the provided spacepoints. </p>
+<p>Finds the vertex based on the provided space points. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">spacepoints</td><td>Vector of the input spacepoints; they do not need to be sorted anyhow </td></tr>
+    <tr><td class="paramname">spacePoints</td><td>Vector of the input space points; they do not need to be sorted anyhow </td></tr>
   </table>
   </dd>
 </dl>

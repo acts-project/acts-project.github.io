@@ -1,16 +1,16 @@
 var struct_acts_1_1_hough_vertex_finder_1_1_config =
 [
-    [ "absEtaFractions", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aadf3ef0ffddc03b4ca7107dffb1ef9d9", null ],
-    [ "absEtaRanges", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a2d8a77c250667c1ff5d144e6b3168d17", null ],
-    [ "binsCotThetaDecrease", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a17b7da344f8259b145902310f5992d20", null ],
-    [ "defVtxPosition", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a65aea080c40498e4590fe5f2b88735a9", null ],
-    [ "fillNeighbours", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ab81be682623ea8e52ea7cf29ad628f4d", null ],
-    [ "maxAbsEta", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a6272e37a7ddbd589f09affc62545480d", null ],
-    [ "minAbsEta", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a4989cb94d290f55f8aea6c9813168b0f", null ],
-    [ "minHits", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ac582b22b76ae05b42808abc811c8fbb6", null ],
-    [ "nBinsCotThetaIterZ", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa3f68aa1a569453cc7d7ff4943144566", null ],
-    [ "nBinsZIterZ", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae767456e46646964e9e5e84618b9e84f", null ],
-    [ "peakWidth", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae2382671a06bd21cb7da324d58632a53", null ],
-    [ "rangeIterZ", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ac94352000b99f6bc522faca3dda6a3a2", null ],
-    [ "targetSPs", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a65df7ce373b55ff1dd5d20503a2e15bd", null ]
+    [ "absEtaFractions", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#acef5ae5ee19f73e8687db017d38311cc", null ],
+    [ "absEtaRanges", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a2720483768289ff0c46a8d6903ace0ab", null ],
+    [ "binsCotThetaDecrease", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ac2691ee54616f82c59f2416d99282398", null ],
+    [ "defVtxPosition", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa780b0d52d172006f1f0fcb138646d50", null ],
+    [ "fillNeighbours", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a754470cd9df59a6ebb196157a1ca98ec", null ],
+    [ "maxAbsEta", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ab8e9d32bf64faae6c358ba36974dc164", null ],
+    [ "minAbsEta", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a9dfbe4a868a32b2c8b5a1a90933fd3b5", null ],
+    [ "minHits", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a0b0beb9a85b1690bfe8625810aa6aba6", null ],
+    [ "nBinsCotThetaIterZ", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa5fc59b8ee177b8adaabe5794fe5ea01", null ],
+    [ "nBinsZIterZ", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a3a9e814be0d9b178672114f317d00224", null ],
+    [ "peakWidth", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aaffc98f0710a9801014810152897d391", null ],
+    [ "rangeIterZ", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a4543ea49c3885071647bcc69122dceb4", null ],
+    [ "targetSPs", "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a1e18c6a8b18389150fce3038f054d3ef", null ]
 ];

@@ -17,7 +17,7 @@ var searchData=
   ['kdtree_14',['KDTree',['../class_acts_1_1_k_d_tree.html',1,'Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;'],['../class_acts_1_1_k_d_tree.html#a5beec053dcd793da0082e3a42c14c222',1,'Acts::KDTree::KDTree()']]],
   ['kdtree_3c_20kdim_2c_20std_3a_3ashared_5fptr_3c_20surface_20_3e_2c_20double_2c_20std_3a_3aarray_2c_20bsize_20_3e_15',['KDTree&lt; kDIM, std::shared_ptr&lt; Surface &gt;, double, std::array, bSize &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
   ['kdtree_3c_20kdims_2c_20std_3a_3asize_5ft_2c_20scalar_5ft_2c_20std_3a_3aarray_2c_20kleafsize_20_3e_16',['KDTree&lt; kDims, std::size_t, scalar_t, std::array, kLeafSize &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
-  ['kdtree_3c_20ndims_2c_20const_20external_5fspacepoint_5ft_20_2a_2c_20double_2c_20std_3a_3aarray_2c_204_20_3e_17',['KDTree&lt; NDims, const external_spacepoint_t *, double, std::array, 4 &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
+  ['kdtree_3c_20ndims_2c_20const_20external_5fspace_5fpoint_5ft_20_2a_2c_20double_2c_20std_3a_3aarray_2c_204_20_3e_17',['KDTree&lt; NDims, const external_space_point_t *, double, std::array, 4 &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
   ['kdtree_3c_20ndims_2c_20spacepointindex_2c_20float_2c_20std_3a_3aarray_2c_204_20_3e_18',['KDTree&lt; NDims, SpacePointIndex, float, std::array, 4 &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
   ['kdts_19',['KDTS',['../class_acts_1_1_kdt_surfaces.html#ad5e86f5f374777f555f3128f7045ab34',1,'Acts::KdtSurfaces']]],
   ['kdtsurfaces_20',['KdtSurfaces',['../class_acts_1_1_kdt_surfaces.html',1,'Acts::KdtSurfaces&lt; kDIM, bSize &gt;'],['../class_acts_1_1_kdt_surfaces.html#af5fc33482d55789c649bec18d6a4465e',1,'Acts::KdtSurfaces::KdtSurfaces()']]],

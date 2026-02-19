@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71fcdcfe19b4070e0a635f792f1165ef" id="r_a71fcdcfe19b4070e0a635f792f1165ef"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::int32_t, std::int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71fcdcfe19b4070e0a635f792f1165ef">buildTheGraph</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">GbtsDataStorage</a> &gt; &amp;storage, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;edgeStorage) const</td></tr>
 <tr class="memdesc:a71fcdcfe19b4070e0a635f792f1165ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build doublet graph from nodes.  <br /></td></tr>
 <tr class="memitem:aad184fc3fc75187017836652085e5a28" id="r_aad184fc3fc75187017836652085e5a28"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad184fc3fc75187017836652085e5a28">createNodes</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a228c30a4888f58dc0d2bae73dcb43a8d">SpContainerComponentsType</a> &amp;container, std::uint32_t maxLayers) const</td></tr>
-<tr class="memdesc:aad184fc3fc75187017836652085e5a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create graph nodes from spacepoints.  <br /></td></tr>
+<tr class="memdesc:aad184fc3fc75187017836652085e5a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create graph nodes from space points.  <br /></td></tr>
 <tr class="memitem:aaf1ff14209f5b4d08766506f38403cbb" id="r_aaf1ff14209f5b4d08766506f38403cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1ff14209f5b4d08766506f38403cbb">createSeeds</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const <a class="el" href="namespace_acts_1_1_experimental.html#a228c30a4888f58dc0d2bae73dcb43a8d">SpContainerComponentsType</a> &amp;SpContainerComponents, std::uint32_t maxLayers) const</td></tr>
 <tr class="memdesc:aaf1ff14209f5b4d08766506f38403cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from spacepoints in a region of interest.  <br /></td></tr>
 <tr class="memitem:a10479f6cb79f8fb7509c1cdf9202d15b" id="r_a10479f6cb79f8fb7509c1cdf9202d15b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10479f6cb79f8fb7509c1cdf9202d15b">extractSeedsFromTheGraph</a> (std::uint32_t maxLevel, std::uint32_t nEdges, std::int32_t nHits, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;edgeStorage, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">SeedProperties</a> &gt; &amp;vSeedCandidates) const</td></tr>
@@ -255,10 +255,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create graph nodes from spacepoints. </p>
+<p>Create graph nodes from space points. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">container</td><td>Spacepoint container components </td></tr>
+    <tr><td class="paramname">container</td><td>Space point container components </td></tr>
     <tr><td class="paramname">maxLayers</td><td>Maximum number of layers </td></tr>
   </table>
   </dd>
@@ -295,7 +295,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">roi</td><td>Region of interest descriptor </td></tr>
-    <tr><td class="paramname">SpContainerComponents</td><td>Spacepoint container components </td></tr>
+    <tr><td class="paramname">SpContainerComponents</td><td>Space point container components </td></tr>
     <tr><td class="paramname">maxLayers</td><td>Maximum number of layers </td></tr>
   </table>
   </dd>

@@ -135,8 +135,8 @@ $(function(){initNavTree('class_acts_plugins_1_1_gnn_pipeline.html','','class_ac
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3251b7db350b6fff6c814aeb14c12dcf" id="r_a3251b7db350b6fff6c814aeb14c12dcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3251b7db350b6fff6c814aeb14c12dcf">GnnPipeline</a> (std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_graph_construction_base.html">GraphConstructionBase</a> &gt; graphConstructor, std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_edge_classification_base.html">EdgeClassificationBase</a> &gt; &gt; edgeClassifiers, std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_track_building_base.html">TrackBuildingBase</a> &gt; trackBuilder, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger)</td></tr>
 <tr class="memdesc:a3251b7db350b6fff6c814aeb14c12dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct GNN pipeline.  <br /></td></tr>
-<tr class="memitem:af261162f2c71952fbad6d9fb337729c1" id="r_af261162f2c71952fbad6d9fb337729c1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af261162f2c71952fbad6d9fb337729c1">run</a> (std::vector&lt; float &gt; &amp;features, const std::vector&lt; std::uint64_t &gt; &amp;moduleIds, std::vector&lt; int &gt; &amp;spacepointIDs, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device, const <a class="el" href="class_acts_plugins_1_1_gnn_hook.html">GnnHook</a> &amp;hook={}, <a class="el" href="struct_acts_plugins_1_1_gnn_timing.html">GnnTiming</a> *timing=nullptr) const</td></tr>
-<tr class="memdesc:af261162f2c71952fbad6d9fb337729c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the GNN pipeline.  <br /></td></tr>
+<tr class="memitem:a3a2531b48802645e589e3b3e6bb3d042" id="r_a3a2531b48802645e589e3b3e6bb3d042"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2531b48802645e589e3b3e6bb3d042">run</a> (std::vector&lt; float &gt; &amp;features, const std::vector&lt; std::uint64_t &gt; &amp;moduleIds, std::vector&lt; int &gt; &amp;spacePointIDs, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device, const <a class="el" href="class_acts_plugins_1_1_gnn_hook.html">GnnHook</a> &amp;hook={}, <a class="el" href="struct_acts_plugins_1_1_gnn_timing.html">GnnTiming</a> *timing=nullptr) const</td></tr>
+<tr class="memdesc:a3a2531b48802645e589e3b3e6bb3d042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the GNN pipeline.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Graph Neural Network pipeline for track finding. </p>
@@ -184,8 +184,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="af261162f2c71952fbad6d9fb337729c1" name="af261162f2c71952fbad6d9fb337729c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af261162f2c71952fbad6d9fb337729c1">&#9670;&#160;</a></span>run()</h2>
+<a id="a3a2531b48802645e589e3b3e6bb3d042" name="a3a2531b48802645e589e3b3e6bb3d042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2531b48802645e589e3b3e6bb3d042">&#9670;&#160;</a></span>run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +203,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacepointIDs</em></span>, </td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePointIDs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -227,15 +227,15 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">features</td><td>Input feature vector </td></tr>
-    <tr><td class="paramname">moduleIds</td><td>Module identifiers for each spacepoint </td></tr>
-    <tr><td class="paramname">spacepointIDs</td><td>Spacepoint identifiers </td></tr>
+    <tr><td class="paramname">moduleIds</td><td>Module identifiers for each space point </td></tr>
+    <tr><td class="paramname">spacePointIDs</td><td>Space point identifiers </td></tr>
     <tr><td class="paramname">device</td><td>Device to run on (CPU/GPU) </td></tr>
     <tr><td class="paramname">hook</td><td>Optional callback hook for pipeline execution </td></tr>
     <tr><td class="paramname">timing</td><td>Optional timing output </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Vector of track candidates (each track is a vector of spacepoint IDs) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of track candidates (each track is a vector of space point IDs) </dd></dl>
 
 </div>
 </div>
