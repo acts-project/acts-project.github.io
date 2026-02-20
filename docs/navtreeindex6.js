@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"class_acts_1_1_convex_polygon_bounds.html#a0b3884cc46886d5f0577fdb43da5c6f0":[6,0,0,77,3],
+"class_acts_1_1_convex_polygon_bounds.html#a0b3884cc46886d5f0577fdb43da5c6f0":[8,0,0,85,3],
 "class_acts_1_1_convex_polygon_bounds.html#a3e96bf0b0a98e156298d3280e76e61e7":[6,0,0,77,1],
 "class_acts_1_1_convex_polygon_bounds.html#a3e96bf0b0a98e156298d3280e76e61e7":[8,0,0,85,1],
 "class_acts_1_1_convex_polygon_bounds.html#a433d15bdb8d7d4085c90e2a9cc95abf0":[6,0,0,77,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "class_acts_1_1_cylinder_layer.html#a0d45418175f0c057c1ded29cbe2013e4":[6,0,0,88,0],
 "class_acts_1_1_cylinder_layer.html#a0d45418175f0c057c1ded29cbe2013e4":[8,0,0,96,0],
 "class_acts_1_1_cylinder_layer.html#a0d573b700166578196bf483441d56f13":[6,0,0,88,1],
-"class_acts_1_1_cylinder_layer.html#a0d573b700166578196bf483441d56f13":[8,0,0,96,1],
-"class_acts_1_1_cylinder_layer.html#a9d623e32af65eb647f746ba04b10bdfe":[6,0,0,88,2],
-"class_acts_1_1_cylinder_layer.html#a9d623e32af65eb647f746ba04b10bdfe":[8,0,0,96,2]
+"class_acts_1_1_cylinder_layer.html#a0d573b700166578196bf483441d56f13":[8,0,0,96,1]
 };

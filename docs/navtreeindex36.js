@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_trapezoid_volume_bounds.html#ace7de65924372e6a62730bb22e08e3c3":[6,0,0,427,11],
+"class_acts_1_1_trapezoid_volume_bounds.html#ace7de65924372e6a62730bb22e08e3c3":[8,0,0,435,11],
+"class_acts_1_1_triplet_seed_finder.html":[6,0,0,430],
+"class_acts_1_1_triplet_seed_finder.html":[8,0,0,438],
 "class_acts_1_1_triplet_seed_finder.html#abd55070fb7051dc392109e02c109bb0c":[6,0,0,430,6],
 "class_acts_1_1_triplet_seed_finder.html#abd55070fb7051dc392109e02c109bb0c":[8,0,0,438,6],
 "class_acts_1_1_triplet_seed_finder.html#ac25555ec614cbe822a18988d2640cb17":[6,0,0,430,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_vector_track_container.html#afe3fc9b157e6a4242d215970be926e64":[8,0,0,452,4],
 "class_acts_1_1_vertex.html":[6,0,0,445],
 "class_acts_1_1_vertex.html":[8,0,0,453],
-"class_acts_1_1_vertex.html#a047a50949a55cf6bcd6f26a97aa057aa":[6,0,0,445,17],
-"class_acts_1_1_vertex.html#a047a50949a55cf6bcd6f26a97aa057aa":[8,0,0,453,17],
-"class_acts_1_1_vertex.html#a06730d4eedd18724472123457dc6d6ce":[6,0,0,445,21],
-"class_acts_1_1_vertex.html#a06730d4eedd18724472123457dc6d6ce":[8,0,0,453,21],
-"class_acts_1_1_vertex.html#a0830bc8a788a2d405cf9766fd6d3e7d5":[6,0,0,445,11]
+"class_acts_1_1_vertex.html#a047a50949a55cf6bcd6f26a97aa057aa":[6,0,0,445,17]
 };

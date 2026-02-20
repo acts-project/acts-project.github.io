@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_connector.html#a5938c7dbcdb3aa251a2c8c666a7de440":[6,0,0,1,13,3],
+"struct_acts_1_1_experimental_1_1_gbts_connector.html#a5938c7dbcdb3aa251a2c8c666a7de440":[8,0,0,2,13,3],
+"struct_acts_1_1_experimental_1_1_gbts_connector.html#a72d24dee15cbde50b15b7be006ea48ae":[6,0,0,1,13,4],
+"struct_acts_1_1_experimental_1_1_gbts_connector.html#a72d24dee15cbde50b15b7be006ea48ae":[8,0,0,2,13,4],
 "struct_acts_1_1_experimental_1_1_gbts_connector.html#a95a752e740fb504d11c9483bae510234":[6,0,0,1,13,2],
 "struct_acts_1_1_experimental_1_1_gbts_connector.html#a95a752e740fb504d11c9483bae510234":[8,0,0,2,13,2],
 "struct_acts_1_1_experimental_1_1_gbts_connector.html#aa21bb2d6904dde40b6ce91ae8395f90d":[6,0,0,1,13,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_forced_surface_reached.html":[6,0,0,132],
 "struct_acts_1_1_forced_surface_reached.html":[8,0,0,140],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[6,0,0,135,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[8,0,0,143,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[6,0,0,135,0,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[8,0,0,143,0,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[6,0,0,135,0,1],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[8,0,0,143,0,1]
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[8,0,0,143,0]
 };

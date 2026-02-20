@@ -161,6 +161,12 @@ requires (!std::same_as&lt;std::decay_t&lt;T&gt;, AnyBase&lt;SIZE&gt;&gt; &amp;&
 <tr class="memitem:a2e550a6e2632f48420f537b114af3710" id="r_a2e550a6e2632f48420f537b114af3710"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a2e550a6e2632f48420f537b114af3710 template"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e550a6e2632f48420f537b114af3710">as</a> () const</td></tr>
 <tr class="memdesc:a2e550a6e2632f48420f537b114af3710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const reference to stored value of specified type.  <br /></td></tr>
+<tr class="memitem:a557671ddc073f33abb0bfd020ca8bfcc" id="r_a557671ddc073f33abb0bfd020ca8bfcc"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a557671ddc073f33abb0bfd020ca8bfcc template"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557671ddc073f33abb0bfd020ca8bfcc">asPtr</a> ()</td></tr>
+<tr class="memdesc:a557671ddc073f33abb0bfd020ca8bfcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pointer to stored value of specified type.  <br /></td></tr>
+<tr class="memitem:a1b2bf6a4a5042a5e5f8281fec677b87b" id="r_a1b2bf6a4a5042a5e5f8281fec677b87b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a1b2bf6a4a5042a5e5f8281fec677b87b template"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b2bf6a4a5042a5e5f8281fec677b87b">asPtr</a> () const</td></tr>
+<tr class="memdesc:a1b2bf6a4a5042a5e5f8281fec677b87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const pointer to stored value of specified type.  <br /></td></tr>
 <tr class="memitem:a158602e18a2e5f6a86acef6b672fb6e9" id="r_a158602e18a2e5f6a86acef6b672fb6e9"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; <br />
 requires (std::is_copy_assignable_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; std::is_copy_constructible_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; (sizeof(std::decay_t&lt;T&gt;) &gt; SIZE || (std::is_move_assignable_v&lt;std::decay_t&lt;T&gt;&gt; &amp;&amp; std::is_move_constructible_v&lt;std::decay_t&lt;T&gt;&gt;)))</td></tr>
 <tr class="memitem:a158602e18a2e5f6a86acef6b672fb6e9 template"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a158602e18a2e5f6a86acef6b672fb6e9">emplace</a> (Args &amp;&amp;... args)</td></tr>
@@ -405,6 +411,66 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a557671ddc073f33abb0bfd020ca8bfcc" name="a557671ddc073f33abb0bfd020ca8bfcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557671ddc073f33abb0bfd020ca8bfcc">&#9670;&#160;</a></span>asPtr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t SIZE&gt; </div>
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; SIZE &gt;::asPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get pointer to stored value of specified type. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type to retrieve (must be exact type, no const/ref) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the stored value, or nullptr if the type doesn't match or the Any is empty </dd></dl>
+
+</div>
+</div>
+<a id="a1b2bf6a4a5042a5e5f8281fec677b87b" name="a1b2bf6a4a5042a5e5f8281fec677b87b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b2bf6a4a5042a5e5f8281fec677b87b">&#9670;&#160;</a></span>asPtr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t SIZE&gt; </div>
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const T * <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; SIZE &gt;::asPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get const pointer to stored value of specified type. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type to retrieve (must be exact type, no const/ref) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const pointer to the stored value, or nullptr if the type doesn't match or the Any is empty </dd></dl>
 
 </div>
 </div>

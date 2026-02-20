@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"class_acts_1_1_disc_bounds.html#a39dfb92a346d376be86a79bedce4647c":[6,0,0,109,4],
+"class_acts_1_1_disc_bounds.html#a39dfb92a346d376be86a79bedce4647c":[8,0,0,117,4],
 "class_acts_1_1_disc_bounds.html#a443f888a284873dd4cee30e3b7b3bdd3":[6,0,0,109,3],
 "class_acts_1_1_disc_bounds.html#a443f888a284873dd4cee30e3b7b3bdd3":[8,0,0,117,3],
 "class_acts_1_1_disc_bounds.html#a698ec50cfca910047133cb4c2cd22f16":[6,0,0,109,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_dummy_vertex_fitter.html":[6,0,0,116],
 "class_acts_1_1_dummy_vertex_fitter.html":[8,0,0,124],
 "class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b":[6,0,0,116,0],
-"class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b":[8,0,0,124,0],
-"class_acts_1_1_dummy_vertex_fitter.html#aeeac086ef9d785ce512927aa52106d1d":[6,0,0,116,1],
-"class_acts_1_1_dummy_vertex_fitter.html#aeeac086ef9d785ce512927aa52106d1d":[8,0,0,124,1]
+"class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b":[8,0,0,124,0]
 };

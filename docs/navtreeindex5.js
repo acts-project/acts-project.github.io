@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"class_acts_1_1_cloneable_ptr.html#ae7aac6328a8a29b4e72c469f46f6c213":[6,0,0,61,1],
+"class_acts_1_1_cloneable_ptr.html#ae7aac6328a8a29b4e72c469f46f6c213":[8,0,0,69,1],
 "class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964":[6,0,0,61,16],
 "class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964":[8,0,0,69,16],
 "class_acts_1_1_cloneable_ptr.html#afb1840d74ea8350bf97c6e6eb403c32e":[6,0,0,61,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "class_acts_1_1_convex_polygon_bounds.html":[6,0,0,77],
 "class_acts_1_1_convex_polygon_bounds.html":[8,0,0,85],
 "class_acts_1_1_convex_polygon_bounds.html#a0189fd2640d444dbb76bb703135820a1":[6,0,0,77,0],
-"class_acts_1_1_convex_polygon_bounds.html#a0189fd2640d444dbb76bb703135820a1":[8,0,0,85,0],
-"class_acts_1_1_convex_polygon_bounds.html#a0b3884cc46886d5f0577fdb43da5c6f0":[6,0,0,77,3],
-"class_acts_1_1_convex_polygon_bounds.html#a0b3884cc46886d5f0577fdb43da5c6f0":[8,0,0,85,3]
+"class_acts_1_1_convex_polygon_bounds.html#a0189fd2640d444dbb76bb703135820a1":[8,0,0,85,0]
 };

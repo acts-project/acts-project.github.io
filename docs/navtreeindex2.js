@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"class_acts_1_1_any_track_state_proxy.html#ae97990745fce8adf4c524bbd528f1b59":[6,0,0,30,62],
+"class_acts_1_1_any_track_state_proxy.html#ae97990745fce8adf4c524bbd528f1b59":[8,0,0,38,62],
 "class_acts_1_1_any_track_state_proxy.html#aeb727c2d3d901c0031a6b6343933d4b7":[6,0,0,30,24],
 "class_acts_1_1_any_track_state_proxy.html#aeb727c2d3d901c0031a6b6343933d4b7":[8,0,0,38,24],
 "class_acts_1_1_any_track_state_proxy.html#aedf0ae8016e33b57c838559565c8007d":[6,0,0,30,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "class_acts_1_1_axis_aligned_bounding_box.html#a03e9d7abd1949447c0ddb0140a4a89c5":[6,0,0,40,5],
 "class_acts_1_1_axis_aligned_bounding_box.html#a03e9d7abd1949447c0ddb0140a4a89c5":[8,0,0,48,5],
 "class_acts_1_1_axis_aligned_bounding_box.html#a0fa53b9e6889516deba169d9f469c948":[6,0,0,40,18],
-"class_acts_1_1_axis_aligned_bounding_box.html#a0fa53b9e6889516deba169d9f469c948":[8,0,0,48,18],
-"class_acts_1_1_axis_aligned_bounding_box.html#a12fb383b26ed6e6913397553afa806d8":[6,0,0,40,30],
-"class_acts_1_1_axis_aligned_bounding_box.html#a12fb383b26ed6e6913397553afa806d8":[8,0,0,48,30]
+"class_acts_1_1_axis_aligned_bounding_box.html#a0fa53b9e6889516deba169d9f469c948":[8,0,0,48,18]
 };

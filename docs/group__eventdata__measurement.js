@@ -6,6 +6,8 @@ var group__eventdata__measurement =
       [ "SourceLink", "class_acts_1_1_source_link.html#a4cf163d8351dda9673ef5056f87d49e5", null ],
       [ "get", "class_acts_1_1_source_link.html#a4faa50481755b0e7611b80b386a1e4c3", null ],
       [ "get", "class_acts_1_1_source_link.html#abc7ddc3f96a26283262adb6603b7d45a", null ],
+      [ "getPtr", "class_acts_1_1_source_link.html#a57bcd3f562ed4449c1e5f07b26c0706a", null ],
+      [ "getPtr", "class_acts_1_1_source_link.html#a30aecdc8da235084624785ac3df32bb7", null ],
       [ "operator=", "class_acts_1_1_source_link.html#a8f753bc71df7839333e483e06b1100b9", null ],
       [ "operator=", "class_acts_1_1_source_link.html#a30a0b15d63ba2f38e9b4acea38a1b714", null ]
     ] ]
