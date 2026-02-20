@@ -116,9 +116,6 @@ var annotated_dup =
       [ "MultiTrajectoryHelpers", null, [
         [ "TrajectoryState", "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html", "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state" ]
       ] ],
-      [ "PortalJsonConverter", null, [
-        [ "Options", "struct_acts_1_1_portal_json_converter_1_1_options.html", "struct_acts_1_1_portal_json_converter_1_1_options" ]
-      ] ],
       [ "StripSpacePointBuilder", null, [
         [ "ClusterPairingOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html", "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options" ],
         [ "ConstrainedOptions", "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html", "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options" ],

@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_remove_pointer.html" target="_top" xlink:title="Introduce the Acts version of the pointer remove type trait because we want to fetch the underlying t...">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_remove_pointer_3_01_t_01_4.html" target="_top" xlink:title="This specialization allows std::remove_pointer to work with types satisfying Acts::SmartPointerConcep...">
 <polygon fill="white" stroke="#666666" points="147,-19 0,-19 0,0 147,0 147,-19"/>
 <text text-anchor="middle" x="73.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::RemovePointer&lt; T &gt;</text>
 </a>

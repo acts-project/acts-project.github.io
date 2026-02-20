@@ -631,7 +631,6 @@ var hierarchy =
     [ "Acts::Portal", "class_acts_1_1_portal.html", null ],
     [ "Acts::Portal::Arguments", "struct_acts_1_1_portal_1_1_arguments.html", null ],
     [ "Acts::Portal::Arguments::Link", "struct_acts_1_1_portal_1_1_arguments_1_1_link.html", null ],
-    [ "Acts::PortalJsonConverter::Options", "struct_acts_1_1_portal_json_converter_1_1_options.html", null ],
     [ "Acts::PortalLinkBase", "class_acts_1_1_portal_link_base.html", [
       [ "Acts::CompositePortalLink", "class_acts_1_1_composite_portal_link.html", null ],
       [ "Acts::GridPortalLink", "class_acts_1_1_grid_portal_link.html", [

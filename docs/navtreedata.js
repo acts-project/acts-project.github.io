@@ -124,16 +124,16 @@ var NAVTREEINDEX =
 "struct_acts_1_1_indexed_material_accessor.html",
 "struct_acts_1_1_material_interaction.html#a712d2daa866fddccb671bc1c9c242cd3",
 "struct_acts_1_1_navigator_1_1_state.html#a5f1d725fcb85b9096151e055063834ca",
-"struct_acts_1_1_propagator_plain_options.html#af154aff0a86b5c4c8498f7a08ee43782",
-"struct_acts_1_1_seed_filter_config.html#ac0742d478847fa0620fa0bbf4881a0e3",
-"struct_acts_1_1_singly_charged.html#a47b718b924c6d53a9a2690cff33ad4ca",
-"struct_acts_1_1_surface_array_1_1_single_element_lookup.html",
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b",
-"struct_acts_1_1_triplet_candidate.html#af01b00e908bf3f14ddcf17e534ea7d55",
-"struct_acts_1_1_volume_collector.html#aca75495d23f40e321a987fbcdd9b65e9",
-"struct_acts_fatras_1_1_charged_selector.html",
-"struct_acts_fatras_1_1_single_particle_simulation.html#a116bffb900348f4f71158471b566a1fc",
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a7a534912af97f4922409c78eeaaddda9"
+"struct_acts_1_1_propagator_result.html",
+"struct_acts_1_1_seed_filter_config.html#ace8b1ae5e5faf6ab10d07cabd9081ae4",
+"struct_acts_1_1_singly_charged.html#a93fcb405e9a7d0e2062d892b54feea79",
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a01d65556cefdbeeced6ba2e60bab03c6",
+"struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9",
+"struct_acts_1_1_triplet_candidate.html#afb01e5a82e1dde4bac8c940144604f2b",
+"struct_acts_1_1_volume_collector_1_1this__result.html",
+"struct_acts_fatras_1_1_charged_selector.html#a014809963f71fff06bff35caf8857e42",
+"struct_acts_fatras_1_1_single_particle_simulation.html#a1cfbb9f8dde02827b9c55f0baf643f63",
+"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ada2b4d74b7dafc6cdc52182abacd7af5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
