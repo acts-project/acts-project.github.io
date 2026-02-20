@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#acc6f1aeb28189b70f4448cb113a79e91":[5,9,12,3,2,1],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ada2b4d74b7dafc6cdc52182abacd7af5":[5,9,12,3,2,4],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ae2c38da478a3d5a345b810c692ddadd4":[5,9,12,3,2,3],
 "struct_acts_plugins_1_1_root_material_track_io_1_1_config.html":[5,9,12,4,0],

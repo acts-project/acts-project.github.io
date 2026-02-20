@@ -1,4 +1,5 @@
 var struct_acts_plugins_1_1_d_d4hep_detector_element_extension =
 [
-    [ "DD4hepDetectorElementExtension", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9", null ]
+    [ "DD4hepDetectorElementExtension", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9", null ],
+    [ "detectorElement", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#a89995b4b58cdf8a5f9deafdeee523c6f", null ]
 ];

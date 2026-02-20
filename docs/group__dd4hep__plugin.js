@@ -8,7 +8,8 @@ var group__dd4hep__plugin =
       [ "sourceElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57", null ]
     ] ],
     [ "ActsPlugins::DD4hepDetectorElementExtension", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html", [
-      [ "DD4hepDetectorElementExtension", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9", null ]
+      [ "DD4hepDetectorElementExtension", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9", null ],
+      [ "detectorElement", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#a89995b4b58cdf8a5f9deafdeee523c6f", null ]
     ] ],
     [ "ActsPlugins::DD4hepDetectorSurfaceFactory", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html", [
       [ "Cache", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html", [

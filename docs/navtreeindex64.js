@@ -22,6 +22,7 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a61e2881340cef4502d230230a523e84f":[5,9,6,1,0,1],
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a9638c5cf324266523e3fee5d3b3ca67c":[5,9,6,1,0,2],
 "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html":[5,9,2,1],
+"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#a89995b4b58cdf8a5f9deafdeee523c6f":[5,9,2,1,1],
 "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9":[5,9,2,1,0],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html":[5,9,2,2,0],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a1878d83b00952ad0b419f50bacf2100d":[5,9,2,2,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#aa8130554edc61512343af2c3084fd2ed":[5,9,12,3,1,4],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html":[5,9,12,3,2],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a5c819e6c1c6a2bbf165cf5b9bafaaf29":[5,9,12,3,2,2],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a7a534912af97f4922409c78eeaaddda9":[5,9,12,3,2,0],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#acc6f1aeb28189b70f4448cb113a79e91":[5,9,12,3,2,1]
+"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a7a534912af97f4922409c78eeaaddda9":[5,9,12,3,2,0]
 };

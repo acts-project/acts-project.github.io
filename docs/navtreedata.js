@@ -133,7 +133,7 @@ var NAVTREEINDEX =
 "struct_acts_1_1_volume_collector_1_1this__result.html",
 "struct_acts_fatras_1_1_charged_selector.html#a014809963f71fff06bff35caf8857e42",
 "struct_acts_fatras_1_1_single_particle_simulation.html#a1cfbb9f8dde02827b9c55f0baf643f63",
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ada2b4d74b7dafc6cdc52182abacd7af5"
+"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#acc6f1aeb28189b70f4448cb113a79e91"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
