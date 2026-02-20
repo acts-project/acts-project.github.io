@@ -7,7 +7,7 @@ var searchData=
   ['nomeasurementstatescreatedbackward_4',['NoMeasurementStatesCreatedBackward',['../group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa77854eb69cd722eed562c1deaf1db15f',1,'Acts']]],
   ['nomeasurementstatescreatedfinal_5',['NoMeasurementStatesCreatedFinal',['../group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa78b62f76aa8053db68df72c21e0c71fa',1,'Acts']]],
   ['nomeasurementstatescreatedforward_6',['NoMeasurementStatesCreatedForward',['../group__errors.html#gga83f8b59ffc557631bb7fdd01c18431caa6d0086586e767bdd2adbe51bfe8a6a51',1,'Acts']]],
-  ['none_7',['None',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754',1,'Acts']]],
+  ['none_7',['None',['../namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754',1,'Acts::None'],['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754',1,'Acts::None']]],
   ['nonpositivevariance_8',['NonPositiveVariance',['../group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a8aa64b33a3ad296b27c7ae99f16a091e',1,'Acts']]],
   ['nosolutionfound_9',['NoSolutionFound',['../group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bdaa803f77097064e7f7ce933bc02415134',1,'Acts']]],
   ['nostartvolume_10',['NoStartVolume',['../group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2',1,'Acts']]],

@@ -170,10 +170,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0222ac3620955fecf47fbd2d402bb3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the const space point container to be used by this seed container by shared pointer.  <br /></td></tr>
 <tr class="memitem:a7b5d2f368f07a48e9369bd79c3e7ef1b" id="r_a7b5d2f368f07a48e9369bd79c3e7ef1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5d2f368f07a48e9369bd79c3e7ef1b">assignSpacePointContainer</a> (const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &gt; &amp;<a class="el" href="#aa9432468a5f56b69c9651191f44ac161">spacePointContainer</a>) noexcept</td></tr>
 <tr class="memdesc:a7b5d2f368f07a48e9369bd79c3e7ef1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the mutable space point container to be used by this seed container by shared pointer.  <br /></td></tr>
+<tr class="memitem:a46f2a58797111558a2b76a842964967c" id="r_a46f2a58797111558a2b76a842964967c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f2a58797111558a2b76a842964967c">assignSpacePointContainer</a> (<a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;&amp;<a class="el" href="#aa9432468a5f56b69c9651191f44ac161">spacePointContainer</a>) noexcept</td></tr>
+<tr class="memdesc:a46f2a58797111558a2b76a842964967c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the mutable space point container to be used by this seed container by value.  <br /></td></tr>
 <tr class="memitem:abcfbed314c789b24d3dbf1f7f042acee" id="r_abcfbed314c789b24d3dbf1f7f042acee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfbed314c789b24d3dbf1f7f042acee">assignSpacePointContainer</a> (<a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;<a class="el" href="#aa9432468a5f56b69c9651191f44ac161">spacePointContainer</a>) noexcept</td></tr>
 <tr class="memdesc:abcfbed314c789b24d3dbf1f7f042acee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the mutable space point container to be used by this seed container by reference.  <br /></td></tr>
-<tr class="memitem:af067c20a6a140d757597b9dee1ae6e3a" id="r_af067c20a6a140d757597b9dee1ae6e3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af067c20a6a140d757597b9dee1ae6e3a">assignSpacePointContainer</a> (<a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> <a class="el" href="#aa9432468a5f56b69c9651191f44ac161">spacePointContainer</a>) noexcept</td></tr>
-<tr class="memdesc:af067c20a6a140d757597b9dee1ae6e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the mutable space point container to be used by this seed container by value.  <br /></td></tr>
 <tr class="memitem:a1e19b9f8411fa1b32e98f6603f8351b6" id="r_a1e19b9f8411fa1b32e98f6603f8351b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e19b9f8411fa1b32e98f6603f8351b6">assignSpacePointIndices</a> (<a class="el" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a> index, std::span&lt; const <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; <a class="el" href="#aeef6b2d187c6cb37350bb5549a67763b">spacePointIndices</a>)</td></tr>
 <tr class="memdesc:a1e19b9f8411fa1b32e98f6603f8351b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns space point indices to the seed at the given index.  <br /></td></tr>
 <tr class="memitem:ad5c38db865bdb906a89b2a1cab57c096" id="r_ad5c38db865bdb906a89b2a1cab57c096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a474c6e0eae96ec0ecb8b4ad215ad89f0">MutableProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c38db865bdb906a89b2a1cab57c096">at</a> (<a class="el" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a> index)</td></tr>
@@ -187,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65516c9b3200c3183b4d10cd44888afb" id="r_a65516c9b3200c3183b4d10cd44888afb"><td class="memItemLeft" align="right" valign="top"><a id="a65516c9b3200c3183b4d10cd44888afb" name="a65516c9b3200c3183b4d10cd44888afb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept</td></tr>
 <tr class="memdesc:a65516c9b3200c3183b4d10cd44888afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the seed container, removing all seeds and space points. <br /></td></tr>
+<tr class="memitem:a43ae43d5142fb72e625c4575af7fdcf3" id="r_a43ae43d5142fb72e625c4575af7fdcf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43ae43d5142fb72e625c4575af7fdcf3">copyFrom</a> (<a class="el" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a> index, const <a class="el" href="#a491ed5475b0483e931c38b10be9e05d8">SeedContainer2</a> &amp;otherContainer, <a class="el" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a> otherIndex, <a class="el" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf">SeedColumns</a> columnsToCopy)</td></tr>
+<tr class="memdesc:a43ae43d5142fb72e625c4575af7fdcf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another seed to this seed.  <br /></td></tr>
 <tr class="memitem:a0134611ecb15e0f61c00241bb0d3e1c0" id="r_a0134611ecb15e0f61c00241bb0d3e1c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a474c6e0eae96ec0ecb8b4ad215ad89f0">MutableProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0134611ecb15e0f61c00241bb0d3e1c0">createSeed</a> () noexcept</td></tr>
 <tr class="memdesc:a0134611ecb15e0f61c00241bb0d3e1c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new seed.  <br /></td></tr>
 <tr class="memitem:af822090def37fa44e2934da001e87cff" id="r_af822090def37fa44e2934da001e87cff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af822090def37fa44e2934da001e87cff">empty</a> () const noexcept</td></tr>
@@ -250,7 +252,7 @@ template&lt;bool read_only&gt; </div>
 <div class="line">      std::conditional_t&lt;read_only, ConstSeedProxy2, MutableSeedProxy2&gt;, <a class="code hl_typedef" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a>,</div>
 <div class="line">      read_only&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_seed_container2_html_a491ed5475b0483e931c38b10be9e05d8"><div class="ttname"><a href="#a491ed5475b0483e931c38b10be9e05d8">Acts::SeedContainer2::SeedContainer2</a></div><div class="ttdeci">SeedContainer2() noexcept</div><div class="ttdoc">Constructs and empty seed container.</div></div>
-<div class="ttc" id="aclass_acts_1_1_seed_container2_html_ad73e1ee5e73316f15ba991c4d634068e"><div class="ttname"><a href="#ad73e1ee5e73316f15ba991c4d634068e">Acts::SeedContainer2::Index</a></div><div class="ttdeci">SeedIndex2 Index</div><div class="ttdoc">Type alias for seed index type.</div><div class="ttdef"><b>Definition</b> SeedContainer2.hpp:36</div></div>
+<div class="ttc" id="aclass_acts_1_1_seed_container2_html_ad73e1ee5e73316f15ba991c4d634068e"><div class="ttname"><a href="#ad73e1ee5e73316f15ba991c4d634068e">Acts::SeedContainer2::Index</a></div><div class="ttdeci">SeedIndex2 Index</div><div class="ttdoc">Type alias for seed index type.</div><div class="ttdef"><b>Definition</b> SeedContainer2.hpp:37</div></div>
 </div><!-- fragment -->
 <p>Type alias for iterator template over seed container. </p>
 
@@ -423,8 +425,41 @@ template&lt;bool read_only&gt; </div>
 
 </div>
 </div>
+<a id="a46f2a58797111558a2b76a842964967c" name="a46f2a58797111558a2b76a842964967c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f2a58797111558a2b76a842964967c">&#9670;&#160;</a></span>assignSpacePointContainer() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SeedContainer2::assignSpacePointContainer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>spacePointContainer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assigns the mutable space point container to be used by this seed container by value. </p>
+<p>This can be used to either copy or move-assign a container. The ownership of the space point container is transferred to this seed container. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacePointContainer</td><td>The space point container to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="abcfbed314c789b24d3dbf1f7f042acee" name="abcfbed314c789b24d3dbf1f7f042acee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcfbed314c789b24d3dbf1f7f042acee">&#9670;&#160;</a></span>assignSpacePointContainer() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfbed314c789b24d3dbf1f7f042acee">&#9670;&#160;</a></span>assignSpacePointContainer() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,39 +483,6 @@ template&lt;bool read_only&gt; </div>
 
 <p>Assigns the mutable space point container to be used by this seed container by reference. </p>
 <p>Note that the ownership of the space point container is not transferred and the user must ensure that the space point container remains valid for the lifetime of this seed container. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">spacePointContainer</td><td>The space point container to assign. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="af067c20a6a140d757597b9dee1ae6e3a" name="af067c20a6a140d757597b9dee1ae6e3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af067c20a6a140d757597b9dee1ae6e3a">&#9670;&#160;</a></span>assignSpacePointContainer() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::SeedContainer2::assignSpacePointContainer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a></td>          <td class="paramname"><span class="paramname"><em>spacePointContainer</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Assigns the mutable space point container to be used by this seed container by value. </p>
-<p>This can be used to either copy or move-assign a container. The ownership of the space point container is transferred to this seed container. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">spacePointContainer</td><td>The space point container to assign. </td></tr>
   </table>
@@ -643,6 +645,48 @@ template&lt;bool read_only&gt; </div>
 
 <p>Get mutable iterator to the beginning of seeds. </p>
 <dl class="section return"><dt>Returns</dt><dd>Mutable iterator to the first seed </dd></dl>
+
+</div>
+</div>
+<a id="a43ae43d5142fb72e625c4575af7fdcf3" name="a43ae43d5142fb72e625c4575af7fdcf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ae43d5142fb72e625c4575af7fdcf3">&#9670;&#160;</a></span>copyFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SeedContainer2::copyFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a491ed5475b0483e931c38b10be9e05d8">SeedContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>otherContainer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad73e1ee5e73316f15ba991c4d634068e">Index</a></td>          <td class="paramname"><span class="paramname"><em>otherIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf">SeedColumns</a></td>          <td class="paramname"><span class="paramname"><em>columnsToCopy</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies the specified columns from another seed to this seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the seed to copy to in this container. </td></tr>
+    <tr><td class="paramname">otherContainer</td><td>The seed container to copy from. </td></tr>
+    <tr><td class="paramname">otherIndex</td><td>The index of the seed to copy from in the other container. </td></tr>
+    <tr><td class="paramname">columnsToCopy</td><td>The columns to copy from the other seed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

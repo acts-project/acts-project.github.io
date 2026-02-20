@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Core/include/Acts/EventData/TrackStatePropMask.hpp Source File</title>
+<title>ACTS: Core/include/Acts/EventData/SeedColumns.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,7 +89,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('_track_state_prop_mask_8hpp_source.html','',''); });
+$(function(){initNavTree('_seed_columns_8hpp_source.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -115,7 +115,7 @@ $(function(){initNavTree('_track_state_prop_mask_8hpp_source.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">TrackStatePropMask.hpp</div></div>
+  <div class="headertitle"><div class="title">SeedColumns.hpp</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// This file is part of the ACTS project.</span></div>
@@ -131,43 +131,40 @@ $(function(){initNavTree('_track_state_prop_mask_8hpp_source.html','',''); });
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Acts/Utilities/EnumBitwiseOperators.hpp&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;ostream&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a> {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">   28</a></span><span class="keyword">enum struct</span> <a class="code hl_enumeration" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> : std::uint8_t {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  Predicted = 1 &lt;&lt; 0,</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  Filtered = 1 &lt;&lt; 1,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  Smoothed = 1 &lt;&lt; 2,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  Jacobian = 1 &lt;&lt; 3,</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  Calibrated = 1 &lt;&lt; 4,</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = std::numeric_limits&lt;std::uint8_t&gt;::max(),  <span class="comment">// should be all ones</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span></div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf">   18</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf">SeedColumns</a> : std::uint32_t {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754">   19</a></span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0,  </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6">   21</a></span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6">SpacePointIndices</a> =</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>      1 &lt;&lt; 0,        </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55">   23</a></span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55">Quality</a> = 1 &lt;&lt; 1,  </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1">   24</a></span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1">VertexZ</a> = 1 &lt;&lt; 2,  </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680">   27</a></span>  <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6">SpacePointIndices</a> | <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55">Quality</a> | <a class="code hl_enumvalue" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1">VertexZ</a>,</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><a class="code hl_function" href="namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7">ACTS_DEFINE_ENUM_BITWISE_OPERATORS</a>(<a class="code hl_enumeration" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a>)</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="namespace_acts.html#a791f673965f85f8c894dd07a00d8bd61">   45</a></span>std::ostream&amp; operator&lt;&lt;(std::ostream&amp; os, <a class="code hl_enumeration" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="namespace_acts.html#af72eaa6c9a0fae67cd42a7757efa1789">   31</a></span><a class="code hl_function" href="namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7">ACTS_DEFINE_ENUM_BITWISE_OPERATORS</a>(<a class="code hl_enumeration" href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf">SeedColumns</a>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
+<div class="ttc" id="anamespace_acts_html_a1f6eba2b6bc61b840fff13f9b3343edf"><div class="ttname"><a href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf">Acts::SeedColumns</a></div><div class="ttdeci">SeedColumns</div><div class="ttdoc">Enumeration of available columns for space point data storage.</div><div class="ttdef"><b>Definition</b> SeedColumns.hpp:18</div></div>
+<div class="ttc" id="anamespace_acts_html_a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55"><div class="ttname"><a href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55">Acts::SeedColumns::Quality</a></div><div class="ttdeci">@ Quality</div><div class="ttdoc">Quality of the seed.</div><div class="ttdef"><b>Definition</b> SeedColumns.hpp:23</div></div>
 <div class="ttc" id="anamespace_acts_html_a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754"><div class="ttname"><a href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754">Acts::SeedColumns::None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">No columns.</div><div class="ttdef"><b>Definition</b> SeedColumns.hpp:19</div></div>
+<div class="ttc" id="anamespace_acts_html_a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6"><div class="ttname"><a href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6">Acts::SeedColumns::SpacePointIndices</a></div><div class="ttdeci">@ SpacePointIndices</div><div class="ttdoc">Indices of space points associated with the seed.</div><div class="ttdef"><b>Definition</b> SeedColumns.hpp:21</div></div>
+<div class="ttc" id="anamespace_acts_html_a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1"><div class="ttname"><a href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1">Acts::SeedColumns::VertexZ</a></div><div class="ttdeci">@ VertexZ</div><div class="ttdoc">Z coordinate of the vertex associated with.</div><div class="ttdef"><b>Definition</b> SeedColumns.hpp:24</div></div>
 <div class="ttc" id="anamespace_acts_html_a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680">Acts::SeedColumns::All</a></div><div class="ttdeci">@ All</div><div class="ttdoc">All columns.</div><div class="ttdef"><b>Definition</b> SeedColumns.hpp:27</div></div>
 <div class="ttc" id="anamespace_acts_html_a9406e4270f8dd103fba42d4df59f73a7"><div class="ttname"><a href="namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7">Acts::ACTS_DEFINE_ENUM_BITWISE_OPERATORS</a></div><div class="ttdeci">ACTS_DEFINE_ENUM_BITWISE_OPERATORS(MaterialUpdateMode)</div><div class="ttdoc">Enable bitwise operators for MaterialUpdateMode enum.</div></div>
-<div class="ttc" id="anamespace_acts_html_ac57de10a165c0a56408fd3de93e013e2"><div class="ttname"><a href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">Acts::TrackStatePropMask</a></div><div class="ttdeci">TrackStatePropMask</div><div class="ttdoc">Collection of bit masks to enable steering which components of a track state should be initialized,...</div><div class="ttdef"><b>Definition</b> TrackStatePropMask.hpp:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>EventData</b></li><li class="navelem"><b>TrackStatePropMask.hpp</b></li>
+    <li class="navelem"><b>Core</b></li><li class="navelem"><b>include</b></li><li class="navelem"><b>Acts</b></li><li class="navelem"><b>EventData</b></li><li class="navelem"><b>SeedColumns.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

@@ -212,6 +212,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept
 <tr class="memitem:a4a35040caefb017b5b2c4af25695a69d" id="r_a4a35040caefb017b5b2c4af25695a69d"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a4a35040caefb017b5b2c4af25695a69d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a35040caefb017b5b2c4af25695a69d">column</a> (const std::string &amp;name) const</td></tr>
 <tr class="memdesc:a4a35040caefb017b5b2c4af25695a69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable reference to the Column with the given name.  <br /></td></tr>
+<tr class="memitem:a412e8e1e8bee72db0765d0ca2b4ec2aa" id="r_a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412e8e1e8bee72db0765d0ca2b4ec2aa">copyFrom</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index, const <a class="el" href="#a61c8dcc7ae4547b223972cbb660178bd">SpacePointContainer2</a> &amp;otherContainer, <a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> otherIndex, <a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columnsToCopy)</td></tr>
+<tr class="memdesc:a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another spacepoint to this spacepoint.  <br /></td></tr>
 <tr class="memitem:ad9b66d6eb497034166f867f7f77aa6cd" id="r_ad9b66d6eb497034166f867f7f77aa6cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b66d6eb497034166f867f7f77aa6cd">copyFromIndex</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index) const noexcept</td></tr>
 <tr class="memdesc:ad9b66d6eb497034166f867f7f77aa6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the copy from index of the space point at the given index.  <br /></td></tr>
 <tr class="memitem:af370152ec73f08c032434a28cd9bfbb3" id="r_af370152ec73f08c032434a28cd9bfbb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af370152ec73f08c032434a28cd9bfbb3">copyFromIndex</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index) noexcept</td></tr>
@@ -436,7 +438,7 @@ template&lt;bool read_only&gt; </div>
 <div class="line">      std::conditional_t&lt;read_only, <a class="code hl_typedef" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a>,</div>
 <div class="line">                         <a class="code hl_typedef" href="namespace_acts.html#aab89f1e4f2b712860bba81478a4861cd">MutableSpacePointProxy2</a>&gt;,</div>
 <div class="line">      <a class="code hl_typedef" href="class_acts_1_1_seed_container2.html#ad73e1ee5e73316f15ba991c4d634068e">Index</a>, read_only&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_seed_container2_html_ad73e1ee5e73316f15ba991c4d634068e"><div class="ttname"><a href="class_acts_1_1_seed_container2.html#ad73e1ee5e73316f15ba991c4d634068e">Acts::SeedContainer2::Index</a></div><div class="ttdeci">SeedIndex2 Index</div><div class="ttdoc">Type alias for seed index type.</div><div class="ttdef"><b>Definition</b> SeedContainer2.hpp:36</div></div>
+<div class="ttc" id="aclass_acts_1_1_seed_container2_html_ad73e1ee5e73316f15ba991c4d634068e"><div class="ttname"><a href="class_acts_1_1_seed_container2.html#ad73e1ee5e73316f15ba991c4d634068e">Acts::SeedContainer2::Index</a></div><div class="ttdeci">SeedIndex2 Index</div><div class="ttdoc">Type alias for seed index type.</div><div class="ttdef"><b>Definition</b> SeedContainer2.hpp:37</div></div>
 <div class="ttc" id="aclass_acts_1_1_space_point_container2_html_a61c8dcc7ae4547b223972cbb660178bd"><div class="ttname"><a href="#a61c8dcc7ae4547b223972cbb660178bd">Acts::SpacePointContainer2::SpacePointContainer2</a></div><div class="ttdeci">SpacePointContainer2(SpacePointColumns columns=SpacePointColumns::None) noexcept</div><div class="ttdoc">Constructs and empty space point container.</div></div>
 <div class="ttc" id="anamespace_acts_html_aab89f1e4f2b712860bba81478a4861cd"><div class="ttname"><a href="namespace_acts.html#aab89f1e4f2b712860bba81478a4861cd">Acts::MutableSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; false &gt; MutableSpacePointProxy2</div><div class="ttdoc">Mutable proxy to a space point allowing modification.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:42</div></div>
 <div class="ttc" id="anamespace_acts_html_acd104d9fd9886e714af3bf67c53e508f"><div class="ttname"><a href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">Acts::ConstSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; true &gt; ConstSpacePointProxy2</div><div class="ttdoc">Const proxy to a space point for read-only access.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:44</div></div>
@@ -856,6 +858,48 @@ template&lt;typename T&gt; </div>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::runtime_error</td><td>if the column does not exist. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a412e8e1e8bee72db0765d0ca2b4ec2aa" name="a412e8e1e8bee72db0765d0ca2b4ec2aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412e8e1e8bee72db0765d0ca2b4ec2aa">&#9670;&#160;</a></span>copyFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SpacePointContainer2::copyFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a61c8dcc7ae4547b223972cbb660178bd">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>otherContainer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a></td>          <td class="paramname"><span class="paramname"><em>otherIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columnsToCopy</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies the specified columns from another spacepoint to this spacepoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the spacepoint to copy to in this container. </td></tr>
+    <tr><td class="paramname">otherContainer</td><td>The space point container to copy from. </td></tr>
+    <tr><td class="paramname">otherIndex</td><td>The index of the spacepoint to copy from in the other container. </td></tr>
+    <tr><td class="paramname">columnsToCopy</td><td>The columns to copy from the other spacepoint. </td></tr>
   </table>
   </dd>
 </dl>

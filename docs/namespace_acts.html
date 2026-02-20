@@ -1797,6 +1797,16 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:ad71ecb37457c7761afe0fea9e203d05b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different stages during propagation.  <a href="#ad71ecb37457c7761afe0fea9e203d05b">More...</a><br /></td></tr>
+<tr class="memitem:a1f6eba2b6bc61b840fff13f9b3343edf" id="r_a1f6eba2b6bc61b840fff13f9b3343edf"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edf">SeedColumns</a> : std::uint32_t { <br />
+&#160;&#160;<a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
+, <a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6">SpacePointIndices</a>
+, <a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55">Quality</a> = 1 &lt;&lt; 1
+, <a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1">VertexZ</a> = 1 &lt;&lt; 2
+, <br />
+&#160;&#160;<a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = SpacePointIndices | Quality | VertexZ
+<br />
+ }</td></tr>
+<tr class="memdesc:a1f6eba2b6bc61b840fff13f9b3343edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of available columns for space point data storage.  <a href="#a1f6eba2b6bc61b840fff13f9b3343edf">More...</a><br /></td></tr>
 <tr class="memitem:a71eb0dc21ee83a011a86dbd801338057" id="r_a71eb0dc21ee83a011a86dbd801338057"><td class="memItemLeft" align="right" valign="top"><a id="a71eb0dc21ee83a011a86dbd801338057" name="a71eb0dc21ee83a011a86dbd801338057"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71eb0dc21ee83a011a86dbd801338057">SpacePointCandidateType</a> : short { <b>eBottom</b>
 , <b>eTop</b>
  }</td></tr>
@@ -1828,6 +1838,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37">VarianceZR</a> = 1 &lt;&lt; 18
 , <br />
 &#160;&#160;<a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735">Strip</a>
+, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399cab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a7a6813a649567fb613b8214ad5e7399c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of available columns for space point data storage.  <a href="#a7a6813a649567fb613b8214ad5e7399c">More...</a><br /></td></tr>
@@ -1941,6 +1952,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9406e4270f8dd103fba42d4df59f73a7" id="r_a9406e4270f8dd103fba42d4df59f73a7"><td class="memItemLeft" align="right" valign="top"><a id="a9406e4270f8dd103fba42d4df59f73a7" name="a9406e4270f8dd103fba42d4df59f73a7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ACTS_DEFINE_ENUM_BITWISE_OPERATORS</b> (<a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a>)</td></tr>
 <tr class="memdesc:a9406e4270f8dd103fba42d4df59f73a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable bitwise operators for MaterialUpdateMode enum. <br /></td></tr>
+<tr class="memitem:af72eaa6c9a0fae67cd42a7757efa1789" id="r_af72eaa6c9a0fae67cd42a7757efa1789"><td class="memItemLeft" align="right" valign="top"><a id="af72eaa6c9a0fae67cd42a7757efa1789" name="af72eaa6c9a0fae67cd42a7757efa1789"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ACTS_DEFINE_ENUM_BITWISE_OPERATORS</b> (<a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edf">SeedColumns</a>)</td></tr>
+<tr class="memdesc:af72eaa6c9a0fae67cd42a7757efa1789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable bitwise operators for SeedColumns enum. <br /></td></tr>
 <tr class="memitem:a07cc9c5a52b7ad024117cee0d1dd664f" id="r_a07cc9c5a52b7ad024117cee0d1dd664f"><td class="memItemLeft" align="right" valign="top"><a id="a07cc9c5a52b7ad024117cee0d1dd664f" name="a07cc9c5a52b7ad024117cee0d1dd664f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ACTS_DEFINE_ENUM_BITWISE_OPERATORS</b> (<a class="el" href="#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a>)</td></tr>
 <tr class="memdesc:a07cc9c5a52b7ad024117cee0d1dd664f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable bitwise operators for SpacePointColumns enum. <br /></td></tr>
@@ -4100,6 +4114,42 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 
 </div>
 </div>
+<a id="a1f6eba2b6bc61b840fff13f9b3343edf" name="a1f6eba2b6bc61b840fff13f9b3343edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6eba2b6bc61b840fff13f9b3343edf">&#9670;&#160;</a></span>SeedColumns</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a1f6eba2b6bc61b840fff13f9b3343edf">Acts::SeedColumns</a> : std::uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enumeration of available columns for space point data storage. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754" name="a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>No columns. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6" name="a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6"></a>SpacePointIndices&#160;</td><td class="fielddoc"><p>Indices of space points associated with the seed. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55" name="a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55"></a>Quality&#160;</td><td class="fielddoc"><p>Quality of the seed. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1" name="a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1"></a>VertexZ&#160;</td><td class="fielddoc"><p>Z coordinate of the vertex associated with. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680" name="a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>All columns. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="a7a6813a649567fb613b8214ad5e7399c" name="a7a6813a649567fb613b8214ad5e7399c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a6813a649567fb613b8214ad5e7399c">&#9670;&#160;</a></span>SpacePointColumns</h2>
 
@@ -4163,6 +4213,8 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 <tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37" name="a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37"></a>VarianceZR&#160;</td><td class="fielddoc"><p>Variance in Z and R directions. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735" name="a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735"></a>Strip&#160;</td><td class="fielddoc"><p>All strip-related columns. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399cab1c94ca2fbc3e78fc30069c8d0f01680" name="a7a6813a649567fb613b8214ad5e7399cab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>All columns. </p>
 </td></tr>
 </table>
 

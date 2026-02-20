@@ -1,5 +1,7 @@
 var class_acts_1_1_seed_proxy2_1_1_space_point_range =
 [
+    [ "size_type", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html#a8037f88ed943bd1a77702c9dd102a4dc", null ],
+    [ "value_type", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html#a3b593cc7ee5004dc0725f35acbb35ef7", null ],
     [ "SpacePointRange", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html#a5baa42c934b7df2451508121d5258af1", null ],
     [ "begin", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html#a81b82ab9af009a4dcb5cd222483fd9b6", null ],
     [ "empty", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html#a713d4c60b2f8cce7eda25d4a5fdc6b4c", null ],

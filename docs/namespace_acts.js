@@ -811,6 +811,13 @@ var namespace_acts =
       [ "preStep", "namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05baac36043718849057413af081e5880a60", null ],
       [ "postStep", "namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05ba6611d3ea55ba2b9a3c8daeec0e77a35f", null ]
     ] ],
+    [ "SeedColumns", "namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edf", [
+      [ "None", "namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "SpacePointIndices", "namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa7781d314d767565d3b0350ad066242a6", null ],
+      [ "Quality", "namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa571094bb27864b600d8e6b561a137a55", null ],
+      [ "VertexZ", "namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfa86eaa11de9571f1f395e715f9bf2c3f1", null ],
+      [ "All", "namespace_acts.html#a1f6eba2b6bc61b840fff13f9b3343edfab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
     [ "SpacePointCandidateType", "namespace_acts.html#a71eb0dc21ee83a011a86dbd801338057", null ],
     [ "SpacePointColumns", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c", [
       [ "None", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754", null ],
@@ -833,7 +840,8 @@ var namespace_acts =
       [ "XYZ", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cae65075d550f9b5bf9992fa1d71a131be", null ],
       [ "XYZR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cadcebc0530c8af8d1c3ba8511b85e17f9", null ],
       [ "VarianceZR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37", null ],
-      [ "Strip", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735", null ]
+      [ "Strip", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735", null ],
+      [ "All", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cab1c94ca2fbc3e78fc30069c8d0f01680", null ]
     ] ],
     [ "SpacePointFormationError", "group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd", [
       [ "ClusterPairDistanceExceeded", "group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bda59498ee016767b03b39eb220b31f8ef0", null ],
@@ -902,6 +910,7 @@ var namespace_acts =
     ] ],
     [ "abs", "namespace_acts.html#aee44b83052f88cd1f6fe38ad464439d0", null ],
     [ "ACTS_DEFINE_ENUM_BITWISE_OPERATORS", "namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7", null ],
+    [ "ACTS_DEFINE_ENUM_BITWISE_OPERATORS", "namespace_acts.html#af72eaa6c9a0fae67cd42a7757efa1789", null ],
     [ "ACTS_DEFINE_ENUM_BITWISE_OPERATORS", "namespace_acts.html#a07cc9c5a52b7ad024117cee0d1dd664f", null ],
     [ "addBoundParameters", "namespace_acts.html#a7e485245a070df5a95f113e9ada82f40", null ],
     [ "adjustBinUtility", "namespace_acts.html#ac693aa8941b4cbb04d9fda037650199a", null ],

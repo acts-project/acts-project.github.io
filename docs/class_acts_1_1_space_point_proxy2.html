@@ -165,6 +165,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5849807c92ad34585ac4ca9812a770ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the container holding the space point.  <br /></td></tr>
 <tr class="memitem:ad20793d84c4072298c4913b95c451b3b" id="r_ad20793d84c4072298c4913b95c451b3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad20793d84c4072298c4913b95c451b3b">container</a> () const noexcept</td></tr>
 <tr class="memdesc:ad20793d84c4072298c4913b95c451b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the container holding the space point.  <br /></td></tr>
+<tr class="memitem:a263f2972e6359b910ade9e655718499e" id="r_a263f2972e6359b910ade9e655718499e"><td class="memTemplParams" colspan="2">template&lt;bool other_read_only&gt; <br />
+requires (!<a class="el" href="#a3d29c8b89a28036d322e6f7525b1b97a">ReadOnly</a>)</td></tr>
+<tr class="memitem:a263f2972e6359b910ade9e655718499e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a263f2972e6359b910ade9e655718499e">copyFrom</a> (const <a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; other_read_only &gt; &amp;other, <a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columnsToCopy) const</td></tr>
+<tr class="memdesc:a263f2972e6359b910ade9e655718499e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another space point to this space point.  <br /></td></tr>
 <tr class="memitem:a26e170527cf94630a9bfe769ccb59ee0" id="r_a26e170527cf94630a9bfe769ccb59ee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e170527cf94630a9bfe769ccb59ee0">copyFromIndex</a> () const noexcept</td></tr>
 <tr class="memdesc:a26e170527cf94630a9bfe769ccb59ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the copy from index of the space point.  <br /></td></tr>
 <tr class="memitem:a7dc56c5ee0413743135458accfe6020d" id="r_a7dc56c5ee0413743135458accfe6020d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dc56c5ee0413743135458accfe6020d">copyFromIndex</a> () const noexcept</td></tr>
@@ -177,6 +181,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac570dc64aa1cbb0d30eb039ead7ceebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable access to an extra column of data for the space point.  <br /></td></tr>
 <tr class="memitem:af70fe9d982a582a1c818c526f7ec05d7" id="r_af70fe9d982a582a1c818c526f7ec05d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa823ea686232c0ea2ab186aa4239844f">Index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70fe9d982a582a1c818c526f7ec05d7">index</a> () const noexcept</td></tr>
 <tr class="memdesc:af70fe9d982a582a1c818c526f7ec05d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the index of the space point in the container.  <br /></td></tr>
+<tr class="memitem:a69fc3bdb3974926f2b44d27a1424c5ce" id="r_a69fc3bdb3974926f2b44d27a1424c5ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69fc3bdb3974926f2b44d27a1424c5ce">operator=</a> (const <a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a69fc3bdb3974926f2b44d27a1424c5ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assign a space point proxy.  <br /></td></tr>
+<tr class="memitem:adeceb6019eaa45a504ffac322bdb6f2c" id="r_adeceb6019eaa45a504ffac322bdb6f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeceb6019eaa45a504ffac322bdb6f2c">operator=</a> (const <a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; false &gt; &amp;other) noexcept</td></tr>
+<tr class="memdesc:adeceb6019eaa45a504ffac322bdb6f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assign a mutable space point proxy.  <br /></td></tr>
+<tr class="memitem:a1372c62ab9110da1e632e10f1c7043e1" id="r_a1372c62ab9110da1e632e10f1c7043e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1372c62ab9110da1e632e10f1c7043e1">operator=</a> (<a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a1372c62ab9110da1e632e10f1c7043e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assign a space point proxy.  <br /></td></tr>
+<tr class="memitem:a88c7c8728fd2018190054a587c46e063" id="r_a88c7c8728fd2018190054a587c46e063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88c7c8728fd2018190054a587c46e063">operator=</a> (<a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; false &gt; &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a88c7c8728fd2018190054a587c46e063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assign a mutable space point proxy.  <br /></td></tr>
 <tr class="memitem:a45333e05c57606c38dbd6f2125ce2adb" id="r_a45333e05c57606c38dbd6f2125ce2adb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45333e05c57606c38dbd6f2125ce2adb">phi</a> () const noexcept</td></tr>
 <tr class="memdesc:a45333e05c57606c38dbd6f2125ce2adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the phi coordinate of the space point.  <br /></td></tr>
 <tr class="memitem:a0c4d5ce0d3167c4d19ad78b81f72ad93" id="r_a0c4d5ce0d3167c4d19ad78b81f72ad93"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c4d5ce0d3167c4d19ad78b81f72ad93">phi</a> () const noexcept</td></tr>
@@ -554,6 +566,41 @@ template&lt;bool read_only&gt; </div>
 
 </div>
 </div>
+<a id="a263f2972e6359b910ade9e655718499e" name="a263f2972e6359b910ade9e655718499e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a263f2972e6359b910ade9e655718499e">&#9670;&#160;</a></span>copyFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<div class="memtemplate">
+template&lt;bool other_read_only&gt; <br />
+requires (!<a class="el" href="#a3d29c8b89a28036d322e6f7525b1b97a">ReadOnly</a>)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::copyFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; other_read_only &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columnsToCopy</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies the specified columns from another space point to this space point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point proxy to copy from. </td></tr>
+    <tr><td class="paramname">columnsToCopy</td><td>The columns to copy from the other space point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a26e170527cf94630a9bfe769ccb59ee0" name="a26e170527cf94630a9bfe769ccb59ee0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26e170527cf94630a9bfe769ccb59ee0">&#9670;&#160;</a></span>copyFromIndex() <span class="overload">[1/2]</span></h2>
 
@@ -717,6 +764,150 @@ template&lt;bool read_only&gt; </div>
 
 <p>Gets the index of the space point in the container. </p>
 <dl class="section return"><dt>Returns</dt><dd>The index of the space point in the container. </dd></dl>
+
+</div>
+</div>
+<a id="a69fc3bdb3974926f2b44d27a1424c5ce" name="a69fc3bdb3974926f2b44d27a1424c5ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69fc3bdb3974926f2b44d27a1424c5ce">&#9670;&#160;</a></span>operator=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; read_only &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy assign a space point proxy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point proxy to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this space point proxy after assignment. </dd></dl>
+
+</div>
+</div>
+<a id="adeceb6019eaa45a504ffac322bdb6f2c" name="adeceb6019eaa45a504ffac322bdb6f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeceb6019eaa45a504ffac322bdb6f2c">&#9670;&#160;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; false &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy assign a mutable space point proxy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The mutable space point proxy to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this space point proxy after assignment. </dd></dl>
+
+</div>
+</div>
+<a id="a1372c62ab9110da1e632e10f1c7043e1" name="a1372c62ab9110da1e632e10f1c7043e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1372c62ab9110da1e632e10f1c7043e1">&#9670;&#160;</a></span>operator=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; read_only &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assign a space point proxy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point proxy to move. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this space point proxy after assignment. </dd></dl>
+
+</div>
+</div>
+<a id="a88c7c8728fd2018190054a587c46e063" name="a88c7c8728fd2018190054a587c46e063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c7c8728fd2018190054a587c46e063">&#9670;&#160;</a></span>operator=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a> &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8347d42c636b30778610d1e5f2d5fe2">SpacePointProxy2</a>&lt; false &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assign a mutable space point proxy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The mutable space point proxy to move. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this space point proxy after assignment. </dd></dl>
 
 </div>
 </div>
