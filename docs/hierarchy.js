@@ -916,6 +916,7 @@ var hierarchy =
     [ "Acts::VolumeMaterialMapper", "class_acts_1_1_volume_material_mapper.html", null ],
     [ "Acts::VolumeMaterialMapper::Config", "struct_acts_1_1_volume_material_mapper_1_1_config.html", null ],
     [ "Acts::VolumeMaterialMapper::State", "struct_acts_1_1_volume_material_mapper_1_1_state.html", null ],
+    [ "Acts::VolumePlacementBase", "class_acts_1_1_volume_placement_base.html", null ],
     [ "Acts::VolumeSelector", "struct_acts_1_1_volume_selector.html", null ],
     [ "Acts::VolumeStack::ResizeStrategies", "struct_acts_1_1_volume_stack_1_1_resize_strategies.html", null ],
     [ "Acts::WrappingConfig", "struct_acts_1_1_wrapping_config.html", null ],

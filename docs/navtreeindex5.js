@@ -1,11 +1,15 @@
 var NAVTREEINDEX5 =
 {
-"class_acts_1_1_cloneable_ptr.html#ae7aac6328a8a29b4e72c469f46f6c213":[6,0,0,61,1],
-"class_acts_1_1_cloneable_ptr.html#ae7aac6328a8a29b4e72c469f46f6c213":[8,0,0,68,1],
-"class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964":[6,0,0,61,16],
-"class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964":[8,0,0,68,16],
-"class_acts_1_1_cloneable_ptr.html#afb1840d74ea8350bf97c6e6eb403c32e":[6,0,0,61,17],
-"class_acts_1_1_cloneable_ptr.html#afb1840d74ea8350bf97c6e6eb403c32e":[8,0,0,68,17],
+"class_acts_1_1_cloneable_ptr.html#adf458df4eb483e27e8eca8863ef57784":[6,0,0,61,11],
+"class_acts_1_1_cloneable_ptr.html#adf458df4eb483e27e8eca8863ef57784":[8,0,0,68,11],
+"class_acts_1_1_cloneable_ptr.html#ae08ea2d0bd1b2ceb1521d5741f23bdaa":[6,0,0,61,15],
+"class_acts_1_1_cloneable_ptr.html#ae08ea2d0bd1b2ceb1521d5741f23bdaa":[8,0,0,68,15],
+"class_acts_1_1_cloneable_ptr.html#ae7aac6328a8a29b4e72c469f46f6c213":[6,0,0,61,2],
+"class_acts_1_1_cloneable_ptr.html#ae7aac6328a8a29b4e72c469f46f6c213":[8,0,0,68,2],
+"class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964":[6,0,0,61,18],
+"class_acts_1_1_cloneable_ptr.html#aeaf518fe1889fa6fb13f6d317e458964":[8,0,0,68,18],
+"class_acts_1_1_cloneable_ptr.html#afb1840d74ea8350bf97c6e6eb403c32e":[6,0,0,61,19],
+"class_acts_1_1_cloneable_ptr.html#afb1840d74ea8350bf97c6e6eb403c32e":[8,0,0,68,19],
 "class_acts_1_1_combinatorial_kalman_filter.html":[5,8,1,0],
 "class_acts_1_1_combinatorial_kalman_filter.html#a00ce8df1692cbd175c8c4c4eb96d127b":[5,8,1,0,0],
 "class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9":[5,8,1,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "class_acts_1_1_constrained_step.html#aee2052ae647f13bdaa015f0b7a1645d9":[6,0,0,73,1],
 "class_acts_1_1_constrained_step.html#aee2052ae647f13bdaa015f0b7a1645d9":[8,0,0,80,1],
 "class_acts_1_1_constrained_step.html#afb814ab1d4dd131732895efabd453e2b":[6,0,0,73,2],
-"class_acts_1_1_constrained_step.html#afb814ab1d4dd131732895efabd453e2b":[8,0,0,80,2],
-"class_acts_1_1_convex_polygon_bounds.html":[6,0,0,77],
-"class_acts_1_1_convex_polygon_bounds.html":[8,0,0,84],
-"class_acts_1_1_convex_polygon_bounds.html#a0189fd2640d444dbb76bb703135820a1":[6,0,0,77,0],
-"class_acts_1_1_convex_polygon_bounds.html#a0189fd2640d444dbb76bb703135820a1":[8,0,0,84,0]
+"class_acts_1_1_constrained_step.html#afb814ab1d4dd131732895efabd453e2b":[8,0,0,80,2]
 };

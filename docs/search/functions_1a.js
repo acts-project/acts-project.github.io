@@ -69,5 +69,6 @@ var searchData=
   ['_7etrackinggeometry_66',['~TrackingGeometry',['../class_acts_1_1_tracking_geometry.html#a62c63f7206272b5f2e7e81064b2100d8',1,'Acts::TrackingGeometry']]],
   ['_7etrackinggeometrybuilder_67',['~TrackingGeometryBuilder',['../class_acts_1_1_tracking_geometry_builder.html#ad87c88f27eb9587107cea3d61bbd0ba3',1,'Acts::TrackingGeometryBuilder']]],
   ['_7etrapezoidvolumebounds_68',['~TrapezoidVolumeBounds',['../class_acts_1_1_trapezoid_volume_bounds.html#a91dd6ad1c050f44d24c9ef3a78cd1477',1,'Acts::TrapezoidVolumeBounds']]],
-  ['_7etwocircletangentpars_69',['~TwoCircleTangentPars',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a7a50b7f0c48cf0066fb139ad6e60248d',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
+  ['_7etwocircletangentpars_69',['~TwoCircleTangentPars',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a7a50b7f0c48cf0066fb139ad6e60248d',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
+  ['_7evolumeplacementbase_70',['~VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html#a2bc3e178a37dbca2707f3a1c769a3a00',1,'Acts::VolumePlacementBase']]]
 ];

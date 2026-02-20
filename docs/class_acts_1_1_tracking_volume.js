@@ -7,6 +7,7 @@ var class_acts_1_1_tracking_volume =
     [ "SurfaceRange", "class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174", null ],
     [ "VolumeRange", "class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#a6ea1e3188898687a94db523efaa97c76", null ],
+    [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#abe0129524f4166e263ec371692ae27f5", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#a2b0a767432c559884dc313724133ac20", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#ad00c2e89ba21178dabf83e6762344d57", null ],
     [ "TrackingVolume", "class_acts_1_1_tracking_volume.html#acaa15c002f93aaa18dc6a63126a75170", null ],

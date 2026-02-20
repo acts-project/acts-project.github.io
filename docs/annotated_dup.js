@@ -599,6 +599,7 @@ var annotated_dup =
       [ "VolumeConstraintAborter", "struct_acts_1_1_volume_constraint_aborter.html", "struct_acts_1_1_volume_constraint_aborter" ],
       [ "VolumeHit", "struct_acts_1_1_volume_hit.html", "struct_acts_1_1_volume_hit" ],
       [ "VolumeMaterialMapper", "class_acts_1_1_volume_material_mapper.html", "class_acts_1_1_volume_material_mapper" ],
+      [ "VolumePlacementBase", "class_acts_1_1_volume_placement_base.html", "class_acts_1_1_volume_placement_base" ],
       [ "VolumeSelector", "struct_acts_1_1_volume_selector.html", "struct_acts_1_1_volume_selector" ],
       [ "VolumeStack", "class_acts_1_1_volume_stack.html", "class_acts_1_1_volume_stack" ],
       [ "WrappingConfig", "struct_acts_1_1_wrapping_config.html", "struct_acts_1_1_wrapping_config" ],

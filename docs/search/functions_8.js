@@ -54,7 +54,7 @@ var searchData=
   ['invcovariancematerial_51',['invCovarianceMaterial',['../struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415',1,'Acts::Experimental::ScatteringProperties']]],
   ['invert_52',['invert',['../class_acts_1_1_direction.html#a7d1a79917b43c58c6c0678e5f78139e9',1,'Acts::Direction']]],
   ['is_53',['is',['../class_acts_1_1_finite_state_machine.html#accf83819414f8d062810932538205f10',1,'Acts::FiniteStateMachine::is(const S &amp;) const noexcept'],['../class_acts_1_1_finite_state_machine.html#a0f5273656e8174aa3c829bc28c8c6b10',1,'Acts::FiniteStateMachine::is() const noexcept']]],
-  ['isalignable_54',['isAlignable',['../class_acts_1_1_surface.html#a12d3b34fa4b7d351482864daa32f738d',1,'Acts::Surface']]],
+  ['isalignable_54',['isAlignable',['../class_acts_1_1_volume.html#a0f190ce7e913a79c51193624481b8ee0',1,'Acts::Volume::isAlignable()'],['../class_acts_1_1_surface.html#a12d3b34fa4b7d351482864daa32f738d',1,'Acts::Surface::isAlignable()']]],
   ['isalive_55',['isAlive',['../class_acts_fatras_1_1_particle.html#ad1f84e23a32a053bb259f4b8aa7b5bbd',1,'ActsFatras::Particle']]],
   ['isautorange_56',['isAutorange',['../class_acts_1_1_proto_axis.html#abf2546ad7e1dc870d89ab196da5995fa',1,'Acts::ProtoAxis']]],
   ['isboundvectorvalid_57',['isBoundVectorValid',['../namespace_acts.html#a94a8f9b03ea4540ab29e8d70330fa7f0',1,'Acts']]],

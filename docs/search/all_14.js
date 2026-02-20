@@ -119,7 +119,7 @@ var searchData=
   ['regularsurface_116',['RegularSurface',['../class_acts_1_1_regular_surface.html',1,'Acts']]],
   ['regularsurfaceconcept_117',['RegularSurfaceConcept',['../concept_acts_1_1_regular_surface_concept.html',1,'Acts']]],
   ['relchi2changecutoff_118',['relChi2changeCutOff',['../struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a48fed7e05f1ac0ec5e308377c4e6d474',1,'Acts::Experimental::Gx2FitterOptions']]],
-  ['release_119',['release',['../howto_release.html',1,'How to make a release'],['../class_acts_1_1_constrained_step.html#ad3f0ad67b0dfda0925de929bc80dcfd7',1,'Acts::ConstrainedStep::release()'],['../class_acts_1_1_cloneable_ptr.html#a39f1396d0da01f1d746c8688fa46b6d2',1,'Acts::CloneablePtr::release()'],['../howto_release.html#autotoc_md52',1,'Step 3: Publish release']]],
+  ['release_119',['release',['../howto_release.html',1,'How to make a release'],['../class_acts_1_1_constrained_step.html#ad3f0ad67b0dfda0925de929bc80dcfd7',1,'Acts::ConstrainedStep::release()'],['../class_acts_1_1_cloneable_ptr.html#a717102f43d600ece6cb590cf9c773419',1,'Acts::CloneablePtr::release()'],['../howto_release.html#autotoc_md52',1,'Step 3: Publish release']]],
   ['release_20branch_120',['Step 1: Update the release branch',['../howto_release.html#autotoc_md50',1,'']]],
   ['release_20on_20cvmfs_121',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md30',1,'']]],
   ['releaseaccuracy_122',['releaseAccuracy',['../class_acts_1_1_constrained_step.html#abdbb4cfa37a690730db0030b8087d940',1,'Acts::ConstrainedStep']]],

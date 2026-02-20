@@ -172,7 +172,7 @@ var searchData=
   ['ireferencegenerator_169',['IReferenceGenerator',['../struct_acts_1_1_i_reference_generator.html',1,'Acts']]],
   ['is_170',['is',['../class_acts_1_1_finite_state_machine.html#accf83819414f8d062810932538205f10',1,'Acts::FiniteStateMachine::is(const S &amp;) const noexcept'],['../class_acts_1_1_finite_state_machine.html#a0f5273656e8174aa3c829bc28c8c6b10',1,'Acts::FiniteStateMachine::is() const noexcept']]],
   ['is_5feigen_5fbase_171',['is_eigen_base',['../concept_acts_1_1_concepts_1_1is__eigen__base.html',1,'Acts::Concepts']]],
-  ['isalignable_172',['isAlignable',['../class_acts_1_1_surface.html#a12d3b34fa4b7d351482864daa32f738d',1,'Acts::Surface']]],
+  ['isalignable_172',['isAlignable',['../class_acts_1_1_volume.html#a0f190ce7e913a79c51193624481b8ee0',1,'Acts::Volume::isAlignable()'],['../class_acts_1_1_surface.html#a12d3b34fa4b7d351482864daa32f738d',1,'Acts::Surface::isAlignable()']]],
   ['isalive_173',['isAlive',['../struct_acts_fatras_1_1_simulation_result.html#a7336531ada59426c82aa1d6d38856ff5',1,'ActsFatras::SimulationResult::isAlive'],['../class_acts_fatras_1_1_particle.html#ad1f84e23a32a053bb259f4b8aa7b5bbd',1,'ActsFatras::Particle::isAlive()']]],
   ['isautorange_174',['isAutorange',['../class_acts_1_1_proto_axis.html#abf2546ad7e1dc870d89ab196da5995fa',1,'Acts::ProtoAxis']]],
   ['isboundvectorvalid_175',['isBoundVectorValid',['../namespace_acts.html#a94a8f9b03ea4540ab29e8d70330fa7f0',1,'Acts']]],

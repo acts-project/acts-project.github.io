@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"class_acts_1_1_disc_bounds.html#a08ae8d2beb9c29c15f61c0ba96fd94da":[6,0,0,109,6],
+"class_acts_1_1_disc_bounds.html#a08ae8d2beb9c29c15f61c0ba96fd94da":[8,0,0,116,6],
+"class_acts_1_1_disc_bounds.html#a2e2387e5471e066cc4eaa4a1bb593567":[6,0,0,109,2],
+"class_acts_1_1_disc_bounds.html#a2e2387e5471e066cc4eaa4a1bb593567":[8,0,0,116,2],
 "class_acts_1_1_disc_bounds.html#a39dfb92a346d376be86a79bedce4647c":[6,0,0,109,4],
 "class_acts_1_1_disc_bounds.html#a39dfb92a346d376be86a79bedce4647c":[8,0,0,116,4],
 "class_acts_1_1_disc_bounds.html#a443f888a284873dd4cee30e3b7b3bdd3":[6,0,0,109,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html":[6,0,0,115,5],
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html":[8,0,0,122,5],
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[6,0,0,115,5,0],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[8,0,0,122,5,0],
-"class_acts_1_1_dummy_vertex_fitter.html":[6,0,0,116],
-"class_acts_1_1_dummy_vertex_fitter.html":[8,0,0,123],
-"class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b":[6,0,0,116,0],
-"class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b":[8,0,0,123,0]
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[8,0,0,122,5,0]
 };

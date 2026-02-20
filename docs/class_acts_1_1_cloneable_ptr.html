@@ -141,15 +141,18 @@ Public Types</h2></td></tr>
 <tr class="memitem:a6dcb8e5a7a23db719e7fa6159a6bc6f1" id="r_a6dcb8e5a7a23db719e7fa6159a6bc6f1"><td class="memItemLeft" align="right" valign="top"><a id="a6dcb8e5a7a23db719e7fa6159a6bc6f1" name="a6dcb8e5a7a23db719e7fa6159a6bc6f1"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Cloner</b> = std::function&lt;std::unique_ptr&lt;T&gt;(const T&amp;)&gt;</td></tr>
 <tr class="memdesc:a6dcb8e5a7a23db719e7fa6159a6bc6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the cloner function. <br /></td></tr>
+<tr class="memitem:acecf76b8f14de36f3f74e83a67223f6e" id="r_acecf76b8f14de36f3f74e83a67223f6e"><td class="memItemLeft" align="right" valign="top"><a id="acecf76b8f14de36f3f74e83a67223f6e" name="acecf76b8f14de36f3f74e83a67223f6e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>element_type</b> = T</td></tr>
+<tr class="memdesc:acecf76b8f14de36f3f74e83a67223f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the type of the managed object. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7aac6328a8a29b4e72c469f46f6c213" id="r_ae7aac6328a8a29b4e72c469f46f6c213"><td class="memItemLeft" align="right" valign="top"><a id="ae7aac6328a8a29b4e72c469f46f6c213" name="ae7aac6328a8a29b4e72c469f46f6c213"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>CloneablePtr</b> ()=default</td></tr>
 <tr class="memdesc:ae7aac6328a8a29b4e72c469f46f6c213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor, creates a null pointer. <br /></td></tr>
-<tr class="memitem:ab8bb9cd4819eb2f3c9bd56298f8cf981" id="r_ab8bb9cd4819eb2f3c9bd56298f8cf981"><td class="memItemLeft" align="right" valign="top"><a id="ab8bb9cd4819eb2f3c9bd56298f8cf981" name="ab8bb9cd4819eb2f3c9bd56298f8cf981"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>CloneablePtr</b> (CloneablePtr &amp;&amp;)=default</td></tr>
-<tr class="memdesc:ab8bb9cd4819eb2f3c9bd56298f8cf981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
+<tr class="memitem:a0ccc1037495f2fa173e53ba9179fb317" id="r_a0ccc1037495f2fa173e53ba9179fb317"><td class="memItemLeft" align="right" valign="top"><a id="a0ccc1037495f2fa173e53ba9179fb317" name="a0ccc1037495f2fa173e53ba9179fb317"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CloneablePtr</b> (CloneablePtr &amp;&amp;) noexcept=default</td></tr>
+<tr class="memdesc:a0ccc1037495f2fa173e53ba9179fb317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
 <tr class="memitem:a15dd71918678540c1e388c3b12011b8e" id="r_a15dd71918678540c1e388c3b12011b8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15dd71918678540c1e388c3b12011b8e">CloneablePtr</a> (const CloneablePtr &amp;other)</td></tr>
 <tr class="memdesc:a15dd71918678540c1e388c3b12011b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:aad42e54976e0df940f35582b91aac125" id="r_aad42e54976e0df940f35582b91aac125"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad42e54976e0df940f35582b91aac125">CloneablePtr</a> (std::unique_ptr&lt; T &gt; ptr)</td></tr>
@@ -172,12 +175,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a762686d0a5f99cd866886ed79b1d6a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dereference operator.  <br /></td></tr>
 <tr class="memitem:a9f1d3af738da3f0de26a5f93804cb7f5" id="r_a9f1d3af738da3f0de26a5f93804cb7f5"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f1d3af738da3f0de26a5f93804cb7f5">operator-&gt;</a> () const</td></tr>
 <tr class="memdesc:a9f1d3af738da3f0de26a5f93804cb7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arrow operator.  <br /></td></tr>
-<tr class="memitem:a72e027385d2ab08da6576dc85c909438" id="r_a72e027385d2ab08da6576dc85c909438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e027385d2ab08da6576dc85c909438">operator=</a> (<a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&amp;)=default</td></tr>
-<tr class="memdesc:a72e027385d2ab08da6576dc85c909438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <br /></td></tr>
-<tr class="memitem:a78ac33174861f4e92aafea3f53045a9a" id="r_a78ac33174861f4e92aafea3f53045a9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ac33174861f4e92aafea3f53045a9a">operator=</a> (const <a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;other)</td></tr>
-<tr class="memdesc:a78ac33174861f4e92aafea3f53045a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment.  <br /></td></tr>
-<tr class="memitem:a39f1396d0da01f1d746c8688fa46b6d2" id="r_a39f1396d0da01f1d746c8688fa46b6d2"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f1396d0da01f1d746c8688fa46b6d2">release</a> ()</td></tr>
-<tr class="memdesc:a39f1396d0da01f1d746c8688fa46b6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release ownership of the managed object.  <br /></td></tr>
+<tr class="memitem:a586e48c7fa597b904c0ccdbd0a64d427" id="r_a586e48c7fa597b904c0ccdbd0a64d427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a586e48c7fa597b904c0ccdbd0a64d427">operator=</a> (<a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&amp;) noexcept=default</td></tr>
+<tr class="memdesc:a586e48c7fa597b904c0ccdbd0a64d427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <br /></td></tr>
+<tr class="memitem:ae08ea2d0bd1b2ceb1521d5741f23bdaa" id="r_ae08ea2d0bd1b2ceb1521d5741f23bdaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae08ea2d0bd1b2ceb1521d5741f23bdaa">operator=</a> (const <a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:ae08ea2d0bd1b2ceb1521d5741f23bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment.  <br /></td></tr>
+<tr class="memitem:a2383679e379a3e1b0a412a6749accc0a" id="r_a2383679e379a3e1b0a412a6749accc0a"><td class="memTemplParams" colspan="2">template&lt;typename T1&gt; <br />
+requires (std::is_copy_constructible_v&lt;T1&gt; &amp;&amp; std::is_base_of_v&lt;T, T1&gt;)</td></tr>
+<tr class="memitem:a2383679e379a3e1b0a412a6749accc0a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2383679e379a3e1b0a412a6749accc0a">operator=</a> (std::unique_ptr&lt; T1 &gt; &amp;&amp;ptr) noexcept</td></tr>
+<tr class="memdesc:a2383679e379a3e1b0a412a6749accc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment from a unique_ptr.  <br /></td></tr>
+<tr class="memitem:a717102f43d600ece6cb590cf9c773419" id="r_a717102f43d600ece6cb590cf9c773419"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a717102f43d600ece6cb590cf9c773419">release</a> ()</td></tr>
+<tr class="memdesc:a717102f43d600ece6cb590cf9c773419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release ownership of the managed object.  <br /></td></tr>
 <tr class="memitem:aeaf518fe1889fa6fb13f6d317e458964" id="r_aeaf518fe1889fa6fb13f6d317e458964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf518fe1889fa6fb13f6d317e458964">reset</a> (T *ptr=nullptr)</td></tr>
 <tr class="memdesc:aeaf518fe1889fa6fb13f6d317e458964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the managed object.  <br /></td></tr>
 </table>
@@ -422,8 +429,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a72e027385d2ab08da6576dc85c909438" name="a72e027385d2ab08da6576dc85c909438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72e027385d2ab08da6576dc85c909438">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="a586e48c7fa597b904c0ccdbd0a64d427" name="a586e48c7fa597b904c0ccdbd0a64d427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586e48c7fa597b904c0ccdbd0a64d427">&#9670;&#160;</a></span>operator=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +449,7 @@ template&lt;typename T&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -452,13 +459,16 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a78ac33174861f4e92aafea3f53045a9a" name="a78ac33174861f4e92aafea3f53045a9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78ac33174861f4e92aafea3f53045a9a">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="ae08ea2d0bd1b2ceb1521d5741f23bdaa" name="ae08ea2d0bd1b2ceb1521d5741f23bdaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08ea2d0bd1b2ceb1521d5741f23bdaa">&#9670;&#160;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp; <a class="el" href="class_acts_1_1_cloneable_ptr.html">Acts::CloneablePtr</a>&lt; T &gt;::operator= </td>
@@ -467,6 +477,11 @@ template&lt;typename T&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Copy assignment. </p>
@@ -480,8 +495,47 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a39f1396d0da01f1d746c8688fa46b6d2" name="a39f1396d0da01f1d746c8688fa46b6d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f1396d0da01f1d746c8688fa46b6d2">&#9670;&#160;</a></span>release()</h2>
+<a id="a2383679e379a3e1b0a412a6749accc0a" name="a2383679e379a3e1b0a412a6749accc0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2383679e379a3e1b0a412a6749accc0a">&#9670;&#160;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<div class="memtemplate">
+template&lt;typename T1&gt; <br />
+requires (std::is_copy_constructible_v&lt;T1&gt; &amp;&amp; std::is_base_of_v&lt;T, T1&gt;)</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae7aac6328a8a29b4e72c469f46f6c213">CloneablePtr</a> &amp; <a class="el" href="class_acts_1_1_cloneable_ptr.html">Acts::CloneablePtr</a>&lt; T &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; T1 &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment from a unique_ptr. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>The unique_ptr that's assigned to this object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this </dd></dl>
+
+</div>
+</div>
+<a id="a717102f43d600ece6cb590cf9c773419" name="a717102f43d600ece6cb590cf9c773419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a717102f43d600ece6cb590cf9c773419">&#9670;&#160;</a></span>release()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,7 +543,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T * <a class="el" href="class_acts_1_1_cloneable_ptr.html">Acts::CloneablePtr</a>&lt; T &gt;::release </td>
+          <td class="memname">std::unique_ptr&lt; T &gt; <a class="el" href="class_acts_1_1_cloneable_ptr.html">Acts::CloneablePtr</a>&lt; T &gt;::release </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
