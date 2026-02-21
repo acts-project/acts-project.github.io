@@ -1,7 +1,9 @@
 var NAVTREEINDEX51 =
 {
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[6,0,0,1,32,0,3],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,32,0,3],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[6,0,0,1,32,0,2],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[8,0,0,2,32,0,2],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[6,0,0,1,32,0,4],
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,32,0,4],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html":[5,11,8],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a274350757314c6773ae659910e767239":[5,11,8,3],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,11,8,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a4b5d54ff578b5df7f54cd431120abf90":[6,0,0,2,1,3],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a4b5d54ff578b5df7f54cd431120abf90":[8,0,0,5,1,3],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a7b3ffa89f3f281d2d45dcd4ea0e4d88a":[6,0,0,2,1,4],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a7b3ffa89f3f281d2d45dcd4ea0e4d88a":[8,0,0,5,1,4],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#aa8c1ef25ef85a9ee842aefd0ff16f1f4":[6,0,0,2,1,1],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#aa8c1ef25ef85a9ee842aefd0ff16f1f4":[8,0,0,5,1,1]
+"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a7b3ffa89f3f281d2d45dcd4ea0e4d88a":[8,0,0,5,1,4]
 };

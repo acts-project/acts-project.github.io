@@ -1,18 +1,20 @@
 <map id="Acts::Experimental::MultiWireVolumeBuilder::Config" name="Acts::Experimental::MultiWireVolumeBuilder::Config">
-<area shape="rect" id="Node000001" title="Configuration Struct." alt="" coords="691,86,879,141"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="429,13,515,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="529,33,596,47,667,65,719,83,717,88,666,71,595,52,528,38"/>
+<area shape="rect" id="Node000001" title="Configuration Struct." alt="" coords="776,110,964,165"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="443,13,530,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,26,643,38,699,49,753,66,795,85,832,107,829,112,792,90,751,70,697,54,642,43,544,31"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="15,5,153,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,23,428,23,428,28,167,28"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="383,64,561,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="575,91,690,102,690,107,575,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,23,443,23,443,28,167,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="397,64,576,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="590,90,752,111,776,115,775,120,752,116,590,96"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="19,102,149,127"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="162,106,382,88,383,94,163,111"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="387,129,557,154"/>
-<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="141,128,187,137,290,144,386,144,386,149,290,150,186,143,140,134"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="391,179,553,219"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="567,188,616,180,666,168,735,138,737,143,668,173,618,186,568,194"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="5,186,163,211"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="176,196,391,196,391,201,176,201"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="571,140,666,135,690,131,691,137,667,140,571,145"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="162,106,397,88,397,93,162,111"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="401,129,572,154"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="141,128,187,137,299,145,401,144,401,149,298,150,186,143,140,134"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_volume_placement_base.html" title="Interface class to define the transform cache backend for alignable volumes." alt="" coords="383,178,591,203"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="604,182,677,176,752,165,775,161,776,166,752,171,678,181,604,188"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="405,228,568,268"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="581,243,665,233,709,224,751,211,795,189,834,163,837,167,798,194,753,216,710,229,666,238,582,248"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,235,163,261"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="176,245,405,245,405,251,176,251"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="585,138,776,136,776,141,585,143"/>
 </map>

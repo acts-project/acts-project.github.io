@@ -1,5 +1,6 @@
 var struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config =
 [
+    [ "alignablePlacement", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ab4699924c6454ab1cc7e729362435432", null ],
     [ "binning", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ad367419e80c0d8a6bd8fc1c00bfefd6f", null ],
     [ "bounds", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636", null ],
     [ "mlSurfaces", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#a6e82f2a397550e5fbac69681f82bc7b1", null ],
