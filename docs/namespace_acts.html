@@ -1822,15 +1822,21 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca60970c94d2fa3ff8904f6ee13a88c506">StripCenterDistance</a> = 1 &lt;&lt; 11
 , <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca3496d756018104f2c4ed750e892621d0">TopStripCenter</a> = 1 &lt;&lt; 12
 , <a class="el" href="#a7a6813a649567fb613b8214ad5e7399cab64faa7d3e7fdfda97f3cf4ebb2ccbe8">CopyFromIndex</a> = 1 &lt;&lt; 13
-, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca74c53bcd3dcb2bb79993b2fec37d362a">XY</a> = 1 &lt;&lt; 14
+, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca617b751d30dd553ba3063d49c52a8cc7">PackedXY</a> = 1 &lt;&lt; 14
 , <br />
-&#160;&#160;<a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca50390e75aac138ff69bd26a338e042a4">ZR</a> = 1 &lt;&lt; 15
-, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399cae65075d550f9b5bf9992fa1d71a131be">XYZ</a> = 1 &lt;&lt; 16
-, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399cadcebc0530c8af8d1c3ba8511b85e17f9">XYZR</a> = 1 &lt;&lt; 17
-, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37">VarianceZR</a> = 1 &lt;&lt; 18
+&#160;&#160;<a class="el" href="#a7a6813a649567fb613b8214ad5e7399cac04ff32d34de75a9d213b5205e8d3f37">PackedZR</a> = 1 &lt;&lt; 15
+, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399caedfedac02cfd8048fb8c04c3086910f5">PackedXYZ</a> = 1 &lt;&lt; 16
+, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca269c2c69bee6c10ef3af8a53bc15c2ca">PackedXYZR</a> = 1 &lt;&lt; 17
+, <a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca97a3aff057758d60a5fa42ce9196351d">PackedVarianceZR</a> = 1 &lt;&lt; 18
 , <br />
 &#160;&#160;<a class="el" href="#a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735">Strip</a>
 , <a class="el" href="#a7a6813a649567fb613b8214ad5e7399cab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
+, <b>XY</b> = 1 &lt;&lt; 14
+, <b>ZR</b> = 1 &lt;&lt; 15
+, <br />
+&#160;&#160;<b>XYZ</b> = 1 &lt;&lt; 16
+, <b>XYZR</b> = 1 &lt;&lt; 17
+, <b>VarianceZR</b> = 1 &lt;&lt; 18
 <br />
  }</td></tr>
 <tr class="memdesc:a7a6813a649567fb613b8214ad5e7399c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of available columns for space point data storage.  <a href="#a7a6813a649567fb613b8214ad5e7399c">More...</a><br /></td></tr>
@@ -4118,15 +4124,15 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 </td></tr>
 <tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399cab64faa7d3e7fdfda97f3cf4ebb2ccbe8" name="a7a6813a649567fb613b8214ad5e7399cab64faa7d3e7fdfda97f3cf4ebb2ccbe8"></a>CopyFromIndex&#160;</td><td class="fielddoc"><p>Copy from index. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca74c53bcd3dcb2bb79993b2fec37d362a" name="a7a6813a649567fb613b8214ad5e7399ca74c53bcd3dcb2bb79993b2fec37d362a"></a>XY&#160;</td><td class="fielddoc"><p>X and Y coordinates. </p>
+<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca617b751d30dd553ba3063d49c52a8cc7" name="a7a6813a649567fb613b8214ad5e7399ca617b751d30dd553ba3063d49c52a8cc7"></a>PackedXY&#160;</td><td class="fielddoc"><p>X and Y coordinates. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca50390e75aac138ff69bd26a338e042a4" name="a7a6813a649567fb613b8214ad5e7399ca50390e75aac138ff69bd26a338e042a4"></a>ZR&#160;</td><td class="fielddoc"><p>Z and R coordinates. </p>
+<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399cac04ff32d34de75a9d213b5205e8d3f37" name="a7a6813a649567fb613b8214ad5e7399cac04ff32d34de75a9d213b5205e8d3f37"></a>PackedZR&#160;</td><td class="fielddoc"><p>Z and R coordinates. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399cae65075d550f9b5bf9992fa1d71a131be" name="a7a6813a649567fb613b8214ad5e7399cae65075d550f9b5bf9992fa1d71a131be"></a>XYZ&#160;</td><td class="fielddoc"><p>X, Y, and Z coordinates. </p>
+<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399caedfedac02cfd8048fb8c04c3086910f5" name="a7a6813a649567fb613b8214ad5e7399caedfedac02cfd8048fb8c04c3086910f5"></a>PackedXYZ&#160;</td><td class="fielddoc"><p>X, Y, and Z coordinates. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399cadcebc0530c8af8d1c3ba8511b85e17f9" name="a7a6813a649567fb613b8214ad5e7399cadcebc0530c8af8d1c3ba8511b85e17f9"></a>XYZR&#160;</td><td class="fielddoc"><p>X, Y, Z, and R coordinates. </p>
+<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca269c2c69bee6c10ef3af8a53bc15c2ca" name="a7a6813a649567fb613b8214ad5e7399ca269c2c69bee6c10ef3af8a53bc15c2ca"></a>PackedXYZR&#160;</td><td class="fielddoc"><p>X, Y, Z, and R coordinates. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37" name="a7a6813a649567fb613b8214ad5e7399ca3aaf7978eaca2bad55d906b6f6d57f37"></a>VarianceZR&#160;</td><td class="fielddoc"><p>Variance in Z and R directions. </p>
+<tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca97a3aff057758d60a5fa42ce9196351d" name="a7a6813a649567fb613b8214ad5e7399ca97a3aff057758d60a5fa42ce9196351d"></a>PackedVarianceZR&#160;</td><td class="fielddoc"><p>Variance in Z and R directions. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735" name="a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735"></a>Strip&#160;</td><td class="fielddoc"><p>All strip-related columns. </p>
 </td></tr>
