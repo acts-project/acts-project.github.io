@@ -11,7 +11,5 @@ var searchData=
   ['navigatoroptions_8',['NavigatorOptions',['../class_acts_1_1_propagator.html#ac07d5763fad51e760a9f757690716165',1,'Acts::Propagator::NavigatorOptions'],['../class_acts_1_1_ridders_propagator.html#a570ed5117e0ca2d2130604c85d3a4e11',1,'Acts::RiddersPropagator::NavigatorOptions']]],
   ['navigatorstate_9',['NavigatorState',['../class_acts_1_1_propagator.html#a66b3f9e2048585969f9ce1831dbb17c5',1,'Acts::Propagator::NavigatorState'],['../class_acts_1_1_ridders_propagator.html#a225e973bb16eb5e781b66b3fd839fc7a',1,'Acts::RiddersPropagator::NavigatorState']]],
   ['networkbatchinput_10',['NetworkBatchInput',['../group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa',1,'ActsPlugins']]],
-  ['neutralboundtrackparameters_11',['NeutralBoundTrackParameters',['../namespace_acts.html#a5a251193de228b8045bfae4dea56eeaa',1,'Acts']]],
-  ['neutralfreetrackparameters_12',['NeutralFreeTrackParameters',['../namespace_acts.html#a250e93cd47012384de7861dfa23d7706',1,'Acts']]],
-  ['nextlayers_13',['NextLayers',['../namespace_acts.html#a474fe95e07bff5d2bd907ffb6ff3bea9',1,'Acts']]]
+  ['nextlayers_11',['NextLayers',['../namespace_acts.html#a474fe95e07bff5d2bd907ffb6ff3bea9',1,'Acts']]]
 ];
