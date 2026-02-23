@@ -1,6 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335":[5,9,8,2,2,0],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html":[5,9,8,2,3],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html#a3822869a40daaba6a7d06d5e1dbb812d":[5,9,8,2,3,0],
 "struct_acts_plugins_1_1_geo_model_tree.html":[5,9,8,3],

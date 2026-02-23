@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,446,6],
 "struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,453,6],
 "struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,446,7],
 "struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[8,0,0,453,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1json_key.html#acb766c511c4478d97563b9568422442c":[5,9,10,5,4],
 "struct_acts_1_1missing__specialization.html":[5,9,10,8],
 "struct_acts_1_1overloaded.html":[6,0,0,296],
-"struct_acts_1_1overloaded.html":[8,0,0,303]
+"struct_acts_1_1overloaded.html":[8,0,0,303],
+"struct_acts_fatras_1_1_abs_pdg_excluder.html":[6,0,2,0]
 };

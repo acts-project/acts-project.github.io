@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"struct_acts_1_1_experimental_1_1_scattering_properties.html":[5,11,8],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a274350757314c6773ae659910e767239":[5,11,8,3],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,11,8,0],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a7d14107e03a8a5f6441eb8a1e7f9db3d":[5,11,8,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#aa8c1ef25ef85a9ee842aefd0ff16f1f4":[6,0,0,2,1,1],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#aa8c1ef25ef85a9ee842aefd0ff16f1f4":[8,0,0,5,1,1],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#ada682e7b7f5bacd3b931bcb8800b94c1":[6,0,0,2,1,2],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#ada682e7b7f5bacd3b931bcb8800b94c1":[8,0,0,5,1,2]
+"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#ada682e7b7f5bacd3b931bcb8800b94c1":[8,0,0,5,1,2],
+"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#adf1b7cbe326aaf6fc65541caf29c5a01":[6,0,0,2,1,5]
 };

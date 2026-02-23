@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"struct_acts_1_1_experimental_1_1_gbts_config.html#a212a087b14e384cdf3d495ee9d3ecb8f":[6,0,0,1,11,28],
 "struct_acts_1_1_experimental_1_1_gbts_config.html#a212a087b14e384cdf3d495ee9d3ecb8f":[8,0,0,2,11,28],
 "struct_acts_1_1_experimental_1_1_gbts_config.html#a4beaf29a4353f3c572e405ff5224acb2":[6,0,0,1,11,21],
 "struct_acts_1_1_experimental_1_1_gbts_config.html#a4beaf29a4353f3c572e405ff5224acb2":[8,0,0,2,11,21],
@@ -249,5 +248,6 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[6,0,0,1,32,0,2],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[8,0,0,2,32,0,2],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[6,0,0,1,32,0,4],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,32,0,4]
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,32,0,4],
+"struct_acts_1_1_experimental_1_1_scattering_properties.html":[5,11,8]
 };

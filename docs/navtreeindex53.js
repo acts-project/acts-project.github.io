@@ -1,6 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#acef5ae5ee19f73e8687db017d38311cc":[8,0,0,180,0,0],
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[6,0,0,175,0],
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[8,0,0,182,0],
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#a4036f46b16d9ef67ac3dd91e5502cde2":[6,0,0,175,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1":[5,11,16,7],
 "struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630":[5,11,16,5],
 "struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed":[5,11,16,6],
-"struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765":[5,11,16,10]
+"struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765":[5,11,16,10],
+"struct_acts_1_1_kalman_fitter_options.html#af3e8dfc3681b5b7ae742a14e2d3c32c8":[5,11,16,4]
 };
