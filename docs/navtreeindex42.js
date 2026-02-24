@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"group__detray__plugin.html#gaa1dcec42ae43f5db590322d0363435bc":[5,9,3,6],
+"group__detray__plugin.html#gab4876cd1a15c4491c043a77088649f8a":[5,9,3,3],
 "group__detray__plugin.html#gab6c312293d8af6ea0c1e6ec8b4e3ea8e":[5,9,3,8],
 "group__detray__plugin.html#gac350cecdee1fdc557bc4c626b0d14de3":[5,9,3,5],
 "group__edm4hep__plugin.html":[5,9,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f":[5,3,2,28],
 "group__material__mapping.html":[5,3,2,0],
 "group__onnx__plugin.html":[5,9,11],
-"group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,9,11,4],
-"group__pattern__recog.html":[5,8],
-"group__plugins.html":[5,9]
+"group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,9,11,4]
 };

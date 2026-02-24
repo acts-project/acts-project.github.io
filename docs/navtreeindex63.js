@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ae9af027aa5bf56073366adb51b85ed0c":[6,0,0,461,0,6],
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ae9af027aa5bf56073366adb51b85ed0c":[8,0,0,468,0,6],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_state.html":[6,0,0,461,1],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_state.html":[8,0,0,468,1],
 "struct_acts_1_1json_key.html":[5,9,10,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_fatras_1_1_point_like_process.html#a09cda5240510675a745c70f541d65bcc":[6,0,2,31,0],
 "struct_acts_fatras_1_1_point_like_process.html#a09cda5240510675a745c70f541d65bcc":[8,0,1,32,0],
 "struct_acts_fatras_1_1_point_like_process.html#a756a44d8ffac97fba1b1b8b1684f9ed8":[6,0,2,31,5],
-"struct_acts_fatras_1_1_point_like_process.html#a756a44d8ffac97fba1b1b8b1684f9ed8":[8,0,1,32,5],
-"struct_acts_fatras_1_1_point_like_process.html#a7b9f4c4ac0ee726788479b29a73fa3ce":[6,0,2,31,2],
-"struct_acts_fatras_1_1_point_like_process.html#a7b9f4c4ac0ee726788479b29a73fa3ce":[8,0,1,32,2]
+"struct_acts_fatras_1_1_point_like_process.html#a756a44d8ffac97fba1b1b8b1684f9ed8":[8,0,1,32,5]
 };
