@@ -1,8 +1,10 @@
 var class_acts_1_1_experimental_1_1_seed_finder_gbts =
 [
+    [ "GbtsSlidingWindow", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_gbts_sliding_window.html", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_gbts_sliding_window" ],
     [ "SeedProperties", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html", "struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties" ],
     [ "SeedFinderGbts", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a80838c0beb8a84d90a72204f2a11ab01", null ],
     [ "buildTheGraph", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a71fcdcfe19b4070e0a635f792f1165ef", null ],
+    [ "checkZ0BitMask", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aeaf088f418cad9c664158708ca93032c", null ],
     [ "createNodes", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aad184fc3fc75187017836652085e5a28", null ],
     [ "createSeeds", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html#aaf1ff14209f5b4d08766506f38403cbb", null ],
     [ "extractSeedsFromTheGraph", "class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a10479f6cb79f8fb7509c1cdf9202d15b", null ],

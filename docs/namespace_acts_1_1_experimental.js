@@ -87,6 +87,5 @@ var namespace_acts_1_1_experimental =
     [ "to_json", "group__json__plugin.html#ga2e409bb699770dae2ec6955721e6b156", null ],
     [ "updateGx2fCovarianceParams", "group__track__fitting.html#gad4f1ce6c1ef539c4290db1d05ffcd0d7", null ],
     [ "updateGx2fParams", "group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362", null ],
-    [ "gbtsMaxSegPerNode", "namespace_acts_1_1_experimental.html#ac1004bfbc2e0e4d5c5e3a0342f3bb08c", null ],
     [ "gbtsNumSegConns", "namespace_acts_1_1_experimental.html#a5075698390536c386c95f4179ebb6e65", null ]
 ];

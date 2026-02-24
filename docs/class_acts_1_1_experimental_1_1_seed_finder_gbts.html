@@ -133,6 +133,8 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_seed_finder_gbts.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:GbtsSlidingWindow" id="r_GbtsSlidingWindow"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_gbts_sliding_window.html">GbtsSlidingWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sliding window in phi used to define range used for edge creation.  <a href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_gbts_sliding_window.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SeedProperties" id="r_SeedProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">SeedProperties</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed metadata produced by the GBTs algorithm.  <a href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -142,6 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a80838c0beb8a84d90a72204f2a11ab01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a71fcdcfe19b4070e0a635f792f1165ef" id="r_a71fcdcfe19b4070e0a635f792f1165ef"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::int32_t, std::int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71fcdcfe19b4070e0a635f792f1165ef">buildTheGraph</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_data_storage.html">GbtsDataStorage</a> &gt; &amp;storage, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;edgeStorage) const</td></tr>
 <tr class="memdesc:a71fcdcfe19b4070e0a635f792f1165ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build doublet graph from nodes.  <br /></td></tr>
+<tr class="memitem:aeaf088f418cad9c664158708ca93032c" id="r_aeaf088f418cad9c664158708ca93032c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf088f418cad9c664158708ca93032c">checkZ0BitMask</a> (std::uint16_t z0BitMask, float z0, float minZ0, float z0HistoCoeff) const</td></tr>
+<tr class="memdesc:aeaf088f418cad9c664158708ca93032c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if z0 of segment is within the expected z range of the beamspot.  <br /></td></tr>
 <tr class="memitem:aad184fc3fc75187017836652085e5a28" id="r_aad184fc3fc75187017836652085e5a28"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad184fc3fc75187017836652085e5a28">createNodes</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a228c30a4888f58dc0d2bae73dcb43a8d">SpContainerComponentsType</a> &amp;container, std::uint32_t maxLayers) const</td></tr>
 <tr class="memdesc:aad184fc3fc75187017836652085e5a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create graph nodes from space points.  <br /></td></tr>
 <tr class="memitem:aaf1ff14209f5b4d08766506f38403cbb" id="r_aaf1ff14209f5b4d08766506f38403cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1ff14209f5b4d08766506f38403cbb">createSeeds</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const <a class="el" href="namespace_acts_1_1_experimental.html#a228c30a4888f58dc0d2bae73dcb43a8d">SpContainerComponentsType</a> &amp;SpContainerComponents, std::uint32_t maxLayers) const</td></tr>
@@ -233,6 +237,49 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pair of edge count and maximum level </dd></dl>
+
+</div>
+</div>
+<a id="aeaf088f418cad9c664158708ca93032c" name="aeaf088f418cad9c664158708ca93032c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf088f418cad9c664158708ca93032c">&#9670;&#160;</a></span>checkZ0BitMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::SeedFinderGbts::checkZ0BitMask </td>
+          <td>(</td>
+          <td class="paramtype">std::uint16_t</td>          <td class="paramname"><span class="paramname"><em>z0BitMask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>z0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minZ0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>z0HistoCoeff</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check to see if z0 of segment is within the expected z range of the beamspot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">z0BitMask</td><td>Sets allowed bins of allowed z value </td></tr>
+    <tr><td class="paramname">z0</td><td>Estimated z0 of segments z value at beamspot </td></tr>
+    <tr><td class="paramname">minZ0</td><td>Minimum value of beam spot z coordinate </td></tr>
+    <tr><td class="paramname">z0HistoCoeff</td><td>Scalfactor that converts z coodindate into bin index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether segment is within beamspot range </dd></dl>
 
 </div>
 </div>

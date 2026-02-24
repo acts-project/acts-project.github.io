@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_acts_1_1_logging_1_1_named_output_decorator.html#abbc7d714ec0632a506873e7cc6c8f3c0":[5,7,6,1],
+"class_acts_1_1_logging_1_1_named_output_decorator.html#abe31d06818010445c517b533c98b1c71":[5,7,6,2],
 "class_acts_1_1_logging_1_1_output_decorator.html":[5,7,7],
 "class_acts_1_1_logging_1_1_output_decorator.html#a0a8d79b03b88b8f1f66c38b7b10dbf72":[5,7,7,3],
 "class_acts_1_1_logging_1_1_output_decorator.html#a822bea65d6955d359bcc49d202ea669b":[5,7,7,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_multi_intersection.html#a1955b9924c781676a233cbd5dfc9de2c":[8,0,0,274,18],
 "class_acts_1_1_multi_intersection.html#a2132fe5a17845f6751e2d6ad7d3cfd94":[6,0,0,267,15],
 "class_acts_1_1_multi_intersection.html#a2132fe5a17845f6751e2d6ad7d3cfd94":[8,0,0,274,15],
-"class_acts_1_1_multi_intersection.html#a4c69c8a7dd568e5e4eaa2c42f3739216":[6,0,0,267,6],
-"class_acts_1_1_multi_intersection.html#a4c69c8a7dd568e5e4eaa2c42f3739216":[8,0,0,274,6],
-"class_acts_1_1_multi_intersection.html#a4ff4e229ce35b965c8f7dc3dc89e6fc4":[6,0,0,267,16]
+"class_acts_1_1_multi_intersection.html#a4c69c8a7dd568e5e4eaa2c42f3739216":[6,0,0,267,6]
 };

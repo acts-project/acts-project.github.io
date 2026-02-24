@@ -133,7 +133,7 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_gbts_eta_bin.html',''
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GbtsEtaBin:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_gbts_eta_bin__coll__graph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_gbts_eta_bin__coll__graph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -151,9 +151,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sortByPhi</b> ()</td>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a29c5c5d8aef04ec0486e347aec09b2ca" id="r_a29c5c5d8aef04ec0486e347aec09b2ca"><td class="memItemLeft" align="right" valign="top"><a id="a29c5c5d8aef04ec0486e347aec09b2ca" name="a29c5c5d8aef04ec0486e347aec09b2ca"></a>
-std::vector&lt; std::vector&lt; std::uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>in</b></td></tr>
-<tr class="memdesc:a29c5c5d8aef04ec0486e347aec09b2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">vectors of incoming edges, stores indices of edges in the edge vector <br /></td></tr>
 <tr class="memitem:a31e9d16d1182039bd813f274898a58c2" id="r_a31e9d16d1182039bd813f274898a58c2"><td class="memItemLeft" align="right" valign="top"><a id="a31e9d16d1182039bd813f274898a58c2" name="a31e9d16d1182039bd813f274898a58c2"></a>
 std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>layerKey</b> {0}</td></tr>
 <tr class="memdesc:a31e9d16d1182039bd813f274898a58c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer key for this bin. <br /></td></tr>
@@ -166,9 +163,18 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>minRadius</b> {}</td
 <tr class="memitem:a4d3a091cad3a236bb5333e13eef002dd" id="r_a4d3a091cad3a236bb5333e13eef002dd"><td class="memItemLeft" align="right" valign="top"><a id="a4d3a091cad3a236bb5333e13eef002dd" name="a4d3a091cad3a236bb5333e13eef002dd"></a>
 std::vector&lt; std::array&lt; float, 5 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>params</b></td></tr>
 <tr class="memdesc:a4d3a091cad3a236bb5333e13eef002dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">node attributes: minCutOnTau, maxCutOnTau, phi, r, z; <br /></td></tr>
+<tr class="memitem:a6828d096e697e1fa258d9937fd99b7da" id="r_a6828d096e697e1fa258d9937fd99b7da"><td class="memItemLeft" align="right" valign="top"><a id="a6828d096e697e1fa258d9937fd99b7da" name="a6828d096e697e1fa258d9937fd99b7da"></a>
+std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vFirstEdge</b></td></tr>
+<tr class="memdesc:a6828d096e697e1fa258d9937fd99b7da"><td class="mdescLeft">&#160;</td><td class="mdescRight">the index of the first incoming graph edge attached to the node <br /></td></tr>
+<tr class="memitem:a7075bd4cf4ca0b1b21b1b495492b46d9" id="r_a7075bd4cf4ca0b1b21b1b495492b46d9"><td class="memItemLeft" align="right" valign="top"><a id="a7075bd4cf4ca0b1b21b1b495492b46d9" name="a7075bd4cf4ca0b1b21b1b495492b46d9"></a>
+std::vector&lt; std::uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vIsConnected</b></td></tr>
+<tr class="memdesc:a7075bd4cf4ca0b1b21b1b495492b46d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to indicate the node's outer neighbourhood isolation from previously built graph <br /></td></tr>
 <tr class="memitem:a1cca95baa6ad93b2e7f4f2a5910e0870" id="r_a1cca95baa6ad93b2e7f4f2a5910e0870"><td class="memItemLeft" align="right" valign="top"><a id="a1cca95baa6ad93b2e7f4f2a5910e0870" name="a1cca95baa6ad93b2e7f4f2a5910e0870"></a>
 std::vector&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vn</b></td></tr>
 <tr class="memdesc:a1cca95baa6ad93b2e7f4f2a5910e0870"><td class="mdescLeft">&#160;</td><td class="mdescRight">nodes of the graph <br /></td></tr>
+<tr class="memitem:a6c21e24f7b835cebd6afe09bf4710dd4" id="r_a6c21e24f7b835cebd6afe09bf4710dd4"><td class="memItemLeft" align="right" valign="top"><a id="a6c21e24f7b835cebd6afe09bf4710dd4" name="a6c21e24f7b835cebd6afe09bf4710dd4"></a>
+std::vector&lt; std::uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vNumEdges</b></td></tr>
+<tr class="memdesc:a6c21e24f7b835cebd6afe09bf4710dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the total number of incoming graph edges attached to this node <br /></td></tr>
 <tr class="memitem:ab8f521811d27e3a4f21ce79062ef14b7" id="r_ab8f521811d27e3a4f21ce79062ef14b7"><td class="memItemLeft" align="right" valign="top"><a id="ab8f521811d27e3a4f21ce79062ef14b7" name="ab8f521811d27e3a4f21ce79062ef14b7"></a>
 std::vector&lt; std::pair&lt; float, std::uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vPhiNodes</b></td></tr>
 <tr class="memdesc:ab8f521811d27e3a4f21ce79062ef14b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phi-indexed nodes. <br /></td></tr>
