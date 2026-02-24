@@ -1,17 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"concept_acts_1_1_concepts_1_1is__eigen__base.html":[7,0,1,10],
-"concept_acts_1_1_concepts_1_1nothrow__move__constructible.html":[7,0,1,12],
-"concept_acts_1_1_concepts_1_1same__as__any__of.html":[7,0,1,13],
-"concept_acts_1_1_const_multi_trajectory_backend.html":[6,0,0,477],
-"concept_acts_1_1_const_multi_trajectory_backend.html":[7,0,18],
-"concept_acts_1_1_const_track_container_backend.html":[6,0,0,478],
-"concept_acts_1_1_const_track_container_backend.html":[7,0,19],
-"concept_acts_1_1_const_track_proxy_concept.html":[6,0,0,479],
-"concept_acts_1_1_const_track_proxy_concept.html":[7,0,20],
-"concept_acts_1_1_const_track_state_proxy_concept.html":[6,0,0,480],
-"concept_acts_1_1_const_track_state_proxy_concept.html":[7,0,21],
-"concept_acts_1_1_experimental_1_1_composite_space_point.html":[6,0,0,1,39],
 "concept_acts_1_1_experimental_1_1_composite_space_point.html":[7,0,2,0],
 "concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html":[6,0,0,1,40],
 "concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html":[7,0,2,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX41 =
 "group__dd4hep__plugin.html#gafde2e0859cd41cdc5c8c5b88f302c7c4":[5,9,2,8],
 "group__dd4hep__plugin.html#gafe331283f4d3c1e7f759bd44896051fa":[5,9,2,7],
 "group__detector__descr.html":[5,3],
-"group__detray__plugin.html":[5,9,3]
+"group__detray__plugin.html":[5,9,3],
+"group__detray__plugin.html#ga0d9951e2a53c0880c60ab8257183caa6":[5,9,3,9],
+"group__detray__plugin.html#ga35964a57f9fb41aa16b14087c8d30b51":[5,9,3,10],
+"group__detray__plugin.html#ga653b2715f447b38226541ab4428813d3":[5,9,3,7],
+"group__detray__plugin.html#ga9fd21e52e0d54d78898fd5db1b3ee938":[5,9,3,4],
+"group__detray__plugin.html#gaa1dcec42ae43f5db590322d0363435bc":[5,9,3,6],
+"group__detray__plugin.html#gab4876cd1a15c4491c043a77088649f8a":[5,9,3,3],
+"group__detray__plugin.html#gab6c312293d8af6ea0c1e6ec8b4e3ea8e":[5,9,3,8],
+"group__detray__plugin.html#gac350cecdee1fdc557bc4c626b0d14de3":[5,9,3,5],
+"group__edm4hep__plugin.html":[5,9,4],
+"group__edm4hep__plugin.html#ga0553ea3f5ddda553c15902ee002f8f97":[5,9,4,15],
+"group__edm4hep__plugin.html#ga577cd7bfa516e4382f05200a128eb95a":[5,9,4,12],
+"group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f":[5,9,4,19]
 };

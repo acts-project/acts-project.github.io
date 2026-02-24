@@ -66,7 +66,6 @@ var searchData=
   ['buildlayer_63',['buildLayer',['../class_acts_1_1_cuboid_volume_builder.html#a055e2159ad7c8e7de13d1e3aab795ec7',1,'Acts::CuboidVolumeBuilder']]],
   ['buildspacepoint_64',['buildSpacePoint',['../class_acts_1_1_space_point_builder.html#a569a9c5d760bb6c5fd798ab3d5afda38',1,'Acts::SpacePointBuilder']]],
   ['buildsurface_65',['buildSurface',['../class_acts_1_1_cuboid_volume_builder.html#a914b566aae6a0b7884607c0df91a3689',1,'Acts::CuboidVolumeBuilder']]],
-  ['buildthegraph_66',['buildTheGraph',['../class_acts_1_1_experimental_1_1_seed_finder_gbts.html#a71fcdcfe19b4070e0a635f792f1165ef',1,'Acts::Experimental::SeedFinderGbts']]],
-  ['buildvolume_67',['buildVolume',['../class_acts_1_1_cuboid_volume_builder.html#a45875aeb55cce23b8c686e847f764815',1,'Acts::CuboidVolumeBuilder::buildVolume()'],['../class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a7b59d256440bd1b49a218fb76b83fa86',1,'Acts::Experimental::MultiWireVolumeBuilder::buildVolume()']]],
-  ['bvector_68',['bVector',['../struct_acts_1_1_experimental_1_1_gx2f_system.html#a3936f0f5e3b45932326786efc37df890',1,'Acts::Experimental::Gx2fSystem::bVector() const'],['../struct_acts_1_1_experimental_1_1_gx2f_system.html#a084c5413edb27d17cb825db406abee54',1,'Acts::Experimental::Gx2fSystem::bVector()']]]
+  ['buildvolume_66',['buildVolume',['../class_acts_1_1_cuboid_volume_builder.html#a45875aeb55cce23b8c686e847f764815',1,'Acts::CuboidVolumeBuilder::buildVolume()'],['../class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a7b59d256440bd1b49a218fb76b83fa86',1,'Acts::Experimental::MultiWireVolumeBuilder::buildVolume()']]],
+  ['bvector_67',['bVector',['../struct_acts_1_1_experimental_1_1_gx2f_system.html#a3936f0f5e3b45932326786efc37df890',1,'Acts::Experimental::Gx2fSystem::bVector() const'],['../struct_acts_1_1_experimental_1_1_gx2f_system.html#a084c5413edb27d17cb825db406abee54',1,'Acts::Experimental::Gx2fSystem::bVector()']]]
 ];

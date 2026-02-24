@@ -56,7 +56,6 @@ var namespace_acts_1_1_experimental =
     [ "Histogram1", "namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc", null ],
     [ "Histogram2", "namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b", null ],
     [ "ProfileHistogram1", "namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484", null ],
-    [ "SpContainerComponentsType", "namespace_acts_1_1_experimental.html#a228c30a4888f58dc0d2bae73dcb43a8d", null ],
     [ "GlobalChiSquareFitterError", "group__errors.html#ga743e4af777584b0f5274baa245f128d2", [
       [ "AIsNotInvertible", "group__errors.html#gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b", null ],
       [ "DidNotConverge", "group__errors.html#gga743e4af777584b0f5274baa245f128d2a3b3d2eb22dedef6fb1b0764f548a47ad", null ],

@@ -1,17 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"group__detray__plugin.html#ga0d9951e2a53c0880c60ab8257183caa6":[5,9,3,9],
-"group__detray__plugin.html#ga35964a57f9fb41aa16b14087c8d30b51":[5,9,3,10],
-"group__detray__plugin.html#ga653b2715f447b38226541ab4428813d3":[5,9,3,7],
-"group__detray__plugin.html#ga9fd21e52e0d54d78898fd5db1b3ee938":[5,9,3,4],
-"group__detray__plugin.html#gaa1dcec42ae43f5db590322d0363435bc":[5,9,3,6],
-"group__detray__plugin.html#gab4876cd1a15c4491c043a77088649f8a":[5,9,3,3],
-"group__detray__plugin.html#gab6c312293d8af6ea0c1e6ec8b4e3ea8e":[5,9,3,8],
-"group__detray__plugin.html#gac350cecdee1fdc557bc4c626b0d14de3":[5,9,3,5],
-"group__edm4hep__plugin.html":[5,9,4],
-"group__edm4hep__plugin.html#ga0553ea3f5ddda553c15902ee002f8f97":[5,9,4,15],
-"group__edm4hep__plugin.html#ga577cd7bfa516e4382f05200a128eb95a":[5,9,4,12],
-"group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f":[5,9,4,19],
 "group__edm4hep__plugin.html#gacb0bef92079ae5ca55d05b6857e20c16":[5,9,4,16],
 "group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9":[5,9,4,18],
 "group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4":[5,9,4,13],
@@ -249,5 +237,17 @@ var NAVTREEINDEX42 =
 "group__material.html#ga7f7ecaeb7a0b9e040e5de04892a1e1eb":[5,3,2,26],
 "group__material.html#gaad5c814e3aa3cfb77dd2dc46abc2099b":[5,3,2,27],
 "group__material.html#gabad517c3d330be68557175bbe3e71402":[5,3,2,29],
-"group__material.html#gac15aff2ad0a7029a89bd903885de3310":[5,3,2,25]
+"group__material.html#gac15aff2ad0a7029a89bd903885de3310":[5,3,2,25],
+"group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f":[5,3,2,28],
+"group__material__mapping.html":[5,3,2,0],
+"group__onnx__plugin.html":[5,9,11],
+"group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,9,11,4],
+"group__pattern__recog.html":[5,8],
+"group__plugins.html":[5,9],
+"group__propagation.html":[5,10],
+"group__root__plugin.html":[5,9,12],
+"group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,9,12,22],
+"group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2":[5,9,12,21],
+"group__root__plugin.html#ga378672f895c4e16375ce7f1217c43427":[5,9,12,20],
+"group__root__plugin.html#ga39ae58cede7230ec843b6ff7c2f8fc06":[5,9,12,18]
 };

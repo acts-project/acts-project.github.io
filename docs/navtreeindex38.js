@@ -1,17 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"class_acts_1_1_volume_stack.html#a2b978ae4e802b277db121ef3bf02f6d6":[8,0,0,466,2],
-"class_acts_1_1_volume_stack.html#a4d0cc9a7f9b362b16ac49e97c1b90f10":[6,0,0,459,3],
-"class_acts_1_1_volume_stack.html#a4d0cc9a7f9b362b16ac49e97c1b90f10":[8,0,0,466,3],
-"class_acts_1_1_volume_stack.html#aa36c673f5c201536ca07440ee779e494":[6,0,0,459,8],
-"class_acts_1_1_volume_stack.html#aa36c673f5c201536ca07440ee779e494":[8,0,0,466,8],
-"class_acts_1_1_volume_stack.html#ab227b5aebb184c417a603eff3d02c817":[6,0,0,459,4],
-"class_acts_1_1_volume_stack.html#ab227b5aebb184c417a603eff3d02c817":[8,0,0,466,4],
-"class_acts_1_1_volume_stack.html#ab80661a8963b52ca336ef2f7d91ec255":[6,0,0,459,7],
-"class_acts_1_1_volume_stack.html#ab80661a8963b52ca336ef2f7d91ec255":[8,0,0,466,7],
-"class_acts_1_1_volume_stack.html#ae931153d383e43b38f5b9bd6a9748b14":[6,0,0,459,1],
-"class_acts_1_1_volume_stack.html#ae931153d383e43b38f5b9bd6a9748b14":[8,0,0,466,1],
-"class_acts_1_1_z_scan_vertex_finder.html":[6,0,0,461],
 "class_acts_1_1_z_scan_vertex_finder.html":[8,0,0,468],
 "class_acts_1_1_z_scan_vertex_finder.html#a34284628ef60560cc35ebce713e51bdf":[6,0,0,461,2],
 "class_acts_1_1_z_scan_vertex_finder.html#a34284628ef60560cc35ebce713e51bdf":[8,0,0,468,2],
@@ -249,5 +237,17 @@ var NAVTREEINDEX38 =
 "class_acts_fatras_1_1_particle.html#aac1f854c86a041467891e054e1a0001a":[8,0,1,26,23],
 "class_acts_fatras_1_1_particle.html#ab4b47ad086487187b61af1c3897fbebc":[6,0,2,25,54],
 "class_acts_fatras_1_1_particle.html#ab4b47ad086487187b61af1c3897fbebc":[8,0,1,26,54],
-"class_acts_fatras_1_1_particle.html#ab4ed37d94a1d76379d79acceb37e73b8":[6,0,2,25,24]
+"class_acts_fatras_1_1_particle.html#ab4ed37d94a1d76379d79acceb37e73b8":[6,0,2,25,24],
+"class_acts_fatras_1_1_particle.html#ab4ed37d94a1d76379d79acceb37e73b8":[8,0,1,26,24],
+"class_acts_fatras_1_1_particle.html#ab4ef29a62b09e49956820f0aea787fac":[6,0,2,25,28],
+"class_acts_fatras_1_1_particle.html#ab4ef29a62b09e49956820f0aea787fac":[8,0,1,26,28],
+"class_acts_fatras_1_1_particle.html#ab5aaece542ee7dfa34478686fc6c2e20":[6,0,2,25,6],
+"class_acts_fatras_1_1_particle.html#ab5aaece542ee7dfa34478686fc6c2e20":[8,0,1,26,6],
+"class_acts_fatras_1_1_particle.html#ab7489526f359103a9cf1bc541a51dbdc":[6,0,2,25,40],
+"class_acts_fatras_1_1_particle.html#ab7489526f359103a9cf1bc541a51dbdc":[8,0,1,26,40],
+"class_acts_fatras_1_1_particle.html#ab769dba66b465d25c3e99bbc5fd460cf":[6,0,2,25,37],
+"class_acts_fatras_1_1_particle.html#ab769dba66b465d25c3e99bbc5fd460cf":[8,0,1,26,37],
+"class_acts_fatras_1_1_particle.html#ab7e1b159d48b0fd710d79d029cfdd247":[6,0,2,25,19],
+"class_acts_fatras_1_1_particle.html#ab7e1b159d48b0fd710d79d029cfdd247":[8,0,1,26,19],
+"class_acts_fatras_1_1_particle.html#abc91ce31eb1875b85ec6fed2a6e42743":[6,0,2,25,17]
 };
