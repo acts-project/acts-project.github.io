@@ -99,6 +99,11 @@ var group__root__plugin =
       [ "write", "class_acts_plugins_1_1_root_space_point_io.html#a542a32ba475ccb13cbc27e18db941fe1", null ],
       [ "write", "class_acts_plugins_1_1_root_space_point_io.html#a8db75d762e5d91813f065e6dca07834d", null ]
     ] ],
+    [ "ActsPlugins::TGeoAxes", "class_acts_plugins_1_1_t_geo_axes.html", [
+      [ "TGeoAxes", "class_acts_plugins_1_1_t_geo_axes.html#ad26a940e3a4fb97a3decd8fddc5263f4", null ],
+      [ "parse", "class_acts_plugins_1_1_t_geo_axes.html#aec193ea39e741e516e647cf927765c33", null ],
+      [ "value", "class_acts_plugins_1_1_t_geo_axes.html#aa41ed647e383642e51bc60f1d7f0b90e", null ]
+    ] ],
     [ "ActsPlugins::TGeoCylinderDiscSplitter", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html", [
       [ "Config", "struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html", [
         [ "cylinderLongitudinalSegments", "struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html#ab7db8facf1c8adcab6886346302de5b5", null ],
@@ -114,7 +119,7 @@ var group__root__plugin =
       [ "Identifier", "class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527", null ],
       [ "identifier_diff", "class_acts_plugins_1_1_t_geo_detector_element.html#adcc69528426b37a92185055e3effc15b", null ],
       [ "identifier_type", "class_acts_plugins_1_1_t_geo_detector_element.html#ab9cb57d70e21c982a1652c9f743c88f2", null ],
-      [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#aa6ca54a5434fce20edb246890b79431e", null ],
+      [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a7a39ac7f06928372bc81a8890113f36d", null ],
       [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a9e21aae70818581af4f5b17254ac9b70", null ],
       [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html#a791f2bac7bdec07402b2659e6e8b138a", null ],
       [ "identifier", "group__root__plugin.html#ga39ae58cede7230ec843b6ff7c2f8fc06", null ],
@@ -147,17 +152,17 @@ var group__root__plugin =
         [ "binning0", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#acaeb3101f8027c50d5c4d529000f0c5c", null ],
         [ "binning1", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#ab46386b63a05abe5e83dfb62ad00d445", null ],
         [ "envelope", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a0386afc8194477f5ede2807e2015ae35", null ],
-        [ "localAxes", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#ab0bf7735cfc17b0b350e98aeba9235a6", null ],
+        [ "localAxes", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#afef73bd8ec25ef7a54fe739a243f7852", null ],
         [ "parseRanges", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#ad9d7125fd621b4421905effd8c3f5609", null ],
         [ "sensorNames", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a207e55e016394858fc2c8ea67ced890c", null ],
         [ "splitConfigs", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a8dcdba2d8b1abf2f063cda2a1b6f916d", null ],
         [ "volumeName", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a7e8c068e1839be893fb9a24c5d4db243", null ]
       ] ],
-      [ "ElementFactory", "class_acts_plugins_1_1_t_geo_layer_builder.html#aa400709a10b842d6dea0c8da04b70bd9", null ],
+      [ "ElementFactory", "class_acts_plugins_1_1_t_geo_layer_builder.html#a5cc13d87941885ea13711b47272594fb", null ],
       [ "TGeoLayerBuilder", "class_acts_plugins_1_1_t_geo_layer_builder.html#a2a7de3a77bcd9eaa2c3313ef3f6ae681", null ],
       [ "~TGeoLayerBuilder", "class_acts_plugins_1_1_t_geo_layer_builder.html#a1db703d13687de12b2ee4d995a7e03ef", null ],
       [ "centralLayers", "class_acts_plugins_1_1_t_geo_layer_builder.html#aeb67656d82f52138bfe2fba891e1c0c6", null ],
-      [ "defaultElementFactory", "class_acts_plugins_1_1_t_geo_layer_builder.html#ae8aa67a0b4bb9808ac295ad0c9b4c181", null ],
+      [ "defaultElementFactory", "class_acts_plugins_1_1_t_geo_layer_builder.html#a00e609ae37b1607bb565c219586ce44f", null ],
       [ "detectorElements", "group__root__plugin.html#ga974d1b63629e3c61e3547034a015676d", null ],
       [ "getConfiguration", "group__root__plugin.html#ga96a02a3e95f99b7e04bfb6007ab45486", null ],
       [ "identification", "group__root__plugin.html#gad128c3436a3d02ecf8481fc60d7ff6b5", null ],
@@ -201,11 +206,11 @@ var group__root__plugin =
       [ "match", "struct_acts_plugins_1_1_t_geo_primitives_helper.html#a4e8df73443c5b84be52516f9d5b61abd", null ]
     ] ],
     [ "ActsPlugins::TGeoSurfaceConverter", "struct_acts_plugins_1_1_t_geo_surface_converter.html", [
-      [ "cylinderComponents", "struct_acts_plugins_1_1_t_geo_surface_converter.html#a80256424d848dff07e48957223bf836a", null ],
-      [ "discComponents", "struct_acts_plugins_1_1_t_geo_surface_converter.html#ac71494f56abfbd320be26d3362b8d06d", null ],
-      [ "planeComponents", "struct_acts_plugins_1_1_t_geo_surface_converter.html#a4392863d4a7b96125ac04c51ae6a11f8", null ],
+      [ "cylinderComponents", "struct_acts_plugins_1_1_t_geo_surface_converter.html#ad95be189488e23ca005fa853c5052afb", null ],
+      [ "discComponents", "struct_acts_plugins_1_1_t_geo_surface_converter.html#a11681a3b0cefb7867465414a5c7b2a5c", null ],
+      [ "planeComponents", "struct_acts_plugins_1_1_t_geo_surface_converter.html#af5c2f59a16fff718f725dd7af1ecdd8c", null ],
       [ "toRadian", "struct_acts_plugins_1_1_t_geo_surface_converter.html#a77a0b0c9747c9b5a11f05ec4c27461ca", null ],
-      [ "toSurface", "struct_acts_plugins_1_1_t_geo_surface_converter.html#afef2117d2de3f34f38a83f7e3e2c710e", null ]
+      [ "toSurface", "struct_acts_plugins_1_1_t_geo_surface_converter.html#a20171567816f575b17a8c25af59a0a3c", null ]
     ] ],
     [ "ActsPlugins::TGeoLayerBuilder::detectorElements", "group__root__plugin.html#ga974d1b63629e3c61e3547034a015676d", null ],
     [ "ActsPlugins::TGeoLayerBuilder::getConfiguration", "group__root__plugin.html#ga96a02a3e95f99b7e04bfb6007ab45486", null ],

@@ -150,8 +150,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa400709a10b842d6dea0c8da04b70bd9" id="r_aa400709a10b842d6dea0c8da04b70bd9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa400709a10b842d6dea0c8da04b70bd9">ElementFactory</a></td></tr>
-<tr class="memdesc:aa400709a10b842d6dea0c8da04b70bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for detector element factory function.  <br /></td></tr>
+<tr class="memitem:a5cc13d87941885ea13711b47272594fb" id="r_a5cc13d87941885ea13711b47272594fb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cc13d87941885ea13711b47272594fb">ElementFactory</a></td></tr>
+<tr class="memdesc:a5cc13d87941885ea13711b47272594fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for detector element factory function.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -183,30 +183,31 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ILayerBuilder</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae8aa67a0b4bb9808ac295ad0c9b4c181" id="r_ae8aa67a0b4bb9808ac295ad0c9b4c181"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html">TGeoDetectorElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8aa67a0b4bb9808ac295ad0c9b4c181">defaultElementFactory</a> (const <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">TGeoDetectorElement::Identifier</a> &amp;identifier, const TGeoNode &amp;tGeoNode, const TGeoMatrix &amp;tGeoMatrix, const std::string &amp;axes, double scalor, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; material)</td></tr>
-<tr class="memdesc:ae8aa67a0b4bb9808ac295ad0c9b4c181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default factory function for creating TGeoDetectorElement instances.  <br /></td></tr>
+<tr class="memitem:a00e609ae37b1607bb565c219586ce44f" id="r_a00e609ae37b1607bb565c219586ce44f"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html">TGeoDetectorElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e609ae37b1607bb565c219586ce44f">defaultElementFactory</a> (const <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">TGeoDetectorElement::Identifier</a> &amp;identifier, const TGeoNode &amp;tGeoNode, const TGeoMatrix &amp;tGeoMatrix, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, double scalor, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; material)</td></tr>
+<tr class="memdesc:a00e609ae37b1607bb565c219586ce44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default factory function for creating TGeoDetectorElement instances.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This parses the gGeoManager and looks for a defined combination of volume with contained sensitive detector element. </p>
 <p>The association is done by matching the names of the TGeoNode / TGeoVolume to the search string.</p>
 <p>The parsing can be restricted to a given parse volume (in r and z), and given some splitting parameters the surfaces can be automatically split into layers. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aa400709a10b842d6dea0c8da04b70bd9" name="aa400709a10b842d6dea0c8da04b70bd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa400709a10b842d6dea0c8da04b70bd9">&#9670;&#160;</a></span>ElementFactory</h2>
+<a id="a5cc13d87941885ea13711b47272594fb" name="a5cc13d87941885ea13711b47272594fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cc13d87941885ea13711b47272594fb">&#9670;&#160;</a></span>ElementFactory</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aa400709a10b842d6dea0c8da04b70bd9">ActsPlugins::TGeoLayerBuilder::ElementFactory</a></td>
+          <td class="memname">using <a class="el" href="#a5cc13d87941885ea13711b47272594fb">ActsPlugins::TGeoLayerBuilder::ElementFactory</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> std::function&lt;std::shared_ptr&lt;TGeoDetectorElement&gt;(</div>
 <div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">TGeoDetectorElement::Identifier</a>&amp;, <span class="keyword">const</span> TGeoNode&amp;,</div>
-<div class="line">      <span class="keyword">const</span> TGeoMatrix&amp; tGeoMatrix, <span class="keyword">const</span> std::string&amp; axes, <span class="keywordtype">double</span> scalor,</div>
+<div class="line">      <span class="keyword">const</span> TGeoMatrix&amp; tGeoMatrix, <a class="code hl_class" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, <span class="keywordtype">double</span> scalor,</div>
 <div class="line">      std::shared_ptr&lt;const Acts::ISurfaceMaterial&gt; material)&gt;</div>
-<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_detector_element_html_a3efcc3fde6be6c334ac40cd2f481a527"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">ActsPlugins::TGeoDetectorElement::Identifier</a></div><div class="ttdeci">identifier_type Identifier</div><div class="ttdoc">Identifier alias.</div><div class="ttdef"><b>Definition</b> TGeoDetectorElement.hpp:50</div></div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_axes_html"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_axes.html">ActsPlugins::TGeoAxes</a></div><div class="ttdoc">Type-safe representation of TGeo surface axes.</div><div class="ttdef"><b>Definition</b> TGeoAxes.hpp:34</div></div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_detector_element_html_a3efcc3fde6be6c334ac40cd2f481a527"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527">ActsPlugins::TGeoDetectorElement::Identifier</a></div><div class="ttdeci">identifier_type Identifier</div><div class="ttdoc">Identifier alias.</div><div class="ttdef"><b>Definition</b> TGeoDetectorElement.hpp:49</div></div>
 </div><!-- fragment -->
 <p>Type alias for detector element factory function. </p>
 
@@ -288,8 +289,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae8aa67a0b4bb9808ac295ad0c9b4c181" name="ae8aa67a0b4bb9808ac295ad0c9b4c181"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8aa67a0b4bb9808ac295ad0c9b4c181">&#9670;&#160;</a></span>defaultElementFactory()</h2>
+<a id="a00e609ae37b1607bb565c219586ce44f" name="a00e609ae37b1607bb565c219586ce44f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e609ae37b1607bb565c219586ce44f">&#9670;&#160;</a></span>defaultElementFactory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,7 +316,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>axes</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a></td>          <td class="paramname"><span class="paramname"><em>axes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

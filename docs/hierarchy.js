@@ -1073,6 +1073,7 @@ var hierarchy =
     [ "ActsPlugins::Svg::TrackingGeometryProjections::Options", "struct_acts_plugins_1_1_svg_1_1_tracking_geometry_projections_1_1_options.html", null ],
     [ "ActsPlugins::Tensor&lt; T &gt;", "class_acts_plugins_1_1_tensor.html", null ],
     [ "ActsPlugins::TensorRTEdgeClassifier::Config", "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html", null ],
+    [ "ActsPlugins::TGeoAxes", "class_acts_plugins_1_1_t_geo_axes.html", null ],
     [ "ActsPlugins::TGeoCylinderDiscSplitter::Config", "struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html", null ],
     [ "ActsPlugins::TGeoLayerBuilder::Config", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html", null ],
     [ "ActsPlugins::TGeoLayerBuilder::LayerConfig", "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html", null ],

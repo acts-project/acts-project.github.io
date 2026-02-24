@@ -4,7 +4,7 @@ var group__dd4hep__plugin =
       [ "ContextType", "class_acts_plugins_1_1_d_d4hep_detector_element.html#abe221dd1e520170eb8022e64132b9bd9", null ],
       [ "DD4hepVolumeID", "class_acts_plugins_1_1_d_d4hep_detector_element.html#abf17c510e5e5697c63300e090b9a1605", null ],
       [ "Store", "class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163", null ],
-      [ "DD4hepDetectorElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html#a2f8a73a6477e0e671b717dc472602deb", null ],
+      [ "DD4hepDetectorElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html#a2dca2f2845183e48b8ab1321c5e578f9", null ],
       [ "sourceElement", "class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57", null ]
     ] ],
     [ "ActsPlugins::DD4hepDetectorElementExtension", "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html", [
@@ -34,7 +34,7 @@ var group__dd4hep__plugin =
       ] ],
       [ "DD4hepPassiveSurface", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#af2099b2fdeed9a6fafb97e6aacdcb2f6", null ],
       [ "DD4hepSensitiveSurface", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a204e01f7e505b12bd5a5f1ed25f76b76", null ],
-      [ "ElementFactory", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a9845c651622b7e0eb63bedaab405f791", null ],
+      [ "ElementFactory", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a0ca59c343e47e8c7e533f651d9d2eba5", null ],
       [ "DD4hepDetectorSurfaceFactory", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a07c26620fec6d1a668ded631bdda58de", null ],
       [ "construct", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a68f387e6d31943cfdbf4050caaf5beaa", null ]
     ] ],
@@ -56,11 +56,11 @@ var group__dd4hep__plugin =
         [ "negativeLayers", "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ac4b93c13488edaf078946e67b569ae97", null ],
         [ "positiveLayers", "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a39382c3602ab7220160b93c2d9f20d0d", null ]
       ] ],
-      [ "ElementFactory", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#a9633a63a1d4651058cc56a53b243d747", null ],
+      [ "ElementFactory", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#aaa79c778fa5d76b5e8be7e173320f814", null ],
       [ "DD4hepLayerBuilder", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#ab6031d9a43ed527297d22388a8bc053d", null ],
       [ "~DD4hepLayerBuilder", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#af004e789f805ec7f9afeeec2332bd013", null ],
       [ "centralLayers", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#a66939736abb772ae6b039dd3549913f8", null ],
-      [ "defaultDetectorElementFactory", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#a8c6e7aa914a9dbe361916c5dc8dbf994", null ],
+      [ "defaultDetectorElementFactory", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#a868244aba7e710c625b9ed534eed886e", null ],
       [ "getConfiguration", "group__dd4hep__plugin.html#ga597bb2f116d8b7a4461715822706454b", null ],
       [ "identification", "group__dd4hep__plugin.html#gabe16da7b25f0306dbabda811735f3a1f", null ],
       [ "negativeLayers", "class_acts_plugins_1_1_d_d4hep_layer_builder.html#a32455d875cd1930ccbdfbcfc17594a4b", null ],

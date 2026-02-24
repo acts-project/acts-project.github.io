@@ -133,7 +133,7 @@ $(function(){initNavTree('struct_acts_plugins_1_1_d_d4hep_detector_surface_facto
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6b9231525951fb3b42c5cd16aa77c4b1" id="r_a6b9231525951fb3b42c5cd16aa77c4b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a9845c651622b7e0eb63bedaab405f791">ElementFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9231525951fb3b42c5cd16aa77c4b1">detectorElementFactory</a></td></tr>
+<tr class="memitem:a6b9231525951fb3b42c5cd16aa77c4b1" id="r_a6b9231525951fb3b42c5cd16aa77c4b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a0ca59c343e47e8c7e533f651d9d2eba5">ElementFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9231525951fb3b42c5cd16aa77c4b1">detectorElementFactory</a></td></tr>
 <tr class="memdesc:a6b9231525951fb3b42c5cd16aa77c4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factory to create the DD4hepDetectorElement.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -146,17 +146,17 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a9845c651622b7e0eb63bedaab405f791">ElementFactory</a> ActsPlugins::DD4hepDetectorSurfaceFactory::Config::detectorElementFactory</td>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a0ca59c343e47e8c7e533f651d9d2eba5">ElementFactory</a> ActsPlugins::DD4hepDetectorSurfaceFactory::Config::detectorElementFactory</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">        [](<span class="keyword">const</span> dd4hep::DetElement&amp; detElem, <span class="keyword">const</span> std::string&amp; axes,</div>
-<div class="line">           <span class="keywordtype">double</span> scalor, <span class="keywordtype">bool</span> isDisc,</div>
+<div class="line">        [](<span class="keyword">const</span> dd4hep::DetElement&amp; detElem, <a class="code hl_class" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, <span class="keywordtype">double</span> scalor,</div>
 <div class="line">           <span class="keyword">const</span> std::shared_ptr&lt;const Acts::ISurfaceMaterial&gt;&amp; material) {</div>
 <div class="line">          <span class="keywordflow">return</span> std::make_shared&lt;DD4hepDetectorElement&gt;(detElem, axes, scalor,</div>
-<div class="line">                                                         isDisc, material);</div>
+<div class="line">                                                         material);</div>
 <div class="line">        }</div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_axes_html"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_axes.html">ActsPlugins::TGeoAxes</a></div><div class="ttdoc">Type-safe representation of TGeo surface axes.</div><div class="ttdef"><b>Definition</b> TGeoAxes.hpp:34</div></div>
 </div><!-- fragment -->
 <p>The factory to create the DD4hepDetectorElement. </p>
 

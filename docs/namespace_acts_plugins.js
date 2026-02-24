@@ -65,6 +65,7 @@ var namespace_acts_plugins =
     [ "SeedClassifier", "class_acts_plugins_1_1_seed_classifier.html", "class_acts_plugins_1_1_seed_classifier" ],
     [ "Tensor", "class_acts_plugins_1_1_tensor.html", "class_acts_plugins_1_1_tensor" ],
     [ "TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html", "class_acts_plugins_1_1_tensor_r_t_edge_classifier" ],
+    [ "TGeoAxes", "class_acts_plugins_1_1_t_geo_axes.html", "class_acts_plugins_1_1_t_geo_axes" ],
     [ "TGeoCylinderDiscSplitter", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter" ],
     [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html", "class_acts_plugins_1_1_t_geo_detector_element" ],
     [ "TGeoLayerBuilder", "class_acts_plugins_1_1_t_geo_layer_builder.html", "class_acts_plugins_1_1_t_geo_layer_builder" ],

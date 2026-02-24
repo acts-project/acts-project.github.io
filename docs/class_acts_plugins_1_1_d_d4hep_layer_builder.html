@@ -148,8 +148,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9633a63a1d4651058cc56a53b243d747" id="r_a9633a63a1d4651058cc56a53b243d747"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9633a63a1d4651058cc56a53b243d747">ElementFactory</a></td></tr>
-<tr class="memdesc:a9633a63a1d4651058cc56a53b243d747"><td class="mdescLeft">&#160;</td><td class="mdescRight">DD4hepDetectorElement construction factory.  <br /></td></tr>
+<tr class="memitem:aaa79c778fa5d76b5e8be7e173320f814" id="r_aaa79c778fa5d76b5e8be7e173320f814"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa79c778fa5d76b5e8be7e173320f814">ElementFactory</a></td></tr>
+<tr class="memdesc:aaa79c778fa5d76b5e8be7e173320f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">DD4hepDetectorElement construction factory.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -179,27 +179,28 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ILayerBuilder</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8c6e7aa914a9dbe361916c5dc8dbf994" id="r_a8c6e7aa914a9dbe361916c5dc8dbf994"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_element.html">DD4hepDetectorElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c6e7aa914a9dbe361916c5dc8dbf994">defaultDetectorElementFactory</a> (const dd4hep::DetElement &amp;detElement, const std::string &amp;detAxis, double thickness, bool isDisc, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; surfaceMaterial)</td></tr>
-<tr class="memdesc:a8c6e7aa914a9dbe361916c5dc8dbf994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default factory for DD4hepDetectorElement.  <br /></td></tr>
+<tr class="memitem:a868244aba7e710c625b9ed534eed886e" id="r_a868244aba7e710c625b9ed534eed886e"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_d_d4hep_detector_element.html">DD4hepDetectorElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a868244aba7e710c625b9ed534eed886e">defaultDetectorElementFactory</a> (const dd4hep::DetElement &amp;detElement, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> detAxis, double scale, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; surfaceMaterial)</td></tr>
+<tr class="memdesc:a868244aba7e710c625b9ed534eed886e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default factory for DD4hepDetectorElement.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>build layers of one cylinder-endcap setup from DD4hep input </p>
 <p>This class is an implementation of the Acts::ILayerBuilder, creating the central (layers of barrel), the negative and positive layers (layers of endcaps) of one hierarchy (e.g. PixelDetector, StripDetector,...) with input from DD4hep. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a9633a63a1d4651058cc56a53b243d747" name="a9633a63a1d4651058cc56a53b243d747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9633a63a1d4651058cc56a53b243d747">&#9670;&#160;</a></span>ElementFactory</h2>
+<a id="aaa79c778fa5d76b5e8be7e173320f814" name="aaa79c778fa5d76b5e8be7e173320f814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa79c778fa5d76b5e8be7e173320f814">&#9670;&#160;</a></span>ElementFactory</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a9633a63a1d4651058cc56a53b243d747">ActsPlugins::DD4hepLayerBuilder::ElementFactory</a></td>
+          <td class="memname">using <a class="el" href="#aaa79c778fa5d76b5e8be7e173320f814">ActsPlugins::DD4hepLayerBuilder::ElementFactory</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> std::function&lt;std::shared_ptr&lt;DD4hepDetectorElement&gt;(</div>
-<div class="line">      <span class="keyword">const</span> dd4hep::DetElement&amp;, <span class="keyword">const</span> std::string&amp;, <span class="keywordtype">double</span>, <span class="keywordtype">bool</span>,</div>
+<div class="line">      <span class="keyword">const</span> dd4hep::DetElement&amp;, <a class="code hl_class" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a>, <span class="keywordtype">double</span>,</div>
 <div class="line">      std::shared_ptr&lt;const Acts::ISurfaceMaterial&gt;)&gt;</div>
+<div class="ttc" id="aclass_acts_plugins_1_1_t_geo_axes_html"><div class="ttname"><a href="class_acts_plugins_1_1_t_geo_axes.html">ActsPlugins::TGeoAxes</a></div><div class="ttdoc">Type-safe representation of TGeo surface axes.</div><div class="ttdef"><b>Definition</b> TGeoAxes.hpp:34</div></div>
 </div><!-- fragment -->
 <p>DD4hepDetectorElement construction factory. </p>
 
@@ -273,8 +274,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c6e7aa914a9dbe361916c5dc8dbf994" name="a8c6e7aa914a9dbe361916c5dc8dbf994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c6e7aa914a9dbe361916c5dc8dbf994">&#9670;&#160;</a></span>defaultDetectorElementFactory()</h2>
+<a id="a868244aba7e710c625b9ed534eed886e" name="a868244aba7e710c625b9ed534eed886e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a868244aba7e710c625b9ed534eed886e">&#9670;&#160;</a></span>defaultDetectorElementFactory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,17 +291,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>detAxis</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a></td>          <td class="paramname"><span class="paramname"><em>detAxis</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>thickness</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isDisc</em></span>, </td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>scale</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -319,10 +315,9 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">detElement</td><td>The DD4hep detector element </td></tr>
-    <tr><td class="paramname">detAxis</td><td>The detector axis string </td></tr>
-    <tr><td class="paramname">thickness</td><td>The thickness of the element </td></tr>
-    <tr><td class="paramname">isDisc</td><td>Whether this is a disc element </td></tr>
+    <tr><td class="paramname">detAxis</td><td>The detector axis </td></tr>
     <tr><td class="paramname">surfaceMaterial</td><td>The surface material </td></tr>
+    <tr><td class="paramname">scale</td><td>Scale factor for length conversion </td></tr>
   </table>
   </dd>
 </dl>
