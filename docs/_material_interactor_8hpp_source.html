@@ -176,7 +176,7 @@ $(function(){initNavTree('_material_interactor_8hpp_source.html','',''); });
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                                           &lt;&lt; surface-&gt;<a class="code hl_function" href="class_acts_1_1_geometry_object.html#a798dd6a19dcc5cd79d9b55ed6e474f7a">geometryId</a>());</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>      <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_material_slab.html">MaterialSlab</a> slab = detail::evaluateMaterialSlab(</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>          state, stepper, navigator,</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>          state, stepper, *surface,</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>          detail::determineMaterialUpdateMode(state, navigator,</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                                              MaterialUpdateMode::FullUpdate));</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
