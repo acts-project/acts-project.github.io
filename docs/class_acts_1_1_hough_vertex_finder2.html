@@ -126,7 +126,7 @@ $(function(){initNavTree('class_acts_1_1_hough_vertex_finder2.html','','class_ac
 </div><!--header-->
 <div class="contents">
 
-<p>Implements the vertex finder based on the spacepoints using Hough transform For more information, see arXiv:2410.14494 0.  
+<p>Implements the vertex finder based on the space points using Hough transform For more information, see arXiv:2410.14494 0.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_hough_vertex_finder2_8hpp_source.html">Acts/Vertexing/HoughVertexFinder2.hpp</a>&gt;</code></p>
@@ -146,10 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8729ea258eeb1c870c9e8c4abfbef259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the vertex based on the provided space points.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Implements the vertex finder based on the spacepoints using Hough transform For more information, see arXiv:2410.14494 0. </p>
+<div class="textblock"><p>Implements the vertex finder based on the space points using Hough transform For more information, see arXiv:2410.14494 0. </p>
 <p>Assumes there is only 1 vertex and that it has a high multiplicity</p><ol type="1">
 <li>Estimates what eta range is really necessary</li>
-<li>Creates Hough space (z_vtx - cot(theta)) from spacepoints within that eta range</li>
+<li>Creates Hough space (z_vtx - cot(theta)) from space points within that eta range</li>
 <li>Subtracts the coincidentally crossed lines in the Hough space</li>
 <li>Makes a projection to the Z axis and finds a peak - that is the vertex position</li>
 <li>Repeats 2-4 if necessary </li>

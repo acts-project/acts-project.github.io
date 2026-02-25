@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80838c0beb8a84d90a72204f2a11ab01" id="r_a80838c0beb8a84d90a72204f2a11ab01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80838c0beb8a84d90a72204f2a11ab01">SeedFinderGbts</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_config.html">GbtsConfig</a> &amp;config, std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; gbtsGeo, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;layerGeometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
 <tr class="memdesc:a80838c0beb8a84d90a72204f2a11ab01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:ad836fd175aebaabd0c663aa50e9f5fd9" id="r_ad836fd175aebaabd0c663aa50e9f5fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad836fd175aebaabd0c663aa50e9f5fd9">createSeeds</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, std::uint32_t maxLayers) const</td></tr>
-<tr class="memdesc:ad836fd175aebaabd0c663aa50e9f5fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from spacepoints in a region of interest.  <br /></td></tr>
+<tr class="memdesc:ad836fd175aebaabd0c663aa50e9f5fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Seed finder implementing the GBTs seeding workflow. </p>
@@ -215,7 +215,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create seeds from spacepoints in a region of interest. </p>
+<p>Create seeds from space points in a region of interest. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">roi</td><td>Region of interest descriptor </td></tr>

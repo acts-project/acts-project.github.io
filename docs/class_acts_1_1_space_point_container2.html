@@ -216,7 +216,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept
 <tr class="memitem:a4a35040caefb017b5b2c4af25695a69d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a35040caefb017b5b2c4af25695a69d">column</a> (const std::string &amp;name) const</td></tr>
 <tr class="memdesc:a4a35040caefb017b5b2c4af25695a69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the column with the given name.  <br /></td></tr>
 <tr class="memitem:a412e8e1e8bee72db0765d0ca2b4ec2aa" id="r_a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412e8e1e8bee72db0765d0ca2b4ec2aa">copyFrom</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index, const <a class="el" href="#a61c8dcc7ae4547b223972cbb660178bd">SpacePointContainer2</a> &amp;otherContainer, <a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> otherIndex, <a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columnsToCopy)</td></tr>
-<tr class="memdesc:a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another spacepoint to this spacepoint.  <br /></td></tr>
+<tr class="memdesc:a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another space point to this space point.  <br /></td></tr>
 <tr class="memitem:ad9b66d6eb497034166f867f7f77aa6cd" id="r_ad9b66d6eb497034166f867f7f77aa6cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b66d6eb497034166f867f7f77aa6cd">copyFromIndex</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index) const noexcept</td></tr>
 <tr class="memdesc:ad9b66d6eb497034166f867f7f77aa6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the <span class="tt">copy from index</span> of the space point at the given index.  <br /></td></tr>
 <tr class="memitem:af370152ec73f08c032434a28cd9bfbb3" id="r_af370152ec73f08c032434a28cd9bfbb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af370152ec73f08c032434a28cd9bfbb3">copyFromIndex</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index) noexcept</td></tr>
@@ -930,13 +930,13 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Copies the specified columns from another spacepoint to this spacepoint. </p>
+<p>Copies the specified columns from another space point to this space point. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td>The index of the spacepoint to copy to in this container. </td></tr>
+    <tr><td class="paramname">index</td><td>The index of the space point to copy to in this container. </td></tr>
     <tr><td class="paramname">otherContainer</td><td>The space point container to copy from. </td></tr>
-    <tr><td class="paramname">otherIndex</td><td>The index of the spacepoint to copy from in the other container. </td></tr>
-    <tr><td class="paramname">columnsToCopy</td><td>The columns to copy from the other spacepoint. </td></tr>
+    <tr><td class="paramname">otherIndex</td><td>The index of the space point to copy from in the other container. </td></tr>
+    <tr><td class="paramname">columnsToCopy</td><td>The columns to copy from the other space point. </td></tr>
   </table>
   </dd>
 </dl>
