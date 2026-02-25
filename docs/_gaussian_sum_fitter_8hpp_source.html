@@ -577,7 +577,7 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>      <span class="keyword">const</span> <span class="keyword">auto</span> [finalPars, finalCov] = detail::Gsf::mergeGaussianMixture(</div>
 <div class="line"><a id="l00509" name="l00509"></a><span class="lineno">  509</span>          params.components(),</div>
 <div class="line"><a id="l00510" name="l00510"></a><span class="lineno">  510</span>          [](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; cmp) {</div>
-<div class="line"><a id="l00511" name="l00511"></a><span class="lineno">  511</span>            const auto&amp; [weight_l, pars_l, opt_cov_l] = cmp;</div>
+<div class="line"><a id="l00511" name="l00511"></a><span class="lineno">  511</span>            auto&amp;&amp; [weight_l, pars_l, opt_cov_l] = cmp;</div>
 <div class="line"><a id="l00512" name="l00512"></a><span class="lineno">  512</span>            return std::tie(weight_l, pars_l, *opt_cov_l);</div>
 <div class="line"><a id="l00513" name="l00513"></a><span class="lineno">  513</span>          },</div>
 <div class="line"><a id="l00514" name="l00514"></a><span class="lineno">  514</span>          params.referenceSurface(), options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a967824812ca767a80fae6ecb475a2c1c">componentMergeMethod</a>);</div>
