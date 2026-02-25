@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['when_20compiling_0',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md42',1,'']]],
-  ['with_20a_20lcg_20release_20on_20cvmfs_1',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md30',1,'']]],
-  ['with_20acts_2',['Backends shipped with ACTS',['../group__eventdata__tracks.html#autotoc_md11',1,'']]],
-  ['with_20dependencies_3',['Running with dependencies',['../howto_spack.html#spack_running_with_dependencies',1,'']]],
-  ['with_20result_20type_4',['Usage with Result Type',['../group__errors.html#autotoc_md4',1,'']]],
-  ['with_20spack_5',['with Spack',['../howto_spack.html',1,'Building with Spack'],['../howto_spack.html#autotoc_md55',1,'Building with Spack']]]
+  ['vector_20backend_0',['Transient vector backend',['../group__eventdata__tracks.html#autotoc_md12',1,'']]],
+  ['versioning_20and_20public_20api_1',['Versioning and public API',['../versioning.html',1,'']]],
+  ['vertex_20reconstruction_2',['Vertex reconstruction',['../tracking.html#vertex-reconstruction',1,'']]],
+  ['view_20profile_20as_20a_20graph_3',['View Profile as a Graph',['../howto_profiling.html#autotoc_md48',1,'']]]
 ];
