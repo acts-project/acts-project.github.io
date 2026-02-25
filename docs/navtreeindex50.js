@@ -1,5 +1,11 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_config.html#a212a087b14e384cdf3d495ee9d3ecb8f":[8,0,0,2,11,28],
+"struct_acts_1_1_experimental_1_1_gbts_config.html#a4beaf29a4353f3c572e405ff5224acb2":[6,0,0,1,11,21],
+"struct_acts_1_1_experimental_1_1_gbts_config.html#a4beaf29a4353f3c572e405ff5224acb2":[8,0,0,2,11,21],
+"struct_acts_1_1_experimental_1_1_gbts_config.html#a4c9cf2f76dbff2d9d385be6c3fa40683":[6,0,0,1,11,19],
+"struct_acts_1_1_experimental_1_1_gbts_config.html#a4c9cf2f76dbff2d9d385be6c3fa40683":[8,0,0,2,11,19],
+"struct_acts_1_1_experimental_1_1_gbts_config.html#a4e490df1518f71cce7b8a886638193b1":[6,0,0,1,11,14],
 "struct_acts_1_1_experimental_1_1_gbts_config.html#a4e490df1518f71cce7b8a886638193b1":[8,0,0,2,11,14],
 "struct_acts_1_1_experimental_1_1_gbts_config.html#a562d7331f2b15522060e6bd356a1d2ee":[6,0,0,1,11,5],
 "struct_acts_1_1_experimental_1_1_gbts_config.html#a562d7331f2b15522060e6bd356a1d2ee":[8,0,0,2,11,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ab4699924c6454ab1cc7e729362435432":[8,0,0,2,32,0,0],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ad367419e80c0d8a6bd8fc1c00bfefd6f":[6,0,0,1,32,0,1],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ad367419e80c0d8a6bd8fc1c00bfefd6f":[8,0,0,2,32,0,1],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[6,0,0,1,32,0,2],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[8,0,0,2,32,0,2],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[6,0,0,1,32,0,4],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[8,0,0,2,32,0,4],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html":[5,11,8],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#a274350757314c6773ae659910e767239":[5,11,8,3],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,11,8,0]
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[6,0,0,1,32,0,2]
 };

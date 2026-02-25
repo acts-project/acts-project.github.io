@@ -578,6 +578,7 @@ var hierarchy =
     [ "Acts::MultiIndex&lt; T, BitsPerLevel &gt;", "class_acts_1_1_multi_index.html", null ],
     [ "Acts::MultiIntersection&lt; DIM &gt;", "class_acts_1_1_multi_intersection.html", null ],
     [ "Acts::MultiNavigationPolicy::State", "struct_acts_1_1_multi_navigation_policy_1_1_state.html", null ],
+    [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;", "class_acts_1_1_multi_stepper_loop.html", null ],
     [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State", "struct_acts_1_1_multi_stepper_loop_1_1_state.html", null ],
     [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State::Component", "struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html", null ],
     [ "Acts::MultiTrajectory&lt; derived_t &gt;", "class_acts_1_1_multi_trajectory.html", null ],
@@ -1105,10 +1106,6 @@ var hierarchy =
     [ "propagator_t::template Options", null, [
       [ "Acts::RiddersPropagatorOptions< propagator_t, actor_list_t >", "struct_acts_1_1_ridders_propagator_options.html", null ],
       [ "Acts::RiddersPropagatorOptions< propagator_t, actor_list_t >", "struct_acts_1_1_ridders_propagator_options.html", null ]
-    ] ],
-    [ "single_stepper_t", null, [
-      [ "Acts::MultiStepperLoop< EigenStepper< extension_t >, reducer_t >", "class_acts_1_1_multi_stepper_loop.html", null ],
-      [ "Acts::MultiStepperLoop< single_stepper_t, component_reducer_t >", "class_acts_1_1_multi_stepper_loop.html", null ]
     ] ],
     [ "SingleOptions", null, [
       [ "Acts::MultiStepperLoop< single_stepper_t, component_reducer_t >::Options", "struct_acts_1_1_multi_stepper_loop_1_1_options.html", null ]
