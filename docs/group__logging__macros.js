@@ -6,6 +6,7 @@ var group__logging__macros =
     [ "ACTS_INFO", "group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821", null ],
     [ "ACTS_LOCAL_LOGGER", "group__logging__macros.html#ga69bca62a752c80eecae961b8717bd573", null ],
     [ "ACTS_LOG", "group__logging__macros.html#ga944f2c94c1119d970bb30776295c641c", null ],
+    [ "ACTS_LOG_WITH_LOGGER", "group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44", null ],
     [ "ACTS_VERBOSE", "group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385", null ],
     [ "ACTS_WARNING", "group__logging__macros.html#ga32cd83ddccb067ada37acc8e24246c89", null ]
 ];

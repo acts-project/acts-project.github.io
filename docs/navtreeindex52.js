@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html":[6,0,0,2,1],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html":[8,0,0,5,1],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a25f6c5ac20e621cee290566a772db065":[6,0,0,2,1,6],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a25f6c5ac20e621cee290566a772db065":[8,0,0,5,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a3a9e814be0d9b178672114f317d00224":[8,0,0,180,0,9],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a4543ea49c3885071647bcc69122dceb4":[6,0,0,173,0,11],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#a4543ea49c3885071647bcc69122dceb4":[8,0,0,180,0,11],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#a754470cd9df59a6ebb196157a1ca98ec":[6,0,0,173,0,4],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#a754470cd9df59a6ebb196157a1ca98ec":[8,0,0,180,0,4]
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#a754470cd9df59a6ebb196157a1ca98ec":[6,0,0,173,0,4]
 };
