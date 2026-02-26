@@ -18,6 +18,7 @@ var class_acts_1_1_multi_component_bound_track_parameters =
     [ "direction", "class_acts_1_1_multi_component_bound_track_parameters.html#a018afca309f4f045c79ad9d0097ffdf3", null ],
     [ "fourPosition", "class_acts_1_1_multi_component_bound_track_parameters.html#a2f35050553c4372a72fe620dee9d1a80", null ],
     [ "get", "class_acts_1_1_multi_component_bound_track_parameters.html#ac376840f103c47dcd0136cf338e584bb", null ],
+    [ "merge", "class_acts_1_1_multi_component_bound_track_parameters.html#a4ee65a5f362d4cf209e3b8f7ccd79447", null ],
     [ "momentum", "class_acts_1_1_multi_component_bound_track_parameters.html#afbf984044c482d89bc54304f707788d2", null ],
     [ "operator=", "class_acts_1_1_multi_component_bound_track_parameters.html#adc1a3358aa8da1289821a276d8c8716c", null ],
     [ "operator=", "class_acts_1_1_multi_component_bound_track_parameters.html#adf1b979cac2364d4b4a8cbb7cf836d9d", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_trapezoid_volume_bounds.html#a4ab6572e1795f25da88e4e7ee5f54fa4":[6,0,0,427,7],
+"class_acts_1_1_trapezoid_volume_bounds.html#a4ab6572e1795f25da88e4e7ee5f54fa4":[8,0,0,434,7],
 "class_acts_1_1_trapezoid_volume_bounds.html#a4f0c5434cf03d13497722efea4e57a0a":[6,0,0,427,4],
 "class_acts_1_1_trapezoid_volume_bounds.html#a4f0c5434cf03d13497722efea4e57a0a":[8,0,0,434,4],
 "class_acts_1_1_trapezoid_volume_bounds.html#a730e7b4504ec9c4f1afcd9032a56a6a8":[6,0,0,427,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_variable_subspace_helper.html#a121a5cf6c440817616c26c52b28e73e9":[6,0,0,442,4],
 "class_acts_1_1_variable_subspace_helper.html#a121a5cf6c440817616c26c52b28e73e9":[8,0,0,449,4],
 "class_acts_1_1_variable_subspace_helper.html#a33c98c569ab913a4780474ec05e68326":[6,0,0,442,5],
-"class_acts_1_1_variable_subspace_helper.html#a33c98c569ab913a4780474ec05e68326":[8,0,0,449,5],
-"class_acts_1_1_variable_subspace_helper.html#a37c5ce10a88269a23f8fb6daf179611f":[6,0,0,442,2],
-"class_acts_1_1_variable_subspace_helper.html#a37c5ce10a88269a23f8fb6daf179611f":[8,0,0,449,2]
+"class_acts_1_1_variable_subspace_helper.html#a33c98c569ab913a4780474ec05e68326":[8,0,0,449,5]
 };

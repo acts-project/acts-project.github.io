@@ -179,6 +179,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac376840f103c47dcd0136cf338e584bb" id="r_ac376840f103c47dcd0136cf338e584bb"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8ca9fc7">BoundIndices</a> kIndex&gt; </td></tr>
 <tr class="memitem:ac376840f103c47dcd0136cf338e584bb template"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac376840f103c47dcd0136cf338e584bb">get</a> () const</td></tr>
 <tr class="memdesc:ac376840f103c47dcd0136cf338e584bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a single parameter value identified by its index.  <br /></td></tr>
+<tr class="memitem:a4ee65a5f362d4cf209e3b8f7ccd79447" id="r_a4ee65a5f362d4cf209e3b8f7ccd79447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee65a5f362d4cf209e3b8f7ccd79447">merge</a> (<a class="el" href="group__track__fitting.html#ga920082397516a41a551b2a9883131d66">ComponentMergeMethod</a> method) const</td></tr>
+<tr class="memdesc:a4ee65a5f362d4cf209e3b8f7ccd79447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge component mixture into a single set of parameters using the specified method.  <br /></td></tr>
 <tr class="memitem:afbf984044c482d89bc54304f707788d2" id="r_afbf984044c482d89bc54304f707788d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbf984044c482d89bc54304f707788d2">momentum</a> () const</td></tr>
 <tr class="memdesc:afbf984044c482d89bc54304f707788d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum three-vector.  <br /></td></tr>
 <tr class="memitem:adc1a3358aa8da1289821a276d8c8716c" id="r_adc1a3358aa8da1289821a276d8c8716c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#acc30864b2eada8aabe1e2d183e5ed5ff">MultiComponentBoundTrackParameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1a3358aa8da1289821a276d8c8716c">operator=</a> (const <a class="el" href="#acc30864b2eada8aabe1e2d183e5ed5ff">MultiComponentBoundTrackParameters</a> &amp;)=default</td></tr>
@@ -234,7 +236,7 @@ If all covariances are zero, the accessor for the total covariance does return s
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> std::tuple&lt;double, <a class="code hl_typedef" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Acts::Vector4</a>, <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>,</div>
 <div class="line">                                       double, <a class="code hl_typedef" href="#a3ad5dd4114e69e0d139e29530ebdb7f1">CovarianceMatrix</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_component_bound_track_parameters_html_a3ad5dd4114e69e0d139e29530ebdb7f1"><div class="ttname"><a href="#a3ad5dd4114e69e0d139e29530ebdb7f1">Acts::MultiComponentBoundTrackParameters::CovarianceMatrix</a></div><div class="ttdeci">typename Parameters::CovarianceMatrix CovarianceMatrix</div><div class="ttdoc">Type alias for covariance matrix.</div><div class="ttdef"><b>Definition</b> MultiComponentTrackParameters.hpp:42</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_component_bound_track_parameters_html_a3ad5dd4114e69e0d139e29530ebdb7f1"><div class="ttname"><a href="#a3ad5dd4114e69e0d139e29530ebdb7f1">Acts::MultiComponentBoundTrackParameters::CovarianceMatrix</a></div><div class="ttdeci">typename Parameters::CovarianceMatrix CovarianceMatrix</div><div class="ttdoc">Type alias for covariance matrix.</div><div class="ttdef"><b>Definition</b> MultiComponentTrackParameters.hpp:44</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga211f2201e5faee8fc4243cb3be9bc97f"><div class="ttname"><a href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Acts::Vector4</a></div><div class="ttdeci">Vector&lt; 4 &gt; Vector4</div><div class="ttdoc">4-dimensional vector type for space-time coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:100</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:98</div></div>
 </div><!-- fragment -->
@@ -521,6 +523,32 @@ template&lt;<a class="el" href="namespace_acts.html#ad2b38e86cfd40fa19fe61c74e8c
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Weighted average of the parameter at the specified index </dd></dl>
+
+</div>
+</div>
+<a id="a4ee65a5f362d4cf209e3b8f7ccd79447" name="a4ee65a5f362d4cf209e3b8f7ccd79447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee65a5f362d4cf209e3b8f7ccd79447">&#9670;&#160;</a></span>merge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> Acts::MultiComponentBoundTrackParameters::merge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__track__fitting.html#ga920082397516a41a551b2a9883131d66">ComponentMergeMethod</a></td>          <td class="paramname"><span class="paramname"><em>method</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Merge component mixture into a single set of parameters using the specified method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">method</td><td>Method to use for merging the components into a single set of parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Single component bound track parameters representing the mixture </dd></dl>
 
 </div>
 </div>
