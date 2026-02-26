@@ -1171,6 +1171,8 @@ var namespace_acts =
     [ "AxisOpen", "namespace_acts.html#ad651c70eef2af54126bd856e558b80ed", null ],
     [ "kBoundSubspaceIndicesInvalid", "namespace_acts.html#a5126c57045207c4b5f7e5a88b02e8ed1", null ],
     [ "kMeasurementSizeMax", "namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4", null ],
+    [ "kSeedIndex2Invalid", "namespace_acts.html#a622cac5026b49221229c5c90a325ca52", null ],
+    [ "kSpacePointIndex2Invalid", "namespace_acts.html#aadaa2bc05e2867b6339d5162256f5d3a", null ],
     [ "kTrackIndexInvalid", "namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749", null ],
     [ "NoTime", "namespace_acts.html#aff077588e6b9207d49c53b1556be3a23", null ],
     [ "PolygonDynamic", "namespace_acts.html#a526e32fbccfb7d636cadc94909fa448d", null ],

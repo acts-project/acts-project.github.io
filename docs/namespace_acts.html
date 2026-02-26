@@ -2592,6 +2592,10 @@ constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><b>AxisOpen</b
 <tr class="memitem:a1c422bbaca4aaec733b49b97645ea1b4" id="r_a1c422bbaca4aaec733b49b97645ea1b4"><td class="memItemLeft" align="right" valign="top"><a id="a1c422bbaca4aaec733b49b97645ea1b4" name="a1c422bbaca4aaec733b49b97645ea1b4"></a>
 static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>kMeasurementSizeMax</b> = eBoundSize</td></tr>
 <tr class="memdesc:a1c422bbaca4aaec733b49b97645ea1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size of measurement dimension supported. <br /></td></tr>
+<tr class="memitem:a622cac5026b49221229c5c90a325ca52" id="r_a622cac5026b49221229c5c90a325ca52"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#ac4045b2d1b45e4878781a1aef72ce245">SeedIndex2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622cac5026b49221229c5c90a325ca52">kSeedIndex2Invalid</a></td></tr>
+<tr class="memdesc:a622cac5026b49221229c5c90a325ca52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value for an invalid / unset seed EDM related index.  <br /></td></tr>
+<tr class="memitem:aadaa2bc05e2867b6339d5162256f5d3a" id="r_aadaa2bc05e2867b6339d5162256f5d3a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadaa2bc05e2867b6339d5162256f5d3a">kSpacePointIndex2Invalid</a></td></tr>
+<tr class="memdesc:aadaa2bc05e2867b6339d5162256f5d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value for an invalid / unset space point EDM related index.  <br /></td></tr>
 <tr class="memitem:a589e3f01b082df3de46c2a6f5e6ce749" id="r_a589e3f01b082df3de46c2a6f5e6ce749"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a589e3f01b082df3de46c2a6f5e6ce749">kTrackIndexInvalid</a></td></tr>
 <tr class="memdesc:a589e3f01b082df3de46c2a6f5e6ce749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel value for an invalid / unset track EDM related index.  <br /></td></tr>
 <tr class="memitem:aff077588e6b9207d49c53b1556be3a23" id="r_aff077588e6b9207d49c53b1556be3a23"><td class="memItemLeft" align="right" valign="top"><a id="aff077588e6b9207d49c53b1556be3a23" name="aff077588e6b9207d49c53b1556be3a23"></a>
@@ -11661,6 +11665,58 @@ template&lt;typename... R&gt; </div>
 </div><!-- fragment -->
 <p>type alias for indices of bound track parameters subspace </p>
 <p>used to specify which components of the bound track parameters are being referenced </p>
+
+</div>
+</div>
+<a id="a622cac5026b49221229c5c90a325ca52" name="a622cac5026b49221229c5c90a325ca52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622cac5026b49221229c5c90a325ca52">&#9670;&#160;</a></span>kSeedIndex2Invalid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ac4045b2d1b45e4878781a1aef72ce245">SeedIndex2</a> Acts::kSeedIndex2Invalid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    std::numeric_limits&lt;SeedIndex2&gt;::max()</div>
+</div><!-- fragment -->
+<p>Sentinel value for an invalid / unset seed EDM related index. </p>
+
+</div>
+</div>
+<a id="aadaa2bc05e2867b6339d5162256f5d3a" name="aadaa2bc05e2867b6339d5162256f5d3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadaa2bc05e2867b6339d5162256f5d3a">&#9670;&#160;</a></span>kSpacePointIndex2Invalid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> Acts::kSpacePointIndex2Invalid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    std::numeric_limits&lt;SpacePointIndex2&gt;::max()</div>
+</div><!-- fragment -->
+<p>Sentinel value for an invalid / unset space point EDM related index. </p>
 
 </div>
 </div>
