@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::Experimental::SeedFinderGbts Class Reference</title>
+<title>ACTS: Acts::Experimental::GraphBasedTrackSeeder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('class_acts_1_1_experimental_1_1_seed_finder_gbts.html','','class_acts_1_1_experimental_1_1_seed_finder_gbts-members'); });
+$(function(){initNavTree('class_acts_1_1_experimental_1_1_graph_based_track_seeder.html','','class_acts_1_1_experimental_1_1_graph_based_track_seeder-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -122,40 +122,40 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_seed_finder_gbts.html'
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::Experimental::SeedFinderGbts Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::Experimental::GraphBasedTrackSeeder Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Seed finder implementing the GBTs seeding workflow.  
+<p>Seed finder implementing the GBTS seeding workflow.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_seed_finder_gbts_8hpp_source.html">Acts/Seeding/SeedFinderGbts.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_graph_based_track_seeder_8hpp_source.html">Acts/Seeding2/GraphBasedTrackSeeder.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:GbtsSlidingWindow" id="r_GbtsSlidingWindow"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_gbts_sliding_window.html">GbtsSlidingWindow</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sliding window in phi used to define range used for edge creation.  <a href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_gbts_sliding_window.html#details">More...</a><br /></td></tr>
-<tr class="memitem:SeedProperties" id="r_SeedProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">SeedProperties</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed metadata produced by the GBTs algorithm.  <a href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#details">More...</a><br /></td></tr>
+<tr class="memitem:SeedProperties" id="r_SeedProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_properties.html">SeedProperties</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed metadata produced by the GBTS algorithm.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_properties.html#details">More...</a><br /></td></tr>
+<tr class="memitem:SlidingWindow" id="r_SlidingWindow"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html">SlidingWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sliding window in phi used to define range used for edge creation.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a80838c0beb8a84d90a72204f2a11ab01" id="r_a80838c0beb8a84d90a72204f2a11ab01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80838c0beb8a84d90a72204f2a11ab01">SeedFinderGbts</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_config.html">GbtsConfig</a> &amp;config, std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; gbtsGeo, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;layerGeometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
-<tr class="memdesc:a80838c0beb8a84d90a72204f2a11ab01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:ad836fd175aebaabd0c663aa50e9f5fd9" id="r_ad836fd175aebaabd0c663aa50e9f5fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad836fd175aebaabd0c663aa50e9f5fd9">createSeeds</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, std::uint32_t maxLayers) const</td></tr>
-<tr class="memdesc:ad836fd175aebaabd0c663aa50e9f5fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
+<tr class="memitem:a6c3f51c5d2efdc801d45b0eaac67ec77" id="r_a6c3f51c5d2efdc801d45b0eaac67ec77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c3f51c5d2efdc801d45b0eaac67ec77">GraphBasedTrackSeeder</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_config.html">GbtsConfig</a> &amp;config, std::unique_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; gbtsGeo, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;layerGeometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
+<tr class="memdesc:a6c3f51c5d2efdc801d45b0eaac67ec77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a09aedad4d21ae086d9224292f586622e" id="r_a09aedad4d21ae086d9224292f586622e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09aedad4d21ae086d9224292f586622e">createSeeds</a> (const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;roi, const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, std::uint32_t maxLayers) const</td></tr>
+<tr class="memdesc:a09aedad4d21ae086d9224292f586622e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Seed finder implementing the GBTs seeding workflow. </p>
+<div class="textblock"><p>Seed finder implementing the GBTS seeding workflow. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a80838c0beb8a84d90a72204f2a11ab01" name="a80838c0beb8a84d90a72204f2a11ab01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80838c0beb8a84d90a72204f2a11ab01">&#9670;&#160;</a></span>SeedFinderGbts()</h2>
+<a id="a6c3f51c5d2efdc801d45b0eaac67ec77" name="a6c3f51c5d2efdc801d45b0eaac67ec77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c3f51c5d2efdc801d45b0eaac67ec77">&#9670;&#160;</a></span>GraphBasedTrackSeeder()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Acts::Experimental::SeedFinderGbts::SeedFinderGbts </td>
+          <td class="memname">Acts::Experimental::GraphBasedTrackSeeder::GraphBasedTrackSeeder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_config.html">GbtsConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
         </tr>
@@ -181,7 +181,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">config</td><td>Configuration for the seed finder </td></tr>
-    <tr><td class="paramname">gbtsGeo</td><td>GBTs geometry </td></tr>
+    <tr><td class="paramname">gbtsGeo</td><td>GBTS geometry </td></tr>
     <tr><td class="paramname">layerGeometry</td><td>Layer geometry information </td></tr>
     <tr><td class="paramname">logger</td><td>Logging instance </td></tr>
   </table>
@@ -191,14 +191,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ad836fd175aebaabd0c663aa50e9f5fd9" name="ad836fd175aebaabd0c663aa50e9f5fd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad836fd175aebaabd0c663aa50e9f5fd9">&#9670;&#160;</a></span>createSeeds()</h2>
+<a id="a09aedad4d21ae086d9224292f586622e" name="a09aedad4d21ae086d9224292f586622e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09aedad4d21ae086d9224292f586622e">&#9670;&#160;</a></span>createSeeds()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> Acts::Experimental::SeedFinderGbts::createSeeds </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> Acts::Experimental::GraphBasedTrackSeeder::createSeeds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_experimental_1_1_roi_descriptor.html">RoiDescriptor</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>roi</em></span>, </td>
         </tr>
@@ -241,7 +241,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_experimental.html">Experimental</a></li><li class="navelem"><a href="class_acts_1_1_experimental_1_1_seed_finder_gbts.html">SeedFinderGbts</a></li>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_experimental.html">Experimental</a></li><li class="navelem"><a href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GraphBasedTrackSeeder</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

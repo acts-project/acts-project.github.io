@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Member List</title>
+<title>ACTS: Acts::Experimental::GraphBasedTrackSeeder::SlidingWindow Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html','',''); });
+$(function(){initNavTree('struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html','','struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -122,23 +122,51 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::Experimental::SeedFinderGbts::SeedProperties Member List</div></div>
+  <div class="headertitle"><div class="title">Acts::Experimental::GraphBasedTrackSeeder::SlidingWindow Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">Acts::Experimental::SeedFinderGbts::SeedProperties</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#a17dd6827ac9fc9e2ab6e4e2a8ac28789">isClone</a></td><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">Acts::Experimental::SeedFinderGbts::SeedProperties</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#a4d86a1d709f3b3f663e845bfef8ab55f">operator&lt;=&gt;</a>(const SeedProperties &amp;o) const =default</td><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">Acts::Experimental::SeedFinderGbts::SeedProperties</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#a0d073cc303c8a9ef355dfb996199fd71">SeedProperties</a>(float quality, std::int32_t clone, std::vector&lt; std::uint32_t &gt; sps)</td><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">Acts::Experimental::SeedFinderGbts::SeedProperties</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#a224a49d82e1e98dcd9f33268af75b03c">seedQuality</a></td><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">Acts::Experimental::SeedFinderGbts::SeedProperties</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html#a36a3960cff36035536f1fb43f6c9f7d7">spacePoints</a></td><td class="entry"><a class="el" href="struct_acts_1_1_experimental_1_1_seed_finder_gbts_1_1_seed_properties.html">Acts::Experimental::SeedFinderGbts::SeedProperties</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>Sliding window in phi used to define range used for edge creation.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_graph_based_track_seeder_8hpp_source.html">Acts/Seeding2/GraphBasedTrackSeeder.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Acts::Experimental::GraphBasedTrackSeeder::SlidingWindow:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window__coll__graph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2e3e6a21b289e8627cd57c18b2088f77" id="r_a2e3e6a21b289e8627cd57c18b2088f77"><td class="memItemLeft" align="right" valign="top"><a id="a2e3e6a21b289e8627cd57c18b2088f77" name="a2e3e6a21b289e8627cd57c18b2088f77"></a>
+const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>bin</b> {}</td></tr>
+<tr class="memdesc:a2e3e6a21b289e8627cd57c18b2088f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">associated eta bin <br /></td></tr>
+<tr class="memitem:a7203b25a295808aa844874d7ab6d5d9a" id="r_a7203b25a295808aa844874d7ab6d5d9a"><td class="memItemLeft" align="right" valign="top"><a id="a7203b25a295808aa844874d7ab6d5d9a" name="a7203b25a295808aa844874d7ab6d5d9a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaPhi</b> {}</td></tr>
+<tr class="memdesc:a7203b25a295808aa844874d7ab6d5d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">window half-width; <br /></td></tr>
+<tr class="memitem:afdfcfdd30acec0b9ee945252c0fa395d" id="r_afdfcfdd30acec0b9ee945252c0fa395d"><td class="memItemLeft" align="right" valign="top"><a id="afdfcfdd30acec0b9ee945252c0fa395d" name="afdfcfdd30acec0b9ee945252c0fa395d"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>firstIt</b> {}</td></tr>
+<tr class="memdesc:afdfcfdd30acec0b9ee945252c0fa395d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sliding window position <br /></td></tr>
+<tr class="memitem:a9d7152f4198d3cadd317279a8cf312b1" id="r_a9d7152f4198d3cadd317279a8cf312b1"><td class="memItemLeft" align="right" valign="top"><a id="a9d7152f4198d3cadd317279a8cf312b1" name="a9d7152f4198d3cadd317279a8cf312b1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasNodes</b> {}</td></tr>
+<tr class="memdesc:a9d7152f4198d3cadd317279a8cf312b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">active or not <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Sliding window in phi used to define range used for edge creation. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="namespace_acts_1_1_experimental.html">Experimental</a></li><li class="navelem"><a href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GraphBasedTrackSeeder</a></li><li class="navelem"><a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html">SlidingWindow</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

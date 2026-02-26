@@ -58,7 +58,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Edge between two GBTs nodes with fit parameters.">
+<g id="a_Node000001"><a xlink:title="Edge between two GBTS nodes with fit parameters.">
 <polygon fill="#999999" stroke="#666666" points="566,-76 457,-76 457,-46 566,-46 566,-76"/>
 <text text-anchor="start" x="465" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="511.5" y="-53" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsEdge</text>
@@ -68,7 +68,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="struct_acts_1_1_experimental_1_1_gbts_node.html" target="_top" xlink:title="GBTs graph node storing space point properties.">
+<g id="a_Node000002"><a xlink:href="struct_acts_1_1_experimental_1_1_gbts_node.html" target="_top" xlink:title="GBTS graph node storing space point properties.">
 <polygon fill="white" stroke="#666666" points="379,-119 270,-119 270,-89 379,-89 379,-119"/>
 <text text-anchor="start" x="278" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="324.5" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsNode</text>

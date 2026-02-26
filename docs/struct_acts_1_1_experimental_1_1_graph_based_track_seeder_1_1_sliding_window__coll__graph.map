@@ -1,7 +1,7 @@
-<map id="Acts::Experimental::SeedFinderGbts::GbtsSlidingWindow" name="Acts::Experimental::SeedFinderGbts::GbtsSlidingWindow">
-<area shape="rect" id="Node000001" title="Sliding window in phi used to define range used for edge creation." alt="" coords="939,157,1153,211"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_gbts_eta_bin.html" title="Eta&#45;bin container for GBTs nodes and edge data." alt="" coords="716,164,861,204"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="875,181,938,181,938,187,875,187"/>
+<map id="Acts::Experimental::GraphBasedTrackSeeder::SlidingWindow" name="Acts::Experimental::GraphBasedTrackSeeder::SlidingWindow">
+<area shape="rect" id="Node000001" title="Sliding window in phi used to define range used for edge creation." alt="" coords="939,157,1127,211"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_gbts_eta_bin.html" title="Eta&#45;bin container for GBTS nodes and edge data." alt="" coords="716,164,861,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="876,181,938,181,938,187,876,187"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="395,31,544,86"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="558,72,625,91,693,116,732,138,764,162,761,166,729,143,691,121,624,96,557,78"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,191,135,217"/>

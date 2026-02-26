@@ -58,7 +58,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Per&#45;edge tracking state used by the GBTs filter.">
+<g id="a_Node000001"><a xlink:title="Per&#45;edge tracking state used by the GBTS filter.">
 <polygon fill="#999999" stroke="#666666" points="560,-130 451,-130 451,-100 560,-100 560,-130"/>
 <text text-anchor="start" x="459" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="505.5" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsEdgeState</text>

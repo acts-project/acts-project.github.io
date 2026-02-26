@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Connection between two GBTs layers with binning information.">
+<g id="a_Node000001"><a xlink:title="Connection between two GBTS layers with binning information.">
 <polygon fill="#999999" stroke="#666666" points="127.5,-30 18.5,-30 18.5,0 127.5,0 127.5,-30"/>
 <text text-anchor="start" x="26.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsConnection</text>
