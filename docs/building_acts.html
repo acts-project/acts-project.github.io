@@ -174,6 +174,13 @@ Building ACTS</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 With a LCG release on CVMFS</h2>
 <p>If you have access to a machine running <a href="https://cernvm.cern.ch/fs/">CVMFS</a>, e.g. CERNs lxplus login machines, the dependencies can be easily satisfied via an LCG releases available through CVMFS. Source the cvmfs setup script provided by the machine. It is suggested to select a recent <span class="tt">&lt;lcg_release&gt;</span> and <span class="tt">&lt;lcg_platform&gt;</span> combination. (Have a look at the CI jobs to get an overview on what we are currently testing):</p>
+<p>Current LCG/compiler combinations covered in CI are:</p>
+<ul>
+<li><span class="tt">LCG_107</span>: <span class="tt">gcc13</span>, <span class="tt">clang16</span></li>
+<li><span class="tt">LCG_107a</span>: <span class="tt">gcc14</span></li>
+<li><span class="tt">LCG_108</span>: <span class="tt">gcc15</span></li>
+<li><span class="tt">LCG_109</span>: <span class="tt">gcc15</span>, <span class="tt">clang19</span></li>
+</ul>
 <div class="fragment"><div class="line">source /cvmfs/sft.cern.ch/lcg/views/&lt;lcg_release&gt;/&lt;lcg_platform&gt;/setup.sh</div>
 </div><!-- fragment --><p>After sourcing the setup script, you can build ACTS as described above.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
@@ -182,7 +189,7 @@ In a container</h2>
 <dl class="section note"><dt>Note</dt><dd>Most containers are only build for the <span class="tt">x86_64</span> platform. If you are on an <span class="tt">aarch64</span> (such as a recent Mac), you'll need to use the <span class="tt">ubuntu2404</span> container, which is built for <span class="tt">aarch64</span> and <span class="tt">x86_64</span>!</dd></dl>
 <p>Furthermore, we are also testing on, but do not provide the corresponding containers:</p>
 <ul>
-<li><span class="tt">alma9</span> (HEP-specific software from LCG 106 or 107 and various clang versions)</li>
+<li><span class="tt">alma9</span> (HEP-specific software from LCG 107/107a/108/109 and compilers <span class="tt">gcc13</span>, <span class="tt">gcc14</span>, <span class="tt">gcc15</span>, <span class="tt">clang16</span>, <span class="tt">clang19</span>)</li>
 <li><span class="tt">macOS-10.15</span></li>
 </ul>
 <dl class="section warning"><dt>Warning</dt><dd>We stopped producing fully-contained LCG containers in favor of running LCG based tests directly from CVMFS.</dd></dl>
