@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,9,7,5,0],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a179061b20780527ad4277a0c5e6c39f2":[5,9,7,5,8],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a5fad34fff7ef9d3cb6ba8add66a56a32":[5,9,7,5,6],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a7e330333bee06083c59b7641eeb59096":[5,9,7,5,1],

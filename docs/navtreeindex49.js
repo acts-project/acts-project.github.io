@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_end_of_world_reached.html":[8,0,0,129],
 "struct_acts_1_1_end_of_world_reached.html#a03439c368fa8c5c195092f302373714f":[6,0,0,122,0],
 "struct_acts_1_1_end_of_world_reached.html#a03439c368fa8c5c195092f302373714f":[8,0,0,129,0],
 "struct_acts_1_1_estimate_track_param_covariance_config.html":[5,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#adb00d1c0d05fa52d76614c6f8536d6ad":[8,0,0,2,8,1,8],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#af9298a02958db9233b90de7b6df3e7a3":[6,0,0,1,8,1,1],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#af9298a02958db9233b90de7b6df3e7a3":[8,0,0,2,8,1,1],
-"struct_acts_1_1_experimental_1_1_gbts_config.html":[6,0,0,1,11],
-"struct_acts_1_1_experimental_1_1_gbts_config.html":[8,0,0,2,11]
+"struct_acts_1_1_experimental_1_1_gbts_config.html":[6,0,0,1,11]
 };

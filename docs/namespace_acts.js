@@ -1097,6 +1097,7 @@ var namespace_acts =
     [ "product", "namespace_acts.html#accac06e45217490944ef25a4b63f1539", null ],
     [ "projectorToSubspaceIndices", "namespace_acts.html#a0a9dad86571acffdac06f3af7087d27f", null ],
     [ "range_medium", "namespace_acts.html#a65c77310254a757a6edcb57a670d058c", null ],
+    [ "rangeContainsSubstring", "namespace_acts.html#a72cba4eb4917523213b4cc1c105c513d", null ],
     [ "rangeContainsValue", "namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d", null ],
     [ "reduceMixtureLargestWeights", "group__track__fitting.html#ga5bdb130b59461a2bcaf2c18eee161341", null ],
     [ "reduceMixtureWithKLDistance", "group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d", null ],

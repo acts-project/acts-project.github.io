@@ -285,54 +285,64 @@ $(function(){initNavTree('_helpers_8hpp_source.html','',''); });
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>}</div>
 </div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span></div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="keyword">template</span> &lt;<span class="keyword">class</span>... Ts&gt;</div>
-<div class="foldopen" id="foldopen00239" data-start="{" data-end="};">
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="struct_acts_1_1overloaded.html">  239</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_acts_1_1overloaded.html">overloaded</a> : Ts... {</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  <span class="keyword">using </span>Ts::operator()...;</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>};</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> R&gt;</div>
+<div class="foldopen" id="foldopen00238" data-start="{" data-end="}">
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="namespace_acts.html#a72cba4eb4917523213b4cc1c105c513d">  238</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespace_acts.html#a72cba4eb4917523213b4cc1c105c513d">rangeContainsSubstring</a>(<span class="keyword">const</span> <a class="code hl_enumvalue" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cae1e1d3d40573127e9ee0480caf1283d6">R</a>&amp; range, std::string_view value) {</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>  <span class="keywordflow">return</span> std::ranges::any_of(range, [&amp;](std::string_view s) {</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keywordflow">return</span> value.find(s) != std::string_view::npos;</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  });</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>}</div>
 </div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span></div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="keyword">template</span> &lt;<span class="keyword">class</span>... Ts&gt;</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="namespace_acts.html#accbf0a2a5f699fb8704e1cc75aee2121">  245</a></span><a class="code hl_function" href="namespace_acts.html#accbf0a2a5f699fb8704e1cc75aee2121">overloaded</a>(Ts...) -&gt; <a class="code hl_struct" href="struct_acts_1_1overloaded.html">overloaded</a>&lt;Ts...&gt;;</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="keyword">namespace </span>detail {</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="keyword">inline</span> <span class="keyword">auto</span> getMinMaxAndBinCount(std::vector&lt;double&gt;&amp; xPos) {</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  <span class="comment">// sort the values for unique()</span></div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>  std::ranges::sort(xPos);</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  <span class="comment">// get the number of bins over unique values</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>  <span class="keyword">auto</span> it = std::unique(xPos.begin(), xPos.end());</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  <span class="keyword">const</span> std::size_t xBinCount = std::distance(xPos.begin(), it);</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>  <span class="comment">// get the minimum and maximum</span></div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>  <span class="keyword">auto</span> [xMin, xMax] = std::ranges::minmax(xPos);</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  <span class="comment">// calculate maxima (add one last bin, because bin value always corresponds to</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>  <span class="comment">// left boundary)</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> stepX = (xMax - xMin) / <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(xBinCount - 1);</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>  xMax += stepX;</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>  <span class="comment">// Return all values as a tuple</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>  <span class="keywordflow">return</span> std::make_tuple(xMin, xMax, xBinCount);</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>}</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>}  <span class="comment">// namespace detail</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="keyword">template</span> &lt;<span class="keyword">class</span>... Ts&gt;</div>
+<div class="foldopen" id="foldopen00254" data-start="{" data-end="};">
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="struct_acts_1_1overloaded.html">  254</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_acts_1_1overloaded.html">overloaded</a> : Ts... {</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>  <span class="keyword">using </span>Ts::operator()...;</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>};</div>
+</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span></div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="keyword">template</span> &lt;<span class="keyword">class</span>... Ts&gt;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno"><a class="line" href="namespace_acts.html#accbf0a2a5f699fb8704e1cc75aee2121">  260</a></span><a class="code hl_function" href="namespace_acts.html#accbf0a2a5f699fb8704e1cc75aee2121">overloaded</a>(Ts...) -&gt; <a class="code hl_struct" href="struct_acts_1_1overloaded.html">overloaded</a>&lt;Ts...&gt;;</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">namespace </span>detail {</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="keyword">inline</span> <span class="keyword">auto</span> getMinMaxAndBinCount(std::vector&lt;double&gt;&amp; xPos) {</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>  <span class="comment">// sort the values for unique()</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>  std::ranges::sort(xPos);</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>  <span class="comment">// get the number of bins over unique values</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>  <span class="keyword">auto</span> it = std::unique(xPos.begin(), xPos.end());</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  <span class="keyword">const</span> std::size_t xBinCount = std::distance(xPos.begin(), it);</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span> </div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>  <span class="comment">// get the minimum and maximum</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <span class="keyword">auto</span> [xMin, xMax] = std::ranges::minmax(xPos);</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>  <span class="comment">// calculate maxima (add one last bin, because bin value always corresponds to</span></div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>  <span class="comment">// left boundary)</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> stepX = (xMax - xMin) / <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(xBinCount - 1);</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>  xMax += stepX;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span> </div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>  <span class="comment">// Return all values as a tuple</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>  <span class="keywordflow">return</span> std::make_tuple(xMin, xMax, xBinCount);</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>}</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>}  <span class="comment">// namespace detail</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
 <div class="ttc" id="anamespace_acts_html_a171b9272b990cb467e1e15f36638604e"><div class="ttname"><a href="namespace_acts.html#a171b9272b990cb467e1e15f36638604e">Acts::clampValue</a></div><div class="ttdeci">T clampValue(U value)</div><div class="ttdoc">Clamp a numeric value to another type, respecting range of the target type.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:168</div></div>
 <div class="ttc" id="anamespace_acts_html_a41bb20848824690a2a72250980a81e4e"><div class="ttname"><a href="namespace_acts.html#a41bb20848824690a2a72250980a81e4e">Acts::template_switch</a></div><div class="ttdeci">auto template_switch(std::size_t v, Args &amp;&amp;... args)</div><div class="ttdoc">Dispatch a call based on a runtime value on a function taking the value at compile time.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:116</div></div>
 <div class="ttc" id="anamespace_acts_html_a4e21d6cf5d7c1244c2f008471cc5ba7e"><div class="ttname"><a href="namespace_acts.html#a4e21d6cf5d7c1244c2f008471cc5ba7e">Acts::toUnderlying</a></div><div class="ttdeci">constexpr std::underlying_type_t&lt; enum_t &gt; toUnderlying(enum_t value)</div><div class="ttdoc">Convert enum to its underlying type value.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:208</div></div>
 <div class="ttc" id="anamespace_acts_html_a508ee0f24c070e5785bb517a4b449e69"><div class="ttname"><a href="namespace_acts.html#a508ee0f24c070e5785bb517a4b449e69">Acts::template_switch_lambda</a></div><div class="ttdeci">auto template_switch_lambda(std::size_t v, Lambda &amp;&amp;func, Args &amp;&amp;... args)</div><div class="ttdoc">Alternative version of template_switch which accepts a generic lambda and communicates the dimension ...</div><div class="ttdef"><b>Definition</b> Helpers.hpp:143</div></div>
 <div class="ttc" id="anamespace_acts_html_a65c77310254a757a6edcb57a670d058c"><div class="ttname"><a href="namespace_acts.html#a65c77310254a757a6edcb57a670d058c">Acts::range_medium</a></div><div class="ttdeci">std::tuple&lt; typename T::value_type, double &gt; range_medium(const T &amp;tseries)</div><div class="ttdoc">Return range and medium of an unsorted numeric series.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:197</div></div>
+<div class="ttc" id="anamespace_acts_html_a72cba4eb4917523213b4cc1c105c513d"><div class="ttname"><a href="namespace_acts.html#a72cba4eb4917523213b4cc1c105c513d">Acts::rangeContainsSubstring</a></div><div class="ttdeci">bool rangeContainsSubstring(const R &amp;range, std::string_view value)</div><div class="ttdoc">This function checks if at least one string from a given range is contained within a specified string...</div><div class="ttdef"><b>Definition</b> Helpers.hpp:238</div></div>
 <div class="ttc" id="anamespace_acts_html_a7a6813a649567fb613b8214ad5e7399cae1e1d3d40573127e9ee0480caf1283d6"><div class="ttname"><a href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cae1e1d3d40573127e9ee0480caf1283d6">Acts::SpacePointColumns::R</a></div><div class="ttdeci">@ R</div><div class="ttdoc">Radial coordinate.</div><div class="ttdef"><b>Definition</b> SpacePointColumns.hpp:25</div></div>
 <div class="ttc" id="anamespace_acts_html_a9d506a7514329cb489387ca5db28c266"><div class="ttname"><a href="namespace_acts.html#a9d506a7514329cb489387ca5db28c266">Acts::unpackSmartPointers</a></div><div class="ttdeci">std::vector&lt; std::add_pointer_t&lt; typename T::element_type &gt; &gt; unpackSmartPointers(const std::vector&lt; T &gt; &amp;items)</div><div class="ttdoc">Helper function to unpack a vector of shared_ptr into a vector of raw pointers.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:50</div></div>
 <div class="ttc" id="anamespace_acts_html_ac6d9beca13049b91d5c9e5991f60532d"><div class="ttname"><a href="namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d">Acts::rangeContainsValue</a></div><div class="ttdeci">bool rangeContainsValue(const R &amp;range, const T &amp;value)</div><div class="ttdoc">This can be replaced with C++23 to use the std::ranges::contains method.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:225</div></div>
 <div class="ttc" id="anamespace_acts_html_accbf0a2a5f699fb8704e1cc75aee2121"><div class="ttname"><a href="namespace_acts.html#accbf0a2a5f699fb8704e1cc75aee2121">Acts::overloaded</a></div><div class="ttdeci">overloaded(Ts...) -&gt; overloaded&lt; Ts... &gt;</div><div class="ttdoc">Deduction guide for overloaded visitor pattern.</div></div>
 <div class="ttc" id="anamespace_acts_html_af63cae486ae37da877b7ec92f7a74f1e"><div class="ttname"><a href="namespace_acts.html#af63cae486ae37da877b7ec92f7a74f1e">Acts::toArray</a></div><div class="ttdeci">std::array&lt; value_t, kDIM &gt; toArray(const std::vector&lt; value_t &gt; &amp;vecvals)</div><div class="ttdoc">Converts a vector to a fixed-size array with truncating or padding.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:90</div></div>
 <div class="ttc" id="anamespace_acts_html_af643ac54ae22c8fa907f52f4af9ca248"><div class="ttname"><a href="namespace_acts.html#af643ac54ae22c8fa907f52f4af9ca248">Acts::unpackConstSmartPointers</a></div><div class="ttdeci">std::vector&lt; std::add_pointer_t&lt; std::add_const_t&lt; typename T::element_type &gt; &gt; &gt; unpackConstSmartPointers(const std::vector&lt; T &gt; &amp;items)</div><div class="ttdoc">Helper function to unpack a vector of smart pointers (e.g.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:34</div></div>
-<div class="ttc" id="astruct_acts_1_1overloaded_html"><div class="ttname"><a href="struct_acts_1_1overloaded.html">Acts::overloaded</a></div><div class="ttdoc">Helper struct that can turn a set of lambdas into a single entity with overloaded call operator.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:239</div></div>
+<div class="ttc" id="astruct_acts_1_1overloaded_html"><div class="ttname"><a href="struct_acts_1_1overloaded.html">Acts::overloaded</a></div><div class="ttdoc">Helper struct that can turn a set of lambdas into a single entity with overloaded call operator.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:254</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

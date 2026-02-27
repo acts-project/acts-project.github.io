@@ -2399,6 +2399,9 @@ template&lt;class... Ts&gt; </td></tr>
 <tr class="memitem:a65c77310254a757a6edcb57a670d058c" id="r_a65c77310254a757a6edcb57a670d058c"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a65c77310254a757a6edcb57a670d058c template"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; typename T::value_type, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c77310254a757a6edcb57a670d058c">range_medium</a> (const T &amp;tseries)</td></tr>
 <tr class="memdesc:a65c77310254a757a6edcb57a670d058c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return range and medium of an unsorted numeric series.  <br /></td></tr>
+<tr class="memitem:a72cba4eb4917523213b4cc1c105c513d" id="r_a72cba4eb4917523213b4cc1c105c513d"><td class="memTemplParams" colspan="2">template&lt;typename R&gt; </td></tr>
+<tr class="memitem:a72cba4eb4917523213b4cc1c105c513d template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72cba4eb4917523213b4cc1c105c513d">rangeContainsSubstring</a> (const R &amp;range, std::string_view value)</td></tr>
+<tr class="memdesc:a72cba4eb4917523213b4cc1c105c513d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function checks if at least one string from a given range is contained within a specified string (value).  <br /></td></tr>
 <tr class="memitem:ac6d9beca13049b91d5c9e5991f60532d" id="r_ac6d9beca13049b91d5c9e5991f60532d"><td class="memTemplParams" colspan="2">template&lt;typename R, typename T&gt; </td></tr>
 <tr class="memitem:ac6d9beca13049b91d5c9e5991f60532d template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d9beca13049b91d5c9e5991f60532d">rangeContainsValue</a> (const R &amp;range, const T &amp;value)</td></tr>
 <tr class="memdesc:ac6d9beca13049b91d5c9e5991f60532d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be replaced with C++23 to use the std::ranges::contains method.  <br /></td></tr>
@@ -9916,6 +9919,45 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>[ range, medium ] in an tuple </dd></dl>
+
+</div>
+</div>
+<a id="a72cba4eb4917523213b4cc1c105c513d" name="a72cba4eb4917523213b4cc1c105c513d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72cba4eb4917523213b4cc1c105c513d">&#9670;&#160;</a></span>rangeContainsSubstring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename R&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::rangeContainsSubstring </td>
+          <td>(</td>
+          <td class="paramtype">const R &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function checks if at least one string from a given range is contained within a specified string (value). </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>The type of the range (e.g., vector&lt;string&gt;, list&lt;string&gt;, array&lt;string&gt;). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range</td><td>The range to search within. </td></tr>
+    <tr><td class="paramname">value</td><td>The string in which we search for substrings from the range</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><span class="tt">true</span> if a such a string in range is found, <span class="tt">false</span> otherwise. </dd></dl>
 
 </div>
 </div>
