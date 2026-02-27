@@ -177,6 +177,11 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_device.html#accc360d8927adc93ed85ecbae8680e62":[5,9,6,2,1],
 "struct_acts_plugins_1_1_device.html#ae38ca3263b27d84b76c3170a93eb9fc0":[5,9,6,2,2],
 "struct_acts_plugins_1_1_device.html#afe74d25b11d7a9544bf8fe22bfcc7739":[5,9,6,2,6],
+"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html":[8,0,2,1,0],
+"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a70ccb78643053e89aaf08343bd0aa3dc":[8,0,2,1,0,0],
+"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#a871ddbb7a9df808892937857ccfd6921":[8,0,2,1,0,3],
+"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#aa320baebfe8d952db3b6f6940c3f8af9":[8,0,2,1,0,2],
+"struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html#ad4da5f8e770ac05c265ceebf36394a74":[8,0,2,1,0,1],
 "struct_acts_plugins_1_1_execution_context.html":[5,9,6,4],
 "struct_acts_plugins_1_1_execution_context.html#a315c096d44dc0c1f3a76d795134fac4b":[5,9,6,4,0],
 "struct_acts_plugins_1_1_execution_context.html#a56bc994dcfc774112612e334ecbcf7d5":[5,9,6,4,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,2,2,0],
 "struct_acts_plugins_1_1_geant4_shape_converter.html":[5,9,7,5],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a015fb69d8527053be5599230181d7ae2":[5,9,7,5,2],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,9,7,5,0],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a179061b20780527ad4277a0c5e6c39f2":[5,9,7,5,8],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a5fad34fff7ef9d3cb6ba8add66a56a32":[5,9,7,5,6],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a7e330333bee06083c59b7641eeb59096":[5,9,7,5,1],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#aaf8b9aa81ba26700b285afb4498e68d7":[5,9,7,5,4],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#abf16a11661c56c0a05b1f3c2c99ef1d3":[5,9,7,5,3]
+"struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,9,7,5,0]
 };

@@ -660,6 +660,7 @@ var annotated_dup =
         [ "Cache", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache" ]
       ] ],
       [ "EDM4hepUtil", null, [
+        [ "MeasurementData", "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html", "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data" ],
         [ "SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association" ]
       ] ],
       [ "Geant4PhysicalVolumeSelectors", null, [

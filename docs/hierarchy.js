@@ -994,6 +994,7 @@ var hierarchy =
       [ "ActsPlugins::TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html", null ],
       [ "ActsPlugins::TorchEdgeClassifier", "class_acts_plugins_1_1_torch_edge_classifier.html", null ]
     ] ],
+    [ "ActsPlugins::EDM4hepUtil::MeasurementData", "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html", null ],
     [ "ActsPlugins::EDM4hepUtil::SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", null ],
     [ "ActsPlugins::ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", null ],
     [ "ActsPlugins::FpeMonitor", "class_acts_plugins_1_1_fpe_monitor.html", null ],

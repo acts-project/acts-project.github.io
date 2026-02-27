@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_plugins_1_1_root_material_track_io.html" target="_top" xlink:title="Simple payload class that can be wrapped for reading and writing.">
+<g id="a_Node000000"><a xlink:href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html" target="_top" xlink:title="Options for writing the material maps Folder names are optional as it allows to write more maps into ...">
 <polygon fill="white" stroke="#666666" points="142,-30 0,-30 0,0 142,0 142,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">ActsPlugins::RootMaterial</text>
-<text text-anchor="middle" x="71" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TrackIo</text>
+<text text-anchor="middle" x="71" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">MapIo::Options</text>
 </a>
 </g>
 </g>
