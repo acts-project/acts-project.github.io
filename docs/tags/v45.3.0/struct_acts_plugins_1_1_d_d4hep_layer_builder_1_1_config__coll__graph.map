@@ -1,0 +1,15 @@
+<map id="ActsPlugins::DD4hepLayerBuilder::Config" name="ActsPlugins::DD4hepLayerBuilder::Config">
+<area shape="rect" id="Node000001" title="nested configuration struct for steering of the layer builder" alt="" coords="759,61,952,101"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="449,13,536,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="550,29,735,53,764,59,763,64,734,59,550,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,153,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,23,449,23,449,28,168,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="408,63,577,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="591,80,758,79,758,84,591,85"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,70,163,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,80,408,80,408,85,177,85"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="415,155,570,195"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="584,172,658,165,734,148,784,126,826,99,829,104,786,130,736,153,659,170,585,177"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="19,162,149,187"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="162,172,415,172,415,177,162,177"/>
+</map>

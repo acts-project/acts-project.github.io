@@ -1,0 +1,9 @@
+<map id="Acts::IndexedMaterialAccessor" name="Acts::IndexedMaterialAccessor">
+<area shape="rect" id="Node000001" title="This is an accessor for cases where the material is filled in a vector and then indexed by the grid." alt="" coords="55,212,277,237"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_i_grid_material_accessor.html" title="Base class for material accessors, this is needed for the I/O of the different grid material types,..." alt="" coords="5,109,207,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,144,161,211,157,213,117,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="231,101,373,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,152,183,214,180,210,264,147"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="237,5,367,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="305,45,305,101,299,101,299,45"/>
+</map>
