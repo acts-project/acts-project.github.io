@@ -2553,6 +2553,9 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:ad010dd74247d5542680768a03ce1fd08 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad010dd74247d5542680768a03ce1fd08">trimTrackFront</a> (track_proxy_t track, bool trimHoles, bool trimOutliers, bool trimMaterial, bool trimOtherNoneMeasurement)</td></tr>
 <tr class="memdesc:ad010dd74247d5542680768a03ce1fd08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to trim track states from the front of a track.  <br /></td></tr>
+<tr class="memitem:a4ee23dcf438670c3bb2876d1cd0d2181" id="r_a4ee23dcf438670c3bb2876d1cd0d2181"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a4ee23dcf438670c3bb2876d1cd0d2181 template"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee23dcf438670c3bb2876d1cd0d2181">typeHash</a> ()</td></tr>
+<tr class="memdesc:a4ee23dcf438670c3bb2876d1cd0d2181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hash for a type.  <br /></td></tr>
 <tr class="memitem:af643ac54ae22c8fa907f52f4af9ca248" id="r_af643ac54ae22c8fa907f52f4af9ca248"><td class="memTemplParams" colspan="2">template&lt;SmartPointerConcept T&gt; </td></tr>
 <tr class="memitem:af643ac54ae22c8fa907f52f4af9ca248 template"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::add_pointer_t&lt; std::add_const_t&lt; typename T::element_type &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af643ac54ae22c8fa907f52f4af9ca248">unpackConstSmartPointers</a> (const std::vector&lt; T &gt; &amp;items)</td></tr>
 <tr class="memdesc:af643ac54ae22c8fa907f52f4af9ca248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to unpack a vector of smart pointers (e.g.  <br /></td></tr>
@@ -11348,6 +11351,34 @@ requires (!track_proxy_t::ReadOnly)</div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4ee23dcf438670c3bb2876d1cd0d2181" name="a4ee23dcf438670c3bb2876d1cd0d2181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee23dcf438670c3bb2876d1cd0d2181">&#9670;&#160;</a></span>typeHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint64_t Acts::typeHash </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hash for a type. </p>
+<p>Since it's not possible to hash a type at compile-time, this function returns a runtime hash but caches it in a static variable. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type to hash </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Hashed string representation </dd></dl>
 
 </div>
 </div>

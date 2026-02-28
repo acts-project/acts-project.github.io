@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_value_holder.html":[6,0,0,441],
 "struct_acts_1_1_value_holder.html":[8,0,0,448],
 "struct_acts_1_1_value_holder.html#a0216c3661d818d8a6c28e9557203ac65":[6,0,0,441,2],
 "struct_acts_1_1_value_holder.html#a0216c3661d818d8a6c28e9557203ac65":[8,0,0,448,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a80be30fe9aa7e931a6ef370eb1434199":[6,0,0,461,0,8],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a80be30fe9aa7e931a6ef370eb1434199":[8,0,0,468,0,8],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#aaf774dd4201c42669be5f6d8db744428":[6,0,0,461,0,9],
-"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#aaf774dd4201c42669be5f6d8db744428":[8,0,0,468,0,9],
-"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#abf83ca5d8c6087076bfb6c110d1cfb36":[6,0,0,461,0,10]
+"struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#aaf774dd4201c42669be5f6d8db744428":[8,0,0,468,0,9]
 };

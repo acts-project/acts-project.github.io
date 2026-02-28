@@ -1,9 +1,0 @@
-<map id="Acts::GridAccess::GlobalSubspace&lt; Args &gt;" name="Acts::GridAccess::GlobalSubspace&lt; Args &gt;">
-<area shape="rect" id="Node000001" title="A global (potentially casted) sub space of a global position." alt="" coords="29,232,209,272"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html" title="Interface class for owning delegate." alt="" coords="5,121,189,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,174,118,231,112,232,101,175"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="214,121,405,161"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,170,153,234,151,229,263,166"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="248,5,371,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="312,45,312,121,307,121,307,45"/>
-</map>
