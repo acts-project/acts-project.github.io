@@ -575,8 +575,14 @@ template&lt;typename entity_t, typename value_t, std::size_t DIM&gt; </div>
 </div><div class="memdoc">
 
 <p>Implements the slab method for Ray/AABB intersections. </p>
-<p>See <a href="https://tavianator.com/fast-branchless-raybounding-box-intersections/">https://tavianator.com/fast-branchless-raybounding-box-intersections/</a>, <a href="https://tavianator.com/fast-branchless-raybounding-box-intersections-part-2-nans/">https://tavianator.com/fast-branchless-raybounding-box-intersections-part-2-nans/</a>, <a href="https://medium.com/@bromanz/another-view-on-the-classic-ray-aabb-intersection-algorithm-for-bvh-traversal-41125138b525">https://medium.com/@bromanz/another-view-on-the-classic-ray-aabb-intersection-algorithm-for-bvh-traversal-41125138b525</a> The original algorithms is described in "Graphics Gems (1990)" [1] (<a href="https://doi.org/10.1016/B978-0-08-050753-8.50084-X">https://doi.org/10.1016/B978-0-08-050753-8.50084-X</a>)</p>
-<dl class="section note"><dt>Note</dt><dd>This implementation may treat parallel rays on any of the slabs as <b>outside</b> due to how <code>NaNs</code> are handled by Eigen. See <a href="https://eigen.tuxfamily.org/bz/show_bug.cgi?id=564">https://eigen.tuxfamily.org/bz/show_bug.cgi?id=564</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://tavianator.com/2011/ray_box.html">https://tavianator.com/2011/ray_box.html</a> </dd>
+<dd>
+<a href="https://tavianator.com/2015/ray_box_nan.html">https://tavianator.com/2015/ray_box_nan.html</a> </dd>
+<dd>
+<a href="https://medium.com/@bromanz/another-view-on-the-classic-ray-aabb-intersection-algorithm-for-bvh-traversal-41125138b525">https://medium.com/@bromanz/another-view-on-the-classic-ray-aabb-intersection-algorithm-for-bvh-traversal-41125138b525</a> </dd>
+<dd>
+The original algorithm is described in "Graphics Gems (1990)" <a class="el" href="citelist.html#CITEREF_graphicsgems1990">[7]</a></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This implementation may treat parallel rays on any of the slabs as <b>outside</b> due to how <code>NaNs</code> are handled by Eigen. See <a href="https://eigen.tuxfamily.org/bz/show_bug.cgi?id=564">this issue</a>. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ray</td><td>The ray to intersect with </td></tr>

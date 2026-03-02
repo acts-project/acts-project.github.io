@@ -143,19 +143,19 @@ Prerequisites</h1>
 </ul>
 <p>The following dependencies are optional and are needed to build additional components:</p>
 <ul>
-<li><a href="https://developer.nvidia.com/cuda-zone">CUDA</a> for the CUDA plugin and the GNN plugin and its examples</li>
+<li><a href="https://developer.nvidia.com/cuda">CUDA</a> for the CUDA plugin and the GNN plugin and its examples</li>
 <li><a href="http://dd4hep.cern.ch">DD4hep</a> &gt;= 1.11 for the DD4hep plugin and some examples</li>
 <li><a href="http://doxygen.org">Doxygen</a> &gt;= 1.8.15 for the documentation</li>
 <li><a href="https://geant4.org/">Geant4</a> for some examples</li>
 <li><a href="https://gitlab.cern.ch/hepmc/HepMC3">HepMC</a> &gt;= 3.2.1 for some examples</li>
-<li><a href="https://github.com/oneapi-src/oneTBB">Intel Threading Building Blocks</a> &gt;= 2020.1 for the examples</li>
+<li><a href="https://github.com/uxlfoundation/oneTBB">Intel Threading Building Blocks</a> &gt;= 2020.1 for the examples</li>
 <li><a href="https://onnxruntime.ai/">ONNX Runtime</a> &gt;= 1.12.0 for the ONNX plugin, the GNN plugin and some examples</li>
 <li><a href="https://pythia.org">Pythia8</a> for some examples</li>
 <li><a href="https://root.cern.ch">ROOT</a> &gt;= 6.20 for the ROOT plugin and the examples</li>
-<li><a href="https://www.sphinx-doc.org">Sphinx</a> &gt;= 2.0 with <a href="https://breathe.readthedocs.io/en/latest/">Breathe</a>, <a href="https://exhale.readthedocs.io/en/latest/">Exhale</a>, and <a href="https://recommonmark.readthedocs.io/en/latest/index.html">recommonmark</a> extensions for the documentation</li>
-<li><a href="https://pytorch.org/cppdocs/installing.html">libtorch</a> for the GNN plugin</li>
+<li><a href="https://www.graphviz.org/">Graphviz</a> for class diagrams and other graphs in the documentation</li>
+<li><a href="https://docs.pytorch.org/cppdocs/installing.html">libtorch</a> for the GNN plugin</li>
 <li><a href="https://github.com/pybind/pybind11">Pybind11</a> for the Python bindings of the examples</li>
-<li><a href="http://fastjet.fr/">FastJet</a> &gt;= 3.4.0 for the FastJet plugin</li>
+<li><a href="https://fastjet.fr/">FastJet</a> &gt;= 3.4.0 for the FastJet plugin</li>
 </ul>
 <p>There are some additional dependencies that are automatically provided as part of the build system. These are usually not available through the system package manager and can be found in the <span class="tt">thirdparty</span> directory.</p>
 <p>All external dependencies must be provided prior to building ACTS. Compatible versions of all dependencies are provided e.g. by the <a href="https://lcginfo.cern.ch/">LCG releases</a> starting from <a href="https://lcginfo.cern.ch/release/102b/">LCG 102b</a>. For convenience, it is possible to build the required boost and eigen3 dependencies using the ACTS build system; see <a class="el" href="#build-options">Build options</a>. Other options are also available and are discussed in the <a class="el" href="#building-acts">Building ACTS</a> section.</p>
@@ -210,21 +210,20 @@ On your local machine</h2>
 <p>Building and running ACTS on your local machine is not officially supported. However, if you have the necessary prerequisites installed it is possible to use it locally. ACTS developers regularly use different Linux distributions and macOS to build and develop ACTS. It is possible to use Spack to more easily install ACTS' dependencies; see the <a class="el" href="howto_spack.html">building with Spack</a> page for more information.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Building the documentation</h1>
-<p>The documentation uses <a href="https://doxygen.nl/">Doxygen</a> to extract the source code documentation and <a href="https://www.sphinx-doc.org">Sphinx</a> with the <a href="https://breathe.readthedocs.io">Breathe</a> extension to generate the documentation website. To build the documentation locally, you need to have <a href="https://doxygen.nl/">Doxygen</a> version <span class="tt">1.9.5</span> or newer installed. <a href="https://www.sphinx-doc.org">Sphinx</a> and a few other dependencies can be installed using the Python package manager <span class="tt">pip</span>:</p>
-<div class="fragment"><div class="line">cd &lt;source&gt;</div>
-<div class="line">pip install -r docs/requirements.txt</div>
-</div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd>It is <b>strongly recommended</b> to use a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual &gt;environment</a> for &gt;this purpose! For example, run <br  />
-<br  />
- <div class="fragment"><div class="line">python -m venv docvenv</div>
-<div class="line">source docvenv/bin/activate</div>
-</div><!-- fragment --> <br  />
-<br  />
- to create a local virtual environment, and then run the <span class="tt">pip</span> command above.</dd></dl>
-<p>To activate the documentation build targets, the <span class="tt">ACTS_BUILD_DOCS</span> option has to be set</p>
+<p>The documentation is built using <a href="https://doxygen.nl/">Doxygen</a>, which extracts the source code documentation and generates the HTML website. The build uses the <a href="https://github.com/jothepro/doxygen-awesome-css">doxygen-awesome-css</a> theme for styling.</p>
+<p>To build the documentation locally, you need:</p>
+<ul>
+<li><a href="https://doxygen.nl/">Doxygen</a> version 1.9.4 or newer</li>
+<li><a href="https://www.graphviz.org/">Graphviz</a> for class diagrams and other graphs</li>
+</ul>
+<p>Configure the build with the <span class="tt">ACTS_BUILD_DOCS</span> option enabled:</p>
 <div class="fragment"><div class="line">cmake -B &lt;build&gt; -S &lt;source&gt; -DACTS_BUILD_DOCS=on</div>
-</div><!-- fragment --><p>Then the documentation can be build with this target</p>
+</div><!-- fragment --><p>Then build the documentation:</p>
 <div class="fragment"><div class="line">cmake --build &lt;build&gt; --target docs</div>
-</div><!-- fragment --><p>The default option includes the Doxygen, Sphinx, and the Breathe extension, i.e. the source code information can be used in the manually written documentation. An attempt is made to pull in symbols that are cross-referenced from other parts of the documentation. This is not guaranteed to work: in case of errors you will need to manually pull in symbols to be documented.</p>
+</div><!-- fragment --><p>The generated HTML documentation will be in <span class="tt">&lt;build&gt;/docs/html/</span>. Open <span class="tt">&lt;build&gt;/docs/html/index.html</span> in a browser to view it.</p>
+<p>For a live preview with automatic rebuilds when files change, you can use the <span class="tt">serve.py</span> script (requires Python 3.11+ with <a href="https://docs.astral.sh/uv/">uv</a> or the typer, rich, and livereload packages):</p>
+<div class="fragment"><div class="line">uv run docs/serve.py --build-dir &lt;build&gt;</div>
+</div><!-- fragment --><p>If your build directory is <span class="tt">build</span>, you can omit the <span class="tt">--build-dir</span> option. This serves the documentation at <a href="http://localhost:8000">http://localhost:8000</a> and rebuilds when you edit source files or documentation.</p>
 <h1 class="doxsection"><a class="anchor" id="build-options"></a>
 Build options</h1>
 <p>CMake options can be set by adding <span class="tt">-D&lt;OPTION&gt;=&lt;VALUE&gt;</span> to the configuration command. The following command would e.g. enable the unit tests</p>

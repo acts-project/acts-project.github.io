@@ -146,8 +146,11 @@ Architecture</h3>
 <div class="line"><span class="comment">// ...</span></div>
 <div class="line"><span class="keyword">auto</span> constTrackContainer = <span class="comment">/*...*/</span>;</div>
 <div class="line"><span class="keyword">auto</span> trackProxy = trackContainer.getTrack(5); <span class="comment">// is const, even as an lvalue</span></div>
-</div><!-- fragment --><p><img src="edm/proxy.png" alt="Illustration of the proxy pattern used in the track EDM. The track proxy logically represents a single track, and points to the data stored in the track container." class="inline"/></p>
-<p>The track EDM is fully agnostic to the concrete persistency framework of an experiment. This avoids having to convert the data between different representations, if implemented correctly.</p>
+</div><!-- fragment --><div class="image">
+<object type="image/svg+xml" data="proxy.svg" style="pointer-events: none;"></object>
+<div class="caption">
+Illustration of the proxy pattern used in the track EDM. The track proxy logically represents a single track, and points to the data stored in the track container.</div></div>
+    <p>The track EDM is fully agnostic to the concrete persistency framework of an experiment. This avoids having to convert the data between different representations, if implemented correctly.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
 Implementation</h3>
 <p>To make the EDM implementation independent of an experiment persistency framework, it is separated into a <em>frontend layer</em> and a <em>backend layer</em>. The frontend layer contains user-facing getters and setters, as well as convenience methods that can be helpful. These methods are located either in the proxy objects or in the containers, depending on whether they operate on a single element or the entire container.</p>
