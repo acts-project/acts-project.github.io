@@ -2390,6 +2390,9 @@ template&lt;class... Ts&gt; </td></tr>
 <tr class="memitem:a5f8134aad04c378ce314dd9e115f3c17" id="r_a5f8134aad04c378ce314dd9e115f3c17"><td class="memTemplParams" colspan="2">template&lt;typename T, std::integral P&gt; </td></tr>
 <tr class="memitem:a5f8134aad04c378ce314dd9e115f3c17 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8134aad04c378ce314dd9e115f3c17">pow</a> (T x, P p)</td></tr>
 <tr class="memdesc:a5f8134aad04c378ce314dd9e115f3c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the ordinary power of the number x.  <br /></td></tr>
+<tr class="memitem:a455209e19197f5b42e94db950a5f6d37" id="r_a455209e19197f5b42e94db950a5f6d37"><td class="memTemplParams" colspan="2">template&lt;int n&gt; </td></tr>
+<tr class="memitem:a455209e19197f5b42e94db950a5f6d37 template"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455209e19197f5b42e94db950a5f6d37">printEigenDecomposition</a> (const <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; n &gt; &amp;mat)</td></tr>
+<tr class="memdesc:a455209e19197f5b42e94db950a5f6d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the eigen decomposition of a symmetric matrix in terms of eigen values and eigen vectors.  <br /></td></tr>
 <tr class="memitem:accac06e45217490944ef25a4b63f1539" id="r_accac06e45217490944ef25a4b63f1539"><td class="memTemplParams" colspan="2">template&lt;std::unsigned_integral T&gt; </td></tr>
 <tr class="memitem:accac06e45217490944ef25a4b63f1539 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accac06e45217490944ef25a4b63f1539">product</a> (const T lowerN, const T upperN)</td></tr>
 <tr class="memdesc:accac06e45217490944ef25a4b63f1539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the product of all integers within the given integer range (nLower)(nLower+1)(...)(upper-1)(upper) If lowerN is bigger than upperN, the function returns one.  <br /></td></tr>
@@ -9812,6 +9815,34 @@ template&lt;typename T, std::integral P&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>x raised to the power p </dd></dl>
+
+</div>
+</div>
+<a id="a455209e19197f5b42e94db950a5f6d37" name="a455209e19197f5b42e94db950a5f6d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455209e19197f5b42e94db950a5f6d37">&#9670;&#160;</a></span>printEigenDecomposition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int n&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Acts::printEigenDecomposition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt; n &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>mat</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the eigen decomposition of a symmetric matrix in terms of eigen values and eigen vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>Matrix which is to be decomposed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: The string containing the eigen decomposition </dd></dl>
 
 </div>
 </div>

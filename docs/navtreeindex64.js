@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_point_like_process.html":[8,0,1,32],
 "struct_acts_fatras_1_1_point_like_process.html#a09cda5240510675a745c70f541d65bcc":[6,0,2,31,0],
 "struct_acts_fatras_1_1_point_like_process.html#a09cda5240510675a745c70f541d65bcc":[8,0,1,32,0],
 "struct_acts_fatras_1_1_point_like_process.html#a756a44d8ffac97fba1b1b8b1684f9ed8":[6,0,2,31,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[8,0,2,2,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[8,0,2,2,2,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[8,0,2,2,2,1],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,2,2,0],
-"struct_acts_plugins_1_1_geant4_shape_converter.html":[5,9,7,5]
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,2,2,0]
 };

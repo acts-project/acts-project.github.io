@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#adab513d8310f3c678912fedd080c892d":[5,11,6,1],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#ae55cb7107ba2ff7e36325c074304c037":[5,11,6,8],
 "struct_acts_1_1_experimental_1_1_gx2f_system.html":[5,11,7],
 "struct_acts_1_1_experimental_1_1_gx2f_system.html#a05c9946375dddaa77c84807f39ffcb8a":[5,11,7,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html":[8,0,0,5,0],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[6,0,0,2,0,2],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[8,0,0,5,0,2],
-"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[6,0,0,2,0,3],
-"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[8,0,0,5,0,3]
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[6,0,0,2,0,3]
 };
