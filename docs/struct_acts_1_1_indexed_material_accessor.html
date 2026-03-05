@@ -154,9 +154,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6a2e9b7e4a4f7a1f5fde76bbef36f93" id="r_ab6a2e9b7e4a4f7a1f5fde76bbef36f93"><td class="memTemplParams" colspan="2">template&lt;typename grid_type&gt; </td></tr>
 <tr class="memitem:ab6a2e9b7e4a4f7a1f5fde76bbef36f93 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6a2e9b7e4a4f7a1f5fde76bbef36f93">scale</a> (grid_type &amp;, double scale)</td></tr>
 <tr class="memdesc:ab6a2e9b7e4a4f7a1f5fde76bbef36f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale the material (by scaling the thickness).  <br /></td></tr>
-<tr class="memitem:a534cca4730e5e3050153bfe510563056" id="r_a534cca4730e5e3050153bfe510563056"><td class="memTemplParams" colspan="2">template&lt;typename grid_type&gt; </td></tr>
-<tr class="memitem:a534cca4730e5e3050153bfe510563056 template"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a534cca4730e5e3050153bfe510563056">slab</a> (const grid_type &amp;grid, const typename grid_type::point_t &amp;point) const</td></tr>
-<tr class="memdesc:a534cca4730e5e3050153bfe510563056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direct const access to the material slap sorted in the grid.  <br /></td></tr>
+<tr class="memitem:a67ebbd830f15321130511280fd5e02c1" id="r_a67ebbd830f15321130511280fd5e02c1"><td class="memTemplParams" colspan="2">template&lt;typename grid_type&gt; <br />
+requires (std::is_same_v&lt;typename grid_type::value_type, <a class="el" href="#af094f284dd83da1d2eb84cbb7c96680d">grid_value_type</a>&gt;)</td></tr>
+<tr class="memitem:a67ebbd830f15321130511280fd5e02c1 template"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67ebbd830f15321130511280fd5e02c1">slab</a> (const grid_type &amp;grid, const typename grid_type::point_t &amp;point) const</td></tr>
+<tr class="memdesc:a67ebbd830f15321130511280fd5e02c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direct const access to the material slap sorted in the grid.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -232,13 +233,14 @@ template&lt;typename grid_type&gt; </div>
 
 </div>
 </div>
-<a id="a534cca4730e5e3050153bfe510563056" name="a534cca4730e5e3050153bfe510563056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a534cca4730e5e3050153bfe510563056">&#9670;&#160;</a></span>slab()</h2>
+<a id="a67ebbd830f15321130511280fd5e02c1" name="a67ebbd830f15321130511280fd5e02c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ebbd830f15321130511280fd5e02c1">&#9670;&#160;</a></span>slab()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename grid_type&gt; </div>
+template&lt;typename grid_type&gt; <br />
+requires (std::is_same_v&lt;typename grid_type::value_type, <a class="el" href="#af094f284dd83da1d2eb84cbb7c96680d">grid_value_type</a>&gt;)</div>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp; Acts::IndexedMaterialAccessor::slab </td>

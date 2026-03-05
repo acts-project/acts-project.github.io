@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a650ab1678d1266f09d021327787d990c":[8,0,2,2,1,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[8,0,2,2,1,3],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#ade5b43f6428b3a01c67207575d4f1e49":[8,0,2,2,1,0],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[8,0,2,2,2],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[8,0,2,2,2,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[8,0,2,2,2,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,2,2,0],
 "struct_acts_plugins_1_1_geant4_shape_converter.html":[5,9,7,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952":[5,9,6,17,0,4],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aba7188d23a4425717cfcd77d8b128b60":[5,9,6,17,0,3],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad3d9b3eb45c5d293942df89182d3a625":[5,9,6,17,0,6],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46":[5,9,6,17,0,1],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd":[5,9,6,17,0,2],
-"todo.html":[11],
-"topics.html":[5],
-"tracking.html":[1],
-"versioning.html":[3]
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46":[5,9,6,17,0,1]
 };
