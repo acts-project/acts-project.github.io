@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html":[6,0,0,115,5],
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html":[8,0,0,122,5],
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[6,0,0,115,5,0],
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[8,0,0,122,5,0],
 "class_acts_1_1_dummy_vertex_fitter.html":[6,0,0,116],
 "class_acts_1_1_dummy_vertex_fitter.html":[8,0,0,123],
 "class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b":[6,0,0,116,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#abfe5da7116a2b347de4567bf02748015":[6,0,0,1,4,13],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#abfe5da7116a2b347de4567bf02748015":[8,0,0,2,4,13],
 "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac26a4ce886502ac6cde1b732a73bf416":[6,0,0,1,4,12],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac26a4ce886502ac6cde1b732a73bf416":[8,0,0,2,4,12],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac66d19cccb6c42a3a7c249bfc87d1642":[6,0,0,1,4,14],
-"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac66d19cccb6c42a3a7c249bfc87d1642":[8,0,0,2,4,14],
-"class_acts_1_1_experimental_1_1_container_blueprint_node.html":[6,0,0,1,5],
-"class_acts_1_1_experimental_1_1_container_blueprint_node.html":[8,0,0,2,5]
+"class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac26a4ce886502ac6cde1b732a73bf416":[8,0,0,2,4,12]
 };

@@ -224,8 +224,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000010" class="node">
 <title>Node10</title>
 <g id="a_Node000010"><a xlink:href="class_acts_1_1_any_base_all.html" target="_top" xlink:title="Base class for all instances of AnyBase regarfless of SBO size.">
-<polygon fill="white" stroke="#666666" points="135.5,-64 36.5,-64 36.5,-45 135.5,-45 135.5,-64"/>
-<text text-anchor="middle" x="86" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBaseAll</text>
+<polygon fill="white" stroke="#666666" points="135.5,-63 36.5,-63 36.5,-44 135.5,-44 135.5,-63"/>
+<text text-anchor="middle" x="86" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBaseAll</text>
 </a>
 </g>
 </g>
@@ -233,8 +233,8 @@ var sectionId = 'dynsection-0';
 <g id="edge9_Node000009_Node000010" class="edge">
 <title>Node10&#45;&gt;Node9</title>
 <g id="a_edge9_Node000009_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M146.01,-55.17C160.4,-55.31 175.75,-55.43 190,-55.5 369.11,-56.37 413.92,-58.7 593,-55.5 599.86,-55.38 607.03,-55.2 614.17,-54.99"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="145.76,-51.67 135.73,-55.07 145.69,-58.67 145.76,-51.67"/>
+<path fill="none" stroke="#63b8ff" d="M146.01,-54.1C160.4,-54.24 175.75,-54.38 190,-54.5 369.11,-55.99 413.94,-60.76 593,-56.5 599.86,-56.34 607.03,-56.1 614.17,-55.82"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="145.76,-50.6 135.73,-54 145.69,-57.6 145.76,-50.6"/>
 </a>
 </g>
 </g>
@@ -242,8 +242,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="class_acts_1_1_any_base.html" target="_top" xlink:title="Small opaque type&#45;erased type with configurable small buffer optimization.">
-<polygon fill="white" stroke="#666666" points="441.5,-41 310.5,-41 310.5,-22 441.5,-22 441.5,-41"/>
-<text text-anchor="middle" x="376" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; SIZE &gt;</text>
+<polygon fill="white" stroke="#666666" points="444.5,-42.5 307.5,-42.5 307.5,-12.5 444.5,-12.5 444.5,-42.5"/>
+<text text-anchor="start" x="315.5" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; sb_size,</text>
+<text text-anchor="middle" x="376" y="-19.5" font-family="Helvetica,sans-Serif" font-size="10.00"> copyable &gt;</text>
 </a>
 </g>
 </g>
@@ -251,8 +252,8 @@ var sectionId = 'dynsection-0';
 <g id="edge11_Node000011_Node000010" class="edge">
 <title>Node10&#45;&gt;Node11</title>
 <g id="a_edge11_Node000011_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M145.72,-49.81C193.53,-45.99 260.95,-40.61 310.3,-36.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="145.22,-46.34 135.53,-50.62 145.78,-53.32 145.22,-46.34"/>
+<path fill="none" stroke="#63b8ff" d="M145.53,-48.22C192.41,-43.98 258.23,-38.04 307.36,-33.61"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="145.17,-44.73 135.53,-49.12 145.8,-51.71 145.17,-44.73"/>
 </a>
 </g>
 </g>
@@ -260,11 +261,11 @@ var sectionId = 'dynsection-0';
 <g id="edge10_Node000009_Node000011" class="edge">
 <title>Node11&#45;&gt;Node9</title>
 <g id="a_edge10_Node000009_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M451.95,-31.49C493.59,-32.09 546.26,-33.87 593,-38.5 599.91,-39.19 607.12,-40.09 614.28,-41.11"/>
-<polygon fill="orange" stroke="orange" points="451.93,-27.99 441.89,-31.36 451.85,-34.99 451.93,-27.99"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M454.98,-29.99C496.11,-31.76 547.37,-34.71 593,-39.5 599.9,-40.22 607.09,-41.12 614.25,-42.1"/>
+<polygon fill="orange" stroke="orange" points="454.89,-26.48 444.75,-29.56 454.6,-33.47 454.89,-26.48"/>
 </a>
 </g>
-<text text-anchor="start" x="483.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; sizeof(char) *512 &gt;</text>
+<text text-anchor="start" x="483.5" y="-45" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; sizeof(char) *512 &gt;</text>
 </g>
 <!-- Node12 -->
 <g id="Node000012" class="node">

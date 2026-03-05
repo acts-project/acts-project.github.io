@@ -26,9 +26,10 @@ var hierarchy =
     [ "Acts::AnyBaseAll", "class_acts_1_1_any_base_all.html", [
       [ "Acts::AnyBase< ACTS_SOURCELINK_SBO_SIZE >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< sizeof(char) *512 >", "class_acts_1_1_any_base.html", null ],
-      [ "Acts::AnyBase< sizeof(void *)>", "class_acts_1_1_any_base.html", null ],
+      [ "Acts::AnyBase< sizeof(void *), true >", "class_acts_1_1_any_base.html", null ],
+      [ "Acts::AnyBase< sizeof(void *), false >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< 128 >", "class_acts_1_1_any_base.html", null ],
-      [ "Acts::AnyBase< SIZE >", "class_acts_1_1_any_base.html", null ]
+      [ "Acts::AnyBase< sb_size, copyable >", "class_acts_1_1_any_base.html", null ]
     ] ],
     [ "Acts::AnyCharge", "class_acts_1_1_any_charge.html", null ],
     [ "Acts::AnyGridConstView&lt; T &gt;", "class_acts_1_1_any_grid_const_view.html", null ],

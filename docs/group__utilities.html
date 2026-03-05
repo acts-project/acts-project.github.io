@@ -130,31 +130,51 @@ $(function(){initNavTree('group__utilities.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:Acts_3A_3AAnyBase_3C_20SIZE_20_3E" id="r_Acts_3A_3AAnyBase_3C_20SIZE_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase&lt; SIZE &gt;</a></td></tr>
+<tr class="memitem:Acts_3A_3AAnyBase_3C_20sb_5Fsize_2C_20copyable_20_3E" id="r_Acts_3A_3AAnyBase_3C_20sb_5Fsize_2C_20copyable_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase&lt; sb_size, copyable &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Small opaque type-erased type with configurable small buffer optimization.  <a href="class_acts_1_1_any_base.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3AAnyBaseAll" id="r_Acts_3A_3AAnyBaseAll"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_base_all.html">Acts::AnyBaseAll</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all instances of <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a> regarfless of SBO size.  <a href="class_acts_1_1_any_base_all.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gae6e6d5aeac9e4cb922c12f41d1f5529e" id="r_gae6e6d5aeac9e4cb922c12f41d1f5529e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae6e6d5aeac9e4cb922c12f41d1f5529e">Acts::Any</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*)&gt;</td></tr>
-<tr class="memdesc:gae6e6d5aeac9e4cb922c12f41d1f5529e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type-safe container for single values of any type.  <br /></td></tr>
+<tr class="memitem:gaaa8cfe1575a746b3f8bb992ef3cd442f" id="r_gaaa8cfe1575a746b3f8bb992ef3cd442f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa8cfe1575a746b3f8bb992ef3cd442f">Acts::Any</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*), true&gt;</td></tr>
+<tr class="memdesc:gaaa8cfe1575a746b3f8bb992ef3cd442f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type-safe container for single values of any type.  <br /></td></tr>
+<tr class="memitem:ga95bd44f0ea2109f98499eb1666cc836e" id="r_ga95bd44f0ea2109f98499eb1666cc836e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95bd44f0ea2109f98499eb1666cc836e">Acts::AnyMoveOnly</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*), false&gt;</td></tr>
+<tr class="memdesc:ga95bd44f0ea2109f98499eb1666cc836e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move-only variant that can store move-only types (e.g.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="gae6e6d5aeac9e4cb922c12f41d1f5529e" name="gae6e6d5aeac9e4cb922c12f41d1f5529e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae6e6d5aeac9e4cb922c12f41d1f5529e">&#9670;&#160;</a></span>Any</h2>
+<a id="gaaa8cfe1575a746b3f8bb992ef3cd442f" name="gaaa8cfe1575a746b3f8bb992ef3cd442f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa8cfe1575a746b3f8bb992ef3cd442f">&#9670;&#160;</a></span>Any</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#gae6e6d5aeac9e4cb922c12f41d1f5529e">Acts::Any</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*)&gt;</td>
+          <td class="memname">using <a class="el" href="#gaaa8cfe1575a746b3f8bb992ef3cd442f">Acts::Any</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*), true&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>A type-safe container for single values of any type. </p>
 <p>This is a custom implementation similar to <span class="tt">std::any</span> but optimized for small types that can fit into a pointer-sized buffer. Values larger than a pointer are stored on the heap. </p>
+
+</div>
+</div>
+<a id="ga95bd44f0ea2109f98499eb1666cc836e" name="ga95bd44f0ea2109f98499eb1666cc836e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95bd44f0ea2109f98499eb1666cc836e">&#9670;&#160;</a></span>AnyMoveOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga95bd44f0ea2109f98499eb1666cc836e">Acts::AnyMoveOnly</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*), false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move-only variant that can store move-only types (e.g. </p>
+<p>std::unique_ptr)</p>
+<p>Same as Any but copy constructor and copy assignment are deleted. Use when storing types that are not copyable. </p>
 
 </div>
 </div>

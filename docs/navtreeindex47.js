@@ -1,5 +1,10 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a7a6b41b2055d0b05b7fa89908c034672":[8,0,0,62,1,1],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html":[6,0,0,55,2],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html":[8,0,0,62,2],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#a6efeac7f1d5c324796812b51dd118aca":[6,0,0,55,2,0],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#a6efeac7f1d5c324796812b51dd118aca":[8,0,0,62,2,0],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#ac86262018841bc4130c1cb717d0ac647":[6,0,0,55,2,1],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#ac86262018841bc4130c1cb717d0ac647":[8,0,0,62,2,1],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#ae3362820c8755974dd027d1a327a2565":[6,0,0,55,2,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a46873728b95312a57cd4940cd218432e":[8,0,0,101,0,8],
 "struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a4f96534eaaaf180d6567a683cf55fce3":[6,0,0,94,0,9],
 "struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a4f96534eaaaf180d6567a683cf55fce3":[8,0,0,101,0,9],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a561748b6f9c0639695bd96a06d6184f5":[6,0,0,94,0,10],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a561748b6f9c0639695bd96a06d6184f5":[8,0,0,101,0,10],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a6116949e82f6f99fe9949684e7fcfcea":[6,0,0,94,0,2],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a6116949e82f6f99fe9949684e7fcfcea":[8,0,0,101,0,2],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a61e1d3e86002ece223af092a9f1ed496":[6,0,0,94,0,7],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a61e1d3e86002ece223af092a9f1ed496":[8,0,0,101,0,7]
+"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a561748b6f9c0639695bd96a06d6184f5":[6,0,0,94,0,10]
 };

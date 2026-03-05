@@ -1,5 +1,10 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_eigen_stepper_dense_extension.html#a95e4cccb41f8e8e2c6487f61e49f7a2b":[8,0,0,126,10],
+"struct_acts_1_1_eigen_stepper_dense_extension.html#a963dc87e2b008ffbe01503d62652b02f":[6,0,0,119,9],
+"struct_acts_1_1_eigen_stepper_dense_extension.html#a963dc87e2b008ffbe01503d62652b02f":[8,0,0,126,9],
+"struct_acts_1_1_eigen_stepper_dense_extension.html#aa75c7df01c5d39cf65c50c08bf3bf8dc":[6,0,0,119,1],
+"struct_acts_1_1_eigen_stepper_dense_extension.html#aa75c7df01c5d39cf65c50c08bf3bf8dc":[8,0,0,126,1],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#ab0e3dcfaf673c8d6c59286a583b3ff68":[6,0,0,119,2],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#ab0e3dcfaf673c8d6c59286a583b3ff68":[8,0,0,126,2],
 "struct_acts_1_1_eigen_stepper_dense_extension.html#ab4727c2e62837553180e1806a5f7ed1f":[6,0,0,119,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a5710a28bb4e26b67394091bff43febb5":[8,0,0,2,8,1,0],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a59dd5c2674ee96be2341d4ab6ac04d25":[6,0,0,1,8,1,11],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a59dd5c2674ee96be2341d4ab6ac04d25":[8,0,0,2,8,1,11],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a5a1c261f5fe563872ea8c6bf8f3e98d8":[6,0,0,1,8,1,4],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a5a1c261f5fe563872ea8c6bf8f3e98d8":[8,0,0,2,8,1,4],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a7f42c7fe4afe603dbf0858732197ad22":[6,0,0,1,8,1,2],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a7f42c7fe4afe603dbf0858732197ad22":[8,0,0,2,8,1,2],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a833d454a534cf15b8b25b5d8a2ccd139":[6,0,0,1,8,1,3],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a833d454a534cf15b8b25b5d8a2ccd139":[8,0,0,2,8,1,3]
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a5a1c261f5fe563872ea8c6bf8f3e98d8":[6,0,0,1,8,1,4]
 };

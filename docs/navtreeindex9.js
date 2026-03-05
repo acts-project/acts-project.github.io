@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"class_acts_1_1_disc_bounds.html":[6,0,0,109],
+"class_acts_1_1_disc_bounds.html":[8,0,0,116],
+"class_acts_1_1_disc_bounds.html#a085489eacbd6811f3b12bd818f567dd3":[6,0,0,109,5],
+"class_acts_1_1_disc_bounds.html#a085489eacbd6811f3b12bd818f567dd3":[8,0,0,116,5],
 "class_acts_1_1_disc_bounds.html#a08ae8d2beb9c29c15f61c0ba96fd94da":[6,0,0,109,6],
 "class_acts_1_1_disc_bounds.html#a08ae8d2beb9c29c15f61c0ba96fd94da":[8,0,0,116,6],
 "class_acts_1_1_disc_bounds.html#a2e2387e5471e066cc4eaa4a1bb593567":[6,0,0,109,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset.html":[6,0,0,115,4],
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset.html":[8,0,0,122,4],
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#af950a70a7896df13024cda7ba68a249d":[6,0,0,115,4,0],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#af950a70a7896df13024cda7ba68a249d":[8,0,0,122,4,0],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html":[6,0,0,115,5],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html":[8,0,0,122,5],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[6,0,0,115,5,0],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html#ae0054f5e0172be3ab12ab84a32157449":[8,0,0,122,5,0]
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#af950a70a7896df13024cda7ba68a249d":[8,0,0,122,4,0]
 };

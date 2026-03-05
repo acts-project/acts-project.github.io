@@ -1,13 +1,15 @@
-<map id="Acts::AnyBase&lt; SIZE &gt;" name="Acts::AnyBase&lt; SIZE &gt;">
-<area shape="rect" id="Node000001" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="187,121,361,146"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="592,17,791,57"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,112,345,95,385,80,491,56,591,42,592,47,492,61,386,85,347,100,312,116"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="607,81,776,121"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="375,123,606,105,607,110,375,128"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="607,145,776,185"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="356,145,386,149,501,158,606,162,606,167,501,163,385,155,355,151"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="607,210,776,235"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="307,151,344,171,386,188,442,202,500,211,606,220,606,225,499,216,441,207,385,193,342,176,305,156"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="5,121,137,146"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,131,187,131,187,136,151,136"/>
+<map id="Acts::AnyBase&lt; sb_size, copyable &gt;" name="Acts::AnyBase&lt; sb_size, copyable &gt;">
+<area shape="rect" id="Node000001" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="187,148,369,188"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="600,20,799,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,137,348,109,392,86,444,68,498,55,600,42,600,47,499,61,446,73,394,90,351,114,314,141"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="615,84,784,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="369,142,393,137,508,120,614,108,614,114,509,125,394,143,370,147"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="615,148,784,188"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="383,165,615,165,615,171,383,171"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="615,212,784,252"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="370,189,394,193,509,211,614,222,614,228,508,216,393,199,369,194"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="615,277,784,302"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="313,195,351,222,394,246,450,263,508,275,615,286,614,291,507,280,448,268,392,250,348,227,310,199"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="5,155,137,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,165,187,165,187,171,151,171"/>
 </map>

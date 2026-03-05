@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423":[5,9,7,4,0],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,2,0],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html#a8547f7fedd2d8d3f37f1b47a634a42e2":[8,0,2,2,0,0],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html":[8,0,2,2,1],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a3dc76c676d227e5be46c4653bf27fdcb":[8,0,2,2,1,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#a650ab1678d1266f09d021327787d990c":[8,0,2,2,1,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#aa40683e084309dba96a23210bbe55a6a":[8,0,2,2,1,3],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_name_selector.html#ade5b43f6428b3a01c67207575d4f1e49":[8,0,2,2,1,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835":[5,9,6,16,0,0],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html":[5,9,6,17,0],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a15ac654ce8bde97893fd3bfe9eedc1b2":[5,9,6,17,0,0],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998":[5,9,6,17,0,5],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a9ce9e6d34a76f7971c01bcd938110ecd":[5,9,6,17,0,7],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aad5017f4e550af46cfc538c2a0de4952":[5,9,6,17,0,4],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aba7188d23a4425717cfcd77d8b128b60":[5,9,6,17,0,3],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad3d9b3eb45c5d293942df89182d3a625":[5,9,6,17,0,6],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46":[5,9,6,17,0,1]
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998":[5,9,6,17,0,5]
 };
