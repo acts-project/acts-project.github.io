@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_polyhedron.html#a0508d64c486687fb4666cb4022b75389":[8,0,0,316,2],
+"struct_acts_1_1_polyhedron.html#a1bb7bfa193a480a15ed47b9e71b70200":[6,0,0,309,1],
 "struct_acts_1_1_polyhedron.html#a1bb7bfa193a480a15ed47b9e71b70200":[8,0,0,316,1],
 "struct_acts_1_1_polyhedron.html#a206860bd6e319f1f35b07d05ceb90e72":[6,0,0,309,3],
 "struct_acts_1_1_polyhedron.html#a206860bd6e319f1f35b07d05ceb90e72":[8,0,0,316,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a1e19293a76837c8cbce9b25df3ec5913":[8,0,0,351,1,9],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a3324b66034f4371502f9bb35944a9d3c":[6,0,0,344,1,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a3324b66034f4371502f9bb35944a9d3c":[8,0,0,351,1,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a46c5d796e1a965f56c180d9cc87f2240":[6,0,0,344,1,7],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a46c5d796e1a965f56c180d9cc87f2240":[8,0,0,351,1,7],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a6d9b83274055a5b5aab662dbcdf664a6":[6,0,0,344,1,4]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a46c5d796e1a965f56c180d9cc87f2240":[6,0,0,344,1,7]
 };

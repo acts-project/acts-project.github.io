@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[8,0,2,2,2,1],
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,2,2,0],
 "struct_acts_plugins_1_1_geant4_shape_converter.html":[5,9,7,5],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a015fb69d8527053be5599230181d7ae2":[5,9,7,5,2],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,9,7,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "todo.html":[11],
 "topics.html":[5],
 "tracking.html":[1],
-"versioning.html":[3],
-"":[6,0,0,3],
-"":[6,0,3,0]
+"versioning.html":[3]
 };

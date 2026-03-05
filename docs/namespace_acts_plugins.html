@@ -401,6 +401,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:aafbee9abd742ee35551c04421ce92d5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Histogram1 to ROOT TH1F.  <br /></td></tr>
 <tr class="memitem:a9dbaf86c9ff1a9d971ebe4d6dfe1e733" id="r_a9dbaf86c9ff1a9d971ebe4d6dfe1e733"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; TH2F &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dbaf86c9ff1a9d971ebe4d6dfe1e733">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b">Acts::Experimental::Histogram2</a> &amp;boostHist)</td></tr>
 <tr class="memdesc:a9dbaf86c9ff1a9d971ebe4d6dfe1e733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Histogram2 to ROOT TH2F.  <br /></td></tr>
+<tr class="memitem:a937cfa045100748431006cb044d5a9ed" id="r_a937cfa045100748431006cb044d5a9ed"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; TH3F &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a937cfa045100748431006cb044d5a9ed">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#adb2f348e5996f059013d8e63956bf13b">Acts::Experimental::Histogram3</a> &amp;boostHist)</td></tr>
+<tr class="memdesc:a937cfa045100748431006cb044d5a9ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Histogram3 to ROOT TH3F.  <br /></td></tr>
 <tr class="memitem:a84a3cf37c86e2fac7572ce0c8fb96baf" id="r_a84a3cf37c86e2fac7572ce0c8fb96baf"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; TProfile &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84a3cf37c86e2fac7572ce0c8fb96baf">toRoot</a> (const <a class="el" href="namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484">Acts::Experimental::ProfileHistogram1</a> &amp;boostProfile)</td></tr>
 <tr class="memdesc:a84a3cf37c86e2fac7572ce0c8fb96baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert ProfileHistogram1 to ROOT TProfile.  <br /></td></tr>
 <tr class="memitem:gab5ff22deaf2206ac743a1d6d1ebef441" id="r_gab5ff22deaf2206ac743a1d6d1ebef441"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_cylinder_volume_builder.html">Acts::CylinderVolumeBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441">volumeBuilder_dd4hep</a> (dd4hep::DetElement subDetector, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypePhi=Acts::equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeR=Acts::equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeZ=Acts::equidistant, double layerEnvelopeR=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double layerEnvelopeZ=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double defaultLayerThickness=<a class="el" href="namespace_acts_1_1_unit_constants.html#a7c3f2a3f53d19935e2967361613908ba">Acts::UnitConstants::fm</a>, const <a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#aaa79c778fa5d76b5e8be7e173320f814">DD4hepLayerBuilder::ElementFactory</a> &amp;detectorElementFactory=<a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a868244aba7e710c625b9ed534eed886e">DD4hepLayerBuilder::defaultDetectorElementFactory</a>)</td></tr>
@@ -441,7 +443,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af5ce6b7d9a68cece7e747f9753030831" name="af5ce6b7d9a68cece7e747f9753030831"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ce6b7d9a68cece7e747f9753030831">&#9670;&#160;</a></span>toRoot() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ce6b7d9a68cece7e747f9753030831">&#9670;&#160;</a></span>toRoot() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -463,12 +465,12 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TEfficiency (caller owns and must delete) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>unique pointer to new TEfficiency </dd></dl>
 
 </div>
 </div>
 <a id="adbf2696929f3ff34ce66755b356c1ee9" name="adbf2696929f3ff34ce66755b356c1ee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbf2696929f3ff34ce66755b356c1ee9">&#9670;&#160;</a></span>toRoot() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf2696929f3ff34ce66755b356c1ee9">&#9670;&#160;</a></span>toRoot() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,12 +492,12 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TEfficiency (caller owns and must delete) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>unique pointer to new TEfficiency </dd></dl>
 
 </div>
 </div>
 <a id="aafbee9abd742ee35551c04421ce92d5c" name="aafbee9abd742ee35551c04421ce92d5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafbee9abd742ee35551c04421ce92d5c">&#9670;&#160;</a></span>toRoot() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aafbee9abd742ee35551c04421ce92d5c">&#9670;&#160;</a></span>toRoot() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,12 +519,12 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TH1F (caller owns and must delete) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>unique pointer to new TH1F </dd></dl>
 
 </div>
 </div>
 <a id="a9dbaf86c9ff1a9d971ebe4d6dfe1e733" name="a9dbaf86c9ff1a9d971ebe4d6dfe1e733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dbaf86c9ff1a9d971ebe4d6dfe1e733">&#9670;&#160;</a></span>toRoot() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbaf86c9ff1a9d971ebe4d6dfe1e733">&#9670;&#160;</a></span>toRoot() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,12 +546,39 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TH2F (caller owns and must delete) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>unique pointer to new TH2F </dd></dl>
+
+</div>
+</div>
+<a id="a937cfa045100748431006cb044d5a9ed" name="a937cfa045100748431006cb044d5a9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937cfa045100748431006cb044d5a9ed">&#9670;&#160;</a></span>toRoot() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; TH3F &gt; ActsPlugins::toRoot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts_1_1_experimental.html#adb2f348e5996f059013d8e63956bf13b">Acts::Experimental::Histogram3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>boostHist</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert Histogram3 to ROOT TH3F. </p>
+<p>Creates a new ROOT TH3F histogram with the same binning, content, and errors as the input boost histogram.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boostHist</td><td>The boost 3D histogram to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unique pointer to new TH3F </dd></dl>
 
 </div>
 </div>
 <a id="a84a3cf37c86e2fac7572ce0c8fb96baf" name="a84a3cf37c86e2fac7572ce0c8fb96baf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84a3cf37c86e2fac7572ce0c8fb96baf">&#9670;&#160;</a></span>toRoot() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a3cf37c86e2fac7572ce0c8fb96baf">&#9670;&#160;</a></span>toRoot() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -571,7 +600,7 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Raw pointer to new TProfile (caller owns and must delete) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>unique pointer to new TProfile </dd></dl>
 
 </div>
 </div>

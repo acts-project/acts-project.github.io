@@ -55,6 +55,7 @@ var namespace_acts_1_1_experimental =
     [ "GbtsMlLookupTable", "namespace_acts_1_1_experimental.html#ae4d79088238e5447e4df0e2c6db58496", null ],
     [ "Histogram1", "namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc", null ],
     [ "Histogram2", "namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b", null ],
+    [ "Histogram3", "namespace_acts_1_1_experimental.html#adb2f348e5996f059013d8e63956bf13b", null ],
     [ "ProfileHistogram1", "namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484", null ],
     [ "GlobalChiSquareFitterError", "group__errors.html#ga743e4af777584b0f5274baa245f128d2", [
       [ "AIsNotInvertible", "group__errors.html#gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b", null ],

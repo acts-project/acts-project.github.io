@@ -133,6 +133,7 @@ var namespace_acts_plugins =
     [ "toRoot", "namespace_acts_plugins.html#adbf2696929f3ff34ce66755b356c1ee9", null ],
     [ "toRoot", "namespace_acts_plugins.html#aafbee9abd742ee35551c04421ce92d5c", null ],
     [ "toRoot", "namespace_acts_plugins.html#a9dbaf86c9ff1a9d971ebe4d6dfe1e733", null ],
+    [ "toRoot", "namespace_acts_plugins.html#a937cfa045100748431006cb044d5a9ed", null ],
     [ "toRoot", "namespace_acts_plugins.html#a84a3cf37c86e2fac7572ce0c8fb96baf", null ],
     [ "volumeBuilder_dd4hep", "group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441", null ],
     [ "allowedBinnings", "group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e", null ]
