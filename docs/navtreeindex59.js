@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_straight_line_stepper_1_1_config.html":[8,0,0,389,0],
 "struct_acts_1_1_straight_line_stepper_1_1_options.html":[6,0,0,382,1],
 "struct_acts_1_1_straight_line_stepper_1_1_options.html":[8,0,0,389,1],
 "struct_acts_1_1_straight_line_stepper_1_1_options.html#a6eda51e9eb17eb02f0eb3612446639b7":[6,0,0,382,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#aabc59289b4ec1b8de3e55335aab1713e":[8,0,0,404,1,4],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#ab590ac2fafee07b8ccb9e003c7c1529a":[6,0,0,397,1,3],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#ab590ac2fafee07b8ccb9e003c7c1529a":[8,0,0,404,1,3],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6":[6,0,0,397,1,0],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6":[8,0,0,404,1,0]
+"struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6":[6,0,0,397,1,0]
 };

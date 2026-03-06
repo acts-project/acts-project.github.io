@@ -2414,6 +2414,8 @@ template&lt;class... Ts&gt; </td></tr>
 <tr class="memdesc:ga5bdb130b59461a2bcaf2c18eee161341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Very simple mixture reduction method: Just removes the components with the smallest weight until the required number of components is reached.  <br /></td></tr>
 <tr class="memitem:ga2d42e87cd0bd4eb9a52fa04db44f033d" id="r_ga2d42e87cd0bd4eb9a52fa04db44f033d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d">reduceMixtureWithKLDistance</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;cmpCache, std::size_t maxCmpsAfterMerge, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:ga2d42e87cd0bd4eb9a52fa04db44f033d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greedy component reduction algorithm.  <br /></td></tr>
+<tr class="memitem:a049fcdc69095ebebfbd1d218df3c7c30" id="r_a049fcdc69095ebebfbd1d218df3c7c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a049fcdc69095ebebfbd1d218df3c7c30">reduceMixtureWithKLDistanceNaive</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;cmpCache, std::size_t maxCmpsAfterMerge, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
+<tr class="memdesc:a049fcdc69095ebebfbd1d218df3c7c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Naive implementation of component reduction with KL-distance.  <br /></td></tr>
 <tr class="memitem:a448dd6193a51777a8b7c05bb1a5630eb" id="r_a448dd6193a51777a8b7c05bb1a5630eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448dd6193a51777a8b7c05bb1a5630eb">reflectBoundParameters</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams)</td></tr>
 <tr class="memdesc:a448dd6193a51777a8b7c05bb1a5630eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reflect bound track parameters.  <br /></td></tr>
 <tr class="memitem:a13a84cd96d8549b4be2395a91041f6cf" id="r_a13a84cd96d8549b4be2395a91041f6cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13a84cd96d8549b4be2395a91041f6cf">reflectFreeParameters</a> (const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;freeParams)</td></tr>
@@ -10035,6 +10037,42 @@ template&lt;typename R, typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><span class="tt">true</span> if the value is found within the range, <span class="tt">false</span> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a049fcdc69095ebebfbd1d218df3c7c30" name="a049fcdc69095ebebfbd1d218df3c7c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a049fcdc69095ebebfbd1d218df3c7c30">&#9670;&#160;</a></span>reduceMixtureWithKLDistanceNaive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::reduceMixtureWithKLDistanceNaive </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cmpCache</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>maxCmpsAfterMerge</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Naive implementation of component reduction with KL-distance. </p>
+<p>Recomputes all distances in every iteration without any caching or optimization. This serves as a baseline for testing and benchmarking the optimized version. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cmpCache</td><td>the component collection </td></tr>
+    <tr><td class="paramname">maxCmpsAfterMerge</td><td>the number of components we want to reach </td></tr>
+    <tr><td class="paramname">surface</td><td>the surface type on which the components are </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

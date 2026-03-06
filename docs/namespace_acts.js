@@ -1103,6 +1103,7 @@ var namespace_acts =
     [ "rangeContainsValue", "namespace_acts.html#ac6d9beca13049b91d5c9e5991f60532d", null ],
     [ "reduceMixtureLargestWeights", "group__track__fitting.html#ga5bdb130b59461a2bcaf2c18eee161341", null ],
     [ "reduceMixtureWithKLDistance", "group__track__fitting.html#ga2d42e87cd0bd4eb9a52fa04db44f033d", null ],
+    [ "reduceMixtureWithKLDistanceNaive", "namespace_acts.html#a049fcdc69095ebebfbd1d218df3c7c30", null ],
     [ "reflectBoundParameters", "namespace_acts.html#a448dd6193a51777a8b7c05bb1a5630eb", null ],
     [ "reflectFreeParameters", "namespace_acts.html#a13a84cd96d8549b4be2395a91041f6cf", null ],
     [ "safeExp", "namespace_acts.html#ac74ee49f1e16ede102272f390974153b", null ],

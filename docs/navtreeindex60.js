@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6":[8,0,0,404,1,0],
 "struct_acts_1_1_surface_reached.html":[6,0,0,400],
 "struct_acts_1_1_surface_reached.html":[8,0,0,407],
 "struct_acts_1_1_surface_reached.html#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49":[6,0,0,400,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a19f61660080cb7e547b950bac485a745":[8,0,0,424,1,2],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a406efb625298a440a76d94d1a8349d43":[6,0,0,417,1,9],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a406efb625298a440a76d94d1a8349d43":[8,0,0,424,1,9],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a4f391d79327fcc6214ba57ac9cfd66ff":[6,0,0,417,1,13],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a4f391d79327fcc6214ba57ac9cfd66ff":[8,0,0,424,1,13]
+"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a4f391d79327fcc6214ba57ac9cfd66ff":[6,0,0,417,1,13]
 };

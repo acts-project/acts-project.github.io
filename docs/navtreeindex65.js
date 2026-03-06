@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a70216c0f1b077c56586d4111134b4336":[5,9,7,4,1],
 "struct_acts_plugins_1_1_geant4_physical_volume_converter.html#a8fd76a901060cfabb638bdd0d55df423":[5,9,7,4,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html":[8,0,2,2,0],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_all_selector.html#a8547f7fedd2d8d3f37f1b47a634a42e2":[8,0,2,2,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ad2197b8653339d7acf35d5e062d293ad":[5,9,6,16,0,5],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835":[5,9,6,16,0,0],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html":[5,9,6,17,0],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a15ac654ce8bde97893fd3bfe9eedc1b2":[5,9,6,17,0,0],
-"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a784c0c55a0a9f407c565e72b09297998":[5,9,6,17,0,5]
+"struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a15ac654ce8bde97893fd3bfe9eedc1b2":[5,9,6,17,0,0]
 };
