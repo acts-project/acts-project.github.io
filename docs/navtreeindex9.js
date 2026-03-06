@@ -248,6 +248,6 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_doublets_for_middle_sp_1_1_range.html#a437081a31539177d52f27984a5fa7af5":[8,0,0,122,3,0],
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset.html":[6,0,0,115,4],
 "class_acts_1_1_doublets_for_middle_sp_1_1_subset.html":[8,0,0,122,4],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#af950a70a7896df13024cda7ba68a249d":[6,0,0,115,4,0],
-"class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#af950a70a7896df13024cda7ba68a249d":[8,0,0,122,4,0]
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#a9c8376ed202f36bb6ed851d0f54d6ace":[6,0,0,115,4,0],
+"class_acts_1_1_doublets_for_middle_sp_1_1_subset.html#a9c8376ed202f36bb6ed851d0f54d6ace":[8,0,0,122,4,0]
 };
