@@ -6,6 +6,8 @@ var class_acts_1_1_experimental_1_1_material_designator_blueprint_node =
     [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#ac224a99cf317e08d2bcb1eb0cdbb2e49", null ],
     [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a5dfa24351558ffd4fa8d172149b46d99", null ],
     [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a20e3c3979578b64cd81d6aa084ff7166", null ],
+    [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#affee6bc0b882d19f74926bf928f71084", null ],
+    [ "configureFace", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a39abe6e9498c885e39b7d5f5a8f136db", null ],
     [ "connect", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a3e11728e8fc0edda54d89d94530f0b7a", null ],
     [ "finalize", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#ab74e445c558c7e9ff17ea9b397a1282b", null ],
     [ "name", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#a9888f21ff711da2d5c32bc2c3ef8b17b", null ],

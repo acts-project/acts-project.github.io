@@ -1948,7 +1948,7 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aee44b83052f88cd1f6fe38ad464439d0" id="r_aee44b83052f88cd1f6fe38ad464439d0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:aee44b83052f88cd1f6fe38ad464439d0 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee44b83052f88cd1f6fe38ad464439d0">abs</a> (const T n)</td></tr>
-<tr class="memdesc:aee44b83052f88cd1f6fe38ad464439d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute of a number (Can be removed for c++ 23).  <br /></td></tr>
+<tr class="memdesc:aee44b83052f88cd1f6fe38ad464439d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute of a number.  <br /></td></tr>
 <tr class="memitem:a9406e4270f8dd103fba42d4df59f73a7" id="r_a9406e4270f8dd103fba42d4df59f73a7"><td class="memItemLeft" align="right" valign="top"><a id="a9406e4270f8dd103fba42d4df59f73a7" name="a9406e4270f8dd103fba42d4df59f73a7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ACTS_DEFINE_ENUM_BITWISE_OPERATORS</b> (<a class="el" href="#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a>)</td></tr>
 <tr class="memdesc:a9406e4270f8dd103fba42d4df59f73a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable bitwise operators for MaterialUpdateMode enum. <br /></td></tr>
@@ -2069,7 +2069,7 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memdesc:a3dabf99c3b7798ef4ea7ec13c13c5795"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the core width of the projected planar scattering distribution.  <br /></td></tr>
 <tr class="memitem:a52e4326c57b1b3eadc5a72d2c774bd7e" id="r_a52e4326c57b1b3eadc5a72d2c774bd7e"><td class="memTemplParams" colspan="2">template&lt;typename out_t, typename sign_t&gt; </td></tr>
 <tr class="memitem:a52e4326c57b1b3eadc5a72d2c774bd7e template"><td class="memItemLeft" align="right" valign="top">constexpr out_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e4326c57b1b3eadc5a72d2c774bd7e">copySign</a> (const out_t &amp;copyTo, const sign_t &amp;sign)</td></tr>
-<tr class="memdesc:a52e4326c57b1b3eadc5a72d2c774bd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the sign of a signed variable onto the copyTo input object Return type &amp; magnitude remain unaffected by this method which allows usage for Vectors &amp; other types providing the - operator.  <br /></td></tr>
+<tr class="memdesc:a52e4326c57b1b3eadc5a72d2c774bd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the sign of a signed variable onto the copyTo input object.  <br /></td></tr>
 <tr class="memitem:a81d1bed89a2a799ac23081b1d1d57a73" id="r_a81d1bed89a2a799ac23081b1d1d57a73"><td class="memTemplParams" colspan="2">template&lt;typename InputVector&gt; </td></tr>
 <tr class="memitem:a81d1bed89a2a799ac23081b1d1d57a73 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d1bed89a2a799ac23081b1d1d57a73">createCurvilinearUnitU</a> (const Eigen::MatrixBase&lt; InputVector &gt; &amp;direction)</td></tr>
 <tr class="memdesc:a81d1bed89a2a799ac23081b1d1d57a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the first curvilinear unit vector <span class="tt">U</span> for the given direction.  <br /></td></tr>
@@ -2397,7 +2397,7 @@ template&lt;class... Ts&gt; </td></tr>
 <tr class="memdesc:a455209e19197f5b42e94db950a5f6d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the eigen decomposition of a symmetric matrix in terms of eigen values and eigen vectors.  <br /></td></tr>
 <tr class="memitem:accac06e45217490944ef25a4b63f1539" id="r_accac06e45217490944ef25a4b63f1539"><td class="memTemplParams" colspan="2">template&lt;std::unsigned_integral T&gt; </td></tr>
 <tr class="memitem:accac06e45217490944ef25a4b63f1539 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accac06e45217490944ef25a4b63f1539">product</a> (const T lowerN, const T upperN)</td></tr>
-<tr class="memdesc:accac06e45217490944ef25a4b63f1539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the product of all integers within the given integer range (nLower)(nLower+1)(...)(upper-1)(upper) If lowerN is bigger than upperN, the function returns one.  <br /></td></tr>
+<tr class="memdesc:accac06e45217490944ef25a4b63f1539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the product of all integers within the given integer range (nLower)(nLower+1)(...)(upper-1)(upper).  <br /></td></tr>
 <tr class="memitem:a0a9dad86571acffdac06f3af7087d27f" id="r_a0a9dad86571acffdac06f3af7087d27f"><td class="memTemplParams" colspan="2">template&lt;std::size_t kFullSize, typename Derived&gt; </td></tr>
 <tr class="memitem:a0a9dad86571acffdac06f3af7087d27f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt; kFullSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a9dad86571acffdac06f3af7087d27f">projectorToSubspaceIndices</a> (const Eigen::DenseBase&lt; Derived &gt; &amp;projector)</td></tr>
 <tr class="memdesc:a0a9dad86571acffdac06f3af7087d27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a projector to subspace indices.  <br /></td></tr>
@@ -3106,7 +3106,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 <div class="ttc" id="aclass_acts_1_1_append_only_navigation_stream_html"><div class="ttname"><a href="class_acts_1_1_append_only_navigation_stream.html">Acts::AppendOnlyNavigationStream</a></div><div class="ttdoc">Append-only helper to add candidates to a navigation stream.</div><div class="ttdef"><b>Definition</b> NavigationStream.hpp:156</div></div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
-<div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:698</div></div>
+<div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:696</div></div>
 <div class="ttc" id="aclass_acts_1_1_navigation_policy_state_html"><div class="ttname"><a href="class_acts_1_1_navigation_policy_state.html">Acts::NavigationPolicyState</a></div><div class="ttdoc">Wrapper class for a navigation policy state stored in the state manager.</div><div class="ttdef"><b>Definition</b> INavigationPolicy.hpp:31</div></div>
 <div class="ttc" id="astruct_acts_1_1_navigation_arguments_html"><div class="ttname"><a href="struct_acts_1_1_navigation_arguments.html">Acts::NavigationArguments</a></div><div class="ttdoc">Struct that serves as the argument to the navigation delegate.</div><div class="ttdef"><b>Definition</b> NavigationDelegate.hpp:25</div></div>
 </div><!-- fragment -->
@@ -4386,7 +4386,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the absolute of a number (Can be removed for c++ 23). </p>
+<p>Returns the absolute of a number. </p>
+<dl class="section note"><dt>Note</dt><dd>Can be removed for C++23 </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>The number to take absolute value of </td></tr>
@@ -6141,8 +6142,8 @@ template&lt;typename out_t, typename sign_t&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Copies the sign of a signed variable onto the copyTo input object Return type &amp; magnitude remain unaffected by this method which allows usage for Vectors &amp; other types providing the - operator. </p>
-<p>By convention, the zero is assigned to a positive sign. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Copies the sign of a signed variable onto the copyTo input object. </p>
+<p>Return type &amp; magnitude remain unaffected by this method which allows usage for Vectors &amp; other types providing the - operator. By convention, the zero is assigned to a positive sign. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">copyTo</td><td>Variable to which the sign is copied to. </td></tr>
     <tr><td class="paramname">sign</td><td>Variable from which the sign is taken. </td></tr>
@@ -9879,8 +9880,8 @@ template&lt;std::unsigned_integral T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Calculates the product of all integers within the given integer range (nLower)(nLower+1)(...)(upper-1)(upper) If lowerN is bigger than upperN, the function returns one. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Calculates the product of all integers within the given integer range (nLower)(nLower+1)(...)(upper-1)(upper). </p>
+<p>If lowerN is bigger than upperN, the function returns one. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">lowerN</td><td>Lower range of the product calculation </td></tr>
     <tr><td class="paramname">upperN</td><td>Upper range of the product calculation </td></tr>

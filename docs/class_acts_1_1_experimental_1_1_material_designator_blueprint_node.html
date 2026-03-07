@@ -155,6 +155,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5dfa24351558ffd4fa8d172149b46d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the designator with a cylinder face and corresponding binning information.  <br /></td></tr>
 <tr class="memitem:a20e3c3979578b64cd81d6aa084ff7166" id="r_a20e3c3979578b64cd81d6aa084ff7166"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20e3c3979578b64cd81d6aa084ff7166">configureFace</a> (<a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">CylinderVolumeBounds::Face</a> face, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; material)</td></tr>
 <tr class="memdesc:a20e3c3979578b64cd81d6aa084ff7166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the designator with a cylinder face and a homogeneous surface material.  <br /></td></tr>
+<tr class="memitem:affee6bc0b882d19f74926bf928f71084" id="r_affee6bc0b882d19f74926bf928f71084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affee6bc0b882d19f74926bf928f71084">configureFace</a> (<a class="el" href="class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41">DiamondVolumeBounds::Face</a> face, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; material)</td></tr>
+<tr class="memdesc:affee6bc0b882d19f74926bf928f71084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the designator with a diamond face and a homogeneous surface material.  <br /></td></tr>
+<tr class="memitem:a39abe6e9498c885e39b7d5f5a8f136db" id="r_a39abe6e9498c885e39b7d5f5a8f136db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39abe6e9498c885e39b7d5f5a8f136db">configureFace</a> (<a class="el" href="class_acts_1_1_trapezoid_volume_bounds.html#a37a239bc146009fe37f583174d13feeb">TrapezoidVolumeBounds::Face</a> face, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt; material)</td></tr>
+<tr class="memdesc:a39abe6e9498c885e39b7d5f5a8f136db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the designator with a trapezoidal face and a homogeneous surface material.  <br /></td></tr>
 <tr class="memitem:a3e11728e8fc0edda54d89d94530f0b7a" id="r_a3e11728e8fc0edda54d89d94530f0b7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_portal_shell_base.html">PortalShellBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e11728e8fc0edda54d89d94530f0b7a">connect</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_blueprint_options.html">BlueprintOptions</a> &amp;options, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()) override</td></tr>
 <tr class="memdesc:a3e11728e8fc0edda54d89d94530f0b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method participates in the geometry construction.  <br /></td></tr>
 <tr class="memitem:ab74e445c558c7e9ff17ea9b397a1282b" id="r_ab74e445c558c7e9ff17ea9b397a1282b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab74e445c558c7e9ff17ea9b397a1282b">finalize</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_blueprint_options.html">BlueprintOptions</a> &amp;options, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;parent, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) override</td></tr>
@@ -296,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a602ae3e542b9b775cd628e65e7f04250" name="a602ae3e542b9b775cd628e65e7f04250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a602ae3e542b9b775cd628e65e7f04250">&#9670;&#160;</a></span>configureFace() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a602ae3e542b9b775cd628e65e7f04250">&#9670;&#160;</a></span>configureFace() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ac224a99cf317e08d2bcb1eb0cdbb2e49" name="ac224a99cf317e08d2bcb1eb0cdbb2e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac224a99cf317e08d2bcb1eb0cdbb2e49">&#9670;&#160;</a></span>configureFace() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac224a99cf317e08d2bcb1eb0cdbb2e49">&#9670;&#160;</a></span>configureFace() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +371,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a5dfa24351558ffd4fa8d172149b46d99" name="a5dfa24351558ffd4fa8d172149b46d99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dfa24351558ffd4fa8d172149b46d99">&#9670;&#160;</a></span>configureFace() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dfa24351558ffd4fa8d172149b46d99">&#9670;&#160;</a></span>configureFace() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,7 +410,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a20e3c3979578b64cd81d6aa084ff7166" name="a20e3c3979578b64cd81d6aa084ff7166"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20e3c3979578b64cd81d6aa084ff7166">&#9670;&#160;</a></span>configureFace() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e3c3979578b64cd81d6aa084ff7166">&#9670;&#160;</a></span>configureFace() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -428,6 +432,70 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">face</td><td>The face of the cylinder to configure </td></tr>
+    <tr><td class="paramname">material</td><td>The material to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The material designator node </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If this node has previously been configured with a different volume shape, this will throw an exception. </dd></dl>
+
+</div>
+</div>
+<a id="affee6bc0b882d19f74926bf928f71084" name="affee6bc0b882d19f74926bf928f71084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affee6bc0b882d19f74926bf928f71084">&#9670;&#160;</a></span>configureFace() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> &amp; Acts::Experimental::MaterialDesignatorBlueprintNode::configureFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41">DiamondVolumeBounds::Face</a></td>          <td class="paramname"><span class="paramname"><em>face</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>material</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the designator with a diamond face and a homogeneous surface material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">face</td><td>The face of the diamond to configure </td></tr>
+    <tr><td class="paramname">material</td><td>The material to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The material designator node </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If this node has previously been configured with a different volume shape, this will throw an exception. </dd></dl>
+
+</div>
+</div>
+<a id="a39abe6e9498c885e39b7d5f5a8f136db" name="a39abe6e9498c885e39b7d5f5a8f136db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39abe6e9498c885e39b7d5f5a8f136db">&#9670;&#160;</a></span>configureFace() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0bd371b525967c8ddd5dc9a78748cc59">MaterialDesignatorBlueprintNode</a> &amp; Acts::Experimental::MaterialDesignatorBlueprintNode::configureFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_trapezoid_volume_bounds.html#a37a239bc146009fe37f583174d13feeb">TrapezoidVolumeBounds::Face</a></td>          <td class="paramname"><span class="paramname"><em>face</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>material</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the designator with a trapezoidal face and a homogeneous surface material. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">face</td><td>The face of the trapezoid to configure </td></tr>
     <tr><td class="paramname">material</td><td>The material to use </td></tr>
   </table>
   </dd>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_plugins_1_1_m_l_track_classifier.html#a7c763c078fc6101359cee80c2cd25bdb":[5,9,11,1,2],
+"class_acts_plugins_1_1_m_l_track_classifier.html#ac416816495a77062532a2f66a98a2d2f":[5,9,11,1,1],
+"class_acts_plugins_1_1_m_l_track_classifier.html#ad75312e7953fba58f8329a437bd8d614":[5,9,11,1,0],
+"class_acts_plugins_1_1_module_map_cuda.html":[5,9,6,10],
 "class_acts_plugins_1_1_module_map_cuda.html#a3070dc5e352f43b07c1222939f5d8646":[5,9,6,10,2],
 "class_acts_plugins_1_1_module_map_cuda.html#a35a93c082cefb8fe5b018276cfb8dee3":[5,9,6,10,1],
 "class_acts_plugins_1_1_module_map_cuda.html#ac503115229d12e7574c2f3e7d264bfa7":[5,9,6,10,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX40 =
 "concept_acts_1_1_common_multi_trajectory_backend.html":[7,0,17],
 "concept_acts_1_1_concepts_1_1_basic_track_parameters.html":[7,0,1,1],
 "concept_acts_1_1_concepts_1_1_common_stepper.html":[7,0,1,2],
-"concept_acts_1_1_concepts_1_1_multi_stepper.html":[7,0,1,11],
-"concept_acts_1_1_concepts_1_1_single_stepper.html":[7,0,1,14],
-"concept_acts_1_1_concepts_1_1arithmetic.html":[7,0,1,0],
-"concept_acts_1_1_concepts_1_1decayed__same__as.html":[7,0,1,3],
-"concept_acts_1_1_concepts_1_1eigen__base__is__fixed__size.html":[7,0,1,4]
+"concept_acts_1_1_concepts_1_1_multi_stepper.html":[7,0,1,11]
 };

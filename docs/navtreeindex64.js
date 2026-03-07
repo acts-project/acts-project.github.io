@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[6,0,2,29,0],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[8,0,1,30,0],
+"struct_acts_fatras_1_1_planar_surface_mask.html":[6,0,2,30],
+"struct_acts_fatras_1_1_planar_surface_mask.html":[8,0,1,31],
 "struct_acts_fatras_1_1_planar_surface_mask.html#a1fc02336f61431cfa85b7611775a241f":[6,0,2,30,4],
 "struct_acts_fatras_1_1_planar_surface_mask.html#a1fc02336f61431cfa85b7611775a241f":[8,0,1,31,4],
 "struct_acts_fatras_1_1_planar_surface_mask.html#a4590715826c10f846cb810aca0df178b":[6,0,2,30,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[5,9,7,2,2,3],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[5,9,7,2,2,2],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[5,9,7,2,2,4],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[5,9,7,2,2,0],
-"struct_acts_plugins_1_1_geant4_material_converter.html":[5,9,7,3],
-"struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d":[5,9,7,3,1],
-"struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f":[5,9,7,3,0],
-"struct_acts_plugins_1_1_geant4_physical_volume_converter.html":[5,9,7,4]
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[5,9,7,2,2,0]
 };
