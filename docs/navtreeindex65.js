@@ -1,5 +1,14 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9":[5,9,7,2,0,2],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[5,9,7,2,0,1],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[5,9,7,2,1],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html":[5,9,7,2,2],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[5,9,7,2,2,1],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[5,9,7,2,2,3],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[5,9,7,2,2,2],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[5,9,7,2,2,4],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[5,9,7,2,2,0],
 "struct_acts_plugins_1_1_geant4_material_converter.html":[5,9,7,3],
 "struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d":[5,9,7,3,1],
 "struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f":[5,9,7,3,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#ad95be189488e23ca005fa853c5052afb":[5,9,12,14,0],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#af5c2f59a16fff718f725dd7af1ecdd8c":[5,9,12,14,2],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[5,9,6,15,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[5,9,6,15,0,1],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[5,9,6,15,0,3],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[5,9,6,15,0,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[5,9,6,15,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[5,9,6,16,0],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[5,9,6,16,0,6],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a67f7baa072b083b9a539e560dfbf7760":[5,9,6,16,0,1],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[5,9,6,16,0,3],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691":[5,9,6,16,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480":[5,9,6,16,0,4]
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[5,9,6,15,0,1]
 };

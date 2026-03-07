@@ -2043,6 +2043,12 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2" id="r_afded89f5410ca396ea21fee04cf8d1e2"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:afded89f5410ca396ea21fee04cf8d1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the unbiased track parameters and their covariance (i.e.  <br /></td></tr>
+<tr class="memitem:ad45ef8ad00b8e2d3bcfffd50642b8a8a" id="r_ad45ef8ad00b8e2d3bcfffd50642b8a8a"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:ad45ef8ad00b8e2d3bcfffd50642b8a8a template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad45ef8ad00b8e2d3bcfffd50642b8a8a">cathetusSquare</a> (T hypotenuse, Args... args)</td></tr>
+<tr class="memdesc:ad45ef8ad00b8e2d3bcfffd50642b8a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the squared cathetus of arguments, i.e.  <br /></td></tr>
+<tr class="memitem:aaee82542f951ab740dd4f0cb212be318" id="r_aaee82542f951ab740dd4f0cb212be318"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:aaee82542f951ab740dd4f0cb212be318 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaee82542f951ab740dd4f0cb212be318">cathetusSquareUnchecked</a> (T hypotenuse, Args... args)</td></tr>
+<tr class="memdesc:aaee82542f951ab740dd4f0cb212be318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the squared cathetus of arguments, i.e.  <br /></td></tr>
 <tr class="memitem:adca167882d01bd6ed5541f83a36031e9" id="r_adca167882d01bd6ed5541f83a36031e9"><td class="memTemplParams" colspan="2">template&lt;std::ranges::sized_range index_range_t&gt; </td></tr>
 <tr class="memitem:adca167882d01bd6ed5541f83a36031e9 template"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca167882d01bd6ed5541f83a36031e9">checkSubspaceIndices</a> (const index_range_t &amp;indexRange, std::size_t fullSize, std::size_t subspaceSize)</td></tr>
 <tr class="memdesc:adca167882d01bd6ed5541f83a36031e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check subspace indices for consistency.  <br /></td></tr>
@@ -2135,6 +2141,12 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:ad7060727516020acbb2cc66a57ed819d" id="r_ad7060727516020acbb2cc66a57ed819d"><td class="memTemplParams" colspan="2">template&lt;std::unsigned_integral T&gt; </td></tr>
 <tr class="memitem:ad7060727516020acbb2cc66a57ed819d template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7060727516020acbb2cc66a57ed819d">factorial</a> (const T N)</td></tr>
 <tr class="memdesc:ad7060727516020acbb2cc66a57ed819d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the the factorial of an integer.  <br /></td></tr>
+<tr class="memitem:a9e9d346625e72c7b50561479a2c7dc60" id="r_a9e9d346625e72c7b50561479a2c7dc60"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:a9e9d346625e72c7b50561479a2c7dc60 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9d346625e72c7b50561479a2c7dc60">fastCathetus</a> (T hypotenuse, Args... args)</td></tr>
+<tr class="memdesc:a9e9d346625e72c7b50561479a2c7dc60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast cathetus calculation for multiple arguments.  <br /></td></tr>
+<tr class="memitem:a1194f5ec4252a38cccb4fc3d0d151eed" id="r_a1194f5ec4252a38cccb4fc3d0d151eed"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a1194f5ec4252a38cccb4fc3d0d151eed template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1194f5ec4252a38cccb4fc3d0d151eed">fastHypot</a> (T arg)</td></tr>
+<tr class="memdesc:a1194f5ec4252a38cccb4fc3d0d151eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload for single argument.  <br /></td></tr>
 <tr class="memitem:a370de2c1bb43783346d4a3cbc749dcd3" id="r_a370de2c1bb43783346d4a3cbc749dcd3"><td class="memTemplParams" colspan="2">template&lt;typename... T&gt; </td></tr>
 <tr class="memitem:a370de2c1bb43783346d4a3cbc749dcd3 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370de2c1bb43783346d4a3cbc749dcd3">fastHypot</a> (T... args)</td></tr>
 <tr class="memdesc:a370de2c1bb43783346d4a3cbc749dcd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast hypotenuse calculation for multiple arguments.  <br /></td></tr>
@@ -2430,6 +2442,21 @@ template&lt;class... Ts&gt; </td></tr>
 requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:a3cd785914bda5c3810e21a5f54386fd5 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ac7fe124c6f6fda8fa31781f93cbd36b8">SerializedSubspaceIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd785914bda5c3810e21a5f54386fd5">serializeSubspaceIndices</a> (const <a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt; FullSize &gt; &amp;indices)</td></tr>
 <tr class="memdesc:a3cd785914bda5c3810e21a5f54386fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize subspace indices to a single 64 bit integer.  <br /></td></tr>
+<tr class="memitem:afa56c66203e142b57873e272fdea342f" id="r_afa56c66203e142b57873e272fdea342f"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:afa56c66203e142b57873e272fdea342f template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa56c66203e142b57873e272fdea342f">slowCathetus</a> (T hypotenuse, Args... args)</td></tr>
+<tr class="memdesc:afa56c66203e142b57873e272fdea342f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slow but more accurate cathetus calculation for multiple arguments.  <br /></td></tr>
+<tr class="memitem:aa96e8309dd583785ba1701ecab33ae58" id="r_aa96e8309dd583785ba1701ecab33ae58"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:aa96e8309dd583785ba1701ecab33ae58 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa96e8309dd583785ba1701ecab33ae58">slowHypot</a> (T arg)</td></tr>
+<tr class="memdesc:aa96e8309dd583785ba1701ecab33ae58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload for single argument.  <br /></td></tr>
+<tr class="memitem:a5e08942a6b5bb1a932db1c64c5ac9348" id="r_a5e08942a6b5bb1a932db1c64c5ac9348"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a5e08942a6b5bb1a932db1c64c5ac9348 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e08942a6b5bb1a932db1c64c5ac9348">slowHypot</a> (T x, T y)</td></tr>
+<tr class="memdesc:a5e08942a6b5bb1a932db1c64c5ac9348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload for two arguments.  <br /></td></tr>
+<tr class="memitem:a47f1d43a5a63dc5aec0b41e9135e3c7b" id="r_a47f1d43a5a63dc5aec0b41e9135e3c7b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a47f1d43a5a63dc5aec0b41e9135e3c7b template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47f1d43a5a63dc5aec0b41e9135e3c7b">slowHypot</a> (T x, T y, T z)</td></tr>
+<tr class="memdesc:a47f1d43a5a63dc5aec0b41e9135e3c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload for three arguments.  <br /></td></tr>
+<tr class="memitem:ae9ca45b4a1409b9ca8c5748f72ea9ce3" id="r_ae9ca45b4a1409b9ca8c5748f72ea9ce3"><td class="memTemplParams" colspan="2">template&lt;typename... T&gt; </td></tr>
+<tr class="memitem:ae9ca45b4a1409b9ca8c5748f72ea9ce3 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9ca45b4a1409b9ca8c5748f72ea9ce3">slowHypot</a> (T... args)</td></tr>
+<tr class="memdesc:ae9ca45b4a1409b9ca8c5748f72ea9ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slow but more accurate hypotenuse calculation for multiple arguments.  <br /></td></tr>
 <tr class="memitem:af71f1524930917d44ddc5444d2b5193f" id="r_af71f1524930917d44ddc5444d2b5193f"><td class="memTemplParams" colspan="2">template&lt;TrackProxyConcept track_proxy_t, typename smoother_t = GainMatrixSmoother&gt; </td></tr>
 <tr class="memitem:af71f1524930917d44ddc5444d2b5193f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af71f1524930917d44ddc5444d2b5193f">smoothTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;geoContext, track_proxy_t &amp;track, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger= *<a class="el" href="#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;TrackSmoother&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>), smoother_t smoother=<a class="el" href="class_acts_1_1_gain_matrix_smoother.html">GainMatrixSmoother</a>())</td></tr>
 <tr class="memdesc:af71f1524930917d44ddc5444d2b5193f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smooth a track using the gain matrix smoother.  <br /></td></tr>
@@ -5603,6 +5630,94 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 
 </div>
 </div>
+<a id="ad45ef8ad00b8e2d3bcfffd50642b8a8a" name="ad45ef8ad00b8e2d3bcfffd50642b8a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad45ef8ad00b8e2d3bcfffd50642b8a8a">&#9670;&#160;</a></span>cathetusSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::cathetusSquare </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>hypotenuse</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the squared cathetus of arguments, i.e. </p>
+<p>the difference between the square of the hypotenuse and the square of the given arguments. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hypotenuse</td><td>The hypotenuse value </td></tr>
+    <tr><td class="paramname">args</td><td>Variable number of arguments to calculate the cathetus for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Difference between the square of the hypotenuse and the square of the given arguments. Returns NaN for floating point types if the hypotenuse is smaller than the cathetus. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::domain_error</td><td>if hypotenuse is smaller than the cathetus for integral types </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aaee82542f951ab740dd4f0cb212be318" name="aaee82542f951ab740dd4f0cb212be318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee82542f951ab740dd4f0cb212be318">&#9670;&#160;</a></span>cathetusSquareUnchecked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::cathetusSquareUnchecked </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>hypotenuse</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the squared cathetus of arguments, i.e. </p>
+<p>the difference between the square of the hypotenuse and the square of the given arguments without checking for domain errors. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hypotenuse</td><td>The hypotenuse value </td></tr>
+    <tr><td class="paramname">args</td><td>Variable number of arguments to calculate the cathetus for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Difference between the square of the hypotenuse and the square of the given arguments </dd></dl>
+
+</div>
+</div>
 <a id="adca167882d01bd6ed5541f83a36031e9" name="adca167882d01bd6ed5541f83a36031e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adca167882d01bd6ed5541f83a36031e9">&#9670;&#160;</a></span>checkSubspaceIndices()</h2>
 
@@ -6919,8 +7034,85 @@ template&lt;std::unsigned_integral T&gt; </div>
 
 </div>
 </div>
+<a id="a9e9d346625e72c7b50561479a2c7dc60" name="a9e9d346625e72c7b50561479a2c7dc60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9d346625e72c7b50561479a2c7dc60">&#9670;&#160;</a></span>fastCathetus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::fastCathetus </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>hypotenuse</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fast cathetus calculation for multiple arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hypotenuse</td><td>The hypotenuse value </td></tr>
+    <tr><td class="paramname">args</td><td>Variable number of arguments to calculate the cathetus for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Square root of difference between the square of the hypotenuse and the square of the given arguments </dd></dl>
+
+</div>
+</div>
+<a id="a1194f5ec4252a38cccb4fc3d0d151eed" name="a1194f5ec4252a38cccb4fc3d0d151eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1194f5ec4252a38cccb4fc3d0d151eed">&#9670;&#160;</a></span>fastHypot() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::fastHypot </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>arg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload for single argument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Single argument for which the hypotenuse is calculated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Absolute value of the argument </dd></dl>
+
+</div>
+</div>
 <a id="a370de2c1bb43783346d4a3cbc749dcd3" name="a370de2c1bb43783346d4a3cbc749dcd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a370de2c1bb43783346d4a3cbc749dcd3">&#9670;&#160;</a></span>fastHypot()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a370de2c1bb43783346d4a3cbc749dcd3">&#9670;&#160;</a></span>fastHypot() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10249,6 +10441,208 @@ requires (FullSize &lt;= 8)</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the serialized subspace indices </dd></dl>
+
+</div>
+</div>
+<a id="afa56c66203e142b57873e272fdea342f" name="afa56c66203e142b57873e272fdea342f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa56c66203e142b57873e272fdea342f">&#9670;&#160;</a></span>slowCathetus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::slowCathetus </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>hypotenuse</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slow but more accurate cathetus calculation for multiple arguments. </p>
+<dl class="section note"><dt>Note</dt><dd>For 2 arguments, the fast and slow cathetus are identical as they both use the same formula. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hypotenuse</td><td>The hypotenuse value </td></tr>
+    <tr><td class="paramname">args</td><td>Variable number of arguments to calculate the cathetus for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Square root of difference between the square of the hypotenuse and the square of the given arguments </dd></dl>
+
+</div>
+</div>
+<a id="aa96e8309dd583785ba1701ecab33ae58" name="aa96e8309dd583785ba1701ecab33ae58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa96e8309dd583785ba1701ecab33ae58">&#9670;&#160;</a></span>slowHypot() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::slowHypot </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>arg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload for single argument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Single argument for which the hypotenuse is calculated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Absolute value of the argument </dd></dl>
+
+</div>
+</div>
+<a id="a5e08942a6b5bb1a932db1c64c5ac9348" name="a5e08942a6b5bb1a932db1c64c5ac9348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e08942a6b5bb1a932db1c64c5ac9348">&#9670;&#160;</a></span>slowHypot() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::slowHypot </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload for two arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>First argument </td></tr>
+    <tr><td class="paramname">y</td><td>Second argument </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Square root of sum of squares of x and y </dd></dl>
+
+</div>
+</div>
+<a id="a47f1d43a5a63dc5aec0b41e9135e3c7b" name="a47f1d43a5a63dc5aec0b41e9135e3c7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f1d43a5a63dc5aec0b41e9135e3c7b">&#9670;&#160;</a></span>slowHypot() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::slowHypot </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>z</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload for three arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>First argument </td></tr>
+    <tr><td class="paramname">y</td><td>Second argument </td></tr>
+    <tr><td class="paramname">z</td><td>Third argument </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Square root of sum of squares of x, y and z </dd></dl>
+
+</div>
+</div>
+<a id="ae9ca45b4a1409b9ca8c5748f72ea9ce3" name="ae9ca45b4a1409b9ca8c5748f72ea9ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ca45b4a1409b9ca8c5748f72ea9ce3">&#9670;&#160;</a></span>slowHypot() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::slowHypot </td>
+          <td>(</td>
+          <td class="paramtype">T...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slow but more accurate hypotenuse calculation for multiple arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>Variable number of arguments </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Square root of sum of squares of arguments </dd></dl>
 
 </div>
 </div>

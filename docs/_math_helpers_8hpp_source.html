@@ -204,66 +204,146 @@ $(function(){initNavTree('_math_helpers_8hpp_source.html','',''); });
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
 </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">int</span>egral T&gt;</div>
-<div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="namespace_acts.html#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">  102</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">sumUpToN</a>(<span class="keyword">const</span> T N) {</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordflow">return</span> N * (N + 1) / 2;</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>}</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00101" data-start="{" data-end="}">
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="namespace_acts.html#a1194f5ec4252a38cccb4fc3d0d151eed">  101</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#a370de2c1bb43783346d4a3cbc749dcd3">fastHypot</a>(T arg) {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keywordflow">return</span> std::abs(arg);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}</div>
 </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">unsigned</span>_<span class="keywordtype">int</span>egral T&gt;</div>
-<div class="foldopen" id="foldopen00113" data-start="{" data-end="}">
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">  113</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">product</a>(<span class="keyword">const</span> T lowerN, <span class="keyword">const</span> T upperN) {</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="keywordflow">if</span> (lowerN == T{0}) {</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">return</span> T{0};</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  }</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  T value{1};</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keywordflow">for</span> (T iter = lowerN; iter &lt;= upperN; ++iter) {</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordflow">if</span> (std::is_constant_evaluated() &amp;&amp;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        value &gt; std::numeric_limits&lt;T&gt;::max() / iter) {</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>      <span class="keywordflow">throw</span> std::overflow_error(<span class="stringliteral">&quot;product overflow&quot;</span>);</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    }</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    assert(value &lt;= std::numeric_limits&lt;T&gt;::max() / iter);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    value *= iter;</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  }</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  <span class="keywordflow">return</span> value;</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>}</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span>... T&gt;</div>
+<div class="foldopen" id="foldopen00109" data-start="{" data-end="}">
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">  109</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">slowHypot</a>(T... args) {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  <span class="keyword">decltype</span>((args + ...)) r = 0;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  ((r = std::hypot(r, args)), ...);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="keywordflow">return</span> r;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}</div>
 </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span></div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">unsigned</span>_<span class="keywordtype">int</span>egral T&gt;</div>
-<div class="foldopen" id="foldopen00136" data-start="{" data-end="}">
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">  136</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">factorial</a>(<span class="keyword">const</span> T N) {</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">product&lt;T&gt;</a>(1, N);</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>}</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00118" data-start="{" data-end="}">
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="namespace_acts.html#aa96e8309dd583785ba1701ecab33ae58">  118</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">slowHypot</a>(T arg) {</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keywordflow">return</span> std::abs(arg);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
 </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span></div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">unsigned</span>_<span class="keywordtype">int</span>egral T&gt;</div>
-<div class="foldopen" id="foldopen00148" data-start="{" data-end="}">
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="namespace_acts.html#a2e79325890b007508379e03efeb37a97">  148</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#a2e79325890b007508379e03efeb37a97">binomial</a>(<span class="keyword">const</span> T n, <span class="keyword">const</span> T k) {</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  <span class="keywordflow">if</span> (std::is_constant_evaluated() &amp;&amp; k &gt; n) {</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordflow">throw</span> std::overflow_error(<span class="stringliteral">&quot;k must be &lt;= n&quot;</span>);</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  }</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  assert(k &lt;= n &amp;&amp; <span class="stringliteral">&quot;k must be &lt;= n&quot;</span>);</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">product&lt;T&gt;</a>(n - k + 1, n) / <a class="code hl_function" href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">factorial&lt;T&gt;</a>(k);</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>}</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00126" data-start="{" data-end="}">
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="namespace_acts.html#a5e08942a6b5bb1a932db1c64c5ac9348">  126</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">slowHypot</a>(T x, T y) {</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  <span class="keywordflow">return</span> std::hypot(x, y);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>}</div>
 </div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00135" data-start="{" data-end="}">
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="namespace_acts.html#a47f1d43a5a63dc5aec0b41e9135e3c7b">  135</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">slowHypot</a>(T x, T y, T z) {</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  <span class="keywordflow">return</span> std::hypot(x, y, z);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>}</div>
+</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="foldopen" id="foldopen00146" data-start="{" data-end="}">
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="namespace_acts.html#aaee82542f951ab740dd4f0cb212be318">  146</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#aaee82542f951ab740dd4f0cb212be318">cathetusSquareUnchecked</a>(T hypotenuse, Args... args) {</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#a838abb77213dd8944857456b1e506b02">square</a>(hypotenuse) - <a class="code hl_function" href="namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209">hypotSquare</a>(args...);</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>}</div>
+</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="foldopen" id="foldopen00160" data-start="{" data-end="}">
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="namespace_acts.html#ad45ef8ad00b8e2d3bcfffd50642b8a8a">  160</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#ad45ef8ad00b8e2d3bcfffd50642b8a8a">cathetusSquare</a>(T hypotenuse, Args... args) {</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  <span class="keyword">const</span> <span class="keyword">auto</span> hypotenuseSquare = <a class="code hl_function" href="namespace_acts.html#a838abb77213dd8944857456b1e506b02">square</a>(hypotenuse);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  <span class="keyword">const</span> <span class="keyword">auto</span> argsSquareSum = <a class="code hl_function" href="namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209">hypotSquare</a>(args...);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  <span class="keywordflow">if</span> (std::floating_point&lt;T&gt; &amp;&amp; hypotenuseSquare &lt; argsSquareSum) {</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="keywordflow">return</span> std::numeric_limits&lt;T&gt;::quiet_NaN();</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::integral&lt;T&gt; &amp;&amp; hypotenuseSquare &lt; argsSquareSum) {</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    <span class="keywordflow">throw</span> std::domain_error(</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="stringliteral">&quot;hypotenuse must be greater than or equal to the cathetus&quot;</span>);</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>  }</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>  <span class="keywordflow">return</span> hypotenuseSquare - argsSquareSum;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>}</div>
+</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="foldopen" id="foldopen00177" data-start="{" data-end="}">
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="namespace_acts.html#a9e9d346625e72c7b50561479a2c7dc60">  177</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#a9e9d346625e72c7b50561479a2c7dc60">fastCathetus</a>(T hypotenuse, Args... args) {</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  <span class="keyword">const</span> <span class="keyword">auto</span> hypotArgs = <a class="code hl_function" href="namespace_acts.html#a370de2c1bb43783346d4a3cbc749dcd3">fastHypot</a>(args...);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  <span class="keywordflow">return</span> std::sqrt((hypotenuse - hypotArgs) * (hypotenuse + hypotArgs));</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>}</div>
+</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Args&gt;</div>
+<div class="foldopen" id="foldopen00188" data-start="{" data-end="}">
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="namespace_acts.html#afa56c66203e142b57873e272fdea342f">  188</a></span><span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespace_acts.html#afa56c66203e142b57873e272fdea342f">slowCathetus</a>(T hypotenuse, Args... args) {</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>  <span class="keyword">const</span> <span class="keyword">auto</span> hypotArgs = <a class="code hl_function" href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">slowHypot</a>(args...);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>  <span class="keywordflow">return</span> std::sqrt((hypotenuse - hypotArgs) * (hypotenuse + hypotArgs));</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>}</div>
+</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">int</span>egral T&gt;</div>
+<div class="foldopen" id="foldopen00197" data-start="{" data-end="}">
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="namespace_acts.html#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">  197</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">sumUpToN</a>(<span class="keyword">const</span> T N) {</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>  <span class="keywordflow">return</span> N * (N + 1) / 2;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>}</div>
+</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">unsigned</span>_<span class="keywordtype">int</span>egral T&gt;</div>
+<div class="foldopen" id="foldopen00208" data-start="{" data-end="}">
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">  208</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">product</a>(<span class="keyword">const</span> T lowerN, <span class="keyword">const</span> T upperN) {</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  <span class="keywordflow">if</span> (lowerN == T{0}) {</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    <span class="keywordflow">return</span> T{0};</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>  }</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>  T value{1};</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>  <span class="keywordflow">for</span> (T iter = lowerN; iter &lt;= upperN; ++iter) {</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordflow">if</span> (std::is_constant_evaluated() &amp;&amp;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        value &gt; std::numeric_limits&lt;T&gt;::max() / iter) {</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>      <span class="keywordflow">throw</span> std::overflow_error(<span class="stringliteral">&quot;product overflow&quot;</span>);</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    }</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    assert(value &lt;= std::numeric_limits&lt;T&gt;::max() / iter);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    value *= iter;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>  }</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>  <span class="keywordflow">return</span> value;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>}</div>
+</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">unsigned</span>_<span class="keywordtype">int</span>egral T&gt;</div>
+<div class="foldopen" id="foldopen00231" data-start="{" data-end="}">
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">  231</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">factorial</a>(<span class="keyword">const</span> T N) {</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">product&lt;T&gt;</a>(1, N);</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>}</div>
+</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="keyword">template</span> &lt;std::<span class="keywordtype">unsigned</span>_<span class="keywordtype">int</span>egral T&gt;</div>
+<div class="foldopen" id="foldopen00243" data-start="{" data-end="}">
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno"><a class="line" href="namespace_acts.html#a2e79325890b007508379e03efeb37a97">  243</a></span><span class="keyword">constexpr</span> T <a class="code hl_function" href="namespace_acts.html#a2e79325890b007508379e03efeb37a97">binomial</a>(<span class="keyword">const</span> T n, <span class="keyword">const</span> T k) {</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  <span class="keywordflow">if</span> (std::is_constant_evaluated() &amp;&amp; k &gt; n) {</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keywordflow">throw</span> std::overflow_error(<span class="stringliteral">&quot;k must be &lt;= n&quot;</span>);</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  }</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  assert(k &lt;= n &amp;&amp; <span class="stringliteral">&quot;k must be &lt;= n&quot;</span>);</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">product&lt;T&gt;</a>(n - k + 1, n) / <a class="code hl_function" href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">factorial&lt;T&gt;</a>(k);</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>}</div>
+</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="anamespace_acts_html_a2e79325890b007508379e03efeb37a97"><div class="ttname"><a href="namespace_acts.html#a2e79325890b007508379e03efeb37a97">Acts::binomial</a></div><div class="ttdeci">constexpr T binomial(const T n, const T k)</div><div class="ttdoc">Calculate the binomial coefficient n n!</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:148</div></div>
+<div class="ttc" id="anamespace_acts_html_a2e79325890b007508379e03efeb37a97"><div class="ttname"><a href="namespace_acts.html#a2e79325890b007508379e03efeb37a97">Acts::binomial</a></div><div class="ttdeci">constexpr T binomial(const T n, const T k)</div><div class="ttdoc">Calculate the binomial coefficient n n!</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:243</div></div>
 <div class="ttc" id="anamespace_acts_html_a370de2c1bb43783346d4a3cbc749dcd3"><div class="ttname"><a href="namespace_acts.html#a370de2c1bb43783346d4a3cbc749dcd3">Acts::fastHypot</a></div><div class="ttdeci">constexpr auto fastHypot(T... args)</div><div class="ttdoc">Fast hypotenuse calculation for multiple arguments.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:94</div></div>
 <div class="ttc" id="anamespace_acts_html_a52e4326c57b1b3eadc5a72d2c774bd7e"><div class="ttname"><a href="namespace_acts.html#a52e4326c57b1b3eadc5a72d2c774bd7e">Acts::copySign</a></div><div class="ttdeci">constexpr out_t copySign(const out_t &amp;copyTo, const sign_t &amp;sign)</div><div class="ttdoc">Copies the sign of a signed variable onto the copyTo input object.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:44</div></div>
 <div class="ttc" id="anamespace_acts_html_a5f8134aad04c378ce314dd9e115f3c17"><div class="ttname"><a href="namespace_acts.html#a5f8134aad04c378ce314dd9e115f3c17">Acts::pow</a></div><div class="ttdeci">constexpr T pow(T x, P p)</div><div class="ttdoc">Calculates the ordinary power of the number x.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:58</div></div>
 <div class="ttc" id="anamespace_acts_html_a838abb77213dd8944857456b1e506b02"><div class="ttname"><a href="namespace_acts.html#a838abb77213dd8944857456b1e506b02">Acts::square</a></div><div class="ttdeci">constexpr auto square(T x)</div><div class="ttdoc">Returns the square of the passed number.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:78</div></div>
-<div class="ttc" id="anamespace_acts_html_accac06e45217490944ef25a4b63f1539"><div class="ttname"><a href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">Acts::product</a></div><div class="ttdeci">constexpr T product(const T lowerN, const T upperN)</div><div class="ttdoc">Calculates the product of all integers within the given integer range (nLower)(nLower+1)(....</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:113</div></div>
+<div class="ttc" id="anamespace_acts_html_a9e9d346625e72c7b50561479a2c7dc60"><div class="ttname"><a href="namespace_acts.html#a9e9d346625e72c7b50561479a2c7dc60">Acts::fastCathetus</a></div><div class="ttdeci">constexpr auto fastCathetus(T hypotenuse, Args... args)</div><div class="ttdoc">Fast cathetus calculation for multiple arguments.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:177</div></div>
+<div class="ttc" id="anamespace_acts_html_aaee82542f951ab740dd4f0cb212be318"><div class="ttname"><a href="namespace_acts.html#aaee82542f951ab740dd4f0cb212be318">Acts::cathetusSquareUnchecked</a></div><div class="ttdeci">constexpr auto cathetusSquareUnchecked(T hypotenuse, Args... args)</div><div class="ttdoc">Calculates the squared cathetus of arguments, i.e.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:146</div></div>
+<div class="ttc" id="anamespace_acts_html_accac06e45217490944ef25a4b63f1539"><div class="ttname"><a href="namespace_acts.html#accac06e45217490944ef25a4b63f1539">Acts::product</a></div><div class="ttdeci">constexpr T product(const T lowerN, const T upperN)</div><div class="ttdoc">Calculates the product of all integers within the given integer range (nLower)(nLower+1)(....</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:208</div></div>
 <div class="ttc" id="anamespace_acts_html_ad30a4e8469eb16297c0ab87d5cf68209"><div class="ttname"><a href="namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209">Acts::hypotSquare</a></div><div class="ttdeci">constexpr auto hypotSquare(T... args)</div><div class="ttdoc">Calculates the sum of squares of arguments.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:86</div></div>
-<div class="ttc" id="anamespace_acts_html_ad66d0dd0baa4fbbc5e1bdbe45a311bd6"><div class="ttname"><a href="namespace_acts.html#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">Acts::sumUpToN</a></div><div class="ttdeci">constexpr T sumUpToN(const T N)</div><div class="ttdoc">Calculates the sum of 1 + 2 + 3+ ... + N using the Gaussian sum formula.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:102</div></div>
-<div class="ttc" id="anamespace_acts_html_ad7060727516020acbb2cc66a57ed819d"><div class="ttname"><a href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">Acts::factorial</a></div><div class="ttdeci">constexpr T factorial(const T N)</div><div class="ttdoc">Calculate the the factorial of an integer.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:136</div></div>
+<div class="ttc" id="anamespace_acts_html_ad45ef8ad00b8e2d3bcfffd50642b8a8a"><div class="ttname"><a href="namespace_acts.html#ad45ef8ad00b8e2d3bcfffd50642b8a8a">Acts::cathetusSquare</a></div><div class="ttdeci">constexpr auto cathetusSquare(T hypotenuse, Args... args)</div><div class="ttdoc">Calculates the squared cathetus of arguments, i.e.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:160</div></div>
+<div class="ttc" id="anamespace_acts_html_ad66d0dd0baa4fbbc5e1bdbe45a311bd6"><div class="ttname"><a href="namespace_acts.html#ad66d0dd0baa4fbbc5e1bdbe45a311bd6">Acts::sumUpToN</a></div><div class="ttdeci">constexpr T sumUpToN(const T N)</div><div class="ttdoc">Calculates the sum of 1 + 2 + 3+ ... + N using the Gaussian sum formula.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:197</div></div>
+<div class="ttc" id="anamespace_acts_html_ad7060727516020acbb2cc66a57ed819d"><div class="ttname"><a href="namespace_acts.html#ad7060727516020acbb2cc66a57ed819d">Acts::factorial</a></div><div class="ttdeci">constexpr T factorial(const T N)</div><div class="ttdoc">Calculate the the factorial of an integer.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:231</div></div>
+<div class="ttc" id="anamespace_acts_html_ae9ca45b4a1409b9ca8c5748f72ea9ce3"><div class="ttname"><a href="namespace_acts.html#ae9ca45b4a1409b9ca8c5748f72ea9ce3">Acts::slowHypot</a></div><div class="ttdeci">constexpr auto slowHypot(T... args)</div><div class="ttdoc">Slow but more accurate hypotenuse calculation for multiple arguments.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:109</div></div>
 <div class="ttc" id="anamespace_acts_html_aee44b83052f88cd1f6fe38ad464439d0"><div class="ttname"><a href="namespace_acts.html#aee44b83052f88cd1f6fe38ad464439d0">Acts::abs</a></div><div class="ttdeci">constexpr T abs(const T n)</div><div class="ttdoc">Returns the absolute of a number.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:24</div></div>
+<div class="ttc" id="anamespace_acts_html_afa56c66203e142b57873e272fdea342f"><div class="ttname"><a href="namespace_acts.html#afa56c66203e142b57873e272fdea342f">Acts::slowCathetus</a></div><div class="ttdeci">constexpr auto slowCathetus(T hypotenuse, Args... args)</div><div class="ttdoc">Slow but more accurate cathetus calculation for multiple arguments.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:188</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

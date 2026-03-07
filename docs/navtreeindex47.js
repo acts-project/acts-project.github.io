@@ -1,5 +1,14 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html#a2a2b7b4b2b6f3e9029289c18b40360cd":[8,0,0,58,1,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[6,0,0,55,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[8,0,0,62,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[6,0,0,55,0,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[8,0,0,62,0,0],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[6,0,0,55,1],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[8,0,0,62,1],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[6,0,0,55,1,2],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[8,0,0,62,1,2],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a12ead19a65592834270d010a67b1b7bd":[6,0,0,55,1,0],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a12ead19a65592834270d010a67b1b7bd":[8,0,0,62,1,0],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a1481e2e7e4a2a281108474fe90688a5d":[6,0,0,55,1,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aaedfa42634aec6086960a258040526ca":[8,0,0,90,3,3],
 "struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#ab6955f021c02a5f22d16f74d82fee170":[6,0,0,83,3,2],
 "struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#ab6955f021c02a5f22d16f74d82fee170":[8,0,0,90,3,2],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aca8d7b10382861e417a46d50c7d34bd2":[6,0,0,83,3,5],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aca8d7b10382861e417a46d50c7d34bd2":[8,0,0,90,3,5],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#afc8f82913ae419fea66e9ca1a0101596":[6,0,0,83,3,8],
-"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#afc8f82913ae419fea66e9ca1a0101596":[8,0,0,90,3,8],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html":[6,0,0,94,0],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html":[8,0,0,101,0],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a32c08eeb7ed4303b6b3dfbf2907afc96":[6,0,0,94,0,5],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a32c08eeb7ed4303b6b3dfbf2907afc96":[8,0,0,101,0,5],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a3d726924b61e3be4002c1d315ee0780f":[6,0,0,94,0,3],
-"struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a3d726924b61e3be4002c1d315ee0780f":[8,0,0,101,0,3]
+"struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#aca8d7b10382861e417a46d50c7d34bd2":[6,0,0,83,3,5]
 };
