@@ -89,7 +89,7 @@ var searchData=
   ['hits_86',['hits',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_segment_seed.html#a01af6c12ea837889747f350a6382a633',1,'Acts::Experimental::CompositeSpacePointLineSeeder::SegmentSeed::hits'],['../struct_acts_fatras_1_1_simulation_result.html#a76900d4befa38f192ff611be63d20d2c',1,'ActsFatras::SimulationResult::hits']]],
   ['hitscountimage_87',['hitsCountImage',['../namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html#a243b68b12e2f8e5cd1b6175f0d7f4712',1,'Acts::HoughTransformUtils::PeakFinders']]],
   ['hitselections_88',['hitSelections',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
-  ['hitsharethreshold_89',['hitShareThreshold',['../struct_acts_1_1_experimental_1_1_gbts_config.html#acd54b6fc68a5d2a6c48400bd488449ae',1,'Acts::Experimental::GbtsConfig']]],
+  ['hitsharethreshold_89',['hitShareThreshold',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a3652caf4ad71c3e9453573f527cdad8a',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
   ['hitsscoreweight_90',['hitsScoreWeight',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a6d9b83274055a5b5aab662dbcdf664a6',1,'Acts::ScoreBasedAmbiguityResolution::DetectorConfig']]],
   ['hl0_91',['hL0',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a5b6ef718d2f34fc391d9bc19f39e01a8',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
   ['holder_5ftype_92',['holder_type',['../class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a8b51a1ac84bff41f82304516a7cef6e4',1,'Acts::Delegate&lt; R(Args...), H, O &gt;']]],

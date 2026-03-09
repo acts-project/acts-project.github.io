@@ -49,7 +49,7 @@ var searchData=
   ['delegate_3c_20void_28std_3a_3avector_3c_20gsfcomponent_20_3e_20_26_2c_20std_3a_3asize_5ft_2c_20const_20surface_20_26_29_3e_46',['Delegate&lt; void(std::vector&lt; GsfComponent &gt; &amp;, std::size_t, const Surface &amp;)&gt;',['../class_acts_1_1_delegate.html',1,'Acts']]],
   ['delegatefunctag_47',['DelegateFuncTag',['../struct_acts_1_1_delegate_func_tag.html',1,'Acts']]],
   ['dense_48',['Dense',['../struct_acts_1_1_stepper_plain_options_1_1_dense.html',1,'Acts::StepperPlainOptions']]],
-  ['derivedconfig_49',['DerivedConfig',['../struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html',1,'Acts::DoubletSeedFinder::DerivedConfig'],['../struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html',1,'Acts::TripletSeedFinder::DerivedConfig']]],
+  ['derivedconfig_49',['DerivedConfig',['../struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html',1,'Acts::DoubletSeedFinder::DerivedConfig'],['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html',1,'Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig'],['../struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html',1,'Acts::TripletSeedFinder::DerivedConfig']]],
   ['detectorconfig_50',['DetectorConfig',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html',1,'Acts::ScoreBasedAmbiguityResolution']]],
   ['detectorelementbase_51',['DetectorElementBase',['../class_acts_1_1_detector_element_base.html',1,'Acts']]],
   ['detraypayloadconverter_52',['DetrayPayloadConverter',['../class_acts_plugins_1_1_detray_payload_converter.html',1,'ActsPlugins']]],

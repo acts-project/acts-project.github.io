@@ -40,6 +40,5 @@ var searchData=
   ['freetoboundcorrection_37',['freeToBoundCorrection',['../struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a793fdc8ef515a4630a512f73b8e60dd2',1,'Acts::Experimental::Gx2FitterOptions::freeToBoundCorrection'],['../struct_acts_1_1_kalman_fitter_options.html#af3e8dfc3681b5b7ae742a14e2d3c32c8',1,'Acts::KalmanFitterOptions::freeToBoundCorrection']]],
   ['from_38',['from',['../struct_acts_1_1_graph_viz_1_1_edge.html#a281a8acb960bb6a380ef5ecf2c12c1d4',1,'Acts::GraphViz::Edge']]],
   ['fs_39',['fs',['../namespace_acts_1_1_unit_constants.html#a3530175873b86d70def5bef01851b1cb',1,'Acts::UnitConstants']]],
-  ['fullphysvol_40',['fullPhysVol',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335',1,'ActsPlugins::GeoModelDetectorObjectFactory::ConvertedGeoVol']]],
-  ['fullscan_41',['FULLSCAN',['../class_acts_1_1_experimental_1_1_roi_descriptor.html#aeefc7e1a931f0488c43d79ae3c00fafa',1,'Acts::Experimental::RoiDescriptor']]]
+  ['fullphysvol_40',['fullPhysVol',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335',1,'ActsPlugins::GeoModelDetectorObjectFactory::ConvertedGeoVol']]]
 ];

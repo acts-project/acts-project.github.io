@@ -64,7 +64,7 @@ var searchData=
   ['numbercomponents_61',['numberComponents',['../class_acts_1_1_multi_stepper_loop.html#af7f7340a7bcdce9386b74280345687bf',1,'Acts::MultiStepperLoop']]],
   ['numberofbins_62',['numberOfBins',['../class_acts_1_1_cylindrical_space_point_grid2.html#a6a13724de02536c74ddd049f5aa8a4ff',1,'Acts::CylindricalSpacePointGrid2']]],
   ['numberofhits_63',['numberOfHits',['../class_acts_fatras_1_1_particle.html#a36f16a722e4fefe7e1fa69bad1c3e3e2',1,'ActsFatras::Particle']]],
-  ['numberofnodes_64',['numberOfNodes',['../class_acts_1_1_experimental_1_1_gbts_data_storage.html#a69f9dbfa5927464b6bbf1fffd5ba4d6d',1,'Acts::Experimental::GbtsDataStorage']]],
+  ['numberofnodes_64',['numberOfNodes',['../class_acts_1_1_experimental_1_1_gbts_node_storage.html#ac7f8ddfa8c6c9c645c2406da021c22d9',1,'Acts::Experimental::GbtsNodeStorage']]],
   ['numberofspacepoints_65',['numberOfSpacePoints',['../class_acts_1_1_cylindrical_space_point_grid2.html#a91f8bdce58ed00bcd0619a73364301db',1,'Acts::CylindricalSpacePointGrid2']]],
   ['numbins_66',['numBins',['../class_acts_1_1_experimental_1_1_gbts_geometry.html#a87557959acaf87b5343b9c80f6a7cc07',1,'Acts::Experimental::GbtsGeometry']]],
   ['numericaltracklinearizer_67',['NumericalTrackLinearizer',['../class_acts_1_1_numerical_track_linearizer.html#a9d1ef8ae74732e497799e5bafcc2d6c9',1,'Acts::NumericalTrackLinearizer']]],

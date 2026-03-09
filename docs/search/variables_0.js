@@ -18,7 +18,7 @@ var searchData=
   ['activetargets_15',['activeTargets',['../struct_acts_1_1_try_all_overstep_navigator_1_1_state.html#a0d712414681f972dafdbb0b88ce58bf2',1,'Acts::TryAllOverstepNavigator::State']]],
   ['actorlist_16',['actorList',['../struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2',1,'Acts::PropagatorOptions']]],
   ['addbarycenter_17',['addBarycenter',['../struct_acts_1_1_polyhedron_reference_generator.html#a1db72532c61f3a4b3f76814a5d29a2ab',1,'Acts::PolyhedronReferenceGenerator']]],
-  ['addhit_18',['addHit',['../struct_acts_1_1_experimental_1_1_gbts_config.html#a9376b6c2a1c3dbb9d95c56d3934e670f',1,'Acts::Experimental::GbtsConfig']]],
+  ['addhit_18',['addHit',['../struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab089fc01f5866e0777abf303b0dbab47',1,'Acts::Experimental::GbtsTrackingFilter::Config']]],
   ['additionalfreecovariance_19',['additionalFreeCovariance',['../struct_acts_1_1_straight_line_stepper_1_1_state.html#a1888b900e1312e4907498d1c1f1fb460',1,'Acts::StraightLineStepper::State']]],
   ['addsingletrackvertices_20',['addSingleTrackVertices',['../struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a33b777b4571e04d466f590e260f70d10',1,'Acts::AdaptiveMultiVertexFinder::Config']]],
   ['ahistname_21',['aHistName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a6d92872a184c4a5a51ca9f608b246aff',1,'ActsPlugins::RootMaterialMapIo::Config']]],

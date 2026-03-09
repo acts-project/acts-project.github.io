@@ -27,10 +27,9 @@ var searchData=
   ['ridderspropagator_24',['RiddersPropagator',['../class_acts_1_1_ridders_propagator.html',1,'Acts']]],
   ['ridderspropagatoroptions_25',['RiddersPropagatorOptions',['../struct_acts_1_1_ridders_propagator_options.html',1,'Acts']]],
   ['ridderspropagatoroptions_3c_20propagator_5ft_2c_20actor_5flist_5ft_20_3e_26',['RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;',['../struct_acts_1_1_ridders_propagator_options.html',1,'Acts']]],
-  ['roidescriptor_27',['RoiDescriptor',['../class_acts_1_1_experimental_1_1_roi_descriptor.html',1,'Acts::Experimental']]],
-  ['rootmaterialdecorator_28',['RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html',1,'ActsPlugins']]],
-  ['rootmaterialmapio_29',['RootMaterialMapIo',['../class_acts_plugins_1_1_root_material_map_io.html',1,'ActsPlugins']]],
-  ['rootmaterialtrackio_30',['RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html',1,'ActsPlugins']]],
-  ['rootmeasurementio_31',['RootMeasurementIo',['../class_acts_plugins_1_1_root_measurement_io.html',1,'ActsPlugins']]],
-  ['rootspacepointio_32',['RootSpacePointIo',['../class_acts_plugins_1_1_root_space_point_io.html',1,'ActsPlugins']]]
+  ['rootmaterialdecorator_27',['RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html',1,'ActsPlugins']]],
+  ['rootmaterialmapio_28',['RootMaterialMapIo',['../class_acts_plugins_1_1_root_material_map_io.html',1,'ActsPlugins']]],
+  ['rootmaterialtrackio_29',['RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html',1,'ActsPlugins']]],
+  ['rootmeasurementio_30',['RootMeasurementIo',['../class_acts_plugins_1_1_root_measurement_io.html',1,'ActsPlugins']]],
+  ['rootspacepointio_31',['RootSpacePointIo',['../class_acts_plugins_1_1_root_space_point_io.html',1,'ActsPlugins']]]
 ];

@@ -126,33 +126,33 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_geometry.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>Geometry helper built from silicon layers and connectors.  
+<p>Geometry helper built from layers and connectors.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_gbts_geometry_8hpp_source.html">Acts/Seeding2/GbtsGeometry.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a25fdcb8726bd9a77db64c1cc98c603d3" id="r_a25fdcb8726bd9a77db64c1cc98c603d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fdcb8726bd9a77db64c1cc98c603d3">GbtsGeometry</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;layerGeometry, const std::unique_ptr&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector.html">GbtsConnector</a> &gt; &amp;conn)</td></tr>
-<tr class="memdesc:a25fdcb8726bd9a77db64c1cc98c603d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a23832c712b3a5882d3e0bd9cfc24d773" id="r_a23832c712b3a5882d3e0bd9cfc24d773"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23832c712b3a5882d3e0bd9cfc24d773">GbtsGeometry</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; &amp;layerDescriptions, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a> &amp;layerConnections)</td></tr>
+<tr class="memdesc:a23832c712b3a5882d3e0bd9cfc24d773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a87006f966a4d2529bc55fbed48cd81ad" id="r_a87006f966a4d2529bc55fbed48cd81ad"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::pair&lt; std::uint32_t, std::vector&lt; std::uint32_t &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87006f966a4d2529bc55fbed48cd81ad">binGroups</a> () const</td></tr>
 <tr class="memdesc:a87006f966a4d2529bc55fbed48cd81ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bin groups.  <br /></td></tr>
-<tr class="memitem:aaa1f098de66fe00d2a783b34f549ab28" id="r_aaa1f098de66fe00d2a783b34f549ab28"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa1f098de66fe00d2a783b34f549ab28">getGbtsLayerByIndex</a> (std::int32_t idx) const</td></tr>
-<tr class="memdesc:aaa1f098de66fe00d2a783b34f549ab28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer by index.  <br /></td></tr>
-<tr class="memitem:aff1720efb4dbcda54b39ee0ea8c0aaee" id="r_aff1720efb4dbcda54b39ee0ea8c0aaee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff1720efb4dbcda54b39ee0ea8c0aaee">getGbtsLayerByKey</a> (std::uint32_t key) const</td></tr>
-<tr class="memdesc:aff1720efb4dbcda54b39ee0ea8c0aaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer by key.  <br /></td></tr>
-<tr class="memitem:aa1c86a0eedc8149f42ede49e8743a2e9" id="r_aa1c86a0eedc8149f42ede49e8743a2e9"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1c86a0eedc8149f42ede49e8743a2e9">getGbtsLayerKeyByIndex</a> (std::uint32_t idx) const</td></tr>
-<tr class="memdesc:aa1c86a0eedc8149f42ede49e8743a2e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer key by index.  <br /></td></tr>
+<tr class="memitem:a16600ad5672f644a729f396059085150" id="r_a16600ad5672f644a729f396059085150"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16600ad5672f644a729f396059085150">layerById</a> (std::uint32_t id) const</td></tr>
+<tr class="memdesc:a16600ad5672f644a729f396059085150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer by ID.  <br /></td></tr>
+<tr class="memitem:ab75ae42daf69fcc9fd8187915aad2fdf" id="r_ab75ae42daf69fcc9fd8187915aad2fdf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75ae42daf69fcc9fd8187915aad2fdf">layerByIndex</a> (std::int32_t idx) const</td></tr>
+<tr class="memdesc:ab75ae42daf69fcc9fd8187915aad2fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer by index.  <br /></td></tr>
+<tr class="memitem:a7a1047ac6110629515821574d3955adc" id="r_a7a1047ac6110629515821574d3955adc"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a1047ac6110629515821574d3955adc">layerIdByIndex</a> (std::uint32_t idx) const</td></tr>
+<tr class="memdesc:a7a1047ac6110629515821574d3955adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer ID by index.  <br /></td></tr>
 <tr class="memitem:a87557959acaf87b5343b9c80f6a7cc07" id="r_a87557959acaf87b5343b9c80f6a7cc07"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87557959acaf87b5343b9c80f6a7cc07">numBins</a> () const</td></tr>
 <tr class="memdesc:a87557959acaf87b5343b9c80f6a7cc07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of eta bins.  <br /></td></tr>
 <tr class="memitem:a1acec836e27fbb6b30ce48f0bfd5e559" id="r_a1acec836e27fbb6b30ce48f0bfd5e559"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1acec836e27fbb6b30ce48f0bfd5e559">numLayers</a> () const</td></tr>
 <tr class="memdesc:a1acec836e27fbb6b30ce48f0bfd5e559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of layers.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Geometry helper built from silicon layers and connectors. </p>
+<div class="textblock"><p>Geometry helper built from layers and connectors. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a25fdcb8726bd9a77db64c1cc98c603d3" name="a25fdcb8726bd9a77db64c1cc98c603d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25fdcb8726bd9a77db64c1cc98c603d3">&#9670;&#160;</a></span>GbtsGeometry()</h2>
+<a id="a23832c712b3a5882d3e0bd9cfc24d773" name="a23832c712b3a5882d3e0bd9cfc24d773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23832c712b3a5882d3e0bd9cfc24d773">&#9670;&#160;</a></span>GbtsGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,12 +160,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Acts::Experimental::GbtsGeometry::GbtsGeometry </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>layerGeometry</em></span>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>layerDescriptions</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_connector.html">GbtsConnector</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>conn</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layerConnections</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -173,8 +173,8 @@ Public Member Functions</h2></td></tr>
 <p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">layerGeometry</td><td>Silicon layers for geometry </td></tr>
-    <tr><td class="paramname">conn</td><td>Connector for layer connections </td></tr>
+    <tr><td class="paramname">layerDescriptions</td><td>Layer descriptions for the layers </td></tr>
+    <tr><td class="paramname">layerConnections</td><td>Layer connections map </td></tr>
   </table>
   </dd>
 </dl>
@@ -202,14 +202,40 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa1f098de66fe00d2a783b34f549ab28" name="aaa1f098de66fe00d2a783b34f549ab28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa1f098de66fe00d2a783b34f549ab28">&#9670;&#160;</a></span>getGbtsLayerByIndex()</h2>
+<a id="a16600ad5672f644a729f396059085150" name="a16600ad5672f644a729f396059085150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16600ad5672f644a729f396059085150">&#9670;&#160;</a></span>layerById()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> &amp; Acts::Experimental::GbtsGeometry::getGbtsLayerByIndex </td>
+          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> * Acts::Experimental::GbtsGeometry::layerById </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get layer by ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Layer ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to layer or nullptr </dd></dl>
+
+</div>
+</div>
+<a id="ab75ae42daf69fcc9fd8187915aad2fdf" name="ab75ae42daf69fcc9fd8187915aad2fdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75ae42daf69fcc9fd8187915aad2fdf">&#9670;&#160;</a></span>layerByIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> &amp; Acts::Experimental::GbtsGeometry::layerByIndex </td>
           <td>(</td>
           <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
           <td> const</td>
@@ -228,40 +254,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aff1720efb4dbcda54b39ee0ea8c0aaee" name="aff1720efb4dbcda54b39ee0ea8c0aaee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff1720efb4dbcda54b39ee0ea8c0aaee">&#9670;&#160;</a></span>getGbtsLayerByKey()</h2>
+<a id="a7a1047ac6110629515821574d3955adc" name="a7a1047ac6110629515821574d3955adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a1047ac6110629515821574d3955adc">&#9670;&#160;</a></span>layerIdByIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a> * Acts::Experimental::GbtsGeometry::getGbtsLayerByKey </td>
-          <td>(</td>
-          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get layer by key. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">key</td><td>Layer key </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Pointer to layer or nullptr </dd></dl>
-
-</div>
-</div>
-<a id="aa1c86a0eedc8149f42ede49e8743a2e9" name="aa1c86a0eedc8149f42ede49e8743a2e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c86a0eedc8149f42ede49e8743a2e9">&#9670;&#160;</a></span>getGbtsLayerKeyByIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint32_t Acts::Experimental::GbtsGeometry::getGbtsLayerKeyByIndex </td>
+          <td class="memname">std::uint32_t Acts::Experimental::GbtsGeometry::layerIdByIndex </td>
           <td>(</td>
           <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
           <td> const</td>
@@ -269,14 +269,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get layer key by index. </p>
+<p>Get layer ID by index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">idx</td><td>Layer index </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Layer key </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Layer ID </dd></dl>
 
 </div>
 </div>

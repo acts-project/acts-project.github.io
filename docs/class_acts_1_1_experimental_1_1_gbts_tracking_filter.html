@@ -131,12 +131,18 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_tracking_filter.h
 
 <p><code>#include &lt;<a class="el" href="_gbts_tracking_filter_8hpp_source.html">Acts/Seeding2/GbtsTrackingFilter.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the tracking filter.  <a href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#details">More...</a><br /></td></tr>
+<tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html">State</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State for the tracking filter, containing edge states and a global counter.  <a href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa1301bafe0dfaf846473568969a1692b" id="r_aa1301bafe0dfaf846473568969a1692b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1301bafe0dfaf846473568969a1692b">GbtsTrackingFilter</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_config.html">GbtsConfig</a> &amp;config, const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;layerGeometry, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;sb)</td></tr>
-<tr class="memdesc:aa1301bafe0dfaf846473568969a1692b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a6cc1406f9b71d2b21adc559073a2015f" id="r_a6cc1406f9b71d2b21adc559073a2015f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc1406f9b71d2b21adc559073a2015f">followTrack</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;pS)</td></tr>
-<tr class="memdesc:a6cc1406f9b71d2b21adc559073a2015f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Follow track starting from edge.  <br /></td></tr>
+<tr class="memitem:a0faabd4815aba73113bbe44b641b5c1c" id="r_a0faabd4815aba73113bbe44b641b5c1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0faabd4815aba73113bbe44b641b5c1c">GbtsTrackingFilter</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a> &amp;config, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;geometry)</td></tr>
+<tr class="memitem:a0f676ff8f0ab7a2074125db788fe0c4a" id="r_a0f676ff8f0ab7a2074125db788fe0c4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f676ff8f0ab7a2074125db788fe0c4a">followTrack</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html">State</a> &amp;state, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;sb, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;pS) const</td></tr>
+<tr class="memdesc:a0f676ff8f0ab7a2074125db788fe0c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Follow track starting from edge.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -147,8 +153,8 @@ static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tracking filter operating on the GBTS edge graph. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa1301bafe0dfaf846473568969a1692b" name="aa1301bafe0dfaf846473568969a1692b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1301bafe0dfaf846473568969a1692b">&#9670;&#160;</a></span>GbtsTrackingFilter()</h2>
+<a id="a0faabd4815aba73113bbe44b641b5c1c" name="a0faabd4815aba73113bbe44b641b5c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0faabd4815aba73113bbe44b641b5c1c">&#9670;&#160;</a></span>GbtsTrackingFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,27 +162,19 @@ static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom
         <tr>
           <td class="memname">Acts::Experimental::GbtsTrackingFilter::GbtsTrackingFilter </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_config.html">GbtsConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>layerGeometry</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sb</em></span>&#160;)</td>
+          <td class="paramtype">const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">config</td><td>Configuration for seed finder </td></tr>
-    <tr><td class="paramname">layerGeometry</td><td>Geometry layer description </td></tr>
-    <tr><td class="paramname">sb</td><td>Edge storage </td></tr>
+    <tr><td class="paramname">geometry</td><td>GBTS geometry for layer information </td></tr>
   </table>
   </dd>
 </dl>
@@ -184,8 +182,8 @@ static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a6cc1406f9b71d2b21adc559073a2015f" name="a6cc1406f9b71d2b21adc559073a2015f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cc1406f9b71d2b21adc559073a2015f">&#9670;&#160;</a></span>followTrack()</h2>
+<a id="a0f676ff8f0ab7a2074125db788fe0c4a" name="a0f676ff8f0ab7a2074125db788fe0c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f676ff8f0ab7a2074125db788fe0c4a">&#9670;&#160;</a></span>followTrack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,8 +191,17 @@ static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom
         <tr>
           <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> Acts::Experimental::GbtsTrackingFilter::followTrack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pS</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pS</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -202,6 +209,8 @@ static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom
 <p>Follow track starting from edge. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">state</td><td>Tracking filter state </td></tr>
+    <tr><td class="paramname">sb</td><td>Edge storage </td></tr>
     <tr><td class="paramname">pS</td><td>Starting edge </td></tr>
   </table>
   </dd>

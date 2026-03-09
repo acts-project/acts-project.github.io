@@ -6,7 +6,7 @@ var searchData=
   ['layerblueprintnode_3',['LayerBlueprintNode',['../class_acts_1_1_experimental_1_1_layer_blueprint_node.html',1,'Acts::Experimental']]],
   ['layerconfig_4',['LayerConfig',['../struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html',1,'Acts::CuboidVolumeBuilder::LayerConfig'],['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig']]],
   ['layercreator_5',['LayerCreator',['../class_acts_1_1_layer_creator.html',1,'Acts']]],
-  ['layergroup_6',['LayerGroup',['../struct_acts_1_1_experimental_1_1_gbts_connector_1_1_layer_group.html',1,'Acts::Experimental::GbtsConnector']]],
+  ['layergroup_6',['LayerGroup',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection_map_1_1_layer_group.html',1,'Acts::Experimental::GbtsLayerConnectionMap']]],
   ['layerguidedcombinatoric_7',['LayerGuidedCombinatoric',['../class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric.html',1,'Acts::HoughTransformUtils::PeakFinders']]],
   ['layerguidedcombinatoricconfig_8',['LayerGuidedCombinatoricConfig',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html',1,'Acts::HoughTransformUtils::PeakFinders']]],
   ['layoutconfig_9',['LayoutConfig',['../struct_acts_1_1_toroid_field_1_1_layout_config.html',1,'Acts::ToroidField']]],

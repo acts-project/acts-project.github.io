@@ -133,28 +133,23 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_layer.html','','c
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab351c55f4516534b34b295da346e6af3" id="r_ab351c55f4516534b34b295da346e6af3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab351c55f4516534b34b295da346e6af3">GbtsLayer</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &amp;ls, float ew, std::int32_t bin0)</td></tr>
-<tr class="memdesc:ab351c55f4516534b34b295da346e6af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a3f0454ef95e5a5de03c154a59d9fb528" id="r_a3f0454ef95e5a5de03c154a59d9fb528"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::int32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0454ef95e5a5de03c154a59d9fb528">getBins</a> () const</td></tr>
-<tr class="memdesc:a3f0454ef95e5a5de03c154a59d9fb528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bins.  <br /></td></tr>
+<tr class="memitem:a8e52c36cc9744990c1f654712d259192" id="r_a8e52c36cc9744990c1f654712d259192"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e52c36cc9744990c1f654712d259192">GbtsLayer</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &amp;<a class="el" href="#ab5148a87b58fb72d0bb3a1da2e65fdd4">layerDescription</a>, float etaBinWidth, std::int32_t bin0)</td></tr>
+<tr class="memitem:abebf92e0c36243a1e4684a1f08bd6120" id="r_abebf92e0c36243a1e4684a1f08bd6120"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::int32_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebf92e0c36243a1e4684a1f08bd6120">bins</a> () const</td></tr>
+<tr class="memdesc:abebf92e0c36243a1e4684a1f08bd6120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bins.  <br /></td></tr>
+<tr class="memitem:aef62b8f81cc350d558901fc7ca5abb9e" id="r_aef62b8f81cc350d558901fc7ca5abb9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef62b8f81cc350d558901fc7ca5abb9e">checkCompatibility</a> (const <a class="el" href="#a8e52c36cc9744990c1f654712d259192">GbtsLayer</a> &amp;otherLayer, std::uint32_t b1, std::uint32_t b2, float minZ0, float maxZ0) const</td></tr>
+<tr class="memdesc:aef62b8f81cc350d558901fc7ca5abb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify bin compatibility.  <br /></td></tr>
 <tr class="memitem:ad2bfe43e568f8b2bffeab4f635e88b0c" id="r_ad2bfe43e568f8b2bffeab4f635e88b0c"><td class="memItemLeft" align="right" valign="top">std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2bfe43e568f8b2bffeab4f635e88b0c">getEtaBin</a> (float zh, float rh) const</td></tr>
 <tr class="memdesc:ad2bfe43e568f8b2bffeab4f635e88b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get eta bin for given z and r coordinates.  <br /></td></tr>
-<tr class="memitem:ab7abf612fa57278ab114744212c3fd19" id="r_ab7abf612fa57278ab114744212c3fd19"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7abf612fa57278ab114744212c3fd19">getLayer</a> () const</td></tr>
-<tr class="memdesc:ab7abf612fa57278ab114744212c3fd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer.  <br /></td></tr>
-<tr class="memitem:a571be83ac6920d5cf40f4b1af529cd36" id="r_a571be83ac6920d5cf40f4b1af529cd36"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a571be83ac6920d5cf40f4b1af529cd36">getMaxBinRadius</a> (std::int32_t idx) const</td></tr>
-<tr class="memdesc:a571be83ac6920d5cf40f4b1af529cd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum radius for bin index.  <br /></td></tr>
-<tr class="memitem:a09cf1112e83b8d746f5728db34678109" id="r_a09cf1112e83b8d746f5728db34678109"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09cf1112e83b8d746f5728db34678109">getMinBinRadius</a> (std::int32_t idx) const</td></tr>
-<tr class="memdesc:a09cf1112e83b8d746f5728db34678109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get minimum radius for bin index.  <br /></td></tr>
+<tr class="memitem:ab5148a87b58fb72d0bb3a1da2e65fdd4" id="r_ab5148a87b58fb72d0bb3a1da2e65fdd4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5148a87b58fb72d0bb3a1da2e65fdd4">layerDescription</a> () const</td></tr>
+<tr class="memdesc:ab5148a87b58fb72d0bb3a1da2e65fdd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the layer description.  <br /></td></tr>
 <tr class="memitem:a5140e109f93c4ecf406ba0aa97d93002" id="r_a5140e109f93c4ecf406ba0aa97d93002"><td class="memItemLeft" align="right" valign="top">std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5140e109f93c4ecf406ba0aa97d93002">numOfBins</a> () const</td></tr>
 <tr class="memdesc:a5140e109f93c4ecf406ba0aa97d93002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of bins.  <br /></td></tr>
-<tr class="memitem:ad2c11e8cea0066ba7d0740e957c0f06c" id="r_ad2c11e8cea0066ba7d0740e957c0f06c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2c11e8cea0066ba7d0740e957c0f06c">verifyBin</a> (const <a class="el" href="#ab351c55f4516534b34b295da346e6af3">GbtsLayer</a> &amp;pL, std::uint32_t b1, std::uint32_t b2, float minZ0, float maxZ0) const</td></tr>
-<tr class="memdesc:ad2c11e8cea0066ba7d0740e957c0f06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify bin compatibility.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Layer helper with eta-bin access for GBTS seeding. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab351c55f4516534b34b295da346e6af3" name="ab351c55f4516534b34b295da346e6af3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab351c55f4516534b34b295da346e6af3">&#9670;&#160;</a></span>GbtsLayer()</h2>
+<a id="a8e52c36cc9744990c1f654712d259192" name="a8e52c36cc9744990c1f654712d259192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e52c36cc9744990c1f654712d259192">&#9670;&#160;</a></span>GbtsLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,12 +157,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Acts::Experimental::GbtsLayer::GbtsLayer </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ls</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layerDescription</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>ew</em></span>, </td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>etaBinWidth</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -176,12 +171,10 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ls</td><td>Silicon layer descriptor </td></tr>
-    <tr><td class="paramname">ew</td><td>Eta bin width </td></tr>
+    <tr><td class="paramname">layerDescription</td><td>Layer description for the layer </td></tr>
+    <tr><td class="paramname">etaBinWidth</td><td>Eta bin width </td></tr>
     <tr><td class="paramname">bin0</td><td>Starting bin index </td></tr>
   </table>
   </dd>
@@ -190,14 +183,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a3f0454ef95e5a5de03c154a59d9fb528" name="a3f0454ef95e5a5de03c154a59d9fb528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f0454ef95e5a5de03c154a59d9fb528">&#9670;&#160;</a></span>getBins()</h2>
+<a id="abebf92e0c36243a1e4684a1f08bd6120" name="abebf92e0c36243a1e4684a1f08bd6120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abebf92e0c36243a1e4684a1f08bd6120">&#9670;&#160;</a></span>bins()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; std::int32_t &gt; &amp; Acts::Experimental::GbtsLayer::getBins </td>
+          <td class="memname">const std::vector&lt; std::int32_t &gt; &amp; Acts::Experimental::GbtsLayer::bins </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -207,6 +200,55 @@ Public Member Functions</h2></td></tr>
 
 <p>Get bins. </p>
 <dl class="section return"><dt>Returns</dt><dd>Vector of bin indices </dd></dl>
+
+</div>
+</div>
+<a id="aef62b8f81cc350d558901fc7ca5abb9e" name="aef62b8f81cc350d558901fc7ca5abb9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef62b8f81cc350d558901fc7ca5abb9e">&#9670;&#160;</a></span>checkCompatibility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::GbtsLayer::checkCompatibility </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8e52c36cc9744990c1f654712d259192">GbtsLayer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>otherLayer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>b1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>b2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minZ0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxZ0</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify bin compatibility. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">otherLayer</td><td>Other layer to compare with </td></tr>
+    <tr><td class="paramname">b1</td><td>First bin index </td></tr>
+    <tr><td class="paramname">b2</td><td>Second bin index </td></tr>
+    <tr><td class="paramname">minZ0</td><td>Minimum z0 coordinate </td></tr>
+    <tr><td class="paramname">maxZ0</td><td>Maximum z0 coordinate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if bins are compatible </dd></dl>
 
 </div>
 </div>
@@ -241,14 +283,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7abf612fa57278ab114744212c3fd19" name="ab7abf612fa57278ab114744212c3fd19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7abf612fa57278ab114744212c3fd19">&#9670;&#160;</a></span>getLayer()</h2>
+<a id="ab5148a87b58fb72d0bb3a1da2e65fdd4" name="ab5148a87b58fb72d0bb3a1da2e65fdd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5148a87b58fb72d0bb3a1da2e65fdd4">&#9670;&#160;</a></span>layerDescription()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_trig_in_det_si_layer.html">TrigInDetSiLayer</a> &amp; Acts::Experimental::GbtsLayer::getLayer </td>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &amp; Acts::Experimental::GbtsLayer::layerDescription </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -256,60 +298,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get layer. </p>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the silicon layer </dd></dl>
-
-</div>
-</div>
-<a id="a571be83ac6920d5cf40f4b1af529cd36" name="a571be83ac6920d5cf40f4b1af529cd36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a571be83ac6920d5cf40f4b1af529cd36">&#9670;&#160;</a></span>getMaxBinRadius()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::getMaxBinRadius </td>
-          <td>(</td>
-          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get maximum radius for bin index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">idx</td><td>Bin index </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Maximum radius for the bin </dd></dl>
-
-</div>
-</div>
-<a id="a09cf1112e83b8d746f5728db34678109" name="a09cf1112e83b8d746f5728db34678109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09cf1112e83b8d746f5728db34678109">&#9670;&#160;</a></span>getMinBinRadius()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GbtsLayer::getMinBinRadius </td>
-          <td>(</td>
-          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get minimum radius for bin index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">idx</td><td>Bin index </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Minimum radius for the bin </dd></dl>
+<p>Get the layer description. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the layer description </dd></dl>
 
 </div>
 </div>
@@ -330,55 +320,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get number of bins. </p>
 <dl class="section return"><dt>Returns</dt><dd>Number of bins </dd></dl>
-
-</div>
-</div>
-<a id="ad2c11e8cea0066ba7d0740e957c0f06c" name="ad2c11e8cea0066ba7d0740e957c0f06c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2c11e8cea0066ba7d0740e957c0f06c">&#9670;&#160;</a></span>verifyBin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Experimental::GbtsLayer::verifyBin </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ab351c55f4516534b34b295da346e6af3">GbtsLayer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pL</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>b1</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>b2</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minZ0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxZ0</em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Verify bin compatibility. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pL</td><td>Other layer to compare with </td></tr>
-    <tr><td class="paramname">b1</td><td>First bin index </td></tr>
-    <tr><td class="paramname">b2</td><td>Second bin index </td></tr>
-    <tr><td class="paramname">minZ0</td><td>Minimum z0 coordinate </td></tr>
-    <tr><td class="paramname">maxZ0</td><td>Maximum z0 coordinate </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if bins are compatible </dd></dl>
 
 </div>
 </div>
