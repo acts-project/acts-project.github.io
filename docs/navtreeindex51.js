@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ad57ca0a72ed7e987aef26bc2f73bfaca":[5,11,4,4],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ad9d882f2ac3bf3143eeb84fa1dbd84fb":[5,11,4,1],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#af7398d5398563450d5541ee7caa8867d":[5,11,4,3],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html":[5,11,5],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a180f116b8e73a095085b0e9747804763":[5,11,5,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_graph_viz_1_1_node.html#a2e03944af334f0dcdf04d6302cf98a22":[8,0,0,3,1,0],
 "struct_acts_1_1_graph_viz_1_1_node.html#a85a86e00f0f01b4bf7875ea47fed8e61":[8,0,0,3,1,3],
 "struct_acts_1_1_graph_viz_1_1_node.html#adde1760cb23115c76cf3ec36ab036cf6":[8,0,0,3,1,1],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[6,0,0,157,0],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[8,0,0,164,0],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html#a24a329cbfbbc529db9936e829c7a9249":[6,0,0,157,0,0]
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[6,0,0,157,0]
 };

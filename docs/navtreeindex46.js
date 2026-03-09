@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0a61ccf1142bdb27483ac0c7ee468092":[6,0,0,16,0,9],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0a61ccf1142bdb27483ac0c7ee468092":[8,0,0,23,0,9],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[6,0,0,16,0,2],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[8,0,0,23,0,2],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[6,0,0,16,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#a406c7b9e0a23a8125e2a9ec5b34fd6ee":[8,0,0,58,0,2],
 "struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#ae2735d0d61012f686f6108d5b6e3ce53":[6,0,0,51,0,1],
 "struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#ae2735d0d61012f686f6108d5b6e3ce53":[8,0,0,58,0,1],
-"struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html":[6,0,0,51,1],
-"struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html":[8,0,0,58,1],
-"struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html#a2a2b7b4b2b6f3e9029289c18b40360cd":[6,0,0,51,1,0]
+"struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html":[6,0,0,51,1]
 };
