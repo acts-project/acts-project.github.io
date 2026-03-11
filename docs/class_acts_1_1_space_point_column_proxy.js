@@ -20,6 +20,7 @@ var class_acts_1_1_space_point_column_proxy =
     [ "data", "class_acts_1_1_space_point_column_proxy.html#a9169db5830c99b2b473f67de150ce2af", null ],
     [ "operator[]", "class_acts_1_1_space_point_column_proxy.html#adebb68107cfa94ad963e496fa2902dae", null ],
     [ "operator[]", "class_acts_1_1_space_point_column_proxy.html#abb3b1bcaeff20f46ba87c86adb74ed07", null ],
+    [ "size", "class_acts_1_1_space_point_column_proxy.html#a1f401b75bcfc20bf0acff0872541863a", null ],
     [ "subset", "class_acts_1_1_space_point_column_proxy.html#a798375ac0da8649841ae0ec525d27e35", null ],
     [ "ReadOnly", "class_acts_1_1_space_point_column_proxy.html#a653886d7ea5206e2fd8cd0e5841fd1b9", null ]
 ];

@@ -25,7 +25,6 @@ var class_acts_1_1_space_point_proxy2 =
     [ "phi", "class_acts_1_1_space_point_proxy2.html#a0c4d5ce0d3167c4d19ad78b81f72ad93", null ],
     [ "r", "class_acts_1_1_space_point_proxy2.html#a565493ba350edf282a9e47cc517b21fc", null ],
     [ "r", "class_acts_1_1_space_point_proxy2.html#a916d4008939ef8e656850460b68067b1", null ],
-    [ "resolvedIndex", "class_acts_1_1_space_point_proxy2.html#abf171438ca47451912104c01ec355c59", null ],
     [ "sourceLinks", "class_acts_1_1_space_point_proxy2.html#a63072ec3e49c1dc3d02845bf4ae82c07", null ],
     [ "sourceLinks", "class_acts_1_1_space_point_proxy2.html#ada40a7a28b94a8f6ce0d6389b7c1cd80", null ],
     [ "stripCenterDistance", "class_acts_1_1_space_point_proxy2.html#a5df4a0bf3a1da205fea99e06d6484f8b", null ],
