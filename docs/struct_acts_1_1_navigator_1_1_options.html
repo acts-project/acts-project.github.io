@@ -138,14 +138,9 @@ Inheritance diagram for Acts::Navigator::Options:</div>
 <div class="dynheader">
 Collaboration diagram for Acts::Navigator::Options:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_navigator_1_1_options__coll__graph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_navigator_1_1_options__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a499ba9dae8cb863a10e6a59eb339d7ed" id="r_a499ba9dae8cb863a10e6a59eb339d7ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a499ba9dae8cb863a10e6a59eb339d7ed">FreeSurfaceSelctor_t</a></td></tr>
-<tr class="memdesc:a499ba9dae8cb863a10e6a59eb339d7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to decide whether free surfaces are appended to the navigation stream given the current volume and the track coordinates.  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afd1f92c66c08addc64cd839ff73200ad" id="r_afd1f92c66c08addc64cd839ff73200ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1f92c66c08addc64cd839ff73200ad">Options</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx)</td></tr>
@@ -163,70 +158,41 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a87ae52bfc15cf919de5254fdd6aa3579" id="r_a87ae52bfc15cf919de5254fdd6aa3579"><td class="memItemLeft" align="right" valign="top"><a id="a87ae52bfc15cf919de5254fdd6aa3579" name="a87ae52bfc15cf919de5254fdd6aa3579"></a>
 <a class="el" href="class_acts_1_1_navigator.html#a2255f66d39ed11c63cf8f634113de048">ExternalSurfaces</a>&#160;</td><td class="memItemRight" valign="bottom"><b>externalSurfaces</b> = {}</td></tr>
 <tr class="memdesc:a87ae52bfc15cf919de5254fdd6aa3579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Externally provided surfaces - these are tried to be hit. <br /></td></tr>
-<tr class="memitem:a78a34575721b68055887efd73f1d7d21" id="r_a78a34575721b68055887efd73f1d7d21"><td class="memItemLeft" align="right" valign="top"><a id="a78a34575721b68055887efd73f1d7d21" name="a78a34575721b68055887efd73f1d7d21"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>farLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
-<tr class="memdesc:a78a34575721b68055887efd73f1d7d21"><td class="mdescLeft">&#160;</td><td class="mdescRight">The far limit to resolve surfaces. <br /></td></tr>
 <tr class="memitem:ad843066598bd29dfa99adc1a293fef96" id="r_ad843066598bd29dfa99adc1a293fef96"><td class="memItemLeft" align="right" valign="top"><a id="ad843066598bd29dfa99adc1a293fef96" name="ad843066598bd29dfa99adc1a293fef96"></a>
 std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>freeSurfaces</b> = {}</td></tr>
 <tr class="memdesc:ad843066598bd29dfa99adc1a293fef96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surfaces that are not part of the tracking geometry. <br /></td></tr>
-<tr class="memitem:ab1e18e3f1ab2bc8e5862770682098158" id="r_ab1e18e3f1ab2bc8e5862770682098158"><td class="memItemLeft" align="right" valign="top"><a id="ab1e18e3f1ab2bc8e5862770682098158" name="ab1e18e3f1ab2bc8e5862770682098158"></a>
-<a class="el" href="#a499ba9dae8cb863a10e6a59eb339d7ed">FreeSurfaceSelctor_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>freeSurfaceSelector</b> {}</td></tr>
-<tr class="memdesc:ab1e18e3f1ab2bc8e5862770682098158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate for selecting free surfaces during navigation. <br /></td></tr>
-<tr class="memitem:adbd98631066adbd8532caf2aed77ec31" id="r_adbd98631066adbd8532caf2aed77ec31"><td class="memItemLeft" align="right" valign="top"><a id="adbd98631066adbd8532caf2aed77ec31" name="adbd98631066adbd8532caf2aed77ec31"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>nearLimit</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
-<tr class="memdesc:adbd98631066adbd8532caf2aed77ec31"><td class="mdescLeft">&#160;</td><td class="mdescRight">The near limit to resolve surfaces. <br /></td></tr>
-<tr class="memitem:a434c1d6fd011dc4f837770609c3a34e7" id="r_a434c1d6fd011dc4f837770609c3a34e7"><td class="memItemLeft" align="right" valign="top"><a id="a434c1d6fd011dc4f837770609c3a34e7" name="a434c1d6fd011dc4f837770609c3a34e7"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
-<tr class="memdesc:a434c1d6fd011dc4f837770609c3a34e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface tolerance. <br /></td></tr>
 <tr class="inherit_header pub_attribs_struct_acts_1_1_navigator_plain_options"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_struct_acts_1_1_navigator_plain_options')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="struct_acts_1_1_navigator_plain_options.html">Acts::NavigatorPlainOptions</a></td></tr>
+<tr class="memitem:a24c5c0677613a829bc3079001ac493a7 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a24c5c0677613a829bc3079001ac493a7"><td class="memItemLeft" align="right" valign="top">
+double&#160;</td><td class="memItemRight" valign="bottom"><b>farLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
+<tr class="memdesc:a24c5c0677613a829bc3079001ac493a7 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">The far limit to resolve surfaces. <br /></td></tr>
+<tr class="memitem:a85a42ed9be1cc115e3d484d91fc44602 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a85a42ed9be1cc115e3d484d91fc44602"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="struct_acts_1_1_navigator_plain_options.html#a5fa80d8a3b2d28b1939c85994ded9d84">FreeSurfaceSelctor_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>freeSurfaceSelector</b> {}</td></tr>
+<tr class="memdesc:a85a42ed9be1cc115e3d484d91fc44602 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate for selecting free surfaces during navigation. <br /></td></tr>
 <tr class="memitem:abc3b1cbb693a31f9c66d18706fa3a4a0 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_abc3b1cbb693a31f9c66d18706fa3a4a0"><td class="memItemLeft" align="right" valign="top">
 std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
 <tr class="memdesc:abc3b1cbb693a31f9c66d18706fa3a4a0 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry. <br /></td></tr>
+<tr class="memitem:a364dcaa5c3484109e1a33965ac1d437c inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a364dcaa5c3484109e1a33965ac1d437c"><td class="memItemLeft" align="right" valign="top">
+double&#160;</td><td class="memItemRight" valign="bottom"><b>nearLimit</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
+<tr class="memdesc:a364dcaa5c3484109e1a33965ac1d437c inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">The near limit to resolve surfaces. <br /></td></tr>
 <tr class="memitem:a98e6559987f783bef55691fc441dab05 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a98e6559987f783bef55691fc441dab05"><td class="memItemLeft" align="right" valign="top">
 const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>startSurface</b> {}</td></tr>
 <tr class="memdesc:a98e6559987f783bef55691fc441dab05 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start surface for navigation. <br /></td></tr>
+<tr class="memitem:aac15b668f220dde124e5c4294a242fed inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_aac15b668f220dde124e5c4294a242fed"><td class="memItemLeft" align="right" valign="top">
+double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
+<tr class="memdesc:aac15b668f220dde124e5c4294a242fed inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface tolerance. <br /></td></tr>
 <tr class="memitem:acd9c071fde31ef68e855da1880c4526d inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_acd9c071fde31ef68e855da1880c4526d"><td class="memItemLeft" align="right" valign="top">
 const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>targetSurface</b> {}</td></tr>
 <tr class="memdesc:acd9c071fde31ef68e855da1880c4526d inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target surface for navigation. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_struct_acts_1_1_navigator_plain_options"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_struct_acts_1_1_navigator_plain_options')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="struct_acts_1_1_navigator_plain_options.html">Acts::NavigatorPlainOptions</a></td></tr>
+<tr class="memitem:a5fa80d8a3b2d28b1939c85994ded9d84 inherit pub_types_struct_acts_1_1_navigator_plain_options" id="r_a5fa80d8a3b2d28b1939c85994ded9d84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_navigator_plain_options.html#a5fa80d8a3b2d28b1939c85994ded9d84">FreeSurfaceSelctor_t</a></td></tr>
+<tr class="memdesc:a5fa80d8a3b2d28b1939c85994ded9d84 inherit pub_types_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to decide whether free surfaces are appended to the navigation stream given the current volume and the track coordinates.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The navigator options. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a499ba9dae8cb863a10e6a59eb339d7ed" name="a499ba9dae8cb863a10e6a59eb339d7ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a499ba9dae8cb863a10e6a59eb339d7ed">&#9670;&#160;</a></span>FreeSurfaceSelctor_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a499ba9dae8cb863a10e6a59eb339d7ed">Acts::Navigator::Options::FreeSurfaceSelctor_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;bool(</div>
-<div class="line">        <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>&amp; currentVol,</div>
-<div class="line">        <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; pos, <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; dir, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>&amp; candidate)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
-<div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
-<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:54</div></div>
-<div class="ttc" id="aclass_acts_1_1_tracking_volume_html"><div class="ttname"><a href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a></div><div class="ttdoc">Full Volume description used in Tracking, it inherits from Volume to get the geometrical structure.</div><div class="ttdef"><b>Definition</b> TrackingVolume.hpp:100</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:98</div></div>
-</div><!-- fragment -->
-<p>Delegate to decide whether free surfaces are appended to the navigation stream given the current volume and the track coordinates. </p>
-<p>If the delegate is set, it is called in each candidate resolution step for each surface that has not been marked as reached yet. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gctx</td><td>Current geometry context carrying the alignment information </td></tr>
-    <tr><td class="paramname">currentVol</td><td>The current tracking volume in which the propagator resides </td></tr>
-    <tr><td class="paramname">pos</td><td>Position of the track in global coordinates </td></tr>
-    <tr><td class="paramname">dir</td><td>Direction vector of the track </td></tr>
-    <tr><td class="paramname">surface</td><td>Free surface candidate to test </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afd1f92c66c08addc64cd839ff73200ad" name="afd1f92c66c08addc64cd839ff73200ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd1f92c66c08addc64cd839ff73200ad">&#9670;&#160;</a></span>Options()</h2>
 

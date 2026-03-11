@@ -138,7 +138,7 @@ Inheritance diagram for Acts::VoidNavigator::Options:</div>
 <div class="dynheader">
 Collaboration diagram for Acts::VoidNavigator::Options:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_void_navigator_1_1_options__coll__graph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_void_navigator_1_1_options__coll__graph.svg" width="100%" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -153,13 +153,28 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_struct_acts_1_1_navigator_plain_options"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_struct_acts_1_1_navigator_plain_options')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="struct_acts_1_1_navigator_plain_options.html">Acts::NavigatorPlainOptions</a></td></tr>
+<tr class="memitem:a5fa80d8a3b2d28b1939c85994ded9d84 inherit pub_types_struct_acts_1_1_navigator_plain_options" id="r_a5fa80d8a3b2d28b1939c85994ded9d84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_navigator_plain_options.html#a5fa80d8a3b2d28b1939c85994ded9d84">FreeSurfaceSelctor_t</a></td></tr>
+<tr class="memdesc:a5fa80d8a3b2d28b1939c85994ded9d84 inherit pub_types_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to decide whether free surfaces are appended to the navigation stream given the current volume and the track coordinates.  <br /></td></tr>
 <tr class="inherit_header pub_attribs_struct_acts_1_1_navigator_plain_options"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_struct_acts_1_1_navigator_plain_options')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="struct_acts_1_1_navigator_plain_options.html">Acts::NavigatorPlainOptions</a></td></tr>
+<tr class="memitem:a24c5c0677613a829bc3079001ac493a7 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a24c5c0677613a829bc3079001ac493a7"><td class="memItemLeft" align="right" valign="top">
+double&#160;</td><td class="memItemRight" valign="bottom"><b>farLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
+<tr class="memdesc:a24c5c0677613a829bc3079001ac493a7 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">The far limit to resolve surfaces. <br /></td></tr>
+<tr class="memitem:a85a42ed9be1cc115e3d484d91fc44602 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a85a42ed9be1cc115e3d484d91fc44602"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="struct_acts_1_1_navigator_plain_options.html#a5fa80d8a3b2d28b1939c85994ded9d84">FreeSurfaceSelctor_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>freeSurfaceSelector</b> {}</td></tr>
+<tr class="memdesc:a85a42ed9be1cc115e3d484d91fc44602 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate for selecting free surfaces during navigation. <br /></td></tr>
 <tr class="memitem:abc3b1cbb693a31f9c66d18706fa3a4a0 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_abc3b1cbb693a31f9c66d18706fa3a4a0"><td class="memItemLeft" align="right" valign="top">
 std::reference_wrapper&lt; const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>geoContext</b></td></tr>
 <tr class="memdesc:abc3b1cbb693a31f9c66d18706fa3a4a0 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context object for the geometry. <br /></td></tr>
+<tr class="memitem:a364dcaa5c3484109e1a33965ac1d437c inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a364dcaa5c3484109e1a33965ac1d437c"><td class="memItemLeft" align="right" valign="top">
+double&#160;</td><td class="memItemRight" valign="bottom"><b>nearLimit</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
+<tr class="memdesc:a364dcaa5c3484109e1a33965ac1d437c inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">The near limit to resolve surfaces. <br /></td></tr>
 <tr class="memitem:a98e6559987f783bef55691fc441dab05 inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_a98e6559987f783bef55691fc441dab05"><td class="memItemLeft" align="right" valign="top">
 const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>startSurface</b> {}</td></tr>
 <tr class="memdesc:a98e6559987f783bef55691fc441dab05 inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start surface for navigation. <br /></td></tr>
+<tr class="memitem:aac15b668f220dde124e5c4294a242fed inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_aac15b668f220dde124e5c4294a242fed"><td class="memItemLeft" align="right" valign="top">
+double&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTolerance</b> = <a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></td></tr>
+<tr class="memdesc:aac15b668f220dde124e5c4294a242fed inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surface tolerance. <br /></td></tr>
 <tr class="memitem:acd9c071fde31ef68e855da1880c4526d inherit pub_attribs_struct_acts_1_1_navigator_plain_options" id="r_acd9c071fde31ef68e855da1880c4526d"><td class="memItemLeft" align="right" valign="top">
 const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>targetSurface</b> {}</td></tr>
 <tr class="memdesc:acd9c071fde31ef68e855da1880c4526d inherit pub_attribs_struct_acts_1_1_navigator_plain_options"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target surface for navigation. <br /></td></tr>

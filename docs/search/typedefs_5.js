@@ -9,7 +9,7 @@ var searchData=
   ['fpvconstlink_6',['FpvConstLink',['../class_acts_plugins_1_1_geo_model_detector_object_factory.html#a5d4c090b85730d51845b3fe5996c1248',1,'ActsPlugins::GeoModelDetectorObjectFactory::FpvConstLink'],['../struct_acts_plugins_1_1_geo_model_tree.html#ab78ea5dfda0e6db0b470f6ff747a828f',1,'ActsPlugins::GeoModelTree::FpvConstLink']]],
   ['fpvlink_7',['FpvLink',['../struct_acts_plugins_1_1_geo_model_tree.html#a754a20da925365c5e7832f8e0a8e69da',1,'ActsPlugins::GeoModelTree']]],
   ['freematrix_8',['FreeMatrix',['../namespace_acts.html#ad1a683ac2eb65ca8f44fdb2ab856836c',1,'Acts']]],
-  ['freesurfaceselctor_5ft_9',['FreeSurfaceSelctor_t',['../struct_acts_1_1_navigator_1_1_options.html#a499ba9dae8cb863a10e6a59eb339d7ed',1,'Acts::Navigator::Options']]],
+  ['freesurfaceselctor_5ft_9',['FreeSurfaceSelctor_t',['../struct_acts_1_1_navigator_plain_options.html#a5fa80d8a3b2d28b1939c85994ded9d84',1,'Acts::NavigatorPlainOptions']]],
   ['freetoboundmatrix_10',['FreeToBoundMatrix',['../namespace_acts.html#ae99f85f3ec433523b8064f5f2daa38b7',1,'Acts']]],
   ['freetopathmatrix_11',['FreeToPathMatrix',['../namespace_acts.html#a6a5beb945158d8185b7baf48937105ec',1,'Acts']]],
   ['freetrackparameters_12',['FreeTrackParameters',['../namespace_acts.html#a571167e3129b91100b194e36a1277f8d',1,'Acts']]],
