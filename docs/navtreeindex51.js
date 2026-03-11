@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#acd6f0ec2eefa30f29085ce66190cb038":[5,11,6,10],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#adab513d8310f3c678912fedd080c892d":[5,11,6,1],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_result.html#ae55cb7107ba2ff7e36325c074304c037":[5,11,6,8],
 "struct_acts_1_1_experimental_1_1_gx2f_system.html":[5,11,7],
 "struct_acts_1_1_experimental_1_1_gx2f_system.html#a05c9946375dddaa77c84807f39ffcb8a":[5,11,7,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a25f6c5ac20e621cee290566a772db065":[6,0,0,2,1,6],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a25f6c5ac20e621cee290566a772db065":[8,0,0,5,1,6],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a469bccf0ce246f32489acfeef44e5d8f":[6,0,0,2,1,0],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a469bccf0ce246f32489acfeef44e5d8f":[8,0,0,5,1,0],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a4b5d54ff578b5df7f54cd431120abf90":[6,0,0,2,1,3],
-"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a4b5d54ff578b5df7f54cd431120abf90":[8,0,0,5,1,3]
+"struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html#a469bccf0ce246f32489acfeef44e5d8f":[8,0,0,5,1,0]
 };

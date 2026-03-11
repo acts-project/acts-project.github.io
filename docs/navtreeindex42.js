@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a4ae16931882a9e9f8225c7480a468438":[5,4,15,8],
+"group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a673139bdc2587ecbe62795a58e6210f6":[5,4,15,4],
 "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93":[5,4,15,0],
 "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a8aa64b33a3ad296b27c7ae99f16a091e":[5,4,15,7],
 "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6aaccd0c2127ab1e6f988b33e690715462":[5,4,15,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "howto_release.html":[2,2],
 "howto_spack.html":[2,5],
 "index.html":[],
-"index.html":[0],
-"namespace_acts.html":[6,0,0],
-"namespace_acts.html#a00c1bda0e98b2e133600784dbb185048":[6,0,0,698]
+"index.html":[0]
 };

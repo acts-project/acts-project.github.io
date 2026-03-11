@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_kalman_fitter_options.html#a698fb837d25303ee3ef4d3fbf41328ce":[5,11,16,0],
+"struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506":[5,11,16,8],
 "struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839":[5,11,16,3],
 "struct_acts_1_1_kalman_fitter_options.html#ab618db66d3f759d4ea04332b80b962cc":[5,11,16,1],
 "struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1":[5,11,16,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#adadf65077d823e2562cf062dae00c7e9":[8,0,0,11,0,1],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ae14fcd6d4b1f27092379bd0f6127ed82":[8,0,0,11,0,6],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ae9da1e35a604907e5a699fe9e1defc13":[8,0,0,11,0,2],
-"struct_acts_1_1_mutable_proto_layer.html":[6,0,0,273],
-"struct_acts_1_1_mutable_proto_layer.html":[8,0,0,280],
-"struct_acts_1_1_navigation_arguments.html":[6,0,0,274]
+"struct_acts_1_1_mutable_proto_layer.html":[6,0,0,273]
 };

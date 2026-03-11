@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#aa5048234f768aac92d9d7f28ca9ca2aa":[5,9,4,8,24],
+"class_acts_plugins_1_1_mutable_podio_track_state_container.html#aaf1e20d1f2c69b1ae1f55ca742ee6fd2":[5,9,4,8,27],
 "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ab0364d60890150e9013e23c19f6fcb33":[5,9,4,8,4],
 "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ab4dd8ae84ee4d6e87351e1e53c5f977c":[5,9,4,8,10],
 "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ac377c5de2b5141466c2c3c57bcf21a52":[5,9,4,8,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "concept_acts_1_1_regular_surface_concept.html":[6,0,0,493],
 "concept_acts_1_1_regular_surface_concept.html":[7,0,34],
 "concept_acts_1_1_satisfy_candidate_concept.html":[6,0,0,494],
-"concept_acts_1_1_satisfy_candidate_concept.html":[7,0,35],
-"concept_acts_1_1_smart_pointer_concept.html":[6,0,0,495],
-"concept_acts_1_1_smart_pointer_concept.html":[7,0,36]
+"concept_acts_1_1_satisfy_candidate_concept.html":[7,0,35]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_event_data_view3_d.html#abe748c98d9c7d68b3cd8316cb5f8411e":[6,0,0,124,4],
+"struct_acts_1_1_event_data_view3_d.html#abe748c98d9c7d68b3cd8316cb5f8411e":[8,0,0,131,4],
 "struct_acts_1_1_exp_safe_limit.html":[6,0,0,125],
 "struct_acts_1_1_exp_safe_limit.html":[8,0,0,132],
 "struct_acts_1_1_exp_safe_limit_3_01double_01_4.html":[6,0,0,126],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf":[6,0,0,1,12,2],
 "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf":[8,0,0,2,12,2],
 "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0225fa98f3ca1c96f901144b8e355fae":[6,0,0,1,12,6],
-"struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0225fa98f3ca1c96f901144b8e355fae":[8,0,0,2,12,6],
-"struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a09bd7ec4ae08f386df2ea8477444a517":[6,0,0,1,12,11],
-"struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a09bd7ec4ae08f386df2ea8477444a517":[8,0,0,2,12,11]
+"struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0225fa98f3ca1c96f901144b8e355fae":[8,0,0,2,12,6]
 };

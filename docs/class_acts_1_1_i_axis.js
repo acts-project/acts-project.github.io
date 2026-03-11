@@ -3,6 +3,7 @@ var class_acts_1_1_i_axis =
     [ "~IAxis", "class_acts_1_1_i_axis.html#a2cdcbe15e5c2732197b2a24e9c56ce17", null ],
     [ "createEquidistant", "class_acts_1_1_i_axis.html#afdbc5ec67b92f9bb78ac5ff5fa5bbee0", null ],
     [ "createVariable", "class_acts_1_1_i_axis.html#ad1deddc2c2e2a4dfcf3d721c76b2888c", null ],
+    [ "getBin", "class_acts_1_1_i_axis.html#aca481754cc179a670524f39f06e15919", null ],
     [ "getBinEdges", "class_acts_1_1_i_axis.html#a795fb20db8f52e5c984564aeb0115f39", null ],
     [ "getBoundaryType", "class_acts_1_1_i_axis.html#a933b5ea738b1e040db853b4f8d460279", null ],
     [ "getMax", "class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5", null ],

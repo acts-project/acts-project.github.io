@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"class_acts_fatras_1_1_barcode.html#a61676eb6587f4b1dfbfce8fb6009270c":[8,0,1,3,18],
+"class_acts_fatras_1_1_barcode.html#a66b761799f8cc9f482363a7c78393c12":[6,0,2,2,14],
 "class_acts_fatras_1_1_barcode.html#a66b761799f8cc9f482363a7c78393c12":[8,0,1,3,14],
 "class_acts_fatras_1_1_barcode.html#a71ea0012dc101d1f58ce4f31810a1360":[6,0,2,2,5],
 "class_acts_fatras_1_1_barcode.html#a71ea0012dc101d1f58ce4f31810a1360":[8,0,1,3,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "class_acts_fatras_1_1_photon_conversion.html#a4c1d576cc6392fea5cf01d5c6c9535ab":[8,0,1,29,2],
 "class_acts_fatras_1_1_photon_conversion.html#a513b28d61625fb6745e9e2d0abceb252":[6,0,2,28,1],
 "class_acts_fatras_1_1_photon_conversion.html#a513b28d61625fb6745e9e2d0abceb252":[8,0,1,29,1],
-"class_acts_fatras_1_1_photon_conversion.html#aa8ff8801eb6259ca07883471066428fa":[6,0,2,28,0],
-"class_acts_fatras_1_1_photon_conversion.html#aa8ff8801eb6259ca07883471066428fa":[8,0,1,29,0],
-"class_acts_plugins_1_1_ambiguity_track_classifier.html":[5,9,11,0]
+"class_acts_fatras_1_1_photon_conversion.html#aa8ff8801eb6259ca07883471066428fa":[6,0,2,28,0]
 };

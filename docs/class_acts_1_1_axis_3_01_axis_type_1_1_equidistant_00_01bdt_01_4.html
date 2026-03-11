@@ -147,34 +147,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac9c19acdb4633a9b221a0f7a12a7422a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with a tag for the boundary type.  <br /></td></tr>
 <tr class="memitem:aec2b6c5f5c9f71c0252225b2e4b50e1a" id="r_aec2b6c5f5c9f71c0252225b2e4b50e1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2b6c5f5c9f71c0252225b2e4b50e1a">Axis</a> (double xmin, double xmax, std::size_t nBins)</td></tr>
 <tr class="memdesc:aec2b6c5f5c9f71c0252225b2e4b50e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <br /></td></tr>
-<tr class="memitem:a8db2f7d5ed3589caa5ced33f50997bb0" id="r_a8db2f7d5ed3589caa5ced33f50997bb0"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8db2f7d5ed3589caa5ced33f50997bb0">getBin</a> (double x) const</td></tr>
-<tr class="memdesc:a8db2f7d5ed3589caa5ced33f50997bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get corresponding bin index for given coordinate  <br /></td></tr>
+<tr class="memitem:af6a0c69c7b13fead339df69faf305764" id="r_af6a0c69c7b13fead339df69faf305764"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a0c69c7b13fead339df69faf305764">getBin</a> (double x) const final</td></tr>
+<tr class="memdesc:af6a0c69c7b13fead339df69faf305764"><td class="mdescLeft">&#160;</td><td class="mdescRight">get corresponding bin index for given coordinate  <br /></td></tr>
 <tr class="memitem:a080942bc79423034d2642a113f547d2e" id="r_a080942bc79423034d2642a113f547d2e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080942bc79423034d2642a113f547d2e">getBinCenter</a> (std::size_t bin) const</td></tr>
 <tr class="memdesc:a080942bc79423034d2642a113f547d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin center  <br /></td></tr>
-<tr class="memitem:a0a792f4cb605185fe095b673015b2058" id="r_a0a792f4cb605185fe095b673015b2058"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a792f4cb605185fe095b673015b2058">getBinEdges</a> () const override</td></tr>
-<tr class="memdesc:a0a792f4cb605185fe095b673015b2058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector of bin edges.  <br /></td></tr>
+<tr class="memitem:a7b91f7bb386f6816ad4e603dd581ac41" id="r_a7b91f7bb386f6816ad4e603dd581ac41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b91f7bb386f6816ad4e603dd581ac41">getBinEdges</a> () const final</td></tr>
+<tr class="memdesc:a7b91f7bb386f6816ad4e603dd581ac41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector of bin edges.  <br /></td></tr>
 <tr class="memitem:af26e60a29576eda10a0b3f813905563b" id="r_af26e60a29576eda10a0b3f813905563b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26e60a29576eda10a0b3f813905563b">getBinLowerBound</a> (std::size_t bin) const</td></tr>
 <tr class="memdesc:af26e60a29576eda10a0b3f813905563b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get lower bound of bin  <br /></td></tr>
 <tr class="memitem:a8ab452e9891242b1e0b6daf989d22c1c" id="r_a8ab452e9891242b1e0b6daf989d22c1c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab452e9891242b1e0b6daf989d22c1c">getBinUpperBound</a> (std::size_t bin) const</td></tr>
 <tr class="memdesc:a8ab452e9891242b1e0b6daf989d22c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get upper bound of bin  <br /></td></tr>
 <tr class="memitem:a9122d9867bca4c5ddfeb06c5e98ae0f2" id="r_a9122d9867bca4c5ddfeb06c5e98ae0f2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9122d9867bca4c5ddfeb06c5e98ae0f2">getBinWidth</a> (std::size_t=0) const</td></tr>
 <tr class="memdesc:a9122d9867bca4c5ddfeb06c5e98ae0f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin width  <br /></td></tr>
-<tr class="memitem:a3e8fe7d74879b0214c6e11b332620979" id="r_a3e8fe7d74879b0214c6e11b332620979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e8fe7d74879b0214c6e11b332620979">getBoundaryType</a> () const override</td></tr>
-<tr class="memdesc:a3e8fe7d74879b0214c6e11b332620979"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the boundary type set in the template param  <br /></td></tr>
-<tr class="memitem:a7e88bb7160ff2742a86027c593f3dca4" id="r_a7e88bb7160ff2742a86027c593f3dca4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e88bb7160ff2742a86027c593f3dca4">getMax</a> () const override</td></tr>
-<tr class="memdesc:a7e88bb7160ff2742a86027c593f3dca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get maximum of binning range  <br /></td></tr>
-<tr class="memitem:a3f65d474667276ee629c536463a1665c" id="r_a3f65d474667276ee629c536463a1665c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f65d474667276ee629c536463a1665c">getMin</a> () const override</td></tr>
-<tr class="memdesc:a3f65d474667276ee629c536463a1665c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get minimum of binning range  <br /></td></tr>
-<tr class="memitem:a80d784ffcc6763aef657ab200c227fff" id="r_a80d784ffcc6763aef657ab200c227fff"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d784ffcc6763aef657ab200c227fff">getNBins</a> () const override</td></tr>
-<tr class="memdesc:a80d784ffcc6763aef657ab200c227fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">get total number of bins  <br /></td></tr>
-<tr class="memitem:a04fde5d8ca66c8ed319ad1fde928884b" id="r_a04fde5d8ca66c8ed319ad1fde928884b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32f">AxisType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04fde5d8ca66c8ed319ad1fde928884b">getType</a> () const override</td></tr>
-<tr class="memdesc:a04fde5d8ca66c8ed319ad1fde928884b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the type of the axis  <br /></td></tr>
-<tr class="memitem:a242cb8032de1b8167a2551fb6c2c72b1" id="r_a242cb8032de1b8167a2551fb6c2c72b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a242cb8032de1b8167a2551fb6c2c72b1">isEquidistant</a> () const override</td></tr>
-<tr class="memdesc:a242cb8032de1b8167a2551fb6c2c72b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the axis is equidistant  <br /></td></tr>
+<tr class="memitem:afc9ab078ecfb5d434f7795333fd21d62" id="r_afc9ab078ecfb5d434f7795333fd21d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc9ab078ecfb5d434f7795333fd21d62">getBoundaryType</a> () const final</td></tr>
+<tr class="memdesc:afc9ab078ecfb5d434f7795333fd21d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the boundary type set in the template param  <br /></td></tr>
+<tr class="memitem:a9631e6854bce0d97a27d49d1b6cc2389" id="r_a9631e6854bce0d97a27d49d1b6cc2389"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9631e6854bce0d97a27d49d1b6cc2389">getMax</a> () const final</td></tr>
+<tr class="memdesc:a9631e6854bce0d97a27d49d1b6cc2389"><td class="mdescLeft">&#160;</td><td class="mdescRight">get maximum of binning range  <br /></td></tr>
+<tr class="memitem:a4fb1a896cdbc4c4860a12dbb549a0cc2" id="r_a4fb1a896cdbc4c4860a12dbb549a0cc2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fb1a896cdbc4c4860a12dbb549a0cc2">getMin</a> () const final</td></tr>
+<tr class="memdesc:a4fb1a896cdbc4c4860a12dbb549a0cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get minimum of binning range  <br /></td></tr>
+<tr class="memitem:a9e4a88aceb979a8a63c0de645dfac1ab" id="r_a9e4a88aceb979a8a63c0de645dfac1ab"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e4a88aceb979a8a63c0de645dfac1ab">getNBins</a> () const final</td></tr>
+<tr class="memdesc:a9e4a88aceb979a8a63c0de645dfac1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">get total number of bins  <br /></td></tr>
+<tr class="memitem:ad731572824b0cbb96736be20d889aa48" id="r_ad731572824b0cbb96736be20d889aa48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32f">AxisType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad731572824b0cbb96736be20d889aa48">getType</a> () const final</td></tr>
+<tr class="memdesc:ad731572824b0cbb96736be20d889aa48"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the type of the axis  <br /></td></tr>
+<tr class="memitem:aad41f1f23ecc42e5423d88b1f6510d60" id="r_aad41f1f23ecc42e5423d88b1f6510d60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad41f1f23ecc42e5423d88b1f6510d60">isEquidistant</a> () const final</td></tr>
+<tr class="memdesc:aad41f1f23ecc42e5423d88b1f6510d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the axis is equidistant  <br /></td></tr>
 <tr class="memitem:a2c54745ae2b38e1b8de7f2a036b0f631" id="r_a2c54745ae2b38e1b8de7f2a036b0f631"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c54745ae2b38e1b8de7f2a036b0f631">isInside</a> (double x) const</td></tr>
 <tr class="memdesc:a2c54745ae2b38e1b8de7f2a036b0f631"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether value is inside axis limits  <br /></td></tr>
-<tr class="memitem:a8cdf57b40426531ad43a00a2e0ee42e5" id="r_a8cdf57b40426531ad43a00a2e0ee42e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cdf57b40426531ad43a00a2e0ee42e5">isVariable</a> () const override</td></tr>
-<tr class="memdesc:a8cdf57b40426531ad43a00a2e0ee42e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the axis is variable  <br /></td></tr>
+<tr class="memitem:a6ddb8e2cfeeab0e88ee374e7762b1cb0" id="r_a6ddb8e2cfeeab0e88ee374e7762b1cb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ddb8e2cfeeab0e88ee374e7762b1cb0">isVariable</a> () const final</td></tr>
+<tr class="memdesc:a6ddb8e2cfeeab0e88ee374e7762b1cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the axis is variable  <br /></td></tr>
 <tr class="memitem:a67e1e95f6596a4a7771a9879398be140" id="r_a67e1e95f6596a4a7771a9879398be140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_neighbor_hood_indices.html">NeighborHoodIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e1e95f6596a4a7771a9879398be140">neighborHoodIndices</a> (std::size_t idx, std::pair&lt; int, int &gt; sizes={-1, 1}) const</td></tr>
 <tr class="memdesc:a67e1e95f6596a4a7771a9879398be140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size bins which neighbor the one given.  <br /></td></tr>
 <tr class="memitem:a231ac9428c016e0ab322be3fe956ec3a" id="r_a231ac9428c016e0ab322be3fe956ec3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_neighbor_hood_indices.html">NeighborHoodIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a231ac9428c016e0ab322be3fe956ec3a">neighborHoodIndices</a> (std::size_t idx, std::pair&lt; int, int &gt; sizes={-1, 1}) const</td></tr>
@@ -205,8 +205,8 @@ static constexpr <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9b3cefadc2b42ffa5667b630eb2020ad" id="r_a9b3cefadc2b42ffa5667b630eb2020ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3cefadc2b42ffa5667b630eb2020ad">toStream</a> (std::ostream &amp;os) const override</td></tr>
-<tr class="memdesc:a9b3cefadc2b42ffa5667b630eb2020ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch to the correct stream operator.  <br /></td></tr>
+<tr class="memitem:a70ef25bbb1a6048a98f182a857d4a6c3" id="r_a70ef25bbb1a6048a98f182a857d4a6c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70ef25bbb1a6048a98f182a857d4a6c3">toStream</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="memdesc:a70ef25bbb1a6048a98f182a857d4a6c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch to the correct stream operator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -306,13 +306,16 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a8db2f7d5ed3589caa5ced33f50997bb0" name="a8db2f7d5ed3589caa5ced33f50997bb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8db2f7d5ed3589caa5ced33f50997bb0">&#9670;&#160;</a></span>getBin()</h2>
+<a id="af6a0c69c7b13fead339df69faf305764" name="af6a0c69c7b13fead339df69faf305764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a0c69c7b13fead339df69faf305764">&#9670;&#160;</a></span>getBin()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::size_t <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::getBin </td>
@@ -321,6 +324,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>get corresponding bin index for given coordinate </p>
@@ -334,6 +342,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <dl class="section note"><dt>Note</dt><dd>Bin intervals are defined with closed lower bounds and open upper bounds, that is \(l &lt;= x &lt; u\) if the value <code>x</code> lies within a bin with lower bound <code>l</code> and upper bound <code>u</code>. </dd>
 <dd>
 Bin indices start at <code>1</code>. The underflow bin has the index <code>0</code> while the index <span class="tt">nBins + 1</span> indicates the overflow bin . </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_axis.html#aca481754cc179a670524f39f06e15919">Acts::IAxis</a>.</p>
 
 </div>
 </div>
@@ -366,8 +376,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a0a792f4cb605185fe095b673015b2058" name="a0a792f4cb605185fe095b673015b2058"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a792f4cb605185fe095b673015b2058">&#9670;&#160;</a></span>getBinEdges()</h2>
+<a id="a7b91f7bb386f6816ad4e603dd581ac41" name="a7b91f7bb386f6816ad4e603dd581ac41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b91f7bb386f6816ad4e603dd581ac41">&#9670;&#160;</a></span>getBinEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,7 +396,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -480,8 +490,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a3e8fe7d74879b0214c6e11b332620979" name="a3e8fe7d74879b0214c6e11b332620979"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e8fe7d74879b0214c6e11b332620979">&#9670;&#160;</a></span>getBoundaryType()</h2>
+<a id="afc9ab078ecfb5d434f7795333fd21d62" name="afc9ab078ecfb5d434f7795333fd21d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc9ab078ecfb5d434f7795333fd21d62">&#9670;&#160;</a></span>getBoundaryType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -500,7 +510,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -512,8 +522,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a7e88bb7160ff2742a86027c593f3dca4" name="a7e88bb7160ff2742a86027c593f3dca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e88bb7160ff2742a86027c593f3dca4">&#9670;&#160;</a></span>getMax()</h2>
+<a id="a9631e6854bce0d97a27d49d1b6cc2389" name="a9631e6854bce0d97a27d49d1b6cc2389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9631e6854bce0d97a27d49d1b6cc2389">&#9670;&#160;</a></span>getMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,7 +542,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -544,8 +554,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a3f65d474667276ee629c536463a1665c" name="a3f65d474667276ee629c536463a1665c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f65d474667276ee629c536463a1665c">&#9670;&#160;</a></span>getMin()</h2>
+<a id="a4fb1a896cdbc4c4860a12dbb549a0cc2" name="a4fb1a896cdbc4c4860a12dbb549a0cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb1a896cdbc4c4860a12dbb549a0cc2">&#9670;&#160;</a></span>getMin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,7 +574,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -576,8 +586,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a80d784ffcc6763aef657ab200c227fff" name="a80d784ffcc6763aef657ab200c227fff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80d784ffcc6763aef657ab200c227fff">&#9670;&#160;</a></span>getNBins()</h2>
+<a id="a9e4a88aceb979a8a63c0de645dfac1ab" name="a9e4a88aceb979a8a63c0de645dfac1ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e4a88aceb979a8a63c0de645dfac1ab">&#9670;&#160;</a></span>getNBins()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +606,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -608,8 +618,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a04fde5d8ca66c8ed319ad1fde928884b" name="a04fde5d8ca66c8ed319ad1fde928884b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04fde5d8ca66c8ed319ad1fde928884b">&#9670;&#160;</a></span>getType()</h2>
+<a id="ad731572824b0cbb96736be20d889aa48" name="ad731572824b0cbb96736be20d889aa48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad731572824b0cbb96736be20d889aa48">&#9670;&#160;</a></span>getType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -628,7 +638,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -640,8 +650,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a242cb8032de1b8167a2551fb6c2c72b1" name="a242cb8032de1b8167a2551fb6c2c72b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a242cb8032de1b8167a2551fb6c2c72b1">&#9670;&#160;</a></span>isEquidistant()</h2>
+<a id="aad41f1f23ecc42e5423d88b1f6510d60" name="aad41f1f23ecc42e5423d88b1f6510d60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad41f1f23ecc42e5423d88b1f6510d60">&#9670;&#160;</a></span>isEquidistant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -660,7 +670,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -701,8 +711,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a8cdf57b40426531ad43a00a2e0ee42e5" name="a8cdf57b40426531ad43a00a2e0ee42e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cdf57b40426531ad43a00a2e0ee42e5">&#9670;&#160;</a></span>isVariable()</h2>
+<a id="a6ddb8e2cfeeab0e88ee374e7762b1cb0" name="a6ddb8e2cfeeab0e88ee374e7762b1cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ddb8e2cfeeab0e88ee374e7762b1cb0">&#9670;&#160;</a></span>isVariable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -721,7 +731,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -872,8 +882,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a9b3cefadc2b42ffa5667b630eb2020ad" name="a9b3cefadc2b42ffa5667b630eb2020ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b3cefadc2b42ffa5667b630eb2020ad">&#9670;&#160;</a></span>toStream()</h2>
+<a id="a70ef25bbb1a6048a98f182a857d4a6c3" name="a70ef25bbb1a6048a98f182a857d4a6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70ef25bbb1a6048a98f182a857d4a6c3">&#9670;&#160;</a></span>toStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -892,7 +902,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1json_key.html#a7479744df429c8fea9f8ee928e5aa154":[5,9,10,5,1],
+"struct_acts_1_1json_key.html#a77ee8e1c9c2d44148e205602fabeeab5":[5,9,10,5,2],
 "struct_acts_1_1json_key.html#ab4bf758abab9c803b62f84d04f7d56ab":[5,9,10,5,6],
 "struct_acts_1_1json_key.html#ac597499d6cb57761ed7ca2c95fb1bdd2":[5,9,10,5,3],
 "struct_acts_1_1json_key.html#acb766c511c4478d97563b9568422442c":[5,9,10,5,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_fatras_1_1_point_like_process.html#abe08e38ae90865ce72452622756c2a42":[6,0,2,31,4],
 "struct_acts_fatras_1_1_point_like_process.html#abe08e38ae90865ce72452622756c2a42":[8,0,1,32,4],
 "struct_acts_fatras_1_1_point_like_process.html#ad2719025c7e0a85bc8c7036c4eacfdc8":[6,0,2,31,1],
-"struct_acts_fatras_1_1_point_like_process.html#ad2719025c7e0a85bc8c7036c4eacfdc8":[8,0,1,32,1],
-"struct_acts_fatras_1_1_positive_selector.html":[6,0,2,32],
-"struct_acts_fatras_1_1_positive_selector.html":[8,0,1,33]
+"struct_acts_fatras_1_1_point_like_process.html#ad2719025c7e0a85bc8c7036c4eacfdc8":[8,0,1,32,1]
 };

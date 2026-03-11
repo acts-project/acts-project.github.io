@@ -1,14 +1,16 @@
 var NAVTREEINDEX17 =
 {
-"class_acts_1_1_i_axis.html#ab4796d24570d2573c57d2de972466ad0":[8,0,0,183,6],
+"class_acts_1_1_i_axis.html#ab4796d24570d2573c57d2de972466ad0":[8,0,0,183,7],
+"class_acts_1_1_i_axis.html#aca481754cc179a670524f39f06e15919":[6,0,0,176,3],
+"class_acts_1_1_i_axis.html#aca481754cc179a670524f39f06e15919":[8,0,0,183,3],
 "class_acts_1_1_i_axis.html#ad1deddc2c2e2a4dfcf3d721c76b2888c":[6,0,0,176,2],
 "class_acts_1_1_i_axis.html#ad1deddc2c2e2a4dfcf3d721c76b2888c":[8,0,0,183,2],
-"class_acts_1_1_i_axis.html#ada281f1807fe8df8d4b5f058a98810db":[6,0,0,176,12],
-"class_acts_1_1_i_axis.html#ada281f1807fe8df8d4b5f058a98810db":[8,0,0,183,12],
-"class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5":[6,0,0,176,5],
-"class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5":[8,0,0,183,5],
-"class_acts_1_1_i_axis.html#afc8c1d33724463e8039888bfcc6a16fa":[6,0,0,176,11],
-"class_acts_1_1_i_axis.html#afc8c1d33724463e8039888bfcc6a16fa":[8,0,0,183,11],
+"class_acts_1_1_i_axis.html#ada281f1807fe8df8d4b5f058a98810db":[6,0,0,176,13],
+"class_acts_1_1_i_axis.html#ada281f1807fe8df8d4b5f058a98810db":[8,0,0,183,13],
+"class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5":[6,0,0,176,6],
+"class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5":[8,0,0,183,6],
+"class_acts_1_1_i_axis.html#afc8c1d33724463e8039888bfcc6a16fa":[6,0,0,176,12],
+"class_acts_1_1_i_axis.html#afc8c1d33724463e8039888bfcc6a16fa":[8,0,0,183,12],
 "class_acts_1_1_i_axis.html#afdbc5ec67b92f9bb78ac5ff5fa5bbee0":[6,0,0,176,1],
 "class_acts_1_1_i_axis.html#afdbc5ec67b92f9bb78ac5ff5fa5bbee0":[8,0,0,183,1],
 "class_acts_1_1_i_confined_tracking_volume_builder.html":[6,0,0,177],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "class_acts_1_1_impact_point_estimator.html#a7479ac65a2381e436fe63530c136a90b":[8,0,0,194,11],
 "class_acts_1_1_impact_point_estimator.html#a9ccea201cdf538a0ed4f5a44f7cb18db":[6,0,0,187,4],
 "class_acts_1_1_impact_point_estimator.html#a9ccea201cdf538a0ed4f5a44f7cb18db":[8,0,0,194,4],
-"class_acts_1_1_impact_point_estimator.html#ac1ac97791affe6ea342df7eb404a07a9":[6,0,0,187,6],
-"class_acts_1_1_impact_point_estimator.html#ac1ac97791affe6ea342df7eb404a07a9":[8,0,0,194,6],
-"class_acts_1_1_impact_point_estimator.html#ac78a5465ffdd2c4011a9d03dff1cf3bf":[6,0,0,187,10]
+"class_acts_1_1_impact_point_estimator.html#ac1ac97791affe6ea342df7eb404a07a9":[6,0,0,187,6]
 };

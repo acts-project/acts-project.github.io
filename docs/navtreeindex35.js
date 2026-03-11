@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"class_acts_1_1_tracking_geometry_builder.html#a335acb69cf3f3cbc1385b51bb9064e21":[6,0,0,409,1],
+"class_acts_1_1_tracking_geometry_builder.html#a335acb69cf3f3cbc1385b51bb9064e21":[8,0,0,416,1],
 "class_acts_1_1_tracking_geometry_builder.html#a7a14110ab6c6b6806902e7edcb8d55a4":[6,0,0,409,4],
 "class_acts_1_1_tracking_geometry_builder.html#a7a14110ab6c6b6806902e7edcb8d55a4":[8,0,0,416,4],
 "class_acts_1_1_tracking_geometry_builder.html#a982bbce858c7b180f37023fb1770d268":[6,0,0,409,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "class_acts_1_1_triplet_seed_finder.html#abd55070fb7051dc392109e02c109bb0c":[6,0,0,430,6],
 "class_acts_1_1_triplet_seed_finder.html#abd55070fb7051dc392109e02c109bb0c":[8,0,0,437,6],
 "class_acts_1_1_triplet_seed_finder.html#ac25555ec614cbe822a18988d2640cb17":[6,0,0,430,3],
-"class_acts_1_1_triplet_seed_finder.html#ac25555ec614cbe822a18988d2640cb17":[8,0,0,437,3],
-"class_acts_1_1_triplet_seed_finder.html#ad7a43a03159fa5855152221d01940858":[6,0,0,430,2],
-"class_acts_1_1_triplet_seed_finder.html#ad7a43a03159fa5855152221d01940858":[8,0,0,437,2]
+"class_acts_1_1_triplet_seed_finder.html#ac25555ec614cbe822a18988d2640cb17":[8,0,0,437,3]
 };
