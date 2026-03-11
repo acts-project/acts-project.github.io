@@ -7,7 +7,7 @@ var class_acts_1_1_surface_material_mapper =
     [ "SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html#a09d298a561aca82a92ff47fd1ad4b62b", null ],
     [ "createState", "class_acts_1_1_surface_material_mapper.html#acf3c71ea54469f3cbabf50c7f4011c28", null ],
     [ "finalizeMaps", "class_acts_1_1_surface_material_mapper.html#a0f9f88f3b83ea0d280c95a1b9c493309", null ],
-    [ "mapInteraction", "class_acts_1_1_surface_material_mapper.html#a96a3138339bd2da7e758a0423185eea5", null ],
-    [ "mapMaterialTrack", "class_acts_1_1_surface_material_mapper.html#ad14f3e0cc7cc93b64724c62c87e3a2d0", null ],
+    [ "mapInteraction", "class_acts_1_1_surface_material_mapper.html#a0e10d88c62f35ce2b3c17dafc1b50242", null ],
+    [ "mapMaterialTrack", "class_acts_1_1_surface_material_mapper.html#a2a23180b968ff627453022eeaf38cbd4", null ],
     [ "mapSurfaceInteraction", "class_acts_1_1_surface_material_mapper.html#ad8f24d30cfbe2d83b3d3656cbb4e0cf2", null ]
 ];
