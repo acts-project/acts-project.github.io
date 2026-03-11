@@ -1,0 +1,14 @@
+<map id="Acts::CuboidVolumeBuilder::LayerConfig" name="Acts::CuboidVolumeBuilder::LayerConfig">
+<area shape="rect" id="Node000001" title="This struct stores the data for the construction of a PlaneLayer." alt="" coords="725,83,924,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="409,9,572,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="586,52,702,75,728,80,727,85,701,80,585,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,61,135,86"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,64,158,63,409,40,409,46,159,68,149,69"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="383,88,599,128"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="109,89,159,105,216,113,274,117,383,115,383,121,274,122,215,119,158,111,108,94"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="613,103,725,102,725,107,613,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="417,176,564,216"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="577,193,639,186,700,172,752,148,795,121,798,125,755,153,702,177,640,192,578,198"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="9,183,131,209"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="145,193,417,193,417,199,145,199"/>
+</map>

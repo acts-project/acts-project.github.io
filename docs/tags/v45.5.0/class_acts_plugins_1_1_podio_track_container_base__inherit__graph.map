@@ -1,0 +1,7 @@
+<map id="ActsPlugins::PodioTrackContainerBase" name="ActsPlugins::PodioTrackContainerBase">
+<area shape="rect" id="Node000001" title="Base class for PODIO track containers." alt="" coords="5,45,276,70"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_const_podio_track_container.html" title="Read&#45;only track container backend using podio for storage." alt="" coords="324,5,536,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,41,324,34,324,40,269,46"/>
+<area shape="rect" id="Node000003" href="$class_acts_plugins_1_1_mutable_podio_track_container.html" title="Mutable Podio&#45;based track container implementation." alt="" coords="329,69,531,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,69,329,76,328,81,269,74"/>
+</map>

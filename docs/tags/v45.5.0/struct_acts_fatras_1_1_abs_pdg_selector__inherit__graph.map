@@ -1,0 +1,7 @@
+<map id="ActsFatras::AbsPdgSelector&lt; Pdg &gt;" name="ActsFatras::AbsPdgSelector&lt; Pdg &gt;">
+<area shape="rect" id="Node000001" title="Select particles and antiparticles of one specific type." alt="" coords="5,52,204,92"/>
+<area shape="rect" id="Node000002" href="$struct_acts_fatras_1_1_abs_pdg_selector.html" title=" " alt="" coords="384,15,613,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,59,384,43,384,48,218,64"/>
+<area shape="rect" id="Node000003" href="$struct_acts_fatras_1_1_abs_pdg_selector.html" title=" " alt="" coords="385,88,613,128"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,93,228,104,307,111,384,112,384,117,307,116,228,109,177,98"/>
+</map>
