@@ -15,7 +15,6 @@ var class_acts_1_1_seed_container2 =
     [ "assignSpacePointContainer", "class_acts_1_1_seed_container2.html#a7b5d2f368f07a48e9369bd79c3e7ef1b", null ],
     [ "assignSpacePointContainer", "class_acts_1_1_seed_container2.html#a46f2a58797111558a2b76a842964967c", null ],
     [ "assignSpacePointContainer", "class_acts_1_1_seed_container2.html#abcfbed314c789b24d3dbf1f7f042acee", null ],
-    [ "assignSpacePointIndices", "class_acts_1_1_seed_container2.html#a1e19b9f8411fa1b32e98f6603f8351b6", null ],
     [ "at", "class_acts_1_1_seed_container2.html#ad5c38db865bdb906a89b2a1cab57c096", null ],
     [ "at", "class_acts_1_1_seed_container2.html#acdb8ef12d85ca0785575fe789d08ffc7", null ],
     [ "begin", "class_acts_1_1_seed_container2.html#a55d44429dac832a8e7a13a46f690c2f0", null ],
@@ -33,13 +32,7 @@ var class_acts_1_1_seed_container2 =
     [ "operator=", "class_acts_1_1_seed_container2.html#a10923d1e9856fbf697825a3ee832146d", null ],
     [ "operator[]", "class_acts_1_1_seed_container2.html#a51335c773a1aae53bf66a4e3436cc2c2", null ],
     [ "operator[]", "class_acts_1_1_seed_container2.html#a0dcffab9a91cb634ae47b77b0d4fe4e4", null ],
-    [ "quality", "class_acts_1_1_seed_container2.html#a9cd4810fb6d7eebfdb7c80c81286be78", null ],
-    [ "quality", "class_acts_1_1_seed_container2.html#a9c7df8701bcf22f028d94f88f597bb6c", null ],
     [ "reserve", "class_acts_1_1_seed_container2.html#aa15b92b4f1fe8262852ef830aad71687", null ],
     [ "size", "class_acts_1_1_seed_container2.html#ae5fc4a8e49a94e95852d489c0efbfad4", null ],
-    [ "spacePointContainer", "class_acts_1_1_seed_container2.html#aa9432468a5f56b69c9651191f44ac161", null ],
-    [ "spacePointIndices", "class_acts_1_1_seed_container2.html#a2047a552590202cb9ae13771463ed0fa", null ],
-    [ "spacePointIndices", "class_acts_1_1_seed_container2.html#aeef6b2d187c6cb37350bb5549a67763b", null ],
-    [ "vertexZ", "class_acts_1_1_seed_container2.html#a062d8dc58ee1fb014ebf80c2ca1bafe9", null ],
-    [ "vertexZ", "class_acts_1_1_seed_container2.html#a7d821cea221c32e2cbcfa8ad63e65e45", null ]
+    [ "spacePointContainer", "class_acts_1_1_seed_container2.html#aa9432468a5f56b69c9651191f44ac161", null ]
 ];
