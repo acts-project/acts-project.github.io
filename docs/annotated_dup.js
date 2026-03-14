@@ -402,7 +402,7 @@ var annotated_dup =
       [ "MaterialSlab", "class_acts_1_1_material_slab.html", "class_acts_1_1_material_slab" ],
       [ "MaterialSurface", "struct_acts_1_1_material_surface.html", "struct_acts_1_1_material_surface" ],
       [ "MaterialSurfaceIdentifier", "struct_acts_1_1_material_surface_identifier.html", "struct_acts_1_1_material_surface_identifier" ],
-      [ "MaterialValidater", "class_acts_1_1_material_validater.html", "class_acts_1_1_material_validater" ],
+      [ "MaterialValidator", "class_acts_1_1_material_validator.html", "class_acts_1_1_material_validator" ],
       [ "MaterialVolume", "struct_acts_1_1_material_volume.html", "struct_acts_1_1_material_volume" ],
       [ "MbfSmoother", "class_acts_1_1_mbf_smoother.html", "class_acts_1_1_mbf_smoother" ],
       [ "MeasurementSelector", "class_acts_1_1_measurement_selector.html", "class_acts_1_1_measurement_selector" ],

@@ -72,7 +72,7 @@ var searchData=
   ['matchbeforecreate_69',['matchBeforeCreate',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a943fe3475acf317ed99226a20a60ca0f',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
   ['matchedg4volumes_70',['matchedG4Volumes',['../struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9',1,'ActsPlugins::Geant4DetectorSurfaceFactory::Cache']]],
   ['material_71',['material',['../struct_acts_1_1_indexed_material_accessor.html#ad7dec86d0db1fa86dfe9d202360b98ae',1,'Acts::IndexedMaterialAccessor::material'],['../struct_acts_1_1_eigen_stepper_dense_extension.html#a83926fe811cd9d2f4014b072318505a9',1,'Acts::EigenStepperDenseExtension::material']]],
-  ['materialassigner_72',['materialAssigner',['../struct_acts_1_1_material_validater_1_1_config.html#ab79314fa6af08ed4d745d3951ceb0e15',1,'Acts::MaterialValidater::Config']]],
+  ['materialassigner_72',['materialAssigner',['../struct_acts_1_1_material_validator_1_1_config.html#a95bb8dcb669ebdebd40638495e658aa0',1,'Acts::MaterialValidator::Config']]],
   ['materialbin_73',['materialBin',['../struct_acts_1_1_volume_material_mapper_1_1_state.html#a3e31cc9b4e303c58c8ecc4e7f355f6af',1,'Acts::VolumeMaterialMapper::State']]],
   ['materialdecorator_74',['materialDecorator',['../struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ad06b3d86fa787b5397d8da59c16c8e72',1,'Acts::TrackingGeometryBuilder::Config']]],
   ['materialeffectsaccumulator_75',['materialEffectsAccumulator',['../struct_acts_1_1_sympy_stepper_1_1_state.html#ad0c11256008469ac2351ae447da73b34',1,'Acts::SympyStepper::State']]],

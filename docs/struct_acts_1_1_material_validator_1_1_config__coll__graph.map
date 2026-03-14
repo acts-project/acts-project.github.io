@@ -1,4 +1,4 @@
-<map id="Acts::MaterialValidater::Config" name="Acts::MaterialValidater::Config">
+<map id="Acts::MaterialValidator::Config" name="Acts::MaterialValidator::Config">
 <area shape="rect" id="Node000001" title="Nested configuration struct." alt="" coords="19,232,190,272"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,121,204,161"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,175,107,232,102,232,102,175"/>

@@ -17,7 +17,7 @@ var searchData=
   ['materialsurface_14',['MaterialSurface',['../struct_acts_1_1_material_surface.html',1,'Acts']]],
   ['materialsurfaceidentifier_15',['MaterialSurfaceIdentifier',['../struct_acts_1_1_material_surface_identifier.html',1,'Acts']]],
   ['materialtreepayload_16',['MaterialTreePayload',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html',1,'ActsPlugins::RootMaterialMapIo']]],
-  ['materialvalidater_17',['MaterialValidater',['../class_acts_1_1_material_validater.html',1,'Acts']]],
+  ['materialvalidator_17',['MaterialValidator',['../class_acts_1_1_material_validator.html',1,'Acts']]],
   ['materialvolume_18',['MaterialVolume',['../struct_acts_1_1_material_volume.html',1,'Acts']]],
   ['max_19',['Max',['../struct_acts_fatras_1_1_max.html',1,'ActsFatras']]],
   ['maximum_20',['Maximum',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax&lt; identifier_t &gt;::Maximum'],['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html',1,'Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoric&lt; identifier_t &gt;::Maximum']]],

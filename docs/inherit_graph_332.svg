@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_material_validater_1_1_config.html" target="_top" xlink:title="Nested configuration struct.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_material_validator_1_1_config.html" target="_top" xlink:title="Nested configuration struct.">
 <polygon fill="white" stroke="#666666" points="128,-30 0,-30 0,0 128,0 128,-30"/>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MaterialValidater</text>
+<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MaterialValidator</text>
 <text text-anchor="middle" x="64" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>
 </a>
 </g>

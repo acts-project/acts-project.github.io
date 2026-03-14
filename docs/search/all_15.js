@@ -71,7 +71,7 @@ var searchData=
   ['recordedmaterialtrack_68',['RecordedMaterialTrack',['../namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd',1,'Acts']]],
   ['recordedmaterialvolumepoint_69',['RecordedMaterialVolumePoint',['../namespace_acts.html#a9259c24825f667858a4397ffce0e6797',1,'Acts']]],
   ['recordinteractions_70',['recordInteractions',['../struct_acts_1_1_material_interactor.html#acf57d274c33d976f9a6b65afc0e26e24',1,'Acts::MaterialInteractor']]],
-  ['recordmaterial_71',['recordMaterial',['../class_acts_1_1_material_validater.html#a197f40b90e70b13b2316f3a75013a2eb',1,'Acts::MaterialValidater']]],
+  ['recordmaterial_71',['recordMaterial',['../class_acts_1_1_material_validator.html#aee6a01703bc9815b9c3e1e24727d1ba8',1,'Acts::MaterialValidator']]],
   ['recoverspacepoint_72',['recoverSpacePoint',['../class_acts_1_1_space_point_utility.html#a15cd707ead740f86d93797481583c8bf',1,'Acts::SpacePointUtility']]],
   ['rectanglebounds_73',['RectangleBounds',['../class_acts_1_1_rectangle_bounds.html',1,'Acts::RectangleBounds'],['../class_acts_1_1_rectangle_bounds.html#ae390ce111d9ee9649955eeca32580b5e',1,'Acts::RectangleBounds::RectangleBounds(double halfX, double halfY) noexcept(false)'],['../class_acts_1_1_rectangle_bounds.html#a506efa49dce9321f3c4689b3e5cde66c',1,'Acts::RectangleBounds::RectangleBounds(const std::array&lt; double, eSize &gt; &amp;values) noexcept(false)'],['../class_acts_1_1_rectangle_bounds.html#a5ef5cbdc30589cd22a9c08ec9e32da93',1,'Acts::RectangleBounds::RectangleBounds(const Vector2 &amp;min, const Vector2 &amp;max) noexcept(false)']]],
   ['rectanglebounds_74',['rectangleBounds',['../struct_acts_plugins_1_1_geant4_shape_converter.html#aaf8b9aa81ba26700b285afb4498e68d7',1,'ActsPlugins::Geant4ShapeConverter']]],
