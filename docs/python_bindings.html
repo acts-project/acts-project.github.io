@@ -126,7 +126,7 @@ $(function(){initNavTree('python_bindings.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>The examples part of ACTS ships with python bindings using the <span class="tt">pybind11</span> library. Building these bindings can be enabled via <span class="tt">-DACTS_BUILD_EXAMPLES_PYTHON_BINDINGS=ON</span>, and requires a python installation including the development files to be installed. You can then build the special target <span class="tt">ActsPythonBindings</span> to build everything that can be accessed in python.</p>
-<p>The build will create a setup script in <span class="tt">$BUILD_DIR/python/setup.sh</span> which modifies <span class="tt">$PYTHONPATH</span> so that you can import the <span class="tt">acts</span> module in python.</p>
+<p>The build will create a setup script in <span class="tt">$BUILD/this_acts_withdeps.sh</span> which modifies <span class="tt">$PYTHONPATH</span> so that you can import the <span class="tt">acts</span> module in python.</p>
 <p>Here is a minimal example of a python script using the example bindings, which sets up the particle propagation and runs a few events.</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> os</div>
 <div class="line"> </div>
@@ -206,7 +206,7 @@ $(function(){initNavTree('python_bindings.html','',''); });
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
 Python based example scripts</h2>
 <p>The repository contains a set of example scripts that can be used to execute various workflows. They can be found in <span class="tt">$REPO_ROOT/Examples/Scripts/Python</span>. Make sure you have run</p>
-<div class="fragment"><div class="line">source $BUILD_DIR/python/setup.sh</div>
+<div class="fragment"><div class="line">source $BUILD/this_acts_withdeps.sh</div>
 </div><!-- fragment --><p>to make sure python can find the <span class="tt">acts</span> module.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
 Python based unit tests</h2>
