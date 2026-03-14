@@ -143,6 +143,8 @@ Collaboration diagram for Acts::IndexGrid&lt; grid_t &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:ab3114416695f18f83adff71de8d81330" id="r_ab3114416695f18f83adff71de8d81330"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3114416695f18f83adff71de8d81330">Delegate_t</a></td></tr>
+<tr class="memdesc:ab3114416695f18f83adff71de8d81330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the delegate to transform the external point into the grid's coordinate system.  <br /></td></tr>
 <tr class="memitem:a4239aba4f91273de7de37a430b4ad396" id="r_a4239aba4f91273de7de37a430b4ad396"><td class="memItemLeft" align="right" valign="top"><a id="a4239aba4f91273de7de37a430b4ad396" name="a4239aba4f91273de7de37a430b4ad396"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_type</b> = grid_t</td></tr>
 <tr class="memdesc:a4239aba4f91273de7de37a430b4ad396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast the grid type. <br /></td></tr>
@@ -151,6 +153,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_type</b> = grid
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adba5bf73593643d98bcc473a6cacd6f1" id="r_adba5bf73593643d98bcc473a6cacd6f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba5bf73593643d98bcc473a6cacd6f1">IndexGrid</a> (<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;igrid, const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;icasts, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;itr=Transform3::Identity())</td></tr>
 <tr class="memdesc:adba5bf73593643d98bcc473a6cacd6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a grid based surface attacher.  <br /></td></tr>
+<tr class="memitem:a1f93e48b590941e91b13dac4758a9d98" id="r_a1f93e48b590941e91b13dac4758a9d98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f93e48b590941e91b13dac4758a9d98">IndexGrid</a> (<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;igrid, const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;icasts, <a class="el" href="#ab3114416695f18f83adff71de8d81330">Delegate_t</a> trfFunc)</td></tr>
+<tr class="memdesc:a1f93e48b590941e91b13dac4758a9d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a grid based surface attacher with alignable delegate.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -160,9 +164,9 @@ std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c5981
 <tr class="memitem:ac133f4132a37b296b4dd306b8de731e3" id="r_ac133f4132a37b296b4dd306b8de731e3"><td class="memItemLeft" align="right" valign="top"><a id="ac133f4132a37b296b4dd306b8de731e3" name="ac133f4132a37b296b4dd306b8de731e3"></a>
 <a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>grid</b></td></tr>
 <tr class="memdesc:ac133f4132a37b296b4dd306b8de731e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The grid where the indices are stored. <br /></td></tr>
-<tr class="memitem:ab61cfca41624548c4c76ebf51ebdf854" id="r_ab61cfca41624548c4c76ebf51ebdf854"><td class="memItemLeft" align="right" valign="top"><a id="ab61cfca41624548c4c76ebf51ebdf854" name="ab61cfca41624548c4c76ebf51ebdf854"></a>
-<a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transform</b> = Transform3::Identity()</td></tr>
-<tr class="memdesc:ab61cfca41624548c4c76ebf51ebdf854"><td class="mdescLeft">&#160;</td><td class="mdescRight">A transform to be applied to the position. <br /></td></tr>
+<tr class="memitem:a81f68e6a46d74b0a3729d4c6b6424906" id="r_a81f68e6a46d74b0a3729d4c6b6424906"><td class="memItemLeft" align="right" valign="top"><a id="a81f68e6a46d74b0a3729d4c6b6424906" name="a81f68e6a46d74b0a3729d4c6b6424906"></a>
+<a class="el" href="#ab3114416695f18f83adff71de8d81330">Delegate_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>toLocalFrame</b> = nullptr</td></tr>
+<tr class="memdesc:a81f68e6a46d74b0a3729d4c6b6424906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to transform the external points into the grid's coordinate system. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename grid_t&gt;<br />
@@ -178,9 +182,32 @@ class Acts::IndexGrid&lt; grid_t &gt;</div><p>This is an index grid based naviga
   </table>
   </dd>
 </dl>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a id="ab3114416695f18f83adff71de8d81330" name="ab3114416695f18f83adff71de8d81330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3114416695f18f83adff71de8d81330">&#9670;&#160;</a></span>Delegate_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename grid_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::Delegate_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      std::function&lt;<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&amp;(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx)&gt;</div>
+<div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga0b5cf144852112b0c7f251a493d8877e"><div class="ttname"><a href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Affine &gt; Transform3</div><div class="ttdoc">3D affine transformation stored as a 4x4 matrix</div><div class="ttdef"><b>Definition</b> Algebra.hpp:125</div></div>
+</div><!-- fragment -->
+<p>Abrivation of the delegate to transform the external point into the grid's coordinate system. </p>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adba5bf73593643d98bcc473a6cacd6f1" name="adba5bf73593643d98bcc473a6cacd6f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adba5bf73593643d98bcc473a6cacd6f1">&#9670;&#160;</a></span>IndexGrid()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adba5bf73593643d98bcc473a6cacd6f1">&#9670;&#160;</a></span>IndexGrid() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,6 +238,44 @@ template&lt;typename grid_t&gt; </div>
     <tr><td class="paramname">igrid</td><td>the grid that is moved into this attacher </td></tr>
     <tr><td class="paramname">icasts</td><td>is the cast values array </td></tr>
     <tr><td class="paramname">itr</td><td>a transform applied to the global position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1f93e48b590941e91b13dac4758a9d98" name="a1f93e48b590941e91b13dac4758a9d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f93e48b590941e91b13dac4758a9d98">&#9670;&#160;</a></span>IndexGrid() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename grid_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_index_grid.html">Acts::IndexGrid</a>&lt; grid_t &gt;::IndexGrid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>igrid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>icasts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ab3114416695f18f83adff71de8d81330">Delegate_t</a></td>          <td class="paramname"><span class="paramname"><em>trfFunc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor for a grid based surface attacher with alignable delegate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">igrid</td><td>the grid that is moved into this attacher </td></tr>
+    <tr><td class="paramname">icasts</td><td>is the cast values array </td></tr>
+    <tr><td class="paramname">trfFunc</td><td>a transform applied to the global position </td></tr>
   </table>
   </dd>
 </dl>

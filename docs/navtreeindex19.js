@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"class_acts_1_1_intersection_material_assigner.html":[8,0,0,209],
+"class_acts_1_1_intersection_material_assigner.html#a7c734eacae854b74f7379c01b1bab8d8":[6,0,0,202,2],
+"class_acts_1_1_intersection_material_assigner.html#a7c734eacae854b74f7379c01b1bab8d8":[8,0,0,209,2],
+"class_acts_1_1_intersection_material_assigner.html#af14a18356586448146d8c85dc11ddee8":[6,0,0,202,1],
 "class_acts_1_1_intersection_material_assigner.html#af14a18356586448146d8c85dc11ddee8":[8,0,0,209,1],
 "class_acts_1_1_iterative_vertex_finder.html":[6,0,0,216],
 "class_acts_1_1_iterative_vertex_finder.html":[8,0,0,223],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "class_acts_1_1_line_surface.html#ac1f3098d30fd4aab4553f6ea4c0cc233":[6,0,0,244,22],
 "class_acts_1_1_line_surface.html#ac1f3098d30fd4aab4553f6ea4c0cc233":[8,0,0,251,22],
 "class_acts_1_1_line_surface.html#ada5c1353b61b76ca4ac82a2d4abed7e1":[6,0,0,244,11],
-"class_acts_1_1_line_surface.html#ada5c1353b61b76ca4ac82a2d4abed7e1":[8,0,0,251,11],
-"class_acts_1_1_line_surface.html#adb4360de382f6fa4197c9312d48bccfb":[6,0,0,244,6],
-"class_acts_1_1_line_surface.html#adb4360de382f6fa4197c9312d48bccfb":[8,0,0,251,6],
-"class_acts_1_1_line_surface.html#adf1f5aa831abd06b67758f2f72d4d1bd":[6,0,0,244,19],
-"class_acts_1_1_line_surface.html#adf1f5aa831abd06b67758f2f72d4d1bd":[8,0,0,251,19]
+"class_acts_1_1_line_surface.html#ada5c1353b61b76ca4ac82a2d4abed7e1":[8,0,0,251,11]
 };

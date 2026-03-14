@@ -66,7 +66,7 @@ var searchData=
   ['indexedmaterialtreename_63',['indexedMaterialTreeName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ada2b4d74b7dafc6cdc52182abacd7af5',1,'ActsPlugins::RootMaterialMapIo::Options']]],
   ['indexedsurfacematerial_64',['IndexedSurfaceMaterial',['../group__material.html#gaad5c814e3aa3cfb77dd2dc46abc2099b',1,'Acts']]],
   ['indexedupdatortype_65',['IndexedUpdatorType',['../class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#a6e6b0adc3cf07e2f7a9344c780fe1f33',1,'Acts::Experimental::MultiLayerNavigationPolicy']]],
-  ['indexgrid_66',['IndexGrid',['../class_acts_1_1_index_grid.html',1,'Acts::IndexGrid&lt; grid_t &gt;'],['../class_acts_1_1_index_grid.html#adba5bf73593643d98bcc473a6cacd6f1',1,'Acts::IndexGrid::IndexGrid()']]],
+  ['indexgrid_66',['IndexGrid',['../class_acts_1_1_index_grid.html',1,'Acts::IndexGrid&lt; grid_t &gt;'],['../class_acts_1_1_index_grid.html#adba5bf73593643d98bcc473a6cacd6f1',1,'Acts::IndexGrid::IndexGrid(grid_type &amp;&amp;igrid, const std::array&lt; AxisDirection, grid_type::DIM &gt; &amp;icasts, const Transform3 &amp;itr=Transform3::Identity())'],['../class_acts_1_1_index_grid.html#a1f93e48b590941e91b13dac4758a9d98',1,'Acts::IndexGrid::IndexGrid(grid_type &amp;&amp;igrid, const std::array&lt; AxisDirection, grid_type::DIM &gt; &amp;icasts, Delegate_t trfFunc)']]],
   ['indexgrid_67',['indexGrid',['../class_acts_1_1_index_grid_navigation_policy.html#ae8b3fd422f399f7e8e3b25ba4dc66001',1,'Acts::IndexGridNavigationPolicy']]],
   ['indexgrid_3c_20gridtype_20_3e_68',['IndexGrid&lt; GridType &gt;',['../class_acts_1_1_index_grid.html',1,'Acts']]],
   ['indexgridfiller_69',['IndexGridFiller',['../struct_acts_1_1_index_grid_filler.html',1,'Acts']]],

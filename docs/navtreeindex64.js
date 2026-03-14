@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_single_particle_simulation.html#a4f40f36a56b00befeafcf526c2b24f9a":[6,0,2,37,8],
+"struct_acts_fatras_1_1_single_particle_simulation.html#a4f40f36a56b00befeafcf526c2b24f9a":[8,0,1,38,8],
+"struct_acts_fatras_1_1_single_particle_simulation.html#a9af98b4ed8509d0dc4c1de345f9102c2":[6,0,2,37,1],
+"struct_acts_fatras_1_1_single_particle_simulation.html#a9af98b4ed8509d0dc4c1de345f9102c2":[8,0,1,38,1],
 "struct_acts_fatras_1_1_single_particle_simulation.html#a9d0943350edbd6bdfee332d2c5e4cffa":[6,0,2,37,3],
 "struct_acts_fatras_1_1_single_particle_simulation.html#a9d0943350edbd6bdfee332d2c5e4cffa":[8,0,1,38,3],
 "struct_acts_fatras_1_1_single_particle_simulation.html#aa7e930e526ab1e253685a721f0df879c":[6,0,2,37,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html":[5,9,12,3,2],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a5c819e6c1c6a2bbf165cf5b9bafaaf29":[5,9,12,3,2,2],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a7a534912af97f4922409c78eeaaddda9":[5,9,12,3,2,0],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#acc6f1aeb28189b70f4448cb113a79e91":[5,9,12,3,2,1],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ada2b4d74b7dafc6cdc52182abacd7af5":[5,9,12,3,2,4],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#ae2c38da478a3d5a345b810c692ddadd4":[5,9,12,3,2,3],
-"struct_acts_plugins_1_1_root_material_track_io_1_1_config.html":[5,9,12,4,0],
-"struct_acts_plugins_1_1_root_material_track_io_1_1_config.html#a16388fb8f92d642e9c24073182ae9d3b":[5,9,12,4,0,0]
+"struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#acc6f1aeb28189b70f4448cb113a79e91":[5,9,12,3,2,1]
 };

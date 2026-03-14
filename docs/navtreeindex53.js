@@ -1,5 +1,9 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#afc91f3d2e517bb87784c4d9f8106cadd":[8,0,0,182,1,2],
+"struct_acts_1_1_i_grid_material_accessor.html":[5,3,2,11],
+"struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[6,0,0,188,0],
+"struct_acts_1_1_i_navigation_policy_1_1_empty_state.html":[8,0,0,195,0],
 "struct_acts_1_1_i_reference_generator.html":[6,0,0,203],
 "struct_acts_1_1_i_reference_generator.html":[8,0,0,210],
 "struct_acts_1_1_i_reference_generator.html#a47965ad0050064bd8d14baec0176d8de":[6,0,0,203,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_kalman_fitter_result.html#afa3c30a24dc52e2942d5e3e0d9448e80":[5,11,17,4],
 "struct_acts_1_1_layer_array_creator_1_1_config.html":[6,0,0,239,0],
 "struct_acts_1_1_layer_array_creator_1_1_config.html":[8,0,0,246,0],
-"struct_acts_1_1_layer_creator_1_1_config.html":[6,0,0,240,0],
-"struct_acts_1_1_layer_creator_1_1_config.html":[8,0,0,247,0],
-"struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730":[6,0,0,240,0,3],
-"struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730":[8,0,0,247,0,3],
-"struct_acts_1_1_layer_creator_1_1_config.html#a92e7d98109ecf10280dc1e0ddbe258e9":[6,0,0,240,0,4]
+"struct_acts_1_1_layer_creator_1_1_config.html":[6,0,0,240,0]
 };
