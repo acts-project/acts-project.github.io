@@ -83,7 +83,7 @@ var searchData=
   ['materialkey_80',['materialkey',['../struct_acts_1_1json_key.html#acb766c511c4478d97563b9568422442c',1,'Acts::jsonKey']]],
   ['materiallist_81',['materialList',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html#a40343b24469cd1e6d1dd790d36c6c13a',1,'ActsPlugins::GeoModelDetectorObjectFactory::Config']]],
   ['materialslab_82',['materialSlab',['../struct_acts_1_1_material_interaction.html#aefc85e7f93233970768827bfc95f3ae9',1,'Acts::MaterialInteraction']]],
-  ['materialsurfaces_83',['materialSurfaces',['../struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#a406c7b9e0a23a8125e2a9ec5b34fd6ee',1,'Acts::BinnedSurfaceMaterialAccumulater::Config']]],
+  ['materialsurfaces_83',['materialSurfaces',['../struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#a076bdf5eb88751fcac1e8b1069a41982',1,'Acts::BinnedSurfaceMaterialAccumulator::Config']]],
   ['max_84',['max',['../struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a1a1040b70304f3efc0dce1846da595a0',1,'Acts::SurfaceArrayCreator::ProtoAxis::max'],['../class_acts_1_1_binning_data.html#a51c0294d8b7b9f42a3f4f855e3ebc012',1,'Acts::BinningData::max']]],
   ['maxabseta_85',['maxAbsEta',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#ab8e9d32bf64faae6c358ba36974dc164',1,'Acts::HoughVertexFinder::Config::maxAbsEta'],['../struct_acts_1_1_hough_vertex_finder2_1_1_config.html#abf742edc7de2e469dc7bb0c8e5330125',1,'Acts::HoughVertexFinder2::Config::maxAbsEta']]],
   ['maxanglephi_86',['maxAnglePhi',['../struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a0228b6f3bf61608d70c1eccc5353181d',1,'Acts::StripSpacePointBuilder::ClusterPairingOptions']]],

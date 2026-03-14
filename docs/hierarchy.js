@@ -60,7 +60,7 @@ var hierarchy =
     ] ],
     [ "Acts::BinnedGroup&lt; grid_t &gt;", "class_acts_1_1_binned_group.html", null ],
     [ "Acts::BinnedGroupIterator&lt; grid_t &gt;", "class_acts_1_1_binned_group_iterator.html", null ],
-    [ "Acts::BinnedSurfaceMaterialAccumulater::Config", "struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html", null ],
+    [ "Acts::BinnedSurfaceMaterialAccumulator::Config", "struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html", null ],
     [ "Acts::BinningData", "class_acts_1_1_binning_data.html", null ],
     [ "Acts::BinUtility", "class_acts_1_1_bin_utility.html", null ],
     [ "Acts::BoundarySurfaceT&lt; volume_t &gt;", "class_acts_1_1_boundary_surface_t.html", null ],
@@ -478,11 +478,11 @@ var hierarchy =
       ] ],
       [ "Acts::ProtoSurfaceMaterialT< BinningType >", "class_acts_1_1_proto_surface_material_t.html", null ]
     ] ],
-    [ "Acts::ISurfaceMaterialAccumulater", "class_acts_1_1_i_surface_material_accumulater.html", [
-      [ "Acts::BinnedSurfaceMaterialAccumulater", "class_acts_1_1_binned_surface_material_accumulater.html", null ]
+    [ "Acts::ISurfaceMaterialAccumulator", "class_acts_1_1_i_surface_material_accumulator.html", [
+      [ "Acts::BinnedSurfaceMaterialAccumulator", "class_acts_1_1_binned_surface_material_accumulator.html", null ]
     ] ],
-    [ "Acts::ISurfaceMaterialAccumulater::State", "class_acts_1_1_i_surface_material_accumulater_1_1_state.html", [
-      [ "Acts::BinnedSurfaceMaterialAccumulater::State", "struct_acts_1_1_binned_surface_material_accumulater_1_1_state.html", null ]
+    [ "Acts::ISurfaceMaterialAccumulator::State", "class_acts_1_1_i_surface_material_accumulator_1_1_state.html", [
+      [ "Acts::BinnedSurfaceMaterialAccumulator::State", "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html", null ]
     ] ],
     [ "Acts::IterativeVertexFinder::Config", "struct_acts_1_1_iterative_vertex_finder_1_1_config.html", null ],
     [ "Acts::IterativeVertexFinder::State", "struct_acts_1_1_iterative_vertex_finder_1_1_state.html", null ],

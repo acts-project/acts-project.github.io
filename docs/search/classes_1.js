@@ -16,7 +16,7 @@ var searchData=
   ['binnedgroup_3c_20gridtype_20_3e_13',['BinnedGroup&lt; GridType &gt;',['../class_acts_1_1_binned_group.html',1,'Acts']]],
   ['binnedgroupiterator_14',['BinnedGroupIterator',['../class_acts_1_1_binned_group_iterator.html',1,'Acts']]],
   ['binnedsurfacematerial_15',['BinnedSurfaceMaterial',['../class_acts_1_1_binned_surface_material.html',1,'Acts']]],
-  ['binnedsurfacematerialaccumulater_16',['BinnedSurfaceMaterialAccumulater',['../class_acts_1_1_binned_surface_material_accumulater.html',1,'Acts']]],
+  ['binnedsurfacematerialaccumulator_16',['BinnedSurfaceMaterialAccumulator',['../class_acts_1_1_binned_surface_material_accumulator.html',1,'Acts']]],
   ['binningdata_17',['BinningData',['../class_acts_1_1_binning_data.html',1,'Acts']]],
   ['binutility_18',['BinUtility',['../class_acts_1_1_bin_utility.html',1,'Acts']]],
   ['blueprint_19',['Blueprint',['../class_acts_1_1_experimental_1_1_blueprint.html',1,'Acts::Experimental']]],

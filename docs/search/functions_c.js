@@ -55,7 +55,7 @@ var searchData=
   ['materialisvalid_52',['materialIsValid',['../struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2',1,'Acts::Experimental::ScatteringProperties']]],
   ['materialmapjsonconverter_53',['MaterialMapJsonConverter',['../class_acts_1_1_material_map_json_converter.html#aa858627ef724481c3c99aa6ab51555cc',1,'Acts::MaterialMapJsonConverter']]],
   ['materialmaplookup_54',['MaterialMapLookup',['../struct_acts_1_1_material_map_lookup.html#ac35940a0af1725b004bfc5c1c538736c',1,'Acts::MaterialMapLookup']]],
-  ['materialmapper_55',['MaterialMapper',['../class_acts_1_1_material_mapper.html#a06d104d79b5fc3a144fe821e267f453a',1,'Acts::MaterialMapper']]],
+  ['materialmapper_55',['MaterialMapper',['../class_acts_1_1_material_mapper.html#aa3fc1ef5385b5d935c8ffaa63a153a00',1,'Acts::MaterialMapper']]],
   ['materialmapperrz_56',['materialMapperRZ',['../group__material.html#ga36398a73a93820ca563cdaebf35c8c99',1,'Acts']]],
   ['materialmapperxyz_57',['materialMapperXYZ',['../group__material.html#ga58e02a2bfb006720b513203973586084',1,'Acts']]],
   ['materialmaps_58',['materialMaps',['../class_acts_plugins_1_1_root_material_decorator.html#afdd9af7c231f22eb10586104577dd49e',1,'ActsPlugins::RootMaterialDecorator']]],

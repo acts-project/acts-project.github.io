@@ -33,7 +33,7 @@ var searchData=
   ['_7einavigationpolicy_30',['~INavigationPolicy',['../class_acts_1_1_i_navigation_policy.html#a4a5cc5d6ccf2d634e70160e6da727a77',1,'Acts::INavigationPolicy']]],
   ['_7eisurfacegridlookup_31',['~ISurfaceGridLookup',['../struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html#a4d5ddc711ba216f74b56c633f21891e4',1,'Acts::SurfaceArray::ISurfaceGridLookup']]],
   ['_7eisurfacematerial_32',['~ISurfaceMaterial',['../class_acts_1_1_i_surface_material.html#a1ccdc97ec06bf80f5030a0d8ebfb90b5',1,'Acts::ISurfaceMaterial']]],
-  ['_7eisurfacematerialaccumulater_33',['~ISurfaceMaterialAccumulater',['../class_acts_1_1_i_surface_material_accumulater.html#a0bc744e32cdb3f0ab74cf0f3abc15563',1,'Acts::ISurfaceMaterialAccumulater']]],
+  ['_7eisurfacematerialaccumulator_33',['~ISurfaceMaterialAccumulator',['../class_acts_1_1_i_surface_material_accumulator.html#a30c36940b0d558c07baa817aeb76133b',1,'Acts::ISurfaceMaterialAccumulator']]],
   ['_7eitgeoidentifierprovider_34',['~ITGeoIdentifierProvider',['../class_acts_plugins_1_1_i_t_geo_identifier_provider.html#ab561bbad8e95f4121e12f39dd48c387b',1,'ActsPlugins::ITGeoIdentifierProvider']]],
   ['_7eitrackinggeometrybuilder_35',['~ITrackingGeometryBuilder',['../class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca',1,'Acts::ITrackingGeometryBuilder']]],
   ['_7eitrackingvolumearraycreator_36',['~ITrackingVolumeArrayCreator',['../class_acts_1_1_i_tracking_volume_array_creator.html#ac2d424a0872722bef6e1bd2f0704eb7a',1,'Acts::ITrackingVolumeArrayCreator']]],

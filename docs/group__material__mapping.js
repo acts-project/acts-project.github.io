@@ -35,15 +35,15 @@ var group__material__mapping =
     [ "Acts::MaterialMapper", "class_acts_1_1_material_mapper.html", [
       [ "Config", "struct_acts_1_1_material_mapper_1_1_config.html", [
         [ "assignmentFinder", "struct_acts_1_1_material_mapper_1_1_config.html#a8faaafc7224e9d3414d3332b526092e6", null ],
-        [ "surfaceMaterialAccumulater", "struct_acts_1_1_material_mapper_1_1_config.html#a72ef003143a7678b8378c9c23785868f", null ]
+        [ "surfaceMaterialAccumulator", "struct_acts_1_1_material_mapper_1_1_config.html#abeef6b9b5023b6c958231b4713b9e8a7", null ]
       ] ],
       [ "Options", "struct_acts_1_1_material_mapper_1_1_options.html", [
         [ "assignmentOptions", "struct_acts_1_1_material_mapper_1_1_options.html#a90ae8885880c8b835300deceb21b157b", null ]
       ] ],
       [ "State", "struct_acts_1_1_material_mapper_1_1_state.html", [
-        [ "surfaceMaterialAccumulaterState", "struct_acts_1_1_material_mapper_1_1_state.html#abb577d93dee6090cf59a38beb7d8539e", null ]
+        [ "surfaceMaterialAccumulatorState", "struct_acts_1_1_material_mapper_1_1_state.html#a2f245ba3381f8586259bd651c81c285a", null ]
       ] ],
-      [ "MaterialMapper", "class_acts_1_1_material_mapper.html#a06d104d79b5fc3a144fe821e267f453a", null ],
+      [ "MaterialMapper", "class_acts_1_1_material_mapper.html#aa3fc1ef5385b5d935c8ffaa63a153a00", null ],
       [ "createState", "class_acts_1_1_material_mapper.html#ab3706e3e021fa1b51fe5aa59c3498d31", null ],
       [ "finalizeMaps", "class_acts_1_1_material_mapper.html#a56b9436f9d2fadf4b395c8e94f886afc", null ],
       [ "mapMaterial", "class_acts_1_1_material_mapper.html#a3c0d9be739a17e674709ccd0f181ccd6", null ]

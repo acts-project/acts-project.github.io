@@ -61,7 +61,7 @@ var searchData=
   ['isreadonlytrackcontainer_3c_20vectortrackcontainer_20_3e_58',['IsReadOnlyTrackContainer&lt; VectorTrackContainer &gt;',['../struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html',1,'Acts']]],
   ['isurfacegridlookup_59',['ISurfaceGridLookup',['../struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html',1,'Acts::SurfaceArray']]],
   ['isurfacematerial_60',['ISurfaceMaterial',['../class_acts_1_1_i_surface_material.html',1,'Acts']]],
-  ['isurfacematerialaccumulater_61',['ISurfaceMaterialAccumulater',['../class_acts_1_1_i_surface_material_accumulater.html',1,'Acts']]],
+  ['isurfacematerialaccumulator_61',['ISurfaceMaterialAccumulator',['../class_acts_1_1_i_surface_material_accumulator.html',1,'Acts']]],
   ['iterativevertexfinder_62',['IterativeVertexFinder',['../class_acts_1_1_iterative_vertex_finder.html',1,'Acts']]],
   ['iterator_63',['iterator',['../class_acts_1_1_neighbor_hood_indices_1_1iterator.html',1,'Acts::NeighborHoodIndices']]],
   ['itgeodetectorelementsplitter_64',['ITGeoDetectorElementSplitter',['../class_acts_plugins_1_1_i_t_geo_detector_element_splitter.html',1,'ActsPlugins']]],

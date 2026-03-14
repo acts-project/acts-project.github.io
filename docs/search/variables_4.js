@@ -11,7 +11,7 @@ var searchData=
   ['edges1_8',['edges1',['../struct_acts_1_1_grid_axis_generators_1_1_var_var.html#a015a2837a034173f4039c58e8013af32',1,'Acts::GridAxisGenerators::VarVar']]],
   ['edgescores_9',['edgeScores',['../struct_acts_plugins_1_1_pipeline_tensors.html#aa1eb3257c5ca1a5bb5219c8f83053b2c',1,'ActsPlugins::PipelineTensors']]],
   ['embeddingdim_10',['embeddingDim',['../struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46',1,'ActsPlugins::TorchMetricLearning::Config']]],
-  ['emptybincorrection_11',['emptyBinCorrection',['../struct_acts_1_1_binned_surface_material_accumulater_1_1_config.html#a320794ee0459f90896b64c643f680dc5',1,'Acts::BinnedSurfaceMaterialAccumulater::Config::emptyBinCorrection'],['../struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691',1,'Acts::SurfaceMaterialMapper::Config::emptyBinCorrection']]],
+  ['emptybincorrection_11',['emptyBinCorrection',['../struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#ae69930fa2dc55092a18ebb7edbe8a076',1,'Acts::BinnedSurfaceMaterialAccumulator::Config::emptyBinCorrection'],['../struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691',1,'Acts::SurfaceMaterialMapper::Config::emptyBinCorrection']]],
   ['endobject_12',['endObject',['../struct_acts_1_1_navigation_options.html#a1a235112244eba1d560952bbec75c044',1,'Acts::NavigationOptions']]],
   ['endparameters_13',['endParameters',['../struct_acts_1_1_propagator_result.html#a7614731859745628442e69e5f1cb52a6',1,'Acts::PropagatorResult']]],
   ['energy_14',['energy',['../struct_acts_1_1_eigen_stepper_dense_extension.html#a41e98a298c8f5697c636e646d8ecfae2',1,'Acts::EigenStepperDenseExtension']]],
