@@ -381,7 +381,6 @@ var annotated_dup =
       [ "KalmanFitterOptions", "struct_acts_1_1_kalman_fitter_options.html", "struct_acts_1_1_kalman_fitter_options" ],
       [ "KalmanFitterResult", "struct_acts_1_1_kalman_fitter_result.html", "struct_acts_1_1_kalman_fitter_result" ],
       [ "KDTree", "class_acts_1_1_k_d_tree.html", "class_acts_1_1_k_d_tree" ],
-      [ "KdtSurfaces", "class_acts_1_1_kdt_surfaces.html", "class_acts_1_1_kdt_surfaces" ],
       [ "Layer", "class_acts_1_1_layer.html", "class_acts_1_1_layer" ],
       [ "LayerArrayCreator", "class_acts_1_1_layer_array_creator.html", "class_acts_1_1_layer_array_creator" ],
       [ "LayerCreator", "class_acts_1_1_layer_creator.html", "class_acts_1_1_layer_creator" ],

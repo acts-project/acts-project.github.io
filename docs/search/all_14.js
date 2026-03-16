@@ -6,7 +6,6 @@ var searchData=
   ['quality_3',['quality',['../class_acts_1_1_seed_proxy2.html#a6bc47e80ec363007721be5d011963c01',1,'Acts::SeedProxy2::quality() noexcept'],['../class_acts_1_1_seed_proxy2.html#ac321062110086aceb1d421001b5a7a67',1,'Acts::SeedProxy2::quality() const noexcept'],['../class_acts_1_1_space_point_mutable_data.html#a4b0ffe253b673685f1154789de353247',1,'Acts::SpacePointMutableData::quality()']]],
   ['quartersegments_4',['quarterSegments',['../struct_acts_1_1_view_config.html#a0b4d42c15d6e3af524cc7d811419912c',1,'Acts::ViewConfig::quarterSegments'],['../struct_acts_plugins_1_1_svg_1_1_style.html#ad19fb2e85cf8b66e9a090046aea30434',1,'ActsPlugins::Svg::Style::quarterSegments']]],
   ['queries_5',['queries',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html#a3822869a40daaba6a7d06d5e1dbb812d',1,'ActsPlugins::GeoModelDetectorObjectFactory::Options']]],
-  ['query_6',['Query',['../class_acts_1_1_kdt_surfaces.html#a8345ea02dfac07891f893835493524d4',1,'Acts::KdtSurfaces']]],
-  ['querypoint_7',['QueryPoint',['../struct_acts_1_1_navigation_stream_1_1_query_point.html',1,'Acts::NavigationStream']]],
-  ['quick_20start_8',['Quick start',['../building_acts.html#autotoc_md29',1,'']]]
+  ['querypoint_6',['QueryPoint',['../struct_acts_1_1_navigation_stream_1_1_query_point.html',1,'Acts::NavigationStream']]],
+  ['quick_20start_7',['Quick start',['../building_acts.html#autotoc_md29',1,'']]]
 ];

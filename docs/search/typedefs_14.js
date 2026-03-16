@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['updater_0',['Updater',['../struct_acts_1_1_combinatorial_kalman_filter_extensions.html#abafe3e6de91d870ebc61bdadf9f21eef',1,'Acts::CombinatorialKalmanFilterExtensions::Updater'],['../struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ac1e62d9636081981040dbf62571476f3',1,'Acts::Experimental::Gx2FitterExtensions::Updater'],['../struct_acts_1_1_gsf_extensions.html#a44cd1b814ca1b7eaa98e49bb68828da1',1,'Acts::GsfExtensions::Updater'],['../struct_acts_1_1_kalman_fitter_extensions.html#a06733afeb43462b8ee35d45662c02784',1,'Acts::KalmanFitterExtensions::Updater']]]
+  ['zaxistype_0',['ZAxisType',['../class_acts_1_1_cylindrical_space_point_grid2.html#a280566b1b8f5b016822e623f9fefd5ca',1,'Acts::CylindricalSpacePointGrid2']]],
+  ['ztposition_1',['ZTPosition',['../class_acts_1_1_adaptive_grid_track_density.html#a5c1fe2f728cbe5f3edd361693cf13d4a',1,'Acts::AdaptiveGridTrackDensity']]],
+  ['ztpositionandwidth_2',['ZTPositionAndWidth',['../class_acts_1_1_adaptive_grid_track_density.html#a33d4529bc88c3e1300d9db351f511455',1,'Acts::AdaptiveGridTrackDensity']]]
 ];

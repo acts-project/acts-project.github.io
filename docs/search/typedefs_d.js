@@ -1,15 +1,9 @@
 var searchData=
 [
-  ['navigationboundaries_0',['NavigationBoundaries',['../class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8',1,'Acts::Navigator']]],
-  ['navigationcandidates_1',['NavigationCandidates',['../class_acts_1_1_navigator.html#a281b1c2d169dce40f0516056dcc55341',1,'Acts::Navigator']]],
-  ['navigationdelegate_2',['NavigationDelegate',['../namespace_acts.html#acde434daddaaeec4037aed488a49cefb',1,'Acts']]],
-  ['navigationlayers_3',['NavigationLayers',['../class_acts_1_1_navigator.html#a492eb943ad2c06526442465303caa698',1,'Acts::Navigator']]],
-  ['navigationsurfaces_4',['NavigationSurfaces',['../class_acts_1_1_navigator.html#a67daeae75247dabc70dd251c58b56980',1,'Acts::Navigator']]],
-  ['navigator_5',['Navigator',['../class_acts_1_1_propagator.html#a093685d05bccdf473c4c7af3ae5e9cef',1,'Acts::Propagator::Navigator'],['../class_acts_1_1_ridders_propagator.html#a17459c648492ff58106e5e737a8e8f06',1,'Acts::RiddersPropagator::Navigator']]],
-  ['navigator_5foptions_5ftype_6',['navigator_options_type',['../struct_acts_1_1_propagator_options.html#a3fa243fe6a92d5de0e8bba183f9be6b4',1,'Acts::PropagatorOptions::navigator_options_type'],['../struct_acts_1_1_ridders_propagator_options.html#abbb23c4461fe0e83524929e0c51eb458',1,'Acts::RiddersPropagatorOptions::navigator_options_type']]],
-  ['navigator_5fstate_5ftype_7',['navigator_state_type',['../struct_acts_1_1_propagator_state.html#a64e904285820466c89f91e296cb0dde2',1,'Acts::PropagatorState']]],
-  ['navigatoroptions_8',['NavigatorOptions',['../class_acts_1_1_propagator.html#ac07d5763fad51e760a9f757690716165',1,'Acts::Propagator::NavigatorOptions'],['../class_acts_1_1_ridders_propagator.html#a570ed5117e0ca2d2130604c85d3a4e11',1,'Acts::RiddersPropagator::NavigatorOptions']]],
-  ['navigatorstate_9',['NavigatorState',['../class_acts_1_1_propagator.html#a66b3f9e2048585969f9ce1831dbb17c5',1,'Acts::Propagator::NavigatorState'],['../class_acts_1_1_ridders_propagator.html#a225e973bb16eb5e781b66b3fd839fc7a',1,'Acts::RiddersPropagator::NavigatorState']]],
-  ['networkbatchinput_10',['NetworkBatchInput',['../group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa',1,'ActsPlugins']]],
-  ['nextlayers_11',['NextLayers',['../namespace_acts.html#a474fe95e07bff5d2bd907ffb6ff3bea9',1,'Acts']]]
+  ['optionalcuts_0',['OptionalCuts',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
+  ['optionalhitselection_1',['OptionalHitSelection',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
+  ['optionalscoremodifier_2',['OptionalScoreModifier',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
+  ['options_3',['Options',['../class_acts_1_1_base_propagator.html#aa1e769ef9385069a60ce1ff87ae6d8d9',1,'Acts::BasePropagator::Options'],['../class_acts_1_1_propagator.html#a1ec8b7354939f29b3d28ec77eb492dff',1,'Acts::Propagator::Options'],['../class_acts_1_1_ridders_propagator.html#ad12746776825b1ca21c4683b48ce4507',1,'Acts::RiddersPropagator::Options'],['../class_acts_1_1_experimental_1_1_try_all_navigator.html#a6099bf2670216ea64f8be68d62786a1a',1,'Acts::Experimental::TryAllNavigator::Options'],['../class_acts_1_1_experimental_1_1_try_all_overstep_navigator.html#a775d0c451ea37c2f58cae27101ca61fe',1,'Acts::Experimental::TryAllOverstepNavigator::Options']]],
+  ['options_5ftype_4',['options_type',['../struct_acts_1_1_propagator_state.html#a660444f85477d4770cf4a7d72b59afcc',1,'Acts::PropagatorState']]],
+  ['outlierfinder_5',['OutlierFinder',['../struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a26648638d331daa29debaaed1a716750',1,'Acts::Experimental::Gx2FitterExtensions::OutlierFinder'],['../struct_acts_1_1_gsf_extensions.html#a96d5e75674929f91e5d794035428edbb',1,'Acts::GsfExtensions::OutlierFinder'],['../struct_acts_1_1_kalman_fitter_extensions.html#a8df82e2e091f44d2f14f9ee7ea5c6b31',1,'Acts::KalmanFitterExtensions::OutlierFinder']]]
 ];
