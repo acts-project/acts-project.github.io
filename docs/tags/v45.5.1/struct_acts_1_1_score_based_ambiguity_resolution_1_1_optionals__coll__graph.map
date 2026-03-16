@@ -1,0 +1,13 @@
+<map id="Acts::ScoreBasedAmbiguityResolution::Optionals&lt; track_proxy_t &gt;" name="Acts::ScoreBasedAmbiguityResolution::Optionals&lt; track_proxy_t &gt;">
+<area shape="rect" id="Node000001" title="Optionals struct: contains the optional cuts, weights and score to be applied." alt="" coords="712,62,913,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="365,6,571,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="585,25,689,43,744,59,742,64,687,48,584,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,66,135,91"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,59,158,51,264,34,365,23,365,28,265,39,159,56,124,65"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="369,59,567,99"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="148,76,369,76,369,81,148,81"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="378,123,558,163"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="119,93,159,104,273,123,378,134,378,140,272,128,158,109,118,98"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="581,85,595,85,712,87,711,93,595,91,580,90"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="571,131,688,116,711,111,712,117,688,121,572,137"/>
+</map>

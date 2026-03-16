@@ -1,0 +1,5 @@
+<map id="Acts::IConfinedTrackingVolumeBuilder" name="Acts::IConfinedTrackingVolumeBuilder">
+<area shape="rect" id="Node000001" title="This is an interface class for constructing TrackingVolumes whose are confined in a mother&#45;TrackingVo..." alt="" coords="5,5,228,45"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_d_d4hep_volume_builder.html" title="build confined TrackingVolumes of one cylinder setup from DD4hep input." alt="" coords="13,93,220,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,59,119,93,114,93,114,59"/>
+</map>

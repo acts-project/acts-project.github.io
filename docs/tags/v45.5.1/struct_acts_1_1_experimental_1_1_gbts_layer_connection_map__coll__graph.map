@@ -1,0 +1,10 @@
+<map id="Acts::Experimental::GbtsLayerConnectionMap" name="Acts::Experimental::GbtsLayerConnectionMap">
+<area shape="rect" id="Node000001" title="Loader and container for GBTS layer connection data." alt="" coords="817,112,1015,152"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="397,51,661,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="675,100,817,117,817,123,675,106"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,125,140,150"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,118,163,107,283,91,397,84,397,89,283,96,165,112,122,123"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="411,149,648,219"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="101,156,131,175,165,189,226,202,290,207,352,206,410,201,410,206,353,211,290,212,226,207,163,195,128,180,99,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="662,164,817,143,817,148,662,169"/>
+</map>

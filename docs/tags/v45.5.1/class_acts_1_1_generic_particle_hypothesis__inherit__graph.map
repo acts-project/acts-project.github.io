@@ -1,0 +1,19 @@
+<map id="Acts::GenericParticleHypothesis&lt; charge_t &gt;" name="Acts::GenericParticleHypothesis&lt; charge_t &gt;">
+<area shape="rect" id="Node000001" title="Particle hypothesis used in reconstruction." alt="" coords="5,104,235,144"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_generic_particle_hypothesis.html" title=" " alt="" coords="441,5,671,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,96,258,71,351,50,441,36,442,41,352,56,259,76,182,101"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_generic_particle_hypothesis.html" title=" " alt="" coords="441,69,671,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,111,441,96,441,101,249,116"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_generic_particle_hypothesis.html" title=" " alt="" coords="441,133,671,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="249,140,259,141,441,150,441,155,258,147,248,146"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_generic_particle_hypothesis.html" title=" " alt="" coords="441,197,671,237"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="174,147,216,164,259,179,352,197,442,208,441,214,351,203,258,184,214,169,172,152"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_neutral_particle_hypothesis.html" title="Specialized particle hypothesis for neutral particles." alt="" coords="724,13,951,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="684,23,724,23,724,28,684,28"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_non_neutral_charged_particle_hypothesis.html" title="Specialized particle hypothesis for non&#45;neutral particles." alt="" coords="720,69,955,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="684,87,720,87,720,92,684,92"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_particle_hypothesis.html" title="Specialized particle hypothesis for any kind of charged particles." alt="" coords="748,141,927,166"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="684,151,748,151,748,156,684,156"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_singly_charged_particle_hypothesis.html" title="Specialized particle hypothesis for singly charged particles." alt="" coords="737,197,937,237"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="684,215,737,215,737,220,684,220"/>
+</map>
