@@ -148,32 +148,24 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a52a486e5db50638555898a6914360ec6" id="r_a52a486e5db50638555898a6914360ec6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a486e5db50638555898a6914360ec6">Volume</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a0bddba1cf41efeb046205485d4725e79">transform</a>, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds) noexcept</td></tr>
+<tr class="memitem:a52a486e5db50638555898a6914360ec6" id="r_a52a486e5db50638555898a6914360ec6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a486e5db50638555898a6914360ec6">Volume</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds) noexcept</td></tr>
 <tr class="memdesc:a52a486e5db50638555898a6914360ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicit constructor with shared arguments.  <br /></td></tr>
 <tr class="memitem:a324f287fb7c1d1cb3d19545a1733dd81" id="r_a324f287fb7c1d1cb3d19545a1733dd81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a324f287fb7c1d1cb3d19545a1733dd81">Volume</a> (const Volume &amp;vol) noexcept=default</td></tr>
 <tr class="memdesc:a324f287fb7c1d1cb3d19545a1733dd81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor.  <br /></td></tr>
-<tr class="memitem:a7266aceca26544aba17e4465f4dff572" id="r_a7266aceca26544aba17e4465f4dff572"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7266aceca26544aba17e4465f4dff572">Volume</a> (const Volume &amp;vol, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;shift)</td></tr>
-<tr class="memdesc:a7266aceca26544aba17e4465f4dff572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor with optional shift.  <br /></td></tr>
 <tr class="memitem:a9a52594c472982ab84363bdd6810fcba" id="r_a9a52594c472982ab84363bdd6810fcba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a52594c472982ab84363bdd6810fcba">Volume</a> (<a class="el" href="class_acts_1_1_volume_placement_base.html">VolumePlacementBase</a> &amp;positioner, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds) noexcept</td></tr>
 <tr class="memdesc:a9a52594c472982ab84363bdd6810fcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that connects the volume to an external alignment I.e.  <br /></td></tr>
 <tr class="memitem:a545e9e249d401a0dbfbe7598be4cea53" id="r_a545e9e249d401a0dbfbe7598be4cea53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a545e9e249d401a0dbfbe7598be4cea53">assignVolumeBounds</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds)</td></tr>
 <tr class="memdesc:a545e9e249d401a0dbfbe7598be4cea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set volume bounds and update volume bounding boxes implicitly.  <br /></td></tr>
 <tr class="memitem:ae3417c821f73a46f2a963f2f4286f697" id="r_ae3417c821f73a46f2a963f2f4286f697"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2dc575b3470c5cab3448c8557a8793b">BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3417c821f73a46f2a963f2f4286f697">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;envelope={0, 0, 0}) const</td></tr>
 <tr class="memdesc:ae3417c821f73a46f2a963f2f4286f697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
-<tr class="memitem:ad801857fa172b330b47d4bb1791c9269" id="r_ad801857fa172b330b47d4bb1791c9269"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad801857fa172b330b47d4bb1791c9269">center</a> () const</td></tr>
-<tr class="memdesc:ad801857fa172b330b47d4bb1791c9269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center position of the volume.  <br /></td></tr>
 <tr class="memitem:a96961e85bc19fb58d674f3c85cec3d7a" id="r_a96961e85bc19fb58d674f3c85cec3d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96961e85bc19fb58d674f3c85cec3d7a">center</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:a96961e85bc19fb58d674f3c85cec3d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center position of the volume.  <br /></td></tr>
 <tr class="memitem:aafaef8d9e7e1f9e207b5ad484e1e5bf3" id="r_aafaef8d9e7e1f9e207b5ad484e1e5bf3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafaef8d9e7e1f9e207b5ad484e1e5bf3">globalToLocalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:aafaef8d9e7e1f9e207b5ad484e1e5bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation matrix from the global experiment's frame to the local volume frame.  <br /></td></tr>
 <tr class="memitem:a0802ecdf500e3d9d38f64c5f0a27117a" id="r_a0802ecdf500e3d9d38f64c5f0a27117a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0802ecdf500e3d9d38f64c5f0a27117a">inside</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;gpos, double tol=0.) const</td></tr>
 <tr class="memdesc:a0802ecdf500e3d9d38f64c5f0a27117a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inside() method for checks.  <br /></td></tr>
-<tr class="memitem:a21c870289eed90c7d66cb160c3326cf6" id="r_a21c870289eed90c7d66cb160c3326cf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c870289eed90c7d66cb160c3326cf6">inside</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;gpos, double tol=0.) const</td></tr>
-<tr class="memdesc:a21c870289eed90c7d66cb160c3326cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inside() method for checks.  <br /></td></tr>
 <tr class="memitem:a0f190ce7e913a79c51193624481b8ee0" id="r_a0f190ce7e913a79c51193624481b8ee0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f190ce7e913a79c51193624481b8ee0">isAlignable</a> () const</td></tr>
 <tr class="memdesc:a0f190ce7e913a79c51193624481b8ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the volume connected to the experiment's alignment system (I.e.  <br /></td></tr>
-<tr class="memitem:ab529234a4617a68606cc0056748fca28" id="r_ab529234a4617a68606cc0056748fca28"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab529234a4617a68606cc0056748fca28">itransform</a> () const</td></tr>
-<tr class="memdesc:ab529234a4617a68606cc0056748fca28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the inverse transform matrix of the volume.  <br /></td></tr>
 <tr class="memitem:ac66d1159bb079d344da6481575691bf6" id="r_ac66d1159bb079d344da6481575691bf6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac66d1159bb079d344da6481575691bf6">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:ac66d1159bb079d344da6481575691bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation matrix from the local volume frame to the global experiment's frame.  <br /></td></tr>
 <tr class="memitem:a7eb955b24e5e3fc8a14d6ddf2448f951" id="r_a7eb955b24e5e3fc8a14d6ddf2448f951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a52a486e5db50638555898a6914360ec6">Volume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7eb955b24e5e3fc8a14d6ddf2448f951">operator=</a> (const <a class="el" href="#a52a486e5db50638555898a6914360ec6">Volume</a> &amp;vol) noexcept=default</td></tr>
@@ -186,13 +178,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a95cc9a2f7e0ce7e90a2c026753adda03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct oriented bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:a3d3d68df22e60fd8528afaf2ca05247d" id="r_a3d3d68df22e60fd8528afaf2ca05247d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d3d68df22e60fd8528afaf2ca05247d">referencePosition</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const override</td></tr>
 <tr class="memdesc:a3d3d68df22e60fd8528afaf2ca05247d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning position method.  <br /></td></tr>
-<tr class="memitem:a012447eaf4343d5f6345b04a31d555d4" id="r_a012447eaf4343d5f6345b04a31d555d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a012447eaf4343d5f6345b04a31d555d4">setTransform</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a0bddba1cf41efeb046205485d4725e79">transform</a>)</td></tr>
+<tr class="memitem:a012447eaf4343d5f6345b04a31d555d4" id="r_a012447eaf4343d5f6345b04a31d555d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a012447eaf4343d5f6345b04a31d555d4">setTransform</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform)</td></tr>
 <tr class="memdesc:a012447eaf4343d5f6345b04a31d555d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the transform matrix for the volume and update internal state.  <br /></td></tr>
 <tr class="memitem:ae18efb4c27957ab55baaf847ea0c056b" id="r_ae18efb4c27957ab55baaf847ea0c056b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a52a486e5db50638555898a6914360ec6">Volume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae18efb4c27957ab55baaf847ea0c056b">shifted</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;shift) const</td></tr>
 <tr class="memdesc:ae18efb4c27957ab55baaf847ea0c056b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shift the volume by a transform.  <br /></td></tr>
-<tr class="memitem:a0bddba1cf41efeb046205485d4725e79" id="r_a0bddba1cf41efeb046205485d4725e79"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bddba1cf41efeb046205485d4725e79">transform</a> () const</td></tr>
-<tr class="memdesc:a0bddba1cf41efeb046205485d4725e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transform matrix that positions the volume in 3D space.  <br /></td></tr>
-<tr class="memitem:ac00865a2f60d6be6edd3f1e9858bcfdb" id="r_ac00865a2f60d6be6edd3f1e9858bcfdb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac00865a2f60d6be6edd3f1e9858bcfdb">update</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds, std::optional&lt; <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt; <a class="el" href="#a0bddba1cf41efeb046205485d4725e79">transform</a>=std::nullopt, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memitem:ac00865a2f60d6be6edd3f1e9858bcfdb" id="r_ac00865a2f60d6be6edd3f1e9858bcfdb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac00865a2f60d6be6edd3f1e9858bcfdb">update</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds, std::optional&lt; <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt; transform=std::nullopt, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
 <tr class="memdesc:ac00865a2f60d6be6edd3f1e9858bcfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the volume bounds and optionally also update the volume transform.  <br /></td></tr>
 <tr class="memitem:a616b41e486cc4b37d72456d7819e2455" id="r_a616b41e486cc4b37d72456d7819e2455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a616b41e486cc4b37d72456d7819e2455">visualize</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;viewConfig) const</td></tr>
 <tr class="memdesc:a616b41e486cc4b37d72456d7819e2455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produces a 3D visualization of this volume.  <br /></td></tr>
@@ -253,7 +243,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a52a486e5db50638555898a6914360ec6" name="a52a486e5db50638555898a6914360ec6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a486e5db50638555898a6914360ec6">&#9670;&#160;</a></span>Volume() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a486e5db50638555898a6914360ec6">&#9670;&#160;</a></span>Volume() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +281,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a9a52594c472982ab84363bdd6810fcba" name="a9a52594c472982ab84363bdd6810fcba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a52594c472982ab84363bdd6810fcba">&#9670;&#160;</a></span>Volume() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a52594c472982ab84363bdd6810fcba">&#9670;&#160;</a></span>Volume() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,7 +319,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a324f287fb7c1d1cb3d19545a1733dd81" name="a324f287fb7c1d1cb3d19545a1733dd81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a324f287fb7c1d1cb3d19545a1733dd81">&#9670;&#160;</a></span>Volume() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a324f287fb7c1d1cb3d19545a1733dd81">&#9670;&#160;</a></span>Volume() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,37 +348,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a7266aceca26544aba17e4465f4dff572" name="a7266aceca26544aba17e4465f4dff572"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7266aceca26544aba17e4465f4dff572">&#9670;&#160;</a></span>Volume() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Volume::Volume </td>
-          <td>(</td>
-          <td class="paramtype">const Volume &amp;</td>          <td class="paramname"><span class="paramname"><em>vol</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shift</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Copy Constructor with optional shift. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">vol</td><td>is the source volume for the copy </td></tr>
-    <tr><td class="paramname">shift</td><td>is the optional shift applied as : shift * vol.transform() </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Deprecated</a></b></dt><dd>: Constructor deprecated in favour of shifted(const Transform3&amp; shift) const  </dd></dl>
 
 </div>
 </div>
@@ -444,29 +403,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad801857fa172b330b47d4bb1791c9269" name="ad801857fa172b330b47d4bb1791c9269"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad801857fa172b330b47d4bb1791c9269">&#9670;&#160;</a></span>center() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp; Acts::Volume::center </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the center position of the volume. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000015">Deprecated</a></b></dt><dd>: Function deprecated in favour of center(const GeometryContext&amp; gctx) </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to the center position vector </dd></dl>
-
-</div>
-</div>
 <a id="a96961e85bc19fb58d674f3c85cec3d7a" name="a96961e85bc19fb58d674f3c85cec3d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96961e85bc19fb58d674f3c85cec3d7a">&#9670;&#160;</a></span>center() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96961e85bc19fb58d674f3c85cec3d7a">&#9670;&#160;</a></span>center()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,7 +456,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a0802ecdf500e3d9d38f64c5f0a27117a" name="a0802ecdf500e3d9d38f64c5f0a27117a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0802ecdf500e3d9d38f64c5f0a27117a">&#9670;&#160;</a></span>inside() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0802ecdf500e3d9d38f64c5f0a27117a">&#9670;&#160;</a></span>inside()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -554,38 +492,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a21c870289eed90c7d66cb160c3326cf6" name="a21c870289eed90c7d66cb160c3326cf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21c870289eed90c7d66cb160c3326cf6">&#9670;&#160;</a></span>inside() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acts::Volume::inside </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gpos</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tol</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Inside() method for checks. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gpos</td><td>is the position to be checked </td></tr>
-    <tr><td class="paramname">tol</td><td>is the tolerance parameter </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000016">Deprecated</a></b></dt><dd>: Function deprecated in favour of inside(const GeometryContext&amp; gctx, const Vector3&amp; gpos, double tol = 0.)</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>boolean indicator if the position is inside </dd></dl>
-
-</div>
-</div>
 <a id="a0f190ce7e913a79c51193624481b8ee0" name="a0f190ce7e913a79c51193624481b8ee0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f190ce7e913a79c51193624481b8ee0">&#9670;&#160;</a></span>isAlignable()</h2>
 
@@ -603,27 +509,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Is the volume connected to the experiment's alignment system (I.e. </p>
 <p>it's constructed with a volumePlacement) </p><dl class="section return"><dt>Returns</dt><dd>Whether the volume can be externally aligned </dd></dl>
-
-</div>
-</div>
-<a id="ab529234a4617a68606cc0056748fca28" name="ab529234a4617a68606cc0056748fca28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab529234a4617a68606cc0056748fca28">&#9670;&#160;</a></span>itransform()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::Volume::itransform </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the inverse transform matrix of the volume. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000014">Deprecated</a></b></dt><dd>: Function deprecated in favour of globalToLocalTransform </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to the inverse transform matrix </dd></dl>
 
 </div>
 </div>
@@ -865,27 +750,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The shifted volume </dd></dl>
-
-</div>
-</div>
-<a id="a0bddba1cf41efeb046205485d4725e79" name="a0bddba1cf41efeb046205485d4725e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bddba1cf41efeb046205485d4725e79">&#9670;&#160;</a></span>transform()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp; Acts::Volume::transform </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the transform matrix that positions the volume in 3D space. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>: Function deprecated in favour of localToGlobalTransform </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to the transform matrix </dd></dl>
 
 </div>
 </div>

@@ -781,7 +781,6 @@ var hierarchy =
     [ "Acts::SurfaceMaterialMapper::Config", "struct_acts_1_1_surface_material_mapper_1_1_config.html", null ],
     [ "Acts::SurfaceMaterialMapper::State", "struct_acts_1_1_surface_material_mapper_1_1_state.html", null ],
     [ "Acts::SurfacePlacementBase", "class_acts_1_1_surface_placement_base.html", [
-      [ "Acts::DetectorElementBase", "class_acts_1_1_detector_element_base.html", null ],
       [ "Acts::JsonDetectorElement", "class_acts_1_1_json_detector_element.html", null ],
       [ "ActsPlugins::Geant4DetectorElement", "class_acts_plugins_1_1_geant4_detector_element.html", null ],
       [ "ActsPlugins::GeoModelDetectorElement", "class_acts_plugins_1_1_geo_model_detector_element.html", [

@@ -330,8 +330,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate type that allows type erasure of a callable without allocation and with a single level of indirection.  <a href="class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DelegateFuncTag" id="r_DelegateFuncTag"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_delegate_func_tag.html">DelegateFuncTag</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag type to select a compile-time callable for Delegate.  <a href="struct_acts_1_1_delegate_func_tag.html#details">More...</a><br /></td></tr>
-<tr class="memitem:DetectorElementBase" id="r_DetectorElementBase"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_detector_element_base.html">DetectorElementBase</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is the base of all detector elements that are usable by ACTS.  <a href="class_acts_1_1_detector_element_base.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DiamondBounds" id="r_DiamondBounds"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_diamond_bounds.html">DiamondBounds</a></td></tr>
 <tr class="memitem:DiamondPortalShell" id="r_DiamondPortalShell"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_diamond_portal_shell.html">DiamondPortalShell</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for diamond shaped portal shells, e.g single volumes with polygon shape or stacked (multiple) volumes (TODO).  <a href="class_acts_1_1_diamond_portal_shell.html#details">More...</a><br /></td></tr>
@@ -3073,7 +3071,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_multi_stepper_loop.html">MultiStepperLoop&lt;EigenStepper&lt;extension_t&gt;</a>, reducer_t&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:135</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html"><div class="ttname"><a href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a></div><div class="ttdoc">Stepper based on a single-component stepper, but can handle Multi-Component Tracks (e....</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:134</div></div>
 </div><!-- fragment -->
 <p>Stepper based on the EigenStepper, but handles Multi-Component Tracks (e.g., for the GSF). </p>
 <p>Internally, this only manages a vector of EigenStepper::States. This simplifies implementation, but has several drawbacks:</p><ul>
@@ -3551,7 +3549,7 @@ template&lt;unsigned int kSize&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    std::function&lt;bool(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx, <a class="code hl_enumeration" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>,</div>
 <div class="line">                       <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>*, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>*)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:54</div></div>
+<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:53</div></div>
 <div class="ttc" id="anamespace_acts_html_a1462738699cb376ae92c59811987f4ea"><div class="ttname"><a href="#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a></div><div class="ttdeci">AxisDirection</div><div class="ttdoc">to specify a local axis direction</div><div class="ttdef"><b>Definition</b> AxisDefinitions.hpp:18</div></div>
 </div><!-- fragment -->
 <p>Function type for comparing two surfaces in a given geometry context and axis direction. </p>

@@ -169,7 +169,6 @@ var namespace_acts =
     [ "Delegate", "class_acts_1_1_delegate.html", null ],
     [ "Delegate&lt; R(Args...), H, O &gt;", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html", "class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4" ],
     [ "DelegateFuncTag", "struct_acts_1_1_delegate_func_tag.html", null ],
-    [ "DetectorElementBase", "class_acts_1_1_detector_element_base.html", "class_acts_1_1_detector_element_base" ],
     [ "DiamondBounds", "class_acts_1_1_diamond_bounds.html", "class_acts_1_1_diamond_bounds" ],
     [ "DiamondPortalShell", "class_acts_1_1_diamond_portal_shell.html", "class_acts_1_1_diamond_portal_shell" ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html", "class_acts_1_1_diamond_volume_bounds" ],
