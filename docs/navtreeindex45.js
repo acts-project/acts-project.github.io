@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"namespace_acts_fatras.html#ab2d030bf73774afe826a257a6ad7e710":[6,0,2,44],
 "namespace_acts_fatras.html#ab4b06e219cd292574733fb5e74a90310":[6,0,2,43],
 "namespace_acts_fatras.html#abc8cd8c919ff3373c21f74028e6f86a3":[6,0,2,54],
 "namespace_acts_fatras.html#ac75ed1b389ee2b39a774fed6e77661e4":[6,0,2,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "struct_acts_1_1_annealing_utility_1_1_state.html":[8,0,0,27,1],
 "struct_acts_1_1_annealing_utility_1_1_state.html#af08789a6e3361df0a45f5d4b5cc6b8c9":[6,0,0,20,1,0],
 "struct_acts_1_1_annealing_utility_1_1_state.html#af08789a6e3361df0a45f5d4b5cc6b8c9":[8,0,0,27,1,0],
-"struct_acts_1_1_annealing_utility_1_1_state.html#afbd6c06fc32032f9fed825ff5d68f1f8":[6,0,0,20,1,1],
-"struct_acts_1_1_annealing_utility_1_1_state.html#afbd6c06fc32032f9fed825ff5d68f1f8":[8,0,0,27,1,1]
+"struct_acts_1_1_annealing_utility_1_1_state.html#afbd6c06fc32032f9fed825ff5d68f1f8":[6,0,0,20,1,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_sympy_stepper_1_1_state.html#a994c5c59246ae5e6a4d81dd8bf949ba1":[6,0,0,401,2,5],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a994c5c59246ae5e6a4d81dd8bf949ba1":[8,0,0,408,2,5],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a9ad0d2b2d5918b68db6d67ac73d98c2d":[6,0,0,401,2,4],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a9ad0d2b2d5918b68db6d67ac73d98c2d":[8,0,0,408,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_track_state_creator.html#afd11f6b9f0515b512161f1591c69a563":[6,0,0,417,2],
 "struct_acts_1_1_track_state_creator.html#afd11f6b9f0515b512161f1591c69a563":[8,0,0,424,2],
 "struct_acts_1_1_track_state_traits.html":[6,0,0,420],
-"struct_acts_1_1_track_state_traits.html":[8,0,0,427],
-"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[6,0,0,420,5]
+"struct_acts_1_1_track_state_traits.html":[8,0,0,427]
 };

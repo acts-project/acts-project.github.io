@@ -159,6 +159,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:acc911220798eb735e5ce3c27a8b0dc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if stack trace symbolization is available.  <br /></td></tr>
 <tr class="memitem:ad7d970df58e5595eaec259131894ff67" id="r_ad7d970df58e5595eaec259131894ff67"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7d970df58e5595eaec259131894ff67">getSourceLocation</a> (const boost::stacktrace::frame &amp;frame)</td></tr>
 <tr class="memdesc:ad7d970df58e5595eaec259131894ff67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get source location from stack frame.  <br /></td></tr>
+<tr class="memitem:af9a20ac2993cc0da36f7e5744629bdaa" id="r_af9a20ac2993cc0da36f7e5744629bdaa"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9a20ac2993cc0da36f7e5744629bdaa">isSupported</a> ()</td></tr>
+<tr class="memdesc:af9a20ac2993cc0da36f7e5744629bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if trapping-based FPE monitoring is supported on this platform.  <br /></td></tr>
 <tr class="memitem:ae4a0fa51d6e0bf1f6da572f0a9b8439c" id="r_ae4a0fa51d6e0bf1f6da572f0a9b8439c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4a0fa51d6e0bf1f6da572f0a9b8439c">stackTraceToString</a> (const boost::stacktrace::stacktrace &amp;st, std::size_t depth)</td></tr>
 <tr class="memdesc:ae4a0fa51d6e0bf1f6da572f0a9b8439c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert stack trace to string.  <br /></td></tr>
 </table>
@@ -291,6 +293,34 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>String representation of source location </dd></dl>
+
+</div>
+</div>
+<a id="af9a20ac2993cc0da36f7e5744629bdaa" name="af9a20ac2993cc0da36f7e5744629bdaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a20ac2993cc0da36f7e5744629bdaa">&#9670;&#160;</a></span>isSupported()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActsPlugins::FpeMonitor::isSupported </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if trapping-based FPE monitoring is supported on this platform. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if runtime support is available </dd></dl>
 
 </div>
 </div>

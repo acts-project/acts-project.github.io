@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[8,0,0,352,5],
 "struct_acts_1_1_seed_confirmation_range_config.html#a7e8dc6c35ec546e4b608daf565ebd46a":[6,0,0,345,3],
 "struct_acts_1_1_seed_confirmation_range_config.html#a7e8dc6c35ec546e4b608daf565ebd46a":[8,0,0,352,3],
 "struct_acts_1_1_seed_confirmation_range_config.html#a8fcecb7b38eda57122080724c7e1be01":[6,0,0,345,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a53704f5e8d48570836b1b561e7021c59":[8,0,0,361,20],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a5c741d2f2784e76111528fa753f960de":[6,0,0,354,39],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a5c741d2f2784e76111528fa753f960de":[8,0,0,361,39],
-"struct_acts_1_1_seed_finder_orthogonal_config.html#a5fa47dfc4c4daafa0c63e281f33c86bf":[6,0,0,354,11],
-"struct_acts_1_1_seed_finder_orthogonal_config.html#a5fa47dfc4c4daafa0c63e281f33c86bf":[8,0,0,361,11]
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a5fa47dfc4c4daafa0c63e281f33c86bf":[6,0,0,354,11]
 };

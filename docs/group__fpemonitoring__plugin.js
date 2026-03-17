@@ -13,13 +13,14 @@ var group__fpemonitoring__plugin =
       ] ],
       [ "Result", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html", [
         [ "FpeInfo", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html", [
-          [ "FpeInfo", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#a3039e1bf95e810d286006387f5831a97", null ],
+          [ "FpeInfo", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#a353ed8f3844a20dae7e374585cf0e731", null ],
           [ "count", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#aecc43af6fe5f2fe8c0e6c4f03f0e84b2", null ],
+          [ "location", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#ae6e2d21caffef2f988a9bdf77c503727", null ],
           [ "st", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#a6ffa1b85fe435e3e8bff1b29eb54b8f9", null ],
           [ "type", "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#aa8808eea0426d348a96520e71593a935", null ]
         ] ],
-        [ "add", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a5470e39ed75d62ca4cb3d7550ec48886", null ],
-        [ "contains", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#ad84c3766fc79f27fe6852a37930637f3", null ],
+        [ "add", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a4a0208d4c593e630b3be4e44a26404eb", null ],
+        [ "contains", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a9045b555773ab056713de420068c7370", null ],
         [ "count", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a358d162b94abbdc71a20c24ca04ff512", null ],
         [ "deduplicate", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a5b1895fe2215ebe8640e7d925281dcf1", null ],
         [ "encountered", "struct_acts_plugins_1_1_fpe_monitor_1_1_result.html#a249a7ade65f820b24df6157d24e7c61e", null ],
@@ -35,6 +36,7 @@ var group__fpemonitoring__plugin =
       [ "canSymbolize", "class_acts_plugins_1_1_fpe_monitor.html#acc911220798eb735e5ce3c27a8b0dc93", null ],
       [ "consumeRecorded", "class_acts_plugins_1_1_fpe_monitor.html#ac2aa897de8f4c4433145c503fd814438", null ],
       [ "getSourceLocation", "class_acts_plugins_1_1_fpe_monitor.html#ad7d970df58e5595eaec259131894ff67", null ],
+      [ "isSupported", "class_acts_plugins_1_1_fpe_monitor.html#af9a20ac2993cc0da36f7e5744629bdaa", null ],
       [ "rearm", "class_acts_plugins_1_1_fpe_monitor.html#ab87768fdbe0a7975af3948e6169d23f7", null ],
       [ "result", "class_acts_plugins_1_1_fpe_monitor.html#ab72da3bf62b4c6a2648dfe14c3ca31b8", null ],
       [ "stackTraceToString", "class_acts_plugins_1_1_fpe_monitor.html#ae4a0fa51d6e0bf1f6da572f0a9b8439c", null ]

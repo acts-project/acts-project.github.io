@@ -138,10 +138,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5470e39ed75d62ca4cb3d7550ec48886" id="r_a5470e39ed75d62ca4cb3d7550ec48886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5470e39ed75d62ca4cb3d7550ec48886">add</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type, void *stackPtr, std::size_t bufferSize)</td></tr>
-<tr class="memdesc:a5470e39ed75d62ca4cb3d7550ec48886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an exception occurrence from raw stack data.  <br /></td></tr>
-<tr class="memitem:ad84c3766fc79f27fe6852a37930637f3" id="r_ad84c3766fc79f27fe6852a37930637f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84c3766fc79f27fe6852a37930637f3">contains</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type, const boost::stacktrace::stacktrace &amp;st) const</td></tr>
-<tr class="memdesc:ad84c3766fc79f27fe6852a37930637f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result contains a specific exception type and stack trace.  <br /></td></tr>
+<tr class="memitem:a4a0208d4c593e630b3be4e44a26404eb" id="r_a4a0208d4c593e630b3be4e44a26404eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a0208d4c593e630b3be4e44a26404eb">add</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type, void *stackPtr, std::size_t bufferSize, std::uintptr_t location=0)</td></tr>
+<tr class="memdesc:a4a0208d4c593e630b3be4e44a26404eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an exception occurrence from raw stack data.  <br /></td></tr>
+<tr class="memitem:a9045b555773ab056713de420068c7370" id="r_a9045b555773ab056713de420068c7370"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9045b555773ab056713de420068c7370">contains</a> (const <a class="el" href="struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html">FpeInfo</a> &amp;info) const</td></tr>
+<tr class="memdesc:a9045b555773ab056713de420068c7370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result contains an exception info entry under merge semantics.  <br /></td></tr>
 <tr class="memitem:a358d162b94abbdc71a20c24ca04ff512" id="r_a358d162b94abbdc71a20c24ca04ff512"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a358d162b94abbdc71a20c24ca04ff512">count</a> (<a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> type) const</td></tr>
 <tr class="memdesc:a358d162b94abbdc71a20c24ca04ff512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get count of exceptions of a specific type.  <br /></td></tr>
 <tr class="memitem:a5b1895fe2215ebe8640e7d925281dcf1" id="r_a5b1895fe2215ebe8640e7d925281dcf1"><td class="memItemLeft" align="right" valign="top"><a id="a5b1895fe2215ebe8640e7d925281dcf1" name="a5b1895fe2215ebe8640e7d925281dcf1"></a>
@@ -165,8 +165,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deduplicate</b> ()</t
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Result of FPE monitoring containing counts and stack traces. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a5470e39ed75d62ca4cb3d7550ec48886" name="a5470e39ed75d62ca4cb3d7550ec48886"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5470e39ed75d62ca4cb3d7550ec48886">&#9670;&#160;</a></span>add()</h2>
+<a id="a4a0208d4c593e630b3be4e44a26404eb" name="a4a0208d4c593e630b3be4e44a26404eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0208d4c593e630b3be4e44a26404eb">&#9670;&#160;</a></span>add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +184,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deduplicate</b> ()</t
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>bufferSize</em></span>&#160;)</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>bufferSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uintptr_t</td>          <td class="paramname"><span class="paramname"><em>location</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -195,14 +200,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deduplicate</b> ()</t
     <tr><td class="paramname">type</td><td>Exception type </td></tr>
     <tr><td class="paramname">stackPtr</td><td>Pointer to stack data </td></tr>
     <tr><td class="paramname">bufferSize</td><td>Size of stack buffer </td></tr>
+    <tr><td class="paramname">location</td><td>Faulting instruction address if available </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ad84c3766fc79f27fe6852a37930637f3" name="ad84c3766fc79f27fe6852a37930637f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad84c3766fc79f27fe6852a37930637f3">&#9670;&#160;</a></span>contains()</h2>
+<a id="a9045b555773ab056713de420068c7370" name="a9045b555773ab056713de420068c7370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9045b555773ab056713de420068c7370">&#9670;&#160;</a></span>contains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,21 +216,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deduplicate</b> ()</t
         <tr>
           <td class="memname">bool ActsPlugins::FpeMonitor::Result::contains </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const boost::stacktrace::stacktrace &amp;</td>          <td class="paramname"><span class="paramname"><em>st</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html">FpeInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check if result contains a specific exception type and stack trace. </p>
+<p>Check if result contains an exception info entry under merge semantics. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>Exception type </td></tr>
-    <tr><td class="paramname">st</td><td>Stack trace to check </td></tr>
+    <tr><td class="paramname">info</td><td>Exception info to check </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter_1_1_options.html#a4c425f8f8799da6f9db5d1b9c497ecd1":[5,9,0,3,1],
+"struct_acts_plugins_1_1_svg_1_1_indexed_surfaces_converter_1_1_options.html#ae6e1e89ac8c101591c8fdca259b716ef":[5,9,0,3,0],
 "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html":[5,9,0,4],
 "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#a1708f6c0b2628a681eb0c8cc290346a9":[5,9,0,4,3],
 "struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#a1c6335022ba78e3324a1d7e86a3cddce":[5,9,0,4,7],

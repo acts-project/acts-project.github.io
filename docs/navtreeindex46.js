@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"struct_acts_1_1_annealing_utility_1_1_state.html#afbd6c06fc32032f9fed825ff5d68f1f8":[8,0,0,27,1,1],
 "struct_acts_1_1_any_surface_reached.html":[6,0,0,27],
 "struct_acts_1_1_any_surface_reached.html":[8,0,0,34],
 "struct_acts_1_1_any_surface_reached.html#a073f28bc5145b4b26d71b2a487f212cc":[6,0,0,27,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "struct_acts_1_1_combinatorial_kalman_filter_options.html#a3e9ede3ff6b973cfa2474d70fdc61996":[5,8,1,2,1],
 "struct_acts_1_1_combinatorial_kalman_filter_options.html#a4411303ec39804e83cf5bbc72703e5f7":[5,8,1,2,8],
 "struct_acts_1_1_combinatorial_kalman_filter_options.html#a4623340e7a58ca3bf4623bfb8a53ffde":[5,8,1,2,5],
-"struct_acts_1_1_combinatorial_kalman_filter_options.html#a5d14a321cc463961fd5b6a73a1116990":[5,8,1,2,2],
-"struct_acts_1_1_combinatorial_kalman_filter_options.html#a9d49ea28002d1c42382cdc1fec4a2cfc":[5,8,1,2,6]
+"struct_acts_1_1_combinatorial_kalman_filter_options.html#a5d14a321cc463961fd5b6a73a1116990":[5,8,1,2,2]
 };

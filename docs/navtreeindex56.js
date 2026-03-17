@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_projected_reference_generator.html#ab0b401b716e3ab69bb15e317d2244206":[8,0,0,322,3],
 "struct_acts_1_1_projected_reference_generator.html#ac3fc0675be478b09e01d189f81e0f702":[6,0,0,315,4],
 "struct_acts_1_1_projected_reference_generator.html#ac3fc0675be478b09e01d189f81e0f702":[8,0,0,322,4],
 "struct_acts_1_1_propagator_options.html":[6,0,0,318],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_seed_confirmation_range_config.html":[8,0,0,352],
 "struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[6,0,0,345,4],
 "struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[8,0,0,352,4],
-"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[6,0,0,345,5],
-"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[8,0,0,352,5]
+"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[6,0,0,345,5]
 };

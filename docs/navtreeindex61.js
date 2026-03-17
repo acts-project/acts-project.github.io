@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[6,0,0,420,5],
 "struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7":[8,0,0,427,5],
 "struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[6,0,0,420,0],
 "struct_acts_1_1_track_state_traits.html#a2b53da47bf5e185a8c5af14c806df43a":[8,0,0,427,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_volume_config.html#a348c2463d561639425184ce751f9b49d":[8,0,0,456,7],
 "struct_acts_1_1_volume_config.html#a36b57257589351772afe23d4c13c435c":[6,0,0,449,9],
 "struct_acts_1_1_volume_config.html#a36b57257589351772afe23d4c13c435c":[8,0,0,456,9],
-"struct_acts_1_1_volume_config.html#a3e725e7ddc350c40b95f5c67be73f481":[6,0,0,449,4],
-"struct_acts_1_1_volume_config.html#a3e725e7ddc350c40b95f5c67be73f481":[8,0,0,456,4]
+"struct_acts_1_1_volume_config.html#a3e725e7ddc350c40b95f5c67be73f481":[6,0,0,449,4]
 };

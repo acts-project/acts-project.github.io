@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_plugins_1_1_seed_classifier.html#a69a91df4f177f8bfc1190e24e630c261":[5,9,11,3,1],
 "class_acts_plugins_1_1_seed_classifier.html#a721b9fb12dce1872cd3bc483da0ed63b":[5,9,11,3,0],
 "class_acts_plugins_1_1_seed_classifier.html#a880bf343f51607fa8b4ca18cac897984":[5,9,11,3,3],
 "class_acts_plugins_1_1_seed_classifier.html#aaa7c19e34c8b88cea9c058ae499d112d":[5,9,11,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "functions_type_p.html":[8,2,3,14],
 "functions_type_r.html":[8,2,3,15],
 "functions_type_s.html":[8,2,3,16],
-"functions_type_t.html":[8,2,3,17],
-"functions_type_u.html":[8,2,3,18]
+"functions_type_t.html":[8,2,3,17]
 };

@@ -138,14 +138,17 @@ Collaboration diagram for ActsPlugins::FpeMonitor::Result::FpeInfo:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3039e1bf95e810d286006387f5831a97" id="r_a3039e1bf95e810d286006387f5831a97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3039e1bf95e810d286006387f5831a97">FpeInfo</a> (std::size_t countIn, <a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> typeIn, std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt; stIn)</td></tr>
-<tr class="memdesc:a3039e1bf95e810d286006387f5831a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a353ed8f3844a20dae7e374585cf0e731" id="r_a353ed8f3844a20dae7e374585cf0e731"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a353ed8f3844a20dae7e374585cf0e731">FpeInfo</a> (std::size_t countIn, <a class="el" href="group__fpemonitoring__plugin.html#ga14e3ffdaa56621e36c02794e12eb77f7">FpeType</a> typeIn, std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt; stIn, std::uintptr_t locationIn=0)</td></tr>
+<tr class="memdesc:a353ed8f3844a20dae7e374585cf0e731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aecc43af6fe5f2fe8c0e6c4f03f0e84b2" id="r_aecc43af6fe5f2fe8c0e6c4f03f0e84b2"><td class="memItemLeft" align="right" valign="top"><a id="aecc43af6fe5f2fe8c0e6c4f03f0e84b2" name="aecc43af6fe5f2fe8c0e6c4f03f0e84b2"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b></td></tr>
 <tr class="memdesc:aecc43af6fe5f2fe8c0e6c4f03f0e84b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times this exception occurred. <br /></td></tr>
+<tr class="memitem:ae6e2d21caffef2f988a9bdf77c503727" id="r_ae6e2d21caffef2f988a9bdf77c503727"><td class="memItemLeft" align="right" valign="top"><a id="ae6e2d21caffef2f988a9bdf77c503727" name="ae6e2d21caffef2f988a9bdf77c503727"></a>
+std::uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><b>location</b></td></tr>
+<tr class="memdesc:ae6e2d21caffef2f988a9bdf77c503727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faulting instruction address if available from signal context. <br /></td></tr>
 <tr class="memitem:a6ffa1b85fe435e3e8bff1b29eb54b8f9" id="r_a6ffa1b85fe435e3e8bff1b29eb54b8f9"><td class="memItemLeft" align="right" valign="top"><a id="a6ffa1b85fe435e3e8bff1b29eb54b8f9" name="a6ffa1b85fe435e3e8bff1b29eb54b8f9"></a>
 std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>st</b></td></tr>
 <tr class="memdesc:a6ffa1b85fe435e3e8bff1b29eb54b8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack trace where the exception occurred. <br /></td></tr>
@@ -156,8 +159,8 @@ std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;&#160;</td><td class
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Information about a floating-point exception occurrence. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3039e1bf95e810d286006387f5831a97" name="a3039e1bf95e810d286006387f5831a97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3039e1bf95e810d286006387f5831a97">&#9670;&#160;</a></span>FpeInfo()</h2>
+<a id="a353ed8f3844a20dae7e374585cf0e731" name="a353ed8f3844a20dae7e374585cf0e731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a353ed8f3844a20dae7e374585cf0e731">&#9670;&#160;</a></span>FpeInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +178,12 @@ std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;&#160;</td><td class
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;</td>          <td class="paramname"><span class="paramname"><em>stIn</em></span>&#160;)</td>
+          <td class="paramtype">std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;</td>          <td class="paramname"><span class="paramname"><em>stIn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uintptr_t</td>          <td class="paramname"><span class="paramname"><em>locationIn</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186,6 +194,7 @@ std::shared_ptr&lt; const boost::stacktrace::stacktrace &gt;&#160;</td><td class
     <tr><td class="paramname">countIn</td><td>Number of occurrences </td></tr>
     <tr><td class="paramname">typeIn</td><td>Exception type </td></tr>
     <tr><td class="paramname">stIn</td><td>Stack trace </td></tr>
+    <tr><td class="paramname">locationIn</td><td>Faulting instruction address if available </td></tr>
   </table>
   </dd>
 </dl>

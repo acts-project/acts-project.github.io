@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4e1b61ca9638d127014d851e3adec3be":[8,0,0,2,3,3,4],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4f7ea61941b6624ff6e81f9b055c6bb4":[6,0,0,1,3,3,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4f7ea61941b6624ff6e81f9b055c6bb4":[8,0,0,2,3,3,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a50e9957126be5e42b37ea8103a561a38":[6,0,0,1,3,3,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_experimental_1_1_gbts_node.html#a790b6c7f10b3c709d5128743a45a3817":[8,0,0,2,19,1],
 "struct_acts_1_1_experimental_1_1_gbts_node.html#a8ecb796834b1e11f006b9205f05a3968":[6,0,0,1,19,0],
 "struct_acts_1_1_experimental_1_1_gbts_node.html#a8ecb796834b1e11f006b9205f05a3968":[8,0,0,2,19,0],
-"struct_acts_1_1_experimental_1_1_gbts_node.html#a9450b606bb2af8385ca03338b4415cd7":[6,0,0,1,19,6],
-"struct_acts_1_1_experimental_1_1_gbts_node.html#a9450b606bb2af8385ca03338b4415cd7":[8,0,0,2,19,6]
+"struct_acts_1_1_experimental_1_1_gbts_node.html#a9450b606bb2af8385ca03338b4415cd7":[6,0,0,1,19,6]
 };

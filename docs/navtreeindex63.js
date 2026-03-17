@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_fatras_1_1_continuous_process.html#a052081767ab6ec53157e32de1077d325":[8,0,1,11,3],
 "struct_acts_fatras_1_1_continuous_process.html#a073d4df2893d9ca3a9e45267d42fd591":[6,0,2,10,1],
 "struct_acts_fatras_1_1_continuous_process.html#a073d4df2893d9ca3a9e45267d42fd591":[8,0,1,11,1],
 "struct_acts_fatras_1_1_continuous_process.html#a1b954d1906c91313ba0c21190469213b":[6,0,2,10,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html":[5,9,6,1,0],
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a0e8fa7ff0e0a6cbfccd66215924ad52e":[5,9,6,1,0,0],
 "struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a61e2881340cef4502d230230a523e84f":[5,9,6,1,0,1],
-"struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a9638c5cf324266523e3fee5d3b3ca67c":[5,9,6,1,0,2],
-"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html":[5,9,2,1]
+"struct_acts_plugins_1_1_cuda_track_building_1_1_config.html#a9638c5cf324266523e3fee5d3b3ca67c":[5,9,6,1,0,2]
 };
