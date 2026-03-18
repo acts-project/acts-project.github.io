@@ -137,10 +137,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a649173e847c828a73c735f1da4edffb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with propagator and logger.  <br /></td></tr>
 <tr class="memitem:a6efde90854e8a07967e6cf01ebb908dd" id="r_a6efde90854e8a07967e6cf01ebb908dd"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; <br />
 requires (isDirectNavigator)</td></tr>
-<tr class="memitem:a6efde90854e8a07967e6cf01ebb908dd template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6efde90854e8a07967e6cf01ebb908dd">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;sSequence, track_container_t &amp;trackContainer) const</td></tr>
+<tr class="memitem:a6efde90854e8a07967e6cf01ebb908dd template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6efde90854e8a07967e6cf01ebb908dd">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;sSequence, track_container_t &amp;trackContainer) const</td></tr>
 <tr class="memdesc:a6efde90854e8a07967e6cf01ebb908dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit implementation of the forward filter, calls the the filter and smoother/reversed filter.  <br /></td></tr>
 <tr class="memitem:ade19e36306d4c2ec20863e97a1e32111" id="r_ade19e36306d4c2ec20863e97a1e32111"><td class="memTemplParams" colspan="2">template&lt;typename source_link_iterator_t, TrackContainerFrontend track_container_t&gt; </td></tr>
-<tr class="memitem:ade19e36306d4c2ec20863e97a1e32111 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade19e36306d4c2ec20863e97a1e32111">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, track_container_t &amp;trackContainer) const</td></tr>
+<tr class="memitem:ade19e36306d4c2ec20863e97a1e32111 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; typename track_container_t::TrackProxy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade19e36306d4c2ec20863e97a1e32111">fit</a> (source_link_iterator_t it, source_link_iterator_t end, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;sParameters, const <a class="el" href="struct_acts_1_1_kalman_fitter_options.html">KalmanFitterOptions</a>&lt; traj_t &gt; &amp;kfOptions, track_container_t &amp;trackContainer) const</td></tr>
 <tr class="memdesc:ade19e36306d4c2ec20863e97a1e32111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit implementation of the forward filter, calls the the filter and smoother/reversed filter.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -225,7 +225,7 @@ requires (isDirectNavigator)</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -292,7 +292,7 @@ template&lt;typename source_link_iterator_t, TrackContainerFrontend track_contai
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sParameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

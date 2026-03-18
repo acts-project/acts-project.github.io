@@ -139,7 +139,7 @@ Collaboration diagram for Acts::TrackStateCreator&lt; source_link_iterator_t, tr
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a93f174efb1d4a97f56aa270cbba494ee" id="r_a93f174efb1d4a97f56aa270cbba494ee"><td class="memItemLeft" align="right" valign="top"><a id="a93f174efb1d4a97f56aa270cbba494ee" name="a93f174efb1d4a97f56aa270cbba494ee"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="namespace_acts.html#ad836aba005ba272c0a77227311e4a0ce">BoundTrackParameters</a>, <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>, double&gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a>, <a class="el" href="namespace_acts.html#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>, double&gt;</td></tr>
 <tr class="memdesc:a93f174efb1d4a97f56aa270cbba494ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound state tuple containing parameters, jacobian and path length. <br /></td></tr>
 <tr class="memitem:a06f1064552766d083cbd780aa541efed" id="r_a06f1064552766d083cbd780aa541efed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06f1064552766d083cbd780aa541efed">Calibrator</a></td></tr>
 <tr class="memdesc:a06f1064552766d083cbd780aa541efed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for calibrator delegate to process measurements from source links.  <br /></td></tr>
@@ -209,7 +209,7 @@ template&lt;typename source_link_iterator_t, typename track_container_t&gt; </di
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <span class="keyword">typename</span> <a class="code hl_typedef" href="struct_acts_1_1_kalman_fitter_extensions.html#ac26d10a568f0374eddc621f087f3d6ac">KalmanFitterExtensions&lt;TrackStateContainerBackend&gt;::Calibrator</a></div>
-<div class="ttc" id="astruct_acts_1_1_kalman_fitter_extensions_html_ac26d10a568f0374eddc621f087f3d6ac"><div class="ttname"><a href="struct_acts_1_1_kalman_fitter_extensions.html#ac26d10a568f0374eddc621f087f3d6ac">Acts::KalmanFitterExtensions::Calibrator</a></div><div class="ttdeci">Delegate&lt; void(const GeometryContext &amp;, const CalibrationContext &amp;, const SourceLink &amp;, TrackStateProxy)&gt; Calibrator</div><div class="ttdoc">Type alias for measurement calibrator delegate.</div><div class="ttdef"><b>Definition</b> KalmanFitter.hpp:54</div></div>
+<div class="ttc" id="astruct_acts_1_1_kalman_fitter_extensions_html_ac26d10a568f0374eddc621f087f3d6ac"><div class="ttname"><a href="struct_acts_1_1_kalman_fitter_extensions.html#ac26d10a568f0374eddc621f087f3d6ac">Acts::KalmanFitterExtensions::Calibrator</a></div><div class="ttdeci">Delegate&lt; void(const GeometryContext &amp;, const CalibrationContext &amp;, const SourceLink &amp;, TrackStateProxy)&gt; Calibrator</div><div class="ttdoc">Type alias for measurement calibrator delegate.</div><div class="ttdef"><b>Definition</b> KalmanFitter.hpp:53</div></div>
 </div><!-- fragment -->
 <p>Type alias for calibrator delegate to process measurements from source links. </p>
 

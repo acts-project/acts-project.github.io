@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Charge interpretation for track parameters</title>
+<title>ACTS: Charge hypothesis for track reconstruction</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,14 +122,14 @@ $(function(){initNavTree('group__eventdata-charge.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Charge interpretation for track parameters <div class="ingroups"><a class="el" href="group__eventdata.html">Event Data Model</a></div></div></div>
+  <div class="headertitle"><div class="title">Charge hypothesis for track reconstruction <div class="ingroups"><a class="el" href="group__eventdata.html">Event Data Model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Track parameters store a single coefficient that describes charge and momentum. </p>
 <p>This is either charge/momentum or 1/momentum, but the interpretation depends on what type of particle is described. In this code base this coefficient is always referred to as <span class="tt">qOverP</span> (or charge-over-momentum) even for uncharged particles. The following types are used to restrict the particle charge magnitude (at compile time) and support the umambigous extraction of charge and absolute momentum from said track parameter coefficient.</p>
 <p>All types are designed to be interchangeable. Each one can be constructed with the input charge magnitude</p>
-<div class="fragment"><div class="line">Charge c(1_e);</div>
+<div class="fragment"><div class="line">ChargeHypothesis c(1_e);</div>
 </div><!-- fragment --><p>and can then be used to extract the charge value</p>
 <div class="fragment"><div class="line"><span class="keyword">auto</span> q = c.extractCharge(qOverP);</div>
 </div><!-- fragment --><p>or the absolute momentum</p>
@@ -138,14 +138,8 @@ $(function(){initNavTree('group__eventdata-charge.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:Acts_3A_3AAnyCharge" id="r_Acts_3A_3AAnyCharge"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_charge.html">Acts::AnyCharge</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge and momentum interpretation for arbitrarily charged particles.  <a href="class_acts_1_1_any_charge.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Acts_3A_3ANeutral" id="r_Acts_3A_3ANeutral"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_neutral.html">Acts::Neutral</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge and momentum interpretation for neutral particles.  <a href="struct_acts_1_1_neutral.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Acts_3A_3ANonNeutralCharge" id="r_Acts_3A_3ANonNeutralCharge"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_non_neutral_charge.html">Acts::NonNeutralCharge</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge and momentum interpretation for arbitrarily charged but not neutral particles.  <a href="class_acts_1_1_non_neutral_charge.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Acts_3A_3ASinglyCharged" id="r_Acts_3A_3ASinglyCharged"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_singly_charged.html">Acts::SinglyCharged</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge and momentum interpretation for particles with +-e charge.  <a href="struct_acts_1_1_singly_charged.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Acts_3A_3AChargeHypothesis" id="r_Acts_3A_3AChargeHypothesis"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_charge_hypothesis.html">Acts::ChargeHypothesis</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge and momentum interpretation for arbitrarily charged particles.  <a href="class_acts_1_1_charge_hypothesis.html#details">More...</a><br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -31,7 +31,6 @@ var hierarchy =
       [ "Acts::AnyBase< 128 >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< sb_size, copyable >", "class_acts_1_1_any_base.html", null ]
     ] ],
-    [ "Acts::AnyCharge", "class_acts_1_1_any_charge.html", null ],
     [ "Acts::AnyGridConstView&lt; T &gt;", "class_acts_1_1_any_grid_const_view.html", null ],
     [ "Acts::AnyGridView&lt; T &gt;", "class_acts_1_1_any_grid_view.html", null ],
     [ "Acts::AnySurfaceReached", "struct_acts_1_1_any_surface_reached.html", null ],
@@ -71,6 +70,7 @@ var hierarchy =
     [ "Acts::BoundaryTolerance::InfiniteParams", "struct_acts_1_1_boundary_tolerance_1_1_infinite_params.html", null ],
     [ "Acts::BoundaryTolerance::NoneParams", "struct_acts_1_1_boundary_tolerance_1_1_none_params.html", null ],
     [ "Acts::BoundFactory&lt; BoundsType_t &gt;", "class_acts_1_1_bound_factory.html", null ],
+    [ "Acts::BoundTrackParameters", "class_acts_1_1_bound_track_parameters.html", null ],
     [ "Acts::BroadTripletSeedFilter::Cache", "struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html", null ],
     [ "Acts::BroadTripletSeedFilter::Config", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html", null ],
     [ "Acts::BroadTripletSeedFilter::State", "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html", null ],
@@ -87,6 +87,7 @@ var hierarchy =
       [ "Acts::Ccl::TimedConnect< Cell, N >", "struct_acts_1_1_ccl_1_1_timed_connect.html", null ]
     ] ],
     [ "Acts::Ccl::DisjointSets", "class_acts_1_1_ccl_1_1_disjoint_sets.html", null ],
+    [ "Acts::ChargeHypothesis", "class_acts_1_1_charge_hypothesis.html", null ],
     [ "Acts::CloneablePtr&lt; T &gt;", "class_acts_1_1_cloneable_ptr.html", null ],
     [ "Acts::Color", "struct_acts_1_1_color.html", null ],
     [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;", "class_acts_1_1_combinatorial_kalman_filter.html", null ],
@@ -256,6 +257,7 @@ var hierarchy =
     [ "Acts::ExtentEnvelope::Arguments", "struct_acts_1_1_extent_envelope_1_1_arguments.html", null ],
     [ "Acts::FiniteStateMachine&lt; Derived, States &gt;", "class_acts_1_1_finite_state_machine.html", null ],
     [ "Acts::FiniteStateMachine&lt; Derived, States &gt;::Terminated", "struct_acts_1_1_finite_state_machine_1_1_terminated.html", null ],
+    [ "Acts::FreeTrackParameters", "class_acts_1_1_free_track_parameters.html", null ],
     [ "Acts::Frustum&lt; value_t, DIM, SIDES &gt;", "class_acts_1_1_frustum.html", null ],
     [ "Acts::FsmwMode1dFinder", "class_acts_1_1_fsmw_mode1d_finder.html", null ],
     [ "Acts::FullBilloirVertexFitter", "class_acts_1_1_full_billoir_vertex_fitter.html", null ],
@@ -269,22 +271,7 @@ var hierarchy =
     [ "Acts::GaussianTrackDensity::Config", "struct_acts_1_1_gaussian_track_density_1_1_config.html", null ],
     [ "Acts::GaussianTrackDensity::State", "struct_acts_1_1_gaussian_track_density_1_1_state.html", null ],
     [ "Acts::GaussianTrackDensity::TrackEntry", "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html", null ],
-    [ "Acts::GenericBoundTrackParameters&lt; particle_hypothesis_t &gt;", "class_acts_1_1_generic_bound_track_parameters.html", null ],
     [ "Acts::GenericCuboidVolumeBounds::BoundValues", "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html", null ],
-    [ "Acts::GenericFreeTrackParameters&lt; particle_hypothesis_t &gt;", "class_acts_1_1_generic_free_track_parameters.html", null ],
-    [ "Acts::GenericParticleHypothesis&lt; charge_t &gt;", "class_acts_1_1_generic_particle_hypothesis.html", null ],
-    [ "Acts::GenericParticleHypothesis&lt; AnyCharge &gt;", "class_acts_1_1_generic_particle_hypothesis.html", [
-      [ "Acts::ParticleHypothesis", "class_acts_1_1_particle_hypothesis.html", null ]
-    ] ],
-    [ "Acts::GenericParticleHypothesis&lt; Neutral &gt;", "class_acts_1_1_generic_particle_hypothesis.html", [
-      [ "Acts::NeutralParticleHypothesis", "class_acts_1_1_neutral_particle_hypothesis.html", null ]
-    ] ],
-    [ "Acts::GenericParticleHypothesis&lt; NonNeutralCharge &gt;", "class_acts_1_1_generic_particle_hypothesis.html", [
-      [ "Acts::NonNeutralChargedParticleHypothesis", "class_acts_1_1_non_neutral_charged_particle_hypothesis.html", null ]
-    ] ],
-    [ "Acts::GenericParticleHypothesis&lt; SinglyCharged &gt;", "class_acts_1_1_generic_particle_hypothesis.html", [
-      [ "Acts::SinglyChargedParticleHypothesis", "class_acts_1_1_singly_charged_particle_hypothesis.html", null ]
-    ] ],
     [ "Acts::GeometryContextOstreamWrapper&lt; T &gt;", "struct_acts_1_1_geometry_context_ostream_wrapper.html", null ],
     [ "Acts::GeometryHierarchyMap&lt; value_t &gt;", "class_acts_1_1_geometry_hierarchy_map.html", null ],
     [ "Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;", "class_acts_1_1_geometry_hierarchy_map_json_converter.html", null ],
@@ -629,8 +616,6 @@ var hierarchy =
     [ "Acts::NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html", null ],
     [ "Acts::NeighborHoodIndices::iterator", "class_acts_1_1_neighbor_hood_indices_1_1iterator.html", null ],
     [ "Acts::Neighbour&lt; grid_t &gt;", "struct_acts_1_1_neighbour.html", null ],
-    [ "Acts::Neutral", "struct_acts_1_1_neutral.html", null ],
-    [ "Acts::NonNeutralCharge", "class_acts_1_1_non_neutral_charge.html", null ],
     [ "Acts::NullBField::Cache", "struct_acts_1_1_null_b_field_1_1_cache.html", null ],
     [ "Acts::NumericalTrackLinearizer", "class_acts_1_1_numerical_track_linearizer.html", null ],
     [ "Acts::NumericalTrackLinearizer::Config", "struct_acts_1_1_numerical_track_linearizer_1_1_config.html", null ],
@@ -638,6 +623,7 @@ var hierarchy =
     [ "Acts::OrientedSurface", "struct_acts_1_1_oriented_surface.html", null ],
     [ "Acts::OwningDelegate&lt; typename, H &gt;", "class_acts_1_1_owning_delegate.html", null ],
     [ "Acts::ParticleData", "struct_acts_1_1_particle_data.html", null ],
+    [ "Acts::ParticleHypothesis", "class_acts_1_1_particle_hypothesis.html", null ],
     [ "Acts::PassiveLayerBuilder::Config", "struct_acts_1_1_passive_layer_builder_1_1_config.html", null ],
     [ "Acts::PathLimitReached", "struct_acts_1_1_path_limit_reached.html", null ],
     [ "Acts::PathSeeder", "class_acts_1_1_path_seeder.html", null ],
@@ -707,7 +693,6 @@ var hierarchy =
     [ "Acts::SeedProxy2&lt; read_only &gt;", "class_acts_1_1_seed_proxy2.html", null ],
     [ "Acts::SeedProxy2&lt; read_only &gt;::SpacePointIterator", "class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html", null ],
     [ "Acts::SeedProxy2&lt; read_only &gt;::SpacePointRange", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html", null ],
-    [ "Acts::SinglyCharged", "struct_acts_1_1_singly_charged.html", null ],
     [ "Acts::SolenoidBField::Cache", "struct_acts_1_1_solenoid_b_field_1_1_cache.html", null ],
     [ "Acts::SolenoidBField::Config", "struct_acts_1_1_solenoid_b_field_1_1_config.html", null ],
     [ "Acts::SourceLink", "class_acts_1_1_source_link.html", null ],

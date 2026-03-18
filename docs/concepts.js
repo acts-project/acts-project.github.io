@@ -44,7 +44,6 @@ var concepts =
       [ "AmbiguityNetworkConcept", "concept_acts_1_1_ambiguity_network_concept.html", null ],
       [ "AxisConcept", "concept_acts_1_1_axis_concept.html", null ],
       [ "BoundTrackParametersConcept", "concept_acts_1_1_bound_track_parameters_concept.html", null ],
-      [ "ChargeConcept", "concept_acts_1_1_charge_concept.html", null ],
       [ "CollectionStoresSeedsTo", "concept_acts_1_1_collection_stores_seeds_to.html", null ],
       [ "CommonMultiTrajectoryBackend", "concept_acts_1_1_common_multi_trajectory_backend.html", null ],
       [ "ConstMultiTrajectoryBackend", "concept_acts_1_1_const_multi_trajectory_backend.html", null ],

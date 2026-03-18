@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['recognition_0',['Pattern Recognition',['../group__pattern__recog.html',1,'']]],
-  ['root_20plugin_1',['ROOT Plugin',['../group__root__plugin.html',1,'']]]
+  ['seed_0',['Estimate track parameters from seed',['../group__est__track__params.html',1,'']]],
+  ['seeding_1',['Seeding',['../group__seeding.html',1,'']]],
+  ['space_20point_20formation_2',['Space Point Formation',['../group__sp__formation.html',1,'']]]
 ];

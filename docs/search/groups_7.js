@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interpretation_20for_20track_20parameters_0',['Charge interpretation for track parameters',['../group__eventdata-charge.html',1,'']]]
+  ['json_20plugin_0',['JSON Plugin',['../group__json__plugin.html',1,'']]]
 ];

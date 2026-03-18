@@ -1,13 +1,12 @@
 var class_acts_1_1_multi_component_bound_track_parameters =
 [
     [ "Component", "class_acts_1_1_multi_component_bound_track_parameters.html#a6788a8e036db854db9595c20cd03fc0b", null ],
-    [ "ConstructionTuple", "class_acts_1_1_multi_component_bound_track_parameters.html#af4d6718d5f9b3d9eb6a8cc11801f0d11", null ],
+    [ "ConstructionTuple", "class_acts_1_1_multi_component_bound_track_parameters.html#ac0cffce8b4d055b1e03de4c6339b29d9", null ],
     [ "CovarianceMatrix", "class_acts_1_1_multi_component_bound_track_parameters.html#a3ad5dd4114e69e0d139e29530ebdb7f1", null ],
     [ "Parameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a08b17217959e8f509997ecc42788f117", null ],
     [ "ParametersVector", "class_acts_1_1_multi_component_bound_track_parameters.html#a955db4999cf149caf37c68146d92aad6", null ],
-    [ "ParticleHypothesis", "class_acts_1_1_multi_component_bound_track_parameters.html#a7a6fdd09126302b8fff64eadf8e44765", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a13c5dc6d828b1f7e1fe16aacfdfda26d", null ],
-    [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a3512f43c71e26b0634d0cb923990fcc6", null ],
+    [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a2e886236b0e6f78c1a48fea7f6a5159e", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a2d8f5a5ed3b711fb0d02d1fdd9198243", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a81b6846383749ff59fc6340be0f3cc78", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html#a355df79b327cabbacfaca6da234465ff", null ],
@@ -31,6 +30,7 @@ var class_acts_1_1_multi_component_bound_track_parameters =
     [ "referenceSurface", "class_acts_1_1_multi_component_bound_track_parameters.html#a086711e524430e63c5095709da67fc79", null ],
     [ "reserve", "class_acts_1_1_multi_component_bound_track_parameters.html#aa59e4f54f652f3543c01c67eb30cda3e", null ],
     [ "size", "class_acts_1_1_multi_component_bound_track_parameters.html#a9f670ee08aef4b0ed42a51c0f03b68ec", null ],
+    [ "toBound", "class_acts_1_1_multi_component_bound_track_parameters.html#ae5eb121b5a0b9f9c0b51801f3cfb09ec", null ],
     [ "toComponents", "class_acts_1_1_multi_component_bound_track_parameters.html#a4752f07534571c2e506679c85ad45875", null ],
     [ "weights", "class_acts_1_1_multi_component_bound_track_parameters.html#aa3a4f7278aaed7a2d414b65cf10859aa", null ]
 ];

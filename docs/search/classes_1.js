@@ -31,7 +31,8 @@ var searchData=
   ['boundfactory_3c_20const_20surfacebounds_20_3e_28',['BoundFactory&lt; const SurfaceBounds &gt;',['../class_acts_1_1_bound_factory.html',1,'Acts']]],
   ['boundfactory_3c_20volumebounds_20_3e_29',['BoundFactory&lt; VolumeBounds &gt;',['../class_acts_1_1_bound_factory.html',1,'Acts']]],
   ['boundparameterssmearer_30',['BoundParametersSmearer',['../struct_acts_fatras_1_1_bound_parameters_smearer.html',1,'ActsFatras']]],
-  ['boundvalues_31',['BoundValues',['../struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html',1,'Acts::GenericCuboidVolumeBounds']]],
-  ['broadtripletseedfilter_32',['BroadTripletSeedFilter',['../class_acts_1_1_broad_triplet_seed_filter.html',1,'Acts']]],
-  ['buffer_33',['Buffer',['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html',1,'ActsPlugins::FpeMonitor']]]
+  ['boundtrackparameters_31',['BoundTrackParameters',['../class_acts_1_1_bound_track_parameters.html',1,'Acts']]],
+  ['boundvalues_32',['BoundValues',['../struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html',1,'Acts::GenericCuboidVolumeBounds']]],
+  ['broadtripletseedfilter_33',['BroadTripletSeedFilter',['../class_acts_1_1_broad_triplet_seed_filter.html',1,'Acts']]],
+  ['buffer_34',['Buffer',['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html',1,'ActsPlugins::FpeMonitor']]]
 ];

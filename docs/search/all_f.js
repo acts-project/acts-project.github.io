@@ -111,7 +111,7 @@ var searchData=
   ['localmaxwindowsize_108',['localMaxWindowSize',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1',1,'Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoricConfig']]],
   ['localpolartocartesian_109',['localPolarToCartesian',['../class_acts_1_1_disc_surface.html#ac29684c0f620fbd68b3dd81242bbb40d',1,'Acts::DiscSurface']]],
   ['localpolartolocalcartesian_110',['localPolarToLocalCartesian',['../class_acts_1_1_disc_surface.html#a70785725fc3bc55b7783ccfaf236dc3c',1,'Acts::DiscSurface']]],
-  ['localposition_111',['localPosition',['../class_acts_1_1_generic_bound_track_parameters.html#aca658a0a7841030962b7c39e59dc921c',1,'Acts::GenericBoundTrackParameters']]],
+  ['localposition_111',['localPosition',['../class_acts_1_1_bound_track_parameters.html#a6db4645c0cae4dc5457e1e71726735c9',1,'Acts::BoundTrackParameters']]],
   ['localsubspace_112',['LocalSubspace',['../class_acts_1_1_grid_access_1_1_local_subspace.html',1,'Acts::GridAccess::LocalSubspace&lt; Args &gt;'],['../class_acts_1_1_grid_access_1_1_local_subspace.html#a98e039865097030a09274295c5a97eb8',1,'Acts::GridAccess::LocalSubspace::LocalSubspace()']]],
   ['localsubspace_3c_200u_2c_201u_20_3e_113',['LocalSubspace&lt; 0u, 1u &gt;',['../class_acts_1_1_grid_access_1_1_local_subspace.html',1,'Acts::GridAccess']]],
   ['localsurfacelinks_114',['localSurfaceLinks',['../struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#a63102a13a0190dd4a35d8e0235d7863f',1,'ActsPlugins::DetrayConversionUtils::Cache']]],

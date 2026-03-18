@@ -120,6 +120,7 @@ var searchData=
   ['ht_117',['ht',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#aa8130554edc61512343af2c3084fd2ed',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
   ['hx0_118',['hX0',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a5c492a17c2b81a048093a47d98915aa4',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
   ['hypothesis_119',['hypothesis',['../class_acts_fatras_1_1_particle.html#abc91ce31eb1875b85ec6fed2a6e42743',1,'ActsFatras::Particle']]],
-  ['hypotsquare_120',['hypotSquare',['../namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209',1,'Acts']]],
-  ['hz_121',['hZ',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a9bf839a3aa87f8bdc3bf5642a49e735d',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]]
+  ['hypothesis_20for_20track_20reconstruction_120',['hypothesis for track reconstruction',['../group__eventdata-charge.html',1,'Charge hypothesis for track reconstruction'],['../group__eventdata-particlehypothesis.html',1,'Particle hypothesis for track reconstruction']]],
+  ['hypotsquare_121',['hypotSquare',['../namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209',1,'Acts']]],
+  ['hz_122',['hZ',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a9bf839a3aa87f8bdc3bf5642a49e735d',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]]
 ];

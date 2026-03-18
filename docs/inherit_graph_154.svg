@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html" target="_top" xlink:title="Sliding window in phi used to define range used for edge creation.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_properties.html" target="_top" xlink:title="Seed metadata produced by the GBTS algorithm.">
 <polygon fill="white" stroke="#666666" points="141,-41 0,-41 0,0 141,0 141,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::GraphBasedTrackSeeder</text>
-<text text-anchor="middle" x="70.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::SlidingWindow</text>
+<text text-anchor="middle" x="70.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::SeedProperties</text>
 </a>
 </g>
 </g>

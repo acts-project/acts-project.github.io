@@ -1,21 +1,21 @@
 <map id="Acts::IterativeVertexFinder::Config" name="Acts::IterativeVertexFinder::Config">
-<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="1016,277,1211,317"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_full_billoir_vertex_fitter.html" title="Vertex fitter class implementing the Billoir vertex fitter." alt="" coords="583,46,777,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="791,68,840,82,881,101,922,124,995,178,1055,232,1096,275,1092,279,1051,236,992,182,919,129,879,105,838,86,790,73"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="521,96,839,224"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="852,207,993,251,1060,275,1058,280,991,256,851,212"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,221,208,261"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="171,214,231,197,380,174,521,163,522,168,380,180,233,203,173,219"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="561,248,799,288"/>
-<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="222,244,561,260,561,265,222,249"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="599,312,761,352"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="775,328,879,323,992,315,1016,312,1016,317,992,320,880,329,775,333"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="28,321,185,346"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="199,330,599,330,599,335,199,336"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="569,376,791,416"/>
-<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="147,349,188,366,233,379,320,392,408,399,568,400,568,405,408,404,319,397,231,384,186,371,145,354"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_impact_point_estimator.html" title="Estimator for impact point calculations A description of the underlying mathematics can be found here..." alt="" coords="581,441,779,466"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="793,452,892,440,943,427,991,408,1023,389,1052,364,1095,316,1099,319,1056,368,1026,393,993,413,944,432,893,445,793,457"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="813,274,1016,288,1016,293,812,280"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="804,387,897,375,991,353,1037,336,1077,315,1080,320,1039,341,993,359,898,380,805,392"/>
+<area shape="rect" id="Node000001" title="Configuration struct." alt="" coords="1119,263,1313,303"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_full_billoir_vertex_fitter.html" title="Vertex fitter class implementing the Billoir vertex fitter." alt="" coords="683,31,877,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="891,52,942,67,984,86,1024,109,1098,163,1158,218,1199,261,1195,264,1154,222,1094,168,1021,114,982,91,940,72,890,57"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="619,81,941,209"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="955,192,1096,236,1163,260,1161,265,1094,241,954,197"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="5,207,208,247"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="168,199,231,181,331,165,432,154,618,143,618,148,432,159,331,170,233,187,170,205"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="661,233,899,273"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="222,229,661,246,661,251,221,234"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="699,297,861,337"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="875,313,980,309,1094,300,1118,297,1119,302,1095,305,981,314,875,319"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="28,306,185,331"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="199,316,699,315,699,320,199,321"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="669,361,891,401"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="147,335,188,351,233,364,348,381,464,389,574,390,668,387,669,392,574,395,464,394,347,386,231,369,186,356,145,340"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_impact_point_estimator.html" title="Estimator for impact point calculations A description of the underlying mathematics can be found here..." alt="" coords="681,426,879,451"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="893,437,942,433,993,425,1045,412,1093,394,1126,374,1155,349,1198,301,1202,305,1158,353,1129,378,1096,398,1046,418,994,431,942,439,893,443"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="913,260,1119,273,1118,279,912,265"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="905,372,998,360,1094,339,1140,321,1180,300,1182,305,1142,326,1095,344,999,366,905,378"/>
 </map>
