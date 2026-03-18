@@ -146,6 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa70f95740750a66cf2474cb20fdb4aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a single envelope configuration.  <br /></td></tr>
 <tr class="memitem:ad418dcdb22f9bbda620d630d40d9ea89" id="r_ad418dcdb22f9bbda620d630d40d9ea89"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#aa009e51d59c1a881d343ba0f9fcacbbc">Envelope</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad418dcdb22f9bbda620d630d40d9ea89">operator[]</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
 <tr class="memdesc:ad418dcdb22f9bbda620d630d40d9ea89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a single envelope configuration.  <br /></td></tr>
+<tr class="memitem:a64e7dac49e7b2780507285c8770c45ac" id="r_a64e7dac49e7b2780507285c8770c45ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42c20027bced507eb70272f52eb65fba">ExtentEnvelope</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e7dac49e7b2780507285c8770c45ac">set</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir, const <a class="el" href="namespace_acts.html#aa009e51d59c1a881d343ba0f9fcacbbc">Envelope</a> &amp;envelope)</td></tr>
+<tr class="memdesc:a64e7dac49e7b2780507285c8770c45ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter that allows for method chaining.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -271,6 +273,37 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the envelope </dd></dl>
+
+</div>
+</div>
+<a id="a64e7dac49e7b2780507285c8770c45ac" name="a64e7dac49e7b2780507285c8770c45ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e7dac49e7b2780507285c8770c45ac">&#9670;&#160;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a42c20027bced507eb70272f52eb65fba">ExtentEnvelope</a> &amp; Acts::ExtentEnvelope::set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>aDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#aa009e51d59c1a881d343ba0f9fcacbbc">Envelope</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setter that allows for method chaining. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aDir</td><td>the axis direction </td></tr>
+    <tr><td class="paramname">envelope</td><td>the envelope to be set </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a reference to the envelope for chaining </dd></dl>
 
 </div>
 </div>

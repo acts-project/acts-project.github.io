@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a19f7c9cceacea45b462a553ce56ba591":[6,0,0,402,0,5],
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#a19f7c9cceacea45b462a553ce56ba591":[8,0,0,409,0,5],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#a87a1cd078b874ee4d24e3ebf099376a4":[6,0,0,402,0,2],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#a87a1cd078b874ee4d24e3ebf099376a4":[8,0,0,409,0,2],
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#aa380973187d261ecf780214d794a9770":[6,0,0,402,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3":[6,0,0,407,0,0],
 "struct_acts_1_1_tracking_geometry_builder_1_1_config.html#ada3c68a1b634785733f41c2e0d4dbdb3":[8,0,0,414,0,0],
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[6,0,0,411,0],
-"struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[8,0,0,418,0],
-"struct_acts_1_1_transform3_json_converter_1_1_options.html":[8,0,0,14,0],
-"struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398":[8,0,0,14,0,1]
+"struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[8,0,0,418,0]
 };
