@@ -240,15 +240,9 @@ var hierarchy =
     [ "Acts::Experimental::MultiWireVolumeBuilder::Config", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html", null ],
     [ "Acts::Experimental::ProfileHistogram&lt; Dim &gt;", "class_acts_1_1_experimental_1_1_profile_histogram.html", null ],
     [ "Acts::Experimental::ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", null ],
-    [ "Acts::Experimental::TryAllNavigatorBase", "class_acts_1_1_experimental_1_1_try_all_navigator_base.html", [
-      [ "Acts::Experimental::TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", null ],
-      [ "Acts::Experimental::TryAllOverstepNavigator", "class_acts_1_1_experimental_1_1_try_all_overstep_navigator.html", null ]
-    ] ],
-    [ "Acts::Experimental::TryAllNavigatorBase::Config", "struct_acts_1_1_experimental_1_1_try_all_navigator_base_1_1_config.html", null ],
-    [ "Acts::Experimental::TryAllNavigatorBase::State", "struct_acts_1_1_experimental_1_1_try_all_navigator_base_1_1_state.html", [
-      [ "Acts::Experimental::TryAllNavigator::State", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html", null ],
-      [ "Acts::Experimental::TryAllOverstepNavigator::State", "struct_acts_1_1_experimental_1_1_try_all_overstep_navigator_1_1_state.html", null ]
-    ] ],
+    [ "Acts::Experimental::TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", null ],
+    [ "Acts::Experimental::TryAllNavigator::Config", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html", null ],
+    [ "Acts::Experimental::TryAllNavigator::State", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html", null ],
     [ "Acts::ExpSafeLimit&lt; T &gt;", "struct_acts_1_1_exp_safe_limit.html", null ],
     [ "Acts::ExpSafeLimit&lt; double &gt;", "struct_acts_1_1_exp_safe_limit_3_01double_01_4.html", null ],
     [ "Acts::ExpSafeLimit&lt; float &gt;", "struct_acts_1_1_exp_safe_limit_3_01float_01_4.html", null ],
@@ -608,7 +602,7 @@ var hierarchy =
     [ "Acts::Navigator::State", "struct_acts_1_1_navigator_1_1_state.html", null ],
     [ "Acts::NavigatorPlainOptions", "struct_acts_1_1_navigator_plain_options.html", [
       [ "Acts::DirectNavigator::Options", "struct_acts_1_1_direct_navigator_1_1_options.html", null ],
-      [ "Acts::Experimental::TryAllNavigatorBase::Options", "struct_acts_1_1_experimental_1_1_try_all_navigator_base_1_1_options.html", null ],
+      [ "Acts::Experimental::TryAllNavigator::Options", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_options.html", null ],
       [ "Acts::Navigator::Options", "struct_acts_1_1_navigator_1_1_options.html", null ],
       [ "Acts::VoidNavigator::Options", "struct_acts_1_1_void_navigator_1_1_options.html", null ]
     ] ],

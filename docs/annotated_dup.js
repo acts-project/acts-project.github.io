@@ -55,9 +55,7 @@ var annotated_dup =
         [ "ProfileHistogram", "class_acts_1_1_experimental_1_1_profile_histogram.html", "class_acts_1_1_experimental_1_1_profile_histogram" ],
         [ "ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", "struct_acts_1_1_experimental_1_1_scattering_properties" ],
         [ "StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", "class_acts_1_1_experimental_1_1_static_blueprint_node" ],
-        [ "TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", "class_acts_1_1_experimental_1_1_try_all_navigator" ],
-        [ "TryAllNavigatorBase", "class_acts_1_1_experimental_1_1_try_all_navigator_base.html", "class_acts_1_1_experimental_1_1_try_all_navigator_base" ],
-        [ "TryAllOverstepNavigator", "class_acts_1_1_experimental_1_1_try_all_overstep_navigator.html", "class_acts_1_1_experimental_1_1_try_all_overstep_navigator" ]
+        [ "TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", "class_acts_1_1_experimental_1_1_try_all_navigator" ]
       ] ],
       [ "GraphViz", null, [
         [ "Edge", "struct_acts_1_1_graph_viz_1_1_edge.html", "struct_acts_1_1_graph_viz_1_1_edge" ],

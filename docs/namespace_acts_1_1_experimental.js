@@ -39,8 +39,6 @@ var namespace_acts_1_1_experimental =
     [ "ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", "struct_acts_1_1_experimental_1_1_scattering_properties" ],
     [ "StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", "class_acts_1_1_experimental_1_1_static_blueprint_node" ],
     [ "TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", "class_acts_1_1_experimental_1_1_try_all_navigator" ],
-    [ "TryAllNavigatorBase", "class_acts_1_1_experimental_1_1_try_all_navigator_base.html", "class_acts_1_1_experimental_1_1_try_all_navigator_base" ],
-    [ "TryAllOverstepNavigator", "class_acts_1_1_experimental_1_1_try_all_overstep_navigator.html", "class_acts_1_1_experimental_1_1_try_all_overstep_navigator" ],
     [ "CompositeSpacePoint", "concept_acts_1_1_experimental_1_1_composite_space_point.html", null ],
     [ "CompositeSpacePointCalibrator", "concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html", null ],
     [ "CompositeSpacePointContainer", "concept_acts_1_1_experimental_1_1_composite_space_point_container.html", null ],
