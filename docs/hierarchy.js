@@ -676,6 +676,7 @@ var hierarchy =
     [ "Acts::ProtoLayerHelper", "class_acts_1_1_proto_layer_helper.html", null ],
     [ "Acts::ProtoLayerHelper::Config", "struct_acts_1_1_proto_layer_helper_1_1_config.html", null ],
     [ "Acts::ProxyAccessorBase&lt; T, ReadOnly &gt;", "struct_acts_1_1_proxy_accessor_base.html", null ],
+    [ "Acts::Ranges::to_adaptor&lt; Container &gt;", "struct_acts_1_1_ranges_1_1to__adaptor.html", null ],
     [ "Acts::RangeXD&lt; Dims, Type, Vector &gt;", "class_acts_1_1_range_x_d.html", null ],
     [ "Acts::Ray&lt; value_t, DIM &gt;", "class_acts_1_1_ray.html", null ],
     [ "Acts::RecordedMaterial", "struct_acts_1_1_recorded_material.html", null ],
