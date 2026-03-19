@@ -159,9 +159,9 @@ $(function(){initNavTree('_bethe_heitler_8hpp_source.html','',''); });
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    detail::FpeSafeGammaDistribution gDist(</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        slab.<a class="code hl_function" href="class_acts_1_1_material_slab.html#a54db52296430251c1204ef03feb185de">thicknessInX0</a>() / std::numbers::ln2, 1.);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">const</span> <span class="keyword">auto</span> u = gDist(generator);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">const</span> <span class="keyword">auto</span> z = std::exp(-u);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keyword">const</span> <span class="keyword">auto</span> sampledEnergyLoss =</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> u = gDist(generator);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> z = std::exp(-u);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> sampledEnergyLoss =</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        std::abs(<a class="code hl_variable" href="struct_acts_fatras_1_1_bethe_heitler.html#a9d96b6812b9760d0937cd1bb144cf403">scaleFactor</a> * particle.<a class="code hl_function" href="class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e">energy</a>() * (z - 1.));</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::uniform_real_distribution&lt;double&gt; uDist(0., 1.);</div>

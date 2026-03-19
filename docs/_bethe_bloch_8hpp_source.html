@@ -163,7 +163,7 @@ $(function(){initNavTree('_bethe_bloch_8hpp_source.html','',''); });
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">//      probable value and the Gaussian-equivalent sigma</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_class" href="class_acts_fatras_1_1_landau_distribution.html">LandauDistribution</a> lossDistribution(<a class="code hl_variable" href="struct_acts_fatras_1_1_bethe_bloch.html#a96b595a940ab83f747e87e090aacf436">scaleFactorMPV</a> * energyLoss,</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                                        <a class="code hl_variable" href="struct_acts_fatras_1_1_bethe_bloch.html#aea1be459fcde54d39213820934b0eb5d">scaleFactorSigma</a> * energyLossSigma);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">const</span> <span class="keyword">auto</span> loss = lossDistribution(generator);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> loss = lossDistribution(generator);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="comment">// Apply the energy loss</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    particle.<a class="code hl_function" href="class_acts_fatras_1_1_particle.html#af0fb921d637cd3cd5d5dcb0965f397f1">correctEnergy</a>(-loss);</div>
