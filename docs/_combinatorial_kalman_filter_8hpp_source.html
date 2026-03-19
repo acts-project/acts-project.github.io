@@ -832,77 +832,78 @@ $(function(){initNavTree('_combinatorial_kalman_filter_8hpp_source.html','','');
 <div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>            .template makeState&lt;PropagatorOptions, StubPathLimitReached&gt;(</div>
 <div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>                propOptions);</div>
 <div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span> </div>
-<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>    <span class="keyword">auto</span> initResult = m_propagator.template initialize&lt;</div>
-<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>        <span class="keyword">decltype</span>(propState), <a class="code hl_class" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a>, StubPathLimitReached&gt;(</div>
-<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>        propState, initialParameters);</div>
-<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>    <span class="keywordflow">if</span> (!initResult.ok()) {</div>
-<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span> &lt;&lt; initResult.error());</div>
-<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>      <span class="keywordflow">return</span> initResult.error();</div>
-<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>    }</div>
-<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span> </div>
-<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>    <span class="keyword">auto</span>&amp; r =</div>
-<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>        propState</div>
-<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>            .template get&lt;CombinatorialKalmanFilterResult&lt;track_container_t&gt;&gt;();</div>
-<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>    r.tracks = &amp;trackContainer;</div>
-<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>    r.trackStates = &amp;trackContainer.trackStateContainer();</div>
-<div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span> </div>
-<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>    <span class="comment">// make sure the right particle hypothesis is set on the root branch</span></div>
-<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>    rootBranch.setParticleHypothesis(initialParameters.particleHypothesis());</div>
-<div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span> </div>
-<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>    r.activeBranches.push_back(rootBranch);</div>
-<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span> </div>
-<div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span>    <span class="keyword">auto</span> propagationResult = m_propagator.propagate(propState);</div>
-<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span> </div>
-<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>    <span class="keyword">auto</span> result = m_propagator.makeResult(</div>
-<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>        std::move(propState), propagationResult, propOptions, <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span> </div>
-<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>    <span class="keywordflow">if</span> (!result.ok()) {</div>
-<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error() &lt;&lt; <span class="stringliteral">&quot; &quot;</span></div>
-<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>                                        &lt;&lt; result.error().message()</div>
-<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>                                        &lt;&lt; <span class="stringliteral">&quot; with the initial parameters: \n&quot;</span></div>
-<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>                                        &lt;&lt; initialParameters.parameters());</div>
-<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>      <span class="keywordflow">return</span> result.error();</div>
-<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>    }</div>
-<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span> </div>
-<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>    <span class="keyword">auto</span>&amp; propRes = *result;</div>
-<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span> </div>
-<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>    <span class="comment">// Get the result of the CombinatorialKalmanFilter</span></div>
-<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span>    <span class="keyword">auto</span> combKalmanResult =</div>
-<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>        std::move(propRes.template get&lt;</div>
-<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>                  <a class="code hl_struct" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">CombinatorialKalmanFilterResult&lt;track_container_t&gt;</a>&gt;());</div>
-<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span> </div>
-<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>    <span class="comment">// Check if track finding finished properly</span></div>
-<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>    <span class="keywordflow">if</span> (!combKalmanResult.finished) {</div>
-<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;CombinatorialKalmanFilter failed: &quot;</span></div>
-<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>                 &lt;&lt; <span class="stringliteral">&quot;Propagation reached max steps &quot;</span></div>
-<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>                 &lt;&lt; <span class="stringliteral">&quot;with the initial parameters: &quot;</span></div>
-<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>                 &lt;&lt; initialParameters.parameters().transpose());</div>
-<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>      <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="group__errors.html#gga5708898bc604b9dfedc12319218b8c1bacad57a44b12889a25020a697b8b3aa25">CombinatorialKalmanFilterError::PropagationReachesMaxSteps</a>;</div>
-<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>    }</div>
-<div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span> </div>
-<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>    <span class="keywordflow">return</span> std::move(combKalmanResult.collectedTracks);</div>
-<div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span>  }</div>
+<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>    <span class="keyword">auto</span> initResult =</div>
+<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>        m_propagator</div>
+<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>            .template initialize&lt;decltype(propState), StubPathLimitReached&gt;(</div>
+<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>                propState, initialParameters);</div>
+<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>    <span class="keywordflow">if</span> (!initResult.ok()) {</div>
+<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span> &lt;&lt; initResult.error());</div>
+<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>      <span class="keywordflow">return</span> initResult.error();</div>
+<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span>    }</div>
+<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span> </div>
+<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>    <span class="keyword">auto</span>&amp; r =</div>
+<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>        propState</div>
+<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>            .template get&lt;CombinatorialKalmanFilterResult&lt;track_container_t&gt;&gt;();</div>
+<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>    r.tracks = &amp;trackContainer;</div>
+<div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span>    r.trackStates = &amp;trackContainer.trackStateContainer();</div>
+<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span> </div>
+<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>    <span class="comment">// make sure the right particle hypothesis is set on the root branch</span></div>
+<div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span>    rootBranch.setParticleHypothesis(initialParameters.particleHypothesis());</div>
+<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span> </div>
+<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>    r.activeBranches.push_back(rootBranch);</div>
+<div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span> </div>
+<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    <span class="keyword">auto</span> propagationResult = m_propagator.propagate(propState);</div>
+<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span> </div>
+<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>    <span class="keyword">auto</span> result = m_propagator.makeResult(</div>
+<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>        std::move(propState), propagationResult, propOptions, <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span> </div>
+<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>    <span class="keywordflow">if</span> (!result.ok()) {</div>
+<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation failed: &quot;</span> &lt;&lt; result.error() &lt;&lt; <span class="stringliteral">&quot; &quot;</span></div>
+<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>                                        &lt;&lt; result.error().message()</div>
+<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>                                        &lt;&lt; <span class="stringliteral">&quot; with the initial parameters: \n&quot;</span></div>
+<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>                                        &lt;&lt; initialParameters.parameters());</div>
+<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>      <span class="keywordflow">return</span> result.error();</div>
+<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>    }</div>
+<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span> </div>
+<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span>    <span class="keyword">auto</span>&amp; propRes = *result;</div>
+<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span> </div>
+<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span>    <span class="comment">// Get the result of the CombinatorialKalmanFilter</span></div>
+<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>    <span class="keyword">auto</span> combKalmanResult =</div>
+<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>        std::move(propRes.template get&lt;</div>
+<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>                  <a class="code hl_struct" href="struct_acts_1_1_combinatorial_kalman_filter_result.html">CombinatorialKalmanFilterResult&lt;track_container_t&gt;</a>&gt;());</div>
+<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span> </div>
+<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>    <span class="comment">// Check if track finding finished properly</span></div>
+<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>    <span class="keywordflow">if</span> (!combKalmanResult.finished) {</div>
+<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;CombinatorialKalmanFilter failed: &quot;</span></div>
+<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>                 &lt;&lt; <span class="stringliteral">&quot;Propagation reached max steps &quot;</span></div>
+<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>                 &lt;&lt; <span class="stringliteral">&quot;with the initial parameters: &quot;</span></div>
+<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>                 &lt;&lt; initialParameters.parameters().transpose());</div>
+<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>      <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="group__errors.html#gga5708898bc604b9dfedc12319218b8c1bacad57a44b12889a25020a697b8b3aa25">CombinatorialKalmanFilterError::PropagationReachesMaxSteps</a>;</div>
+<div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span>    }</div>
+<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span> </div>
+<div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span>    <span class="keywordflow">return</span> std::move(combKalmanResult.collectedTracks);</div>
+<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>  }</div>
 </div>
-<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span></div>
-<div class="foldopen" id="foldopen00918" data-start="{" data-end="}">
-<div class="line"><a id="l00918" name="l00918"></a><span class="lineno"><a class="line" href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">  918</a></span>  <span class="keyword">auto</span> <a class="code hl_function" href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">findTracks</a>(</div>
-<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span>      <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a>&amp; initialParameters,</div>
-<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>      <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions&lt;track_container_t&gt;</a>&amp; tfOptions,</div>
-<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>      track_container_t&amp; trackContainer) <span class="keyword">const</span></div>
-<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>      -&gt; <a class="code hl_class" href="class_acts_1_1_result.html">Result</a>&lt;std::vector&lt;</div>
-<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>          <span class="keyword">typename</span> std::decay_t&lt;<span class="keyword">decltype</span>(trackContainer)&gt;::TrackProxy&gt;&gt; {</div>
-<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>    <span class="keyword">auto</span> rootBranch = trackContainer.makeTrack();</div>
-<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_combinatorial_kalman_filter.html#af26bb30c3a65c5d38d253044b369bd51">findTracks</a>(initialParameters, tfOptions, trackContainer, rootBranch);</div>
-<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>  }</div>
+<div class="line"><a id="l00906" name="l00906"></a><span class="lineno">  906</span></div>
+<div class="foldopen" id="foldopen00919" data-start="{" data-end="}">
+<div class="line"><a id="l00919" name="l00919"></a><span class="lineno"><a class="line" href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">  919</a></span>  <span class="keyword">auto</span> <a class="code hl_function" href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">findTracks</a>(</div>
+<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>      <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a>&amp; initialParameters,</div>
+<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>      <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions&lt;track_container_t&gt;</a>&amp; tfOptions,</div>
+<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>      track_container_t&amp; trackContainer) <span class="keyword">const</span></div>
+<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>      -&gt; <a class="code hl_class" href="class_acts_1_1_result.html">Result</a>&lt;std::vector&lt;</div>
+<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>          <span class="keyword">typename</span> std::decay_t&lt;<span class="keyword">decltype</span>(trackContainer)&gt;::TrackProxy&gt;&gt; {</div>
+<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>    <span class="keyword">auto</span> rootBranch = trackContainer.makeTrack();</div>
+<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_combinatorial_kalman_filter.html#af26bb30c3a65c5d38d253044b369bd51">findTracks</a>(initialParameters, tfOptions, trackContainer, rootBranch);</div>
+<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>  }</div>
 </div>
-<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>};  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>};  <span class="comment">// namespace Acts</span></div>
 </div>
-<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span></div>
-<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span> </div>
-<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span></div>
+<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span> </div>
+<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a></div><div class="ttdoc">Track parameters bound to a reference surface for a single track.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:36</div></div>
 <div class="ttc" id="aclass_acts_1_1_combinatorial_kalman_filter_html_a00ce8df1692cbd175c8c4c4eb96d127b"><div class="ttname"><a href="class_acts_1_1_combinatorial_kalman_filter.html#a00ce8df1692cbd175c8c4c4eb96d127b">Acts::CombinatorialKalmanFilter::CombinatorialKalmanFilter</a></div><div class="ttdeci">CombinatorialKalmanFilter()=delete</div><div class="ttdoc">Default constructor is deleted.</div></div>
-<div class="ttc" id="aclass_acts_1_1_combinatorial_kalman_filter_html_a6433994384494e412829666abdb4cde9"><div class="ttname"><a href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">Acts::CombinatorialKalmanFilter::findTracks</a></div><div class="ttdeci">auto findTracks(const BoundTrackParameters &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</div><div class="ttdoc">Combinatorial Kalman Filter implementation, calls the Kalman filter.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilter.hpp:918</div></div>
+<div class="ttc" id="aclass_acts_1_1_combinatorial_kalman_filter_html_a6433994384494e412829666abdb4cde9"><div class="ttname"><a href="class_acts_1_1_combinatorial_kalman_filter.html#a6433994384494e412829666abdb4cde9">Acts::CombinatorialKalmanFilter::findTracks</a></div><div class="ttdeci">auto findTracks(const BoundTrackParameters &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</div><div class="ttdoc">Combinatorial Kalman Filter implementation, calls the Kalman filter.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilter.hpp:919</div></div>
 <div class="ttc" id="aclass_acts_1_1_combinatorial_kalman_filter_html_a73babed6b5e06588d567cfa23fd7b0cf"><div class="ttname"><a href="class_acts_1_1_combinatorial_kalman_filter.html#a73babed6b5e06588d567cfa23fd7b0cf">Acts::CombinatorialKalmanFilter::CombinatorialKalmanFilter</a></div><div class="ttdeci">CombinatorialKalmanFilter(propagator_t pPropagator, std::unique_ptr&lt; const Logger &gt; _logger=getDefaultLogger(&quot;CKF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor with propagator and logging level.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilter.hpp:170</div></div>
 <div class="ttc" id="aclass_acts_1_1_combinatorial_kalman_filter_html_af26bb30c3a65c5d38d253044b369bd51"><div class="ttname"><a href="class_acts_1_1_combinatorial_kalman_filter.html#af26bb30c3a65c5d38d253044b369bd51">Acts::CombinatorialKalmanFilter::findTracks</a></div><div class="ttdeci">auto findTracks(const BoundTrackParameters &amp;initialParameters, const CombinatorialKalmanFilterOptions&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer, typename track_container_t::TrackProxy rootBranch) const -&gt; Result&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</div><div class="ttdoc">Combinatorial Kalman Filter implementation, calls the Kalman filter.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilter.hpp:816</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>

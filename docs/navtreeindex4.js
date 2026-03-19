@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"class_acts_1_1_binned_surface_material.html#a21c75deba7263c4428d0a612f6069b99":[5,3,2,4,5],
+"class_acts_1_1_binned_surface_material.html#a512b28c9238f17db2c8ae36245ca406b":[5,3,2,4,13],
 "class_acts_1_1_binned_surface_material.html#a53fb16bddca84dc4809edb9d09cc1c96":[5,3,2,4,3],
 "class_acts_1_1_binned_surface_material.html#a57c67692911c878a906319e8a8ffcd5d":[5,3,2,4,9],
 "class_acts_1_1_binned_surface_material.html#a80127eaf48c05d9ca139c27b4d112c64":[5,3,2,4,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_boundary_tolerance.html#ae7967a466c9a838319773ed8d4cd748e":[6,0,0,54,9],
 "class_acts_1_1_boundary_tolerance.html#ae7967a466c9a838319773ed8d4cd748e":[8,0,0,62,9],
 "class_acts_1_1_boundary_tolerance.html#aea7c938919596380ebb990ac9f305030":[6,0,0,54,14],
-"class_acts_1_1_boundary_tolerance.html#aea7c938919596380ebb990ac9f305030":[8,0,0,62,14],
-"class_acts_1_1_broad_triplet_seed_filter.html":[6,0,0,57],
-"class_acts_1_1_broad_triplet_seed_filter.html":[8,0,0,65]
+"class_acts_1_1_boundary_tolerance.html#aea7c938919596380ebb990ac9f305030":[8,0,0,62,14]
 };

@@ -44,7 +44,7 @@ var searchData=
   ['propagatoroptions_3c_20stepperoptions_2c_20navigatoroptions_2c_20actor_5flist_5ft_20_3e_41',['PropagatorOptions&lt; StepperOptions, NavigatorOptions, actor_list_t &gt;',['../struct_acts_1_1_propagator_options.html',1,'Acts']]],
   ['propagatorplainoptions_42',['PropagatorPlainOptions',['../struct_acts_1_1_propagator_plain_options.html',1,'Acts']]],
   ['propagatorresult_43',['PropagatorResult',['../struct_acts_1_1_propagator_result.html',1,'Acts']]],
-  ['propagatorresult_3c_20parameters_5ft_2c_20args_2e_2e_2e_20_3e_44',['PropagatorResult&lt; parameters_t, args... &gt;',['../struct_acts_1_1_propagator_result.html',1,'Acts']]],
+  ['propagatorresult_3c_20boundparameters_2c_20args_2e_2e_2e_20_3e_44',['PropagatorResult&lt; BoundParameters, args... &gt;',['../struct_acts_1_1_propagator_result.html',1,'Acts']]],
   ['propagatorstate_45',['PropagatorState',['../struct_acts_1_1_propagator_state.html',1,'Acts']]],
   ['propagatorstate_3c_20propagator_5foptions_5ft_2c_20typename_20stepper_5ft_3a_3astate_2c_20typename_20navigator_5ft_3a_3astate_2c_20args_2e_2e_2e_20_3e_46',['PropagatorState&lt; propagator_options_t, typename stepper_t::State, typename navigator_t::State, args... &gt;',['../struct_acts_1_1_propagator_state.html',1,'Acts']]],
   ['propagatorstatistics_47',['PropagatorStatistics',['../struct_acts_1_1_propagator_statistics.html',1,'Acts']]],

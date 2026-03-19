@@ -95,7 +95,7 @@ var searchData=
   ['makenucleusgroundstate_92',['makeNucleusGroundState',['../namespace_acts.html#aba9e1010998ed0a39553174f81cc6c3c',1,'Acts']]],
   ['makephithetafromdirection_93',['makePhiThetaFromDirection',['../namespace_acts.html#aa43f78ba3fcf4f16c256f1b3ac56f90b',1,'Acts']]],
   ['makeportalsalignable_94',['makePortalsAlignable',['../class_acts_1_1_volume_placement_base.html#adcfb451b5faff3cdf6deecbf1a65bc1b',1,'Acts::VolumePlacementBase']]],
-  ['makeresult_95',['makeResult',['../class_acts_1_1_propagator.html#a0428b16f1d54d74e3b23afbaaaa38d89',1,'Acts::Propagator::makeResult(propagator_state_t state, Result&lt; void &gt; result, const propagator_options_t &amp;options, bool createFinalParameters) const'],['../class_acts_1_1_propagator.html#af4cbae8ff1c25d1285f94dea6bad3659',1,'Acts::Propagator::makeResult(propagator_state_t state, Result&lt; void &gt; result, const Surface &amp;target, const propagator_options_t &amp;options) const']]],
+  ['makeresult_95',['makeResult',['../class_acts_1_1_propagator.html#afebee49d50be2e87f7d81cc834069bf6',1,'Acts::Propagator']]],
   ['makeset_96',['makeSet',['../class_acts_1_1_ccl_1_1_disjoint_sets.html#a85310e7dfb9b349131990f770edfc2f0',1,'Acts::Ccl::DisjointSets']]],
   ['makeshared_97',['makeShared',['../class_acts_1_1_surface.html#a1b015430332289b80ecf57688e1b350c',1,'Acts::Surface']]],
   ['makesourcelinkpairs_98',['makeSourceLinkPairs',['../class_acts_1_1_space_point_builder.html#aa12cc5a4167dfb431db4500e217ee22d',1,'Acts::SpacePointBuilder']]],

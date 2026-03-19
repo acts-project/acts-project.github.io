@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"class_acts_1_1_propagator_material_assigner.html#a1f8fc4457b4c672e3888e4dc5b8b97ec":[8,0,0,319,1],
+"class_acts_1_1_proto_axis.html":[6,0,0,317],
+"class_acts_1_1_proto_axis.html":[8,0,0,325],
+"class_acts_1_1_proto_axis.html#a14f0205ae21523a63ba6de7c1794bf12":[6,0,0,317,5],
 "class_acts_1_1_proto_axis.html#a14f0205ae21523a63ba6de7c1794bf12":[8,0,0,325,5],
 "class_acts_1_1_proto_axis.html#a29a955e56271bda5f84eb75040417ba2":[6,0,0,317,12],
 "class_acts_1_1_proto_axis.html#a29a955e56271bda5f84eb75040417ba2":[8,0,0,325,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "class_acts_1_1_rectangle_bounds.html#ae03586346a9bddeac61f6d4b1061d7b9":[6,0,0,327,15],
 "class_acts_1_1_rectangle_bounds.html#ae03586346a9bddeac61f6d4b1061d7b9":[8,0,0,335,15],
 "class_acts_1_1_rectangle_bounds.html#ae1ffaa6193c8625406023237207b27db":[6,0,0,327,5],
-"class_acts_1_1_rectangle_bounds.html#ae1ffaa6193c8625406023237207b27db":[8,0,0,335,5],
-"class_acts_1_1_rectangle_bounds.html#ae390ce111d9ee9649955eeca32580b5e":[6,0,0,327,1],
-"class_acts_1_1_rectangle_bounds.html#ae390ce111d9ee9649955eeca32580b5e":[8,0,0,335,1],
-"class_acts_1_1_rectangle_bounds.html#ae49c316e2cb318af7de7029ef24a5d01":[6,0,0,327,16],
-"class_acts_1_1_rectangle_bounds.html#ae49c316e2cb318af7de7029ef24a5d01":[8,0,0,335,16]
+"class_acts_1_1_rectangle_bounds.html#ae1ffaa6193c8625406023237207b27db":[8,0,0,335,5]
 };

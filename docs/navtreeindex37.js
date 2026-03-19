@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"class_acts_fatras_1_1_hit.html#a174b334286e81407ee8521d8c3225bc9":[8,0,1,17,17],
+"class_acts_fatras_1_1_hit.html#a1adf850212e634cddff7081d7428de62":[6,0,2,16,16],
+"class_acts_fatras_1_1_hit.html#a1adf850212e634cddff7081d7428de62":[8,0,1,17,16],
+"class_acts_fatras_1_1_hit.html#a1b1150a3e52af833e64d027034c67341":[6,0,2,16,9],
+"class_acts_fatras_1_1_hit.html#a1b1150a3e52af833e64d027034c67341":[8,0,1,17,9],
+"class_acts_fatras_1_1_hit.html#a3a5633bf580a33776a65b3f3a09b4398":[6,0,2,16,12],
+"class_acts_fatras_1_1_hit.html#a3a5633bf580a33776a65b3f3a09b4398":[8,0,1,17,12],
+"class_acts_fatras_1_1_hit.html#a3f55ca00426083cad99a70f5571f2790":[6,0,2,16,8],
 "class_acts_fatras_1_1_hit.html#a3f55ca00426083cad99a70f5571f2790":[8,0,1,17,8],
 "class_acts_fatras_1_1_hit.html#a4ec177ebc6818e5dacccdc2f97daa7cc":[6,0,2,16,14],
 "class_acts_fatras_1_1_hit.html#a4ec177ebc6818e5dacccdc2f97daa7cc":[8,0,1,17,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163":[5,9,2,0,2],
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#a2dca2f2845183e48b8ab1321c5e578f9":[5,9,2,0,3],
 "class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57":[5,9,2,0,4],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#abe221dd1e520170eb8022e64132b9bd9":[5,9,2,0,0],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#abf17c510e5e5697c63300e090b9a1605":[5,9,2,0,1],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html":[5,9,2,2],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a07c26620fec6d1a668ded631bdda58de":[5,9,2,2,6],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a0ca59c343e47e8c7e533f651d9d2eba5":[5,9,2,2,5],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a204e01f7e505b12bd5a5f1ed25f76b76":[5,9,2,2,4],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a68f387e6d31943cfdbf4050caaf5beaa":[5,9,2,2,7],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#af2099b2fdeed9a6fafb97e6aacdcb2f6":[5,9,2,2,3],
-"class_acts_plugins_1_1_d_d4hep_field_adapter.html":[5,3,1,8]
+"class_acts_plugins_1_1_d_d4hep_detector_element.html#abe221dd1e520170eb8022e64132b9bd9":[5,9,2,0,0]
 };

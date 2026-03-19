@@ -146,8 +146,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a25bae4907217345239b06d2fa164dccb" id="r_a25bae4907217345239b06d2fa164dccb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25bae4907217345239b06d2fa164dccb">BoundState</a></td></tr>
-<tr class="memdesc:a25bae4907217345239b06d2fa164dccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound state tuple containing parameters, Jacobian, and path length.  <br /></td></tr>
+<tr class="memitem:ad347fe360389c8a6f5776ea7e5200b02" id="r_ad347fe360389c8a6f5776ea7e5200b02"><td class="memItemLeft" align="right" valign="top"><a id="ad347fe360389c8a6f5776ea7e5200b02" name="ad347fe360389c8a6f5776ea7e5200b02"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundParameters</b> = <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html">MultiComponentBoundTrackParameters</a></td></tr>
+<tr class="memdesc:ad347fe360389c8a6f5776ea7e5200b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for bound track parameters. <br /></td></tr>
+<tr class="memitem:aa595061b27c300a89f436a753f770947" id="r_aa595061b27c300a89f436a753f770947"><td class="memItemLeft" align="right" valign="top"><a id="aa595061b27c300a89f436a753f770947" name="aa595061b27c300a89f436a753f770947"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>BoundState</b> = std::tuple&lt;<a class="el" href="#ad347fe360389c8a6f5776ea7e5200b02">BoundParameters</a>, <a class="el" href="#ac2d83c2c5301b936d80b76157951d31a">Jacobian</a>, double&gt;</td></tr>
+<tr class="memdesc:aa595061b27c300a89f436a753f770947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound state tuple containing parameters, Jacobian, and path length. <br /></td></tr>
 <tr class="memitem:a4c04e0a4abab2458b926bbd31a22786a" id="r_a4c04e0a4abab2458b926bbd31a22786a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c04e0a4abab2458b926bbd31a22786a">ComponentProxy</a></td></tr>
 <tr class="memdesc:a4c04e0a4abab2458b926bbd31a22786a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A proxy struct which allows access to a single component of the multi-component state.  <br /></td></tr>
 <tr class="memitem:ae7f0c6ca518ae97111f67a4da70423ed" id="r_ae7f0c6ca518ae97111f67a4da70423ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f0c6ca518ae97111f67a4da70423ed">ConstComponentProxy</a></td></tr>
@@ -184,7 +188,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af0cffcbdb894dbb7ae97f435f573b4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute momentum accessor.  <br /></td></tr>
 <tr class="memitem:aadb5485323be4c9842111031bc0b5b6b" id="r_aadb5485323be4c9842111031bc0b5b6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a4c04e0a4abab2458b926bbd31a22786a">ComponentProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb5485323be4c9842111031bc0b5b6b">addComponent</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;pars, double weight) const</td></tr>
 <tr class="memdesc:aadb5485323be4c9842111031bc0b5b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a component to the Multistepper.  <br /></td></tr>
-<tr class="memitem:a88eb382ca93bd78bcbe82e430748ec20" id="r_a88eb382ca93bd78bcbe82e430748ec20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a25bae4907217345239b06d2fa164dccb">BoundState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88eb382ca93bd78bcbe82e430748ec20">boundState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, bool transportCov=true, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memitem:a88eb382ca93bd78bcbe82e430748ec20" id="r_a88eb382ca93bd78bcbe82e430748ec20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#aa595061b27c300a89f436a753f770947">BoundState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88eb382ca93bd78bcbe82e430748ec20">boundState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, bool transportCov=true, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
 <tr class="memdesc:a88eb382ca93bd78bcbe82e430748ec20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return the bound state at the current position.  <br /></td></tr>
 <tr class="memitem:a5810edeb15d1733ba6447b4e1cbe7613" id="r_a5810edeb15d1733ba6447b4e1cbe7613"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5810edeb15d1733ba6447b4e1cbe7613">charge</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a5810edeb15d1733ba6447b4e1cbe7613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge access.  <br /></td></tr>
@@ -194,7 +198,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae7493f780932d2a91057e1cde8b57d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an iterable which can be plugged into a range-based for-loop to iterate over components.  <br /></td></tr>
 <tr class="memitem:a8e36c69a3252b98c7e3a207dc2dc3360" id="r_a8e36c69a3252b98c7e3a207dc2dc3360"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e36c69a3252b98c7e3a207dc2dc3360">constComponentIterable</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a8e36c69a3252b98c7e3a207dc2dc3360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an constant iterable which can be plugged into a range-based for-loop to iterate over components.  <br /></td></tr>
-<tr class="memitem:aa4655ee78def889ce17191cc2185a773" id="r_aa4655ee78def889ce17191cc2185a773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a25bae4907217345239b06d2fa164dccb">BoundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4655ee78def889ce17191cc2185a773">curvilinearState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, bool transportCov=true) const</td></tr>
+<tr class="memitem:aa4655ee78def889ce17191cc2185a773" id="r_aa4655ee78def889ce17191cc2185a773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa595061b27c300a89f436a753f770947">BoundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4655ee78def889ce17191cc2185a773">curvilinearState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, bool transportCov=true) const</td></tr>
 <tr class="memdesc:aa4655ee78def889ce17191cc2185a773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return a curvilinear state at the current position.  <br /></td></tr>
 <tr class="memitem:adfbd62497eb2d734077831f052b39917" id="r_adfbd62497eb2d734077831f052b39917"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbd62497eb2d734077831f052b39917">direction</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:adfbd62497eb2d734077831f052b39917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Momentum direction accessor.  <br /></td></tr>
@@ -202,8 +206,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad02581b5a3f99db0fd84cb274e15272f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the field for the stepping, it checks first if the access is still within the Cell, and updates the cell if necessary.  <br /></td></tr>
 <tr class="memitem:a17c46fd3911200c3b49c41b1c71f70b2" id="r_a17c46fd3911200c3b49c41b1c71f70b2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17c46fd3911200c3b49c41b1c71f70b2">getStepSize</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a17c46fd3911200c3b49c41b1c71f70b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the step size.  <br /></td></tr>
-<tr class="memitem:a422d81f88543bdc4b38e50f464c9cde9" id="r_a422d81f88543bdc4b38e50f464c9cde9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a422d81f88543bdc4b38e50f464c9cde9">initialize</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html">MultiComponentBoundTrackParameters</a> &amp;par) const</td></tr>
-<tr class="memdesc:a422d81f88543bdc4b38e50f464c9cde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the stepper state from multi-component bound track parameters.  <br /></td></tr>
+<tr class="memitem:aa52daf1405fbe58c46ddc4744d921a8c" id="r_aa52daf1405fbe58c46ddc4744d921a8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa52daf1405fbe58c46ddc4744d921a8c">initialize</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="#ad347fe360389c8a6f5776ea7e5200b02">BoundParameters</a> &amp;par) const</td></tr>
+<tr class="memdesc:aa52daf1405fbe58c46ddc4744d921a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the stepper state from multi-component bound track parameters.  <br /></td></tr>
 <tr class="memitem:ac294b68a4777e63aecb2b587f7e56643" id="r_ac294b68a4777e63aecb2b587f7e56643"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac294b68a4777e63aecb2b587f7e56643">makeState</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_options.html">Options</a> &amp;options) const</td></tr>
 <tr class="memdesc:ac294b68a4777e63aecb2b587f7e56643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a state object for multi-stepping.  <br /></td></tr>
 <tr class="memitem:a0d05d15a0ba03da5a4e99820166ca3a4" id="r_a0d05d15a0ba03da5a4e99820166ca3a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d05d15a0ba03da5a4e99820166ca3a4">momentum</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -265,26 +269,6 @@ class Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;</div
 </li>
 </ul>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a25bae4907217345239b06d2fa164dccb" name="a25bae4907217345239b06d2fa164dccb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25bae4907217345239b06d2fa164dccb">&#9670;&#160;</a></span>BoundState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::BoundState</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      std::tuple&lt;MultiComponentBoundTrackParameters, Jacobian, double&gt;</div>
-</div><!-- fragment -->
-<p>Bound state tuple containing parameters, Jacobian, and path length. </p>
-
-</div>
-</div>
 <a id="a4c04e0a4abab2458b926bbd31a22786a" name="a4c04e0a4abab2458b926bbd31a22786a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c04e0a4abab2458b926bbd31a22786a">&#9670;&#160;</a></span>ComponentProxy</h2>
 
@@ -322,8 +306,8 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      detail::LoopComponentProxyBase&lt;<span class="keyword">const</span> <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">State::Component</a>,</div>
 <div class="line">                                     <a class="code hl_function" href="#a570b81ba406b8c3eb2451cef7d4a4c15">MultiStepperLoop</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html_a570b81ba406b8c3eb2451cef7d4a4c15"><div class="ttname"><a href="#a570b81ba406b8c3eb2451cef7d4a4c15">Acts::MultiStepperLoop::MultiStepperLoop</a></div><div class="ttdeci">MultiStepperLoop(std::shared_ptr&lt; const MagneticFieldProvider &gt; bField, std::unique_ptr&lt; const Logger &gt; logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every step...</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:241</div></div>
-<div class="ttc" id="astruct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component_html"><div class="ttname"><a href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Acts::MultiStepperLoop::State::Component</a></div><div class="ttdoc">The struct that stores the individual components.</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:190</div></div>
+<div class="ttc" id="aclass_acts_1_1_multi_stepper_loop_html_a570b81ba406b8c3eb2451cef7d4a4c15"><div class="ttname"><a href="#a570b81ba406b8c3eb2451cef7d4a4c15">Acts::MultiStepperLoop::MultiStepperLoop</a></div><div class="ttdeci">MultiStepperLoop(std::shared_ptr&lt; const MagneticFieldProvider &gt; bField, std::unique_ptr&lt; const Logger &gt; logger=getDefaultLogger(&quot;GSF&quot;, Logging::INFO))</div><div class="ttdoc">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every step...</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:242</div></div>
+<div class="ttc" id="astruct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component_html"><div class="ttname"><a href="struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html">Acts::MultiStepperLoop::State::Component</a></div><div class="ttdoc">The struct that stores the individual components.</div><div class="ttdef"><b>Definition</b> MultiStepperLoop.hpp:191</div></div>
 </div><!-- fragment -->
 <p>A proxy struct which allows access to a single component of the multi-component state. </p>
 <p>It has the semantics of a const reference, i.e. it requires a const reference of the single-component state it represents </p>
@@ -493,7 +477,7 @@ The returned component-proxy is only garantueed to be valid until the component 
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a25bae4907217345239b06d2fa164dccb">BoundState</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::boundState </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#aa595061b27c300a89f436a753f770947">BoundState</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::boundState </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -657,7 +641,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a25bae4907217345239b06d2fa164dccb">BoundState</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::curvilinearState </td>
+          <td class="memname"><a class="el" href="#aa595061b27c300a89f436a753f770947">BoundState</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::curvilinearState </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -783,8 +767,8 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 
 </div>
 </div>
-<a id="a422d81f88543bdc4b38e50f464c9cde9" name="a422d81f88543bdc4b38e50f464c9cde9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a422d81f88543bdc4b38e50f464c9cde9">&#9670;&#160;</a></span>initialize()</h2>
+<a id="aa52daf1405fbe58c46ddc4744d921a8c" name="aa52daf1405fbe58c46ddc4744d921a8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa52daf1405fbe58c46ddc4744d921a8c">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -799,7 +783,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_multi_component_bound_track_parameters.html">MultiComponentBoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>par</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="#ad347fe360389c8a6f5776ea7e5200b02">BoundParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>par</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

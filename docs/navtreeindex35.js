@@ -1,5 +1,13 @@
 var NAVTREEINDEX35 =
 {
+"class_acts_1_1_trapezoid_portal_shell.html#a88c7fe621904f0576d110b2c3c50986b":[6,0,0,417,3],
+"class_acts_1_1_trapezoid_portal_shell.html#a88c7fe621904f0576d110b2c3c50986b":[8,0,0,425,3],
+"class_acts_1_1_trapezoid_portal_shell.html#a89f1797c3d8498bb59ffc38bcab28c4a":[6,0,0,417,2],
+"class_acts_1_1_trapezoid_portal_shell.html#a89f1797c3d8498bb59ffc38bcab28c4a":[8,0,0,425,2],
+"class_acts_1_1_trapezoid_portal_shell.html#ae44dfb3f9a7abef50575bd039548f132":[6,0,0,417,0],
+"class_acts_1_1_trapezoid_portal_shell.html#ae44dfb3f9a7abef50575bd039548f132":[8,0,0,425,0],
+"class_acts_1_1_trapezoid_volume_bounds.html":[6,0,0,418],
+"class_acts_1_1_trapezoid_volume_bounds.html":[8,0,0,426],
 "class_acts_1_1_trapezoid_volume_bounds.html#a12fe6e5954ca735ca4c1e0425b0ff835":[6,0,0,418,8],
 "class_acts_1_1_trapezoid_volume_bounds.html#a12fe6e5954ca735ca4c1e0425b0ff835":[8,0,0,426,8],
 "class_acts_1_1_trapezoid_volume_bounds.html#a37a239bc146009fe37f583174d13feeb":[6,0,0,418,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX35 =
 "class_acts_1_1_vertex.html#addffed124fd5d62cead44abb7b80ae62":[8,0,0,441,20],
 "class_acts_1_1_vertex.html#ae1bd6618dcad97b46877dba55ffb4834":[6,0,0,433,8],
 "class_acts_1_1_vertex.html#ae1bd6618dcad97b46877dba55ffb4834":[8,0,0,441,8],
-"class_acts_1_1_vertex.html#ae3812fd000d2302df721b60ce4bd49b8":[6,0,0,433,13],
-"class_acts_1_1_vertex.html#ae3812fd000d2302df721b60ce4bd49b8":[8,0,0,441,13],
-"class_acts_1_1_vertex.html#afd909be868a8cd935fbeb2442858ba06":[6,0,0,433,14],
-"class_acts_1_1_vertex.html#afd909be868a8cd935fbeb2442858ba06":[8,0,0,441,14],
-"class_acts_1_1_void_navigator.html":[6,0,0,437],
-"class_acts_1_1_void_navigator.html":[8,0,0,445],
-"class_acts_1_1_void_navigator.html#a0ed69c256877b9b7da6d57a8ea62b8bd":[6,0,0,437,9],
-"class_acts_1_1_void_navigator.html#a0ed69c256877b9b7da6d57a8ea62b8bd":[8,0,0,445,9],
-"class_acts_1_1_void_navigator.html#a0f1f8538d7ca620c54dabe4988967b56":[6,0,0,437,8]
+"class_acts_1_1_vertex.html#ae3812fd000d2302df721b60ce4bd49b8":[6,0,0,433,13]
 };

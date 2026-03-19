@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_seed_finder_orthogonal_config.html":[8,0,0,356],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a02161edf0f9cc1791ff8c496716cb647":[6,0,0,348,30],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a02161edf0f9cc1791ff8c496716cb647":[8,0,0,356,30],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a04b158e3544af47754afd4948cd40cff":[6,0,0,348,7],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a04b158e3544af47754afd4948cd40cff":[8,0,0,356,7],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a063f701ad127104bc0907e49bb9b7479":[6,0,0,348,34],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a063f701ad127104bc0907e49bb9b7479":[8,0,0,356,34],
+"struct_acts_1_1_seed_finder_orthogonal_config.html#a096d19361dd34496ab839bf38841bebc":[6,0,0,348,29],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a096d19361dd34496ab839bf38841bebc":[8,0,0,356,29],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a0e15af9d65fa67be8922d5414597d55f":[6,0,0,348,10],
 "struct_acts_1_1_seed_finder_orthogonal_config.html#a0e15af9d65fa67be8922d5414597d55f":[8,0,0,356,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a6caac2ad5fd5c4d65fe8d3a7eb00aa78":[8,0,0,381,2,2],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a70665f0248b54cf3e47c0fa08f55487e":[6,0,0,373,2,8],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a70665f0248b54cf3e47c0fa08f55487e":[8,0,0,381,2,8],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a7b73a3461319b62b6310ba805bfa9eea":[6,0,0,373,2,4],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a7b73a3461319b62b6310ba805bfa9eea":[8,0,0,381,2,4],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a8741c8e57c44526323849fb4d8e38f8f":[6,0,0,373,2,12],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a8741c8e57c44526323849fb4d8e38f8f":[8,0,0,381,2,12],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9210bf83689ee4b4ddfcd808650cc148":[6,0,0,373,2,5],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9210bf83689ee4b4ddfcd808650cc148":[8,0,0,381,2,5],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9cacac5ab344106ea15cc0ddee60ce5f":[6,0,0,373,2,9],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9cacac5ab344106ea15cc0ddee60ce5f":[8,0,0,381,2,9],
-"struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d":[6,0,0,373,2,0]
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#a7b73a3461319b62b6310ba805bfa9eea":[6,0,0,373,2,4]
 };

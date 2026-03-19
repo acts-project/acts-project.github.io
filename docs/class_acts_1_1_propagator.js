@@ -10,14 +10,13 @@ var class_acts_1_1_propagator =
     [ "StepperOptions", "class_acts_1_1_propagator.html#af572df7abc46bfbf71a394ed83dc4afa", null ],
     [ "StepperState", "class_acts_1_1_propagator.html#aff62ac7134bff041138cebfbb53f8321", null ],
     [ "Propagator", "class_acts_1_1_propagator.html#ac67d44d7a2d79692306e6a2cf93123b5", null ],
-    [ "initialize", "class_acts_1_1_propagator.html#aa3f9d7b8c53e729642f8c34ad50a55f9", null ],
-    [ "makeResult", "class_acts_1_1_propagator.html#a0428b16f1d54d74e3b23afbaaaa38d89", null ],
-    [ "makeResult", "class_acts_1_1_propagator.html#af4cbae8ff1c25d1285f94dea6bad3659", null ],
+    [ "initialize", "class_acts_1_1_propagator.html#afc5482383545a1e4cf2c2da8373d2c98", null ],
+    [ "makeResult", "class_acts_1_1_propagator.html#afebee49d50be2e87f7d81cc834069bf6", null ],
     [ "makeState", "class_acts_1_1_propagator.html#a2d7cf4d862abab4928e74b8935e1fb0b", null ],
     [ "makeState", "class_acts_1_1_propagator.html#a264648d7ac63b10a4b3cfa10150ca063", null ],
     [ "navigator", "class_acts_1_1_propagator.html#af52efc0021345ba9a4f3e778cd0f222b", null ],
-    [ "propagate", "class_acts_1_1_propagator.html#ad27b6de2494dbb13c12ad4c28fc08cde", null ],
-    [ "propagate", "class_acts_1_1_propagator.html#a28cea15ee008acc103aca8f0781f7f92", null ],
+    [ "propagate", "class_acts_1_1_propagator.html#acee6f6ec0dd0a4681344137183f31750", null ],
+    [ "propagate", "class_acts_1_1_propagator.html#a221bce821032675eba1e92a9f0b4f46a", null ],
     [ "propagate", "class_acts_1_1_propagator.html#a72fa22f3c2b146e2e9b5fe0dfe103c5d", null ],
     [ "stepper", "class_acts_1_1_propagator.html#a9427eba3b3ee9dbc1ac2bd32b60cb682", null ]
 ];

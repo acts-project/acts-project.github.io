@@ -133,6 +133,7 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <h2 id="header-conceptdef" class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> Stepper, <span class="keyword">typename</span> State <span class="keyword">typename</span> Stepper::State&gt;</div>
 <div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_concepts_1_1_common_stepper.html">Acts::Concepts::CommonStepper</a> =  <span class="keyword">requires</span> {</div>
+<div class="line">  <span class="keyword">typename</span> Stepper::BoundParameters;</div>
 <div class="line">  <span class="keyword">typename</span> Stepper::State;</div>
 <div class="line">  <span class="keyword">typename</span> Stepper::Jacobian;</div>
 <div class="line">  <span class="keyword">typename</span> Stepper::Covariance;</div>
@@ -191,7 +192,7 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">  };</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_acts_1_1_constrained_step_html_a0eecb2e9c95a2c252b3fea20e69b0ba5"><div class="ttname"><a href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">Acts::ConstrainedStep::Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">the types of constraints from navigator - this would be a navigation step from actor - this would be ...</div><div class="ttdef"><b>Definition</b> ConstrainedStep.hpp:50</div></div>
-<div class="ttc" id="aconcept_acts_1_1_concepts_1_1_common_stepper_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1_common_stepper.html">Acts::Concepts::CommonStepper</a></div><div class="ttdoc">Concept that is satisfied by both single- and multi-steppers.</div><div class="ttdef"><b>Definition</b> StepperConcept.hpp:25</div></div>
+<div class="ttc" id="aconcept_acts_1_1_concepts_1_1_common_stepper_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1_common_stepper.html">Acts::Concepts::CommonStepper</a></div><div class="ttdoc">Concept that is satisfied by both single- and multi-steppers.</div><div class="ttdef"><b>Definition</b> StepperConcept.hpp:26</div></div>
 <div class="ttc" id="anamespace_acts_1_1_unit_constants_html_af5e223138d35ab82606b8d129728a3a8"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">Acts::UnitConstants::s</a></div><div class="ttdeci">constexpr double s</div><div class="ttdef"><b>Definition</b> Units.hpp:124</div></div>
 </div><!-- fragment --><a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept that is satisfied by both single- and multi-steppers. </p>
