@@ -239,6 +239,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a397031f0875e952849ee02b1dc086249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a unit vector along the track direction at the reference surface.  <br /></td></tr>
 <tr class="memitem:aa07c06a5ca944ad70bc1104ab038459f" id="r_aa07c06a5ca944ad70bc1104ab038459f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa07c06a5ca944ad70bc1104ab038459f">fourMomentum</a> () const</td></tr>
 <tr class="memdesc:aa07c06a5ca944ad70bc1104ab038459f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the four-momentum vector: (px, py, pz, e).  <br /></td></tr>
+<tr class="memitem:a598e664512510fc0096f72396dbcb147" id="r_a598e664512510fc0096f72396dbcb147"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a598e664512510fc0096f72396dbcb147">isForwardLinked</a> () const</td></tr>
+<tr class="memdesc:a598e664512510fc0096f72396dbcb147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the track is forward-linked, i.e.  <br /></td></tr>
 <tr class="memitem:a8cab0eeb6fedc0e54dce8076ba397cf1" id="r_a8cab0eeb6fedc0e54dce8076ba397cf1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cab0eeb6fedc0e54dce8076ba397cf1">loc0</a> () const</td></tr>
 <tr class="memdesc:a8cab0eeb6fedc0e54dce8076ba397cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the loc0 parameter of the track at the reference surface.  <br /></td></tr>
 <tr class="memitem:a13cc4b9fb8735a87ca7e3b288dcfde1f" id="r_a13cc4b9fb8735a87ca7e3b288dcfde1f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13cc4b9fb8735a87ca7e3b288dcfde1f">loc1</a> () const</td></tr>
@@ -373,6 +375,8 @@ requires (!<a class="el" href="#a9842c1a3fb418179d94a69c77ac72fda">ReadOnly</a>)
 <tr class="memdesc:a9baa91d7057cd8179263d15f2db14afa inherit pub_methods_class_acts_1_1_track_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a unit vector along the track direction at the reference surface.  <br /></td></tr>
 <tr class="memitem:a3620a4c03bc2c151241c19561a3589b9 inherit pub_methods_class_acts_1_1_track_proxy_common" id="r_a3620a4c03bc2c151241c19561a3589b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_proxy_common.html#a3620a4c03bc2c151241c19561a3589b9">fourMomentum</a> () const</td></tr>
 <tr class="memdesc:a3620a4c03bc2c151241c19561a3589b9 inherit pub_methods_class_acts_1_1_track_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the four-momentum vector: (px, py, pz, e).  <br /></td></tr>
+<tr class="memitem:a5c14b1642aa27b7dcfe00fbf7a96dc3f inherit pub_methods_class_acts_1_1_track_proxy_common" id="r_a5c14b1642aa27b7dcfe00fbf7a96dc3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_proxy_common.html#a5c14b1642aa27b7dcfe00fbf7a96dc3f">isForwardLinked</a> () const</td></tr>
+<tr class="memdesc:a5c14b1642aa27b7dcfe00fbf7a96dc3f inherit pub_methods_class_acts_1_1_track_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the track is forward-linked, i.e.  <br /></td></tr>
 <tr class="memitem:a4be11ba25cf604d177b3f7c2eeea40de inherit pub_methods_class_acts_1_1_track_proxy_common" id="r_a4be11ba25cf604d177b3f7c2eeea40de"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_proxy_common.html#a4be11ba25cf604d177b3f7c2eeea40de">loc0</a> () const</td></tr>
 <tr class="memdesc:a4be11ba25cf604d177b3f7c2eeea40de inherit pub_methods_class_acts_1_1_track_proxy_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the loc0 parameter of the track at the reference surface.  <br /></td></tr>
 <tr class="memitem:a686eaa8c2be026337203f89682fd4049 inherit pub_methods_class_acts_1_1_track_proxy_common" id="r_a686eaa8c2be026337203f89682fd4049"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_track_proxy_common.html#a686eaa8c2be026337203f89682fd4049">loc1</a> () const</td></tr>
@@ -1486,6 +1490,28 @@ template&lt;typename track_container_t, typename trajectory_t, template&lt; type
 <p>Return a const track state proxy to the innermost track state. </p>
 <dl class="section note"><dt>Note</dt><dd>This is only available, if the track is forward linked </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The innermost track state proxy </dd></dl>
+
+</div>
+</div>
+<a id="a598e664512510fc0096f72396dbcb147" name="a598e664512510fc0096f72396dbcb147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a598e664512510fc0096f72396dbcb147">&#9670;&#160;</a></span>isForwardLinked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename track_container_t, typename trajectory_t, template&lt; typename &gt; class holder_t, bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_proxy_common.html">Acts::TrackProxyCommon</a>&lt; <a class="el" href="#ac1c227c580f1faa008376c71e349df37">TrackProxy</a>&lt; track_container_t, trajectory_t, holder_t, read_only &gt;, typename track_container_t::IndexType, read_only &gt;::isForwardLinked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return whether the track is forward-linked, i.e. </p>
+<p>whether each track state has a valid next-state index. Forward-linking is required to use the inside-out <code>trackStates()</code> range. </p><dl class="section return"><dt>Returns</dt><dd>True if the track is forward-linked </dd></dl>
 
 </div>
 </div>

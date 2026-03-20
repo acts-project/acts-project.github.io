@@ -156,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9baa91d7057cd8179263d15f2db14afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a unit vector along the track direction at the reference surface.  <br /></td></tr>
 <tr class="memitem:a3620a4c03bc2c151241c19561a3589b9" id="r_a3620a4c03bc2c151241c19561a3589b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga211f2201e5faee8fc4243cb3be9bc97f">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3620a4c03bc2c151241c19561a3589b9">fourMomentum</a> () const</td></tr>
 <tr class="memdesc:a3620a4c03bc2c151241c19561a3589b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the four-momentum vector: (px, py, pz, e).  <br /></td></tr>
+<tr class="memitem:a5c14b1642aa27b7dcfe00fbf7a96dc3f" id="r_a5c14b1642aa27b7dcfe00fbf7a96dc3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c14b1642aa27b7dcfe00fbf7a96dc3f">isForwardLinked</a> () const</td></tr>
+<tr class="memdesc:a5c14b1642aa27b7dcfe00fbf7a96dc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the track is forward-linked, i.e.  <br /></td></tr>
 <tr class="memitem:a4be11ba25cf604d177b3f7c2eeea40de" id="r_a4be11ba25cf604d177b3f7c2eeea40de"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be11ba25cf604d177b3f7c2eeea40de">loc0</a> () const</td></tr>
 <tr class="memdesc:a4be11ba25cf604d177b3f7c2eeea40de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the loc0 parameter of the track at the reference surface.  <br /></td></tr>
 <tr class="memitem:a686eaa8c2be026337203f89682fd4049" id="r_a686eaa8c2be026337203f89682fd4049"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a686eaa8c2be026337203f89682fd4049">loc1</a> () const</td></tr>
@@ -410,6 +412,28 @@ template&lt;typename Derived, typename index_t, bool read_only&gt; </div>
 
 <p>Get the four-momentum vector: (px, py, pz, e). </p>
 <dl class="section return"><dt>Returns</dt><dd>the four-momentum vector </dd></dl>
+
+</div>
+</div>
+<a id="a5c14b1642aa27b7dcfe00fbf7a96dc3f" name="a5c14b1642aa27b7dcfe00fbf7a96dc3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c14b1642aa27b7dcfe00fbf7a96dc3f">&#9670;&#160;</a></span>isForwardLinked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Derived, typename index_t, bool read_only&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_track_proxy_common.html">Acts::TrackProxyCommon</a>&lt; Derived, index_t, read_only &gt;::isForwardLinked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return whether the track is forward-linked, i.e. </p>
+<p>whether each track state has a valid next-state index. Forward-linking is required to use the inside-out <code>trackStates()</code> range. </p><dl class="section return"><dt>Returns</dt><dd>True if the track is forward-linked </dd></dl>
 
 </div>
 </div>

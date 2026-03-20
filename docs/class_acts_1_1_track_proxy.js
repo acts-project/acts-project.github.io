@@ -41,6 +41,7 @@ var class_acts_1_1_track_proxy =
     [ "index", "class_acts_1_1_track_proxy.html#a256b925b3c7a19e890d889d0229fc327", null ],
     [ "innermostTrackState", "class_acts_1_1_track_proxy.html#a2e91d88dda1467c62d1b8a7406f5247c", null ],
     [ "innermostTrackState", "class_acts_1_1_track_proxy.html#a65ac57a6f3a555c919c8e7d3decff957", null ],
+    [ "isForwardLinked", "class_acts_1_1_track_proxy.html#a598e664512510fc0096f72396dbcb147", null ],
     [ "linkForward", "class_acts_1_1_track_proxy.html#a3fa764ebfee2c55a8c5b55f45703c218", null ],
     [ "loc0", "class_acts_1_1_track_proxy.html#a8cab0eeb6fedc0e54dce8076ba397cf1", null ],
     [ "loc1", "class_acts_1_1_track_proxy.html#a13cc4b9fb8735a87ca7e3b288dcfde1f", null ],

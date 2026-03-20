@@ -9,6 +9,7 @@ var class_acts_1_1_track_proxy_common =
     [ "derived", "class_acts_1_1_track_proxy_common.html#aa3a07f3136cc9c8d91538abf5bda4527", null ],
     [ "direction", "class_acts_1_1_track_proxy_common.html#a9baa91d7057cd8179263d15f2db14afa", null ],
     [ "fourMomentum", "class_acts_1_1_track_proxy_common.html#a3620a4c03bc2c151241c19561a3589b9", null ],
+    [ "isForwardLinked", "class_acts_1_1_track_proxy_common.html#a5c14b1642aa27b7dcfe00fbf7a96dc3f", null ],
     [ "loc0", "class_acts_1_1_track_proxy_common.html#a4be11ba25cf604d177b3f7c2eeea40de", null ],
     [ "loc1", "class_acts_1_1_track_proxy_common.html#a686eaa8c2be026337203f89682fd4049", null ],
     [ "momentum", "class_acts_1_1_track_proxy_common.html#ad6a354774103af86c5fb76f9a54b1fbb", null ],
