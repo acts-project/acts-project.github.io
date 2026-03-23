@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"class_acts_1_1_gaussian_grid_track_density.html":[8,0,0,147],
-"class_acts_1_1_gaussian_grid_track_density.html#a536b68a4a5b05b15f9a241cab512ad1a":[6,0,0,139,6],
 "class_acts_1_1_gaussian_grid_track_density.html#a536b68a4a5b05b15f9a241cab512ad1a":[8,0,0,147,6],
 "class_acts_1_1_gaussian_grid_track_density.html#a5a4bd41213d5b26d46ffe73ec979df89":[6,0,0,139,5],
 "class_acts_1_1_gaussian_grid_track_density.html#a5a4bd41213d5b26d46ffe73ec979df89":[8,0,0,147,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "class_acts_1_1_grid.html#a5398fa106092f3a3fed5953a622a66b6":[6,0,0,156,45],
 "class_acts_1_1_grid.html#a5398fa106092f3a3fed5953a622a66b6":[8,0,0,164,45],
 "class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d":[6,0,0,156,2],
-"class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d":[8,0,0,164,2]
+"class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d":[8,0,0,164,2],
+"class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0":[6,0,0,156,35],
+"class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0":[8,0,0,164,35]
 };

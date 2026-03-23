@@ -36,6 +36,5 @@ var searchData=
   ['event_5freturn_33',['event_return',['../class_acts_1_1_finite_state_machine.html#ac399fa2255382d208cdf23cdf3a9d80a',1,'Acts::FiniteStateMachine']]],
   ['expander_34',['Expander',['../class_acts_1_1_fixed_subspace_helper.html#a473f988ad735a0fe35897b6c0e7badca',1,'Acts::FixedSubspaceHelper']]],
   ['experimentcuts_35',['ExperimentCuts',['../struct_acts_1_1_doublet_seed_finder_1_1_config.html#a199813bc0d36a58cb26d4a8dacafc940',1,'Acts::DoubletSeedFinder::Config']]],
-  ['externalsurfaces_36',['ExternalSurfaces',['../class_acts_1_1_navigator.html#a2255f66d39ed11c63cf8f634113de048',1,'Acts::Navigator']]],
-  ['extractor_37',['Extractor',['../struct_acts_1_1_input_track.html#a8858b27a91669689065fd42251a6f701',1,'Acts::InputTrack']]]
+  ['extractor_36',['Extractor',['../struct_acts_1_1_input_track.html#a8858b27a91669689065fd42251a6f701',1,'Acts::InputTrack']]]
 ];

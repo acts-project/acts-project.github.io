@@ -205,7 +205,7 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>      propOptions.<a class="code hl_function" href="struct_acts_1_1_propagator_options.html#afe5f64b8c7250c808a7b35e9fe6c995c">setPlainOptions</a>(opts.propagatorPlainOptions);</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>      propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.surfaces = sSequence;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>      propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.externalSurfaces = sSequence;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>      propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GsfActor&gt;()</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>          .m_cfg.bethe_heitler_approx = <a class="code hl_variable" href="struct_acts_1_1_gaussian_sum_fitter.html#ab9f41087f2d15f0a011d72c7a59783c2">m_betheHeitlerApproximation</a>.get();</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
@@ -221,7 +221,7 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>      propOptions.<a class="code hl_function" href="struct_acts_1_1_propagator_options.html#afe5f64b8c7250c808a7b35e9fe6c995c">setPlainOptions</a>(opts.propagatorPlainOptions);</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>      propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.surfaces = sSequence;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>      propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.externalSurfaces = sSequence;</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>      propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GsfActor&gt;()</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>          .m_cfg.bethe_heitler_approx = <a class="code hl_variable" href="struct_acts_1_1_gaussian_sum_fitter.html#ab9f41087f2d15f0a011d72c7a59783c2">m_betheHeitlerApproximation</a>.get();</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
@@ -254,7 +254,7 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>      <span class="keywordflow">if</span> (options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a0fdc09daf23b1db401ce923170a5ebc2">useExternalSurfaces</a>) {</div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = begin; it != end; ++it) {</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>          propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.insertExternalSurface(</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>          propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.appendExternalSurface(</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>              *options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a8000125fe2bf278bcf22aeaac22e5f9f">extensions</a>.surfaceAccessor(*it));</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        }</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>      }</div>
@@ -276,7 +276,7 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>      <span class="keywordflow">if</span> (options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a0fdc09daf23b1db401ce923170a5ebc2">useExternalSurfaces</a>) {</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = begin; it != end; ++it) {</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>          propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.insertExternalSurface(</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>          propOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.appendExternalSurface(</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>              *options.<a class="code hl_variable" href="struct_acts_1_1_gsf_options.html#a8000125fe2bf278bcf22aeaac22e5f9f">extensions</a>.surfaceAccessor(*it));</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        }</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>      }</div>

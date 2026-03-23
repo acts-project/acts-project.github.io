@@ -1117,7 +1117,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01264" name="l01264"></a><span class="lineno"> 1264</span>      <span class="comment">// Add the measurement surface as external surface to the navigator.</span></div>
 <div class="line"><a id="l01265" name="l01265"></a><span class="lineno"> 1265</span>      <span class="comment">// We will try to hit those surface by ignoring boundary checks.</span></div>
 <div class="line"><a id="l01266" name="l01266"></a><span class="lineno"> 1266</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [surface, _] : inputMeasurements) {</div>
-<div class="line"><a id="l01267" name="l01267"></a><span class="lineno"> 1267</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.insertExternalSurface(*surface);</div>
+<div class="line"><a id="l01267" name="l01267"></a><span class="lineno"> 1267</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.appendExternalSurface(*surface);</div>
 <div class="line"><a id="l01268" name="l01268"></a><span class="lineno"> 1268</span>      }</div>
 <div class="line"><a id="l01269" name="l01269"></a><span class="lineno"> 1269</span> </div>
 <div class="line"><a id="l01270" name="l01270"></a><span class="lineno"> 1270</span>      <span class="keyword">auto</span>&amp; gx2fActor = propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GX2FActor&gt;();</div>
@@ -1281,7 +1281,7 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01430" name="l01430"></a><span class="lineno"> 1430</span>      <span class="comment">// Add the measurement surface as external surface to the navigator.</span></div>
 <div class="line"><a id="l01431" name="l01431"></a><span class="lineno"> 1431</span>      <span class="comment">// We will try to hit those surface by ignoring boundary checks.</span></div>
 <div class="line"><a id="l01432" name="l01432"></a><span class="lineno"> 1432</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [surface, _] : inputMeasurements) {</div>
-<div class="line"><a id="l01433" name="l01433"></a><span class="lineno"> 1433</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.insertExternalSurface(*surface);</div>
+<div class="line"><a id="l01433" name="l01433"></a><span class="lineno"> 1433</span>        propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ab5d8e300919f72b80bb447c415f523f5">navigation</a>.appendExternalSurface(*surface);</div>
 <div class="line"><a id="l01434" name="l01434"></a><span class="lineno"> 1434</span>      }</div>
 <div class="line"><a id="l01435" name="l01435"></a><span class="lineno"> 1435</span> </div>
 <div class="line"><a id="l01436" name="l01436"></a><span class="lineno"> 1436</span>      <span class="keyword">auto</span>&amp; gx2fActor = propagatorOptions.<a class="code hl_variable" href="struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2">actorList</a>.template get&lt;GX2FActor&gt;();</div>

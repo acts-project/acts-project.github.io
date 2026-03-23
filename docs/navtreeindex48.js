@@ -1,11 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#acec2b31e3d3b02eed662de924875720b":[6,0,0,1,3,0,6],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#acec2b31e3d3b02eed662de924875720b":[8,0,0,2,3,0,6],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ad4a077d464067f390f4e10d2fa63fe14":[6,0,0,1,3,0,16],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ad4a077d464067f390f4e10d2fa63fe14":[8,0,0,2,3,0,16],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ad5e5c68030624100db4c93cba3d379f2":[6,0,0,1,3,0,3],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ad5e5c68030624100db4c93cba3d379f2":[8,0,0,2,3,0,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ada9bdcf80ee9d4dc94b1d5f81291ebc5":[6,0,0,1,3,0,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ada9bdcf80ee9d4dc94b1d5f81291ebc5":[8,0,0,2,3,0,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ae44a60091441784c20186b4f0add82e4":[6,0,0,1,3,0,9],
@@ -249,5 +243,11 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab8f521811d27e3a4f21ce79062ef14b7":[6,0,0,1,13,12],
 "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab8f521811d27e3a4f21ce79062ef14b7":[8,0,0,2,13,12],
 "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#acc8cf7e9a10e4f1132b7a4656cb645e5":[6,0,0,1,13,2],
-"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#acc8cf7e9a10e4f1132b7a4656cb645e5":[8,0,0,2,13,2]
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#acc8cf7e9a10e4f1132b7a4656cb645e5":[8,0,0,2,13,2],
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ad9e3aab58d0bdd6a22217d920354e4dc":[6,0,0,1,13,6],
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ad9e3aab58d0bdd6a22217d920354e4dc":[8,0,0,2,13,6],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection.html":[6,0,0,1,16],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection.html":[8,0,0,2,16],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#a4a56a0bcaf386dcc837255c4f2b43cf6":[6,0,0,1,16,3],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#a4a56a0bcaf386dcc837255c4f2b43cf6":[8,0,0,2,16,3]
 };

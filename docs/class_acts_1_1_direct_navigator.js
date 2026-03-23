@@ -3,7 +3,6 @@ var class_acts_1_1_direct_navigator =
     [ "Config", "struct_acts_1_1_direct_navigator_1_1_config.html", null ],
     [ "Options", "struct_acts_1_1_direct_navigator_1_1_options.html", "struct_acts_1_1_direct_navigator_1_1_options" ],
     [ "State", "struct_acts_1_1_direct_navigator_1_1_state.html", "struct_acts_1_1_direct_navigator_1_1_state" ],
-    [ "SurfaceSequence", "class_acts_1_1_direct_navigator.html#a775b57f7ec73e6094f6a9b3576a7c440", null ],
     [ "DirectNavigator", "class_acts_1_1_direct_navigator.html#af750c89e1df5791fed10887a12e9fc16", null ],
     [ "checkTargetValid", "class_acts_1_1_direct_navigator.html#a9601d21f8b23cdd854210bdd029a5561", null ],
     [ "currentSurface", "class_acts_1_1_direct_navigator.html#aded824922fcad1d7e01b11e52327b34c", null ],

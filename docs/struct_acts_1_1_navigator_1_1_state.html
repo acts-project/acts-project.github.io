@@ -148,15 +148,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7c71be6d954f886c63cb802c96cb6605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to current navigation layer.  <br /></td></tr>
 <tr class="memitem:afa35182d48b22be50c74e5bc18d4b6aa" id="r_afa35182d48b22be50c74e5bc18d4b6aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa35182d48b22be50c74e5bc18d4b6aa">navSurface</a> ()</td></tr>
 <tr class="memdesc:afa35182d48b22be50c74e5bc18d4b6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to current navigation surface.  <br /></td></tr>
-<tr class="memitem:a638beeefdf6104706440d2a000faeab9" id="r_a638beeefdf6104706440d2a000faeab9"><td class="memItemLeft" align="right" valign="top"><a id="a638beeefdf6104706440d2a000faeab9" name="a638beeefdf6104706440d2a000faeab9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
-<tr class="memdesc:a638beeefdf6104706440d2a000faeab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completely reset navigation state to initial conditions. <br /></td></tr>
 <tr class="memitem:abb3a8f314d15cca6d51934c2229a9cf7" id="r_abb3a8f314d15cca6d51934c2229a9cf7"><td class="memItemLeft" align="right" valign="top"><a id="abb3a8f314d15cca6d51934c2229a9cf7" name="abb3a8f314d15cca6d51934c2229a9cf7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterLayerSwitch</b> ()</td></tr>
 <tr class="memdesc:abb3a8f314d15cca6d51934c2229a9cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset navigation state after switching layers. <br /></td></tr>
 <tr class="memitem:aedf8b2d233b4df2645b539975b6b64a9" id="r_aedf8b2d233b4df2645b539975b6b64a9"><td class="memItemLeft" align="right" valign="top"><a id="aedf8b2d233b4df2645b539975b6b64a9" name="aedf8b2d233b4df2645b539975b6b64a9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterVolumeSwitch</b> ()</td></tr>
 <tr class="memdesc:aedf8b2d233b4df2645b539975b6b64a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset navigation state after switching volumes. <br /></td></tr>
+<tr class="memitem:a8333f56ce01a4e1edf9cc58fb677983d" id="r_a8333f56ce01a4e1edf9cc58fb677983d"><td class="memItemLeft" align="right" valign="top"><a id="a8333f56ce01a4e1edf9cc58fb677983d" name="a8333f56ce01a4e1edf9cc58fb677983d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resetForRenavigation</b> ()</td></tr>
+<tr class="memdesc:a8333f56ce01a4e1edf9cc58fb677983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completely reset navigation state to initial conditions. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -171,6 +171,9 @@ const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a
 <tr class="memdesc:aa664552fae00e3d87df1121c1e7b3edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current volume during navigation. <br /></td></tr>
 <tr class="memitem:acd57b20134937cee427e2eb238fa859b" id="r_acd57b20134937cee427e2eb238fa859b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd57b20134937cee427e2eb238fa859b">freeCandidates</a> {}</td></tr>
 <tr class="memdesc:acd57b20134937cee427e2eb238fa859b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free candidates not part of the tracking geometry.  <br /></td></tr>
+<tr class="memitem:a30c6cf4e478cfdf5876fa8c08597b6fd" id="r_a30c6cf4e478cfdf5876fa8c08597b6fd"><td class="memItemLeft" align="right" valign="top"><a id="a30c6cf4e478cfdf5876fa8c08597b6fd" name="a30c6cf4e478cfdf5876fa8c08597b6fd"></a>
+std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>freeSurfaces</b></td></tr>
+<tr class="memdesc:a30c6cf4e478cfdf5876fa8c08597b6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surfaces that are not part of the tracking geometry. <br /></td></tr>
 <tr class="memitem:ad96e96c388da1283aadd8564a4bf8121" id="r_ad96e96c388da1283aadd8564a4bf8121"><td class="memItemLeft" align="right" valign="top"><a id="ad96e96c388da1283aadd8564a4bf8121" name="ad96e96c388da1283aadd8564a4bf8121"></a>
 <a class="el" href="class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8">NavigationBoundaries</a>&#160;</td><td class="memItemRight" valign="bottom"><b>navBoundaries</b> = {}</td></tr>
 <tr class="memdesc:ad96e96c388da1283aadd8564a4bf8121"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vector of boundary surfaces to work through <br /></td></tr>

@@ -11,5 +11,5 @@ var struct_acts_1_1_direct_navigator_1_1_state =
     [ "navigationBreak", "struct_acts_1_1_direct_navigator_1_1_state.html#a42079388f1978c38fcf99ace31050ef4", null ],
     [ "options", "struct_acts_1_1_direct_navigator_1_1_state.html#a1f91dca729053bca91363891b03b3bef", null ],
     [ "statistics", "struct_acts_1_1_direct_navigator_1_1_state.html#a155c3085b693d4a2dbfa0635f2ef7508", null ],
-    [ "surfaceIndex", "struct_acts_1_1_direct_navigator_1_1_state.html#a40cf8fe5ee77033a8ec8e8971b43ff8b", null ]
+    [ "surfaceIndex", "struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05", null ]
 ];

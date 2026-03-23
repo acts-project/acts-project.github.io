@@ -58,6 +58,5 @@ var searchData=
   ['surfacematerialpointer_55',['surfaceMaterialPointer',['../group__json__plugin.html#ga76d1cebc6f43c76e5aaa8ef77d474064',1,'Acts']]],
   ['surfacematrix_56',['SurfaceMatrix',['../namespace_acts.html#aa80f2fb6a7e543af58af13eedf6fdbd0',1,'Acts']]],
   ['surfacerange_57',['SurfaceRange',['../class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174',1,'Acts::TrackingVolume']]],
-  ['surfacesequence_58',['SurfaceSequence',['../class_acts_1_1_direct_navigator.html#a775b57f7ec73e6094f6a9b3576a7c440',1,'Acts::DirectNavigator']]],
-  ['surfacevector_59',['SurfaceVector',['../namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd',1,'Acts']]]
+  ['surfacevector_58',['SurfaceVector',['../namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd',1,'Acts']]]
 ];
