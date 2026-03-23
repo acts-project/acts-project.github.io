@@ -1,0 +1,11 @@
+<map id="Acts::SpacePointColumnProxy&lt; T, read_only &gt;" name="Acts::SpacePointColumnProxy&lt; T, read_only &gt;">
+<area shape="rect" id="Node000001" title="Additional column of data that can be added to the space point container." alt="" coords="5,40,223,80"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_space_point_column_proxy.html" title=" " alt="" coords="357,8,575,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,46,357,35,357,41,237,52"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_space_point_column_proxy.html" title=" " alt="" coords="357,72,575,112"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="237,72,247,73,357,82,357,88,246,79,236,78"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_space_point_column_proxy.html" title=" " alt="" coords="669,8,887,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="588,25,669,25,669,31,588,31"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_space_point_column_proxy.html" title=" " alt="" coords="669,72,887,112"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="588,89,669,89,669,95,588,95"/>
+</map>
