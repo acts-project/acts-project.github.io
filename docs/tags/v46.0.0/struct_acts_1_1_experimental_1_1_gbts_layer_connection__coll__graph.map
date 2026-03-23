@@ -1,7 +1,0 @@
-<map id="Acts::Experimental::GbtsLayerConnection" name="Acts::Experimental::GbtsLayerConnection">
-<area shape="rect" id="Node000001" title="Connection between two GBTS layers with binning information." alt="" coords="18,197,187,237"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,200,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,141,105,197,100,197,100,141"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="38,5,167,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,45,105,101,100,101,100,45"/>
-</map>
