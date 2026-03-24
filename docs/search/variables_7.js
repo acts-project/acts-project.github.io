@@ -20,10 +20,11 @@ var searchData=
   ['hitsscoreweight_17',['hitsScoreWeight',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a6d9b83274055a5b5aab662dbcdf664a6',1,'Acts::ScoreBasedAmbiguityResolution::DetectorConfig']]],
   ['hl0_18',['hL0',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a5b6ef718d2f34fc391d9bc19f39e01a8',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
   ['holesscoreweight_19',['holesScoreWeight',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a87c3d1bbacc9a01d86bbdaf00cc35c34',1,'Acts::ScoreBasedAmbiguityResolution::DetectorConfig']]],
-  ['homogeneousmaterial_20',['homogeneousMaterial',['../struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e',1,'ActsPlugins::DetrayPayloadConverter::Payloads']]],
-  ['homogeneousmaterialtreename_21',['homogeneousMaterialTreeName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a5c819e6c1c6a2bbf165cf5b9bafaaf29',1,'ActsPlugins::RootMaterialMapIo::Options']]],
-  ['hrho_22',['hRho',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a951ab31b33c0276e3f6da99cf0eda0ec',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
-  ['ht_23',['ht',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#aa8130554edc61512343af2c3084fd2ed',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
-  ['hx0_24',['hX0',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a5c492a17c2b81a048093a47d98915aa4',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
-  ['hz_25',['hZ',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a9bf839a3aa87f8bdc3bf5642a49e735d',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]]
+  ['homogeneousgrid_20',['homogeneousGrid',['../struct_acts_1_1_volume_material_mapper_1_1_state.html#aa214bd26c2ccd4f83b29a496493775a0',1,'Acts::VolumeMaterialMapper::State']]],
+  ['homogeneousmaterial_21',['homogeneousMaterial',['../struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e',1,'ActsPlugins::DetrayPayloadConverter::Payloads']]],
+  ['homogeneousmaterialtreename_22',['homogeneousMaterialTreeName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_options.html#a5c819e6c1c6a2bbf165cf5b9bafaaf29',1,'ActsPlugins::RootMaterialMapIo::Options']]],
+  ['hrho_23',['hRho',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a951ab31b33c0276e3f6da99cf0eda0ec',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
+  ['ht_24',['ht',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#aa8130554edc61512343af2c3084fd2ed',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
+  ['hx0_25',['hX0',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a5c492a17c2b81a048093a47d98915aa4',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]],
+  ['hz_26',['hZ',['../struct_acts_plugins_1_1_root_material_map_io_1_1_material_tree_payload.html#a9bf839a3aa87f8bdc3bf5642a49e735d',1,'ActsPlugins::RootMaterialMapIo::MaterialTreePayload']]]
 ];

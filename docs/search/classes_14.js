@@ -41,10 +41,11 @@ var searchData=
   ['volumeconfig_38',['VolumeConfig',['../struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html',1,'Acts::CuboidVolumeBuilder::VolumeConfig'],['../struct_acts_1_1_volume_config.html',1,'Acts::VolumeConfig']]],
   ['volumeconstraintaborter_39',['VolumeConstraintAborter',['../struct_acts_1_1_volume_constraint_aborter.html',1,'Acts']]],
   ['volumehit_40',['VolumeHit',['../struct_acts_1_1_volume_hit.html',1,'Acts']]],
-  ['volumeplacementbase_41',['VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html',1,'Acts']]],
-  ['volumepublisher_42',['VolumePublisher',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html',1,'ActsPlugins::GeoModelTree']]],
-  ['volumeselector_43',['VolumeSelector',['../struct_acts_1_1_volume_selector.html',1,'Acts']]],
-  ['volumestack_44',['VolumeStack',['../class_acts_1_1_volume_stack.html',1,'Acts']]],
-  ['vrho_45',['Vrho',['../struct_acts_fatras_1_1_casts_1_1_vrho.html',1,'ActsFatras::Casts']]],
-  ['vz_46',['Vz',['../struct_acts_fatras_1_1_casts_1_1_vz.html',1,'ActsFatras::Casts']]]
+  ['volumematerialmapper_41',['VolumeMaterialMapper',['../class_acts_1_1_volume_material_mapper.html',1,'Acts']]],
+  ['volumeplacementbase_42',['VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html',1,'Acts']]],
+  ['volumepublisher_43',['VolumePublisher',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html',1,'ActsPlugins::GeoModelTree']]],
+  ['volumeselector_44',['VolumeSelector',['../struct_acts_1_1_volume_selector.html',1,'Acts']]],
+  ['volumestack_45',['VolumeStack',['../class_acts_1_1_volume_stack.html',1,'Acts']]],
+  ['vrho_46',['Vrho',['../struct_acts_fatras_1_1_casts_1_1_vrho.html',1,'ActsFatras::Casts']]],
+  ['vz_47',['Vz',['../struct_acts_fatras_1_1_casts_1_1_vz.html',1,'ActsFatras::Casts']]]
 ];

@@ -125,7 +125,7 @@ $(function(){initNavTree('md_docs_2pages_2examples_2python__bindings.html','',''
   <div class="headertitle"><div class="title">Python bindings for the Examples </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md70"></a></p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md61"></a></p>
 <p>The examples part of ACTS ships with python bindings using the <span class="tt">pybind11</span> library. Building these bindings can be enabled via <span class="tt">-DACTS_BUILD_EXAMPLES_PYTHON_BINDINGS=ON</span>, and requires a python installation including the development files to be installed. You can then build the special target <span class="tt">ActsPythonBindings</span> to build everything that can be accessed in python.</p>
 <p>The build will create a setup script in <span class="tt">$BUILD/this_acts_withdeps.sh</span> which modifies <span class="tt">$PYTHONPATH</span> so that you can import the <span class="tt">acts</span> module in python.</p>
 <p>Here is a minimal example of a python script using the example bindings, which sets up the particle propagation and runs a few events.</p>
@@ -180,13 +180,12 @@ $(function(){initNavTree('md_docs_2pages_2examples_2python__bindings.html','',''
 <div class="line">)</div>
 <div class="line"> </div>
 <div class="line">s.run()</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
 Python based example scripts</h1>
 <p>The repository contains a set of example scripts that can be used to execute various workflows. They can be found in <span class="tt">$REPO_ROOT/Examples/Scripts/Python</span>. Make sure you have run</p>
 <div class="fragment"><div class="line">source $BUILD/this_acts_withdeps.sh</div>
 </div><!-- fragment --><p>to make sure python can find the <span class="tt">acts</span> module.</p>
-<p>For a canonical description of the material mapping chain (recording -&gt; mapping -&gt; validation), see <a class="el" href="material_mapping_workflow.html">Material mapping workflow (source of truth)</a>.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md72"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md63"></a>
 Python based unit tests</h1>
 <p>A number of unit tests based on the <span class="tt">pytest</span> library are shipped with the repository. They are located under <span class="tt">$REPO_ROOT/Examples/Python/tests</span>, and intend to cover the public API of the python bindings. A set of tests also executed the standalone example scripts.</p>
 <p>To run these python based tests, <span class="tt">pytest</span> and a few other dependencies need to be installed. They can be installed via <span class="tt">pip install -r
@@ -198,7 +197,7 @@ Examples/Python/tests/requirements.txt</span> from the repository root. You can 
 <div class="line">source venv/bin/activate</div>
 </div><!-- fragment --><p>to create a local virtual environment, and then run the <span class="tt">pip</span> command above. </p>
 </blockquote>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md73"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
 ROOT file hash regression checks</h1>
 <p>In a number of cases, the python based test suite will run hash based regression tests against ROOT files that are written by the test workloads. These tests use a custom hash algorithm written in python, which hashes each individual entry of each <span class="tt">TTree</span> found in a file. These entry hashes are then sorted, concatenated and hashed again for the final output. This procedure ensures that if the ROOT file content changes, the hash changes, while also giving the same hash when the events stored in the file are reordered.</p>
 <p>The tests are implemented by looking up a reference hash from a central data file <span class="tt">$REPO_ROOT/Examples/Python/tests/root_file_hashes.txt</span> that looks like</p>
@@ -221,7 +220,7 @@ ROOT file hash regression checks</h1>
 <ol type="1">
 <li>Detect potential reproducibility issues. Tests that run with multiple threads should produce the same output every run, event ordering aside. If a test workload has a thread-reproducibility issue, the output hash should also change.</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md74"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md65"></a>
 Running the hash checks locally and how to update the reference hashes</h2>
 <p>By default, the hash checks are not executed when the <span class="tt">pytest</span> command is run. To enable them, you need to set the environment variable <span class="tt">ROOT_HASH_CHECKS</span> needs to be set to <span class="tt">ON</span>, for example like:</p>
 <div class="fragment"><div class="line">ROOT_HASH_CHECKS=ON pytest</div>

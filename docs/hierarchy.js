@@ -559,9 +559,11 @@ var hierarchy =
     [ "Acts::MaterialMapper::Options", "struct_acts_1_1_material_mapper_1_1_options.html", null ],
     [ "Acts::MaterialMapper::State", "struct_acts_1_1_material_mapper_1_1_state.html", null ],
     [ "Acts::MaterialSlab", "class_acts_1_1_material_slab.html", null ],
+    [ "Acts::MaterialSurface", "struct_acts_1_1_material_surface.html", null ],
     [ "Acts::MaterialSurfaceIdentifier", "struct_acts_1_1_material_surface_identifier.html", null ],
     [ "Acts::MaterialValidator", "class_acts_1_1_material_validator.html", null ],
     [ "Acts::MaterialValidator::Config", "struct_acts_1_1_material_validator_1_1_config.html", null ],
+    [ "Acts::MaterialVolume", "struct_acts_1_1_material_volume.html", null ],
     [ "Acts::MbfSmoother", "class_acts_1_1_mbf_smoother.html", null ],
     [ "Acts::MeasurementSelector", "class_acts_1_1_measurement_selector.html", null ],
     [ "Acts::MeasurementSelectorCuts", "struct_acts_1_1_measurement_selector_cuts.html", null ],
@@ -755,6 +757,9 @@ var hierarchy =
     [ "Acts::SurfaceCollector&lt; Selector &gt;::this_result", "struct_acts_1_1_surface_collector_1_1this__result.html", null ],
     [ "Acts::SurfaceHit", "struct_acts_1_1_surface_hit.html", null ],
     [ "Acts::SurfaceJsonConverter::Options", "struct_acts_1_1_surface_json_converter_1_1_options.html", null ],
+    [ "Acts::SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", null ],
+    [ "Acts::SurfaceMaterialMapper::Config", "struct_acts_1_1_surface_material_mapper_1_1_config.html", null ],
+    [ "Acts::SurfaceMaterialMapper::State", "struct_acts_1_1_surface_material_mapper_1_1_state.html", null ],
     [ "Acts::SurfacePlacementBase", "class_acts_1_1_surface_placement_base.html", [
       [ "Acts::JsonDetectorElement", "class_acts_1_1_json_detector_element.html", null ],
       [ "ActsPlugins::Geant4DetectorElement", "class_acts_plugins_1_1_geant4_detector_element.html", null ],
@@ -893,6 +898,9 @@ var hierarchy =
     [ "Acts::VolumeConfig", "struct_acts_1_1_volume_config.html", null ],
     [ "Acts::VolumeConstraintAborter", "struct_acts_1_1_volume_constraint_aborter.html", null ],
     [ "Acts::VolumeHit", "struct_acts_1_1_volume_hit.html", null ],
+    [ "Acts::VolumeMaterialMapper", "class_acts_1_1_volume_material_mapper.html", null ],
+    [ "Acts::VolumeMaterialMapper::Config", "struct_acts_1_1_volume_material_mapper_1_1_config.html", null ],
+    [ "Acts::VolumeMaterialMapper::State", "struct_acts_1_1_volume_material_mapper_1_1_state.html", null ],
     [ "Acts::VolumePlacementBase", "class_acts_1_1_volume_placement_base.html", null ],
     [ "Acts::VolumeSelector", "struct_acts_1_1_volume_selector.html", null ],
     [ "Acts::VolumeStack::ResizeStrategies", "struct_acts_1_1_volume_stack_1_1_resize_strategies.html", null ],
@@ -1090,6 +1098,7 @@ var hierarchy =
       [ "Acts::MultiStepperLoop< single_stepper_t, component_reducer_t >::Config", "struct_acts_1_1_multi_stepper_loop_1_1_config.html", null ]
     ] ],
     [ "std::conditional_t", null, [
+      [ "Acts::Propagator< StraightLineStepper, Navigator >", "class_acts_1_1_propagator.html", null ],
       [ "Acts::Propagator< stepper_t, navigator_t >", "class_acts_1_1_propagator.html", null ]
     ] ],
     [ "std::enable_shared_from_this", null, [
