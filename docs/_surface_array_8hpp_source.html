@@ -555,19 +555,21 @@ $(function(){initNavTree('_surface_array_8hpp_source.html','',''); });
 <div class="line"><a id="l00559" name="l00559"></a><span class="lineno"><a class="line" href="class_acts_1_1_surface_array.html#a3443b173636af9733ff301026b522e4d">  559</a></span>  <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html">ISurfaceGridLookup</a>&amp; <a class="code hl_function" href="class_acts_1_1_surface_array.html#a3443b173636af9733ff301026b522e4d">gridLookup</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *p_gridLookup; }</div>
 <div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span> </div>
 <div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>  std::unique_ptr&lt;ISurfaceGridLookup&gt; p_gridLookup;</div>
-<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>  <span class="comment">// this vector makes sure we have shared ownership over the surfaces</span></div>
-<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>  std::vector&lt;std::shared_ptr&lt;const Surface&gt;&gt; m_surfaces;</div>
-<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>  <span class="comment">// this vector is returned, so that (expensive) copying of the shared_ptr</span></div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>  <span class="comment">// vector does not happen by default</span></div>
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>  <a class="code hl_typedef" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> m_surfacesRawPointers;</div>
-<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>  <span class="comment">// this is only used to keep info on transform applied</span></div>
-<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>  <span class="comment">// by l2g and g2l</span></div>
-<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> m_transform;</div>
-<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>};</div>
+<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>  <span class="keywordtype">void</span> checkGrid(<a class="code hl_class" href="class_acts_1_1_any_grid_const_view.html">AnyGridConstView&lt;SurfaceVector&gt;</a> grid);</div>
+<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span> </div>
+<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>  std::unique_ptr&lt;ISurfaceGridLookup&gt; p_gridLookup;</div>
+<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>  <span class="comment">// this vector makes sure we have shared ownership over the surfaces</span></div>
+<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>  std::vector&lt;std::shared_ptr&lt;const Surface&gt;&gt; m_surfaces;</div>
+<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>  <span class="comment">// this vector is returned, so that (expensive) copying of the shared_ptr</span></div>
+<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>  <span class="comment">// vector does not happen by default</span></div>
+<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>  <a class="code hl_typedef" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> m_surfacesRawPointers;</div>
+<div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span>  <span class="comment">// this is only used to keep info on transform applied</span></div>
+<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>  <span class="comment">// by l2g and g2l</span></div>
+<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>  <a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> m_transform;</div>
+<div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span>};</div>
 </div>
-<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span> </div>
-<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span> </div>
+<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_any_grid_const_view_html"><div class="ttname"><a href="class_acts_1_1_any_grid_const_view.html">Acts::AnyGridConstView</a></div><div class="ttdoc">Type-safe view into a grid with const access.</div><div class="ttdef"><b>Definition</b> AnyGridView.hpp:153</div></div>
 <div class="ttc" id="aclass_acts_1_1_boundary_tolerance_html_a37f9fa35e522bffbdd6b7107443599cc"><div class="ttname"><a href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">Acts::BoundaryTolerance::None</a></div><div class="ttdeci">static constexpr auto None() noexcept</div><div class="ttdoc">No tolerance i.e.</div><div class="ttdef"><b>Definition</b> BoundaryTolerance.hpp:122</div></div>
 <div class="ttc" id="aclass_acts_1_1_boundary_tolerance_html_a8f2376046ddf8c108006502775cd1aef"><div class="ttname"><a href="class_acts_1_1_boundary_tolerance.html#a8f2376046ddf8c108006502775cd1aef">Acts::BoundaryTolerance::Infinite</a></div><div class="ttdeci">static constexpr auto Infinite() noexcept</div><div class="ttdoc">Infinite tolerance i.e.</div><div class="ttdef"><b>Definition</b> BoundaryTolerance.hpp:116</div></div>
