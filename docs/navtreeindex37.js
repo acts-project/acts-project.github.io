@@ -1,5 +1,11 @@
 var NAVTREEINDEX37 =
 {
+"class_acts_fatras_1_1_channelizer.html#adafe54f345c082b47316c8d08bbaa3f2":[8,0,1,8,0],
+"class_acts_fatras_1_1_hit.html":[6,0,2,16],
+"class_acts_fatras_1_1_hit.html":[8,0,1,17],
+"class_acts_fatras_1_1_hit.html#a04df0fe2dd0dc935949f3bbe9fa650dd":[6,0,2,16,2],
+"class_acts_fatras_1_1_hit.html#a04df0fe2dd0dc935949f3bbe9fa650dd":[8,0,1,17,2],
+"class_acts_fatras_1_1_hit.html#a174b334286e81407ee8521d8c3225bc9":[6,0,2,16,17],
 "class_acts_fatras_1_1_hit.html#a174b334286e81407ee8521d8c3225bc9":[8,0,1,17,17],
 "class_acts_fatras_1_1_hit.html#a1adf850212e634cddff7081d7428de62":[6,0,2,16,16],
 "class_acts_fatras_1_1_hit.html#a1adf850212e634cddff7081d7428de62":[8,0,1,17,16],
@@ -243,11 +249,5 @@ var NAVTREEINDEX37 =
 "class_acts_plugins_1_1_const_podio_track_state_container.html#aec0c3ec3ac0245c491f621a9a742bffc":[5,9,4,5,8],
 "class_acts_plugins_1_1_cuda_track_building.html":[5,9,6,1],
 "class_acts_plugins_1_1_cuda_track_building.html#a1a673249a12e3d22b9c8861ee387af74":[5,9,6,1,3],
-"class_acts_plugins_1_1_cuda_track_building.html#aa540db0e4d6bf782f291d1faa3af3697":[5,9,6,1,2],
-"class_acts_plugins_1_1_cuda_track_building.html#aafea50a33f74058ff15e4aedff24c496":[5,9,6,1,1],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html":[5,9,2,0],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163":[5,9,2,0,2],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a2dca2f2845183e48b8ab1321c5e578f9":[5,9,2,0,3],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57":[5,9,2,0,4],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#abe221dd1e520170eb8022e64132b9bd9":[5,9,2,0,0]
+"class_acts_plugins_1_1_cuda_track_building.html#aa540db0e4d6bf782f291d1faa3af3697":[5,9,6,1,2]
 };

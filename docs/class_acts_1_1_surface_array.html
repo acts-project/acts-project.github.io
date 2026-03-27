@@ -142,6 +142,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a01325a014805eae0157875d7d5a2b5a4" id="r_a01325a014805eae0157875d7d5a2b5a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01325a014805eae0157875d7d5a2b5a4">SurfaceArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#afe774c4e663f0b412eea16a860215ece">surfaces</a>, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; &gt; axes)</td></tr>
+<tr class="memdesc:a01325a014805eae0157875d7d5a2b5a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to create a surface grid lookup for a given representative surface, tolerance, and axes.  <br /></td></tr>
 <tr class="memitem:a769a532fbe2b2ec5dc6446a3109d8337" id="r_a769a532fbe2b2ec5dc6446a3109d8337"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769a532fbe2b2ec5dc6446a3109d8337">SurfaceArray</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; srf)</td></tr>
 <tr class="memdesc:a769a532fbe2b2ec5dc6446a3109d8337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with a single surface.  <br /></td></tr>
 <tr class="memitem:abf49849ce0fa99750672452885f406bf" id="r_abf49849ce0fa99750672452885f406bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf49849ce0fa99750672452885f406bf">SurfaceArray</a> (std::unique_ptr&lt; <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html">ISurfaceGridLookup</a> &gt; <a class="el" href="#a3443b173636af9733ff301026b522e4d">gridLookup</a>, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#afe774c4e663f0b412eea16a860215ece">surfaces</a>, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a01383e9a6f85cfe776dd2db7cc3b8646">transform</a>=Transform3::Identity())</td></tr>
@@ -158,6 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8fd04eef86d7a240557b79cb45c9afee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vector of axes spanning the grid as <code>AnyAxis</code>.  <br /></td></tr>
 <tr class="memitem:a14bbc0bee0718ccc3216e762e23db29c" id="r_a14bbc0bee0718ccc3216e762e23db29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bbc0bee0718ccc3216e762e23db29c">getBinCenter</a> (std::size_t bin) const</td></tr>
 <tr class="memdesc:a14bbc0bee0718ccc3216e762e23db29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center of the bin identified by global bin index <code class="param">bin</code>.  <br /></td></tr>
+<tr class="memitem:a568652c2f2bb7a9006249bf43a4730ac" id="r_a568652c2f2bb7a9006249bf43a4730ac"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="class_acts_1_1_any_grid_const_view.html">AnyGridConstView</a>&lt; <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a568652c2f2bb7a9006249bf43a4730ac">getGridView</a> () const</td></tr>
+<tr class="memdesc:a568652c2f2bb7a9006249bf43a4730ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a view of the grid for inspection.  <br /></td></tr>
 <tr class="memitem:a3443b173636af9733ff301026b522e4d" id="r_a3443b173636af9733ff301026b522e4d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html">ISurfaceGridLookup</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3443b173636af9733ff301026b522e4d">gridLookup</a> () const</td></tr>
 <tr class="memdesc:a3443b173636af9733ff301026b522e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the lookup object.  <br /></td></tr>
 <tr class="memitem:a18e0d4c969689f57afb1261cfa010f16" id="r_a18e0d4c969689f57afb1261cfa010f16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e0d4c969689f57afb1261cfa010f16">isValidBin</a> (std::size_t bin) const</td></tr>
@@ -166,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a547bc82b2573b1dc30081c8a80e5c206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
 <tr class="memitem:a5c07c529e847512ccd3d1dd309bd8e74" id="r_a5c07c529e847512ccd3d1dd309bd8e74"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c07c529e847512ccd3d1dd309bd8e74">size</a> () const</td></tr>
 <tr class="memdesc:a5c07c529e847512ccd3d1dd309bd8e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the underlying grid structure including under/overflow bins.  <br /></td></tr>
+<tr class="memitem:a420087e5c803b129965a63fd2977d7af" id="r_a420087e5c803b129965a63fd2977d7af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a420087e5c803b129965a63fd2977d7af">surfaceRepresentation</a> () const</td></tr>
+<tr class="memdesc:a420087e5c803b129965a63fd2977d7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the representative surface used for this surface array.  <br /></td></tr>
 <tr class="memitem:afe774c4e663f0b412eea16a860215ece" id="r_afe774c4e663f0b412eea16a860215ece"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe774c4e663f0b412eea16a860215ece">surfaces</a> () const</td></tr>
 <tr class="memdesc:afe774c4e663f0b412eea16a860215ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces attached to this <code>SurfaceArray</code>.  <br /></td></tr>
 <tr class="memitem:ac9c0f543e3692fc23df5917db434e141" id="r_ac9c0f543e3692fc23df5917db434e141"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9c0f543e3692fc23df5917db434e141">toStream</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::ostream &amp;sl) const</td></tr>
@@ -178,13 +184,10 @@ Public Member Functions</h2></td></tr>
 <p>Uses <code>Grid</code> under the hood to implement the storage and lookup Contains a lookup struct which talks to the <code>Grid</code> and performs utility actions. This struct needs to be initialised externally and passed to <code>SurfaceArray</code> on construction. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abf49849ce0fa99750672452885f406bf" name="abf49849ce0fa99750672452885f406bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf49849ce0fa99750672452885f406bf">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf49849ce0fa99750672452885f406bf">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Acts::SurfaceArray::SurfaceArray </td>
@@ -202,11 +205,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Transform3::Identity()</span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Default constructor which takes a <code>SurfaceLookup</code> and a vector of surfaces. </p>
@@ -222,7 +220,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a769a532fbe2b2ec5dc6446a3109d8337" name="a769a532fbe2b2ec5dc6446a3109d8337"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a769a532fbe2b2ec5dc6446a3109d8337">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a769a532fbe2b2ec5dc6446a3109d8337">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,6 +246,54 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">srf</td><td>The one and only surface </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a01325a014805eae0157875d7d5a2b5a4" name="a01325a014805eae0157875d7d5a2b5a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01325a014805eae0157875d7d5a2b5a4">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::SurfaceArray::SurfaceArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>surfaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>representative</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::tuple&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; &gt;</td>          <td class="paramname"><span class="paramname"><em>axes</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor to create a surface grid lookup for a given representative surface, tolerance, and axes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
+    <tr><td class="paramname">surfaces</td><td>The input vector of surfaces that will be accessible through this <a class="el" href="class_acts_1_1_surface_array.html">SurfaceArray</a>. </td></tr>
+    <tr><td class="paramname">representative</td><td>The surface which is used as representative </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance used for intersection checks </td></tr>
+    <tr><td class="paramname">axes</td><td>The axes used for the grid </td></tr>
   </table>
   </dd>
 </dl>
@@ -405,6 +451,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a568652c2f2bb7a9006249bf43a4730ac" name="a568652c2f2bb7a9006249bf43a4730ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a568652c2f2bb7a9006249bf43a4730ac">&#9670;&#160;</a></span>getGridView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="class_acts_1_1_any_grid_const_view.html">AnyGridConstView</a>&lt; <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &gt; &gt; Acts::SurfaceArray::getGridView </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a view of the grid for inspection. </p>
+<dl class="section return"><dt>Returns</dt><dd>Optional grid view containing surface vectors </dd></dl>
+
+</div>
+</div>
 <a id="a3443b173636af9733ff301026b522e4d" name="a3443b173636af9733ff301026b522e4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3443b173636af9733ff301026b522e4d">&#9670;&#160;</a></span>gridLookup()</h2>
 
@@ -504,6 +570,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a420087e5c803b129965a63fd2977d7af" name="a420087e5c803b129965a63fd2977d7af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a420087e5c803b129965a63fd2977d7af">&#9670;&#160;</a></span>surfaceRepresentation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * Acts::SurfaceArray::surfaceRepresentation </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the representative surface used for this surface array. </p>
+<dl class="section return"><dt>Returns</dt><dd>Surface pointer </dd></dl>
+
+</div>
+</div>
 <a id="afe774c4e663f0b412eea16a860215ece" name="afe774c4e663f0b412eea16a860215ece"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe774c4e663f0b412eea16a860215ece">&#9670;&#160;</a></span>surfaces()</h2>
 
@@ -573,6 +659,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the transform of this surface array. </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the transformation matrix </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000015">Deprecated</a></b></dt><dd>This is an implementation detail and will be removed soon </dd></dl>
 
 </div>
 </div>

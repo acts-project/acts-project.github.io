@@ -141,18 +141,15 @@ Collaboration diagram for Acts::SurfaceArray::SurfaceGridLookup&lt; Axis1, Axis2
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_surface_array_1_1_surface_grid_lookup__coll__graph.svg" width="167" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ae64c9b87c47c0b125c4e5cb9e2d142bd" id="r_ae64c9b87c47c0b125c4e5cb9e2d142bd"><td class="memItemLeft" align="right" valign="top"><a id="ae64c9b87c47c0b125c4e5cb9e2d142bd" name="ae64c9b87c47c0b125c4e5cb9e2d142bd"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Grid_t</b> = <a class="el" href="class_acts_1_1_grid.html">Grid</a>&lt;<a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a>, Axis1, Axis2&gt;</td></tr>
-<tr class="memdesc:ae64c9b87c47c0b125c4e5cb9e2d142bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid type storing surface vectors with two axes. <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a12675d6014a7fd85a5397545e5ea24f1" id="r_a12675d6014a7fd85a5397545e5ea24f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12675d6014a7fd85a5397545e5ea24f1">SurfaceGridLookup</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; Axis1, Axis2 &gt; axes, std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; bValues={})</td></tr>
-<tr class="memdesc:a12675d6014a7fd85a5397545e5ea24f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a surface grid lookup.  <br /></td></tr>
+<tr class="memitem:acc341585d13a6aecdcdd5c5cc5b60f07" id="r_acc341585d13a6aecdcdd5c5cc5b60f07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc341585d13a6aecdcdd5c5cc5b60f07">SurfaceGridLookup</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; Axis1, Axis2 &gt; axes, const std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;bValues={})</td></tr>
+<tr class="memdesc:acc341585d13a6aecdcdd5c5cc5b60f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a surface grid lookup.  <br /></td></tr>
+<tr class="memitem:a901e2cfdd83c585bef6201e440fe4ab4" id="r_a901e2cfdd83c585bef6201e440fe4ab4"><td class="memItemLeft" align="right" valign="top"><a id="a901e2cfdd83c585bef6201e440fe4ab4" name="a901e2cfdd83c585bef6201e440fe4ab4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~SurfaceGridLookup</b> () override=default</td></tr>
+<tr class="memdesc:a901e2cfdd83c585bef6201e440fe4ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure virtual destructor. <br /></td></tr>
 <tr class="memitem:a17e3d4689689e0fcd60bc91ee9399f4d" id="r_a17e3d4689689e0fcd60bc91ee9399f4d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17e3d4689689e0fcd60bc91ee9399f4d">binningValues</a> () const override</td></tr>
-<tr class="memdesc:a17e3d4689689e0fcd60bc91ee9399f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning values described by this surface grid lookup They are in order of the axes.  <br /></td></tr>
+<tr class="memdesc:a17e3d4689689e0fcd60bc91ee9399f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning values described by this surface grid lookup They are in order of the axes (optional) and empty for eingle lookups.  <br /></td></tr>
 <tr class="memitem:aca135350a39f06cde6a571631911ed2f" id="r_aca135350a39f06cde6a571631911ed2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca135350a39f06cde6a571631911ed2f">fill</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;<a class="el" href="class_acts_1_1_surface_array.html#afe774c4e663f0b412eea16a860215ece">surfaces</a>) override</td></tr>
 <tr class="memdesc:aca135350a39f06cde6a571631911ed2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill provided surfaces into the contained <code>Grid</code>.  <br /></td></tr>
 <tr class="memitem:a878b994a2edc9dd03d1ac6d42def7284" id="r_a878b994a2edc9dd03d1ac6d42def7284"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a878b994a2edc9dd03d1ac6d42def7284">getAxes</a> () const override</td></tr>
@@ -185,13 +182,15 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISurfaceGridLooku
 struct Acts::SurfaceArray::SurfaceGridLookup&lt; Axis1, Axis2 &gt;</div><p>Lookup helper which encapsulates a <code>Grid</code>. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">Axes</td><td>The axes used for the grid </td></tr>
+    <tr><td class="paramname">Axis1</td><td>The first axis </td></tr>
+    <tr><td class="paramname">Axis2</td><td>The second axis </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>This is deprecated in favor of direct <a class="el" href="class_acts_1_1_surface_array.html">SurfaceArray</a> constructors. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a12675d6014a7fd85a5397545e5ea24f1" name="a12675d6014a7fd85a5397545e5ea24f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12675d6014a7fd85a5397545e5ea24f1">&#9670;&#160;</a></span>SurfaceGridLookup()</h2>
+<a id="acc341585d13a6aecdcdd5c5cc5b60f07" name="acc341585d13a6aecdcdd5c5cc5b60f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc341585d13a6aecdcdd5c5cc5b60f07">&#9670;&#160;</a></span>SurfaceGridLookup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +215,7 @@ template&lt;class Axis1, class Axis2&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>bValues</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bValues</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -260,7 +259,7 @@ template&lt;class Axis1, class Axis2&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>The binning values described by this surface grid lookup They are in order of the axes. </p>
+<p>The binning values described by this surface grid lookup They are in order of the axes (optional) and empty for eingle lookups. </p>
 <dl class="section return"><dt>Returns</dt><dd>Vector of axis directions for binning </dd></dl>
 
 <p>Reimplemented from <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html#adefdedb2eb38af7c2b3eef5af31fbc6a">Acts::SurfaceArray::ISurfaceGridLookup</a>.</p>
@@ -297,7 +296,6 @@ template&lt;class Axis1, class Axis2&gt; </div>
 </div><div class="memdoc">
 
 <p>Fill provided surfaces into the contained <code>Grid</code>. </p>
-<p>This is done by iterating, accessing the referencePosition, lookup and append. Also populates the neighbor map by combining the filled bins of all bins around a given one.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>

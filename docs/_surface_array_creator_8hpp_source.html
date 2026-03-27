@@ -346,57 +346,45 @@ $(function(){initNavTree('_surface_array_creator_8hpp_source.html','',''); });
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Equidistant, bdtB&gt;</a> axisB(pAxisB.min, pAxisB.max,</div>
 <div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>                                              pAxisB.nBins);</div>
 <div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span> </div>
-<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>      <span class="keyword">using </span>SGL =</div>
-<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>          SurfaceArray::SurfaceGridLookup&lt;<span class="keyword">decltype</span>(axisA), <span class="keyword">decltype</span>(axisB)&gt;;</div>
-<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>      ptr = std::make_unique&lt;SGL&gt;(std::move(surface), layerTolerance,</div>
-<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>                                  std::pair{axisA, axisB},</div>
-<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>                                  std::vector{pAxisA.axisDir, pAxisB.axisDir});</div>
-<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span> </div>
-<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (pAxisA.bType == equidistant &amp;&amp; pAxisB.bType == arbitrary) {</div>
-<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Equidistant, bdtA&gt;</a> axisA(pAxisA.min, pAxisA.max,</div>
-<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>                                              pAxisA.nBins);</div>
-<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtB&gt;</a> axisB(pAxisB.binEdges);</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>      ptr = SurfaceArray::makeSurfaceGridLookup(</div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>          std::move(surface), layerTolerance, std::tuple{axisA, axisB});</div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span> </div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (pAxisA.bType == equidistant &amp;&amp; pAxisB.bType == arbitrary) {</div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Equidistant, bdtA&gt;</a> axisA(pAxisA.min, pAxisA.max,</div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>                                              pAxisA.nBins);</div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtB&gt;</a> axisB(pAxisB.binEdges);</div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span> </div>
+<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>      ptr = SurfaceArray::makeSurfaceGridLookup(</div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>          std::move(surface), layerTolerance, std::tuple{axisA, axisB});</div>
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span> </div>
-<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>      <span class="keyword">using </span>SGL =</div>
-<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>          SurfaceArray::SurfaceGridLookup&lt;<span class="keyword">decltype</span>(axisA), <span class="keyword">decltype</span>(axisB)&gt;;</div>
-<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>      ptr = std::make_unique&lt;SGL&gt;(std::move(surface), layerTolerance,</div>
-<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>                                  std::pair{axisA, axisB},</div>
-<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>                                  std::vector{pAxisA.axisDir, pAxisB.axisDir});</div>
-<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span> </div>
-<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (pAxisA.bType == arbitrary &amp;&amp; pAxisB.bType == equidistant) {</div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtA&gt;</a> axisA(pAxisA.binEdges);</div>
-<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Equidistant, bdtB&gt;</a> axisB(pAxisB.min, pAxisB.max,</div>
-<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span>                                              pAxisB.nBins);</div>
-<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span> </div>
-<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span>      <span class="keyword">using </span>SGL =</div>
-<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>          SurfaceArray::SurfaceGridLookup&lt;<span class="keyword">decltype</span>(axisA), <span class="keyword">decltype</span>(axisB)&gt;;</div>
-<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>      ptr = std::make_unique&lt;SGL&gt;(std::move(surface), layerTolerance,</div>
-<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>                                  std::pair{axisA, axisB},</div>
-<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>                                  std::vector{pAxisA.axisDir, pAxisB.axisDir});</div>
-<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span> </div>
-<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>    } <span class="keywordflow">else</span> <span class="comment">/*if (pAxisA.bType == arbitrary &amp;&amp; pAxisB.bType == arbitrary)*/</span> {</div>
-<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtA&gt;</a> axisA(pAxisA.binEdges);</div>
-<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtB&gt;</a> axisB(pAxisB.binEdges);</div>
-<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span> </div>
-<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>      <span class="keyword">using </span>SGL =</div>
-<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>          SurfaceArray::SurfaceGridLookup&lt;<span class="keyword">decltype</span>(axisA), <span class="keyword">decltype</span>(axisB)&gt;;</div>
-<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>      ptr = std::make_unique&lt;SGL&gt;(std::move(surface), layerTolerance,</div>
-<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span>                                  std::pair{axisA, axisB},</div>
-<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>                                  std::vector{pAxisA.axisDir, pAxisB.axisDir});</div>
-<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>    }</div>
-<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span> </div>
-<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>    <span class="keywordflow">return</span> ptr;</div>
-<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>  }</div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span></div>
-<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>  std::unique_ptr&lt;const Logger&gt; m_logger;</div>
-<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span></div>
-<div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span>  std::vector&lt;Vector3&gt; makeGlobalVertices(</div>
-<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>      <span class="keyword">const</span> GeometryContext&amp; gctx, <span class="keyword">const</span> Surface&amp; surface,</div>
-<div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span>      <span class="keyword">const</span> std::vector&lt;Vector2&gt;&amp; locVertices) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span>};</div>
+<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (pAxisA.bType == arbitrary &amp;&amp; pAxisB.bType == equidistant) {</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtA&gt;</a> axisA(pAxisA.binEdges);</div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Equidistant, bdtB&gt;</a> axisB(pAxisB.min, pAxisB.max,</div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>                                              pAxisB.nBins);</div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span> </div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>      ptr = SurfaceArray::makeSurfaceGridLookup(</div>
+<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>          std::move(surface), layerTolerance, std::tuple{axisA, axisB});</div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span> </div>
+<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span>    } <span class="keywordflow">else</span> <span class="comment">/*if (pAxisA.bType == arbitrary &amp;&amp; pAxisB.bType == arbitrary)*/</span> {</div>
+<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtA&gt;</a> axisA(pAxisA.binEdges);</div>
+<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>      <a class="code hl_function" href="namespace_acts.html#a76e099f71248cb4af56fa6535db4881a">Axis&lt;AxisType::Variable, bdtB&gt;</a> axisB(pAxisB.binEdges);</div>
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span> </div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>      ptr = SurfaceArray::makeSurfaceGridLookup(</div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>          std::move(surface), layerTolerance, std::tuple{axisA, axisB});</div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>    }</div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span> </div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>    <span class="keywordflow">return</span> ptr;</div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>  }</div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span></div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>  std::unique_ptr&lt;const Logger&gt; m_logger;</div>
+<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span></div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>  std::vector&lt;Vector3&gt; makeGlobalVertices(</div>
+<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>      <span class="keyword">const</span> GeometryContext&amp; gctx, <span class="keyword">const</span> Surface&amp; surface,</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>      <span class="keyword">const</span> std::vector&lt;Vector2&gt;&amp; locVertices) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>};</div>
 </div>
-<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span> </div>
-<div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span> </div>
+<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_object_html_a05681cc42af51a5ac87b269ecb8c3b26"><div class="ttname"><a href="class_acts_1_1_geometry_object.html#a05681cc42af51a5ac87b269ecb8c3b26">Acts::GeometryObject::referencePosition</a></div><div class="ttdeci">virtual Vector3 referencePosition(const GeometryContext &amp;gctx, AxisDirection aDir) const =0</div><div class="ttdoc">Force a binning position method.</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:696</div></div>

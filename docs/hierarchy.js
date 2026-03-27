@@ -377,7 +377,6 @@ var hierarchy =
       [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< HoughCell< identifier_t >, Axis, Axis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< BinType, PhiAxisType, ZAxisType, RAxisType >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< SurfaceVector, Axis1, Axis2 >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType >, Axis< AxisType::Equidistant, bType > >", "class_acts_1_1_grid.html", null ],

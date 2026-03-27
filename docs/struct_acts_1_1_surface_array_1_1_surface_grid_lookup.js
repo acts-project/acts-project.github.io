@@ -1,7 +1,7 @@
 var struct_acts_1_1_surface_array_1_1_surface_grid_lookup =
 [
-    [ "Grid_t", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#ae64c9b87c47c0b125c4e5cb9e2d142bd", null ],
-    [ "SurfaceGridLookup", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a12675d6014a7fd85a5397545e5ea24f1", null ],
+    [ "SurfaceGridLookup", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#acc341585d13a6aecdcdd5c5cc5b60f07", null ],
+    [ "~SurfaceGridLookup", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a901e2cfdd83c585bef6201e440fe4ab4", null ],
     [ "binningValues", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a17e3d4689689e0fcd60bc91ee9399f4d", null ],
     [ "fill", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#aca135350a39f06cde6a571631911ed2f", null ],
     [ "getAxes", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a878b994a2edc9dd03d1ac6d42def7284", null ],
