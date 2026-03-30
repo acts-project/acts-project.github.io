@@ -31,7 +31,7 @@ var searchData=
   ['_7eilayerbuilder_28',['~ILayerBuilder',['../class_acts_1_1_i_layer_builder.html#a53922422c54024100826bfe8cd345bd1',1,'Acts::ILayerBuilder']]],
   ['_7eimaterialdecorator_29',['~IMaterialDecorator',['../class_acts_1_1_i_material_decorator.html#a12c8a17bc718400935922d16279ef1e4',1,'Acts::IMaterialDecorator']]],
   ['_7einavigationpolicy_30',['~INavigationPolicy',['../class_acts_1_1_i_navigation_policy.html#a4a5cc5d6ccf2d634e70160e6da727a77',1,'Acts::INavigationPolicy']]],
-  ['_7eisurfacegridlookup_31',['~ISurfaceGridLookup',['../struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html#a4d5ddc711ba216f74b56c633f21891e4',1,'Acts::SurfaceArray::ISurfaceGridLookup']]],
+  ['_7eisurfacegridlookup_31',['~ISurfaceGridLookup',['../struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html#ae120e529cc0a941d1f10529a7be1304c',1,'Acts::SurfaceArray::ISurfaceGridLookup']]],
   ['_7eisurfacematerial_32',['~ISurfaceMaterial',['../class_acts_1_1_i_surface_material.html#a1ccdc97ec06bf80f5030a0d8ebfb90b5',1,'Acts::ISurfaceMaterial']]],
   ['_7eisurfacematerialaccumulator_33',['~ISurfaceMaterialAccumulator',['../class_acts_1_1_i_surface_material_accumulator.html#a30c36940b0d558c07baa817aeb76133b',1,'Acts::ISurfaceMaterialAccumulator']]],
   ['_7eitgeoidentifierprovider_34',['~ITGeoIdentifierProvider',['../class_acts_plugins_1_1_i_t_geo_identifier_provider.html#ab561bbad8e95f4121e12f39dd48c387b',1,'ActsPlugins::ITGeoIdentifierProvider']]],
@@ -66,12 +66,11 @@ var searchData=
   ['_7espacepointmutabledata_63',['~SpacePointMutableData',['../class_acts_1_1_space_point_mutable_data.html#a4f57f300c33a0e8c46678f71683cc393',1,'Acts::SpacePointMutableData']]],
   ['_7esurfacearraycreator_64',['~SurfaceArrayCreator',['../class_acts_1_1_surface_array_creator.html#a8ef6f30f4fbda3df8c26827296249717',1,'Acts::SurfaceArrayCreator']]],
   ['_7esurfacearraynavigationpolicy_65',['~SurfaceArrayNavigationPolicy',['../class_acts_1_1_surface_array_navigation_policy.html#ad4896c4d168e1cced7925787fa0aa5f6',1,'Acts::SurfaceArrayNavigationPolicy']]],
-  ['_7esurfacegridlookup_66',['~SurfaceGridLookup',['../struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a901e2cfdd83c585bef6201e440fe4ab4',1,'Acts::SurfaceArray::SurfaceGridLookup']]],
-  ['_7esurfaceplacementbase_67',['~SurfacePlacementBase',['../class_acts_1_1_surface_placement_base.html#a12a0de6b838aa06d6974fc31049ee298',1,'Acts::SurfacePlacementBase']]],
-  ['_7etgeolayerbuilder_68',['~TGeoLayerBuilder',['../class_acts_plugins_1_1_t_geo_layer_builder.html#a1db703d13687de12b2ee4d995a7e03ef',1,'ActsPlugins::TGeoLayerBuilder']]],
-  ['_7etrackinggeometry_69',['~TrackingGeometry',['../class_acts_1_1_tracking_geometry.html#a62c63f7206272b5f2e7e81064b2100d8',1,'Acts::TrackingGeometry']]],
-  ['_7etrackinggeometrybuilder_70',['~TrackingGeometryBuilder',['../class_acts_1_1_tracking_geometry_builder.html#ad87c88f27eb9587107cea3d61bbd0ba3',1,'Acts::TrackingGeometryBuilder']]],
-  ['_7etrapezoidvolumebounds_71',['~TrapezoidVolumeBounds',['../class_acts_1_1_trapezoid_volume_bounds.html#a91dd6ad1c050f44d24c9ef3a78cd1477',1,'Acts::TrapezoidVolumeBounds']]],
-  ['_7etwocircletangentpars_72',['~TwoCircleTangentPars',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a7a50b7f0c48cf0066fb139ad6e60248d',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
-  ['_7evolumeplacementbase_73',['~VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html#a2bc3e178a37dbca2707f3a1c769a3a00',1,'Acts::VolumePlacementBase']]]
+  ['_7esurfaceplacementbase_66',['~SurfacePlacementBase',['../class_acts_1_1_surface_placement_base.html#a12a0de6b838aa06d6974fc31049ee298',1,'Acts::SurfacePlacementBase']]],
+  ['_7etgeolayerbuilder_67',['~TGeoLayerBuilder',['../class_acts_plugins_1_1_t_geo_layer_builder.html#a1db703d13687de12b2ee4d995a7e03ef',1,'ActsPlugins::TGeoLayerBuilder']]],
+  ['_7etrackinggeometry_68',['~TrackingGeometry',['../class_acts_1_1_tracking_geometry.html#a62c63f7206272b5f2e7e81064b2100d8',1,'Acts::TrackingGeometry']]],
+  ['_7etrackinggeometrybuilder_69',['~TrackingGeometryBuilder',['../class_acts_1_1_tracking_geometry_builder.html#ad87c88f27eb9587107cea3d61bbd0ba3',1,'Acts::TrackingGeometryBuilder']]],
+  ['_7etrapezoidvolumebounds_70',['~TrapezoidVolumeBounds',['../class_acts_1_1_trapezoid_volume_bounds.html#a91dd6ad1c050f44d24c9ef3a78cd1477',1,'Acts::TrapezoidVolumeBounds']]],
+  ['_7etwocircletangentpars_71',['~TwoCircleTangentPars',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a7a50b7f0c48cf0066fb139ad6e60248d',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
+  ['_7evolumeplacementbase_72',['~VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html#a2bc3e178a37dbca2707f3a1c769a3a00',1,'Acts::VolumePlacementBase']]]
 ];

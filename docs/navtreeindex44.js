@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"namespace_acts_1_1_particle_id_helper.html#ab638cad6242fdb69d805f5f4af3e0bb0":[6,0,0,5,8],
+"namespace_acts_1_1_particle_id_helper.html#ace99e50b8f0adb46db6958761290789a":[6,0,0,5,5],
+"namespace_acts_1_1_particle_id_helper.html#ae567470c39aa48986f7d81020dafbf78":[6,0,0,5,3],
+"namespace_acts_1_1_particle_id_helper.html#ae9d5155fd2f75448278c1cdd032a39cb":[6,0,0,5,7],
 "namespace_acts_1_1_particle_id_helper.html#afd04bb1ca849c6e0413ff41db03b2b34":[6,0,0,5,1],
 "namespace_acts_1_1_particle_id_helper.html#afed96051b798dc5aaaaf59131b952119":[6,0,0,5,2],
 "namespace_acts_1_1_physical_constants.html":[6,0,0,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850":[8,0,0,26,0,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ac1a0a6486a820b53f1cf851fee422683":[6,0,0,18,0,0],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ac1a0a6486a820b53f1cf851fee422683":[8,0,0,26,0,0],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aca64301b5a686f7035b3d59caa6e7b47":[6,0,0,18,0,6],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aca64301b5a686f7035b3d59caa6e7b47":[8,0,0,26,0,6],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ad0ed3ad447b4259d067699f025699bd1":[6,0,0,18,0,4],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ad0ed3ad447b4259d067699f025699bd1":[8,0,0,26,0,4],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ae68ef826d01fd97eaaed6a86184ae84b":[6,0,0,18,0,7]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aca64301b5a686f7035b3d59caa6e7b47":[6,0,0,18,0,6]
 };

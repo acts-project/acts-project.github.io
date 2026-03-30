@@ -1,5 +1,9 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_kalman_fitter_extensions.html#a308d00114e629e536e844f2f26f283e4":[5,11,15,10],
+"struct_acts_1_1_kalman_fitter_extensions.html#a571eb447fa0f25fb0d84debc6c37aeeb":[5,11,15,3],
+"struct_acts_1_1_kalman_fitter_extensions.html#a6c64d8300106e132dec02cacd7fe2e1e":[5,11,15,4],
+"struct_acts_1_1_kalman_fitter_extensions.html#a6ecda841a98932215821ef48a18cc9b9":[5,11,15,12],
 "struct_acts_1_1_kalman_fitter_extensions.html#a8788c906cbff781fa9a98f66c14e436e":[5,11,15,6],
 "struct_acts_1_1_kalman_fitter_extensions.html#a8df82e2e091f44d2f14f9ee7ea5c6b31":[5,11,15,2],
 "struct_acts_1_1_kalman_fitter_extensions.html#a9e35b7e9c4e6a43611916de2dc4d289e":[5,11,15,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_multi_stepper_surface_reached.html#a61fc0a7f9dff5ecacdc30f1b785c214d":[8,0,0,276,2],
 "struct_acts_1_1_multi_stepper_surface_reached.html#a6ec5fb240eb114f2c60ce40692e0b1fd":[6,0,0,268,0],
 "struct_acts_1_1_multi_stepper_surface_reached.html#a6ec5fb240eb114f2c60ce40692e0b1fd":[8,0,0,276,0],
-"struct_acts_1_1_multi_stepper_surface_reached.html#a791fc5b9a1b58b158b1c3817935f04d7":[6,0,0,268,1],
-"struct_acts_1_1_multi_stepper_surface_reached.html#a791fc5b9a1b58b158b1c3817935f04d7":[8,0,0,276,1],
-"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html":[8,0,0,11,0],
-"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#a03458ebd39b878843ca3267fd411c129":[8,0,0,11,0,10],
-"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#a1fe8b8ea3d3a9dc6f40298322ba8f96e":[8,0,0,11,0,11]
+"struct_acts_1_1_multi_stepper_surface_reached.html#a791fc5b9a1b58b158b1c3817935f04d7":[6,0,0,268,1]
 };
