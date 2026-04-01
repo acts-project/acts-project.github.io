@@ -54,13 +54,13 @@ var namespace_acts_fatras =
       [ "MaskingError", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0abff279d56cb31d81e2b1a9f71a5394d5", null ],
       [ "MaximumRetriesExceeded", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0ae887f671d35b1e3abb22adb9d2eff469", null ]
     ] ],
-    [ "ParticleOutcome", "namespace_acts_fatras.html#a6eac7840a62d85c8289eefb39810fabe", null ],
     [ "ProcessType", "namespace_acts_fatras.html#aeeb06be560af91cb9e45707c1fed65fc", null ],
+    [ "SimulationOutcome", "namespace_acts_fatras.html#ab7375a70d516f1fdd121aeb857784d8b", null ],
     [ "make_error_code", "namespace_acts_fatras.html#a4d0eb5f8789de1300cafc2d643a6f82a", null ],
     [ "makeStandardChargedElectroMagneticInteractions", "namespace_acts_fatras.html#a8d11660adb3bcd883e687c8d3e099d18", null ],
     [ "makeStandardNeutralElectroMagneticInteractions", "namespace_acts_fatras.html#ad110498041b0e25e1daa2411062494b0", null ],
     [ "mergeChannels", "namespace_acts_fatras.html#a4aeb3b5c4a3281cbe6e250aab0c7cf19", null ],
     [ "operator<<", "namespace_acts_fatras.html#abc8cd8c919ff3373c21f74028e6f86a3", null ],
-    [ "operator<<", "namespace_acts_fatras.html#af5cfbd0fc426db3f4f2fb53dbd17b8b6", null ],
-    [ "operator<<", "namespace_acts_fatras.html#ac75ed1b389ee2b39a774fed6e77661e4", null ]
+    [ "operator<<", "namespace_acts_fatras.html#ac75ed1b389ee2b39a774fed6e77661e4", null ],
+    [ "operator<<", "namespace_acts_fatras.html#ab0d2fc01e4a6c6c4d950389e57655627", null ]
 ];
