@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"class_acts_1_1_trapezoid_bounds.html#a4f42dbb23a35bf1ccc95e3c284e12546":[6,0,0,416,3],
+"class_acts_1_1_trapezoid_bounds.html#a4f42dbb23a35bf1ccc95e3c284e12546":[8,0,0,424,3],
+"class_acts_1_1_trapezoid_bounds.html#a74c58edfd9bf6df9bd307d58063b66d7":[6,0,0,416,7],
+"class_acts_1_1_trapezoid_bounds.html#a74c58edfd9bf6df9bd307d58063b66d7":[8,0,0,424,7],
 "class_acts_1_1_trapezoid_bounds.html#a79c5e03c87187a2fe8030fbf139fc8f4":[6,0,0,416,4],
 "class_acts_1_1_trapezoid_bounds.html#a79c5e03c87187a2fe8030fbf139fc8f4":[8,0,0,424,4],
 "class_acts_1_1_trapezoid_bounds.html#a9c03ec4021f1a21241d750a64365769d":[6,0,0,416,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "class_acts_1_1_vertex.html#a728c8471331a8232b719291c11a3cb91":[8,0,0,441,12],
 "class_acts_1_1_vertex.html#a8d9ac2bbb9657bb822019fa89a673ad9":[6,0,0,433,6],
 "class_acts_1_1_vertex.html#a8d9ac2bbb9657bb822019fa89a673ad9":[8,0,0,441,6],
-"class_acts_1_1_vertex.html#a9991e78ac5fa0ad692a5c6de9448e436":[6,0,0,433,16],
-"class_acts_1_1_vertex.html#a9991e78ac5fa0ad692a5c6de9448e436":[8,0,0,441,16],
-"class_acts_1_1_vertex.html#aa45269c8697d5ba876b70a9c82181f8a":[6,0,0,433,19],
-"class_acts_1_1_vertex.html#aa45269c8697d5ba876b70a9c82181f8a":[8,0,0,441,19],
-"class_acts_1_1_vertex.html#ac41502f9971d6100839d86393ec852aa":[6,0,0,433,7]
+"class_acts_1_1_vertex.html#a9991e78ac5fa0ad692a5c6de9448e436":[6,0,0,433,16]
 };

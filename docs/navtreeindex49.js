@@ -1,5 +1,9 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab042c931f0061d51b93da8b48b9e3d4b":[6,0,0,1,13,3],
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab042c931f0061d51b93da8b48b9e3d4b":[8,0,0,2,13,3],
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab2f267e35e077a44514c314e5a9e219f":[6,0,0,1,13,4],
+"struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab2f267e35e077a44514c314e5a9e219f":[8,0,0,2,13,4],
 "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab8f521811d27e3a4f21ce79062ef14b7":[6,0,0,1,13,12],
 "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#ab8f521811d27e3a4f21ce79062ef14b7":[8,0,0,2,13,12],
 "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#acc8cf7e9a10e4f1132b7a4656cb645e5":[6,0,0,1,13,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a2bebe68bd02a62f7689ebd477c511a74":[5,11,8,0],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#a7d14107e03a8a5f6441eb8a1e7f9db3d":[5,11,8,4],
 "struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415":[5,11,8,1],
-"struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2":[5,11,8,2],
-"struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html":[6,0,0,1,38,0],
-"struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html":[8,0,0,2,38,0],
-"struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html#a069a7c77655411732b69af6867b8ae18":[6,0,0,1,38,0,1],
-"struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html#a069a7c77655411732b69af6867b8ae18":[8,0,0,2,38,0,1]
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2":[5,11,8,2]
 };

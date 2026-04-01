@@ -142,44 +142,48 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a01325a014805eae0157875d7d5a2b5a4" id="r_a01325a014805eae0157875d7d5a2b5a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01325a014805eae0157875d7d5a2b5a4">SurfaceArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#afe774c4e663f0b412eea16a860215ece">surfaces</a>, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; &gt; axes)</td></tr>
+<tr class="memitem:a01325a014805eae0157875d7d5a2b5a4" id="r_a01325a014805eae0157875d7d5a2b5a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01325a014805eae0157875d7d5a2b5a4">SurfaceArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#a62f296f6caab4e8ed27437fa7724838d">surfaces</a>, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; &gt; axes)</td></tr>
 <tr class="memdesc:a01325a014805eae0157875d7d5a2b5a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to create a surface grid lookup for a given representative surface, tolerance, and axes.  <br /></td></tr>
 <tr class="memitem:a769a532fbe2b2ec5dc6446a3109d8337" id="r_a769a532fbe2b2ec5dc6446a3109d8337"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769a532fbe2b2ec5dc6446a3109d8337">SurfaceArray</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; srf)</td></tr>
 <tr class="memdesc:a769a532fbe2b2ec5dc6446a3109d8337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with a single surface.  <br /></td></tr>
-<tr class="memitem:abf49849ce0fa99750672452885f406bf" id="r_abf49849ce0fa99750672452885f406bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf49849ce0fa99750672452885f406bf">SurfaceArray</a> (std::unique_ptr&lt; <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html">ISurfaceGridLookup</a> &gt; <a class="el" href="#a3443b173636af9733ff301026b522e4d">gridLookup</a>, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#afe774c4e663f0b412eea16a860215ece">surfaces</a>, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a01383e9a6f85cfe776dd2db7cc3b8646">transform</a>=Transform3::Identity())</td></tr>
+<tr class="memitem:abf49849ce0fa99750672452885f406bf" id="r_abf49849ce0fa99750672452885f406bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf49849ce0fa99750672452885f406bf">SurfaceArray</a> (std::unique_ptr&lt; <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html">ISurfaceGridLookup</a> &gt; <a class="el" href="#a3443b173636af9733ff301026b522e4d">gridLookup</a>, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#a62f296f6caab4e8ed27437fa7724838d">surfaces</a>, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;<a class="el" href="#a01383e9a6f85cfe776dd2db7cc3b8646">transform</a>=Transform3::Identity())</td></tr>
 <tr class="memdesc:abf49849ce0fa99750672452885f406bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor which takes a <code>SurfaceLookup</code> and a vector of surfaces.  <br /></td></tr>
 <tr class="memitem:a13c027205cb5f2390beb094fda36b9de" id="r_a13c027205cb5f2390beb094fda36b9de"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13c027205cb5f2390beb094fda36b9de">at</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
 <tr class="memdesc:a13c027205cb5f2390beb094fda36b9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by position <code class="param">pos</code>.  <br /></td></tr>
-<tr class="memitem:a99db756409d2d7e3ba641352af8bb7fc" id="r_a99db756409d2d7e3ba641352af8bb7fc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99db756409d2d7e3ba641352af8bb7fc">at</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
-<tr class="memdesc:a99db756409d2d7e3ba641352af8bb7fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by position <code class="param">pos</code>.  <br /></td></tr>
-<tr class="memitem:a9fea80c9ee624607a4c8890ee0466c1a" id="r_a9fea80c9ee624607a4c8890ee0466c1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fea80c9ee624607a4c8890ee0466c1a">at</a> (std::size_t bin)</td></tr>
-<tr class="memdesc:a9fea80c9ee624607a4c8890ee0466c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by global bin index <code class="param">bin</code>.  <br /></td></tr>
-<tr class="memitem:a362ab18e7e50446508a61aa1c8655898" id="r_a362ab18e7e50446508a61aa1c8655898"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a362ab18e7e50446508a61aa1c8655898">at</a> (std::size_t bin) const</td></tr>
-<tr class="memdesc:a362ab18e7e50446508a61aa1c8655898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by global bin index.  <br /></td></tr>
+<tr class="memitem:a29386f7e64cd7fe87b3fef2ada84ec53" id="r_a29386f7e64cd7fe87b3fef2ada84ec53"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29386f7e64cd7fe87b3fef2ada84ec53">at</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
+<tr class="memdesc:a29386f7e64cd7fe87b3fef2ada84ec53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by position <code class="param">pos</code>.  <br /></td></tr>
+<tr class="memitem:a338a84dc50692713323beec77827ab33" id="r_a338a84dc50692713323beec77827ab33"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338a84dc50692713323beec77827ab33">at</a> (std::array&lt; std::size_t, 2 &gt; gridIndices, std::uint8_t neighborDistance) const</td></tr>
+<tr class="memdesc:a338a84dc50692713323beec77827ab33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by local grid indices and neighbor distance.  <br /></td></tr>
+<tr class="memitem:ae30777ddad3fbc8850ab30021cd680be" id="r_ae30777ddad3fbc8850ab30021cd680be"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae30777ddad3fbc8850ab30021cd680be">at</a> (std::size_t bin)</td></tr>
+<tr class="memdesc:ae30777ddad3fbc8850ab30021cd680be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by global bin index <code class="param">bin</code>.  <br /></td></tr>
+<tr class="memitem:afc318f59dc2196210c240f994105cf1f" id="r_afc318f59dc2196210c240f994105cf1f"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc318f59dc2196210c240f994105cf1f">at</a> (std::size_t bin) const</td></tr>
+<tr class="memdesc:afc318f59dc2196210c240f994105cf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by global bin index.  <br /></td></tr>
 <tr class="memitem:afc402251abb0169c97a4d314ab3b6928" id="r_afc402251abb0169c97a4d314ab3b6928"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc402251abb0169c97a4d314ab3b6928">binningValues</a> () const</td></tr>
-<tr class="memdesc:afc402251abb0169c97a4d314ab3b6928"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning values described by this surface grid lookup They are in order of the axes.  <br /></td></tr>
+<tr class="memdesc:afc402251abb0169c97a4d314ab3b6928"><td class="mdescLeft">&#160;</td><td class="mdescRight">The binning values described by this surface grid lookup.  <br /></td></tr>
 <tr class="memitem:a8fd04eef86d7a240557b79cb45c9afee" id="r_a8fd04eef86d7a240557b79cb45c9afee"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd04eef86d7a240557b79cb45c9afee">getAxes</a> () const</td></tr>
 <tr class="memdesc:a8fd04eef86d7a240557b79cb45c9afee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vector of axes spanning the grid as <code>AnyAxis</code>.  <br /></td></tr>
 <tr class="memitem:a14bbc0bee0718ccc3216e762e23db29c" id="r_a14bbc0bee0718ccc3216e762e23db29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bbc0bee0718ccc3216e762e23db29c">getBinCenter</a> (std::size_t bin) const</td></tr>
 <tr class="memdesc:a14bbc0bee0718ccc3216e762e23db29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center of the bin identified by global bin index <code class="param">bin</code>.  <br /></td></tr>
-<tr class="memitem:a568652c2f2bb7a9006249bf43a4730ac" id="r_a568652c2f2bb7a9006249bf43a4730ac"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="class_acts_1_1_any_grid_const_view.html">AnyGridConstView</a>&lt; <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a568652c2f2bb7a9006249bf43a4730ac">getGridView</a> () const</td></tr>
-<tr class="memdesc:a568652c2f2bb7a9006249bf43a4730ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a view of the grid for inspection.  <br /></td></tr>
 <tr class="memitem:a3443b173636af9733ff301026b522e4d" id="r_a3443b173636af9733ff301026b522e4d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html">ISurfaceGridLookup</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3443b173636af9733ff301026b522e4d">gridLookup</a> () const</td></tr>
 <tr class="memdesc:a3443b173636af9733ff301026b522e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the lookup object.  <br /></td></tr>
 <tr class="memitem:a18e0d4c969689f57afb1261cfa010f16" id="r_a18e0d4c969689f57afb1261cfa010f16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e0d4c969689f57afb1261cfa010f16">isValidBin</a> (std::size_t bin) const</td></tr>
 <tr class="memdesc:a18e0d4c969689f57afb1261cfa010f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if global bin is valid.  <br /></td></tr>
+<tr class="memitem:aa37d9e65ef078b639e52aa15f2367243" id="r_aa37d9e65ef078b639e52aa15f2367243"><td class="memItemLeft" align="right" valign="top">std::uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37d9e65ef078b639e52aa15f2367243">maxNeighborDistance</a> () const</td></tr>
+<tr class="memdesc:aa37d9e65ef078b639e52aa15f2367243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum neighbor distance that is supported by this lookup.  <br /></td></tr>
 <tr class="memitem:a10ab400a529beba98a1e2a3649df76c7" id="r_a10ab400a529beba98a1e2a3649df76c7"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ab400a529beba98a1e2a3649df76c7">neighbors</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
 <tr class="memdesc:a10ab400a529beba98a1e2a3649df76c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
-<tr class="memitem:a547bc82b2573b1dc30081c8a80e5c206" id="r_a547bc82b2573b1dc30081c8a80e5c206"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a547bc82b2573b1dc30081c8a80e5c206">neighbors</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
-<tr class="memdesc:a547bc82b2573b1dc30081c8a80e5c206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
+<tr class="memitem:a90f4058d1b3e186f448458414cf180ad" id="r_a90f4058d1b3e186f448458414cf180ad"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90f4058d1b3e186f448458414cf180ad">neighbors</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
+<tr class="memdesc:a90f4058d1b3e186f448458414cf180ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
+<tr class="memitem:ae412f914bad4eb622773d4ff5fbe9d87" id="r_ae412f914bad4eb622773d4ff5fbe9d87"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::size_t, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae412f914bad4eb622773d4ff5fbe9d87">numLocalBins</a> () const</td></tr>
+<tr class="memdesc:ae412f914bad4eb622773d4ff5fbe9d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local bins in each dimension.  <br /></td></tr>
 <tr class="memitem:a5c07c529e847512ccd3d1dd309bd8e74" id="r_a5c07c529e847512ccd3d1dd309bd8e74"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c07c529e847512ccd3d1dd309bd8e74">size</a> () const</td></tr>
 <tr class="memdesc:a5c07c529e847512ccd3d1dd309bd8e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the underlying grid structure including under/overflow bins.  <br /></td></tr>
 <tr class="memitem:a420087e5c803b129965a63fd2977d7af" id="r_a420087e5c803b129965a63fd2977d7af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a420087e5c803b129965a63fd2977d7af">surfaceRepresentation</a> () const</td></tr>
 <tr class="memdesc:a420087e5c803b129965a63fd2977d7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the representative surface used for this surface array.  <br /></td></tr>
-<tr class="memitem:afe774c4e663f0b412eea16a860215ece" id="r_afe774c4e663f0b412eea16a860215ece"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe774c4e663f0b412eea16a860215ece">surfaces</a> () const</td></tr>
-<tr class="memdesc:afe774c4e663f0b412eea16a860215ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces attached to this <code>SurfaceArray</code>.  <br /></td></tr>
+<tr class="memitem:a62f296f6caab4e8ed27437fa7724838d" id="r_a62f296f6caab4e8ed27437fa7724838d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f296f6caab4e8ed27437fa7724838d">surfaces</a> () const</td></tr>
+<tr class="memdesc:a62f296f6caab4e8ed27437fa7724838d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces attached to this <code>SurfaceArray</code>.  <br /></td></tr>
 <tr class="memitem:ac9c0f543e3692fc23df5917db434e141" id="r_ac9c0f543e3692fc23df5917db434e141"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9c0f543e3692fc23df5917db434e141">toStream</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::ostream &amp;sl) const</td></tr>
-<tr class="memdesc:ac9c0f543e3692fc23df5917db434e141"><td class="mdescLeft">&#160;</td><td class="mdescRight">String representation of this <code>SurfaceArray</code>.  <br /></td></tr>
+<tr class="memdesc:ac9c0f543e3692fc23df5917db434e141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get string representation of this <code>SurfaceArray</code>.  <br /></td></tr>
 <tr class="memitem:a01383e9a6f85cfe776dd2db7cc3b8646" id="r_a01383e9a6f85cfe776dd2db7cc3b8646"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01383e9a6f85cfe776dd2db7cc3b8646">transform</a> () const</td></tr>
 <tr class="memdesc:a01383e9a6f85cfe776dd2db7cc3b8646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transform of this surface array.  <br /></td></tr>
 </table>
@@ -306,7 +310,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a13c027205cb5f2390beb094fda36b9de" name="a13c027205cb5f2390beb094fda36b9de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13c027205cb5f2390beb094fda36b9de">&#9670;&#160;</a></span>at() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c027205cb5f2390beb094fda36b9de">&#9670;&#160;</a></span>at() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,14 +346,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a99db756409d2d7e3ba641352af8bb7fc" name="a99db756409d2d7e3ba641352af8bb7fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99db756409d2d7e3ba641352af8bb7fc">&#9670;&#160;</a></span>at() <span class="overload">[2/4]</span></h2>
+<a id="a29386f7e64cd7fe87b3fef2ada84ec53" name="a29386f7e64cd7fe87b3fef2ada84ec53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29386f7e64cd7fe87b3fef2ada84ec53">&#9670;&#160;</a></span>at() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp; Acts::SurfaceArray::at </td>
+          <td class="memname">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp; Acts::SurfaceArray::at </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
@@ -369,18 +373,49 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>const reference to <code>SurfaceVector</code> contained in bin at that position </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>const reference to surface vector contained in bin at that position </dd></dl>
 
 </div>
 </div>
-<a id="a9fea80c9ee624607a4c8890ee0466c1a" name="a9fea80c9ee624607a4c8890ee0466c1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fea80c9ee624607a4c8890ee0466c1a">&#9670;&#160;</a></span>at() <span class="overload">[3/4]</span></h2>
+<a id="a338a84dc50692713323beec77827ab33" name="a338a84dc50692713323beec77827ab33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a338a84dc50692713323beec77827ab33">&#9670;&#160;</a></span>at() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp; Acts::SurfaceArray::at </td>
+          <td class="memname">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const  &gt; Acts::SurfaceArray::at </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; std::size_t, 2 &gt;</td>          <td class="paramname"><span class="paramname"><em>gridIndices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint8_t</td>          <td class="paramname"><span class="paramname"><em>neighborDistance</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all surfaces in bin given by local grid indices and neighbor distance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gridIndices</td><td>the local grid indices </td></tr>
+    <tr><td class="paramname">neighborDistance</td><td>the neighbor distance to include in the lookup </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>span of surface pointers of the bin at that position and its neighbors </dd></dl>
+
+</div>
+</div>
+<a id="ae30777ddad3fbc8850ab30021cd680be" name="ae30777ddad3fbc8850ab30021cd680be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae30777ddad3fbc8850ab30021cd680be">&#9670;&#160;</a></span>at() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp; Acts::SurfaceArray::at </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>bin</em></span></td><td>)</td>
           <td></td>
@@ -395,18 +430,18 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>reference to <code>SurfaceVector</code> contained in bin </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>mutable reference to surface vector contained in bin </dd></dl>
 
 </div>
 </div>
-<a id="a362ab18e7e50446508a61aa1c8655898" name="a362ab18e7e50446508a61aa1c8655898"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a362ab18e7e50446508a61aa1c8655898">&#9670;&#160;</a></span>at() <span class="overload">[4/4]</span></h2>
+<a id="afc318f59dc2196210c240f994105cf1f" name="afc318f59dc2196210c240f994105cf1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc318f59dc2196210c240f994105cf1f">&#9670;&#160;</a></span>at() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp; Acts::SurfaceArray::at </td>
+          <td class="memname">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp; Acts::SurfaceArray::at </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>bin</em></span></td><td>)</td>
           <td> const</td>
@@ -421,7 +456,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>const reference to <code>SurfaceVector</code> contained in bin </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>const reference to surface vector contained in bin </dd></dl>
 
 </div>
 </div>
@@ -440,8 +475,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The binning values described by this surface grid lookup They are in order of the axes. </p>
-<dl class="section return"><dt>Returns</dt><dd>Vector of axis directions for binning </dd></dl>
+<p>The binning values described by this surface grid lookup. </p>
+<p>They are in order of the axes </p><dl class="section return"><dt>Returns</dt><dd>Vector of axis directions for binning </dd></dl>
 
 </div>
 </div>
@@ -492,26 +527,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a568652c2f2bb7a9006249bf43a4730ac" name="a568652c2f2bb7a9006249bf43a4730ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a568652c2f2bb7a9006249bf43a4730ac">&#9670;&#160;</a></span>getGridView()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="class_acts_1_1_any_grid_const_view.html">AnyGridConstView</a>&lt; <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &gt; &gt; Acts::SurfaceArray::getGridView </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get a view of the grid for inspection. </p>
-<dl class="section return"><dt>Returns</dt><dd>Optional grid view containing surface vectors </dd></dl>
-
-</div>
-</div>
 <a id="a3443b173636af9733ff301026b522e4d" name="a3443b173636af9733ff301026b522e4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3443b173636af9733ff301026b522e4d">&#9670;&#160;</a></span>gridLookup()</h2>
 
@@ -559,6 +574,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa37d9e65ef078b639e52aa15f2367243" name="aa37d9e65ef078b639e52aa15f2367243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa37d9e65ef078b639e52aa15f2367243">&#9670;&#160;</a></span>maxNeighborDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint8_t Acts::SurfaceArray::maxNeighborDistance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the maximum neighbor distance that is supported by this lookup. </p>
+<p>This is used to determine how many neighbors to include in neighbor lookups. </p><dl class="section return"><dt>Returns</dt><dd>Maximum neighbor distance </dd></dl>
+
+</div>
+</div>
 <a id="a10ab400a529beba98a1e2a3649df76c7" name="a10ab400a529beba98a1e2a3649df76c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10ab400a529beba98a1e2a3649df76c7">&#9670;&#160;</a></span>neighbors() <span class="overload">[1/2]</span></h2>
 
@@ -596,14 +631,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a547bc82b2573b1dc30081c8a80e5c206" name="a547bc82b2573b1dc30081c8a80e5c206"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a547bc82b2573b1dc30081c8a80e5c206">&#9670;&#160;</a></span>neighbors() <span class="overload">[2/2]</span></h2>
+<a id="a90f4058d1b3e186f448458414cf180ad" name="a90f4058d1b3e186f448458414cf180ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90f4058d1b3e186f448458414cf180ad">&#9670;&#160;</a></span>neighbors() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp; Acts::SurfaceArray::neighbors </td>
+          <td class="memname">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp; Acts::SurfaceArray::neighbors </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
@@ -623,7 +658,27 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Merged <code>SurfaceVector</code> of neighbors and nominal </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Merged surface vector of neighbors and nominal </dd></dl>
+
+</div>
+</div>
+<a id="ae412f914bad4eb622773d4ff5fbe9d87" name="ae412f914bad4eb622773d4ff5fbe9d87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae412f914bad4eb622773d4ff5fbe9d87">&#9670;&#160;</a></span>numLocalBins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; std::size_t, 2 &gt; Acts::SurfaceArray::numLocalBins </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of local bins in each dimension. </p>
+<p>This is used to determine the size of the grid for neighbor lookups. </p><dl class="section return"><dt>Returns</dt><dd>Array of number of local bins in each dimension </dd></dl>
 
 </div>
 </div>
@@ -667,14 +722,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afe774c4e663f0b412eea16a860215ece" name="afe774c4e663f0b412eea16a860215ece"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe774c4e663f0b412eea16a860215ece">&#9670;&#160;</a></span>surfaces()</h2>
+<a id="a62f296f6caab4e8ed27437fa7724838d" name="a62f296f6caab4e8ed27437fa7724838d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f296f6caab4e8ed27437fa7724838d">&#9670;&#160;</a></span>surfaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd">SurfaceVector</a> &amp; Acts::SurfaceArray::surfaces </td>
+          <td class="memname">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp; Acts::SurfaceArray::surfaces </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -683,7 +738,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all surfaces attached to this <code>SurfaceArray</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>Reference to <code>SurfaceVector</code> containing all surfaces </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to vector of all surfaces </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This does not reflect the actual state of the grid. It only returns what was given in the constructor, without any checks if that is actually what's in the grid. </dd></dl>
 
 </div>
@@ -707,7 +762,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>String representation of this <code>SurfaceArray</code>. </p>
+<p>Get string representation of this <code>SurfaceArray</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
