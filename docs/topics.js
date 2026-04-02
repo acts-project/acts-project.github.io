@@ -11,6 +11,7 @@ var topics =
     [ "Pattern Recognition", "group__pattern__recog.html", "group__pattern__recog" ],
     [ "Plugins", "group__plugins.html", "group__plugins" ],
     [ "Propagation", "group__propagation.html", "group__propagation" ],
+    [ "Python Bindings", "group__python__bindings.html", null ],
     [ "Track Fitting", "group__track__fitting.html", "group__track__fitting" ],
     [ "Utilities", "group__utilities.html", "group__utilities" ],
     [ "Vertexing", "group__vertexing.html", null ]

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vertexing_0',['Vertexing',['../group__vertexing.html',1,'']]]
+  ['utilities_0',['Utilities',['../group__utilities.html',1,'']]]
 ];

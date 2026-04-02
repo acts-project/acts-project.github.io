@@ -35,12 +35,9 @@ var NAVTREE =
       [ "Building ACTS", "building_acts.html", null ],
       [ "Building with Spack", "howto_spack.html", null ],
       [ "Physics performance monitoring", "physmon.html", null ],
-      [ "ROOT file hashes", "python_bindings.html#root_file_hashes", null ]
+      [ "ROOT file hashes", "group__python__bindings.html#root_file_hashes", null ]
     ] ],
     [ "Versioning and public API", "versioning.html", null ],
-    [ "Examples", null, [
-      [ "Python bindings", "python_bindings.html", null ]
-    ] ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
@@ -110,9 +107,9 @@ var NAVTREEINDEX =
 "class_acts_plugins_1_1_podio_track_container_base.html#aa646466e3d8f24915feef08248404b6d",
 "functions_e.html",
 "group__errors.html#ggac32894235c42ab9d5e6bf5c5cd1f6f3dae3446c971b61f402878421556af2d52c",
-"namespace_acts.html#a1194f5ec4252a38cccb4fc3d0d151eed",
-"namespace_acts.html#a9449d6ac28ec406ddfcf71fd50003e59",
-"namespace_acts_1_1_particle_id_helper.html",
+"namespace_acts.html#a10e8cfcddde31768275e024c61f03a70",
+"namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7",
+"namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23",
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850",
 "struct_acts_1_1_ccl_1_1_connect2_d.html#a450291a0ab0e50578a97b224ba488cf2",
 "struct_acts_1_1_direct_navigator_1_1_options.html#aba3ca63bfa0bd786c0f1494a7090daef",

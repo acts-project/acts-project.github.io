@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['field_0',['Magnetic Field',['../group__magnetic__field.html',1,'']]],
-  ['finding_1',['Track Finding',['../group__track__finding.html',1,'']]],
-  ['fitting_2',['Track Fitting',['../group__track__fitting.html',1,'']]],
-  ['for_20track_20reconstruction_3',['for track reconstruction',['../group__eventdata-charge.html',1,'Charge hypothesis for track reconstruction'],['../group__eventdata-particlehypothesis.html',1,'Particle hypothesis for track reconstruction']]],
-  ['formation_4',['Space Point Formation',['../group__sp__formation.html',1,'']]],
-  ['fpe_20monitoring_20plugin_5',['FPE Monitoring Plugin',['../group__fpemonitoring__plugin.html',1,'']]],
-  ['from_20seed_6',['Estimate track parameters from seed',['../group__est__track__params.html',1,'']]]
+  ['edm4hep_20plugin_0',['EDM4hep Plugin',['../group__edm4hep__plugin.html',1,'']]],
+  ['error_20definitions_1',['Error definitions',['../group__errors.html',1,'']]],
+  ['estimate_20track_20parameters_20from_20seed_2',['Estimate track parameters from seed',['../group__est__track__params.html',1,'']]],
+  ['event_20data_20model_3',['Event Data Model',['../group__eventdata.html',1,'Event Data Model'],['../group__eventdata__tracks.html',1,'Track Event Data Model']]]
 ];

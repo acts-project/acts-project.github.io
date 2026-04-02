@@ -33,10 +33,8 @@ var menudata={children:[
 {text:"Building ACTS",url:"building_acts.html"},
 {text:"Building with Spack",url:"howto_spack.html"},
 {text:"Physics performance monitoring",url:"physmon.html"},
-{text:"ROOT file hashes",url:"python_bindings.html#root_file_hashes"}]},
+{text:"ROOT file hashes",url:"group__python__bindings.html#root_file_hashes"}]},
 {text:"Versioning and public API",url:"versioning.html"},
-{text:"Examples",url:"",children:[
-{text:"Python bindings",url:"python_bindings.html"}]},
 {text:"Topics",url:"topics.html"},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"}]},
