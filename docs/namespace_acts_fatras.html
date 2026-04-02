@@ -248,7 +248,7 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:gaebbb9744bded7af55e310fecf0f4f0c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for digitization operations.  <a href="group__errors.html#gaebbb9744bded7af55e310fecf0f4f0c0">More...</a><br /></td></tr>
-<tr class="memitem:aeeb06be560af91cb9e45707c1fed65fc" id="r_aeeb06be560af91cb9e45707c1fed65fc"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb06be560af91cb9e45707c1fed65fc">ProcessType</a> : std::uint32_t { <br />
+<tr class="memitem:ab82fe32106ca3290d89eceea261c2a05" id="r_ab82fe32106ca3290d89eceea261c2a05"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a> : std::uint32_t { <br />
 &#160;&#160;<b>eUndefined</b> = 0
 , <b>eDecay</b> = 1
 , <b>ePhotonConversion</b> = 2
@@ -257,7 +257,7 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>eNuclearInteraction</b> = 4
 <br />
  }</td></tr>
-<tr class="memdesc:aeeb06be560af91cb9e45707c1fed65fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process type identifier.  <a href="#aeeb06be560af91cb9e45707c1fed65fc">More...</a><br /></td></tr>
+<tr class="memdesc:ab82fe32106ca3290d89eceea261c2a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generation process type identifier.  <a href="#ab82fe32106ca3290d89eceea261c2a05">More...</a><br /></td></tr>
 <tr class="memitem:ab7375a70d516f1fdd121aeb857784d8b" id="r_ab7375a70d516f1fdd121aeb857784d8b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7375a70d516f1fdd121aeb857784d8b">SimulationOutcome</a> : std::uint32_t { <br />
 &#160;&#160;<b>Alive</b> = 0
 , <b>KilledInteraction</b> = 1
@@ -282,8 +282,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4aeb3b5c4a3281cbe6e250aab0c7cf19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic implementation of a channel merger, currently only additive channel merging.  <br /></td></tr>
 <tr class="memitem:abc8cd8c919ff3373c21f74028e6f86a3" id="r_abc8cd8c919ff3373c21f74028e6f86a3"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc8cd8c919ff3373c21f74028e6f86a3">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="class_acts_fatras_1_1_particle.html">Particle</a> &amp;particle)</td></tr>
 <tr class="memdesc:abc8cd8c919ff3373c21f74028e6f86a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print particle to output stream.  <br /></td></tr>
-<tr class="memitem:ac75ed1b389ee2b39a774fed6e77661e4" id="r_ac75ed1b389ee2b39a774fed6e77661e4"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac75ed1b389ee2b39a774fed6e77661e4">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#aeeb06be560af91cb9e45707c1fed65fc">ProcessType</a> processType)</td></tr>
-<tr class="memdesc:ac75ed1b389ee2b39a774fed6e77661e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print process type to output stream.  <br /></td></tr>
+<tr class="memitem:a1f62eb62dcbb257a7686654157fbf31d" id="r_a1f62eb62dcbb257a7686654157fbf31d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f62eb62dcbb257a7686654157fbf31d">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a> processType)</td></tr>
+<tr class="memdesc:a1f62eb62dcbb257a7686654157fbf31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print generation process type to output stream.  <br /></td></tr>
 <tr class="memitem:ab0d2fc01e4a6c6c4d950389e57655627" id="r_ab0d2fc01e4a6c6c4d950389e57655627"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d2fc01e4a6c6c4d950389e57655627">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#ab7375a70d516f1fdd121aeb857784d8b">SimulationOutcome</a> outcome)</td></tr>
 <tr class="memdesc:ab0d2fc01e4a6c6c4d950389e57655627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print simulation outcome to output stream.  <br /></td></tr>
 </table>
@@ -402,8 +402,8 @@ template&lt;typename generator_t&gt; </div>
 </div>
 </div>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="aeeb06be560af91cb9e45707c1fed65fc" name="aeeb06be560af91cb9e45707c1fed65fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeb06be560af91cb9e45707c1fed65fc">&#9670;&#160;</a></span>ProcessType</h2>
+<a id="ab82fe32106ca3290d89eceea261c2a05" name="ab82fe32106ca3290d89eceea261c2a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82fe32106ca3290d89eceea261c2a05">&#9670;&#160;</a></span>GenerationProcess</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +412,7 @@ template&lt;typename generator_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#aeeb06be560af91cb9e45707c1fed65fc">ActsFatras::ProcessType</a> : std::uint32_t</td>
+          <td class="memname">enum class <a class="el" href="#ab82fe32106ca3290d89eceea261c2a05">ActsFatras::GenerationProcess</a> : std::uint32_t</td>
         </tr>
       </table>
   </td>
@@ -422,7 +422,7 @@ template&lt;typename generator_t&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Process type identifier. </p>
+<p>Generation process type identifier. </p>
 <p>Encodes the type of process that generated a particle. </p>
 
 </div>
@@ -598,8 +598,8 @@ template&lt;typename signal_t, std::size_t kSize&gt; </div>
 
 </div>
 </div>
-<a id="ac75ed1b389ee2b39a774fed6e77661e4" name="ac75ed1b389ee2b39a774fed6e77661e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac75ed1b389ee2b39a774fed6e77661e4">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
+<a id="a1f62eb62dcbb257a7686654157fbf31d" name="a1f62eb62dcbb257a7686654157fbf31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f62eb62dcbb257a7686654157fbf31d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,16 +612,16 @@ template&lt;typename signal_t, std::size_t kSize&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aeeb06be560af91cb9e45707c1fed65fc">ProcessType</a></td>          <td class="paramname"><span class="paramname"><em>processType</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a></td>          <td class="paramname"><span class="paramname"><em>processType</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Print process type to output stream. </p>
+<p>Print generation process type to output stream. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">os</td><td>Output stream </td></tr>
-    <tr><td class="paramname">processType</td><td>Process type to print </td></tr>
+    <tr><td class="paramname">processType</td><td>Generation process type to print </td></tr>
   </table>
   </dd>
 </dl>
