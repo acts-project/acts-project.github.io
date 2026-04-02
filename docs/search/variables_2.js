@@ -23,7 +23,7 @@ var searchData=
   ['centralvolumes_20',['centralVolumes',['../struct_acts_plugins_1_1_d_d4hep_volume_builder_1_1_config.html#ae61f7be51b63dcd2c7f94b82dffad2f8',1,'ActsPlugins::DD4hepVolumeBuilder::Config']]],
   ['channels_21',['channels',['../struct_acts_fatras_1_1_cluster.html#a13f5468a84e5153c08fe5e887e033e18',1,'ActsFatras::Cluster']]],
   ['charge_22',['charge',['../struct_acts_1_1_particle_data.html#a52302036fe8ebf75a9a540b5710f1233',1,'Acts::ParticleData']]],
-  ['charged_23',['charged',['../struct_acts_fatras_1_1_simulation.html#a670afe39882806c3f6b24c784bd7a80d',1,'ActsFatras::Simulation']]],
+  ['charged_23',['charged',['../struct_acts_fatras_1_1_multi_particle_simulation.html#a928d46ea95905d13e50dd7477f767a65',1,'ActsFatras::MultiParticleSimulation']]],
   ['checkringlayout_24',['checkRingLayout',['../struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a6116949e82f6f99fe9949684e7fcfcea',1,'Acts::CylinderVolumeBuilder::Config']]],
   ['chi2_25',['chi2',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad206fd302688c67ca5e15d7f6f4ba47e',1,'Acts::Experimental::CompositeSpacePointLineFitter::FitParameters']]],
   ['chi2cutoff_26',['chi2CutOff',['../struct_acts_1_1_measurement_selector_cuts.html#a66e47c626973bf8183ab3ac6ea853032',1,'Acts::MeasurementSelectorCuts']]],

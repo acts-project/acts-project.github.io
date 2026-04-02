@@ -40,7 +40,7 @@ var searchData=
   ['geant4volumeconverter_37',['Geant4VolumeConverter',['../struct_acts_plugins_1_1_geant4_volume_converter.html',1,'ActsPlugins']]],
   ['geantino_38',['geantino',['../class_acts_1_1_particle_hypothesis.html#a4885b8adbb836d4e2d2fa6fe81d47e8b',1,'Acts::ParticleHypothesis']]],
   ['generalmixturescattering_39',['GeneralMixtureScattering',['../namespace_acts_fatras.html#afc5656fd5d938a49295726f9519cef7d',1,'ActsFatras']]],
-  ['generatedparticles_40',['generatedParticles',['../struct_acts_fatras_1_1_simulation_result.html#ad907e1117019936badb78325d0136a85',1,'ActsFatras::SimulationResult']]],
+  ['generatedparticles_40',['generatedParticles',['../struct_acts_fatras_1_1_single_particle_simulation_result.html#a8192f12f171ce615db929fa57f24fbe5',1,'ActsFatras::SingleParticleSimulationResult']]],
   ['generatepath_41',['generatePath',['../class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#ab267369a2136a6b419808311c1c38314',1,'Acts::Experimental::MultiLayerNavigationPolicy']]],
   ['generatepathlimits_42',['generatePathLimits',['../struct_acts_fatras_1_1_point_like_process.html#a09cda5240510675a745c70f541d65bcc',1,'ActsFatras::PointLikeProcess::generatePathLimits()'],['../class_acts_fatras_1_1_photon_conversion.html#aa8ff8801eb6259ca07883471066428fa',1,'ActsFatras::PhotonConversion::generatePathLimits()']]],
   ['generatephiindexing_43',['generatePhiIndexing',['../struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#a7ef25d83485737bd9ff7580c61c39c3c',1,'Acts::Experimental::GbtsEtaBin::generatePhiIndexing()'],['../class_acts_1_1_experimental_1_1_gbts_node_storage.html#a6095a5005bc58bf43333a9f202090a9f',1,'Acts::Experimental::GbtsNodeStorage::generatePhiIndexing()']]],

@@ -128,7 +128,7 @@ var NAVTREEINDEX =
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a406efb625298a440a76d94d1a8349d43",
 "struct_acts_1_1_vertexing_options.html#ae1f12978b6dd84d3c2169ef4e39d409a",
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9",
-"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f",
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html",
 "struct_acts_plugins_1_1_gnn_timing.html#a3de440d1e92e37fcba509043e648a56c"
 ];
 

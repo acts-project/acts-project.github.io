@@ -82,7 +82,7 @@ var searchData=
   ['neighbour_79',['Neighbour',['../struct_acts_1_1_neighbour.html',1,'Acts::Neighbour&lt; grid_t &gt;'],['../struct_acts_1_1_neighbour.html#a34620630dde72ab1e06217292f61543a',1,'Acts::Neighbour::Neighbour()=delete'],['../struct_acts_1_1_neighbour.html#a02ba66ece73e7951e4dd6475b10ab034',1,'Acts::Neighbour::Neighbour(const grid_t &amp;grid, std::size_t idx, const float lowerBound)']]],
   ['netabins_80',['nEtaBins',['../struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a653205f1ee47d48d6140f615632336f1',1,'Acts::TrackSelector::EtaBinnedConfig']]],
   ['networkbatchinput_81',['NetworkBatchInput',['../group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa',1,'ActsPlugins']]],
-  ['neutral_82',['neutral',['../struct_acts_fatras_1_1_simulation.html#a4a30561e39ac229892263092ed89d2a5',1,'ActsFatras::Simulation']]],
+  ['neutral_82',['neutral',['../struct_acts_fatras_1_1_multi_particle_simulation.html#aee855fe723d1beeabba525b8edd03ac9',1,'ActsFatras::MultiParticleSimulation']]],
   ['neutralselector_83',['NeutralSelector',['../struct_acts_fatras_1_1_neutral_selector.html',1,'ActsFatras']]],
   ['newfield_84',['newfield',['../struct_acts_1_1_atlas_stepper_1_1_state.html#ad858449be3e43a107e288615aab73679',1,'Acts::AtlasStepper::State']]],
   ['next_85',['next',['../struct_acts_1_1_experimental_1_1_gbts_edge.html#afa748621b429dc716c6f798cecf70f18',1,'Acts::Experimental::GbtsEdge::next'],['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html#a5d302c140f7f1ae4351ff4b0a4e0e07a',1,'ActsPlugins::FpeMonitor::Buffer::next()']]],

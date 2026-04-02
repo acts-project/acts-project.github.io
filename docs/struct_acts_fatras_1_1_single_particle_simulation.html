@@ -129,7 +129,7 @@ $(function(){initNavTree('struct_acts_fatras_1_1_single_particle_simulation.html
 <p>Single particle simulation with fixed propagator, interactions, and decay.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_simulation_8hpp_source.html">ActsFatras/Kernel/Simulation.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_single_particle_simulation_8hpp_source.html">ActsFatras/Kernel/SingleParticleSimulation.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ActsFatras::SingleParticleSimulation&lt; propagator_t, interactions_t, hit_surface_selector_t, decay_t &gt;:</div>
 <div class="dyncontent">
@@ -140,9 +140,9 @@ Collaboration diagram for ActsFatras::SingleParticleSimulation&lt; propagator_t,
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a37aab61c170ebdb773968d30548f0f97" id="r_a37aab61c170ebdb773968d30548f0f97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37aab61c170ebdb773968d30548f0f97">SingleParticleSimulation</a> (propagator_t &amp;&amp;propagator_, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; _logger)</td></tr>
 <tr class="memdesc:a37aab61c170ebdb773968d30548f0f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alternatively construct the simulator with an external logger.  <br /></td></tr>
-<tr class="memitem:a9af98b4ed8509d0dc4c1de345f9102c2" id="r_a9af98b4ed8509d0dc4c1de345f9102c2"><td class="memTemplParams" colspan="2">template&lt;typename generator_t&gt; </td></tr>
-<tr class="memitem:a9af98b4ed8509d0dc4c1de345f9102c2 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="struct_acts_fatras_1_1_simulation_result.html">SimulationResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af98b4ed8509d0dc4c1de345f9102c2">simulate</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;geoCtx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;magCtx, generator_t &amp;generator, const <a class="el" href="class_acts_fatras_1_1_particle.html">Particle</a> &amp;particle) const</td></tr>
-<tr class="memdesc:a9af98b4ed8509d0dc4c1de345f9102c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulate a single particle without secondaries.  <br /></td></tr>
+<tr class="memitem:a0f13b998682de4c9f8f54163588e9b38" id="r_a0f13b998682de4c9f8f54163588e9b38"><td class="memTemplParams" colspan="2">template&lt;typename generator_t&gt; </td></tr>
+<tr class="memitem:a0f13b998682de4c9f8f54163588e9b38 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="struct_acts_fatras_1_1_single_particle_simulation_result.html">SingleParticleSimulationResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f13b998682de4c9f8f54163588e9b38">simulate</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;geoCtx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;magCtx, generator_t &amp;generator, const <a class="el" href="class_acts_fatras_1_1_particle.html">Particle</a> &amp;particle) const</td></tr>
+<tr class="memdesc:a0f13b998682de4c9f8f54163588e9b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulate a single particle without secondaries.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -214,8 +214,8 @@ template&lt;typename propagator_t, typename interactions_t, typename hit_surface
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a9af98b4ed8509d0dc4c1de345f9102c2" name="a9af98b4ed8509d0dc4c1de345f9102c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9af98b4ed8509d0dc4c1de345f9102c2">&#9670;&#160;</a></span>simulate()</h2>
+<a id="a0f13b998682de4c9f8f54163588e9b38" name="a0f13b998682de4c9f8f54163588e9b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f13b998682de4c9f8f54163588e9b38">&#9670;&#160;</a></span>simulate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,7 +225,7 @@ template&lt;typename propagator_t, typename interactions_t, typename hit_surface
 template&lt;typename generator_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="struct_acts_fatras_1_1_simulation_result.html">SimulationResult</a> &gt; <a class="el" href="struct_acts_fatras_1_1_single_particle_simulation.html">ActsFatras::SingleParticleSimulation</a>&lt; propagator_t, interactions_t, hit_surface_selector_t, decay_t &gt;::simulate </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; <a class="el" href="struct_acts_fatras_1_1_single_particle_simulation_result.html">SingleParticleSimulationResult</a> &gt; <a class="el" href="struct_acts_fatras_1_1_single_particle_simulation.html">ActsFatras::SingleParticleSimulation</a>&lt; propagator_t, interactions_t, hit_surface_selector_t, decay_t &gt;::simulate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>geoCtx</em></span>, </td>
         </tr>

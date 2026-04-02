@@ -628,6 +628,7 @@ var annotated_dup =
       [ "LandauDistribution", "class_acts_fatras_1_1_landau_distribution.html", "class_acts_fatras_1_1_landau_distribution" ],
       [ "Max", "struct_acts_fatras_1_1_max.html", "struct_acts_fatras_1_1_max" ],
       [ "Min", "struct_acts_fatras_1_1_min.html", "struct_acts_fatras_1_1_min" ],
+      [ "MultiParticleSimulation", "struct_acts_fatras_1_1_multi_particle_simulation.html", "struct_acts_fatras_1_1_multi_particle_simulation" ],
       [ "NegativeSelector", "struct_acts_fatras_1_1_negative_selector.html", "struct_acts_fatras_1_1_negative_selector" ],
       [ "NeutralSelector", "struct_acts_fatras_1_1_neutral_selector.html", "struct_acts_fatras_1_1_neutral_selector" ],
       [ "NoDecay", "struct_acts_fatras_1_1_no_decay.html", "struct_acts_fatras_1_1_no_decay" ],
@@ -642,9 +643,8 @@ var annotated_dup =
       [ "PositiveSelector", "struct_acts_fatras_1_1_positive_selector.html", "struct_acts_fatras_1_1_positive_selector" ],
       [ "Range", "struct_acts_fatras_1_1_range.html", "struct_acts_fatras_1_1_range" ],
       [ "Segmentizer", "struct_acts_fatras_1_1_segmentizer.html", "struct_acts_fatras_1_1_segmentizer" ],
-      [ "Simulation", "struct_acts_fatras_1_1_simulation.html", "struct_acts_fatras_1_1_simulation" ],
-      [ "SimulationResult", "struct_acts_fatras_1_1_simulation_result.html", "struct_acts_fatras_1_1_simulation_result" ],
-      [ "SingleParticleSimulation", "struct_acts_fatras_1_1_single_particle_simulation.html", "struct_acts_fatras_1_1_single_particle_simulation" ]
+      [ "SingleParticleSimulation", "struct_acts_fatras_1_1_single_particle_simulation.html", "struct_acts_fatras_1_1_single_particle_simulation" ],
+      [ "SingleParticleSimulationResult", "struct_acts_fatras_1_1_single_particle_simulation_result.html", "struct_acts_fatras_1_1_single_particle_simulation_result" ]
     ] ],
     [ "ActsPlugins", "namespace_acts_plugins.html", [
       [ "DetrayConversionUtils", null, [
