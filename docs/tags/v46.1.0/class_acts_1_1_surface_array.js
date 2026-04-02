@@ -1,0 +1,28 @@
+var class_acts_1_1_surface_array =
+[
+    [ "ISurfaceGridLookup", "struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup.html", "struct_acts_1_1_surface_array_1_1_i_surface_grid_lookup" ],
+    [ "SingleElementLookup", "struct_acts_1_1_surface_array_1_1_single_element_lookup.html", "struct_acts_1_1_surface_array_1_1_single_element_lookup" ],
+    [ "SurfaceGridLookup", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html", "struct_acts_1_1_surface_array_1_1_surface_grid_lookup" ],
+    [ "SurfaceArray", "class_acts_1_1_surface_array.html#abf49849ce0fa99750672452885f406bf", null ],
+    [ "SurfaceArray", "class_acts_1_1_surface_array.html#a769a532fbe2b2ec5dc6446a3109d8337", null ],
+    [ "SurfaceArray", "class_acts_1_1_surface_array.html#a01325a014805eae0157875d7d5a2b5a4", null ],
+    [ "at", "class_acts_1_1_surface_array.html#a13c027205cb5f2390beb094fda36b9de", null ],
+    [ "at", "class_acts_1_1_surface_array.html#a29386f7e64cd7fe87b3fef2ada84ec53", null ],
+    [ "at", "class_acts_1_1_surface_array.html#a338a84dc50692713323beec77827ab33", null ],
+    [ "at", "class_acts_1_1_surface_array.html#ae30777ddad3fbc8850ab30021cd680be", null ],
+    [ "at", "class_acts_1_1_surface_array.html#afc318f59dc2196210c240f994105cf1f", null ],
+    [ "binningValues", "class_acts_1_1_surface_array.html#afc402251abb0169c97a4d314ab3b6928", null ],
+    [ "getAxes", "class_acts_1_1_surface_array.html#a8fd04eef86d7a240557b79cb45c9afee", null ],
+    [ "getBinCenter", "class_acts_1_1_surface_array.html#a14bbc0bee0718ccc3216e762e23db29c", null ],
+    [ "gridLookup", "class_acts_1_1_surface_array.html#a3443b173636af9733ff301026b522e4d", null ],
+    [ "isValidBin", "class_acts_1_1_surface_array.html#a18e0d4c969689f57afb1261cfa010f16", null ],
+    [ "maxNeighborDistance", "class_acts_1_1_surface_array.html#aa37d9e65ef078b639e52aa15f2367243", null ],
+    [ "neighbors", "class_acts_1_1_surface_array.html#a10ab400a529beba98a1e2a3649df76c7", null ],
+    [ "neighbors", "class_acts_1_1_surface_array.html#a90f4058d1b3e186f448458414cf180ad", null ],
+    [ "numLocalBins", "class_acts_1_1_surface_array.html#ae412f914bad4eb622773d4ff5fbe9d87", null ],
+    [ "size", "class_acts_1_1_surface_array.html#a5c07c529e847512ccd3d1dd309bd8e74", null ],
+    [ "surfaceRepresentation", "class_acts_1_1_surface_array.html#a420087e5c803b129965a63fd2977d7af", null ],
+    [ "surfaces", "class_acts_1_1_surface_array.html#a62f296f6caab4e8ed27437fa7724838d", null ],
+    [ "toStream", "class_acts_1_1_surface_array.html#ac9c0f543e3692fc23df5917db434e141", null ],
+    [ "transform", "class_acts_1_1_surface_array.html#a01383e9a6f85cfe776dd2db7cc3b8646", null ]
+];
