@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_direct_navigator_1_1_options.html#ab43009a909b9355230f3f3d7366b04e4":[5,0,0,108,1,0],
+"struct_acts_1_1_direct_navigator_1_1_options.html#ab43009a909b9355230f3f3d7366b04e4":[7,0,0,116,1,0],
 "struct_acts_1_1_direct_navigator_1_1_options.html#aba3ca63bfa0bd786c0f1494a7090daef":[5,0,0,108,1,2],
 "struct_acts_1_1_direct_navigator_1_1_options.html#aba3ca63bfa0bd786c0f1494a7090daef":[7,0,0,116,1,2],
 "struct_acts_1_1_direct_navigator_1_1_options.html#af63fcedc992d41d2720ebf7d54bcdb7b":[5,0,0,108,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a75dab148a95b3a3b40321b0d28950176":[5,0,0,1,3,0,10],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a75dab148a95b3a3b40321b0d28950176":[7,0,0,2,3,0,10],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a805c6323ee55c50aa447692f16bfc645":[5,0,0,1,3,0,11],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a805c6323ee55c50aa447692f16bfc645":[7,0,0,2,3,0,11],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a88a2501162df8548686c333fe35a8e3a":[5,0,0,1,3,0,14],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a88a2501162df8548686c333fe35a8e3a":[7,0,0,2,3,0,14]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a805c6323ee55c50aa447692f16bfc645":[7,0,0,2,3,0,11]
 };

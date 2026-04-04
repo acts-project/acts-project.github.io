@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"namespace_acts.html#a9259c24825f667858a4397ffce0e6797":[5,0,0,572],
+"namespace_acts.html#a93bb8b389c354d08309d3be40eb00b68":[5,0,0,493],
 "namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7":[5,0,0,677],
 "namespace_acts.html#a940f149b53e1e3b9e3c4302f082e0fe9":[5,0,0,644],
 "namespace_acts.html#a9449d6ac28ec406ddfcf71fd50003e59":[5,0,0,533],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "namespace_acts_1_1_grid_axis_generators.html#af9232fbf8df5b6ccdb085d1e11353959":[5,0,0,2,7],
 "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html":[5,0,0,3,0],
 "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html#a243b68b12e2f8e5cd1b6175f0d7f4712":[5,0,0,3,0,5],
-"namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html#a96a06681f21418ba3cfd2f13a252a9f8":[5,0,0,3,0,6],
-"namespace_acts_1_1_multi_trajectory_traits.html":[5,0,0,4],
-"namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c":[5,0,0,4,1]
+"namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html#a96a06681f21418ba3cfd2f13a252a9f8":[5,0,0,3,0,6]
 };

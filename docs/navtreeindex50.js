@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#aae5250d2a8772a2cf2f4a37bb2a8b415":[4,12,8,1],
+"struct_acts_1_1_experimental_1_1_scattering_properties.html#ae2e40bad69374ec2a4d993e6a959c4c2":[4,12,8,2],
 "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html":[5,0,0,1,38,0],
 "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html":[7,0,0,2,38,0],
 "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html#a069a7c77655411732b69af6867b8ae18":[5,0,0,1,38,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[5,0,0,155,1,3],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[7,0,0,163,1,3],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[5,0,0,155,1,4],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[7,0,0,163,1,4],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[5,0,0,155,1,0],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[7,0,0,163,1,0]
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[7,0,0,163,1,4]
 };

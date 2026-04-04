@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_hough_vertex_finder2_1_1_config.html#ade5dd2ed1b9f2cceca7b6943677c5c44":[7,0,0,180,0,10],
+"struct_acts_1_1_hough_vertex_finder2_1_1_config.html#af8f1a0446a2e7fc138b1447d1949d1d2":[5,0,0,172,0,12],
 "struct_acts_1_1_hough_vertex_finder2_1_1_config.html#af8f1a0446a2e7fc138b1447d1949d1d2":[7,0,0,180,0,12],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html":[5,0,0,171,0],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html":[7,0,0,179,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html#abe4dcb8991eae56af183590cb1834c89":[7,0,0,222,1,2],
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html#accc21202a4ef0bc65bad1c4ff58b7385":[5,0,0,214,1,3],
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html#accc21202a4ef0bc65bad1c4ff58b7385":[7,0,0,222,1,3],
-"struct_acts_1_1_json_surfaces_reader_1_1_options.html":[7,0,0,8,0],
-"struct_acts_1_1_json_surfaces_reader_1_1_options.html#a57e0b29472eaed7612f4c352b68d3eea":[7,0,0,8,0,1],
-"struct_acts_1_1_json_surfaces_reader_1_1_options.html#a8037eec28ccc78bce7a51eb7c06a215e":[7,0,0,8,0,0]
+"struct_acts_1_1_json_surfaces_reader_1_1_options.html":[7,0,0,8,0]
 };

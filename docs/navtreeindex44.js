@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"namespace_acts_1_1_multi_trajectory_traits.html":[5,0,0,4],
+"namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c":[5,0,0,4,1],
 "namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23":[5,0,0,4,2],
 "namespace_acts_1_1_multi_trajectory_traits.html#ab10f01c2759ff4e801d804fdf1a91199":[5,0,0,4,0],
 "namespace_acts_1_1_particle_id_helper.html":[5,0,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a6829855a08dc2750db944131db7ec59a":[7,0,0,26,0,2],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a839c078b8dc508206a3830902fb074d7":[5,0,0,18,0,5],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a839c078b8dc508206a3830902fb074d7":[7,0,0,26,0,5],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a86b20165df1705891dca7fa816aea580":[5,0,0,18,0,8],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a86b20165df1705891dca7fa816aea580":[7,0,0,26,0,8],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850":[5,0,0,18,0,3]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a86b20165df1705891dca7fa816aea580":[5,0,0,18,0,8]
 };
