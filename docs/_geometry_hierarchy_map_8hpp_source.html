@@ -323,8 +323,8 @@ $(function(){initNavTree('_geometry_hierarchy_map_8hpp_source.html','',''); });
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  <span class="comment">// might be stored at a higher level. ids for higher levels would always</span></div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>  <span class="comment">// be sorted before the requested id. searching for the first element</span></div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>  <span class="comment">// after the requested ensures that we include the full hierarchy.</span></div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <span class="keyword">const</span> <span class="keyword">auto</span> it = std::upper_bound(m_ids.begin(), m_ids.end(), <span class="keywordtype">id</span>.value());</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  <span class="keyword">auto</span> i = std::distance(m_ids.begin(), it);</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <span class="keyword">const</span> <span class="keyword">auto</span> it = std::ranges::upper_bound(m_ids, <span class="keywordtype">id</span>.value());</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  <span class="keyword">auto</span> i = std::ranges::distance(m_ids.begin(), it);</div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>  <span class="comment">// now go up the hierarchy to find the first matching element.</span></div>
 <div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>  <span class="comment">// example: the container stores four identifiers</span></div>

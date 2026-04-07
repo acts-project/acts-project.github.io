@@ -565,9 +565,9 @@ $(function(){initNavTree('_axis_8hpp_source.html','',''); });
 <div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span></div>
 <div class="foldopen" id="foldopen00653" data-start="{" data-end="}">
 <div class="line"><a id="l00653" name="l00653"></a><span class="lineno"><a class="line" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a024d7171d38884c7573cb5188160b4e7">  653</a></span>  std::size_t <a class="code hl_function" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a024d7171d38884c7573cb5188160b4e7">getBin</a>(<span class="keywordtype">double</span> x) <span class="keyword">const</span> <span class="keyword">final</span> {</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    <span class="keyword">const</span> <span class="keyword">auto</span> it =</div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>        std::upper_bound(std::begin(m_binEdges), std::end(m_binEdges), x);</div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a9d9fa0d15ea8896d42a3c07f0a47057b">wrapBin</a>(std::distance(std::begin(m_binEdges), it));</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    <span class="keyword">const</span> <span class="keyword">auto</span> it = std::ranges::upper_bound(m_binEdges, x);</div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a9d9fa0d15ea8896d42a3c07f0a47057b">wrapBin</a>(</div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>        <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(std::ranges::distance(m_binEdges.begin(), it)));</div>
 <div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>  }</div>
 </div>
 <div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span></div>
