@@ -159,7 +159,7 @@ $(function(){initNavTree('_table_8hpp_source.html','',''); });
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">if</span> (!m_rows.empty()) {</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Cannot add columns after rows have been added&quot;</span>);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    m_columns.push_back({header, format, alignment, header.length()});</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    m_columns.emplace_back(header, format, alignment, header.length());</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  }</div>
 </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
@@ -192,7 +192,7 @@ $(function(){initNavTree('_table_8hpp_source.html','',''); });
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">auto</span> addCell = [&amp;](<span class="keyword">auto</span>&amp;&amp; arg) {</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>      std::string formatted =</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>          std::vformat(m_columns[colIndex].format, std::make_format_args(arg));</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>      row.push_back(formatted);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>      row.emplace_back(formatted);</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>      m_columns[colIndex].width =</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>          std::max(m_columns[colIndex].width, formatted.length());</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>      ++colIndex;</div>
@@ -200,7 +200,7 @@ $(function(){initNavTree('_table_8hpp_source.html','',''); });
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    (addCell(args), ...);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    m_rows.push_back(std::move(row));</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    m_rows.emplace_back(std::move(row));</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  }</div>
 </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
