@@ -148,6 +148,12 @@ Classes</h2></td></tr>
 <tr class="memitem:Acts_3A_3AMaterialMapJsonConverter" id="r_Acts_3A_3AMaterialMapJsonConverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_material_map_json_converter.html">Acts::MaterialMapJsonConverter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the material from Json  <a href="class_acts_1_1_material_map_json_converter.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3Amissing_5Fspecialization_3C_20T_2C_20decorator_5Ft_20_3E" id="r_Acts_3A_3Amissing_5Fspecialization_3C_20T_2C_20decorator_5Ft_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1missing__specialization.html">Acts::missing_specialization&lt; T, decorator_t &gt;</a></td></tr>
+<tr class="memitem:Acts_3A_3ASurfaceJsonConverter" id="r_Acts_3A_3ASurfaceJsonConverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_surface_json_converter.html">Acts::SurfaceJsonConverter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static class performing JSON conversion of the surfaces.  <a href="class_acts_1_1_surface_json_converter.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Acts_3A_3ASurfaceJsonConverter_3A_3AConfig" id="r_Acts_3A_3ASurfaceJsonConverter_3A_3AConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Acts::SurfaceJsonConverter::Config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration struct.  <a href="struct_acts_1_1_surface_json_converter_1_1_config.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Acts_3A_3ASurfaceJsonConverter_3A_3AOptions" id="r_Acts_3A_3ASurfaceJsonConverter_3A_3AOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Acts::SurfaceJsonConverter::Options</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for surface conversion.  <a href="struct_acts_1_1_surface_json_converter_1_1_options.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -155,8 +161,16 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:gad038e458629a5cedf1f825940ffc5f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a pair of detector configuration and ambiguity resolution configuration.  <br /></td></tr>
 <tr class="memitem:ga9d088dc485a7212cbc281898214d46a1" id="r_ga9d088dc485a7212cbc281898214d46a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d088dc485a7212cbc281898214d46a1">Acts::DetectorConfig</a> = <a class="el" href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html">ScoreBasedAmbiguityResolution::DetectorConfig</a></td></tr>
 <tr class="memdesc:ga9d088dc485a7212cbc281898214d46a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for detector-specific ambiguity resolution configuration.  <br /></td></tr>
-<tr class="memitem:gab39fab40696fab1b03cca78f951db023" id="r_gab39fab40696fab1b03cca78f951db023"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab39fab40696fab1b03cca78f951db023">Acts::SurfaceAndMaterialWithContext</a></td></tr>
-<tr class="memdesc:gab39fab40696fab1b03cca78f951db023"><td class="mdescLeft">&#160;</td><td class="mdescRight">A tuple containing a surface, its associated material, and geometry context.  <br /></td></tr>
+<tr class="memitem:ga08ffc1302637825fe32c6fce92019774" id="r_ga08ffc1302637825fe32c6fce92019774"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08ffc1302637825fe32c6fce92019774">Acts::SurfaceAndMaterialWithContext</a></td></tr>
+<tr class="memdesc:ga08ffc1302637825fe32c6fce92019774"><td class="mdescLeft">&#160;</td><td class="mdescRight">A tuple containing a surface, its associated material, and geometry context.  <br /></td></tr>
+<tr class="memitem:ga5f9f033a309a8090b64293b8e90a641c" id="r_ga5f9f033a309a8090b64293b8e90a641c"><td class="memItemLeft" align="right" valign="top"><a id="ga5f9f033a309a8090b64293b8e90a641c" name="ga5f9f033a309a8090b64293b8e90a641c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::SurfaceBoundsEncoder</b> = <a class="el" href="class_acts_1_1_type_dispatcher.html">TypeDispatcher</a>&lt;<a class="el" href="class_acts_1_1_surface_bounds.html">SurfaceBounds</a>, nlohmann::json()&gt;</td></tr>
+<tr class="memdesc:ga5f9f033a309a8090b64293b8e90a641c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder type for the surface bounds. <br /></td></tr>
+<tr class="memitem:ga6bc8441f06dad369e7c8117e0f16f6be" id="r_ga6bc8441f06dad369e7c8117e0f16f6be"><td class="memItemLeft" align="right" valign="top"><a id="ga6bc8441f06dad369e7c8117e0f16f6be" name="ga6bc8441f06dad369e7c8117e0f16f6be"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::SurfaceDecoder</b> = <a class="el" href="class_acts_1_1_json_kind_dispatcher.html">JsonKindDispatcher</a>&lt;std::shared_ptr&lt;<a class="el" href="class_acts_1_1_surface.html">Surface</a>&gt;&gt;</td></tr>
+<tr class="memdesc:ga6bc8441f06dad369e7c8117e0f16f6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deccoder type for the surfaces. <br /></td></tr>
+<tr class="memitem:ga0c550632e11629de583bdc72e19175db" id="r_ga0c550632e11629de583bdc72e19175db"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c550632e11629de583bdc72e19175db">Acts::SurfaceJsonConverter::SurfaceEncoder</a></td></tr>
+<tr class="memdesc:ga0c550632e11629de583bdc72e19175db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder type for the surfaces.  <br /></td></tr>
 <tr class="memitem:ga76d1cebc6f43c76e5aaa8ef77d474064" id="r_ga76d1cebc6f43c76e5aaa8ef77d474064"><td class="memItemLeft" align="right" valign="top"><a id="ga76d1cebc6f43c76e5aaa8ef77d474064" name="ga76d1cebc6f43c76e5aaa8ef77d474064"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::surfaceMaterialPointer</b> = const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a>*</td></tr>
 <tr class="memdesc:ga76d1cebc6f43c76e5aaa8ef77d474064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to a constant surface material object. <br /></td></tr>
@@ -168,6 +182,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::volumeMaterial
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gac0f17d4a2e14c9336b39f4e70381d95f" id="r_gac0f17d4a2e14c9336b39f4e70381d95f"><td class="memItemLeft" align="right" valign="top"><a id="gac0f17d4a2e14c9336b39f4e70381d95f" name="gac0f17d4a2e14c9336b39f4e70381d95f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::SurfaceJsonConverter</b> ()=delete</td></tr>
+<tr class="memdesc:gac0f17d4a2e14c9336b39f4e70381d95f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the default constructor as the class is purely static (for now). <br /></td></tr>
 <tr class="memitem:ga88f081a4e44f75a16a48334e8d8bc8d0" id="r_ga88f081a4e44f75a16a48334e8d8bc8d0"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88f081a4e44f75a16a48334e8d8bc8d0">Acts::DetrayJsonHelper::accelerationLink</a> (std::span&lt; const <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; casts)</td></tr>
 <tr class="memdesc:ga88f081a4e44f75a16a48334e8d8bc8d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the acceleration link from a grid.  <br /></td></tr>
 <tr class="memitem:ga315122d1d994e640dbc7e6a05b79f5b2" id="r_ga315122d1d994e640dbc7e6a05b79f5b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga315122d1d994e640dbc7e6a05b79f5b2">Acts::DetrayJsonHelper::addVolumeLink</a> (nlohmann::json &amp;jSurface, int vLink)</td></tr>
@@ -178,6 +195,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf82572e503169d94a3cbe03a3a0af6cf" id="r_gaf82572e503169d94a3cbe03a3a0af6cf"><td class="memTemplParams" colspan="2">template&lt;class T, class decorator_t&gt; </td></tr>
 <tr class="memitem:gaf82572e503169d94a3cbe03a3a0af6cf template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf82572e503169d94a3cbe03a3a0af6cf">Acts::decorateJson</a> (const decorator_t *decorator, const T *src, nlohmann::json &amp;dest)</td></tr>
 <tr class="memdesc:gaf82572e503169d94a3cbe03a3a0af6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate JSON with additional information from the decorator (pointer version).  <br /></td></tr>
+<tr class="memitem:gae08b94ce511c98dcc5d34694c2d9cb89" id="r_gae08b94ce511c98dcc5d34694c2d9cb89"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae08b94ce511c98dcc5d34694c2d9cb89">Acts::SurfaceJsonConverter::Config::defaultConfig</a> ()</td></tr>
+<tr class="memdesc:gae08b94ce511c98dcc5d34694c2d9cb89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default configuration construction.  <br /></td></tr>
 <tr class="memitem:ga6aaf7d1fd1b61101aeb7f6e35e642781" id="r_ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aaf7d1fd1b61101aeb7f6e35e642781">Acts::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
 <tr class="memdesc:ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to BinningData.  <br /></td></tr>
 <tr class="memitem:ga6aa02daa239b9da9ab61a7d5a330bfc1" id="r_ga6aa02daa239b9da9ab61a7d5a330bfc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aa02daa239b9da9ab61a7d5a330bfc1">Acts::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu)</td></tr>
@@ -211,16 +230,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga4ec453becca4f99dad7cd102ed1599a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a Json object into a geometry hierarchy map.  <br /></td></tr>
 <tr class="memitem:ga7db1175609439b8069b2d0b090773503" id="r_ga7db1175609439b8069b2d0b090773503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a> (const nlohmann::json &amp;j)</td></tr>
 <tr class="memdesc:ga7db1175609439b8069b2d0b090773503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ProtoAxis from a json object.  <br /></td></tr>
+<tr class="memitem:ga0c4c37f9c2d147c464be0b11b6662e44" id="r_ga0c4c37f9c2d147c464be0b11b6662e44"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c4c37f9c2d147c464be0b11b6662e44">Acts::SurfaceJsonConverter::fromJson</a> (const nlohmann::json &amp;jSurface)</td></tr>
+<tr class="memdesc:ga0c4c37f9c2d147c464be0b11b6662e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Surface converter from json.  <br /></td></tr>
 <tr class="memitem:ga3503d63a02e59fae80cb71d77642bfaf" id="r_ga3503d63a02e59fae80cb71d77642bfaf"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; unsigned int, std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3503d63a02e59fae80cb71d77642bfaf">Acts::DetrayJsonHelper::maskFromBounds</a> (const <a class="el" href="class_acts_1_1_surface_bounds.html">Acts::SurfaceBounds</a> &amp;sBounds, bool portal=false)</td></tr>
 <tr class="memdesc:ga3503d63a02e59fae80cb71d77642bfaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to switch keys from ACTS to detray.  <br /></td></tr>
 <tr class="memitem:gac8895b284676062f1c0bf5f6466a507d" id="r_gac8895b284676062f1c0bf5f6466a507d"><td class="memItemLeft" align="right" valign="top"><a id="gac8895b284676062f1c0bf5f6466a507d" name="gac8895b284676062f1c0bf5f6466a507d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Acts::NLOHMANN_JSON_SERIALIZE_ENUM</b> (<a class="el" href="namespace_acts.html#acbcb835a6b809a5f8606de4b53455807">Acts::MappingType</a>, { {Acts::MappingType::PreMapping, &quot;PreMapping&quot;}, {Acts::MappingType::Default, &quot;Default&quot;}, {Acts::MappingType::PostMapping, &quot;PostMapping&quot;}, {Acts::MappingType::Sensor, &quot;Sensor&quot;}, }) namespace MaterialJsonConverter</td></tr>
 <tr class="memdesc:gac8895b284676062f1c0bf5f6466a507d"><td class="mdescLeft">&#160;</td><td class="mdescRight">JSON serialization mapping for MappingType enum. <br /></td></tr>
-<tr class="memitem:ga4ca3159a74a3264197f5b171cd3b7947" id="r_ga4ca3159a74a3264197f5b171cd3b7947"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ca3159a74a3264197f5b171cd3b7947">Acts::surfaceFromJson</a> (const nlohmann::json &amp;j)</td></tr>
-<tr class="memdesc:ga4ca3159a74a3264197f5b171cd3b7947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to Surface from jsonn.  <br /></td></tr>
-<tr class="memitem:ga9de363bbc466a833fcb345436142d784" id="r_ga9de363bbc466a833fcb345436142d784"><td class="memTemplParams" colspan="2">template&lt;typename surface_t, typename bounds_t&gt; </td></tr>
-<tr class="memitem:ga9de363bbc466a833fcb345436142d784 template"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; surface_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9de363bbc466a833fcb345436142d784">Acts::surfaceFromJsonT</a> (const nlohmann::json &amp;j)</td></tr>
-<tr class="memdesc:ga9de363bbc466a833fcb345436142d784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to Surface from json in correct type.  <br /></td></tr>
+<tr class="memitem:gab5b6563910c389e8e62e1f8811467c97" id="r_gab5b6563910c389e8e62e1f8811467c97"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5b6563910c389e8e62e1f8811467c97">Acts::SurfaceJsonConverter::setConfig</a> (const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Config</a> &amp;cfg)</td></tr>
+<tr class="memdesc:gab5b6563910c389e8e62e1f8811467c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set externally constructed configuration.  <br /></td></tr>
 <tr class="memitem:ga21008d4899b84f5e09b90b3414557299" id="r_ga21008d4899b84f5e09b90b3414557299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21008d4899b84f5e09b90b3414557299">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume)</td></tr>
 <tr class="memdesc:ga21008d4899b84f5e09b90b3414557299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert TrackingVolume to JSON.  <br /></td></tr>
 <tr class="memitem:ga0180294a7f0ba9cf68cfe12f157c86e5" id="r_ga0180294a7f0ba9cf68cfe12f157c86e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0180294a7f0ba9cf68cfe12f157c86e5">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
@@ -248,7 +266,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga240eac27cbc771b52c37d5d81c4f2f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert shared_ptr&lt;Surface&gt; to JSON.  <br /></td></tr>
 <tr class="memitem:ga0b5db5f2bb37675ffd77e0519bb0248c" id="r_ga0b5db5f2bb37675ffd77e0519bb0248c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b5db5f2bb37675ffd77e0519bb0248c">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:ga0b5db5f2bb37675ffd77e0519bb0248c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Surface to JSON.  <br /></td></tr>
-<tr class="memitem:ga597f24ebfad3f6ec84f18609ed46d977" id="r_ga597f24ebfad3f6ec84f18609ed46d977"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga597f24ebfad3f6ec84f18609ed46d977">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="#gab39fab40696fab1b03cca78f951db023">SurfaceAndMaterialWithContext</a> &amp;surface)</td></tr>
+<tr class="memitem:ga597f24ebfad3f6ec84f18609ed46d977" id="r_ga597f24ebfad3f6ec84f18609ed46d977"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga597f24ebfad3f6ec84f18609ed46d977">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="#ga08ffc1302637825fe32c6fce92019774">SurfaceAndMaterialWithContext</a> &amp;surface)</td></tr>
 <tr class="memdesc:ga597f24ebfad3f6ec84f18609ed46d977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert SurfaceAndMaterialWithContext to JSON.  <br /></td></tr>
 <tr class="memitem:gaddc4fb68110ec50ce4e8077164cdc3fe" id="r_gaddc4fb68110ec50ce4e8077164cdc3fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaddc4fb68110ec50ce4e8077164cdc3fe">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_surface_bounds.html">SurfaceBounds</a> &amp;bounds)</td></tr>
 <tr class="memdesc:gaddc4fb68110ec50ce4e8077164cdc3fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert SurfaceBounds to JSON.  <br /></td></tr>
@@ -264,8 +282,32 @@ Functions</h2></td></tr>
 <tr class="memdesc:gae3bc8c18a830cf3b08595eafc172e2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode the geometry hierarchy map into a Json object.  <br /></td></tr>
 <tr class="memitem:ga038acefb1a69555567e98c97b9830cf9" id="r_ga038acefb1a69555567e98c97b9830cf9"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;pa)</td></tr>
 <tr class="memdesc:ga038acefb1a69555567e98c97b9830cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the ProtoAxis to a json object.  <br /></td></tr>
+<tr class="memitem:ga277a256ce56e6426a468cfada6325112" id="r_ga277a256ce56e6426a468cfada6325112"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga277a256ce56e6426a468cfada6325112">Acts::SurfaceJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a>{ .transformOptions=<a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>{},.writeMaterial=true,.portal=false})</td></tr>
+<tr class="memdesc:ga277a256ce56e6426a468cfada6325112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface.  <br /></td></tr>
 <tr class="memitem:ga0d44dfc16a076ea3977b8d4632e0bd71" id="r_ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0d44dfc16a076ea3977b8d4632e0bd71">Acts::toJson</a> (nlohmann::json &amp;j, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &amp;surface, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx)</td></tr>
 <tr class="memdesc:ga0d44dfc16a076ea3977b8d4632e0bd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface.  <br /></td></tr>
+<tr class="memitem:ga72a6eff57592c82d128db5674ac69d29" id="r_ga72a6eff57592c82d128db5674ac69d29"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72a6eff57592c82d128db5674ac69d29">Acts::SurfaceJsonConverter::toJsonDetray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a>{ .transformOptions=<a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>{},.writeMaterial=true,.portal=false})</td></tr>
+<tr class="memdesc:ga72a6eff57592c82d128db5674ac69d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contextual conversion of a surface - Detray export.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga5bc6b21c50a50bccbf49a947f663e269" id="r_ga5bc6b21c50a50bccbf49a947f663e269"><td class="memItemLeft" align="right" valign="top"><a id="ga5bc6b21c50a50bccbf49a947f663e269" name="ga5bc6b21c50a50bccbf49a947f663e269"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Options::portal</b> = false</td></tr>
+<tr class="memdesc:ga5bc6b21c50a50bccbf49a947f663e269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write surface as portal. <br /></td></tr>
+<tr class="memitem:ga65b122cdc25531330743a0393d149a3d" id="r_ga65b122cdc25531330743a0393d149a3d"><td class="memItemLeft" align="right" valign="top"><a id="ga65b122cdc25531330743a0393d149a3d" name="ga65b122cdc25531330743a0393d149a3d"></a>
+<a class="el" href="#ga5f9f033a309a8090b64293b8e90a641c">SurfaceBoundsEncoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceBoundsEncoder</b> {}</td></tr>
+<tr class="memdesc:ga65b122cdc25531330743a0393d149a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder for the surface bounds. <br /></td></tr>
+<tr class="memitem:ga94937e94a6340d2b2a792fa418900e73" id="r_ga94937e94a6340d2b2a792fa418900e73"><td class="memItemLeft" align="right" valign="top"><a id="ga94937e94a6340d2b2a792fa418900e73" name="ga94937e94a6340d2b2a792fa418900e73"></a>
+<a class="el" href="#ga6bc8441f06dad369e7c8117e0f16f6be">SurfaceDecoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceDecoder</b> {}</td></tr>
+<tr class="memdesc:ga94937e94a6340d2b2a792fa418900e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder for the surfaces. <br /></td></tr>
+<tr class="memitem:gaa360cbe61a5165593b59279b29ec4206" id="r_gaa360cbe61a5165593b59279b29ec4206"><td class="memItemLeft" align="right" valign="top"><a id="gaa360cbe61a5165593b59279b29ec4206" name="gaa360cbe61a5165593b59279b29ec4206"></a>
+<a class="el" href="#ga0c550632e11629de583bdc72e19175db">SurfaceEncoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceEncoder</b> {}</td></tr>
+<tr class="memdesc:gaa360cbe61a5165593b59279b29ec4206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder for the surfaces. <br /></td></tr>
+<tr class="memitem:ga3d3080d8574d2f9098442b3670204a38" id="r_ga3d3080d8574d2f9098442b3670204a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d3080d8574d2f9098442b3670204a38">Acts::SurfaceJsonConverter::Options::transformOptions</a></td></tr>
+<tr class="memdesc:ga3d3080d8574d2f9098442b3670204a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform serialization options.  <br /></td></tr>
+<tr class="memitem:gaa37197f466651421892c0b9d6cc45920" id="r_gaa37197f466651421892c0b9d6cc45920"><td class="memItemLeft" align="right" valign="top"><a id="gaa37197f466651421892c0b9d6cc45920" name="gaa37197f466651421892c0b9d6cc45920"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Options::writeMaterial</b> = true</td></tr>
+<tr class="memdesc:gaa37197f466651421892c0b9d6cc45920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write material information. <br /></td></tr>
 <tr class="memitem:gaca2851b3aa2009676dc7dae2bd4f0539" id="r_gaca2851b3aa2009676dc7dae2bd4f0539"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca2851b3aa2009676dc7dae2bd4f0539">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_config.html">DoubletSeedFinder::Config</a> &amp;config)</td></tr>
 <tr class="memdesc:gaca2851b3aa2009676dc7dae2bd4f0539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert DoubletSeedFinder::Config to JSON.  <br /></td></tr>
 <tr class="memitem:ga682fe86fa07d19a480935210d748d758" id="r_ga682fe86fa07d19a480935210d748d758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga682fe86fa07d19a480935210d748d758">Acts::Experimental::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html">DoubletSeedFinder::DerivedConfig</a> &amp;config)</td></tr>
@@ -328,14 +370,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gab39fab40696fab1b03cca78f951db023" name="gab39fab40696fab1b03cca78f951db023"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab39fab40696fab1b03cca78f951db023">&#9670;&#160;</a></span>SurfaceAndMaterialWithContext</h2>
+<a id="ga08ffc1302637825fe32c6fce92019774" name="ga08ffc1302637825fe32c6fce92019774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08ffc1302637825fe32c6fce92019774">&#9670;&#160;</a></span>SurfaceAndMaterialWithContext</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::tuple&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt;, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &gt;, <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &gt; <a class="el" href="#gab39fab40696fab1b03cca78f951db023">Acts::SurfaceAndMaterialWithContext</a></td>
+          <td class="memname">typedef std::tuple&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt;, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt;, <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &gt; <a class="el" href="#ga08ffc1302637825fe32c6fce92019774">Acts::SurfaceAndMaterialWithContext</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -347,6 +389,28 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>A tuple containing a surface, its associated material, and geometry context. </p>
 <dl class="section note"><dt>Note</dt><dd>Used for material mapping and JSON conversion. </dd></dl>
+
+</div>
+</div>
+<a id="ga0c550632e11629de583bdc72e19175db" name="ga0c550632e11629de583bdc72e19175db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c550632e11629de583bdc72e19175db">&#9670;&#160;</a></span>SurfaceEncoder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga0c550632e11629de583bdc72e19175db">Acts::SurfaceJsonConverter::SurfaceEncoder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      <a class="code hl_class" href="class_acts_1_1_type_dispatcher.html">TypeDispatcher</a>&lt;<a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>,</div>
+<div class="line">                     nlohmann::json(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a>&amp;)&gt;</div>
+<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:53</div></div>
+<div class="ttc" id="aclass_acts_1_1_type_dispatcher_html"><div class="ttname"><a href="class_acts_1_1_type_dispatcher.html">Acts::TypeDispatcher</a></div><div class="ttdoc">Template class for type-based function dispatch.</div><div class="ttdef"><b>Definition</b> TypeDispatcher.hpp:32</div></div>
+<div class="ttc" id="astruct_acts_1_1_surface_json_converter_1_1_options_html"><div class="ttname"><a href="struct_acts_1_1_surface_json_converter_1_1_options.html">Acts::SurfaceJsonConverter::Options</a></div><div class="ttdoc">Options for surface conversion.</div><div class="ttdef"><b>Definition</b> SurfaceJsonConverter.hpp:59</div></div>
+</div><!-- fragment -->
+<p>Encoder type for the surfaces. </p>
 
 </div>
 </div>
@@ -502,6 +566,34 @@ template&lt;class T, class decorator_t&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gae08b94ce511c98dcc5d34694c2d9cb89" name="gae08b94ce511c98dcc5d34694c2d9cb89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae08b94ce511c98dcc5d34694c2d9cb89">&#9670;&#160;</a></span>defaultConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Config</a> Acts::SurfaceJsonConverter::Config::defaultConfig </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default configuration construction. </p>
+<dl class="section return"><dt>Returns</dt><dd>default configuration </dd></dl>
 
 </div>
 </div>
@@ -1108,7 +1200,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="ga4ec453becca4f99dad7cd102ed1599a8" name="ga4ec453becca4f99dad7cd102ed1599a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ec453becca4f99dad7cd102ed1599a8">&#9670;&#160;</a></span>fromJson() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ec453becca4f99dad7cd102ed1599a8">&#9670;&#160;</a></span>fromJson() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1142,7 +1234,7 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 </div>
 </div>
 <a id="ga7db1175609439b8069b2d0b090773503" name="ga7db1175609439b8069b2d0b090773503"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7db1175609439b8069b2d0b090773503">&#9670;&#160;</a></span>fromJson() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db1175609439b8069b2d0b090773503">&#9670;&#160;</a></span>fromJson() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1164,6 +1256,40 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ProtoAxis created from the JSON object </dd></dl>
+
+</div>
+</div>
+<a id="ga0c4c37f9c2d147c464be0b11b6662e44" name="ga0c4c37f9c2d147c464be0b11b6662e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c4c37f9c2d147c464be0b11b6662e44">&#9670;&#160;</a></span>fromJson() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; Acts::SurfaceJsonConverter::fromJson </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>jSurface</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The Surface converter from json. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jSurface</td><td>the surface json object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a shared object created from json input </dd></dl>
 
 </div>
 </div>
@@ -1199,58 +1325,37 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 
 </div>
 </div>
-<a id="ga4ca3159a74a3264197f5b171cd3b7947" name="ga4ca3159a74a3264197f5b171cd3b7947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ca3159a74a3264197f5b171cd3b7947">&#9670;&#160;</a></span>surfaceFromJson()</h2>
+<a id="gab5b6563910c389e8e62e1f8811467c97" name="gab5b6563910c389e8e62e1f8811467c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5b6563910c389e8e62e1f8811467c97">&#9670;&#160;</a></span>setConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; Acts::surfaceFromJson </td>
+          <td class="memname">void Acts::SurfaceJsonConverter::setConfig </td>
           <td>(</td>
-          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_config.html">Config</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Conversion to Surface from jsonn. </p>
+<p>Set externally constructed configuration. </p>
+<dl class="section note"><dt>Note</dt><dd>May be removed when the dispatcher migration is finished</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">j</td><td>the read-in json object</td></tr>
+    <tr><td class="paramname">cfg</td><td>configuration to use </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a shared_ptr to a surface object for type polymorphism </dd></dl>
-
-</div>
-</div>
-<a id="ga9de363bbc466a833fcb345436142d784" name="ga9de363bbc466a833fcb345436142d784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9de363bbc466a833fcb345436142d784">&#9670;&#160;</a></span>surfaceFromJsonT()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename surface_t, typename bounds_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; surface_t &gt; Acts::surfaceFromJsonT </td>
-          <td>(</td>
-          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Conversion to Surface from json in correct type. </p>
-<p>The type is given as a template argument in order to be able to construct the correct fitting types for surfaces.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">j</td><td>the read-in json object</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a shared_ptr to a typed surface object for type polymorphism </dd></dl>
 
 </div>
 </div>
@@ -1842,7 +1947,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#gab39fab40696fab1b03cca78f951db023">SurfaceAndMaterialWithContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#ga08ffc1302637825fe32c6fce92019774">SurfaceAndMaterialWithContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2009,7 +2114,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 </div>
 </div>
 <a id="gae3bc8c18a830cf3b08595eafc172e2d3" name="gae3bc8c18a830cf3b08595eafc172e2d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae3bc8c18a830cf3b08595eafc172e2d3">&#9670;&#160;</a></span>toJson() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3bc8c18a830cf3b08595eafc172e2d3">&#9670;&#160;</a></span>toJson() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2042,7 +2147,7 @@ template&lt;typename value_t, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga038acefb1a69555567e98c97b9830cf9" name="ga038acefb1a69555567e98c97b9830cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga038acefb1a69555567e98c97b9830cf9">&#9670;&#160;</a></span>toJson() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga038acefb1a69555567e98c97b9830cf9">&#9670;&#160;</a></span>toJson() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2067,8 +2172,53 @@ template&lt;typename value_t, class decorator_t&gt; </div>
 
 </div>
 </div>
+<a id="ga277a256ce56e6426a468cfada6325112" name="ga277a256ce56e6426a468cfada6325112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga277a256ce56e6426a468cfada6325112">&#9670;&#160;</a></span>toJson() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json Acts::SurfaceJsonConverter::toJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a>{&#160;.transformOptions=<a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>{},.writeMaterial=true,.portal=false}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contextual conversion of a surface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>the geometry context for this </td></tr>
+    <tr><td class="paramname">surface</td><td>the surface to be converted </td></tr>
+    <tr><td class="paramname">options</td><td>the writing options for the surfaces</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a json object representing the surface </dd></dl>
+
+</div>
+</div>
 <a id="ga0d44dfc16a076ea3977b8d4632e0bd71" name="ga0d44dfc16a076ea3977b8d4632e0bd71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0d44dfc16a076ea3977b8d4632e0bd71">&#9670;&#160;</a></span>toJson() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d44dfc16a076ea3977b8d4632e0bd71">&#9670;&#160;</a></span>toJson() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2100,6 +2250,72 @@ template&lt;typename value_t, class decorator_t&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga72a6eff57592c82d128db5674ac69d29" name="ga72a6eff57592c82d128db5674ac69d29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga72a6eff57592c82d128db5674ac69d29">&#9670;&#160;</a></span>toJsonDetray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json Acts::SurfaceJsonConverter::toJsonDetray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a>{&#160;.transformOptions=<a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>{},.writeMaterial=true,.portal=false}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contextual conversion of a surface - Detray export. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>the geometry context for this </td></tr>
+    <tr><td class="paramname">surface</td><td>the surface to be converted </td></tr>
+    <tr><td class="paramname">options</td><td>the writing options for the surfaces</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>reading back detray json is not supported and will fail</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a json object representing the surface </dd></dl>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="ga3d3080d8574d2f9098442b3670204a38" name="ga3d3080d8574d2f9098442b3670204a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d3080d8574d2f9098442b3670204a38">&#9670;&#160;</a></span>transformOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a> Acts::SurfaceJsonConverter::Options::transformOptions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        <a class="code hl_struct" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>{}</div>
+<div class="ttc" id="astruct_acts_1_1_transform3_json_converter_1_1_options_html"><div class="ttname"><a href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Acts::Transform3JsonConverter::Options</a></div><div class="ttdoc">The options for the transform converter.</div><div class="ttdef"><b>Definition</b> AlgebraJsonConverter.hpp:34</div></div>
+</div><!-- fragment -->
+<p>Transform serialization options. </p>
 
 </div>
 </div>

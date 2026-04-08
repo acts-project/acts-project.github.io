@@ -125,9 +125,6 @@ var annotated_dup =
         [ "CosmicOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html", "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options" ],
         [ "StripEnds", "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html", "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends" ]
       ] ],
-      [ "SurfaceJsonConverter", null, [
-        [ "Options", "struct_acts_1_1_surface_json_converter_1_1_options.html", "struct_acts_1_1_surface_json_converter_1_1_options" ]
-      ] ],
       [ "Transform3JsonConverter", null, [
         [ "Options", "struct_acts_1_1_transform3_json_converter_1_1_options.html", "struct_acts_1_1_transform3_json_converter_1_1_options" ]
       ] ],
@@ -374,6 +371,7 @@ var annotated_dup =
       [ "IVolumeMaterialJsonDecorator", "class_acts_1_1_i_volume_material_json_decorator.html", "class_acts_1_1_i_volume_material_json_decorator" ],
       [ "JsonDetectorElement", "class_acts_1_1_json_detector_element.html", "class_acts_1_1_json_detector_element" ],
       [ "jsonKey", "struct_acts_1_1json_key.html", "struct_acts_1_1json_key" ],
+      [ "JsonKindDispatcher", "class_acts_1_1_json_kind_dispatcher.html", "class_acts_1_1_json_kind_dispatcher" ],
       [ "JsonMaterialDecorator", "class_acts_1_1_json_material_decorator.html", "class_acts_1_1_json_material_decorator" ],
       [ "KalmanFitter", "class_acts_1_1_kalman_fitter.html", "class_acts_1_1_kalman_fitter" ],
       [ "KalmanFitterExtensions", "struct_acts_1_1_kalman_fitter_extensions.html", "struct_acts_1_1_kalman_fitter_extensions" ],
@@ -533,6 +531,7 @@ var annotated_dup =
       [ "SurfaceBounds", "class_acts_1_1_surface_bounds.html", "class_acts_1_1_surface_bounds" ],
       [ "SurfaceCollector", "struct_acts_1_1_surface_collector.html", "struct_acts_1_1_surface_collector" ],
       [ "SurfaceHit", "struct_acts_1_1_surface_hit.html", "struct_acts_1_1_surface_hit" ],
+      [ "SurfaceJsonConverter", "class_acts_1_1_surface_json_converter.html", "class_acts_1_1_surface_json_converter" ],
       [ "SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", "class_acts_1_1_surface_material_mapper" ],
       [ "SurfaceMergingException", "class_acts_1_1_surface_merging_exception.html", "class_acts_1_1_surface_merging_exception" ],
       [ "SurfacePlacementBase", "class_acts_1_1_surface_placement_base.html", "class_acts_1_1_surface_placement_base" ],

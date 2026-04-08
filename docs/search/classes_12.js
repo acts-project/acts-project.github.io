@@ -93,10 +93,11 @@ var searchData=
   ['surfaceconfig_90',['SurfaceConfig',['../struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html',1,'Acts::CuboidVolumeBuilder']]],
   ['surfacegridlookup_91',['SurfaceGridLookup',['../struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html',1,'Acts::SurfaceArray']]],
   ['surfacehit_92',['SurfaceHit',['../struct_acts_1_1_surface_hit.html',1,'Acts']]],
-  ['surfacematerialmapper_93',['SurfaceMaterialMapper',['../class_acts_1_1_surface_material_mapper.html',1,'Acts']]],
-  ['surfacemergingexception_94',['SurfaceMergingException',['../class_acts_1_1_surface_merging_exception.html',1,'Acts']]],
-  ['surfaceplacementbase_95',['SurfacePlacementBase',['../class_acts_1_1_surface_placement_base.html',1,'Acts']]],
-  ['surfacereached_96',['SurfaceReached',['../struct_acts_1_1_surface_reached.html',1,'Acts']]],
-  ['surfaceselector_97',['SurfaceSelector',['../struct_acts_1_1_surface_selector.html',1,'Acts']]],
-  ['sympystepper_98',['SympyStepper',['../class_acts_1_1_sympy_stepper.html',1,'Acts']]]
+  ['surfacejsonconverter_93',['SurfaceJsonConverter',['../class_acts_1_1_surface_json_converter.html',1,'Acts']]],
+  ['surfacematerialmapper_94',['SurfaceMaterialMapper',['../class_acts_1_1_surface_material_mapper.html',1,'Acts']]],
+  ['surfacemergingexception_95',['SurfaceMergingException',['../class_acts_1_1_surface_merging_exception.html',1,'Acts']]],
+  ['surfaceplacementbase_96',['SurfacePlacementBase',['../class_acts_1_1_surface_placement_base.html',1,'Acts']]],
+  ['surfacereached_97',['SurfaceReached',['../struct_acts_1_1_surface_reached.html',1,'Acts']]],
+  ['surfaceselector_98',['SurfaceSelector',['../struct_acts_1_1_surface_selector.html',1,'Acts']]],
+  ['sympystepper_99',['SympyStepper',['../class_acts_1_1_sympy_stepper.html',1,'Acts']]]
 ];
