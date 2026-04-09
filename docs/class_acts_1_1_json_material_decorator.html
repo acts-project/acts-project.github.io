@@ -143,8 +143,8 @@ Collaboration diagram for Acts::JsonMaterialDecorator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6a337e8ecba6c474b13c8e3164060fff" id="r_a6a337e8ecba6c474b13c8e3164060fff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a337e8ecba6c474b13c8e3164060fff">JsonMaterialDecorator</a> (const <a class="el" href="class_acts_1_1_material_map_json_converter_1_1_config.html">MaterialMapJsonConverter::Config</a> &amp;rConfig, const std::string &amp;jFileName, <a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Acts::Logging::Level</a> level, bool clearSurfaceMaterial=true, bool clearVolumeMaterial=true)</td></tr>
-<tr class="memdesc:a6a337e8ecba6c474b13c8e3164060fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with configuration.  <br /></td></tr>
+<tr class="memitem:ac6024d03886d7ae38c0e83792b8b563c" id="r_ac6024d03886d7ae38c0e83792b8b563c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6024d03886d7ae38c0e83792b8b563c">JsonMaterialDecorator</a> (const <a class="el" href="class_acts_1_1_material_map_json_converter_1_1_config.html">MaterialMapJsonConverter::Config</a> &amp;rConfig, const std::string &amp;jFileName, <a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Acts::Logging::Level</a> level)</td></tr>
+<tr class="memdesc:ac6024d03886d7ae38c0e83792b8b563c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with configuration.  <br /></td></tr>
 <tr class="memitem:a7a25bac902084d283fcf140015666fe0" id="r_a7a25bac902084d283fcf140015666fe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a25bac902084d283fcf140015666fe0">decorate</a> (<a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const final</td></tr>
 <tr class="memdesc:a7a25bac902084d283fcf140015666fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a surface.  <br /></td></tr>
 <tr class="memitem:a553019ef6d9adb5546899327779caf44" id="r_a553019ef6d9adb5546899327779caf44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a553019ef6d9adb5546899327779caf44">decorate</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume) const final</td></tr>
@@ -158,8 +158,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IMaterialDecorato
 <div class="textblock"><p>Material decorator from Json format. </p>
 <p>This reads in material maps for surfaces and volumes from a json file </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6a337e8ecba6c474b13c8e3164060fff" name="a6a337e8ecba6c474b13c8e3164060fff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a337e8ecba6c474b13c8e3164060fff">&#9670;&#160;</a></span>JsonMaterialDecorator()</h2>
+<a id="ac6024d03886d7ae38c0e83792b8b563c" name="ac6024d03886d7ae38c0e83792b8b563c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6024d03886d7ae38c0e83792b8b563c">&#9670;&#160;</a></span>JsonMaterialDecorator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,17 +177,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IMaterialDecorato
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Acts::Logging::Level</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>clearSurfaceMaterial</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>clearVolumeMaterial</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Acts::Logging::Level</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -198,8 +188,6 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IMaterialDecorato
     <tr><td class="paramname">rConfig</td><td>the configuration for the material map reader </td></tr>
     <tr><td class="paramname">jFileName</td><td>the json file name to read </td></tr>
     <tr><td class="paramname">level</td><td>the logging level </td></tr>
-    <tr><td class="paramname">clearSurfaceMaterial</td><td>if true, clear the surface material before decorating, this means if there is no material for a certain surface within the json file, the surface WILL NOT have any material, eventually assigned (proto-/)material will be cleared </td></tr>
-    <tr><td class="paramname">clearVolumeMaterial</td><td>if true, clear the volume material before decorating, same as above, but for volumes </td></tr>
   </table>
   </dd>
 </dl>

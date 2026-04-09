@@ -17,6 +17,6 @@ var searchData=
   ['jsonkinddispatcher_14',['JsonKindDispatcher',['../class_acts_1_1_json_kind_dispatcher.html',1,'Acts::JsonKindDispatcher&lt; return_t, args_t &gt;'],['../class_acts_1_1_json_kind_dispatcher.html#aba61a04af8c707a4f21823a98742c28e',1,'Acts::JsonKindDispatcher::JsonKindDispatcher()']]],
   ['jsonkinddispatcher_3c_20return_5ft_2c_20args_5ft_2e_2e_2e_20_3e_15',['JsonKindDispatcher&lt; return_t, args_t... &gt;',['../class_acts_1_1_json_kind_dispatcher.html',1,'Acts']]],
   ['jsonkinddispatcher_3c_20std_3a_3ashared_5fptr_3c_20surface_20_3e_20_3e_16',['JsonKindDispatcher&lt; std::shared_ptr&lt; Surface &gt; &gt;',['../class_acts_1_1_json_kind_dispatcher.html',1,'Acts']]],
-  ['jsonmaterialdecorator_17',['JsonMaterialDecorator',['../class_acts_1_1_json_material_decorator.html',1,'Acts::JsonMaterialDecorator'],['../class_acts_1_1_json_material_decorator.html#a6a337e8ecba6c474b13c8e3164060fff',1,'Acts::JsonMaterialDecorator::JsonMaterialDecorator()']]],
+  ['jsonmaterialdecorator_17',['JsonMaterialDecorator',['../class_acts_1_1_json_material_decorator.html',1,'Acts::JsonMaterialDecorator'],['../class_acts_1_1_json_material_decorator.html#ac6024d03886d7ae38c0e83792b8b563c',1,'Acts::JsonMaterialDecorator::JsonMaterialDecorator()']]],
   ['jsontomaterialmaps_18',['jsonToMaterialMaps',['../class_acts_1_1_material_map_json_converter.html#a4c053bdfa1ad1e876bc80a044f899974',1,'Acts::MaterialMapJsonConverter']]]
 ];
