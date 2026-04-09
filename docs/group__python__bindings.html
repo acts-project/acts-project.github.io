@@ -126,7 +126,7 @@ $(function(){initNavTree('group__python__bindings.html','',''); });
 </div><!--header-->
 <div class="contents">
 <p>Python bindings for the ACTS tracking toolkit, available via PyPI or built from source. </p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
 Installation from PyPI</h1>
 <p>The easiest way to get the ACTS Python bindings is via <a href="https://pypi.org/project/pyacts/">PyPI</a>:</p>
 <div class="fragment"><div class="line">pip install pyacts</div>
@@ -135,7 +135,7 @@ Installation from PyPI</h1>
 </div><!-- fragment --><p>The <span class="tt">pyacts</span> distribution includes bindings for the core library, Fatras, and the Examples framework.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The PyPI package does not include all optional plugins (e.g. DD4hep/ODD, Geant4, ROOT). To use those, build from source with the relevant CMake options enabled.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Even though the name of the PyPI package is <span class="tt">pyacts</span>, the python module must be imported as <span class="tt">import acts</span>.</dd></dl>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
 Building from source</h1>
 <p>To use the full Python bindings including optional components such as DD4hep/ODD, Geant4, ROOT, build ACTS from source with <span class="tt">ACTS_BUILD_PYTHON_BINDINGS=ON</span>.</p>
 <div class="fragment"><div class="line">cmake -B &lt;build&gt; -S &lt;source&gt; -DACTS_BUILD_PYTHON_BINDINGS=ON</div>
@@ -145,7 +145,7 @@ Building from source</h1>
 <div class="fragment"><div class="line">cmake --build &lt;build&gt; -- ActsPythonBindings</div>
 </div><!-- fragment --><p>The build creates a setup script <span class="tt">$BUILD/this_acts_withdeps.sh</span> which modifies <span class="tt">$PYTHONPATH</span> so that you can import the <span class="tt">acts</span> module in Python.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The old flag <span class="tt">ACTS_BUILD_EXAMPLES_PYTHON_BINDINGS</span> is <b>deprecated</b>. Use <span class="tt">ACTS_BUILD_PYTHON_BINDINGS</span> (together with <span class="tt">ACTS_BUILD_EXAMPLES</span> if needed) instead.</dd></dl>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 Minimal example</h1>
 <p>Here is a minimal example of a Python script using the bindings, which sets up particle propagation and runs a few events.</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> os</div>
@@ -223,12 +223,12 @@ Minimal example</h1>
 <div class="line">)</div>
 <div class="line"> </div>
 <div class="line">s.run()</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Python based example scripts</h2>
 <p>The repository contains a set of example scripts that can be used to execute various workflows. They can be found in <span class="tt">$REPO_ROOT/Examples/Scripts/Python</span>. Make sure you have run</p>
 <div class="fragment"><div class="line">source $BUILD/this_acts_withdeps.sh</div>
 </div><!-- fragment --><p>to make sure Python can find the <span class="tt">acts</span> module.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 Python based unit tests</h2>
 <p>A number of unit tests based on the <span class="tt">pytest</span> library are shipped with the repository. They are located under <span class="tt">$REPO_ROOT/Examples/Python/tests</span>, and intend to cover the public API of the Python bindings. A set of tests also execute the standalone example scripts.</p>
 <p>To run these Python based tests, <span class="tt">pytest</span> and a few other dependencies need to be installed. They can be installed via <span class="tt">pip install -r
@@ -255,7 +255,7 @@ ROOT file hash regression checks</h2>
 <ol type="1">
 <li>Detect potential reproducibility issues. Tests that run with multiple threads should produce the same output every run, event ordering aside. If a test workload has a thread-reproducibility issue, the output hash should also change.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
 Running the hash checks locally and how to update the reference hashes</h3>
 <p>By default, the hash checks are not executed when the <span class="tt">pytest</span> command is run. To enable them, you need to set the environment variable <span class="tt">ROOT_HASH_CHECKS</span> needs to be set to <span class="tt">ON</span>, for example like:</p>
 <div class="fragment"><div class="line">ROOT_HASH_CHECKS=ON pytest</div>

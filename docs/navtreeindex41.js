@@ -63,6 +63,7 @@ var NAVTREEINDEX41 =
 "group__fpemonitoring__plugin.html#ga47240ba288d121f6493b4d7b83cf8ace":[4,9,5,2],
 "group__geant4__plugin.html":[4,9,7],
 "group__geometry.html":[4,3,0],
+"group__geometry__module__loading.html":[4,3,0,0],
 "group__geomodel__plugin.html":[4,9,8],
 "group__geomodel__plugin.html#ga150adda7e099d80ccd1990b15a729760":[4,9,8,11],
 "group__geomodel__plugin.html#ga278502cd85bb58829748fb12f0e866b8":[4,9,8,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "group__track__fitting.html#gae7ae481a3998f95a4029fd2bc280b362":[4,12,29],
 "group__utilities.html":[4,13],
 "group__utilities.html#ga95bd44f0ea2109f98499eb1666cc836e":[4,13,3],
-"group__utilities.html#gaaa8cfe1575a746b3f8bb992ef3cd442f":[4,13,2],
-"group__vertexing.html":[4,14]
+"group__utilities.html#gaaa8cfe1575a746b3f8bb992ef3cd442f":[4,13,2]
 };

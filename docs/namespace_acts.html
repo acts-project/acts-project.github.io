@@ -2224,6 +2224,10 @@ requires std::convertible_to&lt;std::ranges::range_value_t&lt;R&gt;, std::string
 requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</td></tr>
 <tr class="memitem:addbd41a294e15a0ec2b8c05ef65a6552 template"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addbd41a294e15a0ec2b8c05ef65a6552">joinStrings</a> (R &amp;&amp;values, std::string_view delimiter, std::format_string&lt; const std::ranges::range_value_t&lt; R &gt; &amp; &gt; format)</td></tr>
 <tr class="memdesc:addbd41a294e15a0ec2b8c05ef65a6552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility to join a range of formattable elements with a delimiter and custom format string.  <br /></td></tr>
+<tr class="memitem:a56fefa200b91f892b54de11779b5a85a" id="r_a56fefa200b91f892b54de11779b5a85a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56fefa200b91f892b54de11779b5a85a">loadDD4hepGeometryModule</a> (const std::filesystem::path &amp;modulePath, const dd4hep::Detector &amp;detector, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
+<tr class="memdesc:a56fefa200b91f892b54de11779b5a85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a DD4hep geometry module shared library with the given detector, validate ABI compatibility, build and return the tracking geometry.  <br /></td></tr>
+<tr class="memitem:a9f8b01e7271df52fbd4139a9ec8057fe" id="r_a9f8b01e7271df52fbd4139a9ec8057fe"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f8b01e7271df52fbd4139a9ec8057fe">loadGeometryModule</a> (const std::filesystem::path &amp;modulePath, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
+<tr class="memdesc:a9f8b01e7271df52fbd4139a9ec8057fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a module shared library, validate ABI compatibility, build and return the tracking geometry.  <br /></td></tr>
 <tr class="memitem:af0aae08c33000aa753f3f047c0258722" id="r_af0aae08c33000aa753f3f047c0258722"><td class="memTemplParams" colspan="2">template&lt;typename grid_type&gt; </td></tr>
 <tr class="memitem:af0aae08c33000aa753f3f047c0258722 template"><td class="memItemLeft" align="right" valign="top">std::set&lt; typename grid_type::index_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0aae08c33000aa753f3f047c0258722">localIndices</a> (const grid_type &amp;grid, const std::vector&lt; typename grid_type::point_t &gt; &amp;queries, const std::vector&lt; std::size_t &gt; &amp;expansion={})</td></tr>
 <tr class="memdesc:af0aae08c33000aa753f3f047c0258722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to fill local bins given a set of query points bin in between the extra points are filled, and a possible expansion of the bin window can be chosen.  <br /></td></tr>
@@ -8029,6 +8033,74 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</d
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Joined string </dd></dl>
+
+</div>
+</div>
+<a id="a56fefa200b91f892b54de11779b5a85a" name="a56fefa200b91f892b54de11779b5a85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56fefa200b91f892b54de11779b5a85a">&#9670;&#160;</a></span>loadDD4hepGeometryModule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt; Acts::loadDD4hepGeometryModule </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>modulePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dd4hep::Detector &amp;</td>          <td class="paramname"><span class="paramname"><em>detector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a DD4hep geometry module shared library with the given detector, validate ABI compatibility, build and return the tracking geometry. </p>
+<p>The returned deleter keeps the module loaded until the geometry is destroyed. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modulePath</td><td>Path to the geometry module shared library. </td></tr>
+    <tr><td class="paramname">detector</td><td>DD4hep detector instance passed to the module. </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance used by the module loader. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the loaded tracking geometry. </dd></dl>
+
+</div>
+</div>
+<a id="a9f8b01e7271df52fbd4139a9ec8057fe" name="a9f8b01e7271df52fbd4139a9ec8057fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f8b01e7271df52fbd4139a9ec8057fe">&#9670;&#160;</a></span>loadGeometryModule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt; Acts::loadGeometryModule </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>modulePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a module shared library, validate ABI compatibility, build and return the tracking geometry. </p>
+<p>The returned deleter keeps the module loaded until the geometry is destroyed. Throws if the module requires user data (e.g. a DD4hep module) — use the appropriate typed loader instead. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modulePath</td><td>Path to the geometry module shared library. </td></tr>
+    <tr><td class="paramname">logger</td><td>Logger instance used by the module loader. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the loaded tracking geometry. </dd></dl>
 
 </div>
 </div>

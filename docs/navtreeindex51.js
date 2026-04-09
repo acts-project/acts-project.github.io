@@ -1,5 +1,8 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_geometry_view3_d.html#aea9a6fa72e2d7bb42b58b9152b05d494":[7,0,0,159,1],
+"struct_acts_1_1_geometry_view3_d.html#af0422dcd7e2f8662501b3889a99fe010":[5,0,0,152,7],
+"struct_acts_1_1_geometry_view3_d.html#af0422dcd7e2f8662501b3889a99fe010":[7,0,0,159,7],
 "struct_acts_1_1_globally_indexed_material_accessor.html":[4,3,2,6],
 "struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b":[4,3,2,6,4],
 "struct_acts_1_1_globally_indexed_material_accessor.html#a2a864954c2167481cc43105dd2ad6a67":[4,3,2,6,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1":[5,0,0,3,0,3,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1":[7,0,0,6,0,3,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[5,0,0,3,0,3,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[7,0,0,6,0,3,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[5,0,0,3,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[7,0,0,6,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a253244c57511acc720daa252ceac69e4":[5,0,0,3,0,4,2]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#afcbd533e4dbda82ae2840af4cf8af76a":[7,0,0,6,0,3,1]
 };

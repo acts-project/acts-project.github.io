@@ -1016,6 +1016,8 @@ var namespace_acts =
     [ "isNucleus", "namespace_acts.html#a0dad26c0de75201a5b5d1fe7ce6c88e3", null ],
     [ "joinStrings", "namespace_acts.html#aac11e8ec3784f7325583119c7b36bb06", null ],
     [ "joinStrings", "namespace_acts.html#addbd41a294e15a0ec2b8c05ef65a6552", null ],
+    [ "loadDD4hepGeometryModule", "namespace_acts.html#a56fefa200b91f892b54de11779b5a85a", null ],
+    [ "loadGeometryModule", "namespace_acts.html#a9f8b01e7271df52fbd4139a9ec8057fe", null ],
     [ "localIndices", "namespace_acts.html#af0aae08c33000aa753f3f047c0258722", null ],
     [ "make_error_code", "namespace_acts.html#a76fa69095a6c107291628ba01d426ddb", null ],
     [ "make_error_code", "namespace_acts.html#a190c3b5e3ff20dbd35833e207d4f62c1", null ],
