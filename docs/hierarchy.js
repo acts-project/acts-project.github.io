@@ -227,7 +227,9 @@ var hierarchy =
     [ "Acts::Experimental::GraphBasedTrackSeeder::Config", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html", [
       [ "Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html", null ]
     ] ],
-    [ "Acts::Experimental::GraphBasedTrackSeeder::SeedProperties", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_properties.html", null ],
+    [ "Acts::Experimental::GraphBasedTrackSeeder::Options", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html", null ],
+    [ "Acts::Experimental::GraphBasedTrackSeeder::OutputSeedProperties", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html", null ],
+    [ "Acts::Experimental::GraphBasedTrackSeeder::SeedCandidateProperties", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html", null ],
     [ "Acts::Experimental::GraphBasedTrackSeeder::SlidingWindow", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html", null ],
     [ "Acts::Experimental::Gx2Fitter&lt; propagator_t, traj_t &gt;", "class_acts_1_1_experimental_1_1_gx2_fitter.html", null ],
     [ "Acts::Experimental::Gx2FitterExtensions&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html", null ],

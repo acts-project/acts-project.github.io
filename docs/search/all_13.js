@@ -281,7 +281,7 @@ var searchData=
   ['pt_278',['Pt',['../struct_acts_fatras_1_1_casts_1_1_pt.html',1,'ActsFatras::Casts']]],
   ['pt_279',['pt',['../struct_acts_1_1_track_selector_1_1_config.html#ac7acf91cedb5e6b61bff6e5d9a6c11c3',1,'Acts::TrackSelector::Config']]],
   ['pt2perradius_280',['pT2perRadius',['../struct_acts_1_1_seed_finder_options.html#a97354d5cfe024dc496d35e8a59df8f7a',1,'Acts::SeedFinderOptions']]],
-  ['ptcoeff_281',['ptCoeff',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a138482b0b6ea279dc1f04f18880706b2',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
+  ['ptcoeff_281',['ptCoeff',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#a04a1e7fe0b7fda183d605040f74361db',1,'Acts::Experimental::GraphBasedTrackSeeder::Options']]],
   ['ptmax_282',['ptMax',['../struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c',1,'Acts::TrackSelector::Config']]],
   ['ptmin_283',['ptMin',['../struct_acts_1_1_track_selector_1_1_config.html#a232eec225ccbd92d14a684d24063217d',1,'Acts::TrackSelector::Config']]],
   ['ptperhelixradius_284',['pTPerHelixRadius',['../struct_acts_1_1_seed_finder_options.html#a0886300a3a24499fccbf8b94376e7869',1,'Acts::SeedFinderOptions::pTPerHelixRadius'],['../struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1',1,'Acts::TripletSeedFinder::DerivedConfig::pTPerHelixRadius']]],

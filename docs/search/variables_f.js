@@ -75,7 +75,7 @@ var searchData=
   ['protolayerhelper_72',['protoLayerHelper',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a3575140eee295a6abdb9ae96b02ebab2',1,'ActsPlugins::TGeoLayerBuilder::Config']]],
   ['ps_73',['ps',['../namespace_acts_1_1_unit_constants.html#a47c413a927a47ea8842b348139e18c32',1,'Acts::UnitConstants']]],
   ['pt2perradius_74',['pT2perRadius',['../struct_acts_1_1_seed_finder_options.html#a97354d5cfe024dc496d35e8a59df8f7a',1,'Acts::SeedFinderOptions']]],
-  ['ptcoeff_75',['ptCoeff',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a138482b0b6ea279dc1f04f18880706b2',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
+  ['ptcoeff_75',['ptCoeff',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#a04a1e7fe0b7fda183d605040f74361db',1,'Acts::Experimental::GraphBasedTrackSeeder::Options']]],
   ['ptmax_76',['ptMax',['../struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c',1,'Acts::TrackSelector::Config']]],
   ['ptmin_77',['ptMin',['../struct_acts_1_1_track_selector_1_1_config.html#a232eec225ccbd92d14a684d24063217d',1,'Acts::TrackSelector::Config']]],
   ['ptperhelixradius_78',['pTPerHelixRadius',['../struct_acts_1_1_seed_finder_options.html#a0886300a3a24499fccbf8b94376e7869',1,'Acts::SeedFinderOptions::pTPerHelixRadius'],['../struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1',1,'Acts::TripletSeedFinder::DerivedConfig::pTPerHelixRadius']]],

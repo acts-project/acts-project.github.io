@@ -137,8 +137,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration struct for the GBTS seeding algorithm.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:DerivedConfig" id="r_DerivedConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html">DerivedConfig</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived configuration struct that contains calculated parameters based on the configuration.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html#details">More...</a><br /></td></tr>
-<tr class="memitem:SeedProperties" id="r_SeedProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_properties.html">SeedProperties</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed metadata produced by the GBTS algorithm.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_properties.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Options" id="r_Options"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional inputs for variables passed in or derived during runtime.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#details">More...</a><br /></td></tr>
+<tr class="memitem:OutputSeedProperties" id="r_OutputSeedProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html">OutputSeedProperties</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output seed metadata.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#details">More...</a><br /></td></tr>
+<tr class="memitem:SeedCandidateProperties" id="r_SeedCandidateProperties"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html">SeedCandidateProperties</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">candidate seed metadata produced by the GBTS algorithm.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SlidingWindow" id="r_SlidingWindow"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html">SlidingWindow</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sliding window in phi used to define range used for edge creation.  <a href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_sliding_window.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -146,8 +150,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a77edb5b6f5d1db8e8f6d355424616fc4" id="r_a77edb5b6f5d1db8e8f6d355424616fc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77edb5b6f5d1db8e8f6d355424616fc4">GraphBasedTrackSeeder</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html">DerivedConfig</a> &amp;config, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
 <tr class="memdesc:a77edb5b6f5d1db8e8f6d355424616fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:a89affff32f05753e6df33d5e766a43e1" id="r_a89affff32f05753e6df33d5e766a43e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89affff32f05753e6df33d5e766a43e1">createSeeds</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, std::uint32_t maxLayers, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;filter) const</td></tr>
-<tr class="memdesc:a89affff32f05753e6df33d5e766a43e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
+<tr class="memitem:a3c14d1fc6d960bc95b47298e7ecdb0bf" id="r_a3c14d1fc6d960bc95b47298e7ecdb0bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c14d1fc6d960bc95b47298e7ecdb0bf">createSeeds</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, std::uint32_t maxLayers, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;filter, const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a> &amp;options) const</td></tr>
+<tr class="memdesc:a3c14d1fc6d960bc95b47298e7ecdb0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Seed finder implementing the GBTS seeding workflow. </p>
@@ -189,8 +193,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a89affff32f05753e6df33d5e766a43e1" name="a89affff32f05753e6df33d5e766a43e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89affff32f05753e6df33d5e766a43e1">&#9670;&#160;</a></span>createSeeds()</h2>
+<a id="a3c14d1fc6d960bc95b47298e7ecdb0bf" name="a3c14d1fc6d960bc95b47298e7ecdb0bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c14d1fc6d960bc95b47298e7ecdb0bf">&#9670;&#160;</a></span>createSeeds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +217,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -225,6 +234,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">roi</td><td>Region of interest descriptor </td></tr>
     <tr><td class="paramname">maxLayers</td><td>Maximum number of layers </td></tr>
     <tr><td class="paramname">filter</td><td>Tracking filter to be applied </td></tr>
+    <tr><td class="paramname">options</td><td>Event based options such as magnetic field strength </td></tr>
   </table>
   </dd>
 </dl>

@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html" target="_top" xlink:title="Detector configuration struct : contains the configuration for each detector.">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_score_based_ambiguity_resolution.html" target="_top" xlink:title="Generic implementation of the score based ambiguity resolution.">
 <polygon fill="white" stroke="#666666" points="151,-30 0,-30 0,0 151,0 151,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ScoreBasedAmbiguity</text>
-<text text-anchor="middle" x="75.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Resolution::DetectorConfig</text>
+<text text-anchor="middle" x="75.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Resolution</text>
 </a>
 </g>
 </g>
