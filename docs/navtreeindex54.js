@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_material_validator_1_1_config.html#a95bb8dcb669ebdebd40638495e658aa0":[5,0,0,256,0,0],
+"struct_acts_1_1_material_validator_1_1_config.html#a95bb8dcb669ebdebd40638495e658aa0":[7,0,0,263,0,0],
 "struct_acts_1_1_material_volume.html":[5,0,0,257],
 "struct_acts_1_1_material_volume.html":[7,0,0,264],
 "struct_acts_1_1_material_volume.html#ac08fa7c44e952e52c9905516cd9f970c":[5,0,0,257,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_null_b_field_1_1_cache.html#ac384087da4a2cdfd69b9fdbb33f73c97":[4,3,1,6,0,0],
 "struct_acts_1_1_null_b_field_1_1_cache.html#ac384087da4a2cdfd69b9fdbb33f73c97":[4,10,0,6,0,0],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html":[5,0,0,286,0],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html":[7,0,0,293,0],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a1442c56154ad29584473f1387aabcdb0":[5,0,0,286,0,2],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a1442c56154ad29584473f1387aabcdb0":[7,0,0,293,0,2]
+"struct_acts_1_1_numerical_track_linearizer_1_1_config.html":[7,0,0,293,0]
 };

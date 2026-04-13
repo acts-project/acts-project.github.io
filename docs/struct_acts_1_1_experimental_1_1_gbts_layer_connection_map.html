@@ -141,10 +141,12 @@ Classes</h2></td></tr>
 <tr class="memitem:LayerGroup" id="r_LayerGroup"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map_1_1_layer_group.html">LayerGroup</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group of connections targeting a destination layer.  <a href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map_1_1_layer_group.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ed4e5aa253580229bd94bcaaba29476" id="r_a4ed4e5aa253580229bd94bcaaba29476"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ed4e5aa253580229bd94bcaaba29476">GbtsLayerConnectionMap</a> (std::string &amp;inFile, bool lrtMode)</td></tr>
-<tr class="memdesc:a4ed4e5aa253580229bd94bcaaba29476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0cfd518c008c73f67541b3c8dabee6bf" id="r_a0cfd518c008c73f67541b3c8dabee6bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cfd518c008c73f67541b3c8dabee6bf">fromFile</a> (std::string &amp;inFile, bool lrtMode)</td></tr>
+<tr class="memdesc:a0cfd518c008c73f67541b3c8dabee6bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a GbtsLayerConnectionMap from a file.  <br /></td></tr>
+<tr class="memitem:a2c5ae7a0da6ce12773affe8000096a5f" id="r_a2c5ae7a0da6ce12773affe8000096a5f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c5ae7a0da6ce12773affe8000096a5f">fromStream</a> (std::istream &amp;inStream, bool lrtMode)</td></tr>
+<tr class="memdesc:a2c5ae7a0da6ce12773affe8000096a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a GbtsLayerConnectionMap from an input stream.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -160,15 +162,18 @@ std::map&lt; std::int32_t, std::vector&lt; <a class="el" href="struct_acts_1_1_e
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Loader and container for GBTS layer connection data. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4ed4e5aa253580229bd94bcaaba29476" name="a4ed4e5aa253580229bd94bcaaba29476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ed4e5aa253580229bd94bcaaba29476">&#9670;&#160;</a></span>GbtsLayerConnectionMap()</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0cfd518c008c73f67541b3c8dabee6bf" name="a0cfd518c008c73f67541b3c8dabee6bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cfd518c008c73f67541b3c8dabee6bf">&#9670;&#160;</a></span>fromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Acts::Experimental::GbtsLayerConnectionMap::GbtsLayerConnectionMap </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a> Acts::Experimental::GbtsLayerConnectionMap::fromFile </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>inFile</em></span>, </td>
         </tr>
@@ -178,9 +183,14 @@ std::map&lt; std::int32_t, std::vector&lt; <a class="el" href="struct_acts_1_1_e
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>lrtMode</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Constructor. </p>
+<p>Create a GbtsLayerConnectionMap from a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inFile</td><td>Input configuration file path </td></tr>
@@ -188,6 +198,46 @@ std::map&lt; std::int32_t, std::vector&lt; <a class="el" href="struct_acts_1_1_e
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>A GbtsLayerConnectionMap instance populated with the data from the file </dd></dl>
+
+</div>
+</div>
+<a id="a2c5ae7a0da6ce12773affe8000096a5f" name="a2c5ae7a0da6ce12773affe8000096a5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5ae7a0da6ce12773affe8000096a5f">&#9670;&#160;</a></span>fromStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a> Acts::Experimental::GbtsLayerConnectionMap::fromStream </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>inStream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>lrtMode</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a GbtsLayerConnectionMap from an input stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inStream</td><td>Input stream containing the connection data </td></tr>
+    <tr><td class="paramname">lrtMode</td><td>Enable LRT (Large Radius Tracking) mode </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A GbtsLayerConnectionMap instance populated with the data from the stream </dd></dl>
 
 </div>
 </div>

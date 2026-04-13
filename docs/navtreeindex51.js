@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_geometry_context_ostream_wrapper.html":[7,0,0,152],
+"struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[5,0,0,145,0],
 "struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[7,0,0,152,0],
 "struct_acts_1_1_geometry_identifier_hook.html":[5,0,0,149],
 "struct_acts_1_1_geometry_identifier_hook.html":[7,0,0,156],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[5,0,0,3,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[7,0,0,6,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[5,0,0,3,0,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[7,0,0,6,0,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[5,0,0,3,0,0,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[7,0,0,6,0,0,0,4]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[7,0,0,6,0,0,0]
 };

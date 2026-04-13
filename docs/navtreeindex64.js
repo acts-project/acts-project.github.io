@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[4,9,7,2,2,4],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a92ff66aaa89ee71deee702d7160c3d65":[4,9,7,2,2,0],
 "struct_acts_plugins_1_1_geant4_material_converter.html":[4,9,7,3],
 "struct_acts_plugins_1_1_geant4_material_converter.html#a4503d1a5ec2770e611200d5ec425d39d":[4,9,7,3,1],
 "struct_acts_plugins_1_1_geant4_material_converter.html#aa24e85c5071d46b6c5a2f491784e9a0f":[4,9,7,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[4,9,6,16,0],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[4,9,6,16,0,6],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a67f7baa072b083b9a539e560dfbf7760":[4,9,6,16,0,1],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[4,9,6,16,0,3],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691":[4,9,6,16,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480":[4,9,6,16,0,4]
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[4,9,6,16,0,3]
 };
