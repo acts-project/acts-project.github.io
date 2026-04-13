@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a643777b729e20ea63d5af2271fd53bca":[5,0,0,383,1,0],
+"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a643777b729e20ea63d5af2271fd53bca":[7,0,0,390,1,0],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a8b9f076237135e4719710cbd55a005c2":[5,0,0,383,1,1],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a8b9f076237135e4719710cbd55a005c2":[7,0,0,390,1,1],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#aec5d711e4d4211f60eda8de1865b51b5":[5,0,0,383,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[5,0,0,400,1],
 "struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[7,0,0,407,1],
 "struct_acts_1_1_track_selector_1_1_config.html":[5,0,0,410,0],
-"struct_acts_1_1_track_selector_1_1_config.html":[7,0,0,417,0],
-"struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c":[5,0,0,410,0,25],
-"struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c":[7,0,0,417,0,25]
+"struct_acts_1_1_track_selector_1_1_config.html":[7,0,0,417,0]
 };

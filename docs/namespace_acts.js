@@ -1007,6 +1007,8 @@ var namespace_acts =
     [ "Grid", "namespace_acts.html#a6e446526e27c813da589b5e2bc1a874c", null ],
     [ "Grid", "namespace_acts.html#a7cc4853c5dcc7f0be2b4dc28a7e7cf38", null ],
     [ "GridGlobalIterator", "namespace_acts.html#a323367bcdfc61666350ef9c85a96033f", null ],
+    [ "hashMix", "namespace_acts.html#a541c389dfb5c78e4c3d461f3d11c13f0", null ],
+    [ "hashMixAndCombine", "namespace_acts.html#a563d1364427cc973d4f18913ca057c7f", null ],
     [ "hashString", "namespace_acts.html#a312705c7759168e892ece2b486788dcc", null ],
     [ "hashStringDynamic", "namespace_acts.html#a04217815a63aceaf6ab6d5b64a057cbe", null ],
     [ "hypotSquare", "namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,0,0,200,0],
+"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[7,0,0,207,0],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html#ab7b89cd7e6be5ffc2248ad5b995661fc":[5,0,0,200,0,1],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html#ab7b89cd7e6be5ffc2248ad5b995661fc":[7,0,0,207,0,1],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html#ad3b60497de27d6e5b54220a4846a5ea5":[5,0,0,200,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_material_surface_identifier.html":[5,0,0,255],
 "struct_acts_1_1_material_surface_identifier.html":[7,0,0,262],
 "struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[5,0,0,255,0],
-"struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[7,0,0,262,0],
-"struct_acts_1_1_material_validator_1_1_config.html":[5,0,0,256,0],
-"struct_acts_1_1_material_validator_1_1_config.html":[7,0,0,263,0]
+"struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[7,0,0,262,0]
 };

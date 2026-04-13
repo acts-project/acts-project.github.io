@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#aa1a4748ebccbed22d91a8f67de688e89":[4,12,4,9],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ab4a3da3bea12d5b68895052b12feb50a":[4,12,4,6],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ac1e62d9636081981040dbf62571476f3":[4,12,4,5],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#acfffc4044d5aa391e7da659ab5b8d8f1":[4,12,4,0],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ad57ca0a72ed7e987aef26bc2f73bfaca":[4,12,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[7,0,0,148,2,5],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[5,0,0,143,0],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[7,0,0,150,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[5,0,0,143,0,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[7,0,0,150,0,0],
-"struct_acts_1_1_geometry_context_ostream_wrapper.html":[5,0,0,145]
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[5,0,0,143,0,0]
 };
