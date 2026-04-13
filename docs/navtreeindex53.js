@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_interpolated_material_map_1_1_cache.html#aee4de0ac7b3e281317d6d19a5e3f51da":[4,3,2,17,0,1],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,0,0,200,0],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html":[7,0,0,207,0],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html#ab7b89cd7e6be5ffc2248ad5b995661fc":[5,0,0,200,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_material_surface.html#a8a9febdb86fd43ac019b93cac7bd087e":[7,0,0,261,0],
 "struct_acts_1_1_material_surface_identifier.html":[5,0,0,255],
 "struct_acts_1_1_material_surface_identifier.html":[7,0,0,262],
-"struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[5,0,0,255,0],
-"struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[7,0,0,262,0]
+"struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[5,0,0,255,0]
 };

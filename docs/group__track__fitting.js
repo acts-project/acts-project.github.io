@@ -99,6 +99,7 @@ var group__track__fitting =
       [ "doCovCheckAndAttemptFix", "class_acts_1_1_gain_matrix_smoother.html#afeb152cbcdecd1d1f69a2167ebe45625", null ]
     ] ],
     [ "Acts::GainMatrixUpdater", "class_acts_1_1_gain_matrix_updater.html", [
+      [ "GainMatrixUpdater", "class_acts_1_1_gain_matrix_updater.html#a85efd824a477e2c766d94bfc94d3d75a", null ],
       [ "operator()", "class_acts_1_1_gain_matrix_updater.html#a0fb6d9f9b46e6cfb831ec832cc1d9164", null ]
     ] ],
     [ "Acts::GaussianSumFitter&lt; propagator_t, traj_t &gt;", "struct_acts_1_1_gaussian_sum_fitter.html", [

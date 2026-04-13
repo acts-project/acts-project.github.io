@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[4,9,7,2,2,1],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[4,9,7,2,2,3],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[4,9,7,2,2,2],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a4d7ae6c105360582b40e32c7925f95e8":[4,9,7,2,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[4,9,6,15,0,3],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[4,9,6,15,0,0],
 "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[4,9,6,15,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[4,9,6,16,0],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[4,9,6,16,0,6]
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[4,9,6,16,0]
 };

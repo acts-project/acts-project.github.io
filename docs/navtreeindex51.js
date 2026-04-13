@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[5,0,0,143,0,0],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[7,0,0,150,0,0],
 "struct_acts_1_1_geometry_context_ostream_wrapper.html":[5,0,0,145],
 "struct_acts_1_1_geometry_context_ostream_wrapper.html":[7,0,0,152],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html":[7,0,0,6,4],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[5,0,0,3,4,0],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[7,0,0,6,4,0],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[5,0,0,3,4,1],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[7,0,0,6,4,1]
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[5,0,0,3,4,1]
 };

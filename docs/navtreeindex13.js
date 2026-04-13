@@ -246,8 +246,8 @@ var NAVTREEINDEX13 =
 "class_acts_1_1_gain_matrix_smoother.html#ad27ff8963ddf26a17c8ba0171dbae904":[4,12,9,2],
 "class_acts_1_1_gain_matrix_smoother.html#afeb152cbcdecd1d1f69a2167ebe45625":[4,12,9,4],
 "class_acts_1_1_gain_matrix_updater.html":[4,12,10],
-"class_acts_1_1_gain_matrix_updater.html#a0fb6d9f9b46e6cfb831ec832cc1d9164":[4,12,10,0],
+"class_acts_1_1_gain_matrix_updater.html#a0fb6d9f9b46e6cfb831ec832cc1d9164":[4,12,10,1],
+"class_acts_1_1_gain_matrix_updater.html#a85efd824a477e2c766d94bfc94d3d75a":[4,12,10,0],
 "class_acts_1_1_gaussian_grid_track_density.html":[5,0,0,139],
-"class_acts_1_1_gaussian_grid_track_density.html":[7,0,0,146],
-"class_acts_1_1_gaussian_grid_track_density.html#a536b68a4a5b05b15f9a241cab512ad1a":[5,0,0,139,6]
+"class_acts_1_1_gaussian_grid_track_density.html":[7,0,0,146]
 };

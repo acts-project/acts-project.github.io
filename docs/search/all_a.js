@@ -3,7 +3,7 @@ var searchData=
   ['g_0',['g',['../struct_acts_1_1_eigen_stepper_dense_extension.html#a963dc87e2b008ffbe01503d62652b02f',1,'Acts::EigenStepperDenseExtension::g'],['../namespace_acts_1_1_unit_constants.html#a0dec1d28a12e5e2d0c1dd67e2b603a61',1,'Acts::UnitConstants::g']]],
   ['g4physicalvolume_1',['g4PhysicalVolume',['../class_acts_plugins_1_1_geant4_detector_element.html#a3057ad8d98240524089488f4e3a5f451',1,'ActsPlugins::Geant4DetectorElement']]],
   ['gainmatrixsmoother_2',['GainMatrixSmoother',['../class_acts_1_1_gain_matrix_smoother.html',1,'Acts']]],
-  ['gainmatrixupdater_3',['GainMatrixUpdater',['../class_acts_1_1_gain_matrix_updater.html',1,'Acts']]],
+  ['gainmatrixupdater_3',['GainMatrixUpdater',['../class_acts_1_1_gain_matrix_updater.html',1,'Acts::GainMatrixUpdater'],['../class_acts_1_1_gain_matrix_updater.html#a85efd824a477e2c766d94bfc94d3d75a',1,'Acts::GainMatrixUpdater::GainMatrixUpdater()']]],
   ['gap_4',['Gap',['../namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848a466b98ca0f38bd8bf2260246c91f6882',1,'Acts::Gap'],['../namespace_acts.html#a8e7b9ba567f3fce3fb39c1c9ce093e93a466b98ca0f38bd8bf2260246c91f6882',1,'Acts::Gap']]],
   ['gap_5',['gap',['../struct_acts_1_1_toroid_field_1_1_ect_config.html#abc66cb89acd022170db77d1592f3d1e3',1,'Acts::ToroidField::EctConfig']]],
   ['gaps_6',['gaps',['../class_acts_1_1_volume_stack.html#a4d0cc9a7f9b362b16ac49e97c1b90f10',1,'Acts::VolumeStack']]],

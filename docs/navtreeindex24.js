@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"class_acts_1_1_propagator.html#ac67d44d7a2d79692306e6a2cf93123b5":[5,0,0,311,9],
 "class_acts_1_1_propagator.html#ac67d44d7a2d79692306e6a2cf93123b5":[7,0,0,318,9],
 "class_acts_1_1_propagator.html#acee6f6ec0dd0a4681344137183f31750":[5,0,0,311,15],
 "class_acts_1_1_propagator.html#acee6f6ec0dd0a4681344137183f31750":[7,0,0,318,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "class_acts_1_1_rectangle_bounds.html#a2d85a29f3546df9412233404ed13bcb5":[7,0,0,335,17],
 "class_acts_1_1_rectangle_bounds.html#a506efa49dce9321f3c4689b3e5cde66c":[5,0,0,328,2],
 "class_acts_1_1_rectangle_bounds.html#a506efa49dce9321f3c4689b3e5cde66c":[7,0,0,335,2],
-"class_acts_1_1_rectangle_bounds.html#a5aec304efbeefa6912a54960aa517fce":[5,0,0,328,10],
-"class_acts_1_1_rectangle_bounds.html#a5aec304efbeefa6912a54960aa517fce":[7,0,0,335,10]
+"class_acts_1_1_rectangle_bounds.html#a5aec304efbeefa6912a54960aa517fce":[5,0,0,328,10]
 };
