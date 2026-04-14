@@ -1,0 +1,13 @@
+<map id="Acts::ToroidField::Config" name="Acts::ToroidField::Config">
+<area shape="rect" id="Node000001" title="Full configuration for the toroid field." alt="" coords="507,101,643,141"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_toroid_field_1_1_barrel_config.html" title="Configuration for barrel toroid coils." alt="" coords="240,5,376,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,41,484,71,541,99,539,104,482,76,388,46"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_toroid_field_1_1_ect_config.html" title="Configuration for end&#45;cap toroid (ECT) coils." alt="" coords="240,69,376,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="390,96,507,111,506,116,389,102"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_toroid_field_1_1_layout_config.html" title="Configuration for coil layout and discretization." alt="" coords="240,133,376,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="390,146,482,136,506,132,507,138,483,141,390,151"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="239,209,377,234"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="391,216,437,208,482,194,522,168,554,139,557,143,525,173,484,198,438,213,391,221"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,209,135,234"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="148,219,238,219,238,224,148,224"/>
+</map>
