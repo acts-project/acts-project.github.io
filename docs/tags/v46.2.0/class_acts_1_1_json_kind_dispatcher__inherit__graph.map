@@ -1,7 +1,0 @@
-<map id="Acts::JsonKindDispatcher&lt; return_t, args_t &gt;" name="Acts::JsonKindDispatcher&lt; return_t, args_t &gt;">
-<area shape="rect" id="Node000001" title="JSON&#45;specific dispatcher that routes decoder functions based on a string kind tag found in the encode..." alt="" coords="5,43,189,83"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_json_kind_dispatcher.html" title=" " alt="" coords="409,5,593,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,50,408,31,409,36,203,56"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="387,79,615,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,84,214,95,301,102,386,103,386,108,301,108,213,100,166,89"/>
-</map>
