@@ -1,5 +1,11 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[4,9,6,15,0],
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[4,9,6,15,0,1],
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[4,9,6,15,0,3],
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[4,9,6,15,0,0],
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[4,9,6,15,0,2],
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[4,9,6,16,0],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[4,9,6,16,0,6],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a67f7baa072b083b9a539e560dfbf7760":[4,9,6,16,0,1],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[4,9,6,16,0,3],

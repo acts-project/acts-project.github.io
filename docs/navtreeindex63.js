@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_fatras_1_1_neutral_selector.html#a5a3e57221d6d1d22016f8a2ddfd9b2c4":[5,0,2,23,0],
+"struct_acts_fatras_1_1_neutral_selector.html#a5a3e57221d6d1d22016f8a2ddfd9b2c4":[7,0,1,24,0],
+"struct_acts_fatras_1_1_no_decay.html":[5,0,2,24],
+"struct_acts_fatras_1_1_no_decay.html":[7,0,1,25],
+"struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476":[5,0,2,24,1],
+"struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476":[7,0,1,25,1],
 "struct_acts_fatras_1_1_no_decay.html#acb299224bf542a881e4398b526b7f175":[5,0,2,24,0],
 "struct_acts_fatras_1_1_no_decay.html#acb299224bf542a881e4398b526b7f175":[7,0,1,25,0],
 "struct_acts_fatras_1_1_no_surface.html":[5,0,2,25],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_plugins_1_1_geant4_algebra_converter.html#aa97a8225fd036bb1bb99adee55d771a4":[4,9,7,0,0],
 "struct_acts_plugins_1_1_geant4_algebra_converter.html#aebf1e58042a89d3ada3d01a3b142f6e1":[4,9,7,0,4],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html":[4,9,7,2,0],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a3b27731303c914e0cf1197c0714694e1":[4,9,7,2,0,4],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a4e00e1da40a2877a238f5462b036f69f":[4,9,7,2,0,3],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a69f62f49444123426d73085ac8fdb08d":[4,9,7,2,0,0],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9":[4,9,7,2,0,2],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[4,9,7,2,0,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[4,9,7,2,1],
-"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html":[4,9,7,2,2]
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a3b27731303c914e0cf1197c0714694e1":[4,9,7,2,0,4]
 };

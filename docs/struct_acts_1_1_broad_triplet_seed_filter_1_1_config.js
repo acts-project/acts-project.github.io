@@ -1,5 +1,7 @@
 var struct_acts_1_1_broad_triplet_seed_filter_1_1_config =
 [
+    [ "absDeltaEtaMinImpact", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#acb77a87dc9ffd6cc92451d5c826c3222", null ],
+    [ "absDeltaEtaWeightFactor", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#abe97235047e893378a27f53b82f89d04", null ],
     [ "centralSeedConfirmationRange", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a331e3803f3868ef089c25944ca3d75c2", null ],
     [ "compatSeedLimit", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a983d0053697fd28d1664103fd34476bd", null ],
     [ "compatSeedWeight", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#abd7658d1bec6f517cb1d73bee43cbbf4", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html":[4,12,4],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a0478f79f75de203b2879708b2c32936e":[4,12,4,8],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a26648638d331daa29debaaed1a716750":[4,12,4,2],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a5fe189ea410d2b8ad9bb18cfb348ed8f":[4,12,4,10],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a8d2ae5a4badbe0cd03db13d2bb032a0c":[4,12,4,7],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#aa1a4748ebccbed22d91a8f67de688e89":[4,12,4,9],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#ab4a3da3bea12d5b68895052b12feb50a":[4,12,4,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a44f2f74cede8c8fe016f399a4e2b3756":[5,0,0,141,2,2],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a44f2f74cede8c8fe016f399a4e2b3756":[7,0,0,148,2,2],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#add022ac4ea77e79d82145cdbd0beb5f1":[5,0,0,141,2,6],
-"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#add022ac4ea77e79d82145cdbd0beb5f1":[7,0,0,148,2,6],
-"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[5,0,0,141,2,5],
-"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[7,0,0,148,2,5],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[5,0,0,143,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[7,0,0,150,0]
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#add022ac4ea77e79d82145cdbd0beb5f1":[7,0,0,148,2,6]
 };

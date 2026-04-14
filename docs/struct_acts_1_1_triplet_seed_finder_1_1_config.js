@@ -1,5 +1,6 @@
 var struct_acts_1_1_triplet_seed_finder_1_1_config =
 [
+    [ "cotThetaDiffMax", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a683e3e545b85657e99fa76510ffc15d5", null ],
     [ "helixCutTolerance", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2ab085da515e074758ee85d32396bbd8", null ],
     [ "impactMax", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#aaca0e64766e5d8bec877725091ffe47d", null ],
     [ "minPt", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2b53ee52ca5a8e67699a16f6a82fe150", null ],

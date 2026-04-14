@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a4e00e1da40a2877a238f5462b036f69f":[4,9,7,2,0,3],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a69f62f49444123426d73085ac8fdb08d":[4,9,7,2,0,0],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#a8b347fa5d76a1051b3b1c8ec7f39eeb9":[4,9,7,2,0,2],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_cache.html#ab1d74e293db1476cf2075590f81bb257":[4,9,7,2,0,1],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_config.html":[4,9,7,2,1],
+"struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html":[4,9,7,2,2],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a2786b92799a43ef1c1b1fbc1c815959d":[4,9,7,2,2,1],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a402db01c9178bde3bf2ba39e18014e59":[4,9,7,2,2,3],
 "struct_acts_plugins_1_1_geant4_detector_surface_factory_1_1_options.html#a49b6e3d970d6561eb8ab379252b3b754":[4,9,7,2,2,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#a20171567816f575b17a8c25af59a0a3c":[4,9,12,14,4],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#a77a0b0c9747c9b5a11f05ec4c27461ca":[4,9,12,14,3],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#ad95be189488e23ca005fa853c5052afb":[4,9,12,14,0],
-"struct_acts_plugins_1_1_t_geo_surface_converter.html#af5c2f59a16fff718f725dd7af1ecdd8c":[4,9,12,14,2],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[4,9,6,15,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[4,9,6,15,0,1],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[4,9,6,15,0,3],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#aae9b014f8ad181a601abb27151d5c057":[4,9,6,15,0,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#af6f0a4eab073abfdd57b07c74055ae7b":[4,9,6,15,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[4,9,6,16,0]
+"struct_acts_plugins_1_1_t_geo_surface_converter.html#af5c2f59a16fff718f725dd7af1ecdd8c":[4,9,12,14,2]
 };

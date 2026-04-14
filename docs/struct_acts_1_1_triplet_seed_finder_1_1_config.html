@@ -138,6 +138,8 @@ Inheritance diagram for Acts::TripletSeedFinder::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a683e3e545b85657e99fa76510ffc15d5" id="r_a683e3e545b85657e99fa76510ffc15d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a683e3e545b85657e99fa76510ffc15d5">cotThetaDiffMax</a> = std::numeric_limits&lt;float&gt;::infinity()</td></tr>
+<tr class="memdesc:a683e3e545b85657e99fa76510ffc15d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum allowed difference in cot(theta) between the bottom and top doublets, applied as a pre-filter before the expensive strip coordinate transformation.  <br /></td></tr>
 <tr class="memitem:a2ab085da515e074758ee85d32396bbd8" id="r_a2ab085da515e074758ee85d32396bbd8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab085da515e074758ee85d32396bbd8">helixCutTolerance</a> = 1</td></tr>
 <tr class="memdesc:a2ab085da515e074758ee85d32396bbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter which can loosen the tolerance of the track seed to form a helix.  <br /></td></tr>
 <tr class="memitem:aaca0e64766e5d8bec877725091ffe47d" id="r_aaca0e64766e5d8bec877725091ffe47d"><td class="memItemLeft" align="right" valign="top"><a id="aaca0e64766e5d8bec877725091ffe47d" name="aaca0e64766e5d8bec877725091ffe47d"></a>
@@ -163,6 +165,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>sortedByCotTheta</b> 
 <div class="textblock"><p>Collection of configuration parameters for the triplet seed finder. </p>
 <p>This includes triplet cuts, steering switches, and assumptions about the space points. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a683e3e545b85657e99fa76510ffc15d5" name="a683e3e545b85657e99fa76510ffc15d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a683e3e545b85657e99fa76510ffc15d5">&#9670;&#160;</a></span>cotThetaDiffMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Acts::TripletSeedFinder::Config::cotThetaDiffMax = std::numeric_limits&lt;float&gt;::infinity()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum allowed difference in cot(theta) between the bottom and top doublets, applied as a pre-filter before the expensive strip coordinate transformation. </p>
+<p>Only active when useStripInfo is true. Set to infinity (default) to disable. </p>
+
+</div>
+</div>
 <a id="a2ab085da515e074758ee85d32396bbd8" name="a2ab085da515e074758ee85d32396bbd8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ab085da515e074758ee85d32396bbd8">&#9670;&#160;</a></span>helixCutTolerance</h2>
 

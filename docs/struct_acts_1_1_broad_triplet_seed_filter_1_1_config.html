@@ -138,6 +138,11 @@ Collaboration diagram for Acts::BroadTripletSeedFilter::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:acb77a87dc9ffd6cc92451d5c826c3222" id="r_acb77a87dc9ffd6cc92451d5c826c3222"><td class="memItemLeft" align="right" valign="top"><a id="acb77a87dc9ffd6cc92451d5c826c3222" name="acb77a87dc9ffd6cc92451d5c826c3222"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>absDeltaEtaMinImpact</b> = 2 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
+<tr class="memdesc:acb77a87dc9ffd6cc92451d5c826c3222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum impact parameter to apply the abs(delta-eta) weight only want to apply to displaced seeds. <br /></td></tr>
+<tr class="memitem:abe97235047e893378a27f53b82f89d04" id="r_abe97235047e893378a27f53b82f89d04"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe97235047e893378a27f53b82f89d04">absDeltaEtaWeightFactor</a> = 0</td></tr>
+<tr class="memdesc:abe97235047e893378a27f53b82f89d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight factor for the abs(delta-eta) penalty between the seed direction and the vector from the beamspot to the seed's pca.  <br /></td></tr>
 <tr class="memitem:a331e3803f3868ef089c25944ca3d75c2" id="r_a331e3803f3868ef089c25944ca3d75c2"><td class="memItemLeft" align="right" valign="top"><a id="a331e3803f3868ef089c25944ca3d75c2" name="a331e3803f3868ef089c25944ca3d75c2"></a>
 <a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>centralSeedConfirmationRange</b></td></tr>
 <tr class="memdesc:a331e3803f3868ef089c25944ca3d75c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains parameters for central seed confirmation. <br /></td></tr>
@@ -182,6 +187,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useDeltaRinsteadOfTop
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure that holds configuration parameters for the seed filter algorithm. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="abe97235047e893378a27f53b82f89d04" name="abe97235047e893378a27f53b82f89d04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe97235047e893378a27f53b82f89d04">&#9670;&#160;</a></span>absDeltaEtaWeightFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Acts::BroadTripletSeedFilter::Config::absDeltaEtaWeightFactor = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Weight factor for the abs(delta-eta) penalty between the seed direction and the vector from the beamspot to the seed's pca. </p>
+<p>Seeds from LLP decays tend toward small delta-eta values due to the correlated direction of the LLP and its decay products. Set to 0 (default) to disable. </p>
+
+</div>
+</div>
 <a id="a983d0053697fd28d1664103fd34476bd" name="a983d0053697fd28d1664103fd34476bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a983d0053697fd28d1664103fd34476bd">&#9670;&#160;</a></span>compatSeedLimit</h2>
 
