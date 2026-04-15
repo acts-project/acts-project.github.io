@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"namespace_acts_1_1_grid_axis_generators.html#a54d08e7cb3e9a4d37e0eeca80fce3143":[5,0,0,2,22],
 "namespace_acts_1_1_grid_axis_generators.html#a55c9b0f0952f744e34d618eef19b5d7d":[5,0,0,2,8],
 "namespace_acts_1_1_grid_axis_generators.html#a5c680f9fb35527e9067be228025c7c95":[5,0,0,2,39],
 "namespace_acts_1_1_grid_axis_generators.html#a650b2230134a2098ef1c905403d4dcaf":[5,0,0,2,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a79ef2ba5f5ab651398a2a30172589e0a":[5,0,0,17,0,1],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a79ef2ba5f5ab651398a2a30172589e0a":[7,0,0,24,0,1],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[5,0,0,17,0,10],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[7,0,0,24,0,10],
-"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a8d8dc1014acb81c97d4341ba03f31f06":[5,0,0,17,0,4]
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a7abb7fedb3afde8d3284a2aaacc32e97":[7,0,0,24,0,10]
 };

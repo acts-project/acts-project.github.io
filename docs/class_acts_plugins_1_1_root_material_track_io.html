@@ -143,10 +143,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a58a68ce4ea241349e142ba799a511074" id="r_a58a68ce4ea241349e142ba799a511074"><td class="memItemLeft" align="right" valign="top"><a id="a58a68ce4ea241349e142ba799a511074" name="a58a68ce4ea241349e142ba799a511074"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~RootMaterialTrackIo</b> ()=default</td></tr>
 <tr class="memdesc:a58a68ce4ea241349e142ba799a511074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="memitem:a6ffd2dfd7e549bf15ae43fe4b34ff292" id="r_a6ffd2dfd7e549bf15ae43fe4b34ff292"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ffd2dfd7e549bf15ae43fe4b34ff292">connectForRead</a> (TChain &amp;materialChain)</td></tr>
-<tr class="memdesc:a6ffd2dfd7e549bf15ae43fe4b34ff292"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the branch connection for reading from a file  <br /></td></tr>
+<tr class="memitem:aae95a9fdb5f59ff02a362da167bc3826" id="r_aae95a9fdb5f59ff02a362da167bc3826"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae95a9fdb5f59ff02a362da167bc3826">connectForRead</a> (TTree &amp;materialChain)</td></tr>
+<tr class="memdesc:aae95a9fdb5f59ff02a362da167bc3826"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the branch connection for reading from a file  <br /></td></tr>
 <tr class="memitem:acbf071a0e59326daa8991505b46d6c76" id="r_acbf071a0e59326daa8991505b46d6c76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf071a0e59326daa8991505b46d6c76">connectForWrite</a> (TTree &amp;materialTree)</td></tr>
 <tr class="memdesc:acbf071a0e59326daa8991505b46d6c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the branch connection for writing to a file  <br /></td></tr>
+<tr class="memitem:a5083916179974d304713b5deee66401e" id="r_a5083916179974d304713b5deee66401e"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5083916179974d304713b5deee66401e">eventId</a> () const</td></tr>
 <tr class="memitem:aab564d887e75a0e4efccb55aa3ee8d7c" id="r_aab564d887e75a0e4efccb55aa3ee8d7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">Acts::RecordedMaterialTrack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab564d887e75a0e4efccb55aa3ee8d7c">read</a> () const</td></tr>
 <tr class="memdesc:aab564d887e75a0e4efccb55aa3ee8d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the material track from the tree.  <br /></td></tr>
 <tr class="memitem:a9c91326a6f55098352f10624359a9b41" id="r_a9c91326a6f55098352f10624359a9b41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c91326a6f55098352f10624359a9b41">write</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, std::uint32_t eventNum, const <a class="el" href="namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd">Acts::RecordedMaterialTrack</a> &amp;materialTrack)</td></tr>
@@ -189,8 +190,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a6ffd2dfd7e549bf15ae43fe4b34ff292" name="a6ffd2dfd7e549bf15ae43fe4b34ff292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ffd2dfd7e549bf15ae43fe4b34ff292">&#9670;&#160;</a></span>connectForRead()</h2>
+<a id="aae95a9fdb5f59ff02a362da167bc3826" name="aae95a9fdb5f59ff02a362da167bc3826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae95a9fdb5f59ff02a362da167bc3826">&#9670;&#160;</a></span>connectForRead()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +199,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void ActsPlugins::RootMaterialTrackIo::connectForRead </td>
           <td>(</td>
-          <td class="paramtype">TChain &amp;</td>          <td class="paramname"><span class="paramname"><em>materialChain</em></span></td><td>)</td>
+          <td class="paramtype">TTree &amp;</td>          <td class="paramname"><span class="paramname"><em>materialChain</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -207,7 +208,7 @@ Public Member Functions</h2></td></tr>
 <p>sets the branch connection for reading from a file </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialChain</td><td>the TChain to read the material track from </td></tr>
+    <tr><td class="paramname">materialChain</td><td>the TTree to read the material track from </td></tr>
   </table>
   </dd>
 </dl>
@@ -236,6 +237,24 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5083916179974d304713b5deee66401e" name="a5083916179974d304713b5deee66401e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5083916179974d304713b5deee66401e">&#9670;&#160;</a></span>eventId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t ActsPlugins::RootMaterialTrackIo::eventId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The current event ID </dd></dl>
 
 </div>
 </div>
