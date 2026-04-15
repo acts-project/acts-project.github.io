@@ -934,6 +934,7 @@ var namespace_acts =
     [ "cathetusSquareUnchecked", "namespace_acts.html#aaee82542f951ab740dd4f0cb212be318", null ],
     [ "checkSubspaceIndices", "namespace_acts.html#adca167882d01bd6ed5541f83a36031e9", null ],
     [ "clampValue", "namespace_acts.html#a171b9272b990cb467e1e15f36638604e", null ],
+    [ "compose", "namespace_acts.html#a7e169c3863832e8b6129c08bc30e62ed", null ],
     [ "computeEnergyLossBethe", "namespace_acts.html#a7969e3bd01832c6be8de5ef2c3e070ef", null ],
     [ "computeEnergyLossLandau", "namespace_acts.html#aeb22670d2e2303ba2854c2169aa08608", null ],
     [ "computeEnergyLossLandauFwhm", "namespace_acts.html#aad4db30b6dc42d8043e312d4936ced86", null ],

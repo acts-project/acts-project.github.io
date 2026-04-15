@@ -143,6 +143,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a77a0b0c9747c9b5a11f05ec4c27461ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate TGeo degree [0, 360) to radian.  <br /></td></tr>
 <tr class="memitem:a20171567816f575b17a8c25af59a0a3c" id="r_a20171567816f575b17a8c25af59a0a3c"><td class="memItemLeft" align="right" valign="top">static std::tuple&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20171567816f575b17a8c25af59a0a3c">toSurface</a> (const TGeoShape &amp;tgShape, const TGeoMatrix &amp;tgMatrix, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, double scalor=10.) noexcept(false)</td></tr>
 <tr class="memdesc:a20171567816f575b17a8c25af59a0a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a TGeoShape to a Surface.  <br /></td></tr>
+<tr class="memitem:af78d1ef7ae7304c2460b611515d4517f" id="r_af78d1ef7ae7304c2460b611515d4517f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af78d1ef7ae7304c2460b611515d4517f">transformFromShape</a> (const TGeoShape &amp;tgShape, const TGeoMatrix &amp;tgMatrix, <a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a> axes, double scalor=10.) noexcept(false)</td></tr>
+<tr class="memdesc:af78d1ef7ae7304c2460b611515d4517f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the transform from a TGeoShape by trying cylinder, disc, then plane conversion.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper struct to convert TGeoShapes into Surface or Volume Bounds. </p>
@@ -404,6 +406,63 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>shared pointer to a surface and the original thickness that has been condensed to the surface </dd></dl>
+
+</div>
+</div>
+<a id="af78d1ef7ae7304c2460b611515d4517f" name="af78d1ef7ae7304c2460b611515d4517f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af78d1ef7ae7304c2460b611515d4517f">&#9670;&#160;</a></span>transformFromShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> ActsPlugins::TGeoSurfaceConverter::transformFromShape </td>
+          <td>(</td>
+          <td class="paramtype">const TGeoShape &amp;</td>          <td class="paramname"><span class="paramname"><em>tgShape</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TGeoMatrix &amp;</td>          <td class="paramname"><span class="paramname"><em>tgMatrix</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_plugins_1_1_t_geo_axes.html">TGeoAxes</a></td>          <td class="paramname"><span class="paramname"><em>axes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>scalor</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10.</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extract the transform from a TGeoShape by trying cylinder, disc, then plane conversion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tgShape</td><td>The TGeoShape </td></tr>
+    <tr><td class="paramname">tgMatrix</td><td>The matrix representing the transform </td></tr>
+    <tr><td class="paramname">axes</td><td>The axes definition </td></tr>
+    <tr><td class="paramname">scalor</td><td>The unit scalor between TGeo and Acts </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The Acts transform </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the shape cannot be converted </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

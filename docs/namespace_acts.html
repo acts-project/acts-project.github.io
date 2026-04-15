@@ -2028,6 +2028,9 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:a171b9272b990cb467e1e15f36638604e" id="r_a171b9272b990cb467e1e15f36638604e"><td class="memTemplParams" colspan="2">template&lt;typename T, typename U&gt; </td></tr>
 <tr class="memitem:a171b9272b990cb467e1e15f36638604e template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a171b9272b990cb467e1e15f36638604e">clampValue</a> (U value)</td></tr>
 <tr class="memdesc:a171b9272b990cb467e1e15f36638604e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamp a numeric value to another type, respecting range of the target type.  <br /></td></tr>
+<tr class="memitem:a7e169c3863832e8b6129c08bc30e62ed" id="r_a7e169c3863832e8b6129c08bc30e62ed"><td class="memTemplParams" colspan="2">template&lt;typename... Fs&gt; </td></tr>
+<tr class="memitem:a7e169c3863832e8b6129c08bc30e62ed template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e169c3863832e8b6129c08bc30e62ed">compose</a> (Fs &amp;&amp;... fs)</td></tr>
+<tr class="memdesc:a7e169c3863832e8b6129c08bc30e62ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compose multiple callables into a single callable, applied right-to-left (mathematical convention).  <br /></td></tr>
 <tr class="memitem:a7969e3bd01832c6be8de5ef2c3e070ef" id="r_a7969e3bd01832c6be8de5ef2c3e070ef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:a7969e3bd01832c6be8de5ef2c3e070ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the mean energy loss due to ionisation and excitation.  <br /></td></tr>
 <tr class="memitem:aeb22670d2e2303ba2854c2169aa08608" id="r_aeb22670d2e2303ba2854c2169aa08608"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb22670d2e2303ba2854c2169aa08608">computeEnergyLossLandau</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
@@ -5781,6 +5784,41 @@ template&lt;typename T, typename U&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the clamped value </dd></dl>
+
+</div>
+</div>
+<a id="a7e169c3863832e8b6129c08bc30e62ed" name="a7e169c3863832e8b6129c08bc30e62ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e169c3863832e8b6129c08bc30e62ed">&#9670;&#160;</a></span>compose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Fs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::compose </td>
+          <td>(</td>
+          <td class="paramtype">Fs &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>fs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compose multiple callables into a single callable, applied right-to-left (mathematical convention). </p>
+<p>Given <span class="tt">compose(f, g, h)</span>, the returned callable computes <span class="tt">f(g(h(x)))</span>. All callables are stored exactly once in a tuple, avoiding the nested-copy overhead of a recursive lambda approach.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Fs</td><td>The callable types </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>The callables to compose </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A callable that applies <code class="param">fs</code> right-to-left </dd></dl>
 
 </div>
 </div>

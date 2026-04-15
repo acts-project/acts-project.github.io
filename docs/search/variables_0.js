@@ -39,11 +39,12 @@ var searchData=
   ['autosurfacebinning_36',['autoSurfaceBinning',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a14fe4615bbcb73842d791700522b663e',1,'ActsPlugins::TGeoLayerBuilder::Config']]],
   ['averageonsurface_37',['averageOnSurface',['../struct_acts_1_1_multi_stepper_surface_reached.html#a791fc5b9a1b58b158b1c3817935f04d7',1,'Acts::MultiStepperSurfaceReached']]],
   ['averageonsurfacetolerance_38',['averageOnSurfaceTolerance',['../struct_acts_1_1_multi_stepper_surface_reached.html#a61fc0a7f9dff5ecacdc30f1b785c214d',1,'Acts::MultiStepperSurfaceReached']]],
-  ['axisbound_39',['AxisBound',['../namespace_acts.html#a507e1521b4ba13a3413804400712f00a',1,'Acts']]],
-  ['axisboundarytypehistname_40',['axisBoundaryTypeHistName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a26470a56dc521da5f3732b0f810c010b',1,'ActsPlugins::RootMaterialMapIo::Config']]],
-  ['axisclosed_41',['AxisClosed',['../namespace_acts.html#a175a5c9afec75e82bcac5d420a12a51a',1,'Acts']]],
-  ['axisdir_42',['axisDir',['../struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a8b9f076237135e4719710cbd55a005c2',1,'Acts::SurfaceArrayCreator::ProtoAxis']]],
-  ['axisdirhistname_43',['axisDirHistName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af56968784b90ad02e1d0879a41e153e2',1,'ActsPlugins::RootMaterialMapIo::Config']]],
-  ['axisdirs_44',['axisDirs',['../class_acts_1_1_grid_access_1_1_global_subspace.html#a63f360cfad208feb8102eb462fb36222',1,'Acts::GridAccess::GlobalSubspace']]],
-  ['axisopen_45',['AxisOpen',['../namespace_acts.html#ad651c70eef2af54126bd856e558b80ed',1,'Acts']]]
+  ['axes_39',['axes',['../struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#a387f909abd03221746bffabeedee3819',1,'ActsPlugins::DD4hep::DD4hepBackend::LayerSpec']]],
+  ['axisbound_40',['AxisBound',['../namespace_acts.html#a507e1521b4ba13a3413804400712f00a',1,'Acts']]],
+  ['axisboundarytypehistname_41',['axisBoundaryTypeHistName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a26470a56dc521da5f3732b0f810c010b',1,'ActsPlugins::RootMaterialMapIo::Config']]],
+  ['axisclosed_42',['AxisClosed',['../namespace_acts.html#a175a5c9afec75e82bcac5d420a12a51a',1,'Acts']]],
+  ['axisdir_43',['axisDir',['../struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a8b9f076237135e4719710cbd55a005c2',1,'Acts::SurfaceArrayCreator::ProtoAxis']]],
+  ['axisdirhistname_44',['axisDirHistName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af56968784b90ad02e1d0879a41e153e2',1,'ActsPlugins::RootMaterialMapIo::Config']]],
+  ['axisdirs_45',['axisDirs',['../class_acts_1_1_grid_access_1_1_global_subspace.html#a63f360cfad208feb8102eb462fb36222',1,'Acts::GridAccess::GlobalSubspace']]],
+  ['axisopen_46',['AxisOpen',['../namespace_acts.html#ad651c70eef2af54126bd856e558b80ed',1,'Acts']]]
 ];

@@ -17,7 +17,9 @@ var annotated_dup =
         [ "TimedConnect", "struct_acts_1_1_ccl_1_1_timed_connect.html", "struct_acts_1_1_ccl_1_1_timed_connect" ]
       ] ],
       [ "Experimental", "namespace_acts_1_1_experimental.html", [
+        [ "BarrelEndcapAssembler", "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html", "class_acts_1_1_experimental_1_1_barrel_endcap_assembler" ],
         [ "Blueprint", "class_acts_1_1_experimental_1_1_blueprint.html", "class_acts_1_1_experimental_1_1_blueprint" ],
+        [ "BlueprintBuilder", "class_acts_1_1_experimental_1_1_blueprint_builder.html", "class_acts_1_1_experimental_1_1_blueprint_builder" ],
         [ "BlueprintNode", "class_acts_1_1_experimental_1_1_blueprint_node.html", "class_acts_1_1_experimental_1_1_blueprint_node" ],
         [ "BlueprintOptions", "struct_acts_1_1_experimental_1_1_blueprint_options.html", "struct_acts_1_1_experimental_1_1_blueprint_options" ],
         [ "CompositeSpacePointLineFitter", "class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html", "class_acts_1_1_experimental_1_1_composite_space_point_line_fitter" ],
@@ -28,6 +30,7 @@ var annotated_dup =
         [ "CylindricalSpacePointKDTree", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree" ],
         [ "CylindricalSpacePointKDTreeBuilder", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder.html", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder" ],
         [ "Efficiency", "class_acts_1_1_experimental_1_1_efficiency.html", "class_acts_1_1_experimental_1_1_efficiency" ],
+        [ "ElementLayerAssembler", "class_acts_1_1_experimental_1_1_element_layer_assembler.html", "class_acts_1_1_experimental_1_1_element_layer_assembler" ],
         [ "GbtsEdge", "struct_acts_1_1_experimental_1_1_gbts_edge.html", "struct_acts_1_1_experimental_1_1_gbts_edge" ],
         [ "GbtsEdgeState", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html", "struct_acts_1_1_experimental_1_1_gbts_edge_state" ],
         [ "GbtsEtaBin", "struct_acts_1_1_experimental_1_1_gbts_eta_bin.html", "struct_acts_1_1_experimental_1_1_gbts_eta_bin" ],
@@ -54,6 +57,8 @@ var annotated_dup =
         [ "MultiWireVolumeBuilder", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder" ],
         [ "ProfileHistogram", "class_acts_1_1_experimental_1_1_profile_histogram.html", "class_acts_1_1_experimental_1_1_profile_histogram" ],
         [ "ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", "struct_acts_1_1_experimental_1_1_scattering_properties" ],
+        [ "SensorLayer", "class_acts_1_1_experimental_1_1_sensor_layer.html", "class_acts_1_1_experimental_1_1_sensor_layer" ],
+        [ "SensorLayerAssembler", "class_acts_1_1_experimental_1_1_sensor_layer_assembler.html", "class_acts_1_1_experimental_1_1_sensor_layer_assembler" ],
         [ "StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", "class_acts_1_1_experimental_1_1_static_blueprint_node" ],
         [ "TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", "class_acts_1_1_experimental_1_1_try_all_navigator" ]
       ] ],
@@ -646,6 +651,9 @@ var annotated_dup =
       [ "SingleParticleSimulationResult", "struct_acts_fatras_1_1_single_particle_simulation_result.html", "struct_acts_fatras_1_1_single_particle_simulation_result" ]
     ] ],
     [ "ActsPlugins", "namespace_acts_plugins.html", [
+      [ "DD4hep", null, [
+        [ "DD4hepBackend", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend" ]
+      ] ],
       [ "DetrayConversionUtils", null, [
         [ "Cache", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache" ]
       ] ],
