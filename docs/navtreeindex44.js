@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"namespace_acts.html#a7cc4853c5dcc7f0be2b4dc28a7e7cf38":[5,0,0,792],
+"namespace_acts.html#a7e169c3863832e8b6129c08bc30e62ed":[5,0,0,720],
 "namespace_acts.html#a7e485245a070df5a95f113e9ada82f40":[5,0,0,682],
 "namespace_acts.html#a7fc11ee35d17cdf6bb12607b24ef9e7d":[5,0,0,991],
 "namespace_acts.html#a813d99d294c94b676e4e7763b4af7901":[5,0,0,561],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "namespace_acts_1_1_grid_axis_generators.html#a3aec93b57b43f433623e7edc2c52d916":[5,0,0,2,40],
 "namespace_acts_1_1_grid_axis_generators.html#a3bc24833583c4c2efc480ef6978368e7":[5,0,0,2,27],
 "namespace_acts_1_1_grid_axis_generators.html#a3eb4c213716a7497707e20989b00e5d4":[5,0,0,2,36],
-"namespace_acts_1_1_grid_axis_generators.html#a3f0f0423ba3fdb611b982e4e2c150c24":[5,0,0,2,41],
-"namespace_acts_1_1_grid_axis_generators.html#a4f989e24f0d5a45fb23577422cc63b74":[5,0,0,2,28],
-"namespace_acts_1_1_grid_axis_generators.html#a545e411a4802c27371428a20fdf9ac51":[5,0,0,2,37]
+"namespace_acts_1_1_grid_axis_generators.html#a3f0f0423ba3fdb611b982e4e2c150c24":[5,0,0,2,41]
 };

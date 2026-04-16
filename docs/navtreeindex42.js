@@ -68,10 +68,12 @@ var NAVTREEINDEX42 =
 "group__geomodel__plugin.html#gacc92dd72a5a39569cf260fa517bd6b3b":[4,9,8,12],
 "group__geomodel__plugin.html#gae23e284dc2b93ee33367d4641e85a349":[4,9,8,6],
 "group__gnn__plugin.html":[4,9,6],
-"group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439":[4,9,6,22],
-"group__gnn__plugin.html#ga7fe8c9abff7445d3681d90bae22065c6":[4,9,6,23],
+"group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6":[4,9,6,24],
+"group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439":[4,9,6,21],
+"group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f":[4,9,6,22],
+"group__gnn__plugin.html#ga7fe8c9abff7445d3681d90bae22065c6":[4,9,6,25],
+"group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21":[4,9,6,23],
 "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1":[4,9,6,20],
-"group__gnn__plugin.html#gaddbdd0409b14274fd8d728ec13b18673":[4,9,6,21],
 "group__hashing__plugin.html":[4,9,9],
 "group__json__plugin.html":[4,9,10],
 "group__json__plugin.html#ga0180294a7f0ba9cf68cfe12f157c86e5":[4,9,10,60],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "namespace_acts.html":[5,0,0],
 "namespace_acts.html#a00c1bda0e98b2e133600784dbb185048":[5,0,0,685],
 "namespace_acts.html#a011628b4fe22e244f04ee152403c6d5f":[5,0,0,818],
-"namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded":[5,0,0,512],
-"namespace_acts.html#a02e2191d2c123c5d7394238aa560e8d3":[5,0,0,771],
-"namespace_acts.html#a04217815a63aceaf6ab6d5b64a057cbe":[5,0,0,797]
+"namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded":[5,0,0,512]
 };

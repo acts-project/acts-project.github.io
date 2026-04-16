@@ -174,10 +174,16 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:gac273131a18e9f7f3e3873054606325b1" id="r_gac273131a18e9f7f3e3873054606325b1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt;, std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac273131a18e9f7f3e3873054606325b1">ActsPlugins::applyEdgeLimit</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;edgeIndex, const std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &amp;edgeFeatures, std::size_t maxEdges, std::optional&lt; cudaStream_t &gt; stream)</td></tr>
 <tr class="memdesc:gac273131a18e9f7f3e3873054606325b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a limit on the number of edges consistently on edgeIndex and edgeFeatures.  <br /></td></tr>
-<tr class="memitem:gaddbdd0409b14274fd8d728ec13b18673" id="r_gaddbdd0409b14274fd8d728ec13b18673"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt;, <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaddbdd0409b14274fd8d728ec13b18673">ActsPlugins::applyScoreCut</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;scores, const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;edgeIndex, float cut, std::optional&lt; cudaStream_t &gt; stream={})</td></tr>
-<tr class="memdesc:gaddbdd0409b14274fd8d728ec13b18673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a score cut to the tensor and return a new tensor with the values that satisfy the cut.  <br /></td></tr>
 <tr class="memitem:ga34c72c5c5e8f59873cdea1777a39f439" id="r_ga34c72c5c5e8f59873cdea1777a39f439"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34c72c5c5e8f59873cdea1777a39f439">ActsPlugins::operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device)</td></tr>
 <tr class="memdesc:ga34c72c5c5e8f59873cdea1777a39f439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for Device.  <br /></td></tr>
+<tr class="memitem:ga59b230f6910ea0de9bd6a658256abc8f" id="r_ga59b230f6910ea0de9bd6a658256abc8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59b230f6910ea0de9bd6a658256abc8f">ActsPlugins::scoreMask</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;scores, float cut, std::optional&lt; cudaStream_t &gt; stream={})</td></tr>
+<tr class="memdesc:ga59b230f6910ea0de9bd6a658256abc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a boolean mask from a score tensor: mask[i] = (scores[i] &gt; cut).  <br /></td></tr>
+<tr class="memitem:gaa86f88a42a46ff4f1db4fc79f6624f21" id="r_gaa86f88a42a46ff4f1db4fc79f6624f21"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
+<tr class="memitem:gaa86f88a42a46ff4f1db4fc79f6624f21 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa86f88a42a46ff4f1db4fc79f6624f21">ActsPlugins::selectCols</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;tensor, const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; &amp;mask, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:gaa86f88a42a46ff4f1db4fc79f6624f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select columns from a 2D row-major tensor where the mask element is true.  <br /></td></tr>
+<tr class="memitem:ga230230f139b3e4d57ec1e88afa0fb5a6" id="r_ga230230f139b3e4d57ec1e88afa0fb5a6"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
+<tr class="memitem:ga230230f139b3e4d57ec1e88afa0fb5a6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga230230f139b3e4d57ec1e88afa0fb5a6">ActsPlugins::selectRows</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;tensor, const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; &amp;mask, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:ga230230f139b3e4d57ec1e88afa0fb5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select rows from a 2D row-major tensor where the mask element is true.  <br /></td></tr>
 <tr class="memitem:ga7fe8c9abff7445d3681d90bae22065c6" id="r_ga7fe8c9abff7445d3681d90bae22065c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7fe8c9abff7445d3681d90bae22065c6">ActsPlugins::sigmoid</a> (<a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;tensor, std::optional&lt; cudaStream_t &gt; stream={})</td></tr>
 <tr class="memdesc:ga7fe8c9abff7445d3681d90bae22065c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element-wise sigmoid function for float cpu tensors.  <br /></td></tr>
 </table>
@@ -225,49 +231,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaddbdd0409b14274fd8d728ec13b18673" name="gaddbdd0409b14274fd8d728ec13b18673"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaddbdd0409b14274fd8d728ec13b18673">&#9670;&#160;</a></span>applyScoreCut()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt;, <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &gt; ActsPlugins::applyScoreCut </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scores</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>edgeIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>cut</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::optional&lt; cudaStream_t &gt;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Apply a score cut to the tensor and return a new tensor with the values that satisfy the cut. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">scores</td><td>The edge score tensor </td></tr>
-    <tr><td class="paramname">edgeIndex</td><td>The edge index tensor </td></tr>
-    <tr><td class="paramname">cut</td><td>The score cut value which edges to accept </td></tr>
-    <tr><td class="paramname">stream</td><td>The stream to use for the operation in case of CUDA </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Pair of filtered score and edge index tensors containing only edges above threshold </dd></dl>
-
-</div>
-</div>
 <a id="ga34c72c5c5e8f59873cdea1777a39f439" name="ga34c72c5c5e8f59873cdea1777a39f439"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga34c72c5c5e8f59873cdea1777a39f439">&#9670;&#160;</a></span>operator&lt;&lt;()</h2>
 
@@ -296,6 +259,121 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
+
+</div>
+</div>
+<a id="ga59b230f6910ea0de9bd6a658256abc8f" name="ga59b230f6910ea0de9bd6a658256abc8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59b230f6910ea0de9bd6a658256abc8f">&#9670;&#160;</a></span>scoreMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; ActsPlugins::scoreMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scores</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>cut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; cudaStream_t &gt;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute a boolean mask from a score tensor: mask[i] = (scores[i] &gt; cut). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scores</td><td>The edge score tensor [N, 1] </td></tr>
+    <tr><td class="paramname">cut</td><td>The score threshold </td></tr>
+    <tr><td class="paramname">stream</td><td>The stream to use for the operation in case of CUDA </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Boolean tensor [N, 1] where true means the edge passes the cut </dd></dl>
+
+</div>
+</div>
+<a id="gaa86f88a42a46ff4f1db4fc79f6624f21" name="gaa86f88a42a46ff4f1db4fc79f6624f21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa86f88a42a46ff4f1db4fc79f6624f21">&#9670;&#160;</a></span>selectCols()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; ActsPlugins::selectCols </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tensor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select columns from a 2D row-major tensor where the mask element is true. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tensor</td><td>Source tensor [R, N] in row-major layout </td></tr>
+    <tr><td class="paramname">mask</td><td>Boolean tensor [N, 1]; true means keep the corresponding column </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for output allocation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New tensor [R, M] in row-major layout containing only kept columns </dd></dl>
+
+</div>
+</div>
+<a id="ga230230f139b3e4d57ec1e88afa0fb5a6" name="ga230230f139b3e4d57ec1e88afa0fb5a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga230230f139b3e4d57ec1e88afa0fb5a6">&#9670;&#160;</a></span>selectRows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; ActsPlugins::selectRows </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tensor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select rows from a 2D row-major tensor where the mask element is true. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tensor</td><td>Source tensor [N, F] in row-major layout </td></tr>
+    <tr><td class="paramname">mask</td><td>Boolean tensor [N, 1]; true means keep the corresponding row </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for output allocation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New tensor [M, F] in row-major layout containing only kept rows </dd></dl>
 
 </div>
 </div>

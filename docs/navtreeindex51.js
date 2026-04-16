@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#af7398d5398563450d5541ee7caa8867d":[4,12,4,3],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html":[4,12,5],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a180f116b8e73a095085b0e9747804763":[4,12,5,6],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a1d27e8d322f9d5ee1e32fe14336a2377":[4,12,5,8],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a2fb106e351092e2350beee5fc0d172bf":[4,12,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_geometry_context_ostream_wrapper.html":[7,0,0,152],
 "struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[5,0,0,145,0],
 "struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[7,0,0,152,0],
-"struct_acts_1_1_geometry_identifier_hook.html":[5,0,0,149],
-"struct_acts_1_1_geometry_identifier_hook.html":[7,0,0,156],
-"struct_acts_1_1_geometry_identifier_hook.html#a56c238580468566f93aab434aeb21774":[5,0,0,149,0]
+"struct_acts_1_1_geometry_identifier_hook.html":[5,0,0,149]
 };

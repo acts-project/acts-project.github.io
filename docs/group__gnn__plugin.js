@@ -145,7 +145,9 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_truth_graph_metrics_hook.html#acc17cc45074e1b6aaed5c06cb7accd5d", null ]
     ] ],
     [ "ActsPlugins::applyEdgeLimit", "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1", null ],
-    [ "ActsPlugins::applyScoreCut", "group__gnn__plugin.html#gaddbdd0409b14274fd8d728ec13b18673", null ],
     [ "ActsPlugins::operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
+    [ "ActsPlugins::scoreMask", "group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f", null ],
+    [ "ActsPlugins::selectCols", "group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21", null ],
+    [ "ActsPlugins::selectRows", "group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6", null ],
     [ "ActsPlugins::sigmoid", "group__gnn__plugin.html#ga7fe8c9abff7445d3681d90bae22065c6", null ]
 ];
