@@ -199,10 +199,15 @@ $(function(){initNavTree('_mbf_smoother_8hpp_source.html','',''); });
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">void</span> visitMeasurement(<span class="keyword">const</span> AnyConstTrackStateProxy&amp; ts,</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                        BoundMatrix&amp; bigLambdaHat,</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                        BoundVector&amp; smallLambdaHat) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> N&gt;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keywordtype">void</span> visitMeasurementImpl(<span class="keyword">const</span> AnyConstTrackStateProxy&amp; ts,</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                            BoundMatrix&amp; bigLambdaHat,</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                            BoundVector&amp; smallLambdaHat) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>};</div>
 </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:696</div></div>
 <div class="ttc" id="aclass_acts_1_1_mbf_smoother_html"><div class="ttname"><a href="class_acts_1_1_mbf_smoother.html">Acts::MbfSmoother</a></div><div class="ttdoc">Kalman trajectory smoother based on the Modified Bryson–Frazier (mBF) smoother.</div><div class="ttdef"><b>Definition</b> MbfSmoother.hpp:39</div></div>
