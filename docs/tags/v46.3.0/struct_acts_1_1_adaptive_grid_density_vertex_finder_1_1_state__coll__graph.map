@@ -1,0 +1,11 @@
+<map id="Acts::AdaptiveGridDensityVertexFinder::State" name="Acts::AdaptiveGridDensityVertexFinder::State">
+<area shape="rect" id="Node000001" title="The State struct." alt="" coords="664,64,857,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="347,21,499,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="513,55,664,71,663,76,512,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,28,157,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,45,346,45,346,51,171,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="351,100,494,140"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="508,109,640,95,663,92,664,97,640,100,508,114"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="17,107,146,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="160,117,351,117,351,123,160,123"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Acts::DirectedProtoAxis" name="Acts::DirectedProtoAxis">
+<area shape="rect" id="Node000001" title="A Directed proto axis." alt="" coords="5,287,180,312"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_proto_axis.html" title="This class is a pure run&#45;time placeholder for the axis definition." alt="" coords="33,212,153,237"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,252,95,286,90,286,90,252"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="11,101,174,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,155,95,212,90,212,90,155"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="14,5,171,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,45,95,101,90,101,90,45"/>
+</map>
