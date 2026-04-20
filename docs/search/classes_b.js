@@ -9,7 +9,7 @@ var searchData=
   ['layergroup_6',['LayerGroup',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection_map_1_1_layer_group.html',1,'Acts::Experimental::GbtsLayerConnectionMap']]],
   ['layerguidedcombinatoric_7',['LayerGuidedCombinatoric',['../class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric.html',1,'Acts::HoughTransformUtils::PeakFinders']]],
   ['layerguidedcombinatoricconfig_8',['LayerGuidedCombinatoricConfig',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html',1,'Acts::HoughTransformUtils::PeakFinders']]],
-  ['layerspec_9',['LayerSpec',['../struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html',1,'ActsPlugins::DD4hep::DD4hepBackend']]],
+  ['layerspec_9',['LayerSpec',['../struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html',1,'ActsPlugins::DD4hep::DD4hepBackend::LayerSpec'],['../struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html',1,'ActsPlugins::TGeoBlueprintBuilderBackend::LayerSpec']]],
   ['layoutconfig_10',['LayoutConfig',['../struct_acts_1_1_toroid_field_1_1_layout_config.html',1,'Acts::ToroidField']]],
   ['leveloutputdecorator_11',['LevelOutputDecorator',['../class_acts_1_1_logging_1_1_level_output_decorator.html',1,'Acts::Logging']]],
   ['lincircle_12',['LinCircle',['../struct_acts_1_1_lin_circle.html',1,'Acts']]],

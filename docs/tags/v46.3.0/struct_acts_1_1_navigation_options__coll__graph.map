@@ -1,9 +1,0 @@
-<map id="Acts::NavigationOptions&lt; object_t &gt;" name="Acts::NavigationOptions&lt; object_t &gt;">
-<area shape="rect" id="Node000001" title="The navigation options for the tracking geometry." alt="" coords="89,212,267,252"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_boundary_tolerance.html" title="Variant&#45;like type to capture different types of boundary tolerances." alt="" coords="5,109,188,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,147,107,167,116,186,141,210,138,214,112,190,102,169,96,148"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="213,101,373,141"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,154,248,190,215,214,212,210,244,186,273,151"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="228,5,357,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,45,295,101,290,101,290,45"/>
-</map>

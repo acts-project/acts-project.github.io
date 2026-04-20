@@ -751,6 +751,7 @@ var annotated_dup =
       [ "Tensor", "class_acts_plugins_1_1_tensor.html", "class_acts_plugins_1_1_tensor" ],
       [ "TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html", "class_acts_plugins_1_1_tensor_r_t_edge_classifier" ],
       [ "TGeoAxes", "class_acts_plugins_1_1_t_geo_axes.html", "class_acts_plugins_1_1_t_geo_axes" ],
+      [ "TGeoBlueprintBuilderBackend", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html", "class_acts_plugins_1_1_t_geo_blueprint_builder_backend" ],
       [ "TGeoCylinderDiscSplitter", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html", "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter" ],
       [ "TGeoDetectorElement", "class_acts_plugins_1_1_t_geo_detector_element.html", "class_acts_plugins_1_1_t_geo_detector_element" ],
       [ "TGeoLayerBuilder", "class_acts_plugins_1_1_t_geo_layer_builder.html", "class_acts_plugins_1_1_t_geo_layer_builder" ],

@@ -39,7 +39,7 @@ var searchData=
   ['autosurfacebinning_36',['autoSurfaceBinning',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a14fe4615bbcb73842d791700522b663e',1,'ActsPlugins::TGeoLayerBuilder::Config']]],
   ['averageonsurface_37',['averageOnSurface',['../struct_acts_1_1_multi_stepper_surface_reached.html#a791fc5b9a1b58b158b1c3817935f04d7',1,'Acts::MultiStepperSurfaceReached']]],
   ['averageonsurfacetolerance_38',['averageOnSurfaceTolerance',['../struct_acts_1_1_multi_stepper_surface_reached.html#a61fc0a7f9dff5ecacdc30f1b785c214d',1,'Acts::MultiStepperSurfaceReached']]],
-  ['axes_39',['axes',['../struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#a387f909abd03221746bffabeedee3819',1,'ActsPlugins::DD4hep::DD4hepBackend::LayerSpec']]],
+  ['axes_39',['axes',['../struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#a387f909abd03221746bffabeedee3819',1,'ActsPlugins::DD4hep::DD4hepBackend::LayerSpec::axes'],['../struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a1fac7029ecb5f660b0da455ec5f12a79',1,'ActsPlugins::TGeoBlueprintBuilderBackend::LayerSpec::axes']]],
   ['axisbound_40',['AxisBound',['../namespace_acts.html#a507e1521b4ba13a3413804400712f00a',1,'Acts']]],
   ['axisboundarytypehistname_41',['axisBoundaryTypeHistName',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a26470a56dc521da5f3732b0f810c010b',1,'ActsPlugins::RootMaterialMapIo::Config']]],
   ['axisclosed_42',['AxisClosed',['../namespace_acts.html#a175a5c9afec75e82bcac5d420a12a51a',1,'Acts']]],

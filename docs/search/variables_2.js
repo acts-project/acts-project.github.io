@@ -61,7 +61,7 @@ var searchData=
   ['constraintcutoff_58',['constraintcutoff',['../struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a629b04465ed5bfd4662ff797df7b507f',1,'Acts::ZScanVertexFinder::Config']]],
   ['constrainttemp_59',['constrainttemp',['../struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#a5efd016c5ef52c6887fa6bc522cc7612',1,'Acts::ZScanVertexFinder::Config']]],
   ['containervolumeconfig_60',['containerVolumeConfig',['../struct_acts_1_1_wrapping_config.html#a1a4e4fdd8c1d19c3506bfa1a75a91bd1',1,'Acts::WrappingConfig']]],
-  ['context_61',['context',['../class_acts_1_1_material_map_json_converter_1_1_config.html#ae14c501ee5465d000dcf7e89db58d8e7',1,'Acts::MaterialMapJsonConverter::Config']]],
+  ['context_61',['context',['../class_acts_1_1_material_map_json_converter_1_1_config.html#ae14c501ee5465d000dcf7e89db58d8e7',1,'Acts::MaterialMapJsonConverter::Config::context'],['../struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html#a22b2ae3845a06b86c7a20e8fd2fd4223',1,'ActsPlugins::TGeoBlueprintBuilderBackend::Element::context']]],
   ['converged_62',['converged',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9',1,'Acts::Experimental::CompositeSpacePointLineFitter::FitParameters']]],
   ['conversionprobscalefactor_63',['conversionProbScaleFactor',['../class_acts_fatras_1_1_photon_conversion.html#a154e65df3294b03bbe4d5aad02a944a5',1,'ActsFatras::PhotonConversion']]],
   ['convertbox_64',['convertBox',['../struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html#a6b27864a6659e9e60145353c3658ebbb',1,'ActsPlugins::GeoModelDetectorObjectFactory::Config']]],
