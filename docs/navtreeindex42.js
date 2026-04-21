@@ -1,11 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"group__errors.html#ga62dad9323721a81699d3f7fdca7a9f91":[4,4,7],
-"group__errors.html#ga6a0e61fbedc5e6713e2830a03af01032":[4,4,14],
-"group__errors.html#ga743e4af777584b0f5274baa245f128d2":[4,4,4],
-"group__errors.html#ga83f8b59ffc557631bb7fdd01c18431ca":[4,4,5],
-"group__errors.html#gac32894235c42ab9d5e6bf5c5cd1f6f3d":[4,4,13],
-"group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd":[4,4,6],
 "group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459":[4,4,10],
 "group__errors.html#gae4af8513760690d2518f3e01355beb88":[4,4,11],
 "group__errors.html#gaebbb9744bded7af55e310fecf0f4f0c0":[4,4,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX42 =
 "group__onnx__plugin.html":[4,9,11],
 "group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[4,9,11,4],
 "group__pattern__recog.html":[4,8],
-"group__plugins.html":[4,9]
+"group__plugins.html":[4,9],
+"group__propagation.html":[4,10],
+"group__python__bindings.html":[4,11],
+"group__python__bindings.html#root_file_hashes":[2,7],
+"group__root__plugin.html":[4,9,12],
+"group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[4,9,12,22],
+"group__root__plugin.html#ga1d6552cacc19e90697dfbb5617e52cc2":[4,9,12,21]
 };

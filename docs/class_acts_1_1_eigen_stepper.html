@@ -200,8 +200,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abd3013c7fdf50e4195402e15e67f2698"><td class="mdescLeft">&#160;</td><td class="mdescRight">QoP direction accessor.  <br /></td></tr>
 <tr class="memitem:abe9e6a48e4fe141f381c8b3ac3525dc2" id="r_abe9e6a48e4fe141f381c8b3ac3525dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe9e6a48e4fe141f381c8b3ac3525dc2">releaseStepSize</a> (<a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:abe9e6a48e4fe141f381c8b3ac3525dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the Step size.  <br /></td></tr>
-<tr class="memitem:a8a11f3d40f4eefce22e434d22c0df7d4" id="r_a8a11f3d40f4eefce22e434d22c0df7d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a11f3d40f4eefce22e434d22c0df7d4">setIdentityJacobian</a> (<a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a8a11f3d40f4eefce22e434d22c0df7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that reset the Jacobian to the Identity for when no bound state are available.  <br /></td></tr>
 <tr class="memitem:afb9b2ab3e1f8bb2de3308359c4cc8829" id="r_afb9b2ab3e1f8bb2de3308359c4cc8829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb9b2ab3e1f8bb2de3308359c4cc8829">step</a> (<a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propDir, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *material) const</td></tr>
 <tr class="memdesc:afb9b2ab3e1f8bb2de3308359c4cc8829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a Runge-Kutta track parameter propagation step.  <br /></td></tr>
 <tr class="memitem:a69d1914cf4c16a2e7e6b7afd4e3383e4" id="r_a69d1914cf4c16a2e7e6b7afd4e3383e4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d1914cf4c16a2e7e6b7afd4e3383e4">time</a> (const <a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -850,33 +848,6 @@ template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">state</td><td>[in,out] The stepping state (thread-local cache) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stype</td><td>The step size type to be released </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a8a11f3d40f4eefce22e434d22c0df7d4" name="a8a11f3d40f4eefce22e434d22c0df7d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a11f3d40f4eefce22e434d22c0df7d4">&#9670;&#160;</a></span>setIdentityJacobian()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename extension_t = EigenStepperDefaultExtension&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_eigen_stepper.html">Acts::EigenStepper</a>&lt; extension_t &gt;::setIdentityJacobian </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_eigen_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Method that reset the Jacobian to the Identity for when no bound state are available. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
   </table>
   </dd>
 </dl>

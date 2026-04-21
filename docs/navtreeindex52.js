@@ -1,11 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"struct_acts_1_1_gaussian_track_density_1_1_config.html":[7,0,0,148,0],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#a05db9190864ec63fee09dd3a162ba97d":[5,0,0,141,0,1],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#a05db9190864ec63fee09dd3a162ba97d":[7,0,0,148,0,1],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#a378bb47278c64ebac1efe222e75c1e3e":[5,0,0,141,0,6],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#a378bb47278c64ebac1efe222e75c1e3e":[7,0,0,148,0,6],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#a4bd6484af77980ee00d85dbf3dce1fe2":[5,0,0,141,0,2],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#a4bd6484af77980ee00d85dbf3dce1fe2":[7,0,0,148,0,2],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957":[5,0,0,141,0,4],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957":[7,0,0,148,0,4],
@@ -249,5 +243,11 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_gsf_extensions.html#a96d5e75674929f91e5d794035428edbb":[4,12,12,3],
 "struct_acts_1_1_gsf_extensions.html#aa305df03ff279e704279279854c93b7f":[4,12,12,11],
 "struct_acts_1_1_gsf_extensions.html#ab757cbe31c78322d770ee73ef3fd2b51":[4,12,12,1],
-"struct_acts_1_1_gsf_extensions.html#abbf3590fd17f735ba54ce36fcf7d97ed":[4,12,12,4]
+"struct_acts_1_1_gsf_extensions.html#abbf3590fd17f735ba54ce36fcf7d97ed":[4,12,12,4],
+"struct_acts_1_1_gsf_extensions.html#abcbe99026d8c4de13aad230c4f6d1080":[4,12,12,8],
+"struct_acts_1_1_gsf_extensions.html#ac6ef57d8d01b7ba5206cdbe6b2de7334":[4,12,12,10],
+"struct_acts_1_1_gsf_options.html":[4,12,13],
+"struct_acts_1_1_gsf_options.html#a063189d5af41487713d213d8ea1b3520":[4,12,13,8],
+"struct_acts_1_1_gsf_options.html#a0fdc09daf23b1db401ce923170a5ebc2":[4,12,13,13],
+"struct_acts_1_1_gsf_options.html#a2609030a2f04ee217af0fdf67ea5bcdf":[4,12,13,0]
 };

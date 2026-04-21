@@ -1,11 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[5,0,0,397,4,1],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[7,0,0,404,4,1],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a244a31a4db0591afc8ad7f963031c8c1":[5,0,0,397,4,2],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a244a31a4db0591afc8ad7f963031c8c1":[7,0,0,404,4,2],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a7e0b3219ddd8aefbc83f39da12011b30":[5,0,0,397,4,0],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a7e0b3219ddd8aefbc83f39da12011b30":[7,0,0,404,4,0],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#a8f14327edf12ffa8861339c7479cae41":[5,0,0,397,4,6],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#a8f14327edf12ffa8861339c7479cae41":[7,0,0,404,4,6],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#adf1c020bbfba479ca2085cae58ccfa6a":[5,0,0,397,4,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#afd44ea6954d7931bc3c5760ab6e83aa7":[7,0,0,430,0,4],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html":[5,0,0,423,1],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html":[7,0,0,430,1],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[5,0,0,423,1,3]
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[5,0,0,423,1,3],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[7,0,0,430,1,3],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[5,0,0,423,1,0],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[7,0,0,430,1,0],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[5,0,0,423,1,4],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[7,0,0,430,1,4],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a89c3f9244958dcbbbde9bfda14388192":[5,0,0,423,1,1]
 };

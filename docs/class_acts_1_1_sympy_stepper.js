@@ -26,7 +26,6 @@ var class_acts_1_1_sympy_stepper =
     [ "prepareCurvilinearState", "class_acts_1_1_sympy_stepper.html#a04958978b62e1d55fa741f107e07da2b", null ],
     [ "qOverP", "class_acts_1_1_sympy_stepper.html#a959b4675cc979671e91885bdd47f6ee4", null ],
     [ "releaseStepSize", "class_acts_1_1_sympy_stepper.html#acdf9098e27d6607e355149d985242510", null ],
-    [ "setIdentityJacobian", "class_acts_1_1_sympy_stepper.html#a2bdc7782b857adf6e987234a003b6140", null ],
     [ "step", "class_acts_1_1_sympy_stepper.html#a16c2bd1c1a6e986bbff5996cc1ad2428", null ],
     [ "time", "class_acts_1_1_sympy_stepper.html#aef242d42e4d931ae6a453ca3c64db043", null ],
     [ "transportCovarianceToBound", "class_acts_1_1_sympy_stepper.html#a06b3c2a66d86b04ca79aef50ab3c6abc", null ],

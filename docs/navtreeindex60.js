@@ -1,11 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a17e3d4689689e0fcd60bc91ee9399f4d":[5,0,0,382,2,2],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a17e3d4689689e0fcd60bc91ee9399f4d":[7,0,0,389,2,2],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a24f3534fdfbba185ab0a77483ab2751a":[5,0,0,382,2,9],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a24f3534fdfbba185ab0a77483ab2751a":[7,0,0,389,2,9],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a347f338190713137d63e9ebc81b9f134":[5,0,0,382,2,8],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a347f338190713137d63e9ebc81b9f134":[7,0,0,389,2,8],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a3bda0e5fd1fda7f3f76ae84e88df623c":[5,0,0,382,2,15],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a3bda0e5fd1fda7f3f76ae84e88df623c":[7,0,0,389,2,15],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a4de58af82ef074cff6f1578a6436f9d7":[5,0,0,382,2,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#afa6c9526b6094cbdc1e1a8b108c8c7fa":[5,0,0,397,3,1],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#afa6c9526b6094cbdc1e1a8b108c8c7fa":[7,0,0,404,3,1],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html":[5,0,0,397,4],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html":[7,0,0,404,4]
+"struct_acts_1_1_toroid_field_1_1_layout_config.html":[7,0,0,404,4],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[5,0,0,397,4,1],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[7,0,0,404,4,1],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a244a31a4db0591afc8ad7f963031c8c1":[5,0,0,397,4,2],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a244a31a4db0591afc8ad7f963031c8c1":[7,0,0,404,4,2],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a7e0b3219ddd8aefbc83f39da12011b30":[5,0,0,397,4,0],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a7e0b3219ddd8aefbc83f39da12011b30":[7,0,0,404,4,0]
 };

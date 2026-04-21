@@ -200,8 +200,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a959b4675cc979671e91885bdd47f6ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">QoP direction accessor.  <br /></td></tr>
 <tr class="memitem:acdf9098e27d6607e355149d985242510" id="r_acdf9098e27d6607e355149d985242510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdf9098e27d6607e355149d985242510">releaseStepSize</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:acdf9098e27d6607e355149d985242510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the Step size.  <br /></td></tr>
-<tr class="memitem:a2bdc7782b857adf6e987234a003b6140" id="r_a2bdc7782b857adf6e987234a003b6140"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bdc7782b857adf6e987234a003b6140">setIdentityJacobian</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a2bdc7782b857adf6e987234a003b6140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that reset the Jacobian to the Identity for when no bound state are available.  <br /></td></tr>
 <tr class="memitem:a16c2bd1c1a6e986bbff5996cc1ad2428" id="r_a16c2bd1c1a6e986bbff5996cc1ad2428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16c2bd1c1a6e986bbff5996cc1ad2428">step</a> (<a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propDir, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *material) const</td></tr>
 <tr class="memdesc:a16c2bd1c1a6e986bbff5996cc1ad2428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a Runge-Kutta track parameter propagation step.  <br /></td></tr>
 <tr class="memitem:aef242d42e4d931ae6a453ca3c64db043" id="r_aef242d42e4d931ae6a453ca3c64db043"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef242d42e4d931ae6a453ca3c64db043">time</a> (const <a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -808,31 +806,6 @@ std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_magnetic_field_prov
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">state</td><td>[in,out] The stepping state (thread-local cache) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stype</td><td>The step size type to be released </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a2bdc7782b857adf6e987234a003b6140" name="a2bdc7782b857adf6e987234a003b6140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bdc7782b857adf6e987234a003b6140">&#9670;&#160;</a></span>setIdentityJacobian()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::SympyStepper::setIdentityJacobian </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_sympy_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Method that reset the Jacobian to the Identity for when no bound state are available. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
   </table>
   </dd>
 </dl>

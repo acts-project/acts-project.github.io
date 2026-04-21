@@ -26,7 +26,6 @@ var class_acts_1_1_eigen_stepper =
     [ "prepareCurvilinearState", "class_acts_1_1_eigen_stepper.html#a320bb69c911c3f5ecbe3a858989e2557", null ],
     [ "qOverP", "class_acts_1_1_eigen_stepper.html#abd3013c7fdf50e4195402e15e67f2698", null ],
     [ "releaseStepSize", "class_acts_1_1_eigen_stepper.html#abe9e6a48e4fe141f381c8b3ac3525dc2", null ],
-    [ "setIdentityJacobian", "class_acts_1_1_eigen_stepper.html#a8a11f3d40f4eefce22e434d22c0df7d4", null ],
     [ "step", "class_acts_1_1_eigen_stepper.html#afb9b2ab3e1f8bb2de3308359c4cc8829", null ],
     [ "time", "class_acts_1_1_eigen_stepper.html#a69d1914cf4c16a2e7e6b7afd4e3383e4", null ],
     [ "transportCovarianceToBound", "class_acts_1_1_eigen_stepper.html#a8c2d0bd30bac286449f3a607837aa03d", null ],

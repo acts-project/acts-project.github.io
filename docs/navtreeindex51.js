@@ -1,11 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html":[7,0,0,2,27,2],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#a04a1e7fe0b7fda183d605040f74361db":[5,0,0,1,27,2,2],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#a04a1e7fe0b7fda183d605040f74361db":[7,0,0,2,27,2,2],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#a84cff4c7108ae12b160221af513eb6a0":[5,0,0,1,27,2,0],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#a84cff4c7108ae12b160221af513eb6a0":[7,0,0,2,27,2,0],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[5,0,0,1,27,2,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[7,0,0,2,27,2,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[5,0,0,1,27,3],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[7,0,0,2,27,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_gaussian_sum_fitter.html#ac50e1c5ee71d653734151363deb6317a":[4,12,11,10],
 "struct_acts_1_1_gaussian_sum_fitter.html#ae13072251f056d01c10fb27d0fa5b753":[4,12,11,5],
 "struct_acts_1_1_gaussian_sum_fitter.html#af74ed8bca41274f3d7fe77f222549c74":[4,12,11,3],
-"struct_acts_1_1_gaussian_track_density_1_1_config.html":[5,0,0,141,0]
+"struct_acts_1_1_gaussian_track_density_1_1_config.html":[5,0,0,141,0],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html":[7,0,0,148,0],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a05db9190864ec63fee09dd3a162ba97d":[5,0,0,141,0,1],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a05db9190864ec63fee09dd3a162ba97d":[7,0,0,148,0,1],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a378bb47278c64ebac1efe222e75c1e3e":[5,0,0,141,0,6],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a378bb47278c64ebac1efe222e75c1e3e":[7,0,0,148,0,6],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a4bd6484af77980ee00d85dbf3dce1fe2":[5,0,0,141,0,2]
 };

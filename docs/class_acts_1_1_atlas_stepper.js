@@ -27,7 +27,6 @@ var class_acts_1_1_atlas_stepper =
     [ "prepareCurvilinearState", "class_acts_1_1_atlas_stepper.html#a59acde84d6ca056d319fa0eae0d2de3c", null ],
     [ "qOverP", "class_acts_1_1_atlas_stepper.html#ad23f9bbbae7b31bc98776ce07691de5c", null ],
     [ "releaseStepSize", "class_acts_1_1_atlas_stepper.html#a33d357292ca85d648b04f53016cad0e0", null ],
-    [ "setIdentityJacobian", "class_acts_1_1_atlas_stepper.html#a33ce2623fb39bee5eb71f128b19a8621", null ],
     [ "step", "class_acts_1_1_atlas_stepper.html#a3c050c88cae4bc6c7534ed3309d8ce1a", null ],
     [ "time", "class_acts_1_1_atlas_stepper.html#a5567385ad6523ef252f2ac222074c280", null ],
     [ "transportCovarianceToBound", "class_acts_1_1_atlas_stepper.html#a56f82c888aab4364b69749085502229f", null ],

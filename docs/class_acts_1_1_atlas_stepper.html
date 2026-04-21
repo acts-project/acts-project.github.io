@@ -197,8 +197,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad23f9bbbae7b31bc98776ce07691de5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get charge over momentum from stepper state.  <br /></td></tr>
 <tr class="memitem:a33d357292ca85d648b04f53016cad0e0" id="r_a33d357292ca85d648b04f53016cad0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d357292ca85d648b04f53016cad0e0">releaseStepSize</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_constrained_step.html#a0eecb2e9c95a2c252b3fea20e69b0ba5">ConstrainedStep::Type</a> stype) const</td></tr>
 <tr class="memdesc:a33d357292ca85d648b04f53016cad0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the Step size.  <br /></td></tr>
-<tr class="memitem:a33ce2623fb39bee5eb71f128b19a8621" id="r_a33ce2623fb39bee5eb71f128b19a8621"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ce2623fb39bee5eb71f128b19a8621">setIdentityJacobian</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
-<tr class="memdesc:a33ce2623fb39bee5eb71f128b19a8621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that reset the Jacobian to the Identity for when no bound state are available.  <br /></td></tr>
 <tr class="memitem:a3c050c88cae4bc6c7534ed3309d8ce1a" id="r_a3c050c88cae4bc6c7534ed3309d8ce1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c050c88cae4bc6c7534ed3309d8ce1a">step</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propDir, const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *material) const</td></tr>
 <tr class="memdesc:a3c050c88cae4bc6c7534ed3309d8ce1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the actual step on the state.  <br /></td></tr>
 <tr class="memitem:a5567385ad6523ef252f2ac222074c280" id="r_a5567385ad6523ef252f2ac222074c280"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5567385ad6523ef252f2ac222074c280">time</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -818,31 +816,6 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>The stepping state (thread-local cache) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stype</td><td>The step size type to be released </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a33ce2623fb39bee5eb71f128b19a8621" name="a33ce2623fb39bee5eb71f128b19a8621"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ce2623fb39bee5eb71f128b19a8621">&#9670;&#160;</a></span>setIdentityJacobian()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acts::AtlasStepper::setIdentityJacobian </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Method that reset the Jacobian to the Identity for when no bound state are available. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">state</td><td>State of the stepper </td></tr>
   </table>
   </dd>
 </dl>

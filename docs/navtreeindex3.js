@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_acts_1_1_axis_aligned_bounding_box.html#a223f6aa978ce26e2a505e8d12e1c05f6":[7,0,0,46,20],
-"class_acts_1_1_axis_aligned_bounding_box.html#a22c0673c6cb2669c3d76c93cd292a4bb":[5,0,0,39,29],
 "class_acts_1_1_axis_aligned_bounding_box.html#a22c0673c6cb2669c3d76c93cd292a4bb":[7,0,0,46,29],
 "class_acts_1_1_axis_aligned_bounding_box.html#a2d873716453533b9f34face971270902":[5,0,0,39,15],
 "class_acts_1_1_axis_aligned_bounding_box.html#a2d873716453533b9f34face971270902":[7,0,0,46,15],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "class_acts_1_1_binned_group_iterator.html#aed33ed923c18cfcf5161adc1fb84b890":[7,0,0,55,3],
 "class_acts_1_1_binned_surface_material.html":[4,3,2,4],
 "class_acts_1_1_binned_surface_material.html#a0457f8682014c3ad4996adfe0f12ef57":[4,3,2,4,2],
-"class_acts_1_1_binned_surface_material.html#a0678c18dbd2d0049b6561860c64f8689":[4,3,2,4,1]
+"class_acts_1_1_binned_surface_material.html#a0678c18dbd2d0049b6561860c64f8689":[4,3,2,4,1],
+"class_acts_1_1_binned_surface_material.html#a21c75deba7263c4428d0a612f6069b99":[4,3,2,4,5],
+"class_acts_1_1_binned_surface_material.html#a512b28c9238f17db2c8ae36245ca406b":[4,3,2,4,13]
 };
