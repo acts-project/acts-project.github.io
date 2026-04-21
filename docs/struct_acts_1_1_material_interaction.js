@@ -2,6 +2,8 @@ var struct_acts_1_1_material_interaction =
 [
     [ "deltaP", "struct_acts_1_1_material_interaction.html#a712d2daa866fddccb671bc1c9c242cd3", null ],
     [ "direction", "struct_acts_1_1_material_interaction.html#af835ed61b3e6eb13485acc305b9699d6", null ],
+    [ "elementFrac", "struct_acts_1_1_material_interaction.html#ab1bfe7bf8f23801bc993697fab6fb5b4", null ],
+    [ "elementZ", "struct_acts_1_1_material_interaction.html#a3b386e2f907fbfb10840e562dc5eceea", null ],
     [ "intersection", "struct_acts_1_1_material_interaction.html#abd38ae3812d53a49f852d81bb1252e26", null ],
     [ "intersectionID", "struct_acts_1_1_material_interaction.html#a15ddb233f2f528ac86a24882e67154ce", null ],
     [ "materialSlab", "struct_acts_1_1_material_interaction.html#aefc85e7f93233970768827bfc95f3ae9", null ],
