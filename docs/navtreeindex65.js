@@ -136,7 +136,8 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_no_edges_error.html":[4,9,6,11],
 "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html":[4,9,6,12,0],
 "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a1909979b81e83a797c5a793ce747871c":[4,9,6,12,0,0],
-"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490":[4,9,6,12,0,1],
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a35cff93e3b1648b6ae39399e24f0921d":[4,9,6,12,0,1],
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490":[4,9,6,12,0,2],
 "struct_acts_plugins_1_1_pipeline_tensors.html":[4,9,6,13],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a1e09855954eeb28d5e061d3c5a88735e":[4,9,6,13,3],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a4831b807b7819c5fe11c737eed5c4781":[4,9,6,13,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html":[7,0,2,63,1],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html#a22b2ae3845a06b86c7a20e8fd2fd4223":[5,0,3,58,1,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_element.html#a22b2ae3845a06b86c7a20e8fd2fd4223":[7,0,2,63,1,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html":[5,0,3,58,2],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html":[7,0,2,63,2]
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html":[5,0,3,58,2]
 };

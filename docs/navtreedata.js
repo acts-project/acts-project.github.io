@@ -131,7 +131,7 @@ var NAVTREEINDEX =
 "struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a",
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a",
 "struct_acts_plugins_1_1_device.html#afe74d25b11d7a9544bf8fe22bfcc7739",
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a1fac7029ecb5f660b0da455ec5f12a79"
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

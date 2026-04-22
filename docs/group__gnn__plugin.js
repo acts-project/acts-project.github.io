@@ -74,6 +74,7 @@ var group__gnn__plugin =
     [ "ActsPlugins::OnnxEdgeClassifier", "class_acts_plugins_1_1_onnx_edge_classifier.html", [
       [ "Config", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html", [
         [ "cut", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a1909979b81e83a797c5a793ce747871c", null ],
+        [ "device", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a35cff93e3b1648b6ae39399e24f0921d", null ],
         [ "modelPath", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490", null ]
       ] ],
       [ "OnnxEdgeClassifier", "class_acts_plugins_1_1_onnx_edge_classifier.html#a9297adad1e539bbb67b3b86c548ed9bf", null ],
@@ -111,7 +112,7 @@ var group__gnn__plugin =
     [ "ActsPlugins::TorchEdgeClassifier", "class_acts_plugins_1_1_torch_edge_classifier.html", [
       [ "Config", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html", [
         [ "cut", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835", null ],
-        [ "deviceID", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a67f7baa072b083b9a539e560dfbf7760", null ],
+        [ "device", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a5451dcdde489ab1aa40cf7ec156d02f0", null ],
         [ "modelPath", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691", null ],
         [ "nChunks", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c", null ],
         [ "selectedFeatures", "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480", null ],
@@ -124,7 +125,7 @@ var group__gnn__plugin =
     ] ],
     [ "ActsPlugins::TorchMetricLearning", "class_acts_plugins_1_1_torch_metric_learning.html", [
       [ "Config", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html", [
-        [ "deviceID", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#a15ac654ce8bde97893fd3bfe9eedc1b2", null ],
+        [ "device", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aa8eaaf40b2c763310a16774465d125f1", null ],
         [ "embeddingDim", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ad4dc2930b3bbd374c89a74174b9b0d46", null ],
         [ "knnVal", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd", null ],
         [ "modelPath", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#aba7188d23a4425717cfcd77d8b128b60", null ],
