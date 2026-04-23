@@ -32,10 +32,13 @@ var searchData=
   ['knnval_29',['knnVal',['../struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd',1,'ActsPlugins::TorchMetricLearning::Config']]],
   ['knumlevels_30',['kNumLevels',['../class_acts_1_1_multi_index.html#ac41f16be14e2def85d64fe15810bc60c',1,'Acts::MultiIndex']]],
   ['kownership_31',['kOwnership',['../class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a09d50e431c7fcd0a778c17843b55623d',1,'Acts::Delegate&lt; R(Args...), H, O &gt;']]],
-  ['kqop_32',['kQoP',['../struct_acts_1_1_eigen_stepper_1_1_state.html#ab08602006454104ade32d45b60cf34a9',1,'Acts::EigenStepper::State']]],
-  ['krawbits_33',['kRawBits',['../class_acts_1_1_track_state_type_base.html#abae7361af4b21541a67c48e8b4c5fcb5',1,'Acts::TrackStateTypeBase']]],
-  ['kseedindex2invalid_34',['kSeedIndex2Invalid',['../namespace_acts.html#a622cac5026b49221229c5c90a325ca52',1,'Acts']]],
-  ['kspacepointindex2invalid_35',['kSpacePointIndex2Invalid',['../namespace_acts.html#aadaa2bc05e2867b6339d5162256f5d3a',1,'Acts']]],
-  ['ksubspacesize_36',['kSubspaceSize',['../class_acts_1_1_fixed_subspace_helper.html#afbe57313f6ccfb0557e00dddba5b94a9',1,'Acts::FixedSubspaceHelper']]],
-  ['ktrackindexinvalid_37',['kTrackIndexInvalid',['../namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749',1,'Acts']]]
+  ['kportallookupcontext_32',['kPortalLookupContext',['../class_acts_1_1_tracking_geometry_json_converter.html#a77628f57ad9ed50217337d65ec525c47',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['kqop_33',['kQoP',['../struct_acts_1_1_eigen_stepper_1_1_state.html#ab08602006454104ade32d45b60cf34a9',1,'Acts::EigenStepper::State']]],
+  ['krawbits_34',['kRawBits',['../class_acts_1_1_track_state_type_base.html#abae7361af4b21541a67c48e8b4c5fcb5',1,'Acts::TrackStateTypeBase']]],
+  ['kseedindex2invalid_35',['kSeedIndex2Invalid',['../namespace_acts.html#a622cac5026b49221229c5c90a325ca52',1,'Acts']]],
+  ['kspacepointindex2invalid_36',['kSpacePointIndex2Invalid',['../namespace_acts.html#aadaa2bc05e2867b6339d5162256f5d3a',1,'Acts']]],
+  ['ksubspacesize_37',['kSubspaceSize',['../class_acts_1_1_fixed_subspace_helper.html#afbe57313f6ccfb0557e00dddba5b94a9',1,'Acts::FixedSubspaceHelper']]],
+  ['ksurfacelookupcontext_38',['kSurfaceLookupContext',['../class_acts_1_1_tracking_geometry_json_converter.html#a9286bb299eec5ac8d5b87ce885f6c8f8',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['ktrackindexinvalid_39',['kTrackIndexInvalid',['../namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749',1,'Acts']]],
+  ['kvolumelookupcontext_40',['kVolumeLookupContext',['../class_acts_1_1_tracking_geometry_json_converter.html#a7c1fa50097cd7722fc9fa46f1784e7e6',1,'Acts::TrackingGeometryJsonConverter']]]
 ];

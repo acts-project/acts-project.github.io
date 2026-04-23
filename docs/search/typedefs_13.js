@@ -40,8 +40,12 @@ var searchData=
   ['vertex_5farray_5ftype_37',['vertex_array_type',['../class_acts_1_1_axis_aligned_bounding_box.html#a0014e5408965742509323a925f7d070b',1,'Acts::AxisAlignedBoundingBox::vertex_array_type'],['../class_acts_1_1_frustum.html#a9656db8d63efbfe49bc18e12d8d46f7d',1,'Acts::Frustum::vertex_array_type'],['../class_acts_1_1_ray.html#ac60beb4b5d936a4c2dadc6cb146a70e1',1,'Acts::Ray::vertex_array_type']]],
   ['vertextype_38',['VertexType',['../class_acts_1_1_axis_aligned_bounding_box.html#a03e9d7abd1949447c0ddb0140a4a89c5',1,'Acts::AxisAlignedBoundingBox::VertexType'],['../class_acts_1_1_frustum.html#a49885d55b188cc3086d7d637f5b28dac',1,'Acts::Frustum::VertexType'],['../class_acts_1_1_ray.html#a0d7e0c60f2882794f0acbeefdafbabde',1,'Acts::Ray::VertexType'],['../class_acts_1_1_obj_visualization3_d.html#ab643e0845ab970088895eef60f7bd8ee',1,'Acts::ObjVisualization3D::VertexType'],['../class_acts_1_1_ply_visualization3_d.html#a139302f43d73eaa4ec2ad4c493267267',1,'Acts::PlyVisualization3D::VertexType']]],
   ['volumeboundfactory_39',['VolumeBoundFactory',['../namespace_acts.html#aca88659ee97e667013784c4fac8475f2',1,'Acts']]],
-  ['volumemap_5ft_40',['VolumeMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#aa1e96c8a02fd5336af4c5e25f8a7b553',1,'ActsPlugins::GeoModelTree::VolumePublisher']]],
-  ['volumematerialmaps_41',['VolumeMaterialMaps',['../namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04',1,'Acts']]],
-  ['volumematerialpointer_42',['volumeMaterialPointer',['../group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae',1,'Acts']]],
-  ['volumerange_43',['VolumeRange',['../class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b',1,'Acts::TrackingVolume']]]
+  ['volumeboundsdecoder_40',['VolumeBoundsDecoder',['../class_acts_1_1_tracking_geometry_json_converter.html#ae5c95c497eb6c5b05569a03e1f64d66a',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['volumeboundsencoder_41',['VolumeBoundsEncoder',['../class_acts_1_1_tracking_geometry_json_converter.html#a82949918f4d0b432cb7cbbd995805f6f',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['volumeidlookup_42',['VolumeIdLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#afc3d736455f27df9c89c0bcd88c7e95f',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['volumemap_5ft_43',['VolumeMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#aa1e96c8a02fd5336af4c5e25f8a7b553',1,'ActsPlugins::GeoModelTree::VolumePublisher']]],
+  ['volumematerialmaps_44',['VolumeMaterialMaps',['../namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04',1,'Acts']]],
+  ['volumematerialpointer_45',['volumeMaterialPointer',['../group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae',1,'Acts']]],
+  ['volumepointerlookup_46',['VolumePointerLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#ad1e99dbd289f83a57554bf9e95332049',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['volumerange_47',['VolumeRange',['../class_acts_1_1_tracking_volume.html#ac7d69784e7669d15b018f62718af712b',1,'Acts::TrackingVolume']]]
 ];

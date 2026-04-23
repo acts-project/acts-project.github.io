@@ -150,8 +150,10 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4642023fc905011d700c296ab3b7a1f9" id="r_a4642023fc905011d700c296ab3b7a1f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4642023fc905011d700c296ab3b7a1f9">TryAllNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:a4642023fc905011d700c296ab3b7a1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a volume.  <br /></td></tr>
-<tr class="memitem:a5f761f0ed785c621dfe2c1a759ec15db" id="r_a5f761f0ed785c621dfe2c1a759ec15db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f761f0ed785c621dfe2c1a759ec15db">TryAllNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger, const <a class="el" href="struct_acts_1_1_try_all_navigation_policy_1_1_config.html">Config</a> &amp;config)</td></tr>
+<tr class="memitem:a5f761f0ed785c621dfe2c1a759ec15db" id="r_a5f761f0ed785c621dfe2c1a759ec15db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f761f0ed785c621dfe2c1a759ec15db">TryAllNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger, const <a class="el" href="struct_acts_1_1_try_all_navigation_policy_1_1_config.html">Config</a> &amp;<a class="el" href="#a05d2d00d15d40b76a392d4144469b14e">config</a>)</td></tr>
 <tr class="memdesc:a5f761f0ed785c621dfe2c1a759ec15db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a volume.  <br /></td></tr>
+<tr class="memitem:a05d2d00d15d40b76a392d4144469b14e" id="r_a05d2d00d15d40b76a392d4144469b14e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_try_all_navigation_policy_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d2d00d15d40b76a392d4144469b14e">config</a> () const</td></tr>
+<tr class="memdesc:a05d2d00d15d40b76a392d4144469b14e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant access to config.  <br /></td></tr>
 <tr class="memitem:abba73c9793a8e836ea42fa59d12581ce" id="r_abba73c9793a8e836ea42fa59d12581ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abba73c9793a8e836ea42fa59d12581ce">connect</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const override</td></tr>
 <tr class="memdesc:abba73c9793a8e836ea42fa59d12581ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the policy to a navigation delegate.  <br /></td></tr>
 <tr class="memitem:a0c9777a884cfa15935a37fe45038aeb8" id="r_a0c9777a884cfa15935a37fe45038aeb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c9777a884cfa15935a37fe45038aeb8">initializeCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;args, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;state, <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;stream, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
@@ -262,6 +264,26 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a05d2d00d15d40b76a392d4144469b14e" name="a05d2d00d15d40b76a392d4144469b14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d2d00d15d40b76a392d4144469b14e">&#9670;&#160;</a></span>config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_try_all_navigation_policy_1_1_config.html">Config</a> &amp; Acts::TryAllNavigationPolicy::config </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constant access to config. </p>
+<dl class="section return"><dt>Returns</dt><dd>config </dd></dl>
+
+</div>
+</div>
 <a id="abba73c9793a8e836ea42fa59d12581ce" name="abba73c9793a8e836ea42fa59d12581ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abba73c9793a8e836ea42fa59d12581ce">&#9670;&#160;</a></span>connect()</h2>
 

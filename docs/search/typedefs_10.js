@@ -57,11 +57,13 @@ var searchData=
   ['surfaceboundsencoder_54',['SurfaceBoundsEncoder',['../group__json__plugin.html#ga5f9f033a309a8090b64293b8e90a641c',1,'Acts::SurfaceJsonConverter']]],
   ['surfacedecoder_55',['SurfaceDecoder',['../group__json__plugin.html#ga6bc8441f06dad369e7c8117e0f16f6be',1,'Acts::SurfaceJsonConverter']]],
   ['surfaceencoder_56',['SurfaceEncoder',['../group__json__plugin.html#ga0c550632e11629de583bdc72e19175db',1,'Acts::SurfaceJsonConverter']]],
-  ['surfacelookupfunction_57',['SurfaceLookupFunction',['../class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368',1,'ActsPlugins::DetrayPayloadConverter']]],
-  ['surfacematcher_58',['SurfaceMatcher',['../namespace_acts.html#a884d99e12205bfc04d2cc2a8501a3a39',1,'Acts']]],
-  ['surfacematerialmaps_59',['SurfaceMaterialMaps',['../namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65',1,'Acts']]],
-  ['surfacematerialpointer_60',['surfaceMaterialPointer',['../group__json__plugin.html#ga76d1cebc6f43c76e5aaa8ef77d474064',1,'Acts']]],
-  ['surfacematrix_61',['SurfaceMatrix',['../namespace_acts.html#aa80f2fb6a7e543af58af13eedf6fdbd0',1,'Acts']]],
-  ['surfacerange_62',['SurfaceRange',['../class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174',1,'Acts::TrackingVolume']]],
-  ['surfacevector_63',['SurfaceVector',['../namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd',1,'Acts']]]
+  ['surfaceidlookup_57',['SurfaceIdLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#a8104a1bc22dce41f54b5be18dd2d9b19',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['surfacelookupfunction_58',['SurfaceLookupFunction',['../class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368',1,'ActsPlugins::DetrayPayloadConverter']]],
+  ['surfacematcher_59',['SurfaceMatcher',['../namespace_acts.html#a884d99e12205bfc04d2cc2a8501a3a39',1,'Acts']]],
+  ['surfacematerialmaps_60',['SurfaceMaterialMaps',['../namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65',1,'Acts']]],
+  ['surfacematerialpointer_61',['surfaceMaterialPointer',['../group__json__plugin.html#ga76d1cebc6f43c76e5aaa8ef77d474064',1,'Acts']]],
+  ['surfacematrix_62',['SurfaceMatrix',['../namespace_acts.html#aa80f2fb6a7e543af58af13eedf6fdbd0',1,'Acts']]],
+  ['surfacepointerlookup_63',['SurfacePointerLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#a341eded7e9be1f1ea4373c073197c7ea',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['surfacerange_64',['SurfaceRange',['../class_acts_1_1_tracking_volume.html#a30e9a5f002ba247a81a8a11e68ede174',1,'Acts::TrackingVolume']]],
+  ['surfacevector_65',['SurfaceVector',['../namespace_acts.html#a24683289c06d2751edbef04f58b3fdcd',1,'Acts']]]
 ];
