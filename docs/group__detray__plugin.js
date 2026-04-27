@@ -22,12 +22,12 @@ var group__detray__plugin =
       [ "Payloads", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html", [
         [ "detector", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a90b02fc06a2d2bc766c22c6912c3d30e", null ],
         [ "homogeneousMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e", null ],
-        [ "materialGrids", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a7d6cab6c678e82c850701b1b42039bcd", null ],
+        [ "materialGrids", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a755635698f150e7c303db79024b8e6ba", null ],
         [ "names", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a9239d19fa3c531e8c8602514967e1224", null ],
         [ "surfaceGrids", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a76f6bb4069cf112277624229e021a036", null ]
       ] ],
       [ "DetraySurfaceGrid", "class_acts_plugins_1_1_detray_payload_converter.html#ad2012c6f039307d9851ae990f0c1e9df", null ],
-      [ "DetraySurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a499988a0f185746f8a3d523526a26d52", null ],
+      [ "DetraySurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9", null ],
       [ "SurfaceLookupFunction", "class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368", null ],
       [ "DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html#a49ab7c6d3a59f3928524e6fe71f7555d", null ],
       [ "convertBinnedSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a3407bf7aa72836346ae80e098f76b89c", null ],
@@ -35,7 +35,7 @@ var group__detray__plugin =
       [ "convertGridSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a7e0b46ea83e451ee868f54a08bd9743a", null ],
       [ "convertHomogeneousSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a5b0bec3b5921606905656405e1e93e5f", null ],
       [ "convertMask", "class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30", null ],
-      [ "convertMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a741a18bab7430a1634222fcddb450c54", null ],
+      [ "convertMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a4f0a6766e441baba98eff6427d7424bc", null ],
       [ "convertMultiLayerNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#a574896548ff04ce806532d47a44b8227", null ],
       [ "convertMultiNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#a4da94ad1f29faf63857d84be9e4154d4", null ],
       [ "convertProtoSurfaceMaterialBinUtility", "class_acts_plugins_1_1_detray_payload_converter.html#a1ad5a8a48aa270052ed30e0fb733d163", null ],
@@ -55,6 +55,6 @@ var group__detray__plugin =
     [ "ActsPlugins::DetrayConversionUtils::convertBinningOption", "group__detray__plugin.html#gaa1dcec42ae43f5db590322d0363435bc", null ],
     [ "ActsPlugins::DetrayConversionUtils::convertBinningType", "group__detray__plugin.html#ga653b2715f447b38226541ab4428813d3", null ],
     [ "ActsPlugins::DetrayConversionUtils::convertBinUtilityTo2D", "group__detray__plugin.html#gab6c312293d8af6ea0c1e6ec8b4e3ea8e", null ],
-    [ "ActsPlugins::DetrayConversionUtils::convertMaterialSlab", "group__detray__plugin.html#ga0d9951e2a53c0880c60ab8257183caa6", null ],
+    [ "ActsPlugins::DetrayConversionUtils::convertMaterialSlab", "group__detray__plugin.html#gad6f13b7c6399dc402dc8146aa5abff09", null ],
     [ "ActsPlugins::DetrayConversionUtils::convertTransform", "group__detray__plugin.html#ga35964a57f9fb41aa16b14087c8d30b51", null ]
 ];
