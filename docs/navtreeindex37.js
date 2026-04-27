@@ -1,5 +1,9 @@
 var NAVTREEINDEX37 =
 {
+"class_acts_1_1_vertex.html#a4699689d6766e21855f2989559984fe6":[5,0,0,436,15],
+"class_acts_1_1_vertex.html#a4699689d6766e21855f2989559984fe6":[7,0,0,443,15],
+"class_acts_1_1_vertex.html#a4869a54bb3b56627109a96155be7f165":[5,0,0,436,9],
+"class_acts_1_1_vertex.html#a4869a54bb3b56627109a96155be7f165":[7,0,0,443,9],
 "class_acts_1_1_vertex.html#a537e529114537f6306804862b966ade1":[5,0,0,436,1],
 "class_acts_1_1_vertex.html#a537e529114537f6306804862b966ade1":[7,0,0,443,1],
 "class_acts_1_1_vertex.html#a53814053ff2fdfee37ba659df7e46607":[5,0,0,436,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX37 =
 "class_acts_fatras_1_1_barcode.html#a881909d8183324eff8c583d82b15fdc0":[5,0,2,2,9],
 "class_acts_fatras_1_1_barcode.html#a881909d8183324eff8c583d82b15fdc0":[7,0,1,3,9],
 "class_acts_fatras_1_1_barcode.html#a945b781d521bdaa88aa954f22ce81dc1":[5,0,2,2,17],
-"class_acts_fatras_1_1_barcode.html#a945b781d521bdaa88aa954f22ce81dc1":[7,0,1,3,17],
-"class_acts_fatras_1_1_barcode.html#a999f4a5b7544c12d183b809364de68a4":[5,0,2,2,27],
-"class_acts_fatras_1_1_barcode.html#a999f4a5b7544c12d183b809364de68a4":[7,0,1,3,27],
-"class_acts_fatras_1_1_barcode.html#ac474b8e5fdf20242b1d72336af019a6b":[5,0,2,2,13],
-"class_acts_fatras_1_1_barcode.html#ac474b8e5fdf20242b1d72336af019a6b":[7,0,1,3,13]
+"class_acts_fatras_1_1_barcode.html#a945b781d521bdaa88aa954f22ce81dc1":[7,0,1,3,17]
 };

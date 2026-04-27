@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a5b7dae03976ee357997000ea8e2eaee2":[7,0,0,389,1,13],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a644d947ad44ba5dda94d3986b74052d1":[5,0,0,382,1,2],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a644d947ad44ba5dda94d3986b74052d1":[7,0,0,389,1,2],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7879b6d3a9d8e3039d29608616286781":[5,0,0,382,1,3],
 "struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7879b6d3a9d8e3039d29608616286781":[7,0,0,389,1,3],
 "struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7c427815f25b73222dcab8ff76c6697a":[5,0,0,382,1,7],
 "struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7c427815f25b73222dcab8ff76c6697a":[7,0,0,389,1,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d":[7,0,0,404,0,1],
 "struct_acts_1_1_toroid_field_1_1_cache.html":[5,0,0,397,1],
 "struct_acts_1_1_toroid_field_1_1_cache.html":[7,0,0,404,1],
-"struct_acts_1_1_toroid_field_1_1_config.html":[5,0,0,397,2],
-"struct_acts_1_1_toroid_field_1_1_config.html":[7,0,0,404,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[5,0,0,397,2,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[7,0,0,404,2,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[5,0,0,397,2,0]
+"struct_acts_1_1_toroid_field_1_1_config.html":[5,0,0,397,2]
 };
