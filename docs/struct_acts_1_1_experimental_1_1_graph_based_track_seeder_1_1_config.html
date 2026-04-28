@@ -143,6 +143,9 @@ Collaboration diagram for Acts::Experimental::GraphBasedTrackSeeder::Config:</di
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a0d6e4c5a2cf343f7f59c8425bd6c66ea" id="r_a0d6e4c5a2cf343f7f59c8425bd6c66ea"><td class="memItemLeft" align="right" valign="top"><a id="a0d6e4c5a2cf343f7f59c8425bd6c66ea" name="a0d6e4c5a2cf343f7f59c8425bd6c66ea"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>addTriplets</b> = false</td></tr>
+<tr class="memdesc:a0d6e4c5a2cf343f7f59c8425bd6c66ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally add 3 sp seeds within a cirtain eta range <br /></td></tr>
 <tr class="memitem:a69d65707c1b9ca7b4b7e810c2a1b82dc" id="r_a69d65707c1b9ca7b4b7e810c2a1b82dc"><td class="memItemLeft" align="right" valign="top"><a id="a69d65707c1b9ca7b4b7e810c2a1b82dc" name="a69d65707c1b9ca7b4b7e810c2a1b82dc"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>beamSpotCorrection</b> = false</td></tr>
 <tr class="memdesc:a69d65707c1b9ca7b4b7e810c2a1b82dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable beam spot correction. <br /></td></tr>
@@ -158,9 +161,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>doubletFilterRZ</b> =
 <tr class="memitem:a60fa0cf3c1557f05c58b484649db8b1b" id="r_a60fa0cf3c1557f05c58b484649db8b1b"><td class="memItemLeft" align="right" valign="top"><a id="a60fa0cf3c1557f05c58b484649db8b1b" name="a60fa0cf3c1557f05c58b484649db8b1b"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>edgeMaskMinEta</b> = 1.5</td></tr>
 <tr class="memdesc:a60fa0cf3c1557f05c58b484649db8b1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum eta for edge masking. <br /></td></tr>
-<tr class="memitem:abf536019cdd5553d14249241aa15a1dd" id="r_abf536019cdd5553d14249241aa15a1dd"><td class="memItemLeft" align="right" valign="top"><a id="abf536019cdd5553d14249241aa15a1dd" name="abf536019cdd5553d14249241aa15a1dd"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>etaBinWidthOverride</b> = 0.0f</td></tr>
-<tr class="memdesc:abf536019cdd5553d14249241aa15a1dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin width override (0 uses default from connection file). <br /></td></tr>
+<tr class="memitem:abf536019cdd5553d14249241aa15a1dd" id="r_abf536019cdd5553d14249241aa15a1dd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf536019cdd5553d14249241aa15a1dd">etaBinWidthOverride</a> = 0.0f</td></tr>
+<tr class="memdesc:abf536019cdd5553d14249241aa15a1dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin width override (0 uses default from connection file).  <br /></td></tr>
 <tr class="memitem:a3652caf4ad71c3e9453573f527cdad8a" id="r_a3652caf4ad71c3e9453573f527cdad8a"><td class="memItemLeft" align="right" valign="top"><a id="a3652caf4ad71c3e9453573f527cdad8a" name="a3652caf4ad71c3e9453573f527cdad8a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>hitShareThreshold</b> = 0.49</td></tr>
 <tr class="memdesc:a3652caf4ad71c3e9453573f527cdad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold for hit sharing between seeds. <br /></td></tr>
@@ -173,6 +175,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>lutInputFile</
 <tr class="memitem:a943fe3475acf317ed99226a20a60ca0f" id="r_a943fe3475acf317ed99226a20a60ca0f"><td class="memItemLeft" align="right" valign="top"><a id="a943fe3475acf317ed99226a20a60ca0f" name="a943fe3475acf317ed99226a20a60ca0f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>matchBeforeCreate</b> = false</td></tr>
 <tr class="memdesc:a943fe3475acf317ed99226a20a60ca0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match seeds before creating them. <br /></td></tr>
+<tr class="memitem:af1f0ec6800f6d2e53fe3e4a4f9a0e8ee" id="r_af1f0ec6800f6d2e53fe3e4a4f9a0e8ee"><td class="memItemLeft" align="right" valign="top"><a id="af1f0ec6800f6d2e53fe3e4a4f9a0e8ee" name="af1f0ec6800f6d2e53fe3e4a4f9a0e8ee"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxAbsEtaAddTripelts</b> = 1.5</td></tr>
+<tr class="memdesc:af1f0ec6800f6d2e53fe3e4a4f9a0e8ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum allowed eta value in which three spacepoint seeds are passed through <br /></td></tr>
 <tr class="memitem:a0395f4366d9e1ff096b14a04e0d6a61c" id="r_a0395f4366d9e1ff096b14a04e0d6a61c"><td class="memItemLeft" align="right" valign="top"><a id="a0395f4366d9e1ff096b14a04e0d6a61c" name="a0395f4366d9e1ff096b14a04e0d6a61c"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxEndcapClusterWidth</b> = 0.35 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a0395f4366d9e1ff096b14a04e0d6a61c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum endcap cluster width. <br /></td></tr>
@@ -196,7 +201,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>nMaxPhiSlice</b> = 5
 <tr class="memdesc:a79c862ffa025d4329f07e89252eab8f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of phi slices. <br /></td></tr>
 <tr class="memitem:ae1affe4469d4447b1a24fe44d001c92d" id="r_ae1affe4469d4447b1a24fe44d001c92d"><td class="memItemLeft" align="right" valign="top"><a id="ae1affe4469d4447b1a24fe44d001c92d" name="ae1affe4469d4447b1a24fe44d001c92d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCorr</b> = 0.006</td></tr>
-<tr class="memdesc:ae1affe4469d4447b1a24fe44d001c92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">description here <br /></td></tr>
+<tr class="memdesc:ae1affe4469d4447b1a24fe44d001c92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">correction applied to tau acceptance if a layer is missed during edge connecting <br /></td></tr>
 <tr class="memitem:a8728aedf9b55147fee5ce9ae985bed3e" id="r_a8728aedf9b55147fee5ce9ae985bed3e"><td class="memItemLeft" align="right" valign="top"><a id="a8728aedf9b55147fee5ce9ae985bed3e" name="a8728aedf9b55147fee5ce9ae985bed3e"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCut</b> = 0.007</td></tr>
 <tr class="memdesc:a8728aedf9b55147fee5ce9ae985bed3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio cut threshold. <br /></td></tr>
@@ -205,7 +210,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioPrecut</b> =
 <tr class="memdesc:abbb8af4668248a914870589c2d13d7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tau ratio precut threshold. <br /></td></tr>
 <tr class="memitem:af4cb7d81cde3c1c9469ebbb821f2ee17" id="r_af4cb7d81cde3c1c9469ebbb821f2ee17"><td class="memItemLeft" align="right" valign="top"><a id="af4cb7d81cde3c1c9469ebbb821f2ee17" name="af4cb7d81cde3c1c9469ebbb821f2ee17"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useAdaptiveCuts</b> = true</td></tr>
-<tr class="memdesc:af4cb7d81cde3c1c9469ebbb821f2ee17"><td class="mdescLeft">&#160;</td><td class="mdescRight">description here <br /></td></tr>
+<tr class="memdesc:af4cb7d81cde3c1c9469ebbb821f2ee17"><td class="mdescLeft">&#160;</td><td class="mdescRight">widens allowed variation in tau ratio if layer is missed in edge connecting <br /></td></tr>
 <tr class="memitem:a168ce6d76497cf219da3872066da2e76" id="r_a168ce6d76497cf219da3872066da2e76"><td class="memItemLeft" align="right" valign="top"><a id="a168ce6d76497cf219da3872066da2e76" name="a168ce6d76497cf219da3872066da2e76"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useEtaBinning</b> = true</td></tr>
 <tr class="memdesc:a168ce6d76497cf219da3872066da2e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use eta binning from geometry structure. <br /></td></tr>
@@ -217,11 +222,29 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useOldTunings</b> = f
 <tr class="memdesc:a4c27a087b4021afe7e1c1292c704d8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use legacy tuning parameters. <br /></td></tr>
 <tr class="memitem:af035485c49d8acc15723133b1c92f091" id="r_af035485c49d8acc15723133b1c92f091"><td class="memItemLeft" align="right" valign="top"><a id="af035485c49d8acc15723133b1c92f091" name="af035485c49d8acc15723133b1c92f091"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>validateTriplets</b> = true</td></tr>
-<tr class="memdesc:af035485c49d8acc15723133b1c92f091"><td class="mdescLeft">&#160;</td><td class="mdescRight">description here <br /></td></tr>
+<tr class="memdesc:af035485c49d8acc15723133b1c92f091"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional validation for abrrel triplets <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration struct for the GBTS seeding algorithm. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="abf536019cdd5553d14249241aa15a1dd" name="abf536019cdd5553d14249241aa15a1dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf536019cdd5553d14249241aa15a1dd">&#9670;&#160;</a></span>etaBinWidthOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Acts::Experimental::GraphBasedTrackSeeder::Config::etaBinWidthOverride = 0.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Eta bin width override (0 uses default from connection file). </p>
+<p>specify non-zero to override eta bin width from connection file (default 0.2 in createLinkingScheme.py) </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -1,5 +1,6 @@
 var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
 [
+    [ "addTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0d6e4c5a2cf343f7f59c8425bd6c66ea", null ],
     [ "beamSpotCorrection", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a69d65707c1b9ca7b4b7e810c2a1b82dc", null ],
     [ "connectorInputFile", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aa3823b2652a80bc1f0250e563189236b", null ],
     [ "d0Max", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a71f25731c6860b23d160f7f505552534", null ],
@@ -10,6 +11,7 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "lrtMode", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a30600d7753c63d8208957e8bfe114293", null ],
     [ "lutInputFile", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af272f00fb1883c26c15cac071e9f21ec", null ],
     [ "matchBeforeCreate", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a943fe3475acf317ed99226a20a60ca0f", null ],
+    [ "maxAbsEtaAddTripelts", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af1f0ec6800f6d2e53fe3e4a4f9a0e8ee", null ],
     [ "maxEndcapClusterWidth", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0395f4366d9e1ff096b14a04e0d6a61c", null ],
     [ "maxInvRadDiff", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a7bf238a29bc8d60e5a944b4df139d192", null ],
     [ "maxSeedSplitEta", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a3fdfc3893cea464d5d0a1c286975312d", null ],
