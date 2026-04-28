@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_toroid_field_1_1_cache.html":[7,0,0,404,1],
+"struct_acts_1_1_toroid_field_1_1_config.html":[5,0,0,397,2],
 "struct_acts_1_1_toroid_field_1_1_config.html":[7,0,0,404,2],
 "struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[5,0,0,397,2,2],
 "struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[7,0,0,404,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[5,0,0,407,0],
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[7,0,0,414,0],
 "struct_acts_1_1_transform3_json_converter_1_1_options.html":[7,0,0,14,0],
-"struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398":[7,0,0,14,0,1],
-"struct_acts_1_1_transform3_json_converter_1_1_options.html#a328243a6d3fd16b3b7af8049ab45d8ce":[7,0,0,14,0,0],
-"struct_acts_1_1_triplet_candidate.html":[5,0,0,422]
+"struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398":[7,0,0,14,0,1]
 };

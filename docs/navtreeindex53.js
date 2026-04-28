@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[5,0,0,158,1,5],
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[7,0,0,165,1,5],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[5,0,0,158,1,0],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[7,0,0,165,1,0],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[5,0,0,158,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_indexed_material_accessor.html":[4,3,2,15],
 "struct_acts_1_1_indexed_material_accessor.html#a67ebbd830f15321130511280fd5e02c1":[4,3,2,15,3],
 "struct_acts_1_1_indexed_material_accessor.html#a76712448d5ee051408d9fd574da7fbf9":[4,3,2,15,1],
-"struct_acts_1_1_indexed_material_accessor.html#ab6a2e9b7e4a4f7a1f5fde76bbef36f93":[4,3,2,15,2],
-"struct_acts_1_1_indexed_material_accessor.html#ad7dec86d0db1fa86dfe9d202360b98ae":[4,3,2,15,4],
-"struct_acts_1_1_indexed_material_accessor.html#af094f284dd83da1d2eb84cbb7c96680d":[4,3,2,15,0]
+"struct_acts_1_1_indexed_material_accessor.html#ab6a2e9b7e4a4f7a1f5fde76bbef36f93":[4,3,2,15,2]
 };

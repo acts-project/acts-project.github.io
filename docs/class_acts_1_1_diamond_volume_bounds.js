@@ -13,6 +13,7 @@ var class_acts_1_1_diamond_volume_bounds =
     ] ],
     [ "Face", "class_acts_1_1_diamond_volume_bounds.html#a159c5f1828479b1fd03304934c214b41", null ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a3b0f35b5844019959dd39b6ab69de3fb", null ],
+    [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#ac0bc33013cd2fbb83589cbd7f04e630a", null ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a86fabfede3e3ab5c471bc32a3870130d", null ],
     [ "DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a7625325edac9ed678c0d47d52b6b6b83", null ],
     [ "~DiamondVolumeBounds", "class_acts_1_1_diamond_volume_bounds.html#a39a05fbe11622b0a286997545c27920c", null ],

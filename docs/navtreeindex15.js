@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"class_acts_1_1_generic_approach_descriptor.html#ae9eda4972587ff03e4da7a1ea93db4af":[5,0,0,142,0],
+"class_acts_1_1_generic_approach_descriptor.html#ae9eda4972587ff03e4da7a1ea93db4af":[7,0,0,149,0],
 "class_acts_1_1_generic_cuboid_volume_bounds.html":[5,0,0,143],
 "class_acts_1_1_generic_cuboid_volume_bounds.html":[7,0,0,150],
 "class_acts_1_1_generic_cuboid_volume_bounds.html#a048d0e413d54443a48fb1b7ef57c53f5":[5,0,0,143,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "class_acts_1_1_grid.html#aa136183512662d76ecb263c333f62f1e":[7,0,0,163,24],
 "class_acts_1_1_grid.html#aa2f71285f674cc77e7b7199d9156cd3c":[5,0,0,156,20],
 "class_acts_1_1_grid.html#aa2f71285f674cc77e7b7199d9156cd3c":[7,0,0,163,20],
-"class_acts_1_1_grid.html#aa7fac21b050177e99d2c9a116267364d":[5,0,0,156,11],
-"class_acts_1_1_grid.html#aa7fac21b050177e99d2c9a116267364d":[7,0,0,163,11],
-"class_acts_1_1_grid.html#aac697c56117d7c86c8d095f46ab13715":[5,0,0,156,7]
+"class_acts_1_1_grid.html#aa7fac21b050177e99d2c9a116267364d":[5,0,0,156,11]
 };

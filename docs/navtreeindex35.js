@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"class_acts_1_1_track_state_type_map.html":[5,0,0,418],
+"class_acts_1_1_track_state_type_map.html":[7,0,0,425],
 "class_acts_1_1_track_state_type_map.html#a408e06e7c99d905e90604af45453389a":[5,0,0,418,0],
 "class_acts_1_1_track_state_type_map.html#a408e06e7c99d905e90604af45453389a":[7,0,0,425,0],
 "class_acts_1_1_track_state_type_map.html#a70eaddd80137c0254f79875ceb685c5a":[5,0,0,418,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "class_acts_1_1_tracking_volume_array_creator.html#af0e595d0bcb69a9be939345a7e435554":[7,0,0,414,1],
 "class_acts_1_1_trapezoid_bounds.html":[5,0,0,419],
 "class_acts_1_1_trapezoid_bounds.html":[7,0,0,426],
-"class_acts_1_1_trapezoid_bounds.html#a00f9ae745e94915419afe09c26633e84":[5,0,0,419,10],
-"class_acts_1_1_trapezoid_bounds.html#a00f9ae745e94915419afe09c26633e84":[7,0,0,426,10],
-"class_acts_1_1_trapezoid_bounds.html#a070ffd74c3ea76687c43a32f5a4a173d":[5,0,0,419,1]
+"class_acts_1_1_trapezoid_bounds.html#a00f9ae745e94915419afe09c26633e84":[5,0,0,419,10]
 };

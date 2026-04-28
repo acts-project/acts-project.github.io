@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"group__logging__thresholds.html#ga9dba39c9c5ccaafe81f27f56937d7f3a":[4,7,1,2],
+"group__magnetic__field.html":[4,3,1],
 "group__magnetic__field.html":[4,10,0],
 "group__magnetic__field.html#ga0a2a24528115e4a19afa750157c52642":[4,3,1,10],
 "group__magnetic__field.html#ga0a2a24528115e4a19afa750157c52642":[4,10,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "namespace_acts.html#a589e3f01b082df3de46c2a6f5e6ce749":[5,0,0,964],
 "namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a":[5,0,0,504],
 "namespace_acts.html#a59c48d818496d25601d010382d0a0949":[5,0,0,814],
-"namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f":[5,0,0,590],
-"namespace_acts.html#a59e8d56f5a930d507527de2100a1adc4":[5,0,0,875],
-"namespace_acts.html#a5b24d457aac2fdb38a4b9b4e0450f093":[5,0,0,990]
+"namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f":[5,0,0,590]
 };

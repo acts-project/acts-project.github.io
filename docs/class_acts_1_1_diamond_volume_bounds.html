@@ -190,6 +190,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a86fabfede3e3ab5c471bc32a3870130d" id="r_a86fabfede3e3ab5c471bc32a3870130d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86fabfede3e3ab5c471bc32a3870130d">DiamondVolumeBounds</a> (const DiamondVolumeBounds &amp;other)=default</td></tr>
 <tr class="memdesc:a86fabfede3e3ab5c471bc32a3870130d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
+<tr class="memitem:ac0bc33013cd2fbb83589cbd7f04e630a" id="r_ac0bc33013cd2fbb83589cbd7f04e630a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0bc33013cd2fbb83589cbd7f04e630a">DiamondVolumeBounds</a> (const std::array&lt; double, <a class="el" href="#a7d42b12fc538ef81d3bded8e9a166919a2ebcd38cfdbb4b23dc36887f6183184a">eSize</a> &gt; &amp;<a class="el" href="#ab10a7a69cd5101d7d023099982e24c63">values</a>) noexcept(false)</td></tr>
+<tr class="memdesc:ac0bc33013cd2fbb83589cbd7f04e630a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - from a vector of bound values.  <br /></td></tr>
 <tr class="memitem:a7625325edac9ed678c0d47d52b6b6b83" id="r_a7625325edac9ed678c0d47d52b6b6b83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7625325edac9ed678c0d47d52b6b6b83">DiamondVolumeBounds</a> (DiamondVolumeBounds &amp;&amp;other)=default</td></tr>
 <tr class="memdesc:a7625325edac9ed678c0d47d52b6b6b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
 <tr class="memitem:a3b0f35b5844019959dd39b6ab69de3fb" id="r_a3b0f35b5844019959dd39b6ab69de3fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b0f35b5844019959dd39b6ab69de3fb">DiamondVolumeBounds</a> (double x1, double x2, double x3, double y1, double y2, double halez) noexcept(false)</td></tr>
@@ -287,7 +289,7 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3b0f35b5844019959dd39b6ab69de3fb" name="a3b0f35b5844019959dd39b6ab69de3fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b0f35b5844019959dd39b6ab69de3fb">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b0f35b5844019959dd39b6ab69de3fb">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,8 +342,41 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
 
 </div>
 </div>
+<a id="ac0bc33013cd2fbb83589cbd7f04e630a" name="ac0bc33013cd2fbb83589cbd7f04e630a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bc33013cd2fbb83589cbd7f04e630a">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::DiamondVolumeBounds::DiamondVolumeBounds </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; double, <a class="el" href="#a7d42b12fc538ef81d3bded8e9a166919a2ebcd38cfdbb4b23dc36887f6183184a">eSize</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor - from a vector of bound values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>The bound values (eSize elements) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a86fabfede3e3ab5c471bc32a3870130d" name="a86fabfede3e3ab5c471bc32a3870130d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86fabfede3e3ab5c471bc32a3870130d">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86fabfede3e3ab5c471bc32a3870130d">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,7 +409,7 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
 </div>
 </div>
 <a id="a7625325edac9ed678c0d47d52b6b6b83" name="a7625325edac9ed678c0d47d52b6b6b83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7625325edac9ed678c0d47d52b6b6b83">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7625325edac9ed678c0d47d52b6b6b83">&#9670;&#160;</a></span>DiamondVolumeBounds() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
