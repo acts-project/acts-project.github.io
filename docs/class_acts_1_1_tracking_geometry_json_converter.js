@@ -16,7 +16,7 @@ var class_acts_1_1_tracking_geometry_json_converter =
     [ "VolumeBoundsEncoder", "class_acts_1_1_tracking_geometry_json_converter.html#a82949918f4d0b432cb7cbbd995805f6f", null ],
     [ "VolumeIdLookup", "class_acts_1_1_tracking_geometry_json_converter.html#afc3d736455f27df9c89c0bcd88c7e95f", null ],
     [ "VolumePointerLookup", "class_acts_1_1_tracking_geometry_json_converter.html#ad1e99dbd289f83a57554bf9e95332049", null ],
-    [ "TrackingGeometryJsonConverter", "class_acts_1_1_tracking_geometry_json_converter.html#aa4efab6c8a69b3a119d91260795acea8", null ],
+    [ "TrackingGeometryJsonConverter", "class_acts_1_1_tracking_geometry_json_converter.html#a50237df4af3a6595fc3db1b0252028f8", null ],
     [ "fromJson", "class_acts_1_1_tracking_geometry_json_converter.html#a2fef890357913036c094938666afe054", null ],
     [ "navigationPolicyFromJson", "class_acts_1_1_tracking_geometry_json_converter.html#a2483e0150c26df50a6e537e189a7ab33", null ],
     [ "navigationPolicyToJson", "class_acts_1_1_tracking_geometry_json_converter.html#ae861ae5cd62d919feabc41cbe5995db2", null ],
