@@ -1,7 +1,6 @@
 var struct_acts_1_1_straight_line_stepper_1_1_state =
 [
     [ "State", "struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d", null ],
-    [ "additionalFreeCovariance", "struct_acts_1_1_straight_line_stepper_1_1_state.html#a1888b900e1312e4907498d1c1f1fb460", null ],
     [ "cov", "struct_acts_1_1_straight_line_stepper_1_1_state.html#a6caac2ad5fd5c4d65fe8d3a7eb00aa78", null ],
     [ "covTransport", "struct_acts_1_1_straight_line_stepper_1_1_state.html#a41e14a64f5bd2ed5648dd994e67ad4d5", null ],
     [ "derivative", "struct_acts_1_1_straight_line_stepper_1_1_state.html#a7b73a3461319b62b6310ba805bfa9eea", null ],

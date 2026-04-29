@@ -125,13 +125,13 @@ var NAVTREEINDEX =
 "struct_acts_1_1_propagator_result.html#a0a7a12317dd4edcb27eb022bcc8c3a40",
 "struct_acts_1_1_seed_filter_config.html#ace8b1ae5e5faf6ab10d07cabd9081ae4",
 "struct_acts_1_1_solenoid_b_field_1_1_config.html",
-"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a099e8fe201fdb13df86e20b94e93d420",
-"struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601",
-"struct_acts_1_1_tracking_volume_array_creator_1_1_config.html",
-"struct_acts_1_1_volume_config.html#a985fedaf95d940c2e0254b144d4b1e80",
-"struct_acts_fatras_1_1_failed_particle.html#a6f90cf1f12cefed2152d27429f627252",
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#ab600d76653d0b5a7c7eb3c98e98929dd",
-"struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#ad340b4169531dc7c00f64b25bd48532e"
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a314c14ece2c0b6183963faa1e6a0298a",
+"struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d",
+"struct_acts_1_1_transform3_json_converter_1_1_options.html",
+"struct_acts_1_1_volume_config.html#aa1c01e1bed2d629e2d4af928ba0e6e80",
+"struct_acts_fatras_1_1_failed_particle.html#af7eaeee9d6fc9ee8ad70b55e717cb14c",
+"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_config.html",
+"struct_acts_plugins_1_1_svg_1_1_style.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
