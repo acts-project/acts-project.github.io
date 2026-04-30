@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441":[4,9,2,32],
+"group__dd4hep__plugin.html#gabe16da7b25f0306dbabda811735f3a1f":[4,9,2,27],
+"group__dd4hep__plugin.html#gad21595c06a72a8d15a45e0bd1210c2bd":[4,9,2,11],
+"group__dd4hep__plugin.html#gad4f6e5ad9ecf62743a2fe2dbc61b4fc9":[4,9,2,22],
 "group__dd4hep__plugin.html#gad6da5dbdf350e5823cdd3631f821a841":[4,9,2,20],
 "group__dd4hep__plugin.html#gae2894e2fe6f50d26a5b53721dcbb93c8":[4,9,2,15],
 "group__dd4hep__plugin.html#gae3592dd1902fc3df80dc11d936ebcaea":[4,9,2,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "group__logging__macros.html#ga6ae3a5bd5ae00bdd04ae4eac65ba3df2":[4,7,0,2],
 "group__logging__macros.html#ga944f2c94c1119d970bb30776295c641c":[4,7,0,5],
 "group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821":[4,7,0,3],
-"group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44":[4,7,0,6],
-"group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385":[4,7,0,7],
-"group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09":[4,7,0,0],
-"group__logging__thresholds.html":[4,7,1],
-"group__logging__thresholds.html#ga0a0dd0cd0ea7f3498fc0cd1229f5015a":[4,7,1,3]
+"group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44":[4,7,0,6]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"concept_acts_1_1_common_multi_trajectory_backend.html":[6,0,16],
+"concept_acts_1_1_concepts_1_1_basic_track_parameters.html":[6,0,1,1],
+"concept_acts_1_1_concepts_1_1_common_stepper.html":[6,0,1,2],
+"concept_acts_1_1_concepts_1_1_multi_stepper.html":[6,0,1,11],
 "concept_acts_1_1_concepts_1_1_single_stepper.html":[6,0,1,14],
 "concept_acts_1_1_concepts_1_1arithmetic.html":[6,0,1,0],
 "concept_acts_1_1_concepts_1_1decayed__same__as.html":[6,0,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "group__dd4hep__plugin.html#ga836ea8e26dd40df2f49a4d8feb3a6ace":[4,9,2,13],
 "group__dd4hep__plugin.html#ga8c3a686ae6d25dbf550c9110f880d2b0":[4,9,2,26],
 "group__dd4hep__plugin.html#gaa117bf0249f08dc9c6db548e3752d73b":[4,9,2,24],
-"group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e":[4,9,2,33],
-"group__dd4hep__plugin.html#gab5ff22deaf2206ac743a1d6d1ebef441":[4,9,2,32],
-"group__dd4hep__plugin.html#gabe16da7b25f0306dbabda811735f3a1f":[4,9,2,27],
-"group__dd4hep__plugin.html#gad21595c06a72a8d15a45e0bd1210c2bd":[4,9,2,11],
-"group__dd4hep__plugin.html#gad4f6e5ad9ecf62743a2fe2dbc61b4fc9":[4,9,2,22]
+"group__dd4hep__plugin.html#gaaf696f8070f1f3990ead852282a1b33e":[4,9,2,33]
 };

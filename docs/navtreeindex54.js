@@ -1,5 +1,9 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html":[7,0,0,7,0],
+"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#a0336a404b6a9d18ad8cb6fdd6dc88a84":[7,0,0,7,0,0],
+"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#aaa1fa9237d6d00f66101ab7c9f3bc406":[7,0,0,7,0,1],
+"struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#ad6ff18680fea02c928c493424f1c2cdd":[7,0,0,7,0,2],
 "struct_acts_1_1_indexed_material_accessor.html":[4,3,2,15],
 "struct_acts_1_1_indexed_material_accessor.html#a67ebbd830f15321130511280fd5e02c1":[4,3,2,15,3],
 "struct_acts_1_1_indexed_material_accessor.html#a76712448d5ee051408d9fd574da7fbf9":[4,3,2,15,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_linearized_track.html#afe8fed78296d3fdbe2293ab0d5368007":[7,0,0,247,4],
 "struct_acts_1_1_material_interaction.html":[5,0,0,248],
 "struct_acts_1_1_material_interaction.html":[7,0,0,255],
-"struct_acts_1_1_material_interaction.html#a15ddb233f2f528ac86a24882e67154ce":[5,0,0,248,5],
-"struct_acts_1_1_material_interaction.html#a15ddb233f2f528ac86a24882e67154ce":[7,0,0,255,5],
-"struct_acts_1_1_material_interaction.html#a27ff9a1899bc23928c65edf8b521bd22":[5,0,0,248,8],
-"struct_acts_1_1_material_interaction.html#a27ff9a1899bc23928c65edf8b521bd22":[7,0,0,255,8],
-"struct_acts_1_1_material_interaction.html#a3b386e2f907fbfb10840e562dc5eceea":[5,0,0,248,3]
+"struct_acts_1_1_material_interaction.html#a15ddb233f2f528ac86a24882e67154ce":[5,0,0,248,5]
 };
