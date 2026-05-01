@@ -1,0 +1,29 @@
+<map id="Acts::DirectNavigator::Options" name="Acts::DirectNavigator::Options">
+<area shape="rect" id="Node000001" title="The nested options struct." alt="" coords="1536,291,1697,331"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and surfaces." alt="" coords="1283,298,1487,323"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1500,308,1536,308,1536,313,1500,313"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="929,130,1036,155"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1028,158,1354,295,1352,300,1026,163"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="411,15,577,41"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="591,37,713,57,845,87,904,107,954,128,952,132,902,112,843,92,712,62,590,42"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,15,187,41"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="201,25,411,25,411,31,201,31"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="409,65,579,105"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="593,91,844,117,930,131,929,136,844,123,593,96"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="392,130,596,185"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="610,151,929,142,929,147,610,157"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="35,145,157,170"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="171,155,392,155,392,160,171,160"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_cloneable_ptr.html" title=" " alt="" coords="412,209,576,249"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="589,218,711,203,843,180,943,153,944,158,845,185,712,208,590,223"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_cloneable_ptr.html" title="A copyable smart pointer that uses a cloner function to copy the managed object." alt="" coords="7,217,185,242"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="199,227,411,227,411,232,199,232"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="868,261,1097,360"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="1111,308,1283,308,1283,313,1111,313"/>
+<area shape="rect" id="Node000012" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="393,309,595,349"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="609,330,723,330,844,325,868,323,868,329,844,331,723,335,609,335"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="912,384,1053,424"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="1066,382,1328,321,1329,326,1067,387"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="429,391,559,417"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="573,401,912,401,912,407,573,407"/>
+</map>

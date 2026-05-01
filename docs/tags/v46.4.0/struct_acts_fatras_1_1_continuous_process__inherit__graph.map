@@ -1,0 +1,9 @@
+<map id="ActsFatras::ContinuousProcess&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;" name="ActsFatras::ContinuousProcess&lt; physics_t, input_particle_selector_t, output_particle_selector_t, child_particle_selector_t &gt;">
+<area shape="rect" id="Node000001" title="A continuous simulation process based on a physics model plus selectors." alt="" coords="5,105,280,175"/>
+<area shape="rect" id="Node000002" href="$struct_acts_fatras_1_1_continuous_process.html" title=" " alt="" coords="553,34,833,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,99,304,89,431,72,553,62,553,68,432,77,304,95,262,104"/>
+<area shape="rect" id="Node000003" href="$struct_acts_fatras_1_1_continuous_process.html" title=" " alt="" coords="578,113,809,167"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="294,137,578,137,578,143,294,143"/>
+<area shape="rect" id="Node000004" href="$struct_acts_fatras_1_1_continuous_process.html" title=" " alt="" coords="568,191,819,246"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,176,304,185,440,204,568,213,568,218,440,209,304,191,261,181"/>
+</map>
