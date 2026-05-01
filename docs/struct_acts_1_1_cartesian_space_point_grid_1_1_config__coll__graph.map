@@ -1,0 +1,9 @@
+<map id="Acts::CartesianSpacePointGrid::Config" name="Acts::CartesianSpacePointGrid::Config">
+<area shape="rect" id="Node000001" title="Configuration parameters for the cartesian space point grid." alt="" coords="105,232,297,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,173,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,171,142,206,172,230,169,234,138,210,108,174"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="28,5,151,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,45,92,121,87,121,87,45"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_direction.html" title="The direction is always with respect to a given momentum, surface normal or other general axes." alt="" coords="197,129,315,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,168,213,233,208,231,242,165"/>
+</map>

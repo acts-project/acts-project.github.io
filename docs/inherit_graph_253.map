@@ -1,33 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_grid.html" title="Base class for all grid types." alt="" coords="5,542,95,567"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,5,353,45"/>
-<area shape="poly" id="edge88_Node000000_Node000001" title=" " alt="" coords="50,528,57,425,73,284,85,212,100,147,118,93,141,56,158,42,161,46,145,59,123,95,105,148,90,213,78,285,62,426,55,529"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_grid.html" title=" " alt="" coords="143,69,371,109"/>
-<area shape="poly" id="edge89_Node000000_Node000002" title=" " alt="" coords="51,528,60,437,77,315,104,198,121,151,141,120,155,107,159,111,145,123,125,154,109,199,82,316,65,437,56,528"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_grid.html" title=" " alt="" coords="146,134,367,189"/>
-<area shape="poly" id="edge90_Node000000_Node000003" title=" " alt="" coords="48,528,49,463,60,375,72,328,89,281,111,237,141,198,154,187,157,191,145,202,116,240,93,283,77,329,66,376,54,463,53,528"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,213,353,267"/>
-<area shape="poly" id="edge91_Node000000_Node000004" title=" " alt="" coords="50,528,56,476,70,409,97,339,117,306,141,277,158,263,161,267,145,281,121,309,102,341,75,410,61,477,55,529"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,291,353,346"/>
-<area shape="poly" id="edge92_Node000000_Node000005" title=" " alt="" coords="54,528,64,490,81,444,106,396,141,355,158,343,161,347,144,359,111,399,86,446,69,491,59,529"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_grid.html" title=" " alt="" coords="173,370,340,425"/>
-<area shape="poly" id="edge93_Node000000_Node000006" title=" " alt="" coords="62,529,94,481,116,456,141,434,172,417,174,421,144,438,120,459,98,484,67,532"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_grid.html" title=" " alt="" coords="165,449,348,503"/>
-<area shape="poly" id="edge94_Node000000_Node000007" title=" " alt="" coords="90,534,142,512,172,501,174,506,144,517,92,539"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_grid.html" title=" " alt="" coords="167,527,347,582"/>
-<area shape="poly" id="edge95_Node000000_Node000008" title=" " alt="" coords="109,552,166,552,166,557,109,557"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_grid.html" title=" " alt="" coords="177,606,337,661"/>
-<area shape="poly" id="edge96_Node000000_Node000009" title=" " alt="" coords="94,570,144,591,177,603,175,608,142,596,92,575"/>
-<area shape="rect" id="Node000010" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,685,351,755"/>
-<area shape="poly" id="edge97_Node000000_Node000010" title=" " alt="" coords="68,578,100,624,121,648,144,670,164,683,161,687,141,674,117,652,95,628,63,581"/>
-<area shape="rect" id="Node000011" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,779,351,848"/>
-<area shape="poly" id="edge98_Node000000_Node000011" title=" " alt="" coords="59,580,68,621,85,670,110,720,145,765,164,780,161,784,141,769,106,723,80,672,63,622,53,582"/>
-<area shape="rect" id="Node000012" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,872,351,941"/>
-<area shape="poly" id="edge99_Node000000_Node000012" title=" " alt="" coords="55,581,59,637,73,711,85,750,100,789,120,825,145,858,164,874,160,879,141,862,115,828,95,791,80,752,68,712,54,638,49,581"/>
-<area shape="rect" id="Node000013" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,965,351,1035"/>
-<area shape="poly" id="edge100_Node000000_Node000013" title=" " alt="" coords="57,581,68,664,86,775,112,881,128,923,145,952,164,969,161,973,141,955,123,925,107,883,81,776,62,665,52,581"/>
-<area shape="rect" id="Node000014" href="$class_acts_1_1_grid.html" title=" " alt="" coords="154,1059,359,1099"/>
-<area shape="poly" id="edge101_Node000000_Node000014" title=" " alt="" coords="55,581,63,683,78,822,90,893,105,957,123,1009,145,1045,158,1056,155,1060,141,1048,118,1012,100,958,85,894,73,823,57,683,50,581"/>
-<area shape="rect" id="Node000015" href="$class_acts_1_1_grid.html" title="class for describing a regular multi&#45;dimensional grid" alt="" coords="175,1123,338,1149"/>
-<area shape="poly" id="edge102_Node000000_Node000015" title=" " alt="" coords="55,581,60,695,73,854,85,935,100,1009,120,1069,132,1092,145,1109,159,1120,176,1128,174,1133,156,1125,141,1113,127,1094,115,1071,95,1010,80,936,68,855,54,696,49,582"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_confined_tracking_volume_builder.html" title="This is an interface class for constructing TrackingVolumes whose are confined in a mother&#45;TrackingVo..." alt="" coords="5,5,228,45"/>
+<area shape="rect" id="Node000001" href="$class_acts_plugins_1_1_d_d4hep_volume_builder.html" title="build confined TrackingVolumes of one cylinder setup from DD4hep input." alt="" coords="276,5,483,45"/>
+<area shape="poly" id="edge87_Node000000_Node000001" title=" " alt="" coords="242,23,276,23,276,28,242,28"/>
 </map>

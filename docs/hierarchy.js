@@ -75,6 +75,8 @@ var hierarchy =
     [ "Acts::BroadTripletSeedFilter::Config", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html", null ],
     [ "Acts::BroadTripletSeedFilter::State", "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html", null ],
     [ "Acts::CandidatesForMiddleSp&lt; external_space_point_t &gt;", "class_acts_1_1_candidates_for_middle_sp.html", null ],
+    [ "Acts::CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", null ],
+    [ "Acts::CartesianSpacePointGrid::Config", "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html", null ],
     [ "Acts::Ccl::ClusteringData", "struct_acts_1_1_ccl_1_1_clustering_data.html", null ],
     [ "Acts::Ccl::Connect1D&lt; Cell &gt;", "struct_acts_1_1_ccl_1_1_connect1_d.html", [
       [ "Acts::Ccl::DefaultConnect< Cell, 1 >", "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_011_01_4.html", null ]
@@ -383,6 +385,7 @@ var hierarchy =
       [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< HoughCell< identifier_t >, Axis, Axis >", "class_acts_1_1_grid.html", null ],
+      [ "Acts::Grid< BinType, XAxisType, YAxisType, ZAxisType >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< BinType, PhiAxisType, ZAxisType, RAxisType >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType > >", "class_acts_1_1_grid.html", null ],

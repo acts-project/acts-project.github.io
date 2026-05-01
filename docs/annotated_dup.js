@@ -207,6 +207,7 @@ var annotated_dup =
       [ "BroadTripletSeedFilter", "class_acts_1_1_broad_triplet_seed_filter.html", "class_acts_1_1_broad_triplet_seed_filter" ],
       [ "CalibrationContext", "class_acts_1_1_calibration_context.html", null ],
       [ "CandidatesForMiddleSp", "class_acts_1_1_candidates_for_middle_sp.html", "class_acts_1_1_candidates_for_middle_sp" ],
+      [ "CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", "class_acts_1_1_cartesian_space_point_grid" ],
       [ "CenterReferenceGenerator", "struct_acts_1_1_center_reference_generator.html", "struct_acts_1_1_center_reference_generator" ],
       [ "ChargeHypothesis", "class_acts_1_1_charge_hypothesis.html", "class_acts_1_1_charge_hypothesis" ],
       [ "CloneablePtr", "class_acts_1_1_cloneable_ptr.html", "class_acts_1_1_cloneable_ptr" ],
