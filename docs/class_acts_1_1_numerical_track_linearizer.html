@@ -151,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <p>This class computes A and B by wiggling one of the 7 parameters at the PCA and computing the new PCA wrt linPoint. The derivatives wrt the k-th parameter pk are then calculated via</p>
 <p>(q(p1, p2, ..., pk+delta, ... p7) - q(p1, p2, ..., pk, ... p7))/delta,</p>
 <p>where q(p1, p2, ..., pk+delta, ... p7) are the new Perigee parameters (corresponding to the new PCA to linPoint). Note that p1 corresponds to the x-position of the PCA, p2 corresponds to the y-position of the PCA, etc.</p>
-<dl class="section note"><dt>Note</dt><dd>Connection to RiddersPropagator: The RiddersPropagator does a very similar thing to what this class does, but it wiggles BoundTrackParameters (FreeTrackParameters could also be used if Propagator.hpp and Propagator.ipp were adapted to accommodate them). Here, we wiggle neither BoundTrackParameters nor FreeTrackParameters, but rather the parameters described above.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Connection to RiddersStepper: The RiddersStepper does a very similar thing to what this class does, but it wiggles BoundTrackParameters (FreeTrackParameters could also be used if Propagator.hpp and Propagator.ipp were adapted to accommodate them). Here, we wiggle neither BoundTrackParameters nor FreeTrackParameters, but rather the parameters described above.</dd></dl>
 <p>Ref.(1) - CERN-THESIS-2010-027, Giacinto Piacquadio (Freiburg U.) </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9d1ef8ae74732e497799e5bafcc2d6c9" name="a9d1ef8ae74732e497799e5bafcc2d6c9"></a>

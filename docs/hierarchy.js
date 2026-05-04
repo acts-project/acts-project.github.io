@@ -196,6 +196,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "Acts::Experimental::BlueprintOptions", "struct_acts_1_1_experimental_1_1_blueprint_options.html", null ],
+    [ "Acts::Experimental::BoundParameterVariationGenerator", "struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html", [
+      [ "Acts::Experimental::CovarianceBoundParameterVariationGenerator", "struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html", null ],
+      [ "Acts::Experimental::DeltaBoundParameterVariationGenerator", "struct_acts_1_1_experimental_1_1_delta_bound_parameter_variation_generator.html", null ]
+    ] ],
     [ "Acts::Experimental::CompositeSpacePointLineFitter", "class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html", null ],
     [ "Acts::Experimental::CompositeSpacePointLineFitter::Config", "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html", null ],
     [ "Acts::Experimental::CompositeSpacePointLineFitter::DoFcounts", "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html", null ],
@@ -246,6 +250,9 @@ var hierarchy =
     [ "Acts::Experimental::MultiWireVolumeBuilder", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html", null ],
     [ "Acts::Experimental::MultiWireVolumeBuilder::Config", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html", null ],
     [ "Acts::Experimental::ProfileHistogram&lt; Dim &gt;", "class_acts_1_1_experimental_1_1_profile_histogram.html", null ],
+    [ "Acts::Experimental::RiddersStepper&lt; stepper_impl_t &gt;", "class_acts_1_1_experimental_1_1_ridders_stepper.html", null ],
+    [ "Acts::Experimental::RiddersStepper&lt; stepper_impl_t &gt;::Config", "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html", null ],
+    [ "Acts::Experimental::RiddersStepper&lt; stepper_impl_t &gt;::State", "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html", null ],
     [ "Acts::Experimental::ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", null ],
     [ "Acts::Experimental::SensorLayer&lt; BackendT &gt;", "class_acts_1_1_experimental_1_1_sensor_layer.html", null ],
     [ "Acts::Experimental::SensorLayerAssembler&lt; BackendT &gt;", "class_acts_1_1_experimental_1_1_sensor_layer_assembler.html", null ],
