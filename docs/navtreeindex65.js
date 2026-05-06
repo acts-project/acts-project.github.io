@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_fatras_1_1_generic_scattering.html":[5,0,2,15],
+"struct_acts_fatras_1_1_generic_scattering.html":[7,0,1,16],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[5,0,2,15,1],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[7,0,1,16,1],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[5,0,2,15,0],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[7,0,1,16,0],
+"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[5,0,2,17,0],
+"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[7,0,1,18,0],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html#a4952e3525609361abec489fbf0c6b00f":[5,0,2,17,0,1],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html#a4952e3525609361abec489fbf0c6b00f":[7,0,1,18,0,1],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html#a499c5fbfe3d0e8fb641f4bc1a4c9b854":[5,0,2,17,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ab4841249faa891db39e229526126b9a5":[4,9,2,4,0,1],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ac4b93c13488edaf078946e67b569ae97":[4,9,2,4,0,8],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ad90d3f801f2e2f0579eed0e6802ace2d":[4,9,2,4,0,0],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ae407fba068d235278a6a87f64418d820":[4,9,2,4,0,5],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#afac3b7f29c40e1518e2f645ceba0a328":[4,9,2,4,0,4],
-"struct_acts_plugins_1_1_d_d4hep_volume_builder_1_1_config.html":[4,9,2,5,0],
-"struct_acts_plugins_1_1_d_d4hep_volume_builder_1_1_config.html#ae61f7be51b63dcd2c7f94b82dffad2f8":[4,9,2,5,0,0],
-"struct_acts_plugins_1_1_d_d4hep_volume_builder_1_1_config.html#afd963a9c608724d61d2f0f2ed847f8b0":[4,9,2,5,0,1],
-"struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html":[4,9,3,0],
-"struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#a63102a13a0190dd4a35d8e0235d7863f":[4,9,3,0,0],
-"struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#ab0c18b47cc5b72a83523c06ccd875dbe":[4,9,3,0,1],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html":[4,9,3,1,0]
+"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ae407fba068d235278a6a87f64418d820":[4,9,2,4,0,5]
 };

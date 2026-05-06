@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_volume_material_mapper_1_1_config.html":[5,0,0,448,0],
+"struct_acts_1_1_volume_material_mapper_1_1_config.html":[7,0,0,455,0],
+"struct_acts_1_1_volume_material_mapper_1_1_config.html#a64c7e564920f8b99a287d28cdaf8551a":[5,0,0,448,0,0],
+"struct_acts_1_1_volume_material_mapper_1_1_config.html#a64c7e564920f8b99a287d28cdaf8551a":[7,0,0,455,0,0],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html":[5,0,0,448,1],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html":[7,0,0,455,1],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#a306c7cd6226e883ddad1b0f0191e20dc":[5,0,0,448,1,0],
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#a306c7cd6226e883ddad1b0f0191e20dc":[7,0,0,455,1,0],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#a38b8809f75628edebd9b2edd18998284":[5,0,0,448,1,8],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#a38b8809f75628edebd9b2edd18998284":[7,0,0,455,1,8],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#a3e31cc9b4e303c58c8ecc4e7f355f6af":[5,0,0,448,1,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[5,0,2,14,5],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[7,0,1,15,5],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[5,0,2,14,2],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[7,0,1,15,2],
-"struct_acts_fatras_1_1_generic_scattering.html":[5,0,2,15],
-"struct_acts_fatras_1_1_generic_scattering.html":[7,0,1,16],
-"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[5,0,2,15,1],
-"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[7,0,1,16,1],
-"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[5,0,2,15,0],
-"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[7,0,1,16,0],
-"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[5,0,2,17,0],
-"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[7,0,1,18,0]
+"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[7,0,1,15,2]
 };

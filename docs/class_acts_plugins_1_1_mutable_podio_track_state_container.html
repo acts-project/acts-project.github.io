@@ -143,10 +143,10 @@ Collaboration diagram for ActsPlugins::MutablePodioTrackStateContainer&lt; holde
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a16ab984a1fda88e8b10260fec7254db5" id="r_a16ab984a1fda88e8b10260fec7254db5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16ab984a1fda88e8b10260fec7254db5">MutablePodioTrackStateContainer</a> (<a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, ActsPodioEdm::TrackStateCollection &amp;trackStates, ActsPodioEdm::BoundParametersCollection &amp;params, ActsPodioEdm::JacobianCollection &amp;jacs)</td></tr>
-<tr class="memdesc:a16ab984a1fda88e8b10260fec7254db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from references (for RefHolder).  <br /></td></tr>
-<tr class="memitem:acfadf6a14918e3869b6ae0b01aea32b6" id="r_acfadf6a14918e3869b6ae0b01aea32b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfadf6a14918e3869b6ae0b01aea32b6">MutablePodioTrackStateContainer</a> (<a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, holder_t&lt; ActsPodioEdm::TrackStateCollection &gt; trackStates, holder_t&lt; ActsPodioEdm::BoundParametersCollection &gt; params, holder_t&lt; ActsPodioEdm::JacobianCollection &gt; jacs)</td></tr>
-<tr class="memdesc:acfadf6a14918e3869b6ae0b01aea32b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a3d281d35f482ff8173b9cb83604ed191" id="r_a3d281d35f482ff8173b9cb83604ed191"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d281d35f482ff8173b9cb83604ed191">MutablePodioTrackStateContainer</a> (<a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, ActsPodioEdm::TrackStateCollection &amp;trackStates, ActsPodioEdm::BoundParametersCollection &amp;params, ActsPodioEdm::JacobianCollection &amp;jacs, ActsPodioEdm::TrackStateHitLinkCollection *links)</td></tr>
+<tr class="memdesc:a3d281d35f482ff8173b9cb83604ed191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from references (for RefHolder).  <br /></td></tr>
+<tr class="memitem:a196c69485a83d20f8c9b60d4e6662bad" id="r_a196c69485a83d20f8c9b60d4e6662bad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a196c69485a83d20f8c9b60d4e6662bad">MutablePodioTrackStateContainer</a> (<a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, holder_t&lt; ActsPodioEdm::TrackStateCollection &gt; trackStates, holder_t&lt; ActsPodioEdm::BoundParametersCollection &gt; params, holder_t&lt; ActsPodioEdm::JacobianCollection &gt; jacs, ActsPodioEdm::TrackStateHitLinkCollection *links)</td></tr>
+<tr class="memdesc:a196c69485a83d20f8c9b60d4e6662bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:a7606f73fadf1cb0fcae6014af6821520" id="r_a7606f73fadf1cb0fcae6014af6821520"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a7606f73fadf1cb0fcae6014af6821520 template"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7606f73fadf1cb0fcae6014af6821520">addColumn_impl</a> (std::string_view key)</td></tr>
 <tr class="memdesc:a7606f73fadf1cb0fcae6014af6821520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a dynamic column.  <br /></td></tr>
@@ -275,6 +275,17 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexType</b></td></
 <tr class="memitem:a0b475cc7c3a072cfd2c10218b270ac73 inherit pub_types_class_acts_1_1_multi_trajectory" id="r_a0b475cc7c3a072cfd2c10218b270ac73"><td class="memItemLeft" align="right" valign="top">
 using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackStateProxy</b></td></tr>
 <tr class="memdesc:a0b475cc7c3a072cfd2c10218b270ac73 inherit pub_types_class_acts_1_1_multi_trajectory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the mutable version of a track state proxy, with the same backends as this container. <br /></td></tr>
+<tr class="inherit_header pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html">ActsPlugins::PodioTrackStateContainerBase</a></td></tr>
+<tr class="memitem:a4bb57427d7103182c1ef9752082ac97a inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a4bb57427d7103182c1ef9752082ac97a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a4bb57427d7103182c1ef9752082ac97a">trackerHitsKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a4bb57427d7103182c1ef9752082ac97a inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for tracker hits in a frame.  <br /></td></tr>
+<tr class="memitem:ad2e5b631309e91f2448803b440e0796c inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_ad2e5b631309e91f2448803b440e0796c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#ad2e5b631309e91f2448803b440e0796c">trackStateHitLinksKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:ad2e5b631309e91f2448803b440e0796c inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track state–hit links in a frame.  <br /></td></tr>
+<tr class="memitem:a7b59acb83126d7d8a2a885ff8ab99d4b inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a7b59acb83126d7d8a2a885ff8ab99d4b"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a7b59acb83126d7d8a2a885ff8ab99d4b">trackStateJacobiansKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a7b59acb83126d7d8a2a885ff8ab99d4b inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track state Jacobians in a frame.  <br /></td></tr>
+<tr class="memitem:a234e36ae1294d58400823ec272cddee4 inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a234e36ae1294d58400823ec272cddee4"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a234e36ae1294d58400823ec272cddee4">trackStateParametersKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a234e36ae1294d58400823ec272cddee4 inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track state parameters in a frame.  <br /></td></tr>
+<tr class="memitem:a21f7430a00ffa68738ac4bff8bfdba88 inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a21f7430a00ffa68738ac4bff8bfdba88"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a21f7430a00ffa68738ac4bff8bfdba88">trackStatesKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a21f7430a00ffa68738ac4bff8bfdba88 inherit pub_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track states in a frame.  <br /></td></tr>
 <tr class="inherit_header pub_static_attribs_class_acts_1_1_multi_trajectory"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_class_acts_1_1_multi_trajectory')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="class_acts_1_1_multi_trajectory.html">Acts::MultiTrajectory&lt; MutablePodioTrackStateContainer&lt; holder_t &gt; &gt;</a></td></tr>
 <tr class="memitem:ae1036a6cfdbc58713c185e401a84db33 inherit pub_static_attribs_class_acts_1_1_multi_trajectory" id="r_ae1036a6cfdbc58713c185e401a84db33"><td class="memItemLeft" align="right" valign="top">
 static constexpr <a class="el" href="class_acts_1_1_multi_trajectory.html#acc2f7cfa1ead74d814c27442d2a5cca6">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kInvalid</b></td></tr>
@@ -326,12 +337,18 @@ static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>Read
 <tr class="memitem:acffaaea33f4705ef88b2b63f24733416 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_acffaaea33f4705ef88b2b63f24733416"><td class="memTemplParams" colspan="2">template&lt;bool EnsureConst, typename T&gt; </td></tr>
 <tr class="memitem:acffaaea33f4705ef88b2b63f24733416 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#acffaaea33f4705ef88b2b63f24733416">component_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
 <tr class="memdesc:acffaaea33f4705ef88b2b63f24733416 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a component from a track state.  <br /></td></tr>
+<tr class="memitem:a4117533ed693b3477c4b3c98daa02f38 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a4117533ed693b3477c4b3c98daa02f38"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a4117533ed693b3477c4b3c98daa02f38 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a4117533ed693b3477c4b3c98daa02f38">getUncalibratedSourceLink_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
+<tr class="memdesc:a4117533ed693b3477c4b3c98daa02f38 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the uncalibrated source link for a track state.  <br /></td></tr>
 <tr class="memitem:aeb9104b031a9818de13e65ce6db42d43 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_aeb9104b031a9818de13e65ce6db42d43"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:aeb9104b031a9818de13e65ce6db42d43 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#aeb9104b031a9818de13e65ce6db42d43">has_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
 <tr class="memdesc:aeb9104b031a9818de13e65ce6db42d43 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a component exists for a track state.  <br /></td></tr>
 <tr class="memitem:a74f1104b097aa6a7bbbddaf63f661d45 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a74f1104b097aa6a7bbbddaf63f661d45"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a74f1104b097aa6a7bbbddaf63f661d45 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a74f1104b097aa6a7bbbddaf63f661d45">hasColumn_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key)</td></tr>
 <tr class="memdesc:a74f1104b097aa6a7bbbddaf63f661d45 inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a column exists.  <br /></td></tr>
+<tr class="memitem:a43952f54781a4915150460f27892608f inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_a43952f54781a4915150460f27892608f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a43952f54781a4915150460f27892608f inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base template"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#a43952f54781a4915150460f27892608f">hasUncalibratedSourceLink_impl</a> (T &amp;instance, const ActsPodioEdm::TrackState &amp;trackState)</td></tr>
+<tr class="memdesc:a43952f54781a4915150460f27892608f inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a track state has an uncalibrated source link.  <br /></td></tr>
 <tr class="memitem:accaf2c83ecd7eddcb05aa5f2f7ced6ff inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base" id="r_accaf2c83ecd7eddcb05aa5f2f7ced6ff"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_track_state_container_base.html#accaf2c83ecd7eddcb05aa5f2f7ced6ff">populateSurfaceBuffer</a> (const <a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, const ActsPodioEdm::TrackStateCollection &amp;collection, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; &gt; &amp;surfaces) noexcept</td></tr>
 <tr class="memdesc:accaf2c83ecd7eddcb05aa5f2f7ced6ff inherit pro_static_methods_class_acts_plugins_1_1_podio_track_state_container_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate surface buffer from track state collection.  <br /></td></tr>
 </table>
@@ -339,8 +356,8 @@ static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>Read
 <div class="textblock"><div class="compoundTemplParams">template&lt;template&lt; typename... &gt; class holder_t&gt;<br />
 class ActsPlugins::MutablePodioTrackStateContainer&lt; holder_t &gt;</div><p>Mutable Podio-based track state container implementation. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acfadf6a14918e3869b6ae0b01aea32b6" name="acfadf6a14918e3869b6ae0b01aea32b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfadf6a14918e3869b6ae0b01aea32b6">&#9670;&#160;</a></span>MutablePodioTrackStateContainer() <span class="overload">[1/2]</span></h2>
+<a id="a196c69485a83d20f8c9b60d4e6662bad" name="a196c69485a83d20f8c9b60d4e6662bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196c69485a83d20f8c9b60d4e6662bad">&#9670;&#160;</a></span>MutablePodioTrackStateContainer() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +385,12 @@ template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">holder_t&lt; ActsPodioEdm::JacobianCollection &gt;</td>          <td class="paramname"><span class="paramname"><em>jacs</em></span>&#160;)</td>
+          <td class="paramtype">holder_t&lt; ActsPodioEdm::JacobianCollection &gt;</td>          <td class="paramname"><span class="paramname"><em>jacs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ActsPodioEdm::TrackStateHitLinkCollection *</td>          <td class="paramname"><span class="paramname"><em>links</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -379,20 +401,22 @@ template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
+<p>The <code class="param">links</code> parameter selects the uncalibrated source-link storage mode. See ConstPodioTrackStateContainer for a full description of the two modes.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">helper</td><td>Conversion helper </td></tr>
     <tr><td class="paramname">trackStates</td><td>Track states collection </td></tr>
     <tr><td class="paramname">params</td><td>Parameters collection </td></tr>
     <tr><td class="paramname">jacs</td><td>Jacobians collection </td></tr>
+    <tr><td class="paramname">links</td><td>Track state–hit links collection (nullptr for identifier mode) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a16ab984a1fda88e8b10260fec7254db5" name="a16ab984a1fda88e8b10260fec7254db5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16ab984a1fda88e8b10260fec7254db5">&#9670;&#160;</a></span>MutablePodioTrackStateContainer() <span class="overload">[2/2]</span></h2>
+<a id="a3d281d35f482ff8173b9cb83604ed191" name="a3d281d35f482ff8173b9cb83604ed191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d281d35f482ff8173b9cb83604ed191">&#9670;&#160;</a></span>MutablePodioTrackStateContainer() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +444,12 @@ template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ActsPodioEdm::JacobianCollection &amp;</td>          <td class="paramname"><span class="paramname"><em>jacs</em></span>&#160;)</td>
+          <td class="paramtype">ActsPodioEdm::JacobianCollection &amp;</td>          <td class="paramname"><span class="paramname"><em>jacs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ActsPodioEdm::TrackStateHitLinkCollection *</td>          <td class="paramname"><span class="paramname"><em>links</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -431,12 +460,14 @@ template&lt;template&lt; typename... &gt; class holder_t&gt; </div>
 </div><div class="memdoc">
 
 <p>Constructor from references (for RefHolder). </p>
+<p>The <code class="param">links</code> parameter selects the uncalibrated source-link storage mode. See ConstPodioTrackStateContainer for a full description of the two modes.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">helper</td><td>Conversion helper </td></tr>
     <tr><td class="paramname">trackStates</td><td>Track states collection reference </td></tr>
     <tr><td class="paramname">params</td><td>Parameters collection reference </td></tr>
     <tr><td class="paramname">jacs</td><td>Jacobians collection reference </td></tr>
+    <tr><td class="paramname">links</td><td>Track state–hit links collection (nullptr for identifier mode) </td></tr>
   </table>
   </dd>
 </dl>

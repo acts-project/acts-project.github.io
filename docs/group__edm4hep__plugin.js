@@ -18,7 +18,7 @@ var group__edm4hep__plugin =
       [ "trackCollection", "class_acts_plugins_1_1_const_podio_track_container.html#a474a688790acd9bf46398413cac4c51f", null ]
     ] ],
     [ "ActsPlugins::ConstPodioTrackStateContainer&lt; holder_t &gt;", "class_acts_plugins_1_1_const_podio_track_state_container.html", [
-      [ "ConstPodioTrackStateContainer", "class_acts_plugins_1_1_const_podio_track_state_container.html#aea94127e0d197a7dd124453675d06369", null ],
+      [ "ConstPodioTrackStateContainer", "class_acts_plugins_1_1_const_podio_track_state_container.html#a3e47dacd562145d5f6f07274e471a15e", null ],
       [ "ConstPodioTrackStateContainer", "group__edm4hep__plugin.html#ga577cd7bfa516e4382f05200a128eb95a", null ],
       [ "ConstPodioTrackStateContainer", "group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4", null ],
       [ "ConstPodioTrackStateContainer", "class_acts_plugins_1_1_const_podio_track_state_container.html#a1837f768aa47e1ee628decc1ebceecc6", null ],
@@ -73,8 +73,8 @@ var group__edm4hep__plugin =
       [ "trackCollection", "class_acts_plugins_1_1_mutable_podio_track_container.html#a90fa609d1338386ba939abff6afcf053", null ]
     ] ],
     [ "ActsPlugins::MutablePodioTrackStateContainer&lt; holder_t &gt;", "class_acts_plugins_1_1_mutable_podio_track_state_container.html", [
-      [ "MutablePodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#acfadf6a14918e3869b6ae0b01aea32b6", null ],
-      [ "MutablePodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a16ab984a1fda88e8b10260fec7254db5", null ],
+      [ "MutablePodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a196c69485a83d20f8c9b60d4e6662bad", null ],
+      [ "MutablePodioTrackStateContainer", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a3d281d35f482ff8173b9cb83604ed191", null ],
       [ "addColumn_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a7606f73fadf1cb0fcae6014af6821520", null ],
       [ "addTrackState_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#a88a1fe730c7b3b17eb2b3ce448415e97", null ],
       [ "addTrackStateComponents_impl", "class_acts_plugins_1_1_mutable_podio_track_state_container.html#ab0364d60890150e9013e23c19f6fcb33", null ],
@@ -132,21 +132,29 @@ var group__edm4hep__plugin =
       [ "Covariance", "class_acts_plugins_1_1_podio_track_state_container_base.html#a5207e8eb2ee3d9f7868174de16fb352a", null ],
       [ "Parameters", "class_acts_plugins_1_1_podio_track_state_container_base.html#aa938a9a6d724c57250b3996a4bb308a1", null ],
       [ "component_impl", "class_acts_plugins_1_1_podio_track_state_container_base.html#acffaaea33f4705ef88b2b63f24733416", null ],
+      [ "getUncalibratedSourceLink_impl", "class_acts_plugins_1_1_podio_track_state_container_base.html#a4117533ed693b3477c4b3c98daa02f38", null ],
       [ "has_impl", "class_acts_plugins_1_1_podio_track_state_container_base.html#aeb9104b031a9818de13e65ce6db42d43", null ],
       [ "hasColumn_impl", "class_acts_plugins_1_1_podio_track_state_container_base.html#a74f1104b097aa6a7bbbddaf63f661d45", null ],
-      [ "populateSurfaceBuffer", "class_acts_plugins_1_1_podio_track_state_container_base.html#accaf2c83ecd7eddcb05aa5f2f7ced6ff", null ]
+      [ "hasUncalibratedSourceLink_impl", "class_acts_plugins_1_1_podio_track_state_container_base.html#a43952f54781a4915150460f27892608f", null ],
+      [ "populateSurfaceBuffer", "class_acts_plugins_1_1_podio_track_state_container_base.html#accaf2c83ecd7eddcb05aa5f2f7ced6ff", null ],
+      [ "trackerHitsKey", "class_acts_plugins_1_1_podio_track_state_container_base.html#a4bb57427d7103182c1ef9752082ac97a", null ],
+      [ "trackStateHitLinksKey", "class_acts_plugins_1_1_podio_track_state_container_base.html#ad2e5b631309e91f2448803b440e0796c", null ],
+      [ "trackStateJacobiansKey", "class_acts_plugins_1_1_podio_track_state_container_base.html#a7b59acb83126d7d8a2a885ff8ab99d4b", null ],
+      [ "trackStateParametersKey", "class_acts_plugins_1_1_podio_track_state_container_base.html#a234e36ae1294d58400823ec272cddee4", null ],
+      [ "trackStatesKey", "class_acts_plugins_1_1_podio_track_state_container_base.html#a21f7430a00ffa68738ac4bff8bfdba88", null ]
     ] ],
     [ "ActsPlugins::PodioUtil::ConversionHelper", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html", [
-      [ "identifierToSourceLink", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a24dd0c37bbc228b96a5d3ccfdfc018a2", null ],
+      [ "identifierToSourceLink", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#ac96ac91049b0e9dc6458889d36ad28b3", null ],
       [ "identifierToSurface", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a3c0a4b7adf29a5cdd8ee3a48a445dd77", null ],
-      [ "sourceLinkToIdentifier", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a6160b28684f406806c6872e1de008015", null ],
+      [ "sourceLinkToIdentifier", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a5eaec220c7c48390a5eeaa300728245f", null ],
+      [ "sourceLinkToTrackerHitLocal", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#ae9e8dbbb7bfb059a9ac3832a1834c773", null ],
       [ "surfaceToIdentifier", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a56b4f9b14a785698a7121df1c4addd14", null ]
     ] ],
     [ "ActsPlugins::ConstPodioTrackStateContainer::ConstPodioTrackStateContainer", "group__edm4hep__plugin.html#ga577cd7bfa516e4382f05200a128eb95a", null ],
     [ "ActsPlugins::ConstPodioTrackStateContainer::ConstPodioTrackStateContainer", "group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4", null ],
     [ "ActsPlugins::EDM4hepUtil::getParticle", "group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58", null ],
     [ "ActsPlugins::MutablePodioTrackContainer", "group__edm4hep__plugin.html#ga0553ea3f5ddda553c15902ee002f8f97", null ],
-    [ "ActsPlugins::MutablePodioTrackStateContainer", "group__edm4hep__plugin.html#gacb0bef92079ae5ca55d05b6857e20c16", null ],
+    [ "ActsPlugins::MutablePodioTrackStateContainer", "group__edm4hep__plugin.html#gaabac31d15341c5a6f7550c8954ddfd0d", null ],
     [ "ActsPlugins::EDM4hepUtil::readTrack", "group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb", null ],
     [ "ActsPlugins::EDM4hepUtil::setParticle", "group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9", null ],
     [ "ActsPlugins::EDM4hepUtil::writeTrack", "group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f", null ]

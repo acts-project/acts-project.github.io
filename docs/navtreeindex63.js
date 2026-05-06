@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_triplet_candidate.html#af01b00e908bf3f14ddcf17e534ea7d55":[5,0,0,423,0],
+"struct_acts_1_1_triplet_candidate.html#af01b00e908bf3f14ddcf17e534ea7d55":[7,0,0,430,0],
+"struct_acts_1_1_triplet_candidate.html#afb01e5a82e1dde4bac8c940144604f2b":[5,0,0,423,5],
+"struct_acts_1_1_triplet_candidate.html#afb01e5a82e1dde4bac8c940144604f2b":[7,0,0,430,5],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html":[5,0,0,425,0],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html":[7,0,0,432,0],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a125afabc9c3413738ec6786e7271b246":[5,0,0,425,0,6],
+"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a125afabc9c3413738ec6786e7271b246":[7,0,0,432,0,6],
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2ab085da515e074758ee85d32396bbd8":[5,0,0,425,0,1],
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2ab085da515e074758ee85d32396bbd8":[7,0,0,432,0,1],
 "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a2b53ee52ca5a8e67699a16f6a82fe150":[5,0,0,425,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_volume_hit.html#a62ec869e42b2372a19dd4de32ecf6daf":[5,0,0,447,1],
 "struct_acts_1_1_volume_hit.html#a62ec869e42b2372a19dd4de32ecf6daf":[7,0,0,454,1],
 "struct_acts_1_1_volume_hit.html#aabb348ec9a3b784892968c1435a51fc2":[5,0,0,447,2],
-"struct_acts_1_1_volume_hit.html#aabb348ec9a3b784892968c1435a51fc2":[7,0,0,454,2],
-"struct_acts_1_1_volume_material_mapper_1_1_config.html":[5,0,0,448,0],
-"struct_acts_1_1_volume_material_mapper_1_1_config.html":[7,0,0,455,0],
-"struct_acts_1_1_volume_material_mapper_1_1_config.html#a64c7e564920f8b99a287d28cdaf8551a":[5,0,0,448,0,0],
-"struct_acts_1_1_volume_material_mapper_1_1_config.html#a64c7e564920f8b99a287d28cdaf8551a":[7,0,0,455,0,0],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html":[5,0,0,448,1],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html":[7,0,0,455,1],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#a306c7cd6226e883ddad1b0f0191e20dc":[5,0,0,448,1,0],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#a306c7cd6226e883ddad1b0f0191e20dc":[7,0,0,455,1,0]
+"struct_acts_1_1_volume_hit.html#aabb348ec9a3b784892968c1435a51fc2":[7,0,0,454,2]
 };

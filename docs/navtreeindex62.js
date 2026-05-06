@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a5b4f7d8bb4f9138a3b740f82b271e752":[5,0,0,398,3,6],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a5b4f7d8bb4f9138a3b740f82b271e752":[7,0,0,405,3,6],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a6b66b3bccc67295715e58a49591edb48":[5,0,0,398,3,4],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#a6b66b3bccc67295715e58a49591edb48":[7,0,0,405,3,4],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#aa5cd9cd3d2ebdb4be7cd0d5c8ba7744d":[5,0,0,398,3,5],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#aa5cd9cd3d2ebdb4be7cd0d5c8ba7744d":[7,0,0,405,3,5],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#ab7efa4dd0f909d2212a84999f40dd3e9":[5,0,0,398,3,3],
+"struct_acts_1_1_toroid_field_1_1_ect_config.html#ab7efa4dd0f909d2212a84999f40dd3e9":[7,0,0,405,3,3],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#abc66cb89acd022170db77d1592f3d1e3":[5,0,0,398,3,2],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#abc66cb89acd022170db77d1592f3d1e3":[7,0,0,405,3,2],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#af05d46e6ef29d30e858be598edb10203":[5,0,0,398,3,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_triplet_candidate.html#a7ab665fd6e4670cd4044063bc5dec8bb":[5,0,0,423,2],
 "struct_acts_1_1_triplet_candidate.html#a7ab665fd6e4670cd4044063bc5dec8bb":[7,0,0,430,2],
 "struct_acts_1_1_triplet_candidate.html#aec18b4ff6ca18883b481d132de77c34f":[5,0,0,423,3],
-"struct_acts_1_1_triplet_candidate.html#aec18b4ff6ca18883b481d132de77c34f":[7,0,0,430,3],
-"struct_acts_1_1_triplet_candidate.html#af01b00e908bf3f14ddcf17e534ea7d55":[5,0,0,423,0],
-"struct_acts_1_1_triplet_candidate.html#af01b00e908bf3f14ddcf17e534ea7d55":[7,0,0,430,0],
-"struct_acts_1_1_triplet_candidate.html#afb01e5a82e1dde4bac8c940144604f2b":[5,0,0,423,5],
-"struct_acts_1_1_triplet_candidate.html#afb01e5a82e1dde4bac8c940144604f2b":[7,0,0,430,5],
-"struct_acts_1_1_triplet_seed_finder_1_1_config.html":[5,0,0,425,0],
-"struct_acts_1_1_triplet_seed_finder_1_1_config.html":[7,0,0,432,0],
-"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a125afabc9c3413738ec6786e7271b246":[5,0,0,425,0,6],
-"struct_acts_1_1_triplet_seed_finder_1_1_config.html#a125afabc9c3413738ec6786e7271b246":[7,0,0,432,0,6]
+"struct_acts_1_1_triplet_candidate.html#aec18b4ff6ca18883b481d132de77c34f":[7,0,0,430,3]
 };

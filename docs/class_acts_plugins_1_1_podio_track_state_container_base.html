@@ -159,17 +159,36 @@ Public Types</h2></td></tr>
 <tr class="memitem:aa938a9a6d724c57250b3996a4bb308a1" id="r_aa938a9a6d724c57250b3996a4bb308a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa938a9a6d724c57250b3996a4bb308a1">Parameters</a></td></tr>
 <tr class="memdesc:aa938a9a6d724c57250b3996a4bb308a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable parameters map type.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4bb57427d7103182c1ef9752082ac97a" id="r_a4bb57427d7103182c1ef9752082ac97a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bb57427d7103182c1ef9752082ac97a">trackerHitsKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a4bb57427d7103182c1ef9752082ac97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for tracker hits in a frame.  <br /></td></tr>
+<tr class="memitem:ad2e5b631309e91f2448803b440e0796c" id="r_ad2e5b631309e91f2448803b440e0796c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2e5b631309e91f2448803b440e0796c">trackStateHitLinksKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:ad2e5b631309e91f2448803b440e0796c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track state–hit links in a frame.  <br /></td></tr>
+<tr class="memitem:a7b59acb83126d7d8a2a885ff8ab99d4b" id="r_a7b59acb83126d7d8a2a885ff8ab99d4b"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b59acb83126d7d8a2a885ff8ab99d4b">trackStateJacobiansKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a7b59acb83126d7d8a2a885ff8ab99d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track state Jacobians in a frame.  <br /></td></tr>
+<tr class="memitem:a234e36ae1294d58400823ec272cddee4" id="r_a234e36ae1294d58400823ec272cddee4"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a234e36ae1294d58400823ec272cddee4">trackStateParametersKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a234e36ae1294d58400823ec272cddee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track state parameters in a frame.  <br /></td></tr>
+<tr class="memitem:a21f7430a00ffa68738ac4bff8bfdba88" id="r_a21f7430a00ffa68738ac4bff8bfdba88"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f7430a00ffa68738ac4bff8bfdba88">trackStatesKey</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a21f7430a00ffa68738ac4bff8bfdba88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection name key for track states in a frame.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-methods" class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:acffaaea33f4705ef88b2b63f24733416" id="r_acffaaea33f4705ef88b2b63f24733416"><td class="memTemplParams" colspan="2">template&lt;bool EnsureConst, typename T&gt; </td></tr>
 <tr class="memitem:acffaaea33f4705ef88b2b63f24733416 template"><td class="memItemLeft" align="right" valign="top">static std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acffaaea33f4705ef88b2b63f24733416">component_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
 <tr class="memdesc:acffaaea33f4705ef88b2b63f24733416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a component from a track state.  <br /></td></tr>
+<tr class="memitem:a4117533ed693b3477c4b3c98daa02f38" id="r_a4117533ed693b3477c4b3c98daa02f38"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a4117533ed693b3477c4b3c98daa02f38 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4117533ed693b3477c4b3c98daa02f38">getUncalibratedSourceLink_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
+<tr class="memdesc:a4117533ed693b3477c4b3c98daa02f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the uncalibrated source link for a track state.  <br /></td></tr>
 <tr class="memitem:aeb9104b031a9818de13e65ce6db42d43" id="r_aeb9104b031a9818de13e65ce6db42d43"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:aeb9104b031a9818de13e65ce6db42d43 template"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb9104b031a9818de13e65ce6db42d43">has_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key, <a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a> istate)</td></tr>
 <tr class="memdesc:aeb9104b031a9818de13e65ce6db42d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a component exists for a track state.  <br /></td></tr>
 <tr class="memitem:a74f1104b097aa6a7bbbddaf63f661d45" id="r_a74f1104b097aa6a7bbbddaf63f661d45"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a74f1104b097aa6a7bbbddaf63f661d45 template"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f1104b097aa6a7bbbddaf63f661d45">hasColumn_impl</a> (T &amp;instance, <a class="el" href="namespace_acts.html#a316aaac27fda3651c80ea8dfba83492a">Acts::HashedString</a> key)</td></tr>
 <tr class="memdesc:a74f1104b097aa6a7bbbddaf63f661d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a column exists.  <br /></td></tr>
+<tr class="memitem:a43952f54781a4915150460f27892608f" id="r_a43952f54781a4915150460f27892608f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a43952f54781a4915150460f27892608f template"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43952f54781a4915150460f27892608f">hasUncalibratedSourceLink_impl</a> (T &amp;instance, const ActsPodioEdm::TrackState &amp;trackState)</td></tr>
+<tr class="memdesc:a43952f54781a4915150460f27892608f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a track state has an uncalibrated source link.  <br /></td></tr>
 <tr class="memitem:accaf2c83ecd7eddcb05aa5f2f7ced6ff" id="r_accaf2c83ecd7eddcb05aa5f2f7ced6ff"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accaf2c83ecd7eddcb05aa5f2f7ced6ff">populateSurfaceBuffer</a> (const <a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;helper, const ActsPodioEdm::TrackStateCollection &amp;collection, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; &gt; &amp;surfaces) noexcept</td></tr>
 <tr class="memdesc:accaf2c83ecd7eddcb05aa5f2f7ced6ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate surface buffer from track state collection.  <br /></td></tr>
 </table>
@@ -380,6 +399,47 @@ template&lt;bool EnsureConst, typename T&gt; </div>
 
 </div>
 </div>
+<a id="a4117533ed693b3477c4b3c98daa02f38" name="a4117533ed693b3477c4b3c98daa02f38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4117533ed693b3477c4b3c98daa02f38">&#9670;&#160;</a></span>getUncalibratedSourceLink_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_source_link.html">Acts::SourceLink</a> ActsPlugins::PodioTrackStateContainerBase::getUncalibratedSourceLink_impl </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></td>          <td class="paramname"><span class="paramname"><em>istate</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the uncalibrated source link for a track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">instance</td><td>Container instance </td></tr>
+    <tr><td class="paramname">istate</td><td>Track state index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Uncalibrated source link </dd></dl>
+
+</div>
+</div>
 <a id="aeb9104b031a9818de13e65ce6db42d43" name="aeb9104b031a9818de13e65ce6db42d43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb9104b031a9818de13e65ce6db42d43">&#9670;&#160;</a></span>has_impl()</h2>
 
@@ -468,6 +528,47 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a43952f54781a4915150460f27892608f" name="a43952f54781a4915150460f27892608f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43952f54781a4915150460f27892608f">&#9670;&#160;</a></span>hasUncalibratedSourceLink_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActsPlugins::PodioTrackStateContainerBase::hasUncalibratedSourceLink_impl </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ActsPodioEdm::TrackState &amp;</td>          <td class="paramname"><span class="paramname"><em>trackState</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a track state has an uncalibrated source link. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">instance</td><td>Container instance </td></tr>
+    <tr><td class="paramname">trackState</td><td>The track state to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the track state has an uncalibrated source link </dd></dl>
+
+</div>
+</div>
 <a id="accaf2c83ecd7eddcb05aa5f2f7ced6ff" name="accaf2c83ecd7eddcb05aa5f2f7ced6ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accaf2c83ecd7eddcb05aa5f2f7ced6ff">&#9670;&#160;</a></span>populateSurfaceBuffer()</h2>
 
@@ -509,6 +610,176 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4bb57427d7103182c1ef9752082ac97a" name="a4bb57427d7103182c1ef9752082ac97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bb57427d7103182c1ef9752082ac97a">&#9670;&#160;</a></span>trackerHitsKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ActsPlugins::PodioTrackStateContainerBase::trackerHitsKey </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>prefix</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collection name key for tracker hits in a frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Base name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Frame key for the tracker hits collection </dd></dl>
+
+</div>
+</div>
+<a id="ad2e5b631309e91f2448803b440e0796c" name="ad2e5b631309e91f2448803b440e0796c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e5b631309e91f2448803b440e0796c">&#9670;&#160;</a></span>trackStateHitLinksKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ActsPlugins::PodioTrackStateContainerBase::trackStateHitLinksKey </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>prefix</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collection name key for track state–hit links in a frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Base name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Frame key for the track state hit links collection </dd></dl>
+
+</div>
+</div>
+<a id="a7b59acb83126d7d8a2a885ff8ab99d4b" name="a7b59acb83126d7d8a2a885ff8ab99d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b59acb83126d7d8a2a885ff8ab99d4b">&#9670;&#160;</a></span>trackStateJacobiansKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ActsPlugins::PodioTrackStateContainerBase::trackStateJacobiansKey </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>prefix</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collection name key for track state Jacobians in a frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Base name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Frame key for the track state Jacobians collection </dd></dl>
+
+</div>
+</div>
+<a id="a234e36ae1294d58400823ec272cddee4" name="a234e36ae1294d58400823ec272cddee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a234e36ae1294d58400823ec272cddee4">&#9670;&#160;</a></span>trackStateParametersKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ActsPlugins::PodioTrackStateContainerBase::trackStateParametersKey </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>prefix</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collection name key for track state parameters in a frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Base name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Frame key for the track state parameters collection </dd></dl>
+
+</div>
+</div>
+<a id="a21f7430a00ffa68738ac4bff8bfdba88" name="a21f7430a00ffa68738ac4bff8bfdba88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f7430a00ffa68738ac4bff8bfdba88">&#9670;&#160;</a></span>trackStatesKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ActsPlugins::PodioTrackStateContainerBase::trackStatesKey </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>prefix</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collection name key for track states in a frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Base name (e.g. output collection name) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Frame key for the track states collection </dd></dl>
 
 </div>
 </div>
