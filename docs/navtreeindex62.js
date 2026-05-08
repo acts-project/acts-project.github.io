@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[5,0,0,398,2,2],
+"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[7,0,0,405,2,2],
+"struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[5,0,0,398,2,0],
+"struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[7,0,0,405,2,0],
+"struct_acts_1_1_toroid_field_1_1_config.html#a62449f2ab21c22c6333149a74b63e480":[5,0,0,398,2,1],
+"struct_acts_1_1_toroid_field_1_1_config.html#a62449f2ab21c22c6333149a74b63e480":[7,0,0,405,2,1],
+"struct_acts_1_1_toroid_field_1_1_config.html#a85537baee47f5efef7ea1e648189e634":[5,0,0,398,2,3],
+"struct_acts_1_1_toroid_field_1_1_config.html#a85537baee47f5efef7ea1e648189e634":[7,0,0,405,2,3],
 "struct_acts_1_1_toroid_field_1_1_config.html#ab317a29fee1668b917ac5676dd200e27":[5,0,0,398,2,4],
 "struct_acts_1_1_toroid_field_1_1_config.html#ab317a29fee1668b917ac5676dd200e27":[7,0,0,405,2,4],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html":[5,0,0,398,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398":[7,0,0,14,0,1],
 "struct_acts_1_1_transform3_json_converter_1_1_options.html#a328243a6d3fd16b3b7af8049ab45d8ce":[7,0,0,14,0,0],
 "struct_acts_1_1_triplet_candidate.html":[5,0,0,423],
-"struct_acts_1_1_triplet_candidate.html":[7,0,0,430],
-"struct_acts_1_1_triplet_candidate.html#a0295be1f8873bb16921766fbd9b4eda0":[5,0,0,423,7],
-"struct_acts_1_1_triplet_candidate.html#a0295be1f8873bb16921766fbd9b4eda0":[7,0,0,430,7],
-"struct_acts_1_1_triplet_candidate.html#a2627c5ce7df43e63f022a1878bcf20e4":[5,0,0,423,6],
-"struct_acts_1_1_triplet_candidate.html#a2627c5ce7df43e63f022a1878bcf20e4":[7,0,0,430,6],
-"struct_acts_1_1_triplet_candidate.html#a3d416fc2e720740871c07e7f9b55f368":[5,0,0,423,1],
-"struct_acts_1_1_triplet_candidate.html#a3d416fc2e720740871c07e7f9b55f368":[7,0,0,430,1],
-"struct_acts_1_1_triplet_candidate.html#a4cd7618ebca431e33171bbc09f464113":[5,0,0,423,4],
-"struct_acts_1_1_triplet_candidate.html#a4cd7618ebca431e33171bbc09f464113":[7,0,0,430,4]
+"struct_acts_1_1_triplet_candidate.html":[7,0,0,430]
 };

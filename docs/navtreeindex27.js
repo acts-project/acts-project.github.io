@@ -1,5 +1,13 @@
 var NAVTREEINDEX27 =
 {
+"class_acts_1_1_result_3_01void_00_01_e_01_4.html#ad4b9d09bd5e1302e42f965c1e58e8f7f":[7,0,0,342,16],
+"class_acts_1_1_ridders_propagator.html":[5,0,0,336],
+"class_acts_1_1_ridders_propagator.html":[7,0,0,343],
+"class_acts_1_1_ridders_propagator.html#a102368a9fffabc4c75c8984090c82d6f":[5,0,0,336,7],
+"class_acts_1_1_ridders_propagator.html#a102368a9fffabc4c75c8984090c82d6f":[7,0,0,343,7],
+"class_acts_1_1_ridders_propagator.html#a17459c648492ff58106e5e737a8e8f06":[5,0,0,336,0],
+"class_acts_1_1_ridders_propagator.html#a17459c648492ff58106e5e737a8e8f06":[7,0,0,343,0],
+"class_acts_1_1_ridders_propagator.html#a225e973bb16eb5e781b66b3fd839fc7a":[5,0,0,336,2],
 "class_acts_1_1_ridders_propagator.html#a225e973bb16eb5e781b66b3fd839fc7a":[7,0,0,343,2],
 "class_acts_1_1_ridders_propagator.html#a2304596589bea38a5e8a5dba560cfb18":[5,0,0,336,5],
 "class_acts_1_1_ridders_propagator.html#a2304596589bea38a5e8a5dba560cfb18":[7,0,0,343,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX27 =
 "class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a0dc4bdfb7b8d9940fe07b73efc0b5f41":[7,0,0,358,0,8],
 "class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a14b5ba2ad6ca44156d2fe638c2bd8ef2":[5,0,0,351,0,4],
 "class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a14b5ba2ad6ca44156d2fe638c2bd8ef2":[7,0,0,358,0,4],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a3feb5fd13c0fe810b5fa8bb77c038f8e":[5,0,0,351,0,14],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a3feb5fd13c0fe810b5fa8bb77c038f8e":[7,0,0,358,0,14],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a427def877839d161f3c2dd4945959fe3":[5,0,0,351,0,10],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a427def877839d161f3c2dd4945959fe3":[7,0,0,358,0,10],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a42ed41c42258d66d3114a6e10ae5a8a9":[5,0,0,351,0,1],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a42ed41c42258d66d3114a6e10ae5a8a9":[7,0,0,358,0,1],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a78dcce04bf68978e7cd0e563f1d796f8":[5,0,0,351,0,12],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a78dcce04bf68978e7cd0e563f1d796f8":[7,0,0,358,0,12],
-"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a7dbf1bf981940c29f7d9f5645ce323f0":[5,0,0,351,0,0]
+"class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#a3feb5fd13c0fe810b5fa8bb77c038f8e":[5,0,0,351,0,14]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"class_acts_1_1_triplet_top_candidates.html#a8d87f5fd708dbe373079fa76cf0d8656":[7,0,0,433,6],
+"class_acts_1_1_triplet_top_candidates.html#aa64739b8ee8eb61923e9db22e186a1ba":[5,0,0,426,4],
+"class_acts_1_1_triplet_top_candidates.html#aa64739b8ee8eb61923e9db22e186a1ba":[7,0,0,433,4],
+"class_acts_1_1_triplet_top_candidates.html#ac69f4dae809ea690828a912172fc3031":[5,0,0,426,7],
+"class_acts_1_1_triplet_top_candidates.html#ac69f4dae809ea690828a912172fc3031":[7,0,0,433,7],
+"class_acts_1_1_triplet_top_candidates.html#ad4e3f9d5a022ade5cde70b83500b9457":[5,0,0,426,11],
+"class_acts_1_1_triplet_top_candidates.html#ad4e3f9d5a022ade5cde70b83500b9457":[7,0,0,433,11],
+"class_acts_1_1_triplet_top_candidates.html#af8292ce1cdcb5ddd830767e27cfb1ef7":[5,0,0,426,3],
 "class_acts_1_1_triplet_top_candidates.html#af8292ce1cdcb5ddd830767e27cfb1ef7":[7,0,0,433,3],
 "class_acts_1_1_triplet_top_candidates_1_1_proxy.html":[5,0,0,426,0],
 "class_acts_1_1_triplet_top_candidates_1_1_proxy.html":[7,0,0,433,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "class_acts_1_1_volume_bounds.html":[5,0,0,443],
 "class_acts_1_1_volume_bounds.html":[7,0,0,450],
 "class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de":[5,0,0,443,7],
-"class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de":[7,0,0,450,7],
-"class_acts_1_1_volume_bounds.html#a162ebdf4c575bd160abb1b2350a42f22":[5,0,0,443,9],
-"class_acts_1_1_volume_bounds.html#a162ebdf4c575bd160abb1b2350a42f22":[7,0,0,450,9],
-"class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495":[5,0,0,443,0],
-"class_acts_1_1_volume_bounds.html#a3840f312b207bfdd5cbbcc4ac9981495":[7,0,0,450,0],
-"class_acts_1_1_volume_bounds.html#a4bde0b3c9d70391129f19bb8c9e461cd":[5,0,0,443,5],
-"class_acts_1_1_volume_bounds.html#a4bde0b3c9d70391129f19bb8c9e461cd":[7,0,0,450,5],
-"class_acts_1_1_volume_bounds.html#a531dc0ca9ae8ebbaef719231b65f5249":[5,0,0,443,8],
-"class_acts_1_1_volume_bounds.html#a531dc0ca9ae8ebbaef719231b65f5249":[7,0,0,450,8]
+"class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de":[7,0,0,450,7]
 };

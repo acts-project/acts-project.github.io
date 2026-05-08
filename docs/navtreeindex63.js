@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_triplet_candidate.html#a0295be1f8873bb16921766fbd9b4eda0":[5,0,0,423,7],
+"struct_acts_1_1_triplet_candidate.html#a0295be1f8873bb16921766fbd9b4eda0":[7,0,0,430,7],
+"struct_acts_1_1_triplet_candidate.html#a2627c5ce7df43e63f022a1878bcf20e4":[5,0,0,423,6],
+"struct_acts_1_1_triplet_candidate.html#a2627c5ce7df43e63f022a1878bcf20e4":[7,0,0,430,6],
+"struct_acts_1_1_triplet_candidate.html#a3d416fc2e720740871c07e7f9b55f368":[5,0,0,423,1],
+"struct_acts_1_1_triplet_candidate.html#a3d416fc2e720740871c07e7f9b55f368":[7,0,0,430,1],
+"struct_acts_1_1_triplet_candidate.html#a4cd7618ebca431e33171bbc09f464113":[5,0,0,423,4],
+"struct_acts_1_1_triplet_candidate.html#a4cd7618ebca431e33171bbc09f464113":[7,0,0,430,4],
 "struct_acts_1_1_triplet_candidate.html#a7ab665fd6e4670cd4044063bc5dec8bb":[5,0,0,423,2],
 "struct_acts_1_1_triplet_candidate.html#a7ab665fd6e4670cd4044063bc5dec8bb":[7,0,0,430,2],
 "struct_acts_1_1_triplet_candidate.html#aec18b4ff6ca18883b481d132de77c34f":[5,0,0,423,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_volume_config.html#ab3db86bd20f35428f7df5c861211164a":[5,0,0,445,15],
 "struct_acts_1_1_volume_config.html#ab3db86bd20f35428f7df5c861211164a":[7,0,0,452,15],
 "struct_acts_1_1_volume_config.html#adf9bc33301c25366692deb004bee368b":[5,0,0,445,10],
-"struct_acts_1_1_volume_config.html#adf9bc33301c25366692deb004bee368b":[7,0,0,452,10],
-"struct_acts_1_1_volume_constraint_aborter.html":[5,0,0,446],
-"struct_acts_1_1_volume_constraint_aborter.html":[7,0,0,453],
-"struct_acts_1_1_volume_constraint_aborter.html#ac226412b4c63c8c6efc44c9f495a1c09":[5,0,0,446,0],
-"struct_acts_1_1_volume_constraint_aborter.html#ac226412b4c63c8c6efc44c9f495a1c09":[7,0,0,453,0],
-"struct_acts_1_1_volume_hit.html":[5,0,0,447],
-"struct_acts_1_1_volume_hit.html":[7,0,0,454],
-"struct_acts_1_1_volume_hit.html#a171ab057c7ec514956f0a31bee070119":[5,0,0,447,0],
-"struct_acts_1_1_volume_hit.html#a171ab057c7ec514956f0a31bee070119":[7,0,0,454,0]
+"struct_acts_1_1_volume_config.html#adf9bc33301c25366692deb004bee368b":[7,0,0,452,10]
 };

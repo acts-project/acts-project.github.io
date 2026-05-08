@@ -223,8 +223,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abc1b37b98fdda34da35d19e65ab7c85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of the path correction for incident.  <br /></td></tr>
 <tr class="memitem:a76074a485122173fe7d40ae607c6fe3c" id="r_a76074a485122173fe7d40ae607c6fe3c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_acts_1_1_polyhedron.html">Polyhedron</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76074a485122173fe7d40ae607c6fe3c">polyhedronRepresentation</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, unsigned int quarterSegments=2u) const =0</td></tr>
 <tr class="memdesc:a76074a485122173fe7d40ae607c6fe3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Polyhedron for surface objects.  <br /></td></tr>
-<tr class="memitem:a8d77b2de00164240967727e599d6d30d" id="r_a8d77b2de00164240967727e599d6d30d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">Acts::RotationMatrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d77b2de00164240967727e599d6d30d">referenceFrame</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
-<tr class="memdesc:a8d77b2de00164240967727e599d6d30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the reference frame This is the frame in which the covariance matrix is defined (specialized by all surfaces).  <br /></td></tr>
+<tr class="memitem:a6a11b9c4b42868bbc62debe13da1104e" id="r_a6a11b9c4b42868bbc62debe13da1104e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a11b9c4b42868bbc62debe13da1104e">referenceFrame</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
+<tr class="memdesc:a6a11b9c4b42868bbc62debe13da1104e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the reference frame This is the frame in which the covariance matrix is defined (specialized by all surfaces).  <br /></td></tr>
 <tr class="memitem:a058edb9c5523ecd63b6080886985d4ee" id="r_a058edb9c5523ecd63b6080886985d4ee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a058edb9c5523ecd63b6080886985d4ee">surfaceMaterial</a> () const</td></tr>
 <tr class="memdesc:a058edb9c5523ecd63b6080886985d4ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the associated Material to this surface.  <br /></td></tr>
 <tr class="memitem:af56ea9a976f4172841579c43a6d8f2ce" id="r_af56ea9a976f4172841579c43a6d8f2ce"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56ea9a976f4172841579c43a6d8f2ce">surfaceMaterialSharedPtr</a> () const</td></tr>
@@ -1669,8 +1669,8 @@ An internal surface transform can invalidate the extrema in the transformed spac
 
 </div>
 </div>
-<a id="a8d77b2de00164240967727e599d6d30d" name="a8d77b2de00164240967727e599d6d30d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d77b2de00164240967727e599d6d30d">&#9670;&#160;</a></span>referenceFrame()</h2>
+<a id="a6a11b9c4b42868bbc62debe13da1104e" name="a6a11b9c4b42868bbc62debe13da1104e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a11b9c4b42868bbc62debe13da1104e">&#9670;&#160;</a></span>referenceFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1679,7 +1679,7 @@ An internal surface transform can invalidate the extrema in the transformed spac
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">Acts::RotationMatrix3</a> Acts::Surface::referenceFrame </td>
+          <td class="memname">virtual <a class="el" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a> Acts::Surface::referenceFrame </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -1712,7 +1712,7 @@ An internal surface transform can invalidate the extrema in the transformed spac
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>RotationMatrix3 which defines the three axes of the measurement frame </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_acts_1_1_cone_surface.html#aec88655bd71c0e66bd45301284c9aa84">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a5ec6cae4b0dc3d8bd86d648110036d22">Acts::CylinderSurface</a>, and <a class="el" href="class_acts_1_1_line_surface.html#a76c0e8a2ebef582e8dde471be15fec18">Acts::LineSurface</a>.</p>
+<p>Reimplemented in <a class="el" href="class_acts_1_1_cone_surface.html#aec88655bd71c0e66bd45301284c9aa84">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a5ec6cae4b0dc3d8bd86d648110036d22">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#a6a11b9c4b42868bbc62debe13da1104e">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_line_surface.html#a76c0e8a2ebef582e8dde471be15fec18">Acts::LineSurface</a>, and <a class="el" href="class_acts_1_1_plane_surface.html#a6a11b9c4b42868bbc62debe13da1104e">Acts::PlaneSurface</a>.</p>
 
 </div>
 </div>

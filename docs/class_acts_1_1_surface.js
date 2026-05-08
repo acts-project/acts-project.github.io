@@ -38,7 +38,7 @@ var class_acts_1_1_surface =
     [ "operator==", "class_acts_1_1_surface.html#aa499eae940b107a7012a2875a100a4fc", null ],
     [ "pathCorrection", "class_acts_1_1_surface.html#abc1b37b98fdda34da35d19e65ab7c85c", null ],
     [ "polyhedronRepresentation", "class_acts_1_1_surface.html#a76074a485122173fe7d40ae607c6fe3c", null ],
-    [ "referenceFrame", "class_acts_1_1_surface.html#a8d77b2de00164240967727e599d6d30d", null ],
+    [ "referenceFrame", "class_acts_1_1_surface.html#a6a11b9c4b42868bbc62debe13da1104e", null ],
     [ "surfaceMaterial", "class_acts_1_1_surface.html#a058edb9c5523ecd63b6080886985d4ee", null ],
     [ "surfaceMaterialSharedPtr", "class_acts_1_1_surface.html#af56ea9a976f4172841579c43a6d8f2ce", null ],
     [ "surfacePlacement", "class_acts_1_1_surface.html#a22e3dadfa0fc7099d808437dba2026a7", null ],

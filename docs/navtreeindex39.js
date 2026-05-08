@@ -1,5 +1,13 @@
 var NAVTREEINDEX39 =
 {
+"class_acts_fatras_1_1_particle.html#a0657684aa3b7afe788ef6b959a7ff4cd":[5,0,2,26,5],
+"class_acts_fatras_1_1_particle.html#a0657684aa3b7afe788ef6b959a7ff4cd":[7,0,1,27,5],
+"class_acts_fatras_1_1_particle.html#a0e9aa925e4a57b9bf895b3ef401079aa":[5,0,2,26,36],
+"class_acts_fatras_1_1_particle.html#a0e9aa925e4a57b9bf895b3ef401079aa":[7,0,1,27,36],
+"class_acts_fatras_1_1_particle.html#a1684efc4f8c1bdacfdfff6b8e4257dcf":[5,0,2,26,22],
+"class_acts_fatras_1_1_particle.html#a1684efc4f8c1bdacfdfff6b8e4257dcf":[7,0,1,27,22],
+"class_acts_fatras_1_1_particle.html#a1ae024da00e7bb91794975d62deb6373":[5,0,2,26,40],
+"class_acts_fatras_1_1_particle.html#a1ae024da00e7bb91794975d62deb6373":[7,0,1,27,40],
 "class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[5,0,2,26,12],
 "class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[7,0,1,27,12],
 "class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[5,0,2,26,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX39 =
 "class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30":[4,9,3,1,10],
 "class_acts_plugins_1_1_detray_payload_converter.html#af637f67bec806bb733cdc5a036ac6101":[4,9,3,1,7],
 "class_acts_plugins_1_1_detray_unsupported_material_exception.html":[4,9,3,2],
-"class_acts_plugins_1_1_detray_unsupported_material_exception.html#ac5c274803e557c3cdae36f1345bf503d":[4,9,3,2,0],
-"class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html":[4,9,4,6],
-"class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#a469ae0cc327ee04e61e12c5b50e3e487":[4,9,4,6,1],
-"class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#a5887de074d9113db314bf2dc4d125fc5":[4,9,4,6,0],
-"class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#a66f72bf044a68b3a82f53f80c73817c0":[4,9,4,6,2],
-"class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#a7c8d2dc9714cecc7016ee0b3a73bc3b2":[4,9,4,6,4],
-"class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#ade6fa220e4a6161f30f274c77f873361":[4,9,4,6,3],
-"class_acts_plugins_1_1_edge_classification_base.html":[4,9,6,3],
-"class_acts_plugins_1_1_edge_classification_base.html#a5ea9de51e7cb3f97d5cc272ef07ad5d0":[4,9,6,3,0]
+"class_acts_plugins_1_1_detray_unsupported_material_exception.html#ac5c274803e557c3cdae36f1345bf503d":[4,9,3,2,0]
 };

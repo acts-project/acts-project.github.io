@@ -22,6 +22,8 @@ var class_acts_1_1_plane_surface =
     [ "operator=", "class_acts_1_1_plane_surface.html#ab7847d01daa562f0e86e22999d094459", null ],
     [ "pathCorrection", "class_acts_1_1_plane_surface.html#a4a3a5a9341b898f037f5cb9b7d6d9707", null ],
     [ "polyhedronRepresentation", "class_acts_1_1_plane_surface.html#aa887d69ef70685c7d9bac18422fb4d42", null ],
+    [ "referenceFrame", "class_acts_1_1_plane_surface.html#ae7df71bb5dea21507727b05967904a07", null ],
+    [ "referenceFrame", "class_acts_1_1_plane_surface.html#a6a11b9c4b42868bbc62debe13da1104e", null ],
     [ "referencePosition", "class_acts_1_1_plane_surface.html#ad8de713be59219473efed84486ba189f", null ],
     [ "type", "class_acts_1_1_plane_surface.html#a377d8c83034163242b7a900e4347824c", null ],
     [ "m_bounds", "class_acts_1_1_plane_surface.html#a7685e098284f8517067be16f02286606", null ]

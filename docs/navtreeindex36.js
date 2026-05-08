@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_tracking_geometry_visitor.html#a880553701cac8da822b6760edaacb296":[7,0,0,413,1],
+"class_acts_1_1_tracking_geometry_visitor.html#a9a885a5ae9c9972d5674f5a7c817b132":[5,0,0,406,2],
+"class_acts_1_1_tracking_geometry_visitor.html#a9a885a5ae9c9972d5674f5a7c817b132":[7,0,0,413,2],
+"class_acts_1_1_tracking_geometry_visitor.html#aa3f5affba00725386cbc344fdaad4c28":[5,0,0,406,0],
+"class_acts_1_1_tracking_geometry_visitor.html#aa3f5affba00725386cbc344fdaad4c28":[7,0,0,413,0],
+"class_acts_1_1_tracking_geometry_visitor.html#ac730ff462dcc98997e2bede5685350e2":[5,0,0,406,3],
+"class_acts_1_1_tracking_geometry_visitor.html#ac730ff462dcc98997e2bede5685350e2":[7,0,0,413,3],
+"class_acts_1_1_tracking_volume.html":[5,0,0,407],
 "class_acts_1_1_tracking_volume.html":[7,0,0,414],
 "class_acts_1_1_tracking_volume.html#a0326c8c770d0a02d10f6e80383da3f1b":[5,0,0,407,12],
 "class_acts_1_1_tracking_volume.html#a0326c8c770d0a02d10f6e80383da3f1b":[7,0,0,414,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_triplet_top_candidates.html#a6a8bd9beb240db37ae932af3deac04ca":[7,0,0,433,9],
 "class_acts_1_1_triplet_top_candidates.html#a88bd778c32cdcd5abb68e36586971ade":[5,0,0,426,1],
 "class_acts_1_1_triplet_top_candidates.html#a88bd778c32cdcd5abb68e36586971ade":[7,0,0,433,1],
-"class_acts_1_1_triplet_top_candidates.html#a8d87f5fd708dbe373079fa76cf0d8656":[5,0,0,426,6],
-"class_acts_1_1_triplet_top_candidates.html#a8d87f5fd708dbe373079fa76cf0d8656":[7,0,0,433,6],
-"class_acts_1_1_triplet_top_candidates.html#aa64739b8ee8eb61923e9db22e186a1ba":[5,0,0,426,4],
-"class_acts_1_1_triplet_top_candidates.html#aa64739b8ee8eb61923e9db22e186a1ba":[7,0,0,433,4],
-"class_acts_1_1_triplet_top_candidates.html#ac69f4dae809ea690828a912172fc3031":[5,0,0,426,7],
-"class_acts_1_1_triplet_top_candidates.html#ac69f4dae809ea690828a912172fc3031":[7,0,0,433,7],
-"class_acts_1_1_triplet_top_candidates.html#ad4e3f9d5a022ade5cde70b83500b9457":[5,0,0,426,11],
-"class_acts_1_1_triplet_top_candidates.html#ad4e3f9d5a022ade5cde70b83500b9457":[7,0,0,433,11],
-"class_acts_1_1_triplet_top_candidates.html#af8292ce1cdcb5ddd830767e27cfb1ef7":[5,0,0,426,3]
+"class_acts_1_1_triplet_top_candidates.html#a8d87f5fd708dbe373079fa76cf0d8656":[5,0,0,426,6]
 };

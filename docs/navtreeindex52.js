@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[7,0,0,2,30,2,1],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[5,0,0,1,30,3],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[7,0,0,2,30,3],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#a4cdd4f78c80cf2a9125f4b112362c61a":[5,0,0,1,30,3,0],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#a4cdd4f78c80cf2a9125f4b112362c61a":[7,0,0,2,30,3,0],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#aa46e7cbe3e69d9dfa012c20f3e3eed0a":[5,0,0,1,30,3,2],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#aa46e7cbe3e69d9dfa012c20f3e3eed0a":[7,0,0,2,30,3,2],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#ab711cbb0974830c669e491ed913082d6":[5,0,0,1,30,3,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#ab711cbb0974830c669e491ed913082d6":[7,0,0,2,30,3,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html":[5,0,0,1,30,4],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html":[7,0,0,2,30,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[7,0,0,144,0,0],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[5,0,0,137,0,1],
 "struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[7,0,0,144,0,1],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[5,0,0,137,0,2],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[7,0,0,144,0,2],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[5,0,0,140,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[7,0,0,147,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[5,0,0,140,0,3],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[7,0,0,147,0,3],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[5,0,0,140,0,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[7,0,0,147,0,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#aaf2ffbe85a27f22c4d4fe7cecbc7e12d":[5,0,0,140,0,6]
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[5,0,0,137,0,2]
 };

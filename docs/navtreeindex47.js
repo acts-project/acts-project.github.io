@@ -1,5 +1,13 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a489a19155aa8b42d5efffeaf9d9a0dff":[5,0,0,18,0,1],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a489a19155aa8b42d5efffeaf9d9a0dff":[7,0,0,25,0,1],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a6829855a08dc2750db944131db7ec59a":[5,0,0,18,0,2],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a6829855a08dc2750db944131db7ec59a":[7,0,0,25,0,2],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a839c078b8dc508206a3830902fb074d7":[5,0,0,18,0,5],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a839c078b8dc508206a3830902fb074d7":[7,0,0,25,0,5],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a86b20165df1705891dca7fa816aea580":[5,0,0,18,0,8],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a86b20165df1705891dca7fa816aea580":[7,0,0,25,0,8],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850":[5,0,0,18,0,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#aa20c5243730953fcb1271f5b4e9b8850":[7,0,0,25,0,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#ac1a0a6486a820b53f1cf851fee422683":[5,0,0,18,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html":[7,0,0,64,2],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a5db8c374396ae33a0b43a61fd4a39b44":[5,0,0,57,2,1],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a5db8c374396ae33a0b43a61fd4a39b44":[7,0,0,64,2,1],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a65c74635dd5b524d2c8d22270ff9fd09":[5,0,0,57,2,0],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a65c74635dd5b524d2c8d22270ff9fd09":[7,0,0,64,2,0],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#aae449d5e09faa2f3689611b12f80f553":[5,0,0,57,2,2],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#aae449d5e09faa2f3689611b12f80f553":[7,0,0,64,2,2],
-"struct_acts_1_1_cartesian_space_point_grid_1_1_config.html":[5,0,0,60,0],
-"struct_acts_1_1_cartesian_space_point_grid_1_1_config.html":[7,0,0,67,0],
-"struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a48df3f03bb2eac8c9f0013fca3dc2543":[5,0,0,60,0,8],
-"struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a48df3f03bb2eac8c9f0013fca3dc2543":[7,0,0,67,0,8],
-"struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a5fab1b6f426a5276088ac176681b6aad":[5,0,0,60,0,6]
+"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a65c74635dd5b524d2c8d22270ff9fd09":[5,0,0,57,2,0]
 };

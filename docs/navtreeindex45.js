@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"namespace_acts.html#a91dd49594c44c4f09d8f2bce66889672":[5,0,0,707],
+"namespace_acts.html#a9259c24825f667858a4397ffce0e6797":[5,0,0,577],
+"namespace_acts.html#a93bb8b389c354d08309d3be40eb00b68":[5,0,0,498],
+"namespace_acts.html#a9406e4270f8dd103fba42d4df59f73a7":[5,0,0,682],
+"namespace_acts.html#a940f149b53e1e3b9e3c4302f082e0fe9":[5,0,0,649],
+"namespace_acts.html#a9449d6ac28ec406ddfcf71fd50003e59":[5,0,0,538],
+"namespace_acts.html#a94a8f9b03ea4540ab29e8d70330fa7f0":[5,0,0,803],
+"namespace_acts.html#a9611b708f395b658bf7b6dcc5d003726":[5,0,0,857],
 "namespace_acts.html#a96b3521103bdac2bf34db07669ced6e2":[5,0,0,771],
 "namespace_acts.html#a98163fce2f835cc18b46a3dd61b1aca2":[5,0,0,583],
 "namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2":[5,0,0,547],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "namespace_acts_1_1_grid_axis_generators.html#ae564d320bf93299195eca502d66e77f3":[5,0,0,2,18],
 "namespace_acts_1_1_grid_axis_generators.html#ae5a4d2f1a26cecbbc6f676155672623d":[5,0,0,2,23],
 "namespace_acts_1_1_grid_axis_generators.html#af74cd88de530b787db15b07aa873227d":[5,0,0,2,33],
-"namespace_acts_1_1_grid_axis_generators.html#af9232fbf8df5b6ccdb085d1e11353959":[5,0,0,2,7],
-"namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html":[5,0,0,3,0],
-"namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html#a243b68b12e2f8e5cd1b6175f0d7f4712":[5,0,0,3,0,5],
-"namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html#a96a06681f21418ba3cfd2f13a252a9f8":[5,0,0,3,0,6],
-"namespace_acts_1_1_multi_trajectory_traits.html":[5,0,0,4],
-"namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c":[5,0,0,4,1],
-"namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23":[5,0,0,4,2],
-"namespace_acts_1_1_multi_trajectory_traits.html#ab10f01c2759ff4e801d804fdf1a91199":[5,0,0,4,0],
-"namespace_acts_1_1_particle_id_helper.html":[5,0,0,5]
+"namespace_acts_1_1_grid_axis_generators.html#af9232fbf8df5b6ccdb085d1e11353959":[5,0,0,2,7]
 };

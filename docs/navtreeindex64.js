@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_volume_constraint_aborter.html":[5,0,0,446],
+"struct_acts_1_1_volume_constraint_aborter.html":[7,0,0,453],
+"struct_acts_1_1_volume_constraint_aborter.html#ac226412b4c63c8c6efc44c9f495a1c09":[5,0,0,446,0],
+"struct_acts_1_1_volume_constraint_aborter.html#ac226412b4c63c8c6efc44c9f495a1c09":[7,0,0,453,0],
+"struct_acts_1_1_volume_hit.html":[5,0,0,447],
+"struct_acts_1_1_volume_hit.html":[7,0,0,454],
+"struct_acts_1_1_volume_hit.html#a171ab057c7ec514956f0a31bee070119":[5,0,0,447,0],
+"struct_acts_1_1_volume_hit.html#a171ab057c7ec514956f0a31bee070119":[7,0,0,454,0],
 "struct_acts_1_1_volume_hit.html#a62ec869e42b2372a19dd4de32ecf6daf":[5,0,0,447,1],
 "struct_acts_1_1_volume_hit.html#a62ec869e42b2372a19dd4de32ecf6daf":[7,0,0,454,1],
 "struct_acts_1_1_volume_hit.html#aabb348ec9a3b784892968c1435a51fc2":[5,0,0,447,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_fatras_1_1_free_parameters_smearer.html":[5,0,2,14],
 "struct_acts_fatras_1_1_free_parameters_smearer.html":[7,0,1,15],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74":[5,0,2,14,3],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74":[7,0,1,15,3],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aa2776789f4a431d8fe4ee89c6e941e19":[5,0,2,14,1],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aa2776789f4a431d8fe4ee89c6e941e19":[7,0,1,15,1],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#abc75131f7ae04217d49bfb64fd826b8f":[5,0,2,14,6],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#abc75131f7ae04217d49bfb64fd826b8f":[7,0,1,15,6],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#adb067865194cc375d87ff74bd80a74d9":[5,0,2,14,0],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#adb067865194cc375d87ff74bd80a74d9":[7,0,1,15,0],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[5,0,2,14,4],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[7,0,1,15,4]
+"struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74":[7,0,1,15,3]
 };

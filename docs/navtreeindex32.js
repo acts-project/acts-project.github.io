@@ -1,5 +1,13 @@
 var NAVTREEINDEX32 =
 {
+"class_acts_1_1_surface_placement_base.html#a12a0de6b838aa06d6974fc31049ee298":[5,0,0,393,0],
+"class_acts_1_1_surface_placement_base.html#a12a0de6b838aa06d6974fc31049ee298":[7,0,0,400,0],
+"class_acts_1_1_surface_placement_base.html#a51c5657682feff7e9b6b5fe374052976":[5,0,0,393,1],
+"class_acts_1_1_surface_placement_base.html#a51c5657682feff7e9b6b5fe374052976":[7,0,0,400,1],
+"class_acts_1_1_surface_placement_base.html#a9352d987465a422097d79cdf7b28f56e":[5,0,0,393,4],
+"class_acts_1_1_surface_placement_base.html#a9352d987465a422097d79cdf7b28f56e":[7,0,0,400,4],
+"class_acts_1_1_surface_placement_base.html#a95c38712a0276b71649be21a2ff45247":[5,0,0,393,3],
+"class_acts_1_1_surface_placement_base.html#a95c38712a0276b71649be21a2ff45247":[7,0,0,400,3],
 "class_acts_1_1_surface_placement_base.html#ac360078545efe0e1cbb2a7d83d42e96d":[5,0,0,393,2],
 "class_acts_1_1_surface_placement_base.html#ac360078545efe0e1cbb2a7d83d42e96d":[7,0,0,400,2],
 "class_acts_1_1_sympy_stepper.html":[5,0,0,396],
@@ -241,13 +249,5 @@ var NAVTREEINDEX32 =
 "class_acts_1_1_track_proxy.html#a1244943cd9ac6543d92b677f5d971d52":[5,0,0,410,26],
 "class_acts_1_1_track_proxy.html#a1244943cd9ac6543d92b677f5d971d52":[7,0,0,417,26],
 "class_acts_1_1_track_proxy.html#a13cc4b9fb8735a87ca7e3b288dcfde1f":[5,0,0,410,44],
-"class_acts_1_1_track_proxy.html#a13cc4b9fb8735a87ca7e3b288dcfde1f":[7,0,0,417,44],
-"class_acts_1_1_track_proxy.html#a180e8720d0f90c64336d2ee7bb7c29a6":[5,0,0,410,30],
-"class_acts_1_1_track_proxy.html#a180e8720d0f90c64336d2ee7bb7c29a6":[7,0,0,417,30],
-"class_acts_1_1_track_proxy.html#a1cd4e66bc8072eb188df1e9ad94becc0":[5,0,0,410,36],
-"class_acts_1_1_track_proxy.html#a1cd4e66bc8072eb188df1e9ad94becc0":[7,0,0,417,36],
-"class_acts_1_1_track_proxy.html#a1fa116e3834ad52783b87a13f573a3bf":[5,0,0,410,31],
-"class_acts_1_1_track_proxy.html#a1fa116e3834ad52783b87a13f573a3bf":[7,0,0,417,31],
-"class_acts_1_1_track_proxy.html#a20fe849b319215f22efcf54ff4766e9e":[5,0,0,410,3],
-"class_acts_1_1_track_proxy.html#a20fe849b319215f22efcf54ff4766e9e":[7,0,0,417,3]
+"class_acts_1_1_track_proxy.html#a13cc4b9fb8735a87ca7e3b288dcfde1f":[7,0,0,417,44]
 };

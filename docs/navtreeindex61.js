@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a644d947ad44ba5dda94d3986b74052d1":[5,0,0,383,1,2],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a644d947ad44ba5dda94d3986b74052d1":[7,0,0,390,1,2],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7879b6d3a9d8e3039d29608616286781":[5,0,0,383,1,3],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7879b6d3a9d8e3039d29608616286781":[7,0,0,390,1,3],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7c427815f25b73222dcab8ff76c6697a":[5,0,0,383,1,7],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a7c427815f25b73222dcab8ff76c6697a":[7,0,0,390,1,7],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a82330f14fbc451cf255da0508cff8d4c":[5,0,0,383,1,4],
+"struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a82330f14fbc451cf255da0508cff8d4c":[7,0,0,390,1,4],
 "struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a82444e1a50680326f1dbf200184fd6d4":[5,0,0,383,1,14],
 "struct_acts_1_1_surface_array_1_1_single_element_lookup.html#a82444e1a50680326f1dbf200184fd6d4":[7,0,0,390,1,14],
 "struct_acts_1_1_surface_array_1_1_single_element_lookup.html#aa895e49da3a2e701c40044e9eed8718b":[5,0,0,383,1,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_toroid_field_1_1_cache.html":[5,0,0,398,1],
 "struct_acts_1_1_toroid_field_1_1_cache.html":[7,0,0,405,1],
 "struct_acts_1_1_toroid_field_1_1_config.html":[5,0,0,398,2],
-"struct_acts_1_1_toroid_field_1_1_config.html":[7,0,0,405,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[5,0,0,398,2,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b":[7,0,0,405,2,2],
-"struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[5,0,0,398,2,0],
-"struct_acts_1_1_toroid_field_1_1_config.html#a445a69e0cc954e65aff0c8452b21ebf9":[7,0,0,405,2,0],
-"struct_acts_1_1_toroid_field_1_1_config.html#a62449f2ab21c22c6333149a74b63e480":[5,0,0,398,2,1],
-"struct_acts_1_1_toroid_field_1_1_config.html#a62449f2ab21c22c6333149a74b63e480":[7,0,0,405,2,1],
-"struct_acts_1_1_toroid_field_1_1_config.html#a85537baee47f5efef7ea1e648189e634":[5,0,0,398,2,3],
-"struct_acts_1_1_toroid_field_1_1_config.html#a85537baee47f5efef7ea1e648189e634":[7,0,0,405,2,3]
+"struct_acts_1_1_toroid_field_1_1_config.html":[7,0,0,405,2]
 };

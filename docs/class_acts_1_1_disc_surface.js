@@ -31,6 +31,8 @@ var class_acts_1_1_disc_surface =
     [ "operator=", "class_acts_1_1_disc_surface.html#adb72bab55a8d1b3422cc854913b58eec", null ],
     [ "pathCorrection", "class_acts_1_1_disc_surface.html#a7260c2ffaea477e6ffd185054135160a", null ],
     [ "polyhedronRepresentation", "class_acts_1_1_disc_surface.html#a5973f77c821be4098153fb7678a29657", null ],
+    [ "referenceFrame", "class_acts_1_1_disc_surface.html#a2baee3ddd3a5c683b6c67e9ba2ef629e", null ],
+    [ "referenceFrame", "class_acts_1_1_disc_surface.html#a6a11b9c4b42868bbc62debe13da1104e", null ],
     [ "referencePosition", "class_acts_1_1_disc_surface.html#a7430d52a00ea094843b2407a0cce2f6b", null ],
     [ "referencePositionValue", "class_acts_1_1_disc_surface.html#a0ce7ba07ce19eebe120bd1e487f4da58", null ],
     [ "type", "class_acts_1_1_disc_surface.html#a1ef89d27db93ac548d79b718340b780c", null ],
