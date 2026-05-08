@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#ab711cbb0974830c669e491ed913082d6":[7,0,0,2,30,3,1],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html":[5,0,0,1,30,4],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html":[7,0,0,2,30,4],
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html#a00536e5fb5b88629ba50631e0dbba4f7":[5,0,0,1,30,4,0],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html#a00536e5fb5b88629ba50631e0dbba4f7":[7,0,0,2,30,4,0],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html#a54f7d1ba53fcd578d1b3649765b2fd65":[5,0,0,1,30,4,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_seed_candidate_properties.html#a54f7d1ba53fcd578d1b3649765b2fd65":[7,0,0,2,30,4,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[7,0,0,147,0,3],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[5,0,0,140,0,0],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[7,0,0,147,0,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#aaf2ffbe85a27f22c4d4fe7cecbc7e12d":[5,0,0,140,0,6],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#aaf2ffbe85a27f22c4d4fe7cecbc7e12d":[7,0,0,147,0,6],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab811f6efdfa23b26ce812205632ffac6":[5,0,0,140,0,2],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab811f6efdfa23b26ce812205632ffac6":[7,0,0,147,0,2],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab9c5cca75445b19b828484ee15aacad5":[5,0,0,140,0,1]
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#aaf2ffbe85a27f22c4d4fe7cecbc7e12d":[5,0,0,140,0,6]
 };

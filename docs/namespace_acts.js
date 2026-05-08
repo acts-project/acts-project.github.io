@@ -550,6 +550,7 @@ var namespace_acts =
     [ "MutableTrackProxyConcept", "concept_acts_1_1_mutable_track_proxy_concept.html", null ],
     [ "MutableTrackStateProxyConcept", "concept_acts_1_1_mutable_track_state_proxy_concept.html", null ],
     [ "NavigationPolicyConcept", "concept_acts_1_1_navigation_policy_concept.html", null ],
+    [ "NavigatorConcept", "concept_acts_1_1_navigator_concept.html", null ],
     [ "PointerConcept", "concept_acts_1_1_pointer_concept.html", null ],
     [ "RegularSurfaceConcept", "concept_acts_1_1_regular_surface_concept.html", null ],
     [ "SatisfyCandidateConcept", "concept_acts_1_1_satisfy_candidate_concept.html", null ],

@@ -150,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a27a3d585b9875e516863023d526b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current tracking volume (always nullptr for void navigator).  <br /></td></tr>
 <tr class="memitem:a515498024f9adc6f73697631fe170142" id="r_a515498024f9adc6f73697631fe170142"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515498024f9adc6f73697631fe170142">currentVolumeMaterial</a> (const <a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;) const</td></tr>
 <tr class="memdesc:a515498024f9adc6f73697631fe170142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current volume material (always nullptr for void navigator).  <br /></td></tr>
+<tr class="memitem:ad355644cf669286f0c36868f56e081ae" id="r_ad355644cf669286f0c36868f56e081ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad355644cf669286f0c36868f56e081ae">endOfWorldReached</a> (const <a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;) const</td></tr>
+<tr class="memdesc:ad355644cf669286f0c36868f56e081ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the end of the world has been reached (always false for void navigator).  <br /></td></tr>
 <tr class="memitem:ae406878ba54bbfb91cb44c1bf6d33d88" id="r_ae406878ba54bbfb91cb44c1bf6d33d88"><td class="memItemLeft" align="right" valign="top"><a id="ae406878ba54bbfb91cb44c1bf6d33d88" name="ae406878ba54bbfb91cb44c1bf6d33d88"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>handleSurfaceReached</b> (<a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;) const</td></tr>
 <tr class="memdesc:ae406878ba54bbfb91cb44c1bf6d33d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles reaching a surface (does nothing for void navigator). <br /></td></tr>
@@ -256,6 +258,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>handleSurfaceReached<
 
 <p>Returns the current volume material (always nullptr for void navigator). </p>
 <dl class="section return"><dt>Returns</dt><dd>Always nullptr since void navigator has no material </dd></dl>
+
+</div>
+</div>
+<a id="ad355644cf669286f0c36868f56e081ae" name="ad355644cf669286f0c36868f56e081ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad355644cf669286f0c36868f56e081ae">&#9670;&#160;</a></span>endOfWorldReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::VoidNavigator::endOfWorldReached </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_void_navigator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the end of the world has been reached (always false for void navigator). </p>
+<dl class="section return"><dt>Returns</dt><dd>Always false since void navigator has no world boundaries </dd></dl>
 
 </div>
 </div>

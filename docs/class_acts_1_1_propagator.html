@@ -202,7 +202,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9427eba3b3ee9dbc1ac2bd32b60cb682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the stepper instance.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt;<br />
 class Acts::Propagator&lt; stepper_t, navigator_t &gt;</div><p>Propagator for particles (optionally in a magnetic field). </p>
 <p>The Propagator works with a state objects given at function call This state object contains the thread local state objects</p><ul>
 <li>Navigator::state_type for object navigation and screen output</li>
@@ -230,7 +230,7 @@ class Acts::Propagator&lt; stepper_t, navigator_t &gt;</div><p>Propagator for pa
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename actor_list_t = ActorList&lt;&gt;&gt; </div>
       <table class="memname">
@@ -253,7 +253,7 @@ template&lt;typename actor_list_t = ActorList&lt;&gt;&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_options_t&gt; </div>
       <table class="memname">
@@ -279,7 +279,7 @@ template&lt;typename propagator_options_t&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_options_t&gt; </div>
       <table class="memname">
@@ -306,7 +306,7 @@ template&lt;typename propagator_options_t&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -353,7 +353,7 @@ template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; <
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_state_t, typename path_aborter_t = PathLimitReached&gt; </div>
 <table class="mlabels">
@@ -404,7 +404,7 @@ template&lt;typename propagator_state_t, typename path_aborter_t = PathLimitReac
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_state_t, typename propagator_options_t&gt; </div>
       <table class="memname">
@@ -465,7 +465,7 @@ template&lt;typename propagator_state_t, typename propagator_options_t&gt; </div
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitReached&gt; </div>
       <table class="memname">
@@ -503,7 +503,7 @@ template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitRe
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceReached, typename path_aborter_t = PathLimitReached&gt; </div>
       <table class="memname">
@@ -547,7 +547,7 @@ template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceRe
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="#a093685d05bccdf473c4c7af3ae5e9cef">Navigator</a> &amp; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::navigator </td>
@@ -569,7 +569,7 @@ template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; <
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitReached&gt; </div>
       <table class="memname">
@@ -618,7 +618,7 @@ template&lt;typename propagator_options_t, typename path_aborter_t = PathLimitRe
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceReached, typename path_aborter_t = PathLimitReached&gt; </div>
       <table class="memname">
@@ -668,7 +668,7 @@ template&lt;typename propagator_options_t, typename target_aborter_t = SurfaceRe
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
 <div class="memtemplate">
 template&lt;typename propagator_state_t&gt; </div>
       <table class="memname">
@@ -706,7 +706,7 @@ template&lt;typename propagator_state_t&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;StepperConcept stepper_t, typename navigator_t = VoidNavigator&gt; </div>
+template&lt;StepperConcept stepper_t, NavigatorConcept navigator_t = VoidNavigator&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="#a77307ca297a7f0bfb937ced168a43aab">Stepper</a> &amp; <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a>&lt; stepper_t, navigator_t &gt;::stepper </td>

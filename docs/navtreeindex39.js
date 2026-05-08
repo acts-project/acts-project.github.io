@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[5,0,2,26,12],
+"class_acts_fatras_1_1_particle.html#a1d1af1e6e0a2d5cdad41a9c30f39f88e":[7,0,1,27,12],
 "class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[5,0,2,26,39],
 "class_acts_fatras_1_1_particle.html#a2418d8fb3095e017d6e1d9f026e4818c":[7,0,1,27,39],
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[5,0,2,26,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#a7c8d2dc9714cecc7016ee0b3a73bc3b2":[4,9,4,6,4],
 "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html#ade6fa220e4a6161f30f274c77f873361":[4,9,4,6,3],
 "class_acts_plugins_1_1_edge_classification_base.html":[4,9,6,3],
-"class_acts_plugins_1_1_edge_classification_base.html#a5ea9de51e7cb3f97d5cc272ef07ad5d0":[4,9,6,3,0],
-"class_acts_plugins_1_1_fpe_monitor.html":[4,9,5,0],
-"class_acts_plugins_1_1_fpe_monitor.html#a1385198ebc65a40547bb036330ab5572":[4,9,5,0,3]
+"class_acts_plugins_1_1_edge_classification_base.html#a5ea9de51e7cb3f97d5cc272ef07ad5d0":[4,9,6,3,0]
 };
