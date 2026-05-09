@@ -54,6 +54,8 @@ var annotated_dup =
         [ "Gx2FitterResult", "struct_acts_1_1_experimental_1_1_gx2_fitter_result.html", "struct_acts_1_1_experimental_1_1_gx2_fitter_result" ],
         [ "Gx2fSystem", "struct_acts_1_1_experimental_1_1_gx2f_system.html", "struct_acts_1_1_experimental_1_1_gx2f_system" ],
         [ "Histogram", "class_acts_1_1_experimental_1_1_histogram.html", "class_acts_1_1_experimental_1_1_histogram" ],
+        [ "HoughAccumulatorSection", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html", "class_acts_1_1_experimental_1_1_hough_accumulator_section" ],
+        [ "HoughExplorationOptions", "struct_acts_1_1_experimental_1_1_hough_exploration_options.html", "struct_acts_1_1_experimental_1_1_hough_exploration_options" ],
         [ "LayerBlueprintNode", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html", "class_acts_1_1_experimental_1_1_layer_blueprint_node" ],
         [ "MaterialDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node" ],
         [ "MultiLayerNavigationPolicy", "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html", "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy" ],

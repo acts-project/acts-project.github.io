@@ -9,7 +9,8 @@ var searchData=
   ['layervector_6',['LayerVector',['../namespace_acts.html#a98ab2a52542f2ff29cb738cfefc2a7d2',1,'Acts']]],
   ['line_5ft_7',['Line_t',['../class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#a6c32d1ba4d6695e540950355bebb9496',1,'Acts::Experimental::CompositeSpacePointLineFitter::Line_t'],['../class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a329fa005f2600cb79d779e80c01f36ba',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Line_t']]],
   ['linearizer_5ft_8',['Linearizer_t',['../class_acts_1_1_dummy_vertex_fitter.html#a8bf314078e62d63703e011a5b618162b',1,'Acts::DummyVertexFitter']]],
-  ['linetype_9',['LineType',['../class_acts_1_1_obj_visualization3_d.html#ac818f0ca55705be24b2206da6b4bf4d4',1,'Acts::ObjVisualization3D']]],
-  ['local_5fiterator_5ft_10',['local_iterator_t',['../class_acts_1_1_grid.html#a6086f3ab4bbdd80547dd5e479ae84db4',1,'Acts::Grid']]],
-  ['lookupgrid_11',['LookupGrid',['../class_acts_1_1_track_params_lookup_accumulator.html#ade91277aee75a2ccaa07d42d4601cf19',1,'Acts::TrackParamsLookupAccumulator']]]
+  ['linefunctor_9',['LineFunctor',['../struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d',1,'Acts::Experimental::HoughExplorationOptions']]],
+  ['linetype_10',['LineType',['../class_acts_1_1_obj_visualization3_d.html#ac818f0ca55705be24b2206da6b4bf4d4',1,'Acts::ObjVisualization3D']]],
+  ['local_5fiterator_5ft_11',['local_iterator_t',['../class_acts_1_1_grid.html#a6086f3ab4bbdd80547dd5e479ae84db4',1,'Acts::Grid']]],
+  ['lookupgrid_12',['LookupGrid',['../class_acts_1_1_track_params_lookup_accumulator.html#ade91277aee75a2ccaa07d42d4601cf19',1,'Acts::TrackParamsLookupAccumulator']]]
 ];

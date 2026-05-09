@@ -246,6 +246,8 @@ var hierarchy =
     [ "Acts::Experimental::Gx2FitterResult&lt; traj_t &gt;", "struct_acts_1_1_experimental_1_1_gx2_fitter_result.html", null ],
     [ "Acts::Experimental::Gx2fSystem", "struct_acts_1_1_experimental_1_1_gx2f_system.html", null ],
     [ "Acts::Experimental::Histogram&lt; Dim &gt;", "class_acts_1_1_experimental_1_1_histogram.html", null ],
+    [ "Acts::Experimental::HoughAccumulatorSection", "class_acts_1_1_experimental_1_1_hough_accumulator_section.html", null ],
+    [ "Acts::Experimental::HoughExplorationOptions&lt; Measurement &gt;", "struct_acts_1_1_experimental_1_1_hough_exploration_options.html", null ],
     [ "Acts::Experimental::MultiLayerNavigationPolicy::Config", "struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html", null ],
     [ "Acts::Experimental::MultiWireVolumeBuilder", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html", null ],
     [ "Acts::Experimental::MultiWireVolumeBuilder::Config", "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html", null ],
