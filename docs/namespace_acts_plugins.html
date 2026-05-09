@@ -351,10 +351,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga4272c37f6492ae4029a34ab24d0723c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create proto material - to be called from the addProto(...) methods.  <br /></td></tr>
 <tr class="memitem:gae2894e2fe6f50d26a5b53721dcbb93c8" id="r_gae2894e2fe6f50d26a5b53721dcbb93c8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_cylinder_volume_helper.html">Acts::CylinderVolumeHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#gae2894e2fe6f50d26a5b53721dcbb93c8">cylinderVolumeHelper_dd4hep</a> (const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:gae2894e2fe6f50d26a5b53721dcbb93c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method internally used to create a default Acts::CylinderVolumeBuilder.  <br /></td></tr>
-<tr class="memitem:a843ce92eca9f86cf277f32cc3bc44c0f" id="r_a843ce92eca9f86cf277f32cc3bc44c0f"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::unique_ptr&lt; TH1F &gt;, std::unique_ptr&lt; TH1F &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843ce92eca9f86cf277f32cc3bc44c0f">extractMeanWidthProfiles</a> (const TH2F &amp;hist2d, const std::string &amp;meanName, const std::string &amp;widthName, int minEntriesForFit=5, const std::string &amp;fitOption=&quot;QS0&quot;, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:a843ce92eca9f86cf277f32cc3bc44c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to extract 1D mean/width profiles from a 2D histogram.  <br /></td></tr>
-<tr class="memitem:ac112b94f2ded21577175d9ac142e2cab" id="r_ac112b94f2ded21577175d9ac142e2cab"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::unique_ptr&lt; TH2F &gt;, std::unique_ptr&lt; TH2F &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac112b94f2ded21577175d9ac142e2cab">extractMeanWidthProfiles</a> (const TH3F &amp;hist3d, const std::string &amp;meanName, const std::string &amp;widthName, int minEntriesForFit=5, const std::string &amp;fitOption=&quot;QS0&quot;, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:ac112b94f2ded21577175d9ac142e2cab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to extract 2D mean/width profiles from a 3D histogram.  <br /></td></tr>
+<tr class="memitem:a73fc8e554e2ad66a8301e0cb6d4e27e1" id="r_a73fc8e554e2ad66a8301e0cb6d4e27e1"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::unique_ptr&lt; TH1F &gt;, std::unique_ptr&lt; TH1F &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73fc8e554e2ad66a8301e0cb6d4e27e1">extractMeanWidthProfiles</a> (const TH2F &amp;hist2d, const std::string &amp;meanName, const std::string &amp;widthName, int minEntriesForFit=5, double sigmaRange=3.0, int iterations=3, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:a73fc8e554e2ad66a8301e0cb6d4e27e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to extract 1D mean/width profiles from a 2D histogram.  <br /></td></tr>
+<tr class="memitem:a79485a860ead4fc0655d41e5865a3091" id="r_a79485a860ead4fc0655d41e5865a3091"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::unique_ptr&lt; TH2F &gt;, std::unique_ptr&lt; TH2F &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79485a860ead4fc0655d41e5865a3091">extractMeanWidthProfiles</a> (const TH3F &amp;hist3d, const std::string &amp;meanName, const std::string &amp;widthName, int minEntriesForFit=5, double sigmaRange=3.0, int iterations=3, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:a79485a860ead4fc0655d41e5865a3091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to extract 2D mean/width profiles from a 3D histogram.  <br /></td></tr>
 <tr class="memitem:ga7a21513ede0d0c5eddded3080b845776" id="r_ga7a21513ede0d0c5eddded3080b845776"><td class="memTemplParams" colspan="2">template&lt;typename value_type&gt; </td></tr>
 <tr class="memitem:ga7a21513ede0d0c5eddded3080b845776 template"><td class="memItemLeft" align="right" valign="top">std::vector&lt; value_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776">extractSeries</a> (const dd4hep::DetElement &amp;dd4hepElement, const std::string &amp;bname, const value_type &amp;unitConversion=1)</td></tr>
 <tr class="memdesc:ga7a21513ede0d0c5eddded3080b845776"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple helper function to extract a series.  <br /></td></tr>
@@ -513,8 +513,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a843ce92eca9f86cf277f32cc3bc44c0f" name="a843ce92eca9f86cf277f32cc3bc44c0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a843ce92eca9f86cf277f32cc3bc44c0f">&#9670;&#160;</a></span>extractMeanWidthProfiles() <span class="overload">[1/2]</span></h2>
+<a id="a73fc8e554e2ad66a8301e0cb6d4e27e1" name="a73fc8e554e2ad66a8301e0cb6d4e27e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73fc8e554e2ad66a8301e0cb6d4e27e1">&#9670;&#160;</a></span>extractMeanWidthProfiles() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +542,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>fitOption</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;QS0&quot;</span>, </td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>sigmaRange</em></span><span class="paramdefsep"> = </span><span class="paramdefval">3.0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>iterations</em></span><span class="paramdefsep"> = </span><span class="paramdefval">3</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -559,7 +564,8 @@ Variables</h2></td></tr>
     <tr><td class="paramname">meanName</td><td>The name for the output mean profile histogram </td></tr>
     <tr><td class="paramname">widthName</td><td>The name for the output width profile histogram </td></tr>
     <tr><td class="paramname">minEntriesForFit</td><td>Minimum number of entries in a projection to attempt a fit </td></tr>
-    <tr><td class="paramname">fitOption</td><td>The option string to use for the fit </td></tr>
+    <tr><td class="paramname">sigmaRange</td><td>The range in sigma for the iterative Gaussian fit </td></tr>
+    <tr><td class="paramname">iterations</td><td>The maximum number of iterations for the iterative Gaussian fit </td></tr>
     <tr><td class="paramname">logger</td><td>Logger for debug messages </td></tr>
   </table>
   </dd>
@@ -568,8 +574,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac112b94f2ded21577175d9ac142e2cab" name="ac112b94f2ded21577175d9ac142e2cab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac112b94f2ded21577175d9ac142e2cab">&#9670;&#160;</a></span>extractMeanWidthProfiles() <span class="overload">[2/2]</span></h2>
+<a id="a79485a860ead4fc0655d41e5865a3091" name="a79485a860ead4fc0655d41e5865a3091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79485a860ead4fc0655d41e5865a3091">&#9670;&#160;</a></span>extractMeanWidthProfiles() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -597,7 +603,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>fitOption</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;QS0&quot;</span>, </td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>sigmaRange</em></span><span class="paramdefsep"> = </span><span class="paramdefval">3.0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>iterations</em></span><span class="paramdefsep"> = </span><span class="paramdefval">3</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -614,7 +625,8 @@ Variables</h2></td></tr>
     <tr><td class="paramname">meanName</td><td>The name for the output mean profile histogram </td></tr>
     <tr><td class="paramname">widthName</td><td>The name for the output width profile histogram </td></tr>
     <tr><td class="paramname">minEntriesForFit</td><td>Minimum number of entries in a projection to attempt a fit </td></tr>
-    <tr><td class="paramname">fitOption</td><td>The option string to use for the fit </td></tr>
+    <tr><td class="paramname">sigmaRange</td><td>The range in sigma for the iterative Gaussian fit </td></tr>
+    <tr><td class="paramname">iterations</td><td>The maximum number of iterations for the iterative Gaussian fit </td></tr>
     <tr><td class="paramname">logger</td><td>Logger for debug messages </td></tr>
   </table>
   </dd>
