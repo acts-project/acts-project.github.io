@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#acef7300de7197685285103945db00c57":[5,0,0,16,0,6],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#acef7300de7197685285103945db00c57":[7,0,0,23,0,6],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html":[5,0,0,17,0],
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html":[7,0,0,24,0],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a00a497c926a673ba3a2682a19b50ac9e":[5,0,0,17,0,15],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a00a497c926a673ba3a2682a19b50ac9e":[7,0,0,24,0,15],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a0b411817188fbcf7a9592ba2e1aabd32":[5,0,0,17,0,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a7a6b41b2055d0b05b7fa89908c034672":[7,0,0,61,1,1],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html":[5,0,0,54,2],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html":[7,0,0,61,2],
-"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#a6efeac7f1d5c324796812b51dd118aca":[5,0,0,54,2,0],
-"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#a6efeac7f1d5c324796812b51dd118aca":[7,0,0,61,2,0],
-"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#ac86262018841bc4130c1cb717d0ac647":[5,0,0,54,2,1],
-"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#ac86262018841bc4130c1cb717d0ac647":[7,0,0,61,2,1],
-"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#ae3362820c8755974dd027d1a327a2565":[5,0,0,54,2,3]
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_cartesian_params.html#a6efeac7f1d5c324796812b51dd118aca":[5,0,0,54,2,0]
 };

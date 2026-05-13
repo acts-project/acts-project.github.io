@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_polyhedron_reference_generator.html#a5d6888ad65bbe810ac2d78066f48b9fb":[5,0,0,305,2],
+"struct_acts_1_1_polyhedron_reference_generator.html#a5d6888ad65bbe810ac2d78066f48b9fb":[7,0,0,312,2],
+"struct_acts_1_1_polyhedron_reference_generator.html#a64b5009aa9be7697fa913ba69e497c6e":[5,0,0,305,0],
+"struct_acts_1_1_polyhedron_reference_generator.html#a64b5009aa9be7697fa913ba69e497c6e":[7,0,0,312,0],
 "struct_acts_1_1_polyhedron_reference_generator.html#abe8a40f2272e306b1306155330ed805e":[5,0,0,305,3],
 "struct_acts_1_1_polyhedron_reference_generator.html#abe8a40f2272e306b1306155330ed805e":[7,0,0,312,3],
 "struct_acts_1_1_portal_1_1_arguments.html":[5,0,0,306,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#adc9988a81f5c4d0ed665e266c9e8abb4":[5,0,0,339,1,12],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#adc9988a81f5c4d0ed665e266c9e8abb4":[7,0,0,346,1,12],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[5,0,0,339,1,10],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[7,0,0,346,1,10],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[5,0,0,339,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[7,0,0,346,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[5,0,0,339,2,6],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[7,0,0,346,2,6]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[7,0,0,346,1,10]
 };
