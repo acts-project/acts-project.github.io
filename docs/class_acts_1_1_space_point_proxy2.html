@@ -221,6 +221,10 @@ requires (!<a class="el" href="#a3d29c8b89a28036d322e6f7525b1b97a">ReadOnly</a>)
 <tr class="memdesc:adfdaba896ede03a1887daa7248cd2aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the variance in <span class="tt">R</span> direction of the space point.  <br /></td></tr>
 <tr class="memitem:a02a64fda68977a6d577dc67f52cc59f6" id="r_a02a64fda68977a6d577dc67f52cc59f6"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02a64fda68977a6d577dc67f52cc59f6">varianceR</a> () const noexcept</td></tr>
 <tr class="memdesc:a02a64fda68977a6d577dc67f52cc59f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable access to the variance in <span class="tt">R</span> direction of the space point.  <br /></td></tr>
+<tr class="memitem:a9659c7f7ebd5bd3d90f3310136959ceb" id="r_a9659c7f7ebd5bd3d90f3310136959ceb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9659c7f7ebd5bd3d90f3310136959ceb">varianceT</a> () const noexcept</td></tr>
+<tr class="memdesc:a9659c7f7ebd5bd3d90f3310136959ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the variance in <span class="tt">T</span> direction of the space point.  <br /></td></tr>
+<tr class="memitem:af9b389a9f29ccfd621b0d6d40ab1807b" id="r_af9b389a9f29ccfd621b0d6d40ab1807b"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b389a9f29ccfd621b0d6d40ab1807b">varianceT</a> () const noexcept</td></tr>
+<tr class="memdesc:af9b389a9f29ccfd621b0d6d40ab1807b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable access to the variance in <span class="tt">T</span> direction of the space point.  <br /></td></tr>
 <tr class="memitem:ad53273f9cd2be904cd575d9a13f6f703" id="r_ad53273f9cd2be904cd575d9a13f6f703"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53273f9cd2be904cd575d9a13f6f703">varianceZ</a> () const noexcept</td></tr>
 <tr class="memdesc:ad53273f9cd2be904cd575d9a13f6f703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the variance in <span class="tt">Z</span> direction of the space point.  <br /></td></tr>
 <tr class="memitem:a3193530ab0b388d6adeca809e5eb1af2" id="r_a3193530ab0b388d6adeca809e5eb1af2"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3193530ab0b388d6adeca809e5eb1af2">varianceZ</a> () const noexcept</td></tr>
@@ -1386,6 +1390,66 @@ template&lt;bool read_only&gt; </div>
 
 <p>Mutable access to the variance in <span class="tt">R</span> direction of the space point. </p>
 <dl class="section return"><dt>Returns</dt><dd>A mutable reference to the variance in <span class="tt">R</span> direction of the space point. </dd></dl>
+
+</div>
+</div>
+<a id="a9659c7f7ebd5bd3d90f3310136959ceb" name="a9659c7f7ebd5bd3d90f3310136959ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9659c7f7ebd5bd3d90f3310136959ceb">&#9670;&#160;</a></span>varianceT() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::varianceT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const access to the variance in <span class="tt">T</span> direction of the space point. </p>
+<dl class="section return"><dt>Returns</dt><dd>An optional containing the variance in <span class="tt">T</span> direction of the space point. </dd></dl>
+
+</div>
+</div>
+<a id="af9b389a9f29ccfd621b0d6d40ab1807b" name="af9b389a9f29ccfd621b0d6d40ab1807b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b389a9f29ccfd621b0d6d40ab1807b">&#9670;&#160;</a></span>varianceT() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float &amp; <a class="el" href="class_acts_1_1_space_point_proxy2.html">Acts::SpacePointProxy2</a>&lt; read_only &gt;::varianceT </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutable access to the variance in <span class="tt">T</span> direction of the space point. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable reference to the variance in <span class="tt">T</span> direction of the space point. </dd></dl>
 
 </div>
 </div>

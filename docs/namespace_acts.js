@@ -817,6 +817,7 @@ var namespace_acts =
       [ "Time", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399caa76d4ef5f3f6a672bbfab2865563e530", null ],
       [ "VarianceZ", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca40d203bf0d98e07fc2dfbf12d880b13b", null ],
       [ "VarianceR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca72bb52f0a15dd8981987d49e5e306c31", null ],
+      [ "VarianceT", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cab036119d6dbf199f0d809d1eadd9d7eb", null ],
       [ "TopStripVector", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca3fa9ae8939cd9d4e3d80ba71a28ea27d", null ],
       [ "BottomStripVector", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca08e690ae1ee43bbbf2fd36c5f78e9b13", null ],
       [ "StripCenterDistance", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca60970c94d2fa3ff8904f6ee13a88c506", null ],

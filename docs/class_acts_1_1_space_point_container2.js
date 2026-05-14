@@ -66,6 +66,8 @@ var class_acts_1_1_space_point_container2 =
     [ "topStripVectorColumn", "class_acts_1_1_space_point_container2.html#ad803be0db21c3a08d6237ed772912ae5", null ],
     [ "varianceRColumn", "class_acts_1_1_space_point_container2.html#a6e41e3646ebbd06b675f990b71558755", null ],
     [ "varianceRColumn", "class_acts_1_1_space_point_container2.html#a84972910f3c39995c243b60de1905a3b", null ],
+    [ "varianceTColumn", "class_acts_1_1_space_point_container2.html#afce6deccbf03333492dce0f31ba2c37d", null ],
+    [ "varianceTColumn", "class_acts_1_1_space_point_container2.html#ae157b0f1b31e8564b0524be5f944c729", null ],
     [ "varianceZColumn", "class_acts_1_1_space_point_container2.html#a81e90eb4b2936b564354e42024e96c36", null ],
     [ "varianceZColumn", "class_acts_1_1_space_point_container2.html#a4be2e85aaebeadbc5c0ef978bafa711a", null ],
     [ "varianceZRColumn", "class_acts_1_1_space_point_container2.html#a616400dbf195fa85df642824b32a7716", null ],

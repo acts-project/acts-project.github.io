@@ -37,6 +37,8 @@ var class_acts_1_1_space_point_proxy2 =
     [ "topStripVector", "class_acts_1_1_space_point_proxy2.html#adfd4da84ad6a248c733bdc7a3d9dc64f", null ],
     [ "varianceR", "class_acts_1_1_space_point_proxy2.html#adfdaba896ede03a1887daa7248cd2aeb", null ],
     [ "varianceR", "class_acts_1_1_space_point_proxy2.html#a02a64fda68977a6d577dc67f52cc59f6", null ],
+    [ "varianceT", "class_acts_1_1_space_point_proxy2.html#a9659c7f7ebd5bd3d90f3310136959ceb", null ],
+    [ "varianceT", "class_acts_1_1_space_point_proxy2.html#af9b389a9f29ccfd621b0d6d40ab1807b", null ],
     [ "varianceZ", "class_acts_1_1_space_point_proxy2.html#ad53273f9cd2be904cd575d9a13f6f703", null ],
     [ "varianceZ", "class_acts_1_1_space_point_proxy2.html#a3193530ab0b388d6adeca809e5eb1af2", null ],
     [ "varianceZR", "class_acts_1_1_space_point_proxy2.html#a3b258785fc3219ec0e926c94a4f02e94", null ],

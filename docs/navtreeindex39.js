@@ -1,5 +1,13 @@
 var NAVTREEINDEX39 =
 {
+"class_acts_fatras_1_1_hit.html#ab5428db349ee47e40fb0b325a0aff1df":[5,0,2,16,15],
+"class_acts_fatras_1_1_hit.html#ab5428db349ee47e40fb0b325a0aff1df":[7,0,1,17,15],
+"class_acts_fatras_1_1_hit.html#ad518c92e0d07e4b33282236bbf873455":[5,0,2,16,10],
+"class_acts_fatras_1_1_hit.html#ad518c92e0d07e4b33282236bbf873455":[7,0,1,17,10],
+"class_acts_fatras_1_1_hit.html#ad94c9cde90cf3b6658fa563e74222e75":[5,0,2,16,6],
+"class_acts_fatras_1_1_hit.html#ad94c9cde90cf3b6658fa563e74222e75":[7,0,1,17,6],
+"class_acts_fatras_1_1_hit.html#ae00b0f67c83c7b5a830a883776223af2":[5,0,2,16,0],
+"class_acts_fatras_1_1_hit.html#ae00b0f67c83c7b5a830a883776223af2":[7,0,1,17,0],
 "class_acts_fatras_1_1_hit.html#aebeec96757f766f0d41f856f0e17f001":[5,0,2,16,3],
 "class_acts_fatras_1_1_hit.html#aebeec96757f766f0d41f856f0e17f001":[7,0,1,17,3],
 "class_acts_fatras_1_1_interaction_list.html":[5,0,2,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX39 =
 "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac95000e59ef73cc6bea86fbac598f3c8":[7,0,2,0,0,17],
 "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ad86c57437ca96631be69eea5a160990f":[7,0,2,0,0,15],
 "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae077aaf60e36b9c359c4cfd4ffa5d7dd":[7,0,2,0,0,5],
-"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae7b210de8b0be1a123b4eb4b0b45988d":[7,0,2,0,0,21],
-"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#aed650873d1e461dea236174e07f73cd6":[7,0,2,0,0,8],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html":[4,9,2,0],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163":[4,9,2,0,2],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a2dca2f2845183e48b8ab1321c5e578f9":[4,9,2,0,3],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57":[4,9,2,0,4],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#abe221dd1e520170eb8022e64132b9bd9":[4,9,2,0,0],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#abf17c510e5e5697c63300e090b9a1605":[4,9,2,0,1],
-"class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html":[4,9,2,2]
+"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae7b210de8b0be1a123b4eb4b0b45988d":[7,0,2,0,0,21]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_tracking_geometry.html#ad8f45ac0156aee591b5f65f5b9d85ee3":[5,0,0,402,8],
+"class_acts_1_1_tracking_geometry.html#ad8f45ac0156aee591b5f65f5b9d85ee3":[7,0,0,409,8],
+"class_acts_1_1_tracking_geometry_builder.html":[5,0,0,403],
+"class_acts_1_1_tracking_geometry_builder.html":[7,0,0,410],
+"class_acts_1_1_tracking_geometry_builder.html#a28f5ec04c3438cea8c84e916b6daf6a0":[5,0,0,403,3],
+"class_acts_1_1_tracking_geometry_builder.html#a28f5ec04c3438cea8c84e916b6daf6a0":[7,0,0,410,3],
+"class_acts_1_1_tracking_geometry_builder.html#a335acb69cf3f3cbc1385b51bb9064e21":[5,0,0,403,1],
+"class_acts_1_1_tracking_geometry_builder.html#a335acb69cf3f3cbc1385b51bb9064e21":[7,0,0,410,1],
 "class_acts_1_1_tracking_geometry_builder.html#a7a14110ab6c6b6806902e7edcb8d55a4":[5,0,0,403,4],
 "class_acts_1_1_tracking_geometry_builder.html#a7a14110ab6c6b6806902e7edcb8d55a4":[7,0,0,410,4],
 "class_acts_1_1_tracking_geometry_builder.html#a982bbce858c7b180f37023fb1770d268":[5,0,0,403,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_trapezoid_volume_bounds.html#a8b285c4b2886f21aa4649a75abbf4dcd":[7,0,0,429,13],
 "class_acts_1_1_trapezoid_volume_bounds.html#a91dd6ad1c050f44d24c9ef3a78cd1477":[5,0,0,422,6],
 "class_acts_1_1_trapezoid_volume_bounds.html#a91dd6ad1c050f44d24c9ef3a78cd1477":[7,0,0,429,6],
-"class_acts_1_1_trapezoid_volume_bounds.html#aa3b58de7f2f6cb513264c5b9d3dc79d7":[5,0,0,422,12],
-"class_acts_1_1_trapezoid_volume_bounds.html#aa3b58de7f2f6cb513264c5b9d3dc79d7":[7,0,0,429,12],
-"class_acts_1_1_trapezoid_volume_bounds.html#aac26a8908494c01aa8d6fa9c44b07f8a":[5,0,0,422,14],
-"class_acts_1_1_trapezoid_volume_bounds.html#aac26a8908494c01aa8d6fa9c44b07f8a":[7,0,0,429,14],
-"class_acts_1_1_trapezoid_volume_bounds.html#abc12807d3c8c3337f3710aef6dbedf86":[5,0,0,422,5],
-"class_acts_1_1_trapezoid_volume_bounds.html#abc12807d3c8c3337f3710aef6dbedf86":[7,0,0,429,5],
-"class_acts_1_1_trapezoid_volume_bounds.html#ac566b8bbd22b9b44f63c6d088a71bd48":[5,0,0,422,2],
-"class_acts_1_1_trapezoid_volume_bounds.html#ac566b8bbd22b9b44f63c6d088a71bd48":[7,0,0,429,2],
-"class_acts_1_1_trapezoid_volume_bounds.html#accfa85a0833b4a795ff09a9283bc69f2":[5,0,0,422,0]
+"class_acts_1_1_trapezoid_volume_bounds.html#aa3b58de7f2f6cb513264c5b9d3dc79d7":[5,0,0,422,12]
 };
