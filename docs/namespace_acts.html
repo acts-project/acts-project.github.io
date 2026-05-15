@@ -2105,8 +2105,8 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memdesc:gaf5ba6469603e611d8a0171c51662809d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate bound track parameters from three space points.  <br /></td></tr>
 <tr class="memitem:gaf38513640e42e706177f3812515d1b62" id="r_gaf38513640e42e706177f3812515d1b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#gaf38513640e42e706177f3812515d1b62">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:gaf38513640e42e706177f3812515d1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
-<tr class="memitem:ga7fe761cda6f4044341697468a153ab19" id="r_ga7fe761cda6f4044341697468a153ab19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga7fe761cda6f4044341697468a153ab19">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, double t0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
-<tr class="memdesc:ga7fe761cda6f4044341697468a153ab19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:gaec5fbdcb40c41ce4ce601b25a6642571" id="r_gaec5fbdcb40c41ce4ce601b25a6642571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#gaec5fbdcb40c41ce4ce601b25a6642571">estimateTrackParamsFromSeed</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, double t0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> *tangent0=nullptr, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> *tangent1=nullptr, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> *tangent2=nullptr)</td></tr>
+<tr class="memdesc:gaec5fbdcb40c41ce4ce601b25a6642571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
 <tr class="memitem:ga67660862d76de069256713ffa53f6753" id="r_ga67660862d76de069256713ffa53f6753"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range space_point_range_t&gt; </td></tr>
 <tr class="memitem:ga67660862d76de069256713ffa53f6753 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga67660862d76de069256713ffa53f6753">estimateTrackParamsFromSeed</a> (space_point_range_t spRange, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:ga67660862d76de069256713ffa53f6753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
@@ -2436,6 +2436,8 @@ template&lt;class... Ts&gt; </td></tr>
 requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:a3cd785914bda5c3810e21a5f54386fd5 template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ac7fe124c6f6fda8fa31781f93cbd36b8">SerializedSubspaceIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd785914bda5c3810e21a5f54386fd5">serializeSubspaceIndices</a> (const <a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt; FullSize &gt; &amp;indices)</td></tr>
 <tr class="memdesc:a3cd785914bda5c3810e21a5f54386fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize subspace indices to a single 64 bit integer.  <br /></td></tr>
+<tr class="memitem:abd437e76f07a641dc9e076fc3b1313e6" id="r_abd437e76f07a641dc9e076fc3b1313e6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd437e76f07a641dc9e076fc3b1313e6">sinc</a> (double x)</td></tr>
+<tr class="memdesc:abd437e76f07a641dc9e076fc3b1313e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the sinc function, defined as sin(x)/x, with a special handling for x=0 to avoid numerical instability.  <br /></td></tr>
 <tr class="memitem:afa56c66203e142b57873e272fdea342f" id="r_afa56c66203e142b57873e272fdea342f"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
 <tr class="memitem:afa56c66203e142b57873e272fdea342f template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa56c66203e142b57873e272fdea342f">slowCathetus</a> (T hypotenuse, Args... args)</td></tr>
 <tr class="memdesc:afa56c66203e142b57873e272fdea342f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slow but more accurate cathetus calculation for multiple arguments.  <br /></td></tr>
@@ -10624,6 +10626,32 @@ requires (FullSize &lt;= 8)</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the serialized subspace indices </dd></dl>
+
+</div>
+</div>
+<a id="abd437e76f07a641dc9e076fc3b1313e6" name="abd437e76f07a641dc9e076fc3b1313e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd437e76f07a641dc9e076fc3b1313e6">&#9670;&#160;</a></span>sinc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::sinc </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the sinc function, defined as sin(x)/x, with a special handling for x=0 to avoid numerical instability. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The input value for which to calculate the sinc function </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value of sinc(x) </dd></dl>
 
 </div>
 </div>

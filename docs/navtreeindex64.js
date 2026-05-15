@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[5,0,0,439,2],
 "struct_acts_1_1_vertexing_options.html#afcf56ade3d3f0c72b21e18bd8fb7707a":[7,0,0,446,2],
 "struct_acts_1_1_view_config.html":[5,0,0,440],
 "struct_acts_1_1_view_config.html":[7,0,0,447],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_fatras_1_1_bound_parameters_smearer.html":[5,0,2,5],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html":[7,0,1,6],
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[5,0,2,5,1],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[7,0,1,6,1],
-"struct_acts_fatras_1_1_bound_parameters_smearer.html#a3ec5813b278b9184d68ead0524ad4d3f":[5,0,2,5,7]
+"struct_acts_fatras_1_1_bound_parameters_smearer.html#a0afcfa8735408555fadf7ba2621710b9":[7,0,1,6,1]
 };

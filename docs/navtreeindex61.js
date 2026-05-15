@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9210bf83689ee4b4ddfcd808650cc148":[5,0,0,375,2,4],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a9210bf83689ee4b4ddfcd808650cc148":[7,0,0,382,2,4],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a9cacac5ab344106ea15cc0ddee60ce5f":[5,0,0,375,2,8],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a9cacac5ab344106ea15cc0ddee60ce5f":[7,0,0,382,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_surface_reached.html#af663217706f0d220d408ca1722b41da0":[5,0,0,394,0],
 "struct_acts_1_1_surface_reached.html#af663217706f0d220d408ca1722b41da0":[7,0,0,401,0],
 "struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[5,0,0,394,4],
-"struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[7,0,0,401,4],
-"struct_acts_1_1_surface_selector.html":[5,0,0,395]
+"struct_acts_1_1_surface_reached.html#aff385c3a2dd335e2c82e607a6d018e7e":[7,0,0,401,4]
 };

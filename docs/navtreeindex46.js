@@ -1,8 +1,9 @@
 var NAVTREEINDEX46 =
 {
+"namespace_acts.html#aff077588e6b9207d49c53b1556be3a23":[5,0,0,970],
 "namespace_acts.html#aff2f246860b0974632cebefff000f4ae":[5,0,0,849],
 "namespace_acts.html#aff81cf741e697ab165fc3579cacda4aa":[5,0,0,605],
-"namespace_acts.html#aff982fda48acad30c85288b19b33fb86":[5,0,0,985],
+"namespace_acts.html#aff982fda48acad30c85288b19b33fb86":[5,0,0,986],
 "namespace_acts_1_1_detray_json_helper.html":[4,9,10,0],
 "namespace_acts_1_1_experimental.html":[5,0,0,1],
 "namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc":[5,0,0,1,65],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[5,0,0,16,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[7,0,0,23,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[5,0,0,16,0,4],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[7,0,0,23,0,4],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[5,0,0,16,0,0]
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[7,0,0,23,0,4]
 };
