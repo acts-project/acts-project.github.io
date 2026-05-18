@@ -1,9 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#a9dfbe4a868a32b2c8b5a1a90933fd3b5":[5,0,0,172,0,6],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#a9dfbe4a868a32b2c8b5a1a90933fd3b5":[7,0,0,179,0,6],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa5fc59b8ee177b8adaabe5794fe5ea01":[5,0,0,172,0,8],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa5fc59b8ee177b8adaabe5794fe5ea01":[7,0,0,179,0,8],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa780b0d52d172006f1f0fcb138646d50":[5,0,0,172,0,3],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aa780b0d52d172006f1f0fcb138646d50":[7,0,0,179,0,3],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aaffc98f0710a9801014810152897d391":[5,0,0,172,0,10],
@@ -249,5 +245,9 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_kalman_fitter_extensions.html#ab374be40f672545d2c63627c1a3c93ff":[4,12,15,14],
 "struct_acts_1_1_kalman_fitter_extensions.html#ab99443078a65a33f3550c015f35ec5c9":[4,12,15,9],
 "struct_acts_1_1_kalman_fitter_extensions.html#ac26d10a568f0374eddc621f087f3d6ac":[4,12,15,0],
-"struct_acts_1_1_kalman_fitter_extensions.html#aee38adcca642b1803d6f476f9bf2d84f":[4,12,15,1]
+"struct_acts_1_1_kalman_fitter_extensions.html#aee38adcca642b1803d6f476f9bf2d84f":[4,12,15,1],
+"struct_acts_1_1_kalman_fitter_extensions.html#aee8e007193324d5e8d2ec5c002bbb1de":[4,12,15,5],
+"struct_acts_1_1_kalman_fitter_options.html":[4,12,16],
+"struct_acts_1_1_kalman_fitter_options.html#a12ad0407b4bd0809146a3537c68a80ac":[4,12,16,2],
+"struct_acts_1_1_kalman_fitter_options.html#a186d8b8d8db33274bc38707909693c1a":[4,12,16,12]
 };

@@ -1,9 +1,7 @@
 var namespace_acts =
 [
     [ "DetrayJsonHelper", "namespace_acts_1_1_detray_json_helper.html", [
-      [ "accelerationLink", "group__json__plugin.html#ga88f081a4e44f75a16a48334e8d8bc8d0", null ],
-      [ "addVolumeLink", "group__json__plugin.html#ga315122d1d994e640dbc7e6a05b79f5b2", null ],
-      [ "maskFromBounds", "group__json__plugin.html#ga3503d63a02e59fae80cb71d77642bfaf", null ]
+      [ "accelerationLink", "group__json__plugin.html#ga88f081a4e44f75a16a48334e8d8bc8d0", null ]
     ] ],
     [ "Experimental", "namespace_acts_1_1_experimental.html", "namespace_acts_1_1_experimental" ],
     [ "GridAxisGenerators", "namespace_acts_1_1_grid_axis_generators.html", "namespace_acts_1_1_grid_axis_generators" ],
@@ -1060,7 +1058,6 @@ var namespace_acts =
     [ "materialMapperRZ", "group__material.html#ga36398a73a93820ca563cdaebf35c8c99", null ],
     [ "materialMapperXYZ", "group__material.html#ga58e02a2bfb006720b513203973586084", null ],
     [ "matrixToBitset", "namespace_acts.html#a3dcc6435e936f830c8ce3e2c67122fd5", null ],
-    [ "NLOHMANN_JSON_SERIALIZE_ENUM", "group__json__plugin.html#gac8895b284676062f1c0bf5f6466a507d", null ],
     [ "normalizeBoundParameters", "namespace_acts.html#a52e4174147933a017fd8663abf8ae740", null ],
     [ "numAxisDirections", "namespace_acts.html#a297fc9345930e9e61a5771aad5dc17c5", null ],
     [ "operator<<", "namespace_acts.html#a8c289cbcb6bb87a3a4e60b4e968eb225", null ],

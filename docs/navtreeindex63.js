@@ -1,9 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html":[5,0,0,414,1],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html":[7,0,0,421,1],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a08cf202989342cdea2381b0f6ddebab5":[5,0,0,414,1,6],
-"struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a08cf202989342cdea2381b0f6ddebab5":[7,0,0,421,1,6],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a0a7c9b019988f870b525c615d22e0a2e":[5,0,0,414,1,1],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a0a7c9b019988f870b525c615d22e0a2e":[7,0,0,421,1,1],
 "struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a19f61660080cb7e547b950bac485a745":[5,0,0,414,1,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[5,0,0,440,7],
 "struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[7,0,0,447,7],
 "struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[5,0,0,440,4],
-"struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[7,0,0,447,4]
+"struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[7,0,0,447,4],
+"struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415":[5,0,0,440,0],
+"struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415":[7,0,0,447,0],
+"struct_acts_1_1_vertex_info.html#a749dc13ddc68140c10ef28625be8575d":[5,0,0,440,2],
+"struct_acts_1_1_vertex_info.html#a749dc13ddc68140c10ef28625be8575d":[7,0,0,447,2]
 };

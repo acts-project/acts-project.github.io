@@ -1,9 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[5,0,0,16,0,4],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[7,0,0,23,0,4],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[5,0,0,16,0,0],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[7,0,0,23,0,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a8a4a0a17ed7030d814212800a5b78d79":[5,0,0,16,0,7],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a8a4a0a17ed7030d814212800a5b78d79":[7,0,0,23,0,7],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#aadea9ce68d170e95e230418574bc1fbb":[5,0,0,16,0,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[7,0,0,61,0],
 "struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[5,0,0,54,0,0],
 "struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[7,0,0,61,0,0],
-"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[5,0,0,54,1]
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[5,0,0,54,1],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[7,0,0,61,1],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[5,0,0,54,1,2],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[7,0,0,61,1,2],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a12ead19a65592834270d010a67b1b7bd":[5,0,0,54,1,0]
 };

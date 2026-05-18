@@ -65,8 +65,7 @@ var group__json__plugin =
       [ "SurfaceJsonConverter", "group__json__plugin.html#gac0f17d4a2e14c9336b39f4e70381d95f", null ],
       [ "fromJson", "group__json__plugin.html#ga0c4c37f9c2d147c464be0b11b6662e44", null ],
       [ "setConfig", "group__json__plugin.html#gab5b6563910c389e8e62e1f8811467c97", null ],
-      [ "toJson", "group__json__plugin.html#ga277a256ce56e6426a468cfada6325112", null ],
-      [ "toJsonDetray", "group__json__plugin.html#ga72a6eff57592c82d128db5674ac69d29", null ]
+      [ "toJson", "group__json__plugin.html#ga277a256ce56e6426a468cfada6325112", null ]
     ] ],
     [ "Acts::SurfaceJsonConverter::Config", "struct_acts_1_1_surface_json_converter_1_1_config.html", [
       [ "defaultConfig", "group__json__plugin.html#gae08b94ce511c98dcc5d34694c2d9cb89", null ],
@@ -128,7 +127,6 @@ var group__json__plugin =
     [ "Acts::volumeMaterialPointer", "group__json__plugin.html#ga06973c0a57ed2cedc63a4e66a33eb4ae", null ],
     [ "Acts::SurfaceJsonConverter::SurfaceJsonConverter", "group__json__plugin.html#gac0f17d4a2e14c9336b39f4e70381d95f", null ],
     [ "Acts::DetrayJsonHelper::accelerationLink", "group__json__plugin.html#ga88f081a4e44f75a16a48334e8d8bc8d0", null ],
-    [ "Acts::DetrayJsonHelper::addVolumeLink", "group__json__plugin.html#ga315122d1d994e640dbc7e6a05b79f5b2", null ],
     [ "Acts::decorateJson", "group__json__plugin.html#gaee816f677b99eb0cbeb1d35a580cc391", null ],
     [ "Acts::decorateJson", "group__json__plugin.html#gaf82572e503169d94a3cbe03a3a0af6cf", null ],
     [ "Acts::SurfaceJsonConverter::Config::defaultConfig", "group__json__plugin.html#gae08b94ce511c98dcc5d34694c2d9cb89", null ],
@@ -156,8 +154,6 @@ var group__json__plugin =
     [ "Acts::GeometryHierarchyMapJsonConverter::fromJson", "group__json__plugin.html#ga4ec453becca4f99dad7cd102ed1599a8", null ],
     [ "Acts::ProtoAxisJsonConverter::fromJson", "group__json__plugin.html#ga7db1175609439b8069b2d0b090773503", null ],
     [ "Acts::SurfaceJsonConverter::fromJson", "group__json__plugin.html#ga0c4c37f9c2d147c464be0b11b6662e44", null ],
-    [ "Acts::DetrayJsonHelper::maskFromBounds", "group__json__plugin.html#ga3503d63a02e59fae80cb71d77642bfaf", null ],
-    [ "Acts::NLOHMANN_JSON_SERIALIZE_ENUM", "group__json__plugin.html#gac8895b284676062f1c0bf5f6466a507d", null ],
     [ "Acts::SurfaceJsonConverter::setConfig", "group__json__plugin.html#gab5b6563910c389e8e62e1f8811467c97", null ],
     [ "Acts::Experimental::to_json", "group__json__plugin.html#ga5ed83409692d68ffb4989b9ab3c1c82c", null ],
     [ "Acts::Experimental::to_json", "group__json__plugin.html#gacbdd50f4cf9d46824fb5b19e0524b572", null ],
@@ -189,7 +185,6 @@ var group__json__plugin =
     [ "Acts::ProtoAxisJsonConverter::toJson", "group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9", null ],
     [ "Acts::SurfaceJsonConverter::toJson", "group__json__plugin.html#ga277a256ce56e6426a468cfada6325112", null ],
     [ "Acts::toJson", "group__json__plugin.html#ga0d44dfc16a076ea3977b8d4632e0bd71", null ],
-    [ "Acts::SurfaceJsonConverter::toJsonDetray", "group__json__plugin.html#ga72a6eff57592c82d128db5674ac69d29", null ],
     [ "Acts::SurfaceJsonConverter::Options::portal", "group__json__plugin.html#ga5bc6b21c50a50bccbf49a947f663e269", null ],
     [ "Acts::SurfaceJsonConverter::Config::surfaceBoundsEncoder", "group__json__plugin.html#ga65b122cdc25531330743a0393d149a3d", null ],
     [ "Acts::SurfaceJsonConverter::Config::surfaceDecoder", "group__json__plugin.html#ga94937e94a6340d2b2a792fa418900e73", null ],
