@@ -634,6 +634,8 @@ var hierarchy =
     [ "Acts::NumericalTrackLinearizer::Config", "struct_acts_1_1_numerical_track_linearizer_1_1_config.html", null ],
     [ "Acts::ObjectSorterT&lt; T &gt;", "class_acts_1_1_object_sorter_t.html", null ],
     [ "Acts::OrientedSurface", "struct_acts_1_1_oriented_surface.html", null ],
+    [ "Acts::OuterStripSpacePointCalibrationDetails", "struct_acts_1_1_outer_strip_space_point_calibration_details.html", null ],
+    [ "Acts::OuterStripSpacePointCalibrationDetailsDerived", "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html", null ],
     [ "Acts::OwningDelegate&lt; typename, H &gt;", "class_acts_1_1_owning_delegate.html", null ],
     [ "Acts::ParticleData", "struct_acts_1_1_particle_data.html", null ],
     [ "Acts::ParticleHypothesis", "class_acts_1_1_particle_hypothesis.html", null ],

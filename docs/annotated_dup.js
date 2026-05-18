@@ -444,6 +444,8 @@ var annotated_dup =
       [ "ObjectSorterT", "class_acts_1_1_object_sorter_t.html", "class_acts_1_1_object_sorter_t" ],
       [ "ObjVisualization3D", "class_acts_1_1_obj_visualization3_d.html", "class_acts_1_1_obj_visualization3_d" ],
       [ "OrientedSurface", "struct_acts_1_1_oriented_surface.html", "struct_acts_1_1_oriented_surface" ],
+      [ "OuterStripSpacePointCalibrationDetails", "struct_acts_1_1_outer_strip_space_point_calibration_details.html", "struct_acts_1_1_outer_strip_space_point_calibration_details" ],
+      [ "OuterStripSpacePointCalibrationDetailsDerived", "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html", "struct_acts_1_1_outer_strip_space_point_calibration_details_derived" ],
       [ "overloaded", "struct_acts_1_1overloaded.html", null ],
       [ "OwningDelegate", "class_acts_1_1_owning_delegate.html", null ],
       [ "OwningDelegate&lt; R(Args...), H &gt;", "class_acts_1_1_owning_delegate_3_01_r_07_args_8_8_8_08_00_01_h_01_4.html", "class_acts_1_1_owning_delegate_3_01_r_07_args_8_8_8_08_00_01_h_01_4" ],

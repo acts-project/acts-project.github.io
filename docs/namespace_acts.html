@@ -693,6 +693,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This helper produces output in the OBJ format.  <a href="class_acts_1_1_obj_visualization3_d.html#details">More...</a><br /></td></tr>
 <tr class="memitem:OrientedSurface" id="r_OrientedSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_oriented_surface.html">OrientedSurface</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper bundle of a surface and its orientation.  <a href="struct_acts_1_1_oriented_surface.html#details">More...</a><br /></td></tr>
+<tr class="memitem:OuterStripSpacePointCalibrationDetails" id="r_OuterStripSpacePointCalibrationDetails"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of outer strip space point details, used for the calibration.  <a href="struct_acts_1_1_outer_strip_space_point_calibration_details.html#details">More...</a><br /></td></tr>
+<tr class="memitem:OuterStripSpacePointCalibrationDetailsDerived" id="r_OuterStripSpacePointCalibrationDetailsDerived"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html">OuterStripSpacePointCalibrationDetailsDerived</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived collection of outer strip space point details, used for the calibration.  <a href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#details">More...</a><br /></td></tr>
 <tr class="memitem:overloaded" id="r_overloaded"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1overloaded.html">overloaded</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct that can turn a set of lambdas into a single entity with overloaded call operator.  <a href="struct_acts_1_1overloaded.html#details">More...</a><br /></td></tr>
 <tr class="memitem:OwningDelegate" id="r_OwningDelegate"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_owning_delegate.html">OwningDelegate</a></td></tr>
@@ -2023,6 +2027,8 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2" id="r_afded89f5410ca396ea21fee04cf8d1e2"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:afded89f5410ca396ea21fee04cf8d1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the unbiased track parameters and their covariance (i.e.  <br /></td></tr>
+<tr class="memitem:a8e59f307c7d7cfbd3a534827a7d3720e" id="r_a8e59f307c7d7cfbd3a534827a7d3720e"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e59f307c7d7cfbd3a534827a7d3720e">calibrateOuterStripSpacePoint</a> (const Eigen::Vector3f &amp;direction, const <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html">OuterStripSpacePointCalibrationDetailsDerived</a> &amp;sp)</td></tr>
+<tr class="memdesc:a8e59f307c7d7cfbd3a534827a7d3720e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibrates the strip space point using the assumed particle direction and the strip space point calibration details.  <br /></td></tr>
 <tr class="memitem:ad45ef8ad00b8e2d3bcfffd50642b8a8a" id="r_ad45ef8ad00b8e2d3bcfffd50642b8a8a"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
 <tr class="memitem:ad45ef8ad00b8e2d3bcfffd50642b8a8a template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad45ef8ad00b8e2d3bcfffd50642b8a8a">cathetusSquare</a> (T hypotenuse, Args... args)</td></tr>
 <tr class="memdesc:ad45ef8ad00b8e2d3bcfffd50642b8a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the squared cathetus of arguments, i.e.  <br /></td></tr>
@@ -2089,6 +2095,8 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memdesc:a3e4407067c869e4f7253adc947e05f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the combined most probable energy loss with respect to q/p.  <br /></td></tr>
 <tr class="memitem:a4d85a7a0670ff1043ead2e43cbc9b132" id="r_a4d85a7a0670ff1043ead2e43cbc9b132"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d85a7a0670ff1043ead2e43cbc9b132">deriveEnergyLossRadiativeQOverP</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, <a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> absPdg, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:a4d85a7a0670ff1043ead2e43cbc9b132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the mean radiative energy loss with respect to q/p.  <br /></td></tr>
+<tr class="memitem:a5974b936590507935ff7efd61732481d" id="r_a5974b936590507935ff7efd61732481d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html">OuterStripSpacePointCalibrationDetailsDerived</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5974b936590507935ff7efd61732481d">deriveOuterStripSpacePointCalibrationDetails</a> (const <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &amp;sp)</td></tr>
+<tr class="memdesc:a5974b936590507935ff7efd61732481d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derives the strip space point calibration details.  <br /></td></tr>
 <tr class="memitem:ae62184077e0f01971fe35cb00b8cb20c" id="r_ae62184077e0f01971fe35cb00b8cb20c"><td class="memTemplParams" colspan="2">template&lt;std::size_t FullSize&gt; <br />
 requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:ae62184077e0f01971fe35cb00b8cb20c template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt; FullSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62184077e0f01971fe35cb00b8cb20c">deserializeSubspaceIndices</a> (<a class="el" href="#ac7fe124c6f6fda8fa31781f93cbd36b8">SerializedSubspaceIndices</a> serialized)</td></tr>
@@ -5625,6 +5633,38 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
 
 </div>
 </div>
+<a id="a8e59f307c7d7cfbd3a534827a7d3720e" name="a8e59f307c7d7cfbd3a534827a7d3720e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e59f307c7d7cfbd3a534827a7d3720e">&#9670;&#160;</a></span>calibrateOuterStripSpacePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Vector3f Acts::calibrateOuterStripSpacePoint </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html">OuterStripSpacePointCalibrationDetailsDerived</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calibrates the strip space point using the assumed particle direction and the strip space point calibration details. </p>
+<dl class="section note"><dt>Note</dt><dd>This function does not check if the calibrated space point lies within the strip. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sp</td><td>The strip space point calibration details </td></tr>
+    <tr><td class="paramname">direction</td><td>The assumed particle direction </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The calibrated outer strip space point </dd></dl>
+
+</div>
+</div>
 <a id="ad45ef8ad00b8e2d3bcfffd50642b8a8a" name="ad45ef8ad00b8e2d3bcfffd50642b8a8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad45ef8ad00b8e2d3bcfffd50642b8a8a">&#9670;&#160;</a></span>cathetusSquare()</h2>
 
@@ -6739,6 +6779,32 @@ Derivative of combined most probable energy loss with respect to q/p </dd></dl>
 <p>This computes the mean energy loss -dE(x) using an approximative formula. Bremsstrahlung is always included; direct e+e- pair production and photo-nuclear interactions only for muons. </p><dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the material slab    </dd>
 <dd>
 Derivative of radiative energy loss with respect to q/p </dd></dl>
+
+</div>
+</div>
+<a id="a5974b936590507935ff7efd61732481d" name="a5974b936590507935ff7efd61732481d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5974b936590507935ff7efd61732481d">&#9670;&#160;</a></span>deriveOuterStripSpacePointCalibrationDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html">OuterStripSpacePointCalibrationDetailsDerived</a> Acts::deriveOuterStripSpacePointCalibrationDetails </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derives the strip space point calibration details. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sp</td><td>The strip space point calibration details </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The derived strip space point calibration details </dd></dl>
 
 </div>
 </div>

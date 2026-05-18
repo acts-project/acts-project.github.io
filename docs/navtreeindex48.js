@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html":[7,0,0,61,1],
+"struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[5,0,0,54,1,2],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a0515fee55f0614bcb2e0098fb44d2dc9":[7,0,0,61,1,2],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a12ead19a65592834270d010a67b1b7bd":[5,0,0,54,1,0],
 "struct_acts_1_1_boundary_tolerance_1_1_chi2_bound_params.html#a12ead19a65592834270d010a67b1b7bd":[7,0,0,61,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#af6d12297011182d9b7f92d646230e987":[7,0,0,92,1,6],
 "struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html":[5,0,0,85,2],
 "struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html":[7,0,0,92,2],
-"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html#a042b45d9d149a0f5c7f4c5dbc153dce9":[5,0,0,85,2,4],
-"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html#a042b45d9d149a0f5c7f4c5dbc153dce9":[7,0,0,92,2,4],
-"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html#a539ea65f309a1970d2a3d7c14fba809f":[5,0,0,85,2,1]
+"struct_acts_1_1_cuboid_volume_builder_1_1_surface_config.html#a042b45d9d149a0f5c7f4c5dbc153dce9":[5,0,0,85,2,4]
 };
