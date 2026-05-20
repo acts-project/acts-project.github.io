@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#af9b35a7b1f18baba0b2f81a48fdf404a":[5,0,0,1,47,0,0],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#af9b35a7b1f18baba0b2f81a48fdf404a":[7,0,0,2,47,0,0],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[5,0,0,1,47,1],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[7,0,0,2,47,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_geometry_view3_d.html#af0422dcd7e2f8662501b3889a99fe010":[5,0,0,153,7],
 "struct_acts_1_1_geometry_view3_d.html#af0422dcd7e2f8662501b3889a99fe010":[7,0,0,160,7],
 "struct_acts_1_1_globally_indexed_material_accessor.html":[4,3,2,6],
-"struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b":[4,3,2,6,4],
-"struct_acts_1_1_globally_indexed_material_accessor.html#a2a864954c2167481cc43105dd2ad6a67":[4,3,2,6,2]
+"struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b":[4,3,2,6,4]
 };

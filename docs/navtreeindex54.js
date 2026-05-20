@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_globally_indexed_material_accessor.html#a2a864954c2167481cc43105dd2ad6a67":[4,3,2,6,2],
 "struct_acts_1_1_globally_indexed_material_accessor.html#a3db24238ed5ecb7b055a881d460797cc":[4,3,2,6,1],
 "struct_acts_1_1_globally_indexed_material_accessor.html#a5f8d0ebcfdc369b1ea331097903f34e0":[4,3,2,6,5],
 "struct_acts_1_1_globally_indexed_material_accessor.html#aa5b0317f113d860592142d5aafa57a97":[4,3,2,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html":[7,0,0,6,0,4],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a253244c57511acc720daa252ceac69e4":[5,0,0,3,0,4,2],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a253244c57511acc720daa252ceac69e4":[7,0,0,6,0,4,2],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a832ea61cb25ae99bfac9b99879eda0cb":[5,0,0,3,0,4,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a832ea61cb25ae99bfac9b99879eda0cb":[7,0,0,6,0,4,1]
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a832ea61cb25ae99bfac9b99879eda0cb":[5,0,0,3,0,4,1]
 };

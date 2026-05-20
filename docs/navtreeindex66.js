@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_fatras_1_1_no_decay.html":[7,0,1,25],
 "struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476":[5,0,2,24,1],
 "struct_acts_fatras_1_1_no_decay.html#a6132d5e9545ce44ddd2fb0775dbc8476":[7,0,1,25,1],
 "struct_acts_fatras_1_1_no_decay.html#acb299224bf542a881e4398b526b7f175":[5,0,2,24,0],
@@ -18,10 +19,12 @@ var NAVTREEINDEX66 =
 "struct_acts_fatras_1_1_pdg_selector.html#a9928915ac285de826e9935dbb9edf3db":[7,0,1,29,0],
 "struct_acts_fatras_1_1_planar_surface_drift.html":[5,0,2,30],
 "struct_acts_fatras_1_1_planar_surface_drift.html":[7,0,1,31],
-"struct_acts_fatras_1_1_planar_surface_drift.html#a027129318d06e558d7e853e554a2f1ef":[5,0,2,30,1],
-"struct_acts_fatras_1_1_planar_surface_drift.html#a027129318d06e558d7e853e554a2f1ef":[7,0,1,31,1],
 "struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[5,0,2,30,0],
 "struct_acts_fatras_1_1_planar_surface_drift.html#ab8ba982933fb3edef6c85adb0ddfd50f":[7,0,1,31,0],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ac63747f5f371c28f3cbc899c5a578f57":[5,0,2,30,1],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ac63747f5f371c28f3cbc899c5a578f57":[7,0,1,31,1],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ac6dd7fb1643dfb5d821fac416fbbeeda":[5,0,2,30,2],
+"struct_acts_fatras_1_1_planar_surface_drift.html#ac6dd7fb1643dfb5d821fac416fbbeeda":[7,0,1,31,2],
 "struct_acts_fatras_1_1_planar_surface_mask.html":[5,0,2,31],
 "struct_acts_fatras_1_1_planar_surface_mask.html":[7,0,1,32],
 "struct_acts_fatras_1_1_planar_surface_mask.html#a1fc02336f61431cfa85b7611775a241f":[5,0,2,31,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#a6ffa1b85fe435e3e8bff1b29eb54b8f9":[4,9,5,0,1,0,3],
 "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#aa8808eea0426d348a96520e71593a935":[4,9,5,0,1,0,4],
 "struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#ae6e2d21caffef2f988a9bdf77c503727":[4,9,5,0,1,0,2],
-"struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#aecc43af6fe5f2fe8c0e6c4f03f0e84b2":[4,9,5,0,1,0,1],
-"struct_acts_plugins_1_1_geant4_algebra_converter.html":[4,9,7,0],
-"struct_acts_plugins_1_1_geant4_algebra_converter.html#a6ae408a22e2ab75b7b7e115b73c2a0e8":[4,9,7,0,3],
-"struct_acts_plugins_1_1_geant4_algebra_converter.html#a77ed19f4b3e441710f8d77544ca9de53":[4,9,7,0,1]
+"struct_acts_plugins_1_1_fpe_monitor_1_1_result_1_1_fpe_info.html#aecc43af6fe5f2fe8c0e6c4f03f0e84b2":[4,9,5,0,1,0,1]
 };

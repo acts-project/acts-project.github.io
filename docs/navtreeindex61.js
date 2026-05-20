@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_space_point_parameters.html#ae40be78d89a941adc099266facf8a74b":[7,0,0,378,8],
 "struct_acts_1_1_stepper_plain_options.html":[5,0,0,375],
 "struct_acts_1_1_stepper_plain_options.html":[7,0,0,382],
 "struct_acts_1_1_stepper_plain_options.html#a0567497872b7ce3e4051be32c9479397":[5,0,0,375,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#af87ccbfbffb3d831cae9507c9a302ead":[7,0,0,393,1,5],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html":[5,0,0,387,0],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html":[7,0,0,394,0],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[5,0,0,387,0,2],
-"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[7,0,0,394,0,2]
+"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[5,0,0,387,0,2]
 };

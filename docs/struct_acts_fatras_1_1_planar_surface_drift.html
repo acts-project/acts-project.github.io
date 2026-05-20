@@ -135,25 +135,28 @@ $(function(){initNavTree('struct_acts_fatras_1_1_planar_surface_drift.html','','
 Public Types</h2></td></tr>
 <tr class="memitem:ab8ba982933fb3edef6c85adb0ddfd50f" id="r_ab8ba982933fb3edef6c85adb0ddfd50f"><td class="memItemLeft" align="right" valign="top"><a id="ab8ba982933fb3edef6c85adb0ddfd50f" name="ab8ba982933fb3edef6c85adb0ddfd50f"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Segment2D</b> = std::array&lt;<a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a>, 2&gt;</td></tr>
-<tr class="memdesc:ab8ba982933fb3edef6c85adb0ddfd50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for a 2D segment. <br /></td></tr>
+<tr class="memdesc:ab8ba982933fb3edef6c85adb0ddfd50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for a 2D segment - drifted segment in 2D. <br /></td></tr>
+<tr class="memitem:ac63747f5f371c28f3cbc899c5a578f57" id="r_ac63747f5f371c28f3cbc899c5a578f57"><td class="memItemLeft" align="right" valign="top"><a id="ac63747f5f371c28f3cbc899c5a578f57" name="ac63747f5f371c28f3cbc899c5a578f57"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Segment3D</b> = std::array&lt;<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>, 2&gt;</td></tr>
+<tr class="memdesc:ac63747f5f371c28f3cbc899c5a578f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for a 3D segment - undrifted segment in 3D. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a027129318d06e558d7e853e554a2f1ef" id="r_a027129318d06e558d7e853e554a2f1ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab8ba982933fb3edef6c85adb0ddfd50f">Segment2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027129318d06e558d7e853e554a2f1ef">toReadout</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface, double thickness, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;dir, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;driftdir) const</td></tr>
-<tr class="memdesc:a027129318d06e558d7e853e554a2f1ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drift the full 3D segment onto a surface 2D readout plane.  <br /></td></tr>
+<tr class="memitem:ac6dd7fb1643dfb5d821fac416fbbeeda" id="r_ac6dd7fb1643dfb5d821fac416fbbeeda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; std::tuple&lt; <a class="el" href="#ab8ba982933fb3edef6c85adb0ddfd50f">Segment2D</a>, <a class="el" href="#ac63747f5f371c28f3cbc899c5a578f57">Segment3D</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6dd7fb1643dfb5d821fac416fbbeeda">toReadout</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface, double thickness, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;dir, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;driftdir=<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(0., 0., 0.)) const</td></tr>
+<tr class="memdesc:ac6dd7fb1643dfb5d821fac416fbbeeda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drift the full 3D segment onto a surface 2D readout plane.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The PlanarSurfaceDrift takes an intersection in the nominal surface and projects the ends into the readout surface, which can be at : -1, 0, 1. </p>
 <p>A Lorentz drift angle can be applied. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a027129318d06e558d7e853e554a2f1ef" name="a027129318d06e558d7e853e554a2f1ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a027129318d06e558d7e853e554a2f1ef">&#9670;&#160;</a></span>toReadout()</h2>
+<a id="ac6dd7fb1643dfb5d821fac416fbbeeda" name="ac6dd7fb1643dfb5d821fac416fbbeeda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6dd7fb1643dfb5d821fac416fbbeeda">&#9670;&#160;</a></span>toReadout()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ab8ba982933fb3edef6c85adb0ddfd50f">Segment2D</a> ActsFatras::PlanarSurfaceDrift::toReadout </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Acts::Result</a>&lt; std::tuple&lt; <a class="el" href="#ab8ba982933fb3edef6c85adb0ddfd50f">Segment2D</a>, <a class="el" href="#ac63747f5f371c28f3cbc899c5a578f57">Segment3D</a> &gt; &gt; ActsFatras::PlanarSurfaceDrift::toReadout </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
         </tr>
@@ -180,7 +183,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>driftdir</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>driftdir</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a>(0.,&#160;0.,&#160;0.)</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -193,13 +196,15 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">thickness</td><td>The emulated module/depletion thickness </td></tr>
     <tr><td class="paramname">pos</td><td>The position in global coordinates </td></tr>
     <tr><td class="paramname">dir</td><td>The direction in global coordinates </td></tr>
-    <tr><td class="paramname">driftdir</td><td>The drift direction in local (surface) coordinates </td></tr>
+    <tr><td class="paramname">driftdir</td><td>The drift direction in local (surface) coordinates</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>a drift direction of (0,0,0) is drift to central plane any other a drift direction with driftDir.z() != 0. will result on a readout on either + 0.5*depletion or -0.5*depletion</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>a Segment on the readout surface </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>without masking </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>A drift direction with no perpendicular component will result in a segment with no lorentz drift or emulate a 3D pixel sensor.</dd>
+<dd>
+The readout is always emulated at the central surface, as the mask will be deployed there, and the measurement is presented there.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a tuple of the (drifted) Segment on the readout surface ( </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>without masking ), and original 3D segment (in local 3D frame) </dd></dl>
 
 </div>
 </div>

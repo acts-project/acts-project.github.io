@@ -52,6 +52,7 @@ var namespace_acts_fatras =
       [ "SmearingError", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0abd61bae5b37b03638ada093db05c3925", null ],
       [ "UndefinedSurface", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0aa25817537de612a782e6ab26d99d9cec", null ],
       [ "MaskingError", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0abff279d56cb31d81e2b1a9f71a5394d5", null ],
+      [ "DriftError", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0a0901ff80298a2078fdd589f64678dbcb", null ],
       [ "MaximumRetriesExceeded", "group__errors.html#ggaebbb9744bded7af55e310fecf0f4f0c0ae887f671d35b1e3abb22adb9d2eff469", null ]
     ] ],
     [ "GenerationProcess", "namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05", null ],
