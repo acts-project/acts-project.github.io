@@ -1,7 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a2562c7c251a82f9a581f3afeeb8829b3":[7,0,0,393,1,6],
-"struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a643777b729e20ea63d5af2271fd53bca":[5,0,0,386,1,0],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a643777b729e20ea63d5af2271fd53bca":[7,0,0,393,1,0],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a8b9f076237135e4719710cbd55a005c2":[5,0,0,386,1,1],
 "struct_acts_1_1_surface_array_creator_1_1_proto_axis.html#a8b9f076237135e4719710cbd55a005c2":[7,0,0,393,1,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html":[7,0,0,410,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[5,0,0,403,0,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[7,0,0,410,0,0],
-"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[5,0,0,403,1]
+"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[5,0,0,403,1],
+"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[7,0,0,410,1],
+"struct_acts_1_1_track_selector_1_1_config.html":[5,0,0,414,0]
 };

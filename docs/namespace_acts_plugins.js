@@ -79,8 +79,6 @@ var namespace_acts_plugins =
     [ "TrackBuildingBase", "class_acts_plugins_1_1_track_building_base.html", "class_acts_plugins_1_1_track_building_base" ],
     [ "TruthGraphMetricsHook", "class_acts_plugins_1_1_truth_graph_metrics_hook.html", "class_acts_plugins_1_1_truth_graph_metrics_hook" ],
     [ "BlueprintBuilder", "namespace_acts_plugins.html#aee2e5a4af4bd2bd6f035770e997f2f11", null ],
-    [ "DetrayHostDetector", "namespace_acts_plugins.html#a7b9afc07b4757d30190f778b9aaea510", null ],
-    [ "DetrayMetaData", "namespace_acts_plugins.html#a7fc3e56fffa777d98f9b7b8492bf71a3", null ],
     [ "ElementLayerAssembler", "namespace_acts_plugins.html#a99b425793692b8c438ca66c00ce452b7", null ],
     [ "GeoBoxConverter", "group__geomodel__plugin.html#gae23e284dc2b93ee33367d4641e85a349", null ],
     [ "GeoIntersectionAnnulusConverter", "group__geomodel__plugin.html#ga8ba4debf0d0aa752b7df0101c6e7b045", null ],

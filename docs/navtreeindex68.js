@@ -1,7 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a50d0e118ace653a9a0542f0760386d3c":[4,9,12,10,0,8],
-"struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#a8b847d96d94061c91562c23acf060c2c":[4,9,12,10,0,7],
 "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#aa9238bff7f406d6bea534b3a3413d9b9":[4,9,12,10,0,11],
 "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#aacdb4feae96103d05ddb17499ac609f5":[4,9,12,10,0,4],
 "struct_acts_plugins_1_1_t_geo_layer_builder_1_1_config.html#ac213b481262f33373107ed052687513a":[4,9,12,10,0,6],
