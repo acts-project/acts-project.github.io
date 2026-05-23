@@ -148,16 +148,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace950b407e2e5ffee805af3ab8fa5850" id="r_ace950b407e2e5ffee805af3ab8fa5850"><td class="memItemLeft" align="right" valign="top"><a id="ace950b407e2e5ffee805af3ab8fa5850" name="ace950b407e2e5ffee805af3ab8fa5850"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>AnyBase</b> (const AnyBase &amp;)=delete</td></tr>
 <tr class="memdesc:ace950b407e2e5ffee805af3ab8fa5850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor deleted when copyable is false (move-only variant). <br /></td></tr>
-<tr class="memitem:af57d9b3b11aada583142d54aa44128ca" id="r_af57d9b3b11aada583142d54aa44128ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af57d9b3b11aada583142d54aa44128ca">AnyBase</a> (const AnyBase &amp;other) noexcept(detail::kAnyNoexcept)</td></tr>
-<tr class="memdesc:af57d9b3b11aada583142d54aa44128ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor (only when copyable is true).  <br /></td></tr>
+<tr class="memitem:aa4a42c1cd4fdfca21a1e7772bee5309b" id="r_aa4a42c1cd4fdfca21a1e7772bee5309b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a42c1cd4fdfca21a1e7772bee5309b">AnyBase</a> (const AnyBase &amp;other)</td></tr>
+<tr class="memdesc:aa4a42c1cd4fdfca21a1e7772bee5309b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor (only when copyable is true).  <br /></td></tr>
 <tr class="memitem:a98e82ba39b3d757a4611e6abe5e3a268" id="r_a98e82ba39b3d757a4611e6abe5e3a268"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; <br />
 requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</td></tr>
 <tr class="memitem:a98e82ba39b3d757a4611e6abe5e3a268 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> (std::in_place_type_t&lt; T &gt;, Args &amp;&amp;... args)</td></tr>
 <tr class="memdesc:a98e82ba39b3d757a4611e6abe5e3a268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct with in-place type construction.  <br /></td></tr>
-<tr class="memitem:a1db06362a8999c4bde64c338d514f779" id="r_a1db06362a8999c4bde64c338d514f779"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; <br />
-requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</td></tr>
-<tr class="memitem:a1db06362a8999c4bde64c338d514f779 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db06362a8999c4bde64c338d514f779">AnyBase</a> (T &amp;&amp;value) noexcept(detail::kAnyNoexcept)</td></tr>
-<tr class="memdesc:a1db06362a8999c4bde64c338d514f779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from any value type.  <br /></td></tr>
+<tr class="memitem:ab0804373c2d30a48ed667d52ba734998" id="r_ab0804373c2d30a48ed667d52ba734998"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; <br />
+requires (!std::is_base_of_v&lt;<a class="el" href="class_acts_1_1_any_base_all.html">AnyBaseAll</a>, std::decay_t&lt;T&gt;&gt; &amp;&amp; isStorable&lt;std::decay_t&lt;T&gt;&gt;())</td></tr>
+<tr class="memitem:ab0804373c2d30a48ed667d52ba734998 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0804373c2d30a48ed667d52ba734998">AnyBase</a> (T &amp;&amp;value)</td></tr>
+<tr class="memdesc:ab0804373c2d30a48ed667d52ba734998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from any value type.  <br /></td></tr>
 <tr class="memitem:a2180055c15ef8b520029ea80b3de7d38" id="r_a2180055c15ef8b520029ea80b3de7d38"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a2180055c15ef8b520029ea80b3de7d38 template"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2180055c15ef8b520029ea80b3de7d38">as</a> ()</td></tr>
 <tr class="memdesc:a2180055c15ef8b520029ea80b3de7d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to stored value of specified type.  <br /></td></tr>
@@ -181,8 +181,8 @@ requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</td></tr>
 <tr class="memitem:a223ffa8a847793bc43687c7484369100" id="r_a223ffa8a847793bc43687c7484369100"><td class="memItemLeft" align="right" valign="top"><a id="a223ffa8a847793bc43687c7484369100" name="a223ffa8a847793bc43687c7484369100"></a>
 <a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp;)=delete</td></tr>
 <tr class="memdesc:a223ffa8a847793bc43687c7484369100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment deleted when copyable is false (move-only variant). <br /></td></tr>
-<tr class="memitem:a5350da538e53ad10bd4cb843a6611e0e" id="r_a5350da538e53ad10bd4cb843a6611e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5350da538e53ad10bd4cb843a6611e0e">operator=</a> (const <a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp;other) noexcept(detail::kAnyNoexcept)</td></tr>
-<tr class="memdesc:a5350da538e53ad10bd4cb843a6611e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator (only when copyable is true).  <br /></td></tr>
+<tr class="memitem:a0143c8aac00828d642d6a34de8ad62ee" id="r_a0143c8aac00828d642d6a34de8ad62ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0143c8aac00828d642d6a34de8ad62ee">operator=</a> (const <a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp;other)</td></tr>
+<tr class="memdesc:a0143c8aac00828d642d6a34de8ad62ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator (only when copyable is true).  <br /></td></tr>
 <tr class="memitem:ac42563535aeeed362c5533015dcf35e2" id="r_ac42563535aeeed362c5533015dcf35e2"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ac42563535aeeed362c5533015dcf35e2 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42563535aeeed362c5533015dcf35e2">take</a> ()</td></tr>
 <tr class="memdesc:ac42563535aeeed362c5533015dcf35e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the stored value out.  <br /></td></tr>
@@ -268,8 +268,8 @@ requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
 
 </div>
 </div>
-<a id="a1db06362a8999c4bde64c338d514f779" name="a1db06362a8999c4bde64c338d514f779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1db06362a8999c4bde64c338d514f779">&#9670;&#160;</a></span>AnyBase() <span class="overload">[2/4]</span></h2>
+<a id="ab0804373c2d30a48ed667d52ba734998" name="ab0804373c2d30a48ed667d52ba734998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0804373c2d30a48ed667d52ba734998">&#9670;&#160;</a></span>AnyBase() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +277,7 @@ requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
 template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
 <div class="memtemplate">
 template&lt;typename T&gt; <br />
-requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
+requires (!std::is_base_of_v&lt;<a class="el" href="class_acts_1_1_any_base_all.html">AnyBaseAll</a>, std::decay_t&lt;T&gt;&gt; &amp;&amp; isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -291,7 +291,7 @@ requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel explicit">explicit</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -309,19 +309,17 @@ requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>Not noexcept: storing a type larger than the small buffer allocates on the heap (may throw std::bad_alloc) and the stored type's own constructor may throw. </dd></dl>
 
 </div>
 </div>
-<a id="af57d9b3b11aada583142d54aa44128ca" name="af57d9b3b11aada583142d54aa44128ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af57d9b3b11aada583142d54aa44128ca">&#9670;&#160;</a></span>AnyBase() <span class="overload">[3/4]</span></h2>
+<a id="aa4a42c1cd4fdfca21a1e7772bee5309b" name="aa4a42c1cd4fdfca21a1e7772bee5309b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a42c1cd4fdfca21a1e7772bee5309b">&#9670;&#160;</a></span>AnyBase() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; sb_size, copyable &gt;::AnyBase </td>
@@ -330,11 +328,6 @@ template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Copy constructor (only when copyable is true). </p>
@@ -344,6 +337,7 @@ template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>Not noexcept: copying a heap-allocated value allocates (may throw std::bad_alloc) and the stored type's copy constructor may throw. </dd></dl>
 
 </div>
 </div>
@@ -619,16 +613,13 @@ template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
 
 </div>
 </div>
-<a id="a5350da538e53ad10bd4cb843a6611e0e" name="a5350da538e53ad10bd4cb843a6611e0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5350da538e53ad10bd4cb843a6611e0e">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="a0143c8aac00828d642d6a34de8ad62ee" name="a0143c8aac00828d642d6a34de8ad62ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0143c8aac00828d642d6a34de8ad62ee">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a98e82ba39b3d757a4611e6abe5e3a268">AnyBase</a> &amp; <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; sb_size, copyable &gt;::operator= </td>
@@ -637,11 +628,6 @@ template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Copy assignment operator (only when copyable is true). </p>
@@ -652,6 +638,7 @@ template&lt;std::size_t sb_size, bool copyable = true&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Not noexcept: copying a heap-allocated value allocates (may throw std::bad_alloc) and the stored type's copy operations may throw. </dd></dl>
 
 </div>
 </div>
