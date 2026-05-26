@@ -162,7 +162,7 @@ var searchData=
   ['intersectionmaterialassigner_159',['IntersectionMaterialAssigner',['../class_acts_1_1_intersection_material_assigner.html',1,'Acts::IntersectionMaterialAssigner'],['../class_acts_1_1_intersection_material_assigner.html#af14a18356586448146d8c85dc11ddee8',1,'Acts::IntersectionMaterialAssigner::IntersectionMaterialAssigner()']]],
   ['intersectionstatus_160',['IntersectionStatus',['../namespace_acts.html#a52191edec34daa17746d1937fb06c1fb',1,'Acts']]],
   ['intersectiontype_161',['IntersectionType',['../class_acts_1_1_multi_intersection.html#aff22e9e8f5352a4942af26ef214f7910',1,'Acts::MultiIntersection']]],
-  ['intersector_162',['intersector',['../struct_acts_fatras_1_1_planar_surface_mask.html#ac35271b250d64eacb0ce0ecde04b9910',1,'ActsFatras::PlanarSurfaceMask']]],
+  ['intersector_162',['intersector',['../struct_acts_fatras_1_1_surface_mask.html#a58158bb1c8cba0f89af4d10f00da7926',1,'ActsFatras::SurfaceMask']]],
   ['intersects_163',['intersects',['../class_acts_1_1_extent.html#ab64fbb71ea9554f2baaf5d7c8ef93894',1,'Acts::Extent']]],
   ['interval_164',['interval',['../class_acts_1_1_extent.html#acca5a78cac4a4087966267cbd4935de2',1,'Acts::Extent']]],
   ['introduction_165',['Introduction',['../index.html',1,'']]],

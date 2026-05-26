@@ -195,6 +195,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9785fd041382473c9516be99a18535c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a <code>std::shared_ptr</code> for this surface (const version).  <br /></td></tr>
 <tr class="memitem:a507a64559bd7cfa030805ae74b5a6dd9" id="r_a507a64559bd7cfa030805ae74b5a6dd9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a507a64559bd7cfa030805ae74b5a6dd9">globalToLocal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const =0</td></tr>
 <tr class="memdesc:a507a64559bd7cfa030805ae74b5a6dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global to local transformation Generalized global to local transformation for the surface types.  <br /></td></tr>
+<tr class="memitem:a629edb6765a73f70130000c21fa7415b" id="r_a629edb6765a73f70130000c21fa7415b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629edb6765a73f70130000c21fa7415b">hasMaterial</a> () const</td></tr>
+<tr class="memdesc:a629edb6765a73f70130000c21fa7415b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the surface has an associated material description.  <br /></td></tr>
 <tr class="memitem:a8b2a73e04f09f076f719b5b91cde8a7c" id="r_a8b2a73e04f09f076f719b5b91cde8a7c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b2a73e04f09f076f719b5b91cde8a7c">insideBounds</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance=<a class="el" href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">BoundaryTolerance::None</a>()) const</td></tr>
 <tr class="memdesc:a8b2a73e04f09f076f719b5b91cde8a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The insideBounds method for local positions.  <br /></td></tr>
 <tr class="memitem:a23b661e68fee3ab78ca59ccb98bf52b9" id="r_a23b661e68fee3ab78ca59ccb98bf52b9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#ae4e962ae4108b1150b697ebcc6132bff">MultiIntersection3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23b661e68fee3ab78ca59ccb98bf52b9">intersect</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;boundaryTolerance=<a class="el" href="class_acts_1_1_boundary_tolerance.html#a8f2376046ddf8c108006502775cd1aef">BoundaryTolerance::Infinite</a>(), double tolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>) const =0</td></tr>
@@ -1090,6 +1092,26 @@ Only call this if you need shared ownership of this object.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a Result&lt;Vector2&gt; which can be !ok() if the operation fails </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_cone_surface.html#a3082370f6db11d7bedddbb5fb642792b">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#a3082370f6db11d7bedddbb5fb642792b">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#a3082370f6db11d7bedddbb5fb642792b">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_line_surface.html#ada5c1353b61b76ca4ac82a2d4abed7e1">Acts::LineSurface</a>, <a class="el" href="class_acts_1_1_plane_surface.html#a3082370f6db11d7bedddbb5fb642792b">Acts::PlaneSurface</a>, and <a class="el" href="class_acts_1_1_regular_surface.html#a3082370f6db11d7bedddbb5fb642792b">Acts::RegularSurface</a>.</p>
+
+</div>
+</div>
+<a id="a629edb6765a73f70130000c21fa7415b" name="a629edb6765a73f70130000c21fa7415b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629edb6765a73f70130000c21fa7415b">&#9670;&#160;</a></span>hasMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Surface::hasMaterial </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the surface has an associated material description. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the surface has an associated material, false otherwise </dd></dl>
 
 </div>
 </div>

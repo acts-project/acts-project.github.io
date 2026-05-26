@@ -23,6 +23,7 @@ var class_acts_1_1_surface =
     [ "getSharedPtr", "class_acts_1_1_surface.html#a5a9660305f3ad5c2e6731942206571a8", null ],
     [ "getSharedPtr", "class_acts_1_1_surface.html#a9785fd041382473c9516be99a18535c6", null ],
     [ "globalToLocal", "class_acts_1_1_surface.html#a507a64559bd7cfa030805ae74b5a6dd9", null ],
+    [ "hasMaterial", "class_acts_1_1_surface.html#a629edb6765a73f70130000c21fa7415b", null ],
     [ "insideBounds", "class_acts_1_1_surface.html#a8b2a73e04f09f076f719b5b91cde8a7c", null ],
     [ "intersect", "class_acts_1_1_surface.html#a23b661e68fee3ab78ca59ccb98bf52b9", null ],
     [ "isAlignable", "class_acts_1_1_surface.html#a12d3b34fa4b7d351482864daa32f738d", null ],

@@ -437,7 +437,7 @@ $(function(){initNavTree('_kalman_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>                        result_type&amp; result)<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> precedingMeasurementExists = result.measurementStates &gt; 0;</div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> surfaceIsSensitive = surface.isSensitive();</div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> surfaceHasMaterial = surface.surfaceMaterial() != <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> surfaceHasMaterial = surface.hasMaterial();</div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span> </div>
 <div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>      <span class="comment">// Try to find the surface in the measurement surfaces</span></div>
 <div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>      <span class="keyword">const</span> <span class="keyword">auto</span> sourceLinkIt = inputMeasurements.find(&amp;surface);</div>
@@ -495,7 +495,7 @@ $(function(){initNavTree('_kalman_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>        <span class="comment">// Get and set the type flags</span></div>
 <div class="line"><a id="l00506" name="l00506"></a><span class="lineno">  506</span>        <span class="keyword">auto</span> typeFlags = trackStateProxy.typeFlags();</div>
 <div class="line"><a id="l00507" name="l00507"></a><span class="lineno">  507</span>        typeFlags.setHasParameters();</div>
-<div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>        <span class="keywordflow">if</span> (surface.surfaceMaterial() != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>        <span class="keywordflow">if</span> (surface.hasMaterial()) {</div>
 <div class="line"><a id="l00509" name="l00509"></a><span class="lineno">  509</span>          typeFlags.setHasMaterial();</div>
 <div class="line"><a id="l00510" name="l00510"></a><span class="lineno">  510</span>        }</div>
 <div class="line"><a id="l00511" name="l00511"></a><span class="lineno">  511</span> </div>

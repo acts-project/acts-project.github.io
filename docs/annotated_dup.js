@@ -654,14 +654,14 @@ var annotated_dup =
       [ "PdgExcluder", "struct_acts_fatras_1_1_pdg_excluder.html", "struct_acts_fatras_1_1_pdg_excluder" ],
       [ "PdgSelector", "struct_acts_fatras_1_1_pdg_selector.html", "struct_acts_fatras_1_1_pdg_selector" ],
       [ "PhotonConversion", "class_acts_fatras_1_1_photon_conversion.html", "class_acts_fatras_1_1_photon_conversion" ],
-      [ "PlanarSurfaceDrift", "struct_acts_fatras_1_1_planar_surface_drift.html", "struct_acts_fatras_1_1_planar_surface_drift" ],
-      [ "PlanarSurfaceMask", "struct_acts_fatras_1_1_planar_surface_mask.html", "struct_acts_fatras_1_1_planar_surface_mask" ],
       [ "PointLikeProcess", "struct_acts_fatras_1_1_point_like_process.html", "struct_acts_fatras_1_1_point_like_process" ],
       [ "PositiveSelector", "struct_acts_fatras_1_1_positive_selector.html", "struct_acts_fatras_1_1_positive_selector" ],
       [ "Range", "struct_acts_fatras_1_1_range.html", "struct_acts_fatras_1_1_range" ],
       [ "Segmentizer", "struct_acts_fatras_1_1_segmentizer.html", "struct_acts_fatras_1_1_segmentizer" ],
       [ "SingleParticleSimulation", "struct_acts_fatras_1_1_single_particle_simulation.html", "struct_acts_fatras_1_1_single_particle_simulation" ],
-      [ "SingleParticleSimulationResult", "struct_acts_fatras_1_1_single_particle_simulation_result.html", "struct_acts_fatras_1_1_single_particle_simulation_result" ]
+      [ "SingleParticleSimulationResult", "struct_acts_fatras_1_1_single_particle_simulation_result.html", "struct_acts_fatras_1_1_single_particle_simulation_result" ],
+      [ "SurfaceDrift", "struct_acts_fatras_1_1_surface_drift.html", "struct_acts_fatras_1_1_surface_drift" ],
+      [ "SurfaceMask", "struct_acts_fatras_1_1_surface_mask.html", "struct_acts_fatras_1_1_surface_mask" ]
     ] ],
     [ "ActsPlugins", "namespace_acts_plugins.html", [
       [ "DD4hep", null, [

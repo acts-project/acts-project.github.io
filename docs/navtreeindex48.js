@@ -1,5 +1,9 @@
 var NAVTREEINDEX48 =
 {
+"struct_acts_1_1_atlas_stepper_1_1_state.html#affad2a2c763e535b62e1b6d48646990c":[5,0,0,34,2,1],
+"struct_acts_1_1_atlas_stepper_1_1_state.html#affad2a2c763e535b62e1b6d48646990c":[7,0,0,41,2,1],
+"struct_acts_1_1_axis_boundary_type_tag.html":[5,0,0,40],
+"struct_acts_1_1_axis_boundary_type_tag.html":[7,0,0,47],
 "struct_acts_1_1_axis_direction_reference_generator.html":[5,0,0,41],
 "struct_acts_1_1_axis_direction_reference_generator.html":[7,0,0,48],
 "struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[5,0,0,41,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_cuboid_volume_builder_1_1_config.html#acfb99d5ca661f630a911d7c1fc3b38b3":[5,0,0,85,0,2],
 "struct_acts_1_1_cuboid_volume_builder_1_1_config.html#acfb99d5ca661f630a911d7c1fc3b38b3":[7,0,0,92,0,2],
 "struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html":[5,0,0,85,1],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html":[7,0,0,92,1],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a068f02f68aa0e246b77accb76534be04":[5,0,0,85,1,3],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a068f02f68aa0e246b77accb76534be04":[7,0,0,92,1,3],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a10bf73e1dc5ac5a2ac49fa7144d30bdf":[5,0,0,85,1,4],
-"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a10bf73e1dc5ac5a2ac49fa7144d30bdf":[7,0,0,92,1,4]
+"struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html":[7,0,0,92,1]
 };

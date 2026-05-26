@@ -28,7 +28,7 @@ var searchData=
   ['hashstringdynamic_25',['hashStringDynamic',['../namespace_acts.html#a04217815a63aceaf6ab6d5b64a057cbe',1,'Acts']]],
   ['hasjacobian_26',['hasJacobian',['../class_acts_1_1_track_state_proxy_common.html#a71dc42abdce5c4c3c80a4533abcd3173',1,'Acts::TrackStateProxyCommon::hasJacobian()'],['../class_acts_1_1_any_track_state_proxy.html#aa5db5e594c1e2e4ab5a896eb6ad3239b',1,'Acts::AnyTrackStateProxy::hasJacobian()'],['../class_acts_1_1_track_state_proxy.html#a1ecdfebc5f88dbc52b614157ba961b1f',1,'Acts::TrackStateProxy::hasJacobian()']]],
   ['haskind_27',['hasKind',['../class_acts_1_1_json_kind_dispatcher.html#a0b5cdd77b308b754da2a4ee95403cca4',1,'Acts::JsonKindDispatcher']]],
-  ['hasmaterial_28',['hasMaterial',['../class_acts_1_1_track_state_type_base.html#ac95b3154399e7f1357c00a41d2c0d7d0',1,'Acts::TrackStateTypeBase']]],
+  ['hasmaterial_28',['hasMaterial',['../class_acts_1_1_track_state_type_base.html#ac95b3154399e7f1357c00a41d2c0d7d0',1,'Acts::TrackStateTypeBase::hasMaterial()'],['../class_acts_1_1_tracking_volume.html#a4f257d6e6c34103d0074e6d9e31fc32f',1,'Acts::TrackingVolume::hasMaterial()'],['../class_acts_1_1_surface.html#a629edb6765a73f70130000c21fa7415b',1,'Acts::Surface::hasMaterial()']]],
   ['hasmeasurement_29',['hasMeasurement',['../class_acts_1_1_track_state_type_base.html#a437abf4cd7d99b6641bfc4066b2465ca',1,'Acts::TrackStateTypeBase']]],
   ['hasmutablespacepointcontainer_30',['hasMutableSpacePointContainer',['../class_acts_1_1_seed_container2.html#a34fd2272df051ea64de02915f6dbfe0d',1,'Acts::SeedContainer2']]],
   ['hasnoexpectedhit_31',['hasNoExpectedHit',['../class_acts_1_1_track_state_type_base.html#a78a796e7ad1c9f3410528d2f01fdcae5',1,'Acts::TrackStateTypeBase']]],

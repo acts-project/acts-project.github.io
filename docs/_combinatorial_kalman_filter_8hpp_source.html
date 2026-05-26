@@ -469,7 +469,7 @@ $(function(){initNavTree('_combinatorial_kalman_filter_8hpp_source.html','','');
 <div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span>      <span class="keyword">using </span>PM = <a class="code hl_enumeration" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a>;</div>
 <div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span> </div>
 <div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span>      <span class="keywordtype">bool</span> isSensitive = surface.isSensitive();</div>
-<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>      <span class="keywordtype">bool</span> hasMaterial = surface.surfaceMaterial() != <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>      <span class="keywordtype">bool</span> hasMaterial = surface.hasMaterial();</div>
 <div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>      <span class="keywordtype">bool</span> isMaterialOnly = hasMaterial &amp;&amp; !isSensitive;</div>
 <div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>      <span class="keywordtype">bool</span> expectMeasurements = isSensitive;</div>
 <div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span> </div>
@@ -746,7 +746,7 @@ $(function(){initNavTree('_combinatorial_kalman_filter_8hpp_source.html','','');
 <div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span> </div>
 <div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>      <span class="comment">// Set the track state flags</span></div>
 <div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>      <span class="keyword">auto</span> typeFlags = trackStateProxy.typeFlags();</div>
-<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>      <span class="keywordflow">if</span> (trackStateProxy.referenceSurface().surfaceMaterial() != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>      <span class="keywordflow">if</span> (trackStateProxy.referenceSurface().hasMaterial()) {</div>
 <div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>        typeFlags.setHasMaterial();</div>
 <div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>      }</div>
 <div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>      typeFlags.setHasParameters();</div>

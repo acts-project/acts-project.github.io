@@ -1,5 +1,9 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html":[7,0,0,6,0,2,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[5,0,0,3,0,2,0,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html#af74ac7e2ae6c39eb650bc7fc5c2e3378":[7,0,0,6,0,2,0,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html":[5,0,0,3,0,3],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html":[7,0,0,6,0,3],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1":[5,0,0,3,0,3,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html#a0bb0a43a8213494fd646cafe5e6107a1":[7,0,0,6,0,3,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_3_01holder__t_01_4_01_4.html":[4,9,4,3],
 "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html":[5,0,0,211],
 "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html":[7,0,0,218],
-"struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html":[5,0,0,212],
-"struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html":[7,0,0,219],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[5,0,0,215,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[7,0,0,222,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a0034c68b1d579e90afc7107c65c6a1d0":[5,0,0,215,0,7]
+"struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html":[5,0,0,212]
 };
