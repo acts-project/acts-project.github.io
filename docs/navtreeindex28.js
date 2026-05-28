@@ -1,5 +1,12 @@
 var NAVTREEINDEX28 =
 {
+"class_acts_1_1_seed_finder.html#af1f111b9db07536c22ba1d36dac072c2":[5,0,0,348,2],
+"class_acts_1_1_seed_finder.html#af1f111b9db07536c22ba1d36dac072c2":[7,0,0,355,2],
+"class_acts_1_1_seed_finder_orthogonal.html":[5,0,0,351],
+"class_acts_1_1_seed_finder_orthogonal.html":[7,0,0,358],
+"class_acts_1_1_seed_finder_orthogonal.html#a09c4fee5db4a085aa27b0344cb0537b0":[5,0,0,351,6],
+"class_acts_1_1_seed_finder_orthogonal.html#a09c4fee5db4a085aa27b0344cb0537b0":[7,0,0,358,6],
+"class_acts_1_1_seed_finder_orthogonal.html#a11e69044cbfe12c951e24990b1642049":[5,0,0,351,0],
 "class_acts_1_1_seed_finder_orthogonal.html#a11e69044cbfe12c951e24990b1642049":[7,0,0,358,0],
 "class_acts_1_1_seed_finder_orthogonal.html#a122c8bb518f82b0e5227303f794cc549":[5,0,0,351,2],
 "class_acts_1_1_seed_finder_orthogonal.html#a122c8bb518f82b0e5227303f794cc549":[7,0,0,358,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX28 =
 "class_acts_1_1_space_point_column_proxy.html#a300596c3f7fe904f927931881f2979f8":[5,0,0,364,8],
 "class_acts_1_1_space_point_column_proxy.html#a300596c3f7fe904f927931881f2979f8":[7,0,0,371,8],
 "class_acts_1_1_space_point_column_proxy.html#a3086056c75154df9de4d4d85f818027a":[5,0,0,364,16],
-"class_acts_1_1_space_point_column_proxy.html#a3086056c75154df9de4d4d85f818027a":[7,0,0,371,16],
-"class_acts_1_1_space_point_column_proxy.html#a376c054754ba256459e35c17896e7eb8":[5,0,0,364,12],
-"class_acts_1_1_space_point_column_proxy.html#a376c054754ba256459e35c17896e7eb8":[7,0,0,371,12],
-"class_acts_1_1_space_point_column_proxy.html#a653886d7ea5206e2fd8cd0e5841fd1b9":[5,0,0,364,22],
-"class_acts_1_1_space_point_column_proxy.html#a653886d7ea5206e2fd8cd0e5841fd1b9":[7,0,0,371,22],
-"class_acts_1_1_space_point_column_proxy.html#a798375ac0da8649841ae0ec525d27e35":[5,0,0,364,21],
-"class_acts_1_1_space_point_column_proxy.html#a798375ac0da8649841ae0ec525d27e35":[7,0,0,371,21],
-"class_acts_1_1_space_point_column_proxy.html#a8fa68d87a62a0223094645d7081f1707":[5,0,0,364,5]
+"class_acts_1_1_space_point_column_proxy.html#a3086056c75154df9de4d4d85f818027a":[7,0,0,371,16]
 };

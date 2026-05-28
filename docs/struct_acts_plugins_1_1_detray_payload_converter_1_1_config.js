@@ -10,6 +10,6 @@ var struct_acts_plugins_1_1_detray_payload_converter_1_1_config =
     [ "operator=", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#abf9dcc84aef1f49626e2c9e64078ac68", null ],
     [ "beampipeVolume", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a70906ac1e034fdbdbf105daa346f66d4", null ],
     [ "convertNavigationPolicy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe", null ],
-    [ "convertSurfaceMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a47fffe026bd0ba8c1a5e396205b558fc", null ],
+    [ "convertSurfaceMaterial", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#adbfa19d516a1bc916d8169d1726ec89e", null ],
     [ "sensitiveStrategy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a6366ebf9a368e06a89e88cbe243a6362", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_acts_1_1_interpolated_b_field_map.html#ac0ac336f219458f0879f86e71e40be69":[4,3,1,1,5],
+"class_acts_1_1_interpolated_b_field_map.html#ac0ac336f219458f0879f86e71e40be69":[4,10,0,1,5],
 "class_acts_1_1_interpolated_magnetic_field.html":[4,3,1,2],
 "class_acts_1_1_interpolated_magnetic_field.html":[4,10,0,2],
 "class_acts_1_1_interpolated_magnetic_field.html#a3cf32056aae4723cba811d64199ab174":[4,3,1,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_layer_creator.html#adb2644fb915e3fb3951fe46c3691dca5":[7,0,0,246,4],
 "class_acts_1_1_layer_creator.html#af9bfd3e141f256b010ed63beabe24948":[5,0,0,239,2],
 "class_acts_1_1_layer_creator.html#af9bfd3e141f256b010ed63beabe24948":[7,0,0,246,2],
-"class_acts_1_1_layer_creator.html#afde58c29015c16c22b3c3801c983506f":[5,0,0,239,5],
-"class_acts_1_1_layer_creator.html#afde58c29015c16c22b3c3801c983506f":[7,0,0,246,5],
-"class_acts_1_1_line_bounds.html":[5,0,0,242]
+"class_acts_1_1_layer_creator.html#afde58c29015c16c22b3c3801c983506f":[5,0,0,239,5]
 };

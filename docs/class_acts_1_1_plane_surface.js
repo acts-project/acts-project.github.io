@@ -10,6 +10,7 @@ var class_acts_1_1_plane_surface =
     [ "globalToLocal", "class_acts_1_1_plane_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_plane_surface.html#a04db333d2f1c2d53aa8266c5152455c0", null ],
     [ "intersect", "class_acts_1_1_plane_surface.html#a56dd3d2a9809920051361629e7ba6c49", null ],
+    [ "localAxes", "class_acts_1_1_plane_surface.html#a3c0fe109646a3e38afecb514fc986772", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_plane_surface.html#a88a4a3d9e22a10d9b06e5475b55d06df", null ],
     [ "localToGlobal", "class_acts_1_1_plane_surface.html#acbf202d37c533740d329c6bf36f2b7c9", null ],
     [ "localToGlobal", "class_acts_1_1_plane_surface.html#adfcdc971f3fd4de8049476a3866f88ca", null ],

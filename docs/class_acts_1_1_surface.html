@@ -138,7 +138,7 @@ Inheritance diagram for Acts::Surface:</div>
 <div class="dynheader">
 Collaboration diagram for Acts::Surface:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_surface__coll__graph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_surface__coll__graph.svg" width="100%" height="539"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -165,8 +165,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac94e8ed380531243a14c6de82bd11f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derivative of path length at the geometry constraint or point-of-closest-approach w.r.t.  <br /></td></tr>
 <tr class="memitem:a3b11a3b7680431ec6cd651ff6151e519" id="r_a3b11a3b7680431ec6cd651ff6151e519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b11a3b7680431ec6cd651ff6151e519">assignIsSensitive</a> (bool <a class="el" href="#a76eb5970c457ab4492f6466d4e666f9b">isSensitive</a>)</td></tr>
 <tr class="memdesc:a3b11a3b7680431ec6cd651ff6151e519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign whether the surface is sensitive.  <br /></td></tr>
-<tr class="memitem:af524db996f2812448cc76b37e2f93dde" id="r_af524db996f2812448cc76b37e2f93dde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af524db996f2812448cc76b37e2f93dde">assignSurfaceMaterial</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt; material)</td></tr>
-<tr class="memdesc:af524db996f2812448cc76b37e2f93dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign the surface material description.  <br /></td></tr>
+<tr class="memitem:aadf66a701523315a06572aff7acab340" id="r_aadf66a701523315a06572aff7acab340"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf66a701523315a06572aff7acab340">assignSurfaceMaterial</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt; material)</td></tr>
+<tr class="memdesc:aadf66a701523315a06572aff7acab340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign the surface material description.  <br /></td></tr>
 <tr class="memitem:ae297bb58763450ebbdc546aa45a689c7" id="r_ae297bb58763450ebbdc546aa45a689c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae297bb58763450ebbdc546aa45a689c7">assignSurfacePlacement</a> (const <a class="el" href="class_acts_1_1_surface_placement_base.html">SurfacePlacementBase</a> &amp;placement)</td></tr>
 <tr class="memdesc:ae297bb58763450ebbdc546aa45a689c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign a placement object which may dynamically align the surface in space.  <br /></td></tr>
 <tr class="memitem:a12d207f653122d2d7045f679462389e4" id="r_a12d207f653122d2d7045f679462389e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12d207f653122d2d7045f679462389e4">assignThickness</a> (double thick)</td></tr>
@@ -213,6 +213,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7b2cbad2c5f7f25915035cc0fa2c6e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local to global transformation Generalized local to global transformation for the surface types.  <br /></td></tr>
 <tr class="memitem:ae21355c33b72c2686ba2f8f2839e67f5" id="r_ae21355c33b72c2686ba2f8f2839e67f5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21355c33b72c2686ba2f8f2839e67f5">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:ae21355c33b72c2686ba2f8f2839e67f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for the surface Transform3 by reference In case a detector element is associated the surface transform is just forwarded to the detector element in order to keep the (mis-)alignment cache cetrally handled.  <br /></td></tr>
+<tr class="memitem:ab7b009f0e39a4e99a15a19ffb4154eca" id="r_ab7b009f0e39a4e99a15a19ffb4154eca"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b009f0e39a4e99a15a19ffb4154eca">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp) const</td></tr>
+<tr class="memdesc:ab7b009f0e39a4e99a15a19ffb4154eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for full material description of the Surface.  <br /></td></tr>
+<tr class="memitem:a4922db284a04b01328988a60d3e4b797" id="r_a4922db284a04b01328988a60d3e4b797"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4922db284a04b01328988a60d3e4b797">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp, <a class="el" href="class_acts_1_1_direction.html">Direction</a> pDir, <a class="el" href="namespace_acts.html#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a> mode) const</td></tr>
+<tr class="memdesc:a4922db284a04b01328988a60d3e4b797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for fully scaled material description of the Surface.  <br /></td></tr>
 <tr class="memitem:abec410b88b35540550328ddc307284fc" id="r_abec410b88b35540550328ddc307284fc"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec410b88b35540550328ddc307284fc">name</a> () const =0</td></tr>
 <tr class="memdesc:abec410b88b35540550328ddc307284fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return properly formatted class name.  <br /></td></tr>
 <tr class="memitem:a7aa938fa6385cb956d9b5da75235289a" id="r_a7aa938fa6385cb956d9b5da75235289a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa938fa6385cb956d9b5da75235289a">normal</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;pos, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const =0</td></tr>
@@ -281,13 +285,23 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a362fefd7e074b60b9b2d4595b7e3f198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from SurfacePlacement: Element proxy.  <br /></td></tr>
 <tr class="memitem:a2ae67591c6ce6b42568881be16f29ddc" id="r_a2ae67591c6ce6b42568881be16f29ddc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae67591c6ce6b42568881be16f29ddc">Surface</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity())</td></tr>
 <tr class="memdesc:a2ae67591c6ce6b42568881be16f29ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with Transform3 as a shared object.  <br /></td></tr>
+<tr class="memitem:a8fafa7a2ac57f1c10c18aa1d9021e051" id="r_a8fafa7a2ac57f1c10c18aa1d9021e051"><td class="memItemLeft" align="right" valign="top">virtual std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fafa7a2ac57f1c10c18aa1d9021e051">localAxes</a> () const =0</td></tr>
+<tr class="memdesc:a8fafa7a2ac57f1c10c18aa1d9021e051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local axes of the surface.  <br /></td></tr>
 <tr class="memitem:a10a856c74db9fae99306dd602e6c7e2b" id="r_a10a856c74db9fae99306dd602e6c7e2b"><td class="memItemLeft" align="right" valign="top">virtual std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a856c74db9fae99306dd602e6c7e2b">toStreamImpl</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::ostream &amp;sl) const</td></tr>
 <tr class="memdesc:a10a856c74db9fae99306dd602e6c7e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output Method for std::ostream, to be overloaded by child classes.  <br /></td></tr>
+<tr class="memitem:a27e607f72605d38047bea0a27635fe3c" id="r_a27e607f72605d38047bea0a27635fe3c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e607f72605d38047bea0a27635fe3c">transformSurfaceLocalToMaterialLocal</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;surfaceLocal) const</td></tr>
+<tr class="memdesc:a27e607f72605d38047bea0a27635fe3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform surface local coordinates to material local coordinates.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a14688579dc8bbd516c0a3f264afc17fe" id="r_a14688579dc8bbd516c0a3f264afc17fe"><td class="memItemLeft" align="right" valign="top"><a id="a14688579dc8bbd516c0a3f264afc17fe" name="a14688579dc8bbd516c0a3f264afc17fe"></a>
+std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_surfaceMaterial</b></td></tr>
+<tr class="memdesc:a14688579dc8bbd516c0a3f264afc17fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possibility to attach a material description. <br /></td></tr>
+<tr class="memitem:a59d56906a15fecae749fcb912807e737" id="r_a59d56906a15fecae749fcb912807e737"><td class="memItemLeft" align="right" valign="top"><a id="a59d56906a15fecae749fcb912807e737" name="a59d56906a15fecae749fcb912807e737"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_swapMaterialAxes</b> {false}</td></tr>
+<tr class="memdesc:a59d56906a15fecae749fcb912807e737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to swap the local coordinates for material lookup. <br /></td></tr>
 <tr class="memitem:a99e3c34eb6331004ae29abe7ceb0e0df" id="r_a99e3c34eb6331004ae29abe7ceb0e0df"><td class="memItemLeft" align="right" valign="top"><a id="a99e3c34eb6331004ae29abe7ceb0e0df" name="a99e3c34eb6331004ae29abe7ceb0e0df"></a>
-<a class="el" href="class_acts_1_1_cloneable_ptr.html">CloneablePtr</a>&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_transform</b> {}</td></tr>
+<a class="el" href="class_acts_1_1_cloneable_ptr.html">CloneablePtr</a>&lt; const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_transform</b></td></tr>
 <tr class="memdesc:a99e3c34eb6331004ae29abe7ceb0e0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform3 definition that positions (translation, rotation) the surface in global space. <br /></td></tr>
 <tr class="inherit_header pro_attribs_class_acts_1_1_geometry_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_acts_1_1_geometry_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="class_acts_1_1_geometry_object.html">Acts::GeometryObject</a></td></tr>
 <tr class="memitem:a8670edf1ae6be633b07a2e07f370e1e4 inherit pro_attribs_class_acts_1_1_geometry_object" id="r_a8670edf1ae6be633b07a2e07f370e1e4"><td class="memItemLeft" align="right" valign="top">
@@ -589,19 +603,27 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af524db996f2812448cc76b37e2f93dde" name="af524db996f2812448cc76b37e2f93dde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af524db996f2812448cc76b37e2f93dde">&#9670;&#160;</a></span>assignSurfaceMaterial()</h2>
+<a id="aadf66a701523315a06572aff7acab340" name="aadf66a701523315a06572aff7acab340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf66a701523315a06572aff7acab340">&#9670;&#160;</a></span>assignSurfaceMaterial()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Acts::Surface::assignSurfaceMaterial </td>
+          <td class="memname">virtual void Acts::Surface::assignSurfaceMaterial </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>material</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Assign the surface material description. </p>
@@ -612,6 +634,8 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_cylinder_surface.html#a44ab00bd7e65ba3d0542675852e42e1f">Acts::CylinderSurface</a>.</p>
 
 </div>
 </div>
@@ -1303,6 +1327,36 @@ Only call this if you need shared ownership of this object.</dd></dl>
 
 </div>
 </div>
+<a id="a8fafa7a2ac57f1c10c18aa1d9021e051" name="a8fafa7a2ac57f1c10c18aa1d9021e051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fafa7a2ac57f1c10c18aa1d9021e051">&#9670;&#160;</a></span>localAxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, 2 &gt; Acts::Surface::localAxes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Local axes of the surface. </p>
+<dl class="section return"><dt>Returns</dt><dd>An array of local axes directions </dd></dl>
+
+<p>Implemented in <a class="el" href="class_acts_1_1_cone_surface.html#a6128c26fc43c0c31608f190a4b0d5206">Acts::ConeSurface</a>, <a class="el" href="class_acts_1_1_cylinder_surface.html#ab982aae85e8439eec40460fdacd91645">Acts::CylinderSurface</a>, <a class="el" href="class_acts_1_1_disc_surface.html#a91dd337e282e7ae86bfce1f0648ee038">Acts::DiscSurface</a>, <a class="el" href="class_acts_1_1_line_surface.html#ac75449a46f1bad2e73ded910b9248f31">Acts::LineSurface</a>, and <a class="el" href="class_acts_1_1_plane_surface.html#a3c0fe109646a3e38afecb514fc986772">Acts::PlaneSurface</a>.</p>
+
+</div>
+</div>
 <a id="a14e93dffe68b9794aba1e60976168c14" name="a14e93dffe68b9794aba1e60976168c14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14e93dffe68b9794aba1e60976168c14">&#9670;&#160;</a></span>localCartesianToBoundLocalDerivative()</h2>
 
@@ -1452,6 +1506,91 @@ template&lt;class T, typename... Args&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to the created surface instance </dd></dl>
+
+</div>
+</div>
+<a id="ab7b009f0e39a4e99a15a19ffb4154eca" name="ab7b009f0e39a4e99a15a19ffb4154eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7b009f0e39a4e99a15a19ffb4154eca">&#9670;&#160;</a></span>materialSlab() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp; Acts::Surface::materialSlab </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lp</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return method for full material description of the Surface. </p>
+<ul>
+<li>from local coordinate on the surface</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lp</td><td>is the local position used for the (eventual) lookup</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>const MaterialSlab </dd></dl>
+
+</div>
+</div>
+<a id="a4922db284a04b01328988a60d3e4b797" name="a4922db284a04b01328988a60d3e4b797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4922db284a04b01328988a60d3e4b797">&#9670;&#160;</a></span>materialSlab() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> Acts::Surface::materialSlab </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_direction.html">Direction</a></td>          <td class="paramname"><span class="paramname"><em>pDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return method for fully scaled material description of the Surface. </p>
+<ul>
+<li>from local coordinate on the surface</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lp</td><td>is the local position used for the (eventual) lookup </td></tr>
+    <tr><td class="paramname">pDir</td><td>is the positive direction through the surface </td></tr>
+    <tr><td class="paramname">mode</td><td>is the material update directive</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MaterialSlab </dd></dl>
 
 </div>
 </div>
@@ -1908,6 +2047,42 @@ An internal surface transform can invalidate the extrema in the transformed spac
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>String representation of the surface </dd></dl>
+
+</div>
+</div>
+<a id="a27e607f72605d38047bea0a27635fe3c" name="a27e607f72605d38047bea0a27635fe3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27e607f72605d38047bea0a27635fe3c">&#9670;&#160;</a></span>transformSurfaceLocalToMaterialLocal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> Acts::Surface::transformSurfaceLocalToMaterialLocal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLocal</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transform surface local coordinates to material local coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surfaceLocal</td><td>The local coordinates on the surface </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding local coordinates for material lookup </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_cylinder_surface.html#ab6b4b00966d7c653198f426426696b28">Acts::CylinderSurface</a>.</p>
 
 </div>
 </div>

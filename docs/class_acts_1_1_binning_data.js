@@ -14,6 +14,7 @@ var class_acts_1_1_binning_data =
     [ "nextDirection", "class_acts_1_1_binning_data.html#af6621d1b90e64f64a1764cb96ac5cc7b", null ],
     [ "operator=", "class_acts_1_1_binning_data.html#af5de887cc18dadf05eab1fd957efbe76", null ],
     [ "operator==", "class_acts_1_1_binning_data.html#a151d66b9f5f9aa734cc198f50d297d1f", null ],
+    [ "scale", "class_acts_1_1_binning_data.html#a14327b06d961675fd6b3514748568570", null ],
     [ "search", "class_acts_1_1_binning_data.html#ad746d22b96a0ab57a614bf0fa7e5654a", null ],
     [ "searchGlobal", "class_acts_1_1_binning_data.html#a2a18bda3c7043b4a19897b2384ea1840", null ],
     [ "searchLocal", "class_acts_1_1_binning_data.html#ac2477cd2ab383bf82a970ed460a909fb", null ],

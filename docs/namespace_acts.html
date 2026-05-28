@@ -1975,6 +1975,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:af22a25edcd447beaf9fe79dcf98cd9e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the reference expansion.  <br /></td></tr>
 <tr class="memitem:a692f3bf198b75679e1051ae422c41869" id="r_a692f3bf198b75679e1051ae422c41869"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a692f3bf198b75679e1051ae422c41869">approximateHighlandScattering</a> (float xOverX0)</td></tr>
 <tr class="memdesc:a692f3bf198b75679e1051ae422c41869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Approximate the core width of the projected planar scattering distribution with highland's formula.  <br /></td></tr>
+<tr class="memitem:a38501aefe9b96141626183f8c0861381" id="r_a38501aefe9b96141626183f8c0861381"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38501aefe9b96141626183f8c0861381">axesDirectionName</a> (const std::vector&lt; <a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;manyDir)</td></tr>
+<tr class="memdesc:a38501aefe9b96141626183f8c0861381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of a vector of binning values as a string.  <br /></td></tr>
 <tr class="memitem:a1a37b45a601496b2b6a31387897c1e5a" id="r_a1a37b45a601496b2b6a31387897c1e5a"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </td></tr>
 <tr class="memitem:a1a37b45a601496b2b6a31387897c1e5a template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a37b45a601496b2b6a31387897c1e5a">Axis</a> (<a class="el" href="struct_acts_1_1_axis_boundary_type_tag.html">AxisBoundaryTypeTag</a>&lt; bdt &gt;, double min, double max, std::size_t bins) -&gt; Axis&lt; <a class="el" href="#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;</td></tr>
 <tr class="memdesc:a1a37b45a601496b2b6a31387897c1e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction guide for equidistant axis with specified boundary type.  <br /></td></tr>
@@ -2348,6 +2350,8 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:ad07b2ff48a82de9bd465cbcdacc066a1" id="r_ad07b2ff48a82de9bd465cbcdacc066a1"><td class="memTemplParams" colspan="2">template&lt;typename T, std::size_t D&gt; </td></tr>
 <tr class="memitem:ad07b2ff48a82de9bd465cbcdacc066a1 template"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad07b2ff48a82de9bd465cbcdacc066a1">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="class_acts_1_1_ray.html">Ray</a>&lt; T, D &gt; &amp;ray)</td></tr>
 <tr class="memdesc:ad07b2ff48a82de9bd465cbcdacc066a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the outstream operator.  <br /></td></tr>
+<tr class="memitem:a64d8bbce833eafe10f63612f1d7a512a" id="r_a64d8bbce833eafe10f63612f1d7a512a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d8bbce833eafe10f63612f1d7a512a">operator&lt;&lt;</a> (std::ostream &amp;os, const std::vector&lt; <a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;manyDir)</td></tr>
+<tr class="memdesc:a64d8bbce833eafe10f63612f1d7a512a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output stream operator for a vector of <code>AxisDirection</code>.  <br /></td></tr>
 <tr class="memitem:a143a8d24731524bb6cd89f6cd3891442" id="r_a143a8d24731524bb6cd89f6cd3891442"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a143a8d24731524bb6cd89f6cd3891442">operator&lt;&lt;</a> (std::ostream &amp;os, const std::vector&lt; <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &gt; &amp;a)</td></tr>
 <tr class="memdesc:a143a8d24731524bb6cd89f6cd3891442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for vector of DirectedProtoAxis.  <br /></td></tr>
 <tr class="memitem:a27d200860531f17827d06e26264b903d" id="r_a27d200860531f17827d06e26264b903d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27d200860531f17827d06e26264b903d">operator&lt;&lt;</a> (std::ostream &amp;os, const std::vector&lt; <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &gt; &amp;a)</td></tr>
@@ -3316,7 +3320,7 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_grid.html">Grid&lt;std::vector&lt;std::size_t&gt;</a>,</div>
 <div class="line">         <a class="code hl_class" href="class_acts_1_1_axis.html">Axis&lt;AxisType::Equidistant, AxisBoundaryType::Closed&gt;</a>,</div>
 <div class="line">         <a class="code hl_class" href="class_acts_1_1_axis.html">Axis&lt;AxisType::Equidistant, AxisBoundaryType::Bound&gt;</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_axis_html"><div class="ttname"><a href="class_acts_1_1_axis.html">Acts::Axis</a></div><div class="ttdoc">calculate bin indices from a given binning structure</div><div class="ttdef"><b>Definition</b> AxisDefinitions.hpp:147</div></div>
+<div class="ttc" id="aclass_acts_1_1_axis_html"><div class="ttname"><a href="class_acts_1_1_axis.html">Acts::Axis</a></div><div class="ttdoc">calculate bin indices from a given binning structure</div><div class="ttdef"><b>Definition</b> AxisDefinitions.hpp:135</div></div>
 </div><!-- fragment -->
 <p>Regular cylinder grid in phi and z. </p>
 
@@ -3557,7 +3561,7 @@ template&lt;unsigned int kSize&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    std::function&lt;bool(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx, <a class="code hl_enumeration" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>,</div>
 <div class="line">                       <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>*, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>*)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:53</div></div>
+<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:56</div></div>
 <div class="ttc" id="anamespace_acts_html_a1462738699cb376ae92c59811987f4ea"><div class="ttname"><a href="#a1462738699cb376ae92c59811987f4ea">Acts::AxisDirection</a></div><div class="ttdeci">AxisDirection</div><div class="ttdoc">to specify a local axis direction</div><div class="ttdef"><b>Definition</b> AxisDefinitions.hpp:18</div></div>
 </div><!-- fragment -->
 <p>Function type for comparing two surfaces in a given geometry context and axis direction. </p>
@@ -4979,6 +4983,32 @@ template&lt;typename grid_type&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The approximate scattering angle times momentum in radians*GeV </dd></dl>
+
+</div>
+</div>
+<a id="a38501aefe9b96141626183f8c0861381" name="a38501aefe9b96141626183f8c0861381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38501aefe9b96141626183f8c0861381">&#9670;&#160;</a></span>axesDirectionName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Acts::axesDirectionName </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>manyDir</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the name of a vector of binning values as a string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manyDir</td><td>is the vector of binning values </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the name of the binning value </dd></dl>
 
 </div>
 </div>
@@ -9133,7 +9163,7 @@ template&lt;typename Derived&gt; </div>
 </div>
 </div>
 <a id="a8c289cbcb6bb87a3a4e60b4e968eb225" name="a8c289cbcb6bb87a3a4e60b4e968eb225"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c289cbcb6bb87a3a4e60b4e968eb225">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c289cbcb6bb87a3a4e60b4e968eb225">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9164,7 +9194,7 @@ template&lt;typename Derived&gt; </div>
 </div>
 </div>
 <a id="a28ea8e56599eede759a6ae23bcc4af04" name="a28ea8e56599eede759a6ae23bcc4af04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28ea8e56599eede759a6ae23bcc4af04">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ea8e56599eede759a6ae23bcc4af04">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9195,7 +9225,7 @@ template&lt;typename Derived&gt; </div>
 </div>
 </div>
 <a id="aeedb8d78036b12103c3764910ef88e4c" name="aeedb8d78036b12103c3764910ef88e4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeedb8d78036b12103c3764910ef88e4c">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeedb8d78036b12103c3764910ef88e4c">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9226,7 +9256,7 @@ template&lt;typename Derived&gt; </div>
 </div>
 </div>
 <a id="a606b394839619dca8056f6ca7f7a9cd9" name="a606b394839619dca8056f6ca7f7a9cd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a606b394839619dca8056f6ca7f7a9cd9">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[4/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a606b394839619dca8056f6ca7f7a9cd9">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[4/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9257,7 +9287,7 @@ template&lt;typename Derived&gt; </div>
 </div>
 </div>
 <a id="ad091d6f5ca02eacdd0ecbbb216893287" name="ad091d6f5ca02eacdd0ecbbb216893287"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad091d6f5ca02eacdd0ecbbb216893287">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[5/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad091d6f5ca02eacdd0ecbbb216893287">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[5/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9298,7 +9328,7 @@ template&lt;typename T, typename U, std::size_t V&gt; </div>
 </div>
 </div>
 <a id="aff2f246860b0974632cebefff000f4ae" name="aff2f246860b0974632cebefff000f4ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff2f246860b0974632cebefff000f4ae">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[6/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2f246860b0974632cebefff000f4ae">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[6/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9329,7 +9359,7 @@ template&lt;typename T, typename U, std::size_t V&gt; </div>
 </div>
 </div>
 <a id="a9e78e7ac990dd63dd3acaa80bdb0eb57" name="a9e78e7ac990dd63dd3acaa80bdb0eb57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e78e7ac990dd63dd3acaa80bdb0eb57">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[7/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e78e7ac990dd63dd3acaa80bdb0eb57">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[7/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9360,7 +9390,7 @@ template&lt;typename T, typename U, std::size_t V&gt; </div>
 </div>
 </div>
 <a id="aa12edcaa0d2e0855219568de3447b8f0" name="aa12edcaa0d2e0855219568de3447b8f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa12edcaa0d2e0855219568de3447b8f0">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[8/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12edcaa0d2e0855219568de3447b8f0">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[8/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9391,7 +9421,7 @@ template&lt;typename T, typename U, std::size_t V&gt; </div>
 </div>
 </div>
 <a id="a6892e054d938002cb1cc681d19619ad5" name="a6892e054d938002cb1cc681d19619ad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6892e054d938002cb1cc681d19619ad5">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[9/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6892e054d938002cb1cc681d19619ad5">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[9/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9422,7 +9452,7 @@ template&lt;typename T, typename U, std::size_t V&gt; </div>
 </div>
 </div>
 <a id="ad07b2ff48a82de9bd465cbcdacc066a1" name="ad07b2ff48a82de9bd465cbcdacc066a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad07b2ff48a82de9bd465cbcdacc066a1">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[10/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad07b2ff48a82de9bd465cbcdacc066a1">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[10/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9454,8 +9484,39 @@ template&lt;typename T, std::size_t D&gt; </div>
 
 </div>
 </div>
+<a id="a64d8bbce833eafe10f63612f1d7a512a" name="a64d8bbce833eafe10f63612f1d7a512a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d8bbce833eafe10f63612f1d7a512a">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[11/32]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; Acts::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>os</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>manyDir</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Output stream operator for a vector of <code>AxisDirection</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">os</td><td>is the output stream </td></tr>
+    <tr><td class="paramname">manyDir</td><td>is the vector of axis directions </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the output stream </dd></dl>
+
+</div>
+</div>
 <a id="a143a8d24731524bb6cd89f6cd3891442" name="a143a8d24731524bb6cd89f6cd3891442"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a143a8d24731524bb6cd89f6cd3891442">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[11/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a143a8d24731524bb6cd89f6cd3891442">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[12/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9486,7 +9547,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a27d200860531f17827d06e26264b903d" name="a27d200860531f17827d06e26264b903d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27d200860531f17827d06e26264b903d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[12/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d200860531f17827d06e26264b903d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[13/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9517,7 +9578,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a8dd997fcf86fcd3b1dad24e355dc76ad" name="a8dd997fcf86fcd3b1dad24e355dc76ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dd997fcf86fcd3b1dad24e355dc76ad">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[13/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd997fcf86fcd3b1dad24e355dc76ad">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[14/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9546,7 +9607,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="ae3082f2d05cfd560ec1fdbea0910f489" name="ae3082f2d05cfd560ec1fdbea0910f489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3082f2d05cfd560ec1fdbea0910f489">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[14/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3082f2d05cfd560ec1fdbea0910f489">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[15/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9575,7 +9636,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a9611b708f395b658bf7b6dcc5d003726" name="a9611b708f395b658bf7b6dcc5d003726"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9611b708f395b658bf7b6dcc5d003726">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[15/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9611b708f395b658bf7b6dcc5d003726">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[16/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9606,7 +9667,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a065f7ca1306c553e4f48716204acdb6d" name="a065f7ca1306c553e4f48716204acdb6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a065f7ca1306c553e4f48716204acdb6d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[16/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a065f7ca1306c553e4f48716204acdb6d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[17/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9637,7 +9698,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a4b1f32495595f4b13b24c9acecabadaf" name="a4b1f32495595f4b13b24c9acecabadaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b1f32495595f4b13b24c9acecabadaf">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[17/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b1f32495595f4b13b24c9acecabadaf">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[18/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9666,7 +9727,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a7b065972c1a1757a5262be3fa4ed9e13" name="a7b065972c1a1757a5262be3fa4ed9e13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b065972c1a1757a5262be3fa4ed9e13">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[18/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b065972c1a1757a5262be3fa4ed9e13">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[19/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9697,7 +9758,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a33de5ebd2b70f42d6ea0a11a1d6025a8" name="a33de5ebd2b70f42d6ea0a11a1d6025a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33de5ebd2b70f42d6ea0a11a1d6025a8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[19/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33de5ebd2b70f42d6ea0a11a1d6025a8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[20/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9728,7 +9789,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a772325cf43d5342e1cb392648abc8dfd" name="a772325cf43d5342e1cb392648abc8dfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a772325cf43d5342e1cb392648abc8dfd">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[20/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a772325cf43d5342e1cb392648abc8dfd">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[21/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9759,7 +9820,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a8917a9496557816cad3f7d4744abafc8" name="a8917a9496557816cad3f7d4744abafc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8917a9496557816cad3f7d4744abafc8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[21/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8917a9496557816cad3f7d4744abafc8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[22/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9790,7 +9851,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a08e665476c1a12306164bb3aec8904a1" name="a08e665476c1a12306164bb3aec8904a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08e665476c1a12306164bb3aec8904a1">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[22/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a08e665476c1a12306164bb3aec8904a1">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[23/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9821,7 +9882,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a791f673965f85f8c894dd07a00d8bd61" name="a791f673965f85f8c894dd07a00d8bd61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a791f673965f85f8c894dd07a00d8bd61">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[23/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a791f673965f85f8c894dd07a00d8bd61">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[24/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9852,7 +9913,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a37a7254cbaee8f26160339b7a71879ec" name="a37a7254cbaee8f26160339b7a71879ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37a7254cbaee8f26160339b7a71879ec">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[24/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a7254cbaee8f26160339b7a71879ec">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[25/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9883,7 +9944,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a9a735e14b24e2da1c37ef72e699a65c7" name="a9a735e14b24e2da1c37ef72e699a65c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a735e14b24e2da1c37ef72e699a65c7">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[25/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a735e14b24e2da1c37ef72e699a65c7">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[26/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9914,7 +9975,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="ac927a1726a9183b3cec107a3dde66eba" name="ac927a1726a9183b3cec107a3dde66eba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac927a1726a9183b3cec107a3dde66eba">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[26/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac927a1726a9183b3cec107a3dde66eba">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[27/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9945,7 +10006,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a9c79baf2a53c547a0ca47f008c6230d8" name="a9c79baf2a53c547a0ca47f008c6230d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c79baf2a53c547a0ca47f008c6230d8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[27/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c79baf2a53c547a0ca47f008c6230d8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[28/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9976,7 +10037,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a782bdddc08a3a0fcdd0412cb04976b9a" name="a782bdddc08a3a0fcdd0412cb04976b9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a782bdddc08a3a0fcdd0412cb04976b9a">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[28/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a782bdddc08a3a0fcdd0412cb04976b9a">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[29/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10007,7 +10068,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="acba1f415cfc3ca78946e3da805258994" name="acba1f415cfc3ca78946e3da805258994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acba1f415cfc3ca78946e3da805258994">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[29/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acba1f415cfc3ca78946e3da805258994">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[30/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10038,7 +10099,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="aabd1454e2e9e50489ad2e76fb3b3efc3" name="aabd1454e2e9e50489ad2e76fb3b3efc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabd1454e2e9e50489ad2e76fb3b3efc3">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[30/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd1454e2e9e50489ad2e76fb3b3efc3">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[31/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10069,7 +10130,7 @@ template&lt;typename T, std::size_t D&gt; </div>
 </div>
 </div>
 <a id="a8f4f4d5d7389b079520fdf69e9a827a8" name="a8f4f4d5d7389b079520fdf69e9a827a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f4f4d5d7389b079520fdf69e9a827a8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[31/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f4f4d5d7389b079520fdf69e9a827a8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[32/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

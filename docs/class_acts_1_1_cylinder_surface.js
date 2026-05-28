@@ -7,11 +7,13 @@ var class_acts_1_1_cylinder_surface =
     [ "CylinderSurface", "class_acts_1_1_cylinder_surface.html#aa2dcb9451e19c2dbdacbcd8af884293c", null ],
     [ "alignmentToPathDerivative", "class_acts_1_1_cylinder_surface.html#a99954474b13843d26bba1c3786d38ef4", null ],
     [ "assignSurfaceBounds", "class_acts_1_1_cylinder_surface.html#a939c03474dfadc71a02affae8b0e95d8", null ],
+    [ "assignSurfaceMaterial", "class_acts_1_1_cylinder_surface.html#a44ab00bd7e65ba3d0542675852e42e1f", null ],
     [ "bounds", "class_acts_1_1_cylinder_surface.html#a5f9628e80cfb54bc960ba5d3ce6e7870", null ],
     [ "boundsPtr", "class_acts_1_1_cylinder_surface.html#a178fd5e4cb5842f8607aae4104245d59", null ],
     [ "globalToLocal", "class_acts_1_1_cylinder_surface.html#a3082370f6db11d7bedddbb5fb642792b", null ],
     [ "globalToLocal", "class_acts_1_1_cylinder_surface.html#a380c931f77d165f5b0ae45fd5c8844b7", null ],
     [ "intersect", "class_acts_1_1_cylinder_surface.html#aa8e78f321fa27863bbb84e966253a3bd", null ],
+    [ "localAxes", "class_acts_1_1_cylinder_surface.html#ab982aae85e8439eec40460fdacd91645", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_cylinder_surface.html#adde02d31ce657dd56de7c6499ad50247", null ],
     [ "localToGlobal", "class_acts_1_1_cylinder_surface.html#a553373aefffb7172ae1b3592fb414442", null ],
     [ "localToGlobal", "class_acts_1_1_cylinder_surface.html#adfcdc971f3fd4de8049476a3866f88ca", null ],
@@ -26,6 +28,7 @@ var class_acts_1_1_cylinder_surface =
     [ "referenceFrame", "class_acts_1_1_cylinder_surface.html#a5ec6cae4b0dc3d8bd86d648110036d22", null ],
     [ "referencePosition", "class_acts_1_1_cylinder_surface.html#a1ec919ac4fc7f6dff85f206271d5465f", null ],
     [ "rotSymmetryAxis", "class_acts_1_1_cylinder_surface.html#a407e0037c642f922e2cf7141a4a95dc5", null ],
+    [ "transformSurfaceLocalToMaterialLocal", "class_acts_1_1_cylinder_surface.html#ab6b4b00966d7c653198f426426696b28", null ],
     [ "type", "class_acts_1_1_cylinder_surface.html#ab8367176d30e1fb4bf496f64f8b3b59e", null ],
     [ "m_bounds", "class_acts_1_1_cylinder_surface.html#a3474693828aa2437e217821d615154b0", null ]
 ];

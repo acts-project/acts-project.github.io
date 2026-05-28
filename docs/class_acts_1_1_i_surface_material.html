@@ -150,6 +150,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISurfaceMaterial<
 <tr class="memdesc:a1ccdc97ec06bf80f5030a0d8ebfb90b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:a9e136c68d2f0ef7ad6b085e9ab3a882f" id="r_a9e136c68d2f0ef7ad6b085e9ab3a882f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e136c68d2f0ef7ad6b085e9ab3a882f">factor</a> (<a class="el" href="class_acts_1_1_direction.html">Direction</a> pDir, <a class="el" href="namespace_acts.html#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a> mode) const</td></tr>
 <tr class="memdesc:a9e136c68d2f0ef7ad6b085e9ab3a882f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update pre factor.  <br /></td></tr>
+<tr class="memitem:a2903c22249391ed7398be537f7302452" id="r_a2903c22249391ed7398be537f7302452"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2903c22249391ed7398be537f7302452">localAxisDirections</a> () const =0</td></tr>
+<tr class="memdesc:a2903c22249391ed7398be537f7302452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the axis directions for the local coordinate system.  <br /></td></tr>
 <tr class="memitem:a2164d69cc92644590c54c6c12c35af2f" id="r_a2164d69cc92644590c54c6c12c35af2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#acbcb835a6b809a5f8606de4b53455807">MappingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2164d69cc92644590c54c6c12c35af2f">mappingType</a> () const</td></tr>
 <tr class="memdesc:a2164d69cc92644590c54c6c12c35af2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the type of surface material mapping.  <br /></td></tr>
 <tr class="memitem:a14830ae9c42fbb765f9c0d6a2fd70fff" id="r_a14830ae9c42fbb765f9c0d6a2fd70fff"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14830ae9c42fbb765f9c0d6a2fd70fff">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp) const =0</td></tr>
@@ -283,6 +285,36 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 
 </div>
 </div>
+<a id="a2903c22249391ed7398be537f7302452" name="a2903c22249391ed7398be537f7302452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2903c22249391ed7398be537f7302452">&#9670;&#160;</a></span>localAxisDirections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; Acts::ISurfaceMaterial::localAxisDirections </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the axis directions for the local coordinate system. </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of axis directions defining the local coordinate system </dd></dl>
+
+<p>Implemented in <a class="el" href="class_acts_1_1_binned_surface_material.html#a350eea7578cbcfbf96009960464e115d">Acts::BinnedSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f">Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f">Acts::GridSurfaceMaterialT&lt; grid_type, GloballyIndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f">Acts::GridSurfaceMaterialT&lt; grid_type, GridMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f">Acts::GridSurfaceMaterialT&lt; grid_type, IndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_homogeneous_surface_material.html#ae28af79e7f83446d8ad743e961a37c06">Acts::HomogeneousSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a18dd73713629dd1dfc28e9f8162dcc38">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</a>, and <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a18dd73713629dd1dfc28e9f8162dcc38">Acts::ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;</a>.</p>
+
+</div>
+</div>
 <a id="a2164d69cc92644590c54c6c12c35af2f" name="a2164d69cc92644590c54c6c12c35af2f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2164d69cc92644590c54c6c12c35af2f">&#9670;&#160;</a></span>mappingType()</h2>
 
@@ -328,7 +360,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 
 <p>Return method for full material description of the Surface. </p>
 <ul>
-<li>from local coordinate on the surface</li>
+<li>from local coordinate of the material grid</li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -338,7 +370,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>const MaterialSlab </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_binned_surface_material.html#a806950e71d6ab6dbd49dac89e23d0179">Acts::BinnedSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_type, GloballyIndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_type, GridMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_type, IndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_homogeneous_surface_material.html#affb4b614b78787721f8783033696956e">Acts::HomogeneousSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_proto_surface_material_t.html#ae61a08d1a2de0649c5f1ad47f8efce92">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</a>, and <a class="el" href="class_acts_1_1_proto_surface_material_t.html#ae61a08d1a2de0649c5f1ad47f8efce92">Acts::ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_binned_surface_material.html#a806950e71d6ab6dbd49dac89e23d0179">Acts::BinnedSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_type, GloballyIndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_type, GridMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4">Acts::GridSurfaceMaterialT&lt; grid_type, IndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_homogeneous_surface_material.html#ab40d1ef5f9b7d7f66f9a94c077138456">Acts::HomogeneousSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_proto_surface_material_t.html#ae61a08d1a2de0649c5f1ad47f8efce92">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</a>, and <a class="el" href="class_acts_1_1_proto_surface_material_t.html#ae61a08d1a2de0649c5f1ad47f8efce92">Acts::ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;</a>.</p>
 
 </div>
 </div>
@@ -376,7 +408,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 
 <p>Return method for fully scaled material description of the Surface. </p>
 <ul>
-<li>from local coordinate on the surface</li>
+<li>from local coordinate of the material grid</li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -426,8 +458,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>const MaterialSlab </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_binned_surface_material.html#aeba8fa4594b6b625530fbafc4acf67f8">Acts::BinnedSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_type, GloballyIndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_type, GridMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_type, IndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_homogeneous_surface_material.html#ac069c48a51feb14b2199b3a251b9ab90">Acts::HomogeneousSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a86f4bbc50f2d11387937c9d36d04f418">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</a>, and <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a86f4bbc50f2d11387937c9d36d04f418">Acts::ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_binned_surface_material.html#aeba8fa4594b6b625530fbafc4acf67f8">Acts::BinnedSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_type, GloballyIndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_type, GridMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f">Acts::GridSurfaceMaterialT&lt; grid_type, IndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_homogeneous_surface_material.html#a8717c947629cba84117c2a47ae9a8a5f">Acts::HomogeneousSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a86f4bbc50f2d11387937c9d36d04f418">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</a>, and <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a86f4bbc50f2d11387937c9d36d04f418">Acts::ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;</a>.</p>
 
 </div>
 </div>
@@ -476,6 +509,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MaterialSlab </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_acts_1_1_binned_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::BinnedSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::GridSurfaceMaterialT&lt; grid_type, GloballyIndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::GridSurfaceMaterialT&lt; grid_type, GridMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_grid_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::GridSurfaceMaterialT&lt; grid_type, IndexedMaterialAccessor &gt;</a>, <a class="el" href="class_acts_1_1_homogeneous_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::HomogeneousSurfaceMaterial</a>, <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</a>, and <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;</a>.</p>
 

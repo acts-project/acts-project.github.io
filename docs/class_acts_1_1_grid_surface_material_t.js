@@ -12,6 +12,7 @@ var class_acts_1_1_grid_surface_material_t =
     [ "grid", "class_acts_1_1_grid_surface_material_t.html#a68fa69977a8b5cbed5f3282baf1e72d3", null ],
     [ "gridConstView", "class_acts_1_1_grid_surface_material_t.html#a09995b4aa802d0d6289d09646ada3dc8", null ],
     [ "gridView", "class_acts_1_1_grid_surface_material_t.html#a47a9bdfc8a251631b03a391fab9cb6f9", null ],
+    [ "localAxisDirections", "class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f", null ],
     [ "materialAccessor", "class_acts_1_1_grid_surface_material_t.html#a094ea455d74aa554f4c789f1024addb1", null ],
     [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4", null ],
     [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a57c67692911c878a906319e8a8ffcd5d", null ],

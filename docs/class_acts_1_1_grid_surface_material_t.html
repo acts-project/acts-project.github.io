@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a68fa69977a8b5cbed5f3282baf1e72d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to the grid.  <br /></td></tr>
 <tr class="memitem:a09995b4aa802d0d6289d09646ada3dc8" id="r_a09995b4aa802d0d6289d09646ada3dc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_any_grid_const_view.html">AnyGridConstView</a>&lt; typename material_accessor_t::grid_value_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09995b4aa802d0d6289d09646ada3dc8">gridConstView</a> () const final</td></tr>
 <tr class="memitem:a47a9bdfc8a251631b03a391fab9cb6f9" id="r_a47a9bdfc8a251631b03a391fab9cb6f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_any_grid_view.html">AnyGridView</a>&lt; typename material_accessor_t::grid_value_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47a9bdfc8a251631b03a391fab9cb6f9">gridView</a> () final</td></tr>
+<tr class="memitem:ae9e5a8fb843c9f67d909523d3e0ffa2f" id="r_ae9e5a8fb843c9f67d909523d3e0ffa2f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9e5a8fb843c9f67d909523d3e0ffa2f">localAxisDirections</a> () const final</td></tr>
+<tr class="memdesc:ae9e5a8fb843c9f67d909523d3e0ffa2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the axis directions for the local coordinate system.     <br /></td></tr>
 <tr class="memitem:a094ea455d74aa554f4c789f1024addb1" id="r_a094ea455d74aa554f4c789f1024addb1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#aea44eca868c6b4fbb1e33fb1417ab1e1">material_accessor_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a094ea455d74aa554f4c789f1024addb1">materialAccessor</a> () const final</td></tr>
 <tr class="memdesc:a094ea455d74aa554f4c789f1024addb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to the material accessor.  <br /></td></tr>
 <tr class="memitem:a3105caadc122578e5a9b7e9367cf5eb4" id="r_a3105caadc122578e5a9b7e9367cf5eb4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3105caadc122578e5a9b7e9367cf5eb4">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp) const final</td></tr>
@@ -518,6 +520,38 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
 
 </div>
 </div>
+<a id="ae9e5a8fb843c9f67d909523d3e0ffa2f" name="ae9e5a8fb843c9f67d909523d3e0ffa2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e5a8fb843c9f67d909523d3e0ffa2f">&#9670;&#160;</a></span>localAxisDirections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename grid_t, typename material_accessor_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; <a class="el" href="class_acts_1_1_grid_surface_material_t.html">Acts::GridSurfaceMaterialT</a>&lt; grid_t, material_accessor_t &gt;::localAxisDirections </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the axis directions for the local coordinate system.    </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of axis directions defining the local coordinate system    </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_surface_material.html#a2903c22249391ed7398be537f7302452">Acts::ISurfaceMaterial</a>.</p>
+
+</div>
+</div>
 <a id="a094ea455d74aa554f4c789f1024addb1" name="a094ea455d74aa554f4c789f1024addb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a094ea455d74aa554f4c789f1024addb1">&#9670;&#160;</a></span>materialAccessor()</h2>
 
@@ -577,7 +611,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
 
 <p>Return method for full material description of the Surface.    </p>
 <ul>
-<li>from local coordinate on the surface</li>
+<li>from local coordinate of the material grid</li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -627,7 +661,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
 
 <p>Return method for fully scaled material description of the Surface. </p>
 <ul>
-<li>from local coordinate on the surface</li>
+<li>from local coordinate of the material grid</li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -678,7 +712,8 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>const MaterialSlab    </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>const MaterialSlab </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position. </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4">Acts::ISurfaceMaterial</a>.</p>
 
@@ -731,6 +766,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MaterialSlab </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ISurfaceMaterial</a>.</p>
 

@@ -166,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af5de887cc18dadf05eab1fd957efbe76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <br /></td></tr>
 <tr class="memitem:a151d66b9f5f9aa734cc198f50d297d1f" id="r_a151d66b9f5f9aa734cc198f50d297d1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a151d66b9f5f9aa734cc198f50d297d1f">operator==</a> (const <a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> &amp;bData) const</td></tr>
 <tr class="memdesc:a151d66b9f5f9aa734cc198f50d297d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <br /></td></tr>
+<tr class="memitem:a14327b06d961675fd6b3514748568570" id="r_a14327b06d961675fd6b3514748568570"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14327b06d961675fd6b3514748568570">scale</a> (float factor) const</td></tr>
+<tr class="memdesc:a14327b06d961675fd6b3514748568570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a scaled version of this BinningData.  <br /></td></tr>
 <tr class="memitem:ad746d22b96a0ab57a614bf0fa7e5654a" id="r_ad746d22b96a0ab57a614bf0fa7e5654a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad746d22b96a0ab57a614bf0fa7e5654a">search</a> (float <a class="el" href="#a7f4685d65ed747aef421a3fc74b5b6de">value</a>) const</td></tr>
 <tr class="memdesc:ad746d22b96a0ab57a614bf0fa7e5654a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic search - forwards to correct function pointer.  <br /></td></tr>
 <tr class="memitem:a2a18bda3c7043b4a19897b2384ea1840" id="r_a2a18bda3c7043b4a19897b2384ea1840"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a18bda3c7043b4a19897b2384ea1840">searchGlobal</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position) const</td></tr>
@@ -643,6 +645,32 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a boolean indicating if they are the same </dd></dl>
+
+</div>
+</div>
+<a id="a14327b06d961675fd6b3514748568570" name="a14327b06d961675fd6b3514748568570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14327b06d961675fd6b3514748568570">&#9670;&#160;</a></span>scale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> Acts::BinningData::scale </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>factor</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a scaled version of this BinningData. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factor</td><td>is the scaling factor to be applied to the binning parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a new BinningData object with scaled parameters </dd></dl>
 
 </div>
 </div>

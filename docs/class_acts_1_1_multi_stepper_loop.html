@@ -186,8 +186,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a570b81ba406b8c3eb2451cef7d4a4c15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a magnetic field and a optionally provided Logger TODO this requires that every stepper can be constructed like this...  <br /></td></tr>
 <tr class="memitem:af0cffcbdb894dbb7ae97f435f573b4f3" id="r_af0cffcbdb894dbb7ae97f435f573b4f3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0cffcbdb894dbb7ae97f435f573b4f3">absoluteMomentum</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:af0cffcbdb894dbb7ae97f435f573b4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute momentum accessor.  <br /></td></tr>
-<tr class="memitem:aadb5485323be4c9842111031bc0b5b6b" id="r_aadb5485323be4c9842111031bc0b5b6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a4c04e0a4abab2458b926bbd31a22786a">ComponentProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb5485323be4c9842111031bc0b5b6b">addComponent</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;pars, double weight) const</td></tr>
-<tr class="memdesc:aadb5485323be4c9842111031bc0b5b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a component to the Multistepper.  <br /></td></tr>
+<tr class="memitem:a522969d15b1aa67e89cc696c86f4f17d" id="r_a522969d15b1aa67e89cc696c86f4f17d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c04e0a4abab2458b926bbd31a22786a">ComponentProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a522969d15b1aa67e89cc696c86f4f17d">addComponent</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;pars, double weight) const</td></tr>
+<tr class="memdesc:a522969d15b1aa67e89cc696c86f4f17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a component to the Multistepper.  <br /></td></tr>
 <tr class="memitem:a88eb382ca93bd78bcbe82e430748ec20" id="r_a88eb382ca93bd78bcbe82e430748ec20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#aa595061b27c300a89f436a753f770947">BoundState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88eb382ca93bd78bcbe82e430748ec20">boundState</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, bool transportCov=true, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
 <tr class="memdesc:a88eb382ca93bd78bcbe82e430748ec20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and return the bound state at the current position.  <br /></td></tr>
 <tr class="memitem:a5810edeb15d1733ba6447b4e1cbe7613" id="r_a5810edeb15d1733ba6447b4e1cbe7613"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5810edeb15d1733ba6447b4e1cbe7613">charge</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -424,8 +424,8 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 
 </div>
 </div>
-<a id="aadb5485323be4c9842111031bc0b5b6b" name="aadb5485323be4c9842111031bc0b5b6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadb5485323be4c9842111031bc0b5b6b">&#9670;&#160;</a></span>addComponent()</h2>
+<a id="a522969d15b1aa67e89cc696c86f4f17d" name="a522969d15b1aa67e89cc696c86f4f17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a522969d15b1aa67e89cc696c86f4f17d">&#9670;&#160;</a></span>addComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,7 +433,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a4c04e0a4abab2458b926bbd31a22786a">ComponentProxy</a> &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::addComponent </td>
+          <td class="memname"><a class="el" href="#a4c04e0a4abab2458b926bbd31a22786a">ComponentProxy</a> <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::addComponent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>

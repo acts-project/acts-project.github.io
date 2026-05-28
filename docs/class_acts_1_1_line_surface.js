@@ -14,6 +14,7 @@ var class_acts_1_1_line_surface =
     [ "globalToLocal", "class_acts_1_1_line_surface.html#ada5c1353b61b76ca4ac82a2d4abed7e1", null ],
     [ "intersect", "class_acts_1_1_line_surface.html#a686b1ee92cdfb9f2cc2ff887597677fb", null ],
     [ "lineDirection", "class_acts_1_1_line_surface.html#a565b3c94413322c5ebf1d1544ac0bfdb", null ],
+    [ "localAxes", "class_acts_1_1_line_surface.html#ac75449a46f1bad2e73ded910b9248f31", null ],
     [ "localCartesianToBoundLocalDerivative", "class_acts_1_1_line_surface.html#a825ebcc14668c62530790207d3181664", null ],
     [ "localToGlobal", "class_acts_1_1_line_surface.html#a13518b3f2924e5c014556aab19b0ad42", null ],
     [ "name", "class_acts_1_1_line_surface.html#aff81d6fdb7eba9c7700a6e18b9cf612b", null ],

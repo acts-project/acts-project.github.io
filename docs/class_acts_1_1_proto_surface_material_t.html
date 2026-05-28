@@ -157,6 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9589638a5b17cd3179dc9df4b0ee161d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="memitem:a649325f6be64bb200901aa911cd73337" id="r_a649325f6be64bb200901aa911cd73337"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649325f6be64bb200901aa911cd73337">binning</a> () const</td></tr>
 <tr class="memdesc:a649325f6be64bb200901aa911cd73337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the BinUtility.  <br /></td></tr>
+<tr class="memitem:a18dd73713629dd1dfc28e9f8162dcc38" id="r_a18dd73713629dd1dfc28e9f8162dcc38"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18dd73713629dd1dfc28e9f8162dcc38">localAxisDirections</a> () const final</td></tr>
+<tr class="memdesc:a18dd73713629dd1dfc28e9f8162dcc38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the axis directions for the local coordinate system.     <br /></td></tr>
 <tr class="memitem:ae61a08d1a2de0649c5f1ad47f8efce92" id="r_ae61a08d1a2de0649c5f1ad47f8efce92"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61a08d1a2de0649c5f1ad47f8efce92">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;) const final</td></tr>
 <tr class="memdesc:ae61a08d1a2de0649c5f1ad47f8efce92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for full material description of the Surface - from local coordinates.  <br /></td></tr>
 <tr class="memitem:a57c67692911c878a906319e8a8ffcd5d" id="r_a57c67692911c878a906319e8a8ffcd5d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57c67692911c878a906319e8a8ffcd5d">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp, <a class="el" href="class_acts_1_1_direction.html">Direction</a> pDir, <a class="el" href="namespace_acts.html#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a> mode) const</td></tr>
@@ -339,6 +341,38 @@ template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f5
 
 </div>
 </div>
+<a id="a18dd73713629dd1dfc28e9f8162dcc38" name="a18dd73713629dd1dfc28e9f8162dcc38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18dd73713629dd1dfc28e9f8162dcc38">&#9670;&#160;</a></span>localAxisDirections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; <a class="el" href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a>&lt; <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &gt;::localAxisDirections </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the axis directions for the local coordinate system.    </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector of axis directions defining the local coordinate system    </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_surface_material.html#a2903c22249391ed7398be537f7302452">Acts::ISurfaceMaterial</a>.</p>
+
+</div>
+</div>
 <a id="ae61a08d1a2de0649c5f1ad47f8efce92" name="ae61a08d1a2de0649c5f1ad47f8efce92"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae61a08d1a2de0649c5f1ad47f8efce92">&#9670;&#160;</a></span>materialSlab() <span class="overload">[1/4]</span></h2>
 
@@ -407,7 +441,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f5
 
 <p>Return method for fully scaled material description of the Surface. </p>
 <ul>
-<li>from local coordinate on the surface</li>
+<li>from local coordinate of the material grid</li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -502,6 +536,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f5
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MaterialSlab </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ISurfaceMaterial</a>.</p>
 

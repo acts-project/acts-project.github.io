@@ -5,6 +5,7 @@ var class_acts_1_1_i_surface_material =
     [ "ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#aa2c422b472389baa8c683fe4e38d67a5", null ],
     [ "~ISurfaceMaterial", "class_acts_1_1_i_surface_material.html#a1ccdc97ec06bf80f5030a0d8ebfb90b5", null ],
     [ "factor", "class_acts_1_1_i_surface_material.html#a9e136c68d2f0ef7ad6b085e9ab3a882f", null ],
+    [ "localAxisDirections", "class_acts_1_1_i_surface_material.html#a2903c22249391ed7398be537f7302452", null ],
     [ "mappingType", "class_acts_1_1_i_surface_material.html#a2164d69cc92644590c54c6c12c35af2f", null ],
     [ "materialSlab", "class_acts_1_1_i_surface_material.html#a14830ae9c42fbb765f9c0d6a2fd70fff", null ],
     [ "materialSlab", "class_acts_1_1_i_surface_material.html#a57c67692911c878a906319e8a8ffcd5d", null ],
