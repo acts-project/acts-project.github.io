@@ -2484,12 +2484,12 @@ requires (FullSize &lt;= 8)</td></tr>
 requires (N &gt; 1)</td></tr>
 <tr class="memitem:a53977e204b4bd2fafd0c06c26ab2332a template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::size_t, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53977e204b4bd2fafd0c06c26ab2332a">symMatIndices</a> (const std::size_t k)</td></tr>
 <tr class="memdesc:a53977e204b4bd2fafd0c06c26ab2332a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map an unrolled vector index to the indices of the lower triangular part of a symmetric N x N matrix.  <br /></td></tr>
-<tr class="memitem:a41bb20848824690a2a72250980a81e4e" id="r_a41bb20848824690a2a72250980a81e4e"><td class="memTemplParams" colspan="2">template&lt;template&lt; std::size_t &gt; class Callable, std::size_t N, std::size_t NMAX, typename... Args&gt; </td></tr>
-<tr class="memitem:a41bb20848824690a2a72250980a81e4e template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bb20848824690a2a72250980a81e4e">template_switch</a> (std::size_t v, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a41bb20848824690a2a72250980a81e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch a call based on a runtime value on a function taking the value at compile time.  <br /></td></tr>
-<tr class="memitem:a508ee0f24c070e5785bb517a4b449e69" id="r_a508ee0f24c070e5785bb517a4b449e69"><td class="memTemplParams" colspan="2">template&lt;std::size_t N, std::size_t NMAX, typename Lambda, typename... Args&gt; </td></tr>
-<tr class="memitem:a508ee0f24c070e5785bb517a4b449e69 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a508ee0f24c070e5785bb517a4b449e69">template_switch_lambda</a> (std::size_t v, Lambda &amp;&amp;func, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a508ee0f24c070e5785bb517a4b449e69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alternative version of <code>template_switch</code> which accepts a generic lambda and communicates the dimension via an integral constant type.  <br /></td></tr>
+<tr class="memitem:ad42b17ca3a4a05ad5b2b364c86d5492e" id="r_ad42b17ca3a4a05ad5b2b364c86d5492e"><td class="memTemplParams" colspan="2">template&lt;template&lt; std::size_t &gt; class Callable, std::size_t N, std::size_t NMAX, typename... Args&gt; </td></tr>
+<tr class="memitem:ad42b17ca3a4a05ad5b2b364c86d5492e template"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad42b17ca3a4a05ad5b2b364c86d5492e">template_switch</a> (std::size_t v, Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:ad42b17ca3a4a05ad5b2b364c86d5492e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatch a call based on a runtime value on a function taking the value at compile time.  <br /></td></tr>
+<tr class="memitem:ac54339cd296b653b08707f6f917a2cfc" id="r_ac54339cd296b653b08707f6f917a2cfc"><td class="memTemplParams" colspan="2">template&lt;std::size_t N, std::size_t NMAX, typename Lambda, typename... Args&gt; </td></tr>
+<tr class="memitem:ac54339cd296b653b08707f6f917a2cfc template"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac54339cd296b653b08707f6f917a2cfc">template_switch_lambda</a> (std::size_t v, Lambda &amp;&amp;func, Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:ac54339cd296b653b08707f6f917a2cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alternative version of <code>template_switch</code> which accepts a generic lambda and communicates the dimension via an integral constant type.  <br /></td></tr>
 <tr class="memitem:ga21008d4899b84f5e09b90b3414557299" id="r_ga21008d4899b84f5e09b90b3414557299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga21008d4899b84f5e09b90b3414557299">to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume)</td></tr>
 <tr class="memdesc:ga21008d4899b84f5e09b90b3414557299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert TrackingVolume to JSON.  <br /></td></tr>
 <tr class="memitem:ga0180294a7f0ba9cf68cfe12f157c86e5" id="r_ga0180294a7f0ba9cf68cfe12f157c86e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga0180294a7f0ba9cf68cfe12f157c86e5">to_json</a> (nlohmann::json &amp;j, const <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
@@ -11246,8 +11246,8 @@ requires (N &gt; 1)</div>
 
 </div>
 </div>
-<a id="a41bb20848824690a2a72250980a81e4e" name="a41bb20848824690a2a72250980a81e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41bb20848824690a2a72250980a81e4e">&#9670;&#160;</a></span>template_switch()</h2>
+<a id="ad42b17ca3a4a05ad5b2b364c86d5492e" name="ad42b17ca3a4a05ad5b2b364c86d5492e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad42b17ca3a4a05ad5b2b364c86d5492e">&#9670;&#160;</a></span>template_switch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11255,7 +11255,7 @@ requires (N &gt; 1)</div>
 template&lt;template&lt; std::size_t &gt; class Callable, std::size_t N, std::size_t NMAX, typename... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto Acts::template_switch </td>
+          <td class="memname">decltype(auto) Acts::template_switch </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
@@ -11289,8 +11289,8 @@ template&lt;template&lt; std::size_t &gt; class Callable, std::size_t N, std::si
 
 </div>
 </div>
-<a id="a508ee0f24c070e5785bb517a4b449e69" name="a508ee0f24c070e5785bb517a4b449e69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a508ee0f24c070e5785bb517a4b449e69">&#9670;&#160;</a></span>template_switch_lambda()</h2>
+<a id="ac54339cd296b653b08707f6f917a2cfc" name="ac54339cd296b653b08707f6f917a2cfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac54339cd296b653b08707f6f917a2cfc">&#9670;&#160;</a></span>template_switch_lambda()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11298,7 +11298,7 @@ template&lt;template&lt; std::size_t &gt; class Callable, std::size_t N, std::si
 template&lt;std::size_t N, std::size_t NMAX, typename Lambda, typename... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto Acts::template_switch_lambda </td>
+          <td class="memname">decltype(auto) Acts::template_switch_lambda </td>
           <td>(</td>
           <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
