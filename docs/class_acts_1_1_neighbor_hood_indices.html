@@ -126,10 +126,10 @@ $(function(){initNavTree('class_acts_1_1_neighbor_hood_indices.html','','class_a
 </div><!--header-->
 <div class="contents">
 
-<p>Iterable indices for neighborhood lookups with optional wrap-around.  
+<p>This object can be iterated to produce up to two sequences of integer indices, corresponding to the half-open integer ranges [begin1, end1[ and [begin2, end2[.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_axis_8hpp_source.html">Acts/Utilities/Axis.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_neighbor_hood_indices_8hpp_source.html">Acts/Utilities/NeighborHoodIndices.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -152,7 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a39367fdcb885273b129852706638be36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total number of indices in the sequence.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Iterable indices for neighborhood lookups with optional wrap-around. </p>
+<div class="textblock"><p>This object can be iterated to produce up to two sequences of integer indices, corresponding to the half-open integer ranges [begin1, end1[ and [begin2, end2[. </p>
+<p>The goal is to emulate the effect of enumerating a range of neighbor indices on an axis (which may go out of bounds and wrap around since we have AxisBoundaryType::Closed), inserting them into an std::vector, and discarding duplicates, without paying the price of duplicate removal and dynamic memory allocation in hot magnetic field interpolation code.</p>
+<p>Iterable indices for neighborhood lookups with optional wrap-around. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a66aa7ed93759cb0c6bde2ed60715ba73" name="a66aa7ed93759cb0c6bde2ed60715ba73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66aa7ed93759cb0c6bde2ed60715ba73">&#9670;&#160;</a></span>NeighborHoodIndices() <span class="overload">[1/2]</span></h2>
