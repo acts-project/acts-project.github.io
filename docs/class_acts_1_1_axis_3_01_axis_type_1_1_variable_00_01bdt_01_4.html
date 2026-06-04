@@ -144,7 +144,9 @@ Collaboration diagram for Acts::Axis&lt; AxisType::Variable, bdt &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a490e80e8b030aa051b2e4a8c4b256473" id="r_a490e80e8b030aa051b2e4a8c4b256473"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a490e80e8b030aa051b2e4a8c4b256473">Axis</a> (<a class="el" href="struct_acts_1_1_axis_boundary_type_tag.html">AxisBoundaryTypeTag</a>&lt; bdt &gt; typeTag, std::vector&lt; double &gt; binEdges)</td></tr>
+<tr class="memdesc:a490e80e8b030aa051b2e4a8c4b256473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binning structure with <code>nBins</code> variable-sized bins from the given bin boundaries.  <br /></td></tr>
 <tr class="memitem:a2f554b0913c385d36cdaddfbc20c3213" id="r_a2f554b0913c385d36cdaddfbc20c3213"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f554b0913c385d36cdaddfbc20c3213">Axis</a> (std::vector&lt; double &gt; binEdges)</td></tr>
+<tr class="memdesc:a2f554b0913c385d36cdaddfbc20c3213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binning structure with <code>nBins</code> variable-sized bins from the given bin boundaries.  <br /></td></tr>
 <tr class="memitem:a024d7171d38884c7573cb5188160b4e7" id="r_a024d7171d38884c7573cb5188160b4e7"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a024d7171d38884c7573cb5188160b4e7">getBin</a> (double x) const final</td></tr>
 <tr class="memdesc:a024d7171d38884c7573cb5188160b4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get corresponding bin index for given coordinate  <br /></td></tr>
 <tr class="memitem:aacc92f35dcd9bf0f5ae474cd923466e2" id="r_aacc92f35dcd9bf0f5ae474cd923466e2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacc92f35dcd9bf0f5ae474cd923466e2">getBinCenter</a> (std::size_t bin) const</td></tr>
@@ -243,16 +245,17 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
+
+<p>Create a binning structure with <code>nBins</code> variable-sized bins from the given bin boundaries. </p>
+<p><code>nBins</code> is given by the number of bin edges reduced by one. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">binEdges</td><td>vector of bin edges </td></tr>
+    <tr><td class="paramname">binEdges</td><td>vector of bin edges </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>binEdges</code> must be strictly sorted in ascending order. </dd>
 <dd>
-<code>binEdges</code> must contain at least two entries.</dd></dl>
-<p>Create a binning structure with <code>nBins</code> variable-sized bins from the given bin boundaries. <code>nBins</code> is given by the number of bin edges reduced by one. </p>
+<code>binEdges</code> must contain at least two entries. </dd></dl>
 
 </div>
 </div>
@@ -276,17 +279,18 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
+
+<p>Create a binning structure with <code>nBins</code> variable-sized bins from the given bin boundaries. </p>
+<p><code>nBins</code> is given by the number of bin edges reduced by one. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">typeTag</td><td>boundary type tag </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">binEdges</td><td>vector of bin edges </td></tr>
+    <tr><td class="paramname">typeTag</td><td>boundary type tag </td></tr>
+    <tr><td class="paramname">binEdges</td><td>vector of bin edges </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>binEdges</code> must be strictly sorted in ascending order. </dd>
 <dd>
-<code>binEdges</code> must contain at least two entries.</dd></dl>
-<p>Create a binning structure with <code>nBins</code> variable-sized bins from the given bin boundaries. <code>nBins</code> is given by the number of bin edges reduced by one. </p>
+<code>binEdges</code> must contain at least two entries. </dd></dl>
 
 </div>
 </div>
@@ -319,11 +323,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <p>get corresponding bin index for given coordinate </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>input coordinate </td></tr>
+    <tr><td class="paramname">x</td><td>input coordinate </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>index of bin containing the given value</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>index of bin containing the given value </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Bin intervals are defined with closed lower bounds and open upper bounds, that is \(l &lt;= x &lt; u\) if the value <code>x</code> lies within a bin with lower bound <code>l</code> and upper bound <code>u</code>. </dd>
 <dd>
 Bin indices start at <code>1</code>. The underflow bin has the index <code>0</code> while the index <span class="tt">nBins + 1</span> indicates the overflow bin . </dd></dl>
@@ -352,11 +356,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <p>get bin center </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>index of bin </td></tr>
+    <tr><td class="paramname">bin</td><td>index of bin </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bin center position</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bin center position </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding under-/overflow bins), i.e. \(1 \le \text{bin} \le \text{nBins}\) </dd></dl>
 
 </div>
@@ -413,12 +417,12 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <p>get lower bound of bin </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>index of bin </td></tr>
+    <tr><td class="paramname">bin</td><td>index of bin </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>lower bin boundary</dd></dl>
-<dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding the underflow bin), i.e. \(1 \le \text{bin} \le \text{nBins} + 1\)</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>lower bin boundary </dd></dl>
+<dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding the underflow bin), i.e. \(1 \le \text{bin} \le \text{nBins} + 1\) </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Bin intervals have a closed lower bound, i.e. the lower boundary belongs to the bin with the given bin index. </dd></dl>
 
 </div>
@@ -443,12 +447,12 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <p>get upper bound of bin </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>index of bin </td></tr>
+    <tr><td class="paramname">bin</td><td>index of bin </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>upper bin boundary</dd></dl>
-<dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding the overflow bin), i.e. \(0 \le \text{bin} \le \text{nBins}\)</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>upper bin boundary </dd></dl>
+<dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding the overflow bin), i.e. \(0 \le \text{bin} \le \text{nBins}\) </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Bin intervals have an open upper bound, i.e. the upper boundary does <b>not</b> belong to the bin with the given bin index. </dd></dl>
 
 </div>
@@ -473,11 +477,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <p>get bin width </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>index of bin </td></tr>
+    <tr><td class="paramname">bin</td><td>index of bin </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>width of given bin</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>width of given bin </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding under-/overflow bins), i.e. \(1 \le \text{bin} \le \text{nBins}\) </dd></dl>
 
 </div>
@@ -694,7 +698,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <p>check whether value is inside axis limits </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>The value to check</td></tr>
+    <tr><td class="paramname">x</td><td>The value to check </td></tr>
   </table>
   </dd>
 </dl>
@@ -757,11 +761,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Get size bins which neighbor the one given. </p>
-<p>This is the version for Closed</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This is the version for Closed. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>requested bin index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sizes</td><td>how many neighboring bins (up/down) </td></tr>
+    <tr><td class="paramname">idx</td><td>requested bin index </td></tr>
+    <tr><td class="paramname">sizes</td><td>how many neighboring bins (up/down) </td></tr>
   </table>
   </dd>
 </dl>
@@ -792,11 +795,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Get size bins which neighbor the one given. </p>
-<p>This is the version for Bound</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This is the version for Bound. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>requested bin index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sizes</td><td>how many neighboring bins (up/down) </td></tr>
+    <tr><td class="paramname">idx</td><td>requested bin index </td></tr>
+    <tr><td class="paramname">sizes</td><td>how many neighboring bins (up/down) </td></tr>
   </table>
   </dd>
 </dl>
@@ -827,11 +829,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Get size bins which neighbor the one given. </p>
-<p>This is the version for Open</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This is the version for Open. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>requested bin index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">sizes</td><td>how many neighboring bins (up/down) </td></tr>
+    <tr><td class="paramname">idx</td><td>requested bin index </td></tr>
+    <tr><td class="paramname">sizes</td><td>how many neighboring bins (up/down) </td></tr>
   </table>
   </dd>
 </dl>
@@ -862,11 +863,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Get size bins which neighbor the one given. </p>
-<p>Generic overload with symmetric size</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Generic overload with symmetric size. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>requested bin index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>how many neighboring bins </td></tr>
+    <tr><td class="paramname">idx</td><td>requested bin index </td></tr>
+    <tr><td class="paramname">size</td><td>how many neighboring bins </td></tr>
   </table>
   </dd>
 </dl>
@@ -929,10 +929,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Converts bin index into a valid one for this axis. </p>
-<dl class="section note"><dt>Note</dt><dd>Closed: bin index wraps around to other side</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Closed: bin index wraps around to other side </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>The bin to wrap </td></tr>
+    <tr><td class="paramname">bin</td><td>The bin to wrap </td></tr>
   </table>
   </dd>
 </dl>
@@ -958,10 +958,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Converts bin index into a valid one for this axis. </p>
-<dl class="section note"><dt>Note</dt><dd>Bound: bin index is clamped to [1, nBins]</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Bound: bin index is clamped to [1, nBins] </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>The bin to wrap </td></tr>
+    <tr><td class="paramname">bin</td><td>The bin to wrap </td></tr>
   </table>
   </dd>
 </dl>
@@ -987,10 +987,10 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </div><div class="memdoc">
 
 <p>Converts bin index into a valid one for this axis. </p>
-<dl class="section note"><dt>Note</dt><dd>Open: bin index is clamped to [0, nBins+1]</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Open: bin index is clamped to [0, nBins+1] </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>The bin to wrap </td></tr>
+    <tr><td class="paramname">bin</td><td>The bin to wrap </td></tr>
   </table>
   </dd>
 </dl>
