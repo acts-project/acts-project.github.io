@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#acdeeb46bbbf8347db95739ba3e6fdf8b":[7,0,0,392,2,13],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#ad66b7f9630347af1da282853429cb5e6":[5,0,0,385,2,0],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#ad66b7f9630347af1da282853429cb5e6":[7,0,0,392,2,0],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#ada9174f9850de76926d6f8a43089a627":[5,0,0,385,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_track_at_vertex.html#a0448901dd21c0fe208a46b5691815866":[7,0,0,408,8],
 "struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[5,0,0,401,3],
 "struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[7,0,0,408,3],
-"struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[5,0,0,401,2],
-"struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[7,0,0,408,2]
+"struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[5,0,0,401,2]
 };

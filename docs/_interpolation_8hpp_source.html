@@ -128,32 +128,62 @@ $(function(){initNavTree('_interpolation_8hpp_source.html','',''); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Acts/Definitions/Algebra.hpp&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Acts/Utilities/detail/interpolation_impl.hpp&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;array&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;array&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;bit&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a> {</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span>Concepts {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">T</a>, std::size_t N, <span class="keyword">class </span>Point1, <span class="keyword">class </span>Point2 = Point1,</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>          <span class="keyword">class </span>Point3 = Point2&gt;</div>
-<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="namespace_acts.html#a3caf69a4c80cf869115afbab91cd8163">   76</a></span><span class="keyword">inline</span> T <a class="code hl_function" href="namespace_acts.html#a3caf69a4c80cf869115afbab91cd8163">interpolate</a>(<span class="keyword">const</span> Point1&amp; position, <span class="keyword">const</span> Point2&amp; lowerCorner,</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                     <span class="keyword">const</span> Point3&amp; upperCorner, <span class="keyword">const</span> std::array&lt;T, N&gt;&amp; values)</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keyword">requires</span>(Concepts::interpolatable&lt;T, Point1, Point2, Point3&gt;)</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>{</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordflow">return</span> detail::interpolate_impl&lt;T, Point1, Point2, Point3,</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>                                  detail::get_dimension&lt;N&gt;::value - 1,</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                                  N&gt;::run(position, lowerCorner, upperCorner,</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                                          values);</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>}</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, std::<span class="keywordtype">size_t</span> N, <span class="keyword">typename</span> P1, <span class="keyword">typename</span> P2, <span class="keyword">typename</span> P3&gt;</div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="concept_acts_1_1_concepts_1_1_interpolatable.html">   30</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_concepts_1_1_interpolatable.html">Interpolatable</a> = <span class="keyword">requires</span> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  std::has_single_bit(N);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    std::declval&lt;double&gt;() * std::declval&lt;T&gt;() +</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        std::declval&lt;double&gt;() * std::declval&lt;T&gt;()</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  } -&gt; std::convertible_to&lt;T&gt;;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  { std::declval&lt;P1&gt;()[0] } -&gt; std::convertible_to&lt;double&gt;;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  { std::declval&lt;P2&gt;()[0] } -&gt; std::convertible_to&lt;double&gt;;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  { std::declval&lt;P3&gt;()[0] } -&gt; std::convertible_to&lt;double&gt;;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
 </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="ttc" id="anamespace_acts_1_1_unit_constants_html_ae1a6a8868aedfe9a2fa3c3d6d0fae230"><div class="ttname"><a href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">Acts::UnitConstants::T</a></div><div class="ttdeci">constexpr double T</div><div class="ttdoc">Magnetic field, native unit (eV*s)/(e*m²).</div><div class="ttdef"><b>Definition</b> Units.hpp:173</div></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}  <span class="comment">// namespace Concepts</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, std::size_t N, <span class="keyword">class </span>Point1, <span class="keyword">class </span>Point2 = Point1,</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>          <span class="keyword">class </span>Point3 = Point2&gt;</div>
+<div class="foldopen" id="foldopen00098" data-start="{" data-end="}">
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="namespace_acts.html#aeab511efc179dee3e1a7335388e6b5a8">   98</a></span>T <a class="code hl_function" href="namespace_acts.html#aeab511efc179dee3e1a7335388e6b5a8">interpolate</a>(<span class="keyword">const</span> Point1&amp; point, <span class="keyword">const</span> Point2&amp; lowerCorner,</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>              <span class="keyword">const</span> Point3&amp; upperCorner, <span class="keyword">const</span> std::array&lt;T, N&gt;&amp; values)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keyword">requires</span> <a class="code hl_concept" href="concept_acts_1_1_concepts_1_1_interpolatable.html">Concepts::Interpolatable&lt;T, N, Point1, Point2, Point3&gt;</a></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>{</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keyword">static</span> <span class="keyword">constexpr</span> std::size_t D = std::bit_width(N) - 1;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keyword">static</span> <span class="keyword">constexpr</span> std::size_t I = D - 1;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="comment">// get distance to lower boundary relative to total bin width</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> f =</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>      (point[I] - lowerCorner[I]) / (upperCorner[I] - lowerCorner[I]);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  assert(f &gt;= 0 &amp;&amp; f &lt;= 1 &amp;&amp; <span class="stringliteral">&quot;point must be inside the given hyper box&quot;</span>);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  std::array&lt;T, N / 2&gt; newValues{};</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; N / 2; ++i) {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    newValues[i] = (1 - f) * values[2 * i] + f * values[2 * i + 1];</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  }</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (D == 1) {</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordflow">return</span> newValues[0];</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_acts.html#aeab511efc179dee3e1a7335388e6b5a8">interpolate</a>(point, lowerCorner, upperCorner, newValues);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  }</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
+</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="ttc" id="aconcept_acts_1_1_concepts_1_1_interpolatable_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1_interpolatable.html">Acts::Concepts::Interpolatable</a></div><div class="ttdoc">check types for requirements needed by interpolation</div><div class="ttdef"><b>Definition</b> Interpolation.hpp:30</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="anamespace_acts_html_a3caf69a4c80cf869115afbab91cd8163"><div class="ttname"><a href="namespace_acts.html#a3caf69a4c80cf869115afbab91cd8163">Acts::interpolate</a></div><div class="ttdeci">T interpolate(const Point1 &amp;position, const Point2 &amp;lowerCorner, const Point3 &amp;upperCorner, const std::array&lt; T, N &gt; &amp;values)</div><div class="ttdoc">performs linear interpolation inside a hyper box</div><div class="ttdef"><b>Definition</b> Interpolation.hpp:76</div></div>
+<div class="ttc" id="anamespace_acts_html_aeab511efc179dee3e1a7335388e6b5a8"><div class="ttname"><a href="namespace_acts.html#aeab511efc179dee3e1a7335388e6b5a8">Acts::interpolate</a></div><div class="ttdeci">T interpolate(const Point1 &amp;point, const Point2 &amp;lowerCorner, const Point3 &amp;upperCorner, const std::array&lt; T, N &gt; &amp;values)</div><div class="ttdoc">performs linear interpolation inside a hyper box</div><div class="ttdef"><b>Definition</b> Interpolation.hpp:98</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

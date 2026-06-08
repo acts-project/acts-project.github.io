@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[7,0,0,6,0,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[5,0,0,3,0,0,0,4],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[7,0,0,6,0,0,0,4],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[5,0,0,3,0,0,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_interpolated_material_map_1_1_cache.html":[4,3,2,17,0],
 "struct_acts_1_1_interpolated_material_map_1_1_cache.html#acb0bf22899fd4caa0f5daa3985187509":[4,3,2,17,0,0],
 "struct_acts_1_1_interpolated_material_map_1_1_cache.html#aee4de0ac7b3e281317d6d19a5e3f51da":[4,3,2,17,0,1],
-"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,0,0,201,0],
-"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[7,0,0,208,0]
+"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,0,0,201,0]
 };

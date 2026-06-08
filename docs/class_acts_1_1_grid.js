@@ -37,7 +37,7 @@ var class_acts_1_1_grid =
     [ "globalBinFromFromLowerLeftEdge", "class_acts_1_1_grid.html#afb105ce870c0c8acea272ddace5ee921", null ],
     [ "globalBinFromLocalBins", "class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0", null ],
     [ "globalBinFromPosition", "class_acts_1_1_grid.html#af134da2f418beee5f6f1836ad1592d0e", null ],
-    [ "interpolate", "class_acts_1_1_grid.html#aad73ed2f33c6af7fb37806dd7ab7d31b", null ],
+    [ "interpolate", "class_acts_1_1_grid.html#af49c0c6417445480be84589de0f990f5", null ],
     [ "isInside", "class_acts_1_1_grid.html#a15d5e76b3a4629075b580cadab4eb443", null ],
     [ "localBinsFromGlobalBin", "class_acts_1_1_grid.html#adde7943b195bb3ff16aa6fb96e66961b", null ],
     [ "localBinsFromLowerLeftEdge", "class_acts_1_1_grid.html#ad1f5486fcfa88829dd10439fd7a302e4", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_actor_result_type_extractor.html":[7,0,0,21],
 "struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[5,0,0,14,0],
 "struct_acts_1_1_actor_result_type_extractor.html#a211e3decc3d5932beedec0df869c4fef":[7,0,0,21,0],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html":[5,0,0,15,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_atlas_stepper_1_1_state.html#ab04e4fd5b28119c3690f0f8798943565":[5,0,0,34,2,21],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#ab04e4fd5b28119c3690f0f8798943565":[7,0,0,41,2,21],
 "struct_acts_1_1_atlas_stepper_1_1_state.html#ab1f318320ffe8a75d0dcea82ef24a98b":[5,0,0,34,2,25],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ab1f318320ffe8a75d0dcea82ef24a98b":[7,0,0,41,2,25],
-"struct_acts_1_1_atlas_stepper_1_1_state.html#ac5d94694b54896c4a7c9883ec493133a":[5,0,0,34,2,26]
+"struct_acts_1_1_atlas_stepper_1_1_state.html#ab1f318320ffe8a75d0dcea82ef24a98b":[7,0,0,41,2,25]
 };

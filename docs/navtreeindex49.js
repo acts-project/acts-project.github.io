@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_const_ref_holder.html#ac47bb1df2889394eeed49d4b7f2136f7":[5,0,0,76,6],
 "struct_acts_1_1_const_ref_holder.html#ac47bb1df2889394eeed49d4b7f2136f7":[7,0,0,83,6],
 "struct_acts_1_1_const_ref_holder.html#ad54ce3c90c2f09d64b59e5ca94bb55d8":[5,0,0,76,2],
 "struct_acts_1_1_const_ref_holder.html#ad54ce3c90c2f09d64b59e5ca94bb55d8":[7,0,0,83,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#a818543cad32fef5c90a07361d4e64bba":[5,0,0,116,0,1],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#a818543cad32fef5c90a07361d4e64bba":[7,0,0,123,0,1],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#ae4c24faa3132bc2129881c7316f10b86":[5,0,0,116,0,0],
-"struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#ae4c24faa3132bc2129881c7316f10b86":[7,0,0,123,0,0],
-"struct_acts_1_1_eigen_stepper_1_1_config.html":[5,0,0,118,0]
+"struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#ae4c24faa3132bc2129881c7316f10b86":[7,0,0,123,0,0]
 };

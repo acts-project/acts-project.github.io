@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html":[7,0,2,63,2],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a1fac7029ecb5f660b0da455ec5f12a79":[5,0,3,58,2,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a1fac7029ecb5f660b0da455ec5f12a79":[7,0,2,63,2,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_layer_spec.html#a9ec215ed0baaf60e7625fb7bfa87b2e0":[5,0,3,58,2,1],

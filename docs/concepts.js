@@ -18,6 +18,7 @@ var concepts =
         [ "eigen_bases_have_same_num_cols", "concept_acts_1_1_concepts_1_1eigen__bases__have__same__num__cols.html", null ],
         [ "eigen_bases_have_same_num_rows", "concept_acts_1_1_concepts_1_1eigen__bases__have__same__num__rows.html", null ],
         [ "eigen_bases_have_same_size", "concept_acts_1_1_concepts_1_1eigen__bases__have__same__size.html", null ],
+        [ "Interpolatable", "concept_acts_1_1_concepts_1_1_interpolatable.html", null ],
         [ "invocable_and_returns", "concept_acts_1_1_concepts_1_1invocable__and__returns.html", null ],
         [ "is_eigen_base", "concept_acts_1_1_concepts_1_1is__eigen__base.html", null ],
         [ "MultiStepper", "concept_acts_1_1_concepts_1_1_multi_stepper.html", null ],
