@@ -1,11 +1,12 @@
 var class_acts_1_1_i_axis =
 [
-    [ "~IAxis", "class_acts_1_1_i_axis.html#a2cdcbe15e5c2732197b2a24e9c56ce17", null ],
-    [ "createEquidistant", "class_acts_1_1_i_axis.html#afdbc5ec67b92f9bb78ac5ff5fa5bbee0", null ],
-    [ "createVariable", "class_acts_1_1_i_axis.html#ad1deddc2c2e2a4dfcf3d721c76b2888c", null ],
+    [ "IAxis", "class_acts_1_1_i_axis.html#a994d6416f8bde492d2ce6af1be4a8fb8", null ],
+    [ "createEquidistant", "class_acts_1_1_i_axis.html#a99d2da7b1f00782ce22776babbca6b16", null ],
+    [ "createVariable", "class_acts_1_1_i_axis.html#a8053edcf6dd6a24e815d768d5ec4a570", null ],
     [ "getBin", "class_acts_1_1_i_axis.html#aca481754cc179a670524f39f06e15919", null ],
     [ "getBinEdges", "class_acts_1_1_i_axis.html#a795fb20db8f52e5c984564aeb0115f39", null ],
     [ "getBoundaryType", "class_acts_1_1_i_axis.html#a933b5ea738b1e040db853b4f8d460279", null ],
+    [ "getDirection", "class_acts_1_1_i_axis.html#aa814a085e88b52a5f05415805574d07d", null ],
     [ "getMax", "class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5", null ],
     [ "getMin", "class_acts_1_1_i_axis.html#ab4796d24570d2573c57d2de972466ad0", null ],
     [ "getNBins", "class_acts_1_1_i_axis.html#a0cd501e79018e882a23aa76a9c233547", null ],

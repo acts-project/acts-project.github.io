@@ -138,15 +138,16 @@ Inheritance diagram for Acts::IAxis:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2cdcbe15e5c2732197b2a24e9c56ce17" id="r_a2cdcbe15e5c2732197b2a24e9c56ce17"><td class="memItemLeft" align="right" valign="top"><a id="a2cdcbe15e5c2732197b2a24e9c56ce17" name="a2cdcbe15e5c2732197b2a24e9c56ce17"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IAxis</b> ()=default</td></tr>
-<tr class="memdesc:a2cdcbe15e5c2732197b2a24e9c56ce17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+<tr class="memitem:a994d6416f8bde492d2ce6af1be4a8fb8" id="r_a994d6416f8bde492d2ce6af1be4a8fb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a994d6416f8bde492d2ce6af1be4a8fb8">IAxis</a> (std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction)</td></tr>
+<tr class="memdesc:a994d6416f8bde492d2ce6af1be4a8fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new axis with the given direction.  <br /></td></tr>
 <tr class="memitem:aca481754cc179a670524f39f06e15919" id="r_aca481754cc179a670524f39f06e15919"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca481754cc179a670524f39f06e15919">getBin</a> (double x) const =0</td></tr>
 <tr class="memdesc:aca481754cc179a670524f39f06e15919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get corresponding bin index for given coordinate.  <br /></td></tr>
 <tr class="memitem:a795fb20db8f52e5c984564aeb0115f39" id="r_a795fb20db8f52e5c984564aeb0115f39"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a795fb20db8f52e5c984564aeb0115f39">getBinEdges</a> () const =0</td></tr>
 <tr class="memdesc:a795fb20db8f52e5c984564aeb0115f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of bin edges.  <br /></td></tr>
 <tr class="memitem:a933b5ea738b1e040db853b4f8d460279" id="r_a933b5ea738b1e040db853b4f8d460279"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933b5ea738b1e040db853b4f8d460279">getBoundaryType</a> () const =0</td></tr>
 <tr class="memdesc:a933b5ea738b1e040db853b4f8d460279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the boundary type set in the template param.  <br /></td></tr>
+<tr class="memitem:aa814a085e88b52a5f05415805574d07d" id="r_aa814a085e88b52a5f05415805574d07d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa814a085e88b52a5f05415805574d07d">getDirection</a> () const</td></tr>
+<tr class="memdesc:aa814a085e88b52a5f05415805574d07d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of the axis.  <br /></td></tr>
 <tr class="memitem:aeb788846d2cf2d1ec69314cb9c30e4f5" id="r_aeb788846d2cf2d1ec69314cb9c30e4f5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb788846d2cf2d1ec69314cb9c30e4f5">getMax</a> () const =0</td></tr>
 <tr class="memdesc:aeb788846d2cf2d1ec69314cb9c30e4f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum of binning range.  <br /></td></tr>
 <tr class="memitem:ab4796d24570d2573c57d2de972466ad0" id="r_ab4796d24570d2573c57d2de972466ad0"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4796d24570d2573c57d2de972466ad0">getMin</a> () const =0</td></tr>
@@ -165,10 +166,10 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IAxis</b> ()=defa
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afdbc5ec67b92f9bb78ac5ff5fa5bbee0" id="r_afdbc5ec67b92f9bb78ac5ff5fa5bbee0"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdbc5ec67b92f9bb78ac5ff5fa5bbee0">createEquidistant</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, double min, double max, std::size_t nbins)</td></tr>
-<tr class="memdesc:afdbc5ec67b92f9bb78ac5ff5fa5bbee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for equidistant binning.  <br /></td></tr>
-<tr class="memitem:ad1deddc2c2e2a4dfcf3d721c76b2888c" id="r_ad1deddc2c2e2a4dfcf3d721c76b2888c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1deddc2c2e2a4dfcf3d721c76b2888c">createVariable</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, const std::vector&lt; double &gt; &amp;edges)</td></tr>
-<tr class="memdesc:ad1deddc2c2e2a4dfcf3d721c76b2888c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for variable binning.  <br /></td></tr>
+<tr class="memitem:a99d2da7b1f00782ce22776babbca6b16" id="r_a99d2da7b1f00782ce22776babbca6b16"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; IAxis &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99d2da7b1f00782ce22776babbca6b16">createEquidistant</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, double min, double max, std::size_t nbins, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction=std::nullopt)</td></tr>
+<tr class="memdesc:a99d2da7b1f00782ce22776babbca6b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for equidistant binning.  <br /></td></tr>
+<tr class="memitem:a8053edcf6dd6a24e815d768d5ec4a570" id="r_a8053edcf6dd6a24e815d768d5ec4a570"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; IAxis &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8053edcf6dd6a24e815d768d5ec4a570">createVariable</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, const std::vector&lt; double &gt; &amp;edges, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction=std::nullopt)</td></tr>
+<tr class="memdesc:a8053edcf6dd6a24e815d768d5ec4a570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for variable binning.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -178,9 +179,9 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Common base class for all Axis instance. </p>
 <p>This allows generice handling such as for inspection. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="afdbc5ec67b92f9bb78ac5ff5fa5bbee0" name="afdbc5ec67b92f9bb78ac5ff5fa5bbee0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdbc5ec67b92f9bb78ac5ff5fa5bbee0">&#9670;&#160;</a></span>createEquidistant()</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a994d6416f8bde492d2ce6af1be4a8fb8" name="a994d6416f8bde492d2ce6af1be4a8fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994d6416f8bde492d2ce6af1be4a8fb8">&#9670;&#160;</a></span>IAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,7 +190,41 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt; Acts::IAxis::createEquidistant </td>
+          <td class="memname">Acts::IAxis::IAxis </td>
+          <td>(</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a new axis with the given direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">direction</td><td>the optional direction of the axis </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a99d2da7b1f00782ce22776babbca6b16" name="a99d2da7b1f00782ce22776babbca6b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99d2da7b1f00782ce22776babbca6b16">&#9670;&#160;</a></span>createEquidistant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; IAxis &gt; Acts::IAxis::createEquidistant </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a></td>          <td class="paramname"><span class="paramname"><em>aBoundaryType</em></span>, </td>
         </tr>
@@ -206,7 +241,12 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>nbins</em></span>&#160;)</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>nbins</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -223,6 +263,7 @@ Protected Member Functions</h2></td></tr>
     <tr><td class="paramname">min</td><td>the minimum edge of the axis </td></tr>
     <tr><td class="paramname">max</td><td>the maximum edge of the axis </td></tr>
     <tr><td class="paramname">nbins</td><td>the number of bins </td></tr>
+    <tr><td class="paramname">direction</td><td>the optional direction of the axis </td></tr>
   </table>
   </dd>
 </dl>
@@ -236,8 +277,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1deddc2c2e2a4dfcf3d721c76b2888c" name="ad1deddc2c2e2a4dfcf3d721c76b2888c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1deddc2c2e2a4dfcf3d721c76b2888c">&#9670;&#160;</a></span>createVariable()</h2>
+<a id="a8053edcf6dd6a24e815d768d5ec4a570" name="a8053edcf6dd6a24e815d768d5ec4a570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8053edcf6dd6a24e815d768d5ec4a570">&#9670;&#160;</a></span>createVariable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,14 +287,19 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt; Acts::IAxis::createVariable </td>
+          <td class="memname">std::unique_ptr&lt; IAxis &gt; Acts::IAxis::createVariable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a></td>          <td class="paramname"><span class="paramname"><em>aBoundaryType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -268,6 +314,7 @@ Protected Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">aBoundaryType</td><td>the axis boundary type </td></tr>
     <tr><td class="paramname">edges</td><td>are the bin edges </td></tr>
+    <tr><td class="paramname">direction</td><td>the optional direction of the axis </td></tr>
   </table>
   </dd>
 </dl>
@@ -375,6 +422,26 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><code>AxisBoundaryType</code> of this axis </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#afc9ab078ecfb5d434f7795333fd21d62">Acts::Axis&lt; AxisType::Equidistant, bdt &gt;</a>, and <a class="el" href="class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#af5e8bb0a2ff595077256d193e7166af3">Acts::Axis&lt; AxisType::Variable, bdt &gt;</a>.</p>
+
+</div>
+</div>
+<a id="aa814a085e88b52a5f05415805574d07d" name="aa814a085e88b52a5f05415805574d07d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa814a085e88b52a5f05415805574d07d">&#9670;&#160;</a></span>getDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; Acts::IAxis::getDirection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the direction of the axis. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>AxisDirection</code> of this axis </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_node.html#a4427f992d03f4445949ffbab56c1914a":[5,0,0,1,25,7],
+"struct_acts_1_1_experimental_1_1_gbts_node.html#a4427f992d03f4445949ffbab56c1914a":[7,0,0,2,25,7],
 "struct_acts_1_1_experimental_1_1_gbts_node.html#a4ce1c9e65045919889cc954e3ca635fd":[5,0,0,1,25,3],
 "struct_acts_1_1_experimental_1_1_gbts_node.html#a4ce1c9e65045919889cc954e3ca635fd":[7,0,0,2,25,3],
 "struct_acts_1_1_experimental_1_1_gbts_node.html#a790b6c7f10b3c709d5128743a45a3817":[5,0,0,1,25,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[5,0,0,1,42,0,2],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#ae62a7d5e07726fb92a09d0afaf94d636":[7,0,0,2,42,0,2],
 "struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[5,0,0,1,42,0,4],
-"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[7,0,0,2,42,0,4],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[5,0,0,1,45],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[7,0,0,2,45]
+"struct_acts_1_1_experimental_1_1_multi_wire_volume_builder_1_1_config.html#afece496e938c9db3cb9badcb742e00d9":[7,0,0,2,42,0,4]
 };

@@ -143,10 +143,10 @@ Collaboration diagram for Acts::Axis&lt; AxisType::Equidistant, bdt &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac9c19acdb4633a9b221a0f7a12a7422a" id="r_ac9c19acdb4633a9b221a0f7a12a7422a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9c19acdb4633a9b221a0f7a12a7422a">Axis</a> (<a class="el" href="struct_acts_1_1_axis_boundary_type_tag.html">AxisBoundaryTypeTag</a>&lt; bdt &gt; typeTag, double xmin, double xmax, std::size_t nBins)</td></tr>
-<tr class="memdesc:ac9c19acdb4633a9b221a0f7a12a7422a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide the range \([\text{xmin},\text{xmax})\) into \(\text{nBins}\) equidistant bins.  <br /></td></tr>
-<tr class="memitem:aec2b6c5f5c9f71c0252225b2e4b50e1a" id="r_aec2b6c5f5c9f71c0252225b2e4b50e1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2b6c5f5c9f71c0252225b2e4b50e1a">Axis</a> (double xmin, double xmax, std::size_t nBins)</td></tr>
-<tr class="memdesc:aec2b6c5f5c9f71c0252225b2e4b50e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide the range \([\text{xmin},\text{xmax})\) into \(\text{nBins}\) equidistant bins.  <br /></td></tr>
+<tr class="memitem:a0a43b743629b2ed057064455c315fe17" id="r_a0a43b743629b2ed057064455c315fe17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a43b743629b2ed057064455c315fe17">Axis</a> (<a class="el" href="struct_acts_1_1_axis_boundary_type_tag.html">AxisBoundaryTypeTag</a>&lt; bdt &gt; typeTag, double xmin, double xmax, std::size_t nBins, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction=std::nullopt)</td></tr>
+<tr class="memdesc:a0a43b743629b2ed057064455c315fe17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide the range \([\text{xmin},\text{xmax})\) into \(\text{nBins}\) equidistant bins.  <br /></td></tr>
+<tr class="memitem:a6c33dc40b8e761807ec5b97e1a1734ac" id="r_a6c33dc40b8e761807ec5b97e1a1734ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c33dc40b8e761807ec5b97e1a1734ac">Axis</a> (double xmin, double xmax, std::size_t nBins, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction=std::nullopt)</td></tr>
+<tr class="memdesc:a6c33dc40b8e761807ec5b97e1a1734ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide the range \([\text{xmin},\text{xmax})\) into \(\text{nBins}\) equidistant bins.  <br /></td></tr>
 <tr class="memitem:af6a0c69c7b13fead339df69faf305764" id="r_af6a0c69c7b13fead339df69faf305764"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a0c69c7b13fead339df69faf305764">getBin</a> (double x) const final</td></tr>
 <tr class="memdesc:af6a0c69c7b13fead339df69faf305764"><td class="mdescLeft">&#160;</td><td class="mdescRight">get corresponding bin index for given coordinate  <br /></td></tr>
 <tr class="memitem:a080942bc79423034d2642a113f547d2e" id="r_a080942bc79423034d2642a113f547d2e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080942bc79423034d2642a113f547d2e">getBinCenter</a> (std::size_t bin) const</td></tr>
@@ -190,9 +190,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b77df6b0d44e255ec18245fa5d18a53" id="r_a2b77df6b0d44e255ec18245fa5d18a53"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b77df6b0d44e255ec18245fa5d18a53">wrapBin</a> (int bin) const</td></tr>
 <tr class="memdesc:a2b77df6b0d44e255ec18245fa5d18a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts bin index into a valid one for this axis.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_i_axis"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_i_axis')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_axis.html">Acts::IAxis</a></td></tr>
-<tr class="memitem:a2cdcbe15e5c2732197b2a24e9c56ce17 inherit pub_methods_class_acts_1_1_i_axis" id="r_a2cdcbe15e5c2732197b2a24e9c56ce17"><td class="memItemLeft" align="right" valign="top">
-virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IAxis</b> ()=default</td></tr>
-<tr class="memdesc:a2cdcbe15e5c2732197b2a24e9c56ce17 inherit pub_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+<tr class="memitem:a994d6416f8bde492d2ce6af1be4a8fb8 inherit pub_methods_class_acts_1_1_i_axis" id="r_a994d6416f8bde492d2ce6af1be4a8fb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#a994d6416f8bde492d2ce6af1be4a8fb8">IAxis</a> (std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction)</td></tr>
+<tr class="memdesc:a994d6416f8bde492d2ce6af1be4a8fb8 inherit pub_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new axis with the given direction.  <br /></td></tr>
+<tr class="memitem:aa814a085e88b52a5f05415805574d07d inherit pub_methods_class_acts_1_1_i_axis" id="r_aa814a085e88b52a5f05415805574d07d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#aa814a085e88b52a5f05415805574d07d">getDirection</a> () const</td></tr>
+<tr class="memdesc:aa814a085e88b52a5f05415805574d07d inherit pub_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of the axis.  <br /></td></tr>
 <tr class="memitem:ada281f1807fe8df8d4b5f058a98810db inherit pub_methods_class_acts_1_1_i_axis" id="r_ada281f1807fe8df8d4b5f058a98810db"><td class="memTemplParams" colspan="2">template&lt;typename callable_t&gt; </td></tr>
 <tr class="memitem:ada281f1807fe8df8d4b5f058a98810db inherit pub_methods_class_acts_1_1_i_axis template"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#ada281f1807fe8df8d4b5f058a98810db">visit</a> (const callable_t &amp;callable) const</td></tr>
 <tr class="memdesc:ada281f1807fe8df8d4b5f058a98810db inherit pub_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that dispatches from the <code>IAxis</code> base class to a concrete axis type.  <br /></td></tr>
@@ -211,18 +212,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_acts_1_1_i_axis"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_acts_1_1_i_axis')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_axis.html">Acts::IAxis</a></td></tr>
-<tr class="memitem:afdbc5ec67b92f9bb78ac5ff5fa5bbee0 inherit pub_static_methods_class_acts_1_1_i_axis" id="r_afdbc5ec67b92f9bb78ac5ff5fa5bbee0"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#afdbc5ec67b92f9bb78ac5ff5fa5bbee0">createEquidistant</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, double min, double max, std::size_t nbins)</td></tr>
-<tr class="memdesc:afdbc5ec67b92f9bb78ac5ff5fa5bbee0 inherit pub_static_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for equidistant binning.  <br /></td></tr>
-<tr class="memitem:ad1deddc2c2e2a4dfcf3d721c76b2888c inherit pub_static_methods_class_acts_1_1_i_axis" id="r_ad1deddc2c2e2a4dfcf3d721c76b2888c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#ad1deddc2c2e2a4dfcf3d721c76b2888c">createVariable</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, const std::vector&lt; double &gt; &amp;edges)</td></tr>
-<tr class="memdesc:ad1deddc2c2e2a4dfcf3d721c76b2888c inherit pub_static_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for variable binning.  <br /></td></tr>
+<tr class="memitem:a99d2da7b1f00782ce22776babbca6b16 inherit pub_static_methods_class_acts_1_1_i_axis" id="r_a99d2da7b1f00782ce22776babbca6b16"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; IAxis &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#a99d2da7b1f00782ce22776babbca6b16">createEquidistant</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, double min, double max, std::size_t nbins, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction=std::nullopt)</td></tr>
+<tr class="memdesc:a99d2da7b1f00782ce22776babbca6b16 inherit pub_static_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for equidistant binning.  <br /></td></tr>
+<tr class="memitem:a8053edcf6dd6a24e815d768d5ec4a570 inherit pub_static_methods_class_acts_1_1_i_axis" id="r_a8053edcf6dd6a24e815d768d5ec4a570"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; IAxis &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_axis.html#a8053edcf6dd6a24e815d768d5ec4a570">createVariable</a> (<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> aBoundaryType, const std::vector&lt; double &gt; &amp;edges, std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; direction=std::nullopt)</td></tr>
+<tr class="memdesc:a8053edcf6dd6a24e815d768d5ec4a570 inherit pub_static_methods_class_acts_1_1_i_axis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized axis factory for variable binning.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt;<br />
 class Acts::Axis&lt; AxisType::Equidistant, bdt &gt;</div><p>calculate bin indices for an equidistant binning </p>
 <p>This class provides some basic functionality for calculating bin indices for a given equidistant binning. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aec2b6c5f5c9f71c0252225b2e4b50e1a" name="aec2b6c5f5c9f71c0252225b2e4b50e1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec2b6c5f5c9f71c0252225b2e4b50e1a">&#9670;&#160;</a></span>Axis() <span class="overload">[1/2]</span></h2>
+<a id="a6c33dc40b8e761807ec5b97e1a1734ac" name="a6c33dc40b8e761807ec5b97e1a1734ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c33dc40b8e761807ec5b97e1a1734ac">&#9670;&#160;</a></span>Axis() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +243,12 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>nBins</em></span>&#160;)</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>nBins</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -253,14 +259,15 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
     <tr><td class="paramname">xmin</td><td>lower boundary of axis range </td></tr>
     <tr><td class="paramname">xmax</td><td>upper boundary of axis range </td></tr>
     <tr><td class="paramname">nBins</td><td>number of bins to divide the axis range into </td></tr>
+    <tr><td class="paramname">direction</td><td>optional direction of the axis </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ac9c19acdb4633a9b221a0f7a12a7422a" name="ac9c19acdb4633a9b221a0f7a12a7422a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9c19acdb4633a9b221a0f7a12a7422a">&#9670;&#160;</a></span>Axis() <span class="overload">[2/2]</span></h2>
+<a id="a0a43b743629b2ed057064455c315fe17" name="a0a43b743629b2ed057064455c315fe17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a43b743629b2ed057064455c315fe17">&#9670;&#160;</a></span>Axis() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +292,12 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>nBins</em></span>&#160;)</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>nBins</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,6 +309,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
     <tr><td class="paramname">xmin</td><td>lower boundary of axis range </td></tr>
     <tr><td class="paramname">xmax</td><td>upper boundary of axis range </td></tr>
     <tr><td class="paramname">nBins</td><td>number of bins to divide the axis range into </td></tr>
+    <tr><td class="paramname">direction</td><td>optional direction of the axis </td></tr>
   </table>
   </dd>
 </dl>

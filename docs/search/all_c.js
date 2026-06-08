@@ -5,7 +5,7 @@ var searchData=
   ['i_20y_20j_20z_20k_20b_20x_20y_20z_20m_2',['i y j z k B x y z M',['../group__magnetic__field.html#autotoc_md91',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md97',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['i_20z_20j_20b_20r_20z_20m_3',['i z j B r z M',['../group__magnetic__field.html#autotoc_md90',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md96',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
   ['iassignmentfinder_4',['IAssignmentFinder',['../class_acts_1_1_i_assignment_finder.html',1,'Acts']]],
-  ['iaxis_5',['IAxis',['../class_acts_1_1_i_axis.html',1,'Acts']]],
+  ['iaxis_5',['IAxis',['../class_acts_1_1_i_axis.html',1,'Acts::IAxis'],['../class_acts_1_1_i_axis.html#a994d6416f8bde492d2ce6af1be4a8fb8',1,'Acts::IAxis::IAxis()']]],
   ['iboundtogridlocal_6',['IBoundToGridLocal',['../class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html',1,'Acts::GridAccess']]],
   ['iconfinedtrackingvolumebuilder_7',['IConfinedTrackingVolumeBuilder',['../class_acts_1_1_i_confined_tracking_volume_builder.html',1,'Acts']]],
   ['id_8',['id',['../struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a009d1b28b890c89f121a06456f62400a',1,'Acts::Experimental::GbtsLayerDescription::id'],['../struct_acts_1_1_graph_viz_1_1_node.html#a2e03944af334f0dcdf04d6302cf98a22',1,'Acts::GraphViz::Node::id']]],

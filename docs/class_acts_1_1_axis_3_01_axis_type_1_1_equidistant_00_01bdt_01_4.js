@@ -1,7 +1,7 @@
 var class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4 =
 [
-    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#aec2b6c5f5c9f71c0252225b2e4b50e1a", null ],
-    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#ac9c19acdb4633a9b221a0f7a12a7422a", null ],
+    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a6c33dc40b8e761807ec5b97e1a1734ac", null ],
+    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a0a43b743629b2ed057064455c315fe17", null ],
     [ "getBin", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#af6a0c69c7b13fead339df69faf305764", null ],
     [ "getBinCenter", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a080942bc79423034d2642a113f547d2e", null ],
     [ "getBinEdges", "class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html#a7b91f7bb386f6816ad4e603dd581ac41", null ],

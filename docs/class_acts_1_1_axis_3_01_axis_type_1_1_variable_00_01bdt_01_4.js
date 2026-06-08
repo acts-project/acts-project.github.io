@@ -1,7 +1,7 @@
 var class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4 =
 [
-    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a2f554b0913c385d36cdaddfbc20c3213", null ],
-    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a490e80e8b030aa051b2e4a8c4b256473", null ],
+    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a91e18ca607bb16c38320c989e5455353", null ],
+    [ "Axis", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#af7f8471b51c09848649c5ab1738c1022", null ],
     [ "getBin", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#a024d7171d38884c7573cb5188160b4e7", null ],
     [ "getBinCenter", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#aacc92f35dcd9bf0f5ae474cd923466e2", null ],
     [ "getBinEdges", "class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html#aea929384df1b7fb53da147bf3dd14409", null ],
