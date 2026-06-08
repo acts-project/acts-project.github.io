@@ -148,7 +148,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Element</b> = typena
 <tr class="memdesc:a63b1fb54b3889cec9684b8d3bca43262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend detector element handle type. <br /></td></tr>
 <tr class="memitem:a6ae3b70598772ad13e2ba462bb0a2af3" id="r_a6ae3b70598772ad13e2ba462bb0a2af3"><td class="memItemLeft" align="right" valign="top"><a id="a6ae3b70598772ad13e2ba462bb0a2af3" name="a6ae3b70598772ad13e2ba462bb0a2af3"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerCustomizer</b> = detail::LayerCustomizer&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>&gt;</td></tr>
-<tr class="memdesc:a6ae3b70598772ad13e2ba462bb0a2af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. <br /></td></tr>
+<tr class="memdesc:a6ae3b70598772ad13e2ba462bb0a2af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. <br /></td></tr>
 <tr class="memitem:a5fc12ddd3f9bf6ea4b09d0f39a00247b" id="r_a5fc12ddd3f9bf6ea4b09d0f39a00247b"><td class="memItemLeft" align="right" valign="top"><a id="a5fc12ddd3f9bf6ea4b09d0f39a00247b" name="a5fc12ddd3f9bf6ea4b09d0f39a00247b"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerSpec</b> = typename BackendT::LayerSpec</td></tr>
 <tr class="memdesc:a5fc12ddd3f9bf6ea4b09d0f39a00247b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend layer-specification type. <br /></td></tr>
@@ -162,14 +162,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a98cea744421cf502419d2cb83c42d6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the layer node and attach it as a child of <code class="param">node</code>.  <br /></td></tr>
 <tr class="memitem:a8dcf23528f671252c7bfbf37cb83fc28" id="r_a8dcf23528f671252c7bfbf37cb83fc28"><td class="memItemLeft" align="right" valign="top">SensorLayer &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dcf23528f671252c7bfbf37cb83fc28">barrel</a> () &amp;&amp;</td></tr>
 <tr class="memdesc:a8dcf23528f671252c7bfbf37cb83fc28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Cylinder)</span>.  <br /></td></tr>
-<tr class="memitem:aa3d64cb823f3c3b83cfaf74abbfd429e" id="r_aa3d64cb823f3c3b83cfaf74abbfd429e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d64cb823f3c3b83cfaf74abbfd429e">build</a> () const</td></tr>
-<tr class="memdesc:aa3d64cb823f3c3b83cfaf74abbfd429e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build and return the assembled layer node.  <br /></td></tr>
+<tr class="memitem:a6b32b1ae34ec566dcfacea8f77467cd1" id="r_a6b32b1ae34ec566dcfacea8f77467cd1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b32b1ae34ec566dcfacea8f77467cd1">build</a> () const</td></tr>
+<tr class="memdesc:a6b32b1ae34ec566dcfacea8f77467cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build and return the assembled layer node.  <br /></td></tr>
 <tr class="memitem:ab76bec2777dfa03714ef8f13f99384d6" id="r_ab76bec2777dfa03714ef8f13f99384d6"><td class="memItemLeft" align="right" valign="top">SensorLayer &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76bec2777dfa03714ef8f13f99384d6">endcap</a> () &amp;&amp;</td></tr>
 <tr class="memdesc:ab76bec2777dfa03714ef8f13f99384d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Disc)</span>.  <br /></td></tr>
-<tr class="memitem:aac600ca827a534666468a6193b988f54" id="r_aac600ca827a534666468a6193b988f54"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
-requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::LayerNodeReplacingCallable&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
-<tr class="memitem:aac600ca827a534666468a6193b988f54 template"><td class="memItemLeft" align="right" valign="top">SensorLayer &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac600ca827a534666468a6193b988f54">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
-<tr class="memdesc:aac600ca827a534666468a6193b988f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for the created layer node.  <br /></td></tr>
+<tr class="memitem:a854ce6c556ba42ae3310c7de8fca1c86" id="r_a854ce6c556ba42ae3310c7de8fca1c86"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
+<tr class="memitem:a854ce6c556ba42ae3310c7de8fca1c86 template"><td class="memItemLeft" align="right" valign="top">SensorLayer &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a854ce6c556ba42ae3310c7de8fca1c86">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
+<tr class="memdesc:a854ce6c556ba42ae3310c7de8fca1c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for the created layer node.  <br /></td></tr>
 <tr class="memitem:a9b0a510df58358a2e619aaca61e81f6b" id="r_a9b0a510df58358a2e619aaca61e81f6b"><td class="memItemLeft" align="right" valign="top">SensorLayer &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0a510df58358a2e619aaca61e81f6b">planar</a> () &amp;&amp;</td></tr>
 <tr class="memdesc:a9b0a510df58358a2e619aaca61e81f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Plane)</span>.  <br /></td></tr>
 <tr class="memitem:ab9b96b860887e3c6bcd5496479702751" id="r_ab9b96b860887e3c6bcd5496479702751"><td class="memItemLeft" align="right" valign="top">SensorLayer &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9b96b860887e3c6bcd5496479702751">setEnvelope</a> (const <a class="el" href="struct_acts_1_1_extent_envelope.html">Acts::ExtentEnvelope</a> &amp;envelope) &amp;&amp;</td></tr>
@@ -281,8 +281,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="aa3d64cb823f3c3b83cfaf74abbfd429e" name="aa3d64cb823f3c3b83cfaf74abbfd429e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3d64cb823f3c3b83cfaf74abbfd429e">&#9670;&#160;</a></span>build()</h2>
+<a id="a6b32b1ae34ec566dcfacea8f77467cd1" name="a6b32b1ae34ec566dcfacea8f77467cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b32b1ae34ec566dcfacea8f77467cd1">&#9670;&#160;</a></span>build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,7 +293,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer.html">Acts::Experimental::SensorLayer</a>&lt; BackendT &gt;::build </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer.html">Acts::Experimental::SensorLayer</a>&lt; BackendT &gt;::build </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -313,7 +313,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the assembled <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Shared pointer to the assembled <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a>. </dd></dl>
 
 </div>
 </div>
@@ -347,8 +347,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="aac600ca827a534666468a6193b988f54" name="aac600ca827a534666468a6193b988f54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac600ca827a534666468a6193b988f54">&#9670;&#160;</a></span>onLayer()</h2>
+<a id="a854ce6c556ba42ae3310c7de8fca1c86" name="a854ce6c556ba42ae3310c7de8fca1c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a854ce6c556ba42ae3310c7de8fca1c86">&#9670;&#160;</a></span>onLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,7 +356,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
 <div class="memtemplate">
 template&lt;typename CustomizerT&gt; <br />
-requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::LayerNodeReplacingCallable&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#a63b1fb54b3889cec9684b8d3bca43262">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -376,7 +376,7 @@ requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#a63b1fb54b
 </div><div class="memdoc">
 
 <p>Register a callback invoked for the created layer node. </p>
-<p>The callback may either return a (possibly replaced/wrapped) layer node, or mutate a layer node in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The callback may either return a (possibly replaced or wrapped) <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a>, or mutate the created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">customizer</td><td>Callback applied to the created layer node. </td></tr>
   </table>

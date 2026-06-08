@@ -145,7 +145,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Builder</b> = <a cla
 <tr class="memdesc:adff93b9a247b473b22b6cef868c58055"><td class="mdescLeft">&#160;</td><td class="mdescRight">The associated <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_builder.html">BlueprintBuilder</a> type. <br /></td></tr>
 <tr class="memitem:a5aa05ba14644f379d39670483720e227" id="r_a5aa05ba14644f379d39670483720e227"><td class="memItemLeft" align="right" valign="top"><a id="a5aa05ba14644f379d39670483720e227" name="a5aa05ba14644f379d39670483720e227"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ContainerCustomizer</b> = detail::ContainerCustomizer&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>&gt;</td></tr>
-<tr class="memdesc:a5aa05ba14644f379d39670483720e227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a <a class="el" href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html">CylinderContainerBlueprintNode</a>. <br /></td></tr>
+<tr class="memdesc:a5aa05ba14644f379d39670483720e227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a created container node. <br /></td></tr>
 <tr class="memitem:a99eb739c9417c1f55578220a558e3930" id="r_a99eb739c9417c1f55578220a558e3930"><td class="memItemLeft" align="right" valign="top"><a id="a99eb739c9417c1f55578220a558e3930" name="a99eb739c9417c1f55578220a558e3930"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Element</b> = typename BackendT::Element</td></tr>
 <tr class="memdesc:a99eb739c9417c1f55578220a558e3930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend detector element handle type. <br /></td></tr>
@@ -160,14 +160,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac28ffc6b26f0eefc1a1901eb9537d3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the container node and attach it as a child of <code class="param">node</code>.  <br /></td></tr>
 <tr class="memitem:af4df3c512addf459b4a91dbe594753c9" id="r_af4df3c512addf459b4a91dbe594753c9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html">CylinderContainerBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4df3c512addf459b4a91dbe594753c9">build</a> () const</td></tr>
 <tr class="memdesc:af4df3c512addf459b4a91dbe594753c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build and return the assembled barrel+endcap container node.  <br /></td></tr>
-<tr class="memitem:abb8df5e744675dd862adb96033d0241f" id="r_abb8df5e744675dd862adb96033d0241f"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
-requires (detail::ContainerNodeReturningCallable&lt; <a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::ContainerNodeReplacingCallable&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
-<tr class="memitem:abb8df5e744675dd862adb96033d0241f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a036b04bec9c3f79f0b52f24aeefe7db3">BarrelEndcapAssembler</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb8df5e744675dd862adb96033d0241f">onContainer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
-<tr class="memdesc:abb8df5e744675dd862adb96033d0241f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for each barrel or endcap container node.  <br /></td></tr>
-<tr class="memitem:a9879e83713892f06ea467a0ef5da8122" id="r_a9879e83713892f06ea467a0ef5da8122"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
-requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::LayerNodeReplacingCallable&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
-<tr class="memitem:a9879e83713892f06ea467a0ef5da8122 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a036b04bec9c3f79f0b52f24aeefe7db3">BarrelEndcapAssembler</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9879e83713892f06ea467a0ef5da8122">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
-<tr class="memdesc:a9879e83713892f06ea467a0ef5da8122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a layer callback forwarded to each inner <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a>.  <br /></td></tr>
+<tr class="memitem:a3bbd63feab7dc6240d171464a857e102" id="r_a3bbd63feab7dc6240d171464a857e102"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
+requires ( detail::OnContainerReturnsNode&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnContainerMutatesContainer&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
+<tr class="memitem:a3bbd63feab7dc6240d171464a857e102 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a036b04bec9c3f79f0b52f24aeefe7db3">BarrelEndcapAssembler</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbd63feab7dc6240d171464a857e102">onContainer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
+<tr class="memdesc:a3bbd63feab7dc6240d171464a857e102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for each barrel or endcap container node.  <br /></td></tr>
+<tr class="memitem:a9e739168c2bc2780458f5c3fd0523742" id="r_a9e739168c2bc2780458f5c3fd0523742"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
+<tr class="memitem:a9e739168c2bc2780458f5c3fd0523742 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a036b04bec9c3f79f0b52f24aeefe7db3">BarrelEndcapAssembler</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e739168c2bc2780458f5c3fd0523742">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
+<tr class="memdesc:a9e739168c2bc2780458f5c3fd0523742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a layer callback forwarded to each inner <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a>.  <br /></td></tr>
 <tr class="memitem:a408459a7d43461cb38d3b198723f7836" id="r_a408459a7d43461cb38d3b198723f7836"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a036b04bec9c3f79f0b52f24aeefe7db3">BarrelEndcapAssembler</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a408459a7d43461cb38d3b198723f7836">setAssembly</a> (const <a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a> &amp;assembly) &amp;&amp;</td></tr>
 <tr class="memdesc:a408459a7d43461cb38d3b198723f7836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the top-level detector element whose subtree is searched for barrel and endcap elements.  <br /></td></tr>
 <tr class="memitem:ada1322c6933ad8c5d66c1acd0b1dcbf7" id="r_ada1322c6933ad8c5d66c1acd0b1dcbf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a036b04bec9c3f79f0b52f24aeefe7db3">BarrelEndcapAssembler</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada1322c6933ad8c5d66c1acd0b1dcbf7">setEndcapAxes</a> (<a class="el" href="#afb0af37b896c15333f15b3493d89c26a">AxisDefinition</a> axes) &amp;&amp;</td></tr>
@@ -229,7 +229,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">::Acts::Experimental::ElementLayerAssembler&lt;BackendT&gt;</a></div>
-<div class="ttc" id="aclass_acts_1_1_experimental_1_1_element_layer_assembler_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">Acts::Experimental::ElementLayerAssembler</a></div><div class="ttdoc">Fluent builder that assembles a flat collection of cylindrical or disc-like detector layers from laye...</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:253</div></div>
+<div class="ttc" id="aclass_acts_1_1_experimental_1_1_element_layer_assembler_html"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">Acts::Experimental::ElementLayerAssembler</a></div><div class="ttdoc">Fluent builder that assembles a flat collection of cylindrical or disc-like detector layers from laye...</div><div class="ttdef"><b>Definition</b> BlueprintBuilder.hpp:246</div></div>
 </div><!-- fragment -->
 <p>The <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a> specialisation for this backend. </p>
 
@@ -336,8 +336,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="abb8df5e744675dd862adb96033d0241f" name="abb8df5e744675dd862adb96033d0241f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb8df5e744675dd862adb96033d0241f">&#9670;&#160;</a></span>onContainer()</h2>
+<a id="a3bbd63feab7dc6240d171464a857e102" name="a3bbd63feab7dc6240d171464a857e102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bbd63feab7dc6240d171464a857e102">&#9670;&#160;</a></span>onContainer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +345,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
 <div class="memtemplate">
 template&lt;typename CustomizerT&gt; <br />
-requires (detail::ContainerNodeReturningCallable&lt; <a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::ContainerNodeReplacingCallable&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
+requires ( detail::OnContainerReturnsNode&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnContainerMutatesContainer&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -365,7 +365,7 @@ requires (detail::ContainerNodeReturningCallable&lt; <a class="el" href="#a99eb7
 </div><div class="memdoc">
 
 <p>Register a callback invoked for each barrel or endcap container node. </p>
-<p>The callback may either return a (possibly replaced/wrapped) container node, or mutate a container node in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The callback may either return a (possibly replaced or wrapped) <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a>, or mutate the created <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html">ContainerBlueprintNode</a> in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">customizer</td><td>Callback applied to each created barrel or endcap container node. </td></tr>
   </table>
@@ -375,8 +375,8 @@ requires (detail::ContainerNodeReturningCallable&lt; <a class="el" href="#a99eb7
 
 </div>
 </div>
-<a id="a9879e83713892f06ea467a0ef5da8122" name="a9879e83713892f06ea467a0ef5da8122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9879e83713892f06ea467a0ef5da8122">&#9670;&#160;</a></span>onLayer()</h2>
+<a id="a9e739168c2bc2780458f5c3fd0523742" name="a9e739168c2bc2780458f5c3fd0523742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e739168c2bc2780458f5c3fd0523742">&#9670;&#160;</a></span>onLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -384,7 +384,7 @@ requires (detail::ContainerNodeReturningCallable&lt; <a class="el" href="#a99eb7
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
 <div class="memtemplate">
 template&lt;typename CustomizerT&gt; <br />
-requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::LayerNodeReplacingCallable&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#a99eb739c9417c1f55578220a558e3930">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -404,7 +404,7 @@ requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#a99eb739c9
 </div><div class="memdoc">
 
 <p>Register a layer callback forwarded to each inner <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a>. </p>
-<p>The callback may either return a (possibly replaced/wrapped) layer node, or mutate a layer node in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The callback may either return a (possibly replaced or wrapped) <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a>, or mutate the created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">customizer</td><td>Callback applied to each created layer node. </td></tr>
   </table>

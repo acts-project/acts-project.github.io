@@ -148,7 +148,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Element</b> = typena
 <tr class="memdesc:ab482363ddc761b20c5eebef4caeb7a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend detector element handle type. <br /></td></tr>
 <tr class="memitem:a4dea9c6cd2eac9593b598ebac0132e50" id="r_a4dea9c6cd2eac9593b598ebac0132e50"><td class="memItemLeft" align="right" valign="top"><a id="a4dea9c6cd2eac9593b598ebac0132e50" name="a4dea9c6cd2eac9593b598ebac0132e50"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerCustomizer</b> = detail::LayerCustomizer&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>&gt;</td></tr>
-<tr class="memdesc:a4dea9c6cd2eac9593b598ebac0132e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. <br /></td></tr>
+<tr class="memdesc:a4dea9c6cd2eac9593b598ebac0132e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. <br /></td></tr>
 <tr class="memitem:a34d81be5b9900004e221afba314a38bc" id="r_a34d81be5b9900004e221afba314a38bc"><td class="memItemLeft" align="right" valign="top"><a id="a34d81be5b9900004e221afba314a38bc" name="a34d81be5b9900004e221afba314a38bc"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerGrouper</b> = std::function&lt;std::string(const <a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>&amp;)&gt;</td></tr>
 <tr class="memdesc:a34d81be5b9900004e221afba314a38bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callable that maps a sensor element to a string group key. <br /></td></tr>
@@ -171,10 +171,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a89774065b4f6c2c7b944c26c2b5f240c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Disc)</span>.  <br /></td></tr>
 <tr class="memitem:a3380ff04955518117a94280050b4278a" id="r_a3380ff04955518117a94280050b4278a"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3380ff04955518117a94280050b4278a">groupBy</a> (<a class="el" href="#a34d81be5b9900004e221afba314a38bc">LayerGrouper</a> grouper) &amp;&amp;</td></tr>
 <tr class="memdesc:a3380ff04955518117a94280050b4278a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group sensors into layers by key (required).  <br /></td></tr>
-<tr class="memitem:a68e61ffd7eed4a3778d18d5cad03c86d" id="r_a68e61ffd7eed4a3778d18d5cad03c86d"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
-requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::LayerNodeReplacingCallable&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
-<tr class="memitem:a68e61ffd7eed4a3778d18d5cad03c86d template"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e61ffd7eed4a3778d18d5cad03c86d">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
-<tr class="memdesc:a68e61ffd7eed4a3778d18d5cad03c86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for each created layer node.  <br /></td></tr>
+<tr class="memitem:a1a5222255ba6f551fb084ab358a5cb86" id="r_a1a5222255ba6f551fb084ab358a5cb86"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
+<tr class="memitem:a1a5222255ba6f551fb084ab358a5cb86 template"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5222255ba6f551fb084ab358a5cb86">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
+<tr class="memdesc:a1a5222255ba6f551fb084ab358a5cb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for each created layer node.  <br /></td></tr>
 <tr class="memitem:a6547e59ec0519f5265d495f48064c645" id="r_a6547e59ec0519f5265d495f48064c645"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6547e59ec0519f5265d495f48064c645">planar</a> () &amp;&amp;</td></tr>
 <tr class="memdesc:a6547e59ec0519f5265d495f48064c645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Plane)</span>.  <br /></td></tr>
 <tr class="memitem:a540ee4e6fee8bd9ecc81bce276ff6652" id="r_a540ee4e6fee8bd9ecc81bce276ff6652"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a540ee4e6fee8bd9ecc81bce276ff6652">setAttachmentStrategy</a> (std::optional&lt; <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">Acts::VolumeAttachmentStrategy</a> &gt; strategy) &amp;&amp;</td></tr>
@@ -393,8 +393,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a68e61ffd7eed4a3778d18d5cad03c86d" name="a68e61ffd7eed4a3778d18d5cad03c86d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e61ffd7eed4a3778d18d5cad03c86d">&#9670;&#160;</a></span>onLayer()</h2>
+<a id="a1a5222255ba6f551fb084ab358a5cb86" name="a1a5222255ba6f551fb084ab358a5cb86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a5222255ba6f551fb084ab358a5cb86">&#9670;&#160;</a></span>onLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +402,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
 <div class="memtemplate">
 template&lt;typename CustomizerT&gt; <br />
-requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::LayerNodeReplacingCallable&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -422,7 +422,7 @@ requires ( detail::LayerNodeReturningCallable&lt;<a class="el" href="#ab482363dd
 </div><div class="memdoc">
 
 <p>Register a callback invoked for each created layer node. </p>
-<p>The callback may either return a (possibly replaced/wrapped) layer node, or mutate a layer node in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The callback may either return a (possibly replaced or wrapped) <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a>, or mutate the created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a> in-place and return <span class="tt">void</span>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">customizer</td><td>Callback applied to each created layer node. </td></tr>
   </table>
