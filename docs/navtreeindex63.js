@@ -1,6 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[7,0,0,408,2],
 "struct_acts_1_1_track_at_vertex.html#a21f8f05190f8fbdacfdc6bc9cced2393":[5,0,0,401,4],
 "struct_acts_1_1_track_at_vertex.html#a21f8f05190f8fbdacfdc6bc9cced2393":[7,0,0,408,4],
 "struct_acts_1_1_track_at_vertex.html#a2b4848ae3bf813f05ecb1c8335e6e4d2":[5,0,0,401,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a89c3f9244958dcbbbde9bfda14388192":[7,0,0,434,1,1],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#ab4a2f25316897e52f54d6b538f9bf656":[5,0,0,427,1,6],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#ab4a2f25316897e52f54d6b538f9bf656":[7,0,0,434,1,6],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1":[5,0,0,427,1,5]
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1":[5,0,0,427,1,5],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1":[7,0,0,434,1,5]
 };

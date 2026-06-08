@@ -130,7 +130,7 @@ $(function(){initNavTree('_grid_bin_finder_8hpp_source.html','',''); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Acts/Utilities/Concepts.hpp&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Acts/Utilities/Grid.hpp&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;Acts/Utilities/detail/grid_helper.hpp&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;Acts/Utilities/MathHelpers.hpp&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;variant&gt;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
@@ -143,7 +143,7 @@ $(function(){initNavTree('_grid_bin_finder_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_acts_1_1_grid_bin_finder.html">   29</a></span><span class="keyword">class </span><a class="code hl_function" href="class_acts_1_1_grid_bin_finder.html#a3e8ad595441c006dbbd83c69bd8b9a25">GridBinFinder</a> {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_acts_1_1_grid_bin_finder.html#ae36d60bd41e6067691e05aceb92bad0a">   32</a></span>  <span class="keyword">static</span> <span class="keyword">constexpr</span> std::size_t <a class="code hl_variable" href="class_acts_1_1_grid_bin_finder.html#ae36d60bd41e6067691e05aceb92bad0a">dimCubed</a> = detail::ipow(3, DIM);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_acts_1_1_grid_bin_finder.html#ae36d60bd41e6067691e05aceb92bad0a">   32</a></span>  <span class="keyword">static</span> <span class="keyword">constexpr</span> std::size_t <a class="code hl_variable" href="class_acts_1_1_grid_bin_finder.html#ae36d60bd41e6067691e05aceb92bad0a">dimCubed</a> = <a class="code hl_function" href="namespace_acts.html#a76386b76fb90bd5106f6f4b71c89c379">ipow</a>(3, DIM);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_acts_1_1_grid_bin_finder.html#a59723c0518ec9251c1fc751105c86647">   35</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="class_acts_1_1_grid_bin_finder.html#a59723c0518ec9251c1fc751105c86647">stored_values_t</a> =</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>      std::variant&lt;int, std::pair&lt;int, int&gt;, std::vector&lt;std::pair&lt;int, int&gt;&gt;&gt;;</div>
@@ -200,6 +200,7 @@ $(function(){initNavTree('_grid_bin_finder_8hpp_source.html','',''); });
 <div class="ttc" id="aclass_acts_1_1_grid_html"><div class="ttname"><a href="class_acts_1_1_grid.html">Acts::Grid</a></div><div class="ttdoc">class for describing a regular multi-dimensional grid</div><div class="ttdef"><b>Definition</b> Grid.hpp:46</div></div>
 <div class="ttc" id="aconcept_acts_1_1_concepts_1_1same__as__any__of_html"><div class="ttname"><a href="concept_acts_1_1_concepts_1_1same__as__any__of.html">Acts::Concepts::same_as_any_of</a></div><div class="ttdoc">Concept that is true if T is the same as any of Ts.</div><div class="ttdef"><b>Definition</b> Concepts.hpp:18</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
+<div class="ttc" id="anamespace_acts_html_a76386b76fb90bd5106f6f4b71c89c379"><div class="ttname"><a href="namespace_acts.html#a76386b76fb90bd5106f6f4b71c89c379">Acts::ipow</a></div><div class="ttdeci">consteval T ipow(T num, unsigned int pow)</div><div class="ttdoc">Calculate the integer power of a number at compile time using recursion.</div><div class="ttdef"><b>Definition</b> MathHelpers.hpp:275</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

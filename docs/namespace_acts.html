@@ -2237,6 +2237,9 @@ requires (FullSize &lt;= 8)</td></tr>
 requires (Concepts::interpolatable&lt;T, Point1, Point2, Point3&gt;)</td></tr>
 <tr class="memitem:a3caf69a4c80cf869115afbab91cd8163 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3caf69a4c80cf869115afbab91cd8163">interpolate</a> (const Point1 &amp;position, const Point2 &amp;lowerCorner, const Point3 &amp;upperCorner, const std::array&lt; T, N &gt; &amp;values)</td></tr>
 <tr class="memdesc:a3caf69a4c80cf869115afbab91cd8163"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs linear interpolation inside a hyper box  <br /></td></tr>
+<tr class="memitem:a76386b76fb90bd5106f6f4b71c89c379" id="r_a76386b76fb90bd5106f6f4b71c89c379"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a76386b76fb90bd5106f6f4b71c89c379 template"><td class="memItemLeft" align="right" valign="top">consteval T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76386b76fb90bd5106f6f4b71c89c379">ipow</a> (T num, unsigned int <a class="el" href="#a5f8134aad04c378ce314dd9e115f3c17">pow</a>)</td></tr>
+<tr class="memdesc:a76386b76fb90bd5106f6f4b71c89c379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the integer power of a number at compile time using recursion.  <br /></td></tr>
 <tr class="memitem:a94a8f9b03ea4540ab29e8d70330fa7f0" id="r_a94a8f9b03ea4540ab29e8d70330fa7f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a8f9b03ea4540ab29e8d70330fa7f0">isBoundVectorValid</a> (const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;v, bool validateAngleRange, double epsilon=1e-6, double maxAbsEta=std::numeric_limits&lt; double &gt;::infinity())</td></tr>
 <tr class="memdesc:a94a8f9b03ea4540ab29e8d70330fa7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a bound vector is valid.  <br /></td></tr>
 <tr class="memitem:abe77e44cea219bce9c03f8b2344bebaa" id="r_abe77e44cea219bce9c03f8b2344bebaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe77e44cea219bce9c03f8b2344bebaa">isFreeVectorValid</a> (const <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;v, double epsilon=1e-6, double maxAbsEta=std::numeric_limits&lt; double &gt;::infinity())</td></tr>
@@ -8074,6 +8077,54 @@ requires (Concepts::interpolatable&lt;T, Point1, Point2, Point3&gt;)</div>
 </li>
 </ul>
 </dd></dl>
+
+</div>
+</div>
+<a id="a76386b76fb90bd5106f6f4b71c89c379" name="a76386b76fb90bd5106f6f4b71c89c379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76386b76fb90bd5106f6f4b71c89c379">&#9670;&#160;</a></span>ipow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T Acts::ipow </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>num</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>pow</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel consteval">consteval</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the integer power of a number at compile time using recursion. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo</a></b></dt><dd>std::pow() will be constexpr in C++26 and this function can be removed </dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of the base number, which should support multiplication by itself </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num</td><td>The base number to be raised to a power </td></tr>
+    <tr><td class="paramname">pow</td><td>The exponent to which the base number is raised </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The result of num raised to the power of pow </dd></dl>
 
 </div>
 </div>

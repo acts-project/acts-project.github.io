@@ -1,15 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"class_acts_1_1_candidates_for_middle_sp.html#a08341a987d1a2a3217d1036f9879e7cf":[5,0,0,59,5],
-"class_acts_1_1_candidates_for_middle_sp.html#a08341a987d1a2a3217d1036f9879e7cf":[7,0,0,66,5],
-"class_acts_1_1_candidates_for_middle_sp.html#a2d373fa2e93f477075ce1a48152bd0d2":[5,0,0,59,1],
-"class_acts_1_1_candidates_for_middle_sp.html#a2d373fa2e93f477075ce1a48152bd0d2":[7,0,0,66,1],
-"class_acts_1_1_candidates_for_middle_sp.html#a395f4ae8e52033d76292449b1204be7e":[5,0,0,59,4],
-"class_acts_1_1_candidates_for_middle_sp.html#a395f4ae8e52033d76292449b1204be7e":[7,0,0,66,4],
-"class_acts_1_1_candidates_for_middle_sp.html#a3986010b95e06f7807417850a8195ff4":[5,0,0,59,6],
-"class_acts_1_1_candidates_for_middle_sp.html#a3986010b95e06f7807417850a8195ff4":[7,0,0,66,6],
-"class_acts_1_1_candidates_for_middle_sp.html#a5c47338ec2b71a1593bc8ca492c01c04":[5,0,0,59,8],
-"class_acts_1_1_candidates_for_middle_sp.html#a5c47338ec2b71a1593bc8ca492c01c04":[7,0,0,66,8],
 "class_acts_1_1_candidates_for_middle_sp.html#a76d98501e0e8f57ba8cca334af824fa8":[5,0,0,59,2],
 "class_acts_1_1_candidates_for_middle_sp.html#a76d98501e0e8f57ba8cca334af824fa8":[7,0,0,66,2],
 "class_acts_1_1_candidates_for_middle_sp.html#a8d03636283ed373507d127c8339f7e7b":[5,0,0,59,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX5 =
 "class_acts_1_1_cone_surface.html#ad45a22522485e3e546dc880729f99a45":[5,0,0,72,17],
 "class_acts_1_1_cone_surface.html#ad45a22522485e3e546dc880729f99a45":[7,0,0,79,17],
 "class_acts_1_1_cone_surface.html#addb4dc55b29203c66db00b7dc75a64a0":[5,0,0,72,25],
-"class_acts_1_1_cone_surface.html#addb4dc55b29203c66db00b7dc75a64a0":[7,0,0,79,25]
+"class_acts_1_1_cone_surface.html#addb4dc55b29203c66db00b7dc75a64a0":[7,0,0,79,25],
+"class_acts_1_1_cone_surface.html#adfcdc971f3fd4de8049476a3866f88ca":[5,0,0,72,15],
+"class_acts_1_1_cone_surface.html#adfcdc971f3fd4de8049476a3866f88ca":[7,0,0,79,15],
+"class_acts_1_1_cone_surface.html#aec88655bd71c0e66bd45301284c9aa84":[5,0,0,72,23],
+"class_acts_1_1_cone_surface.html#aec88655bd71c0e66bd45301284c9aa84":[7,0,0,79,23],
+"class_acts_1_1_cone_surface.html#aff3297a3fd7b5239dcdd710d10877163":[5,0,0,72,27],
+"class_acts_1_1_cone_surface.html#aff3297a3fd7b5239dcdd710d10877163":[7,0,0,79,27],
+"class_acts_1_1_cone_volume_bounds.html":[5,0,0,73],
+"class_acts_1_1_cone_volume_bounds.html":[7,0,0,80],
+"class_acts_1_1_cone_volume_bounds.html#a0c1a6016fa8abb95c631face17138108":[5,0,0,73,16],
+"class_acts_1_1_cone_volume_bounds.html#a0c1a6016fa8abb95c631face17138108":[7,0,0,80,16]
 };

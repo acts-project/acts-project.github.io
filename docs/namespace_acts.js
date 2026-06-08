@@ -1022,6 +1022,7 @@ var namespace_acts =
     [ "hashStringDynamic", "namespace_acts.html#a04217815a63aceaf6ab6d5b64a057cbe", null ],
     [ "hypotSquare", "namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209", null ],
     [ "interpolate", "namespace_acts.html#a3caf69a4c80cf869115afbab91cd8163", null ],
+    [ "ipow", "namespace_acts.html#a76386b76fb90bd5106f6f4b71c89c379", null ],
     [ "isBoundVectorValid", "namespace_acts.html#a94a8f9b03ea4540ab29e8d70330fa7f0", null ],
     [ "isFreeVectorValid", "namespace_acts.html#abe77e44cea219bce9c03f8b2344bebaa", null ],
     [ "isNucleus", "namespace_acts.html#a0dad26c0de75201a5b5d1fe7ce6c88e3", null ],

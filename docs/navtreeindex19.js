@@ -1,15 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_acts_1_1_i_navigation_policy.html#a6a2bef72c7ff7f6176debf91c3eaa781":[7,0,0,194,3],
-"class_acts_1_1_i_navigation_policy.html#a830e1fe408c9b8170f397e9ecb4313ee":[5,0,0,187,4],
-"class_acts_1_1_i_navigation_policy.html#a830e1fe408c9b8170f397e9ecb4313ee":[7,0,0,194,4],
-"class_acts_1_1_i_navigation_policy.html#ad2694fb8b77a560d184a6a9670d65300":[5,0,0,187,2],
-"class_acts_1_1_i_navigation_policy.html#ad2694fb8b77a560d184a6a9670d65300":[7,0,0,194,2],
-"class_acts_1_1_i_navigation_policy.html#add716fb1168fb2f552380b5051df5bc8":[5,0,0,187,8],
-"class_acts_1_1_i_navigation_policy.html#add716fb1168fb2f552380b5051df5bc8":[7,0,0,194,8],
-"class_acts_1_1_i_navigation_policy.html#afebd3a428f89eee6d74e609926d1ff75":[5,0,0,187,7],
-"class_acts_1_1_i_navigation_policy.html#afebd3a428f89eee6d74e609926d1ff75":[7,0,0,194,7],
-"class_acts_1_1_i_surface_material.html":[4,3,2,18],
 "class_acts_1_1_i_surface_material.html#a0872ac9617f241ea6c4ec172dbe5b196":[4,3,2,18,11],
 "class_acts_1_1_i_surface_material.html#a14830ae9c42fbb765f9c0d6a2fd70fff":[4,3,2,18,7],
 "class_acts_1_1_i_surface_material.html#a1ccdc97ec06bf80f5030a0d8ebfb90b5":[4,3,2,18,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX19 =
 "class_acts_1_1_interpolated_b_field_map.html#ab741243770b7835033ac0e8cd53ddbf6":[4,3,1,1,13],
 "class_acts_1_1_interpolated_b_field_map.html#ab741243770b7835033ac0e8cd53ddbf6":[4,10,0,1,13],
 "class_acts_1_1_interpolated_b_field_map.html#abbd6e6d50359354a59eef941b50a7530":[4,3,1,1,6],
-"class_acts_1_1_interpolated_b_field_map.html#abbd6e6d50359354a59eef941b50a7530":[4,10,0,1,6]
+"class_acts_1_1_interpolated_b_field_map.html#abbd6e6d50359354a59eef941b50a7530":[4,10,0,1,6],
+"class_acts_1_1_interpolated_b_field_map.html#ac0ac336f219458f0879f86e71e40be69":[4,3,1,1,5],
+"class_acts_1_1_interpolated_b_field_map.html#ac0ac336f219458f0879f86e71e40be69":[4,10,0,1,5],
+"class_acts_1_1_interpolated_magnetic_field.html":[4,3,1,2],
+"class_acts_1_1_interpolated_magnetic_field.html":[4,10,0,2],
+"class_acts_1_1_interpolated_magnetic_field.html#a3cf32056aae4723cba811d64199ab174":[4,3,1,2,0],
+"class_acts_1_1_interpolated_magnetic_field.html#a3cf32056aae4723cba811d64199ab174":[4,10,0,2,0],
+"class_acts_1_1_interpolated_magnetic_field.html#a3cf6102b40ab605cfccef8479f518767":[4,3,1,2,3],
+"class_acts_1_1_interpolated_magnetic_field.html#a3cf6102b40ab605cfccef8479f518767":[4,10,0,2,3],
+"class_acts_1_1_interpolated_magnetic_field.html#a53e79a3c10664f58b483a10302a36ad0":[4,3,1,2,2],
+"class_acts_1_1_interpolated_magnetic_field.html#a53e79a3c10664f58b483a10302a36ad0":[4,10,0,2,2]
 };

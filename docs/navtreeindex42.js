@@ -1,7 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"concept_acts_1_1_common_multi_trajectory_backend.html":[6,0,16],
-"concept_acts_1_1_concepts_1_1_basic_track_parameters.html":[6,0,1,1],
 "concept_acts_1_1_concepts_1_1_common_stepper.html":[6,0,1,2],
 "concept_acts_1_1_concepts_1_1_multi_stepper.html":[6,0,1,11],
 "concept_acts_1_1_concepts_1_1_single_stepper.html":[6,0,1,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX42 =
 "group__dd4hep__plugin.html#ga597bb2f116d8b7a4461715822706454b":[4,9,2,19],
 "group__dd4hep__plugin.html#ga64cb99b8e5651412983806dc65ec396c":[4,9,2,30],
 "group__dd4hep__plugin.html#ga67f9b56f4d2999ea6c8577c77eeafe2b":[4,9,2,21],
-"group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776":[4,9,2,16]
+"group__dd4hep__plugin.html#ga7a21513ede0d0c5eddded3080b845776":[4,9,2,16],
+"group__dd4hep__plugin.html#ga836ea8e26dd40df2f49a4d8feb3a6ace":[4,9,2,13],
+"group__dd4hep__plugin.html#ga8c3a686ae6d25dbf550c9110f880d2b0":[4,9,2,26]
 };

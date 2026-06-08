@@ -127,7 +127,7 @@ $(function(){initNavTree('group__eventdata-charge.html','',''); });
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Track parameters store a single coefficient that describes charge and momentum. </p>
-<p>This is either charge/momentum or 1/momentum, but the interpretation depends on what type of particle is described. In this code base this coefficient is always referred to as <span class="tt">qOverP</span> (or charge-over-momentum) even for uncharged particles. The following types are used to restrict the particle charge magnitude (at compile time) and support the umambigous extraction of charge and absolute momentum from said track parameter coefficient.</p>
+<p>This is always charge/momentum, even if the particle is neutral. The following types are used to restrict the particle charge magnitude (at compile time) and support the umambigous extraction of charge and absolute momentum from said track parameter coefficient.</p>
 <p>All types are designed to be interchangeable. Each one can be constructed with the input charge magnitude</p>
 <div class="fragment"><div class="line">ChargeHypothesis c(1_e);</div>
 </div><!-- fragment --><p>and can then be used to extract the charge value</p>
