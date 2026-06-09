@@ -1012,6 +1012,7 @@ var hierarchy =
       [ "ActsPlugins::TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html", null ],
       [ "ActsPlugins::TorchEdgeClassifier", "class_acts_plugins_1_1_torch_edge_classifier.html", null ]
     ] ],
+    [ "ActsPlugins::EdgeLayerConnector::Config", "struct_acts_plugins_1_1_edge_layer_connector_1_1_config.html", null ],
     [ "ActsPlugins::EDM4hepUtil::MeasurementData", "struct_acts_plugins_1_1_e_d_m4hep_util_1_1_measurement_data.html", null ],
     [ "ActsPlugins::EDM4hepUtil::SimHitAssociation", "class_acts_plugins_1_1_e_d_m4hep_util_1_1_sim_hit_association.html", null ],
     [ "ActsPlugins::ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", null ],
@@ -1114,7 +1115,8 @@ var hierarchy =
     [ "ActsPlugins::TorchMetricLearning::Config", "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html", null ],
     [ "ActsPlugins::TrackBuildingBase", "class_acts_plugins_1_1_track_building_base.html", [
       [ "ActsPlugins::BoostTrackBuilding", "class_acts_plugins_1_1_boost_track_building.html", null ],
-      [ "ActsPlugins::CudaTrackBuilding", "class_acts_plugins_1_1_cuda_track_building.html", null ]
+      [ "ActsPlugins::CudaTrackBuilding", "class_acts_plugins_1_1_cuda_track_building.html", null ],
+      [ "ActsPlugins::EdgeLayerConnector", "class_acts_plugins_1_1_edge_layer_connector.html", null ]
     ] ],
     [ "ContextType", null, [
       [ "Acts::CalibrationContext", "class_acts_1_1_calibration_context.html", null ],

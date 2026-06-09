@@ -24,6 +24,7 @@ var namespace_acts_plugins =
     [ "DetrayUnsupportedMaterialException", "class_acts_plugins_1_1_detray_unsupported_material_exception.html", "class_acts_plugins_1_1_detray_unsupported_material_exception" ],
     [ "Device", "struct_acts_plugins_1_1_device.html", "struct_acts_plugins_1_1_device" ],
     [ "EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html", "class_acts_plugins_1_1_edge_classification_base" ],
+    [ "EdgeLayerConnector", "class_acts_plugins_1_1_edge_layer_connector.html", "class_acts_plugins_1_1_edge_layer_connector" ],
     [ "ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", "struct_acts_plugins_1_1_execution_context" ],
     [ "FpeMonitor", "class_acts_plugins_1_1_fpe_monitor.html", "class_acts_plugins_1_1_fpe_monitor" ],
     [ "Geant4AlgebraConverter", "struct_acts_plugins_1_1_geant4_algebra_converter.html", "struct_acts_plugins_1_1_geant4_algebra_converter" ],
