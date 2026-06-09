@@ -242,9 +242,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="class_acts_1_1_any_base.html" target="_top" xlink:title="Small opaque type&#45;erased type with configurable small buffer optimization.">
-<polygon fill="white" stroke="#666666" points="355,-104.5 218,-104.5 218,-74.5 355,-74.5 355,-104.5"/>
-<text text-anchor="start" x="226" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; sb_size,</text>
-<text text-anchor="middle" x="286.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00"> copyable &gt;</text>
+<polygon fill="white" stroke="#666666" points="353,-104.5 220,-104.5 220,-74.5 353,-74.5 353,-104.5"/>
+<text text-anchor="start" x="228" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; SbSize,</text>
+<text text-anchor="middle" x="286.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Copyable, Base &gt;</text>
 </a>
 </g>
 </g>
@@ -252,7 +252,7 @@ var sectionId = 'dynsection-0';
 <g id="edge11_Node000011_Node000010" class="edge">
 <title>Node10&#45;&gt;Node11</title>
 <g id="a_edge11_Node000011_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M131.11,-108.35C157.94,-105.07 189.88,-101.17 217.74,-97.77"/>
+<path fill="none" stroke="#63b8ff" d="M131.33,-108.32C158.76,-104.97 191.51,-100.97 219.75,-97.53"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="130.6,-104.88 121.1,-109.57 131.45,-111.83 130.6,-104.88"/>
 </a>
 </g>
@@ -261,8 +261,8 @@ var sectionId = 'dynsection-0';
 <g id="edge10_Node000009_Node000011" class="edge">
 <title>Node11&#45;&gt;Node9</title>
 <g id="a_edge10_Node000009_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M365.29,-89.5C410.82,-89.5 467.56,-89.5 510.22,-89.5"/>
-<polygon fill="orange" stroke="orange" points="365.16,-86 355.16,-89.5 365.16,-93 365.16,-86"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M363.55,-89.5C409.44,-89.5 467.18,-89.5 510.41,-89.5"/>
+<polygon fill="orange" stroke="orange" points="363.36,-86 353.36,-89.5 363.36,-93 363.36,-86"/>
 </a>
 </g>
 <text text-anchor="start" x="379.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; sizeof(char) *512 &gt;</text>

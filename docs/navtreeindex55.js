@@ -1,5 +1,12 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#ad824504a64926594079b178debff0c33":[5,0,0,3,1,2],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#ad824504a64926594079b178debff0c33":[7,0,0,6,1,2],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html":[5,0,0,3,4],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html":[7,0,0,6,4],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[5,0,0,3,4,0],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[7,0,0,6,4,0],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[5,0,0,3,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[7,0,0,6,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[5,0,0,3,0,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[7,0,0,6,0,0,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html":[4,10,0,1,2],
 "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1b6514eb580b994c4bfb6b284f3d4752":[4,3,1,1,2,2],
 "struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1b6514eb580b994c4bfb6b284f3d4752":[4,10,0,1,2,2],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1f203f4cb00108dca4bc6aae19540237":[4,3,1,1,2,0],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1f203f4cb00108dca4bc6aae19540237":[4,10,0,1,2,0],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09":[4,3,1,1,2,3],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09":[4,10,0,1,2,3],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[4,3,1,1,2,1],
-"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[4,10,0,1,2,1],
-"struct_acts_1_1_interpolated_material_map_1_1_cache.html":[4,3,2,17,0],
-"struct_acts_1_1_interpolated_material_map_1_1_cache.html#acb0bf22899fd4caa0f5daa3985187509":[4,3,2,17,0,0]
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1f203f4cb00108dca4bc6aae19540237":[4,3,1,1,2,0]
 };

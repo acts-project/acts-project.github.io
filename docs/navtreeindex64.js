@@ -1,5 +1,12 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[5,0,0,427,1,0],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[7,0,0,434,1,0],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[5,0,0,427,1,4],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[7,0,0,434,1,4],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a89c3f9244958dcbbbde9bfda14388192":[5,0,0,427,1,1],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a89c3f9244958dcbbbde9bfda14388192":[7,0,0,434,1,1],
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#ab4a2f25316897e52f54d6b538f9bf656":[5,0,0,427,1,6],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#ab4a2f25316897e52f54d6b538f9bf656":[7,0,0,434,1,6],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1":[5,0,0,427,1,5],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#abc327fd2643458706e9f98bb9c3013f1":[7,0,0,434,1,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137":[5,0,0,450,1,2],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137":[7,0,0,457,1,2],
 "struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1":[5,0,0,450,1,5],
-"struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1":[7,0,0,457,1,5],
-"struct_acts_1_1_volume_selector.html":[5,0,0,452],
-"struct_acts_1_1_volume_selector.html":[7,0,0,459],
-"struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[5,0,0,452,3],
-"struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[7,0,0,459,3],
-"struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a":[5,0,0,452,1],
-"struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a":[7,0,0,459,1],
-"struct_acts_1_1_volume_selector.html#a50ca2ae2b3d159b3d4d36b19bdd5ea3e":[5,0,0,452,0]
+"struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1":[7,0,0,457,1,5]
 };

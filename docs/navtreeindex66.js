@@ -1,5 +1,12 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#abb9eb5b7258429c3315dd26fd43d2cf7":[5,0,2,18,0,4],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#abb9eb5b7258429c3315dd26fd43d2cf7":[7,0,1,19,0,4],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26":[5,0,2,18,0,1],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26":[7,0,1,19,0,1],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a":[5,0,2,18,0,6],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a":[7,0,1,19,0,6],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#af9a88aa5ee0cfa2c44ce32bd9e8f9e5f":[5,0,2,18,0,5],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#af9a88aa5ee0cfa2c44ce32bd9e8f9e5f":[7,0,1,19,0,5],
 "struct_acts_fatras_1_1_max.html":[5,0,2,19],
 "struct_acts_fatras_1_1_max.html":[7,0,1,20],
@@ -242,12 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a755635698f150e7c303db79024b8e6ba":[4,9,3,1,1,2],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a76f6bb4069cf112277624229e021a036":[4,9,3,1,1,4],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a90b02fc06a2d2bc766c22c6912c3d30e":[4,9,3,1,1,0],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a9239d19fa3c531e8c8602514967e1224":[4,9,3,1,1,3],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e":[4,9,3,1,1,1],
-"struct_acts_plugins_1_1_device.html":[4,9,6,2],
-"struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72":[4,9,6,2,3],
-"struct_acts_plugins_1_1_device.html#a6f4a90fb663d1a054e7217269d41755d":[4,9,6,2,4],
-"struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366":[4,9,6,2,0],
-"struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71":[4,9,6,2,7],
-"struct_acts_plugins_1_1_device.html#ab415c73a916bc8a0eea4a67b4e065064":[4,9,6,2,5]
+"struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a9239d19fa3c531e8c8602514967e1224":[4,9,3,1,1,3]
 };

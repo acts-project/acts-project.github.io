@@ -1,5 +1,12 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_seed_finder_config.html#a1f283e7844b2b2628d7767f123e8cfd0":[5,0,0,349,49],
+"struct_acts_1_1_seed_finder_config.html#a1f283e7844b2b2628d7767f123e8cfd0":[7,0,0,356,49],
+"struct_acts_1_1_seed_finder_config.html#a2b24726af830503fffe93d9697ed660e":[5,0,0,349,35],
+"struct_acts_1_1_seed_finder_config.html#a2b24726af830503fffe93d9697ed660e":[7,0,0,356,35],
+"struct_acts_1_1_seed_finder_config.html#a31c2dba0848f84aea5859344cc600a02":[5,0,0,349,22],
+"struct_acts_1_1_seed_finder_config.html#a31c2dba0848f84aea5859344cc600a02":[7,0,0,356,22],
+"struct_acts_1_1_seed_finder_config.html#a3cb752538f7f25459e12fb55b27ee460":[5,0,0,349,11],
 "struct_acts_1_1_seed_finder_config.html#a3cb752538f7f25459e12fb55b27ee460":[7,0,0,356,11],
 "struct_acts_1_1_seed_finder_config.html#a43d82fe8447f60c92068c86bbd7e4925":[5,0,0,349,50],
 "struct_acts_1_1_seed_finder_config.html#a43d82fe8447f60c92068c86bbd7e4925":[7,0,0,356,50],
@@ -242,12 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_space_point_builder_options.html":[5,0,0,363],
 "struct_acts_1_1_space_point_builder_options.html":[7,0,0,370],
 "struct_acts_1_1_space_point_builder_options.html#a13efaade346ffe6419270adb6804fb0f":[5,0,0,363,1],
-"struct_acts_1_1_space_point_builder_options.html#a13efaade346ffe6419270adb6804fb0f":[7,0,0,370,1],
-"struct_acts_1_1_space_point_builder_options.html#a4d7d3ce4ce1b875d6e8126302ffb5854":[5,0,0,363,2],
-"struct_acts_1_1_space_point_builder_options.html#a4d7d3ce4ce1b875d6e8126302ffb5854":[7,0,0,370,2],
-"struct_acts_1_1_space_point_builder_options.html#a57e465007f4c431bc35f9a3cc3de5161":[5,0,0,363,3],
-"struct_acts_1_1_space_point_builder_options.html#a57e465007f4c431bc35f9a3cc3de5161":[7,0,0,370,3],
-"struct_acts_1_1_space_point_builder_options.html#ab0da8f992071f1d376cf411311b89539":[5,0,0,363,4],
-"struct_acts_1_1_space_point_builder_options.html#ab0da8f992071f1d376cf411311b89539":[7,0,0,370,4],
-"struct_acts_1_1_space_point_builder_options.html#af3266675bdc9718e15f5d960ff7c5483":[5,0,0,363,0]
+"struct_acts_1_1_space_point_builder_options.html#a13efaade346ffe6419270adb6804fb0f":[7,0,0,370,1]
 };

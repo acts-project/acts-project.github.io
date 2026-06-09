@@ -1,5 +1,12 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a44f2f74cede8c8fe016f399a4e2b3756":[7,0,0,149,2,2],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#add022ac4ea77e79d82145cdbd0beb5f1":[5,0,0,142,2,6],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#add022ac4ea77e79d82145cdbd0beb5f1":[7,0,0,149,2,6],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[5,0,0,142,2,5],
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[7,0,0,149,2,5],
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[5,0,0,144,0],
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[7,0,0,151,0],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[5,0,0,144,0,0],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[7,0,0,151,0,0],
 "struct_acts_1_1_geometry_context_ostream_wrapper.html":[5,0,0,146],
@@ -242,12 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a54299b3ce55994b6c7a0dbb6c997fc54":[5,0,0,3,1,0],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a54299b3ce55994b6c7a0dbb6c997fc54":[7,0,0,6,1,0],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a8fcc661394755e55bce40806c9dc21f1":[5,0,0,3,1,3],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a8fcc661394755e55bce40806c9dc21f1":[7,0,0,6,1,3],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#ad824504a64926594079b178debff0c33":[5,0,0,3,1,2],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#ad824504a64926594079b178debff0c33":[7,0,0,6,1,2],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html":[5,0,0,3,4],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html":[7,0,0,6,4],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[5,0,0,3,4,0],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[7,0,0,6,4,0],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[5,0,0,3,4,1]
+"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a8fcc661394755e55bce40806c9dc21f1":[7,0,0,6,1,3]
 };

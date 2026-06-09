@@ -156,9 +156,9 @@
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="class_acts_1_1_any_base.html" target="_top" xlink:title="Small opaque type&#45;erased type with configurable small buffer optimization.">
-<polygon fill="white" stroke="#666666" points="355,-104.5 218,-104.5 218,-74.5 355,-74.5 355,-104.5"/>
-<text text-anchor="start" x="226" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; sb_size,</text>
-<text text-anchor="middle" x="286.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00"> copyable &gt;</text>
+<polygon fill="white" stroke="#666666" points="353,-104.5 220,-104.5 220,-74.5 353,-74.5 353,-104.5"/>
+<text text-anchor="start" x="228" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; SbSize,</text>
+<text text-anchor="middle" x="286.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Copyable, Base &gt;</text>
 </a>
 </g>
 </g>
@@ -166,7 +166,7 @@
 <g id="edge9_Node000009_Node000008" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge9_Node000009_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M131.11,-111.97C157.94,-108.07 189.88,-103.42 217.74,-99.36"/>
+<path fill="none" stroke="#63b8ff" d="M131.33,-111.94C158.76,-107.95 191.51,-103.18 219.75,-99.07"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="130.49,-108.52 121.1,-113.43 131.5,-115.45 130.49,-108.52"/>
 </a>
 </g>
@@ -175,8 +175,8 @@
 <g id="edge8_Node000007_Node000009" class="edge">
 <title>Node9&#45;&gt;Node7</title>
 <g id="a_edge8_Node000007_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M365.15,-89.5C411.56,-89.5 469.74,-89.5 513.22,-89.5"/>
-<polygon fill="orange" stroke="orange" points="365.14,-86 355.14,-89.5 365.14,-93 365.14,-86"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M363.41,-89.5C410.16,-89.5 469.37,-89.5 513.42,-89.5"/>
+<polygon fill="orange" stroke="orange" points="363.33,-86 353.33,-89.5 363.33,-93 363.33,-86"/>
 </a>
 </g>
 <text text-anchor="start" x="379.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; sizeof(char) *512 &gt;</text>

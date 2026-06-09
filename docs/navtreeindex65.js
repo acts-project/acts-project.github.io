@@ -1,5 +1,12 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_volume_selector.html":[5,0,0,452],
+"struct_acts_1_1_volume_selector.html":[7,0,0,459],
+"struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[5,0,0,452,3],
+"struct_acts_1_1_volume_selector.html#a18060369e61021574d789279a7500033":[7,0,0,459,3],
+"struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a":[5,0,0,452,1],
+"struct_acts_1_1_volume_selector.html#a3df77d445f29bcd1c281912680f4448a":[7,0,0,459,1],
+"struct_acts_1_1_volume_selector.html#a50ca2ae2b3d159b3d4d36b19bdd5ea3e":[5,0,0,452,0],
 "struct_acts_1_1_volume_selector.html#a50ca2ae2b3d159b3d4d36b19bdd5ea3e":[7,0,0,459,0],
 "struct_acts_1_1_volume_selector.html#a574bf92e3da415008e364fa9a98ecc1b":[5,0,0,452,4],
 "struct_acts_1_1_volume_selector.html#a574bf92e3da415008e364fa9a98ecc1b":[7,0,0,459,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a3c5321e0bb8e7f4206da59d7dda1beb0":[5,0,2,18,0,7],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a3c5321e0bb8e7f4206da59d7dda1beb0":[7,0,1,19,0,7],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a42012fba348a159d513592b3a8c2305b":[5,0,2,18,0,8],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a42012fba348a159d513592b3a8c2305b":[7,0,1,19,0,8],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#abb9eb5b7258429c3315dd26fd43d2cf7":[5,0,2,18,0,4],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#abb9eb5b7258429c3315dd26fd43d2cf7":[7,0,1,19,0,4],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26":[5,0,2,18,0,1],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26":[7,0,1,19,0,1],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a":[5,0,2,18,0,6],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a":[7,0,1,19,0,6],
-"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#af9a88aa5ee0cfa2c44ce32bd9e8f9e5f":[5,0,2,18,0,5]
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a42012fba348a159d513592b3a8c2305b":[7,0,1,19,0,8]
 };

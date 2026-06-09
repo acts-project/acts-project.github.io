@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,245,107,301,102,301,102,245"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="33,5,165,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,45,107,190,101,190,97,45"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="121,80,304,120"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="128,36,187,78,184,82,125,41"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="186,131,126,192,122,188,183,128"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="121,80,299,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="128,37,185,78,182,82,125,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="184,132,125,192,121,189,180,128"/>
 </map>

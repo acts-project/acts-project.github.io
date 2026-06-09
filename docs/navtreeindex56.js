@@ -1,5 +1,12 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a1f203f4cb00108dca4bc6aae19540237":[4,10,0,1,2,0],
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09":[4,3,1,1,2,3],
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09":[4,10,0,1,2,3],
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[4,3,1,1,2,1],
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[4,10,0,1,2,1],
+"struct_acts_1_1_interpolated_material_map_1_1_cache.html":[4,3,2,17,0],
+"struct_acts_1_1_interpolated_material_map_1_1_cache.html#acb0bf22899fd4caa0f5daa3985187509":[4,3,2,17,0,0],
 "struct_acts_1_1_interpolated_material_map_1_1_cache.html#aee4de0ac7b3e281317d6d19a5e3f51da":[4,3,2,17,0,1],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,0,0,201,0],
 "struct_acts_1_1_intersection_material_assigner_1_1_config.html":[7,0,0,208,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a8d259edab66cba82a13643fba5699c29":[4,3,2,21,0,3],
 "struct_acts_1_1_material_mapper_1_1_config.html":[4,3,2,0,3,0],
 "struct_acts_1_1_material_mapper_1_1_config.html#a8faaafc7224e9d3414d3332b526092e6":[4,3,2,0,3,0,0],
-"struct_acts_1_1_material_mapper_1_1_config.html#abeef6b9b5023b6c958231b4713b9e8a7":[4,3,2,0,3,0,1],
-"struct_acts_1_1_material_mapper_1_1_options.html":[4,3,2,0,3,1],
-"struct_acts_1_1_material_mapper_1_1_options.html#a90ae8885880c8b835300deceb21b157b":[4,3,2,0,3,1,0],
-"struct_acts_1_1_material_mapper_1_1_state.html":[4,3,2,0,3,2],
-"struct_acts_1_1_material_mapper_1_1_state.html#a2f245ba3381f8586259bd651c81c285a":[4,3,2,0,3,2,0],
-"struct_acts_1_1_material_surface.html":[5,0,0,255],
-"struct_acts_1_1_material_surface.html":[7,0,0,262],
-"struct_acts_1_1_material_surface.html#a8a9febdb86fd43ac019b93cac7bd087e":[5,0,0,255,0]
+"struct_acts_1_1_material_mapper_1_1_config.html#abeef6b9b5023b6c958231b4713b9e8a7":[4,3,2,0,3,0,1]
 };

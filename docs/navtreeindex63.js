@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#affe38871a1c221a7392a6ca3754bd689":[5,0,0,400,4,5],
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#affe38871a1c221a7392a6ca3754bd689":[7,0,0,407,4,5],
+"struct_acts_1_1_track_at_vertex.html":[5,0,0,401],
+"struct_acts_1_1_track_at_vertex.html":[7,0,0,408],
+"struct_acts_1_1_track_at_vertex.html#a0448901dd21c0fe208a46b5691815866":[5,0,0,401,8],
+"struct_acts_1_1_track_at_vertex.html#a0448901dd21c0fe208a46b5691815866":[7,0,0,408,8],
+"struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[5,0,0,401,3],
 "struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[7,0,0,408,3],
 "struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[5,0,0,401,2],
 "struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[7,0,0,408,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html":[5,0,0,427,1],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html":[7,0,0,434,1],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[5,0,0,427,1,3],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[7,0,0,434,1,3],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[5,0,0,427,1,0],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[7,0,0,434,1,0],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[5,0,0,427,1,4],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[7,0,0,434,1,4],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a89c3f9244958dcbbbde9bfda14388192":[5,0,0,427,1,1],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a89c3f9244958dcbbbde9bfda14388192":[7,0,0,434,1,1],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#ab4a2f25316897e52f54d6b538f9bf656":[5,0,0,427,1,6]
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[7,0,0,434,1,3]
 };

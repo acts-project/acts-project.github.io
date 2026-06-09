@@ -1,5 +1,12 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#a97a45e8c2024edb1f11798495ec619ea":[7,0,0,122,1,1],
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#acc439a90f3c31d85ae3452d229cab3c7":[5,0,0,115,1,0],
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#acc439a90f3c31d85ae3452d229cab3c7":[7,0,0,122,1,0],
+"struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html":[5,0,0,116,0],
+"struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html":[7,0,0,123,0],
+"struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#a818543cad32fef5c90a07361d4e64bba":[5,0,0,116,0,1],
+"struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#a818543cad32fef5c90a07361d4e64bba":[7,0,0,123,0,1],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#ae4c24faa3132bc2129881c7316f10b86":[5,0,0,116,0,0],
 "struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html#ae4c24faa3132bc2129881c7316f10b86":[7,0,0,123,0,0],
 "struct_acts_1_1_eigen_stepper_1_1_config.html":[5,0,0,118,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ac55c0ed6699d4b0e1b623a465ef9fea3":[7,0,0,2,6,3,1],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad206fd302688c67ca5e15d7f6f4ba47e":[5,0,0,1,6,3,7],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad206fd302688c67ca5e15d7f6f4ba47e":[7,0,0,2,6,3,7],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[5,0,0,1,6,3,8],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[7,0,0,2,6,3,8],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[5,0,0,1,6,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[7,0,0,2,6,4],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html#a7684bd5ac5599da21622cc87d3629950":[5,0,0,1,6,4,0],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html#a7684bd5ac5599da21622cc87d3629950":[7,0,0,2,6,4,0],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html":[5,0,0,1,7,0],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html":[7,0,0,2,7,0]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[5,0,0,1,6,3,8]
 };

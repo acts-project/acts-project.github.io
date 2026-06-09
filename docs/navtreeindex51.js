@@ -1,5 +1,12 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#ad8f4b7939642649a7314ef09c3fa86d9":[7,0,0,2,6,3,8],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[5,0,0,1,6,4],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html":[7,0,0,2,6,4],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html#a7684bd5ac5599da21622cc87d3629950":[5,0,0,1,6,4,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_result.html#a7684bd5ac5599da21622cc87d3629950":[7,0,0,2,6,4,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html":[5,0,0,1,7,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html":[7,0,0,2,7,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#a10c417fdebc4a6c39b03ae506ccc8381":[5,0,0,1,7,0,9],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#a10c417fdebc4a6c39b03ae506ccc8381":[7,0,0,2,7,0,9],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_config.html#a34d1f04c33fd99476b28d3774e2ff3b9":[5,0,0,1,7,0,10],
@@ -242,12 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a122fa536db18a3e31db7655e29a59bd6":[7,0,0,2,24,2],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9f0568d37822ce57545afe40878ee22c":[5,0,0,1,24,1],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9f0568d37822ce57545afe40878ee22c":[7,0,0,2,24,1],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[5,0,0,1,24,3],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[7,0,0,2,24,3],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[5,0,0,1,24,4],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac23731356e92dce07faf735e24e0ff30":[7,0,0,2,24,4],
-"struct_acts_1_1_experimental_1_1_gbts_node.html":[5,0,0,1,25],
-"struct_acts_1_1_experimental_1_1_gbts_node.html":[7,0,0,2,25],
-"struct_acts_1_1_experimental_1_1_gbts_node.html#a1ca551c21cfb0630d275e2e4e85f7122":[5,0,0,1,25,2],
-"struct_acts_1_1_experimental_1_1_gbts_node.html#a1ca551c21cfb0630d275e2e4e85f7122":[7,0,0,2,25,2]
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#ac055d01f011cee9d6067679e1aa9a9f3":[5,0,0,1,24,3]
 };

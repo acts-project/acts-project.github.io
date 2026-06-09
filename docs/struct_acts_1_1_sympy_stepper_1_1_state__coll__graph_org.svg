@@ -156,9 +156,9 @@
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="class_acts_1_1_any_base.html" target="_top" xlink:title="Small opaque type&#45;erased type with configurable small buffer optimization.">
-<polygon fill="white" stroke="#666666" points="355,-42.5 218,-42.5 218,-12.5 355,-12.5 355,-42.5"/>
-<text text-anchor="start" x="226" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; sb_size,</text>
-<text text-anchor="middle" x="286.5" y="-19.5" font-family="Helvetica,sans-Serif" font-size="10.00"> copyable &gt;</text>
+<polygon fill="white" stroke="#666666" points="353,-42.5 220,-42.5 220,-12.5 353,-12.5 353,-42.5"/>
+<text text-anchor="start" x="228" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::AnyBase&lt; SbSize,</text>
+<text text-anchor="middle" x="286.5" y="-19.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Copyable, Base &gt;</text>
 </a>
 </g>
 </g>
@@ -166,7 +166,7 @@
 <g id="edge9_Node000009_Node000008" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge9_Node000009_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M131.11,-46.35C157.94,-43.07 189.88,-39.17 217.74,-35.77"/>
+<path fill="none" stroke="#63b8ff" d="M131.33,-46.32C158.76,-42.97 191.51,-38.97 219.75,-35.53"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="130.6,-42.88 121.1,-47.57 131.45,-49.83 130.6,-42.88"/>
 </a>
 </g>
@@ -175,8 +175,8 @@
 <g id="edge8_Node000007_Node000009" class="edge">
 <title>Node9&#45;&gt;Node7</title>
 <g id="a_edge8_Node000007_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M365.59,-30.44C402.99,-32.28 448.39,-35.16 489,-39.5 495.9,-40.24 503.09,-41.14 510.24,-42.13"/>
-<polygon fill="orange" stroke="orange" points="365.41,-26.93 355.26,-29.94 365.08,-33.92 365.41,-26.93"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M363.83,-30.35C401.57,-32.19 447.75,-35.09 489,-39.5 495.9,-40.24 503.09,-41.14 510.24,-42.13"/>
+<polygon fill="orange" stroke="orange" points="363.58,-26.84 353.42,-29.86 363.25,-33.83 363.58,-26.84"/>
 </a>
 </g>
 <text text-anchor="start" x="379.5" y="-45" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; sizeof(char) *512 &gt;</text>

@@ -1,5 +1,12 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_space_point_builder_options.html#a4d7d3ce4ce1b875d6e8126302ffb5854":[5,0,0,363,2],
+"struct_acts_1_1_space_point_builder_options.html#a4d7d3ce4ce1b875d6e8126302ffb5854":[7,0,0,370,2],
+"struct_acts_1_1_space_point_builder_options.html#a57e465007f4c431bc35f9a3cc3de5161":[5,0,0,363,3],
+"struct_acts_1_1_space_point_builder_options.html#a57e465007f4c431bc35f9a3cc3de5161":[7,0,0,370,3],
+"struct_acts_1_1_space_point_builder_options.html#ab0da8f992071f1d376cf411311b89539":[5,0,0,363,4],
+"struct_acts_1_1_space_point_builder_options.html#ab0da8f992071f1d376cf411311b89539":[7,0,0,370,4],
+"struct_acts_1_1_space_point_builder_options.html#af3266675bdc9718e15f5d960ff7c5483":[5,0,0,363,0],
 "struct_acts_1_1_space_point_builder_options.html#af3266675bdc9718e15f5d960ff7c5483":[7,0,0,370,0],
 "struct_acts_1_1_space_point_container_config.html":[5,0,0,367],
 "struct_acts_1_1_space_point_container_config.html":[7,0,0,374],
@@ -242,12 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a6725bc74b4f34b3928245907718e9263":[5,0,0,385,2,12],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a6725bc74b4f34b3928245907718e9263":[7,0,0,392,2,12],
 "struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a76c9f470ee9cc1512b9731840f830af5":[5,0,0,385,2,16],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a76c9f470ee9cc1512b9731840f830af5":[7,0,0,392,2,16],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a878b994a2edc9dd03d1ac6d42def7284":[5,0,0,385,2,4],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a878b994a2edc9dd03d1ac6d42def7284":[7,0,0,392,2,4],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a9f65d2892bb086b288af155c901d517c":[5,0,0,385,2,1],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a9f65d2892bb086b288af155c901d517c":[7,0,0,392,2,1],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#aa00e93a3570db34491e580795b7112c0":[5,0,0,385,2,6],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#aa00e93a3570db34491e580795b7112c0":[7,0,0,392,2,6],
-"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#abd6bdd36cd6b691288480a6b4eea331d":[5,0,0,385,2,10]
+"struct_acts_1_1_surface_array_1_1_surface_grid_lookup.html#a76c9f470ee9cc1512b9731840f830af5":[7,0,0,392,2,16]
 };

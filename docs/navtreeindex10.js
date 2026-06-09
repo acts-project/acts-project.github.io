@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"class_acts_1_1_disc_trapezoid_bounds.html#ad400c074e2a888fcd8f7124c81848026":[7,0,0,120,5],
+"class_acts_1_1_disc_trapezoid_bounds.html#ad51d59de153a67a21945ae3cf6d2e9bb":[5,0,0,113,8],
+"class_acts_1_1_disc_trapezoid_bounds.html#ad51d59de153a67a21945ae3cf6d2e9bb":[7,0,0,120,8],
+"class_acts_1_1_disc_trapezoid_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[5,0,0,113,14],
+"class_acts_1_1_disc_trapezoid_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[7,0,0,120,14],
+"class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[5,0,0,113,13],
 "class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[7,0,0,120,13],
 "class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[5,0,0,113,17],
 "class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[7,0,0,120,17],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#a9e739168c2bc2780458f5c3fd0523742":[7,0,0,2,0,9],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#aa0a28fe13dbeb407651f9fd3252c3449":[5,0,0,1,0,13],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#aa0a28fe13dbeb407651f9fd3252c3449":[7,0,0,2,0,13],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#ac28ffc6b26f0eefc1a1901eb9537d3fd":[5,0,0,1,0,6],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#ac28ffc6b26f0eefc1a1901eb9537d3fd":[7,0,0,2,0,6],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#ada1322c6933ad8c5d66c1acd0b1dcbf7":[5,0,0,1,0,11],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#ada1322c6933ad8c5d66c1acd0b1dcbf7":[7,0,0,2,0,11],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#adff93b9a247b473b22b6cef868c58055":[5,0,0,1,0,1],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#adff93b9a247b473b22b6cef868c58055":[7,0,0,2,0,1],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#af4df3c512addf459b4a91dbe594753c9":[5,0,0,1,0,7]
+"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#ac28ffc6b26f0eefc1a1901eb9537d3fd":[5,0,0,1,0,6]
 };

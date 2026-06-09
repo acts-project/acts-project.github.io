@@ -130,7 +130,7 @@ $(function(){initNavTree('group__utilities.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:Acts_3A_3AAnyBase_3C_20sb_5Fsize_2C_20copyable_20_3E" id="r_Acts_3A_3AAnyBase_3C_20sb_5Fsize_2C_20copyable_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase&lt; sb_size, copyable &gt;</a></td></tr>
+<tr class="memitem:Acts_3A_3AAnyBase_3C_20SbSize_2C_20Copyable_2C_20Base_20_3E" id="r_Acts_3A_3AAnyBase_3C_20SbSize_2C_20Copyable_2C_20Base_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase&lt; SbSize, Copyable, Base &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Small opaque type-erased type with configurable small buffer optimization.  <a href="class_acts_1_1_any_base.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Acts_3A_3AAnyBaseAll" id="r_Acts_3A_3AAnyBaseAll"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_any_base_all.html">Acts::AnyBaseAll</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all instances of <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a> regarfless of SBO size.  <a href="class_acts_1_1_any_base_all.html#details">More...</a><br /></td></tr>
@@ -141,6 +141,9 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:gaaa8cfe1575a746b3f8bb992ef3cd442f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type-safe container for single values of any type.  <br /></td></tr>
 <tr class="memitem:ga95bd44f0ea2109f98499eb1666cc836e" id="r_ga95bd44f0ea2109f98499eb1666cc836e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95bd44f0ea2109f98499eb1666cc836e">Acts::AnyMoveOnly</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;sizeof(void*), false&gt;</td></tr>
 <tr class="memdesc:ga95bd44f0ea2109f98499eb1666cc836e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move-only variant that can store move-only types (e.g.  <br /></td></tr>
+<tr class="memitem:ga4841f78522f6d16b2d6dbd59a0cc226f" id="r_ga4841f78522f6d16b2d6dbd59a0cc226f"><td class="memTemplParams" colspan="2">template&lt;typename Base, std::size_t SbSize = sizeof(void*)&gt; </td></tr>
+<tr class="memitem:ga4841f78522f6d16b2d6dbd59a0cc226f template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4841f78522f6d16b2d6dbd59a0cc226f">Acts::AnyOf</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;SbSize, true, Base&gt;</td></tr>
+<tr class="memdesc:ga4841f78522f6d16b2d6dbd59a0cc226f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typed type-erased value over a common polymorphic base.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="gaaa8cfe1575a746b3f8bb992ef3cd442f" name="gaaa8cfe1575a746b3f8bb992ef3cd442f"></a>
@@ -175,6 +178,31 @@ Typedefs</h2></td></tr>
 <p>Move-only variant that can store move-only types (e.g. </p>
 <p>std::unique_ptr)</p>
 <p>Same as Any but copy constructor and copy assignment are deleted. Use when storing types that are not copyable. </p>
+
+</div>
+</div>
+<a id="ga4841f78522f6d16b2d6dbd59a0cc226f" name="ga4841f78522f6d16b2d6dbd59a0cc226f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4841f78522f6d16b2d6dbd59a0cc226f">&#9670;&#160;</a></span>AnyOf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Base, std::size_t SbSize = sizeof(void*)&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga4841f78522f6d16b2d6dbd59a0cc226f">Acts::AnyOf</a> = <a class="el" href="class_acts_1_1_any_base.html">AnyBase</a>&lt;SbSize, true, Base&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Typed type-erased value over a common polymorphic base. </p>
+<p>Stores any value of a type <code>T</code> convertible to <code>Base*</code> (i.e. publicly and unambiguously derived from <code>Base</code>) and hands it back as <code>Base&amp;</code> / <code>Base*</code> through <a class="el" href="class_acts_1_1_any_base.html#ade01f7f1977ff4a1d28c512196860297">AnyBase::asBase</a>, <a class="el" href="class_acts_1_1_any_base.html#abb036f31e4958123b888b4ecb6bb6af7">AnyBase::operator*</a> and <a class="el" href="class_acts_1_1_any_base.html#aeaebeb1aaae572e33384ff425ab6ae0b">AnyBase::operator-&gt;</a> without naming <code>T</code>. The concrete type can still be recovered with <a class="el" href="class_acts_1_1_any_base.html#a71e3382a33f996fecca06d7f3a9632a8">AnyBase::as</a> / <a class="el" href="class_acts_1_1_any_base.html#ae424c70b8808374177f163a863370527">AnyBase::asPtr</a>. Copyable; values up to <code>SbSize</code> bytes are stored inline, larger ones on the heap. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Base</td><td>Common base class exposed by the accessors </td></tr>
+    <tr><td class="paramname">SbSize</td><td>Size of the small-buffer-optimization storage </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

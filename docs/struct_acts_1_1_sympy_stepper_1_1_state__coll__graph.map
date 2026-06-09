@@ -14,9 +14,9 @@
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="869,184,940,176,1014,164,1048,156,1049,161,1015,169,941,181,869,190"/>
 <area shape="rect" id="Node000008" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="35,181,167,206"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="180,190,220,189,439,186,657,187,686,188,685,193,657,192,439,191,220,195,181,195"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="296,208,479,248"/>
-<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="180,200,296,214,295,220,180,206"/>
-<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="493,221,657,209,685,206,686,211,658,215,493,227"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="299,208,476,248"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="181,200,299,215,298,220,180,206"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="490,222,657,209,685,206,686,211,658,215,491,227"/>
 <area shape="rect" id="Node000010" href="$struct_acts_1_1_stepper_statistics.html" title="A struct to hold statistics of the stepper." alt="" coords="687,239,855,265"/>
 <area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="868,245,941,233,1014,211,1057,186,1092,157,1095,161,1060,190,1016,216,942,238,869,250"/>
 </map>
