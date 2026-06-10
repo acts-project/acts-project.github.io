@@ -141,17 +141,20 @@ $(function(){initNavTree('_blueprint_options_8hpp_source.html','',''); });
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>      makeDefaultNavigationPolicyFactory()};</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a9027ffd5ad349e92d1854c6d389437c5">   24</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a9027ffd5ad349e92d1854c6d389437c5">validate</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keyword">static</span> std::unique_ptr&lt;NavigationPolicyFactory&gt;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  makeDefaultNavigationPolicyFactory();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a19d254bae952b4b6e87f0a4949e2140e">   29</a></span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a19d254bae952b4b6e87f0a4949e2140e">keepGoingOnMaterialMergeFailure</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a9027ffd5ad349e92d1854c6d389437c5">   32</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a9027ffd5ad349e92d1854c6d389437c5">validate</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keyword">static</span> std::unique_ptr&lt;NavigationPolicyFactory&gt;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  makeDefaultNavigationPolicyFactory();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="anamespace_acts_1_1_experimental_html"><div class="ttname"><a href="namespace_acts_1_1_experimental.html">Acts::Experimental</a></div><div class="ttdoc">Contains code that is not considered stable yet and might change.</div></div>
 <div class="ttc" id="astruct_acts_1_1_experimental_1_1_blueprint_options_html"><div class="ttname"><a href="struct_acts_1_1_experimental_1_1_blueprint_options.html">Acts::Experimental::BlueprintOptions</a></div><div class="ttdoc">Options controlling blueprint navigation policies.</div><div class="ttdef"><b>Definition</b> BlueprintOptions.hpp:18</div></div>
+<div class="ttc" id="astruct_acts_1_1_experimental_1_1_blueprint_options_html_a19d254bae952b4b6e87f0a4949e2140e"><div class="ttname"><a href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a19d254bae952b4b6e87f0a4949e2140e">Acts::Experimental::BlueprintOptions::keepGoingOnMaterialMergeFailure</a></div><div class="ttdeci">bool keepGoingOnMaterialMergeFailure</div><div class="ttdoc">If set, material designated on a portal face that must be merged during container stacking does not a...</div><div class="ttdef"><b>Definition</b> BlueprintOptions.hpp:29</div></div>
 <div class="ttc" id="astruct_acts_1_1_experimental_1_1_blueprint_options_html_a9027ffd5ad349e92d1854c6d389437c5"><div class="ttname"><a href="struct_acts_1_1_experimental_1_1_blueprint_options.html#a9027ffd5ad349e92d1854c6d389437c5">Acts::Experimental::BlueprintOptions::validate</a></div><div class="ttdeci">void validate() const</div><div class="ttdoc">Validates the blueprint options.</div></div>
 <div class="ttc" id="astruct_acts_1_1_experimental_1_1_blueprint_options_html_ad21a09d857c91331a06603c9c6666fa8"><div class="ttname"><a href="struct_acts_1_1_experimental_1_1_blueprint_options.html#ad21a09d857c91331a06603c9c6666fa8">Acts::Experimental::BlueprintOptions::defaultNavigationPolicyFactory</a></div><div class="ttdeci">std::shared_ptr&lt; NavigationPolicyFactory &gt; defaultNavigationPolicyFactory</div><div class="ttdoc">Default navigation policy factory.</div><div class="ttdef"><b>Definition</b> BlueprintOptions.hpp:20</div></div>
 </div><!-- fragment --></div><!-- contents -->

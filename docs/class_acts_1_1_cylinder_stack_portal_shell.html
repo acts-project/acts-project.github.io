@@ -153,8 +153,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face</b> = <a class=
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8820c6f0bc1db0dcb885bd6fb3156e79" id="r_a8820c6f0bc1db0dcb885bd6fb3156e79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8820c6f0bc1db0dcb885bd6fb3156e79">CylinderStackPortalShell</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; <a class="el" href="class_acts_1_1_cylinder_portal_shell.html">CylinderPortalShell</a> * &gt; shells, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
-<tr class="memdesc:a8820c6f0bc1db0dcb885bd6fb3156e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the portal shell stack from the given shells.  <br /></td></tr>
+<tr class="memitem:ab8f8dcd3e166cc2d97b05c2736dd184c" id="r_ab8f8dcd3e166cc2d97b05c2736dd184c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8f8dcd3e166cc2d97b05c2736dd184c">CylinderStackPortalShell</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; <a class="el" href="class_acts_1_1_cylinder_portal_shell.html">CylinderPortalShell</a> * &gt; shells, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>(), <a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77">PortalMaterialMergePolicy</a> materialPolicy=<a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae">PortalMaterialMergePolicy::eThrow</a>)</td></tr>
+<tr class="memdesc:ab8f8dcd3e166cc2d97b05c2736dd184c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the portal shell stack from the given shells.  <br /></td></tr>
 <tr class="memitem:a2200489bb47b0621730cdb2041036bb5" id="r_a2200489bb47b0621730cdb2041036bb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2200489bb47b0621730cdb2041036bb5">applyToVolume</a> () override</td></tr>
 <tr class="memdesc:a2200489bb47b0621730cdb2041036bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct the shell to register the portals with the volume, handing over shared ownership in the process.  <br /></td></tr>
 <tr class="memitem:aaf1b601c8ba6d2a82cea6eaa9561aa2f" id="r_aaf1b601c8ba6d2a82cea6eaa9561aa2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1b601c8ba6d2a82cea6eaa9561aa2f">isValid</a> () const override</td></tr>
@@ -174,6 +174,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66e23293bbf7b5d286e54b4e84751f58 inherit pub_methods_class_acts_1_1_portal_shell_base" id="r_a66e23293bbf7b5d286e54b4e84751f58"><td class="memItemLeft" align="right" valign="top">
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</b> ()=default</td></tr>
 <tr class="memdesc:a66e23293bbf7b5d286e54b4e84751f58 inherit pub_methods_class_acts_1_1_portal_shell_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a12510ef0a5bdc0e9f9f295a1f88f33ea" id="r_a12510ef0a5bdc0e9f9f295a1f88f33ea"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12510ef0a5bdc0e9f9f295a1f88f33ea">mergedFaces</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction)</td></tr>
+<tr class="memdesc:a12510ef0a5bdc0e9f9f295a1f88f33ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the faces that are <em>merged</em> (as opposed to fused) when stacking in the given direction.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class describes a cylinder shell containing multiple volumes. </p>
@@ -201,8 +206,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</
 <dd>
 The shells must be ordered in the given direction Depending on the stack direction, the portal lookup will return different portals. In the illustration above, the <span class="tt">PositiveDisc</span> portal is shared among all shells, while the <span class="tt">OuterCylinder</span> and <span class="tt">InnerCylinder</span> portals are looked up from the innermost and outermost shell in the r direction. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8820c6f0bc1db0dcb885bd6fb3156e79" name="a8820c6f0bc1db0dcb885bd6fb3156e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8820c6f0bc1db0dcb885bd6fb3156e79">&#9670;&#160;</a></span>CylinderStackPortalShell()</h2>
+<a id="ab8f8dcd3e166cc2d97b05c2736dd184c" name="ab8f8dcd3e166cc2d97b05c2736dd184c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f8dcd3e166cc2d97b05c2736dd184c">&#9670;&#160;</a></span>CylinderStackPortalShell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,7 +230,12 @@ The shells must be ordered in the given direction Depending on the stack directi
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77">PortalMaterialMergePolicy</a></td>          <td class="paramname"><span class="paramname"><em>materialPolicy</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae">PortalMaterialMergePolicy::eThrow</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -243,6 +253,7 @@ The shells must be ordered in the given direction Depending on the stack directi
   <table class="params">
     <tr><td class="paramname">direction</td><td>The stacking direction </td></tr>
     <tr><td class="paramname">logger</td><td>A logging instance for debugging </td></tr>
+    <tr><td class="paramname">materialPolicy</td><td>How to treat material designated on faces that are merged during stacking. By default this is a fatal error; in <a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77a6eb9e26df262497a8dbebce92e450334">PortalMaterialMergePolicy::eDiscardAndMark</a> mode the material is discarded and the merged surface is tagged with a marker. </td></tr>
   </table>
   </dd>
 </dl>
@@ -337,6 +348,40 @@ The shells must be ordered in the given direction Depending on the stack directi
 <dl class="section return"><dt>Returns</dt><dd>A label for the portal shell    </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_portal_shell_base.html#ae405f14894894a77c880802f7118de1d">Acts::PortalShellBase</a>.</p>
+
+</div>
+</div>
+<a id="a12510ef0a5bdc0e9f9f295a1f88f33ea" name="a12510ef0a5bdc0e9f9f295a1f88f33ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12510ef0a5bdc0e9f9f295a1f88f33ea">&#9670;&#160;</a></span>mergedFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_acts_1_1_cylinder_volume_bounds.html#a51216b38aa994bf843ad58377b046a02">Face</a> &gt; Acts::CylinderStackPortalShell::mergedFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the faces that are <em>merged</em> (as opposed to fused) when stacking in the given direction. </p>
+<p>Material designated on these faces of a child shell cannot survive the stacking and will cause a merge failure. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">direction</td><td>The stacking direction </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The faces that get merged for the given direction </dd></dl>
 
 </div>
 </div>

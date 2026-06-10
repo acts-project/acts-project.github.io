@@ -9,7 +9,7 @@ var class_acts_1_1_portal =
     [ "fuse", "class_acts_1_1_portal.html#a4f2ff17df8b35519392646b077578e0b", null ],
     [ "getLink", "class_acts_1_1_portal.html#a97b6b1baca3ec332ecb570ea95fd4313", null ],
     [ "isValid", "class_acts_1_1_portal.html#a18bf63889e18288b53eee27e73c7c8e4", null ],
-    [ "merge", "class_acts_1_1_portal.html#aa0a4cae74c617f7b311e0908ae7b03db", null ],
+    [ "merge", "class_acts_1_1_portal.html#a326d4d68f36fe1b29bb9a52287807dc9", null ],
     [ "resolveVolume", "class_acts_1_1_portal.html#aff82887d3164095ff30a3deea467bf11", null ],
     [ "setLink", "class_acts_1_1_portal.html#a10ba520625eec5cc05f75e7aaea6729b", null ],
     [ "setLink", "class_acts_1_1_portal.html#a7c3629454059df352b42e3dc4dc863eb", null ],

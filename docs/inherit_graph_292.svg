@@ -12,8 +12,8 @@
 <g id="Node000000" class="node">
 <title>Node0</title>
 <g id="a_Node000000"><a xlink:href="class_acts_1_1_i_surface_material.html" target="_top" xlink:title="Base class of all surface&#45;based material description.">
-<polygon fill="white" stroke="#666666" points="124,-178.5 0,-178.5 0,-159.5 124,-159.5 124,-178.5"/>
-<text text-anchor="middle" x="62" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ISurfaceMaterial</text>
+<polygon fill="white" stroke="#666666" points="124,-156.5 0,-156.5 0,-137.5 124,-137.5 124,-156.5"/>
+<text text-anchor="middle" x="62" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ISurfaceMaterial</text>
 </a>
 </g>
 </g>
@@ -31,8 +31,8 @@
 <g id="edge130_Node000000_Node000001" class="edge">
 <title>Node0&#45;&gt;Node1</title>
 <g id="a_edge130_Node000000_Node000001"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M83.7,-184.73C102.68,-198.53 132.02,-218.33 160,-231 167.38,-234.34 175.34,-237.34 183.3,-239.99"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="85.62,-181.8 75.5,-178.67 81.46,-187.43 85.62,-181.8"/>
+<path fill="none" stroke="#63b8ff" d="M78.37,-164.17C96.22,-183.13 127.43,-213.31 160,-231 166.2,-234.37 172.91,-237.3 179.75,-239.86"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="80.71,-161.55 71.35,-156.57 75.56,-166.29 80.71,-161.55"/>
 </a>
 </g>
 </g>
@@ -49,8 +49,8 @@
 <g id="edge131_Node000000_Node000002" class="edge">
 <title>Node0&#45;&gt;Node2</title>
 <g id="a_edge131_Node000000_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M111.15,-181.09C126.72,-184.95 144.08,-189.21 160,-193 173.23,-196.15 187.67,-199.49 200.74,-202.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="111.75,-177.63 101.2,-178.62 110.06,-184.43 111.75,-177.63"/>
+<path fill="none" stroke="#63b8ff" d="M89.39,-161.44C108.54,-171.44 135.3,-184.43 160,-193 170.61,-196.68 182.24,-199.85 193.34,-202.49"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="90.86,-158.26 80.39,-156.67 87.59,-164.45 90.86,-158.26"/>
 </a>
 </g>
 </g>
@@ -68,8 +68,8 @@
 <g id="edge132_Node000000_Node000003" class="edge">
 <title>Node0&#45;&gt;Node3</title>
 <g id="a_edge132_Node000000_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M134.31,-169C145.47,-169 157.03,-169 168.26,-169"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="134.19,-165.5 124.19,-169 134.19,-172.5 134.19,-165.5"/>
+<path fill="none" stroke="#63b8ff" d="M134.31,-155.72C145.47,-157.08 157.03,-158.49 168.26,-159.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="134.54,-152.22 124.19,-154.48 133.69,-159.17 134.54,-152.22"/>
 </a>
 </g>
 </g>
@@ -86,18 +86,17 @@
 <g id="edge133_Node000000_Node000004" class="edge">
 <title>Node0&#45;&gt;Node4</title>
 <g id="a_edge133_Node000000_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M111.15,-156.91C126.72,-153.05 144.08,-148.79 160,-145 173.23,-141.85 187.67,-138.51 200.74,-135.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="110.06,-153.57 101.2,-159.38 111.75,-160.37 110.06,-153.57"/>
+<path fill="none" stroke="#63b8ff" d="M134.41,-138.67C143.23,-137.64 152.3,-136.58 161.26,-135.54"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="133.72,-135.23 124.19,-139.86 134.53,-142.18 133.72,-135.23"/>
 </a>
 </g>
 </g>
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="class_acts_1_1_proto_surface_material_t.html" target="_top" xlink:title="proxy to SurfaceMaterial hand over BinUtility or other suitable binning description">
-<polygon fill="white" stroke="#666666" points="317,-98 171,-98 171,-68 317,-68 317,-98"/>
-<text text-anchor="start" x="179" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ProtoSurfaceMaterial</text>
-<text text-anchor="middle" x="244" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">T&lt; BinningType &gt;</text>
+<g id="a_Node000011"><a xlink:href="class_acts_1_1_merged_material_marker.html" target="_top" xlink:title="Sentinel surface material used by Portal::merge in its &quot;keep going&quot; mode.">
+<polygon fill="white" stroke="#666666" points="321.5,-98.5 166.5,-98.5 166.5,-79.5 321.5,-79.5 321.5,-98.5"/>
+<text text-anchor="middle" x="244" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::MergedMaterialMarker</text>
 </a>
 </g>
 </g>
@@ -105,8 +104,27 @@
 <g id="edge140_Node000000_Node000011" class="edge">
 <title>Node0&#45;&gt;Node11</title>
 <g id="a_edge140_Node000000_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M84.09,-153.39C103.13,-139.88 132.33,-120.59 160,-108 168.08,-104.32 176.85,-101.01 185.55,-98.1"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="81.92,-150.64 75.85,-159.32 86.01,-156.32 81.92,-150.64"/>
+<path fill="none" stroke="#63b8ff" d="M93.51,-133.3C112.39,-125.18 137.29,-115.12 160,-108 171.28,-104.46 183.62,-101.28 195.25,-98.58"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="91.99,-130.14 84.22,-137.34 94.79,-136.56 91.99,-130.14"/>
+</a>
+</g>
+</g>
+<!-- Node12 -->
+<g id="Node000012" class="node">
+<title>Node12</title>
+<g id="a_Node000012"><a xlink:href="class_acts_1_1_proto_surface_material_t.html" target="_top" xlink:title="proxy to SurfaceMaterial hand over BinUtility or other suitable binning description">
+<polygon fill="white" stroke="#666666" points="317,-61 171,-61 171,-31 317,-31 317,-61"/>
+<text text-anchor="start" x="179" y="-49" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ProtoSurfaceMaterial</text>
+<text text-anchor="middle" x="244" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00">T&lt; BinningType &gt;</text>
+</a>
+</g>
+</g>
+<!-- Node0&#45;&gt;Node12 -->
+<g id="edge141_Node000000_Node000012" class="edge">
+<title>Node0&#45;&gt;Node12</title>
+<g id="a_edge141_Node000000_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M80.13,-130.29C98.5,-113.21 129.2,-86.98 160,-71 167.21,-67.26 175.08,-63.98 183,-61.14"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="77.45,-128.01 72.6,-137.43 82.27,-133.09 77.45,-128.01"/>
 </a>
 </g>
 </g>

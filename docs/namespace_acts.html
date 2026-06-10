@@ -636,6 +636,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement selection struct selecting those measurements compatible with the given track parameter against provided criteria on one surface.  <a href="class_acts_1_1_measurement_selector.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MeasurementSelectorCuts" id="r_MeasurementSelectorCuts"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_measurement_selector_cuts.html">MeasurementSelectorCuts</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selection cuts for associating measurements with predicted track parameters on a surface.  <a href="struct_acts_1_1_measurement_selector_cuts.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MergedMaterialMarker" id="r_MergedMaterialMarker"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_merged_material_marker.html">MergedMaterialMarker</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel surface material used by <span class="tt">Portal::merge</span> in its "keep going" mode.  <a href="class_acts_1_1_merged_material_marker.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MiddleSpInfo" id="r_MiddleSpInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derived quantities for the middle space point in a doublet.  <a href="struct_acts_1_1_middle_sp_info.html#details">More...</a><br /></td></tr>
 <tr class="memitem:missing_5Fspecialization" id="r_missing_5Fspecialization"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1missing__specialization.html">missing_specialization</a></td></tr>
@@ -1762,6 +1764,10 @@ Enumerations</h2></td></tr>
 <tr class="memitem:gad9ea430c0897aa29fcaccb4fa68aa459" id="r_gad9ea430c0897aa29fcaccb4fa68aa459"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">PortalError</a> { <a class="el" href="group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1">PortalError::PositionNotOnAnyChildPortalLink</a> = 1
  }</td></tr>
 <tr class="memdesc:gad9ea430c0897aa29fcaccb4fa68aa459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for portal operations.  <a href="group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459">More...</a><br /></td></tr>
+<tr class="memitem:a73319f7de9c3e7bcd4ad6b3c22630d77" id="r_a73319f7de9c3e7bcd4ad6b3c22630d77"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73319f7de9c3e7bcd4ad6b3c22630d77">PortalMaterialMergePolicy</a> { <a class="el" href="#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae">eThrow</a>
+, <a class="el" href="#a73319f7de9c3e7bcd4ad6b3c22630d77a6eb9e26df262497a8dbebce92e450334">eDiscardAndMark</a>
+ }</td></tr>
+<tr class="memdesc:a73319f7de9c3e7bcd4ad6b3c22630d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Policy controlling how <a class="el" href="class_acts_1_1_portal.html#a326d4d68f36fe1b29bb9a52287807dc9">Acts::Portal::merge</a> treats surfaces that carry material.  <a href="#a73319f7de9c3e7bcd4ad6b3c22630d77">More...</a><br /></td></tr>
 <tr class="memitem:gae4af8513760690d2518f3e01355beb88" id="r_gae4af8513760690d2518f3e01355beb88"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__errors.html#gae4af8513760690d2518f3e01355beb88">PropagatorError</a> { <a class="el" href="group__errors.html#ggae4af8513760690d2518f3e01355beb88ae139a585510a502bbf1841cf589f5086">PropagatorError::Failure</a> = 1
 , <a class="el" href="group__errors.html#ggae4af8513760690d2518f3e01355beb88a1b43b4fba722947169471747934a6740">PropagatorError::StepCountLimitReached</a>
 , <a class="el" href="group__errors.html#ggae4af8513760690d2518f3e01355beb88ae26e9cd0f7d932b1121993fe395d2195">PropagatorError::NextTargetLimitReached</a>
@@ -4049,6 +4055,38 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 <li>removeNoise: subtract noise term</li>
 <li>addNoise: add noise term </li>
 </ul>
+
+</div>
+</div>
+<a id="a73319f7de9c3e7bcd4ad6b3c22630d77" name="a73319f7de9c3e7bcd4ad6b3c22630d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73319f7de9c3e7bcd4ad6b3c22630d77">&#9670;&#160;</a></span>PortalMaterialMergePolicy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a73319f7de9c3e7bcd4ad6b3c22630d77">Acts::PortalMaterialMergePolicy</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Policy controlling how <a class="el" href="class_acts_1_1_portal.html#a326d4d68f36fe1b29bb9a52287807dc9">Acts::Portal::merge</a> treats surfaces that carry material. </p>
+<p>Merged surfaces cannot retain the material of their inputs, so by default this is treated as a fatal error. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae" name="a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae"></a>eThrow&#160;</td><td class="fielddoc"><p>Abort the merge by throwing a <a class="el" href="class_acts_1_1_portal_merging_exception.html">PortalMergingException</a> (default). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a73319f7de9c3e7bcd4ad6b3c22630d77a6eb9e26df262497a8dbebce92e450334" name="a73319f7de9c3e7bcd4ad6b3c22630d77a6eb9e26df262497a8dbebce92e450334"></a>eDiscardAndMark&#160;</td><td class="fielddoc"><p>Continue the merge: discard the input material, tag the merged surface with a <a class="el" href="class_acts_1_1_merged_material_marker.html">MergedMaterialMarker</a> and emit a warning. </p>
+<p>This is lossy. </p>
+</td></tr>
+</table>
 
 </div>
 </div>

@@ -167,8 +167,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f2ff17df8b35519392646b077578e0b" id="r_a4f2ff17df8b35519392646b077578e0b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f2ff17df8b35519392646b077578e0b">fuse</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> &amp;aPortal, <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> &amp;bPortal, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
 <tr class="memdesc:a4f2ff17df8b35519392646b077578e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuse two portals together.  <br /></td></tr>
-<tr class="memitem:aa0a4cae74c617f7b311e0908ae7b03db" id="r_aa0a4cae74c617f7b311e0908ae7b03db"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a4cae74c617f7b311e0908ae7b03db">merge</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> &amp;aPortal, <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> &amp;bPortal, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
-<tr class="memdesc:aa0a4cae74c617f7b311e0908ae7b03db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge two adjacent portals with each other to produce a new portal that encompasses both inputs.  <br /></td></tr>
+<tr class="memitem:a326d4d68f36fe1b29bb9a52287807dc9" id="r_a326d4d68f36fe1b29bb9a52287807dc9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a326d4d68f36fe1b29bb9a52287807dc9">merge</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> &amp;aPortal, <a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> &amp;bPortal, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> direction, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>(), <a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77">PortalMaterialMergePolicy</a> materialPolicy=<a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae">PortalMaterialMergePolicy::eThrow</a>)</td></tr>
+<tr class="memdesc:a326d4d68f36fe1b29bb9a52287807dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge two adjacent portals with each other to produce a new portal that encompasses both inputs.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A portal connects two or more neighboring volumes. </p>
@@ -444,8 +444,8 @@ This is a destructive operation on the portals involved </dd></dl>
 
 </div>
 </div>
-<a id="aa0a4cae74c617f7b311e0908ae7b03db" name="aa0a4cae74c617f7b311e0908ae7b03db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0a4cae74c617f7b311e0908ae7b03db">&#9670;&#160;</a></span>merge()</h2>
+<a id="a326d4d68f36fe1b29bb9a52287807dc9" name="a326d4d68f36fe1b29bb9a52287807dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326d4d68f36fe1b29bb9a52287807dc9">&#9670;&#160;</a></span>merge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +476,12 @@ This is a destructive operation on the portals involved </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77">PortalMaterialMergePolicy</a></td>          <td class="paramname"><span class="paramname"><em>materialPolicy</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae">PortalMaterialMergePolicy::eThrow</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -505,6 +510,7 @@ This is a destructive operation on the portals involved </dd></dl>
     <tr><td class="paramname">bPortal</td><td>The second portal </td></tr>
     <tr><td class="paramname">direction</td><td>The direction of the merge (e.g. along z) </td></tr>
     <tr><td class="paramname">logger</td><td>The logger to push output to </td></tr>
+    <tr><td class="paramname">materialPolicy</td><td>How to treat surfaces that carry material. By default the merge aborts with an exception; in <a class="el" href="namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77a6eb9e26df262497a8dbebce92e450334">PortalMaterialMergePolicy::eDiscardAndMark</a> mode the material is discarded, the merged surface is tagged with a <a class="el" href="class_acts_1_1_merged_material_marker.html">MergedMaterialMarker</a> and a warning is emitted. </td></tr>
   </table>
   </dd>
 </dl>

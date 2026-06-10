@@ -479,6 +479,7 @@ var hierarchy =
           [ "Acts::GridSurfaceMaterialT< grid_type, GridMaterialAccessor >", "class_acts_1_1_grid_surface_material_t.html", null ]
         ] ]
       ] ],
+      [ "Acts::MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html", null ],
       [ "Acts::ProtoSurfaceMaterialT< BinningType >", "class_acts_1_1_proto_surface_material_t.html", null ]
     ] ],
     [ "Acts::ISurfaceMaterialAccumulator", "class_acts_1_1_i_surface_material_accumulator.html", [

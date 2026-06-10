@@ -146,6 +146,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>validate</b> () const
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad21a09d857c91331a06603c9c6666fa8" id="r_ad21a09d857c91331a06603c9c6666fa8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_navigation_policy_factory.html">NavigationPolicyFactory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21a09d857c91331a06603c9c6666fa8">defaultNavigationPolicyFactory</a></td></tr>
 <tr class="memdesc:ad21a09d857c91331a06603c9c6666fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default navigation policy factory.  <br /></td></tr>
+<tr class="memitem:a19d254bae952b4b6e87f0a4949e2140e" id="r_a19d254bae952b4b6e87f0a4949e2140e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19d254bae952b4b6e87f0a4949e2140e">keepGoingOnMaterialMergeFailure</a> = false</td></tr>
+<tr class="memdesc:a19d254bae952b4b6e87f0a4949e2140e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, material designated on a portal face that must be merged during container stacking does not abort construction.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Options controlling blueprint navigation policies. </p>
@@ -165,6 +167,23 @@ Public Attributes</h2></td></tr>
 <div class="line">      makeDefaultNavigationPolicyFactory()}</div>
 </div><!-- fragment -->
 <p>Default navigation policy factory. </p>
+
+</div>
+</div>
+<a id="a19d254bae952b4b6e87f0a4949e2140e" name="a19d254bae952b4b6e87f0a4949e2140e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19d254bae952b4b6e87f0a4949e2140e">&#9670;&#160;</a></span>keepGoingOnMaterialMergeFailure</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::BlueprintOptions::keepGoingOnMaterialMergeFailure = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If set, material designated on a portal face that must be merged during container stacking does not abort construction. </p>
+<p>Instead the offending material is discarded, the merged surface is tagged with a <a class="el" href="class_acts_1_1_merged_material_marker.html">MergedMaterialMarker</a>, and a warning is emitted. This is lossy and intended as a debugging aid: the material designation should be moved to a face that is not merged (e.g. the enclosing container's face). </p>
 
 </div>
 </div>

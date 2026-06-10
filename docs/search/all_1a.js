@@ -12,7 +12,7 @@ var searchData=
   ['weightscut_9',['weightsCut',['../struct_acts_plugins_1_1_edge_layer_connector_1_1_config.html#a90b4bafe73d6e47383aaebb51599ae60',1,'ActsPlugins::EdgeLayerConnector::Config']]],
   ['weightx_10',['weightX',['../struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#aa25611d4ef75540fc39e0552d95eb2d7',1,'Acts::Experimental::GbtsTrackingFilter::Config']]],
   ['weighty_11',['weightY',['../struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#aabe2792458e1003483455f1fed009fa6',1,'Acts::Experimental::GbtsTrackingFilter::Config']]],
-  ['what_12',['what',['../class_acts_1_1_surface_merging_exception.html#a78a6d2696b3fcd390143e8b6d16e3e93',1,'Acts::SurfaceMergingException::what()'],['../class_acts_1_1_assertion_failure_exception.html#a3eb839edd7604f158bbbd16f5dfe7201',1,'Acts::AssertionFailureException::what()']]],
+  ['what_12',['what',['../class_acts_1_1_portal_merging_exception.html#a639ad49cd677f805691d594408a773a5',1,'Acts::PortalMergingException::what()'],['../class_acts_1_1_surface_merging_exception.html#a78a6d2696b3fcd390143e8b6d16e3e93',1,'Acts::SurfaceMergingException::what()'],['../class_acts_1_1_assertion_failure_exception.html#a3eb839edd7604f158bbbd16f5dfe7201',1,'Acts::AssertionFailureException::what()']]],
   ['when_20compiling_13',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md59',1,'']]],
   ['width_14',['width',['../struct_acts_1_1_table_1_1_column.html#a14f3192877b5d3ccf3c35a3eedec529b',1,'Acts::Table::Column::width'],['../class_acts_1_1_binning_data.html#a112c462514c36f0448f5fe8387745433',1,'Acts::BinningData::width()']]],
   ['with_20a_20lcg_20release_20on_20cvmfs_15',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md47',1,'']]],

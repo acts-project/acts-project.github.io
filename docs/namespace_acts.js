@@ -327,6 +327,7 @@ var namespace_acts =
     [ "MbfSmoother", "class_acts_1_1_mbf_smoother.html", "class_acts_1_1_mbf_smoother" ],
     [ "MeasurementSelector", "class_acts_1_1_measurement_selector.html", "class_acts_1_1_measurement_selector" ],
     [ "MeasurementSelectorCuts", "struct_acts_1_1_measurement_selector_cuts.html", "struct_acts_1_1_measurement_selector_cuts" ],
+    [ "MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html", "class_acts_1_1_merged_material_marker" ],
     [ "MiddleSpInfo", "struct_acts_1_1_middle_sp_info.html", "struct_acts_1_1_middle_sp_info" ],
     [ "missing_specialization", "struct_acts_1_1missing__specialization.html", null ],
     [ "MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html", "class_acts_1_1_multi_component_bound_track_parameters" ],
@@ -376,7 +377,7 @@ var namespace_acts =
     [ "Portal", "class_acts_1_1_portal.html", "class_acts_1_1_portal" ],
     [ "PortalFusingException", "class_acts_1_1_portal_fusing_exception.html", null ],
     [ "PortalLinkBase", "class_acts_1_1_portal_link_base.html", "class_acts_1_1_portal_link_base" ],
-    [ "PortalMergingException", "class_acts_1_1_portal_merging_exception.html", null ],
+    [ "PortalMergingException", "class_acts_1_1_portal_merging_exception.html", "class_acts_1_1_portal_merging_exception" ],
     [ "PortalShellBase", "class_acts_1_1_portal_shell_base.html", "class_acts_1_1_portal_shell_base" ],
     [ "ProjectedReferenceGenerator", "struct_acts_1_1_projected_reference_generator.html", "struct_acts_1_1_projected_reference_generator" ],
     [ "Propagator", "class_acts_1_1_propagator.html", "class_acts_1_1_propagator" ],
@@ -786,6 +787,10 @@ var namespace_acts =
     [ "PdgParticle", "namespace_acts.html#a9be1c6a7aba3d2c58133f9f2f10db45a", null ],
     [ "PortalError", "group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459", [
       [ "PositionNotOnAnyChildPortalLink", "group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1", null ]
+    ] ],
+    [ "PortalMaterialMergePolicy", "namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77", [
+      [ "eThrow", "namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77aa4b43a3097aea702fed27d5e451634ae", null ],
+      [ "eDiscardAndMark", "namespace_acts.html#a73319f7de9c3e7bcd4ad6b3c22630d77a6eb9e26df262497a8dbebce92e450334", null ]
     ] ],
     [ "PropagatorError", "group__errors.html#gae4af8513760690d2518f3e01355beb88", [
       [ "Failure", "group__errors.html#ggae4af8513760690d2518f3e01355beb88ae139a585510a502bbf1841cf589f5086", null ],
