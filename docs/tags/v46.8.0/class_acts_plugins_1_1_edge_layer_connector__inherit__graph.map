@@ -1,0 +1,5 @@
+<map id="ActsPlugins::EdgeLayerConnector" name="ActsPlugins::EdgeLayerConnector">
+<area shape="rect" id="Node000001" title="Track building stage based on the EdgeLayerConnector algorithm from the ModuleMapGraph library (CUDA ..." alt="" coords="5,79,244,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_track_building_base.html" title="Base class for track building implementations." alt="" coords="13,5,237,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,44,127,79,122,79,122,44"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Acts::Intersection&lt; DIM &gt;" name="Acts::Intersection&lt; DIM &gt;">
+<area shape="rect" id="Node000001" title="Intersection struct containing the position, path length and status of an intersection." alt="" coords="123,5,258,45"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_intersection.html" title=" " alt="" coords="5,116,179,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,57,105,118,101,114,160,54"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_intersection.html" title=" " alt="" coords="203,116,376,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,54,280,114,276,118,217,57"/>
+</map>
