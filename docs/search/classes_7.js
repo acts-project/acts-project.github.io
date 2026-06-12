@@ -14,6 +14,5 @@ var searchData=
   ['houghexplorationoptions_11',['HoughExplorationOptions',['../struct_acts_1_1_experimental_1_1_hough_exploration_options.html',1,'Acts::Experimental']]],
   ['houghplane_12',['HoughPlane',['../class_acts_1_1_hough_transform_utils_1_1_hough_plane.html',1,'Acts::HoughTransformUtils']]],
   ['houghplaneconfig_13',['HoughPlaneConfig',['../struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html',1,'Acts::HoughTransformUtils']]],
-  ['houghvertexfinder_14',['HoughVertexFinder',['../class_acts_1_1_hough_vertex_finder.html',1,'Acts']]],
-  ['houghvertexfinder2_15',['HoughVertexFinder2',['../class_acts_1_1_hough_vertex_finder2.html',1,'Acts']]]
+  ['houghvertexfinder2_14',['HoughVertexFinder2',['../class_acts_1_1_hough_vertex_finder2.html',1,'Acts']]]
 ];

@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_path_seeder.html" target="_top" xlink:title="Seeding algorigthm that extracts the IP parameters and sorts the source links into possible track can...">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_polyhedron.html" target="_top" xlink:title="Struct which contains a cartesian approximation for any surface type.">
 <polygon fill="white" stroke="#666666" points="98,-19 0,-19 0,0 98,0 98,-19"/>
-<text text-anchor="middle" x="49" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PathSeeder</text>
+<text text-anchor="middle" x="49" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Polyhedron</text>
 </a>
 </g>
 </g>

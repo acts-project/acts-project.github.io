@@ -373,10 +373,8 @@ var hierarchy =
     [ "Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoric&lt; identifier_t &gt;::Maximum", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_1_1_maximum.html", null ],
     [ "Acts::HoughTransformUtils::PeakFinders::LayerGuidedCombinatoricConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_layer_guided_combinatoric_config.html", null ],
     [ "Acts::HoughTransformUtils::PeakFinders::SlidingWindowConfig", "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html", null ],
-    [ "Acts::HoughVertexFinder&lt; space_point_t &gt;", "class_acts_1_1_hough_vertex_finder.html", null ],
     [ "Acts::HoughVertexFinder2", "class_acts_1_1_hough_vertex_finder2.html", null ],
     [ "Acts::HoughVertexFinder2::Config", "struct_acts_1_1_hough_vertex_finder2_1_1_config.html", null ],
-    [ "Acts::HoughVertexFinder&lt; space_point_t &gt;::Config", "struct_acts_1_1_hough_vertex_finder_1_1_config.html", null ],
     [ "Acts::IAssignmentFinder", "class_acts_1_1_i_assignment_finder.html", [
       [ "Acts::IntersectionMaterialAssigner", "class_acts_1_1_intersection_material_assigner.html", null ],
       [ "Acts::PropagatorMaterialAssigner< propagator_t >", "class_acts_1_1_propagator_material_assigner.html", null ]
@@ -406,7 +404,6 @@ var hierarchy =
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType >, Axis< AxisType::Variable, bType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType >, Axis< AxisType::Equidistant, bType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType >, Axis< AxisType::Variable, bType > >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< HoughCount_t, HoughAxis, HoughAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axes >", "class_acts_1_1_grid.html", null ]
     ] ],
     [ "Acts::IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", [

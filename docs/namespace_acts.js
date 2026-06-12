@@ -237,7 +237,6 @@ var namespace_acts =
     [ "HelicalTrackLinearizer", "class_acts_1_1_helical_track_linearizer.html", "class_acts_1_1_helical_track_linearizer" ],
     [ "HomogeneousSurfaceMaterial", "class_acts_1_1_homogeneous_surface_material.html", "class_acts_1_1_homogeneous_surface_material" ],
     [ "HomogeneousVolumeMaterial", "class_acts_1_1_homogeneous_volume_material.html", "class_acts_1_1_homogeneous_volume_material" ],
-    [ "HoughVertexFinder", "class_acts_1_1_hough_vertex_finder.html", "class_acts_1_1_hough_vertex_finder" ],
     [ "HoughVertexFinder2", "class_acts_1_1_hough_vertex_finder2.html", "class_acts_1_1_hough_vertex_finder2" ],
     [ "IAssignmentFinder", "class_acts_1_1_i_assignment_finder.html", "class_acts_1_1_i_assignment_finder" ],
     [ "IAxis", "class_acts_1_1_i_axis.html", "class_acts_1_1_i_axis" ],

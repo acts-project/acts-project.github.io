@@ -60,8 +60,7 @@ var searchData=
   ['houghaccumulatorsection_57',['HoughAccumulatorSection',['../class_acts_1_1_experimental_1_1_hough_accumulator_section.html#aeb8c59800cc2eb0656b6a0d6defa0421',1,'Acts::Experimental::HoughAccumulatorSection']]],
   ['houghcell_58',['HoughCell',['../class_acts_1_1_hough_transform_utils_1_1_hough_cell.html#abcccbb6adf4590862b338b3cf247e4fc',1,'Acts::HoughTransformUtils::HoughCell']]],
   ['houghplane_59',['HoughPlane',['../class_acts_1_1_hough_transform_utils_1_1_hough_plane.html#a37b34e6dceeb1f499ef4e59b4c28b7e4',1,'Acts::HoughTransformUtils::HoughPlane']]],
-  ['houghvertexfinder_60',['HoughVertexFinder',['../class_acts_1_1_hough_vertex_finder.html#a4cc43eca41b4e8816542e9e22d7f67b4',1,'Acts::HoughVertexFinder']]],
-  ['houghvertexfinder2_61',['HoughVertexFinder2',['../class_acts_1_1_hough_vertex_finder2.html#a55b460589edd035e8b0d9dfa01801b88',1,'Acts::HoughVertexFinder2']]],
-  ['hypothesis_62',['hypothesis',['../class_acts_fatras_1_1_particle.html#abc91ce31eb1875b85ec6fed2a6e42743',1,'ActsFatras::Particle']]],
-  ['hypotsquare_63',['hypotSquare',['../namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209',1,'Acts']]]
+  ['houghvertexfinder2_60',['HoughVertexFinder2',['../class_acts_1_1_hough_vertex_finder2.html#a55b460589edd035e8b0d9dfa01801b88',1,'Acts::HoughVertexFinder2']]],
+  ['hypothesis_61',['hypothesis',['../class_acts_fatras_1_1_particle.html#abc91ce31eb1875b85ec6fed2a6e42743',1,'ActsFatras::Particle']]],
+  ['hypotsquare_62',['hypotSquare',['../namespace_acts.html#ad30a4e8469eb16297c0ab87d5cf68209',1,'Acts']]]
 ];
