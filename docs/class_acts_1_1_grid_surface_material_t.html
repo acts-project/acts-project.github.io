@@ -245,7 +245,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
 <div class="line">                     <a class="code hl_class" href="class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html">GridAccess::IBoundToGridLocal</a>&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_grid_access_1_1_i_bound_to_grid_local_html"><div class="ttname"><a href="class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html">Acts::GridAccess::IBoundToGridLocal</a></div><div class="ttdoc">Interface class for owning delegate.</div><div class="ttdef"><b>Definition</b> GridAccessHelpers.hpp:106</div></div>
 <div class="ttc" id="aclass_acts_1_1_owning_delegate_html"><div class="ttname"><a href="class_acts_1_1_owning_delegate.html">Acts::OwningDelegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:363</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga531fe33218d5453c0f8952e826ced3ed"><div class="ttname"><a href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a></div><div class="ttdeci">Vector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:96</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga531fe33218d5453c0f8952e826ced3ed"><div class="ttname"><a href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Acts::Vector2</a></div><div class="ttdeci">Vector&lt; 2 &gt; Vector2</div><div class="ttdoc">2-dimensional vector type for 2D coordinates</div><div class="ttdef"><b>Definition</b> Algebra.hpp:70</div></div>
 </div><!-- fragment -->
 <p>Type alias for bound coordinates to grid local coordinates conversion delegate. </p>
 
@@ -268,7 +268,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_owning_delegate.html">OwningDelegate</a>&lt;<span class="keyword">typename</span> grid_t::point_t(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp;),</div>
 <div class="line">                     <a class="code hl_class" href="class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html">GridAccess::IGlobalToGridLocal</a>&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_grid_access_1_1_i_global_to_grid_local_html"><div class="ttname"><a href="class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html">Acts::GridAccess::IGlobalToGridLocal</a></div><div class="ttdoc">Interface class for owning delegate.</div><div class="ttdef"><b>Definition</b> GridAccessHelpers.hpp:100</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:98</div></div>
+<div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 </div><!-- fragment -->
 <p>Type alias for global coordinates to grid local coordinates conversion delegate. </p>
 
@@ -713,7 +713,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>const MaterialSlab </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position. </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4">Acts::ISurfaceMaterial</a>.</p>
 
@@ -766,7 +766,7 @@ template&lt;typename grid_t, typename material_accessor_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MaterialSlab </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated</a></b></dt><dd>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ISurfaceMaterial</a>.</p>
 

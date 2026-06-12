@@ -30,7 +30,6 @@ var class_acts_1_1_multi_component_bound_track_parameters =
     [ "referenceSurface", "class_acts_1_1_multi_component_bound_track_parameters.html#a086711e524430e63c5095709da67fc79", null ],
     [ "reserve", "class_acts_1_1_multi_component_bound_track_parameters.html#aa59e4f54f652f3543c01c67eb30cda3e", null ],
     [ "size", "class_acts_1_1_multi_component_bound_track_parameters.html#a9f670ee08aef4b0ed42a51c0f03b68ec", null ],
-    [ "toBound", "class_acts_1_1_multi_component_bound_track_parameters.html#ae5eb121b5a0b9f9c0b51801f3cfb09ec", null ],
     [ "toComponents", "class_acts_1_1_multi_component_bound_track_parameters.html#a4752f07534571c2e506679c85ad45875", null ],
     [ "weights", "class_acts_1_1_multi_component_bound_track_parameters.html#aa3a4f7278aaed7a2d414b65cf10859aa", null ]
 ];

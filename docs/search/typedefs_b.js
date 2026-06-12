@@ -7,7 +7,7 @@ var searchData=
   ['materialgridaxisdata_4',['MaterialGridAxisData',['../namespace_acts.html#ae3b4d4995155fcbfd29d48adc9f73a0d',1,'Acts']]],
   ['materialslabmatrix_5',['MaterialSlabMatrix',['../namespace_acts.html#acda8cc2353ab952431bd685a4450c1dc',1,'Acts']]],
   ['materialslabvector_6',['MaterialSlabVector',['../namespace_acts.html#ae02784ae49dd0d917418a3878453a4c1',1,'Acts']]],
-  ['matrix_7',['Matrix',['../group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d',1,'Acts::Matrix'],['../namespace_acts.html#a6601cf34fab9264b809ec0bc9364048d',1,'Acts::Matrix']]],
+  ['matrix_7',['Matrix',['../group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d',1,'Acts']]],
   ['maxmomentumreducerloop_8',['MaxMomentumReducerLoop',['../namespace_acts.html#a4db7019218e46140392e9e7c6061081c',1,'Acts']]],
   ['maxweightreducerloop_9',['MaxWeightReducerLoop',['../namespace_acts.html#a8c6ffaa75197866a88bcc862b93306e3',1,'Acts']]],
   ['measurementselector_10',['MeasurementSelector',['../struct_acts_1_1_track_state_creator.html#adb487866bb426554d131c7eb11a916f8',1,'Acts::TrackStateCreator']]],

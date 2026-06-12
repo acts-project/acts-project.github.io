@@ -429,7 +429,7 @@ var searchData=
   ['splitfactor_426',['splitFactor',['../class_acts_1_1_accumulated_surface_material.html#aa7d8f46146a6b0a7946696516e9ec3e0',1,'Acts::AccumulatedSurfaceMaterial']]],
   ['splitverticestrkinvfraction_427',['splitVerticesTrkInvFraction',['../struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ad9af2c845a6e72f7b163c81be0047d41',1,'Acts::IterativeVertexFinder::Config']]],
   ['square_428',['square',['../namespace_acts.html#a838abb77213dd8944857456b1e506b02',1,'Acts']]],
-  ['squarematrix_429',['SquareMatrix',['../group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix'],['../namespace_acts.html#aedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix'],['../namespace_acts.html#aedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix'],['../namespace_acts.html#aedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix']]],
+  ['squarematrix_429',['SquareMatrix',['../group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77',1,'Acts']]],
   ['squarematrix2_430',['SquareMatrix2',['../group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95',1,'Acts']]],
   ['squarematrix3_431',['SquareMatrix3',['../group__algebra__types.html#ga864d7f61366a0ea1436890803b2f3469',1,'Acts']]],
   ['squarematrix4_432',['SquareMatrix4',['../group__algebra__types.html#gaa3f7405c2f5c3ee11fec4797a91acf99',1,'Acts']]],

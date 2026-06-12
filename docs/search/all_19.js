@@ -89,7 +89,7 @@ var searchData=
   ['varvar_3c_20axisboundarytype_3a_3aopen_2c_20axisboundarytype_3a_3aclosed_20_3e_86',['VarVar&lt; AxisBoundaryType::Open, AxisBoundaryType::Closed &gt;',['../struct_acts_1_1_grid_axis_generators_1_1_var_var.html',1,'Acts::GridAxisGenerators']]],
   ['varvar_3c_20axisboundarytype_3a_3aopen_2c_20axisboundarytype_3a_3aopen_20_3e_87',['VarVar&lt; AxisBoundaryType::Open, AxisBoundaryType::Open &gt;',['../struct_acts_1_1_grid_axis_generators_1_1_var_var.html',1,'Acts::GridAxisGenerators']]],
   ['vecidxfromsymmat_88',['vecIdxFromSymMat',['../namespace_acts.html#af0f11c97998b7bf2a9fc8fabb700798b',1,'Acts']]],
-  ['vector_89',['Vector',['../class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a6292bc65cc5aaea11a90ceb103c1e003',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Vector'],['../group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5',1,'Acts::Vector'],['../namespace_acts.html#a5fb69f475a7d72c8214332057c3135d5',1,'Acts::Vector']]],
+  ['vector_89',['Vector',['../class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a6292bc65cc5aaea11a90ceb103c1e003',1,'Acts::Experimental::CompositeSpacePointLineSeeder::Vector'],['../group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5',1,'Acts::Vector']]],
   ['vector_20backend_90',['Transient vector backend',['../group__eventdata__tracks.html#autotoc_md23',1,'']]],
   ['vector2_91',['Vector2',['../group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed',1,'Acts']]],
   ['vector3_92',['Vector3',['../group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5',1,'Acts']]],

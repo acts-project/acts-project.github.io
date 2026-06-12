@@ -12,11 +12,6 @@ var namespace_acts =
       [ "HoughPlane", "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html", "class_acts_1_1_hough_transform_utils_1_1_hough_plane" ],
       [ "HoughPlaneConfig", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config" ]
     ] ],
-    [ "MultiTrajectoryTraits", "namespace_acts_1_1_multi_trajectory_traits.html", [
-      [ "TrackIndexType", "namespace_acts_1_1_multi_trajectory_traits.html#ab10f01c2759ff4e801d804fdf1a91199", null ],
-      [ "kInvalid", "namespace_acts_1_1_multi_trajectory_traits.html#a7221fb628b87c07b075c1f808a346d2c", null ],
-      [ "MeasurementSizeMax", "namespace_acts_1_1_multi_trajectory_traits.html#a7c4429d08beebb7291abd7d0f3025a23", null ]
-    ] ],
     [ "ParticleIdHelper", "namespace_acts_1_1_particle_id_helper.html", [
       [ "hadronType", "namespace_acts_1_1_particle_id_helper.html#a2d42042927add85fd702d540e1eeb694", null ],
       [ "isElectron", "namespace_acts_1_1_particle_id_helper.html#afd04bb1ca849c6e0413ff41db03b2b34", null ],
@@ -593,9 +588,7 @@ var namespace_acts =
     [ "ConstSpacePointProxy2", "namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f", null ],
     [ "ConstTrackStateTypeMap", "namespace_acts.html#a396cf9dc9d64968f658960b949be9db2", null ],
     [ "DetectorConfig", "group__json__plugin.html#ga9d088dc485a7212cbc281898214d46a1", null ],
-    [ "DynamicMatrix", "namespace_acts.html#a62fe975cbacb8a857c515a8eaa5dca93", null ],
     [ "DynamicMatrix", "group__algebra__types.html#ga62fe975cbacb8a857c515a8eaa5dca93", null ],
-    [ "DynamicVector", "namespace_acts.html#a7665a674b2136aff2843e51b3f337cba", null ],
     [ "DynamicVector", "group__algebra__types.html#ga7665a674b2136aff2843e51b3f337cba", null ],
     [ "EAxis", "namespace_acts.html#a5d7e85d7c82a496bd6ae9f7560355973", null ],
     [ "Envelope", "namespace_acts.html#aa009e51d59c1a881d343ba0f9fcacbbc", null ],
@@ -621,7 +614,6 @@ var namespace_acts =
     [ "MaterialGridAxisData", "namespace_acts.html#ae3b4d4995155fcbfd29d48adc9f73a0d", null ],
     [ "MaterialSlabMatrix", "namespace_acts.html#acda8cc2353ab952431bd685a4450c1dc", null ],
     [ "MaterialSlabVector", "namespace_acts.html#ae02784ae49dd0d917418a3878453a4c1", null ],
-    [ "Matrix", "namespace_acts.html#a6601cf34fab9264b809ec0bc9364048d", null ],
     [ "Matrix", "group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d", null ],
     [ "MaxMomentumReducerLoop", "namespace_acts.html#a4db7019218e46140392e9e7c6061081c", null ],
     [ "MaxWeightReducerLoop", "namespace_acts.html#a8c6ffaa75197866a88bcc862b93306e3", null ],
@@ -663,10 +655,7 @@ var namespace_acts =
     [ "SpacePointIndex2", "namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f", null ],
     [ "SpacePointIndexRange2", "namespace_acts.html#a0c354ee4f15c223b223dc14c4ff96f97", null ],
     [ "SpacePointIndexSubset2", "namespace_acts.html#a61285991285178e9661e36267761d52d", null ],
-    [ "SquareMatrix", "namespace_acts.html#aedd227e590be3a9c43c10d6654022b77", null ],
     [ "SquareMatrix", "group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77", null ],
-    [ "SquareMatrix", "namespace_acts.html#aedd227e590be3a9c43c10d6654022b77", null ],
-    [ "SquareMatrix", "namespace_acts.html#aedd227e590be3a9c43c10d6654022b77", null ],
     [ "SquareMatrix2", "group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95", null ],
     [ "SquareMatrix3", "group__algebra__types.html#ga864d7f61366a0ea1436890803b2f3469", null ],
     [ "SquareMatrix4", "group__algebra__types.html#gaa3f7405c2f5c3ee11fec4797a91acf99", null ],
@@ -696,7 +685,6 @@ var namespace_acts =
     [ "V3Matrix", "namespace_acts.html#ab89ce687d622245c5610b79701471285", null ],
     [ "V3Vector", "namespace_acts.html#a6173fd5678f75d05d96cd30cfb5bab0a", null ],
     [ "VariableBoundSubspaceHelper", "namespace_acts.html#aaaa9c77f4dd9efc1ac464d9a941f2ef2", null ],
-    [ "Vector", "namespace_acts.html#a5fb69f475a7d72c8214332057c3135d5", null ],
     [ "Vector", "group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5", null ],
     [ "Vector2", "group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed", null ],
     [ "Vector3", "group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5", null ],

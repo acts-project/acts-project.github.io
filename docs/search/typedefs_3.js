@@ -22,6 +22,6 @@ var searchData=
   ['dim_19',['Dim',['../class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder.html#aee0bf368fa48d996ee2aece9ed8d1528',1,'Acts::Experimental::CylindricalSpacePointKDTreeBuilder']]],
   ['distribution_5ftype_20',['distribution_type',['../struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a17ba3f876f4e404f33674b61de715c55',1,'ActsFatras::LandauDistribution::param_type']]],
   ['duration_21',['Duration',['../struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace',1,'ActsPlugins::GnnTiming']]],
-  ['dynamicmatrix_22',['DynamicMatrix',['../group__algebra__types.html#ga62fe975cbacb8a857c515a8eaa5dca93',1,'Acts::DynamicMatrix'],['../namespace_acts.html#a62fe975cbacb8a857c515a8eaa5dca93',1,'Acts::DynamicMatrix']]],
-  ['dynamicvector_23',['DynamicVector',['../group__algebra__types.html#ga7665a674b2136aff2843e51b3f337cba',1,'Acts::DynamicVector'],['../namespace_acts.html#a7665a674b2136aff2843e51b3f337cba',1,'Acts::DynamicVector']]]
+  ['dynamicmatrix_22',['DynamicMatrix',['../group__algebra__types.html#ga62fe975cbacb8a857c515a8eaa5dca93',1,'Acts']]],
+  ['dynamicvector_23',['DynamicVector',['../group__algebra__types.html#ga7665a674b2136aff2843e51b3f337cba',1,'Acts']]]
 ];

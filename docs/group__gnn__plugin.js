@@ -72,7 +72,6 @@ var group__gnn__plugin =
         [ "gpuBlocks", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#adaed7137aae438d4a741c09546daf24f", null ],
         [ "gpuDevice", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#ae104a63b0b7b0bdba872050acb286bcb", null ],
         [ "moduleMapPath", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a46280d8fb7195b73cc09d827630ea376", null ],
-        [ "moreParallel", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a041a908632ce7a24e68a0b81c26ad66b", null ],
         [ "phiScale", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a03b067774629d5397fc852ecbd10ae2f", null ],
         [ "rScale", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a81dd6fb189a118e4f5a3a2e691b006ae", null ],
         [ "zScale", "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a58a1aea048fdccba2ddb34292655e5ce", null ]

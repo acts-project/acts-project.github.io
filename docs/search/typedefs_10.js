@@ -33,7 +33,7 @@ var searchData=
   ['spacepointindexsubset2_30',['SpacePointIndexSubset2',['../namespace_acts.html#a61285991285178e9661e36267761d52d',1,'Acts']]],
   ['spacepointproxytype_31',['SpacePointProxyType',['../class_acts_1_1_space_point_container.html#a14ca5f5c89b1e7d27134418ca3648588',1,'Acts::SpacePointContainer']]],
   ['splitconfig_32',['SplitConfig',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a90d3fcddd61d1a1d7c4fbd99d2d2fc44',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig']]],
-  ['squarematrix_33',['SquareMatrix',['../group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix'],['../namespace_acts.html#aedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix'],['../namespace_acts.html#aedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix'],['../namespace_acts.html#aedd227e590be3a9c43c10d6654022b77',1,'Acts::SquareMatrix']]],
+  ['squarematrix_33',['SquareMatrix',['../group__algebra__types.html#gaedd227e590be3a9c43c10d6654022b77',1,'Acts']]],
   ['squarematrix2_34',['SquareMatrix2',['../group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95',1,'Acts']]],
   ['squarematrix3_35',['SquareMatrix3',['../group__algebra__types.html#ga864d7f61366a0ea1436890803b2f3469',1,'Acts']]],
   ['squarematrix4_36',['SquareMatrix4',['../group__algebra__types.html#gaa3f7405c2f5c3ee11fec4797a91acf99',1,'Acts']]],
