@@ -456,7 +456,6 @@ var annotated_dup =
       [ "ParticleHypothesis", "class_acts_1_1_particle_hypothesis.html", "class_acts_1_1_particle_hypothesis" ],
       [ "PassiveLayerBuilder", "class_acts_1_1_passive_layer_builder.html", "class_acts_1_1_passive_layer_builder" ],
       [ "PathLimitReached", "struct_acts_1_1_path_limit_reached.html", "struct_acts_1_1_path_limit_reached" ],
-      [ "PathSeeder", "class_acts_1_1_path_seeder.html", "class_acts_1_1_path_seeder" ],
       [ "PerigeeSurface", "class_acts_1_1_perigee_surface.html", "class_acts_1_1_perigee_surface" ],
       [ "PlanarBounds", "class_acts_1_1_planar_bounds.html", "class_acts_1_1_planar_bounds" ],
       [ "PlaneLayer", "class_acts_1_1_plane_layer.html", "class_acts_1_1_plane_layer" ],

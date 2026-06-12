@@ -1,9 +1,0 @@
-<map id="Acts::GloballyIndexedMaterialAccessor" name="Acts::GloballyIndexedMaterialAccessor">
-<area shape="rect" id="Node000001" title="This is an accessor for cases where the material is filled in a global material vector that is access..." alt="" coords="19,232,236,272"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_i_grid_material_accessor.html" title="Base class for material accessors, this is needed for the I/O of the different grid material types,..." alt="" coords="5,129,207,154"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,167,126,231,121,233,108,168"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="231,121,466,161"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,170,167,234,165,229,296,165"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="270,5,427,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,45,351,121,346,121,346,45"/>
-</map>

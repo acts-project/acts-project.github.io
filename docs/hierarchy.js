@@ -643,8 +643,6 @@ var hierarchy =
     [ "Acts::ParticleHypothesis", "class_acts_1_1_particle_hypothesis.html", null ],
     [ "Acts::PassiveLayerBuilder::Config", "struct_acts_1_1_passive_layer_builder_1_1_config.html", null ],
     [ "Acts::PathLimitReached", "struct_acts_1_1_path_limit_reached.html", null ],
-    [ "Acts::PathSeeder", "class_acts_1_1_path_seeder.html", null ],
-    [ "Acts::PathSeeder::Config", "struct_acts_1_1_path_seeder_1_1_config.html", null ],
     [ "Acts::Polyhedron", "struct_acts_1_1_polyhedron.html", null ],
     [ "Acts::Portal", "class_acts_1_1_portal.html", null ],
     [ "Acts::Portal::Arguments", "struct_acts_1_1_portal_1_1_arguments.html", null ],

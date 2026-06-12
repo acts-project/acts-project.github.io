@@ -1,5 +1,0 @@
-<map id="Acts::CompositePortalLink" name="Acts::CompositePortalLink">
-<area shape="rect" id="Node000001" title="Composite portal links can graft together other portal link instances, for example grids that could n..." alt="" coords="5,79,199,104"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_portal_link_base.html" title="PortalLinkBase is the abstract base class for all portal links." alt="" coords="25,5,179,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,44,105,79,99,79,99,44"/>
-</map>
