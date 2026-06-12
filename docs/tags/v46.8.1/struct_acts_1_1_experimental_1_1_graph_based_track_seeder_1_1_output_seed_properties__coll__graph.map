@@ -1,0 +1,7 @@
+<map id="Acts::Experimental::GraphBasedTrackSeeder::OutputSeedProperties" name="Acts::Experimental::GraphBasedTrackSeeder::OutputSeedProperties">
+<area shape="rect" id="Node000001" title="Output seed metadata." alt="" coords="13,197,201,252"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,208,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,141,109,197,104,197,104,141"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="42,5,171,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,45,109,101,104,101,104,45"/>
+</map>

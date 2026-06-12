@@ -1,0 +1,9 @@
+<map id="Acts::TrackingGeometryJsonConverter::IdToPointerLikeLookup&lt; object_t, pointer_t, kContext &gt;" name="Acts::TrackingGeometryJsonConverter::IdToPointerLikeLookup&lt; object_t, pointer_t, kContext &gt;">
+<area shape="rect" id="Node000001" title="Generic lookup from serialized ID to pointer&#45;like object holder." alt="" coords="5,135,244,190"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="545,35,899,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,127,225,110,267,96,337,82,408,72,545,64,545,69,409,78,338,87,269,101,227,115,188,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="603,128,841,197"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,160,602,160,602,165,258,165"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html" title=" " alt="" coords="597,221,847,291"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,192,269,208,353,224,439,235,597,248,596,254,439,240,352,229,267,213,209,197"/>
+</map>
