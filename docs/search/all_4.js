@@ -59,7 +59,7 @@ var searchData=
   ['activetargetsahead_56',['activeTargetsAhead',['../struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a830b63515e2efa415441a33093bdcd3d',1,'Acts::Experimental::TryAllNavigator::State']]],
   ['activetargetsbehind_57',['activeTargetsBehind',['../struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_state.html#a03cef1ef0ffecfe6d1ccf6ac543658cb',1,'Acts::Experimental::TryAllNavigator::State']]],
   ['actor_58',['Actor',['../concept_acts_1_1_actor.html',1,'Acts']]],
-  ['actor_5flist_5ftype_59',['actor_list_type',['../struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d',1,'Acts::PropagatorOptions::actor_list_type'],['../struct_acts_1_1_ridders_propagator_options.html#a4df35c0bd7d0be1fd78c21c7cfae8cd5',1,'Acts::RiddersPropagatorOptions::actor_list_type']]],
+  ['actor_5flist_5ftype_59',['actor_list_type',['../struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d',1,'Acts::PropagatorOptions']]],
   ['actorhasabort_60',['ActorHasAbort',['../concept_acts_1_1_actor_has_abort.html',1,'Acts']]],
   ['actorhasabortwithoutresult_61',['ActorHasAbortWithoutResult',['../concept_acts_1_1_actor_has_abort_without_result.html',1,'Acts']]],
   ['actorhasabortwithresult_62',['ActorHasAbortWithResult',['../concept_acts_1_1_actor_has_abort_with_result.html',1,'Acts']]],

@@ -493,8 +493,6 @@ var annotated_dup =
       [ "RemovePointer&lt; T &gt;", "struct_acts_1_1_remove_pointer_3_01_t_01_4.html", "struct_acts_1_1_remove_pointer_3_01_t_01_4" ],
       [ "Result", "class_acts_1_1_result.html", "class_acts_1_1_result" ],
       [ "Result&lt; void, E &gt;", "class_acts_1_1_result_3_01void_00_01_e_01_4.html", "class_acts_1_1_result_3_01void_00_01_e_01_4" ],
-      [ "RiddersPropagator", "class_acts_1_1_ridders_propagator.html", "class_acts_1_1_ridders_propagator" ],
-      [ "RiddersPropagatorOptions", "struct_acts_1_1_ridders_propagator_options.html", "struct_acts_1_1_ridders_propagator_options" ],
       [ "ScopedTimer", "class_acts_1_1_scoped_timer.html", "class_acts_1_1_scoped_timer" ],
       [ "ScoreBasedAmbiguityResolution", "class_acts_1_1_score_based_ambiguity_resolution.html", "class_acts_1_1_score_based_ambiguity_resolution" ],
       [ "Seed", "class_acts_1_1_seed.html", "class_acts_1_1_seed" ],

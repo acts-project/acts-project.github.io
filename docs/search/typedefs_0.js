@@ -2,7 +2,7 @@ var searchData=
 [
   ['accumulatedmatrix_0',['AccumulatedMatrix',['../class_acts_1_1_accumulated_surface_material.html#a9c635672959861d2d494b4a03149843b',1,'Acts::AccumulatedSurfaceMaterial']]],
   ['accumulatedvector_1',['AccumulatedVector',['../class_acts_1_1_accumulated_surface_material.html#a5ceadc6c211e42f5aa692f5887c80fc4',1,'Acts::AccumulatedSurfaceMaterial']]],
-  ['actor_5flist_5ftype_2',['actor_list_type',['../struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d',1,'Acts::PropagatorOptions::actor_list_type'],['../struct_acts_1_1_ridders_propagator_options.html#a4df35c0bd7d0be1fd78c21c7cfae8cd5',1,'Acts::RiddersPropagatorOptions::actor_list_type']]],
+  ['actor_5flist_5ftype_2',['actor_list_type',['../struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d',1,'Acts::PropagatorOptions']]],
   ['alignmentmatrix_3',['AlignmentMatrix',['../namespace_acts.html#a8d2a9eacf555f86f4769bbbcfa276b1e',1,'Acts']]],
   ['alignmentrowvector_4',['AlignmentRowVector',['../namespace_acts.html#a93bb8b389c354d08309d3be40eb00b68',1,'Acts']]],
   ['alignmenttoboundmatrix_5',['AlignmentToBoundMatrix',['../namespace_acts.html#a72c66db9f558730c39a21c68b2445f7d',1,'Acts']]],

@@ -686,7 +686,6 @@ var hierarchy =
     [ "Acts::RemovePointer&lt; T &gt;", "struct_acts_1_1_remove_pointer_3_01_t_01_4.html", null ],
     [ "Acts::Result&lt; T, E &gt;", "class_acts_1_1_result.html", null ],
     [ "Acts::Result&lt; void, E &gt;", "class_acts_1_1_result_3_01void_00_01_e_01_4.html", null ],
-    [ "Acts::RiddersPropagator&lt; propagator_t &gt;", "class_acts_1_1_ridders_propagator.html", null ],
     [ "Acts::ScopedTimer", "class_acts_1_1_scoped_timer.html", null ],
     [ "Acts::ScoreBasedAmbiguityResolution", "class_acts_1_1_score_based_ambiguity_resolution.html", null ],
     [ "Acts::ScoreBasedAmbiguityResolution::Config", "struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html", null ],
@@ -1124,10 +1123,6 @@ var hierarchy =
       [ "Acts::PropagatorState< propagator_options_t, typename stepper_t::State, typename navigator_t::State, args... >", "struct_acts_1_1_propagator_state.html", null ],
       [ "Acts::PropagatorResult< parameters_t, result_list >", "struct_acts_1_1_propagator_result.html", null ],
       [ "Acts::PropagatorState< propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t >", "struct_acts_1_1_propagator_state.html", null ]
-    ] ],
-    [ "propagator_t::template Options", null, [
-      [ "Acts::RiddersPropagatorOptions< propagator_t, actor_list_t >", "struct_acts_1_1_ridders_propagator_options.html", null ],
-      [ "Acts::RiddersPropagatorOptions< propagator_t, actor_list_t >", "struct_acts_1_1_ridders_propagator_options.html", null ]
     ] ],
     [ "SingleOptions", null, [
       [ "Acts::MultiStepperLoop< single_stepper_t, component_reducer_t >::Options", "struct_acts_1_1_multi_stepper_loop_1_1_options.html", null ]

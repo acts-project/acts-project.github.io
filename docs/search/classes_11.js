@@ -27,13 +27,10 @@ var searchData=
   ['result_3c_20ckftypes_3a_3abranchvector_3c_20trackindextype_20_3e_20_3e_24',['Result&lt; CkfTypes::BranchVector&lt; TrackIndexType &gt; &gt;',['../class_acts_1_1_result.html',1,'Acts']]],
   ['result_3c_20std_3a_3apair_3c_20parametersvector_2c_20covariancematrix_20_3e_20_3e_25',['Result&lt; std::pair&lt; ParametersVector, CovarianceMatrix &gt; &gt;',['../class_acts_1_1_result.html',1,'Acts']]],
   ['result_3c_20void_2c_20e_20_3e_26',['Result&lt; void, E &gt;',['../class_acts_1_1_result_3_01void_00_01_e_01_4.html',1,'Acts']]],
-  ['ridderspropagator_27',['RiddersPropagator',['../class_acts_1_1_ridders_propagator.html',1,'Acts']]],
-  ['ridderspropagatoroptions_28',['RiddersPropagatorOptions',['../struct_acts_1_1_ridders_propagator_options.html',1,'Acts']]],
-  ['ridderspropagatoroptions_3c_20propagator_5ft_2c_20actor_5flist_5ft_20_3e_29',['RiddersPropagatorOptions&lt; propagator_t, actor_list_t &gt;',['../struct_acts_1_1_ridders_propagator_options.html',1,'Acts']]],
-  ['riddersstepper_30',['RiddersStepper',['../class_acts_1_1_experimental_1_1_ridders_stepper.html',1,'Acts::Experimental']]],
-  ['rootmaterialdecorator_31',['RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html',1,'ActsPlugins']]],
-  ['rootmaterialmapio_32',['RootMaterialMapIo',['../class_acts_plugins_1_1_root_material_map_io.html',1,'ActsPlugins']]],
-  ['rootmaterialtrackio_33',['RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html',1,'ActsPlugins']]],
-  ['rootmeasurementio_34',['RootMeasurementIo',['../class_acts_plugins_1_1_root_measurement_io.html',1,'ActsPlugins']]],
-  ['rootspacepointio_35',['RootSpacePointIo',['../class_acts_plugins_1_1_root_space_point_io.html',1,'ActsPlugins']]]
+  ['riddersstepper_27',['RiddersStepper',['../class_acts_1_1_experimental_1_1_ridders_stepper.html',1,'Acts::Experimental']]],
+  ['rootmaterialdecorator_28',['RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html',1,'ActsPlugins']]],
+  ['rootmaterialmapio_29',['RootMaterialMapIo',['../class_acts_plugins_1_1_root_material_map_io.html',1,'ActsPlugins']]],
+  ['rootmaterialtrackio_30',['RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html',1,'ActsPlugins']]],
+  ['rootmeasurementio_31',['RootMeasurementIo',['../class_acts_plugins_1_1_root_measurement_io.html',1,'ActsPlugins']]],
+  ['rootspacepointio_32',['RootSpacePointIo',['../class_acts_plugins_1_1_root_space_point_io.html',1,'ActsPlugins']]]
 ];
