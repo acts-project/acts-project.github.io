@@ -1,10 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a8553e599300f602bca3638ee3f78141c":[5,0,0,3,0,4,3],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#a8553e599300f602bca3638ee3f78141c":[7,0,0,6,0,4,3],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#ab75d2804637fff285c1b8fddb4970240":[5,0,0,3,0,4,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#ab75d2804637fff285c1b8fddb4970240":[7,0,0,6,0,4,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#acd1ba92d8a088ebe39d708564991dfd5":[5,0,0,3,0,4,5],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#acd1ba92d8a088ebe39d708564991dfd5":[7,0,0,6,0,4,5],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#ad6c797dc14799ebe774d8f316407d8db":[5,0,0,3,0,4,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_sliding_window_config.html#ad6c797dc14799ebe774d8f316407d8db":[7,0,0,6,0,4,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a4885e72d658b4819a04370b511e04aa5":[5,0,0,213,1,1],
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a4885e72d658b4819a04370b511e04aa5":[7,0,0,221,1,1],
 "struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a71b2f66758db53cc07c1e8ee447cd0f4":[5,0,0,213,1,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a71b2f66758db53cc07c1e8ee447cd0f4":[7,0,0,221,1,0]
+"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#a71b2f66758db53cc07c1e8ee447cd0f4":[7,0,0,221,1,0],
+"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#abe4dcb8991eae56af183590cb1834c89":[5,0,0,213,1,2],
+"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#abe4dcb8991eae56af183590cb1834c89":[7,0,0,221,1,2],
+"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#accc21202a4ef0bc65bad1c4ff58b7385":[5,0,0,213,1,3],
+"struct_acts_1_1_iterative_vertex_finder_1_1_state.html#accc21202a4ef0bc65bad1c4ff58b7385":[7,0,0,221,1,3],
+"struct_acts_1_1_json_surfaces_reader_1_1_options.html":[7,0,0,8,0]
 };

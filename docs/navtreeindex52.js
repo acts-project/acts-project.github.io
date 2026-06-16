@@ -1,10 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ad14af0c7a38f8682ae7eabb574ec7eb2":[7,0,0,2,28,0,8],
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ae2e6bc31a67f1154ddfde13c3ffcc9c7":[5,0,0,1,28,0,2],
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ae2e6bc31a67f1154ddfde13c3ffcc9c7":[7,0,0,2,28,0,2],
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#af8e0ccd474270d2ab39ca6c5444532e3":[5,0,0,1,28,0,3],
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#af8e0ccd474270d2ab39ca6c5444532e3":[7,0,0,2,28,0,3],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html":[5,0,0,1,28,1],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html":[7,0,0,2,28,1],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html#a11f33b809523f3d8e5545454a6e3f9c7":[5,0,0,1,28,1,2],
@@ -249,5 +244,10 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#a15e852ff8b793f5c1e541a25a4a78ce4":[7,0,0,2,47,0,1],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#a54eb506be2d89aa17d7eaba46d6c55b7":[5,0,0,1,47,0,2],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#a54eb506be2d89aa17d7eaba46d6c55b7":[7,0,0,2,47,0,2],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#af9b35a7b1f18baba0b2f81a48fdf404a":[5,0,0,1,47,0,0]
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#af9b35a7b1f18baba0b2f81a48fdf404a":[5,0,0,1,47,0,0],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_config.html#af9b35a7b1f18baba0b2f81a48fdf404a":[7,0,0,2,47,0,0],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[5,0,0,1,47,1],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[7,0,0,2,47,1],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a245a4875d19391e84c79627862877798":[5,0,0,1,47,1,11],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a245a4875d19391e84c79627862877798":[7,0,0,2,47,1,11]
 };

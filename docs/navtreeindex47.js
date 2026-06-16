@@ -1,10 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0a61ccf1142bdb27483ac0c7ee468092":[5,0,0,15,0,9],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0a61ccf1142bdb27483ac0c7ee468092":[7,0,0,23,0,9],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[5,0,0,15,0,2],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[7,0,0,23,0,2],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[5,0,0,15,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[7,0,0,23,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[5,0,0,15,0,4],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[7,0,0,23,0,4],
@@ -249,5 +244,10 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#ae69930fa2dc55092a18ebb7edbe8a076":[7,0,0,57,0,0],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html":[5,0,0,49,1],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html":[7,0,0,57,1],
-"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,0,0,49,1,0]
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,0,0,49,1,0],
+"struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[7,0,0,57,1,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[5,0,0,53,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[7,0,0,61,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[5,0,0,53,0,0],
+"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[7,0,0,61,0,0]
 };

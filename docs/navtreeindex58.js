@@ -1,10 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a401ace12eb85dbbeb9237fe026c9f6bf":[5,0,0,297,0,6],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a401ace12eb85dbbeb9237fe026c9f6bf":[7,0,0,305,0,6],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a440874e6d8a016eb3d58ca218c0e6884":[5,0,0,297,0,4],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a440874e6d8a016eb3d58ca218c0e6884":[7,0,0,305,0,4],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html#a544cc34889b10d31354818a162a4d47c":[5,0,0,297,0,3],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a544cc34889b10d31354818a162a4d47c":[7,0,0,305,0,3],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a719e99dfab1faa46f4bc537c84c9e910":[5,0,0,297,0,8],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a719e99dfab1faa46f4bc537c84c9e910":[7,0,0,305,0,8],
@@ -249,5 +244,10 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a068696e96775f1da2df2e4dc450ff10b":[5,0,0,337,1,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a068696e96775f1da2df2e4dc450ff10b":[7,0,0,345,1,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a1e19293a76837c8cbce9b25df3ec5913":[5,0,0,337,1,9],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a1e19293a76837c8cbce9b25df3ec5913":[7,0,0,345,1,9]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a1e19293a76837c8cbce9b25df3ec5913":[7,0,0,345,1,9],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a3324b66034f4371502f9bb35944a9d3c":[5,0,0,337,1,2],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a3324b66034f4371502f9bb35944a9d3c":[7,0,0,345,1,2],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a46c5d796e1a965f56c180d9cc87f2240":[5,0,0,337,1,7],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a46c5d796e1a965f56c180d9cc87f2240":[7,0,0,345,1,7],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#a6d9b83274055a5b5aab662dbcdf664a6":[5,0,0,337,1,4]
 };

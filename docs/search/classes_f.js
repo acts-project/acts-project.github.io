@@ -49,7 +49,7 @@ var searchData=
   ['propagatorstate_46',['PropagatorState',['../struct_acts_1_1_propagator_state.html',1,'Acts']]],
   ['propagatorstate_3c_20propagator_5foptions_5ft_2c_20typename_20stepper_5ft_3a_3astate_2c_20typename_20navigator_5ft_3a_3astate_2c_20args_2e_2e_2e_20_3e_47',['PropagatorState&lt; propagator_options_t, typename stepper_t::State, typename navigator_t::State, args... &gt;',['../struct_acts_1_1_propagator_state.html',1,'Acts']]],
   ['propagatorstatistics_48',['PropagatorStatistics',['../struct_acts_1_1_propagator_statistics.html',1,'Acts']]],
-  ['protoaxis_49',['ProtoAxis',['../class_acts_1_1_proto_axis.html',1,'Acts::ProtoAxis'],['../struct_acts_1_1_surface_array_creator_1_1_proto_axis.html',1,'Acts::SurfaceArrayCreator::ProtoAxis']]],
+  ['protoaxis_49',['ProtoAxis',['../class_acts_1_1_proto_axis.html',1,'Acts']]],
   ['protolayer_50',['ProtoLayer',['../struct_acts_1_1_proto_layer.html',1,'Acts']]],
   ['protolayerhelper_51',['ProtoLayerHelper',['../class_acts_1_1_proto_layer_helper.html',1,'Acts']]],
   ['protosurfacematerialt_52',['ProtoSurfaceMaterialT',['../class_acts_1_1_proto_surface_material_t.html',1,'Acts']]],
