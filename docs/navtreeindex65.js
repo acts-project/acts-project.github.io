@@ -1,5 +1,14 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[5,0,2,14,2],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[7,0,1,15,2],
+"struct_acts_fatras_1_1_generic_scattering.html":[5,0,2,15],
+"struct_acts_fatras_1_1_generic_scattering.html":[7,0,1,16],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[5,0,2,15,1],
+"struct_acts_fatras_1_1_generic_scattering.html#a8c8ca0f50c8b48e3bb609435bebd6bb4":[7,0,1,16,1],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[5,0,2,15,0],
+"struct_acts_fatras_1_1_generic_scattering.html#acbf88e3ce268e5cb0a4e450969285d06":[7,0,1,16,0],
+"struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[5,0,2,17,0],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html":[7,0,1,18,0],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html#a4952e3525609361abec489fbf0c6b00f":[5,0,2,17,0,1],
 "struct_acts_fatras_1_1_interaction_list_1_1_selection.html#a4952e3525609361abec489fbf0c6b00f":[7,0,1,18,0,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html":[4,9,2,4,0],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a1efc2c517cb942f7de0bf28468f29249":[4,9,2,4,0,6],
 "struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a39382c3602ab7220160b93c2d9f20d0d":[4,9,2,4,0,9],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a42614b6f83572179ab729f1397edc79f":[4,9,2,4,0,3],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a6b994c0a72ff176b5c7f7bf584e899f1":[4,9,2,4,0,2],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a9e07727e9fdebb3422d66d64d554d5c6":[4,9,2,4,0,7],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ab4841249faa891db39e229526126b9a5":[4,9,2,4,0,1],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ac4b93c13488edaf078946e67b569ae97":[4,9,2,4,0,8],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ad90d3f801f2e2f0579eed0e6802ace2d":[4,9,2,4,0,0],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ae407fba068d235278a6a87f64418d820":[4,9,2,4,0,5],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#afac3b7f29c40e1518e2f645ceba0a328":[4,9,2,4,0,4],
-"struct_acts_plugins_1_1_d_d4hep_volume_builder_1_1_config.html":[4,9,2,5,0],
-"struct_acts_plugins_1_1_d_d4hep_volume_builder_1_1_config.html#ae61f7be51b63dcd2c7f94b82dffad2f8":[4,9,2,5,0,0]
+"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a42614b6f83572179ab729f1397edc79f":[4,9,2,4,0,3]
 };

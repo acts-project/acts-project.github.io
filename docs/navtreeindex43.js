@@ -117,12 +117,13 @@ var NAVTREEINDEX43 =
 "group__geomodel__plugin.html#gacc92dd72a5a39569cf260fa517bd6b3b":[4,9,8,12],
 "group__geomodel__plugin.html#gae23e284dc2b93ee33367d4641e85a349":[4,9,8,6],
 "group__gnn__plugin.html":[4,9,6],
-"group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6":[4,9,6,25],
+"group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6":[4,9,6,26],
 "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439":[4,9,6,22],
-"group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f":[4,9,6,23],
-"group__gnn__plugin.html#ga7fe8c9abff7445d3681d90bae22065c6":[4,9,6,26],
-"group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21":[4,9,6,24],
+"group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f":[4,9,6,24],
+"group__gnn__plugin.html#ga7fe8c9abff7445d3681d90bae22065c6":[4,9,6,27],
+"group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21":[4,9,6,25],
 "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1":[4,9,6,21],
+"group__gnn__plugin.html#gaf5842cdba54d259a8dfdecb8c37a2064":[4,9,6,23],
 "group__hashing__plugin.html":[4,9,9],
 "group__json__plugin.html":[4,9,10],
 "group__json__plugin.html#ga0180294a7f0ba9cf68cfe12f157c86e5":[4,9,10,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "group__material.html#gabad517c3d330be68557175bbe3e71402":[4,3,2,30],
 "group__material.html#gac15aff2ad0a7029a89bd903885de3310":[4,3,2,26],
 "group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f":[4,3,2,29],
-"group__material__mapping.html":[4,3,2,0],
-"group__onnx__plugin.html":[4,9,11]
+"group__material__mapping.html":[4,3,2,0]
 };

@@ -212,6 +212,7 @@ var annotated_dup =
       [ "BoundarySurfaceT", "class_acts_1_1_boundary_surface_t.html", "class_acts_1_1_boundary_surface_t" ],
       [ "BoundaryTolerance", "class_acts_1_1_boundary_tolerance.html", "class_acts_1_1_boundary_tolerance" ],
       [ "BoundFactory", "class_acts_1_1_bound_factory.html", "class_acts_1_1_bound_factory" ],
+      [ "BoundParameterRecorder", "struct_acts_1_1_bound_parameter_recorder.html", "struct_acts_1_1_bound_parameter_recorder" ],
       [ "BoundTrackParameters", "class_acts_1_1_bound_track_parameters.html", "class_acts_1_1_bound_track_parameters" ],
       [ "BroadTripletSeedFilter", "class_acts_1_1_broad_triplet_seed_filter.html", "class_acts_1_1_broad_triplet_seed_filter" ],
       [ "CalibrationContext", "class_acts_1_1_calibration_context.html", null ],

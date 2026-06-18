@@ -1,5 +1,14 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_plugins_1_1_svg_1_1_style.html#a5b8c5a3df5058e2bf06b0782ac6a25c2":[4,9,0,5,13],
+"struct_acts_plugins_1_1_svg_1_1_style.html#a8a1e1f3df49bd923746a24b10e58f918":[4,9,0,5,11],
+"struct_acts_plugins_1_1_svg_1_1_style.html#a917812fc5aa9404502fcc7b162961fd9":[4,9,0,5,8],
+"struct_acts_plugins_1_1_svg_1_1_style.html#aa143e5ce0361e16a686fb04efd643d2f":[4,9,0,5,2],
+"struct_acts_plugins_1_1_svg_1_1_style.html#aa69234ea237ddf8fadcb2e00120dba4a":[4,9,0,5,9],
+"struct_acts_plugins_1_1_svg_1_1_style.html#aadf0b6146a6f1557cfb1f3c3e4202b64":[4,9,0,5,12],
+"struct_acts_plugins_1_1_svg_1_1_style.html#ab7653d0b17bf1e8b3130a9f9625ce936":[4,9,0,5,1],
+"struct_acts_plugins_1_1_svg_1_1_style.html#ad19fb2e85cf8b66e9a090046aea30434":[4,9,0,5,10],
+"struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html":[4,9,0,6],
 "struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html#ab539ecbe0242690c565ec6a9b0016c1f":[4,9,0,6,1],
 "struct_acts_plugins_1_1_svg_1_1_surface_array_converter_1_1_options.html#ac901ef4ca9cc6d6b1db8a9019bd55f30":[4,9,0,6,0],
 "struct_acts_plugins_1_1_svg_1_1_surface_converter_1_1_options.html":[4,9,0,7],

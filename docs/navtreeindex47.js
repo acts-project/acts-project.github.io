@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[5,0,0,15,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[7,0,0,23,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[5,0,0,15,0,4],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[7,0,0,23,0,4],
@@ -246,8 +247,7 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html":[7,0,0,57,1],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[5,0,0,49,1,0],
 "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f":[7,0,0,57,1,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[5,0,0,53,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html":[7,0,0,61,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[5,0,0,53,0,0],
-"struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html#a435a29549c8c273b4c5f56f09cde3e14":[7,0,0,61,0,0]
+"struct_acts_1_1_bound_parameter_recorder.html":[5,0,0,55],
+"struct_acts_1_1_bound_parameter_recorder.html":[7,0,0,63],
+"struct_acts_1_1_bound_parameter_recorder.html#a6d1cfc56b37bed0be0f71c43d143da59":[5,0,0,55,2]
 };

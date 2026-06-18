@@ -178,6 +178,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac273131a18e9f7f3e3873054606325b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a limit on the number of edges consistently on edgeIndex and edgeFeatures.  <br /></td></tr>
 <tr class="memitem:ga34c72c5c5e8f59873cdea1777a39f439" id="r_ga34c72c5c5e8f59873cdea1777a39f439"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34c72c5c5e8f59873cdea1777a39f439">ActsPlugins::operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device)</td></tr>
 <tr class="memdesc:ga34c72c5c5e8f59873cdea1777a39f439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for Device.  <br /></td></tr>
+<tr class="memitem:gaf5842cdba54d259a8dfdecb8c37a2064" id="r_gaf5842cdba54d259a8dfdecb8c37a2064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf5842cdba54d259a8dfdecb8c37a2064">ActsPlugins::removeUnusedNodes</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> &amp;&amp;tensors, std::vector&lt; int &gt; &amp;spacePointIds, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execCtx)</td></tr>
+<tr class="memdesc:gaf5842cdba54d259a8dfdecb8c37a2064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove nodes not referenced by any edge, renumbering edges in-place.  <br /></td></tr>
 <tr class="memitem:ga59b230f6910ea0de9bd6a658256abc8f" id="r_ga59b230f6910ea0de9bd6a658256abc8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59b230f6910ea0de9bd6a658256abc8f">ActsPlugins::scoreMask</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &amp;scores, float cut, std::optional&lt; cudaStream_t &gt; stream={})</td></tr>
 <tr class="memdesc:ga59b230f6910ea0de9bd6a658256abc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a boolean mask from a score tensor: mask[i] = (scores[i] &gt; cut).  <br /></td></tr>
 <tr class="memitem:gaa86f88a42a46ff4f1db4fc79f6624f21" id="r_gaa86f88a42a46ff4f1db4fc79f6624f21"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
@@ -261,6 +263,49 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
+
+</div>
+</div>
+<a id="gaf5842cdba54d259a8dfdecb8c37a2064" name="gaf5842cdba54d259a8dfdecb8c37a2064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5842cdba54d259a8dfdecb8c37a2064">&#9670;&#160;</a></span>removeUnusedNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> ActsPlugins::removeUnusedNodes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>tensors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePointIds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execCtx</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove nodes not referenced by any edge, renumbering edges in-place. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tensors</td><td>Graph tensors to shrink (consumed) </td></tr>
+    <tr><td class="paramname">spacePointIds</td><td>Updated in-place: remapped to the surviving nodes </td></tr>
+    <tr><td class="paramname">execCtx</td><td>Device and stream </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shrunk pipeline tensors with updated node features and edge indices </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NoEdgesError</td><td>if there are no edges </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

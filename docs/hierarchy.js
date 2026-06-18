@@ -71,6 +71,7 @@ var hierarchy =
     [ "Acts::BoundaryTolerance::InfiniteParams", "struct_acts_1_1_boundary_tolerance_1_1_infinite_params.html", null ],
     [ "Acts::BoundaryTolerance::NoneParams", "struct_acts_1_1_boundary_tolerance_1_1_none_params.html", null ],
     [ "Acts::BoundFactory&lt; BoundsType_t &gt;", "class_acts_1_1_bound_factory.html", null ],
+    [ "Acts::BoundParameterRecorder&lt; Selector &gt;", "struct_acts_1_1_bound_parameter_recorder.html", null ],
     [ "Acts::BoundTrackParameters", "class_acts_1_1_bound_track_parameters.html", null ],
     [ "Acts::BroadTripletSeedFilter::Cache", "struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html", null ],
     [ "Acts::BroadTripletSeedFilter::Config", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html", null ],

@@ -130,6 +130,7 @@ var namespace_acts_plugins =
     [ "operator<<", "group__geomodel__plugin.html#ga4c0bca82a1840ec2b919b6b4e8f750a2", null ],
     [ "operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
     [ "operator<<", "group__fpemonitoring__plugin.html#ga47240ba288d121f6493b4d7b83cf8ace", null ],
+    [ "removeUnusedNodes", "group__gnn__plugin.html#gaf5842cdba54d259a8dfdecb8c37a2064", null ],
     [ "scoreMask", "group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f", null ],
     [ "selectCols", "group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21", null ],
     [ "selectRows", "group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6", null ],

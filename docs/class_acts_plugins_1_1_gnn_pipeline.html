@@ -133,16 +133,16 @@ $(function(){initNavTree('class_acts_plugins_1_1_gnn_pipeline.html','','class_ac
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3251b7db350b6fff6c814aeb14c12dcf" id="r_a3251b7db350b6fff6c814aeb14c12dcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3251b7db350b6fff6c814aeb14c12dcf">GnnPipeline</a> (std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_graph_construction_base.html">GraphConstructionBase</a> &gt; graphConstructor, std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_edge_classification_base.html">EdgeClassificationBase</a> &gt; &gt; edgeClassifiers, std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_track_building_base.html">TrackBuildingBase</a> &gt; trackBuilder, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger)</td></tr>
-<tr class="memdesc:a3251b7db350b6fff6c814aeb14c12dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct GNN pipeline.  <br /></td></tr>
+<tr class="memitem:a418b40b03a0fc7697dd2a8f580b19b89" id="r_a418b40b03a0fc7697dd2a8f580b19b89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a418b40b03a0fc7697dd2a8f580b19b89">GnnPipeline</a> (std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_graph_construction_base.html">GraphConstructionBase</a> &gt; graphConstructor, std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_edge_classification_base.html">EdgeClassificationBase</a> &gt; &gt; edgeClassifiers, std::shared_ptr&lt; <a class="el" href="class_acts_plugins_1_1_track_building_base.html">TrackBuildingBase</a> &gt; trackBuilder, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger, bool shrinkNodes=false)</td></tr>
+<tr class="memdesc:a418b40b03a0fc7697dd2a8f580b19b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct GNN pipeline.  <br /></td></tr>
 <tr class="memitem:a3a2531b48802645e589e3b3e6bb3d042" id="r_a3a2531b48802645e589e3b3e6bb3d042"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2531b48802645e589e3b3e6bb3d042">run</a> (std::vector&lt; float &gt; &amp;features, const std::vector&lt; std::uint64_t &gt; &amp;moduleIds, std::vector&lt; int &gt; &amp;spacePointIDs, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device, const <a class="el" href="class_acts_plugins_1_1_gnn_hook.html">GnnHook</a> &amp;hook={}, <a class="el" href="struct_acts_plugins_1_1_gnn_timing.html">GnnTiming</a> *timing=nullptr) const</td></tr>
 <tr class="memdesc:a3a2531b48802645e589e3b3e6bb3d042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the GNN pipeline.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Graph Neural Network pipeline for track finding. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3251b7db350b6fff6c814aeb14c12dcf" name="a3251b7db350b6fff6c814aeb14c12dcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3251b7db350b6fff6c814aeb14c12dcf">&#9670;&#160;</a></span>GnnPipeline()</h2>
+<a id="a418b40b03a0fc7697dd2a8f580b19b89" name="a418b40b03a0fc7697dd2a8f580b19b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418b40b03a0fc7697dd2a8f580b19b89">&#9670;&#160;</a></span>GnnPipeline()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +165,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;)</td>
+          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>shrinkNodes</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,6 +182,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">edgeClassifiers</td><td>Edge classification stages </td></tr>
     <tr><td class="paramname">trackBuilder</td><td>Track building stage </td></tr>
     <tr><td class="paramname">logger</td><td>Logger instance </td></tr>
+    <tr><td class="paramname">shrinkNodes</td><td>If true, unused nodes are removed from the graph before each edge classification stage </td></tr>
   </table>
   </dd>
 </dl>

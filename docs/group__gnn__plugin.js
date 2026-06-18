@@ -48,7 +48,7 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_gnn_hook.html#ae27efd5d2785bab1c4c77d9d1d11f4b3", null ]
     ] ],
     [ "ActsPlugins::GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html", [
-      [ "GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html#a3251b7db350b6fff6c814aeb14c12dcf", null ],
+      [ "GnnPipeline", "class_acts_plugins_1_1_gnn_pipeline.html#a418b40b03a0fc7697dd2a8f580b19b89", null ],
       [ "run", "class_acts_plugins_1_1_gnn_pipeline.html#a3a2531b48802645e589e3b3e6bb3d042", null ]
     ] ],
     [ "ActsPlugins::GnnTiming", "struct_acts_plugins_1_1_gnn_timing.html", [
@@ -157,6 +157,7 @@ var group__gnn__plugin =
     ] ],
     [ "ActsPlugins::applyEdgeLimit", "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1", null ],
     [ "ActsPlugins::operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
+    [ "ActsPlugins::removeUnusedNodes", "group__gnn__plugin.html#gaf5842cdba54d259a8dfdecb8c37a2064", null ],
     [ "ActsPlugins::scoreMask", "group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f", null ],
     [ "ActsPlugins::selectCols", "group__gnn__plugin.html#gaa86f88a42a46ff4f1db4fc79f6624f21", null ],
     [ "ActsPlugins::selectRows", "group__gnn__plugin.html#ga230230f139b3e4d57ec1e88afa0fb5a6", null ],
