@@ -34,6 +34,5 @@ var searchData=
   ['branchstopper_31',['BranchStopper',['../struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a4d76918f3ff8d6eb24b58514913fd5e1',1,'Acts::CombinatorialKalmanFilterExtensions']]],
   ['branchstopperresult_32',['BranchStopperResult',['../struct_acts_1_1_combinatorial_kalman_filter_extensions.html#a2eb8860fa48d362f4e14406d01b2bca2',1,'Acts::CombinatorialKalmanFilterExtensions']]],
   ['builder_33',['Builder',['../class_acts_1_1_experimental_1_1_element_layer_assembler.html#a4b945bca9839c2618615695a10d4b608',1,'Acts::Experimental::ElementLayerAssembler::Builder'],['../class_acts_1_1_experimental_1_1_sensor_layer_assembler.html#a523732763402963828aaf4621fe263dc',1,'Acts::Experimental::SensorLayerAssembler::Builder'],['../class_acts_1_1_experimental_1_1_sensor_layer.html#afdb343093c653665e6a19688e11a789d',1,'Acts::Experimental::SensorLayer::Builder'],['../class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#adff93b9a247b473b22b6cef868c58055',1,'Acts::Experimental::BarrelEndcapAssembler::Builder']]],
-  ['builderbackend_34',['BuilderBackend',['../group__covfie__plugin.html#gaca57c83275c8793820d7328a1c9812c5',1,'ActsPlugins::Covfie']]],
-  ['builderfunction_35',['BuilderFunction',['../class_acts_1_1_space_point_builder.html#a448928e7f99a9e537bc997869756708a',1,'Acts::SpacePointBuilder']]]
+  ['builderbackend_34',['BuilderBackend',['../group__covfie__plugin.html#gaca57c83275c8793820d7328a1c9812c5',1,'ActsPlugins::Covfie']]]
 ];
