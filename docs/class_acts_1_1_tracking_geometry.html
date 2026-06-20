@@ -159,6 +159,8 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</td></tr>
 <tr class="memdesc:a418fa4625aa6f7fd20d984291d4fd000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a visitor to the tracking volume.     <br /></td></tr>
 <tr class="memitem:aacd9b09311eface5a14c5a383cbcc9eb" id="r_aacd9b09311eface5a14c5a383cbcc9eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_layer.html">Layer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd9b09311eface5a14c5a383cbcc9eb">associatedLayer</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;gp) const</td></tr>
 <tr class="memdesc:aacd9b09311eface5a14c5a383cbcc9eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward the associated Layer information.  <br /></td></tr>
+<tr class="memitem:ac9f3a7f5535f50cc9b1df589d2fcd32c" id="r_ac9f3a7f5535f50cc9b1df589d2fcd32c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_portal.html">Portal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9f3a7f5535f50cc9b1df589d2fcd32c">findPortal</a> (std::string_view tag) const</td></tr>
+<tr class="memdesc:ac9f3a7f5535f50cc9b1df589d2fcd32c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for a portal that was tagged with the given label during the blueprint construction (see <a class="el" href="class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html">Acts::Experimental::PortalDesignatorBlueprintNode</a>).  <br /></td></tr>
 <tr class="memitem:ad8f45ac0156aee591b5f65f5b9d85ee3" id="r_ad8f45ac0156aee591b5f65f5b9d85ee3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8f45ac0156aee591b5f65f5b9d85ee3">findSurface</a> (<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> id) const</td></tr>
 <tr class="memdesc:ad8f45ac0156aee591b5f65f5b9d85ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for a surface with the given identifier.  <br /></td></tr>
 <tr class="memitem:a8cdb12d9f2a3c813a0fefa1612a4f922" id="r_a8cdb12d9f2a3c813a0fefa1612a4f922"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cdb12d9f2a3c813a0fefa1612a4f922">findVolume</a> (<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> id) const</td></tr>
@@ -384,6 +386,38 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>plain pointer to assocaiated layer </dd></dl>
+
+</div>
+</div>
+<a id="ac9f3a7f5535f50cc9b1df589d2fcd32c" name="ac9f3a7f5535f50cc9b1df589d2fcd32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9f3a7f5535f50cc9b1df589d2fcd32c">&#9670;&#160;</a></span>findPortal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_portal.html">Portal</a> * Acts::TrackingGeometry::findPortal </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search for a portal that was tagged with the given label during the blueprint construction (see <a class="el" href="class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html">Acts::Experimental::PortalDesignatorBlueprintNode</a>). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>the tag assigned to the portal </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">nullptr</td><td>if no portal carries the tag </td></tr>
+    <tr><td class="paramname">pointer</td><td>to the tagged portal otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

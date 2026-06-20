@@ -146,6 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab7e5e136b28a94de9154f1d4240f26d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a portal from a surface and volume, where a trivial portal link is automatically constructed.  <br /></td></tr>
 <tr class="memitem:ae93915db23209c6023f43920cd785aeb" id="r_ae93915db23209c6023f43920cd785aeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93915db23209c6023f43920cd785aeb">Portal</a> (<a class="el" href="class_acts_1_1_direction.html">Direction</a> direction, std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_link_base.html">PortalLinkBase</a> &gt; link)</td></tr>
 <tr class="memdesc:ae93915db23209c6023f43920cd785aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a portal from a single link.  <br /></td></tr>
+<tr class="memitem:a616dd654a133f62db95a04f63d473d6c" id="r_a616dd654a133f62db95a04f63d473d6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a616dd654a133f62db95a04f63d473d6c">addTag</a> (std::string tag)</td></tr>
+<tr class="memdesc:a616dd654a133f62db95a04f63d473d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a string tag to this portal.  <br /></td></tr>
 <tr class="memitem:a50b9dfea663ae77332f524c2603329bf" id="r_a50b9dfea663ae77332f524c2603329bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b9dfea663ae77332f524c2603329bf">fill</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
 <tr class="memdesc:a50b9dfea663ae77332f524c2603329bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and attach a trivial portal link to the empty slot of this portal.  <br /></td></tr>
 <tr class="memitem:a97b6b1baca3ec332ecb570ea95fd4313" id="r_a97b6b1baca3ec332ecb570ea95fd4313"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_portal_link_base.html">PortalLinkBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97b6b1baca3ec332ecb570ea95fd4313">getLink</a> (<a class="el" href="class_acts_1_1_direction.html">Direction</a> direction) const</td></tr>
@@ -162,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9146d2c2b486832e026b07974f70da82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the portal surface that is shared between the two links.  <br /></td></tr>
 <tr class="memitem:a649755c3213a7bcae7c139d2c08b9a5c" id="r_a649755c3213a7bcae7c139d2c08b9a5c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649755c3213a7bcae7c139d2c08b9a5c">surface</a> () const</td></tr>
 <tr class="memdesc:a649755c3213a7bcae7c139d2c08b9a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the portal surface that is shared between the two links.  <br /></td></tr>
+<tr class="memitem:ae1cec6e9d10e5f54012f3c8f498ad3d5" id="r_ae1cec6e9d10e5f54012f3c8f498ad3d5"><td class="memItemLeft" align="right" valign="top">std::span&lt; const std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1cec6e9d10e5f54012f3c8f498ad3d5">tags</a> () const</td></tr>
+<tr class="memdesc:ae1cec6e9d10e5f54012f3c8f498ad3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the tags assigned to this portal.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -310,6 +314,31 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a616dd654a133f62db95a04f63d473d6c" name="a616dd654a133f62db95a04f63d473d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616dd654a133f62db95a04f63d473d6c">&#9670;&#160;</a></span>addTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Portal::addTag </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a string tag to this portal. </p>
+<p>Tags are used to look the portal up from the final <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> (e.g. the portal connecting the tracker and the calorimeter). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>The tag to add </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a50b9dfea663ae77332f524c2603329bf" name="a50b9dfea663ae77332f524c2603329bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50b9dfea663ae77332f524c2603329bf">&#9670;&#160;</a></span>fill()</h2>
 
@@ -677,6 +706,26 @@ This is a destructive operation on the portals involved </dd></dl>
 
 <p>Access the portal surface that is shared between the two links. </p>
 <dl class="section return"><dt>Returns</dt><dd>The portal surface </dd></dl>
+
+</div>
+</div>
+<a id="ae1cec6e9d10e5f54012f3c8f498ad3d5" name="ae1cec6e9d10e5f54012f3c8f498ad3d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1cec6e9d10e5f54012f3c8f498ad3d5">&#9670;&#160;</a></span>tags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const std::string &gt; Acts::Portal::tags </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the tags assigned to this portal. </p>
+<dl class="section return"><dt>Returns</dt><dd>A view of the tags assigned to this portal </dd></dl>
 
 </div>
 </div>

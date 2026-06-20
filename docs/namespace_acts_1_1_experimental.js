@@ -43,6 +43,7 @@ var namespace_acts_1_1_experimental =
     [ "MaterialDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node" ],
     [ "MultiLayerNavigationPolicy", "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html", "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy" ],
     [ "MultiWireVolumeBuilder", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html", "class_acts_1_1_experimental_1_1_multi_wire_volume_builder" ],
+    [ "PortalDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html", "class_acts_1_1_experimental_1_1_portal_designator_blueprint_node" ],
     [ "ProfileHistogram", "class_acts_1_1_experimental_1_1_profile_histogram.html", "class_acts_1_1_experimental_1_1_profile_histogram" ],
     [ "ReferenceTrajectoryBuilder", "class_acts_1_1_experimental_1_1_reference_trajectory_builder.html", "class_acts_1_1_experimental_1_1_reference_trajectory_builder" ],
     [ "ReferenceTrajectoryBuilderOptions", "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html", "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options" ],

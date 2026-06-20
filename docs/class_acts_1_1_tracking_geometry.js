@@ -8,6 +8,7 @@ var class_acts_1_1_tracking_geometry =
     [ "apply", "class_acts_1_1_tracking_geometry.html#ad866e73a6da008f4224e4f923b2af814", null ],
     [ "apply", "class_acts_1_1_tracking_geometry.html#a418fa4625aa6f7fd20d984291d4fd000", null ],
     [ "associatedLayer", "class_acts_1_1_tracking_geometry.html#aacd9b09311eface5a14c5a383cbcc9eb", null ],
+    [ "findPortal", "class_acts_1_1_tracking_geometry.html#ac9f3a7f5535f50cc9b1df589d2fcd32c", null ],
     [ "findSurface", "class_acts_1_1_tracking_geometry.html#ad8f45ac0156aee591b5f65f5b9d85ee3", null ],
     [ "findVolume", "class_acts_1_1_tracking_geometry.html#a8cdb12d9f2a3c813a0fefa1612a4f922", null ],
     [ "geoIdSurfaceMap", "class_acts_1_1_tracking_geometry.html#a595a5e353a839fd49955e437f260e57d", null ],

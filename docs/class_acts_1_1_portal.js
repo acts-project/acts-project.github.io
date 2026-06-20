@@ -5,6 +5,7 @@ var class_acts_1_1_portal =
     [ "Portal", "class_acts_1_1_portal.html#ab7e5e136b28a94de9154f1d4240f26d7", null ],
     [ "Portal", "class_acts_1_1_portal.html#a26e827ec728beea00f28f81490b179aa", null ],
     [ "Portal", "class_acts_1_1_portal.html#a83e1109afd04254ef3727baa8ee9a8d9", null ],
+    [ "addTag", "class_acts_1_1_portal.html#a616dd654a133f62db95a04f63d473d6c", null ],
     [ "fill", "class_acts_1_1_portal.html#a50b9dfea663ae77332f524c2603329bf", null ],
     [ "fuse", "class_acts_1_1_portal.html#a4f2ff17df8b35519392646b077578e0b", null ],
     [ "getLink", "class_acts_1_1_portal.html#a97b6b1baca3ec332ecb570ea95fd4313", null ],
@@ -14,5 +15,6 @@ var class_acts_1_1_portal =
     [ "setLink", "class_acts_1_1_portal.html#a10ba520625eec5cc05f75e7aaea6729b", null ],
     [ "setLink", "class_acts_1_1_portal.html#a7c3629454059df352b42e3dc4dc863eb", null ],
     [ "surface", "class_acts_1_1_portal.html#a9146d2c2b486832e026b07974f70da82", null ],
-    [ "surface", "class_acts_1_1_portal.html#a649755c3213a7bcae7c139d2c08b9a5c", null ]
+    [ "surface", "class_acts_1_1_portal.html#a649755c3213a7bcae7c139d2c08b9a5c", null ],
+    [ "tags", "class_acts_1_1_portal.html#ae1cec6e9d10e5f54012f3c8f498ad3d5", null ]
 ];

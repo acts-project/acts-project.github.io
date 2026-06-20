@@ -8,6 +8,7 @@ var class_acts_1_1_experimental_1_1_blueprint_node =
     [ "addCylinderContainer", "class_acts_1_1_experimental_1_1_blueprint_node.html#ab37e810457bda21e91496f878bbb6ae8", null ],
     [ "addLayer", "class_acts_1_1_experimental_1_1_blueprint_node.html#a593584f2d0922457be11657bd7b4e875", null ],
     [ "addMaterial", "class_acts_1_1_experimental_1_1_blueprint_node.html#a431c9aba7dbb886114c806daac14d685", null ],
+    [ "addPortalDesignator", "class_acts_1_1_experimental_1_1_blueprint_node.html#a2d1ffbd5f742e9a961a8ecfb17ad74f6", null ],
     [ "addStaticVolume", "class_acts_1_1_experimental_1_1_blueprint_node.html#a4d465fa8e7c554371948f88676f5cafe", null ],
     [ "addStaticVolume", "class_acts_1_1_experimental_1_1_blueprint_node.html#a8196ac8d54cfc536e604ccd450db440e", null ],
     [ "addToGraphviz", "class_acts_1_1_experimental_1_1_blueprint_node.html#a810366ba164a82461cc68654146c89f5", null ],
