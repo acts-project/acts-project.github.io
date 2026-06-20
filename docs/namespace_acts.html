@@ -2049,9 +2049,9 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:ae62184077e0f01971fe35cb00b8cb20c template"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6a670110d0ebb9267ec1256f8bd88b6e">SubspaceIndices</a>&lt; FullSize &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62184077e0f01971fe35cb00b8cb20c">deserializeSubspaceIndices</a> (<a class="el" href="#ac7fe124c6f6fda8fa31781f93cbd36b8">SerializedSubspaceIndices</a> serialized)</td></tr>
 <tr class="memdesc:ae62184077e0f01971fe35cb00b8cb20c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize subspace indices from a single 64 bit integer.  <br /></td></tr>
-<tr class="memitem:a08a2ca0bdef285b222916dd7ecb30562" id="r_a08a2ca0bdef285b222916dd7ecb30562"><td class="memTemplParams" colspan="2">template&lt;typename container_type, typename index_type = typename std::decay_t&lt;container_type&gt;::size_type, typename container_type_iter = decltype(std::begin(std::declval&lt;container_type&gt;())), typename = decltype(std::end(std::declval&lt;container_type&gt;()))&gt; </td></tr>
-<tr class="memitem:a08a2ca0bdef285b222916dd7ecb30562 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a2ca0bdef285b222916dd7ecb30562">enumerate</a> (container_type &amp;&amp;iterable)</td></tr>
-<tr class="memdesc:a08a2ca0bdef285b222916dd7ecb30562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper utility to allow indexed enumeration with structured binding.  <br /></td></tr>
+<tr class="memitem:a5e922a7ce436878ecdc7373d0cf6bfb6" id="r_a5e922a7ce436878ecdc7373d0cf6bfb6"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range container_type, typename index_type = typename detail::EnumerateIndexType&lt;container_type&gt;::type, typename container_type_iter = decltype(std::begin(std::declval&lt;container_type&gt;()))&gt; </td></tr>
+<tr class="memitem:a5e922a7ce436878ecdc7373d0cf6bfb6 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e922a7ce436878ecdc7373d0cf6bfb6">enumerate</a> (container_type &amp;&amp;iterable)</td></tr>
+<tr class="memdesc:a5e922a7ce436878ecdc7373d0cf6bfb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper utility to allow indexed enumeration with structured binding.  <br /></td></tr>
 <tr class="memitem:ga41ce01de709daded7eca97fac1268093" id="r_ga41ce01de709daded7eca97fac1268093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga41ce01de709daded7eca97fac1268093">estimateTrackParamCovariance</a> (const <a class="el" href="struct_acts_1_1_estimate_track_param_covariance_config.html">EstimateTrackParamCovarianceConfig</a> &amp;config, const <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;params, bool hasTime)</td></tr>
 <tr class="memdesc:ga41ce01de709daded7eca97fac1268093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the covariance matrix of the given track parameters based on the provided configuration.  <br /></td></tr>
 <tr class="memitem:ga732bf076c17c6bde6d8b9481f6632079" id="r_ga732bf076c17c6bde6d8b9481f6632079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga732bf076c17c6bde6d8b9481f6632079">estimateTrackParamsFromSeed</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp0, double t0, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp1, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;sp2, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
@@ -6717,13 +6717,13 @@ requires (FullSize &lt;= 8)</div>
 
 </div>
 </div>
-<a id="a08a2ca0bdef285b222916dd7ecb30562" name="a08a2ca0bdef285b222916dd7ecb30562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08a2ca0bdef285b222916dd7ecb30562">&#9670;&#160;</a></span>enumerate()</h2>
+<a id="a5e922a7ce436878ecdc7373d0cf6bfb6" name="a5e922a7ce436878ecdc7373d0cf6bfb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e922a7ce436878ecdc7373d0cf6bfb6">&#9670;&#160;</a></span>enumerate()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename container_type, typename index_type = typename std::decay_t&lt;container_type&gt;::size_type, typename container_type_iter = decltype(std::begin(std::declval&lt;container_type&gt;())), typename = decltype(std::end(std::declval&lt;container_type&gt;()))&gt; </div>
+template&lt;std::ranges::range container_type, typename index_type = typename detail::EnumerateIndexType&lt;container_type&gt;::type, typename container_type_iter = decltype(std::begin(std::declval&lt;container_type&gt;()))&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -6744,7 +6744,7 @@ template&lt;typename container_type, typename index_type = typename std::decay_t
 
 <p>Helper utility to allow indexed enumeration with structured binding. </p>
 <p>Usage:</p>
-<p>for (auto [ i, value ] = enumerate(container) ) { ... };</p>
+<p>for (auto [ i, value ] : enumerate(container) ) { ... };</p>
 <p>with 'container' any stl-like container </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">iterable</td><td>Container to enumerate </td></tr>
