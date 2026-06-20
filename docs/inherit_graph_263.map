@@ -1,33 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_grid.html" title="Base class for all grid types." alt="" coords="5,542,95,567"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,5,353,45"/>
-<area shape="poly" id="edge91_Node000000_Node000001" title=" " alt="" coords="50,528,57,425,73,284,85,212,100,147,118,93,141,56,158,42,161,46,145,59,123,95,105,148,90,213,78,285,62,426,55,529"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_grid.html" title=" " alt="" coords="143,69,371,109"/>
-<area shape="poly" id="edge92_Node000000_Node000002" title=" " alt="" coords="51,528,60,437,77,315,104,198,121,151,141,120,155,107,159,111,145,123,125,154,109,199,82,316,65,437,56,528"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_grid.html" title=" " alt="" coords="146,134,367,189"/>
-<area shape="poly" id="edge93_Node000000_Node000003" title=" " alt="" coords="48,528,49,463,60,375,72,328,89,281,111,237,141,198,154,187,157,191,145,202,116,240,93,283,77,329,66,376,54,463,53,528"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,213,353,267"/>
-<area shape="poly" id="edge94_Node000000_Node000004" title=" " alt="" coords="50,528,56,476,70,409,97,339,117,306,141,277,158,263,161,267,145,281,121,309,102,341,75,410,61,477,55,529"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,291,353,346"/>
-<area shape="poly" id="edge95_Node000000_Node000005" title=" " alt="" coords="54,528,64,490,81,444,106,396,141,355,158,343,161,347,144,359,111,399,86,446,69,491,59,529"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_grid.html" title=" " alt="" coords="173,370,340,425"/>
-<area shape="poly" id="edge96_Node000000_Node000006" title=" " alt="" coords="62,529,94,481,116,456,141,434,172,417,174,421,144,438,120,459,98,484,67,532"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_grid.html" title=" " alt="" coords="171,449,342,503"/>
-<area shape="poly" id="edge97_Node000000_Node000007" title=" " alt="" coords="90,534,142,512,172,501,174,506,144,517,92,539"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_grid.html" title=" " alt="" coords="165,527,348,582"/>
-<area shape="poly" id="edge98_Node000000_Node000008" title=" " alt="" coords="109,552,165,552,165,557,109,557"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_grid.html" title=" " alt="" coords="167,606,347,661"/>
-<area shape="poly" id="edge99_Node000000_Node000009" title=" " alt="" coords="94,570,144,591,177,603,175,608,142,596,92,575"/>
-<area shape="rect" id="Node000010" href="$class_acts_1_1_grid.html" title=" " alt="" coords="177,685,337,739"/>
-<area shape="poly" id="edge100_Node000000_Node000010" title=" " alt="" coords="67,578,99,624,120,649,144,670,177,688,175,693,141,674,116,653,94,628,62,581"/>
-<area shape="rect" id="Node000011" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,764,351,833"/>
-<area shape="poly" id="edge101_Node000000_Node000011" title=" " alt="" coords="60,580,70,617,88,662,112,708,145,749,164,764,161,768,141,753,108,711,83,664,65,619,55,582"/>
-<area shape="rect" id="Node000012" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,857,351,927"/>
-<area shape="poly" id="edge102_Node000000_Node000012" title=" " alt="" coords="55,581,61,634,75,704,102,778,121,813,145,843,164,860,161,864,141,847,116,816,97,780,70,706,55,635,50,581"/>
-<area shape="rect" id="Node000013" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,951,351,1020"/>
-<area shape="poly" id="edge103_Node000000_Node000013" title=" " alt="" coords="57,581,68,661,87,768,113,870,128,910,145,937,164,954,161,958,141,940,123,912,108,871,82,769,63,662,52,581"/>
-<area shape="rect" id="Node000014" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,1044,351,1113"/>
-<area shape="poly" id="edge104_Node000000_Node000014" title=" " alt="" coords="56,581,64,679,81,813,93,881,108,944,125,995,145,1030,164,1048,161,1052,141,1034,120,997,103,945,88,882,76,814,59,679,50,581"/>
-<area shape="rect" id="Node000015" href="$class_acts_1_1_grid.html" title="class for describing a regular multi&#45;dimensional grid" alt="" coords="175,1138,338,1163"/>
-<area shape="poly" id="edge105_Node000000_Node000015" title=" " alt="" coords="54,581,59,697,72,861,84,944,100,1020,120,1082,132,1106,145,1123,159,1135,176,1143,174,1148,156,1139,141,1127,127,1108,115,1084,94,1021,79,945,67,861,54,698,49,581"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_layer_array_creator.html" title="Interface class ILayerArrayCreators, it inherits from IAlgTool." alt="" coords="5,5,187,31"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_layer_array_creator.html" title="The LayerArrayCreator is a simple Tool that helps to construct LayerArrays from std::vector of Acts::..." alt="" coords="235,5,412,31"/>
+<area shape="poly" id="edge109_Node000000_Node000001" title=" " alt="" coords="200,15,234,15,234,21,200,21"/>
 </map>

@@ -76,7 +76,6 @@ var hierarchy =
     [ "Acts::BroadTripletSeedFilter::Cache", "struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html", null ],
     [ "Acts::BroadTripletSeedFilter::Config", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html", null ],
     [ "Acts::BroadTripletSeedFilter::State", "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html", null ],
-    [ "Acts::CandidatesForMiddleSp&lt; external_space_point_t &gt;", "class_acts_1_1_candidates_for_middle_sp.html", null ],
     [ "Acts::CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", null ],
     [ "Acts::CartesianSpacePointGrid::Config", "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html", null ],
     [ "Acts::Ccl::ClusteringData", "struct_acts_1_1_ccl_1_1_clustering_data.html", null ],
@@ -389,7 +388,6 @@ var hierarchy =
     [ "Acts::IConfinedTrackingVolumeBuilder", "class_acts_1_1_i_confined_tracking_volume_builder.html", [
       [ "ActsPlugins::DD4hepVolumeBuilder", "class_acts_plugins_1_1_d_d4hep_volume_builder.html", null ]
     ] ],
-    [ "Acts::IExperimentCuts&lt; SpacePoint &gt;", "class_acts_1_1_i_experiment_cuts.html", null ],
     [ "Acts::IGrid", "class_acts_1_1_i_grid.html", [
       [ "Acts::Grid< const TrackingVolume *, Axes... >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< Acts::AccumulatedVolumeMaterial, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
@@ -539,7 +537,6 @@ var hierarchy =
     [ "Acts::LayerArrayCreator::Config", "struct_acts_1_1_layer_array_creator_1_1_config.html", null ],
     [ "Acts::LayerCreator", "class_acts_1_1_layer_creator.html", null ],
     [ "Acts::LayerCreator::Config", "struct_acts_1_1_layer_creator_1_1_config.html", null ],
-    [ "Acts::LinCircle", "struct_acts_1_1_lin_circle.html", null ],
     [ "Acts::LinearizedTrack", "struct_acts_1_1_linearized_track.html", null ],
     [ "Acts::Logger", "class_acts_1_1_logger.html", null ],
     [ "Acts::Logging::OutputFilterPolicy", "class_acts_1_1_logging_1_1_output_filter_policy.html", [
@@ -631,7 +628,6 @@ var hierarchy =
     [ "Acts::NavigatorStatistics", "struct_acts_1_1_navigator_statistics.html", null ],
     [ "Acts::NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html", null ],
     [ "Acts::NeighborHoodIndices::iterator", "class_acts_1_1_neighbor_hood_indices_1_1iterator.html", null ],
-    [ "Acts::Neighbour&lt; grid_t &gt;", "struct_acts_1_1_neighbour.html", null ],
     [ "Acts::NullBField::Cache", "struct_acts_1_1_null_b_field_1_1_cache.html", null ],
     [ "Acts::NumericalTrackLinearizer", "class_acts_1_1_numerical_track_linearizer.html", null ],
     [ "Acts::NumericalTrackLinearizer::Config", "struct_acts_1_1_numerical_track_linearizer_1_1_config.html", null ],
@@ -696,15 +692,6 @@ var hierarchy =
     [ "Acts::Seed&lt; external_space_point_t, N &gt;", "class_acts_1_1_seed.html", null ],
     [ "Acts::SeedConfirmationRangeConfig", "struct_acts_1_1_seed_confirmation_range_config.html", null ],
     [ "Acts::SeedContainer2", "class_acts_1_1_seed_container2.html", null ],
-    [ "Acts::SeedFilter&lt; external_space_point_t &gt;", "class_acts_1_1_seed_filter.html", null ],
-    [ "Acts::SeedFilterConfig", "struct_acts_1_1_seed_filter_config.html", null ],
-    [ "Acts::SeedFilterState", "struct_acts_1_1_seed_filter_state.html", null ],
-    [ "Acts::SeedFinder&lt; external_space_point_t, grid_t, platform_t &gt;", "class_acts_1_1_seed_finder.html", null ],
-    [ "Acts::SeedFinder&lt; external_space_point_t, grid_t, platform_t &gt;::SeedingState", "struct_acts_1_1_seed_finder_1_1_seeding_state.html", null ],
-    [ "Acts::SeedFinderConfig&lt; SpacePoint &gt;", "struct_acts_1_1_seed_finder_config.html", null ],
-    [ "Acts::SeedFinderOptions", "struct_acts_1_1_seed_finder_options.html", null ],
-    [ "Acts::SeedFinderOrthogonal&lt; external_space_point_t &gt;", "class_acts_1_1_seed_finder_orthogonal.html", null ],
-    [ "Acts::SeedFinderOrthogonalConfig&lt; SpacePoint &gt;", "struct_acts_1_1_seed_finder_orthogonal_config.html", null ],
     [ "Acts::SeedProxy2&lt; read_only &gt;", "class_acts_1_1_seed_proxy2.html", null ],
     [ "Acts::SeedProxy2&lt; read_only &gt;::SpacePointIterator", "class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html", null ],
     [ "Acts::SeedProxy2&lt; read_only &gt;::SpacePointRange", "class_acts_1_1_seed_proxy2_1_1_space_point_range.html", null ],
@@ -859,7 +846,6 @@ var hierarchy =
       [ "Acts::TrackStateTypeMap< ReadOnly >", "class_acts_1_1_track_state_type_map.html", null ]
     ] ],
     [ "Acts::Transform3JsonConverter::Options", "struct_acts_1_1_transform3_json_converter_1_1_options.html", null ],
-    [ "Acts::TripletCandidate&lt; external_space_point_t &gt;", "struct_acts_1_1_triplet_candidate.html", null ],
     [ "Acts::TripletSeeder", "class_acts_1_1_triplet_seeder.html", null ],
     [ "Acts::TripletSeeder::Cache", "struct_acts_1_1_triplet_seeder_1_1_cache.html", null ],
     [ "Acts::TripletSeedFinder", "class_acts_1_1_triplet_seed_finder.html", null ],
