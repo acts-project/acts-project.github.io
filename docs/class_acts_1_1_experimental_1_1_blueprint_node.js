@@ -13,6 +13,8 @@ var class_acts_1_1_experimental_1_1_blueprint_node =
     [ "addStaticVolume", "class_acts_1_1_experimental_1_1_blueprint_node.html#a8196ac8d54cfc536e604ccd450db440e", null ],
     [ "addToGraphviz", "class_acts_1_1_experimental_1_1_blueprint_node.html#a810366ba164a82461cc68654146c89f5", null ],
     [ "build", "class_acts_1_1_experimental_1_1_blueprint_node.html#af87b04cf82d61d54ce93be661fe54973", null ],
+    [ "childPtr", "class_acts_1_1_experimental_1_1_blueprint_node.html#aa8caa544918ef84709e70c606172ca4e", null ],
+    [ "childPtr", "class_acts_1_1_experimental_1_1_blueprint_node.html#a4a152103191ed1f50b95fcde9f31abbe", null ],
     [ "children", "class_acts_1_1_experimental_1_1_blueprint_node.html#a68c731fc92bb0591a762291edfe26853", null ],
     [ "children", "class_acts_1_1_experimental_1_1_blueprint_node.html#a22b0fa07bcffbaf88c5f1e2769e2c85b", null ],
     [ "clearChildren", "class_acts_1_1_experimental_1_1_blueprint_node.html#ab5059dc79aeb6191490b295fa3718cbc", null ],

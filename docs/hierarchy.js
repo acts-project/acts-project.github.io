@@ -194,7 +194,8 @@ var hierarchy =
       [ "Acts::Experimental::MaterialDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html", null ],
       [ "Acts::Experimental::PortalDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html", null ],
       [ "Acts::Experimental::StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", [
-        [ "Acts::Experimental::LayerBlueprintNode", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html", null ]
+        [ "Acts::Experimental::LayerBlueprintNode", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html", null ],
+        [ "Acts::Experimental::PadBlueprintNode", "class_acts_1_1_experimental_1_1_pad_blueprint_node.html", null ]
       ] ]
     ] ],
     [ "Acts::Experimental::BlueprintOptions", "struct_acts_1_1_experimental_1_1_blueprint_options.html", null ],

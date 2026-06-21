@@ -16,6 +16,8 @@
 <area shape="poly" id="edge45_Node000002_Node000003" title=" " alt="" coords="430,75,499,67,499,73,430,80"/>
 <area shape="rect" id="Node000004" href="$class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html" title="Container blueprint node stacking cylindrical volumes." alt="" coords="495,101,735,141"/>
 <area shape="poly" id="edge46_Node000002_Node000004" title=" " alt="" coords="430,98,495,106,494,111,430,104"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_experimental_1_1_layer_blueprint_node.html" title="The layer node is essentially an auto&#45;sizing wrapper around a set of surfaces." alt="" coords="535,325,694,365"/>
-<area shape="poly" id="edge51_Node000008_Node000009" title=" " alt="" coords="416,343,535,343,535,348,416,348"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_experimental_1_1_layer_blueprint_node.html" title="The layer node is essentially an auto&#45;sizing wrapper around a set of surfaces." alt="" coords="535,293,694,333"/>
+<area shape="poly" id="edge51_Node000008_Node000009" title=" " alt="" coords="416,333,535,319,535,325,416,338"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_experimental_1_1_pad_blueprint_node.html" title="Wraps a single child blueprint node and pads it into a larger volume whose dimensions are evaluated a..." alt="" coords="541,357,688,397"/>
+<area shape="poly" id="edge52_Node000008_Node000010" title=" " alt="" coords="416,353,541,367,541,372,416,358"/>
 </map>

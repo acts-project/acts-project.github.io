@@ -133,7 +133,7 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_blueprint_node.html','
 <div class="dynheader">
 Inheritance diagram for Acts::Experimental::BlueprintNode:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_experimental_1_1_blueprint_node__inherit__graph.svg" width="100%" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_experimental_1_1_blueprint_node__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -210,6 +210,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearChildren</b> ()<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa8caa544918ef84709e70c606172ca4e" id="r_aa8caa544918ef84709e70c606172ca4e"><td class="memItemLeft" align="right" valign="top">std::span&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8caa544918ef84709e70c606172ca4e">childPtr</a> ()</td></tr>
+<tr class="memdesc:aa8caa544918ef84709e70c606172ca4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a span over the children's shared_ptrs.  <br /></td></tr>
+<tr class="memitem:a4a152103191ed1f50b95fcde9f31abbe" id="r_a4a152103191ed1f50b95fcde9f31abbe"><td class="memItemLeft" align="right" valign="top">std::span&lt; const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a152103191ed1f50b95fcde9f31abbe">childPtr</a> () const</td></tr>
+<tr class="memdesc:a4a152103191ed1f50b95fcde9f31abbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a span over the children's shared_ptrs.     <br /></td></tr>
 <tr class="memitem:a0541ff1002e34a883939d99d391e3d93" id="r_a0541ff1002e34a883939d99d391e3d93"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0541ff1002e34a883939d99d391e3d93">indent</a> () const</td></tr>
 <tr class="memdesc:a0541ff1002e34a883939d99d391e3d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">An indentation depending on the depth of this node.  <br /></td></tr>
 <tr class="memitem:ad75331d0d8fc351edc7f4d2ad4c6112f" id="r_ad75331d0d8fc351edc7f4d2ad4c6112f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad75331d0d8fc351edc7f4d2ad4c6112f">prefix</a> () const</td></tr>
@@ -618,7 +622,63 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The volume used for communicating transform and size up the hierarchy </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_experimental_1_1_blueprint.html#a4362b093496c57ff81472dbf067721c6">Acts::Experimental::Blueprint</a>, <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#a59dfe459210a7e15350683925a420fe6">Acts::Experimental::ContainerBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a3e9f6cc226d0c21171c6493fcff56c6c">Acts::Experimental::GeometryIdentifierBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ab3164b57756a452d37e0d3083c47ef04">Acts::Experimental::LayerBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#aa5f49503206d5ed8c795183288d305af">Acts::Experimental::MaterialDesignatorBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html#a0c6e2773e933e8c3b8c89f627e21b458">Acts::Experimental::PortalDesignatorBlueprintNode</a>, and <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html#a31d7c7031078df74a7d330ddba9f1a64">Acts::Experimental::StaticBlueprintNode</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_experimental_1_1_blueprint.html#a4362b093496c57ff81472dbf067721c6">Acts::Experimental::Blueprint</a>, <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html#a59dfe459210a7e15350683925a420fe6">Acts::Experimental::ContainerBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a3e9f6cc226d0c21171c6493fcff56c6c">Acts::Experimental::GeometryIdentifierBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ab3164b57756a452d37e0d3083c47ef04">Acts::Experimental::LayerBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html#aa5f49503206d5ed8c795183288d305af">Acts::Experimental::MaterialDesignatorBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_pad_blueprint_node.html#a9595de8b53929e380d346785a1169c61">Acts::Experimental::PadBlueprintNode</a>, <a class="el" href="class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html#a0c6e2773e933e8c3b8c89f627e21b458">Acts::Experimental::PortalDesignatorBlueprintNode</a>, and <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html#a31d7c7031078df74a7d330ddba9f1a64">Acts::Experimental::StaticBlueprintNode</a>.</p>
+
+</div>
+</div>
+<a id="aa8caa544918ef84709e70c606172ca4e" name="aa8caa544918ef84709e70c606172ca4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8caa544918ef84709e70c606172ca4e">&#9670;&#160;</a></span>childPtr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt; &gt; Acts::Experimental::BlueprintNode::childPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a span over the children's shared_ptrs. </p>
+<p>This allows derived classes to access the underlying shared ownership of any child via e.g. <code>childPtr()</code>.at(i). </p><dl class="section return"><dt>Returns</dt><dd>Span over the children shared_ptrs </dd></dl>
+
+</div>
+</div>
+<a id="a4a152103191ed1f50b95fcde9f31abbe" name="a4a152103191ed1f50b95fcde9f31abbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a152103191ed1f50b95fcde9f31abbe">&#9670;&#160;</a></span>childPtr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &gt; &gt; Acts::Experimental::BlueprintNode::childPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a span over the children's shared_ptrs.    </p>
+<p>This allows derived classes to access the underlying shared ownership of any child via e.g. <code>childPtr()</code>.at(i). </p><dl class="section return"><dt>Returns</dt><dd>Span over the children shared_ptrs    </dd></dl>
 
 </div>
 </div>
