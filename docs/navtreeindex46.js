@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"namespace_acts_1_1_grid_axis_generators.html#ae564d320bf93299195eca502d66e77f3":[5,0,0,2,18],
+"namespace_acts_1_1_grid_axis_generators.html#ae5a4d2f1a26cecbbc6f676155672623d":[5,0,0,2,23],
 "namespace_acts_1_1_grid_axis_generators.html#af74cd88de530b787db15b07aa873227d":[5,0,0,2,33],
 "namespace_acts_1_1_grid_axis_generators.html#af9232fbf8df5b6ccdb085d1e11353959":[5,0,0,2,7],
 "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html":[5,0,0,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a16fe6513398ec81853d014a157a883af":[5,0,0,17,0,10],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a16fe6513398ec81853d014a157a883af":[7,0,0,25,0,10],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a489a19155aa8b42d5efffeaf9d9a0dff":[5,0,0,17,0,1],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a489a19155aa8b42d5efffeaf9d9a0dff":[7,0,0,25,0,1],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a6829855a08dc2750db944131db7ec59a":[5,0,0,17,0,2],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a6829855a08dc2750db944131db7ec59a":[7,0,0,25,0,2]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a489a19155aa8b42d5efffeaf9d9a0dff":[7,0,0,25,0,1]
 };

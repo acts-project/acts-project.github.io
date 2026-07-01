@@ -160,8 +160,9 @@ constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>Barcode</b> (Bar
 <tr class="memitem:ae4a3df1d5523b7a092738b92d6f73e57" id="r_ae4a3df1d5523b7a092738b92d6f73e57"><td class="memItemLeft" align="right" valign="top"><a id="ae4a3df1d5523b7a092738b92d6f73e57" name="ae4a3df1d5523b7a092738b92d6f73e57"></a>
 constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>Barcode</b> (const Barcode &amp;)=default</td></tr>
 <tr class="memdesc:ae4a3df1d5523b7a092738b92d6f73e57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br /></td></tr>
-<tr class="memitem:ade1d65492726bd341b4f2bc33484e22b" id="r_ade1d65492726bd341b4f2bc33484e22b"><td class="memItemLeft" align="right" valign="top">constexpr std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade1d65492726bd341b4f2bc33484e22b">asVector</a> () const</td></tr>
-<tr class="memdesc:ade1d65492726bd341b4f2bc33484e22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export barcode as vector.  <br /></td></tr>
+<tr class="memitem:ac925665fbd0e4883c6568b934c521033" id="r_ac925665fbd0e4883c6568b934c521033"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::uint32_t, 5 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac925665fbd0e4883c6568b934c521033">asArray</a> () const</td></tr>
+<tr class="memdesc:ac925665fbd0e4883c6568b934c521033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export barcode as array.  <br /></td></tr>
+<tr class="memitem:afb4bae340b4fe67e8a3f9787bb8bfa0c" id="r_afb4bae340b4fe67e8a3f9787bb8bfa0c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb4bae340b4fe67e8a3f9787bb8bfa0c">asVector</a> () const</td></tr>
 <tr class="memitem:a881909d8183324eff8c583d82b15fdc0" id="r_a881909d8183324eff8c583d82b15fdc0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a0e6376fbf476e9de7575522d81ee7584">GenerationId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a881909d8183324eff8c583d82b15fdc0">generation</a> () const</td></tr>
 <tr class="memdesc:a881909d8183324eff8c583d82b15fdc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the generation identifier.  <br /></td></tr>
 <tr class="memitem:a34fdec87c629a4e8e26a98017a17f6db" id="r_a34fdec87c629a4e8e26a98017a17f6db"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34fdec87c629a4e8e26a98017a17f6db">hash</a> () const</td></tr>
@@ -232,8 +233,8 @@ Possible issues</h2>
 </pre><p>The initial particle gets simulated further and at another step a second interaction also creates a new particle. Since it knows nothing about the previously created particle (no central service), it will generate </p><pre class="fragment">3|4|5|1|0 -&gt; particle=5, generation+=1, first sub-particle
 </pre><p>which is identical to the previously create barcode. These cases can be easily solved by renumbering the sub-particle identifier within each generation to contain unique values. However, this can only be done when all particles are known. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ade1d65492726bd341b4f2bc33484e22b" name="ade1d65492726bd341b4f2bc33484e22b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade1d65492726bd341b4f2bc33484e22b">&#9670;&#160;</a></span>asVector()</h2>
+<a id="ac925665fbd0e4883c6568b934c521033" name="ac925665fbd0e4883c6568b934c521033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac925665fbd0e4883c6568b934c521033">&#9670;&#160;</a></span>asArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +243,7 @@ Possible issues</h2>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::uint32_t &gt; ActsFatras::Barcode::asVector </td>
+          <td class="memname">std::array&lt; std::uint32_t, 5 &gt; ActsFatras::Barcode::asArray </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -255,7 +256,26 @@ Possible issues</h2>
 </table>
 </div><div class="memdoc">
 
-<p>Export barcode as vector. </p>
+<p>Export barcode as array. </p>
+<dl class="section return"><dt>Returns</dt><dd>Array of barcode components </dd></dl>
+
+</div>
+</div>
+<a id="afb4bae340b4fe67e8a3f9787bb8bfa0c" name="afb4bae340b4fe67e8a3f9787bb8bfa0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4bae340b4fe67e8a3f9787bb8bfa0c">&#9670;&#160;</a></span>asVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::uint32_t &gt; ActsFatras::Barcode::asVector </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated</a></b></dt><dd>Use asArray() instead to avoid a heap allocation. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector of barcode components </dd></dl>
 
 </div>
