@@ -41,7 +41,6 @@ var hierarchy =
       [ "Acts::GenericApproachDescriptor", "class_acts_1_1_generic_approach_descriptor.html", null ]
     ] ],
     [ "Acts::AssertionFailureException::StreamFormatter", "class_acts_1_1_assertion_failure_exception_1_1_stream_formatter.html", null ],
-    [ "Acts::AtlasBetheHeitlerApprox::PolyData", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html", null ],
     [ "Acts::AtlasStepper", "class_acts_1_1_atlas_stepper.html", null ],
     [ "Acts::AtlasStepper::Config", "struct_acts_1_1_atlas_stepper_1_1_config.html", null ],
     [ "Acts::AtlasStepper::State", "struct_acts_1_1_atlas_stepper_1_1_state.html", null ],
@@ -52,8 +51,8 @@ var hierarchy =
     [ "Acts::AxisBoundaryTypeTag&lt; bdt &gt;", "struct_acts_1_1_axis_boundary_type_tag.html", null ],
     [ "Acts::BasePropagator", "class_acts_1_1_base_propagator.html", null ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
-      [ "Acts::AtlasBetheHeitlerApprox", "class_acts_1_1_atlas_bethe_heitler_approx.html", null ],
-      [ "Acts::BetheHeitlerApproxSingleCmp", "class_acts_1_1_bethe_heitler_approx_single_cmp.html", null ]
+      [ "Acts::BetheHeitlerApproxSingleCmp", "class_acts_1_1_bethe_heitler_approx_single_cmp.html", null ],
+      [ "Acts::PolynomialBetheHeitlerApprox", "class_acts_1_1_polynomial_bethe_heitler_approx.html", null ]
     ] ],
     [ "Acts::BinnedArray&lt; T &gt;", "class_acts_1_1_binned_array.html", [
       [ "Acts::BinnedArrayXD< T >", "class_acts_1_1_binned_array_x_d.html", null ]
@@ -643,6 +642,8 @@ var hierarchy =
     [ "Acts::PassiveLayerBuilder::Config", "struct_acts_1_1_passive_layer_builder_1_1_config.html", null ],
     [ "Acts::PathLimitReached", "struct_acts_1_1_path_limit_reached.html", null ],
     [ "Acts::Polyhedron", "struct_acts_1_1_polyhedron.html", null ],
+    [ "Acts::PolynomialBetheHeitlerApprox::PolyData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html", null ],
+    [ "Acts::PolynomialBetheHeitlerApprox::RangeData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html", null ],
     [ "Acts::Portal", "class_acts_1_1_portal.html", null ],
     [ "Acts::Portal::Arguments", "struct_acts_1_1_portal_1_1_arguments.html", null ],
     [ "Acts::Portal::Arguments::Link", "struct_acts_1_1_portal_1_1_arguments_1_1_link.html", null ],

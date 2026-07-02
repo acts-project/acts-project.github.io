@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Member List</title>
+<title>ACTS: Acts::PolynomialBetheHeitlerApprox::PolyData Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('class_acts_1_1_atlas_bethe_heitler_approx.html','',''); });
+$(function(){initNavTree('struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html','','struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -122,26 +122,48 @@ $(function(){initNavTree('class_acts_1_1_atlas_bethe_heitler_approx.html','','')
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::AtlasBetheHeitlerApprox Member List</div></div>
+  <div class="headertitle"><div class="title">Acts::PolynomialBetheHeitlerApprox::PolyData Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a9099b6a6e452a64df0b5cef473af288c">AtlasBetheHeitlerApprox</a>(const Data &amp;lowData, const Data &amp;highData, bool lowTransform, bool highTransform, double lowLimit, double highLimit, bool clampToRange, double noChangeLimit, double singleGaussianLimit)</td><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_bethe_heitler_approx.html">Acts::BetheHeitlerApprox</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#aa6ac00297c80c291d0f4d96a001746b9">Data</a> typedef</td><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a6037eff70ab7bd9acede0a802429b167">loadFromFiles</a>(const std::string &amp;low_parameters_path, const std::string &amp;high_parameters_path, double lowLimit, double highLimit, bool clampToRange, double noChangeLimit, double singleGaussianLimit)</td><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a026234443669787c85d4c374d7a98dbd">maxComponents</a>() const override</td><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a58069d4b85319f6870ca3a52b8e6ea30">mixture</a>(double xOverX0, const std::span&lt; Component &gt; mixture) const override</td><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html#a17ef496b2c1950d883a24cfae5016623">validXOverX0</a>(const double xOverX0) const override</td><td class="entry"><a class="el" href="class_acts_1_1_atlas_bethe_heitler_approx.html">Acts::AtlasBetheHeitlerApprox</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>~BetheHeitlerApprox</b>()=default (defined in <a class="el" href="class_acts_1_1_bethe_heitler_approx.html">Acts::BetheHeitlerApprox</a>)</td><td class="entry"><a class="el" href="class_acts_1_1_bethe_heitler_approx.html">Acts::BetheHeitlerApprox</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>Polynomial coefficient sets for a Gaussian mixture component.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_bethe_heitler_approx_8hpp_source.html">Acts/TrackFitting/BetheHeitlerApprox.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Acts::PolynomialBetheHeitlerApprox::PolyData:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data__coll__graph.svg" width="224" height="283"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8b1fa4073d4158945aeae130759d6428" id="r_a8b1fa4073d4158945aeae130759d6428"><td class="memItemLeft" align="right" valign="top"><a id="a8b1fa4073d4158945aeae130759d6428" name="a8b1fa4073d4158945aeae130759d6428"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>meanCoeffs</b></td></tr>
+<tr class="memdesc:a8b1fa4073d4158945aeae130759d6428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polynomial coefficients for component mean. <br /></td></tr>
+<tr class="memitem:ac159d9ab07f57ffa11ff84ce45459a9d" id="r_ac159d9ab07f57ffa11ff84ce45459a9d"><td class="memItemLeft" align="right" valign="top"><a id="ac159d9ab07f57ffa11ff84ce45459a9d" name="ac159d9ab07f57ffa11ff84ce45459a9d"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>varCoeffs</b></td></tr>
+<tr class="memdesc:ac159d9ab07f57ffa11ff84ce45459a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polynomial coefficients for component variance. <br /></td></tr>
+<tr class="memitem:a9b7b9f2b418d7d12bdabba3f2dde0367" id="r_a9b7b9f2b418d7d12bdabba3f2dde0367"><td class="memItemLeft" align="right" valign="top"><a id="a9b7b9f2b418d7d12bdabba3f2dde0367" name="a9b7b9f2b418d7d12bdabba3f2dde0367"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>weightCoeffs</b></td></tr>
+<tr class="memdesc:a9b7b9f2b418d7d12bdabba3f2dde0367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polynomial coefficients for component weight. <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Polynomial coefficient sets for a Gaussian mixture component. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="namespace_acts.html">Acts</a></li><li class="navelem"><a href="class_acts_1_1_polynomial_bethe_heitler_approx.html">PolynomialBetheHeitlerApprox</a></li><li class="navelem"><a href="struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html">PolyData</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

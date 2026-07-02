@@ -1,19 +1,6 @@
 var group__material =
 [
     [ "Material mapping", "group__material__mapping.html", "group__material__mapping" ],
-    [ "Acts::AtlasBetheHeitlerApprox", "class_acts_1_1_atlas_bethe_heitler_approx.html", [
-      [ "PolyData", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html", [
-        [ "meanCoeffs", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#a806d0c26cc4f10791f8c8059f4fd4858", null ],
-        [ "varCoeffs", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#aa460f1ac0037863d935c228ea3411597", null ],
-        [ "weightCoeffs", "struct_acts_1_1_atlas_bethe_heitler_approx_1_1_poly_data.html#ac6c7d084a64554a95befce192b56293f", null ]
-      ] ],
-      [ "Data", "class_acts_1_1_atlas_bethe_heitler_approx.html#aa6ac00297c80c291d0f4d96a001746b9", null ],
-      [ "AtlasBetheHeitlerApprox", "class_acts_1_1_atlas_bethe_heitler_approx.html#a9099b6a6e452a64df0b5cef473af288c", null ],
-      [ "loadFromFiles", "class_acts_1_1_atlas_bethe_heitler_approx.html#a6037eff70ab7bd9acede0a802429b167", null ],
-      [ "maxComponents", "class_acts_1_1_atlas_bethe_heitler_approx.html#a026234443669787c85d4c374d7a98dbd", null ],
-      [ "mixture", "class_acts_1_1_atlas_bethe_heitler_approx.html#a58069d4b85319f6870ca3a52b8e6ea30", null ],
-      [ "validXOverX0", "class_acts_1_1_atlas_bethe_heitler_approx.html#a17ef496b2c1950d883a24cfae5016623", null ]
-    ] ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
       [ "Component", "class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3", null ],
       [ "maxComponents", "class_acts_1_1_bethe_heitler_approx.html#a8b593569b93fbc23758df47e785b81af", null ],
@@ -251,6 +238,26 @@ var group__material =
       [ "scale", "class_acts_1_1_merged_material_marker.html#a344f98e1b59a1a204ecaa43c263816ae", null ],
       [ "toStream", "class_acts_1_1_merged_material_marker.html#a73beea7bf9fbbb9886e89f46a756055f", null ]
     ] ],
+    [ "Acts::PolynomialBetheHeitlerApprox", "class_acts_1_1_polynomial_bethe_heitler_approx.html", [
+      [ "PolyData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html", [
+        [ "meanCoeffs", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#a8b1fa4073d4158945aeae130759d6428", null ],
+        [ "varCoeffs", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#ac159d9ab07f57ffa11ff84ce45459a9d", null ],
+        [ "weightCoeffs", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_poly_data.html#a9b7b9f2b418d7d12bdabba3f2dde0367", null ]
+      ] ],
+      [ "RangeData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html", [
+        [ "RangeData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#a2f66985790d2644237855ed234c6f7f3", null ],
+        [ "RangeData", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968", null ],
+        [ "data", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32", null ],
+        [ "range", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c", null ],
+        [ "transform", "struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa1dd9edb9a128709060feb1cad6f3d8b", null ]
+      ] ],
+      [ "Data", "class_acts_1_1_polynomial_bethe_heitler_approx.html#a4b99b4b44ba64bc87944dd99fcababf1", null ],
+      [ "PolynomialBetheHeitlerApprox", "class_acts_1_1_polynomial_bethe_heitler_approx.html#a61c93b2170db88791a898a58992db14e", null ],
+      [ "PolynomialBetheHeitlerApprox", "class_acts_1_1_polynomial_bethe_heitler_approx.html#a7e8bc0b2b79b8f276413db2457cd6de0", null ],
+      [ "maxComponents", "class_acts_1_1_polynomial_bethe_heitler_approx.html#a107288fd979fa11027d9a14b1b5740bb", null ],
+      [ "mixture", "class_acts_1_1_polynomial_bethe_heitler_approx.html#a7cff45c465b632a6eed98b234bdb7d60", null ],
+      [ "validXOverX0", "class_acts_1_1_polynomial_bethe_heitler_approx.html#ae267dff7881455ebe2f589601e942a85", null ]
+    ] ],
     [ "Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;", "class_acts_1_1_proto_surface_material_t.html", [
       [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#a5fa299188102d354977c60febbfdfe67", null ],
       [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#a78f28e25bffb1aa9ecea0677e8d1d4b8", null ],
@@ -284,7 +291,7 @@ var group__material =
     [ "Acts::IndexedSurfaceMaterial", "group__material.html#gaad5c814e3aa3cfb77dd2dc46abc2099b", null ],
     [ "Acts::ProtoGridSurfaceMaterial", "group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f", null ],
     [ "Acts::ProtoSurfaceMaterial", "group__material.html#gabad517c3d330be68557175bbe3e71402", null ],
-    [ "Acts::makeDefaultBetheHeitlerApprox", "group__material.html#ga470f44f3b24dd49d4a1366a6666f67f6", null ],
+    [ "Acts::makeDefaultBetheHeitlerApprox", "group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d", null ],
     [ "Acts::materialMapperRZ", "group__material.html#ga36398a73a93820ca563cdaebf35c8c99", null ],
     [ "Acts::materialMapperXYZ", "group__material.html#ga58e02a2bfb006720b513203973586084", null ]
 ];

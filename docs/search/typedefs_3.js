@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_0',['Data',['../class_acts_1_1_atlas_bethe_heitler_approx.html#aa6ac00297c80c291d0f4d96a001746b9',1,'Acts::AtlasBetheHeitlerApprox']]],
+  ['data_0',['Data',['../class_acts_1_1_polynomial_bethe_heitler_approx.html#a4b99b4b44ba64bc87944dd99fcababf1',1,'Acts::PolynomialBetheHeitlerApprox']]],
   ['dd4heppassivesurface_1',['DD4hepPassiveSurface',['../class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#af2099b2fdeed9a6fafb97e6aacdcb2f6',1,'ActsPlugins::DD4hepDetectorSurfaceFactory']]],
   ['dd4hepsensitivesurface_2',['DD4hepSensitiveSurface',['../class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html#a204e01f7e505b12bd5a5f1ed25f76b76',1,'ActsPlugins::DD4hepDetectorSurfaceFactory']]],
   ['dd4hepvolumeid_3',['DD4hepVolumeID',['../class_acts_plugins_1_1_d_d4hep_detector_element.html#abf17c510e5e5697c63300e090b9a1605',1,'ActsPlugins::DD4hepDetectorElement']]],
