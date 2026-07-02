@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"class_acts_1_1_triplet_top_candidates.html#a88bd778c32cdcd5abb68e36586971ade":[7,0,0,414,1],
 "class_acts_1_1_triplet_top_candidates.html#a8d87f5fd708dbe373079fa76cf0d8656":[5,0,0,406,6],
 "class_acts_1_1_triplet_top_candidates.html#a8d87f5fd708dbe373079fa76cf0d8656":[7,0,0,414,6],
 "class_acts_1_1_triplet_top_candidates.html#aa64739b8ee8eb61923e9db22e186a1ba":[5,0,0,406,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b":[5,0,0,422,0],
 "class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b":[7,0,0,430,0],
 "class_acts_1_1_volume_bounds.html":[5,0,0,423],
-"class_acts_1_1_volume_bounds.html":[7,0,0,431],
-"class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de":[5,0,0,423,7]
+"class_acts_1_1_volume_bounds.html":[7,0,0,431]
 };

@@ -160,8 +160,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>PortalIdLookup</b> =
 <tr class="memitem:a8104a1bc22dce41f54b5be18dd2d9b19" id="r_a8104a1bc22dce41f54b5be18dd2d9b19"><td class="memItemLeft" align="right" valign="top"><a id="a8104a1bc22dce41f54b5be18dd2d9b19" name="a8104a1bc22dce41f54b5be18dd2d9b19"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>SurfaceIdLookup</b> = <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html">PointerToIdLookup</a>&lt;<a class="el" href="class_acts_1_1_surface.html">Surface</a>, <a class="el" href="#a9286bb299eec5ac8d5b87ce885f6c8f8">kSurfaceLookupContext</a>&gt;</td></tr>
 <tr class="memdesc:a8104a1bc22dce41f54b5be18dd2d9b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface map to its JSON ID. <br /></td></tr>
-<tr class="memitem:a341eded7e9be1f1ea4373c073197c7ea" id="r_a341eded7e9be1f1ea4373c073197c7ea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a341eded7e9be1f1ea4373c073197c7ea">SurfacePointerLookup</a></td></tr>
-<tr class="memdesc:a341eded7e9be1f1ea4373c073197c7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">JSON ID map to its surface.  <br /></td></tr>
+<tr class="memitem:af357653a52e166f90e8b0149a717608c" id="r_af357653a52e166f90e8b0149a717608c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af357653a52e166f90e8b0149a717608c">SurfacePointerLookup</a></td></tr>
+<tr class="memdesc:af357653a52e166f90e8b0149a717608c"><td class="mdescLeft">&#160;</td><td class="mdescRight">JSON ID map to its surface.  <br /></td></tr>
 <tr class="memitem:ae5c95c497eb6c5b05569a03e1f64d66a" id="r_ae5c95c497eb6c5b05569a03e1f64d66a"><td class="memItemLeft" align="right" valign="top"><a id="ae5c95c497eb6c5b05569a03e1f64d66a" name="ae5c95c497eb6c5b05569a03e1f64d66a"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeBoundsDecoder</b> = <a class="el" href="class_acts_1_1_json_kind_dispatcher.html">JsonKindDispatcher</a>&lt;std::unique_ptr&lt;<a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a>&gt;&gt;</td></tr>
 <tr class="memdesc:ae5c95c497eb6c5b05569a03e1f64d66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume bounds decoder. <br /></td></tr>
@@ -177,22 +177,24 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeBoundsEncoder<
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a50237df4af3a6595fc3db1b0252028f8" id="r_a50237df4af3a6595fc3db1b0252028f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50237df4af3a6595fc3db1b0252028f8">TrackingGeometryJsonConverter</a> (<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html">Config</a> config=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a954282af7a8826f492b93cfd3c01d5d9">Config::defaultConfig</a>(), std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;TrackingGeometryJsonConverter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a50237df4af3a6595fc3db1b0252028f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct converter with custom or default dispatch configuration.  <br /></td></tr>
-<tr class="memitem:a2fef890357913036c094938666afe054" id="r_a2fef890357913036c094938666afe054"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fef890357913036c094938666afe054">fromJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const nlohmann::json &amp;encoded, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}) const</td></tr>
-<tr class="memdesc:a2fef890357913036c094938666afe054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruct a tracking geometry from JSON.  <br /></td></tr>
+<tr class="memitem:aa05519757f987018f8aca22fb4af23d7" id="r_aa05519757f987018f8aca22fb4af23d7"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa05519757f987018f8aca22fb4af23d7">fromJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::filesystem::path &amp;jsonPath, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()) const</td></tr>
+<tr class="memdesc:aa05519757f987018f8aca22fb4af23d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruct a tracking geometry from a JSON file on stored on disk.  <br /></td></tr>
+<tr class="memitem:a2310d27e95d4380fa52e633608d177dd" id="r_a2310d27e95d4380fa52e633608d177dd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2310d27e95d4380fa52e633608d177dd">fromJsonPayload</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const nlohmann::json &amp;encoded, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()) const</td></tr>
+<tr class="memdesc:a2310d27e95d4380fa52e633608d177dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruct a tracking geometry from a deserialized JSON file.  <br /></td></tr>
 <tr class="memitem:a2483e0150c26df50a6e537e189a7ab33" id="r_a2483e0150c26df50a6e537e189a7ab33"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2483e0150c26df50a6e537e189a7ab33">navigationPolicyFromJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const nlohmann::json &amp;encoded, const <a class="el" href="class_acts_1_1_tracking_volume.html">Acts::TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger) const</td></tr>
 <tr class="memdesc:a2483e0150c26df50a6e537e189a7ab33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize navigation policy using configured decoders.  <br /></td></tr>
 <tr class="memitem:ae861ae5cd62d919feabc41cbe5995db2" id="r_ae861ae5cd62d919feabc41cbe5995db2"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae861ae5cd62d919feabc41cbe5995db2">navigationPolicyToJson</a> (const <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> &amp;policy) const</td></tr>
 <tr class="memdesc:ae861ae5cd62d919feabc41cbe5995db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize navigation policy using the configured dispatcher.  <br /></td></tr>
-<tr class="memitem:a4d55fe278965cbdd8fff7eb26a8d5f91" id="r_a4d55fe278965cbdd8fff7eb26a8d5f91"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_link_base.html">PortalLinkBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d55fe278965cbdd8fff7eb26a8d5f91">portalLinkFromJson</a> (const nlohmann::json &amp;encoded, const <a class="el" href="#a341eded7e9be1f1ea4373c073197c7ea">SurfacePointerLookup</a> &amp;surfaces, const <a class="el" href="#ad1e99dbd289f83a57554bf9e95332049">VolumePointerLookup</a> &amp;volumes) const</td></tr>
+<tr class="memitem:a4d55fe278965cbdd8fff7eb26a8d5f91" id="r_a4d55fe278965cbdd8fff7eb26a8d5f91"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_link_base.html">PortalLinkBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d55fe278965cbdd8fff7eb26a8d5f91">portalLinkFromJson</a> (const nlohmann::json &amp;encoded, const <a class="el" href="#af357653a52e166f90e8b0149a717608c">SurfacePointerLookup</a> &amp;surfaces, const <a class="el" href="#ad1e99dbd289f83a57554bf9e95332049">VolumePointerLookup</a> &amp;volumes) const</td></tr>
 <tr class="memdesc:a4d55fe278965cbdd8fff7eb26a8d5f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize one portal link using configured decoders.  <br /></td></tr>
 <tr class="memitem:a67774e345885d59e5699cd315c2aad3a" id="r_a67774e345885d59e5699cd315c2aad3a"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67774e345885d59e5699cd315c2aad3a">portalLinkToJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_portal_link_base.html">PortalLinkBase</a> &amp;link, const <a class="el" href="#a8104a1bc22dce41f54b5be18dd2d9b19">SurfaceIdLookup</a> &amp;surfaceIds, const <a class="el" href="#afc3d736455f27df9c89c0bcd88c7e95f">VolumeIdLookup</a> &amp;volumeIds) const</td></tr>
 <tr class="memdesc:a67774e345885d59e5699cd315c2aad3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize one portal link using the configured dispatcher.  <br /></td></tr>
-<tr class="memitem:a03f7a5a42bf14507d3cfe4c271241862" id="r_a03f7a5a42bf14507d3cfe4c271241862"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f7a5a42bf14507d3cfe4c271241862">toJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;geometry, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}) const</td></tr>
-<tr class="memdesc:a03f7a5a42bf14507d3cfe4c271241862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a tracking geometry to JSON.  <br /></td></tr>
-<tr class="memitem:abd7e386800e0dbf458388f8774e43963" id="r_abd7e386800e0dbf458388f8774e43963"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd7e386800e0dbf458388f8774e43963">trackingVolumeFromJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const nlohmann::json &amp;encoded, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}) const</td></tr>
-<tr class="memdesc:abd7e386800e0dbf458388f8774e43963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruct a tracking volume hierarchy from JSON.  <br /></td></tr>
-<tr class="memitem:a6dc858aafdc052af5869d0998fcde5a7" id="r_a6dc858aafdc052af5869d0998fcde5a7"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dc858aafdc052af5869d0998fcde5a7">trackingVolumeToJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;world, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}) const</td></tr>
-<tr class="memdesc:a6dc858aafdc052af5869d0998fcde5a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a tracking volume hierarchy to JSON.  <br /></td></tr>
+<tr class="memitem:aca5b8b08f6275fa07f96ecb8f08900e0" id="r_aca5b8b08f6275fa07f96ecb8f08900e0"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca5b8b08f6275fa07f96ecb8f08900e0">toJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;geometry, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()) const</td></tr>
+<tr class="memdesc:aca5b8b08f6275fa07f96ecb8f08900e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a tracking geometry to JSON.  <br /></td></tr>
+<tr class="memitem:aaa31f9556f7d7b14f309ab367649cd2e" id="r_aaa31f9556f7d7b14f309ab367649cd2e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa31f9556f7d7b14f309ab367649cd2e">trackingVolumeFromJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const nlohmann::json &amp;encoded, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()) const</td></tr>
+<tr class="memdesc:aaa31f9556f7d7b14f309ab367649cd2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruct a tracking volume hierarchy from JSON.  <br /></td></tr>
+<tr class="memitem:a458b8e9b3c5257a7d3290e01b840f335" id="r_a458b8e9b3c5257a7d3290e01b840f335"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a458b8e9b3c5257a7d3290e01b840f335">trackingVolumeToJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;world, const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()) const</td></tr>
+<tr class="memdesc:a458b8e9b3c5257a7d3290e01b840f335"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a tracking volume hierarchy to JSON.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -269,7 +271,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 <div class="line">                     nlohmann::json(</div>
 <div class="line">                         <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_tracking_geometry_json_converter.html">Acts::TrackingGeometryJsonConverter</a>&amp;)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_i_navigation_policy_html"><div class="ttname"><a href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a></div><div class="ttdoc">Base class for all navigation policies.</div><div class="ttdef"><b>Definition</b> INavigationPolicy.hpp:181</div></div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html"><div class="ttname"><a href="class_acts_1_1_tracking_geometry_json_converter.html">Acts::TrackingGeometryJsonConverter</a></div><div class="ttdoc">Converter for tracking geometry JSON payloads.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:52</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html"><div class="ttname"><a href="class_acts_1_1_tracking_geometry_json_converter.html">Acts::TrackingGeometryJsonConverter</a></div><div class="ttdoc">Converter for tracking geometry JSON payloads.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:53</div></div>
 <div class="ttc" id="aclass_acts_1_1_type_dispatcher_html"><div class="ttname"><a href="class_acts_1_1_type_dispatcher.html">Acts::TypeDispatcher</a></div><div class="ttdoc">Template class for type-based function dispatch.</div><div class="ttdef"><b>Definition</b> TypeDispatcher.hpp:32</div></div>
 </div><!-- fragment -->
 <p>Navigation policy encoder. </p>
@@ -289,9 +291,9 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> <a class="code hl_class" href="class_acts_1_1_json_kind_dispatcher.html">JsonKindDispatcher</a>&lt;</div>
 <div class="line">      std::unique_ptr&lt;PortalLinkBase&gt;, <span class="keyword">const</span> <a class="code hl_function" href="#a50237df4af3a6595fc3db1b0252028f8">TrackingGeometryJsonConverter</a>&amp;,</div>
-<div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="#a341eded7e9be1f1ea4373c073197c7ea">SurfacePointerLookup</a>&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="#ad1e99dbd289f83a57554bf9e95332049">VolumePointerLookup</a>&amp;&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a341eded7e9be1f1ea4373c073197c7ea"><div class="ttname"><a href="#a341eded7e9be1f1ea4373c073197c7ea">Acts::TrackingGeometryJsonConverter::SurfacePointerLookup</a></div><div class="ttdeci">IdToPointerLikeLookup&lt; RegularSurface, std::shared_ptr&lt; RegularSurface &gt;, kSurfaceLookupContext &gt; SurfacePointerLookup</div><div class="ttdoc">JSON ID map to its surface.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:78</div></div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_ad1e99dbd289f83a57554bf9e95332049"><div class="ttname"><a href="#ad1e99dbd289f83a57554bf9e95332049">Acts::TrackingGeometryJsonConverter::VolumePointerLookup</a></div><div class="ttdeci">IdToPointerLikeLookup&lt; TrackingVolume, TrackingVolume *, kVolumeLookupContext &gt; VolumePointerLookup</div><div class="ttdoc">JSON ID map to its tracking volume.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:93</div></div>
+<div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="#af357653a52e166f90e8b0149a717608c">SurfacePointerLookup</a>&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="#ad1e99dbd289f83a57554bf9e95332049">VolumePointerLookup</a>&amp;&gt;</div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_ad1e99dbd289f83a57554bf9e95332049"><div class="ttname"><a href="#ad1e99dbd289f83a57554bf9e95332049">Acts::TrackingGeometryJsonConverter::VolumePointerLookup</a></div><div class="ttdeci">IdToPointerLikeLookup&lt; TrackingVolume, TrackingVolume *, kVolumeLookupContext &gt; VolumePointerLookup</div><div class="ttdoc">JSON ID map to its tracking volume.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:105</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_af357653a52e166f90e8b0149a717608c"><div class="ttname"><a href="#af357653a52e166f90e8b0149a717608c">Acts::TrackingGeometryJsonConverter::SurfacePointerLookup</a></div><div class="ttdeci">IdToPointerLikeLookup&lt; Surface, std::shared_ptr&lt; Surface &gt;, kSurfaceLookupContext &gt; SurfacePointerLookup</div><div class="ttdoc">JSON ID map to its surface.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:90</div></div>
 </div><!-- fragment -->
 <p>Portal link decoder. </p>
 
@@ -315,8 +317,8 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 <div class="line">                                    <span class="keyword">const</span> <a class="code hl_typedef" href="#a8104a1bc22dce41f54b5be18dd2d9b19">SurfaceIdLookup</a>&amp;,</div>
 <div class="line">                                    <span class="keyword">const</span> <a class="code hl_typedef" href="#afc3d736455f27df9c89c0bcd88c7e95f">VolumeIdLookup</a>&amp;)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_portal_link_base_html"><div class="ttname"><a href="class_acts_1_1_portal_link_base.html">Acts::PortalLinkBase</a></div><div class="ttdoc">PortalLinkBase is the abstract base class for all portal links.</div><div class="ttdef"><b>Definition</b> PortalLinkBase.hpp:29</div></div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a8104a1bc22dce41f54b5be18dd2d9b19"><div class="ttname"><a href="#a8104a1bc22dce41f54b5be18dd2d9b19">Acts::TrackingGeometryJsonConverter::SurfaceIdLookup</a></div><div class="ttdeci">PointerToIdLookup&lt; Surface, kSurfaceLookupContext &gt; SurfaceIdLookup</div><div class="ttdoc">Surface map to its JSON ID.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:76</div></div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_afc3d736455f27df9c89c0bcd88c7e95f"><div class="ttname"><a href="#afc3d736455f27df9c89c0bcd88c7e95f">Acts::TrackingGeometryJsonConverter::VolumeIdLookup</a></div><div class="ttdeci">PointerToIdLookup&lt; TrackingVolume, kVolumeLookupContext &gt; VolumeIdLookup</div><div class="ttdoc">Tracking volume map to its JSON ID.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:90</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a8104a1bc22dce41f54b5be18dd2d9b19"><div class="ttname"><a href="#a8104a1bc22dce41f54b5be18dd2d9b19">Acts::TrackingGeometryJsonConverter::SurfaceIdLookup</a></div><div class="ttdeci">PointerToIdLookup&lt; Surface, kSurfaceLookupContext &gt; SurfaceIdLookup</div><div class="ttdoc">Surface map to its JSON ID.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:88</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_afc3d736455f27df9c89c0bcd88c7e95f"><div class="ttname"><a href="#afc3d736455f27df9c89c0bcd88c7e95f">Acts::TrackingGeometryJsonConverter::VolumeIdLookup</a></div><div class="ttdeci">PointerToIdLookup&lt; TrackingVolume, kVolumeLookupContext &gt; VolumeIdLookup</div><div class="ttdoc">Tracking volume map to its JSON ID.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:102</div></div>
 </div><!-- fragment -->
 <p>Portal link encoder. </p>
 
@@ -336,28 +338,28 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_struct" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html">IdToPointerLikeLookup&lt;Portal, std::shared_ptr&lt;Portal&gt;</a>,</div>
 <div class="line">                            <a class="code hl_variable" href="#a77628f57ad9ed50217337d65ec525c47">kPortalLookupContext</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a77628f57ad9ed50217337d65ec525c47"><div class="ttname"><a href="#a77628f57ad9ed50217337d65ec525c47">Acts::TrackingGeometryJsonConverter::kPortalLookupContext</a></div><div class="ttdeci">static constexpr char kPortalLookupContext[]</div><div class="ttdoc">Exception context for portals.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:71</div></div>
-<div class="ttc" id="astruct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup_html"><div class="ttname"><a href="struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html">Acts::TrackingGeometryJsonConverter::IdToPointerLikeLookup</a></div><div class="ttdoc">Generic lookup from serialized ID to pointer-like object holder.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:66</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a77628f57ad9ed50217337d65ec525c47"><div class="ttname"><a href="#a77628f57ad9ed50217337d65ec525c47">Acts::TrackingGeometryJsonConverter::kPortalLookupContext</a></div><div class="ttdeci">static constexpr char kPortalLookupContext[]</div><div class="ttdoc">Exception context for portals.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:83</div></div>
+<div class="ttc" id="astruct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup_html"><div class="ttname"><a href="struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html">Acts::TrackingGeometryJsonConverter::IdToPointerLikeLookup</a></div><div class="ttdoc">Generic lookup from serialized ID to pointer-like object holder.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:78</div></div>
 </div><!-- fragment -->
 <p>JSON ID map to its portal. </p>
 
 </div>
 </div>
-<a id="a341eded7e9be1f1ea4373c073197c7ea" name="a341eded7e9be1f1ea4373c073197c7ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a341eded7e9be1f1ea4373c073197c7ea">&#9670;&#160;</a></span>SurfacePointerLookup</h2>
+<a id="af357653a52e166f90e8b0149a717608c" name="af357653a52e166f90e8b0149a717608c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af357653a52e166f90e8b0149a717608c">&#9670;&#160;</a></span>SurfacePointerLookup</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a341eded7e9be1f1ea4373c073197c7ea">Acts::TrackingGeometryJsonConverter::SurfacePointerLookup</a></td>
+          <td class="memname">using <a class="el" href="#af357653a52e166f90e8b0149a717608c">Acts::TrackingGeometryJsonConverter::SurfacePointerLookup</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      <a class="code hl_struct" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html">IdToPointerLikeLookup&lt;RegularSurface, std::shared_ptr&lt;RegularSurface&gt;</a>,</div>
+<div class="line">      <a class="code hl_struct" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html">IdToPointerLikeLookup&lt;Surface, std::shared_ptr&lt;Surface&gt;</a>,</div>
 <div class="line">                            <a class="code hl_variable" href="#a9286bb299eec5ac8d5b87ce885f6c8f8">kSurfaceLookupContext</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a9286bb299eec5ac8d5b87ce885f6c8f8"><div class="ttname"><a href="#a9286bb299eec5ac8d5b87ce885f6c8f8">Acts::TrackingGeometryJsonConverter::kSurfaceLookupContext</a></div><div class="ttdeci">static constexpr char kSurfaceLookupContext[]</div><div class="ttdoc">Exception context for surfaces.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:69</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a9286bb299eec5ac8d5b87ce885f6c8f8"><div class="ttname"><a href="#a9286bb299eec5ac8d5b87ce885f6c8f8">Acts::TrackingGeometryJsonConverter::kSurfaceLookupContext</a></div><div class="ttdeci">static constexpr char kSurfaceLookupContext[]</div><div class="ttdoc">Exception context for surfaces.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:81</div></div>
 </div><!-- fragment -->
 <p>JSON ID map to its surface. </p>
 
@@ -376,7 +378,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_struct" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html">PointerToIdLookup&lt;TrackingVolume, kVolumeLookupContext&gt;</a></div>
-<div class="ttc" id="astruct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup_html"><div class="ttname"><a href="struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html">Acts::TrackingGeometryJsonConverter::PointerToIdLookup</a></div><div class="ttdoc">Generic lookup from object pointer identity to serialized object ID.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:59</div></div>
+<div class="ttc" id="astruct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup_html"><div class="ttname"><a href="struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html">Acts::TrackingGeometryJsonConverter::PointerToIdLookup</a></div><div class="ttdoc">Generic lookup from object pointer identity to serialized object ID.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:71</div></div>
 </div><!-- fragment -->
 <p>Tracking volume map to its JSON ID. </p>
 
@@ -396,7 +398,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_struct" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html">IdToPointerLikeLookup</a>&lt;<a class="code hl_class" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>, <a class="code hl_class" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>*,</div>
 <div class="line">                            <a class="code hl_variable" href="#a7c1fa50097cd7722fc9fa46f1784e7e6">kVolumeLookupContext</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a7c1fa50097cd7722fc9fa46f1784e7e6"><div class="ttname"><a href="#a7c1fa50097cd7722fc9fa46f1784e7e6">Acts::TrackingGeometryJsonConverter::kVolumeLookupContext</a></div><div class="ttdeci">static constexpr char kVolumeLookupContext[]</div><div class="ttdoc">Exception context for volumes.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:73</div></div>
+<div class="ttc" id="aclass_acts_1_1_tracking_geometry_json_converter_html_a7c1fa50097cd7722fc9fa46f1784e7e6"><div class="ttname"><a href="#a7c1fa50097cd7722fc9fa46f1784e7e6">Acts::TrackingGeometryJsonConverter::kVolumeLookupContext</a></div><div class="ttdeci">static constexpr char kVolumeLookupContext[]</div><div class="ttdoc">Exception context for volumes.</div><div class="ttdef"><b>Definition</b> TrackingGeometryJsonConverter.hpp:85</div></div>
 </div><!-- fragment -->
 <p>JSON ID map to its tracking volume. </p>
 
@@ -442,8 +444,8 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a2fef890357913036c094938666afe054" name="a2fef890357913036c094938666afe054"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fef890357913036c094938666afe054">&#9670;&#160;</a></span>fromJson()</h2>
+<a id="aa05519757f987018f8aca22fb4af23d7" name="aa05519757f987018f8aca22fb4af23d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa05519757f987018f8aca22fb4af23d7">&#9670;&#160;</a></span>fromJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,21 +458,58 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>jsonPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reconstruct a tracking geometry from a JSON file on stored on disk. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>geometry context </td></tr>
+    <tr><td class="paramname">jsonPath</td><td>The path to the JSON file on disk </td></tr>
+    <tr><td class="paramname">options</td><td>options for the conversion</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>pointer to deserialized geometry </dd></dl>
+
+</div>
+</div>
+<a id="a2310d27e95d4380fa52e633608d177dd" name="a2310d27e95d4380fa52e633608d177dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2310d27e95d4380fa52e633608d177dd">&#9670;&#160;</a></span>fromJsonPayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &gt; Acts::TrackingGeometryJsonConverter::fromJsonPayload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>encoded</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reconstruct a tracking geometry from JSON. </p>
+<p>Reconstruct a tracking geometry from a deserialized JSON file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>geometry context </td></tr>
-    <tr><td class="paramname">encoded</td><td>serialized tracking geometry </td></tr>
+    <tr><td class="paramname">encoded</td><td>Reference to the encoded JSON object </td></tr>
     <tr><td class="paramname">options</td><td>options for the conversion</td></tr>
   </table>
   </dd>
@@ -562,7 +601,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a341eded7e9be1f1ea4373c073197c7ea">SurfacePointerLookup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaces</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#af357653a52e166f90e8b0149a717608c">SurfacePointerLookup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -628,8 +667,8 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 
 </div>
 </div>
-<a id="a03f7a5a42bf14507d3cfe4c271241862" name="a03f7a5a42bf14507d3cfe4c271241862"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03f7a5a42bf14507d3cfe4c271241862">&#9670;&#160;</a></span>toJson()</h2>
+<a id="aca5b8b08f6275fa07f96ecb8f08900e0" name="aca5b8b08f6275fa07f96ecb8f08900e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5b8b08f6275fa07f96ecb8f08900e0">&#9670;&#160;</a></span>toJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -647,7 +686,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -665,8 +704,8 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 
 </div>
 </div>
-<a id="abd7e386800e0dbf458388f8774e43963" name="abd7e386800e0dbf458388f8774e43963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd7e386800e0dbf458388f8774e43963">&#9670;&#160;</a></span>trackingVolumeFromJson()</h2>
+<a id="aaa31f9556f7d7b14f309ab367649cd2e" name="aaa31f9556f7d7b14f309ab367649cd2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa31f9556f7d7b14f309ab367649cd2e">&#9670;&#160;</a></span>trackingVolumeFromJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -684,7 +723,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -703,8 +742,8 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
 
 </div>
 </div>
-<a id="a6dc858aafdc052af5869d0998fcde5a7" name="a6dc858aafdc052af5869d0998fcde5a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dc858aafdc052af5869d0998fcde5a7">&#9670;&#160;</a></span>trackingVolumeToJson()</h2>
+<a id="a458b8e9b3c5257a7d3290e01b840f335" name="a458b8e9b3c5257a7d3290e01b840f335"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458b8e9b3c5257a7d3290e01b840f335">&#9670;&#160;</a></span>trackingVolumeToJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -722,7 +761,7 @@ static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>kVol
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a>{}</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1">Options::defaultOptions</a>()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

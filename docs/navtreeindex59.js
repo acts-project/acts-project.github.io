@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_solenoid_b_field_1_1_config.html#a7f0c7de7c33d097b0f1e8822fd711ad4":[4,10,0,7,1,1],
 "struct_acts_1_1_source_link_adapter_iterator.html":[5,0,0,345],
 "struct_acts_1_1_source_link_adapter_iterator.html":[7,0,0,353],
 "struct_acts_1_1_source_link_adapter_iterator.html#a1735c3f6ba1db369eab245245504ce15":[5,0,0,345,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_sympy_stepper_1_1_options.html":[7,0,0,385,1],
 "struct_acts_1_1_sympy_stepper_1_1_options.html#a4f5ede81d265e7156fb08f3f2615ab7c":[5,0,0,377,1,1],
 "struct_acts_1_1_sympy_stepper_1_1_options.html#a4f5ede81d265e7156fb08f3f2615ab7c":[7,0,0,385,1,1],
-"struct_acts_1_1_sympy_stepper_1_1_options.html#a580c4b16a6caab790066131c404edb64":[5,0,0,377,1,2],
-"struct_acts_1_1_sympy_stepper_1_1_options.html#a580c4b16a6caab790066131c404edb64":[7,0,0,385,1,2]
+"struct_acts_1_1_sympy_stepper_1_1_options.html#a580c4b16a6caab790066131c404edb64":[5,0,0,377,1,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_track_state_creator.html#a0dea10bed4f2d60c9e320109cbe6f61f":[7,0,0,402,6],
 "struct_acts_1_1_track_state_creator.html#a2ac9a5fbf7104626c6305ae5bb93c957":[5,0,0,394,12],
 "struct_acts_1_1_track_state_creator.html#a2ac9a5fbf7104626c6305ae5bb93c957":[7,0,0,402,12],
 "struct_acts_1_1_track_state_creator.html#a369aacf2a91fede8dc9cbf1d4a0a71d2":[5,0,0,394,14],
@@ -62,6 +63,9 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323":[4,9,10,12,0,4],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html":[4,9,10,12,1],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html":[4,9,10,12,2],
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052":[4,9,10,12,2,2],
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#abb1be2d78a2465ebcc4b85f9391a1e0c":[4,9,10,12,2,0],
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1":[4,9,10,12,2,1],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html":[4,9,10,12,3],
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[5,0,0,389,0],
 "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html":[7,0,0,397,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[5,0,0,421,2,0],
 "struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[7,0,0,429,2,0],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[5,0,0,421,2,1],
-"struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[7,0,0,429,2,1],
-"struct_acts_1_1_volume_collector.html":[5,0,0,424],
-"struct_acts_1_1_volume_collector.html":[7,0,0,432],
-"struct_acts_1_1_volume_collector.html#a70e9fb461cc9dfd59c94638d8c72095a":[5,0,0,424,3],
-"struct_acts_1_1_volume_collector.html#a70e9fb461cc9dfd59c94638d8c72095a":[7,0,0,432,3]
+"struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[7,0,0,429,2,1]
 };

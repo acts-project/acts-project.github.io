@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html":[5,0,0,56,2],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html":[7,0,0,64,2],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a5db8c374396ae33a0b43a61fd4a39b44":[5,0,0,56,2,1],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html#a5db8c374396ae33a0b43a61fd4a39b44":[7,0,0,64,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_cylinder_volume_helper_1_1_config.html#ae925b7e2720080b05de7bf8f01d4698e":[5,0,0,95,0,4],
 "struct_acts_1_1_cylinder_volume_helper_1_1_config.html#ae925b7e2720080b05de7bf8f01d4698e":[7,0,0,103,0,4],
 "struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html":[5,0,0,97,0],
-"struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html":[7,0,0,105,0],
-"struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html#a0979a89214a17bfaa526c31da89acd36":[5,0,0,97,0,14]
+"struct_acts_1_1_cylindrical_space_point_grid2_1_1_config.html":[7,0,0,105,0]
 };

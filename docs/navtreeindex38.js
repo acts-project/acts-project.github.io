@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de":[5,0,0,423,7],
 "class_acts_1_1_volume_bounds.html#a131ba8dce505a6514fcd64f93bd462de":[7,0,0,431,7],
 "class_acts_1_1_volume_bounds.html#a162ebdf4c575bd160abb1b2350a42f22":[5,0,0,423,9],
 "class_acts_1_1_volume_bounds.html#a162ebdf4c575bd160abb1b2350a42f22":[7,0,0,431,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[5,0,2,18,12],
 "class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[7,0,1,19,12],
 "class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[5,0,2,18,15],
-"class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[7,0,1,19,15],
-"class_acts_fatras_1_1_particle.html":[5,0,2,26]
+"class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[7,0,1,19,15]
 };
