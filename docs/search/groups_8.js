@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['json_20plugin_0',['JSON Plugin',['../group__json__plugin.html',1,'']]]
+  ['in_20the_20kalman_20filters_0',['Material effects in the Kalman filters',['../group__kf__material__effects.html',1,'']]]
 ];

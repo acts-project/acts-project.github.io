@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['thresholds_0',['Logging Thresholds',['../group__logging__thresholds.html',1,'']]],
-  ['track_20event_20data_20model_1',['Track Event Data Model',['../group__eventdata__tracks.html',1,'']]],
-  ['track_20finding_2',['Track Finding',['../group__track__finding.html',1,'']]],
-  ['track_20fitting_3',['Track Fitting',['../group__track__fitting.html',1,'']]],
-  ['track_20parameters_20from_20seed_4',['Estimate track parameters from seed',['../group__est__track__params.html',1,'']]],
-  ['track_20reconstruction_5',['track reconstruction',['../group__eventdata-charge.html',1,'Charge hypothesis for track reconstruction'],['../group__eventdata-particlehypothesis.html',1,'Particle hypothesis for track reconstruction']]],
-  ['types_6',['Algebra types',['../group__algebra__types.html',1,'']]]
+  ['recognition_0',['Pattern Recognition',['../group__pattern__recog.html',1,'']]],
+  ['reconstruction_1',['reconstruction',['../group__eventdata-charge.html',1,'Charge hypothesis for track reconstruction'],['../group__eventdata-particlehypothesis.html',1,'Particle hypothesis for track reconstruction']]],
+  ['root_20plugin_2',['ROOT Plugin',['../group__root__plugin.html',1,'']]],
+  ['runtime_20geometry_20module_20loading_3',['Runtime geometry module loading',['../group__geometry__module__loading.html',1,'']]]
 ];

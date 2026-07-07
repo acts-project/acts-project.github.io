@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_solenoid_b_field_1_1_config.html#a190bed2a6135ce425ba4e995dba75af6":[4,11,0,7,1,0],
 "struct_acts_1_1_solenoid_b_field_1_1_config.html#a46638f293d7e60975ae7382a56a915e2":[4,3,1,7,1,3],
 "struct_acts_1_1_solenoid_b_field_1_1_config.html#a46638f293d7e60975ae7382a56a915e2":[4,11,0,7,1,3],
 "struct_acts_1_1_solenoid_b_field_1_1_config.html#a7f0c7de7c33d097b0f1e8822fd711ad4":[4,3,1,7,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_sympy_stepper_1_1_config.html":[7,0,0,385,0],
 "struct_acts_1_1_sympy_stepper_1_1_config.html#aab5efd99442fa3c71c7f11d0d792d868":[5,0,0,377,0,0],
 "struct_acts_1_1_sympy_stepper_1_1_config.html#aab5efd99442fa3c71c7f11d0d792d868":[7,0,0,385,0,0],
-"struct_acts_1_1_sympy_stepper_1_1_options.html":[5,0,0,377,1],
-"struct_acts_1_1_sympy_stepper_1_1_options.html":[7,0,0,385,1]
+"struct_acts_1_1_sympy_stepper_1_1_options.html":[5,0,0,377,1]
 };

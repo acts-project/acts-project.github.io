@@ -126,7 +126,7 @@ $(function(){initNavTree('formatting.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Guidelines and tools for source code formatting.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md72"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md73"></a>
 C++ formatting: <span class="tt">clang-format</span></h2>
 <p>Code formatting is handled by <a href="https://clang.llvm.org/docs/ClangFormat.html"><span class="tt">clang-format</span></a>. A configuration file is available in the repository root at <span class="tt">.clang-format</span> and should be used to automatically format the code. Many editors / IDEs support <span class="tt">clang-format</span> and also format-on-save actions.</p>
 <p>The ACTS CI system will automatically check code formatting using the provided <span class="tt">clang-format</span> configuration and will notify incompatible formatting.</p>
@@ -135,7 +135,7 @@ C++ formatting: <span class="tt">clang-format</span></h2>
 </div><!-- fragment --><p>In some cases, different <span class="tt">clang-format</span> versions will result in slightly different outputs. In many cases, this is accepted by the CI. However, it is recommended to use the same major version of <span class="tt">clang-format</span> to perform local formatting. Options to obtain a compatible <span class="tt">clang-format</span> version are to use your package manager (e.g. Ubuntu distributions usually offer a set of versions to install), or to use statically linked binaries from <a href="https://github.com/muttleyxd/clang-tools-static-binaries">here</a> (This repository is external to the ACTS project, so proceed with caution!) and use them with:</p>
 <div class="fragment"><div class="line">CLANG_FORMAT_BINARY=&lt;path/to/clang-format&gt; CI/check_format $SOURCE_DIR</div>
 </div><!-- fragment --><p>You can also download the required changes by clicking on <em>Summary</em> on the top left-hand portion of the CI job and scrolling down to the bottom of the page (see <em>Changed</em>). However, it is suggested to run the <span class="tt">CI/check_format</span> locally before committing, to not clog the shared resources with repeated checks.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md73"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md74"></a>
 Python formatting</h2>
 <p>Formatting of the Python source code uses the library <a href="https://github.com/psf/black"><span class="tt">black</span></a>. To run it, you can locally install the <span class="tt">black</span> package. You can use <span class="tt">pip</span> to install it:</p>
 <div class="fragment"><div class="line">pip install black</div>

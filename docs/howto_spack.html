@@ -126,10 +126,10 @@ $(function(){initNavTree('howto_spack.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Guide to building ACTS with Spack.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md74"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md75"></a>
 Building with Spack</h1>
 <p><a href="https://spack.io/">Spack</a> is a package manager designed to handle software used in scientific computing, including computing in high-energy physics. The Spack package manager can be used to more easily install ACTS' dependencies. Builds using Spack are not officially supported. In order to start using Spack, follow the instructions on the <a href="https://spack.readthedocs.io/en/latest/getting_started.html">official Spack documentation</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md75"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md76"></a>
 Installing dependencies</h2>
 <p>Once Spack has been installed, we are ready to create a development environment; for example:</p>
 <div class="fragment"><div class="line">spack env create acts</div>
@@ -147,16 +147,16 @@ Installing dependencies</h2>
 Running with dependencies</h3>
 <p>In order to run code depending on ACTS dependencies such as DD4hep, you may need to run an additional shell script when you activate your Spack environment. This shell script is called <span class="tt">this_acts_withdeps.sh</span> and resides in your ACTS build directory:</p>
 <div class="fragment"><div class="line">source &lt;build directory&gt;/this_acts_withdeps.sh</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md76"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md77"></a>
 Build caches</h2>
 <p>Work on build caches for ACTS is in progress.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md77"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md78"></a>
 Support</h2>
 <p>Spack support is experimental and not officially supported. Because ACTS' dependencies are constantly changing, it is possible that Spack's database may at times be out of date. If you encounter any problems using Spack to build ACTS, unofficial support is available in the <a href="https://mattermost.web.cern.ch/acts/channels/spack">Spack</a> channel on the ACTS Mattermost.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md78"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md79"></a>
 Troubleshooting</h2>
 <p>The following are some common problems you may encounter using Spack to build ACTS.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md79"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md80"></a>
 DD4hep not finding factories</h3>
 <p>If you run into an error like the following, DD4hep is failing to find the object files required to parse some its required factories. Remember to initialize the ACTS dependencies as described in <a class="el" href="#spack_running_with_dependencies">&quot;Running with dependencies&quot;</a>:</p>
 <div class="fragment"><div class="line">dd4hep: Failed to locate plugin to interprete files of type &quot;lccdd&quot; - no factory:lccdd_XML_reader.</div>

@@ -1,5 +1,6 @@
 var group__track__fitting =
 [
+    [ "Material effects in the Kalman filters", "group__kf__material__effects.html", null ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
       [ "Component", "class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3", null ],
       [ "maxComponents", "class_acts_1_1_bethe_heitler_approx.html#a8b593569b93fbc23758df47e785b81af", null ],

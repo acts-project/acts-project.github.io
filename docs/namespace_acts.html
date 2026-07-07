@@ -1636,7 +1636,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:ae866cb8853468d56eec07abde7529017" id="r_ae866cb8853468d56eec07abde7529017"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae866cb8853468d56eec07abde7529017">NoiseUpdateMode</a> : int { <b>removeNoise</b> = -1
 , <b>addNoise</b> = 1
  }</td></tr>
-<tr class="memdesc:ae866cb8853468d56eec07abde7529017"><td class="mdescLeft">&#160;</td><td class="mdescRight">to tell how to deal with noise term in covariance transport  <a href="#ae866cb8853468d56eec07abde7529017">More...</a><br /></td></tr>
+<tr class="memdesc:ae866cb8853468d56eec07abde7529017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Steering enum to tell how to deal with the noise term in covariance transport:  <a href="#ae866cb8853468d56eec07abde7529017">More...</a><br /></td></tr>
 <tr class="memitem:a9be1c6a7aba3d2c58133f9f2f10db45a" id="r_a9be1c6a7aba3d2c58133f9f2f10db45a"><td class="memItemLeft" align="right" valign="top"><a id="a9be1c6a7aba3d2c58133f9f2f10db45a" name="a9be1c6a7aba3d2c58133f9f2f10db45a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> : std::int32_t { <br />
 &#160;&#160;<b>eInvalid</b> = 0
 , <b>eElectron</b> = 11
@@ -1884,7 +1884,7 @@ Functions</h2></td></tr>
 <tr class="memitem:af22a25edcd447beaf9fe79dcf98cd9e6 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af22a25edcd447beaf9fe79dcf98cd9e6">applyReferenceExpansion</a> (std::vector&lt; typename grid_type::point_t &gt; &amp;gridQueries, const std::vector&lt; double &gt; &amp;referenceExpansion)</td></tr>
 <tr class="memdesc:af22a25edcd447beaf9fe79dcf98cd9e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the reference expansion.  <br /></td></tr>
 <tr class="memitem:a692f3bf198b75679e1051ae422c41869" id="r_a692f3bf198b75679e1051ae422c41869"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a692f3bf198b75679e1051ae422c41869">approximateHighlandScattering</a> (float xOverX0)</td></tr>
-<tr class="memdesc:a692f3bf198b75679e1051ae422c41869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Approximate the core width of the projected planar scattering distribution with highland's formula.  <br /></td></tr>
+<tr class="memdesc:a692f3bf198b75679e1051ae422c41869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Approximate the core width of the projected planar scattering distribution with Highland's formula.  <br /></td></tr>
 <tr class="memitem:a38501aefe9b96141626183f8c0861381" id="r_a38501aefe9b96141626183f8c0861381"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38501aefe9b96141626183f8c0861381">axesDirectionName</a> (const std::vector&lt; <a class="el" href="#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt; &amp;manyDir)</td></tr>
 <tr class="memdesc:a38501aefe9b96141626183f8c0861381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of a vector of binning values as a string.  <br /></td></tr>
 <tr class="memitem:a1a37b45a601496b2b6a31387897c1e5a" id="r_a1a37b45a601496b2b6a31387897c1e5a"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </td></tr>
@@ -1965,7 +1965,7 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:a5e47e30202dec06addb9c315a0b7d674" id="r_a5e47e30202dec06addb9c315a0b7d674"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e47e30202dec06addb9c315a0b7d674">computeEnergyLossLandauSigma</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:a5e47e30202dec06addb9c315a0b7d674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the Gaussian-equivalent sigma for the ionisation loss fluctuations.  <br /></td></tr>
 <tr class="memitem:ae16ecda47ec9e373b988bb80f0bd7ef3" id="r_ae16ecda47ec9e373b988bb80f0bd7ef3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae16ecda47ec9e373b988bb80f0bd7ef3">computeEnergyLossLandauSigmaQOverP</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
-<tr class="memdesc:ae16ecda47ec9e373b988bb80f0bd7ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute q/p Gaussian-equivalent sigma due to ionisation loss fluctuations.  <br /></td></tr>
+<tr class="memdesc:ae16ecda47ec9e373b988bb80f0bd7ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the Gaussian-equivalent sigma of q/p due to ionisation fluctuations.  <br /></td></tr>
 <tr class="memitem:a87160e91db5e1f254b03ea77a3e67775" id="r_a87160e91db5e1f254b03ea77a3e67775"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87160e91db5e1f254b03ea77a3e67775">computeEnergyLossMean</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, <a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> absPdg, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:a87160e91db5e1f254b03ea77a3e67775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the combined mean energy loss.  <br /></td></tr>
 <tr class="memitem:acece53e8206433adba38168d0458c746" id="r_acece53e8206433adba38168d0458c746"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acece53e8206433adba38168d0458c746">computeEnergyLossMode</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, <a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> absPdg, float m, float qOverP, float absQ)</td></tr>
@@ -3809,7 +3809,7 @@ This must be a regular <span class="tt">enum</span> and not a scoped <span class
 </table>
 </div><div class="memdoc">
 
-<p>to tell how to deal with noise term in covariance transport </p>
+<p>Steering enum to tell how to deal with the noise term in covariance transport: </p>
 <ul>
 <li>removeNoise: subtract noise term</li>
 <li>addNoise: add noise term </li>
@@ -4778,14 +4778,15 @@ template&lt;typename grid_type&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Approximate the core width of the projected planar scattering distribution with highland's formula. </p>
+<p>Approximate the core width of the projected planar scattering distribution with Highland's formula. </p>
+<p>In contrast to <a class="el" href="#a3dabf99c3b7798ef4ea7ec13c13c5795">computeMultipleScatteringTheta0</a>, this ignores the particle charge and velocity (assuming a singly-charged, ultra-relativistic particle with \(q^2/\beta^2 = 1\)) and does not divide by the momentum. It therefore returns \(\theta_0 \cdot p\) rather than \(\theta_0\) itself, which is convenient when the momentum is not yet known.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xOverX0</td><td>The thickness of the material in radiation lengths </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The approximate scattering angle times momentum in radians*GeV </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The projected scattering angle scaled by momentum, \(\theta_0 \cdot p\), in native units (radians times momentum) </dd></dl>
 
 </div>
 </div>
@@ -5746,8 +5747,14 @@ template&lt;typename... Fs&gt; </div>
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) through a material with the given properties, i.e. it computes </p><pre class="fragment">-dE(x) = -dE/dx * x
-</pre><p>where -dE/dx is given by the Bethe formula. The computations are valid for intermediate particle energies. </p><dl class="section return"><dt>Returns</dt><dd>Mean energy loss through the material slab </dd></dl>
+<p>This computes the mean ionisation energy loss \(-dE(x)\) of a particle traversing the material slab,</p>
+<p class="formulaDsp">
+\[  -dE(x) = -\frac{dE}{dx}\, x,
+\]
+</p>
+<p>where \(-dE/dx\) is given by the Bethe formula <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.5), including the density-effect correction. The result is the magnitude of the loss (always \(\geq 0\)); The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<dl class="section return"><dt>Returns</dt><dd>Mean ionisation energy loss through the slab in native energy units </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeb22670d2e2303ba2854c2169aa08608">computeEnergyLossLandau</a> for the most probable value, <a class="el" href="#a2ecf42043a08060183625f40fdfb7d5f">computeEnergyLossRadiative</a> for radiative losses, and <a class="el" href="#a87160e91db5e1f254b03ea77a3e67775">computeEnergyLossMean</a> for the sum of both </dd></dl>
 
 </div>
 </div>
@@ -5781,7 +5788,6 @@ template&lt;typename... Fs&gt; </div>
 </div><div class="memdoc">
 
 <p>Compute the most probable energy loss due to ionisation and excitation. </p>
-<p>Compute the mean energy loss due to ionisation and excitation.   </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slab</td><td>The traversed material and its properties </td></tr>
@@ -5791,9 +5797,8 @@ template&lt;typename... Fs&gt; </div>
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) through a material with the given properties, i.e. it computes </p><pre class="fragment">-dE(x) = -dE/dx * x
-</pre><p>where -dE/dx is given by the Bethe formula. The computations are valid for intermediate particle energies. </p><dl class="section return"><dt>Returns</dt><dd>Mean energy loss through the material slab   </dd></dl>
-<p>This computes the most probable energy loss -dE(x) through a material of the given properties and thickness as described by the mode of the Landau-Vavilov-Bichsel distribution. The computations are valid for intermediate particle energies. </p><dl class="section return"><dt>Returns</dt><dd>Most probable energy loss through the material slab </dd></dl>
+<p>This computes the most probable ionisation energy loss \(-dE(x)\) through the material slab, i.e. the mode of the Landau-Vavilov-Bichsel distribution <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.12), including the density-effect correction. Unlike <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (which returns the mean), this is the most probable value, which for thin slabs is noticeably smaller than the mean because of the long tail of the distribution. The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<dl class="section return"><dt>Returns</dt><dd>Most probable ionisation energy loss through the slab in native energy units </dd></dl>
 
 </div>
 </div>
@@ -5870,7 +5875,7 @@ template&lt;typename... Fs&gt; </div>
 </div><div class="memdoc">
 
 <p>Compute the Gaussian-equivalent sigma for the ionisation loss fluctuations. </p>
-<dl class="section see"><dt>See also</dt><dd>computeEnergyLossBethe for parameters description</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> for parameters description</dd></dl>
 <p>This is the sigma parameter of a Gaussian distribution with the same full-width-half-maximum as the Landau-Vavilov-Bichsel distribution. The computations are valid for intermediate particle energies. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slab</td><td>The traversed material and its properties </td></tr>
@@ -5913,8 +5918,7 @@ template&lt;typename... Fs&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Compute q/p Gaussian-equivalent sigma due to ionisation loss fluctuations. </p>
-<p>Compute the mean energy loss due to ionisation and excitation.   </p>
+<p>Compute the Gaussian-equivalent sigma of q/p due to ionisation fluctuations. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slab</td><td>The traversed material and its properties </td></tr>
@@ -5924,8 +5928,13 @@ template&lt;typename... Fs&gt; </div>
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) through a material with the given properties, i.e. it computes </p><pre class="fragment">-dE(x) = -dE/dx * x
-</pre><p>where -dE/dx is given by the Bethe formula. The computations are valid for intermediate particle energies. </p><dl class="section return"><dt>Returns</dt><dd>Mean energy loss through the material slab    </dd></dl>
+<p>This propagates the energy-loss straggling (the Gaussian-equivalent sigma \(\sigma_E\) from <a class="el" href="#a5e47e30202dec06addb9c315a0b7d674">computeEnergyLossLandauSigma</a>) into a standard deviation on \(q/p\) using the Jacobian \(d(q/p)/dE\),</p>
+<p class="formulaDsp">
+\[  \sigma_{q/p} = \left|\frac{d(q/p)}{dE}\right|\, \sigma_E .
+\]
+</p>
+<p>This is the quantity used as the \(q/p\) process noise in the Kalman fitters.</p>
+<dl class="section return"><dt>Returns</dt><dd>Gaussian-equivalent standard deviation of q/p </dd></dl>
 
 </div>
 </div>
@@ -6075,7 +6084,8 @@ Combined most probable energy loss through the material slab </dd></dl>
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) using an approximative formula. Bremsstrahlung is always included; direct e+e- pair production and photo-nuclear interactions only for muons. </p><dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the material slab </dd></dl>
+<p>This computes the mean radiative energy loss \(-dE(x)\) using the approximation of <a class="el" href="citelist.html#CITEREF_lund:2008ad">[6]</a>. Bremsstrahlung, scaling with \((m_e/m)^2\), is always included; direct \(e^+e^-\) pair production and photo-nuclear interactions are added only for muons above \(8\,\mathrm{GeV}\). Like <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> the result is the magnitude of the loss (always \(\geq 0\)).</p>
+<dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the slab in native energy units </dd></dl>
 
 </div>
 </div>
@@ -6120,11 +6130,14 @@ Combined most probable energy loss through the material slab </dd></dl>
     <tr><td class="paramname">absPdg</td><td>Absolute particle type PDG identifier </td></tr>
     <tr><td class="paramname">m</td><td>Particle mass </td></tr>
     <tr><td class="paramname">qOverP</td><td>Particle charge divided by absolute momentum </td></tr>
-    <tr><td class="paramname">absQ</td><td>Absolute particle charge </td></tr>
+    <tr><td class="paramname">absQ</td><td>Absolute particle charge</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Core width of the scattering distribution </dd></dl>
+<p>The returned \(\theta_0\) is the standard deviation of the central (Gaussian) part of the multiple-Coulomb-scattering angle, projected onto a plane. For all particles except electrons and positrons it is evaluated with the Highland formula <a class="el" href="citelist.html#CITEREF_highland:1975pq">[5]</a> in the parametrisation of <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.15); for electrons and positrons the Rossi-Greisen form is used instead.</p>
+<dl class="section note"><dt>Note</dt><dd>This is the projected (single-plane) width; the width of the polar space angle is larger by a factor \(\sqrt{2}\). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Projected scattering angle standard deviation \(\theta_0\) in radians </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a692f3bf198b75679e1051ae422c41869">approximateHighlandScattering</a> for a charge- and momentum-independent approximation </dd></dl>
 
 </div>
 </div>
@@ -6406,8 +6419,15 @@ T x U = V
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) through a material with the given properties, i.e. it computes </p><pre class="fragment">-dE(x) = -dE/dx * x
-</pre><p>where -dE/dx is given by the Bethe formula. The computations are valid for intermediate particle energies. </p><dl class="section return"><dt>Returns</dt><dd>Mean energy loss through the material slab    </dd></dl>
+<p>This computes the mean ionisation energy loss \(-dE(x)\) of a particle traversing the material slab,</p>
+<p class="formulaDsp">
+\[  -dE(x) = -\frac{dE}{dx}\, x,
+\]
+</p>
+<p>where \(-dE/dx\) is given by the Bethe formula <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.5), including the density-effect correction. The result is the magnitude of the loss (always \(\geq 0\)); The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<dl class="section return"><dt>Returns</dt><dd>Mean ionisation energy loss through the slab in native energy units </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeb22670d2e2303ba2854c2169aa08608">computeEnergyLossLandau</a> for the most probable value, <a class="el" href="#a2ecf42043a08060183625f40fdfb7d5f">computeEnergyLossRadiative</a> for radiative losses, and <a class="el" href="#a87160e91db5e1f254b03ea77a3e67775">computeEnergyLossMean</a> for the sum of both    </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Derivative of the mean ionisation energy loss with respect to q/p </dd></dl>
 
 </div>
 </div>
@@ -6441,7 +6461,7 @@ T x U = V
 </div><div class="memdoc">
 
 <p>Derivative of the most probable ionisation energy loss with respect to q/p. </p>
-<p>Compute the mean energy loss due to ionisation and excitation.   </p>
+<p>Compute the most probable energy loss due to ionisation and excitation.   </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slab</td><td>The traversed material and its properties </td></tr>
@@ -6451,8 +6471,10 @@ T x U = V
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) through a material with the given properties, i.e. it computes </p><pre class="fragment">-dE(x) = -dE/dx * x
-</pre><p>where -dE/dx is given by the Bethe formula. The computations are valid for intermediate particle energies. </p><dl class="section return"><dt>Returns</dt><dd>Mean energy loss through the material slab    </dd></dl>
+<p>This computes the most probable ionisation energy loss \(-dE(x)\) through the material slab, i.e. the mode of the Landau-Vavilov-Bichsel distribution <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.12), including the density-effect correction. Unlike <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (which returns the mean), this is the most probable value, which for thin slabs is noticeably smaller than the mean because of the long tail of the distribution. The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<dl class="section return"><dt>Returns</dt><dd>Most probable ionisation energy loss through the slab in native energy units    </dd>
+<dd>
+Derivative of the most probable ionisation energy loss with respect to q/p </dd></dl>
 
 </div>
 </div>
@@ -6606,7 +6628,8 @@ Derivative of combined most probable energy loss with respect to q/p </dd></dl>
   </table>
   </dd>
 </dl>
-<p>This computes the mean energy loss -dE(x) using an approximative formula. Bremsstrahlung is always included; direct e+e- pair production and photo-nuclear interactions only for muons. </p><dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the material slab    </dd>
+<p>This computes the mean radiative energy loss \(-dE(x)\) using the approximation of <a class="el" href="citelist.html#CITEREF_lund:2008ad">[6]</a>. Bremsstrahlung, scaling with \((m_e/m)^2\), is always included; direct \(e^+e^-\) pair production and photo-nuclear interactions are added only for muons above \(8\,\mathrm{GeV}\). Like <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> the result is the magnitude of the loss (always \(\geq 0\)).</p>
+<dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the slab in native energy units    </dd>
 <dd>
 Derivative of radiative energy loss with respect to q/p </dd></dl>
 
