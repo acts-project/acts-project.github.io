@@ -11,6 +11,7 @@ var class_acts_1_1_tracking_geometry =
     [ "findPortal", "class_acts_1_1_tracking_geometry.html#ac9f3a7f5535f50cc9b1df589d2fcd32c", null ],
     [ "findSurface", "class_acts_1_1_tracking_geometry.html#ad8f45ac0156aee591b5f65f5b9d85ee3", null ],
     [ "findVolume", "class_acts_1_1_tracking_geometry.html#a8cdb12d9f2a3c813a0fefa1612a4f922", null ],
+    [ "findVolumeByName", "class_acts_1_1_tracking_geometry.html#afd268284f087c97920e59bdaf24b77a5", null ],
     [ "geoIdSurfaceMap", "class_acts_1_1_tracking_geometry.html#a595a5e353a839fd49955e437f260e57d", null ],
     [ "geometryVersion", "class_acts_1_1_tracking_geometry.html#a713012ed77b0a8f5508c22b2bc6e7632", null ],
     [ "highestTrackingVolume", "class_acts_1_1_tracking_geometry.html#ab93c9cade9e9642d076fbecaf92fd321", null ],

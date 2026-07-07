@@ -165,6 +165,8 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</td></tr>
 <tr class="memdesc:ad8f45ac0156aee591b5f65f5b9d85ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for a surface with the given identifier.  <br /></td></tr>
 <tr class="memitem:a8cdb12d9f2a3c813a0fefa1612a4f922" id="r_a8cdb12d9f2a3c813a0fefa1612a4f922"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cdb12d9f2a3c813a0fefa1612a4f922">findVolume</a> (<a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a> id) const</td></tr>
 <tr class="memdesc:a8cdb12d9f2a3c813a0fefa1612a4f922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for a volume with the given identifier.  <br /></td></tr>
+<tr class="memitem:afd268284f087c97920e59bdaf24b77a5" id="r_afd268284f087c97920e59bdaf24b77a5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd268284f087c97920e59bdaf24b77a5">findVolumeByName</a> (std::string_view name) const</td></tr>
+<tr class="memdesc:afd268284f087c97920e59bdaf24b77a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search for the first volume with the given name.  <br /></td></tr>
 <tr class="memitem:a595a5e353a839fd49955e437f260e57d" id="r_a595a5e353a839fd49955e437f260e57d"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a595a5e353a839fd49955e437f260e57d">geoIdSurfaceMap</a> () const</td></tr>
 <tr class="memdesc:a595a5e353a839fd49955e437f260e57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the GeometryIdentifier - Surface association map.  <br /></td></tr>
 <tr class="memitem:a713012ed77b0a8f5508c22b2bc6e7632" id="r_a713012ed77b0a8f5508c22b2bc6e7632"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a55e38e7e200a0a1d5f14261b30091b56">GeometryVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a713012ed77b0a8f5508c22b2bc6e7632">geometryVersion</a> () const</td></tr>
@@ -479,6 +481,38 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</div>
   <table class="retval">
     <tr><td class="paramname">nullptr</td><td>if no such volume exists </td></tr>
     <tr><td class="paramname">pointer</td><td>to the found volume otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afd268284f087c97920e59bdaf24b77a5" name="afd268284f087c97920e59bdaf24b77a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd268284f087c97920e59bdaf24b77a5">&#9670;&#160;</a></span>findVolumeByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> * Acts::TrackingGeometry::findVolumeByName </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search for the first volume with the given name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>is the volume name to search for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">nullptr</td><td>if no volume carries the name </td></tr>
+    <tr><td class="paramname">pointer</td><td>to the first matching volume otherwise. </td></tr>
   </table>
   </dd>
 </dl>

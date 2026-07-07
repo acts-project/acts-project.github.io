@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"class_acts_1_1_tracking_geometry_visitor.html#a71b77bfac8bf1b9c9a392056544e2df5":[7,0,0,395,4],
+"class_acts_1_1_tracking_geometry_visitor.html#a880553701cac8da822b6760edaacb296":[5,0,0,387,1],
 "class_acts_1_1_tracking_geometry_visitor.html#a880553701cac8da822b6760edaacb296":[7,0,0,395,1],
 "class_acts_1_1_tracking_geometry_visitor.html#a9a885a5ae9c9972d5674f5a7c817b132":[5,0,0,387,2],
 "class_acts_1_1_tracking_geometry_visitor.html#a9a885a5ae9c9972d5674f5a7c817b132":[7,0,0,395,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "class_acts_1_1_triplet_top_candidates.html#a29892c4727e120216310bedddf3df176":[7,0,0,414,10],
 "class_acts_1_1_triplet_top_candidates.html#a5fed05479bebdeea8122e3b5a82f3a4d":[5,0,0,406,2],
 "class_acts_1_1_triplet_top_candidates.html#a5fed05479bebdeea8122e3b5a82f3a4d":[7,0,0,414,2],
-"class_acts_1_1_triplet_top_candidates.html#a6a8bd9beb240db37ae932af3deac04ca":[5,0,0,406,9],
-"class_acts_1_1_triplet_top_candidates.html#a6a8bd9beb240db37ae932af3deac04ca":[7,0,0,414,9],
-"class_acts_1_1_triplet_top_candidates.html#a88bd778c32cdcd5abb68e36586971ade":[5,0,0,406,1]
+"class_acts_1_1_triplet_top_candidates.html#a6a8bd9beb240db37ae932af3deac04ca":[5,0,0,406,9]
 };
