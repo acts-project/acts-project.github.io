@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_propagator_options.html#a0ac797193d8a738f7204dbb5c42501bc":[5,0,0,311,2],
 "struct_acts_1_1_propagator_options.html#a0ac797193d8a738f7204dbb5c42501bc":[7,0,0,319,2],
 "struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d":[5,0,0,311,0],
 "struct_acts_1_1_propagator_options.html#a32cc330e78ae01bf7f6f6907755e271d":[7,0,0,319,0],
@@ -240,14 +241,13 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_seed_confirmation_range_config.html#ae1506d39719648db66b1275e7c91cb68":[5,0,0,336,2],
 "struct_acts_1_1_seed_confirmation_range_config.html#ae1506d39719648db66b1275e7c91cb68":[7,0,0,344,2],
 "struct_acts_1_1_solenoid_b_field_1_1_cache.html":[4,3,1,7,0],
-"struct_acts_1_1_solenoid_b_field_1_1_cache.html":[4,10,0,7,0],
+"struct_acts_1_1_solenoid_b_field_1_1_cache.html":[4,11,0,7,0],
 "struct_acts_1_1_solenoid_b_field_1_1_cache.html#adff3c139c294cf6484931cf2ced3a388":[4,3,1,7,0,0],
-"struct_acts_1_1_solenoid_b_field_1_1_cache.html#adff3c139c294cf6484931cf2ced3a388":[4,10,0,7,0,0],
+"struct_acts_1_1_solenoid_b_field_1_1_cache.html#adff3c139c294cf6484931cf2ced3a388":[4,11,0,7,0,0],
 "struct_acts_1_1_solenoid_b_field_1_1_config.html":[4,3,1,7,1],
-"struct_acts_1_1_solenoid_b_field_1_1_config.html":[4,10,0,7,1],
+"struct_acts_1_1_solenoid_b_field_1_1_config.html":[4,11,0,7,1],
 "struct_acts_1_1_solenoid_b_field_1_1_config.html#a0aea68c725b9819c08369e3af6651d42":[4,3,1,7,1,2],
-"struct_acts_1_1_solenoid_b_field_1_1_config.html#a0aea68c725b9819c08369e3af6651d42":[4,10,0,7,1,2],
+"struct_acts_1_1_solenoid_b_field_1_1_config.html#a0aea68c725b9819c08369e3af6651d42":[4,11,0,7,1,2],
 "struct_acts_1_1_solenoid_b_field_1_1_config.html#a190bed2a6135ce425ba4e995dba75af6":[4,3,1,7,1,0],
-"struct_acts_1_1_solenoid_b_field_1_1_config.html#a190bed2a6135ce425ba4e995dba75af6":[4,10,0,7,1,0],
-"struct_acts_1_1_solenoid_b_field_1_1_config.html#a46638f293d7e60975ae7382a56a915e2":[4,3,1,7,1,3]
+"struct_acts_1_1_solenoid_b_field_1_1_config.html#a190bed2a6135ce425ba4e995dba75af6":[4,11,0,7,1,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_linearized_track.html#aa65636e40ded5923a13f293b369a6178":[5,0,0,236,6],
 "struct_acts_1_1_linearized_track.html#aa65636e40ded5923a13f293b369a6178":[7,0,0,244,6],
 "struct_acts_1_1_linearized_track.html#aad8fa49eb7ab50c817f8c84577ac3a72":[5,0,0,236,5],
 "struct_acts_1_1_linearized_track.html#aad8fa49eb7ab50c817f8c84577ac3a72":[7,0,0,244,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_navigator_1_1_state.html#a0ec9d252d55889edcb6bce4aad0e30c9":[5,0,0,277,2,23],
 "struct_acts_1_1_navigator_1_1_state.html#a0ec9d252d55889edcb6bce4aad0e30c9":[7,0,0,285,2,23],
 "struct_acts_1_1_navigator_1_1_state.html#a152c53596e765791e76022d5cabb7d9b":[5,0,0,277,2,16],
-"struct_acts_1_1_navigator_1_1_state.html#a152c53596e765791e76022d5cabb7d9b":[7,0,0,285,2,16],
-"struct_acts_1_1_navigator_1_1_state.html#a1d8bce142cc5b1da401a2f1066bebb86":[5,0,0,277,2,20]
+"struct_acts_1_1_navigator_1_1_state.html#a152c53596e765791e76022d5cabb7d9b":[7,0,0,285,2,16]
 };

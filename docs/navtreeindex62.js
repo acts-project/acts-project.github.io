@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[7,0,0,429,2,0],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[5,0,0,421,2,1],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[7,0,0,429,2,1],
 "struct_acts_1_1_volume_collector.html":[5,0,0,424],
@@ -174,16 +175,16 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_z_scan_vertex_finder_1_1_config.html#ae9af027aa5bf56073366adb51b85ed0c":[7,0,0,441,0,6],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_state.html":[5,0,0,433,1],
 "struct_acts_1_1_z_scan_vertex_finder_1_1_state.html":[7,0,0,441,1],
-"struct_acts_1_1json_key.html":[4,9,10,5],
-"struct_acts_1_1json_key.html#a36a4656d2814cf5eb3f20b6c3177f208":[4,9,10,5,0],
-"struct_acts_1_1json_key.html#a4d6c8db7493b99b58961776e30d1f87f":[4,9,10,5,5],
-"struct_acts_1_1json_key.html#a65315f561cdfd75172a490959c32ab74":[4,9,10,5,7],
-"struct_acts_1_1json_key.html#a7479744df429c8fea9f8ee928e5aa154":[4,9,10,5,1],
-"struct_acts_1_1json_key.html#a77ee8e1c9c2d44148e205602fabeeab5":[4,9,10,5,2],
-"struct_acts_1_1json_key.html#ab4bf758abab9c803b62f84d04f7d56ab":[4,9,10,5,6],
-"struct_acts_1_1json_key.html#ac597499d6cb57761ed7ca2c95fb1bdd2":[4,9,10,5,3],
-"struct_acts_1_1json_key.html#acb766c511c4478d97563b9568422442c":[4,9,10,5,4],
-"struct_acts_1_1missing__specialization.html":[4,9,10,8],
+"struct_acts_1_1json_key.html":[4,10,10,5],
+"struct_acts_1_1json_key.html#a36a4656d2814cf5eb3f20b6c3177f208":[4,10,10,5,0],
+"struct_acts_1_1json_key.html#a4d6c8db7493b99b58961776e30d1f87f":[4,10,10,5,5],
+"struct_acts_1_1json_key.html#a65315f561cdfd75172a490959c32ab74":[4,10,10,5,7],
+"struct_acts_1_1json_key.html#a7479744df429c8fea9f8ee928e5aa154":[4,10,10,5,1],
+"struct_acts_1_1json_key.html#a77ee8e1c9c2d44148e205602fabeeab5":[4,10,10,5,2],
+"struct_acts_1_1json_key.html#ab4bf758abab9c803b62f84d04f7d56ab":[4,10,10,5,6],
+"struct_acts_1_1json_key.html#ac597499d6cb57761ed7ca2c95fb1bdd2":[4,10,10,5,3],
+"struct_acts_1_1json_key.html#acb766c511c4478d97563b9568422442c":[4,10,10,5,4],
+"struct_acts_1_1missing__specialization.html":[4,10,10,8],
 "struct_acts_1_1overloaded.html":[5,0,0,288],
 "struct_acts_1_1overloaded.html":[7,0,0,296],
 "struct_acts_fatras_1_1_abs_pdg_excluder.html":[5,0,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_fatras_1_1_casts_1_1_vrho.html#abcdd815250f6fed7295e9cbca88aeaca":[7,0,1,0,6,0],
 "struct_acts_fatras_1_1_casts_1_1_vz.html":[7,0,1,0,7],
 "struct_acts_fatras_1_1_casts_1_1_vz.html#a50f04fcfc5ac0dd84935540bb28c493d":[7,0,1,0,7,0],
-"struct_acts_fatras_1_1_channel.html":[5,0,2,6],
-"struct_acts_fatras_1_1_channel.html":[7,0,1,7]
+"struct_acts_fatras_1_1_channel.html":[5,0,2,6]
 };
