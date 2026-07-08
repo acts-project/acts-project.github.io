@@ -15,6 +15,5 @@ var searchData=
   ['stepinvalid_12',['StepInvalid',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0adec88b388126e180a1d7807815c6c8dd',1,'Acts']]],
   ['stepsizeadjustmentfailed_13',['StepSizeAdjustmentFailed',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0a2c4a5f9ada6b6941b6f25ba17affbab7',1,'Acts']]],
   ['stepsizestalled_14',['StepSizeStalled',['../group__errors.html#gga21cb0f3d4dc02db3af0291385e70d4e0ac96e8be3a0e8b6f5dd6d219249a81180',1,'Acts']]],
-  ['strip_15',['Strip',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735',1,'Acts']]],
-  ['stripcenterdistance_16',['StripCenterDistance',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca60970c94d2fa3ff8904f6ee13a88c506',1,'Acts']]]
+  ['stripcalibrationdetails_15',['StripCalibrationDetails',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac6812a1e375ae61912bc88ad6007c00a',1,'Acts']]]
 ];

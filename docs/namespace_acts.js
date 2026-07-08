@@ -775,6 +775,7 @@ var namespace_acts =
     [ "SpacePointColumns", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c", [
       [ "None", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "SourceLinks", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca3084fee3544f80ff6a40e639984e89f9", null ],
+      [ "CopiedFromIndex", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca74154584af56950f1c64eca6ff09ed2f", null ],
       [ "X", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca02129bb861061d1a052c592e2dc6b383", null ],
       [ "Y", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca57cec4137b614c87cb4e24a3d003a3e0", null ],
       [ "Z", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca21c2e59531c8710156d34a3c30ac81d5", null ],
@@ -784,17 +785,12 @@ var namespace_acts =
       [ "VarianceZ", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca40d203bf0d98e07fc2dfbf12d880b13b", null ],
       [ "VarianceR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca72bb52f0a15dd8981987d49e5e306c31", null ],
       [ "VarianceT", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cab036119d6dbf199f0d809d1eadd9d7eb", null ],
-      [ "TopStripVector", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca3fa9ae8939cd9d4e3d80ba71a28ea27d", null ],
-      [ "BottomStripVector", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca08e690ae1ee43bbbf2fd36c5f78e9b13", null ],
-      [ "StripCenterDistance", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca60970c94d2fa3ff8904f6ee13a88c506", null ],
-      [ "TopStripCenter", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca3496d756018104f2c4ed750e892621d0", null ],
-      [ "CopyFromIndex", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cab64faa7d3e7fdfda97f3cf4ebb2ccbe8", null ],
+      [ "StripCalibrationDetails", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac6812a1e375ae61912bc88ad6007c00a", null ],
       [ "PackedXY", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca617b751d30dd553ba3063d49c52a8cc7", null ],
       [ "PackedZR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac04ff32d34de75a9d213b5205e8d3f37", null ],
       [ "PackedXYZ", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399caedfedac02cfd8048fb8c04c3086910f5", null ],
       [ "PackedXYZR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca269c2c69bee6c10ef3af8a53bc15c2ca", null ],
       [ "PackedVarianceZR", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca97a3aff057758d60a5fa42ce9196351d", null ],
-      [ "Strip", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca031b9e77f5c85a66723c832a06ba2735", null ],
       [ "All", "namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cab1c94ca2fbc3e78fc30069c8d0f01680", null ]
     ] ],
     [ "SpacePointFormationError", "group__errors.html#ga15d42dcaa6c43d68f6d711f04f9594bd", [

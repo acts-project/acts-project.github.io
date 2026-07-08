@@ -204,10 +204,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a243b475a160a24bcc2ff47acfc78877d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns const iterator to the beginning of the container.  <br /></td></tr>
 <tr class="memitem:a62496523ca461bd5044667766a94db5f" id="r_a62496523ca461bd5044667766a94db5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a74749e4e48e9492f04f5349cf8c778e6">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62496523ca461bd5044667766a94db5f">begin</a> () noexcept</td></tr>
 <tr class="memdesc:a62496523ca461bd5044667766a94db5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mutable iterator to the beginning of the container.  <br /></td></tr>
-<tr class="memitem:ac249503304a7066dd0128eb8be24180a" id="r_ac249503304a7066dd0128eb8be24180a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac249503304a7066dd0128eb8be24180a">bottomStripVectorColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:ac249503304a7066dd0128eb8be24180a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">bottom strip vector</span> column.  <br /></td></tr>
-<tr class="memitem:a7a5664df77c6d0dc6809d234eea4c19c" id="r_a7a5664df77c6d0dc6809d234eea4c19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a5664df77c6d0dc6809d234eea4c19c">bottomStripVectorColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a7a5664df77c6d0dc6809d234eea4c19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">bottom strip vector</span> column.  <br /></td></tr>
 <tr class="memitem:a8ae5195a7dddd03a87227a6c13e217ea" id="r_a8ae5195a7dddd03a87227a6c13e217ea"><td class="memItemLeft" align="right" valign="top"><a id="a8ae5195a7dddd03a87227a6c13e217ea" name="a8ae5195a7dddd03a87227a6c13e217ea"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept</td></tr>
 <tr class="memdesc:a8ae5195a7dddd03a87227a6c13e217ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the container, removing all space points and columns. <br /></td></tr>
@@ -217,12 +213,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept
 <tr class="memitem:a1ac1cec994c2442329fa5a73c8f60a6f" id="r_a1ac1cec994c2442329fa5a73c8f60a6f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a1ac1cec994c2442329fa5a73c8f60a6f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ac1cec994c2442329fa5a73c8f60a6f">column</a> (const std::string &amp;name) const</td></tr>
 <tr class="memdesc:a1ac1cec994c2442329fa5a73c8f60a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the column with the given name.  <br /></td></tr>
+<tr class="memitem:a16b5faaab1a2f47879542da252db0822" id="r_a16b5faaab1a2f47879542da252db0822"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16b5faaab1a2f47879542da252db0822">copiedFromIndexColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a16b5faaab1a2f47879542da252db0822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">copied from index</span> column.  <br /></td></tr>
+<tr class="memitem:aa8955d3e3c622e884f4f9e7704844ccc" id="r_aa8955d3e3c622e884f4f9e7704844ccc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8955d3e3c622e884f4f9e7704844ccc">copiedFromIndexColumn</a> () noexcept</td></tr>
+<tr class="memdesc:aa8955d3e3c622e884f4f9e7704844ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">copied from index</span> column.  <br /></td></tr>
 <tr class="memitem:a412e8e1e8bee72db0765d0ca2b4ec2aa" id="r_a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412e8e1e8bee72db0765d0ca2b4ec2aa">copyFrom</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index, const <a class="el" href="#a61c8dcc7ae4547b223972cbb660178bd">SpacePointContainer2</a> &amp;otherContainer, <a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> otherIndex, <a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columnsToCopy)</td></tr>
 <tr class="memdesc:a412e8e1e8bee72db0765d0ca2b4ec2aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another space point to this space point.  <br /></td></tr>
-<tr class="memitem:a3fcdc67ba4e83c48b981119d477a6b35" id="r_a3fcdc67ba4e83c48b981119d477a6b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fcdc67ba4e83c48b981119d477a6b35">copyFromIndexColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a3fcdc67ba4e83c48b981119d477a6b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">copy from index</span> column.  <br /></td></tr>
-<tr class="memitem:a3e86da69b4af19006da4cd8ec88cba75" id="r_a3e86da69b4af19006da4cd8ec88cba75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e86da69b4af19006da4cd8ec88cba75">copyFromIndexColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a3e86da69b4af19006da4cd8ec88cba75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">copy from index</span> column.  <br /></td></tr>
 <tr class="memitem:a96579c456bebdf66dcac51875cae14a6" id="r_a96579c456bebdf66dcac51875cae14a6"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a96579c456bebdf66dcac51875cae14a6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96579c456bebdf66dcac51875cae14a6">createColumn</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:a96579c456bebdf66dcac51875cae14a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new column with the given name.  <br /></td></tr>
@@ -252,62 +248,54 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept
 <tr class="memdesc:aad471d26a87909d504c7914a629f03e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the space point at the given index.  <br /></td></tr>
 <tr class="memitem:afa1953f031e98e040a4afd79aab9ec8c" id="r_afa1953f031e98e040a4afd79aab9ec8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aff85c3b746c8d80bdbcd3b3669a75b1d">MutableProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa1953f031e98e040a4afd79aab9ec8c">operator[]</a> (<a class="el" href="#aab4acb9175574d7a333437d14ac64e4d">Index</a> index) noexcept</td></tr>
 <tr class="memdesc:afa1953f031e98e040a4afd79aab9ec8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the space point at the given index.  <br /></td></tr>
+<tr class="memitem:a67600b617d46202b8b9e5b5fdf10a730" id="r_a67600b617d46202b8b9e5b5fdf10a730"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67600b617d46202b8b9e5b5fdf10a730">outerStripCalibrationDetailsColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a67600b617d46202b8b9e5b5fdf10a730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">outer strip calibration details</span> column.  <br /></td></tr>
+<tr class="memitem:a0e50bbe4bce8dfb9619e02d4fa745f47" id="r_a0e50bbe4bce8dfb9619e02d4fa745f47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e50bbe4bce8dfb9619e02d4fa745f47">outerStripCalibrationDetailsColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a0e50bbe4bce8dfb9619e02d4fa745f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">outer strip calibration details</span> column.  <br /></td></tr>
 <tr class="memitem:a7c9a8f456f256fc685ca620dfade1026" id="r_a7c9a8f456f256fc685ca620dfade1026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9a8f456f256fc685ca620dfade1026">phiColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a7c9a8f456f256fc685ca620dfade1026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the phi coordinate column.  <br /></td></tr>
+<tr class="memdesc:a7c9a8f456f256fc685ca620dfade1026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">phi</span> column.  <br /></td></tr>
 <tr class="memitem:addb29b30cd6f5723a3c850295fb25a0a" id="r_addb29b30cd6f5723a3c850295fb25a0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb29b30cd6f5723a3c850295fb25a0a">phiColumn</a> () noexcept</td></tr>
-<tr class="memdesc:addb29b30cd6f5723a3c850295fb25a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the phi coordinate column.  <br /></td></tr>
+<tr class="memdesc:addb29b30cd6f5723a3c850295fb25a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">phi</span> column.  <br /></td></tr>
 <tr class="memitem:abd4ee0a305775b08816495c977f99016" id="r_abd4ee0a305775b08816495c977f99016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a97b60c6d237fb8556f8affd655109822">ConstRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd4ee0a305775b08816495c977f99016">range</a> (const <a class="el" href="#ac315e91732f21dabf0e1c884fb73f806">IndexRange</a> &amp;range) const noexcept</td></tr>
 <tr class="memdesc:abd4ee0a305775b08816495c977f99016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a range of space points from the given index range.  <br /></td></tr>
 <tr class="memitem:a045120caa3e20ae39641e0ef4029f43e" id="r_a045120caa3e20ae39641e0ef4029f43e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#acea28c275de0d31b32fa3b38095316ca">MutableRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a045120caa3e20ae39641e0ef4029f43e">range</a> (const <a class="el" href="#ac315e91732f21dabf0e1c884fb73f806">IndexRange</a> &amp;range) noexcept</td></tr>
 <tr class="memdesc:a045120caa3e20ae39641e0ef4029f43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a range of space points from the given index range.  <br /></td></tr>
 <tr class="memitem:abc8d7ab27873d65a3765424681a6209a" id="r_abc8d7ab27873d65a3765424681a6209a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc8d7ab27873d65a3765424681a6209a">rColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:abc8d7ab27873d65a3765424681a6209a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the r coordinate column.  <br /></td></tr>
+<tr class="memdesc:abc8d7ab27873d65a3765424681a6209a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">r</span> column.  <br /></td></tr>
 <tr class="memitem:af6debc8dbc2506abd69e7e39a5defd5d" id="r_af6debc8dbc2506abd69e7e39a5defd5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6debc8dbc2506abd69e7e39a5defd5d">rColumn</a> () noexcept</td></tr>
-<tr class="memdesc:af6debc8dbc2506abd69e7e39a5defd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the r coordinate column.  <br /></td></tr>
+<tr class="memdesc:af6debc8dbc2506abd69e7e39a5defd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">r</span> column.  <br /></td></tr>
 <tr class="memitem:a14658b589c159eeade33d83cdb67b6bf" id="r_a14658b589c159eeade33d83cdb67b6bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14658b589c159eeade33d83cdb67b6bf">reserve</a> (std::uint32_t <a class="el" href="#a4bfcfb1f1e079f90ae867fa1d9ff0a1c">size</a>, float averageSourceLinks=1) noexcept</td></tr>
 <tr class="memdesc:a14658b589c159eeade33d83cdb67b6bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserves space for the given number of space points.  <br /></td></tr>
 <tr class="memitem:a4bfcfb1f1e079f90ae867fa1d9ff0a1c" id="r_a4bfcfb1f1e079f90ae867fa1d9ff0a1c"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bfcfb1f1e079f90ae867fa1d9ff0a1c">size</a> () const noexcept</td></tr>
 <tr class="memdesc:a4bfcfb1f1e079f90ae867fa1d9ff0a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of space points in the container.  <br /></td></tr>
-<tr class="memitem:a5b6ae45631b10de4ee0f3df998c0557d" id="r_a5b6ae45631b10de4ee0f3df998c0557d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b6ae45631b10de4ee0f3df998c0557d">stripCenterDistanceColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a5b6ae45631b10de4ee0f3df998c0557d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">strip center distance</span> column.  <br /></td></tr>
-<tr class="memitem:a422a319ff75d9b43bb28554ddbe73c2e" id="r_a422a319ff75d9b43bb28554ddbe73c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a422a319ff75d9b43bb28554ddbe73c2e">stripCenterDistanceColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a422a319ff75d9b43bb28554ddbe73c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">strip center distance</span> column.  <br /></td></tr>
 <tr class="memitem:aba1e5f34fd903c540d69092290396525" id="r_aba1e5f34fd903c540d69092290396525"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae9d03b50196fab948915a1c5bcc22da2">ConstSubset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba1e5f34fd903c540d69092290396525">subset</a> (const <a class="el" href="#ad100d1fe4c39227676681a4eb7576035">IndexSubset</a> &amp;subset) const noexcept</td></tr>
 <tr class="memdesc:aba1e5f34fd903c540d69092290396525"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a const subset of space points from the given index subset.  <br /></td></tr>
 <tr class="memitem:a99fbbbd6ec62188f7dc81683825b5dc2" id="r_a99fbbbd6ec62188f7dc81683825b5dc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac5c20d78481592c8016e1b8056a04cba">MutableSubset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99fbbbd6ec62188f7dc81683825b5dc2">subset</a> (const <a class="el" href="#ad100d1fe4c39227676681a4eb7576035">IndexSubset</a> &amp;subset) noexcept</td></tr>
 <tr class="memdesc:a99fbbbd6ec62188f7dc81683825b5dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a mutable subset of space points from the given index subset.  <br /></td></tr>
 <tr class="memitem:ac23a4329f70e29b40960d50b2883f11f" id="r_ac23a4329f70e29b40960d50b2883f11f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23a4329f70e29b40960d50b2883f11f">timeColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:ac23a4329f70e29b40960d50b2883f11f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the time column.  <br /></td></tr>
+<tr class="memdesc:ac23a4329f70e29b40960d50b2883f11f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">time</span> column.  <br /></td></tr>
 <tr class="memitem:a5eb25bbacd54d7847bdc45e9c7cde8f7" id="r_a5eb25bbacd54d7847bdc45e9c7cde8f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eb25bbacd54d7847bdc45e9c7cde8f7">timeColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a5eb25bbacd54d7847bdc45e9c7cde8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the time column.  <br /></td></tr>
-<tr class="memitem:a1cb1772ff08ba25c30a223877c39348c" id="r_a1cb1772ff08ba25c30a223877c39348c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cb1772ff08ba25c30a223877c39348c">topStripCenterColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a1cb1772ff08ba25c30a223877c39348c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">top strip center</span> column.  <br /></td></tr>
-<tr class="memitem:a2c106acc11d5662d96056661d5f8c307" id="r_a2c106acc11d5662d96056661d5f8c307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c106acc11d5662d96056661d5f8c307">topStripCenterColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a2c106acc11d5662d96056661d5f8c307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">top strip center</span> column.  <br /></td></tr>
-<tr class="memitem:ac40e90b568f5e18c5adbb7556cd66708" id="r_ac40e90b568f5e18c5adbb7556cd66708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40e90b568f5e18c5adbb7556cd66708">topStripVectorColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:ac40e90b568f5e18c5adbb7556cd66708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">top strip vector</span> column.  <br /></td></tr>
-<tr class="memitem:ad803be0db21c3a08d6237ed772912ae5" id="r_ad803be0db21c3a08d6237ed772912ae5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad803be0db21c3a08d6237ed772912ae5">topStripVectorColumn</a> () noexcept</td></tr>
-<tr class="memdesc:ad803be0db21c3a08d6237ed772912ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">top strip vector</span> column.  <br /></td></tr>
+<tr class="memdesc:a5eb25bbacd54d7847bdc45e9c7cde8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">time</span> column.  <br /></td></tr>
 <tr class="memitem:a6e41e3646ebbd06b675f990b71558755" id="r_a6e41e3646ebbd06b675f990b71558755"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e41e3646ebbd06b675f990b71558755">varianceRColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a6e41e3646ebbd06b675f990b71558755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the variance in R direction column.  <br /></td></tr>
+<tr class="memdesc:a6e41e3646ebbd06b675f990b71558755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance r</span> column.  <br /></td></tr>
 <tr class="memitem:a84972910f3c39995c243b60de1905a3b" id="r_a84972910f3c39995c243b60de1905a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84972910f3c39995c243b60de1905a3b">varianceRColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a84972910f3c39995c243b60de1905a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the variance in R direction column.  <br /></td></tr>
+<tr class="memdesc:a84972910f3c39995c243b60de1905a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance r</span> column.  <br /></td></tr>
 <tr class="memitem:afce6deccbf03333492dce0f31ba2c37d" id="r_afce6deccbf03333492dce0f31ba2c37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afce6deccbf03333492dce0f31ba2c37d">varianceTColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:afce6deccbf03333492dce0f31ba2c37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the variance in T direction column.  <br /></td></tr>
+<tr class="memdesc:afce6deccbf03333492dce0f31ba2c37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance t</span> column.  <br /></td></tr>
 <tr class="memitem:ae157b0f1b31e8564b0524be5f944c729" id="r_ae157b0f1b31e8564b0524be5f944c729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae157b0f1b31e8564b0524be5f944c729">varianceTColumn</a> () noexcept</td></tr>
-<tr class="memdesc:ae157b0f1b31e8564b0524be5f944c729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the variance in T direction column.  <br /></td></tr>
+<tr class="memdesc:ae157b0f1b31e8564b0524be5f944c729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance t</span> column.  <br /></td></tr>
 <tr class="memitem:a81e90eb4b2936b564354e42024e96c36" id="r_a81e90eb4b2936b564354e42024e96c36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81e90eb4b2936b564354e42024e96c36">varianceZColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a81e90eb4b2936b564354e42024e96c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the variance in Z direction column.  <br /></td></tr>
+<tr class="memdesc:a81e90eb4b2936b564354e42024e96c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance z</span> column.  <br /></td></tr>
 <tr class="memitem:a4be2e85aaebeadbc5c0ef978bafa711a" id="r_a4be2e85aaebeadbc5c0ef978bafa711a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be2e85aaebeadbc5c0ef978bafa711a">varianceZColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a4be2e85aaebeadbc5c0ef978bafa711a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the variance in Z direction column.  <br /></td></tr>
+<tr class="memdesc:a4be2e85aaebeadbc5c0ef978bafa711a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance z</span> column.  <br /></td></tr>
 <tr class="memitem:a616400dbf195fa85df642824b32a7716" id="r_a616400dbf195fa85df642824b32a7716"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a616400dbf195fa85df642824b32a7716">varianceZRColumn</a> () const noexcept</td></tr>
 <tr class="memdesc:a616400dbf195fa85df642824b32a7716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance zr</span> column.  <br /></td></tr>
 <tr class="memitem:aa6d13e5913a2108b6bd26ab254b4e513" id="r_aa6d13e5913a2108b6bd26ab254b4e513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d13e5913a2108b6bd26ab254b4e513">varianceZRColumn</a> () noexcept</td></tr>
 <tr class="memdesc:aa6d13e5913a2108b6bd26ab254b4e513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance zr</span> column.  <br /></td></tr>
 <tr class="memitem:a870ced5a23f89d10851a4c0f3e05b38b" id="r_a870ced5a23f89d10851a4c0f3e05b38b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870ced5a23f89d10851a4c0f3e05b38b">xColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a870ced5a23f89d10851a4c0f3e05b38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the x coordinate column.  <br /></td></tr>
+<tr class="memdesc:a870ced5a23f89d10851a4c0f3e05b38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">x</span> column.  <br /></td></tr>
 <tr class="memitem:ab0f2b47d83a03698fb38ea3665d46e84" id="r_ab0f2b47d83a03698fb38ea3665d46e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f2b47d83a03698fb38ea3665d46e84">xColumn</a> () noexcept</td></tr>
-<tr class="memdesc:ab0f2b47d83a03698fb38ea3665d46e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the x coordinate column.  <br /></td></tr>
+<tr class="memdesc:ab0f2b47d83a03698fb38ea3665d46e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">x</span> column.  <br /></td></tr>
 <tr class="memitem:a26a8534cb28d186754a3a0e48c525d34" id="r_a26a8534cb28d186754a3a0e48c525d34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26a8534cb28d186754a3a0e48c525d34">xyColumn</a> () const noexcept</td></tr>
 <tr class="memdesc:a26a8534cb28d186754a3a0e48c525d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">xy</span> coordinates column.  <br /></td></tr>
 <tr class="memitem:ac769d6699d950ae5fb8e5617238a2a17" id="r_ac769d6699d950ae5fb8e5617238a2a17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac769d6699d950ae5fb8e5617238a2a17">xyColumn</a> () noexcept</td></tr>
@@ -321,13 +309,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept
 <tr class="memitem:a7a0bea20870ecd556314af5cb9548d43" id="r_a7a0bea20870ecd556314af5cb9548d43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 4 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a0bea20870ecd556314af5cb9548d43">xyzrColumn</a> () noexcept</td></tr>
 <tr class="memdesc:a7a0bea20870ecd556314af5cb9548d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">xyzr</span> coordinates column.  <br /></td></tr>
 <tr class="memitem:aafc466980dab1f041266414983f1fae4" id="r_aafc466980dab1f041266414983f1fae4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafc466980dab1f041266414983f1fae4">yColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:aafc466980dab1f041266414983f1fae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the y coordinate column.  <br /></td></tr>
+<tr class="memdesc:aafc466980dab1f041266414983f1fae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">y</span> column.  <br /></td></tr>
 <tr class="memitem:a07932ce3076293bcef8255545bec31bc" id="r_a07932ce3076293bcef8255545bec31bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07932ce3076293bcef8255545bec31bc">yColumn</a> () noexcept</td></tr>
-<tr class="memdesc:a07932ce3076293bcef8255545bec31bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the y coordinate column.  <br /></td></tr>
+<tr class="memdesc:a07932ce3076293bcef8255545bec31bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">y</span> column.  <br /></td></tr>
 <tr class="memitem:a9a1a7c4ff00490b5c528f751f87cbeae" id="r_a9a1a7c4ff00490b5c528f751f87cbeae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a1a7c4ff00490b5c528f751f87cbeae">zColumn</a> () const noexcept</td></tr>
-<tr class="memdesc:a9a1a7c4ff00490b5c528f751f87cbeae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the z coordinate column.  <br /></td></tr>
+<tr class="memdesc:a9a1a7c4ff00490b5c528f751f87cbeae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">z</span> column.  <br /></td></tr>
 <tr class="memitem:ab9d46f3a4a33b00bbed5486000f23a53" id="r_ab9d46f3a4a33b00bbed5486000f23a53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d46f3a4a33b00bbed5486000f23a53">zColumn</a> () noexcept</td></tr>
-<tr class="memdesc:ab9d46f3a4a33b00bbed5486000f23a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the z coordinate column.  <br /></td></tr>
+<tr class="memdesc:ab9d46f3a4a33b00bbed5486000f23a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">z</span> column.  <br /></td></tr>
 <tr class="memitem:a4799a0d364f220e9d9d7fdfb315d5dea" id="r_a4799a0d364f220e9d9d7fdfb315d5dea"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
 <tr class="memitem:a4799a0d364f220e9d9d7fdfb315d5dea template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4799a0d364f220e9d9d7fdfb315d5dea">zip</a> (const <a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; Ts &gt; &amp;...columns) const noexcept</td></tr>
 <tr class="memdesc:a4799a0d364f220e9d9d7fdfb315d5dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a zipped const range of space point data from the given columns.  <br /></td></tr>
@@ -600,62 +588,6 @@ template&lt;bool read_only&gt; </div>
 
 </div>
 </div>
-<a id="ac249503304a7066dd0128eb8be24180a" name="ac249503304a7066dd0128eb8be24180a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac249503304a7066dd0128eb8be24180a">&#9670;&#160;</a></span>bottomStripVectorColumn() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::bottomStripVectorColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const proxy to the <span class="tt">bottom strip vector</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">bottom strip vector</span> column. </dd></dl>
-
-</div>
-</div>
-<a id="a7a5664df77c6d0dc6809d234eea4c19c" name="a7a5664df77c6d0dc6809d234eea4c19c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a5664df77c6d0dc6809d234eea4c19c">&#9670;&#160;</a></span>bottomStripVectorColumn() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::bottomStripVectorColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a mutable proxy to the <span class="tt">bottom strip vector</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">bottom strip vector</span> column. </dd></dl>
-
-</div>
-</div>
 <a id="a129e8c72e5b95e9db5fd9c17971ed6bc" name="a129e8c72e5b95e9db5fd9c17971ed6bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a129e8c72e5b95e9db5fd9c17971ed6bc">&#9670;&#160;</a></span>column() <span class="overload">[1/2]</span></h2>
 
@@ -724,6 +656,62 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a16b5faaab1a2f47879542da252db0822" name="a16b5faaab1a2f47879542da252db0822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b5faaab1a2f47879542da252db0822">&#9670;&#160;</a></span>copiedFromIndexColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; Acts::SpacePointContainer2::copiedFromIndexColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">copied from index</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">copied from index</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="aa8955d3e3c622e884f4f9e7704844ccc" name="aa8955d3e3c622e884f4f9e7704844ccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8955d3e3c622e884f4f9e7704844ccc">&#9670;&#160;</a></span>copiedFromIndexColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; Acts::SpacePointContainer2::copiedFromIndexColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">copied from index</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">copied from index</span> column. </dd></dl>
+
+</div>
+</div>
 <a id="a412e8e1e8bee72db0765d0ca2b4ec2aa" name="a412e8e1e8bee72db0765d0ca2b4ec2aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a412e8e1e8bee72db0765d0ca2b4ec2aa">&#9670;&#160;</a></span>copyFrom()</h2>
 
@@ -763,62 +751,6 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a3fcdc67ba4e83c48b981119d477a6b35" name="a3fcdc67ba4e83c48b981119d477a6b35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fcdc67ba4e83c48b981119d477a6b35">&#9670;&#160;</a></span>copyFromIndexColumn() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; Acts::SpacePointContainer2::copyFromIndexColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const proxy to the <span class="tt">copy from index</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">copy from index</span> column. </dd></dl>
-
-</div>
-</div>
-<a id="a3e86da69b4af19006da4cd8ec88cba75" name="a3e86da69b4af19006da4cd8ec88cba75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e86da69b4af19006da4cd8ec88cba75">&#9670;&#160;</a></span>copyFromIndexColumn() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; Acts::SpacePointContainer2::copyFromIndexColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a mutable proxy to the <span class="tt">copy from index</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">copy from index</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1271,6 +1203,62 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a67600b617d46202b8b9e5b5fdf10a730" name="a67600b617d46202b8b9e5b5fdf10a730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67600b617d46202b8b9e5b5fdf10a730">&#9670;&#160;</a></span>outerStripCalibrationDetailsColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt; Acts::SpacePointContainer2::outerStripCalibrationDetailsColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">outer strip calibration details</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">outer strip calibration details</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a0e50bbe4bce8dfb9619e02d4fa745f47" name="a0e50bbe4bce8dfb9619e02d4fa745f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e50bbe4bce8dfb9619e02d4fa745f47">&#9670;&#160;</a></span>outerStripCalibrationDetailsColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt; Acts::SpacePointContainer2::outerStripCalibrationDetailsColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">outer strip calibration details</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">outer strip calibration details</span> column. </dd></dl>
+
+</div>
+</div>
 <a id="a7c9a8f456f256fc685ca620dfade1026" name="a7c9a8f456f256fc685ca620dfade1026"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c9a8f456f256fc685ca620dfade1026">&#9670;&#160;</a></span>phiColumn() <span class="overload">[1/2]</span></h2>
 
@@ -1294,8 +1282,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the phi coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the phi coordinate column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">phi</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">phi</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1322,8 +1310,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the phi coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the phi coordinate column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">phi</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">phi</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1418,8 +1406,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the r coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the r coordinate column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">r</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1446,8 +1434,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the r coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the r coordinate column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">r</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1514,62 +1502,6 @@ template&lt;typename T&gt; </div>
 
 <p>Returns the number of space points in the container. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of space points in the container. </dd></dl>
-
-</div>
-</div>
-<a id="a5b6ae45631b10de4ee0f3df998c0557d" name="a5b6ae45631b10de4ee0f3df998c0557d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b6ae45631b10de4ee0f3df998c0557d">&#9670;&#160;</a></span>stripCenterDistanceColumn() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::stripCenterDistanceColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const proxy to the <span class="tt">strip center distance</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">strip center distance</span> column. </dd></dl>
-
-</div>
-</div>
-<a id="a422a319ff75d9b43bb28554ddbe73c2e" name="a422a319ff75d9b43bb28554ddbe73c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a422a319ff75d9b43bb28554ddbe73c2e">&#9670;&#160;</a></span>stripCenterDistanceColumn() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::stripCenterDistanceColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a mutable proxy to the <span class="tt">strip center distance</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">strip center distance</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1664,8 +1596,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the time column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the time column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">time</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">time</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1692,120 +1624,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the time column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the time column. </dd></dl>
-
-</div>
-</div>
-<a id="a1cb1772ff08ba25c30a223877c39348c" name="a1cb1772ff08ba25c30a223877c39348c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cb1772ff08ba25c30a223877c39348c">&#9670;&#160;</a></span>topStripCenterColumn() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::topStripCenterColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const proxy to the <span class="tt">top strip center</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">top strip center</span> column. </dd></dl>
-
-</div>
-</div>
-<a id="a2c106acc11d5662d96056661d5f8c307" name="a2c106acc11d5662d96056661d5f8c307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c106acc11d5662d96056661d5f8c307">&#9670;&#160;</a></span>topStripCenterColumn() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::topStripCenterColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a mutable proxy to the <span class="tt">top strip center</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">top strip center</span> column. </dd></dl>
-
-</div>
-</div>
-<a id="ac40e90b568f5e18c5adbb7556cd66708" name="ac40e90b568f5e18c5adbb7556cd66708"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac40e90b568f5e18c5adbb7556cd66708">&#9670;&#160;</a></span>topStripVectorColumn() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a35bb5ed49244d07f833cb233cf9d435d">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::topStripVectorColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const proxy to the <span class="tt">top strip vector</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">top strip vector</span> column. </dd></dl>
-
-</div>
-</div>
-<a id="ad803be0db21c3a08d6237ed772912ae5" name="ad803be0db21c3a08d6237ed772912ae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad803be0db21c3a08d6237ed772912ae5">&#9670;&#160;</a></span>topStripVectorColumn() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a5f5130338255151f06676b9e314609d4">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer2::topStripVectorColumn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a mutable proxy to the <span class="tt">top strip vector</span> column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">top strip vector</span> column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">time</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">time</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1832,8 +1652,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the variance in R direction column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the variance in R direction column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">variance r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance r</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1860,8 +1680,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the variance in R direction column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the variance in R direction column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">variance r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance r</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1888,8 +1708,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the variance in T direction column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the variance in T direction column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">variance t</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance t</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1916,8 +1736,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the variance in T direction column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the variance in T direction column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">variance t</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance t</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1944,8 +1764,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the variance in Z direction column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the variance in Z direction column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">variance z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance z</span> column. </dd></dl>
 
 </div>
 </div>
@@ -1972,8 +1792,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the variance in Z direction column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the variance in Z direction column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">variance z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance z</span> column. </dd></dl>
 
 </div>
 </div>
@@ -2056,8 +1876,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the x coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the x coordinate column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">x</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">x</span> column. </dd></dl>
 
 </div>
 </div>
@@ -2084,8 +1904,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the x coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the x coordinate column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">x</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">x</span> column. </dd></dl>
 
 </div>
 </div>
@@ -2280,8 +2100,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the y coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the y coordinate column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">y</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">y</span> column. </dd></dl>
 
 </div>
 </div>
@@ -2308,8 +2128,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the y coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the y coordinate column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">y</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">y</span> column. </dd></dl>
 
 </div>
 </div>
@@ -2336,8 +2156,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const proxy to the z coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A const proxy to the z coordinate column. </dd></dl>
+<p>Returns a const proxy to the <span class="tt">z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">z</span> column. </dd></dl>
 
 </div>
 </div>
@@ -2364,8 +2184,8 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a mutable proxy to the z coordinate column. </p>
-<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the z coordinate column. </dd></dl>
+<p>Returns a mutable proxy to the <span class="tt">z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">z</span> column. </dd></dl>
 
 </div>
 </div>

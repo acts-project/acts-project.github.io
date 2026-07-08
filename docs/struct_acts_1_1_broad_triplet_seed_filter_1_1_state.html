@@ -139,7 +139,7 @@ Collaboration diagram for Acts::BroadTripletSeedFilter::State:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a65c74635dd5b524d2c8d22270ff9fd09" id="r_a65c74635dd5b524d2c8d22270ff9fd09"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c74635dd5b524d2c8d22270ff9fd09">bestSeedQualityMap</a></td></tr>
-<tr class="memdesc:a65c74635dd5b524d2c8d22270ff9fd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store the best seed quality for each space point This is used to avoid creating seeds with lower quality than the best seed quality already found for that space point The key is the space point index, and the value is the best seed quality found for that space point.  <br /></td></tr>
+<tr class="memdesc:a65c74635dd5b524d2c8d22270ff9fd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store the best seed quality for each space point.  <br /></td></tr>
 <tr class="memitem:a5db8c374396ae33a0b43a61fd4a39b44" id="r_a5db8c374396ae33a0b43a61fd4a39b44"><td class="memItemLeft" align="right" valign="top"><a id="a5db8c374396ae33a0b43a61fd4a39b44" name="a5db8c374396ae33a0b43a61fd4a39b44"></a>
 CandidatesForMiddleSp2&#160;</td><td class="memItemRight" valign="bottom"><b>candidatesCollector</b></td></tr>
 <tr class="memdesc:a5db8c374396ae33a0b43a61fd4a39b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector for triplet candidates associated with middle space points. <br /></td></tr>
@@ -162,8 +162,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>rMaxSeedConf</b> {}<
       </table>
 </div><div class="memdoc">
 
-<p>Map to store the best seed quality for each space point This is used to avoid creating seeds with lower quality than the best seed quality already found for that space point The key is the space point index, and the value is the best seed quality found for that space point. </p>
-<dl class="section note"><dt>Note</dt><dd>The index is the space point index, not the seed index. <span class="tt">copyFromIndex</span> will be used if available. </dd></dl>
+<p>Map to store the best seed quality for each space point. </p>
+<p>This is used to avoid creating seeds with lower quality than the best seed quality already found for that space point. The key is the space point index, and the value is the best seed quality found for that space point. </p><dl class="section note"><dt>Note</dt><dd>The index is the space point index, not the seed index. </dd></dl>
 
 </div>
 </div>
