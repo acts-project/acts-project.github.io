@@ -133,22 +133,25 @@ $(function(){initNavTree('_generation_process_8hpp_source.html','',''); });
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts_fatras.html">ActsFatras</a> {</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
-<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">   19</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a> : std::uint32_t {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  eUndefined = 0,</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  eDecay = 1,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  ePhotonConversion = 2,</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  eBremsstrahlung = 3,</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  eNuclearInteraction = 4,</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">   27</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a> : std::uint32_t {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  eUndefined = 0,</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  eDecay = 1,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  ePhotonConversion = 2,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  eBremsstrahlung = 3,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  eNuclearInteraction = 4,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="comment">// Geant4-fed only (see note above):</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  eIonisation = 5,  <span class="comment">// delta-ray / knock-on electron from ionisation</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  eOther = 6,       <span class="comment">// other material interaction (Compton, photoelectric, ...)</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
 </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="namespace_acts_fatras.html#a1f62eb62dcbb257a7686654157fbf31d">   31</a></span>std::ostream &amp;<a class="code hl_function" href="namespace_acts_fatras.html#a1f62eb62dcbb257a7686654157fbf31d">operator&lt;&lt;</a>(std::ostream &amp;os, <a class="code hl_enumeration" href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a> processType);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace ActsFatras</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="namespace_acts_fatras.html#a1f62eb62dcbb257a7686654157fbf31d">   42</a></span>std::ostream &amp;<a class="code hl_function" href="namespace_acts_fatras.html#a1f62eb62dcbb257a7686654157fbf31d">operator&lt;&lt;</a>(std::ostream &amp;os, <a class="code hl_enumeration" href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">GenerationProcess</a> processType);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}  <span class="comment">// namespace ActsFatras</span></div>
 <div class="ttc" id="anamespace_acts_fatras_html"><div class="ttname"><a href="namespace_acts_fatras.html">ActsFatras</a></div><div class="ttdoc">The ACTS Fatras fast simulation plugin.</div></div>
 <div class="ttc" id="anamespace_acts_fatras_html_a1f62eb62dcbb257a7686654157fbf31d"><div class="ttname"><a href="namespace_acts_fatras.html#a1f62eb62dcbb257a7686654157fbf31d">ActsFatras::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, GenerationProcess processType)</div><div class="ttdoc">Print generation process type to output stream.</div></div>
-<div class="ttc" id="anamespace_acts_fatras_html_ab82fe32106ca3290d89eceea261c2a05"><div class="ttname"><a href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">ActsFatras::GenerationProcess</a></div><div class="ttdeci">GenerationProcess</div><div class="ttdoc">Generation process type identifier.</div><div class="ttdef"><b>Definition</b> GenerationProcess.hpp:19</div></div>
+<div class="ttc" id="anamespace_acts_fatras_html_ab82fe32106ca3290d89eceea261c2a05"><div class="ttname"><a href="namespace_acts_fatras.html#ab82fe32106ca3290d89eceea261c2a05">ActsFatras::GenerationProcess</a></div><div class="ttdeci">GenerationProcess</div><div class="ttdoc">Generation process type identifier.</div><div class="ttdef"><b>Definition</b> GenerationProcess.hpp:27</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

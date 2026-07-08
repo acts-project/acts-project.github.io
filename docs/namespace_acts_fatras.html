@@ -256,6 +256,8 @@ Enumerations</h2></td></tr>
 , <b>eBremsstrahlung</b> = 3
 , <br />
 &#160;&#160;<b>eNuclearInteraction</b> = 4
+, <b>eIonisation</b> = 5
+, <b>eOther</b> = 6
 <br />
  }</td></tr>
 <tr class="memdesc:ab82fe32106ca3290d89eceea261c2a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generation process type identifier.  <a href="#ab82fe32106ca3290d89eceea261c2a05">More...</a><br /></td></tr>
@@ -424,7 +426,8 @@ template&lt;typename generator_t&gt; </div>
 </div><div class="memdoc">
 
 <p>Generation process type identifier. </p>
-<p>Encodes the type of process that generated a particle. </p>
+<p>Encodes the type of process that generated a particle.</p>
+<p>Fatras' own physics modules only ever set eDecay, ePhotonConversion and eBremsstrahlung. The remaining values (eNuclearInteraction, eIonisation, eOther) are not produced by Fatras (as of June 2026); they exist to "translate" the finer production-process information available from the full Geant4 simulation (mapped from the G4 creator process in the Geant4 integration's ParticleTrackingAction) so it can be stored on the particle and written out. </p>
 
 </div>
 </div>
