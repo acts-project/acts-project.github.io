@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"class_acts_1_1_triplet_top_candidates_1_1_proxy.html#adc623d248f564c10564c5f40150c7e6a":[7,0,0,414,0,1],
+"class_acts_1_1_trivial_portal_link.html":[5,0,0,407],
 "class_acts_1_1_trivial_portal_link.html":[7,0,0,415],
 "class_acts_1_1_trivial_portal_link.html#a201f860f8a2ac5984945120aeaad5b6c":[5,0,0,407,2],
 "class_acts_1_1_trivial_portal_link.html#a201f860f8a2ac5984945120aeaad5b6c":[7,0,0,415,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "class_acts_1_1_volume_bounds.html#accdf685a7cfd6aaee828b462262d2e63":[5,0,0,423,10],
 "class_acts_1_1_volume_bounds.html#accdf685a7cfd6aaee828b462262d2e63":[7,0,0,431,10],
 "class_acts_1_1_volume_bounds.html#aceaf78edf7fb73a022ab6c56b975a7dd":[5,0,0,423,6],
-"class_acts_1_1_volume_bounds.html#aceaf78edf7fb73a022ab6c56b975a7dd":[7,0,0,431,6],
-"class_acts_1_1_volume_bounds.html#afc773796288bbb544e90f89242f182aa":[5,0,0,423,2],
-"class_acts_1_1_volume_bounds.html#afc773796288bbb544e90f89242f182aa":[7,0,0,431,2]
+"class_acts_1_1_volume_bounds.html#aceaf78edf7fb73a022ab6c56b975a7dd":[7,0,0,431,6]
 };

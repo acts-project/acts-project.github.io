@@ -140,42 +140,42 @@ $(function(){initNavTree('_composite_space_point_calibrator_8hpp_source.html',''
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">requires</span>(<span class="keyword">const</span> Calibrator_t calibrator, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a>&amp; ctx,</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>             <span class="keyword">const</span> SpacePoint_t&amp; spacePoint, <span class="keyword">const</span> <span class="keywordtype">double</span> t0) {</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>      { calibrator.driftVelocity(ctx, spacePoint, t0) } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>      {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        calibrator.driftAcceleration(ctx, spacePoint, t0)</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>      } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>      { calibrator.driftRadius(ctx, spacePoint, t0) } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    };</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>      {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        calibrator.driftAcceleration(ctx, spacePoint, t0)</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>      { calibrator.driftRadius(ctx, spacePoint, t0) } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    };</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Calibrator_t, <span class="keyword">typename</span> UnCalibCont_t, <span class="keyword">typename</span> CalibCont_t&gt;</div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html">   51</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html">CompositeSpacePointCalibrator</a> =</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_concept" href="concept_acts_1_1_experimental_1_1_composite_space_point_container.html">CompositeSpacePointContainer&lt;UnCalibCont_t&gt;</a> &amp;&amp;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_concept" href="concept_acts_1_1_experimental_1_1_composite_space_point_container.html">CompositeSpacePointContainer&lt;CalibCont_t&gt;</a> &amp;&amp;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">requires</span>(<span class="keyword">const</span> Calibrator_t calibrator, <span class="keyword">const</span> UnCalibCont_t&amp; uncalibCont,</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>             CalibCont_t&amp; calibCont, <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; trackPos,</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>             <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; trackDir, <span class="keyword">const</span> <span class="keywordtype">double</span> trackT0,</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>             <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_calibration_context.html">CalibrationContext</a>&amp; ctx,</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>             <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#af5dcde8c0f77a3ed6c7887d0c7e1a26d">Acts::RemovePointer_t&lt;typename CalibCont_t::value_type&gt;</a>&amp;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                 measurement) {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>      {</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        calibrator.calibrate(ctx, trackPos, trackDir, trackT0, uncalibCont)</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>      } -&gt; std::same_as&lt;CalibCont_t&gt;;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>      {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        calibrator.updateSigns(trackPos, trackDir, calibCont)</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>      } -&gt; std::same_as&lt;void&gt;;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      { calibrator.driftVelocity(ctx, measurement) } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>      {</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        calibrator.driftAcceleration(ctx, measurement)</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>      } -&gt; std::same_as&lt;double&gt;;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    };</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Calibrator_t, <span class="keyword">typename</span> UnCalibCont_t, <span class="keyword">typename</span> CalibCont_t&gt;</div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html">   52</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html">CompositeSpacePointCalibrator</a> =</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_concept" href="concept_acts_1_1_experimental_1_1_composite_space_point_container.html">CompositeSpacePointContainer&lt;UnCalibCont_t&gt;</a> &amp;&amp;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_concept" href="concept_acts_1_1_experimental_1_1_composite_space_point_container.html">CompositeSpacePointContainer&lt;CalibCont_t&gt;</a> &amp;&amp;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keyword">requires</span>(<span class="keyword">const</span> Calibrator_t calibrator, <span class="keyword">const</span> UnCalibCont_t&amp; uncalibCont,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>             CalibCont_t&amp; calibCont, <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; trackPos,</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>             <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; trackDir, <span class="keyword">const</span> <span class="keywordtype">double</span> trackT0,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>             <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_calibration_context.html">CalibrationContext</a>&amp; ctx,</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>             <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#af5dcde8c0f77a3ed6c7887d0c7e1a26d">Acts::RemovePointer_t&lt;typename CalibCont_t::value_type&gt;</a>&amp;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                 measurement) {</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>      {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        calibrator.calibrate(ctx, trackPos, trackDir, trackT0, uncalibCont)</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>      } -&gt; std::same_as&lt;CalibCont_t&gt;;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>      {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        calibrator.updateSigns(trackPos, trackDir, calibCont)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>      } -&gt; std::same_as&lt;void&gt;;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>      { calibrator.driftVelocity(ctx, measurement) } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>      {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        calibrator.driftAcceleration(ctx, measurement)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      } -&gt; std::same_as&lt;double&gt;;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    };</div>
 </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="aclass_acts_1_1_calibration_context_html"><div class="ttname"><a href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector calibration.</div><div class="ttdef"><b>Definition</b> CalibrationContext.hpp:27</div></div>
-<div class="ttc" id="aconcept_acts_1_1_experimental_1_1_composite_space_point_calibrator_html"><div class="ttname"><a href="concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html">Acts::Experimental::CompositeSpacePointCalibrator</a></div><div class="ttdoc">Interface concept for a CompositeSpacePointCalibrator.</div><div class="ttdef"><b>Definition</b> CompositeSpacePointCalibrator.hpp:51</div></div>
-<div class="ttc" id="aconcept_acts_1_1_experimental_1_1_composite_space_point_container_html"><div class="ttname"><a href="concept_acts_1_1_experimental_1_1_composite_space_point_container.html">Acts::Experimental::CompositeSpacePointContainer</a></div><div class="ttdoc">A station space point container is any std::container over space points.</div><div class="ttdef"><b>Definition</b> CompositeSpacePoint.hpp:72</div></div>
+<div class="ttc" id="aconcept_acts_1_1_experimental_1_1_composite_space_point_calibrator_html"><div class="ttname"><a href="concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html">Acts::Experimental::CompositeSpacePointCalibrator</a></div><div class="ttdoc">Interface concept for a CompositeSpacePointCalibrator.</div><div class="ttdef"><b>Definition</b> CompositeSpacePointCalibrator.hpp:52</div></div>
+<div class="ttc" id="aconcept_acts_1_1_experimental_1_1_composite_space_point_container_html"><div class="ttname"><a href="concept_acts_1_1_experimental_1_1_composite_space_point_container.html">Acts::Experimental::CompositeSpacePointContainer</a></div><div class="ttdoc">Define the CompositeSpacePointContainer concept as any std::container over a collection of CompositeS...</div><div class="ttdef"><b>Definition</b> CompositeSpacePoint.hpp:73</div></div>
 <div class="ttc" id="aconcept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator_html"><div class="ttname"><a href="concept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator.html">Acts::Experimental::CompositeSpacePointFastCalibrator</a></div><div class="ttdoc">Interface concept to define the straw measurement calibrator used by the FastStrawLineFitter.</div><div class="ttdef"><b>Definition</b> CompositeSpacePointCalibrator.hpp:26</div></div>
 <div class="ttc" id="aconcept_acts_1_1_experimental_1_1_composite_space_point_html"><div class="ttname"><a href="concept_acts_1_1_experimental_1_1_composite_space_point.html">Acts::Experimental::CompositeSpacePoint</a></div><div class="ttdoc">Concept definition of the station space points.</div><div class="ttdef"><b>Definition</b> CompositeSpacePoint.hpp:28</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>

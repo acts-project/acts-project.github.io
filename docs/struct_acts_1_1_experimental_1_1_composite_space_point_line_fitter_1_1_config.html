@@ -152,9 +152,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>calcAlongStraw</b> {t
 <tr class="memitem:ad5e5c68030624100db4c93cba3d379f2" id="r_ad5e5c68030624100db4c93cba3d379f2"><td class="memItemLeft" align="right" valign="top"><a id="ad5e5c68030624100db4c93cba3d379f2" name="ad5e5c68030624100db4c93cba3d379f2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>calcAlongStrip</b> {true}</td></tr>
 <tr class="memdesc:ad5e5c68030624100db4c93cba3d379f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag toggling whether the residual along the strip direction shall be calculated if the space point does not measure both spatial coordinates on the plane. <br /></td></tr>
-<tr class="memitem:a3f79cfe95d24c91b147b050bed3fc0d2" id="r_a3f79cfe95d24c91b147b050bed3fc0d2"><td class="memItemLeft" align="right" valign="top"><a id="a3f79cfe95d24c91b147b050bed3fc0d2" name="a3f79cfe95d24c91b147b050bed3fc0d2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>fastPreFitter</b> {true}</td></tr>
-<tr class="memdesc:a3f79cfe95d24c91b147b050bed3fc0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch to use the fast fitter as pre-fitter. The flag useFastFitter needs to be enabled. <br /></td></tr>
+<tr class="memitem:a3f79cfe95d24c91b147b050bed3fc0d2" id="r_a3f79cfe95d24c91b147b050bed3fc0d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f79cfe95d24c91b147b050bed3fc0d2">fastPreFitter</a> {true}</td></tr>
+<tr class="memdesc:a3f79cfe95d24c91b147b050bed3fc0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch to use the fast fitter as pre-fitter.  <br /></td></tr>
 <tr class="memitem:a93a3d50eeac1b601a94f14fe83ef26b1" id="r_a93a3d50eeac1b601a94f14fe83ef26b1"><td class="memItemLeft" align="right" valign="top"><a id="a93a3d50eeac1b601a94f14fe83ef26b1" name="a93a3d50eeac1b601a94f14fe83ef26b1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>fitT0</b> {false}</td></tr>
 <tr class="memdesc:a93a3d50eeac1b601a94f14fe83ef26b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit the time offset if possible. <br /></td></tr>
@@ -169,9 +168,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>includeToF</b> {true}
 <tr class="memitem:ae44a60091441784c20186b4f0add82e4" id="r_ae44a60091441784c20186b4f0add82e4"><td class="memItemLeft" align="right" valign="top"><a id="ae44a60091441784c20186b4f0add82e4" name="ae44a60091441784c20186b4f0add82e4"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxIter</b> {1000}</td></tr>
 <tr class="memdesc:ae44a60091441784c20186b4f0add82e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of iterations. <br /></td></tr>
-<tr class="memitem:a75dab148a95b3a3b40321b0d28950176" id="r_a75dab148a95b3a3b40321b0d28950176"><td class="memItemLeft" align="right" valign="top"><a id="a75dab148a95b3a3b40321b0d28950176" name="a75dab148a95b3a3b40321b0d28950176"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>normPrecCutOff</b> {1.e-2}</td></tr>
-<tr class="memdesc:a75dab148a95b3a3b40321b0d28950176"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the parameter change normalized to their uncertainties is below the cutOff the fit is converged. <br /></td></tr>
+<tr class="memitem:a75dab148a95b3a3b40321b0d28950176" id="r_a75dab148a95b3a3b40321b0d28950176"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75dab148a95b3a3b40321b0d28950176">normPrecCutOff</a> {1.e-2}</td></tr>
+<tr class="memdesc:a75dab148a95b3a3b40321b0d28950176"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the parameter change normalized to their uncertainties is below the cutOff the fit is converged.  <br /></td></tr>
 <tr class="memitem:a805c6323ee55c50aa447692f16bfc645" id="r_a805c6323ee55c50aa447692f16bfc645"><td class="memItemLeft" align="right" valign="top"><a id="a805c6323ee55c50aa447692f16bfc645" name="a805c6323ee55c50aa447692f16bfc645"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nParsOutOfBounds</b> {1}</td></tr>
 <tr class="memdesc:a805c6323ee55c50aa447692f16bfc645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the fit as soon as more than n parameters leave the fit range. <br /></td></tr>
@@ -214,6 +212,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useHessian</b> {false
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a3f79cfe95d24c91b147b050bed3fc0d2" name="a3f79cfe95d24c91b147b050bed3fc0d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f79cfe95d24c91b147b050bed3fc0d2">&#9670;&#160;</a></span>fastPreFitter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::CompositeSpacePointLineFitter::Config::fastPreFitter {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switch to use the fast fitter as pre-fitter. </p>
+<p>The flag useFastFitter needs to be enabled </p>
+
+</div>
+</div>
 <a id="a27cd2c5dc3bfd2c12051cf544b3f9ebb" name="a27cd2c5dc3bfd2c12051cf544b3f9ebb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27cd2c5dc3bfd2c12051cf544b3f9ebb">&#9670;&#160;</a></span>ignoreFailedPreFit</h2>
 
@@ -231,6 +246,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useHessian</b> {false
 
 </div>
 </div>
+<a id="a75dab148a95b3a3b40321b0d28950176" name="a75dab148a95b3a3b40321b0d28950176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75dab148a95b3a3b40321b0d28950176">&#9670;&#160;</a></span>normPrecCutOff</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::Experimental::CompositeSpacePointLineFitter::Config::normPrecCutOff {1.e-2}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If the parameter change normalized to their uncertainties is below the cutOff the fit is converged. </p>
+<p>For negative cut-offs this convergence schema is effectively deactivated </p>
+
+</div>
+</div>
 <a id="a88a2501162df8548686c333fe35a8e3a" name="a88a2501162df8548686c333fe35a8e3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88a2501162df8548686c333fe35a8e3a">&#9670;&#160;</a></span>ranges</h2>
 
@@ -244,7 +276,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useHessian</b> {false
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">        <a class="code hl_function" href="namespace_acts.html#a77ed58950d2c88dfa04891d7042b426a">filledArray&lt;std::array&lt;double, 2&gt;</a>, <a class="code hl_variable" href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#adcce20bc25c030ebb4a7a4d149de9f6f">s_nPars</a>&gt;(std::array{1., -1.})}</div>
-<div class="ttc" id="aclass_acts_1_1_experimental_1_1_composite_space_point_line_fitter_html_adcce20bc25c030ebb4a7a4d149de9f6f"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#adcce20bc25c030ebb4a7a4d149de9f6f">Acts::Experimental::CompositeSpacePointLineFitter::s_nPars</a></div><div class="ttdeci">static constexpr auto s_nPars</div><div class="ttdoc">Number of fit parameters.</div><div class="ttdef"><b>Definition</b> CompositeSpacePointLineFitter.hpp:50</div></div>
+<div class="ttc" id="aclass_acts_1_1_experimental_1_1_composite_space_point_line_fitter_html_adcce20bc25c030ebb4a7a4d149de9f6f"><div class="ttname"><a href="class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#adcce20bc25c030ebb4a7a4d149de9f6f">Acts::Experimental::CompositeSpacePointLineFitter::s_nPars</a></div><div class="ttdeci">static constexpr auto s_nPars</div><div class="ttdoc">Number of fit parameters.</div><div class="ttdef"><b>Definition</b> CompositeSpacePointLineFitter.hpp:49</div></div>
 <div class="ttc" id="anamespace_acts_html_a77ed58950d2c88dfa04891d7042b426a"><div class="ttname"><a href="namespace_acts.html#a77ed58950d2c88dfa04891d7042b426a">Acts::filledArray</a></div><div class="ttdeci">constexpr std::array&lt; T, N &gt; filledArray(const T &amp;defVal)</div><div class="ttdoc">creates an array of type T and size N and assigns all elements to the parsed default value def_val.</div><div class="ttdef"><b>Definition</b> ArrayHelpers.hpp:20</div></div>
 </div><!-- fragment -->
 <p>Allowed parameter ranges. </p>

@@ -16,5 +16,6 @@ var class_acts_1_1_experimental_1_1_composite_space_point_line_seeder =
     [ "encodeAmbiguity", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#abfe5da7116a2b347de4567bf02748015", null ],
     [ "makeDirection", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ac66d19cccb6c42a3a7c249bfc87d1642", null ],
     [ "nextSeed", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a178b4720478e7e2f313b338bf146dacf", null ],
-    [ "toString", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a0186dfc2fc2180287d7fc0d3e6c17713", null ]
+    [ "toString", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a0186dfc2fc2180287d7fc0d3e6c17713", null ],
+    [ "operator<<", "class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#ae2ea04963b90400fae04cfffd8d65258", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"class_acts_plugins_1_1_t_geo_axes.html#ad26a940e3a4fb97a3decd8fddc5263f4":[4,10,12,7,0],
+"class_acts_plugins_1_1_t_geo_axes.html#aec193ea39e741e516e647cf927765c33":[4,10,12,7,1],
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html":[5,0,3,59],
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html":[7,0,2,64],
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#a188b25eba9a84593517aa953819c3b65":[5,0,3,59,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "functions_func_y.html":[7,2,1,24],
 "functions_func_z.html":[7,2,1,25],
 "functions_func_~.html":[7,2,1,26],
-"functions_g.html":[7,2,0,6],
-"functions_h.html":[7,2,0,7],
-"functions_i.html":[7,2,0,8]
+"functions_g.html":[7,2,0,6]
 };

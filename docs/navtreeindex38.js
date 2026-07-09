@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"class_acts_1_1_volume_bounds.html#afc773796288bbb544e90f89242f182aa":[5,0,0,423,2],
+"class_acts_1_1_volume_bounds.html#afc773796288bbb544e90f89242f182aa":[7,0,0,431,2],
 "class_acts_1_1_volume_material_mapper.html":[5,0,0,428],
 "class_acts_1_1_volume_material_mapper.html":[7,0,0,436],
 "class_acts_1_1_volume_material_mapper.html#a09d561bcf53a6998d6b2f7f4675f0450":[5,0,0,428,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[5,0,2,26,15],
 "class_acts_fatras_1_1_particle.html#a26cc5f90343593ab610ff7fd35e52af5":[7,0,1,27,15],
 "class_acts_fatras_1_1_particle.html#a2900f925a98fc6ed37e816b53e90b3f4":[5,0,2,26,10],
-"class_acts_fatras_1_1_particle.html#a2900f925a98fc6ed37e816b53e90b3f4":[7,0,1,27,10],
-"class_acts_fatras_1_1_particle.html#a2c32872274286ceb1ea93659195f8afa":[5,0,2,26,20],
-"class_acts_fatras_1_1_particle.html#a2c32872274286ceb1ea93659195f8afa":[7,0,1,27,20]
+"class_acts_fatras_1_1_particle.html#a2900f925a98fc6ed37e816b53e90b3f4":[7,0,1,27,10]
 };

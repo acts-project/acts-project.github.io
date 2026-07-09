@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_experimental_1_1_blueprint_1_1_config.html#a4ba831c672edfe97b149df998502e2d4":[5,0,0,1,1,0,0],
+"struct_acts_1_1_experimental_1_1_blueprint_1_1_config.html#a4ba831c672edfe97b149df998502e2d4":[7,0,0,2,1,0,0],
 "struct_acts_1_1_experimental_1_1_blueprint_1_1_config.html#a657d4ed2979c3441a89a641b81f36680":[5,0,0,1,1,0,1],
 "struct_acts_1_1_experimental_1_1_blueprint_1_1_config.html#a657d4ed2979c3441a89a641b81f36680":[7,0,0,2,1,0,1],
 "struct_acts_1_1_experimental_1_1_blueprint_options.html":[5,0,0,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_experimental_1_1_gbts_edge.html":[5,0,0,1,17],
 "struct_acts_1_1_experimental_1_1_gbts_edge.html":[7,0,0,2,17],
 "struct_acts_1_1_experimental_1_1_gbts_edge.html#a02c8e5596daf7207e0f128477e888d80":[5,0,0,1,17,3],
-"struct_acts_1_1_experimental_1_1_gbts_edge.html#a02c8e5596daf7207e0f128477e888d80":[7,0,0,2,17,3],
-"struct_acts_1_1_experimental_1_1_gbts_edge.html#a3ece796f164a45a40b98e7b6da397621":[5,0,0,1,17,0],
-"struct_acts_1_1_experimental_1_1_gbts_edge.html#a3ece796f164a45a40b98e7b6da397621":[7,0,0,2,17,0]
+"struct_acts_1_1_experimental_1_1_gbts_edge.html#a02c8e5596daf7207e0f128477e888d80":[7,0,0,2,17,3]
 };

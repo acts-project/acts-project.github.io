@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_edge.html#a3ece796f164a45a40b98e7b6da397621":[5,0,0,1,17,0],
+"struct_acts_1_1_experimental_1_1_gbts_edge.html#a3ece796f164a45a40b98e7b6da397621":[7,0,0,2,17,0],
 "struct_acts_1_1_experimental_1_1_gbts_edge.html#a42205a51d84a284b180909ce5467e124":[5,0,0,1,17,7],
 "struct_acts_1_1_experimental_1_1_gbts_edge.html#a42205a51d84a284b180909ce5467e124":[7,0,0,2,17,7],
 "struct_acts_1_1_experimental_1_1_gbts_edge.html#a5bddd4fb3d13d644834c6ac19c3913f7":[5,0,0,1,17,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[5,0,0,1,30,2,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html#abdfff1f6ff1cb212b21ff87a89422b70":[7,0,0,2,30,2,1],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[5,0,0,1,30,3],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[7,0,0,2,30,3],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#a4cdd4f78c80cf2a9125f4b112362c61a":[5,0,0,1,30,3,0],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html#a4cdd4f78c80cf2a9125f4b112362c61a":[7,0,0,2,30,3,0]
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_output_seed_properties.html":[7,0,0,2,30,3]
 };
