@@ -156,8 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9a52594c472982ab84363bdd6810fcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that connects the volume to an external alignment I.e.  <br /></td></tr>
 <tr class="memitem:a545e9e249d401a0dbfbe7598be4cea53" id="r_a545e9e249d401a0dbfbe7598be4cea53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a545e9e249d401a0dbfbe7598be4cea53">assignVolumeBounds</a> (std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a> &gt; volbounds)</td></tr>
 <tr class="memdesc:a545e9e249d401a0dbfbe7598be4cea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set volume bounds and update volume bounding boxes implicitly.  <br /></td></tr>
-<tr class="memitem:ae3417c821f73a46f2a963f2f4286f697" id="r_ae3417c821f73a46f2a963f2f4286f697"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2dc575b3470c5cab3448c8557a8793b">BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3417c821f73a46f2a963f2f4286f697">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;envelope={0, 0, 0}) const</td></tr>
-<tr class="memdesc:ae3417c821f73a46f2a963f2f4286f697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
+<tr class="memitem:a33d62acd896274418a8eced47a826f63" id="r_a33d62acd896274418a8eced47a826f63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af2dc575b3470c5cab3448c8557a8793b">BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d62acd896274418a8eced47a826f63">boundingBox</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;envelope=Vector3::Zero()) const</td></tr>
+<tr class="memdesc:a33d62acd896274418a8eced47a826f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:a96961e85bc19fb58d674f3c85cec3d7a" id="r_a96961e85bc19fb58d674f3c85cec3d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96961e85bc19fb58d674f3c85cec3d7a">center</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
 <tr class="memdesc:a96961e85bc19fb58d674f3c85cec3d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center position of the volume.  <br /></td></tr>
 <tr class="memitem:aafaef8d9e7e1f9e207b5ad484e1e5bf3" id="r_aafaef8d9e7e1f9e207b5ad484e1e5bf3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafaef8d9e7e1f9e207b5ad484e1e5bf3">globalToLocalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
@@ -377,8 +377,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae3417c821f73a46f2a963f2f4286f697" name="ae3417c821f73a46f2a963f2f4286f697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3417c821f73a46f2a963f2f4286f697">&#9670;&#160;</a></span>boundingBox()</h2>
+<a id="a33d62acd896274418a8eced47a826f63" name="a33d62acd896274418a8eced47a826f63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d62acd896274418a8eced47a826f63">&#9670;&#160;</a></span>boundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,8 +386,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="#af2dc575b3470c5cab3448c8557a8793b">BoundingBox</a> Acts::Volume::boundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{0,&#160;0,&#160;0}</span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3::Zero()</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -396,6 +400,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">envelope</td><td>Optional envelope to add / subtract from min/max </td></tr>
+    <tr><td class="paramname">gctx</td><td>The current geometry context object, e.g. alignment </td></tr>
   </table>
   </dd>
 </dl>

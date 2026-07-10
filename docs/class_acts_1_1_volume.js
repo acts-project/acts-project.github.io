@@ -5,7 +5,7 @@ var class_acts_1_1_volume =
     [ "Volume", "class_acts_1_1_volume.html#a9a52594c472982ab84363bdd6810fcba", null ],
     [ "Volume", "class_acts_1_1_volume.html#a324f287fb7c1d1cb3d19545a1733dd81", null ],
     [ "assignVolumeBounds", "class_acts_1_1_volume.html#a545e9e249d401a0dbfbe7598be4cea53", null ],
-    [ "boundingBox", "class_acts_1_1_volume.html#ae3417c821f73a46f2a963f2f4286f697", null ],
+    [ "boundingBox", "class_acts_1_1_volume.html#a33d62acd896274418a8eced47a826f63", null ],
     [ "center", "class_acts_1_1_volume.html#a96961e85bc19fb58d674f3c85cec3d7a", null ],
     [ "globalToLocalTransform", "class_acts_1_1_volume.html#aafaef8d9e7e1f9e207b5ad484e1e5bf3", null ],
     [ "inside", "class_acts_1_1_volume.html#a0802ecdf500e3d9d38f64c5f0a27117a", null ],
