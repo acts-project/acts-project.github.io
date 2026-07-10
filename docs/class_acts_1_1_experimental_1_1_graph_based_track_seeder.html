@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_graph_based_track_seed
 <p>Seed finder implementing the GBTS seeding workflow.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_graph_based_track_seeder_8hpp_source.html">Acts/Seeding2/GraphBasedTrackSeeder.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_graph_based_track_seeder_8hpp_source.html">Acts/Seeding/GraphBasedTrackSeeder.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -149,12 +149,12 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a77edb5b6f5d1db8e8f6d355424616fc4" id="r_a77edb5b6f5d1db8e8f6d355424616fc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77edb5b6f5d1db8e8f6d355424616fc4">GraphBasedTrackSeeder</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html">DerivedConfig</a> &amp;config, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;Finder&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::Level::INFO</a>))</td></tr>
-<tr class="memitem:a78bdf7e9f7bda5abe236361352e2e26d" id="r_a78bdf7e9f7bda5abe236361352e2e26d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78bdf7e9f7bda5abe236361352e2e26d">createNodes</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, std::uint32_t maxLayers) const</td></tr>
-<tr class="memdesc:a78bdf7e9f7bda5abe236361352e2e26d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create graph nodes from space points.  <br /></td></tr>
-<tr class="memitem:ac4e88eae0d624a411b469fe34a4c5817" id="r_ac4e88eae0d624a411b469fe34a4c5817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4e88eae0d624a411b469fe34a4c5817">createSeeds</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, const std::vector&lt; bool &gt; &amp;isPixelLayer, std::uint32_t maxLayers, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;filter, const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a> &amp;options, <a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> &amp;outputSeeds) const</td></tr>
-<tr class="memdesc:ac4e88eae0d624a411b469fe34a4c5817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
-<tr class="memitem:a9d1d6cd9642c8caa7ed0b797ae55fb8c" id="r_a9d1d6cd9642c8caa7ed0b797ae55fb8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1d6cd9642c8caa7ed0b797ae55fb8c">createSeeds</a> (const std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt; &amp;nodesPerLayer, const std::vector&lt; bool &gt; &amp;isPixelLayer, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;filter, const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a> &amp;options, <a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> &amp;outputSeeds) const</td></tr>
-<tr class="memdesc:a9d1d6cd9642c8caa7ed0b797ae55fb8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
+<tr class="memitem:a581b3370bc119080a66e785c1a8fd035" id="r_a581b3370bc119080a66e785c1a8fd035"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a581b3370bc119080a66e785c1a8fd035">createNodes</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints, std::uint32_t maxLayers) const</td></tr>
+<tr class="memdesc:a581b3370bc119080a66e785c1a8fd035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create graph nodes from space points.  <br /></td></tr>
+<tr class="memitem:a9d381b4faadeb3fbda2dd0fbc5f28993" id="r_a9d381b4faadeb3fbda2dd0fbc5f28993"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d381b4faadeb3fbda2dd0fbc5f28993">createSeeds</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, const std::vector&lt; bool &gt; &amp;isPixelLayer, std::uint32_t maxLayers, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;filter, const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a> &amp;options, <a class="el" href="class_acts_1_1_seed_container.html">SeedContainer</a> &amp;outputSeeds) const</td></tr>
+<tr class="memdesc:a9d381b4faadeb3fbda2dd0fbc5f28993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
+<tr class="memitem:a2a22155d0fd6748e90e28e9b12926984" id="r_a2a22155d0fd6748e90e28e9b12926984"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a22155d0fd6748e90e28e9b12926984">createSeeds</a> (const std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt; &amp;nodesPerLayer, const std::vector&lt; bool &gt; &amp;isPixelLayer, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a> &amp;roi, const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a> &amp;filter, const <a class="el" href="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_options.html">Options</a> &amp;options, <a class="el" href="class_acts_1_1_seed_container.html">SeedContainer</a> &amp;outputSeeds) const</td></tr>
+<tr class="memdesc:a2a22155d0fd6748e90e28e9b12926984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seeds from space points in a region of interest.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Seed finder implementing the GBTS seeding workflow. </p>
@@ -194,8 +194,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a78bdf7e9f7bda5abe236361352e2e26d" name="a78bdf7e9f7bda5abe236361352e2e26d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78bdf7e9f7bda5abe236361352e2e26d">&#9670;&#160;</a></span>createNodes()</h2>
+<a id="a581b3370bc119080a66e785c1a8fd035" name="a581b3370bc119080a66e785c1a8fd035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581b3370bc119080a66e785c1a8fd035">&#9670;&#160;</a></span>createNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +203,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::vector&lt; std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; &gt; Acts::Experimental::GraphBasedTrackSeeder::createNodes </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -225,8 +225,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4e88eae0d624a411b469fe34a4c5817" name="ac4e88eae0d624a411b469fe34a4c5817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4e88eae0d624a411b469fe34a4c5817">&#9670;&#160;</a></span>createSeeds() <span class="overload">[1/2]</span></h2>
+<a id="a9d381b4faadeb3fbda2dd0fbc5f28993" name="a9d381b4faadeb3fbda2dd0fbc5f28993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d381b4faadeb3fbda2dd0fbc5f28993">&#9670;&#160;</a></span>createSeeds() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +234,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::Experimental::GraphBasedTrackSeeder::createSeeds </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -264,7 +264,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputSeeds</em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_seed_container.html">SeedContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputSeeds</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,8 +285,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9d1d6cd9642c8caa7ed0b797ae55fb8c" name="a9d1d6cd9642c8caa7ed0b797ae55fb8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d1d6cd9642c8caa7ed0b797ae55fb8c">&#9670;&#160;</a></span>createSeeds() <span class="overload">[2/2]</span></h2>
+<a id="a2a22155d0fd6748e90e28e9b12926984" name="a2a22155d0fd6748e90e28e9b12926984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a22155d0fd6748e90e28e9b12926984">&#9670;&#160;</a></span>createSeeds() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +319,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputSeeds</em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_seed_container.html">SeedContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputSeeds</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

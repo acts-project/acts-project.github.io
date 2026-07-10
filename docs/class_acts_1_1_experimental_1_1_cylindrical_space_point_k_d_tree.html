@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_cylindrical_space_poin
 <p>A cylindrical space point KD-tree used for seeding in a cylindrical detector geometry.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_cylindrical_space_point_k_d_tree_8hpp_source.html">Acts/Seeding2/CylindricalSpacePointKDTree.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_cylindrical_space_point_k_d_tree_8hpp_source.html">Acts/Seeding/CylindricalSpacePointKDTree.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -162,12 +162,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a00456439d8ef0d27f2a538e5be467841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return iterator to the end of the tree.  <br /></td></tr>
 <tr class="memitem:a925fc8b7e976cacc29cb879fdb2dea57" id="r_a925fc8b7e976cacc29cb879fdb2dea57"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a925fc8b7e976cacc29cb879fdb2dea57">size</a> () const</td></tr>
 <tr class="memdesc:a925fc8b7e976cacc29cb879fdb2dea57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of space points in the tree.  <br /></td></tr>
-<tr class="memitem:a9e378eb19d9e641b7cd512da40829a4c" id="r_a9e378eb19d9e641b7cd512da40829a4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905">Tree::range_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e378eb19d9e641b7cd512da40829a4c">validTupleOrthoRangeHL</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;options, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;high) const</td></tr>
-<tr class="memdesc:a9e378eb19d9e641b7cd512da40829a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get valid orthogonal range for high-low pairs.  <br /></td></tr>
-<tr class="memitem:ac97a39922ae582495c7562141301496c" id="r_ac97a39922ae582495c7562141301496c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905">Tree::range_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97a39922ae582495c7562141301496c">validTupleOrthoRangeLH</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;options, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;low) const</td></tr>
-<tr class="memdesc:ac97a39922ae582495c7562141301496c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get valid orthogonal range for low-high pairs.  <br /></td></tr>
-<tr class="memitem:a9fb7b7420241d6fa9ccc21bc5496e57d" id="r_a9fb7b7420241d6fa9ccc21bc5496e57d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fb7b7420241d6fa9ccc21bc5496e57d">validTuples</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;lhOptions, const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;hlOptions, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;spM, std::size_t nTopSeedConf, <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html">Candidates</a> &amp;candidates) const</td></tr>
-<tr class="memdesc:a9fb7b7420241d6fa9ccc21bc5496e57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find valid seed tuples.  <br /></td></tr>
+<tr class="memitem:ae95596c35ef586f1bf92f2af356f6304" id="r_ae95596c35ef586f1bf92f2af356f6304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905">Tree::range_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95596c35ef586f1bf92f2af356f6304">validTupleOrthoRangeHL</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;options, const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;high) const</td></tr>
+<tr class="memdesc:ae95596c35ef586f1bf92f2af356f6304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get valid orthogonal range for high-low pairs.  <br /></td></tr>
+<tr class="memitem:a5fa2defddce2584976777fe7296729ab" id="r_a5fa2defddce2584976777fe7296729ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_k_d_tree.html#a2d219773a7e6cc44d411b58ce59b8905">Tree::range_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fa2defddce2584976777fe7296729ab">validTupleOrthoRangeLH</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;options, const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;low) const</td></tr>
+<tr class="memdesc:a5fa2defddce2584976777fe7296729ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get valid orthogonal range for low-high pairs.  <br /></td></tr>
+<tr class="memitem:abb03c8df9836c989e0a5d84605cbd765" id="r_abb03c8df9836c989e0a5d84605cbd765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb03c8df9836c989e0a5d84605cbd765">validTuples</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;lhOptions, const <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html">Options</a> &amp;hlOptions, const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;spM, std::size_t nTopSeedConf, <a class="el" href="struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_candidates.html">Candidates</a> &amp;candidates) const</td></tr>
+<tr class="memdesc:abb03c8df9836c989e0a5d84605cbd765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find valid seed tuples.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -277,8 +277,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9e378eb19d9e641b7cd512da40829a4c" name="a9e378eb19d9e641b7cd512da40829a4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e378eb19d9e641b7cd512da40829a4c">&#9670;&#160;</a></span>validTupleOrthoRangeHL()</h2>
+<a id="ae95596c35ef586f1bf92f2af356f6304" name="ae95596c35ef586f1bf92f2af356f6304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae95596c35ef586f1bf92f2af356f6304">&#9670;&#160;</a></span>validTupleOrthoRangeHL()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>high</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>high</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,8 +308,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac97a39922ae582495c7562141301496c" name="ac97a39922ae582495c7562141301496c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac97a39922ae582495c7562141301496c">&#9670;&#160;</a></span>validTupleOrthoRangeLH()</h2>
+<a id="a5fa2defddce2584976777fe7296729ab" name="a5fa2defddce2584976777fe7296729ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa2defddce2584976777fe7296729ab">&#9670;&#160;</a></span>validTupleOrthoRangeLH()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +322,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>low</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>low</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,8 +339,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9fb7b7420241d6fa9ccc21bc5496e57d" name="a9fb7b7420241d6fa9ccc21bc5496e57d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fb7b7420241d6fa9ccc21bc5496e57d">&#9670;&#160;</a></span>validTuples()</h2>
+<a id="abb03c8df9836c989e0a5d84605cbd765" name="abb03c8df9836c989e0a5d84605cbd765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb03c8df9836c989e0a5d84605cbd765">&#9670;&#160;</a></span>validTuples()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +358,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

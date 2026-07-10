@@ -15,13 +15,13 @@ var class_acts_1_1_cartesian_space_point_grid =
     [ "binIndex", "class_acts_1_1_cartesian_space_point_grid.html#a9da34f9c43cbe7a354953479c6f5566f", null ],
     [ "binnedGroup", "class_acts_1_1_cartesian_space_point_grid.html#a52f3b24a802bdecf9bbe51579dbb48e5", null ],
     [ "clear", "class_acts_1_1_cartesian_space_point_grid.html#a511ed7520e0861f52592df8e8f324b85", null ],
-    [ "computeCoordRange", "class_acts_1_1_cartesian_space_point_grid.html#aee9d517c9ff6374dfdcfb33017eaaf65", null ],
-    [ "extend", "class_acts_1_1_cartesian_space_point_grid.html#a3db4e51c1f399ffd48a78f6bdd029588", null ],
+    [ "computeCoordRange", "class_acts_1_1_cartesian_space_point_grid.html#a2379bfefb120c103f2dac5e702558aab", null ],
+    [ "extend", "class_acts_1_1_cartesian_space_point_grid.html#a5342478ef78afc589f66076c2832ab77", null ],
     [ "grid", "class_acts_1_1_cartesian_space_point_grid.html#a852f2224581e8686fdb1dd675be4b6a8", null ],
     [ "grid", "class_acts_1_1_cartesian_space_point_grid.html#a96c1dd92eb9459aff9ca7a77c41fcb59", null ],
-    [ "insert", "class_acts_1_1_cartesian_space_point_grid.html#a9923757b9ffb1cf5ffb5d01bd9d9c582", null ],
+    [ "insert", "class_acts_1_1_cartesian_space_point_grid.html#a2cdf9789800c5048771448c1c62c2997", null ],
     [ "insert", "class_acts_1_1_cartesian_space_point_grid.html#ae65ac3f89bc8cc3a312062ed40afd7ef", null ],
     [ "numberOfBins", "class_acts_1_1_cartesian_space_point_grid.html#ad1e4f6d33075cc280645142f5883b351", null ],
     [ "numberOfSpacePoints", "class_acts_1_1_cartesian_space_point_grid.html#a506f7bd39cd2541e8ef3c6e10e94416c", null ],
-    [ "sortBinsByCoord", "class_acts_1_1_cartesian_space_point_grid.html#a8f0c75b0c9a8b707aa4299e60bcd6075", null ]
+    [ "sortBinsByCoord", "class_acts_1_1_cartesian_space_point_grid.html#a1b25d264aea0097aa5448af2a84d7b52", null ]
 ];

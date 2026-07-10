@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ACTS: Acts::SpacePointContainer&lt; container_t, holder_t &gt; Class Template Reference</title>
+<title>ACTS: Acts::SpacePointContainer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -122,252 +122,345 @@ $(function(){initNavTree('class_acts_1_1_space_point_container.html','','class_a
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::SpacePointContainer&lt; container_t, holder_t &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::SpacePointContainer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Container wrapper providing space point proxy access.  
+<p>A container for space points, which can hold additional columns of data and allows for efficient access to space points and their associated source links.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_space_point_container_8hpp_source.html">Acts/EventData/SpacePointContainer.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Range" id="r_Range"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_space_point_container_1_1_range.html">Range</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range facade over contiguous index spans.  <a href="class_acts_1_1_space_point_container_1_1_range.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Subset" id="r_Subset"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_space_point_container_1_1_subset.html">Subset</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subset facade over arbitrary index sets.  <a href="class_acts_1_1_space_point_container_1_1_subset.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab547d2391ebdc78e43b37bd24eb72ef1" id="r_ab547d2391ebdc78e43b37bd24eb72ef1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a></td></tr>
-<tr class="memdesc:ab547d2391ebdc78e43b37bd24eb72ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const iterator type.  <br /></td></tr>
-<tr class="memitem:a330d697b7004f761e88da56964b54e9d" id="r_a330d697b7004f761e88da56964b54e9d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a></td></tr>
-<tr class="memdesc:a330d697b7004f761e88da56964b54e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator type.  <br /></td></tr>
-<tr class="memitem:a601304f8c05c12fc1dcd2c624593e62b" id="r_a601304f8c05c12fc1dcd2c624593e62b"><td class="memItemLeft" align="right" valign="top"><a id="a601304f8c05c12fc1dcd2c624593e62b" name="a601304f8c05c12fc1dcd2c624593e62b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyType</b> = <a class="el" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a></td></tr>
-<tr class="memdesc:a601304f8c05c12fc1dcd2c624593e62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy type. <br /></td></tr>
-<tr class="memitem:aa499df4d25f3eaa7bee788413155e8a0" id="r_aa499df4d25f3eaa7bee788413155e8a0"><td class="memItemLeft" align="right" valign="top"><a id="aa499df4d25f3eaa7bee788413155e8a0" name="aa499df4d25f3eaa7bee788413155e8a0"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>size_type</b> = std::size_t</td></tr>
-<tr class="memdesc:aa499df4d25f3eaa7bee788413155e8a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size type. <br /></td></tr>
-<tr class="memitem:a14ca5f5c89b1e7d27134418ca3648588" id="r_a14ca5f5c89b1e7d27134418ca3648588"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a></td></tr>
-<tr class="memdesc:a14ca5f5c89b1e7d27134418ca3648588"><td class="mdescLeft">&#160;</td><td class="mdescRight">space point proxy type  <br /></td></tr>
-<tr class="memitem:ae870f374eb0bd99566cf84f150d4b960" id="r_ae870f374eb0bd99566cf84f150d4b960"><td class="memItemLeft" align="right" valign="top"><a id="ae870f374eb0bd99566cf84f150d4b960" name="ae870f374eb0bd99566cf84f150d4b960"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a></td></tr>
-<tr class="memdesc:ae870f374eb0bd99566cf84f150d4b960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type. <br /></td></tr>
-<tr class="memitem:ae480afbe7a3c49e2515923fa32933740" id="r_ae480afbe7a3c49e2515923fa32933740"><td class="memItemLeft" align="right" valign="top"><a id="ae480afbe7a3c49e2515923fa32933740" name="ae480afbe7a3c49e2515923fa32933740"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>ValueType</b> = typename container_t::ValueType</td></tr>
-<tr class="memdesc:ae480afbe7a3c49e2515923fa32933740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type of the underlying container. <br /></td></tr>
+<tr class="memitem:a61fb3af7dcca86a0871a533561179f08" id="r_a61fb3af7dcca86a0871a533561179f08"><td class="memItemLeft" align="right" valign="top"><a id="a61fb3af7dcca86a0871a533561179f08" name="a61fb3af7dcca86a0871a533561179f08"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_iterator</b> = <a class="el" href="#a09f01c29c452f3dd85e842e84f66d29f">Iterator</a>&lt;true&gt;</td></tr>
+<tr class="memdesc:a61fb3af7dcca86a0871a533561179f08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const iterator over space points. <br /></td></tr>
+<tr class="memitem:a9de5acc6652e9f83c60cd0c08c53b779" id="r_a9de5acc6652e9f83c60cd0c08c53b779"><td class="memTemplParams" colspan="2"><a id="a9de5acc6652e9f83c60cd0c08c53b779" name="a9de5acc6652e9f83c60cd0c08c53b779"></a>
+template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a9de5acc6652e9f83c60cd0c08c53b779 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstColumnProxy</b> = <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt;T&gt;</td></tr>
+<tr class="memdesc:a9de5acc6652e9f83c60cd0c08c53b779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const column proxy. <br /></td></tr>
+<tr class="memitem:ae1bde72f9afcb369cb76bf665bacc34a" id="r_ae1bde72f9afcb369cb76bf665bacc34a"><td class="memItemLeft" align="right" valign="top"><a id="ae1bde72f9afcb369cb76bf665bacc34a" name="ae1bde72f9afcb369cb76bf665bacc34a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstProxy</b> = <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a></td></tr>
+<tr class="memdesc:ae1bde72f9afcb369cb76bf665bacc34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const space point proxy. <br /></td></tr>
+<tr class="memitem:a21b656f41ff5458b961350dcad0f122a" id="r_a21b656f41ff5458b961350dcad0f122a"><td class="memItemLeft" align="right" valign="top"><a id="a21b656f41ff5458b961350dcad0f122a" name="a21b656f41ff5458b961350dcad0f122a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstRange</b> = <a class="el" href="class_acts_1_1_space_point_container_1_1_range.html">Range</a>&lt;true&gt;</td></tr>
+<tr class="memdesc:a21b656f41ff5458b961350dcad0f122a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const range of space points. <br /></td></tr>
+<tr class="memitem:a55c6e3fb83a21d16f9e56110eef765ad" id="r_a55c6e3fb83a21d16f9e56110eef765ad"><td class="memItemLeft" align="right" valign="top"><a id="a55c6e3fb83a21d16f9e56110eef765ad" name="a55c6e3fb83a21d16f9e56110eef765ad"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstSubset</b> = <a class="el" href="class_acts_1_1_space_point_container_1_1_subset.html">Subset</a>&lt;true&gt;</td></tr>
+<tr class="memdesc:a55c6e3fb83a21d16f9e56110eef765ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const subset of space points. <br /></td></tr>
+<tr class="memitem:acd351d5b95b0b7e1a600c54bdf4f5259" id="r_acd351d5b95b0b7e1a600c54bdf4f5259"><td class="memItemLeft" align="right" valign="top"><a id="acd351d5b95b0b7e1a600c54bdf4f5259" name="acd351d5b95b0b7e1a600c54bdf4f5259"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Index</b> = <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a></td></tr>
+<tr class="memdesc:acd351d5b95b0b7e1a600c54bdf4f5259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for space point index in container. <br /></td></tr>
+<tr class="memitem:aa8f70bb5923031eaa8f38daf00d1021f" id="r_aa8f70bb5923031eaa8f38daf00d1021f"><td class="memItemLeft" align="right" valign="top"><a id="aa8f70bb5923031eaa8f38daf00d1021f" name="aa8f70bb5923031eaa8f38daf00d1021f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexRange</b> = <a class="el" href="namespace_acts.html#a2ebcbf8d2c4f62969bb21447f1368758">SpacePointIndexRange</a></td></tr>
+<tr class="memdesc:aa8f70bb5923031eaa8f38daf00d1021f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for range of space point indices. <br /></td></tr>
+<tr class="memitem:a00080723c6a8442626cde7a661cbe0b3" id="r_a00080723c6a8442626cde7a661cbe0b3"><td class="memItemLeft" align="right" valign="top"><a id="a00080723c6a8442626cde7a661cbe0b3" name="a00080723c6a8442626cde7a661cbe0b3"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexSubset</b> = <a class="el" href="namespace_acts.html#ae05a661aa27b3739dddc58b701107043">SpacePointIndexSubset</a></td></tr>
+<tr class="memdesc:a00080723c6a8442626cde7a661cbe0b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for subset of space point indices. <br /></td></tr>
+<tr class="memitem:a09f01c29c452f3dd85e842e84f66d29f" id="r_a09f01c29c452f3dd85e842e84f66d29f"><td class="memTemplParams" colspan="2">template&lt;bool read_only&gt; </td></tr>
+<tr class="memitem:a09f01c29c452f3dd85e842e84f66d29f template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09f01c29c452f3dd85e842e84f66d29f">Iterator</a></td></tr>
+<tr class="memdesc:a09f01c29c452f3dd85e842e84f66d29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for template iterator over space points in container.  <br /></td></tr>
+<tr class="memitem:a5579089a2c83ae0d17edf7beb9c46458" id="r_a5579089a2c83ae0d17edf7beb9c46458"><td class="memItemLeft" align="right" valign="top"><a id="a5579089a2c83ae0d17edf7beb9c46458" name="a5579089a2c83ae0d17edf7beb9c46458"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> = <a class="el" href="#a09f01c29c452f3dd85e842e84f66d29f">Iterator</a>&lt;false&gt;</td></tr>
+<tr class="memdesc:a5579089a2c83ae0d17edf7beb9c46458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable iterator over space points. <br /></td></tr>
+<tr class="memitem:a9055e65f91b338971d1252475998f315" id="r_a9055e65f91b338971d1252475998f315"><td class="memTemplParams" colspan="2"><a id="a9055e65f91b338971d1252475998f315" name="a9055e65f91b338971d1252475998f315"></a>
+template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a9055e65f91b338971d1252475998f315 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableColumnProxy</b> = <a class="el" href="namespace_acts.html#ae99c57a7ceaaba03e0f89b978851f98c">MutableSpacePointColumnProxy</a>&lt;T&gt;</td></tr>
+<tr class="memdesc:a9055e65f91b338971d1252475998f315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable column proxy. <br /></td></tr>
+<tr class="memitem:aec0c2f0cab4d4682ac4299da3caed38d" id="r_aec0c2f0cab4d4682ac4299da3caed38d"><td class="memItemLeft" align="right" valign="top"><a id="aec0c2f0cab4d4682ac4299da3caed38d" name="aec0c2f0cab4d4682ac4299da3caed38d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableProxy</b> = <a class="el" href="namespace_acts.html#a6c1d412bb8bda7a8080ef4b2c8a7067d">MutableSpacePointProxy</a></td></tr>
+<tr class="memdesc:aec0c2f0cab4d4682ac4299da3caed38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable space point proxy. <br /></td></tr>
+<tr class="memitem:a979a3815e03f2dbeb977421fb720f7d2" id="r_a979a3815e03f2dbeb977421fb720f7d2"><td class="memItemLeft" align="right" valign="top"><a id="a979a3815e03f2dbeb977421fb720f7d2" name="a979a3815e03f2dbeb977421fb720f7d2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableRange</b> = <a class="el" href="class_acts_1_1_space_point_container_1_1_range.html">Range</a>&lt;false&gt;</td></tr>
+<tr class="memdesc:a979a3815e03f2dbeb977421fb720f7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable range of space points. <br /></td></tr>
+<tr class="memitem:a6e0241c2671658034c847c3f88b410d5" id="r_a6e0241c2671658034c847c3f88b410d5"><td class="memItemLeft" align="right" valign="top"><a id="a6e0241c2671658034c847c3f88b410d5" name="a6e0241c2671658034c847c3f88b410d5"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>MutableSubset</b> = <a class="el" href="class_acts_1_1_space_point_container_1_1_subset.html">Subset</a>&lt;false&gt;</td></tr>
+<tr class="memdesc:a6e0241c2671658034c847c3f88b410d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable subset of space points. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3f8ac33e82a5c61340f1494f73bbb787" id="r_a3f8ac33e82a5c61340f1494f73bbb787"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enable_if_t&lt;Acts::detail::is_same_template&lt;                H, Acts::detail::RefHolder&gt;::value&gt;&gt; </td></tr>
-<tr class="memitem:a3f8ac33e82a5c61340f1494f73bbb787 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> (const <a class="el" href="struct_acts_1_1_space_point_container_config.html">Acts::SpacePointContainerConfig</a> &amp;config, const <a class="el" href="struct_acts_1_1_space_point_container_options.html">Acts::SpacePointContainerOptions</a> &amp;options, const container_t &amp;container)</td></tr>
-<tr class="memdesc:a3f8ac33e82a5c61340f1494f73bbb787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from config, options, and container reference.  <br /></td></tr>
-<tr class="memitem:afaf68e4316d6757f28fa6307d372c8e7" id="r_afaf68e4316d6757f28fa6307d372c8e7"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enable_if_t&lt;Acts::detail::is_same_template&lt;                H, Acts::detail::ValueHolder&gt;::value&gt;&gt; </td></tr>
-<tr class="memitem:afaf68e4316d6757f28fa6307d372c8e7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf68e4316d6757f28fa6307d372c8e7">SpacePointContainer</a> (const <a class="el" href="struct_acts_1_1_space_point_container_config.html">Acts::SpacePointContainerConfig</a> &amp;config, const <a class="el" href="struct_acts_1_1_space_point_container_options.html">Acts::SpacePointContainerOptions</a> &amp;options, container_t &amp;&amp;container)</td></tr>
-<tr class="memdesc:afaf68e4316d6757f28fa6307d372c8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from config, options, and container by moving ownership.  <br /></td></tr>
-<tr class="memitem:a54b9fd288852442de4bd99b8fe8f2583" id="r_a54b9fd288852442de4bd99b8fe8f2583"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54b9fd288852442de4bd99b8fe8f2583">SpacePointContainer</a> (SpacePointContainer &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a54b9fd288852442de4bd99b8fe8f2583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
-<tr class="memitem:a08aafdc4ef2012f3745c19680590a643" id="r_a08aafdc4ef2012f3745c19680590a643"><td class="memItemLeft" align="right" valign="top"><a id="a08aafdc4ef2012f3745c19680590a643" name="a08aafdc4ef2012f3745c19680590a643"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SpacePointContainer</b> (SpacePointContainer &amp;other)=delete</td></tr>
-<tr class="memitem:a1c00d298305570f12751ddc0b473cd93" id="r_a1c00d298305570f12751ddc0b473cd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c00d298305570f12751ddc0b473cd93">at</a> (const std::size_t n)</td></tr>
-<tr class="memdesc:a1c00d298305570f12751ddc0b473cd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access space point proxy at index n.  <br /></td></tr>
-<tr class="memitem:a6033c4781f692fa4eb3670bb7fd58385" id="r_a6033c4781f692fa4eb3670bb7fd58385"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6033c4781f692fa4eb3670bb7fd58385">at</a> (const std::size_t n) const</td></tr>
-<tr class="memdesc:a6033c4781f692fa4eb3670bb7fd58385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access const space point proxy at index n.  <br /></td></tr>
-<tr class="memitem:abd5324538f64cf028b230dd7a60e9239" id="r_abd5324538f64cf028b230dd7a60e9239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd5324538f64cf028b230dd7a60e9239">begin</a> ()</td></tr>
-<tr class="memdesc:abd5324538f64cf028b230dd7a60e9239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the beginning.  <br /></td></tr>
-<tr class="memitem:a510b4a33f8d39d2ae497cccdd224d737" id="r_a510b4a33f8d39d2ae497cccdd224d737"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a510b4a33f8d39d2ae497cccdd224d737">begin</a> () const</td></tr>
-<tr class="memdesc:a510b4a33f8d39d2ae497cccdd224d737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the beginning.  <br /></td></tr>
-<tr class="memitem:aa56db660fd867378aa3cc273a347628b" id="r_aa56db660fd867378aa3cc273a347628b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa56db660fd867378aa3cc273a347628b">cbegin</a> () const</td></tr>
-<tr class="memdesc:aa56db660fd867378aa3cc273a347628b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the beginning.  <br /></td></tr>
-<tr class="memitem:a6d078ae554b14022f84bb53491202a9b" id="r_a6d078ae554b14022f84bb53491202a9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d078ae554b14022f84bb53491202a9b">cend</a> () const</td></tr>
-<tr class="memdesc:a6d078ae554b14022f84bb53491202a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the end.  <br /></td></tr>
-<tr class="memitem:a16eb3a59bc2994f5512f3880e9c1a487" id="r_a16eb3a59bc2994f5512f3880e9c1a487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16eb3a59bc2994f5512f3880e9c1a487">end</a> ()</td></tr>
-<tr class="memdesc:a16eb3a59bc2994f5512f3880e9c1a487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the end.  <br /></td></tr>
-<tr class="memitem:a68eefb9583ca1a680290df85de16a7d5" id="r_a68eefb9583ca1a680290df85de16a7d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68eefb9583ca1a680290df85de16a7d5">end</a> () const</td></tr>
-<tr class="memdesc:a68eefb9583ca1a680290df85de16a7d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const iterator to the end.  <br /></td></tr>
-<tr class="memitem:a14f5edee1d2ee3a7bc1d2c66c6f5f777" id="r_a14f5edee1d2ee3a7bc1d2c66c6f5f777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14f5edee1d2ee3a7bc1d2c66c6f5f777">operator=</a> (<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a14f5edee1d2ee3a7bc1d2c66c6f5f777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
-<tr class="memitem:ad8684aa273accc7da896e8d8e4edc952" id="r_ad8684aa273accc7da896e8d8e4edc952"><td class="memItemLeft" align="right" valign="top"><a id="ad8684aa273accc7da896e8d8e4edc952" name="ad8684aa273accc7da896e8d8e4edc952"></a>
-<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp;other)=delete</td></tr>
-<tr class="memitem:a88a7830fc5828f118f67b2caf5015e21" id="r_a88a7830fc5828f118f67b2caf5015e21"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a7830fc5828f118f67b2caf5015e21">size</a> () const</td></tr>
-<tr class="memdesc:a88a7830fc5828f118f67b2caf5015e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of space points.  <br /></td></tr>
-<tr class="memitem:a3eb47a4cea0bba0d085e03c47de82343" id="r_a3eb47a4cea0bba0d085e03c47de82343"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ae480afbe7a3c49e2515923fa32933740">ValueType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb47a4cea0bba0d085e03c47de82343">sp</a> (const std::size_t n) const</td></tr>
-<tr class="memdesc:a3eb47a4cea0bba0d085e03c47de82343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access underlying space point value at index n.  <br /></td></tr>
+<tr class="memitem:aca121ef891e5d6afa33741e5344b3d98" id="r_aca121ef891e5d6afa33741e5344b3d98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca121ef891e5d6afa33741e5344b3d98">SpacePointContainer</a> (const SpacePointContainer &amp;other) noexcept</td></tr>
+<tr class="memdesc:aca121ef891e5d6afa33741e5344b3d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a copy of the given space point container.  <br /></td></tr>
+<tr class="memitem:a011cca2b0d0a73a243ad68f0d8056696" id="r_a011cca2b0d0a73a243ad68f0d8056696"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> (<a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columns=<a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754">SpacePointColumns::None</a>) noexcept</td></tr>
+<tr class="memdesc:a011cca2b0d0a73a243ad68f0d8056696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs and empty space point container.  <br /></td></tr>
+<tr class="memitem:ac9d2b16f62ae70b7a12f63204373f8e6" id="r_ac9d2b16f62ae70b7a12f63204373f8e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9d2b16f62ae70b7a12f63204373f8e6">SpacePointContainer</a> (SpacePointContainer &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:ac9d2b16f62ae70b7a12f63204373f8e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructs a space point container.  <br /></td></tr>
+<tr class="memitem:acb7ab23d764ac4a966c9152f16eece7b" id="r_acb7ab23d764ac4a966c9152f16eece7b"><td class="memItemLeft" align="right" valign="top"><a id="acb7ab23d764ac4a966c9152f16eece7b" name="acb7ab23d764ac4a966c9152f16eece7b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~SpacePointContainer</b> () noexcept=default</td></tr>
+<tr class="memdesc:acb7ab23d764ac4a966c9152f16eece7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detructs the space point container. <br /></td></tr>
+<tr class="memitem:aaa2f843904a0c067b2f78c6a18773d7e" id="r_aaa2f843904a0c067b2f78c6a18773d7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0c2f0cab4d4682ac4299da3caed38d">MutableProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa2f843904a0c067b2f78c6a18773d7e">at</a> (<a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a> index)</td></tr>
+<tr class="memdesc:aaa2f843904a0c067b2f78c6a18773d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the space point at the given index.  <br /></td></tr>
+<tr class="memitem:ab9713410602848a26405bf61d404ba53" id="r_ab9713410602848a26405bf61d404ba53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae1bde72f9afcb369cb76bf665bacc34a">ConstProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9713410602848a26405bf61d404ba53">at</a> (<a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a> index) const</td></tr>
+<tr class="memdesc:ab9713410602848a26405bf61d404ba53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the space point at the given index.  <br /></td></tr>
+<tr class="memitem:a550301f8e7a01ac5a4cb505d97b0114d" id="r_a550301f8e7a01ac5a4cb505d97b0114d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a61fb3af7dcca86a0871a533561179f08">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550301f8e7a01ac5a4cb505d97b0114d">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:a550301f8e7a01ac5a4cb505d97b0114d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns const iterator to the beginning of the container.  <br /></td></tr>
+<tr class="memitem:a86d728cd16c737d5ed1af3fa22a5020e" id="r_a86d728cd16c737d5ed1af3fa22a5020e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5579089a2c83ae0d17edf7beb9c46458">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d728cd16c737d5ed1af3fa22a5020e">begin</a> () noexcept</td></tr>
+<tr class="memdesc:a86d728cd16c737d5ed1af3fa22a5020e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mutable iterator to the beginning of the container.  <br /></td></tr>
+<tr class="memitem:af7b6a3dbfd5bd5653044f18060ce9cd5" id="r_af7b6a3dbfd5bd5653044f18060ce9cd5"><td class="memItemLeft" align="right" valign="top"><a id="af7b6a3dbfd5bd5653044f18060ce9cd5" name="af7b6a3dbfd5bd5653044f18060ce9cd5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> () noexcept</td></tr>
+<tr class="memdesc:af7b6a3dbfd5bd5653044f18060ce9cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the container, removing all space points and columns. <br /></td></tr>
+<tr class="memitem:aa06312e74e33444c17d4731a1d744187" id="r_aa06312e74e33444c17d4731a1d744187"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:aa06312e74e33444c17d4731a1d744187 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa06312e74e33444c17d4731a1d744187">column</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:aa06312e74e33444c17d4731a1d744187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable reference to the column with the given name.  <br /></td></tr>
+<tr class="memitem:a352e6f77c3ee9689f3653280dedb227c" id="r_a352e6f77c3ee9689f3653280dedb227c"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a352e6f77c3ee9689f3653280dedb227c template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a352e6f77c3ee9689f3653280dedb227c">column</a> (const std::string &amp;name) const</td></tr>
+<tr class="memdesc:a352e6f77c3ee9689f3653280dedb227c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the column with the given name.  <br /></td></tr>
+<tr class="memitem:a967ed4046877e1c0c5d0123277d0bcb9" id="r_a967ed4046877e1c0c5d0123277d0bcb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a967ed4046877e1c0c5d0123277d0bcb9">copiedFromIndexColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a967ed4046877e1c0c5d0123277d0bcb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">copied from index</span> column.  <br /></td></tr>
+<tr class="memitem:a0b980fd14016b2bec791f35e6283fbaf" id="r_a0b980fd14016b2bec791f35e6283fbaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b980fd14016b2bec791f35e6283fbaf">copiedFromIndexColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a0b980fd14016b2bec791f35e6283fbaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">copied from index</span> column.  <br /></td></tr>
+<tr class="memitem:a5cbcd170ef8ca8bc07c354b06ab2858c" id="r_a5cbcd170ef8ca8bc07c354b06ab2858c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cbcd170ef8ca8bc07c354b06ab2858c">copyFrom</a> (<a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a> index, const <a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;otherContainer, <a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a> otherIndex, <a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columnsToCopy)</td></tr>
+<tr class="memdesc:a5cbcd170ef8ca8bc07c354b06ab2858c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the specified columns from another space point to this space point.  <br /></td></tr>
+<tr class="memitem:a66bcbde668a8717f009c3f0272209003" id="r_a66bcbde668a8717f009c3f0272209003"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a66bcbde668a8717f009c3f0272209003 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66bcbde668a8717f009c3f0272209003">createColumn</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a66bcbde668a8717f009c3f0272209003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new column with the given name.  <br /></td></tr>
+<tr class="memitem:ae478fbfb3d1299dd8aa0ad4aaef34fc9" id="r_ae478fbfb3d1299dd8aa0ad4aaef34fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae478fbfb3d1299dd8aa0ad4aaef34fc9">createColumns</a> (<a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columns) noexcept</td></tr>
+<tr class="memdesc:ae478fbfb3d1299dd8aa0ad4aaef34fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates additional columns.  <br /></td></tr>
+<tr class="memitem:a193f067fc1f7eb3fae26e0f471235877" id="r_a193f067fc1f7eb3fae26e0f471235877"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0c2f0cab4d4682ac4299da3caed38d">MutableProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a193f067fc1f7eb3fae26e0f471235877">createSpacePoint</a> () noexcept</td></tr>
+<tr class="memdesc:a193f067fc1f7eb3fae26e0f471235877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new space point at the end of the container.  <br /></td></tr>
+<tr class="memitem:a1e720dc2ef004d2130fb70b69b99c217" id="r_a1e720dc2ef004d2130fb70b69b99c217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e720dc2ef004d2130fb70b69b99c217">dropColumn</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a1e720dc2ef004d2130fb70b69b99c217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops the column with the given name.  <br /></td></tr>
+<tr class="memitem:a356e086ec9bd9e0134c575b4c2e0854d" id="r_a356e086ec9bd9e0134c575b4c2e0854d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a356e086ec9bd9e0134c575b4c2e0854d">dropColumns</a> (<a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columns) noexcept</td></tr>
+<tr class="memdesc:a356e086ec9bd9e0134c575b4c2e0854d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops the specified columns from the container.  <br /></td></tr>
+<tr class="memitem:a91b399dd329f4b46950555a79171f674" id="r_a91b399dd329f4b46950555a79171f674"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91b399dd329f4b46950555a79171f674">empty</a> () const noexcept</td></tr>
+<tr class="memdesc:a91b399dd329f4b46950555a79171f674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the container is empty.  <br /></td></tr>
+<tr class="memitem:a411544f2f36e9f25c55d4faed9c8efd2" id="r_a411544f2f36e9f25c55d4faed9c8efd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a61fb3af7dcca86a0871a533561179f08">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a411544f2f36e9f25c55d4faed9c8efd2">end</a> () const noexcept</td></tr>
+<tr class="memdesc:a411544f2f36e9f25c55d4faed9c8efd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns const iterator to the end of the container.  <br /></td></tr>
+<tr class="memitem:a0de7a53f16d600fd5aea594b649c00b0" id="r_a0de7a53f16d600fd5aea594b649c00b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5579089a2c83ae0d17edf7beb9c46458">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0de7a53f16d600fd5aea594b649c00b0">end</a> () noexcept</td></tr>
+<tr class="memdesc:a0de7a53f16d600fd5aea594b649c00b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mutable iterator to the end of the container.  <br /></td></tr>
+<tr class="memitem:ac90b52e4c88f5306420e01269b3d32ec" id="r_ac90b52e4c88f5306420e01269b3d32ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac90b52e4c88f5306420e01269b3d32ec">hasColumn</a> (const std::string &amp;name) const noexcept</td></tr>
+<tr class="memdesc:ac90b52e4c88f5306420e01269b3d32ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an Column with the given name exists.  <br /></td></tr>
+<tr class="memitem:a73da496a28c37ec705a361fed4bdd0cb" id="r_a73da496a28c37ec705a361fed4bdd0cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73da496a28c37ec705a361fed4bdd0cb">hasColumns</a> (<a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a> columns) const noexcept</td></tr>
+<tr class="memdesc:a73da496a28c37ec705a361fed4bdd0cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the container has the given Columns.  <br /></td></tr>
+<tr class="memitem:afb46e3aa819ac0bc30d9f1aaaed023e6" id="r_afb46e3aa819ac0bc30d9f1aaaed023e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb46e3aa819ac0bc30d9f1aaaed023e6">operator=</a> (const <a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;other) noexcept</td></tr>
+<tr class="memdesc:afb46e3aa819ac0bc30d9f1aaaed023e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator for copying a space point container.  <br /></td></tr>
+<tr class="memitem:a0361163eb9f4243753a2df9b328021ee" id="r_a0361163eb9f4243753a2df9b328021ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0361163eb9f4243753a2df9b328021ee">operator=</a> (<a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a0361163eb9f4243753a2df9b328021ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator for a space point container.  <br /></td></tr>
+<tr class="memitem:a010757b54101fd055215d8a044f35201" id="r_a010757b54101fd055215d8a044f35201"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae1bde72f9afcb369cb76bf665bacc34a">ConstProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a010757b54101fd055215d8a044f35201">operator[]</a> (<a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a> index) const noexcept</td></tr>
+<tr class="memdesc:a010757b54101fd055215d8a044f35201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the space point at the given index.  <br /></td></tr>
+<tr class="memitem:aa476e11c4c859f22dcde15eee271bc94" id="r_aa476e11c4c859f22dcde15eee271bc94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec0c2f0cab4d4682ac4299da3caed38d">MutableProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa476e11c4c859f22dcde15eee271bc94">operator[]</a> (<a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a> index) noexcept</td></tr>
+<tr class="memdesc:aa476e11c4c859f22dcde15eee271bc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the space point at the given index.  <br /></td></tr>
+<tr class="memitem:a0a045749daef030f1c1ad3f01a1c2c38" id="r_a0a045749daef030f1c1ad3f01a1c2c38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a045749daef030f1c1ad3f01a1c2c38">outerStripCalibrationDetailsColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a0a045749daef030f1c1ad3f01a1c2c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">outer strip calibration details</span> column.  <br /></td></tr>
+<tr class="memitem:a4bdb9609fa29505c3df57e6efd14f94a" id="r_a4bdb9609fa29505c3df57e6efd14f94a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdb9609fa29505c3df57e6efd14f94a">outerStripCalibrationDetailsColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a4bdb9609fa29505c3df57e6efd14f94a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">outer strip calibration details</span> column.  <br /></td></tr>
+<tr class="memitem:a0a10fd4dab5b6c4d2747467fef981141" id="r_a0a10fd4dab5b6c4d2747467fef981141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a10fd4dab5b6c4d2747467fef981141">phiColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a0a10fd4dab5b6c4d2747467fef981141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">phi</span> column.  <br /></td></tr>
+<tr class="memitem:adcb99645ac7fda5a91ffcc274f3c5b48" id="r_adcb99645ac7fda5a91ffcc274f3c5b48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb99645ac7fda5a91ffcc274f3c5b48">phiColumn</a> () noexcept</td></tr>
+<tr class="memdesc:adcb99645ac7fda5a91ffcc274f3c5b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">phi</span> column.  <br /></td></tr>
+<tr class="memitem:a58589a44995c0b454d5d570b114389ea" id="r_a58589a44995c0b454d5d570b114389ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a21b656f41ff5458b961350dcad0f122a">ConstRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58589a44995c0b454d5d570b114389ea">range</a> (const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;range) const noexcept</td></tr>
+<tr class="memdesc:a58589a44995c0b454d5d570b114389ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a range of space points from the given index range.  <br /></td></tr>
+<tr class="memitem:ab400a151f68c8ec9a9e8c497e68b917e" id="r_ab400a151f68c8ec9a9e8c497e68b917e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a979a3815e03f2dbeb977421fb720f7d2">MutableRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab400a151f68c8ec9a9e8c497e68b917e">range</a> (const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;range) noexcept</td></tr>
+<tr class="memdesc:ab400a151f68c8ec9a9e8c497e68b917e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a range of space points from the given index range.  <br /></td></tr>
+<tr class="memitem:a25a204fda32c6daf57029daf556e047c" id="r_a25a204fda32c6daf57029daf556e047c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25a204fda32c6daf57029daf556e047c">rColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a25a204fda32c6daf57029daf556e047c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">r</span> column.  <br /></td></tr>
+<tr class="memitem:ac8611a0505d9da4800fc1f7f4e2b40e4" id="r_ac8611a0505d9da4800fc1f7f4e2b40e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8611a0505d9da4800fc1f7f4e2b40e4">rColumn</a> () noexcept</td></tr>
+<tr class="memdesc:ac8611a0505d9da4800fc1f7f4e2b40e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">r</span> column.  <br /></td></tr>
+<tr class="memitem:a3b033d3e4f4e142f1029615fa1d1b7fd" id="r_a3b033d3e4f4e142f1029615fa1d1b7fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b033d3e4f4e142f1029615fa1d1b7fd">reserve</a> (std::uint32_t <a class="el" href="#a2b93cd00a0157e36f27a75ace5869c69">size</a>, float averageSourceLinks=1) noexcept</td></tr>
+<tr class="memdesc:a3b033d3e4f4e142f1029615fa1d1b7fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserves space for the given number of space points.  <br /></td></tr>
+<tr class="memitem:a2b93cd00a0157e36f27a75ace5869c69" id="r_a2b93cd00a0157e36f27a75ace5869c69"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b93cd00a0157e36f27a75ace5869c69">size</a> () const noexcept</td></tr>
+<tr class="memdesc:a2b93cd00a0157e36f27a75ace5869c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of space points in the container.  <br /></td></tr>
+<tr class="memitem:a01c2a053ae7d66352d64c000f6b2a6bf" id="r_a01c2a053ae7d66352d64c000f6b2a6bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a55c6e3fb83a21d16f9e56110eef765ad">ConstSubset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01c2a053ae7d66352d64c000f6b2a6bf">subset</a> (const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;subset) const noexcept</td></tr>
+<tr class="memdesc:a01c2a053ae7d66352d64c000f6b2a6bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a const subset of space points from the given index subset.  <br /></td></tr>
+<tr class="memitem:a98a547ce206e26869e751b2e499c0e57" id="r_a98a547ce206e26869e751b2e499c0e57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6e0241c2671658034c847c3f88b410d5">MutableSubset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98a547ce206e26869e751b2e499c0e57">subset</a> (const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;subset) noexcept</td></tr>
+<tr class="memdesc:a98a547ce206e26869e751b2e499c0e57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a mutable subset of space points from the given index subset.  <br /></td></tr>
+<tr class="memitem:a5b3ccc618d145fded1683a970fe5bbc3" id="r_a5b3ccc618d145fded1683a970fe5bbc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b3ccc618d145fded1683a970fe5bbc3">timeColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a5b3ccc618d145fded1683a970fe5bbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">time</span> column.  <br /></td></tr>
+<tr class="memitem:a81c6b4dcd580745f5f34482c6a3865c7" id="r_a81c6b4dcd580745f5f34482c6a3865c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81c6b4dcd580745f5f34482c6a3865c7">timeColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a81c6b4dcd580745f5f34482c6a3865c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">time</span> column.  <br /></td></tr>
+<tr class="memitem:a8853b3d4410505e5f35e1f269f969374" id="r_a8853b3d4410505e5f35e1f269f969374"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8853b3d4410505e5f35e1f269f969374">varianceRColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a8853b3d4410505e5f35e1f269f969374"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance r</span> column.  <br /></td></tr>
+<tr class="memitem:ab60c01c4856de722f29f55054e89107e" id="r_ab60c01c4856de722f29f55054e89107e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab60c01c4856de722f29f55054e89107e">varianceRColumn</a> () noexcept</td></tr>
+<tr class="memdesc:ab60c01c4856de722f29f55054e89107e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance r</span> column.  <br /></td></tr>
+<tr class="memitem:af24f54859a6dd06c0fd0db97ae295685" id="r_af24f54859a6dd06c0fd0db97ae295685"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af24f54859a6dd06c0fd0db97ae295685">varianceTColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:af24f54859a6dd06c0fd0db97ae295685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance t</span> column.  <br /></td></tr>
+<tr class="memitem:acc751b3e7b69a3ea9082252db521ca09" id="r_acc751b3e7b69a3ea9082252db521ca09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc751b3e7b69a3ea9082252db521ca09">varianceTColumn</a> () noexcept</td></tr>
+<tr class="memdesc:acc751b3e7b69a3ea9082252db521ca09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance t</span> column.  <br /></td></tr>
+<tr class="memitem:a59abd25d8f2f3fe59f11b50f6fa52a26" id="r_a59abd25d8f2f3fe59f11b50f6fa52a26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59abd25d8f2f3fe59f11b50f6fa52a26">varianceZColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a59abd25d8f2f3fe59f11b50f6fa52a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance z</span> column.  <br /></td></tr>
+<tr class="memitem:a84aedfafc2d073b067e23b3a792c68f9" id="r_a84aedfafc2d073b067e23b3a792c68f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84aedfafc2d073b067e23b3a792c68f9">varianceZColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a84aedfafc2d073b067e23b3a792c68f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance z</span> column.  <br /></td></tr>
+<tr class="memitem:a45e52abc5e744f01ed446a7aab519c12" id="r_a45e52abc5e744f01ed446a7aab519c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e52abc5e744f01ed446a7aab519c12">varianceZRColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a45e52abc5e744f01ed446a7aab519c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">variance zr</span> column.  <br /></td></tr>
+<tr class="memitem:a679f5a8ba091ea5b47988c3f6806124f" id="r_a679f5a8ba091ea5b47988c3f6806124f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679f5a8ba091ea5b47988c3f6806124f">varianceZRColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a679f5a8ba091ea5b47988c3f6806124f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">variance zr</span> column.  <br /></td></tr>
+<tr class="memitem:ac818d8d0657adfb6faeeb3a74c1645f4" id="r_ac818d8d0657adfb6faeeb3a74c1645f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac818d8d0657adfb6faeeb3a74c1645f4">xColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:ac818d8d0657adfb6faeeb3a74c1645f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">x</span> column.  <br /></td></tr>
+<tr class="memitem:a0d21c421ec527a1b81b0f7018f5a8cfd" id="r_a0d21c421ec527a1b81b0f7018f5a8cfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d21c421ec527a1b81b0f7018f5a8cfd">xColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a0d21c421ec527a1b81b0f7018f5a8cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">x</span> column.  <br /></td></tr>
+<tr class="memitem:a79b93f264bf69e98e26db63d6ca52067" id="r_a79b93f264bf69e98e26db63d6ca52067"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b93f264bf69e98e26db63d6ca52067">xyColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a79b93f264bf69e98e26db63d6ca52067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">xy</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:a58fd29869fc3ff1325c2415fe17d9f02" id="r_a58fd29869fc3ff1325c2415fe17d9f02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58fd29869fc3ff1325c2415fe17d9f02">xyColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a58fd29869fc3ff1325c2415fe17d9f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">xy</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:a9a94c4ab8b3667c5521de535fe8c8e45" id="r_a9a94c4ab8b3667c5521de535fe8c8e45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a94c4ab8b3667c5521de535fe8c8e45">xyzColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a9a94c4ab8b3667c5521de535fe8c8e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">xyz</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:ac8fbaadb5ce1fe539ce388f52924379f" id="r_ac8fbaadb5ce1fe539ce388f52924379f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8fbaadb5ce1fe539ce388f52924379f">xyzColumn</a> () noexcept</td></tr>
+<tr class="memdesc:ac8fbaadb5ce1fe539ce388f52924379f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">xyz</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:a2fcf57dde4d504bb1bcff038c49d80e9" id="r_a2fcf57dde4d504bb1bcff038c49d80e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 4 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fcf57dde4d504bb1bcff038c49d80e9">xyzrColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a2fcf57dde4d504bb1bcff038c49d80e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">xyzr</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:abdde386f8d5cd26c7f2f15674307fbaa" id="r_abdde386f8d5cd26c7f2f15674307fbaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 4 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdde386f8d5cd26c7f2f15674307fbaa">xyzrColumn</a> () noexcept</td></tr>
+<tr class="memdesc:abdde386f8d5cd26c7f2f15674307fbaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">xyzr</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:a21c60049849dfa2cac451556d44aa210" id="r_a21c60049849dfa2cac451556d44aa210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c60049849dfa2cac451556d44aa210">yColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a21c60049849dfa2cac451556d44aa210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">y</span> column.  <br /></td></tr>
+<tr class="memitem:a38f7bac9c5edb0050b7239fdab16e846" id="r_a38f7bac9c5edb0050b7239fdab16e846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38f7bac9c5edb0050b7239fdab16e846">yColumn</a> () noexcept</td></tr>
+<tr class="memdesc:a38f7bac9c5edb0050b7239fdab16e846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">y</span> column.  <br /></td></tr>
+<tr class="memitem:a78e851d03ed6143f6d4819a37ed22db6" id="r_a78e851d03ed6143f6d4819a37ed22db6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e851d03ed6143f6d4819a37ed22db6">zColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:a78e851d03ed6143f6d4819a37ed22db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">z</span> column.  <br /></td></tr>
+<tr class="memitem:af8a5c1ffcb65a134059950b7b5ebdb3d" id="r_af8a5c1ffcb65a134059950b7b5ebdb3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8a5c1ffcb65a134059950b7b5ebdb3d">zColumn</a> () noexcept</td></tr>
+<tr class="memdesc:af8a5c1ffcb65a134059950b7b5ebdb3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">z</span> column.  <br /></td></tr>
+<tr class="memitem:a21fbc2d3dd8c410f7a7adf3663a1df36" id="r_a21fbc2d3dd8c410f7a7adf3663a1df36"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a21fbc2d3dd8c410f7a7adf3663a1df36 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21fbc2d3dd8c410f7a7adf3663a1df36">zip</a> (const <a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; Ts &gt; &amp;...columns) const noexcept</td></tr>
+<tr class="memdesc:a21fbc2d3dd8c410f7a7adf3663a1df36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a zipped const range of space point data from the given columns.  <br /></td></tr>
+<tr class="memitem:ae599b96bebd470b57218bcf7bf909853" id="r_ae599b96bebd470b57218bcf7bf909853"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:ae599b96bebd470b57218bcf7bf909853 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae599b96bebd470b57218bcf7bf909853">zip</a> (const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;<a class="el" href="#ab400a151f68c8ec9a9e8c497e68b917e">range</a>, const <a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; Ts &gt; &amp;...columns) const noexcept</td></tr>
+<tr class="memdesc:ae599b96bebd470b57218bcf7bf909853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a zipped const range of space point data from the given columns.  <br /></td></tr>
+<tr class="memitem:afffea4ebd29397515de3ac6b602e3db4" id="r_afffea4ebd29397515de3ac6b602e3db4"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:afffea4ebd29397515de3ac6b602e3db4 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afffea4ebd29397515de3ac6b602e3db4">zip</a> (const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;<a class="el" href="#ab400a151f68c8ec9a9e8c497e68b917e">range</a>, const <a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; Ts &gt; &amp;...columns) noexcept</td></tr>
+<tr class="memdesc:afffea4ebd29397515de3ac6b602e3db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a zipped mutable range of space point data from the given columns.  <br /></td></tr>
+<tr class="memitem:aa60996b75cdace8c4d03eea5b07d911f" id="r_aa60996b75cdace8c4d03eea5b07d911f"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:aa60996b75cdace8c4d03eea5b07d911f template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa60996b75cdace8c4d03eea5b07d911f">zip</a> (const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;<a class="el" href="#a98a547ce206e26869e751b2e499c0e57">subset</a>, const <a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; Ts &gt; &amp;...columns) const noexcept</td></tr>
+<tr class="memdesc:aa60996b75cdace8c4d03eea5b07d911f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a zipped range over subset indices and const column data.  <br /></td></tr>
+<tr class="memitem:afd017e4a3580d0e17665bd450ebe51c5" id="r_afd017e4a3580d0e17665bd450ebe51c5"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:afd017e4a3580d0e17665bd450ebe51c5 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd017e4a3580d0e17665bd450ebe51c5">zip</a> (const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;<a class="el" href="#a98a547ce206e26869e751b2e499c0e57">subset</a>, const <a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; Ts &gt; &amp;...columns) noexcept</td></tr>
+<tr class="memdesc:afd017e4a3580d0e17665bd450ebe51c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a zipped range over subset indices and mutable column data.  <br /></td></tr>
+<tr class="memitem:a5c59fe9a71adb9ac4672cf3818a6caf8" id="r_a5c59fe9a71adb9ac4672cf3818a6caf8"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a5c59fe9a71adb9ac4672cf3818a6caf8 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c59fe9a71adb9ac4672cf3818a6caf8">zip</a> (const <a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; Ts &gt; &amp;...columns) noexcept</td></tr>
+<tr class="memdesc:a5c59fe9a71adb9ac4672cf3818a6caf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a zipped mutable range of space point data from the given columns.  <br /></td></tr>
+<tr class="memitem:ae0e067d27bdabd765d3a5bc29965bbe7" id="r_ae0e067d27bdabd765d3a5bc29965bbe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0e067d27bdabd765d3a5bc29965bbe7">zrColumn</a> () const noexcept</td></tr>
+<tr class="memdesc:ae0e067d27bdabd765d3a5bc29965bbe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const proxy to the <span class="tt">zr</span> coordinates column.  <br /></td></tr>
+<tr class="memitem:ad9898f01344306bae474cacaf0d0f6ed" id="r_ad9898f01344306bae474cacaf0d0f6ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9898f01344306bae474cacaf0d0f6ed">zrColumn</a> () noexcept</td></tr>
+<tr class="memdesc:ad9898f01344306bae474cacaf0d0f6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mutable proxy to the <span class="tt">zr</span> coordinates column.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt;<br />
-class Acts::SpacePointContainer&lt; container_t, holder_t &gt;</div><p>Container wrapper providing space point proxy access. </p>
+<div class="textblock"><p>A container for space points, which can hold additional columns of data and allows for efficient access to space points and their associated source links. </p>
+<p>Individual space points are addressed via index. A proxy object simplifies the handling. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="ab547d2391ebdc78e43b37bd24eb72ef1" name="ab547d2391ebdc78e43b37bd24eb72ef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab547d2391ebdc78e43b37bd24eb72ef1">&#9670;&#160;</a></span>const_iterator</h2>
+<a id="a09f01c29c452f3dd85e842e84f66d29f" name="a09f01c29c452f3dd85e842e84f66d29f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09f01c29c452f3dd85e842e84f66d29f">&#9670;&#160;</a></span>Iterator</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
+template&lt;bool read_only&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::const_iterator</td>
+          <td class="memname">using <a class="el" href="#a09f01c29c452f3dd85e842e84f66d29f">Acts::SpacePointContainer::Iterator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> detail::ContainerIterator&lt;</div>
-<div class="line">      <a class="code hl_class" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer&lt;container_t, holder_t&gt;</a>,</div>
-<div class="line">      <span class="keyword">const</span> <a class="code hl_typedef" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a>&amp;, std::size_t, <span class="keyword">true</span>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_space_point_container_html"><div class="ttname"><a href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a></div><div class="ttdoc">Container wrapper providing space point proxy access.</div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:49</div></div>
-<div class="ttc" id="aclass_acts_1_1_space_point_container_html_a14ca5f5c89b1e7d27134418ca3648588"><div class="ttname"><a href="#a14ca5f5c89b1e7d27134418ca3648588">Acts::SpacePointContainer::SpacePointProxyType</a></div><div class="ttdeci">Acts::SpacePointProxy&lt; Acts::SpacePointContainer&lt; container_t, holder_t &gt; &gt; SpacePointProxyType</div><div class="ttdoc">space point proxy type</div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:56</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line"> Acts::detail::ContainerIterator&lt;</div>
+<div class="line">      <a class="code hl_function" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a>,</div>
+<div class="line">      std::conditional_t&lt;read_only, ConstProxy, MutableProxy&gt;, <a class="code hl_typedef" href="class_acts_1_1_seed_container.html#a655ab8bc03944cd25817bce9434c3f8e">Index</a>,</div>
+<div class="line">      read_only&gt;</div>
+<div class="ttc" id="aclass_acts_1_1_seed_container_html_a655ab8bc03944cd25817bce9434c3f8e"><div class="ttname"><a href="class_acts_1_1_seed_container.html#a655ab8bc03944cd25817bce9434c3f8e">Acts::SeedContainer::Index</a></div><div class="ttdeci">SeedIndex Index</div><div class="ttdoc">Type alias for seed index type.</div><div class="ttdef"><b>Definition</b> SeedContainer.hpp:36</div></div>
+<div class="ttc" id="aclass_acts_1_1_space_point_container_html_a011cca2b0d0a73a243ad68f0d8056696"><div class="ttname"><a href="#a011cca2b0d0a73a243ad68f0d8056696">Acts::SpacePointContainer::SpacePointContainer</a></div><div class="ttdeci">SpacePointContainer(SpacePointColumns columns=SpacePointColumns::None) noexcept</div><div class="ttdoc">Constructs and empty space point container.</div></div>
 </div><!-- fragment -->
-<p>Const iterator type. </p>
-
-</div>
-</div>
-<a id="a330d697b7004f761e88da56964b54e9d" name="a330d697b7004f761e88da56964b54e9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a330d697b7004f761e88da56964b54e9d">&#9670;&#160;</a></span>iterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> detail::ContainerIterator&lt;</div>
-<div class="line">      <a class="code hl_class" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer&lt;container_t, holder_t&gt;</a>, <a class="code hl_typedef" href="#a14ca5f5c89b1e7d27134418ca3648588">SpacePointProxyType</a>&amp;,</div>
-<div class="line">      std::size_t, <span class="keyword">false</span>&gt;</div>
-</div><!-- fragment -->
-<p>Iterator type. </p>
-
-</div>
-</div>
-<a id="a14ca5f5c89b1e7d27134418ca3648588" name="a14ca5f5c89b1e7d27134418ca3648588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14ca5f5c89b1e7d27134418ca3648588">&#9670;&#160;</a></span>SpacePointProxyType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::SpacePointProxyType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      <a class="code hl_class" href="class_acts_1_1_space_point_proxy.html">Acts::SpacePointProxy&lt;Acts::SpacePointContainer&lt;container_t, holder_t&gt;</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_space_point_proxy_html"><div class="ttname"><a href="class_acts_1_1_space_point_proxy.html">Acts::SpacePointProxy</a></div><div class="ttdoc">Proxy giving read access to space point data in a container.</div><div class="ttdef"><b>Definition</b> SpacePointProxy.hpp:22</div></div>
-</div><!-- fragment -->
-<p>space point proxy type </p>
+<p>Type alias for template iterator over space points in container. </p>
 
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3f8ac33e82a5c61340f1494f73bbb787" name="a3f8ac33e82a5c61340f1494f73bbb787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f8ac33e82a5c61340f1494f73bbb787">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[1/3]</span></h2>
+<a id="a011cca2b0d0a73a243ad68f0d8056696" name="a011cca2b0d0a73a243ad68f0d8056696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011cca2b0d0a73a243ad68f0d8056696">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enable_if_t&lt;Acts::detail::is_same_template&lt;                H, Acts::detail::RefHolder&gt;::value&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::SpacePointContainer </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_space_point_container_config.html">Acts::SpacePointContainerConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_space_point_container_options.html">Acts::SpacePointContainerOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const container_t &amp;</td>          <td class="paramname"><span class="paramname"><em>container</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from config, options, and container reference. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">config</td><td>Configuration for the space point container </td></tr>
-    <tr><td class="paramname">options</td><td>Options for the space point container </td></tr>
-    <tr><td class="paramname">container</td><td>Reference to the underlying space point container </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="afaf68e4316d6757f28fa6307d372c8e7" name="afaf68e4316d6757f28fa6307d372c8e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaf68e4316d6757f28fa6307d372c8e7">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; class H = holder_t, typename = std::enable_if_t&lt;Acts::detail::is_same_template&lt;                H, Acts::detail::ValueHolder&gt;::value&gt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::SpacePointContainer </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_space_point_container_config.html">Acts::SpacePointContainerConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_space_point_container_options.html">Acts::SpacePointContainerOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">container_t &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>container</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from config, options, and container by moving ownership. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">config</td><td>Configuration for the space point container </td></tr>
-    <tr><td class="paramname">options</td><td>Options for the space point container </td></tr>
-    <tr><td class="paramname">container</td><td>Rvalue reference to the underlying space point container </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a54b9fd288852442de4bd99b8fe8f2583" name="a54b9fd288852442de4bd99b8fe8f2583"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54b9fd288852442de4bd99b8fe8f2583">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::SpacePointContainer </td>
+          <td class="memname">Acts::SpacePointContainer::SpacePointContainer </td>
           <td>(</td>
-          <td class="paramtype">SpacePointContainer&lt; container_t, holder_t &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columns</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca6adf97f83acf6453d4a6a4b1070f3754">SpacePointColumns::None</a></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel explicit">explicit</span><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Move constructor. </p>
+<p>Constructs and empty space point container. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">other</td><td>space point container to move from </td></tr>
+    <tr><td class="paramname">columns</td><td>The columns to create in the container. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aca121ef891e5d6afa33741e5344b3d98" name="aca121ef891e5d6afa33741e5344b3d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca121ef891e5d6afa33741e5344b3d98">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::SpacePointContainer::SpacePointContainer </td>
+          <td>(</td>
+          <td class="paramtype">const SpacePointContainer &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a copy of the given space point container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point container to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac9d2b16f62ae70b7a12f63204373f8e6" name="ac9d2b16f62ae70b7a12f63204373f8e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9d2b16f62ae70b7a12f63204373f8e6">&#9670;&#160;</a></span>SpacePointContainer() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::SpacePointContainer::SpacePointContainer </td>
+          <td>(</td>
+          <td class="paramtype">SpacePointContainer &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructs a space point container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point container to move. </td></tr>
   </table>
   </dd>
 </dl>
@@ -375,277 +468,2028 @@ template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a1c00d298305570f12751ddc0b473cd93" name="a1c00d298305570f12751ddc0b473cd93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c00d298305570f12751ddc0b473cd93">&#9670;&#160;</a></span>at() <span class="overload">[1/2]</span></h2>
+<a id="aaa2f843904a0c067b2f78c6a18773d7e" name="aaa2f843904a0c067b2f78c6a18773d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2f843904a0c067b2f78c6a18773d7e">&#9670;&#160;</a></span>at() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> &amp; <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::at </td>
+          <td class="memname"><a class="el" href="#aec0c2f0cab4d4682ac4299da3caed38d">MutableProxy</a> Acts::SpacePointContainer::at </td>
           <td>(</td>
-          <td class="paramtype">const std::size_t</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access space point proxy at index n. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Returns a mutable proxy to the space point at the given index. </p>
+<p>If the index is out of range, an exception is thrown. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">n</td><td>Index of the space point </td></tr>
+    <tr><td class="paramname">index</td><td>The index of the space point to access. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the space point proxy </dd></dl>
-
-</div>
-</div>
-<a id="a6033c4781f692fa4eb3670bb7fd58385" name="a6033c4781f692fa4eb3670bb7fd58385"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6033c4781f692fa4eb3670bb7fd58385">&#9670;&#160;</a></span>at() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="#a601304f8c05c12fc1dcd2c624593e62b">ProxyType</a> &amp; <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::at </td>
-          <td>(</td>
-          <td class="paramtype">const std::size_t</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Access const space point proxy at index n. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">n</td><td>Index of the space point </td></tr>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the space point at the given index. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td>if the index is out of range. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to the space point proxy </dd></dl>
 
 </div>
 </div>
-<a id="abd5324538f64cf028b230dd7a60e9239" name="abd5324538f64cf028b230dd7a60e9239"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd5324538f64cf028b230dd7a60e9239">&#9670;&#160;</a></span>begin() <span class="overload">[1/2]</span></h2>
+<a id="ab9713410602848a26405bf61d404ba53" name="ab9713410602848a26405bf61d404ba53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9713410602848a26405bf61d404ba53">&#9670;&#160;</a></span>at() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a> <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::begin </td>
+          <td class="memname"><a class="el" href="#ae1bde72f9afcb369cb76bf665bacc34a">ConstProxy</a> Acts::SpacePointContainer::at </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return an iterator to the beginning. </p>
-<dl class="section return"><dt>Returns</dt><dd>Iterator to the first space point </dd></dl>
-
-</div>
-</div>
-<a id="a510b4a33f8d39d2ae497cccdd224d737" name="a510b4a33f8d39d2ae497cccdd224d737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a510b4a33f8d39d2ae497cccdd224d737">&#9670;&#160;</a></span>begin() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a> <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::begin </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Return a const iterator to the beginning. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const iterator to the first space point </dd></dl>
+<p>Returns a const proxy to the space point at the given index. </p>
+<p>If the index is out of range, an exception is thrown. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the space point to access. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the space point at the given index. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td>if the index is out of range. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="aa56db660fd867378aa3cc273a347628b" name="aa56db660fd867378aa3cc273a347628b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa56db660fd867378aa3cc273a347628b">&#9670;&#160;</a></span>cbegin()</h2>
+<a id="a550301f8e7a01ac5a4cb505d97b0114d" name="a550301f8e7a01ac5a4cb505d97b0114d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550301f8e7a01ac5a4cb505d97b0114d">&#9670;&#160;</a></span>begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a> <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::cbegin </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return a const iterator to the beginning. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const iterator to the first space point </dd></dl>
-
-</div>
-</div>
-<a id="a6d078ae554b14022f84bb53491202a9b" name="a6d078ae554b14022f84bb53491202a9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d078ae554b14022f84bb53491202a9b">&#9670;&#160;</a></span>cend()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a> <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::cend </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return a const iterator to the end. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const iterator to one past the last space point </dd></dl>
-
-</div>
-</div>
-<a id="a16eb3a59bc2994f5512f3880e9c1a487" name="a16eb3a59bc2994f5512f3880e9c1a487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16eb3a59bc2994f5512f3880e9c1a487">&#9670;&#160;</a></span>end() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a330d697b7004f761e88da56964b54e9d">iterator</a> <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return an iterator to the end. </p>
-<dl class="section return"><dt>Returns</dt><dd>Iterator to one past the last space point </dd></dl>
-
-</div>
-</div>
-<a id="a68eefb9583ca1a680290df85de16a7d5" name="a68eefb9583ca1a680290df85de16a7d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68eefb9583ca1a680290df85de16a7d5">&#9670;&#160;</a></span>end() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ab547d2391ebdc78e43b37bd24eb72ef1">const_iterator</a> <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return a const iterator to the end. </p>
-<dl class="section return"><dt>Returns</dt><dd>Const iterator to one past the last space point </dd></dl>
-
-</div>
-</div>
-<a id="a14f5edee1d2ee3a7bc1d2c66c6f5f777" name="a14f5edee1d2ee3a7bc1d2c66c6f5f777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14f5edee1d2ee3a7bc1d2c66c6f5f777">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a> &amp; <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3f8ac33e82a5c61340f1494f73bbb787">SpacePointContainer</a>&lt; container_t, holder_t &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move assignment operator. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>space point container to move from </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to this container </dd></dl>
-
-</div>
-</div>
-<a id="a88a7830fc5828f118f67b2caf5015e21" name="a88a7830fc5828f118f67b2caf5015e21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88a7830fc5828f118f67b2caf5015e21">&#9670;&#160;</a></span>size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::size </td>
+          <td class="memname"><a class="el" href="#a61fb3af7dcca86a0871a533561179f08">const_iterator</a> Acts::SpacePointContainer::begin </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Return the number of space points. </p>
-<dl class="section return"><dt>Returns</dt><dd>Number of space points </dd></dl>
+<p>Returns const iterator to the beginning of the container. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator pointing to the first space point </dd></dl>
 
 </div>
 </div>
-<a id="a3eb47a4cea0bba0d085e03c47de82343" name="a3eb47a4cea0bba0d085e03c47de82343"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eb47a4cea0bba0d085e03c47de82343">&#9670;&#160;</a></span>sp()</h2>
+<a id="a86d728cd16c737d5ed1af3fa22a5020e" name="a86d728cd16c737d5ed1af3fa22a5020e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d728cd16c737d5ed1af3fa22a5020e">&#9670;&#160;</a></span>begin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5579089a2c83ae0d17edf7beb9c46458">iterator</a> Acts::SpacePointContainer::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns mutable iterator to the beginning of the container. </p>
+<dl class="section return"><dt>Returns</dt><dd>Mutable iterator pointing to the first space point </dd></dl>
+
+</div>
+</div>
+<a id="aa06312e74e33444c17d4731a1d744187" name="aa06312e74e33444c17d4731a1d744187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06312e74e33444c17d4731a1d744187">&#9670;&#160;</a></span>column() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename container_t, template&lt; typename &gt; class holder_t&gt; </div>
+template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="#ae480afbe7a3c49e2515923fa32933740">ValueType</a> &amp; <a class="el" href="class_acts_1_1_space_point_container.html">Acts::SpacePointContainer</a>&lt; container_t, holder_t &gt;::sp </td>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; T &gt; Acts::SpacePointContainer::column </td>
           <td>(</td>
-          <td class="paramtype">const std::size_t</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a mutable reference to the column with the given name. </p>
+<p>If the column does not exist, an exception is thrown. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the column. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A mutable reference to the column. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the column does not exist. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a352e6f77c3ee9689f3653280dedb227c" name="a352e6f77c3ee9689f3653280dedb227c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352e6f77c3ee9689f3653280dedb227c">&#9670;&#160;</a></span>column() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; T &gt; Acts::SpacePointContainer::column </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access underlying space point value at index n. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Returns a const reference to the column with the given name. </p>
+<p>If the column does not exist, an exception is thrown. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">n</td><td>Index of the space point </td></tr>
+    <tr><td class="paramname">name</td><td>The name of the column. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Const reference to the underlying space point value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A const reference to the column. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the column does not exist. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a967ed4046877e1c0c5d0123277d0bcb9" name="a967ed4046877e1c0c5d0123277d0bcb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967ed4046877e1c0c5d0123277d0bcb9">&#9670;&#160;</a></span>copiedFromIndexColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; Acts::SpacePointContainer::copiedFromIndexColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">copied from index</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">copied from index</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a0b980fd14016b2bec791f35e6283fbaf" name="a0b980fd14016b2bec791f35e6283fbaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b980fd14016b2bec791f35e6283fbaf">&#9670;&#160;</a></span>copiedFromIndexColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; Acts::SpacePointContainer::copiedFromIndexColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">copied from index</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">copied from index</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a5cbcd170ef8ca8bc07c354b06ab2858c" name="a5cbcd170ef8ca8bc07c354b06ab2858c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cbcd170ef8ca8bc07c354b06ab2858c">&#9670;&#160;</a></span>copyFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SpacePointContainer::copyFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>otherContainer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a></td>          <td class="paramname"><span class="paramname"><em>otherIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columnsToCopy</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies the specified columns from another space point to this space point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the space point to copy to in this container. </td></tr>
+    <tr><td class="paramname">otherContainer</td><td>The space point container to copy from. </td></tr>
+    <tr><td class="paramname">otherIndex</td><td>The index of the space point to copy from in the other container. </td></tr>
+    <tr><td class="paramname">columnsToCopy</td><td>The columns to copy from the other space point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a66bcbde668a8717f009c3f0272209003" name="a66bcbde668a8717f009c3f0272209003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66bcbde668a8717f009c3f0272209003">&#9670;&#160;</a></span>createColumn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; T &gt; Acts::SpacePointContainer::createColumn </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new column with the given name. </p>
+<p>If a column with the same name already exists, an exception is thrown. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the column. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the newly created column. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if a column with the same name already exists. </td></tr>
+    <tr><td class="paramname">std::runtime_error</td><td>if the column name is reserved. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae478fbfb3d1299dd8aa0ad4aaef34fc9" name="ae478fbfb3d1299dd8aa0ad4aaef34fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae478fbfb3d1299dd8aa0ad4aaef34fc9">&#9670;&#160;</a></span>createColumns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SpacePointContainer::createColumns </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columns</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates additional columns. </p>
+<p>This will create the columns if they do not already exist. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>The columns to create. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a193f067fc1f7eb3fae26e0f471235877" name="a193f067fc1f7eb3fae26e0f471235877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a193f067fc1f7eb3fae26e0f471235877">&#9670;&#160;</a></span>createSpacePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aec0c2f0cab4d4682ac4299da3caed38d">MutableProxy</a> Acts::SpacePointContainer::createSpacePoint </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new space point at the end of the container. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the newly created space point. </dd></dl>
+
+</div>
+</div>
+<a id="a1e720dc2ef004d2130fb70b69b99c217" name="a1e720dc2ef004d2130fb70b69b99c217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e720dc2ef004d2130fb70b69b99c217">&#9670;&#160;</a></span>dropColumn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SpacePointContainer::dropColumn </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drops the column with the given name. </p>
+<p>If the column does not exist, an exception is thrown. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the column. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the column does not exist. </td></tr>
+    <tr><td class="paramname">std::runtime_error</td><td>if the column name is reserved. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a356e086ec9bd9e0134c575b4c2e0854d" name="a356e086ec9bd9e0134c575b4c2e0854d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356e086ec9bd9e0134c575b4c2e0854d">&#9670;&#160;</a></span>dropColumns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SpacePointContainer::dropColumns </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columns</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drops the specified columns from the container. </p>
+<p>This will only drop columns if they exist. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>The columns to drop. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a91b399dd329f4b46950555a79171f674" name="a91b399dd329f4b46950555a79171f674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91b399dd329f4b46950555a79171f674">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::SpacePointContainer::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the container is empty. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the container is empty, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a411544f2f36e9f25c55d4faed9c8efd2" name="a411544f2f36e9f25c55d4faed9c8efd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a411544f2f36e9f25c55d4faed9c8efd2">&#9670;&#160;</a></span>end() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a61fb3af7dcca86a0871a533561179f08">const_iterator</a> Acts::SpacePointContainer::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns const iterator to the end of the container. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator pointing past the last space point </dd></dl>
+
+</div>
+</div>
+<a id="a0de7a53f16d600fd5aea594b649c00b0" name="a0de7a53f16d600fd5aea594b649c00b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de7a53f16d600fd5aea594b649c00b0">&#9670;&#160;</a></span>end() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5579089a2c83ae0d17edf7beb9c46458">iterator</a> Acts::SpacePointContainer::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns mutable iterator to the end of the container. </p>
+<dl class="section return"><dt>Returns</dt><dd>Mutable iterator pointing past the last space point </dd></dl>
+
+</div>
+</div>
+<a id="ac90b52e4c88f5306420e01269b3d32ec" name="ac90b52e4c88f5306420e01269b3d32ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac90b52e4c88f5306420e01269b3d32ec">&#9670;&#160;</a></span>hasColumn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::SpacePointContainer::hasColumn </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if an Column with the given name exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the column. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the column exists, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a73da496a28c37ec705a361fed4bdd0cb" name="a73da496a28c37ec705a361fed4bdd0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73da496a28c37ec705a361fed4bdd0cb">&#9670;&#160;</a></span>hasColumns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::SpacePointContainer::hasColumns </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a7a6813a649567fb613b8214ad5e7399c">SpacePointColumns</a></td>          <td class="paramname"><span class="paramname"><em>columns</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the container has the given Columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>The Columns to check for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the container has all the specified Columns, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="afb46e3aa819ac0bc30d9f1aaaed023e6" name="afb46e3aa819ac0bc30d9f1aaaed023e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb46e3aa819ac0bc30d9f1aaaed023e6">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp; Acts::SpacePointContainer::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assignment operator for copying a space point container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point container to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this space point container. </dd></dl>
+
+</div>
+</div>
+<a id="a0361163eb9f4243753a2df9b328021ee" name="a0361163eb9f4243753a2df9b328021ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0361163eb9f4243753a2df9b328021ee">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp; Acts::SpacePointContainer::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a011cca2b0d0a73a243ad68f0d8056696">SpacePointContainer</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment operator for a space point container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The space point container to move. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this space point container. </dd></dl>
+
+</div>
+</div>
+<a id="a010757b54101fd055215d8a044f35201" name="a010757b54101fd055215d8a044f35201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010757b54101fd055215d8a044f35201">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae1bde72f9afcb369cb76bf665bacc34a">ConstProxy</a> Acts::SpacePointContainer::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the space point at the given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the space point to access. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the space point at the given index. </dd></dl>
+
+</div>
+</div>
+<a id="aa476e11c4c859f22dcde15eee271bc94" name="aa476e11c4c859f22dcde15eee271bc94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa476e11c4c859f22dcde15eee271bc94">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aec0c2f0cab4d4682ac4299da3caed38d">MutableProxy</a> Acts::SpacePointContainer::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acd351d5b95b0b7e1a600c54bdf4f5259">Index</a></td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the space point at the given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the space point to access. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the space point at the given index. </dd></dl>
+
+</div>
+</div>
+<a id="a0a045749daef030f1c1ad3f01a1c2c38" name="a0a045749daef030f1c1ad3f01a1c2c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a045749daef030f1c1ad3f01a1c2c38">&#9670;&#160;</a></span>outerStripCalibrationDetailsColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt; Acts::SpacePointContainer::outerStripCalibrationDetailsColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">outer strip calibration details</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">outer strip calibration details</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a4bdb9609fa29505c3df57e6efd14f94a" name="a4bdb9609fa29505c3df57e6efd14f94a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bdb9609fa29505c3df57e6efd14f94a">&#9670;&#160;</a></span>outerStripCalibrationDetailsColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> &gt; Acts::SpacePointContainer::outerStripCalibrationDetailsColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">outer strip calibration details</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">outer strip calibration details</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a0a10fd4dab5b6c4d2747467fef981141" name="a0a10fd4dab5b6c4d2747467fef981141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a10fd4dab5b6c4d2747467fef981141">&#9670;&#160;</a></span>phiColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::phiColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">phi</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">phi</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="adcb99645ac7fda5a91ffcc274f3c5b48" name="adcb99645ac7fda5a91ffcc274f3c5b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb99645ac7fda5a91ffcc274f3c5b48">&#9670;&#160;</a></span>phiColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::phiColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">phi</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">phi</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a58589a44995c0b454d5d570b114389ea" name="a58589a44995c0b454d5d570b114389ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58589a44995c0b454d5d570b114389ea">&#9670;&#160;</a></span>range() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a21b656f41ff5458b961350dcad0f122a">ConstRange</a> Acts::SpacePointContainer::range </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a range of space points from the given index range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range</td><td>The index range to create the range from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A const range of space points. </dd></dl>
+
+</div>
+</div>
+<a id="ab400a151f68c8ec9a9e8c497e68b917e" name="ab400a151f68c8ec9a9e8c497e68b917e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab400a151f68c8ec9a9e8c497e68b917e">&#9670;&#160;</a></span>range() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a979a3815e03f2dbeb977421fb720f7d2">MutableRange</a> Acts::SpacePointContainer::range </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a range of space points from the given index range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range</td><td>The index range to create the range from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A mutable range of space points. </dd></dl>
+
+</div>
+</div>
+<a id="a25a204fda32c6daf57029daf556e047c" name="a25a204fda32c6daf57029daf556e047c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25a204fda32c6daf57029daf556e047c">&#9670;&#160;</a></span>rColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::rColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">r</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="ac8611a0505d9da4800fc1f7f4e2b40e4" name="ac8611a0505d9da4800fc1f7f4e2b40e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8611a0505d9da4800fc1f7f4e2b40e4">&#9670;&#160;</a></span>rColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::rColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">r</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a3b033d3e4f4e142f1029615fa1d1b7fd" name="a3b033d3e4f4e142f1029615fa1d1b7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b033d3e4f4e142f1029615fa1d1b7fd">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::SpacePointContainer::reserve </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>averageSourceLinks</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reserves space for the given number of space points. </p>
+<p>This will reserve space for the source links and other columns as well. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>The number of space points to reserve space for. </td></tr>
+    <tr><td class="paramname">averageSourceLinks</td><td>The average number of source links per space point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2b93cd00a0157e36f27a75ace5869c69" name="a2b93cd00a0157e36f27a75ace5869c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b93cd00a0157e36f27a75ace5869c69">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t Acts::SpacePointContainer::size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of space points in the container. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of space points in the container. </dd></dl>
+
+</div>
+</div>
+<a id="a01c2a053ae7d66352d64c000f6b2a6bf" name="a01c2a053ae7d66352d64c000f6b2a6bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c2a053ae7d66352d64c000f6b2a6bf">&#9670;&#160;</a></span>subset() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a55c6e3fb83a21d16f9e56110eef765ad">ConstSubset</a> Acts::SpacePointContainer::subset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subset</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a const subset of space points from the given index subset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subset</td><td>The index subset to create the subset from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A const subset of space points. </dd></dl>
+
+</div>
+</div>
+<a id="a98a547ce206e26869e751b2e499c0e57" name="a98a547ce206e26869e751b2e499c0e57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a547ce206e26869e751b2e499c0e57">&#9670;&#160;</a></span>subset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a6e0241c2671658034c847c3f88b410d5">MutableSubset</a> Acts::SpacePointContainer::subset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subset</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a mutable subset of space points from the given index subset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subset</td><td>The index subset to create the subset from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A mutable subset of space points. </dd></dl>
+
+</div>
+</div>
+<a id="a5b3ccc618d145fded1683a970fe5bbc3" name="a5b3ccc618d145fded1683a970fe5bbc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3ccc618d145fded1683a970fe5bbc3">&#9670;&#160;</a></span>timeColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::timeColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">time</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">time</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a81c6b4dcd580745f5f34482c6a3865c7" name="a81c6b4dcd580745f5f34482c6a3865c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81c6b4dcd580745f5f34482c6a3865c7">&#9670;&#160;</a></span>timeColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::timeColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">time</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">time</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a8853b3d4410505e5f35e1f269f969374" name="a8853b3d4410505e5f35e1f269f969374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8853b3d4410505e5f35e1f269f969374">&#9670;&#160;</a></span>varianceRColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::varianceRColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">variance r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance r</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="ab60c01c4856de722f29f55054e89107e" name="ab60c01c4856de722f29f55054e89107e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60c01c4856de722f29f55054e89107e">&#9670;&#160;</a></span>varianceRColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::varianceRColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">variance r</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance r</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="af24f54859a6dd06c0fd0db97ae295685" name="af24f54859a6dd06c0fd0db97ae295685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af24f54859a6dd06c0fd0db97ae295685">&#9670;&#160;</a></span>varianceTColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::varianceTColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">variance t</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance t</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="acc751b3e7b69a3ea9082252db521ca09" name="acc751b3e7b69a3ea9082252db521ca09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc751b3e7b69a3ea9082252db521ca09">&#9670;&#160;</a></span>varianceTColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::varianceTColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">variance t</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance t</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a59abd25d8f2f3fe59f11b50f6fa52a26" name="a59abd25d8f2f3fe59f11b50f6fa52a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59abd25d8f2f3fe59f11b50f6fa52a26">&#9670;&#160;</a></span>varianceZColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::varianceZColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">variance z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance z</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a84aedfafc2d073b067e23b3a792c68f9" name="a84aedfafc2d073b067e23b3a792c68f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84aedfafc2d073b067e23b3a792c68f9">&#9670;&#160;</a></span>varianceZColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::varianceZColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">variance z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance z</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a45e52abc5e744f01ed446a7aab519c12" name="a45e52abc5e744f01ed446a7aab519c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e52abc5e744f01ed446a7aab519c12">&#9670;&#160;</a></span>varianceZRColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt; Acts::SpacePointContainer::varianceZRColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">variance zr</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">variance zr</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a679f5a8ba091ea5b47988c3f6806124f" name="a679f5a8ba091ea5b47988c3f6806124f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679f5a8ba091ea5b47988c3f6806124f">&#9670;&#160;</a></span>varianceZRColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt; Acts::SpacePointContainer::varianceZRColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">variance zr</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">variance zr</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="ac818d8d0657adfb6faeeb3a74c1645f4" name="ac818d8d0657adfb6faeeb3a74c1645f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac818d8d0657adfb6faeeb3a74c1645f4">&#9670;&#160;</a></span>xColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::xColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">x</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">x</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a0d21c421ec527a1b81b0f7018f5a8cfd" name="a0d21c421ec527a1b81b0f7018f5a8cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d21c421ec527a1b81b0f7018f5a8cfd">&#9670;&#160;</a></span>xColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::xColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">x</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">x</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a79b93f264bf69e98e26db63d6ca52067" name="a79b93f264bf69e98e26db63d6ca52067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b93f264bf69e98e26db63d6ca52067">&#9670;&#160;</a></span>xyColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt; Acts::SpacePointContainer::xyColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">xy</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">xy</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="a58fd29869fc3ff1325c2415fe17d9f02" name="a58fd29869fc3ff1325c2415fe17d9f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58fd29869fc3ff1325c2415fe17d9f02">&#9670;&#160;</a></span>xyColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt; Acts::SpacePointContainer::xyColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">xy</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">xy</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="a9a94c4ab8b3667c5521de535fe8c8e45" name="a9a94c4ab8b3667c5521de535fe8c8e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a94c4ab8b3667c5521de535fe8c8e45">&#9670;&#160;</a></span>xyzColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer::xyzColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">xyz</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">xyz</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="ac8fbaadb5ce1fe539ce388f52924379f" name="ac8fbaadb5ce1fe539ce388f52924379f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8fbaadb5ce1fe539ce388f52924379f">&#9670;&#160;</a></span>xyzColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 3 &gt; &gt; Acts::SpacePointContainer::xyzColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">xyz</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">xyz</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="a2fcf57dde4d504bb1bcff038c49d80e9" name="a2fcf57dde4d504bb1bcff038c49d80e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fcf57dde4d504bb1bcff038c49d80e9">&#9670;&#160;</a></span>xyzrColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 4 &gt; &gt; Acts::SpacePointContainer::xyzrColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">xyzr</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">xyzr</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="abdde386f8d5cd26c7f2f15674307fbaa" name="abdde386f8d5cd26c7f2f15674307fbaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdde386f8d5cd26c7f2f15674307fbaa">&#9670;&#160;</a></span>xyzrColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 4 &gt; &gt; Acts::SpacePointContainer::xyzrColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">xyzr</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">xyzr</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="a21c60049849dfa2cac451556d44aa210" name="a21c60049849dfa2cac451556d44aa210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c60049849dfa2cac451556d44aa210">&#9670;&#160;</a></span>yColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::yColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">y</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">y</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a38f7bac9c5edb0050b7239fdab16e846" name="a38f7bac9c5edb0050b7239fdab16e846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38f7bac9c5edb0050b7239fdab16e846">&#9670;&#160;</a></span>yColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::yColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">y</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">y</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a78e851d03ed6143f6d4819a37ed22db6" name="a78e851d03ed6143f6d4819a37ed22db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e851d03ed6143f6d4819a37ed22db6">&#9670;&#160;</a></span>zColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::zColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">z</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="af8a5c1ffcb65a134059950b7b5ebdb3d" name="af8a5c1ffcb65a134059950b7b5ebdb3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8a5c1ffcb65a134059950b7b5ebdb3d">&#9670;&#160;</a></span>zColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; float &gt; Acts::SpacePointContainer::zColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">z</span> column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">z</span> column. </dd></dl>
+
+</div>
+</div>
+<a id="a21fbc2d3dd8c410f7a7adf3663a1df36" name="a21fbc2d3dd8c410f7a7adf3663a1df36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21fbc2d3dd8c410f7a7adf3663a1df36">&#9670;&#160;</a></span>zip() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::SpacePointContainer::zip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; Ts &gt; &amp;...</td>          <td class="paramname"><span class="paramname"><em>columns</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a zipped const range of space point data from the given columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>The columns to zip. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A zipped const range of space point data. </dd></dl>
+
+</div>
+</div>
+<a id="ae599b96bebd470b57218bcf7bf909853" name="ae599b96bebd470b57218bcf7bf909853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae599b96bebd470b57218bcf7bf909853">&#9670;&#160;</a></span>zip() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::SpacePointContainer::zip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; Ts &gt; &amp;...</td>          <td class="paramname"><span class="paramname"><em>columns</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a zipped const range of space point data from the given columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range</td><td>The index range to create the zipped range from. </td></tr>
+    <tr><td class="paramname">columns</td><td>The columns to zip. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A zipped const range of space point data. </dd></dl>
+
+</div>
+</div>
+<a id="afffea4ebd29397515de3ac6b602e3db4" name="afffea4ebd29397515de3ac6b602e3db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afffea4ebd29397515de3ac6b602e3db4">&#9670;&#160;</a></span>zip() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::SpacePointContainer::zip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa8f70bb5923031eaa8f38daf00d1021f">IndexRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>range</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; Ts &gt; &amp;...</td>          <td class="paramname"><span class="paramname"><em>columns</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a zipped mutable range of space point data from the given columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range</td><td>The index range to zip. </td></tr>
+    <tr><td class="paramname">columns</td><td>The columns to zip. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A zipped mutable range of space point data. </dd></dl>
+
+</div>
+</div>
+<a id="aa60996b75cdace8c4d03eea5b07d911f" name="aa60996b75cdace8c4d03eea5b07d911f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60996b75cdace8c4d03eea5b07d911f">&#9670;&#160;</a></span>zip() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::SpacePointContainer::zip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; Ts &gt; &amp;...</td>          <td class="paramname"><span class="paramname"><em>columns</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a zipped range over subset indices and const column data. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Ts</td><td>Column data types to zip with indices </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subset</td><td>Index subset to iterate over </td></tr>
+    <tr><td class="paramname">columns</td><td>Const column proxies to zip with indices </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Const zipped range for iteration over indices and column data </dd></dl>
+
+</div>
+</div>
+<a id="afd017e4a3580d0e17665bd450ebe51c5" name="afd017e4a3580d0e17665bd450ebe51c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd017e4a3580d0e17665bd450ebe51c5">&#9670;&#160;</a></span>zip() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::SpacePointContainer::zip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a00080723c6a8442626cde7a661cbe0b3">IndexSubset</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>subset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; Ts &gt; &amp;...</td>          <td class="paramname"><span class="paramname"><em>columns</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a zipped range over subset indices and mutable column data. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Ts</td><td>Column data types to zip with indices </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subset</td><td>Index subset to iterate over </td></tr>
+    <tr><td class="paramname">columns</td><td>Mutable column proxies to zip with indices </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Zipped range for iteration over indices and column data </dd></dl>
+
+</div>
+</div>
+<a id="a5c59fe9a71adb9ac4672cf3818a6caf8" name="a5c59fe9a71adb9ac4672cf3818a6caf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c59fe9a71adb9ac4672cf3818a6caf8">&#9670;&#160;</a></span>zip() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Acts::SpacePointContainer::zip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; Ts &gt; &amp;...</td>          <td class="paramname"><span class="paramname"><em>columns</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a zipped mutable range of space point data from the given columns. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">columns</td><td>The columns to zip. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A zipped mutable range of space point data. </dd></dl>
+
+</div>
+</div>
+<a id="ae0e067d27bdabd765d3a5bc29965bbe7" name="ae0e067d27bdabd765d3a5bc29965bbe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0e067d27bdabd765d3a5bc29965bbe7">&#9670;&#160;</a></span>zrColumn() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9de5acc6652e9f83c60cd0c08c53b779">ConstColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt; Acts::SpacePointContainer::zrColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const proxy to the <span class="tt">zr</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A const proxy to the <span class="tt">zr</span> coordinates column. </dd></dl>
+
+</div>
+</div>
+<a id="ad9898f01344306bae474cacaf0d0f6ed" name="ad9898f01344306bae474cacaf0d0f6ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9898f01344306bae474cacaf0d0f6ed">&#9670;&#160;</a></span>zrColumn() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9055e65f91b338971d1252475998f315">MutableColumnProxy</a>&lt; std::array&lt; float, 2 &gt; &gt; Acts::SpacePointContainer::zrColumn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mutable proxy to the <span class="tt">zr</span> coordinates column. </p>
+<dl class="section return"><dt>Returns</dt><dd>A mutable proxy to the <span class="tt">zr</span> coordinates column. </dd></dl>
 
 </div>
 </div>

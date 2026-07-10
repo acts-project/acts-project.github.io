@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_triplet_top_candidates.html','','class_
 <p>Container for triplet candidates found by the triplet seed finder.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_triplet_seed_finder_8hpp_source.html">Acts/Seeding2/TripletSeedFinder.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_triplet_seed_finder_8hpp_source.html">Acts/Seeding/TripletSeedFinder.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -153,8 +153,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:aa64739b8ee8eb61923e9db22e186a1ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all stored triplet candidates Removes all candidates from the container and frees memory. <br /></td></tr>
 <tr class="memitem:a0ec334cefc8b2ec34ff0abaafdbcacc7" id="r_a0ec334cefc8b2ec34ff0abaafdbcacc7"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ec334cefc8b2ec34ff0abaafdbcacc7">curvatures</a> () const</td></tr>
 <tr class="memdesc:a0ec334cefc8b2ec34ff0abaafdbcacc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the vector of track curvature estimations.  <br /></td></tr>
-<tr class="memitem:a8d87f5fd708dbe373079fa76cf0d8656" id="r_a8d87f5fd708dbe373079fa76cf0d8656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d87f5fd708dbe373079fa76cf0d8656">emplace_back</a> (<a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> spT, float curvature, float impactParameter)</td></tr>
-<tr class="memdesc:a8d87f5fd708dbe373079fa76cf0d8656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new triplet candidate to the container.  <br /></td></tr>
+<tr class="memitem:a466d8203e93a5028ce8c8459a168f0c1" id="r_a466d8203e93a5028ce8c8459a168f0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a466d8203e93a5028ce8c8459a168f0c1">emplace_back</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> spT, float curvature, float impactParameter)</td></tr>
+<tr class="memdesc:a466d8203e93a5028ce8c8459a168f0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new triplet candidate to the container.  <br /></td></tr>
 <tr class="memitem:ac69f4dae809ea690828a912172fc3031" id="r_ac69f4dae809ea690828a912172fc3031"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a88bd778c32cdcd5abb68e36586971ade">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac69f4dae809ea690828a912172fc3031">end</a> () const</td></tr>
 <tr class="memdesc:ac69f4dae809ea690828a912172fc3031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns iterator to the end of the candidate collection.  <br /></td></tr>
 <tr class="memitem:a14bb00f23efad75682dcd6adf26ec694" id="r_a14bb00f23efad75682dcd6adf26ec694"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bb00f23efad75682dcd6adf26ec694">impactParameters</a> () const</td></tr>
@@ -165,8 +165,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:a29892c4727e120216310bedddf3df176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserves storage space for the specified number of candidates.  <br /></td></tr>
 <tr class="memitem:ad4e3f9d5a022ade5cde70b83500b9457" id="r_ad4e3f9d5a022ade5cde70b83500b9457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5fed05479bebdeea8122e3b5a82f3a4d">Index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4e3f9d5a022ade5cde70b83500b9457">size</a> () const</td></tr>
 <tr class="memdesc:ad4e3f9d5a022ade5cde70b83500b9457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of triplet candidates stored.  <br /></td></tr>
-<tr class="memitem:a297eb74da9acbb082ce5c1ec17672523" id="r_a297eb74da9acbb082ce5c1ec17672523"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a297eb74da9acbb082ce5c1ec17672523">topSpacePoints</a> () const</td></tr>
-<tr class="memdesc:a297eb74da9acbb082ce5c1ec17672523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the vector of top space point indices.  <br /></td></tr>
+<tr class="memitem:aca985990584bcd49bd35251269c3ae2e" id="r_aca985990584bcd49bd35251269c3ae2e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca985990584bcd49bd35251269c3ae2e">topSpacePoints</a> () const</td></tr>
+<tr class="memdesc:aca985990584bcd49bd35251269c3ae2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the vector of top space point indices.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Container for triplet candidates found by the triplet seed finder. </p>
@@ -231,8 +231,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 
 </div>
 </div>
-<a id="a8d87f5fd708dbe373079fa76cf0d8656" name="a8d87f5fd708dbe373079fa76cf0d8656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d87f5fd708dbe373079fa76cf0d8656">&#9670;&#160;</a></span>emplace_back()</h2>
+<a id="a466d8203e93a5028ce8c8459a168f0c1" name="a466d8203e93a5028ce8c8459a168f0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a466d8203e93a5028ce8c8459a168f0c1">&#9670;&#160;</a></span>emplace_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +240,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
         <tr>
           <td class="memname">void Acts::TripletTopCandidates::emplace_back </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a></td>          <td class="paramname"><span class="paramname"><em>spT</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a></td>          <td class="paramname"><span class="paramname"><em>spT</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -378,14 +378,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 
 </div>
 </div>
-<a id="a297eb74da9acbb082ce5c1ec17672523" name="a297eb74da9acbb082ce5c1ec17672523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a297eb74da9acbb082ce5c1ec17672523">&#9670;&#160;</a></span>topSpacePoints()</h2>
+<a id="aca985990584bcd49bd35251269c3ae2e" name="aca985990584bcd49bd35251269c3ae2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca985990584bcd49bd35251269c3ae2e">&#9670;&#160;</a></span>topSpacePoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; &amp; Acts::TripletTopCandidates::topSpacePoints </td>
+          <td class="memname">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp; Acts::TripletTopCandidates::topSpacePoints </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

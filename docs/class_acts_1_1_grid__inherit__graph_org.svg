@@ -239,10 +239,10 @@
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="class_acts_1_1_grid.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="619,-625.96 494,-625.96 494,-584.96 619,-584.96 619,-625.96"/>
-<text text-anchor="start" x="502" y="-613.96" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; HoughCell</text>
-<text text-anchor="start" x="502" y="-602.96" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; identifier_t &gt;, Axis,</text>
-<text text-anchor="middle" x="556.5" y="-591.96" font-family="Helvetica,sans-Serif" font-size="10.00"> Axis &gt;</text>
+<polygon fill="white" stroke="#666666" points="620.5,-625.96 492.5,-625.96 492.5,-584.96 620.5,-584.96 620.5,-625.96"/>
+<text text-anchor="start" x="500.5" y="-613.96" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
+<text text-anchor="start" x="500.5" y="-602.96" font-family="Helvetica,sans-Serif" font-size="10.00"> XAxisType, YAxisType,</text>
+<text text-anchor="middle" x="556.5" y="-591.96" font-family="Helvetica,sans-Serif" font-size="10.00"> ZAxisType &gt;</text>
 </a>
 </g>
 </g>
@@ -250,21 +250,21 @@
 <g id="edge11_Node000001_Node000012" class="edge">
 <title>Node1&#45;&gt;Node12</title>
 <g id="a_edge11_Node000001_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M197.96,-615.22C211.85,-610.15 228.47,-604.98 244,-602.46 329.81,-588.53 430.68,-593.28 493.86,-598.74"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M197.96,-615.22C211.85,-610.15 228.47,-604.98 244,-602.46 329.15,-588.64 429.11,-593.21 492.38,-598.61"/>
 <polygon fill="orange" stroke="orange" points="196.49,-612.04 188.38,-618.86 198.97,-618.58 196.49,-612.04"/>
 </a>
 </g>
-<text text-anchor="start" x="290" y="-623.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; HoughCell&lt; identifier</text>
-<text text-anchor="start" x="290" y="-608.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  _t &gt;, Axis, Axis &gt;</text>
+<text text-anchor="start" x="285" y="-623.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, XAxisType,</text>
+<text text-anchor="start" x="285" y="-608.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   YAxisType, ZAxisType &gt;</text>
 </g>
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:href="class_acts_1_1_grid.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="620.5,-566.96 492.5,-566.96 492.5,-525.96 620.5,-525.96 620.5,-566.96"/>
-<text text-anchor="start" x="500.5" y="-554.96" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
-<text text-anchor="start" x="500.5" y="-543.96" font-family="Helvetica,sans-Serif" font-size="10.00"> XAxisType, YAxisType,</text>
-<text text-anchor="middle" x="556.5" y="-532.96" font-family="Helvetica,sans-Serif" font-size="10.00"> ZAxisType &gt;</text>
+<polygon fill="white" stroke="#666666" points="625,-566.96 488,-566.96 488,-525.96 625,-525.96 625,-566.96"/>
+<text text-anchor="start" x="496" y="-554.96" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
+<text text-anchor="start" x="496" y="-543.96" font-family="Helvetica,sans-Serif" font-size="10.00"> PhiAxisType, ZAxisType,</text>
+<text text-anchor="middle" x="556.5" y="-532.96" font-family="Helvetica,sans-Serif" font-size="10.00"> RAxisType &gt;</text>
 </a>
 </g>
 </g>
@@ -272,21 +272,21 @@
 <g id="edge12_Node000001_Node000013" class="edge">
 <title>Node1&#45;&gt;Node13</title>
 <g id="a_edge12_Node000001_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M179.21,-610.69C193.15,-593.51 216.85,-568.52 244,-557.46 324.81,-524.54 427.41,-528.72 492.28,-536.33"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M179.21,-610.69C193.15,-593.51 216.85,-568.52 244,-557.46 322.93,-525.3 422.65,-528.55 487.7,-535.81"/>
 <polygon fill="orange" stroke="orange" points="176.24,-608.81 172.84,-618.84 181.75,-613.12 176.24,-608.81"/>
 </a>
 </g>
-<text text-anchor="start" x="285" y="-578.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, XAxisType,</text>
-<text text-anchor="start" x="285" y="-563.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   YAxisType, ZAxisType &gt;</text>
+<text text-anchor="start" x="285" y="-578.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, PhiAxisType,</text>
+<text text-anchor="start" x="285" y="-563.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   ZAxisType, RAxisType &gt;</text>
 </g>
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
 <g id="a_Node000014"><a xlink:href="class_acts_1_1_grid.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="625,-507.96 488,-507.96 488,-466.96 625,-466.96 625,-507.96"/>
-<text text-anchor="start" x="496" y="-495.96" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
-<text text-anchor="start" x="496" y="-484.96" font-family="Helvetica,sans-Serif" font-size="10.00"> PhiAxisType, ZAxisType,</text>
-<text text-anchor="middle" x="556.5" y="-473.96" font-family="Helvetica,sans-Serif" font-size="10.00"> RAxisType &gt;</text>
+<polygon fill="white" stroke="#666666" points="619,-507.96 494,-507.96 494,-466.96 619,-466.96 619,-507.96"/>
+<text text-anchor="start" x="502" y="-495.96" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; HoughCell</text>
+<text text-anchor="start" x="502" y="-484.96" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; identifier_t &gt;, Axis,</text>
+<text text-anchor="middle" x="556.5" y="-473.96" font-family="Helvetica,sans-Serif" font-size="10.00"> Axis &gt;</text>
 </a>
 </g>
 </g>
@@ -294,12 +294,12 @@
 <g id="edge13_Node000001_Node000014" class="edge">
 <title>Node1&#45;&gt;Node14</title>
 <g id="a_edge13_Node000001_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M170.92,-608.93C179.76,-578.47 201.5,-520.54 244,-495.46 283.72,-472.02 408.71,-476.26 487.76,-481.7"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M170.92,-608.93C179.76,-578.47 201.5,-520.54 244,-495.46 284.77,-471.4 415.36,-476.5 493.92,-482.13"/>
 <polygon fill="orange" stroke="orange" points="167.48,-608.23 168.23,-618.8 174.24,-610.07 167.48,-608.23"/>
 </a>
 </g>
-<text text-anchor="start" x="285" y="-516.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, PhiAxisType,</text>
-<text text-anchor="start" x="285" y="-501.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   ZAxisType, RAxisType &gt;</text>
+<text text-anchor="start" x="290" y="-516.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; HoughCell&lt; identifier</text>
+<text text-anchor="start" x="290" y="-501.46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  _t &gt;, Axis, Axis &gt;</text>
 </g>
 <!-- Node15 -->
 <g id="Node000015" class="node">

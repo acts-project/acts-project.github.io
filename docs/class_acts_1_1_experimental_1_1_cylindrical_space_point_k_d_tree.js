@@ -9,8 +9,8 @@ var class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree =
     [ "begin", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#aff66c7c642c660f01a6a46eef60cde81", null ],
     [ "end", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a00456439d8ef0d27f2a538e5be467841", null ],
     [ "size", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a925fc8b7e976cacc29cb879fdb2dea57", null ],
-    [ "validTupleOrthoRangeHL", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a9e378eb19d9e641b7cd512da40829a4c", null ],
-    [ "validTupleOrthoRangeLH", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#ac97a39922ae582495c7562141301496c", null ],
-    [ "validTuples", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a9fb7b7420241d6fa9ccc21bc5496e57d", null ],
+    [ "validTupleOrthoRangeHL", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#ae95596c35ef586f1bf92f2af356f6304", null ],
+    [ "validTupleOrthoRangeLH", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a5fa2defddce2584976777fe7296729ab", null ],
+    [ "validTuples", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#abb03c8df9836c989e0a5d84605cbd765", null ],
     [ "NDims", "class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree.html#a8af7afc67f4d3b3e2daec071badc60c7", null ]
 ];

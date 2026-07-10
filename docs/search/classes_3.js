@@ -15,7 +15,7 @@ var searchData=
   ['defaultfilterpolicy_12',['DefaultFilterPolicy',['../class_acts_1_1_logging_1_1_default_filter_policy.html',1,'Acts::Logging']]],
   ['defaultprintpolicy_13',['DefaultPrintPolicy',['../class_acts_1_1_logging_1_1_default_print_policy.html',1,'Acts::Logging']]],
   ['delegate_14',['Delegate',['../class_acts_1_1_delegate.html',1,'Acts']]],
-  ['delegate_3c_20bool_28const_20constspacepointproxy2_20_26_2c_20const_20constspacepointproxy2_20_26_2c_20float_2c_20bool_29_3e_15',['Delegate&lt; bool(const ConstSpacePointProxy2 &amp;, const ConstSpacePointProxy2 &amp;, float, bool)&gt;',['../class_acts_1_1_delegate.html',1,'Acts']]],
+  ['delegate_3c_20bool_28const_20constspacepointproxy_20_26_2c_20const_20constspacepointproxy_20_26_2c_20float_2c_20bool_29_3e_15',['Delegate&lt; bool(const ConstSpacePointProxy &amp;, const ConstSpacePointProxy &amp;, float, bool)&gt;',['../class_acts_1_1_delegate.html',1,'Acts']]],
   ['delegate_3c_20bool_28const_20geometrycontext_20_26gctx_2c_20const_20trackingvolume_20_26currentvol_2c_20const_20vector3_20_26pos_2c_20const_20vector3_20_26dir_2c_20const_20surface_20_26candidate_29_3e_16',['Delegate&lt; bool(const GeometryContext &amp;gctx, const TrackingVolume &amp;currentVol, const Vector3 &amp;pos, const Vector3 &amp;dir, const Surface &amp;candidate)&gt;',['../class_acts_1_1_delegate.html',1,'Acts']]],
   ['delegate_3c_20bool_28const_20sp_5ft_20_26_29_3e_17',['Delegate&lt; bool(const Sp_t &amp;)&gt;',['../class_acts_1_1_delegate.html',1,'Acts']]],
   ['delegate_3c_20bool_28const_20sp_5ft_20_26_29_3e_3c_20sp_5ft_20_3e_18',['Delegate&lt; bool(const Sp_t &amp;)&gt;&lt; Sp_t &gt;',['../class_acts_1_1_delegate.html',1,'Acts']]],

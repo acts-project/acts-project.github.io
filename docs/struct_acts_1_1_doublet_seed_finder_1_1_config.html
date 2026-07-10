@@ -129,7 +129,7 @@ $(function(){initNavTree('struct_acts_1_1_doublet_seed_finder_1_1_config.html','
 <p>Collection of configuration parameters for the doublet seed finder.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_doublet_seed_finder_8hpp_source.html">Acts/Seeding2/DoubletSeedFinder.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_doublet_seed_finder_8hpp_source.html">Acts/Seeding/DoubletSeedFinder.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::DoubletSeedFinder::Config:</div>
 <div class="dyncontent">
@@ -143,8 +143,8 @@ Collaboration diagram for Acts::DoubletSeedFinder::Config:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a199813bc0d36a58cb26d4a8dacafc940" id="r_a199813bc0d36a58cb26d4a8dacafc940"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a199813bc0d36a58cb26d4a8dacafc940">ExperimentCuts</a></td></tr>
-<tr class="memdesc:a199813bc0d36a58cb26d4a8dacafc940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for delegate to apply experiment specific cuts during doublet finding.  <br /></td></tr>
+<tr class="memitem:a48c63c4965469737f8079ae954973e31" id="r_a48c63c4965469737f8079ae954973e31"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48c63c4965469737f8079ae954973e31">ExperimentCuts</a></td></tr>
+<tr class="memdesc:a48c63c4965469737f8079ae954973e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for delegate to apply experiment specific cuts during doublet finding.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -172,7 +172,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaZMax</b> = std:
 float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaZMin</b> = -std::numeric_limits&lt;float&gt;::infinity()</td></tr>
 <tr class="memdesc:af72da006b9f18fb00b05727dad00f06b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimal z distance between two doublet components. <br /></td></tr>
 <tr class="memitem:adc7ba193d3fca7a1c8709f1b9385ea4b" id="r_adc7ba193d3fca7a1c8709f1b9385ea4b"><td class="memItemLeft" align="right" valign="top"><a id="adc7ba193d3fca7a1c8709f1b9385ea4b" name="adc7ba193d3fca7a1c8709f1b9385ea4b"></a>
-<a class="el" href="#a199813bc0d36a58cb26d4a8dacafc940">ExperimentCuts</a>&#160;</td><td class="memItemRight" valign="bottom"><b>experimentCuts</b></td></tr>
+<a class="el" href="#a48c63c4965469737f8079ae954973e31">ExperimentCuts</a>&#160;</td><td class="memItemRight" valign="bottom"><b>experimentCuts</b></td></tr>
 <tr class="memdesc:adc7ba193d3fca7a1c8709f1b9385ea4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate to apply experiment specific cuts during doublet finding. <br /></td></tr>
 <tr class="memitem:aabac31554b0fbe0ebcf797ba60277465" id="r_aabac31554b0fbe0ebcf797ba60277465"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabac31554b0fbe0ebcf797ba60277465">helixCutTolerance</a> = 1</td></tr>
 <tr class="memdesc:aabac31554b0fbe0ebcf797ba60277465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter which can loosen the tolerance of the track seed to form a helix.  <br /></td></tr>
@@ -192,23 +192,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>spacePointsSortedByRa
 <div class="textblock"><p>Collection of configuration parameters for the doublet seed finder. </p>
 <p>This includes doublet cuts, steering switches, and assumptions about the space points. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a199813bc0d36a58cb26d4a8dacafc940" name="a199813bc0d36a58cb26d4a8dacafc940"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a199813bc0d36a58cb26d4a8dacafc940">&#9670;&#160;</a></span>ExperimentCuts</h2>
+<a id="a48c63c4965469737f8079ae954973e31" name="a48c63c4965469737f8079ae954973e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48c63c4965469737f8079ae954973e31">&#9670;&#160;</a></span>ExperimentCuts</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a199813bc0d36a58cb26d4a8dacafc940">Acts::DoubletSeedFinder::Config::ExperimentCuts</a></td>
+          <td class="memname">using <a class="el" href="#a48c63c4965469737f8079ae954973e31">Acts::DoubletSeedFinder::Config::ExperimentCuts</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">        <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;bool(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a>&amp; ,</div>
-<div class="line">                      <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a>&amp; ,</div>
-<div class="line">                      <span class="keywordtype">float</span> , <span class="keywordtype">bool</span> )&gt;</div>
+<div class="line">        <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;bool(<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a>&amp; ,</div>
+<div class="line">                      <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a>&amp; , <span class="keywordtype">float</span> ,</div>
+<div class="line">                      <span class="keywordtype">bool</span> )&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
-<div class="ttc" id="anamespace_acts_html_acd104d9fd9886e714af3bf67c53e508f"><div class="ttname"><a href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">Acts::ConstSpacePointProxy2</a></div><div class="ttdeci">SpacePointProxy2&lt; true &gt; ConstSpacePointProxy2</div><div class="ttdoc">Const proxy to a space point for read-only access.</div><div class="ttdef"><b>Definition</b> SpacePointContainer2.hpp:43</div></div>
+<div class="ttc" id="anamespace_acts_html_a0b5d5289a17774b538065a6588000743"><div class="ttname"><a href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">Acts::ConstSpacePointProxy</a></div><div class="ttdeci">SpacePointProxy&lt; true &gt; ConstSpacePointProxy</div><div class="ttdoc">Const proxy to a space point for read-only access.</div><div class="ttdef"><b>Definition</b> SpacePointContainer.hpp:43</div></div>
 </div><!-- fragment -->
 <p>Type alias for delegate to apply experiment specific cuts during doublet finding. </p>
 

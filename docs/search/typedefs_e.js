@@ -9,10 +9,10 @@ var searchData=
   ['paridx_6',['ParIdx',['../class_acts_1_1_experimental_1_1_composite_space_point_line_seeder.html#a3b00d2bc86a712da4d2b25a6b273d2c8',1,'Acts::Experimental::CompositeSpacePointLineSeeder']]],
   ['parserange_7',['ParseRange',['../struct_acts_plugins_1_1_t_geo_parser.html#aee6ea1301fb7908e8fd254723a732585',1,'ActsPlugins::TGeoParser']]],
   ['particleid_8',['ParticleId',['../class_acts_fatras_1_1_barcode.html#aed14742b4bad10ae456a9700ebe9fff5',1,'ActsFatras::Barcode']]],
-  ['phiaxistype_9',['PhiAxisType',['../class_acts_1_1_cylindrical_space_point_grid2.html#a28a3088d8197ee7cba6795c7b76bb607',1,'Acts::CylindricalSpacePointGrid2']]],
+  ['phiaxistype_9',['PhiAxisType',['../class_acts_1_1_cylindrical_space_point_grid.html#a04c404a0be23b59ab0bac97a664c6399',1,'Acts::CylindricalSpacePointGrid']]],
   ['point_10',['Point',['../class_acts_1_1_d_b_scan.html#aacb77d891b53dc35b36b6381cc32c4f6',1,'Acts::DBScan']]],
   ['point_5ft_11',['point_t',['../class_acts_1_1_grid.html#a08b042739a01f10b6335cba8b263cd5f',1,'Acts::Grid']]],
-  ['pointer_12',['pointer',['../class_acts_1_1_seed_proxy2_1_1_space_point_iterator.html#ad9cd00c9b3be210c5b5a718116343d7b',1,'Acts::SeedProxy2::SpacePointIterator::pointer'],['../struct_acts_1_1_source_link_adapter_iterator.html#addda7da1f237e763dc4155ab57e293cd',1,'Acts::SourceLinkAdapterIterator::pointer'],['../class_acts_1_1_grid_global_iterator.html#a2cfe23e6e690b04cc4a66f3a13db7a3c',1,'Acts::GridGlobalIterator::pointer'],['../class_acts_1_1_grid_local_iterator.html#a118c561a2e879a2eb8387af8e2395db4',1,'Acts::GridLocalIterator::pointer']]],
+  ['pointer_12',['pointer',['../class_acts_1_1_seed_proxy_1_1_space_point_iterator.html#a92b119e1332169981bbf1e4e5657dda0',1,'Acts::SeedProxy::SpacePointIterator::pointer'],['../struct_acts_1_1_source_link_adapter_iterator.html#addda7da1f237e763dc4155ab57e293cd',1,'Acts::SourceLinkAdapterIterator::pointer'],['../class_acts_1_1_grid_global_iterator.html#a2cfe23e6e690b04cc4a66f3a13db7a3c',1,'Acts::GridGlobalIterator::pointer'],['../class_acts_1_1_grid_local_iterator.html#a118c561a2e879a2eb8387af8e2395db4',1,'Acts::GridLocalIterator::pointer']]],
   ['portalidlookup_13',['PortalIdLookup',['../class_acts_1_1_tracking_geometry_json_converter.html#aeeb33b8414243812a7e9fb6c42bf17b3',1,'Acts::TrackingGeometryJsonConverter']]],
   ['portallinkdecoder_14',['PortalLinkDecoder',['../class_acts_1_1_tracking_geometry_json_converter.html#acd0496dc9e1d17d507e578ea62346dcf',1,'Acts::TrackingGeometryJsonConverter']]],
   ['portallinkencoder_15',['PortalLinkEncoder',['../class_acts_1_1_tracking_geometry_json_converter.html#a4fa6fda9998d34e79b8688f2574517b1',1,'Acts::TrackingGeometryJsonConverter']]],
@@ -29,6 +29,5 @@ var searchData=
   ['protogridsurfacematerial_26',['ProtoGridSurfaceMaterial',['../group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f',1,'Acts']]],
   ['protosurfacematerial_27',['ProtoSurfaceMaterial',['../group__material.html#gabad517c3d330be68557175bbe3e71402',1,'Acts']]],
   ['proxyaccessor_28',['ProxyAccessor',['../namespace_acts.html#a79f3daeca2329cfd19dc3baa49e667d0',1,'Acts']]],
-  ['proxytype_29',['ProxyType',['../class_acts_1_1_space_point_container.html#a601304f8c05c12fc1dcd2c624593e62b',1,'Acts::SpacePointContainer']]],
-  ['publishermap_5ft_30',['PublisherMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a17eb9a475cb2597bea7b63def3219904',1,'ActsPlugins::GeoModelTree::VolumePublisher']]]
+  ['publishermap_5ft_29',['PublisherMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a17eb9a475cb2597bea7b63def3219904',1,'ActsPlugins::GeoModelTree::VolumePublisher']]]
 ];

@@ -256,10 +256,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000011" class="node">
 <title>Node11</title>
 <g id="a_Node000011"><a xlink:href="class_acts_1_1_grid.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="619,-819.35 494,-819.35 494,-778.35 619,-778.35 619,-819.35"/>
-<text text-anchor="start" x="502" y="-807.35" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; HoughCell</text>
-<text text-anchor="start" x="502" y="-796.35" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; identifier_t &gt;, Axis,</text>
-<text text-anchor="middle" x="556.5" y="-785.35" font-family="Helvetica,sans-Serif" font-size="10.00"> Axis &gt;</text>
+<polygon fill="white" stroke="#666666" points="620.5,-819.35 492.5,-819.35 492.5,-778.35 620.5,-778.35 620.5,-819.35"/>
+<text text-anchor="start" x="500.5" y="-807.35" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
+<text text-anchor="start" x="500.5" y="-796.35" font-family="Helvetica,sans-Serif" font-size="10.00"> XAxisType, YAxisType,</text>
+<text text-anchor="middle" x="556.5" y="-785.35" font-family="Helvetica,sans-Serif" font-size="10.00"> ZAxisType &gt;</text>
 </a>
 </g>
 </g>
@@ -276,10 +276,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000012" class="node">
 <title>Node12</title>
 <g id="a_Node000012"><a xlink:href="class_acts_1_1_grid.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="620.5,-607.35 492.5,-607.35 492.5,-566.35 620.5,-566.35 620.5,-607.35"/>
-<text text-anchor="start" x="500.5" y="-595.35" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
-<text text-anchor="start" x="500.5" y="-584.35" font-family="Helvetica,sans-Serif" font-size="10.00"> XAxisType, YAxisType,</text>
-<text text-anchor="middle" x="556.5" y="-573.35" font-family="Helvetica,sans-Serif" font-size="10.00"> ZAxisType &gt;</text>
+<polygon fill="white" stroke="#666666" points="625,-607.35 488,-607.35 488,-566.35 625,-566.35 625,-607.35"/>
+<text text-anchor="start" x="496" y="-595.35" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
+<text text-anchor="start" x="496" y="-584.35" font-family="Helvetica,sans-Serif" font-size="10.00"> PhiAxisType, ZAxisType,</text>
+<text text-anchor="middle" x="556.5" y="-573.35" font-family="Helvetica,sans-Serif" font-size="10.00"> RAxisType &gt;</text>
 </a>
 </g>
 </g>
@@ -287,7 +287,7 @@ var sectionId = 'dynsection-0';
 <g id="edge11_Node000001_Node000012" class="edge">
 <title>Node1&#45;&gt;Node12</title>
 <g id="a_edge11_Node000001_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M36.45,-864.89C41.27,-824.9 57.01,-733.84 104,-675.85 149.4,-619.83 174.62,-613.51 244,-593.85 327.4,-570.22 428.45,-573.43 492.37,-579.14"/>
+<path fill="none" stroke="#63b8ff" d="M36.45,-864.89C41.27,-824.9 57.01,-733.84 104,-675.85 149.4,-619.83 174.62,-613.51 244,-593.85 325.45,-570.77 423.73,-573.29 487.82,-578.74"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="32.96,-864.63 35.34,-874.95 39.91,-865.4 32.96,-864.63"/>
 </a>
 </g>
@@ -296,10 +296,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000013" class="node">
 <title>Node13</title>
 <g id="a_Node000013"><a xlink:href="class_acts_1_1_grid.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="625,-515.35 488,-515.35 488,-474.35 625,-474.35 625,-515.35"/>
-<text text-anchor="start" x="496" y="-503.35" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; BinType,</text>
-<text text-anchor="start" x="496" y="-492.35" font-family="Helvetica,sans-Serif" font-size="10.00"> PhiAxisType, ZAxisType,</text>
-<text text-anchor="middle" x="556.5" y="-481.35" font-family="Helvetica,sans-Serif" font-size="10.00"> RAxisType &gt;</text>
+<polygon fill="white" stroke="#666666" points="619,-515.35 494,-515.35 494,-474.35 619,-474.35 619,-515.35"/>
+<text text-anchor="start" x="502" y="-503.35" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Grid&lt; HoughCell</text>
+<text text-anchor="start" x="502" y="-492.35" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; identifier_t &gt;, Axis,</text>
+<text text-anchor="middle" x="556.5" y="-481.35" font-family="Helvetica,sans-Serif" font-size="10.00"> Axis &gt;</text>
 </a>
 </g>
 </g>
@@ -573,8 +573,8 @@ var sectionId = 'dynsection-0';
 <polygon fill="orange" stroke="orange" points="194.16,-868.06 186.37,-875.23 196.93,-874.48 194.16,-868.06"/>
 </a>
 </g>
-<text text-anchor="start" x="290" y="-875.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; HoughCell&lt; identifier</text>
-<text text-anchor="start" x="290" y="-860.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  _t &gt;, Axis, Axis &gt;</text>
+<text text-anchor="start" x="285" y="-875.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, XAxisType,</text>
+<text text-anchor="start" x="285" y="-860.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   YAxisType, ZAxisType &gt;</text>
 </g>
 <!-- Node20&#45;&gt;Node12 -->
 <g id="edge30_Node000020_Node000012" class="edge">
@@ -584,8 +584,8 @@ var sectionId = 'dynsection-0';
 <polygon fill="orange" stroke="orange" points="164.52,-864.69 166.84,-875.03 171.48,-865.51 164.52,-864.69"/>
 </a>
 </g>
-<text text-anchor="start" x="285" y="-713.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, XAxisType,</text>
-<text text-anchor="start" x="285" y="-698.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   YAxisType, ZAxisType &gt;</text>
+<text text-anchor="start" x="285" y="-713.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, PhiAxisType,</text>
+<text text-anchor="start" x="285" y="-698.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   ZAxisType, RAxisType &gt;</text>
 </g>
 <!-- Node20&#45;&gt;Node13 -->
 <g id="edge31_Node000020_Node000013" class="edge">
@@ -595,8 +595,8 @@ var sectionId = 'dynsection-0';
 <polygon fill="orange" stroke="orange" points="161.79,-865.22 165.52,-875.14 168.78,-865.06 161.79,-865.22"/>
 </a>
 </g>
-<text text-anchor="start" x="285" y="-633.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; BinType, PhiAxisType,</text>
-<text text-anchor="start" x="285" y="-618.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   ZAxisType, RAxisType &gt;</text>
+<text text-anchor="start" x="290" y="-633.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; HoughCell&lt; identifier</text>
+<text text-anchor="start" x="290" y="-618.85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  _t &gt;, Axis, Axis &gt;</text>
 </g>
 <!-- Node20&#45;&gt;Node14 -->
 <g id="edge32_Node000020_Node000014" class="edge">

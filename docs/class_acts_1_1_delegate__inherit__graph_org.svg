@@ -142,10 +142,10 @@
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="class_acts_1_1_delegate.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="731,-1541.65 553,-1541.65 553,-1489.65 731,-1489.65 731,-1541.65"/>
-<text text-anchor="start" x="561" y="-1529.65" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
-<text text-anchor="start" x="561" y="-1518.65" font-family="Helvetica,sans-Serif" font-size="10.00">(const ConstSpacePointProxy2</text>
-<text text-anchor="start" x="561" y="-1507.65" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const ConstSpacePointProxy2</text>
+<polygon fill="white" stroke="#bfbfbf" points="728,-1541.65 556,-1541.65 556,-1489.65 728,-1489.65 728,-1541.65"/>
+<text text-anchor="start" x="564" y="-1529.65" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Delegate&lt; bool</text>
+<text text-anchor="start" x="564" y="-1518.65" font-family="Helvetica,sans-Serif" font-size="10.00">(const ConstSpacePointProxy</text>
+<text text-anchor="start" x="564" y="-1507.65" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, const ConstSpacePointProxy</text>
 <text text-anchor="middle" x="642" y="-1496.65" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;, float, bool)&gt;</text>
 </a>
 </g>
@@ -154,13 +154,13 @@
 <g id="edge7_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
 <g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M76.7,-891C76.01,-997.94 79.33,-1410.49 170,-1492.65 183.93,-1505.27 420.52,-1511.62 552.96,-1514.2"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M76.7,-891C76.01,-997.94 79.33,-1410.49 170,-1492.65 184.04,-1505.37 424.08,-1511.72 555.91,-1514.26"/>
 <polygon fill="orange" stroke="orange" points="80.2,-890.85 76.78,-880.82 73.2,-890.79 80.2,-890.85"/>
 </a>
 </g>
-<text text-anchor="start" x="229.5" y="-1547.15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; bool(const ConstSpacePoint</text>
-<text text-anchor="start" x="229.5" y="-1532.15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  Proxy2 &amp;, const ConstSpacePoint</text>
-<text text-anchor="start" x="229.5" y="-1517.15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  Proxy2 &amp;, float, bool)&gt;</text>
+<text text-anchor="start" x="218.5" y="-1547.15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; bool(const ConstSpacePoint</text>
+<text text-anchor="start" x="218.5" y="-1532.15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  Proxy &amp;, const ConstSpacePointProxy</text>
+<text text-anchor="start" x="218.5" y="-1517.15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">   &amp;, float, bool)&gt;</text>
 </g>
 <!-- Node9 -->
 <g id="Node000009" class="node">

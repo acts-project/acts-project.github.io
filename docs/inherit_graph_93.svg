@@ -20,9 +20,9 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="class_acts_1_1_space_point_container2_1_1_subset.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="351,-270 200,-270 200,-240 351,-240 351,-270"/>
-<text text-anchor="start" x="208" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer2</text>
+<g id="a_Node000001"><a xlink:href="class_acts_1_1_space_point_container_1_1_subset.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="348,-270 203,-270 203,-240 348,-240 348,-270"/>
+<text text-anchor="start" x="211" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer</text>
 <text text-anchor="middle" x="275.5" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">::Subset&lt; false &gt;</text>
 </a>
 </g>
@@ -39,9 +39,9 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_1_1_space_point_container2_1_1_subset.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="351,-222 200,-222 200,-192 351,-192 351,-222"/>
-<text text-anchor="start" x="208" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer2</text>
+<g id="a_Node000002"><a xlink:href="class_acts_1_1_space_point_container_1_1_subset.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="348,-222 203,-222 203,-192 348,-192 348,-222"/>
+<text text-anchor="start" x="211" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer</text>
 <text text-anchor="middle" x="275.5" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">::Subset&lt; true &gt;</text>
 </a>
 </g>
@@ -115,9 +115,9 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="class_acts_1_1_space_point_container2_1_1_subset.html" target="_top" xlink:title="Subset facade over arbitrary index sets.">
-<polygon fill="white" stroke="#666666" points="351,-30 200,-30 200,0 351,0 351,-30"/>
-<text text-anchor="start" x="208" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer2</text>
+<g id="a_Node000006"><a xlink:href="class_acts_1_1_space_point_container_1_1_subset.html" target="_top" xlink:title="Subset facade over arbitrary index sets.">
+<polygon fill="white" stroke="#666666" points="348,-30 203,-30 203,0 348,0 348,-30"/>
+<text text-anchor="start" x="211" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::SpacePointContainer</text>
 <text text-anchor="middle" x="275.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Subset&lt; read_only &gt;</text>
 </a>
 </g>

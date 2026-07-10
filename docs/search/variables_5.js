@@ -11,7 +11,7 @@ var searchData=
   ['fieldcell_8',['fieldCell',['../struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#a4ee0c05dd49764b3616091cd0bed9a29',1,'Acts::InterpolatedBFieldMap::Cache']]],
   ['filename_9',['fileName',['../class_acts_plugins_1_1_root_material_decorator_1_1_config.html#a983dd1f8ecc711eeee13856dc0e7d4df',1,'ActsPlugins::RootMaterialDecorator::Config']]],
   ['fillcolor_10',['fillColor',['../struct_acts_plugins_1_1_svg_1_1_style.html#aa143e5ce0361e16a686fb04efd643d2f',1,'ActsPlugins::Svg::Style']]],
-  ['fillneighbours_11',['fillNeighbours',['../struct_acts_1_1_hough_vertex_finder2_1_1_config.html#a4a2cd591008f105dfdc7c0b17b6621b7',1,'Acts::HoughVertexFinder2::Config']]],
+  ['fillneighbours_11',['fillNeighbours',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#ab756f38d2c72230228c8a6a1ff4dcf12',1,'Acts::HoughVertexFinder::Config']]],
   ['fillopacity_12',['fillOpacity',['../struct_acts_plugins_1_1_svg_1_1_style.html#a3f8644cb2b2731336011f4a7b319174d',1,'ActsPlugins::Svg::Style']]],
   ['finalmulticomponentstatecolumn_13',['finalMultiComponentStateColumn',['../struct_acts_1_1_gsf_options.html#ab0f93a6e84b41076e99947aa0cbbed0f',1,'Acts::GsfOptions']]],
   ['finalviews_14',['finalViews',['../struct_acts_plugins_1_1_svg_1_1_tracking_geometry_converter_1_1_state.html#a645d52940fbe91498edd3c6cd81cce23',1,'ActsPlugins::Svg::TrackingGeometryConverter::State']]],

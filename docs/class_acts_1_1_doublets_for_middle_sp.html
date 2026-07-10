@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_doublets_for_middle_sp.html','','class_
 <p>Container for doublets found by the doublet seed finder.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_doublet_seed_finder_8hpp_source.html">Acts/Seeding2/DoubletSeedFinder.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_doublet_seed_finder_8hpp_source.html">Acts/Seeding/DoubletSeedFinder.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -172,8 +172,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:abea621d8c70c97751eac275ea4a5f01c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all stored doublets and associated data. <br /></td></tr>
 <tr class="memitem:affb2ef4438677b59c9b64513acc04031" id="r_affb2ef4438677b59c9b64513acc04031"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb2ef4438677b59c9b64513acc04031">cotTheta</a> () const</td></tr>
 <tr class="memdesc:affb2ef4438677b59c9b64513acc04031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to cotTheta values container.  <br /></td></tr>
-<tr class="memitem:afebf113446ded863f3e5187eec717122" id="r_afebf113446ded863f3e5187eec717122"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afebf113446ded863f3e5187eec717122">emplace_back</a> (<a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> sp, float <a class="el" href="#affb2ef4438677b59c9b64513acc04031">cotTheta</a>, float iDeltaR, float er, float u, float v, float x, float y)</td></tr>
-<tr class="memdesc:afebf113446ded863f3e5187eec717122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new doublet with associated parameters.  <br /></td></tr>
+<tr class="memitem:a9d169fd9f0cd08b85c86a1cb88f9dfb0" id="r_a9d169fd9f0cd08b85c86a1cb88f9dfb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d169fd9f0cd08b85c86a1cb88f9dfb0">emplace_back</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> sp, float <a class="el" href="#affb2ef4438677b59c9b64513acc04031">cotTheta</a>, float iDeltaR, float er, float u, float v, float x, float y)</td></tr>
+<tr class="memdesc:a9d169fd9f0cd08b85c86a1cb88f9dfb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new doublet with associated parameters.  <br /></td></tr>
 <tr class="memitem:a5799c6d1e9d7c44cb66c140b1f5e829c" id="r_a5799c6d1e9d7c44cb66c140b1f5e829c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5799c6d1e9d7c44cb66c140b1f5e829c">empty</a> () const</td></tr>
 <tr class="memdesc:a5799c6d1e9d7c44cb66c140b1f5e829c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the doublets container is empty.  <br /></td></tr>
 <tr class="memitem:a91ef25904474f687709c3acd2dd31f26" id="r_a91ef25904474f687709c3acd2dd31f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af51c07e017ae732dc4e047c674f174b1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ef25904474f687709c3acd2dd31f26">end</a> () const</td></tr>
@@ -190,8 +190,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 <tr class="memdesc:a36a1b112ae75d2aead0dc37fccdf8253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of doublets in container.  <br /></td></tr>
 <tr class="memitem:aaa494ef65d31a686aeb8b9dce2909a5f" id="r_aaa494ef65d31a686aeb8b9dce2909a5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa494ef65d31a686aeb8b9dce2909a5f">sortByCotTheta</a> (const <a class="el" href="#a7ad0809dae29ce5d31cbef2f7176f719">IndexRange</a> &amp;<a class="el" href="#a7f8a170b647559b2e8b2c74c0f305ba4">range</a>, std::vector&lt; <a class="el" href="struct_acts_1_1_doublets_for_middle_sp_1_1_index_and_cot_theta.html">IndexAndCotTheta</a> &gt; &amp;indexAndCotTheta) const</td></tr>
 <tr class="memdesc:aaa494ef65d31a686aeb8b9dce2909a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort doublets by cotTheta within given range.  <br /></td></tr>
-<tr class="memitem:a3ebb31abb3eb9d6f9cad22a959bf2718" id="r_a3ebb31abb3eb9d6f9cad22a959bf2718"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ebb31abb3eb9d6f9cad22a959bf2718">spacePoints</a> () const</td></tr>
-<tr class="memdesc:a3ebb31abb3eb9d6f9cad22a959bf2718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to space point indices container.  <br /></td></tr>
+<tr class="memitem:a1bcd91857db9dbb382bf7655918946ec" id="r_a1bcd91857db9dbb382bf7655918946ec"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bcd91857db9dbb382bf7655918946ec">spacePoints</a> () const</td></tr>
+<tr class="memdesc:a1bcd91857db9dbb382bf7655918946ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to space point indices container.  <br /></td></tr>
 <tr class="memitem:acf5046a01340f98b8276a6f2a6a23d81" id="r_acf5046a01340f98b8276a6f2a6a23d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset2.html">Subset2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5046a01340f98b8276a6f2a6a23d81">subset</a> (const <a class="el" href="#a7382122c85e38256a07f91aa049e19e7">IndexAndCotThetaSubset</a> &amp;subset) const noexcept</td></tr>
 <tr class="memdesc:acf5046a01340f98b8276a6f2a6a23d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create subset view from index and cotTheta subset.  <br /></td></tr>
 <tr class="memitem:a2e80bf7434ac5a4273d37f6d400c843e" id="r_a2e80bf7434ac5a4273d37f6d400c843e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_subset.html">Subset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e80bf7434ac5a4273d37f6d400c843e">subset</a> (const <a class="el" href="#a99fb06aa62461b453d740cc6d14ce998">IndexSubset</a> &amp;subset) const noexcept</td></tr>
@@ -260,8 +260,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 
 </div>
 </div>
-<a id="afebf113446ded863f3e5187eec717122" name="afebf113446ded863f3e5187eec717122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afebf113446ded863f3e5187eec717122">&#9670;&#160;</a></span>emplace_back()</h2>
+<a id="a9d169fd9f0cd08b85c86a1cb88f9dfb0" name="a9d169fd9f0cd08b85c86a1cb88f9dfb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d169fd9f0cd08b85c86a1cb88f9dfb0">&#9670;&#160;</a></span>emplace_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,7 +269,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
         <tr>
           <td class="memname">void Acts::DoubletsForMiddleSp::emplace_back </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a></td>          <td class="paramname"><span class="paramname"><em>sp</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a></td>          <td class="paramname"><span class="paramname"><em>sp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -546,14 +546,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 
 </div>
 </div>
-<a id="a3ebb31abb3eb9d6f9cad22a959bf2718" name="a3ebb31abb3eb9d6f9cad22a959bf2718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ebb31abb3eb9d6f9cad22a959bf2718">&#9670;&#160;</a></span>spacePoints()</h2>
+<a id="a1bcd91857db9dbb382bf7655918946ec" name="a1bcd91857db9dbb382bf7655918946ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bcd91857db9dbb382bf7655918946ec">&#9670;&#160;</a></span>spacePoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a> &gt; &amp; Acts::DoubletsForMiddleSp::spacePoints </td>
+          <td class="memname">const std::vector&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> &gt; &amp; Acts::DoubletsForMiddleSp::spacePoints </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

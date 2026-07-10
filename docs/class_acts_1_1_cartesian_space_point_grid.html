@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_cartesian_space_point_grid.html','','cl
 <p>A cartesian space point grid used for seeding in a cartesian detector geometry.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_cartesian_space_point_grid_8hpp_source.html">Acts/Seeding2/CartesianSpacePointGrid.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_cartesian_space_point_grid_8hpp_source.html">Acts/Seeding/CartesianSpacePointGrid.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -175,24 +175,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a52f3b24a802bdecf9bbe51579dbb48e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the binned group.  <br /></td></tr>
 <tr class="memitem:a511ed7520e0861f52592df8e8f324b85" id="r_a511ed7520e0861f52592df8e8f324b85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a511ed7520e0861f52592df8e8f324b85">clear</a> ()</td></tr>
 <tr class="memdesc:a511ed7520e0861f52592df8e8f324b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the grid and drop all state.  <br /></td></tr>
-<tr class="memitem:aee9d517c9ff6374dfdcfb33017eaaf65" id="r_aee9d517c9ff6374dfdcfb33017eaaf65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee9d517c9ff6374dfdcfb33017eaaf65">computeCoordRange</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints) const</td></tr>
-<tr class="memdesc:aee9d517c9ff6374dfdcfb33017eaaf65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the range of the sorting coordinates in the grid.  <br /></td></tr>
-<tr class="memitem:a3db4e51c1f399ffd48a78f6bdd029588" id="r_a3db4e51c1f399ffd48a78f6bdd029588"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3db4e51c1f399ffd48a78f6bdd029588">extend</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html#a97b60c6d237fb8556f8affd655109822">SpacePointContainer2::ConstRange</a> &amp;spacePoints)</td></tr>
-<tr class="memdesc:a3db4e51c1f399ffd48a78f6bdd029588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the grid with space points from the container.  <br /></td></tr>
+<tr class="memitem:a2379bfefb120c103f2dac5e702558aab" id="r_a2379bfefb120c103f2dac5e702558aab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2379bfefb120c103f2dac5e702558aab">computeCoordRange</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints) const</td></tr>
+<tr class="memdesc:a2379bfefb120c103f2dac5e702558aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the range of the sorting coordinates in the grid.  <br /></td></tr>
+<tr class="memitem:a5342478ef78afc589f66076c2832ab77" id="r_a5342478ef78afc589f66076c2832ab77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5342478ef78afc589f66076c2832ab77">extend</a> (const <a class="el" href="class_acts_1_1_space_point_container.html#a21b656f41ff5458b961350dcad0f122a">SpacePointContainer::ConstRange</a> &amp;spacePoints)</td></tr>
+<tr class="memdesc:a5342478ef78afc589f66076c2832ab77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the grid with space points from the container.  <br /></td></tr>
 <tr class="memitem:a852f2224581e8686fdb1dd675be4b6a8" id="r_a852f2224581e8686fdb1dd675be4b6a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad41114c220818936b1f9758053e1c936">GridType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852f2224581e8686fdb1dd675be4b6a8">grid</a> ()</td></tr>
 <tr class="memdesc:a852f2224581e8686fdb1dd675be4b6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable grid access.  <br /></td></tr>
 <tr class="memitem:a96c1dd92eb9459aff9ca7a77c41fcb59" id="r_a96c1dd92eb9459aff9ca7a77c41fcb59"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ad41114c220818936b1f9758053e1c936">GridType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96c1dd92eb9459aff9ca7a77c41fcb59">grid</a> () const</td></tr>
 <tr class="memdesc:a96c1dd92eb9459aff9ca7a77c41fcb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const grid access.  <br /></td></tr>
-<tr class="memitem:a9923757b9ffb1cf5ffb5d01bd9d9c582" id="r_a9923757b9ffb1cf5ffb5d01bd9d9c582"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9923757b9ffb1cf5ffb5d01bd9d9c582">insert</a> (const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;sp)</td></tr>
-<tr class="memdesc:a9923757b9ffb1cf5ffb5d01bd9d9c582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point into the grid.  <br /></td></tr>
+<tr class="memitem:a2cdf9789800c5048771448c1c62c2997" id="r_a2cdf9789800c5048771448c1c62c2997"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cdf9789800c5048771448c1c62c2997">insert</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;sp)</td></tr>
+<tr class="memdesc:a2cdf9789800c5048771448c1c62c2997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point into the grid.  <br /></td></tr>
 <tr class="memitem:ae65ac3f89bc8cc3a312062ed40afd7ef" id="r_ae65ac3f89bc8cc3a312062ed40afd7ef"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65ac3f89bc8cc3a312062ed40afd7ef">insert</a> (<a class="el" href="#a01010866b023006d8aed815e38a2c5a9">SpacePointIndex</a> index, float x, float y, float z)</td></tr>
 <tr class="memdesc:ae65ac3f89bc8cc3a312062ed40afd7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point into the grid.  <br /></td></tr>
 <tr class="memitem:ad1e4f6d33075cc280645142f5883b351" id="r_ad1e4f6d33075cc280645142f5883b351"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e4f6d33075cc280645142f5883b351">numberOfBins</a> () const</td></tr>
 <tr class="memdesc:ad1e4f6d33075cc280645142f5883b351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of bins in the grid.  <br /></td></tr>
 <tr class="memitem:a506f7bd39cd2541e8ef3c6e10e94416c" id="r_a506f7bd39cd2541e8ef3c6e10e94416c"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a506f7bd39cd2541e8ef3c6e10e94416c">numberOfSpacePoints</a> () const</td></tr>
 <tr class="memdesc:a506f7bd39cd2541e8ef3c6e10e94416c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of space points in the grid.  <br /></td></tr>
-<tr class="memitem:a8f0c75b0c9a8b707aa4299e60bcd6075" id="r_a8f0c75b0c9a8b707aa4299e60bcd6075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f0c75b0c9a8b707aa4299e60bcd6075">sortBinsByCoord</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints)</td></tr>
-<tr class="memdesc:a8f0c75b0c9a8b707aa4299e60bcd6075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the bins in the grid by the space point sorting-coordinate, which is required by some algorithms that operate on the grid.  <br /></td></tr>
+<tr class="memitem:a1b25d264aea0097aa5448af2a84d7b52" id="r_a1b25d264aea0097aa5448af2a84d7b52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b25d264aea0097aa5448af2a84d7b52">sortBinsByCoord</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints)</td></tr>
+<tr class="memdesc:a1b25d264aea0097aa5448af2a84d7b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the bins in the grid by the space point sorting-coordinate, which is required by some algorithms that operate on the grid.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A cartesian space point grid used for seeding in a cartesian detector geometry. </p>
@@ -410,8 +410,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aee9d517c9ff6374dfdcfb33017eaaf65" name="aee9d517c9ff6374dfdcfb33017eaaf65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee9d517c9ff6374dfdcfb33017eaaf65">&#9670;&#160;</a></span>computeCoordRange()</h2>
+<a id="a2379bfefb120c103f2dac5e702558aab" name="a2379bfefb120c103f2dac5e702558aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2379bfefb120c103f2dac5e702558aab">&#9670;&#160;</a></span>computeCoordRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,7 +419,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; float &gt; Acts::CartesianSpacePointGrid::computeCoordRange </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -436,8 +436,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3db4e51c1f399ffd48a78f6bdd029588" name="a3db4e51c1f399ffd48a78f6bdd029588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3db4e51c1f399ffd48a78f6bdd029588">&#9670;&#160;</a></span>extend()</h2>
+<a id="a5342478ef78afc589f66076c2832ab77" name="a5342478ef78afc589f66076c2832ab77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5342478ef78afc589f66076c2832ab77">&#9670;&#160;</a></span>extend()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +445,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::CartesianSpacePointGrid::extend </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html#a97b60c6d237fb8556f8affd655109822">SpacePointContainer2::ConstRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html#a21b656f41ff5458b961350dcad0f122a">SpacePointContainer::ConstRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -501,8 +501,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9923757b9ffb1cf5ffb5d01bd9d9c582" name="a9923757b9ffb1cf5ffb5d01bd9d9c582"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9923757b9ffb1cf5ffb5d01bd9d9c582">&#9670;&#160;</a></span>insert() <span class="overload">[1/2]</span></h2>
+<a id="a2cdf9789800c5048771448c1c62c2997" name="a2cdf9789800c5048771448c1c62c2997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cdf9789800c5048771448c1c62c2997">&#9670;&#160;</a></span>insert() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,7 +510,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; std::size_t &gt; Acts::CartesianSpacePointGrid::insert </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sp</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -610,8 +610,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f0c75b0c9a8b707aa4299e60bcd6075" name="a8f0c75b0c9a8b707aa4299e60bcd6075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f0c75b0c9a8b707aa4299e60bcd6075">&#9670;&#160;</a></span>sortBinsByCoord()</h2>
+<a id="a1b25d264aea0097aa5448af2a84d7b52" name="a1b25d264aea0097aa5448af2a84d7b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b25d264aea0097aa5448af2a84d7b52">&#9670;&#160;</a></span>sortBinsByCoord()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -619,7 +619,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::CartesianSpacePointGrid::sortBinsByCoord </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

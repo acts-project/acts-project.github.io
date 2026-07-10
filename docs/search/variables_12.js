@@ -96,7 +96,7 @@ var searchData=
   ['smoother_93',['smoother',['../struct_acts_1_1_kalman_fitter_extensions.html#a6ecda841a98932215821ef48a18cc9b9',1,'Acts::KalmanFitterExtensions']]],
   ['sortedbottoms_94',['sortedBottoms',['../struct_acts_1_1_triplet_seeder_1_1_cache.html#a8b50def02df5ae9c0ed4583844ae4e80',1,'Acts::TripletSeeder::Cache']]],
   ['sortedbycottheta_95',['sortedByCotTheta',['../struct_acts_1_1_triplet_seed_finder_1_1_config.html#a125afabc9c3413738ec6786e7271b246',1,'Acts::TripletSeedFinder::Config']]],
-  ['sortedcandidates_96',['sortedCandidates',['../struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html#a424bfd18b970182288043af13cb9f787',1,'Acts::BroadTripletSeedFilter::Cache']]],
+  ['sortedcandidates_96',['sortedCandidates',['../struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html#a65cb1b88afc3544bbbe4acdaa6a7fe81',1,'Acts::BroadTripletSeedFilter::Cache']]],
   ['sortedtops_97',['sortedTops',['../struct_acts_1_1_triplet_seeder_1_1_cache.html#a5bfaf98dc7e0a25910a6ef0be8bcfd08',1,'Acts::TripletSeeder::Cache']]],
   ['sortingcoord_98',['sortingCoord',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#adf72f02e6f444ed4e8e59f6f65600e94',1,'Acts::CartesianSpacePointGrid::Config']]],
   ['sortingdirection_99',['sortingDirection',['../struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#a5fab1b6f426a5276088ac176681b6aad',1,'Acts::CartesianSpacePointGrid::Config']]],

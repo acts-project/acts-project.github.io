@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_doublet_seed_finder.html','','class_act
 <p>Interface and a collection of standard implementations for a doublet seed finder.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_doublet_seed_finder_8hpp_source.html">Acts/Seeding2/DoubletSeedFinder.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_doublet_seed_finder_8hpp_source.html">Acts/Seeding/DoubletSeedFinder.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -142,15 +142,15 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a968891077bcade98e5dc1505dc735eb8" id="r_a968891077bcade98e5dc1505dc735eb8"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html">DerivedConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a968891077bcade98e5dc1505dc735eb8">config</a> () const =0</td></tr>
 <tr class="memdesc:a968891077bcade98e5dc1505dc735eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the configuration of the doublet seed finder.  <br /></td></tr>
-<tr class="memitem:a1983a9ef39d63b47add1adac7a5d0755" id="r_a1983a9ef39d63b47add1adac7a5d0755"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1983a9ef39d63b47add1adac7a5d0755">createDoublets</a> (const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;middleSp, const <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a> &amp;middleSpInfo, <a class="el" href="class_acts_1_1_space_point_container2.html#a97b60c6d237fb8556f8affd655109822">SpacePointContainer2::ConstRange</a> &amp;candidateSps, <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;compatibleDoublets) const =0</td></tr>
-<tr class="memdesc:a1983a9ef39d63b47add1adac7a5d0755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates compatible dublets by applying a series of cuts that can be tested with only two SPs.  <br /></td></tr>
-<tr class="memitem:a4495f8065b6d4702f9fcb24dbec302f7" id="r_a4495f8065b6d4702f9fcb24dbec302f7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4495f8065b6d4702f9fcb24dbec302f7">createDoublets</a> (const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;middleSp, const <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a> &amp;middleSpInfo, <a class="el" href="class_acts_1_1_space_point_container2.html#ae9d03b50196fab948915a1c5bcc22da2">SpacePointContainer2::ConstSubset</a> &amp;candidateSps, <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;compatibleDoublets) const =0</td></tr>
-<tr class="memdesc:a4495f8065b6d4702f9fcb24dbec302f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates compatible dublets by applying a series of cuts that can be tested with only two SPs.  <br /></td></tr>
+<tr class="memitem:a442fcc97cfde3787d78fbb6d0af5b76e" id="r_a442fcc97cfde3787d78fbb6d0af5b76e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442fcc97cfde3787d78fbb6d0af5b76e">createDoublets</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;middleSp, const <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a> &amp;middleSpInfo, <a class="el" href="class_acts_1_1_space_point_container.html#a21b656f41ff5458b961350dcad0f122a">SpacePointContainer::ConstRange</a> &amp;candidateSps, <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;compatibleDoublets) const =0</td></tr>
+<tr class="memdesc:a442fcc97cfde3787d78fbb6d0af5b76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates compatible dublets by applying a series of cuts that can be tested with only two SPs.  <br /></td></tr>
+<tr class="memitem:a8be317efef82923390f88ac22a3bbe49" id="r_a8be317efef82923390f88ac22a3bbe49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be317efef82923390f88ac22a3bbe49">createDoublets</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;middleSp, const <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a> &amp;middleSpInfo, <a class="el" href="class_acts_1_1_space_point_container.html#a55c6e3fb83a21d16f9e56110eef765ad">SpacePointContainer::ConstSubset</a> &amp;candidateSps, <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;compatibleDoublets) const =0</td></tr>
+<tr class="memdesc:a8be317efef82923390f88ac22a3bbe49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates compatible dublets by applying a series of cuts that can be tested with only two SPs.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afd0c71f324af4b1c5d083b69eae5a36d" id="r_afd0c71f324af4b1c5d083b69eae5a36d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd0c71f324af4b1c5d083b69eae5a36d">computeMiddleSpInfo</a> (const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;spM)</td></tr>
-<tr class="memdesc:afd0c71f324af4b1c5d083b69eae5a36d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes additional quantities from the middle space point which can be reused during doublet finding.  <br /></td></tr>
+<tr class="memitem:a22fcfde342eed27a5b5b3b1a568c972a" id="r_a22fcfde342eed27a5b5b3b1a568c972a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22fcfde342eed27a5b5b3b1a568c972a">computeMiddleSpInfo</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;spM)</td></tr>
+<tr class="memdesc:a22fcfde342eed27a5b5b3b1a568c972a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes additional quantities from the middle space point which can be reused during doublet finding.  <br /></td></tr>
 <tr class="memitem:a747e4b16fa50d4b104ede9300bb2702c" id="r_a747e4b16fa50d4b104ede9300bb2702c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_doublet_seed_finder.html">DoubletSeedFinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747e4b16fa50d4b104ede9300bb2702c">create</a> (const <a class="el" href="struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html">DerivedConfig</a> &amp;<a class="el" href="#a968891077bcade98e5dc1505dc735eb8">config</a>)</td></tr>
 <tr class="memdesc:a747e4b16fa50d4b104ede9300bb2702c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new doublet seed finder instance given the configuration.  <br /></td></tr>
 </table>
@@ -159,8 +159,8 @@ Static Public Member Functions</h2></td></tr>
 <p>Given a starting space point and a collection of candidates, it finds all doublets that satisfy the selection criteria. For the standard implementations the criteria are given by interaction point cuts.</p>
 <dl class="section note"><dt>Note</dt><dd>The standard implementations rely on virtual function dispatch which did not turn out to affect the performance after measurement. </dd></dl>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="afd0c71f324af4b1c5d083b69eae5a36d" name="afd0c71f324af4b1c5d083b69eae5a36d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd0c71f324af4b1c5d083b69eae5a36d">&#9670;&#160;</a></span>computeMiddleSpInfo()</h2>
+<a id="a22fcfde342eed27a5b5b3b1a568c972a" name="a22fcfde342eed27a5b5b3b1a568c972a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22fcfde342eed27a5b5b3b1a568c972a">&#9670;&#160;</a></span>computeMiddleSpInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +171,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="struct_acts_1_1_middle_sp_info.html">MiddleSpInfo</a> Acts::DoubletSeedFinder::computeMiddleSpInfo </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -255,8 +255,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1983a9ef39d63b47add1adac7a5d0755" name="a1983a9ef39d63b47add1adac7a5d0755"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1983a9ef39d63b47add1adac7a5d0755">&#9670;&#160;</a></span>createDoublets() <span class="overload">[1/2]</span></h2>
+<a id="a442fcc97cfde3787d78fbb6d0af5b76e" name="a442fcc97cfde3787d78fbb6d0af5b76e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a442fcc97cfde3787d78fbb6d0af5b76e">&#9670;&#160;</a></span>createDoublets() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +267,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void Acts::DoubletSeedFinder::createDoublets </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>middleSp</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>middleSp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -277,7 +277,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_space_point_container2.html#a97b60c6d237fb8556f8affd655109822">SpacePointContainer2::ConstRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>candidateSps</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_space_point_container.html#a21b656f41ff5458b961350dcad0f122a">SpacePointContainer::ConstRange</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>candidateSps</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,8 +305,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4495f8065b6d4702f9fcb24dbec302f7" name="a4495f8065b6d4702f9fcb24dbec302f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4495f8065b6d4702f9fcb24dbec302f7">&#9670;&#160;</a></span>createDoublets() <span class="overload">[2/2]</span></h2>
+<a id="a8be317efef82923390f88ac22a3bbe49" name="a8be317efef82923390f88ac22a3bbe49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be317efef82923390f88ac22a3bbe49">&#9670;&#160;</a></span>createDoublets() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,7 +317,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void Acts::DoubletSeedFinder::createDoublets </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>middleSp</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>middleSp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -327,7 +327,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_space_point_container2.html#ae9d03b50196fab948915a1c5bcc22da2">SpacePointContainer2::ConstSubset</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>candidateSps</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_space_point_container.html#a55c6e3fb83a21d16f9e56110eef765ad">SpacePointContainer::ConstSubset</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>candidateSps</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

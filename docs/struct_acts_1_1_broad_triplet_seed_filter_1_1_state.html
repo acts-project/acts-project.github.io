@@ -129,20 +129,20 @@ $(function(){initNavTree('struct_acts_1_1_broad_triplet_seed_filter_1_1_state.ht
 <p>State of the filter that is communicated between different stages.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_broad_triplet_seed_filter_8hpp_source.html">Acts/Seeding2/BroadTripletSeedFilter.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_broad_triplet_seed_filter_8hpp_source.html">Acts/Seeding/BroadTripletSeedFilter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Acts::BroadTripletSeedFilter::State:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_broad_triplet_seed_filter_1_1_state__coll__graph.svg" width="256" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_broad_triplet_seed_filter_1_1_state__coll__graph.svg" width="256" height="292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a65c74635dd5b524d2c8d22270ff9fd09" id="r_a65c74635dd5b524d2c8d22270ff9fd09"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c74635dd5b524d2c8d22270ff9fd09">bestSeedQualityMap</a></td></tr>
-<tr class="memdesc:a65c74635dd5b524d2c8d22270ff9fd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store the best seed quality for each space point.  <br /></td></tr>
-<tr class="memitem:a5db8c374396ae33a0b43a61fd4a39b44" id="r_a5db8c374396ae33a0b43a61fd4a39b44"><td class="memItemLeft" align="right" valign="top"><a id="a5db8c374396ae33a0b43a61fd4a39b44" name="a5db8c374396ae33a0b43a61fd4a39b44"></a>
-CandidatesForMiddleSp2&#160;</td><td class="memItemRight" valign="bottom"><b>candidatesCollector</b></td></tr>
-<tr class="memdesc:a5db8c374396ae33a0b43a61fd4a39b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector for triplet candidates associated with middle space points. <br /></td></tr>
+<tr class="memitem:a506bf39f3eeeb261700453edb91d3beb" id="r_a506bf39f3eeeb261700453edb91d3beb"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a>, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a506bf39f3eeeb261700453edb91d3beb">bestSeedQualityMap</a></td></tr>
+<tr class="memdesc:a506bf39f3eeeb261700453edb91d3beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map to store the best seed quality for each space point.  <br /></td></tr>
+<tr class="memitem:aa2f1af2cb1cf39aa238b54b4aa104da8" id="r_aa2f1af2cb1cf39aa238b54b4aa104da8"><td class="memItemLeft" align="right" valign="top"><a id="aa2f1af2cb1cf39aa238b54b4aa104da8" name="aa2f1af2cb1cf39aa238b54b4aa104da8"></a>
+CandidatesForMiddleSp&#160;</td><td class="memItemRight" valign="bottom"><b>candidatesCollector</b></td></tr>
+<tr class="memdesc:aa2f1af2cb1cf39aa238b54b4aa104da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collector for triplet candidates associated with middle space points. <br /></td></tr>
 <tr class="memitem:aae449d5e09faa2f3689611b12f80f553" id="r_aae449d5e09faa2f3689611b12f80f553"><td class="memItemLeft" align="right" valign="top"><a id="aae449d5e09faa2f3689611b12f80f553" name="aae449d5e09faa2f3689611b12f80f553"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>rMaxSeedConf</b> {}</td></tr>
 <tr class="memdesc:aae449d5e09faa2f3689611b12f80f553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum radius for seed confirmation. <br /></td></tr>
@@ -150,14 +150,14 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>rMaxSeedConf</b> {}<
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>State of the filter that is communicated between different stages. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a65c74635dd5b524d2c8d22270ff9fd09" name="a65c74635dd5b524d2c8d22270ff9fd09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65c74635dd5b524d2c8d22270ff9fd09">&#9670;&#160;</a></span>bestSeedQualityMap</h2>
+<a id="a506bf39f3eeeb261700453edb91d3beb" name="a506bf39f3eeeb261700453edb91d3beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a506bf39f3eeeb261700453edb91d3beb">&#9670;&#160;</a></span>bestSeedQualityMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="namespace_acts.html#a59d378bfaff7526c72743adf3da1bc1f">SpacePointIndex2</a>, float&gt; Acts::BroadTripletSeedFilter::State::bestSeedQualityMap</td>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a>, float&gt; Acts::BroadTripletSeedFilter::State::bestSeedQualityMap</td>
         </tr>
       </table>
 </div><div class="memdoc">

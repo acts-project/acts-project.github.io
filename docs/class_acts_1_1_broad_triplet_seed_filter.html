@@ -129,7 +129,7 @@ $(function(){initNavTree('class_acts_1_1_broad_triplet_seed_filter.html','','cla
 <p>Triplet seed filter used in the triplet seeding algorithm.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_broad_triplet_seed_filter_8hpp_source.html">Acts/Seeding2/BroadTripletSeedFilter.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_broad_triplet_seed_filter_8hpp_source.html">Acts/Seeding/BroadTripletSeedFilter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acts::BroadTripletSeedFilter:</div>
 <div class="dyncontent">
@@ -153,11 +153,11 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a33ad0e578b15f35904d5f1d162cc0c3f" id="r_a33ad0e578b15f35904d5f1d162cc0c3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ad0e578b15f35904d5f1d162cc0c3f">BroadTripletSeedFilter</a> (const <a class="el" href="struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html">Config</a> &amp;config, <a class="el" href="struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html">State</a> &amp;state, <a class="el" href="struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html">Cache</a> &amp;cache, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
-<tr class="memitem:a97d8882510b2ca132f09740fae1e817c" id="r_a97d8882510b2ca132f09740fae1e817c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d8882510b2ca132f09740fae1e817c">filterTripletsMiddleFixed</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, <a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> &amp;outputCollection) const override</td></tr>
-<tr class="memdesc:a97d8882510b2ca132f09740fae1e817c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create final seeds for all candidates with the same middle space point.  <br /></td></tr>
-<tr class="memitem:a319c5b978742610f9a68765d754b1024" id="r_a319c5b978742610f9a68765d754b1024"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a319c5b978742610f9a68765d754b1024">filterTripletTopCandidates</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;spM, const <a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_proxy.html">DoubletsForMiddleSp::Proxy</a> &amp;bottomLink, const <a class="el" href="class_acts_1_1_triplet_top_candidates.html">TripletTopCandidates</a> &amp;tripletTopCandidates) const override</td></tr>
-<tr class="memdesc:a319c5b978742610f9a68765d754b1024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seed candidates with fixed bottom and middle space points and all compatible top space points.  <br /></td></tr>
-<tr class="memitem:a90bd0f33d08be905750076a5eeefda6e" id="r_a90bd0f33d08be905750076a5eeefda6e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90bd0f33d08be905750076a5eeefda6e">sufficientTopDoublets</a> (const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;spacePoints, const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;spM, const <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;topDoublets) const override</td></tr>
+<tr class="memitem:ae43e8163017d848c24215a7a47e7dd2d" id="r_ae43e8163017d848c24215a7a47e7dd2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae43e8163017d848c24215a7a47e7dd2d">filterTripletsMiddleFixed</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints, <a class="el" href="class_acts_1_1_seed_container.html">SeedContainer</a> &amp;outputCollection) const override</td></tr>
+<tr class="memdesc:ae43e8163017d848c24215a7a47e7dd2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create final seeds for all candidates with the same middle space point.  <br /></td></tr>
+<tr class="memitem:a463ed9ae0e123bcc4f2264e9dd77777c" id="r_a463ed9ae0e123bcc4f2264e9dd77777c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a463ed9ae0e123bcc4f2264e9dd77777c">filterTripletTopCandidates</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints, const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;spM, const <a class="el" href="class_acts_1_1_doublets_for_middle_sp_1_1_proxy.html">DoubletsForMiddleSp::Proxy</a> &amp;bottomLink, const <a class="el" href="class_acts_1_1_triplet_top_candidates.html">TripletTopCandidates</a> &amp;tripletTopCandidates) const override</td></tr>
+<tr class="memdesc:a463ed9ae0e123bcc4f2264e9dd77777c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create seed candidates with fixed bottom and middle space points and all compatible top space points.  <br /></td></tr>
+<tr class="memitem:ab557f537f263718696e0c4f13c8af18f" id="r_ab557f537f263718696e0c4f13c8af18f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab557f537f263718696e0c4f13c8af18f">sufficientTopDoublets</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints, const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;spM, const <a class="el" href="class_acts_1_1_doublets_for_middle_sp.html">DoubletsForMiddleSp</a> &amp;topDoublets) const override</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Triplet seed filter used in the triplet seeding algorithm. </p>
@@ -213,8 +213,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a97d8882510b2ca132f09740fae1e817c" name="a97d8882510b2ca132f09740fae1e817c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d8882510b2ca132f09740fae1e817c">&#9670;&#160;</a></span>filterTripletsMiddleFixed()</h2>
+<a id="ae43e8163017d848c24215a7a47e7dd2d" name="ae43e8163017d848c24215a7a47e7dd2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae43e8163017d848c24215a7a47e7dd2d">&#9670;&#160;</a></span>filterTripletsMiddleFixed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,12 +225,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::BroadTripletSeedFilter::filterTripletsMiddleFixed </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_seed_container2.html">SeedContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputCollection</em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_seed_container.html">SeedContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outputCollection</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -249,12 +249,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_i_triplet_seed_filter.html#a97990e1dc88664ea5b91e99e35e4df7d">Acts::ITripletSeedFilter</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_i_triplet_seed_filter.html#abe2c0706c4eeb1a95eb836dd1b561134">Acts::ITripletSeedFilter</a>.</p>
 
 </div>
 </div>
-<a id="a319c5b978742610f9a68765d754b1024" name="a319c5b978742610f9a68765d754b1024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a319c5b978742610f9a68765d754b1024">&#9670;&#160;</a></span>filterTripletTopCandidates()</h2>
+<a id="a463ed9ae0e123bcc4f2264e9dd77777c" name="a463ed9ae0e123bcc4f2264e9dd77777c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a463ed9ae0e123bcc4f2264e9dd77777c">&#9670;&#160;</a></span>filterTripletTopCandidates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,12 +265,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Acts::BroadTripletSeedFilter::filterTripletTopCandidates </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -301,12 +301,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_i_triplet_seed_filter.html#a86a181740199507a8f94f15742abf42e">Acts::ITripletSeedFilter</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_i_triplet_seed_filter.html#a436af18ca11b25ed377359ee28e422d0">Acts::ITripletSeedFilter</a>.</p>
 
 </div>
 </div>
-<a id="a90bd0f33d08be905750076a5eeefda6e" name="a90bd0f33d08be905750076a5eeefda6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90bd0f33d08be905750076a5eeefda6e">&#9670;&#160;</a></span>sufficientTopDoublets()</h2>
+<a id="ab557f537f263718696e0c4f13c8af18f" name="ab557f537f263718696e0c4f13c8af18f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab557f537f263718696e0c4f13c8af18f">&#9670;&#160;</a></span>sufficientTopDoublets()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,12 +317,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool Acts::BroadTripletSeedFilter::sufficientTopDoublets </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container2.html">SpacePointContainer2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#acd104d9fd9886e714af3bf67c53e508f">ConstSpacePointProxy2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spM</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -346,7 +346,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if sufficient top doublets are found </dd></dl>
 
-<p>Implements <a class="el" href="class_acts_1_1_i_triplet_seed_filter.html#a97024ebeaecd7478fccf2c1e77ea5883">Acts::ITripletSeedFilter</a>.</p>
+<p>Implements <a class="el" href="class_acts_1_1_i_triplet_seed_filter.html#af1fc9171fae197f377b9a47bf272ea3b">Acts::ITripletSeedFilter</a>.</p>
 
 </div>
 </div>
