@@ -1514,15 +1514,17 @@ $(function(){initNavTree('_global_chi_square_fitter_8hpp_source.html','',''); })
 <div class="line"><a id="l01664" name="l01664"></a><span class="lineno"> 1664</span>    <span class="comment">// it for each state</span></div>
 <div class="line"><a id="l01665" name="l01665"></a><span class="lineno"> 1665</span>    track.chi2() = chi2sum;</div>
 <div class="line"><a id="l01666" name="l01666"></a><span class="lineno"> 1666</span> </div>
-<div class="line"><a id="l01667" name="l01667"></a><span class="lineno"> 1667</span>    <span class="comment">// Return the converted Track</span></div>
-<div class="line"><a id="l01668" name="l01668"></a><span class="lineno"> 1668</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l01669" name="l01669"></a><span class="lineno"> 1669</span>  }</div>
+<div class="line"><a id="l01667" name="l01667"></a><span class="lineno"> 1667</span>    track.linkForward();</div>
+<div class="line"><a id="l01668" name="l01668"></a><span class="lineno"> 1668</span> </div>
+<div class="line"><a id="l01669" name="l01669"></a><span class="lineno"> 1669</span>    <span class="comment">// Return the converted Track</span></div>
+<div class="line"><a id="l01670" name="l01670"></a><span class="lineno"> 1670</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l01671" name="l01671"></a><span class="lineno"> 1671</span>  }</div>
 </div>
-<div class="line"><a id="l01670" name="l01670"></a><span class="lineno"> 1670</span>};</div>
+<div class="line"><a id="l01672" name="l01672"></a><span class="lineno"> 1672</span>};</div>
 </div>
-<div class="line"><a id="l01671" name="l01671"></a><span class="lineno"> 1671</span></div>
-<div class="line"><a id="l01673" name="l01673"></a><span class="lineno"> 1673</span> </div>
-<div class="line"><a id="l01674" name="l01674"></a><span class="lineno"> 1674</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
+<div class="line"><a id="l01673" name="l01673"></a><span class="lineno"> 1673</span></div>
+<div class="line"><a id="l01675" name="l01675"></a><span class="lineno"> 1675</span> </div>
+<div class="line"><a id="l01676" name="l01676"></a><span class="lineno"> 1676</span>}  <span class="comment">// namespace Acts::Experimental</span></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a></div><div class="ttdoc">Track parameters bound to a reference surface for a single track.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:36</div></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html_a667b6838f416cdea393a5d390d2dba63"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html#a667b6838f416cdea393a5d390d2dba63">Acts::BoundTrackParameters::parameters</a></div><div class="ttdeci">BoundVector &amp; parameters()</div><div class="ttdoc">Parameters vector.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:141</div></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html_ab2f42712f6ebdc4ea185651b48ab6c99"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html#ab2f42712f6ebdc4ea185651b48ab6c99">Acts::BoundTrackParameters::covariance</a></div><div class="ttdeci">std::optional&lt; BoundMatrix &gt; &amp; covariance()</div><div class="ttdoc">Optional covariance matrix.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:159</div></div>

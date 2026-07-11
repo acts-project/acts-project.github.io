@@ -790,140 +790,142 @@ $(function(){initNavTree('_kalman_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span> </div>
 <div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>    <a class="code hl_function" href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a>(track);</div>
 <div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span> </div>
-<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span>  }</div>
-<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span></div>
-<div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> source_link_iterator_t,</div>
-<div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>            TrackContainerFrontend track_container_t&gt;</div>
-<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>  <span class="keyword">auto</span> fit_impl(source_link_iterator_t it, source_link_iterator_t end,</div>
-<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>                <span class="keyword">const</span> BoundTrackParameters&amp; sParameters,</div>
-<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>                <span class="keyword">const</span> KalmanFitterOptions&lt;traj_t&gt;&amp; kfOptions,</div>
-<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>                <span class="keyword">const</span> std::vector&lt;const Surface*&gt;* sSequence,</div>
-<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>                track_container_t&amp; trackContainer) <span class="keyword">const</span></div>
-<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>      -&gt; Result&lt;typename track_container_t::TrackProxy&gt; {</div>
-<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>    <span class="keyword">using </span>TrackProxy = <span class="keyword">typename</span> track_container_t::TrackProxy;</div>
-<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>    <span class="keyword">using </span>TrackStateProxy = <span class="keyword">typename</span> track_container_t::TrackStateProxy;</div>
-<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span> </div>
-<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span>    <span class="keyword">auto</span> forwardPropagatorOptions =</div>
-<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>        make_propagator_options(it, end, kfOptions, sSequence, <span class="keyword">nullptr</span>, <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span> </div>
-<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>    <span class="keyword">auto</span> forwardFilterResult =</div>
-<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>        filter_impl(sParameters, forwardPropagatorOptions, trackContainer);</div>
-<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span> </div>
-<div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span>    <span class="keywordflow">if</span> (!forwardFilterResult.ok()) {</div>
-<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;KalmanFilter failed: &quot;</span></div>
-<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>                 &lt;&lt; forwardFilterResult.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
-<div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span>                 &lt;&lt; forwardFilterResult.error().message());</div>
-<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>      <span class="keywordflow">return</span> forwardFilterResult.error();</div>
-<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>    }</div>
-<div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span> </div>
-<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    TrackProxy forwardTrack = forwardFilterResult.value();</div>
+<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>    track.linkForward();</div>
+<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span> </div>
+<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>  }</div>
+<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span></div>
+<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> source_link_iterator_t,</div>
+<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>            TrackContainerFrontend track_container_t&gt;</div>
+<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>  <span class="keyword">auto</span> fit_impl(source_link_iterator_t it, source_link_iterator_t end,</div>
+<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>                <span class="keyword">const</span> BoundTrackParameters&amp; sParameters,</div>
+<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>                <span class="keyword">const</span> KalmanFitterOptions&lt;traj_t&gt;&amp; kfOptions,</div>
+<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>                <span class="keyword">const</span> std::vector&lt;const Surface*&gt;* sSequence,</div>
+<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>                track_container_t&amp; trackContainer) <span class="keyword">const</span></div>
+<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>      -&gt; Result&lt;typename track_container_t::TrackProxy&gt; {</div>
+<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>    <span class="keyword">using </span>TrackProxy = <span class="keyword">typename</span> track_container_t::TrackProxy;</div>
+<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span>    <span class="keyword">using </span>TrackStateProxy = <span class="keyword">typename</span> track_container_t::TrackStateProxy;</div>
+<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span> </div>
+<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>    <span class="keyword">auto</span> forwardPropagatorOptions =</div>
+<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>        make_propagator_options(it, end, kfOptions, sSequence, <span class="keyword">nullptr</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span> </div>
+<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>    <span class="keyword">auto</span> forwardFilterResult =</div>
+<div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span>        filter_impl(sParameters, forwardPropagatorOptions, trackContainer);</div>
+<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span> </div>
+<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>    <span class="keywordflow">if</span> (!forwardFilterResult.ok()) {</div>
+<div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;KalmanFilter failed: &quot;</span></div>
+<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>                 &lt;&lt; forwardFilterResult.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
+<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>                 &lt;&lt; forwardFilterResult.error().message());</div>
+<div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span>      <span class="keywordflow">return</span> forwardFilterResult.error();</div>
+<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    }</div>
 <div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span> </div>
-<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>    TrackStateProxy firstMeasurementState =</div>
-<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>        trackContainer.trackStateContainer().getTrackState(</div>
-<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>            <a class="code hl_function" href="namespace_acts.html#ab0dc64ed36049abdab55dfafdf61d90e">findFirstMeasurementState</a>(forwardTrack).value().index());</div>
-<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>    TrackStateProxy lastMeasurementState =</div>
-<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>        trackContainer.trackStateContainer().getTrackState(</div>
-<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>            <a class="code hl_function" href="namespace_acts.html#ada531561958bfb2398084547ae4ba9e4">findLastMeasurementState</a>(forwardTrack).value().index());</div>
-<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>    lastMeasurementState.shareFrom(lastMeasurementState,</div>
-<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>                                   TrackStatePropMask::Filtered,</div>
-<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>                                   TrackStatePropMask::Smoothed);</div>
-<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span> </div>
-<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>    TrackProxy track = forwardTrack;</div>
+<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>    TrackProxy forwardTrack = forwardFilterResult.value();</div>
+<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span> </div>
+<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>    TrackStateProxy firstMeasurementState =</div>
+<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>        trackContainer.trackStateContainer().getTrackState(</div>
+<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>            <a class="code hl_function" href="namespace_acts.html#ab0dc64ed36049abdab55dfafdf61d90e">findFirstMeasurementState</a>(forwardTrack).value().index());</div>
+<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>    TrackStateProxy lastMeasurementState =</div>
+<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>        trackContainer.trackStateContainer().getTrackState(</div>
+<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>            <a class="code hl_function" href="namespace_acts.html#ada531561958bfb2398084547ae4ba9e4">findLastMeasurementState</a>(forwardTrack).value().index());</div>
+<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>    lastMeasurementState.shareFrom(lastMeasurementState,</div>
+<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>                                   TrackStatePropMask::Filtered,</div>
+<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>                                   TrackStatePropMask::Smoothed);</div>
 <div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span> </div>
-<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> doReverseFilter =</div>
-<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span>        kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#a41f3c51b640b3905181ca44bb79e0649">reverseFiltering</a> ||</div>
-<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>        kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839">extensions</a>.reverseFilteringLogic(</div>
-<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>            <span class="keyword">typename</span> traj_t::ConstTrackStateProxy(lastMeasurementState));</div>
-<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>    <span class="keywordflow">if</span> (doReverseFilter) {</div>
-<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>      <a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Smooth track by reversed filtering&quot;</span>);</div>
-<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span> </div>
-<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>      <span class="keyword">auto</span> reverseStartParameters = forwardTrack.createParametersFromState(</div>
-<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>          <span class="keyword">typename</span> traj_t::ConstTrackStateProxy(lastMeasurementState));</div>
-<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>      reverseStartParameters.covariance().value() *=</div>
-<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>          kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#a186d8b8d8db33274bc38707909693c1a">reverseFilteringCovarianceScaling</a>;</div>
-<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>      <span class="keyword">auto</span> reversePropagatorOptions = make_propagator_options(</div>
-<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>          it, end, kfOptions, sSequence, kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a>, <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span>      <span class="keyword">auto</span> reverseFilterResult = filter_impl(</div>
-<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>          reverseStartParameters, reversePropagatorOptions, trackContainer);</div>
-<div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span> </div>
-<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>      <span class="keywordflow">if</span> (!reverseFilterResult.ok()) {</div>
-<div class="line"><a id="l00906" name="l00906"></a><span class="lineno">  906</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Reversed KalmanFilter failed: &quot;</span></div>
-<div class="line"><a id="l00907" name="l00907"></a><span class="lineno">  907</span>                   &lt;&lt; reverseFilterResult.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
-<div class="line"><a id="l00908" name="l00908"></a><span class="lineno">  908</span>                   &lt;&lt; reverseFilterResult.error().message());</div>
-<div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span>        <span class="keywordflow">return</span> reverseFilterResult.error();</div>
-<div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span>      }</div>
-<div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span> </div>
-<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span>      TrackProxy reverseTrack = reverseFilterResult.value();</div>
+<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>    TrackProxy track = forwardTrack;</div>
+<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span> </div>
+<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> doReverseFilter =</div>
+<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>        kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#a41f3c51b640b3905181ca44bb79e0649">reverseFiltering</a> ||</div>
+<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>        kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839">extensions</a>.reverseFilteringLogic(</div>
+<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>            <span class="keyword">typename</span> traj_t::ConstTrackStateProxy(lastMeasurementState));</div>
+<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>    <span class="keywordflow">if</span> (doReverseFilter) {</div>
+<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>      <a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Smooth track by reversed filtering&quot;</span>);</div>
+<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span> </div>
+<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>      <span class="keyword">auto</span> reverseStartParameters = forwardTrack.createParametersFromState(</div>
+<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>          <span class="keyword">typename</span> traj_t::ConstTrackStateProxy(lastMeasurementState));</div>
+<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>      reverseStartParameters.covariance().value() *=</div>
+<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>          kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#a186d8b8d8db33274bc38707909693c1a">reverseFilteringCovarianceScaling</a>;</div>
+<div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span>      <span class="keyword">auto</span> reversePropagatorOptions = make_propagator_options(</div>
+<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>          it, end, kfOptions, sSequence, kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span>      <span class="keyword">auto</span> reverseFilterResult = filter_impl(</div>
+<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>          reverseStartParameters, reversePropagatorOptions, trackContainer);</div>
+<div class="line"><a id="l00906" name="l00906"></a><span class="lineno">  906</span> </div>
+<div class="line"><a id="l00907" name="l00907"></a><span class="lineno">  907</span>      <span class="keywordflow">if</span> (!reverseFilterResult.ok()) {</div>
+<div class="line"><a id="l00908" name="l00908"></a><span class="lineno">  908</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Reversed KalmanFilter failed: &quot;</span></div>
+<div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span>                   &lt;&lt; reverseFilterResult.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
+<div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span>                   &lt;&lt; reverseFilterResult.error().message());</div>
+<div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span>        <span class="keywordflow">return</span> reverseFilterResult.error();</div>
+<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span>      }</div>
 <div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span> </div>
-<div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span>      TrackStateProxy reverseLastMeasurementState =</div>
-<div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>          trackContainer.trackStateContainer().getTrackState(</div>
-<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>              <a class="code hl_function" href="namespace_acts.html#ada531561958bfb2398084547ae4ba9e4">findLastMeasurementState</a>(reverseTrack).value().index());</div>
-<div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span> </div>
-<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>      <span class="keywordflow">if</span> (&amp;firstMeasurementState.referenceSurface() !=</div>
-<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span>          &amp;reverseLastMeasurementState.referenceSurface()) {</div>
-<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(</div>
-<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>            <span class="stringliteral">&quot;Inconsistent reference surfaces between forward and &quot;</span></div>
-<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>            <span class="stringliteral">&quot;reversed filtered tracks&quot;</span>);</div>
-<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_result.html#a19293c70c01319ba42894e5c3ef4f4a0">Result&lt;TrackProxy&gt;::failure</a>(</div>
-<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>            KalmanFitterError::InconsistentTrackStates);</div>
-<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>      }</div>
-<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>      firstMeasurementState.shareFrom(reverseLastMeasurementState,</div>
-<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>                                      TrackStatePropMask::Filtered,</div>
-<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>                                      TrackStatePropMask::Smoothed);</div>
-<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span> </div>
-<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>      <span class="keywordflow">if</span> (reverseTrack.hasReferenceSurface()) {</div>
-<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span>        track.parameters() = reverseTrack.parameters();</div>
-<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>        track.covariance() = reverseTrack.covariance();</div>
-<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span>        track.setReferenceSurface(</div>
-<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span>            reverseTrack.referenceSurface().getSharedPtr());</div>
-<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>      }</div>
-<div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span> </div>
-<div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>      trackContainer.removeTrack(reverseTrack.index());</div>
-<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span>      <a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Smooth track directly without reversed filtering&quot;</span>);</div>
-<div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span> </div>
-<div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span>      <span class="keyword">auto</span> smoothRes = kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839">extensions</a>.smoother(</div>
-<div class="line"><a id="l00942" name="l00942"></a><span class="lineno">  942</span>          kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630">geoContext</a>, trackContainer.trackStateContainer(),</div>
-<div class="line"><a id="l00943" name="l00943"></a><span class="lineno">  943</span>          forwardTrack.tipIndex(), logger());</div>
-<div class="line"><a id="l00944" name="l00944"></a><span class="lineno">  944</span>      <span class="keywordflow">if</span> (!smoothRes.ok()) {</div>
-<div class="line"><a id="l00945" name="l00945"></a><span class="lineno">  945</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Smoothing step failed: &quot;</span> &lt;&lt; smoothRes.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
-<div class="line"><a id="l00946" name="l00946"></a><span class="lineno">  946</span>                                             &lt;&lt; smoothRes.error().message());</div>
-<div class="line"><a id="l00947" name="l00947"></a><span class="lineno">  947</span>        <span class="keywordflow">return</span> smoothRes.error();</div>
-<div class="line"><a id="l00948" name="l00948"></a><span class="lineno">  948</span>      }</div>
-<div class="line"><a id="l00949" name="l00949"></a><span class="lineno">  949</span>    }</div>
-<div class="line"><a id="l00950" name="l00950"></a><span class="lineno">  950</span> </div>
-<div class="line"><a id="l00951" name="l00951"></a><span class="lineno">  951</span>    <span class="keywordflow">if</span> (!track.hasReferenceSurface() &amp;&amp; kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a> != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a id="l00952" name="l00952"></a><span class="lineno">  952</span>      <span class="keyword">typename</span> propagator_t::template Options&lt;&gt; extrapolationOptions(</div>
-<div class="line"><a id="l00953" name="l00953"></a><span class="lineno">  953</span>          kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630">geoContext</a>, kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed">magFieldContext</a>);</div>
-<div class="line"><a id="l00954" name="l00954"></a><span class="lineno">  954</span>      <span class="keyword">auto</span> extrapolationResult = <a class="code hl_function" href="namespace_acts.html#a1c35547ca44e69f20691e806cb8483ae">extrapolateTrackToReferenceSurface</a>(</div>
-<div class="line"><a id="l00955" name="l00955"></a><span class="lineno">  955</span>          track, *kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a>, m_propagator,</div>
-<div class="line"><a id="l00956" name="l00956"></a><span class="lineno">  956</span>          extrapolationOptions, kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765">referenceSurfaceStrategy</a>, logger());</div>
-<div class="line"><a id="l00957" name="l00957"></a><span class="lineno">  957</span> </div>
-<div class="line"><a id="l00958" name="l00958"></a><span class="lineno">  958</span>      <span class="keywordflow">if</span> (!extrapolationResult.ok()) {</div>
-<div class="line"><a id="l00959" name="l00959"></a><span class="lineno">  959</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Extrapolation to reference surface failed: &quot;</span></div>
-<div class="line"><a id="l00960" name="l00960"></a><span class="lineno">  960</span>                   &lt;&lt; extrapolationResult.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
-<div class="line"><a id="l00961" name="l00961"></a><span class="lineno">  961</span>                   &lt;&lt; extrapolationResult.error().message());</div>
-<div class="line"><a id="l00962" name="l00962"></a><span class="lineno">  962</span>        <span class="keywordflow">return</span> extrapolationResult.error();</div>
-<div class="line"><a id="l00963" name="l00963"></a><span class="lineno">  963</span>      }</div>
-<div class="line"><a id="l00964" name="l00964"></a><span class="lineno">  964</span>    }</div>
-<div class="line"><a id="l00965" name="l00965"></a><span class="lineno">  965</span> </div>
-<div class="line"><a id="l00966" name="l00966"></a><span class="lineno">  966</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(<a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;smoothed&quot;</span>))) {</div>
-<div class="line"><a id="l00967" name="l00967"></a><span class="lineno">  967</span>      track.template component&lt;bool, <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;smoothed&quot;</span>)&gt;() =</div>
-<div class="line"><a id="l00968" name="l00968"></a><span class="lineno">  968</span>          !doReverseFilter;</div>
-<div class="line"><a id="l00969" name="l00969"></a><span class="lineno">  969</span>    }</div>
-<div class="line"><a id="l00970" name="l00970"></a><span class="lineno">  970</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(<a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;reversed&quot;</span>))) {</div>
-<div class="line"><a id="l00971" name="l00971"></a><span class="lineno">  971</span>      track.template component&lt;bool, <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;reversed&quot;</span>)&gt;() =</div>
-<div class="line"><a id="l00972" name="l00972"></a><span class="lineno">  972</span>          doReverseFilter;</div>
-<div class="line"><a id="l00973" name="l00973"></a><span class="lineno">  973</span>    }</div>
-<div class="line"><a id="l00974" name="l00974"></a><span class="lineno">  974</span> </div>
-<div class="line"><a id="l00975" name="l00975"></a><span class="lineno">  975</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l00976" name="l00976"></a><span class="lineno">  976</span>  }</div>
-<div class="line"><a id="l00977" name="l00977"></a><span class="lineno">  977</span>};</div>
+<div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span>      TrackProxy reverseTrack = reverseFilterResult.value();</div>
+<div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span> </div>
+<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>      TrackStateProxy reverseLastMeasurementState =</div>
+<div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span>          trackContainer.trackStateContainer().getTrackState(</div>
+<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>              <a class="code hl_function" href="namespace_acts.html#ada531561958bfb2398084547ae4ba9e4">findLastMeasurementState</a>(reverseTrack).value().index());</div>
+<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span> </div>
+<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>      <span class="keywordflow">if</span> (&amp;firstMeasurementState.referenceSurface() !=</div>
+<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>          &amp;reverseLastMeasurementState.referenceSurface()) {</div>
+<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(</div>
+<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>            <span class="stringliteral">&quot;Inconsistent reference surfaces between forward and &quot;</span></div>
+<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>            <span class="stringliteral">&quot;reversed filtered tracks&quot;</span>);</div>
+<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_acts_1_1_result.html#a19293c70c01319ba42894e5c3ef4f4a0">Result&lt;TrackProxy&gt;::failure</a>(</div>
+<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>            KalmanFitterError::InconsistentTrackStates);</div>
+<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>      }</div>
+<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>      firstMeasurementState.shareFrom(reverseLastMeasurementState,</div>
+<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>                                      TrackStatePropMask::Filtered,</div>
+<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>                                      TrackStatePropMask::Smoothed);</div>
+<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span> </div>
+<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>      <span class="keywordflow">if</span> (reverseTrack.hasReferenceSurface()) {</div>
+<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span>        track.parameters() = reverseTrack.parameters();</div>
+<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span>        track.covariance() = reverseTrack.covariance();</div>
+<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>        track.setReferenceSurface(</div>
+<div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span>            reverseTrack.referenceSurface().getSharedPtr());</div>
+<div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>      }</div>
+<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span> </div>
+<div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span>      trackContainer.removeTrack(reverseTrack.index());</div>
+<div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span>      <a class="code hl_define" href="group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385">ACTS_VERBOSE</a>(<span class="stringliteral">&quot;Smooth track directly without reversed filtering&quot;</span>);</div>
+<div class="line"><a id="l00942" name="l00942"></a><span class="lineno">  942</span> </div>
+<div class="line"><a id="l00943" name="l00943"></a><span class="lineno">  943</span>      <span class="keyword">auto</span> smoothRes = kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839">extensions</a>.smoother(</div>
+<div class="line"><a id="l00944" name="l00944"></a><span class="lineno">  944</span>          kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630">geoContext</a>, trackContainer.trackStateContainer(),</div>
+<div class="line"><a id="l00945" name="l00945"></a><span class="lineno">  945</span>          forwardTrack.tipIndex(), logger());</div>
+<div class="line"><a id="l00946" name="l00946"></a><span class="lineno">  946</span>      <span class="keywordflow">if</span> (!smoothRes.ok()) {</div>
+<div class="line"><a id="l00947" name="l00947"></a><span class="lineno">  947</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Smoothing step failed: &quot;</span> &lt;&lt; smoothRes.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
+<div class="line"><a id="l00948" name="l00948"></a><span class="lineno">  948</span>                                             &lt;&lt; smoothRes.error().message());</div>
+<div class="line"><a id="l00949" name="l00949"></a><span class="lineno">  949</span>        <span class="keywordflow">return</span> smoothRes.error();</div>
+<div class="line"><a id="l00950" name="l00950"></a><span class="lineno">  950</span>      }</div>
+<div class="line"><a id="l00951" name="l00951"></a><span class="lineno">  951</span>    }</div>
+<div class="line"><a id="l00952" name="l00952"></a><span class="lineno">  952</span> </div>
+<div class="line"><a id="l00953" name="l00953"></a><span class="lineno">  953</span>    <span class="keywordflow">if</span> (!track.hasReferenceSurface() &amp;&amp; kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a> != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a id="l00954" name="l00954"></a><span class="lineno">  954</span>      <span class="keyword">typename</span> propagator_t::template Options&lt;&gt; extrapolationOptions(</div>
+<div class="line"><a id="l00955" name="l00955"></a><span class="lineno">  955</span>          kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630">geoContext</a>, kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed">magFieldContext</a>);</div>
+<div class="line"><a id="l00956" name="l00956"></a><span class="lineno">  956</span>      <span class="keyword">auto</span> extrapolationResult = <a class="code hl_function" href="namespace_acts.html#a1c35547ca44e69f20691e806cb8483ae">extrapolateTrackToReferenceSurface</a>(</div>
+<div class="line"><a id="l00957" name="l00957"></a><span class="lineno">  957</span>          track, *kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be">referenceSurface</a>, m_propagator,</div>
+<div class="line"><a id="l00958" name="l00958"></a><span class="lineno">  958</span>          extrapolationOptions, kfOptions.<a class="code hl_variable" href="struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765">referenceSurfaceStrategy</a>, logger());</div>
+<div class="line"><a id="l00959" name="l00959"></a><span class="lineno">  959</span> </div>
+<div class="line"><a id="l00960" name="l00960"></a><span class="lineno">  960</span>      <span class="keywordflow">if</span> (!extrapolationResult.ok()) {</div>
+<div class="line"><a id="l00961" name="l00961"></a><span class="lineno">  961</span>        <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Extrapolation to reference surface failed: &quot;</span></div>
+<div class="line"><a id="l00962" name="l00962"></a><span class="lineno">  962</span>                   &lt;&lt; extrapolationResult.error() &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
+<div class="line"><a id="l00963" name="l00963"></a><span class="lineno">  963</span>                   &lt;&lt; extrapolationResult.error().message());</div>
+<div class="line"><a id="l00964" name="l00964"></a><span class="lineno">  964</span>        <span class="keywordflow">return</span> extrapolationResult.error();</div>
+<div class="line"><a id="l00965" name="l00965"></a><span class="lineno">  965</span>      }</div>
+<div class="line"><a id="l00966" name="l00966"></a><span class="lineno">  966</span>    }</div>
+<div class="line"><a id="l00967" name="l00967"></a><span class="lineno">  967</span> </div>
+<div class="line"><a id="l00968" name="l00968"></a><span class="lineno">  968</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(<a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;smoothed&quot;</span>))) {</div>
+<div class="line"><a id="l00969" name="l00969"></a><span class="lineno">  969</span>      track.template component&lt;bool, <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;smoothed&quot;</span>)&gt;() =</div>
+<div class="line"><a id="l00970" name="l00970"></a><span class="lineno">  970</span>          !doReverseFilter;</div>
+<div class="line"><a id="l00971" name="l00971"></a><span class="lineno">  971</span>    }</div>
+<div class="line"><a id="l00972" name="l00972"></a><span class="lineno">  972</span>    <span class="keywordflow">if</span> (trackContainer.hasColumn(<a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;reversed&quot;</span>))) {</div>
+<div class="line"><a id="l00973" name="l00973"></a><span class="lineno">  973</span>      track.template component&lt;bool, <a class="code hl_function" href="namespace_acts.html#a312705c7759168e892ece2b486788dcc">hashString</a>(<span class="stringliteral">&quot;reversed&quot;</span>)&gt;() =</div>
+<div class="line"><a id="l00974" name="l00974"></a><span class="lineno">  974</span>          doReverseFilter;</div>
+<div class="line"><a id="l00975" name="l00975"></a><span class="lineno">  975</span>    }</div>
+<div class="line"><a id="l00976" name="l00976"></a><span class="lineno">  976</span> </div>
+<div class="line"><a id="l00977" name="l00977"></a><span class="lineno">  977</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l00978" name="l00978"></a><span class="lineno">  978</span>  }</div>
+<div class="line"><a id="l00979" name="l00979"></a><span class="lineno">  979</span>};</div>
 </div>
-<div class="line"><a id="l00978" name="l00978"></a><span class="lineno">  978</span></div>
-<div class="line"><a id="l00980" name="l00980"></a><span class="lineno">  980</span> </div>
-<div class="line"><a id="l00981" name="l00981"></a><span class="lineno">  981</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00980" name="l00980"></a><span class="lineno">  980</span></div>
+<div class="line"><a id="l00982" name="l00982"></a><span class="lineno">  982</span> </div>
+<div class="line"><a id="l00983" name="l00983"></a><span class="lineno">  983</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_bound_track_parameters_html"><div class="ttname"><a href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a></div><div class="ttdoc">Track parameters bound to a reference surface for a single track.</div><div class="ttdef"><b>Definition</b> BoundTrackParameters.hpp:36</div></div>
 <div class="ttc" id="aclass_acts_1_1_calibration_context_html"><div class="ttname"><a href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector calibration.</div><div class="ttdef"><b>Definition</b> CalibrationContext.hpp:27</div></div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>

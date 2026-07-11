@@ -597,13 +597,15 @@ $(function(){initNavTree('_gaussian_sum_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00528" name="l00528"></a><span class="lineno">  528</span> </div>
 <div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span>    <a class="code hl_function" href="namespace_acts.html#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a>(track);</div>
 <div class="line"><a id="l00530" name="l00530"></a><span class="lineno">  530</span> </div>
-<div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>    <span class="keywordflow">return</span> track;</div>
-<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>  }</div>
+<div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>    track.linkForward();</div>
+<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span> </div>
+<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>    <span class="keywordflow">return</span> track;</div>
+<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span>  }</div>
 </div>
-<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>};</div>
+<div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>};</div>
 </div>
-<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span> </div>
-<div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00536" name="l00536"></a><span class="lineno">  536</span> </div>
+<div class="line"><a id="l00537" name="l00537"></a><span class="lineno">  537</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_boundary_tolerance_html_a37f9fa35e522bffbdd6b7107443599cc"><div class="ttname"><a href="class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc">Acts::BoundaryTolerance::None</a></div><div class="ttdeci">static constexpr auto None() noexcept</div><div class="ttdoc">No tolerance i.e.</div><div class="ttdef"><b>Definition</b> BoundaryTolerance.hpp:122</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html_a371b369b8abe30222c10b58aae4b7379"><div class="ttname"><a href="class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379">Acts::GeometryContext::dangerouslyDefaultConstruct</a></div><div class="ttdeci">static GeometryContext dangerouslyDefaultConstruct()</div><div class="ttdoc">Static factory method for default construction.</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:52</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:696</div></div>
