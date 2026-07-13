@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"class_acts_1_1_grid.html#afb105ce870c0c8acea272ddace5ee921":[7,0,0,163,34],
+"class_acts_1_1_grid.html#afd76a53323b3715af1e495f911b8f04e":[5,0,0,155,32],
 "class_acts_1_1_grid.html#afd76a53323b3715af1e495f911b8f04e":[7,0,0,163,32],
 "class_acts_1_1_grid_access_1_1_affine3_transformed.html":[7,0,0,4,0],
 "class_acts_1_1_grid_access_1_1_affine3_transformed.html#a0c52451d2d2f4f644b2f37fb999c48d2":[7,0,0,4,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "class_acts_1_1_grid_surface_material_t.html#ae3315f1c36e5e04f74b6992bf6510250":[4,3,2,7,2],
 "class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f":[4,3,2,7,12],
 "class_acts_1_1_grid_surface_material_t.html#aea44eca868c6b4fbb1e33fb1417ab1e1":[4,3,2,7,3],
-"class_acts_1_1_grid_surface_material_t.html#aecaf4206055ade7c560279e2851c9290":[4,3,2,7,8],
-"class_acts_1_1_helical_track_linearizer.html":[5,0,0,167],
-"class_acts_1_1_helical_track_linearizer.html":[7,0,0,175]
+"class_acts_1_1_grid_surface_material_t.html#aecaf4206055ade7c560279e2851c9290":[4,3,2,7,8]
 };

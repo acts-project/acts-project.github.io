@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"class_acts_1_1_direct_navigator.html#a8b7c696a3e0a95d7e0b8845393423e9d":[7,0,0,115,11],
+"class_acts_1_1_direct_navigator.html#a9601d21f8b23cdd854210bdd029a5561":[5,0,0,107,4],
 "class_acts_1_1_direct_navigator.html#a9601d21f8b23cdd854210bdd029a5561":[7,0,0,115,4],
 "class_acts_1_1_direct_navigator.html#aa5e836e5d2a3c25a02c2b8cd91325b1f":[5,0,0,107,8],
 "class_acts_1_1_direct_navigator.html#aa5e836e5d2a3c25a02c2b8cd91325b1f":[7,0,0,115,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_doublet_seed_finder.html#a8be317efef82923390f88ac22a3bbe49":[7,0,0,121,6],
 "class_acts_1_1_doublet_seed_finder.html#a968891077bcade98e5dc1505dc735eb8":[5,0,0,113,3],
 "class_acts_1_1_doublet_seed_finder.html#a968891077bcade98e5dc1505dc735eb8":[7,0,0,121,3],
-"class_acts_1_1_doublets_for_middle_sp.html":[5,0,0,114],
-"class_acts_1_1_doublets_for_middle_sp.html":[7,0,0,122],
-"class_acts_1_1_doublets_for_middle_sp.html#a1bcd91857db9dbb382bf7655918946ec":[5,0,0,114,23]
+"class_acts_1_1_doublets_for_middle_sp.html":[5,0,0,114]
 };

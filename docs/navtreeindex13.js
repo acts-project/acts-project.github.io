@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"class_acts_1_1_experimental_1_1_histogram.html#a1cf6593d5151393274cdc625bb128742":[5,0,0,1,36,5],
+"class_acts_1_1_experimental_1_1_histogram.html#a1cf6593d5151393274cdc625bb128742":[7,0,0,2,36,5],
 "class_acts_1_1_experimental_1_1_histogram.html#a478740d18359b9de09d96c5a39f9fc56":[5,0,0,1,36,1],
 "class_acts_1_1_experimental_1_1_histogram.html#a478740d18359b9de09d96c5a39f9fc56":[7,0,0,2,36,1],
 "class_acts_1_1_experimental_1_1_histogram.html#a544785beee615465a9a63bac07afb7dc":[5,0,0,1,36,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "class_acts_1_1_experimental_1_1_ridders_stepper.html#a316911149725471941eedf9c2477462e":[5,0,0,1,49,8],
 "class_acts_1_1_experimental_1_1_ridders_stepper.html#a316911149725471941eedf9c2477462e":[7,0,0,2,49,8],
 "class_acts_1_1_experimental_1_1_ridders_stepper.html#a3828228c526ed00877a7c9e22300bddd":[5,0,0,1,49,2],
-"class_acts_1_1_experimental_1_1_ridders_stepper.html#a3828228c526ed00877a7c9e22300bddd":[7,0,0,2,49,2],
-"class_acts_1_1_experimental_1_1_ridders_stepper.html#a5297153a7b2ccf11667c0a273fe27940":[5,0,0,1,49,16],
-"class_acts_1_1_experimental_1_1_ridders_stepper.html#a5297153a7b2ccf11667c0a273fe27940":[7,0,0,2,49,16]
+"class_acts_1_1_experimental_1_1_ridders_stepper.html#a3828228c526ed00877a7c9e22300bddd":[7,0,0,2,49,2]
 };

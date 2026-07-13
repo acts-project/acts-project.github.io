@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#acedae300b39757fdcff27f7d39383aad":[5,0,2,33,1,4],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#acedae300b39757fdcff27f7d39383aad":[7,0,1,34,1,4],
+"struct_acts_fatras_1_1_single_particle_simulation.html":[5,0,2,34],
+"struct_acts_fatras_1_1_single_particle_simulation.html":[7,0,1,35],
 "struct_acts_fatras_1_1_single_particle_simulation.html#a0f13b998682de4c9f8f54163588e9b38":[5,0,2,34,1],
 "struct_acts_fatras_1_1_single_particle_simulation.html#a0f13b998682de4c9f8f54163588e9b38":[7,0,1,35,1],
 "struct_acts_fatras_1_1_single_particle_simulation.html#a116bffb900348f4f71158471b566a1fc":[5,0,2,34,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_converted_geo_vol.html#af99888d1d1b1bac5e987618d74549335":[4,10,8,2,2,0],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html":[4,10,8,2,3],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_options.html#a3822869a40daaba6a7d06d5e1dbb812d":[4,10,8,2,3,0],
-"struct_acts_plugins_1_1_geo_model_tree.html":[4,10,8,3],
-"struct_acts_plugins_1_1_geo_model_tree.html#a065da70d7db6f00c53a548940bc9343c":[4,10,8,3,4],
-"struct_acts_plugins_1_1_geo_model_tree.html#a56cc217a558a6140036c03ad3af1db3c":[4,10,8,3,6],
-"struct_acts_plugins_1_1_geo_model_tree.html#a754a20da925365c5e7832f8e0a8e69da":[4,10,8,3,2],
-"struct_acts_plugins_1_1_geo_model_tree.html#a83be0c9cb841ea992f0887f0f95f7a44":[4,10,8,3,5]
+"struct_acts_plugins_1_1_geo_model_tree.html":[4,10,8,3]
 };

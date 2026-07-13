@@ -162,12 +162,17 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~INavigationPolicy
 <tr class="memitem:add716fb1168fb2f552380b5051df5bc8 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_add716fb1168fb2f552380b5051df5bc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#add716fb1168fb2f552380b5051df5bc8">visit</a> (const std::function&lt; void(const <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> &amp;)&gt; &amp;visitor) const</td></tr>
 <tr class="memdesc:add716fb1168fb2f552380b5051df5bc8 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to walk over all navigation policies.  <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a911d1e7562d1fc9b5432944efb0fc4d4" id="r_a911d1e7562d1fc9b5432944efb0fc4d4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a911d1e7562d1fc9b5432944efb0fc4d4">isApplicable</a> (const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
+<tr class="memdesc:a911d1e7562d1fc9b5432944efb0fc4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this policy is applicable to a volume, i.e.  <br /></td></tr>
 <tr class="inherit_header pub_static_methods_class_acts_1_1_i_navigation_policy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_acts_1_1_i_navigation_policy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a></td></tr>
 <tr class="memitem:a348ceea213899087a43da1e2105cfeef inherit pub_static_methods_class_acts_1_1_i_navigation_policy" id="r_a348ceea213899087a43da1e2105cfeef"><td class="memItemLeft" align="right" valign="top">
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitializeCandidates</b> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;, const <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;)</td></tr>
 <tr class="memdesc:a348ceea213899087a43da1e2105cfeef inherit pub_static_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noop update function that is suitable as a default for default navigation delegates. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_acts_1_1_i_navigation_policy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_acts_1_1_i_navigation_policy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="class_acts_1_1_i_navigation_policy.html">Acts::INavigationPolicy</a></td></tr>
 <tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 inherit pro_methods_class_acts_1_1_i_navigation_policy" id="r_a6a2bef72c7ff7f6176debf91c3eaa781"><td class="memTemplParams" colspan="2">template&lt;NavigationPolicyConcept T&gt; </td></tr>
 <tr class="memitem:a6a2bef72c7ff7f6176debf91c3eaa781 inherit pro_methods_class_acts_1_1_i_navigation_policy template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#a6a2bef72c7ff7f6176debf91c3eaa781">connectDefault</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const</td></tr>
@@ -184,9 +189,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
 <li>Default fallback: If neither disc nor inner cylinder are hit, add outer cylinder as the target (particle will exit through outer boundary)</li>
 </ol>
 <p>Constraints:</p><ul>
-<li>Only works with cylindrical volumes having non-zero inner radius</li>
-<li>Requires exactly 4 portals (inner cylinder, outer cylinder, ±z discs)</li>
-<li>Does not handle contained sub-volumes</li>
+<li>Only works with full-phi cylindrical volumes having non-zero inner radius</li>
+<li>Requires exactly 4 portals (inner cylinder, outer cylinder, ±z discs), which also means the volume cannot confine sub-volumes, as it would carry their portals as well</li>
+<li>Only produces portal candidates: a volume confining surfaces needs to combine this policy with one that adds the surface candidates</li>
 </ul>
 <p>Performance benefits:</p><ul>
 <li>Reduces intersection calculations by ~2-3x compared to trying all portals</li>
@@ -218,6 +223,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
 </div><div class="memdoc">
 
 <p>Constructor from a volume. </p>
+<dl class="section note"><dt>Note</dt><dd>The volume needs to satisfy <a class="el" href="#a911d1e7562d1fc9b5432944efb0fc4d4">isApplicable</a>, otherwise the constructor throws <code>std::invalid_argument</code> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>is the geometry context </td></tr>
@@ -315,6 +321,45 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a911d1e7562d1fc9b5432944efb0fc4d4" name="a911d1e7562d1fc9b5432944efb0fc4d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911d1e7562d1fc9b5432944efb0fc4d4">&#9670;&#160;</a></span>isApplicable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::CylinderNavigationPolicy::isApplicable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if this policy is applicable to a volume, i.e. </p>
+<p>if the volume satisfies all of the constraints documented above. Reasons for a volume being rejected are reported to the logger. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volume</td><td>is the volume to check </td></tr>
+    <tr><td class="paramname">logger</td><td>is the logger </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the policy can be constructed from <code class="param">volume</code> </dd></dl>
 
 </div>
 </div>

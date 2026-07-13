@@ -140,10 +140,14 @@ Public Member Functions</h2></td></tr>
 requires (std::is_constructible_v&lt;P, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>&amp;, const <a class="el" href="class_acts_1_1_logger.html">Logger</a>&amp;, Args...&gt; &amp;&amp; (std::is_copy_constructible_v&lt;Args&gt; &amp;&amp; ...))</td></tr>
 <tr class="memitem:a0ff9eb0f037e35b3ccf3bf673529acca template"><td class="memItemLeft" align="right" valign="top">constexpr NavigationPolicyFactory&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ff9eb0f037e35b3ccf3bf673529acca">add</a> (Args &amp;&amp;... args) &amp;&amp;</td></tr>
 <tr class="memdesc:a0ff9eb0f037e35b3ccf3bf673529acca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a navigation policy to the factory.  <br /></td></tr>
-<tr class="memitem:ad11c207c2b3e8de97a83d92d4ac6d178" id="r_ad11c207c2b3e8de97a83d92d4ac6d178"><td class="memTemplParams" colspan="2">template&lt;typename Fn, typename... Args&gt; <br />
-requires (detail::NavigationPolicyIsolatedFactoryConcept&lt;Fn, Args...&gt;)</td></tr>
-<tr class="memitem:ad11c207c2b3e8de97a83d92d4ac6d178 template"><td class="memItemLeft" align="right" valign="top">constexpr NavigationPolicyFactory&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad11c207c2b3e8de97a83d92d4ac6d178">add</a> (Fn &amp;&amp;fn, Args &amp;&amp;... args) &amp;&amp;</td></tr>
-<tr class="memdesc:ad11c207c2b3e8de97a83d92d4ac6d178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a policy created by a factory function.  <br /></td></tr>
+<tr class="memitem:a36a805e63a0affe0460360d3dcbfe56d" id="r_a36a805e63a0affe0460360d3dcbfe56d"><td class="memTemplParams" colspan="2">template&lt;typename Fn, typename... Args&gt; <br />
+requires (detail::NavigationPolicyValueFactoryConcept&lt;Fn, Args...&gt; &amp;&amp; !detail::NavigationPolicyPointerFactoryConcept&lt;Fn, Args...&gt; &amp;&amp; (std::is_copy_constructible_v&lt;Args&gt; &amp;&amp; ...))</td></tr>
+<tr class="memitem:a36a805e63a0affe0460360d3dcbfe56d template"><td class="memItemLeft" align="right" valign="top">constexpr NavigationPolicyFactory&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a805e63a0affe0460360d3dcbfe56d">add</a> (Fn &amp;&amp;fn, Args &amp;&amp;... args) &amp;&amp;</td></tr>
+<tr class="memdesc:a36a805e63a0affe0460360d3dcbfe56d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a policy created by a factory function that returns a concrete policy by value.  <br /></td></tr>
+<tr class="memitem:a66ce79c74826c2d254e36e84b41dfa29" id="r_a66ce79c74826c2d254e36e84b41dfa29"><td class="memTemplParams" colspan="2">template&lt;typename Fn, typename... Args&gt; <br />
+requires (detail::NavigationPolicyPointerFactoryConcept&lt;Fn, Args...&gt; &amp;&amp; (std::is_copy_constructible_v&lt;Args&gt; &amp;&amp; ...))</td></tr>
+<tr class="memitem:a66ce79c74826c2d254e36e84b41dfa29 template"><td class="memItemLeft" align="right" valign="top">constexpr NavigationPolicyFactory&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66ce79c74826c2d254e36e84b41dfa29">add</a> (Fn &amp;&amp;fn, Args &amp;&amp;... args) &amp;&amp;</td></tr>
+<tr class="memdesc:a66ce79c74826c2d254e36e84b41dfa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a policy created by a factory function that returns a <span class="tt">std::unique_ptr</span> to a navigation policy.  <br /></td></tr>
 <tr class="memitem:ac8dc51645fc81c4ee60dda94ad27112a" id="r_ac8dc51645fc81c4ee60dda94ad27112a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; NavigationPolicyFactory &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8dc51645fc81c4ee60dda94ad27112a">asUniquePtr</a> () &amp;&amp;</td></tr>
 <tr class="memdesc:ac8dc51645fc81c4ee60dda94ad27112a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the factory into a unique pointer.  <br /></td></tr>
 <tr class="memitem:aea19681e72d911039b3e78cf576cd2e0" id="r_aea19681e72d911039b3e78cf576cd2e0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea19681e72d911039b3e78cf576cd2e0">build</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
@@ -158,11 +162,11 @@ requires (detail::NavigationPolicyIsolatedFactoryConcept&lt;Fn, Args...&gt;)</td
 <div class="line"> .add&lt;NavigationPolicy1&gt;(arg1, arg2)</div>
 <div class="line"> .<a class="code hl_function" href="#a0ff9eb0f037e35b3ccf3bf673529acca">add&lt;NavigationPolicy2&gt;</a>(<span class="comment">/*no args*/</span>)</div>
 <div class="line"> .<a class="code hl_function" href="#ac8dc51645fc81c4ee60dda94ad27112a">asUniquePtr</a>();</div>
-<div class="ttc" id="aclass_acts_1_1_navigation_policy_factory_html_a0ff9eb0f037e35b3ccf3bf673529acca"><div class="ttname"><a href="#a0ff9eb0f037e35b3ccf3bf673529acca">Acts::NavigationPolicyFactory::add</a></div><div class="ttdeci">constexpr NavigationPolicyFactory add(Args &amp;&amp;... args) &amp;&amp;</div><div class="ttdoc">Add a navigation policy to the factory.</div><div class="ttdef"><b>Definition</b> NavigationPolicyFactory.hpp:78</div></div>
-<div class="ttc" id="aclass_acts_1_1_navigation_policy_factory_html_ac8dc51645fc81c4ee60dda94ad27112a"><div class="ttname"><a href="#ac8dc51645fc81c4ee60dda94ad27112a">Acts::NavigationPolicyFactory::asUniquePtr</a></div><div class="ttdeci">std::unique_ptr&lt; NavigationPolicyFactory &gt; asUniquePtr() &amp;&amp;</div><div class="ttdoc">Move the factory into a unique pointer.</div><div class="ttdef"><b>Definition</b> NavigationPolicyFactory.hpp:111</div></div>
+<div class="ttc" id="aclass_acts_1_1_navigation_policy_factory_html_a0ff9eb0f037e35b3ccf3bf673529acca"><div class="ttname"><a href="#a0ff9eb0f037e35b3ccf3bf673529acca">Acts::NavigationPolicyFactory::add</a></div><div class="ttdeci">constexpr NavigationPolicyFactory add(Args &amp;&amp;... args) &amp;&amp;</div><div class="ttdoc">Add a navigation policy to the factory.</div><div class="ttdef"><b>Definition</b> NavigationPolicyFactory.hpp:101</div></div>
+<div class="ttc" id="aclass_acts_1_1_navigation_policy_factory_html_ac8dc51645fc81c4ee60dda94ad27112a"><div class="ttname"><a href="#ac8dc51645fc81c4ee60dda94ad27112a">Acts::NavigationPolicyFactory::asUniquePtr</a></div><div class="ttdeci">std::unique_ptr&lt; NavigationPolicyFactory &gt; asUniquePtr() &amp;&amp;</div><div class="ttdoc">Move the factory into a unique pointer.</div><div class="ttdef"><b>Definition</b> NavigationPolicyFactory.hpp:169</div></div>
 </div><!-- fragment --> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a0ff9eb0f037e35b3ccf3bf673529acca" name="a0ff9eb0f037e35b3ccf3bf673529acca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ff9eb0f037e35b3ccf3bf673529acca">&#9670;&#160;</a></span>add() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff9eb0f037e35b3ccf3bf673529acca">&#9670;&#160;</a></span>add() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,14 +209,14 @@ requires (std::is_constructible_v&lt;P, const <a class="el" href="class_acts_1_1
 
 </div>
 </div>
-<a id="ad11c207c2b3e8de97a83d92d4ac6d178" name="ad11c207c2b3e8de97a83d92d4ac6d178"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad11c207c2b3e8de97a83d92d4ac6d178">&#9670;&#160;</a></span>add() <span class="overload">[2/2]</span></h2>
+<a id="a36a805e63a0affe0460360d3dcbfe56d" name="a36a805e63a0affe0460360d3dcbfe56d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a805e63a0affe0460360d3dcbfe56d">&#9670;&#160;</a></span>add() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Fn, typename... Args&gt; <br />
-requires (detail::NavigationPolicyIsolatedFactoryConcept&lt;Fn, Args...&gt;)</div>
+requires (detail::NavigationPolicyValueFactoryConcept&lt;Fn, Args...&gt; &amp;&amp; !detail::NavigationPolicyPointerFactoryConcept&lt;Fn, Args...&gt; &amp;&amp; (std::is_copy_constructible_v&lt;Args&gt; &amp;&amp; ...))</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -235,8 +239,58 @@ requires (detail::NavigationPolicyIsolatedFactoryConcept&lt;Fn, Args...&gt;)</di
 </table>
 </div><div class="memdoc">
 
-<p>Add a policy created by a factory function. </p>
+<p>Add a policy created by a factory function that returns a concrete policy by value. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Fn</td><td>The type of the function to construct the policy </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fn</td><td>The factory function </td></tr>
+    <tr><td class="paramname">args</td><td>The arguments to pass to the policy factory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Arguments need to be copy constructible because the factory must be able to execute multiple times. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>New instance of this object with the added factory for method chaining </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>Return a <span class="tt">std::unique_ptr&lt;INavigationPolicy&gt;</span> from the factory function instead. This also lets the function select the concrete policy type at runtime. </dd></dl>
+
+</div>
+</div>
+<a id="a66ce79c74826c2d254e36e84b41dfa29" name="a66ce79c74826c2d254e36e84b41dfa29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ce79c74826c2d254e36e84b41dfa29">&#9670;&#160;</a></span>add() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Fn, typename... Args&gt; <br />
+requires (detail::NavigationPolicyPointerFactoryConcept&lt;Fn, Args...&gt; &amp;&amp; (std::is_copy_constructible_v&lt;Args&gt; &amp;&amp; ...))</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavigationPolicyFactory Acts::NavigationPolicyFactory::add </td>
+          <td>(</td>
+          <td class="paramtype">Fn &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>fn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;) &amp;&amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a policy created by a factory function that returns a <span class="tt">std::unique_ptr</span> to a navigation policy. </p>
+<p>Returning a pointer allows the factory function to select between different concrete policy types at runtime (e.g. based on the volume geometry). </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Fn</td><td>The type of the function to construct the policy </td></tr>
   </table>

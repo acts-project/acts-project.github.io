@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_acts_1_1_helical_track_linearizer.html":[5,0,0,167],
+"class_acts_1_1_helical_track_linearizer.html":[7,0,0,175],
 "class_acts_1_1_helical_track_linearizer.html#ab37f9f3cfa9e6a10e081fe3f582bba15":[5,0,0,167,2],
 "class_acts_1_1_helical_track_linearizer.html#ab37f9f3cfa9e6a10e081fe3f582bba15":[7,0,0,175,2],
 "class_acts_1_1_helical_track_linearizer.html#ad6bb863c8cbfc2cca515c5e9b7edad50":[5,0,0,167,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_acts_1_1_i_surface_material.html#a2903c22249391ed7398be537f7302452":[4,3,2,17,5],
 "class_acts_1_1_i_surface_material.html#a4b85724677f00d18e8f6939aa0b85837":[4,3,2,17,0],
 "class_acts_1_1_i_surface_material.html#a5050e4ca1c4d47b800189209c1f3bf91":[4,3,2,17,14],
-"class_acts_1_1_i_surface_material.html#a57c67692911c878a906319e8a8ffcd5d":[4,3,2,17,8],
-"class_acts_1_1_i_surface_material.html#a6d3255357711ef99fe2b761675deebad":[4,3,2,17,1],
-"class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0":[4,3,2,17,10]
+"class_acts_1_1_i_surface_material.html#a57c67692911c878a906319e8a8ffcd5d":[4,3,2,17,8]
 };
