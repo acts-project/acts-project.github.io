@@ -1,5 +1,0 @@
-<map id="Acts::Experimental::GeometryIdentifierBlueprintNode" name="Acts::Experimental::GeometryIdentifierBlueprintNode">
-<area shape="rect" id="Node000001" title="Blueprint node for configuring and applying geometry identifiers to volumes." alt="" coords="5,93,252,133"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_blueprint_node.html" title="Base class for all nodes in the blueprint tree." alt="" coords="56,5,201,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,59,131,93,126,93,126,59"/>
-</map>

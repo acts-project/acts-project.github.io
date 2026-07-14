@@ -1,7 +1,0 @@
-<map id="Acts::Experimental::GraphBasedTrackSeeder::SeedCandidateProperties" name="Acts::Experimental::GraphBasedTrackSeeder::SeedCandidateProperties">
-<area shape="rect" id="Node000001" title="candidate seed metadata produced by the GBTS algorithm." alt="" coords="5,247,200,301"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="28,121,177,176"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,189,105,246,100,246,100,189"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="38,5,167,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,44,105,121,100,121,100,44"/>
-</map>

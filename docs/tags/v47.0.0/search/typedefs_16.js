@@ -1,6 +1,0 @@
-var searchData=
-[
-  ['zaxistype_0',['ZAxisType',['../class_acts_1_1_cartesian_space_point_grid.html#a9a3f4945a7d9a30a065b582d6abc43d4',1,'Acts::CartesianSpacePointGrid::ZAxisType'],['../class_acts_1_1_cylindrical_space_point_grid.html#a63f3ae7836d14afe497f1c5ae740b3fe',1,'Acts::CylindricalSpacePointGrid::ZAxisType']]],
-  ['ztposition_1',['ZTPosition',['../class_acts_1_1_adaptive_grid_track_density.html#a5c1fe2f728cbe5f3edd361693cf13d4a',1,'Acts::AdaptiveGridTrackDensity']]],
-  ['ztpositionandwidth_2',['ZTPositionAndWidth',['../class_acts_1_1_adaptive_grid_track_density.html#a33d4529bc88c3e1300d9db351f511455',1,'Acts::AdaptiveGridTrackDensity']]]
-];
