@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['factories_0',['DD4hep not finding factories',['../howto_spack.html#autotoc_md80',1,'']]],
+  ['factory_20function_1',['&lt;span class=&quot;tt&quot;&gt;getDefaultLogger&lt;/span&gt; Factory Function',['../group__logging.html#autotoc_md36',1,'']]],
+  ['failure_2',['How do I investigate a physmon failure?',['../physmon.html#autotoc_md56',1,'']]],
+  ['fatras_3',['Fatras',['../group__fatras.html#autotoc_md28',1,'']]],
+  ['file_20hash_20regression_20checks_4',['ROOT file hash regression checks',['../group__python__bindings.html#root_file_hashes',1,'']]],
+  ['filter_5',['Combinatorial Kalman Filter',['../tracking.html#combinatorial-kalman-filter',1,'']]],
+  ['finding_20and_20track_20fitting_6',['Track finding and track fitting',['../tracking.html#track-finding-and-track-fitting',1,'']]],
+  ['finding_20factories_7',['DD4hep not finding factories',['../howto_spack.html#autotoc_md80',1,'']]],
+  ['fitter_8',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
+  ['fitting_9',['Track finding and track fitting',['../tracking.html#track-finding-and-track-fitting',1,'']]],
+  ['for_20surfaces_20and_20sourcelinks_10',['Helper for &lt;span class=&quot;tt&quot;&gt;Surface&lt;/span&gt;s and &lt;span class=&quot;tt&quot;&gt;SourceLink&lt;/span&gt;s',['../group__eventdata__tracks.html#podio_helper',1,'']]],
+  ['formalism_20and_20kalman_20track_20fitter_11',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
+  ['format_12',['C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;',['../formatting.html#autotoc_md73',1,'']]],
+  ['formation_13',['Space point formation',['../tracking.html#space-point-formation',1,'']]],
+  ['formatting_14',['formatting',['../formatting.html#autotoc_md74',1,'Python formatting'],['../formatting.html',1,'Source code formatting']]],
+  ['formatting_3a_20clang_20format_15',['C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;',['../formatting.html#autotoc_md73',1,'']]],
+  ['forward_20linking_16',['Track state iteration and forward linking',['../group__eventdata__tracks.html#edm_track_iteration',1,'']]],
+  ['from_20pypi_17',['Installation from PyPI',['../group__python__bindings.html#autotoc_md43',1,'']]],
+  ['from_20scratch_18',['How to create a track from scratch',['../group__eventdata__tracks.html#autotoc_md21',1,'']]],
+  ['from_20source_19',['Building from source',['../group__python__bindings.html#autotoc_md44',1,'']]],
+  ['function_20',['&lt;span class=&quot;tt&quot;&gt;getDefaultLogger&lt;/span&gt; Factory Function',['../group__logging.html#autotoc_md36',1,'']]],
+  ['functions_21',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md96',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md95',1,'The 4-layer combinatorics functions']]]
+];
