@@ -427,6 +427,17 @@ var hierarchy =
     [ "Acts::ImpactPointEstimator", "class_acts_1_1_impact_point_estimator.html", null ],
     [ "Acts::ImpactPointEstimator::Config", "struct_acts_1_1_impact_point_estimator_1_1_config.html", null ],
     [ "Acts::ImpactPointEstimator::State", "struct_acts_1_1_impact_point_estimator_1_1_state.html", null ],
+    [ "Acts::IMultiAxis", "class_acts_1_1_i_multi_axis.html", [
+      [ "Acts::IMultiAxisXD< 1 >", "class_acts_1_1_i_multi_axis_x_d.html", null ],
+      [ "Acts::IMultiAxisXD< 2 >", "class_acts_1_1_i_multi_axis_x_d.html", null ],
+      [ "Acts::IMultiAxisXD< 3 >", "class_acts_1_1_i_multi_axis_x_d.html", null ],
+      [ "Acts::IMultiAxisXD< sizeof...(Axes)>", "class_acts_1_1_i_multi_axis_x_d.html", [
+        [ "Acts::MultiAxis< Axes... >", "class_acts_1_1_multi_axis.html", null ],
+        [ "Acts::MultiAxis< Axes >", "class_acts_1_1_multi_axis.html", null ]
+      ] ],
+      [ "Acts::IMultiAxisXD< _DIM >", "class_acts_1_1_i_multi_axis_x_d.html", null ]
+    ] ],
+    [ "Acts::IMultiAxis::iterator", "class_acts_1_1_i_multi_axis_1_1iterator.html", null ],
     [ "Acts::INavigationPolicy", "class_acts_1_1_i_navigation_policy.html", [
       [ "Acts::IndexGridNavigationPolicy< RegularCylinderIndexGrid >", "class_acts_1_1_index_grid_navigation_policy.html", null ],
       [ "Acts::IndexGridNavigationPolicy< RegularRingIndexGrid >", "class_acts_1_1_index_grid_navigation_policy.html", null ],

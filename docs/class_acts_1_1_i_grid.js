@@ -1,16 +1,19 @@
 var class_acts_1_1_i_grid =
 [
-    [ "AnyIndexType", "class_acts_1_1_i_grid.html#a31a3b1d6d21fe7aa914f42fa40355ce3", null ],
-    [ "AnyPointType", "class_acts_1_1_i_grid.html#ad7432c51cdb8a6d214a61ae2496a1726", null ],
-    [ "atLocalBinsAny", "class_acts_1_1_i_grid.html#abbec6942e5bb4bff4000b6346666693c", null ],
-    [ "atLocalBinsAny", "class_acts_1_1_i_grid.html#a0fb56e1d4a5140b54d67753712daef40", null ],
-    [ "axes", "class_acts_1_1_i_grid.html#a5c7655b06cfe2983e91be87f839491c5", null ],
-    [ "binCenterAny", "class_acts_1_1_i_grid.html#ab05bb886059432e779f0c0308010457d", null ],
+    [ "AnyAxesVector", "class_acts_1_1_i_grid.html#a66a945a98b478db2d5b2b8836087b1d0", null ],
+    [ "AnyIndexType", "class_acts_1_1_i_grid.html#a141abb56f1f63dd9c6b14f1a1e30a414", null ],
+    [ "AnyPointType", "class_acts_1_1_i_grid.html#ae491b2aad1b247db3290e87dd8e6fa6a", null ],
+    [ "atLocalBinsAny", "class_acts_1_1_i_grid.html#a91580128ec41a85db866c3bc5cdc7e30", null ],
+    [ "atLocalBinsAny", "class_acts_1_1_i_grid.html#a97556f33b426bca26eff4d28d8edc552", null ],
+    [ "axes", "class_acts_1_1_i_grid.html#a8c07718810b07c3b5542d2edc77f8125", null ],
+    [ "axis", "class_acts_1_1_i_grid.html#aeac215c22e1617f9a8539b7ec1b1daad", null ],
+    [ "binCenterAny", "class_acts_1_1_i_grid.html#a89603c10c1186226d2bf21b4c9d19fcc", null ],
     [ "dimensions", "class_acts_1_1_i_grid.html#a83974f9d3a8b1ed3ea4bdbc4bc957b97", null ],
-    [ "lowerLeftBinEdgeAny", "class_acts_1_1_i_grid.html#a10e05d6d588b52c587dc369c9ebc5cc4", null ],
-    [ "numLocalBinsAny", "class_acts_1_1_i_grid.html#a8fb86c4435b3518e189f432b40e13288", null ],
+    [ "lowerLeftBinEdgeAny", "class_acts_1_1_i_grid.html#a226e035bd9c3f322724539527eb9e73a", null ],
+    [ "multiAxisAny", "class_acts_1_1_i_grid.html#ad18f388c1ccd2b97434aafd6d1abedf8", null ],
+    [ "numLocalBinsAny", "class_acts_1_1_i_grid.html#a7645634f5f0f08f02fbbf48e54772e11", null ],
     [ "toStream", "class_acts_1_1_i_grid.html#a128ca3d826ef384157247b3a1efdb249", null ],
-    [ "upperRightBinEdgeAny", "class_acts_1_1_i_grid.html#a5d4df4a2a08aced99121462451a61a74", null ],
+    [ "upperRightBinEdgeAny", "class_acts_1_1_i_grid.html#a2d7ec31ad09c03b3f9e0e31a9bf019ad", null ],
     [ "valueType", "class_acts_1_1_i_grid.html#a4bc379c1d86be80f112821eb29b72217", null ],
     [ "operator<<", "class_acts_1_1_i_grid.html#a79efe94ad29c93aa0666572d48c96e2b", null ]
 ];

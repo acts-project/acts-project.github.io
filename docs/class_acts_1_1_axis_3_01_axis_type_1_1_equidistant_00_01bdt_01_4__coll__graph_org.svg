@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="class_acts_1_1_i_axis.html" target="_top" xlink:title="Common base class for all Axis instance.">
+<g id="a_Node000002"><a xlink:href="class_acts_1_1_i_axis.html" target="_top" xlink:title="Common base class for all Axis instances.">
 <polygon fill="white" stroke="#666666" points="68,-117 0,-117 0,-98 68,-98 68,-117"/>
 <text text-anchor="middle" x="34" y="-105" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::IAxis</text>
 </a>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"class_acts_1_1_doublets_for_middle_sp.html":[7,0,0,122],
-"class_acts_1_1_doublets_for_middle_sp.html#a1bcd91857db9dbb382bf7655918946ec":[5,0,0,114,23],
 "class_acts_1_1_doublets_for_middle_sp.html#a1bcd91857db9dbb382bf7655918946ec":[7,0,0,122,23],
 "class_acts_1_1_doublets_for_middle_sp.html#a2e80bf7434ac5a4273d37f6d400c843e":[5,0,0,114,25],
 "class_acts_1_1_doublets_for_middle_sp.html#a2e80bf7434ac5a4273d37f6d400c843e":[7,0,0,122,25],
@@ -249,5 +247,7 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_experimental_1_1_blueprint_builder.html":[7,0,0,2,2],
 "class_acts_1_1_experimental_1_1_blueprint_builder.html#a01fae37cae95b711cc4377ecef30b5f4":[5,0,0,1,2,24],
 "class_acts_1_1_experimental_1_1_blueprint_builder.html#a01fae37cae95b711cc4377ecef30b5f4":[7,0,0,2,2,24],
-"class_acts_1_1_experimental_1_1_blueprint_builder.html#a0ac9ec0ee21c829be1684175b962f57b":[5,0,0,1,2,15]
+"class_acts_1_1_experimental_1_1_blueprint_builder.html#a0ac9ec0ee21c829be1684175b962f57b":[5,0,0,1,2,15],
+"class_acts_1_1_experimental_1_1_blueprint_builder.html#a0ac9ec0ee21c829be1684175b962f57b":[7,0,0,2,2,15],
+"class_acts_1_1_experimental_1_1_blueprint_builder.html#a0c52d78195614c88ecaf3365223241d4":[5,0,0,1,2,20]
 };

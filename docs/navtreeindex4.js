@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"class_acts_1_1_binning_data.html#a255a0d4b70b97279d66823cfc0809d0e":[7,0,0,57,31],
-"class_acts_1_1_binning_data.html#a258da64c082b89b71ef6fe7042dd30f2":[5,0,0,49,29],
 "class_acts_1_1_binning_data.html#a258da64c082b89b71ef6fe7042dd30f2":[7,0,0,57,29],
 "class_acts_1_1_binning_data.html#a2a18bda3c7043b4a19897b2384ea1840":[5,0,0,49,16],
 "class_acts_1_1_binning_data.html#a2a18bda3c7043b4a19897b2384ea1840":[7,0,0,57,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_cartesian_space_point_grid.html#a52f3b24a802bdecf9bbe51579dbb48e5":[5,0,0,58,13],
 "class_acts_1_1_cartesian_space_point_grid.html#a52f3b24a802bdecf9bbe51579dbb48e5":[7,0,0,66,13],
 "class_acts_1_1_cartesian_space_point_grid.html#a5342478ef78afc589f66076c2832ab77":[5,0,0,58,16],
-"class_acts_1_1_cartesian_space_point_grid.html#a5342478ef78afc589f66076c2832ab77":[7,0,0,66,16]
+"class_acts_1_1_cartesian_space_point_grid.html#a5342478ef78afc589f66076c2832ab77":[7,0,0,66,16],
+"class_acts_1_1_cartesian_space_point_grid.html#a5778b9bf2cc7b0cb87299a17e7c831c3":[5,0,0,58,2],
+"class_acts_1_1_cartesian_space_point_grid.html#a5778b9bf2cc7b0cb87299a17e7c831c3":[7,0,0,66,2]
 };

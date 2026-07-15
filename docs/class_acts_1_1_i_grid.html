@@ -138,57 +138,47 @@ Inheritance diagram for Acts::IGrid:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5c7655b06cfe2983e91be87f839491c5" id="r_a5c7655b06cfe2983e91be87f839491c5"><td class="memItemLeft" align="right" valign="top">virtual boost::container::small_vector&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> *, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7655b06cfe2983e91be87f839491c5">axes</a> () const =0</td></tr>
-<tr class="memdesc:a5c7655b06cfe2983e91be87f839491c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a dynamically sized vector of axis objects for inspection.  <br /></td></tr>
+<tr class="memitem:aeac215c22e1617f9a8539b7ec1b1daad" id="r_aeac215c22e1617f9a8539b7ec1b1daad"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac215c22e1617f9a8539b7ec1b1daad">axis</a> (std::size_t index) const</td></tr>
+<tr class="memdesc:aeac215c22e1617f9a8539b7ec1b1daad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the axis object for a given index.  <br /></td></tr>
 <tr class="memitem:a83974f9d3a8b1ed3ea4bdbc4bc957b97" id="r_a83974f9d3a8b1ed3ea4bdbc4bc957b97"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83974f9d3a8b1ed3ea4bdbc4bc957b97">dimensions</a> () const =0</td></tr>
 <tr class="memdesc:a83974f9d3a8b1ed3ea4bdbc4bc957b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of dimensions of the grid.  <br /></td></tr>
-<tr class="memitem:a4bc379c1d86be80f112821eb29b72217" id="r_a4bc379c1d86be80f112821eb29b72217"><td class="memItemLeft" align="right" valign="top">virtual std::type_info const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bc379c1d86be80f112821eb29b72217">valueType</a> () const =0</td></tr>
-<tr class="memdesc:a4bc379c1d86be80f112821eb29b72217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the values stored in the grid.  <br /></td></tr>
+<tr class="memitem:ad18f388c1ccd2b97434aafd6d1abedf8" id="r_ad18f388c1ccd2b97434aafd6d1abedf8"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_acts_1_1_i_multi_axis.html">IMultiAxis</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad18f388c1ccd2b97434aafd6d1abedf8">multiAxisAny</a> () const =0</td></tr>
+<tr class="memdesc:ad18f388c1ccd2b97434aafd6d1abedf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the multi-axis object for the grid.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:abbec6942e5bb4bff4000b6346666693c" id="r_abbec6942e5bb4bff4000b6346666693c"><td class="memItemLeft" align="right" valign="top">virtual std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbec6942e5bb4bff4000b6346666693c">atLocalBinsAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices) const =0</td></tr>
-<tr class="memdesc:abbec6942e5bb4bff4000b6346666693c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of a bin for a given set of indices.  <br /></td></tr>
-<tr class="memitem:a0fb56e1d4a5140b54d67753712daef40" id="r_a0fb56e1d4a5140b54d67753712daef40"><td class="memItemLeft" align="right" valign="top">virtual std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fb56e1d4a5140b54d67753712daef40">atLocalBinsAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices)=0</td></tr>
-<tr class="memdesc:a0fb56e1d4a5140b54d67753712daef40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of a bin for a given set of indices.  <br /></td></tr>
 <tr class="memitem:a128ca3d826ef384157247b3a1efdb249" id="r_a128ca3d826ef384157247b3a1efdb249"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a128ca3d826ef384157247b3a1efdb249">toStream</a> (std::ostream &amp;os) const =0</td></tr>
-<tr class="memitem:a31a3b1d6d21fe7aa914f42fa40355ce3" id="r_a31a3b1d6d21fe7aa914f42fa40355ce3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> = boost::container::small_vector&lt;std::size_t, 3&gt;</td></tr>
-<tr class="memdesc:a31a3b1d6d21fe7aa914f42fa40355ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased interface to access the contents of the grid.  <br /></td></tr>
-<tr class="memitem:ad7432c51cdb8a6d214a61ae2496a1726" id="r_ad7432c51cdb8a6d214a61ae2496a1726"><td class="memItemLeft" align="right" valign="top"><a id="ad7432c51cdb8a6d214a61ae2496a1726" name="ad7432c51cdb8a6d214a61ae2496a1726"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = boost::container::small_vector&lt;double, 3&gt;</td></tr>
-<tr class="memdesc:ad7432c51cdb8a6d214a61ae2496a1726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic point type (coordinates as vector of doubles). <br /></td></tr>
-<tr class="memitem:a10e05d6d588b52c587dc369c9ebc5cc4" id="r_a10e05d6d588b52c587dc369c9ebc5cc4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e05d6d588b52c587dc369c9ebc5cc4">lowerLeftBinEdgeAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices) const =0</td></tr>
-<tr class="memdesc:a10e05d6d588b52c587dc369c9ebc5cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lower left edge of a bin for a given set of indices.  <br /></td></tr>
-<tr class="memitem:a5d4df4a2a08aced99121462451a61a74" id="r_a5d4df4a2a08aced99121462451a61a74"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d4df4a2a08aced99121462451a61a74">upperRightBinEdgeAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices) const =0</td></tr>
-<tr class="memdesc:a5d4df4a2a08aced99121462451a61a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the upper right edge of a bin for a given set of indices.  <br /></td></tr>
-<tr class="memitem:ab05bb886059432e779f0c0308010457d" id="r_ab05bb886059432e779f0c0308010457d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05bb886059432e779f0c0308010457d">binCenterAny</a> (<a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> indices) const =0</td></tr>
-<tr class="memdesc:ab05bb886059432e779f0c0308010457d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center of a bin for a given set of indices.  <br /></td></tr>
-<tr class="memitem:a8fb86c4435b3518e189f432b40e13288" id="r_a8fb86c4435b3518e189f432b40e13288"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb86c4435b3518e189f432b40e13288">numLocalBinsAny</a> () const =0</td></tr>
-<tr class="memdesc:a8fb86c4435b3518e189f432b40e13288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local bins for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a141abb56f1f63dd9c6b14f1a1e30a414" id="r_a141abb56f1f63dd9c6b14f1a1e30a414"><td class="memItemLeft" align="right" valign="top"><a id="a141abb56f1f63dd9c6b14f1a1e30a414" name="a141abb56f1f63dd9c6b14f1a1e30a414"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyIndexType</b> = <a class="el" href="class_acts_1_1_i_multi_axis.html#aada19edcdafef53e470e391d46a975ed">IMultiAxis::AnyLocalBins</a></td></tr>
+<tr class="memdesc:a141abb56f1f63dd9c6b14f1a1e30a414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic index type (indices as vector of std::size_t). <br /></td></tr>
+<tr class="memitem:ae491b2aad1b247db3290e87dd8e6fa6a" id="r_ae491b2aad1b247db3290e87dd8e6fa6a"><td class="memItemLeft" align="right" valign="top"><a id="ae491b2aad1b247db3290e87dd8e6fa6a" name="ae491b2aad1b247db3290e87dd8e6fa6a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = <a class="el" href="class_acts_1_1_i_multi_axis.html#ad853981f0d6e39218bbfff69678c8f27">IMultiAxis::AnyPoint</a></td></tr>
+<tr class="memdesc:ae491b2aad1b247db3290e87dd8e6fa6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for dynamic point type (coordinates as vector of doubles). <br /></td></tr>
+<tr class="memitem:a66a945a98b478db2d5b2b8836087b1d0" id="r_a66a945a98b478db2d5b2b8836087b1d0"><td class="memItemLeft" align="right" valign="top"><a id="a66a945a98b478db2d5b2b8836087b1d0" name="a66a945a98b478db2d5b2b8836087b1d0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyAxesVector</b> = <a class="el" href="class_acts_1_1_i_multi_axis.html#a2a0887e28d4b267fc0b9890639c8f2f8">IMultiAxis::AnyAxesVector</a></td></tr>
+<tr class="memdesc:a66a945a98b478db2d5b2b8836087b1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamically sized vector of (non-owning) pointers to the contained axes. <br /></td></tr>
+<tr class="memitem:a4bc379c1d86be80f112821eb29b72217" id="r_a4bc379c1d86be80f112821eb29b72217"><td class="memItemLeft" align="right" valign="top">virtual std::type_info const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bc379c1d86be80f112821eb29b72217">valueType</a> () const =0</td></tr>
+<tr class="memdesc:a4bc379c1d86be80f112821eb29b72217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-erased interface to access the contents of the grid.  <br /></td></tr>
+<tr class="memitem:a8c07718810b07c3b5542d2edc77f8125" id="r_a8c07718810b07c3b5542d2edc77f8125"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a66a945a98b478db2d5b2b8836087b1d0">AnyAxesVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c07718810b07c3b5542d2edc77f8125">axes</a> () const</td></tr>
+<tr class="memdesc:a8c07718810b07c3b5542d2edc77f8125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a dynamically sized vector of axis objects for inspection.  <br /></td></tr>
+<tr class="memitem:a226e035bd9c3f322724539527eb9e73a" id="r_a226e035bd9c3f322724539527eb9e73a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a226e035bd9c3f322724539527eb9e73a">lowerLeftBinEdgeAny</a> (const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;indices) const</td></tr>
+<tr class="memdesc:a226e035bd9c3f322724539527eb9e73a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lower left edge of a bin for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a2d7ec31ad09c03b3f9e0e31a9bf019ad" id="r_a2d7ec31ad09c03b3f9e0e31a9bf019ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d7ec31ad09c03b3f9e0e31a9bf019ad">upperRightBinEdgeAny</a> (const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;indices) const</td></tr>
+<tr class="memdesc:a2d7ec31ad09c03b3f9e0e31a9bf019ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the upper right edge of a bin for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a89603c10c1186226d2bf21b4c9d19fcc" id="r_a89603c10c1186226d2bf21b4c9d19fcc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89603c10c1186226d2bf21b4c9d19fcc">binCenterAny</a> (const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;indices) const</td></tr>
+<tr class="memdesc:a89603c10c1186226d2bf21b4c9d19fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center of a bin for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a7645634f5f0f08f02fbbf48e54772e11" id="r_a7645634f5f0f08f02fbbf48e54772e11"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7645634f5f0f08f02fbbf48e54772e11">numLocalBinsAny</a> () const</td></tr>
+<tr class="memdesc:a7645634f5f0f08f02fbbf48e54772e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local bins for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a91580128ec41a85db866c3bc5cdc7e30" id="r_a91580128ec41a85db866c3bc5cdc7e30"><td class="memItemLeft" align="right" valign="top">virtual std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91580128ec41a85db866c3bc5cdc7e30">atLocalBinsAny</a> (const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;indices) const =0</td></tr>
+<tr class="memdesc:a91580128ec41a85db866c3bc5cdc7e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of a bin for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a97556f33b426bca26eff4d28d8edc552" id="r_a97556f33b426bca26eff4d28d8edc552"><td class="memItemLeft" align="right" valign="top">virtual std::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97556f33b426bca26eff4d28d8edc552">atLocalBinsAny</a> (const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;indices)=0</td></tr>
+<tr class="memdesc:a97556f33b426bca26eff4d28d8edc552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of a bin for a given set of indices.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for all grid types. </p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a31a3b1d6d21fe7aa914f42fa40355ce3" name="a31a3b1d6d21fe7aa914f42fa40355ce3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31a3b1d6d21fe7aa914f42fa40355ce3">&#9670;&#160;</a></span>AnyIndexType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">Acts::IGrid::AnyIndexType</a> = boost::container::small_vector&lt;std::size_t, 3&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type-erased interface to access the contents of the grid. </p>
-<dl class="section note"><dt>Note</dt><dd>This interface has non-negligible runtime overhead due to packing and unpacking from/to <code>std::any</code> and the dynamically sized index and point types. <b>USE WITH CARE!</b> </dd></dl>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="abbec6942e5bb4bff4000b6346666693c" name="abbec6942e5bb4bff4000b6346666693c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbec6942e5bb4bff4000b6346666693c">&#9670;&#160;</a></span>atLocalBinsAny() <span class="overload">[1/2]</span></h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a91580128ec41a85db866c3bc5cdc7e30" name="a91580128ec41a85db866c3bc5cdc7e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91580128ec41a85db866c3bc5cdc7e30">&#9670;&#160;</a></span>atLocalBinsAny() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,13 +189,13 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
         <tr>
           <td class="memname">virtual std::any Acts::IGrid::atLocalBinsAny </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a></td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -219,12 +209,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the bin: the <code>std::any</code> contains a const pointer to the value </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#abd4ca18153fd631420c548b61923b10b">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a89f6e85ff3755e7d8703f2f74057b293">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a0fb56e1d4a5140b54d67753712daef40" name="a0fb56e1d4a5140b54d67753712daef40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fb56e1d4a5140b54d67753712daef40">&#9670;&#160;</a></span>atLocalBinsAny() <span class="overload">[2/2]</span></h2>
+<a id="a97556f33b426bca26eff4d28d8edc552" name="a97556f33b426bca26eff4d28d8edc552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97556f33b426bca26eff4d28d8edc552">&#9670;&#160;</a></span>atLocalBinsAny() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,13 +225,13 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
         <tr>
           <td class="memname">virtual std::any Acts::IGrid::atLocalBinsAny </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a></td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -255,12 +245,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the bin: the <code>std::any</code> contains a pointer to the value </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a2d22592ad759efe040174485fb8b015a">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#adfd85a81e4f75a0c7cebb6c4ea3406d9">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a5c7655b06cfe2983e91be87f839491c5" name="a5c7655b06cfe2983e91be87f839491c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c7655b06cfe2983e91be87f839491c5">&#9670;&#160;</a></span>axes()</h2>
+<a id="a8c07718810b07c3b5542d2edc77f8125" name="a8c07718810b07c3b5542d2edc77f8125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c07718810b07c3b5542d2edc77f8125">&#9670;&#160;</a></span>axes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,7 +259,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual boost::container::small_vector&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> *, 3 &gt; Acts::IGrid::axes </td>
+          <td class="memname">virtual <a class="el" href="#a66a945a98b478db2d5b2b8836087b1d0">AnyAxesVector</a> Acts::IGrid::axes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -277,7 +267,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -285,12 +275,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 <p>Get a dynamically sized vector of axis objects for inspection. </p>
 <dl class="section return"><dt>Returns</dt><dd>a vector of axis pointers </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#ae62b3bb18ecaab59e917b5808c9586fd">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#af393f436864d81cb75c9e21aba0ada3e">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
 
 </div>
 </div>
-<a id="ab05bb886059432e779f0c0308010457d" name="ab05bb886059432e779f0c0308010457d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab05bb886059432e779f0c0308010457d">&#9670;&#160;</a></span>binCenterAny()</h2>
+<a id="aeac215c22e1617f9a8539b7ec1b1daad" name="aeac215c22e1617f9a8539b7ec1b1daad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac215c22e1617f9a8539b7ec1b1daad">&#9670;&#160;</a></span>axis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,15 +289,51 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a> Acts::IGrid::binCenterAny </td>
+          <td class="memname">virtual const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; Acts::IGrid::axis </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a></td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the axis object for a given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the axis to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The axis object for the given index </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a7942aaa651a4b0307f3f049fc752d259">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a89603c10c1186226d2bf21b4c9d19fcc" name="a89603c10c1186226d2bf21b4c9d19fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89603c10c1186226d2bf21b4c9d19fcc">&#9670;&#160;</a></span>binCenterAny()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a> Acts::IGrid::binCenterAny </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -320,8 +346,6 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The center of the bin </dd></dl>
-
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a1b15838ab0d4a7f7b42befc305dfc19e">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
 
 </div>
 </div>
@@ -355,8 +379,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 
 </div>
 </div>
-<a id="a10e05d6d588b52c587dc369c9ebc5cc4" name="a10e05d6d588b52c587dc369c9ebc5cc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10e05d6d588b52c587dc369c9ebc5cc4">&#9670;&#160;</a></span>lowerLeftBinEdgeAny()</h2>
+<a id="a226e035bd9c3f322724539527eb9e73a" name="a226e035bd9c3f322724539527eb9e73a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a226e035bd9c3f322724539527eb9e73a">&#9670;&#160;</a></span>lowerLeftBinEdgeAny()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,15 +389,15 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a> Acts::IGrid::lowerLeftBinEdgeAny </td>
+          <td class="memname">virtual <a class="el" href="#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a> Acts::IGrid::lowerLeftBinEdgeAny </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a></td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -387,12 +411,10 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The lower left edge of the bin </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#ac2853e5d18cbc90e465d1535d7c8c7ac">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
-
 </div>
 </div>
-<a id="a8fb86c4435b3518e189f432b40e13288" name="a8fb86c4435b3518e189f432b40e13288"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fb86c4435b3518e189f432b40e13288">&#9670;&#160;</a></span>numLocalBinsAny()</h2>
+<a id="ad18f388c1ccd2b97434aafd6d1abedf8" name="ad18f388c1ccd2b97434aafd6d1abedf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad18f388c1ccd2b97434aafd6d1abedf8">&#9670;&#160;</a></span>multiAxisAny()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -401,7 +423,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a> Acts::IGrid::numLocalBinsAny </td>
+          <td class="memname">virtual const <a class="el" href="class_acts_1_1_i_multi_axis.html">IMultiAxis</a> &amp; Acts::IGrid::multiAxisAny </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -414,10 +436,40 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 </table>
 </div><div class="memdoc">
 
+<p>Get the multi-axis object for the grid. </p>
+<dl class="section return"><dt>Returns</dt><dd>The multi-axis object for the grid </dd></dl>
+
+<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a9ded7c669bd59ff6b0d9b0af80517a6b">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a7645634f5f0f08f02fbbf48e54772e11" name="a7645634f5f0f08f02fbbf48e54772e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7645634f5f0f08f02fbbf48e54772e11">&#9670;&#160;</a></span>numLocalBinsAny()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> Acts::IGrid::numLocalBinsAny </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Get the number of local bins for a given set of indices. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of local bins </dd></dl>
 
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
 
 </div>
 </div>
@@ -454,8 +506,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 
 </div>
 </div>
-<a id="a5d4df4a2a08aced99121462451a61a74" name="a5d4df4a2a08aced99121462451a61a74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d4df4a2a08aced99121462451a61a74">&#9670;&#160;</a></span>upperRightBinEdgeAny()</h2>
+<a id="a2d7ec31ad09c03b3f9e0e31a9bf019ad" name="a2d7ec31ad09c03b3f9e0e31a9bf019ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7ec31ad09c03b3f9e0e31a9bf019ad">&#9670;&#160;</a></span>upperRightBinEdgeAny()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -464,15 +516,15 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="#ad7432c51cdb8a6d214a61ae2496a1726">AnyPointType</a> Acts::IGrid::upperRightBinEdgeAny </td>
+          <td class="memname">virtual <a class="el" href="#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a> Acts::IGrid::upperRightBinEdgeAny </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a31a3b1d6d21fe7aa914f42fa40355ce3">AnyIndexType</a></td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -485,8 +537,6 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The upper right edge of the bin </dd></dl>
-
-<p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a8aa9a817970fc420b74a9f1dec6aeb07">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>
 
 </div>
 </div>
@@ -513,7 +563,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>AnyPointType</b> = b
 </table>
 </div><div class="memdoc">
 
-<p>Get the type of the values stored in the grid. </p>
+<p>Type-erased interface to access the contents of the grid. </p>
+<dl class="section note"><dt>Note</dt><dd>This interface has non-negligible runtime overhead due to packing and unpacking from/to <code>std::any</code> and the dynamically sized index and point types. <b>USE WITH CARE!</b> Get the type of the values stored in the grid </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The type of the values stored in the grid </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axes &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; Acts::Material::ParametersVector, EAxis, EAxis, EAxis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; BinType, PhiAxisType, ZAxisType, RAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; BinType, XAxisType, YAxisType, ZAxisType &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; const TrackingVolume *, Axes... &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; HoughCell&lt; identifier_t &gt;, Axis, Axis &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axis&lt; AxisType::Equidistant, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt; &gt;</a>, <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Equidistant, bType &gt; &gt;</a>, and <a class="el" href="class_acts_1_1_grid.html#a7306115e1f89b930216172dc5c60de04">Acts::Grid&lt; T, Axis&lt; AxisType::Variable, aType &gt;, Axis&lt; AxisType::Variable, bType &gt; &gt;</a>.</p>

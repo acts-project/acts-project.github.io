@@ -149,16 +149,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6c33dc40b8e761807ec5b97e1a1734ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide the range \([\text{xmin},\text{xmax})\) into \(\text{nBins}\) equidistant bins.  <br /></td></tr>
 <tr class="memitem:af6a0c69c7b13fead339df69faf305764" id="r_af6a0c69c7b13fead339df69faf305764"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a0c69c7b13fead339df69faf305764">getBin</a> (double x) const final</td></tr>
 <tr class="memdesc:af6a0c69c7b13fead339df69faf305764"><td class="mdescLeft">&#160;</td><td class="mdescRight">get corresponding bin index for given coordinate  <br /></td></tr>
-<tr class="memitem:a080942bc79423034d2642a113f547d2e" id="r_a080942bc79423034d2642a113f547d2e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080942bc79423034d2642a113f547d2e">getBinCenter</a> (std::size_t bin) const</td></tr>
-<tr class="memdesc:a080942bc79423034d2642a113f547d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin center  <br /></td></tr>
+<tr class="memitem:a7e2c04af6236ffccf1287eaaa8941adf" id="r_a7e2c04af6236ffccf1287eaaa8941adf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2c04af6236ffccf1287eaaa8941adf">getBinCenter</a> (std::size_t bin) const final</td></tr>
+<tr class="memdesc:a7e2c04af6236ffccf1287eaaa8941adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin center  <br /></td></tr>
 <tr class="memitem:a7b91f7bb386f6816ad4e603dd581ac41" id="r_a7b91f7bb386f6816ad4e603dd581ac41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b91f7bb386f6816ad4e603dd581ac41">getBinEdges</a> () const final</td></tr>
 <tr class="memdesc:a7b91f7bb386f6816ad4e603dd581ac41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector of bin edges.  <br /></td></tr>
-<tr class="memitem:af26e60a29576eda10a0b3f813905563b" id="r_af26e60a29576eda10a0b3f813905563b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26e60a29576eda10a0b3f813905563b">getBinLowerBound</a> (std::size_t bin) const</td></tr>
-<tr class="memdesc:af26e60a29576eda10a0b3f813905563b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get lower bound of bin  <br /></td></tr>
-<tr class="memitem:a8ab452e9891242b1e0b6daf989d22c1c" id="r_a8ab452e9891242b1e0b6daf989d22c1c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab452e9891242b1e0b6daf989d22c1c">getBinUpperBound</a> (std::size_t bin) const</td></tr>
-<tr class="memdesc:a8ab452e9891242b1e0b6daf989d22c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get upper bound of bin  <br /></td></tr>
-<tr class="memitem:a9122d9867bca4c5ddfeb06c5e98ae0f2" id="r_a9122d9867bca4c5ddfeb06c5e98ae0f2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9122d9867bca4c5ddfeb06c5e98ae0f2">getBinWidth</a> (std::size_t=0) const</td></tr>
-<tr class="memdesc:a9122d9867bca4c5ddfeb06c5e98ae0f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin width  <br /></td></tr>
+<tr class="memitem:aa2681cd83796d8a7751c10b2e88c338a" id="r_aa2681cd83796d8a7751c10b2e88c338a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2681cd83796d8a7751c10b2e88c338a">getBinLowerBound</a> (std::size_t bin) const final</td></tr>
+<tr class="memdesc:aa2681cd83796d8a7751c10b2e88c338a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get lower bound of bin  <br /></td></tr>
+<tr class="memitem:a332402df85d9a0595c8bdd94c808d992" id="r_a332402df85d9a0595c8bdd94c808d992"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332402df85d9a0595c8bdd94c808d992">getBinUpperBound</a> (std::size_t bin) const final</td></tr>
+<tr class="memdesc:a332402df85d9a0595c8bdd94c808d992"><td class="mdescLeft">&#160;</td><td class="mdescRight">get upper bound of bin  <br /></td></tr>
+<tr class="memitem:a887d539a0a63991acc65234c1da6844c" id="r_a887d539a0a63991acc65234c1da6844c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887d539a0a63991acc65234c1da6844c">getBinWidth</a> () const</td></tr>
+<tr class="memdesc:a887d539a0a63991acc65234c1da6844c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin width  <br /></td></tr>
+<tr class="memitem:acf88ab24522d52f3f2c1293ebd86fae2" id="r_acf88ab24522d52f3f2c1293ebd86fae2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf88ab24522d52f3f2c1293ebd86fae2">getBinWidth</a> (std::size_t) const final</td></tr>
+<tr class="memdesc:acf88ab24522d52f3f2c1293ebd86fae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bin width  <br /></td></tr>
 <tr class="memitem:afc9ab078ecfb5d434f7795333fd21d62" id="r_afc9ab078ecfb5d434f7795333fd21d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc9ab078ecfb5d434f7795333fd21d62">getBoundaryType</a> () const final</td></tr>
 <tr class="memdesc:afc9ab078ecfb5d434f7795333fd21d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the boundary type set in the template param  <br /></td></tr>
 <tr class="memitem:a9631e6854bce0d97a27d49d1b6cc2389" id="r_a9631e6854bce0d97a27d49d1b6cc2389"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9631e6854bce0d97a27d49d1b6cc2389">getMax</a> () const final</td></tr>
@@ -171,8 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad731572824b0cbb96736be20d889aa48"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the type of the axis  <br /></td></tr>
 <tr class="memitem:aad41f1f23ecc42e5423d88b1f6510d60" id="r_aad41f1f23ecc42e5423d88b1f6510d60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad41f1f23ecc42e5423d88b1f6510d60">isEquidistant</a> () const final</td></tr>
 <tr class="memdesc:aad41f1f23ecc42e5423d88b1f6510d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the axis is equidistant  <br /></td></tr>
-<tr class="memitem:a2c54745ae2b38e1b8de7f2a036b0f631" id="r_a2c54745ae2b38e1b8de7f2a036b0f631"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c54745ae2b38e1b8de7f2a036b0f631">isInside</a> (double x) const</td></tr>
-<tr class="memdesc:a2c54745ae2b38e1b8de7f2a036b0f631"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether value is inside axis limits  <br /></td></tr>
+<tr class="memitem:a3dd5964b9ce236f6e7a5b979d38276f0" id="r_a3dd5964b9ce236f6e7a5b979d38276f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd5964b9ce236f6e7a5b979d38276f0">isInside</a> (double x) const final</td></tr>
+<tr class="memdesc:a3dd5964b9ce236f6e7a5b979d38276f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether value is inside axis limits  <br /></td></tr>
 <tr class="memitem:a6ddb8e2cfeeab0e88ee374e7762b1cb0" id="r_a6ddb8e2cfeeab0e88ee374e7762b1cb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ddb8e2cfeeab0e88ee374e7762b1cb0">isVariable</a> () const final</td></tr>
 <tr class="memdesc:a6ddb8e2cfeeab0e88ee374e7762b1cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the axis is variable  <br /></td></tr>
 <tr class="memitem:a67e1e95f6596a4a7771a9879398be140" id="r_a67e1e95f6596a4a7771a9879398be140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_neighbor_hood_indices.html">NeighborHoodIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e1e95f6596a4a7771a9879398be140">neighborHoodIndices</a> (std::size_t idx, std::pair&lt; int, int &gt; sizes={-1, 1}) const</td></tr>
@@ -358,13 +360,16 @@ Bin indices start at <code>1</code>. The underflow bin has the index <code>0</co
 
 </div>
 </div>
-<a id="a080942bc79423034d2642a113f547d2e" name="a080942bc79423034d2642a113f547d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a080942bc79423034d2642a113f547d2e">&#9670;&#160;</a></span>getBinCenter()</h2>
+<a id="a7e2c04af6236ffccf1287eaaa8941adf" name="a7e2c04af6236ffccf1287eaaa8941adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2c04af6236ffccf1287eaaa8941adf">&#9670;&#160;</a></span>getBinCenter()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::getBinCenter </td>
@@ -373,6 +378,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>get bin center </p>
@@ -384,6 +394,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bin center position </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding under-/overflow bins), i.e. \(1 \le \text{bin} \le \text{nBins}\) </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_axis.html#a1ab9f0a160e31a6f3bd630d556b9c983">Acts::IAxis</a>.</p>
 
 </div>
 </div>
@@ -419,13 +431,16 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="af26e60a29576eda10a0b3f813905563b" name="af26e60a29576eda10a0b3f813905563b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26e60a29576eda10a0b3f813905563b">&#9670;&#160;</a></span>getBinLowerBound()</h2>
+<a id="aa2681cd83796d8a7751c10b2e88c338a" name="aa2681cd83796d8a7751c10b2e88c338a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2681cd83796d8a7751c10b2e88c338a">&#9670;&#160;</a></span>getBinLowerBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::getBinLowerBound </td>
@@ -434,6 +449,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>get lower bound of bin </p>
@@ -447,15 +467,20 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding the underflow bin), i.e. \(1 \le \text{bin} \le \text{nBins} + 1\)</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Bin intervals have a closed lower bound, i.e. the lower boundary belongs to the bin with the given bin index. </dd></dl>
 
+<p>Implements <a class="el" href="class_acts_1_1_i_axis.html#a11105a839042d6c5dbc235b7fde55855">Acts::IAxis</a>.</p>
+
 </div>
 </div>
-<a id="a8ab452e9891242b1e0b6daf989d22c1c" name="a8ab452e9891242b1e0b6daf989d22c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab452e9891242b1e0b6daf989d22c1c">&#9670;&#160;</a></span>getBinUpperBound()</h2>
+<a id="a332402df85d9a0595c8bdd94c808d992" name="a332402df85d9a0595c8bdd94c808d992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a332402df85d9a0595c8bdd94c808d992">&#9670;&#160;</a></span>getBinUpperBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::getBinUpperBound </td>
@@ -464,6 +489,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>get upper bound of bin </p>
@@ -477,10 +507,12 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 <dl class="section pre"><dt>Precondition</dt><dd><code>bin</code> must be a valid bin index (excluding the overflow bin), i.e. \(0 \le \text{bin} \le \text{nBins}\) </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Bin intervals have an open upper bound, i.e. the upper boundary does <b>not</b> belong to the bin with the given bin index. </dd></dl>
 
+<p>Implements <a class="el" href="class_acts_1_1_i_axis.html#ad3fd2aca1a0d2b56eea9d3b37c39563e">Acts::IAxis</a>.</p>
+
 </div>
 </div>
-<a id="a9122d9867bca4c5ddfeb06c5e98ae0f2" name="a9122d9867bca4c5ddfeb06c5e98ae0f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9122d9867bca4c5ddfeb06c5e98ae0f2">&#9670;&#160;</a></span>getBinWidth()</h2>
+<a id="a887d539a0a63991acc65234c1da6844c" name="a887d539a0a63991acc65234c1da6844c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887d539a0a63991acc65234c1da6844c">&#9670;&#160;</a></span>getBinWidth() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +522,7 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
         <tr>
           <td class="memname">double <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::getBinWidth </td>
           <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em></em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -498,6 +530,38 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 <p>get bin width </p>
 <dl class="section return"><dt>Returns</dt><dd>constant width for all bins </dd></dl>
+
+</div>
+</div>
+<a id="acf88ab24522d52f3f2c1293ebd86fae2" name="acf88ab24522d52f3f2c1293ebd86fae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf88ab24522d52f3f2c1293ebd86fae2">&#9670;&#160;</a></span>getBinWidth() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::getBinWidth </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get bin width </p>
+<dl class="section return"><dt>Returns</dt><dd>constant width for all bins </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_axis.html#ac0999a694c547efeaf809060853dd6de">Acts::IAxis</a>.</p>
 
 </div>
 </div>
@@ -693,13 +757,16 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 
 </div>
 </div>
-<a id="a2c54745ae2b38e1b8de7f2a036b0f631" name="a2c54745ae2b38e1b8de7f2a036b0f631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c54745ae2b38e1b8de7f2a036b0f631">&#9670;&#160;</a></span>isInside()</h2>
+<a id="a3dd5964b9ce236f6e7a5b979d38276f0" name="a3dd5964b9ce236f6e7a5b979d38276f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd5964b9ce236f6e7a5b979d38276f0">&#9670;&#160;</a></span>isInside()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f69ba7">AxisBoundaryType</a> bdt&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="class_acts_1_1_axis.html">Acts::Axis</a>&lt; <a class="el" href="namespace_acts.html#a2472b7e663ee623501edad0bbcd8a32fa4bd2dce3bd186b044b90d37b908c3c52">AxisType::Equidistant</a>, bdt &gt;::isInside </td>
@@ -708,6 +775,11 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>check whether value is inside axis limits </p>
@@ -719,6 +791,8 @@ template&lt;<a class="el" href="namespace_acts.html#a8cacb654fb3407f6911cfcf424f
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if \(\text{xmin} \le x &lt; \text{xmax}\), otherwise <code>false</code> </dd></dl>
 <dl class="section post"><dt>Postcondition</dt><dd>If <code>true</code> is returned, the bin containing the given value is a valid bin, i.e. it is neither the underflow nor the overflow bin. </dd></dl>
+
+<p>Implements <a class="el" href="class_acts_1_1_i_axis.html#a3e6daa5b94bbb58f4214f73a69d67d0b">Acts::IAxis</a>.</p>
 
 </div>
 </div>

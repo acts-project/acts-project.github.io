@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_acts_1_1_axis_aligned_bounding_box.html#a301d56e8acfa2c7fc2cd1ec7439733fe":[7,0,0,45,8],
-"class_acts_1_1_axis_aligned_bounding_box.html#a317c2e7fb1f81c4fb942221bb1329e76":[5,0,0,37,7],
 "class_acts_1_1_axis_aligned_bounding_box.html#a317c2e7fb1f81c4fb942221bb1329e76":[7,0,0,45,7],
 "class_acts_1_1_axis_aligned_bounding_box.html#a342d757608bb02371d129063af637533":[5,0,0,37,19],
 "class_acts_1_1_axis_aligned_bounding_box.html#a342d757608bb02371d129063af637533":[7,0,0,45,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "class_acts_1_1_binning_data.html#a14327b06d961675fd6b3514748568570":[7,0,0,57,14],
 "class_acts_1_1_binning_data.html#a151d66b9f5f9aa734cc198f50d297d1f":[5,0,0,49,13],
 "class_acts_1_1_binning_data.html#a151d66b9f5f9aa734cc198f50d297d1f":[7,0,0,57,13],
-"class_acts_1_1_binning_data.html#a255a0d4b70b97279d66823cfc0809d0e":[5,0,0,49,31]
+"class_acts_1_1_binning_data.html#a255a0d4b70b97279d66823cfc0809d0e":[5,0,0,49,31],
+"class_acts_1_1_binning_data.html#a255a0d4b70b97279d66823cfc0809d0e":[7,0,0,57,31],
+"class_acts_1_1_binning_data.html#a258da64c082b89b71ef6fe7042dd30f2":[5,0,0,49,29]
 };

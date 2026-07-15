@@ -10,12 +10,11 @@ var class_acts_1_1_any_grid_view =
     [ "atLocalBins", "class_acts_1_1_any_grid_view.html#a8f431d0d0875d9a6f43e0e0e1c075479", null ],
     [ "atLocalBins", "class_acts_1_1_any_grid_view.html#a6487daa49f79615809fbdf8b3ff1e189", null ],
     [ "binCenter", "class_acts_1_1_any_grid_view.html#af98b643225b7bb7d6bc9e30473e9ec40", null ],
-    [ "checkType", "class_acts_1_1_any_grid_view.html#a4d925cb43d7aca48006696ef5557fb79", null ],
     [ "dimensions", "class_acts_1_1_any_grid_view.html#ac70059b948a9b19fae4fec24c02836e0", null ],
     [ "lowerLeftBinEdge", "class_acts_1_1_any_grid_view.html#aeb02d699778bef4b1985ca5df1da4392", null ],
+    [ "multiAxisAny", "class_acts_1_1_any_grid_view.html#aa6453271ac49fc11c4e450bec5e63129", null ],
     [ "numLocalBins", "class_acts_1_1_any_grid_view.html#a27a7819f3e5aa7079beaa2eec2fe2b9c", null ],
     [ "operator=", "class_acts_1_1_any_grid_view.html#a7921e8219f8c7bd7a1c82433a67daa3b", null ],
     [ "operator=", "class_acts_1_1_any_grid_view.html#a65defc9a8533c8c9f99c7b1c859431a5", null ],
-    [ "upperRightBinEdge", "class_acts_1_1_any_grid_view.html#a09a56d7b09b22f1c5615b382dd218bd9", null ],
-    [ "m_grid", "class_acts_1_1_any_grid_view.html#a923d42411513ca5a1af7a468746bfc79", null ]
+    [ "upperRightBinEdge", "class_acts_1_1_any_grid_view.html#a09a56d7b09b22f1c5615b382dd218bd9", null ]
 ];
