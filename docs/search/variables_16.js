@@ -15,7 +15,7 @@ var searchData=
   ['worldvolumename_12',['worldVolumeName',['../struct_acts_plugins_1_1_geo_model_tree.html#a93f980302b95ba6709d33f2a96f132a8',1,'ActsPlugins::GeoModelTree']]],
   ['wrapping_13',['wrapping',['../struct_acts_1_1_volume_config.html#aa1c01e1bed2d629e2d4af928ba0e6e80',1,'Acts::VolumeConfig']]],
   ['writeidentity_14',['writeIdentity',['../struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398',1,'Acts::Transform3JsonConverter::Options']]],
-  ['writematerial_15',['writeMaterial',['../group__json__plugin.html#gaa37197f466651421892c0b9d6cc45920',1,'Acts::SurfaceJsonConverter::Options']]],
+  ['writematerial_15',['writeMaterial',['../group__json__plugin.html#gaa37197f466651421892c0b9d6cc45920',1,'Acts::SurfaceJsonConverter::Options::writeMaterial'],['../struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b',1,'Acts::TrackingGeometryJsonConverter::Options::writeMaterial']]],
   ['writeprojectedsurfaces_16',['writeProjectedSurfaces',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#aaa1fa9237d6d00f66101ab7c9f3bc406',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
   ['writesurfaces_17',['writeSurfaces',['../struct_acts_1_1_index_grid_navigation_json_converter_1_1_options.html#ad6ff18680fea02c928c493424f1c2cdd',1,'Acts::IndexGridNavigationJsonConverter::Options']]],
   ['wx_18',['wx',['../struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c',1,'Acts::HoughTransformUtils::PeakFinders::IslandsAroundMax::Maximum']]],

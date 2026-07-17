@@ -66,6 +66,7 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#acb3fcf85696bdf558d832fc8dc021323":[4,10,10,12,0,4],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html":[4,10,10,12,1],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html":[4,10,10,12,2],
+"struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b":[4,10,10,12,2,3],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052":[4,10,10,12,2,2],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#abb1be2d78a2465ebcc4b85f9391a1e0c":[4,10,10,12,2,0],
 "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1":[4,10,10,12,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_void_navigator_1_1_state.html":[5,0,0,417,2],
 "struct_acts_1_1_void_navigator_1_1_state.html":[7,0,0,425,2],
 "struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[5,0,0,417,2,2],
-"struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[7,0,0,425,2,2],
-"struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[5,0,0,417,2,0]
+"struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[7,0,0,425,2,2]
 };

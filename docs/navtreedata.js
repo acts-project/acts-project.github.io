@@ -130,7 +130,7 @@ var NAVTREEINDEX =
 "struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d",
 "struct_acts_fatras_1_1_channel.html",
 "struct_acts_fatras_1_1_single_particle_simulation_result.html#a8ff1e4e21c2683c396a269507f26376c",
-"struct_acts_plugins_1_1_pipeline_tensors.html"
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

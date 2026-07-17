@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490":[4,10,6,13,0,2],
 "struct_acts_plugins_1_1_pipeline_tensors.html":[4,10,6,14],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a1e09855954eeb28d5e061d3c5a88735e":[4,10,6,14,3],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a4831b807b7819c5fe11c737eed5c4781":[4,10,6,14,0],

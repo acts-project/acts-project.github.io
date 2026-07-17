@@ -92,7 +92,8 @@ var group__json__plugin =
       [ "Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html", [
         [ "Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#abb1be2d78a2465ebcc4b85f9391a1e0c", null ],
         [ "defaultOptions", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1", null ],
-        [ "indentation", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052", null ]
+        [ "indentation", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052", null ],
+        [ "writeMaterial", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b", null ]
       ] ],
       [ "PointerToIdLookup", "struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html", null ],
       [ "NavigationPolicyDecoder", "class_acts_1_1_tracking_geometry_json_converter.html#a8cadd61bbd97e687acec43a639c94eb0", null ],
