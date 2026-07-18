@@ -24,6 +24,7 @@ var namespace_acts_1_1_experimental =
     [ "GbtsLayer", "class_acts_1_1_experimental_1_1_gbts_layer.html", "class_acts_1_1_experimental_1_1_gbts_layer" ],
     [ "GbtsLayerConnection", "struct_acts_1_1_experimental_1_1_gbts_layer_connection.html", "struct_acts_1_1_experimental_1_1_gbts_layer_connection" ],
     [ "GbtsLayerConnectionMap", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_map" ],
+    [ "GbtsLayerConnectionTool", "class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html", "class_acts_1_1_experimental_1_1_gbts_layer_connection_tool" ],
     [ "GbtsLayerDescription", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html", "struct_acts_1_1_experimental_1_1_gbts_layer_description" ],
     [ "GbtsNode", "struct_acts_1_1_experimental_1_1_gbts_node.html", "struct_acts_1_1_experimental_1_1_gbts_node" ],
     [ "GbtsNodeStorage", "class_acts_1_1_experimental_1_1_gbts_node_storage.html", "class_acts_1_1_experimental_1_1_gbts_node_storage" ],
