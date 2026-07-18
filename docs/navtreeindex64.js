@@ -1,5 +1,12 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a1468229a04207789f70008bb0c43f0e9":[7,0,1,36,1],
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a49a4f54a29d8bbf3be3ab179f4b5ef2f":[5,0,2,35,4],
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a49a4f54a29d8bbf3be3ab179f4b5ef2f":[7,0,1,36,4],
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a7f091465f31aeace8d9b0b098b53c7cf":[5,0,2,35,2],
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a7f091465f31aeace8d9b0b098b53c7cf":[7,0,1,36,2],
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a8192f12f171ce615db929fa57f24fbe5":[5,0,2,35,0],
+"struct_acts_fatras_1_1_single_particle_simulation_result.html#a8192f12f171ce615db929fa57f24fbe5":[7,0,1,36,0],
 "struct_acts_fatras_1_1_single_particle_simulation_result.html#a8ff1e4e21c2683c396a269507f26376c":[5,0,2,35,8],
 "struct_acts_fatras_1_1_single_particle_simulation_result.html#a8ff1e4e21c2683c396a269507f26376c":[7,0,1,36,8],
 "struct_acts_fatras_1_1_single_particle_simulation_result.html#ab14ada756e988529f4d33c9f0a1a024a":[5,0,2,35,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a309ec1d3a08d0fe9dc066ae858bae633":[4,10,6,11,0,0],
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a46280d8fb7195b73cc09d827630ea376":[4,10,6,11,0,4],
 "struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a58a1aea048fdccba2ddb34292655e5ce":[4,10,6,11,0,7],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a6a5deca179b9b91ac1411c767a5dfa5e":[4,10,6,11,0,1],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a81dd6fb189a118e4f5a3a2e691b006ae":[4,10,6,11,0,6],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#adaed7137aae438d4a741c09546daf24f":[4,10,6,11,0,2],
-"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#ae104a63b0b7b0bdba872050acb286bcb":[4,10,6,11,0,3],
-"struct_acts_plugins_1_1_no_edges_error.html":[4,10,6,12],
-"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html":[4,10,6,13,0],
-"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a1909979b81e83a797c5a793ce747871c":[4,10,6,13,0,0],
-"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a35cff93e3b1648b6ae39399e24f0921d":[4,10,6,13,0,1]
+"struct_acts_plugins_1_1_module_map_cuda_1_1_config.html#a6a5deca179b9b91ac1411c767a5dfa5e":[4,10,6,11,0,1]
 };

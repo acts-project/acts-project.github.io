@@ -93,8 +93,12 @@ var hierarchy =
     [ "Acts::CloneablePtr&lt; T &gt;", "class_acts_1_1_cloneable_ptr.html", null ],
     [ "Acts::Color", "struct_acts_1_1_color.html", null ],
     [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;", "class_acts_1_1_combinatorial_kalman_filter.html", null ],
+    [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;::Actor::BremState", "struct_acts_1_1_combinatorial_kalman_filter_1_1_actor_1_1_brem_state.html", null ],
+    [ "Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;::Actor::NoBremState", "struct_acts_1_1_combinatorial_kalman_filter_1_1_actor_1_1_no_brem_state.html", null ],
     [ "Acts::CombinatorialKalmanFilterExtensions&lt; track_container_t &gt;", "struct_acts_1_1_combinatorial_kalman_filter_extensions.html", null ],
-    [ "Acts::CombinatorialKalmanFilterOptions&lt; track_container_t &gt;", "struct_acts_1_1_combinatorial_kalman_filter_options.html", null ],
+    [ "Acts::CombinatorialKalmanFilterOptions&lt; track_container_t &gt;", "struct_acts_1_1_combinatorial_kalman_filter_options.html", [
+      [ "Acts::BremCombinatorialKalmanFilterOptions< track_container_t >", "struct_acts_1_1_brem_combinatorial_kalman_filter_options.html", null ]
+    ] ],
     [ "Acts::CombinatorialKalmanFilterResult&lt; track_container_t &gt;", "struct_acts_1_1_combinatorial_kalman_filter_result.html", null ],
     [ "Acts::ConstantBField::Cache", "struct_acts_1_1_constant_b_field_1_1_cache.html", null ],
     [ "Acts::ConstrainedStep", "class_acts_1_1_constrained_step.html", null ],

@@ -131,17 +131,19 @@ $(function(){initNavTree('class_acts_1_1_combinatorial_kalman_filter.html','','c
 
 <p><code>#include &lt;<a class="el" href="_combinatorial_kalman_filter_8hpp_source.html">Acts/TrackFinding/CombinatorialKalmanFilter.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:af28e7ab1e784e5cd2f937622fcc60a2d" id="r_af28e7ab1e784e5cd2f937622fcc60a2d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28e7ab1e784e5cd2f937622fcc60a2d">Options</a></td></tr>
+<tr class="memdesc:af28e7ab1e784e5cd2f937622fcc60a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options for this filter instantiation, selected by the stepper: the plain <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a> for a single-component stepper, and <a class="el" href="struct_acts_1_1_brem_combinatorial_kalman_filter_options.html">BremCombinatorialKalmanFilterOptions</a> (bremsstrahlung recovery) for a multi-component stepper.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a00ce8df1692cbd175c8c4c4eb96d127b" id="r_a00ce8df1692cbd175c8c4c4eb96d127b"><td class="memItemLeft" align="right" valign="top"><a id="a00ce8df1692cbd175c8c4c4eb96d127b" name="a00ce8df1692cbd175c8c4c4eb96d127b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>CombinatorialKalmanFilter</b> ()=delete</td></tr>
-<tr class="memdesc:a00ce8df1692cbd175c8c4c4eb96d127b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor is deleted. <br /></td></tr>
 <tr class="memitem:a73babed6b5e06588d567cfa23fd7b0cf" id="r_a73babed6b5e06588d567cfa23fd7b0cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73babed6b5e06588d567cfa23fd7b0cf">CombinatorialKalmanFilter</a> (propagator_t pPropagator, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; _logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;CKF&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a73babed6b5e06588d567cfa23fd7b0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with propagator and logging level.  <br /></td></tr>
-<tr class="memitem:a6433994384494e412829666abdb4cde9" id="r_a6433994384494e412829666abdb4cde9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6433994384494e412829666abdb4cde9">findTracks</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;initialParameters, const <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer) const -&gt; <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td></tr>
-<tr class="memdesc:a6433994384494e412829666abdb4cde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combinatorial Kalman Filter implementation, calls the Kalman filter.  <br /></td></tr>
-<tr class="memitem:af26bb30c3a65c5d38d253044b369bd51" id="r_af26bb30c3a65c5d38d253044b369bd51"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26bb30c3a65c5d38d253044b369bd51">findTracks</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;initialParameters, const <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt; &amp;tfOptions, track_container_t &amp;trackContainer, typename track_container_t::TrackProxy rootBranch) const -&gt; <a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; typename std::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td></tr>
-<tr class="memdesc:af26bb30c3a65c5d38d253044b369bd51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combinatorial Kalman Filter implementation, calls the Kalman filter.  <br /></td></tr>
+<tr class="memitem:a91092d254a814da035af8b78dbd93458" id="r_a91092d254a814da035af8b78dbd93458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; TrackProxy &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91092d254a814da035af8b78dbd93458">findTracks</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;initialParameters, const <a class="el" href="#af28e7ab1e784e5cd2f937622fcc60a2d">Options</a> &amp;tfOptions, track_container_t &amp;trackContainer) const</td></tr>
+<tr class="memdesc:a91092d254a814da035af8b78dbd93458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combinatorial Kalman Filter implementation, calls the Kalman filter.  <br /></td></tr>
+<tr class="memitem:aa3125c8796ba302ab7b375e4a30d1904" id="r_aa3125c8796ba302ab7b375e4a30d1904"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; TrackProxy &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3125c8796ba302ab7b375e4a30d1904">findTracks</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;initialParameters, const <a class="el" href="#af28e7ab1e784e5cd2f937622fcc60a2d">Options</a> &amp;tfOptions, track_container_t &amp;trackContainer, TrackProxy rootBranch) const</td></tr>
+<tr class="memdesc:aa3125c8796ba302ab7b375e4a30d1904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combinatorial Kalman Filter implementation, calls the Kalman filter.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename propagator_t, typename track_container_t&gt;<br />
@@ -158,7 +160,31 @@ class Acts::CombinatorialKalmanFilter&lt; propagator_t, track_container_t &gt;</
 </ul>
 <p>Measurements are not required to be ordered for the CombinatorialKalmanFilter, measurement ordering needs to be figured out by the navigation of the propagator.</p>
 <p>The void components are provided mainly for unit testing. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a id="af28e7ab1e784e5cd2f937622fcc60a2d" name="af28e7ab1e784e5cd2f937622fcc60a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af28e7ab1e784e5cd2f937622fcc60a2d">&#9670;&#160;</a></span>Options</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename propagator_t, typename track_container_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter</a>&lt; propagator_t, track_container_t &gt;::Options</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> std::conditional_t&lt;</div>
+<div class="line">      IsMultiStepper, <a class="code hl_struct" href="struct_acts_1_1_brem_combinatorial_kalman_filter_options.html">BremCombinatorialKalmanFilterOptions&lt;track_container_t&gt;</a>,</div>
+<div class="line">      <a class="code hl_struct" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions&lt;track_container_t&gt;</a>&gt;</div>
+<div class="ttc" id="astruct_acts_1_1_brem_combinatorial_kalman_filter_options_html"><div class="ttname"><a href="struct_acts_1_1_brem_combinatorial_kalman_filter_options.html">Acts::BremCombinatorialKalmanFilterOptions</a></div><div class="ttdoc">Options for the combinatorial Kalman filter with bremsstrahlung recovery.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilter.hpp:123</div></div>
+<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_options_html"><div class="ttname"><a href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a></div><div class="ttdoc">Combined options for the combinatorial Kalman filter.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilter.hpp:51</div></div>
+</div><!-- fragment -->
+<p>Options for this filter instantiation, selected by the stepper: the plain <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a> for a single-component stepper, and <a class="el" href="struct_acts_1_1_brem_combinatorial_kalman_filter_options.html">BremCombinatorialKalmanFilterOptions</a> (bremsstrahlung recovery) for a multi-component stepper. </p>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a73babed6b5e06588d567cfa23fd7b0cf" name="a73babed6b5e06588d567cfa23fd7b0cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73babed6b5e06588d567cfa23fd7b0cf">&#9670;&#160;</a></span>CombinatorialKalmanFilter()</h2>
 
@@ -200,8 +226,8 @@ template&lt;typename propagator_t, typename track_container_t&gt; </div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a6433994384494e412829666abdb4cde9" name="a6433994384494e412829666abdb4cde9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6433994384494e412829666abdb4cde9">&#9670;&#160;</a></span>findTracks() <span class="overload">[1/2]</span></h2>
+<a id="a91092d254a814da035af8b78dbd93458" name="a91092d254a814da035af8b78dbd93458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91092d254a814da035af8b78dbd93458">&#9670;&#160;</a></span>findTracks() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,19 +235,19 @@ template&lt;typename propagator_t, typename track_container_t&gt; </div>
 template&lt;typename propagator_t, typename track_container_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter</a>&lt; propagator_t, track_container_t &gt;::findTracks </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; TrackProxy &gt; &gt; <a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter</a>&lt; propagator_t, track_container_t &gt;::findTracks </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>initialParameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tfOptions</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#af28e7ab1e784e5cd2f937622fcc60a2d">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tfOptions</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">track_container_t &amp;</td>          <td class="paramname"><span class="paramname"><em>trackContainer</em></span>&#160;) const-&gt;<a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; typenamestd::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td>
+          <td class="paramtype">track_container_t &amp;</td>          <td class="paramname"><span class="paramname"><em>trackContainer</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -240,8 +266,8 @@ template&lt;typename propagator_t, typename track_container_t&gt; </div>
 
 </div>
 </div>
-<a id="af26bb30c3a65c5d38d253044b369bd51" name="af26bb30c3a65c5d38d253044b369bd51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26bb30c3a65c5d38d253044b369bd51">&#9670;&#160;</a></span>findTracks() <span class="overload">[2/2]</span></h2>
+<a id="aa3125c8796ba302ab7b375e4a30d1904" name="aa3125c8796ba302ab7b375e4a30d1904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3125c8796ba302ab7b375e4a30d1904">&#9670;&#160;</a></span>findTracks() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,14 +275,14 @@ template&lt;typename propagator_t, typename track_container_t&gt; </div>
 template&lt;typename propagator_t, typename track_container_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter</a>&lt; propagator_t, track_container_t &gt;::findTracks </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; TrackProxy &gt; &gt; <a class="el" href="class_acts_1_1_combinatorial_kalman_filter.html">Acts::CombinatorialKalmanFilter</a>&lt; propagator_t, track_container_t &gt;::findTracks </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>initialParameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tfOptions</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#af28e7ab1e784e5cd2f937622fcc60a2d">Options</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tfOptions</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -266,7 +292,7 @@ template&lt;typename propagator_t, typename track_container_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename track_container_t::TrackProxy</td>          <td class="paramname"><span class="paramname"><em>rootBranch</em></span>&#160;) const-&gt;<a class="el" href="class_acts_1_1_result.html">Result</a>&lt; std::vector&lt; typenamestd::decay_t&lt; decltype(trackContainer)&gt;::TrackProxy &gt; &gt;</td>
+          <td class="paramtype">TrackProxy</td>          <td class="paramname"><span class="paramname"><em>rootBranch</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

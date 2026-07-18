@@ -41,6 +41,8 @@ var searchData=
   ['boundparametervariationgenerator_38',['BoundParameterVariationGenerator',['../struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html',1,'Acts::Experimental']]],
   ['boundtrackparameters_39',['BoundTrackParameters',['../class_acts_1_1_bound_track_parameters.html',1,'Acts']]],
   ['boundvalues_40',['BoundValues',['../struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html',1,'Acts::GenericCuboidVolumeBounds']]],
-  ['broadtripletseedfilter_41',['BroadTripletSeedFilter',['../class_acts_1_1_broad_triplet_seed_filter.html',1,'Acts']]],
-  ['buffer_42',['Buffer',['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html',1,'ActsPlugins::FpeMonitor']]]
+  ['bremcombinatorialkalmanfilteroptions_41',['BremCombinatorialKalmanFilterOptions',['../struct_acts_1_1_brem_combinatorial_kalman_filter_options.html',1,'Acts']]],
+  ['bremstate_42',['BremState',['../struct_acts_1_1_combinatorial_kalman_filter_1_1_actor_1_1_brem_state.html',1,'Acts::CombinatorialKalmanFilter::Actor']]],
+  ['broadtripletseedfilter_43',['BroadTripletSeedFilter',['../class_acts_1_1_broad_triplet_seed_filter.html',1,'Acts']]],
+  ['buffer_44',['Buffer',['../struct_acts_plugins_1_1_fpe_monitor_1_1_buffer.html',1,'ActsPlugins::FpeMonitor']]]
 ];

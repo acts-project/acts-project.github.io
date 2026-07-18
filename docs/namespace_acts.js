@@ -117,6 +117,7 @@ var namespace_acts =
     [ "BoundFactory", "class_acts_1_1_bound_factory.html", "class_acts_1_1_bound_factory" ],
     [ "BoundParameterRecorder", "struct_acts_1_1_bound_parameter_recorder.html", "struct_acts_1_1_bound_parameter_recorder" ],
     [ "BoundTrackParameters", "class_acts_1_1_bound_track_parameters.html", "class_acts_1_1_bound_track_parameters" ],
+    [ "BremCombinatorialKalmanFilterOptions", "struct_acts_1_1_brem_combinatorial_kalman_filter_options.html", "struct_acts_1_1_brem_combinatorial_kalman_filter_options" ],
     [ "BroadTripletSeedFilter", "class_acts_1_1_broad_triplet_seed_filter.html", "class_acts_1_1_broad_triplet_seed_filter" ],
     [ "CalibrationContext", "class_acts_1_1_calibration_context.html", null ],
     [ "CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", "class_acts_1_1_cartesian_space_point_grid" ],

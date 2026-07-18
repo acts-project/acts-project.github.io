@@ -133,7 +133,7 @@ $(function(){initNavTree('struct_acts_1_1_combinatorial_kalman_filter_extensions
 <div class="dynheader">
 Collaboration diagram for Acts::CombinatorialKalmanFilterExtensions&lt; track_container_t &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_combinatorial_kalman_filter_extensions__coll__graph.svg" width="100%" height="545"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_combinatorial_kalman_filter_extensions__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -143,6 +143,8 @@ Public Types</h2></td></tr>
 <tr class="memitem:a2eb8860fa48d362f4e14406d01b2bca2" id="r_a2eb8860fa48d362f4e14406d01b2bca2"><td class="memItemLeft" align="right" valign="top"><a id="a2eb8860fa48d362f4e14406d01b2bca2" name="a2eb8860fa48d362f4e14406d01b2bca2"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>BranchStopperResult</b> = <a class="el" href="group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b">CombinatorialKalmanFilterBranchStopperResult</a></td></tr>
 <tr class="memdesc:a2eb8860fa48d362f4e14406d01b2bca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for branch stopper result enumeration. <br /></td></tr>
+<tr class="memitem:ad40712b45ff99e35b5fa01a8cfa1b7b2" id="r_ad40712b45ff99e35b5fa01a8cfa1b7b2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad40712b45ff99e35b5fa01a8cfa1b7b2">ComponentReducer</a></td></tr>
+<tr class="memdesc:ad40712b45ff99e35b5fa01a8cfa1b7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for component reducer delegate function.  <br /></td></tr>
 <tr class="memitem:a96bbe7650e192c2b3794b10ec2fb298e" id="r_a96bbe7650e192c2b3794b10ec2fb298e"><td class="memItemLeft" align="right" valign="top"><a id="a96bbe7650e192c2b3794b10ec2fb298e" name="a96bbe7650e192c2b3794b10ec2fb298e"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackProxy</b> = typename track_container_t::TrackProxy</td></tr>
 <tr class="memdesc:a96bbe7650e192c2b3794b10ec2fb298e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track proxy from the container. <br /></td></tr>
@@ -165,6 +167,9 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:af3118dd826fa69138337fe3c8f18b1c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The branch stopper is called during the filtering by the Actor. <br /></td></tr>
 <tr class="memitem:ae6df1e2ef73946c24aba2b1b07b3a966" id="r_ae6df1e2ef73946c24aba2b1b07b3a966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1f5b4a361badcf271beb0bdd2e396daa">TrackStateCreator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6df1e2ef73946c24aba2b1b07b3a966">createTrackStates</a></td></tr>
 <tr class="memdesc:ae6df1e2ef73946c24aba2b1b07b3a966"><td class="mdescLeft">&#160;</td><td class="mdescRight">The delegate to create new track states.  <br /></td></tr>
+<tr class="memitem:ad166d69c9bee6f5fd6bcf225f76dfdd7" id="r_ad166d69c9bee6f5fd6bcf225f76dfdd7"><td class="memItemLeft" align="right" valign="top"><a id="ad166d69c9bee6f5fd6bcf225f76dfdd7" name="ad166d69c9bee6f5fd6bcf225f76dfdd7"></a>
+<a class="el" href="#ad40712b45ff99e35b5fa01a8cfa1b7b2">ComponentReducer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mixtureReducer</b></td></tr>
+<tr class="memdesc:ad166d69c9bee6f5fd6bcf225f76dfdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a vector of components and reduces its number. <br /></td></tr>
 <tr class="memitem:a61b5e3f5d49550df3b7e99fc6f452ce4" id="r_a61b5e3f5d49550df3b7e99fc6f452ce4"><td class="memItemLeft" align="right" valign="top"><a id="a61b5e3f5d49550df3b7e99fc6f452ce4" name="a61b5e3f5d49550df3b7e99fc6f452ce4"></a>
 <a class="el" href="#abafe3e6de91d870ebc61bdadf9f21eef">Updater</a>&#160;</td><td class="memItemRight" valign="bottom"><b>updater</b> {<a class="el" href="struct_acts_1_1_delegate_func_tag.html">DelegateFuncTag</a>&lt;detail::voidFitterUpdater&lt;<a class="el" href="#aa3adaf8796b5d831f9f3f2c573a8e857">traj_t</a>&gt;&gt;{}}</td></tr>
 <tr class="memdesc:a61b5e3f5d49550df3b7e99fc6f452ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The updater incorporates measurement information into the track parameters. <br /></td></tr>
@@ -189,11 +194,32 @@ template&lt;typename track_container_t&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;<a class="code hl_typedef" href="#a2eb8860fa48d362f4e14406d01b2bca2">BranchStopperResult</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="#a96bbe7650e192c2b3794b10ec2fb298e">TrackProxy</a>&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="#aa0b8103ac4cc4601eeaedd434a803540">TrackStateProxy</a>&amp;)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
-<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_a2eb8860fa48d362f4e14406d01b2bca2"><div class="ttname"><a href="#a2eb8860fa48d362f4e14406d01b2bca2">Acts::CombinatorialKalmanFilterExtensions::BranchStopperResult</a></div><div class="ttdeci">CombinatorialKalmanFilterBranchStopperResult BranchStopperResult</div><div class="ttdoc">Type alias for branch stopper result enumeration.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:54</div></div>
-<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_a96bbe7650e192c2b3794b10ec2fb298e"><div class="ttname"><a href="#a96bbe7650e192c2b3794b10ec2fb298e">Acts::CombinatorialKalmanFilterExtensions::TrackProxy</a></div><div class="ttdeci">typename track_container_t::TrackProxy TrackProxy</div><div class="ttdoc">Type alias for track proxy from the container.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:49</div></div>
-<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_aa0b8103ac4cc4601eeaedd434a803540"><div class="ttname"><a href="#aa0b8103ac4cc4601eeaedd434a803540">Acts::CombinatorialKalmanFilterExtensions::TrackStateProxy</a></div><div class="ttdeci">typename track_container_t::TrackStateProxy TrackStateProxy</div><div class="ttdoc">Type alias for track state proxy from the container.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:51</div></div>
+<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_a2eb8860fa48d362f4e14406d01b2bca2"><div class="ttname"><a href="#a2eb8860fa48d362f4e14406d01b2bca2">Acts::CombinatorialKalmanFilterExtensions::BranchStopperResult</a></div><div class="ttdeci">CombinatorialKalmanFilterBranchStopperResult BranchStopperResult</div><div class="ttdoc">Type alias for branch stopper result enumeration.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:55</div></div>
+<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_a96bbe7650e192c2b3794b10ec2fb298e"><div class="ttname"><a href="#a96bbe7650e192c2b3794b10ec2fb298e">Acts::CombinatorialKalmanFilterExtensions::TrackProxy</a></div><div class="ttdeci">typename track_container_t::TrackProxy TrackProxy</div><div class="ttdoc">Type alias for track proxy from the container.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:50</div></div>
+<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_aa0b8103ac4cc4601eeaedd434a803540"><div class="ttname"><a href="#aa0b8103ac4cc4601eeaedd434a803540">Acts::CombinatorialKalmanFilterExtensions::TrackStateProxy</a></div><div class="ttdeci">typename track_container_t::TrackStateProxy TrackStateProxy</div><div class="ttdoc">Type alias for track state proxy from the container.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:52</div></div>
 </div><!-- fragment -->
 <p>Type alias for branch stopper delegate function. </p>
+
+</div>
+</div>
+<a id="ad40712b45ff99e35b5fa01a8cfa1b7b2" name="ad40712b45ff99e35b5fa01a8cfa1b7b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad40712b45ff99e35b5fa01a8cfa1b7b2">&#9670;&#160;</a></span>ComponentReducer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename track_container_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_extensions.html">Acts::CombinatorialKalmanFilterExtensions</a>&lt; track_container_t &gt;::ComponentReducer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;void(std::vector&lt;GsfComponent&gt;&amp;, std::size_t, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>&amp;)&gt;</div>
+<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:57</div></div>
+</div><!-- fragment -->
+<p>Type alias for component reducer delegate function. </p>
 
 </div>
 </div>
@@ -220,9 +246,8 @@ template&lt;typename track_container_t&gt; </div>
 <div class="ttc" id="aclass_acts_1_1_calibration_context_html"><div class="ttname"><a href="class_acts_1_1_calibration_context.html">Acts::CalibrationContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector calibration.</div><div class="ttdef"><b>Definition</b> CalibrationContext.hpp:27</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:696</div></div>
-<div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:57</div></div>
 <div class="ttc" id="anamespace_acts_html_ab10f01c2759ff4e801d804fdf1a91199"><div class="ttname"><a href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">Acts::TrackIndexType</a></div><div class="ttdeci">std::uint32_t TrackIndexType</div><div class="ttdoc">Type alias for track index values.</div><div class="ttdef"><b>Definition</b> Types.hpp:21</div></div>
-<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_aa3adaf8796b5d831f9f3f2c573a8e857"><div class="ttname"><a href="#aa3adaf8796b5d831f9f3f2c573a8e857">Acts::CombinatorialKalmanFilterExtensions::traj_t</a></div><div class="ttdeci">typename track_container_t::TrackStateContainerBackend traj_t</div><div class="ttdoc">Type alias for track state container backend.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:47</div></div>
+<div class="ttc" id="astruct_acts_1_1_combinatorial_kalman_filter_extensions_html_aa3adaf8796b5d831f9f3f2c573a8e857"><div class="ttname"><a href="#aa3adaf8796b5d831f9f3f2c573a8e857">Acts::CombinatorialKalmanFilterExtensions::traj_t</a></div><div class="ttdeci">typename track_container_t::TrackStateContainerBackend traj_t</div><div class="ttdoc">Type alias for track state container backend.</div><div class="ttdef"><b>Definition</b> CombinatorialKalmanFilterExtensions.hpp:48</div></div>
 </div><!-- fragment -->
 <p>Delegate the extension of the trajectory onto the given surface to an external unit. </p>
 <dl class="section note"><dt>Note</dt><dd>Expected to create track states for measurements associated to the given surface which match the given bound state. Moreover the The "filtered" data is not expected to be set, but the outlier flag should be set for states that are considered to be outlier.</dd></dl>

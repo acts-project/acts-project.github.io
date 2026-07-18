@@ -16,7 +16,7 @@ var searchData=
   ['comparevolumes_13',['CompareVolumes',['../class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a0be20c264165035b4cb6505443c45e09',1,'Acts::Experimental::GeometryIdentifierBlueprintNode']]],
   ['component_14',['Component',['../class_acts_1_1_multi_component_bound_track_parameters.html#a6788a8e036db854db9595c20cd03fc0b',1,'Acts::MultiComponentBoundTrackParameters::Component'],['../class_acts_1_1_bethe_heitler_approx.html#a28880193b20f2bd2ea69fcdd20cae1a3',1,'Acts::BetheHeitlerApprox::Component']]],
   ['componentproxy_15',['ComponentProxy',['../class_acts_1_1_multi_stepper_loop.html#a4c04e0a4abab2458b926bbd31a22786a',1,'Acts::MultiStepperLoop']]],
-  ['componentreducer_16',['ComponentReducer',['../struct_acts_1_1_gsf_extensions.html#ab757cbe31c78322d770ee73ef3fd2b51',1,'Acts::GsfExtensions']]],
+  ['componentreducer_16',['ComponentReducer',['../struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad40712b45ff99e35b5fa01a8cfa1b7b2',1,'Acts::CombinatorialKalmanFilterExtensions::ComponentReducer'],['../struct_acts_1_1_gsf_extensions.html#ab757cbe31c78322d770ee73ef3fd2b51',1,'Acts::GsfExtensions::ComponentReducer']]],
   ['config_17',['Config',['../class_acts_1_1_measurement_selector.html#ad9c2d2789869bdb7bb6ce30f6f0aac9e',1,'Acts::MeasurementSelector']]],
   ['configpair_18',['ConfigPair',['../group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76',1,'Acts']]],
   ['const_5fif_5ft_19',['const_if_t',['../namespace_acts.html#abe4f9e4a5e3fd2a023039cbfec3ef858',1,'Acts']]],
