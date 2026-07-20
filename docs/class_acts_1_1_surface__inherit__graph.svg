@@ -85,9 +85,9 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="class_acts_1_1_regular_surface.html" target="_top" xlink:title="A physical surface which does not depend on the direction you look at it from.">
-<polygon fill="white" stroke="#666666" points="398,-93 280,-93 280,-74 398,-74 398,-93"/>
-<text text-anchor="middle" x="339" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::RegularSurface</text>
+<g id="a_Node000007"><a xlink:href="class_acts_1_1_point_surface.html" target="_top" xlink:title="Surface describing the point of closest approach (PCA) of a track to a single fixed 3D point (the sur...">
+<polygon fill="white" stroke="#666666" points="391.5,-130 286.5,-130 286.5,-111 391.5,-111 391.5,-130"/>
+<text text-anchor="middle" x="339" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PointSurface</text>
 </a>
 </g>
 </g>
@@ -95,6 +95,24 @@ var sectionId = 'dynsection-0';
 <g id="edge6_Node000001_Node000007" class="edge">
 <title>Node1&#45;&gt;Node7</title>
 <g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M254.35,-120.5C264.76,-120.5 275.77,-120.5 286.27,-120.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="254.19,-117 244.19,-120.5 254.19,-124 254.19,-117"/>
+</a>
+</g>
+</g>
+<!-- Node8 -->
+<g id="Node000008" class="node">
+<title>Node8</title>
+<g id="a_Node000008"><a xlink:href="class_acts_1_1_regular_surface.html" target="_top" xlink:title="A physical surface which does not depend on the direction you look at it from.">
+<polygon fill="white" stroke="#666666" points="398,-93 280,-93 280,-74 398,-74 398,-93"/>
+<text text-anchor="middle" x="339" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::RegularSurface</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7_Node000001_Node000008" class="edge">
+<title>Node1&#45;&gt;Node8</title>
+<g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M249.31,-108.17C266.92,-103.27 286.88,-97.72 303.4,-93.12"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="247.95,-104.92 239.25,-110.97 249.82,-111.66 247.95,-104.92"/>
 </a>
@@ -173,84 +191,12 @@ var sectionId = 'dynsection-0';
 </a>
 </g>
 </g>
-<!-- Node8 -->
-<g id="Node000008" class="node">
-<title>Node8</title>
-<g id="a_Node000008"><a xlink:href="class_acts_1_1_cone_surface.html" target="_top" xlink:title="Class for a conical surface in the Tracking geometry.">
-<polygon fill="white" stroke="#666666" points="547,-130 442,-130 442,-111 547,-111 547,-130"/>
-<text text-anchor="middle" x="494.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeSurface</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7_Node000007_Node000008" class="edge">
-<title>Node7&#45;&gt;Node8</title>
-<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M389.47,-95.43C410.3,-100.44 434.2,-106.21 453.84,-110.94"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="390.07,-91.97 379.53,-93.03 388.43,-98.77 390.07,-91.97"/>
-</a>
-</g>
-</g>
-<!-- Node10 -->
-<g id="Node000010" class="node">
-<title>Node10</title>
-<g id="a_Node000010"><a xlink:href="class_acts_1_1_cylinder_surface.html" target="_top" xlink:title="Class for a CylinderSurface in the TrackingGeometry.">
-<polygon fill="white" stroke="#666666" points="555,-93 434,-93 434,-74 555,-74 555,-93"/>
-<text text-anchor="middle" x="494.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CylinderSurface</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node10 -->
-<g id="edge9_Node000007_Node000010" class="edge">
-<title>Node7&#45;&gt;Node10</title>
-<g id="a_edge9_Node000007_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M408.04,-83.5C416.64,-83.5 425.39,-83.5 433.85,-83.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="408.03,-80 398.03,-83.5 408.03,-87 408.03,-80"/>
-</a>
-</g>
-</g>
-<!-- Node12 -->
-<g id="Node000012" class="node">
-<title>Node12</title>
-<g id="a_Node000012"><a xlink:href="class_acts_1_1_disc_surface.html" target="_top" xlink:title="Class for a disc surface (or a segment thereof).">
-<polygon fill="white" stroke="#666666" points="545,-56 444,-56 444,-37 545,-37 545,-56"/>
-<text text-anchor="middle" x="494.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscSurface</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node12 -->
-<g id="edge11_Node000007_Node000012" class="edge">
-<title>Node7&#45;&gt;Node12</title>
-<g id="a_edge11_Node000007_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M389.47,-71.57C410.3,-66.56 434.2,-60.79 453.84,-56.06"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="388.43,-68.23 379.53,-73.97 390.07,-75.03 388.43,-68.23"/>
-</a>
-</g>
-</g>
-<!-- Node14 -->
-<g id="Node000014" class="node">
-<title>Node14</title>
-<g id="a_Node000014"><a xlink:href="class_acts_1_1_plane_surface.html" target="_top" xlink:title="Class for a planaer in the TrackingGeometry.">
-<polygon fill="white" stroke="#666666" points="548,-19 441,-19 441,0 548,0 548,-19"/>
-<text text-anchor="middle" x="494.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PlaneSurface</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node14 -->
-<g id="edge13_Node000007_Node000014" class="edge">
-<title>Node7&#45;&gt;Node14</title>
-<g id="a_edge13_Node000007_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M362.09,-68.24C380.63,-55.95 408.16,-38.9 434,-27.5 441.21,-24.32 449.14,-21.49 456.81,-19.07"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="360.1,-65.36 353.75,-73.84 364.01,-71.16 360.1,-65.36"/>
-</a>
-</g>
-</g>
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="class_acts_1_1_cone_layer.html" target="_top" xlink:title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ...">
-<polygon fill="white" stroke="#666666" points="694,-130 599,-130 599,-111 694,-111 694,-130"/>
-<text text-anchor="middle" x="646.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeLayer</text>
+<g id="a_Node000009"><a xlink:href="class_acts_1_1_cone_surface.html" target="_top" xlink:title="Class for a conical surface in the Tracking geometry.">
+<polygon fill="white" stroke="#666666" points="547,-130 442,-130 442,-111 547,-111 547,-130"/>
+<text text-anchor="middle" x="494.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeSurface</text>
 </a>
 </g>
 </g>
@@ -258,60 +204,132 @@ var sectionId = 'dynsection-0';
 <g id="edge8_Node000008_Node000009" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M557.12,-120.5C571.05,-120.5 585.62,-120.5 598.81,-120.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="557.12,-117 547.12,-120.5 557.12,-124 557.12,-117"/>
+<path fill="none" stroke="#63b8ff" d="M389.47,-95.43C410.3,-100.44 434.2,-106.21 453.84,-110.94"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="390.07,-91.97 379.53,-93.03 388.43,-98.77 390.07,-91.97"/>
 </a>
 </g>
 </g>
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="class_acts_1_1_cylinder_layer.html" target="_top" xlink:title="Class to describe a cylindrical detector layer for tracking, it inherits from both,...">
-<polygon fill="white" stroke="#666666" points="702,-93 591,-93 591,-74 702,-74 702,-93"/>
-<text text-anchor="middle" x="646.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CylinderLayer</text>
+<g id="a_Node000011"><a xlink:href="class_acts_1_1_cylinder_surface.html" target="_top" xlink:title="Class for a CylinderSurface in the TrackingGeometry.">
+<polygon fill="white" stroke="#666666" points="555,-93 434,-93 434,-74 555,-74 555,-93"/>
+<text text-anchor="middle" x="494.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CylinderSurface</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge10_Node000010_Node000011" class="edge">
-<title>Node10&#45;&gt;Node11</title>
-<g id="a_edge10_Node000010_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M565.24,-83.5C573.84,-83.5 582.53,-83.5 590.86,-83.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="565.22,-80 555.21,-83.5 565.21,-87 565.22,-80"/>
+<!-- Node8&#45;&gt;Node11 -->
+<g id="edge10_Node000008_Node000011" class="edge">
+<title>Node8&#45;&gt;Node11</title>
+<g id="a_edge10_Node000008_Node000011"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M408.04,-83.5C416.64,-83.5 425.39,-83.5 433.85,-83.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="408.03,-80 398.03,-83.5 408.03,-87 408.03,-80"/>
 </a>
 </g>
 </g>
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an...">
-<polygon fill="white" stroke="#666666" points="692.5,-56 600.5,-56 600.5,-37 692.5,-37 692.5,-56"/>
-<text text-anchor="middle" x="646.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscLayer</text>
+<g id="a_Node000013"><a xlink:href="class_acts_1_1_disc_surface.html" target="_top" xlink:title="Class for a disc surface (or a segment thereof).">
+<polygon fill="white" stroke="#666666" points="545,-56 444,-56 444,-37 545,-37 545,-56"/>
+<text text-anchor="middle" x="494.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscSurface</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge12_Node000012_Node000013" class="edge">
-<title>Node12&#45;&gt;Node13</title>
-<g id="a_edge12_Node000012_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M555.21,-46.5C570.16,-46.5 585.95,-46.5 600.08,-46.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="555.03,-43 545.03,-46.5 555.03,-50 555.03,-43"/>
+<!-- Node8&#45;&gt;Node13 -->
+<g id="edge12_Node000008_Node000013" class="edge">
+<title>Node8&#45;&gt;Node13</title>
+<g id="a_edge12_Node000008_Node000013"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M389.47,-71.57C410.3,-66.56 434.2,-60.79 453.84,-56.06"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="388.43,-68.23 379.53,-73.97 390.07,-75.03 388.43,-68.23"/>
 </a>
 </g>
 </g>
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="class_acts_1_1_plane_layer.html" target="_top" xlink:title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P...">
+<g id="a_Node000015"><a xlink:href="class_acts_1_1_plane_surface.html" target="_top" xlink:title="Class for a planaer in the TrackingGeometry.">
+<polygon fill="white" stroke="#666666" points="548,-19 441,-19 441,0 548,0 548,-19"/>
+<text text-anchor="middle" x="494.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PlaneSurface</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node15 -->
+<g id="edge14_Node000008_Node000015" class="edge">
+<title>Node8&#45;&gt;Node15</title>
+<g id="a_edge14_Node000008_Node000015"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M362.09,-68.24C380.63,-55.95 408.16,-38.9 434,-27.5 441.21,-24.32 449.14,-21.49 456.81,-19.07"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="360.1,-65.36 353.75,-73.84 364.01,-71.16 360.1,-65.36"/>
+</a>
+</g>
+</g>
+<!-- Node10 -->
+<g id="Node000010" class="node">
+<title>Node10</title>
+<g id="a_Node000010"><a xlink:href="class_acts_1_1_cone_layer.html" target="_top" xlink:title="Class to describe a conical detector layer for tracking, it inherits from both, Layer base class and ...">
+<polygon fill="white" stroke="#666666" points="694,-130 599,-130 599,-111 694,-111 694,-130"/>
+<text text-anchor="middle" x="646.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ConeLayer</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge9_Node000009_Node000010" class="edge">
+<title>Node9&#45;&gt;Node10</title>
+<g id="a_edge9_Node000009_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M557.12,-120.5C571.05,-120.5 585.62,-120.5 598.81,-120.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="557.12,-117 547.12,-120.5 557.12,-124 557.12,-117"/>
+</a>
+</g>
+</g>
+<!-- Node12 -->
+<g id="Node000012" class="node">
+<title>Node12</title>
+<g id="a_Node000012"><a xlink:href="class_acts_1_1_cylinder_layer.html" target="_top" xlink:title="Class to describe a cylindrical detector layer for tracking, it inherits from both,...">
+<polygon fill="white" stroke="#666666" points="702,-93 591,-93 591,-74 702,-74 702,-93"/>
+<text text-anchor="middle" x="646.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::CylinderLayer</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge11_Node000011_Node000012" class="edge">
+<title>Node11&#45;&gt;Node12</title>
+<g id="a_edge11_Node000011_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M565.24,-83.5C573.84,-83.5 582.53,-83.5 590.86,-83.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="565.22,-80 555.21,-83.5 565.21,-87 565.22,-80"/>
+</a>
+</g>
+</g>
+<!-- Node14 -->
+<g id="Node000014" class="node">
+<title>Node14</title>
+<g id="a_Node000014"><a xlink:href="class_acts_1_1_disc_layer.html" target="_top" xlink:title="Class to describe a disc&#45;like detector layer for tracking, it inherits from both, Layer base class an...">
+<polygon fill="white" stroke="#666666" points="692.5,-56 600.5,-56 600.5,-37 692.5,-37 692.5,-56"/>
+<text text-anchor="middle" x="646.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::DiscLayer</text>
+</a>
+</g>
+</g>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge13_Node000013_Node000014" class="edge">
+<title>Node13&#45;&gt;Node14</title>
+<g id="a_edge13_Node000013_Node000014"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M555.21,-46.5C570.16,-46.5 585.95,-46.5 600.08,-46.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="555.03,-43 545.03,-46.5 555.03,-50 555.03,-43"/>
+</a>
+</g>
+</g>
+<!-- Node16 -->
+<g id="Node000016" class="node">
+<title>Node16</title>
+<g id="a_Node000016"><a xlink:href="class_acts_1_1_plane_layer.html" target="_top" xlink:title="Class to describe a planar detector layer for tracking, it inherits from both, Layer base class and P...">
 <polygon fill="white" stroke="#666666" points="695.5,-19 597.5,-19 597.5,0 695.5,0 695.5,-19"/>
 <text text-anchor="middle" x="646.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::PlaneLayer</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
-<g id="edge14_Node000014_Node000015" class="edge">
-<title>Node14&#45;&gt;Node15</title>
-<g id="a_edge14_Node000014_Node000015"><a xlink:title=" ">
+<!-- Node15&#45;&gt;Node16 -->
+<g id="edge15_Node000015_Node000016" class="edge">
+<title>Node15&#45;&gt;Node16</title>
+<g id="a_edge15_Node000015_Node000016"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M558.58,-9.5C571.46,-9.5 584.83,-9.5 597.1,-9.5"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="558.38,-6 548.38,-9.5 558.38,-13 558.38,-6"/>
 </a>

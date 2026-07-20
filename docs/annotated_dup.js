@@ -464,6 +464,8 @@ var annotated_dup =
       [ "PlaneLayer", "class_acts_1_1_plane_layer.html", "class_acts_1_1_plane_layer" ],
       [ "PlaneSurface", "class_acts_1_1_plane_surface.html", "class_acts_1_1_plane_surface" ],
       [ "PlyVisualization3D", "class_acts_1_1_ply_visualization3_d.html", "class_acts_1_1_ply_visualization3_d" ],
+      [ "PointBounds", "class_acts_1_1_point_bounds.html", "class_acts_1_1_point_bounds" ],
+      [ "PointSurface", "class_acts_1_1_point_surface.html", "class_acts_1_1_point_surface" ],
       [ "Polyhedron", "struct_acts_1_1_polyhedron.html", "struct_acts_1_1_polyhedron" ],
       [ "PolyhedronReferenceGenerator", "struct_acts_1_1_polyhedron_reference_generator.html", "struct_acts_1_1_polyhedron_reference_generator" ],
       [ "PolynomialBetheHeitlerApprox", "class_acts_1_1_polynomial_bethe_heitler_approx.html", "class_acts_1_1_polynomial_bethe_heitler_approx" ],

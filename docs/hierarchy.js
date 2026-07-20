@@ -316,6 +316,7 @@ var hierarchy =
           [ "Acts::PerigeeSurface", "class_acts_1_1_perigee_surface.html", null ],
           [ "Acts::StrawSurface", "class_acts_1_1_straw_surface.html", null ]
         ] ],
+        [ "Acts::PointSurface", "class_acts_1_1_point_surface.html", null ],
         [ "Acts::RegularSurface", "class_acts_1_1_regular_surface.html", [
           [ "Acts::ConeSurface", "class_acts_1_1_cone_surface.html", [
             [ "Acts::ConeLayer", "class_acts_1_1_cone_layer.html", null ]
@@ -764,7 +765,8 @@ var hierarchy =
         [ "Acts::EllipseBounds", "class_acts_1_1_ellipse_bounds.html", null ],
         [ "Acts::RectangleBounds", "class_acts_1_1_rectangle_bounds.html", null ],
         [ "Acts::TrapezoidBounds", "class_acts_1_1_trapezoid_bounds.html", null ]
-      ] ]
+      ] ],
+      [ "Acts::PointBounds", "class_acts_1_1_point_bounds.html", null ]
     ] ],
     [ "Acts::SurfaceCollector&lt; Selector &gt;", "struct_acts_1_1_surface_collector.html", null ],
     [ "Acts::SurfaceCollector&lt; Selector &gt;::this_result", "struct_acts_1_1_surface_collector_1_1this__result.html", null ],
