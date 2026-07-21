@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26":[5,0,2,18,0,1],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ad64ab9aa244397fed5f280b574d29f26":[7,0,1,19,0,1],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a":[5,0,2,18,0,6],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#ae6f3b58e629ce7a54b5e18a4f05dbc5a":[7,0,1,19,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a90b02fc06a2d2bc766c22c6912c3d30e":[4,10,3,1,1,0],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#a9239d19fa3c531e8c8602514967e1224":[4,10,3,1,1,3],
 "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html#af9d1ecb7bf107b095ee157a31e49a65e":[4,10,3,1,1,1],
-"struct_acts_plugins_1_1_device.html":[4,10,6,2],
-"struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72":[4,10,6,2,3]
+"struct_acts_plugins_1_1_device.html":[4,10,6,2]
 };

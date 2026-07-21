@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"group__json__plugin.html#gaf82572e503169d94a3cbe03a3a0af6cf":[4,10,10,25],
 "group__kf__material__effects.html":[4,13,0],
 "group__logging.html":[4,8],
 "group__logging.html#ga42694c188af7dbca451df72ec90478a4":[4,8,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4aec34ce78b3e909951ac2be05b24ca2f7":[5,0,0,646,1],
 "namespace_acts.html#a4d85a7a0670ff1043ead2e43cbc9b132":[5,0,0,719],
 "namespace_acts.html#a4db7019218e46140392e9e7c6061081c":[5,0,0,532],
-"namespace_acts.html#a4e0fcfc9b5225bb75c32f47d65e687df":[5,0,0,945],
-"namespace_acts.html#a4e21d6cf5d7c1244c2f008471cc5ba7e":[5,0,0,919]
+"namespace_acts.html#a4e0fcfc9b5225bb75c32f47d65e687df":[5,0,0,945]
 };

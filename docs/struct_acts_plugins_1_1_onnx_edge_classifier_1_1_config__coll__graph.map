@@ -1,9 +1,16 @@
 <map id="ActsPlugins::OnnxEdgeClassifier::Config" name="ActsPlugins::OnnxEdgeClassifier::Config">
-<area shape="rect" id="Node000001" title="Configuration for OnnxEdgeClassifier." alt="" coords="47,191,278,231"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="31,95,118,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,132,106,165,133,189,129,193,102,168,82,134"/>
+<area shape="rect" id="Node000001" title="Configuration for OnnxEdgeClassifier." alt="" coords="181,212,411,252"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="31,116,118,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,151,111,169,132,186,160,199,189,209,187,215,157,204,129,190,107,173,89,154"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,59,77,94,72,94,72,59"/>
-<area shape="rect" id="Node000004" href="$struct_acts_plugins_1_1_device.html" title="A simple device description struct." alt="" coords="142,95,293,120"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,134,175,192,171,189,202,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,59,77,116,72,116,72,59"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="143,116,281,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="215,155,218,171,225,187,237,199,251,210,248,214,233,203,220,189,213,173,209,156"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="233,13,362,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="281,50,224,118,220,114,277,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="306,116,457,141"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="318,47,374,114,370,118,314,50"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="370,155,345,190,321,214,317,210,341,186,365,152"/>
+<area shape="rect" id="Node000007" href="$struct_acts_plugins_1_1_device.html" title="A simple device description struct." alt="" coords="481,116,631,141"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="531,151,499,172,462,190,389,214,388,209,460,186,496,167,528,147"/>
 </map>

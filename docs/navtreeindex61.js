@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[5,0,0,378,4,1],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[7,0,0,386,4,1],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#a244a31a4db0591afc8ad7f963031c8c1":[5,0,0,378,4,2],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html#a244a31a4db0591afc8ad7f963031c8c1":[7,0,0,386,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[5,0,0,404,1,3],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a435bf335b33d20d5d3575829beed5487":[7,0,0,412,1,3],
 "struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[5,0,0,404,1,0],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[7,0,0,412,1,0],
-"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a797ee923afaba0eb11c1224201f7313c":[5,0,0,404,1,4]
+"struct_acts_1_1_triplet_seed_finder_1_1_derived_config.html#a491ac6e20fea2b212bab46b3bbc2e1f0":[7,0,0,412,1,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_combinatorial_kalman_filter_result.html#aee765c2e0fc9de1426e4c26bdb9d5974":[4,9,1,4,0],
 "struct_acts_1_1_const_ref_holder.html":[5,0,0,75],
 "struct_acts_1_1_const_ref_holder.html":[7,0,0,83],
 "struct_acts_1_1_const_ref_holder.html#a09d489a74747538869ede43dcfeea567":[5,0,0,75,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#affb52c144b89342d640711544807f921":[7,0,0,122,0,14],
 "struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html":[5,0,0,114,1],
 "struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html":[7,0,0,122,1],
-"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#a751a7b6e94d25b43dbca41de61d19b7e":[5,0,0,114,1,2],
-"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#a751a7b6e94d25b43dbca41de61d19b7e":[7,0,0,122,1,2]
+"struct_acts_1_1_doublet_seed_finder_1_1_derived_config.html#a751a7b6e94d25b43dbca41de61d19b7e":[5,0,0,114,1,2]
 };

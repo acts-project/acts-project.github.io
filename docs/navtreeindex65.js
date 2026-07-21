@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_plugins_1_1_device.html#a4e675967a57061838705d12784d93f72":[4,10,6,2,3],
 "struct_acts_plugins_1_1_device.html#a6f4a90fb663d1a054e7217269d41755d":[4,10,6,2,4],
 "struct_acts_plugins_1_1_device.html#a8d6402367687af920630e52d91c4c366":[4,10,6,2,0],
 "struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71":[4,10,6,2,7],
@@ -147,7 +148,9 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html":[4,10,6,13,0],
 "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a1909979b81e83a797c5a793ce747871c":[4,10,6,13,0,0],
 "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a35cff93e3b1648b6ae39399e24f0921d":[4,10,6,13,0,1],
-"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490":[4,10,6,13,0,2],
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a3ae8c8784adb4ea8fed3fc5db370cdde":[4,10,6,13,0,2],
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490":[4,10,6,13,0,3],
+"struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#ad98a7bff52d6ed7d568bbdad25bc1a5c":[4,10,6,13,0,4],
 "struct_acts_plugins_1_1_pipeline_tensors.html":[4,10,6,14],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a1e09855954eeb28d5e061d3c5a88735e":[4,10,6,14,3],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a4831b807b7819c5fe11c737eed5c4781":[4,10,6,14,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[5,0,3,59,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html":[7,0,2,64,0],
 "struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[5,0,3,59,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[7,0,2,64,0,0],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0bac3824e4aa59eb01de06523d4e9942":[5,0,3,59,0,2],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0bac3824e4aa59eb01de06523d4e9942":[7,0,2,64,0,2],
-"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a0d73fe6c2d97e748ccca2ee4f0e6bbcb":[5,0,3,59,0,4]
+"struct_acts_plugins_1_1_t_geo_blueprint_builder_backend_1_1_config.html#a03480b657f30babb981b983299602a5c":[7,0,2,64,0,0]
 };

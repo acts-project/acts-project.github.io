@@ -85,7 +85,9 @@ var group__gnn__plugin =
       [ "Config", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html", [
         [ "cut", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a1909979b81e83a797c5a793ce747871c", null ],
         [ "device", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a35cff93e3b1648b6ae39399e24f0921d", null ],
-        [ "modelPath", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490", null ]
+        [ "featureScales", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a3ae8c8784adb4ea8fed3fc5db370cdde", null ],
+        [ "modelPath", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#a5a12504ba474f307aa77f6665cff8490", null ],
+        [ "selectedFeatures", "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#ad98a7bff52d6ed7d568bbdad25bc1a5c", null ]
       ] ],
       [ "OnnxEdgeClassifier", "class_acts_plugins_1_1_onnx_edge_classifier.html#a9297adad1e539bbb67b3b86c548ed9bf", null ],
       [ "config", "class_acts_plugins_1_1_onnx_edge_classifier.html#aab4f56a9746b62d90861d98bd445490e", null ],
@@ -156,6 +158,7 @@ var group__gnn__plugin =
       [ "operator()", "class_acts_plugins_1_1_truth_graph_metrics_hook.html#acc17cc45074e1b6aaed5c06cb7accd5d", null ]
     ] ],
     [ "ActsPlugins::applyEdgeLimit", "group__gnn__plugin.html#gac273131a18e9f7f3e3873054606325b1", null ],
+    [ "ActsPlugins::mulPerColumn", "group__gnn__plugin.html#gabffd8c32b525e2fa26e5164d205c1550", null ],
     [ "ActsPlugins::operator<<", "group__gnn__plugin.html#ga34c72c5c5e8f59873cdea1777a39f439", null ],
     [ "ActsPlugins::removeUnusedNodes", "group__gnn__plugin.html#gaf5842cdba54d259a8dfdecb8c37a2064", null ],
     [ "ActsPlugins::scoreMask", "group__gnn__plugin.html#ga59b230f6910ea0de9bd6a658256abc8f", null ],

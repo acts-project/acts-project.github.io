@@ -176,6 +176,9 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:gac273131a18e9f7f3e3873054606325b1" id="r_gac273131a18e9f7f3e3873054606325b1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt;, std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac273131a18e9f7f3e3873054606325b1">ActsPlugins::applyEdgeLimit</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; std::int64_t &gt; &amp;edgeIndex, const std::optional&lt; <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; float &gt; &gt; &amp;edgeFeatures, std::size_t maxEdges, std::optional&lt; cudaStream_t &gt; stream)</td></tr>
 <tr class="memdesc:gac273131a18e9f7f3e3873054606325b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a limit on the number of edges consistently on edgeIndex and edgeFeatures.  <br /></td></tr>
+<tr class="memitem:gabffd8c32b525e2fa26e5164d205c1550" id="r_gabffd8c32b525e2fa26e5164d205c1550"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </td></tr>
+<tr class="memitem:gabffd8c32b525e2fa26e5164d205c1550 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabffd8c32b525e2fa26e5164d205c1550">ActsPlugins::mulPerColumn</a> (const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;src, const std::vector&lt; T &gt; &amp;scales, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execContext)</td></tr>
+<tr class="memdesc:gabffd8c32b525e2fa26e5164d205c1550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply each column of src with the corresponding scale value dst[r,n] = src[r,n] * scales[n].  <br /></td></tr>
 <tr class="memitem:ga34c72c5c5e8f59873cdea1777a39f439" id="r_ga34c72c5c5e8f59873cdea1777a39f439"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34c72c5c5e8f59873cdea1777a39f439">ActsPlugins::operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="struct_acts_plugins_1_1_device.html">Device</a> device)</td></tr>
 <tr class="memdesc:ga34c72c5c5e8f59873cdea1777a39f439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for Device.  <br /></td></tr>
 <tr class="memitem:gaf5842cdba54d259a8dfdecb8c37a2064" id="r_gaf5842cdba54d259a8dfdecb8c37a2064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf5842cdba54d259a8dfdecb8c37a2064">ActsPlugins::removeUnusedNodes</a> (<a class="el" href="struct_acts_plugins_1_1_pipeline_tensors.html">PipelineTensors</a> &amp;&amp;tensors, std::vector&lt; int &gt; &amp;spacePointIds, const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;execCtx)</td></tr>
@@ -232,6 +235,45 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pair of limited edge index tensor and optional limited edge features tensor </dd></dl>
+
+</div>
+</div>
+<a id="gabffd8c32b525e2fa26e5164d205c1550" name="gabffd8c32b525e2fa26e5164d205c1550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabffd8c32b525e2fa26e5164d205c1550">&#9670;&#160;</a></span>mulPerColumn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_concepts_1_1arithmetic.html">Acts::Concepts::arithmetic</a> T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; ActsPlugins::mulPerColumn </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_plugins_1_1_tensor.html">Tensor</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scales</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_plugins_1_1_execution_context.html">ExecutionContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>execContext</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiply each column of src with the corresponding scale value dst[r,n] = src[r,n] * scales[n]. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src</td><td>Source tensor [R, N] in row-major layout </td></tr>
+    <tr><td class="paramname">scales</td><td>Vector of scale factors of length N, same type as src </td></tr>
+    <tr><td class="paramname">execContext</td><td>Device and stream for output allocation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>New tensor [R, N] in row-major layout containing scaled values </dd></dl>
 
 </div>
 </div>

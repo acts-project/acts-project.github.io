@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_gaussian_sum_fitter.html#a5b1204746176700df6a14f88110dd05d":[4,13,11,0],
 "struct_acts_1_1_gaussian_sum_fitter.html#a633d70c4d080f44ecf1a7ccd76f8a4d7":[4,13,11,1],
 "struct_acts_1_1_gaussian_sum_fitter.html#a88cceed65068787f99f1b132f2155fee":[4,13,11,9],
 "struct_acts_1_1_gaussian_sum_fitter.html#a8ddf98e5738140c0863c49784e90c87c":[4,13,11,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_gsf_component.html#ad2a22e4aa9de7de0e75ea39e8d9fa60b":[7,0,0,173,0],
 "struct_acts_1_1_gsf_component.html#ae918ff6076de10a197f01a6273469ff4":[5,0,0,165,2],
 "struct_acts_1_1_gsf_component.html#ae918ff6076de10a197f01a6273469ff4":[7,0,0,173,2],
-"struct_acts_1_1_gsf_extensions.html":[4,13,12],
-"struct_acts_1_1_gsf_extensions.html#a13570212de09ba637c5be334e82e7621":[4,13,12,2]
+"struct_acts_1_1_gsf_extensions.html":[4,13,12]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#a474dde891dc6b028f1d403950e7ecd10":[5,0,0,356,2,15],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a474dde891dc6b028f1d403950e7ecd10":[7,0,0,364,2,15],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a6111bdf0df9ec6ecbbdecdb0b09192fc":[5,0,0,356,2,12],
 "struct_acts_1_1_straight_line_stepper_1_1_state.html#a6111bdf0df9ec6ecbbdecdb0b09192fc":[7,0,0,364,2,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#afa6c9526b6094cbdc1e1a8b108c8c7fa":[5,0,0,378,3,1],
 "struct_acts_1_1_toroid_field_1_1_ect_config.html#afa6c9526b6094cbdc1e1a8b108c8c7fa":[7,0,0,386,3,1],
 "struct_acts_1_1_toroid_field_1_1_layout_config.html":[5,0,0,378,4],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html":[7,0,0,386,4],
-"struct_acts_1_1_toroid_field_1_1_layout_config.html#a1381778f5c484af72f4b1002f26ecb3f":[5,0,0,378,4,1]
+"struct_acts_1_1_toroid_field_1_1_layout_config.html":[7,0,0,386,4]
 };

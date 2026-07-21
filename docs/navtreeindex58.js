@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_numerical_track_linearizer_1_1_config.html":[5,0,0,286,0],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html":[7,0,0,294,0],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a1442c56154ad29584473f1387aabcdb0":[5,0,0,286,0,2],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a1442c56154ad29584473f1387aabcdb0":[7,0,0,294,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_proto_layer.html":[5,0,0,323],
 "struct_acts_1_1_proto_layer.html":[7,0,0,331],
 "struct_acts_1_1_proto_layer.html#a83b5a39a9a4a6983d0660d10680e8695":[5,0,0,323,0],
-"struct_acts_1_1_proto_layer.html#a83b5a39a9a4a6983d0660d10680e8695":[7,0,0,331,0],
-"struct_acts_1_1_proto_layer_helper_1_1_config.html":[5,0,0,324,0]
+"struct_acts_1_1_proto_layer.html#a83b5a39a9a4a6983d0660d10680e8695":[7,0,0,331,0]
 };
