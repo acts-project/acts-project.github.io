@@ -1,5 +1,8 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_direct_navigator_1_1_state.html#ac6a229aacc01ee409f11697ca3133be4":[5,0,0,108,2,4],
+"struct_acts_1_1_direct_navigator_1_1_state.html#ac6a229aacc01ee409f11697ca3133be4":[7,0,0,116,2,4],
+"struct_acts_1_1_directed_proto_axis.html":[5,0,0,106],
 "struct_acts_1_1_directed_proto_axis.html":[7,0,0,114],
 "struct_acts_1_1_directed_proto_axis.html#a2058f1356f7119e3f6abe4c47701cad0":[5,0,0,106,4],
 "struct_acts_1_1_directed_proto_axis.html#a2058f1356f7119e3f6abe4c47701cad0":[7,0,0,114,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#aedadcc1a16a1f71ab001b9053e3ace99":[5,0,0,1,6,0,13],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#aedadcc1a16a1f71ab001b9053e3ace99":[7,0,0,2,6,0,13],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#af54ecd406465b45860df4f3564919779":[5,0,0,1,6,0,17],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#af54ecd406465b45860df4f3564919779":[7,0,0,2,6,0,17],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html":[5,0,0,1,6,1],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html":[7,0,0,2,6,1],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#a07753328590134f7c267f5a55ab836f6":[5,0,0,1,6,1,3]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#af54ecd406465b45860df4f3564919779":[7,0,0,2,6,0,17]
 };

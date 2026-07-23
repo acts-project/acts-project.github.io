@@ -4,6 +4,19 @@ var group__detray__plugin =
       [ "localSurfaceLinks", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#a63102a13a0190dd4a35d8e0235d7863f", null ],
       [ "volumeLinks", "struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#ab0c18b47cc5b72a83523c06ccd875dbe", null ]
     ] ],
+    [ "ActsPlugins::DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html", [
+      [ "Config", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html", [
+        [ "convertMaterial", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#aece7de232b048e9e0145134293677e8f", null ],
+        [ "convertSurfaceGrids", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#a421975324847fa54c6d8cf3beb567967", null ],
+        [ "payloadConverter", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#a0596e737f7af62f3cef9e1445122a701", null ]
+      ] ],
+      [ "DetrayGeometry", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html", [
+        [ "detector", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#a3c87959dc201bf3508235f301c30f9fe", null ],
+        [ "names", "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178", null ]
+      ] ],
+      [ "DetrayGeometryConverter", "class_acts_plugins_1_1_detray_geometry_converter.html#a8b4630ea81ac8aad5db94ecdc6413315", null ],
+      [ "convert", "class_acts_plugins_1_1_detray_geometry_converter.html#aef1caba916d4984ff8bb055a421d14e6", null ]
+    ] ],
     [ "ActsPlugins::DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", [
       [ "Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html", [
         [ "SensitiveStrategy", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#ad942c0bba09c759a4e3cae2ca56426a1", [
