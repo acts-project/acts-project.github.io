@@ -54,6 +54,7 @@ var namespace_acts_1_1_experimental =
     [ "ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", "struct_acts_1_1_experimental_1_1_scattering_properties" ],
     [ "SensorLayer", "class_acts_1_1_experimental_1_1_sensor_layer.html", "class_acts_1_1_experimental_1_1_sensor_layer" ],
     [ "SensorLayerAssembler", "class_acts_1_1_experimental_1_1_sensor_layer_assembler.html", "class_acts_1_1_experimental_1_1_sensor_layer_assembler" ],
+    [ "SphericalSpacePointGrid", "class_acts_1_1_experimental_1_1_spherical_space_point_grid.html", "class_acts_1_1_experimental_1_1_spherical_space_point_grid" ],
     [ "StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", "class_acts_1_1_experimental_1_1_static_blueprint_node" ],
     [ "TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", "class_acts_1_1_experimental_1_1_try_all_navigator" ],
     [ "CompositeSpacePoint", "concept_acts_1_1_experimental_1_1_composite_space_point.html", null ],

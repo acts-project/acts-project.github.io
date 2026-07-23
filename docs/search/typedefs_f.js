@@ -6,7 +6,7 @@ var searchData=
   ['rangearray_3',['RangeArray',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ada9bdcf80ee9d4dc94b1d5f81291ebc5',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],
   ['rangeconfig_4',['RangeConfig',['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#aa63434c398fb5c9cea850acc15f1b5c8',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig']]],
   ['raw_5ftype_5',['raw_type',['../class_acts_1_1_track_state_type_base.html#ada3d9d4a435d0d0cac031f07768c6246',1,'Acts::TrackStateTypeBase::raw_type'],['../class_acts_1_1_track_state_type_map.html#ab14c43304f362369d1a6c8495d4c58e8',1,'Acts::TrackStateTypeMap::raw_type']]],
-  ['raxistype_6',['RAxisType',['../class_acts_1_1_cylindrical_space_point_grid.html#a0b03521d7d37e24f764645aa73251697',1,'Acts::CylindricalSpacePointGrid']]],
+  ['raxistype_6',['RAxisType',['../class_acts_1_1_cylindrical_space_point_grid.html#a0b03521d7d37e24f764645aa73251697',1,'Acts::CylindricalSpacePointGrid::RAxisType'],['../class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#ae7e398696f0746b871e21f6c912bdab4',1,'Acts::Experimental::SphericalSpacePointGrid::RAxisType']]],
   ['ray3d_7',['Ray3D',['../namespace_acts.html#a0e3bc17e57fdc272a17b43714e85adeb',1,'Acts']]],
   ['recordedmaterialtrack_8',['RecordedMaterialTrack',['../namespace_acts.html#a7c52cf739300a2e3988b6fbea63e17dd',1,'Acts']]],
   ['recordedmaterialvolumepoint_9',['RecordedMaterialVolumePoint',['../namespace_acts.html#a9259c24825f667858a4397ffce0e6797',1,'Acts']]],
