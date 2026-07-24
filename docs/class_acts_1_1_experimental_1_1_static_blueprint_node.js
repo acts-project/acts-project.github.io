@@ -7,7 +7,6 @@ var class_acts_1_1_experimental_1_1_static_blueprint_node =
     [ "finalize", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#ad6aaad12d8b6d9cc04896b54f6dd32e9", null ],
     [ "name", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#a7d6bef7188c98f5458bf99b8868dda46", null ],
     [ "navigationPolicyFactory", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#ad9a61c9feca7f62008ecedf43a4a57ce", null ],
-    [ "releaseVolume", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#a4291c571600f6e1a35a28f60848ab7b9", null ],
     [ "setNavigationPolicyFactory", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#aac09bf9ad9761c4076e840d97ccf8432", null ],
     [ "m_navigationPolicyFactory", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#a0a09213f2a2212cc932c8f92f974a4d6", null ],
     [ "m_shell", "class_acts_1_1_experimental_1_1_static_blueprint_node.html#aecf68ea18998d99017ae5e593b4d2052", null ],

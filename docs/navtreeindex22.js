@@ -1,7 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"class_acts_1_1_line_surface.html#a565b3c94413322c5ebf1d1544ac0bfdb":[5,0,0,241,13],
-"class_acts_1_1_line_surface.html#a565b3c94413322c5ebf1d1544ac0bfdb":[7,0,0,249,13],
 "class_acts_1_1_line_surface.html#a686b1ee92cdfb9f2cc2ff887597677fb":[5,0,0,241,12],
 "class_acts_1_1_line_surface.html#a686b1ee92cdfb9f2cc2ff887597677fb":[7,0,0,249,12],
 "class_acts_1_1_line_surface.html#a6c94c3bae94ac39ede54bc9edee09337":[5,0,0,241,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX22 =
 "class_acts_1_1_multi_axis.html#ab181234373ea6f0cd7e76d6462ba3c95":[5,0,0,263,19],
 "class_acts_1_1_multi_axis.html#ab181234373ea6f0cd7e76d6462ba3c95":[7,0,0,271,19],
 "class_acts_1_1_multi_axis.html#ab7fd4ffafc137292fd558fbfe1b085a2":[5,0,0,263,21],
-"class_acts_1_1_multi_axis.html#ab7fd4ffafc137292fd558fbfe1b085a2":[7,0,0,271,21]
+"class_acts_1_1_multi_axis.html#ab7fd4ffafc137292fd558fbfe1b085a2":[7,0,0,271,21],
+"class_acts_1_1_multi_axis.html#aba368f9288e9fc16d3de361f579227f9":[5,0,0,263,3],
+"class_acts_1_1_multi_axis.html#aba368f9288e9fc16d3de361f579227f9":[7,0,0,271,3]
 };

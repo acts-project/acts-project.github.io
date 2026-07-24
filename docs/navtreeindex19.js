@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_acts_1_1_i_confined_tracking_volume_builder.html#a4a2d09204dd5ded1412303b6d70488e9":[5,0,0,174,2],
-"class_acts_1_1_i_confined_tracking_volume_builder.html#a4a2d09204dd5ded1412303b6d70488e9":[7,0,0,182,2],
 "class_acts_1_1_i_confined_tracking_volume_builder.html#ab1c7f6d074da76c21786427312c1f10d":[5,0,0,174,0],
 "class_acts_1_1_i_confined_tracking_volume_builder.html#ab1c7f6d074da76c21786427312c1f10d":[7,0,0,182,0],
 "class_acts_1_1_i_confined_tracking_volume_builder.html#ac48e352f89895b860ef5b36a9c44b3a9":[5,0,0,174,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[5,0,0,213,0],
 "class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[7,0,0,221,0],
 "class_acts_1_1_i_tracking_geometry_builder.html":[5,0,0,215],
-"class_acts_1_1_i_tracking_geometry_builder.html":[7,0,0,223]
+"class_acts_1_1_i_tracking_geometry_builder.html":[7,0,0,223],
+"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[5,0,0,215,0],
+"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[7,0,0,223,0]
 };

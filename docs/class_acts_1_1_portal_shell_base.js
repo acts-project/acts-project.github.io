@@ -5,5 +5,6 @@ var class_acts_1_1_portal_shell_base =
     [ "fill", "class_acts_1_1_portal_shell_base.html#add7d28fe9d64f35395fcc2add7d413a2", null ],
     [ "isValid", "class_acts_1_1_portal_shell_base.html#a0b2fc9d501ccb8c035660826e04b9f6e", null ],
     [ "label", "class_acts_1_1_portal_shell_base.html#ae405f14894894a77c880802f7118de1d", null ],
+    [ "makeSingle", "class_acts_1_1_portal_shell_base.html#ac83be8854f2c56eee7abdf82c0c10515", null ],
     [ "size", "class_acts_1_1_portal_shell_base.html#a0b98844debe41ac27d88b931c09a178d", null ]
 ];

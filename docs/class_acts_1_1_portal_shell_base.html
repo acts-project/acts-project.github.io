@@ -151,6 +151,11 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</
 <tr class="memdesc:ae405f14894894a77c880802f7118de1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a label for the portal shell for debugging purposes.  <br /></td></tr>
 <tr class="memitem:a0b98844debe41ac27d88b931c09a178d" id="r_a0b98844debe41ac27d88b931c09a178d"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b98844debe41ac27d88b931c09a178d">size</a> () const =0</td></tr>
 <tr class="memdesc:a0b98844debe41ac27d88b931c09a178d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of portals in the shell.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac83be8854f2c56eee7abdf82c0c10515" id="r_ac83be8854f2c56eee7abdf82c0c10515"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_shell_base.html">PortalShellBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83be8854f2c56eee7abdf82c0c10515">makeSingle</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume)</td></tr>
+<tr class="memdesc:ac83be8854f2c56eee7abdf82c0c10515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the single-volume shell matching the bounds type of <code class="param">volume</code>, e.g.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The portal shell of a volume is the set of portals that describes connections "outside" of the volume. </p>
@@ -279,6 +284,51 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~PortalShellBase</
 <dl class="section return"><dt>Returns</dt><dd>A label for the portal shell </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_cuboid_stack_portal_shell.html#a2e605e0af53c39ff0c36a08667aa5bd7">Acts::CuboidStackPortalShell</a>, <a class="el" href="class_acts_1_1_cylinder_stack_portal_shell.html#a94795e906aef833369dcf9cb92da7b2b">Acts::CylinderStackPortalShell</a>, <a class="el" href="class_acts_1_1_single_cuboid_portal_shell.html#a60672f449e9b89fec58bacf7221c0bf6">Acts::SingleCuboidPortalShell</a>, <a class="el" href="class_acts_1_1_single_cylinder_portal_shell.html#afd7829a65bea81b8750e20a877114126">Acts::SingleCylinderPortalShell</a>, <a class="el" href="class_acts_1_1_single_diamond_portal_shell.html#ac394623f584bd407dcf762a263817d73">Acts::SingleDiamondPortalShell</a>, and <a class="el" href="class_acts_1_1_single_trapezoid_portal_shell.html#a848bed244ea2506138b7cbd463da0ddc">Acts::SingleTrapezoidPortalShell</a>.</p>
+
+</div>
+</div>
+<a id="ac83be8854f2c56eee7abdf82c0c10515" name="ac83be8854f2c56eee7abdf82c0c10515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac83be8854f2c56eee7abdf82c0c10515">&#9670;&#160;</a></span>makeSingle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_portal_shell_base.html">PortalShellBase</a> &gt; Acts::PortalShellBase::makeSingle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the single-volume shell matching the bounds type of <code class="param">volume</code>, e.g. </p>
+<p>a <code>SingleCylinderPortalShell</code> for a volume with cylinder bounds. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">volume</td><td>The volume to create the shell for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The portal shell for the volume </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::logic_error</td><td>if the volume's bounds type has no shell implementation </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
