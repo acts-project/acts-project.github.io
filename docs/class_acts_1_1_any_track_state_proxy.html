@@ -199,10 +199,10 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstEffectiveCalibr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2971fdfbc2df71e88b3e340d031feeda" id="r_a2971fdfbc2df71e88b3e340d031feeda"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; <br />
-requires (<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> || !track_state_proxy_t::ReadOnly)</td></tr>
-<tr class="memitem:a2971fdfbc2df71e88b3e340d031feeda template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2971fdfbc2df71e88b3e340d031feeda">AnyTrackStateProxy</a> (track_state_proxy_t &amp;ts)</td></tr>
-<tr class="memdesc:a2971fdfbc2df71e88b3e340d031feeda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct an <span class="tt">AnyTrackStateProxy</span> from a concrete track-state proxy.  <br /></td></tr>
+<tr class="memitem:adc715df78c48bd93e038d4ffa269eece" id="r_adc715df78c48bd93e038d4ffa269eece"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; <br />
+requires ((<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> || !track_state_proxy_t::ReadOnly) &amp;&amp; !std::is_same_v&lt;std::remove_cv_t&lt;track_state_proxy_t&gt;, AnyTrackStateProxy&lt;true&gt;&gt; &amp;&amp; !std::is_same_v&lt;std::remove_cv_t&lt;track_state_proxy_t&gt;, AnyTrackStateProxy&lt;false&gt;&gt;)</td></tr>
+<tr class="memitem:adc715df78c48bd93e038d4ffa269eece template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc715df78c48bd93e038d4ffa269eece">AnyTrackStateProxy</a> (track_state_proxy_t &amp;ts)</td></tr>
+<tr class="memdesc:adc715df78c48bd93e038d4ffa269eece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct an <span class="tt">AnyTrackStateProxy</span> from a concrete track-state proxy.  <br /></td></tr>
 <tr class="memitem:a8b52d0e522b2cac7e5151e657abf668c" id="r_a8b52d0e522b2cac7e5151e657abf668c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b52d0e522b2cac7e5151e657abf668c">allocateCalibrated</a> (const Eigen::DenseBase&lt; val_t &gt; &amp;val, const Eigen::DenseBase&lt; cov_t &gt; &amp;cov)</td></tr>
 <tr class="memdesc:a8b52d0e522b2cac7e5151e657abf668c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and initialize calibrated data from static-size Eigen objects.  <br /></td></tr>
 <tr class="memitem:a7cdeba01b8e8b1793ba0c0db4977e0c7" id="r_a7cdeba01b8e8b1793ba0c0db4977e0c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cdeba01b8e8b1793ba0c0db4977e0c7">allocateCalibrated</a> (std::size_t measdim)</td></tr>
@@ -649,8 +649,8 @@ template&lt;bool read_only&gt; </div>
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2971fdfbc2df71e88b3e340d031feeda" name="a2971fdfbc2df71e88b3e340d031feeda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2971fdfbc2df71e88b3e340d031feeda">&#9670;&#160;</a></span>AnyTrackStateProxy()</h2>
+<a id="adc715df78c48bd93e038d4ffa269eece" name="adc715df78c48bd93e038d4ffa269eece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc715df78c48bd93e038d4ffa269eece">&#9670;&#160;</a></span>AnyTrackStateProxy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -658,7 +658,7 @@ template&lt;bool read_only&gt; </div>
 template&lt;bool read_only&gt; </div>
 <div class="memtemplate">
 template&lt;TrackStateProxyConcept track_state_proxy_t&gt; <br />
-requires (<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> || !track_state_proxy_t::ReadOnly)</div>
+requires ((<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> || !track_state_proxy_t::ReadOnly) &amp;&amp; !std::is_same_v&lt;std::remove_cv_t&lt;track_state_proxy_t&gt;, AnyTrackStateProxy&lt;true&gt;&gt; &amp;&amp; !std::is_same_v&lt;std::remove_cv_t&lt;track_state_proxy_t&gt;, AnyTrackStateProxy&lt;false&gt;&gt;)</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

@@ -216,6 +216,10 @@ requires (!<a class="el" href="#acae04f809ce0c4434aa2abb9e619fc01">ReadOnly</a>)
 <tr class="memdesc:a309112b470bec08e05a9730e399499ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if track has a reference surface.  <br /></td></tr>
 <tr class="memitem:a97b2998021c67801a3c1a1ed926b3630" id="r_a97b2998021c67801a3c1a1ed926b3630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#ab10f01c2759ff4e801d804fdf1a91199">TrackIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97b2998021c67801a3c1a1ed926b3630">index</a> () const</td></tr>
 <tr class="memdesc:a97b2998021c67801a3c1a1ed926b3630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of this track.  <br /></td></tr>
+<tr class="memitem:a9b86d3c96752abb020f04e38d1f960f5" id="r_a9b86d3c96752abb020f04e38d1f960f5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b86d3c96752abb020f04e38d1f960f5">innermostTrackState</a> ()</td></tr>
+<tr class="memdesc:a9b86d3c96752abb020f04e38d1f960f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a mutable type-erased track state proxy to the innermost track state.  <br /></td></tr>
+<tr class="memitem:aa203fdc1b24e9afe42708d8b622480da" id="r_aa203fdc1b24e9afe42708d8b622480da"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa203fdc1b24e9afe42708d8b622480da">innermostTrackState</a> () const</td></tr>
+<tr class="memdesc:aa203fdc1b24e9afe42708d8b622480da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const type-erased track state proxy to the innermost track state.  <br /></td></tr>
 <tr class="memitem:ae982ec43bf91ba1e225be33d6d08b02b" id="r_ae982ec43bf91ba1e225be33d6d08b02b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae982ec43bf91ba1e225be33d6d08b02b">loc0</a> () const</td></tr>
 <tr class="memdesc:ae982ec43bf91ba1e225be33d6d08b02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the loc0 parameter of the track at the reference surface.  <br /></td></tr>
 <tr class="memitem:aa22340d75260d31f4d3eeb3b9341586a" id="r_aa22340d75260d31f4d3eeb3b9341586a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa22340d75260d31f4d3eeb3b9341586a">loc1</a> () const</td></tr>
@@ -224,6 +228,10 @@ requires (!<a class="el" href="#acae04f809ce0c4434aa2abb9e619fc01">ReadOnly</a>)
 <tr class="memdesc:a0c15b80641e4b45f31febd9b988bd59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of track states.  <br /></td></tr>
 <tr class="memitem:a59356fedde06a10b04226ee81911266a" id="r_a59356fedde06a10b04226ee81911266a"><td class="memItemLeft" align="right" valign="top">AnyTrackProxy &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59356fedde06a10b04226ee81911266a">operator=</a> (const AnyTrackProxy &amp;other)=default</td></tr>
 <tr class="memdesc:a59356fedde06a10b04226ee81911266a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator: const to const or mutable to mutable.  <br /></td></tr>
+<tr class="memitem:ae111abccf67b9ddb94790da979e5fb1a" id="r_ae111abccf67b9ddb94790da979e5fb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae111abccf67b9ddb94790da979e5fb1a">outermostTrackState</a> ()</td></tr>
+<tr class="memdesc:ae111abccf67b9ddb94790da979e5fb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a mutable type-erased track state proxy to the outermost track state.  <br /></td></tr>
+<tr class="memitem:adc4e679a1001ee41410e650364f198f5" id="r_adc4e679a1001ee41410e650364f198f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4e679a1001ee41410e650364f198f5">outermostTrackState</a> () const</td></tr>
+<tr class="memdesc:adc4e679a1001ee41410e650364f198f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const type-erased track state proxy to the outermost track state.  <br /></td></tr>
 <tr class="memitem:a557813627a4e30dc3f13a347f6b70b07" id="r_a557813627a4e30dc3f13a347f6b70b07"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557813627a4e30dc3f13a347f6b70b07">parameter</a> (std::size_t i)</td></tr>
 <tr class="memdesc:a557813627a4e30dc3f13a347f6b70b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a mutable reference to a parameter component.  <br /></td></tr>
 <tr class="memitem:aad86a4c76f7ca0fe3550f2757e7b6055" id="r_aad86a4c76f7ca0fe3550f2757e7b6055"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad86a4c76f7ca0fe3550f2757e7b6055">parameter</a> (std::size_t i) const</td></tr>
@@ -244,6 +252,14 @@ requires (!<a class="el" href="#acae04f809ce0c4434aa2abb9e619fc01">ReadOnly</a>)
 <tr class="memdesc:a8be13ec247bf287b76647538dcfc2bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the theta parameter of the track at the reference surface.  <br /></td></tr>
 <tr class="memitem:a56a29fdaa45f321b9b683ba5295b4cd1" id="r_a56a29fdaa45f321b9b683ba5295b4cd1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a29fdaa45f321b9b683ba5295b4cd1">time</a> () const</td></tr>
 <tr class="memdesc:a56a29fdaa45f321b9b683ba5295b4cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the time parameter of the track at the reference surface.  <br /></td></tr>
+<tr class="memitem:a31907ca7b68c85a6488b603f4312a841" id="r_a31907ca7b68c85a6488b603f4312a841"><td class="memItemLeft" align="right" valign="top">detail_anytstate::AnyMutableTrackStateRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31907ca7b68c85a6488b603f4312a841">trackStates</a> ()</td></tr>
+<tr class="memdesc:a31907ca7b68c85a6488b603f4312a841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a range over the track states of this track, from the inside outwards.  <br /></td></tr>
+<tr class="memitem:a4768228ce3a2aa03f2f4343241ee17e3" id="r_a4768228ce3a2aa03f2f4343241ee17e3"><td class="memItemLeft" align="right" valign="top">detail_anytstate::AnyConstTrackStateRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4768228ce3a2aa03f2f4343241ee17e3">trackStates</a> () const</td></tr>
+<tr class="memdesc:a4768228ce3a2aa03f2f4343241ee17e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a range over the track states of this track, from the inside outwards.  <br /></td></tr>
+<tr class="memitem:ab66a4cbe62f7d4e2409fb5a3316edb7f" id="r_ab66a4cbe62f7d4e2409fb5a3316edb7f"><td class="memItemLeft" align="right" valign="top">detail_anytstate::AnyMutableReverseTrackStateRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab66a4cbe62f7d4e2409fb5a3316edb7f">trackStatesReversed</a> ()</td></tr>
+<tr class="memdesc:ab66a4cbe62f7d4e2409fb5a3316edb7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a range over the track states of this track, from the outside inwards.  <br /></td></tr>
+<tr class="memitem:aa5e22092fd9f5971207da7c585641044" id="r_aa5e22092fd9f5971207da7c585641044"><td class="memItemLeft" align="right" valign="top">detail_anytstate::AnyConstReverseTrackStateRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5e22092fd9f5971207da7c585641044">trackStatesReversed</a> () const</td></tr>
+<tr class="memdesc:aa5e22092fd9f5971207da7c585641044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a range over the track states of this track, from the outside inwards.  <br /></td></tr>
 <tr class="memitem:ae409a395e7a5be6d80f398936cbf380f" id="r_ae409a395e7a5be6d80f398936cbf380f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae409a395e7a5be6d80f398936cbf380f">transverseMomentum</a> () const</td></tr>
 <tr class="memdesc:ae409a395e7a5be6d80f398936cbf380f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transverse momentum.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_acts_1_1_track_proxy_common"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_acts_1_1_track_proxy_common')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_acts_1_1_track_proxy_common.html">Acts::TrackProxyCommon&lt; AnyTrackProxy&lt; true &gt;, TrackIndexType, true &gt;</a></td></tr>
@@ -338,7 +354,7 @@ template&lt;bool read_only = true&gt; </div>
 <div class="line">      std::conditional_t&lt;<a class="code hl_variable" href="#acae04f809ce0c4434aa2abb9e619fc01">ReadOnly</a>,</div>
 <div class="line">                         <span class="keyword">const</span> detail_anytrack::TrackHandlerConstBase*,</div>
 <div class="line">                         <span class="keyword">const</span> detail_anytrack::TrackHandlerMutableBase*&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_any_track_proxy_html_acae04f809ce0c4434aa2abb9e619fc01"><div class="ttname"><a href="#acae04f809ce0c4434aa2abb9e619fc01">Acts::AnyTrackProxy::ReadOnly</a></div><div class="ttdeci">static constexpr bool ReadOnly</div><div class="ttdoc">Indicates whether this track is read-only.</div><div class="ttdef"><b>Definition</b> AnyTrackProxy.hpp:294</div></div>
+<div class="ttc" id="aclass_acts_1_1_any_track_proxy_html_acae04f809ce0c4434aa2abb9e619fc01"><div class="ttname"><a href="#acae04f809ce0c4434aa2abb9e619fc01">Acts::AnyTrackProxy::ReadOnly</a></div><div class="ttdeci">static constexpr bool ReadOnly</div><div class="ttdoc">Indicates whether this track is read-only.</div><div class="ttdef"><b>Definition</b> AnyTrackProxy.hpp:329</div></div>
 </div><!-- fragment -->
 <p>Handler pointer type. </p>
 
@@ -814,6 +830,52 @@ template&lt;bool read_only = true&gt; </div>
 
 </div>
 </div>
+<a id="a9b86d3c96752abb020f04e38d1f960f5" name="a9b86d3c96752abb020f04e38d1f960f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b86d3c96752abb020f04e38d1f960f5">&#9670;&#160;</a></span>innermostTrackState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a> &gt; <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::innermostTrackState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a mutable type-erased track state proxy to the innermost track state. </p>
+<dl class="section note"><dt>Note</dt><dd>This is only available if the track is forward linked </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The innermost track state proxy, or nullopt if not forward linked </dd></dl>
+
+</div>
+</div>
+<a id="aa203fdc1b24e9afe42708d8b622480da" name="aa203fdc1b24e9afe42708d8b622480da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa203fdc1b24e9afe42708d8b622480da">&#9670;&#160;</a></span>innermostTrackState() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> &gt; <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::innermostTrackState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a const type-erased track state proxy to the innermost track state. </p>
+<dl class="section note"><dt>Note</dt><dd>This is only available if the track is forward linked </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The innermost track state proxy, or nullopt if not forward linked </dd></dl>
+
+</div>
+</div>
 <a id="ae982ec43bf91ba1e225be33d6d08b02b" name="ae982ec43bf91ba1e225be33d6d08b02b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae982ec43bf91ba1e225be33d6d08b02b">&#9670;&#160;</a></span>loc0()</h2>
 
@@ -913,6 +975,50 @@ template&lt;bool read_only = true&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>reference to this track </dd></dl>
+
+</div>
+</div>
+<a id="ae111abccf67b9ddb94790da979e5fb1a" name="ae111abccf67b9ddb94790da979e5fb1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae111abccf67b9ddb94790da979e5fb1a">&#9670;&#160;</a></span>outermostTrackState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb">AnyMutableTrackStateProxy</a> <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::outermostTrackState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a mutable type-erased track state proxy to the outermost track state. </p>
+<dl class="section return"><dt>Returns</dt><dd>The outermost track state proxy </dd></dl>
+
+</div>
+</div>
+<a id="adc4e679a1001ee41410e650364f198f5" name="adc4e679a1001ee41410e650364f198f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4e679a1001ee41410e650364f198f5">&#9670;&#160;</a></span>outermostTrackState() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::outermostTrackState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a const type-erased track state proxy to the outermost track state. </p>
+<dl class="section return"><dt>Returns</dt><dd>The outermost track state proxy </dd></dl>
 
 </div>
 </div>
@@ -1145,6 +1251,98 @@ template&lt;bool read_only = true&gt; </div>
 
 <p>Access the time parameter of the track at the reference surface. </p>
 <dl class="section return"><dt>Returns</dt><dd>The time parameter </dd></dl>
+
+</div>
+</div>
+<a id="a31907ca7b68c85a6488b603f4312a841" name="a31907ca7b68c85a6488b603f4312a841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31907ca7b68c85a6488b603f4312a841">&#9670;&#160;</a></span>trackStates() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">detail_anytstate::AnyMutableTrackStateRange <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::trackStates </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a range over the track states of this track, from the inside outwards. </p>
+<p>Compatible with range-based for loops. Mutable version. </p><dl class="section note"><dt>Note</dt><dd>Only available if the track proxy is not read-only </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>This access direction is only possible if the track states are <b>forward-linked</b>. The range is empty otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Track state range to iterate over </dd></dl>
+
+</div>
+</div>
+<a id="a4768228ce3a2aa03f2f4343241ee17e3" name="a4768228ce3a2aa03f2f4343241ee17e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4768228ce3a2aa03f2f4343241ee17e3">&#9670;&#160;</a></span>trackStates() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">detail_anytstate::AnyConstTrackStateRange <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::trackStates </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a range over the track states of this track, from the inside outwards. </p>
+<p>Compatible with range-based for loops. Const version. </p><dl class="section warning"><dt>Warning</dt><dd>This access direction is only possible if the track states are <b>forward-linked</b>. The range is empty otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Track state range to iterate over </dd></dl>
+
+</div>
+</div>
+<a id="ab66a4cbe62f7d4e2409fb5a3316edb7f" name="ab66a4cbe62f7d4e2409fb5a3316edb7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66a4cbe62f7d4e2409fb5a3316edb7f">&#9670;&#160;</a></span>trackStatesReversed() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">detail_anytstate::AnyMutableReverseTrackStateRange <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::trackStatesReversed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a range over the track states of this track, from the outside inwards. </p>
+<p>Compatible with range-based for loops. Mutable version. </p><dl class="section note"><dt>Note</dt><dd>Only available if the track proxy is not read-only </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Track state range to iterate over </dd></dl>
+
+</div>
+</div>
+<a id="aa5e22092fd9f5971207da7c585641044" name="aa5e22092fd9f5971207da7c585641044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e22092fd9f5971207da7c585641044">&#9670;&#160;</a></span>trackStatesReversed() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">detail_anytstate::AnyConstReverseTrackStateRange <a class="el" href="class_acts_1_1_any_track_proxy.html">Acts::AnyTrackProxy</a>&lt; read_only &gt;::trackStatesReversed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a range over the track states of this track, from the outside inwards. </p>
+<p>Compatible with range-based for loops. Const version. </p><dl class="section return"><dt>Returns</dt><dd>Track state range to iterate over </dd></dl>
 
 </div>
 </div>
