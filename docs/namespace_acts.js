@@ -1016,6 +1016,8 @@ var namespace_acts =
     [ "makeDirectionFromAxisTangents", "namespace_acts.html#a6273d1f24a492d8ff55bed5c32f3a77f", null ],
     [ "makeDirectionFromPhiEta", "namespace_acts.html#a6a9928559b584e711a83869d56fe1bdb", null ],
     [ "makeDirectionFromPhiTheta", "namespace_acts.html#a47bd4093e0a9133ee5ea107a3bf55f59", null ],
+    [ "makeGrid", "namespace_acts.html#aa2397e10731f02b63f320cfbaf40eb29", null ],
+    [ "makeGrid", "namespace_acts.html#a6a9fb11be9ef92418a895d177e0d873c", null ],
     [ "makeGrid", "namespace_acts.html#a40b3a30a8131177dae1e7d5c6bf8b5e0", null ],
     [ "makeGrid", "namespace_acts.html#a424d9f0cd5324b8c7aa9b7d108626772", null ],
     [ "makeMagneticFieldMapRzFromText", "group__magnetic__field.html#ga5867649c2811a2b164af6e62f4ee6d8c", null ],

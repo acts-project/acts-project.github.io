@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[7,0,0,120,17],
+"class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[5,0,0,112,7],
+"class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[7,0,0,120,7],
+"class_acts_1_1_distance_sorter_t.html":[5,0,0,113],
+"class_acts_1_1_distance_sorter_t.html":[7,0,0,121],
+"class_acts_1_1_distance_sorter_t.html#a02f3fd5a77a03077989013de5fe78885":[5,0,0,113,1],
+"class_acts_1_1_distance_sorter_t.html#a02f3fd5a77a03077989013de5fe78885":[7,0,0,121,1],
+"class_acts_1_1_distance_sorter_t.html#a035fff261f1c122ef3596179add6fa01":[5,0,0,113,0],
 "class_acts_1_1_distance_sorter_t.html#a035fff261f1c122ef3596179add6fa01":[7,0,0,121,0],
 "class_acts_1_1_doublet_seed_finder.html":[5,0,0,114],
 "class_acts_1_1_doublet_seed_finder.html":[7,0,0,122],
@@ -241,13 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#adff93b9a247b473b22b6cef868c58055":[7,0,0,2,0,1],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#af4df3c512addf459b4a91dbe594753c9":[5,0,0,1,0,7],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#af4df3c512addf459b4a91dbe594753c9":[7,0,0,2,0,7],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#afb0af37b896c15333f15b3493d89c26a":[5,0,0,1,0,0],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#afb0af37b896c15333f15b3493d89c26a":[7,0,0,2,0,0],
-"class_acts_1_1_experimental_1_1_blueprint.html":[5,0,0,1,1],
-"class_acts_1_1_experimental_1_1_blueprint.html":[7,0,0,2,1],
-"class_acts_1_1_experimental_1_1_blueprint.html#a40b0d6177b79a43364e48781b8a68ea5":[5,0,0,1,1,4],
-"class_acts_1_1_experimental_1_1_blueprint.html#a40b0d6177b79a43364e48781b8a68ea5":[7,0,0,2,1,4],
-"class_acts_1_1_experimental_1_1_blueprint.html#a4362b093496c57ff81472dbf067721c6":[5,0,0,1,1,3],
-"class_acts_1_1_experimental_1_1_blueprint.html#a4362b093496c57ff81472dbf067721c6":[7,0,0,2,1,3],
-"class_acts_1_1_experimental_1_1_blueprint.html#a595dc0dd2b06d788411abe13231f2238":[5,0,0,1,1,7]
+"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#afb0af37b896c15333f15b3493d89c26a":[5,0,0,1,0,0]
 };

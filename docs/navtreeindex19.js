@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5":[5,0,0,173,11],
+"class_acts_1_1_i_axis.html#aeb788846d2cf2d1ec69314cb9c30e4f5":[7,0,0,181,11],
+"class_acts_1_1_i_axis.html#afc8c1d33724463e8039888bfcc6a16fa":[5,0,0,173,18],
+"class_acts_1_1_i_axis.html#afc8c1d33724463e8039888bfcc6a16fa":[7,0,0,181,18],
+"class_acts_1_1_i_confined_tracking_volume_builder.html":[5,0,0,174],
+"class_acts_1_1_i_confined_tracking_volume_builder.html":[7,0,0,182],
+"class_acts_1_1_i_confined_tracking_volume_builder.html#a4a2d09204dd5ded1412303b6d70488e9":[5,0,0,174,2],
+"class_acts_1_1_i_confined_tracking_volume_builder.html#a4a2d09204dd5ded1412303b6d70488e9":[7,0,0,182,2],
 "class_acts_1_1_i_confined_tracking_volume_builder.html#ab1c7f6d074da76c21786427312c1f10d":[5,0,0,174,0],
 "class_acts_1_1_i_confined_tracking_volume_builder.html#ab1c7f6d074da76c21786427312c1f10d":[7,0,0,182,0],
 "class_acts_1_1_i_confined_tracking_volume_builder.html#ac48e352f89895b860ef5b36a9c44b3a9":[5,0,0,174,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "class_acts_1_1_i_surface_material_accumulator.html#a54501974c15657e0fd6eb78434a519af":[5,0,0,213,3],
 "class_acts_1_1_i_surface_material_accumulator.html#a54501974c15657e0fd6eb78434a519af":[7,0,0,221,3],
 "class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f":[5,0,0,213,2],
-"class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f":[7,0,0,221,2],
-"class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a":[5,0,0,213,4],
-"class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a":[7,0,0,221,4],
-"class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[5,0,0,213,0],
-"class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[7,0,0,221,0],
-"class_acts_1_1_i_tracking_geometry_builder.html":[5,0,0,215],
-"class_acts_1_1_i_tracking_geometry_builder.html":[7,0,0,223],
-"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[5,0,0,215,0],
-"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[7,0,0,223,0]
+"class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f":[7,0,0,221,2]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_view_config.html#af89ef91fa65740b20570065218768447":[7,0,0,427,1],
+"struct_acts_1_1_void_navigator_1_1_config.html":[5,0,0,420,0],
+"struct_acts_1_1_void_navigator_1_1_config.html":[7,0,0,428,0],
+"struct_acts_1_1_void_navigator_1_1_options.html":[5,0,0,420,1],
+"struct_acts_1_1_void_navigator_1_1_options.html":[7,0,0,428,1],
+"struct_acts_1_1_void_navigator_1_1_options.html#a59b05d8c8d32f7b7d768c73049872f02":[5,0,0,420,1,0],
+"struct_acts_1_1_void_navigator_1_1_options.html#a59b05d8c8d32f7b7d768c73049872f02":[7,0,0,428,1,0],
+"struct_acts_1_1_void_navigator_1_1_options.html#ad4c6e60ee51392d80bb7edc557efcb7a":[5,0,0,420,1,1],
+"struct_acts_1_1_void_navigator_1_1_options.html#ad4c6e60ee51392d80bb7edc557efcb7a":[7,0,0,428,1,1],
+"struct_acts_1_1_void_navigator_1_1_state.html":[5,0,0,420,2],
 "struct_acts_1_1_void_navigator_1_1_state.html":[7,0,0,428,2],
 "struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[5,0,0,420,2,2],
 "struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[7,0,0,428,2,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_fatras_1_1_bound_parameters_smearer.html#ad426a2965f5eaed5db2ba39c79febd0e":[7,0,1,6,6],
 "struct_acts_fatras_1_1_casts_1_1_abs_eta.html":[7,0,1,0,0],
 "struct_acts_fatras_1_1_casts_1_1_abs_eta.html#a09542d128fca4a77712e0091b3e981db":[7,0,1,0,0,0],
-"struct_acts_fatras_1_1_casts_1_1_abs_vz.html":[7,0,1,0,1],
-"struct_acts_fatras_1_1_casts_1_1_abs_vz.html#aaa63fcd5067987c635f5c48f008846bd":[7,0,1,0,1,0],
-"struct_acts_fatras_1_1_casts_1_1_e.html":[7,0,1,0,2],
-"struct_acts_fatras_1_1_casts_1_1_e.html#aff356fc5432caf08027d8e848141c202":[7,0,1,0,2,0],
-"struct_acts_fatras_1_1_casts_1_1_eta.html":[7,0,1,0,3],
-"struct_acts_fatras_1_1_casts_1_1_eta.html#a17089b8c5f13dd0c701b4d2de6d60e59":[7,0,1,0,3,0],
-"struct_acts_fatras_1_1_casts_1_1_p.html":[7,0,1,0,4],
-"struct_acts_fatras_1_1_casts_1_1_p.html#a9b57edc1c9251c0318faa39c31597e95":[7,0,1,0,4,0],
-"struct_acts_fatras_1_1_casts_1_1_pt.html":[7,0,1,0,5],
-"struct_acts_fatras_1_1_casts_1_1_pt.html#ae99f53b0d13eb6782fbe8ed2870750d1":[7,0,1,0,5,0],
-"struct_acts_fatras_1_1_casts_1_1_vrho.html":[7,0,1,0,6]
+"struct_acts_fatras_1_1_casts_1_1_abs_vz.html":[7,0,1,0,1]
 };

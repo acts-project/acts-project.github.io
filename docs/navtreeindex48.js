@@ -1,5 +1,15 @@
 var NAVTREEINDEX48 =
 {
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#a91aa4023693927c606e2e32d9db6fb02":[7,0,0,0,1,3],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#aa68ca334da4d21acb793476d0eacd899":[7,0,0,0,1,1],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#aad8518725b7dc151fa3b8b4e868e8d3b":[7,0,0,0,1,0],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#ad21261e4d7c7f937a4e459e194327576":[7,0,0,0,1,2],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html":[7,0,0,0,2],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#a24b7bb8a5c95a83020733541e0ccc1a0":[7,0,0,0,2,2],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#a408800bbe915db1bd2d7b33433ffa48a":[7,0,0,0,2,1],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#a4ac43aa7a5da9285f2e81ab2db653c4c":[7,0,0,0,2,3],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#acc0a59fe9a10912ab81c4237d33fd22b":[7,0,0,0,2,0],
+"struct_acts_1_1_annealing_utility_1_1_config.html":[5,0,0,19,0],
 "struct_acts_1_1_annealing_utility_1_1_config.html":[7,0,0,27,0],
 "struct_acts_1_1_annealing_utility_1_1_config.html#a57099271acbe55be5ec014d4a87bcd5a":[5,0,0,19,0,2],
 "struct_acts_1_1_annealing_utility_1_1_config.html#a57099271acbe55be5ec014d4a87bcd5a":[7,0,0,27,0,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_ccl_1_1_connect2_d.html#a450291a0ab0e50578a97b224ba488cf2":[7,0,0,1,2,1],
 "struct_acts_1_1_ccl_1_1_default_connect.html":[7,0,0,1,3],
 "struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_011_01_4.html":[7,0,0,1,4],
-"struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4.html":[7,0,0,1,5],
-"struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4.html#a59ec26d37e9284faa122f8d2598d078e":[7,0,0,1,5,0],
-"struct_acts_1_1_ccl_1_1_timed_connect.html":[7,0,0,1,7],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#a2a08d0a6a8d5184cd372c38ddb5d0b44":[7,0,0,1,7,0],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#a383c7365f42cbde86e5bfb434f240c7d":[7,0,0,1,7,2],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#ab0f5366a199611f0f526855db18b4079":[7,0,0,1,7,1],
-"struct_acts_1_1_ccl_1_1_timed_connect.html#af7563214bededba9c56dc7edf3cebb2a":[7,0,0,1,7,3],
-"struct_acts_1_1_center_reference_generator.html":[5,0,0,60],
-"struct_acts_1_1_center_reference_generator.html":[7,0,0,68],
-"struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c":[5,0,0,60,0],
-"struct_acts_1_1_center_reference_generator.html#a6d472c0eb32115bb12a6fc268f62d45c":[7,0,0,68,0]
+"struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4.html":[7,0,0,1,5]
 };

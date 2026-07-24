@@ -2219,6 +2219,12 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memitem:a47bd4093e0a9133ee5ea107a3bf55f59" id="r_a47bd4093e0a9133ee5ea107a3bf55f59"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a47bd4093e0a9133ee5ea107a3bf55f59 template"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47bd4093e0a9133ee5ea107a3bf55f59">makeDirectionFromPhiTheta</a> (T phi, T theta)</td></tr>
 <tr class="memdesc:a47bd4093e0a9133ee5ea107a3bf55f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a normalized direction vector from phi and theta angle.  <br /></td></tr>
+<tr class="memitem:aa2397e10731f02b63f320cfbaf40eb29" id="r_aa2397e10731f02b63f320cfbaf40eb29"><td class="memTemplParams" colspan="2">template&lt;typename payload_t&gt; </td></tr>
+<tr class="memitem:aa2397e10731f02b63f320cfbaf40eb29 template"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_grid.html">IGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2397e10731f02b63f320cfbaf40eb29">makeGrid</a> (const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;a)</td></tr>
+<tr class="memdesc:aa2397e10731f02b63f320cfbaf40eb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create a 1D grid from a single type-erased axis.  <br /></td></tr>
+<tr class="memitem:a6a9fb11be9ef92418a895d177e0d873c" id="r_a6a9fb11be9ef92418a895d177e0d873c"><td class="memTemplParams" colspan="2">template&lt;typename payload_t&gt; </td></tr>
+<tr class="memitem:a6a9fb11be9ef92418a895d177e0d873c template"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_grid.html">IGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a9fb11be9ef92418a895d177e0d873c">makeGrid</a> (const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;a, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;b)</td></tr>
+<tr class="memdesc:a6a9fb11be9ef92418a895d177e0d873c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create a 2D grid from two type-erased axes.  <br /></td></tr>
 <tr class="memitem:a40b3a30a8131177dae1e7d5c6bf8b5e0" id="r_a40b3a30a8131177dae1e7d5c6bf8b5e0"><td class="memTemplParams" colspan="2">template&lt;typename payload_t&gt; </td></tr>
 <tr class="memitem:a40b3a30a8131177dae1e7d5c6bf8b5e0 template"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_grid.html">IGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40b3a30a8131177dae1e7d5c6bf8b5e0">makeGrid</a> (const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;a)</td></tr>
 <tr class="memdesc:a40b3a30a8131177dae1e7d5c6bf8b5e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create a 1D grid from a single proto axis.  <br /></td></tr>
@@ -3208,7 +3214,7 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_index_grid_navigation_policy.html">IndexGridNavigationPolicy&lt;RegularCylinderIndexGrid&gt;</a></div>
-<div class="ttc" id="aclass_acts_1_1_index_grid_navigation_policy_html"><div class="ttname"><a href="class_acts_1_1_index_grid_navigation_policy.html">Acts::IndexGridNavigationPolicy</a></div><div class="ttdoc">A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye...</div><div class="ttdef"><b>Definition</b> IndexGridNavigationPolicy.hpp:45</div></div>
+<div class="ttc" id="aclass_acts_1_1_index_grid_navigation_policy_html"><div class="ttname"><a href="class_acts_1_1_index_grid_navigation_policy.html">Acts::IndexGridNavigationPolicy</a></div><div class="ttdoc">A navigation policy that uses grid based navigation for indexed surfaces Navigate through a multilaye...</div><div class="ttdef"><b>Definition</b> IndexGridNavigationPolicy.hpp:44</div></div>
 </div><!-- fragment -->
 <p>Navigation policy for regular cylinder grids. </p>
 
@@ -8754,8 +8760,81 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="aa2397e10731f02b63f320cfbaf40eb29" name="aa2397e10731f02b63f320cfbaf40eb29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2397e10731f02b63f320cfbaf40eb29">&#9670;&#160;</a></span>makeGrid() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename payload_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_grid.html">IGrid</a> &gt; Acts::makeGrid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper method to create a 1D grid from a single type-erased axis. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">payload_t</td><td>the grid payload type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>the axis</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
+
+</div>
+</div>
+<a id="a6a9fb11be9ef92418a895d177e0d873c" name="a6a9fb11be9ef92418a895d177e0d873c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a9fb11be9ef92418a895d177e0d873c">&#9670;&#160;</a></span>makeGrid() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename payload_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_grid.html">IGrid</a> &gt; Acts::makeGrid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper method to create a 2D grid from two type-erased axes. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">payload_t</td><td>the grid payload type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>the first axis </td></tr>
+    <tr><td class="paramname">b</td><td>the second axis</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
+
+</div>
+</div>
 <a id="a40b3a30a8131177dae1e7d5c6bf8b5e0" name="a40b3a30a8131177dae1e7d5c6bf8b5e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40b3a30a8131177dae1e7d5c6bf8b5e0">&#9670;&#160;</a></span>makeGrid() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b3a30a8131177dae1e7d5c6bf8b5e0">&#9670;&#160;</a></span>makeGrid() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8789,7 +8868,7 @@ template&lt;typename payload_t&gt; </div>
 </div>
 </div>
 <a id="a424d9f0cd5324b8c7aa9b7d108626772" name="a424d9f0cd5324b8c7aa9b7d108626772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a424d9f0cd5324b8c7aa9b7d108626772">&#9670;&#160;</a></span>makeGrid() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a424d9f0cd5324b8c7aa9b7d108626772">&#9670;&#160;</a></span>makeGrid() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

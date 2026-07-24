@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_fatras_1_1_casts_1_1_abs_vz.html#aaa63fcd5067987c635f5c48f008846bd":[7,0,1,0,1,0],
+"struct_acts_fatras_1_1_casts_1_1_e.html":[7,0,1,0,2],
+"struct_acts_fatras_1_1_casts_1_1_e.html#aff356fc5432caf08027d8e848141c202":[7,0,1,0,2,0],
+"struct_acts_fatras_1_1_casts_1_1_eta.html":[7,0,1,0,3],
+"struct_acts_fatras_1_1_casts_1_1_eta.html#a17089b8c5f13dd0c701b4d2de6d60e59":[7,0,1,0,3,0],
+"struct_acts_fatras_1_1_casts_1_1_p.html":[7,0,1,0,4],
+"struct_acts_fatras_1_1_casts_1_1_p.html#a9b57edc1c9251c0318faa39c31597e95":[7,0,1,0,4,0],
+"struct_acts_fatras_1_1_casts_1_1_pt.html":[7,0,1,0,5],
+"struct_acts_fatras_1_1_casts_1_1_pt.html#ae99f53b0d13eb6782fbe8ed2870750d1":[7,0,1,0,5,0],
+"struct_acts_fatras_1_1_casts_1_1_vrho.html":[7,0,1,0,6],
 "struct_acts_fatras_1_1_casts_1_1_vrho.html#abcdd815250f6fed7295e9cbca88aeaca":[7,0,1,0,6,0],
 "struct_acts_fatras_1_1_casts_1_1_vz.html":[7,0,1,0,7],
 "struct_acts_fatras_1_1_casts_1_1_vz.html#a50f04fcfc5ac0dd84935540bb28c493d":[7,0,1,0,7,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_fatras_1_1_single_particle_simulation.html#a9d0943350edbd6bdfee332d2c5e4cffa":[7,0,1,35,3],
 "struct_acts_fatras_1_1_single_particle_simulation.html#aa7e930e526ab1e253685a721f0df879c":[5,0,2,34,5],
 "struct_acts_fatras_1_1_single_particle_simulation.html#aa7e930e526ab1e253685a721f0df879c":[7,0,1,35,5],
-"struct_acts_fatras_1_1_single_particle_simulation.html#aef19a5b6581ba3f60f4b538bbfa5ee79":[5,0,2,34,7],
-"struct_acts_fatras_1_1_single_particle_simulation.html#aef19a5b6581ba3f60f4b538bbfa5ee79":[7,0,1,35,7],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html":[5,0,2,35],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html":[7,0,1,36],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a10c6fbf0a4178a03ecfe6d448e5d7737":[5,0,2,35,3],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a10c6fbf0a4178a03ecfe6d448e5d7737":[7,0,1,36,3],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a1468229a04207789f70008bb0c43f0e9":[5,0,2,35,1],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a1468229a04207789f70008bb0c43f0e9":[7,0,1,36,1],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a49a4f54a29d8bbf3be3ab179f4b5ef2f":[5,0,2,35,4],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a49a4f54a29d8bbf3be3ab179f4b5ef2f":[7,0,1,36,4],
-"struct_acts_fatras_1_1_single_particle_simulation_result.html#a7f091465f31aeace8d9b0b098b53c7cf":[5,0,2,35,2]
+"struct_acts_fatras_1_1_single_particle_simulation.html#aef19a5b6581ba3f60f4b538bbfa5ee79":[5,0,2,34,7]
 };

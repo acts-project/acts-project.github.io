@@ -1,5 +1,13 @@
 var NAVTREEINDEX29 =
 {
+"class_acts_1_1_score_based_ambiguity_resolution.html#ab87f7b237f0c70ac5c944880b0ab8a7f":[5,0,0,340,4],
+"class_acts_1_1_score_based_ambiguity_resolution.html#ab87f7b237f0c70ac5c944880b0ab8a7f":[7,0,0,348,4],
+"class_acts_1_1_score_based_ambiguity_resolution.html#ad1a269f3602ad70790bf2d143484d2fd":[5,0,0,340,9],
+"class_acts_1_1_score_based_ambiguity_resolution.html#ad1a269f3602ad70790bf2d143484d2fd":[7,0,0,348,9],
+"class_acts_1_1_seed_container.html":[5,0,0,342],
+"class_acts_1_1_seed_container.html":[7,0,0,350],
+"class_acts_1_1_seed_container.html#a09a81c4cf2506361df7306f8b64066a3":[5,0,0,342,8],
+"class_acts_1_1_seed_container.html#a09a81c4cf2506361df7306f8b64066a3":[7,0,0,350,8],
 "class_acts_1_1_seed_container.html#a09eb18ec5cc964b027fe3a06feef2bce":[5,0,0,342,4],
 "class_acts_1_1_seed_container.html#a09eb18ec5cc964b027fe3a06feef2bce":[7,0,0,350,4],
 "class_acts_1_1_seed_container.html#a0af72db6c9e61f67641bee18b00cc74f":[5,0,0,342,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX29 =
 "class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d":[5,0,0,347,5],
 "class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d":[7,0,0,355,5],
 "class_acts_1_1_solenoid_b_field.html":[4,3,1,7],
-"class_acts_1_1_solenoid_b_field.html":[4,11,0,7],
-"class_acts_1_1_solenoid_b_field.html#a1a4247948cfa79acb2cf42b4f30ae87a":[4,3,1,7,3],
-"class_acts_1_1_solenoid_b_field.html#a1a4247948cfa79acb2cf42b4f30ae87a":[4,11,0,7,3],
-"class_acts_1_1_solenoid_b_field.html#a1fa44fba1c0a868eb43b3b27439e2145":[4,3,1,7,4],
-"class_acts_1_1_solenoid_b_field.html#a1fa44fba1c0a868eb43b3b27439e2145":[4,11,0,7,4],
-"class_acts_1_1_solenoid_b_field.html#a35bb7a90cd5a5dc7f5d629a60b9e543f":[4,3,1,7,5],
-"class_acts_1_1_solenoid_b_field.html#a35bb7a90cd5a5dc7f5d629a60b9e543f":[4,11,0,7,5],
-"class_acts_1_1_solenoid_b_field.html#a7b35170178988e17733b78651d7b41b6":[4,3,1,7,6],
-"class_acts_1_1_solenoid_b_field.html#a7b35170178988e17733b78651d7b41b6":[4,11,0,7,6]
+"class_acts_1_1_solenoid_b_field.html":[4,11,0,7]
 };

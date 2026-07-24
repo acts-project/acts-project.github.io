@@ -1,5 +1,13 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_fatras_1_1_particle.html#a9b8ad182290de7d9fc21472450a47e62":[5,0,2,26,9],
+"class_acts_fatras_1_1_particle.html#a9b8ad182290de7d9fc21472450a47e62":[7,0,1,27,9],
+"class_acts_fatras_1_1_particle.html#a9e9a63f143b21162b931e609eb9acd97":[5,0,2,26,38],
+"class_acts_fatras_1_1_particle.html#a9e9a63f143b21162b931e609eb9acd97":[7,0,1,27,38],
+"class_acts_fatras_1_1_particle.html#aa0f554ef8d4270b6c21ee6b3944bdde3":[5,0,2,26,8],
+"class_acts_fatras_1_1_particle.html#aa0f554ef8d4270b6c21ee6b3944bdde3":[7,0,1,27,8],
+"class_acts_fatras_1_1_particle.html#aa38bbb13c122ccd07e9bcca0fb8e657e":[5,0,2,26,4],
+"class_acts_fatras_1_1_particle.html#aa38bbb13c122ccd07e9bcca0fb8e657e":[7,0,1,27,4],
 "class_acts_fatras_1_1_particle.html#aa577a941c8ace9985c2f9c5a3f942641":[5,0,2,26,46],
 "class_acts_fatras_1_1_particle.html#aa577a941c8ace9985c2f9c5a3f942641":[7,0,1,27,46],
 "class_acts_fatras_1_1_particle.html#aaa544f371060f6e2d187a3023140e2df":[5,0,2,26,56],
@@ -241,13 +249,5 @@ var NAVTREEINDEX40 =
 "class_acts_plugins_1_1_geo_model_detector_element.html#ae828be34a268c5a091b981a938fd6621":[4,10,8,0,3],
 "class_acts_plugins_1_1_geo_model_detector_element.html#af60c37be47965a678cc1f891c1cc9988":[4,10,8,0,12],
 "class_acts_plugins_1_1_geo_model_detector_element.html#af8b2af57dc794a3b24f5a8bf0e308ee0":[4,10,8,0,1],
-"class_acts_plugins_1_1_geo_model_detector_element.html#af8c3a2b37d0ca844d24d3d86c8ab7276":[4,10,8,0,8],
-"class_acts_plugins_1_1_geo_model_detector_element_i_tk.html":[4,10,8,1],
-"class_acts_plugins_1_1_geo_model_detector_element_i_tk.html#a8f36dcf23866b4ae918f6e47dac007b2":[4,10,8,1,2],
-"class_acts_plugins_1_1_geo_model_detector_element_i_tk.html#aa9fdc60f55bf04875444aa44024c3590":[4,10,8,1,1],
-"class_acts_plugins_1_1_geo_model_detector_element_i_tk.html#ac8c8ed2af4f85e6dbb0b3339277c66d7":[4,10,8,1,0],
-"class_acts_plugins_1_1_geo_model_detector_object_factory.html":[4,10,8,2],
-"class_acts_plugins_1_1_geo_model_detector_object_factory.html#a04e20ffa704b721bf34104ccd51a8c59":[4,10,8,2,8],
-"class_acts_plugins_1_1_geo_model_detector_object_factory.html#a320a563a876fd2be81117fdb46cb3133":[4,10,8,2,7],
-"class_acts_plugins_1_1_geo_model_detector_object_factory.html#a5d4c090b85730d51845b3fe5996c1248":[4,10,8,2,5]
+"class_acts_plugins_1_1_geo_model_detector_element.html#af8c3a2b37d0ca844d24d3d86c8ab7276":[4,10,8,0,8]
 };

@@ -140,6 +140,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac3536ebfa49ff7f643897dce7242d608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from BinningData directly.  <br /></td></tr>
 <tr class="memitem:a10165d251cb487b1c44661edcf4b5f5c" id="r_a10165d251cb487b1c44661edcf4b5f5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10165d251cb487b1c44661edcf4b5f5c">BinUtility</a> (const <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &amp;dpAxis)</td></tr>
 <tr class="memdesc:a10165d251cb487b1c44661edcf4b5f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from a DirectedProtoAxis.  <br /></td></tr>
+<tr class="memitem:a10980422ad048e1049a7277c10b8e07c" id="r_a10980422ad048e1049a7277c10b8e07c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10980422ad048e1049a7277c10b8e07c">BinUtility</a> (const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;axis)</td></tr>
+<tr class="memdesc:a10980422ad048e1049a7277c10b8e07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from a type-erased axis carrying its axis direction.  <br /></td></tr>
+<tr class="memitem:aa118d759bcdc1155dac1cb8567c15fff" id="r_aa118d759bcdc1155dac1cb8567c15fff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa118d759bcdc1155dac1cb8567c15fff">BinUtility</a> (const <a class="el" href="class_acts_1_1_i_multi_axis.html">IMultiAxis</a> &amp;axes)</td></tr>
+<tr class="memdesc:aa118d759bcdc1155dac1cb8567c15fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from a multi-axis, with the axes carrying their axis directions.  <br /></td></tr>
 <tr class="memitem:af5bba4b55a7b48e3c672ff6a345e5fb2" id="r_af5bba4b55a7b48e3c672ff6a345e5fb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5bba4b55a7b48e3c672ff6a345e5fb2">BinUtility</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &gt; &amp;dpAxes)</td></tr>
 <tr class="memdesc:af5bba4b55a7b48e3c672ff6a345e5fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from several DirectedProtoAxis objects.  <br /></td></tr>
 <tr class="memitem:a16ccef4bd9a08937a3c0364e342a22d1" id="r_a16ccef4bd9a08937a3c0364e342a22d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16ccef4bd9a08937a3c0364e342a22d1">BinUtility</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;tForm)</td></tr>
@@ -190,7 +194,7 @@ Public Member Functions</h2></td></tr>
 <p>for binning on shifted object, the transform is usually shared with the geometric object the Array is defined on, for performance reasons, also the inverse transform is stored. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a16ccef4bd9a08937a3c0364e342a22d1" name="a16ccef4bd9a08937a3c0364e342a22d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16ccef4bd9a08937a3c0364e342a22d1">&#9670;&#160;</a></span>BinUtility() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ccef4bd9a08937a3c0364e342a22d1">&#9670;&#160;</a></span>BinUtility() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +227,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac3536ebfa49ff7f643897dce7242d608" name="ac3536ebfa49ff7f643897dce7242d608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3536ebfa49ff7f643897dce7242d608">&#9670;&#160;</a></span>BinUtility() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3536ebfa49ff7f643897dce7242d608">&#9670;&#160;</a></span>BinUtility() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,7 +265,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="afc8a034b7a3048661e8928cb8c75dfe2" name="afc8a034b7a3048661e8928cb8c75dfe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc8a034b7a3048661e8928cb8c75dfe2">&#9670;&#160;</a></span>BinUtility() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8a034b7a3048661e8928cb8c75dfe2">&#9670;&#160;</a></span>BinUtility() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,7 +319,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a24ff74a3f5cc54446422beb3f2eed9e4" name="a24ff74a3f5cc54446422beb3f2eed9e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24ff74a3f5cc54446422beb3f2eed9e4">&#9670;&#160;</a></span>BinUtility() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a24ff74a3f5cc54446422beb3f2eed9e4">&#9670;&#160;</a></span>BinUtility() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,8 +368,74 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a10980422ad048e1049a7277c10b8e07c" name="a10980422ad048e1049a7277c10b8e07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10980422ad048e1049a7277c10b8e07c">&#9670;&#160;</a></span>BinUtility() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::BinUtility::BinUtility </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create from a type-erased axis carrying its axis direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>the axis to be used, its direction must be set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa118d759bcdc1155dac1cb8567c15fff" name="aa118d759bcdc1155dac1cb8567c15fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa118d759bcdc1155dac1cb8567c15fff">&#9670;&#160;</a></span>BinUtility() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::BinUtility::BinUtility </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_multi_axis.html">IMultiAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create from a multi-axis, with the axes carrying their axis directions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axes</td><td>the multi-axis to be used, the axis directions must be set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a10165d251cb487b1c44661edcf4b5f5c" name="a10165d251cb487b1c44661edcf4b5f5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10165d251cb487b1c44661edcf4b5f5c">&#9670;&#160;</a></span>BinUtility() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10165d251cb487b1c44661edcf4b5f5c">&#9670;&#160;</a></span>BinUtility() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,7 +468,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af5bba4b55a7b48e3c672ff6a345e5fb2" name="af5bba4b55a7b48e3c672ff6a345e5fb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5bba4b55a7b48e3c672ff6a345e5fb2">&#9670;&#160;</a></span>BinUtility() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5bba4b55a7b48e3c672ff6a345e5fb2">&#9670;&#160;</a></span>BinUtility() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

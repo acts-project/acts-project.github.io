@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"class_acts_1_1_diamond_volume_bounds.html#aaeee25bf34235c2f20440e2bee0b4c96":[7,0,0,113,9],
+"class_acts_1_1_diamond_volume_bounds.html#ab10a7a69cd5101d7d023099982e24c63":[5,0,0,105,15],
+"class_acts_1_1_diamond_volume_bounds.html#ab10a7a69cd5101d7d023099982e24c63":[7,0,0,113,15],
+"class_acts_1_1_diamond_volume_bounds.html#ab6879d23a483c85f1531366527df49d7":[5,0,0,105,10],
+"class_acts_1_1_diamond_volume_bounds.html#ab6879d23a483c85f1531366527df49d7":[7,0,0,113,10],
+"class_acts_1_1_diamond_volume_bounds.html#abb186767831d535b86bf378ed6fc1fc8":[5,0,0,105,12],
+"class_acts_1_1_diamond_volume_bounds.html#abb186767831d535b86bf378ed6fc1fc8":[7,0,0,113,12],
+"class_acts_1_1_diamond_volume_bounds.html#ac0bc33013cd2fbb83589cbd7f04e630a":[5,0,0,105,3],
 "class_acts_1_1_diamond_volume_bounds.html#ac0bc33013cd2fbb83589cbd7f04e630a":[7,0,0,113,3],
 "class_acts_1_1_diamond_volume_bounds.html#afd87592f0b81c946757cd6f4fea0232c":[5,0,0,105,13],
 "class_acts_1_1_diamond_volume_bounds.html#afd87592f0b81c946757cd6f4fea0232c":[7,0,0,113,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_disc_trapezoid_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[7,0,0,120,14],
 "class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[5,0,0,112,13],
 "class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[7,0,0,120,13],
-"class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[5,0,0,112,17],
-"class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[7,0,0,120,17],
-"class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[5,0,0,112,7],
-"class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[7,0,0,120,7],
-"class_acts_1_1_distance_sorter_t.html":[5,0,0,113],
-"class_acts_1_1_distance_sorter_t.html":[7,0,0,121],
-"class_acts_1_1_distance_sorter_t.html#a02f3fd5a77a03077989013de5fe78885":[5,0,0,113,1],
-"class_acts_1_1_distance_sorter_t.html#a02f3fd5a77a03077989013de5fe78885":[7,0,0,121,1],
-"class_acts_1_1_distance_sorter_t.html#a035fff261f1c122ef3596179add6fa01":[5,0,0,113,0]
+"class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[5,0,0,112,17]
 };

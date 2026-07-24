@@ -1,5 +1,13 @@
 var NAVTREEINDEX16 =
 {
+"class_acts_1_1_gain_matrix_updater.html":[4,13,10],
+"class_acts_1_1_gain_matrix_updater.html#a0fb6d9f9b46e6cfb831ec832cc1d9164":[4,13,10,1],
+"class_acts_1_1_gain_matrix_updater.html#a85efd824a477e2c766d94bfc94d3d75a":[4,13,10,0],
+"class_acts_1_1_gaussian_grid_track_density.html":[5,0,0,139],
+"class_acts_1_1_gaussian_grid_track_density.html":[7,0,0,147],
+"class_acts_1_1_gaussian_grid_track_density.html#a536b68a4a5b05b15f9a241cab512ad1a":[5,0,0,139,6],
+"class_acts_1_1_gaussian_grid_track_density.html#a536b68a4a5b05b15f9a241cab512ad1a":[7,0,0,147,6],
+"class_acts_1_1_gaussian_grid_track_density.html#a5a4bd41213d5b26d46ffe73ec979df89":[5,0,0,139,5],
 "class_acts_1_1_gaussian_grid_track_density.html#a5a4bd41213d5b26d46ffe73ec979df89":[7,0,0,147,5],
 "class_acts_1_1_gaussian_grid_track_density.html#a86f11ff26b442348ae330f360bf4a153":[5,0,0,139,3],
 "class_acts_1_1_gaussian_grid_track_density.html#a86f11ff26b442348ae330f360bf4a153":[7,0,0,147,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX16 =
 "class_acts_1_1_grid.html#a46ef57dddea5f1a063887e03eece48a4":[7,0,0,164,55],
 "class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56":[5,0,0,156,53],
 "class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56":[7,0,0,164,53],
-"class_acts_1_1_grid.html#a5110b32fbc7c22cfe013b544f041c54a":[5,0,0,156,13],
-"class_acts_1_1_grid.html#a5110b32fbc7c22cfe013b544f041c54a":[7,0,0,164,13],
-"class_acts_1_1_grid.html#a5398fa106092f3a3fed5953a622a66b6":[5,0,0,156,47],
-"class_acts_1_1_grid.html#a5398fa106092f3a3fed5953a622a66b6":[7,0,0,164,47],
-"class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d":[5,0,0,156,2],
-"class_acts_1_1_grid.html#a55c9e732ec7e0e0e4800490d8272d33d":[7,0,0,164,2],
-"class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0":[5,0,0,156,38],
-"class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0":[7,0,0,164,38],
-"class_acts_1_1_grid.html#a5e161ff22d2d24f99032c1c7bae5d514":[5,0,0,156,11]
+"class_acts_1_1_grid.html#a5110b32fbc7c22cfe013b544f041c54a":[5,0,0,156,13]
 };

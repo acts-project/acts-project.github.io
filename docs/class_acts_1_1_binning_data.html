@@ -138,6 +138,8 @@ Collaboration diagram for Acts::BinningData:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a22d6b4864f761ae8449e2b396e960494" id="r_a22d6b4864f761ae8449e2b396e960494"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d6b4864f761ae8449e2b396e960494">BinningData</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> axisDir, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;axis)</td></tr>
+<tr class="memdesc:a22d6b4864f761ae8449e2b396e960494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from an axis direction and a type-erased axis.  <br /></td></tr>
 <tr class="memitem:a652c017c532bc2e17a520c3716b79516" id="r_a652c017c532bc2e17a520c3716b79516"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652c017c532bc2e17a520c3716b79516">BinningData</a> (<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> bValue, float bMin, float bMax)</td></tr>
 <tr class="memdesc:a652c017c532bc2e17a520c3716b79516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for 0D binning.  <br /></td></tr>
 <tr class="memitem:ade89126f2f6fbdf65a757269428aa8d3" id="r_ade89126f2f6fbdf65a757269428aa8d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade89126f2f6fbdf65a757269428aa8d3">BinningData</a> (<a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">BinningOption</a> bOption, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> bValue, const std::vector&lt; float &gt; &amp;bBoundaries, std::unique_ptr&lt; const BinningData &gt; sBinData=nullptr)</td></tr>
@@ -148,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad5e22abf0d0e6f2e180cd7c054db5705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a8d8fbf18a1eead6c21d8fe7206bfe3b8" id="r_a8d8fbf18a1eead6c21d8fe7206bfe3b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d8fbf18a1eead6c21d8fe7206bfe3b8">BinningData</a> (const <a class="el" href="struct_acts_1_1_directed_proto_axis.html">DirectedProtoAxis</a> &amp;dpAxis)</td></tr>
 <tr class="memdesc:a8d8fbf18a1eead6c21d8fe7206bfe3b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from DirectedProtoAxis.  <br /></td></tr>
+<tr class="memitem:ad68243ac0a022ae3ebd69564b536fad7" id="r_ad68243ac0a022ae3ebd69564b536fad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad68243ac0a022ae3ebd69564b536fad7">BinningData</a> (const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;axis)</td></tr>
+<tr class="memdesc:ad68243ac0a022ae3ebd69564b536fad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from a type-erased axis carrying its axis direction.  <br /></td></tr>
 <tr class="memitem:a464a59283e3b04b48c48c4520ca9ec77" id="r_a464a59283e3b04b48c48c4520ca9ec77"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464a59283e3b04b48c48c4520ca9ec77">bins</a> () const</td></tr>
 <tr class="memdesc:a464a59283e3b04b48c48c4520ca9ec77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bins - including sub bins.  <br /></td></tr>
 <tr class="memitem:a69a1459cc6f0d2628e649d6530ac9f48" id="r_a69a1459cc6f0d2628e649d6530ac9f48"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a1459cc6f0d2628e649d6530ac9f48">boundaries</a> () const</td></tr>
@@ -224,7 +228,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
 <p>structure is equidistant additive : sub structure replaces one bin (and one bin only) </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a652c017c532bc2e17a520c3716b79516" name="a652c017c532bc2e17a520c3716b79516"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a652c017c532bc2e17a520c3716b79516">&#9670;&#160;</a></span>BinningData() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a652c017c532bc2e17a520c3716b79516">&#9670;&#160;</a></span>BinningData() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +264,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
 </div>
 </div>
 <a id="a82dc5fcc85752638f4d130099ae6efd0" name="a82dc5fcc85752638f4d130099ae6efd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82dc5fcc85752638f4d130099ae6efd0">&#9670;&#160;</a></span>BinningData() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82dc5fcc85752638f4d130099ae6efd0">&#9670;&#160;</a></span>BinningData() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +324,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
 </div>
 </div>
 <a id="ade89126f2f6fbdf65a757269428aa8d3" name="ade89126f2f6fbdf65a757269428aa8d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade89126f2f6fbdf65a757269428aa8d3">&#9670;&#160;</a></span>BinningData() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade89126f2f6fbdf65a757269428aa8d3">&#9670;&#160;</a></span>BinningData() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,7 +366,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
 </div>
 </div>
 <a id="ad5e22abf0d0e6f2e180cd7c054db5705" name="ad5e22abf0d0e6f2e180cd7c054db5705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5e22abf0d0e6f2e180cd7c054db5705">&#9670;&#160;</a></span>BinningData() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e22abf0d0e6f2e180cd7c054db5705">&#9670;&#160;</a></span>BinningData() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,8 +390,47 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
 
 </div>
 </div>
+<a id="ad68243ac0a022ae3ebd69564b536fad7" name="ad68243ac0a022ae3ebd69564b536fad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68243ac0a022ae3ebd69564b536fad7">&#9670;&#160;</a></span>BinningData() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::BinningData::BinningData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor from a type-erased axis carrying its axis direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>is the axis object, its direction must be set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if the axis has no direction </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8d8fbf18a1eead6c21d8fe7206bfe3b8" name="a8d8fbf18a1eead6c21d8fe7206bfe3b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d8fbf18a1eead6c21d8fe7206bfe3b8">&#9670;&#160;</a></span>BinningData() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8fbf18a1eead6c21d8fe7206bfe3b8">&#9670;&#160;</a></span>BinningData() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -413,6 +456,36 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>zdim</b> {}</td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dpAxis</td><td>is the ProtoAxis object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a22d6b4864f761ae8449e2b396e960494" name="a22d6b4864f761ae8449e2b396e960494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d6b4864f761ae8449e2b396e960494">&#9670;&#160;</a></span>BinningData() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::BinningData::BinningData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>axisDir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor from an axis direction and a type-erased axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axisDir</td><td>is the axis direction </td></tr>
+    <tr><td class="paramname">axis</td><td>is the axis object </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[7,0,0,317,0,1],
+"struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[5,0,0,309,0,2],
+"struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[7,0,0,317,0,2],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[5,0,0,309,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html":[7,0,0,317,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[5,0,0,309,0,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a10e975264a3c3c93f0eae7b3e631f900":[7,0,0,317,0,0,0],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[5,0,0,309,0,0,2],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#a79caadcc6f1d875774c3eb4691ef4ea9":[7,0,0,317,0,0,2],
+"struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[5,0,0,309,0,0,1],
 "struct_acts_1_1_portal_1_1_arguments_1_1_link.html#adf1ebb4898fe0d2a7bac258e19f12b52":[7,0,0,317,0,0,1],
 "struct_acts_1_1_projected_reference_generator.html":[5,0,0,314],
 "struct_acts_1_1_projected_reference_generator.html":[7,0,0,322],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[7,0,0,348,3,3],
 "struct_acts_1_1_seed_confirmation_range_config.html":[5,0,0,341],
 "struct_acts_1_1_seed_confirmation_range_config.html":[7,0,0,349],
-"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[5,0,0,341,4],
-"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[7,0,0,349,4],
-"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[5,0,0,341,5],
-"struct_acts_1_1_seed_confirmation_range_config.html#a42cd66be84e4a6723d1ba239fadddc7c":[7,0,0,349,5],
-"struct_acts_1_1_seed_confirmation_range_config.html#a7e8dc6c35ec546e4b608daf565ebd46a":[5,0,0,341,3],
-"struct_acts_1_1_seed_confirmation_range_config.html#a7e8dc6c35ec546e4b608daf565ebd46a":[7,0,0,349,3],
-"struct_acts_1_1_seed_confirmation_range_config.html#a8fcecb7b38eda57122080724c7e1be01":[5,0,0,341,7],
-"struct_acts_1_1_seed_confirmation_range_config.html#a8fcecb7b38eda57122080724c7e1be01":[7,0,0,349,7],
-"struct_acts_1_1_seed_confirmation_range_config.html#aa09410ae8382beb9bd4030756af7f454":[5,0,0,341,1],
-"struct_acts_1_1_seed_confirmation_range_config.html#aa09410ae8382beb9bd4030756af7f454":[7,0,0,349,1],
-"struct_acts_1_1_seed_confirmation_range_config.html#acbdd8ec6172d92b8c503995507bf135f":[5,0,0,341,6]
+"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[5,0,0,341,4]
 };

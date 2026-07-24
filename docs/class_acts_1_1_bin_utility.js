@@ -5,6 +5,8 @@ var class_acts_1_1_bin_utility =
     [ "BinUtility", "class_acts_1_1_bin_utility.html#ac3536ebfa49ff7f643897dce7242d608", null ],
     [ "BinUtility", "class_acts_1_1_bin_utility.html#afc8a034b7a3048661e8928cb8c75dfe2", null ],
     [ "BinUtility", "class_acts_1_1_bin_utility.html#a24ff74a3f5cc54446422beb3f2eed9e4", null ],
+    [ "BinUtility", "class_acts_1_1_bin_utility.html#a10980422ad048e1049a7277c10b8e07c", null ],
+    [ "BinUtility", "class_acts_1_1_bin_utility.html#aa118d759bcdc1155dac1cb8567c15fff", null ],
     [ "BinUtility", "class_acts_1_1_bin_utility.html#a10165d251cb487b1c44661edcf4b5f5c", null ],
     [ "BinUtility", "class_acts_1_1_bin_utility.html#af5bba4b55a7b48e3c672ff6a345e5fb2", null ],
     [ "bin", "class_acts_1_1_bin_utility.html#aec32fc2335b51dc8140397127a5c4ac9", null ],
