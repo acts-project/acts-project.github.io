@@ -146,6 +146,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a379dae30440bdbea56773c340dcae579" id="r_a379dae30440bdbea56773c340dcae579"><td class="memItemLeft" align="right" valign="top"><a id="a379dae30440bdbea56773c340dcae579" name="a379dae30440bdbea56773c340dcae579"></a>
 <a class="el" href="class_acts_1_1_surface_array_navigation_policy.html#ab8a1b2c673d4dc434684e4743526ffc9">LayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>layerType</b> = LayerType::Cylinder</td></tr>
 <tr class="memdesc:a379dae30440bdbea56773c340dcae579"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the layer. <br /></td></tr>
+<tr class="memitem:a2b222e5ca9dbed86807a6ef4ab3ef308" id="r_a2b222e5ca9dbed86807a6ef4ab3ef308"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b222e5ca9dbed86807a6ef4ab3ef308">numberOfBinsFactor</a> = 1.0</td></tr>
+<tr class="memdesc:a2b222e5ca9dbed86807a6ef4ab3ef308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplier applied to auto-determined (0) bin counts.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Config struct to configure the surface array navigation. </p>
@@ -163,7 +165,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The number of bins in the local directions. </p>
-<p>The interpretation depends on the layer type. </p>
+<p>The interpretation depends on the layer type. A value of 0 in either direction requests automatic determination from the module layout (one bin per module), scaled by <code>numberOfBinsFactor</code>. </p>
+
+</div>
+</div>
+<a id="a2b222e5ca9dbed86807a6ef4ab3ef308" name="a2b222e5ca9dbed86807a6ef4ab3ef308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b222e5ca9dbed86807a6ef4ab3ef308">&#9670;&#160;</a></span>numberOfBinsFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::SurfaceArrayNavigationPolicy::Config::numberOfBinsFactor = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplier applied to auto-determined (0) bin counts. </p>
+<p>Values below one coarsen the grid, values above one refine it. Finer grids return fewer surfaces per neighbour query, cutting navigation candidate counts. </p>
 
 </div>
 </div>

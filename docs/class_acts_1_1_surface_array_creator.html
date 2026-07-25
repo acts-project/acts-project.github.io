@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ef6f30f4fbda3df8c26827296249717" id="r_a8ef6f30f4fbda3df8c26827296249717"><td class="memItemLeft" align="right" valign="top"><a id="a8ef6f30f4fbda3df8c26827296249717" name="a8ef6f30f4fbda3df8c26827296249717"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~SurfaceArrayCreator</b> ()=default</td></tr>
 <tr class="memdesc:a8ef6f30f4fbda3df8c26827296249717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="memitem:adbc72841a26bea413811948a020189e8" id="r_adbc72841a26bea413811948a020189e8"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbc72841a26bea413811948a020189e8">determineBinCount</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;surfaces, <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> aDir) const</td></tr>
+<tr class="memdesc:adbc72841a26bea413811948a020189e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the number of bins for a binning direction from the number of distinct module positions (i.e.  <br /></td></tr>
 <tr class="memitem:ae0cea453480e51a17a32d428fed2e684" id="r_ae0cea453480e51a17a32d428fed2e684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0cea453480e51a17a32d428fed2e684">setLogger</a> (std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger)</td></tr>
 <tr class="memdesc:ae0cea453480e51a17a32d428fed2e684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set logging instance.  <br /></td></tr>
 <tr class="memitem:ab587fe97c577f7324c4b57c052a6ffad" id="r_ab587fe97c577f7324c4b57c052a6ffad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_surface_array.html">SurfaceArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab587fe97c577f7324c4b57c052a6ffad">surfaceArrayOnCylinder</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; surfaces, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypePhi=equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> bTypeZ=equidistant, std::optional&lt; <a class="el" href="struct_acts_1_1_proto_layer.html">ProtoLayer</a> &gt; protoLayerOpt=std::nullopt, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity(), std::uint8_t maxNeighborDistance=1) const</td></tr>
@@ -239,6 +241,43 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="adbc72841a26bea413811948a020189e8" name="adbc72841a26bea413811948a020189e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbc72841a26bea413811948a020189e8">&#9670;&#160;</a></span>determineBinCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Acts::SurfaceArrayCreator::determineBinCount </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a></td>          <td class="paramname"><span class="paramname"><em>aDir</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determine the number of bins for a binning direction from the number of distinct module positions (i.e. </p>
+<p>one bin per module). Public so navigation policies can size their surface-array grids relative to the module count. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>the geometry context </td></tr>
+    <tr><td class="paramname">surfaces</td><td>the surfaces to analyse </td></tr>
+    <tr><td class="paramname">aDir</td><td>the binning direction </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of distinct module positions along <code class="param">aDir</code> </dd></dl>
+
+</div>
+</div>
 <a id="aba618b0627bc266a25fa15dc79d1c80a" name="aba618b0627bc266a25fa15dc79d1c80a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba618b0627bc266a25fa15dc79d1c80a">&#9670;&#160;</a></span>isSurfaceEquivalent()</h2>
 

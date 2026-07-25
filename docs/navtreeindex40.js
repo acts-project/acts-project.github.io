@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_fatras_1_1_particle.html#a87fdb0b205ffc8180166d7d4a3343f03":[7,0,1,27,27],
+"class_acts_fatras_1_1_particle.html#a8cfb0693258e5eb957d8f4174b4a2f4e":[5,0,2,26,11],
 "class_acts_fatras_1_1_particle.html#a8cfb0693258e5eb957d8f4174b4a2f4e":[7,0,1,27,11],
 "class_acts_fatras_1_1_particle.html#a8e3dda1ed3c025c1b676661fbccec2f6":[5,0,2,26,28],
 "class_acts_fatras_1_1_particle.html#a8e3dda1ed3c025c1b676661fbccec2f6":[7,0,1,27,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "class_acts_plugins_1_1_geo_model_detector_element.html":[4,10,8,0],
 "class_acts_plugins_1_1_geo_model_detector_element.html#a0e0571165f189f565434c35009a28167":[4,10,8,0,6],
 "class_acts_plugins_1_1_geo_model_detector_element.html#a33d4c8362869ceccb10d15f73dad26f1":[4,10,8,0,4],
-"class_acts_plugins_1_1_geo_model_detector_element.html#a4193124cdec215fd1c97d1e743fe59de":[4,10,8,0,11],
-"class_acts_plugins_1_1_geo_model_detector_element.html#a5941d439c68354e81b0f8aa2d396b364":[4,10,8,0,10],
-"class_acts_plugins_1_1_geo_model_detector_element.html#a5bab63530432e189c7987277e0f0a45f":[4,10,8,0,0]
+"class_acts_plugins_1_1_geo_model_detector_element.html#a4193124cdec215fd1c97d1e743fe59de":[4,10,8,0,11]
 };

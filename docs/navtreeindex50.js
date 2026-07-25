@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_delegate_func_tag.html":[7,0,0,110],
+"struct_acts_1_1_direct_navigator_1_1_config.html":[5,0,0,108,0],
 "struct_acts_1_1_direct_navigator_1_1_config.html":[7,0,0,116,0],
 "struct_acts_1_1_direct_navigator_1_1_options.html":[5,0,0,108,1],
 "struct_acts_1_1_direct_navigator_1_1_options.html":[7,0,0,116,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_experimental_1_1_blueprint_options.html#ad21a09d857c91331a06603c9c6666fa8":[7,0,0,2,4,1],
 "struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html":[5,0,0,1,5],
 "struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html":[7,0,0,2,5],
-"struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html#ac56d4962961ba0ff82c5836da6f820de":[5,0,0,1,5,0],
-"struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html#ac56d4962961ba0ff82c5836da6f820de":[7,0,0,2,5,0],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html":[5,0,0,1,6,0]
+"struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html#ac56d4962961ba0ff82c5836da6f820de":[5,0,0,1,5,0]
 };

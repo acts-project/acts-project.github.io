@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"namespace_acts_1_1_unit_constants.html#a4c14b1784de166f9efc43c1e16c35478":[5,0,0,6,37],
+"namespace_acts_1_1_unit_constants.html#a6ea67195341851a2a06dc23e0c675e90":[5,0,0,6,2],
 "namespace_acts_1_1_unit_constants.html#a6eb9031d6079be5d73bae61449b0ec37":[5,0,0,6,30],
 "namespace_acts_1_1_unit_constants.html#a705fd87e8079f6d88222965eb977437a":[5,0,0,6,4],
 "namespace_acts_1_1_unit_constants.html#a7c3f2a3f53d19935e2967361613908ba":[5,0,0,6,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89":[7,0,0,25,1,2],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa6fc33291dfd5e7d9c02ba53c3231534":[5,0,0,17,1,1],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa6fc33291dfd5e7d9c02ba53c3231534":[7,0,0,25,1,1],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#ad458d456a61307ae722b3bba8d810288":[5,0,0,17,1,9],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#ad458d456a61307ae722b3bba8d810288":[7,0,0,25,1,9],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[5,0,0,17,1,3]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#ad458d456a61307ae722b3bba8d810288":[5,0,0,17,1,9]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[5,0,0,340,3],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[7,0,0,348,3],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[5,0,0,340,3,1],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[7,0,0,348,3,1],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[5,0,0,340,3,0],
@@ -180,6 +182,8 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_surface_array_creator_1_1_config.html#a1e083457cf04bc272ddc5d2ccced0db6":[7,0,0,372,0,1],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html":[5,0,0,365,0],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html":[7,0,0,373,0],
+"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a2b222e5ca9dbed86807a6ef4ab3ef308":[5,0,0,365,0,3],
+"struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a2b222e5ca9dbed86807a6ef4ab3ef308":[7,0,0,373,0,3],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[5,0,0,365,0,2],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a379dae30440bdbea56773c340dcae579":[7,0,0,373,0,2],
 "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html#a432b6f8195ade87a305b685fc769cf70":[5,0,0,365,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6":[5,0,0,371,1,0],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6":[7,0,0,379,1,0],
 "struct_acts_1_1_surface_reached.html":[5,0,0,374],
-"struct_acts_1_1_surface_reached.html":[7,0,0,382],
-"struct_acts_1_1_surface_reached.html#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49":[5,0,0,374,3],
-"struct_acts_1_1_surface_reached.html#a1926ba7ff0eb8dcfc6dd6cbad5eb5a49":[7,0,0,382,3],
-"struct_acts_1_1_surface_reached.html#a2e157d743eba564961eac741c2b492ee":[5,0,0,374,2],
-"struct_acts_1_1_surface_reached.html#a2e157d743eba564961eac741c2b492ee":[7,0,0,382,2]
+"struct_acts_1_1_surface_reached.html":[7,0,0,382]
 };

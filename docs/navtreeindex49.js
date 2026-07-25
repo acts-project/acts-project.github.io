@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"struct_acts_1_1_ccl_1_1_clustering_data.html#a0d08ad8f5d9d9464c572122107490541":[7,0,0,1,0,0],
+"struct_acts_1_1_ccl_1_1_clustering_data.html#a41d66a7fe1e6785d6e60460796d8426e":[7,0,0,1,0,2],
 "struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4":[7,0,0,1,0,1],
 "struct_acts_1_1_ccl_1_1_clustering_data.html#a9d05bddc22efdf8b8330874827eb02d5":[7,0,0,1,0,3],
 "struct_acts_1_1_ccl_1_1_connect1_d.html":[7,0,0,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#ac8821c8e4bde41956ab364c46792f3d8":[7,0,0,106,0,0],
 "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#ada024961481c06dc2074c9bbf1ed34d2":[5,0,0,98,0,7],
 "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html#ada024961481c06dc2074c9bbf1ed34d2":[7,0,0,106,0,7],
-"struct_acts_1_1_delegate_func_tag.html":[5,0,0,102],
-"struct_acts_1_1_delegate_func_tag.html":[7,0,0,110],
-"struct_acts_1_1_direct_navigator_1_1_config.html":[5,0,0,108,0]
+"struct_acts_1_1_delegate_func_tag.html":[5,0,0,102]
 };

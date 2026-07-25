@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#ad458d456a61307ae722b3bba8d810288":[7,0,0,25,1,9],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[5,0,0,17,1,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[7,0,0,25,1,3],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aff6b8802173a3ca7113bcd43c79e0ddd":[5,0,0,17,1,7],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aff6b8802173a3ca7113bcd43c79e0ddd":[7,0,0,25,1,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#acc5f84962c793ee1d6115798b4e58a1c":[7,0,0,67,0,12],
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#adf72f02e6f444ed4e8e59f6f65600e94":[5,0,0,59,0,5],
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#adf72f02e6f444ed4e8e59f6f65600e94":[7,0,0,67,0,5],
-"struct_acts_1_1_ccl_1_1_clustering_data.html":[7,0,0,1,0],
-"struct_acts_1_1_ccl_1_1_clustering_data.html#a0d08ad8f5d9d9464c572122107490541":[7,0,0,1,0,0],
-"struct_acts_1_1_ccl_1_1_clustering_data.html#a41d66a7fe1e6785d6e60460796d8426e":[7,0,0,1,0,2]
+"struct_acts_1_1_ccl_1_1_clustering_data.html":[7,0,0,1,0]
 };
