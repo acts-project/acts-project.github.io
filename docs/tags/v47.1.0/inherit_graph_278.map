@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_multi_axis.html" title="Common base class for all MultiAxis instances." alt="" coords="5,104,128,129"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="176,5,356,31"/>
+<area shape="poly" id="edge121_Node000000_Node000001" title=" " alt="" coords="92,93,130,65,175,40,205,28,207,33,177,44,133,70,95,97"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="176,55,356,80"/>
+<area shape="poly" id="edge122_Node000000_Node000002" title=" " alt="" coords="131,98,213,77,214,83,132,103"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="176,104,356,129"/>
+<area shape="poly" id="edge123_Node000000_Node000003" title=" " alt="" coords="142,114,176,114,176,119,142,119"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_i_multi_axis_x_d.html" title=" " alt="" coords="195,154,337,194"/>
+<area shape="poly" id="edge124_Node000000_Node000004" title=" " alt="" coords="126,131,197,151,195,157,124,136"/>
+<area shape="rect" id="Node000007" href="$class_acts_1_1_i_multi_axis_x_d.html" title="Common base class for all multi&#45;axes of a fixed, compile&#45;time dimension." alt="" coords="195,218,337,258"/>
+<area shape="poly" id="edge127_Node000000_Node000007" title=" " alt="" coords="92,137,131,171,177,204,202,215,199,220,175,208,127,175,89,141"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_multi_axis.html" title=" " alt="" coords="404,137,596,163"/>
+<area shape="poly" id="edge125_Node000004_Node000005" title=" " alt="" coords="351,163,403,157,404,163,351,168"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_multi_axis.html" title="Multi&#45;dimensional binning defined by a product of one&#45;dimensional axes." alt="" coords="410,187,590,212"/>
+<area shape="poly" id="edge126_Node000004_Node000006" title=" " alt="" coords="351,181,410,187,409,192,351,186"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Acts::Experimental::LayerBlueprintNode" name="Acts::Experimental::LayerBlueprintNode">
+<area shape="rect" id="Node000001" title="The layer node is essentially an auto&#45;sizing wrapper around a set of surfaces." alt="" coords="1032,104,1191,144"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_static_blueprint_node.html" title="The static blueprint node wraps a single already&#45;constructred TrackingVolume." alt="" coords="823,104,983,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="997,121,1032,121,1032,127,997,127"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_experimental_1_1_blueprint_node.html" title="Base class for all nodes in the blueprint tree." alt="" coords="417,5,562,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="576,29,684,44,742,55,800,71,836,85,868,102,866,106,834,90,798,76,741,61,683,49,575,34"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="408,69,571,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="585,95,823,115,822,120,584,100"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,105,163,130"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="176,108,408,92,408,98,177,114"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="408,133,571,173"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="151,130,187,136,303,146,408,150,408,156,302,152,186,141,150,135"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="584,153,687,152,798,144,822,140,823,146,799,149,688,157,584,159"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="388,197,591,237"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="604,215,700,205,750,196,798,183,839,164,874,142,876,146,841,169,800,188,751,201,701,211,605,220"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,205,163,230"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="176,215,388,215,388,220,176,220"/>
+</map>
