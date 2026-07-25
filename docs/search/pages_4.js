@@ -2,11 +2,11 @@ var searchData=
 [
   ['a_20backend_0',['How to build a backend',['../group__eventdata__tracks.html#autotoc_md25',1,'']]],
   ['a_20container_1',['In a container',['../building_acts.html#autotoc_md51',1,'']]],
-  ['a_20cpu_20profile_2',['Produce a CPU Profile',['../howto_profiling.html#autotoc_md64',1,'']]],
+  ['a_20cpu_20profile_2',['Produce a CPU Profile',['../howto_profiling.html#autotoc_md66',1,'']]],
   ['a_20geometry_20module_3',['Writing a geometry module',['../group__geometry__module__loading.html#autotoc_md7',1,'']]],
-  ['a_20graph_4',['View Profile as a Graph',['../howto_profiling.html#autotoc_md68',1,'']]],
+  ['a_20graph_4',['View Profile as a Graph',['../howto_profiling.html#autotoc_md70',1,'']]],
   ['a_20lcg_20release_20on_20cvmfs_5',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md50',1,'']]],
-  ['a_20memory_20profile_6',['Produce a Memory Profile',['../howto_profiling.html#autotoc_md65',1,'']]],
+  ['a_20memory_20profile_6',['Produce a Memory Profile',['../howto_profiling.html#autotoc_md67',1,'']]],
   ['a_20module_7',['Loading a module',['../group__geometry__module__loading.html#autotoc_md4',1,'']]],
   ['a_20nutshell_8',['Tracking in a nutshell',['../tracking.html',1,'']]],
   ['a_20physmon_20failure_9',['How do I investigate a physmon failure?',['../physmon.html#autotoc_md56',1,'']]],
@@ -18,7 +18,7 @@ var searchData=
   ['acts_15',['ACTS',['../group__eventdata__tracks.html#autotoc_md22',1,'Backends shipped with ACTS'],['../building_acts.html',1,'Building ACTS'],['../building_acts.html#building-acts',1,'Building ACTS'],['../group__errors.html#autotoc_md12',1,'Error Handling in ACTS']]],
   ['acts_20in_20downstream_20code_16',['Using ACTS in downstream code',['../building_acts.html#autotoc_md55',1,'']]],
   ['advanced_20topics_17',['Advanced Topics',['../group__logging.html#autotoc_md37',1,'']]],
-  ['alternative_20to_20recompiling_18',['Alternative to Recompiling',['../howto_profiling.html#autotoc_md63',1,'']]],
+  ['alternative_20to_20recompiling_18',['Alternative to Recompiling',['../howto_profiling.html#autotoc_md65',1,'']]],
   ['ambiguity_20resolution_19',['Ambiguity resolution',['../tracking.html#ambiguity-resolution',1,'']]],
   ['and_20forward_20linking_20',['Track state iteration and forward linking',['../group__eventdata__tracks.html#edm_track_iteration',1,'']]],
   ['and_20how_20to_20update_20the_20reference_20hashes_21',['Running the hash checks locally and how to update the reference hashes',['../group__python__bindings.html#autotoc_md48',1,'']]],
@@ -28,9 +28,9 @@ var searchData=
   ['and_20reducing_20barcodes_25',['Creating and reducing barcodes',['../group__fatras.html#autotoc_md29',1,'']]],
   ['and_20sourcelinks_26',['Helper for &lt;span class=&quot;tt&quot;&gt;Surface&lt;/span&gt;s and &lt;span class=&quot;tt&quot;&gt;SourceLink&lt;/span&gt;s',['../group__eventdata__tracks.html#podio_helper',1,'']]],
   ['and_20track_20fitting_27',['Track finding and track fitting',['../tracking.html#track-finding-and-track-fitting',1,'']]],
-  ['api_28',['API',['../versioning.html#autotoc_md91',1,'Private API'],['../versioning.html#autotoc_md90',1,'Public API'],['../versioning.html',1,'Versioning and public API']]],
+  ['api_28',['API',['../versioning.html#autotoc_md93',1,'Private API'],['../versioning.html#autotoc_md92',1,'Public API'],['../versioning.html',1,'Versioning and public API']]],
   ['applied_29',['Where the update is applied',['../group__kf__material__effects.html#autotoc_md30',1,'']]],
   ['architecture_30',['Architecture',['../group__eventdata__tracks.html#autotoc_md18',1,'']]],
   ['argument_20pattern_31',['Const Reference Argument Pattern',['../group__logging.html#autotoc_md34',1,'']]],
-  ['as_20a_20graph_32',['View Profile as a Graph',['../howto_profiling.html#autotoc_md68',1,'']]]
+  ['as_20a_20graph_32',['View Profile as a Graph',['../howto_profiling.html#autotoc_md70',1,'']]]
 ];
