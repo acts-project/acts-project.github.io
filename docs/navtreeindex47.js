@@ -1,5 +1,16 @@
 var NAVTREEINDEX47 =
 {
+"namespace_acts_1_1_unit_constants.html#a6eb9031d6079be5d73bae61449b0ec37":[5,0,0,6,30],
+"namespace_acts_1_1_unit_constants.html#a705fd87e8079f6d88222965eb977437a":[5,0,0,6,4],
+"namespace_acts_1_1_unit_constants.html#a7c3f2a3f53d19935e2967361613908ba":[5,0,0,6,6],
+"namespace_acts_1_1_unit_constants.html#a8513ec553d203a56baaeda106f18ca7e":[5,0,0,6,5],
+"namespace_acts_1_1_unit_constants.html#a943e08f35c4e46914e0cb4ae69a96507":[5,0,0,6,16],
+"namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f":[5,0,0,6,17],
+"namespace_acts_1_1_unit_constants.html#aa190d4eb78a4f8937ce8b8019ab44a9e":[5,0,0,6,0],
+"namespace_acts_1_1_unit_constants.html#aa9c5856d1aeb24b113eb4eb6907b1bab":[5,0,0,6,20],
+"namespace_acts_1_1_unit_constants.html#ab6c33b64a9000e55b65b6457a6fc0e19":[5,0,0,6,35],
+"namespace_acts_1_1_unit_constants.html#ab75dfba66fc2fad0edbc1d39714855e0":[5,0,0,6,26],
+"namespace_acts_1_1_unit_constants.html#abc4f62a83ef45919eae805f79fe6bd86":[5,0,0,6,12],
 "namespace_acts_1_1_unit_constants.html#ac07e890e8f940db339c75712dfbfea4a":[5,0,0,6,15],
 "namespace_acts_1_1_unit_constants.html#ac72f496e47d9f3eb447b8348962e49b5":[5,0,0,6,10],
 "namespace_acts_1_1_unit_constants.html#accbd210f121de58fecd9e08ba4193940":[5,0,0,6,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX47 =
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa6fc33291dfd5e7d9c02ba53c3231534":[7,0,0,25,1,1],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#ad458d456a61307ae722b3bba8d810288":[5,0,0,17,1,9],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#ad458d456a61307ae722b3bba8d810288":[7,0,0,25,1,9],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[5,0,0,17,1,3],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[7,0,0,25,1,3],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aff6b8802173a3ca7113bcd43c79e0ddd":[5,0,0,17,1,7],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aff6b8802173a3ca7113bcd43c79e0ddd":[7,0,0,25,1,7],
-"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html":[5,0,0,18,0],
-"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html":[7,0,0,26,0],
-"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a0c8a9236bf14f38a4b4e7d1db164b73f":[5,0,0,18,0,0],
-"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a0c8a9236bf14f38a4b4e7d1db164b73f":[7,0,0,26,0,0],
-"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a564069b8fcddacd9e7186aa6710a6391":[5,0,0,18,0,1],
-"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a564069b8fcddacd9e7186aa6710a6391":[7,0,0,26,0,1],
-"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html":[7,0,0,0,0],
-"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html":[7,0,0,0,1]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[5,0,0,17,1,3]
 };

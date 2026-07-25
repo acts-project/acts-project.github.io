@@ -12,6 +12,7 @@ var class_acts_1_1_any_base =
     [ "asPtr", "class_acts_1_1_any_base.html#ae424c70b8808374177f163a863370527", null ],
     [ "asPtr", "class_acts_1_1_any_base.html#a3d2e1345cc63bfc3a890d5a9cb79a613", null ],
     [ "emplace", "class_acts_1_1_any_base.html#aab78c290b604da2a29fbbe559dfb673a", null ],
+    [ "is", "class_acts_1_1_any_base.html#a3513cf5688c8accd22942680f4cfa770", null ],
     [ "operator bool", "class_acts_1_1_any_base.html#a8872fc5557d97c7b3f309a4c053c3ff2", null ],
     [ "operator*", "class_acts_1_1_any_base.html#abb036f31e4958123b888b4ecb6bb6af7", null ],
     [ "operator*", "class_acts_1_1_any_base.html#a441a0da1cf32cd9df6c3f009af1dc73a", null ],

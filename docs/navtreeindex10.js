@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[5,0,0,112,17],
 "class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[7,0,0,120,17],
 "class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[5,0,0,112,7],
 "class_acts_1_1_disc_trapezoid_bounds.html#afbef61884e60415b690021da87663366":[7,0,0,120,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#adff93b9a247b473b22b6cef868c58055":[5,0,0,1,0,1],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#adff93b9a247b473b22b6cef868c58055":[7,0,0,2,0,1],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#af4df3c512addf459b4a91dbe594753c9":[5,0,0,1,0,7],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#af4df3c512addf459b4a91dbe594753c9":[7,0,0,2,0,7],
-"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#afb0af37b896c15333f15b3493d89c26a":[5,0,0,1,0,0]
+"class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#af4df3c512addf459b4a91dbe594753c9":[7,0,0,2,0,7]
 };

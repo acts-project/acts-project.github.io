@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"class_acts_1_1_binned_surface_material_accumulator.html":[5,0,0,48],
 "class_acts_1_1_binned_surface_material_accumulator.html":[7,0,0,56],
 "class_acts_1_1_binned_surface_material_accumulator.html#a191154622845a1e8042964c959219695":[5,0,0,48,3],
 "class_acts_1_1_binned_surface_material_accumulator.html#a191154622845a1e8042964c959219695":[7,0,0,56,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_broad_triplet_seed_filter.html#ab557f537f263718696e0c4f13c8af18f":[5,0,0,57,6],
 "class_acts_1_1_broad_triplet_seed_filter.html#ab557f537f263718696e0c4f13c8af18f":[7,0,0,65,6],
 "class_acts_1_1_broad_triplet_seed_filter.html#ae43e8163017d848c24215a7a47e7dd2d":[5,0,0,57,4],
-"class_acts_1_1_broad_triplet_seed_filter.html#ae43e8163017d848c24215a7a47e7dd2d":[7,0,0,65,4],
-"class_acts_1_1_calibration_context.html":[4,1,0]
+"class_acts_1_1_broad_triplet_seed_filter.html#ae43e8163017d848c24215a7a47e7dd2d":[7,0,0,65,4]
 };

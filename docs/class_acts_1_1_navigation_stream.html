@@ -154,8 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae22baf56741e21970d6fcbab437377d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access the current candidate.  <br /></td></tr>
 <tr class="memitem:a2f9dfc94ef70a935b43ff129994b1e42" id="r_a2f9dfc94ef70a935b43ff129994b1e42"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f9dfc94ef70a935b43ff129994b1e42">currentIndex</a> () const</td></tr>
 <tr class="memdesc:a2f9dfc94ef70a935b43ff129994b1e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current Index.  <br /></td></tr>
-<tr class="memitem:adf21b44d28c09b4b744e539086a312eb" id="r_adf21b44d28c09b4b744e539086a312eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf21b44d28c09b4b744e539086a312eb">initialize</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_stream_1_1_query_point.html">NavigationStream::QueryPoint</a> &amp;queryPoint, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;cTolerance, double onSurfaceTolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>)</td></tr>
-<tr class="memdesc:adf21b44d28c09b4b744e539086a312eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the stream from a query point.  <br /></td></tr>
+<tr class="memitem:a0ee77e1815c8fd7d0c5b3846b1a90337" id="r_a0ee77e1815c8fd7d0c5b3846b1a90337"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee77e1815c8fd7d0c5b3846b1a90337">initialize</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_stream_1_1_query_point.html">NavigationStream::QueryPoint</a> &amp;queryPoint, const <a class="el" href="class_acts_1_1_boundary_tolerance.html">BoundaryTolerance</a> &amp;cTolerance, double onSurfaceTolerance=<a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a>, bool candidatesAreUnique=false)</td></tr>
+<tr class="memdesc:a0ee77e1815c8fd7d0c5b3846b1a90337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the stream from a query point.  <br /></td></tr>
 <tr class="memitem:a840cf9dd85d3cafca416d9b1dc681f92" id="r_a840cf9dd85d3cafca416d9b1dc681f92"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840cf9dd85d3cafca416d9b1dc681f92">remainingCandidates</a> () const</td></tr>
 <tr class="memdesc:a840cf9dd85d3cafca416d9b1dc681f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of active candidates.  <br /></td></tr>
 <tr class="memitem:a011622727d421e20f23f6f4dae517111" id="r_a011622727d421e20f23f6f4dae517111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011622727d421e20f23f6f4dae517111">reset</a> ()</td></tr>
@@ -355,8 +355,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adf21b44d28c09b4b744e539086a312eb" name="adf21b44d28c09b4b744e539086a312eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf21b44d28c09b4b744e539086a312eb">&#9670;&#160;</a></span>initialize()</h2>
+<a id="a0ee77e1815c8fd7d0c5b3846b1a90337" name="a0ee77e1815c8fd7d0c5b3846b1a90337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee77e1815c8fd7d0c5b3846b1a90337">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +379,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>onSurfaceTolerance</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></span>&#160;)</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>onSurfaceTolerance</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a062150b6d58b9acb88af2feaf8d3aa2b">s_onSurfaceTolerance</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>candidatesAreUnique</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -390,7 +395,8 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">gctx</td><td>is the geometry context </td></tr>
     <tr><td class="paramname">queryPoint</td><td>holds current position, direction, etc. </td></tr>
     <tr><td class="paramname">cTolerance</td><td>is the candidate search tolerance </td></tr>
-    <tr><td class="paramname">onSurfaceTolerance</td><td>is the tolerance for on-surface intersections</td></tr>
+    <tr><td class="paramname">onSurfaceTolerance</td><td>is the tolerance for on-surface intersections </td></tr>
+    <tr><td class="paramname">candidatesAreUnique</td><td>the caller guarantees that no surface was added more than once, so the pre-intersection de-duplication pass can be skipped. Candidates that intersect the same surface twice (multi-intersections) are still handled correctly.</td></tr>
   </table>
   </dd>
 </dl>

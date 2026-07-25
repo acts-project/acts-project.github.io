@@ -1,5 +1,16 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[7,0,0,163,1,6],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html":[5,0,0,2,0],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html":[7,0,0,5,0],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[5,0,0,2,0,2],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[7,0,0,5,0,2],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[5,0,0,2,0,3],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a5522b2c551f0efb95d8d01aaa961f1ad":[7,0,0,5,0,3],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a575e52bc6e3c9537fd0895ce5dc385e7":[5,0,0,2,0,4],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#a575e52bc6e3c9537fd0895ce5dc385e7":[7,0,0,5,0,4],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#ac902e612b892822f53ad3cea0612a90e":[5,0,0,2,0,0],
+"struct_acts_1_1_grid_axis_generators_1_1_eq.html#ac902e612b892822f53ad3cea0612a90e":[7,0,0,5,0,0],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#af5508520381deec872dcbd773f275653":[5,0,0,2,0,1],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#af5508520381deec872dcbd773f275653":[7,0,0,5,0,1],
 "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html":[5,0,0,2,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#add6f5a621211d1cae84598aaa06ebb7f":[5,0,0,171,0,9],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#add6f5a621211d1cae84598aaa06ebb7f":[7,0,0,179,0,9],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[5,0,0,171,0,11],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[7,0,0,179,0,11],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[5,0,0,172,0],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[7,0,0,180,0],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#a4036f46b16d9ef67ac3dd91e5502cde2":[5,0,0,172,0,2],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#a4036f46b16d9ef67ac3dd91e5502cde2":[7,0,0,180,0,2],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#aa6ba2022314184cae81393752c0a9e66":[5,0,0,172,0,0],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#aa6ba2022314184cae81393752c0a9e66":[7,0,0,180,0,0],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#adac5adc852b18bb827e2a8107b215cb1":[5,0,0,172,0,1],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#adac5adc852b18bb827e2a8107b215cb1":[7,0,0,180,0,1],
-"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html":[5,0,0,172,1],
-"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html":[7,0,0,180,1],
-"struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html#a54473972830119f68b6fd9c8dcd05b9d":[5,0,0,172,1,0]
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[7,0,0,179,0,11]
 };

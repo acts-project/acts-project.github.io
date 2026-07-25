@@ -26,6 +26,7 @@ var hierarchy =
     [ "Acts::AnyBaseAll", "class_acts_1_1_any_base_all.html", [
       [ "Acts::AnyBase< ACTS_SOURCELINK_SBO_SIZE >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< sizeof(char) *512 >", "class_acts_1_1_any_base.html", null ],
+      [ "Acts::AnyBase< kNavigationPolicyStateSbo >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< sizeof(void *), true >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< sizeof(void *), false >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< SbSize, true, Base >", "class_acts_1_1_any_base.html", null ],

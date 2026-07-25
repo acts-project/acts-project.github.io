@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"class_acts_1_1_diamond_volume_bounds.html#aaeee25bf34235c2f20440e2bee0b4c96":[5,0,0,105,9],
 "class_acts_1_1_diamond_volume_bounds.html#aaeee25bf34235c2f20440e2bee0b4c96":[7,0,0,113,9],
 "class_acts_1_1_diamond_volume_bounds.html#ab10a7a69cd5101d7d023099982e24c63":[5,0,0,105,15],
 "class_acts_1_1_diamond_volume_bounds.html#ab10a7a69cd5101d7d023099982e24c63":[7,0,0,113,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_disc_trapezoid_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[5,0,0,112,14],
 "class_acts_1_1_disc_trapezoid_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[7,0,0,120,14],
 "class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[5,0,0,112,13],
-"class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[7,0,0,120,13],
-"class_acts_1_1_disc_trapezoid_bounds.html#af519591ea8d47c1feb0093fa7819e562":[5,0,0,112,17]
+"class_acts_1_1_disc_trapezoid_bounds.html#aeec5270ae0bcb9db94a0a9423d641629":[7,0,0,120,13]
 };

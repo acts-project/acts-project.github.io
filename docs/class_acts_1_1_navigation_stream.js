@@ -9,7 +9,7 @@ var class_acts_1_1_navigation_stream =
     [ "currentCandidate", "class_acts_1_1_navigation_stream.html#a327329a3f49aa1b6650e828ffc5ec242", null ],
     [ "currentCandidate", "class_acts_1_1_navigation_stream.html#ae22baf56741e21970d6fcbab437377d1", null ],
     [ "currentIndex", "class_acts_1_1_navigation_stream.html#a2f9dfc94ef70a935b43ff129994b1e42", null ],
-    [ "initialize", "class_acts_1_1_navigation_stream.html#adf21b44d28c09b4b744e539086a312eb", null ],
+    [ "initialize", "class_acts_1_1_navigation_stream.html#a0ee77e1815c8fd7d0c5b3846b1a90337", null ],
     [ "remainingCandidates", "class_acts_1_1_navigation_stream.html#a840cf9dd85d3cafca416d9b1dc681f92", null ],
     [ "reset", "class_acts_1_1_navigation_stream.html#a011622727d421e20f23f6f4dae517111", null ],
     [ "switchToNextCandidate", "class_acts_1_1_navigation_stream.html#ae345c77277c4b2509fbdc1c4ded529c0", null ],

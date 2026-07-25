@@ -1,5 +1,14 @@
 var NAVTREEINDEX29 =
 {
+"class_acts_1_1_score_based_ambiguity_resolution.html#a3cf494ffeb83babcebe071b25d0b664d":[7,0,0,348,10],
+"class_acts_1_1_score_based_ambiguity_resolution.html#a781ce22798996f5304cda23b1970b2c3":[5,0,0,340,7],
+"class_acts_1_1_score_based_ambiguity_resolution.html#a781ce22798996f5304cda23b1970b2c3":[7,0,0,348,7],
+"class_acts_1_1_score_based_ambiguity_resolution.html#a7a13a07836687452bfc87c9d19ce6c24":[5,0,0,340,8],
+"class_acts_1_1_score_based_ambiguity_resolution.html#a7a13a07836687452bfc87c9d19ce6c24":[7,0,0,348,8],
+"class_acts_1_1_score_based_ambiguity_resolution.html#a83ea07574ca0ed06ab44242cae0ac42d":[5,0,0,340,6],
+"class_acts_1_1_score_based_ambiguity_resolution.html#a83ea07574ca0ed06ab44242cae0ac42d":[7,0,0,348,6],
+"class_acts_1_1_score_based_ambiguity_resolution.html#aa705464b675fc285a2ceb1dc75e481a7":[5,0,0,340,11],
+"class_acts_1_1_score_based_ambiguity_resolution.html#aa705464b675fc285a2ceb1dc75e481a7":[7,0,0,348,11],
 "class_acts_1_1_score_based_ambiguity_resolution.html#ab87f7b237f0c70ac5c944880b0ab8a7f":[5,0,0,340,4],
 "class_acts_1_1_score_based_ambiguity_resolution.html#ab87f7b237f0c70ac5c944880b0ab8a7f":[7,0,0,348,4],
 "class_acts_1_1_score_based_ambiguity_resolution.html#ad1a269f3602ad70790bf2d143484d2fd":[5,0,0,340,9],
@@ -240,14 +249,5 @@ var NAVTREEINDEX29 =
 "class_acts_1_1_single_trapezoid_portal_shell.html#a5808fb256dcdb757f8999477b3644131":[7,0,0,355,4],
 "class_acts_1_1_single_trapezoid_portal_shell.html#a5af2f99b4834d11bf4e484fdf8919b03":[5,0,0,347,2],
 "class_acts_1_1_single_trapezoid_portal_shell.html#a5af2f99b4834d11bf4e484fdf8919b03":[7,0,0,355,2],
-"class_acts_1_1_single_trapezoid_portal_shell.html#a848bed244ea2506138b7cbd463da0ddc":[5,0,0,347,3],
-"class_acts_1_1_single_trapezoid_portal_shell.html#a848bed244ea2506138b7cbd463da0ddc":[7,0,0,355,3],
-"class_acts_1_1_single_trapezoid_portal_shell.html#a98a9ea43768cddc42a74bed2b532952a":[5,0,0,347,1],
-"class_acts_1_1_single_trapezoid_portal_shell.html#a98a9ea43768cddc42a74bed2b532952a":[7,0,0,355,1],
-"class_acts_1_1_single_trapezoid_portal_shell.html#ab25c783f2dab3b176bc059197f462c81":[5,0,0,347,0],
-"class_acts_1_1_single_trapezoid_portal_shell.html#ab25c783f2dab3b176bc059197f462c81":[7,0,0,355,0],
-"class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d":[5,0,0,347,5],
-"class_acts_1_1_single_trapezoid_portal_shell.html#afd263d9466ae6ac6db248145d06b4d2d":[7,0,0,355,5],
-"class_acts_1_1_solenoid_b_field.html":[4,3,1,7],
-"class_acts_1_1_solenoid_b_field.html":[4,11,0,7]
+"class_acts_1_1_single_trapezoid_portal_shell.html#a848bed244ea2506138b7cbd463da0ddc":[5,0,0,347,3]
 };

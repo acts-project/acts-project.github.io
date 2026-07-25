@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"class_acts_1_1_experimental_1_1_try_all_navigator.html#a382eb19e6ecb6af6b482a1e704ec58c4":[7,0,0,2,56,10],
 "class_acts_1_1_experimental_1_1_try_all_navigator.html#a529378d8743decac6f8dede649037ae3":[5,0,0,1,56,9],
 "class_acts_1_1_experimental_1_1_try_all_navigator.html#a529378d8743decac6f8dede649037ae3":[7,0,0,2,56,9],
 "class_acts_1_1_experimental_1_1_try_all_navigator.html#a5c0aa5d868023840ae661a63e03f3202":[5,0,0,1,56,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "class_acts_1_1_gain_matrix_smoother.html#a23174d3f3869acea4f59ab5a0451f592":[4,13,9,0],
 "class_acts_1_1_gain_matrix_smoother.html#aa38eea482f694d4d3bc9057c1e94a25e":[4,13,9,1],
 "class_acts_1_1_gain_matrix_smoother.html#acf39dffc609a36adfd027d51c0b56295":[4,13,9,3],
-"class_acts_1_1_gain_matrix_smoother.html#ad27ff8963ddf26a17c8ba0171dbae904":[4,13,9,2],
-"class_acts_1_1_gain_matrix_smoother.html#afeb152cbcdecd1d1f69a2167ebe45625":[4,13,9,4]
+"class_acts_1_1_gain_matrix_smoother.html#ad27ff8963ddf26a17c8ba0171dbae904":[4,13,9,2]
 };

@@ -5,7 +5,6 @@ var class_acts_1_1_navigator =
     [ "State", "struct_acts_1_1_navigator_1_1_state.html", "struct_acts_1_1_navigator_1_1_state" ],
     [ "GeometryVersion", "class_acts_1_1_navigator.html#ab6f463f4b8269bf10128034f5a010bbe", null ],
     [ "NavigationBoundaries", "class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8", null ],
-    [ "NavigationCandidates", "class_acts_1_1_navigator.html#a281b1c2d169dce40f0516056dcc55341", null ],
     [ "NavigationLayers", "class_acts_1_1_navigator.html#a492eb943ad2c06526442465303caa698", null ],
     [ "NavigationSurfaces", "class_acts_1_1_navigator.html#a67daeae75247dabc70dd251c58b56980", null ],
     [ "Stage", "class_acts_1_1_navigator.html#a8a106d56dde081234cafe55bb2fb9082", null ],

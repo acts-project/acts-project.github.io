@@ -1,5 +1,16 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa1dd9edb9a128709060feb1cad6f3d8b":[4,3,2,23,1,4],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa1dd9edb9a128709060feb1cad6f3d8b":[4,13,19,1,4],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[4,3,2,23,1,3],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#aa5f4e93ea74dc849b0d5d5ff7df00e0c":[4,13,19,1,3],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[4,3,2,23,1,2],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ab25cc52eb3038ffc855403a2a0eebb32":[4,13,19,1,2],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[4,3,2,23,1,1],
+"struct_acts_1_1_polynomial_bethe_heitler_approx_1_1_range_data.html#ae2ed09a3f6ade9ffadd6a1bb25a41968":[4,13,19,1,1],
+"struct_acts_1_1_portal_1_1_arguments.html":[5,0,0,309,0],
+"struct_acts_1_1_portal_1_1_arguments.html":[7,0,0,317,0],
+"struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[5,0,0,309,0,1],
 "struct_acts_1_1_portal_1_1_arguments.html#aa04b796cf01594bb2c19a525dace5706":[7,0,0,317,0,1],
 "struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[5,0,0,309,0,2],
 "struct_acts_1_1_portal_1_1_arguments.html#aee2980b63577ef90a886ee838ea32189":[7,0,0,317,0,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[5,0,0,340,2,0],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9":[7,0,0,348,2,0],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[5,0,0,340,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[7,0,0,348,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[5,0,0,340,3,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a14ac076062253ee6a1a34ee6535b6f58":[7,0,0,348,3,1],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[5,0,0,340,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#a5ac921b1634061348b2f04cb3f23c7b5":[7,0,0,348,3,0],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[5,0,0,340,3,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#adc71d3da98320a71c8b357d1a1f4b32f":[7,0,0,348,3,2],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[5,0,0,340,3,3],
-"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html#aeb12bdbdb651913506facb108d5205f3":[7,0,0,348,3,3],
-"struct_acts_1_1_seed_confirmation_range_config.html":[5,0,0,341],
-"struct_acts_1_1_seed_confirmation_range_config.html":[7,0,0,349],
-"struct_acts_1_1_seed_confirmation_range_config.html#a0064124da924fe28661efd634dea7aec":[5,0,0,341,4]
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_track_features.html":[7,0,0,348,3]
 };

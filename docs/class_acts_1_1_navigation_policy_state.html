@@ -139,12 +139,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8554a7ed6bd1ee37b2bfb70e58741d6" id="r_ac8554a7ed6bd1ee37b2bfb70e58741d6"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ac8554a7ed6bd1ee37b2bfb70e58741d6 template"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8554a7ed6bd1ee37b2bfb70e58741d6">as</a> () const</td></tr>
 <tr class="memdesc:ac8554a7ed6bd1ee37b2bfb70e58741d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast the state to a specific type (const version).  <br /></td></tr>
+<tr class="memitem:a433a6d950bb69a8389c91e88b0b5adf1" id="r_a433a6d950bb69a8389c91e88b0b5adf1"><td class="memItemLeft" align="right" valign="top">NavigationPolicyState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a433a6d950bb69a8389c91e88b0b5adf1">atIndex</a> (std::size_t <a class="el" href="#aa2b4875d40adafb32d43b5e3d3c4d844">index</a>) const</td></tr>
+<tr class="memdesc:a433a6d950bb69a8389c91e88b0b5adf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access another state managed by the same manager, by absolute stack index.  <br /></td></tr>
 <tr class="memitem:afdbd0e664d015ed45bbc4d75fd61c154" id="r_afdbd0e664d015ed45bbc4d75fd61c154"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdbd0e664d015ed45bbc4d75fd61c154">empty</a> () const</td></tr>
 <tr class="memdesc:afdbd0e664d015ed45bbc4d75fd61c154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the state is empty (not associated with a manager).  <br /></td></tr>
+<tr class="memitem:aa2b4875d40adafb32d43b5e3d3c4d844" id="r_aa2b4875d40adafb32d43b5e3d3c4d844"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b4875d40adafb32d43b5e3d3c4d844">index</a> () const</td></tr>
+<tr class="memdesc:aa2b4875d40adafb32d43b5e3d3c4d844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute index of this state within its manager's state stack.  <br /></td></tr>
+<tr class="memitem:a2110d09d0a4d9cfd608c91e2d0c08a35" id="r_a2110d09d0a4d9cfd608c91e2d0c08a35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2110d09d0a4d9cfd608c91e2d0c08a35">isDefault</a> () const</td></tr>
+<tr class="memdesc:a2110d09d0a4d9cfd608c91e2d0c08a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this state is the default sentinel, i.e.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wrapper class for a navigation policy state stored in the state manager. </p>
-<p>This class provides type-safe access to the underlying state through the <span class="tt">as&lt;T&gt;()</span> method. The state is stored as a type-erased std::any in the NavigationPolicyStateManager. </p>
+<p>This class provides type-safe access to the underlying state through the <span class="tt">as&lt;T&gt;()</span> method. The state is stored as a type-erased, small-buffer optimized value (<a class="el" href="namespace_acts.html#adeea91fe5a879add17730140369683b5">NavigationPolicyStateStorage</a>) in the NavigationPolicyStateManager. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="af75e2e141c69fecef173ecc7d44fa8d6" name="af75e2e141c69fecef173ecc7d44fa8d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af75e2e141c69fecef173ecc7d44fa8d6">&#9670;&#160;</a></span>as() <span class="overload">[1/2]</span></h2>
@@ -202,6 +208,32 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a433a6d950bb69a8389c91e88b0b5adf1" name="a433a6d950bb69a8389c91e88b0b5adf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433a6d950bb69a8389c91e88b0b5adf1">&#9670;&#160;</a></span>atIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavigationPolicyState Acts::NavigationPolicyState::atIndex </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access another state managed by the same manager, by absolute stack index. </p>
+<p>Composite policies use this to reach their child states, which are pushed contiguously onto the stack directly below the composite's own state. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>absolute stack index of the state to access </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wrapper for the state at <code class="param">index</code> in the same manager </dd></dl>
+
+</div>
+</div>
 <a id="afdbd0e664d015ed45bbc4d75fd61c154" name="afdbd0e664d015ed45bbc4d75fd61c154"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afdbd0e664d015ed45bbc4d75fd61c154">&#9670;&#160;</a></span>empty()</h2>
 
@@ -219,6 +251,47 @@ template&lt;typename T&gt; </div>
 
 <p>Check if the state is empty (not associated with a manager). </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the state is empty, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="aa2b4875d40adafb32d43b5e3d3c4d844" name="aa2b4875d40adafb32d43b5e3d3c4d844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b4875d40adafb32d43b5e3d3c4d844">&#9670;&#160;</a></span>index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Acts::NavigationPolicyState::index </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Absolute index of this state within its manager's state stack. </p>
+<dl class="section return"><dt>Returns</dt><dd>the stack index </dd></dl>
+
+</div>
+</div>
+<a id="a2110d09d0a4d9cfd608c91e2d0c08a35" name="a2110d09d0a4d9cfd608c91e2d0c08a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2110d09d0a4d9cfd608c91e2d0c08a35">&#9670;&#160;</a></span>isDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::NavigationPolicyState::isDefault </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether this state is the default sentinel, i.e. </p>
+<p>either no state at all or the <code>INavigationPolicy::EmptyState</code> pushed by policies that do not override createState(). Such policies also use the default (always-true) isValid(), so the navigator treats a default state as "no validity
+constraint" and skips the per-step isValid() call. A policy with a meaningful isValid() necessarily pushes a real state to check against, so this signal cannot be forgotten. </p><dl class="section return"><dt>Returns</dt><dd>True if this is the default/empty state </dd></dl>
 
 </div>
 </div>

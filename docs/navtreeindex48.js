@@ -1,5 +1,16 @@
 var NAVTREEINDEX48 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd":[7,0,0,25,1,3],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aff6b8802173a3ca7113bcd43c79e0ddd":[5,0,0,17,1,7],
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aff6b8802173a3ca7113bcd43c79e0ddd":[7,0,0,25,1,7],
+"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html":[5,0,0,18,0],
+"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html":[7,0,0,26,0],
+"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a0c8a9236bf14f38a4b4e7d1db164b73f":[5,0,0,18,0,0],
+"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a0c8a9236bf14f38a4b4e7d1db164b73f":[7,0,0,26,0,0],
+"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a564069b8fcddacd9e7186aa6710a6391":[5,0,0,18,0,1],
+"struct_acts_1_1_ambiguity_resolution_m_l_1_1_config.html#a564069b8fcddacd9e7186aa6710a6391":[7,0,0,26,0,1],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits.html":[7,0,0,0,0],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html":[7,0,0,0,1],
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#a91aa4023693927c606e2e32d9db6fb02":[7,0,0,0,1,3],
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#aa68ca334da4d21acb793476d0eacd899":[7,0,0,0,1,1],
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#aad8518725b7dc151fa3b8b4e868e8d3b":[7,0,0,0,1,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX48 =
 "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html#adf72f02e6f444ed4e8e59f6f65600e94":[7,0,0,67,0,5],
 "struct_acts_1_1_ccl_1_1_clustering_data.html":[7,0,0,1,0],
 "struct_acts_1_1_ccl_1_1_clustering_data.html#a0d08ad8f5d9d9464c572122107490541":[7,0,0,1,0,0],
-"struct_acts_1_1_ccl_1_1_clustering_data.html#a41d66a7fe1e6785d6e60460796d8426e":[7,0,0,1,0,2],
-"struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4":[7,0,0,1,0,1],
-"struct_acts_1_1_ccl_1_1_clustering_data.html#a9d05bddc22efdf8b8330874827eb02d5":[7,0,0,1,0,3],
-"struct_acts_1_1_ccl_1_1_connect1_d.html":[7,0,0,1,1],
-"struct_acts_1_1_ccl_1_1_connect1_d.html#a5c1dba3bf1e07195299ff9223b1d7d6c":[7,0,0,1,1,0],
-"struct_acts_1_1_ccl_1_1_connect2_d.html":[7,0,0,1,2],
-"struct_acts_1_1_ccl_1_1_connect2_d.html#a0fa68f8740e0c9603730e93e5dfd0b01":[7,0,0,1,2,0],
-"struct_acts_1_1_ccl_1_1_connect2_d.html#a350b35367e6bbc9b7309a2f48c227188":[7,0,0,1,2,2],
-"struct_acts_1_1_ccl_1_1_connect2_d.html#a450291a0ab0e50578a97b224ba488cf2":[7,0,0,1,2,1],
-"struct_acts_1_1_ccl_1_1_default_connect.html":[7,0,0,1,3],
-"struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_011_01_4.html":[7,0,0,1,4],
-"struct_acts_1_1_ccl_1_1_default_connect_3_01_cell_00_012_01_4.html":[7,0,0,1,5]
+"struct_acts_1_1_ccl_1_1_clustering_data.html#a41d66a7fe1e6785d6e60460796d8426e":[7,0,0,1,0,2]
 };

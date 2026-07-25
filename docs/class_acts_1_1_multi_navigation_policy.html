@@ -144,7 +144,7 @@ Collaboration diagram for Acts::MultiNavigationPolicy:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_multi_navigation_policy_1_1_state.html">State</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State structure for MultiNavigationPolicy Holds the states for all contained child policies.  <a href="struct_acts_1_1_multi_navigation_policy_1_1_state.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marker state for MultiNavigationPolicy.  <a href="struct_acts_1_1_multi_navigation_policy_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -169,6 +169,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a5cc5d6ccf2d634e70160e6da727a77 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_a4a5cc5d6ccf2d634e70160e6da727a77"><td class="memItemLeft" align="right" valign="top">
 virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~INavigationPolicy</b> ()=default</td></tr>
 <tr class="memdesc:a4a5cc5d6ccf2d634e70160e6da727a77 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor so policies can be held through this base class. <br /></td></tr>
+<tr class="memitem:aa3486f5cb25f2c8ad71bac9303ab54c5 inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_aa3486f5cb25f2c8ad71bac9303ab54c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#aa3486f5cb25f2c8ad71bac9303ab54c5">initializeStatelessCache</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
+<tr class="memdesc:aa3486f5cb25f2c8ad71bac9303ab54c5 inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">One-time initialization step that probes whether this policy pushes only default (empty) states and caches the result (mutating internal state), allowing the navigator to skip the per-volume-entry state creation and the matching pop entirely for volumes with such policies.  <br /></td></tr>
+<tr class="memitem:a7516b408f982ea6a1412fc79b026495b inherit pub_methods_class_acts_1_1_i_navigation_policy" id="r_a7516b408f982ea6a1412fc79b026495b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_navigation_policy.html#a7516b408f982ea6a1412fc79b026495b">isStateless</a> () const</td></tr>
+<tr class="memdesc:a7516b408f982ea6a1412fc79b026495b inherit pub_methods_class_acts_1_1_i_navigation_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this policy is known to push only default (empty) states, see <a class="el" href="class_acts_1_1_i_navigation_policy.html#aa3486f5cb25f2c8ad71bac9303ab54c5">initializeStatelessCache</a>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

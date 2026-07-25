@@ -133,7 +133,7 @@ $(function(){initNavTree('class_acts_1_1_any_base.html','','class_acts_1_1_any_b
 <div class="dynheader">
 Inheritance diagram for Acts::AnyBase&lt; SbSize, Copyable, Base &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_any_base__inherit__graph.svg" width="100%" height="583"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_any_base__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Acts::AnyBase&lt; SbSize, Copyable, Base &gt;:</div>
@@ -182,6 +182,9 @@ requires (!std::is_void_v&lt;B&gt;)</td></tr>
 requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</td></tr>
 <tr class="memitem:aab78c290b604da2a29fbbe559dfb673a template"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab78c290b604da2a29fbbe559dfb673a">emplace</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="memdesc:aab78c290b604da2a29fbbe559dfb673a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new value in place, destroying any existing value.  <br /></td></tr>
+<tr class="memitem:a3513cf5688c8accd22942680f4cfa770" id="r_a3513cf5688c8accd22942680f4cfa770"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a3513cf5688c8accd22942680f4cfa770 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3513cf5688c8accd22942680f4cfa770">is</a> () const</td></tr>
+<tr class="memdesc:a3513cf5688c8accd22942680f4cfa770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the stored value is exactly of type <code class="param">T</code>.  <br /></td></tr>
 <tr class="memitem:a8872fc5557d97c7b3f309a4c053c3ff2" id="r_a8872fc5557d97c7b3f309a4c053c3ff2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8872fc5557d97c7b3f309a4c053c3ff2">operator bool</a> () const</td></tr>
 <tr class="memdesc:a8872fc5557d97c7b3f309a4c053c3ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the AnyBase contains a value.  <br /></td></tr>
 <tr class="memitem:abb036f31e4958123b888b4ecb6bb6af7" id="r_abb036f31e4958123b888b4ecb6bb6af7"><td class="memTemplParams" colspan="2">template&lt;typename B = Base&gt; <br />
@@ -618,6 +621,36 @@ requires (isStorable&lt;std::decay_t&lt;T&gt;&gt;())</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the newly constructed value </dd></dl>
+
+</div>
+</div>
+<a id="a3513cf5688c8accd22942680f4cfa770" name="a3513cf5688c8accd22942680f4cfa770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3513cf5688c8accd22942680f4cfa770">&#9670;&#160;</a></span>is()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t SbSize, bool Copyable = true, typename Base = void&gt; </div>
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_acts_1_1_any_base.html">Acts::AnyBase</a>&lt; SbSize, Copyable, Base &gt;::is </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check whether the stored value is exactly of type <code class="param">T</code>. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type to test for (raw type, no const/ref) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if a value of type T is stored, false otherwise (incl. empty) </dd></dl>
 
 </div>
 </div>

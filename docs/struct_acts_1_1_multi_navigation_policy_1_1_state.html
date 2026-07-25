@@ -96,7 +96,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('struct_acts_1_1_multi_navigation_policy_1_1_state.html','','struct_acts_1_1_multi_navigation_policy_1_1_state-members'); });
+$(function(){initNavTree('struct_acts_1_1_multi_navigation_policy_1_1_state.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -126,24 +126,13 @@ $(function(){initNavTree('struct_acts_1_1_multi_navigation_policy_1_1_state.html
 </div><!--header-->
 <div class="contents">
 
-<p>State structure for MultiNavigationPolicy Holds the states for all contained child policies.  
+<p>Marker state for MultiNavigationPolicy.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_multi_navigation_policy_8hpp_source.html">Acts/Navigation/MultiNavigationPolicy.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for Acts::MultiNavigationPolicy::State:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_multi_navigation_policy_1_1_state__coll__graph.svg" width="282" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a7c2070054520ce85fcb089a9a4968850" id="r_a7c2070054520ce85fcb089a9a4968850"><td class="memItemLeft" align="right" valign="top"><a id="a7c2070054520ce85fcb089a9a4968850" name="a7c2070054520ce85fcb089a9a4968850"></a>
-std::vector&lt; <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>policyStates</b></td></tr>
-<tr class="memdesc:a7c2070054520ce85fcb089a9a4968850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of navigation policy states, one for each child policy. <br /></td></tr>
-</table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>State structure for MultiNavigationPolicy Holds the states for all contained child policies. </p>
+<div class="textblock"><p>Marker state for MultiNavigationPolicy. </p>
+<p>Carries no data: the child policy states live contiguously on the manager stack directly below this one and are addressed by count (which always equals the number of contained policies). This marker is pushed instead of the default <code>EmptyState</code> only when at least one child has a real state, so that the navigator knows isValid() must be consulted for this volume. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
