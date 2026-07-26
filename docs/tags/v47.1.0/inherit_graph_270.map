@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_i_grid_material_accessor.html" title="Base class for material accessors, this is needed for the I/O of the different grid material types,..." alt="" coords="5,70,207,95"/>
-<area shape="rect" id="Node000001" href="$struct_acts_1_1_globally_indexed_material_accessor.html" title="This is an accessor for cases where the material is filled in a global material vector that is access..." alt="" coords="257,5,474,45"/>
-<area shape="poly" id="edge112_Node000000_Node000001" title=" " alt="" coords="177,64,274,43,275,48,178,70"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_grid_material_accessor.html" title="This is an accessor for cases where the material is directly stored in the grid, it simply forwards t..." alt="" coords="267,70,464,95"/>
-<area shape="poly" id="edge113_Node000000_Node000002" title=" " alt="" coords="220,80,267,80,267,85,220,85"/>
-<area shape="rect" id="Node000003" href="$struct_acts_1_1_indexed_material_accessor.html" title="This is an accessor for cases where the material is filled in a vector and then indexed by the grid." alt="" coords="255,119,476,145"/>
-<area shape="poly" id="edge114_Node000000_Node000003" title=" " alt="" coords="187,95,298,117,297,122,186,101"/>
-</map>
