@@ -368,8 +368,8 @@ $(function(){initNavTree('_logger_8hpp_source.html','',''); });
 <div class="foldopen" id="foldopen00464" data-start="{" data-end="}">
 <div class="line"><a id="l00464" name="l00464"></a><span class="lineno"><a class="line" href="class_acts_1_1_logging_1_1_named_output_decorator.html#abe31d06818010445c517b533c98b1c71">  464</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_acts_1_1_logging_1_1_named_output_decorator.html#abe31d06818010445c517b533c98b1c71">flush</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="group__logging.html#ga9b12dd924a4bd3aed921a33779ece95b">Level</a>&amp; lvl, <span class="keyword">const</span> std::string&amp; input)<span class="keyword"> override </span>{</div>
 <div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span>    std::ostringstream os;</div>
-<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>    os &lt;&lt; std::left &lt;&lt; std::setw(m_maxWidth) &lt;&lt; m_name.substr(0, m_maxWidth - 3)</div>
-<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>       &lt;&lt; input;</div>
+<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>    os &lt;&lt; std::left &lt;&lt; std::setw(static_cast&lt;int&gt;(m_maxWidth))</div>
+<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>       &lt;&lt; m_name.substr(0, m_maxWidth - 3) &lt;&lt; input;</div>
 <div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span>    <a class="code hl_function" href="class_acts_1_1_logging_1_1_output_decorator.html#a822bea65d6955d359bcc49d202ea669b">OutputDecorator::flush</a>(lvl, os.str());</div>
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>  }</div>
 </div>
