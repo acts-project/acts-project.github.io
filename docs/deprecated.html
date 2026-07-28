@@ -128,6 +128,8 @@ $(function(){initNavTree('deprecated.html','',''); });
 <div class="textblock"><dl class="reflist">
 <dt>Member <a class="el" href="group__track__fitting.html#gad544f26b5ac50759cc4a231bb0b73420">Acts::AtlasBetheHeitlerApprox</a>  </dt>
 <dd><a class="anchor" id="_deprecated000017"></a>Use PolynomialBetheHeitlerApprox instead  </dd>
+<dt>Member <a class="el" href="namespace_acts.html#afded89f5410ca396ea21fee04cf8d1e2">Acts::calculateUnbiasedParametersCovariance</a>  (track_state_proxy_t trackState)</dt>
+<dd><a class="anchor" id="_deprecated000018"></a>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library:  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4">Acts::ISurfaceMaterial::materialSlab</a>  (const Vector3 &amp;gp) const =0</dt>
 <dd><a class="anchor" id="_deprecated000014"></a>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ISurfaceMaterial::materialSlab</a>  (const Vector3 &amp;gp, Direction pDir, MaterialUpdateMode mode) const</dt>
@@ -135,7 +137,7 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Member <a class="el" href="class_acts_1_1_navigation_policy_factory.html#a36a805e63a0affe0460360d3dcbfe56d">Acts::NavigationPolicyFactory::add</a>  (Fn &amp;&amp;fn, Args &amp;&amp;... args) &amp;&amp;</dt>
 <dd><a class="anchor" id="_deprecated000010"></a>Return a <span class="tt">std::unique_ptr&lt;INavigationPolicy&gt;</span> from the factory function instead. This also lets the function select the concrete policy type at runtime.  </dd>
 <dt>Member <a class="el" href="class_acts_fatras_1_1_barcode.html#afb4bae340b4fe67e8a3f9787bb8bfa0c">ActsFatras::Barcode::asVector</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000018"></a>Use asArray() instead to avoid a heap allocation. </dd>
+<dd><a class="anchor" id="_deprecated000019"></a>Use asArray() instead to avoid a heap allocation. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

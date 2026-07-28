@@ -918,6 +918,7 @@ var namespace_acts =
     [ "calculateSmoothedChi2", "namespace_acts.html#ad0961bb226a8e46e32d709866e7eed73", null ],
     [ "calculateSmoothedResidual", "namespace_acts.html#abbe3a7801a7a84cd085e8b0755cf020c", null ],
     [ "calculateTrackQuantities", "namespace_acts.html#ad777051d7e6ab464315ae169472719fe", null ],
+    [ "calculateUnbiasedParametersCovariance", "namespace_acts.html#a83c6df398457f3647388501d251021e0", null ],
     [ "calculateUnbiasedParametersCovariance", "namespace_acts.html#afded89f5410ca396ea21fee04cf8d1e2", null ],
     [ "calibrateOuterStripSpacePoint", "namespace_acts.html#a8e59f307c7d7cfbd3a534827a7d3720e", null ],
     [ "cathetusSquare", "namespace_acts.html#ad45ef8ad00b8e2d3bcfffd50642b8a8a", null ],

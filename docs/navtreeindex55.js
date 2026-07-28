@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0651de007a7bb89f1760010bc6b6214a":[5,0,0,1,31,0,19],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0651de007a7bb89f1760010bc6b6214a":[7,0,0,2,31,0,19],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0d6e4c5a2cf343f7f59c8425bd6c66ea":[5,0,0,1,31,0,0],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0d6e4c5a2cf343f7f59c8425bd6c66ea":[7,0,0,2,31,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a90659c0db401a97769f7fe4c78d4f050":[5,0,0,1,50,1,9],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a90659c0db401a97769f7fe4c78d4f050":[7,0,0,2,50,1,9],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a99d07be11bb95a03792a27e6fd59ff7e":[5,0,0,1,50,1,6],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a99d07be11bb95a03792a27e6fd59ff7e":[7,0,0,2,50,1,6],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#ac212654b0e70a3f101e34aad227c8bd6":[5,0,0,1,50,1,1]
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a99d07be11bb95a03792a27e6fd59ff7e":[7,0,0,2,50,1,6]
 };

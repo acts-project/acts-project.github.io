@@ -1979,6 +1979,8 @@ Functions</h2></td></tr>
 requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:ad777051d7e6ab464315ae169472719fe template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad777051d7e6ab464315ae169472719fe">calculateTrackQuantities</a> (track_proxy_t track)</td></tr>
 <tr class="memdesc:ad777051d7e6ab464315ae169472719fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate a number of track level quantities and store them on the track itself.  <br /></td></tr>
+<tr class="memitem:a83c6df398457f3647388501d251021e0" id="r_a83c6df398457f3647388501d251021e0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83c6df398457f3647388501d251021e0">calculateUnbiasedParametersCovariance</a> (const <a class="el" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> &amp;trackState)</td></tr>
+<tr class="memdesc:a83c6df398457f3647388501d251021e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the unbiased track parameters and their covariance for a type-erased track state proxy.  <br /></td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2" id="r_afded89f5410ca396ea21fee04cf8d1e2"><td class="memTemplParams" colspan="2">template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </td></tr>
 <tr class="memitem:afded89f5410ca396ea21fee04cf8d1e2 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a> (track_state_proxy_t trackState)</td></tr>
 <tr class="memdesc:afded89f5410ca396ea21fee04cf8d1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate the unbiased track parameters and their covariance (i.e.  <br /></td></tr>
@@ -5473,8 +5475,38 @@ requires (!track_proxy_t::ReadOnly)</div>
 
 </div>
 </div>
+<a id="a83c6df398457f3647388501d251021e0" name="a83c6df398457f3647388501d251021e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83c6df398457f3647388501d251021e0">&#9670;&#160;</a></span>calculateUnbiasedParametersCovariance() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a>, <a class="el" href="#aec0a40be468eddaf61a46560269bd97e">BoundMatrix</a> &gt; Acts::calculateUnbiasedParametersCovariance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">AnyConstTrackStateProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>trackState</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the unbiased track parameters and their covariance for a type-erased track state proxy. </p>
+<p>See the templated overload above for the underlying formula.</p>
+<p>This is the preferred entry point. It is not a template, so the (very expensive) Eigen expression templates are instantiated exactly once, in the Acts core library (TrackHelpersUnbiased.cpp), instead of in every calling translation unit. Callers holding a concrete track state proxy wrap it: </p><div class="fragment"><div class="line"><a class="code hl_function" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a>(<a class="code hl_typedef" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>{state});</div>
+<div class="ttc" id="anamespace_acts_html_a58d7c5f9e29f5f51ece398952f4a2a6a"><div class="ttname"><a href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a></div><div class="ttdeci">AnyTrackStateProxy&lt; true &gt; AnyConstTrackStateProxy</div><div class="ttdoc">Type alias for a const track state proxy.</div><div class="ttdef"><b>Definition</b> AnyTrackStateProxy.hpp:941</div></div>
+<div class="ttc" id="anamespace_acts_html_afded89f5410ca396ea21fee04cf8d1e2"><div class="ttname"><a href="#afded89f5410ca396ea21fee04cf8d1e2">Acts::calculateUnbiasedParametersCovariance</a></div><div class="ttdeci">std::pair&lt; BoundVector, BoundMatrix &gt; calculateUnbiasedParametersCovariance(track_state_proxy_t trackState)</div><div class="ttdoc">Helper function to calculate the unbiased track parameters and their covariance (i....</div><div class="ttdef"><b>Definition</b> TrackHelpers.hpp:733</div></div>
+</div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trackState</td><td>the (type-erased) track state to calculate from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a pair of the unbiased parameters and their covariance </dd></dl>
+
+</div>
+</div>
 <a id="afded89f5410ca396ea21fee04cf8d1e2" name="afded89f5410ca396ea21fee04cf8d1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afded89f5410ca396ea21fee04cf8d1e2">&#9670;&#160;</a></span>calculateUnbiasedParametersCovariance()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afded89f5410ca396ea21fee04cf8d1e2">&#9670;&#160;</a></span>calculateUnbiasedParametersCovariance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5504,7 +5536,9 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a pair of the unbiased parameters and their covariance </dd></dl>
-
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000018">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
+<div class="fragment"><div class="line"><a class="code hl_function" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a>(<a class="code hl_typedef" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>{state});</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a8e59f307c7d7cfbd3a534827a7d3720e" name="a8e59f307c7d7cfbd3a534827a7d3720e"></a>

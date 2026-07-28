@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_passive_layer_builder_1_1_config.html":[7,0,0,320,0],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a0ee42a5d442a6fd5f5443b783eea6d3f":[5,0,0,312,0,9],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a0ee42a5d442a6fd5f5443b783eea6d3f":[7,0,0,320,0,9],
 "struct_acts_1_1_passive_layer_builder_1_1_config.html#a23f9bddfd0266baf90736c2e911067c1":[5,0,0,312,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_remove_pointer.html":[7,0,0,359],
 "struct_acts_1_1_remove_pointer.html#a5fc62c15e5752255e084baed34703464":[5,0,0,351,0],
 "struct_acts_1_1_remove_pointer.html#a5fc62c15e5752255e084baed34703464":[7,0,0,359,0],
-"struct_acts_1_1_remove_pointer_3_01_t_01_4.html":[5,0,0,352],
-"struct_acts_1_1_remove_pointer_3_01_t_01_4.html":[7,0,0,360]
+"struct_acts_1_1_remove_pointer_3_01_t_01_4.html":[5,0,0,352]
 };

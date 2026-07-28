@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_end_of_world_reached.html":[5,0,0,131],
 "struct_acts_1_1_end_of_world_reached.html":[7,0,0,139],
 "struct_acts_1_1_end_of_world_reached.html#a03439c368fa8c5c195092f302373714f":[5,0,0,131,0],
 "struct_acts_1_1_end_of_world_reached.html#a03439c368fa8c5c195092f302373714f":[7,0,0,139,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a30280cb79b4eaa3d30010be012634975":[5,0,0,1,12,1,10],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a30280cb79b4eaa3d30010be012634975":[7,0,0,2,12,1,10],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a3242db5d7e73e27d30b2bfd089f891df":[5,0,0,1,12,1,9],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a3242db5d7e73e27d30b2bfd089f891df":[7,0,0,2,12,1,9],
-"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a42f79ee16d33298560b40b94ad80373b":[5,0,0,1,12,1,5]
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a3242db5d7e73e27d30b2bfd089f891df":[7,0,0,2,12,1,9]
 };

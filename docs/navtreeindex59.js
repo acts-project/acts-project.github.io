@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ab2012491f1df624a18d2877cf0b7024d":[7,0,0,232,0,9],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac5a0bdaaa79fb7330d869fc1cb6223b1":[5,0,0,224,0,13],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac5a0bdaaa79fb7330d869fc1cb6223b1":[7,0,0,232,0,13],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ad9af2c845a6e72f7b163c81be0047d41":[5,0,0,224,0,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_multi_stepper_loop_1_1_state.html#aad63b7c922ec7ae52c1c49e4d4a7320c":[7,0,0,290,2,6],
 "struct_acts_1_1_multi_stepper_loop_1_1_state.html#ab29cf03bda37276223d5ddf5c83cfb67":[5,0,0,282,2,2],
 "struct_acts_1_1_multi_stepper_loop_1_1_state.html#ab29cf03bda37276223d5ddf5c83cfb67":[7,0,0,290,2,2],
-"struct_acts_1_1_multi_stepper_loop_1_1_state.html#ad620153acbe330f6af039d78b8ad7e9e":[5,0,0,282,2,7],
-"struct_acts_1_1_multi_stepper_loop_1_1_state.html#ad620153acbe330f6af039d78b8ad7e9e":[7,0,0,290,2,7]
+"struct_acts_1_1_multi_stepper_loop_1_1_state.html#ad620153acbe330f6af039d78b8ad7e9e":[5,0,0,282,2,7]
 };

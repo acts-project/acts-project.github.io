@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_multi_stepper_loop_1_1_state.html#ad620153acbe330f6af039d78b8ad7e9e":[7,0,0,290,2,7],
 "struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html":[5,0,0,282,2,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html":[7,0,0,290,2,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_state_1_1_component.html#a2f2da93cc0d30daf6d7ac6bac131b08d":[5,0,0,282,2,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_particle_data.html#a52302036fe8ebf75a9a540b5710f1233":[7,0,0,318,0],
 "struct_acts_1_1_particle_data.html#a5bc1dde2638a8ef882c941196298b61b":[5,0,0,310,2],
 "struct_acts_1_1_particle_data.html#a5bc1dde2638a8ef882c941196298b61b":[7,0,0,318,2],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html":[5,0,0,312,0],
-"struct_acts_1_1_passive_layer_builder_1_1_config.html":[7,0,0,320,0]
+"struct_acts_1_1_passive_layer_builder_1_1_config.html":[5,0,0,312,0]
 };
