@@ -94,7 +94,6 @@ var hierarchy =
     [ "Acts::BroadTripletSeedFilter::Cache", "struct_acts_1_1_broad_triplet_seed_filter_1_1_cache.html", null ],
     [ "Acts::BroadTripletSeedFilter::Config", "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html", null ],
     [ "Acts::BroadTripletSeedFilter::State", "struct_acts_1_1_broad_triplet_seed_filter_1_1_state.html", null ],
-    [ "Acts::CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", null ],
     [ "Acts::CartesianSpacePointGrid::Config", "struct_acts_1_1_cartesian_space_point_grid_1_1_config.html", null ],
     [ "Acts::Ccl::ClusteringData", "struct_acts_1_1_ccl_1_1_clustering_data.html", null ],
     [ "Acts::Ccl::Connect1D&lt; Cell &gt;", "struct_acts_1_1_ccl_1_1_connect1_d.html", [
@@ -129,7 +128,6 @@ var hierarchy =
     [ "Acts::CurvilinearSurface", "class_acts_1_1_curvilinear_surface.html", null ],
     [ "Acts::CylinderVolumeBuilder::Config", "struct_acts_1_1_cylinder_volume_builder_1_1_config.html", null ],
     [ "Acts::CylinderVolumeHelper::Config", "struct_acts_1_1_cylinder_volume_helper_1_1_config.html", null ],
-    [ "Acts::CylindricalSpacePointGrid", "class_acts_1_1_cylindrical_space_point_grid.html", null ],
     [ "Acts::CylindricalSpacePointGrid::Config", "struct_acts_1_1_cylindrical_space_point_grid_1_1_config.html", null ],
     [ "Acts::DBScan&lt; kDims, scalar_t, kLeafSize &gt;", "class_acts_1_1_d_b_scan.html", null ],
     [ "Acts::Delegate&lt; typename, H, DelegateType &gt;", "class_acts_1_1_delegate.html", null ],
@@ -164,6 +162,9 @@ var hierarchy =
       [ "Acts::PropagatorOptions< StepperOptions, NavigatorOptions, actor_list_t >", "struct_acts_1_1_propagator_options.html", null ],
       [ "Acts::PropagatorOptions< stepper_options_t, navigator_options_t, actor_list_t >", "struct_acts_1_1_propagator_options.html", null ],
       [ "Acts::PropagatorPlainOptions", "struct_acts_1_1_propagator_plain_options.html", null ]
+    ] ],
+    [ "Acts::detail::SpacePointGridBase", null, [
+      [ "Acts::Experimental::SphericalSpacePointGrid", "class_acts_1_1_experimental_1_1_spherical_space_point_grid.html", null ]
     ] ],
     [ "Acts::detail::SubspaceHelperBase&lt; FixedSubspaceHelper&lt; FullSize, SubspaceSize, std::uint8_t &gt;, FullSize &gt;", null, [
       [ "Acts::FixedSubspaceHelper< FullSize, SubspaceSize, index_t >", "class_acts_1_1_fixed_subspace_helper.html", null ]
@@ -286,7 +287,6 @@ var hierarchy =
     [ "Acts::Experimental::ScatteringProperties", "struct_acts_1_1_experimental_1_1_scattering_properties.html", null ],
     [ "Acts::Experimental::SensorLayer&lt; BackendT &gt;", "class_acts_1_1_experimental_1_1_sensor_layer.html", null ],
     [ "Acts::Experimental::SensorLayerAssembler&lt; BackendT &gt;", "class_acts_1_1_experimental_1_1_sensor_layer_assembler.html", null ],
-    [ "Acts::Experimental::SphericalSpacePointGrid", "class_acts_1_1_experimental_1_1_spherical_space_point_grid.html", null ],
     [ "Acts::Experimental::SphericalSpacePointGrid::Config", "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html", null ],
     [ "Acts::Experimental::TryAllNavigator", "class_acts_1_1_experimental_1_1_try_all_navigator.html", null ],
     [ "Acts::Experimental::TryAllNavigator::Config", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html", null ],
@@ -421,10 +421,7 @@ var hierarchy =
       [ "Acts::Grid< Acts::AccumulatedVolumeMaterial, EAxis, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< Acts::Material::ParametersVector, EAxis, EAxis, EAxis >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< BinType, XAxisType, YAxisType, ZAxisType >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< BinType, PhiAxisType, ZAxisType, RAxisType >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< HoughCell< identifier_t >, Axis, Axis >", "class_acts_1_1_grid.html", null ],
-      [ "Acts::Grid< BinType, PhiAxisType, CotThetaAxisType, RAxisType >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Equidistant, aType >, Axis< AxisType::Equidistant, bType > >", "class_acts_1_1_grid.html", null ],
@@ -1142,6 +1139,10 @@ var hierarchy =
       [ "Acts::PropagatorState< propagator_options_t, typename stepper_t::State, typename navigator_t::State, args... >", "struct_acts_1_1_propagator_state.html", null ],
       [ "Acts::PropagatorResult< parameters_t, result_list >", "struct_acts_1_1_propagator_result.html", null ],
       [ "Acts::PropagatorState< propagator_options_t, stepper_state_t, navigator_state_t, extension_state_t >", "struct_acts_1_1_propagator_state.html", null ]
+    ] ],
+    [ "detail::SpacePointGridBase", null, [
+      [ "Acts::CartesianSpacePointGrid", "class_acts_1_1_cartesian_space_point_grid.html", null ],
+      [ "Acts::CylindricalSpacePointGrid", "class_acts_1_1_cylindrical_space_point_grid.html", null ]
     ] ],
     [ "SingleOptions", null, [
       [ "Acts::MultiStepperLoop< single_stepper_t, component_reducer_t >::Options", "struct_acts_1_1_multi_stepper_loop_1_1_options.html", null ]

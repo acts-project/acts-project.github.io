@@ -54,13 +54,10 @@ var searchData=
   ['axis_51',['Axis',['../class_acts_1_1_axis.html',1,'Acts']]],
   ['axis_3c_20acts_3a_3aaxistype_3a_3aequidistant_2c_20acts_3a_3aaxisboundarytype_3a_3abound_20_3e_52',['Axis&lt; Acts::AxisType::Equidistant, Acts::AxisBoundaryType::Bound &gt;',['../class_acts_1_1_axis.html',1,'Acts']]],
   ['axis_3c_20axistype_3a_3aequidistant_20_3e_53',['Axis&lt; AxisType::Equidistant &gt;',['../class_acts_1_1_axis.html',1,'Acts']]],
-  ['axis_3c_20axistype_3a_3aequidistant_2c_20axisboundarytype_3a_3aclosed_20_3e_54',['Axis&lt; AxisType::Equidistant, AxisBoundaryType::Closed &gt;',['../class_acts_1_1_axis.html',1,'Acts']]],
-  ['axis_3c_20axistype_3a_3aequidistant_2c_20axisboundarytype_3a_3aopen_20_3e_55',['Axis&lt; AxisType::Equidistant, AxisBoundaryType::Open &gt;',['../class_acts_1_1_axis.html',1,'Acts']]],
-  ['axis_3c_20axistype_3a_3aequidistant_2c_20bdt_20_3e_56',['Axis&lt; AxisType::Equidistant, bdt &gt;',['../class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html',1,'Acts']]],
-  ['axis_3c_20axistype_3a_3avariable_2c_20axisboundarytype_3a_3aopen_20_3e_57',['Axis&lt; AxisType::Variable, AxisBoundaryType::Open &gt;',['../class_acts_1_1_axis.html',1,'Acts']]],
-  ['axis_3c_20axistype_3a_3avariable_2c_20bdt_20_3e_58',['Axis&lt; AxisType::Variable, bdt &gt;',['../class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html',1,'Acts']]],
-  ['axisalignedboundingbox_59',['AxisAlignedBoundingBox',['../class_acts_1_1_axis_aligned_bounding_box.html',1,'Acts']]],
-  ['axisalignedboundingbox_3c_20volume_2c_20double_2c_203_20_3e_60',['AxisAlignedBoundingBox&lt; Volume, double, 3 &gt;',['../class_acts_1_1_axis_aligned_bounding_box.html',1,'Acts']]],
-  ['axisboundarytypetag_61',['AxisBoundaryTypeTag',['../struct_acts_1_1_axis_boundary_type_tag.html',1,'Acts']]],
-  ['axisdirectionreferencegenerator_62',['AxisDirectionReferenceGenerator',['../struct_acts_1_1_axis_direction_reference_generator.html',1,'Acts']]]
+  ['axis_3c_20axistype_3a_3aequidistant_2c_20bdt_20_3e_54',['Axis&lt; AxisType::Equidistant, bdt &gt;',['../class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html',1,'Acts']]],
+  ['axis_3c_20axistype_3a_3avariable_2c_20bdt_20_3e_55',['Axis&lt; AxisType::Variable, bdt &gt;',['../class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html',1,'Acts']]],
+  ['axisalignedboundingbox_56',['AxisAlignedBoundingBox',['../class_acts_1_1_axis_aligned_bounding_box.html',1,'Acts']]],
+  ['axisalignedboundingbox_3c_20volume_2c_20double_2c_203_20_3e_57',['AxisAlignedBoundingBox&lt; Volume, double, 3 &gt;',['../class_acts_1_1_axis_aligned_bounding_box.html',1,'Acts']]],
+  ['axisboundarytypetag_58',['AxisBoundaryTypeTag',['../struct_acts_1_1_axis_boundary_type_tag.html',1,'Acts']]],
+  ['axisdirectionreferencegenerator_59',['AxisDirectionReferenceGenerator',['../struct_acts_1_1_axis_direction_reference_generator.html',1,'Acts']]]
 ];
