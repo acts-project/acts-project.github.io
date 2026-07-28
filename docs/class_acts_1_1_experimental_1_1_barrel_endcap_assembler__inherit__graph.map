@@ -1,7 +1,7 @@
 <map id="Acts::Experimental::BarrelEndcapAssembler&lt; BackendT &gt;" name="Acts::Experimental::BarrelEndcapAssembler&lt; BackendT &gt;">
-<area shape="rect" id="Node000001" title="Fluent builder that assembles a combined barrel + endcap subdetector into a CylinderContainerBlueprin..." alt="" coords="5,45,191,100"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html" title=" " alt="" coords="384,5,569,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,59,383,40,384,45,204,64"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html" title=" " alt="" coords="384,84,569,139"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,81,215,82,384,99,383,105,214,87,204,86"/>
+<area shape="rect" id="Node000001" title="Fluent builder that assembles a combined barrel + endcap subdetector into a CylinderContainerBlueprin..." alt="" coords="5,30,191,85"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_barrel_endcap_assembler.html" title=" " alt="" coords="384,5,597,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,46,384,31,384,37,204,51"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_barrel_endcap_assembler.html" title=" " alt="" coords="384,69,597,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,72,215,73,384,84,383,90,214,79,204,78"/>
 </map>

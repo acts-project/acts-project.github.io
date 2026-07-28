@@ -46,7 +46,7 @@ var searchData=
   ['geometryhierarchymapjsonconverter_3c_20const_20acts_3a_3aisurfacematerial_20_2a_2c_20acts_3a_3aivolumematerialjsondecorator_20_3e_43',['GeometryHierarchyMapJsonConverter&lt; const Acts::ISurfaceMaterial *, Acts::IVolumeMaterialJsonDecorator &gt;',['../class_acts_1_1_geometry_hierarchy_map_json_converter.html',1,'Acts']]],
   ['geometryhierarchymapjsonconverter_3c_20const_20acts_3a_3aivolumematerial_20_2a_2c_20acts_3a_3aivolumematerialjsondecorator_20_3e_44',['GeometryHierarchyMapJsonConverter&lt; const Acts::IVolumeMaterial *, Acts::IVolumeMaterialJsonDecorator &gt;',['../class_acts_1_1_geometry_hierarchy_map_json_converter.html',1,'Acts']]],
   ['geometryidentifier_45',['GeometryIdentifier',['../class_acts_1_1_geometry_identifier.html',1,'Acts']]],
-  ['geometryidentifierblueprintnode_46',['GeometryIdentifierBlueprintNode',['../class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html',1,'Acts::Experimental']]],
+  ['geometryidentifierblueprintnode_46',['GeometryIdentifierBlueprintNode',['../class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html',1,'Acts::Experimental::GeometryIdentifierBlueprintNode'],['../class_acts_1_1_geometry_identifier_blueprint_node.html',1,'Acts::GeometryIdentifierBlueprintNode']]],
   ['geometryidentifierhook_47',['GeometryIdentifierHook',['../struct_acts_1_1_geometry_identifier_hook.html',1,'Acts']]],
   ['geometryobject_48',['GeometryObject',['../class_acts_1_1_geometry_object.html',1,'Acts']]],
   ['geometryobjectsortert_49',['GeometryObjectSorterT',['../class_acts_1_1_geometry_object_sorter_t.html',1,'Acts']]],

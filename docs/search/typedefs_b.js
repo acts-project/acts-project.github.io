@@ -15,7 +15,7 @@ var searchData=
   ['multieigenstepperloop_12',['MultiEigenStepperLoop',['../namespace_acts.html#ae9408494e498cfa4e752006ca788b3f6',1,'Acts']]],
   ['multiintersection2d_13',['MultiIntersection2D',['../namespace_acts.html#ae9759fe2150d6d2442c1270dbabc1976',1,'Acts']]],
   ['multiintersection3d_14',['MultiIntersection3D',['../namespace_acts.html#ae4e962ae4108b1150b697ebcc6132bff',1,'Acts']]],
-  ['mutablechildrange_15',['MutableChildRange',['../class_acts_1_1_experimental_1_1_blueprint_node.html#a994fb12006f54cb73cd1f5877af84e9a',1,'Acts::Experimental::BlueprintNode']]],
+  ['mutablechildrange_15',['MutableChildRange',['../class_acts_1_1_blueprint_node.html#a191e2eec353655265dc72d3f13b1a9b8',1,'Acts::BlueprintNode::MutableChildRange'],['../class_acts_1_1_experimental_1_1_blueprint_node.html#a191e2eec353655265dc72d3f13b1a9b8',1,'Acts::Experimental::BlueprintNode::MutableChildRange']]],
   ['mutablecolumnproxy_16',['MutableColumnProxy',['../class_acts_1_1_space_point_container.html#a9055e65f91b338971d1252475998f315',1,'Acts::SpacePointContainer']]],
   ['mutableeffectivecalibratedcovariancemap_17',['MutableEffectiveCalibratedCovarianceMap',['../class_acts_1_1_any_track_state_proxy.html#a2c145f0aa09d27fedd60394a243c994f',1,'Acts::AnyTrackStateProxy']]],
   ['mutableeffectivecalibratedmap_18',['MutableEffectiveCalibratedMap',['../class_acts_1_1_any_track_state_proxy.html#ac19607648a3258a2ed949fdcffc651a0',1,'Acts::AnyTrackStateProxy']]],

@@ -18,7 +18,7 @@ var class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend =
     [ "isTracker", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ad86c57437ca96631be69eea5a160990f", null ],
     [ "logger", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a9600bf329db67cd5f7f1d0b830fa452d", null ],
     [ "lookupLayerTransform", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac95000e59ef73cc6bea86fbac598f3c8", null ],
-    [ "makeBeampipe", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ab15ea8fd854e93e82a210878be1e4384", null ],
+    [ "makeBeampipe", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a56e7a733b6934c09b01a8887afb08f4b", null ],
     [ "makeSurfaces", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac03f7d4d2f0c505da2cb5ca8ebccf2f8", null ],
     [ "nameOf", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#a77f4a591e6fb01de96995ebba95f37b7", null ],
     [ "parent", "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae7b210de8b0be1a123b4eb4b0b45988d", null ],

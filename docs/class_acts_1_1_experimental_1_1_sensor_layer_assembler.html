@@ -133,71 +133,71 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_sensor_layer_assembler
 <div class="dynheader">
 Inheritance diagram for Acts::Experimental::SensorLayerAssembler&lt; BackendT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_experimental_1_1_sensor_layer_assembler__inherit__graph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_experimental_1_1_sensor_layer_assembler__inherit__graph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:acd0d1c3149e986cf8914422e29516d82" id="r_acd0d1c3149e986cf8914422e29516d82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd0d1c3149e986cf8914422e29516d82">AxisDefinition</a></td></tr>
-<tr class="memdesc:acd0d1c3149e986cf8914422e29516d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis definition type, or <span class="tt">std::monostate</span> when the backend does not support axis definitions.  <br /></td></tr>
-<tr class="memitem:a523732763402963828aaf4621fe263dc" id="r_a523732763402963828aaf4621fe263dc"><td class="memItemLeft" align="right" valign="top"><a id="a523732763402963828aaf4621fe263dc" name="a523732763402963828aaf4621fe263dc"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Builder</b> = <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_builder.html">BlueprintBuilder</a>&lt;BackendT&gt;</td></tr>
-<tr class="memdesc:a523732763402963828aaf4621fe263dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The associated <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_builder.html">BlueprintBuilder</a> type. <br /></td></tr>
-<tr class="memitem:ab482363ddc761b20c5eebef4caeb7a07" id="r_ab482363ddc761b20c5eebef4caeb7a07"><td class="memItemLeft" align="right" valign="top"><a id="ab482363ddc761b20c5eebef4caeb7a07" name="ab482363ddc761b20c5eebef4caeb7a07"></a>
+<tr class="memitem:afd6e0b06bc6128fd95ab32f483b1fec9" id="r_afd6e0b06bc6128fd95ab32f483b1fec9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6e0b06bc6128fd95ab32f483b1fec9">AxisDefinition</a></td></tr>
+<tr class="memdesc:afd6e0b06bc6128fd95ab32f483b1fec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis definition type, or <span class="tt">std::monostate</span> when the backend does not support axis definitions.  <br /></td></tr>
+<tr class="memitem:a59e13f5b993a9c950f60db0a1bd807bf" id="r_a59e13f5b993a9c950f60db0a1bd807bf"><td class="memItemLeft" align="right" valign="top"><a id="a59e13f5b993a9c950f60db0a1bd807bf" name="a59e13f5b993a9c950f60db0a1bd807bf"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Builder</b> = <a class="el" href="class_acts_1_1_blueprint_builder.html">BlueprintBuilder</a>&lt;BackendT&gt;</td></tr>
+<tr class="memdesc:a59e13f5b993a9c950f60db0a1bd807bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The associated <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_builder.html">BlueprintBuilder</a> type. <br /></td></tr>
+<tr class="memitem:a2dab33d2c2b7e814347aaa6be4c8e596" id="r_a2dab33d2c2b7e814347aaa6be4c8e596"><td class="memItemLeft" align="right" valign="top"><a id="a2dab33d2c2b7e814347aaa6be4c8e596" name="a2dab33d2c2b7e814347aaa6be4c8e596"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Element</b> = typename BackendT::Element</td></tr>
-<tr class="memdesc:ab482363ddc761b20c5eebef4caeb7a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend detector element handle type. <br /></td></tr>
-<tr class="memitem:a4dea9c6cd2eac9593b598ebac0132e50" id="r_a4dea9c6cd2eac9593b598ebac0132e50"><td class="memItemLeft" align="right" valign="top"><a id="a4dea9c6cd2eac9593b598ebac0132e50" name="a4dea9c6cd2eac9593b598ebac0132e50"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerCustomizer</b> = detail::LayerCustomizer&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>&gt;</td></tr>
-<tr class="memdesc:a4dea9c6cd2eac9593b598ebac0132e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. <br /></td></tr>
-<tr class="memitem:a34d81be5b9900004e221afba314a38bc" id="r_a34d81be5b9900004e221afba314a38bc"><td class="memItemLeft" align="right" valign="top"><a id="a34d81be5b9900004e221afba314a38bc" name="a34d81be5b9900004e221afba314a38bc"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerGrouper</b> = std::function&lt;std::string(const <a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>&amp;)&gt;</td></tr>
-<tr class="memdesc:a34d81be5b9900004e221afba314a38bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callable that maps a sensor element to a string group key. <br /></td></tr>
-<tr class="memitem:ad323f96f62d436c40a3ba4e2c6c62f1f" id="r_ad323f96f62d436c40a3ba4e2c6c62f1f"><td class="memItemLeft" align="right" valign="top"><a id="ad323f96f62d436c40a3ba4e2c6c62f1f" name="ad323f96f62d436c40a3ba4e2c6c62f1f"></a>
+<tr class="memdesc:a2dab33d2c2b7e814347aaa6be4c8e596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend detector element handle type. <br /></td></tr>
+<tr class="memitem:a4542b2009e55c3e60d4e54c458782d35" id="r_a4542b2009e55c3e60d4e54c458782d35"><td class="memItemLeft" align="right" valign="top"><a id="a4542b2009e55c3e60d4e54c458782d35" name="a4542b2009e55c3e60d4e54c458782d35"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerCustomizer</b> = detail::LayerCustomizer&lt;<a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a>&gt;</td></tr>
+<tr class="memdesc:a4542b2009e55c3e60d4e54c458782d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type that can replace or wrap a created <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html">LayerBlueprintNode</a>. <br /></td></tr>
+<tr class="memitem:a5147be18e4a3ab9e086136a2b543cb91" id="r_a5147be18e4a3ab9e086136a2b543cb91"><td class="memItemLeft" align="right" valign="top"><a id="a5147be18e4a3ab9e086136a2b543cb91" name="a5147be18e4a3ab9e086136a2b543cb91"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerGrouper</b> = std::function&lt;std::string(const <a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a>&amp;)&gt;</td></tr>
+<tr class="memdesc:a5147be18e4a3ab9e086136a2b543cb91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callable that maps a sensor element to a string group key. <br /></td></tr>
+<tr class="memitem:a953b4ccb85d94fd915d281e736b08264" id="r_a953b4ccb85d94fd915d281e736b08264"><td class="memItemLeft" align="right" valign="top"><a id="a953b4ccb85d94fd915d281e736b08264" name="a953b4ccb85d94fd915d281e736b08264"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerSpec</b> = typename BackendT::LayerSpec</td></tr>
-<tr class="memdesc:ad323f96f62d436c40a3ba4e2c6c62f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend layer-specification type. <br /></td></tr>
-<tr class="memitem:a403b90d819a72e949bb69e81356b40fe" id="r_a403b90d819a72e949bb69e81356b40fe"><td class="memItemLeft" align="right" valign="top"><a id="a403b90d819a72e949bb69e81356b40fe" name="a403b90d819a72e949bb69e81356b40fe"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerType</b> = <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#aeae5e970d6d2cdda5d72c708adfe8ae9">LayerBlueprintNode::LayerType</a></td></tr>
-<tr class="memdesc:a403b90d819a72e949bb69e81356b40fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distinguishes barrel (Cylinder) from endcap (Disc) layer geometry. <br /></td></tr>
+<tr class="memdesc:a953b4ccb85d94fd915d281e736b08264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Backend layer-specification type. <br /></td></tr>
+<tr class="memitem:ad7cefb09ee7bae7bed3d294833220566" id="r_ad7cefb09ee7bae7bed3d294833220566"><td class="memItemLeft" align="right" valign="top"><a id="ad7cefb09ee7bae7bed3d294833220566" name="ad7cefb09ee7bae7bed3d294833220566"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerType</b> = <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ab0b70351f82824ee90480b43aa420cd7">LayerBlueprintNode::LayerType</a></td></tr>
+<tr class="memdesc:ad7cefb09ee7bae7bed3d294833220566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distinguishes barrel (Cylinder) from endcap (Disc) layer geometry. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac44435c5540669aedb8e170059810224" id="r_ac44435c5540669aedb8e170059810224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac44435c5540669aedb8e170059810224">addTo</a> (<a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &amp;node) const &amp;&amp;</td></tr>
-<tr class="memdesc:ac44435c5540669aedb8e170059810224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the container node and attach it as a child of <code class="param">node</code>.  <br /></td></tr>
-<tr class="memitem:ab8d3871cdd41f46de73ee156bd8fc89a" id="r_ab8d3871cdd41f46de73ee156bd8fc89a"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d3871cdd41f46de73ee156bd8fc89a">barrel</a> () &amp;&amp;</td></tr>
-<tr class="memdesc:ab8d3871cdd41f46de73ee156bd8fc89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Cylinder)</span>.  <br /></td></tr>
-<tr class="memitem:abb41cedb24bd464b41bc32d68ee7074b" id="r_abb41cedb24bd464b41bc32d68ee7074b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html">ContainerBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb41cedb24bd464b41bc32d68ee7074b">build</a> () const</td></tr>
-<tr class="memdesc:abb41cedb24bd464b41bc32d68ee7074b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build and return the assembled container node.  <br /></td></tr>
-<tr class="memitem:a89774065b4f6c2c7b944c26c2b5f240c" id="r_a89774065b4f6c2c7b944c26c2b5f240c"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89774065b4f6c2c7b944c26c2b5f240c">endcap</a> () &amp;&amp;</td></tr>
-<tr class="memdesc:a89774065b4f6c2c7b944c26c2b5f240c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Disc)</span>.  <br /></td></tr>
-<tr class="memitem:a3380ff04955518117a94280050b4278a" id="r_a3380ff04955518117a94280050b4278a"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3380ff04955518117a94280050b4278a">groupBy</a> (<a class="el" href="#a34d81be5b9900004e221afba314a38bc">LayerGrouper</a> grouper) &amp;&amp;</td></tr>
-<tr class="memdesc:a3380ff04955518117a94280050b4278a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group sensors into layers by key (required).  <br /></td></tr>
-<tr class="memitem:a1a5222255ba6f551fb084ab358a5cb86" id="r_a1a5222255ba6f551fb084ab358a5cb86"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
-requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
-<tr class="memitem:a1a5222255ba6f551fb084ab358a5cb86 template"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5222255ba6f551fb084ab358a5cb86">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
-<tr class="memdesc:a1a5222255ba6f551fb084ab358a5cb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for each created layer node.  <br /></td></tr>
-<tr class="memitem:a6547e59ec0519f5265d495f48064c645" id="r_a6547e59ec0519f5265d495f48064c645"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6547e59ec0519f5265d495f48064c645">planar</a> () &amp;&amp;</td></tr>
-<tr class="memdesc:a6547e59ec0519f5265d495f48064c645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Plane)</span>.  <br /></td></tr>
-<tr class="memitem:a540ee4e6fee8bd9ecc81bce276ff6652" id="r_a540ee4e6fee8bd9ecc81bce276ff6652"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a540ee4e6fee8bd9ecc81bce276ff6652">setAttachmentStrategy</a> (std::optional&lt; <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">Acts::VolumeAttachmentStrategy</a> &gt; strategy) &amp;&amp;</td></tr>
-<tr class="memdesc:a540ee4e6fee8bd9ecc81bce276ff6652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override the attachment strategy for the container node.  <br /></td></tr>
-<tr class="memitem:a9d33cc53ef81333e42b4f6e45cc7c285" id="r_a9d33cc53ef81333e42b4f6e45cc7c285"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d33cc53ef81333e42b4f6e45cc7c285">setContainerName</a> (std::string containerName) &amp;&amp;</td></tr>
-<tr class="memdesc:a9d33cc53ef81333e42b4f6e45cc7c285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the output container node name (required).  <br /></td></tr>
-<tr class="memitem:aa008ccf0e80698e125b8ffdccee2e5e9" id="r_aa008ccf0e80698e125b8ffdccee2e5e9"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa008ccf0e80698e125b8ffdccee2e5e9">setEnvelope</a> (const <a class="el" href="struct_acts_1_1_extent_envelope.html">Acts::ExtentEnvelope</a> &amp;envelope) &amp;&amp;</td></tr>
-<tr class="memdesc:aa008ccf0e80698e125b8ffdccee2e5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an envelope applied to every produced layer node.  <br /></td></tr>
-<tr class="memitem:a46f990afd9ab963c221c376da319aed7" id="r_a46f990afd9ab963c221c376da319aed7"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f990afd9ab963c221c376da319aed7">setLayerType</a> (<a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#aeae5e970d6d2cdda5d72c708adfe8ae9">LayerType</a> layerType) &amp;&amp;</td></tr>
-<tr class="memdesc:a46f990afd9ab963c221c376da319aed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the layer geometry type explicitly.  <br /></td></tr>
-<tr class="memitem:afba23e0932b78d3af523f936298fc2bc" id="r_afba23e0932b78d3af523f936298fc2bc"><td class="memTemplParams" colspan="2">template&lt;typename B = BackendT&gt; <br />
+<tr class="memitem:a4396a82829c97cfd87672fa97432e0d7" id="r_a4396a82829c97cfd87672fa97432e0d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4396a82829c97cfd87672fa97432e0d7">addTo</a> (<a class="el" href="class_acts_1_1_blueprint_node.html">BlueprintNode</a> &amp;node) const &amp;&amp;</td></tr>
+<tr class="memdesc:a4396a82829c97cfd87672fa97432e0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the container node and attach it as a child of <code class="param">node</code>.  <br /></td></tr>
+<tr class="memitem:ac057df75c2d4adcc5257d634c8da48c5" id="r_ac057df75c2d4adcc5257d634c8da48c5"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac057df75c2d4adcc5257d634c8da48c5">barrel</a> () &amp;&amp;</td></tr>
+<tr class="memdesc:ac057df75c2d4adcc5257d634c8da48c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Cylinder)</span>.  <br /></td></tr>
+<tr class="memitem:aa4fd8b93369e5ede335a823b9606dd57" id="r_aa4fd8b93369e5ede335a823b9606dd57"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_container_blueprint_node.html">ContainerBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4fd8b93369e5ede335a823b9606dd57">build</a> () const</td></tr>
+<tr class="memdesc:aa4fd8b93369e5ede335a823b9606dd57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build and return the assembled container node.  <br /></td></tr>
+<tr class="memitem:af993920c08fa729c8e610495cc784a63" id="r_af993920c08fa729c8e610495cc784a63"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af993920c08fa729c8e610495cc784a63">endcap</a> () &amp;&amp;</td></tr>
+<tr class="memdesc:af993920c08fa729c8e610495cc784a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Disc)</span>.  <br /></td></tr>
+<tr class="memitem:a4eaffe402106aed085ceaf024bc74c5d" id="r_a4eaffe402106aed085ceaf024bc74c5d"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eaffe402106aed085ceaf024bc74c5d">groupBy</a> (<a class="el" href="#a5147be18e4a3ab9e086136a2b543cb91">LayerGrouper</a> grouper) &amp;&amp;</td></tr>
+<tr class="memdesc:a4eaffe402106aed085ceaf024bc74c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group sensors into layers by key (required).  <br /></td></tr>
+<tr class="memitem:aa278f9979b42be3a073a85b43b4646ae" id="r_aa278f9979b42be3a073a85b43b4646ae"><td class="memTemplParams" colspan="2">template&lt;typename CustomizerT&gt; <br />
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</td></tr>
+<tr class="memitem:aa278f9979b42be3a073a85b43b4646ae template"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa278f9979b42be3a073a85b43b4646ae">onLayer</a> (CustomizerT customizer) &amp;&amp;</td></tr>
+<tr class="memdesc:aa278f9979b42be3a073a85b43b4646ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a callback invoked for each created layer node.  <br /></td></tr>
+<tr class="memitem:a24c359215ecef670f93dcc37724300a4" id="r_a24c359215ecef670f93dcc37724300a4"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24c359215ecef670f93dcc37724300a4">planar</a> () &amp;&amp;</td></tr>
+<tr class="memdesc:a24c359215ecef670f93dcc37724300a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand for <span class="tt">setLayerType(LayerType::Plane)</span>.  <br /></td></tr>
+<tr class="memitem:a0d1eb4250a12569bce76f2028c1c3b21" id="r_a0d1eb4250a12569bce76f2028c1c3b21"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d1eb4250a12569bce76f2028c1c3b21">setAttachmentStrategy</a> (std::optional&lt; <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">Acts::VolumeAttachmentStrategy</a> &gt; strategy) &amp;&amp;</td></tr>
+<tr class="memdesc:a0d1eb4250a12569bce76f2028c1c3b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override the attachment strategy for the container node.  <br /></td></tr>
+<tr class="memitem:a6ef5b62da561a29bf9ff47d3fc898835" id="r_a6ef5b62da561a29bf9ff47d3fc898835"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ef5b62da561a29bf9ff47d3fc898835">setContainerName</a> (std::string containerName) &amp;&amp;</td></tr>
+<tr class="memdesc:a6ef5b62da561a29bf9ff47d3fc898835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the output container node name (required).  <br /></td></tr>
+<tr class="memitem:ae05e670baf484f4ce019f5b3cf45673f" id="r_ae05e670baf484f4ce019f5b3cf45673f"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae05e670baf484f4ce019f5b3cf45673f">setEnvelope</a> (const <a class="el" href="struct_acts_1_1_extent_envelope.html">Acts::ExtentEnvelope</a> &amp;envelope) &amp;&amp;</td></tr>
+<tr class="memdesc:ae05e670baf484f4ce019f5b3cf45673f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an envelope applied to every produced layer node.  <br /></td></tr>
+<tr class="memitem:a80b0a5fd4a6b7f1c8dfea868a1186db4" id="r_a80b0a5fd4a6b7f1c8dfea868a1186db4"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b0a5fd4a6b7f1c8dfea868a1186db4">setLayerType</a> (<a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ab0b70351f82824ee90480b43aa420cd7">LayerType</a> layerType) &amp;&amp;</td></tr>
+<tr class="memdesc:a80b0a5fd4a6b7f1c8dfea868a1186db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the layer geometry type explicitly.  <br /></td></tr>
+<tr class="memitem:a33cc3ef1e262a1c68a7c3a1f294ce81f" id="r_a33cc3ef1e262a1c68a7c3a1f294ce81f"><td class="memTemplParams" colspan="2">template&lt;typename B = BackendT&gt; <br />
 requires (detail::HasAxisDefinition&lt;B&gt;)</td></tr>
-<tr class="memitem:afba23e0932b78d3af523f936298fc2bc template"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba23e0932b78d3af523f936298fc2bc">setSensorAxes</a> (typename B::AxisDefinition axes) &amp;&amp;</td></tr>
-<tr class="memdesc:afba23e0932b78d3af523f936298fc2bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the axis definition used to orient sensitive surfaces.  <br /></td></tr>
-<tr class="memitem:af8a11424bd677040439ffd11bb1a0844" id="r_af8a11424bd677040439ffd11bb1a0844"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8a11424bd677040439ffd11bb1a0844">setSensors</a> (std::vector&lt; <a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a> &gt; sensors) &amp;&amp;</td></tr>
-<tr class="memdesc:af8a11424bd677040439ffd11bb1a0844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sensor elements to assemble into layers.  <br /></td></tr>
+<tr class="memitem:a33cc3ef1e262a1c68a7c3a1f294ce81f template"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33cc3ef1e262a1c68a7c3a1f294ce81f">setSensorAxes</a> (typename B::AxisDefinition axes) &amp;&amp;</td></tr>
+<tr class="memdesc:a33cc3ef1e262a1c68a7c3a1f294ce81f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the axis definition used to orient sensitive surfaces.  <br /></td></tr>
+<tr class="memitem:af0a33c202d0c218adf55a3aaab0728ff" id="r_af0a33c202d0c218adf55a3aaab0728ff"><td class="memItemLeft" align="right" valign="top">SensorLayerAssembler &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0a33c202d0c218adf55a3aaab0728ff">setSensors</a> (std::vector&lt; <a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a> &gt; sensors) &amp;&amp;</td></tr>
+<tr class="memdesc:af0a33c202d0c218adf55a3aaab0728ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sensor elements to assemble into layers.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;detail::BlueprintBackend BackendT&gt;<br />
 class Acts::Experimental::SensorLayerAssembler&lt; BackendT &gt;</div><p>Fluent builder that assembles multiple cylindrical or disc-like detector layers directly from sensor elements into a <a class="el" href="class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html">CylinderContainerBlueprintNode</a>. </p>
-<p>Unlike <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a>, no layer-representative element is assumed to exist. Names and transforms are never deduced from the element hierarchy; they come solely from <a class="el" href="#a3380ff04955518117a94280050b4278a">groupBy</a> keys. Obtained from <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_builder.html#a3c7558113ed2a633d65c4791abc12663">BlueprintBuilder::layersFromSensors()</a>.</p>
+<p>Unlike <a class="el" href="class_acts_1_1_experimental_1_1_element_layer_assembler.html">ElementLayerAssembler</a>, no layer-representative element is assumed to exist. Names and transforms are never deduced from the element hierarchy; they come solely from <a class="el" href="class_acts_1_1_sensor_layer_assembler.html#a4eaffe402106aed085ceaf024bc74c5d">groupBy</a> keys. Obtained from <a class="el" href="class_acts_1_1_blueprint_builder.html#a5d3576e3745d67a3cf28711b224f8b4d">BlueprintBuilder::layersFromSensors()</a>.</p>
 <p>A <span class="tt">groupBy</span> function is required: sensors mapped to the same key are merged into one layer, and the key becomes the layer name.</p>
-<p>For a single layer (no grouping), use <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer.html">SensorLayer</a> via <a class="el" href="class_acts_1_1_experimental_1_1_blueprint_builder.html#af659a16f41d64134b85d36eadbc26565">BlueprintBuilder::layerFromSensors()</a> instead.</p>
+<p>For a single layer (no grouping), use <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer.html">SensorLayer</a> via <a class="el" href="class_acts_1_1_blueprint_builder.html#a00c1700716ce70a5aa004358562a7154">BlueprintBuilder::layerFromSensors()</a> instead.</p>
 <div class="fragment"><div class="line">builder.layersFromSensors()</div>
 <div class="line">  .barrel()</div>
 <div class="line">  .setSensorAxes(myAxes)</div>
@@ -212,8 +212,8 @@ class Acts::Experimental::SensorLayerAssembler&lt; BackendT &gt;</div><p>Fluent 
   </dd>
 </dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="acd0d1c3149e986cf8914422e29516d82" name="acd0d1c3149e986cf8914422e29516d82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd0d1c3149e986cf8914422e29516d82">&#9670;&#160;</a></span>AxisDefinition</h2>
+<a id="afd6e0b06bc6128fd95ab32f483b1fec9" name="afd6e0b06bc6128fd95ab32f483b1fec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd6e0b06bc6128fd95ab32f483b1fec9">&#9670;&#160;</a></span>AxisDefinition</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +221,7 @@ class Acts::Experimental::SensorLayerAssembler&lt; BackendT &gt;</div><p>Fluent 
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::AxisDefinition</td>
+          <td class="memname">using <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::AxisDefinition</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -234,8 +234,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ac44435c5540669aedb8e170059810224" name="ac44435c5540669aedb8e170059810224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac44435c5540669aedb8e170059810224">&#9670;&#160;</a></span>addTo()</h2>
+<a id="a4396a82829c97cfd87672fa97432e0d7" name="a4396a82829c97cfd87672fa97432e0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4396a82829c97cfd87672fa97432e0d7">&#9670;&#160;</a></span>addTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,9 +243,9 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::addTo </td>
+          <td class="memname">void <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::addTo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_experimental_1_1_blueprint_node.html">BlueprintNode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_blueprint_node.html">BlueprintNode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
           <td> const &amp;&amp;</td>
         </tr>
       </table>
@@ -261,8 +261,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="ab8d3871cdd41f46de73ee156bd8fc89a" name="ab8d3871cdd41f46de73ee156bd8fc89a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8d3871cdd41f46de73ee156bd8fc89a">&#9670;&#160;</a></span>barrel()</h2>
+<a id="ac057df75c2d4adcc5257d634c8da48c5" name="ac057df75c2d4adcc5257d634c8da48c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac057df75c2d4adcc5257d634c8da48c5">&#9670;&#160;</a></span>barrel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +273,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::barrel </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::barrel </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -291,8 +291,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="abb41cedb24bd464b41bc32d68ee7074b" name="abb41cedb24bd464b41bc32d68ee7074b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb41cedb24bd464b41bc32d68ee7074b">&#9670;&#160;</a></span>build()</h2>
+<a id="aa4fd8b93369e5ede335a823b9606dd57" name="aa4fd8b93369e5ede335a823b9606dd57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4fd8b93369e5ede335a823b9606dd57">&#9670;&#160;</a></span>build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +303,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_container_blueprint_node.html">ContainerBlueprintNode</a> &gt; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::build </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_container_blueprint_node.html">ContainerBlueprintNode</a> &gt; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::build </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -319,7 +319,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 <p>Build and return the assembled container node. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::runtime_error</td><td>if the layer type is not set, if the backend requires axes and none were provided, if sensors are not set, if the container name is not set, or if <a class="el" href="#a3380ff04955518117a94280050b4278a">groupBy</a> has not been configured. </td></tr>
+    <tr><td class="paramname">std::runtime_error</td><td>if the layer type is not set, if the backend requires axes and none were provided, if sensors are not set, if the container name is not set, or if <a class="el" href="class_acts_1_1_sensor_layer_assembler.html#a4eaffe402106aed085ceaf024bc74c5d">groupBy</a> has not been configured. </td></tr>
   </table>
   </dd>
 </dl>
@@ -327,8 +327,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a89774065b4f6c2c7b944c26c2b5f240c" name="a89774065b4f6c2c7b944c26c2b5f240c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89774065b4f6c2c7b944c26c2b5f240c">&#9670;&#160;</a></span>endcap()</h2>
+<a id="af993920c08fa729c8e610495cc784a63" name="af993920c08fa729c8e610495cc784a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af993920c08fa729c8e610495cc784a63">&#9670;&#160;</a></span>endcap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +339,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::endcap </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::endcap </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -357,8 +357,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a3380ff04955518117a94280050b4278a" name="a3380ff04955518117a94280050b4278a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3380ff04955518117a94280050b4278a">&#9670;&#160;</a></span>groupBy()</h2>
+<a id="a4eaffe402106aed085ceaf024bc74c5d" name="a4eaffe402106aed085ceaf024bc74c5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eaffe402106aed085ceaf024bc74c5d">&#9670;&#160;</a></span>groupBy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,9 +369,9 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::groupBy </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::groupBy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a34d81be5b9900004e221afba314a38bc">LayerGrouper</a></td>          <td class="paramname"><span class="paramname"><em>grouper</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a5147be18e4a3ab9e086136a2b543cb91">LayerGrouper</a></td>          <td class="paramname"><span class="paramname"><em>grouper</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
         </tr>
       </table>
@@ -393,8 +393,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a1a5222255ba6f551fb084ab358a5cb86" name="a1a5222255ba6f551fb084ab358a5cb86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a5222255ba6f551fb084ab358a5cb86">&#9670;&#160;</a></span>onLayer()</h2>
+<a id="aa278f9979b42be3a073a85b43b4646ae" name="aa278f9979b42be3a073a85b43b4646ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa278f9979b42be3a073a85b43b4646ae">&#9670;&#160;</a></span>onLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,13 +402,13 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 template&lt;detail::BlueprintBackend BackendT&gt; </div>
 <div class="memtemplate">
 template&lt;typename CustomizerT&gt; <br />
-requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
+requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt; || detail::OnLayerMutatesLayer&lt;<a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a>, std::decay_t&lt;CustomizerT&gt;&gt;)</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::onLayer </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::onLayer </td>
           <td>(</td>
           <td class="paramtype">CustomizerT</td>          <td class="paramname"><span class="paramname"><em>customizer</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -432,8 +432,8 @@ requires (detail::OnLayerReturnsNode&lt;<a class="el" href="#ab482363ddc761b20c5
 
 </div>
 </div>
-<a id="a6547e59ec0519f5265d495f48064c645" name="a6547e59ec0519f5265d495f48064c645"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6547e59ec0519f5265d495f48064c645">&#9670;&#160;</a></span>planar()</h2>
+<a id="a24c359215ecef670f93dcc37724300a4" name="a24c359215ecef670f93dcc37724300a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c359215ecef670f93dcc37724300a4">&#9670;&#160;</a></span>planar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -444,7 +444,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::planar </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::planar </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -462,8 +462,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a540ee4e6fee8bd9ecc81bce276ff6652" name="a540ee4e6fee8bd9ecc81bce276ff6652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a540ee4e6fee8bd9ecc81bce276ff6652">&#9670;&#160;</a></span>setAttachmentStrategy()</h2>
+<a id="a0d1eb4250a12569bce76f2028c1c3b21" name="a0d1eb4250a12569bce76f2028c1c3b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1eb4250a12569bce76f2028c1c3b21">&#9670;&#160;</a></span>setAttachmentStrategy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,7 +474,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::setAttachmentStrategy </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::setAttachmentStrategy </td>
           <td>(</td>
           <td class="paramtype">std::optional&lt; <a class="el" href="namespace_acts.html#a281bb3932c0b5a0fb38fdab58f043848">Acts::VolumeAttachmentStrategy</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>strategy</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -498,8 +498,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a9d33cc53ef81333e42b4f6e45cc7c285" name="a9d33cc53ef81333e42b4f6e45cc7c285"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d33cc53ef81333e42b4f6e45cc7c285">&#9670;&#160;</a></span>setContainerName()</h2>
+<a id="a6ef5b62da561a29bf9ff47d3fc898835" name="a6ef5b62da561a29bf9ff47d3fc898835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ef5b62da561a29bf9ff47d3fc898835">&#9670;&#160;</a></span>setContainerName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,7 +510,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::setContainerName </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::setContainerName </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>containerName</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -534,8 +534,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="aa008ccf0e80698e125b8ffdccee2e5e9" name="aa008ccf0e80698e125b8ffdccee2e5e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa008ccf0e80698e125b8ffdccee2e5e9">&#9670;&#160;</a></span>setEnvelope()</h2>
+<a id="ae05e670baf484f4ce019f5b3cf45673f" name="ae05e670baf484f4ce019f5b3cf45673f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05e670baf484f4ce019f5b3cf45673f">&#9670;&#160;</a></span>setEnvelope()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -546,7 +546,7 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::setEnvelope </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::setEnvelope </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_acts_1_1_extent_envelope.html">Acts::ExtentEnvelope</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -570,8 +570,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="a46f990afd9ab963c221c376da319aed7" name="a46f990afd9ab963c221c376da319aed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46f990afd9ab963c221c376da319aed7">&#9670;&#160;</a></span>setLayerType()</h2>
+<a id="a80b0a5fd4a6b7f1c8dfea868a1186db4" name="a80b0a5fd4a6b7f1c8dfea868a1186db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80b0a5fd4a6b7f1c8dfea868a1186db4">&#9670;&#160;</a></span>setLayerType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,9 +582,9 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::setLayerType </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::setLayerType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#aeae5e970d6d2cdda5d72c708adfe8ae9">LayerType</a></td>          <td class="paramname"><span class="paramname"><em>layerType</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ab0b70351f82824ee90480b43aa420cd7">LayerType</a></td>          <td class="paramname"><span class="paramname"><em>layerType</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
         </tr>
       </table>
@@ -606,8 +606,8 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
 
 </div>
 </div>
-<a id="afba23e0932b78d3af523f936298fc2bc" name="afba23e0932b78d3af523f936298fc2bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afba23e0932b78d3af523f936298fc2bc">&#9670;&#160;</a></span>setSensorAxes()</h2>
+<a id="a33cc3ef1e262a1c68a7c3a1f294ce81f" name="a33cc3ef1e262a1c68a7c3a1f294ce81f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33cc3ef1e262a1c68a7c3a1f294ce81f">&#9670;&#160;</a></span>setSensorAxes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -621,7 +621,7 @@ requires (detail::HasAxisDefinition&lt;B&gt;)</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::setSensorAxes </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::setSensorAxes </td>
           <td>(</td>
           <td class="paramtype">typename B::AxisDefinition</td>          <td class="paramname"><span class="paramname"><em>axes</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
@@ -635,7 +635,7 @@ requires (detail::HasAxisDefinition&lt;B&gt;)</div>
 </div><div class="memdoc">
 
 <p>Set the axis definition used to orient sensitive surfaces. </p>
-<p>Only available when the backend defines an <a class="el" href="#acd0d1c3149e986cf8914422e29516d82">AxisDefinition</a> type and stores optional surface-axis information in <span class="tt">LayerSpec</span>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Only available when the backend defines an <a class="el" href="class_acts_1_1_sensor_layer_assembler.html#afd6e0b06bc6128fd95ab32f483b1fec9">AxisDefinition</a> type and stores optional surface-axis information in <span class="tt">LayerSpec</span>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">axes</td><td>Axis definition forwarded to <span class="tt">LayerSpec::axes</span>. </td></tr>
   </table>
@@ -645,8 +645,8 @@ requires (detail::HasAxisDefinition&lt;B&gt;)</div>
 
 </div>
 </div>
-<a id="af8a11424bd677040439ffd11bb1a0844" name="af8a11424bd677040439ffd11bb1a0844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8a11424bd677040439ffd11bb1a0844">&#9670;&#160;</a></span>setSensors()</h2>
+<a id="af0a33c202d0c218adf55a3aaab0728ff" name="af0a33c202d0c218adf55a3aaab0728ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a33c202d0c218adf55a3aaab0728ff">&#9670;&#160;</a></span>setSensors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -657,9 +657,9 @@ template&lt;detail::BlueprintBackend BackendT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_experimental_1_1_sensor_layer_assembler.html">Acts::Experimental::SensorLayerAssembler</a>&lt; BackendT &gt;::setSensors </td>
+          <td class="memname">SensorLayerAssembler &amp;&amp; <a class="el" href="class_acts_1_1_sensor_layer_assembler.html">Acts::SensorLayerAssembler</a>&lt; BackendT &gt;::setSensors </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="#ab482363ddc761b20c5eebef4caeb7a07">Element</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>sensors</em></span></td><td>)</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="#a2dab33d2c2b7e814347aaa6be4c8e596">Element</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>sensors</em></span></td><td>)</td>
           <td> &amp;&amp;</td>
         </tr>
       </table>

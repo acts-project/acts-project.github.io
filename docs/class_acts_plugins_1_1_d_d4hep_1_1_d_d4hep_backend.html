@@ -183,8 +183,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9600bf329db67cd5f7f1d0b830fa452d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the logger associated with this backend.  <br /></td></tr>
 <tr class="memitem:ac95000e59ef73cc6bea86fbac598f3c8" id="r_ac95000e59ef73cc6bea86fbac598f3c8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95000e59ef73cc6bea86fbac598f3c8">lookupLayerTransform</a> (const <a class="el" href="#a48198782c1acc222c7d0ce8d3be0538d">Element</a> &amp;element, const <a class="el" href="struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html">LayerSpec</a> &amp;layerSpec) const</td></tr>
 <tr class="memdesc:ac95000e59ef73cc6bea86fbac598f3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derive the layer transform from a DD4hep detector element when possible.  <br /></td></tr>
-<tr class="memitem:ab15ea8fd854e93e82a210878be1e4384" id="r_ab15ea8fd854e93e82a210878be1e4384"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html">Acts::Experimental::StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab15ea8fd854e93e82a210878be1e4384">makeBeampipe</a> () const</td></tr>
-<tr class="memdesc:ab15ea8fd854e93e82a210878be1e4384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a static beampipe blueprint node from the DD4hep world geometry.  <br /></td></tr>
+<tr class="memitem:a56e7a733b6934c09b01a8887afb08f4b" id="r_a56e7a733b6934c09b01a8887afb08f4b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">Acts::StaticBlueprintNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56e7a733b6934c09b01a8887afb08f4b">makeBeampipe</a> () const</td></tr>
+<tr class="memdesc:a56e7a733b6934c09b01a8887afb08f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a static beampipe blueprint node from the DD4hep world geometry.  <br /></td></tr>
 <tr class="memitem:ac03f7d4d2f0c505da2cb5ca8ebccf2f8" id="r_ac03f7d4d2f0c505da2cb5ca8ebccf2f8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03f7d4d2f0c505da2cb5ca8ebccf2f8">makeSurfaces</a> (std::span&lt; const <a class="el" href="#a48198782c1acc222c7d0ce8d3be0538d">Element</a> &gt; sensitives, const <a class="el" href="struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html">LayerSpec</a> &amp;layerSpec) const</td></tr>
 <tr class="memdesc:ac03f7d4d2f0c505da2cb5ca8ebccf2f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a set of DD4hep sensitive elements into ACTS surfaces.  <br /></td></tr>
 <tr class="memitem:a77f4a591e6fb01de96995ebba95f37b7" id="r_a77f4a591e6fb01de96995ebba95f37b7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f4a591e6fb01de96995ebba95f37b7">nameOf</a> (const <a class="el" href="#a48198782c1acc222c7d0ce8d3be0538d">Element</a> &amp;element) const</td></tr>
@@ -566,14 +566,14 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="ab15ea8fd854e93e82a210878be1e4384" name="ab15ea8fd854e93e82a210878be1e4384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab15ea8fd854e93e82a210878be1e4384">&#9670;&#160;</a></span>makeBeampipe()</h2>
+<a id="a56e7a733b6934c09b01a8887afb08f4b" name="a56e7a733b6934c09b01a8887afb08f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56e7a733b6934c09b01a8887afb08f4b">&#9670;&#160;</a></span>makeBeampipe()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_experimental_1_1_static_blueprint_node.html">Acts::Experimental::StaticBlueprintNode</a> &gt; ActsPlugins::DD4hep::DD4hepBackend::makeBeampipe </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_acts_1_1_static_blueprint_node.html">Acts::StaticBlueprintNode</a> &gt; ActsPlugins::DD4hep::DD4hepBackend::makeBeampipe </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

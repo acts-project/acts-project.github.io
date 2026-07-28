@@ -21,7 +21,7 @@ var searchData=
   ['defaultenveloper_18',['defaultEnvelopeR',['../struct_acts_1_1_layer_creator_1_1_config.html#ae0f21ce653b8b9521a494c2df807bca7',1,'Acts::LayerCreator::Config']]],
   ['defaultenvelopez_19',['defaultEnvelopeZ',['../struct_acts_1_1_layer_creator_1_1_config.html#a1ad17744deaec7be4fe2128640ebf730',1,'Acts::LayerCreator::Config']]],
   ['defaultextension_20',['defaultExtension',['../struct_acts_1_1_eigen_stepper_dense_extension.html#a25ce62107dc409b1f0c96bc450c550f3',1,'Acts::EigenStepperDenseExtension']]],
-  ['defaultnavigationpolicyfactory_21',['defaultNavigationPolicyFactory',['../struct_acts_1_1_experimental_1_1_blueprint_options.html#ad21a09d857c91331a06603c9c6666fa8',1,'Acts::Experimental::BlueprintOptions']]],
+  ['defaultnavigationpolicyfactory_21',['defaultNavigationPolicyFactory',['../struct_acts_1_1_blueprint_options.html#abdceedc93026df25471700e2198c47bc',1,'Acts::BlueprintOptions::defaultNavigationPolicyFactory'],['../struct_acts_1_1_experimental_1_1_blueprint_options.html#abdceedc93026df25471700e2198c47bc',1,'Acts::Experimental::BlueprintOptions::defaultNavigationPolicyFactory']]],
   ['defaultthickness_22',['defaultThickness',['../struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#ae407fba068d235278a6a87f64418d820',1,'ActsPlugins::DD4hepLayerBuilder::Config']]],
   ['defvtxposition_23',['defVtxPosition',['../struct_acts_1_1_hough_vertex_finder_1_1_config.html#a3905621e53e0934d32523d0ff8f17cf9',1,'Acts::HoughVertexFinder::Config']]],
   ['degree_24',['degree',['../namespace_acts_1_1_unit_constants.html#a3c2306f2168243ce1b461df5b0a3b579',1,'Acts::UnitConstants']]],

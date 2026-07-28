@@ -49,7 +49,7 @@ var group__detray__plugin =
       [ "convertHomogeneousSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#ac59cc6bfe06441d9a9a4b078af75daa1", null ],
       [ "convertMask", "class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30", null ],
       [ "convertMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a4f0a6766e441baba98eff6427d7424bc", null ],
-      [ "convertMultiLayerNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#a574896548ff04ce806532d47a44b8227", null ],
+      [ "convertMultiLayerNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#a785c6510cb78e1bd3a98ff5bc2dd767b", null ],
       [ "convertMultiNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#a4da94ad1f29faf63857d84be9e4154d4", null ],
       [ "convertProtoSurfaceMaterialBinUtility", "class_acts_plugins_1_1_detray_payload_converter.html#adcaa739825f529ad15590157c9a57e36", null ],
       [ "convertProtoSurfaceMaterialProtoAxes", "class_acts_plugins_1_1_detray_payload_converter.html#a27aa246c7139a35c80fcdd6c11c541a9", null ],

@@ -3,7 +3,7 @@ var searchData=
   ['landaudistribution_0',['LandauDistribution',['../class_acts_fatras_1_1_landau_distribution.html',1,'ActsFatras']]],
   ['layer_1',['Layer',['../class_acts_1_1_layer.html',1,'Acts']]],
   ['layerarraycreator_2',['LayerArrayCreator',['../class_acts_1_1_layer_array_creator.html',1,'Acts']]],
-  ['layerblueprintnode_3',['LayerBlueprintNode',['../class_acts_1_1_experimental_1_1_layer_blueprint_node.html',1,'Acts::Experimental']]],
+  ['layerblueprintnode_3',['LayerBlueprintNode',['../class_acts_1_1_experimental_1_1_layer_blueprint_node.html',1,'Acts::Experimental::LayerBlueprintNode'],['../class_acts_1_1_layer_blueprint_node.html',1,'Acts::LayerBlueprintNode']]],
   ['layerconfig_4',['LayerConfig',['../struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html',1,'Acts::CuboidVolumeBuilder::LayerConfig'],['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig']]],
   ['layercreator_5',['LayerCreator',['../class_acts_1_1_layer_creator.html',1,'Acts']]],
   ['layerdescription_6',['LayerDescription',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html',1,'Acts::Experimental::GbtsLayerConnectionTool']]],

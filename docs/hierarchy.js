@@ -50,6 +50,7 @@ var hierarchy =
     [ "Acts::Axis&lt; type, bdt &gt;", "class_acts_1_1_axis.html", null ],
     [ "Acts::AxisAlignedBoundingBox&lt; entity_t, value_t, DIM &gt;", "class_acts_1_1_axis_aligned_bounding_box.html", null ],
     [ "Acts::AxisBoundaryTypeTag&lt; bdt &gt;", "struct_acts_1_1_axis_boundary_type_tag.html", null ],
+    [ "Acts::BarrelEndcapAssembler&lt; BackendT &gt;", "class_acts_1_1_barrel_endcap_assembler.html", null ],
     [ "Acts::BasePropagator", "class_acts_1_1_base_propagator.html", null ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
       [ "Acts::BetheHeitlerApproxSingleCmp", "class_acts_1_1_bethe_heitler_approx_single_cmp.html", null ],
@@ -63,6 +64,23 @@ var hierarchy =
     [ "Acts::BinnedSurfaceMaterialAccumulator::Config", "struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html", null ],
     [ "Acts::BinningData", "class_acts_1_1_binning_data.html", null ],
     [ "Acts::BinUtility", "class_acts_1_1_bin_utility.html", null ],
+    [ "Acts::Blueprint::Config", "struct_acts_1_1_blueprint_1_1_config.html", null ],
+    [ "Acts::BlueprintBuilder&lt; BackendT &gt;", "class_acts_1_1_blueprint_builder.html", null ],
+    [ "Acts::BlueprintNode", "class_acts_1_1_blueprint_node.html", [
+      [ "Acts::Blueprint", "class_acts_1_1_blueprint.html", null ],
+      [ "Acts::ContainerBlueprintNode", "class_acts_1_1_container_blueprint_node.html", [
+        [ "Acts::CuboidContainerBlueprintNode", "class_acts_1_1_cuboid_container_blueprint_node.html", null ],
+        [ "Acts::CylinderContainerBlueprintNode", "class_acts_1_1_cylinder_container_blueprint_node.html", null ]
+      ] ],
+      [ "Acts::GeometryIdentifierBlueprintNode", "class_acts_1_1_geometry_identifier_blueprint_node.html", null ],
+      [ "Acts::MaterialDesignatorBlueprintNode", "class_acts_1_1_material_designator_blueprint_node.html", null ],
+      [ "Acts::PortalDesignatorBlueprintNode", "class_acts_1_1_portal_designator_blueprint_node.html", null ],
+      [ "Acts::StaticBlueprintNode", "class_acts_1_1_static_blueprint_node.html", [
+        [ "Acts::LayerBlueprintNode", "class_acts_1_1_layer_blueprint_node.html", null ],
+        [ "Acts::PadBlueprintNode", "class_acts_1_1_pad_blueprint_node.html", null ]
+      ] ]
+    ] ],
+    [ "Acts::BlueprintOptions", "struct_acts_1_1_blueprint_options.html", null ],
     [ "Acts::BoundarySurfaceT&lt; volume_t &gt;", "class_acts_1_1_boundary_surface_t.html", null ],
     [ "Acts::BoundaryTolerance", "class_acts_1_1_boundary_tolerance.html", null ],
     [ "Acts::BoundaryTolerance::AbsoluteEuclideanParams", "struct_acts_1_1_boundary_tolerance_1_1_absolute_euclidean_params.html", null ],
@@ -182,6 +200,7 @@ var hierarchy =
     [ "Acts::EigenStepperDefaultExtension", "struct_acts_1_1_eigen_stepper_default_extension.html", null ],
     [ "Acts::EigenStepperDenseExtension", "struct_acts_1_1_eigen_stepper_dense_extension.html", null ],
     [ "Acts::ElementFraction", "class_acts_1_1_element_fraction.html", null ],
+    [ "Acts::ElementLayerAssembler&lt; BackendT &gt;", "class_acts_1_1_element_layer_assembler.html", null ],
     [ "Acts::EndOfWorldReached", "struct_acts_1_1_end_of_world_reached.html", null ],
     [ "Acts::EstimateTrackParamCovarianceConfig", "struct_acts_1_1_estimate_track_param_covariance_config.html", null ],
     [ "Acts::EventDataView3D", "struct_acts_1_1_event_data_view3_d.html", null ],
@@ -189,18 +208,12 @@ var hierarchy =
     [ "Acts::Experimental::Blueprint::Config", "struct_acts_1_1_experimental_1_1_blueprint_1_1_config.html", null ],
     [ "Acts::Experimental::BlueprintBuilder&lt; BackendT &gt;", "class_acts_1_1_experimental_1_1_blueprint_builder.html", null ],
     [ "Acts::Experimental::BlueprintNode", "class_acts_1_1_experimental_1_1_blueprint_node.html", [
-      [ "Acts::Experimental::Blueprint", "class_acts_1_1_experimental_1_1_blueprint.html", null ],
-      [ "Acts::Experimental::ContainerBlueprintNode", "class_acts_1_1_experimental_1_1_container_blueprint_node.html", [
-        [ "Acts::Experimental::CuboidContainerBlueprintNode", "class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html", null ],
-        [ "Acts::Experimental::CylinderContainerBlueprintNode", "class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html", null ]
-      ] ],
-      [ "Acts::Experimental::GeometryIdentifierBlueprintNode", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html", null ],
-      [ "Acts::Experimental::MaterialDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_material_designator_blueprint_node.html", null ],
-      [ "Acts::Experimental::PortalDesignatorBlueprintNode", "class_acts_1_1_experimental_1_1_portal_designator_blueprint_node.html", null ],
-      [ "Acts::Experimental::StaticBlueprintNode", "class_acts_1_1_experimental_1_1_static_blueprint_node.html", [
-        [ "Acts::Experimental::LayerBlueprintNode", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html", null ],
-        [ "Acts::Experimental::PadBlueprintNode", "class_acts_1_1_experimental_1_1_pad_blueprint_node.html", null ]
-      ] ]
+      [ "Acts::Blueprint", "class_acts_1_1_blueprint.html", null ],
+      [ "Acts::ContainerBlueprintNode", "class_acts_1_1_container_blueprint_node.html", null ],
+      [ "Acts::GeometryIdentifierBlueprintNode", "class_acts_1_1_geometry_identifier_blueprint_node.html", null ],
+      [ "Acts::MaterialDesignatorBlueprintNode", "class_acts_1_1_material_designator_blueprint_node.html", null ],
+      [ "Acts::PortalDesignatorBlueprintNode", "class_acts_1_1_portal_designator_blueprint_node.html", null ],
+      [ "Acts::StaticBlueprintNode", "class_acts_1_1_static_blueprint_node.html", null ]
     ] ],
     [ "Acts::Experimental::BlueprintOptions", "struct_acts_1_1_experimental_1_1_blueprint_options.html", null ],
     [ "Acts::Experimental::BoundParameterVariationGenerator", "struct_acts_1_1_experimental_1_1_bound_parameter_variation_generator.html", [
@@ -458,8 +471,8 @@ var hierarchy =
       [ "Acts::IndexGridNavigationPolicy< RegularDiscIndexGrid >", "class_acts_1_1_index_grid_navigation_policy.html", null ],
       [ "Acts::IndexGridNavigationPolicy< RegularPlaneIndexGrid >", "class_acts_1_1_index_grid_navigation_policy.html", null ],
       [ "Acts::CylinderNavigationPolicy", "class_acts_1_1_cylinder_navigation_policy.html", null ],
-      [ "Acts::Experimental::MultiLayerNavigationPolicy", "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html", null ],
       [ "Acts::IndexGridNavigationPolicy< GridType >", "class_acts_1_1_index_grid_navigation_policy.html", null ],
+      [ "Acts::MultiLayerNavigationPolicy", "class_acts_1_1_multi_layer_navigation_policy.html", null ],
       [ "Acts::MultiNavigationPolicy", "class_acts_1_1_multi_navigation_policy.html", null ],
       [ "Acts::SurfaceArrayNavigationPolicy", "class_acts_1_1_surface_array_navigation_policy.html", null ],
       [ "Acts::TryAllNavigationPolicy", "class_acts_1_1_try_all_navigation_policy.html", null ]
@@ -616,6 +629,7 @@ var hierarchy =
     [ "Acts::MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html", null ],
     [ "Acts::MultiIndex&lt; T, BitsPerLevel &gt;", "class_acts_1_1_multi_index.html", null ],
     [ "Acts::MultiIntersection&lt; DIM &gt;", "class_acts_1_1_multi_intersection.html", null ],
+    [ "Acts::MultiLayerNavigationPolicy::Config", "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html", null ],
     [ "Acts::MultiNavigationPolicy::State", "struct_acts_1_1_multi_navigation_policy_1_1_state.html", null ],
     [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;", "class_acts_1_1_multi_stepper_loop.html", null ],
     [ "Acts::MultiStepperLoop&lt; single_stepper_t, component_reducer_t &gt;::State", "struct_acts_1_1_multi_stepper_loop_1_1_state.html", null ],
@@ -634,6 +648,8 @@ var hierarchy =
       [ "Acts::VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html", null ]
     ] ],
     [ "Acts::MultiTrajectoryHelpers::TrajectoryState", "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html", null ],
+    [ "Acts::MultiWireVolumeBuilder", "class_acts_1_1_multi_wire_volume_builder.html", null ],
+    [ "Acts::MultiWireVolumeBuilder::Config", "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html", null ],
     [ "Acts::NavigationArguments", "struct_acts_1_1_navigation_arguments.html", null ],
     [ "Acts::NavigationOptions&lt; object_t &gt;", "struct_acts_1_1_navigation_options.html", null ],
     [ "Acts::NavigationPolicyFactory", "class_acts_1_1_navigation_policy_factory.html", null ],
@@ -722,6 +738,8 @@ var hierarchy =
     [ "Acts::SeedProxy&lt; read_only &gt;", "class_acts_1_1_seed_proxy.html", null ],
     [ "Acts::SeedProxy&lt; read_only &gt;::SpacePointIterator", "class_acts_1_1_seed_proxy_1_1_space_point_iterator.html", null ],
     [ "Acts::SeedProxy&lt; read_only &gt;::SpacePointRange", "class_acts_1_1_seed_proxy_1_1_space_point_range.html", null ],
+    [ "Acts::SensorLayer&lt; BackendT &gt;", "class_acts_1_1_sensor_layer.html", null ],
+    [ "Acts::SensorLayerAssembler&lt; BackendT &gt;", "class_acts_1_1_sensor_layer_assembler.html", null ],
     [ "Acts::SolenoidBField::Cache", "struct_acts_1_1_solenoid_b_field_1_1_cache.html", null ],
     [ "Acts::SolenoidBField::Config", "struct_acts_1_1_solenoid_b_field_1_1_config.html", null ],
     [ "Acts::SourceLink", "class_acts_1_1_source_link.html", null ],

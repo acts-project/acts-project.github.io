@@ -6,7 +6,7 @@ var searchData=
   ['packedxyzr_3',['PackedXYZR',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca269c2c69bee6c10ef3af8a53bc15c2ca',1,'Acts']]],
   ['packedzr_4',['PackedZR',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac04ff32d34de75a9d213b5205e8d3f37',1,'Acts']]],
   ['phi_5',['Phi',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399ca5a82bece4586ad7cb17ba739a2db7f67',1,'Acts']]],
-  ['plane_6',['Plane',['../class_acts_1_1_experimental_1_1_layer_blueprint_node.html#aeae5e970d6d2cdda5d72c708adfe8ae9a0d3adee051531c15b3509b4d4d75ce7b',1,'Acts::Experimental::LayerBlueprintNode']]],
+  ['plane_6',['Plane',['../class_acts_1_1_layer_blueprint_node.html#ab0b70351f82824ee90480b43aa420cd7a0d3adee051531c15b3509b4d4d75ce7b',1,'Acts::LayerBlueprintNode']]],
   ['positionnotonanychildportallink_7',['PositionNotOnAnyChildPortalLink',['../group__errors.html#ggad9ea430c0897aa29fcaccb4fa68aa459a2fb2d2aa3fefe80d75ca568b29f43bb1',1,'Acts']]],
   ['postpropagation_8',['postPropagation',['../namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05ba3b5645e433f7f9bc6947d24d27d87ed7',1,'Acts']]],
   ['poststep_9',['postStep',['../namespace_acts.html#ad71ecb37457c7761afe0fea9e203d05ba6611d3ea55ba2b9a3c8daeec0e77a35f',1,'Acts']]],
