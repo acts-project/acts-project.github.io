@@ -234,7 +234,7 @@ $(function(){initNavTree('_index_grid_8hpp_source.html','',''); });
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  }</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  <span class="comment">// Bin range bounding box - estimated from the query points</span></div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; q : queries) {</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keyword">auto</span> qbin = grid.localBinsFromPosition(q);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keyword">auto</span> qbin = grid.multiAxis().getLocalBinsFromPoint(q);</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keywordflow">for</span> (std::size_t ib = 0; ib &lt; grid_type::DIM; ++ib) {</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>      <span class="keyword">auto</span> iqb = qbin[ib];</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>      binRanges[ib][0<a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af066b634484aac88b6afc5f7b3b63bc9">u</a>] = std::min(iqb, binRanges[ib][0u]);</div>

@@ -280,8 +280,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a19685b43a3f5f53bbc7ad942a95d8ce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get global bin indices for neighborhood  <br /></td></tr>
 <tr class="memitem:a437b937ba46437ca3b00b5ec80afcf30" id="r_a437b937ba46437ca3b00b5ec80afcf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a55c9e732ec7e0e0e4800490d8272d33d">index_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437b937ba46437ca3b00b5ec80afcf30">numLocalBins</a> () const</td></tr>
 <tr class="memdesc:a437b937ba46437ca3b00b5ec80afcf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of bins along each specific axis  <br /></td></tr>
-<tr class="memitem:a48a8cf88407869fab9ebe52f767afa56" id="r_a48a8cf88407869fab9ebe52f767afa56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_i_grid.html#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48a8cf88407869fab9ebe52f767afa56">numLocalBinsAny</a> () const override</td></tr>
-<tr class="memdesc:a48a8cf88407869fab9ebe52f767afa56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local bins for a given set of indices.     <br /></td></tr>
 <tr class="memitem:a7878a873d446d5737f464f153e5cd16c" id="r_a7878a873d446d5737f464f153e5cd16c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7878a873d446d5737f464f153e5cd16c">setExteriorBins</a> (const <a class="el" href="#ab991c0a988e9448afb12046fadd43013">value_type</a> &amp;value)</td></tr>
 <tr class="memdesc:a7878a873d446d5737f464f153e5cd16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all overflow and underflow bins to a certain value  <br /></td></tr>
 <tr class="memitem:a46ef57dddea5f1a063887e03eece48a4" id="r_a46ef57dddea5f1a063887e03eece48a4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46ef57dddea5f1a063887e03eece48a4">size</a> (bool fullCounter=true) const</td></tr>
@@ -296,6 +294,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2d7ec31ad09c03b3f9e0e31a9bf019ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the upper right edge of a bin for a given set of indices.  <br /></td></tr>
 <tr class="memitem:a89603c10c1186226d2bf21b4c9d19fcc" id="r_a89603c10c1186226d2bf21b4c9d19fcc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_i_grid.html#ae491b2aad1b247db3290e87dd8e6fa6a">AnyPointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_grid.html#a89603c10c1186226d2bf21b4c9d19fcc">binCenterAny</a> (const <a class="el" href="class_acts_1_1_i_grid.html#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> &amp;indices) const</td></tr>
 <tr class="memdesc:a89603c10c1186226d2bf21b4c9d19fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center of a bin for a given set of indices.  <br /></td></tr>
+<tr class="memitem:a7645634f5f0f08f02fbbf48e54772e11" id="r_a7645634f5f0f08f02fbbf48e54772e11"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_i_grid.html#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_i_grid.html#a7645634f5f0f08f02fbbf48e54772e11">numLocalBinsAny</a> () const</td></tr>
+<tr class="memdesc:a7645634f5f0f08f02fbbf48e54772e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local bins for a given set of indices.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -933,6 +933,7 @@ template&lt;typename T, class... Axes&gt; </div>
 
 <p>get the axes as a tuple </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the tuple containing all grid axes </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000043">Deprecated</a></b></dt><dd>Use grid.multiAxis().getAxesTuple() instead </dd></dl>
 
 </div>
 </div>
@@ -1050,6 +1051,7 @@ template&lt;typename T, class... Axes&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>center position of bin</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>All local bin indices must be a valid index for the corresponding axis (excluding the under-/overflow bins for each axis). </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000027">Deprecated</a></b></dt><dd>Use grid.multiAxis().getBinCenter(localBins) instead </dd></dl>
 
 </div>
 </div>
@@ -1072,6 +1074,7 @@ template&lt;typename T, class... Axes&gt; </div>
 
 <p>get bin width along each specific axis </p>
 <dl class="section return"><dt>Returns</dt><dd>array giving the bin width alonf all axes </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000036">Deprecated</a></b></dt><dd>Use grid.multiAxis().getBinWidth({}) instead </dd></dl>
 
 </div>
 </div>
@@ -1109,6 +1112,7 @@ template&lt;class Point&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Iterable thatemits the indices of bins whose lower-left corners are the closest points on the grid to the input.</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>Point</code> type must represent a point in d (or higher) dimensions where d is dimensionality of the grid. It must lie within the grid range (i.e. not within a under-/overflow bin). </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000026">Deprecated</a></b></dt><dd>Use grid.multiAxis().getClosestPointsIndices(point) instead </dd></dl>
 
 </div>
 </div>
@@ -1296,6 +1300,7 @@ template&lt;class Point&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>global index for bin containing the given point</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>Point</code> type must represent a point in d (or higher) dimensions where d is dimensionality of the grid. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This could be a under-/overflow bin along one or more axes. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000030">Deprecated</a></b></dt><dd>Use grid.multiAxis().getGlobalBinFromLowerLeftEdge(point) instead </dd></dl>
 
 </div>
 </div>
@@ -1325,6 +1330,7 @@ template&lt;typename T, class... Axes&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>global index for bin defined by the local bin indices</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>All local bin indices must be a valid index for the corresponding axis (including the under-/overflow bin for this axis). </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000029">Deprecated</a></b></dt><dd>Use grid.multiAxis().getGlobalBinFromLocalBins(localBins) instead </dd></dl>
 
 </div>
 </div>
@@ -1363,6 +1369,7 @@ template&lt;class Point&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>global index for bin containing the given point</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>Point</code> type must represent a point in d (or higher) dimensions where d is dimensionality of the grid. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This could be a under-/overflow bin along one or more axes. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000028">Deprecated</a></b></dt><dd>Use grid.multiAxis().getGlobalBinFromPoint(point) instead </dd></dl>
 
 </div>
 </div>
@@ -1442,6 +1449,7 @@ template&lt;class Point&gt; </div>
         \dots, d-1\), otherwise <code>false</code> </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>Point</code> type must represent a point in d (or higher) dimensions where d is dimensionality of the grid.</dd></dl>
 <dl class="section post"><dt>Postcondition</dt><dd>If <code>true</code> is returned, the global bin containing the given point is a valid bin, i.e. it is neither a underflow nor an overflow bin along any axis. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000040">Deprecated</a></b></dt><dd>Use grid.multiAxis().isInside(position) instead </dd></dl>
 
 </div>
 </div>
@@ -1471,6 +1479,7 @@ template&lt;typename T, class... Axes&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array with local bin indices along each axis (in same order as given <code>axes</code> object)</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Local bin indices can contain under-/overflow bins along the corresponding axis. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000032">Deprecated</a></b></dt><dd>Use grid.multiAxis().getLocalBinsFromGlobalBin(bin) instead </dd></dl>
 
 </div>
 </div>
@@ -1509,6 +1518,7 @@ template&lt;class Point&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>array with local bin indices along each axis (in same order as given <code>axes</code> object)</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>Point</code> type must represent a point in d (or higher) dimensions where d is dimensionality of the grid. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This could be a under-/overflow bin along one or more axes. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000033">Deprecated</a></b></dt><dd>Use grid.multiAxis().getLocalBinsFromLowerLeftEdge(point) instead </dd></dl>
 
 </div>
 </div>
@@ -1547,6 +1557,7 @@ template&lt;class Point&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>array with local bin indices along each axis (in same order as given <code>axes</code> object)</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The given <code>Point</code> type must represent a point in d (or higher) dimensions where d is dimensionality of the grid. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This could be a under-/overflow bin along one or more axes. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000031">Deprecated</a></b></dt><dd>Use grid.multiAxis().getLocalBinsFromPoint(point) instead </dd></dl>
 
 </div>
 </div>
@@ -1576,6 +1587,7 @@ template&lt;typename T, class... Axes&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>generalized lower-left bin edge position</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>localBins</code> must only contain valid bin indices (excluding underflow bins). </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000034">Deprecated</a></b></dt><dd>Use grid.multiAxis().getLowerLeftBinEdge(localBins) instead </dd></dl>
 
 </div>
 </div>
@@ -1598,6 +1610,7 @@ template&lt;typename T, class... Axes&gt; </div>
 
 <p>get the maximum value of all axes of one grid </p>
 <dl class="section return"><dt>Returns</dt><dd>array returning the maxima of all given axes </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000039">Deprecated</a></b></dt><dd>Use grid.multiAxis().getMaxPoint() instead </dd></dl>
 
 </div>
 </div>
@@ -1620,6 +1633,7 @@ template&lt;typename T, class... Axes&gt; </div>
 
 <p>get the minimum value of all axes of one grid </p>
 <dl class="section return"><dt>Returns</dt><dd>array returning the minima of all given axes </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000038">Deprecated</a></b></dt><dd>Use grid.multiAxis().getMinPoint() instead </dd></dl>
 
 </div>
 </div>
@@ -1711,6 +1725,8 @@ template&lt;typename T, class... Axes&gt; </div>
 <dd>
 The <code>size</code> parameter sets the range by how many units each local bin index is allowed to be varied. All local bin indices are varied independently, that is diagonal neighbors are included. Ignoring the truncation of the neighborhood size reaching beyond over-/underflow bins, the neighborhood is of size  \(2 \times
       \text{size}+1\) along each dimension. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000042">Deprecated</a></b></dt><dd>Use grid.multiAxis().getNeighborHoodIndices(localBins,
+            sizePerAxis) instead </dd></dl>
 
 </div>
 </div>
@@ -1748,6 +1764,7 @@ template&lt;typename T, class... Axes&gt; </div>
 <dd>
 The <code>size</code> parameter sets the range by how many units each local bin index is allowed to be varied. All local bin indices are varied independently, that is diagonal neighbors are included. Ignoring the truncation of the neighborhood size reaching beyond over-/underflow bins, the neighborhood is of size  \(2 \times
       \text{size}+1\) along each dimension. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000041">Deprecated</a></b></dt><dd>Use grid.multiAxis().getNeighborHoodIndices(localBins, size) instead </dd></dl>
 
 </div>
 </div>
@@ -1771,38 +1788,7 @@ template&lt;typename T, class... Axes&gt; </div>
 <p>get number of bins along each specific axis </p>
 <dl class="section return"><dt>Returns</dt><dd>array giving the number of bins along all axes</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Not including under- and overflow bins </dd></dl>
-
-</div>
-</div>
-<a id="a48a8cf88407869fab9ebe52f767afa56" name="a48a8cf88407869fab9ebe52f767afa56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48a8cf88407869fab9ebe52f767afa56">&#9670;&#160;</a></span>numLocalBinsAny()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, class... Axes&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_acts_1_1_i_grid.html#a141abb56f1f63dd9c6b14f1a1e30a414">AnyIndexType</a> <a class="el" href="class_acts_1_1_grid.html">Acts::Grid</a>&lt; T, Axes &gt;::numLocalBinsAny </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the number of local bins for a given set of indices.    </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of local bins    </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_acts_1_1_i_grid.html#a7645634f5f0f08f02fbbf48e54772e11">Acts::IGrid</a>.</p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000037">Deprecated</a></b></dt><dd>Use grid.multiAxis().getNBins() instead </dd></dl>
 
 </div>
 </div>
@@ -1923,6 +1909,7 @@ template&lt;typename T, class... Axes&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>generalized upper-right bin edge position</dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>localBins</code> must only contain valid bin indices (excluding overflow bins). </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000035">Deprecated</a></b></dt><dd>Use grid.multiAxis().getUpperRightBinEdge(localBins) instead </dd></dl>
 
 </div>
 </div>

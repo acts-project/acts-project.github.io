@@ -162,7 +162,7 @@ $(function(){initNavTree('_grid_surface_material_factory_8hpp_source.html','',''
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="comment">// Fill it via the grid view</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <a class="code hl_function" href="namespace_acts.html#adaeded646732245db32f202c44527534">AnyGridView&lt;typename material_accessor_t::grid_value_type&gt;</a> gv =</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>      ism-&gt;gridView();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keyword">auto</span> indices = gv.numLocalBins();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keyword">auto</span> indices = gv.multiAxisAny().getNBinsAny();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordflow">for</span> (std::size_t i0 = 0; i0 &lt; indices[0]; ++i0) {</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// Offset comes from overflow/underflow bin</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    gv.atLocalBins({i0 + 1u}) = payload[i0];</div>
@@ -203,7 +203,7 @@ $(function(){initNavTree('_grid_surface_material_factory_8hpp_source.html','',''
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="comment">// Fill it via the grid view</span></div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <a class="code hl_function" href="namespace_acts.html#adaeded646732245db32f202c44527534">AnyGridView&lt;typename material_accessor_t::grid_value_type&gt;</a> gv =</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>      ism-&gt;gridView();</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keyword">auto</span> indices = gv.numLocalBins();</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keyword">auto</span> indices = gv.multiAxisAny().getNBinsAny();</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="keywordflow">for</span> (std::size_t i0 = 0; i0 &lt; indices[0]; ++i0) {</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordflow">for</span> (std::size_t i1 = 0; i1 &lt; indices[1]; ++i1) {</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>      <span class="comment">// Offset comes from overflow/underflow bin</span></div>

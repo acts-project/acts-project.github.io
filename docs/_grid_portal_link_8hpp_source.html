@@ -360,7 +360,7 @@ $(function(){initNavTree('_grid_portal_link_8hpp_source.html','',''); });
 <div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span></div>
 <div class="foldopen" id="foldopen00543" data-start="{" data-end="}">
 <div class="line"><a id="l00543" name="l00543"></a><span class="lineno"><a class="line" href="class_acts_1_1_grid_portal_link_t.html#a900cf55fafdf7ccdc580450abf8a2cf6">  543</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_acts_1_1_grid_portal_link_t.html#a900cf55fafdf7ccdc580450abf8a2cf6">setVolume</a>(<a class="code hl_class" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a>* volume)<span class="keyword"> override </span>{</div>
-<div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span>    <span class="keyword">auto</span> loc = m_grid.numLocalBins();</div>
+<div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span>    <span class="keyword">auto</span> loc = m_grid.multiAxis().getNBins();</div>
 <div class="line"><a id="l00545" name="l00545"></a><span class="lineno">  545</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_variable" href="class_acts_1_1_grid.html#a70f9ce730a3ae12db001f3041cf0abb0">GridType::DIM</a> == 1) {</div>
 <div class="line"><a id="l00546" name="l00546"></a><span class="lineno">  546</span>      <span class="keywordflow">for</span> (std::size_t i = 1; i &lt;= loc[0]; i++) {</div>
 <div class="line"><a id="l00547" name="l00547"></a><span class="lineno">  547</span>        m_grid.atLocalBins({i}) = volume;</div>

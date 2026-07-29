@@ -53,7 +53,6 @@ var class_acts_1_1_grid =
     [ "neighborHoodIndices", "class_acts_1_1_grid.html#a7c9e720bac74b2edf7fb8b15cbd8636e", null ],
     [ "neighborHoodIndices", "class_acts_1_1_grid.html#a19685b43a3f5f53bbc7ad942a95d8ce7", null ],
     [ "numLocalBins", "class_acts_1_1_grid.html#a437b937ba46437ca3b00b5ec80afcf30", null ],
-    [ "numLocalBinsAny", "class_acts_1_1_grid.html#a48a8cf88407869fab9ebe52f767afa56", null ],
     [ "setExteriorBins", "class_acts_1_1_grid.html#a7878a873d446d5737f464f153e5cd16c", null ],
     [ "size", "class_acts_1_1_grid.html#a46ef57dddea5f1a063887e03eece48a4", null ],
     [ "toStream", "class_acts_1_1_grid.html#a85a73c78d6251fb11666db5aff19e581", null ],

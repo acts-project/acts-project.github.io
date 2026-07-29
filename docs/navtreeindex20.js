@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"class_acts_1_1_i_confined_tracking_volume_builder.html#ac48e352f89895b860ef5b36a9c44b3a9":[7,0,0,192,1],
-"class_acts_1_1_i_grid.html":[5,0,0,185],
 "class_acts_1_1_i_grid.html":[7,0,0,193],
 "class_acts_1_1_i_grid.html#a128ca3d826ef384157247b3a1efdb249":[5,0,0,185,12],
 "class_acts_1_1_i_grid.html#a128ca3d826ef384157247b3a1efdb249":[7,0,0,193,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[7,0,0,231,0],
 "class_acts_1_1_i_tracking_geometry_builder.html":[5,0,0,225],
 "class_acts_1_1_i_tracking_geometry_builder.html":[7,0,0,233],
-"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[5,0,0,225,0]
+"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[5,0,0,225,0],
+"class_acts_1_1_i_tracking_geometry_builder.html#a055204a4f82c21866c92983d13a6aaca":[7,0,0,233,0],
+"class_acts_1_1_i_tracking_geometry_builder.html#a57fdbe90bcb5e7bd6ea07d37c1c5ca70":[5,0,0,225,1]
 };
