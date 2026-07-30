@@ -187,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aac1f854c86a041467891e054e1a0001a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
 <tr class="memitem:ab4ed37d94a1d76379d79acceb37e73b8" id="r_ab4ed37d94a1d76379d79acceb37e73b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4ed37d94a1d76379d79acceb37e73b8">operator=</a> (<a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp;&amp;)=default</td></tr>
 <tr class="memdesc:ab4ed37d94a1d76379d79acceb37e73b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
+<tr class="memitem:a63132ecae8d60f48be10e1a74ddb5db9" id="r_a63132ecae8d60f48be10e1a74ddb5db9"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63132ecae8d60f48be10e1a74ddb5db9">origParticleIdx</a> () const</td></tr>
+<tr class="memdesc:a63132ecae8d60f48be10e1a74ddb5db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original particle index (to match HepMC).  <br /></td></tr>
 <tr class="memitem:a718b696832682f3c950f46ebf4723189" id="r_a718b696832682f3c950f46ebf4723189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts_fatras.html#ab7375a70d516f1fdd121aeb857784d8b">SimulationOutcome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a718b696832682f3c950f46ebf4723189">outcome</a> () const</td></tr>
 <tr class="memdesc:a718b696832682f3c950f46ebf4723189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle outcome.  <br /></td></tr>
 <tr class="memitem:a87fdb0b205ffc8180166d7d4a3343f03" id="r_a87fdb0b205ffc8180166d7d4a3343f03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_fatras_1_1_barcode.html">Barcode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87fdb0b205ffc8180166d7d4a3343f03">parentParticleId</a> () const</td></tr>
@@ -225,6 +227,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9813e1811de45932af44f19a455b3b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the accumulated material measured in radiation/interaction lengths.  <br /></td></tr>
 <tr class="memitem:acf07fb9dadd7390716ebfb3a88a4c85e" id="r_acf07fb9dadd7390716ebfb3a88a4c85e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf07fb9dadd7390716ebfb3a88a4c85e">setNumberOfHits</a> (std::uint32_t nHits)</td></tr>
 <tr class="memdesc:acf07fb9dadd7390716ebfb3a88a4c85e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of hits.  <br /></td></tr>
+<tr class="memitem:a743f09476dc88e907f63fd6170d6407a" id="r_a743f09476dc88e907f63fd6170d6407a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a743f09476dc88e907f63fd6170d6407a">setOrigParticleIdx</a> (std::uint32_t idx)</td></tr>
+<tr class="memdesc:a743f09476dc88e907f63fd6170d6407a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle ID.  <br /></td></tr>
 <tr class="memitem:acebde053607b0607d64876fc19a693c4" id="r_acebde053607b0607d64876fc19a693c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acebde053607b0607d64876fc19a693c4">setOutcome</a> (<a class="el" href="namespace_acts_fatras.html#ab7375a70d516f1fdd121aeb857784d8b">SimulationOutcome</a> <a class="el" href="#a718b696832682f3c950f46ebf4723189">outcome</a>)</td></tr>
 <tr class="memdesc:acebde053607b0607d64876fc19a693c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the outcome of particle.  <br /></td></tr>
 <tr class="memitem:aa577a941c8ace9985c2f9c5a3f942641" id="r_aa577a941c8ace9985c2f9c5a3f942641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa577a941c8ace9985c2f9c5a3f942641">setParentParticleId</a> (<a class="el" href="class_acts_fatras_1_1_barcode.html">Barcode</a> parentId)</td></tr>
@@ -801,6 +805,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a63132ecae8d60f48be10e1a74ddb5db9" name="a63132ecae8d60f48be10e1a74ddb5db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63132ecae8d60f48be10e1a74ddb5db9">&#9670;&#160;</a></span>origParticleIdx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t ActsFatras::Particle::origParticleIdx </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Original particle index (to match HepMC). </p>
+<dl class="section return"><dt>Returns</dt><dd>The particle index </dd></dl>
+
+</div>
+</div>
 <a id="a718b696832682f3c950f46ebf4723189" name="a718b696832682f3c950f46ebf4723189"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a718b696832682f3c950f46ebf4723189">&#9670;&#160;</a></span>outcome()</h2>
 
@@ -1242,6 +1266,32 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to this particle for method chaining </dd></dl>
+
+</div>
+</div>
+<a id="a743f09476dc88e907f63fd6170d6407a" name="a743f09476dc88e907f63fd6170d6407a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a743f09476dc88e907f63fd6170d6407a">&#9670;&#160;</a></span>setOrigParticleIdx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae66f9978c9badeeaeebd97457dc717ad">Particle</a> &amp; ActsFatras::Particle::setOrigParticleIdx </td>
+          <td>(</td>
+          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the particle ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Original particle index (to match HepMC file) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this particle in HepMC file </dd></dl>
 
 </div>
 </div>
