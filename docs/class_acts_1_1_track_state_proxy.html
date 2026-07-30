@@ -1535,6 +1535,7 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </div><div class="memdoc">
 
 <p>Access the best available covariance (smoothed, filtered, or predicted). </p>
+<dl class="section note"><dt>Note</dt><dd>"Available" means allocated, see <a class="el" href="tracking.html#parameters">parameters</a>. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Bound covariance map for the state. </dd></dl>
 
 </div>
@@ -1805,6 +1806,7 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </div><div class="memdoc">
 
 <p>Compute the property mask describing which components are present. </p>
+<dl class="section note"><dt>Note</dt><dd>This reports which components have <em>storage allocated</em>, not which ones hold a meaningful value. The fitters shipped with ACTS allocate a parameter component immediately before writing it, so during fitting the mask grows as the track state is filled. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Bit mask of available properties. </dd></dl>
 
 </div>
@@ -2297,6 +2299,7 @@ template&lt;typename trajectory_t, std::size_t M, bool read_only = true&gt; </di
 </div><div class="memdoc">
 
 <p>Access the best available parameters (smoothed, filtered, or predicted). </p>
+<dl class="section note"><dt>Note</dt><dd>"Available" means allocated. The fitters shipped with ACTS allocate a parameter component immediately before writing it, so this returns the best parameters that have actually been computed so far. In particular, inside a calibrator this is the predicted state, since filtering has not happened yet. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Bound parameter map for the state. </dd></dl>
 
 </div>
