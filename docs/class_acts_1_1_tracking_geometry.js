@@ -18,6 +18,7 @@ var class_acts_1_1_tracking_geometry =
     [ "highestTrackingVolume", "class_acts_1_1_tracking_geometry.html#a26646809caffcc5bb42be0195dc67e8d", null ],
     [ "highestTrackingVolumePtr", "class_acts_1_1_tracking_geometry.html#a4431123abeb3ac31f1d5301e4279bed5", null ],
     [ "lowestTrackingVolume", "class_acts_1_1_tracking_geometry.html#a979cfe29b23d3fd512b78da0d364f9df", null ],
+    [ "resolveLowestTrackingVolume", "class_acts_1_1_tracking_geometry.html#a681abf860ea725fb6a96237af0ed56be", null ],
     [ "visitSurfaces", "class_acts_1_1_tracking_geometry.html#a408dd3d41278420ff00faa04d20b8822", null ],
     [ "visitSurfaces", "class_acts_1_1_tracking_geometry.html#ac2308c0d7631142f060650831967cf3a", null ],
     [ "visitVolumes", "class_acts_1_1_tracking_geometry.html#a70db5212a176602ed59a6b47ecb3bd9e", null ],

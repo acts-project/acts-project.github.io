@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#a408800bbe915db1bd2d7b33433ffa48a":[7,0,0,0,2,1],
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#a4ac43aa7a5da9285f2e81ab2db653c4c":[7,0,0,0,2,3],
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#acc0a59fe9a10912ab81c4237d33fd22b":[7,0,0,0,2,0],
 "struct_acts_1_1_annealing_utility_1_1_config.html":[5,0,0,19,0],
 "struct_acts_1_1_annealing_utility_1_1_config.html":[7,0,0,27,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_ccl_1_1_clustering_data.html#a41d66a7fe1e6785d6e60460796d8426e":[7,0,0,1,0,2],
 "struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4":[7,0,0,1,0,1],
 "struct_acts_1_1_ccl_1_1_clustering_data.html#a9d05bddc22efdf8b8330874827eb02d5":[7,0,0,1,0,3],
-"struct_acts_1_1_ccl_1_1_connect1_d.html":[7,0,0,1,1],
-"struct_acts_1_1_ccl_1_1_connect1_d.html#a5c1dba3bf1e07195299ff9223b1d7d6c":[7,0,0,1,1,0],
-"struct_acts_1_1_ccl_1_1_connect2_d.html":[7,0,0,1,2]
+"struct_acts_1_1_ccl_1_1_connect1_d.html":[7,0,0,1,1]
 };

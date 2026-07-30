@@ -127,78 +127,80 @@ $(function(){initNavTree('deprecated.html','',''); });
 <div class="contents">
 <div class="textblock"><dl class="reflist">
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_const_view.html#a375dbece72201050c427221f115c1950">Acts::AnyGridConstView&lt; T &gt;::binCenter</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000022"></a>Use view.multiAxisAny().getBinCenterAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000023"></a>Use view.multiAxisAny().getBinCenterAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_const_view.html#a3650ce8a52316a69571510a32a422d54">Acts::AnyGridConstView&lt; T &gt;::lowerLeftBinEdge</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000023"></a>Use view.multiAxisAny().getLowerLeftBinEdgeAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000024"></a>Use view.multiAxisAny().getLowerLeftBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_const_view.html#ada353d85921b5b67390d19af0c80c60e">Acts::AnyGridConstView&lt; T &gt;::numLocalBins</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000025"></a>Use view.multiAxisAny().getNBinsAny() instead  </dd>
+<dd><a class="anchor" id="_deprecated000026"></a>Use view.multiAxisAny().getNBinsAny() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_const_view.html#af16de322d883200b46e6c2bb20bdaab7">Acts::AnyGridConstView&lt; T &gt;::upperRightBinEdge</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000024"></a>Use view.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000025"></a>Use view.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_view.html#af98b643225b7bb7d6bc9e30473e9ec40">Acts::AnyGridView&lt; T &gt;::binCenter</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000018"></a>Use view.multiAxisAny().getBinCenterAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000019"></a>Use view.multiAxisAny().getBinCenterAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_view.html#aeb02d699778bef4b1985ca5df1da4392">Acts::AnyGridView&lt; T &gt;::lowerLeftBinEdge</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000019"></a>Use view.multiAxisAny().getLowerLeftBinEdgeAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000020"></a>Use view.multiAxisAny().getLowerLeftBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_view.html#a27a7819f3e5aa7079beaa2eec2fe2b9c">Acts::AnyGridView&lt; T &gt;::numLocalBins</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000021"></a>Use view.multiAxisAny().getNBinsAny() instead  </dd>
+<dd><a class="anchor" id="_deprecated000022"></a>Use view.multiAxisAny().getNBinsAny() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_view.html#a09a56d7b09b22f1c5615b382dd218bd9">Acts::AnyGridView&lt; T &gt;::upperRightBinEdge</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000020"></a>Use view.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000021"></a>Use view.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="group__track__fitting.html#gad544f26b5ac50759cc4a231bb0b73420">Acts::AtlasBetheHeitlerApprox</a>  </dt>
-<dd><a class="anchor" id="_deprecated000017"></a>Use PolynomialBetheHeitlerApprox instead  </dd>
+<dd><a class="anchor" id="_deprecated000018"></a>Use PolynomialBetheHeitlerApprox instead  </dd>
 <dt>Member <a class="el" href="namespace_acts.html#afded89f5410ca396ea21fee04cf8d1e2">Acts::calculateUnbiasedParametersCovariance</a>  (track_state_proxy_t trackState)</dt>
-<dd><a class="anchor" id="_deprecated000048"></a>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library:  </dd>
+<dd><a class="anchor" id="_deprecated000049"></a>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library:  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a1691927623860346e0e385eda2a41850">Acts::Grid&lt; T, Axes &gt;::axesTuple</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000043"></a>Use grid.multiAxis().getAxesTuple() instead  </dd>
+<dd><a class="anchor" id="_deprecated000044"></a>Use grid.multiAxis().getAxesTuple() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#ab13552870775039f9df525308cf9440b">Acts::Grid&lt; T, Axes &gt;::binCenter</a>  (const index_t &amp;localBins) const</dt>
-<dd><a class="anchor" id="_deprecated000027"></a>Use grid.multiAxis().getBinCenter(localBins) instead  </dd>
+<dd><a class="anchor" id="_deprecated000028"></a>Use grid.multiAxis().getBinCenter(localBins) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a642f1696a28ee344a450ac9985697037">Acts::Grid&lt; T, Axes &gt;::binWidth</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000036"></a>Use grid.multiAxis().getBinWidth({}) instead  </dd>
+<dd><a class="anchor" id="_deprecated000037"></a>Use grid.multiAxis().getBinWidth({}) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a1d8ae1066675bfa9645bfaaf69454119">Acts::Grid&lt; T, Axes &gt;::closestPointsIndices</a>  (const Point &amp;position) const</dt>
-<dd><a class="anchor" id="_deprecated000026"></a>Use grid.multiAxis().getClosestPointsIndices(point) instead  </dd>
+<dd><a class="anchor" id="_deprecated000027"></a>Use grid.multiAxis().getClosestPointsIndices(point) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#afb105ce870c0c8acea272ddace5ee921">Acts::Grid&lt; T, Axes &gt;::globalBinFromFromLowerLeftEdge</a>  (const Point &amp;point) const</dt>
-<dd><a class="anchor" id="_deprecated000030"></a>Use grid.multiAxis().getGlobalBinFromLowerLeftEdge(point) instead  </dd>
+<dd><a class="anchor" id="_deprecated000031"></a>Use grid.multiAxis().getGlobalBinFromLowerLeftEdge(point) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a5dc58d2449a944366dcf7a3e787132f0">Acts::Grid&lt; T, Axes &gt;::globalBinFromLocalBins</a>  (const index_t &amp;localBins) const</dt>
-<dd><a class="anchor" id="_deprecated000029"></a>Use grid.multiAxis().getGlobalBinFromLocalBins(localBins) instead  </dd>
+<dd><a class="anchor" id="_deprecated000030"></a>Use grid.multiAxis().getGlobalBinFromLocalBins(localBins) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#af134da2f418beee5f6f1836ad1592d0e">Acts::Grid&lt; T, Axes &gt;::globalBinFromPosition</a>  (const Point &amp;point) const</dt>
-<dd><a class="anchor" id="_deprecated000028"></a>Use grid.multiAxis().getGlobalBinFromPoint(point) instead  </dd>
+<dd><a class="anchor" id="_deprecated000029"></a>Use grid.multiAxis().getGlobalBinFromPoint(point) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a15d5e76b3a4629075b580cadab4eb443">Acts::Grid&lt; T, Axes &gt;::isInside</a>  (const Point &amp;position) const</dt>
-<dd><a class="anchor" id="_deprecated000040"></a>Use grid.multiAxis().isInside(position) instead  </dd>
+<dd><a class="anchor" id="_deprecated000041"></a>Use grid.multiAxis().isInside(position) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#adde7943b195bb3ff16aa6fb96e66961b">Acts::Grid&lt; T, Axes &gt;::localBinsFromGlobalBin</a>  (std::size_t bin) const</dt>
-<dd><a class="anchor" id="_deprecated000032"></a>Use grid.multiAxis().getLocalBinsFromGlobalBin(bin) instead  </dd>
+<dd><a class="anchor" id="_deprecated000033"></a>Use grid.multiAxis().getLocalBinsFromGlobalBin(bin) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#ad1f5486fcfa88829dd10439fd7a302e4">Acts::Grid&lt; T, Axes &gt;::localBinsFromLowerLeftEdge</a>  (const Point &amp;point) const</dt>
-<dd><a class="anchor" id="_deprecated000033"></a>Use grid.multiAxis().getLocalBinsFromLowerLeftEdge(point) instead  </dd>
+<dd><a class="anchor" id="_deprecated000034"></a>Use grid.multiAxis().getLocalBinsFromLowerLeftEdge(point) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#af5f54fb59cb92b10cf5441c2ebfdb4d4">Acts::Grid&lt; T, Axes &gt;::localBinsFromPosition</a>  (const Point &amp;point) const</dt>
-<dd><a class="anchor" id="_deprecated000031"></a>Use grid.multiAxis().getLocalBinsFromPoint(point) instead  </dd>
+<dd><a class="anchor" id="_deprecated000032"></a>Use grid.multiAxis().getLocalBinsFromPoint(point) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a3b0be5ab1a0e692f7c79d5091a1f7731">Acts::Grid&lt; T, Axes &gt;::lowerLeftBinEdge</a>  (const index_t &amp;localBins) const</dt>
-<dd><a class="anchor" id="_deprecated000034"></a>Use grid.multiAxis().getLowerLeftBinEdge(localBins) instead  </dd>
+<dd><a class="anchor" id="_deprecated000035"></a>Use grid.multiAxis().getLowerLeftBinEdge(localBins) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a64c45a74cdc61a711f999d3eaef3e988">Acts::Grid&lt; T, Axes &gt;::maxPosition</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000039"></a>Use grid.multiAxis().getMaxPoint() instead  </dd>
+<dd><a class="anchor" id="_deprecated000040"></a>Use grid.multiAxis().getMaxPoint() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a5398fa106092f3a3fed5953a622a66b6">Acts::Grid&lt; T, Axes &gt;::minPosition</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000038"></a>Use grid.multiAxis().getMinPoint() instead  </dd>
+<dd><a class="anchor" id="_deprecated000039"></a>Use grid.multiAxis().getMinPoint() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a19685b43a3f5f53bbc7ad942a95d8ce7">Acts::Grid&lt; T, Axes &gt;::neighborHoodIndices</a>  (const index_t &amp;localBins, std::size_t size=1u) const</dt>
-<dd><a class="anchor" id="_deprecated000041"></a>Use grid.multiAxis().getNeighborHoodIndices(localBins, size) instead  </dd>
+<dd><a class="anchor" id="_deprecated000042"></a>Use grid.multiAxis().getNeighborHoodIndices(localBins, size) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a7c9e720bac74b2edf7fb8b15cbd8636e">Acts::Grid&lt; T, Axes &gt;::neighborHoodIndices</a>  (const index_t &amp;localBins, std::array&lt; std::pair&lt; int, int &gt;, DIM &gt; &amp;sizePerAxis) const</dt>
-<dd><a class="anchor" id="_deprecated000042"></a>Use grid.multiAxis().getNeighborHoodIndices(localBins,
+<dd><a class="anchor" id="_deprecated000043"></a>Use grid.multiAxis().getNeighborHoodIndices(localBins,
             sizePerAxis) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a437b937ba46437ca3b00b5ec80afcf30">Acts::Grid&lt; T, Axes &gt;::numLocalBins</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000037"></a>Use grid.multiAxis().getNBins() instead  </dd>
+<dd><a class="anchor" id="_deprecated000038"></a>Use grid.multiAxis().getNBins() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#aef92dcbdbc842a1ae6c16c4e5d7fbe67">Acts::Grid&lt; T, Axes &gt;::upperRightBinEdge</a>  (const index_t &amp;localBins) const</dt>
-<dd><a class="anchor" id="_deprecated000035"></a>Use grid.multiAxis().getUpperRightBinEdge(localBins) instead  </dd>
+<dd><a class="anchor" id="_deprecated000036"></a>Use grid.multiAxis().getUpperRightBinEdge(localBins) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_grid.html#a89603c10c1186226d2bf21b4c9d19fcc">Acts::IGrid::binCenterAny</a>  (const AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000046"></a>Use grid.multiAxisAny().getBinCenterAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000047"></a>Use grid.multiAxisAny().getBinCenterAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_grid.html#a226e035bd9c3f322724539527eb9e73a">Acts::IGrid::lowerLeftBinEdgeAny</a>  (const AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000044"></a>Use grid.multiAxisAny().getLowerLeftBinEdgeAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000045"></a>Use grid.multiAxisAny().getLowerLeftBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_grid.html#a7645634f5f0f08f02fbbf48e54772e11">Acts::IGrid::numLocalBinsAny</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000047"></a>Use grid.multiAxisAny().getNBinsAny() instead  </dd>
+<dd><a class="anchor" id="_deprecated000048"></a>Use grid.multiAxisAny().getNBinsAny() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_grid.html#a2d7ec31ad09c03b3f9e0e31a9bf019ad">Acts::IGrid::upperRightBinEdgeAny</a>  (const AnyIndexType &amp;indices) const</dt>
-<dd><a class="anchor" id="_deprecated000045"></a>Use grid.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
+<dd><a class="anchor" id="_deprecated000046"></a>Use grid.multiAxisAny().getUpperRightBinEdgeAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4">Acts::ISurfaceMaterial::materialSlab</a>  (const Vector3 &amp;gp) const =0</dt>
-<dd><a class="anchor" id="_deprecated000014"></a>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position.  </dd>
+<dd><a class="anchor" id="_deprecated000015"></a>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call to convert the global position.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0">Acts::ISurfaceMaterial::materialSlab</a>  (const Vector3 &amp;gp, Direction pDir, MaterialUpdateMode mode) const</dt>
-<dd><a class="anchor" id="_deprecated000015"></a>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp.  </dd>
+<dd><a class="anchor" id="_deprecated000016"></a>Use materialSlab(const Vector2&amp;, Direction, MaterialUpdateMode) with a prior Surface::globalToLocal() call to convert gp.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_navigation_policy_factory.html#a36a805e63a0affe0460360d3dcbfe56d">Acts::NavigationPolicyFactory::add</a>  (Fn &amp;&amp;fn, Args &amp;&amp;... args) &amp;&amp;</dt>
 <dd><a class="anchor" id="_deprecated000010"></a>Return a <span class="tt">std::unique_ptr&lt;INavigationPolicy&gt;</span> from the factory function instead. This also lets the function select the concrete policy type at runtime.  </dd>
+<dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a979cfe29b23d3fd512b78da0d364f9df">Acts::TrackingGeometry::lowestTrackingVolume</a>  (const GeometryContext &amp;gctx, const Vector3 &amp;gp) const</dt>
+<dd><a class="anchor" id="_deprecated000014"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry.html#a681abf860ea725fb6a96237af0ed56be">resolveLowestTrackingVolume</a> instead, which can resolve boundaries along a direction and reports failures instead of returning <span class="tt">nullptr</span>.  </dd>
 <dt>Member <a class="el" href="class_acts_fatras_1_1_barcode.html#afb4bae340b4fe67e8a3f9787bb8bfa0c">ActsFatras::Barcode::asVector</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000049"></a>Use asArray() instead to avoid a heap allocation. </dd>
+<dd><a class="anchor" id="_deprecated000050"></a>Use asArray() instead to avoid a heap allocation. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
