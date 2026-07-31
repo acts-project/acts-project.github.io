@@ -1,0 +1,7 @@
+<map id="Acts::SurfaceMaterialMapper::Config" name="Acts::SurfaceMaterialMapper::Config">
+<area shape="rect" id="Node000001" title="Nested Configuration struct for the material mapper." alt="" coords="5,197,216,237"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="23,101,198,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,141,113,197,108,197,108,141"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="49,5,172,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,45,113,101,108,101,108,45"/>
+</map>

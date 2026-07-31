@@ -1,0 +1,11 @@
+<map id="Acts::Axis&lt; type, bdt &gt;" name="Acts::Axis&lt; type, bdt &gt;">
+<area shape="rect" id="Node000001" title="calculate bin indices from a given binning structure" alt="" coords="5,147,180,173"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_axis.html" title=" " alt="" coords="470,9,629,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,135,151,98,176,80,203,66,271,43,342,30,410,24,470,23,470,28,410,29,343,35,272,48,205,70,179,84,155,102,116,139"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_axis.html" title=" " alt="" coords="431,95,668,150"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,149,430,130,431,135,194,154"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_axis_3_01_axis_type_1_1_equidistant_00_01bdt_01_4.html" title="calculate bin indices for an equidistant binning" alt="" coords="470,176,629,216"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="139,175,204,192,274,200,345,203,470,200,470,205,345,208,274,205,204,197,138,180"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_axis_3_01_axis_type_1_1_variable_00_01bdt_01_4.html" title="calculate bin indices for a variable binning" alt="" coords="470,249,629,289"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="114,181,153,220,178,238,205,252,272,271,343,280,410,281,470,278,470,283,410,287,342,285,271,277,203,257,175,243,150,224,111,185"/>
+</map>
