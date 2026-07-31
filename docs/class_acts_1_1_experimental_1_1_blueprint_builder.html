@@ -212,10 +212,11 @@ class Acts::Experimental::BlueprintBuilder&lt; BackendT &gt;</div><p>High-level 
 <p>The builder is parameterised on a backend type <code class="param">BackendT</code>. The backend must be constructible from its <span class="tt">Config</span> plus an <span class="tt">Acts::Logger</span>, expose <span class="tt">Element</span> and <span class="tt">LayerSpec</span> types, traverse the detector hierarchy via <span class="tt">world()</span> / <span class="tt">children()</span> / <span class="tt">parent()</span> / <span class="tt">nameOf()</span>, classify sensitive elements with <span class="tt">isSensitive()</span>, and build ACTS surfaces from sensitive elements and a layer specification. It encapsulates all geometry-framework-specific knowledge (e.g. DD4hep <span class="tt">DetElement</span> navigation, type-flag interpretation, surface conversion).</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">BackendT</td><td>Geometry backend that provides detector elements, layer specifications, hierarchy traversal, sensitive-element classification, and surface construction. </td></tr>
+    <tr><td class="paramname">BackendT</td><td>Geometry backend that provides detector elements, layer specifications, hierarchy traversal, sensitive-element classification, and surface construction.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000006">Deprecated</a></b></dt><dd>Acts::Experimental::BlueprintBuilder moved to Acts::BlueprintBuilder. </dd></dl>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="adc6faeac4ff9845d0c7f770a6270c062" name="adc6faeac4ff9845d0c7f770a6270c062"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc6faeac4ff9845d0c7f770a6270c062">&#9670;&#160;</a></span>AxisDefinition</h2>
