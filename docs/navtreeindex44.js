@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#ac62e51318813d1a76e6512f932b2c00a":[4,10,12,8,2],
+"class_acts_plugins_1_1_t_geo_detector_element.html":[4,10,12,9],
 "class_acts_plugins_1_1_t_geo_detector_element.html#a153d9c84528de4cc98d88a774f24c3fc":[4,10,12,9,10],
 "class_acts_plugins_1_1_t_geo_detector_element.html#a240a5c711ec61967d05712c883ed02d4":[4,10,12,9,0],
 "class_acts_plugins_1_1_t_geo_detector_element.html#a3efcc3fde6be6c334ac40cd2f481a527":[4,10,12,9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "functions_vars_d.html":[7,2,2,3],
 "functions_vars_e.html":[7,2,2,4],
 "functions_vars_f.html":[7,2,2,5],
-"functions_vars_g.html":[7,2,2,6],
-"functions_vars_h.html":[7,2,2,7],
-"functions_vars_i.html":[7,2,2,8]
+"functions_vars_g.html":[7,2,2,6]
 };

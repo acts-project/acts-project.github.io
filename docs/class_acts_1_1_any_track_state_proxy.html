@@ -203,6 +203,8 @@ Public Member Functions</h2></td></tr>
 requires ((<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> || !track_state_proxy_t::ReadOnly) &amp;&amp; !std::is_same_v&lt;std::remove_cv_t&lt;track_state_proxy_t&gt;, AnyTrackStateProxy&lt;true&gt;&gt; &amp;&amp; !std::is_same_v&lt;std::remove_cv_t&lt;track_state_proxy_t&gt;, AnyTrackStateProxy&lt;false&gt;&gt;)</td></tr>
 <tr class="memitem:adc715df78c48bd93e038d4ffa269eece template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc715df78c48bd93e038d4ffa269eece">AnyTrackStateProxy</a> (track_state_proxy_t &amp;ts)</td></tr>
 <tr class="memdesc:adc715df78c48bd93e038d4ffa269eece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct an <span class="tt">AnyTrackStateProxy</span> from a concrete track-state proxy.  <br /></td></tr>
+<tr class="memitem:a629f50143438c4ccc14765d5627afaa3" id="r_a629f50143438c4ccc14765d5627afaa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629f50143438c4ccc14765d5627afaa3">addComponents</a> (<a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a> mask)</td></tr>
+<tr class="memdesc:a629f50143438c4ccc14765d5627afaa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add additional components to the track state.  <br /></td></tr>
 <tr class="memitem:a8b52d0e522b2cac7e5151e657abf668c" id="r_a8b52d0e522b2cac7e5151e657abf668c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b52d0e522b2cac7e5151e657abf668c">allocateCalibrated</a> (const Eigen::DenseBase&lt; val_t &gt; &amp;val, const Eigen::DenseBase&lt; cov_t &gt; &amp;cov)</td></tr>
 <tr class="memdesc:a8b52d0e522b2cac7e5151e657abf668c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and initialize calibrated data from static-size Eigen objects.  <br /></td></tr>
 <tr class="memitem:a7cdeba01b8e8b1793ba0c0db4977e0c7" id="r_a7cdeba01b8e8b1793ba0c0db4977e0c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cdeba01b8e8b1793ba0c0db4977e0c7">allocateCalibrated</a> (std::size_t measdim)</td></tr>
@@ -694,6 +696,33 @@ requires ((<a class="el" href="#aa1dc782070566edea98fcc21352d2490">ReadOnly</a> 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a629f50143438c4ccc14765d5627afaa3" name="a629f50143438c4ccc14765d5627afaa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629f50143438c4ccc14765d5627afaa3">&#9670;&#160;</a></span>addComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool read_only&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_any_track_state_proxy.html">Acts::AnyTrackStateProxy</a>&lt; read_only &gt;::addComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#ac57de10a165c0a56408fd3de93e013e2">TrackStatePropMask</a></td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add additional components to the track state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mask</td><td>Property mask describing which components to allocate. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8b52d0e522b2cac7e5151e657abf668c" name="a8b52d0e522b2cac7e5151e657abf668c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b52d0e522b2cac7e5151e657abf668c">&#9670;&#160;</a></span>allocateCalibrated() <span class="overload">[1/2]</span></h2>
 

@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"class_acts_1_1_point_bounds.html#aac6caf5a8cb9ee90f60c74edb42a978e":[7,0,0,327,12],
+"class_acts_1_1_point_bounds.html#abd65b458ac38cfb6a49c252025a01866":[5,0,0,319,5],
 "class_acts_1_1_point_bounds.html#abd65b458ac38cfb6a49c252025a01866":[7,0,0,327,5],
 "class_acts_1_1_point_bounds.html#add62f56bb0e38215cc6e8cfc2463470b":[5,0,0,319,8],
 "class_acts_1_1_point_bounds.html#add62f56bb0e38215cc6e8cfc2463470b":[7,0,0,327,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "class_acts_1_1_proto_axis.html#abf2546ad7e1dc870d89ab196da5995fa":[7,0,0,346,6],
 "class_acts_1_1_proto_axis.html#ac205ba2346cd923639f109cb9c9fd5dc":[5,0,0,338,11],
 "class_acts_1_1_proto_axis.html#ac205ba2346cd923639f109cb9c9fd5dc":[7,0,0,346,11],
-"class_acts_1_1_proto_axis.html#ad239ad73b2bc82130b3305151e0bfb4a":[5,0,0,338,4],
-"class_acts_1_1_proto_axis.html#ad239ad73b2bc82130b3305151e0bfb4a":[7,0,0,346,4],
-"class_acts_1_1_proto_axis.html#ad8e53c7e5a7cd934df9d0dadca806ea8":[5,0,0,338,8]
+"class_acts_1_1_proto_axis.html#ad239ad73b2bc82130b3305151e0bfb4a":[5,0,0,338,4]
 };

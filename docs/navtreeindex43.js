@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"class_acts_plugins_1_1_geo_model_detector_object_factory.html#a5d4c090b85730d51845b3fe5996c1248":[4,10,8,2,5],
+"class_acts_plugins_1_1_geo_model_detector_object_factory.html#abb6897c433c96f4feb26bfbe31dbfcbc":[4,10,8,2,4],
 "class_acts_plugins_1_1_geo_model_detector_object_factory.html#af9665b1ac14f5d1d0d8ad7c18999f736":[4,10,8,2,6],
 "class_acts_plugins_1_1_gnn_hook.html":[4,10,6,6],
 "class_acts_plugins_1_1_gnn_hook.html#ae27efd5d2785bab1c4c77d9d1d11f4b3":[4,10,6,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#ae376ffe87268049764ad02c3660860e7":[5,0,3,60,23],
 "class_acts_plugins_1_1_t_geo_blueprint_builder_backend.html#ae376ffe87268049764ad02c3660860e7":[7,0,2,65,23],
 "class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html":[4,10,12,8],
-"class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#a30e170590383c9f2daaeec332b6d8351":[4,10,12,8,1],
-"class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#ac62e51318813d1a76e6512f932b2c00a":[4,10,12,8,2],
-"class_acts_plugins_1_1_t_geo_detector_element.html":[4,10,12,9]
+"class_acts_plugins_1_1_t_geo_cylinder_disc_splitter.html#a30e170590383c9f2daaeec332b6d8351":[4,10,12,8,1]
 };

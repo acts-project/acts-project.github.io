@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230":[5,0,0,6,34],
+"namespace_acts_1_1_unit_constants.html#ae4e029ad664ec7b3773fa25504ad93c4":[5,0,0,6,27],
 "namespace_acts_1_1_unit_constants.html#af02c3dd2abe2734c55814326dadaa32c":[5,0,0,6,19],
 "namespace_acts_1_1_unit_constants.html#af066b634484aac88b6afc5f7b3b63bc9":[5,0,0,6,36],
 "namespace_acts_1_1_unit_constants.html#af3a2a26e8d818daa3f217ed56af67d6c":[5,0,0,6,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#a91aa4023693927c606e2e32d9db6fb02":[7,0,0,0,1,3],
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#aa68ca334da4d21acb793476d0eacd899":[7,0,0,0,1,1],
 "struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#aad8518725b7dc151fa3b8b4e868e8d3b":[7,0,0,0,1,0],
-"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#ad21261e4d7c7f937a4e459e194327576":[7,0,0,0,1,2],
-"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html":[7,0,0,0,2],
-"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01float_01_4.html#a24b7bb8a5c95a83020733541e0ccc1a0":[7,0,0,0,2,2]
+"struct_acts_1_1_angle_helpers_1_1_eta_theta_conversion_traits_3_01double_01_4.html#ad21261e4d7c7f937a4e459e194327576":[7,0,0,0,1,2]
 };

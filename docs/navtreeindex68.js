@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a1ed7120890246fdd36492a911d7432f4":[4,10,8,2,0,3],
+"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a6234958c7b7e1e21631f686cda31664a":[4,10,8,2,0,1],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a98c6c8fb5a90d813df5ed522f013595f":[4,10,8,2,0,0],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html":[4,10,8,2,1],
 "struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_config.html#a40343b24469cd1e6d1dd790d36c6c13a":[4,10,8,2,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html":[4,10,6,17,0],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9":[4,10,6,17,0,6],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a5451dcdde489ab1aa40cf7ec156d02f0":[4,10,6,17,0,1],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[4,10,6,17,0,3],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691":[4,10,6,17,0,2],
-"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480":[4,10,6,17,0,4]
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a84ec37190a62db43149c818a30cedd9c":[4,10,6,17,0,3]
 };

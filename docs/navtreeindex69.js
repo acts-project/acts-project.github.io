@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a89e72e8d6940944281de3dff5a1d7691":[4,10,6,17,0,2],
+"struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ab563c4912bb580f369ccd3c24972f480":[4,10,6,17,0,4],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#ad2197b8653339d7acf35d5e062d293ad":[4,10,6,17,0,5],
 "struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#adccb4128138cd1501f72b9f5a1fd1835":[4,10,6,17,0,0],
 "struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html":[4,10,6,18,0],

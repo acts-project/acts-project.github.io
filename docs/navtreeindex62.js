@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[7,0,0,364,2],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[5,0,0,356,2,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[7,0,0,364,2,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c":[5,0,0,356,2,4],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ab41d348f831a8e348516de3e6a354a3c":[7,0,0,364,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_surface_material_mapper_1_1_config.html#afc700edcaeeb9f78cac1a4dae75af04f":[7,0,0,398,0,3],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html":[5,0,0,390,1],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html":[7,0,0,398,1],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd":[5,0,0,390,1,5],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd":[7,0,0,398,1,5],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html#a21f44203146e22b28996acbea4b23eda":[5,0,0,390,1,2]
+"struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd":[5,0,0,390,1,5]
 };

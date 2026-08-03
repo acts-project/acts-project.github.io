@@ -13,6 +13,7 @@ var class_acts_1_1_any_track_state_proxy =
     [ "MutableTrackState", "class_acts_1_1_any_track_state_proxy.html#a815a293d1541d65d2be5dc8b747fd43f", null ],
     [ "ParametersMap", "class_acts_1_1_any_track_state_proxy.html#adc423672851e677412417985f8306875", null ],
     [ "AnyTrackStateProxy", "class_acts_1_1_any_track_state_proxy.html#adc715df78c48bd93e038d4ffa269eece", null ],
+    [ "addComponents", "class_acts_1_1_any_track_state_proxy.html#a629f50143438c4ccc14765d5627afaa3", null ],
     [ "allocateCalibrated", "class_acts_1_1_any_track_state_proxy.html#a8b52d0e522b2cac7e5151e657abf668c", null ],
     [ "allocateCalibrated", "class_acts_1_1_any_track_state_proxy.html#a7cdeba01b8e8b1793ba0c0db4977e0c7", null ],
     [ "calibrated", "class_acts_1_1_any_track_state_proxy.html#a96fa84e61a582458953fff4971d7f80f", null ],

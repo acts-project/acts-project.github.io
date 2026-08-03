@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"class_acts_1_1_multi_intersection.html#af4395f030c6e86a274ad573a58148012":[7,0,0,286,4],
+"class_acts_1_1_multi_intersection.html#af46bc8c8d731a7430044744fb14160c3":[5,0,0,278,3],
 "class_acts_1_1_multi_intersection.html#af46bc8c8d731a7430044744fb14160c3":[7,0,0,286,3],
 "class_acts_1_1_multi_intersection.html#aff22e9e8f5352a4942af26ef214f7910":[5,0,0,278,2],
 "class_acts_1_1_multi_intersection.html#aff22e9e8f5352a4942af26ef214f7910":[7,0,0,286,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "class_acts_1_1_multi_trajectory.html#af435fa6e1819de8248d87a822e0fb758":[7,0,0,292,8],
 "class_acts_1_1_multi_wire_volume_builder.html":[5,0,0,285],
 "class_acts_1_1_multi_wire_volume_builder.html":[7,0,0,293],
-"class_acts_1_1_multi_wire_volume_builder.html#a1222d596d06b3907dccf92bcf270a939":[5,0,0,285,4],
-"class_acts_1_1_multi_wire_volume_builder.html#a1222d596d06b3907dccf92bcf270a939":[7,0,0,293,4],
-"class_acts_1_1_multi_wire_volume_builder.html#a38644ba506899ac9a295d5a64a0cf5a0":[5,0,0,285,3]
+"class_acts_1_1_multi_wire_volume_builder.html#a1222d596d06b3907dccf92bcf270a939":[5,0,0,285,4]
 };
