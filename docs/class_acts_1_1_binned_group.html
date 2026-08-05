@@ -220,7 +220,13 @@ template&lt;typename grid_t&gt; </div>
     <tr><td class="paramname">grid</td><td>The grid to use for binning </td></tr>
     <tr><td class="paramname">bottomFinder</td><td>The bottom bin finder </td></tr>
     <tr><td class="paramname">topFinder</td><td>The top bin finder </td></tr>
-    <tr><td class="paramname">navigation</td><td>The navigation array for grid bins </td></tr>
+    <tr><td class="paramname">navigation</td><td>Per axis, the bins to visit and in which order, as 1-based local bin indices in [1, nBins]. May be a subset to skip bins, but must not repeat one. Empty means all bins in order. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>on an out of range or repeated entry </td></tr>
   </table>
   </dd>
 </dl>
@@ -270,7 +276,13 @@ template&lt;typename grid_t&gt; </div>
     <tr><td class="paramname">mask</td><td>Vector of boolean masks </td></tr>
     <tr><td class="paramname">bottomFinder</td><td>Bottom bin finder </td></tr>
     <tr><td class="paramname">topFinder</td><td>Top bin finder </td></tr>
-    <tr><td class="paramname">navigation</td><td>Navigation array (optional) </td></tr>
+    <tr><td class="paramname">navigation</td><td>Bins to visit per axis, see the constructor above </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if the mask does not match the grid, or on an out of range or repeated navigation entry </td></tr>
   </table>
   </dd>
 </dl>
