@@ -1,0 +1,47 @@
+<map id="Acts::BremCombinatorialKalmanFilterOptions&lt; track_container_t &gt;" name="Acts::BremCombinatorialKalmanFilterOptions&lt; track_container_t &gt;">
+<area shape="rect" id="Node000001" title="Options for the combinatorial Kalman filter with bremsstrahlung recovery." alt="" coords="2452,476,2700,516"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_combinatorial_kalman_filter_options.html" title="Combined options for the combinatorial Kalman filter." alt="" coords="2155,395,2403,435"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2366,436,2503,473,2501,479,2365,441"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_propagator_plain_options.html" title="Holds the generic propagator options." alt="" coords="1735,402,1945,427"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1959,412,2154,412,2154,417,1959,417"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="1347,395,1550,435"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1564,412,1735,412,1735,417,1564,417"/>
+<area shape="rect" id="Node000005" href="$struct_acts_1_1_stepper_plain_options.html" title="Common options shared by plain steppers." alt="" coords="1353,463,1544,489"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1558,462,1710,440,1785,425,1786,430,1711,445,1558,467"/>
+<area shape="rect" id="Node000006" href="$struct_acts_1_1_stepper_plain_options_1_1_dense.html" title="Options for dense material effects." alt="" coords="951,457,1142,497"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1156,474,1353,474,1353,479,1156,480"/>
+<area shape="rect" id="Node000007" href="$struct_acts_1_1_navigator_plain_options.html" title="Plain navigator options carrying geometry context and surfaces." alt="" coords="1347,343,1551,369"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="1548,368,1755,399,1754,405,1547,373"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_surface.html" title="Abstract Base Class for tracking surfaces." alt="" coords="993,221,1100,246"/>
+<area shape="poly" id="edge21_Node000002_Node000008" title=" " alt="" coords="1114,234,1213,240,1323,251,1565,284,1804,323,2179,392,2178,397,1803,328,1564,289,1322,256,1212,246,1114,239"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1114,237,1140,244,1163,257,1172,266,1176,276,1179,286,1187,294,1391,341,1390,346,1184,298,1175,288,1171,278,1167,269,1160,261,1137,249,1113,242"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_geometry_object.html" title="Base class to provide GeometryIdentifier interface:" alt="" coords="475,185,641,210"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="655,198,908,213,994,223,993,229,908,219,654,203"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_geometry_identifier.html" title="Identifier for geometry nodes within the geometry hierarchy." alt="" coords="5,185,187,210"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="201,195,475,195,475,200,201,200"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="473,299,643,339"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="656,299,993,240,994,245,657,304"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="456,41,660,95"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="674,70,790,88,851,103,909,124,948,146,984,171,1035,218,1031,222,980,176,945,150,907,129,849,108,789,93,673,76"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="35,55,157,81"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="171,65,456,65,456,71,171,71"/>
+<area shape="rect" id="Node000014" href="$class_acts_1_1_cloneable_ptr.html" title=" " alt="" coords="476,120,640,160"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="654,147,776,163,909,188,1010,218,1009,223,907,193,775,169,653,152"/>
+<area shape="rect" id="Node000015" href="$class_acts_1_1_cloneable_ptr.html" title="A copyable smart pointer that uses a cloner function to copy the managed object." alt="" coords="7,127,185,153"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="199,137,476,137,476,143,199,143"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="466,235,650,275"/>
+<area shape="poly" id="edge15_Node000008_Node000016" title=" " alt="" coords="663,247,993,233,993,238,664,253"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="17,437,175,462"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="134,428,274,361,455,284,489,272,491,277,457,289,276,366,136,433"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="693,501,899,541"/>
+<area shape="poly" id="edge23_Node000022_Node000017" title=" " alt="" coords="189,457,456,487,693,510,693,515,456,492,188,463"/>
+<area shape="rect" id="Node000018" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="932,271,1161,369"/>
+<area shape="poly" id="edge17_Node000007_Node000018" title=" " alt="" coords="1175,347,1186,348,1267,354,1346,356,1346,361,1267,360,1185,353,1175,352"/>
+<area shape="rect" id="Node000019" href="$class_acts_1_1_delegate.html" title=" " alt="" coords="457,387,659,427"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="673,424,729,427,789,426,849,418,907,402,919,392,930,379,948,367,951,372,934,383,922,396,909,406,850,424,789,432,729,433,673,429"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="976,393,1117,433"/>
+<area shape="poly" id="edge19_Node000007_Node000020" title=" " alt="" coords="1131,406,1223,397,1322,384,1401,366,1403,371,1323,389,1224,403,1132,411"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="493,451,623,477"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="636,471,696,475,765,475,837,469,907,456,919,450,931,443,975,428,976,433,933,448,921,455,909,461,838,475,765,480,696,480,636,476"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="913,524,1074,529,1253,532,2280,532,2379,526,2472,513,2473,519,2380,532,2280,537,1253,537,1074,535,913,529"/>
+</map>

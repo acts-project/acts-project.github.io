@@ -1,0 +1,20 @@
+<map id="Acts::Experimental::GbtsEdgeState" name="Acts::Experimental::GbtsEdgeState">
+<area shape="rect" id="Node000001" title="Per&#45;edge tracking state used by the GBTS filter." alt="" coords="607,139,752,179"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="329,28,535,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,70,536,78,596,106,648,136,645,141,594,111,534,82,513,75"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,35,135,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,45,329,45,329,51,148,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="353,93,511,118"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="516,118,583,132,607,138,606,143,582,137,515,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="9,178,131,203"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="99,168,127,152,158,139,207,125,258,115,352,105,352,110,259,121,208,130,160,144,129,157,102,173"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="353,143,511,169"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="145,181,352,161,352,166,145,186"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="351,204,513,244"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="108,207,159,224,208,231,258,234,351,231,351,236,258,239,208,236,158,229,106,212"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="351,272,513,312"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="88,213,118,251,138,268,160,282,207,297,257,304,306,306,351,303,351,308,306,311,256,310,206,302,158,286,134,272,114,254,84,217"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="525,154,606,155,606,161,525,160"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="526,199,582,184,610,176,612,181,583,189,527,204"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="509,264,533,254,598,215,651,177,654,181,601,219,536,258,512,269"/>
+</map>
