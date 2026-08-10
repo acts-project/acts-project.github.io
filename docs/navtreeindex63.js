@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691":[7,0,0,398,0,1],
+"struct_acts_1_1_surface_material_mapper_1_1_config.html#afc700edcaeeb9f78cac1a4dae75af04f":[5,0,0,390,0,3],
+"struct_acts_1_1_surface_material_mapper_1_1_config.html#afc700edcaeeb9f78cac1a4dae75af04f":[7,0,0,398,0,3],
+"struct_acts_1_1_surface_material_mapper_1_1_state.html":[5,0,0,390,1],
+"struct_acts_1_1_surface_material_mapper_1_1_state.html":[7,0,0,398,1],
+"struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd":[5,0,0,390,1,5],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd":[7,0,0,398,1,5],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#a21f44203146e22b28996acbea4b23eda":[5,0,0,390,1,2],
 "struct_acts_1_1_surface_material_mapper_1_1_state.html#a21f44203146e22b28996acbea4b23eda":[7,0,0,398,1,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_track_selector_1_1_config.html#ac72c787e979a1a63c70edb8f8ee0ec12":[7,0,0,419,0,12],
 "struct_acts_1_1_track_selector_1_1_config.html#ac7acf91cedb5e6b61bff6e5d9a6c11c3":[5,0,0,411,0,5],
 "struct_acts_1_1_track_selector_1_1_config.html#ac7acf91cedb5e6b61bff6e5d9a6c11c3":[7,0,0,419,0,5],
-"struct_acts_1_1_track_selector_1_1_config.html#ae4f7fb5244515a27a695f242c7981cf2":[5,0,0,411,0,6],
-"struct_acts_1_1_track_selector_1_1_config.html#ae4f7fb5244515a27a695f242c7981cf2":[7,0,0,419,0,6],
-"struct_acts_1_1_track_selector_1_1_config.html#aeb2f6d304b32825c66abae822ee447ee":[5,0,0,411,0,23],
-"struct_acts_1_1_track_selector_1_1_config.html#aeb2f6d304b32825c66abae822ee447ee":[7,0,0,419,0,23],
-"struct_acts_1_1_track_selector_1_1_config.html#aef1f0f9c6f5343cc8103ecec25ef54d6":[5,0,0,411,0,2],
-"struct_acts_1_1_track_selector_1_1_config.html#aef1f0f9c6f5343cc8103ecec25ef54d6":[7,0,0,419,0,2],
-"struct_acts_1_1_track_selector_1_1_config.html#af2db577a335932243909edc3544094ec":[5,0,0,411,0,20]
+"struct_acts_1_1_track_selector_1_1_config.html#ae4f7fb5244515a27a695f242c7981cf2":[5,0,0,411,0,6]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af4d581a4ffc0e992b2b381846becf7ec":[5,0,0,1,54,0,14],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af4d581a4ffc0e992b2b381846becf7ec":[7,0,0,2,54,0,14],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af5c2cb158f2495b190fd503cd29f0532":[5,0,0,1,54,0,5],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af5c2cb158f2495b190fd503cd29f0532":[7,0,0,2,54,0,5],
+"struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html":[5,0,0,1,56,0],
+"struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html":[7,0,0,2,56,0],
 "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html#a069a7c77655411732b69af6867b8ae18":[5,0,0,1,56,0,1],
 "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html#a069a7c77655411732b69af6867b8ae18":[7,0,0,2,56,0,1],
 "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_config.html#a2c50c1b15a5385647c47326944f35ca7":[5,0,0,1,56,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[5,0,0,165,1,5],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[7,0,0,173,1,5],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[5,0,0,165,1,3],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[7,0,0,173,1,3],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[5,0,0,165,1,4],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[7,0,0,173,1,4],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[5,0,0,165,1,0],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[7,0,0,173,1,0],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[5,0,0,165,1,6],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[7,0,0,173,1,6]
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[7,0,0,173,1,3]
 };

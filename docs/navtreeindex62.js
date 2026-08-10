@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#ac1b756c230ba9cfae0494e28dcfda3fa":[7,0,0,364,1,11],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#adc9988a81f5c4d0ed665e266c9e8abb4":[5,0,0,356,1,12],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#adc9988a81f5c4d0ed665e266c9e8abb4":[7,0,0,364,1,12],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[5,0,0,356,1,10],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_detector_config.html#aed2cf50a07564819d23ee92bdba8811e":[7,0,0,364,1,10],
+"struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[5,0,0,356,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html":[7,0,0,364,2],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[5,0,0,356,2,6],
 "struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aa5cfdb699f4b07e36e22747c220f3b37":[7,0,0,364,2,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_surface_material_mapper_1_1_config.html#a3352a3ee22374d8d38b4794495368a14":[7,0,0,398,0,2],
 "struct_acts_1_1_surface_material_mapper_1_1_config.html#a61d88c9553f91ff301d51a54b566a9df":[5,0,0,390,0,0],
 "struct_acts_1_1_surface_material_mapper_1_1_config.html#a61d88c9553f91ff301d51a54b566a9df":[7,0,0,398,0,0],
-"struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691":[5,0,0,390,0,1],
-"struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691":[7,0,0,398,0,1],
-"struct_acts_1_1_surface_material_mapper_1_1_config.html#afc700edcaeeb9f78cac1a4dae75af04f":[5,0,0,390,0,3],
-"struct_acts_1_1_surface_material_mapper_1_1_config.html#afc700edcaeeb9f78cac1a4dae75af04f":[7,0,0,398,0,3],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html":[5,0,0,390,1],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html":[7,0,0,398,1],
-"struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd":[5,0,0,390,1,5]
+"struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691":[5,0,0,390,0,1]
 };

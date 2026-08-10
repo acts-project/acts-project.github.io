@@ -184,6 +184,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>matchBeforeCreate</b>
 <tr class="memitem:af1f0ec6800f6d2e53fe3e4a4f9a0e8ee" id="r_af1f0ec6800f6d2e53fe3e4a4f9a0e8ee"><td class="memItemLeft" align="right" valign="top"><a id="af1f0ec6800f6d2e53fe3e4a4f9a0e8ee" name="af1f0ec6800f6d2e53fe3e4a4f9a0e8ee"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxAbsEtaAddTripelts</b> = 1.5</td></tr>
 <tr class="memdesc:af1f0ec6800f6d2e53fe3e4a4f9a0e8ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum allowed eta value in which three spacepoint seeds are passed through <br /></td></tr>
+<tr class="memitem:a13748e85a362deacafa7bf565ce28b88" id="r_a13748e85a362deacafa7bf565ce28b88"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13748e85a362deacafa7bf565ce28b88">maxAbsTau</a> = 36.0f</td></tr>
+<tr class="memdesc:a13748e85a362deacafa7bf565ce28b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Largest |cot(theta)| accepted for a doublet.  <br /></td></tr>
 <tr class="memitem:a0395f4366d9e1ff096b14a04e0d6a61c" id="r_a0395f4366d9e1ff096b14a04e0d6a61c"><td class="memItemLeft" align="right" valign="top"><a id="a0395f4366d9e1ff096b14a04e0d6a61c" name="a0395f4366d9e1ff096b14a04e0d6a61c"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxEndcapClusterWidth</b> = 0.35 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a0395f4366d9e1ff096b14a04e0d6a61c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum endcap cluster width. <br /></td></tr>
@@ -211,6 +213,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>minPt</b> = 1.0f * <
 <tr class="memitem:a1af1a1b24492787e60e552be3e4f1321" id="r_a1af1a1b24492787e60e552be3e4f1321"><td class="memItemLeft" align="right" valign="top"><a id="a1af1a1b24492787e60e552be3e4f1321" name="a1af1a1b24492787e60e552be3e4f1321"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>minZ0</b> = -600</td></tr>
 <tr class="memdesc:a1af1a1b24492787e60e552be3e4f1321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum z0 value, set as optionl as if in pixel mode, The value is picked from the ROI. <br /></td></tr>
+<tr class="memitem:a430d29ad9e8ead9feaadde7ff970b016" id="r_a430d29ad9e8ead9feaadde7ff970b016"><td class="memItemLeft" align="right" valign="top"><a id="a430d29ad9e8ead9feaadde7ff970b016" name="a430d29ad9e8ead9feaadde7ff970b016"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleEdgeTolerance</b> = 0.3 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+<tr class="memdesc:a430d29ad9e8ead9feaadde7ff970b016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance to the module edge below which a cluster may be shortened, and the machine learning lookup table's edge tau bounds are used instead. <br /></td></tr>
+<tr class="memitem:a513d09cd1389390b572910364bdfb7d2" id="r_a513d09cd1389390b572910364bdfb7d2"><td class="memItemLeft" align="right" valign="top"><a id="a513d09cd1389390b572910364bdfb7d2" name="a513d09cd1389390b572910364bdfb7d2"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleHalfLengthY</b> = 10.0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+<tr class="memdesc:a513d09cd1389390b572910364bdfb7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half-length in local y of a pixel module, against which the distance of a cluster to the module edge is measured. <br /></td></tr>
 <tr class="memitem:a2fb3e6308bafe4ed4f4709e30e6fab7b" id="r_a2fb3e6308bafe4ed4f4709e30e6fab7b"><td class="memItemLeft" align="right" valign="top"><a id="a2fb3e6308bafe4ed4f4709e30e6fab7b" name="a2fb3e6308bafe4ed4f4709e30e6fab7b"></a>
 std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nMaxEdges</b> = 2000000</td></tr>
 <tr class="memdesc:a2fb3e6308bafe4ed4f4709e30e6fab7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of Gbts edges/doublets. <br /></td></tr>
@@ -259,6 +267,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>validateTriplets</b> 
 
 <p>Eta bin width override (0 uses default from connection file). </p>
 <p>specify non-zero to override eta bin width from connection file (default 0.2 in createLinkingScheme.py) </p>
+
+</div>
+</div>
+<a id="a13748e85a362deacafa7bf565ce28b88" name="a13748e85a362deacafa7bf565ce28b88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13748e85a362deacafa7bf565ce28b88">&#9670;&#160;</a></span>maxAbsTau</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Acts::Experimental::GraphBasedTrackSeeder::Config::maxAbsTau = 36.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Largest |cot(theta)| accepted for a doublet. </p>
+<p>The default corresponds to |eta| of about 4.3, beyond the acceptance of any current tracker. </p>
 
 </div>
 </div>

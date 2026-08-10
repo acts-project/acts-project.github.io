@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[7,0,1,34,0,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[5,0,2,33,0,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[7,0,1,34,0,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[5,0,2,33,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[7,0,1,34,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[5,0,2,33,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[7,0,1,34,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[5,0,2,33,1,2],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[7,0,1,34,1,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a5fad34fff7ef9d3cb6ba8add66a56a32":[4,10,7,5,6],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a7e330333bee06083c59b7641eeb59096":[4,10,7,5,1],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#aaf8b9aa81ba26700b285afb4498e68d7":[4,10,7,5,4],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#abf16a11661c56c0a05b1f3c2c99ef1d3":[4,10,7,5,3],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#ac20cda2bfc031e43465935ce49dfd13c":[4,10,7,5,5],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#ac33129338df0d4a44e74efe237d5c04b":[4,10,7,5,7],
-"struct_acts_plugins_1_1_geant4_volume_converter.html":[4,10,7,6],
-"struct_acts_plugins_1_1_geant4_volume_converter.html#a8917776e42e20954830b191e230f68bf":[4,10,7,6,0],
-"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html":[4,10,8,2,0],
-"struct_acts_plugins_1_1_geo_model_detector_object_factory_1_1_cache.html#a0ff99ef6c3d481d954901ad541a1ba02":[4,10,8,2,0,2]
+"struct_acts_plugins_1_1_geant4_shape_converter.html#abf16a11661c56c0a05b1f3c2c99ef1d3":[4,10,7,5,3]
 };

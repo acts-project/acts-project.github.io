@@ -1,5 +1,11 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ace76af06952cdebf9c3d50daa7aea83b":[7,0,0,189,0,12],
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#add6f5a621211d1cae84598aaa06ebb7f":[5,0,0,181,0,9],
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#add6f5a621211d1cae84598aaa06ebb7f":[7,0,0,189,0,9],
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[5,0,0,181,0,11],
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[7,0,0,189,0,11],
+"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[5,0,0,182,0],
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[7,0,0,190,0],
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#a4036f46b16d9ef67ac3dd91e5502cde2":[5,0,0,182,0,2],
 "struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html#a4036f46b16d9ef67ac3dd91e5502cde2":[7,0,0,190,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_kalman_fitter_options.html#a698fb837d25303ee3ef4d3fbf41328ce":[4,13,16,0],
 "struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506":[4,13,16,8],
 "struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839":[4,13,16,3],
-"struct_acts_1_1_kalman_fitter_options.html#ab618db66d3f759d4ea04332b80b962cc":[4,13,16,1],
-"struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1":[4,13,16,7],
-"struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630":[4,13,16,5],
-"struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed":[4,13,16,6],
-"struct_acts_1_1_kalman_fitter_options.html#aea7cc1577559720d76e963d1bee02765":[4,13,16,10],
-"struct_acts_1_1_kalman_fitter_options.html#af3e8dfc3681b5b7ae742a14e2d3c32c8":[4,13,16,4],
-"struct_acts_1_1_kalman_fitter_options.html#af85ef933b345edb15b4cbd8d0e1fe1be":[4,13,16,9]
+"struct_acts_1_1_kalman_fitter_options.html#ab618db66d3f759d4ea04332b80b962cc":[4,13,16,1]
 };

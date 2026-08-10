@@ -138,8 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6095a5005bc58bf43333a9f202090a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate phi indexing.  <br /></td></tr>
 <tr class="memitem:a4ae9177b8e1403e2c1fe8595dcac9ee2" id="r_a4ae9177b8e1403e2c1fe8595dcac9ee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae9177b8e1403e2c1fe8595dcac9ee2">getEtaBin</a> (std::uint32_t idx)</td></tr>
 <tr class="memdesc:a4ae9177b8e1403e2c1fe8595dcac9ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get eta bin by index.  <br /></td></tr>
-<tr class="memitem:a3f554176ee9a5e1c9cb4bd524143189b" id="r_a3f554176ee9a5e1c9cb4bd524143189b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f554176ee9a5e1c9cb4bd524143189b">initializeNodes</a> (bool useMl)</td></tr>
-<tr class="memdesc:a3f554176ee9a5e1c9cb4bd524143189b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize node attributes.  <br /></td></tr>
+<tr class="memitem:a861b81211d9f07f895307965c34630a6" id="r_a861b81211d9f07f895307965c34630a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a861b81211d9f07f895307965c34630a6">initializeNodes</a> (bool useMl, float moduleHalfLengthY, float moduleEdgeTolerance)</td></tr>
+<tr class="memdesc:a861b81211d9f07f895307965c34630a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize node attributes.  <br /></td></tr>
 <tr class="memitem:a89e36854d73d612cd753ec2d6ef63cb5" id="r_a89e36854d73d612cd753ec2d6ef63cb5"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e36854d73d612cd753ec2d6ef63cb5">loadPixelGraphNodes</a> (std::uint16_t layerIndex, const std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; coll, bool useMl, float maxEndcapClusterWidth)</td></tr>
 <tr class="memdesc:a89e36854d73d612cd753ec2d6ef63cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load pixel graph nodes.  <br /></td></tr>
 <tr class="memitem:a4b4ea70f351b038bc28111de7282524b" id="r_a4b4ea70f351b038bc28111de7282524b"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b4ea70f351b038bc28111de7282524b">loadStripGraphNodes</a> (std::uint16_t layerIndex, const std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a> &gt; coll)</td></tr>
@@ -241,8 +241,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sortByPhi</b> ()</td>
 
 </div>
 </div>
-<a id="a3f554176ee9a5e1c9cb4bd524143189b" name="a3f554176ee9a5e1c9cb4bd524143189b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f554176ee9a5e1c9cb4bd524143189b">&#9670;&#160;</a></span>initializeNodes()</h2>
+<a id="a861b81211d9f07f895307965c34630a6" name="a861b81211d9f07f895307965c34630a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861b81211d9f07f895307965c34630a6">&#9670;&#160;</a></span>initializeNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,8 +250,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sortByPhi</b> ()</td>
         <tr>
           <td class="memname">void Acts::Experimental::GbtsNodeStorage::initializeNodes </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useMl</em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useMl</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>moduleHalfLengthY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>moduleEdgeTolerance</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -260,6 +269,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sortByPhi</b> ()</td>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">useMl</td><td>Use machine learning features </td></tr>
+    <tr><td class="paramname">moduleHalfLengthY</td><td>Half-length in local y of a pixel module </td></tr>
+    <tr><td class="paramname">moduleEdgeTolerance</td><td>Distance to the module edge below which a cluster may be shortened </td></tr>
   </table>
   </dd>
 </dl>

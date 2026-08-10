@@ -1,5 +1,11 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[5,0,0,165,1,4],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aa8d186290cfb450f3c32e7f597816735":[7,0,0,173,1,4],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[5,0,0,165,1,0],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#ad13627e4e2fb866fc3f547929ce57122":[7,0,0,173,1,0],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[5,0,0,165,1,6],
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#aff82b43b9e5efed0689fc66f7833aa03":[7,0,0,173,1,6],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html":[5,0,0,2,0],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html":[7,0,0,5,0],
 "struct_acts_1_1_grid_axis_generators_1_1_eq.html#a1d1600b8cf9d1dc38118e9eba1ad95fc":[5,0,0,2,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#aaa2b96f274e5ac01dc73dd21f31f0a0b":[7,0,0,189,0,7],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ab756f38d2c72230228c8a6a1ff4dcf12":[5,0,0,181,0,4],
 "struct_acts_1_1_hough_vertex_finder_1_1_config.html#ab756f38d2c72230228c8a6a1ff4dcf12":[7,0,0,189,0,4],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ace76af06952cdebf9c3d50daa7aea83b":[5,0,0,181,0,12],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ace76af06952cdebf9c3d50daa7aea83b":[7,0,0,189,0,12],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#add6f5a621211d1cae84598aaa06ebb7f":[5,0,0,181,0,9],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#add6f5a621211d1cae84598aaa06ebb7f":[7,0,0,189,0,9],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[5,0,0,181,0,11],
-"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ae0b92f5dd05251b867bb41cb1ef9630d":[7,0,0,189,0,11],
-"struct_acts_1_1_i_assignment_finder_1_1_surface_assignment.html":[5,0,0,182,0]
+"struct_acts_1_1_hough_vertex_finder_1_1_config.html#ace76af06952cdebf9c3d50daa7aea83b":[5,0,0,181,0,12]
 };
