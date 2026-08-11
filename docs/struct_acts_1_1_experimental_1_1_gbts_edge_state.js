@@ -1,7 +1,7 @@
 var struct_acts_1_1_experimental_1_1_gbts_edge_state =
 [
     [ "GbtsEdgeState", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a979ce2eb4c0f5756fd0b08652b554271", null ],
-    [ "initialize", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#abf94b30343bff53ba57443bfa35fe917", null ],
+    [ "initialize", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#ad6c62ef99e4a79d90881d2f64c5391a7", null ],
     [ "c", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf", null ],
     [ "cx", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a74932b18b3d80b79c870849833f4553f", null ],
     [ "cy", "struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a914c0873f13e66a6698fb6743a56a8b7", null ],

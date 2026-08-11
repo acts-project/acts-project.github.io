@@ -1,0 +1,10 @@
+<map id="Acts::Experimental::GbtsNodeView" name="Acts::Experimental::GbtsNodeView">
+<area shape="rect" id="Node000001" title="Read&#45;only view of the node attributes needed outside the graph builder." alt="" coords="99,232,245,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,160,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,170,158,230,154,233,105,174"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,5,230,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,39,102,56,93,72,88,89,85,121,79,121,83,88,89,69,98,53,119,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="184,121,339,161"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="208,36,227,53,248,87,259,120,254,122,243,90,223,56,205,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,174,211,210,191,233,187,230,207,206,236,171"/>
+</map>

@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 713;
+var viewWidth = 730;
 var viewHeight = 118;
 var sectionId = 'dynsection-0';
 </script>
@@ -59,10 +59,10 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="State for the tracking filter, containing edge states and a global counter.">
-<polygon fill="#999999" stroke="#666666" points="705,-65 595,-65 595,-24 705,-24 705,-65"/>
-<text text-anchor="start" x="603" y="-53" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
-<text text-anchor="start" x="603" y="-42" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsTrackingFilter</text>
-<text text-anchor="middle" x="650" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">::State</text>
+<polygon fill="#999999" stroke="#666666" points="722,-65 612,-65 612,-24 722,-24 722,-65"/>
+<text text-anchor="start" x="620" y="-53" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
+<text text-anchor="start" x="620" y="-42" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsTrackingFilter</text>
+<text text-anchor="middle" x="667" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">::State</text>
 </a>
 </g>
 </g>
@@ -70,9 +70,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="489,-88.5 310,-88.5 310,-58.5 489,-58.5 489,-88.5"/>
-<text text-anchor="start" x="318" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::vector&lt; Acts::</text>
-<text text-anchor="middle" x="399.5" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00">Experimental::GbtsEdgeState * &gt;</text>
+<polygon fill="white" stroke="#666666" points="500.5,-88.5 321.5,-88.5 321.5,-58.5 500.5,-58.5 500.5,-88.5"/>
+<text text-anchor="start" x="329.5" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::vector&lt; Acts::</text>
+<text text-anchor="middle" x="411" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00">Experimental::GbtsEdgeState * &gt;</text>
 </a>
 </g>
 </g>
@@ -80,11 +80,11 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M499.18,-61.98C531.75,-58.18 566.76,-54.1 594.75,-50.83"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="498.69,-58.52 489.16,-63.15 499.5,-65.47 498.69,-58.52"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M510.89,-62.21C545.15,-58.3 582.29,-54.06 611.64,-50.71"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="510.38,-58.75 500.84,-63.36 511.17,-65.7 510.38,-58.75"/>
 </a>
 </g>
-<text text-anchor="start" x="527.5" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">stateVec</text>
+<text text-anchor="start" x="544.5" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">stateVec</text>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
@@ -99,20 +99,20 @@ var sectionId = 'dynsection-0';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M107.6,-78.5C162.78,-77.55 246.51,-76.11 310,-75.02"/>
-<polygon fill="orange" stroke="orange" points="107.23,-75.01 97.3,-78.68 107.35,-82.01 107.23,-75.01"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M107.42,-78.54C165.18,-77.57 254.67,-76.09 321.37,-74.98"/>
+<polygon fill="orange" stroke="orange" points="107.31,-75.04 97.37,-78.7 107.43,-82.04 107.31,-75.04"/>
 </a>
 </g>
-<text text-anchor="start" x="145" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; Acts::Experimental</text>
-<text text-anchor="start" x="145" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  ::GbtsEdgeState * &gt;</text>
+<text text-anchor="start" x="148" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; Acts::Experimental</text>
+<text text-anchor="start" x="148" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  ::GbtsEdgeState * &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
 <g id="a_Node000004"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="502,-35.5 297,-35.5 297,-5.5 502,-5.5 502,-35.5"/>
-<text text-anchor="start" x="305" y="-23.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::array&lt; Acts::Experimental</text>
-<text text-anchor="middle" x="399.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsEdgeState, GbtsMaxEdgeState &gt;</text>
+<polygon fill="white" stroke="#666666" points="519,-35.5 303,-35.5 303,-5.5 519,-5.5 519,-35.5"/>
+<text text-anchor="start" x="311" y="-23.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::array&lt; Acts::Experimental</text>
+<text text-anchor="middle" x="411" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsEdgeState, kGbtsMaxEdgeStates &gt;</text>
 </a>
 </g>
 </g>
@@ -120,11 +120,11 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000001_Node000004" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M512.23,-21.68C533.79,-22.83 556.15,-24.65 577,-27.5 582.85,-28.3 588.93,-29.36 594.96,-30.56"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="512.22,-18.18 502.06,-21.19 511.88,-25.17 512.22,-18.18"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M529.31,-21.67C550.89,-22.83 573.17,-24.67 594,-27.5 599.85,-28.3 605.93,-29.35 611.96,-30.56"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="529.28,-18.17 519.12,-21.17 528.94,-25.16 529.28,-18.17"/>
 </a>
 </g>
-<text text-anchor="start" x="523.5" y="-33" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">stateStore</text>
+<text text-anchor="start" x="540.5" y="-33" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">stateStore</text>
 </g>
 <!-- Node5 -->
 <g id="Node000005" class="node">
@@ -139,13 +139,13 @@ var sectionId = 'dynsection-0';
 <g id="edge4_Node000004_Node000005" class="edge">
 <title>Node5&#45;&gt;Node4</title>
 <g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M105.01,-11.25C156.46,-12.87 234.27,-15.32 296.84,-17.3"/>
-<polygon fill="orange" stroke="orange" points="104.87,-7.74 94.77,-10.93 104.65,-14.74 104.87,-7.74"/>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M104.92,-11.19C157.49,-12.8 237.89,-15.25 302.96,-17.23"/>
+<polygon fill="orange" stroke="orange" points="104.89,-7.69 94.79,-10.88 104.68,-14.69 104.89,-7.69"/>
 </a>
 </g>
 <text text-anchor="start" x="118" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">&lt; Acts::Experimental</text>
-<text text-anchor="start" x="118" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  ::GbtsEdgeState, GbtsMaxEdge</text>
-<text text-anchor="start" x="118" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  State &gt;</text>
+<text text-anchor="start" x="118" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  ::GbtsEdgeState, kGbtsMaxEdge</text>
+<text text-anchor="start" x="118" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">  States &gt;</text>
 </g>
 </g>
 </svg>

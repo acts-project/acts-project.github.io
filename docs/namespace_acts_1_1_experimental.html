@@ -169,8 +169,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edge between two GBTS nodes with fit parameters.  <a href="struct_acts_1_1_experimental_1_1_gbts_edge.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsEdgeState" id="r_GbtsEdgeState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-edge tracking state used by the GBTS filter.  <a href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html#details">More...</a><br /></td></tr>
-<tr class="memitem:GbtsEtaBin" id="r_GbtsEtaBin"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_eta_bin.html">GbtsEtaBin</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta-bin container for GBTS nodes and edge data.  <a href="struct_acts_1_1_experimental_1_1_gbts_eta_bin.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsEtaBinInfo" id="r_GbtsEtaBinInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_eta_bin_info.html">GbtsEtaBinInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant per-eta-bin data.  <a href="struct_acts_1_1_experimental_1_1_gbts_eta_bin_info.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsGeometry" id="r_GbtsGeometry"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry helper built from layers and connectors.  <a href="class_acts_1_1_experimental_1_1_gbts_geometry.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsLayer" id="r_GbtsLayer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer.html">GbtsLayer</a></td></tr>
@@ -183,10 +183,16 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer connection training tool for creating layer map for GBTS.  <a href="class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsLayerDescription" id="r_GbtsLayerDescription"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lightweight layer description for GBTS geometry.  <a href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html#details">More...</a><br /></td></tr>
-<tr class="memitem:GbtsNode" id="r_GbtsNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node.html">GbtsNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GBTS graph node storing space point properties.  <a href="struct_acts_1_1_experimental_1_1_gbts_node.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsNodeEdgeInfo" id="r_GbtsNodeEdgeInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_edge_info.html">GbtsNodeEdgeInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-node graph bookkeeping, written while the graph is built.  <a href="struct_acts_1_1_experimental_1_1_gbts_node_edge_info.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsNodeParams" id="r_GbtsNodeParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_params.html">GbtsNodeParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-node parameters used while building the graph.  <a href="struct_acts_1_1_experimental_1_1_gbts_node_params.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsNodeProxy" id="r_GbtsNodeProxy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_node_proxy.html">GbtsNodeProxy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-only handle on a single graph node.  <a href="class_acts_1_1_experimental_1_1_gbts_node_proxy.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsNodeStorage" id="r_GbtsNodeStorage"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_node_storage.html">GbtsNodeStorage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage container for GBTS nodes.  <a href="class_acts_1_1_experimental_1_1_gbts_node_storage.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for the GBTS graph nodes.  <a href="class_acts_1_1_experimental_1_1_gbts_node_storage.html#details">More...</a><br /></td></tr>
+<tr class="memitem:GbtsNodeView" id="r_GbtsNodeView"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_view.html">GbtsNodeView</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-only view of the node attributes needed outside the graph builder.  <a href="struct_acts_1_1_experimental_1_1_gbts_node_view.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsRoiDescriptor" id="r_GbtsRoiDescriptor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html">GbtsRoiDescriptor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GBTS region-of-interest descriptor with eta/phi/zed bounds.  <a href="class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GbtsTrackingFilter" id="r_GbtsTrackingFilter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter</a></td></tr>
@@ -282,9 +288,10 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Efficiency1</b> = <a
 <tr class="memitem:acf8910ce91f496a7ced36c4c1f423a42" id="r_acf8910ce91f496a7ced36c4c1f423a42"><td class="memItemLeft" align="right" valign="top"><a id="acf8910ce91f496a7ced36c4c1f423a42" name="acf8910ce91f496a7ced36c4c1f423a42"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Efficiency2</b> = <a class="el" href="class_acts_1_1_experimental_1_1_efficiency.html">Efficiency</a>&lt;2&gt;</td></tr>
 <tr class="memdesc:acf8910ce91f496a7ced36c4c1f423a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D efficiency histogram <br /></td></tr>
-<tr class="memitem:ae4d79088238e5447e4df0e2c6db58496" id="r_ae4d79088238e5447e4df0e2c6db58496"><td class="memItemLeft" align="right" valign="top"><a id="ae4d79088238e5447e4df0e2c6db58496" name="ae4d79088238e5447e4df0e2c6db58496"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>GbtsMlLookupTable</b> = std::vector&lt;std::array&lt;float, 5&gt;&gt;</td></tr>
-<tr class="memdesc:ae4d79088238e5447e4df0e2c6db58496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Machine learning lookup table for Gbts seeding. <br /></td></tr>
+<tr class="memitem:ab1c12225c64814f2424c1b29b849a467" id="r_ab1c12225c64814f2424c1b29b849a467"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c12225c64814f2424c1b29b849a467">GbtsMlLookupTable</a></td></tr>
+<tr class="memdesc:ab1c12225c64814f2424c1b29b849a467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Machine learning lookup table for Gbts seeding.  <br /></td></tr>
+<tr class="memitem:a2facc6ad75fb71cc78641673a0e863bc" id="r_a2facc6ad75fb71cc78641673a0e863bc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2facc6ad75fb71cc78641673a0e863bc">GbtsNodeIndex</a> = <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a></td></tr>
+<tr class="memdesc:a2facc6ad75fb71cc78641673a0e863bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of a graph node inside GbtsNodeStorage.  <br /></td></tr>
 <tr class="memitem:a101b827bdcdc210e07a5b7d99cdd5bdc" id="r_a101b827bdcdc210e07a5b7d99cdd5bdc"><td class="memItemLeft" align="right" valign="top"><a id="a101b827bdcdc210e07a5b7d99cdd5bdc" name="a101b827bdcdc210e07a5b7d99cdd5bdc"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Histogram1</b> = <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Histogram</a>&lt;1&gt;</td></tr>
 <tr class="memdesc:a101b827bdcdc210e07a5b7d99cdd5bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type aliases for common dimensions. <br /></td></tr>
@@ -375,9 +382,15 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5075698390536c386c95f4179ebb6e65" id="r_a5075698390536c386c95f4179ebb6e65"><td class="memItemLeft" align="right" valign="top"><a id="a5075698390536c386c95f4179ebb6e65" name="a5075698390536c386c95f4179ebb6e65"></a>
-constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>gbtsNumSegConns</b> = 6</td></tr>
-<tr class="memdesc:a5075698390536c386c95f4179ebb6e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of segment connections. <br /></td></tr>
+<tr class="memitem:a265ddba12bded8fd636afa07df7e666c" id="r_a265ddba12bded8fd636afa07df7e666c"><td class="memItemLeft" align="right" valign="top"><a id="a265ddba12bded8fd636afa07df7e666c" name="a265ddba12bded8fd636afa07df7e666c"></a>
+static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>kGbtsMaxEdgeNeighbours</b> = 6</td></tr>
+<tr class="memdesc:a265ddba12bded8fd636afa07df7e666c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of neighbouring edges recorded per graph edge. <br /></td></tr>
+<tr class="memitem:ae151b5cfa255694b23658f0a49721561" id="r_ae151b5cfa255694b23658f0a49721561"><td class="memItemLeft" align="right" valign="top"><a id="ae151b5cfa255694b23658f0a49721561" name="ae151b5cfa255694b23658f0a49721561"></a>
+static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>kGbtsMlLookupTableColumns</b> = 5</td></tr>
+<tr class="memdesc:ae151b5cfa255694b23658f0a49721561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of values per row of the machine learning lookup table: the cluster width the row is keyed on, followed by two pairs of tau bounds. <br /></td></tr>
+<tr class="memitem:ae38f93b637ca3ce93af6d73be286774f" id="r_ae38f93b637ca3ce93af6d73be286774f"><td class="memItemLeft" align="right" valign="top"><a id="ae38f93b637ca3ce93af6d73be286774f" name="ae38f93b637ca3ce93af6d73be286774f"></a>
+static constexpr <a class="el" href="#a2facc6ad75fb71cc78641673a0e863bc">GbtsNodeIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>kGbtsNodeIndexInvalid</b> = <a class="el" href="namespace_acts.html#a4e0fcfc9b5225bb75c32f47d65e687df">kSpacePointIndexInvalid</a></td></tr>
+<tr class="memdesc:ae38f93b637ca3ce93af6d73be286774f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sentinel for an unset graph node index. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains code that is not considered stable yet and might change. </p>
@@ -476,6 +489,41 @@ constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>gb
 <div class="line">                                    std::string&gt;</div>
 </div><!-- fragment -->
 <p>Regular-width histogram axis with string metadata. </p>
+
+</div>
+</div>
+<a id="ab1c12225c64814f2424c1b29b849a467" name="ab1c12225c64814f2424c1b29b849a467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c12225c64814f2424c1b29b849a467">&#9670;&#160;</a></span>GbtsMlLookupTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ab1c12225c64814f2424c1b29b849a467">Acts::Experimental::GbtsMlLookupTable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">    std::vector&lt;std::array&lt;float, kGbtsMlLookupTableColumns&gt;&gt;</div>
+</div><!-- fragment -->
+<p>Machine learning lookup table for Gbts seeding. </p>
+
+</div>
+</div>
+<a id="a2facc6ad75fb71cc78641673a0e863bc" name="a2facc6ad75fb71cc78641673a0e863bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2facc6ad75fb71cc78641673a0e863bc">&#9670;&#160;</a></span>GbtsNodeIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a2facc6ad75fb71cc78641673a0e863bc">Acts::Experimental::GbtsNodeIndex</a> = <a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Index of a graph node inside GbtsNodeStorage. </p>
+<p>Nodes are stored ordered by (eta bin, phi), so all nodes of an eta bin form a contiguous range. </p>
 
 </div>
 </div>

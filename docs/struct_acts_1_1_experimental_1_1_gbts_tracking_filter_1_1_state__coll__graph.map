@@ -1,11 +1,11 @@
 <map id="Acts::Experimental::GbtsTrackingFilter::State" name="Acts::Experimental::GbtsTrackingFilter::State">
-<area shape="rect" id="Node000001" title="State for the tracking filter, containing edge states and a global counter." alt="" coords="799,65,945,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="419,33,657,73"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="671,66,799,81,798,86,671,71"/>
+<area shape="rect" id="Node000001" title="State for the tracking filter, containing edge states and a global counter." alt="" coords="821,65,968,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="434,33,673,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="687,66,821,81,821,86,686,71"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,33,135,58"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,44,419,49,419,54,149,49"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="401,104,675,144"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="688,120,774,112,798,108,799,113,775,117,689,125"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,44,434,49,434,54,149,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="409,104,697,144"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="711,120,797,112,821,108,822,113,798,117,711,125"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="9,126,131,151"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="145,134,401,126,401,131,145,139"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="145,134,409,126,409,131,145,139"/>
 </map>
