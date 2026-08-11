@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_plugins_1_1_geant4_shape_converter.html#aaf8b9aa81ba26700b285afb4498e68d7":[4,10,7,5,4],
+"struct_acts_plugins_1_1_geant4_shape_converter.html#abf16a11661c56c0a05b1f3c2c99ef1d3":[4,10,7,5,3],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#ac20cda2bfc031e43465935ce49dfd13c":[4,10,7,5,5],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#ac33129338df0d4a44e74efe237d5c04b":[4,10,7,5,7],
 "struct_acts_plugins_1_1_geant4_volume_converter.html":[4,10,7,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#ad95be189488e23ca005fa853c5052afb":[4,10,12,14,0],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#af5c2f59a16fff718f725dd7af1ecdd8c":[4,10,12,14,2],
 "struct_acts_plugins_1_1_t_geo_surface_converter.html#af78d1ef7ae7304c2460b611515d4517f":[4,10,12,14,5],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[4,10,6,16,0],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a061206525fae8530a6f33f6f386814f2":[4,10,6,16,0,1],
-"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804":[4,10,6,16,0,3]
+"struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html":[4,10,6,16,0]
 };

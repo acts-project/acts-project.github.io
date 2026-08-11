@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html":[5,0,0,1,6,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html":[7,0,0,2,6,0],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a10b4cdbe7619c009385b40a08bcff09c":[5,0,0,1,6,0,8],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a10b4cdbe7619c009385b40a08bcff09c":[7,0,0,2,6,0,8],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#a27cd2c5dc3bfd2c12051cf544b3f9ebb":[5,0,0,1,6,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_experimental_1_1_gbts_edge.html#afa748621b429dc716c6f798cecf70f18":[5,0,0,1,17,4],
 "struct_acts_1_1_experimental_1_1_gbts_edge.html#afa748621b429dc716c6f798cecf70f18":[7,0,0,2,17,4],
 "struct_acts_1_1_experimental_1_1_gbts_edge_state.html":[5,0,0,1,18],
-"struct_acts_1_1_experimental_1_1_gbts_edge_state.html":[7,0,0,2,18],
-"struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf":[5,0,0,1,18,2],
-"struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf":[7,0,0,2,18,2]
+"struct_acts_1_1_experimental_1_1_gbts_edge_state.html":[7,0,0,2,18]
 };

@@ -11,6 +11,7 @@ var struct_acts_1_1_combinatorial_kalman_filter_options =
     [ "magFieldContext", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a4411303ec39804e83cf5bbc72703e5f7", null ],
     [ "multipleScattering", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a146b20193ea6d9c8628157d7fe23957e", null ],
     [ "propagatorPlainOptions", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a382918c0da74defa038a1178436951af", null ],
+    [ "recordMaterialStates", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a8f1d96a67f55619a9432c8c0a0d7c9f4", null ],
     [ "skipPrePropagationUpdate", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a1c9da15dfab6949f7693dd9d767e8043", null ],
     [ "targetSurface", "struct_acts_1_1_combinatorial_kalman_filter_options.html#ab133235c9ffb5d24455750421afeb502", null ]
 ];

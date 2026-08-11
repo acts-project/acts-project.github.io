@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839":[4,13,16,3],
+"struct_acts_1_1_kalman_fitter_options.html#ab618db66d3f759d4ea04332b80b962cc":[4,13,16,1],
 "struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1":[4,13,16,7],
 "struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630":[4,13,16,5],
 "struct_acts_1_1_kalman_fitter_options.html#ae42ca406bfb7cf7a2f078673248eb0ed":[4,13,16,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#aa56a0b9f5deac61d0fac02024fc1a98e":[7,0,0,293,0,3],
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#af9b763b7a19dbf771c4dab937fb46d6c":[5,0,0,285,0,4],
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#af9b763b7a19dbf771c4dab937fb46d6c":[7,0,0,293,0,4],
-"struct_acts_1_1_mutable_proto_layer.html":[5,0,0,286],
-"struct_acts_1_1_mutable_proto_layer.html":[7,0,0,294],
-"struct_acts_1_1_navigation_arguments.html":[5,0,0,287]
+"struct_acts_1_1_mutable_proto_layer.html":[5,0,0,286]
 };

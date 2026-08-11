@@ -38,6 +38,7 @@ var group__track__finding =
       [ "magFieldContext", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a4411303ec39804e83cf5bbc72703e5f7", null ],
       [ "multipleScattering", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a146b20193ea6d9c8628157d7fe23957e", null ],
       [ "propagatorPlainOptions", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a382918c0da74defa038a1178436951af", null ],
+      [ "recordMaterialStates", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a8f1d96a67f55619a9432c8c0a0d7c9f4", null ],
       [ "skipPrePropagationUpdate", "struct_acts_1_1_combinatorial_kalman_filter_options.html#a1c9da15dfab6949f7693dd9d767e8043", null ],
       [ "targetSurface", "struct_acts_1_1_combinatorial_kalman_filter_options.html#ab133235c9ffb5d24455750421afeb502", null ]
     ] ],
@@ -45,6 +46,7 @@ var group__track__finding =
       [ "TrackProxy", "struct_acts_1_1_combinatorial_kalman_filter_result.html#aee765c2e0fc9de1426e4c26bdb9d5974", null ],
       [ "TrackStateContainerBackend", "struct_acts_1_1_combinatorial_kalman_filter_result.html#ab850eaba1be89fd518a10e150a4f5d08", null ],
       [ "TrackStateProxy", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a7c5abbf62ad317d63b468bf4fc93b96c", null ],
+      [ "accumulatedJacobian", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a0549359e0be5fd5670536928f4cd0867", null ],
       [ "activeBranches", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a5b651c101b3ac817c16a572282046f9d", null ],
       [ "collectedTracks", "struct_acts_1_1_combinatorial_kalman_filter_result.html#a18226eea5e75b89fa8e907f67916e4e0", null ],
       [ "finished", "struct_acts_1_1_combinatorial_kalman_filter_result.html#ad2700e631c01f620f6f9a3cc918cbf8e", null ],

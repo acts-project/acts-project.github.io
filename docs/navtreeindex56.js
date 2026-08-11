@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#aea35e39f6f2fd961f092a203fbda979e":[5,0,0,1,54,0,17],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#aea35e39f6f2fd961f092a203fbda979e":[7,0,0,2,54,0,17],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af4d581a4ffc0e992b2b381846becf7ec":[5,0,0,1,54,0,14],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af4d581a4ffc0e992b2b381846becf7ec":[7,0,0,2,54,0,14],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#af5c2cb158f2495b190fd503cd29f0532":[5,0,0,1,54,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a551ee100d1f737b3fb74118eff70b88f":[5,0,0,165,1,2],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a551ee100d1f737b3fb74118eff70b88f":[7,0,0,173,1,2],
 "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[5,0,0,165,1,5],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[7,0,0,173,1,5],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[5,0,0,165,1,3],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5db7def77faaa253c4139ab6a7beac9d":[7,0,0,173,1,3]
+"struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html#a5c8e6b1bb5ec5d44db3c806399b2d574":[7,0,0,173,1,5]
 };

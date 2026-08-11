@@ -180,6 +180,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>multipleScattering</b
 <tr class="memitem:a382918c0da74defa038a1178436951af" id="r_a382918c0da74defa038a1178436951af"><td class="memItemLeft" align="right" valign="top"><a id="a382918c0da74defa038a1178436951af" name="a382918c0da74defa038a1178436951af"></a>
 <a class="el" href="struct_acts_1_1_propagator_plain_options.html">PropagatorPlainOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><b>propagatorPlainOptions</b></td></tr>
 <tr class="memdesc:a382918c0da74defa038a1178436951af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trivial propagator options. <br /></td></tr>
+<tr class="memitem:a8f1d96a67f55619a9432c8c0a0d7c9f4" id="r_a8f1d96a67f55619a9432c8c0a0d7c9f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f1d96a67f55619a9432c8c0a0d7c9f4">recordMaterialStates</a> = true</td></tr>
+<tr class="memdesc:a8f1d96a67f55619a9432c8c0a0d7c9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to record track states on material-only (non-sensitive) surfaces.  <br /></td></tr>
 <tr class="memitem:a1c9da15dfab6949f7693dd9d767e8043" id="r_a1c9da15dfab6949f7693dd9d767e8043"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c9da15dfab6949f7693dd9d767e8043">skipPrePropagationUpdate</a> = false</td></tr>
 <tr class="memdesc:a1c9da15dfab6949f7693dd9d767e8043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip the pre propagation call.  <br /></td></tr>
 <tr class="memitem:ab133235c9ffb5d24455750421afeb502" id="r_ab133235c9ffb5d24455750421afeb502"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab133235c9ffb5d24455750421afeb502">targetSurface</a> = nullptr</td></tr>
@@ -280,6 +282,25 @@ template&lt;typename track_container_t&gt; </div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a8f1d96a67f55619a9432c8c0a0d7c9f4" name="a8f1d96a67f55619a9432c8c0a0d7c9f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1d96a67f55619a9432c8c0a0d7c9f4">&#9670;&#160;</a></span>recordMaterialStates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename track_container_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="struct_acts_1_1_combinatorial_kalman_filter_options.html">Acts::CombinatorialKalmanFilterOptions</a>&lt; track_container_t &gt;::recordMaterialStates = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to record track states on material-only (non-sensitive) surfaces. </p>
+<p>Material effects are applied either way, only the record is dropped. </p><dl class="section note"><dt>Note</dt><dd>Keep enabled if the surfaces themselves are needed, e.g. for a refit with the <span class="tt">DirectNavigator</span>. Must stay enabled with a multi-component stepper. </dd></dl>
+
+</div>
+</div>
 <a id="a1c9da15dfab6949f7693dd9d767e8043" name="a1c9da15dfab6949f7693dd9d767e8043"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c9da15dfab6949f7693dd9d767e8043">&#9670;&#160;</a></span>skipPrePropagationUpdate</h2>
 

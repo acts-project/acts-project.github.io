@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_mutable_proto_layer.html":[7,0,0,294],
+"struct_acts_1_1_navigation_arguments.html":[5,0,0,287],
 "struct_acts_1_1_navigation_arguments.html":[7,0,0,295],
 "struct_acts_1_1_navigation_arguments.html#a059148ea4e6dd378347fbdc0c841c319":[5,0,0,287,1],
 "struct_acts_1_1_navigation_arguments.html#a059148ea4e6dd378347fbdc0c841c319":[7,0,0,295,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_polyhedron.html#acf1718e7f498ba1ce4d85c9038d40ad3":[7,0,0,329,10],
 "struct_acts_1_1_polyhedron.html#ad7a857d29513c57d89ac840535a85679":[5,0,0,321,7],
 "struct_acts_1_1_polyhedron.html#ad7a857d29513c57d89ac840535a85679":[7,0,0,329,7],
-"struct_acts_1_1_polyhedron.html#ad8180c433e3de5a24fa79e13f0af72b0":[5,0,0,321,8],
-"struct_acts_1_1_polyhedron.html#ad8180c433e3de5a24fa79e13f0af72b0":[7,0,0,329,8],
-"struct_acts_1_1_polyhedron.html#ae5abfb9317540e7c72f8592c7f5e28c3":[5,0,0,321,5]
+"struct_acts_1_1_polyhedron.html#ad8180c433e3de5a24fa79e13f0af72b0":[5,0,0,321,8]
 };
