@@ -156,8 +156,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3c99f54853dcba858260d3f1674478cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method internally used by convertDD4hepDetector.  <br /></td></tr>
 <tr class="memitem:gad21595c06a72a8d15a45e0bd1210c2bd" id="r_gad21595c06a72a8d15a45e0bd1210c2bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad21595c06a72a8d15a45e0bd1210c2bd">ActsPlugins::collectSubDetectors_dd4hep</a> (dd4hep::DetElement &amp;detElement, std::vector&lt; dd4hep::DetElement &gt; &amp;subdetectors, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:gad21595c06a72a8d15a45e0bd1210c2bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method internally used by convertDD4hepDetector to collect all sub detectors Sub detector means each 'compound' DetElement or DetElements which are declared as 'isBarrel' or 'isBeampipe' by their extension.  <br /></td></tr>
-<tr class="memitem:ga49cc5c92e1a7323a8832f103aba2f002" id="r_ga49cc5c92e1a7323a8832f103aba2f002"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; <a class="el" href="struct_acts_1_1_directed_proto_axis.html">Acts::DirectedProtoAxis</a>, std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49cc5c92e1a7323a8832f103aba2f002">ActsPlugins::DD4hepBinningHelpers::convertBinning</a> (const dd4hep::DetElement &amp;dd4hepElement, const std::string &amp;bname)</td></tr>
-<tr class="memdesc:ga49cc5c92e1a7323a8832f103aba2f002"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts the DD4hep binning into the Acts ProtoAxis.  <br /></td></tr>
+<tr class="memitem:ga924765d378faedd510d314ea133be74c" id="r_ga924765d378faedd510d314ea133be74c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; <a class="el" href="class_acts_1_1_axis_spec.html">Acts::AxisSpec</a>, std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga924765d378faedd510d314ea133be74c">ActsPlugins::DD4hepBinningHelpers::convertAxisSpecs</a> (const dd4hep::DetElement &amp;dd4hepElement, const std::string &amp;bname)</td></tr>
+<tr class="memdesc:ga924765d378faedd510d314ea133be74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts the DD4hep binning into Acts axis specs.  <br /></td></tr>
 <tr class="memitem:ga836ea8e26dd40df2f49a4d8feb3a6ace" id="r_ga836ea8e26dd40df2f49a4d8feb3a6ace"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga836ea8e26dd40df2f49a4d8feb3a6ace">ActsPlugins::convertDD4hepDetector</a> (dd4hep::DetElement worldDetElement, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypePhi=Acts::equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeR=Acts::equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeZ=Acts::equidistant, double layerEnvelopeR=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double layerEnvelopeZ=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double defaultLayerThickness=<a class="el" href="namespace_acts_1_1_unit_constants.html#a7c3f2a3f53d19935e2967361613908ba">Acts::UnitConstants::fm</a>, const std::function&lt; void(std::vector&lt; dd4hep::DetElement &gt; &amp;detectors)&gt; &amp;sortSubDetectors=<a class="el" href="#ga50507e288756f412c9c07e600ca63e70">sortDetElementsByID</a>, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx=<a class="el" href="class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379">Acts::GeometryContext::dangerouslyDefaultConstruct</a>(), std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_material_decorator.html">Acts::IMaterialDecorator</a> &gt; matDecorator=nullptr, std::shared_ptr&lt; const <a class="el" href="struct_acts_1_1_geometry_identifier_hook.html">Acts::GeometryIdentifierHook</a> &gt; geometryIdentifierHook=std::make_shared&lt; <a class="el" href="struct_acts_1_1_geometry_identifier_hook.html">Acts::GeometryIdentifierHook</a> &gt;(), const <a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#aaa79c778fa5d76b5e8be7e173320f814">DD4hepLayerBuilder::ElementFactory</a> &amp;detectorElementFactory=<a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a868244aba7e710c625b9ed534eed886e">DD4hepLayerBuilder::defaultDetectorElementFactory</a>)</td></tr>
 <tr class="memdesc:ga836ea8e26dd40df2f49a4d8feb3a6ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global method which creates the TrackingGeometry from DD4hep input.  <br /></td></tr>
 <tr class="memitem:ga4272c37f6492ae4029a34ab24d0723c5" id="r_ga4272c37f6492ae4029a34ab24d0723c5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="group__material.html#gabad517c3d330be68557175bbe3e71402">Acts::ProtoSurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4272c37f6492ae4029a34ab24d0723c5">ActsPlugins::createProtoMaterial</a> (const dd4hep::rec::VariantParameters &amp;params, const std::string &amp;valueTag, const std::vector&lt; std::pair&lt; const std::string, <a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">Acts::BinningOption</a> &gt; &gt; &amp;binning, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
@@ -428,14 +428,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga49cc5c92e1a7323a8832f103aba2f002" name="ga49cc5c92e1a7323a8832f103aba2f002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga49cc5c92e1a7323a8832f103aba2f002">&#9670;&#160;</a></span>convertBinning()</h2>
+<a id="ga924765d378faedd510d314ea133be74c" name="ga924765d378faedd510d314ea133be74c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga924765d378faedd510d314ea133be74c">&#9670;&#160;</a></span>convertAxisSpecs()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::tuple&lt; <a class="el" href="struct_acts_1_1_directed_proto_axis.html">Acts::DirectedProtoAxis</a>, std::size_t &gt; &gt; ActsPlugins::DD4hepBinningHelpers::convertBinning </td>
+          <td class="memname">std::vector&lt; std::tuple&lt; <a class="el" href="class_acts_1_1_axis_spec.html">Acts::AxisSpec</a>, std::size_t &gt; &gt; ActsPlugins::DD4hepBinningHelpers::convertAxisSpecs </td>
           <td>(</td>
           <td class="paramtype">const dd4hep::DetElement &amp;</td>          <td class="paramname"><span class="paramname"><em>dd4hepElement</em></span>, </td>
         </tr>
@@ -447,7 +447,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This method converts the DD4hep binning into the Acts ProtoAxis. </p>
+<p>This method converts the DD4hep binning into Acts axis specs. </p>
+<p>Auto-range binnings convert to deferred equidistant specs whose range (and boundary type) is determined by the consumer, explicit binnings convert to fully specified specs.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dd4hepElement</td><td>the element which has a binning description attached </td></tr>
@@ -455,7 +456,7 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of proto binning descriptions </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a vector of axis specs with their bin expansions </dd></dl>
 
 </div>
 </div>

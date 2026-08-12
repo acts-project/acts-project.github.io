@@ -197,8 +197,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gaad5c814e3aa3cfb77dd2dc46abc2099b" id="r_gaad5c814e3aa3cfb77dd2dc46abc2099b"><td class="memTemplParams" colspan="2">template&lt;typename grid_type&gt; </td></tr>
 <tr class="memitem:gaad5c814e3aa3cfb77dd2dc46abc2099b template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad5c814e3aa3cfb77dd2dc46abc2099b">Acts::IndexedSurfaceMaterial</a></td></tr>
 <tr class="memdesc:gaad5c814e3aa3cfb77dd2dc46abc2099b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for surface material indexed by local coordinates.  <br /></td></tr>
-<tr class="memitem:gadfa3ab1557fc9f1b6d7227d617a1ef4f" id="r_gadfa3ab1557fc9f1b6d7227d617a1ef4f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadfa3ab1557fc9f1b6d7227d617a1ef4f">Acts::ProtoGridSurfaceMaterial</a></td></tr>
-<tr class="memdesc:gadfa3ab1557fc9f1b6d7227d617a1ef4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a prototype surface material using a grid of ProtoAxis A surface material implementation that uses a vector of ProtoAxis for grid-based binning.  <br /></td></tr>
+<tr class="memitem:gaee4b3702e1722a63aab1022d8709175d" id="r_gaee4b3702e1722a63aab1022d8709175d"><td class="memItemLeft" align="right" valign="top"><a id="gaee4b3702e1722a63aab1022d8709175d" name="gaee4b3702e1722a63aab1022d8709175d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::ProtoGridSurfaceMaterial</b> = <a class="el" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT</a>&lt;<a class="el" href="namespace_acts.html#ad2a910912af5c2c5886020a0a4211fa3">MultiAxisSpec2D</a>&gt;</td></tr>
+<tr class="memdesc:gaee4b3702e1722a63aab1022d8709175d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a prototype surface material using a multi-axis binning description A surface material implementation that carries a MultiAxisSpec2D whose deferred axes are resolved against the surface during material mapping. <br /></td></tr>
 <tr class="memitem:gabad517c3d330be68557175bbe3e71402" id="r_gabad517c3d330be68557175bbe3e71402"><td class="memItemLeft" align="right" valign="top"><a id="gabad517c3d330be68557175bbe3e71402" name="gabad517c3d330be68557175bbe3e71402"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::ProtoSurfaceMaterial</b> = <a class="el" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT</a>&lt;<a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a>&gt;</td></tr>
 <tr class="memdesc:gabad517c3d330be68557175bbe3e71402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for a prototype surface material using BinUtility A surface material implementation that uses BinUtility for binning. <br /></td></tr>
@@ -279,25 +280,6 @@ template&lt;typename grid_type&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="gadfa3ab1557fc9f1b6d7227d617a1ef4f" name="gadfa3ab1557fc9f1b6d7227d617a1ef4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfa3ab1557fc9f1b6d7227d617a1ef4f">&#9670;&#160;</a></span>ProtoGridSurfaceMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#gadfa3ab1557fc9f1b6d7227d617a1ef4f">Acts::ProtoGridSurfaceMaterial</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">    <a class="code hl_class" href="class_acts_1_1_proto_surface_material_t.html">ProtoSurfaceMaterialT&lt;std::vector&lt;DirectedProtoAxis&gt;</a>&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_proto_surface_material_t_html"><div class="ttname"><a href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a></div><div class="ttdoc">proxy to SurfaceMaterial hand over BinUtility or other suitable binning description</div><div class="ttdef"><b>Definition</b> ProtoSurfaceMaterial.hpp:34</div></div>
-</div><!-- fragment -->
-<p>Type alias for a prototype surface material using a grid of ProtoAxis A surface material implementation that uses a vector of ProtoAxis for grid-based binning. </p>
 
 </div>
 </div>

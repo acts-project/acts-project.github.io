@@ -50,6 +50,11 @@ var hierarchy =
     [ "Acts::Axis&lt; type, bdt &gt;", "class_acts_1_1_axis.html", null ],
     [ "Acts::AxisAlignedBoundingBox&lt; entity_t, value_t, DIM &gt;", "class_acts_1_1_axis_aligned_bounding_box.html", null ],
     [ "Acts::AxisBoundaryTypeTag&lt; bdt &gt;", "struct_acts_1_1_axis_boundary_type_tag.html", null ],
+    [ "Acts::AxisSpec", "class_acts_1_1_axis_spec.html", null ],
+    [ "Acts::AxisSpec::DeferredVariableParams", "struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html", null ],
+    [ "Acts::AxisSpec::EquidistantParams", "struct_acts_1_1_axis_spec_1_1_equidistant_params.html", null ],
+    [ "Acts::AxisSpec::VariableParams", "struct_acts_1_1_axis_spec_1_1_variable_params.html", null ],
+    [ "Acts::AxisSpecOptions", "struct_acts_1_1_axis_spec_options.html", null ],
     [ "Acts::BarrelEndcapAssembler&lt; BackendT &gt;", "class_acts_1_1_barrel_endcap_assembler.html", null ],
     [ "Acts::BasePropagator", "class_acts_1_1_base_propagator.html", null ],
     [ "Acts::BetheHeitlerApprox", "class_acts_1_1_bethe_heitler_approx.html", [
@@ -503,6 +508,7 @@ var hierarchy =
     [ "Acts::IsReadOnlyTrackContainer&lt; T &gt;", "struct_acts_1_1_is_read_only_track_container.html", null ],
     [ "Acts::ISurfaceMaterial", "class_acts_1_1_i_surface_material.html", [
       [ "Acts::ProtoSurfaceMaterialT< Acts::BinUtility >", "class_acts_1_1_proto_surface_material_t.html", null ],
+      [ "Acts::ProtoSurfaceMaterialT< MultiAxisSpec2D >", "class_acts_1_1_proto_surface_material_t.html", null ],
       [ "Acts::BinnedSurfaceMaterial", "class_acts_1_1_binned_surface_material.html", null ],
       [ "Acts::HomogeneousSurfaceMaterial", "class_acts_1_1_homogeneous_surface_material.html", null ],
       [ "Acts::IGridSurfaceMaterialBase", "class_acts_1_1_i_grid_surface_material_base.html", [
@@ -627,6 +633,11 @@ var hierarchy =
     [ "Acts::MeasurementSelector", "class_acts_1_1_measurement_selector.html", null ],
     [ "Acts::MeasurementSelectorCuts", "struct_acts_1_1_measurement_selector_cuts.html", null ],
     [ "Acts::MiddleSpInfo", "struct_acts_1_1_middle_sp_info.html", null ],
+    [ "Acts::MultiAxisSpec", "class_acts_1_1_multi_axis_spec.html", [
+      [ "Acts::MultiAxisSpecXD< 1 >", "class_acts_1_1_multi_axis_spec_x_d.html", null ],
+      [ "Acts::MultiAxisSpecXD< 2 >", "class_acts_1_1_multi_axis_spec_x_d.html", null ],
+      [ "Acts::MultiAxisSpecXD< DIM >", "class_acts_1_1_multi_axis_spec_x_d.html", null ]
+    ] ],
     [ "Acts::MultiComponentBoundTrackParameters", "class_acts_1_1_multi_component_bound_track_parameters.html", null ],
     [ "Acts::MultiIndex&lt; T, BitsPerLevel &gt;", "class_acts_1_1_multi_index.html", null ],
     [ "Acts::MultiIntersection&lt; DIM &gt;", "class_acts_1_1_multi_intersection.html", null ],

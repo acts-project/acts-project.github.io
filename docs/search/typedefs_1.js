@@ -9,7 +9,7 @@ var searchData=
   ['bin_6',['Bin',['../class_acts_1_1_adaptive_grid_track_density.html#ac9e9beab63f9d08ca0bf2a91474ed952',1,'Acts::AdaptiveGridTrackDensity']]],
   ['bin2d_7',['Bin2D',['../struct_acts_fatras_1_1_segmentizer.html#a6adde1744912b310710f0fbd60cc3780',1,'ActsFatras::Segmentizer']]],
   ['bindelta2d_8',['BinDelta2D',['../struct_acts_fatras_1_1_segmentizer.html#ac16b531670f11f8e51ae0d12ee608345',1,'ActsFatras::Segmentizer']]],
-  ['binning_9',['Binning',['../class_acts_1_1_multi_wire_volume_builder.html#a696ea72d94c1d179501f6d0a4126f8e1',1,'Acts::MultiWireVolumeBuilder::Binning'],['../class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a696ea72d94c1d179501f6d0a4126f8e1',1,'Acts::Experimental::MultiWireVolumeBuilder::Binning']]],
+  ['binning_9',['Binning',['../class_acts_1_1_multi_wire_volume_builder.html#a9d99ae893df60fe7f606622fe160233c',1,'Acts::MultiWireVolumeBuilder::Binning'],['../class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a9d99ae893df60fe7f606622fe160233c',1,'Acts::Experimental::MultiWireVolumeBuilder::Binning']]],
   ['bitset_5ftype_10',['bitset_type',['../class_acts_1_1_track_state_type_base.html#a6dff7da1350d8aa69a827ffb6e52f2c9',1,'Acts::TrackStateTypeBase']]],
   ['blueprintbuilder_11',['BlueprintBuilder',['../namespace_acts_plugins.html#a882346a5d6c67e3fa2468d782eaea5a5',1,'ActsPlugins']]],
   ['boosthist_12',['BoostHist',['../namespace_acts_1_1_experimental.html#a1c0a9d070b5720016943b93abcc352bd',1,'Acts::Experimental']]],

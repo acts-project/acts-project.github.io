@@ -26,7 +26,7 @@ var searchData=
   ['projector_23',['Projector',['../class_acts_1_1_fixed_subspace_helper.html#a11a7b92a6e8d633f5a2bf51dcc11dcfb',1,'Acts::FixedSubspaceHelper']]],
   ['projectorbitset_24',['ProjectorBitset',['../namespace_acts.html#a1e6b3622ce6e2c9fea228f7b3678e5f4',1,'Acts']]],
   ['propagator_5ft_25',['Propagator_t',['../class_acts_1_1_dummy_vertex_fitter.html#aeeac086ef9d785ce512927aa52106d1d',1,'Acts::DummyVertexFitter']]],
-  ['protogridsurfacematerial_26',['ProtoGridSurfaceMaterial',['../group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f',1,'Acts']]],
+  ['protogridsurfacematerial_26',['ProtoGridSurfaceMaterial',['../group__material.html#gaee4b3702e1722a63aab1022d8709175d',1,'Acts']]],
   ['protosurfacematerial_27',['ProtoSurfaceMaterial',['../group__material.html#gabad517c3d330be68557175bbe3e71402',1,'Acts']]],
   ['proxyaccessor_28',['ProxyAccessor',['../namespace_acts.html#a79f3daeca2329cfd19dc3baa49e667d0',1,'Acts']]],
   ['publishermap_5ft_29',['PublisherMap_t',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html#a17eb9a475cb2597bea7b63def3219904',1,'ActsPlugins::GeoModelTree::VolumePublisher']]]

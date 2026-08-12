@@ -59,5 +59,7 @@ var searchData=
   ['axisalignedboundingbox_56',['AxisAlignedBoundingBox',['../class_acts_1_1_axis_aligned_bounding_box.html',1,'Acts']]],
   ['axisalignedboundingbox_3c_20volume_2c_20double_2c_203_20_3e_57',['AxisAlignedBoundingBox&lt; Volume, double, 3 &gt;',['../class_acts_1_1_axis_aligned_bounding_box.html',1,'Acts']]],
   ['axisboundarytypetag_58',['AxisBoundaryTypeTag',['../struct_acts_1_1_axis_boundary_type_tag.html',1,'Acts']]],
-  ['axisdirectionreferencegenerator_59',['AxisDirectionReferenceGenerator',['../struct_acts_1_1_axis_direction_reference_generator.html',1,'Acts']]]
+  ['axisdirectionreferencegenerator_59',['AxisDirectionReferenceGenerator',['../struct_acts_1_1_axis_direction_reference_generator.html',1,'Acts']]],
+  ['axisspec_60',['AxisSpec',['../class_acts_1_1_axis_spec.html',1,'Acts']]],
+  ['axisspecoptions_61',['AxisSpecOptions',['../struct_acts_1_1_axis_spec_options.html',1,'Acts']]]
 ];

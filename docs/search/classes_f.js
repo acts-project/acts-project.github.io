@@ -59,7 +59,7 @@ var searchData=
   ['protolayerhelper_56',['ProtoLayerHelper',['../class_acts_1_1_proto_layer_helper.html',1,'Acts']]],
   ['protosurfacematerialt_57',['ProtoSurfaceMaterialT',['../class_acts_1_1_proto_surface_material_t.html',1,'Acts']]],
   ['protosurfacematerialt_3c_20acts_3a_3abinutility_20_3e_58',['ProtoSurfaceMaterialT&lt; Acts::BinUtility &gt;',['../class_acts_1_1_proto_surface_material_t.html',1,'Acts']]],
-  ['protosurfacematerialt_3c_20std_3a_3avector_3c_20directedprotoaxis_20_3e_20_3e_59',['ProtoSurfaceMaterialT&lt; std::vector&lt; DirectedProtoAxis &gt; &gt;',['../class_acts_1_1_proto_surface_material_t.html',1,'Acts']]],
+  ['protosurfacematerialt_3c_20multiaxisspec2d_20_3e_59',['ProtoSurfaceMaterialT&lt; MultiAxisSpec2D &gt;',['../class_acts_1_1_proto_surface_material_t.html',1,'Acts']]],
   ['protovolumematerial_60',['ProtoVolumeMaterial',['../class_acts_1_1_proto_volume_material.html',1,'Acts']]],
   ['proxy_61',['Proxy',['../class_acts_1_1_doublets_for_middle_sp_1_1_proxy.html',1,'Acts::DoubletsForMiddleSp::Proxy'],['../class_acts_1_1_triplet_top_candidates_1_1_proxy.html',1,'Acts::TripletTopCandidates::Proxy']]],
   ['proxy2_62',['Proxy2',['../class_acts_1_1_doublets_for_middle_sp_1_1_proxy2.html',1,'Acts::DoubletsForMiddleSp']]],

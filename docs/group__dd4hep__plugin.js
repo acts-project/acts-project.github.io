@@ -13,7 +13,7 @@ var group__dd4hep__plugin =
     ] ],
     [ "ActsPlugins::DD4hepDetectorSurfaceFactory", "class_acts_plugins_1_1_d_d4hep_detector_surface_factory.html", [
       [ "Cache", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html", [
-        [ "binnings", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a7e3e338c000647b85d31a5cf81deaa73", null ],
+        [ "binnings", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#ae862f8da107c5542ddcd232c62bd62e6", null ],
         [ "convertedMaterials", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a406970cabee71bf7f557dd30965e461a", null ],
         [ "convertedSurfaces", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#a4f87099fbf7690b9e1dc493972be271f", null ],
         [ "extentConstraints", "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#aaaef016e4efcdfe206f2bb7387a73fc7", null ],
@@ -88,7 +88,7 @@ var group__dd4hep__plugin =
     [ "ActsPlugins::collectCompounds_dd4hep", "group__dd4hep__plugin.html#ga178c8eb6030272e74937c7a337ef45d8", null ],
     [ "ActsPlugins::collectLayers_dd4hep", "group__dd4hep__plugin.html#ga3c99f54853dcba858260d3f1674478cd", null ],
     [ "ActsPlugins::collectSubDetectors_dd4hep", "group__dd4hep__plugin.html#gad21595c06a72a8d15a45e0bd1210c2bd", null ],
-    [ "ActsPlugins::DD4hepBinningHelpers::convertBinning", "group__dd4hep__plugin.html#ga49cc5c92e1a7323a8832f103aba2f002", null ],
+    [ "ActsPlugins::DD4hepBinningHelpers::convertAxisSpecs", "group__dd4hep__plugin.html#ga924765d378faedd510d314ea133be74c", null ],
     [ "ActsPlugins::convertDD4hepDetector", "group__dd4hep__plugin.html#ga836ea8e26dd40df2f49a4d8feb3a6ace", null ],
     [ "ActsPlugins::createProtoMaterial", "group__dd4hep__plugin.html#ga4272c37f6492ae4029a34ab24d0723c5", null ],
     [ "ActsPlugins::cylinderVolumeHelper_dd4hep", "group__dd4hep__plugin.html#gae2894e2fe6f50d26a5b53721dcbb93c8", null ],

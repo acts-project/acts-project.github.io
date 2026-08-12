@@ -289,7 +289,7 @@ var group__material =
     [ "Acts::GloballyIndexedSurfaceMaterial", "group__material.html#gac15aff2ad0a7029a89bd903885de3310", null ],
     [ "Acts::GridSurfaceMaterial", "group__material.html#ga7f7ecaeb7a0b9e040e5de04892a1e1eb", null ],
     [ "Acts::IndexedSurfaceMaterial", "group__material.html#gaad5c814e3aa3cfb77dd2dc46abc2099b", null ],
-    [ "Acts::ProtoGridSurfaceMaterial", "group__material.html#gadfa3ab1557fc9f1b6d7227d617a1ef4f", null ],
+    [ "Acts::ProtoGridSurfaceMaterial", "group__material.html#gaee4b3702e1722a63aab1022d8709175d", null ],
     [ "Acts::ProtoSurfaceMaterial", "group__material.html#gabad517c3d330be68557175bbe3e71402", null ],
     [ "Acts::makeDefaultBetheHeitlerApprox", "group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d", null ],
     [ "Acts::materialMapperRZ", "group__material.html#ga36398a73a93820ca563cdaebf35c8c99", null ],

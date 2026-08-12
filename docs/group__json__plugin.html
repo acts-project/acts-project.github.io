@@ -232,8 +232,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac7844f9f2860fbc63cfe807871dd609e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to Transform3.  <br /></td></tr>
 <tr class="memitem:gad4e3a647d9f5607dcff4abf122189cb1" id="r_gad4e3a647d9f5607dcff4abf122189cb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad4e3a647d9f5607dcff4abf122189cb1">Acts::from_json</a> (const nlohmann::json &amp;j, <a class="el" href="#ga06973c0a57ed2cedc63a4e66a33eb4ae">volumeMaterialPointer</a> &amp;material)</td></tr>
 <tr class="memdesc:gad4e3a647d9f5607dcff4abf122189cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to volumeMaterialPointer.  <br /></td></tr>
+<tr class="memitem:ga3003cc34afbdf85ca72fb300adc30e9a" id="r_ga3003cc34afbdf85ca72fb300adc30e9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_axis_spec.html">AxisSpec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3003cc34afbdf85ca72fb300adc30e9a">Acts::AxisSpecJsonConverter::fromJson</a> (const nlohmann::json &amp;j)</td></tr>
+<tr class="memdesc:ga3003cc34afbdf85ca72fb300adc30e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an AxisSpec from a json object.  <br /></td></tr>
 <tr class="memitem:ga4ec453becca4f99dad7cd102ed1599a8" id="r_ga4ec453becca4f99dad7cd102ed1599a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html#a1ddf6ceeb06740ffa3d6509f56fa5c63">Container</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ec453becca4f99dad7cd102ed1599a8">Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;::fromJson</a> (const nlohmann::json &amp;encoded) const</td></tr>
 <tr class="memdesc:ga4ec453becca4f99dad7cd102ed1599a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a Json object into a geometry hierarchy map.  <br /></td></tr>
+<tr class="memitem:ga2286f8992673759a773f830d1fd6f971" id="r_ga2286f8992673759a773f830d1fd6f971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_multi_axis_spec.html">MultiAxisSpec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2286f8992673759a773f830d1fd6f971">Acts::MultiAxisSpecJsonConverter::fromJson</a> (const nlohmann::json &amp;j)</td></tr>
+<tr class="memdesc:ga2286f8992673759a773f830d1fd6f971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a MultiAxisSpec from a json object.  <br /></td></tr>
 <tr class="memitem:ga7db1175609439b8069b2d0b090773503" id="r_ga7db1175609439b8069b2d0b090773503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a> (const nlohmann::json &amp;j)</td></tr>
 <tr class="memdesc:ga7db1175609439b8069b2d0b090773503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ProtoAxis from a json object.  <br /></td></tr>
 <tr class="memitem:ga0c4c37f9c2d147c464be0b11b6662e44" id="r_ga0c4c37f9c2d147c464be0b11b6662e44"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c4c37f9c2d147c464be0b11b6662e44">Acts::SurfaceJsonConverter::fromJson</a> (const nlohmann::json &amp;jSurface)</td></tr>
@@ -287,8 +291,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga7bd8c6518220699d3b8523a29bbed679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert VolumeBounds to JSON.  <br /></td></tr>
 <tr class="memitem:ga8883ce55bef32607470a0518e62d4818" id="r_ga8883ce55bef32607470a0518e62d4818"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8883ce55bef32607470a0518e62d4818">Acts::to_json</a> (nlohmann::json &amp;j, const <a class="el" href="#ga06973c0a57ed2cedc63a4e66a33eb4ae">volumeMaterialPointer</a> &amp;material)</td></tr>
 <tr class="memdesc:ga8883ce55bef32607470a0518e62d4818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert volumeMaterialPointer to JSON.  <br /></td></tr>
+<tr class="memitem:ga75523e297dc47b9d783db30a4e9a5da1" id="r_ga75523e297dc47b9d783db30a4e9a5da1"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75523e297dc47b9d783db30a4e9a5da1">Acts::AxisSpecJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_axis_spec.html">AxisSpec</a> &amp;axisSpec)</td></tr>
+<tr class="memdesc:ga75523e297dc47b9d783db30a4e9a5da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the AxisSpec to a json object.  <br /></td></tr>
 <tr class="memitem:gae3bc8c18a830cf3b08595eafc172e2d3" id="r_gae3bc8c18a830cf3b08595eafc172e2d3"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3bc8c18a830cf3b08595eafc172e2d3">Acts::GeometryHierarchyMapJsonConverter&lt; value_t, decorator_t &gt;::toJson</a> (const <a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html#a1ddf6ceeb06740ffa3d6509f56fa5c63">Container</a> &amp;container, const decorator_t *decorator) const</td></tr>
 <tr class="memdesc:gae3bc8c18a830cf3b08595eafc172e2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode the geometry hierarchy map into a Json object.  <br /></td></tr>
+<tr class="memitem:ga970d027cc427c7f0c5288aa29c767ea2" id="r_ga970d027cc427c7f0c5288aa29c767ea2"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga970d027cc427c7f0c5288aa29c767ea2">Acts::MultiAxisSpecJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_multi_axis_spec.html">MultiAxisSpec</a> &amp;multiAxisSpec)</td></tr>
+<tr class="memdesc:ga970d027cc427c7f0c5288aa29c767ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the MultiAxisSpec to a json object.  <br /></td></tr>
 <tr class="memitem:ga038acefb1a69555567e98c97b9830cf9" id="r_ga038acefb1a69555567e98c97b9830cf9"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_proto_axis.html">ProtoAxis</a> &amp;pa)</td></tr>
 <tr class="memdesc:ga038acefb1a69555567e98c97b9830cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the ProtoAxis to a json object.  <br /></td></tr>
 <tr class="memitem:ga277a256ce56e6426a468cfada6325112" id="r_ga277a256ce56e6426a468cfada6325112"><td class="memItemLeft" align="right" valign="top">static nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga277a256ce56e6426a468cfada6325112">Acts::SurfaceJsonConverter::toJson</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const <a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a> &amp;options=<a class="el" href="struct_acts_1_1_surface_json_converter_1_1_options.html">Options</a>{ .transformOptions=<a class="el" href="struct_acts_1_1_transform3_json_converter_1_1_options.html">Transform3JsonConverter::Options</a>{},.writeMaterial=true,.portal=false})</td></tr>
@@ -1266,8 +1274,34 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 
 </div>
 </div>
+<a id="ga3003cc34afbdf85ca72fb300adc30e9a" name="ga3003cc34afbdf85ca72fb300adc30e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3003cc34afbdf85ca72fb300adc30e9a">&#9670;&#160;</a></span>fromJson() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_axis_spec.html">AxisSpec</a> Acts::AxisSpecJsonConverter::fromJson </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create an AxisSpec from a json object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>the json object to be read from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>AxisSpec created from the JSON object </dd></dl>
+
+</div>
+</div>
 <a id="ga4ec453becca4f99dad7cd102ed1599a8" name="ga4ec453becca4f99dad7cd102ed1599a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ec453becca4f99dad7cd102ed1599a8">&#9670;&#160;</a></span>fromJson() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ec453becca4f99dad7cd102ed1599a8">&#9670;&#160;</a></span>fromJson() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1300,8 +1334,34 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
 
 </div>
 </div>
+<a id="ga2286f8992673759a773f830d1fd6f971" name="ga2286f8992673759a773f830d1fd6f971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2286f8992673759a773f830d1fd6f971">&#9670;&#160;</a></span>fromJson() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_multi_axis_spec.html">MultiAxisSpec</a> Acts::MultiAxisSpecJsonConverter::fromJson </td>
+          <td>(</td>
+          <td class="paramtype">const nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>j</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a MultiAxisSpec from a json object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>the json object to be read from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MultiAxisSpec created from the JSON object </dd></dl>
+
+</div>
+</div>
 <a id="ga7db1175609439b8069b2d0b090773503" name="ga7db1175609439b8069b2d0b090773503"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7db1175609439b8069b2d0b090773503">&#9670;&#160;</a></span>fromJson() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db1175609439b8069b2d0b090773503">&#9670;&#160;</a></span>fromJson() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1323,11 +1383,12 @@ template&lt;typename value_t, class decorator_t = void&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ProtoAxis created from the JSON object </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000096">Deprecated</a></b></dt><dd>Use AxisSpecJsonConverter with an AxisSpec instead </dd></dl>
 
 </div>
 </div>
 <a id="ga0c4c37f9c2d147c464be0b11b6662e44" name="ga0c4c37f9c2d147c464be0b11b6662e44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0c4c37f9c2d147c464be0b11b6662e44">&#9670;&#160;</a></span>fromJson() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c4c37f9c2d147c464be0b11b6662e44">&#9670;&#160;</a></span>fromJson() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2281,8 +2342,34 @@ template&lt;typename <a class="el" href="namespace_acts.html#a7fc11ee35d17cdf6bb
 
 </div>
 </div>
+<a id="ga75523e297dc47b9d783db30a4e9a5da1" name="ga75523e297dc47b9d783db30a4e9a5da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75523e297dc47b9d783db30a4e9a5da1">&#9670;&#160;</a></span>toJson() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json Acts::AxisSpecJsonConverter::toJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_axis_spec.html">AxisSpec</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>axisSpec</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the AxisSpec to a json object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axisSpec</td><td>the axis spec to be written out </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>JSON object representing the axis spec </dd></dl>
+
+</div>
+</div>
 <a id="gae3bc8c18a830cf3b08595eafc172e2d3" name="gae3bc8c18a830cf3b08595eafc172e2d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae3bc8c18a830cf3b08595eafc172e2d3">&#9670;&#160;</a></span>toJson() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3bc8c18a830cf3b08595eafc172e2d3">&#9670;&#160;</a></span>toJson() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2314,8 +2401,34 @@ template&lt;typename value_t, class decorator_t&gt; </div>
 
 </div>
 </div>
+<a id="ga970d027cc427c7f0c5288aa29c767ea2" name="ga970d027cc427c7f0c5288aa29c767ea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga970d027cc427c7f0c5288aa29c767ea2">&#9670;&#160;</a></span>toJson() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json Acts::MultiAxisSpecJsonConverter::toJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_multi_axis_spec.html">MultiAxisSpec</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>multiAxisSpec</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the MultiAxisSpec to a json object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">multiAxisSpec</td><td>the multi-axis spec to be written out </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>JSON object representing the multi-axis spec </dd></dl>
+
+</div>
+</div>
 <a id="ga038acefb1a69555567e98c97b9830cf9" name="ga038acefb1a69555567e98c97b9830cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga038acefb1a69555567e98c97b9830cf9">&#9670;&#160;</a></span>toJson() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga038acefb1a69555567e98c97b9830cf9">&#9670;&#160;</a></span>toJson() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2337,11 +2450,12 @@ template&lt;typename value_t, class decorator_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>JSON object representing the proto axis </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000095">Deprecated</a></b></dt><dd>Use AxisSpecJsonConverter with an AxisSpec instead </dd></dl>
 
 </div>
 </div>
 <a id="ga277a256ce56e6426a468cfada6325112" name="ga277a256ce56e6426a468cfada6325112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga277a256ce56e6426a468cfada6325112">&#9670;&#160;</a></span>toJson() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga277a256ce56e6426a468cfada6325112">&#9670;&#160;</a></span>toJson() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2386,7 +2500,7 @@ template&lt;typename value_t, class decorator_t&gt; </div>
 </div>
 </div>
 <a id="ga0d44dfc16a076ea3977b8d4632e0bd71" name="ga0d44dfc16a076ea3977b8d4632e0bd71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0d44dfc16a076ea3977b8d4632e0bd71">&#9670;&#160;</a></span>toJson() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d44dfc16a076ea3977b8d4632e0bd71">&#9670;&#160;</a></span>toJson() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
