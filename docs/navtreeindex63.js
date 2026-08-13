@@ -104,7 +104,8 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#a7f18d580b5f1ecff6be29ddd6847c034":[7,0,0,13,1,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#acb83225ec2cd1edeff5c2c40b748b212":[7,0,0,13,1,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html":[7,0,0,13,2],
-"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[7,0,0,13,2,0],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[7,0,0,13,2,1],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c":[7,0,0,13,2,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[7,0,0,13,3],
 "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#a4c425f1cbd0af7d6bc4ef35c0506f854":[7,0,0,13,3,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#aca1e9355119835f3349ee7dec653cf19":[7,0,0,13,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a62198fb4e23b5bada78f7d04fbf64755":[7,0,0,407,2,12],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a632405a133655ca77ba863972999080f":[5,0,0,399,2,1],
 "struct_acts_1_1_sympy_stepper_1_1_state.html#a632405a133655ca77ba863972999080f":[7,0,0,407,2,1],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a7106268ea0c0de7e92c9cc5365bb0b64":[5,0,0,399,2,11],
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a7106268ea0c0de7e92c9cc5365bb0b64":[7,0,0,407,2,11]
+"struct_acts_1_1_sympy_stepper_1_1_state.html#a7106268ea0c0de7e92c9cc5365bb0b64":[5,0,0,399,2,11]
 };

@@ -129,12 +129,12 @@ var NAVTREEINDEX =
 "struct_acts_1_1_navigator_1_1_state.html#aae9ade56747841b1ab9aad67782b516c",
 "struct_acts_1_1_propagator_options.html#ae204a6ef1b0e1c706ce43094a5712ab2",
 "struct_acts_1_1_source_link_adapter_iterator.html#ad459f912bf483c8a26ddce9996b0287a",
-"struct_acts_1_1_sympy_stepper_1_1_state.html#a75d9c40ac81f2c3058ba3369134557b9",
-"struct_acts_1_1_track_state_creator.html#afd11f6b9f0515b512161f1591c69a563",
-"struct_acts_1_1_volume_config.html#a36b57257589351772afe23d4c13c435c",
-"struct_acts_fatras_1_1_continuous_process.html",
-"struct_acts_fatras_1_1_surface_mask.html#ae0d5eb234fae0f8d447dedf2713d75da",
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#aeb6869ec420457b4a1e749c66a5bbf5d"
+"struct_acts_1_1_sympy_stepper_1_1_state.html#a7106268ea0c0de7e92c9cc5365bb0b64",
+"struct_acts_1_1_track_state_creator.html#afc1f111d387b28f661ebff969d1d601a",
+"struct_acts_1_1_volume_config.html#a348c2463d561639425184ce751f9b49d",
+"struct_acts_fatras_1_1_cluster.html#af9b2b77cca2b5a07410ea7cc8d23cd78",
+"struct_acts_fatras_1_1_surface_mask.html#a8dec7cdbe1b3f82dab55455756879f74",
+"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#ad4c60d174facd68461a8ec73e7374332"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -133,13 +133,33 @@ $(function(){initNavTree('struct_acts_1_1_strip_space_point_builder_1_1_cosmic_o
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab40cba538b563ba9407e2341bb8ce23c" id="r_ab40cba538b563ba9407e2341bb8ce23c"><td class="memItemLeft" align="right" valign="top"><a id="ab40cba538b563ba9407e2341bb8ce23c" name="ab40cba538b563ba9407e2341bb8ce23c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance</b> = 1e-6</td></tr>
-<tr class="memdesc:ab40cba538b563ba9407e2341bb8ce23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numerical tolerance for the calculation. <br /></td></tr>
+<tr class="memitem:ad94292d444b7df8e779c99e839402f4c" id="r_ad94292d444b7df8e779c99e839402f4c"><td class="memItemLeft" align="right" valign="top"><a id="ad94292d444b7df8e779c99e839402f4c" name="ad94292d444b7df8e779c99e839402f4c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>stripLengthTolerance</b> = 0.01</td></tr>
+<tr class="memdesc:ad94292d444b7df8e779c99e839402f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance scaling factor on the strip detector element length. <br /></td></tr>
+<tr class="memitem:ab40cba538b563ba9407e2341bb8ce23c" id="r_ab40cba538b563ba9407e2341bb8ce23c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab40cba538b563ba9407e2341bb8ce23c">tolerance</a> = 1e-6</td></tr>
+<tr class="memdesc:ab40cba538b563ba9407e2341bb8ce23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum squared sine of the angle between the two strips.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Collection of cosmic space point options. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ab40cba538b563ba9407e2341bb8ce23c" name="ab40cba538b563ba9407e2341bb8ce23c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40cba538b563ba9407e2341bb8ce23c">&#9670;&#160;</a></span>tolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Acts::StripSpacePointBuilder::CosmicOptions::tolerance = 1e-6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimum squared sine of the angle between the two strips. </p>
+<p>Pairs below this are too close to parallel for the closest approach to be well defined. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -461,7 +461,7 @@ var searchData=
   ['stripcalibrationdetails_458',['StripCalibrationDetails',['../namespace_acts.html#a7a6813a649567fb613b8214ad5e7399cac6812a1e375ae61912bc88ad6007c00a',1,'Acts']]],
   ['stripends_459',['StripEnds',['../struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html',1,'Acts::StripSpacePointBuilder']]],
   ['striplengthgaptolerance_460',['stripLengthGapTolerance',['../struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#acb83225ec2cd1edeff5c2c40b748b212',1,'Acts::StripSpacePointBuilder::ConstrainedOptions']]],
-  ['striplengthtolerance_461',['stripLengthTolerance',['../struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#a7f18d580b5f1ecff6be29ddd6847c034',1,'Acts::StripSpacePointBuilder::ConstrainedOptions']]],
+  ['striplengthtolerance_461',['stripLengthTolerance',['../struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c',1,'Acts::StripSpacePointBuilder::CosmicOptions::stripLengthTolerance'],['../struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html#a7f18d580b5f1ecff6be29ddd6847c034',1,'Acts::StripSpacePointBuilder::ConstrainedOptions::stripLengthTolerance']]],
   ['strokecolor_462',['strokeColor',['../struct_acts_plugins_1_1_svg_1_1_style.html#a8a1e1f3df49bd923746a24b10e58f918',1,'ActsPlugins::Svg::Style']]],
   ['strokedasharray_463',['strokeDasharray',['../struct_acts_plugins_1_1_svg_1_1_style.html#aadf0b6146a6f1557cfb1f3c3e4202b64',1,'ActsPlugins::Svg::Style']]],
   ['strokewidth_464',['strokeWidth',['../struct_acts_plugins_1_1_svg_1_1_style.html#a5b8c5a3df5058e2bf06b0782ac6a25c2',1,'ActsPlugins::Svg::Style']]],
