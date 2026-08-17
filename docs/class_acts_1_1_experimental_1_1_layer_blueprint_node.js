@@ -11,6 +11,7 @@ var class_acts_1_1_experimental_1_1_layer_blueprint_node =
     [ "layerType", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a350650d717fc2b06a4feff27013488ba", null ],
     [ "name", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad8414b44be60ac4c489d3c873c0996c2", null ],
     [ "protoLayer", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#ad30b4030aed81d185203e4e1a298c0b6", null ],
+    [ "retainPlacement", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a62d128bba2b0062528e85b73d91c115c", null ],
     [ "setEnvelope", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#acfbee909d44ff16c4ce6ab4428fea359", null ],
     [ "setLayerType", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a6f2872f4b8ee86ba0509fdf0ba1d7e92", null ],
     [ "setProtoLayer", "class_acts_1_1_experimental_1_1_layer_blueprint_node.html#aa26e5b36fbdf6a74f7367760228b8b4a", null ],

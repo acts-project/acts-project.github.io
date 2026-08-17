@@ -149,6 +149,8 @@ Public Types</h2></td></tr>
 <tr class="memdesc:aa40e085652097af14f99a4dfa2a22b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable range of surfaces in tracking volume.  <br /></td></tr>
 <tr class="memitem:a79cf877dedd3348a5f055519492ca7f3" id="r_a79cf877dedd3348a5f055519492ca7f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79cf877dedd3348a5f055519492ca7f3">MutableVolumeRange</a></td></tr>
 <tr class="memdesc:a79cf877dedd3348a5f055519492ca7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for mutable range of tracking volumes in container.  <br /></td></tr>
+<tr class="memitem:ad9b49419aee69e781bbb1150e955c3b3" id="r_ad9b49419aee69e781bbb1150e955c3b3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9b49419aee69e781bbb1150e955c3b3">PlacementOwnPtr</a></td></tr>
+<tr class="memdesc:ad9b49419aee69e781bbb1150e955c3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation of the shared ptr variant holding the placements.  <br /></td></tr>
 <tr class="memitem:ae4b24f909cdb2da7c408f37ac8322d74" id="r_ae4b24f909cdb2da7c408f37ac8322d74"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b24f909cdb2da7c408f37ac8322d74">PortalRange</a></td></tr>
 <tr class="memdesc:ae4b24f909cdb2da7c408f37ac8322d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const range of portals in tracking volume.  <br /></td></tr>
 <tr class="memitem:a30e9a5f002ba247a81a8a11e68ede174" id="r_a30e9a5f002ba247a81a8a11e68ede174"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30e9a5f002ba247a81a8a11e68ede174">SurfaceRange</a></td></tr>
@@ -341,6 +343,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearBoundarySurfaces
 <tr class="memdesc:a5685408c4d3ed1d59ad50b5d354fb0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a navigation policy with this volume.  <br /></td></tr>
 <tr class="memitem:ab682bdc16e28e2766899e5af4382bcae" id="r_ab682bdc16e28e2766899e5af4382bcae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab682bdc16e28e2766899e5af4382bcae">initializeNavigationCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;args, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;state, <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;stream, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
 <tr class="memdesc:ab682bdc16e28e2766899e5af4382bcae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate the navigation stream with navigation candidates from this volume.  <br /></td></tr>
+<tr class="memitem:a659409d4267ac8ac8c7b714de3557410" id="r_a659409d4267ac8ac8c7b714de3557410"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a659409d4267ac8ac8c7b714de3557410">retainPlacement</a> (<a class="el" href="#ad9b49419aee69e781bbb1150e955c3b3">PlacementOwnPtr</a> placement)</td></tr>
+<tr class="memdesc:a659409d4267ac8ac8c7b714de3557410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass over a (Volume / Surface) placement to share owner ship with the volume.  <br /></td></tr>
+<tr class="memitem:aeae542b6fb6166ef949f878c943eba71" id="r_aeae542b6fb6166ef949f878c943eba71"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="#ad9b49419aee69e781bbb1150e955c3b3">PlacementOwnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeae542b6fb6166ef949f878c943eba71">placements</a> () const</td></tr>
+<tr class="memdesc:aeae542b6fb6166ef949f878c943eba71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the view on all the placements owned by the tracking volume.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -414,6 +420,25 @@ Additional Inherited Members</h2></td></tr>
 <div class="line">                             std::vector&lt;std::unique_ptr&lt;TrackingVolume&gt;&gt;&gt;</div>
 </div><!-- fragment -->
 <p>Type alias for mutable range of tracking volumes in container. </p>
+
+</div>
+</div>
+<a id="ad9b49419aee69e781bbb1150e955c3b3" name="ad9b49419aee69e781bbb1150e955c3b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b49419aee69e781bbb1150e955c3b3">&#9670;&#160;</a></span>PlacementOwnPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ad9b49419aee69e781bbb1150e955c3b3">Acts::TrackingVolume::PlacementOwnPtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      std::variant&lt;std::shared_ptr&lt;const VolumePlacementBase&gt;,</div>
+<div class="line">                   std::shared_ptr&lt;const SurfacePlacementBase&gt;&gt;</div>
+</div><!-- fragment -->
+<p>Abrivation of the shared ptr variant holding the placements. </p>
 
 </div>
 </div>
@@ -699,6 +724,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>The volume takes shared ownership of the placement </dd></dl>
 
 </div>
 </div>
@@ -1439,6 +1465,26 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</div>
 
 </div>
 </div>
+<a id="aeae542b6fb6166ef949f878c943eba71" name="aeae542b6fb6166ef949f878c943eba71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae542b6fb6166ef949f878c943eba71">&#9670;&#160;</a></span>placements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const <a class="el" href="#ad9b49419aee69e781bbb1150e955c3b3">PlacementOwnPtr</a> &gt; Acts::TrackingVolume::placements </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the view on all the placements owned by the tracking volume. </p>
+<dl class="section return"><dt>Returns</dt><dd>The const view on all the placements owned by this volume </dd></dl>
+
+</div>
+</div>
 <a id="ac037bebe33ea14d05a6213dd8f1c9b37" name="ac037bebe33ea14d05a6213dd8f1c9b37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac037bebe33ea14d05a6213dd8f1c9b37">&#9670;&#160;</a></span>portals() <span class="overload">[1/2]</span></h2>
 
@@ -1503,6 +1549,31 @@ requires (detail::callableWithAnyConst&lt;Callable&gt;())</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gvd</td><td>register a new GlueVolumeDescriptor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a659409d4267ac8ac8c7b714de3557410" name="a659409d4267ac8ac8c7b714de3557410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a659409d4267ac8ac8c7b714de3557410">&#9670;&#160;</a></span>retainPlacement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingVolume::retainPlacement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad9b49419aee69e781bbb1150e955c3b3">PlacementOwnPtr</a></td>          <td class="paramname"><span class="paramname"><em>placement</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pass over a (Volume / Surface) placement to share owner ship with the volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">placement</td><td>Pointer to the placement to be managed by the tracking volume </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html":[7,0,0,6,0,0],
+"class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html#a224fd8afd92fc60b75fe4e3990e35b2b":[5,0,0,3,0,0,1],
 "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html#a224fd8afd92fc60b75fe4e3990e35b2b":[7,0,0,6,0,0,1],
 "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html#a242f03a40fb0b86cb51151f6525be396":[5,0,0,3,0,0,2],
 "class_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max.html#a242f03a40fb0b86cb51151f6525be396":[7,0,0,6,0,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_i_multi_axis_x_d.html#a5ed93b95bc1957df0183d5deaf889ee1":[7,0,0,205,17],
 "class_acts_1_1_i_multi_axis_x_d.html#a68465c3884abadf44c108814067c7c93":[5,0,0,197,1],
 "class_acts_1_1_i_multi_axis_x_d.html#a68465c3884abadf44c108814067c7c93":[7,0,0,205,1],
-"class_acts_1_1_i_multi_axis_x_d.html#a74b40cfecf06d4cd5b04306ce44493f5":[5,0,0,197,21],
-"class_acts_1_1_i_multi_axis_x_d.html#a74b40cfecf06d4cd5b04306ce44493f5":[7,0,0,205,21],
-"class_acts_1_1_i_multi_axis_x_d.html#a8013ddb393be36b485c66b5bdacd4dd9":[5,0,0,197,2]
+"class_acts_1_1_i_multi_axis_x_d.html#a74b40cfecf06d4cd5b04306ce44493f5":[5,0,0,197,21]
 };

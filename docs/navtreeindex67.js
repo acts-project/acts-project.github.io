@@ -1,5 +1,15 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_cluster.html#a3f91e5054ca4de381f7ac5b49f41c9d2":[7,0,1,10,2],
+"struct_acts_fatras_1_1_cluster.html#a600a5ab96929bef044c6629ca19d7178":[5,0,2,9,5],
+"struct_acts_fatras_1_1_cluster.html#a600a5ab96929bef044c6629ca19d7178":[7,0,1,10,5],
+"struct_acts_fatras_1_1_cluster.html#a65fa5a2ce5ed63a6353de8f1cce65cf4":[5,0,2,9,1],
+"struct_acts_fatras_1_1_cluster.html#a65fa5a2ce5ed63a6353de8f1cce65cf4":[7,0,1,10,1],
+"struct_acts_fatras_1_1_cluster.html#a7ed3e28d7b6e3ee848eba21174631978":[5,0,2,9,0],
+"struct_acts_fatras_1_1_cluster.html#a7ed3e28d7b6e3ee848eba21174631978":[7,0,1,10,0],
+"struct_acts_fatras_1_1_cluster.html#ac60bad16e8aa7baefc1dc8ef2339e47f":[5,0,2,9,4],
+"struct_acts_fatras_1_1_cluster.html#ac60bad16e8aa7baefc1dc8ef2339e47f":[7,0,1,10,4],
+"struct_acts_fatras_1_1_cluster.html#af9b2b77cca2b5a07410ea7cc8d23cd78":[5,0,2,9,6],
 "struct_acts_fatras_1_1_cluster.html#af9b2b77cca2b5a07410ea7cc8d23cd78":[7,0,1,10,6],
 "struct_acts_fatras_1_1_continuous_process.html":[5,0,2,10],
 "struct_acts_fatras_1_1_continuous_process.html":[7,0,1,11],
@@ -239,15 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_surface_drift.html#a9fcc76d18b2bf90f8a635b1ace4546e1":[7,0,1,37,2],
 "struct_acts_fatras_1_1_surface_mask.html":[5,0,2,37],
 "struct_acts_fatras_1_1_surface_mask.html":[7,0,1,38],
-"struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[5,0,2,37,5],
-"struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[7,0,1,38,5],
-"struct_acts_fatras_1_1_surface_mask.html#a503f2d3a6636cab0cffcf97e27eb16e6":[5,0,2,37,2],
-"struct_acts_fatras_1_1_surface_mask.html#a503f2d3a6636cab0cffcf97e27eb16e6":[7,0,1,38,2],
-"struct_acts_fatras_1_1_surface_mask.html#a535e31145ae0364ff33e020004196a2a":[5,0,2,37,4],
-"struct_acts_fatras_1_1_surface_mask.html#a535e31145ae0364ff33e020004196a2a":[7,0,1,38,4],
-"struct_acts_fatras_1_1_surface_mask.html#a58158bb1c8cba0f89af4d10f00da7926":[5,0,2,37,6],
-"struct_acts_fatras_1_1_surface_mask.html#a58158bb1c8cba0f89af4d10f00da7926":[7,0,1,38,6],
-"struct_acts_fatras_1_1_surface_mask.html#a75d6f76c895d0abecdff6f1623a02bbc":[5,0,2,37,3],
-"struct_acts_fatras_1_1_surface_mask.html#a75d6f76c895d0abecdff6f1623a02bbc":[7,0,1,38,3],
-"struct_acts_fatras_1_1_surface_mask.html#a8dec7cdbe1b3f82dab55455756879f74":[5,0,2,37,0]
+"struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[5,0,2,37,5]
 };

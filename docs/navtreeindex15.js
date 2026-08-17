@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#a07147988f1309293ace81a546f0f3e82":[7,0,0,2,45,6],
+"class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#a13fa66abed881178df890bcdc3554d5b":[5,0,0,1,45,8],
 "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#a13fa66abed881178df890bcdc3554d5b":[7,0,0,2,45,8],
 "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#a3773837a425d50613cd6e71420e8cfc5":[5,0,0,1,45,1],
 "class_acts_1_1_experimental_1_1_multi_layer_navigation_policy.html#a3773837a425d50613cd6e71420e8cfc5":[7,0,0,2,45,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a1a05f3651c5b89fd68e01be7fa8643dd":[7,0,0,2,57,3],
 "class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a2f50827e51e7cb782bdc7aef530b778c":[5,0,0,1,57,1],
 "class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a2f50827e51e7cb782bdc7aef530b778c":[7,0,0,2,57,1],
-"class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a3ddc9ea5f14f24ea591d7cfd4701acfd":[5,0,0,1,57,8],
-"class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a3ddc9ea5f14f24ea591d7cfd4701acfd":[7,0,0,2,57,8],
-"class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a64adc9068022a00525e0323844596c68":[5,0,0,1,57,5]
+"class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a3ddc9ea5f14f24ea591d7cfd4701acfd":[5,0,0,1,57,8]
 };

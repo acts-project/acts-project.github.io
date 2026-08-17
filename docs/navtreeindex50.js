@@ -1,5 +1,15 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[7,0,0,22,1,1],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html":[5,0,0,15,0],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html":[7,0,0,23,0],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0277d32f9b1e9cdda28b81bcb9c4a566":[5,0,0,15,0,8],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0277d32f9b1e9cdda28b81bcb9c4a566":[7,0,0,23,0,8],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0a61ccf1142bdb27483ac0c7ee468092":[5,0,0,15,0,9],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0a61ccf1142bdb27483ac0c7ee468092":[7,0,0,23,0,9],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[5,0,0,15,0,2],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[7,0,0,23,0,2],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[5,0,0,15,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[7,0,0,23,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[5,0,0,15,0,4],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[7,0,0,23,0,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a74ac44b88331ec9ae1a214b1145e3fa4":[5,0,0,40,1,1],
 "struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a74ac44b88331ec9ae1a214b1145e3fa4":[7,0,0,48,1,1],
 "struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a8e1f465dacb9f7f2f2e331fb5e4b0fba":[5,0,0,40,1,0],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a8e1f465dacb9f7f2f2e331fb5e4b0fba":[7,0,0,48,1,0],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#ab9e1e908a43da7c7b3c76b4b135ba341":[5,0,0,40,1,2],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#ab9e1e908a43da7c7b3c76b4b135ba341":[7,0,0,48,1,2],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#acffe6d2d88c1267c5ffe48d1453cdf61":[5,0,0,40,1,3],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#acffe6d2d88c1267c5ffe48d1453cdf61":[7,0,0,48,1,3],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html":[5,0,0,40,2],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html":[7,0,0,48,2],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[5,0,0,40,2,1],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[7,0,0,48,2,1],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[5,0,0,40,2,0],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[7,0,0,48,2,0]
+"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a8e1f465dacb9f7f2f2e331fb5e4b0fba":[7,0,0,48,1,0]
 };

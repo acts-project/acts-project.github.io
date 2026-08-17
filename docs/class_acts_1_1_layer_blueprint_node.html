@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad8414b44be60ac4c489d3c873c0996c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this node.     <br /></td></tr>
 <tr class="memitem:ad30b4030aed81d185203e4e1a298c0b6" id="r_ad30b4030aed81d185203e4e1a298c0b6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_mutable_proto_layer.html">MutableProtoLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30b4030aed81d185203e4e1a298c0b6">protoLayer</a> () const</td></tr>
 <tr class="memdesc:ad30b4030aed81d185203e4e1a298c0b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the registered proto layer.  <br /></td></tr>
+<tr class="memitem:a62d128bba2b0062528e85b73d91c115c" id="r_a62d128bba2b0062528e85b73d91c115c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62d128bba2b0062528e85b73d91c115c">retainPlacement</a> (<a class="el" href="class_acts_1_1_tracking_volume.html#ad9b49419aee69e781bbb1150e955c3b3">TrackingVolume::PlacementOwnPtr</a> placement)</td></tr>
+<tr class="memdesc:a62d128bba2b0062528e85b73d91c115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass the shared ownership of a geometry placement towards the tracking volume later constructed by the node.  <br /></td></tr>
 <tr class="memitem:acfbee909d44ff16c4ce6ab4428fea359" id="r_acfbee909d44ff16c4ce6ab4428fea359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a45b5b7645557428729bba09a290f1588">LayerBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfbee909d44ff16c4ce6ab4428fea359">setEnvelope</a> (const <a class="el" href="struct_acts_1_1_extent_envelope.html">ExtentEnvelope</a> &amp;<a class="el" href="#a18413d63d867729c94003cfc29c21b3a">envelope</a>)</td></tr>
 <tr class="memdesc:acfbee909d44ff16c4ce6ab4428fea359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the envelope of the layer node.  <br /></td></tr>
 <tr class="memitem:a6f2872f4b8ee86ba0509fdf0ba1d7e92" id="r_a6f2872f4b8ee86ba0509fdf0ba1d7e92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a45b5b7645557428729bba09a290f1588">LayerBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2872f4b8ee86ba0509fdf0ba1d7e92">setLayerType</a> (<a class="el" href="#ab0b70351f82824ee90480b43aa420cd7">LayerType</a> <a class="el" href="#a350650d717fc2b06a4feff27013488ba">layerType</a>)</td></tr>
@@ -476,6 +478,31 @@ std::unique_ptr&lt; <a class="el" href="class_acts_1_1_tracking_volume.html">Tra
 <p>Access the registered proto layer. </p>
 <dl class="section note"><dt>Note</dt><dd>This will return nullptr if no proto layer is registered or built yet </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The registered proto layer </dd></dl>
+
+</div>
+</div>
+<a id="a62d128bba2b0062528e85b73d91c115c" name="a62d128bba2b0062528e85b73d91c115c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62d128bba2b0062528e85b73d91c115c">&#9670;&#160;</a></span>retainPlacement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_experimental_1_1_layer_blueprint_node.html#a62d128bba2b0062528e85b73d91c115c">Acts::LayerBlueprintNode::retainPlacement</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html#ad9b49419aee69e781bbb1150e955c3b3">TrackingVolume::PlacementOwnPtr</a></td>          <td class="paramname"><span class="paramname"><em>placement</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pass the shared ownership of a geometry placement towards the tracking volume later constructed by the node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">placement</td><td>Pointer to the placement to be managed by the tracking volume </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

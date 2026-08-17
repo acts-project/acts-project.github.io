@@ -1,5 +1,15 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a180f116b8e73a095085b0e9747804763":[4,13,5,6],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a1d27e8d322f9d5ee1e32fe14336a2377":[4,13,5,8],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a2fb106e351092e2350beee5fc0d172bf":[4,13,5,0],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a48fed7e05f1ac0ec5e308377c4e6d474":[4,13,5,12],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a793fdc8ef515a4630a512f73b8e60dd2":[4,13,5,5],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a7951f35faf1f06b90798e11eeae59beb":[4,13,5,7],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#aa5206c36cacf8a2c3ef9b3d8a349b646":[4,13,5,1],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ab3653855ae2bccf1fd2056150c4d9374":[4,13,5,11],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ab5c32fd4ffe17ed4755ad61c0c1d901e":[4,13,5,2],
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#acd7a4cac5bf6ecde98970083fadb866b":[4,13,5,9],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#adb427a70473cf26177afa82f8efcb6e5":[4,13,5,3],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#ade0f48477b16ff9f79508f2490452666":[4,13,5,10],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#af1b1ef08aa96df34716efc196a81c914":[4,13,5,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_extent_envelope.html#a42c20027bced507eb70272f52eb65fba":[7,0,0,148,1],
 "struct_acts_1_1_extent_envelope.html#a50ca30ed77fc1809b3be5d424fb3c086":[5,0,0,140,6],
 "struct_acts_1_1_extent_envelope.html#a50ca30ed77fc1809b3be5d424fb3c086":[7,0,0,148,6],
-"struct_acts_1_1_extent_envelope.html#a591bb5523fe4e9fbf35b3bda78283162":[5,0,0,140,7],
-"struct_acts_1_1_extent_envelope.html#a591bb5523fe4e9fbf35b3bda78283162":[7,0,0,148,7],
-"struct_acts_1_1_extent_envelope.html#a64e7dac49e7b2780507285c8770c45ac":[5,0,0,140,5],
-"struct_acts_1_1_extent_envelope.html#a64e7dac49e7b2780507285c8770c45ac":[7,0,0,148,5],
-"struct_acts_1_1_extent_envelope.html#aa70f95740750a66cf2474cb20fdb4aa7":[5,0,0,140,3],
-"struct_acts_1_1_extent_envelope.html#aa70f95740750a66cf2474cb20fdb4aa7":[7,0,0,148,3],
-"struct_acts_1_1_extent_envelope.html#abfa677b2e2b5bf48d53f45300c6b1200":[5,0,0,140,2],
-"struct_acts_1_1_extent_envelope.html#abfa677b2e2b5bf48d53f45300c6b1200":[7,0,0,148,2],
-"struct_acts_1_1_extent_envelope.html#ad418dcdb22f9bbda620d630d40d9ea89":[5,0,0,140,4],
-"struct_acts_1_1_extent_envelope.html#ad418dcdb22f9bbda620d630d40d9ea89":[7,0,0,148,4],
-"struct_acts_1_1_extent_envelope_1_1_arguments.html":[5,0,0,140,0]
+"struct_acts_1_1_extent_envelope.html#a591bb5523fe4e9fbf35b3bda78283162":[5,0,0,140,7]
 };
