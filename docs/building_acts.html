@@ -244,6 +244,19 @@ SourceLink<br  />
 type<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ACTS_CODEGEN_PREBUILT_DIR  </td><td class="markdownTableBodyNone">Directory holding pre-generated code; a<br  />
+generated file found there is used<br  />
+verbatim instead of being regenerated.<br  />
+Defaults to prebuilt-codegen/ next to<br  />
+this file when it exists, which is what<br  />
+release source archives ship<br  />
+ type: <span class="tt">path</span>, default: <span class="tt">""</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">ACTS_CODEGEN_REQUIRE_PREBUILT  </td><td class="markdownTableBodyNone">Fail the configure step instead of<br  />
+running the code generators when pre-<br  />
+generated code is missing<br  />
+ type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">ACTS_USE_SYSTEM_LIBS  </td><td class="markdownTableBodyNone">Use system libraries by default<br  />
  type: <span class="tt">bool</span>, default: <span class="tt">OFF</span>  </td></tr>
 <tr class="markdownTableRowOdd">
@@ -536,7 +549,25 @@ The OpenDataDetector</h1>
 <div class="line">detector = getOpenDataDetector(materialDecorator=materialDecorator)</div>
 <div class="line">trackingGeometry = detector.trackingGeometry()</div>
 <div class="line">decorators = detector.contextDecorators()</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="source-package"></a>
+Source packages with pre-generated code</h1>
+<p>Parts of ACTS (and of the bundled detray) are C++ headers generated at build time with sympy. The generated files are deliberately not committed, so a normal build downloads <span class="tt">uv</span>, a Python interpreter and the generator dependencies. This happens even when every C++ dependency is already provided, which makes builds depend on network access.</p>
+<p>Everything that gets generated is listed in <span class="tt">codegen/manifest.json</span>, keyed by where the generated file belongs. That file is the single source of truth: <span class="tt">cmake/ActsCodegen.cmake</span> drives the build from it, and <span class="tt">CI/pregenerate_codegen.py</span> produces the same files from it ahead of time, so the two cannot disagree about what exists or where it goes. Adding a generator means adding it to the manifest; <span class="tt">acts_code_generation</span> refuses a key that is not listed there.</p>
+<p>Pre-generating the code needs <span class="tt">uv</span> and nothing else — no CMake, no compiler, and none of the C++ dependencies a real ACTS configure requires:</p>
+<div class="fragment"><div class="line">$ CI/pregenerate_codegen.py --output prebuilt-codegen</div>
+</div><!-- fragment --><p><span class="tt">CI/make_source_archive.sh</span> then packs the tracked content of a revision together with that directory, using nothing but git, tar and gzip:</p>
+<div class="fragment"><div class="line">$ CI/make_source_archive.sh --output acts-&lt;version&gt;.tar.gz \</div>
+<div class="line">      --prebuilt prebuilt-codegen --revision &lt;rev&gt; --prefix acts-&lt;version&gt;</div>
+</div><!-- fragment --><p>A build configured from the unpacked archive finds <span class="tt">prebuilt-codegen/</span> next to the top-level <span class="tt">CMakeLists.txt</span> on its own and copies the headers into place instead of regenerating them, so it needs neither <span class="tt">uv</span>, nor Python, nor network access for the code generation step.</p>
+<p>Because the manifest lists every unit, the archive covers all of them regardless of which options the machine producing it had enabled. The content comes from a revision via <span class="tt">git archive</span> rather than from the working directory, which keeps build directories and other untracked files out and honours <span class="tt">export-ignore</span> attributes.</p>
+<p><span class="tt">CI/codegen_prebuilt_check</span> is a small CMake project that verifies a pre-generated directory is complete and actually gets picked up. It declares no languages and builds no code, so it runs anywhere CMake does:</p>
+<div class="fragment"><div class="line">$ cmake -S CI/codegen_prebuilt_check -B &lt;build&gt; \</div>
+<div class="line">      -DACTS_CODEGEN_PREBUILT_DIR=&lt;prebuilt&gt;</div>
+<div class="line">$ cmake --build &lt;build&gt;</div>
+</div><!-- fragment --><dl class="section important"><dt>Important</dt><dd>A release has <b>two</b> source archives, and only one of them carries the generated code. The archive attached to the release as an asset does; the archive GitHub generates automatically for the tag (<span class="tt">.../archive/refs/tags/vX.Y.Z.tar.gz</span>) does not, and cannot be made to. Packaging recipes that want the offline build have to point at the release asset. Building from the auto-generated archive still works — it just falls back to running the generators, and with them the downloads.</dd></dl>
+<p>Two <a class="el" href="#build-options">build options</a> steer this on the consuming side. <span class="tt">ACTS_CODEGEN_PREBUILT_DIR</span> points at a directory of pre-generated code explicitly, and <span class="tt">ACTS_CODEGEN_REQUIRE_PREBUILT</span> decides what happens when a generated file is not covered by it.</p>
+<p>Generated files that have no counterpart in the pre-generated directory are generated as usual, and CMake warns about each one. Since that warning is easy to miss in a long configure log, a build that must not reach the network should set <span class="tt">ACTS_CODEGEN_REQUIRE_PREBUILT=ON</span>, which turns every such fallback — and the case of no pre-generated code at all — into a hard error. This is the recommended setting for packaging recipes: it fails loudly when the wrong archive was used, rather than silently taking the slow path.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
 Using ACTS in downstream code</h1>
 <p>When using ACTS in your own CMake-based project, you need to include the following lines in your <span class="tt">CMakeLists.txt</span> file:</p>
 <div class="fragment"><div class="line">find_package (Acts COMPONENTS comp1 comp2 ...)</div>

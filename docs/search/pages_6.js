@@ -12,7 +12,7 @@ var searchData=
   ['clang_20tidy_9',['Clang Tidy',['../contribution_clang_tidy.html',1,'']]],
   ['cloning_10',['Logger Cloning',['../group__logging.html#autotoc_md39',1,'']]],
   ['clustering_11',['Clustering',['../tracking.html#clustering',1,'']]],
-  ['code_12',['Using ACTS in downstream code',['../building_acts.html#autotoc_md55',1,'']]],
+  ['code_12',['code',['../building_acts.html#source-package',1,'Source packages with pre-generated code'],['../building_acts.html#autotoc_md55',1,'Using ACTS in downstream code']]],
   ['code_20formatting_13',['Source code formatting',['../formatting.html',1,'']]],
   ['columns_14',['Dynamic columns',['../group__eventdata__tracks.html#track_edm_dynamic_columns',1,'']]],
   ['combinatorial_20kalman_20filter_15',['Combinatorial Kalman Filter',['../tracking.html#combinatorial-kalman-filter',1,'']]],
