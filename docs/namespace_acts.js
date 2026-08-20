@@ -5,6 +5,12 @@ var namespace_acts =
     ] ],
     [ "Experimental", "namespace_acts_1_1_experimental.html", "namespace_acts_1_1_experimental" ],
     [ "GridAxisGenerators", "namespace_acts_1_1_grid_axis_generators.html", "namespace_acts_1_1_grid_axis_generators" ],
+    [ "GsfConstants", "namespace_acts_1_1_gsf_constants.html", [
+      [ "FinalMultiComponentState", "namespace_acts_1_1_gsf_constants.html#a73b5bf0550af54e2ce73ac01d357f6bf", null ],
+      [ "kFinalMultiComponentStateColumn", "namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed", null ],
+      [ "kFwdMaxMaterialXOverX0", "namespace_acts_1_1_gsf_constants.html#a8370f5e21c19127e3c309a9807ad9297", null ],
+      [ "kFwdSumMaterialXOverX0", "namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2", null ]
+    ] ],
     [ "HoughTransformUtils", null, [
       [ "PeakFinders", "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders.html", "namespace_acts_1_1_hough_transform_utils_1_1_peak_finders" ],
       [ "HoughAxisRanges", "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html", "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges" ],

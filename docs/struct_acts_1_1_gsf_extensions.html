@@ -141,7 +141,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a810790a4517ef68dabe1d7b60f566f16" id="r_a810790a4517ef68dabe1d7b60f566f16"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a810790a4517ef68dabe1d7b60f566f16">Calibrator</a></td></tr>
 <tr class="memdesc:a810790a4517ef68dabe1d7b60f566f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for calibrator delegate function.  <br /></td></tr>
 <tr class="memitem:ab757cbe31c78322d770ee73ef3fd2b51" id="r_ab757cbe31c78322d770ee73ef3fd2b51"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab757cbe31c78322d770ee73ef3fd2b51">ComponentReducer</a></td></tr>
-<tr class="memdesc:ab757cbe31c78322d770ee73ef3fd2b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for component reducer delegate function.  <br /></td></tr>
+<tr class="memdesc:ab757cbe31c78322d770ee73ef3fd2b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for component reducer delegate function [mixture reducer].  <br /></td></tr>
 <tr class="memitem:a13570212de09ba637c5be334e82e7621" id="r_a13570212de09ba637c5be334e82e7621"><td class="memItemLeft" align="right" valign="top"><a id="a13570212de09ba637c5be334e82e7621" name="a13570212de09ba637c5be334e82e7621"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstTrackStateProxy</b> = typename traj_t::ConstTrackStateProxy</td></tr>
 <tr class="memdesc:a13570212de09ba637c5be334e82e7621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for const track state proxy. <br /></td></tr>
@@ -163,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a25d32ffc38a48354002def79cbbff266" id="r_a25d32ffc38a48354002def79cbbff266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a810790a4517ef68dabe1d7b60f566f16">Calibrator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d32ffc38a48354002def79cbbff266">calibrator</a></td></tr>
-<tr class="memdesc:a25d32ffc38a48354002def79cbbff266"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Calibrator is a dedicated calibration algorithm that allows to calibrate measurements using track information, this could be e.g.  <br /></td></tr>
+<tr class="memdesc:a25d32ffc38a48354002def79cbbff266"><td class="mdescLeft">&#160;</td><td class="mdescRight">[mixture reducer]  <br /></td></tr>
 <tr class="memitem:abcbe99026d8c4de13aad230c4f6d1080" id="r_abcbe99026d8c4de13aad230c4f6d1080"><td class="memItemLeft" align="right" valign="top"><a id="abcbe99026d8c4de13aad230c4f6d1080" name="abcbe99026d8c4de13aad230c4f6d1080"></a>
 <a class="el" href="#ab757cbe31c78322d770ee73ef3fd2b51">ComponentReducer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mixtureReducer</b></td></tr>
 <tr class="memdesc:abcbe99026d8c4de13aad230c4f6d1080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a vector of components and reduces its number. <br /></td></tr>
@@ -201,7 +201,7 @@ template&lt;typename traj_t&gt; </div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="aclass_acts_1_1_source_link_html"><div class="ttname"><a href="class_acts_1_1_source_link.html">Acts::SourceLink</a></div><div class="ttdoc">Type-erased source link wrapper.</div><div class="ttdef"><b>Definition</b> SourceLink.hpp:29</div></div>
-<div class="ttc" id="astruct_acts_1_1_gsf_extensions_html_abbf3590fd17f735ba54ce36fcf7d97ed"><div class="ttname"><a href="#abbf3590fd17f735ba54ce36fcf7d97ed">Acts::GsfExtensions::TrackStateProxy</a></div><div class="ttdeci">typename traj_t::TrackStateProxy TrackStateProxy</div><div class="ttdoc">Type alias for mutable track state proxy.</div><div class="ttdef"><b>Definition</b> GsfOptions.hpp:47</div></div>
+<div class="ttc" id="astruct_acts_1_1_gsf_extensions_html_abbf3590fd17f735ba54ce36fcf7d97ed"><div class="ttname"><a href="#abbf3590fd17f735ba54ce36fcf7d97ed">Acts::GsfExtensions::TrackStateProxy</a></div><div class="ttdeci">typename traj_t::TrackStateProxy TrackStateProxy</div><div class="ttdoc">Type alias for mutable track state proxy.</div><div class="ttdef"><b>Definition</b> GsfOptions.hpp:54</div></div>
 </div><!-- fragment -->
 <p>Type alias for calibrator delegate function. </p>
 
@@ -224,7 +224,7 @@ template&lt;typename traj_t&gt; </div>
 <div class="line">      <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;void(std::vector&lt;GsfComponent&gt; &amp;, std::size_t, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a> &amp;)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:57</div></div>
 </div><!-- fragment -->
-<p>Type alias for component reducer delegate function. </p>
+<p>Type alias for component reducer delegate function [mixture reducer]. </p>
 
 </div>
 </div>
@@ -264,8 +264,8 @@ template&lt;typename traj_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The Calibrator is a dedicated calibration algorithm that allows to calibrate measurements using track information, this could be e.g. </p>
-<p>sagging for wires, module deformations, etc. </p>
+<p>[mixture reducer] </p>
+<p>The Calibrator is a dedicated calibration algorithm that allows to calibrate measurements using track information, this could be e.g. sagging for wires, module deformations, etc. </p>
 
 </div>
 </div>

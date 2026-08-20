@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_fatras_1_1_surface_drift.html#a470f78e885fdfc1782df98b4df981766":[7,0,1,37,0],
+"struct_acts_fatras_1_1_surface_drift.html#a9fcc76d18b2bf90f8a635b1ace4546e1":[5,0,2,36,2],
+"struct_acts_fatras_1_1_surface_drift.html#a9fcc76d18b2bf90f8a635b1ace4546e1":[7,0,1,37,2],
+"struct_acts_fatras_1_1_surface_mask.html":[5,0,2,37],
+"struct_acts_fatras_1_1_surface_mask.html":[7,0,1,38],
+"struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[5,0,2,37,5],
 "struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[7,0,1,38,5],
 "struct_acts_fatras_1_1_surface_mask.html#a503f2d3a6636cab0cffcf97e27eb16e6":[5,0,2,37,2],
 "struct_acts_fatras_1_1_surface_mask.html#a503f2d3a6636cab0cffcf97e27eb16e6":[7,0,1,38,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "struct_acts_plugins_1_1_onnx_edge_classifier_1_1_config.html#ad98a7bff52d6ed7d568bbdad25bc1a5c":[4,10,6,13,0,4],
 "struct_acts_plugins_1_1_pipeline_tensors.html":[4,10,6,14],
 "struct_acts_plugins_1_1_pipeline_tensors.html#a1e09855954eeb28d5e061d3c5a88735e":[4,10,6,14,3],
-"struct_acts_plugins_1_1_pipeline_tensors.html#a4831b807b7819c5fe11c737eed5c4781":[4,10,6,14,0],
-"struct_acts_plugins_1_1_pipeline_tensors.html#aa1eb3257c5ca1a5bb5219c8f83053b2c":[4,10,6,14,2],
-"struct_acts_plugins_1_1_pipeline_tensors.html#ac6357736cc792db22f00eecd8f84c9fc":[4,10,6,14,1],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html":[4,10,12,3,0],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a1758501a0f328604ac45ac422556c4fb":[4,10,12,3,0,11],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a26470a56dc521da5f3732b0f810c010b":[4,10,12,3,0,1],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a3e4de29f911fce0f49fa466c373ef50e":[4,10,12,3,0,13]
+"struct_acts_plugins_1_1_pipeline_tensors.html#a4831b807b7819c5fe11c737eed5c4781":[4,10,6,14,0]
 };

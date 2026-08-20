@@ -145,7 +145,6 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> = deta
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b593569b93fbc23758df47e785b81af" id="r_a8b593569b93fbc23758df47e785b81af"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b593569b93fbc23758df47e785b81af">maxComponents</a> () const =0</td></tr>
-<tr class="memdesc:a8b593569b93fbc23758df47e785b81af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of components in the mixture.  <br /></td></tr>
 <tr class="memitem:a2f4ffb5dc53aa252ded57259eb91c619" id="r_a2f4ffb5dc53aa252ded57259eb91c619"><td class="memItemLeft" align="right" valign="top">virtual std::span&lt; <a class="el" href="#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f4ffb5dc53aa252ded57259eb91c619">mixture</a> (double xOverX0, std::span&lt; <a class="el" href="#a28880193b20f2bd2ea69fcdd20cae1a3">Component</a> &gt; mixture) const =0</td></tr>
 <tr class="memdesc:a2f4ffb5dc53aa252ded57259eb91c619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute mixture for given x/X0.  <br /></td></tr>
 <tr class="memitem:a24eff665b135214e214cb999fd15cad9" id="r_a24eff665b135214e214cb999fd15cad9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24eff665b135214e214cb999fd15cad9">validXOverX0</a> (double xOverX0) const =0</td></tr>
@@ -176,9 +175,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Maximum number of components in the mixture. </p>
-<dl class="section return"><dt>Returns</dt><dd>Maximum number of components </dd></dl>
+<p>[bethe heitler interface] Maximum number of components in the mixture </p><dl class="section return"><dt>Returns</dt><dd>Maximum number of components </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_bethe_heitler_approx_single_cmp.html#ad4dd08c7ece504dc4b3e31dbf3c6033b">Acts::BetheHeitlerApproxSingleCmp</a>, and <a class="el" href="class_acts_1_1_polynomial_bethe_heitler_approx.html#a107288fd979fa11027d9a14b1b5740bb">Acts::PolynomialBetheHeitlerApprox</a>.</p>
 

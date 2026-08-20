@@ -125,10 +125,10 @@ $(function(){initNavTree('material_mapping_workflow.html','',''); });
   <div class="headertitle"><div class="title">Material mapping workflow (source of truth) </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
 Material mapping workflow (source of truth)</h1>
 <p>This page is the canonical reference for the ACTS Examples material mapping chain. It explains the end-to-end logic and points to the concrete scripts and tests that define current behavior.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
 Overview</h2>
 <p>Material mapping in the Examples pipeline is a three-step process:</p>
 <ol type="1">
@@ -136,7 +136,7 @@ Overview</h2>
 <li><b>Map recorded material onto ACTS tracking surfaces</b> Collect surfaces configured to carry material (via <span class="tt">ProtoSurfaceMaterial</span> in geometry/material configuration), assign recorded interactions to these surfaces, and average into a compact material map.</li>
 <li><b>Validate mapped material</b> Propagate particles through the detector decorated with the produced map and record material tracks again for comparison against Geant4-based recording.</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
 Scripts (ODD workflow)</h2>
 <p>The following scripts implement the three stages:</p>
 <ul>
@@ -149,16 +149,16 @@ Scripts (ODD workflow)</h2>
 <div class="line">python material_mapping.py -n 1000000 -i odd_material_geant4 -o odd_material</div>
 <div class="line">python material_validation.py -n 1000 -t 1000 -m odd_material_map.root -o odd_material_validated -p</div>
 </div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd>Run these from <span class="tt">Examples/Scripts/Python</span> or prefix each command with <span class="tt">python Examples/Scripts/Python/&lt;script&gt;.py ...</span> from the repository root.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
 Step-by-step logic</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
 1) Material recording (<span class="tt">material_recording.py</span>)</h3>
 <ul>
 <li>Uses Geant4 material recording to create per-track material information.</li>
 <li>Produces a <span class="tt">&lt;output&gt;.root</span> ROOT file containing material tracks.</li>
 <li>Typical output for the command above: <span class="tt">odd_material_geant4.root</span>.</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
 2) Material mapping (<span class="tt">material_mapping.py</span>)</h3>
 <ul>
 <li>Reads recorded material tracks (<span class="tt">RootMaterialTrackReader</span>).</li>
@@ -171,21 +171,21 @@ Step-by-step logic</h2>
 </ul>
 </li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
 3) Material validation (<span class="tt">material_validation.py</span>)</h3>
 <ul>
 <li>Decorates geometry from <span class="tt">--map</span>, then validates material response by producing material tracks from mapped material.</li>
 <li>Writes <span class="tt">&lt;output&gt;.root</span> with collection <span class="tt">material_tracks</span> by default.</li>
 <li><span class="tt">-p</span> / <span class="tt">--propagate</span> enables an additional propagation/navigation-based collection, written as <span class="tt">&lt;output&gt;_propagated.root</span>, useful to expose potential navigation-related effects in material collection.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
 Comparison example</h2>
 <p>The figure below overlays Geant4, mapped, validated, and propagated profiles for <span class="tt">t_X0</span> vs <span class="tt">eta</span>, with a ratio panel.</p>
 <div class="image">
 <img src="overlay_profile_ratio_v_eta_t_X0.png" alt=""/>
 <div class="caption">
 Overlay and ratio for material profiles.</div></div>
-    <h2 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
+    <h2 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
 Tests that guard this workflow</h2>
 <p>Primary tests live in <span class="tt">Python/Examples/tests</span>:</p>
 <ul>

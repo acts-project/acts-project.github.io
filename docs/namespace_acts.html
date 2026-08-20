@@ -136,6 +136,8 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_acts_1_1_experimental"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains code that is not considered stable yet and might change. <br /></td></tr>
 <tr class="memitem:GridAxisGenerators" id="r_GridAxisGenerators"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_grid_axis_generators.html">GridAxisGenerators</a></td></tr>
 <tr class="memdesc:namespace_acts_1_1_grid_axis_generators"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis generators are used to allow defining different grid types for indexed geometry objects. <br /></td></tr>
+<tr class="memitem:GsfConstants" id="r_GsfConstants"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_gsf_constants.html">GsfConstants</a></td></tr>
+<tr class="memdesc:namespace_acts_1_1_gsf_constants"><td class="mdescLeft">&#160;</td><td class="mdescRight">[component merge method] <br /></td></tr>
 <tr class="memitem:ParticleIdHelper" id="r_ParticleIdHelper"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_particle_id_helper.html">ParticleIdHelper</a></td></tr>
 <tr class="memdesc:namespace_acts_1_1_particle_id_helper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle identification based on PDG number. <br /></td></tr>
 <tr class="memitem:PhysicalConstants" id="r_PhysicalConstants"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_physical_constants.html">PhysicalConstants</a></td></tr>
@@ -477,7 +479,7 @@ Classes</h2></td></tr>
 <tr class="memitem:GridSurfaceMaterialT" id="r_GridSurfaceMaterialT"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_grid_surface_material_t.html">GridSurfaceMaterialT</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GridSurfaceMaterialT.  <a href="class_acts_1_1_grid_surface_material_t.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GsfComponent" id="r_GsfComponent"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_gsf_component.html">GsfComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encapsulates a component of a Gaussian mixture as used by the GSF.  <a href="struct_acts_1_1_gsf_component.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encapsulates a component of a Gaussian mixture as used by the GSF [gsf component].  <a href="struct_acts_1_1_gsf_component.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GsfExtensions" id="r_GsfExtensions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_gsf_extensions.html">GsfExtensions</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extensions needed for the GSF.  <a href="struct_acts_1_1_gsf_extensions.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GsfOptions" id="r_GsfOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_gsf_options.html">GsfOptions</a></td></tr>
@@ -1561,7 +1563,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:ga920082397516a41a551b2a9883131d66" id="r_ga920082397516a41a551b2a9883131d66"><td class="memItemLeft" align="right" valign="top"><a id="ga920082397516a41a551b2a9883131d66" name="ga920082397516a41a551b2a9883131d66"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__track__fitting.html#ga920082397516a41a551b2a9883131d66">ComponentMergeMethod</a> { <b>eMean</b>
 , <b>eMaxWeight</b>
  }</td></tr>
-<tr class="memdesc:ga920082397516a41a551b2a9883131d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available reduction methods for the reduction of a Gaussian mixture. <br /></td></tr>
+<tr class="memdesc:ga920082397516a41a551b2a9883131d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available reduction methods for the reduction of a Gaussian mixture [component merge method]. <br /></td></tr>
 <tr class="memitem:a07a86fac65395a5f95452259e7872ecc" id="r_a07a86fac65395a5f95452259e7872ecc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07a86fac65395a5f95452259e7872ecc">CoordinateIndices</a> : unsigned int { <br />
 &#160;&#160;<b>ePos0</b> = 0
 , <b>ePos1</b> = 1
@@ -5848,7 +5850,7 @@ template&lt;typename... Fs&gt; </div>
 \[  -dE(x) = -\frac{dE}{dx}\, x,
 \]
 </p>
-<p>where \(-dE/dx\) is given by the Bethe formula <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.5), including the density-effect correction. The result is the magnitude of the loss (always \(\geq 0\)); The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<p>where \(-dE/dx\) is given by the Bethe formula <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[11]</a> (eq. 33.5), including the density-effect correction. The result is the magnitude of the loss (always \(\geq 0\)); The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
 <dl class="section return"><dt>Returns</dt><dd>Mean ionisation energy loss through the slab in native energy units </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeb22670d2e2303ba2854c2169aa08608">computeEnergyLossLandau</a> for the most probable value, <a class="el" href="#a2ecf42043a08060183625f40fdfb7d5f">computeEnergyLossRadiative</a> for radiative losses, and <a class="el" href="#a87160e91db5e1f254b03ea77a3e67775">computeEnergyLossMean</a> for the sum of both </dd></dl>
 
@@ -5893,7 +5895,7 @@ template&lt;typename... Fs&gt; </div>
   </table>
   </dd>
 </dl>
-<p>This computes the most probable ionisation energy loss \(-dE(x)\) through the material slab, i.e. the mode of the Landau-Vavilov-Bichsel distribution <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.12), including the density-effect correction. Unlike <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (which returns the mean), this is the most probable value, which for thin slabs is noticeably smaller than the mean because of the long tail of the distribution. The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<p>This computes the most probable ionisation energy loss \(-dE(x)\) through the material slab, i.e. the mode of the Landau-Vavilov-Bichsel distribution <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[11]</a> (eq. 33.12), including the density-effect correction. Unlike <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (which returns the mean), this is the most probable value, which for thin slabs is noticeably smaller than the mean because of the long tail of the distribution. The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
 <dl class="section return"><dt>Returns</dt><dd>Most probable ionisation energy loss through the slab in native energy units </dd></dl>
 
 </div>
@@ -6180,7 +6182,7 @@ Combined most probable energy loss through the material slab </dd></dl>
   </table>
   </dd>
 </dl>
-<p>This computes the mean radiative energy loss \(-dE(x)\) using the approximation of <a class="el" href="citelist.html#CITEREF_lund:2008ad">[6]</a>. Bremsstrahlung, scaling with \((m_e/m)^2\), is always included; direct \(e^+e^-\) pair production and photo-nuclear interactions are added only for muons above \(8\,\mathrm{GeV}\). Like <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> the result is the magnitude of the loss (always \(\geq 0\)).</p>
+<p>This computes the mean radiative energy loss \(-dE(x)\) using the approximation of <a class="el" href="citelist.html#CITEREF_lund:2008ad">[8]</a>. Bremsstrahlung, scaling with \((m_e/m)^2\), is always included; direct \(e^+e^-\) pair production and photo-nuclear interactions are added only for muons above \(8\,\mathrm{GeV}\). Like <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> the result is the magnitude of the loss (always \(\geq 0\)).</p>
 <dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the slab in native energy units </dd></dl>
 
 </div>
@@ -6230,7 +6232,7 @@ Combined most probable energy loss through the material slab </dd></dl>
   </table>
   </dd>
 </dl>
-<p>The returned \(\theta_0\) is the standard deviation of the central (Gaussian) part of the multiple-Coulomb-scattering angle, projected onto a plane. For all particles except electrons and positrons it is evaluated with the Highland formula <a class="el" href="citelist.html#CITEREF_highland:1975pq">[5]</a> in the parametrisation of <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.15); for electrons and positrons the Rossi-Greisen form is used instead.</p>
+<p>The returned \(\theta_0\) is the standard deviation of the central (Gaussian) part of the multiple-Coulomb-scattering angle, projected onto a plane. For all particles except electrons and positrons it is evaluated with the Highland formula <a class="el" href="citelist.html#CITEREF_highland:1975pq">[6]</a> in the parametrisation of <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[11]</a> (eq. 33.15); for electrons and positrons the Rossi-Greisen form is used instead.</p>
 <dl class="section note"><dt>Note</dt><dd>This is the projected (single-plane) width; the width of the polar space angle is larger by a factor \(\sqrt{2}\). </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Projected scattering angle standard deviation \(\theta_0\) in radians </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#a692f3bf198b75679e1051ae422c41869">approximateHighlandScattering</a> for a charge- and momentum-independent approximation </dd></dl>
@@ -6520,7 +6522,7 @@ T x U = V
 \[  -dE(x) = -\frac{dE}{dx}\, x,
 \]
 </p>
-<p>where \(-dE/dx\) is given by the Bethe formula <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.5), including the density-effect correction. The result is the magnitude of the loss (always \(\geq 0\)); The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<p>where \(-dE/dx\) is given by the Bethe formula <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[11]</a> (eq. 33.5), including the density-effect correction. The result is the magnitude of the loss (always \(\geq 0\)); The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
 <dl class="section return"><dt>Returns</dt><dd>Mean ionisation energy loss through the slab in native energy units </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeb22670d2e2303ba2854c2169aa08608">computeEnergyLossLandau</a> for the most probable value, <a class="el" href="#a2ecf42043a08060183625f40fdfb7d5f">computeEnergyLossRadiative</a> for radiative losses, and <a class="el" href="#a87160e91db5e1f254b03ea77a3e67775">computeEnergyLossMean</a> for the sum of both    </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Derivative of the mean ionisation energy loss with respect to q/p </dd></dl>
@@ -6567,7 +6569,7 @@ T x U = V
   </table>
   </dd>
 </dl>
-<p>This computes the most probable ionisation energy loss \(-dE(x)\) through the material slab, i.e. the mode of the Landau-Vavilov-Bichsel distribution <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[9]</a> (eq. 33.12), including the density-effect correction. Unlike <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (which returns the mean), this is the most probable value, which for thin slabs is noticeably smaller than the mean because of the long tail of the distribution. The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
+<p>This computes the most probable ionisation energy loss \(-dE(x)\) through the material slab, i.e. the mode of the Landau-Vavilov-Bichsel distribution <a class="el" href="citelist.html#CITEREF_particledatagroup:2018ovx">[11]</a> (eq. 33.12), including the density-effect correction. Unlike <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> (which returns the mean), this is the most probable value, which for thin slabs is noticeably smaller than the mean because of the long tail of the distribution. The formula is valid for intermediate energies, roughly \(0.1 \lesssim \beta\gamma \lesssim 1000\).</p>
 <dl class="section return"><dt>Returns</dt><dd>Most probable ionisation energy loss through the slab in native energy units    </dd>
 <dd>
 Derivative of the most probable ionisation energy loss with respect to q/p </dd></dl>
@@ -6724,7 +6726,7 @@ Derivative of combined most probable energy loss with respect to q/p </dd></dl>
   </table>
   </dd>
 </dl>
-<p>This computes the mean radiative energy loss \(-dE(x)\) using the approximation of <a class="el" href="citelist.html#CITEREF_lund:2008ad">[6]</a>. Bremsstrahlung, scaling with \((m_e/m)^2\), is always included; direct \(e^+e^-\) pair production and photo-nuclear interactions are added only for muons above \(8\,\mathrm{GeV}\). Like <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> the result is the magnitude of the loss (always \(\geq 0\)).</p>
+<p>This computes the mean radiative energy loss \(-dE(x)\) using the approximation of <a class="el" href="citelist.html#CITEREF_lund:2008ad">[8]</a>. Bremsstrahlung, scaling with \((m_e/m)^2\), is always included; direct \(e^+e^-\) pair production and photo-nuclear interactions are added only for muons above \(8\,\mathrm{GeV}\). Like <a class="el" href="#a7969e3bd01832c6be8de5ef2c3e070ef">computeEnergyLossBethe</a> the result is the magnitude of the loss (always \(\geq 0\)).</p>
 <dl class="section return"><dt>Returns</dt><dd>Mean radiative energy loss through the slab in native energy units    </dd>
 <dd>
 Derivative of radiative energy loss with respect to q/p </dd></dl>
