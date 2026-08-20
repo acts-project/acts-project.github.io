@@ -215,7 +215,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>minZ0</b> = -600</td
 <tr class="memdesc:a1af1a1b24492787e60e552be3e4f1321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum z0 value, set as optionl as if in pixel mode, The value is picked from the ROI. <br /></td></tr>
 <tr class="memitem:a430d29ad9e8ead9feaadde7ff970b016" id="r_a430d29ad9e8ead9feaadde7ff970b016"><td class="memItemLeft" align="right" valign="top"><a id="a430d29ad9e8ead9feaadde7ff970b016" name="a430d29ad9e8ead9feaadde7ff970b016"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleEdgeTolerance</b> = 0.3 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
-<tr class="memdesc:a430d29ad9e8ead9feaadde7ff970b016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance to the module edge below which a cluster may be shortened, and the machine learning lookup table's edge tau bounds are used instead. <br /></td></tr>
+<tr class="memdesc:a430d29ad9e8ead9feaadde7ff970b016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance to the module edge below which a cluster may be shortened, which switches to the tau lookup table's near-edge bounds. <br /></td></tr>
 <tr class="memitem:a513d09cd1389390b572910364bdfb7d2" id="r_a513d09cd1389390b572910364bdfb7d2"><td class="memItemLeft" align="right" valign="top"><a id="a513d09cd1389390b572910364bdfb7d2" name="a513d09cd1389390b572910364bdfb7d2"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleHalfLengthY</b> = 10.0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a513d09cd1389390b572910364bdfb7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half-length in local y of a pixel module, against which the distance of a cluster to the module edge is measured. <br /></td></tr>
@@ -237,12 +237,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioPrecut</b> =
 <tr class="memitem:af4cb7d81cde3c1c9469ebbb821f2ee17" id="r_af4cb7d81cde3c1c9469ebbb821f2ee17"><td class="memItemLeft" align="right" valign="top"><a id="af4cb7d81cde3c1c9469ebbb821f2ee17" name="af4cb7d81cde3c1c9469ebbb821f2ee17"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useAdaptiveCuts</b> = true</td></tr>
 <tr class="memdesc:af4cb7d81cde3c1c9469ebbb821f2ee17"><td class="mdescLeft">&#160;</td><td class="mdescRight">widens allowed variation in tau ratio if layer is missed in edge connecting <br /></td></tr>
+<tr class="memitem:a340a8d8eba4a8af5590d17a52d188f95" id="r_a340a8d8eba4a8af5590d17a52d188f95"><td class="memItemLeft" align="right" valign="top"><a id="a340a8d8eba4a8af5590d17a52d188f95" name="a340a8d8eba4a8af5590d17a52d188f95"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useClusterWidthCuts</b> = false</td></tr>
+<tr class="memdesc:a340a8d8eba4a8af5590d17a52d188f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the cluster width cuts: wide endcap rejection and tau narrowing. <br /></td></tr>
 <tr class="memitem:a168ce6d76497cf219da3872066da2e76" id="r_a168ce6d76497cf219da3872066da2e76"><td class="memItemLeft" align="right" valign="top"><a id="a168ce6d76497cf219da3872066da2e76" name="a168ce6d76497cf219da3872066da2e76"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useEtaBinning</b> = true</td></tr>
 <tr class="memdesc:a168ce6d76497cf219da3872066da2e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use eta binning from geometry structure. <br /></td></tr>
-<tr class="memitem:ab2ab82fda5e3e0914571d26411c1da8a" id="r_ab2ab82fda5e3e0914571d26411c1da8a"><td class="memItemLeft" align="right" valign="top"><a id="ab2ab82fda5e3e0914571d26411c1da8a" name="ab2ab82fda5e3e0914571d26411c1da8a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>useMl</b> = false</td></tr>
-<tr class="memdesc:ab2ab82fda5e3e0914571d26411c1da8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use machine learning features (e.g., cluster width). <br /></td></tr>
 <tr class="memitem:a4c27a087b4021afe7e1c1292c704d8ab" id="r_a4c27a087b4021afe7e1c1292c704d8ab"><td class="memItemLeft" align="right" valign="top"><a id="a4c27a087b4021afe7e1c1292c704d8ab" name="a4c27a087b4021afe7e1c1292c704d8ab"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useOldTunings</b> = false</td></tr>
 <tr class="memdesc:a4c27a087b4021afe7e1c1292c704d8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use legacy tuning parameters. <br /></td></tr>

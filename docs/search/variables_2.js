@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_0',['c',['../struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d',1,'Acts::ToroidField::BarrelConfig::c'],['../struct_acts_1_1_toroid_field_1_1_ect_config.html#afa6c9526b6094cbdc1e1a8b108c8c7fa',1,'Acts::ToroidField::EctConfig::c'],['../struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a0047f04c814442c18d0b4e35c31e09cf',1,'Acts::Experimental::GbtsEdgeState::c'],['../namespace_acts_1_1_physical_constants.html#a1d84e7732ed0bc3272bff096737d2b6e',1,'Acts::PhysicalConstants::c']]],
+  ['c_0',['c',['../struct_acts_1_1_toroid_field_1_1_barrel_config.html#af5e0c7a793e971c9fa9582c934da573d',1,'Acts::ToroidField::BarrelConfig::c'],['../struct_acts_1_1_toroid_field_1_1_ect_config.html#afa6c9526b6094cbdc1e1a8b108c8c7fa',1,'Acts::ToroidField::EctConfig::c'],['../namespace_acts_1_1_physical_constants.html#a1d84e7732ed0bc3272bff096737d2b6e',1,'Acts::PhysicalConstants::c']]],
   ['c0_1',['c0',['../struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a44f2f74cede8c8fe016f399a4e2b3756',1,'Acts::GaussianTrackDensity::TrackEntry']]],
   ['c1_2',['c1',['../struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a225ee308a9f0ac09d8fcf584d030ea6c',1,'Acts::GaussianTrackDensity::TrackEntry']]],
   ['c2_3',['c2',['../struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a0fd7d879270e31d011c0259e299eb0e9',1,'Acts::GaussianTrackDensity::TrackEntry']]],
@@ -101,10 +101,8 @@ var searchData=
   ['cuts_98',['cuts',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aeebe57c5c03a5abb1e7929909c492fd3',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
   ['cutsets_99',['cutSets',['../struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a4f391d79327fcc6214ba57ac9cfd66ff',1,'Acts::TrackSelector::EtaBinnedConfig']]],
   ['cvolumeconfig_100',['cVolumeConfig',['../struct_acts_1_1_wrapping_config.html#a419d41dc39cd88851a61968779a60e09',1,'Acts::WrappingConfig']]],
-  ['cx_101',['cx',['../struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a74932b18b3d80b79c870849833f4553f',1,'Acts::Experimental::GbtsEdgeState']]],
-  ['cy_102',['cy',['../struct_acts_1_1_experimental_1_1_gbts_edge_state.html#a914c0873f13e66a6698fb6743a56a8b7',1,'Acts::Experimental::GbtsEdgeState']]],
-  ['cylinderlongitudinalsegments_103',['cylinderLongitudinalSegments',['../struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html#ab7db8facf1c8adcab6886346302de5b5',1,'ActsPlugins::TGeoCylinderDiscSplitter::Config']]],
-  ['cylinderphisegments_104',['cylinderPhiSegments',['../struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html#a61383a2c1ac1dad78835b4d544356f0c',1,'ActsPlugins::TGeoCylinderDiscSplitter::Config']]],
-  ['cylinderphitolerance_105',['cylinderPhiTolerance',['../struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39',1,'Acts::LayerCreator::Config']]],
-  ['cylinderztolerance_106',['cylinderZtolerance',['../struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2',1,'Acts::LayerCreator::Config']]]
+  ['cylinderlongitudinalsegments_101',['cylinderLongitudinalSegments',['../struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html#ab7db8facf1c8adcab6886346302de5b5',1,'ActsPlugins::TGeoCylinderDiscSplitter::Config']]],
+  ['cylinderphisegments_102',['cylinderPhiSegments',['../struct_acts_plugins_1_1_t_geo_cylinder_disc_splitter_1_1_config.html#a61383a2c1ac1dad78835b4d544356f0c',1,'ActsPlugins::TGeoCylinderDiscSplitter::Config']]],
+  ['cylinderphitolerance_103',['cylinderPhiTolerance',['../struct_acts_1_1_layer_creator_1_1_config.html#ab8112d453b0d9a63172c630984516a39',1,'Acts::LayerCreator::Config']]],
+  ['cylinderztolerance_104',['cylinderZtolerance',['../struct_acts_1_1_layer_creator_1_1_config.html#ae77e554e06ae8c0b0ef32e9919e839c2',1,'Acts::LayerCreator::Config']]]
 ];

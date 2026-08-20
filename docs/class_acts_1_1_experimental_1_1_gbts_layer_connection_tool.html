@@ -126,10 +126,10 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_layer_connection_
 </div><!--header-->
 <div class="contents">
 
-<p>Layer connection training tool for creating layer map for GBTS.  
+<p>Builds the GBTS layer connection table from observed track hits.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_gbts_training_tool_8hpp_source.html">Acts/Seeding/GbtsTrainingTool.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_gbts_layer_connection_tool_8hpp_source.html">Acts/Seeding/GbtsLayerConnectionTool.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -156,14 +156,13 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>LayerIdPairs</b> = s
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a685be0c36117e066970cf2baaff59fc8" id="r_a685be0c36117e066970cf2baaff59fc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685be0c36117e066970cf2baaff59fc8">GbtsLayerConnectionTool</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html">Config</a> &amp;config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;GbtsLayerConnectionTool&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
-<tr class="memdesc:a685be0c36117e066970cf2baaff59fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for layer connection training tool.  <br /></td></tr>
 <tr class="memitem:ae9087e105fda92c9c2b3734efc066ba8" id="r_ae9087e105fda92c9c2b3734efc066ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9087e105fda92c9c2b3734efc066ba8">addTrack</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_hit_coordinates.html">HitCoordinates</a> &gt; &amp;track)</td></tr>
 <tr class="memdesc:ae9087e105fda92c9c2b3734efc066ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts layer hits to layer transitions  <br /></td></tr>
 <tr class="memitem:a16074c38e92627a18369c1b3be00de1b" id="r_a16074c38e92627a18369c1b3be00de1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2cd2059db6c6e6a0c05cb0d19412f353">GbtsLayerConnectionTool::LayerIdPairs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16074c38e92627a18369c1b3be00de1b">createConnectionTable</a> (const std::string &amp;outputFileLocation) const</td></tr>
 <tr class="memdesc:a16074c38e92627a18369c1b3be00de1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the connection table.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Layer connection training tool for creating layer map for GBTS. </p>
+<div class="textblock"><p>Builds the GBTS layer connection table from observed track hits. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a3ab414b72b2ccd88805333e5fd4174c0" name="a3ab414b72b2ccd88805333e5fd4174c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ab414b72b2ccd88805333e5fd4174c0">&#9670;&#160;</a></span>LayerIdPairMap</h2>
@@ -210,11 +209,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Constructor for layer connection training tool. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">config</td><td>The training tool config </td></tr>
+    <tr><td class="paramname">config</td><td>Tool configuration </td></tr>
     <tr><td class="paramname">logger</td><td>The Acts logger </td></tr>
   </table>
   </dd>

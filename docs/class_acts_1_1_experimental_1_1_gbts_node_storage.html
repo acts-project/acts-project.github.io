@@ -129,18 +129,15 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_node_storage.html
 <p>Storage for the GBTS graph nodes.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_gbts_data_storage_8hpp_source.html">Acts/Seeding/GbtsDataStorage.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_gbts_node_storage_8hpp_source.html">Acts/Seeding/GbtsNodeStorage.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_storage_1_1_config.html">Config</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for node loading.  <a href="struct_acts_1_1_experimental_1_1_gbts_node_storage_1_1_config.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a785416aee33860c697ef0e14e56624ab" id="r_a785416aee33860c697ef0e14e56624ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a785416aee33860c697ef0e14e56624ab">GbtsNodeStorage</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_storage_1_1_config.html">Config</a> config, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; geometry, <a class="el" href="namespace_acts_1_1_experimental.html#ab1c12225c64814f2424c1b29b849a467">GbtsMlLookupTable</a> mlLut)</td></tr>
-<tr class="memitem:a1acbb76bfdee0cf9ead701a271707112" id="r_a1acbb76bfdee0cf9ead701a271707112"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_eta_bin_info.html">GbtsEtaBinInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1acbb76bfdee0cf9ead701a271707112">etaBin</a> (std::uint32_t idx) const</td></tr>
-<tr class="memdesc:a1acbb76bfdee0cf9ead701a271707112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get eta bin info by index.  <br /></td></tr>
+<tr class="memitem:a37bc5dbf6347621ecb6ee0b4ea154621" id="r_a37bc5dbf6347621ecb6ee0b4ea154621"><td class="memItemLeft" align="right" valign="top"><a id="a37bc5dbf6347621ecb6ee0b4ea154621" name="a37bc5dbf6347621ecb6ee0b4ea154621"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>GbtsNodeStorage</b> (const GbtsNodeStorage &amp;)=delete</td></tr>
+<tr class="memdesc:a37bc5dbf6347621ecb6ee0b4ea154621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filled storage is not relocatable: the column proxies point into the space point container held by value. <br /></td></tr>
+<tr class="memitem:af3801547d0f5f6c53e06a8a3e5aed8e1" id="r_af3801547d0f5f6c53e06a8a3e5aed8e1"><td class="memItemLeft" align="right" valign="top"><a id="af3801547d0f5f6c53e06a8a3e5aed8e1" name="af3801547d0f5f6c53e06a8a3e5aed8e1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>GbtsNodeStorage</b> (GbtsNodeStorage &amp;&amp;)=delete</td></tr>
 <tr class="memitem:a610b5ace127ec1b9bf1d475cfbdd2945" id="r_a610b5ace127ec1b9bf1d475cfbdd2945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610b5ace127ec1b9bf1d475cfbdd2945">extend</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; std::uint32_t &gt; &amp;layerColumn, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; float &gt; &amp;clusterWidthColumn, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; float &gt; &amp;localPositionYColumn)</td></tr>
 <tr class="memdesc:a610b5ace127ec1b9bf1d475cfbdd2945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert every space point of a container.  <br /></td></tr>
 <tr class="memitem:a5ad9048531dd80d0235ba5ee480b299e" id="r_a5ad9048531dd80d0235ba5ee480b299e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ad9048531dd80d0235ba5ee480b299e">finalize</a> ()</td></tr>
@@ -151,84 +148,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ade87c84da00f2c1ea4ecd033b89502aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point for callers that already have r and phi.  <br /></td></tr>
 <tr class="memitem:a316764f89ecabf359e611198b85f0df6" id="r_a316764f89ecabf359e611198b85f0df6"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a316764f89ecabf359e611198b85f0df6">insert</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, float x, float y, float z, std::uint32_t layerIndex, float clusterWidth=0.f, float localPositionY=0.f)</td></tr>
 <tr class="memdesc:a316764f89ecabf359e611198b85f0df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point, deriving r and phi from the global position.  <br /></td></tr>
-<tr class="memitem:abc205900c1c3bb24c3d3391d81b0b2a0" id="r_abc205900c1c3bb24c3d3391d81b0b2a0"><td class="memItemLeft" align="right" valign="top">std::span&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_edge_info.html">GbtsNodeEdgeInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc205900c1c3bb24c3d3391d81b0b2a0">nodeEdgeInfo</a> ()</td></tr>
-<tr class="memdesc:abc205900c1c3bb24c3d3391d81b0b2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-node graph bookkeeping, indexed by node index.  <br /></td></tr>
-<tr class="memitem:a3b9161b3d2c041f4ce01483d4131f3fe" id="r_a3b9161b3d2c041f4ce01483d4131f3fe"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_edge_info.html">GbtsNodeEdgeInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9161b3d2c041f4ce01483d4131f3fe">nodeEdgeInfo</a> () const</td></tr>
-<tr class="memdesc:a3b9161b3d2c041f4ce01483d4131f3fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-node graph bookkeeping, indexed by node index.  <br /></td></tr>
-<tr class="memitem:a0b85783940acfc680273f40db6ea8be5" id="r_a0b85783940acfc680273f40db6ea8be5"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_params.html">GbtsNodeParams</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b85783940acfc680273f40db6ea8be5">nodeParams</a> () const</td></tr>
-<tr class="memdesc:a0b85783940acfc680273f40db6ea8be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-node graph parameters, indexed by node index.  <br /></td></tr>
-<tr class="memitem:aa93123720b5de30210db444d1a1109b3" id="r_aa93123720b5de30210db444d1a1109b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_view.html">GbtsNodeView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa93123720b5de30210db444d1a1109b3">nodeView</a> () const</td></tr>
-<tr class="memdesc:aa93123720b5de30210db444d1a1109b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-only view of the node positions and layers.  <br /></td></tr>
 <tr class="memitem:ac7f8ddfa8c6c9c645c2406da021c22d9" id="r_ac7f8ddfa8c6c9c645c2406da021c22d9"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f8ddfa8c6c9c645c2406da021c22d9">numberOfNodes</a> () const</td></tr>
 <tr class="memdesc:ac7f8ddfa8c6c9c645c2406da021c22d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of nodes.  <br /></td></tr>
-<tr class="memitem:a817d1fa8f8d5d7ca69294094be2ff213" id="r_a817d1fa8f8d5d7ca69294094be2ff213"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a817d1fa8f8d5d7ca69294094be2ff213">spacePointIndex</a> (<a class="el" href="namespace_acts_1_1_experimental.html#a2facc6ad75fb71cc78641673a0e863bc">GbtsNodeIndex</a> node) const</td></tr>
-<tr class="memdesc:a817d1fa8f8d5d7ca69294094be2ff213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map a node index back to the index the caller used when inserting it.  <br /></td></tr>
+<tr class="memitem:a454263fc57184a6bc6337145af9fd53e" id="r_a454263fc57184a6bc6337145af9fd53e"><td class="memItemLeft" align="right" valign="top"><a id="a454263fc57184a6bc6337145af9fd53e" name="a454263fc57184a6bc6337145af9fd53e"></a>
+<a class="el" href="#a37bc5dbf6347621ecb6ee0b4ea154621">GbtsNodeStorage</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="#a37bc5dbf6347621ecb6ee0b4ea154621">GbtsNodeStorage</a> &amp;)=delete</td></tr>
+<tr class="memitem:a62f9829a38c15ae7f6ce3e317a332e58" id="r_a62f9829a38c15ae7f6ce3e317a332e58"><td class="memItemLeft" align="right" valign="top"><a id="a62f9829a38c15ae7f6ce3e317a332e58" name="a62f9829a38c15ae7f6ce3e317a332e58"></a>
+<a class="el" href="#a37bc5dbf6347621ecb6ee0b4ea154621">GbtsNodeStorage</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="#a37bc5dbf6347621ecb6ee0b4ea154621">GbtsNodeStorage</a> &amp;&amp;)=delete</td></tr>
+<tr class="memitem:ada739a97158059c541c023fdc7d5378e" id="r_ada739a97158059c541c023fdc7d5378e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada739a97158059c541c023fdc7d5378e">spacePointIndex</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> node) const</td></tr>
+<tr class="memdesc:ada739a97158059c541c023fdc7d5378e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map a node index back to the index the caller used when inserting it.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Storage for the GBTS graph nodes. </p>
 <p>Nodes go in one at a time through <span class="tt">insert</span>, which takes plain scalars so that a caller can fill the storage from its own space point EDM. <span class="tt">finalize</span> then orders the nodes by (eta bin, phi) into a space point container, with the derived per-node data in dynamic columns on that container. </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a785416aee33860c697ef0e14e56624ab" name="a785416aee33860c697ef0e14e56624ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a785416aee33860c697ef0e14e56624ab">&#9670;&#160;</a></span>GbtsNodeStorage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Acts::Experimental::GbtsNodeStorage::GbtsNodeStorage </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_storage_1_1_config.html">Config</a></td>          <td class="paramname"><span class="paramname"><em>config</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts_1_1_experimental.html#ab1c12225c64814f2424c1b29b849a467">GbtsMlLookupTable</a></td>          <td class="paramname"><span class="paramname"><em>mlLut</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">config</td><td>Node loading configuration </td></tr>
-    <tr><td class="paramname">geometry</td><td>Shared pointer to GBTS geometry </td></tr>
-    <tr><td class="paramname">mlLut</td><td>Machine learning lookup table </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a1acbb76bfdee0cf9ead701a271707112" name="a1acbb76bfdee0cf9ead701a271707112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1acbb76bfdee0cf9ead701a271707112">&#9670;&#160;</a></span>etaBin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_eta_bin_info.html">GbtsEtaBinInfo</a> &amp; Acts::Experimental::GbtsNodeStorage::etaBin </td>
-          <td>(</td>
-          <td class="paramtype">std::uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get eta bin info by index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">idx</td><td>Eta bin index </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the eta bin info </dd></dl>
-
-</div>
-</div>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a610b5ace127ec1b9bf1d475cfbdd2945" name="a610b5ace127ec1b9bf1d475cfbdd2945"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a610b5ace127ec1b9bf1d475cfbdd2945">&#9670;&#160;</a></span>extend()</h2>
 
@@ -468,86 +400,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abc205900c1c3bb24c3d3391d81b0b2a0" name="abc205900c1c3bb24c3d3391d81b0b2a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc205900c1c3bb24c3d3391d81b0b2a0">&#9670;&#160;</a></span>nodeEdgeInfo() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::span&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_edge_info.html">GbtsNodeEdgeInfo</a> &gt; Acts::Experimental::GbtsNodeStorage::nodeEdgeInfo </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Per-node graph bookkeeping, indexed by node index. </p>
-<dl class="section return"><dt>Returns</dt><dd>Mutable span over the node edge info </dd></dl>
-
-</div>
-</div>
-<a id="a3b9161b3d2c041f4ce01483d4131f3fe" name="a3b9161b3d2c041f4ce01483d4131f3fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b9161b3d2c041f4ce01483d4131f3fe">&#9670;&#160;</a></span>nodeEdgeInfo() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_edge_info.html">GbtsNodeEdgeInfo</a> &gt; Acts::Experimental::GbtsNodeStorage::nodeEdgeInfo </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Per-node graph bookkeeping, indexed by node index. </p>
-<dl class="section return"><dt>Returns</dt><dd>Span over the node edge info </dd></dl>
-
-</div>
-</div>
-<a id="a0b85783940acfc680273f40db6ea8be5" name="a0b85783940acfc680273f40db6ea8be5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b85783940acfc680273f40db6ea8be5">&#9670;&#160;</a></span>nodeParams()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_params.html">GbtsNodeParams</a> &gt; Acts::Experimental::GbtsNodeStorage::nodeParams </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Per-node graph parameters, indexed by node index. </p>
-<dl class="section return"><dt>Returns</dt><dd>Span over the node parameters </dd></dl>
-
-</div>
-</div>
-<a id="aa93123720b5de30210db444d1a1109b3" name="aa93123720b5de30210db444d1a1109b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa93123720b5de30210db444d1a1109b3">&#9670;&#160;</a></span>nodeView()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_view.html">GbtsNodeView</a> Acts::Experimental::GbtsNodeStorage::nodeView </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read-only view of the node positions and layers. </p>
-<dl class="section return"><dt>Returns</dt><dd>Node view </dd></dl>
-
-</div>
-</div>
 <a id="ac7f8ddfa8c6c9c645c2406da021c22d9" name="ac7f8ddfa8c6c9c645c2406da021c22d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7f8ddfa8c6c9c645c2406da021c22d9">&#9670;&#160;</a></span>numberOfNodes()</h2>
 
@@ -568,8 +420,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a817d1fa8f8d5d7ca69294094be2ff213" name="a817d1fa8f8d5d7ca69294094be2ff213"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a817d1fa8f8d5d7ca69294094be2ff213">&#9670;&#160;</a></span>spacePointIndex()</h2>
+<a id="ada739a97158059c541c023fdc7d5378e" name="ada739a97158059c541c023fdc7d5378e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada739a97158059c541c023fdc7d5378e">&#9670;&#160;</a></span>spacePointIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -577,7 +429,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> Acts::Experimental::GbtsNodeStorage::spacePointIndex </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_acts_1_1_experimental.html#a2facc6ad75fb71cc78641673a0e863bc">GbtsNodeIndex</a></td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a></td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

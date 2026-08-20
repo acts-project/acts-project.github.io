@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="class_acts_1_1_experimental_1_1_hough_accumulator_section.html" target="_top" xlink:title="helper class for adaptive traversal of HT space">
+<g id="a_Node000000"><a xlink:href="class_acts_1_1_experimental_1_1_sensor_layer.html" target="_top" xlink:title="Fluent builder that assembles a single cylindrical or disc&#45;like detector layer directly from sensor e...">
 <polygon fill="white" stroke="#666666" points="152,-30 0,-30 0,0 152,0 152,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
-<text text-anchor="middle" x="76" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::HoughAccumulatorSection</text>
+<text text-anchor="middle" x="76" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::SensorLayer&lt; BackendT &gt;</text>
 </a>
 </g>
 </g>

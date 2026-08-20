@@ -32,8 +32,8 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "tauRatioCut", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a8728aedf9b55147fee5ce9ae985bed3e", null ],
     [ "tauRatioPrecut", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#abbb8af4668248a914870589c2d13d7db", null ],
     [ "useAdaptiveCuts", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af4cb7d81cde3c1c9469ebbb821f2ee17", null ],
+    [ "useClusterWidthCuts", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a340a8d8eba4a8af5590d17a52d188f95", null ],
     [ "useEtaBinning", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a168ce6d76497cf219da3872066da2e76", null ],
-    [ "useMl", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#ab2ab82fda5e3e0914571d26411c1da8a", null ],
     [ "useOldTunings", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a4c27a087b4021afe7e1c1292c704d8ab", null ],
     [ "validateTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af035485c49d8acc15723133b1c92f091", null ]
 ];

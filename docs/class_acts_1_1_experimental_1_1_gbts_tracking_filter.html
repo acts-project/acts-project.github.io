@@ -135,20 +135,10 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_tracking_filter.h
 Classes</h2></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration for the tracking filter.  <a href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#details">More...</a><br /></td></tr>
-<tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html">State</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State for the tracking filter, containing edge states and a global counter.  <a href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0faabd4815aba73113bbe44b641b5c1c" id="r_a0faabd4815aba73113bbe44b641b5c1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0faabd4815aba73113bbe44b641b5c1c">GbtsTrackingFilter</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a> &amp;config, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;geometry)</td></tr>
-<tr class="memitem:a00e96c9867cb34f09fae635e088c5751" id="r_a00e96c9867cb34f09fae635e088c5751"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e96c9867cb34f09fae635e088c5751">followTrack</a> (<a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html">State</a> &amp;state, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_view.html">GbtsNodeView</a> &amp;nodeView, std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;sb, <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;pS) const</td></tr>
-<tr class="memdesc:a00e96c9867cb34f09fae635e088c5751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Follow track starting from edge.  <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a37fe5899938091279706f5c82257bc23" id="r_a37fe5899938091279706f5c82257bc23"><td class="memItemLeft" align="right" valign="top"><a id="a37fe5899938091279706f5c82257bc23" name="a37fe5899938091279706f5c82257bc23"></a>
-static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>kGbtsMaxEdgeStates</b> = 2500</td></tr>
-<tr class="memdesc:a37fe5899938091279706f5c82257bc23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of edge states. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tracking filter operating on the GBTS edge graph. </p>
@@ -178,50 +168,6 @@ static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a00e96c9867cb34f09fae635e088c5751" name="a00e96c9867cb34f09fae635e088c5751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00e96c9867cb34f09fae635e088c5751">&#9670;&#160;</a></span>followTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge_state.html">GbtsEdgeState</a> Acts::Experimental::GbtsTrackingFilter::followTrack </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_node_view.html">GbtsNodeView</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>nodeView</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sb</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_edge.html">GbtsEdge</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pS</em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Follow track starting from edge. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">state</td><td>Tracking filter state </td></tr>
-    <tr><td class="paramname">nodeView</td><td>View of the node positions and layers </td></tr>
-    <tr><td class="paramname">sb</td><td>Edge storage </td></tr>
-    <tr><td class="paramname">pS</td><td>Starting edge </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Final edge state after following the track </dd></dl>
 
 </div>
 </div>
