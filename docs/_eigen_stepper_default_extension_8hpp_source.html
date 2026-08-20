@@ -267,13 +267,15 @@ $(function(){initNavTree('_eigen_stepper_default_extension_8hpp_source.html','',
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    dGdL = <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> / 6. * (dk1dL + 2. * (dk2dL + dk3dL) + dk4dL);</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    D(3, 7) = <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f">m</a> * <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f">m</a> * qop / dtds;</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>  }</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>};</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <span class="comment">// d(t)/d(q/p) = h m^2 (q/p) / (q^2 dt/ds), with the q^2 folded into p via</span></div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="comment">// p = |q| / |q/p|.</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    D(3, 7) = <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#a3f0102c07cb8f08075e66a7c86894182">h</a> * <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f">m</a> * <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f">m</a> / (p * p * qop * dtds);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  }</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>};</div>
 </div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_i_volume_material_html"><div class="ttname"><a href="class_acts_1_1_i_volume_material.html">Acts::IVolumeMaterial</a></div><div class="ttdoc">Material associated with a Volume (homogeneous, binned, interpolated).</div><div class="ttdef"><b>Definition</b> IVolumeMaterial.hpp:25</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga864d7f61366a0ea1436890803b2f3469"><div class="ttname"><a href="group__algebra__types.html#ga864d7f61366a0ea1436890803b2f3469">Acts::SquareMatrix3</a></div><div class="ttdeci">SquareMatrix&lt; 3 &gt; SquareMatrix3</div><div class="ttdoc">3x3 square matrix type, typically used for 3D coordinate covariance</div><div class="ttdef"><b>Definition</b> Algebra.hpp:79</div></div>
