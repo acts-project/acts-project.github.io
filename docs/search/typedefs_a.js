@@ -16,5 +16,6 @@ var searchData=
   ['linetype_13',['LineType',['../class_acts_1_1_obj_visualization3_d.html#ac818f0ca55705be24b2206da6b4bf4d4',1,'Acts::ObjVisualization3D']]],
   ['local_5fiterator_5ft_14',['local_iterator_t',['../class_acts_1_1_grid.html#a6086f3ab4bbdd80547dd5e479ae84db4',1,'Acts::Grid']]],
   ['localbins_15',['LocalBins',['../class_acts_1_1_i_multi_axis_x_d.html#a8013ddb393be36b485c66b5bdacd4dd9',1,'Acts::IMultiAxisXD::LocalBins'],['../class_acts_1_1_multi_axis.html#aba368f9288e9fc16d3de361f579227f9',1,'Acts::MultiAxis::LocalBins']]],
-  ['lookupgrid_16',['LookupGrid',['../class_acts_1_1_track_params_lookup_accumulator.html#ade91277aee75a2ccaa07d42d4601cf19',1,'Acts::TrackParamsLookupAccumulator']]]
+  ['localveto_16',['LocalVeto',['../namespace_acts_1_1_material_interaction_assignment.html#a440ce42397b5f5e6bd766e1ed4f85fdd',1,'Acts::MaterialInteractionAssignment']]],
+  ['lookupgrid_17',['LookupGrid',['../class_acts_1_1_track_params_lookup_accumulator.html#ade91277aee75a2ccaa07d42d4601cf19',1,'Acts::TrackParamsLookupAccumulator']]]
 ];

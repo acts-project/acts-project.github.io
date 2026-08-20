@@ -18,6 +18,7 @@ var namespace_acts =
       [ "HoughPlane", "class_acts_1_1_hough_transform_utils_1_1_hough_plane.html", "class_acts_1_1_hough_transform_utils_1_1_hough_plane" ],
       [ "HoughPlaneConfig", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html", "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config" ]
     ] ],
+    [ "MaterialInteractionAssignment", "namespace_acts_1_1_material_interaction_assignment.html", "namespace_acts_1_1_material_interaction_assignment" ],
     [ "ParticleIdHelper", "namespace_acts_1_1_particle_id_helper.html", [
       [ "hadronType", "namespace_acts_1_1_particle_id_helper.html#a2d42042927add85fd702d540e1eeb694", null ],
       [ "isElectron", "namespace_acts_1_1_particle_id_helper.html#afd04bb1ca849c6e0413ff41db03b2b34", null ],

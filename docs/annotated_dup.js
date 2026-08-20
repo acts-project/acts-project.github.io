@@ -130,7 +130,7 @@ var annotated_dup =
         [ "ThresholdFailure", "class_acts_1_1_logging_1_1_threshold_failure.html", null ],
         [ "TimedOutputDecorator", "class_acts_1_1_logging_1_1_timed_output_decorator.html", "class_acts_1_1_logging_1_1_timed_output_decorator" ]
       ] ],
-      [ "MaterialInteractionAssignment", null, [
+      [ "MaterialInteractionAssignment", "namespace_acts_1_1_material_interaction_assignment.html", [
         [ "Options", "struct_acts_1_1_material_interaction_assignment_1_1_options.html", "struct_acts_1_1_material_interaction_assignment_1_1_options" ],
         [ "Result", "struct_acts_1_1_material_interaction_assignment_1_1_result.html", "struct_acts_1_1_material_interaction_assignment_1_1_result" ]
       ] ],

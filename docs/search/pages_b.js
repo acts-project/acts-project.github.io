@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['handling_0',['Error handling',['../group__geometry__module__loading.html#autotoc_md11',1,'']]],
-  ['handling_20in_20acts_1',['Error Handling in ACTS',['../group__errors.html#autotoc_md12',1,'']]],
-  ['hash_20checks_20locally_20and_20how_20to_20update_20the_20reference_20hashes_2',['Running the hash checks locally and how to update the reference hashes',['../group__python__bindings.html#autotoc_md49',1,'']]],
-  ['hash_20regression_20checks_3',['ROOT file hash regression checks',['../group__python__bindings.html#root_file_hashes',1,'']]],
-  ['hashes_4',['Running the hash checks locally and how to update the reference hashes',['../group__python__bindings.html#autotoc_md49',1,'']]],
-  ['heap_20checker_5',['Run the Heap Checker',['../howto_profiling.html#autotoc_md69',1,'']]],
-  ['helper_20for_20surfaces_20and_20sourcelinks_6',['Helper for &lt;span class=&quot;tt&quot;&gt;Surface&lt;/span&gt;s and &lt;span class=&quot;tt&quot;&gt;SourceLink&lt;/span&gt;s',['../group__eventdata__tracks.html#podio_helper',1,'']]],
-  ['high_20level_20track_20event_20data_20model_7',['High-level Track Event Data Model',['../group__eventdata__tracks.html#edm_Tracks',1,'']]],
-  ['holders_8',['Holders',['../group__eventdata__tracks.html#autotoc_md20',1,'']]],
-  ['how_20do_20i_20investigate_20a_20physmon_20failure_9',['How do I investigate a physmon failure?',['../physmon.html#autotoc_md57',1,'']]],
-  ['how_20do_20i_20update_20the_20reference_20files_10',['How do I update the reference files?',['../physmon.html#autotoc_md59',1,'']]],
-  ['how_20to_20build_20a_20backend_11',['How to build a backend',['../group__eventdata__tracks.html#autotoc_md25',1,'']]],
-  ['how_20to_20create_20a_20track_20from_20scratch_12',['How to create a track from scratch',['../group__eventdata__tracks.html#autotoc_md21',1,'']]],
-  ['how_20to_20make_20a_20release_13',['How to make a release',['../howto_release.html',1,'']]],
-  ['how_20to_20update_20the_20reference_20hashes_14',['Running the hash checks locally and how to update the reference hashes',['../group__python__bindings.html#autotoc_md49',1,'']]]
+  ['gaussians_0',['Why a mixture of Gaussians?',['../group__gsf.html#autotoc_md30',1,'']]],
+  ['geant4_1',['Step 2: record the material with Geant4',['../material_mapping_howto.html#autotoc_md91',1,'']]],
+  ['gen3_2',['Designating material in Gen3',['../material_mapping_howto.html#autotoc_md90',1,'']]],
+  ['generated_20code_3',['Source packages with pre-generated code',['../building_acts.html#source-package',1,'']]],
+  ['geometry_20and_20material_20modelling_4',['Geometry and material modelling',['../tracking.html#geometry-and-material-modelling',1,'']]],
+  ['geometry_20module_5',['Writing a geometry module',['../group__geometry__module__loading.html#autotoc_md7',1,'']]],
+  ['geometry_20to_20json_6',['1a. Dump the geometry to JSON',['../material_mapping_howto.html#autotoc_md86',1,'']]],
+  ['getdefaultlogger_20factory_20function_7',['&lt;span class=&quot;tt&quot;&gt;getDefaultLogger&lt;/span&gt; Factory Function',['../group__logging.html#autotoc_md37',1,'']]],
+  ['getdummylogger_20pattern_8',['&lt;span class=&quot;tt&quot;&gt;getDummyLogger&lt;/span&gt; Pattern',['../group__logging.html#autotoc_md36',1,'']]],
+  ['go_20pprof_20optional_9',['Install Go pprof (Optional)',['../howto_profiling.html#autotoc_md64',1,'']]],
+  ['gperftools_10',['Install gperftools',['../howto_profiling.html#autotoc_md60',1,'']]],
+  ['gperftools_20libraries_20when_20compiling_11',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md65',1,'']]],
+  ['graph_12',['View Profile as a Graph',['../howto_profiling.html#autotoc_md71',1,'']]],
+  ['guard_20this_13',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md98',1,'']]]
 ];

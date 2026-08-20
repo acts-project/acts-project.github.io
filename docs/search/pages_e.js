@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['k_20b_20x_20y_20z_20m_0',['k B x y z M',['../group__magnetic__field.html#autotoc_md97',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md103',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
-  ['kalman_20filter_1',['Combinatorial Kalman Filter',['../tracking.html#combinatorial-kalman-filter',1,'']]],
-  ['kalman_20formalism_20and_20kalman_20track_20fitter_2',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
-  ['kalman_20track_20fitter_3',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]]
+  ['j_20b_20r_20z_20m_0',['j B r z M',['../group__magnetic__field.html#autotoc_md102',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md108',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['j_20z_20k_20b_20x_20y_20z_20m_1',['j z k B x y z M',['../group__magnetic__field.html#autotoc_md103',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md109',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['json_2',['1a. Dump the geometry to JSON',['../material_mapping_howto.html#autotoc_md86',1,'']]]
 ];

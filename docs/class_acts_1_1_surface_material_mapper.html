@@ -122,7 +122,7 @@ $(function(){initNavTree('class_acts_1_1_surface_material_mapper.html','','class
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acts::SurfaceMaterialMapper Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acts::SurfaceMaterialMapper Class Reference<div class="ingroups"><a class="el" href="group__detector__descr.html">Detector Description</a> &raquo; <a class="el" href="group__material.html">Material</a> &raquo; <a class="el" href="group__material__mapping.html">Material mapping</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -164,7 +164,8 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>SurfaceMaterialMapper. </p>
-<p>This is the main feature tool to map material information from a 3D geometry onto the TrackingGeometry with its surface material description.</p>
+<p>This maps material information from a 3D geometry onto the TrackingGeometry with its surface material description, driven by a propagation through the geometry.</p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000038">Deprecated</a></b></dt><dd>Use <a class="el" href="class_acts_1_1_material_mapper.html">Acts::MaterialMapper</a> instead, composed with an <a class="el" href="class_acts_1_1_i_assignment_finder.html">Acts::IAssignmentFinder</a> and an <a class="el" href="class_acts_1_1_i_surface_material_accumulator.html">Acts::ISurfaceMaterialAccumulator</a>. See <a class="el" href="group__material__mapping.html">Material mapping</a> for the current, navigation-independent procedure.</dd></dl>
 <p>The process runs as such:</p>
 <p>1) TrackingGeometry is parsed and for each Surface with ProtoSurfaceMaterial a local store is initialized the identification is done hereby through the Surface::GeometryIdentifier</p>
 <p>2) A Cache is generated that is used to keep the filling thread local, the filling is protected with std::mutex</p>
@@ -205,7 +206,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000038">Deprecated</a></b></dt><dd>Material mapping with propagation is deprecated. Use MaterialMapper instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000039">Deprecated</a></b></dt><dd>Material mapping with propagation is deprecated. Use MaterialMapper instead. </dd></dl>
 
 </div>
 </div>

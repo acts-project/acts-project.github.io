@@ -138,6 +138,8 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespace_acts_1_1_grid_axis_generators"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis generators are used to allow defining different grid types for indexed geometry objects. <br /></td></tr>
 <tr class="memitem:GsfConstants" id="r_GsfConstants"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_gsf_constants.html">GsfConstants</a></td></tr>
 <tr class="memdesc:namespace_acts_1_1_gsf_constants"><td class="mdescLeft">&#160;</td><td class="mdescRight">[component merge method] <br /></td></tr>
+<tr class="memitem:MaterialInteractionAssignment" id="r_MaterialInteractionAssignment"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_material_interaction_assignment.html">MaterialInteractionAssignment</a></td></tr>
+<tr class="memdesc:namespace_acts_1_1_material_interaction_assignment"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment of recorded material interactions to assignment candidates. <br /></td></tr>
 <tr class="memitem:ParticleIdHelper" id="r_ParticleIdHelper"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_particle_id_helper.html">ParticleIdHelper</a></td></tr>
 <tr class="memdesc:namespace_acts_1_1_particle_id_helper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle identification based on PDG number. <br /></td></tr>
 <tr class="memitem:PhysicalConstants" id="r_PhysicalConstants"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_acts_1_1_physical_constants.html">PhysicalConstants</a></td></tr>
@@ -5557,7 +5559,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a pair of the unbiased parameters and their covariance </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000092">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000094">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
 <div class="fragment"><div class="line"><a class="code hl_function" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a>(<a class="code hl_typedef" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>{state});</div>
 </div><!-- fragment --> 
 </div>
@@ -8962,7 +8964,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000080">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000082">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9002,7 +9004,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000081">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000083">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9590,7 +9592,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000084">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000086">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
 
 </div>
 </div>
@@ -9622,7 +9624,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000083">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000085">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
 
 </div>
 </div>
