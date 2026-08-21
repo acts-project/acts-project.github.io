@@ -236,9 +236,9 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Class <a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>  </dt>
 <dd><a class="anchor" id="_deprecated000081"></a>Use AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a>  (const nlohmann::json &amp;j)</dt>
-<dd><a class="anchor" id="_deprecated000098"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000101"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a>  (const ProtoAxis &amp;pa)</dt>
-<dd><a class="anchor" id="_deprecated000097"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000100"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a86f4bbc50f2d11387937c9d36d04f418">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;::materialSlab</a>  (const Vector3 &amp;) const final</dt>
 <dd><a class="anchor" id="_deprecated000037"></a>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call instead.  </dd>
 <dt>Class <a class="el" href="class_acts_1_1_surface_material_mapper.html">Acts::SurfaceMaterialMapper</a>  </dt>
@@ -252,7 +252,11 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Member <a class="el" href="class_acts_1_1_volume_material_mapper.html#a90fa81cf2574d34b2d4862f8c859b6e2">Acts::VolumeMaterialMapper::VolumeMaterialMapper</a>  (const Config &amp;cfg, StraightLinePropagator propagator, std::unique_ptr&lt; const Logger &gt; slogger=getDefaultLogger("VolumeMaterialMapper", Logging::INFO))</dt>
 <dd><a class="anchor" id="_deprecated000041"></a>Material mapping with propagation is deprecated. Use MaterialMapper instead.  </dd>
 <dt>Member <a class="el" href="class_acts_fatras_1_1_barcode.html#afb4bae340b4fe67e8a3f9787bb8bfa0c">ActsFatras::Barcode::asVector</a>  () const</dt>
-<dd><a class="anchor" id="_deprecated000095"></a>Use asArray() instead to avoid a heap allocation. </dd>
+<dd><a class="anchor" id="_deprecated000095"></a>Use asArray() instead to avoid a heap allocation.  </dd>
+<dt>Member <a class="el" href="struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#ac8391c8ae2a305c685c05ec6b387994e">ActsPlugins::Svg::LayerConverter::Options::gridInfo</a>  </dt>
+<dd><a class="anchor" id="_deprecated000096"></a>actsvg 0.4.57 removed the grid sheet display. Kept so the option still compiles; convert() throws if it is switched on. No [[deprecated]] attribute: on a data member it also fires on every copy of Options, which says nothing about whether the option is used.  </dd>
+<dt>Member <a class="el" href="struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#a1708f6c0b2628a681eb0c8cc290346a9">ActsPlugins::Svg::LayerConverter::Options::moduleInfo</a>  </dt>
+<dd><a class="anchor" id="_deprecated000097"></a>actsvg 0.4.57 removed the module sheet display; see gridInfo. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
