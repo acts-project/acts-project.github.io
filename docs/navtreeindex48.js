@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"namespace_acts.html#aaaa9c77f4dd9efc1ac464d9a941f2ef2":[6,0,0,628],
 "namespace_acts.html#aabd1454e2e9e50489ad2e76fb3b3efc3":[6,0,0,882],
 "namespace_acts.html#aac11e8ec3784f7325583119c7b36bb06":[6,0,0,813],
 "namespace_acts.html#aad4db30b6dc42d8043e312d4936ced86":[6,0,0,728],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "namespace_acts_1_1_physical_constants.html":[6,0,0,7],
 "namespace_acts_1_1_physical_constants.html#a1d84e7732ed0bc3272bff096737d2b6e":[6,0,0,7,0],
 "namespace_acts_1_1_physical_constants.html#ae64b87b62593f4c52d5a1d88da6d7cf3":[6,0,0,7,1],
-"namespace_acts_1_1_unit_constants.html":[6,0,0,8],
-"namespace_acts_1_1_unit_constants.html#a083dd2aecaca88f85c7db3b9d8a123b3":[6,0,0,8,21]
+"namespace_acts_1_1_unit_constants.html":[6,0,0,8]
 };

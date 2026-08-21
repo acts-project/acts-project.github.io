@@ -129,7 +129,7 @@ $(function(){initNavTree('physmon.html','',''); });
 <p>The ACTS CI runs a suite of physics performance monitoring jobs dubbed <em>physmon</em>. The purpose is to monitor and detect changes in the physics performance, both intentional and accidental.</p>
 <p>The associated job will run a number of workflow combinations. Currently, this includes the truth tracking and OpenDataDetector <em>full chain</em> workflows. The latter is further split into configurations with full seeding, truth smeared or truth estimated seeds. These jobs produce performance output files.</p>
 <p>These performance output files are then evaluated using the programs dubbed [](analysis_apps). After this step, the job will then run comparisons of the diagnostics histograms created by these programs. If the comparisons indicate that the histogram contents changed meaningfully, the job will fail and report this on a pull request.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md57"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
 How do I investigate a physmon failure?</h2>
 <p>The physmon CI job attaches its results as an artifact to the CI run (also for successful runs) From your pull request, you need to click on the <em>Checks</em> tab at the top:</p>
 <div class="image">
@@ -180,7 +180,7 @@ physmon artifact</div></div>
 <div class="caption">
 Physmon report</div></div>
     <p>If you get a physmon job failure on your pull request, please investigate the failing report(s), and try to understand if the change causing the discrepancies is expected.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md65"></a>
 Where the reference files live</h2>
 <p>The reference histograms are <b>not</b> committed to the repository. They are stored as content-addressed blobs in an OCI registry, and the repository records only their hashes in <span class="tt">CI/physmon/reference.sha256</span>:</p>
 <div class="fragment"><div class="line">acf50e815ae89cb3053ffc04c6099ac877b78c7fe32cfd5ee8ae890abe56e28b  simulation/particles_fatras_hist.root</div>
@@ -192,7 +192,7 @@ Where the reference files live</h2>
 <div class="fragment"><div class="line">$ uv run --no-project CI/physmon/reference.py pull     # populate CI/physmon/reference/</div>
 <div class="line">$ uv run --no-project CI/physmon/reference.py verify   # check it against the manifest</div>
 </div><!-- fragment --><p>Set <span class="tt">ACTS_PHYSMON_NO_FETCH=1</span> to stop <span class="tt">phys_perf_mon.sh</span> from touching the reference directory, if you want to point it at files of your own. The manifest is in <span class="tt">sha256sum</span> format, so <span class="tt">sha256sum -c ../reference.sha256</span> works from inside the reference directory too.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md66"></a>
 How do I update the reference files?</h2>
 <p>Reference updates are published by a maintainer; you do not need registry credentials to propose one.</p>
 <ol type="1">

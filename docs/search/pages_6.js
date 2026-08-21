@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md102',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md108',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md103',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md109',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
-  ['back_2',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md89',1,'']]],
+  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md109',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md115',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md110',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md116',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['back_2',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md96',1,'']]],
   ['backend_3',['backend',['../group__eventdata__tracks.html#autotoc_md25',1,'How to build a backend'],['../group__eventdata__tracks.html#autotoc_md27',1,'MultiTrajectory (track state) backend'],['../group__eventdata__tracks.html#autotoc_md24',1,'PODIO backend'],['../group__eventdata__tracks.html#autotoc_md26',1,'TrackContainer backend'],['../group__eventdata__tracks.html#autotoc_md23',1,'Transient vector backend']]],
   ['backends_4',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],
   ['backends_20shipped_20with_20acts_5',['Backends shipped with ACTS',['../group__eventdata__tracks.html#autotoc_md22',1,'']]],
@@ -14,14 +14,15 @@ var searchData=
   ['benefits_11',['Benefits',['../group__errors.html#autotoc_md16',1,'']]],
   ['bethe–heitler_20energy_20loss_20as_20a_20mixture_12',['Bethe–Heitler energy loss as a mixture',['../group__gsf.html#gsf-bethe-heitler',1,'']]],
   ['bibliography_13',['Bibliography',['../citelist.html',1,'']]],
-  ['branch_14',['Step 1: Update the release branch',['../howto_release.html#autotoc_md73',1,'']]],
+  ['branch_14',['Step 1: Update the release branch',['../howto_release.html#autotoc_md80',1,'']]],
   ['bremsstrahlung_20recovery_20in_20the_20ckf_15',['Bremsstrahlung recovery in the CKF',['../group__gsf.html#gsf-ckf-brem',1,'']]],
   ['bugs_16',['Bugs',['../bug.html',1,'']]],
   ['build_20a_20backend_17',['How to build a backend',['../group__eventdata__tracks.html#autotoc_md25',1,'']]],
-  ['build_20caches_18',['Build caches',['../howto_spack.html#autotoc_md80',1,'']]],
+  ['build_20caches_18',['Build caches',['../howto_spack.html#autotoc_md87',1,'']]],
   ['build_20options_19',['Build options',['../building_acts.html#build-options',1,'']]],
-  ['building_20acts_20',['Building ACTS',['../building_acts.html',1,'Building ACTS'],['../building_acts.html#building-acts',1,'Building ACTS']]],
-  ['building_20from_20source_21',['Building from source',['../group__python__bindings.html#autotoc_md45',1,'']]],
-  ['building_20the_20documentation_22',['Building the documentation',['../building_acts.html#autotoc_md54',1,'']]],
-  ['building_20with_20spack_23',['Building with Spack',['../howto_spack.html',1,'Building with Spack'],['../howto_spack.html#autotoc_md78',1,'Building with Spack']]]
+  ['build_20wires_20it_20up_20',['How the build wires it up',['../group__sympy__codegen.html#autotoc_md51',1,'']]],
+  ['building_20acts_21',['Building ACTS',['../building_acts.html',1,'Building ACTS'],['../building_acts.html#building-acts',1,'Building ACTS']]],
+  ['building_20from_20source_22',['Building from source',['../group__python__bindings.html#autotoc_md45',1,'']]],
+  ['building_20the_20documentation_23',['Building the documentation',['../building_acts.html#autotoc_md61',1,'']]],
+  ['building_20with_20spack_24',['Building with Spack',['../howto_spack.html',1,'Building with Spack'],['../howto_spack.html#autotoc_md85',1,'Building with Spack']]]
 ];

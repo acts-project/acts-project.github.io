@@ -1,6 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"struct_acts_1_1_volume_config.html#a3f49770884d84949d890b9f7298b0cb1":[8,0,0,455,14],
 "struct_acts_1_1_volume_config.html#a45373e2a970db82f91ba7cf0d1beb897":[6,0,0,449,17],
 "struct_acts_1_1_volume_config.html#a45373e2a970db82f91ba7cf0d1beb897":[8,0,0,455,17],
 "struct_acts_1_1_volume_config.html#a580ec827f0a228420158b65e228bdcf5":[6,0,0,449,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX65 =
 "struct_acts_fatras_1_1_every_particle.html#a4f0f4fddc387e7f0043bc3beca78ef70":[8,0,1,12,0],
 "struct_acts_fatras_1_1_every_surface.html":[6,0,2,12],
 "struct_acts_fatras_1_1_every_surface.html":[8,0,1,13],
-"struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57":[6,0,2,12,0]
+"struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57":[6,0,2,12,0],
+"struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57":[8,0,1,13,0]
 };

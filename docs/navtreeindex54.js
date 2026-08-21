@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a1b718ccffeab23a2951141d25beecfda":[6,0,0,1,12,1,12],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a1b718ccffeab23a2951141d25beecfda":[8,0,0,2,12,1,12],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a30280cb79b4eaa3d30010be012634975":[6,0,0,1,12,1,10],
 "struct_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_1_1_options.html#a30280cb79b4eaa3d30010be012634975":[8,0,0,2,12,1,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html":[5,13,7],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a180f116b8e73a095085b0e9747804763":[5,13,7,6],
 "struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a1d27e8d322f9d5ee1e32fe14336a2377":[5,13,7,8],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a2fb106e351092e2350beee5fc0d172bf":[5,13,7,0],
-"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a48fed7e05f1ac0ec5e308377c4e6d474":[5,13,7,12]
+"struct_acts_1_1_experimental_1_1_gx2_fitter_options.html#a2fb106e351092e2350beee5fc0d172bf":[5,13,7,0]
 };

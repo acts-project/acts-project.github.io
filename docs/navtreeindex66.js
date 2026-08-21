@@ -1,6 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57":[8,0,1,13,0],
 "struct_acts_fatras_1_1_failed_particle.html":[6,0,2,13],
 "struct_acts_fatras_1_1_failed_particle.html":[8,0,1,14],
 "struct_acts_fatras_1_1_failed_particle.html#a6f90cf1f12cefed2152d27429f627252":[6,0,2,13,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX66 =
 "struct_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend_1_1_layer_spec.html#ae573fd68f8fbc1bcc534829b5560089c":[8,0,2,0,0,1,1],
 "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html":[5,10,2,1],
 "struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#a89995b4b58cdf8a5f9deafdeee523c6f":[5,10,2,1,1],
-"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9":[5,10,2,1,0]
+"struct_acts_plugins_1_1_d_d4hep_detector_element_extension.html#aaa30f6e6795690f5a7956ef84b1a95d9":[5,10,2,1,0],
+"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html":[5,10,2,2,0]
 };

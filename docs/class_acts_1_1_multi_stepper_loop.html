@@ -461,7 +461,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 </dl>
 <dl class="section note"><dt>Note</dt><dd>: It is not ensured that the weights are normalized afterwards </dd>
 <dd>
-This function makes no garantuees about how new components are initialized, it is up to the caller to ensure that all components are valid in the end. </dd>
+The component is initialized through the single stepper, so its jacobians are set whenever <code class="param">pars</code> carries a covariance. </dd>
 <dd>
 The returned component-proxy is only garantueed to be valid until the component number is again modified </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>ComponentProxy for the newly added component or error </dd></dl>

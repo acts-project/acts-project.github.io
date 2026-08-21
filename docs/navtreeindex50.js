@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a11b4554b9c99287da29fa8075ff3bb62":[8,0,0,25,1,8],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a2961295e81ab4dc5a0fc5926822cd952":[6,0,0,19,1,4],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a2961295e81ab4dc5a0fc5926822cd952":[8,0,0,25,1,4],
 "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952":[6,0,0,19,1,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a6fcb592fd3fa2a7b752606b049b6969a":[6,0,0,66,1,12],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a6fcb592fd3fa2a7b752606b049b6969a":[8,0,0,72,1,12],
 "struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a749bba795ea434c565b220f017438bf1":[6,0,0,66,1,11],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a749bba795ea434c565b220f017438bf1":[8,0,0,72,1,11],
-"struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a7a180cee914f720e175976e90e15f5c5":[6,0,0,66,1,5]
+"struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a749bba795ea434c565b220f017438bf1":[8,0,0,72,1,11]
 };
