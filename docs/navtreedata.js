@@ -132,12 +132,12 @@ var NAVTREEINDEX =
 "struct_acts_1_1_navigator_1_1_state.html#aa664552fae00e3d87df1121c1e7b3edf",
 "struct_acts_1_1_propagator_options.html#adcbc166a2fbfc9bbc267498924c31577",
 "struct_acts_1_1_source_link_adapter_iterator.html#ac684e9ded7cdf4e790d3e6d212b8a3eb",
-"struct_acts_1_1_sympy_stepper_1_1_state.html#ad0c11256008469ac2351ae447da73b34",
-"struct_acts_1_1_track_state_traits.html#a891c2f8a165650f2032d3e38a7b815e4",
-"struct_acts_1_1_volume_config.html#a58d14cc387a40cede1513b75cf64f98b",
-"struct_acts_fatras_1_1_failed_particle.html#af7eaeee9d6fc9ee8ad70b55e717cb14c",
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#aaebb5894bf3e09d5964faa8a7dee393e",
-"struct_acts_plugins_1_1_root_measurement_io_1_1_config.html#ad54234ccae6a0f195c01e7059479fbe5"
+"struct_acts_1_1_sympy_stepper_1_1_state.html#a994c5c59246ae5e6a4d81dd8bf949ba1",
+"struct_acts_1_1_track_state_traits.html#a1fa1259fa74563db7de20d46dafe96b7",
+"struct_acts_1_1_volume_config.html#a3f49770884d84949d890b9f7298b0cb1",
+"struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57",
+"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html",
+"struct_acts_plugins_1_1_root_material_track_io_1_1_config.html#a16388fb8f92d642e9c24073182ae9d3b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

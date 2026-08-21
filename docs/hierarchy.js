@@ -759,6 +759,7 @@ var hierarchy =
     [ "Acts::StraightLineStepper::State", "struct_acts_1_1_straight_line_stepper_1_1_state.html", null ],
     [ "Acts::StripSpacePointBuilder::ClusterPairingOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html", null ],
     [ "Acts::StripSpacePointBuilder::ConstrainedOptions", "struct_acts_1_1_strip_space_point_builder_1_1_constrained_options.html", null ],
+    [ "Acts::StripSpacePointBuilder::ConstrainedStripCache", "struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html", null ],
     [ "Acts::StripSpacePointBuilder::CosmicOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html", null ],
     [ "Acts::StripSpacePointBuilder::StripEnds", "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html", null ],
     [ "Acts::SurfaceArray", "class_acts_1_1_surface_array.html", null ],

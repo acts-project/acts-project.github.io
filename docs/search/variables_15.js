@@ -25,5 +25,6 @@ var searchData=
   ['volumenames_22',['volumeNames',['../struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#a066662be63118788efc6389072a07f6b',1,'ActsPlugins::TGeoParser::Options']]],
   ['volumeprefix_23',['volumePrefix',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af3c67e9f947b033f893da059902e80aa',1,'ActsPlugins::RootMaterialMapIo::Config']]],
   ['volumes_24',['volumes',['../struct_acts_1_1_volume_config.html#a45373e2a970db82f91ba7cf0d1beb897',1,'Acts::VolumeConfig']]],
-  ['vtxinfomap_25',['vtxInfoMap',['../struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952',1,'Acts::AdaptiveMultiVertexFitter::State']]]
+  ['vtxinfomap_25',['vtxInfoMap',['../struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952',1,'Acts::AdaptiveMultiVertexFitter::State']]],
+  ['vtxtomid2_26',['vtxToMid2',['../struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a69647841f96af10b565072a6b8b646bd',1,'Acts::StripSpacePointBuilder::ConstrainedStripCache']]]
 ];
