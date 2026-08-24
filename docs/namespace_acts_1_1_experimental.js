@@ -58,7 +58,7 @@ var namespace_acts_1_1_experimental =
     [ "CompositeSpacePointFastCalibrator", "concept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator.html", null ],
     [ "CompositeSpacePointPtr", "concept_acts_1_1_experimental_1_1_composite_space_point_ptr.html", null ],
     [ "AxisVariant", "namespace_acts_1_1_experimental.html#ad6733036f479c3e732e53c10e3be3a39", null ],
-    [ "BoostHist", "namespace_acts_1_1_experimental.html#a1c0a9d070b5720016943b93abcc352bd", null ],
+    [ "BoostHist", "namespace_acts_1_1_experimental.html#a36e246a3af93200d4e91ebef64ac0bc7", null ],
     [ "BoostLogAxis", "namespace_acts_1_1_experimental.html#a71f597f44c431241acaa30806a6a6936", null ],
     [ "BoostProfileHist", "namespace_acts_1_1_experimental.html#afd53f2267d17bc3c62b70f3093af1e84", null ],
     [ "BoostRegularAxis", "namespace_acts_1_1_experimental.html#ac7a6cc986dade7daa45eadca383cd7a8", null ],

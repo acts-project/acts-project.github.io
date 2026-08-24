@@ -12,7 +12,7 @@ var searchData=
   ['binning_9',['Binning',['../class_acts_1_1_multi_wire_volume_builder.html#a9d99ae893df60fe7f606622fe160233c',1,'Acts::MultiWireVolumeBuilder::Binning'],['../class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a9d99ae893df60fe7f606622fe160233c',1,'Acts::Experimental::MultiWireVolumeBuilder::Binning']]],
   ['bitset_5ftype_10',['bitset_type',['../class_acts_1_1_track_state_type_base.html#a6dff7da1350d8aa69a827ffb6e52f2c9',1,'Acts::TrackStateTypeBase']]],
   ['blueprintbuilder_11',['BlueprintBuilder',['../namespace_acts_plugins.html#a882346a5d6c67e3fa2468d782eaea5a5',1,'ActsPlugins']]],
-  ['boosthist_12',['BoostHist',['../namespace_acts_1_1_experimental.html#a1c0a9d070b5720016943b93abcc352bd',1,'Acts::Experimental']]],
+  ['boosthist_12',['BoostHist',['../namespace_acts_1_1_experimental.html#a36e246a3af93200d4e91ebef64ac0bc7',1,'Acts::Experimental']]],
   ['boostlogaxis_13',['BoostLogAxis',['../namespace_acts_1_1_experimental.html#a71f597f44c431241acaa30806a6a6936',1,'Acts::Experimental']]],
   ['boostprofilehist_14',['BoostProfileHist',['../namespace_acts_1_1_experimental.html#afd53f2267d17bc3c62b70f3093af1e84',1,'Acts::Experimental']]],
   ['boostregularaxis_15',['BoostRegularAxis',['../namespace_acts_1_1_experimental.html#ac7a6cc986dade7daa45eadca383cd7a8',1,'Acts::Experimental']]],

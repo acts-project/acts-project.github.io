@@ -144,9 +144,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a544785beee615465a9a63bac07afb7dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <br /></td></tr>
 <tr class="memitem:af08bad3f573f401880e160f5c0f9abc8" id="r_af08bad3f573f401880e160f5c0f9abc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a> (std::string <a class="el" href="#a1cf6593d5151393274cdc625bb128742">name</a>, std::string <a class="el" href="#a61129e7c35466aa10794535729c9aa1c">title</a>, const std::array&lt; <a class="el" href="namespace_acts_1_1_experimental.html#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a>, Dim &gt; &amp;axes)</td></tr>
 <tr class="memdesc:af08bad3f573f401880e160f5c0f9abc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct multi-dimensional histogram from axes.  <br /></td></tr>
+<tr class="memitem:aa8ddaa079e20131a91b9b5ed17e1514b" id="r_aa8ddaa079e20131a91b9b5ed17e1514b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8ddaa079e20131a91b9b5ed17e1514b">binContent</a> (const std::array&lt; int, Dim &gt; &amp;indices) const</td></tr>
+<tr class="memdesc:aa8ddaa079e20131a91b9b5ed17e1514b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the content of a single bin.  <br /></td></tr>
+<tr class="memitem:ae1b46be250668b4746257631c5c3b384" id="r_ae1b46be250668b4746257631c5c3b384"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1b46be250668b4746257631c5c3b384">binError</a> (const std::array&lt; int, Dim &gt; &amp;indices) const</td></tr>
+<tr class="memdesc:ae1b46be250668b4746257631c5c3b384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the error of a single bin.  <br /></td></tr>
 <tr class="memitem:ab3803684b2bee710fcbbda2e19914115" id="r_ab3803684b2bee710fcbbda2e19914115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3803684b2bee710fcbbda2e19914115">fill</a> (const std::array&lt; double, Dim &gt; &amp;values)</td></tr>
 <tr class="memdesc:ab3803684b2bee710fcbbda2e19914115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill histogram with values.  <br /></td></tr>
-<tr class="memitem:a8915f6829d5c9e3c031db801ce6f989d" id="r_a8915f6829d5c9e3c031db801ce6f989d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts_1_1_experimental.html#a1c0a9d070b5720016943b93abcc352bd">BoostHist</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8915f6829d5c9e3c031db801ce6f989d">histogram</a> () const</td></tr>
+<tr class="memitem:a8915f6829d5c9e3c031db801ce6f989d" id="r_a8915f6829d5c9e3c031db801ce6f989d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_acts_1_1_experimental.html#a36e246a3af93200d4e91ebef64ac0bc7">BoostHist</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8915f6829d5c9e3c031db801ce6f989d">histogram</a> () const</td></tr>
 <tr class="memdesc:a8915f6829d5c9e3c031db801ce6f989d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direct access to boost::histogram (for converters and tests).  <br /></td></tr>
 <tr class="memitem:a1cf6593d5151393274cdc625bb128742" id="r_a1cf6593d5151393274cdc625bb128742"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cf6593d5151393274cdc625bb128742">name</a> () const</td></tr>
 <tr class="memdesc:a1cf6593d5151393274cdc625bb128742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get histogram name.  <br /></td></tr>
@@ -154,8 +158,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a921a7bd7ae7578e33096a3b565ad583e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <br /></td></tr>
 <tr class="memitem:ab85fd6ee28953fec112893aa8f8fad77" id="r_ab85fd6ee28953fec112893aa8f8fad77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab85fd6ee28953fec112893aa8f8fad77">operator=</a> (<a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a> &amp;&amp;other) noexcept=default</td></tr>
 <tr class="memdesc:ab85fd6ee28953fec112893aa8f8fad77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <br /></td></tr>
+<tr class="memitem:acf0017f915146b6a13a2a7c2c58e9517" id="r_acf0017f915146b6a13a2a7c2c58e9517"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf0017f915146b6a13a2a7c2c58e9517">setBin</a> (const std::array&lt; int, Dim &gt; &amp;indices, double content, double error)</td></tr>
+<tr class="memdesc:acf0017f915146b6a13a2a7c2c58e9517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the content and error of a single bin, discarding whatever was there before.  <br /></td></tr>
+<tr class="memitem:ad11c581c268a10b015d2e7beb97d3afd" id="r_ad11c581c268a10b015d2e7beb97d3afd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad11c581c268a10b015d2e7beb97d3afd">setBinContent</a> (const std::array&lt; int, Dim &gt; &amp;indices, double content)</td></tr>
+<tr class="memdesc:ad11c581c268a10b015d2e7beb97d3afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the content of a single bin, discarding whatever was there before.  <br /></td></tr>
+<tr class="memitem:aedfc92e0e74cd8c4ded87c0da685c156" id="r_aedfc92e0e74cd8c4ded87c0da685c156"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedfc92e0e74cd8c4ded87c0da685c156">sliceLastAxis</a> (const std::array&lt; int, Dim - 1 &gt; &amp;outerBins) const</td></tr>
+<tr class="memdesc:aedfc92e0e74cd8c4ded87c0da685c156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the distribution along the last axis at a fixed bin of the other axes.  <br /></td></tr>
+<tr class="memitem:a807fc0554baa3489270bfa7f63ba1f11" id="r_a807fc0554baa3489270bfa7f63ba1f11"><td class="memTemplParams" colspan="2">template&lt;std::integral... Ints&gt; <br />
+requires (sizeof...(Ints) + 1 == Dim)</td></tr>
+<tr class="memitem:a807fc0554baa3489270bfa7f63ba1f11 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a807fc0554baa3489270bfa7f63ba1f11">sliceLastAxis</a> (Ints... outerBins) const</td></tr>
+<tr class="memdesc:a807fc0554baa3489270bfa7f63ba1f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the distribution along the last axis at a fixed bin of the other axes, given as individual bin indices rather than an array.  <br /></td></tr>
 <tr class="memitem:a61129e7c35466aa10794535729c9aa1c" id="r_a61129e7c35466aa10794535729c9aa1c"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61129e7c35466aa10794535729c9aa1c">title</a> () const</td></tr>
 <tr class="memdesc:a61129e7c35466aa10794535729c9aa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get histogram title.  <br /></td></tr>
+<tr class="memitem:ab124d0fa197a7f75e37cfbb0f67e7b67" id="r_ab124d0fa197a7f75e37cfbb0f67e7b67"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab124d0fa197a7f75e37cfbb0f67e7b67">totalContent</a> () const</td></tr>
+<tr class="memdesc:ab124d0fa197a7f75e37cfbb0f67e7b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total content of the histogram's in-range bins.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -165,7 +181,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;std::size_t Dim&gt;<br />
 class Acts::Experimental::Histogram&lt; Dim &gt;</div><p>Multi-dimensional histogram wrapper using boost::histogram for data collection. </p>
-<p>This class wraps boost::histogram to provide a ROOT-independent histogram implementation with compile-time dimensionality.</p>
+<p>This class wraps boost::histogram to provide a ROOT-independent histogram implementation with compile-time dimensionality. Every bin carries a content and an error: <code>fill()</code> gives the usual \( \sqrt{N} \) error, while <code>setBin()</code> can write an arbitrary value/error pair, e.g. from a fit.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Dim</td><td>Number of dimensions </td></tr>
@@ -282,6 +298,64 @@ template&lt;std::size_t Dim&gt; </div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aa8ddaa079e20131a91b9b5ed17e1514b" name="aa8ddaa079e20131a91b9b5ed17e1514b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8ddaa079e20131a91b9b5ed17e1514b">&#9670;&#160;</a></span>binContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::binContent </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; int, Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the content of a single bin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indices</td><td>Zero-based bin index per axis, excluding under-/overflow </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The bin content </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Indices must be in <span class="tt">[0, axis.size())</span> for every axis </dd></dl>
+
+</div>
+</div>
+<a id="ae1b46be250668b4746257631c5c3b384" name="ae1b46be250668b4746257631c5c3b384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1b46be250668b4746257631c5c3b384">&#9670;&#160;</a></span>binError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::binError </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; int, Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the error of a single bin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indices</td><td>Zero-based bin index per axis, excluding under-/overflow </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The uncertainty on the bin content </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Indices must be in <span class="tt">[0, axis.size())</span> for every axis </dd></dl>
+
+</div>
+</div>
 <a id="ab3803684b2bee710fcbbda2e19914115" name="ab3803684b2bee710fcbbda2e19914115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3803684b2bee710fcbbda2e19914115">&#9670;&#160;</a></span>fill()</h2>
 
@@ -318,7 +392,7 @@ template&lt;std::size_t Dim&gt; </div>
 template&lt;std::size_t Dim&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_acts_1_1_experimental.html#a1c0a9d070b5720016943b93abcc352bd">BoostHist</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::histogram </td>
+          <td class="memname">const <a class="el" href="namespace_acts_1_1_experimental.html#a36e246a3af93200d4e91ebef64ac0bc7">BoostHist</a> &amp; <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::histogram </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -455,6 +529,143 @@ template&lt;std::size_t Dim&gt; </div>
 
 </div>
 </div>
+<a id="acf0017f915146b6a13a2a7c2c58e9517" name="acf0017f915146b6a13a2a7c2c58e9517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf0017f915146b6a13a2a7c2c58e9517">&#9670;&#160;</a></span>setBin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::setBin </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; int, Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>content</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>error</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the content and error of a single bin, discarding whatever was there before. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indices</td><td>Zero-based bin index per axis, excluding under-/overflow </td></tr>
+    <tr><td class="paramname">content</td><td>The content to store </td></tr>
+    <tr><td class="paramname">error</td><td>The uncertainty on <code class="param">content</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Indices must be in <span class="tt">[0, axis.size())</span> for every axis </dd></dl>
+
+</div>
+</div>
+<a id="ad11c581c268a10b015d2e7beb97d3afd" name="ad11c581c268a10b015d2e7beb97d3afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad11c581c268a10b015d2e7beb97d3afd">&#9670;&#160;</a></span>setBinContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::setBinContent </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; int, Dim &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>content</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the content of a single bin, discarding whatever was there before. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indices</td><td>Zero-based bin index per axis, excluding under-/overflow </td></tr>
+    <tr><td class="paramname">content</td><td>The content to store </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Indices must be in <span class="tt">[0, axis.size())</span> for every axis </dd>
+<dd>
+The bin's error is set to \( \sqrt{content} \), matching the error <code>fill()</code> would give a bin with that many entries. Use <code>setBin</code> to set an arbitrary value/error pair instead. </dd></dl>
+
+</div>
+</div>
+<a id="aedfc92e0e74cd8c4ded87c0da685c156" name="aedfc92e0e74cd8c4ded87c0da685c156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfc92e0e74cd8c4ded87c0da685c156">&#9670;&#160;</a></span>sliceLastAxis() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a>&lt; 1 &gt; <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::sliceLastAxis </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; int, Dim - 1 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>outerBins</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extract the distribution along the last axis at a fixed bin of the other axes. </p>
+<p>Equivalent to ROOT's <span class="tt">TH2::ProjectionY(name, xBin + 1, xBin + 1)</span> for a 2D histogram, or <span class="tt">TH3::ProjectionZ(name, xBin + 1, xBin + 1, yBin + 1,
+yBin + 1)</span> for a 3D one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outerBins</td><td>Zero-based bin index for every axis but the last, in axis order </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A 1D histogram over the last axis </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Every entry of <code class="param">outerBins</code> must be in range for its axis </dd></dl>
+
+</div>
+</div>
+<a id="a807fc0554baa3489270bfa7f63ba1f11" name="a807fc0554baa3489270bfa7f63ba1f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807fc0554baa3489270bfa7f63ba1f11">&#9670;&#160;</a></span>sliceLastAxis() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+<div class="memtemplate">
+template&lt;std::integral... Ints&gt; <br />
+requires (sizeof...(Ints) + 1 == Dim)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#af08bad3f573f401880e160f5c0f9abc8">Histogram</a>&lt; 1 &gt; <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::sliceLastAxis </td>
+          <td>(</td>
+          <td class="paramtype">Ints...</td>          <td class="paramname"><span class="paramname"><em>outerBins</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extract the distribution along the last axis at a fixed bin of the other axes, given as individual bin indices rather than an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outerBins</td><td>Zero-based bin index for every axis but the last, in axis order </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A 1D histogram over the last axis </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Every entry of <code class="param">outerBins</code> must be in range for its axis </dd></dl>
+
+</div>
+</div>
 <a id="a61129e7c35466aa10794535729c9aa1c" name="a61129e7c35466aa10794535729c9aa1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61129e7c35466aa10794535729c9aa1c">&#9670;&#160;</a></span>title()</h2>
 
@@ -474,6 +685,29 @@ template&lt;std::size_t Dim&gt; </div>
 
 <p>Get histogram title. </p>
 <dl class="section return"><dt>Returns</dt><dd>The histogram title </dd></dl>
+
+</div>
+</div>
+<a id="ab124d0fa197a7f75e37cfbb0f67e7b67" name="ab124d0fa197a7f75e37cfbb0f67e7b67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab124d0fa197a7f75e37cfbb0f67e7b67">&#9670;&#160;</a></span>totalContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Dim&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Acts::Experimental::Histogram</a>&lt; Dim &gt;::totalContent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Total content of the histogram's in-range bins. </p>
+<p>The ROOT-independent equivalent of <span class="tt">TH1::GetEntries()</span> on a filled histogram.</p>
+<dl class="section return"><dt>Returns</dt><dd>The sum of all in-range bin contents </dd></dl>
 
 </div>
 </div>

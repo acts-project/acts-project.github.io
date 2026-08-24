@@ -252,8 +252,8 @@ Concepts</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad6733036f479c3e732e53c10e3be3a39" id="r_ad6733036f479c3e732e53c10e3be3a39"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6733036f479c3e732e53c10e3be3a39">AxisVariant</a></td></tr>
 <tr class="memdesc:ad6733036f479c3e732e53c10e3be3a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost axis variant supporting variable, regular, and log-scale axes with metadata.  <br /></td></tr>
-<tr class="memitem:a1c0a9d070b5720016943b93abcc352bd" id="r_a1c0a9d070b5720016943b93abcc352bd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c0a9d070b5720016943b93abcc352bd">BoostHist</a></td></tr>
-<tr class="memdesc:a1c0a9d070b5720016943b93abcc352bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Underlying Boost type for histograms.  <br /></td></tr>
+<tr class="memitem:a36e246a3af93200d4e91ebef64ac0bc7" id="r_a36e246a3af93200d4e91ebef64ac0bc7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36e246a3af93200d4e91ebef64ac0bc7">BoostHist</a></td></tr>
+<tr class="memdesc:a36e246a3af93200d4e91ebef64ac0bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Underlying Boost type for <code>Histogram</code>.  <br /></td></tr>
 <tr class="memitem:a71f597f44c431241acaa30806a6a6936" id="r_a71f597f44c431241acaa30806a6a6936"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f597f44c431241acaa30806a6a6936">BoostLogAxis</a></td></tr>
 <tr class="memdesc:a71f597f44c431241acaa30806a6a6936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logarithmic-scale histogram axis with string metadata.  <br /></td></tr>
 <tr class="memitem:afd53f2267d17bc3c62b70f3093af1e84" id="r_afd53f2267d17bc3c62b70f3093af1e84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd53f2267d17bc3c62b70f3093af1e84">BoostProfileHist</a></td></tr>
@@ -378,30 +378,31 @@ Functions</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
 <div class="line">    boost::histogram::axis::variant&lt;<a class="code hl_typedef" href="#a949434cf66ed1242e8f40064bb9cdf5f">BoostVariableAxis</a>, <a class="code hl_typedef" href="#ac7a6cc986dade7daa45eadca383cd7a8">BoostRegularAxis</a>,</div>
 <div class="line">                                    <a class="code hl_typedef" href="#a71f597f44c431241acaa30806a6a6936">BoostLogAxis</a>&gt;</div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_html_a71f597f44c431241acaa30806a6a6936"><div class="ttname"><a href="#a71f597f44c431241acaa30806a6a6936">Acts::Experimental::BoostLogAxis</a></div><div class="ttdeci">boost::histogram::axis::regular&lt; double, boost::histogram::axis::transform::log, std::string &gt; BoostLogAxis</div><div class="ttdoc">Logarithmic-scale histogram axis with string metadata.</div><div class="ttdef"><b>Definition</b> Histogram.hpp:28</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_html_a949434cf66ed1242e8f40064bb9cdf5f"><div class="ttname"><a href="#a949434cf66ed1242e8f40064bb9cdf5f">Acts::Experimental::BoostVariableAxis</a></div><div class="ttdeci">boost::histogram::axis::variable&lt; double, std::string &gt; BoostVariableAxis</div><div class="ttdoc">Variable-width histogram axis with string metadata.</div><div class="ttdef"><b>Definition</b> Histogram.hpp:22</div></div>
-<div class="ttc" id="anamespace_acts_1_1_experimental_html_ac7a6cc986dade7daa45eadca383cd7a8"><div class="ttname"><a href="#ac7a6cc986dade7daa45eadca383cd7a8">Acts::Experimental::BoostRegularAxis</a></div><div class="ttdeci">boost::histogram::axis::regular&lt; double, boost::histogram::use_default, std::string &gt; BoostRegularAxis</div><div class="ttdoc">Regular-width histogram axis with string metadata.</div><div class="ttdef"><b>Definition</b> Histogram.hpp:24</div></div>
+<div class="ttc" id="anamespace_acts_1_1_experimental_html_a71f597f44c431241acaa30806a6a6936"><div class="ttname"><a href="#a71f597f44c431241acaa30806a6a6936">Acts::Experimental::BoostLogAxis</a></div><div class="ttdeci">boost::histogram::axis::regular&lt; double, boost::histogram::axis::transform::log, std::string &gt; BoostLogAxis</div><div class="ttdoc">Logarithmic-scale histogram axis with string metadata.</div><div class="ttdef"><b>Definition</b> Histogram.hpp:34</div></div>
+<div class="ttc" id="anamespace_acts_1_1_experimental_html_a949434cf66ed1242e8f40064bb9cdf5f"><div class="ttname"><a href="#a949434cf66ed1242e8f40064bb9cdf5f">Acts::Experimental::BoostVariableAxis</a></div><div class="ttdeci">boost::histogram::axis::variable&lt; double, std::string &gt; BoostVariableAxis</div><div class="ttdoc">Variable-width histogram axis with string metadata.</div><div class="ttdef"><b>Definition</b> Histogram.hpp:28</div></div>
+<div class="ttc" id="anamespace_acts_1_1_experimental_html_ac7a6cc986dade7daa45eadca383cd7a8"><div class="ttname"><a href="#ac7a6cc986dade7daa45eadca383cd7a8">Acts::Experimental::BoostRegularAxis</a></div><div class="ttdeci">boost::histogram::axis::regular&lt; double, boost::histogram::use_default, std::string &gt; BoostRegularAxis</div><div class="ttdoc">Regular-width histogram axis with string metadata.</div><div class="ttdef"><b>Definition</b> Histogram.hpp:30</div></div>
 </div><!-- fragment -->
 <p>Boost axis variant supporting variable, regular, and log-scale axes with metadata. </p>
 <dl class="section note"><dt>Note</dt><dd>It seems not to be possible to combine compile-time fixed number of axes with <span class="tt">boost::histogram::axis::variant</span>. Therefore we use <span class="tt">std::vector&lt;AxisVariant&gt;</span> internally. </dd></dl>
 
 </div>
 </div>
-<a id="a1c0a9d070b5720016943b93abcc352bd" name="a1c0a9d070b5720016943b93abcc352bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c0a9d070b5720016943b93abcc352bd">&#9670;&#160;</a></span>BoostHist</h2>
+<a id="a36e246a3af93200d4e91ebef64ac0bc7" name="a36e246a3af93200d4e91ebef64ac0bc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e246a3af93200d4e91ebef64ac0bc7">&#9670;&#160;</a></span>BoostHist</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a1c0a9d070b5720016943b93abcc352bd">Acts::Experimental::BoostHist</a></td>
+          <td class="memname">using <a class="el" href="#a36e246a3af93200d4e91ebef64ac0bc7">Acts::Experimental::BoostHist</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">decltype</span>(boost::histogram::make_histogram(</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">decltype</span>(boost::histogram::make_weighted_histogram(</div>
 <div class="line">    std::declval&lt;std::vector&lt;AxisVariant&gt;&gt;()))</div>
 </div><!-- fragment -->
-<p>Underlying Boost type for histograms. </p>
+<p>Underlying Boost type for <code>Histogram</code>. </p>
+<p>Weighted-sum accumulator, so every bin carries a content and a variance. </p>
 
 </div>
 </div>
@@ -640,6 +641,7 @@ template&lt;typename Measurement, typename Functor&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A 1D histogram containing the projection </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Unlike ROOT's <span class="tt">TH2::ProjectionX</span>, the sum runs over the under- and overflow bins of the Y axis as well. </dd></dl>
 
 </div>
 </div>
@@ -666,6 +668,7 @@ template&lt;typename Measurement, typename Functor&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A 1D histogram containing the projection </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Unlike ROOT's <span class="tt">TH2::ProjectionY</span>, the sum runs over the under- and overflow bins of the X axis as well. </dd></dl>
 
 </div>
 </div>

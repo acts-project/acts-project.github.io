@@ -758,6 +758,7 @@ var annotated_dup =
       [ "PipelineTensors", "struct_acts_plugins_1_1_pipeline_tensors.html", "struct_acts_plugins_1_1_pipeline_tensors" ],
       [ "PodioTrackContainerBase", "class_acts_plugins_1_1_podio_track_container_base.html", "class_acts_plugins_1_1_podio_track_container_base" ],
       [ "PodioTrackStateContainerBase", "class_acts_plugins_1_1_podio_track_state_container_base.html", "class_acts_plugins_1_1_podio_track_state_container_base" ],
+      [ "RootHistogramFit", "class_acts_plugins_1_1_root_histogram_fit.html", "class_acts_plugins_1_1_root_histogram_fit" ],
       [ "RootMaterialDecorator", "class_acts_plugins_1_1_root_material_decorator.html", "class_acts_plugins_1_1_root_material_decorator" ],
       [ "RootMaterialMapIo", "class_acts_plugins_1_1_root_material_map_io.html", "class_acts_plugins_1_1_root_material_map_io" ],
       [ "RootMaterialTrackIo", "class_acts_plugins_1_1_root_material_track_io.html", "class_acts_plugins_1_1_root_material_track_io" ],

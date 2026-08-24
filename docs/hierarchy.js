@@ -1086,6 +1086,8 @@ var hierarchy =
       [ "ActsPlugins::MutablePodioTrackStateContainer< holder_t >", "class_acts_plugins_1_1_mutable_podio_track_state_container.html", null ]
     ] ],
     [ "ActsPlugins::PodioUtil::ConversionHelper", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html", null ],
+    [ "ActsPlugins::RootHistogramFit", "class_acts_plugins_1_1_root_histogram_fit.html", null ],
+    [ "ActsPlugins::RootHistogramFit::Config", "struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html", null ],
     [ "ActsPlugins::RootMaterialDecorator::Config", "class_acts_plugins_1_1_root_material_decorator_1_1_config.html", null ],
     [ "ActsPlugins::RootMaterialMapIo", "class_acts_plugins_1_1_root_material_map_io.html", null ],
     [ "ActsPlugins::RootMaterialMapIo::Config", "struct_acts_plugins_1_1_root_material_map_io_1_1_config.html", null ],

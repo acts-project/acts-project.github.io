@@ -29,9 +29,10 @@ var searchData=
   ['result_3c_20std_3a_3apair_3c_20parametersvector_2c_20covariancematrix_20_3e_20_3e_26',['Result&lt; std::pair&lt; ParametersVector, CovarianceMatrix &gt; &gt;',['../class_acts_1_1_result.html',1,'Acts']]],
   ['result_3c_20void_2c_20e_20_3e_27',['Result&lt; void, E &gt;',['../class_acts_1_1_result_3_01void_00_01_e_01_4.html',1,'Acts']]],
   ['riddersstepper_28',['RiddersStepper',['../class_acts_1_1_experimental_1_1_ridders_stepper.html',1,'Acts::Experimental']]],
-  ['rootmaterialdecorator_29',['RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html',1,'ActsPlugins']]],
-  ['rootmaterialmapio_30',['RootMaterialMapIo',['../class_acts_plugins_1_1_root_material_map_io.html',1,'ActsPlugins']]],
-  ['rootmaterialtrackio_31',['RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html',1,'ActsPlugins']]],
-  ['rootmeasurementio_32',['RootMeasurementIo',['../class_acts_plugins_1_1_root_measurement_io.html',1,'ActsPlugins']]],
-  ['rootspacepointio_33',['RootSpacePointIo',['../class_acts_plugins_1_1_root_space_point_io.html',1,'ActsPlugins']]]
+  ['roothistogramfit_29',['RootHistogramFit',['../class_acts_plugins_1_1_root_histogram_fit.html',1,'ActsPlugins']]],
+  ['rootmaterialdecorator_30',['RootMaterialDecorator',['../class_acts_plugins_1_1_root_material_decorator.html',1,'ActsPlugins']]],
+  ['rootmaterialmapio_31',['RootMaterialMapIo',['../class_acts_plugins_1_1_root_material_map_io.html',1,'ActsPlugins']]],
+  ['rootmaterialtrackio_32',['RootMaterialTrackIo',['../class_acts_plugins_1_1_root_material_track_io.html',1,'ActsPlugins']]],
+  ['rootmeasurementio_33',['RootMeasurementIo',['../class_acts_plugins_1_1_root_measurement_io.html',1,'ActsPlugins']]],
+  ['rootspacepointio_34',['RootSpacePointIo',['../class_acts_plugins_1_1_root_space_point_io.html',1,'ActsPlugins']]]
 ];
