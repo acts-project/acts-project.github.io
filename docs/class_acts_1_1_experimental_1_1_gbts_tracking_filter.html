@@ -138,13 +138,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0faabd4815aba73113bbe44b641b5c1c" id="r_a0faabd4815aba73113bbe44b641b5c1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0faabd4815aba73113bbe44b641b5c1c">GbtsTrackingFilter</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a> &amp;config, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;geometry)</td></tr>
+<tr class="memitem:a6afcd47a76c85be251232795c876fd05" id="r_a6afcd47a76c85be251232795c876fd05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6afcd47a76c85be251232795c876fd05">GbtsTrackingFilter</a> (const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html">Config</a> &amp;config, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;geometry, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;GbtsTrackingFilter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>))</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tracking filter operating on the GBTS edge graph. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0faabd4815aba73113bbe44b641b5c1c" name="a0faabd4815aba73113bbe44b641b5c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0faabd4815aba73113bbe44b641b5c1c">&#9670;&#160;</a></span>GbtsTrackingFilter()</h2>
+<a id="a6afcd47a76c85be251232795c876fd05" name="a6afcd47a76c85be251232795c876fd05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6afcd47a76c85be251232795c876fd05">&#9670;&#160;</a></span>GbtsTrackingFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>&#160;)</td>
+          <td class="paramtype">const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">GbtsGeometry</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">getDefaultLogger</a>(&quot;GbtsTrackingFilter&quot;,&#160;<a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Logging::Level::INFO</a>)</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -165,6 +170,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">config</td><td>Configuration for seed finder </td></tr>
     <tr><td class="paramname">geometry</td><td>GBTS geometry for layer information </td></tr>
+    <tr><td class="paramname">logger</td><td>Logging instance </td></tr>
   </table>
   </dd>
 </dl>
