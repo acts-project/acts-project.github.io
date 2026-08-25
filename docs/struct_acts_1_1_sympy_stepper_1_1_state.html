@@ -152,6 +152,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>covTransport</b> = fa
 <tr class="memitem:a760ef335fef159670851843b341c2b49" id="r_a760ef335fef159670851843b341c2b49"><td class="memItemLeft" align="right" valign="top"><a id="a760ef335fef159670851843b341c2b49" name="a760ef335fef159670851843b341c2b49"></a>
 <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><b>derivative</b> = FreeVector::Zero()</td></tr>
 <tr class="memdesc:a760ef335fef159670851843b341c2b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">The propagation derivative. <br /></td></tr>
+<tr class="memitem:a444ef95646ef3151a49a55f823e1784a" id="r_a444ef95646ef3151a49a55f823e1784a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a444ef95646ef3151a49a55f823e1784a">field</a></td></tr>
+<tr class="memdesc:a444ef95646ef3151a49a55f823e1784a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic field at the current position, reused as the next step's first sample.  <br /></td></tr>
 <tr class="memitem:a9ad0d2b2d5918b68db6d67ac73d98c2d" id="r_a9ad0d2b2d5918b68db6d67ac73d98c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">MagneticFieldProvider::Cache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad0d2b2d5918b68db6d67ac73d98c2d">fieldCache</a></td></tr>
 <tr class="memdesc:a9ad0d2b2d5918b68db6d67ac73d98c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This caches the current magnetic field cell and stays (and interpolates) within it as long as this is valid.  <br /></td></tr>
 <tr class="memitem:a994c5c59246ae5e6a4d81dd8bf949ba1" id="r_a994c5c59246ae5e6a4d81dd8bf949ba1"><td class="memItemLeft" align="right" valign="top"><a id="a994c5c59246ae5e6a4d81dd8bf949ba1" name="a994c5c59246ae5e6a4d81dd8bf949ba1"></a>
@@ -227,6 +229,23 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>previousStepSize</b
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a444ef95646ef3151a49a55f823e1784a" name="a444ef95646ef3151a49a55f823e1784a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444ef95646ef3151a49a55f823e1784a">&#9670;&#160;</a></span>field</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&gt; Acts::SympyStepper::State::field</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Magnetic field at the current position, reused as the next step's first sample. </p>
+<p>Reset whenever the parameters are set from outside. </p>
+
+</div>
+</div>
 <a id="a9ad0d2b2d5918b68db6d67ac73d98c2d" name="a9ad0d2b2d5918b68db6d67ac73d98c2d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9ad0d2b2d5918b68db6d67ac73d98c2d">&#9670;&#160;</a></span>fieldCache</h2>
 
