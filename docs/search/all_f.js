@@ -1,7 +1,7 @@
 var searchData=
 [
   ['k_0',['k',['../struct_acts_1_1_eigen_stepper_default_extension.html#a77f7a2639c0c6ce76bc6bb9988209e99',1,'Acts::EigenStepperDefaultExtension::k()'],['../struct_acts_1_1_eigen_stepper_dense_extension.html#ab0e3dcfaf673c8d6c59286a583b3ff68',1,'Acts::EigenStepperDenseExtension::k()']]],
-  ['k_20b_20x_20y_20z_20m_1',['k B x y z M',['../group__magnetic__field.html#autotoc_md110',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md116',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['k_20b_20x_20y_20z_20m_1',['k B x y z M',['../group__magnetic__field.html#autotoc_md115',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md121',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['k1_2',['k1',['../struct_acts_1_1_eigen_stepper_1_1_state.html#a0f360a26bd1560084a5d48a757a837e7',1,'Acts::EigenStepper::State']]],
   ['kalman_20filter_3',['Combinatorial Kalman Filter',['../tracking.html#combinatorial-kalman-filter',1,'']]],
   ['kalman_20filters_4',['Material effects in the Kalman filters',['../group__kf__material__effects.html',1,'']]],
@@ -35,7 +35,7 @@ var searchData=
   ['kmeasurementsizemax_32',['kMeasurementSizeMax',['../namespace_acts.html#a1c422bbaca4aaec733b49b97645ea1b4',1,'Acts']]],
   ['knavigationpolicystatesbo_33',['kNavigationPolicyStateSbo',['../namespace_acts.html#af6a46533b530d2de3ffaa701b1c52bbe',1,'Acts']]],
   ['knnval_34',['knnVal',['../struct_acts_plugins_1_1_torch_metric_learning_1_1_config.html#ae341ca5a5218420ce852e961001222dd',1,'ActsPlugins::TorchMetricLearning::Config']]],
-  ['know_20about_35',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md103',1,'']]],
+  ['know_20about_35',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md108',1,'']]],
   ['knumlevels_36',['kNumLevels',['../class_acts_1_1_multi_index.html#ac41f16be14e2def85d64fe15810bc60c',1,'Acts::MultiIndex']]],
   ['kownership_37',['kOwnership',['../class_acts_1_1_delegate_3_01_r_07_args_8_8_8_08_00_01_h_00_01_o_01_4.html#a09d50e431c7fcd0a778c17843b55623d',1,'Acts::Delegate&lt; R(Args...), H, O &gt;']]],
   ['kportallookupcontext_38',['kPortalLookupContext',['../class_acts_1_1_tracking_geometry_json_converter.html#a77628f57ad9ed50217337d65ec525c47',1,'Acts::TrackingGeometryJsonConverter']]],

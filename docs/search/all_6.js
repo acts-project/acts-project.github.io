@@ -1,10 +1,10 @@
 var searchData=
 [
   ['b_0',['b',['../struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601',1,'Acts::ToroidField::BarrelConfig::b'],['../struct_acts_1_1_toroid_field_1_1_ect_config.html#af05d46e6ef29d30e858be598edb10203',1,'Acts::ToroidField::EctConfig::b']]],
-  ['b_20r_20z_20m_1',['B r z M',['../group__magnetic__field.html#autotoc_md109',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md115',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['b_20x_20y_20z_20m_2',['B x y z M',['../group__magnetic__field.html#autotoc_md110',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md116',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['b_20r_20z_20m_1',['B r z M',['../group__magnetic__field.html#autotoc_md114',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md120',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['b_20x_20y_20z_20m_2',['B x y z M',['../group__magnetic__field.html#autotoc_md115',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md121',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['b_5ffirst_3',['B_first',['../struct_acts_1_1_eigen_stepper_1_1_state.html#aa1e41e33043178704dc32719443b56ca',1,'Acts::EigenStepper::State']]],
-  ['back_4',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md96',1,'']]],
+  ['back_4',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md101',1,'']]],
   ['backend_5',['Backend',['../class_acts_1_1_blueprint_builder.html#ab62688a5c2c8328eb5ba0fc216047875',1,'Acts::BlueprintBuilder::Backend'],['../class_acts_1_1_experimental_1_1_blueprint_builder.html#ab62688a5c2c8328eb5ba0fc216047875',1,'Acts::Experimental::BlueprintBuilder::Backend']]],
   ['backend_6',['backend',['../class_acts_1_1_blueprint_builder.html#ad35e72045c107a99d897bc412c6969b6',1,'Acts::BlueprintBuilder::backend()'],['../class_acts_1_1_experimental_1_1_blueprint_builder.html#ad35e72045c107a99d897bc412c6969b6',1,'Acts::Experimental::BlueprintBuilder::backend()'],['../group__eventdata__tracks.html#autotoc_md25',1,'How to build a backend'],['../group__eventdata__tracks.html#autotoc_md27',1,'MultiTrajectory (track state) backend'],['../group__eventdata__tracks.html#autotoc_md24',1,'PODIO backend'],['../group__eventdata__tracks.html#autotoc_md26',1,'TrackContainer backend'],['../group__eventdata__tracks.html#autotoc_md23',1,'Transient vector backend']]],
   ['backends_7',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],

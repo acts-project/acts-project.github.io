@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['layer_20combinatorics_20functions_0',['layer combinatorics functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md112',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md111',1,'The 4-layer combinatorics functions']]],
+  ['layer_20combinatorics_20functions_0',['layer combinatorics functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md117',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md116',1,'The 4-layer combinatorics functions']]],
   ['lcg_20release_20on_20cvmfs_1',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md58',1,'']]],
   ['level_20track_20event_20data_20model_2',['High-level Track Event Data Model',['../group__eventdata__tracks.html#edm_Tracks',1,'']]],
   ['levels_3',['Logging Levels',['../group__logging.html#autotoc_md32',1,'']]],
   ['libraries_20when_20compiling_4',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md72',1,'']]],
   ['lifetime_20management_5',['Lifetime management',['../group__geometry__module__loading.html#autotoc_md10',1,'']]],
-  ['limitations_20you_20should_20know_20about_6',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md103',1,'']]],
+  ['limitations_20you_20should_20know_20about_6',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md108',1,'']]],
   ['link_20gperftools_20libraries_20when_20compiling_7',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md72',1,'']]],
   ['linking_8',['Track state iteration and forward linking',['../group__eventdata__tracks.html#edm_track_iteration',1,'']]],
   ['live_9',['Where the reference files live',['../physmon.html#autotoc_md65',1,'']]],
@@ -20,6 +20,7 @@ var searchData=
   ['logging_20macros_17',['Using Logging Macros',['../group__logging.html#autotoc_md33',1,'']]],
   ['logging_20patterns_18',['Logging Patterns',['../group__logging.html#logging_patterns',1,'']]],
   ['logging_20thresholds_19',['Logging Thresholds',['../group__logging.html#autotoc_md43',1,'']]],
-  ['loss_20',['Energy loss',['../group__kf__material__effects.html#kf-material-eloss',1,'']]],
-  ['loss_20as_20a_20mixture_21',['Bethe–Heitler energy loss as a mixture',['../group__gsf.html#gsf-bethe-heitler',1,'']]]
+  ['look_20',['Where to look',['../examples_geometry_contexts.html#autotoc_md95',1,'']]],
+  ['loss_21',['Energy loss',['../group__kf__material__effects.html#kf-material-eloss',1,'']]],
+  ['loss_20as_20a_20mixture_22',['Bethe–Heitler energy loss as a mixture',['../group__gsf.html#gsf-bethe-heitler',1,'']]]
 ];

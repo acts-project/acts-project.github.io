@@ -24,5 +24,5 @@ var searchData=
   ['from_20scratch_21',['How to create a track from scratch',['../group__eventdata__tracks.html#autotoc_md21',1,'']]],
   ['from_20source_22',['Building from source',['../group__python__bindings.html#autotoc_md45',1,'']]],
   ['function_23',['&lt;span class=&quot;tt&quot;&gt;getDefaultLogger&lt;/span&gt; Factory Function',['../group__logging.html#autotoc_md37',1,'']]],
-  ['functions_24',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md112',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md111',1,'The 4-layer combinatorics functions']]]
+  ['functions_24',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md117',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md116',1,'The 4-layer combinatorics functions']]]
 ];
