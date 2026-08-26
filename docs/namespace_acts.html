@@ -1833,6 +1833,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a086febf882ea487434374ef548a90661a6fc382933a0480bdfa5eb85b743e3018">firstOrLast</a>
  }</td></tr>
 <tr class="memdesc:a086febf882ea487434374ef548a90661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strategy for track extrapolation to target surface.  <a href="#a086febf882ea487434374ef548a90661">More...</a><br /></td></tr>
+<tr class="memitem:ga52148d84844c7850d7239a8e76d18514" id="r_ga52148d84844c7850d7239a8e76d18514"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__errors.html#ga52148d84844c7850d7239a8e76d18514">TrackParamsEstimationError</a> { <a class="el" href="group__errors.html#gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7">TrackParamsEstimationError::NotEnoughSpacePoints</a> = 1
+, <a class="el" href="group__errors.html#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2">TrackParamsEstimationError::DegenerateFit</a>
+ }</td></tr>
+<tr class="memdesc:ga52148d84844c7850d7239a8e76d18514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for the multi-space-point track parameter estimation.  <a href="group__errors.html#ga52148d84844c7850d7239a8e76d18514">More...</a><br /></td></tr>
 <tr class="memitem:a4cc469694ff29fb3f7c7128ad09264a4" id="r_a4cc469694ff29fb3f7c7128ad09264a4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc469694ff29fb3f7c7128ad09264a4">TrackStateFlag</a> { <br />
 &#160;&#160;<a class="el" href="#a4cc469694ff29fb3f7c7128ad09264a4a378bc5ffc9b6aeb75399a803eecc0606">HasMeasurement</a> = 0
 , <a class="el" href="#a4cc469694ff29fb3f7c7128ad09264a4aec34ce78b3e909951ac2be05b24ca2f7">HasParameters</a> = 1
@@ -2094,6 +2098,8 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memitem:ga67660862d76de069256713ffa53f6753" id="r_ga67660862d76de069256713ffa53f6753"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range space_point_range_t&gt; </td></tr>
 <tr class="memitem:ga67660862d76de069256713ffa53f6753 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga67660862d76de069256713ffa53f6753">estimateTrackParamsFromSeed</a> (space_point_range_t spRange, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:ga67660862d76de069256713ffa53f6753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:ga833dfc9801e52f78cf34220ff1b4cc28" id="r_ga833dfc9801e52f78cf34220ff1b4cc28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__est__track__params.html#ga833dfc9801e52f78cf34220ff1b4cc28">estimateTrackParamsFromSpacePoints</a> (std::span&lt; const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; spacePoints, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField, double t0=0, std::size_t geometricRefineIterations=0, std::span&lt; const double &gt; weights={}, std::size_t referenceIndex=0)</td></tr>
+<tr class="memdesc:ga833dfc9801e52f78cf34220ff1b4cc28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from an ordered set of N &gt;= 3 space points.  <br /></td></tr>
 <tr class="memitem:a10e8cfcddde31768275e024c61f03a70" id="r_a10e8cfcddde31768275e024c61f03a70"><td class="memTemplParams" colspan="2">template&lt;typename queries_type, typename expansion_type, std::size_t kDIM&gt; </td></tr>
 <tr class="memitem:a10e8cfcddde31768275e024c61f03a70 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e8cfcddde31768275e024c61f03a70">expand</a> (queries_type &amp;gridQueries, const expansion_type &amp;referenceExpansion)</td></tr>
 <tr class="memdesc:a10e8cfcddde31768275e024c61f03a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to expand the grid queries along a given dimension.  <br /></td></tr>
@@ -2257,6 +2263,8 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memdesc:a59c48d818496d25601d010382d0a0949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create error code from PropagatorError.  <br /></td></tr>
 <tr class="memitem:a4b8e2b066fa956db4b2b5ff5d3bb49cb" id="r_a4b8e2b066fa956db4b2b5ff5d3bb49cb"><td class="memItemLeft" align="right" valign="top">std::error_code&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b8e2b066fa956db4b2b5ff5d3bb49cb">make_error_code</a> (<a class="el" href="group__errors.html#gac32894235c42ab9d5e6bf5c5cd1f6f3d">Acts::SurfaceError</a> e)</td></tr>
 <tr class="memdesc:a4b8e2b066fa956db4b2b5ff5d3bb49cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create error code from SurfaceError.  <br /></td></tr>
+<tr class="memitem:a5494cea28f89c0ab65fe0ee9b90d7ef3" id="r_a5494cea28f89c0ab65fe0ee9b90d7ef3"><td class="memItemLeft" align="right" valign="top">std::error_code&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5494cea28f89c0ab65fe0ee9b90d7ef3">make_error_code</a> (<a class="el" href="group__errors.html#ga52148d84844c7850d7239a8e76d18514">Acts::TrackParamsEstimationError</a> e)</td></tr>
+<tr class="memdesc:a5494cea28f89c0ab65fe0ee9b90d7ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create error code from <a class="el" href="group__errors.html#ga52148d84844c7850d7239a8e76d18514">TrackParamsEstimationError</a>.  <br /></td></tr>
 <tr class="memitem:aa38979d17928758be33bb3b9bbe7471c" id="r_aa38979d17928758be33bb3b9bbe7471c"><td class="memItemLeft" align="right" valign="top">std::error_code&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa38979d17928758be33bb3b9bbe7471c">make_error_code</a> (<a class="el" href="group__errors.html#ga1f61f3856fa7ffded6d06723801cf8e6">Acts::VertexingError</a> e)</td></tr>
 <tr class="memdesc:aa38979d17928758be33bb3b9bbe7471c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create error code from VertexingError.  <br /></td></tr>
 <tr class="memitem:aa056d6844123e85684dfa0a1b8e54ddd" id="r_aa056d6844123e85684dfa0a1b8e54ddd"><td class="memItemLeft" align="right" valign="top">std::error_code&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa056d6844123e85684dfa0a1b8e54ddd">make_error_code</a> (<a class="el" href="group__errors.html#ga21cb0f3d4dc02db3af0291385e70d4e0">EigenStepperError</a> e)</td></tr>
@@ -8397,7 +8405,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a76fa69095a6c107291628ba01d426ddb" name="a76fa69095a6c107291628ba01d426ddb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76fa69095a6c107291628ba01d426ddb">&#9670;&#160;</a></span>make_error_code() <span class="overload">[1/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a76fa69095a6c107291628ba01d426ddb">&#9670;&#160;</a></span>make_error_code() <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8423,7 +8431,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a190c3b5e3ff20dbd35833e207d4f62c1" name="a190c3b5e3ff20dbd35833e207d4f62c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a190c3b5e3ff20dbd35833e207d4f62c1">&#9670;&#160;</a></span>make_error_code() <span class="overload">[2/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a190c3b5e3ff20dbd35833e207d4f62c1">&#9670;&#160;</a></span>make_error_code() <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8449,7 +8457,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a25f5d4485b7a41d484c83c920e320f12" name="a25f5d4485b7a41d484c83c920e320f12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25f5d4485b7a41d484c83c920e320f12">&#9670;&#160;</a></span>make_error_code() <span class="overload">[3/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a25f5d4485b7a41d484c83c920e320f12">&#9670;&#160;</a></span>make_error_code() <span class="overload">[3/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8475,7 +8483,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="ace837699dafcfe04fb90daf56bc45e0c" name="ace837699dafcfe04fb90daf56bc45e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace837699dafcfe04fb90daf56bc45e0c">&#9670;&#160;</a></span>make_error_code() <span class="overload">[4/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ace837699dafcfe04fb90daf56bc45e0c">&#9670;&#160;</a></span>make_error_code() <span class="overload">[4/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8501,7 +8509,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a3326d9e357aef12edb2f49a4ea8bae95" name="a3326d9e357aef12edb2f49a4ea8bae95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3326d9e357aef12edb2f49a4ea8bae95">&#9670;&#160;</a></span>make_error_code() <span class="overload">[5/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3326d9e357aef12edb2f49a4ea8bae95">&#9670;&#160;</a></span>make_error_code() <span class="overload">[5/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8527,7 +8535,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a59c48d818496d25601d010382d0a0949" name="a59c48d818496d25601d010382d0a0949"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59c48d818496d25601d010382d0a0949">&#9670;&#160;</a></span>make_error_code() <span class="overload">[6/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a59c48d818496d25601d010382d0a0949">&#9670;&#160;</a></span>make_error_code() <span class="overload">[6/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8553,7 +8561,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a4b8e2b066fa956db4b2b5ff5d3bb49cb" name="a4b8e2b066fa956db4b2b5ff5d3bb49cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b8e2b066fa956db4b2b5ff5d3bb49cb">&#9670;&#160;</a></span>make_error_code() <span class="overload">[7/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b8e2b066fa956db4b2b5ff5d3bb49cb">&#9670;&#160;</a></span>make_error_code() <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8578,8 +8586,34 @@ template&lt;typename grid_type&gt; </div>
 
 </div>
 </div>
+<a id="a5494cea28f89c0ab65fe0ee9b90d7ef3" name="a5494cea28f89c0ab65fe0ee9b90d7ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5494cea28f89c0ab65fe0ee9b90d7ef3">&#9670;&#160;</a></span>make_error_code() <span class="overload">[8/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::error_code Acts::make_error_code </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__errors.html#ga52148d84844c7850d7239a8e76d18514">Acts::TrackParamsEstimationError</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create error code from <a class="el" href="group__errors.html#ga52148d84844c7850d7239a8e76d18514">TrackParamsEstimationError</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The error code enum value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Standard error code </dd></dl>
+
+</div>
+</div>
 <a id="aa38979d17928758be33bb3b9bbe7471c" name="aa38979d17928758be33bb3b9bbe7471c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa38979d17928758be33bb3b9bbe7471c">&#9670;&#160;</a></span>make_error_code() <span class="overload">[8/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa38979d17928758be33bb3b9bbe7471c">&#9670;&#160;</a></span>make_error_code() <span class="overload">[9/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8605,7 +8639,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="aa056d6844123e85684dfa0a1b8e54ddd" name="aa056d6844123e85684dfa0a1b8e54ddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa056d6844123e85684dfa0a1b8e54ddd">&#9670;&#160;</a></span>make_error_code() <span class="overload">[9/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa056d6844123e85684dfa0a1b8e54ddd">&#9670;&#160;</a></span>make_error_code() <span class="overload">[10/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8631,7 +8665,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a4a880fdaf6088e3efa05b6c61fab3874" name="a4a880fdaf6088e3efa05b6c61fab3874"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a880fdaf6088e3efa05b6c61fab3874">&#9670;&#160;</a></span>make_error_code() <span class="overload">[10/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a880fdaf6088e3efa05b6c61fab3874">&#9670;&#160;</a></span>make_error_code() <span class="overload">[11/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8657,7 +8691,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="a011628b4fe22e244f04ee152403c6d5f" name="a011628b4fe22e244f04ee152403c6d5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a011628b4fe22e244f04ee152403c6d5f">&#9670;&#160;</a></span>make_error_code() <span class="overload">[11/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a011628b4fe22e244f04ee152403c6d5f">&#9670;&#160;</a></span>make_error_code() <span class="overload">[12/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8683,7 +8717,7 @@ template&lt;typename grid_type&gt; </div>
 </div>
 </div>
 <a id="aa5667ec3badff6cf983c82c9c9ba533e" name="aa5667ec3badff6cf983c82c9c9ba533e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5667ec3badff6cf983c82c9c9ba533e">&#9670;&#160;</a></span>make_error_code() <span class="overload">[12/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5667ec3badff6cf983c82c9c9ba533e">&#9670;&#160;</a></span>make_error_code() <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

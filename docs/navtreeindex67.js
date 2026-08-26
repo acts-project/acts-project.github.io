@@ -1,5 +1,10 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_surface_mask.html":[8,0,1,38],
+"struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[6,0,2,37,5],
+"struct_acts_fatras_1_1_surface_mask.html#a4c3327c6dc691bc941fbecfaa7300d3a":[8,0,1,38,5],
+"struct_acts_fatras_1_1_surface_mask.html#a503f2d3a6636cab0cffcf97e27eb16e6":[6,0,2,37,2],
+"struct_acts_fatras_1_1_surface_mask.html#a503f2d3a6636cab0cffcf97e27eb16e6":[8,0,1,38,2],
 "struct_acts_fatras_1_1_surface_mask.html#a535e31145ae0364ff33e020004196a2a":[6,0,2,37,4],
 "struct_acts_fatras_1_1_surface_mask.html#a535e31145ae0364ff33e020004196a2a":[8,0,1,38,4],
 "struct_acts_fatras_1_1_surface_mask.html#a58158bb1c8cba0f89af4d10f00da7926":[6,0,2,37,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_plugins_1_1_pipeline_tensors.html#aa1eb3257c5ca1a5bb5219c8f83053b2c":[5,10,6,14,2],
 "struct_acts_plugins_1_1_pipeline_tensors.html#ac6357736cc792db22f00eecd8f84c9fc":[5,10,6,14,1],
 "struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[6,0,3,51,0],
-"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[8,0,2,56,0],
-"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html#a452b150140f3984f27c1b4aba9906a33":[6,0,3,51,0,0],
-"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html#a452b150140f3984f27c1b4aba9906a33":[8,0,2,56,0,0],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html":[5,10,12,3,0],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a1758501a0f328604ac45ac422556c4fb":[5,10,12,3,0,11],
-"struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#a26470a56dc521da5f3732b0f810c010b":[5,10,12,3,0,1]
+"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[8,0,2,56,0]
 };

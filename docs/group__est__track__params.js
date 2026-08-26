@@ -12,5 +12,6 @@ var group__est__track__params =
     [ "Acts::estimateTrackParamsFromSeed", "group__est__track__params.html#gaf5ba6469603e611d8a0171c51662809d", null ],
     [ "Acts::estimateTrackParamsFromSeed", "group__est__track__params.html#gaf38513640e42e706177f3812515d1b62", null ],
     [ "Acts::estimateTrackParamsFromSeed", "group__est__track__params.html#gaec5fbdcb40c41ce4ce601b25a6642571", null ],
-    [ "Acts::estimateTrackParamsFromSeed", "group__est__track__params.html#ga67660862d76de069256713ffa53f6753", null ]
+    [ "Acts::estimateTrackParamsFromSeed", "group__est__track__params.html#ga67660862d76de069256713ffa53f6753", null ],
+    [ "Acts::estimateTrackParamsFromSpacePoints", "group__est__track__params.html#ga833dfc9801e52f78cf34220ff1b4cc28", null ]
 ];

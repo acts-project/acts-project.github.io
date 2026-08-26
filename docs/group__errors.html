@@ -289,6 +289,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga6a0e61fbedc5e6713e2830a03af01032a01e340a582a939ceb8a9e86cf879b029">Acts::TrackExtrapolationError::ReferenceSurfaceUnreachable</a> = 2
  }</td></tr>
 <tr class="memdesc:ga6a0e61fbedc5e6713e2830a03af01032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for track extrapolation operations.  <a href="#ga6a0e61fbedc5e6713e2830a03af01032">More...</a><br /></td></tr>
+<tr class="memitem:ga52148d84844c7850d7239a8e76d18514" id="r_ga52148d84844c7850d7239a8e76d18514"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52148d84844c7850d7239a8e76d18514">Acts::TrackParamsEstimationError</a> { <a class="el" href="#gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7">Acts::TrackParamsEstimationError::NotEnoughSpacePoints</a> = 1
+, <a class="el" href="#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2">Acts::TrackParamsEstimationError::DegenerateFit</a>
+ }</td></tr>
+<tr class="memdesc:ga52148d84844c7850d7239a8e76d18514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes for the multi-space-point track parameter estimation.  <a href="#ga52148d84844c7850d7239a8e76d18514">More...</a><br /></td></tr>
 <tr class="memitem:ga1f61f3856fa7ffded6d06723801cf8e6" id="r_ga1f61f3856fa7ffded6d06723801cf8e6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1f61f3856fa7ffded6d06723801cf8e6">Acts::VertexingError</a> { <br />
 &#160;&#160;<a class="el" href="#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93">Acts::VertexingError::NumericFailure</a> = 1
 , <a class="el" href="#gga1f61f3856fa7ffded6d06723801cf8e6ace1e7d82baa32665deec88097ce70f3e">Acts::VertexingError::EmptyInput</a>
@@ -807,6 +811,36 @@ Enumerations</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga6a0e61fbedc5e6713e2830a03af01032ab6bd1ff221b63b4603c92c095bfd0339" name="gga6a0e61fbedc5e6713e2830a03af01032ab6bd1ff221b63b4603c92c095bfd0339"></a>CompatibleTrackStateNotFound&#160;</td><td class="fielddoc"><p>Did not find a compatible track state. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga6a0e61fbedc5e6713e2830a03af01032a01e340a582a939ceb8a9e86cf879b029" name="gga6a0e61fbedc5e6713e2830a03af01032a01e340a582a939ceb8a9e86cf879b029"></a>ReferenceSurfaceUnreachable&#160;</td><td class="fielddoc"><p>Provided reference surface is unreachable. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga52148d84844c7850d7239a8e76d18514" name="ga52148d84844c7850d7239a8e76d18514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52148d84844c7850d7239a8e76d18514">&#9670;&#160;</a></span>TrackParamsEstimationError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ga52148d84844c7850d7239a8e76d18514">Acts::TrackParamsEstimationError</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Error codes for the multi-space-point track parameter estimation. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7" name="gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7"></a>NotEnoughSpacePoints&#160;</td><td class="fielddoc"><p>Fewer than three space points were provided. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2" name="gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2"></a>DegenerateFit&#160;</td><td class="fielddoc"><p>The fit is degenerate (e.g. all space points coincide). </p>
 </td></tr>
 </table>
 

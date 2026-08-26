@@ -87,6 +87,10 @@ var group__errors =
       [ "Acts::TrackExtrapolationError::CompatibleTrackStateNotFound", "group__errors.html#gga6a0e61fbedc5e6713e2830a03af01032ab6bd1ff221b63b4603c92c095bfd0339", null ],
       [ "Acts::TrackExtrapolationError::ReferenceSurfaceUnreachable", "group__errors.html#gga6a0e61fbedc5e6713e2830a03af01032a01e340a582a939ceb8a9e86cf879b029", null ]
     ] ],
+    [ "Acts::TrackParamsEstimationError", "group__errors.html#ga52148d84844c7850d7239a8e76d18514", [
+      [ "Acts::TrackParamsEstimationError::NotEnoughSpacePoints", "group__errors.html#gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7", null ],
+      [ "Acts::TrackParamsEstimationError::DegenerateFit", "group__errors.html#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2", null ]
+    ] ],
     [ "Acts::VertexingError", "group__errors.html#ga1f61f3856fa7ffded6d06723801cf8e6", [
       [ "Acts::VertexingError::NumericFailure", "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93", null ],
       [ "Acts::VertexingError::EmptyInput", "group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6ace1e7d82baa32665deec88097ce70f3e", null ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_linearized_track.html#afe8fed78296d3fdbe2293ab0d5368007":[8,0,0,260,4],
+"struct_acts_1_1_material_interaction.html":[6,0,0,263],
+"struct_acts_1_1_material_interaction.html":[8,0,0,269],
+"struct_acts_1_1_material_interaction.html#a15ddb233f2f528ac86a24882e67154ce":[6,0,0,263,5],
+"struct_acts_1_1_material_interaction.html#a15ddb233f2f528ac86a24882e67154ce":[8,0,0,269,5],
 "struct_acts_1_1_material_interaction.html#a27ff9a1899bc23928c65edf8b521bd22":[6,0,0,263,8],
 "struct_acts_1_1_material_interaction.html#a27ff9a1899bc23928c65edf8b521bd22":[8,0,0,269,8],
 "struct_acts_1_1_material_interaction.html#a3b386e2f907fbfb10840e562dc5eceea":[6,0,0,263,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_navigator_1_1_config.html#af1c046cc36229b6d9cea735b4e6d66e5":[8,0,0,307,0,1],
 "struct_acts_1_1_navigator_1_1_options.html":[6,0,0,301,1],
 "struct_acts_1_1_navigator_1_1_options.html":[8,0,0,307,1],
-"struct_acts_1_1_navigator_1_1_options.html#adce0b4dee78b8acb61aec6155ec6f928":[6,0,0,301,1,1],
-"struct_acts_1_1_navigator_1_1_options.html#adce0b4dee78b8acb61aec6155ec6f928":[8,0,0,307,1,1],
-"struct_acts_1_1_navigator_1_1_options.html#afd1f92c66c08addc64cd839ff73200ad":[6,0,0,301,1,0],
-"struct_acts_1_1_navigator_1_1_options.html#afd1f92c66c08addc64cd839ff73200ad":[8,0,0,307,1,0],
-"struct_acts_1_1_navigator_1_1_state.html":[6,0,0,301,2],
-"struct_acts_1_1_navigator_1_1_state.html":[8,0,0,307,2]
+"struct_acts_1_1_navigator_1_1_options.html#adce0b4dee78b8acb61aec6155ec6f928":[6,0,0,301,1,1]
 };

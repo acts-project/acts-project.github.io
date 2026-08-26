@@ -151,6 +151,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga67660862d76de069256713ffa53f6753" id="r_ga67660862d76de069256713ffa53f6753"><td class="memTemplParams" colspan="2">template&lt;std::ranges::range space_point_range_t&gt; </td></tr>
 <tr class="memitem:ga67660862d76de069256713ffa53f6753 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67660862d76de069256713ffa53f6753">Acts::estimateTrackParamsFromSeed</a> (space_point_range_t spRange, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField)</td></tr>
 <tr class="memdesc:ga67660862d76de069256713ffa53f6753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from three space points.  <br /></td></tr>
+<tr class="memitem:ga833dfc9801e52f78cf34220ff1b4cc28" id="r_ga833dfc9801e52f78cf34220ff1b4cc28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga833dfc9801e52f78cf34220ff1b4cc28">Acts::estimateTrackParamsFromSpacePoints</a> (std::span&lt; const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; spacePoints, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;bField, double t0=0, std::size_t geometricRefineIterations=0, std::span&lt; const double &gt; weights={}, std::size_t referenceIndex=0)</td></tr>
+<tr class="memdesc:ga833dfc9801e52f78cf34220ff1b4cc28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate free track parameters from an ordered set of N &gt;= 3 space points.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ga41ce01de709daded7eca97fac1268093" name="ga41ce01de709daded7eca97fac1268093"></a>
@@ -454,6 +456,65 @@ template&lt;std::ranges::range space_point_range_t&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the free parameters </dd></dl>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000044">Deprecated</a></b></dt><dd>The broadly templated versions of estimateTrackParamsFromSeed will be removed in the future. </dd></dl>
+
+</div>
+</div>
+<a id="ga833dfc9801e52f78cf34220ff1b4cc28" name="ga833dfc9801e52f78cf34220ff1b4cc28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga833dfc9801e52f78cf34220ff1b4cc28">&#9670;&#160;</a></span>estimateTrackParamsFromSpacePoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &gt; Acts::estimateTrackParamsFromSpacePoints </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>spacePoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bField</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t0</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>geometricRefineIterations</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::span&lt; const double &gt;</td>          <td class="paramname"><span class="paramname"><em>weights</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>referenceIndex</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Estimate free track parameters from an ordered set of N &gt;= 3 space points. </p>
+<p>Least-squares generalization of <a class="el" href="#gaf38513640e42e706177f3812515d1b62">estimateTrackParamsFromSeed</a>. A Taubin circle fit transverse to the field, optionally refined geometrically, and a linear fit of the field coordinate against the transverse arc length. Points are taken in track order and are not sorted.</p>
+<p>The parameters are expressed at <span class="tt">spacePoints[referenceIndex]</span>, by default the first one. The fit itself does not depend on that choice: every point contributes to the same helix, and the reference only selects where it is evaluated. Reporting at a point deeper in the detector lets a downstream track finder start where the hit density, and with it the combinatorics, is lower, at the cost of a longer extrapolation back to the beam line.</p>
+<p>A vanishing curvature degenerates to a line and only the direction is estimated. Without a field q/p stays zero.</p>
+<p>Weights are relative (e.g. inverse-variance) factors on every fit stage. An empty span means uniform, a non-empty one must match <span class="tt">spacePoints</span> in size.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacePoints</td><td>the ordered global space point positions </td></tr>
+    <tr><td class="paramname">bField</td><td>the homogeneous magnetic field vector </td></tr>
+    <tr><td class="paramname">t0</td><td>the time assigned to the reference point (eFreeTime) </td></tr>
+    <tr><td class="paramname">geometricRefineIterations</td><td>number of Gauss-Newton refinement iterations on top of the algebraic circle fit (0 disables it) </td></tr>
+    <tr><td class="paramname">weights</td><td>optional per-point weights for all fit stages (empty span = uniform) </td></tr>
+    <tr><td class="paramname">referenceIndex</td><td>index of the space point the parameters are expressed at; must be a valid index into <span class="tt">spacePoints</span> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the free parameters at the reference point, or an error </dd></dl>
 
 </div>
 </div>

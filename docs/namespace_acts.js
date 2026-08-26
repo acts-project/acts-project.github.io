@@ -849,6 +849,10 @@ var namespace_acts =
       [ "last", "namespace_acts.html#a086febf882ea487434374ef548a90661a98bd1c45684cf587ac2347a92dd7bb51", null ],
       [ "firstOrLast", "namespace_acts.html#a086febf882ea487434374ef548a90661a6fc382933a0480bdfa5eb85b743e3018", null ]
     ] ],
+    [ "TrackParamsEstimationError", "group__errors.html#ga52148d84844c7850d7239a8e76d18514", [
+      [ "NotEnoughSpacePoints", "group__errors.html#gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7", null ],
+      [ "DegenerateFit", "group__errors.html#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2", null ]
+    ] ],
     [ "TrackStateFlag", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4", [
       [ "HasMeasurement", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a378bc5ffc9b6aeb75399a803eecc0606", null ],
       [ "HasParameters", "namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4aec34ce78b3e909951ac2be05b24ca2f7", null ],
@@ -971,6 +975,7 @@ var namespace_acts =
     [ "estimateTrackParamsFromSeed", "group__est__track__params.html#gaf38513640e42e706177f3812515d1b62", null ],
     [ "estimateTrackParamsFromSeed", "group__est__track__params.html#gaec5fbdcb40c41ce4ce601b25a6642571", null ],
     [ "estimateTrackParamsFromSeed", "group__est__track__params.html#ga67660862d76de069256713ffa53f6753", null ],
+    [ "estimateTrackParamsFromSpacePoints", "group__est__track__params.html#ga833dfc9801e52f78cf34220ff1b4cc28", null ],
     [ "expand", "namespace_acts.html#a10e8cfcddde31768275e024c61f03a70", null ],
     [ "extractNucleusZandA", "namespace_acts.html#a850ecde5129afaabb5d4a8e71499f6cc", null ],
     [ "extrapolateTracksToReferenceSurface", "namespace_acts.html#a853dda101669b4f6ffbe29119b1a9ef6", null ],
@@ -1040,6 +1045,7 @@ var namespace_acts =
     [ "make_error_code", "namespace_acts.html#a3326d9e357aef12edb2f49a4ea8bae95", null ],
     [ "make_error_code", "namespace_acts.html#a59c48d818496d25601d010382d0a0949", null ],
     [ "make_error_code", "namespace_acts.html#a4b8e2b066fa956db4b2b5ff5d3bb49cb", null ],
+    [ "make_error_code", "namespace_acts.html#a5494cea28f89c0ab65fe0ee9b90d7ef3", null ],
     [ "make_error_code", "namespace_acts.html#aa38979d17928758be33bb3b9bbe7471c", null ],
     [ "make_error_code", "namespace_acts.html#aa056d6844123e85684dfa0a1b8e54ddd", null ],
     [ "make_error_code", "namespace_acts.html#a4a880fdaf6088e3efa05b6c61fab3874", null ],

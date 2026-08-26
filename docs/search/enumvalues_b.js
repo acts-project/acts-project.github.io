@@ -13,10 +13,11 @@ var searchData=
   ['nostartvolume_10',['NoStartVolume',['../group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19aeae409a43853a45ed4b8c5b4930836a2',1,'Acts']]],
   ['notconverged_11',['NotConverged',['../group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6adbbde5ea220b09db210c62e8926a02c5',1,'Acts']]],
   ['notenoughmeasurements_12',['NotEnoughMeasurements',['../group__errors.html#gga743e4af777584b0f5274baa245f128d2a8db59ff9cd9fb040b09744480e74f82d',1,'Acts::Experimental']]],
-  ['notimplemented_13',['NotImplemented',['../group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a997ca4ce119685f40f03a9a8a6c5346e',1,'Acts']]],
-  ['notinsideexpectedvolume_14',['NotInsideExpectedVolume',['../group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120',1,'Acts']]],
-  ['notonexpectedsurface_15',['NotOnExpectedSurface',['../group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a',1,'Acts']]],
-  ['nowrapping_16',['NoWrapping',['../namespace_acts.html#ac067c47704bdb1b88dd0c21c0e8fd8c2a8d9c18bc517435f25750e460525b60e7',1,'Acts']]],
-  ['numericfailure_17',['NumericFailure',['../group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93',1,'Acts']]],
-  ['numflags_18',['NumFlags',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a8930fc61ddc873c5a81bfb1b5a236849',1,'Acts']]]
+  ['notenoughspacepoints_13',['NotEnoughSpacePoints',['../group__errors.html#gga52148d84844c7850d7239a8e76d18514a82255a4834b3e563dd9c482e0e2fd4d7',1,'Acts']]],
+  ['notimplemented_14',['NotImplemented',['../group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a997ca4ce119685f40f03a9a8a6c5346e',1,'Acts']]],
+  ['notinsideexpectedvolume_15',['NotInsideExpectedVolume',['../group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a77fd0ff5599a44c8cd17ffb15f2de120',1,'Acts']]],
+  ['notonexpectedsurface_16',['NotOnExpectedSurface',['../group__errors.html#gga2cc876d4889b5c6656ed7d5e0c1fca19a7d447f6eb40d640d8d86a78220a2c96a',1,'Acts']]],
+  ['nowrapping_17',['NoWrapping',['../namespace_acts.html#ac067c47704bdb1b88dd0c21c0e8fd8c2a8d9c18bc517435f25750e460525b60e7',1,'Acts']]],
+  ['numericfailure_18',['NumericFailure',['../group__errors.html#gga1f61f3856fa7ffded6d06723801cf8e6a86ee367cb35b917fcebcb19bbfe6bf93',1,'Acts']]],
+  ['numflags_19',['NumFlags',['../namespace_acts.html#a4cc469694ff29fb3f7c7128ad09264a4a8930fc61ddc873c5a81bfb1b5a236849',1,'Acts']]]
 ];
