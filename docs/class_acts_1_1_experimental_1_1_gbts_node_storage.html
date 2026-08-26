@@ -145,9 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f5a6c8b9cab9970b499d6163cfe9335" id="r_a9f5a6c8b9cab9970b499d6163cfe9335"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f5a6c8b9cab9970b499d6163cfe9335">insert</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;sp, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; std::uint32_t &gt; &amp;layerColumn, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; float &gt; &amp;clusterWidthColumn, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; float &gt; &amp;localPositionYColumn)</td></tr>
 <tr class="memdesc:a9f5a6c8b9cab9970b499d6163cfe9335"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point from an ACTS space point container.  <br /></td></tr>
 <tr class="memitem:ade87c84da00f2c1ea4ecd033b89502aa" id="r_ade87c84da00f2c1ea4ecd033b89502aa"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade87c84da00f2c1ea4ecd033b89502aa">insert</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, float x, float y, float z, float r, float phi, std::uint32_t layerIndex, float clusterWidth=0.f, float localPositionY=0.f)</td></tr>
-<tr class="memdesc:ade87c84da00f2c1ea4ecd033b89502aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point for callers that already have r and phi.  <br /></td></tr>
+<tr class="memdesc:ade87c84da00f2c1ea4ecd033b89502aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">[gbts insert]  <br /></td></tr>
 <tr class="memitem:a316764f89ecabf359e611198b85f0df6" id="r_a316764f89ecabf359e611198b85f0df6"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a316764f89ecabf359e611198b85f0df6">insert</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, float x, float y, float z, std::uint32_t layerIndex, float clusterWidth=0.f, float localPositionY=0.f)</td></tr>
-<tr class="memdesc:a316764f89ecabf359e611198b85f0df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point, deriving r and phi from the global position.  <br /></td></tr>
 <tr class="memitem:ac7f8ddfa8c6c9c645c2406da021c22d9" id="r_ac7f8ddfa8c6c9c645c2406da021c22d9"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f8ddfa8c6c9c645c2406da021c22d9">numberOfNodes</a> () const</td></tr>
 <tr class="memdesc:ac7f8ddfa8c6c9c645c2406da021c22d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of nodes.  <br /></td></tr>
 <tr class="memitem:a454263fc57184a6bc6337145af9fd53e" id="r_a454263fc57184a6bc6337145af9fd53e"><td class="memItemLeft" align="right" valign="top"><a id="a454263fc57184a6bc6337145af9fd53e" name="a454263fc57184a6bc6337145af9fd53e"></a>
@@ -320,8 +319,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Insert a space point for callers that already have r and phi. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>[gbts insert] </p>
+<p>Insert a space point for callers that already have r and phi. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>Index of the space point in the caller's own collection </td></tr>
     <tr><td class="paramname">x</td><td>Global x coordinate </td></tr>
@@ -382,9 +381,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Insert a space point, deriving r and phi from the global position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>[gbts insert] Insert a space point, deriving r and phi from the global position. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>Index of the space point in the caller's own collection </td></tr>
     <tr><td class="paramname">x</td><td>Global x coordinate </td></tr>

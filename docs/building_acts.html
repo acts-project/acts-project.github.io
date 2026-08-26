@@ -125,7 +125,7 @@ $(function(){initNavTree('building_acts.html','',''); });
   <div class="headertitle"><div class="title">Building ACTS </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md57"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
 Quick start</h1>
 <p>ACTS is developed in C++ and is built using <a href="https://cmake.org">CMake</a>. Building the core library requires a C++20 compatible compiler, <a href="https://www.boost.org">Boost</a>, and <a href="https://eigen.tuxfamily.org">Eigen</a>. The following commands will clone the repository, configure, and build the core library:</p>
 <div class="fragment"><div class="line">git clone https://github.com/acts-project/acts &lt;source&gt;</div>
@@ -171,7 +171,7 @@ Building ACTS</h1>
 </div><!-- fragment --><p>This automatically calls the configure build tool, e.g. Make or Ninja. To build only a specific target, the target names has to be separated from the CMake options by <span class="tt">--</span>, i.e.</p>
 <div class="fragment"><div class="line">cmake --build &lt;build&gt; -- ActsFatras # to build the Fatras library</div>
 </div><!-- fragment --><p>The build commands are the same regardless of where you are building the software. Depending on your build environment, there are different ways how to make the dependencies available.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
 With a LCG release on CVMFS</h2>
 <p>If you have access to a machine running <a href="https://cernvm.cern.ch/fs/">CVMFS</a>, e.g. CERNs lxplus login machines, the dependencies can be easily satisfied via an LCG releases available through CVMFS. Source the cvmfs setup script provided by the machine. It is suggested to select a recent <span class="tt">&lt;lcg_release&gt;</span> and <span class="tt">&lt;lcg_platform&gt;</span> combination. (Have a look at the CI jobs to get an overview on what we are currently testing):</p>
 <p>Current LCG/compiler combinations covered in CI are:</p>
@@ -182,7 +182,7 @@ With a LCG release on CVMFS</h2>
 </ul>
 <div class="fragment"><div class="line">source /cvmfs/sft.cern.ch/lcg/views/&lt;lcg_release&gt;/&lt;lcg_platform&gt;/setup.sh</div>
 </div><!-- fragment --><p>After sourcing the setup script, you can build ACTS as described above.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
 In a container</h2>
 <p>A set of container images is available through the <a href="https://github.com/acts-project/ci-dependencies/pkgs/container/spack-container">ACTS container registry</a>. These images are built using the configuration that is used in CI, and they contain all the dependencies required to build ACTS.</p>
 <dl class="section note"><dt>Note</dt><dd>Most containers are only build for the <span class="tt">x86_64</span> platform. If you are on an <span class="tt">aarch64</span> (such as a recent Mac), you'll need to use the <span class="tt">ubuntu2404</span> container, which is built for <span class="tt">aarch64</span> and <span class="tt">x86_64</span>!</dd></dl>
@@ -204,10 +204,10 @@ In a container</h2>
 </div><!-- fragment --><p>Building ACTS follows the instructions above with <span class="tt">/acts</span> as the source directory, e.g.</p>
 <div class="fragment"><div class="line">container $ cmake -B build -S /acts -DACTS_BUILD_FATRAS=on</div>
 <div class="line">container $ cmake --build build</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
 On your local machine</h2>
 <p>Building and running ACTS on your local machine is not officially supported. However, if you have the necessary prerequisites installed it is possible to use it locally. ACTS developers regularly use different Linux distributions and macOS to build and develop ACTS. It is possible to use Spack to more easily install ACTS' dependencies; see the <a class="el" href="howto_spack.html">building with Spack</a> page for more information.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
 Building the documentation</h1>
 <p>The documentation is built using <a href="https://doxygen.nl/">Doxygen</a>, which extracts the source code documentation and generates the HTML website. The build uses the <a href="https://github.com/jothepro/doxygen-awesome-css">doxygen-awesome-css</a> theme for styling.</p>
 <p>To build the documentation locally, you need:</p>
@@ -528,7 +528,7 @@ runtime check of the log level.<br  />
 <td class="markdownTableBodyNone">Pythia8_DIR  </td><td class="markdownTableBodyNone">Search path for the Pythia8 installation  </td></tr>
 </table>
 <dl class="section remark"><dt>Remarks</dt><dd>Even though these individual environment variables can be used to make CMake locate dependency, it is usually preferable to use <span class="tt">CMAKE_PREFIX_PATH</span> to point to the root installation directory of the dependencies.</dd></dl>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md63"></a>
 The OpenDataDetector</h1>
 <div class="image">
 <img src="odd_render.jpg" alt="" width="66%"/>
@@ -567,7 +567,7 @@ Source packages with pre-generated code</h1>
 </div><!-- fragment --><dl class="section important"><dt>Important</dt><dd>A release has <b>two</b> source archives, and only one of them carries the generated code. The archive attached to the release as an asset does; the archive GitHub generates automatically for the tag (<span class="tt">.../archive/refs/tags/vX.Y.Z.tar.gz</span>) does not, and cannot be made to. Packaging recipes that want the offline build have to point at the release asset. Building from the auto-generated archive still works — it just falls back to running the generators, and with them the downloads.</dd></dl>
 <p>Two <a class="el" href="#build-options">build options</a> steer this on the consuming side. <span class="tt">ACTS_CODEGEN_PREBUILT_DIR</span> points at a directory of pre-generated code explicitly, and <span class="tt">ACTS_CODEGEN_REQUIRE_PREBUILT</span> decides what happens when a generated file is not covered by it.</p>
 <p>Generated files that have no counterpart in the pre-generated directory are generated as usual, and CMake warns about each one. Since that warning is easy to miss in a long configure log, a build that must not reach the network should set <span class="tt">ACTS_CODEGEN_REQUIRE_PREBUILT=ON</span>, which turns every such fallback — and the case of no pre-generated code at all — into a hard error. This is the recommended setting for packaging recipes: it fails loudly when the wrong archive was used, rather than silently taking the slow path.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md63"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
 Using ACTS in downstream code</h1>
 <p>When using ACTS in your own CMake-based project, you need to include the following lines in your <span class="tt">CMakeLists.txt</span> file:</p>
 <div class="fragment"><div class="line">find_package (Acts COMPONENTS comp1 comp2 ...)</div>

@@ -128,15 +128,15 @@ $(function(){initNavTree('group__sympy__codegen.html','',''); });
 <p>How the <a class="el" href="class_acts_1_1_sympy_stepper.html">Acts::SympyStepper</a> kernels are derived with sympy, and the ATLAS-form arrangement they use. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>This page is about how the stepping kernels are <em>produced</em>. For the stepper interface and the rest of the propagation machinery see <a class="el" href="group__propagation.html">Propagation</a>.</dd></dl>
 <p>The <a class="el" href="class_acts_1_1_sympy_stepper.html">Acts::SympyStepper</a> does not contain a hand-written Runge-Kutta step. Its two inner kernels — <span class="tt">rk4_vacuum</span> and <span class="tt">rk4_dense</span> — are emitted at build time by <span class="tt">Core/src/Propagator/generate_sympy_stepper.py</span>, which derives them symbolically with <a href="https://www.sympy.org">sympy</a> and prints them as C++.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
 Why generate them</h2>
 <p>A Runge-Kutta stepper has to produce two things per step: the new track state, and the Jacobian of that state with respect to the old one. The second is simply the derivative of the first, but written by hand the two drift apart — a term added to the value path is easy to forget in the derivative path, and the resulting bug is a covariance that is quietly a few percent wrong rather than a test that fails.</p>
 <p>Deriving the kernel symbolically removes that failure mode. The generator states the equations of motion once, applies the Runge-Kutta recursion to them, and lets sympy differentiate <em>the expressions that are actually evaluated</em>. Structural zeros, constant folding and — where it pays — common-subexpression elimination then happen on the symbolic form, before a single line of C++ exists.</p>
 <p>The same machinery generates the bound/free Jacobian helpers (<span class="tt">generate_sympy_jac.py</span>) and the covariance transport (<span class="tt">generate_sympy_cov.py</span>); the printer and the symbolic helpers they share live in the <span class="tt">codegen</span> package at the repository root, which is also used by the <a href="https://github.com/acts-project/detray">detray</a> backend.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
 How the build wires it up</h2>
 <p><span class="tt">cmake/ActsCodegen.cmake</span> runs each generator through <span class="tt">uv</span> into a throw-away environment pinned by <span class="tt">codegen/requirements.txt</span>, so a build never depends on the ambient Python. <span class="tt">codegen/manifest.json</span> is the single place that records which generator produces which header; releases ship the generated files pre-built, and a build fully covered by them never invokes Python at all.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
 The equations of motion</h2>
 <p>With \(\vec r\) the position, \(\vec T\) the unit direction, \(\lambda = q/p\), and \(s\) the path length, the vacuum kernel integrates</p>
 <p class="formulaDsp">
@@ -155,7 +155,7 @@ The equations of motion</h2>
 \]
 </p>
 <p>with \(g\) the mean energy loss per unit path length <a class="el" href="citelist.html#CITEREF_lund:2008ad">[9]</a>. Because \(\lambda\) now enters every stage, the dense kernel cannot use the pre-scaled arrangement below and builds the step Jacobian explicitly instead.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md54"></a>
 The ATLAS arrangement</h2>
 <p>The vacuum kernel does not evaluate the plain Runge-Kutta slopes \(\vec k_i\). It follows the arrangement of the ATLAS <span class="tt">RungeKuttaPropagator</span> — which <a class="el" href="class_acts_1_1_atlas_stepper.html">Acts::AtlasStepper</a> transcribes directly — and carries a <b>half-step bend vector</b> at each of the three field samples:</p>
 <p class="formulaDsp">
@@ -189,11 +189,11 @@ The ATLAS arrangement</h2>
 \]
 </p>
 <dl class="section note"><dt>Note</dt><dd>ATLAS also replaces the direction normalisation \(1/\|3\vec T&#39;_{\text{un}}\|\) by a Taylor expansion around \(3\), avoiding a square root and a division. The generator can emit that form (<span class="tt">taylor_norm=True</span>), but it is off: it trades the root for several multiplications on a chain that is not the binding one, and measured neutral to slower.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md54"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
 Transporting the Jacobian</h2>
 <p>The kernel is handed the bound-to-free Jacobian \(M\) (8 rows of free parameters, 6 columns of bound ones) and updates it in place. It never forms the 8×8 free-to-free step Jacobian \(D\) and multiplies. Instead each live column of \(M\) is pushed through <em>the same recursion as the state</em>, which is why the tangent block mirrors the value block line for line — exactly as ATLAS' <span class="tt">d2A</span>/<span class="tt">d3A</span>/<span class="tt">d4A</span> block mirrors its <span class="tt">A0</span>..<span class="tt">A6</span> block. Only three columns move ( \(\phi\), \(\theta\), \(q/p\)); the rest are structurally constant across a step and are declared as such in one table in the generator.</p>
 <p>The \(q/p\) column is stored scaled by \(\lambda\) (ATLAS' <span class="tt">pVector[40]</span> convention). Because \(\vec H\) is linear in \(\lambda\), that scaling turns the term the column picks up from the field's own \(\lambda\) dependence into a stage quantity that is already computed, rather than a fresh cross product. That identity is the one step of the recursion that is not a plain application of the chain rule, so the generator resolves it back to closed form and compares it against the chain rule before emitting it (<span class="tt">Derivation.check_same</span>).</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
 Naming</h2>
 <p>The kernels were originally transcribed with ATLAS' variable names, which are positional rather than descriptive and are not defined in any published note — they are Athena source convention. The generator now uses names that say what the quantity is. The correspondence, for anyone reading the two side by side:</p>
 <table class="markdownTable">
@@ -233,7 +233,7 @@ Naming</h2>
 <td class="markdownTableBodyNone"><span class="tt">dEds</span>, <span class="tt">dEds1..4</span>  </td><td class="markdownTableBodyNone">—  </td><td class="markdownTableBodyNone">energy loss per unit path, per stage (<a class="el" href="class_acts_1_1_atlas_stepper.html">Acts::AtlasStepper</a> has no material)  </td></tr>
 </table>
 <p>Two things the rename fixes rather than preserves. ATLAS numbers its bend vectors <span class="tt">H0</span>..<span class="tt">H2</span> against field samples <span class="tt">B1</span>..<span class="tt">B3</span>; here both are numbered <span class="tt">1..3</span>. And the <span class="tt">A</span>-family index is not a stage index — <span class="tt">A1</span> is used <em>after</em> <span class="tt">A2</span> — whereas <span class="tt">kick1</span>/<span class="tt">dir2</span>/<span class="tt">dir3</span>/<span class="tt">dir4</span>/<span class="tt">dir_end</span>/<span class="tt">kick4</span> say which stage each belongs to.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md57"></a>
 References</h2>
 <p>The Runge-Kutta-Nyström track model and the semi-analytic transport of the derivatives alongside the trajectory come from <a class="el" href="citelist.html#CITEREF_bugge:1981">[2]</a>. Adaptive Runge-Kutta-Nyström step control and error estimation in ATLAS are studied in <a class="el" href="citelist.html#CITEREF_lund:2009">[10]</a>, and the extrapolation package the <span class="tt">RungeKuttaPropagator</span> belongs to is described in <a class="el" href="citelist.html#CITEREF_salzburger:2007">[12]</a>.</p>
 <p>None of these notes define the variable names the Athena implementation uses — they are source convention, and the table above is the only written record of what they mean. </p>

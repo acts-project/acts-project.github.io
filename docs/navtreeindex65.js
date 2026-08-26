@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[6,0,0,445,2,1],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[8,0,0,451,2,1],
 "struct_acts_1_1_volume_collector.html":[6,0,0,448],
 "struct_acts_1_1_volume_collector.html":[8,0,0,454],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_fatras_1_1_charged_selector.html#a014809963f71fff06bff35caf8857e42":[6,0,2,8,0],
 "struct_acts_fatras_1_1_charged_selector.html#a014809963f71fff06bff35caf8857e42":[8,0,1,9,0],
 "struct_acts_fatras_1_1_cluster.html":[6,0,2,9],
-"struct_acts_fatras_1_1_cluster.html":[8,0,1,10],
-"struct_acts_fatras_1_1_cluster.html#a13f5468a84e5153c08fe5e887e033e18":[6,0,2,9,3]
+"struct_acts_fatras_1_1_cluster.html":[8,0,1,10]
 };

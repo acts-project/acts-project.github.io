@@ -6,5 +6,6 @@ var searchData=
   ['geometry_3',['Geometry',['../group__geometry.html',1,'']]],
   ['geometry_20module_20loading_4',['Runtime geometry module loading',['../group__geometry__module__loading.html',1,'']]],
   ['geomodel_20plugin_5',['GeoModel Plugin',['../group__geomodel__plugin.html',1,'']]],
-  ['gnn_20plugin_6',['GNN Plugin',['../group__gnn__plugin.html',1,'']]]
+  ['gnn_20plugin_6',['GNN Plugin',['../group__gnn__plugin.html',1,'']]],
+  ['graph_20based_20track_20seeding_7',['Graph-Based Track Seeding',['../group__gbts.html',1,'']]]
 ];

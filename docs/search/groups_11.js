@@ -8,5 +8,6 @@ var searchData=
   ['track_20fitting_5',['Track Fitting',['../group__track__fitting.html',1,'']]],
   ['track_20parameters_20from_20seed_6',['Estimate track parameters from seed',['../group__est__track__params.html',1,'']]],
   ['track_20reconstruction_7',['track reconstruction',['../group__eventdata-charge.html',1,'Charge hypothesis for track reconstruction'],['../group__eventdata-particlehypothesis.html',1,'Particle hypothesis for track reconstruction']]],
-  ['types_8',['Algebra types',['../group__algebra__types.html',1,'']]]
+  ['track_20seeding_8',['Graph-Based Track Seeding',['../group__gbts.html',1,'']]],
+  ['types_9',['Algebra types',['../group__algebra__types.html',1,'']]]
 ];

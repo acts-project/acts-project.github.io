@@ -125,11 +125,11 @@ $(function(){initNavTree('examples_geometry_contexts.html','',''); });
   <div class="headertitle"><div class="title">Simulation and reconstruction geometry contexts </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
 Simulation and reconstruction geometry contexts</h1>
 <p>Alignment studies need simulation to place the detector modules differently from what reconstruction assumes. The Examples framework supports this directly: an <span class="tt">ActsExamples::AlgorithmContext</span> carries two geometry contexts, and one sequence can run both geometries at once.</p>
 <p>There is no need to write measurements out of a simulation job and read them back into a separate reconstruction job. Measurement IO stores local parameters and a geometry identifier, so it carries no geometry context anyway - the two-context model expresses the same thing without the round trip.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
 The two contexts</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -148,7 +148,7 @@ The two contexts</h2>
 </ul>
 <p>Performance writers legitimately use both. <span class="tt">ActsExamples::RootTrackStatesWriter</span> is the clearest case: its truth branch reads sim hits in <span class="tt">simGeoContext</span> while its measurement and track state branches sit in <span class="tt">recoGeoContext</span>, and the difference between them is the misalignment under study.</p>
 <p>Writers that intersect a truth particle with a perigee or beamline surface are insensitive to the choice, because those surfaces carry no detector element and therefore no alignment payload.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
 Injecting a misalignment</h2>
 <p><span class="tt">ActsExamples::AlignmentDecorator</span> decides which context(s) it writes through <span class="tt">Config::target</span>:</p>
 <table class="markdownTable">
@@ -163,14 +163,14 @@ Injecting a misalignment</h2>
 </table>
 <p>Either single-sided target produces the sim/reco mismatch an alignment study needs. <span class="tt">eReco</span> is usually the more convenient one: simulation stays on the design geometry, so the truth sample is the same across all distortions and can be reused. Reach for <span class="tt">eSim</span> when the built geometry itself is what varies, for example a test beam telescope whose acceptance depends on where the modules really sit.</p>
 <p>Chain two decorators to give simulation and reconstruction two <em>different</em> non-nominal alignments, which is what an alignment iteration looks like.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
 Caveats</h2>
 <ul>
 <li><b>Geant4 cannot be misaligned this way.</b> <span class="tt">ActsExamples::Geant4Simulation</span> forwards <span class="tt">simGeoContext</span> to the user actions, but the G4 geometry itself is built once and is not context aware, so per-event transforms never reach G4 transport. Use Fatras.</li>
 <li><b>Navigation is built on the nominal geometry.</b> Layer arrays, volume boundaries and surface binning are constructed once, so misalignments have to stay small enough not to break navigation.</li>
 <li><b>A single-sided target degrades pattern recognition.</b> Seeding and track finding work in <span class="tt">recoGeoContext</span>, so a shift they do not know about costs efficiency before it ever reaches the fit.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
 Where to look</h2>
 <ul>
 <li><span class="tt">Examples/Scripts/Python/misaligned_simulation.py</span> - a telescope with one shifted layer, showing the residual bias that appears when only simulation sees the shift.</li>

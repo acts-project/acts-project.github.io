@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_linearized_track.html#afe8fed78296d3fdbe2293ab0d5368007":[6,0,0,254,4],
 "struct_acts_1_1_linearized_track.html#afe8fed78296d3fdbe2293ab0d5368007":[8,0,0,260,4],
 "struct_acts_1_1_material_interaction.html":[6,0,0,263],
 "struct_acts_1_1_material_interaction.html":[8,0,0,269],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_navigator_1_1_config.html#af1c046cc36229b6d9cea735b4e6d66e5":[6,0,0,301,0,1],
 "struct_acts_1_1_navigator_1_1_config.html#af1c046cc36229b6d9cea735b4e6d66e5":[8,0,0,307,0,1],
 "struct_acts_1_1_navigator_1_1_options.html":[6,0,0,301,1],
-"struct_acts_1_1_navigator_1_1_options.html":[8,0,0,307,1],
-"struct_acts_1_1_navigator_1_1_options.html#adce0b4dee78b8acb61aec6155ec6f928":[6,0,0,301,1,1]
+"struct_acts_1_1_navigator_1_1_options.html":[8,0,0,307,1]
 };

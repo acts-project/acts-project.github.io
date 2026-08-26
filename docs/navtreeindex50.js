@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html":[8,0,0,24,1],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html#a352df31607a5ed1c8058c6173a2e65b1":[6,0,0,18,1,0],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html#a352df31607a5ed1c8058c6173a2e65b1":[8,0,0,24,1,0],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html#a8b315943474556ab575aa477ce7c36f4":[6,0,0,18,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_boundary_tolerance_1_1_infinite_params.html":[8,0,0,67,3],
 "struct_acts_1_1_boundary_tolerance_1_1_none_params.html":[6,0,0,61,4],
 "struct_acts_1_1_boundary_tolerance_1_1_none_params.html":[8,0,0,67,4],
-"struct_acts_1_1_brem_combinatorial_kalman_filter_options.html":[5,9,1,0],
-"struct_acts_1_1_brem_combinatorial_kalman_filter_options.html#a1479266f87a90b7f1404907bd8b32d61":[5,9,1,0,1]
+"struct_acts_1_1_brem_combinatorial_kalman_filter_options.html":[5,9,1,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html":[8,0,2,56,0],
 "struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html#a452b150140f3984f27c1b4aba9906a33":[6,0,3,51,0,0],
 "struct_acts_plugins_1_1_root_histogram_fit_1_1_config.html#a452b150140f3984f27c1b4aba9906a33":[8,0,2,56,0,0],
 "struct_acts_plugins_1_1_root_material_map_io_1_1_config.html":[5,10,12,3,0],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#ae329fd1255e5c1b99a52b1706ed8aeca":[6,0,0,1,7,3,6],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#ae329fd1255e5c1b99a52b1706ed8aeca":[8,0,0,2,7,3,6],
 "struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html":[6,0,0,1,9],
 "struct_acts_1_1_experimental_1_1_covariance_bound_parameter_variation_generator.html":[8,0,0,2,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af1f0ec6800f6d2e53fe3e4a4f9a0e8ee":[6,0,0,1,26,0,13],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af1f0ec6800f6d2e53fe3e4a4f9a0e8ee":[8,0,0,2,26,0,13],
 "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af272f00fb1883c26c15cac071e9f21ec":[6,0,0,1,26,0,11],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af272f00fb1883c26c15cac071e9f21ec":[8,0,0,2,26,0,11],
-"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af4cb7d81cde3c1c9469ebbb821f2ee17":[6,0,0,1,26,0,31]
+"struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af272f00fb1883c26c15cac071e9f21ec":[8,0,0,2,26,0,11]
 };
