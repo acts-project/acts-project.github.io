@@ -2149,6 +2149,8 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memdesc:abcb3220aecf93487a5ec2e1a23a1b625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a track state for extrapolation.  <br /></td></tr>
 <tr class="memitem:ae5f6661b3b21a87f2e174dde11c3bff2" id="r_ae5f6661b3b21a87f2e174dde11c3bff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 2, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f6661b3b21a87f2e174dde11c3bff2">freeToSphericalDirectionJacobian</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction)</td></tr>
 <tr class="memdesc:ae5f6661b3b21a87f2e174dde11c3bff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for free to spherical direction vector transformation.  <br /></td></tr>
+<tr class="memitem:ae50f25bab48b81e4e3c3cfed2e7c299f" id="r_ae50f25bab48b81e4e3c3cfed2e7c299f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50f25bab48b81e4e3c3cfed2e7c299f">freeToSphericalMomentumJacobian</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;momentum, double charge)</td></tr>
+<tr class="memdesc:ae50f25bab48b81e4e3c3cfed2e7c299f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for free to spherical momentum transformation.  <br /></td></tr>
 <tr class="memitem:ga6aaf7d1fd1b61101aeb7f6e35e642781" id="r_ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga6aaf7d1fd1b61101aeb7f6e35e642781">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_binning_data.html">BinningData</a> &amp;bd)</td></tr>
 <tr class="memdesc:ga6aaf7d1fd1b61101aeb7f6e35e642781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert JSON to BinningData.  <br /></td></tr>
 <tr class="memitem:ga6aa02daa239b9da9ab61a7d5a330bfc1" id="r_ga6aa02daa239b9da9ab61a7d5a330bfc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga6aa02daa239b9da9ab61a7d5a330bfc1">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="class_acts_1_1_bin_utility.html">BinUtility</a> &amp;bu)</td></tr>
@@ -2462,6 +2464,8 @@ requires (FullSize &lt;= 8)</td></tr>
 <tr class="memdesc:ga5036eb1d51177fbb2503f1dc623d197b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function which takes an existing SolenoidBField instance and creates a field mapper by sampling grid points from the analytical solenoid field.  <br /></td></tr>
 <tr class="memitem:a399512421c6c002cc4eaba1fe5b08765" id="r_a399512421c6c002cc4eaba1fe5b08765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399512421c6c002cc4eaba1fe5b08765">sphericalToFreeDirectionJacobian</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction)</td></tr>
 <tr class="memdesc:a399512421c6c002cc4eaba1fe5b08765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for spherical to free direction vector transformation.  <br /></td></tr>
+<tr class="memitem:ab53715d80a211b6b4467c09400e5d0f0" id="r_ab53715d80a211b6b4467c09400e5d0f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53715d80a211b6b4467c09400e5d0f0">sphericalToFreeMomentumJacobian</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, double qOverP, double momentum)</td></tr>
+<tr class="memdesc:ab53715d80a211b6b4467c09400e5d0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Jacobian for spherical to free momentum transformation.  <br /></td></tr>
 <tr class="memitem:a838abb77213dd8944857456b1e506b02" id="r_a838abb77213dd8944857456b1e506b02"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a838abb77213dd8944857456b1e506b02 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a838abb77213dd8944857456b1e506b02">square</a> (T x)</td></tr>
 <tr class="memdesc:a838abb77213dd8944857456b1e506b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the passed number.  <br /></td></tr>
@@ -7554,6 +7558,37 @@ template&lt;TrackProxyConcept track_proxy_t&gt; </div>
 
 </div>
 </div>
+<a id="ae50f25bab48b81e4e3c3cfed2e7c299f" name="ae50f25bab48b81e4e3c3cfed2e7c299f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae50f25bab48b81e4e3c3cfed2e7c299f">&#9670;&#160;</a></span>freeToSphericalMomentumJacobian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 3 &gt; Acts::freeToSphericalMomentumJacobian </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>momentum</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>charge</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the Jacobian for free to spherical momentum transformation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">momentum</td><td>The global, non-normalized momentum three-vector </td></tr>
+    <tr><td class="paramname">charge</td><td>The signed charge of the particle the momentum belongs to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The Jacobian d(phi, theta, qOverP) / d(p_x, p_y, p_z) </dd></dl>
+
+</div>
+</div>
 <a id="a9b4dee934b0b193d57604b19bc8cd527" name="a9b4dee934b0b193d57604b19bc8cd527"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b4dee934b0b193d57604b19bc8cd527">&#9670;&#160;</a></span>getDefaultLogger()</h2>
 
@@ -11191,6 +11226,44 @@ template&lt;TrackContainerFrontend track_container_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The Jacobian d(dir_x, dir_y, dir_z) / d(phi, theta) </dd></dl>
+
+</div>
+</div>
+<a id="ab53715d80a211b6b4467c09400e5d0f0" name="ab53715d80a211b6b4467c09400e5d0f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab53715d80a211b6b4467c09400e5d0f0">&#9670;&#160;</a></span>sphericalToFreeMomentumJacobian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga6601cf34fab9264b809ec0bc9364048d">Matrix</a>&lt; 3, 3 &gt; Acts::sphericalToFreeMomentumJacobian </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>qOverP</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>momentum</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the Jacobian for spherical to free momentum transformation. </p>
+<dl class="section note"><dt>Note</dt><dd>We use the direction vector as an input because the trigonometric simplify that way</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">direction</td><td>The normalised direction vector </td></tr>
+    <tr><td class="paramname">qOverP</td><td>The charge over momentum used in the free parametrization </td></tr>
+    <tr><td class="paramname">momentum</td><td>The absolute momentum matching <code class="param">qOverP</code> for the particle's charge hypothesis</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The Jacobian d(p_x, p_y, p_z) / d(phi, theta, qOverP) </dd></dl>
 
 </div>
 </div>

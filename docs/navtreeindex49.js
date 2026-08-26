@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"namespace_acts_1_1_grid_axis_generators.html#af9232fbf8df5b6ccdb085d1e11353959":[6,0,0,2,7],
+"namespace_acts_1_1_gsf_constants.html":[5,13,2],
 "namespace_acts_1_1_gsf_constants.html#a5d18db27cc53f853d9d3c05c855b36d2":[6,0,0,3,3],
 "namespace_acts_1_1_gsf_constants.html#a73b5bf0550af54e2ce73ac01d357f6bf":[6,0,0,3,0],
 "namespace_acts_1_1_gsf_constants.html#a8005ac628397542f6fc55da86ad78bed":[6,0,0,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html#a352df31607a5ed1c8058c6173a2e65b1":[8,0,0,24,1,0],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html#a8b315943474556ab575aa477ce7c36f4":[6,0,0,18,1,1],
 "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html#a8b315943474556ab575aa477ce7c36f4":[8,0,0,24,1,1],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html":[6,0,0,19,0],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html":[8,0,0,25,0],
-"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#a16fe6513398ec81853d014a157a883af":[6,0,0,19,0,10]
+"struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html":[6,0,0,19,0]
 };
