@@ -6,5 +6,6 @@ var struct_acts_1_1_event_data_view3_d =
     [ "drawCovarianceAngular", "struct_acts_1_1_event_data_view3_d.html#a96c71d911e543ec144360d80a7623922", null ],
     [ "drawCovarianceCartesian", "struct_acts_1_1_event_data_view3_d.html#abe748c98d9c7d68b3cd8316cb5f8411e", null ],
     [ "drawMeasurement", "struct_acts_1_1_event_data_view3_d.html#a885ba62efc05fbf37e4e53fed0a90059", null ],
-    [ "drawMultiTrajectory", "struct_acts_1_1_event_data_view3_d.html#a59030216f354ac1d475e8f459949d004", null ]
+    [ "drawMultiTrajectory", "struct_acts_1_1_event_data_view3_d.html#a59030216f354ac1d475e8f459949d004", null ],
+    [ "drawTrack", "struct_acts_1_1_event_data_view3_d.html#a3c35dab409edb04f757d65e8c1201137", null ]
 ];

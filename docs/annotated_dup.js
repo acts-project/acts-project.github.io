@@ -600,6 +600,7 @@ var annotated_dup =
       [ "VertexInfo", "struct_acts_1_1_vertex_info.html", "struct_acts_1_1_vertex_info" ],
       [ "VertexingOptions", "struct_acts_1_1_vertexing_options.html", "struct_acts_1_1_vertexing_options" ],
       [ "ViewConfig", "struct_acts_1_1_view_config.html", "struct_acts_1_1_view_config" ],
+      [ "VisualizationBuffer", "class_acts_1_1_visualization_buffer.html", "class_acts_1_1_visualization_buffer" ],
       [ "VoidNavigator", "class_acts_1_1_void_navigator.html", "class_acts_1_1_void_navigator" ],
       [ "Volume", "class_acts_1_1_volume.html", "class_acts_1_1_volume" ],
       [ "VolumeBounds", "class_acts_1_1_volume_bounds.html", "class_acts_1_1_volume_bounds" ],

@@ -551,7 +551,8 @@ var hierarchy =
     ] ],
     [ "Acts::IVisualization3D", "class_acts_1_1_i_visualization3_d.html", [
       [ "Acts::ObjVisualization3D", "class_acts_1_1_obj_visualization3_d.html", null ],
-      [ "Acts::PlyVisualization3D< T >", "class_acts_1_1_ply_visualization3_d.html", null ]
+      [ "Acts::PlyVisualization3D< T >", "class_acts_1_1_ply_visualization3_d.html", null ],
+      [ "Acts::VisualizationBuffer", "class_acts_1_1_visualization_buffer.html", null ]
     ] ],
     [ "Acts::IVolumeMaterial", "class_acts_1_1_i_volume_material.html", [
       [ "Acts::HomogeneousVolumeMaterial", "class_acts_1_1_homogeneous_volume_material.html", null ],

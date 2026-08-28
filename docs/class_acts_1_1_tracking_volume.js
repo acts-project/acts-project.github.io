@@ -55,6 +55,7 @@ var class_acts_1_1_tracking_volume =
     [ "visitSurfaces", "class_acts_1_1_tracking_volume.html#a393d3421665e6a0883a81292d6c80f2a", null ],
     [ "visitVolumes", "class_acts_1_1_tracking_volume.html#aacb1e595ba0ac6daff981f23310b5b04", null ],
     [ "visualize", "class_acts_1_1_tracking_volume.html#aefd07dd4cfe34a337fd098bb5517fc5a", null ],
+    [ "visualize", "class_acts_1_1_tracking_volume.html#a6886ad9e7d68e1e3919fcef609d42574", null ],
     [ "volumeMaterial", "class_acts_1_1_tracking_volume.html#a9643dc9900fdfe40b71191907b55e400", null ],
     [ "volumeMaterialPtr", "class_acts_1_1_tracking_volume.html#ac74f3d6de2e37340ab9474483b18ef2f", null ],
     [ "volumeName", "class_acts_1_1_tracking_volume.html#a824f1d065f2da06733c362e732e60ab4", null ],

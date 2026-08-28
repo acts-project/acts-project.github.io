@@ -149,6 +149,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a59030216f354ac1d475e8f459949d004" id="r_a59030216f354ac1d475e8f459949d004"><td class="memTemplParams" colspan="2">template&lt;typename traj_t&gt; </td></tr>
 <tr class="memitem:a59030216f354ac1d475e8f459949d004 template"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59030216f354ac1d475e8f459949d004">drawMultiTrajectory</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const traj_t &amp;multiTraj, const std::size_t &amp;entryIndex, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx=<a class="el" href="class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379">GeometryContext::dangerouslyDefaultConstruct</a>(), double momentumScale=1., double locErrorScale=1., double angularErrorScale=1., const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;surfaceConfig=<a class="el" href="namespace_acts.html#a2e6deff8fee97c4b0739e26f4ad59496">s_viewSensitive</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;measurementConfig=<a class="el" href="namespace_acts.html#a2a554d4531937faeff795eae33ae831c">s_viewMeasurement</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;predictedConfig=<a class="el" href="namespace_acts.html#a254ae108fc03e77b6696a99306f5cf97">s_viewPredicted</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;filteredConfig=<a class="el" href="namespace_acts.html#a8eecb9e1cadbd7e2d179dc57de6c37b7">s_viewFiltered</a>, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;smoothedConfig=<a class="el" href="namespace_acts.html#a11cf9f040a91360f791598e0fec7b03a">s_viewSmoothed</a>)</td></tr>
 <tr class="memdesc:a59030216f354ac1d475e8f459949d004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to draw one trajectory stored in a MultiTrajectory object.  <br /></td></tr>
+<tr class="memitem:a3c35dab409edb04f757d65e8c1201137" id="r_a3c35dab409edb04f757d65e8c1201137"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c35dab409edb04f757d65e8c1201137">drawTrack</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const <a class="el" href="namespace_acts.html#a2db5437c93715c880d91e795ea966d15">AnyConstTrackProxy</a> &amp;track, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx)</td></tr>
+<tr class="memdesc:a3c35dab409edb04f757d65e8c1201137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to draw a track from AnyTrackProxy.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utilities to visualize event data in 3D. </p>
@@ -625,6 +627,50 @@ template&lt;typename traj_t&gt; </div>
     <tr><td class="paramname">predictedConfig</td><td>The visualization options for the predicted measurement </td></tr>
     <tr><td class="paramname">filteredConfig</td><td>The visualization options for the filtered parameters </td></tr>
     <tr><td class="paramname">smoothedConfig</td><td>The visualization options for the smoothed parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3c35dab409edb04f757d65e8c1201137" name="a3c35dab409edb04f757d65e8c1201137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c35dab409edb04f757d65e8c1201137">&#9670;&#160;</a></span>drawTrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::EventDataView3D::drawTrack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>helper</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a2db5437c93715c880d91e795ea966d15">AnyConstTrackProxy</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper method to draw a track from AnyTrackProxy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">helper</td><td>[in, out] The visualization helper </td></tr>
+    <tr><td class="paramname">track</td><td>The track to be drawn </td></tr>
+    <tr><td class="paramname">gctx</td><td>The geometry context for which it is drawn </td></tr>
   </table>
   </dd>
 </dl>

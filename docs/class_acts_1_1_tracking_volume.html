@@ -334,7 +334,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearBoundarySurfaces
 <tr class="memitem:adb732da3591b090e73de9020f20b916a" id="r_adb732da3591b090e73de9020f20b916a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_glue_volumes_descriptor.html">GlueVolumesDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb732da3591b090e73de9020f20b916a">glueVolumesDescriptor</a> ()</td></tr>
 <tr class="memdesc:adb732da3591b090e73de9020f20b916a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the outside glue volumes - ordering is in the TrackingVolume Frame:  <br /></td></tr>
 <tr class="memitem:aefd07dd4cfe34a337fd098bb5517fc5a" id="r_aefd07dd4cfe34a337fd098bb5517fc5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd07dd4cfe34a337fd098bb5517fc5a">visualize</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;viewConfig, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;portalViewConfig, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;sensitiveViewConfig) const</td></tr>
-<tr class="memdesc:aefd07dd4cfe34a337fd098bb5517fc5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produces a 3D visualization of this tracking volume.  <br /></td></tr>
+<tr class="memitem:a6886ad9e7d68e1e3919fcef609d42574" id="r_a6886ad9e7d68e1e3919fcef609d42574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6886ad9e7d68e1e3919fcef609d42574">visualize</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="namespace_acts.html#a488f1ad68952c516a0217144eddcb7bc">ViewConfigFunc</a> &amp;viewConfigFactory=<a class="el" href="namespace_acts.html#ac858b10c2d2c612aa77bd4cacdf01e9b">defaultGeometryColoring</a>) const</td></tr>
+<tr class="memdesc:a6886ad9e7d68e1e3919fcef609d42574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produces a 3D visualization of this tracking volume.  <br /></td></tr>
 <tr class="memitem:a47aa5b5e01e60e79c57b8253c28515e6" id="r_a47aa5b5e01e60e79c57b8253c28515e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47aa5b5e01e60e79c57b8253c28515e6">navigationPolicy</a> () const</td></tr>
 <tr class="memdesc:a47aa5b5e01e60e79c57b8253c28515e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the navigation policy if any that is registered on this volume.  <br /></td></tr>
 <tr class="memitem:ab5bce26fd5c4007f507c3562ad1cc7e8" id="r_ab5bce26fd5c4007f507c3562ad1cc7e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_i_navigation_policy.html">INavigationPolicy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bce26fd5c4007f507c3562ad1cc7e8">navigationPolicy</a> ()</td></tr>
@@ -1843,7 +1844,7 @@ template&lt;TrackingVolumeVisitor visitor_t&gt; </div>
 </div>
 </div>
 <a id="aefd07dd4cfe34a337fd098bb5517fc5a" name="aefd07dd4cfe34a337fd098bb5517fc5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefd07dd4cfe34a337fd098bb5517fc5a">&#9670;&#160;</a></span>visualize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd07dd4cfe34a337fd098bb5517fc5a">&#9670;&#160;</a></span>visualize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1875,15 +1876,50 @@ template&lt;TrackingVolumeVisitor visitor_t&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">helper</td><td>The visualization helper that implement the output </td></tr>
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">viewConfig</td><td>The view configuration </td></tr>
+    <tr><td class="paramname">portalViewConfig</td><td>View configuration for portals </td></tr>
+    <tr><td class="paramname">sensitiveViewConfig</td><td>View configuration for sensitive surfaces </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000024">Deprecated</a></b></dt><dd>Use the ViewConfigFunc overload instead </dd></dl>
+
+</div>
+</div>
+<a id="a6886ad9e7d68e1e3919fcef609d42574" name="a6886ad9e7d68e1e3919fcef609d42574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6886ad9e7d68e1e3919fcef609d42574">&#9670;&#160;</a></span>visualize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingVolume::visualize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>helper</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_acts.html#a488f1ad68952c516a0217144eddcb7bc">ViewConfigFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>viewConfigFactory</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac858b10c2d2c612aa77bd4cacdf01e9b">defaultGeometryColoring</a></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 <p>Produces a 3D visualization of this tracking volume. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">helper</td><td>The visualization helper describing the output format </td></tr>
     <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
-    <tr><td class="paramname">viewConfig</td><td>The view configuration </td></tr>
-    <tr><td class="paramname">portalViewConfig</td><td>View configuration for portals </td></tr>
-    <tr><td class="paramname">sensitiveViewConfig</td><td>View configuration for sensitive surfaces </td></tr>
+    <tr><td class="paramname">viewConfigFactory</td><td>Function determining the ViewConfig for each GeometryObject </td></tr>
   </table>
   </dd>
 </dl>

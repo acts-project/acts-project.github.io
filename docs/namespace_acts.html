@@ -994,6 +994,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex Finder Options.  <a href="struct_acts_1_1_vertexing_options.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ViewConfig" id="r_ViewConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to concentrate all visualization configurations in order to harmonize visualization interfaces.  <a href="struct_acts_1_1_view_config.html#details">More...</a><br /></td></tr>
+<tr class="memitem:VisualizationBuffer" id="r_VisualizationBuffer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_visualization_buffer.html">VisualizationBuffer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This helper produces output for Python visualization.  <a href="class_acts_1_1_visualization_buffer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:VoidNavigator" id="r_VoidNavigator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_void_navigator.html">VoidNavigator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A navigator that does nothing.  <a href="class_acts_1_1_void_navigator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Volume" id="r_Volume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_volume.html">Volume</a></td></tr>
@@ -1416,6 +1418,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector3</b> = <a cla
 <tr class="memitem:ga211f2201e5faee8fc4243cb3be9bc97f" id="r_ga211f2201e5faee8fc4243cb3be9bc97f"><td class="memItemLeft" align="right" valign="top">
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector4</b> = <a class="el" href="group__algebra__types.html#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;4&gt;</td></tr>
 <tr class="memdesc:ga211f2201e5faee8fc4243cb3be9bc97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">4-dimensional vector type for space-time coordinates <br /></td></tr>
+<tr class="memitem:a488f1ad68952c516a0217144eddcb7bc" id="r_a488f1ad68952c516a0217144eddcb7bc"><td class="memItemLeft" align="right" valign="top"><a id="a488f1ad68952c516a0217144eddcb7bc" name="a488f1ad68952c516a0217144eddcb7bc"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ViewConfigFunc</b> = std::function&lt;<a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a>(const <a class="el" href="class_acts_1_1_geometry_object.html">GeometryObject</a>&amp;)&gt;</td></tr>
+<tr class="memdesc:a488f1ad68952c516a0217144eddcb7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that takes a GeometryObject as an input and outputs a ViewConfig This allows to use custom functions for determining the colour of GeometryObjects. <br /></td></tr>
 <tr class="memitem:aca88659ee97e667013784c4fac8475f2" id="r_aca88659ee97e667013784c4fac8475f2"><td class="memItemLeft" align="right" valign="top"><a id="aca88659ee97e667013784c4fac8475f2" name="aca88659ee97e667013784c4fac8475f2"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>VolumeBoundFactory</b> = <a class="el" href="class_acts_1_1_bound_factory.html">BoundFactory</a>&lt;<a class="el" href="class_acts_1_1_volume_bounds.html">VolumeBounds</a>&gt;</td></tr>
 <tr class="memdesc:aca88659ee97e667013784c4fac8475f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abrivation for a factory to construct volume bounds. <br /></td></tr>
@@ -2065,6 +2070,8 @@ requires (!track_proxy_t::ReadOnly)</td></tr>
 <tr class="memitem:gaf82572e503169d94a3cbe03a3a0af6cf" id="r_gaf82572e503169d94a3cbe03a3a0af6cf"><td class="memTemplParams" colspan="2">template&lt;class T, class decorator_t&gt; </td></tr>
 <tr class="memitem:gaf82572e503169d94a3cbe03a3a0af6cf template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#gaf82572e503169d94a3cbe03a3a0af6cf">decorateJson</a> (const decorator_t *decorator, const T *src, nlohmann::json &amp;dest)</td></tr>
 <tr class="memdesc:gaf82572e503169d94a3cbe03a3a0af6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate JSON with additional information from the decorator (pointer version).  <br /></td></tr>
+<tr class="memitem:ac858b10c2d2c612aa77bd4cacdf01e9b" id="r_ac858b10c2d2c612aa77bd4cacdf01e9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac858b10c2d2c612aa77bd4cacdf01e9b">defaultGeometryColoring</a> (const <a class="el" href="class_acts_1_1_geometry_object.html">GeometryObject</a> &amp;)</td></tr>
+<tr class="memdesc:ac858b10c2d2c612aa77bd4cacdf01e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default ViewConfigFunc.  <br /></td></tr>
 <tr class="memitem:ae9377cc8410b61e349e68a4f1d79772b" id="r_ae9377cc8410b61e349e68a4f1d79772b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9377cc8410b61e349e68a4f1d79772b">deriveEnergyLossBetheQOverP</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
 <tr class="memdesc:ae9377cc8410b61e349e68a4f1d79772b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the Bethe energy loss with respect to q/p.  <br /></td></tr>
 <tr class="memitem:ac473b5a1771eb1bd84ad6e44cbde555c" id="r_ac473b5a1771eb1bd84ad6e44cbde555c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac473b5a1771eb1bd84ad6e44cbde555c">deriveEnergyLossLandauQOverP</a> (const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;slab, float m, float qOverP, float absQ)</td></tr>
@@ -5571,7 +5578,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a pair of the unbiased parameters and their covariance </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000096">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000098">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
 <div class="fragment"><div class="line"><a class="code hl_function" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a>(<a class="code hl_typedef" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>{state});</div>
 </div><!-- fragment --> 
 </div>
@@ -6488,6 +6495,26 @@ T x U = V
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the 3D grid </dd></dl>
+
+</div>
+</div>
+<a id="ac858b10c2d2c612aa77bd4cacdf01e9b" name="ac858b10c2d2c612aa77bd4cacdf01e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac858b10c2d2c612aa77bd4cacdf01e9b">&#9670;&#160;</a></span>defaultGeometryColoring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> Acts::defaultGeometryColoring </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_object.html">GeometryObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default ViewConfigFunc. </p>
+<dl class="section return"><dt>Returns</dt><dd>ViewConifg which colors sensitive surfaces green and boundaries orange </dd></dl>
 
 </div>
 </div>
@@ -9033,7 +9060,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000084">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000086">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9073,7 +9100,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000085">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000087">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9661,7 +9688,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000088">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000090">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
 
 </div>
 </div>
@@ -9693,7 +9720,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000087">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000089">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
 
 </div>
 </div>

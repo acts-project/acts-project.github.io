@@ -22,6 +22,7 @@ var class_acts_1_1_tracking_geometry =
     [ "visitSurfaces", "class_acts_1_1_tracking_geometry.html#a408dd3d41278420ff00faa04d20b8822", null ],
     [ "visitSurfaces", "class_acts_1_1_tracking_geometry.html#ac2308c0d7631142f060650831967cf3a", null ],
     [ "visitVolumes", "class_acts_1_1_tracking_geometry.html#a70db5212a176602ed59a6b47ecb3bd9e", null ],
-    [ "visualize", "class_acts_1_1_tracking_geometry.html#a1a3a670fd9da8c89d2486a367d0189d5", null ],
+    [ "visualize", "class_acts_1_1_tracking_geometry.html#a637c481e57e710623adc80018f31738b", null ],
+    [ "visualize", "class_acts_1_1_tracking_geometry.html#a558feedf66d2e66b28f80c9b0e9b632b", null ],
     [ "TrackingGeometryBuilder", "class_acts_1_1_tracking_geometry.html#a114c33ffa5be8ff046f9d06c5ea68995", null ]
 ];
