@@ -24,6 +24,7 @@ var namespace_acts_plugins =
     [ "DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html", "class_acts_plugins_1_1_detray_payload_converter" ],
     [ "DetrayUnsupportedMaterialException", "class_acts_plugins_1_1_detray_unsupported_material_exception.html", "class_acts_plugins_1_1_detray_unsupported_material_exception" ],
     [ "Device", "struct_acts_plugins_1_1_device.html", "struct_acts_plugins_1_1_device" ],
+    [ "DWalkTrackBuilding", "class_acts_plugins_1_1_d_walk_track_building.html", "class_acts_plugins_1_1_d_walk_track_building" ],
     [ "EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html", "class_acts_plugins_1_1_edge_classification_base" ],
     [ "EdgeLayerConnector", "class_acts_plugins_1_1_edge_layer_connector.html", "class_acts_plugins_1_1_edge_layer_connector" ],
     [ "ExecutionContext", "struct_acts_plugins_1_1_execution_context.html", "struct_acts_plugins_1_1_execution_context" ],

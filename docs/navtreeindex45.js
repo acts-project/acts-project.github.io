@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"concept_acts_1_1is_valid_convex_polygon_size.html":[7,0,23],
+"concepts.html":[7],
+"contribution_clang_tidy.html":[3,0],
+"deprecated.html":[10],
 "formatting.html":[3,3],
 "functions.html":[8,2,0],
 "functions.html":[8,2,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "group__errors.html#gga52148d84844c7850d7239a8e76d18514af74ca3848c0c6a51fdff12029826abc2":[5,4,15,1],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba2ff410cc0e0ef7f55e8353551458922e":[5,4,0,3],
 "group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba3b19dd219405eef6b47cac8bbc764d82":[5,4,0,5],
-"group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c":[5,4,0,2],
-"group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab1699d129532c7c6294a1f26fd4032d9":[5,4,0,0],
-"group__errors.html#gga5708898bc604b9dfedc12319218b8c1bab91834cc99e0c4508dfebaadb2980b7c":[5,4,0,1],
-"group__errors.html#gga5708898bc604b9dfedc12319218b8c1bacad57a44b12889a25020a697b8b3aa25":[5,4,0,4],
-"group__errors.html#gga62dad9323721a81699d3f7fdca7a9f91a46dc1018ac1d8fca7c2752a61ce2fd0f":[5,4,7,0]
+"group__errors.html#gga5708898bc604b9dfedc12319218b8c1ba9a1dae01a56ad58a9db7ea93bb3c7a1c":[5,4,0,2]
 };

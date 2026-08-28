@@ -26,6 +26,18 @@ var group__gnn__plugin =
       [ "index", "struct_acts_plugins_1_1_device.html#afe74d25b11d7a9544bf8fe22bfcc7739", null ],
       [ "type", "struct_acts_plugins_1_1_device.html#a8fa5c6856600a9ebf8795b67a6940b71", null ]
     ] ],
+    [ "ActsPlugins::DWalkTrackBuilding", "class_acts_plugins_1_1_d_walk_track_building.html", [
+      [ "Config", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html", [
+        [ "minCandidateSize", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html#a019ae299bfee0fed104b8c48abf12d19", null ],
+        [ "pathMetric", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html#a7cd54204901fc0e0dffe4171cb459163", null ],
+        [ "radialFeatureIndex", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html#a4dd00111cb218b2e0223deec978760ab", null ],
+        [ "thAdd", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html#a17de1239b39fb477fb897e360b81a811", null ],
+        [ "thMin", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html#a8c78b88f0368367cc6fb27f501273951", null ]
+      ] ],
+      [ "DWalkTrackBuilding", "class_acts_plugins_1_1_d_walk_track_building.html#a344edac42fbb73a75229eafc99ab78e0", null ],
+      [ "config", "class_acts_plugins_1_1_d_walk_track_building.html#a20da9156d8427455a1492594f066cfd0", null ],
+      [ "operator()", "class_acts_plugins_1_1_d_walk_track_building.html#a3903f194ec6922cfb2ac2256045eb499", null ]
+    ] ],
     [ "ActsPlugins::EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html", [
       [ "operator()", "class_acts_plugins_1_1_edge_classification_base.html#a5ea9de51e7cb3f97d5cc272ef07ad5d0", null ]
     ] ],

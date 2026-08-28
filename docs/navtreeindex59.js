@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_kalman_fitter_options.html#a41f3c51b640b3905181ca44bb79e0649":[5,13,18,11],
+"struct_acts_1_1_kalman_fitter_options.html#a698fb837d25303ee3ef4d3fbf41328ce":[5,13,18,0],
+"struct_acts_1_1_kalman_fitter_options.html#a873570248761ee0f7214c84acfbb5506":[5,13,18,8],
+"struct_acts_1_1_kalman_fitter_options.html#ab0a9395014d0a2a16f9e69c67e3f4839":[5,13,18,3],
 "struct_acts_1_1_kalman_fitter_options.html#ab618db66d3f759d4ea04332b80b962cc":[5,13,18,1],
 "struct_acts_1_1_kalman_fitter_options.html#ac3d126db6f8279f05f8c5e398e409eb1":[5,13,18,7],
 "struct_acts_1_1_kalman_fitter_options.html#ac9639dc5b33e9d2583c2a88edfb47630":[5,13,18,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a610976e9c450ea9dc8303ddf2833fec8":[6,0,0,291,0,1],
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a610976e9c450ea9dc8303ddf2833fec8":[8,0,0,297,0,1],
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[6,0,0,291,0,0],
-"struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[8,0,0,297,0,0],
-"struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a9f42cabe52173e43cd50437899c87e40":[6,0,0,291,0,5],
-"struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a9f42cabe52173e43cd50437899c87e40":[8,0,0,297,0,5],
-"struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#aa197f4b79a20af392c16f8d8914c8d2b":[6,0,0,291,0,2],
-"struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#aa197f4b79a20af392c16f8d8914c8d2b":[8,0,0,297,0,2]
+"struct_acts_1_1_multi_wire_volume_builder_1_1_config.html#a78083b2269b601efa549d2b52bc9dc75":[8,0,0,297,0,0]
 };

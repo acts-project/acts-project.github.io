@@ -70,5 +70,6 @@ var searchData=
   ['dopushfront_3c_20n_2c_20typelist_3c_20ts_2e_2e_2e_20_3e_20_3e_67',['doPushFront&lt; N, TypeList&lt; Ts... &gt; &gt;',['../struct_acts_1_1_types_1_1do_push_front_3_01_n_00_01_type_list_3_01_ts_8_8_8_01_4_01_4.html',1,'Acts::Types']]],
   ['doubletseedfinder_68',['DoubletSeedFinder',['../class_acts_1_1_doublet_seed_finder.html',1,'Acts']]],
   ['doubletsformiddlesp_69',['DoubletsForMiddleSp',['../class_acts_1_1_doublets_for_middle_sp.html',1,'Acts']]],
-  ['dummyvertexfitter_70',['DummyVertexFitter',['../class_acts_1_1_dummy_vertex_fitter.html',1,'Acts']]]
+  ['dummyvertexfitter_70',['DummyVertexFitter',['../class_acts_1_1_dummy_vertex_fitter.html',1,'Acts']]],
+  ['dwalktrackbuilding_71',['DWalkTrackBuilding',['../class_acts_plugins_1_1_d_walk_track_building.html',1,'ActsPlugins']]]
 ];

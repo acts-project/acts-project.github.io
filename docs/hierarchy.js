@@ -1022,6 +1022,7 @@ var hierarchy =
     [ "ActsPlugins::DetrayPayloadConverter::Config", "struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html", null ],
     [ "ActsPlugins::DetrayPayloadConverter::Payloads", "struct_acts_plugins_1_1_detray_payload_converter_1_1_payloads.html", null ],
     [ "ActsPlugins::Device", "struct_acts_plugins_1_1_device.html", null ],
+    [ "ActsPlugins::DWalkTrackBuilding::Config", "struct_acts_plugins_1_1_d_walk_track_building_1_1_config.html", null ],
     [ "ActsPlugins::EdgeClassificationBase", "class_acts_plugins_1_1_edge_classification_base.html", [
       [ "ActsPlugins::OnnxEdgeClassifier", "class_acts_plugins_1_1_onnx_edge_classifier.html", null ],
       [ "ActsPlugins::TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html", null ],
@@ -1133,6 +1134,7 @@ var hierarchy =
     [ "ActsPlugins::TrackBuildingBase", "class_acts_plugins_1_1_track_building_base.html", [
       [ "ActsPlugins::BoostTrackBuilding", "class_acts_plugins_1_1_boost_track_building.html", null ],
       [ "ActsPlugins::CudaTrackBuilding", "class_acts_plugins_1_1_cuda_track_building.html", null ],
+      [ "ActsPlugins::DWalkTrackBuilding", "class_acts_plugins_1_1_d_walk_track_building.html", null ],
       [ "ActsPlugins::EdgeLayerConnector", "class_acts_plugins_1_1_edge_layer_connector.html", null ]
     ] ],
     [ "ContextType", null, [
