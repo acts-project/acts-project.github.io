@@ -1,0 +1,5 @@
+<map id="ActsPlugins::DWalkTrackBuilding" name="ActsPlugins::DWalkTrackBuilding">
+<area shape="rect" id="Node000001" title="Track building stage using the D&#45;WALK graph segmentation algorithm." alt="" coords="5,79,240,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_plugins_1_1_track_building_base.html" title="Base class for track building implementations." alt="" coords="11,5,235,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,44,125,79,120,79,120,44"/>
+</map>

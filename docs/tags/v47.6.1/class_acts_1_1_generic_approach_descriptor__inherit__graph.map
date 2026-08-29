@@ -1,0 +1,5 @@
+<map id="Acts::GenericApproachDescriptor" name="Acts::GenericApproachDescriptor">
+<area shape="rect" id="Node000001" title="Class to decide and return which approaching surface to be taken, it&#39;s a generic descriptor for n sur..." alt="" coords="5,79,241,104"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_approach_descriptor.html" title="Virtual base class to decide and return which approaching surface to be taken, the surfaces are std::..." alt="" coords="30,5,217,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,44,126,79,121,79,121,44"/>
+</map>
