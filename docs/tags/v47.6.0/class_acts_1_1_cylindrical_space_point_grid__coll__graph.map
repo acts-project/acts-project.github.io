@@ -1,5 +1,0 @@
-<map id="Acts::CylindricalSpacePointGrid" name="Acts::CylindricalSpacePointGrid">
-<area shape="rect" id="Node000001" title="A cylindrical space point grid used for seeding in a cylindrical detector geometry." alt="" coords="400,57,627,82"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,352,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,67,400,67,400,72,366,72"/>
-</map>
