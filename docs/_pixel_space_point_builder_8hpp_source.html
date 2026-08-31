@@ -137,20 +137,53 @@ $(function(){initNavTree('_pixel_space_point_builder_8hpp_source.html','',''); }
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span>PixelSpacePointBuilder {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> computeCovarianceZR(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&amp; rotLocalToGlobal,</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                                  <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; spacePoint,</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                                  <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&amp; localCov);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>[[deprecated(</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="stringliteral">&quot;Use computeCovarianceZR with a reference frame from &quot;</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="stringliteral">&quot;Surface::referenceFrame&quot;</span>)]]</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> computeVarianceZR(<span class="keyword">const</span> GeometryContext&amp; gctx, <span class="keyword">const</span> Surface&amp; surface,</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                          <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; spacePoint,</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                          <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&amp; localCov);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}  <span class="comment">// namespace PixelSpacePointBuilder</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}  <span class="comment">// namespace Acts</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a> computeCovarianceZR(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&amp; rotLocalToGlobal,</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                                  <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; spacePoint,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                                  <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&amp; localCov);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">inline</span> <a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> computeVarianceZR(<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">RotationMatrix3</a>&amp; rotLocalToGlobal,</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                                 <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; spacePoint,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                                 <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&amp; localCov) {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="comment">// the two local axes in global coordinates</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> a0x = rotLocalToGlobal(0, 0);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> a0y = rotLocalToGlobal(1, 0);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> a0z = rotLocalToGlobal(2, 0);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> a1x = rotLocalToGlobal(0, 1);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> a1y = rotLocalToGlobal(1, 1);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> a1z = rotLocalToGlobal(2, 1);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> c00 = localCov(0, 0);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> c01 = localCov(0, 1) + localCov(1, 0);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> c11 = localCov(1, 1);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="comment">// v^T localCov v for a two component Jacobian v</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">const</span> <span class="keyword">auto</span> quadraticForm = [c00, c01, c11](<span class="keywordtype">double</span> v0, <span class="keywordtype">double</span> v1) {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">return</span> c00 * v0 * v0 + c01 * v0 * v1 + c11 * v1 * v1;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  };</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> x = spacePoint.x();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> y = spacePoint.y();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="comment">// dz/dl is the z component of the local axis, dr/dl the radial one over r.</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="comment">// the radial Jacobian is left unnormalised, so its 1/r comes out of the</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="comment">// quadratic form as one division by r squared and no square root is needed</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> varZ = quadraticForm(a0z, a1z);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keyword">const</span> <span class="keywordtype">double</span> varR =</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      quadraticForm(x * a0x + y * a0y, x * a1x + y * a1y) / (x * x + y * y);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordflow">return</span> {varZ, varR};</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>}</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>[[deprecated(</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="stringliteral">&quot;Use computeVarianceZR with a reference frame from &quot;</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="stringliteral">&quot;Surface::referenceFrame&quot;</span>)]]</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><a class="code hl_typedef" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> computeVarianceZR(<span class="keyword">const</span> GeometryContext&amp; gctx, <span class="keyword">const</span> Surface&amp; surface,</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                          <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; spacePoint,</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                          <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&amp; localCov);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>}  <span class="comment">// namespace PixelSpacePointBuilder</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}  <span class="comment">// namespace Acts</span></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:46</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:57</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga04f891882a45afadbe07df33ad1c181c"><div class="ttname"><a href="group__algebra__types.html#ga04f891882a45afadbe07df33ad1c181c">Acts::RotationMatrix3</a></div><div class="ttdeci">SquareMatrix3 RotationMatrix3</div><div class="ttdoc">3D rotation matrix</div><div class="ttdef"><b>Definition</b> Algebra.hpp:91</div></div>
