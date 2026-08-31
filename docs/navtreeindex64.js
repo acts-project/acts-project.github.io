@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"struct_acts_1_1_track_selector_1_1_config.html#a7ca134e53ef71f66a64814f7a66f05e8":[6,0,0,417,0,10],
+"struct_acts_1_1_track_selector_1_1_config.html#a7ca134e53ef71f66a64814f7a66f05e8":[8,0,0,423,0,10],
+"struct_acts_1_1_track_selector_1_1_config.html#a9879a4e32553ecc929e6e9522505048c":[6,0,0,417,0,19],
+"struct_acts_1_1_track_selector_1_1_config.html#a9879a4e32553ecc929e6e9522505048c":[8,0,0,423,0,19],
+"struct_acts_1_1_track_selector_1_1_config.html#abad502ab167dfb1d932702cb69464ce8":[6,0,0,417,0,0],
+"struct_acts_1_1_track_selector_1_1_config.html#abad502ab167dfb1d932702cb69464ce8":[8,0,0,423,0,0],
+"struct_acts_1_1_track_selector_1_1_config.html#ac2c1e9129f47782d127dfb2e6e502baf":[6,0,0,417,0,8],
+"struct_acts_1_1_track_selector_1_1_config.html#ac2c1e9129f47782d127dfb2e6e502baf":[8,0,0,423,0,8],
 "struct_acts_1_1_track_selector_1_1_config.html#ac72c787e979a1a63c70edb8f8ee0ec12":[6,0,0,417,0,12],
 "struct_acts_1_1_track_selector_1_1_config.html#ac72c787e979a1a63c70edb8f8ee0ec12":[8,0,0,423,0,12],
 "struct_acts_1_1_track_selector_1_1_config.html#ac7acf91cedb5e6b61bff6e5d9a6c11c3":[6,0,0,417,0,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[6,0,0,437,4],
 "struct_acts_1_1_value_holder.html#aefadac57fcbab7ebe1dfd0079ab2964a":[8,0,0,443,4],
 "struct_acts_1_1_vertex_info.html":[6,0,0,442],
-"struct_acts_1_1_vertex_info.html":[8,0,0,448],
-"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,442,6],
-"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,448,6],
-"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,442,7],
-"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[8,0,0,448,7],
-"struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[6,0,0,442,4],
-"struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[8,0,0,448,4],
-"struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415":[6,0,0,442,0],
-"struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415":[8,0,0,448,0]
+"struct_acts_1_1_vertex_info.html":[8,0,0,448]
 };

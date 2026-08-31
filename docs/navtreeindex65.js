@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[6,0,0,442,6],
+"struct_acts_1_1_vertex_info.html#a1f473c9d838c216bac3059cb1090f15b":[8,0,0,448,6],
+"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[6,0,0,442,7],
+"struct_acts_1_1_vertex_info.html#a37de788fd7112a8e475747cf96cd816d":[8,0,0,448,7],
+"struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[6,0,0,442,4],
+"struct_acts_1_1_vertex_info.html#a37fbf4d6a07127813869bef4eddcca10":[8,0,0,448,4],
+"struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415":[6,0,0,442,0],
+"struct_acts_1_1_vertex_info.html#a50babdd609142438ac41d7ad7784a415":[8,0,0,448,0],
 "struct_acts_1_1_vertex_info.html#a749dc13ddc68140c10ef28625be8575d":[6,0,0,442,2],
 "struct_acts_1_1_vertex_info.html#a749dc13ddc68140c10ef28625be8575d":[8,0,0,448,2],
 "struct_acts_1_1_vertex_info.html#acfa64785ef451c97196b2fbb3257a27e":[6,0,0,442,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "struct_acts_fatras_1_1_bethe_bloch.html#a41c3539cfc917c899fa2ba2786e3035d":[6,0,2,3,0],
 "struct_acts_fatras_1_1_bethe_bloch.html#a41c3539cfc917c899fa2ba2786e3035d":[8,0,1,4,0],
 "struct_acts_fatras_1_1_bethe_bloch.html#a96b595a940ab83f747e87e090aacf436":[6,0,2,3,1],
-"struct_acts_fatras_1_1_bethe_bloch.html#a96b595a940ab83f747e87e090aacf436":[8,0,1,4,1],
-"struct_acts_fatras_1_1_bethe_bloch.html#aea1be459fcde54d39213820934b0eb5d":[6,0,2,3,2],
-"struct_acts_fatras_1_1_bethe_bloch.html#aea1be459fcde54d39213820934b0eb5d":[8,0,1,4,2],
-"struct_acts_fatras_1_1_bethe_heitler.html":[6,0,2,4],
-"struct_acts_fatras_1_1_bethe_heitler.html":[8,0,1,5],
-"struct_acts_fatras_1_1_bethe_heitler.html#a1cd881d2c29527ea63f10a77edb95413":[6,0,2,4,1],
-"struct_acts_fatras_1_1_bethe_heitler.html#a1cd881d2c29527ea63f10a77edb95413":[8,0,1,5,1],
-"struct_acts_fatras_1_1_bethe_heitler.html#a4f3b134a71a027330a75094816d7e21b":[6,0,2,4,3],
-"struct_acts_fatras_1_1_bethe_heitler.html#a4f3b134a71a027330a75094816d7e21b":[8,0,1,5,3]
+"struct_acts_fatras_1_1_bethe_bloch.html#a96b595a940ab83f747e87e090aacf436":[8,0,1,4,1]
 };

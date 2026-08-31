@@ -2,6 +2,7 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
 [
     [ "addTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a0d6e4c5a2cf343f7f59c8425bd6c66ea", null ],
     [ "beamSpotCorrection", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a69d65707c1b9ca7b4b7e810c2a1b82dc", null ],
+    [ "calibrateStrips", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a058e668b4321c0a36fb4c562be7e9b5d", null ],
     [ "connectorInputFile", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aa3823b2652a80bc1f0250e563189236b", null ],
     [ "cutDCurvMax", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a68cdff591efb376dfee14f9fe55ed3e1", null ],
     [ "cutDPhiMax", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a465d681bd667b3c19f2fa6bd2080c30e", null ],
@@ -28,7 +29,9 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "moduleHalfLengthY", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a513d09cd1389390b572910364bdfb7d2", null ],
     [ "nMaxEdges", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a2fb3e6308bafe4ed4f4709e30e6fab7b", null ],
     [ "nMaxPhiSlice", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a79c862ffa025d4329f07e89252eab8f6", null ],
+    [ "stripLengthTolerance", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a2f9b7b4ee3719abe0a786912380b06e2", null ],
     [ "tauRatioCorr", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#ae1affe4469d4447b1a24fe44d001c92d", null ],
+    [ "tauRatioCorrStrip", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a380aab10a082b9dc62c962e7c1b07d6f", null ],
     [ "tauRatioCut", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a8728aedf9b55147fee5ce9ae985bed3e", null ],
     [ "tauRatioPrecut", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#abbb8af4668248a914870589c2d13d7db", null ],
     [ "useAdaptiveCuts", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af4cb7d81cde3c1c9469ebbb821f2ee17", null ],

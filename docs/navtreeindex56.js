@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8ba5beaaee49a85b0f9a60152c8fbd5f":[6,0,0,1,49,0,7],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8ba5beaaee49a85b0f9a60152c8fbd5f":[8,0,0,2,49,0,7],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8e3f88d57d76cfa102dc6b63e7128045":[6,0,0,1,49,0,13],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8e3f88d57d76cfa102dc6b63e7128045":[8,0,0,2,49,0,13],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#aa0c8991658ae59fcb094cba7f6845a35":[6,0,0,1,49,0,11],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#aa0c8991658ae59fcb094cba7f6845a35":[8,0,0,2,49,0,11],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#aad4d9f3bd4a8af91ed64eda446426f19":[6,0,0,1,49,0,0],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#aad4d9f3bd4a8af91ed64eda446426f19":[8,0,0,2,49,0,0],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#ab2f72b41da3a90401835db124627e81f":[6,0,0,1,49,0,9],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#ab2f72b41da3a90401835db124627e81f":[8,0,0,2,49,0,9],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#ac33741bb0eedf4737e3a5a0a5e2e19bb":[6,0,0,1,49,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_globally_indexed_material_accessor.html#abe070b15ec816f5a57295c30d388c637":[5,3,2,5,0],
 "struct_acts_1_1_graph_viz_1_1_edge.html":[8,0,0,3,0],
 "struct_acts_1_1_graph_viz_1_1_edge.html#a16eda8eb4bfae7de386f0b1bd2e8d398":[8,0,0,3,0,1],
-"struct_acts_1_1_graph_viz_1_1_edge.html#a281a8acb960bb6a380ef5ecf2c12c1d4":[8,0,0,3,0,0],
-"struct_acts_1_1_graph_viz_1_1_edge.html#accdbf9ca1e8a470903c60f5430229ae4":[8,0,0,3,0,2],
-"struct_acts_1_1_graph_viz_1_1_node.html":[8,0,0,3,1],
-"struct_acts_1_1_graph_viz_1_1_node.html#a05ac405f92204a03077dcf72d25f3e43":[8,0,0,3,1,2],
-"struct_acts_1_1_graph_viz_1_1_node.html#a2e03944af334f0dcdf04d6302cf98a22":[8,0,0,3,1,0],
-"struct_acts_1_1_graph_viz_1_1_node.html#a85a86e00f0f01b4bf7875ea47fed8e61":[8,0,0,3,1,3],
-"struct_acts_1_1_graph_viz_1_1_node.html#adde1760cb23115c76cf3ec36ab036cf6":[8,0,0,3,1,1],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[6,0,0,169,0],
-"struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html":[8,0,0,175,0]
+"struct_acts_1_1_graph_viz_1_1_edge.html#a281a8acb960bb6a380ef5ecf2c12c1d4":[8,0,0,3,0,0]
 };

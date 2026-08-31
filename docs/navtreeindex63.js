@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_surface_collector.html#a5d0714d9cbd6b4bb939e5c7e2ff55e0e":[8,0,0,399,1],
+"struct_acts_1_1_surface_collector.html#aad81eceff0c9dca30a9394accf70c02b":[6,0,0,393,2],
+"struct_acts_1_1_surface_collector.html#aad81eceff0c9dca30a9394accf70c02b":[8,0,0,399,2],
+"struct_acts_1_1_surface_collector.html#aeadf67e6d40ac842f6fbf88c2d6aa6d1":[6,0,0,393,3],
+"struct_acts_1_1_surface_collector.html#aeadf67e6d40ac842f6fbf88c2d6aa6d1":[8,0,0,399,3],
+"struct_acts_1_1_surface_collector_1_1this__result.html":[6,0,0,393,0],
+"struct_acts_1_1_surface_collector_1_1this__result.html":[8,0,0,399,0],
+"struct_acts_1_1_surface_collector_1_1this__result.html#a974ac20a2924aff5220debfd7fae5d0b":[6,0,0,393,0,0],
 "struct_acts_1_1_surface_collector_1_1this__result.html#a974ac20a2924aff5220debfd7fae5d0b":[8,0,0,399,0,0],
 "struct_acts_1_1_surface_hit.html":[6,0,0,394],
 "struct_acts_1_1_surface_hit.html":[8,0,0,400],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_track_selector_1_1_config.html#a7b5e00c4d3c024aefd6e7fa405c96768":[6,0,0,417,0,27],
 "struct_acts_1_1_track_selector_1_1_config.html#a7b5e00c4d3c024aefd6e7fa405c96768":[8,0,0,423,0,27],
 "struct_acts_1_1_track_selector_1_1_config.html#a7c22fb63faf9249eb399fcc1836b5fd2":[6,0,0,417,0,18],
-"struct_acts_1_1_track_selector_1_1_config.html#a7c22fb63faf9249eb399fcc1836b5fd2":[8,0,0,423,0,18],
-"struct_acts_1_1_track_selector_1_1_config.html#a7ca134e53ef71f66a64814f7a66f05e8":[6,0,0,417,0,10],
-"struct_acts_1_1_track_selector_1_1_config.html#a7ca134e53ef71f66a64814f7a66f05e8":[8,0,0,423,0,10],
-"struct_acts_1_1_track_selector_1_1_config.html#a9879a4e32553ecc929e6e9522505048c":[6,0,0,417,0,19],
-"struct_acts_1_1_track_selector_1_1_config.html#a9879a4e32553ecc929e6e9522505048c":[8,0,0,423,0,19],
-"struct_acts_1_1_track_selector_1_1_config.html#abad502ab167dfb1d932702cb69464ce8":[6,0,0,417,0,0],
-"struct_acts_1_1_track_selector_1_1_config.html#abad502ab167dfb1d932702cb69464ce8":[8,0,0,423,0,0],
-"struct_acts_1_1_track_selector_1_1_config.html#ac2c1e9129f47782d127dfb2e6e502baf":[6,0,0,417,0,8],
-"struct_acts_1_1_track_selector_1_1_config.html#ac2c1e9129f47782d127dfb2e6e502baf":[8,0,0,423,0,8]
+"struct_acts_1_1_track_selector_1_1_config.html#a7c22fb63faf9249eb399fcc1836b5fd2":[8,0,0,423,0,18]
 };

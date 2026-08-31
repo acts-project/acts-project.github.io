@@ -157,6 +157,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaMS</b> = 0.016<
 <tr class="memitem:a586b5eef778e3ef52b69703439b8d1fa" id="r_a586b5eef778e3ef52b69703439b8d1fa"><td class="memItemLeft" align="right" valign="top"><a id="a586b5eef778e3ef52b69703439b8d1fa" name="a586b5eef778e3ef52b69703439b8d1fa"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaX</b> = 0.08 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a586b5eef778e3ef52b69703439b8d1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement uncertainty in x direction. <br /></td></tr>
+<tr class="memitem:a0438d7811043e4726873110b5f62c2a4" id="r_a0438d7811043e4726873110b5f62c2a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0438d7811043e4726873110b5f62c2a4">sigmaXStrip</a> = 0.03 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+<tr class="memdesc:a0438d7811043e4726873110b5f62c2a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Across the strips only.  <br /></td></tr>
 <tr class="memitem:ad14af0c7a38f8682ae7eabb574ec7eb2" id="r_ad14af0c7a38f8682ae7eabb574ec7eb2"><td class="memItemLeft" align="right" valign="top"><a id="ad14af0c7a38f8682ae7eabb574ec7eb2" name="ad14af0c7a38f8682ae7eabb574ec7eb2"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>sigmaY</b> = 0.25 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:ad14af0c7a38f8682ae7eabb574ec7eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement uncertainty in y direction. <br /></td></tr>
@@ -169,7 +171,25 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>weightY</b> = 0.5</t
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for the tracking filter. </p>
-</div></div><!-- contents -->
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a0438d7811043e4726873110b5f62c2a4" name="a0438d7811043e4726873110b5f62c2a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0438d7811043e4726873110b5f62c2a4">&#9670;&#160;</a></span>sigmaXStrip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Acts::Experimental::GbtsTrackingFilter::Config::sigmaXStrip = 0.03 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Across the strips only. </p>
+<p>The along-strip resolution is not configured: it is derived per node from the node's own strip. See <span class="tt">update</span>. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

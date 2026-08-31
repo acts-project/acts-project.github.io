@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[6,0,2,33,0,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[8,0,1,34,0,0],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[6,0,2,33,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[8,0,1,34,0,3],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[6,0,2,33,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html":[8,0,1,34,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[6,0,2,33,1,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a12d9c8ed1d75661c4069d32e2fedb320":[8,0,1,34,1,2],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[6,0,2,33,1,3],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a19990c7b2f1fbe1a9c88ae9cc8517a2f":[8,0,1,34,1,3],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_step.html#a1e6716149006f7657b75db9d3ae4e517":[6,0,2,33,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,3,2,0],
 "struct_acts_plugins_1_1_geant4_shape_converter.html":[5,10,7,5],
 "struct_acts_plugins_1_1_geant4_shape_converter.html#a015fb69d8527053be5599230181d7ae2":[5,10,7,5,2],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,10,7,5,0],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a179061b20780527ad4277a0c5e6c39f2":[5,10,7,5,8],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a5fad34fff7ef9d3cb6ba8add66a56a32":[5,10,7,5,6],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a7e330333bee06083c59b7641eeb59096":[5,10,7,5,1],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#aaf8b9aa81ba26700b285afb4498e68d7":[5,10,7,5,4],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#abf16a11661c56c0a05b1f3c2c99ef1d3":[5,10,7,5,3],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#ac20cda2bfc031e43465935ce49dfd13c":[5,10,7,5,5],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#ac33129338df0d4a44e74efe237d5c04b":[5,10,7,5,7],
-"struct_acts_plugins_1_1_geant4_volume_converter.html":[5,10,7,6]
+"struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,10,7,5,0]
 };
