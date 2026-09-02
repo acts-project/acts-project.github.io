@@ -129,13 +129,11 @@ $(function(){initNavTree('group__logging__thresholds.html','',''); });
 <p>Functions and classes to manage logging failure thresholds. </p>
 <p>Generally, log levels in ACTS are only of informative value: even <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba0fa06a343ee1bc0d2de92eefed40526e">Acts::Logging::Level::ERROR</a> and <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba59165d66154c9163f109689239d9f987">Acts::Logging::Level::FATAL</a> will only print messages, <b>and not terminate execution</b>.</p>
 <p>This is desirable in an experiment context, where jobs should not immediately terminate when ACTS encounters something that is logged as an error. In a test context, however, this behavior is not optimal: the tests should ensure in known configurations errors do not occur, or only in specific circumstances. To solve this, ACTS implements an optional log <em>threshold</em> mechanism.</p>
-<p>The threshold mechanism is steered via two CMake options: <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD</span> and <span class="tt">ACTS_LOG_FAILURE_THRESHOLD</span>. Depending on their configuration, the logging can operate in three modes:</p>
+<p>The threshold mechanism is steered via the CMake option <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD</span>, so the logging operates in one of two modes:</p>
 <ol type="1">
 <li><b>No log failure threshold</b> exists, log levels are informative only. This is the default behavior.</li>
-<li>A <b>compile-time log failure threshold</b> is set. If <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span> and <span class="tt">ACTS_LOG_FAILURE_THRESHOLD=&lt;LEVEL&gt;</span> are set, the logger code will compile in a fixed check if the log level of a particular message exceeds <span class="tt">&lt;LEVEL&gt;</span>. If that is the case, an exception of type <a class="el" href="class_acts_1_1_logging_1_1_threshold_failure.html">Acts::Logging::ThresholdFailure</a> is thrown.</li>
-<li>A <b>runtime log failure threshold</b> is set. If only <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span> and no fixed threshold level is set, the logger code will compile in a check of a global runtime threshold variable.</li>
+<li>A <b>runtime log failure threshold</b> is available. With <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span> the logger code compiles in a check against a global threshold variable, seeded from the <span class="tt">ACTS_LOG_FAILURE_THRESHOLD</span> environment variable and settable with <a class="el" href="#ga0a0dd0cd0ea7f3498fc0cd1229f5015a">Acts::Logging::setFailureThreshold</a>. A message at or above it raises <a class="el" href="class_acts_1_1_logging_1_1_threshold_failure.html">Acts::Logging::ThresholdFailure</a> after it has been emitted. The threshold defaults to <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba6fc630a9bf280f694fc9df7ea268400c">Acts::Logging::Level::MAX</a>, so an enabled build with no threshold set behaves like a disabled one. </li>
 </ol>
-<dl class="section note"><dt>Note</dt><dd>If only <span class="tt">ACTS_LOG_FAILURE_THRESHOLD</span> is set, <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD</span> will be set automatically, i.e. a compile-time threshold will be set. </dd></dl>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -169,7 +167,7 @@ Functions</h2></td></tr>
 
 <p>Get debug level above which an exception will be thrown after logging. </p>
 <p>All messages with a debug level equal or higher than the return value of this function will cause an exception to be thrown after log emission.</p>
-<dl class="section note"><dt>Note</dt><dd>Depending on preprocessor settings <code>ACTS_ENABLE_LOG_FAILURE_THRESHOLD</code> and <code>ACTS_LOG_FAILURE_THRESHOLD</code>, this operations is either constexpr or a runtime operation. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Depending on the preprocessor setting <code>ACTS_ENABLE_LOG_FAILURE_THRESHOLD</code> this operation is either constexpr or a runtime operation. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The log level threshold for failure </dd></dl>
 
 </div>
@@ -192,7 +190,7 @@ Functions</h2></td></tr>
 <p>Set debug level above which an exception will be thrown after logging. </p>
 <p>All messages with a debug level equal or higher than <code class="param">level</code> will cause an exception to be thrown after log emission.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The runtime log failure threshold is <b>global state</b>, therefore this function is <b>not threadsafe</b>. The intention is that this level is set once, before multi-threaded execution begins, and then not modified before the end of the job. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This function is only available if <code>ACTS_LOG_FAILURE_THRESHOLD</code> is unset, i.e. no compile-time threshold is used. Otherwise an exception is thrown. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function is only available if <code>ACTS_ENABLE_LOG_FAILURE_THRESHOLD</code> is set. Otherwise an exception is thrown. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">level</td><td>Log level above which exceptions will be thrown </td></tr>

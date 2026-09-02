@@ -322,18 +322,17 @@ Logger Integration</h2>
 Logging Thresholds</h2>
 <p>Generally, log levels in ACTS are only of informative value: even <a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba0fa06a343ee1bc0d2de92eefed40526e">Acts::Logging::Level::ERROR</a> and <a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba59165d66154c9163f109689239d9f987">Acts::Logging::Level::FATAL</a> will only print messages, <b>and not terminate execution</b>.</p>
 <p>This is desirable in an experiment context, where jobs should not immediately terminate when ACTS encounters something that is logged as an error. In a test context, however, this behavior is not optimal: the tests should ensure in known configurations errors do not occur, or only in specific circumstances. To solve this, ACTS implements an optional log <em>threshold</em> mechanism.</p>
-<p>The threshold mechanism is steered via two CMake options: <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD</span> and <span class="tt">ACTS_LOG_FAILURE_THRESHOLD</span>. Depending on their configuration, the logging can operate in three modes:</p>
+<p>The threshold mechanism is steered via the CMake option <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD</span>, so the logging operates in one of two modes:</p>
 <ol type="1">
 <li><b>No log failure threshold</b> exists, log levels are informative only. This is the default behavior.</li>
-<li>A <b>compile-time log failure threshold</b> is set. If <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span> and <span class="tt">ACTS_LOG_FAILURE_THRESHOLD=&lt;LEVEL&gt;</span> are set, the logger code will compile in a fixed check if the log level of a particular message exceeds <span class="tt">&lt;LEVEL&gt;</span>. If that is the case, an exception of type <a class="el" href="class_acts_1_1_logging_1_1_threshold_failure.html">Acts::Logging::ThresholdFailure</a> is thrown.</li>
-<li>A <b>runtime log failure threshold</b> is set. If only <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span> and no fixed threshold level is set, the logger code will compile in a check of a global runtime threshold variable.</li>
+<li>A <b>runtime log failure threshold</b> is available. With <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span> the logger code compiles in a check against a global threshold variable, seeded from the <span class="tt">ACTS_LOG_FAILURE_THRESHOLD</span> environment variable and settable with <a class="el" href="group__logging__thresholds.html#ga0a0dd0cd0ea7f3498fc0cd1229f5015a">Acts::Logging::setFailureThreshold</a>. A message at or above it raises <a class="el" href="class_acts_1_1_logging_1_1_threshold_failure.html">Acts::Logging::ThresholdFailure</a> after it has been emitted. The threshold defaults to <a class="el" href="#gga9b12dd924a4bd3aed921a33779ece95ba6fc630a9bf280f694fc9df7ea268400c">Acts::Logging::Level::MAX</a>, so an enabled build with no threshold set behaves like a disabled one.   </li>
 </ol>
-<dl class="section note"><dt>Note</dt><dd>If only <span class="tt">ACTS_LOG_FAILURE_THRESHOLD</span> is set, <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD</span> will be set automatically, i.e. a compile-time threshold will be set.   </dd></dl>
 <p>Two main functions exist to interact with the failure threshold:</p>
 <ul>
 <li><a class="el" href="group__logging__thresholds.html#ga9dba39c9c5ccaafe81f27f56937d7f3a">Acts::Logging::getFailureThreshold</a></li>
-<li><a class="el" href="group__logging__thresholds.html#ga0a0dd0cd0ea7f3498fc0cd1229f5015a">Acts::Logging::setFailureThreshold</a> </li>
+<li><a class="el" href="group__logging__thresholds.html#ga0a0dd0cd0ea7f3498fc0cd1229f5015a">Acts::Logging::setFailureThreshold</a></li>
 </ul>
+<p>Both are only functional in a build configured with <span class="tt">ACTS_ENABLE_LOG_FAILURE_THRESHOLD=ON</span>; otherwise the check is compiled out and <a class="el" href="group__logging__thresholds.html#ga0a0dd0cd0ea7f3498fc0cd1229f5015a">Acts::Logging::setFailureThreshold</a> throws. </p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-groups" class="groupheader"><a id="groups" name="groups"></a>
 Topics</h2></td></tr>
