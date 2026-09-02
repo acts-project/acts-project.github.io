@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a1568b8f750b95bbbd60a895a74d88e74":[8,0,1,34,0,2],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[6,0,2,33,0,1],
+"struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51":[8,0,1,34,0,1],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[6,0,2,33,0,0],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#aa99b19ab058da8ac47d40b575aae713d":[8,0,1,34,0,0],
 "struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#adffccc7f36d7329852713f85bd07bc9a":[6,0,2,33,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html":[8,0,2,3,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4c675108b48c3ba38144ce2d371a1e9d":[8,0,2,3,2,2],
 "struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d2105318bee96f104b5a40732b12291":[8,0,2,3,2,1],
-"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,3,2,0],
-"struct_acts_plugins_1_1_geant4_shape_converter.html":[5,10,7,5],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a015fb69d8527053be5599230181d7ae2":[5,10,7,5,2],
-"struct_acts_plugins_1_1_geant4_shape_converter.html#a0c629417caf6d802ca475506ff2c7a71":[5,10,7,5,0]
+"struct_acts_plugins_1_1_geant4_physical_volume_selectors_1_1_position_selector.html#a4d4dc353118f52ffd25d25e65b6e2af7":[8,0,2,3,2,0]
 };

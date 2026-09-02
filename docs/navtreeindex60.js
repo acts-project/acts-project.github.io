@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ac10b44c3e812160d82bf82dd6eca85d7":[8,0,0,11,0,9],
+"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ad5c3093b2432ca94921320359834c52b":[8,0,0,11,0,3],
+"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#adadf65077d823e2562cf062dae00c7e9":[8,0,0,11,0,1],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ae14fcd6d4b1f27092379bd0f6127ed82":[8,0,0,11,0,6],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ae9da1e35a604907e5a699fe9e1defc13":[8,0,0,11,0,2],
 "struct_acts_1_1_multi_wire_volume_builder_1_1_config.html":[6,0,0,291,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_path_limit_reached.html#ac3f41fb4de9da3b3531cc018adec3e3a":[8,0,0,325,0],
 "struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96":[6,0,0,319,1],
 "struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96":[8,0,0,325,1],
-"struct_acts_1_1_polyhedron.html":[6,0,0,327],
-"struct_acts_1_1_polyhedron.html":[8,0,0,333],
-"struct_acts_1_1_polyhedron.html#a0508d64c486687fb4666cb4022b75389":[6,0,0,327,2],
-"struct_acts_1_1_polyhedron.html#a0508d64c486687fb4666cb4022b75389":[8,0,0,333,2]
+"struct_acts_1_1_polyhedron.html":[6,0,0,327]
 };

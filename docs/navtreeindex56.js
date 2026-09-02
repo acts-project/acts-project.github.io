@@ -1,5 +1,8 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a1b5a97905015173044b642d040e18681":[8,0,0,2,49,0,2],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a2181b6686b7a6a1d79fd62845f55a7d7":[6,0,0,1,49,0,10],
+"struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a2181b6686b7a6a1d79fd62845f55a7d7":[8,0,0,2,49,0,10],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8ba5beaaee49a85b0f9a60152c8fbd5f":[6,0,0,1,49,0,7],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8ba5beaaee49a85b0f9a60152c8fbd5f":[8,0,0,2,49,0,7],
 "struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config.html#a8e3f88d57d76cfa102dc6b63e7128045":[6,0,0,1,49,0,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_globally_indexed_material_accessor.html#a3db24238ed5ecb7b055a881d460797cc":[5,3,2,5,1],
 "struct_acts_1_1_globally_indexed_material_accessor.html#a5f8d0ebcfdc369b1ea331097903f34e0":[5,3,2,5,5],
 "struct_acts_1_1_globally_indexed_material_accessor.html#aa5b0317f113d860592142d5aafa57a97":[5,3,2,5,3],
-"struct_acts_1_1_globally_indexed_material_accessor.html#abe070b15ec816f5a57295c30d388c637":[5,3,2,5,0],
-"struct_acts_1_1_graph_viz_1_1_edge.html":[8,0,0,3,0],
-"struct_acts_1_1_graph_viz_1_1_edge.html#a16eda8eb4bfae7de386f0b1bd2e8d398":[8,0,0,3,0,1],
-"struct_acts_1_1_graph_viz_1_1_edge.html#a281a8acb960bb6a380ef5ecf2c12c1d4":[8,0,0,3,0,0]
+"struct_acts_1_1_globally_indexed_material_accessor.html#abe070b15ec816f5a57295c30d388c637":[5,3,2,5,0]
 };

@@ -70,7 +70,8 @@ var namespace_acts_1_1_experimental =
     [ "Histogram2", "namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b", null ],
     [ "Histogram3", "namespace_acts_1_1_experimental.html#adb2f348e5996f059013d8e63956bf13b", null ],
     [ "ProfileHistogram1", "namespace_acts_1_1_experimental.html#a86b6921d96e21d6d59b402d8814a9484", null ],
-    [ "GbtsLayerType", "namespace_acts_1_1_experimental.html#adc40496b7e98a00264506934ceda5f71", null ],
+    [ "GbtsLayerTechnology", "namespace_acts_1_1_experimental.html#a16484743f7773ff1f7334e255a3d06cf", null ],
+    [ "GbtsLayerType", "namespace_acts_1_1_experimental.html#a571d8b9ac35ce16e05d33d11b425e1e9", null ],
     [ "GlobalChiSquareFitterError", "group__errors.html#ga743e4af777584b0f5274baa245f128d2", [
       [ "AIsNotInvertible", "group__errors.html#gga743e4af777584b0f5274baa245f128d2abda334b90ca5a489bfa49108e74d742b", null ],
       [ "DidNotConverge", "group__errors.html#gga743e4af777584b0f5274baa245f128d2a3b3d2eb22dedef6fb1b0764f548a47ad", null ],

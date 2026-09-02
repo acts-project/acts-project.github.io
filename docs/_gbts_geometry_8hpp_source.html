@@ -167,8 +167,8 @@ $(function(){initNavTree('_gbts_geometry_8hpp_source.html','',''); });
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">const</span> detail::GbtsLayer&amp; layerByIndex(std::int32_t idx) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  std::uint32_t layerIdByIndex(std::uint32_t idx)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">return</span> m_layers.at(idx).layerDescription().id;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keyword">const</span> GbtsLayerDescription&amp; layerDescriptionByIndex(std::int32_t idx)<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">return</span> layerByIndex(idx).layerDescription();</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keyword">const</span> detail::GbtsLayer&amp; createLayer(</div>
