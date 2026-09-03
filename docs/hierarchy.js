@@ -257,6 +257,7 @@ var hierarchy =
     [ "Acts::Experimental::GbtsRoiDescriptor", "class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html", null ],
     [ "Acts::Experimental::GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", null ],
     [ "Acts::Experimental::GbtsTrackingFilter::Config", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html", null ],
+    [ "Acts::Experimental::GbtsZ0Range", "struct_acts_1_1_experimental_1_1_gbts_z0_range.html", null ],
     [ "Acts::Experimental::GraphBasedTrackSeeder", "class_acts_1_1_experimental_1_1_graph_based_track_seeder.html", null ],
     [ "Acts::Experimental::GraphBasedTrackSeeder::Config", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html", [
       [ "Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_derived_config.html", null ]

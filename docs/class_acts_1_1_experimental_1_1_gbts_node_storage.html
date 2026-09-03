@@ -142,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a610b5ace127ec1b9bf1d475cfbdd2945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert every space point of a container.  <br /></td></tr>
 <tr class="memitem:a5ad9048531dd80d0235ba5ee480b299e" id="r_a5ad9048531dd80d0235ba5ee480b299e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ad9048531dd80d0235ba5ee480b299e">finalize</a> ()</td></tr>
 <tr class="memdesc:a5ad9048531dd80d0235ba5ee480b299e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the nodes by (eta bin, phi) and build the derived per-node data.  <br /></td></tr>
+<tr class="memitem:a5e55b607221077baa8e2d4aec22ccb49" id="r_a5e55b607221077baa8e2d4aec22ccb49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e55b607221077baa8e2d4aec22ccb49">hasStrips</a> () const</td></tr>
+<tr class="memdesc:a5e55b607221077baa8e2d4aec22ccb49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether any node carries a stereo pair, i.e.  <br /></td></tr>
 <tr class="memitem:a047d5afdb6232a7deee17294001e1a1a" id="r_a047d5afdb6232a7deee17294001e1a1a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a047d5afdb6232a7deee17294001e1a1a">insert</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;sp, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; std::uint32_t &gt; &amp;layerColumn, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; float &gt; &amp;clusterWidthColumn, const <a class="el" href="namespace_acts.html#a5252cf9e661478d7ff7731b37a60cc4c">ConstSpacePointColumnProxy</a>&lt; float &gt; &amp;localPositionYColumn, bool strips=false)</td></tr>
 <tr class="memdesc:a047d5afdb6232a7deee17294001e1a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point from an ACTS space point container.  <br /></td></tr>
 <tr class="memitem:a5abe7f3327dc01b9e2899c02d603b100" id="r_a5abe7f3327dc01b9e2899c02d603b100"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5abe7f3327dc01b9e2899c02d603b100">insert</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, float x, float y, float z, float r, float phi, std::uint32_t layerIndex, float clusterWidth=0.f, float localPositionY=0.f, const <a class="el" href="struct_acts_1_1_outer_strip_space_point_calibration_details.html">OuterStripSpacePointCalibrationDetails</a> *strip=nullptr)</td></tr>
@@ -155,6 +157,12 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="#a37bc5dbf6347621ecb6ee0b4ea154621">GbtsNodeStorage</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="#a37bc5dbf6347621ecb6ee0b4ea154621">GbtsNodeStorage</a> &amp;&amp;)=delete</td></tr>
 <tr class="memitem:ada739a97158059c541c023fdc7d5378e" id="r_ada739a97158059c541c023fdc7d5378e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada739a97158059c541c023fdc7d5378e">spacePointIndex</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> node) const</td></tr>
 <tr class="memdesc:ada739a97158059c541c023fdc7d5378e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map a node index back to the index the caller used when inserting it.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ad7803ac0720606dbea3e8f7304100879" id="r_ad7803ac0720606dbea3e8f7304100879"><td class="memItemLeft" align="right" valign="top"><a id="ad7803ac0720606dbea3e8f7304100879" name="ad7803ac0720606dbea3e8f7304100879"></a>
+static constexpr std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>kMaxPhiSortBuckets</b> = 31</td></tr>
+<tr class="memdesc:ad7803ac0720606dbea3e8f7304100879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum <span class="tt">Config::phiSortBuckets</span>; sizes the fixed bucket array. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Storage for the GBTS graph nodes. </p>
@@ -220,6 +228,26 @@ Public Member Functions</h2></td></tr>
 
 <p>Sort the nodes by (eta bin, phi) and build the derived per-node data. </p>
 <p>Must be called once after all inserts and before the storage is read. </p>
+
+</div>
+</div>
+<a id="a5e55b607221077baa8e2d4aec22ccb49" name="a5e55b607221077baa8e2d4aec22ccb49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e55b607221077baa8e2d4aec22ccb49">&#9670;&#160;</a></span>hasStrips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acts::Experimental::GbtsNodeStorage::hasStrips </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether any node carries a stereo pair, i.e. </p>
+<p>whether the graph has a strip path to take. A caller that fed strip space points in can check here that their pairs arrived. </p><dl class="section return"><dt>Returns</dt><dd>Whether there are any </dd></dl>
 
 </div>
 </div>

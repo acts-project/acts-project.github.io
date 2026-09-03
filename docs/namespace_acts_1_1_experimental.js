@@ -25,6 +25,7 @@ var namespace_acts_1_1_experimental =
     [ "GbtsNodeStorage", "class_acts_1_1_experimental_1_1_gbts_node_storage.html", "class_acts_1_1_experimental_1_1_gbts_node_storage" ],
     [ "GbtsRoiDescriptor", "class_acts_1_1_experimental_1_1_gbts_roi_descriptor.html", "class_acts_1_1_experimental_1_1_gbts_roi_descriptor" ],
     [ "GbtsTrackingFilter", "class_acts_1_1_experimental_1_1_gbts_tracking_filter.html", "class_acts_1_1_experimental_1_1_gbts_tracking_filter" ],
+    [ "GbtsZ0Range", "struct_acts_1_1_experimental_1_1_gbts_z0_range.html", "struct_acts_1_1_experimental_1_1_gbts_z0_range" ],
     [ "GeometryIdentifierBlueprintNode", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node" ],
     [ "GraphBasedTrackSeeder", "class_acts_1_1_experimental_1_1_graph_based_track_seeder.html", "class_acts_1_1_experimental_1_1_graph_based_track_seeder" ],
     [ "Gx2Fitter", "class_acts_1_1_experimental_1_1_gx2_fitter.html", "class_acts_1_1_experimental_1_1_gx2_fitter" ],

@@ -1,9 +1,13 @@
 <map id="Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig" name="Acts::Experimental::GraphBasedTrackSeeder::DerivedConfig">
-<area shape="rect" id="Node000001" title="Derived configuration struct that contains calculated parameters based on the configuration." alt="" coords="5,315,193,369"/>
-<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html" title="Configuration struct for the GBTS seeding algorithm." alt="" coords="5,211,193,265"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,279,102,315,97,315,97,279"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="56,95,143,120"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,134,102,211,97,211,97,134"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="30,5,169,45"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="102,59,102,94,97,94,97,59"/>
+<area shape="rect" id="Node000001" title="Derived configuration struct that contains calculated parameters based on the configuration." alt="" coords="65,336,253,391"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html" title="Configuration struct for the GBTS seeding algorithm." alt="" coords="65,232,253,287"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,300,161,336,156,336,156,300"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="31,116,118,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,155,76,181,85,207,107,230,103,234,80,209,71,182,69,155"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,144,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="77,59,77,116,72,116,72,59"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="143,116,345,141"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="239,155,229,182,214,210,193,234,189,230,210,206,224,180,234,153"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="179,13,309,38"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="247,52,247,116,241,116,241,52"/>
 </map>

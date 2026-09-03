@@ -1,6 +1,8 @@
 var struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config =
 [
     [ "addHit", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab089fc01f5866e0777abf303b0dbab47", null ],
+    [ "initialVarianceX", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#afa9ddeefc78bac0e0c8bd3afd2048b64", null ],
+    [ "initialVarianceY", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#afed2caeb52d1657fe8215d93794b526f", null ],
     [ "maxCurvature", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab3fb92ed6f172affea9bfe1ebb944ef3", null ],
     [ "maxDChi2X", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ae2e6bc31a67f1154ddfde13c3ffcc9c7", null ],
     [ "maxDChi2Y", "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#af8e0ccd474270d2ab39ca6c5444532e3", null ],

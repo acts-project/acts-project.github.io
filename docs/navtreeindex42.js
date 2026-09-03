@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"class_acts_fatras_1_1_landau_distribution.html#abbadb97d72f201568dcc6dc5cb067bc9":[8,0,1,19,7],
+"class_acts_fatras_1_1_landau_distribution.html#ac28b2a6fa41c5e83c4c26b8f8d40d458":[6,0,2,18,1],
+"class_acts_fatras_1_1_landau_distribution.html#ac28b2a6fa41c5e83c4c26b8f8d40d458":[8,0,1,19,1],
+"class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[6,0,2,18,12],
 "class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[8,0,1,19,12],
 "class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[6,0,2,18,15],
 "class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[8,0,1,19,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "class_acts_plugins_1_1_d_d4hep_volume_builder.html#ad62f3c00ed0d05fc284b027ba5a82675":[5,10,2,5,3],
 "class_acts_plugins_1_1_d_walk_track_building.html":[5,10,6,3],
 "class_acts_plugins_1_1_d_walk_track_building.html#a20da9156d8427455a1492594f066cfd0":[5,10,6,3,2],
-"class_acts_plugins_1_1_d_walk_track_building.html#a344edac42fbb73a75229eafc99ab78e0":[5,10,6,3,1],
-"class_acts_plugins_1_1_d_walk_track_building.html#a3903f194ec6922cfb2ac2256045eb499":[5,10,6,3,3],
-"class_acts_plugins_1_1_detray_geometry_converter.html":[5,10,3,1],
-"class_acts_plugins_1_1_detray_geometry_converter.html#a8b4630ea81ac8aad5db94ecdc6413315":[5,10,3,1,2],
-"class_acts_plugins_1_1_detray_geometry_converter.html#aef1caba916d4984ff8bb055a421d14e6":[5,10,3,1,3]
+"class_acts_plugins_1_1_d_walk_track_building.html#a344edac42fbb73a75229eafc99ab78e0":[5,10,6,3,1]
 };

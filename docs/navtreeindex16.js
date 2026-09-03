@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"class_acts_1_1_extent.html":[6,0,0,141],
+"class_acts_1_1_extent.html":[8,0,0,147],
+"class_acts_1_1_extent.html#a046fc5694db76f63c1faaa84491c1054":[6,0,0,141,2],
+"class_acts_1_1_extent.html#a046fc5694db76f63c1faaa84491c1054":[8,0,0,147,2],
 "class_acts_1_1_extent.html#a0d8c7624c672bc497f8837f7054c6d46":[6,0,0,141,9],
 "class_acts_1_1_extent.html#a0d8c7624c672bc497f8837f7054c6d46":[8,0,0,147,9],
 "class_acts_1_1_extent.html#a20080a3fa537f25639db053b8dc6042c":[6,0,0,141,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "class_acts_1_1_gaussian_grid_track_density.html#ab7a5548d466ac8b506a4a1989253f458":[8,0,0,158,8],
 "class_acts_1_1_gaussian_grid_track_density.html#abd4cad88ab366f9cd6f3827ea1f1bf6d":[6,0,0,152,7],
 "class_acts_1_1_gaussian_grid_track_density.html#abd4cad88ab366f9cd6f3827ea1f1bf6d":[8,0,0,158,7],
-"class_acts_1_1_gaussian_grid_track_density.html#acd90567ee997cb603bba63a8b2060430":[6,0,0,152,1],
-"class_acts_1_1_gaussian_grid_track_density.html#acd90567ee997cb603bba63a8b2060430":[8,0,0,158,1],
-"class_acts_1_1_gaussian_track_density.html":[6,0,0,154],
-"class_acts_1_1_gaussian_track_density.html":[8,0,0,160],
-"class_acts_1_1_gaussian_track_density.html#a0c4b8a4a7a5670dc175fce3c48fe1c27":[6,0,0,154,3]
+"class_acts_1_1_gaussian_grid_track_density.html#acd90567ee997cb603bba63a8b2060430":[6,0,0,152,1]
 };

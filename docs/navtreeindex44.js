@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_plugins_1_1_root_histogram_fit.html#ad88aad06c0cabb1dca0f2a64b53b5a3f":[8,0,2,57,2],
+"class_acts_plugins_1_1_root_histogram_fit.html#adc89a8ef7829e952b3f748671cf90e34":[6,0,3,52,1],
+"class_acts_plugins_1_1_root_histogram_fit.html#adc89a8ef7829e952b3f748671cf90e34":[8,0,2,57,1],
+"class_acts_plugins_1_1_root_material_decorator.html":[5,10,12,2],
 "class_acts_plugins_1_1_root_material_decorator.html#a028a7dd6b5bb8a1bf76c7e1431b6f80b":[5,10,12,2,1],
 "class_acts_plugins_1_1_root_material_decorator.html#a1ab17ddc98f20aaf79d069f298dd5711":[5,10,12,2,2],
 "class_acts_plugins_1_1_root_material_decorator.html#a79c270de84205bbbfcdc11d0faa11c13":[5,10,12,2,4],
@@ -198,15 +202,15 @@ var NAVTREEINDEX44 =
 "concept_acts_1_1_const_track_proxy_concept.html":[7,0,18],
 "concept_acts_1_1_const_track_state_proxy_concept.html":[6,0,0,475],
 "concept_acts_1_1_const_track_state_proxy_concept.html":[7,0,19],
-"concept_acts_1_1_experimental_1_1_composite_space_point.html":[6,0,0,1,52],
+"concept_acts_1_1_experimental_1_1_composite_space_point.html":[6,0,0,1,53],
 "concept_acts_1_1_experimental_1_1_composite_space_point.html":[7,0,2,0],
-"concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html":[6,0,0,1,53],
+"concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html":[6,0,0,1,54],
 "concept_acts_1_1_experimental_1_1_composite_space_point_calibrator.html":[7,0,2,1],
-"concept_acts_1_1_experimental_1_1_composite_space_point_container.html":[6,0,0,1,54],
+"concept_acts_1_1_experimental_1_1_composite_space_point_container.html":[6,0,0,1,55],
 "concept_acts_1_1_experimental_1_1_composite_space_point_container.html":[7,0,2,2],
-"concept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator.html":[6,0,0,1,55],
+"concept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator.html":[6,0,0,1,56],
 "concept_acts_1_1_experimental_1_1_composite_space_point_fast_calibrator.html":[7,0,2,3],
-"concept_acts_1_1_experimental_1_1_composite_space_point_ptr.html":[6,0,0,1,56],
+"concept_acts_1_1_experimental_1_1_composite_space_point_ptr.html":[6,0,0,1,57],
 "concept_acts_1_1_experimental_1_1_composite_space_point_ptr.html":[7,0,2,4],
 "concept_acts_1_1_free_track_parameters_concept.html":[6,0,0,476],
 "concept_acts_1_1_free_track_parameters_concept.html":[7,0,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "concept_acts_1_1_track_container_frontend.html":[6,0,0,495],
 "concept_acts_1_1_track_container_frontend.html":[7,0,39],
 "concept_acts_1_1_track_proxy_concept.html":[6,0,0,497],
-"concept_acts_1_1_track_proxy_concept.html":[7,0,41],
-"concept_acts_1_1_track_state_proxy_concept.html":[6,0,0,498],
-"concept_acts_1_1_track_state_proxy_concept.html":[7,0,42],
-"concept_acts_1_1_tracking_volume_visitor.html":[6,0,0,496],
-"concept_acts_1_1_tracking_volume_visitor.html":[7,0,40]
+"concept_acts_1_1_track_proxy_concept.html":[7,0,41]
 };
