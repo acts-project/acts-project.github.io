@@ -1,5 +1,8 @@
 var NAVTREEINDEX42 =
 {
+"class_acts_fatras_1_1_landau_distribution.html#ae2b832188ae57eca535c23f975eed42c":[8,0,1,19,12],
+"class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[6,0,2,18,15],
+"class_acts_fatras_1_1_landau_distribution.html#afcacdfc58c67d6bf26b752ffd4fff620":[8,0,1,19,15],
 "class_acts_fatras_1_1_particle.html":[6,0,2,26],
 "class_acts_fatras_1_1_particle.html":[8,0,1,27],
 "class_acts_fatras_1_1_particle.html#a0109e589c93b001c2a0f501266260a62":[6,0,2,26,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX42 =
 "class_acts_plugins_1_1_d_walk_track_building.html#a3903f194ec6922cfb2ac2256045eb499":[5,10,6,3,3],
 "class_acts_plugins_1_1_detray_geometry_converter.html":[5,10,3,1],
 "class_acts_plugins_1_1_detray_geometry_converter.html#a8b4630ea81ac8aad5db94ecdc6413315":[5,10,3,1,2],
-"class_acts_plugins_1_1_detray_geometry_converter.html#aef1caba916d4984ff8bb055a421d14e6":[5,10,3,1,3],
-"class_acts_plugins_1_1_detray_payload_converter.html":[5,10,3,2],
-"class_acts_plugins_1_1_detray_payload_converter.html#a2840e76e22a9a76d7d8150cd321f0368":[5,10,3,2,4],
-"class_acts_plugins_1_1_detray_payload_converter.html#a2b921159db15734d73e130c6ae5aa83e":[5,10,3,2,16]
+"class_acts_plugins_1_1_detray_geometry_converter.html#aef1caba916d4984ff8bb055a421d14e6":[5,10,3,1,3]
 };

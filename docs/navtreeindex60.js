@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#a94505601e945a50a99b0de5ad5066806":[8,0,0,11,0,4],
+"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#aa0954fa684b22f5606a2dfb1f99dec02":[8,0,0,11,0,7],
+"struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#aaa040163b118207defdf856c937623d1":[8,0,0,11,0,8],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ac10b44c3e812160d82bf82dd6eca85d7":[8,0,0,11,0,9],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#ad5c3093b2432ca94921320359834c52b":[8,0,0,11,0,3],
 "struct_acts_1_1_multi_trajectory_helpers_1_1_trajectory_state.html#adadf65077d823e2562cf062dae00c7e9":[8,0,0,11,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_path_limit_reached.html":[6,0,0,319],
 "struct_acts_1_1_path_limit_reached.html":[8,0,0,325],
 "struct_acts_1_1_path_limit_reached.html#ac3f41fb4de9da3b3531cc018adec3e3a":[6,0,0,319,0],
-"struct_acts_1_1_path_limit_reached.html#ac3f41fb4de9da3b3531cc018adec3e3a":[8,0,0,325,0],
-"struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96":[6,0,0,319,1],
-"struct_acts_1_1_path_limit_reached.html#ae530cfb7adcbd4f28be85b2b2db78b96":[8,0,0,325,1],
-"struct_acts_1_1_polyhedron.html":[6,0,0,327]
+"struct_acts_1_1_path_limit_reached.html#ac3f41fb4de9da3b3531cc018adec3e3a":[8,0,0,325,0]
 };

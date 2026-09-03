@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_plugins_1_1_root_material_decorator.html#a028a7dd6b5bb8a1bf76c7e1431b6f80b":[5,10,12,2,1],
+"class_acts_plugins_1_1_root_material_decorator.html#a1ab17ddc98f20aaf79d069f298dd5711":[5,10,12,2,2],
+"class_acts_plugins_1_1_root_material_decorator.html#a79c270de84205bbbfcdc11d0faa11c13":[5,10,12,2,4],
 "class_acts_plugins_1_1_root_material_decorator.html#a8a69b7f763da71fe64a322b9803aad05":[5,10,12,2,3],
 "class_acts_plugins_1_1_root_material_decorator.html#aacc8689acb1eeb61d3236f8fd68778e4":[5,10,12,2,5],
 "class_acts_plugins_1_1_root_material_decorator.html#afdd9af7c231f22eb10586104577dd49e":[5,10,12,2,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "concept_acts_1_1_track_state_proxy_concept.html":[6,0,0,498],
 "concept_acts_1_1_track_state_proxy_concept.html":[7,0,42],
 "concept_acts_1_1_tracking_volume_visitor.html":[6,0,0,496],
-"concept_acts_1_1_tracking_volume_visitor.html":[7,0,40],
-"concept_acts_1_1has_print_operator.html":[6,0,0,477],
-"concept_acts_1_1has_print_operator.html":[7,0,21],
-"concept_acts_1_1is_valid_convex_polygon_size.html":[6,0,0,479]
+"concept_acts_1_1_tracking_volume_visitor.html":[7,0,40]
 };

@@ -144,6 +144,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a3764ff34cc3a49f81ed323c6ebe1ebbc" id="r_a3764ff34cc3a49f81ed323c6ebe1ebbc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3764ff34cc3a49f81ed323c6ebe1ebbc">compressionLevel</a> {9}</td></tr>
+<tr class="memdesc:a3764ff34cc3a49f81ed323c6ebe1ebbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">zstd compression level used when writing to a compressed file.  <br /></td></tr>
 <tr class="memitem:ab61f52690c0cedd1ba20d8eee2012052" id="r_ab61f52690c0cedd1ba20d8eee2012052"><td class="memItemLeft" align="right" valign="top"><a id="ab61f52690c0cedd1ba20d8eee2012052" name="ab61f52690c0cedd1ba20d8eee2012052"></a>
 unsigned&#160;</td><td class="memItemRight" valign="bottom"><b>indentation</b> {4}</td></tr>
 <tr class="memdesc:ab61f52690c0cedd1ba20d8eee2012052"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of white space characters used for indentation. <br /></td></tr>
@@ -179,6 +181,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeMaterial</b> {tr
 
 <p>Wrapper method to return default options to be used if options are optional arguments in the conversion methods. </p>
 <dl class="section return"><dt>Returns</dt><dd>A default constructed Options object </dd></dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a3764ff34cc3a49f81ed323c6ebe1ebbc" name="a3764ff34cc3a49f81ed323c6ebe1ebbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3764ff34cc3a49f81ed323c6ebe1ebbc">&#9670;&#160;</a></span>compressionLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Acts::TrackingGeometryJsonConverter::Options::compressionLevel {9}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>zstd compression level used when writing to a compressed file. </p>
+<p>Ignored for uncompressed output. Higher levels trade write time for size; decompression speed is unaffected. </p>
 
 </div>
 </div>

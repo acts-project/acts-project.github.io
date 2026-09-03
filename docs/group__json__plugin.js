@@ -92,6 +92,7 @@ var group__json__plugin =
       [ "Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html", [
         [ "Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#abb1be2d78a2465ebcc4b85f9391a1e0c", null ],
         [ "defaultOptions", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ad91b4499b5bc1092e6892bbcaefc4ee1", null ],
+        [ "compressionLevel", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a3764ff34cc3a49f81ed323c6ebe1ebbc", null ],
         [ "indentation", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#ab61f52690c0cedd1ba20d8eee2012052", null ],
         [ "writeMaterial", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html#a16dd03f80e6462e2d5d89b00ed317f1b", null ]
       ] ],
@@ -109,12 +110,15 @@ var group__json__plugin =
       [ "VolumeIdLookup", "class_acts_1_1_tracking_geometry_json_converter.html#afc3d736455f27df9c89c0bcd88c7e95f", null ],
       [ "VolumePointerLookup", "class_acts_1_1_tracking_geometry_json_converter.html#ad1e99dbd289f83a57554bf9e95332049", null ],
       [ "TrackingGeometryJsonConverter", "class_acts_1_1_tracking_geometry_json_converter.html#a50237df4af3a6595fc3db1b0252028f8", null ],
+      [ "fromFile", "class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710", null ],
+      [ "fromJson", "class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8", null ],
       [ "fromJson", "class_acts_1_1_tracking_geometry_json_converter.html#aa05519757f987018f8aca22fb4af23d7", null ],
       [ "fromJsonPayload", "class_acts_1_1_tracking_geometry_json_converter.html#a2310d27e95d4380fa52e633608d177dd", null ],
       [ "navigationPolicyFromJson", "class_acts_1_1_tracking_geometry_json_converter.html#a2483e0150c26df50a6e537e189a7ab33", null ],
       [ "navigationPolicyToJson", "class_acts_1_1_tracking_geometry_json_converter.html#ae861ae5cd62d919feabc41cbe5995db2", null ],
       [ "portalLinkFromJson", "class_acts_1_1_tracking_geometry_json_converter.html#a4d55fe278965cbdd8fff7eb26a8d5f91", null ],
       [ "portalLinkToJson", "class_acts_1_1_tracking_geometry_json_converter.html#a67774e345885d59e5699cd315c2aad3a", null ],
+      [ "toFile", "class_acts_1_1_tracking_geometry_json_converter.html#aef0ccbdc4b08331387bef6b0b4af691b", null ],
       [ "toJson", "class_acts_1_1_tracking_geometry_json_converter.html#aca5b8b08f6275fa07f96ecb8f08900e0", null ],
       [ "trackingVolumeFromJson", "class_acts_1_1_tracking_geometry_json_converter.html#aaa31f9556f7d7b14f309ab367649cd2e", null ],
       [ "trackingVolumeToJson", "class_acts_1_1_tracking_geometry_json_converter.html#a458b8e9b3c5257a7d3290e01b840f335", null ],
