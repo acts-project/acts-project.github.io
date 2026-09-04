@@ -250,7 +250,7 @@ var searchData=
   ['dropcolumn_247',['dropColumn',['../class_acts_1_1_space_point_container.html#a1e720dc2ef004d2130fb70b69b99c217',1,'Acts::SpacePointContainer']]],
   ['dropcolumns_248',['dropColumns',['../class_acts_1_1_space_point_container.html#a356e086ec9bd9e0134c575b4c2e0854d',1,'Acts::SpacePointContainer']]],
   ['ds_249',['ds',['../struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4',1,'Acts::Ccl::ClusteringData']]],
-  ['dst_250',['dst',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#ae17a3c870b67e92f0906cbbbcbb87168',1,'Acts::Experimental::GbtsLayerConnection::dst'],['../struct_acts_1_1_experimental_1_1_gbts_layer_connection_map_1_1_layer_group.html#aab953ca6462684bdd0850706f17916b7',1,'Acts::Experimental::GbtsLayerConnectionMap::LayerGroup::dst']]],
+  ['dst_250',['dst',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#ae17a3c870b67e92f0906cbbbcbb87168',1,'Acts::Experimental::GbtsLayerConnection']]],
   ['dtheta_251',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
   ['dummyvertexfitter_252',['DummyVertexFitter',['../class_acts_1_1_dummy_vertex_fitter.html',1,'Acts']]],
   ['dump_20the_20geometry_20to_20json_253',['1a. Dump the geometry to JSON',['../material_mapping_howto.html#autotoc_md99',1,'']]],

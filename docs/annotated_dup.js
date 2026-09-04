@@ -36,7 +36,6 @@ var annotated_dup =
         [ "ElementLayerAssembler", "class_acts_1_1_experimental_1_1_element_layer_assembler.html", "class_acts_1_1_experimental_1_1_element_layer_assembler" ],
         [ "GbtsGeometry", "class_acts_1_1_experimental_1_1_gbts_geometry.html", "class_acts_1_1_experimental_1_1_gbts_geometry" ],
         [ "GbtsLayerConnection", "struct_acts_1_1_experimental_1_1_gbts_layer_connection.html", "struct_acts_1_1_experimental_1_1_gbts_layer_connection" ],
-        [ "GbtsLayerConnectionMap", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html", "struct_acts_1_1_experimental_1_1_gbts_layer_connection_map" ],
         [ "GbtsLayerConnectionTool", "class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html", "class_acts_1_1_experimental_1_1_gbts_layer_connection_tool" ],
         [ "GbtsLayerDescription", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html", "struct_acts_1_1_experimental_1_1_gbts_layer_description" ],
         [ "GbtsNodeStorage", "class_acts_1_1_experimental_1_1_gbts_node_storage.html", "class_acts_1_1_experimental_1_1_gbts_node_storage" ],

@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html" target="_top" xlink:title="Configuration for the layer connection tool.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_description.html" target="_top" xlink:title="Struct to hold r and z bounds for a given detector layer.">
 <polygon fill="white" stroke="#666666" points="146,-41 0,-41 0,0 146,0 146,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::GbtsLayerConnectionTool</text>
-<text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Config</text>
+<text text-anchor="middle" x="73" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::LayerDescription</text>
 </a>
 </g>
 </g>

@@ -138,7 +138,7 @@ Inheritance diagram for Acts::Experimental::GraphBasedTrackSeeder::Config:</div>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GraphBasedTrackSeeder::Config:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config__coll__graph.svg" width="430" height="292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config__coll__graph.svg" width="422" height="292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -153,9 +153,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>beamSpotCorrection</b
 <tr class="memitem:a7220281ab16eded1b603a3cba47a30cc" id="r_a7220281ab16eded1b603a3cba47a30cc"><td class="memItemLeft" align="right" valign="top"><a id="a7220281ab16eded1b603a3cba47a30cc" name="a7220281ab16eded1b603a3cba47a30cc"></a>
 std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>ccaMaxIterations</b> = 15</td></tr>
 <tr class="memdesc:a7220281ab16eded1b603a3cba47a30cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of connected-component iterations. <br /></td></tr>
-<tr class="memitem:aa3823b2652a80bc1f0250e563189236b" id="r_aa3823b2652a80bc1f0250e563189236b"><td class="memItemLeft" align="right" valign="top"><a id="aa3823b2652a80bc1f0250e563189236b" name="aa3823b2652a80bc1f0250e563189236b"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>connectorInputFile</b></td></tr>
-<tr class="memdesc:aa3823b2652a80bc1f0250e563189236b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connector configuration file path. <br /></td></tr>
 <tr class="memitem:ad06d30d573c079ba3f38de5da75a2dfb" id="r_ad06d30d573c079ba3f38de5da75a2dfb"><td class="memItemLeft" align="right" valign="top"><a id="ad06d30d573c079ba3f38de5da75a2dfb" name="ad06d30d573c079ba3f38de5da75a2dfb"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>curvatureSplitAbsTau</b> = 4.0f</td></tr>
 <tr class="memdesc:ad06d30d573c079ba3f38de5da75a2dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">|cot(theta)| separating the two curvature cuts, |eta| of about 2.1. <br /></td></tr>
@@ -174,8 +171,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>doubletFilterRZ</b> =
 <tr class="memitem:a60fa0cf3c1557f05c58b484649db8b1b" id="r_a60fa0cf3c1557f05c58b484649db8b1b"><td class="memItemLeft" align="right" valign="top"><a id="a60fa0cf3c1557f05c58b484649db8b1b" name="a60fa0cf3c1557f05c58b484649db8b1b"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>edgeMaskMinEta</b> = 1.5</td></tr>
 <tr class="memdesc:a60fa0cf3c1557f05c58b484649db8b1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum eta for edge masking. <br /></td></tr>
-<tr class="memitem:abf536019cdd5553d14249241aa15a1dd" id="r_abf536019cdd5553d14249241aa15a1dd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf536019cdd5553d14249241aa15a1dd">etaBinWidthOverride</a> = 0.0f</td></tr>
-<tr class="memdesc:abf536019cdd5553d14249241aa15a1dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eta bin width override (0 uses default from connection file).  <br /></td></tr>
 <tr class="memitem:a3652caf4ad71c3e9453573f527cdad8a" id="r_a3652caf4ad71c3e9453573f527cdad8a"><td class="memItemLeft" align="right" valign="top"><a id="a3652caf4ad71c3e9453573f527cdad8a" name="a3652caf4ad71c3e9453573f527cdad8a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>hitShareThreshold</b> = 0.49</td></tr>
 <tr class="memdesc:a3652caf4ad71c3e9453573f527cdad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold for hit sharing between seeds. <br /></td></tr>
@@ -359,23 +354,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>z0Resolution</b> = 2
 
 <p>Resolve a doublet's strip endpoints against its own direction before cutting on them. </p>
 <p>Nothing is written back; the correction is the pair's. </p>
-
-</div>
-</div>
-<a id="abf536019cdd5553d14249241aa15a1dd" name="abf536019cdd5553d14249241aa15a1dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf536019cdd5553d14249241aa15a1dd">&#9670;&#160;</a></span>etaBinWidthOverride</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Acts::Experimental::GraphBasedTrackSeeder::Config::etaBinWidthOverride = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Eta bin width override (0 uses default from connection file). </p>
-<p>specify non-zero to override eta bin width from connection file (default 0.2 in createLinkingScheme.py) </p>
 
 </div>
 </div>

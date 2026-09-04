@@ -1,29 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_i_grid.html" title="Base class for all grid types." alt="" coords="5,463,95,489"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,5,353,45"/>
-<area shape="poly" id="edge103_Node000000_Node000001" title=" " alt="" coords="51,449,60,361,78,244,104,131,121,86,141,56,158,42,161,46,145,59,126,89,109,132,83,245,66,362,56,450"/>
-<area shape="rect" id="Node000002" href="$class_acts_1_1_grid.html" title=" " alt="" coords="143,69,371,109"/>
-<area shape="poly" id="edge104_Node000000_Node000002" title=" " alt="" coords="52,449,64,373,82,275,108,181,124,145,141,120,156,107,159,112,145,123,128,147,113,183,88,276,69,374,57,450"/>
-<area shape="rect" id="Node000003" href="$class_acts_1_1_grid.html" title=" " alt="" coords="146,134,367,189"/>
-<area shape="poly" id="edge105_Node000000_Node000003" title=" " alt="" coords="50,449,56,397,70,330,97,260,117,227,141,198,154,187,158,191,145,202,121,230,102,262,75,332,61,398,55,450"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,213,353,267"/>
-<area shape="poly" id="edge106_Node000000_Node000004" title=" " alt="" coords="54,449,64,411,81,365,106,318,141,277,158,264,161,268,144,281,111,321,86,367,69,413,59,450"/>
-<area shape="rect" id="Node000005" href="$class_acts_1_1_grid.html" title=" " alt="" coords="160,291,353,346"/>
-<area shape="poly" id="edge107_Node000000_Node000005" title=" " alt="" coords="62,450,94,402,116,377,141,355,160,344,162,348,144,359,120,381,98,405,67,453"/>
-<area shape="rect" id="Node000006" href="$class_acts_1_1_grid.html" title=" " alt="" coords="173,370,340,425"/>
-<area shape="poly" id="edge108_Node000000_Node000006" title=" " alt="" coords="90,455,142,434,172,422,174,427,144,438,92,460"/>
-<area shape="rect" id="Node000007" href="$class_acts_1_1_grid.html" title=" " alt="" coords="167,449,347,503"/>
-<area shape="poly" id="edge109_Node000000_Node000007" title=" " alt="" coords="109,473,166,473,166,479,109,479"/>
-<area shape="rect" id="Node000008" href="$class_acts_1_1_grid.html" title=" " alt="" coords="177,527,337,582"/>
-<area shape="poly" id="edge110_Node000000_Node000008" title=" " alt="" coords="94,492,144,512,177,525,175,530,142,517,92,497"/>
-<area shape="rect" id="Node000009" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,607,351,676"/>
-<area shape="poly" id="edge111_Node000000_Node000009" title=" " alt="" coords="68,499,100,546,121,570,144,591,164,604,161,609,141,595,117,574,95,549,63,502"/>
-<area shape="rect" id="Node000010" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,700,351,769"/>
-<area shape="poly" id="edge112_Node000000_Node000010" title=" " alt="" coords="59,502,68,542,85,591,110,642,145,686,164,701,161,706,141,690,106,644,80,593,63,543,53,503"/>
-<area shape="rect" id="Node000011" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,793,351,863"/>
-<area shape="poly" id="edge113_Node000000_Node000011" title=" " alt="" coords="55,502,59,558,73,632,85,671,100,710,120,747,145,780,164,796,160,800,141,783,115,750,95,712,80,673,68,633,54,559,49,503"/>
-<area shape="rect" id="Node000012" href="$class_acts_1_1_grid.html" title=" " alt="" coords="163,887,351,956"/>
-<area shape="poly" id="edge114_Node000000_Node000012" title=" " alt="" coords="57,502,68,586,86,696,112,803,128,844,145,873,164,890,161,894,141,876,123,847,107,804,81,697,62,586,52,503"/>
-<area shape="rect" id="Node000013" href="$class_acts_1_1_grid.html" title="class for describing a regular multi&#45;dimensional grid" alt="" coords="175,981,338,1006"/>
-<area shape="poly" id="edge115_Node000000_Node000013" title=" " alt="" coords="55,503,62,605,78,744,89,815,104,879,123,931,145,966,159,977,176,985,174,990,156,982,141,970,118,934,99,880,84,816,72,745,57,605,50,503"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_i_layer_array_creator.html" title="Interface class ILayerArrayCreators, it inherits from IAlgTool." alt="" coords="5,5,187,31"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_layer_array_creator.html" title="The LayerArrayCreator is a simple Tool that helps to construct LayerArrays from std::vector of Acts::..." alt="" coords="235,5,412,31"/>
+<area shape="poly" id="edge119_Node000000_Node000001" title=" " alt="" coords="200,15,234,15,234,21,200,21"/>
 </map>

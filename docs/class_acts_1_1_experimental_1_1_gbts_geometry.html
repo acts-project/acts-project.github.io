@@ -133,14 +133,14 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_geometry.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a71ececc2391c793fda7fb7b3cc789265" id="r_a71ececc2391c793fda7fb7b3cc789265"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71ececc2391c793fda7fb7b3cc789265">GbtsGeometry</a> (const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; &amp;layerDescriptions, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a> &amp;layerConnections, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp;z0Range={}, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
-<tr class="memdesc:a71ececc2391c793fda7fb7b3cc789265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:aac0ef4f33f7f976a72ea538484f68076" id="r_aac0ef4f33f7f976a72ea538484f68076"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0ef4f33f7f976a72ea538484f68076">GbtsGeometry</a> (std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; layerDescriptions, std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; layerConnections, float etaBinWidth, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp;z0Range={}, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
+<tr class="memdesc:aac0ef4f33f7f976a72ea538484f68076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Geometry helper built from layers and connectors. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a71ececc2391c793fda7fb7b3cc789265" name="a71ececc2391c793fda7fb7b3cc789265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71ececc2391c793fda7fb7b3cc789265">&#9670;&#160;</a></span>GbtsGeometry()</h2>
+<a id="aac0ef4f33f7f976a72ea538484f68076" name="aac0ef4f33f7f976a72ea538484f68076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0ef4f33f7f976a72ea538484f68076">&#9670;&#160;</a></span>GbtsGeometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,12 +148,17 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Acts::Experimental::GbtsGeometry::GbtsGeometry </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>layerDescriptions</em></span>, </td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>layerDescriptions</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection_map.html">GbtsLayerConnectionMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>layerConnections</em></span>, </td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>layerConnections</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>etaBinWidth</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -172,7 +177,8 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layerDescriptions</td><td>Layer descriptions for the layers </td></tr>
-    <tr><td class="paramname">layerConnections</td><td>Layer connections map </td></tr>
+    <tr><td class="paramname">layerConnections</td><td>Pairs of layers the seeder may connect </td></tr>
+    <tr><td class="paramname">etaBinWidth</td><td>Width of the eta bins each layer is split into </td></tr>
     <tr><td class="paramname">z0Range</td><td>z0 range the bin table is built against </td></tr>
     <tr><td class="paramname">logger</td><td>Logging instance, only used during construction </td></tr>
   </table>

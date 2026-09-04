@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_acts_1_1_measurement_selector_cuts.html" title="Selection cuts for associating measurements with predicted track parameters on a surface." alt="" coords="5,5,236,31"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_multi_axis_spec.html" title="Specification of a multi&#45;dimensional binning that builds the axes of a grid." alt="" coords="5,55,156,80"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="204,5,411,31"/>
+<area shape="poly" id="edge196_Node000000_Node000001" title=" " alt="" coords="152,49,248,28,249,33,154,54"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_multi_axis_spec_x_d.html" title=" " alt="" coords="204,55,411,80"/>
+<area shape="poly" id="edge197_Node000000_Node000002" title=" " alt="" coords="170,65,204,65,204,70,170,70"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_multi_axis_spec_x_d.html" title="Multi&#45;dimensional binning spec of a compile&#45;time dimension." alt="" coords="223,105,392,145"/>
+<area shape="poly" id="edge198_Node000000_Node000003" title=" " alt="" coords="145,81,228,102,227,107,144,86"/>
 </map>

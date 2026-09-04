@@ -1,11 +1,11 @@
 <map id="Acts::Experimental::GraphBasedTrackSeeder::Config" name="Acts::Experimental::GraphBasedTrackSeeder::Config">
 <area shape="rect" id="Node000001" title="Configuration struct for the GBTS seeding algorithm." alt="" coords="65,232,253,287"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="31,116,118,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,155,76,181,85,207,107,230,103,234,80,209,71,182,69,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,152,121,207,138,230,134,233,116,209,84,155"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,45"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,59,77,116,72,116,72,59"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="143,116,345,141"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,155,229,182,214,210,193,234,189,230,210,206,224,180,234,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,155,202,209,184,233,180,230,198,207,230,152"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="179,13,309,38"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="247,52,247,116,241,116,241,52"/>
 </map>
