@@ -258,7 +258,7 @@ Seed extraction</h2>
 Machine-learning assisted acceptance</h2>
 <p>When <span class="tt">useClusterWidthCuts</span> is enabled, GBTS narrows the per-node \(\tau\) window using a pre-trained lookup table indexed by <b>pixel cluster width</b>. The cluster a track leaves in a pixel module grows with the incidence angle, so the width alone constrains \(\cot\theta\) before any pairing is attempted.</p>
 <p>The table carries two sets of bounds per width bin: one for clusters comfortably inside the module, and one for clusters within <span class="tt">moduleEdgeTolerance</span> of the module edge, where the cluster may be truncated and the width therefore underestimates the angle. Wide clusters in the pixel endcap are dropped entirely (<span class="tt">maxEndcapClusterWidth</span>).</p>
-<dl class="section note"><dt>Note</dt><dd>The lookup table is only consulted for pixel barrel layers, and the ACTS examples framework does not currently provide cluster widths or local positions, so this path is exercised only by experiment-side integrations that supply them through <span class="tt">insert</span>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The seeder takes the table itself as <span class="tt">tauLookupTable</span>, not a path to it; <span class="tt">ActsExamples::GraphBasedSeedingAlgorithm</span> parses it from ATLAS' text format. It is only consulted for pixel barrel layers, and the ACTS examples framework does not currently provide cluster widths or local positions, so this path is exercised only by experiment-side integrations that supply them through <span class="tt">insert</span>.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="gbts-configuration"></a>
 Configuration</h2>
 <p>The main knobs on <a class="el" href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GraphBasedTrackSeeder::Config</a>:</p>
@@ -294,7 +294,7 @@ Configuration</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">addTriplets</span>, <span class="tt">maxAbsEtaAddTriplets</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">allow shorter chains within an \(\eta\) range  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">useClusterWidthCuts</span>, <span class="tt">lutInputFile</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width based \(\tau\) windows  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">useClusterWidthCuts</span>, <span class="tt">tauLookupTable</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width based \(\tau\) windows  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">maxEndcapClusterWidth</span>, <span class="tt">moduleHalfLengthY</span>, <span class="tt">moduleEdgeTolerance</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width acceptance and module-edge handling  </td></tr>
 </table>

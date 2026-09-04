@@ -138,7 +138,7 @@ Inheritance diagram for Acts::Experimental::GraphBasedTrackSeeder::Config:</div>
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::GraphBasedTrackSeeder::Config:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config__coll__graph.svg" width="422" height="292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config__coll__graph.svg" width="303" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -174,9 +174,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>edgeMaskMinEta</b> =
 <tr class="memitem:a3652caf4ad71c3e9453573f527cdad8a" id="r_a3652caf4ad71c3e9453573f527cdad8a"><td class="memItemLeft" align="right" valign="top"><a id="a3652caf4ad71c3e9453573f527cdad8a" name="a3652caf4ad71c3e9453573f527cdad8a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>hitShareThreshold</b> = 0.49</td></tr>
 <tr class="memdesc:a3652caf4ad71c3e9453573f527cdad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold for hit sharing between seeds. <br /></td></tr>
-<tr class="memitem:af272f00fb1883c26c15cac071e9f21ec" id="r_af272f00fb1883c26c15cac071e9f21ec"><td class="memItemLeft" align="right" valign="top"><a id="af272f00fb1883c26c15cac071e9f21ec" name="af272f00fb1883c26c15cac071e9f21ec"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>lutInputFile</b></td></tr>
-<tr class="memdesc:af272f00fb1883c26c15cac071e9f21ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look-up table input file path. <br /></td></tr>
 <tr class="memitem:a943fe3475acf317ed99226a20a60ca0f" id="r_a943fe3475acf317ed99226a20a60ca0f"><td class="memItemLeft" align="right" valign="top"><a id="a943fe3475acf317ed99226a20a60ca0f" name="a943fe3475acf317ed99226a20a60ca0f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>matchBeforeCreate</b> = false</td></tr>
 <tr class="memdesc:a943fe3475acf317ed99226a20a60ca0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match seeds before creating them. <br /></td></tr>
@@ -198,7 +195,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>maxCurvatureHighEta<
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxCurvatureLowEta</b> = 3.75e-4f / <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:add54c6224232e9de1a01067cf9f5211a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum |curvature| below <span class="tt">curvatureSplitAbsTau</span>, before that scaling. <br /></td></tr>
 <tr class="memitem:a0395f4366d9e1ff096b14a04e0d6a61c" id="r_a0395f4366d9e1ff096b14a04e0d6a61c"><td class="memItemLeft" align="right" valign="top"><a id="a0395f4366d9e1ff096b14a04e0d6a61c" name="a0395f4366d9e1ff096b14a04e0d6a61c"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>maxEndcapClusterWidth</b> = 0.35 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxEndcapClusterWidth</b> = 0.35f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a0395f4366d9e1ff096b14a04e0d6a61c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum endcap cluster width. <br /></td></tr>
 <tr class="memitem:a7bf238a29bc8d60e5a944b4df139d192" id="r_a7bf238a29bc8d60e5a944b4df139d192"><td class="memItemLeft" align="right" valign="top"><a id="a7bf238a29bc8d60e5a944b4df139d192" name="a7bf238a29bc8d60e5a944b4df139d192"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxInvRadDiff</b> = 0.7e-2 / <a class="el" href="namespace_acts_1_1_unit_constants.html#aa0b5dd062eddcdda72af1809b341ab0f">UnitConstants::m</a></td></tr>
@@ -235,10 +232,10 @@ std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>minSplitSeed
 float&#160;</td><td class="memItemRight" valign="bottom"><b>minZ0</b> = -600</td></tr>
 <tr class="memdesc:a1af1a1b24492787e60e552be3e4f1321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum z0 value. In pixel mode the value is picked from the RoI. <br /></td></tr>
 <tr class="memitem:a430d29ad9e8ead9feaadde7ff970b016" id="r_a430d29ad9e8ead9feaadde7ff970b016"><td class="memItemLeft" align="right" valign="top"><a id="a430d29ad9e8ead9feaadde7ff970b016" name="a430d29ad9e8ead9feaadde7ff970b016"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleEdgeTolerance</b> = 0.3 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleEdgeTolerance</b> = 0.3f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a430d29ad9e8ead9feaadde7ff970b016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance to the module edge below which a cluster may be shortened, which switches to the tau lookup table's near-edge bounds. <br /></td></tr>
 <tr class="memitem:a513d09cd1389390b572910364bdfb7d2" id="r_a513d09cd1389390b572910364bdfb7d2"><td class="memItemLeft" align="right" valign="top"><a id="a513d09cd1389390b572910364bdfb7d2" name="a513d09cd1389390b572910364bdfb7d2"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleHalfLengthY</b> = 10.0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>moduleHalfLengthY</b> = 10.0f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a513d09cd1389390b572910364bdfb7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half-length in local y of a pixel module, against which the distance of a cluster to the module edge is measured. <br /></td></tr>
 <tr class="memitem:a2fb3e6308bafe4ed4f4709e30e6fab7b" id="r_a2fb3e6308bafe4ed4f4709e30e6fab7b"><td class="memItemLeft" align="right" valign="top"><a id="a2fb3e6308bafe4ed4f4709e30e6fab7b" name="a2fb3e6308bafe4ed4f4709e30e6fab7b"></a>
 std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nMaxEdges</b> = 2000000</td></tr>
@@ -273,8 +270,11 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>phiWindowNearOffset<
 <tr class="memitem:aa02fbefba7113470183e794af54b32c5" id="r_aa02fbefba7113470183e794af54b32c5"><td class="memItemLeft" align="right" valign="top"><a id="aa02fbefba7113470183e794af54b32c5" name="aa02fbefba7113470183e794af54b32c5"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>phiWindowSplitDeltaRadius</b> = 60.0f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:aa02fbefba7113470183e794af54b32c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial separation splitting the two phi window slopes below. <br /></td></tr>
+<tr class="memitem:a41e133515e864ccd1957e6ed816270a2" id="r_a41e133515e864ccd1957e6ed816270a2"><td class="memItemLeft" align="right" valign="top"><a id="a41e133515e864ccd1957e6ed816270a2" name="a41e133515e864ccd1957e6ed816270a2"></a>
+detail::GbtsTauLookupTable&#160;</td><td class="memItemRight" valign="bottom"><b>tauLookupTable</b></td></tr>
+<tr class="memdesc:a41e133515e864ccd1957e6ed816270a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepted tau range per cluster width bin, needed by the cluster width cuts and ignored without them. <br /></td></tr>
 <tr class="memitem:a6b12de0af055db7fe006774d90f0e904" id="r_a6b12de0af055db7fe006774d90f0e904"><td class="memItemLeft" align="right" valign="top"><a id="a6b12de0af055db7fe006774d90f0e904" name="a6b12de0af055db7fe006774d90f0e904"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>tauLutBinWidth</b> = 0.05 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>tauLutBinWidth</b> = 0.05f * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a6b12de0af055db7fe006774d90f0e904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cluster width covered by one bin of the tau lookup table. <br /></td></tr>
 <tr class="memitem:ae1affe4469d4447b1a24fe44d001c92d" id="r_ae1affe4469d4447b1a24fe44d001c92d"><td class="memItemLeft" align="right" valign="top"><a id="ae1affe4469d4447b1a24fe44d001c92d" name="ae1affe4469d4447b1a24fe44d001c92d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>tauRatioCorr</b> = 0.006</td></tr>
