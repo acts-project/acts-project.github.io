@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_multi_stepper_loop_1_1_state.html#a0ee4f1648a8aa2a1c4897d96ca907abc":[6,0,0,288,2,4],
+"struct_acts_1_1_multi_stepper_loop_1_1_state.html#a0ee4f1648a8aa2a1c4897d96ca907abc":[8,0,0,294,2,4],
 "struct_acts_1_1_multi_stepper_loop_1_1_state.html#a463d532d1d76aa6a83cd3bbf96cfed24":[6,0,0,288,2,9],
 "struct_acts_1_1_multi_stepper_loop_1_1_state.html#a463d532d1d76aa6a83cd3bbf96cfed24":[8,0,0,294,2,9],
 "struct_acts_1_1_multi_stepper_loop_1_1_state.html#a5f6c3750ea18e699575472a89c1947a3":[6,0,0,288,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#a66ec69087eab6f7e697d79f67568a958":[6,0,0,311,2],
 "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#a66ec69087eab6f7e697d79f67568a958":[8,0,0,317,2],
 "struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#aab7166149b4139ccc9f07c379e139fcd":[6,0,0,311,4],
-"struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#aab7166149b4139ccc9f07c379e139fcd":[8,0,0,317,4],
-"struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#ad0351df2835f7ae791b3f82746faef67":[6,0,0,311,3],
-"struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#ad0351df2835f7ae791b3f82746faef67":[8,0,0,317,3]
+"struct_acts_1_1_outer_strip_space_point_calibration_details_derived.html#aab7166149b4139ccc9f07c379e139fcd":[8,0,0,317,4]
 };

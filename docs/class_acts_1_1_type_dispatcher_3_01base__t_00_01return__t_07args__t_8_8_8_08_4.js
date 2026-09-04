@@ -12,6 +12,7 @@ var class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08
     [ "hasFunction", "class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08_4.html#a4d9dbe41f4a843e5a75472d074fd69e1", null ],
     [ "hasFunction", "class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08_4.html#af7b4e6f9f7e86a0f3ee054ea2521c22d", null ],
     [ "operator()", "class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08_4.html#af546dede7522cf8d7a014ffde75dc6a4", null ],
+    [ "registerDefault", "class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08_4.html#aab112d383ae0b1b5dac13841ef08a704", null ],
     [ "registerFunction", "class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08_4.html#a7a26a43ae74aa82c393a6b4aabca6b8d", null ],
     [ "size", "class_acts_1_1_type_dispatcher_3_01base__t_00_01return__t_07args__t_8_8_8_08_4.html#a328293fed743c784c61ad35f3734e1e4", null ]
 ];

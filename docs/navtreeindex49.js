@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"namespace_acts.html#aff077588e6b9207d49c53b1556be3a23":[6,0,0,988],
+"namespace_acts.html#aff2f246860b0974632cebefff000f4ae":[6,0,0,864],
 "namespace_acts.html#aff81cf741e697ab165fc3579cacda4aa":[6,0,0,607],
 "namespace_acts.html#aff982fda48acad30c85288b19b33fb86":[6,0,0,1005],
 "namespace_acts_1_1_detray_json_helper.html":[5,10,10,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[8,0,0,23,0,2],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[6,0,0,17,0,10],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[8,0,0,23,0,10],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[6,0,0,17,0,4],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[8,0,0,23,0,4],
-"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[6,0,0,17,0,0]
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[6,0,0,17,0,4]
 };

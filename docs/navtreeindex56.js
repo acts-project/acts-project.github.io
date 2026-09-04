@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[6,0,0,1,45,1],
+"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[8,0,0,2,45,1],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a245a4875d19391e84c79627862877798":[6,0,0,1,45,1,11],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a245a4875d19391e84c79627862877798":[8,0,0,2,45,1,11],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a3da385b1ad3baeaaa505370c59414596":[6,0,0,1,45,1,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[6,0,0,154,2,5],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[8,0,0,160,2,5],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[6,0,0,156,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[8,0,0,162,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[6,0,0,156,0,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[8,0,0,162,0,0]
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[8,0,0,162,0]
 };

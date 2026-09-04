@@ -185,6 +185,8 @@ requires std::is_base_of_v&lt;base_t, derived_t&gt;</td></tr>
 requires std::invocable&lt;<a class="el" href="#adfe500795b716a66bdab08ae8c7ddff9">function_pointer_type</a>, func_args_t...&gt;</td></tr>
 <tr class="memitem:af546dede7522cf8d7a014ffde75dc6a4 template"><td class="memItemLeft" align="right" valign="top">return_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af546dede7522cf8d7a014ffde75dc6a4">operator()</a> (const base_t &amp;obj, func_args_t &amp;&amp;... args) const</td></tr>
 <tr class="memdesc:af546dede7522cf8d7a014ffde75dc6a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the registered function for the given object's type.  <br /></td></tr>
+<tr class="memitem:aab112d383ae0b1b5dac13841ef08a704" id="r_aab112d383ae0b1b5dac13841ef08a704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a143b1e5503b42bf04d3745c390c3b6ec">self_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab112d383ae0b1b5dac13841ef08a704">registerDefault</a> (<a class="el" href="#af73931b42f77d33f2734876641dd8ca0">function_type</a> func)</td></tr>
+<tr class="memdesc:aab112d383ae0b1b5dac13841ef08a704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a fall-through handler, invoked by <code>operator()</code> when the object matches none of the registered derived types.  <br /></td></tr>
 <tr class="memitem:a7a26a43ae74aa82c393a6b4aabca6b8d" id="r_a7a26a43ae74aa82c393a6b4aabca6b8d"><td class="memTemplParams" colspan="2">template&lt;typename derived_t&gt; <br />
 requires std::is_base_of_v&lt;base_t, derived_t&gt;</td></tr>
 <tr class="memitem:a7a26a43ae74aa82c393a6b4aabca6b8d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a143b1e5503b42bf04d3745c390c3b6ec">self_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a26a43ae74aa82c393a6b4aabca6b8d">registerFunction</a> (return_t(*func)(const derived_t &amp;, args_t...))</td></tr>
@@ -288,6 +290,34 @@ requires std::invocable&lt;<a class="el" href="#adfe500795b716a66bdab08ae8c7ddff
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The return value from the registered function </dd></dl>
+
+</div>
+</div>
+<a id="aab112d383ae0b1b5dac13841ef08a704" name="aab112d383ae0b1b5dac13841ef08a704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab112d383ae0b1b5dac13841ef08a704">&#9670;&#160;</a></span>registerDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename base_t, typename return_t, typename... args_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a143b1e5503b42bf04d3745c390c3b6ec">self_type</a> &amp; <a class="el" href="class_acts_1_1_type_dispatcher.html">Acts::TypeDispatcher</a>&lt; base_t, return_t(args_t...)&gt;::registerDefault </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af73931b42f77d33f2734876641dd8ca0">function_type</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register a fall-through handler, invoked by <code>operator()</code> when the object matches none of the registered derived types. </p>
+<p>This replaces the default handler, which throws <code>std::runtime_error</code>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>The fall-through handler; must be non-empty </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this dispatcher for chaining </dd></dl>
 
 </div>
 </div>
