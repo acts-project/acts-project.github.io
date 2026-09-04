@@ -131,7 +131,7 @@ var NAVTREEINDEX44 =
 "class_acts_plugins_1_1_tensor.html#ad7c56ccb124d8a5013f975652512f289":[5,10,6,16,1],
 "class_acts_plugins_1_1_tensor.html#afe5cb69bb86eb20527d5aedf777c7585":[5,10,6,16,5],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html":[5,10,6,17],
-"class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a4a8172141409470c3642389cdf260d41":[5,10,6,17,2],
+"class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a540be08d58b31a925832ae28014e3570":[5,10,6,17,2],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a67ab78c089a79fe0cb220f5df4f7e8a5":[5,10,6,17,3],
 "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a9a2a56f105ee0067ce2fe6d4cc15d8cd":[5,10,6,17,1],
 "class_acts_plugins_1_1_torch_edge_classifier.html":[5,10,6,18],

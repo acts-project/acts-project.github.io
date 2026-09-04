@@ -130,7 +130,7 @@ var group__gnn__plugin =
         [ "selectedFeatures", "struct_acts_plugins_1_1_tensor_r_t_edge_classifier_1_1_config.html#a86183f5f6385075ffc9e75273e9ad804", null ]
       ] ],
       [ "TensorRTEdgeClassifier", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a9a2a56f105ee0067ce2fe6d4cc15d8cd", null ],
-      [ "config", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a4a8172141409470c3642389cdf260d41", null ],
+      [ "config", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a540be08d58b31a925832ae28014e3570", null ],
       [ "operator()", "class_acts_plugins_1_1_tensor_r_t_edge_classifier.html#a67ab78c089a79fe0cb220f5df4f7e8a5", null ]
     ] ],
     [ "ActsPlugins::TorchEdgeClassifier", "class_acts_plugins_1_1_torch_edge_classifier.html", [
