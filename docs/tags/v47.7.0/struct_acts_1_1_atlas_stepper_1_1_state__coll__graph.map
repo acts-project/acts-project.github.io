@@ -1,0 +1,30 @@
+<map id="Acts::AtlasStepper::State" name="Acts::AtlasStepper::State">
+<area shape="rect" id="Node000001" title="Nested State struct for the local caching." alt="" coords="1039,180,1180,220"/>
+<area shape="rect" id="Node000002" href="$struct_acts_1_1_atlas_stepper_1_1_options.html" title="Stepper options extending plain stepper settings." alt="" coords="700,8,841,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="855,22,895,25,936,32,978,44,1016,63,1047,89,1071,120,1102,178,1098,181,1067,123,1043,92,1013,68,976,49,935,37,894,30,855,27"/>
+<area shape="rect" id="Node000003" href="$struct_acts_1_1_stepper_plain_options.html" title="Common options shared by plain steppers." alt="" coords="292,15,483,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="496,25,700,25,700,31,496,31"/>
+<area shape="rect" id="Node000004" href="$struct_acts_1_1_stepper_plain_options_1_1_dense.html" title="Options for dense material effects." alt="" coords="5,8,196,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="210,25,292,25,292,31,210,31"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_particle_hypothesis.html" title="Particle hypothesis used in reconstruction." alt="" coords="681,73,860,98"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="874,89,945,101,1016,124,1057,149,1090,178,1087,182,1054,154,1014,129,944,106,874,94"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="697,123,844,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="858,148,935,157,1015,171,1043,177,1042,183,1014,176,934,162,857,153"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="326,130,449,155"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="463,140,697,140,697,145,463,145"/>
+<area shape="rect" id="Node000008" href="$class_acts_1_1_constrained_step.html" title="A constrained step class for the steppers." alt="" coords="688,187,853,213"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="867,197,1038,197,1038,203,867,203"/>
+<area shape="rect" id="Node000009" href="$class_acts_1_1_any_base.html" title=" " alt="" coords="686,237,855,277"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="869,247,940,238,1014,225,1046,217,1047,223,1015,231,941,243,870,252"/>
+<area shape="rect" id="Node000010" href="$class_acts_1_1_any_base_all.html" title="Base class for all instances of AnyBase regarfless of SBO size." alt="" coords="35,210,167,235"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="180,215,396,210,527,214,658,227,700,235,699,240,657,232,527,220,396,216,180,220"/>
+<area shape="rect" id="Node000011" href="$class_acts_1_1_any_base.html" title="Small opaque type&#45;erased type with configurable small buffer optimization." alt="" coords="299,237,476,277"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="181,230,299,244,298,249,180,235"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="490,255,686,255,686,260,490,260"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="727,302,814,327"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="828,311,917,301,966,290,1014,274,1055,248,1088,218,1091,222,1058,252,1016,278,968,295,918,307,828,317"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="318,301,457,341"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="470,317,727,313,727,318,471,323"/>
+<area shape="rect" id="Node000014" href="$struct_acts_1_1_stepper_statistics.html" title="A struct to hold statistics of the stepper." alt="" coords="687,351,855,377"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="868,369,943,361,979,351,1013,335,1043,310,1068,279,1086,247,1098,219,1103,222,1091,249,1072,282,1047,314,1016,340,981,356,944,367,869,374"/>
+</map>
