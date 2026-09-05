@@ -1,17 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"struct_acts_1_1_ref_holder.html#ab4e417bb6be8bb28c1069066f8583491":[6,0,0,355,0],
-"struct_acts_1_1_ref_holder.html#ab4e417bb6be8bb28c1069066f8583491":[8,0,0,361,0],
-"struct_acts_1_1_ref_holder.html#ac2cbb2493b017c3586bff470d5ef19b5":[6,0,0,355,3],
-"struct_acts_1_1_ref_holder.html#ac2cbb2493b017c3586bff470d5ef19b5":[8,0,0,361,3],
-"struct_acts_1_1_ref_holder.html#ac6ee45189cb557ade8b2e774d844df57":[6,0,0,355,8],
-"struct_acts_1_1_ref_holder.html#ac6ee45189cb557ade8b2e774d844df57":[8,0,0,361,8],
-"struct_acts_1_1_ref_holder.html#afeaf3d802d762b433cbf4ea074788057":[6,0,0,355,4],
-"struct_acts_1_1_ref_holder.html#afeaf3d802d762b433cbf4ea074788057":[8,0,0,361,4],
-"struct_acts_1_1_remove_pointer.html":[6,0,0,357],
-"struct_acts_1_1_remove_pointer.html":[8,0,0,363],
-"struct_acts_1_1_remove_pointer.html#a5fc62c15e5752255e084baed34703464":[6,0,0,357,0],
-"struct_acts_1_1_remove_pointer.html#a5fc62c15e5752255e084baed34703464":[8,0,0,363,0],
 "struct_acts_1_1_remove_pointer_3_01_t_01_4.html":[6,0,0,358],
 "struct_acts_1_1_remove_pointer_3_01_t_01_4.html":[8,0,0,364],
 "struct_acts_1_1_remove_pointer_3_01_t_01_4.html#a07a32634408556efd71eff1ceddf0f4c":[6,0,0,358,0],
@@ -249,5 +237,17 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a291a2498838b9de8ee650331f89ab24c":[8,0,0,13,2,1],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a2edb2034181758c0bb15c3dadb0ec85e":[8,0,0,13,2,2],
 "struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a69647841f96af10b565072a6b8b646bd":[8,0,0,13,2,4],
-"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#ab771e80b64fcfdef993c986703d6f4c6":[8,0,0,13,2,0]
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#ab771e80b64fcfdef993c986703d6f4c6":[8,0,0,13,2,0],
+"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#abe99262a06e82bea3ac5ebc56aad99c7":[8,0,0,13,2,3],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html":[8,0,0,13,3],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[8,0,0,13,3,1],
+"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c":[8,0,0,13,3,0],
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[8,0,0,13,4],
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#a4c425f1cbd0af7d6bc4ef35c0506f854":[8,0,0,13,4,1],
+"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#aca1e9355119835f3349ee7dec653cf19":[8,0,0,13,4,0],
+"struct_acts_1_1_supports_bound_parameters.html":[6,0,0,383],
+"struct_acts_1_1_supports_bound_parameters.html":[8,0,0,389],
+"struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[6,0,0,384],
+"struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[8,0,0,390],
+"struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html":[6,0,0,385]
 };

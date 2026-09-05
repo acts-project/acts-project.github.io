@@ -66,6 +66,8 @@ var namespace_acts_1_1_experimental =
     [ "BoundParameterVariation", "namespace_acts_1_1_experimental.html#ae62f43feed40cd3e8caf842c666df0f1", null ],
     [ "Efficiency1", "namespace_acts_1_1_experimental.html#a8a95284c2cff873ec483fc0d62b83805", null ],
     [ "Efficiency2", "namespace_acts_1_1_experimental.html#acf8910ce91f496a7ced36c4c1f423a42", null ],
+    [ "GbtsExperimentLayerId", "namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644", null ],
+    [ "GbtsLayerIndex", "namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190", null ],
     [ "Histogram1", "namespace_acts_1_1_experimental.html#a101b827bdcdc210e07a5b7d99cdd5bdc", null ],
     [ "Histogram2", "namespace_acts_1_1_experimental.html#a92bc8efb30bd88bba61bebc760bb512b", null ],
     [ "Histogram3", "namespace_acts_1_1_experimental.html#adb2f348e5996f059013d8e63956bf13b", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"class_acts_plugins_1_1_root_histogram_fit.html#a7940d7c5c77109bb367f1c0746f10309":[8,0,2,57,3],
+"class_acts_plugins_1_1_root_histogram_fit.html#ab677c7102ca7f08b85654ee4d1b83ef3":[6,0,3,52,4],
 "class_acts_plugins_1_1_root_histogram_fit.html#ab677c7102ca7f08b85654ee4d1b83ef3":[8,0,2,57,4],
 "class_acts_plugins_1_1_root_histogram_fit.html#ad88aad06c0cabb1dca0f2a64b53b5a3f":[6,0,3,52,2],
 "class_acts_plugins_1_1_root_histogram_fit.html#ad88aad06c0cabb1dca0f2a64b53b5a3f":[8,0,2,57,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "concept_acts_1_1_surface_visitor.html":[6,0,0,493],
 "concept_acts_1_1_surface_visitor.html":[7,0,37],
 "concept_acts_1_1_track_container_backend.html":[6,0,0,494],
-"concept_acts_1_1_track_container_backend.html":[7,0,38],
-"concept_acts_1_1_track_container_frontend.html":[6,0,0,495],
-"concept_acts_1_1_track_container_frontend.html":[7,0,39]
+"concept_acts_1_1_track_container_backend.html":[7,0,38]
 };

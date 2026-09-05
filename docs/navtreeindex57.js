@@ -1,17 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[6,0,0,156,0,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[8,0,0,162,0,0],
-"struct_acts_1_1_geometry_context_ostream_wrapper.html":[6,0,0,158],
-"struct_acts_1_1_geometry_context_ostream_wrapper.html":[8,0,0,164],
-"struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[6,0,0,158,0],
-"struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[8,0,0,164,0],
-"struct_acts_1_1_geometry_identifier_hook.html":[6,0,0,163],
-"struct_acts_1_1_geometry_identifier_hook.html":[8,0,0,169],
-"struct_acts_1_1_geometry_identifier_hook.html#a56c238580468566f93aab434aeb21774":[6,0,0,163,0],
-"struct_acts_1_1_geometry_identifier_hook.html#a56c238580468566f93aab434aeb21774":[8,0,0,169,0],
-"struct_acts_1_1_geometry_view3_d.html":[6,0,0,166],
-"struct_acts_1_1_geometry_view3_d.html":[8,0,0,172],
 "struct_acts_1_1_geometry_view3_d.html#a2ce235e4a72d92458b14aec9f98988d7":[6,0,0,166,0],
 "struct_acts_1_1_geometry_view3_d.html#a2ce235e4a72d92458b14aec9f98988d7":[8,0,0,172,0],
 "struct_acts_1_1_geometry_view3_d.html#a3415d70dfc4a2dbcb1efa3ef1004b5fa":[6,0,0,166,6],
@@ -249,5 +237,17 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html":[8,0,0,6,4],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[6,0,0,4,4,0],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#a6ea146b39e5081c1b641bcb2327ed9b6":[8,0,0,6,4,0],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[6,0,0,4,4,1]
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[6,0,0,4,4,1],
+"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[8,0,0,6,4,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[6,0,0,4,0,0,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[8,0,0,6,0,0,0],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[6,0,0,4,0,0,0,4],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[8,0,0,6,0,0,0,4],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[6,0,0,4,0,0,0,2],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[8,0,0,6,0,0,0,2],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c":[6,0,0,4,0,0,0,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c":[8,0,0,6,0,0,0,1],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ab66f2ccb2f9d18f5d786dde9e3c21352":[6,0,0,4,0,0,0,3],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ab66f2ccb2f9d18f5d786dde9e3c21352":[8,0,0,6,0,0,0,3],
+"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ac78e4c7a893aa7bbaae4af65d4a09403":[6,0,0,4,0,0,0,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a0aafa897479da5e99471f97d18380e33":[8,0,0,23,0,2],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[6,0,0,17,0,10],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a5d00fcf94f5e8455cfb7f1014ad6ece2":[8,0,0,23,0,10],
+"struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[6,0,0,17,0,4],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a7bebc7dcc6719aa6e3d70f82f3f54908":[8,0,0,23,0,4],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[6,0,0,17,0,0],
 "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html#a848bdd8c6f360dec3b1ea0d61355023d":[8,0,0,23,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_axis_spec_1_1_variable_params.html":[6,0,0,42,2],
 "struct_acts_1_1_axis_spec_1_1_variable_params.html":[8,0,0,48,2],
 "struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[6,0,0,42,2,1],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[8,0,0,48,2,1],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[6,0,0,42,2,0],
-"struct_acts_1_1_axis_spec_1_1_variable_params.html#aec4edb15c3bf62d94b206f027dbb41ff":[8,0,0,48,2,0],
-"struct_acts_1_1_axis_spec_options.html":[6,0,0,43],
-"struct_acts_1_1_axis_spec_options.html":[8,0,0,49]
+"struct_acts_1_1_axis_spec_1_1_variable_params.html#aa744bd079679e5020abcb14b24fd00ec":[8,0,0,48,2,1]
 };

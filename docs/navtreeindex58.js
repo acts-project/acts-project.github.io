@@ -1,17 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"struct_acts_1_1_hough_transform_utils_1_1_hough_plane_config.html#ae5a48fb7a28e8f088f6006e15c6f9237":[8,0,0,6,4,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[6,0,0,4,0,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html":[8,0,0,6,0,0,0],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[6,0,0,4,0,0,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a6c50fe79e81432b33e813d51cf8cdc37":[8,0,0,6,0,0,0,4],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[6,0,0,4,0,0,0,2],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7a4dca19f765228d95775dfa8d86c0e3":[8,0,0,6,0,0,0,2],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c":[6,0,0,4,0,0,0,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#a7b2393ae2637145360eed79f6d665b4c":[8,0,0,6,0,0,0,1],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ab66f2ccb2f9d18f5d786dde9e3c21352":[6,0,0,4,0,0,0,3],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ab66f2ccb2f9d18f5d786dde9e3c21352":[8,0,0,6,0,0,0,3],
-"struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ac78e4c7a893aa7bbaae4af65d4a09403":[6,0,0,4,0,0,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_1_1_maximum.html#ac78e4c7a893aa7bbaae4af65d4a09403":[8,0,0,6,0,0,0,0],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html":[6,0,0,4,0,1],
 "struct_acts_1_1_hough_transform_utils_1_1_peak_finders_1_1_islands_around_max_config.html":[8,0,0,6,0,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6888632012c244a8c48de9f35dcec4a3":[6,0,0,228,0,3],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6888632012c244a8c48de9f35dcec4a3":[8,0,0,234,0,3],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6a107e61a7e5badaa03f648003eadf6b":[6,0,0,228,0,1],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6a107e61a7e5badaa03f648003eadf6b":[8,0,0,234,0,1]
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a6a107e61a7e5badaa03f648003eadf6b":[8,0,0,234,0,1],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a7e6de8c4969a9b5aee14f1b4b7103b9e":[6,0,0,228,0,10],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a7e6de8c4969a9b5aee14f1b4b7103b9e":[8,0,0,234,0,10],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a80925f03f196d157552f1765a3ce68c7":[6,0,0,228,0,6],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a80925f03f196d157552f1765a3ce68c7":[8,0,0,234,0,6],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a946bd64d6941cae262e1222c204f6d18":[6,0,0,228,0,12],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a946bd64d6941cae262e1222c204f6d18":[8,0,0,234,0,12],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ab2012491f1df624a18d2877cf0b7024d":[6,0,0,228,0,9],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ab2012491f1df624a18d2877cf0b7024d":[8,0,0,234,0,9],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac5a0bdaaa79fb7330d869fc1cb6223b1":[6,0,0,228,0,13],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ac5a0bdaaa79fb7330d869fc1cb6223b1":[8,0,0,234,0,13],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ad9af2c845a6e72f7b163c81be0047d41":[6,0,0,228,0,14],
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#ad9af2c845a6e72f7b163c81be0047d41":[8,0,0,234,0,14]
 };

@@ -272,6 +272,10 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Efficiency1</b> = <a
 <tr class="memitem:acf8910ce91f496a7ced36c4c1f423a42" id="r_acf8910ce91f496a7ced36c4c1f423a42"><td class="memItemLeft" align="right" valign="top"><a id="acf8910ce91f496a7ced36c4c1f423a42" name="acf8910ce91f496a7ced36c4c1f423a42"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Efficiency2</b> = <a class="el" href="class_acts_1_1_experimental_1_1_efficiency.html">Efficiency</a>&lt;2&gt;</td></tr>
 <tr class="memdesc:acf8910ce91f496a7ced36c4c1f423a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D efficiency histogram <br /></td></tr>
+<tr class="memitem:a3cf30a79d2cc7b16985ee9e4c7475644" id="r_a3cf30a79d2cc7b16985ee9e4c7475644"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> = std::uint32_t</td></tr>
+<tr class="memdesc:a3cf30a79d2cc7b16985ee9e4c7475644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer id as the experiment numbers it (80000, 81000, ...).  <br /></td></tr>
+<tr class="memitem:a8ba2d6d068d134ece0cc2869c41db190" id="r_a8ba2d6d068d134ece0cc2869c41db190"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a> = std::uint16_t</td></tr>
+<tr class="memdesc:a8ba2d6d068d134ece0cc2869c41db190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of a layer within one GbtsGeometry, dense from zero.  <br /></td></tr>
 <tr class="memitem:a101b827bdcdc210e07a5b7d99cdd5bdc" id="r_a101b827bdcdc210e07a5b7d99cdd5bdc"><td class="memItemLeft" align="right" valign="top"><a id="a101b827bdcdc210e07a5b7d99cdd5bdc" name="a101b827bdcdc210e07a5b7d99cdd5bdc"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Histogram1</b> = <a class="el" href="class_acts_1_1_experimental_1_1_histogram.html">Histogram</a>&lt;1&gt;</td></tr>
 <tr class="memdesc:a101b827bdcdc210e07a5b7d99cdd5bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type aliases for common dimensions. <br /></td></tr>
@@ -462,6 +466,40 @@ Functions</h2></td></tr>
 <div class="line">                                    std::string&gt;</div>
 </div><!-- fragment -->
 <p>Regular-width histogram axis with string metadata. </p>
+
+</div>
+</div>
+<a id="a3cf30a79d2cc7b16985ee9e4c7475644" name="a3cf30a79d2cc7b16985ee9e4c7475644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf30a79d2cc7b16985ee9e4c7475644">&#9670;&#160;</a></span>GbtsExperimentLayerId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a3cf30a79d2cc7b16985ee9e4c7475644">Acts::Experimental::GbtsExperimentLayerId</a> = std::uint32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Layer id as the experiment numbers it (80000, 81000, ...). </p>
+<p>Sparse, and an index into nothing. </p>
+
+</div>
+</div>
+<a id="a8ba2d6d068d134ece0cc2869c41db190" name="a8ba2d6d068d134ece0cc2869c41db190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba2d6d068d134ece0cc2869c41db190">&#9670;&#160;</a></span>GbtsLayerIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a8ba2d6d068d134ece0cc2869c41db190">Acts::Experimental::GbtsLayerIndex</a> = std::uint16_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Position of a layer within one GbtsGeometry, dense from zero. </p>
+<p>Ask GbtsGeometry::layerIndex for it rather than deriving it. </p>
 
 </div>
 </div>

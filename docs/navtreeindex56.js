@@ -1,17 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[6,0,0,1,45,1],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html":[8,0,0,2,45,1],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a245a4875d19391e84c79627862877798":[6,0,0,1,45,1,11],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a245a4875d19391e84c79627862877798":[8,0,0,2,45,1,11],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a3da385b1ad3baeaaa505370c59414596":[6,0,0,1,45,1,12],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a3da385b1ad3baeaaa505370c59414596":[8,0,0,2,45,1,12],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a59c6f8414b0cb5ed5295bbabce5194ba":[6,0,0,1,45,1,5],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a59c6f8414b0cb5ed5295bbabce5194ba":[8,0,0,2,45,1,5],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8a5162a90fc436122eeb85c71c8bea8b":[6,0,0,1,45,1,7],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8a5162a90fc436122eeb85c71c8bea8b":[8,0,0,2,45,1,7],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8afbc28a32d99eeef26697e7571200ec":[6,0,0,1,45,1,3],
-"struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8afbc28a32d99eeef26697e7571200ec":[8,0,0,2,45,1,3],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8ef9f929fc3ad65e8dd168dd481b82be":[6,0,0,1,45,1,10],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a8ef9f929fc3ad65e8dd168dd481b82be":[8,0,0,2,45,1,10],
 "struct_acts_1_1_experimental_1_1_ridders_stepper_1_1_state.html#a90659c0db401a97769f7fe4c78d4f050":[6,0,0,1,45,1,9],
@@ -249,5 +237,17 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[6,0,0,154,2,5],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#aeb77e3c7f438ebdc480b127b578c0d03":[8,0,0,160,2,5],
 "struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[6,0,0,156,0],
-"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[8,0,0,162,0]
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html":[8,0,0,162,0],
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[6,0,0,156,0,0],
+"struct_acts_1_1_generic_cuboid_volume_bounds_1_1_bound_values.html#a7a96bd493b195f6d6548d2e460a2f55c":[8,0,0,162,0,0],
+"struct_acts_1_1_geometry_context_ostream_wrapper.html":[6,0,0,158],
+"struct_acts_1_1_geometry_context_ostream_wrapper.html":[8,0,0,164],
+"struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[6,0,0,158,0],
+"struct_acts_1_1_geometry_context_ostream_wrapper.html#aa503d486bca3dec0c974385ccd6e574c":[8,0,0,164,0],
+"struct_acts_1_1_geometry_identifier_hook.html":[6,0,0,163],
+"struct_acts_1_1_geometry_identifier_hook.html":[8,0,0,169],
+"struct_acts_1_1_geometry_identifier_hook.html#a56c238580468566f93aab434aeb21774":[6,0,0,163,0],
+"struct_acts_1_1_geometry_identifier_hook.html#a56c238580468566f93aab434aeb21774":[8,0,0,169,0],
+"struct_acts_1_1_geometry_view3_d.html":[6,0,0,166],
+"struct_acts_1_1_geometry_view3_d.html":[8,0,0,172]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"class_acts_1_1_volume.html#aafaef8d9e7e1f9e207b5ad484e1e5bf3":[6,0,0,447,7],
+"class_acts_1_1_volume.html#aafaef8d9e7e1f9e207b5ad484e1e5bf3":[8,0,0,453,7],
 "class_acts_1_1_volume.html#ac00865a2f60d6be6edd3f1e9858bcfdb":[6,0,0,447,18],
 "class_acts_1_1_volume.html#ac00865a2f60d6be6edd3f1e9858bcfdb":[8,0,0,453,18],
 "class_acts_1_1_volume.html#ac3858c4f1069e71c52fb2ce8f32ee178":[6,0,0,447,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "class_acts_fatras_1_1_landau_distribution.html#a354d03a325ef176d94f1942e9885275c":[8,0,1,19,6],
 "class_acts_fatras_1_1_landau_distribution.html#a577f3b947e45be526242983d2f63a241":[6,0,2,18,14],
 "class_acts_fatras_1_1_landau_distribution.html#a577f3b947e45be526242983d2f63a241":[8,0,1,19,14],
-"class_acts_fatras_1_1_landau_distribution.html#a909ad5d31a8796e86c05b6ee1354e5cd":[6,0,2,18,5],
-"class_acts_fatras_1_1_landau_distribution.html#a909ad5d31a8796e86c05b6ee1354e5cd":[8,0,1,19,5],
-"class_acts_fatras_1_1_landau_distribution.html#a9f1767c7d4c1e30e4c2bb1201361fb43":[6,0,2,18,11]
+"class_acts_fatras_1_1_landau_distribution.html#a909ad5d31a8796e86c05b6ee1354e5cd":[6,0,2,18,5]
 };

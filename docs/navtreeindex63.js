@@ -1,17 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#abe99262a06e82bea3ac5ebc56aad99c7":[8,0,0,13,2,3],
-"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html":[8,0,0,13,3],
-"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ab40cba538b563ba9407e2341bb8ce23c":[8,0,0,13,3,1],
-"struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html#ad94292d444b7df8e779c99e839402f4c":[8,0,0,13,3,0],
-"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html":[8,0,0,13,4],
-"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#a4c425f1cbd0af7d6bc4ef35c0506f854":[8,0,0,13,4,1],
-"struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html#aca1e9355119835f3349ee7dec653cf19":[8,0,0,13,4,0],
-"struct_acts_1_1_supports_bound_parameters.html":[6,0,0,383],
-"struct_acts_1_1_supports_bound_parameters.html":[8,0,0,389],
-"struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[6,0,0,384],
-"struct_acts_1_1_supports_bound_parameters_3_01_eigen_stepper_3_4_01_4.html":[8,0,0,390],
-"struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html":[6,0,0,385],
 "struct_acts_1_1_supports_bound_parameters_3_01_straight_line_stepper_01_4.html":[8,0,0,391],
 "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html":[6,0,0,386],
 "struct_acts_1_1_supports_bound_parameters_3_01_sympy_stepper_01_4.html":[8,0,0,392],
@@ -249,5 +237,17 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html":[6,0,0,406,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html":[8,0,0,412,0],
 "struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[6,0,0,406,0,0],
-"struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[8,0,0,412,0,0]
+"struct_acts_1_1_track_density_vertex_finder_1_1_config.html#aeb1fd39ab4c2e690543c3e17f36c734a":[8,0,0,412,0,0],
+"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[6,0,0,406,1],
+"struct_acts_1_1_track_density_vertex_finder_1_1_state.html":[8,0,0,412,1],
+"struct_acts_1_1_track_selector_1_1_config.html":[6,0,0,417,0],
+"struct_acts_1_1_track_selector_1_1_config.html":[8,0,0,423,0],
+"struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c":[6,0,0,417,0,25],
+"struct_acts_1_1_track_selector_1_1_config.html#a02c75fbcec69c6f3aa9d73947ff1d74c":[8,0,0,423,0,25],
+"struct_acts_1_1_track_selector_1_1_config.html#a09e4801fea9841f5c3225767f2081e2f":[6,0,0,417,0,13],
+"struct_acts_1_1_track_selector_1_1_config.html#a09e4801fea9841f5c3225767f2081e2f":[8,0,0,423,0,13],
+"struct_acts_1_1_track_selector_1_1_config.html#a0dac5b69fe616bf69a786b20ff98e84c":[6,0,0,417,0,22],
+"struct_acts_1_1_track_selector_1_1_config.html#a0dac5b69fe616bf69a786b20ff98e84c":[8,0,0,423,0,22],
+"struct_acts_1_1_track_selector_1_1_config.html#a1269730d31125d8f4c66afc093c51b92":[6,0,0,417,0,15],
+"struct_acts_1_1_track_selector_1_1_config.html#a1269730d31125d8f4c66afc093c51b92":[8,0,0,423,0,15]
 };

@@ -141,17 +141,28 @@ Why a graph?</h2>
 <h2 class="doxsection"><a class="anchor" id="gbts-geometry"></a>
 Geometry and layer connections</h2>
 <p>GBTS does not use the ACTS tracking geometry. It works on its own lightweight description: a flat list of <span class="tt">GbtsLayer</span> logical layers, each subdivided into <b>eta bins</b>.</p>
-<p><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">Acts::Experimental::GbtsLayerDescription</a> gives a layer its ID, its type (barrel or endcap), its sensor technology and its extent. For a barrel layer <span class="tt">refCoord</span> is the radius and the bounds are in \(z\); for an endcap it is the other way round. The ID is the caller's own numbering and is never decoded.</p>
+<p><a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">Acts::Experimental::GbtsLayerDescription</a> gives a layer its ID, its type (barrel or endcap), its sensor technology and its extent. For a barrel layer <span class="tt">refCoord</span> is the radius and the bounds are in \(z\); for an endcap it is the other way round. The ID is the caller's own numbering and is very nearly never decoded.</p>
+<dl class="section note"><dt>Note</dt><dd>One reader of the ATLAS numbering survives: the adaptive \(\tau\) correction of <a class="el" href="#gbts-graph">Building the graph</a> takes pixel barrel layers <span class="tt">1000</span> apart as adjacent. On a detector numbered otherwise no triplet looks gapless, so the correction is applied to all of them. The examples algorithm reads the numbering once more, to pick the strip layers out of an ATLAS connection table.</dd></dl>
 <p>Which layer pairs may be joined by an edge is a list of <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">Acts::Experimental::GbtsLayerConnection</a>, each naming a source (outer) and a destination (inner) layer. <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">Acts::Experimental::GbtsGeometry</a> combines the layer descriptions with those connections and precomputes, for every pair of connected layers, which <em>eta bin</em> pairs are geometrically compatible with the allowed \(z_0\) range. The result is a <b>bin group</b> list — one inner bin together with all outer bins it may connect to — which is kept internal to the geometry and serves as the graph builder's iteration schedule, ordered so that outer bins are processed before the inner bins that depend on them.</p>
 <dl class="section note"><dt>Note</dt><dd>The connections are trained offline rather than written by hand. <a class="el" href="class_acts_1_1_experimental_1_1_gbts_layer_connection_tool.html">Acts::Experimental::GbtsLayerConnectionTool</a> accumulates layer-pair statistics from simulated tracks; the <span class="tt">Examples/Scripts/Python/gbts_layer_connection_training.py</span> script drives it. <span class="tt">ActsExamples::GraphBasedSeedingAlgorithm</span> reads the resulting table, in ATLAS' connector file format, and hands the pairs it lists to the geometry.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="gbts-nodes"></a>
 Graph nodes</h2>
 <p><a class="el" href="class_acts_1_1_experimental_1_1_gbts_node_storage.html">Acts::Experimental::GbtsNodeStorage</a> holds the graph nodes. Space points are fed in one at a time through <span class="tt">insert</span>, which takes <b>plain scalars</b> rather than an ACTS container:</p>
-<div class="fragment"><div class="line">std::optional&lt;std::uint32_t&gt; <a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_node_storage.html#a316764f89ecabf359e611198b85f0df6">insert</a>(<a class="code hl_typedef" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, <span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y,</div>
-<div class="line">                                    <span class="keywordtype">float</span> z, std::uint32_t layerIndex,</div>
+<div class="fragment"><div class="line">std::optional&lt;std::uint32_t&gt; <a class="code hl_function" href="class_acts_1_1_experimental_1_1_gbts_node_storage.html#adb572527c7970840ae7c3f63d3c19c9b">insert</a>(<a class="code hl_typedef" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, <span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y,</div>
+<div class="line">                                    <span class="keywordtype">float</span> z, <a class="code hl_typedef" href="namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a> layerIndex,</div>
 <div class="line">                                    <span class="keywordtype">float</span> clusterWidth = 0.f,</div>
 <div class="line">                                    <span class="keywordtype">float</span> localPositionY = 0.f);</div>
 </div><!-- fragment --><p>As with <a class="el" href="class_acts_1_1_cylindrical_space_point_grid.html">Acts::CylindricalSpacePointGrid</a>, an experiment can therefore fill the storage straight from its own space point EDM. Overloads exist for callers that already have \(r\) and \(\phi\), and for an <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">Acts::ConstSpacePointProxy</a> together with the columns carrying the layer index, cluster width and local \(y\) position.</p>
+<p>Two different layer numbers meet here, and they are separate types:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">What it is  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">GbtsExperimentLayerId</span>  </td><td class="markdownTableBodyNone">the layer id the experiment assigns (80000, 81000, ...). Sparse and structured &ndash; the layer descriptions and connections are written in terms of it, and so are the seeder's per-layer cuts.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">GbtsLayerIndex</span>  </td><td class="markdownTableBodyNone">where that layer sits in one <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html">Acts::Experimental::GbtsGeometry</a>, dense from zero. It indexes the geometry, and it is what a node carries.  </td></tr>
+</table>
+<p><span class="tt">insert</span> takes the <b>index</b>, because it is on the per-space-point path. <a class="el" href="class_acts_1_1_experimental_1_1_gbts_geometry.html#aa1685d6555fe9bfc60004911bd2a310f">Acts::Experimental::GbtsGeometry::layerIndex</a> hands it out. It is the geometry's own numbering and is not derivable from the id.</p>
 <p><span class="tt">insert</span> assigns the node to an eta bin via <span class="tt">GbtsLayer::getEtaBin</span> and buffers it. <span class="tt">finalize</span> then sorts each bin by \(\phi\) and materialises the nodes into a space point container ordered by eta bin and then by \(\phi\), so that every eta bin is <b>one contiguous range of node indices</b>. A node index is therefore all that the rest of the algorithm needs to pass around.</p>
 <p>The per-node data the graph builder reads lives in dynamic columns on that same container. It is packed rather than split into one array per field, because the innermost loop reads all of it together:</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>GbtsNodeParams final {</div>
@@ -175,7 +186,7 @@ Graph nodes</h2>
 <div class="line"> </div>
 <div class="line">  <span class="keywordtype">float</span> minRadius{};</div>
 <div class="line">  <span class="keywordtype">float</span> maxRadius{};</div>
-<div class="line">  std::uint32_t layerId{0};</div>
+<div class="line">  <a class="code hl_typedef" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> layerId{0};</div>
 <div class="line"></div>
 <div class="line">  <a class="code hl_enumeration" href="namespace_acts_1_1_experimental.html#a571d8b9ac35ce16e05d33d11b425e1e9">GbtsLayerType</a> type{};</div>
 <div class="line">  <a class="code hl_enumeration" href="namespace_acts_1_1_experimental.html#a16484743f7773ff1f7334e255a3d06cf">GbtsLayerTechnology</a> technology{};</div>
@@ -205,8 +216,9 @@ Building the graph</h2>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>GbtsEdge final {</div>
 <div class="line">  GbtsEdge() = <span class="keywordflow">default</span>;</div>
 <div class="line"></div>
-<div class="line">  GbtsEdge(SpacePointIndex n1_, SpacePointIndex n2_, std::uint32_t n2LayerId_,</div>
-<div class="line">           <span class="keywordtype">bool</span> n2PixelBarrel_, <span class="keywordtype">float</span> p1_, <span class="keywordtype">float</span> p2_, <span class="keywordtype">float</span> p3_)</div>
+<div class="line">  GbtsEdge(SpacePointIndex n1_, SpacePointIndex n2_,</div>
+<div class="line">           GbtsExperimentLayerId n2LayerId_, <span class="keywordtype">bool</span> n2PixelBarrel_, <span class="keywordtype">float</span> p1_,</div>
+<div class="line">           <span class="keywordtype">float</span> p2_, <span class="keywordtype">float</span> p3_)</div>
 <div class="line">      : n1{n1_},</div>
 <div class="line">        n2{n2_},</div>
 <div class="line">        level{1},</div>
@@ -227,7 +239,7 @@ Building the graph</h2>
 <div class="line"> </div>
 <div class="line">  std::array&lt;float, 3&gt; p{};</div>
 <div class="line"></div>
-<div class="line">  std::uint32_t n2LayerId{0};</div>
+<div class="line">  <a class="code hl_typedef" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> n2LayerId{0};</div>
 <div class="line"> </div>
 <div class="line">  std::array&lt;std::uint32_t, kGbtsMaxEdgeNeighbours&gt; vNei{};</div>
 <div class="line">};</div>
@@ -272,33 +284,30 @@ Configuration</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">nMaxPhiSlice</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">sets the base \(\phi\) sliding-window width  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">useOldTuningsCurvature</span>, <span class="tt">useOldTuningsPhiWindow</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">bound the curvature and the \(\phi\) window by the pT the triplet has to reach, rather than by the tuned constants  </td></tr>
-<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">minDeltaRadius</span>, <span class="tt">maxAbsTau</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">doublet acceptance  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">minZ0</span>, <span class="tt">maxZ0</span>, <span class="tt">doubletFilterRZ</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">luminous-region cuts on the doublet  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">tauRatioCut</span>, <span class="tt">cutDPhiMax</span>, <span class="tt">cutDCurvMax</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">edge-to-edge linking tolerances  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">useAdaptiveCuts</span>, <span class="tt">tauRatioCorr</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">widen the \(\tau\) tolerance when a layer is skipped  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">validateTriplets</span>, <span class="tt">d0Max</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">circle fit on pixel-barrel triplets  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">nMaxEdges</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">hard cap on the edge array (2M by default); exceeding it costs efficiency  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">matchBeforeCreate</span>, <span class="tt">tauRatioPrecut</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-graph">Building the graph</a>  </td><td class="markdownTableBodyNone">require a compatible incoming edge before creating one  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">hitShareThreshold</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">fraction of shared hits above which a candidate is a clone  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">maxSeedSplitEta</span>, <span class="tt">maxInvRadDiff</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">seed splitting  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">addTriplets</span>, <span class="tt">maxAbsEtaAddTriplets</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">allow shorter chains within an \(\eta\) range  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">useClusterWidthCuts</span>, <span class="tt">tauLookupTable</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width based \(\tau\) windows  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">addTriplets</span>, <span class="tt">maxAbsEtaAddTriplets</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-extraction">Seed extraction</a>  </td><td class="markdownTableBodyNone">allow shorter chains within an \(\eta\) range  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">useClusterWidthCuts</span>, <span class="tt">tauLookupTable</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width based \(\tau\) windows  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">maxEndcapClusterWidth</span>, <span class="tt">moduleHalfLengthY</span>, <span class="tt">moduleEdgeTolerance</span>  </td><td class="markdownTableBodyNone"><a class="el" href="#gbts-ml">Machine-learning assisted acceptance</a>  </td><td class="markdownTableBodyNone">cluster-width acceptance and module-edge handling  </td></tr>
 </table>
-<p>There is no large radius tracking mode. LRT is these options set to the values it needs: <span class="tt">useStripConnections</span>, <span class="tt">useOldTuningsCurvature</span> with both <span class="tt">oldTuningsCurvature*Fraction</span> at 1, and <span class="tt">minSeedLevel = 2</span>.</p>
 <p><a class="el" href="class_acts_1_1_experimental_1_1_gbts_tracking_filter.html">GbtsTrackingFilter::Config</a> separately controls the chain-following filter of <a class="el" href="#gbts-extraction">seed extraction</a>:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">

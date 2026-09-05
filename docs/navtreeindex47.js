@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"group__seeding.html":[5,9,0],
+"group__sp__formation.html":[5,2,1],
 "group__sympy__codegen.html":[5,11,1],
 "group__track__finding.html":[5,9,1],
 "group__track__finding.html#gaeebbf038ee135dbf867fe05d0f61d09b":[5,9,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "namespace_acts.html#a75b7d632126d8eca83e972e0a282ffa1":[6,0,0,966],
 "namespace_acts.html#a75b87c7a3396f68139b33fe375e4d3b8":[6,0,0,570],
 "namespace_acts.html#a76386b76fb90bd5106f6f4b71c89c379":[6,0,0,815],
-"namespace_acts.html#a76e099f71248cb4af56fa6535db4881a":[6,0,0,705],
-"namespace_acts.html#a76fa69095a6c107291628ba01d426ddb":[6,0,0,825],
-"namespace_acts.html#a772325cf43d5342e1cb392648abc8dfd":[6,0,0,879]
+"namespace_acts.html#a76e099f71248cb4af56fa6535db4881a":[6,0,0,705]
 };

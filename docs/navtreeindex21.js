@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f":[5,3,2,0,7,2],
+"class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a":[5,3,2,0,7,4],
 "class_acts_1_1_i_surface_material_accumulator_1_1_state.html":[5,3,2,0,7,0],
 "class_acts_1_1_i_tracking_geometry_builder.html":[6,0,0,229],
 "class_acts_1_1_i_tracking_geometry_builder.html":[8,0,0,235],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "class_acts_1_1_intersection.html#a1d4692074233348491a02b51ca632fff":[6,0,0,213,0],
 "class_acts_1_1_intersection.html#a1d4692074233348491a02b51ca632fff":[8,0,0,219,0],
 "class_acts_1_1_intersection.html#a23c748ebc7ad0fbae389de2ab852b31e":[6,0,0,213,8],
-"class_acts_1_1_intersection.html#a23c748ebc7ad0fbae389de2ab852b31e":[8,0,0,219,8],
-"class_acts_1_1_intersection.html#a39a22a2b0096c31706475a6844e76eea":[6,0,0,213,11],
-"class_acts_1_1_intersection.html#a39a22a2b0096c31706475a6844e76eea":[8,0,0,219,11]
+"class_acts_1_1_intersection.html#a23c748ebc7ad0fbae389de2ab852b31e":[8,0,0,219,8]
 };
