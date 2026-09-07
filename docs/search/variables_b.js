@@ -39,7 +39,7 @@ var searchData=
   ['linearizedstate_36',['linearizedState',['../struct_acts_1_1_track_at_vertex.html#a67639e906cd264660a06a59f67bf599d',1,'Acts::TrackAtVertex']]],
   ['linefunctor_37',['lineFunctor',['../struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93',1,'Acts::Experimental::HoughExplorationOptions']]],
   ['linethickness_38',['lineThickness',['../struct_acts_1_1_view_config.html#af89ef91fa65740b20570065218768447',1,'Acts::ViewConfig']]],
-  ['links_39',['links',['../struct_acts_fatras_1_1_channel.html#aeb188804bf95213dfee1713816148906',1,'ActsFatras::Channel']]],
+  ['links_39',['links',['../struct_acts_1_1_experimental_1_1_gbts_bin_group.html#aa73c5f42a4753394ed167925ab3c6611',1,'Acts::Experimental::GbtsBinGroup::links'],['../struct_acts_fatras_1_1_channel.html#aeb188804bf95213dfee1713816148906',1,'ActsFatras::Channel::links']]],
   ['linpoint_40',['linPoint',['../struct_acts_1_1_vertex_info.html#acfa64785ef451c97196b2fbb3257a27e',1,'Acts::VertexInfo']]],
   ['loc0max_41',['loc0Max',['../struct_acts_1_1_track_selector_1_1_config.html#ac72c787e979a1a63c70edb8f8ee0ec12',1,'Acts::TrackSelector::Config']]],
   ['loc0min_42',['loc0Min',['../struct_acts_1_1_track_selector_1_1_config.html#a09e4801fea9841f5c3225767f2081e2f',1,'Acts::TrackSelector::Config']]],

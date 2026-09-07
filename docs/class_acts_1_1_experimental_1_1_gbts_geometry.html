@@ -135,8 +135,18 @@ $(function(){initNavTree('class_acts_1_1_experimental_1_1_gbts_geometry.html',''
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aac0ef4f33f7f976a72ea538484f68076" id="r_aac0ef4f33f7f976a72ea538484f68076"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0ef4f33f7f976a72ea538484f68076">GbtsGeometry</a> (std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &gt; layerDescriptions, std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_connection.html">GbtsLayerConnection</a> &gt; layerConnections, float etaBinWidth, const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_z0_range.html">GbtsZ0Range</a> &amp;z0Range={}, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">getDummyLogger</a>())</td></tr>
 <tr class="memdesc:aac0ef4f33f7f976a72ea538484f68076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a280466c1812bd87ead783b151b3fd4ba" id="r_a280466c1812bd87ead783b151b3fd4ba"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_bin_group.html">GbtsBinGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a280466c1812bd87ead783b151b3fd4ba">binGroups</a> () const</td></tr>
+<tr class="memdesc:a280466c1812bd87ead783b151b3fd4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eta bin pairs the graph is built over, in build order.  <br /></td></tr>
+<tr class="memitem:ad0909671a6e7261a5c9421ea0e0709ad" id="r_ad0909671a6e7261a5c9421ea0e0709ad"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_binning.html">GbtsLayerBinning</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0909671a6e7261a5c9421ea0e0709ad">layerBinning</a> (<a class="el" href="namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a> idx) const</td></tr>
+<tr class="memdesc:ad0909671a6e7261a5c9421ea0e0709ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eta binning the geometry gave a layer.  <br /></td></tr>
+<tr class="memitem:a73e5b254d151f7259dd453dda89b0c11" id="r_a73e5b254d151f7259dd453dda89b0c11"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e5b254d151f7259dd453dda89b0c11">layerDescription</a> (<a class="el" href="namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a> idx) const</td></tr>
+<tr class="memdesc:a73e5b254d151f7259dd453dda89b0c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the description a layer was built from.  <br /></td></tr>
 <tr class="memitem:aa1685d6555fe9bfc60004911bd2a310f" id="r_aa1685d6555fe9bfc60004911bd2a310f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1685d6555fe9bfc60004911bd2a310f">layerIndex</a> (<a class="el" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> id) const</td></tr>
 <tr class="memdesc:aa1685d6555fe9bfc60004911bd2a310f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve a layer id into the index GbtsNodeStorage::insert takes.  <br /></td></tr>
+<tr class="memitem:a87557959acaf87b5343b9c80f6a7cc07" id="r_a87557959acaf87b5343b9c80f6a7cc07"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87557959acaf87b5343b9c80f6a7cc07">numBins</a> () const</td></tr>
+<tr class="memdesc:a87557959acaf87b5343b9c80f6a7cc07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of eta bins across all layers.  <br /></td></tr>
+<tr class="memitem:a5f8cde139599e2b2037ae027c6c1f7b8" id="r_a5f8cde139599e2b2037ae027c6c1f7b8"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8cde139599e2b2037ae027c6c1f7b8">numLayers</a> () const</td></tr>
+<tr class="memdesc:a5f8cde139599e2b2037ae027c6c1f7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of layers the geometry was built from.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Geometry helper built from layers and connectors. </p>
@@ -190,6 +200,78 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a280466c1812bd87ead783b151b3fd4ba" name="a280466c1812bd87ead783b151b3fd4ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280466c1812bd87ead783b151b3fd4ba">&#9670;&#160;</a></span>binGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_bin_group.html">GbtsBinGroup</a> &gt; Acts::Experimental::GbtsGeometry::binGroups </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the eta bin pairs the graph is built over, in build order. </p>
+<dl class="section return"><dt>Returns</dt><dd>The bin groups </dd></dl>
+
+</div>
+</div>
+<a id="ad0909671a6e7261a5c9421ea0e0709ad" name="ad0909671a6e7261a5c9421ea0e0709ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0909671a6e7261a5c9421ea0e0709ad">&#9670;&#160;</a></span>layerBinning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_binning.html">GbtsLayerBinning</a> &amp; Acts::Experimental::GbtsGeometry::layerBinning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a></td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the eta binning the geometry gave a layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Layer index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the layer's binning </dd></dl>
+
+</div>
+</div>
+<a id="a73e5b254d151f7259dd453dda89b0c11" name="a73e5b254d151f7259dd453dda89b0c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e5b254d151f7259dd453dda89b0c11">&#9670;&#160;</a></span>layerDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_acts_1_1_experimental_1_1_gbts_layer_description.html">GbtsLayerDescription</a> &amp; Acts::Experimental::GbtsGeometry::layerDescription </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_acts_1_1_experimental.html#a8ba2d6d068d134ece0cc2869c41db190">GbtsLayerIndex</a></td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the description a layer was built from. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>Layer index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the layer description </dd></dl>
+
+</div>
+</div>
 <a id="aa1685d6555fe9bfc60004911bd2a310f" name="aa1685d6555fe9bfc60004911bd2a310f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1685d6555fe9bfc60004911bd2a310f">&#9670;&#160;</a></span>layerIndex()</h2>
 
@@ -213,6 +295,46 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The layer's index, or nullopt if this geometry has no such layer </dd></dl>
+
+</div>
+</div>
+<a id="a87557959acaf87b5343b9c80f6a7cc07" name="a87557959acaf87b5343b9c80f6a7cc07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87557959acaf87b5343b9c80f6a7cc07">&#9670;&#160;</a></span>numBins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t Acts::Experimental::GbtsGeometry::numBins </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of eta bins across all layers. </p>
+<dl class="section return"><dt>Returns</dt><dd>The bin count </dd></dl>
+
+</div>
+</div>
+<a id="a5f8cde139599e2b2037ae027c6c1f7b8" name="a5f8cde139599e2b2037ae027c6c1f7b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f8cde139599e2b2037ae027c6c1f7b8">&#9670;&#160;</a></span>numLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Acts::Experimental::GbtsGeometry::numLayers </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of layers the geometry was built from. </p>
+<dl class="section return"><dt>Returns</dt><dd>The layer count </dd></dl>
 
 </div>
 </div>
