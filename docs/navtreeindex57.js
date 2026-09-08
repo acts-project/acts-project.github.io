@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a18add364115e17f543d4f3db2eaf9d49":[8,0,0,160,2,0],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a225ee308a9f0ac09d8fcf584d030ea6c":[6,0,0,154,2,3],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a225ee308a9f0ac09d8fcf584d030ea6c":[8,0,0,160,2,3],
 "struct_acts_1_1_gaussian_track_density_1_1_track_entry.html#a371e91b6562925b105e8347c1ee12b80":[6,0,0,154,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html#abac8f80305e9de5fe1fcdd064173f40e":[6,0,0,182,0,2],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html#abac8f80305e9de5fe1fcdd064173f40e":[8,0,0,188,0,2],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html#af9504a3bd9806993436d9e0467071de4":[6,0,0,182,0,1],
-"struct_acts_1_1_helical_track_linearizer_1_1_config.html#af9504a3bd9806993436d9e0467071de4":[8,0,0,188,0,1],
-"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html":[6,0,0,4,1]
+"struct_acts_1_1_helical_track_linearizer_1_1_config.html#af9504a3bd9806993436d9e0467071de4":[8,0,0,188,0,1]
 };

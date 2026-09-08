@@ -32,7 +32,8 @@ var namespace_acts =
     ] ],
     [ "PhysicalConstants", "namespace_acts_1_1_physical_constants.html", [
       [ "c", "namespace_acts_1_1_physical_constants.html#a1d84e7732ed0bc3272bff096737d2b6e", null ],
-      [ "hbar", "namespace_acts_1_1_physical_constants.html#ae64b87b62593f4c52d5a1d88da6d7cf3", null ]
+      [ "hbar", "namespace_acts_1_1_physical_constants.html#ae64b87b62593f4c52d5a1d88da6d7cf3", null ],
+      [ "kAvogadro", "namespace_acts_1_1_physical_constants.html#a12b5502912ba5d0b3dd7d3825f8784db", null ]
     ] ],
     [ "UnitConstants", "namespace_acts_1_1_unit_constants.html", [
       [ "cm", "namespace_acts_1_1_unit_constants.html#aa190d4eb78a4f8937ce8b8019ab44a9e", null ],

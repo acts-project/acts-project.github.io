@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,291,0,0],
 "struct_acts_1_1_multi_navigation_policy_1_1_state.html":[6,0,0,286,0],
 "struct_acts_1_1_multi_navigation_policy_1_1_state.html":[8,0,0,292,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[6,0,0,288,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_oriented_surface.html#a92eda6251a79b94d030153782e31ef75":[8,0,0,315,1],
 "struct_acts_1_1_outer_strip_space_point_calibration_details.html":[6,0,0,310],
 "struct_acts_1_1_outer_strip_space_point_calibration_details.html":[8,0,0,316],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[6,0,0,310,2],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[8,0,0,316,2]
+"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[6,0,0,310,2]
 };

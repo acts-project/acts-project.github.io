@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html":[6,0,0,4,1],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html":[8,0,0,6,1],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a01dcdde90431ee8bf39358a507cc4d73":[6,0,0,4,1,1],
 "struct_acts_1_1_hough_transform_utils_1_1_hough_axis_ranges.html#a01dcdde90431ee8bf39358a507cc4d73":[8,0,0,6,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html":[8,0,0,230],
 "struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html":[6,0,0,225],
 "struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html":[8,0,0,231],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[6,0,0,228,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[8,0,0,234,0]
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[6,0,0,228,0]
 };

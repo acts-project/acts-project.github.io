@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[6,0,0,16,1,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a2f3622cdee3f348416dfebb4e778e120":[8,0,0,22,1,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[6,0,0,16,1,1],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a6f6aaec3be2fe16474e4ba0fd9c13ad5":[8,0,0,22,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html#aae192d5823aa4d9f22f7c99c893af622":[8,0,0,48,0,1],
 "struct_acts_1_1_axis_spec_1_1_equidistant_params.html":[6,0,0,42,1],
 "struct_acts_1_1_axis_spec_1_1_equidistant_params.html":[8,0,0,48,1],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a74ac44b88331ec9ae1a214b1145e3fa4":[6,0,0,42,1,1],
-"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a74ac44b88331ec9ae1a214b1145e3fa4":[8,0,0,48,1,1]
+"struct_acts_1_1_axis_spec_1_1_equidistant_params.html#a74ac44b88331ec9ae1a214b1145e3fa4":[6,0,0,42,1,1]
 };

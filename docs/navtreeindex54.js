@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a3f4f3027d96a8fb6b98f4446ef4a8c19":[8,0,0,2,6,3,3],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4e1b61ca9638d127014d851e3adec3be":[6,0,0,1,6,3,4],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4e1b61ca9638d127014d851e3adec3be":[8,0,0,2,6,3,4],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_parameters.html#a4f7ea61941b6624ff6e81f9b055c6bb4":[6,0,0,1,6,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab089fc01f5866e0777abf303b0dbab47":[8,0,0,2,25,0,0],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab3fb92ed6f172affea9bfe1ebb944ef3":[6,0,0,1,25,0,3],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ab3fb92ed6f172affea9bfe1ebb944ef3":[8,0,0,2,25,0,3],
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ad14af0c7a38f8682ae7eabb574ec7eb2":[6,0,0,1,25,0,11],
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ad14af0c7a38f8682ae7eabb574ec7eb2":[8,0,0,2,25,0,11]
+"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#ad14af0c7a38f8682ae7eabb574ec7eb2":[6,0,0,1,25,0,11]
 };
