@@ -185,7 +185,7 @@ With a LCG release on CVMFS</h2>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
 In a container</h2>
 <p>A set of container images is available through the <a href="https://github.com/acts-project/ci-dependencies/pkgs/container/spack-container">ACTS container registry</a>. These images are built using the configuration that is used in CI, and they contain all the dependencies required to build ACTS.</p>
-<dl class="section note"><dt>Note</dt><dd>Most containers are only build for the <span class="tt">x86_64</span> platform. If you are on an <span class="tt">aarch64</span> (such as a recent Mac), you'll need to use the <span class="tt">ubuntu2404</span> container, which is built for <span class="tt">aarch64</span> and <span class="tt">x86_64</span>!</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Most containers are only build for the <span class="tt">x86_64</span> platform. If you are on an <span class="tt">aarch64</span> (such as a recent Mac), you'll need to use the <span class="tt">ubuntu2604</span> container, which is built for <span class="tt">aarch64</span> and <span class="tt">x86_64</span>!</dd></dl>
 <p>Furthermore, we are also testing on, but do not provide the corresponding containers:</p>
 <ul>
 <li><span class="tt">alma9</span> (HEP-specific software from LCG 108/109 and dev4 nightly, and compilers <span class="tt">gcc15</span>, <span class="tt">clang19</span>)</li>
@@ -193,9 +193,9 @@ In a container</h2>
 </ul>
 <dl class="section warning"><dt>Warning</dt><dd>We stopped producing fully-contained LCG containers in favor of running LCG based tests directly from CVMFS.</dd></dl>
 <p>To use these locally, you first need to pull the relevant images from the registry. Stable versions are tagged as <span class="tt">vX</span> where <span class="tt">X</span> is the version number. The latest, potentially unstable, version is tagged as <span class="tt">latest</span>. To list all available tags, e.g. for the <span class="tt">ubuntu2004</span> image, you can use the following command:</p>
-<div class="fragment"><div class="line">docker search --list-tags ghcr.io/acts-project/ubuntu2404</div>
-</div><!-- fragment --><p>The following command then downloads a stable tag of the <span class="tt">ubuntu2404</span> image:</p>
-<div class="fragment"><div class="line">docker pull ghcr.io/acts-project/ubuntu2404:87</div>
+<div class="fragment"><div class="line">docker search --list-tags ghcr.io/acts-project/ubuntu2604</div>
+</div><!-- fragment --><p>The following command then downloads a stable tag of the <span class="tt">ubuntu2604</span> image:</p>
+<div class="fragment"><div class="line">docker pull ghcr.io/acts-project/ubuntu2604:90</div>
 </div><!-- fragment --><p>This should print the image id as part of the output. You can also find out the image id by running <span class="tt">docker images</span> to list all your locally available container images.</p>
 <p>Now, you need to start a shell within the container to run the build. Assuming that <span class="tt">&lt;source&gt;</span> is the path to your source checkout on your host machine, the following command will make the source directory available as <span class="tt">/acts</span> in the container and start an interactive <span class="tt">bash</span> shell</p>
 <div class="fragment"><div class="line">docker run --volume=&lt;source&gt;:/acts:ro --interactive --tty &lt;image&gt; /bin/bash</div>
