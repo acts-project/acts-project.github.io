@@ -12,7 +12,7 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "edgeMaskMinEta", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a60fa0cf3c1557f05c58b484649db8b1b", null ],
     [ "hitShareThreshold", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a3652caf4ad71c3e9453573f527cdad8a", null ],
     [ "matchBeforeCreate", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a943fe3475acf317ed99226a20a60ca0f", null ],
-    [ "matchBeforeCreateLayerIds", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#ac597e7700c061339d4877302a1cabe9e", null ],
+    [ "matchBeforeCreateMaxBarrelOrder", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a1ce8f0badfa5416d20b5a4701f34ed5e", null ],
     [ "matchBeforeCreateMaxEdges", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aa270eb41c6ccf1a667fa1f8f3468d142", null ],
     [ "maxAbsEtaAddTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#aeeefc7a8a677adeab86833c23fe8c08a", null ],
     [ "maxAbsTau", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a13748e85a362deacafa7bf565ce28b88", null ],
@@ -54,6 +54,6 @@ var struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config =
     [ "useEtaBinning", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a168ce6d76497cf219da3872066da2e76", null ],
     [ "useStripConnections", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#afd41882dee07d74c765d0b57c428a3be", null ],
     [ "validateTriplets", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#af035485c49d8acc15723133b1c92f091", null ],
-    [ "z0HistogramLayerIds", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a52eb8fe96cf7ff4ba1f1fd200e49d956", null ],
+    [ "z0HistogramMaxBarrelOrder", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a2c8f334d92e08fef5df8060a5e458abf", null ],
     [ "z0Resolution", "struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a9ab83bdd7f9cd9ecae005029e9b47f65", null ]
 ];

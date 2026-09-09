@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a3c5321e0bb8e7f4206da59d7dda1beb0":[6,0,2,18,0,7],
+"struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a3c5321e0bb8e7f4206da59d7dda1beb0":[8,0,1,19,0,7],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a42012fba348a159d513592b3a8c2305b":[6,0,2,18,0,8],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a42012fba348a159d513592b3a8c2305b":[8,0,1,19,0,8],
 "struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#abb9eb5b7258429c3315dd26fd43d2cf7":[6,0,2,18,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html#aece7de232b048e9e0145134293677e8f":[5,10,3,1,0,0],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html":[5,10,3,1,1],
 "struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#a3c87959dc201bf3508235f301c30f9fe":[5,10,3,1,1,0],
-"struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178":[5,10,3,1,1,1],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html":[5,10,3,2,0],
-"struct_acts_plugins_1_1_detray_payload_converter_1_1_config.html#a44ebb5eed7bc8a0e3e99f492231319fe":[5,10,3,2,0,6]
+"struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html#ad1965de6a0854f6bd9e13714945ff178":[5,10,3,1,1,1]
 };

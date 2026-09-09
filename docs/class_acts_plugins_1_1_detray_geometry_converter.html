@@ -142,7 +142,7 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b4630ea81ac8aad5db94ecdc6413315" id="r_a8b4630ea81ac8aad5db94ecdc6413315"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b4630ea81ac8aad5db94ecdc6413315">DetrayGeometryConverter</a> (<a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_config.html">Config</a> config, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; logger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;DetrayGeometryConverter&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a8b4630ea81ac8aad5db94ecdc6413315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="memitem:aef1caba916d4984ff8bb055a421d14e6" id="r_aef1caba916d4984ff8bb055a421d14e6"><td class="memTemplParams" colspan="2">template&lt;typename metadata_t&gt; </td></tr>
+<tr class="memitem:aef1caba916d4984ff8bb055a421d14e6" id="r_aef1caba916d4984ff8bb055a421d14e6"><td class="memTemplParams" colspan="2">template&lt;detray::concepts::metadata metadata_t&gt; </td></tr>
 <tr class="memitem:aef1caba916d4984ff8bb055a421d14e6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html">DetrayGeometry</a>&lt; metadata_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef1caba916d4984ff8bb055a421d14e6">convert</a> (vecmem::memory_resource &amp;mr, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt; &amp;trackingGeometry, const std::string &amp;detectorName=&quot;&quot;) const</td></tr>
 <tr class="memdesc:aef1caba916d4984ff8bb055a421d14e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an ACTS TrackingGeometry into a detray detector.  <br /></td></tr>
 </table>
@@ -195,7 +195,7 @@ Public Member Functions</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename metadata_t&gt; </div>
+template&lt;detray::concepts::metadata metadata_t&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="struct_acts_plugins_1_1_detray_geometry_converter_1_1_detray_geometry.html">DetrayGeometry</a>&lt; metadata_t &gt; ActsPlugins::DetrayGeometryConverter::convert </td>

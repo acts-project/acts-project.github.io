@@ -1,5 +1,6 @@
 var struct_acts_1_1_experimental_1_1_gbts_layer_description =
 [
+    [ "barrelOrder", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#aabc9cd62db7adfb69fbe1036ab834b42", null ],
     [ "id", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9ecac138af9de95bc66fb3f8132547cc", null ],
     [ "maxBound", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9f0568d37822ce57545afe40878ee22c", null ],
     [ "minBound", "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a122fa536db18a3e31db7655e29a59bd6", null ],

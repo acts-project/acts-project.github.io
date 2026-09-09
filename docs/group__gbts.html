@@ -187,7 +187,7 @@ Graph nodes</h2>
 <div class="line"> </div>
 <div class="line">  <span class="keywordtype">float</span> minRadius{};</div>
 <div class="line">  <span class="keywordtype">float</span> maxRadius{};</div>
-<div class="line">  <a class="code hl_typedef" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> layerId{0};</div>
+<div class="line">  std::int32_t barrelOrder{-1};</div>
 <div class="line"></div>
 <div class="line">  <a class="code hl_enumeration" href="namespace_acts_1_1_experimental.html#a571d8b9ac35ce16e05d33d11b425e1e9">GbtsLayerType</a> type{};</div>
 <div class="line">  <a class="code hl_enumeration" href="namespace_acts_1_1_experimental.html#a16484743f7773ff1f7334e255a3d06cf">GbtsLayerTechnology</a> technology{};</div>
@@ -218,15 +218,13 @@ Building the graph</h2>
 <div class="line">  GbtsEdge() = <span class="keywordflow">default</span>;</div>
 <div class="line"></div>
 <div class="line">  GbtsEdge(SpacePointIndex n1_, SpacePointIndex n2_,</div>
-<div class="line">           GbtsExperimentLayerId n2LayerId_, <span class="keywordtype">bool</span> n2PixelBarrel_, <span class="keywordtype">float</span> p1_,</div>
-<div class="line">           <span class="keywordtype">float</span> p2_, <span class="keywordtype">float</span> p3_)</div>
+<div class="line">           std::int32_t n2BarrelOrder_, <span class="keywordtype">float</span> p1_, <span class="keywordtype">float</span> p2_, <span class="keywordtype">float</span> p3_)</div>
 <div class="line">      : n1{n1_},</div>
 <div class="line">        n2{n2_},</div>
 <div class="line">        level{1},</div>
 <div class="line">        next{1},</div>
-<div class="line">        n2PixelBarrel{n2PixelBarrel_},</div>
 <div class="line">        p{p1_, p2_, p3_},</div>
-<div class="line">        n2LayerId{n2LayerId_} {}</div>
+<div class="line">        n2BarrelOrder{n2BarrelOrder_} {}</div>
 <div class="line"></div>
 <div class="line">  <a class="code hl_typedef" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> n1{kSpacePointIndexInvalid};</div>
 <div class="line">  <a class="code hl_typedef" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> n2{kSpacePointIndexInvalid};</div>
@@ -235,12 +233,10 @@ Building the graph</h2>
 <div class="line">  std::int8_t next{-1};</div>
 <div class="line"> </div>
 <div class="line">  std::uint8_t nNei{0};</div>
-<div class="line"></div>
-<div class="line">  <span class="keywordtype">bool</span> n2PixelBarrel{};</div>
 <div class="line"> </div>
 <div class="line">  std::array&lt;float, 3&gt; p{};</div>
 <div class="line"></div>
-<div class="line">  <a class="code hl_typedef" href="namespace_acts_1_1_experimental.html#a3cf30a79d2cc7b16985ee9e4c7475644">GbtsExperimentLayerId</a> n2LayerId{0};</div>
+<div class="line">  std::int32_t n2BarrelOrder{-1};</div>
 <div class="line"> </div>
 <div class="line">  std::array&lt;std::uint32_t, kGbtsMaxEdgeNeighbours&gt; vNei{};</div>
 <div class="line">};</div>

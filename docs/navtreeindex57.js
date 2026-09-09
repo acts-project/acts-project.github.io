@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab811f6efdfa23b26ce812205632ffac6":[8,0,0,158,0,2],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab9c5cca75445b19b828484ee15aacad5":[6,0,0,152,0,1],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ab9c5cca75445b19b828484ee15aacad5":[8,0,0,158,0,1],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ad7402a473fd281ca403f35de65756e73":[6,0,0,152,0,5],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#ad7402a473fd281ca403f35de65756e73":[8,0,0,158,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#ab9c7fe5fc6a0e72a9a017ba4f153c6e0":[8,0,0,178,1,3],
 "struct_acts_1_1_grid_material_accessor.html":[5,3,2,6],
 "struct_acts_1_1_grid_material_accessor.html#a2ba7b09df387f26d0f4cd1f02cedf94c":[5,3,2,6,1],
-"struct_acts_1_1_grid_material_accessor.html#a50d286f9e3f2b14a749df30229c61863":[5,3,2,6,0],
-"struct_acts_1_1_grid_material_accessor.html#ae1395d681282c1f3cf8ad77ff0a031a2":[5,3,2,6,2],
-"struct_acts_1_1_gsf_component.html":[6,0,0,179]
+"struct_acts_1_1_grid_material_accessor.html#a50d286f9e3f2b14a749df30229c61863":[5,3,2,6,0]
 };
