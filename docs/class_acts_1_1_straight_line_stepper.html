@@ -197,8 +197,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a44c1a3e8f6758a09bd9a277196d5d632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a straight line propagation step.  <br /></td></tr>
 <tr class="memitem:a86fda6cb93c0ca0d12667701e508988e" id="r_a86fda6cb93c0ca0d12667701e508988e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86fda6cb93c0ca0d12667701e508988e">time</a> (const <a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a86fda6cb93c0ca0d12667701e508988e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time access.  <br /></td></tr>
-<tr class="memitem:a0da4ee7fe22b12010486890a1f2a5da8" id="r_a0da4ee7fe22b12010486890a1f2a5da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0da4ee7fe22b12010486890a1f2a5da8">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a0da4ee7fe22b12010486890a1f2a5da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state - for the moment a dummy method.  <br /></td></tr>
+<tr class="memitem:af93775330257497c05d731f70ca9960b" id="r_af93775330257497c05d731f70ca9960b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af93775330257497c05d731f70ca9960b">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memdesc:af93775330257497c05d731f70ca9960b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state - for the moment a dummy method.  <br /></td></tr>
 <tr class="memitem:ab64225b4afeb9029cab606047a2bfe95" id="r_ab64225b4afeb9029cab606047a2bfe95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab64225b4afeb9029cab606047a2bfe95">transportCovarianceToCurvilinear</a> (<a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ab64225b4afeb9029cab606047a2bfe95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state - for the moment a dummy method.  <br /></td></tr>
 <tr class="memitem:a4ede1f73613d672fecc9976f6a53b201" id="r_a4ede1f73613d672fecc9976f6a53b201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ede1f73613d672fecc9976f6a53b201">update</a> (<a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;freeParams, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="#a1c8fe5bb662fd14e8c10027c10a26202">Covariance</a> &amp;covariance, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
@@ -790,14 +790,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0da4ee7fe22b12010486890a1f2a5da8" name="a0da4ee7fe22b12010486890a1f2a5da8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0da4ee7fe22b12010486890a1f2a5da8">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
+<a id="af93775330257497c05d731f70ca9960b" name="af93775330257497c05d731f70ca9960b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93775330257497c05d731f70ca9960b">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Acts::StraightLineStepper::transportCovarianceToBound </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::StraightLineStepper::transportCovarianceToBound </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_straight_line_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -831,10 +831,11 @@ Public Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>no check is done if the position is actually on the surface </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">freeToBoundCorrection</td><td>Correction for non-linearity effect during transform from free to bound </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">freeToBoundCorrection</td><td>Correction for non-linearity effect during transform from free to bound</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Failure if the parameters cannot be expressed on the surface </dd></dl>
 
 </div>
 </div>

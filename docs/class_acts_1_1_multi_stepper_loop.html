@@ -236,8 +236,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5fd61a6fae614fee412c0cfc33d4f8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a Runge-Kutta track parameter propagation step.  <br /></td></tr>
 <tr class="memitem:a302cbeff32f5f8d724ee18e1efeeb46d" id="r_a302cbeff32f5f8d724ee18e1efeeb46d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302cbeff32f5f8d724ee18e1efeeb46d">time</a> (const <a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a302cbeff32f5f8d724ee18e1efeeb46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time access.  <br /></td></tr>
-<tr class="memitem:adaeaae8bc11f7964b91434cad7b2abb0" id="r_adaeaae8bc11f7964b91434cad7b2abb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaeaae8bc11f7964b91434cad7b2abb0">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:adaeaae8bc11f7964b91434cad7b2abb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
+<tr class="memitem:ac364a663f7797ed93d105e4bf8333fd3" id="r_ac364a663f7797ed93d105e4bf8333fd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac364a663f7797ed93d105e4bf8333fd3">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;freeToBoundCorrection=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memdesc:ac364a663f7797ed93d105e4bf8333fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
 <tr class="memitem:a990dbc216f38984e57f1875b855e5aa8" id="r_a990dbc216f38984e57f1875b855e5aa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990dbc216f38984e57f1875b855e5aa8">transportCovarianceToCurvilinear</a> (<a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a990dbc216f38984e57f1875b855e5aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
 <tr class="memitem:adb7a1bdff195f1bc9ed9f2d2bc88e0e2" id="r_adb7a1bdff195f1bc9ed9f2d2bc88e0e2"><td class="memTemplParams" colspan="2">template&lt;typename object_intersection_t&gt; </td></tr>
@@ -1200,8 +1200,8 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 
 </div>
 </div>
-<a id="adaeaae8bc11f7964b91434cad7b2abb0" name="adaeaae8bc11f7964b91434cad7b2abb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaeaae8bc11f7964b91434cad7b2abb0">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
+<a id="ac364a663f7797ed93d105e4bf8333fd3" name="ac364a663f7797ed93d105e4bf8333fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac364a663f7797ed93d105e4bf8333fd3">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1209,7 +1209,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
 template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer_t = MaxWeightReducerLoop&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::transportCovarianceToBound </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; <a class="el" href="class_acts_1_1_multi_stepper_loop.html">Acts::MultiStepperLoop</a>&lt; single_stepper_t, component_reducer_t &gt;::transportCovarianceToBound </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_multi_stepper_loop_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -1242,6 +1242,7 @@ template&lt;Concepts::SingleStepper single_stepper_t, typename component_reducer
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>no check is done if the position is actually on the surface </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Failure if the parameters cannot be expressed on the surface </dd></dl>
 
 </div>
 </div>

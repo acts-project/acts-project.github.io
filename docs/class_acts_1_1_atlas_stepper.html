@@ -201,8 +201,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3c050c88cae4bc6c7534ed3309d8ce1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the actual step on the state.  <br /></td></tr>
 <tr class="memitem:a5567385ad6523ef252f2ac222074c280" id="r_a5567385ad6523ef252f2ac222074c280"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5567385ad6523ef252f2ac222074c280">time</a> (const <a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a5567385ad6523ef252f2ac222074c280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time access.  <br /></td></tr>
-<tr class="memitem:a56f82c888aab4364b69749085502229f" id="r_a56f82c888aab4364b69749085502229f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56f82c888aab4364b69749085502229f">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;=FreeToBoundCorrection(false)) const</td></tr>
-<tr class="memdesc:a56f82c888aab4364b69749085502229f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
+<tr class="memitem:a1796f6b18fb4d3abb355b5df39d8df90" id="r_a1796f6b18fb4d3abb355b5df39d8df90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1796f6b18fb4d3abb355b5df39d8df90">transportCovarianceToBound</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface, const FreeToBoundCorrection &amp;=FreeToBoundCorrection(false)) const</td></tr>
+<tr class="memdesc:a1796f6b18fb4d3abb355b5df39d8df90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
 <tr class="memitem:a64ac7d24b6ab44a7c960785ad0df45fd" id="r_a64ac7d24b6ab44a7c960785ad0df45fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ac7d24b6ab44a7c960785ad0df45fd">transportCovarianceToCurvilinear</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a64ac7d24b6ab44a7c960785ad0df45fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for on-demand transport of the covariance to a new curvilinear frame at current position, or direction of the state.  <br /></td></tr>
 <tr class="memitem:a2db1084885c61cabb7a8ae41a5eeb480" id="r_a2db1084885c61cabb7a8ae41a5eeb480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2db1084885c61cabb7a8ae41a5eeb480">update</a> (<a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;state, const <a class="el" href="namespace_acts.html#a202d7a130eccaece9a3dab80d52bbd21">FreeVector</a> &amp;parameters, const <a class="el" href="namespace_acts.html#a019f0610fe8fe3f7b3692d7ef6a2dded">BoundVector</a> &amp;boundParams, const <a class="el" href="#a0621e44f0f27a4e6464a3e378f7f88a4">Covariance</a> &amp;covariance, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
@@ -886,14 +886,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a56f82c888aab4364b69749085502229f" name="a56f82c888aab4364b69749085502229f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56f82c888aab4364b69749085502229f">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
+<a id="a1796f6b18fb4d3abb355b5df39d8df90" name="a1796f6b18fb4d3abb355b5df39d8df90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1796f6b18fb4d3abb355b5df39d8df90">&#9670;&#160;</a></span>transportCovarianceToBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Acts::AtlasStepper::transportCovarianceToBound </td>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::AtlasStepper::transportCovarianceToBound </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_acts_1_1_atlas_stepper_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
         </tr>
@@ -918,6 +918,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Failure if the parameters cannot be expressed on the surface </dd></dl>
 
 </div>
 </div>

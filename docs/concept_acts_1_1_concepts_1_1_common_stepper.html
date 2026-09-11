@@ -152,7 +152,9 @@ $(function(){initNavTree('concept_acts_1_1_concepts_1_1_common_stepper.html','',
 <div class="line">      {</div>
 <div class="line">        s.boundState(t, sf, b, corr)</div>
 <div class="line">      } -&gt; std::same_as&lt;Result&lt;typename Stepper::BoundState&gt;&gt;;</div>
-<div class="line">      { <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.transportCovarianceToBound(t, sf, corr) } -&gt; std::same_as&lt;void&gt;;</div>
+<div class="line">      {</div>
+<div class="line">        <a class="code hl_variable" href="namespace_acts_1_1_unit_constants.html#af5e223138d35ab82606b8d129728a3a8">s</a>.transportCovarianceToBound(t, sf, corr)</div>
+<div class="line">      } -&gt; std::same_as&lt;Result&lt;void&gt;&gt;;</div>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keywordtype">bool</span> b) {</div>
