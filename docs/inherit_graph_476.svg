@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_toroid_field_1_1_config.html" target="_top" xlink:title="Full configuration for the toroid field.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_toroid_field_1_1_ect_config.html" target="_top" xlink:title="Configuration for end&#45;cap toroid (ECT) coils.">
 <polygon fill="white" stroke="#666666" points="102,-30 0,-30 0,0 102,0 102,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::ToroidField::</text>
-<text text-anchor="middle" x="51" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Config</text>
+<text text-anchor="middle" x="51" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">EctConfig</text>
 </a>
 </g>
 </g>

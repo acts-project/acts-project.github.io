@@ -38,40 +38,34 @@ var group__material =
       [ "operator<", "class_acts_1_1_element_fraction.html#a87093104d5c705d6e4520e96bf9e9b8d", null ],
       [ "operator<<", "class_acts_1_1_element_fraction.html#a71c09ca03ddbc479a06e64a1e57192ab", null ]
     ] ],
-    [ "Acts::GloballyIndexedMaterialAccessor", "struct_acts_1_1_globally_indexed_material_accessor.html", [
-      [ "grid_value_type", "struct_acts_1_1_globally_indexed_material_accessor.html#abe070b15ec816f5a57295c30d388c637", null ],
-      [ "GloballyIndexedMaterialAccessor", "struct_acts_1_1_globally_indexed_material_accessor.html#a3db24238ed5ecb7b055a881d460797cc", null ],
-      [ "scale", "struct_acts_1_1_globally_indexed_material_accessor.html#a2a864954c2167481cc43105dd2ad6a67", null ],
-      [ "slab", "struct_acts_1_1_globally_indexed_material_accessor.html#aa5b0317f113d860592142d5aafa57a97", null ],
-      [ "globalMaterial", "struct_acts_1_1_globally_indexed_material_accessor.html#a0251e85c703f00647ecc1eb2a6df520b", null ],
-      [ "sharedEntries", "struct_acts_1_1_globally_indexed_material_accessor.html#a5f8d0ebcfdc369b1ea331097903f34e0", null ]
-    ] ],
-    [ "Acts::GridMaterialAccessor", "struct_acts_1_1_grid_material_accessor.html", [
-      [ "grid_value_type", "struct_acts_1_1_grid_material_accessor.html#a50d286f9e3f2b14a749df30229c61863", null ],
-      [ "scale", "struct_acts_1_1_grid_material_accessor.html#a2ba7b09df387f26d0f4cd1f02cedf94c", null ],
-      [ "slab", "struct_acts_1_1_grid_material_accessor.html#ae1395d681282c1f3cf8ad77ff0a031a2", null ]
-    ] ],
-    [ "Acts::GridSurfaceMaterialT&lt; grid_t, material_accessor_t &gt;", "class_acts_1_1_grid_surface_material_t.html", [
-      [ "BoundToGridLocalDelegate", "class_acts_1_1_grid_surface_material_t.html#a726ac7ca9b4c4580057110da01350542", null ],
-      [ "GlobalToGridLocalDelegate", "class_acts_1_1_grid_surface_material_t.html#a0c75945b262b11743ab41ebc366fbe66", null ],
-      [ "grid_type", "class_acts_1_1_grid_surface_material_t.html#ae3315f1c36e5e04f74b6992bf6510250", null ],
-      [ "material_accessor_type", "class_acts_1_1_grid_surface_material_t.html#aea44eca868c6b4fbb1e33fb1417ab1e1", null ],
-      [ "GridSurfaceMaterialT", "class_acts_1_1_grid_surface_material_t.html#a3605815e46bf1804cc6fc8106573d972", null ],
-      [ "boundToGridLocal", "class_acts_1_1_grid_surface_material_t.html#aab0eff1a8ca76145ade0f4ba325ad5f6", null ],
-      [ "boundToGridLocalDelegate", "class_acts_1_1_grid_surface_material_t.html#aaad6e6e044b0c6fd5923dcc7dc28e1ce", null ],
-      [ "globalToGridLocal", "class_acts_1_1_grid_surface_material_t.html#a475443dbdc2e69c49fc50b533857ddef", null ],
-      [ "globalToGridLocalDelegate", "class_acts_1_1_grid_surface_material_t.html#aecaf4206055ade7c560279e2851c9290", null ],
-      [ "grid", "class_acts_1_1_grid_surface_material_t.html#a68fa69977a8b5cbed5f3282baf1e72d3", null ],
-      [ "gridConstView", "class_acts_1_1_grid_surface_material_t.html#a09995b4aa802d0d6289d09646ada3dc8", null ],
-      [ "gridView", "class_acts_1_1_grid_surface_material_t.html#a47a9bdfc8a251631b03a391fab9cb6f9", null ],
-      [ "localAxisDirections", "class_acts_1_1_grid_surface_material_t.html#ae9e5a8fb843c9f67d909523d3e0ffa2f", null ],
-      [ "materialAccessor", "class_acts_1_1_grid_surface_material_t.html#a094ea455d74aa554f4c789f1024addb1", null ],
-      [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a3105caadc122578e5a9b7e9367cf5eb4", null ],
-      [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a57c67692911c878a906319e8a8ffcd5d", null ],
-      [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a108747439c85e37a39378031b2d88a7f", null ],
-      [ "materialSlab", "class_acts_1_1_grid_surface_material_t.html#a8030b967c2238f1d1ca367027d2cdbb0", null ],
-      [ "scale", "class_acts_1_1_grid_surface_material_t.html#ad9e4d7ed78c2f1d58aaa274dbaa9a195", null ],
-      [ "toStream", "class_acts_1_1_grid_surface_material_t.html#ade8750c94a675e0d2daed09dae68b790", null ]
+    [ "Acts::GridSurfaceMaterial", "class_acts_1_1_grid_surface_material.html", [
+      [ "GloballyIndexed", "struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html", [
+        [ "indices", "struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html#a67c3c25fcb01fb87b76356018ccc09e5", null ],
+        [ "material", "struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html#a04865ac42f38752a760108913a6157b6", null ]
+      ] ],
+      [ "Indexed", "struct_acts_1_1_grid_surface_material_1_1_indexed.html", [
+        [ "indices", "struct_acts_1_1_grid_surface_material_1_1_indexed.html#a847ca0fccf421ba1dc38e4eb6ea1d8b9", null ],
+        [ "material", "struct_acts_1_1_grid_surface_material_1_1_indexed.html#a87135e0d9c212364e14c7bf28c6006ef", null ]
+      ] ],
+      [ "Direct", "class_acts_1_1_grid_surface_material.html#a5489472f3c39cda89d03877c9d45aee3", null ],
+      [ "Storage", "class_acts_1_1_grid_surface_material.html#a0722c40ed4e66b8fd1c708298175558a", null ],
+      [ "GridSurfaceMaterial", "class_acts_1_1_grid_surface_material.html#afaad6db35538b07072e9b6982f61a281", null ],
+      [ "binning", "class_acts_1_1_grid_surface_material.html#ade4a13b3c6339816e0983d6d645311bd", null ],
+      [ "createDirect", "class_acts_1_1_grid_surface_material.html#afa9e5c1f0103a0fdbe7710599a2284f8", null ],
+      [ "createDirect", "class_acts_1_1_grid_surface_material.html#af5f27f18e9b910e72a6fe7f512add15f", null ],
+      [ "createGloballyIndexed", "class_acts_1_1_grid_surface_material.html#a81deca38368cccf0557af505f752e80d", null ],
+      [ "createGloballyIndexed", "class_acts_1_1_grid_surface_material.html#a9300f87e91206972629000544a9fa9fa", null ],
+      [ "createIndexed", "class_acts_1_1_grid_surface_material.html#a097ad3a4216e07a794d4596d277d15a8", null ],
+      [ "createIndexed", "class_acts_1_1_grid_surface_material.html#afa3ae0c4f640278d20d092366b12d7ee", null ],
+      [ "localAxisDirections", "class_acts_1_1_grid_surface_material.html#a9826009f1aee2b88d333a4a75697ef58", null ],
+      [ "materialSlab", "class_acts_1_1_grid_surface_material.html#ab8fdf4ea6f7ff75036a19848caa7e595", null ],
+      [ "materialSlab", "class_acts_1_1_grid_surface_material.html#a57c67692911c878a906319e8a8ffcd5d", null ],
+      [ "materialSlab", "class_acts_1_1_grid_surface_material.html#a41cf98dae676e8de7b533b0e23514191", null ],
+      [ "materialSlab", "class_acts_1_1_grid_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0", null ],
+      [ "multiAxis", "class_acts_1_1_grid_surface_material.html#a81875b925931ead46c65fba17edd8bcd", null ],
+      [ "scale", "class_acts_1_1_grid_surface_material.html#a44bb63da75748583b3ea206383c2b000", null ],
+      [ "storage", "class_acts_1_1_grid_surface_material.html#a1a335db7c3ad5047cecc42ef0f740673", null ],
+      [ "toStream", "class_acts_1_1_grid_surface_material.html#aa839c6058eadbd6dc72781561af9b282", null ]
     ] ],
     [ "Acts::HomogeneousSurfaceMaterial", "class_acts_1_1_homogeneous_surface_material.html", [
       [ "HomogeneousSurfaceMaterial", "class_acts_1_1_homogeneous_surface_material.html#a0991e5bceaf993f1b375259c9e152ca4", null ],
@@ -101,27 +95,10 @@ var group__material =
       [ "toStream", "class_acts_1_1_homogeneous_volume_material.html#aaac3ffb21c83a9afd07ae4c44e8ca5df", null ],
       [ "operator==", "class_acts_1_1_homogeneous_volume_material.html#ad66d8fe3a7d249fe56327a2cce9ef664", null ]
     ] ],
-    [ "Acts::IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", null ],
-    [ "Acts::IGridSurfaceMaterial&lt; grid_value_t &gt;", "class_acts_1_1_i_grid_surface_material.html", [
-      [ "boundToGridLocal", "class_acts_1_1_i_grid_surface_material.html#a3e322fee53238e46cb1f7608954e8261", null ],
-      [ "globalToGridLocal", "class_acts_1_1_i_grid_surface_material.html#a000f4a1101ee145a1c372f241f06cf3f", null ],
-      [ "grid", "class_acts_1_1_i_grid_surface_material.html#abb09af814a5e95c81bf890313cf2a7b1", null ],
-      [ "gridConstView", "class_acts_1_1_i_grid_surface_material.html#a58cf735aec2dea601a2f924726413492", null ],
-      [ "gridView", "class_acts_1_1_i_grid_surface_material.html#af7ffb937b825bfceac2266c864cc0747", null ],
-      [ "materialAccessor", "class_acts_1_1_i_grid_surface_material.html#abadb3a6250466b39ea9694b9eba61f42", null ]
-    ] ],
-    [ "Acts::IGridSurfaceMaterialBase", "class_acts_1_1_i_grid_surface_material_base.html", null ],
     [ "Acts::IMaterialDecorator", "class_acts_1_1_i_material_decorator.html", [
       [ "~IMaterialDecorator", "class_acts_1_1_i_material_decorator.html#a12c8a17bc718400935922d16279ef1e4", null ],
       [ "decorate", "class_acts_1_1_i_material_decorator.html#a64ffbe7f4aaa793bd7089ed780b6313c", null ],
       [ "decorate", "class_acts_1_1_i_material_decorator.html#a109d0f178418cabd397bd044cf17956c", null ]
-    ] ],
-    [ "Acts::IndexedMaterialAccessor", "struct_acts_1_1_indexed_material_accessor.html", [
-      [ "grid_value_type", "struct_acts_1_1_indexed_material_accessor.html#af094f284dd83da1d2eb84cbb7c96680d", null ],
-      [ "IndexedMaterialAccessor", "struct_acts_1_1_indexed_material_accessor.html#a76712448d5ee051408d9fd574da7fbf9", null ],
-      [ "scale", "struct_acts_1_1_indexed_material_accessor.html#ab6a2e9b7e4a4f7a1f5fde76bbef36f93", null ],
-      [ "slab", "struct_acts_1_1_indexed_material_accessor.html#a67ebbd830f15321130511280fd5e02c1", null ],
-      [ "material", "struct_acts_1_1_indexed_material_accessor.html#ad7dec86d0db1fa86dfe9d202360b98ae", null ]
     ] ],
     [ "Acts::InteractionVolume", "struct_acts_1_1_interaction_volume.html", [
       [ "InteractionVolume", "struct_acts_1_1_interaction_volume.html#a001fe1aa0b5500f0462afd707f8f1ab1", null ],
@@ -286,9 +263,6 @@ var group__material =
       [ "operator=", "class_acts_1_1_proto_volume_material.html#aab4e2ef84f321e0470e465b976ebfe5e", null ],
       [ "toStream", "class_acts_1_1_proto_volume_material.html#abd49006fec14524356802d82a10f36ad", null ]
     ] ],
-    [ "Acts::GloballyIndexedSurfaceMaterial", "group__material.html#gac15aff2ad0a7029a89bd903885de3310", null ],
-    [ "Acts::GridSurfaceMaterial", "group__material.html#ga7f7ecaeb7a0b9e040e5de04892a1e1eb", null ],
-    [ "Acts::IndexedSurfaceMaterial", "group__material.html#gaad5c814e3aa3cfb77dd2dc46abc2099b", null ],
     [ "Acts::ProtoGridSurfaceMaterial", "group__material.html#gaee4b3702e1722a63aab1022d8709175d", null ],
     [ "Acts::ProtoSurfaceMaterial", "group__material.html#gabad517c3d330be68557175bbe3e71402", null ],
     [ "Acts::makeDefaultBetheHeitlerApprox", "group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d", null ],

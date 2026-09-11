@@ -17,7 +17,5 @@ var searchData=
   ['linebounds_14',['LineBounds',['../class_acts_1_1_line_bounds.html',1,'Acts']]],
   ['linesurface_15',['LineSurface',['../class_acts_1_1_line_surface.html',1,'Acts']]],
   ['link_16',['Link',['../struct_acts_1_1_portal_1_1_arguments_1_1_link.html',1,'Acts::Portal::Arguments']]],
-  ['localsubspace_17',['LocalSubspace',['../class_acts_1_1_grid_access_1_1_local_subspace.html',1,'Acts::GridAccess']]],
-  ['localsubspace_3c_200u_2c_201u_20_3e_18',['LocalSubspace&lt; 0u, 1u &gt;',['../class_acts_1_1_grid_access_1_1_local_subspace.html',1,'Acts::GridAccess']]],
-  ['logger_19',['Logger',['../class_acts_1_1_logger.html',1,'Acts']]]
+  ['logger_17',['Logger',['../class_acts_1_1_logger.html',1,'Acts']]]
 ];

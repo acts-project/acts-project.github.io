@@ -20,8 +20,9 @@ var searchData=
   ['detraysurfacematerial_17',['DetraySurfaceMaterial',['../class_acts_plugins_1_1_detray_payload_converter.html#ade59a6025a491ac191e1cc493bc968f9',1,'ActsPlugins::DetrayPayloadConverter']]],
   ['difference_5ftype_18',['difference_type',['../class_acts_1_1_seed_proxy_1_1_space_point_iterator.html#ae154ba15606edfc30473a02e4e587632',1,'Acts::SeedProxy::SpacePointIterator::difference_type'],['../struct_acts_1_1_source_link_adapter_iterator.html#a1735c3f6ba1db369eab245245504ce15',1,'Acts::SourceLinkAdapterIterator::difference_type'],['../class_acts_1_1_grid_global_iterator.html#ae3276b06262f26b14d1d9ff450ae77cc',1,'Acts::GridGlobalIterator::difference_type'],['../class_acts_1_1_grid_local_iterator.html#adc0a35b5595d7bed87aa094140199231',1,'Acts::GridLocalIterator::difference_type'],['../class_acts_1_1_i_multi_axis_1_1iterator.html#aecf8ea902fc3a77f429f7347f48990fa',1,'Acts::IMultiAxis::iterator::difference_type']]],
   ['dim_19',['Dim',['../class_acts_1_1_experimental_1_1_cylindrical_space_point_k_d_tree_builder.html#aee0bf368fa48d996ee2aece9ed8d1528',1,'Acts::Experimental::CylindricalSpacePointKDTreeBuilder']]],
-  ['distribution_5ftype_20',['distribution_type',['../struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a17ba3f876f4e404f33674b61de715c55',1,'ActsFatras::LandauDistribution::param_type']]],
-  ['duration_21',['Duration',['../struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace',1,'ActsPlugins::GnnTiming']]],
-  ['dynamicmatrix_22',['DynamicMatrix',['../group__algebra__types.html#ga62fe975cbacb8a857c515a8eaa5dca93',1,'Acts']]],
-  ['dynamicvector_23',['DynamicVector',['../group__algebra__types.html#ga7665a674b2136aff2843e51b3f337cba',1,'Acts']]]
+  ['direct_20',['Direct',['../class_acts_1_1_grid_surface_material.html#a5489472f3c39cda89d03877c9d45aee3',1,'Acts::GridSurfaceMaterial']]],
+  ['distribution_5ftype_21',['distribution_type',['../struct_acts_fatras_1_1_landau_distribution_1_1param__type.html#a17ba3f876f4e404f33674b61de715c55',1,'ActsFatras::LandauDistribution::param_type']]],
+  ['duration_22',['Duration',['../struct_acts_plugins_1_1_gnn_timing.html#a791906be719a14714c6a250c536e3ace',1,'ActsPlugins::GnnTiming']]],
+  ['dynamicmatrix_23',['DynamicMatrix',['../group__algebra__types.html#ga62fe975cbacb8a857c515a8eaa5dca93',1,'Acts']]],
+  ['dynamicvector_24',['DynamicVector',['../group__algebra__types.html#ga7665a674b2136aff2843e51b3f337cba',1,'Acts']]]
 ];

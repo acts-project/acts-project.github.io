@@ -166,8 +166,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aae3c28d6dd92fdb47dcf51800bdf1993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert binned surface material.  <br /></td></tr>
 <tr class="memitem:af637f67bec806bb733cdc5a036ac6101" id="r_af637f67bec806bb733cdc5a036ac6101"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ad2012c6f039307d9851ae990f0c1e9df">DetraySurfaceGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af637f67bec806bb733cdc5a036ac6101">convertCylinderNavigationPolicy</a> (const <a class="el" href="class_acts_1_1_cylinder_navigation_policy.html">Acts::CylinderNavigationPolicy</a> &amp;policy, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="#a2840e76e22a9a76d7d8150cd321f0368">SurfaceLookupFunction</a> &amp;surfaceLookup, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:af637f67bec806bb733cdc5a036ac6101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert cylinder navigation policy.  <br /></td></tr>
-<tr class="memitem:add851b52b9a94392fb9ca3d9633d16d2" id="r_add851b52b9a94392fb9ca3d9633d16d2"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ade59a6025a491ac191e1cc493bc968f9">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add851b52b9a94392fb9ca3d9633d16d2">convertGridSurfaceMaterial</a> (const <a class="el" href="class_acts_1_1_i_grid_surface_material_base.html">Acts::IGridSurfaceMaterialBase</a> &amp;material, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface)</td></tr>
-<tr class="memdesc:add851b52b9a94392fb9ca3d9633d16d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert grid surface material.  <br /></td></tr>
 <tr class="memitem:ac59cc6bfe06441d9a9a4b078af75daa1" id="r_ac59cc6bfe06441d9a9a4b078af75daa1"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="#ade59a6025a491ac191e1cc493bc968f9">DetraySurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59cc6bfe06441d9a9a4b078af75daa1">convertHomogeneousSurfaceMaterial</a> (const <a class="el" href="class_acts_1_1_homogeneous_surface_material.html">Acts::HomogeneousSurfaceMaterial</a> &amp;material, const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;surface)</td></tr>
 <tr class="memdesc:ac59cc6bfe06441d9a9a4b078af75daa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert homogeneous surface material.  <br /></td></tr>
 <tr class="memitem:adf6c138a139b24e70160498fadccde30" id="r_adf6c138a139b24e70160498fadccde30"><td class="memItemLeft" align="right" valign="top">static detray::io::mask_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6c138a139b24e70160498fadccde30">convertMask</a> (const <a class="el" href="class_acts_1_1_surface_bounds.html">Acts::SurfaceBounds</a> &amp;bounds, bool forPortal)</td></tr>
@@ -372,45 +370,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Detray surface grid payload </dd></dl>
-
-</div>
-</div>
-<a id="add851b52b9a94392fb9ca3d9633d16d2" name="add851b52b9a94392fb9ca3d9633d16d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add851b52b9a94392fb9ca3d9633d16d2">&#9670;&#160;</a></span>convertGridSurfaceMaterial()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="#ade59a6025a491ac191e1cc493bc968f9">DetraySurfaceMaterial</a> &gt; ActsPlugins::DetrayPayloadConverter::convertGridSurfaceMaterial </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_i_grid_surface_material_base.html">Acts::IGridSurfaceMaterialBase</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>material</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert grid surface material. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">material</td><td>Grid surface material </td></tr>
-    <tr><td class="paramname">surface</td><td>Surface associated with the material </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Detray surface material payload </dd></dl>
 
 </div>
 </div>

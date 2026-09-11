@@ -1,10 +1,10 @@
 var NAVTREEINDEX12 =
 {
-"class_acts_1_1_ellipse_bounds.html#aa4bd3b625d08ffa253c12a849d973e89":[8,0,0,140,5],
+"class_acts_1_1_ellipse_bounds.html#aa4bd3b625d08ffa253c12a849d973e89":[8,0,0,139,5],
 "class_acts_1_1_ellipse_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[6,0,0,134,8],
-"class_acts_1_1_ellipse_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[8,0,0,140,8],
+"class_acts_1_1_ellipse_bounds.html#ae9b0c0bf500e18a01b00d7e10fa6773f":[8,0,0,139,8],
 "class_acts_1_1_ellipse_bounds.html#afc50ac90fc6aa956d463196d76ae1ca5":[6,0,0,134,4],
-"class_acts_1_1_ellipse_bounds.html#afc50ac90fc6aa956d463196d76ae1ca5":[8,0,0,140,4],
+"class_acts_1_1_ellipse_bounds.html#afc50ac90fc6aa956d463196d76ae1ca5":[8,0,0,139,4],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html":[6,0,0,1,0],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html":[8,0,0,2,0],
 "class_acts_1_1_experimental_1_1_barrel_endcap_assembler.html#a1224d6ab9f9bf1603186abaafe2d8d0e":[6,0,0,1,0,3],

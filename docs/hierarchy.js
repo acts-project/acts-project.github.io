@@ -361,15 +361,6 @@ var hierarchy =
     [ "Acts::GreedyAmbiguityResolution", "class_acts_1_1_greedy_ambiguity_resolution.html", null ],
     [ "Acts::GreedyAmbiguityResolution::Config", "struct_acts_1_1_greedy_ambiguity_resolution_1_1_config.html", null ],
     [ "Acts::GreedyAmbiguityResolution::State", "struct_acts_1_1_greedy_ambiguity_resolution_1_1_state.html", null ],
-    [ "Acts::GridAccess::IBoundToGridLocal", "class_acts_1_1_grid_access_1_1_i_bound_to_grid_local.html", [
-      [ "Acts::GridAccess::LocalSubspace< 0u, 1u >", "class_acts_1_1_grid_access_1_1_local_subspace.html", null ],
-      [ "Acts::GridAccess::BoundCylinderToZPhi", "class_acts_1_1_grid_access_1_1_bound_cylinder_to_z_phi.html", null ],
-      [ "Acts::GridAccess::LocalSubspace< Args >", "class_acts_1_1_grid_access_1_1_local_subspace.html", null ]
-    ] ],
-    [ "Acts::GridAccess::IGlobalToGridLocal", "class_acts_1_1_grid_access_1_1_i_global_to_grid_local.html", [
-      [ "Acts::GridAccess::Affine3Transformed< global_to_grid_local_t >", "class_acts_1_1_grid_access_1_1_affine3_transformed.html", null ],
-      [ "Acts::GridAccess::GlobalSubspace< Args >", "class_acts_1_1_grid_access_1_1_global_subspace.html", null ]
-    ] ],
     [ "Acts::GridAxisGenerators::Eq&lt; aType &gt;", "struct_acts_1_1_grid_axis_generators_1_1_eq.html", null ],
     [ "Acts::GridAxisGenerators::EqEq&lt; aType, bType &gt;", "struct_acts_1_1_grid_axis_generators_1_1_eq_eq.html", null ],
     [ "Acts::GridAxisGenerators::EqVar&lt; aType, bType &gt;", "struct_acts_1_1_grid_axis_generators_1_1_eq_var.html", null ],
@@ -381,6 +372,8 @@ var hierarchy =
     [ "Acts::GridDensityVertexFinder::State", "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html", null ],
     [ "Acts::GridGlobalIterator&lt; T, Axes &gt;", "class_acts_1_1_grid_global_iterator.html", null ],
     [ "Acts::GridLocalIterator&lt; T, Axes &gt;", "class_acts_1_1_grid_local_iterator.html", null ],
+    [ "Acts::GridSurfaceMaterial::GloballyIndexed", "struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html", null ],
+    [ "Acts::GridSurfaceMaterial::Indexed", "struct_acts_1_1_grid_surface_material_1_1_indexed.html", null ],
     [ "Acts::GsfComponent", "struct_acts_1_1_gsf_component.html", null ],
     [ "Acts::GsfExtensions&lt; traj_t &gt;", "struct_acts_1_1_gsf_extensions.html", null ],
     [ "Acts::GsfOptions&lt; traj_t &gt;", "struct_acts_1_1_gsf_options.html", null ],
@@ -426,11 +419,6 @@ var hierarchy =
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType >, Axis< AxisType::Equidistant, bType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axis< AxisType::Variable, aType >, Axis< AxisType::Variable, bType > >", "class_acts_1_1_grid.html", null ],
       [ "Acts::Grid< T, Axes >", "class_acts_1_1_grid.html", null ]
-    ] ],
-    [ "Acts::IGridMaterialAccessor", "struct_acts_1_1_i_grid_material_accessor.html", [
-      [ "Acts::GloballyIndexedMaterialAccessor", "struct_acts_1_1_globally_indexed_material_accessor.html", null ],
-      [ "Acts::GridMaterialAccessor", "struct_acts_1_1_grid_material_accessor.html", null ],
-      [ "Acts::IndexedMaterialAccessor", "struct_acts_1_1_indexed_material_accessor.html", null ]
     ] ],
     [ "Acts::ILayerArrayCreator", "class_acts_1_1_i_layer_array_creator.html", [
       [ "Acts::LayerArrayCreator", "class_acts_1_1_layer_array_creator.html", null ]
@@ -498,17 +486,8 @@ var hierarchy =
       [ "Acts::ProtoSurfaceMaterialT< Acts::BinUtility >", "class_acts_1_1_proto_surface_material_t.html", null ],
       [ "Acts::ProtoSurfaceMaterialT< MultiAxisSpec2D >", "class_acts_1_1_proto_surface_material_t.html", null ],
       [ "Acts::BinnedSurfaceMaterial", "class_acts_1_1_binned_surface_material.html", null ],
+      [ "Acts::GridSurfaceMaterial", "class_acts_1_1_grid_surface_material.html", null ],
       [ "Acts::HomogeneousSurfaceMaterial", "class_acts_1_1_homogeneous_surface_material.html", null ],
-      [ "Acts::IGridSurfaceMaterialBase", "class_acts_1_1_i_grid_surface_material_base.html", [
-        [ "Acts::IGridSurfaceMaterial< material_accessor_t::grid_value_type >", "class_acts_1_1_i_grid_surface_material.html", [
-          [ "Acts::GridSurfaceMaterialT< grid_t, material_accessor_t >", "class_acts_1_1_grid_surface_material_t.html", null ]
-        ] ],
-        [ "Acts::IGridSurfaceMaterial< grid_value_t >", "class_acts_1_1_i_grid_surface_material.html", [
-          [ "Acts::GridSurfaceMaterialT< grid_type, IndexedMaterialAccessor >", "class_acts_1_1_grid_surface_material_t.html", null ],
-          [ "Acts::GridSurfaceMaterialT< grid_type, GloballyIndexedMaterialAccessor >", "class_acts_1_1_grid_surface_material_t.html", null ],
-          [ "Acts::GridSurfaceMaterialT< grid_type, GridMaterialAccessor >", "class_acts_1_1_grid_surface_material_t.html", null ]
-        ] ]
-      ] ],
       [ "Acts::MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html", null ],
       [ "Acts::ProtoSurfaceMaterialT< BinningType >", "class_acts_1_1_proto_surface_material_t.html", null ]
     ] ],

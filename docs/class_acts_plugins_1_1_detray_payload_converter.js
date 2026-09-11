@@ -8,7 +8,6 @@ var class_acts_plugins_1_1_detray_payload_converter =
     [ "DetrayPayloadConverter", "class_acts_plugins_1_1_detray_payload_converter.html#a49ab7c6d3a59f3928524e6fe71f7555d", null ],
     [ "convertBinnedSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#aae3c28d6dd92fdb47dcf51800bdf1993", null ],
     [ "convertCylinderNavigationPolicy", "class_acts_plugins_1_1_detray_payload_converter.html#af637f67bec806bb733cdc5a036ac6101", null ],
-    [ "convertGridSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#add851b52b9a94392fb9ca3d9633d16d2", null ],
     [ "convertHomogeneousSurfaceMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#ac59cc6bfe06441d9a9a4b078af75daa1", null ],
     [ "convertMask", "class_acts_plugins_1_1_detray_payload_converter.html#adf6c138a139b24e70160498fadccde30", null ],
     [ "convertMaterial", "class_acts_plugins_1_1_detray_payload_converter.html#a4f0a6766e441baba98eff6427d7424bc", null ],
