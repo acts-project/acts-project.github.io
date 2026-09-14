@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a0228b6f3bf61608d70c1eccc5353181d":[8,0,0,12,0,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a58f78ec7bdd22e3086b0388631323c26":[8,0,0,12,0,2],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a656dc079210078a31fb4860522909ce6":[8,0,0,12,0,3],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#aeaac5fe821760f51006dfc9635cfa482":[8,0,0,12,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_track_at_vertex.html#a2b4848ae3bf813f05ecb1c8335e6e4d2":[8,0,0,403,0],
 "struct_acts_1_1_track_at_vertex.html#a325c6512aae5535c3fbd79a8b51a7816":[6,0,0,398,9],
 "struct_acts_1_1_track_at_vertex.html#a325c6512aae5535c3fbd79a8b51a7816":[8,0,0,403,9],
-"struct_acts_1_1_track_at_vertex.html#a4eb33d5b8ea2a004c6ff30624099fe1e":[6,0,0,398,10],
-"struct_acts_1_1_track_at_vertex.html#a4eb33d5b8ea2a004c6ff30624099fe1e":[8,0,0,403,10]
+"struct_acts_1_1_track_at_vertex.html#a4eb33d5b8ea2a004c6ff30624099fe1e":[6,0,0,398,10]
 };

@@ -2209,6 +2209,8 @@ requires (FullSize &lt;= 8)</td></tr>
 requires Concepts::Interpolatable&lt;T, N, Point1, Point2, Point3&gt;</td></tr>
 <tr class="memitem:aeab511efc179dee3e1a7335388e6b5a8 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab511efc179dee3e1a7335388e6b5a8">interpolate</a> (const Point1 &amp;point, const Point2 &amp;lowerCorner, const Point3 &amp;upperCorner, const std::array&lt; T, N &gt; &amp;values)</td></tr>
 <tr class="memdesc:aeab511efc179dee3e1a7335388e6b5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs linear interpolation inside a hyper box  <br /></td></tr>
+<tr class="memitem:ac422c146b36b44ba96cc774633af11ab" id="r_ac422c146b36b44ba96cc774633af11ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac422c146b36b44ba96cc774633af11ab">inverseTransform</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform)</td></tr>
+<tr class="memdesc:ac422c146b36b44ba96cc774633af11ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert a placement, i.e.  <br /></td></tr>
 <tr class="memitem:a76386b76fb90bd5106f6f4b71c89c379" id="r_a76386b76fb90bd5106f6f4b71c89c379"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a76386b76fb90bd5106f6f4b71c89c379 template"><td class="memItemLeft" align="right" valign="top">consteval T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76386b76fb90bd5106f6f4b71c89c379">ipow</a> (T num, unsigned int <a class="el" href="#a5f8134aad04c378ce314dd9e115f3c17">pow</a>)</td></tr>
 <tr class="memdesc:a76386b76fb90bd5106f6f4b71c89c379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the integer power of a number at compile time using recursion.  <br /></td></tr>
@@ -8049,6 +8051,33 @@ requires Concepts::Interpolatable&lt;T, N, Point1, Point2, Point3&gt;</div>
 </li>
 </ul>
 </dd></dl>
+
+</div>
+</div>
+<a id="ac422c146b36b44ba96cc774633af11ab" name="ac422c146b36b44ba96cc774633af11ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac422c146b36b44ba96cc774633af11ab">&#9670;&#160;</a></span>inverseTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> Acts::inverseTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invert a placement, i.e. </p>
+<p>a transform that only rotates and translates. <span class="tt">Transform3</span> is an <span class="tt">Eigen::Affine</span>, so its own <span class="tt">inverse()</span> is a general one.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform</td><td>The placement to invert, whose linear part must be a rotation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The inverse transform </dd></dl>
 
 </div>
 </div>

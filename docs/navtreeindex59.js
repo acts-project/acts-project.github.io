@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a0034c68b1d579e90afc7107c65c6a1d0":[8,0,0,227,0,7],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a1aa97c7547e5829698d0837e57d2bc96":[6,0,0,222,0,11],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a1aa97c7547e5829698d0837e57d2bc96":[8,0,0,227,0,11],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a2d892ab7ff1cc04e3151fed006fa4ffd":[6,0,0,222,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html":[8,0,0,284,0],
 "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[6,0,0,279,0,0],
 "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,284,0,0],
-"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[6,0,0,280,0],
-"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[8,0,0,285,0]
+"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[6,0,0,280,0]
 };

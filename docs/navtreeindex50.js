@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[6,0,0,16,0,4],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[8,0,0,21,0,4],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[6,0,0,16,1],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[8,0,0,21,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "struct_acts_1_1_axis_direction_reference_generator.html":[8,0,0,46],
 "struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[6,0,0,41,0],
 "struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[8,0,0,46,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html":[6,0,0,42,0],
-"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html":[8,0,0,47,0]
+"struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html":[6,0,0,42,0]
 };

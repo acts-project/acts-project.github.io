@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[8,0,0,285,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[6,0,0,282,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[8,0,0,287,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html#a92f2c42a176b920a6a7eba59b1fad0b8":[6,0,0,282,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_outer_strip_space_point_calibration_details.html":[8,0,0,309],
 "struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[6,0,0,304,2],
 "struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[8,0,0,309,2],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a20e785d87cb0529b884c68e8b5266ba0":[6,0,0,304,1],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a20e785d87cb0529b884c68e8b5266ba0":[8,0,0,309,1]
+"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a20e785d87cb0529b884c68e8b5266ba0":[6,0,0,304,1]
 };

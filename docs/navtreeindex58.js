@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"struct_acts_1_1_helical_track_linearizer_1_1_config.html#a398766265c07ccb15645912c0b9ae407":[8,0,0,185,0,0],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html#abac8f80305e9de5fe1fcdd064173f40e":[6,0,0,180,0,2],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html#abac8f80305e9de5fe1fcdd064173f40e":[8,0,0,185,0,2],
 "struct_acts_1_1_helical_track_linearizer_1_1_config.html#af9504a3bd9806993436d9e0467071de4":[6,0,0,180,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "struct_acts_1_1_is_read_only_track_container_3_01_vector_track_container_01_4.html":[8,0,0,224],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[6,0,0,222,0],
 "struct_acts_1_1_iterative_vertex_finder_1_1_config.html":[8,0,0,227,0],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a0034c68b1d579e90afc7107c65c6a1d0":[6,0,0,222,0,7],
-"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a0034c68b1d579e90afc7107c65c6a1d0":[8,0,0,227,0,7]
+"struct_acts_1_1_iterative_vertex_finder_1_1_config.html#a0034c68b1d579e90afc7107c65c6a1d0":[6,0,0,222,0,7]
 };

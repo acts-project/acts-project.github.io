@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a5cde13c218bfa1ba9b3201b49a393dd8":[8,0,0,2,45,6],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a7c83a27f0c3cb9bf39c6d50d0d273c20":[6,0,0,1,45,2],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a7c83a27f0c3cb9bf39c6d50d0d273c20":[8,0,0,2,45,2],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a9dd252a163869a2456ba913cea2e74a4":[6,0,0,1,45,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#aedb6628e21b1a8298ca7073bf87e67e2":[8,0,0,159,0,5],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#afc4aa0f5b37b633db740dd0a0abbfada":[6,0,0,154,0,0],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#afc4aa0f5b37b633db740dd0a0abbfada":[8,0,0,159,0,0],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html":[6,0,0,154,1],
-"struct_acts_1_1_gaussian_track_density_1_1_state.html":[8,0,0,159,1]
+"struct_acts_1_1_gaussian_track_density_1_1_state.html":[6,0,0,154,1]
 };
