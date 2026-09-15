@@ -133,6 +133,8 @@ $(function(){initNavTree('class_acts_1_1_adaptive_multi_vertex_fitter.html','','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:Cache" id="r_Cache"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fitter-private cache.  <a href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration options for the adaptive multi-vertex fit.  <a href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="memitem:State" id="r_State"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html">State</a></td></tr>
@@ -144,8 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa32a71cd6b8b70f4979e8b0ba01da4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for user-defined InputTrack_t type != BoundTrackParameters.  <br /></td></tr>
 <tr class="memitem:a10c4128a3a1b688253bb8f0d27641042" id="r_a10c4128a3a1b688253bb8f0d27641042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10c4128a3a1b688253bb8f0d27641042">addVtxToFit</a> (<a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html">State</a> &amp;state, const std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> * &gt; &amp;newVertices, const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;vertexingOptions) const</td></tr>
 <tr class="memdesc:a10c4128a3a1b688253bb8f0d27641042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new vertex to an existing multi-vertex fit.  <br /></td></tr>
+<tr class="memitem:af6ac01ab4bfb95421dda488dc7f88430" id="r_af6ac01ab4bfb95421dda488dc7f88430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6ac01ab4bfb95421dda488dc7f88430">addVtxToFit</a> (<a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> &amp;problem, const std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> * &gt; &amp;newVertices, const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;vertexingOptions, <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a> &amp;cache) const</td></tr>
+<tr class="memdesc:af6ac01ab4bfb95421dda488dc7f88430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new vertex to an existing multi-vertex fit.  <br /></td></tr>
 <tr class="memitem:a6ce8c7cb8ff95d134133a3b55e62a1b1" id="r_a6ce8c7cb8ff95d134133a3b55e62a1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ce8c7cb8ff95d134133a3b55e62a1b1">fit</a> (<a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html">State</a> &amp;state, const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;vertexingOptions) const</td></tr>
 <tr class="memdesc:a6ce8c7cb8ff95d134133a3b55e62a1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a simultaneous fit of all vertices in state.vertexCollection.  <br /></td></tr>
+<tr class="memitem:ab88aef095a4c5b00339389961edca7ad" id="r_ab88aef095a4c5b00339389961edca7ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88aef095a4c5b00339389961edca7ad">fit</a> (<a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> &amp;problem, const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;vertexingOptions, <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a> &amp;cache) const</td></tr>
+<tr class="memdesc:ab88aef095a4c5b00339389961edca7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a simultaneous fit of all vertices in problem.vertices.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements an adaptive multi-vertex fitter as described in detail in Section 5.3.5 in: Ref. </p>
@@ -192,7 +198,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a10c4128a3a1b688253bb8f0d27641042" name="a10c4128a3a1b688253bb8f0d27641042"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c4128a3a1b688253bb8f0d27641042">&#9670;&#160;</a></span>addVtxToFit()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c4128a3a1b688253bb8f0d27641042">&#9670;&#160;</a></span>addVtxToFit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,11 +222,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a new vertex to an existing multi-vertex fit. </p>
-<ol type="1">
-<li>The 3D impact parameters are calculated for all tracks associated with newVertex.</li>
-<li>A list of all vertices that are connected with newVertex via shared tracks is created. It also considers indirect connections (e.g., vertex A which shares a track with vertex B which, in turn, shares a track with newVertex).</li>
-<li>The multivertex fit is performed for all vertices on said list.</li>
-</ol>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000093">Deprecated</a></b></dt><dd>Use the overload taking a <code>VertexFitProblem</code> and a <code>Cache</code> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>Fitter state </td></tr>
@@ -233,8 +235,56 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af6ac01ab4bfb95421dda488dc7f88430" name="af6ac01ab4bfb95421dda488dc7f88430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6ac01ab4bfb95421dda488dc7f88430">&#9670;&#160;</a></span>addVtxToFit() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::AdaptiveMultiVertexFitter::addVtxToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>problem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newVertices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vertexingOptions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a new vertex to an existing multi-vertex fit. </p>
+<ol type="1">
+<li>The 3D impact parameters are calculated for all tracks associated with newVertex.</li>
+<li>A list of all vertices that are connected with newVertex via shared tracks is created. It also considers indirect connections (e.g., vertex A which shares a track with vertex B which, in turn, shares a track with newVertex).</li>
+<li>The multivertex fit is performed for all vertices on said list.</li>
+</ol>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td>The multi-vertex fit problem </td></tr>
+    <tr><td class="paramname">newVertices</td><td>Vertex to be added to fit </td></tr>
+    <tr><td class="paramname">vertexingOptions</td><td>Vertexing options </td></tr>
+    <tr><td class="paramname">cache</td><td>Fitter cache</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result&lt;void&gt; object </dd></dl>
+
+</div>
+</div>
 <a id="a6ce8c7cb8ff95d134133a3b55e62a1b1" name="a6ce8c7cb8ff95d134133a3b55e62a1b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ce8c7cb8ff95d134133a3b55e62a1b1">&#9670;&#160;</a></span>fit()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ce8c7cb8ff95d134133a3b55e62a1b1">&#9670;&#160;</a></span>fit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,10 +303,48 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs a simultaneous fit of all vertices in state.vertexCollection. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000094">Deprecated</a></b></dt><dd>Use the overload taking a <code>VertexFitProblem</code> and a <code>Cache</code> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>Fitter state </td></tr>
     <tr><td class="paramname">vertexingOptions</td><td>Vertexing options</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result&lt;void&gt; object </dd></dl>
+
+</div>
+</div>
+<a id="ab88aef095a4c5b00339389961edca7ad" name="ab88aef095a4c5b00339389961edca7ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88aef095a4c5b00339389961edca7ad">&#9670;&#160;</a></span>fit() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt; Acts::AdaptiveMultiVertexFitter::fit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>problem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_vertexing_options.html">VertexingOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>vertexingOptions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs a simultaneous fit of all vertices in problem.vertices. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td>The multi-vertex fit problem </td></tr>
+    <tr><td class="paramname">vertexingOptions</td><td>Vertexing options </td></tr>
+    <tr><td class="paramname">cache</td><td>Fitter cache</td></tr>
   </table>
   </dd>
 </dl>

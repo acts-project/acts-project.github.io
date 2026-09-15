@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"class_acts_1_1_doublet_seed_finder.html#a442fcc97cfde3787d78fbb6d0af5b76e":[8,0,0,131,5],
+"class_acts_1_1_doublet_seed_finder.html#a747e4b16fa50d4b104ede9300bb2702c":[6,0,0,126,4],
+"class_acts_1_1_doublet_seed_finder.html#a747e4b16fa50d4b104ede9300bb2702c":[8,0,0,131,4],
+"class_acts_1_1_doublet_seed_finder.html#a8be317efef82923390f88ac22a3bbe49":[6,0,0,126,6],
 "class_acts_1_1_doublet_seed_finder.html#a8be317efef82923390f88ac22a3bbe49":[8,0,0,131,6],
 "class_acts_1_1_doublet_seed_finder.html#a968891077bcade98e5dc1505dc735eb8":[6,0,0,126,3],
 "class_acts_1_1_doublet_seed_finder.html#a968891077bcade98e5dc1505dc735eb8":[8,0,0,131,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "class_acts_1_1_ellipse_bounds.html#a64756cdba7d2f846cf85832a4d90fdcf":[8,0,0,139,3],
 "class_acts_1_1_ellipse_bounds.html#a794a1073c453133b8bfac60beba809c4":[6,0,0,134,10],
 "class_acts_1_1_ellipse_bounds.html#a794a1073c453133b8bfac60beba809c4":[8,0,0,139,10],
-"class_acts_1_1_ellipse_bounds.html#a8505a42f9c4d90f8c0684c0d81aa8962":[6,0,0,134,12],
-"class_acts_1_1_ellipse_bounds.html#a8505a42f9c4d90f8c0684c0d81aa8962":[8,0,0,139,12],
-"class_acts_1_1_ellipse_bounds.html#a99881fe7f2b350927fb2e3625d354b0c":[6,0,0,134,1],
-"class_acts_1_1_ellipse_bounds.html#a99881fe7f2b350927fb2e3625d354b0c":[8,0,0,139,1],
-"class_acts_1_1_ellipse_bounds.html#aa4bd3b625d08ffa253c12a849d973e89":[6,0,0,134,5]
+"class_acts_1_1_ellipse_bounds.html#a8505a42f9c4d90f8c0684c0d81aa8962":[6,0,0,134,12]
 };

@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_acts_1_1_binned_array.html" title="Pure virtual base class for Binned Array to avoid map searches." alt="" coords="5,5,181,31"/>
-<area shape="rect" id="Node000001" href="$class_acts_1_1_binned_array_x_d.html" title="Avoiding a map search, the templated BinnedArray class can help ordereing geometrical objects by prov..." alt="" coords="229,5,424,31"/>
-<area shape="poly" id="edge12_Node000000_Node000001" title=" " alt="" coords="195,15,229,15,229,21,195,21"/>
+<area shape="rect" id="Node000000" href="$class_acts_1_1_bethe_heitler_approx.html" title="Interface for Bethe&#45;Heitler Gaussian mixture approximations." alt="" coords="5,45,192,70"/>
+<area shape="rect" id="Node000001" href="$class_acts_1_1_bethe_heitler_approx_single_cmp.html" title="This class approximates the Bethe&#45;Heitler with only one component." alt="" coords="253,5,440,45"/>
+<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="205,41,253,35,254,40,206,46"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_polynomial_bethe_heitler_approx.html" title="This class approximates the Bethe&#45;Heitler distribution as a gaussian mixture." alt="" coords="240,69,453,109"/>
+<area shape="poly" id="edge11_Node000000_Node000002" title=" " alt="" coords="206,68,240,73,240,78,205,74"/>
 </map>

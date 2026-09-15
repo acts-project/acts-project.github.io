@@ -138,8 +138,8 @@ Collaboration diagram for Acts::AdaptiveMultiVertexFitter::State:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4c37136ebbd66d98fb56f99b01a68914" id="r_a4c37136ebbd66d98fb56f99b01a68914"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c37136ebbd66d98fb56f99b01a68914">State</a> (const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &amp;field, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;magContext)</td></tr>
-<tr class="memdesc:a4c37136ebbd66d98fb56f99b01a68914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for multi-vertex fitter state.  <br /></td></tr>
+<tr class="memitem:af65f55ab0fb092c2c639e3d354922236" id="r_af65f55ab0fb092c2c639e3d354922236"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af65f55ab0fb092c2c639e3d354922236">State</a> (const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &amp;field, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;magContext)</td></tr>
+<tr class="memdesc:af65f55ab0fb092c2c639e3d354922236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for multi-vertex fitter state.  <br /></td></tr>
 <tr class="memitem:aa6fc33291dfd5e7d9c02ba53c3231534" id="r_aa6fc33291dfd5e7d9c02ba53c3231534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6fc33291dfd5e7d9c02ba53c3231534">addVertexToMultiMap</a> (<a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &amp;vtx)</td></tr>
 <tr class="memdesc:aa6fc33291dfd5e7d9c02ba53c3231534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a vertex to trackToVerticesMultiMap.  <br /></td></tr>
 <tr class="memitem:aa10e49a699408e3b5125fa749492af89" id="r_aa10e49a699408e3b5125fa749492af89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10e49a699408e3b5125fa749492af89">removeVertexFromCollection</a> (<a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &amp;vtxToRemove, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger)</td></tr>
@@ -167,14 +167,16 @@ std::multimap&lt; <a class="el" href="struct_acts_1_1_input_track.html">InputTra
 <tr class="memitem:ad458d456a61307ae722b3bba8d810288" id="r_ad458d456a61307ae722b3bba8d810288"><td class="memItemLeft" align="right" valign="top"><a id="ad458d456a61307ae722b3bba8d810288" name="ad458d456a61307ae722b3bba8d810288"></a>
 std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertexCollection</b></td></tr>
 <tr class="memdesc:ad458d456a61307ae722b3bba8d810288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex collection to be fitted. <br /></td></tr>
-<tr class="memitem:a492656ae47d3fe30724de4219d1d9952" id="r_a492656ae47d3fe30724de4219d1d9952"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> *, <a class="el" href="struct_acts_1_1_vertex_info.html">VertexInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492656ae47d3fe30724de4219d1d9952">vtxInfoMap</a></td></tr>
-<tr class="memdesc:a492656ae47d3fe30724de4219d1d9952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map storing vertex information for each vertex in the fit.  <br /></td></tr>
+<tr class="memitem:a492656ae47d3fe30724de4219d1d9952" id="r_a492656ae47d3fe30724de4219d1d9952"><td class="memItemLeft" align="right" valign="top"><a id="a492656ae47d3fe30724de4219d1d9952" name="a492656ae47d3fe30724de4219d1d9952"></a>
+std::map&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> *, <a class="el" href="struct_acts_1_1_vertex_info.html">VertexInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vtxInfoMap</b></td></tr>
+<tr class="memdesc:a492656ae47d3fe30724de4219d1d9952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map storing vertex information for each vertex in the fit. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The fitter state. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000092">Deprecated</a></b></dt><dd>Split into <code>VertexFitProblem</code>, which describes the vertices to be fitted and is owned by the caller, and <code>Cache</code>, which holds the fitter's scratch data. Construct those two separately and use the corresponding <code>fit</code> and <code>addVtxToFit</code> overloads instead. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4c37136ebbd66d98fb56f99b01a68914" name="a4c37136ebbd66d98fb56f99b01a68914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c37136ebbd66d98fb56f99b01a68914">&#9670;&#160;</a></span>State()</h2>
+<a id="af65f55ab0fb092c2c639e3d354922236" name="af65f55ab0fb092c2c639e3d354922236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af65f55ab0fb092c2c639e3d354922236">&#9670;&#160;</a></span>State()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +189,7 @@ std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> * &gt
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>magContext</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>magContext</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -282,24 +284,6 @@ std::vector&lt; <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> * &gt
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a492656ae47d3fe30724de4219d1d9952" name="a492656ae47d3fe30724de4219d1d9952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a492656ae47d3fe30724de4219d1d9952">&#9670;&#160;</a></span>vtxInfoMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;<a class="el" href="class_acts_1_1_vertex.html">Vertex</a>*, <a class="el" href="struct_acts_1_1_vertex_info.html">VertexInfo</a>&gt; Acts::AdaptiveMultiVertexFitter::State::vtxInfoMap</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Map storing vertex information for each vertex in the fit. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo</a></b></dt><dd>Does this have to be a mutable pointer? </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a4bd6484af77980ee00d85dbf3dce1fe2":[8,0,0,159,0,2],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957":[6,0,0,154,0,4],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957":[8,0,0,159,0,4],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727":[6,0,0,154,0,3],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727":[8,0,0,159,0,3],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#aedb6628e21b1a8298ca7073bf87e67e2":[6,0,0,154,0,5],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#aedb6628e21b1a8298ca7073bf87e67e2":[8,0,0,159,0,5],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#afc4aa0f5b37b633db740dd0a0abbfada":[6,0,0,154,0,0],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html#afc4aa0f5b37b633db740dd0a0abbfada":[8,0,0,159,0,0],
+"struct_acts_1_1_gaussian_track_density_1_1_state.html":[6,0,0,154,1],
 "struct_acts_1_1_gaussian_track_density_1_1_state.html":[8,0,0,159,1],
 "struct_acts_1_1_gaussian_track_density_1_1_state.html#abf158b8317465a81f845749e3cbdcd2a":[6,0,0,154,1,0],
 "struct_acts_1_1_gaussian_track_density_1_1_state.html#abf158b8317465a81f845749e3cbdcd2a":[8,0,0,159,1,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_gsf_options.html#a8000125fe2bf278bcf22aeaac22e5f9f":[5,13,15,5],
 "struct_acts_1_1_gsf_options.html#a83872e960e461838460eeeb9b12a214b":[5,13,15,2],
 "struct_acts_1_1_gsf_options.html#a967824812ca767a80fae6ecb475a2c1c":[5,13,15,3],
-"struct_acts_1_1_gsf_options.html#a98d11f3c66623788530984a0e6388f04":[5,13,15,4],
-"struct_acts_1_1_gsf_options.html#aa635147a6643f90b3a68dac0da2e5f8f":[5,13,15,12],
-"struct_acts_1_1_gsf_options.html#ab0f93a6e84b41076e99947aa0cbbed0f":[5,13,15,6],
-"struct_acts_1_1_gsf_options.html#ab1f4fdb6cf96b33857e0e070c8156512":[5,13,15,11],
-"struct_acts_1_1_gsf_options.html#ab40e2071c2a5686d979208cc5a92a912":[5,13,15,9],
-"struct_acts_1_1_gsf_options.html#ae78fe7859ab94acac17312823dd57621":[5,13,15,10],
-"struct_acts_1_1_gsf_options.html#aeee4d872e28d82703ebbc93c5904ffa0":[5,13,15,1],
-"struct_acts_1_1_gsf_options.html#aef2b39b4e7d66946c5b5fb5ab065f50b":[5,13,15,14],
-"struct_acts_1_1_helical_track_linearizer_1_1_config.html":[6,0,0,180,0],
-"struct_acts_1_1_helical_track_linearizer_1_1_config.html":[8,0,0,185,0],
-"struct_acts_1_1_helical_track_linearizer_1_1_config.html#a398766265c07ccb15645912c0b9ae407":[6,0,0,180,0,0]
+"struct_acts_1_1_gsf_options.html#a98d11f3c66623788530984a0e6388f04":[5,13,15,4]
 };

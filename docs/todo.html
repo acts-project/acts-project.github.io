@@ -126,8 +126,6 @@ $(function(){initNavTree('todo.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952">Acts::AdaptiveMultiVertexFitter::State::vtxInfoMap</a>  </dt>
-<dd><a class="anchor" id="_todo000032"></a>Does this have to be a mutable pointer?  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_binned_array_x_d.html#aedd2f63f632efdcb2e0c60b2b9d561f5">Acts::BinnedArrayXD&lt; T &gt;::object</a>  (const Vector2 &amp;lposition, std::array&lt; std::size_t, 3 &gt; &amp;bins) const final</dt>
 <dd><a class="anchor" id="_todo000027"></a>check if we can change to triple return at once </dd>
 <dt>Member <a class="el" href="class_acts_1_1_binning_data.html#af6621d1b90e64f64a1764cb96ac5cc7b">Acts::BinningData::nextDirection</a>  (const Vector3 &amp;position, const Vector3 &amp;dir) const</dt>
@@ -147,7 +145,7 @@ $(function(){initNavTree('todo.html','',''); });
 <dt>Member <a class="el" href="class_acts_1_1_cylinder_layer.html#aef6832daaf7b9a020a2ee0f3728aa856">Acts::CylinderLayer::CylinderLayer</a>  (const Transform3 &amp;transform, const std::shared_ptr&lt; const CylinderBounds &gt; &amp;cBounds, std::unique_ptr&lt; SurfaceArray &gt; surfaceArray, double thickness=0., std::unique_ptr&lt; ApproachDescriptor &gt; ades=nullptr, LayerType laytyp=passive)</dt>
 <dd><a class="anchor" id="_todo000006"></a>change ApproachDescriptor to unique_ptr  </dd>
 <dt>Namespace <a class="el" href="namespace_acts_1_1_detray_json_helper.html">Acts::DetrayJsonHelper</a>  </dt>
-<dd><a class="anchor" id="_todo000035"></a>Move this to the <a class="el" href="namespace_acts_plugins.html">ActsPlugins</a> namespace  </dd>
+<dd><a class="anchor" id="_todo000034"></a>Move this to the <a class="el" href="namespace_acts_plugins.html">ActsPlugins</a> namespace  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_disc_layer.html#a712c02e4d84cfd90073d313a971018bd">Acts::DiscLayer::create</a>  (const Transform3 &amp;transform, const std::shared_ptr&lt; const DiscBounds &gt; &amp;dbounds, std::unique_ptr&lt; SurfaceArray &gt; surfaceArray, double thickness=0., std::unique_ptr&lt; ApproachDescriptor &gt; ad=nullptr, LayerType laytyp=passive)</dt>
 <dd><a class="anchor" id="_todo000011"></a>move ApproachDescriptor to unqique_ptr </dd>
 <dt>Member <a class="el" href="class_acts_1_1_disc_surface.html#ac29684c0f620fbd68b3dd81242bbb40d">Acts::DiscSurface::localPolarToCartesian</a>  (const Vector2 &amp;lpolar) const</dt>
@@ -179,14 +177,14 @@ $(function(){initNavTree('todo.html','',''); });
 <dt>Class <a class="el" href="class_acts_1_1_trapezoid_bounds.html">Acts::TrapezoidBounds</a>  </dt>
 <dd><a class="anchor" id="_todo000026"></a>can be speed optimized by calculating kappa/delta and caching it  </dd>
 <dt>Member <a class="el" href="namespace_acts_fatras.html#a308b191ab46fe87207795a2d053533c9">ActsFatras::StandardChargedElectroMagneticInteractions</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000033"></a>Bethe-Bloch does not describe electrons; add correct ionisation loss descriptions for electrons. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000032"></a>Bethe-Bloch does not describe electrons; add correct ionisation loss descriptions for electrons. </p>
 <p class="interdd"></p>
 <p class="enddd">Bethe-Heitler is applied after energy loss and thus sees the wrong input energy.  </p>
 </dd>
 <dt>Member <a class="el" href="class_acts_plugins_1_1_geo_model_detector_element_i_tk.html#aa9fdc60f55bf04875444aa44024c3590">ActsPlugins::GeoModelDetectorElementITk::convertFromGeomodel</a>  (std::shared_ptr&lt; GeoModelDetectorElement &gt; detEl, std::shared_ptr&lt; Acts::Surface &gt; srf, const Acts::GeometryContext &amp;gctx, int hardware, int barrelEndcap, int layerWheel, int etaModule, int phiModule, int side)</dt>
-<dd><a class="anchor" id="_todo000034"></a>Remove redundancy in signature once plugin is refactored  </dd>
+<dd><a class="anchor" id="_todo000033"></a>Remove redundancy in signature once plugin is refactored  </dd>
 <dt>Class <a class="el" href="class_acts_plugins_1_1_t_geo_detector_element.html">ActsPlugins::TGeoDetectorElement</a>  </dt>
-<dd><a class="anchor" id="_todo000036"></a>what if shape conversion fails? add implementation of more than one surface per module, implementing also for other shapes-&gt;Cone,ConeSeg,Tube? what if not used with DD4hep? </dd>
+<dd><a class="anchor" id="_todo000035"></a>what if shape conversion fails? add implementation of more than one surface per module, implementing also for other shapes-&gt;Cone,ConeSeg,Tube? what if not used with DD4hep? </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

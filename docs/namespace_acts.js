@@ -503,6 +503,8 @@ var namespace_acts =
     [ "VectorMultiTrajectory", "class_acts_1_1_vector_multi_trajectory.html", "class_acts_1_1_vector_multi_trajectory" ],
     [ "VectorTrackContainer", "class_acts_1_1_vector_track_container.html", "class_acts_1_1_vector_track_container" ],
     [ "Vertex", "class_acts_1_1_vertex.html", "class_acts_1_1_vertex" ],
+    [ "VertexFitCandidate", "struct_acts_1_1_vertex_fit_candidate.html", "struct_acts_1_1_vertex_fit_candidate" ],
+    [ "VertexFitProblem", "struct_acts_1_1_vertex_fit_problem.html", "struct_acts_1_1_vertex_fit_problem" ],
     [ "VertexInfo", "struct_acts_1_1_vertex_info.html", "struct_acts_1_1_vertex_info" ],
     [ "VertexingOptions", "struct_acts_1_1_vertexing_options.html", "struct_acts_1_1_vertexing_options" ],
     [ "ViewConfig", "struct_acts_1_1_view_config.html", "struct_acts_1_1_view_config" ],

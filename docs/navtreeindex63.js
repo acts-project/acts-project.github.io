@@ -1,5 +1,15 @@
 var NAVTREEINDEX63 =
 {
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9210bf83689ee4b4ddfcd808650cc148":[8,0,0,380,2,4],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9cacac5ab344106ea15cc0ddee60ce5f":[6,0,0,375,2,8],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#a9cacac5ab344106ea15cc0ddee60ce5f":[8,0,0,380,2,8],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d":[6,0,0,375,2,0],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#aadeddf8df7bd05da836e7aa9adddac6d":[8,0,0,380,2,0],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8":[6,0,0,375,2,6],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#ab39d7d10051950389c6b3433cb94f8f8":[8,0,0,380,2,6],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#acb5d9620aa5bb80c0b473c4275df456f":[6,0,0,375,2,9],
+"struct_acts_1_1_straight_line_stepper_1_1_state.html#acb5d9620aa5bb80c0b473c4275df456f":[8,0,0,380,2,9],
+"struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html":[8,0,0,12,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a0228b6f3bf61608d70c1eccc5353181d":[8,0,0,12,0,0],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a58f78ec7bdd22e3086b0388631323c26":[8,0,0,12,0,2],
 "struct_acts_1_1_strip_space_point_builder_1_1_cluster_pairing_options.html#a656dc079210078a31fb4860522909ce6":[8,0,0,12,0,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX63 =
 "struct_acts_1_1_track_at_vertex.html":[8,0,0,403],
 "struct_acts_1_1_track_at_vertex.html#a0448901dd21c0fe208a46b5691815866":[6,0,0,398,8],
 "struct_acts_1_1_track_at_vertex.html#a0448901dd21c0fe208a46b5691815866":[8,0,0,403,8],
-"struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[6,0,0,398,3],
-"struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[8,0,0,403,3],
-"struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[6,0,0,398,2],
-"struct_acts_1_1_track_at_vertex.html#a1324f93fab859e2af4a1c8d523d1d132":[8,0,0,403,2],
-"struct_acts_1_1_track_at_vertex.html#a21f8f05190f8fbdacfdc6bc9cced2393":[6,0,0,398,4],
-"struct_acts_1_1_track_at_vertex.html#a21f8f05190f8fbdacfdc6bc9cced2393":[8,0,0,403,4],
-"struct_acts_1_1_track_at_vertex.html#a2b4848ae3bf813f05ecb1c8335e6e4d2":[6,0,0,398,0],
-"struct_acts_1_1_track_at_vertex.html#a2b4848ae3bf813f05ecb1c8335e6e4d2":[8,0,0,403,0],
-"struct_acts_1_1_track_at_vertex.html#a325c6512aae5535c3fbd79a8b51a7816":[6,0,0,398,9],
-"struct_acts_1_1_track_at_vertex.html#a325c6512aae5535c3fbd79a8b51a7816":[8,0,0,403,9],
-"struct_acts_1_1_track_at_vertex.html#a4eb33d5b8ea2a004c6ff30624099fe1e":[6,0,0,398,10]
+"struct_acts_1_1_track_at_vertex.html#a11ab0818b161cb05a38509033bd4647b":[6,0,0,398,3]
 };

@@ -1,6 +1,6 @@
 var struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state =
 [
-    [ "State", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a4c37136ebbd66d98fb56f99b01a68914", null ],
+    [ "State", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#af65f55ab0fb092c2c639e3d354922236", null ],
     [ "addVertexToMultiMap", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa6fc33291dfd5e7d9c02ba53c3231534", null ],
     [ "removeVertexFromCollection", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aa10e49a699408e3b5125fa749492af89", null ],
     [ "removeVertexFromMultiMap", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#aec3806b90b46f7ddb7e76e3e12dfdbbd", null ],

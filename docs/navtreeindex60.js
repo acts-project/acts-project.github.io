@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_middle_sp_info.html#a39b4ecbff024439475ab4b69e0da65b7":[8,0,0,276,2],
+"struct_acts_1_1_middle_sp_info.html#ac735545811c2ec0ea9fa1a1e9dc43134":[6,0,0,271,0],
+"struct_acts_1_1_middle_sp_info.html#ac735545811c2ec0ea9fa1a1e9dc43134":[8,0,0,276,0],
+"struct_acts_1_1_middle_sp_info.html#ac9f90d51a3895db1149df67d0970105f":[6,0,0,271,3],
+"struct_acts_1_1_middle_sp_info.html#ac9f90d51a3895db1149df67d0970105f":[8,0,0,276,3],
+"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html":[6,0,0,279,0],
+"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html":[8,0,0,284,0],
+"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[6,0,0,279,0,0],
+"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,284,0,0],
+"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[6,0,0,280,0],
 "struct_acts_1_1_multi_navigation_policy_1_1_state.html":[8,0,0,285,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[6,0,0,282,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[8,0,0,287,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#acae8a0e9e16bc3d9c7db0034ab53ed9c":[8,0,0,305,0,1],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#ada68a716e489836e3c0d8315a197ca37":[6,0,0,300,0,5],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#ada68a716e489836e3c0d8315a197ca37":[8,0,0,305,0,5],
-"struct_acts_1_1_oriented_surface.html":[6,0,0,303],
-"struct_acts_1_1_oriented_surface.html":[8,0,0,308],
-"struct_acts_1_1_oriented_surface.html#a6d9374c0824ec023104f5546ac47c2ee":[6,0,0,303,0],
-"struct_acts_1_1_oriented_surface.html#a6d9374c0824ec023104f5546ac47c2ee":[8,0,0,308,0],
-"struct_acts_1_1_oriented_surface.html#a92eda6251a79b94d030153782e31ef75":[6,0,0,303,1],
-"struct_acts_1_1_oriented_surface.html#a92eda6251a79b94d030153782e31ef75":[8,0,0,308,1],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html":[6,0,0,304],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html":[8,0,0,309],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[6,0,0,304,2],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a1d4d12d98fc55b5177bf6e491098e830":[8,0,0,309,2],
-"struct_acts_1_1_outer_strip_space_point_calibration_details.html#a20e785d87cb0529b884c68e8b5266ba0":[6,0,0,304,1]
+"struct_acts_1_1_oriented_surface.html":[6,0,0,303]
 };
