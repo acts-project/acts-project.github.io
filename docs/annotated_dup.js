@@ -359,6 +359,7 @@ var annotated_dup =
       [ "Intersection", "class_acts_1_1_intersection.html", "class_acts_1_1_intersection" ],
       [ "IntersectionMaterialAssigner", "class_acts_1_1_intersection_material_assigner.html", "class_acts_1_1_intersection_material_assigner" ],
       [ "IReferenceGenerator", "struct_acts_1_1_i_reference_generator.html", "struct_acts_1_1_i_reference_generator" ],
+      [ "ISensorDesign", "class_acts_1_1_i_sensor_design.html", "class_acts_1_1_i_sensor_design" ],
       [ "IsReadOnlyMultiTrajectory", "struct_acts_1_1_is_read_only_multi_trajectory.html", null ],
       [ "IsReadOnlyMultiTrajectory&lt; ActsPlugins::ConstPodioTrackStateContainer&lt; holder_t &gt; &gt;", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],
       [ "IsReadOnlyMultiTrajectory&lt; ActsPlugins::MutablePodioTrackStateContainer&lt; holder_t &gt; &gt;", "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html", null ],

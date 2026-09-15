@@ -481,6 +481,7 @@ var hierarchy =
       [ "Acts::PolyhedronReferenceGenerator", "struct_acts_1_1_polyhedron_reference_generator.html", null ],
       [ "Acts::ProjectedReferenceGenerator", "struct_acts_1_1_projected_reference_generator.html", null ]
     ] ],
+    [ "Acts::ISensorDesign", "class_acts_1_1_i_sensor_design.html", null ],
     [ "Acts::IsReadOnlyMultiTrajectory&lt; T &gt;", "struct_acts_1_1_is_read_only_multi_trajectory.html", null ],
     [ "Acts::IsReadOnlyTrackContainer&lt; T &gt;", "struct_acts_1_1_is_read_only_track_container.html", null ],
     [ "Acts::ISurfaceMaterial", "class_acts_1_1_i_surface_material.html", [

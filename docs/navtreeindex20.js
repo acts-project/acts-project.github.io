@@ -232,6 +232,10 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_i_navigation_policy.html#add716fb1168fb2f552380b5051df5bc8":[8,0,0,200,10],
 "class_acts_1_1_i_navigation_policy.html#afebd3a428f89eee6d74e609926d1ff75":[6,0,0,195,9],
 "class_acts_1_1_i_navigation_policy.html#afebd3a428f89eee6d74e609926d1ff75":[8,0,0,200,9],
+"class_acts_1_1_i_sensor_design.html":[6,0,0,210],
+"class_acts_1_1_i_sensor_design.html":[8,0,0,215],
+"class_acts_1_1_i_sensor_design.html#a62b4f3839a09feb53d094fd6c5273353":[6,0,0,210,0],
+"class_acts_1_1_i_sensor_design.html#a62b4f3839a09feb53d094fd6c5273353":[8,0,0,215,0],
 "class_acts_1_1_i_surface_material.html":[5,3,2,11],
 "class_acts_1_1_i_surface_material.html#a0872ac9617f241ea6c4ec172dbe5b196":[5,3,2,11,11],
 "class_acts_1_1_i_surface_material.html#a14830ae9c42fbb765f9c0d6a2fd70fff":[5,3,2,11,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "class_acts_1_1_i_surface_material.html#a6d3255357711ef99fe2b761675deebad":[5,3,2,11,1],
 "class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0":[5,3,2,11,10],
 "class_acts_1_1_i_surface_material.html#a8a6aef3a95cb6f732f51604de2260271":[5,3,2,11,12],
-"class_acts_1_1_i_surface_material.html#a9e136c68d2f0ef7ad6b085e9ab3a882f":[5,3,2,11,4],
-"class_acts_1_1_i_surface_material.html#aa2c422b472389baa8c683fe4e38d67a5":[5,3,2,11,2],
-"class_acts_1_1_i_surface_material.html#ac0689ff6c247b5cd69de981ed7e0be53":[5,3,2,11,16],
-"class_acts_1_1_i_surface_material.html#ae035f5e22c7e7b38707ca694e9051e95":[5,3,2,11,15],
-"class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4":[5,3,2,11,9]
+"class_acts_1_1_i_surface_material.html#a9e136c68d2f0ef7ad6b085e9ab3a882f":[5,3,2,11,4]
 };
