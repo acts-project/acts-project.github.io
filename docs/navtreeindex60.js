@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_measurement_selector_cuts.html#ae0cc97ce3837e63997de1b525a25409d":[8,0,0,275,1],
+"struct_acts_1_1_middle_sp_info.html":[6,0,0,272],
 "struct_acts_1_1_middle_sp_info.html":[8,0,0,277],
 "struct_acts_1_1_middle_sp_info.html#a10ed3626a06a2c77e06ea931df1817c8":[6,0,0,272,1],
 "struct_acts_1_1_middle_sp_info.html#a10ed3626a06a2c77e06ea931df1817c8":[8,0,0,277,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a7c02a2904587da5a325e09caf31c87eb":[8,0,0,306,0,4],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a9f9f1d28aed0cf1df18880d78ac71daa":[6,0,0,301,0,0],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a9f9f1d28aed0cf1df18880d78ac71daa":[8,0,0,306,0,0],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#aa87b3b8ef9f0ca545f2cbf191f8d6055":[6,0,0,301,0,3],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#aa87b3b8ef9f0ca545f2cbf191f8d6055":[8,0,0,306,0,3],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#acae8a0e9e16bc3d9c7db0034ab53ed9c":[6,0,0,301,0,1]
+"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#aa87b3b8ef9f0ca545f2cbf191f8d6055":[6,0,0,301,0,3]
 };
