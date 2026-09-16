@@ -126,7 +126,7 @@ $(function(){initNavTree('group__fatras.html','',''); });
 </div><!--header-->
 <div class="contents">
 <p>Fast track simulation on ACTS tracking geometries. </p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
 Fatras</h1>
 <p>Fatras is the ACTS fast track simulation package. It uses the <a class="el" href="class_acts_1_1_propagator.html">Acts::Propagator</a> and a reconstruction-oriented <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> to transport particles through the detector and to produce simulated hits on sensitive surfaces. It is intended for fast algorithm validation and detector studies that do not require a full, detailed detector simulation.</p>
 <p>Fatras uses parametrized material interactions, including multiple scattering, Bethe-Bloch energy loss, Bethe-Heitler energy loss, and photon conversion. Since it operates on tracking surfaces rather than a full volumetric detector model, it is faster than a detailed Geant4 simulation but also less complete.</p>
@@ -155,7 +155,7 @@ Barcode identifiers</h2>
 <div class="fragment"><div class="line">vp=2|vs=0|p=14|g=1|sp=0</div>
 <div class="line">vp=2|vs=0|p=14|g=1|sp=1</div>
 </div><!-- fragment --><p>The preserved vertex and particle components make it cheap to recover the initial simulated particle for truth matching, while the generation and sub-particle components distinguish particles created during the simulation.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Creating and reducing barcodes</h2>
 <p><a class="el" href="class_acts_fatras_1_1_barcode.html">ActsFatras::Barcode</a> is immutable from the caller's point of view: modifier methods return a new barcode with one component changed. Typical construction therefore chains the <span class="tt">with...</span> methods:</p>
 <div class="fragment"><div class="line"><span class="keyword">auto</span> particleId = <a class="code hl_class" href="class_acts_fatras_1_1_barcode.html">ActsFatras::Barcode</a>()</div>

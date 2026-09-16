@@ -150,6 +150,11 @@ Classes</h2></td></tr>
 <tr class="memitem:ActsPlugins_3A_3APodioUtil_3A_3AConversionHelper" id="r_ActsPlugins_3A_3APodioUtil_3A_3AConversionHelper"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">ActsPlugins::PodioUtil::ConversionHelper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper interface for converting between ACTS and PODIO types.  <a href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga082e3d4629a8aa35e7a5a1e8415fa46b" id="r_ga082e3d4629a8aa35e7a5a1e8415fa46b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">ActsPlugins::EDM4hepUtil::TrackerHitLookup</a></td></tr>
+<tr class="memdesc:ga082e3d4629a8aa35e7a5a1e8415fa46b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback resolving the EDM4hep tracker hit associated with a measurement track state.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga577cd7bfa516e4382f05200a128eb95a" id="r_ga577cd7bfa516e4382f05200a128eb95a"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; class other_holder_t&gt; <br />
@@ -161,22 +166,53 @@ requires std::is_same_v&lt;holder_t&lt;const ActsPodioEdm::TrackStateCollection&
 <tr class="memitem:gae9438ea2e8430b90f5ce180c35160ef4 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9438ea2e8430b90f5ce180c35160ef4">ActsPlugins::ConstPodioTrackStateContainer&lt; holder_t &gt;::ConstPodioTrackStateContainer</a> (<a class="el" href="class_acts_plugins_1_1_mutable_podio_track_state_container.html">MutablePodioTrackStateContainer</a>&lt; other_holder_t &gt; &amp;&amp;other)</td></tr>
 <tr class="memdesc:gae9438ea2e8430b90f5ce180c35160ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a const track state container from a mutable (move).  <br /></td></tr>
 <tr class="memitem:gaec2431e6bd278ab0b589b49045b19b58" id="r_gaec2431e6bd278ab0b589b49045b19b58"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec2431e6bd278ab0b589b49045b19b58">ActsPlugins::EDM4hepUtil::getParticle</a> (const edm4hep::SimTrackerHit &amp;hit)</td></tr>
-<tr class="memdesc:gaec2431e6bd278ab0b589b49045b19b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the particle from a SimTrackerHit (compatibility with EDM4hep &lt; 0.99 and &gt;= 0.99).  <br /></td></tr>
+<tr class="memdesc:gaec2431e6bd278ab0b589b49045b19b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the particle from a SimTrackerHit.  <br /></td></tr>
 <tr class="memitem:ga0553ea3f5ddda553c15902ee002f8f97" id="r_ga0553ea3f5ddda553c15902ee002f8f97"><td class="memItemLeft" align="right" valign="top"><a id="ga0553ea3f5ddda553c15902ee002f8f97" name="ga0553ea3f5ddda553c15902ee002f8f97"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ActsPlugins::MutablePodioTrackContainer</b> (const <a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;, ActsPodioEdm::TrackCollection &amp;) -&gt; MutablePodioTrackContainer&lt; <a class="el" href="struct_acts_1_1_ref_holder.html">Acts::RefHolder</a> &gt;</td></tr>
 <tr class="memdesc:ga0553ea3f5ddda553c15902ee002f8f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction guide: when passing a collection reference, deduce RefHolder. <br /></td></tr>
 <tr class="memitem:gaabac31d15341c5a6f7550c8954ddfd0d" id="r_gaabac31d15341c5a6f7550c8954ddfd0d"><td class="memItemLeft" align="right" valign="top"><a id="gaabac31d15341c5a6f7550c8954ddfd0d" name="gaabac31d15341c5a6f7550c8954ddfd0d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ActsPlugins::MutablePodioTrackStateContainer</b> (<a class="el" href="class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html">PodioUtil::ConversionHelper</a> &amp;, ActsPodioEdm::TrackStateCollection &amp;, ActsPodioEdm::BoundParametersCollection &amp;, ActsPodioEdm::JacobianCollection &amp;, ActsPodioEdm::TrackStateHitLinkCollection *) -&gt; MutablePodioTrackStateContainer&lt; <a class="el" href="struct_acts_1_1_ref_holder.html">Acts::RefHolder</a> &gt;</td></tr>
 <tr class="memdesc:gaabac31d15341c5a6f7550c8954ddfd0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction guide: when passing collection references, deduce RefHolder. <br /></td></tr>
-<tr class="memitem:gaff8fb57f7a4dd01d3894d7849abf74cb" id="r_gaff8fb57f7a4dd01d3894d7849abf74cb"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
-<tr class="memitem:gaff8fb57f7a4dd01d3894d7849abf74cb template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff8fb57f7a4dd01d3894d7849abf74cb">ActsPlugins::EDM4hepUtil::readTrack</a> (const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:gaff8fb57f7a4dd01d3894d7849abf74cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an EDM4hep track into Acts format.  <br /></td></tr>
+<tr class="memitem:ga17be63d58e6871eb2728756ec3799de8" id="r_ga17be63d58e6871eb2728756ec3799de8"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:ga17be63d58e6871eb2728756ec3799de8 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga17be63d58e6871eb2728756ec3799de8">ActsPlugins::EDM4hepUtil::readTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx, const edm4hep::Track &amp;from, track_proxy_t &amp;track, const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;magneticField, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:ga17be63d58e6871eb2728756ec3799de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an EDM4hep track into Acts format, using a magnetic field provider.  <br /></td></tr>
+<tr class="memitem:gafd933cfa2a2f01a1747f04bfca3005e7" id="r_gafd933cfa2a2f01a1747f04bfca3005e7"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:gafd933cfa2a2f01a1747f04bfca3005e7 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd933cfa2a2f01a1747f04bfca3005e7">ActsPlugins::EDM4hepUtil::readTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const edm4hep::Track &amp;from, track_proxy_t &amp;track, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:gafd933cfa2a2f01a1747f04bfca3005e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an EDM4hep track into Acts format, using a uniform magnetic field.  <br /></td></tr>
 <tr class="memitem:gad2217a1e566c6c6e331e614f87ffa7b9" id="r_gad2217a1e566c6c6e331e614f87ffa7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2217a1e566c6c6e331e614f87ffa7b9">ActsPlugins::EDM4hepUtil::setParticle</a> (edm4hep::MutableSimTrackerHit &amp;hit, const edm4hep::MCParticle &amp;particle)</td></tr>
-<tr class="memdesc:gad2217a1e566c6c6e331e614f87ffa7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle for a MutableSimTrackerHit (compatibility with EDM4hep &lt; 0.99 and &gt;= 0.99).  <br /></td></tr>
-<tr class="memitem:ga5d02aa49e1be2a59a7f50d0ea7f4e58f" id="r_ga5d02aa49e1be2a59a7f50d0ea7f4e58f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
-<tr class="memitem:ga5d02aa49e1be2a59a7f50d0ea7f4e58f template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">ActsPlugins::EDM4hepUtil::writeTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:ga5d02aa49e1be2a59a7f50d0ea7f4e58f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write an Acts track to EDM4hep format.  <br /></td></tr>
+<tr class="memdesc:gad2217a1e566c6c6e331e614f87ffa7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle for a MutableSimTrackerHit.  <br /></td></tr>
+<tr class="memitem:gab180932c853e448ff6b13ae0d4a8bc93" id="r_gab180932c853e448ff6b13ae0d4a8bc93"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:gab180932c853e448ff6b13ae0d4a8bc93 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab180932c853e448ff6b13ae0d4a8bc93">ActsPlugins::EDM4hepUtil::writeTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx, track_proxy_t track, edm4hep::MutableTrack to, const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;magneticField, const <a class="el" href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">TrackerHitLookup</a> &amp;hitLookup={}, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:gab180932c853e448ff6b13ae0d4a8bc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write an Acts track to EDM4hep format, using a magnetic field provider.  <br /></td></tr>
+<tr class="memitem:ga20ef2aa8c6f4f2b87a10d9f86b95bf9f" id="r_ga20ef2aa8c6f4f2b87a10d9f86b95bf9f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </td></tr>
+<tr class="memitem:ga20ef2aa8c6f4f2b87a10d9f86b95bf9f template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20ef2aa8c6f4f2b87a10d9f86b95bf9f">ActsPlugins::EDM4hepUtil::writeTrack</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, track_proxy_t track, edm4hep::MutableTrack to, double Bz, const <a class="el" href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">TrackerHitLookup</a> &amp;hitLookup={}, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:ga20ef2aa8c6f4f2b87a10d9f86b95bf9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write an Acts track to EDM4hep format, using a uniform magnetic field.  <br /></td></tr>
+<tr class="memitem:ga5078e7ae55f2087994c20b0337dfcc41" id="r_ga5078e7ae55f2087994c20b0337dfcc41"><td class="memItemLeft" align="right" valign="top">edm4hep::TrackState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5078e7ae55f2087994c20b0337dfcc41">ActsPlugins::EDM4hepUtil::writeTrackState</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx, std::int32_t location, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a> &amp;params, const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;magneticField, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:ga5078e7ae55f2087994c20b0337dfcc41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a single set of bound track parameters into an EDM4hep track state.  <br /></td></tr>
+<tr class="memitem:ga2143b7e06aabc08d2685e932719767a3" id="r_ga2143b7e06aabc08d2685e932719767a3"><td class="memItemLeft" align="right" valign="top">edm4hep::TrackState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2143b7e06aabc08d2685e932719767a3">ActsPlugins::EDM4hepUtil::writeTrackState</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx, std::int32_t location, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a> &amp;params, const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;magneticField, <a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">Acts::MagneticFieldProvider::Cache</a> &amp;fieldCache, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:ga2143b7e06aabc08d2685e932719767a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a single set of bound track parameters into an EDM4hep track state.  <br /></td></tr>
 </table>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ga082e3d4629a8aa35e7a5a1e8415fa46b" name="ga082e3d4629a8aa35e7a5a1e8415fa46b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">&#9670;&#160;</a></span>TrackerHitLookup</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">ActsPlugins::EDM4hepUtil::TrackerHitLookup</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> std::function&lt;std::optional&lt;edm4hep::TrackerHit&gt;(</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>&amp; state)&gt;</div>
+<div class="ttc" id="anamespace_acts_html_a58d7c5f9e29f5f51ece398952f4a2a6a"><div class="ttname"><a href="namespace_acts.html#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a></div><div class="ttdeci">AnyTrackStateProxy&lt; true &gt; AnyConstTrackStateProxy</div><div class="ttdoc">Type alias for a const track state proxy.</div><div class="ttdef"><b>Definition</b> AnyTrackStateProxy.hpp:950</div></div>
+</div><!-- fragment -->
+<p>Callback resolving the EDM4hep tracker hit associated with a measurement track state. </p>
+<p>It is invoked by <a class="el" href="#gab180932c853e448ff6b13ae0d4a8bc93">writeTrack</a> once per measurement track state and should return the associated <code>edm4hep::TrackerHit</code> (any of the interfaced hit types) or <code>std::nullopt</code> if there is none. The track state is passed type-erased, so this is a plain callable independent of the trajectory backend. An empty callback means no tracker hits are written. </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ga577cd7bfa516e4382f05200a128eb95a" name="ga577cd7bfa516e4382f05200a128eb95a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga577cd7bfa516e4382f05200a128eb95a">&#9670;&#160;</a></span>ConstPodioTrackStateContainer() <span class="overload">[1/2]</span></h2>
@@ -271,7 +307,7 @@ requires std::is_same_v&lt;holder_t&lt;const ActsPodioEdm::TrackStateCollection&
       </table>
 </div><div class="memdoc">
 
-<p>Get the particle from a SimTrackerHit (compatibility with EDM4hep &lt; 0.99 and &gt;= 0.99). </p>
+<p>Get the particle from a SimTrackerHit. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">hit</td><td>The SimTrackerHit </td></tr>
@@ -282,8 +318,8 @@ requires std::is_same_v&lt;holder_t&lt;const ActsPodioEdm::TrackStateCollection&
 
 </div>
 </div>
-<a id="gaff8fb57f7a4dd01d3894d7849abf74cb" name="gaff8fb57f7a4dd01d3894d7849abf74cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff8fb57f7a4dd01d3894d7849abf74cb">&#9670;&#160;</a></span>readTrack()</h2>
+<a id="ga17be63d58e6871eb2728756ec3799de8" name="ga17be63d58e6871eb2728756ec3799de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17be63d58e6871eb2728756ec3799de8">&#9670;&#160;</a></span>readTrack() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,6 +329,68 @@ template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts:
         <tr>
           <td class="memname">void ActsPlugins::EDM4hepUtil::readTrack </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const edm4hep::Track &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">track_proxy_t &amp;</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>magneticField</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read an EDM4hep track into Acts format, using a magnetic field provider. </p>
+<p>This is the general form of <a class="el" href="#ga17be63d58e6871eb2728756ec3799de8">readTrack</a>, and the inverse of the corresponding <a class="el" href="#gab180932c853e448ff6b13ae0d4a8bc93">writeTrack</a> overload. The perigee conversion of each track state evaluates the local field via <code class="param">magneticField</code> at that state's point of closest approach, which supports spatially varying fields. That is the same position <a class="el" href="#ga2143b7e06aabc08d2685e932719767a3">writeTrackState</a> samples the field at, so the two round-trip consistently. Note this is not in general the state's <code>referencePoint:</code> for parameters expressed on a perigee the two differ by d0/z0.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">mctx</td><td>The magnetic field context </td></tr>
+    <tr><td class="paramname">from</td><td>The EDM4hep track to read </td></tr>
+    <tr><td class="paramname">track</td><td>The Acts track proxy to fill </td></tr>
+    <tr><td class="paramname">magneticField</td><td>The magnetic field provider, evaluated at each state </td></tr>
+    <tr><td class="paramname">logger</td><td>The logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafd933cfa2a2f01a1747f04bfca3005e7" name="gafd933cfa2a2f01a1747f04bfca3005e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd933cfa2a2f01a1747f04bfca3005e7">&#9670;&#160;</a></span>readTrack() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::EDM4hepUtil::readTrack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const edm4hep::Track &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
         <tr>
@@ -313,12 +411,14 @@ template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts:
       </table>
 </div><div class="memdoc">
 
-<p>Read an EDM4hep track into Acts format. </p>
+<p>Read an EDM4hep track into Acts format, using a uniform magnetic field. </p>
+<p>Convenience overload of <a class="el" href="#ga17be63d58e6871eb2728756ec3799de8">readTrack</a> for the common case of a constant solenoidal field. Delegates to the <code>Acts::MagneticFieldProvider</code> form with an <code>Acts::ConstantBField</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
     <tr><td class="paramname">from</td><td>The EDM4hep track to read </td></tr>
     <tr><td class="paramname">track</td><td>The Acts track proxy to fill </td></tr>
-    <tr><td class="paramname">Bz</td><td>The magnetic field z-component </td></tr>
+    <tr><td class="paramname">Bz</td><td>The (uniform) magnetic field z-component in Acts native units </td></tr>
     <tr><td class="paramname">logger</td><td>The logger instance </td></tr>
   </table>
   </dd>
@@ -345,7 +445,7 @@ template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts:
       </table>
 </div><div class="memdoc">
 
-<p>Set the particle for a MutableSimTrackerHit (compatibility with EDM4hep &lt; 0.99 and &gt;= 0.99). </p>
+<p>Set the particle for a MutableSimTrackerHit. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">hit</td><td>The MutableSimTrackerHit </td></tr>
@@ -356,8 +456,72 @@ template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts:
 
 </div>
 </div>
-<a id="ga5d02aa49e1be2a59a7f50d0ea7f4e58f" name="ga5d02aa49e1be2a59a7f50d0ea7f4e58f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5d02aa49e1be2a59a7f50d0ea7f4e58f">&#9670;&#160;</a></span>writeTrack()</h2>
+<a id="gab180932c853e448ff6b13ae0d4a8bc93" name="gab180932c853e448ff6b13ae0d4a8bc93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab180932c853e448ff6b13ae0d4a8bc93">&#9670;&#160;</a></span>writeTrack() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts::TrackProxyConcept</a> track_proxy_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActsPlugins::EDM4hepUtil::writeTrack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">track_proxy_t</td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">edm4hep::MutableTrack</td>          <td class="paramname"><span class="paramname"><em>to</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>magneticField</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">TrackerHitLookup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>hitLookup</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write an Acts track to EDM4hep format, using a magnetic field provider. </p>
+<p>This is the general form of <a class="el" href="#gab180932c853e448ff6b13ae0d4a8bc93">writeTrack</a>. In addition to the track summary quantities (chi2, ndf, number of holes) it writes one EDM4hep track state per measurement plus a dedicated <code>AtIP</code> state. The perigee conversion of each state evaluates the local field via <code class="param">magneticField</code> at the global position of that state, which supports spatially varying fields</p>
+<dl class="section note"><dt>Note</dt><dd>Resolving tracker hits requires application-specific source-link/hit-container knowledge, so it is delegated to the optional <code class="param">hitLookup</code> callback. It is invoked exactly once per measurement track state, in the order the states are emitted, i.e. inside-out from <code>AtFirstHit</code> to <code>AtLastHit</code>, so a stateful callback sees the same order as the output. Returned hits are attached via <code>addToTrackerHits</code>.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">mctx</td><td>The magnetic field context </td></tr>
+    <tr><td class="paramname">track</td><td>The Acts track to convert </td></tr>
+    <tr><td class="paramname">to</td><td>The EDM4hep track to write to </td></tr>
+    <tr><td class="paramname">magneticField</td><td>The magnetic field provider, evaluated at each state </td></tr>
+    <tr><td class="paramname">hitLookup</td><td>Optional callback mapping a measurement track state to its EDM4hep tracker hit (defaults to writing no tracker hits) </td></tr>
+    <tr><td class="paramname">logger</td><td>The logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga20ef2aa8c6f4f2b87a10d9f86b95bf9f" name="ga20ef2aa8c6f4f2b87a10d9f86b95bf9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20ef2aa8c6f4f2b87a10d9f86b95bf9f">&#9670;&#160;</a></span>writeTrack() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,22 +551,142 @@ template&lt;<a class="el" href="concept_acts_1_1_track_proxy_concept.html">Acts:
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="#ga082e3d4629a8aa35e7a5a1e8415fa46b">TrackerHitLookup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>hitLookup</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Write an Acts track to EDM4hep format. </p>
+<p>Write an Acts track to EDM4hep format, using a uniform magnetic field. </p>
+<p>Convenience overload of <a class="el" href="#gab180932c853e448ff6b13ae0d4a8bc93">writeTrack</a> for the common case of a constant solenoidal field. Delegates to the <code>Acts::MagneticFieldProvider</code> form with an <code>Acts::ConstantBField</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
     <tr><td class="paramname">track</td><td>The Acts track to convert </td></tr>
     <tr><td class="paramname">to</td><td>The EDM4hep track to write to </td></tr>
-    <tr><td class="paramname">Bz</td><td>The magnetic field z-component </td></tr>
+    <tr><td class="paramname">Bz</td><td>The (uniform) magnetic field z-component in Acts native units </td></tr>
+    <tr><td class="paramname">hitLookup</td><td>Optional callback mapping a measurement track state to its EDM4hep tracker hit (defaults to writing no tracker hits) </td></tr>
     <tr><td class="paramname">logger</td><td>The logger instance </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga5078e7ae55f2087994c20b0337dfcc41" name="ga5078e7ae55f2087994c20b0337dfcc41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5078e7ae55f2087994c20b0337dfcc41">&#9670;&#160;</a></span>writeTrackState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">edm4hep::TrackState ActsPlugins::EDM4hepUtil::writeTrackState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>location</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>magneticField</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a single set of bound track parameters into an EDM4hep track state. </p>
+<p>Convenience overload of <a class="el" href="#ga2143b7e06aabc08d2685e932719767a3">writeTrackState</a> that creates its own field cache from <code class="param">mctx</code>. Prefer the cache-taking overload when converting many states in a row.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">mctx</td><td>The magnetic field context </td></tr>
+    <tr><td class="paramname">location</td><td>The EDM4hep track state location, e.g. <code>edm4hep::TrackState::AtIP</code> </td></tr>
+    <tr><td class="paramname">params</td><td>The bound track parameters to convert </td></tr>
+    <tr><td class="paramname">magneticField</td><td>The magnetic field provider </td></tr>
+    <tr><td class="paramname">logger</td><td>The logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The converted EDM4hep track state </dd></dl>
+
+</div>
+</div>
+<a id="ga2143b7e06aabc08d2685e932719767a3" name="ga2143b7e06aabc08d2685e932719767a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2143b7e06aabc08d2685e932719767a3">&#9670;&#160;</a></span>writeTrackState() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">edm4hep::TrackState ActsPlugins::EDM4hepUtil::writeTrackState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int32_t</td>          <td class="paramname"><span class="paramname"><em>location</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_bound_track_parameters.html">Acts::BoundTrackParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">Acts::MagneticFieldProvider</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>magneticField</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_magnetic_field_provider.html#a1f11a18dff2bb4106d1c1f76ff25e1d9">Acts::MagneticFieldProvider::Cache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fieldCache</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a single set of bound track parameters into an EDM4hep track state. </p>
+<p>The EDM4hep track state uses a perigee parametrization (D0, Z0, phi, tanLambda, omega, time) defined relative to a reference point. If <code class="param">params</code> are not already expressed on a perigee surface they are re-expressed at an ad-hoc perigee created at their global position, transporting both parameters and covariance, and the state's <code>referencePoint</code> is set to that perigee centre. The curvature <code>omega</code> depends on the local field, which is evaluated at the position of <code class="param">params</code>.</p>
+<p>This is the per-state building block used by <a class="el" href="#gab180932c853e448ff6b13ae0d4a8bc93">writeTrack</a>. It is exposed so that track states which do not come from a fitted track - a seed, or an extrapolation to the calorimeter face - can be produced with exactly the same conversion instead of a private reimplementation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gctx</td><td>The geometry context </td></tr>
+    <tr><td class="paramname">location</td><td>The EDM4hep track state location, e.g. <code>edm4hep::TrackState::AtIP</code> </td></tr>
+    <tr><td class="paramname">params</td><td>The bound track parameters to convert </td></tr>
+    <tr><td class="paramname">magneticField</td><td>The magnetic field provider </td></tr>
+    <tr><td class="paramname">fieldCache</td><td>Field lookup cache, reused across calls </td></tr>
+    <tr><td class="paramname">logger</td><td>The logger instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The converted EDM4hep track state </dd></dl>
 
 </div>
 </div>

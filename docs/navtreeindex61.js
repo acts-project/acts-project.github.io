@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"struct_acts_1_1_navigator_plain_options.html#abc3b1cbb693a31f9c66d18706fa3a4a0":[8,0,0,303,6],
+"struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9":[6,0,0,298,1],
+"struct_acts_1_1_navigator_plain_options.html#ae39cf9c4751da457815d5be80fba23b9":[8,0,0,303,1],
+"struct_acts_1_1_navigator_plain_options.html#afced589e3f799666fe2c0f9248f6ce72":[6,0,0,298,0],
+"struct_acts_1_1_navigator_plain_options.html#afced589e3f799666fe2c0f9248f6ce72":[8,0,0,303,0],
+"struct_acts_1_1_navigator_statistics.html":[6,0,0,299],
+"struct_acts_1_1_navigator_statistics.html":[8,0,0,304],
+"struct_acts_1_1_navigator_statistics.html#ab50ffa8302b4f80f3313323b758f3f30":[6,0,0,299,1],
+"struct_acts_1_1_navigator_statistics.html#ab50ffa8302b4f80f3313323b758f3f30":[8,0,0,304,1],
+"struct_acts_1_1_navigator_statistics.html#ae69b4ee832937554dec5c0ff617f9fd0":[6,0,0,299,0],
 "struct_acts_1_1_navigator_statistics.html#ae69b4ee832937554dec5c0ff617f9fd0":[8,0,0,304,0],
 "struct_acts_1_1_no_target_aborter.html":[6,0,0,301],
 "struct_acts_1_1_no_target_aborter.html":[8,0,0,306],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "struct_acts_1_1_propagator_state.html#a660444f85477d4770cf4a7d72b59afcc":[8,0,0,344,1],
 "struct_acts_1_1_propagator_state.html#a7f1b82f8c27041224835cfb7adf3375b":[6,0,0,339,3],
 "struct_acts_1_1_propagator_state.html#a7f1b82f8c27041224835cfb7adf3375b":[8,0,0,344,3],
-"struct_acts_1_1_propagator_state.html#aad38b60f36a93223422c2318afa878c3":[6,0,0,339,9],
-"struct_acts_1_1_propagator_state.html#aad38b60f36a93223422c2318afa878c3":[8,0,0,344,9],
-"struct_acts_1_1_propagator_state.html#acf5200cd0b13817ca1687fd05aa3735e":[6,0,0,339,12],
-"struct_acts_1_1_propagator_state.html#acf5200cd0b13817ca1687fd05aa3735e":[8,0,0,344,12],
-"struct_acts_1_1_propagator_state.html#ad3bee839e7289f5b43a310121889f181":[6,0,0,339,2],
-"struct_acts_1_1_propagator_state.html#ad3bee839e7289f5b43a310121889f181":[8,0,0,344,2],
-"struct_acts_1_1_propagator_state.html#aea2a258e8b59c9d83677336e0129259e":[6,0,0,339,13],
-"struct_acts_1_1_propagator_state.html#aea2a258e8b59c9d83677336e0129259e":[8,0,0,344,13],
-"struct_acts_1_1_propagator_statistics.html":[6,0,0,340],
-"struct_acts_1_1_propagator_statistics.html":[8,0,0,345],
-"struct_acts_1_1_propagator_statistics.html#a45177438174cbc7ea9b88cb9370eb5d5":[6,0,0,340,1]
+"struct_acts_1_1_propagator_state.html#aad38b60f36a93223422c2318afa878c3":[6,0,0,339,9]
 };

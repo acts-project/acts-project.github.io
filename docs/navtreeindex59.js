@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#a462cc9bc8a9fc9c00a9d79fc9c8d6e09":[5,11,0,1,2,3],
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[5,3,1,1,2,1],
+"struct_acts_1_1_interpolated_b_field_map_1_1_field_cell.html#ac01798730b4f8d1f8c515526cd531abe":[5,11,0,1,2,1],
+"struct_acts_1_1_interpolated_material_map_1_1_cache.html":[5,3,2,10,0],
+"struct_acts_1_1_interpolated_material_map_1_1_cache.html#acb0bf22899fd4caa0f5daa3985187509":[5,3,2,10,0,0],
+"struct_acts_1_1_interpolated_material_map_1_1_cache.html#aee4de0ac7b3e281317d6d19a5e3f51da":[5,3,2,10,0,1],
+"struct_acts_1_1_intersection_material_assigner_1_1_config.html":[5,3,2,0,6,0],
+"struct_acts_1_1_intersection_material_assigner_1_1_config.html#ab7b89cd7e6be5ffc2248ad5b995661fc":[5,3,2,0,6,0,1],
+"struct_acts_1_1_intersection_material_assigner_1_1_config.html#ad3b60497de27d6e5b54220a4846a5ea5":[5,3,2,0,6,0,0],
+"struct_acts_1_1_is_read_only_multi_trajectory.html":[6,0,0,211],
 "struct_acts_1_1_is_read_only_multi_trajectory.html":[8,0,0,216],
 "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_const_podio_track_state_container_3_01holder__t_01_4_01_4.html":[5,10,4,0],
 "struct_acts_1_1_is_read_only_multi_trajectory_3_01_acts_plugins_1_1_mutable_podio_track_state_container_3_01holder__t_01_4_01_4.html":[5,10,4,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_material_surface_identifier.html#aaf153fe06439453bbcb4c7d4cae780b4":[8,0,0,270,0],
 "struct_acts_1_1_material_validator_1_1_config.html":[5,3,2,0,9,0],
 "struct_acts_1_1_material_validator_1_1_config.html#a95bb8dcb669ebdebd40638495e658aa0":[5,3,2,0,9,0,0],
-"struct_acts_1_1_material_volume.html":[6,0,0,267],
-"struct_acts_1_1_material_volume.html":[8,0,0,272],
-"struct_acts_1_1_material_volume.html#ac08fa7c44e952e52c9905516cd9f970c":[6,0,0,267,0],
-"struct_acts_1_1_material_volume.html#ac08fa7c44e952e52c9905516cd9f970c":[8,0,0,272,0],
-"struct_acts_1_1_measurement_selector_cuts.html":[6,0,0,270],
-"struct_acts_1_1_measurement_selector_cuts.html":[8,0,0,275],
-"struct_acts_1_1_measurement_selector_cuts.html#a0a2fcfde7f4698df7c9b13c2e85ca6fb":[6,0,0,270,2],
-"struct_acts_1_1_measurement_selector_cuts.html#a0a2fcfde7f4698df7c9b13c2e85ca6fb":[8,0,0,275,2],
-"struct_acts_1_1_measurement_selector_cuts.html#a66e47c626973bf8183ab3ac6ea853032":[6,0,0,270,0],
-"struct_acts_1_1_measurement_selector_cuts.html#a66e47c626973bf8183ab3ac6ea853032":[8,0,0,275,0],
-"struct_acts_1_1_measurement_selector_cuts.html#ac151079586a111dacc3c3ca889c1578b":[6,0,0,270,3]
+"struct_acts_1_1_material_volume.html":[6,0,0,267]
 };

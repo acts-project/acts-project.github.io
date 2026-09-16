@@ -131,10 +131,15 @@ $(function(){initNavTree('class_acts_1_1_surface_array.html','','class_acts_1_1_
 
 <p><code>#include &lt;<a class="el" href="_surface_array_8hpp_source.html">Acts/Surfaces/SurfaceArray.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:NeighborWindow" id="r_NeighborWindow"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounds on the neighbor window, in bins per grid axis.  <a href="struct_acts_1_1_surface_array_1_1_neighbor_window.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa2f43e3837936b1d6d01c7182eefd0d8" id="r_aa2f43e3837936b1d6d01c7182eefd0d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f43e3837936b1d6d01c7182eefd0d8">SurfaceArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#a62f296f6caab4e8ed27437fa7724838d">surfaces</a>, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; &gt; axes, std::uint8_t <a class="el" href="#aa37d9e65ef078b639e52aa15f2367243">maxNeighborDistance</a>=1)</td></tr>
-<tr class="memdesc:aa2f43e3837936b1d6d01c7182eefd0d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to create a surface grid lookup for a given representative surface, tolerance, and axes.  <br /></td></tr>
+<tr class="memitem:a5460856290698ae88bfbc6706af42262" id="r_a5460856290698ae88bfbc6706af42262"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5460856290698ae88bfbc6706af42262">SurfaceArray</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt; <a class="el" href="#a62f296f6caab4e8ed27437fa7724838d">surfaces</a>, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_regular_surface.html">RegularSurface</a> &gt; representative, double tolerance, std::tuple&lt; const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp;, const <a class="el" href="class_acts_1_1_i_axis.html">IAxis</a> &amp; &gt; axes, <a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a> <a class="el" href="#a5df019287939eed716ff6bc9133701d8">neighborWindow</a>=<a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a>{{0, 0}, {2, 2}}, std::uint8_t overfill=0)</td></tr>
+<tr class="memdesc:a5460856290698ae88bfbc6706af42262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to create a surface grid lookup for a given representative surface, tolerance, and axes.  <br /></td></tr>
 <tr class="memitem:a351fcf271ff02669ab3a36dccd197ab5" id="r_a351fcf271ff02669ab3a36dccd197ab5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a351fcf271ff02669ab3a36dccd197ab5">SurfaceArray</a> (const SurfaceArray &amp;other)=delete</td></tr>
 <tr class="memitem:a769a532fbe2b2ec5dc6446a3109d8337" id="r_a769a532fbe2b2ec5dc6446a3109d8337"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769a532fbe2b2ec5dc6446a3109d8337">SurfaceArray</a> (std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; srf)</td></tr>
 <tr class="memdesc:a769a532fbe2b2ec5dc6446a3109d8337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with a single surface.  <br /></td></tr>
@@ -155,8 +160,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa37d9e65ef078b639e52aa15f2367243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum neighbor distance that is supported by this lookup.  <br /></td></tr>
 <tr class="memitem:a10ab400a529beba98a1e2a3649df76c7" id="r_a10ab400a529beba98a1e2a3649df76c7"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ab400a529beba98a1e2a3649df76c7">neighbors</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
 <tr class="memdesc:a10ab400a529beba98a1e2a3649df76c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin at <code class="param">pos</code> and its neighbors.  <br /></td></tr>
+<tr class="memitem:a0d5b2cb1f84c25701fc85947e3d3cb98" id="r_a0d5b2cb1f84c25701fc85947e3d3cb98"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5b2cb1f84c25701fc85947e3d3cb98">neighbors</a> (std::array&lt; std::size_t, 2 &gt; gridIndices, std::array&lt; std::uint8_t, 2 &gt; neighborDistance) const</td></tr>
+<tr class="memdesc:a0d5b2cb1f84c25701fc85947e3d3cb98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by local grid indices and a neighbor distance per axis.  <br /></td></tr>
 <tr class="memitem:a70145ac264f1cebc5fd441073b6ce8da" id="r_a70145ac264f1cebc5fd441073b6ce8da"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70145ac264f1cebc5fd441073b6ce8da">neighbors</a> (std::array&lt; std::size_t, 2 &gt; gridIndices, std::uint8_t neighborDistance) const</td></tr>
 <tr class="memdesc:a70145ac264f1cebc5fd441073b6ce8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all surfaces in bin given by local grid indices and neighbor distance.  <br /></td></tr>
+<tr class="memitem:a5df019287939eed716ff6bc9133701d8" id="r_a5df019287939eed716ff6bc9133701d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5df019287939eed716ff6bc9133701d8">neighborWindow</a> () const</td></tr>
+<tr class="memdesc:a5df019287939eed716ff6bc9133701d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bounds on the neighbor window this lookup serves.  <br /></td></tr>
 <tr class="memitem:ae412f914bad4eb622773d4ff5fbe9d87" id="r_ae412f914bad4eb622773d4ff5fbe9d87"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::size_t, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae412f914bad4eb622773d4ff5fbe9d87">numLocalBins</a> () const</td></tr>
 <tr class="memdesc:ae412f914bad4eb622773d4ff5fbe9d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local bins in each dimension.  <br /></td></tr>
 <tr class="memitem:adc502f49319eb76046baaf30d5a45c3e" id="r_adc502f49319eb76046baaf30d5a45c3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a769a532fbe2b2ec5dc6446a3109d8337">SurfaceArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc502f49319eb76046baaf30d5a45c3e">operator=</a> (const <a class="el" href="#a769a532fbe2b2ec5dc6446a3109d8337">SurfaceArray</a> &amp;other)=delete</td></tr>
@@ -207,8 +216,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2f43e3837936b1d6d01c7182eefd0d8" name="aa2f43e3837936b1d6d01c7182eefd0d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2f43e3837936b1d6d01c7182eefd0d8">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[2/4]</span></h2>
+<a id="a5460856290698ae88bfbc6706af42262" name="a5460856290698ae88bfbc6706af42262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5460856290698ae88bfbc6706af42262">&#9670;&#160;</a></span>SurfaceArray() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +250,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::uint8_t</td>          <td class="paramname"><span class="paramname"><em>maxNeighborDistance</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a></td>          <td class="paramname"><span class="paramname"><em>neighborWindow</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a>{{0,&#160;0},&#160;{2,&#160;2}}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint8_t</td>          <td class="paramname"><span class="paramname"><em>overfill</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -254,7 +268,8 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">representative</td><td>The surface which is used as representative </td></tr>
     <tr><td class="paramname">tolerance</td><td>The tolerance used for intersection checks </td></tr>
     <tr><td class="paramname">axes</td><td>The axes used for the grid </td></tr>
-    <tr><td class="paramname">maxNeighborDistance</td><td>Maximum next neighbor distance to be included in neighbor lookups </td></tr>
+    <tr><td class="paramname">neighborWindow</td><td>Bounds on the neighbor window, in bins per grid axis </td></tr>
+    <tr><td class="paramname">overfill</td><td>Extra cells per direction and axis to fill around each matched cell, wrapping closed axes and stopping at the grid edges. Zero preserves the footprint; one adds immediate neighbors, including diagonals. This also affects at(), independently of neighborWindow. </td></tr>
   </table>
   </dd>
 </dl>
@@ -497,12 +512,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the maximum neighbor distance that is supported by this lookup. </p>
-<p>This is used to determine how many neighbors to include in neighbor lookups. </p><dl class="section return"><dt>Returns</dt><dd>Maximum neighbor distance </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000043">Deprecated</a></b></dt><dd>Use <a class="el" href="#a5df019287939eed716ff6bc9133701d8">neighborWindow</a>; this reports the larger bound. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum neighbor distance over both axes </dd></dl>
 
 </div>
 </div>
 <a id="a10ab400a529beba98a1e2a3649df76c7" name="a10ab400a529beba98a1e2a3649df76c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10ab400a529beba98a1e2a3649df76c7">&#9670;&#160;</a></span>neighbors() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ab400a529beba98a1e2a3649df76c7">&#9670;&#160;</a></span>neighbors() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -538,8 +554,39 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0d5b2cb1f84c25701fc85947e3d3cb98" name="a0d5b2cb1f84c25701fc85947e3d3cb98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5b2cb1f84c25701fc85947e3d3cb98">&#9670;&#160;</a></span>neighbors() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const  &gt; Acts::SurfaceArray::neighbors </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; std::size_t, 2 &gt;</td>          <td class="paramname"><span class="paramname"><em>gridIndices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::array&lt; std::uint8_t, 2 &gt;</td>          <td class="paramname"><span class="paramname"><em>neighborDistance</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all surfaces in bin given by local grid indices and a neighbor distance per axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gridIndices</td><td>the local grid indices </td></tr>
+    <tr><td class="paramname">neighborDistance</td><td>the neighbor distance to include in the lookup, per axis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>span of surface pointers of the bin at that position and its neighbors </dd></dl>
+
+</div>
+</div>
 <a id="a70145ac264f1cebc5fd441073b6ce8da" name="a70145ac264f1cebc5fd441073b6ce8da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70145ac264f1cebc5fd441073b6ce8da">&#9670;&#160;</a></span>neighbors() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a70145ac264f1cebc5fd441073b6ce8da">&#9670;&#160;</a></span>neighbors() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,11 +608,31 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gridIndices</td><td>the local grid indices </td></tr>
-    <tr><td class="paramname">neighborDistance</td><td>the neighbor distance to include in the lookup </td></tr>
+    <tr><td class="paramname">neighborDistance</td><td>the neighbor distance to include in the lookup, the same along both axes </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>span of surface pointers of the bin at that position and its neighbors </dd></dl>
+
+</div>
+</div>
+<a id="a5df019287939eed716ff6bc9133701d8" name="a5df019287939eed716ff6bc9133701d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df019287939eed716ff6bc9133701d8">&#9670;&#160;</a></span>neighborWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html">NeighborWindow</a> Acts::SurfaceArray::neighborWindow </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the bounds on the neighbor window this lookup serves. </p>
+<dl class="section return"><dt>Returns</dt><dd>Neighbor window bounds per axis </dd></dl>
 
 </div>
 </div>

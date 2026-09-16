@@ -748,6 +748,7 @@ var hierarchy =
     [ "Acts::StripSpacePointBuilder::CosmicOptions", "struct_acts_1_1_strip_space_point_builder_1_1_cosmic_options.html", null ],
     [ "Acts::StripSpacePointBuilder::StripEnds", "struct_acts_1_1_strip_space_point_builder_1_1_strip_ends.html", null ],
     [ "Acts::SurfaceArray", "class_acts_1_1_surface_array.html", null ],
+    [ "Acts::SurfaceArray::NeighborWindow", "struct_acts_1_1_surface_array_1_1_neighbor_window.html", null ],
     [ "Acts::SurfaceArrayCreator", "class_acts_1_1_surface_array_creator.html", null ],
     [ "Acts::SurfaceArrayCreator::Config", "struct_acts_1_1_surface_array_creator_1_1_config.html", null ],
     [ "Acts::SurfaceArrayNavigationPolicy::Config", "struct_acts_1_1_surface_array_navigation_policy_1_1_config.html", null ],

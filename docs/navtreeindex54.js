@@ -1,5 +1,15 @@
 var NAVTREEINDEX54 =
 {
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#a3e5211544b494e3c1a77deb1da1e37a0":[8,0,0,2,6,1,0],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#a89b20f401619e38fcdf71c3155f43d35":[6,0,0,1,6,1,1],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#a89b20f401619e38fcdf71c3155f43d35":[8,0,0,2,6,1,1],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#adbca8abd75f035cb0c981cc6f7e96ad8":[6,0,0,1,6,1,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#adbca8abd75f035cb0c981cc6f7e96ad8":[8,0,0,2,6,1,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[6,0,0,1,6,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[8,0,0,2,6,2],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a00d357b2ed736dd1a26352636a77c99d":[6,0,0,1,6,2,3],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a00d357b2ed736dd1a26352636a77c99d":[8,0,0,2,6,2,3],
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a1c8174dff52f877ec429a2897c24a053":[6,0,0,1,6,2,6],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a1c8174dff52f877ec429a2897c24a053":[8,0,0,2,6,2,6],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a2716efe7cb3a400719be0994b2e08cff":[6,0,0,1,6,2,5],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a2716efe7cb3a400719be0994b2e08cff":[8,0,0,2,6,2,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX54 =
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html":[8,0,0,2,21,3],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html#a20d76fe287344d9b6f735b01d97ebd12":[6,0,0,1,21,3,0],
 "struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html#a20d76fe287344d9b6f735b01d97ebd12":[8,0,0,2,21,3,0],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html":[6,0,0,1,22],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html":[8,0,0,2,22],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a122fa536db18a3e31db7655e29a59bd6":[6,0,0,1,22,4],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a122fa536db18a3e31db7655e29a59bd6":[8,0,0,2,22,4],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a7f5e36fd99030b1beba5ef5d3bc287f2":[6,0,0,1,22,2],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a7f5e36fd99030b1beba5ef5d3bc287f2":[8,0,0,2,22,2],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9ecac138af9de95bc66fb3f8132547cc":[6,0,0,1,22,1],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9ecac138af9de95bc66fb3f8132547cc":[8,0,0,2,22,1],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9f0568d37822ce57545afe40878ee22c":[6,0,0,1,22,3],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9f0568d37822ce57545afe40878ee22c":[8,0,0,2,22,3],
-"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#aabc9cd62db7adfb69fbe1036ab834b42":[6,0,0,1,22,0]
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html":[6,0,0,1,22]
 };

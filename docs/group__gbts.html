@@ -127,7 +127,7 @@ $(function(){initNavTree('group__gbts.html','',''); });
 <div class="contents">
 <p>Seeding by building and filtering a graph of hit doublets. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>This page documents <a class="el" href="class_acts_1_1_experimental_1_1_graph_based_track_seeder.html">GBTS</a> as implemented in ACTS today. GBTS is an alternative to the classical triplet-based <a class="el" href="group__seeding.html">Seeding</a>, not a layer on top of it — the two are independent entry points producing the same <a class="el" href="class_acts_1_1_seed_container.html">Acts::SeedContainer</a>.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
 Why a graph?</h2>
 <p>Classical ACTS seeding (<a class="el" href="group__seeding.html">Seeding</a>) enumerates <em>triplets</em> of space points from a binned grid and cuts on the helix they describe. The combinatorics of that enumeration grow steeply with occupancy, and every triplet is judged in isolation.</p>
 <p>GBTS inverts the order. It first builds a <em>graph</em>: nodes are space points, and a directed edge joins two space points on connected detector layers whenever the pair passes a set of cheap two-point cuts. Only then does it look for structure in that graph — long chains of mutually compatible edges — and turn the best chains into seeds. The expensive per-candidate work is therefore done once per <em>edge</em> rather than once per triplet, and the chain length itself becomes a quality signal.</p>

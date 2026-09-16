@@ -127,7 +127,7 @@ $(function(){initNavTree('group__gsf.html','',''); });
 <div class="contents">
 <p>Multi-component fitter for electrons with non-Gaussian energy loss. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>This page documents the <a class="el" href="struct_acts_1_1_gaussian_sum_fitter.html">GSF</a> as implemented in ACTS today. For the pointwise multiple-scattering and ionization formalism that the GSF shares with the ordinary Kalman filters, see <a class="el" href="group__kf__material__effects.html">Material effects in the Kalman filters</a>; for the high-level conceptual picture see <a class="el" href="tracking.html#material-eff">Material effects</a>. The reference implementation and the tuning studies quoted below are described in detail in <a class="el" href="citelist.html#CITEREF_huth:2024">[8]</a>.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Why a mixture of Gaussians?</h2>
 <p>The <a class="el" href="class_acts_1_1_kalman_fitter.html">Kalman Filter</a> (KF) is the optimal estimator only as long as every involved distribution is Gaussian. For electrons this breaks down: their dominant energy loss is <b>bremsstrahlung</b>, whose Bethe–Heitler distribution is strongly non-Gaussian and heavily tailed. Feeding that through the single-Gaussian pointwise update of the KF (see the <a class="el" href="group__kf__material__effects.html#kf-material-eloss">energy-loss note</a>) biases the momentum estimate and wrecks its error estimate.</p>
 <p>The <b>Gaussian Sum Filter</b> (GSF) <a class="el" href="citelist.html#CITEREF_fruhwirth:1997">[5]</a> addresses this by modelling the track state as a <em>weighted mixture</em> of Gaussians instead of a single one,</p>

@@ -7,9 +7,9 @@ var class_acts_1_1_surface_array_creator =
     [ "determineBinCount", "class_acts_1_1_surface_array_creator.html#adbc72841a26bea413811948a020189e8", null ],
     [ "isSurfaceEquivalent", "class_acts_1_1_surface_array_creator.html#aba618b0627bc266a25fa15dc79d1c80a", null ],
     [ "setLogger", "class_acts_1_1_surface_array_creator.html#ae0cea453480e51a17a32d428fed2e684", null ],
-    [ "surfaceArrayOnCylinder", "class_acts_1_1_surface_array_creator.html#ab587fe97c577f7324c4b57c052a6ffad", null ],
-    [ "surfaceArrayOnCylinder", "class_acts_1_1_surface_array_creator.html#adf3a3989082a67219473fd0b621ac62a", null ],
-    [ "surfaceArrayOnDisc", "class_acts_1_1_surface_array_creator.html#ab636d1594ba1cc5ca4e79d61107aafdd", null ],
-    [ "surfaceArrayOnDisc", "class_acts_1_1_surface_array_creator.html#a61d7206383558849ed5cfc48a505d7f5", null ],
-    [ "surfaceArrayOnPlane", "class_acts_1_1_surface_array_creator.html#aab601f4590a610d15e9697bd93155de9", null ]
+    [ "surfaceArrayOnCylinder", "class_acts_1_1_surface_array_creator.html#a8bcb73a8df1e49c306b2a72d8b455ff3", null ],
+    [ "surfaceArrayOnCylinder", "class_acts_1_1_surface_array_creator.html#ab39e68cb84d4939d78dd78377c18a22f", null ],
+    [ "surfaceArrayOnDisc", "class_acts_1_1_surface_array_creator.html#ac716c4a44760d5712dc598f50a5893d3", null ],
+    [ "surfaceArrayOnDisc", "class_acts_1_1_surface_array_creator.html#a7f7d182473b05f201b52f5720504056c", null ],
+    [ "surfaceArrayOnPlane", "class_acts_1_1_surface_array_creator.html#ad473385b2569abce9c36184e9d59d572", null ]
 ];

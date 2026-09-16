@@ -150,12 +150,17 @@ var group__edm4hep__plugin =
       [ "sourceLinkToTrackerHitLocal", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#ae9e8dbbb7bfb059a9ac3832a1834c773", null ],
       [ "surfaceToIdentifier", "class_acts_plugins_1_1_podio_util_1_1_conversion_helper.html#a56b4f9b14a785698a7121df1c4addd14", null ]
     ] ],
+    [ "ActsPlugins::EDM4hepUtil::TrackerHitLookup", "group__edm4hep__plugin.html#ga082e3d4629a8aa35e7a5a1e8415fa46b", null ],
     [ "ActsPlugins::ConstPodioTrackStateContainer::ConstPodioTrackStateContainer", "group__edm4hep__plugin.html#ga577cd7bfa516e4382f05200a128eb95a", null ],
     [ "ActsPlugins::ConstPodioTrackStateContainer::ConstPodioTrackStateContainer", "group__edm4hep__plugin.html#gae9438ea2e8430b90f5ce180c35160ef4", null ],
     [ "ActsPlugins::EDM4hepUtil::getParticle", "group__edm4hep__plugin.html#gaec2431e6bd278ab0b589b49045b19b58", null ],
     [ "ActsPlugins::MutablePodioTrackContainer", "group__edm4hep__plugin.html#ga0553ea3f5ddda553c15902ee002f8f97", null ],
     [ "ActsPlugins::MutablePodioTrackStateContainer", "group__edm4hep__plugin.html#gaabac31d15341c5a6f7550c8954ddfd0d", null ],
-    [ "ActsPlugins::EDM4hepUtil::readTrack", "group__edm4hep__plugin.html#gaff8fb57f7a4dd01d3894d7849abf74cb", null ],
+    [ "ActsPlugins::EDM4hepUtil::readTrack", "group__edm4hep__plugin.html#ga17be63d58e6871eb2728756ec3799de8", null ],
+    [ "ActsPlugins::EDM4hepUtil::readTrack", "group__edm4hep__plugin.html#gafd933cfa2a2f01a1747f04bfca3005e7", null ],
     [ "ActsPlugins::EDM4hepUtil::setParticle", "group__edm4hep__plugin.html#gad2217a1e566c6c6e331e614f87ffa7b9", null ],
-    [ "ActsPlugins::EDM4hepUtil::writeTrack", "group__edm4hep__plugin.html#ga5d02aa49e1be2a59a7f50d0ea7f4e58f", null ]
+    [ "ActsPlugins::EDM4hepUtil::writeTrack", "group__edm4hep__plugin.html#gab180932c853e448ff6b13ae0d4a8bc93", null ],
+    [ "ActsPlugins::EDM4hepUtil::writeTrack", "group__edm4hep__plugin.html#ga20ef2aa8c6f4f2b87a10d9f86b95bf9f", null ],
+    [ "ActsPlugins::EDM4hepUtil::writeTrackState", "group__edm4hep__plugin.html#ga5078e7ae55f2087994c20b0337dfcc41", null ],
+    [ "ActsPlugins::EDM4hepUtil::writeTrackState", "group__edm4hep__plugin.html#ga2143b7e06aabc08d2685e932719767a3", null ]
 ];
