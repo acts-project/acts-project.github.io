@@ -80,7 +80,7 @@ var NAVTREEINDEX =
 "class_acts_1_1_cuboid_volume_stack.html#a7667915cb2611154e4dc449af1dd78f8",
 "class_acts_1_1_cylinder_volume_bounds.html#a8a84109e9e9f9c633a86ca1db4901101",
 "class_acts_1_1_direct_navigator.html#a25b4d027d6d85dcd6b7797f61e05e7f8",
-"class_acts_1_1_doublet_seed_finder.html#a442fcc97cfde3787d78fbb6d0af5b76e",
+"class_acts_1_1_doublet_seed_finder.html#a67ef07ad7aaaed11985e826b525ce98f",
 "class_acts_1_1_ellipse_bounds.html#a8505a42f9c4d90f8c0684c0d81aa8962",
 "class_acts_1_1_experimental_1_1_container_blueprint_node.html#a46483567b8f7a37a9cc8d5c2d6ab0c82",
 "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html",
@@ -135,10 +135,10 @@ var NAVTREEINDEX =
 "struct_acts_1_1_straight_line_stepper_1_1_config.html",
 "struct_acts_1_1_toroid_field_1_1_config.html#a3c667d8ffb972aa0d7a7a306b8622c8b",
 "struct_acts_1_1_transform3_json_converter_1_1_options.html#a27162806c46e1e6103e9d62f08aab398",
-"struct_acts_1_1_volume_config.html#a89399d2b77a2904dd94cc2d438367c50",
-"struct_acts_fatras_1_1_free_parameters_smearer.html#abc75131f7ae04217d49bfb64fd826b8f",
-"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a573ce1e7205ac96f57a26efb476fdf9c",
-"struct_acts_plugins_1_1_root_material_track_io_1_1_config.html#ab60da6d55188d007b1d10adf1eed319a"
+"struct_acts_1_1_volume_config.html#a6f64dc4ba4fe08de869c1e3a5234413b",
+"struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74",
+"struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_cache.html#ae862f8da107c5542ddcd232c62bd62e6",
+"struct_acts_plugins_1_1_root_material_track_io_1_1_config.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

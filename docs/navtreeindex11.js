@@ -1,10 +1,10 @@
 var NAVTREEINDEX11 =
 {
-"class_acts_1_1_doublet_seed_finder.html#a442fcc97cfde3787d78fbb6d0af5b76e":[8,0,0,131,5],
+"class_acts_1_1_doublet_seed_finder.html#a67ef07ad7aaaed11985e826b525ce98f":[8,0,0,131,5],
+"class_acts_1_1_doublet_seed_finder.html#a727576362e4c653c61df06c0afa895b8":[6,0,0,126,6],
+"class_acts_1_1_doublet_seed_finder.html#a727576362e4c653c61df06c0afa895b8":[8,0,0,131,6],
 "class_acts_1_1_doublet_seed_finder.html#a747e4b16fa50d4b104ede9300bb2702c":[6,0,0,126,4],
 "class_acts_1_1_doublet_seed_finder.html#a747e4b16fa50d4b104ede9300bb2702c":[8,0,0,131,4],
-"class_acts_1_1_doublet_seed_finder.html#a8be317efef82923390f88ac22a3bbe49":[6,0,0,126,6],
-"class_acts_1_1_doublet_seed_finder.html#a8be317efef82923390f88ac22a3bbe49":[8,0,0,131,6],
 "class_acts_1_1_doublet_seed_finder.html#a968891077bcade98e5dc1505dc735eb8":[6,0,0,126,3],
 "class_acts_1_1_doublet_seed_finder.html#a968891077bcade98e5dc1505dc735eb8":[8,0,0,131,3],
 "class_acts_1_1_doublets_for_middle_sp.html":[6,0,0,127],

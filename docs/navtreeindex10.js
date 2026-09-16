@@ -249,5 +249,5 @@ var NAVTREEINDEX10 =
 "class_acts_1_1_doublet_seed_finder.html":[8,0,0,131],
 "class_acts_1_1_doublet_seed_finder.html#a22fcfde342eed27a5b5b3b1a568c972a":[6,0,0,126,2],
 "class_acts_1_1_doublet_seed_finder.html#a22fcfde342eed27a5b5b3b1a568c972a":[8,0,0,131,2],
-"class_acts_1_1_doublet_seed_finder.html#a442fcc97cfde3787d78fbb6d0af5b76e":[6,0,0,126,5]
+"class_acts_1_1_doublet_seed_finder.html#a67ef07ad7aaaed11985e826b525ce98f":[6,0,0,126,5]
 };
