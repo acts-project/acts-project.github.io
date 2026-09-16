@@ -7,6 +7,7 @@ var struct_acts_1_1_navigator_1_1_state =
     [ "navSurface", "struct_acts_1_1_navigator_1_1_state.html#afa35182d48b22be50c74e5bc18d4b6aa", null ],
     [ "resetAfterLayerSwitch", "struct_acts_1_1_navigator_1_1_state.html#abb3a8f314d15cca6d51934c2229a9cf7", null ],
     [ "resetAfterVolumeSwitch", "struct_acts_1_1_navigator_1_1_state.html#aedf8b2d233b4df2645b539975b6b64a9", null ],
+    [ "resetForInitialization", "struct_acts_1_1_navigator_1_1_state.html#ac7195a3f6b0f7726653a896e35038b8e", null ],
     [ "resetForRenavigation", "struct_acts_1_1_navigator_1_1_state.html#a8333f56ce01a4e1edf9cc58fb677983d", null ],
     [ "currentLayer", "struct_acts_1_1_navigator_1_1_state.html#a80020ca927928717d2401262a7a26c46", null ],
     [ "currentSurface", "struct_acts_1_1_navigator_1_1_state.html#aefa673eab0064b8c62288054818468d5", null ],

@@ -154,9 +154,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterLayerSwitch
 <tr class="memitem:aedf8b2d233b4df2645b539975b6b64a9" id="r_aedf8b2d233b4df2645b539975b6b64a9"><td class="memItemLeft" align="right" valign="top"><a id="aedf8b2d233b4df2645b539975b6b64a9" name="aedf8b2d233b4df2645b539975b6b64a9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterVolumeSwitch</b> ()</td></tr>
 <tr class="memdesc:aedf8b2d233b4df2645b539975b6b64a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset navigation state after switching volumes. <br /></td></tr>
-<tr class="memitem:a8333f56ce01a4e1edf9cc58fb677983d" id="r_a8333f56ce01a4e1edf9cc58fb677983d"><td class="memItemLeft" align="right" valign="top"><a id="a8333f56ce01a4e1edf9cc58fb677983d" name="a8333f56ce01a4e1edf9cc58fb677983d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resetForRenavigation</b> ()</td></tr>
-<tr class="memdesc:a8333f56ce01a4e1edf9cc58fb677983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completely reset navigation state to initial conditions. <br /></td></tr>
+<tr class="memitem:ac7195a3f6b0f7726653a896e35038b8e" id="r_ac7195a3f6b0f7726653a896e35038b8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7195a3f6b0f7726653a896e35038b8e">resetForInitialization</a> ()</td></tr>
+<tr class="memdesc:ac7195a3f6b0f7726653a896e35038b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completely reset navigation state for a new navigation run.  <br /></td></tr>
+<tr class="memitem:a8333f56ce01a4e1edf9cc58fb677983d" id="r_a8333f56ce01a4e1edf9cc58fb677983d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8333f56ce01a4e1edf9cc58fb677983d">resetForRenavigation</a> ()</td></tr>
+<tr class="memdesc:a8333f56ce01a4e1edf9cc58fb677983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset navigation state for renavigating within the same navigation run.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -346,6 +347,46 @@ const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><
 
 <p>Get reference to current navigation surface. </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to current navigation target </dd></dl>
+
+</div>
+</div>
+<a id="ac7195a3f6b0f7726653a896e35038b8e" name="ac7195a3f6b0f7726653a896e35038b8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7195a3f6b0f7726653a896e35038b8e">&#9670;&#160;</a></span>resetForInitialization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Navigator::State::resetForInitialization </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Completely reset navigation state for a new navigation run. </p>
+<p>In contrast to <code>resetForRenavigation</code> this also drops the start and target information. </p>
+
+</div>
+</div>
+<a id="a8333f56ce01a4e1edf9cc58fb677983d" name="a8333f56ce01a4e1edf9cc58fb677983d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8333f56ce01a4e1edf9cc58fb677983d">&#9670;&#160;</a></span>resetForRenavigation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::Navigator::State::resetForRenavigation </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset navigation state for renavigating within the same navigation run. </p>
+<dl class="section note"><dt>Note</dt><dd>Keeps the start and target information, which actors rely on for the whole run. </dd></dl>
 
 </div>
 </div>

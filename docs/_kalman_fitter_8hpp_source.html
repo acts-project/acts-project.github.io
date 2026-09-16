@@ -764,7 +764,7 @@ $(function(){initNavTree('_kalman_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>    <span class="keyword">auto</span> propagatorState = m_propagator.makeState(propagatorOptions);</div>
 <div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span> </div>
 <div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>    <span class="keyword">auto</span> propagatorInitResult =</div>
-<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>        m_propagator.initialize(propagatorState, sParameters);</div>
+<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>        m_propagator.initialize(propagatorState, sParameters, <span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>    <span class="keywordflow">if</span> (!propagatorInitResult.ok()) {</div>
 <div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>      <a class="code hl_define" href="group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09">ACTS_DEBUG</a>(<span class="stringliteral">&quot;Propagation initialization failed: &quot;</span></div>
 <div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>                 &lt;&lt; propagatorInitResult.error());</div>

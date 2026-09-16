@@ -10,6 +10,8 @@ var struct_acts_1_1_direct_navigator_1_1_state =
     [ "direction", "struct_acts_1_1_direct_navigator_1_1_state.html#a84146a48325786d2ed53644967e038c6", null ],
     [ "navigationBreak", "struct_acts_1_1_direct_navigator_1_1_state.html#a42079388f1978c38fcf99ace31050ef4", null ],
     [ "options", "struct_acts_1_1_direct_navigator_1_1_state.html#a1f91dca729053bca91363891b03b3bef", null ],
+    [ "startSurface", "struct_acts_1_1_direct_navigator_1_1_state.html#ab2cf133b0d4dcfaf4c5ac30fb73357e4", null ],
     [ "statistics", "struct_acts_1_1_direct_navigator_1_1_state.html#a155c3085b693d4a2dbfa0635f2ef7508", null ],
-    [ "surfaceIndex", "struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05", null ]
+    [ "surfaceIndex", "struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05", null ],
+    [ "targetSurface", "struct_acts_1_1_direct_navigator_1_1_state.html#a4b1eb10c6fe1e86e409b6b4c080955e5", null ]
 ];

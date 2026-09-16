@@ -129,36 +129,36 @@ $(function(){initNavTree('_navigator_concept_8hpp_source.html','',''); });
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Acts/Geometry/TrackingVolume.hpp&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Acts/Surfaces/Surface.hpp&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;concepts&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a> {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> <a class="code hl_class" href="class_acts_1_1_navigator.html">Navigator</a>, <span class="keyword">typename</span> Options = <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_options.html">Navigator::Options</a>,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>          <span class="keyword">typename</span> State = <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_state.html">Navigator::State</a>&gt;</div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="concept_acts_1_1_navigator_concept.html">   23</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_navigator_concept.html">NavigatorConcept</a> = <span class="keyword">requires</span> {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_config.html">Navigator::Config</a>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_options.html">Navigator::Options</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_state.html">Navigator::State</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_navigator.html">Navigator</a>&amp; n, <span class="keyword">const</span> Options&amp; o, State&amp; s,</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                    <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>&amp; sf, <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; position,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; direction, <a class="code hl_class" href="class_acts_1_1_direction.html">Direction</a> propagationDirection) {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    { n.makeState(o) } -&gt; std::same_as&lt;State&gt;;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    { n.currentSurface(s) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    { n.currentVolume(s) } -&gt; std::same_as&lt;const TrackingVolume*&gt;;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    { n.currentVolumeMaterial(s) } -&gt; std::same_as&lt;const IVolumeMaterial*&gt;;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    { n.startSurface(s) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    { n.targetSurface(s) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    { n.endOfWorldReached(s) } -&gt; std::same_as&lt;bool&gt;;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    { n.navigationBreak(s) } -&gt; std::same_as&lt;bool&gt;;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>      n.initialize(s, position, direction, propagationDirection)</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    } -&gt; std::same_as&lt;Result&lt;void&gt;&gt;;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Acts/Propagator/NavigatorInitializeArguments.hpp&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;Acts/Surfaces/Surface.hpp&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;concepts&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_acts.html">Acts</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span><a class="code hl_class" href="class_acts_1_1_i_volume_material.html">IVolumeMaterial</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> <a class="code hl_class" href="class_acts_1_1_navigator.html">Navigator</a>, <span class="keyword">typename</span> Options = <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_options.html">Navigator::Options</a>,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>          <span class="keyword">typename</span> State = <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_state.html">Navigator::State</a>&gt;</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="concept_acts_1_1_navigator_concept.html">   24</a></span><span class="keyword">concept </span><a class="code hl_concept" href="concept_acts_1_1_navigator_concept.html">NavigatorConcept</a> = <span class="keyword">requires</span> {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_config.html">Navigator::Config</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_options.html">Navigator::Options</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keyword">typename</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_1_1_state.html">Navigator::State</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keyword">requires</span> <span class="keyword">requires</span>(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_navigator.html">Navigator</a>&amp; n, <span class="keyword">const</span> Options&amp; o, State&amp; s,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                    <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>&amp; sf, <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; position,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                    <span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&amp; direction,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                    <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_navigator_initialize_arguments.html">NavigatorInitializeArguments</a>&amp; args) {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    { n.makeState(o) } -&gt; std::same_as&lt;State&gt;;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    { n.currentSurface(s) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    { n.currentVolume(s) } -&gt; std::same_as&lt;const TrackingVolume*&gt;;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    { n.currentVolumeMaterial(s) } -&gt; std::same_as&lt;const IVolumeMaterial*&gt;;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    { n.startSurface(s) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    { n.targetSurface(s) } -&gt; std::same_as&lt;const Surface*&gt;;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    { n.endOfWorldReached(s) } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    { n.navigationBreak(s) } -&gt; std::same_as&lt;bool&gt;;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    { n.initialize(s, args) } -&gt; std::same_as&lt;Result&lt;void&gt;&gt;;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    { n.nextTarget(s, position, direction) } -&gt; std::same_as&lt;NavigationTarget&gt;;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    { n.checkTargetValid(s, position, direction) } -&gt; std::same_as&lt;bool&gt;;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
@@ -169,16 +169,16 @@ $(function(){initNavTree('_navigator_concept_8hpp_source.html','',''); });
 </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}  <span class="comment">// namespace Acts</span></div>
-<div class="ttc" id="aclass_acts_1_1_direction_html"><div class="ttname"><a href="class_acts_1_1_direction.html">Acts::Direction</a></div><div class="ttdoc">The direction is always with respect to a given momentum, surface normal or other general axes.</div><div class="ttdef"><b>Definition</b> Direction.hpp:22</div></div>
 <div class="ttc" id="aclass_acts_1_1_i_volume_material_html"><div class="ttname"><a href="class_acts_1_1_i_volume_material.html">Acts::IVolumeMaterial</a></div><div class="ttdoc">Material associated with a Volume (homogeneous, binned, interpolated).</div><div class="ttdef"><b>Definition</b> IVolumeMaterial.hpp:25</div></div>
-<div class="ttc" id="aclass_acts_1_1_navigator_html"><div class="ttname"><a href="class_acts_1_1_navigator.html">Acts::Navigator</a></div><div class="ttdoc">Steers the propagation through the geometry by providing the next surface to be targeted.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:80</div></div>
+<div class="ttc" id="aclass_acts_1_1_navigator_html"><div class="ttname"><a href="class_acts_1_1_navigator.html">Acts::Navigator</a></div><div class="ttdoc">Steers the propagation through the geometry by providing the next surface to be targeted.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:81</div></div>
 <div class="ttc" id="aclass_acts_1_1_surface_html"><div class="ttname"><a href="class_acts_1_1_surface.html">Acts::Surface</a></div><div class="ttdoc">Abstract Base Class for tracking surfaces.</div><div class="ttdef"><b>Definition</b> Surface.hpp:57</div></div>
-<div class="ttc" id="aconcept_acts_1_1_navigator_concept_html"><div class="ttname"><a href="concept_acts_1_1_navigator_concept.html">Acts::NavigatorConcept</a></div><div class="ttdoc">Concept that is satisfied by navigators.</div><div class="ttdef"><b>Definition</b> NavigatorConcept.hpp:23</div></div>
+<div class="ttc" id="aconcept_acts_1_1_navigator_concept_html"><div class="ttname"><a href="concept_acts_1_1_navigator_concept.html">Acts::NavigatorConcept</a></div><div class="ttdoc">Concept that is satisfied by navigators.</div><div class="ttdef"><b>Definition</b> NavigatorConcept.hpp:24</div></div>
 <div class="ttc" id="agroup__algebra__types_html_ga49fabee4702da952f70b234a021e39c5"><div class="ttname"><a href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a></div><div class="ttdeci">Vector&lt; 3 &gt; Vector3</div><div class="ttdoc">3-dimensional vector type for e.g. spatial coordinates and momenta</div><div class="ttdef"><b>Definition</b> Algebra.hpp:72</div></div>
 <div class="ttc" id="anamespace_acts_html"><div class="ttname"><a href="namespace_acts.html">Acts</a></div><div class="ttdoc">The main namespace encompassing all ACTS code.</div></div>
-<div class="ttc" id="astruct_acts_1_1_navigator_1_1_config_html"><div class="ttname"><a href="struct_acts_1_1_navigator_1_1_config.html">Acts::Navigator::Config</a></div><div class="ttdoc">The navigator configuration.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:105</div></div>
-<div class="ttc" id="astruct_acts_1_1_navigator_1_1_options_html"><div class="ttname"><a href="struct_acts_1_1_navigator_1_1_options.html">Acts::Navigator::Options</a></div><div class="ttdoc">The navigator options.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:118</div></div>
-<div class="ttc" id="astruct_acts_1_1_navigator_1_1_state_html"><div class="ttname"><a href="struct_acts_1_1_navigator_1_1_state.html">Acts::Navigator::State</a></div><div class="ttdoc">Nested State struct.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:135</div></div>
+<div class="ttc" id="astruct_acts_1_1_navigator_1_1_config_html"><div class="ttname"><a href="struct_acts_1_1_navigator_1_1_config.html">Acts::Navigator::Config</a></div><div class="ttdoc">The navigator configuration.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:106</div></div>
+<div class="ttc" id="astruct_acts_1_1_navigator_1_1_options_html"><div class="ttname"><a href="struct_acts_1_1_navigator_1_1_options.html">Acts::Navigator::Options</a></div><div class="ttdoc">The navigator options.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:119</div></div>
+<div class="ttc" id="astruct_acts_1_1_navigator_1_1_state_html"><div class="ttname"><a href="struct_acts_1_1_navigator_1_1_state.html">Acts::Navigator::State</a></div><div class="ttdoc">Nested State struct.</div><div class="ttdef"><b>Definition</b> Navigator.hpp:136</div></div>
+<div class="ttc" id="astruct_acts_1_1_navigator_initialize_arguments_html"><div class="ttname"><a href="struct_acts_1_1_navigator_initialize_arguments.html">Acts::NavigatorInitializeArguments</a></div><div class="ttdoc">Per-run inputs to the navigator initialization.</div><div class="ttdef"><b>Definition</b> NavigatorInitializeArguments.hpp:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

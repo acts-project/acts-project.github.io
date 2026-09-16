@@ -15,7 +15,7 @@ var class_acts_1_1_navigator =
     [ "currentVolumeMaterial", "class_acts_1_1_navigator.html#a8871dbc07e018a7457c72e2c15f3cdeb", null ],
     [ "endOfWorldReached", "class_acts_1_1_navigator.html#a46fb5f073d623e4f60535db2f0ea2e15", null ],
     [ "handleSurfaceReached", "class_acts_1_1_navigator.html#af412c4c5f28367a8d749ed312c6c2a91", null ],
-    [ "initialize", "class_acts_1_1_navigator.html#a8b9e4d4c57cb27a037e5f09bff21e7bc", null ],
+    [ "initialize", "class_acts_1_1_navigator.html#a26f4d1f6e9361953c99a0a6dedcf6f3b", null ],
     [ "makeState", "class_acts_1_1_navigator.html#a6e93e59bc32e6d10abf17e202d5a62d6", null ],
     [ "navigationBreak", "class_acts_1_1_navigator.html#a29861e95b2f6542f6a1c0ce196777069", null ],
     [ "nextTarget", "class_acts_1_1_navigator.html#a84f17ec872df4b6f17bf0a92a47f6f06", null ],

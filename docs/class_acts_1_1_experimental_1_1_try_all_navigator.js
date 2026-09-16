@@ -10,7 +10,7 @@ var class_acts_1_1_experimental_1_1_try_all_navigator =
     [ "currentVolumeMaterial", "class_acts_1_1_experimental_1_1_try_all_navigator.html#ada889b48d2318994a1345f15b76079bc", null ],
     [ "endOfWorldReached", "class_acts_1_1_experimental_1_1_try_all_navigator.html#a934fc271e56961e98ca8f6dcc013fe00", null ],
     [ "handleSurfaceReached", "class_acts_1_1_experimental_1_1_try_all_navigator.html#a529378d8743decac6f8dede649037ae3", null ],
-    [ "initialize", "class_acts_1_1_experimental_1_1_try_all_navigator.html#a382eb19e6ecb6af6b482a1e704ec58c4", null ],
+    [ "initialize", "class_acts_1_1_experimental_1_1_try_all_navigator.html#ae17b91cf4558bc5cbdca9a437ed715dd", null ],
     [ "makeState", "class_acts_1_1_experimental_1_1_try_all_navigator.html#ab25402431aa9913d0121c89dc09dc2ad", null ],
     [ "navigationBreak", "class_acts_1_1_experimental_1_1_try_all_navigator.html#a185e36a59ca72566160edb1803f2f705", null ],
     [ "nextTarget", "class_acts_1_1_experimental_1_1_try_all_navigator.html#ab884419dacc24fb1a9cc1561538823b3", null ],

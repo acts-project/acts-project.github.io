@@ -1,7 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa3adaf8796b5d831f9f3f2c573a8e857":[5,9,1,2,6],
-"struct_acts_1_1_combinatorial_kalman_filter_extensions.html#abafe3e6de91d870ebc61bdadf9f21eef":[5,9,1,2,7],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad166d69c9bee6f5fd6bcf225f76dfdd7":[5,9,1,2,10],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad40712b45ff99e35b5fa01a8cfa1b7b2":[5,9,1,2,2],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ae6df1e2ef73946c24aba2b1b07b3a966":[5,9,1,2,9],
@@ -213,8 +211,8 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_direct_navigator_1_1_state.html#a08725557da53524ee8bad62576bc8603":[8,0,0,125,2,6],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a0f6cb14cb1b1568a9443a6cb55671a78":[6,0,0,120,2,2],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a0f6cb14cb1b1568a9443a6cb55671a78":[8,0,0,125,2,2],
-"struct_acts_1_1_direct_navigator_1_1_state.html#a155c3085b693d4a2dbfa0635f2ef7508":[6,0,0,120,2,10],
-"struct_acts_1_1_direct_navigator_1_1_state.html#a155c3085b693d4a2dbfa0635f2ef7508":[8,0,0,125,2,10],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a155c3085b693d4a2dbfa0635f2ef7508":[6,0,0,120,2,11],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a155c3085b693d4a2dbfa0635f2ef7508":[8,0,0,125,2,11],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a1f91dca729053bca91363891b03b3bef":[6,0,0,120,2,9],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a1f91dca729053bca91363891b03b3bef":[8,0,0,125,2,9],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a42079388f1978c38fcf99ace31050ef4":[6,0,0,120,2,8],
@@ -223,12 +221,16 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_direct_navigator_1_1_state.html#a4264eef7e2e3d6eb7c27404a07aeed55":[8,0,0,125,2,0],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a49101ea64a1b9ab19b18c3001960c5d0":[6,0,0,120,2,1],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a49101ea64a1b9ab19b18c3001960c5d0":[8,0,0,125,2,1],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a4b1eb10c6fe1e86e409b6b4c080955e5":[6,0,0,120,2,13],
+"struct_acts_1_1_direct_navigator_1_1_state.html#a4b1eb10c6fe1e86e409b6b4c080955e5":[8,0,0,125,2,13],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a568e1413c197ab59f3cb212dd7dee7ea":[6,0,0,120,2,3],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a568e1413c197ab59f3cb212dd7dee7ea":[8,0,0,125,2,3],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a84146a48325786d2ed53644967e038c6":[6,0,0,120,2,7],
 "struct_acts_1_1_direct_navigator_1_1_state.html#a84146a48325786d2ed53644967e038c6":[8,0,0,125,2,7],
-"struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05":[6,0,0,120,2,11],
-"struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05":[8,0,0,125,2,11],
+"struct_acts_1_1_direct_navigator_1_1_state.html#ab2cf133b0d4dcfaf4c5ac30fb73357e4":[6,0,0,120,2,10],
+"struct_acts_1_1_direct_navigator_1_1_state.html#ab2cf133b0d4dcfaf4c5ac30fb73357e4":[8,0,0,125,2,10],
+"struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05":[6,0,0,120,2,12],
+"struct_acts_1_1_direct_navigator_1_1_state.html#ab9a8f3b0dd06d609a03af23726821e05":[8,0,0,125,2,12],
 "struct_acts_1_1_direct_navigator_1_1_state.html#ac1fb35706f854ad011830afbff7e3b6c":[6,0,0,120,2,5],
 "struct_acts_1_1_direct_navigator_1_1_state.html#ac1fb35706f854ad011830afbff7e3b6c":[8,0,0,125,2,5],
 "struct_acts_1_1_direct_navigator_1_1_state.html#ac6a229aacc01ee409f11697ca3133be4":[6,0,0,120,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_directed_proto_axis.html#a8267d75261e3b2c23a27b660ffbd0a9a":[8,0,0,123,1],
 "struct_acts_1_1_directed_proto_axis.html#a93095de3fd988043ef129f5cdfebc4f6":[6,0,0,118,5],
 "struct_acts_1_1_directed_proto_axis.html#a93095de3fd988043ef129f5cdfebc4f6":[8,0,0,123,5],
-"struct_acts_1_1_doublet_seed_finder_1_1_config.html":[6,0,0,126,0],
-"struct_acts_1_1_doublet_seed_finder_1_1_config.html":[8,0,0,131,0],
-"struct_acts_1_1_doublet_seed_finder_1_1_config.html#a15d5eb4a43f62109712fd4895bad1bce":[6,0,0,126,0,6]
+"struct_acts_1_1_doublet_seed_finder_1_1_config.html":[6,0,0,126,0]
 };

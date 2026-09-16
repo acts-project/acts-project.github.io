@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Plain navigator options carrying geometry context and surfaces.">
+<g id="a_Node000001"><a xlink:title="Plain navigator options carrying geometry context and navigation settings.">
 <polygon fill="#999999" stroke="#666666" points="153,-88.5 0,-88.5 0,-69.5 153,-69.5 153,-88.5"/>
 <text text-anchor="middle" x="76.5" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::NavigatorPlainOptions</text>
 </a>

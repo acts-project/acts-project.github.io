@@ -9,7 +9,7 @@ var class_acts_1_1_void_navigator =
     [ "currentVolumeMaterial", "class_acts_1_1_void_navigator.html#a515498024f9adc6f73697631fe170142", null ],
     [ "endOfWorldReached", "class_acts_1_1_void_navigator.html#ad355644cf669286f0c36868f56e081ae", null ],
     [ "handleSurfaceReached", "class_acts_1_1_void_navigator.html#ae406878ba54bbfb91cb44c1bf6d33d88", null ],
-    [ "initialize", "class_acts_1_1_void_navigator.html#a0f1f8538d7ca620c54dabe4988967b56", null ],
+    [ "initialize", "class_acts_1_1_void_navigator.html#a22b61de7229a7d22d5d517f53072bf5c", null ],
     [ "makeState", "class_acts_1_1_void_navigator.html#a0ed69c256877b9b7da6d57a8ea62b8bd", null ],
     [ "navigationBreak", "class_acts_1_1_void_navigator.html#a827a2c224d520591cd97b03d40fd38f2", null ],
     [ "nextTarget", "class_acts_1_1_void_navigator.html#a243545b8eca2d07fb21810ac14215957", null ],

@@ -249,5 +249,5 @@ var NAVTREEINDEX9 =
 "class_acts_1_1_diamond_volume_bounds.html#afd87592f0b81c946757cd6f4fea0232c":[8,0,0,122,13],
 "class_acts_1_1_direct_navigator.html":[6,0,0,120],
 "class_acts_1_1_direct_navigator.html":[8,0,0,125],
-"class_acts_1_1_direct_navigator.html#a41d8e7d21a3aa42c97feb5551ca6e67a":[6,0,0,120,7]
+"class_acts_1_1_direct_navigator.html#a25b4d027d6d85dcd6b7797f61e05e7f8":[6,0,0,120,10]
 };

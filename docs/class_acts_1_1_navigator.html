@@ -175,8 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a46fb5f073d623e4f60535db2f0ea2e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if navigation has reached the end of the world (no current volume).  <br /></td></tr>
 <tr class="memitem:af412c4c5f28367a8d749ed312c6c2a91" id="r_af412c4c5f28367a8d749ed312c6c2a91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af412c4c5f28367a8d749ed312c6c2a91">handleSurfaceReached</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
 <tr class="memdesc:af412c4c5f28367a8d749ed312c6c2a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the surface reached.  <br /></td></tr>
-<tr class="memitem:a8b9e4d4c57cb27a037e5f09bff21e7bc" id="r_a8b9e4d4c57cb27a037e5f09bff21e7bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b9e4d4c57cb27a037e5f09bff21e7bc">initialize</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;position, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, <a class="el" href="class_acts_1_1_direction.html">Direction</a> propagationDirection) const</td></tr>
-<tr class="memdesc:a8b9e4d4c57cb27a037e5f09bff21e7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the navigator state.  <br /></td></tr>
+<tr class="memitem:a26f4d1f6e9361953c99a0a6dedcf6f3b" id="r_a26f4d1f6e9361953c99a0a6dedcf6f3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26f4d1f6e9361953c99a0a6dedcf6f3b">initialize</a> (<a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state, const <a class="el" href="struct_acts_1_1_navigator_initialize_arguments.html">NavigatorInitializeArguments</a> &amp;args) const</td></tr>
+<tr class="memdesc:a26f4d1f6e9361953c99a0a6dedcf6f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the navigator state.  <br /></td></tr>
 <tr class="memitem:a6e93e59bc32e6d10abf17e202d5a62d6" id="r_a6e93e59bc32e6d10abf17e202d5a62d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e93e59bc32e6d10abf17e202d5a62d6">makeState</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_options.html">Options</a> &amp;options) const</td></tr>
 <tr class="memdesc:a6e93e59bc32e6d10abf17e202d5a62d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a navigation state from options.  <br /></td></tr>
 <tr class="memitem:a29861e95b2f6542f6a1c0ce196777069" id="r_a29861e95b2f6542f6a1c0ce196777069"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29861e95b2f6542f6a1c0ce196777069">navigationBreak</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_state.html">State</a> &amp;state) const</td></tr>
@@ -455,8 +455,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b9e4d4c57cb27a037e5f09bff21e7bc" name="a8b9e4d4c57cb27a037e5f09bff21e7bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b9e4d4c57cb27a037e5f09bff21e7bc">&#9670;&#160;</a></span>initialize()</h2>
+<a id="a26f4d1f6e9361953c99a0a6dedcf6f3b" name="a26f4d1f6e9361953c99a0a6dedcf6f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f4d1f6e9361953c99a0a6dedcf6f3b">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,17 +472,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_acts_1_1_direction.html">Direction</a></td>          <td class="paramname"><span class="paramname"><em>propagationDirection</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_navigator_initialize_arguments.html">NavigatorInitializeArguments</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -493,13 +483,11 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialize the navigator state. </p>
-<p>This function initializes the navigator state for a new propagation.</p>
+<p>This function initializes the navigator state for a new propagation. All inputs specific to this run are passed here, so a state can be reused without carrying anything over.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>The navigation state </td></tr>
-    <tr><td class="paramname">position</td><td>The start position </td></tr>
-    <tr><td class="paramname">direction</td><td>The start direction </td></tr>
-    <tr><td class="paramname">propagationDirection</td><td>The propagation direction</td></tr>
+    <tr><td class="paramname">args</td><td>The initialization arguments of this navigation run</td></tr>
   </table>
   </dd>
 </dl>

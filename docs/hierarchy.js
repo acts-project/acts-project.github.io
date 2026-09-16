@@ -643,6 +643,7 @@ var hierarchy =
     [ "Acts::Navigator", "class_acts_1_1_navigator.html", null ],
     [ "Acts::Navigator::Config", "struct_acts_1_1_navigator_1_1_config.html", null ],
     [ "Acts::Navigator::State", "struct_acts_1_1_navigator_1_1_state.html", null ],
+    [ "Acts::NavigatorInitializeArguments", "struct_acts_1_1_navigator_initialize_arguments.html", null ],
     [ "Acts::NavigatorPlainOptions", "struct_acts_1_1_navigator_plain_options.html", [
       [ "Acts::DirectNavigator::Options", "struct_acts_1_1_direct_navigator_1_1_options.html", null ],
       [ "Acts::Experimental::TryAllNavigator::Options", "struct_acts_1_1_experimental_1_1_try_all_navigator_1_1_options.html", null ],
@@ -652,6 +653,7 @@ var hierarchy =
     [ "Acts::NavigatorStatistics", "struct_acts_1_1_navigator_statistics.html", null ],
     [ "Acts::NeighborHoodIndices", "class_acts_1_1_neighbor_hood_indices.html", null ],
     [ "Acts::NeighborHoodIndices::iterator", "class_acts_1_1_neighbor_hood_indices_1_1iterator.html", null ],
+    [ "Acts::NoTargetAborter", "struct_acts_1_1_no_target_aborter.html", null ],
     [ "Acts::NullBField::Cache", "struct_acts_1_1_null_b_field_1_1_cache.html", null ],
     [ "Acts::NumericalTrackLinearizer", "class_acts_1_1_numerical_track_linearizer.html", null ],
     [ "Acts::NumericalTrackLinearizer::Config", "struct_acts_1_1_numerical_track_linearizer_1_1_config.html", null ],
