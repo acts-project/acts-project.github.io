@@ -146,8 +146,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>absDeltaEtaMinImpact
 <tr class="memitem:a331e3803f3868ef089c25944ca3d75c2" id="r_a331e3803f3868ef089c25944ca3d75c2"><td class="memItemLeft" align="right" valign="top"><a id="a331e3803f3868ef089c25944ca3d75c2" name="a331e3803f3868ef089c25944ca3d75c2"></a>
 <a class="el" href="struct_acts_1_1_seed_confirmation_range_config.html">SeedConfirmationRangeConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>centralSeedConfirmationRange</b></td></tr>
 <tr class="memdesc:a331e3803f3868ef089c25944ca3d75c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains parameters for central seed confirmation. <br /></td></tr>
-<tr class="memitem:a983d0053697fd28d1664103fd34476bd" id="r_a983d0053697fd28d1664103fd34476bd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983d0053697fd28d1664103fd34476bd">compatSeedLimit</a> = 2</td></tr>
-<tr class="memdesc:a983d0053697fd28d1664103fd34476bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum limit to number of compatible space-point used in score calculation.  <br /></td></tr>
+<tr class="memitem:acd4f816bf4d9dfd0c302bb62affea0ab" id="r_acd4f816bf4d9dfd0c302bb62affea0ab"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd4f816bf4d9dfd0c302bb62affea0ab">compatSeedLimit</a> = 2</td></tr>
+<tr class="memdesc:acd4f816bf4d9dfd0c302bb62affea0ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum limit to number of compatible space-point used in score calculation.  <br /></td></tr>
 <tr class="memitem:abd7658d1bec6f517cb1d73bee43cbbf4" id="r_abd7658d1bec6f517cb1d73bee43cbbf4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd7658d1bec6f517cb1d73bee43cbbf4">compatSeedWeight</a> = 200</td></tr>
 <tr class="memdesc:abd7658d1bec6f517cb1d73bee43cbbf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed weight/score is increased by this value if a compatible seed has been found.  <br /></td></tr>
 <tr class="memitem:a7a180cee914f720e175976e90e15f5c5" id="r_a7a180cee914f720e175976e90e15f5c5"><td class="memItemLeft" align="right" valign="top"><a id="a7a180cee914f720e175976e90e15f5c5" name="a7a180cee914f720e175976e90e15f5c5"></a>
@@ -165,9 +165,9 @@ std::shared_ptr&lt; <a class="el" href="class_acts_1_1_i_triplet_seed_cuts.html"
 <tr class="memdesc:a1d75af6861980823b05b8194f97a2de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transverse impact parameters (d0) is multiplied by this factor and subtracted from weight.  <br /></td></tr>
 <tr class="memitem:a5f847b6a22bab101edf03dfbba18b4ba" id="r_a5f847b6a22bab101edf03dfbba18b4ba"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f847b6a22bab101edf03dfbba18b4ba">maxQualitySeedsPerSpMConf</a> = 5</td></tr>
 <tr class="memdesc:a5f847b6a22bab101edf03dfbba18b4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of "high-quality" seeds for each inner-middle SP-dublet in seed confirmation.  <br /></td></tr>
-<tr class="memitem:a749bba795ea434c565b220f017438bf1" id="r_a749bba795ea434c565b220f017438bf1"><td class="memItemLeft" align="right" valign="top"><a id="a749bba795ea434c565b220f017438bf1" name="a749bba795ea434c565b220f017438bf1"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>maxSeedsPerSpM</b> = 5</td></tr>
-<tr class="memdesc:a749bba795ea434c565b220f017438bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number (minus one) of accepted seeds per middle space-point In dense environments many seeds may be found per middle space-point Only seeds with the highest weight will be kept if this limit is reached. <br /></td></tr>
+<tr class="memitem:a2623c7e6966a9281563f95d9f5928e88" id="r_a2623c7e6966a9281563f95d9f5928e88"><td class="memItemLeft" align="right" valign="top"><a id="a2623c7e6966a9281563f95d9f5928e88" name="a2623c7e6966a9281563f95d9f5928e88"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxSeedsPerSpM</b> = 5</td></tr>
+<tr class="memdesc:a2623c7e6966a9281563f95d9f5928e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number (minus one) of accepted seeds per middle space-point In dense environments many seeds may be found per middle space-point Only seeds with the highest weight will be kept if this limit is reached. <br /></td></tr>
 <tr class="memitem:a6fcb592fd3fa2a7b752606b049b6969a" id="r_a6fcb592fd3fa2a7b752606b049b6969a"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fcb592fd3fa2a7b752606b049b6969a">maxSeedsPerSpMConf</a> = 5</td></tr>
 <tr class="memdesc:a6fcb592fd3fa2a7b752606b049b6969a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If seedConfirmation is true we classify seeds as "high-quality" seeds.  <br /></td></tr>
 <tr class="memitem:a02adf6d7dd0afda49534ba900f55dc9a" id="r_a02adf6d7dd0afda49534ba900f55dc9a"><td class="memItemLeft" align="right" valign="top"><a id="a02adf6d7dd0afda49534ba900f55dc9a" name="a02adf6d7dd0afda49534ba900f55dc9a"></a>
@@ -204,14 +204,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>useDeltaRinsteadOfTop
 
 </div>
 </div>
-<a id="a983d0053697fd28d1664103fd34476bd" name="a983d0053697fd28d1664103fd34476bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a983d0053697fd28d1664103fd34476bd">&#9670;&#160;</a></span>compatSeedLimit</h2>
+<a id="acd4f816bf4d9dfd0c302bb62affea0ab" name="acd4f816bf4d9dfd0c302bb62affea0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4f816bf4d9dfd0c302bb62affea0ab">&#9670;&#160;</a></span>compatSeedLimit</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t Acts::BroadTripletSeedFilter::Config::compatSeedLimit = 2</td>
+          <td class="memname">std::uint32_t Acts::BroadTripletSeedFilter::Config::compatSeedLimit = 2</td>
         </tr>
       </table>
 </div><div class="memdoc">

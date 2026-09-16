@@ -167,7 +167,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9da34f9c43cbe7a354953479c6f5566f" id="r_a9da34f9c43cbe7a354953479c6f5566f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9da34f9c43cbe7a354953479c6f5566f">binIndex</a> (float x, float y, float z) const</td></tr>
 <tr class="memdesc:a9da34f9c43cbe7a354953479c6f5566f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bin index for a space point given its x-, y-, and z-coordinate.  <br /></td></tr>
 <tr class="memitem:a2379bfefb120c103f2dac5e702558aab" id="r_a2379bfefb120c103f2dac5e702558aab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a81478db625a7b35501d5f651f5d1d4fd">Range1D</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2379bfefb120c103f2dac5e702558aab">computeCoordRange</a> (const <a class="el" href="class_acts_1_1_space_point_container.html">SpacePointContainer</a> &amp;spacePoints) const</td></tr>
-<tr class="memdesc:a2379bfefb120c103f2dac5e702558aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the range of the sorting coordinates in the grid.  <br /></td></tr>
+<tr class="memdesc:a2379bfefb120c103f2dac5e702558aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the range of the sort keys in the grid.  <br /></td></tr>
 <tr class="memitem:a2cdf9789800c5048771448c1c62c2997" id="r_a2cdf9789800c5048771448c1c62c2997"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cdf9789800c5048771448c1c62c2997">insert</a> (const <a class="el" href="namespace_acts.html#a0b5d5289a17774b538065a6588000743">ConstSpacePointProxy</a> &amp;sp)</td></tr>
 <tr class="memdesc:a2cdf9789800c5048771448c1c62c2997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a space point into the grid.  <br /></td></tr>
 <tr class="memitem:ae65ac3f89bc8cc3a312062ed40afd7ef" id="r_ae65ac3f89bc8cc3a312062ed40afd7ef"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65ac3f89bc8cc3a312062ed40afd7ef">insert</a> (<a class="el" href="namespace_acts.html#a22317e6b568d121dd169e79bec0bff8c">SpacePointIndex</a> index, float x, float y, float z)</td></tr>
@@ -289,14 +289,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute the range of the sorting coordinates in the grid. </p>
-<p>This requires the grid to be filled with space points and sorted by coordinate. The sorting can be done with the <span class="tt">sortBinsByCoord</span> method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Compute the range of the sort keys in the grid. </p>
+<p>The key is the sorting coordinate multiplied by <span class="tt">sortingDirection</span>, so for a negative sorting direction the range is the negated coordinate range. This requires the grid to be filled with space points and sorted by coordinate. The sorting can be done with the <span class="tt">sortBinsByCoord</span> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">spacePoints</td><td>The space point container to compute the coordinate range </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The range of sorting-coordinate values in the grid </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The range of sort keys in the grid </dd></dl>
 
 </div>
 </div>

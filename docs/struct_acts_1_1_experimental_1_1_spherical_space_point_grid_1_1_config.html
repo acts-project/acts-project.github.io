@@ -133,7 +133,7 @@ $(function(){initNavTree('struct_acts_1_1_experimental_1_1_spherical_space_point
 <div class="dynheader">
 Collaboration diagram for Acts::Experimental::SphericalSpacePointGrid::Config:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config__coll__graph.svg" width="399" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_experimental_1_1_spherical_space_point_grid_1_1_config__coll__graph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -141,18 +141,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aad4d9f3bd4a8af91ed64eda446426f19" id="r_aad4d9f3bd4a8af91ed64eda446426f19"><td class="memItemLeft" align="right" valign="top"><a id="aad4d9f3bd4a8af91ed64eda446426f19" name="aad4d9f3bd4a8af91ed64eda446426f19"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>bFieldInZ</b> = 0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#ae1a6a8868aedfe9a2fa3c3d6d0fae230">UnitConstants::T</a></td></tr>
 <tr class="memdesc:aad4d9f3bd4a8af91ed64eda446426f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">magnetic field <br /></td></tr>
-<tr class="memitem:a09821c19ad508692945789c59f81a79d" id="r_a09821c19ad508692945789c59f81a79d"><td class="memItemLeft" align="right" valign="top"><a id="a09821c19ad508692945789c59f81a79d" name="a09821c19ad508692945789c59f81a79d"></a>
-std::optional&lt; <a class="el" href="class_acts_1_1_grid_bin_finder.html">GridBinFinder</a>&lt; 3ul &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bottomBinFinder</b></td></tr>
-<tr class="memdesc:a09821c19ad508692945789c59f81a79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">bin finder for bottom space points <br /></td></tr>
-<tr class="memitem:a1b5a97905015173044b642d040e18681" id="r_a1b5a97905015173044b642d040e18681"><td class="memItemLeft" align="right" valign="top"><a id="a1b5a97905015173044b642d040e18681" name="a1b5a97905015173044b642d040e18681"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaEtaMax</b> = 0.8</td></tr>
-<tr class="memdesc:a1b5a97905015173044b642d040e18681"><td class="mdescLeft">&#160;</td><td class="mdescRight">width of the equidistant eta bins used when <span class="tt">etaBinEdges</span> is empty <br /></td></tr>
+<tr class="memitem:afef99e6ea006dc83206b70d7e65739b6" id="r_afef99e6ea006dc83206b70d7e65739b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_grid_bin_finder.html">GridBinFinder</a>&lt; GridType::DIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afef99e6ea006dc83206b70d7e65739b6">bottomBinFinder</a> {1, 1, 0}</td></tr>
+<tr class="memdesc:afef99e6ea006dc83206b70d7e65739b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">bin finder for bottom space points.  <br /></td></tr>
 <tr class="memitem:ac33741bb0eedf4737e3a5a0a5e2e19bb" id="r_ac33741bb0eedf4737e3a5a0a5e2e19bb"><td class="memItemLeft" align="right" valign="top"><a id="ac33741bb0eedf4737e3a5a0a5e2e19bb" name="ac33741bb0eedf4737e3a5a0a5e2e19bb"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaRMax</b> = 270 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:ac33741bb0eedf4737e3a5a0a5e2e19bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance in r from middle space point to bottom or top space point <br /></td></tr>
 <tr class="memitem:ae00c4677af81ed14389ae2894e9995be" id="r_ae00c4677af81ed14389ae2894e9995be"><td class="memItemLeft" align="right" valign="top"><a id="ae00c4677af81ed14389ae2894e9995be" name="ae00c4677af81ed14389ae2894e9995be"></a>
 std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>etaBinEdges</b> {}</td></tr>
 <tr class="memdesc:ae00c4677af81ed14389ae2894e9995be"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable non equidistant binning in eta (edges given in pseudorapidity; mapped to cot(theta) = sinh(eta) internally) <br /></td></tr>
+<tr class="memitem:a24d19a1426d27ab7b62481595e29edf2" id="r_a24d19a1426d27ab7b62481595e29edf2"><td class="memItemLeft" align="right" valign="top"><a id="a24d19a1426d27ab7b62481595e29edf2" name="a24d19a1426d27ab7b62481595e29edf2"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>etaBinSize</b> = 0.8f</td></tr>
+<tr class="memdesc:a24d19a1426d27ab7b62481595e29edf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">width of the equidistant eta bins used when <span class="tt">etaBinEdges</span> is empty <br /></td></tr>
 <tr class="memitem:af5c2cb158f2495b190fd503cd29f0532" id="r_af5c2cb158f2495b190fd503cd29f0532"><td class="memItemLeft" align="right" valign="top"><a id="af5c2cb158f2495b190fd503cd29f0532" name="af5c2cb158f2495b190fd503cd29f0532"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>etaMax</b> = 4</td></tr>
 <tr class="memdesc:af5c2cb158f2495b190fd503cd29f0532"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum pseudorapidity relevant for seeding <br /></td></tr>
@@ -162,17 +161,17 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>etaMin</b> = -4</td>
 <tr class="memitem:a8ba5beaaee49a85b0f9a60152c8fbd5f" id="r_a8ba5beaaee49a85b0f9a60152c8fbd5f"><td class="memItemLeft" align="right" valign="top"><a id="a8ba5beaaee49a85b0f9a60152c8fbd5f" name="a8ba5beaaee49a85b0f9a60152c8fbd5f"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>impactMax</b> = 0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:a8ba5beaaee49a85b0f9a60152c8fbd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum impact parameter in mm <br /></td></tr>
-<tr class="memitem:addaf20094b7edafe674366c8f98df732" id="r_addaf20094b7edafe674366c8f98df732"><td class="memItemLeft" align="right" valign="top"><a id="addaf20094b7edafe674366c8f98df732" name="addaf20094b7edafe674366c8f98df732"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>maxPhiBins</b> = 10000</td></tr>
-<tr class="memdesc:addaf20094b7edafe674366c8f98df732"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum number of phi bins <br /></td></tr>
+<tr class="memitem:ac320503665ad11554c0e7e55ad8db101" id="r_ac320503665ad11554c0e7e55ad8db101"><td class="memItemLeft" align="right" valign="top"><a id="ac320503665ad11554c0e7e55ad8db101" name="ac320503665ad11554c0e7e55ad8db101"></a>
+std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPhiBins</b> = 10000</td></tr>
+<tr class="memdesc:ac320503665ad11554c0e7e55ad8db101"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum number of phi bins <br /></td></tr>
 <tr class="memitem:ab2f72b41da3a90401835db124627e81f" id="r_ab2f72b41da3a90401835db124627e81f"><td class="memItemLeft" align="right" valign="top"><a id="ab2f72b41da3a90401835db124627e81f" name="ab2f72b41da3a90401835db124627e81f"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>minPt</b> = 0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#aa9c5856d1aeb24b113eb4eb6907b1bab">UnitConstants::MeV</a></td></tr>
 <tr class="memdesc:ab2f72b41da3a90401835db124627e81f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum pT <br /></td></tr>
-<tr class="memitem:a2181b6686b7a6a1d79fd62845f55a7d7" id="r_a2181b6686b7a6a1d79fd62845f55a7d7"><td class="memItemLeft" align="right" valign="top"><a id="a2181b6686b7a6a1d79fd62845f55a7d7" name="a2181b6686b7a6a1d79fd62845f55a7d7"></a>
-std::array&lt; std::vector&lt; std::size_t &gt;, 3ul &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>navigation</b></td></tr>
-<tr class="memdesc:a2181b6686b7a6a1d79fd62845f55a7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">navigation structure for the grid <br /></td></tr>
-<tr class="memitem:aa0c8991658ae59fcb094cba7f6845a35" id="r_aa0c8991658ae59fcb094cba7f6845a35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c8991658ae59fcb094cba7f6845a35">phiBinDeflectionCoverage</a> = 1</td></tr>
-<tr class="memdesc:aa0c8991658ae59fcb094cba7f6845a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplicator for the number of phi-bins.  <br /></td></tr>
+<tr class="memitem:aa31d0442637c12234d86f962ee247925" id="r_aa31d0442637c12234d86f962ee247925"><td class="memItemLeft" align="right" valign="top"><a id="aa31d0442637c12234d86f962ee247925" name="aa31d0442637c12234d86f962ee247925"></a>
+std::array&lt; std::vector&lt; std::size_t &gt;, GridType::DIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>navigation</b></td></tr>
+<tr class="memdesc:aa31d0442637c12234d86f962ee247925"><td class="mdescLeft">&#160;</td><td class="mdescRight">navigation structure for the grid <br /></td></tr>
+<tr class="memitem:a3afd521b4d1559675950b7cac149e395" id="r_a3afd521b4d1559675950b7cac149e395"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3afd521b4d1559675950b7cac149e395">phiBinDeflectionCoverage</a> = 1</td></tr>
+<tr class="memdesc:a3afd521b4d1559675950b7cac149e395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplicator for the number of phi-bins.  <br /></td></tr>
 <tr class="memitem:ad0362df3ec427237e4a9f9d31e0052a5" id="r_ad0362df3ec427237e4a9f9d31e0052a5"><td class="memItemLeft" align="right" valign="top"><a id="ad0362df3ec427237e4a9f9d31e0052a5" name="ad0362df3ec427237e4a9f9d31e0052a5"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>phiMax</b> = std::numbers::pi_v&lt;float&gt;</td></tr>
 <tr class="memdesc:ad0362df3ec427237e4a9f9d31e0052a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum phi value for phiAxis construction <br /></td></tr>
@@ -186,21 +185,37 @@ std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 <tr class="memdesc:a04b0e2e59d1a0e1e2a0fe42c0acb03b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum extension of sensitive detector layer relevant for seeding as distance from x=y=0 (i.e.  <br /></td></tr>
 <tr class="memitem:adfb6de83e8b2f4f80124631bb245730f" id="r_adfb6de83e8b2f4f80124631bb245730f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfb6de83e8b2f4f80124631bb245730f">rMin</a> = 0 * <a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">UnitConstants::mm</a></td></tr>
 <tr class="memdesc:adfb6de83e8b2f4f80124631bb245730f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum extension of sensitive detector layer relevant for seeding as distance from x=y=0 (i.e.  <br /></td></tr>
-<tr class="memitem:aea35e39f6f2fd961f092a203fbda979e" id="r_aea35e39f6f2fd961f092a203fbda979e"><td class="memItemLeft" align="right" valign="top"><a id="aea35e39f6f2fd961f092a203fbda979e" name="aea35e39f6f2fd961f092a203fbda979e"></a>
-std::optional&lt; <a class="el" href="class_acts_1_1_grid_bin_finder.html">GridBinFinder</a>&lt; 3ul &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>topBinFinder</b></td></tr>
-<tr class="memdesc:aea35e39f6f2fd961f092a203fbda979e"><td class="mdescLeft">&#160;</td><td class="mdescRight">bin finder for top space points <br /></td></tr>
+<tr class="memitem:a9b3294dad5e48bbb56ab5677c68b1eb3" id="r_a9b3294dad5e48bbb56ab5677c68b1eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_grid_bin_finder.html">GridBinFinder</a>&lt; GridType::DIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3294dad5e48bbb56ab5677c68b1eb3">topBinFinder</a> {1, 1, 0}</td></tr>
+<tr class="memdesc:a9b3294dad5e48bbb56ab5677c68b1eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">bin finder for top space points.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration parameters for the spherical space point grid. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aa0c8991658ae59fcb094cba7f6845a35" name="aa0c8991658ae59fcb094cba7f6845a35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0c8991658ae59fcb094cba7f6845a35">&#9670;&#160;</a></span>phiBinDeflectionCoverage</h2>
+<a id="afef99e6ea006dc83206b70d7e65739b6" name="afef99e6ea006dc83206b70d7e65739b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afef99e6ea006dc83206b70d7e65739b6">&#9670;&#160;</a></span>bottomBinFinder</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Acts::Experimental::SphericalSpacePointGrid::Config::phiBinDeflectionCoverage = 1</td>
+          <td class="memname"><a class="el" href="class_acts_1_1_grid_bin_finder.html">GridBinFinder</a>&lt;GridType::DIM&gt; Acts::Experimental::SphericalSpacePointGrid::Config::bottomBinFinder {1, 1, 0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>bin finder for bottom space points. </p>
+<p>Defaults to the neighbouring bins in phi and eta, and the same bin in r. </p>
+
+</div>
+</div>
+<a id="a3afd521b4d1559675950b7cac149e395" name="a3afd521b4d1559675950b7cac149e395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afd521b4d1559675950b7cac149e395">&#9670;&#160;</a></span>phiBinDeflectionCoverage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t Acts::Experimental::SphericalSpacePointGrid::Config::phiBinDeflectionCoverage = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,6 +256,23 @@ std::optional&lt; <a class="el" href="class_acts_1_1_grid_bin_finder.html">GridB
 
 <p>minimum extension of sensitive detector layer relevant for seeding as distance from x=y=0 (i.e. </p>
 <p>in r) WARNING: if rMin is smaller than impactMax, the bin size will be 2*pi, which will make seeding very slow! </p>
+
+</div>
+</div>
+<a id="a9b3294dad5e48bbb56ab5677c68b1eb3" name="a9b3294dad5e48bbb56ab5677c68b1eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b3294dad5e48bbb56ab5677c68b1eb3">&#9670;&#160;</a></span>topBinFinder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_acts_1_1_grid_bin_finder.html">GridBinFinder</a>&lt;GridType::DIM&gt; Acts::Experimental::SphericalSpacePointGrid::Config::topBinFinder {1, 1, 0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>bin finder for top space points. </p>
+<p>Defaults to the neighbouring bins in phi and eta, and the same bin in r. </p>
 
 </div>
 </div>

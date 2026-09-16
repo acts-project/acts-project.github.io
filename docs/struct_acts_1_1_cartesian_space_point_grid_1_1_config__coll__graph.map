@@ -1,9 +1,13 @@
 <map id="Acts::CartesianSpacePointGrid::Config" name="Acts::CartesianSpacePointGrid::Config">
-<area shape="rect" id="Node000001" title="Configuration parameters for the cartesian space point grid." alt="" coords="105,232,297,272"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,121,173,161"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,171,142,206,172,230,169,234,138,210,108,174"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="28,5,151,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,45,92,121,87,121,87,45"/>
-<area shape="rect" id="Node000004" href="$class_acts_1_1_direction.html" title="The direction is always with respect to a given momentum, surface normal or other general axes." alt="" coords="197,129,315,154"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,168,213,233,208,231,242,165"/>
+<area shape="rect" id="Node000001" title="Configuration parameters for the cartesian space point grid." alt="" coords="691,93,883,133"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_grid_bin_finder.html" title=" " alt="" coords="361,11,507,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="521,48,701,91,700,96,520,53"/>
+<area shape="rect" id="Node000003" href="$class_acts_1_1_grid_bin_finder.html" title=" " alt="" coords="5,5,152,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,24,361,27,361,32,166,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="343,86,525,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="539,111,691,111,691,116,539,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="17,106,140,131"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="154,115,343,112,343,117,154,120"/>
+<area shape="rect" id="Node000006" href="$class_acts_1_1_direction.html" title="The direction is always with respect to a given momentum, surface normal or other general axes." alt="" coords="375,165,493,190"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="506,165,666,139,703,131,704,136,667,144,507,170"/>
 </map>

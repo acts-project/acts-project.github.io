@@ -1,11 +1,15 @@
 <map id="Acts::Experimental::SphericalSpacePointGrid::Config" name="Acts::Experimental::SphericalSpacePointGrid::Config">
-<area shape="rect" id="Node000001" title="Configuration parameters for the spherical space point grid." alt="" coords="78,252,267,307"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,129,156,154"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,165,132,226,151,250,147,253,128,230,90,167"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="16,5,145,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,44,83,129,78,129,78,44"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="181,121,349,161"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,175,222,230,202,253,198,250,217,226,248,173"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="203,5,326,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="267,45,267,121,262,121,262,45"/>
+<area shape="rect" id="Node000001" title="Configuration parameters for the spherical space point grid." alt="" coords="691,83,880,138"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="359,25,509,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,41,594,50,667,64,720,81,718,86,666,69,593,55,523,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,25,143,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,35,358,35,358,40,157,40"/>
+<area shape="rect" id="Node000004" href="$class_acts_1_1_grid_bin_finder.html" title=" " alt="" coords="361,80,507,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="522,105,549,107,690,109,690,114,549,112,521,110"/>
+<area shape="rect" id="Node000005" href="$class_acts_1_1_grid_bin_finder.html" title=" " alt="" coords="5,75,152,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="166,93,361,96,361,102,166,99"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="343,155,525,210"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="538,162,666,137,690,132,691,137,667,143,540,168"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="17,175,140,201"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="154,184,343,181,343,187,154,190"/>
 </map>
