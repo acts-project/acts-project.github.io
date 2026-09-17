@@ -460,6 +460,7 @@ var namespace_acts =
     [ "SurfaceCollector", "struct_acts_1_1_surface_collector.html", "struct_acts_1_1_surface_collector" ],
     [ "SurfaceHit", "struct_acts_1_1_surface_hit.html", "struct_acts_1_1_surface_hit" ],
     [ "SurfaceJsonConverter", "class_acts_1_1_surface_json_converter.html", "class_acts_1_1_surface_json_converter" ],
+    [ "SurfaceMaterialJsonConverter", "class_acts_1_1_surface_material_json_converter.html", "class_acts_1_1_surface_material_json_converter" ],
     [ "SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", "class_acts_1_1_surface_material_mapper" ],
     [ "SurfaceMergingException", "class_acts_1_1_surface_merging_exception.html", "class_acts_1_1_surface_merging_exception" ],
     [ "SurfacePlacementBase", "class_acts_1_1_surface_placement_base.html", "class_acts_1_1_surface_placement_base" ],

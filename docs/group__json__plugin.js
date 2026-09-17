@@ -78,6 +78,20 @@ var group__json__plugin =
       [ "transformOptions", "group__json__plugin.html#ga3d3080d8574d2f9098442b3670204a38", null ],
       [ "writeMaterial", "group__json__plugin.html#gaa37197f466651421892c0b9d6cc45920", null ]
     ] ],
+    [ "Acts::SurfaceMaterialJsonConverter", "class_acts_1_1_surface_material_json_converter.html", [
+      [ "Config", "struct_acts_1_1_surface_material_json_converter_1_1_config.html", [
+        [ "defaultConfig", "struct_acts_1_1_surface_material_json_converter_1_1_config.html#af055796674d6a4c92a9b30defbd48197", null ],
+        [ "decoder", "struct_acts_1_1_surface_material_json_converter_1_1_config.html#a26aeafcf731abf92f10e984ba444b629", null ],
+        [ "encoder", "struct_acts_1_1_surface_material_json_converter_1_1_config.html#a8c9fb18605d559a249262e2f1c8a865e", null ]
+      ] ],
+      [ "DecodeContext", "class_acts_1_1_surface_material_json_converter.html#a769c5fd89275584216ec249246f302ed", null ],
+      [ "Decoder", "class_acts_1_1_surface_material_json_converter.html#a1de6d6d876c578688485ddba98c7930e", null ],
+      [ "EncodeContext", "class_acts_1_1_surface_material_json_converter.html#aae015091e4ced787cb1f154c14d04bf0", null ],
+      [ "Encoder", "class_acts_1_1_surface_material_json_converter.html#abd600aac0ce6fd75c28147943e983858", null ],
+      [ "SurfaceMaterialJsonConverter", "class_acts_1_1_surface_material_json_converter.html#a8207fc6f7cad835dae349958b7b32536", null ],
+      [ "fromJson", "class_acts_1_1_surface_material_json_converter.html#a8e7a7959bc3e93ce8a66468852805b0e", null ],
+      [ "toJson", "class_acts_1_1_surface_material_json_converter.html#a8d3d85b857792b8b18bf5518d10c5890", null ]
+    ] ],
     [ "Acts::TrackingGeometryJsonConverter", "class_acts_1_1_tracking_geometry_json_converter.html", [
       [ "Config", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html", [
         [ "defaultConfig", "struct_acts_1_1_tracking_geometry_json_converter_1_1_config.html#a954282af7a8826f492b93cfd3c01d5d9", null ],

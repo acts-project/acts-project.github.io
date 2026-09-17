@@ -168,6 +168,8 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000039"></a>The broadly templated versions of estimateTrackParamsFromSeed will be removed in the future.  </dd>
 <dt>Member <a class="el" href="group__est__track__params.html#gaf5ba6469603e611d8a0171c51662809d">Acts::estimateTrackParamsFromSeed</a>  (const GeometryContext &amp;gctx, space_point_range_t spRange, const Surface &amp;surface, const Vector3 &amp;bField)</dt>
 <dd><a class="anchor" id="_deprecated000040"></a>The broadly templated versions of estimateTrackParamsFromSeed will be removed in the future.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#ga5468da799422d3b617d84b3b7731b1cf">Acts::from_json</a>  (const nlohmann::json &amp;j, surfaceMaterialPointer &amp;material)</dt>
+<dd><a class="anchor" id="_deprecated000104"></a>Use SurfaceMaterialJsonConverter::fromJson instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a1691927623860346e0e385eda2a41850">Acts::Grid&lt; T, Axes &gt;::axesTuple</a>  () const</dt>
 <dd><a class="anchor" id="_deprecated000075"></a>Use grid.multiAxis().getAxesTuple() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#ab13552870775039f9df525308cf9440b">Acts::Grid&lt; T, Axes &gt;::binCenter</a>  (const index_t &amp;localBins) const</dt>
@@ -245,9 +247,9 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Class <a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>  </dt>
 <dd><a class="anchor" id="_deprecated000080"></a>Use AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a>  (const nlohmann::json &amp;j)</dt>
-<dd><a class="anchor" id="_deprecated000104"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000106"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a>  (const ProtoAxis &amp;pa)</dt>
-<dd><a class="anchor" id="_deprecated000103"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000105"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_proto_surface_material_t.html#a86f4bbc50f2d11387937c9d36d04f418">Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;::materialSlab</a>  (const Vector3 &amp;) const final</dt>
 <dd><a class="anchor" id="_deprecated000032"></a>Use materialSlab(const Vector2&amp;) with a prior Surface::globalToLocal() call instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_surface_array.html#aa37d9e65ef078b639e52aa15f2367243">Acts::SurfaceArray::maxNeighborDistance</a>  () const</dt>
@@ -258,14 +260,16 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000033"></a>Use <a class="el" href="class_acts_1_1_material_mapper.html">Acts::MaterialMapper</a> instead, composed with an <a class="el" href="class_acts_1_1_i_assignment_finder.html">Acts::IAssignmentFinder</a> and an <a class="el" href="class_acts_1_1_i_surface_material_accumulator.html">Acts::ISurfaceMaterialAccumulator</a>. See <a class="el" href="group__material__mapping.html">Material mapping</a> for the current, navigation-independent procedure. </dd>
 <dt>Member <a class="el" href="class_acts_1_1_surface_material_mapper.html#a09d298a561aca82a92ff47fd1ad4b62b">Acts::SurfaceMaterialMapper::SurfaceMaterialMapper</a>  (const Config &amp;cfg, StraightLinePropagator propagator, std::unique_ptr&lt; const Logger &gt; slogger=getDefaultLogger("SurfaceMaterialMapper", Logging::INFO))</dt>
 <dd><a class="anchor" id="_deprecated000034"></a>Material mapping with propagation is deprecated. Use MaterialMapper instead.  </dd>
+<dt>Member <a class="el" href="group__json__plugin.html#gacf3669471f11a629a8de8cd7fd8b0579">Acts::to_json</a>  (nlohmann::json &amp;j, const surfaceMaterialPointer &amp;material)</dt>
+<dd><a class="anchor" id="_deprecated000103"></a>Use SurfaceMaterialJsonConverter::toJson instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a979cfe29b23d3fd512b78da0d364f9df">Acts::TrackingGeometry::lowestTrackingVolume</a>  (const GeometryContext &amp;gctx, const Vector3 &amp;gp) const</dt>
 <dd><a class="anchor" id="_deprecated000023"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry.html#a681abf860ea725fb6a96237af0ed56be">resolveLowestTrackingVolume</a> instead, which can resolve boundaries along a direction and reports failures instead of returning <span class="tt">nullptr</span>.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a637c481e57e710623adc80018f31738b">Acts::TrackingGeometry::visualize</a>  (IVisualization3D &amp;helper, const GeometryContext &amp;gctx, const ViewConfig &amp;viewConfig, const ViewConfig &amp;portalViewConfig, const ViewConfig &amp;sensitiveViewConfig) const</dt>
 <dd><a class="anchor" id="_deprecated000024"></a>Use the ViewConfigFunc overload instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#aa05519757f987018f8aca22fb4af23d7">Acts::TrackingGeometryJsonConverter::fromJson</a>  (const GeometryContext &amp;gctx, const std::filesystem::path &amp;jsonPath, const Options &amp;options=Options::defaultOptions()) const</dt>
-<dd><a class="anchor" id="_deprecated000105"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710">fromFile</a> instead. <span class="tt">fromJson</span> now takes an in-memory payload, matching every other converter in this plugin.  </dd>
+<dd><a class="anchor" id="_deprecated000107"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710">fromFile</a> instead. <span class="tt">fromJson</span> now takes an in-memory payload, matching every other converter in this plugin.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a2310d27e95d4380fa52e633608d177dd">Acts::TrackingGeometryJsonConverter::fromJsonPayload</a>  (const GeometryContext &amp;gctx, const nlohmann::json &amp;encoded, const Options &amp;options=Options::defaultOptions()) const</dt>
-<dd><a class="anchor" id="_deprecated000106"></a>Renamed to <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8">fromJson</a>, which now takes the payload.  </dd>
+<dd><a class="anchor" id="_deprecated000108"></a>Renamed to <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8">fromJson</a>, which now takes the payload.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_volume.html#aefd07dd4cfe34a337fd098bb5517fc5a">Acts::TrackingVolume::visualize</a>  (IVisualization3D &amp;helper, const GeometryContext &amp;gctx, const ViewConfig &amp;viewConfig, const ViewConfig &amp;portalViewConfig, const ViewConfig &amp;sensitiveViewConfig) const</dt>
 <dd><a class="anchor" id="_deprecated000025"></a>Use the ViewConfigFunc overload instead  </dd>
 <dt>Struct <a class="el" href="struct_acts_1_1_vertex_info.html">Acts::VertexInfo</a>  </dt>

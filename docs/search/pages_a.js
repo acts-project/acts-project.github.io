@@ -15,7 +15,7 @@ var searchData=
   ['fitting_12',['Track finding and track fitting',['../tracking.html#track-finding-and-track-fitting',1,'']]],
   ['for_20surfaces_20and_20sourcelinks_13',['Helper for &lt;span class=&quot;tt&quot;&gt;Surface&lt;/span&gt;s and &lt;span class=&quot;tt&quot;&gt;SourceLink&lt;/span&gt;s',['../group__eventdata__tracks.html#podio_helper',1,'']]],
   ['formalism_20and_20kalman_20track_20fitter_14',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
-  ['format_15',['C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;',['../formatting.html#autotoc_md92',1,'']]],
+  ['format_15',['format',['../formatting.html#autotoc_md92',1,'C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;'],['../material_map_json_format.html',1,'Material map JSON format']]],
   ['formation_16',['Space point formation',['../tracking.html#space-point-formation',1,'']]],
   ['formatting_17',['formatting',['../formatting.html#autotoc_md93',1,'Python formatting'],['../formatting.html',1,'Source code formatting']]],
   ['formatting_3a_20clang_20format_18',['C++ formatting: &lt;span class=&quot;tt&quot;&gt;clang-format&lt;/span&gt;',['../formatting.html#autotoc_md92',1,'']]],
@@ -25,5 +25,5 @@ var searchData=
   ['from_20scratch_22',['How to create a track from scratch',['../group__eventdata__tracks.html#autotoc_md29',1,'']]],
   ['from_20source_23',['Building from source',['../group__python__bindings.html#autotoc_md54',1,'']]],
   ['function_24',['&lt;span class=&quot;tt&quot;&gt;getDefaultLogger&lt;/span&gt; Factory Function',['../group__logging.html#autotoc_md45',1,'']]],
-  ['functions_25',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md126',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md125',1,'The 4-layer combinatorics functions']]]
+  ['functions_25',['functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md134',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md133',1,'The 4-layer combinatorics functions']]]
 ];

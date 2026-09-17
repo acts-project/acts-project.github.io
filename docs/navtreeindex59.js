@@ -1,5 +1,14 @@
 var NAVTREEINDEX59 =
 {
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html":[5,11,0,1,0],
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#a4ee0c05dd49764b3616091cd0bed9a29":[5,3,1,1,0,1],
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#a4ee0c05dd49764b3616091cd0bed9a29":[5,11,0,1,0,1],
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#aa387f1612a6a9499254063c1d92930a1":[5,3,1,1,0,2],
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#aa387f1612a6a9499254063c1d92930a1":[5,11,0,1,0,2],
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#ac87c47a7005682e1107e9df89bbba53f":[5,3,1,1,0,0],
+"struct_acts_1_1_interpolated_b_field_map_1_1_cache.html#ac87c47a7005682e1107e9df89bbba53f":[5,11,0,1,0,0],
+"struct_acts_1_1_interpolated_b_field_map_1_1_config.html":[5,3,1,1,1],
+"struct_acts_1_1_interpolated_b_field_map_1_1_config.html":[5,11,0,1,1],
 "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a0a710c9e048ee68865822edfe39b62c6":[5,3,1,1,1,2],
 "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a0a710c9e048ee68865822edfe39b62c6":[5,11,0,1,1,2],
 "struct_acts_1_1_interpolated_b_field_map_1_1_config.html#a2f14ee23705a6ba569006649e15b086e":[5,3,1,1,1,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_material_map_lookup.html#a60ed3890393c53adc17900c625280f28":[5,3,2,14,8],
 "struct_acts_1_1_material_map_lookup.html#ac35940a0af1725b004bfc5c1c538736c":[5,3,2,14,2],
 "struct_acts_1_1_material_map_lookup.html#ac55e39b067b641722f710f9e73a45063":[5,3,2,14,11],
-"struct_acts_1_1_material_map_lookup.html#ae8a25c53ddc463fde78fca263a15f589":[5,3,2,14,10],
-"struct_acts_1_1_material_map_lookup.html#aeaea9cb1f3d433a83cf04198dd0664d4":[5,3,2,14,6],
-"struct_acts_1_1_material_map_lookup_1_1_material_cell.html":[5,3,2,14,0],
-"struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a1a257c46b79aa8799e3e9b8774fee4b8":[5,3,2,14,0,2],
-"struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a447ddc3fe86b30e01125b66c0d29112e":[5,3,2,14,0,0],
-"struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a7aae18920dedea7de8a59eb0682a89e9":[5,3,2,14,0,1],
-"struct_acts_1_1_material_map_lookup_1_1_material_cell.html#a8d259edab66cba82a13643fba5699c29":[5,3,2,14,0,3],
-"struct_acts_1_1_material_mapper_1_1_config.html":[5,3,2,0,8,0],
-"struct_acts_1_1_material_mapper_1_1_config.html#a8faaafc7224e9d3414d3332b526092e6":[5,3,2,0,8,0,0],
-"struct_acts_1_1_material_mapper_1_1_config.html#abeef6b9b5023b6c958231b4713b9e8a7":[5,3,2,0,8,0,1]
+"struct_acts_1_1_material_map_lookup.html#ae8a25c53ddc463fde78fca263a15f589":[5,3,2,14,10]
 };

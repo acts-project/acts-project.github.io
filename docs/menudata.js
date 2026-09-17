@@ -27,7 +27,8 @@ var menudata={children:[
 {text:"Tracking in a nutshell",url:"tracking.html"},
 {text:"Material mapping",url:"",children:[
 {text:"Mapping material for a detector",url:"material_mapping_howto.html"},
-{text:"Components and design",url:"group__material__mapping.html"}]},
+{text:"Components and design",url:"group__material__mapping.html"},
+{text:"Material map JSON format",url:"material_map_json_format.html"}]},
 {text:"Contribution",url:"",children:[
 {text:"Clang Tidy",url:"contribution_clang_tidy.html"},
 {text:"Profiling",url:"howto_profiling.html"},

@@ -10,8 +10,9 @@ var searchData=
   ['detection_7',['Charged particle detection',['../tracking.html#charged-particle-detection',1,'']]],
   ['do_20i_20investigate_20a_20physmon_20failure_8',['How do I investigate a physmon failure?',['../physmon.html#autotoc_md73',1,'']]],
   ['do_20i_20update_20the_20reference_20files_9',['How do I update the reference files?',['../physmon.html#autotoc_md75',1,'']]],
-  ['documentation_10',['Building the documentation',['../building_acts.html#autotoc_md70',1,'']]],
-  ['downstream_20code_11',['Using ACTS in downstream code',['../building_acts.html#autotoc_md72',1,'']]],
-  ['dump_20the_20geometry_20to_20json_12',['1a. Dump the geometry to JSON',['../material_mapping_howto.html#autotoc_md107',1,'']]],
-  ['dynamic_20columns_13',['Dynamic columns',['../group__eventdata__tracks.html#track_edm_dynamic_columns',1,'']]]
+  ['document_20layout_10',['Document layout',['../material_map_json_format.html#autotoc_md120',1,'']]],
+  ['documentation_11',['Building the documentation',['../building_acts.html#autotoc_md70',1,'']]],
+  ['downstream_20code_12',['Using ACTS in downstream code',['../building_acts.html#autotoc_md72',1,'']]],
+  ['dump_20the_20geometry_20to_20json_13',['1a. Dump the geometry to JSON',['../material_mapping_howto.html#autotoc_md107',1,'']]],
+  ['dynamic_20columns_14',['Dynamic columns',['../group__eventdata__tracks.html#track_edm_dynamic_columns',1,'']]]
 ];

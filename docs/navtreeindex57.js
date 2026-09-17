@@ -1,5 +1,14 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[8,0,0,154,0],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[6,0,0,149,0,0],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[8,0,0,154,0,0],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[6,0,0,149,0,1],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[8,0,0,154,0,1],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[6,0,0,149,0,2],
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[8,0,0,154,0,2],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[6,0,0,152,0],
+"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[8,0,0,157,0],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[6,0,0,152,0,3],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a24e5d86ad9d76cb103c173020021667a":[8,0,0,157,0,3],
 "struct_acts_1_1_gaussian_grid_track_density_1_1_config.html#a269b2461907a4755bd715bbea41c973c":[6,0,0,152,0,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a5687313a61d10918126f793965c0f769":[6,0,0,171,1,4],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a5687313a61d10918126f793965c0f769":[8,0,0,176,1,4],
 "struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[6,0,0,171,1,5],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[8,0,0,176,1,5],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[6,0,0,171,1,0],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aac7ea846f1342607024b7bb15bf231d0":[8,0,0,176,1,0],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[6,0,0,171,1,1],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#aacbe27722151cd03bbb9383e1bf1696c":[8,0,0,176,1,1],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#ab9c7fe5fc6a0e72a9a017ba4f153c6e0":[6,0,0,171,1,3],
-"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#ab9c7fe5fc6a0e72a9a017ba4f153c6e0":[8,0,0,176,1,3],
-"struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html":[5,3,2,5,0],
-"struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html#a04865ac42f38752a760108913a6157b6":[5,3,2,5,0,1],
-"struct_acts_1_1_grid_surface_material_1_1_globally_indexed.html#a67c3c25fcb01fb87b76356018ccc09e5":[5,3,2,5,0,0]
+"struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a9dc61664de4e51e0f1b9d34c747b10ae":[8,0,0,176,1,5]
 };

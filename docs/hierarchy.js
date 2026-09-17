@@ -782,6 +782,8 @@ var hierarchy =
     [ "Acts::SurfaceJsonConverter", "class_acts_1_1_surface_json_converter.html", null ],
     [ "Acts::SurfaceJsonConverter::Config", "struct_acts_1_1_surface_json_converter_1_1_config.html", null ],
     [ "Acts::SurfaceJsonConverter::Options", "struct_acts_1_1_surface_json_converter_1_1_options.html", null ],
+    [ "Acts::SurfaceMaterialJsonConverter", "class_acts_1_1_surface_material_json_converter.html", null ],
+    [ "Acts::SurfaceMaterialJsonConverter::Config", "struct_acts_1_1_surface_material_json_converter_1_1_config.html", null ],
     [ "Acts::SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", null ],
     [ "Acts::SurfaceMaterialMapper::Config", "struct_acts_1_1_surface_material_mapper_1_1_config.html", null ],
     [ "Acts::SurfaceMaterialMapper::State", "struct_acts_1_1_surface_material_mapper_1_1_state.html", null ],

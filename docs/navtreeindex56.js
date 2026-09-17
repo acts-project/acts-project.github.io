@@ -1,5 +1,14 @@
 var NAVTREEINDEX56 =
 {
+"struct_acts_1_1_experimental_1_1_gx2f_system.html#ac3d1cda2222b55cb1da5209d19117e81":[5,13,9,8],
+"struct_acts_1_1_experimental_1_1_gx2f_system.html#acad6abb39dd5abdc6e5efc27b3c43a94":[5,13,9,11],
+"struct_acts_1_1_experimental_1_1_gx2f_system.html#af115db6fce3a1fca2db14c230acaa677":[5,13,9,10],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html":[6,0,0,1,36],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html":[8,0,0,2,36],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a414828a68358f8d8c31b88ff3e379b2f":[6,0,0,1,36,0],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a414828a68358f8d8c31b88ff3e379b2f":[8,0,0,2,36,0],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d":[6,0,0,1,36,1],
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a4b6154f8af1a242c5b31fa24f655f19d":[8,0,0,2,36,1],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a56bf7a7e2d7d36dd9bbcb40384f52300":[6,0,0,1,36,3],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#a56bf7a7e2d7d36dd9bbcb40384f52300":[8,0,0,2,36,3],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#acad657f3de32fc1b23d93ff5e4f5eda6":[6,0,0,1,36,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX56 =
 "struct_acts_1_1_finite_state_machine_1_1_terminated.html#a68fa6204d190f3d601c4f373cbecfb16":[8,0,0,148,0,0],
 "struct_acts_1_1_forced_surface_reached.html":[6,0,0,145],
 "struct_acts_1_1_forced_surface_reached.html":[8,0,0,150],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[6,0,0,149,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[8,0,0,154,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[6,0,0,149,0,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#a60b6c176cc74de5cff6b9d72e8961ee7":[8,0,0,154,0,0],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[6,0,0,149,0,1],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#accb2728c2e156a5481a4f4893ed8d6ae":[8,0,0,154,0,1],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[6,0,0,149,0,2],
-"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html#ad3a3e102f812957f4dc5d93773f96a24":[8,0,0,154,0,2],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[6,0,0,152,0],
-"struct_acts_1_1_gaussian_grid_track_density_1_1_config.html":[8,0,0,157,0]
+"struct_acts_1_1_full_billoir_vertex_fitter_1_1_config.html":[6,0,0,149,0]
 };

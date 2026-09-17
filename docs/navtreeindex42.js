@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"class_acts_fatras_1_1_hit.html#ad518c92e0d07e4b33282236bbf873455":[6,0,2,16,10],
+"class_acts_fatras_1_1_hit.html#ad518c92e0d07e4b33282236bbf873455":[8,0,1,17,10],
+"class_acts_fatras_1_1_hit.html#ad94c9cde90cf3b6658fa563e74222e75":[6,0,2,16,6],
+"class_acts_fatras_1_1_hit.html#ad94c9cde90cf3b6658fa563e74222e75":[8,0,1,17,6],
+"class_acts_fatras_1_1_hit.html#ae00b0f67c83c7b5a830a883776223af2":[6,0,2,16,0],
+"class_acts_fatras_1_1_hit.html#ae00b0f67c83c7b5a830a883776223af2":[8,0,1,17,0],
+"class_acts_fatras_1_1_hit.html#aebeec96757f766f0d41f856f0e17f001":[6,0,2,16,3],
+"class_acts_fatras_1_1_hit.html#aebeec96757f766f0d41f856f0e17f001":[8,0,1,17,3],
 "class_acts_fatras_1_1_interaction_list.html":[6,0,2,17],
 "class_acts_fatras_1_1_interaction_list.html":[8,0,1,18],
 "class_acts_fatras_1_1_interaction_list.html#a41e88d0a66cb49fd70acc68e1e02f20e":[6,0,2,17,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac03f7d4d2f0c505da2cb5ca8ebccf2f8":[8,0,2,0,0,19],
 "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac43b3db86335188c64d90361476285c1":[8,0,2,0,0,2],
 "class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ac95000e59ef73cc6bea86fbac598f3c8":[8,0,2,0,0,17],
-"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ad86c57437ca96631be69eea5a160990f":[8,0,2,0,0,15],
-"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae077aaf60e36b9c359c4cfd4ffa5d7dd":[8,0,2,0,0,5],
-"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ae7b210de8b0be1a123b4eb4b0b45988d":[8,0,2,0,0,21],
-"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#aed650873d1e461dea236174e07f73cd6":[8,0,2,0,0,8],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html":[5,10,2,0],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a030cd59bc5a50f3fb6a99505008c4163":[5,10,2,0,2],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#a2dca2f2845183e48b8ab1321c5e578f9":[5,10,2,0,3],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#aa961f8d2ac392968361d092a98ffed57":[5,10,2,0,4],
-"class_acts_plugins_1_1_d_d4hep_detector_element.html#abe221dd1e520170eb8022e64132b9bd9":[5,10,2,0,0]
+"class_acts_plugins_1_1_d_d4hep_1_1_d_d4hep_backend.html#ad86c57437ca96631be69eea5a160990f":[8,0,2,0,0,15]
 };

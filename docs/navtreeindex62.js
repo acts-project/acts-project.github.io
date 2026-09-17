@@ -1,5 +1,14 @@
 var NAVTREEINDEX62 =
 {
+"struct_acts_1_1_propagator_result.html#a5dbc2e6d6e1d540a9ff056b9b9baa9c3":[8,0,0,343,3],
+"struct_acts_1_1_propagator_result.html#a7614731859745628442e69e5f1cb52a6":[6,0,0,338,0],
+"struct_acts_1_1_propagator_result.html#a7614731859745628442e69e5f1cb52a6":[8,0,0,343,0],
+"struct_acts_1_1_propagator_result.html#ab5c356a52402d75194461b4510770835":[6,0,0,338,2],
+"struct_acts_1_1_propagator_result.html#ab5c356a52402d75194461b4510770835":[8,0,0,343,2],
+"struct_acts_1_1_propagator_state.html":[6,0,0,339],
+"struct_acts_1_1_propagator_state.html":[8,0,0,344],
+"struct_acts_1_1_propagator_state.html#a0ab0024d4138d8aec962e4b61cb1cdb0":[6,0,0,339,7],
+"struct_acts_1_1_propagator_state.html#a0ab0024d4138d8aec962e4b61cb1cdb0":[8,0,0,344,7],
 "struct_acts_1_1_propagator_state.html#a0f06210e3e4ab3a72c5b3bc013f497d8":[6,0,0,339,11],
 "struct_acts_1_1_propagator_state.html#a0f06210e3e4ab3a72c5b3bc013f497d8":[8,0,0,344,11],
 "struct_acts_1_1_propagator_state.html#a1e592dab635243ffabf373b7a16bd910":[6,0,0,339,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX62 =
 "struct_acts_1_1_stepper_plain_options.html#a37a9d42cf57e00ba3475a9f702c4d48a":[8,0,0,381,8],
 "struct_acts_1_1_stepper_plain_options.html#a7994a1279ab203b49c6d9ad9a5212345":[6,0,0,376,3],
 "struct_acts_1_1_stepper_plain_options.html#a7994a1279ab203b49c6d9ad9a5212345":[8,0,0,381,3],
-"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[6,0,0,376,9],
-"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[8,0,0,381,9],
-"struct_acts_1_1_stepper_plain_options.html#aba86da5f93b3d79bf4439e026d08774c":[6,0,0,376,4],
-"struct_acts_1_1_stepper_plain_options.html#aba86da5f93b3d79bf4439e026d08774c":[8,0,0,381,4],
-"struct_acts_1_1_stepper_plain_options.html#ac8b94ad75f6aa8645c9b7c96f0999240":[6,0,0,376,6],
-"struct_acts_1_1_stepper_plain_options.html#ac8b94ad75f6aa8645c9b7c96f0999240":[8,0,0,381,6],
-"struct_acts_1_1_stepper_plain_options_1_1_dense.html":[6,0,0,376,0],
-"struct_acts_1_1_stepper_plain_options_1_1_dense.html":[8,0,0,381,0],
-"struct_acts_1_1_stepper_plain_options_1_1_dense.html#a64c63f1ca58ff8e9e0829078d69334f3":[6,0,0,376,0,2],
-"struct_acts_1_1_stepper_plain_options_1_1_dense.html#a64c63f1ca58ff8e9e0829078d69334f3":[8,0,0,381,0,2]
+"struct_acts_1_1_stepper_plain_options.html#ab575d98e21a8f5fa2a8d8db17cb30ece":[6,0,0,376,9]
 };
