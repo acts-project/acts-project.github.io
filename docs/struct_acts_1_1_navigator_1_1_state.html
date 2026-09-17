@@ -158,6 +158,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterVolumeSwitc
 <tr class="memdesc:ac7195a3f6b0f7726653a896e35038b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completely reset navigation state for a new navigation run.  <br /></td></tr>
 <tr class="memitem:a8333f56ce01a4e1edf9cc58fb677983d" id="r_a8333f56ce01a4e1edf9cc58fb677983d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8333f56ce01a4e1edf9cc58fb677983d">resetForRenavigation</a> ()</td></tr>
 <tr class="memdesc:a8333f56ce01a4e1edf9cc58fb677983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset navigation state for renavigating within the same navigation run.  <br /></td></tr>
+<tr class="memitem:a513336b9b2e59b715a0f4710f88a4612" id="r_a513336b9b2e59b715a0f4710f88a4612"><td class="memItemLeft" align="right" valign="top"><a id="a513336b9b2e59b715a0f4710f88a4612" name="a513336b9b2e59b715a0f4710f88a4612"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resetStream</b> ()</td></tr>
+<tr class="memdesc:a513336b9b2e59b715a0f4710f88a4612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the navigation stream. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -181,9 +184,6 @@ std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</
 <tr class="memitem:ae45f13d30b14f759ca96be50b1a35bc4" id="r_ae45f13d30b14f759ca96be50b1a35bc4"><td class="memItemLeft" align="right" valign="top"><a id="ae45f13d30b14f759ca96be50b1a35bc4" name="ae45f13d30b14f759ca96be50b1a35bc4"></a>
 std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>navBoundaryIndex</b></td></tr>
 <tr class="memdesc:ae45f13d30b14f759ca96be50b1a35bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the current boundary index of the navigation state <br /></td></tr>
-<tr class="memitem:a3095e3b1616d0db9aa8753d84fdb4eac" id="r_a3095e3b1616d0db9aa8753d84fdb4eac"><td class="memItemLeft" align="right" valign="top"><a id="a3095e3b1616d0db9aa8753d84fdb4eac" name="a3095e3b1616d0db9aa8753d84fdb4eac"></a>
-std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>navCandidateIndex</b></td></tr>
-<tr class="memdesc:a3095e3b1616d0db9aa8753d84fdb4eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">the current candidate index into the stream's candidates <br /></td></tr>
 <tr class="memitem:ac26dde9f6ea794c9237c1df378f2078f" id="r_ac26dde9f6ea794c9237c1df378f2078f"><td class="memItemLeft" align="right" valign="top"><a id="ac26dde9f6ea794c9237c1df378f2078f" name="ac26dde9f6ea794c9237c1df378f2078f"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>navCandidatesFarLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
 <tr class="memdesc:ac26dde9f6ea794c9237c1df378f2078f"><td class="mdescLeft">&#160;</td><td class="mdescRight">far limit applied to the stream candidates, set during candidate resolution (options.farLimit, or tightened to the last portal when free candidates were appended without a selector) <br /></td></tr>

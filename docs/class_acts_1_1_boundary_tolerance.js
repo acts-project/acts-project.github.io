@@ -24,5 +24,6 @@ var class_acts_1_1_boundary_tolerance =
     [ "None", "class_acts_1_1_boundary_tolerance.html#a37f9fa35e522bffbdd6b7107443599cc", null ],
     [ "operator=", "class_acts_1_1_boundary_tolerance.html#ac6d71d1f7df4a6a05767940e0e267d3f", null ],
     [ "operator=", "class_acts_1_1_boundary_tolerance.html#a69c2a835937110c4ec67a32673f7da6b", null ],
-    [ "toleranceMode", "class_acts_1_1_boundary_tolerance.html#a356694184ec9225d41f6306b531fe40f", null ]
+    [ "toleranceMode", "class_acts_1_1_boundary_tolerance.html#a356694184ec9225d41f6306b531fe40f", null ],
+    [ "operator<<", "class_acts_1_1_boundary_tolerance.html#a402fb12f30a7edc9a7c64f6cb909f63f", null ]
 ];

@@ -7,6 +7,7 @@ var struct_acts_1_1_navigator_plain_options =
     [ "farLimit", "struct_acts_1_1_navigator_plain_options.html#a24c5c0677613a829bc3079001ac493a7", null ],
     [ "freeSurfaceSelector", "struct_acts_1_1_navigator_plain_options.html#a2d913d5c38cc448111edeccf462d2192", null ],
     [ "geoContext", "struct_acts_1_1_navigator_plain_options.html#abc3b1cbb693a31f9c66d18706fa3a4a0", null ],
+    [ "keepUnreachedExternal", "struct_acts_1_1_navigator_plain_options.html#a3582daee2fb76b7a56c45ecce3e79ae5", null ],
     [ "nearLimit", "struct_acts_1_1_navigator_plain_options.html#a364dcaa5c3484109e1a33965ac1d437c", null ],
     [ "surfaceTolerance", "struct_acts_1_1_navigator_plain_options.html#aac15b668f220dde124e5c4294a242fed", null ]
 ];
