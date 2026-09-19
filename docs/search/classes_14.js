@@ -41,15 +41,11 @@ var searchData=
   ['volume_38',['Volume',['../class_acts_1_1_volume.html',1,'Acts']]],
   ['volumeassignment_39',['VolumeAssignment',['../struct_acts_1_1_i_assignment_finder_1_1_volume_assignment.html',1,'Acts::IAssignmentFinder']]],
   ['volumebounds_40',['VolumeBounds',['../class_acts_1_1_volume_bounds.html',1,'Acts']]],
-  ['volumecollector_41',['VolumeCollector',['../struct_acts_1_1_volume_collector.html',1,'Acts']]],
-  ['volumeconfig_42',['VolumeConfig',['../struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html',1,'Acts::CuboidVolumeBuilder::VolumeConfig'],['../struct_acts_1_1_volume_config.html',1,'Acts::VolumeConfig']]],
-  ['volumeconstraintaborter_43',['VolumeConstraintAborter',['../struct_acts_1_1_volume_constraint_aborter.html',1,'Acts']]],
-  ['volumehit_44',['VolumeHit',['../struct_acts_1_1_volume_hit.html',1,'Acts']]],
-  ['volumematerialmapper_45',['VolumeMaterialMapper',['../class_acts_1_1_volume_material_mapper.html',1,'Acts']]],
-  ['volumeplacementbase_46',['VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html',1,'Acts']]],
-  ['volumepublisher_47',['VolumePublisher',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html',1,'ActsPlugins::GeoModelTree']]],
-  ['volumeselector_48',['VolumeSelector',['../struct_acts_1_1_volume_selector.html',1,'Acts']]],
-  ['volumestack_49',['VolumeStack',['../class_acts_1_1_volume_stack.html',1,'Acts']]],
-  ['vrho_50',['Vrho',['../struct_acts_fatras_1_1_casts_1_1_vrho.html',1,'ActsFatras::Casts']]],
-  ['vz_51',['Vz',['../struct_acts_fatras_1_1_casts_1_1_vz.html',1,'ActsFatras::Casts']]]
+  ['volumeconfig_41',['VolumeConfig',['../struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html',1,'Acts::CuboidVolumeBuilder::VolumeConfig'],['../struct_acts_1_1_volume_config.html',1,'Acts::VolumeConfig']]],
+  ['volumeconstraintaborter_42',['VolumeConstraintAborter',['../struct_acts_1_1_volume_constraint_aborter.html',1,'Acts']]],
+  ['volumeplacementbase_43',['VolumePlacementBase',['../class_acts_1_1_volume_placement_base.html',1,'Acts']]],
+  ['volumepublisher_44',['VolumePublisher',['../struct_acts_plugins_1_1_geo_model_tree_1_1_volume_publisher.html',1,'ActsPlugins::GeoModelTree']]],
+  ['volumestack_45',['VolumeStack',['../class_acts_1_1_volume_stack.html',1,'Acts']]],
+  ['vrho_46',['Vrho',['../struct_acts_fatras_1_1_casts_1_1_vrho.html',1,'ActsFatras::Casts']]],
+  ['vz_47',['Vz',['../struct_acts_fatras_1_1_casts_1_1_vz.html',1,'ActsFatras::Casts']]]
 ];

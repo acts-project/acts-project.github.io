@@ -9,8 +9,6 @@ var class_acts_1_1_i_surface_material =
     [ "mappingType", "class_acts_1_1_i_surface_material.html#a2164d69cc92644590c54c6c12c35af2f", null ],
     [ "materialSlab", "class_acts_1_1_i_surface_material.html#a14830ae9c42fbb765f9c0d6a2fd70fff", null ],
     [ "materialSlab", "class_acts_1_1_i_surface_material.html#a57c67692911c878a906319e8a8ffcd5d", null ],
-    [ "materialSlab", "class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4", null ],
-    [ "materialSlab", "class_acts_1_1_i_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0", null ],
     [ "scale", "class_acts_1_1_i_surface_material.html#a0872ac9617f241ea6c4ec172dbe5b196", null ],
     [ "toStream", "class_acts_1_1_i_surface_material.html#a8a6aef3a95cb6f732f51604de2260271", null ],
     [ "toString", "class_acts_1_1_i_surface_material.html#a22a0efd6f902709d2c4c3836871d6eba", null ],

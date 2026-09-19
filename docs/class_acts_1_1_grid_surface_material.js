@@ -15,8 +15,6 @@ var class_acts_1_1_grid_surface_material =
     [ "localAxisDirections", "class_acts_1_1_grid_surface_material.html#a9826009f1aee2b88d333a4a75697ef58", null ],
     [ "materialSlab", "class_acts_1_1_grid_surface_material.html#ab8fdf4ea6f7ff75036a19848caa7e595", null ],
     [ "materialSlab", "class_acts_1_1_grid_surface_material.html#a57c67692911c878a906319e8a8ffcd5d", null ],
-    [ "materialSlab", "class_acts_1_1_grid_surface_material.html#a41cf98dae676e8de7b533b0e23514191", null ],
-    [ "materialSlab", "class_acts_1_1_grid_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0", null ],
     [ "multiAxis", "class_acts_1_1_grid_surface_material.html#a81875b925931ead46c65fba17edd8bcd", null ],
     [ "scale", "class_acts_1_1_grid_surface_material.html#a44bb63da75748583b3ea206383c2b000", null ],
     [ "storage", "class_acts_1_1_grid_surface_material.html#a1a335db7c3ad5047cecc42ef0f740673", null ],

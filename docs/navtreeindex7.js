@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"class_acts_1_1_constant_b_field.html#a8a37273f19756bf47cd31e247d9802d6":[5,11,0,0,2],
-"class_acts_1_1_constant_b_field.html#ace9504ef5776a78429928cdfde3f3bff":[5,3,1,0,6],
 "class_acts_1_1_constant_b_field.html#ace9504ef5776a78429928cdfde3f3bff":[5,11,0,0,6],
 "class_acts_1_1_constrained_step.html":[6,0,0,83],
 "class_acts_1_1_constrained_step.html":[8,0,0,88],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "class_acts_1_1_cuboid_volume_builder.html#afb822ae7dcc8f15f503a05d237a45cd6":[8,0,0,100,5],
 "class_acts_1_1_cuboid_volume_stack.html":[6,0,0,96],
 "class_acts_1_1_cuboid_volume_stack.html":[8,0,0,101],
-"class_acts_1_1_cuboid_volume_stack.html#a665d6bee8f69a27ca2e2859b9af44009":[6,0,0,96,0]
+"class_acts_1_1_cuboid_volume_stack.html#a665d6bee8f69a27ca2e2859b9af44009":[6,0,0,96,0],
+"class_acts_1_1_cuboid_volume_stack.html#a665d6bee8f69a27ca2e2859b9af44009":[8,0,0,101,0],
+"class_acts_1_1_cuboid_volume_stack.html#a7667915cb2611154e4dc449af1dd78f8":[6,0,0,96,2]
 };

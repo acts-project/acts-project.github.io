@@ -12,7 +12,7 @@ var searchData=
   ['accessorconfig_9',['accessorConfig',['../class_acts_plugins_1_1_root_material_decorator_1_1_config.html#ade6d4cb4e6b800fa259f0c6b0d5c4be3',1,'ActsPlugins::RootMaterialDecorator::Config']]],
   ['accessoroptions_10',['accessorOptions',['../class_acts_plugins_1_1_root_material_decorator_1_1_config.html#a941ea654245ec31bb7277c93a537ce75',1,'ActsPlugins::RootMaterialDecorator::Config']]],
   ['accumulatedjacobian_11',['accumulatedJacobian',['../struct_acts_1_1_combinatorial_kalman_filter_result.html#a0549359e0be5fd5670536928f4cd0867',1,'Acts::CombinatorialKalmanFilterResult']]],
-  ['accumulatedmaterial_12',['accumulatedMaterial',['../struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f',1,'Acts::BinnedSurfaceMaterialAccumulator::State::accumulatedMaterial'],['../struct_acts_1_1_surface_material_mapper_1_1_state.html#a9f46ffd702ee651b1c6ea408e62e756d',1,'Acts::SurfaceMaterialMapper::State::accumulatedMaterial']]],
+  ['accumulatedmaterial_12',['accumulatedMaterial',['../struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f',1,'Acts::BinnedSurfaceMaterialAccumulator::State']]],
   ['activation_13',['activation',['../struct_acts_fatras_1_1_segmentizer_1_1_channel_segment.html#a9cec247205c840790acd72f4a37ffd51',1,'ActsFatras::Segmentizer::ChannelSegment']]],
   ['active_14',['active',['../struct_acts_1_1_cuboid_volume_builder_1_1_layer_config.html#a7f57faf29ba100ef66b7507cc49a9d95',1,'Acts::CuboidVolumeBuilder::LayerConfig']]],
   ['activebranches_15',['activeBranches',['../struct_acts_1_1_combinatorial_kalman_filter_result.html#a5b651c101b3ac817c16a572282046f9d',1,'Acts::CombinatorialKalmanFilterResult']]],

@@ -15,7 +15,7 @@ var searchData=
   ['tgeoparser_12',['TGeoParser',['../struct_acts_plugins_1_1_t_geo_parser.html',1,'ActsPlugins']]],
   ['tgeoprimitiveshelper_13',['TGeoPrimitivesHelper',['../struct_acts_plugins_1_1_t_geo_primitives_helper.html',1,'ActsPlugins']]],
   ['tgeosurfaceconverter_14',['TGeoSurfaceConverter',['../struct_acts_plugins_1_1_t_geo_surface_converter.html',1,'ActsPlugins']]],
-  ['this_5fresult_15',['this_result',['../struct_acts_1_1_interaction_volume_collector_1_1this__result.html',1,'Acts::InteractionVolumeCollector::this_result'],['../struct_acts_1_1_surface_collector_1_1this__result.html',1,'Acts::SurfaceCollector&lt; Selector &gt;::this_result'],['../struct_acts_1_1_volume_collector_1_1this__result.html',1,'Acts::VolumeCollector&lt; Selector &gt;::this_result']]],
+  ['this_5fresult_15',['this_result',['../struct_acts_1_1_interaction_volume_collector_1_1this__result.html',1,'Acts::InteractionVolumeCollector::this_result'],['../struct_acts_1_1_surface_collector_1_1this__result.html',1,'Acts::SurfaceCollector&lt; Selector &gt;::this_result']]],
   ['threadoutputdecorator_16',['ThreadOutputDecorator',['../class_acts_1_1_logging_1_1_thread_output_decorator.html',1,'Acts::Logging']]],
   ['thresholdfailure_17',['ThresholdFailure',['../class_acts_1_1_logging_1_1_threshold_failure.html',1,'Acts::Logging']]],
   ['timedconnect_18',['TimedConnect',['../struct_acts_1_1_ccl_1_1_timed_connect.html',1,'Acts::Ccl']]],

@@ -146,7 +146,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Accumulate material properties from multiple hits/track and multiple tracks. </p>
-<p>This is a helper class for the <span class="tt">SurfaceMaterialMapper</span> to handle material accumulation and averaging for one surface bin. The accumulation procedure is done in two steps:</p>
+<p>This is a helper class for the <span class="tt">BinnedSurfaceMaterialAccumulator</span> to handle material accumulation and averaging for one surface bin. The accumulation procedure is done in two steps:</p>
 <ol type="1">
 <li>The per-track store accumulates material steps from one track/particle. Multiple material steps can be assigned to the same bin time by one particle, e.g. if the simulation has created more than one step in the material or if several components are compressed into one description. Multiple steps are treated as if they are passed one after the other.</li>
 <li>The total store averages the accumulated material properties over all tracks. Each track contributes equally. </li>

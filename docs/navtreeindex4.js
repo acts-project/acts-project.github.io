@@ -74,13 +74,11 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_binned_surface_material.html#a2bc2b4a809338367e01f0f10352a6024":[5,3,2,3,1],
 "class_acts_1_1_binned_surface_material.html#a350eea7578cbcfbf96009960464e115d":[5,3,2,3,4],
 "class_acts_1_1_binned_surface_material.html#a57c67692911c878a906319e8a8ffcd5d":[5,3,2,3,6],
-"class_acts_1_1_binned_surface_material.html#a80127eaf48c05d9ca139c27b4d112c64":[5,3,2,3,10],
-"class_acts_1_1_binned_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0":[5,3,2,3,8],
+"class_acts_1_1_binned_surface_material.html#a80127eaf48c05d9ca139c27b4d112c64":[5,3,2,3,8],
 "class_acts_1_1_binned_surface_material.html#a806950e71d6ab6dbd49dac89e23d0179":[5,3,2,3,5],
 "class_acts_1_1_binned_surface_material.html#ab1b1931c235597978c2a81a4175016fb":[5,3,2,3,2],
-"class_acts_1_1_binned_surface_material.html#acb85afde80863c0c7341fe3a7237e798":[5,3,2,3,9],
+"class_acts_1_1_binned_surface_material.html#acb85afde80863c0c7341fe3a7237e798":[5,3,2,3,7],
 "class_acts_1_1_binned_surface_material.html#adf9a68588e08d060ed20f8a3caae0553":[5,3,2,3,0],
-"class_acts_1_1_binned_surface_material.html#aeba8fa4594b6b625530fbafc4acf67f8":[5,3,2,3,7],
 "class_acts_1_1_binned_surface_material.html#af81db06029929894404cec86997ebee7":[5,3,2,3,3],
 "class_acts_1_1_binned_surface_material_accumulator.html":[5,3,2,0,4],
 "class_acts_1_1_binned_surface_material_accumulator.html#a191154622845a1e8042964c959219695":[5,3,2,0,4,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "class_acts_1_1_blueprint_node.html#a570e369d00c3a659150d374abfa51154":[8,0,0,63,20],
 "class_acts_1_1_blueprint_node.html#a60290b05979976dc153074b3b0c784f7":[6,0,0,58,4],
 "class_acts_1_1_blueprint_node.html#a60290b05979976dc153074b3b0c784f7":[8,0,0,63,4],
-"class_acts_1_1_blueprint_node.html#a608460647b068bd8651b0b745c1e1874":[6,0,0,58,16]
+"class_acts_1_1_blueprint_node.html#a608460647b068bd8651b0b745c1e1874":[6,0,0,58,16],
+"class_acts_1_1_blueprint_node.html#a608460647b068bd8651b0b745c1e1874":[8,0,0,63,16],
+"class_acts_1_1_blueprint_node.html#a69456c74bab973c8c48e66d65a8809a1":[6,0,0,58,13]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"class_acts_1_1_i_surface_material.html#a8a6aef3a95cb6f732f51604de2260271":[5,3,2,11,12],
-"class_acts_1_1_i_surface_material.html#a9e136c68d2f0ef7ad6b085e9ab3a882f":[5,3,2,11,4],
-"class_acts_1_1_i_surface_material.html#aa2c422b472389baa8c683fe4e38d67a5":[5,3,2,11,2],
-"class_acts_1_1_i_surface_material.html#ac0689ff6c247b5cd69de981ed7e0be53":[5,3,2,11,16],
-"class_acts_1_1_i_surface_material.html#ae035f5e22c7e7b38707ca694e9051e95":[5,3,2,11,15],
-"class_acts_1_1_i_surface_material.html#af9e36841a7a1a0973615ae777118f4e4":[5,3,2,11,9],
-"class_acts_1_1_i_surface_material_accumulator.html":[5,3,2,0,7],
-"class_acts_1_1_i_surface_material_accumulator.html#a30c36940b0d558c07baa817aeb76133b":[5,3,2,0,7,1],
 "class_acts_1_1_i_surface_material_accumulator.html#a54501974c15657e0fd6eb78434a519af":[5,3,2,0,7,3],
 "class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f":[5,3,2,0,7,2],
 "class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a":[5,3,2,0,7,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX21 =
 "class_acts_1_1_interpolated_material_map.html#a8aed80aca40331b159cd7b0d9f486005":[5,3,2,10,11],
 "class_acts_1_1_interpolated_material_map.html#aaaef693094374616b614933404427ff1":[5,3,2,10,8],
 "class_acts_1_1_interpolated_material_map.html#afade92faa2a0f37685b4d6b6c689cc5d":[5,3,2,10,1],
-"class_acts_1_1_intersection.html":[6,0,0,207]
+"class_acts_1_1_intersection.html":[6,0,0,207],
+"class_acts_1_1_intersection.html":[8,0,0,212],
+"class_acts_1_1_intersection.html#a129b29667d2c9b217d9bb343ca587a9b":[6,0,0,207,15],
+"class_acts_1_1_intersection.html#a129b29667d2c9b217d9bb343ca587a9b":[8,0,0,212,15],
+"class_acts_1_1_intersection.html#a130ad79bd2e304cc72f602e248d13434":[6,0,0,207,10],
+"class_acts_1_1_intersection.html#a130ad79bd2e304cc72f602e248d13434":[8,0,0,212,10],
+"class_acts_1_1_intersection.html#a1d4692074233348491a02b51ca632fff":[6,0,0,207,0],
+"class_acts_1_1_intersection.html#a1d4692074233348491a02b51ca632fff":[8,0,0,212,0],
+"class_acts_1_1_intersection.html#a23c748ebc7ad0fbae389de2ab852b31e":[6,0,0,207,8]
 };

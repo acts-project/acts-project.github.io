@@ -101,54 +101,5 @@ var group__material__mapping =
     [ "Acts::PropagatorMaterialAssigner&lt; propagator_t &gt;", "class_acts_1_1_propagator_material_assigner.html", [
       [ "PropagatorMaterialAssigner", "class_acts_1_1_propagator_material_assigner.html#a02a341dc1f5e23e9c833d16bf99f18f1", null ],
       [ "assignmentCandidates", "class_acts_1_1_propagator_material_assigner.html#a1f8fc4457b4c672e3888e4dc5b8b97ec", null ]
-    ] ],
-    [ "Acts::SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html", [
-      [ "Config", "struct_acts_1_1_surface_material_mapper_1_1_config.html", [
-        [ "computeVariance", "struct_acts_1_1_surface_material_mapper_1_1_config.html#a61d88c9553f91ff301d51a54b566a9df", null ],
-        [ "emptyBinCorrection", "struct_acts_1_1_surface_material_mapper_1_1_config.html#a8280471455132758eddc9b44622e9691", null ],
-        [ "etaRange", "struct_acts_1_1_surface_material_mapper_1_1_config.html#a3352a3ee22374d8d38b4794495368a14", null ],
-        [ "mapperDebugOutput", "struct_acts_1_1_surface_material_mapper_1_1_config.html#afc700edcaeeb9f78cac1a4dae75af04f", null ]
-      ] ],
-      [ "State", "struct_acts_1_1_surface_material_mapper_1_1_state.html", [
-        [ "State", "struct_acts_1_1_surface_material_mapper_1_1_state.html#adfad150af769f9b2ec0a6eeef7e1eed6", null ],
-        [ "accumulatedMaterial", "struct_acts_1_1_surface_material_mapper_1_1_state.html#a9f46ffd702ee651b1c6ea408e62e756d", null ],
-        [ "geoContext", "struct_acts_1_1_surface_material_mapper_1_1_state.html#a21f44203146e22b28996acbea4b23eda", null ],
-        [ "inputSurfaceMaterial", "struct_acts_1_1_surface_material_mapper_1_1_state.html#ab590ac2fafee07b8ccb9e003c7c1529a", null ],
-        [ "magFieldContext", "struct_acts_1_1_surface_material_mapper_1_1_state.html#aabc59289b4ec1b8de3e55335aab1713e", null ],
-        [ "surfaceMaterial", "struct_acts_1_1_surface_material_mapper_1_1_state.html#a1389bf0cc88f5806a7d04c5f1fa3c0dd", null ],
-        [ "volumeMaterial", "struct_acts_1_1_surface_material_mapper_1_1_state.html#a7cc8f856b695efc0d0af0d28e3e553b5", null ]
-      ] ],
-      [ "StraightLinePropagator", "class_acts_1_1_surface_material_mapper.html#aaccba8c877036071c1fb8f1728db19c2", null ],
-      [ "SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html#a9d1cef0b6c7023d73213b0cec7191daf", null ],
-      [ "SurfaceMaterialMapper", "class_acts_1_1_surface_material_mapper.html#a09d298a561aca82a92ff47fd1ad4b62b", null ],
-      [ "createState", "class_acts_1_1_surface_material_mapper.html#acf3c71ea54469f3cbabf50c7f4011c28", null ],
-      [ "finalizeMaps", "class_acts_1_1_surface_material_mapper.html#a0f9f88f3b83ea0d280c95a1b9c493309", null ],
-      [ "mapInteraction", "class_acts_1_1_surface_material_mapper.html#a0e10d88c62f35ce2b3c17dafc1b50242", null ],
-      [ "mapMaterialTrack", "class_acts_1_1_surface_material_mapper.html#a2a23180b968ff627453022eeaf38cbd4", null ],
-      [ "mapSurfaceInteraction", "class_acts_1_1_surface_material_mapper.html#ad8f24d30cfbe2d83b3d3656cbb4e0cf2", null ]
-    ] ],
-    [ "Acts::VolumeMaterialMapper", "class_acts_1_1_volume_material_mapper.html", [
-      [ "Config", "struct_acts_1_1_volume_material_mapper_1_1_config.html", [
-        [ "mappingStep", "struct_acts_1_1_volume_material_mapper_1_1_config.html#a64c7e564920f8b99a287d28cdaf8551a", null ]
-      ] ],
-      [ "State", "struct_acts_1_1_volume_material_mapper_1_1_state.html", [
-        [ "State", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a306c7cd6226e883ddad1b0f0191e20dc", null ],
-        [ "geoContext", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a59e267ee95f346133cb124835cefa6ca", null ],
-        [ "grid2D", "struct_acts_1_1_volume_material_mapper_1_1_state.html#acd15522344bc6c726423557291379137", null ],
-        [ "grid3D", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a89a0ab5a2801ec11530f8795543e9f63", null ],
-        [ "homogeneousGrid", "struct_acts_1_1_volume_material_mapper_1_1_state.html#aa214bd26c2ccd4f83b29a496493775a0", null ],
-        [ "magFieldContext", "struct_acts_1_1_volume_material_mapper_1_1_state.html#af62b72a1e0b030281e645916a07839d1", null ],
-        [ "materialBin", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a3e31cc9b4e303c58c8ecc4e7f355f6af", null ],
-        [ "surfaceMaterial", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a8cfa9ff04b66386f6f7fd53e40735f3b", null ],
-        [ "transform2D", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a38b8809f75628edebd9b2edd18998284", null ],
-        [ "transform3D", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a7c34618ac2b0b36296a1985d7c0189a2", null ],
-        [ "volumeMaterial", "struct_acts_1_1_volume_material_mapper_1_1_state.html#a8c3545d85245060e4b706cd0da1225a2", null ]
-      ] ],
-      [ "StraightLinePropagator", "class_acts_1_1_volume_material_mapper.html#ad5dbc88f8aca740dce4e641edf27c521", null ],
-      [ "VolumeMaterialMapper", "class_acts_1_1_volume_material_mapper.html#a73920a181faa772d5bb53c4d9d9c59aa", null ],
-      [ "VolumeMaterialMapper", "class_acts_1_1_volume_material_mapper.html#a90fa81cf2574d34b2d4862f8c859b6e2", null ],
-      [ "createState", "class_acts_1_1_volume_material_mapper.html#a09d561bcf53a6998d6b2f7f4675f0450", null ],
-      [ "finalizeMaps", "class_acts_1_1_volume_material_mapper.html#a1fd647f4bac677d6b4f15bf6cd487d53", null ],
-      [ "mapMaterialTrack", "class_acts_1_1_volume_material_mapper.html#a3e316ca8dd067c8fc60ef896a67b51fe", null ]
     ] ]
 ];

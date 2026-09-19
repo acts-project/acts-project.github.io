@@ -146,9 +146,7 @@ Public Types</h2></td></tr>
 , <b>eHalfPhiSector</b> = 2
 , <b>eAveragePhi</b> = 3
 , <br />
-&#160;&#160;<b>eBevelMinZ</b> = 4
-, <b>eBevelMaxZ</b> = 5
-, <b>eSize</b> = 6
+&#160;&#160;<b>eSize</b> = 4
 <br />
  }</td></tr>
 <tr class="memdesc:ae113f991be67aeeb210d7c199712a396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for the bound values. <br /></td></tr>
@@ -180,8 +178,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab53fcae21381181b71419004d533dea9" id="r_ab53fcae21381181b71419004d533dea9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53fcae21381181b71419004d533dea9">CylinderBounds</a> (const std::array&lt; double, eSize &gt; &amp;<a class="el" href="#a59cae2dcb094030d54087b4b7e30c109">values</a>) noexcept(false)</td></tr>
 <tr class="memdesc:ab53fcae21381181b71419004d533dea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from array.  <br /></td></tr>
-<tr class="memitem:ae8f8595b798d3a26020fcb79e0d2711a" id="r_ae8f8595b798d3a26020fcb79e0d2711a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8f8595b798d3a26020fcb79e0d2711a">CylinderBounds</a> (double r, double halfZ, double halfPhi=std::numbers::pi, double avgPhi=0., double bevelMinZ=0., double bevelMaxZ=0.) noexcept(false)</td></tr>
-<tr class="memdesc:ae8f8595b798d3a26020fcb79e0d2711a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - full cylinder.  <br /></td></tr>
+<tr class="memitem:af0b370058478e60cedc3ff9482bd03e8" id="r_af0b370058478e60cedc3ff9482bd03e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0b370058478e60cedc3ff9482bd03e8">CylinderBounds</a> (double r, double halfZ, double halfPhi=std::numbers::pi, double avgPhi=0.) noexcept(false)</td></tr>
+<tr class="memdesc:af0b370058478e60cedc3ff9482bd03e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - full cylinder.  <br /></td></tr>
 <tr class="memitem:a335a592b2b0aa7a8964841290d9c2416" id="r_a335a592b2b0aa7a8964841290d9c2416"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a335a592b2b0aa7a8964841290d9c2416">boundToCartesianJacobian</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition) const final</td></tr>
 <tr class="memdesc:a335a592b2b0aa7a8964841290d9c2416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the bound to cartesian jacobian at a given local position.     <br /></td></tr>
 <tr class="memitem:abf417c1dcd2df48e8324ba0eca2a8011" id="r_abf417c1dcd2df48e8324ba0eca2a8011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__algebra__types.html#gacf45a96b60fa44322913e6e18323ee95">SquareMatrix2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf417c1dcd2df48e8324ba0eca2a8011">boundToCartesianMetric</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lposition) const final</td></tr>
@@ -218,14 +216,10 @@ Public Member Functions</h2></td></tr>
 </div>
 <p>Bounds for a cylindrical Surface.</p>
 <p>These bounds may be used for a CylinderSurface In case of bounds for a StraightLineSurface the radius determines the radius within a localPosition is regarded as inside bounds.</p>
-<p>CylinderBounds also enhance the possibility of a cylinder segment with an opening angle \( 2\cdot\phi_{half}\) around an average \( \phi \) angle \( \phi_{ave} \).</p>
-<p>CylinderBounds also supports beveled sides defined by an angle. Different angles can be defined on both sides of the cylinder. A positive angle is defined as "extruding" from the defined Zlength, while a negative angle is "intruding" on the Zlength.</p><ul>
-<li>- - + <hr  />
- \ | / \ | / \ | / \ | / |/______________|/ 2 * ZhalfLength </li>
-</ul>
+<p>CylinderBounds also enhance the possibility of a cylinder segment with an opening angle \( 2\cdot\phi_{half}\) around an average \( \phi \) angle \( \phi_{ave} \). </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae8f8595b798d3a26020fcb79e0d2711a" name="ae8f8595b798d3a26020fcb79e0d2711a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8f8595b798d3a26020fcb79e0d2711a">&#9670;&#160;</a></span>CylinderBounds() <span class="overload">[1/2]</span></h2>
+<a id="af0b370058478e60cedc3ff9482bd03e8" name="af0b370058478e60cedc3ff9482bd03e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b370058478e60cedc3ff9482bd03e8">&#9670;&#160;</a></span>CylinderBounds() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,17 +242,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>avgPhi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>bevelMinZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>bevelMaxZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>&#160;)</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>avgPhi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -270,8 +254,6 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">halfZ</td><td>The half length in z </td></tr>
     <tr><td class="paramname">halfPhi</td><td>The half opening angle </td></tr>
     <tr><td class="paramname">avgPhi</td><td>(optional) The phi value from which the opening angle spans </td></tr>
-    <tr><td class="paramname">bevelMinZ</td><td>(optional) The bevel on the negative z side </td></tr>
-    <tr><td class="paramname">bevelMaxZ</td><td>(optional) The bevel on the positive z side </td></tr>
   </table>
   </dd>
 </dl>

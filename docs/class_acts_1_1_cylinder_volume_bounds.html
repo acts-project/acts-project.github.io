@@ -150,8 +150,6 @@ Public Types</h2></td></tr>
 , <b>eHalfPhiSector</b> = 3
 , <br />
 &#160;&#160;<b>eAveragePhi</b> = 4
-, <b>eBevelMinZ</b> = 5
-, <b>eBevelMaxZ</b> = 6
 , <b>eSize</b>
 <br />
  }</td></tr>
@@ -192,8 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a40184d2dae59ba9da3e44289c8a3e4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - extruded from radial bounds and thickness.  <br /></td></tr>
 <tr class="memitem:af6b927b5ea1b3fb41d2794b996bc8d9e" id="r_af6b927b5ea1b3fb41d2794b996bc8d9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b927b5ea1b3fb41d2794b996bc8d9e">CylinderVolumeBounds</a> (const std::array&lt; double, eSize &gt; &amp;<a class="el" href="#a832a9a77c6f0e2d7d62084c097d3bd38">values</a>)</td></tr>
 <tr class="memdesc:af6b927b5ea1b3fb41d2794b996bc8d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor - from a fixed size array.  <br /></td></tr>
-<tr class="memitem:a3b0cbf0aa162e82b2e917647fc3879cf" id="r_a3b0cbf0aa162e82b2e917647fc3879cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b0cbf0aa162e82b2e917647fc3879cf">CylinderVolumeBounds</a> (double rmin, double rmax, double halfz, double halfphi=std::numbers::pi, double avgphi=0., double bevelMinZ=0., double bevelMaxZ=0.)</td></tr>
-<tr class="memdesc:a3b0cbf0aa162e82b2e917647fc3879cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="memitem:a9ca2b71023c6a132762c9c9e77d875d0" id="r_a9ca2b71023c6a132762c9c9e77d875d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca2b71023c6a132762c9c9e77d875d0">CylinderVolumeBounds</a> (double rmin, double rmax, double halfz, double halfphi=std::numbers::pi, double avgphi=0.)</td></tr>
+<tr class="memdesc:a9ca2b71023c6a132762c9c9e77d875d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="memitem:ad953f70d12bdc2ecb3972f69362fa99a" id="r_ad953f70d12bdc2ecb3972f69362fa99a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_volume.html#af2dc575b3470c5cab3448c8557a8793b">Volume::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad953f70d12bdc2ecb3972f69362fa99a">boundingBox</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> *trf=nullptr, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;envelope={0, 0, 0}, const <a class="el" href="class_acts_1_1_volume.html">Volume</a> *entity=nullptr) const final</td></tr>
 <tr class="memdesc:ad953f70d12bdc2ecb3972f69362fa99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct bounding box for this shape.  <br /></td></tr>
 <tr class="memitem:a4e48bf043c4bdcdd2fcf754a4bc4b115" id="r_a4e48bf043c4bdcdd2fcf754a4bc4b115"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e48bf043c4bdcdd2fcf754a4bc4b115">canonicalAxes</a> () const override</td></tr>
@@ -279,8 +277,8 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
 </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3b0cbf0aa162e82b2e917647fc3879cf" name="a3b0cbf0aa162e82b2e917647fc3879cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b0cbf0aa162e82b2e917647fc3879cf">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[1/5]</span></h2>
+<a id="a9ca2b71023c6a132762c9c9e77d875d0" name="a9ca2b71023c6a132762c9c9e77d875d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca2b71023c6a132762c9c9e77d875d0">&#9670;&#160;</a></span>CylinderVolumeBounds() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,17 +306,7 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>avgphi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>bevelMinZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>bevelMaxZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>&#160;)</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>avgphi</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -331,8 +319,6 @@ static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight"
     <tr><td class="paramname">halfz</td><td>The half length in z </td></tr>
     <tr><td class="paramname">halfphi</td><td>The half lopening angle </td></tr>
     <tr><td class="paramname">avgphi</td><td>The average phi value </td></tr>
-    <tr><td class="paramname">bevelMinZ</td><td>The bevel angle, in radians, for the negative side </td></tr>
-    <tr><td class="paramname">bevelMaxZ</td><td>The bevel angle, in radians, for the positive side </td></tr>
   </table>
   </dd>
 </dl>

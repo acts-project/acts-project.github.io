@@ -9,8 +9,6 @@ var class_acts_1_1_homogeneous_surface_material =
     [ "localAxisDirections", "class_acts_1_1_homogeneous_surface_material.html#ae28af79e7f83446d8ad743e961a37c06", null ],
     [ "materialSlab", "class_acts_1_1_homogeneous_surface_material.html#a57c67692911c878a906319e8a8ffcd5d", null ],
     [ "materialSlab", "class_acts_1_1_homogeneous_surface_material.html#ab40d1ef5f9b7d7f66f9a94c077138456", null ],
-    [ "materialSlab", "class_acts_1_1_homogeneous_surface_material.html#a8717c947629cba84117c2a47ae9a8a5f", null ],
-    [ "materialSlab", "class_acts_1_1_homogeneous_surface_material.html#a8030b967c2238f1d1ca367027d2cdbb0", null ],
     [ "operator=", "class_acts_1_1_homogeneous_surface_material.html#a4787b7916ed4cc6c8909613dfbb0dd95", null ],
     [ "operator=", "class_acts_1_1_homogeneous_surface_material.html#a0a1cdf95e8871a390364fcb22f5ba42f", null ],
     [ "scale", "class_acts_1_1_homogeneous_surface_material.html#a59a16362ef58dee243cedbb34bb6d852", null ],

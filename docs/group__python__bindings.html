@@ -144,7 +144,6 @@ Building from source</h1>
 </div><!-- fragment --><p>Building requires a Python installation including the development headers. You can then build the special target <span class="tt">ActsPythonBindings</span> to build everything that can be accessed from Python:</p>
 <div class="fragment"><div class="line">cmake --build &lt;build&gt; -- ActsPythonBindings</div>
 </div><!-- fragment --><p>The build creates a setup script <span class="tt">$BUILD/this_acts_withdeps.sh</span> which modifies <span class="tt">$PYTHONPATH</span> so that you can import the <span class="tt">acts</span> module in Python.</p>
-<dl class="section warning"><dt>Warning</dt><dd>The old flag <span class="tt">ACTS_BUILD_EXAMPLES_PYTHON_BINDINGS</span> is <b>deprecated</b>. Use <span class="tt">ACTS_BUILD_PYTHON_BINDINGS</span> (together with <span class="tt">ACTS_BUILD_EXAMPLES</span> if needed) instead.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
 Minimal example</h1>
 <p>Here is a minimal example of a Python script using the bindings, which sets up particle propagation and runs a few events.</p>
