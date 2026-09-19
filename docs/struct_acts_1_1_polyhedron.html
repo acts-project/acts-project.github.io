@@ -149,11 +149,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1bb7bfa193a480a15ed47b9e71b70200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="memitem:a0508d64c486687fb4666cb4022b75389" id="r_a0508d64c486687fb4666cb4022b75389"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0508d64c486687fb4666cb4022b75389">Polyhedron</a> (const std::vector&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &gt; &amp;verticesIn, const std::vector&lt; <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> &gt; &amp;facesIn, const std::vector&lt; <a class="el" href="#a2402da64e8462cd5009a79f22cf452e2">FaceType</a> &gt; &amp;triangularMeshIn, bool isExact=true)</td></tr>
 <tr class="memdesc:a0508d64c486687fb4666cb4022b75389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor from a vector of vertices and a vector of faces.  <br /></td></tr>
-<tr class="memitem:a206860bd6e319f1f35b07d05ceb90e72" id="r_a206860bd6e319f1f35b07d05ceb90e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_extent.html">Extent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a206860bd6e319f1f35b07d05ceb90e72">extent</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
+<tr class="memitem:a206860bd6e319f1f35b07d05ceb90e72" id="r_a206860bd6e319f1f35b07d05ceb90e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_extent.html">Extent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a206860bd6e319f1f35b07d05ceb90e72">extent</a> (const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;transform=Transform3::Identity()) const</td></tr>
 <tr class="memdesc:a206860bd6e319f1f35b07d05ceb90e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum extent of the polyhedron in space.  <br /></td></tr>
 <tr class="memitem:a2671f3034882a3a53958f292fae22e78" id="r_a2671f3034882a3a53958f292fae22e78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2671f3034882a3a53958f292fae22e78">merge</a> (const <a class="el" href="#a1bb7bfa193a480a15ed47b9e71b70200">Polyhedron</a> &amp;other)</td></tr>
 <tr class="memdesc:a2671f3034882a3a53958f292fae22e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge another Polyhedron into this one.  <br /></td></tr>
-<tr class="memitem:ae5abfb9317540e7c72f8592c7f5e28c3" id="r_ae5abfb9317540e7c72f8592c7f5e28c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5abfb9317540e7c72f8592c7f5e28c3">move</a> (const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;transform)</td></tr>
+<tr class="memitem:ae5abfb9317540e7c72f8592c7f5e28c3" id="r_ae5abfb9317540e7c72f8592c7f5e28c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5abfb9317540e7c72f8592c7f5e28c3">move</a> (const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;transform)</td></tr>
 <tr class="memdesc:ae5abfb9317540e7c72f8592c7f5e28c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the polyhedron with a Transfrom3D.  <br /></td></tr>
 <tr class="memitem:a87d8b3d4d237b7a05ca964d0f430b0a7" id="r_a87d8b3d4d237b7a05ca964d0f430b0a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d8b3d4d237b7a05ca964d0f430b0a7">visualize</a> (<a class="el" href="class_acts_1_1_i_visualization3_d.html">IVisualization3D</a> &amp;helper, const <a class="el" href="struct_acts_1_1_view_config.html">ViewConfig</a> &amp;viewConfig={}) const</td></tr>
 <tr class="memdesc:a87d8b3d4d237b7a05ca964d0f430b0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visualize the polyhedron using a visualization helper.  <br /></td></tr>
@@ -228,7 +228,7 @@ std::vector&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da95
         <tr>
           <td class="memname"><a class="el" href="class_acts_1_1_extent.html">Extent</a> Acts::Polyhedron::extent </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Transform3::Identity()</span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Transform3::Identity()</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -279,7 +279,7 @@ std::vector&lt; <a class="el" href="group__algebra__types.html#ga49fabee4702da95
         <tr>
           <td class="memname">void Acts::Polyhedron::move </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>transform</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

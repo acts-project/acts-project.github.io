@@ -151,7 +151,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>grid_type</b> = grid
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adba5bf73593643d98bcc473a6cacd6f1" id="r_adba5bf73593643d98bcc473a6cacd6f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba5bf73593643d98bcc473a6cacd6f1">IndexGrid</a> (<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;igrid, const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;icasts, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;itr=Transform3::Identity())</td></tr>
+<tr class="memitem:adba5bf73593643d98bcc473a6cacd6f1" id="r_adba5bf73593643d98bcc473a6cacd6f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba5bf73593643d98bcc473a6cacd6f1">IndexGrid</a> (<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;igrid, const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;icasts, const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;itr=Transform3::Identity())</td></tr>
 <tr class="memdesc:adba5bf73593643d98bcc473a6cacd6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a grid based surface attacher.  <br /></td></tr>
 <tr class="memitem:a1f93e48b590941e91b13dac4758a9d98" id="r_a1f93e48b590941e91b13dac4758a9d98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f93e48b590941e91b13dac4758a9d98">IndexGrid</a> (<a class="el" href="#a4239aba4f91273de7de37a430b4ad396">grid_type</a> &amp;&amp;igrid, const std::array&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>, grid_type::DIM &gt; &amp;icasts, <a class="el" href="#ab3114416695f18f83adff71de8d81330">Delegate_t</a> trfFunc)</td></tr>
 <tr class="memdesc:a1f93e48b590941e91b13dac4758a9d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a grid based surface attacher with alignable delegate.  <br /></td></tr>
@@ -197,9 +197,9 @@ template&lt;typename grid_t&gt; </div>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">      std::function&lt;<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a>&amp;(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx)&gt;</div>
+<div class="line">      std::function&lt;<span class="keyword">const</span> <a class="code hl_typedef" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a>&amp;(<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp; gctx)&gt;</div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:42</div></div>
-<div class="ttc" id="agroup__algebra__types_html_ga0b5cf144852112b0c7f251a493d8877e"><div class="ttname"><a href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Affine &gt; Transform3</div><div class="ttdoc">3D affine transformation stored as a 4x4 matrix</div><div class="ttdef"><b>Definition</b> Algebra.hpp:99</div></div>
+<div class="ttc" id="agroup__algebra__types_html_gab6e508c2d10f1fd653dc4f05c26f9151"><div class="ttname"><a href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a></div><div class="ttdeci">Eigen::Transform&lt; double, 3, Eigen::Isometry &gt; Transform3</div><div class="ttdoc">3D rigid transformation (rotation/reflection plus translation)</div><div class="ttdef"><b>Definition</b> Algebra.hpp:104</div></div>
 </div><!-- fragment -->
 <p>Abrivation of the delegate to transform the external point into the grid's coordinate system. </p>
 
@@ -227,7 +227,7 @@ template&lt;typename grid_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>itr</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Transform3::Identity()</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>itr</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Transform3::Identity()</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

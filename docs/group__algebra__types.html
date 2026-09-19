@@ -133,6 +133,8 @@ $(function(){initNavTree('group__algebra__types.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ga256a8b3ae11d1be5a027ee218451434e" id="r_ga256a8b3ae11d1be5a027ee218451434e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga256a8b3ae11d1be5a027ee218451434e">Acts::AffineTransform3</a> = Eigen::Transform&lt;double, 3, Eigen::Affine&gt;</td></tr>
+<tr class="memdesc:ga256a8b3ae11d1be5a027ee218451434e"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D general affine transformation, allowing scaling and shearing  <br /></td></tr>
 <tr class="memitem:gad51b61e2bb0e1f7a1a6216925133f0e2" id="r_gad51b61e2bb0e1f7a1a6216925133f0e2"><td class="memItemLeft" align="right" valign="top"><a id="gad51b61e2bb0e1f7a1a6216925133f0e2" name="gad51b61e2bb0e1f7a1a6216925133f0e2"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::AngleAxis3</b> = Eigen::AngleAxis&lt;double&gt;</td></tr>
 <tr class="memdesc:gad51b61e2bb0e1f7a1a6216925133f0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation defined by an angle around a rotation axis in 3D. <br /></td></tr>
@@ -163,12 +165,11 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SquareMatrix3<
 <tr class="memitem:gaa3f7405c2f5c3ee11fec4797a91acf99" id="r_gaa3f7405c2f5c3ee11fec4797a91acf99"><td class="memItemLeft" align="right" valign="top"><a id="gaa3f7405c2f5c3ee11fec4797a91acf99" name="gaa3f7405c2f5c3ee11fec4797a91acf99"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SquareMatrix4</b> = <a class="el" href="#gaedd227e590be3a9c43c10d6654022b77">SquareMatrix</a>&lt;4&gt;</td></tr>
 <tr class="memdesc:gaa3f7405c2f5c3ee11fec4797a91acf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">4x4 square matrix type, typically used for 4D coordinate covariance <br /></td></tr>
-<tr class="memitem:gab094aafdf215d4e0bd0fa31fb4428418" id="r_gab094aafdf215d4e0bd0fa31fb4428418"><td class="memItemLeft" align="right" valign="top"><a id="gab094aafdf215d4e0bd0fa31fb4428418" name="gab094aafdf215d4e0bd0fa31fb4428418"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::Transform2</b> = Eigen::Transform&lt;double, 2, Eigen::AffineCompact&gt;</td></tr>
-<tr class="memdesc:gab094aafdf215d4e0bd0fa31fb4428418"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D affine transformation stored as a compact 2x3 matrix <br /></td></tr>
-<tr class="memitem:ga0b5cf144852112b0c7f251a493d8877e" id="r_ga0b5cf144852112b0c7f251a493d8877e"><td class="memItemLeft" align="right" valign="top"><a id="ga0b5cf144852112b0c7f251a493d8877e" name="ga0b5cf144852112b0c7f251a493d8877e"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::Transform3</b> = Eigen::Transform&lt;double, 3, Eigen::Affine&gt;</td></tr>
-<tr class="memdesc:ga0b5cf144852112b0c7f251a493d8877e"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D affine transformation stored as a 4x4 matrix <br /></td></tr>
+<tr class="memitem:ga255a38de1688e535abdc31a29492cc07" id="r_ga255a38de1688e535abdc31a29492cc07"><td class="memItemLeft" align="right" valign="top"><a id="ga255a38de1688e535abdc31a29492cc07" name="ga255a38de1688e535abdc31a29492cc07"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::Transform2</b> = Eigen::Transform&lt;double, 2, Eigen::Isometry&gt;</td></tr>
+<tr class="memdesc:ga255a38de1688e535abdc31a29492cc07"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D rigid transformation, see <a class="el" href="#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> <br /></td></tr>
+<tr class="memitem:gab6e508c2d10f1fd653dc4f05c26f9151" id="r_gab6e508c2d10f1fd653dc4f05c26f9151"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> = Eigen::Transform&lt;double, 3, Eigen::Isometry&gt;</td></tr>
+<tr class="memdesc:gab6e508c2d10f1fd653dc4f05c26f9151"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D rigid transformation (rotation/reflection plus translation)  <br /></td></tr>
 <tr class="memitem:gac9f6a028bde4d2d18b7ab554471df6c2" id="r_gac9f6a028bde4d2d18b7ab554471df6c2"><td class="memItemLeft" align="right" valign="top"><a id="gac9f6a028bde4d2d18b7ab554471df6c2" name="gac9f6a028bde4d2d18b7ab554471df6c2"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::Translation2</b> = Eigen::Translation&lt;double, 2&gt;</td></tr>
 <tr class="memdesc:gac9f6a028bde4d2d18b7ab554471df6c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D translation transformation <br /></td></tr>
@@ -187,14 +188,25 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::Vector3</b> = 
 <tr class="memitem:ga211f2201e5faee8fc4243cb3be9bc97f" id="r_ga211f2201e5faee8fc4243cb3be9bc97f"><td class="memItemLeft" align="right" valign="top"><a id="ga211f2201e5faee8fc4243cb3be9bc97f" name="ga211f2201e5faee8fc4243cb3be9bc97f"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::Vector4</b> = <a class="el" href="#ga5fb69f475a7d72c8214332057c3135d5">Vector</a>&lt;4&gt;</td></tr>
 <tr class="memdesc:ga211f2201e5faee8fc4243cb3be9bc97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">4-dimensional vector type for space-time coordinates <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga28f85f1e5822e51867264d9315a78581" id="r_ga28f85f1e5822e51867264d9315a78581"><td class="memItemLeft" align="right" valign="top"><a id="ga28f85f1e5822e51867264d9315a78581" name="ga28f85f1e5822e51867264d9315a78581"></a>
-constexpr double&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::s_transformEquivalentTolerance</b> = 1e-9</td></tr>
-<tr class="memdesc:ga28f85f1e5822e51867264d9315a78581"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance for transform equivalence checks. <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ga256a8b3ae11d1be5a027ee218451434e" name="ga256a8b3ae11d1be5a027ee218451434e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga256a8b3ae11d1be5a027ee218451434e">&#9670;&#160;</a></span>AffineTransform3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga256a8b3ae11d1be5a027ee218451434e">Acts::AffineTransform3</a> = Eigen::Transform&lt;double, 3, Eigen::Affine&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>3D general affine transformation, allowing scaling and shearing </p>
+<p>Names the transformations arriving from external geometry sources. They have to be converted to a <a class="el" href="#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> explicitly before ACTS geometry can be built from them. </p>
+
+</div>
+</div>
 <a id="ga6601cf34fab9264b809ec0bc9364048d" name="ga6601cf34fab9264b809ec0bc9364048d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6601cf34fab9264b809ec0bc9364048d">&#9670;&#160;</a></span>Matrix</h2>
 
@@ -241,6 +253,23 @@ template&lt;unsigned int kSize&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gab6e508c2d10f1fd653dc4f05c26f9151" name="gab6e508c2d10f1fd653dc4f05c26f9151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab6e508c2d10f1fd653dc4f05c26f9151">&#9670;&#160;</a></span>Transform3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> = Eigen::Transform&lt;double, 3, Eigen::Isometry&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>3D rigid transformation (rotation/reflection plus translation) </p>
+<p>The linear part is required to be orthogonal: geometry, navigation and propagation invert it by transposition and read the local frame axes off it directly. Scaling or shearing is therefore a compile error - use <a class="el" href="#ga256a8b3ae11d1be5a027ee218451434e">Acts::AffineTransform3</a> for a general transformation. </p>
 
 </div>
 </div>

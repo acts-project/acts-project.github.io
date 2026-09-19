@@ -149,17 +149,17 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ContextType</b> = <a
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af8b2af57dc794a3b24f5a8bf0e308ee0" id="r_af8b2af57dc794a3b24f5a8bf0e308ee0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b2af57dc794a3b24f5a8bf0e308ee0">GeoModelDetectorElement</a> (PVConstLink geoPhysVol, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; <a class="el" href="#a4193124cdec215fd1c97d1e743fe59de">surface</a>, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;sfTransform, double <a class="el" href="#ab298fced370c3ce866b8363dcf3e6436">thickness</a>)</td></tr>
+<tr class="memitem:af8b2af57dc794a3b24f5a8bf0e308ee0" id="r_af8b2af57dc794a3b24f5a8bf0e308ee0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b2af57dc794a3b24f5a8bf0e308ee0">GeoModelDetectorElement</a> (PVConstLink geoPhysVol, std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Acts::Surface</a> &gt; <a class="el" href="#a4193124cdec215fd1c97d1e743fe59de">surface</a>, const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp;sfTransform, double <a class="el" href="#ab298fced370c3ce866b8363dcf3e6436">thickness</a>)</td></tr>
 <tr class="memdesc:af8b2af57dc794a3b24f5a8bf0e308ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with arguments.  <br /></td></tr>
 <tr class="memitem:a33d4c8362869ceccb10d15f73dad26f1" id="r_a33d4c8362869ceccb10d15f73dad26f1"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d4c8362869ceccb10d15f73dad26f1">databaseEntryName</a> () const</td></tr>
 <tr class="memdesc:a33d4c8362869ceccb10d15f73dad26f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the string identifier of the corresponding database entry Note: This is not by defnitition a unique identifier, there can be several detector elements created from a single database entry.  <br /></td></tr>
 <tr class="memitem:aa8e9988fe99098bbdded9b18642475db" id="r_aa8e9988fe99098bbdded9b18642475db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8e9988fe99098bbdded9b18642475db">isSensitive</a> () const final</td></tr>
 <tr class="memdesc:aa8e9988fe99098bbdded9b18642475db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the detector element a sensitive element.  <br /></td></tr>
-<tr class="memitem:a0e0571165f189f565434c35009a28167" id="r_a0e0571165f189f565434c35009a28167"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e0571165f189f565434c35009a28167">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx) const override</td></tr>
+<tr class="memitem:a0e0571165f189f565434c35009a28167" id="r_a0e0571165f189f565434c35009a28167"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e0571165f189f565434c35009a28167">localToGlobalTransform</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx) const override</td></tr>
 <tr class="memdesc:a0e0571165f189f565434c35009a28167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return local to global transform associated with this detector element.  <br /></td></tr>
 <tr class="memitem:a6ff89776c324568970e8738cb89d1019" id="r_a6ff89776c324568970e8738cb89d1019"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ff89776c324568970e8738cb89d1019">logVolName</a> () const</td></tr>
 <tr class="memdesc:a6ff89776c324568970e8738cb89d1019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the logical volume.  <br /></td></tr>
-<tr class="memitem:af8c3a2b37d0ca844d24d3d86c8ab7276" id="r_af8c3a2b37d0ca844d24d3d86c8ab7276"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c3a2b37d0ca844d24d3d86c8ab7276">nominalTransform</a> () const</td></tr>
+<tr class="memitem:af8c3a2b37d0ca844d24d3d86c8ab7276" id="r_af8c3a2b37d0ca844d24d3d86c8ab7276"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c3a2b37d0ca844d24d3d86c8ab7276">nominalTransform</a> () const</td></tr>
 <tr class="memdesc:af8c3a2b37d0ca844d24d3d86c8ab7276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nominal - non-contextual transform.  <br /></td></tr>
 <tr class="memitem:a9672a642dc3ccffbb534df7bdddad67b" id="r_a9672a642dc3ccffbb534df7bdddad67b"><td class="memItemLeft" align="right" valign="top">PVConstLink&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9672a642dc3ccffbb534df7bdddad67b">physicalVolume</a> () const</td></tr>
 <tr class="memitem:a5941d439c68354e81b0f8aa2d396b364" id="r_a5941d439c68354e81b0f8aa2d396b364"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5941d439c68354e81b0f8aa2d396b364">setDatabaseEntryName</a> (const std::string &amp;n)</td></tr>
@@ -178,7 +178,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~SurfacePlacementB
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae828be34a268c5a091b981a938fd6621" id="r_ae828be34a268c5a091b981a938fd6621"><td class="memTemplParams" colspan="2">template&lt;typename SurfaceType, typename BoundsType&gt; </td></tr>
-<tr class="memitem:ae828be34a268c5a091b981a938fd6621 template"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; GeoModelDetectorElement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae828be34a268c5a091b981a938fd6621">createDetectorElement</a> (const PVConstLink &amp;geoPhysVol, const std::shared_ptr&lt; const BoundsType &gt; &amp;bounds, const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;sfTransform, double <a class="el" href="#ab298fced370c3ce866b8363dcf3e6436">thickness</a>)</td></tr>
+<tr class="memitem:ae828be34a268c5a091b981a938fd6621 template"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; GeoModelDetectorElement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae828be34a268c5a091b981a938fd6621">createDetectorElement</a> (const PVConstLink &amp;geoPhysVol, const std::shared_ptr&lt; const BoundsType &gt; &amp;bounds, const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp;sfTransform, double <a class="el" href="#ab298fced370c3ce866b8363dcf3e6436">thickness</a>)</td></tr>
 <tr class="memdesc:ae828be34a268c5a091b981a938fd6621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory to create a planar detector element with connected surface.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -208,7 +208,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sfTransform</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sfTransform</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -289,7 +289,7 @@ template&lt;typename SurfaceType, typename BoundsType&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sfTransform</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sfTransform</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -385,7 +385,7 @@ template&lt;typename SurfaceType, typename BoundsType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp; ActsPlugins::GeoModelDetectorElement::localToGlobalTransform </td>
+          <td class="memname">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp; ActsPlugins::GeoModelDetectorElement::localToGlobalTransform </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span></td><td>)</td>
           <td> const</td>
@@ -438,7 +438,7 @@ template&lt;typename SurfaceType, typename BoundsType&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="group__algebra__types.html#ga0b5cf144852112b0c7f251a493d8877e">Acts::Transform3</a> &amp; ActsPlugins::GeoModelDetectorElement::nominalTransform </td>
+          <td class="memname">const <a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Acts::Transform3</a> &amp; ActsPlugins::GeoModelDetectorElement::nominalTransform </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

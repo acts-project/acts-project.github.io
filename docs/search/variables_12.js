@@ -17,7 +17,7 @@ var searchData=
   ['s_5fplaneyz_14',['s_planeYZ',['../namespace_acts.html#a742fe36753d6446db9ea8c0f8701a352',1,'Acts']]],
   ['s_5fplanezx_15',['s_planeZX',['../namespace_acts.html#af36def3e2f9465f929dd4d273b1e1149',1,'Acts']]],
   ['s_5fsurfacetypenames_16',['s_surfaceTypeNames',['../class_acts_1_1_surface.html#a599b254f27b5f548f8be5f3d899fee9a',1,'Acts::Surface']]],
-  ['s_5ftransformequivalenttolerance_17',['s_transformEquivalentTolerance',['../group__algebra__types.html#ga28f85f1e5822e51867264d9315a78581',1,'Acts']]],
+  ['s_5ftransformequivalenttolerance_17',['s_transformEquivalentTolerance',['../namespace_acts.html#a28f85f1e5822e51867264d9315a78581',1,'Acts']]],
   ['s_5ftypename_18',['s_typeName',['../class_acts_1_1_cylinder_container_blueprint_node.html#a7a18959f7e4cf79b3a906c8a1a9f9847',1,'Acts::CylinderContainerBlueprintNode::s_typeName'],['../class_acts_1_1_cuboid_container_blueprint_node.html#a08fd6b9d55fe20cc6048c9526f5e55ee',1,'Acts::CuboidContainerBlueprintNode::s_typeName'],['../class_acts_1_1_experimental_1_1_cylinder_container_blueprint_node.html#a7a18959f7e4cf79b3a906c8a1a9f9847',1,'Acts::Experimental::CylinderContainerBlueprintNode::s_typeName'],['../class_acts_1_1_experimental_1_1_cuboid_container_blueprint_node.html#a08fd6b9d55fe20cc6048c9526f5e55ee',1,'Acts::Experimental::CuboidContainerBlueprintNode::s_typeName']]],
   ['s_5fviewfiltered_19',['s_viewFiltered',['../namespace_acts.html#a8eecb9e1cadbd7e2d179dc57de6c37b7',1,'Acts']]],
   ['s_5fviewgrid_20',['s_viewGrid',['../namespace_acts.html#afea1b5aedf4f718a6a97e9363622ded3',1,'Acts']]],

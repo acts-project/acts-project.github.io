@@ -1,10 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"struct_acts_1_1_atlas_stepper_1_1_state.html#affad2a2c763e535b62e1b6d48646990c":[8,0,0,39,2,1],
-"struct_acts_1_1_axis_boundary_type_tag.html":[6,0,0,40],
-"struct_acts_1_1_axis_boundary_type_tag.html":[8,0,0,45],
-"struct_acts_1_1_axis_direction_reference_generator.html":[6,0,0,41],
-"struct_acts_1_1_axis_direction_reference_generator.html":[8,0,0,46],
 "struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[6,0,0,41,0],
 "struct_acts_1_1_axis_direction_reference_generator.html#aa502062ca9b97047ea8fc1713bb118b0":[8,0,0,46,0],
 "struct_acts_1_1_axis_spec_1_1_deferred_variable_params.html":[6,0,0,42,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX51 =
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad166d69c9bee6f5fd6bcf225f76dfdd7":[5,9,1,2,10],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad40712b45ff99e35b5fa01a8cfa1b7b2":[5,9,1,2,2],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ae6df1e2ef73946c24aba2b1b07b3a966":[5,9,1,2,9],
-"struct_acts_1_1_combinatorial_kalman_filter_extensions.html#af3118dd826fa69138337fe3c8f18b1c2":[5,9,1,2,8]
+"struct_acts_1_1_combinatorial_kalman_filter_extensions.html#af3118dd826fa69138337fe3c8f18b1c2":[5,9,1,2,8],
+"struct_acts_1_1_combinatorial_kalman_filter_options.html":[5,9,1,3],
+"struct_acts_1_1_combinatorial_kalman_filter_options.html#a0b07635510eb143c77e1f5968425a332":[5,9,1,3,0],
+"struct_acts_1_1_combinatorial_kalman_filter_options.html#a146b20193ea6d9c8628157d7fe23957e":[5,9,1,3,9],
+"struct_acts_1_1_combinatorial_kalman_filter_options.html#a1c9da15dfab6949f7693dd9d767e8043":[5,9,1,3,12],
+"struct_acts_1_1_combinatorial_kalman_filter_options.html#a32cda750f9b9cc2d338b374a33b195c7":[5,9,1,3,4]
 };
