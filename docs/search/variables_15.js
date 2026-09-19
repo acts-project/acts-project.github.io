@@ -21,10 +21,11 @@ var searchData=
   ['volumelinks_18',['volumeLinks',['../struct_acts_plugins_1_1_detray_conversion_utils_1_1_cache.html#ab0c18b47cc5b72a83523c06ccd875dbe',1,'ActsPlugins::DetrayConversionUtils::Cache']]],
   ['volumemap_19',['volumeMap',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_config.html#ae9b3ecee0ffdf248b920d05292bdbb60',1,'Acts::ScoreBasedAmbiguityResolution::Config']]],
   ['volumematerial_20',['volumeMaterial',['../struct_acts_1_1_cuboid_volume_builder_1_1_volume_config.html#afc8f82913ae419fea66e9ca1a0101596',1,'Acts::CuboidVolumeBuilder::VolumeConfig::volumeMaterial'],['../struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a4f96534eaaaf180d6567a683cf55fce3',1,'Acts::CylinderVolumeBuilder::Config::volumeMaterial']]],
-  ['volumename_21',['volumeName',['../struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a561748b6f9c0639695bd96a06d6184f5',1,'Acts::CylinderVolumeBuilder::Config::volumeName'],['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a7e8c068e1839be893fb9a24c5d4db243',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig::volumeName']]],
-  ['volumenames_22',['volumeNames',['../struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#a066662be63118788efc6389072a07f6b',1,'ActsPlugins::TGeoParser::Options']]],
-  ['volumeprefix_23',['volumePrefix',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af3c67e9f947b033f893da059902e80aa',1,'ActsPlugins::RootMaterialMapIo::Config']]],
-  ['volumes_24',['volumes',['../struct_acts_1_1_volume_config.html#a45373e2a970db82f91ba7cf0d1beb897',1,'Acts::VolumeConfig']]],
-  ['vtxinfomap_25',['vtxInfoMap',['../struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952',1,'Acts::AdaptiveMultiVertexFitter::State']]],
-  ['vtxtomid2_26',['vtxToMid2',['../struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a69647841f96af10b565072a6b8b646bd',1,'Acts::StripSpacePointBuilder::ConstrainedStripCache']]]
+  ['volumematerials_21',['volumeMaterials',['../struct_acts_1_1_tracking_geometry_material.html#a748f830b943799d955c4d2f01bc32185',1,'Acts::TrackingGeometryMaterial']]],
+  ['volumename_22',['volumeName',['../struct_acts_1_1_cylinder_volume_builder_1_1_config.html#a561748b6f9c0639695bd96a06d6184f5',1,'Acts::CylinderVolumeBuilder::Config::volumeName'],['../struct_acts_plugins_1_1_t_geo_layer_builder_1_1_layer_config.html#a7e8c068e1839be893fb9a24c5d4db243',1,'ActsPlugins::TGeoLayerBuilder::LayerConfig::volumeName']]],
+  ['volumenames_23',['volumeNames',['../struct_acts_plugins_1_1_t_geo_parser_1_1_options.html#a066662be63118788efc6389072a07f6b',1,'ActsPlugins::TGeoParser::Options']]],
+  ['volumeprefix_24',['volumePrefix',['../struct_acts_plugins_1_1_root_material_map_io_1_1_config.html#af3c67e9f947b033f893da059902e80aa',1,'ActsPlugins::RootMaterialMapIo::Config']]],
+  ['volumes_25',['volumes',['../struct_acts_1_1_volume_config.html#a45373e2a970db82f91ba7cf0d1beb897',1,'Acts::VolumeConfig']]],
+  ['vtxinfomap_26',['vtxInfoMap',['../struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html#a492656ae47d3fe30724de4219d1d9952',1,'Acts::AdaptiveMultiVertexFitter::State']]],
+  ['vtxtomid2_27',['vtxToMid2',['../struct_acts_1_1_strip_space_point_builder_1_1_constrained_strip_cache.html#a69647841f96af10b565072a6b8b646bd',1,'Acts::StripSpacePointBuilder::ConstrainedStripCache']]]
 ];

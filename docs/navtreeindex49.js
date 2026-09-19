@@ -1,16 +1,15 @@
 var NAVTREEINDEX49 =
 {
-"namespace_acts.html#af38a8ff832aa2393884b0dbed498973c":[6,0,0,644],
 "namespace_acts.html#af4472801b776581478f9ef53b7d65975":[6,0,0,998],
 "namespace_acts.html#af4d9c22f5aa9a180415576374f06da6e":[6,0,0,684],
-"namespace_acts.html#af5dcde8c0f77a3ed6c7887d0c7e1a26d":[6,0,0,581],
+"namespace_acts.html#af5dcde8c0f77a3ed6c7887d0c7e1a26d":[6,0,0,582],
 "namespace_acts.html#af63cae486ae37da877b7ec92f7a74f1e":[6,0,0,954],
 "namespace_acts.html#af643ac54ae22c8fa907f52f4af9ca248":[6,0,0,975],
 "namespace_acts.html#af6a46533b530d2de3ffaa701b1c52bbe":[6,0,0,987],
 "namespace_acts.html#af71f1524930917d44ddc5444d2b5193f":[6,0,0,915],
 "namespace_acts.html#af72eaa6c9a0fae67cd42a7757efa1789":[6,0,0,675],
-"namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb":[6,0,0,505],
-"namespace_acts.html#af9169827ccc34e24679e5d48aa3cd8a1":[6,0,0,538],
+"namespace_acts.html#af82438c3ab8cfa7c43a00e2a821fa1bb":[6,0,0,506],
+"namespace_acts.html#af9169827ccc34e24679e5d48aa3cd8a1":[6,0,0,539],
 "namespace_acts.html#afa56c66203e142b57873e272fdea342f":[6,0,0,910],
 "namespace_acts.html#afd7b6468aa0247124a2f6e19ed60bfd0":[6,0,0,961],
 "namespace_acts.html#afded89f5410ca396ea21fee04cf8d1e2":[6,0,0,712],
@@ -19,7 +18,7 @@ var NAVTREEINDEX49 =
 "namespace_acts.html#afea1b5aedf4f718a6a97e9363622ded3":[6,0,0,1007],
 "namespace_acts.html#aff077588e6b9207d49c53b1556be3a23":[6,0,0,991],
 "namespace_acts.html#aff2f246860b0974632cebefff000f4ae":[6,0,0,860],
-"namespace_acts.html#aff81cf741e697ab165fc3579cacda4aa":[6,0,0,597],
+"namespace_acts.html#aff81cf741e697ab165fc3579cacda4aa":[6,0,0,598],
 "namespace_acts.html#aff982fda48acad30c85288b19b33fb86":[6,0,0,1008],
 "namespace_acts_1_1_detray_json_helper.html":[5,10,10,0],
 "namespace_acts_1_1_experimental.html":[6,0,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX49 =
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#aee7271fa9069344b35b8802b82963956":[8,0,0,21,0,2],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[6,0,0,16,0,4],
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#af405fd66dac948abd0deebc4e1f66494":[8,0,0,21,0,4],
-"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[6,0,0,16,1]
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[6,0,0,16,1],
+"struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html":[8,0,0,21,1]
 };

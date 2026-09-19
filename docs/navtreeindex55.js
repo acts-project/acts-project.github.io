@@ -1,6 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a0438d7811043e4726873110b5f62c2a4":[6,0,0,1,25,0,10],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a0438d7811043e4726873110b5f62c2a4":[8,0,0,2,25,0,10],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a42efe616c12b34c1cb0ea54e2c5680dc":[6,0,0,1,25,0,6],
 "struct_acts_1_1_experimental_1_1_gbts_tracking_filter_1_1_config.html#a42efe616c12b34c1cb0ea54e2c5680dc":[8,0,0,2,25,0,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[6,0,0,1,45],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html":[8,0,0,2,45],
 "struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a15c5d50d6be1ce8783d16490a75221ed":[6,0,0,1,45,4],
-"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a15c5d50d6be1ce8783d16490a75221ed":[8,0,0,2,45,4]
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a15c5d50d6be1ce8783d16490a75221ed":[8,0,0,2,45,4],
+"struct_acts_1_1_experimental_1_1_reference_trajectory_builder_options.html#a25846a8b9c79f1a27afd689c29230183":[6,0,0,1,45,1]
 };

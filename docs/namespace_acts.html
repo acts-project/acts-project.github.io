@@ -915,6 +915,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Acts::TrackingGeometry Builder for volumes that wrap around another.  <a href="class_acts_1_1_tracking_geometry_builder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackingGeometryJsonConverter" id="r_TrackingGeometryJsonConverter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html">TrackingGeometryJsonConverter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converter for tracking geometry JSON payloads.  <a href="class_acts_1_1_tracking_geometry_json_converter.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TrackingGeometryMaterial" id="r_TrackingGeometryMaterial"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface and volume material assignments.  <a href="struct_acts_1_1_tracking_geometry_material.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackingGeometryMutableVisitor" id="r_TrackingGeometryMutableVisitor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_tracking_geometry_mutable_visitor.html">TrackingGeometryMutableVisitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable visitor interface for modifying the tracking geometry hierarchy.  <a href="class_acts_1_1_tracking_geometry_mutable_visitor.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TrackingGeometryVisitor" id="r_TrackingGeometryVisitor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_tracking_geometry_visitor.html">TrackingGeometryVisitor</a></td></tr>
@@ -1356,8 +1358,6 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>SurfaceVector</b> = 
 <tr class="memitem:ab10f01c2759ff4e801d804fdf1a91199" id="r_ab10f01c2759ff4e801d804fdf1a91199"><td class="memItemLeft" align="right" valign="top"><a id="ab10f01c2759ff4e801d804fdf1a91199" name="ab10f01c2759ff4e801d804fdf1a91199"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>TrackIndexType</b> = std::uint32_t</td></tr>
 <tr class="memdesc:ab10f01c2759ff4e801d804fdf1a91199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for track index values. <br /></td></tr>
-<tr class="memitem:a4840b95a87ca15ddba7ceb31b16a4353" id="r_a4840b95a87ca15ddba7ceb31b16a4353"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4840b95a87ca15ddba7ceb31b16a4353">TrackingGeometryMaterial</a></td></tr>
-<tr class="memdesc:a4840b95a87ca15ddba7ceb31b16a4353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for tracking geometry material containing surface and volume maps.  <br /></td></tr>
 <tr class="memitem:ga493120b39f9605cd708b460b16a20c96" id="r_ga493120b39f9605cd708b460b16a20c96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__json__plugin.html#ga493120b39f9605cd708b460b16a20c96">TrackingVolumeAndMaterial</a></td></tr>
 <tr class="memdesc:ga493120b39f9605cd708b460b16a20c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pair containing a tracking volume and its associated material.  <br /></td></tr>
 <tr class="memitem:adf2d7adffd50e2d6dd1dbeb65fb658ed" id="r_adf2d7adffd50e2d6dd1dbeb65fb658ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2d7adffd50e2d6dd1dbeb65fb658ed">TrackingVolumeOrderPosition</a> = std::pair&lt;<a class="el" href="#a2d207ef0f7109becc8fba98cb145ed9d">TrackingVolumePtr</a>, <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a>&gt;</td></tr>
@@ -3484,24 +3484,6 @@ template&lt;typename <a class="el" href="#a7fc11ee35d17cdf6bb12607b24ef9e7d">Typ
 <div class="line">    std::map&lt;GeometryIdentifier, std::shared_ptr&lt;const ISurfaceMaterial&gt;&gt;</div>
 </div><!-- fragment -->
 <p>Type alias for surface material maps indexed by geometry identifier. </p>
-
-</div>
-</div>
-<a id="a4840b95a87ca15ddba7ceb31b16a4353" name="a4840b95a87ca15ddba7ceb31b16a4353"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4840b95a87ca15ddba7ceb31b16a4353">&#9670;&#160;</a></span>TrackingGeometryMaterial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a4840b95a87ca15ddba7ceb31b16a4353">Acts::TrackingGeometryMaterial</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> </div>
-<div class="line">    std::pair&lt;SurfaceMaterialMaps, VolumeMaterialMaps&gt;</div>
-</div><!-- fragment -->
-<p>Type alias for tracking geometry material containing surface and volume maps. </p>
 
 </div>
 </div>

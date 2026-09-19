@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957":[6,0,0,154,0,4],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957":[8,0,0,159,0,4],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727":[6,0,0,154,0,3],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#aea02a8ef160c9905ba7af5268b90b727":[8,0,0,159,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_gsf_options.html#a83872e960e461838460eeeb9b12a214b":[5,13,15,2],
 "struct_acts_1_1_gsf_options.html#a967824812ca767a80fae6ecb475a2c1c":[5,13,15,3],
 "struct_acts_1_1_gsf_options.html#a98d11f3c66623788530984a0e6388f04":[5,13,15,4],
-"struct_acts_1_1_gsf_options.html#aa635147a6643f90b3a68dac0da2e5f8f":[5,13,15,12]
+"struct_acts_1_1_gsf_options.html#aa635147a6643f90b3a68dac0da2e5f8f":[5,13,15,12],
+"struct_acts_1_1_gsf_options.html#ab0f93a6e84b41076e99947aa0cbbed0f":[5,13,15,6]
 };

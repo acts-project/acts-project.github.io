@@ -819,6 +819,7 @@ var hierarchy =
     [ "Acts::TrackingGeometryJsonConverter::IdToPointerLikeLookup&lt; object_t, pointer_t, kContext &gt;", "struct_acts_1_1_tracking_geometry_json_converter_1_1_id_to_pointer_like_lookup.html", null ],
     [ "Acts::TrackingGeometryJsonConverter::Options", "struct_acts_1_1_tracking_geometry_json_converter_1_1_options.html", null ],
     [ "Acts::TrackingGeometryJsonConverter::PointerToIdLookup&lt; object_t, kContext &gt;", "struct_acts_1_1_tracking_geometry_json_converter_1_1_pointer_to_id_lookup.html", null ],
+    [ "Acts::TrackingGeometryMaterial", "struct_acts_1_1_tracking_geometry_material.html", null ],
     [ "Acts::TrackingVolumeArrayCreator::Config", "struct_acts_1_1_tracking_volume_array_creator_1_1_config.html", null ],
     [ "Acts::TrackParamsLookupAccumulator&lt; grid_t &gt;", "class_acts_1_1_track_params_lookup_accumulator.html", null ],
     [ "Acts::TrackProxyCommon&lt; Derived, index_t, read_only &gt;", "class_acts_1_1_track_proxy_common.html", [

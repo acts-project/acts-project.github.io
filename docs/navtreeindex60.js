@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[6,0,0,279,0],
 "struct_acts_1_1_multi_navigation_policy_1_1_state.html":[8,0,0,284,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[6,0,0,281,0],
 "struct_acts_1_1_multi_stepper_loop_1_1_config.html":[8,0,0,286,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a1442c56154ad29584473f1387aabcdb0":[6,0,0,301,0,2],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a1442c56154ad29584473f1387aabcdb0":[8,0,0,306,0,2],
 "struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a7c02a2904587da5a325e09caf31c87eb":[6,0,0,301,0,4],
-"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a7c02a2904587da5a325e09caf31c87eb":[8,0,0,306,0,4]
+"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a7c02a2904587da5a325e09caf31c87eb":[8,0,0,306,0,4],
+"struct_acts_1_1_numerical_track_linearizer_1_1_config.html#a9f9f1d28aed0cf1df18880d78ac71daa":[6,0,0,301,0,0]
 };

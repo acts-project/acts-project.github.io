@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_const_podio_track_container_3_01holder__t_01_4_01_4.html":[5,10,4,2],
 "struct_acts_1_1_is_read_only_track_container_3_01_acts_plugins_1_1_mutable_podio_track_container_3_01holder__t_01_4_01_4.html":[5,10,4,3],
 "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html":[6,0,0,219],
 "struct_acts_1_1_is_read_only_track_container_3_01_const_vector_track_container_01_4.html":[8,0,0,224],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html":[6,0,0,278,0],
 "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html":[8,0,0,283,0],
 "struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[6,0,0,278,0,0],
-"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,283,0,0]
+"struct_acts_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,283,0,0],
+"struct_acts_1_1_multi_navigation_policy_1_1_state.html":[6,0,0,279,0]
 };

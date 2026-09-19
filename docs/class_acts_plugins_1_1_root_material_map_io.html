@@ -144,11 +144,11 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d8cece30eb8a390c89db7515d13a9a9" id="r_a4d8cece30eb8a390c89db7515d13a9a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8cece30eb8a390c89db7515d13a9a9">RootMaterialMapIo</a> (const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_config.html">Config</a> &amp;cfg, std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &gt; mLogger=<a class="el" href="namespace_acts.html#a9b4dee934b0b193d57604b19bc8cd527">Acts::getDefaultLogger</a>(&quot;RootMaterialMapIo&quot;, <a class="el" href="group__logging.html#gga9b12dd924a4bd3aed921a33779ece95ba003d450a1d7eb775ce93a8374ca21260">Acts::Logging::INFO</a>))</td></tr>
 <tr class="memdesc:a4d8cece30eb8a390c89db7515d13a9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from config struct.  <br /></td></tr>
-<tr class="memitem:a19e2344d1e1e1019a9e143deacff6a7d" id="r_a19e2344d1e1e1019a9e143deacff6a7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_acts.html#a4840b95a87ca15ddba7ceb31b16a4353">Acts::TrackingGeometryMaterial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19e2344d1e1e1019a9e143deacff6a7d">read</a> (TFile &amp;rFile, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
+<tr class="memitem:a19e2344d1e1e1019a9e143deacff6a7d" id="r_a19e2344d1e1e1019a9e143deacff6a7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acts_1_1_tracking_geometry_material.html">Acts::TrackingGeometryMaterial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19e2344d1e1e1019a9e143deacff6a7d">read</a> (TFile &amp;rFile, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
 <tr class="memdesc:a19e2344d1e1e1019a9e143deacff6a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the detector maps.  <br /></td></tr>
 <tr class="memitem:afba601243469a1affe643b20ef227065" id="r_afba601243469a1affe643b20ef227065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba601243469a1affe643b20ef227065">write</a> (TFile &amp;rFile, const <a class="el" href="class_acts_1_1_geometry_identifier.html">Acts::GeometryIdentifier</a> &amp;geoID, const <a class="el" href="class_acts_1_1_i_surface_material.html">Acts::ISurfaceMaterial</a> &amp;surfaceMaterial, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
 <tr class="memdesc:afba601243469a1affe643b20ef227065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the material to file.  <br /></td></tr>
-<tr class="memitem:abb34a647d90a8ee2e04c95c199ed3779" id="r_abb34a647d90a8ee2e04c95c199ed3779"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb34a647d90a8ee2e04c95c199ed3779">write</a> (TFile &amp;rFile, const <a class="el" href="namespace_acts.html#a4840b95a87ca15ddba7ceb31b16a4353">Acts::TrackingGeometryMaterial</a> &amp;detectorMaterial, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
+<tr class="memitem:abb34a647d90a8ee2e04c95c199ed3779" id="r_abb34a647d90a8ee2e04c95c199ed3779"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb34a647d90a8ee2e04c95c199ed3779">write</a> (TFile &amp;rFile, const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">Acts::TrackingGeometryMaterial</a> &amp;detectorMaterial, const <a class="el" href="struct_acts_plugins_1_1_root_material_map_io_1_1_options.html">Options</a> &amp;options)</td></tr>
 <tr class="memdesc:abb34a647d90a8ee2e04c95c199ed3779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the detector maps.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -200,7 +200,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_acts.html#a4840b95a87ca15ddba7ceb31b16a4353">Acts::TrackingGeometryMaterial</a> ActsPlugins::RootMaterialMapIo::read </td>
+          <td class="memname"><a class="el" href="struct_acts_1_1_tracking_geometry_material.html">Acts::TrackingGeometryMaterial</a> ActsPlugins::RootMaterialMapIo::read </td>
           <td>(</td>
           <td class="paramtype">TFile &amp;</td>          <td class="paramname"><span class="paramname"><em>rFile</em></span>, </td>
         </tr>
@@ -280,7 +280,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_acts.html#a4840b95a87ca15ddba7ceb31b16a4353">Acts::TrackingGeometryMaterial</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>detectorMaterial</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">Acts::TrackingGeometryMaterial</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>detectorMaterial</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -1,0 +1,10 @@
+<map id="Acts::TrackingGeometryMaterial" name="Acts::TrackingGeometryMaterial">
+<area shape="rect" id="Node000001" title="Surface and volume material assignments." alt="" coords="837,86,1068,111"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="398,33,629,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="642,69,837,86,837,91,642,74"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,89,140,114"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="147,84,164,81,284,69,397,62,398,67,285,74,164,87,148,89"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="356,117,671,157"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="106,119,134,133,165,144,216,153,270,157,373,155,373,160,269,163,216,158,163,149,132,138,103,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="684,122,813,111,837,108,838,114,814,116,685,127"/>
+</map>
