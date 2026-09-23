@@ -1,17 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" href="$class_acts_1_1_i_surface_material.html" title="Base class of all surface&#45;based material description." alt="" coords="5,183,171,209"/>
 <area shape="rect" id="Node000001" href="$class_acts_1_1_proto_surface_material_t.html" title=" " alt="" coords="225,5,419,45"/>
-<area shape="poly" id="edge138_Node000000_Node000001" title=" " alt="" coords="103,171,150,113,182,82,217,55,241,43,243,48,220,60,185,86,154,117,107,174"/>
+<area shape="poly" id="edge139_Node000000_Node000001" title=" " alt="" coords="103,171,150,113,182,82,217,55,241,43,243,48,220,60,185,86,154,117,107,174"/>
 <area shape="rect" id="Node000002" href="$class_acts_1_1_proto_surface_material_t.html" title=" " alt="" coords="225,69,419,109"/>
-<area shape="poly" id="edge139_Node000000_Node000002" title=" " alt="" coords="118,174,164,146,218,119,249,107,251,112,220,124,167,151,121,178"/>
+<area shape="poly" id="edge140_Node000000_Node000002" title=" " alt="" coords="118,174,164,146,218,119,249,107,251,112,220,124,167,151,121,178"/>
 <area shape="rect" id="Node000003" href="$class_acts_1_1_binned_surface_material.html" title="It extends the ISurfaceMaterial base class and is an array pf MaterialSlab." alt="" coords="219,134,425,159"/>
-<area shape="poly" id="edge140_Node000000_Node000003" title=" " alt="" coords="162,178,260,157,261,162,163,183"/>
+<area shape="poly" id="edge141_Node000000_Node000003" title=" " alt="" coords="162,178,260,157,261,162,163,183"/>
 <area shape="rect" id="Node000004" href="$class_acts_1_1_grid_surface_material.html" title="Concrete, non&#45;template surface material backed by a 2D grid." alt="" coords="228,183,416,209"/>
-<area shape="poly" id="edge141_Node000000_Node000004" title=" " alt="" coords="184,193,228,193,228,199,184,199"/>
+<area shape="poly" id="edge142_Node000000_Node000004" title=" " alt="" coords="184,193,228,193,228,199,184,199"/>
 <area shape="rect" id="Node000005" href="$class_acts_1_1_homogeneous_surface_material.html" title="It extends the ISurfaceMaterial virtual base class to describe a simple homogeneous material on a sur..." alt="" coords="221,233,423,273"/>
-<area shape="poly" id="edge142_Node000000_Node000005" title=" " alt="" coords="154,209,241,231,239,236,153,215"/>
+<area shape="poly" id="edge143_Node000000_Node000005" title=" " alt="" coords="154,209,241,231,239,236,153,215"/>
 <area shape="rect" id="Node000006" href="$class_acts_1_1_merged_material_marker.html" title="Sentinel surface material used by Portal::merge in its &quot;keep going&quot; mode." alt="" coords="219,298,425,323"/>
-<area shape="poly" id="edge143_Node000000_Node000006" title=" " alt="" coords="116,215,163,250,220,283,255,295,253,300,218,288,160,255,113,220"/>
+<area shape="poly" id="edge144_Node000000_Node000006" title=" " alt="" coords="116,215,163,250,220,283,255,295,253,300,218,288,160,255,113,220"/>
 <area shape="rect" id="Node000007" href="$class_acts_1_1_proto_surface_material_t.html" title="proxy to SurfaceMaterial hand over BinUtility or other suitable binning description" alt="" coords="225,348,419,388"/>
-<area shape="poly" id="edge144_Node000000_Node000007" title=" " alt="" coords="108,218,154,275,185,306,220,332,246,346,243,350,217,337,182,310,150,279,103,221"/>
+<area shape="poly" id="edge145_Node000000_Node000007" title=" " alt="" coords="108,218,154,275,185,306,220,332,246,346,243,350,217,337,182,310,150,279,103,221"/>
 </map>

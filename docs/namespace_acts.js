@@ -430,6 +430,7 @@ var namespace_acts =
     [ "SeedProxy", "class_acts_1_1_seed_proxy.html", "class_acts_1_1_seed_proxy" ],
     [ "SensorLayer", "class_acts_1_1_sensor_layer.html", "class_acts_1_1_sensor_layer" ],
     [ "SensorLayerAssembler", "class_acts_1_1_sensor_layer_assembler.html", "class_acts_1_1_sensor_layer_assembler" ],
+    [ "ShiftedCenterReferenceGenerator", "struct_acts_1_1_shifted_center_reference_generator.html", "struct_acts_1_1_shifted_center_reference_generator" ],
     [ "SingleCuboidPortalShell", "class_acts_1_1_single_cuboid_portal_shell.html", "class_acts_1_1_single_cuboid_portal_shell" ],
     [ "SingleCylinderPortalShell", "class_acts_1_1_single_cylinder_portal_shell.html", "class_acts_1_1_single_cylinder_portal_shell" ],
     [ "SingleDiamondPortalShell", "class_acts_1_1_single_diamond_portal_shell.html", "class_acts_1_1_single_diamond_portal_shell" ],

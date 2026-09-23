@@ -142,19 +142,28 @@ Public Attributes</h2></td></tr>
 <a class="el" href="class_acts_1_1_volume_placement_base.html">VolumePlacementBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>alignablePlacement</b> {}</td></tr>
 <tr class="memdesc:a78083b2269b601efa549d2b52bc9dc75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the tracking geometry with an alignable volume placement Used instead of the transform if set. <br /></td></tr>
 <tr class="memitem:a610976e9c450ea9dc8303ddf2833fec8" id="r_a610976e9c450ea9dc8303ddf2833fec8"><td class="memItemLeft" align="right" valign="top"><a id="a610976e9c450ea9dc8303ddf2833fec8" name="a610976e9c450ea9dc8303ddf2833fec8"></a>
-std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#a9d99ae893df60fe7f606622fe160233c">Binning</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>binning</b> = {}</td></tr>
+std::vector&lt; <a class="el" href="class_acts_1_1_experimental_1_1_multi_wire_volume_builder.html#afd754b4944b941b7167832949183251b">Binning</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>binning</b> {}</td></tr>
 <tr class="memdesc:a610976e9c450ea9dc8303ddf2833fec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binning configuration for multi-wire volume. <br /></td></tr>
 <tr class="memitem:aa197f4b79a20af392c16f8d8914c8d2b" id="r_aa197f4b79a20af392c16f8d8914c8d2b"><td class="memItemLeft" align="right" valign="top"><a id="aa197f4b79a20af392c16f8d8914c8d2b" name="aa197f4b79a20af392c16f8d8914c8d2b"></a>
 std::shared_ptr&lt; <a class="el" href="class_acts_1_1_volume_bounds.html">Acts::VolumeBounds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bounds</b> = nullptr</td></tr>
 <tr class="memdesc:aa197f4b79a20af392c16f8d8914c8d2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounds of the tracking volume. <br /></td></tr>
+<tr class="memitem:a8f19af42dd1fccb6d3dc16a1849b237e" id="r_a8f19af42dd1fccb6d3dc16a1849b237e"><td class="memItemLeft" align="right" valign="top"><a id="a8f19af42dd1fccb6d3dc16a1849b237e" name="a8f19af42dd1fccb6d3dc16a1849b237e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>correctOffsets</b> {true}</td></tr>
+<tr class="memdesc:a8f19af42dd1fccb6d3dc16a1849b237e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean flag if staggering corrections should be applied. <br /></td></tr>
 <tr class="memitem:aa56a0b9f5deac61d0fac02024fc1a98e" id="r_aa56a0b9f5deac61d0fac02024fc1a98e"><td class="memItemLeft" align="right" valign="top"><a id="aa56a0b9f5deac61d0fac02024fc1a98e" name="aa56a0b9f5deac61d0fac02024fc1a98e"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mlSurfaces</b> = {}</td></tr>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mlSurfaces</b> {}</td></tr>
 <tr class="memdesc:aa56a0b9f5deac61d0fac02024fc1a98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The surfaces to be wrapped from the tracking volume. <br /></td></tr>
 <tr class="memitem:af9b763b7a19dbf771c4dab937fb46d6c" id="r_af9b763b7a19dbf771c4dab937fb46d6c"><td class="memItemLeft" align="right" valign="top"><a id="af9b763b7a19dbf771c4dab937fb46d6c" name="af9b763b7a19dbf771c4dab937fb46d6c"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> = &quot;undefined&quot;</td></tr>
 <tr class="memdesc:af9b763b7a19dbf771c4dab937fb46d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the tracking volume. <br /></td></tr>
+<tr class="memitem:ab2c266bdfd32d6afcf3fdf493cfd0f0d" id="r_ab2c266bdfd32d6afcf3fdf493cfd0f0d"><td class="memItemLeft" align="right" valign="top"><a id="ab2c266bdfd32d6afcf3fdf493cfd0f0d" name="ab2c266bdfd32d6afcf3fdf493cfd0f0d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>precisionDelimiter</b> {1e-3}</td></tr>
+<tr class="memdesc:ab2c266bdfd32d6afcf3fdf493cfd0f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The precision delimiter for discriminating the wires/tubes per layer with a map. <br /></td></tr>
+<tr class="memitem:ae1a6e4a90896b432eb2b71371d2d9ff6" id="r_ae1a6e4a90896b432eb2b71371d2d9ff6"><td class="memItemLeft" align="right" valign="top"><a id="ae1a6e4a90896b432eb2b71371d2d9ff6" name="ae1a6e4a90896b432eb2b71371d2d9ff6"></a>
+<a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>shiftDirection</b> {}</td></tr>
+<tr class="memdesc:ae1a6e4a90896b432eb2b71371d2d9ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The direction of the axis the shift of the surfaces is applied It is the direction along the tubes. <br /></td></tr>
 <tr class="memitem:a9f42cabe52173e43cd50437899c87e40" id="r_a9f42cabe52173e43cd50437899c87e40"><td class="memItemLeft" align="right" valign="top"><a id="a9f42cabe52173e43cd50437899c87e40" name="a9f42cabe52173e43cd50437899c87e40"></a>
-<a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transform</b> = Transform3::Identity()</td></tr>
+<a class="el" href="group__algebra__types.html#gab6e508c2d10f1fd653dc4f05c26f9151">Transform3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>transform</b> {Transform3::Identity()}</td></tr>
 <tr class="memdesc:a9f42cabe52173e43cd50437899c87e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">The local -&gt; global transform of the tracking volume. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>

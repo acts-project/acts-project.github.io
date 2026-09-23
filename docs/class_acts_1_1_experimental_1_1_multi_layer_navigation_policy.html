@@ -162,8 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa352dab1d92b599cded30da74fa1e3c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the configuration.  <br /></td></tr>
 <tr class="memitem:aa1970cecb7db52ee29a15e434a840a07" id="r_aa1970cecb7db52ee29a15e434a840a07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1970cecb7db52ee29a15e434a840a07">connect</a> (<a class="el" href="namespace_acts.html#acde434daddaaeec4037aed488a49cefb">NavigationDelegate</a> &amp;delegate) const override</td></tr>
 <tr class="memdesc:aa1970cecb7db52ee29a15e434a840a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect this policy with a navigation delegate.  <br /></td></tr>
-<tr class="memitem:a07147988f1309293ace81a546f0f3e82" id="r_a07147988f1309293ace81a546f0f3e82"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07147988f1309293ace81a546f0f3e82">generatePath</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;startPosition, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction) const</td></tr>
-<tr class="memdesc:a07147988f1309293ace81a546f0f3e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a path in the multilayer.  <br /></td></tr>
+<tr class="memitem:af6701201da83accd597bf289941bb342" id="r_af6701201da83accd597bf289941bb342"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6701201da83accd597bf289941bb342">generatePath</a> (const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;startPosition, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
+<tr class="memdesc:af6701201da83accd597bf289941bb342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a path in the multilayer.  <br /></td></tr>
 <tr class="memitem:afa64c2b897d2a0dc53751eda0eb1824d" id="r_afa64c2b897d2a0dc53751eda0eb1824d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a60fa2fd8790ccb73b934d379e43ca232">IndexedUpdatorType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa64c2b897d2a0dc53751eda0eb1824d">indexedGrid</a> () const</td></tr>
 <tr class="memdesc:afa64c2b897d2a0dc53751eda0eb1824d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Give const access to the indexed grid.  <br /></td></tr>
 <tr class="memitem:a13fa66abed881178df890bcdc3554d5b" id="r_a13fa66abed881178df890bcdc3554d5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13fa66abed881178df890bcdc3554d5b">initializeCandidates</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a> &amp;args, <a class="el" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a> &amp;state, <a class="el" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a> &amp;stream, const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;logger) const</td></tr>
@@ -265,14 +265,16 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
 </div><div class="memdoc">
 
 <p>Main constructor, which expects the grid and will fill it with the surfaces from the volume passed. </p>
-<dl class="section note"><dt>Note</dt><dd>Expects that the grid is defined but not filled - it will be filled here with the surfaces assigned to the <code class="param">volume</code> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Expects that the grid is defined but not filled - it will be filled here with the surfaces assigned to the <code class="param">volume</code> </dd>
+<dd>
+This policy generates a path along the direction of the layers which is assumed to be the second axis on the grid </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gctx</td><td>The geometrycontext object </td></tr>
     <tr><td class="paramname">volume</td><td>The tracking volume holding the surfaces that will be the indexed objects </td></tr>
     <tr><td class="paramname">config</td><td>The configuration of the Navigation Policy </td></tr>
     <tr><td class="paramname">logger</td><td>A logging instance </td></tr>
-    <tr><td class="paramname">grid</td><td>The grid that will be filled with the surfaces </td></tr>
+    <tr><td class="paramname">grid</td><td>The grid that will be filled with the surfaces. The first axis is along the layer and the second axis points from one layer to the next one </td></tr>
   </table>
   </dd>
 </dl>
@@ -335,8 +337,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
 
 </div>
 </div>
-<a id="a07147988f1309293ace81a546f0f3e82" name="a07147988f1309293ace81a546f0f3e82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07147988f1309293ace81a546f0f3e82">&#9670;&#160;</a></span>generatePath()</h2>
+<a id="af6701201da83accd597bf289941bb342" name="af6701201da83accd597bf289941bb342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6701201da83accd597bf289941bb342">&#9670;&#160;</a></span>generatePath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,7 +351,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_logger.html">Logger</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>logger</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -359,6 +366,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>noopInitialize
   <table class="params">
     <tr><td class="paramname">startPosition</td><td>The starting position of the path (in local frame) </td></tr>
     <tr><td class="paramname">direction</td><td>The direction of the path (in local frame) </td></tr>
+    <tr><td class="paramname">logger</td><td>The logger </td></tr>
   </table>
   </dd>
 </dl>

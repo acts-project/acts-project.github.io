@@ -479,7 +479,8 @@ var hierarchy =
       [ "Acts::AxisDirectionReferenceGenerator< bVAL >", "struct_acts_1_1_axis_direction_reference_generator.html", null ],
       [ "Acts::CenterReferenceGenerator", "struct_acts_1_1_center_reference_generator.html", null ],
       [ "Acts::PolyhedronReferenceGenerator", "struct_acts_1_1_polyhedron_reference_generator.html", null ],
-      [ "Acts::ProjectedReferenceGenerator", "struct_acts_1_1_projected_reference_generator.html", null ]
+      [ "Acts::ProjectedReferenceGenerator", "struct_acts_1_1_projected_reference_generator.html", null ],
+      [ "Acts::ShiftedCenterReferenceGenerator", "struct_acts_1_1_shifted_center_reference_generator.html", null ]
     ] ],
     [ "Acts::ISensorDesign", "class_acts_1_1_i_sensor_design.html", null ],
     [ "Acts::IsReadOnlyMultiTrajectory&lt; T &gt;", "struct_acts_1_1_is_read_only_multi_trajectory.html", null ],
