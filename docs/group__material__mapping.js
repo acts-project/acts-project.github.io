@@ -39,11 +39,13 @@ var group__material__mapping =
         [ "materialSurfaces", "struct_acts_1_1_binned_surface_material_accumulator_1_1_config.html#a076bdf5eb88751fcac1e8b1069a41982", null ]
       ] ],
       [ "State", "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html", [
-        [ "accumulatedMaterial", "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f", null ]
+        [ "accumulatedMaterial", "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a0eecbe30758e6a22f756ac29aedd524f", null ],
+        [ "materialSurfaceRegistry", "struct_acts_1_1_binned_surface_material_accumulator_1_1_state.html#a3860dc4fc67c51f34858e344888f837b", null ]
       ] ],
       [ "BinnedSurfaceMaterialAccumulator", "class_acts_1_1_binned_surface_material_accumulator.html#a82a4abe894494aa3f90cfad5f0f338c6", null ],
       [ "accumulate", "class_acts_1_1_binned_surface_material_accumulator.html#a191154622845a1e8042964c959219695", null ],
       [ "createState", "class_acts_1_1_binned_surface_material_accumulator.html#acbbd6c3ad3ea92ceccad70680063f526", null ],
+      [ "finalizeMaps", "class_acts_1_1_binned_surface_material_accumulator.html#a90c32707e41076fa9e46fdf80a6b39fe", null ],
       [ "finalizeMaterial", "class_acts_1_1_binned_surface_material_accumulator.html#a9578a63be847d1d97fe15ea4877edc52", null ]
     ] ],
     [ "Acts::IAssignmentFinder", "class_acts_1_1_i_assignment_finder.html", [
@@ -73,6 +75,7 @@ var group__material__mapping =
       [ "~ISurfaceMaterialAccumulator", "class_acts_1_1_i_surface_material_accumulator.html#a30c36940b0d558c07baa817aeb76133b", null ],
       [ "accumulate", "class_acts_1_1_i_surface_material_accumulator.html#ab60215d24c64dcc01ea841e3287a493f", null ],
       [ "createState", "class_acts_1_1_i_surface_material_accumulator.html#a54501974c15657e0fd6eb78434a519af", null ],
+      [ "finalizeMaps", "class_acts_1_1_i_surface_material_accumulator.html#afe614f0b9443659decc7bd0b58f30b43", null ],
       [ "finalizeMaterial", "class_acts_1_1_i_surface_material_accumulator.html#ac45d61288d43796414703cb68c4d6f4a", null ]
     ] ],
     [ "Acts::MaterialMapper", "class_acts_1_1_material_mapper.html", [

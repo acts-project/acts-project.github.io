@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['k_20b_20x_20y_20z_20m_0',['k B x y z M',['../group__magnetic__field.html#autotoc_md132',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md138',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['k_20b_20x_20y_20z_20m_0',['k B x y z M',['../group__magnetic__field.html#autotoc_md134',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md140',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['kalman_20filter_1',['Combinatorial Kalman Filter',['../tracking.html#combinatorial-kalman-filter',1,'']]],
   ['kalman_20formalism_20and_20kalman_20track_20fitter_2',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
   ['kalman_20track_20fitter_3',['Kalman formalism and Kalman track fitter',['../tracking.html#kalman-formalism',1,'']]],
-  ['know_20about_4',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md117',1,'']]]
+  ['keys_4',['keys',['../material_mapping_howto.html#autotoc_md112',1,'Stable surface assignment keys'],['../material_map_json_format.html#autotoc_md129',1,'Stable surface assignment keys']]],
+  ['know_20about_5',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md118',1,'']]]
 ];

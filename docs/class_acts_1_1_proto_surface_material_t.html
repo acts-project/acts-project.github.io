@@ -146,8 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5fa299188102d354977c60febbfdfe67" id="r_a5fa299188102d354977c60febbfdfe67"><td class="memItemLeft" align="right" valign="top"><a id="a5fa299188102d354977c60febbfdfe67" name="a5fa299188102d354977c60febbfdfe67"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ProtoSurfaceMaterialT</b> ()=default</td></tr>
 <tr class="memdesc:a5fa299188102d354977c60febbfdfe67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor without binningType - homogeneous material. <br /></td></tr>
-<tr class="memitem:a78f28e25bffb1aa9ecea0677e8d1d4b8" id="r_a78f28e25bffb1aa9ecea0677e8d1d4b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f28e25bffb1aa9ecea0677e8d1d4b8">ProtoSurfaceMaterialT</a> (const <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &amp;<a class="el" href="#a649325f6be64bb200901aa911cd73337">binning</a>, <a class="el" href="namespace_acts.html#acbcb835a6b809a5f8606de4b53455807">MappingType</a> <a class="el" href="class_acts_1_1_i_surface_material.html#a2164d69cc92644590c54c6c12c35af2f">mappingType</a>=MappingType::Default)</td></tr>
-<tr class="memdesc:a78f28e25bffb1aa9ecea0677e8d1d4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with BinningType.  <br /></td></tr>
+<tr class="memitem:aaf93b04e59dff2c25fed31fb6042536d" id="r_aaf93b04e59dff2c25fed31fb6042536d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf93b04e59dff2c25fed31fb6042536d">ProtoSurfaceMaterialT</a> (const <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &amp;<a class="el" href="#a649325f6be64bb200901aa911cd73337">binning</a>, <a class="el" href="namespace_acts.html#acbcb835a6b809a5f8606de4b53455807">MappingType</a> <a class="el" href="class_acts_1_1_i_surface_material.html#a2164d69cc92644590c54c6c12c35af2f">mappingType</a>=MappingType::Default, std::optional&lt; std::string &gt; <a class="el" href="#a8ef479bced5a1dde7ede0c4c04662c4a">materialKey</a>=std::nullopt)</td></tr>
+<tr class="memdesc:aaf93b04e59dff2c25fed31fb6042536d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with BinningType.  <br /></td></tr>
 <tr class="memitem:aae0f4b0c9312714f4580dc65febbff1f" id="r_aae0f4b0c9312714f4580dc65febbff1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0f4b0c9312714f4580dc65febbff1f">ProtoSurfaceMaterialT</a> (const ProtoSurfaceMaterialT&lt; <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &gt; &amp;smproxy)=default</td></tr>
 <tr class="memdesc:aae0f4b0c9312714f4580dc65febbff1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <br /></td></tr>
 <tr class="memitem:a3e6682442d40d112910e46e04e28cedf" id="r_a3e6682442d40d112910e46e04e28cedf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e6682442d40d112910e46e04e28cedf">ProtoSurfaceMaterialT</a> (ProtoSurfaceMaterialT&lt; <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &gt; &amp;&amp;smproxy) noexcept=default</td></tr>
@@ -159,6 +159,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a649325f6be64bb200901aa911cd73337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the BinUtility.  <br /></td></tr>
 <tr class="memitem:a18dd73713629dd1dfc28e9f8162dcc38" id="r_a18dd73713629dd1dfc28e9f8162dcc38"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_acts.html#a1462738699cb376ae92c59811987f4ea">AxisDirection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18dd73713629dd1dfc28e9f8162dcc38">localAxisDirections</a> () const final</td></tr>
 <tr class="memdesc:a18dd73713629dd1dfc28e9f8162dcc38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the axis directions for the local coordinate system.     <br /></td></tr>
+<tr class="memitem:a8ef479bced5a1dde7ede0c4c04662c4a" id="r_a8ef479bced5a1dde7ede0c4c04662c4a"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ef479bced5a1dde7ede0c4c04662c4a">materialKey</a> () const</td></tr>
+<tr class="memdesc:a8ef479bced5a1dde7ede0c4c04662c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable identity of the material assignment, if configured.  <br /></td></tr>
 <tr class="memitem:ae61a08d1a2de0649c5f1ad47f8efce92" id="r_ae61a08d1a2de0649c5f1ad47f8efce92"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61a08d1a2de0649c5f1ad47f8efce92">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;) const final</td></tr>
 <tr class="memdesc:ae61a08d1a2de0649c5f1ad47f8efce92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for full material description of the Surface - from local coordinates.  <br /></td></tr>
 <tr class="memitem:a57c67692911c878a906319e8a8ffcd5d" id="r_a57c67692911c878a906319e8a8ffcd5d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57c67692911c878a906319e8a8ffcd5d">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp, <a class="el" href="class_acts_1_1_direction.html">Direction</a> pDir, <a class="el" href="namespace_acts.html#a220af422d8795c920a43cf9048fc4726">MaterialUpdateMode</a> mode) const</td></tr>
@@ -204,8 +206,8 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 class Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;</div><p>proxy to SurfaceMaterial hand over BinUtility or other suitable binning description </p>
 <p>The ProtoSurfaceMaterial class acts as a proxy to the SurfaceMaterial to mark the layers and surfaces on which the material should be mapped on at construction time of the geometry and to hand over the granularity of of the material map with the bin Utility. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a78f28e25bffb1aa9ecea0677e8d1d4b8" name="a78f28e25bffb1aa9ecea0677e8d1d4b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78f28e25bffb1aa9ecea0677e8d1d4b8">&#9670;&#160;</a></span>ProtoSurfaceMaterialT() <span class="overload">[1/3]</span></h2>
+<a id="aaf93b04e59dff2c25fed31fb6042536d" name="aaf93b04e59dff2c25fed31fb6042536d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf93b04e59dff2c25fed31fb6042536d">&#9670;&#160;</a></span>ProtoSurfaceMaterialT() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +225,12 @@ template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f5
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_acts.html#acbcb835a6b809a5f8606de4b53455807">MappingType</a></td>          <td class="paramname"><span class="paramname"><em>mappingType</em></span><span class="paramdefsep"> = </span><span class="paramdefval">MappingType::Default</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespace_acts.html#acbcb835a6b809a5f8606de4b53455807">MappingType</a></td>          <td class="paramname"><span class="paramname"><em>mappingType</em></span><span class="paramdefsep"> = </span><span class="paramdefval">MappingType::Default</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; std::string &gt;</td>          <td class="paramname"><span class="paramname"><em>materialKey</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -237,6 +244,7 @@ template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f5
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">binning</td><td>a binning description for the material map binning </td></tr>
+    <tr><td class="paramname">materialKey</td><td>Optional stable identity of the material assignment </td></tr>
     <tr><td class="paramname">mappingType</td><td>is the type of surface mapping associated to the surface </td></tr>
   </table>
   </dd>
@@ -366,6 +374,28 @@ template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f5
 <dl class="section return"><dt>Returns</dt><dd>Vector of axis directions defining the local coordinate system    </dd></dl>
 
 <p>Implements <a class="el" href="class_acts_1_1_i_surface_material.html#a2903c22249391ed7398be537f7302452">Acts::ISurfaceMaterial</a>.</p>
+
+</div>
+</div>
+<a id="a8ef479bced5a1dde7ede0c4c04662c4a" name="a8ef479bced5a1dde7ede0c4c04662c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ef479bced5a1dde7ede0c4c04662c4a">&#9670;&#160;</a></span>materialKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a>&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::optional&lt; std::string &gt; &amp; <a class="el" href="class_acts_1_1_proto_surface_material_t.html">Acts::ProtoSurfaceMaterialT</a>&lt; <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">BinningType</a> &gt;::materialKey </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stable identity of the material assignment, if configured. </p>
+<dl class="section return"><dt>Returns</dt><dd>Optional stable material assignment key </dd></dl>
 
 </div>
 </div>

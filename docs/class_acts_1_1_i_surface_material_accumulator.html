@@ -150,6 +150,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISurfaceMaterialA
 <tr class="memdesc:ab60215d24c64dcc01ea841e3287a493f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulate the material interaction on the surface.  <br /></td></tr>
 <tr class="memitem:a54501974c15657e0fd6eb78434a519af" id="r_a54501974c15657e0fd6eb78434a519af"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="class_acts_1_1_i_surface_material_accumulator_1_1_state.html">State</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54501974c15657e0fd6eb78434a519af">createState</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const =0</td></tr>
 <tr class="memdesc:a54501974c15657e0fd6eb78434a519af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory for creating the state.  <br /></td></tr>
+<tr class="memitem:afe614f0b9443659decc7bd0b58f30b43" id="r_afe614f0b9443659decc7bd0b58f30b43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe614f0b9443659decc7bd0b58f30b43">finalizeMaps</a> (<a class="el" href="class_acts_1_1_i_surface_material_accumulator_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const</td></tr>
+<tr class="memdesc:afe614f0b9443659decc7bd0b58f30b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalize material assignments, including stable keys when supported.  <br /></td></tr>
 <tr class="memitem:ac45d61288d43796414703cb68c4d6f4a" id="r_ac45d61288d43796414703cb68c4d6f4a"><td class="memItemLeft" align="right" valign="top">virtual std::map&lt; <a class="el" href="class_acts_1_1_geometry_identifier.html">GeometryIdentifier</a>, std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_surface_material.html">ISurfaceMaterial</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac45d61288d43796414703cb68c4d6f4a">finalizeMaterial</a> (<a class="el" href="class_acts_1_1_i_surface_material_accumulator_1_1_state.html">State</a> &amp;state, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx) const =0</td></tr>
 <tr class="memdesc:ac45d61288d43796414703cb68c4d6f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalize the surface material maps.  <br /></td></tr>
 </table>
@@ -242,6 +244,47 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISurfaceMaterialA
 <dl class="section return"><dt>Returns</dt><dd>Unique pointer to a new state object for material accumulation </dd></dl>
 
 <p>Implemented in <a class="el" href="class_acts_1_1_binned_surface_material_accumulator.html#acbbd6c3ad3ea92ceccad70680063f526">Acts::BinnedSurfaceMaterialAccumulator</a>.</p>
+
+</div>
+</div>
+<a id="afe614f0b9443659decc7bd0b58f30b43" name="afe614f0b9443659decc7bd0b58f30b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe614f0b9443659decc7bd0b58f30b43">&#9670;&#160;</a></span>finalizeMaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_acts_1_1_tracking_geometry_material.html">TrackingGeometryMaterial</a> Acts::ISurfaceMaterialAccumulator::finalizeMaps </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_i_surface_material_accumulator_1_1_state.html">State</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>gctx</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finalize material assignments, including stable keys when supported. </p>
+<p>The default adapts the existing ID-only finalizeMaterial implementation. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>State created by this accumulator </td></tr>
+    <tr><td class="paramname">gctx</td><td>Geometry context </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Finalized material maps </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_acts_1_1_binned_surface_material_accumulator.html#a90c32707e41076fa9e46fdf80a6b39fe">Acts::BinnedSurfaceMaterialAccumulator</a>.</p>
 
 </div>
 </div>

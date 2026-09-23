@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['layer_20combinatorics_20functions_0',['layer combinatorics functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md134',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md133',1,'The 4-layer combinatorics functions']]],
+  ['layer_20combinatorics_20functions_0',['layer combinatorics functions',['../_combinatorial_seed_solver_8hpp.html#autotoc_md136',1,'The 3-layer combinatorics functions'],['../_combinatorial_seed_solver_8hpp.html#autotoc_md135',1,'The 4-layer combinatorics functions']]],
   ['layer_20connections_1',['Geometry and layer connections',['../group__gbts.html#gbts-geometry',1,'']]],
-  ['layout_2',['Document layout',['../material_map_json_format.html#autotoc_md120',1,'']]],
+  ['layout_2',['Document layout',['../material_map_json_format.html#autotoc_md121',1,'']]],
   ['lcg_20release_20on_20cvmfs_3',['With a LCG release on CVMFS',['../building_acts.html#autotoc_md67',1,'']]],
   ['learning_20assisted_20acceptance_4',['Machine-learning assisted acceptance',['../group__gbts.html#gbts-ml',1,'']]],
   ['level_20track_20event_20data_20model_5',['High-level Track Event Data Model',['../group__eventdata__tracks.html#edm_Tracks',1,'']]],
   ['levels_6',['Logging Levels',['../group__logging.html#autotoc_md40',1,'']]],
   ['libraries_20when_20compiling_7',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md81',1,'']]],
   ['lifetime_20management_8',['Lifetime management',['../group__geometry__module__loading.html#autotoc_md10',1,'']]],
-  ['limitations_20you_20should_20know_20about_9',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md117',1,'']]],
+  ['limitations_20you_20should_20know_20about_9',['Limitations you should know about',['../material_mapping_howto.html#autotoc_md118',1,'']]],
   ['link_20gperftools_20libraries_20when_20compiling_10',['Link gperftools Libraries When Compiling',['../howto_profiling.html#autotoc_md81',1,'']]],
   ['linking_11',['Track state iteration and forward linking',['../group__eventdata__tracks.html#edm_track_iteration',1,'']]],
   ['live_12',['Where the reference files live',['../physmon.html#autotoc_md74',1,'']]],

@@ -196,12 +196,18 @@ var group__material =
       [ "operator==", "class_acts_1_1_material_slab.html#a1c047010d78efb3b7c6c00467c5ef314", null ]
     ] ],
     [ "Acts::MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html", [
+      [ "Origin", "struct_acts_1_1_merged_material_marker_1_1_origin.html", [
+        [ "geometryId", "struct_acts_1_1_merged_material_marker_1_1_origin.html#a0db27b5ee04d854dfadb286d77200310", null ],
+        [ "materialKey", "struct_acts_1_1_merged_material_marker_1_1_origin.html#a9ba2c860bfc1b72cd7d8bc3f825eba65", null ]
+      ] ],
+      [ "MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html#a8fd2f61408a05539d57e7c5dd112aa5c", null ],
       [ "MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html#a077f3ef411a3a68bc98f2736e28ee1c7", null ],
       [ "~MergedMaterialMarker", "class_acts_1_1_merged_material_marker.html#a8736a69032d782dac36323e72f6b8ffc", null ],
       [ "factor", "class_acts_1_1_merged_material_marker.html#a9e136c68d2f0ef7ad6b085e9ab3a882f", null ],
       [ "localAxisDirections", "class_acts_1_1_merged_material_marker.html#a7d86b3d73721b39d80e723fb49999ca2", null ],
       [ "materialSlab", "class_acts_1_1_merged_material_marker.html#a57c67692911c878a906319e8a8ffcd5d", null ],
       [ "materialSlab", "class_acts_1_1_merged_material_marker.html#a1236e9f566f21e5a4c0272bca8a4af5e", null ],
+      [ "origins", "class_acts_1_1_merged_material_marker.html#ac1558d6311626d74b9df7a24878dcc2b", null ],
       [ "scale", "class_acts_1_1_merged_material_marker.html#a344f98e1b59a1a204ecaa43c263816ae", null ],
       [ "toStream", "class_acts_1_1_merged_material_marker.html#a73beea7bf9fbbb9886e89f46a756055f", null ]
     ] ],
@@ -226,12 +232,13 @@ var group__material =
     ] ],
     [ "Acts::ProtoSurfaceMaterialT&lt; BinningType &gt;", "class_acts_1_1_proto_surface_material_t.html", [
       [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#a5fa299188102d354977c60febbfdfe67", null ],
-      [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#a78f28e25bffb1aa9ecea0677e8d1d4b8", null ],
+      [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#aaf93b04e59dff2c25fed31fb6042536d", null ],
       [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#aae0f4b0c9312714f4580dc65febbff1f", null ],
       [ "ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#a3e6682442d40d112910e46e04e28cedf", null ],
       [ "~ProtoSurfaceMaterialT", "class_acts_1_1_proto_surface_material_t.html#a9589638a5b17cd3179dc9df4b0ee161d", null ],
       [ "binning", "class_acts_1_1_proto_surface_material_t.html#a649325f6be64bb200901aa911cd73337", null ],
       [ "localAxisDirections", "class_acts_1_1_proto_surface_material_t.html#a18dd73713629dd1dfc28e9f8162dcc38", null ],
+      [ "materialKey", "class_acts_1_1_proto_surface_material_t.html#a8ef479bced5a1dde7ede0c4c04662c4a", null ],
       [ "materialSlab", "class_acts_1_1_proto_surface_material_t.html#ae61a08d1a2de0649c5f1ad47f8efce92", null ],
       [ "materialSlab", "class_acts_1_1_proto_surface_material_t.html#a57c67692911c878a906319e8a8ffcd5d", null ],
       [ "operator=", "class_acts_1_1_proto_surface_material_t.html#ababba433d44bc099374fd007236501f8", null ],

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['b_0',['b',['../struct_acts_1_1_toroid_field_1_1_barrel_config.html#ade2145ec68155ac2f31e34be46617601',1,'Acts::ToroidField::BarrelConfig::b'],['../struct_acts_1_1_toroid_field_1_1_ect_config.html#af05d46e6ef29d30e858be598edb10203',1,'Acts::ToroidField::EctConfig::b']]],
-  ['b_20r_20z_20m_1',['B r z M',['../group__magnetic__field.html#autotoc_md131',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md137',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['b_20x_20y_20z_20m_2',['B x y z M',['../group__magnetic__field.html#autotoc_md132',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md138',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['b_20r_20z_20m_1',['B r z M',['../group__magnetic__field.html#autotoc_md133',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md139',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['b_20x_20y_20z_20m_2',['B x y z M',['../group__magnetic__field.html#autotoc_md134',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md140',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['b_5ffirst_3',['B_first',['../struct_acts_1_1_eigen_stepper_1_1_state.html#aa1e41e33043178704dc32719443b56ca',1,'Acts::EigenStepper::State']]],
   ['back_4',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md110',1,'']]],
   ['backend_5',['Backend',['../class_acts_1_1_blueprint_builder.html#ab62688a5c2c8328eb5ba0fc216047875',1,'Acts::BlueprintBuilder::Backend'],['../class_acts_1_1_experimental_1_1_blueprint_builder.html#ab62688a5c2c8328eb5ba0fc216047875',1,'Acts::Experimental::BlueprintBuilder::Backend']]],
@@ -63,7 +63,7 @@ var searchData=
   ['binindex_60',['binIndex',['../class_acts_1_1_cartesian_space_point_grid.html#a9da34f9c43cbe7a354953479c6f5566f',1,'Acts::CartesianSpacePointGrid::binIndex()'],['../class_acts_1_1_cylindrical_space_point_grid.html#a71e448462b4b0d0ba44819e222be3e49',1,'Acts::CylindricalSpacePointGrid::binIndex()'],['../class_acts_1_1_experimental_1_1_spherical_space_point_grid.html#a8ce77b2aee2e13e66dfb7654a9434e4e',1,'Acts::Experimental::SphericalSpacePointGrid::binIndex()'],['../struct_acts_1_1_track_selector_1_1_eta_binned_config.html#a08cf202989342cdea2381b0f6ddebab5',1,'Acts::TrackSelector::EtaBinnedConfig::binIndex(double eta) const']]],
   ['binindexnocheck_61',['binIndexNoCheck',['../struct_acts_1_1_track_selector_1_1_eta_binned_config.html#aca0cd5d9028425c5297287b6a7634a14',1,'Acts::TrackSelector::EtaBinnedConfig']]],
   ['binkey_62',['binkey',['../struct_acts_1_1json_key.html#a36a4656d2814cf5eb3f20b6c3177f208',1,'Acts::jsonKey']]],
-  ['binned_63',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md123',1,'']]],
+  ['binned_63',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md124',1,'']]],
   ['binnedarray_64',['BinnedArray',['../class_acts_1_1_binned_array.html',1,'Acts::BinnedArray&lt; T &gt;'],['../class_acts_1_1_binned_array.html#a3a77b70574e124dfd86b2310fa8ed519',1,'Acts::BinnedArray::BinnedArray()']]],
   ['binnedarray_3c_20layerptr_20_3e_65',['BinnedArray&lt; LayerPtr &gt;',['../class_acts_1_1_binned_array.html',1,'Acts']]],
   ['binnedarray_3c_20trackingvolumeptr_20_3e_66',['BinnedArray&lt; TrackingVolumePtr &gt;',['../class_acts_1_1_binned_array.html',1,'Acts']]],

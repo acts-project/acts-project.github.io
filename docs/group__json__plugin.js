@@ -37,7 +37,8 @@ var group__json__plugin =
     [ "Acts::JsonMaterialDecorator", "class_acts_1_1_json_material_decorator.html", [
       [ "JsonMaterialDecorator", "class_acts_1_1_json_material_decorator.html#ac6024d03886d7ae38c0e83792b8b563c", null ],
       [ "decorate", "class_acts_1_1_json_material_decorator.html#a7a25bac902084d283fcf140015666fe0", null ],
-      [ "decorate", "class_acts_1_1_json_material_decorator.html#a553019ef6d9adb5546899327779caf44", null ]
+      [ "decorate", "class_acts_1_1_json_material_decorator.html#a553019ef6d9adb5546899327779caf44", null ],
+      [ "materialMaps", "class_acts_1_1_json_material_decorator.html#a1ee34cb0d1686a7b941ad58dee15ea24", null ]
     ] ],
     [ "Acts::MaterialMapJsonConverter", "class_acts_1_1_material_map_json_converter.html", [
       [ "Config", "class_acts_1_1_material_map_json_converter_1_1_config.html", [

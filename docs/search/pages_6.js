@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md131',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md137',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md132',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md138',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
+  ['b_20r_20z_20m_0',['B r z M',['../group__magnetic__field.html#autotoc_md133',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md139',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['b_20x_20y_20z_20m_1',['B x y z M',['../group__magnetic__field.html#autotoc_md134',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||'],['../group__root__plugin.html#autotoc_md140',1,'|| x | i || y | j || z | k || |B(x,y,z)| || M ||']]],
   ['back_2',['1d. Write the choices back',['../material_mapping_howto.html#autotoc_md110',1,'']]],
   ['backend_3',['backend',['../group__eventdata__tracks.html#autotoc_md33',1,'How to build a backend'],['../group__eventdata__tracks.html#autotoc_md35',1,'MultiTrajectory (track state) backend'],['../group__eventdata__tracks.html#autotoc_md32',1,'PODIO backend'],['../group__eventdata__tracks.html#autotoc_md34',1,'TrackContainer backend'],['../group__eventdata__tracks.html#autotoc_md31',1,'Transient vector backend']]],
   ['backends_4',['Track EDM backends',['../group__eventdata__tracks.html#edm_track_backends',1,'']]],
@@ -14,7 +14,7 @@ var searchData=
   ['benefits_11',['Benefits',['../group__errors.html#autotoc_md24',1,'']]],
   ['bethe–heitler_20energy_20loss_20as_20a_20mixture_12',['Bethe–Heitler energy loss as a mixture',['../group__gsf.html#gsf-bethe-heitler',1,'']]],
   ['bibliography_13',['Bibliography',['../citelist.html',1,'']]],
-  ['binned_14',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md123',1,'']]],
+  ['binned_14',['&lt;span class=&quot;tt&quot;&gt;homogeneous&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;binned&lt;/span&gt;',['../material_map_json_format.html#autotoc_md124',1,'']]],
   ['branch_15',['Step 1: Update the release branch',['../howto_release.html#autotoc_md89',1,'']]],
   ['bremsstrahlung_20recovery_20in_20the_20ckf_16',['Bremsstrahlung recovery in the CKF',['../group__gsf.html#gsf-ckf-brem',1,'']]],
   ['bugs_17',['Bugs',['../bug.html',1,'']]],

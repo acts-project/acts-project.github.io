@@ -602,6 +602,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result payload returned by the Kalman fitter.  <a href="struct_acts_1_1_kalman_fitter_result.html#details">More...</a><br /></td></tr>
 <tr class="memitem:KDTree" id="r_KDTree"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_k_d_tree.html">KDTree</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A general k-d tree with fast range search.  <a href="class_acts_1_1_k_d_tree.html#details">More...</a><br /></td></tr>
+<tr class="memitem:KeyedSurfaceMaterial" id="r_KeyedSurfaceMaterial"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_keyed_surface_material.html">KeyedSurfaceMaterial</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A keyed assignment.  <a href="struct_acts_1_1_keyed_surface_material.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Layer" id="r_Layer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_layer.html">Layer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base Class for a Detector Layer in the Tracking Geometry.  <a href="class_acts_1_1_layer.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LayerArrayCreator" id="r_LayerArrayCreator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_layer_array_creator.html">LayerArrayCreator</a></td></tr>
@@ -1201,6 +1203,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Intersection3D</b> =
 <tr class="memitem:af9169827ccc34e24679e5d48aa3cd8a1" id="r_af9169827ccc34e24679e5d48aa3cd8a1"><td class="memItemLeft" align="right" valign="top"><a id="af9169827ccc34e24679e5d48aa3cd8a1" name="af9169827ccc34e24679e5d48aa3cd8a1"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>IntersectionIndex</b> = std::uint8_t</td></tr>
 <tr class="memdesc:af9169827ccc34e24679e5d48aa3cd8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index type for intersections. <br /></td></tr>
+<tr class="memitem:aced2304433e8c9b412679158ae856142" id="r_aced2304433e8c9b412679158ae856142"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aced2304433e8c9b412679158ae856142">KeyedSurfaceMaterialMaps</a></td></tr>
+<tr class="memdesc:aced2304433e8c9b412679158ae856142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface assignments with stable keys.  <br /></td></tr>
 <tr class="memitem:abb5a9cf5e2b49936d60e698d81fe6e0d" id="r_abb5a9cf5e2b49936d60e698d81fe6e0d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb5a9cf5e2b49936d60e698d81fe6e0d">LayerPtr</a> = std::shared_ptr&lt;const <a class="el" href="class_acts_1_1_layer.html">Layer</a>&gt;</td></tr>
 <tr class="memdesc:abb5a9cf5e2b49936d60e698d81fe6e0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A std::shared_ptr to a Layer.  <br /></td></tr>
 <tr class="memitem:a6bacc83149ffd31c3d1c02297b63a884" id="r_a6bacc83149ffd31c3d1c02297b63a884"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bacc83149ffd31c3d1c02297b63a884">MaterialGrid2D</a></td></tr>
@@ -2889,6 +2893,25 @@ template&lt;std::size_t SubspaceSize&gt; </div>
 
 <p>Type alias for hashed string representation. </p>
 <p>Represents a string as a compile-time hash value for efficient comparison </p>
+
+</div>
+</div>
+<a id="aced2304433e8c9b412679158ae856142" name="aced2304433e8c9b412679158ae856142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced2304433e8c9b412679158ae856142">&#9670;&#160;</a></span>KeyedSurfaceMaterialMaps</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aced2304433e8c9b412679158ae856142">Acts::KeyedSurfaceMaterialMaps</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">    std::map&lt;std::string, KeyedSurfaceMaterial, std::less&lt;&gt;&gt;</div>
+</div><!-- fragment -->
+<p>Surface assignments with stable keys. </p>
+<p>Different keys may have the same geometry ID recorded during mapping when maps from separate geometries are combined. </p>
 
 </div>
 </div>

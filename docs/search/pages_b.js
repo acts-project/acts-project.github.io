@@ -1,7 +1,7 @@
 var searchData=
 [
   ['gaussians_0',['Why a mixture of Gaussians?',['../group__gsf.html#autotoc_md38',1,'']]],
-  ['geant4_1',['Step 2: record the material with Geant4',['../material_mapping_howto.html#autotoc_md112',1,'']]],
+  ['geant4_1',['Step 2: record the material with Geant4',['../material_mapping_howto.html#autotoc_md113',1,'']]],
   ['gen3_2',['Designating material in Gen3',['../material_mapping_howto.html#autotoc_md111',1,'']]],
   ['generate_20them_3',['Why generate them',['../group__sympy__codegen.html#autotoc_md59',1,'']]],
   ['generated_20code_4',['Source packages with pre-generated code',['../building_acts.html#source-package',1,'']]],
@@ -18,7 +18,7 @@ var searchData=
   ['graph_15',['View Profile as a Graph',['../howto_profiling.html#autotoc_md87',1,'']]],
   ['graph_16',['graph',['../group__gbts.html#gbts-graph',1,'Building the graph'],['../group__gbts.html#autotoc_md52',1,'Why a graph?']]],
   ['graph_20nodes_17',['Graph nodes',['../group__gbts.html#gbts-nodes',1,'']]],
-  ['grid_18',['grid',['../material_map_json_format.html#autotoc_md125',1,'&lt;span class=&quot;tt&quot;&gt;grid&lt;/span&gt;'],['../material_map_json_format.html#autotoc_md124',1,'&lt;span class=&quot;tt&quot;&gt;proto&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;proto-grid&lt;/span&gt;'],['../group__surface__array.html#autotoc_md13',1,'The grid']]],
+  ['grid_18',['grid',['../material_map_json_format.html#autotoc_md126',1,'&lt;span class=&quot;tt&quot;&gt;grid&lt;/span&gt;'],['../material_map_json_format.html#autotoc_md125',1,'&lt;span class=&quot;tt&quot;&gt;proto&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;proto-grid&lt;/span&gt;'],['../group__surface__array.html#autotoc_md13',1,'The grid']]],
   ['grid_20local_19',['Surface local versus grid local',['../group__surface__array.html#autotoc_md14',1,'']]],
-  ['guard_20this_20',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md119',1,'']]]
+  ['guard_20this_20',['Worked example, and the tests that guard this',['../material_mapping_howto.html#autotoc_md120',1,'']]]
 ];

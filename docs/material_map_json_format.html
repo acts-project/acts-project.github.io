@@ -290,11 +290,11 @@ $(function(){initNavTree('material_map_json_format.html','',''); });
 <div class="line">        ]</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md120"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md121"></a>
 Document layout</h2>
 <p>The document has two top level keys, <span class="tt">Surfaces</span> and <span class="tt">Volumes</span>. Each holds a <a class="el" href="class_acts_1_1_geometry_hierarchy_map_json_converter.html">geometry hierarchy map</a> document, which is a header naming the container &ndash; <span class="tt">acts-geometry-hierarchy-map</span>, with a <span class="tt">format-version</span> and a <span class="tt">value-identifier</span> &ndash; followed by a flat list of <span class="tt">entries</span>.</p>
 <p>An entry carries the non-zero levels of its <a class="el" href="class_acts_1_1_geometry_identifier.html">Acts::GeometryIdentifier</a> (<span class="tt">volume</span>, <span class="tt">boundary</span>, <span class="tt">layer</span>, <span class="tt">approach</span>, <span class="tt">sensitive</span>) next to a <span class="tt">value</span> object. Levels that are zero are omitted, which is why the homogeneous entry above shows <span class="tt">volume</span> and <span class="tt">boundary</span> but no <span class="tt">layer</span>. For material maps the <span class="tt">value</span> object has a single <span class="tt">material</span> key. An entry whose <span class="tt">material</span> is missing or <span class="tt">null</span> is skipped when reading, which is how a geometry dump can list surfaces that carry no material yet.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md121"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md122"></a>
 Surface material payloads</h2>
 <p>The value under <span class="tt">material</span> is a self-describing payload. Its <span class="tt">type</span> tag selects the decoder and is authoritative: a missing or unknown tag is an error, the payload is never guessed from the keys that happen to be present.</p>
 <table class="markdownTable">
@@ -318,16 +318,16 @@ Surface material payloads</h2>
 <li><span class="tt">mapMaterial</span> steers the material mapping. Reading a payload with <span class="tt">mapMaterial: false</span> yields no material at all, so this is also how a surface is flagged out of the mapping. Proto material without any binning is written with <span class="tt">mapMaterial: false</span> for that reason.</li>
 <li><span class="tt">mappingType</span> is one of <span class="tt">PreMapping</span>, <span class="tt">Default</span>, <span class="tt">PostMapping</span> or <span class="tt">Sensor</span> and tells the mapper where along the propagation the material should be assigned. It is absent from the <span class="tt">grid</span> and <span class="tt">merged-material-marker</span> payloads, which do not participate in the deprecated mapping path.</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md122"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md123"></a>
 Material slabs</h3>
 <p>Wherever material itself is stored, it is a slab: the opaque <a class="el" href="class_acts_1_1_material.html">Acts::Material</a> parameter vector plus a thickness. The vector currently holds radiation length, interaction length, relative atomic mass, nuclear charge and molar density in ACTS native units, but it is deliberately opaque &ndash; read it through the converter rather than by index, since more parameters may be appended later. Vacuum is written as a <span class="tt">null</span> vector, as in the empty second bin of the binned entry above.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md123"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md124"></a>
 <span class="tt">homogeneous</span> and <span class="tt">binned</span></h3>
 <p><span class="tt">homogeneous</span> is one slab for the whole surface. The slab sits in a nested array for historical reasons: it is the degenerate case of the <span class="tt">binned</span> matrix, which pairs a <a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a> with the slabs it addresses. That matrix is indexed <span class="tt">[bin of the second binning][bin of the first binning]</span>, so the one dimensional binning of the example gives a single row of two slabs.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md124"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md125"></a>
 <span class="tt">proto</span> and <span class="tt">proto-grid</span></h3>
 <p>Binning instructions for the material mapping that carry no material yet. <span class="tt">proto</span> expresses the binning as a <a class="el" href="class_acts_1_1_bin_utility.html">Acts::BinUtility</a>, exactly as <span class="tt">binned</span> does but without the <span class="tt">data</span>. <span class="tt">proto-grid</span> expresses it as an <span class="tt">axis_specs</span> list of <a class="el" href="class_acts_1_1_axis_spec.html">Acts::AxisSpec</a>, which is the representation the grid based material uses; each spec has a <span class="tt">type</span>, a <span class="tt">bins</span> count, a <span class="tt">range</span>, a <span class="tt">boundary_type</span> and a <span class="tt">direction</span>. Exactly two specs are required.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md125"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md126"></a>
 <span class="tt">grid</span></h3>
 <p>The whole grid material family shares one tag, and one C++ class: <a class="el" href="class_acts_1_1_grid_surface_material.html">Acts::GridSurfaceMaterial</a>. The payload is a grid under <span class="tt">accessor</span>, made of a list of <span class="tt">axes</span> and a <span class="tt">data</span> list of <span class="tt">[local bins, value]</span> pairs. The local bin indices are <b>one based</b> and follow the axis order of <span class="tt">axes</span>.</p>
 <p>The grid is always two dimensional, and lookup is local: <span class="tt">loc0</span> addresses axis 0 and <span class="tt">loc1</span> axis 1 directly. There is no global (position) lookup and hence no coordinate-transform description in the payload.</p>
@@ -344,12 +344,29 @@ Material slabs</h3>
 </table>
 <p><span class="tt">indexed</span>, shown in the example, keeps a slab store next to the grid and the bins index into it, which pays off as soon as several bins share the same slab. Note that the store index is unrelated to the bin number: the single bin of the example holds index 1, the second entry of its <span class="tt">storage_vector</span>.</p>
 <p><span class="tt">globally_indexed</span> is the same, except that the store may be shared with other surfaces. A standalone payload inlines the store as <span class="tt">storage_vector</span> and stays self-contained; when a document-wide store table is in use, the entry instead references it by id under <span class="tt">store</span>, so the sharing survives the round trip rather than being flattened into one copy per surface. The two are mutually exclusive: an entry carrying <span class="tt">store</span> can only be read with the table that defines it.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md126"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md127"></a>
 <span class="tt">merged-material-marker</span></h3>
 <p>A sentinel left behind by <a class="el" href="class_acts_1_1_portal.html#a326d4d68f36fe1b29bb9a52287807dc9">Acts::Portal::merge</a> when the material of two merged portal surfaces had to be dropped. Its payload is just the tag and <span class="tt">mapMaterial</span>; it carries no material, only the information that something was lost here.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md127"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md128"></a>
 Volume material payloads</h2>
-<p>Volume material entries are written by a separate, older converter and use their own tags: <span class="tt">homogeneous</span> (a single <a class="el" href="class_acts_1_1_material.html">Acts::Material</a> parameter vector under <span class="tt">data</span>, as in the example above), <span class="tt">proto</span> (a <span class="tt">binUtility</span> only), and <span class="tt">interpolated2D</span> / <span class="tt">interpolated3D</span> (a <span class="tt">binUtility</span> plus one parameter vector per bin). The tags overlap with the surface ones by accident; the two lists live under different top level keys and are never mixed. </p>
+<p>Volume material entries are written by a separate, older converter and use their own tags: <span class="tt">homogeneous</span> (a single <a class="el" href="class_acts_1_1_material.html">Acts::Material</a> parameter vector under <span class="tt">data</span>, as in the example above), <span class="tt">proto</span> (a <span class="tt">binUtility</span> only), and <span class="tt">interpolated2D</span> / <span class="tt">interpolated3D</span> (a <span class="tt">binUtility</span> plus one parameter vector per bin). The tags overlap with the surface ones by accident; the two lists live under different top level keys and are never mixed.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md129"></a>
+Stable surface assignment keys</h2>
+<p>For configuration, mapping, and application, see <a class="el" href="material_mapping_howto.html#material_mapping_stable_keys">material_mapping_stable_keys</a> in the material-mapping guide.</p>
+<p>Maps with keyed assignments add a <span class="tt">KeyedSurfaces</span> section:</p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;KeyedSurfaces&quot;: [</div>
+<div class="line">    {</div>
+<div class="line">      &quot;key&quot;: &quot;tracker/barrel/outer&quot;,</div>
+<div class="line">      &quot;geometry_id&quot;: 123,</div>
+<div class="line">      &quot;material&quot;: { &quot;type&quot;: &quot;homogeneous&quot;, &quot;mapMaterial&quot;: true, &quot;data&quot;: [[{ &quot;material&quot;: null, &quot;thickness&quot;: 0.0 }]] }</div>
+<div class="line">    }</div>
+<div class="line">  ]</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>The array is alongside the existing <span class="tt">Surfaces</span> and <span class="tt">Volumes</span> sections, without a separate version header. Keyed assignments appear only in <span class="tt">KeyedSurfaces</span>; they are not also emitted in <span class="tt">Surfaces</span>. The <span class="tt">geometry_id</span> recorded during mapping is diagnostic only. Each entry contains the key, geometry ID, and material payload. The material payload uses <a class="el" href="class_acts_1_1_surface_material_json_converter.html">Acts::SurfaceMaterialJsonConverter</a>. Keyed entries use an array so duplicate keys can be detected before insertion. Distinct keys may have the same recorded ID, allowing maps from independent geometry builds to be combined. Combining maps must reject duplicate keys rather than overwrite them.</p>
+<p>Standalone proto-material payloads store the optional key as <span class="tt">material_key</span>.</p>
+<p>Merge markers retain an <span class="tt">origins</span> array containing the original <span class="tt">geometry_id</span> and, when present, <span class="tt">material_key</span>. Repeated merges flatten the original inputs into this array. Geometry IDs may be zero if the merge preceded ID assignment. The marker remains an error sentinel, never a valid material-map assignment.</p>
+<p>The ROOT material writers currently reject keyed assignments; use JSON or CBOR to preserve the keys. ID-only JSON maps retain their existing format. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

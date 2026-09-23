@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"struct_acts_1_1_gaussian_sum_fitter.html#a88cceed65068787f99f1b132f2155fee":[5,13,13,9],
+"struct_acts_1_1_gaussian_sum_fitter.html#a8ddf98e5738140c0863c49784e90c87c":[5,13,13,4],
+"struct_acts_1_1_gaussian_sum_fitter.html#ab3ec1e7fae4e37e84d6b15a7561d4946":[5,13,13,7],
+"struct_acts_1_1_gaussian_sum_fitter.html#ab9f41087f2d15f0a011d72c7a59783c2":[5,13,13,8],
+"struct_acts_1_1_gaussian_sum_fitter.html#ac50e1c5ee71d653734151363deb6317a":[5,13,13,10],
+"struct_acts_1_1_gaussian_sum_fitter.html#ae13072251f056d01c10fb27d0fa5b753":[5,13,13,5],
+"struct_acts_1_1_gaussian_sum_fitter.html#af74ed8bca41274f3d7fe77f222549c74":[5,13,13,3],
+"struct_acts_1_1_gaussian_track_density_1_1_config.html":[6,0,0,154,0],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html":[8,0,0,159,0],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#a05db9190864ec63fee09dd3a162ba97d":[6,0,0,154,0,1],
 "struct_acts_1_1_gaussian_track_density_1_1_config.html#a05db9190864ec63fee09dd3a162ba97d":[8,0,0,159,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "struct_acts_1_1_gsf_extensions.html#a671328f6dba19717f895b3445f77a91a":[5,13,14,9],
 "struct_acts_1_1_gsf_extensions.html#a810790a4517ef68dabe1d7b60f566f16":[5,13,14,0],
 "struct_acts_1_1_gsf_extensions.html#a837bfa6a3fc91c2df2f556825336bf8e":[5,13,14,6],
-"struct_acts_1_1_gsf_extensions.html#a96d5e75674929f91e5d794035428edbb":[5,13,14,3],
-"struct_acts_1_1_gsf_extensions.html#aa305df03ff279e704279279854c93b7f":[5,13,14,11],
-"struct_acts_1_1_gsf_extensions.html#ab757cbe31c78322d770ee73ef3fd2b51":[5,13,14,1],
-"struct_acts_1_1_gsf_extensions.html#abbf3590fd17f735ba54ce36fcf7d97ed":[5,13,14,4],
-"struct_acts_1_1_gsf_extensions.html#abcbe99026d8c4de13aad230c4f6d1080":[5,13,14,8],
-"struct_acts_1_1_gsf_extensions.html#ac6ef57d8d01b7ba5206cdbe6b2de7334":[5,13,14,10],
-"struct_acts_1_1_gsf_options.html":[5,13,15],
-"struct_acts_1_1_gsf_options.html#a063189d5af41487713d213d8ea1b3520":[5,13,15,8],
-"struct_acts_1_1_gsf_options.html#a0fdc09daf23b1db401ce923170a5ebc2":[5,13,15,13]
+"struct_acts_1_1_gsf_extensions.html#a96d5e75674929f91e5d794035428edbb":[5,13,14,3]
 };

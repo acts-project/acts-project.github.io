@@ -1,9 +1,17 @@
 var searchData=
 [
-  ['optionalcuts_0',['OptionalCuts',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#aff0a092a21d36d86a9e2ec11def3a5f9',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
-  ['optionalhitselection_1',['OptionalHitSelection',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ac2d0b37a730b684df9772face98d746e',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
-  ['optionalscoremodifier_2',['OptionalScoreModifier',['../struct_acts_1_1_score_based_ambiguity_resolution_1_1_optionals.html#ad833f6ca372dd94592330cfafb07a61d',1,'Acts::ScoreBasedAmbiguityResolution::Optionals']]],
-  ['options_3',['Options',['../class_acts_1_1_base_propagator.html#aa1e769ef9385069a60ce1ff87ae6d8d9',1,'Acts::BasePropagator::Options'],['../class_acts_1_1_propagator.html#a1ec8b7354939f29b3d28ec77eb492dff',1,'Acts::Propagator::Options'],['../class_acts_1_1_experimental_1_1_ridders_stepper.html#af504b9971a1c0b570c6adf353ab6abf3',1,'Acts::Experimental::RiddersStepper::Options'],['../class_acts_1_1_combinatorial_kalman_filter.html#af28e7ab1e784e5cd2f937622fcc60a2d',1,'Acts::CombinatorialKalmanFilter::Options'],['../class_acts_1_1_experimental_1_1_reference_trajectory_builder.html#aa4f69982caa5aff8153c8a5b87e5a94a',1,'Acts::Experimental::ReferenceTrajectoryBuilder::Options'],['../class_acts_1_1_axis_spec.html#ab087781ac0fff57cd215d7476c728698',1,'Acts::AxisSpec::Options'],['../class_acts_1_1_multi_axis_spec.html#ab6b3aa0b194c73da8b063ef40c8fe17b',1,'Acts::MultiAxisSpec::Options'],['../class_acts_1_1_multi_axis_spec_x_d.html#a6ef97023fea870eb2b21db4ec0858ffb',1,'Acts::MultiAxisSpecXD::Options']]],
-  ['options_5ftype_4',['options_type',['../struct_acts_1_1_propagator_state.html#a660444f85477d4770cf4a7d72b59afcc',1,'Acts::PropagatorState']]],
-  ['outlierfinder_5',['OutlierFinder',['../struct_acts_1_1_experimental_1_1_gx2_fitter_extensions.html#a26648638d331daa29debaaed1a716750',1,'Acts::Experimental::Gx2FitterExtensions::OutlierFinder'],['../struct_acts_1_1_gsf_extensions.html#a96d5e75674929f91e5d794035428edbb',1,'Acts::GsfExtensions::OutlierFinder'],['../struct_acts_1_1_kalman_fitter_extensions.html#a8df82e2e091f44d2f14f9ee7ea5c6b31',1,'Acts::KalmanFitterExtensions::OutlierFinder']]]
+  ['navigationboundaries_0',['NavigationBoundaries',['../class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8',1,'Acts::Navigator']]],
+  ['navigationdelegate_1',['NavigationDelegate',['../namespace_acts.html#acde434daddaaeec4037aed488a49cefb',1,'Acts']]],
+  ['navigationlayers_2',['NavigationLayers',['../class_acts_1_1_navigator.html#a492eb943ad2c06526442465303caa698',1,'Acts::Navigator']]],
+  ['navigationpolicydecoder_3',['NavigationPolicyDecoder',['../class_acts_1_1_tracking_geometry_json_converter.html#a8cadd61bbd97e687acec43a639c94eb0',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['navigationpolicyencoder_4',['NavigationPolicyEncoder',['../class_acts_1_1_tracking_geometry_json_converter.html#a66feacf8c03096f3e31c1dd1b52d983a',1,'Acts::TrackingGeometryJsonConverter']]],
+  ['navigationpolicystatestorage_5',['NavigationPolicyStateStorage',['../namespace_acts.html#adeea91fe5a879add17730140369683b5',1,'Acts']]],
+  ['navigationsurfaces_6',['NavigationSurfaces',['../class_acts_1_1_navigator.html#a67daeae75247dabc70dd251c58b56980',1,'Acts::Navigator']]],
+  ['navigator_7',['Navigator',['../class_acts_1_1_propagator.html#a093685d05bccdf473c4c7af3ae5e9cef',1,'Acts::Propagator']]],
+  ['navigator_5foptions_5ftype_8',['navigator_options_type',['../struct_acts_1_1_propagator_options.html#a3fa243fe6a92d5de0e8bba183f9be6b4',1,'Acts::PropagatorOptions']]],
+  ['navigator_5fstate_5ftype_9',['navigator_state_type',['../struct_acts_1_1_propagator_state.html#a64e904285820466c89f91e296cb0dde2',1,'Acts::PropagatorState']]],
+  ['navigatoroptions_10',['NavigatorOptions',['../class_acts_1_1_propagator.html#ac07d5763fad51e760a9f757690716165',1,'Acts::Propagator']]],
+  ['navigatorstate_11',['NavigatorState',['../class_acts_1_1_propagator.html#a66b3f9e2048585969f9ce1831dbb17c5',1,'Acts::Propagator']]],
+  ['networkbatchinput_12',['NetworkBatchInput',['../group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa',1,'ActsPlugins']]],
+  ['nextlayers_13',['NextLayers',['../namespace_acts.html#a474fe95e07bff5d2bd907ffb6ff3bea9',1,'Acts']]]
 ];

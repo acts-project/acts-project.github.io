@@ -141,11 +141,18 @@ Collaboration diagram for Acts::MergedMaterialMarker:</div>
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_acts_1_1_merged_material_marker__coll__graph.svg" width="218" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Origin" id="r_Origin"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_merged_material_marker_1_1_origin.html">Origin</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identity of an input whose material was discarded.  <a href="struct_acts_1_1_merged_material_marker_1_1_origin.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a077f3ef411a3a68bc98f2736e28ee1c7" id="r_a077f3ef411a3a68bc98f2736e28ee1c7"><td class="memItemLeft" align="right" valign="top"><a id="a077f3ef411a3a68bc98f2736e28ee1c7" name="a077f3ef411a3a68bc98f2736e28ee1c7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MergedMaterialMarker</b> ()=default</td></tr>
 <tr class="memdesc:a077f3ef411a3a68bc98f2736e28ee1c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
+<tr class="memitem:a8fd2f61408a05539d57e7c5dd112aa5c" id="r_a8fd2f61408a05539d57e7c5dd112aa5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd2f61408a05539d57e7c5dd112aa5c">MergedMaterialMarker</a> (std::vector&lt; <a class="el" href="struct_acts_1_1_merged_material_marker_1_1_origin.html">Origin</a> &gt; <a class="el" href="#ac1558d6311626d74b9df7a24878dcc2b">origins</a>)</td></tr>
+<tr class="memdesc:a8fd2f61408a05539d57e7c5dd112aa5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a marker retaining the original inputs of a lossy merge.  <br /></td></tr>
 <tr class="memitem:a8736a69032d782dac36323e72f6b8ffc" id="r_a8736a69032d782dac36323e72f6b8ffc"><td class="memItemLeft" align="right" valign="top"><a id="a8736a69032d782dac36323e72f6b8ffc" name="a8736a69032d782dac36323e72f6b8ffc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~MergedMaterialMarker</b> () override=default</td></tr>
 <tr class="memdesc:a8736a69032d782dac36323e72f6b8ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
@@ -157,7 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a57c67692911c878a906319e8a8ffcd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for fully scaled material description of the Surface.  <br /></td></tr>
 <tr class="memitem:a1236e9f566f21e5a4c0272bca8a4af5e" id="r_a1236e9f566f21e5a4c0272bca8a4af5e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_acts_1_1_material_slab.html">MaterialSlab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1236e9f566f21e5a4c0272bca8a4af5e">materialSlab</a> (const <a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a> &amp;lp=<a class="el" href="group__algebra__types.html#ga531fe33218d5453c0f8952e826ced3ed">Vector2</a>{ 0., 0.}) const override</td></tr>
 <tr class="memdesc:a1236e9f566f21e5a4c0272bca8a4af5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return method for full material description of the Surface.     <br /></td></tr>
-<tr class="memitem:a344f98e1b59a1a204ecaa43c263816ae" id="r_a344f98e1b59a1a204ecaa43c263816ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a077f3ef411a3a68bc98f2736e28ee1c7">MergedMaterialMarker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a344f98e1b59a1a204ecaa43c263816ae">scale</a> (double <a class="el" href="#a9e136c68d2f0ef7ad6b085e9ab3a882f">factor</a>) override</td></tr>
+<tr class="memitem:ac1558d6311626d74b9df7a24878dcc2b" id="r_ac1558d6311626d74b9df7a24878dcc2b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="struct_acts_1_1_merged_material_marker_1_1_origin.html">Origin</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1558d6311626d74b9df7a24878dcc2b">origins</a> () const</td></tr>
+<tr class="memdesc:ac1558d6311626d74b9df7a24878dcc2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original material assignments lost during merging.  <br /></td></tr>
+<tr class="memitem:a344f98e1b59a1a204ecaa43c263816ae" id="r_a344f98e1b59a1a204ecaa43c263816ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a8fd2f61408a05539d57e7c5dd112aa5c">MergedMaterialMarker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a344f98e1b59a1a204ecaa43c263816ae">scale</a> (double <a class="el" href="#a9e136c68d2f0ef7ad6b085e9ab3a882f">factor</a>) override</td></tr>
 <tr class="memdesc:a344f98e1b59a1a204ecaa43c263816ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale operator &ndash; no-op, the marker carries no material.  <br /></td></tr>
 <tr class="memitem:a73beea7bf9fbbb9886e89f46a756055f" id="r_a73beea7bf9fbbb9886e89f46a756055f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73beea7bf9fbbb9886e89f46a756055f">toStream</a> (std::ostream &amp;sl) const override</td></tr>
 <tr class="memdesc:a73beea7bf9fbbb9886e89f46a756055f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output Method for std::ostream.  <br /></td></tr>
@@ -193,7 +202,41 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 <div class="textblock"><p>Sentinel surface material used by <span class="tt">Portal::merge</span> in its "keep going" mode. </p>
 <p>When two portal surfaces that both carry material (or one of them does) are merged, the original material cannot be transferred onto the (larger) merged surface. Instead of aborting the construction, the merge can be configured to discard the input material and tag the merged surface with this marker.</p>
 <p>The marker carries no physical material &ndash; it always returns <a class="el" href="class_acts_1_1_material_slab.html#a214beca508279db58c804c2f95e667aa">MaterialSlab::Nothing()</a> &ndash; but its presence makes the lossy merge discoverable downstream (e.g. when inspecting or writing out the geometry). </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8fd2f61408a05539d57e7c5dd112aa5c" name="a8fd2f61408a05539d57e7c5dd112aa5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd2f61408a05539d57e7c5dd112aa5c">&#9670;&#160;</a></span>MergedMaterialMarker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::MergedMaterialMarker::MergedMaterialMarker </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_acts_1_1_merged_material_marker_1_1_origin.html">Origin</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>origins</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a marker retaining the original inputs of a lossy merge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origins</td><td>Original inputs, flattened across repeated merges </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a9e136c68d2f0ef7ad6b085e9ab3a882f" name="a9e136c68d2f0ef7ad6b085e9ab3a882f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e136c68d2f0ef7ad6b085e9ab3a882f">&#9670;&#160;</a></span>factor()</h2>
 
@@ -345,6 +388,26 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
 
 </div>
 </div>
+<a id="ac1558d6311626d74b9df7a24878dcc2b" name="ac1558d6311626d74b9df7a24878dcc2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1558d6311626d74b9df7a24878dcc2b">&#9670;&#160;</a></span>origins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="struct_acts_1_1_merged_material_marker_1_1_origin.html">Origin</a> &gt; &amp; Acts::MergedMaterialMarker::origins </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Original material assignments lost during merging. </p>
+<dl class="section return"><dt>Returns</dt><dd>Original input identities, flattened across repeated merges </dd></dl>
+
+</div>
+</div>
 <a id="a344f98e1b59a1a204ecaa43c263816ae" name="a344f98e1b59a1a204ecaa43c263816ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a344f98e1b59a1a204ecaa43c263816ae">&#9670;&#160;</a></span>scale()</h2>
 
@@ -355,7 +418,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_splitFactor</b> {
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a077f3ef411a3a68bc98f2736e28ee1c7">MergedMaterialMarker</a> &amp; Acts::MergedMaterialMarker::scale </td>
+          <td class="memname"><a class="el" href="#a8fd2f61408a05539d57e7c5dd112aa5c">MergedMaterialMarker</a> &amp; Acts::MergedMaterialMarker::scale </td>
           <td>(</td>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>factor</em></span></td><td>)</td>
           <td></td>

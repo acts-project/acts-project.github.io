@@ -1,5 +1,11 @@
 var NAVTREEINDEX46 =
 {
+"group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bda40e84eb6404c960f5004dcd0fe1394c1":[5,4,12,5],
+"group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bda467960d2bf6d66ed0188b57b8f9d6dc3":[5,4,12,2],
+"group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bda59498ee016767b03b39eb220b31f8ef0":[5,4,12,0],
+"group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bda6aa0b7866598ceff6309c52acabd105d":[5,4,12,4],
+"group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bdaa803f77097064e7f7ce933bc02415134":[5,4,12,6],
+"group__errors.html#gga15d42dcaa6c43d68f6d711f04f9594bdade8af8f801c3abfe52aee93e9a927452":[5,4,12,1],
 "group__errors.html#gga1ce88ea0e4490538ca747b2877e17317a42f0eb02b7e565a60040b6ad8f28696b":[5,4,3,1],
 "group__errors.html#gga1ce88ea0e4490538ca747b2877e17317a6d7ce060249870aeef245ea7aad52ed0":[5,4,3,2],
 "group__errors.html#gga1ce88ea0e4490538ca747b2877e17317a89bee9aff604972a1db820c948a17e62":[5,4,3,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX46 =
 "group__material__mapping.html":[5,3,2,0],
 "group__onnx__plugin.html":[5,10,11],
 "group__onnx__plugin.html#gaa3b245e0f99493e0754975ba707607aa":[5,10,11,4],
-"group__pattern__recog.html":[5,9],
-"group__plugins.html":[5,10],
-"group__propagation.html":[5,11],
-"group__python__bindings.html":[5,12],
-"group__python__bindings.html#root_file_hashes":[3,7],
-"group__root__plugin.html":[5,10,12],
-"group__root__plugin.html#ga17ad41fa38da45d72a3b6020632207a2":[5,10,12,22]
+"group__pattern__recog.html":[5,9]
 };

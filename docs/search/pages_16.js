@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['r_20i_20z_20j_20b_20r_20z_20m_0',['r i z j B r z M',['../group__magnetic__field.html#autotoc_md131',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md137',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
-  ['r_20z_20m_1',['r z M',['../group__magnetic__field.html#autotoc_md131',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md137',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['r_20i_20z_20j_20b_20r_20z_20m_0',['r i z j B r z M',['../group__magnetic__field.html#autotoc_md133',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md139',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
+  ['r_20z_20m_1',['r z M',['../group__magnetic__field.html#autotoc_md133',1,'|| r | i || z | j || |B(r,z)| || M ||'],['../group__root__plugin.html#autotoc_md139',1,'|| r | i || z | j || |B(r,z)| || M ||']]],
   ['recompiling_2',['Alternative to Recompiling',['../howto_profiling.html#autotoc_md82',1,'']]],
   ['reconstruction_3',['Vertex reconstruction',['../tracking.html#vertex-reconstruction',1,'']]],
   ['reconstruction_20geometry_20contexts_4',['reconstruction geometry contexts',['../examples_geometry_contexts.html',1,'Simulation and reconstruction geometry contexts'],['../examples_geometry_contexts.html#autotoc_md100',1,'Simulation and reconstruction geometry contexts']]],
-  ['record_20the_20material_20with_20geant4_5',['Step 2: record the material with Geant4',['../material_mapping_howto.html#autotoc_md112',1,'']]],
+  ['record_20the_20material_20with_20geant4_5',['Step 2: record the material with Geant4',['../material_mapping_howto.html#autotoc_md113',1,'']]],
   ['recovery_20in_20the_20ckf_6',['Bremsstrahlung recovery in the CKF',['../group__gsf.html#gsf-ckf-brem',1,'']]],
   ['reduce_20it_20to_20an_20editable_20config_7',['1b. Reduce it to an editable config',['../material_mapping_howto.html#autotoc_md108',1,'']]],
   ['reducing_20barcodes_8',['Creating and reducing barcodes',['../group__fatras.html#autotoc_md37',1,'']]],
@@ -23,7 +23,7 @@ var searchData=
   ['result_20type_20',['Usage with Result Type',['../group__errors.html#autotoc_md23',1,'']]],
   ['root_20file_20hash_20regression_20checks_21',['ROOT file hash regression checks',['../group__python__bindings.html#root_file_hashes',1,'']]],
   ['run_20the_20heap_20checker_22',['Run the Heap Checker',['../howto_profiling.html#autotoc_md85',1,'']]],
-  ['run_20the_20mapping_23',['Step 3: run the mapping',['../material_mapping_howto.html#autotoc_md113',1,'']]],
+  ['run_20the_20mapping_23',['Step 3: run the mapping',['../material_mapping_howto.html#autotoc_md114',1,'']]],
   ['running_20the_20hash_20checks_20locally_20and_20how_20to_20update_20the_20reference_20hashes_24',['Running the hash checks locally and how to update the reference hashes',['../group__python__bindings.html#autotoc_md58',1,'']]],
   ['running_20with_20dependencies_25',['Running with dependencies',['../howto_spack.html#spack_running_with_dependencies',1,'']]]
 ];

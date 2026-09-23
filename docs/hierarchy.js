@@ -551,6 +551,7 @@ var hierarchy =
     [ "Acts::KalmanFitterOptions&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_options.html", null ],
     [ "Acts::KalmanFitterResult&lt; traj_t &gt;", "struct_acts_1_1_kalman_fitter_result.html", null ],
     [ "Acts::KDTree&lt; Dims, Type, Scalar, Vector, LeafSize &gt;", "class_acts_1_1_k_d_tree.html", null ],
+    [ "Acts::KeyedSurfaceMaterial", "struct_acts_1_1_keyed_surface_material.html", null ],
     [ "Acts::LayerArrayCreator::Config", "struct_acts_1_1_layer_array_creator_1_1_config.html", null ],
     [ "Acts::LayerCreator", "class_acts_1_1_layer_creator.html", null ],
     [ "Acts::LayerCreator::Config", "struct_acts_1_1_layer_creator_1_1_config.html", null ],
@@ -601,6 +602,7 @@ var hierarchy =
     [ "Acts::MbfSmoother", "class_acts_1_1_mbf_smoother.html", null ],
     [ "Acts::MeasurementSelector", "class_acts_1_1_measurement_selector.html", null ],
     [ "Acts::MeasurementSelectorCuts", "struct_acts_1_1_measurement_selector_cuts.html", null ],
+    [ "Acts::MergedMaterialMarker::Origin", "struct_acts_1_1_merged_material_marker_1_1_origin.html", null ],
     [ "Acts::MiddleSpInfo", "struct_acts_1_1_middle_sp_info.html", null ],
     [ "Acts::MultiAxisSpec", "class_acts_1_1_multi_axis_spec.html", [
       [ "Acts::MultiAxisSpecXD< 1 >", "class_acts_1_1_multi_axis_spec_x_d.html", null ],

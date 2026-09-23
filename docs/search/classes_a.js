@@ -7,5 +7,6 @@ var searchData=
   ['kalmanfitterresult_4',['KalmanFitterResult',['../struct_acts_1_1_kalman_fitter_result.html',1,'Acts']]],
   ['kdtree_5',['KDTree',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
   ['kdtree_3c_20kdims_2c_20std_3a_3asize_5ft_2c_20scalar_5ft_2c_20std_3a_3aarray_2c_20kleafsize_20_3e_6',['KDTree&lt; kDims, std::size_t, scalar_t, std::array, kLeafSize &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
-  ['kdtree_3c_20ndims_2c_20spacepointindex_2c_20float_2c_20std_3a_3aarray_2c_204_20_3e_7',['KDTree&lt; NDims, SpacePointIndex, float, std::array, 4 &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]]
+  ['kdtree_3c_20ndims_2c_20spacepointindex_2c_20float_2c_20std_3a_3aarray_2c_204_20_3e_7',['KDTree&lt; NDims, SpacePointIndex, float, std::array, 4 &gt;',['../class_acts_1_1_k_d_tree.html',1,'Acts']]],
+  ['keyedsurfacematerial_8',['KeyedSurfaceMaterial',['../struct_acts_1_1_keyed_surface_material.html',1,'Acts']]]
 ];

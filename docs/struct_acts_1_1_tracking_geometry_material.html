@@ -133,22 +133,143 @@ $(function(){initNavTree('struct_acts_1_1_tracking_geometry_material.html','','s
 <div class="dynheader">
 Collaboration diagram for Acts::TrackingGeometryMaterial:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_tracking_geometry_material__coll__graph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_tracking_geometry_material__coll__graph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aeb4d4188f30376dfdf7ca976471ee49a" id="r_aeb4d4188f30376dfdf7ca976471ee49a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb4d4188f30376dfdf7ca976471ee49a">apply</a> (std::span&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt; surfaces) const</td></tr>
+<tr class="memdesc:aeb4d4188f30376dfdf7ca976471ee49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply to selected surfaces with the same validation as a complete geometry.  <br /></td></tr>
+<tr class="memitem:a896e3d34684bc7bf4672b308712e842b" id="r_a896e3d34684bc7bf4672b308712e842b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896e3d34684bc7bf4672b308712e842b">apply</a> (<a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;surface) const</td></tr>
+<tr class="memdesc:a896e3d34684bc7bf4672b308712e842b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply to a single surface.  <br /></td></tr>
+<tr class="memitem:acc2ccd1fe7da279ae7d01f64d6e30106" id="r_acc2ccd1fe7da279ae7d01f64d6e30106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2ccd1fe7da279ae7d01f64d6e30106">apply</a> (<a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;geometry) const</td></tr>
+<tr class="memdesc:acc2ccd1fe7da279ae7d01f64d6e30106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply material to a completed geometry, checking surface identities and resolving all surface assignments before modifying the geometry.  <br /></td></tr>
+<tr class="memitem:a533912fd1d8d8f15e151b262df7994ad" id="r_a533912fd1d8d8f15e151b262df7994ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a533912fd1d8d8f15e151b262df7994ad">apply</a> (<a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;volume) const</td></tr>
+<tr class="memdesc:a533912fd1d8d8f15e151b262df7994ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply volume material by geometry identifier.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a4c2e14fa9c81f78f19cfdf6951bf9778" id="r_a4c2e14fa9c81f78f19cfdf6951bf9778"><td class="memItemLeft" align="right" valign="top"><a id="a4c2e14fa9c81f78f19cfdf6951bf9778" name="a4c2e14fa9c81f78f19cfdf6951bf9778"></a>
+<a class="el" href="namespace_acts.html#aced2304433e8c9b412679158ae856142">KeyedSurfaceMaterialMaps</a>&#160;</td><td class="memItemRight" valign="bottom"><b>keyedSurfaces</b> {}</td></tr>
+<tr class="memdesc:a4c2e14fa9c81f78f19cfdf6951bf9778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface assignments indexed by stable string key. <br /></td></tr>
 <tr class="memitem:a52086c01dc01180fc2bb5e7f79601544" id="r_a52086c01dc01180fc2bb5e7f79601544"><td class="memItemLeft" align="right" valign="top"><a id="a52086c01dc01180fc2bb5e7f79601544" name="a52086c01dc01180fc2bb5e7f79601544"></a>
 <a class="el" href="namespace_acts.html#a0ff605a935815bac9c0a18618e1f4b65">SurfaceMaterialMaps</a>&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceMaterials</b> {}</td></tr>
-<tr class="memdesc:a52086c01dc01180fc2bb5e7f79601544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surface assignments indexed by geometry ID. <br /></td></tr>
+<tr class="memdesc:a52086c01dc01180fc2bb5e7f79601544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unkeyed surface assignments indexed by geometry ID. <br /></td></tr>
 <tr class="memitem:a748f830b943799d955c4d2f01bc32185" id="r_a748f830b943799d955c4d2f01bc32185"><td class="memItemLeft" align="right" valign="top"><a id="a748f830b943799d955c4d2f01bc32185" name="a748f830b943799d955c4d2f01bc32185"></a>
 <a class="el" href="namespace_acts.html#adab8ee0743a2872f4ca6888b37c65f04">VolumeMaterialMaps</a>&#160;</td><td class="memItemRight" valign="bottom"><b>volumeMaterials</b> {}</td></tr>
 <tr class="memdesc:a748f830b943799d955c4d2f01bc32185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume assignments indexed by geometry ID. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Surface and volume material assignments. </p>
-<p>Access assignments through the named members rather than a tuple interface. </p>
-</div></div><!-- contents -->
+<p>Keyed assignments are stored separately and must never be matched by ID. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aeb4d4188f30376dfdf7ca976471ee49a" name="aeb4d4188f30376dfdf7ca976471ee49a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4d4188f30376dfdf7ca976471ee49a">&#9670;&#160;</a></span>apply() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingGeometryMaterial::apply </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="class_acts_1_1_surface.html">Surface</a> *const &gt;</td>          <td class="paramname"><span class="paramname"><em>surfaces</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply to selected surfaces with the same validation as a complete geometry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surfaces</td><td>Surfaces whose material is updated; repeated pointers are allowed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a896e3d34684bc7bf4672b308712e842b" name="a896e3d34684bc7bf4672b308712e842b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896e3d34684bc7bf4672b308712e842b">&#9670;&#160;</a></span>apply() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingGeometryMaterial::apply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_surface.html">Surface</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surface</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply to a single surface. </p>
+<p>This cannot check uniqueness across surfaces. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surface</td><td>Surface whose material is updated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acc2ccd1fe7da279ae7d01f64d6e30106" name="acc2ccd1fe7da279ae7d01f64d6e30106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc2ccd1fe7da279ae7d01f64d6e30106">&#9670;&#160;</a></span>apply() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingGeometryMaterial::apply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_geometry.html">TrackingGeometry</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>geometry</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply material to a completed geometry, checking surface identities and resolving all surface assignments before modifying the geometry. </p>
+<p>Keyed surfaces require a matching key; unused map entries are allowed. </p><dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if a keyed map is applied to Gen1 geometry </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>Geometry whose material is updated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a533912fd1d8d8f15e151b262df7994ad" name="a533912fd1d8d8f15e151b262df7994ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a533912fd1d8d8f15e151b262df7994ad">&#9670;&#160;</a></span>apply() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acts::TrackingGeometryMaterial::apply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply volume material by geometry identifier. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volume</td><td>Volume whose material is updated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
