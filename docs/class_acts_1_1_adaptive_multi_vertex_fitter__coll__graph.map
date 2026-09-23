@@ -1,0 +1,5 @@
+<map id="Acts::AdaptiveMultiVertexFitter" name="Acts::AdaptiveMultiVertexFitter">
+<area shape="rect" id="Node000001" title="Implements an adaptive multi&#45;vertex fitter as described in detail in Section 5.3.5 in: Ref." alt="" coords="5,79,196,119"/>
+<area shape="rect" id="Node000002" href="$class_acts_1_1_i_vertex_fitter.html" title="Common interface for vertex fitters." alt="" coords="31,5,170,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
+</map>

@@ -133,14 +133,24 @@ $(function(){initNavTree('struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a81a06b22df2a63ae9ff3e087fefdc997" id="r_a81a06b22df2a63ae9ff3e087fefdc997"><td class="memItemLeft" align="right" valign="top"><a id="a81a06b22df2a63ae9ff3e087fefdc997" name="a81a06b22df2a63ae9ff3e087fefdc997"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Cache</b> (Cache &amp;&amp;)=default</td></tr>
+<tr class="memdesc:a81a06b22df2a63ae9ff3e087fefdc997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer ownership of the scratch data. <br /></td></tr>
+<tr class="memitem:a7d91f1b035dc386f9fc81a9ce0ca1958" id="r_a7d91f1b035dc386f9fc81a9ce0ca1958"><td class="memItemLeft" align="right" valign="top"><a id="a7d91f1b035dc386f9fc81a9ce0ca1958" name="a7d91f1b035dc386f9fc81a9ce0ca1958"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Cache</b> (const Cache &amp;)=delete</td></tr>
+<tr class="memdesc:a7d91f1b035dc386f9fc81a9ce0ca1958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache scratch data is owned by one caller and cannot be copied. <br /></td></tr>
 <tr class="memitem:a1edb0473bfed9bba7f261639934f772c" id="r_a1edb0473bfed9bba7f261639934f772c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> (const <a class="el" href="class_acts_1_1_magnetic_field_provider.html">MagneticFieldProvider</a> &amp;field, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;magContext)</td></tr>
 <tr class="memdesc:a1edb0473bfed9bba7f261639934f772c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the multi-vertex fitter cache.  <br /></td></tr>
 <tr class="memitem:aff171c88f5a09bb596b6672595c71d6f" id="r_aff171c88f5a09bb596b6672595c71d6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff171c88f5a09bb596b6672595c71d6f">invalidate</a> (const <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &amp;vtx)</td></tr>
 <tr class="memdesc:aff171c88f5a09bb596b6672595c71d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop the scratch data associated with <code class="param">vtx</code>.  <br /></td></tr>
+<tr class="memitem:a7981c7f06d2722ec8ba9cc5327b91d44" id="r_a7981c7f06d2722ec8ba9cc5327b91d44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7981c7f06d2722ec8ba9cc5327b91d44">operator=</a> (<a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp;&amp;)=default</td></tr>
+<tr class="memdesc:a7981c7f06d2722ec8ba9cc5327b91d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer ownership of the scratch data.  <br /></td></tr>
+<tr class="memitem:a8039c1da1cae09523a23e78d8dc60fbd" id="r_a8039c1da1cae09523a23e78d8dc60fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8039c1da1cae09523a23e78d8dc60fbd">operator=</a> (const <a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp;)=delete</td></tr>
+<tr class="memdesc:a8039c1da1cae09523a23e78d8dc60fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache scratch data cannot be copy-assigned.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The fitter-private cache. </p>
-<p>Holds everything that is scratch data of a running fit: the annealing state, the impact point estimator state, the magnetic field cache and the per-vertex linearization bookkeeping. The data describing <em>what</em> is being fitted lives in <code>VertexFitProblem</code> instead. </p>
+<p>Holds everything that is scratch data of a running fit: the annealing state, the impact point estimator state, the magnetic field cache and the per-vertex linearization bookkeeping. The data describing <em>what</em> is being fitted lives in <a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> instead. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1edb0473bfed9bba7f261639934f772c" name="a1edb0473bfed9bba7f261639934f772c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1edb0473bfed9bba7f261639934f772c">&#9670;&#160;</a></span>Cache()</h2>
@@ -195,6 +205,62 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a7981c7f06d2722ec8ba9cc5327b91d44" name="a7981c7f06d2722ec8ba9cc5327b91d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7981c7f06d2722ec8ba9cc5327b91d44">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp; Acts::AdaptiveMultiVertexFitter::Cache::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transfer ownership of the scratch data. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this cache. </dd></dl>
+
+</div>
+</div>
+<a id="a8039c1da1cae09523a23e78d8dc60fbd" name="a8039c1da1cae09523a23e78d8dc60fbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8039c1da1cae09523a23e78d8dc60fbd">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp; Acts::AdaptiveMultiVertexFitter::Cache::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1edb0473bfed9bba7f261639934f772c">Cache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cache scratch data cannot be copy-assigned. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this cache. </dd></dl>
 
 </div>
 </div>

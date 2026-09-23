@@ -126,12 +126,16 @@ $(function(){initNavTree('deprecated.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt>Member <a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html#af6ac01ab4bfb95421dda488dc7f88430">Acts::AdaptiveMultiVertexFitter::addVtxToFit</a>  (VertexFitProblem &amp;problem, const std::vector&lt; Vertex * &gt; &amp;newVertices, const VertexingOptions &amp;vertexingOptions, Cache &amp;cache) const</dt>
+<dd><a class="anchor" id="_deprecated000077"></a>Pass a span of vertex pointers instead.  </dd>
+<dt>Member <a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html#a924f18e13e38e1e2d13edcf459918ae4">Acts::AdaptiveMultiVertexFitter::addVtxToFit</a>  (VertexFitProblem &amp;problem, std::initializer_list&lt; Vertex * &gt; newVertices, const VertexingOptions &amp;vertexingOptions, Cache &amp;cache) const</dt>
+<dd><a class="anchor" id="_deprecated000078"></a>Pass a span of vertex pointers instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html#a10c4128a3a1b688253bb8f0d27641042">Acts::AdaptiveMultiVertexFitter::addVtxToFit</a>  (State &amp;state, const std::vector&lt; Vertex * &gt; &amp;newVertices, const VertexingOptions &amp;vertexingOptions) const</dt>
-<dd><a class="anchor" id="_deprecated000078"></a>Use the overload taking a <code>VertexFitProblem</code> and a <code>Cache</code>  </dd>
+<dd><a class="anchor" id="_deprecated000080"></a>Use the overload taking a <a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> and a <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a> </dd>
 <dt>Member <a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html#a6ce8c7cb8ff95d134133a3b55e62a1b1">Acts::AdaptiveMultiVertexFitter::fit</a>  (State &amp;state, const VertexingOptions &amp;vertexingOptions) const</dt>
-<dd><a class="anchor" id="_deprecated000079"></a>Use the overload taking a <code>VertexFitProblem</code> and a <code>Cache</code>  </dd>
+<dd><a class="anchor" id="_deprecated000081"></a>Use the overload taking a <a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a> and a <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a> </dd>
 <dt>Struct <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html">Acts::AdaptiveMultiVertexFitter::State</a>  </dt>
-<dd><a class="anchor" id="_deprecated000077"></a>Split into <code>VertexFitProblem</code>, which describes the vertices to be fitted and is owned by the caller, and <code>Cache</code>, which holds the fitter's scratch data. Construct those two separately and use the corresponding <code>fit</code> and <code>addVtxToFit</code> overloads instead.  </dd>
+<dd><a class="anchor" id="_deprecated000079"></a>Split into <a class="el" href="struct_acts_1_1_vertex_fit_problem.html">VertexFitProblem</a>, which describes the vertices to be fitted and is owned by the caller, and <a class="el" href="struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html">Cache</a>, which holds the fitter's scratch data. Construct those two separately and use the corresponding <a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html#ab88aef095a4c5b00339389961edca7ad">fit</a> and <a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html#ae3a8043f5f13678cf97c9edfc54304c8">addVtxToFit</a> overloads instead.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_const_view.html#a375dbece72201050c427221f115c1950">Acts::AnyGridConstView&lt; T &gt;::binCenter</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
 <dd><a class="anchor" id="_deprecated000034"></a>Use view.multiAxisAny().getBinCenterAny(indices) instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_any_grid_const_view.html#a3650ce8a52316a69571510a32a422d54">Acts::AnyGridConstView&lt; T &gt;::lowerLeftBinEdge</a>  (const IGrid::AnyIndexType &amp;indices) const</dt>
@@ -159,7 +163,7 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Struct <a class="el" href="struct_acts_1_1_directed_proto_axis.html">Acts::DirectedProtoAxis</a>  </dt>
 <dd><a class="anchor" id="_deprecated000066"></a>Use AxisSpec with an AxisDirection instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga5468da799422d3b617d84b3b7731b1cf">Acts::from_json</a>  (const nlohmann::json &amp;j, surfaceMaterialPointer &amp;material)</dt>
-<dd><a class="anchor" id="_deprecated000086"></a>Use SurfaceMaterialJsonConverter::fromJson instead  </dd>
+<dd><a class="anchor" id="_deprecated000088"></a>Use SurfaceMaterialJsonConverter::fromJson instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#a1691927623860346e0e385eda2a41850">Acts::Grid&lt; T, Axes &gt;::axesTuple</a>  () const</dt>
 <dd><a class="anchor" id="_deprecated000058"></a>Use grid.multiAxis().getAxesTuple() instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_grid.html#ab13552870775039f9df525308cf9440b">Acts::Grid&lt; T, Axes &gt;::binCenter</a>  (const index_t &amp;localBins) const</dt>
@@ -223,31 +227,31 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Class <a class="el" href="class_acts_1_1_proto_axis.html">Acts::ProtoAxis</a>  </dt>
 <dd><a class="anchor" id="_deprecated000063"></a>Use AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga7db1175609439b8069b2d0b090773503">Acts::ProtoAxisJsonConverter::fromJson</a>  (const nlohmann::json &amp;j)</dt>
-<dd><a class="anchor" id="_deprecated000088"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000090"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#ga038acefb1a69555567e98c97b9830cf9">Acts::ProtoAxisJsonConverter::toJson</a>  (const ProtoAxis &amp;pa)</dt>
-<dd><a class="anchor" id="_deprecated000087"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
+<dd><a class="anchor" id="_deprecated000089"></a>Use AxisSpecJsonConverter with an AxisSpec instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_surface_array.html#aa37d9e65ef078b639e52aa15f2367243">Acts::SurfaceArray::maxNeighborDistance</a>  () const</dt>
 <dd><a class="anchor" id="_deprecated000028"></a>Use <a class="el" href="class_acts_1_1_surface_array.html#a5df019287939eed716ff6bc9133701d8">neighborWindow</a>; this reports the larger bound.  </dd>
 <dt>Member <a class="el" href="struct_acts_1_1_surface_array_1_1_neighbor_window.html#a593b45fc4ef4208bd61f2adcc88fafaf">Acts::SurfaceArray::NeighborWindow::NeighborWindow</a>  (std::uint8_t maxNeighborDistance)</dt>
 <dd><a class="anchor" id="_deprecated000029"></a>The two axes of a layer grid are not equivalent, give the bounds per axis.  </dd>
 <dt>Member <a class="el" href="group__json__plugin.html#gacf3669471f11a629a8de8cd7fd8b0579">Acts::to_json</a>  (nlohmann::json &amp;j, const surfaceMaterialPointer &amp;material)</dt>
-<dd><a class="anchor" id="_deprecated000085"></a>Use SurfaceMaterialJsonConverter::toJson instead  </dd>
+<dd><a class="anchor" id="_deprecated000087"></a>Use SurfaceMaterialJsonConverter::toJson instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a979cfe29b23d3fd512b78da0d364f9df">Acts::TrackingGeometry::lowestTrackingVolume</a>  (const GeometryContext &amp;gctx, const Vector3 &amp;gp) const</dt>
 <dd><a class="anchor" id="_deprecated000022"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry.html#a681abf860ea725fb6a96237af0ed56be">resolveLowestTrackingVolume</a> instead, which can resolve boundaries along a direction and reports failures instead of returning <span class="tt">nullptr</span>.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry.html#a637c481e57e710623adc80018f31738b">Acts::TrackingGeometry::visualize</a>  (IVisualization3D &amp;helper, const GeometryContext &amp;gctx, const ViewConfig &amp;viewConfig, const ViewConfig &amp;portalViewConfig, const ViewConfig &amp;sensitiveViewConfig) const</dt>
 <dd><a class="anchor" id="_deprecated000023"></a>Use the ViewConfigFunc overload instead  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#aa05519757f987018f8aca22fb4af23d7">Acts::TrackingGeometryJsonConverter::fromJson</a>  (const GeometryContext &amp;gctx, const std::filesystem::path &amp;jsonPath, const Options &amp;options=Options::defaultOptions()) const</dt>
-<dd><a class="anchor" id="_deprecated000089"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710">fromFile</a> instead. <span class="tt">fromJson</span> now takes an in-memory payload, matching every other converter in this plugin.  </dd>
+<dd><a class="anchor" id="_deprecated000091"></a>Use <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a369a2a7d68b06181e875353303e30710">fromFile</a> instead. <span class="tt">fromJson</span> now takes an in-memory payload, matching every other converter in this plugin.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a2310d27e95d4380fa52e633608d177dd">Acts::TrackingGeometryJsonConverter::fromJsonPayload</a>  (const GeometryContext &amp;gctx, const nlohmann::json &amp;encoded, const Options &amp;options=Options::defaultOptions()) const</dt>
-<dd><a class="anchor" id="_deprecated000090"></a>Renamed to <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8">fromJson</a>, which now takes the payload.  </dd>
+<dd><a class="anchor" id="_deprecated000092"></a>Renamed to <a class="el" href="class_acts_1_1_tracking_geometry_json_converter.html#a68aa2172299d3c29e9659b1fbd5842c8">fromJson</a>, which now takes the payload.  </dd>
 <dt>Member <a class="el" href="class_acts_1_1_tracking_volume.html#aefd07dd4cfe34a337fd098bb5517fc5a">Acts::TrackingVolume::visualize</a>  (IVisualization3D &amp;helper, const GeometryContext &amp;gctx, const ViewConfig &amp;viewConfig, const ViewConfig &amp;portalViewConfig, const ViewConfig &amp;sensitiveViewConfig) const</dt>
 <dd><a class="anchor" id="_deprecated000024"></a>Use the ViewConfigFunc overload instead  </dd>
 <dt>Struct <a class="el" href="struct_acts_1_1_vertex_info.html">Acts::VertexInfo</a>  </dt>
-<dd><a class="anchor" id="_deprecated000080"></a>Superseded by <code>VertexFitCandidate</code>, which describes the vertex to be fitted, and the private fitter cache, which holds the fitter's per-vertex scratch data. This type merges the two and is kept only so that code written against the pre-split <code>AdaptiveMultiVertexFitter::State</code> keeps compiling; it is no longer used by the fitter itself.  </dd>
+<dd><a class="anchor" id="_deprecated000082"></a>Superseded by <code>VertexFitCandidate</code>, which describes the vertex to be fitted, and the private fitter cache, which holds the fitter's per-vertex scratch data. This type merges the two and is kept only so that code written against the pre-split <code>AdaptiveMultiVertexFitter::State</code> keeps compiling; it is no longer used by the fitter itself.  </dd>
 <dt>Member <a class="el" href="struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#ac8391c8ae2a305c685c05ec6b387994e">ActsPlugins::Svg::LayerConverter::Options::gridInfo</a>  </dt>
-<dd><a class="anchor" id="_deprecated000081"></a>actsvg 0.4.57 removed the grid sheet display. Kept so the option still compiles; convert() throws if it is switched on. No [[deprecated]] attribute: on a data member it also fires on every copy of Options, which says nothing about whether the option is used.  </dd>
+<dd><a class="anchor" id="_deprecated000083"></a>actsvg 0.4.57 removed the grid sheet display. Kept so the option still compiles; convert() throws if it is switched on. No [[deprecated]] attribute: on a data member it also fires on every copy of Options, which says nothing about whether the option is used.  </dd>
 <dt>Member <a class="el" href="struct_acts_plugins_1_1_svg_1_1_layer_converter_1_1_options.html#a1708f6c0b2628a681eb0c8cc290346a9">ActsPlugins::Svg::LayerConverter::Options::moduleInfo</a>  </dt>
-<dd><a class="anchor" id="_deprecated000082"></a>actsvg 0.4.57 removed the module sheet display; see gridInfo. </dd>
+<dd><a class="anchor" id="_deprecated000084"></a>actsvg 0.4.57 removed the module sheet display; see gridInfo. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
