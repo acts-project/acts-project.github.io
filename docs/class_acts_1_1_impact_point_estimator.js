@@ -6,7 +6,6 @@ var class_acts_1_1_impact_point_estimator =
     [ "ImpactPointEstimator", "class_acts_1_1_impact_point_estimator.html#a4e59c09176077dcac5922385401d0e02", null ],
     [ "ImpactPointEstimator", "class_acts_1_1_impact_point_estimator.html#a9ccea201cdf538a0ed4f5a44f7cb18db", null ],
     [ "calculateDistance", "class_acts_1_1_impact_point_estimator.html#a60df925c3ccd36423ad8eea8c0228360", null ],
-    [ "config", "class_acts_1_1_impact_point_estimator.html#a3ce91668ec728000d9ef65d1531ed12f", null ],
     [ "estimate3DImpactParameters", "class_acts_1_1_impact_point_estimator.html#ac1ac97791affe6ea342df7eb404a07a9", null ],
     [ "get3DLifetimeSignOfTrack", "class_acts_1_1_impact_point_estimator.html#aebaabe1957927a770ca37202f07e35f1", null ],
     [ "getDistanceAndMomentum", "class_acts_1_1_impact_point_estimator.html#a5095509ca906a51b15ca0ea13e19c8aa", null ],

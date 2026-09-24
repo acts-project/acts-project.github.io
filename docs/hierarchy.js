@@ -12,6 +12,7 @@ var hierarchy =
     [ "Acts::AdaptiveGridTrackDensity::Config", "struct_acts_1_1_adaptive_grid_track_density_1_1_config.html", null ],
     [ "Acts::AdaptiveMultiVertexFinder::Config", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html", null ],
     [ "Acts::AdaptiveMultiVertexFinder::State", "struct_acts_1_1_adaptive_multi_vertex_finder_1_1_state.html", null ],
+    [ "Acts::AdaptiveMultiVertexFitter", "class_acts_1_1_adaptive_multi_vertex_fitter.html", null ],
     [ "Acts::AdaptiveMultiVertexFitter::Cache", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_cache.html", null ],
     [ "Acts::AdaptiveMultiVertexFitter::Config", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_config.html", null ],
     [ "Acts::AdaptiveMultiVertexFitter::State", "struct_acts_1_1_adaptive_multi_vertex_fitter_1_1_state.html", null ],
@@ -31,7 +32,6 @@ var hierarchy =
       [ "Acts::AnyBase< sizeof(void *), false >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< SbSize, true, Base >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< 128 >", "class_acts_1_1_any_base.html", null ],
-      [ "Acts::AnyBase< 128, false >", "class_acts_1_1_any_base.html", null ],
       [ "Acts::AnyBase< SbSize, Copyable, Base >", "class_acts_1_1_any_base.html", null ]
     ] ],
     [ "Acts::AnyGridConstView&lt; T &gt;", "class_acts_1_1_any_grid_const_view.html", null ],
@@ -531,9 +531,6 @@ var hierarchy =
       [ "Acts::IterativeVertexFinder", "class_acts_1_1_iterative_vertex_finder.html", null ],
       [ "Acts::TrackDensityVertexFinder", "class_acts_1_1_track_density_vertex_finder.html", null ],
       [ "Acts::ZScanVertexFinder", "class_acts_1_1_z_scan_vertex_finder.html", null ]
-    ] ],
-    [ "Acts::IVertexFitter", "class_acts_1_1_i_vertex_fitter.html", [
-      [ "Acts::AdaptiveMultiVertexFitter", "class_acts_1_1_adaptive_multi_vertex_fitter.html", null ]
     ] ],
     [ "Acts::IVisualization3D", "class_acts_1_1_i_visualization3_d.html", [
       [ "Acts::ObjVisualization3D", "class_acts_1_1_obj_visualization3_d.html", null ],

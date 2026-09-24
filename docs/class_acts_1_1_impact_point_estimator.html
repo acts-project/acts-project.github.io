@@ -149,8 +149,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9ccea201cdf538a0ed4f5a44f7cb18db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor for impact point estimator. <br /></td></tr>
 <tr class="memitem:a60df925c3ccd36423ad8eea8c0228360" id="r_a60df925c3ccd36423ad8eea8c0228360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60df925c3ccd36423ad8eea8c0228360">calculateDistance</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;trkParams, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;vtxPos, <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:a60df925c3ccd36423ad8eea8c0228360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates 3D distance between a track and a vertex.  <br /></td></tr>
-<tr class="memitem:a3ce91668ec728000d9ef65d1531ed12f" id="r_a3ce91668ec728000d9ef65d1531ed12f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ce91668ec728000d9ef65d1531ed12f">config</a> () const</td></tr>
-<tr class="memdesc:a3ce91668ec728000d9ef65d1531ed12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the configuration of this estimator.  <br /></td></tr>
 <tr class="memitem:ac1ac97791affe6ea342df7eb404a07a9" id="r_ac1ac97791affe6ea342df7eb404a07a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1ac97791affe6ea342df7eb404a07a9">estimate3DImpactParameters</a> (const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">Acts::MagneticFieldContext</a> &amp;mctx, const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;trkParams, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Vector3</a> &amp;vtxPos, <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_state.html">State</a> &amp;state) const</td></tr>
 <tr class="memdesc:ac1ac97791affe6ea342df7eb404a07a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates the track parameters at the 3D PCA (i.e., a point of minimal 3D distance) to a vertex.  <br /></td></tr>
 <tr class="memitem:aebaabe1957927a770ca37202f07e35f1" id="r_aebaabe1957927a770ca37202f07e35f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_result.html">Result</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebaabe1957927a770ca37202f07e35f1">get3DLifetimeSignOfTrack</a> (const <a class="el" href="class_acts_1_1_bound_track_parameters.html">BoundTrackParameters</a> &amp;track, const <a class="el" href="class_acts_1_1_vertex.html">Vertex</a> &amp;vtx, const <a class="el" href="group__algebra__types.html#ga49fabee4702da952f70b234a021e39c5">Acts::Vector3</a> &amp;direction, const <a class="el" href="class_acts_1_1_geometry_context.html">GeometryContext</a> &amp;gctx, const <a class="el" href="class_acts_1_1_magnetic_field_context.html">MagneticFieldContext</a> &amp;mctx) const</td></tr>
@@ -273,26 +271,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Distance </dd></dl>
-
-</div>
-</div>
-<a id="a3ce91668ec728000d9ef65d1531ed12f" name="a3ce91668ec728000d9ef65d1531ed12f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ce91668ec728000d9ef65d1531ed12f">&#9670;&#160;</a></span>config()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_acts_1_1_impact_point_estimator_1_1_config.html">Config</a> &amp; Acts::ImpactPointEstimator::config </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Access the configuration of this estimator. </p>
-<dl class="section return"><dt>Returns</dt><dd>The configuration object </dd></dl>
 
 </div>
 </div>

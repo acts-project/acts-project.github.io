@@ -300,7 +300,6 @@ var namespace_acts =
     [ "ITripletSeedCuts", "class_acts_1_1_i_triplet_seed_cuts.html", "class_acts_1_1_i_triplet_seed_cuts" ],
     [ "ITripletSeedFilter", "class_acts_1_1_i_triplet_seed_filter.html", "class_acts_1_1_i_triplet_seed_filter" ],
     [ "IVertexFinder", "class_acts_1_1_i_vertex_finder.html", "class_acts_1_1_i_vertex_finder" ],
-    [ "IVertexFitter", "class_acts_1_1_i_vertex_fitter.html", "class_acts_1_1_i_vertex_fitter" ],
     [ "IVisualization3D", "class_acts_1_1_i_visualization3_d.html", "class_acts_1_1_i_visualization3_d" ],
     [ "IVolumeMaterial", "class_acts_1_1_i_volume_material.html", "class_acts_1_1_i_volume_material" ],
     [ "IVolumeMaterialJsonDecorator", "class_acts_1_1_i_volume_material_json_decorator.html", "class_acts_1_1_i_volume_material_json_decorator" ],
