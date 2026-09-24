@@ -143,6 +143,8 @@ Collaboration diagram for Acts::VectorMultiTrajectory:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a0c98aab0f48d459928b889faca50a620" id="r_a0c98aab0f48d459928b889faca50a620"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c98aab0f48d459928b889faca50a620">VectorMultiTrajectory</a> (const <a class="el" href="class_acts_1_1_const_vector_multi_trajectory.html">ConstVectorMultiTrajectory</a> &amp;other)</td></tr>
+<tr class="memdesc:a0c98aab0f48d459928b889faca50a620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from const container.  <br /></td></tr>
 <tr class="memitem:a5edd0c4748a53fada1db3eccf15fc820" id="r_a5edd0c4748a53fada1db3eccf15fc820"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edd0c4748a53fada1db3eccf15fc820">reserve</a> (std::size_t n)</td></tr>
 <tr class="memdesc:a5edd0c4748a53fada1db3eccf15fc820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve space for track states.  <br /></td></tr>
 <tr class="memitem:a7d163c79bd766f737857dd8ae9186a15" id="r_a7d163c79bd766f737857dd8ae9186a15"><td class="memItemLeft" align="right" valign="top">Statistics&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d163c79bd766f737857dd8ae9186a15">statistics</a> () const</td></tr>
@@ -236,7 +238,41 @@ static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>Read
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>In-memory transient multi-trajectory implementation using <code>std::vector</code> as backend. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0c98aab0f48d459928b889faca50a620" name="a0c98aab0f48d459928b889faca50a620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c98aab0f48d459928b889faca50a620">&#9670;&#160;</a></span>VectorMultiTrajectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acts::VectorMultiTrajectory::VectorMultiTrajectory </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_acts_1_1_const_vector_multi_trajectory.html">ConstVectorMultiTrajectory</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct from const container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Const container to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5edd0c4748a53fada1db3eccf15fc820" name="a5edd0c4748a53fada1db3eccf15fc820"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5edd0c4748a53fada1db3eccf15fc820">&#9670;&#160;</a></span>reserve()</h2>
 

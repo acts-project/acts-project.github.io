@@ -1,5 +1,8 @@
 var NAVTREEINDEX46 =
 {
+"group__edm4hep__plugin.html":[5,10,4],
+"group__edm4hep__plugin.html#ga0553ea3f5ddda553c15902ee002f8f97":[5,10,4,16],
+"group__edm4hep__plugin.html#ga082e3d4629a8aa35e7a5a1e8415fa46b":[5,10,4,12],
 "group__edm4hep__plugin.html#ga17be63d58e6871eb2728756ec3799de8":[5,10,4,18],
 "group__edm4hep__plugin.html#ga20ef2aa8c6f4f2b87a10d9f86b95bf9f":[5,10,4,22],
 "group__edm4hep__plugin.html#ga2143b7e06aabc08d2685e932719767a3":[5,10,4,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX46 =
 "group__logging__macros.html#ga69bca62a752c80eecae961b8717bd573":[5,8,0,4],
 "group__logging__macros.html#ga6ae3a5bd5ae00bdd04ae4eac65ba3df2":[5,8,0,2],
 "group__logging__macros.html#ga944f2c94c1119d970bb30776295c641c":[5,8,0,5],
-"group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821":[5,8,0,3],
-"group__logging__macros.html#gab84c66c9feb039ea7c426ee718072e44":[5,8,0,6],
-"group__logging__macros.html#gad5196e525ccf0b3ff5a6e011dc38b385":[5,8,0,7],
-"group__logging__macros.html#gaef98eb4223fd95f499d7d18626ae3b09":[5,8,0,0]
+"group__logging__macros.html#gab27ebe92940249d57c2646de46f1e821":[5,8,0,3]
 };

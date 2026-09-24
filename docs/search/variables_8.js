@@ -47,5 +47,6 @@ var searchData=
   ['isalive_44',['isAlive',['../struct_acts_fatras_1_1_single_particle_simulation_result.html#a7f091465f31aeace8d9b0b098b53c7cf',1,'ActsFatras::SingleParticleSimulationResult']]],
   ['isgaussianshaped_45',['isGaussianShaped',['../struct_acts_1_1_gaussian_track_density_1_1_config.html#a60978bffd93e3c91c912dbbfa2792957',1,'Acts::GaussianTrackDensity::Config']]],
   ['isinitialized_46',['isInitialized',['../struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_state.html#a072cd655e8dbee68e72b501a548e0253',1,'Acts::AdaptiveGridDensityVertexFinder::State::isInitialized'],['../struct_acts_1_1_grid_density_vertex_finder_1_1_state.html#a2be88dcf449ddaa654a4040b3bc4d87c',1,'Acts::GridDensityVertexFinder::State::isInitialized']]],
-  ['islinearized_47',['isLinearized',['../struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398',1,'Acts::TrackAtVertex']]]
+  ['islinearized_47',['isLinearized',['../struct_acts_1_1_track_at_vertex.html#a95809671c89a42218e024b025c16c398',1,'Acts::TrackAtVertex']]],
+  ['isreadonly_48',['IsReadOnly',['../class_acts_1_1_track_state_type_base.html#ac9ca2d8bfa4aecc43e5658fcf408c894',1,'Acts::TrackStateTypeBase']]]
 ];

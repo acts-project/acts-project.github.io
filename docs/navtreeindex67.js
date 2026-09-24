@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_continuous_process.html":[8,0,1,11],
+"struct_acts_fatras_1_1_continuous_process.html#a052081767ab6ec53157e32de1077d325":[6,0,2,10,3],
+"struct_acts_fatras_1_1_continuous_process.html#a052081767ab6ec53157e32de1077d325":[8,0,1,11,3],
 "struct_acts_fatras_1_1_continuous_process.html#a073d4df2893d9ca3a9e45267d42fd591":[6,0,2,10,1],
 "struct_acts_fatras_1_1_continuous_process.html#a073d4df2893d9ca3a9e45267d42fd591":[8,0,1,11,1],
 "struct_acts_fatras_1_1_continuous_process.html#a1b954d1906c91313ba0c21190469213b":[6,0,2,10,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_fatras_1_1_surface_mask.html#a75d6f76c895d0abecdff6f1623a02bbc":[8,0,1,38,3],
 "struct_acts_fatras_1_1_surface_mask.html#a8dec7cdbe1b3f82dab55455756879f74":[6,0,2,37,0],
 "struct_acts_fatras_1_1_surface_mask.html#a8dec7cdbe1b3f82dab55455756879f74":[8,0,1,38,0],
-"struct_acts_fatras_1_1_surface_mask.html#ae0d5eb234fae0f8d447dedf2713d75da":[6,0,2,37,1],
-"struct_acts_fatras_1_1_surface_mask.html#ae0d5eb234fae0f8d447dedf2713d75da":[8,0,1,38,1],
-"struct_acts_plugins_1_1_boost_track_building_1_1_config.html":[5,10,6,0,0],
-"struct_acts_plugins_1_1_cuda_track_building_1_1_config.html":[5,10,6,1,0]
+"struct_acts_fatras_1_1_surface_mask.html#ae0d5eb234fae0f8d447dedf2713d75da":[6,0,2,37,1]
 };

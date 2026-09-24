@@ -96,7 +96,7 @@ var searchData=
   ['vector_5ft_93',['Vector_t',['../class_acts_1_1_experimental_1_1_composite_space_point_line_fitter.html#ac2f6fb0131802738f857b94784d78701',1,'Acts::Experimental::CompositeSpacePointLineFitter']]],
   ['vector_5ft_94',['vector_t',['../class_acts_1_1_k_d_tree.html#aac3b54fdba4fd6e1664fdb4aa76cc8e2',1,'Acts::KDTree']]],
   ['vectord_95',['VectorD',['../class_acts_1_1_fixed_subspace_helper.html#a02b784c2dbf0a6f3ae072437d6d7ade7',1,'Acts::FixedSubspaceHelper']]],
-  ['vectormultitrajectory_96',['VectorMultiTrajectory',['../class_acts_1_1_vector_multi_trajectory.html',1,'Acts']]],
+  ['vectormultitrajectory_96',['VectorMultiTrajectory',['../class_acts_1_1_vector_multi_trajectory.html',1,'Acts::VectorMultiTrajectory'],['../class_acts_1_1_vector_multi_trajectory.html#a0c98aab0f48d459928b889faca50a620',1,'Acts::VectorMultiTrajectory::VectorMultiTrajectory()']]],
   ['vectorpairs_97',['VectorPairs',['../class_acts_1_1_d_b_scan.html#a4e25c15d46d7adca4a7b49dfcd3968a5',1,'Acts::DBScan']]],
   ['vectorpoint_98',['VectorPoint',['../class_acts_1_1_multi_axis.html#a8a06f9b2f8a9b6b86642ae06c47e2540',1,'Acts::MultiAxis']]],
   ['vectorpoints_99',['VectorPoints',['../class_acts_1_1_d_b_scan.html#ad28e8970150515c399a7200747485d25',1,'Acts::DBScan']]],

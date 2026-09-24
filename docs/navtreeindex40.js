@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"class_acts_1_1_triplet_seed_finder.html#a341631b9c50dbe176b6f7704d8eabf6b":[8,0,0,433,4],
+"class_acts_1_1_triplet_seed_finder.html#abb4a95214739f9643ebad272c2ab3a08":[6,0,0,428,5],
 "class_acts_1_1_triplet_seed_finder.html#abb4a95214739f9643ebad272c2ab3a08":[8,0,0,433,5],
 "class_acts_1_1_triplet_seed_finder.html#ac25555ec614cbe822a18988d2640cb17":[6,0,0,428,3],
 "class_acts_1_1_triplet_seed_finder.html#ac25555ec614cbe822a18988d2640cb17":[8,0,0,433,3],
@@ -132,8 +134,9 @@ var NAVTREEINDEX40 =
 "class_acts_1_1_variable_subspace_helper.html#aff7b82a3f35797f041069381342a2776":[6,0,0,437,8],
 "class_acts_1_1_variable_subspace_helper.html#aff7b82a3f35797f041069381342a2776":[8,0,0,442,8],
 "class_acts_1_1_vector_multi_trajectory.html":[5,6,3,1],
-"class_acts_1_1_vector_multi_trajectory.html#a5edd0c4748a53fada1db3eccf15fc820":[5,6,3,1,0],
-"class_acts_1_1_vector_multi_trajectory.html#a7d163c79bd766f737857dd8ae9186a15":[5,6,3,1,1],
+"class_acts_1_1_vector_multi_trajectory.html#a0c98aab0f48d459928b889faca50a620":[5,6,3,1,0],
+"class_acts_1_1_vector_multi_trajectory.html#a5edd0c4748a53fada1db3eccf15fc820":[5,6,3,1,1],
+"class_acts_1_1_vector_multi_trajectory.html#a7d163c79bd766f737857dd8ae9186a15":[5,6,3,1,2],
 "class_acts_1_1_vector_track_container.html":[6,0,0,439],
 "class_acts_1_1_vector_track_container.html":[8,0,0,444],
 "class_acts_1_1_vector_track_container.html#a1a03f8018324e816b31c7b90fddc05c6":[6,0,0,439,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "class_acts_1_1_void_navigator.html":[8,0,0,452],
 "class_acts_1_1_void_navigator.html#a0ed69c256877b9b7da6d57a8ea62b8bd":[6,0,0,447,10],
 "class_acts_1_1_void_navigator.html#a0ed69c256877b9b7da6d57a8ea62b8bd":[8,0,0,452,10],
-"class_acts_1_1_void_navigator.html#a22b61de7229a7d22d5d517f53072bf5c":[6,0,0,447,9],
-"class_acts_1_1_void_navigator.html#a22b61de7229a7d22d5d517f53072bf5c":[8,0,0,452,9],
-"class_acts_1_1_void_navigator.html#a243545b8eca2d07fb21810ac14215957":[6,0,0,447,12],
-"class_acts_1_1_void_navigator.html#a243545b8eca2d07fb21810ac14215957":[8,0,0,452,12]
+"class_acts_1_1_void_navigator.html#a22b61de7229a7d22d5d517f53072bf5c":[6,0,0,447,9]
 };
