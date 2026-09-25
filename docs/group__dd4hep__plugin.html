@@ -160,8 +160,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga924765d378faedd510d314ea133be74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method converts the DD4hep binning into Acts axis specs.  <br /></td></tr>
 <tr class="memitem:ga836ea8e26dd40df2f49a4d8feb3a6ace" id="r_ga836ea8e26dd40df2f49a4d8feb3a6ace"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="el" href="class_acts_1_1_tracking_geometry.html">Acts::TrackingGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga836ea8e26dd40df2f49a4d8feb3a6ace">ActsPlugins::convertDD4hepDetector</a> (dd4hep::DetElement worldDetElement, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypePhi=Acts::equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeR=Acts::equidistant, <a class="el" href="namespace_acts.html#a137e6814b0021a40f572aeb4922a7b81">Acts::BinningType</a> bTypeZ=Acts::equidistant, double layerEnvelopeR=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double layerEnvelopeZ=<a class="el" href="namespace_acts_1_1_unit_constants.html#a44fb500abc41c8b4d2937824ad76f8bd">Acts::UnitConstants::mm</a>, double defaultLayerThickness=<a class="el" href="namespace_acts_1_1_unit_constants.html#a7c3f2a3f53d19935e2967361613908ba">Acts::UnitConstants::fm</a>, const std::function&lt; void(std::vector&lt; dd4hep::DetElement &gt; &amp;detectors)&gt; &amp;sortSubDetectors=<a class="el" href="#ga50507e288756f412c9c07e600ca63e70">sortDetElementsByID</a>, const <a class="el" href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a> &amp;gctx=<a class="el" href="class_acts_1_1_geometry_context.html#a371b369b8abe30222c10b58aae4b7379">Acts::GeometryContext::dangerouslyDefaultConstruct</a>(), std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_i_material_decorator.html">Acts::IMaterialDecorator</a> &gt; matDecorator=nullptr, std::shared_ptr&lt; const <a class="el" href="struct_acts_1_1_geometry_identifier_hook.html">Acts::GeometryIdentifierHook</a> &gt; geometryIdentifierHook=std::make_shared&lt; <a class="el" href="struct_acts_1_1_geometry_identifier_hook.html">Acts::GeometryIdentifierHook</a> &gt;(), const <a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#aaa79c778fa5d76b5e8be7e173320f814">DD4hepLayerBuilder::ElementFactory</a> &amp;detectorElementFactory=<a class="el" href="class_acts_plugins_1_1_d_d4hep_layer_builder.html#a868244aba7e710c625b9ed534eed886e">DD4hepLayerBuilder::defaultDetectorElementFactory</a>)</td></tr>
 <tr class="memdesc:ga836ea8e26dd40df2f49a4d8feb3a6ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global method which creates the TrackingGeometry from DD4hep input.  <br /></td></tr>
-<tr class="memitem:ga4272c37f6492ae4029a34ab24d0723c5" id="r_ga4272c37f6492ae4029a34ab24d0723c5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="group__material.html#gabad517c3d330be68557175bbe3e71402">Acts::ProtoSurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4272c37f6492ae4029a34ab24d0723c5">ActsPlugins::createProtoMaterial</a> (const dd4hep::rec::VariantParameters &amp;params, const std::string &amp;valueTag, const std::vector&lt; std::pair&lt; const std::string, <a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">Acts::BinningOption</a> &gt; &gt; &amp;binning, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
-<tr class="memdesc:ga4272c37f6492ae4029a34ab24d0723c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create proto material - to be called from the addProto(...) methods.  <br /></td></tr>
+<tr class="memitem:gaa17c72145db998cef5c6015755644515" id="r_gaa17c72145db998cef5c6015755644515"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="group__material.html#gaee4b3702e1722a63aab1022d8709175d">Acts::ProtoGridSurfaceMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa17c72145db998cef5c6015755644515">ActsPlugins::createProtoMaterial</a> (const dd4hep::rec::VariantParameters &amp;params, const std::string &amp;valueTag, const std::vector&lt; std::pair&lt; const std::string, <a class="el" href="namespace_acts.html#a3aaee285dd8963f35f05db5e6bf23769">Acts::BinningOption</a> &gt; &gt; &amp;binning, const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger=<a class="el" href="namespace_acts.html#ac3958b2d3af64792cac019893486c394">Acts::getDummyLogger</a>())</td></tr>
+<tr class="memdesc:gaa17c72145db998cef5c6015755644515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to create proto material - to be called from the addProto(...) methods.  <br /></td></tr>
 <tr class="memitem:gae2894e2fe6f50d26a5b53721dcbb93c8" id="r_gae2894e2fe6f50d26a5b53721dcbb93c8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="class_acts_1_1_cylinder_volume_helper.html">Acts::CylinderVolumeHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2894e2fe6f50d26a5b53721dcbb93c8">ActsPlugins::cylinderVolumeHelper_dd4hep</a> (const <a class="el" href="class_acts_1_1_logger.html">Acts::Logger</a> &amp;logger)</td></tr>
 <tr class="memdesc:gae2894e2fe6f50d26a5b53721dcbb93c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method internally used to create a default Acts::CylinderVolumeBuilder.  <br /></td></tr>
 <tr class="memitem:ga7a21513ede0d0c5eddded3080b845776" id="r_ga7a21513ede0d0c5eddded3080b845776"><td class="memTemplParams" colspan="2">template&lt;typename value_type&gt; </td></tr>
@@ -586,14 +586,14 @@ equidistant binningtype is recommended because it is faster not only while build
 
 </div>
 </div>
-<a id="ga4272c37f6492ae4029a34ab24d0723c5" name="ga4272c37f6492ae4029a34ab24d0723c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4272c37f6492ae4029a34ab24d0723c5">&#9670;&#160;</a></span>createProtoMaterial()</h2>
+<a id="gaa17c72145db998cef5c6015755644515" name="gaa17c72145db998cef5c6015755644515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa17c72145db998cef5c6015755644515">&#9670;&#160;</a></span>createProtoMaterial()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="group__material.html#gabad517c3d330be68557175bbe3e71402">Acts::ProtoSurfaceMaterial</a> &gt; ActsPlugins::createProtoMaterial </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="group__material.html#gaee4b3702e1722a63aab1022d8709175d">Acts::ProtoGridSurfaceMaterial</a> &gt; ActsPlugins::createProtoMaterial </td>
           <td>(</td>
           <td class="paramtype">const dd4hep::rec::VariantParameters &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
@@ -625,7 +625,13 @@ equidistant binningtype is recommended because it is faster not only while build
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Shared pointer to ProtoSurfaceMaterial created from DD4hep parameters </dd></dl>
+<p>Ranges remain deferred until material mapping resolves them from the surface. Cylinder binPhi counts refer to the local rphi axis. Nonpositive counts represent a homogeneous (single-bin) dimension. </p><dl class="section return"><dt>Returns</dt><dd>Proto-grid material with deferred ranges </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if the prescription does not contain two axes </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
