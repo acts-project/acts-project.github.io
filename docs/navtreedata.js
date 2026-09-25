@@ -118,7 +118,7 @@ var NAVTREEINDEX =
 "concept_acts_1_1_navigation_policy_concept.html",
 "group__errors.html#gaebbb9744bded7af55e310fecf0f4f0c0",
 "group__material__mapping.html",
-"namespace_acts.html#a6a5beb945158d8185b7baf48937105ec",
+"namespace_acts.html#a692f3bf198b75679e1051ae422c41869",
 "namespace_acts.html#aecf1b9be1abb1cb9b8232068c20429d5",
 "struct_acts_1_1_adaptive_grid_density_vertex_finder_1_1_config.html#abbcff7b034827a5ff7a1cbc10cc8a60c",
 "struct_acts_1_1_atlas_stepper_1_1_state.html#af099b4fb1548b2b7409298685475a5d4",

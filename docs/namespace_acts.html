@@ -2271,9 +2271,9 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memdesc:a011628b4fe22e244f04ee152403c6d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create error code from SpacePointFormationError.  <br /></td></tr>
 <tr class="memitem:aa5667ec3badff6cf983c82c9c9ba533e" id="r_aa5667ec3badff6cf983c82c9c9ba533e"><td class="memItemLeft" align="right" valign="top">std::error_code&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5667ec3badff6cf983c82c9c9ba533e">make_error_code</a> (<a class="el" href="group__errors.html#ga6a0e61fbedc5e6713e2830a03af01032">TrackExtrapolationError</a> e)</td></tr>
 <tr class="memdesc:aa5667ec3badff6cf983c82c9c9ba533e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create error code from TrackExtrapolationError.  <br /></td></tr>
-<tr class="memitem:ab709b73059672dac9c8b63ae942d10bf" id="r_ab709b73059672dac9c8b63ae942d10bf"><td class="memTemplParams" colspan="2">template&lt;typename box_t&gt; </td></tr>
-<tr class="memitem:ab709b73059672dac9c8b63ae942d10bf template"><td class="memItemLeft" align="right" valign="top">box_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab709b73059672dac9c8b63ae942d10bf">make_octree</a> (std::vector&lt; std::unique_ptr&lt; box_t &gt; &gt; &amp;store, const std::vector&lt; box_t * &gt; &amp;prims, std::size_t max_depth=1, typename box_t::value_type envelope1=0)</td></tr>
-<tr class="memdesc:ab709b73059672dac9c8b63ae942d10bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build an octree from a list of bounding boxes.  <br /></td></tr>
+<tr class="memitem:a3f4a84430dbcd87dfa5e28f948af00d8" id="r_a3f4a84430dbcd87dfa5e28f948af00d8"><td class="memTemplParams" colspan="2">template&lt;typename box_t&gt; </td></tr>
+<tr class="memitem:a3f4a84430dbcd87dfa5e28f948af00d8 template"><td class="memItemLeft" align="right" valign="top">box_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f4a84430dbcd87dfa5e28f948af00d8">make_octree</a> (std::vector&lt; std::unique_ptr&lt; box_t &gt; &gt; &amp;store, const std::vector&lt; box_t * &gt; &amp;prims, std::size_t maxDepth=1, typename box_t::value_type envelope=0)</td></tr>
+<tr class="memdesc:a3f4a84430dbcd87dfa5e28f948af00d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build an octree from a list of bounding boxes.  <br /></td></tr>
 <tr class="memitem:ad340f3a8c5e2c06a6912b8537aa08fb4" id="r_ad340f3a8c5e2c06a6912b8537aa08fb4"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad340f3a8c5e2c06a6912b8537aa08fb4">makeAbsolutePdgParticle</a> (<a class="el" href="#a9be1c6a7aba3d2c58133f9f2f10db45a">PdgParticle</a> pdg)</td></tr>
 <tr class="memdesc:ad340f3a8c5e2c06a6912b8537aa08fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an anti-particle to its particle and leave particles as-is.  <br /></td></tr>
 <tr class="memitem:ga5d92067ce8a043093cfe704c6ae8b20d" id="r_ga5d92067ce8a043093cfe704c6ae8b20d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_acts_1_1_polynomial_bethe_heitler_approx.html">PolynomialBetheHeitlerApprox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d">makeDefaultBetheHeitlerApprox</a> (bool clampToRange=false)</td></tr>
@@ -5586,7 +5586,7 @@ template&lt;TrackStateProxyConcept track_state_proxy_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a pair of the unbiased parameters and their covariance </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000076">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000077">Deprecated</a></b></dt><dd>Instantiating this template is very expensive in compiler memory (it expands the Eigen expression templates over all measurement dimensions) and it does so in every calling translation unit. Prefer the non-template overload taking a type-erased <code>AnyConstTrackStateProxy</code>, which is compiled once in the Acts core library: </dd></dl>
 <div class="fragment"><div class="line"><a class="code hl_function" href="#afded89f5410ca396ea21fee04cf8d1e2">calculateUnbiasedParametersCovariance</a>(<a class="code hl_typedef" href="#a58d7c5f9e29f5f51ece398952f4a2a6a">Acts::AnyConstTrackStateProxy</a>{state});</div>
 </div><!-- fragment --> 
 </div>
@@ -8808,8 +8808,8 @@ template&lt;typename grid_type&gt; </div>
 
 </div>
 </div>
-<a id="ab709b73059672dac9c8b63ae942d10bf" name="ab709b73059672dac9c8b63ae942d10bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab709b73059672dac9c8b63ae942d10bf">&#9670;&#160;</a></span>make_octree()</h2>
+<a id="a3f4a84430dbcd87dfa5e28f948af00d8" name="a3f4a84430dbcd87dfa5e28f948af00d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f4a84430dbcd87dfa5e28f948af00d8">&#9670;&#160;</a></span>make_octree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8829,34 +8829,34 @@ template&lt;typename box_t&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>max_depth</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>maxDepth</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename box_t::value_type</td>          <td class="paramname"><span class="paramname"><em>envelope1</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+          <td class="paramtype">typename box_t::value_type</td>          <td class="paramname"><span class="paramname"><em>envelope</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Build an octree from a list of bounding boxes. </p>
-<dl class="section note"><dt>Note</dt><dd><code class="param">store</code> and <code class="param">prims</code> do not need to contain the same objects. <code class="param">store</code> is only used to pass ownership back to the caller while preserving memory location. </dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">box_t</td><td>Works will all box types. </td></tr>
+    <tr><td class="paramname">box_t</td><td>Works with all box types. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">store</td><td>Owns the created boxes by means of <span class="tt">std::unique_ptr</span>. </td></tr>
-    <tr><td class="paramname">prims</td><td>Boxes to store. This is a read only vector. </td></tr>
-    <tr><td class="paramname">max_depth</td><td>No subdivisions beyond this level. </td></tr>
-    <tr><td class="paramname">envelope1</td><td>Envelope to add/subtract to dimensions in all directions. </td></tr>
+    <tr><td class="paramname">prims</td><td>Boxes to store. This is a read-only vector. </td></tr>
+    <tr><td class="paramname">maxDepth</td><td>No subdivisions beyond this level. </td></tr>
+    <tr><td class="paramname">envelope</td><td>Envelope to add/subtract to dimensions in all directions. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Pointer to the top most bounding box, containing the entire octree </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the topmost bounding box, containing the entire octree. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000041">Deprecated</a></b></dt><dd>Use Acts::BoundingBoxHierarchy::makeOctree instead. </dd></dl>
 
 </div>
 </div>
@@ -9099,7 +9099,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000064">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000065">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9139,7 +9139,7 @@ template&lt;typename payload_t&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an IGrid unique ptr and hence transfers ownership </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000065">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000066">Deprecated</a></b></dt><dd>Use makeGrid(const IAxis&amp;, const IAxis&amp;) instead </dd></dl>
 
 </div>
 </div>
@@ -9791,7 +9791,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000068">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000069">Deprecated</a></b></dt><dd>Use AxisSpec with an AxisDirection instead </dd></dl>
 
 </div>
 </div>
@@ -9823,7 +9823,7 @@ template&lt;typename T, std::size_t D&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to output stream </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000067">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000068">Deprecated</a></b></dt><dd>Use AxisSpec instead </dd></dl>
 
 </div>
 </div>

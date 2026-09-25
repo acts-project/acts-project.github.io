@@ -1052,7 +1052,7 @@ var namespace_acts =
     [ "make_error_code", "namespace_acts.html#a4a880fdaf6088e3efa05b6c61fab3874", null ],
     [ "make_error_code", "namespace_acts.html#a011628b4fe22e244f04ee152403c6d5f", null ],
     [ "make_error_code", "namespace_acts.html#aa5667ec3badff6cf983c82c9c9ba533e", null ],
-    [ "make_octree", "namespace_acts.html#ab709b73059672dac9c8b63ae942d10bf", null ],
+    [ "make_octree", "namespace_acts.html#a3f4a84430dbcd87dfa5e28f948af00d8", null ],
     [ "makeAbsolutePdgParticle", "namespace_acts.html#ad340f3a8c5e2c06a6912b8537aa08fb4", null ],
     [ "makeDefaultBetheHeitlerApprox", "group__material.html#ga5d92067ce8a043093cfe704c6ae8b20d", null ],
     [ "makeDirectionFromAxisTangents", "namespace_acts.html#a6273d1f24a492d8ff55bed5c32f3a77f", null ],
