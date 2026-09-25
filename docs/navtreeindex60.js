@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"struct_acts_1_1_material_validator_1_1_config.html":[5,3,2,0,9,0],
+"struct_acts_1_1_material_validator_1_1_config.html#a95bb8dcb669ebdebd40638495e658aa0":[5,3,2,0,9,0,0],
 "struct_acts_1_1_measurement_selector_cuts.html":[6,0,0,269],
 "struct_acts_1_1_measurement_selector_cuts.html":[8,0,0,274],
 "struct_acts_1_1_measurement_selector_cuts.html#a0a2fcfde7f4698df7c9b13c2e85ca6fb":[6,0,0,269,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "struct_acts_1_1_navigator_initialize_arguments.html#a9342630dd761f25ff5b924089aa7285d":[8,0,0,301,3],
 "struct_acts_1_1_navigator_plain_options.html":[6,0,0,297],
 "struct_acts_1_1_navigator_plain_options.html":[8,0,0,302],
-"struct_acts_1_1_navigator_plain_options.html#a18452cd66fcd76099f290932f50d6ecd":[6,0,0,297,2],
-"struct_acts_1_1_navigator_plain_options.html#a18452cd66fcd76099f290932f50d6ecd":[8,0,0,302,2],
-"struct_acts_1_1_navigator_plain_options.html#a1ab5f4a5611094407d5a8a9a35814ae1":[6,0,0,297,3]
+"struct_acts_1_1_navigator_plain_options.html#a18452cd66fcd76099f290932f50d6ecd":[6,0,0,297,2]
 };

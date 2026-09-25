@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa0b8103ac4cc4601eeaedd434a803540":[5,9,1,2,5],
+"struct_acts_1_1_combinatorial_kalman_filter_extensions.html#aa3adaf8796b5d831f9f3f2c573a8e857":[5,9,1,2,6],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#abafe3e6de91d870ebc61bdadf9f21eef":[5,9,1,2,7],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad166d69c9bee6f5fd6bcf225f76dfdd7":[5,9,1,2,10],
 "struct_acts_1_1_combinatorial_kalman_filter_extensions.html#ad40712b45ff99e35b5fa01a8cfa1b7b2":[5,9,1,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "struct_acts_1_1_directed_proto_axis.html#a5f7d609a43e6abcbf2287ab71b5530c9":[6,0,0,118,3],
 "struct_acts_1_1_directed_proto_axis.html#a5f7d609a43e6abcbf2287ab71b5530c9":[8,0,0,123,3],
 "struct_acts_1_1_directed_proto_axis.html#a8267d75261e3b2c23a27b660ffbd0a9a":[6,0,0,118,1],
-"struct_acts_1_1_directed_proto_axis.html#a8267d75261e3b2c23a27b660ffbd0a9a":[8,0,0,123,1],
-"struct_acts_1_1_directed_proto_axis.html#a93095de3fd988043ef129f5cdfebc4f6":[6,0,0,118,5],
-"struct_acts_1_1_directed_proto_axis.html#a93095de3fd988043ef129f5cdfebc4f6":[8,0,0,123,5]
+"struct_acts_1_1_directed_proto_axis.html#a8267d75261e3b2c23a27b660ffbd0a9a":[8,0,0,123,1]
 };

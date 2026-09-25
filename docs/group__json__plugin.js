@@ -60,8 +60,9 @@ var group__json__plugin =
     ] ],
     [ "Acts::missing_specialization&lt; T, decorator_t &gt;", "struct_acts_1_1missing__specialization.html", null ],
     [ "Acts::SurfaceJsonConverter", "class_acts_1_1_surface_json_converter.html", [
+      [ "SurfaceBoundsDecoder", "group__json__plugin.html#ga57728137fa3416e897404690a30de302", null ],
       [ "SurfaceBoundsEncoder", "group__json__plugin.html#ga5f9f033a309a8090b64293b8e90a641c", null ],
-      [ "SurfaceDecoder", "group__json__plugin.html#ga6bc8441f06dad369e7c8117e0f16f6be", null ],
+      [ "SurfaceDecoder", "group__json__plugin.html#gaed6669d419953835091c5f33f53b7949", null ],
       [ "SurfaceEncoder", "group__json__plugin.html#ga0c550632e11629de583bdc72e19175db", null ],
       [ "SurfaceJsonConverter", "group__json__plugin.html#gac0f17d4a2e14c9336b39f4e70381d95f", null ],
       [ "fromJson", "group__json__plugin.html#ga0c4c37f9c2d147c464be0b11b6662e44", null ],
@@ -70,6 +71,7 @@ var group__json__plugin =
     ] ],
     [ "Acts::SurfaceJsonConverter::Config", "struct_acts_1_1_surface_json_converter_1_1_config.html", [
       [ "defaultConfig", "group__json__plugin.html#gae08b94ce511c98dcc5d34694c2d9cb89", null ],
+      [ "surfaceBoundsDecoder", "group__json__plugin.html#ga48b09638c98a2d745997358d01ecb1f1", null ],
       [ "surfaceBoundsEncoder", "group__json__plugin.html#ga65b122cdc25531330743a0393d149a3d", null ],
       [ "surfaceDecoder", "group__json__plugin.html#ga94937e94a6340d2b2a792fa418900e73", null ],
       [ "surfaceEncoder", "group__json__plugin.html#gaa360cbe61a5165593b59279b29ec4206", null ]
@@ -144,8 +146,9 @@ var group__json__plugin =
     [ "Acts::ConfigPair", "group__json__plugin.html#gad038e458629a5cedf1f825940ffc5f76", null ],
     [ "Acts::DetectorConfig", "group__json__plugin.html#ga9d088dc485a7212cbc281898214d46a1", null ],
     [ "Acts::SurfaceAndMaterialWithContext", "group__json__plugin.html#ga08ffc1302637825fe32c6fce92019774", null ],
+    [ "Acts::SurfaceJsonConverter::SurfaceBoundsDecoder", "group__json__plugin.html#ga57728137fa3416e897404690a30de302", null ],
     [ "Acts::SurfaceJsonConverter::SurfaceBoundsEncoder", "group__json__plugin.html#ga5f9f033a309a8090b64293b8e90a641c", null ],
-    [ "Acts::SurfaceJsonConverter::SurfaceDecoder", "group__json__plugin.html#ga6bc8441f06dad369e7c8117e0f16f6be", null ],
+    [ "Acts::SurfaceJsonConverter::SurfaceDecoder", "group__json__plugin.html#gaed6669d419953835091c5f33f53b7949", null ],
     [ "Acts::SurfaceJsonConverter::SurfaceEncoder", "group__json__plugin.html#ga0c550632e11629de583bdc72e19175db", null ],
     [ "Acts::surfaceMaterialPointer", "group__json__plugin.html#ga76d1cebc6f43c76e5aaa8ef77d474064", null ],
     [ "Acts::TrackingVolumeAndMaterial", "group__json__plugin.html#ga493120b39f9605cd708b460b16a20c96", null ],
@@ -220,6 +223,7 @@ var group__json__plugin =
     [ "Acts::SurfaceJsonConverter::toJson", "group__json__plugin.html#ga277a256ce56e6426a468cfada6325112", null ],
     [ "Acts::toJson", "group__json__plugin.html#ga0d44dfc16a076ea3977b8d4632e0bd71", null ],
     [ "Acts::SurfaceJsonConverter::Options::portal", "group__json__plugin.html#ga5bc6b21c50a50bccbf49a947f663e269", null ],
+    [ "Acts::SurfaceJsonConverter::Config::surfaceBoundsDecoder", "group__json__plugin.html#ga48b09638c98a2d745997358d01ecb1f1", null ],
     [ "Acts::SurfaceJsonConverter::Config::surfaceBoundsEncoder", "group__json__plugin.html#ga65b122cdc25531330743a0393d149a3d", null ],
     [ "Acts::SurfaceJsonConverter::Config::surfaceDecoder", "group__json__plugin.html#ga94937e94a6340d2b2a792fa418900e73", null ],
     [ "Acts::SurfaceJsonConverter::Config::surfaceEncoder", "group__json__plugin.html#gaa360cbe61a5165593b59279b29ec4206", null ],

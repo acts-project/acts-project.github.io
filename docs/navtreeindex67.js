@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"struct_acts_fatras_1_1_free_parameters_smearer.html#aea744b622f3e8b5a63ac4443b8a5204a":[8,0,1,15,4],
+"struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[6,0,2,14,5],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#af0bb8a30c2c479d324e87a2a53561d6a":[8,0,1,15,5],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[6,0,2,14,2],
 "struct_acts_fatras_1_1_free_parameters_smearer.html#afc6c8a49cf95a26569c04c9efc6e9304":[8,0,1,15,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a63aac6057bcb106cf3cbce966134fc5b":[5,10,2,2,2,2],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#a9c093f6b2fa77b483108af0d7cc7a118":[5,10,2,2,2,3],
 "struct_acts_plugins_1_1_d_d4hep_detector_surface_factory_1_1_options.html#ad9cfd01dfa805920050ebfc701eead27":[5,10,2,2,2,0],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html":[5,10,2,4,0],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a1efc2c517cb942f7de0bf28468f29249":[5,10,2,4,0,6],
-"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html#a39382c3602ab7220160b93c2d9f20d0d":[5,10,2,4,0,9]
+"struct_acts_plugins_1_1_d_d4hep_layer_builder_1_1_config.html":[5,10,2,4,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"struct_acts_1_1_directed_proto_axis.html#a93095de3fd988043ef129f5cdfebc4f6":[6,0,0,118,5],
+"struct_acts_1_1_directed_proto_axis.html#a93095de3fd988043ef129f5cdfebc4f6":[8,0,0,123,5],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html":[6,0,0,126,0],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html":[8,0,0,131,0],
 "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a15d5eb4a43f62109712fd4895bad1bce":[6,0,0,126,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#adbca8abd75f035cb0c981cc6f7e96ad8":[6,0,0,1,6,1,2],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_do_fcounts.html#adbca8abd75f035cb0c981cc6f7e96ad8":[8,0,0,2,6,1,2],
 "struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[6,0,0,1,6,2],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[8,0,0,2,6,2],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a00d357b2ed736dd1a26352636a77c99d":[6,0,0,1,6,2,3],
-"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html#a00d357b2ed736dd1a26352636a77c99d":[8,0,0,2,6,2,3]
+"struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_fit_options.html":[8,0,0,2,6,2]
 };

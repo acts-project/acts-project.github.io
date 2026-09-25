@@ -169,12 +169,13 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:ga9d088dc485a7212cbc281898214d46a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type alias for detector-specific ambiguity resolution configuration.  <br /></td></tr>
 <tr class="memitem:ga08ffc1302637825fe32c6fce92019774" id="r_ga08ffc1302637825fe32c6fce92019774"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08ffc1302637825fe32c6fce92019774">Acts::SurfaceAndMaterialWithContext</a></td></tr>
 <tr class="memdesc:ga08ffc1302637825fe32c6fce92019774"><td class="mdescLeft">&#160;</td><td class="mdescRight">A tuple containing a surface, its associated material, and geometry context.  <br /></td></tr>
+<tr class="memitem:ga57728137fa3416e897404690a30de302" id="r_ga57728137fa3416e897404690a30de302"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57728137fa3416e897404690a30de302">Acts::SurfaceJsonConverter::SurfaceBoundsDecoder</a></td></tr>
+<tr class="memdesc:ga57728137fa3416e897404690a30de302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder type for the surface bounds.  <br /></td></tr>
 <tr class="memitem:ga5f9f033a309a8090b64293b8e90a641c" id="r_ga5f9f033a309a8090b64293b8e90a641c"><td class="memItemLeft" align="right" valign="top"><a id="ga5f9f033a309a8090b64293b8e90a641c" name="ga5f9f033a309a8090b64293b8e90a641c"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::SurfaceBoundsEncoder</b> = <a class="el" href="class_acts_1_1_type_dispatcher.html">TypeDispatcher</a>&lt;<a class="el" href="class_acts_1_1_surface_bounds.html">SurfaceBounds</a>, nlohmann::json()&gt;</td></tr>
 <tr class="memdesc:ga5f9f033a309a8090b64293b8e90a641c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder type for the surface bounds. <br /></td></tr>
-<tr class="memitem:ga6bc8441f06dad369e7c8117e0f16f6be" id="r_ga6bc8441f06dad369e7c8117e0f16f6be"><td class="memItemLeft" align="right" valign="top"><a id="ga6bc8441f06dad369e7c8117e0f16f6be" name="ga6bc8441f06dad369e7c8117e0f16f6be"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::SurfaceDecoder</b> = <a class="el" href="class_acts_1_1_json_kind_dispatcher.html">JsonKindDispatcher</a>&lt;std::shared_ptr&lt;<a class="el" href="class_acts_1_1_surface.html">Surface</a>&gt;&gt;</td></tr>
-<tr class="memdesc:ga6bc8441f06dad369e7c8117e0f16f6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deccoder type for the surfaces. <br /></td></tr>
+<tr class="memitem:gaed6669d419953835091c5f33f53b7949" id="r_gaed6669d419953835091c5f33f53b7949"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed6669d419953835091c5f33f53b7949">Acts::SurfaceJsonConverter::SurfaceDecoder</a></td></tr>
+<tr class="memdesc:gaed6669d419953835091c5f33f53b7949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder type for the surfaces.  <br /></td></tr>
 <tr class="memitem:ga0c550632e11629de583bdc72e19175db" id="r_ga0c550632e11629de583bdc72e19175db"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c550632e11629de583bdc72e19175db">Acts::SurfaceJsonConverter::SurfaceEncoder</a></td></tr>
 <tr class="memdesc:ga0c550632e11629de583bdc72e19175db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder type for the surfaces.  <br /></td></tr>
 <tr class="memitem:ga76d1cebc6f43c76e5aaa8ef77d474064" id="r_ga76d1cebc6f43c76e5aaa8ef77d474064"><td class="memItemLeft" align="right" valign="top"><a id="ga76d1cebc6f43c76e5aaa8ef77d474064" name="ga76d1cebc6f43c76e5aaa8ef77d474064"></a>
@@ -337,11 +338,14 @@ Variables</h2></td></tr>
 <tr class="memitem:ga5bc6b21c50a50bccbf49a947f663e269" id="r_ga5bc6b21c50a50bccbf49a947f663e269"><td class="memItemLeft" align="right" valign="top"><a id="ga5bc6b21c50a50bccbf49a947f663e269" name="ga5bc6b21c50a50bccbf49a947f663e269"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Options::portal</b> = false</td></tr>
 <tr class="memdesc:ga5bc6b21c50a50bccbf49a947f663e269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write surface as portal. <br /></td></tr>
+<tr class="memitem:ga48b09638c98a2d745997358d01ecb1f1" id="r_ga48b09638c98a2d745997358d01ecb1f1"><td class="memItemLeft" align="right" valign="top"><a id="ga48b09638c98a2d745997358d01ecb1f1" name="ga48b09638c98a2d745997358d01ecb1f1"></a>
+<a class="el" href="#ga57728137fa3416e897404690a30de302">SurfaceBoundsDecoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceBoundsDecoder</b> {&quot;type&quot;, &quot;surface bounds&quot;}</td></tr>
+<tr class="memdesc:ga48b09638c98a2d745997358d01ecb1f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder for the surface bounds. <br /></td></tr>
 <tr class="memitem:ga65b122cdc25531330743a0393d149a3d" id="r_ga65b122cdc25531330743a0393d149a3d"><td class="memItemLeft" align="right" valign="top"><a id="ga65b122cdc25531330743a0393d149a3d" name="ga65b122cdc25531330743a0393d149a3d"></a>
 <a class="el" href="#ga5f9f033a309a8090b64293b8e90a641c">SurfaceBoundsEncoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceBoundsEncoder</b> {}</td></tr>
 <tr class="memdesc:ga65b122cdc25531330743a0393d149a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder for the surface bounds. <br /></td></tr>
 <tr class="memitem:ga94937e94a6340d2b2a792fa418900e73" id="r_ga94937e94a6340d2b2a792fa418900e73"><td class="memItemLeft" align="right" valign="top"><a id="ga94937e94a6340d2b2a792fa418900e73" name="ga94937e94a6340d2b2a792fa418900e73"></a>
-<a class="el" href="#ga6bc8441f06dad369e7c8117e0f16f6be">SurfaceDecoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceDecoder</b> {}</td></tr>
+<a class="el" href="#gaed6669d419953835091c5f33f53b7949">SurfaceDecoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceDecoder</b> {&quot;type&quot;, &quot;surface&quot;}</td></tr>
 <tr class="memdesc:ga94937e94a6340d2b2a792fa418900e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder for the surfaces. <br /></td></tr>
 <tr class="memitem:gaa360cbe61a5165593b59279b29ec4206" id="r_gaa360cbe61a5165593b59279b29ec4206"><td class="memItemLeft" align="right" valign="top"><a id="gaa360cbe61a5165593b59279b29ec4206" name="gaa360cbe61a5165593b59279b29ec4206"></a>
 <a class="el" href="#ga0c550632e11629de583bdc72e19175db">SurfaceEncoder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConverter::Config::surfaceEncoder</b> {}</td></tr>
@@ -408,6 +412,46 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>Acts::SurfaceJsonConv
 </div><!-- fragment -->
 <p>A tuple containing a surface, its associated material, and geometry context. </p>
 <dl class="section note"><dt>Note</dt><dd>Used for material mapping and JSON conversion. </dd></dl>
+
+</div>
+</div>
+<a id="ga57728137fa3416e897404690a30de302" name="ga57728137fa3416e897404690a30de302"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57728137fa3416e897404690a30de302">&#9670;&#160;</a></span>SurfaceBoundsDecoder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga57728137fa3416e897404690a30de302">Acts::SurfaceJsonConverter::SurfaceBoundsDecoder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      <a class="code hl_class" href="class_acts_1_1_json_kind_dispatcher.html">JsonKindDispatcher&lt;std::shared_ptr&lt;const SurfaceBounds&gt;</a>&gt;</div>
+<div class="ttc" id="aclass_acts_1_1_json_kind_dispatcher_html"><div class="ttname"><a href="class_acts_1_1_json_kind_dispatcher.html">Acts::JsonKindDispatcher</a></div><div class="ttdoc">JSON-specific dispatcher that routes decoder functions based on a string kind tag found in the encode...</div><div class="ttdef"><b>Definition</b> JsonKindDispatcher.hpp:27</div></div>
+</div><!-- fragment -->
+<p>Decoder type for the surface bounds. </p>
+<p>Keyed on the serialized SurfaceBounds::BoundsType, independently of the surface carrying them. Returns nullptr for boundless surfaces. </p>
+
+</div>
+</div>
+<a id="gaed6669d419953835091c5f33f53b7949" name="gaed6669d419953835091c5f33f53b7949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed6669d419953835091c5f33f53b7949">&#9670;&#160;</a></span>SurfaceDecoder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#gaed6669d419953835091c5f33f53b7949">Acts::SurfaceJsonConverter::SurfaceDecoder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"> </div>
+<div class="line">      <a class="code hl_class" href="class_acts_1_1_json_kind_dispatcher.html">JsonKindDispatcher&lt;std::shared_ptr&lt;Surface&gt;</a>,</div>
+<div class="line">                         std::shared_ptr&lt;const SurfaceBounds&gt;&gt;</div>
+</div><!-- fragment -->
+<p>Decoder type for the surfaces. </p>
+<p>Keyed on the serialized Surface::SurfaceType and handed the already decoded bounds, which it narrows to the type it stores. </p>
 
 </div>
 </div>
