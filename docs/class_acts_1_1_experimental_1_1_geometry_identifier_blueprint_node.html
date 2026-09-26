@@ -171,6 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8f308301a1b7cbad4a70b9793b923c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this node.  <br /></td></tr>
 <tr class="memitem:aa5b73ac04e6a1fe02e983fbf1a82a0da" id="r_aa5b73ac04e6a1fe02e983fbf1a82a0da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac79d78244a7dfcb9c305911ad82c181a">GeometryIdentifierBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5b73ac04e6a1fe02e983fbf1a82a0da">setAllVolumeIdsTo</a> (<a class="el" href="class_acts_1_1_geometry_identifier.html#abd4f5907efb8694f97d7cb6e739b75af">GeometryIdentifier::Value</a> volumeId)</td></tr>
 <tr class="memdesc:aa5b73ac04e6a1fe02e983fbf1a82a0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the same volume ID for all volumes in this subtree.  <br /></td></tr>
+<tr class="memitem:a3a716d26dfaed06101e8d867e14cccca" id="r_a3a716d26dfaed06101e8d867e14cccca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac79d78244a7dfcb9c305911ad82c181a">GeometryIdentifierBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a716d26dfaed06101e8d867e14cccca">setDirectChildVolumeIdTo</a> (<a class="el" href="class_acts_1_1_geometry_identifier.html#abd4f5907efb8694f97d7cb6e739b75af">GeometryIdentifier::Value</a> volumeId)</td></tr>
+<tr class="memdesc:a3a716d26dfaed06101e8d867e14cccca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the volume ID of direct child volumes without changing descendants.  <br /></td></tr>
 <tr class="memitem:afff8482d9d49aeee1ea74074b79bde68" id="r_afff8482d9d49aeee1ea74074b79bde68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac79d78244a7dfcb9c305911ad82c181a">GeometryIdentifierBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afff8482d9d49aeee1ea74074b79bde68">setLayerIdTo</a> (<a class="el" href="class_acts_1_1_geometry_identifier.html#abd4f5907efb8694f97d7cb6e739b75af">GeometryIdentifier::Value</a> layer)</td></tr>
 <tr class="memdesc:afff8482d9d49aeee1ea74074b79bde68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a fixed layer ID for volumes in this subtree.  <br /></td></tr>
 <tr class="memitem:a755d5dfd1a4beee305add50f1b1d0997" id="r_a755d5dfd1a4beee305add50f1b1d0997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac79d78244a7dfcb9c305911ad82c181a">GeometryIdentifierBlueprintNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a755d5dfd1a4beee305add50f1b1d0997">sortBy</a> (const <a class="el" href="#ab1499dec7af7633a7e109e38dda663a5">CompareVolumes</a> &amp;compare)</td></tr>
@@ -485,6 +487,35 @@ Layer IDs are assigned sequentially starting from the given value </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Will throw if volumes already have volume IDs assigned </dd>
 <dd>
 Applies recursively to all descendant volumes </dd></dl>
+
+</div>
+</div>
+<a id="a3a716d26dfaed06101e8d867e14cccca" name="a3a716d26dfaed06101e8d867e14cccca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a716d26dfaed06101e8d867e14cccca">&#9670;&#160;</a></span>setDirectChildVolumeIdTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ac79d78244a7dfcb9c305911ad82c181a">GeometryIdentifierBlueprintNode</a> &amp; Acts::GeometryIdentifierBlueprintNode::setDirectChildVolumeIdTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_acts_1_1_geometry_identifier.html#abd4f5907efb8694f97d7cb6e739b75af">GeometryIdentifier::Value</a></td>          <td class="paramname"><span class="paramname"><em>volumeId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the volume ID of direct child volumes without changing descendants. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volumeId</td><td>The volume ID to set </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this node for method chaining </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Applies to each volume added to the parent by the child node during finalization. Other geometry ID components are preserved. </dd>
+<dd>
+Will throw if a direct child volume already has a volume ID assigned </dd></dl>
 
 </div>
 </div>

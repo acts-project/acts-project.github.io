@@ -9,6 +9,7 @@ var class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node =
     [ "incrementLayerIds", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#ae0f88c6c13865d2ca50d25539b6c0653", null ],
     [ "name", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a8f308301a1b7cbad4a70b9793b923c96", null ],
     [ "setAllVolumeIdsTo", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#aa5b73ac04e6a1fe02e983fbf1a82a0da", null ],
+    [ "setDirectChildVolumeIdTo", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a3a716d26dfaed06101e8d867e14cccca", null ],
     [ "setLayerIdTo", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#afff8482d9d49aeee1ea74074b79bde68", null ],
     [ "sortBy", "class_acts_1_1_experimental_1_1_geometry_identifier_blueprint_node.html#a755d5dfd1a4beee305add50f1b1d0997", null ]
 ];

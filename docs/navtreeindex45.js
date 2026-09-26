@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"concept_acts_1_1_mutable_track_proxy_concept.html":[7,0,27],
+"concept_acts_1_1_mutable_track_state_proxy_concept.html":[6,0,0,480],
+"concept_acts_1_1_mutable_track_state_proxy_concept.html":[7,0,28],
+"concept_acts_1_1_navigation_policy_concept.html":[6,0,0,481],
 "concept_acts_1_1_navigation_policy_concept.html":[7,0,29],
 "concept_acts_1_1_navigator_concept.html":[6,0,0,482],
 "concept_acts_1_1_navigator_concept.html":[7,0,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "group__errors.html#ga62dad9323721a81699d3f7fdca7a9f91":[5,4,7],
 "group__errors.html#ga6a0e61fbedc5e6713e2830a03af01032":[5,4,14],
 "group__errors.html#ga743e4af777584b0f5274baa245f128d2":[5,4,4],
-"group__errors.html#ga83f8b59ffc557631bb7fdd01c18431ca":[5,4,5],
-"group__errors.html#gac32894235c42ab9d5e6bf5c5cd1f6f3d":[5,4,13],
-"group__errors.html#gac3f65a46059b0f9516370f5bdcb9bddd":[5,4,6],
-"group__errors.html#gad9ea430c0897aa29fcaccb4fa68aa459":[5,4,10],
-"group__errors.html#gae4af8513760690d2518f3e01355beb88":[5,4,11]
+"group__errors.html#ga83f8b59ffc557631bb7fdd01c18431ca":[5,4,5]
 };
