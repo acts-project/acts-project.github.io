@@ -7,6 +7,8 @@ var struct_acts_1_1_triplet_seed_finder_1_1_config =
     [ "radLengthPerSeed", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#afd44ea6954d7931bc3c5760ab6e83aa7", null ],
     [ "sigmaScattering", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3689f281628a3346aa3df4afd061a200", null ],
     [ "sortedByCotTheta", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a125afabc9c3413738ec6786e7271b246", null ],
+    [ "timeChi2Max", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a4de694714c9ab2d914f84d49724f3905", null ],
     [ "toleranceParam", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a6759b19c90ff253131eb131d83e000dc", null ],
-    [ "useStripInfo", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3a4fca5e415ebf06f46d5d8dd2fc3aa6", null ]
+    [ "useStripInfo", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3a4fca5e415ebf06f46d5d8dd2fc3aa6", null ],
+    [ "useTime", "struct_acts_1_1_triplet_seed_finder_1_1_config.html#a3222ca8e4e50ad639009caec135762e4", null ]
 ];

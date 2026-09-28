@@ -14,5 +14,7 @@ var struct_acts_1_1_doublet_seed_finder_1_1_config =
     [ "impactMax", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a6127b73484142586a4536b5e3e7515ae", null ],
     [ "interactionPointCut", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a2cecb51abdd6428f4692f0b7f0ce876b", null ],
     [ "minPt", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a8da8a8328cfb8a1fdd236807fe1d9b47", null ],
-    [ "spacePointsSortedByRadius", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#affb52c144b89342d640711544807f921", null ]
+    [ "spacePointsSortedByRadius", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#affb52c144b89342d640711544807f921", null ],
+    [ "timeCutNSigma", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#ae1b7fa39e67cbae3c5b1447176dee1a9", null ],
+    [ "useTime", "struct_acts_1_1_doublet_seed_finder_1_1_config.html#a299f92d61db9f553185dcfa312a8b9a9", null ]
 ];

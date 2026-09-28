@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"struct_acts_1_1_void_navigator_1_1_options.html#a59b05d8c8d32f7b7d768c73049872f02":[8,0,0,451,1,0],
+"struct_acts_1_1_void_navigator_1_1_options.html#ad4c6e60ee51392d80bb7edc557efcb7a":[6,0,0,446,1,1],
+"struct_acts_1_1_void_navigator_1_1_options.html#ad4c6e60ee51392d80bb7edc557efcb7a":[8,0,0,451,1,1],
+"struct_acts_1_1_void_navigator_1_1_state.html":[6,0,0,446,2],
+"struct_acts_1_1_void_navigator_1_1_state.html":[8,0,0,451,2],
+"struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[6,0,0,446,2,2],
+"struct_acts_1_1_void_navigator_1_1_state.html#a08b67cd77ee14d66570d8cd39dad87f9":[8,0,0,451,2,2],
+"struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[6,0,0,446,2,0],
+"struct_acts_1_1_void_navigator_1_1_state.html#a9a19a207e2663bcbd379b7affade4f2d":[8,0,0,451,2,0],
+"struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[6,0,0,446,2,1],
 "struct_acts_1_1_void_navigator_1_1_state.html#aa0faba3b001f5800dd702fdc7beeffbe":[8,0,0,451,2,1],
 "struct_acts_1_1_volume_config.html":[6,0,0,449],
 "struct_acts_1_1_volume_config.html":[8,0,0,454],
@@ -239,15 +249,5 @@ var NAVTREEINDEX66 =
 "struct_acts_fatras_1_1_every_surface.html#ac5cf0ffb0ebc9d61f805b974588a2f57":[8,0,1,13,0],
 "struct_acts_fatras_1_1_failed_particle.html":[6,0,2,13],
 "struct_acts_fatras_1_1_failed_particle.html":[8,0,1,14],
-"struct_acts_fatras_1_1_failed_particle.html#a6f90cf1f12cefed2152d27429f627252":[6,0,2,13,1],
-"struct_acts_fatras_1_1_failed_particle.html#a6f90cf1f12cefed2152d27429f627252":[8,0,1,14,1],
-"struct_acts_fatras_1_1_failed_particle.html#af7eaeee9d6fc9ee8ad70b55e717cb14c":[6,0,2,13,0],
-"struct_acts_fatras_1_1_failed_particle.html#af7eaeee9d6fc9ee8ad70b55e717cb14c":[8,0,1,14,0],
-"struct_acts_fatras_1_1_free_parameters_smearer.html":[6,0,2,14],
-"struct_acts_fatras_1_1_free_parameters_smearer.html":[8,0,1,15],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74":[6,0,2,14,3],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#a89db55ff17a125b35558c4ecd51efe74":[8,0,1,15,3],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aa2776789f4a431d8fe4ee89c6e941e19":[6,0,2,14,1],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#aa2776789f4a431d8fe4ee89c6e941e19":[8,0,1,15,1],
-"struct_acts_fatras_1_1_free_parameters_smearer.html#abc75131f7ae04217d49bfb64fd826b8f":[6,0,2,14,6]
+"struct_acts_fatras_1_1_failed_particle.html#a6f90cf1f12cefed2152d27429f627252":[6,0,2,13,1]
 };

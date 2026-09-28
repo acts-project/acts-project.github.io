@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html#a20d76fe287344d9b6f735b01d97ebd12":[6,0,0,1,21,3,0],
+"struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_layer_id_pair_hash.html#a20d76fe287344d9b6f735b01d97ebd12":[8,0,0,2,21,3,0],
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html":[6,0,0,1,22],
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html":[8,0,0,2,22],
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a122fa536db18a3e31db7655e29a59bd6":[6,0,0,1,22,4],
+"struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a122fa536db18a3e31db7655e29a59bd6":[8,0,0,2,22,4],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a7f5e36fd99030b1beba5ef5d3bc287f2":[6,0,0,1,22,2],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a7f5e36fd99030b1beba5ef5d3bc287f2":[8,0,0,2,22,2],
 "struct_acts_1_1_experimental_1_1_gbts_layer_description.html#a9ecac138af9de95bc66fb3f8132547cc":[6,0,0,1,22,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ae57d040669bd8694325ae0a83265cf84":[6,0,0,1,36,2],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#ae57d040669bd8694325ae0a83265cf84":[8,0,0,2,36,2],
 "struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[6,0,0,1,36,5],
-"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[8,0,0,2,36,5],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html":[6,0,0,1,39,0],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html":[8,0,0,2,39,0],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[6,0,0,1,39,0,0],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a75b7ea708d3aac053ac0311e3dd51a11":[8,0,0,2,39,0,0],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a7e7e2f7df5939c17eb8ddc6808f1a388":[6,0,0,1,39,0,1],
-"struct_acts_1_1_experimental_1_1_multi_layer_navigation_policy_1_1_config.html#a7e7e2f7df5939c17eb8ddc6808f1a388":[8,0,0,2,39,0,1]
+"struct_acts_1_1_experimental_1_1_hough_exploration_options.html#af546732450c3bed80fe69ace73a24f93":[8,0,0,2,36,5]
 };
