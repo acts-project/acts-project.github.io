@@ -729,16 +729,16 @@ $(function(){initNavTree('_kalman_fitter_8hpp_source.html','',''); });
 <div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>    }</div>
 <div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span> </div>
 <div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!isDirectNavigator) {</div>
-<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>      <span class="comment">// Add the measurement surface as external surface to navigator.</span></div>
-<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>      <span class="comment">// We will try to hit those surface by ignoring boundary checks.</span></div>
+<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>      <span class="comment">// Relax the bounds check, so the navigator targets a measurement</span></div>
+<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>      <span class="comment">// surface even where the track misses it</span></div>
 <div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [surface, _] : inputMeasurements) {</div>
-<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>        propagatorOptions.navigation.appendExternalSurface(*surface);</div>
+<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>        propagatorOptions.navigation.registerExtendedSurface(*surface);</div>
 <div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>      }</div>
 <div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>      assert(sSequence != <span class="keyword">nullptr</span> &amp;&amp;</div>
 <div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>             <span class="stringliteral">&quot;DirectNavigator requires a surface sequence for KalmanFitter&quot;</span>);</div>
 <div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>      <span class="comment">// Set the surface sequence</span></div>
-<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>      propagatorOptions.navigation.externalSurfaces = *sSequence;</div>
+<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>      propagatorOptions.navigation.surfaceSequence = *sSequence;</div>
 <div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>    }</div>
 <div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span> </div>
 <div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>    <span class="comment">// Catch the actor and set the measurements</span></div>

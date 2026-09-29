@@ -8,12 +8,12 @@ var class_acts_1_1_navigation_stream =
     [ "candidates", "class_acts_1_1_navigation_stream.html#aea646bdfc73a41eb3d408ba868814cad", null ],
     [ "currentCandidate", "class_acts_1_1_navigation_stream.html#a327329a3f49aa1b6650e828ffc5ec242", null ],
     [ "currentCandidate", "class_acts_1_1_navigation_stream.html#ae22baf56741e21970d6fcbab437377d1", null ],
-    [ "currentIndex", "class_acts_1_1_navigation_stream.html#a9ac9961d1e09fa275666f1de095855f9", null ],
+    [ "currentIndex", "class_acts_1_1_navigation_stream.html#a2f9dfc94ef70a935b43ff129994b1e42", null ],
     [ "initialize", "class_acts_1_1_navigation_stream.html#ac85fa4a20e07d953c04e21b8e126a055", null ],
     [ "isValid", "class_acts_1_1_navigation_stream.html#a44b0664bc663b7d563a5177d1c8b77a0", null ],
     [ "remainingCandidates", "class_acts_1_1_navigation_stream.html#a840cf9dd85d3cafca416d9b1dc681f92", null ],
-    [ "reserve", "class_acts_1_1_navigation_stream.html#a8153535f96709e0aec8ab8a714def1dc", null ],
-    [ "reset", "class_acts_1_1_navigation_stream.html#a38c86cebd580a20534b937cad57ff1c9", null ],
+    [ "reserve", "class_acts_1_1_navigation_stream.html#a49fe11dfabb6e9a4799c7417ea4a0166", null ],
+    [ "reset", "class_acts_1_1_navigation_stream.html#a011622727d421e20f23f6f4dae517111", null ],
     [ "switchToNextCandidate", "class_acts_1_1_navigation_stream.html#ae345c77277c4b2509fbdc1c4ded529c0", null ],
     [ "update", "class_acts_1_1_navigation_stream.html#a1c66ca0f5367fde56acf011c222439a9", null ]
 ];

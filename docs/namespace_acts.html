@@ -171,6 +171,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements an iterative vertex finder.  <a href="class_acts_1_1_adaptive_multi_vertex_finder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:AdaptiveMultiVertexFitter" id="r_AdaptiveMultiVertexFitter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_adaptive_multi_vertex_fitter.html">AdaptiveMultiVertexFitter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements an adaptive multi-vertex fitter as described in detail in Section 5.3.5 in: Ref.  <a href="class_acts_1_1_adaptive_multi_vertex_fitter.html#details">More...</a><br /></td></tr>
+<tr class="memitem:AdditionalSurface" id="r_AdditionalSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_additional_surface.html">AdditionalSurface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A surface the navigator offers on top of the tracking geometry, whether the geometry holds it or not.  <a href="struct_acts_1_1_additional_surface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:AmbiguityResolutionML" id="r_AmbiguityResolutionML"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_ambiguity_resolution_m_l.html">AmbiguityResolutionML</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic implementation of the machine learning ambiguity resolution Contains method for data preparations.  <a href="class_acts_1_1_ambiguity_resolution_m_l.html#details">More...</a><br /></td></tr>
 <tr class="memitem:AnnealingUtility" id="r_AnnealingUtility"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_annealing_utility.html">AnnealingUtility</a></td></tr>
@@ -405,6 +407,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safe exponent limits for double precision.  <a href="struct_acts_1_1_exp_safe_limit_3_01double_01_4.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ExpSafeLimit_3C_20float_20_3E" id="r_ExpSafeLimit_3C_20float_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_exp_safe_limit_3_01float_01_4.html">ExpSafeLimit&lt; float &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safe exponent limits for single precision.  <a href="struct_acts_1_1_exp_safe_limit_3_01float_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:ExtendedSurface" id="r_ExtendedSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_extended_surface.html">ExtendedSurface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A surface of the tracking geometry with the bounds check relaxed to the tolerance of the caller.  <a href="struct_acts_1_1_extended_surface.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Extent" id="r_Extent"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_acts_1_1_extent.html">Extent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class representing the geometric extent of an object in its possible dimensions, these can be all dimensions that are described as AxisDirections.  <a href="class_acts_1_1_extent.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ExtentEnvelope" id="r_ExtentEnvelope"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_extent_envelope.html">ExtentEnvelope</a></td></tr>
@@ -2380,8 +2384,8 @@ requires detail::formattable&lt;std::ranges::range_value_t&lt;R&gt;, char&gt;</t
 <tr class="memdesc:a9a735e14b24e2da1c37ef72e699a65c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for VolumeAttachmentStrategy.  <br /></td></tr>
 <tr class="memitem:ac927a1726a9183b3cec107a3dde66eba" id="r_ac927a1726a9183b3cec107a3dde66eba"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac927a1726a9183b3cec107a3dde66eba">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="#a8e7b9ba567f3fce3fb39c1c9ce093e93">VolumeResizeStrategy</a> strategy)</td></tr>
 <tr class="memdesc:ac927a1726a9183b3cec107a3dde66eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for VolumeResizeStrategy.  <br /></td></tr>
-<tr class="memitem:a19a664b6cf8eb9d516a0d49aa50e6407" id="r_a19a664b6cf8eb9d516a0d49aa50e6407"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19a664b6cf8eb9d516a0d49aa50e6407">operator&lt;&lt;</a> (std::ostream &amp;ostr, const std::span&lt; const <a class="el" href="class_acts_1_1_navigation_target.html">Acts::NavigationTarget</a> &gt; &amp;candidates)</td></tr>
-<tr class="memdesc:a19a664b6cf8eb9d516a0d49aa50e6407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pipe a collection of navigation candidtes to an ostream object.  <br /></td></tr>
+<tr class="memitem:a645902c8cc0c53e12be42fbc7e20fc6e" id="r_a645902c8cc0c53e12be42fbc7e20fc6e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a645902c8cc0c53e12be42fbc7e20fc6e">operator&lt;&lt;</a> (std::ostream &amp;ostr, std::span&lt; const <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &gt; candidates)</td></tr>
+<tr class="memdesc:a645902c8cc0c53e12be42fbc7e20fc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a list of navigation targets, one target per line.  <br /></td></tr>
 <tr class="memitem:a9c79baf2a53c547a0ca47f008c6230d8" id="r_a9c79baf2a53c547a0ca47f008c6230d8"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c79baf2a53c547a0ca47f008c6230d8">operator&lt;&lt;</a> (std::ostream &amp;sl, const <a class="el" href="class_acts_1_1_extent.html">Extent</a> &amp;rhs)</td></tr>
 <tr class="memdesc:a9c79baf2a53c547a0ca47f008c6230d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of &lt;&lt; operator for std::ostream for debug output.  <br /></td></tr>
 <tr class="memitem:a782bdddc08a3a0fcdd0412cb04976b9a" id="r_a782bdddc08a3a0fcdd0412cb04976b9a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782bdddc08a3a0fcdd0412cb04976b9a">operator&lt;&lt;</a> (std::ostream &amp;sl, const <a class="el" href="class_acts_1_1_glue_volumes_descriptor.html">GlueVolumesDescriptor</a> &amp;gvd)</td></tr>
@@ -3141,7 +3145,7 @@ template&lt;typename extension_t = EigenStepperDefaultExtension, typename reduce
 <b>Initial value:</b><div class="fragment"><div class="line"> <a class="code hl_class" href="class_acts_1_1_delegate.html">Delegate</a>&lt;void(</div>
 <div class="line">    <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_geometry_context.html">GeometryContext</a>&amp;, <span class="keyword">const</span> <a class="code hl_struct" href="struct_acts_1_1_navigation_arguments.html">NavigationArguments</a>&amp;, <a class="code hl_class" href="class_acts_1_1_navigation_policy_state.html">NavigationPolicyState</a>&amp;,</div>
 <div class="line">    <a class="code hl_class" href="class_acts_1_1_append_only_navigation_stream.html">AppendOnlyNavigationStream</a>&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_logger.html">Logger</a>&amp;)&gt;</div>
-<div class="ttc" id="aclass_acts_1_1_append_only_navigation_stream_html"><div class="ttname"><a href="class_acts_1_1_append_only_navigation_stream.html">Acts::AppendOnlyNavigationStream</a></div><div class="ttdoc">Append-only helper to add candidates to a navigation stream.</div><div class="ttdef"><b>Definition</b> NavigationStream.hpp:184</div></div>
+<div class="ttc" id="aclass_acts_1_1_append_only_navigation_stream_html"><div class="ttname"><a href="class_acts_1_1_append_only_navigation_stream.html">Acts::AppendOnlyNavigationStream</a></div><div class="ttdoc">Append-only helper to add candidates to a navigation stream.</div><div class="ttdef"><b>Definition</b> NavigationStream.hpp:177</div></div>
 <div class="ttc" id="aclass_acts_1_1_delegate_html"><div class="ttname"><a href="class_acts_1_1_delegate.html">Acts::Delegate</a></div><div class="ttdef"><b>Definition</b> Delegate.hpp:31</div></div>
 <div class="ttc" id="aclass_acts_1_1_geometry_context_html"><div class="ttname"><a href="class_acts_1_1_geometry_context.html">Acts::GeometryContext</a></div><div class="ttdoc">This is the central definition of the Acts payload object regarding detector geometry status (e....</div><div class="ttdef"><b>Definition</b> GeometryContext.hpp:42</div></div>
 <div class="ttc" id="aclass_acts_1_1_logger_html"><div class="ttname"><a href="class_acts_1_1_logger.html">Acts::Logger</a></div><div class="ttdoc">class for printing debug output</div><div class="ttdef"><b>Definition</b> Logger.hpp:679</div></div>
@@ -10255,8 +10259,8 @@ template&lt;typename T, std::size_t D&gt; </div>
 
 </div>
 </div>
-<a id="a19a664b6cf8eb9d516a0d49aa50e6407" name="a19a664b6cf8eb9d516a0d49aa50e6407"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19a664b6cf8eb9d516a0d49aa50e6407">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[28/33]</span></h2>
+<a id="a645902c8cc0c53e12be42fbc7e20fc6e" name="a645902c8cc0c53e12be42fbc7e20fc6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645902c8cc0c53e12be42fbc7e20fc6e">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[28/33]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10269,20 +10273,20 @@ template&lt;typename T, std::size_t D&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::span&lt; const <a class="el" href="class_acts_1_1_navigation_target.html">Acts::NavigationTarget</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>candidates</em></span>&#160;)</td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>candidates</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Pipe a collection of navigation candidtes to an ostream object. </p>
+<p>Print a list of navigation targets, one target per line. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ostr</td><td>The ostream object into which the information is piped </td></tr>
-    <tr><td class="paramname">candidates</td><td>The list of candidates to print </td></tr>
+    <tr><td class="paramname">ostr</td><td>Stream to which the targets are printed </td></tr>
+    <tr><td class="paramname">candidates</td><td>The targets to print </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Stream object that's piped into the operator </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The stream </dd></dl>
 
 </div>
 </div>

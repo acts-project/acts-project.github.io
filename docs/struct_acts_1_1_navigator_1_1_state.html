@@ -136,6 +136,13 @@ Collaboration diagram for Acts::Navigator::State:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_acts_1_1_navigator_1_1_state__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:AdditionalSurfaceState" id="r_AdditionalSurfaceState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html">AdditionalSurfaceState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An additional surface of the options with its bookkeeping.  <a href="struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html#details">More...</a><br /></td></tr>
+<tr class="memitem:ResolvedExtendedSurface" id="r_ResolvedExtendedSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html">ResolvedExtendedSurface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An extended surface with its volume resolved.  <a href="struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8f8eac8361a0f3f2b558b107bb70f97" id="r_ad8f8eac8361a0f3f2b558b107bb70f97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8f8eac8361a0f3f2b558b107bb70f97">State</a> (const <a class="el" href="struct_acts_1_1_navigator_1_1_options.html">Options</a> &amp;options_)</td></tr>
@@ -158,12 +165,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetAfterVolumeSwitc
 <tr class="memdesc:ac7195a3f6b0f7726653a896e35038b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completely reset navigation state for a new navigation run.  <br /></td></tr>
 <tr class="memitem:a8333f56ce01a4e1edf9cc58fb677983d" id="r_a8333f56ce01a4e1edf9cc58fb677983d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8333f56ce01a4e1edf9cc58fb677983d">resetForRenavigation</a> ()</td></tr>
 <tr class="memdesc:a8333f56ce01a4e1edf9cc58fb677983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset navigation state for renavigating within the same navigation run.  <br /></td></tr>
-<tr class="memitem:a513336b9b2e59b715a0f4710f88a4612" id="r_a513336b9b2e59b715a0f4710f88a4612"><td class="memItemLeft" align="right" valign="top"><a id="a513336b9b2e59b715a0f4710f88a4612" name="a513336b9b2e59b715a0f4710f88a4612"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resetStream</b> ()</td></tr>
-<tr class="memdesc:a513336b9b2e59b715a0f4710f88a4612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the navigation stream. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ae75a4021879ca2594cad684df19cb570" id="r_ae75a4021879ca2594cad684df19cb570"><td class="memItemLeft" align="right" valign="top"><a id="ae75a4021879ca2594cad684df19cb570" name="ae75a4021879ca2594cad684df19cb570"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_additional_surface_state.html">AdditionalSurfaceState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>additionalSurfaces</b> {}</td></tr>
+<tr class="memdesc:ae75a4021879ca2594cad684df19cb570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional surfaces of the options, tracked over the propagation. <br /></td></tr>
 <tr class="memitem:a80020ca927928717d2401262a7a26c46" id="r_a80020ca927928717d2401262a7a26c46"><td class="memItemLeft" align="right" valign="top"><a id="a80020ca927928717d2401262a7a26c46" name="a80020ca927928717d2401262a7a26c46"></a>
 const <a class="el" href="class_acts_1_1_layer.html">Layer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentLayer</b> = nullptr</td></tr>
 <tr class="memdesc:a80020ca927928717d2401262a7a26c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current layer during navigation. <br /></td></tr>
@@ -173,11 +180,9 @@ const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><
 <tr class="memitem:aa664552fae00e3d87df1121c1e7b3edf" id="r_aa664552fae00e3d87df1121c1e7b3edf"><td class="memItemLeft" align="right" valign="top"><a id="aa664552fae00e3d87df1121c1e7b3edf" name="aa664552fae00e3d87df1121c1e7b3edf"></a>
 const <a class="el" href="class_acts_1_1_tracking_volume.html">TrackingVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>currentVolume</b> = nullptr</td></tr>
 <tr class="memdesc:aa664552fae00e3d87df1121c1e7b3edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current volume during navigation. <br /></td></tr>
-<tr class="memitem:acd57b20134937cee427e2eb238fa859b" id="r_acd57b20134937cee427e2eb238fa859b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd57b20134937cee427e2eb238fa859b">freeCandidates</a> {}</td></tr>
-<tr class="memdesc:acd57b20134937cee427e2eb238fa859b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free candidates not part of the tracking geometry.  <br /></td></tr>
-<tr class="memitem:a30c6cf4e478cfdf5876fa8c08597b6fd" id="r_a30c6cf4e478cfdf5876fa8c08597b6fd"><td class="memItemLeft" align="right" valign="top"><a id="a30c6cf4e478cfdf5876fa8c08597b6fd" name="a30c6cf4e478cfdf5876fa8c08597b6fd"></a>
-std::vector&lt; const <a class="el" href="class_acts_1_1_surface.html">Surface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>freeSurfaces</b></td></tr>
-<tr class="memdesc:a30c6cf4e478cfdf5876fa8c08597b6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surfaces that are not part of the tracking geometry. <br /></td></tr>
+<tr class="memitem:abd595b78d239389160bd2d02082ee015" id="r_abd595b78d239389160bd2d02082ee015"><td class="memItemLeft" align="right" valign="top"><a id="abd595b78d239389160bd2d02082ee015" name="abd595b78d239389160bd2d02082ee015"></a>
+std::vector&lt; <a class="el" href="struct_acts_1_1_navigator_1_1_state_1_1_resolved_extended_surface.html">ResolvedExtendedSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>extendedSurfaces</b> {}</td></tr>
+<tr class="memdesc:abd595b78d239389160bd2d02082ee015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended surfaces resolved once at initialization. <br /></td></tr>
 <tr class="memitem:ad96e96c388da1283aadd8564a4bf8121" id="r_ad96e96c388da1283aadd8564a4bf8121"><td class="memItemLeft" align="right" valign="top"><a id="ad96e96c388da1283aadd8564a4bf8121" name="ad96e96c388da1283aadd8564a4bf8121"></a>
 <a class="el" href="class_acts_1_1_navigator.html#a62cde453e863c790b90bac9907c3cdd8">NavigationBoundaries</a>&#160;</td><td class="memItemRight" valign="bottom"><b>navBoundaries</b> = {}</td></tr>
 <tr class="memdesc:ad96e96c388da1283aadd8564a4bf8121"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vector of boundary surfaces to work through <br /></td></tr>
@@ -186,7 +191,7 @@ std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bo
 <tr class="memdesc:ae45f13d30b14f759ca96be50b1a35bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the current boundary index of the navigation state <br /></td></tr>
 <tr class="memitem:ac26dde9f6ea794c9237c1df378f2078f" id="r_ac26dde9f6ea794c9237c1df378f2078f"><td class="memItemLeft" align="right" valign="top"><a id="ac26dde9f6ea794c9237c1df378f2078f" name="ac26dde9f6ea794c9237c1df378f2078f"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>navCandidatesFarLimit</b> = std::numeric_limits&lt;double&gt;::max()</td></tr>
-<tr class="memdesc:ac26dde9f6ea794c9237c1df378f2078f"><td class="mdescLeft">&#160;</td><td class="mdescRight">far limit applied to the stream candidates, set during candidate resolution (options.farLimit, or tightened to the last portal when free candidates were appended without a selector) <br /></td></tr>
+<tr class="memdesc:ac26dde9f6ea794c9237c1df378f2078f"><td class="mdescLeft">&#160;</td><td class="mdescRight">far limit applied to the stream candidates, set during candidate resolution <br /></td></tr>
 <tr class="memitem:ae6b3186c9b3def949bca5346f9ee7caf" id="r_ae6b3186c9b3def949bca5346f9ee7caf"><td class="memItemLeft" align="right" valign="top"><a id="ae6b3186c9b3def949bca5346f9ee7caf" name="ae6b3186c9b3def949bca5346f9ee7caf"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>navigationBreak</b> = false</td></tr>
 <tr class="memdesc:ae6b3186c9b3def949bca5346f9ee7caf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to break navigation loop. <br /></td></tr>
@@ -208,6 +213,8 @@ std::optional&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bo
 <tr class="memitem:a0ec9d252d55889edcb6bce4aad0e30c9" id="r_a0ec9d252d55889edcb6bce4aad0e30c9"><td class="memItemLeft" align="right" valign="top"><a id="a0ec9d252d55889edcb6bce4aad0e30c9" name="a0ec9d252d55889edcb6bce4aad0e30c9"></a>
 <a class="el" href="struct_acts_1_1_navigator_1_1_options.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><b>options</b></td></tr>
 <tr class="memdesc:a0ec9d252d55889edcb6bce4aad0e30c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation options configuration. <br /></td></tr>
+<tr class="memitem:a96b4135514459f28cbe9013bbe51e2fc" id="r_a96b4135514459f28cbe9013bbe51e2fc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b4135514459f28cbe9013bbe51e2fc">pendingTarget</a></td></tr>
+<tr class="memdesc:a96b4135514459f28cbe9013bbe51e2fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The staged candidate an additional surface took precedence over.  <br /></td></tr>
 <tr class="memitem:abd197c87d5aa7c396fc55732e42d62bb" id="r_abd197c87d5aa7c396fc55732e42d62bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd197c87d5aa7c396fc55732e42d62bb">policyStateIsDefault</a> = true</td></tr>
 <tr class="memdesc:abd197c87d5aa7c396fc55732e42d62bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the current volume's policy state carries no validity constraint.  <br /></td></tr>
 <tr class="memitem:af2969f4b15e9ea5dd8a00fba1c699c89" id="r_af2969f4b15e9ea5dd8a00fba1c699c89"><td class="memItemLeft" align="right" valign="top"><a id="af2969f4b15e9ea5dd8a00fba1c699c89" name="af2969f4b15e9ea5dd8a00fba1c699c89"></a>
@@ -391,20 +398,20 @@ const <a class="el" href="class_acts_1_1_surface.html">Surface</a> *&#160;</td><
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="acd57b20134937cee427e2eb238fa859b" name="acd57b20134937cee427e2eb238fa859b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd57b20134937cee427e2eb238fa859b">&#9670;&#160;</a></span>freeCandidates</h2>
+<a id="a96b4135514459f28cbe9013bbe51e2fc" name="a96b4135514459f28cbe9013bbe51e2fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b4135514459f28cbe9013bbe51e2fc">&#9670;&#160;</a></span>pendingTarget</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;const <a class="el" href="class_acts_1_1_surface.html">Surface</a>*, bool&gt; &gt; Acts::Navigator::State::freeCandidates {}</td>
+          <td class="memname">std::optional&lt;<a class="el" href="class_acts_1_1_navigation_target.html">NavigationTarget</a>&gt; Acts::Navigator::State::pendingTarget</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Free candidates not part of the tracking geometry. </p>
-<p>and a boolean indicating whether the surface has already been reached during propagation </p>
+<p>The staged candidate an additional surface took precedence over. </p>
+<p>It is handed out once the additional surface is no longer the closer one. </p>
 
 </div>
 </div>

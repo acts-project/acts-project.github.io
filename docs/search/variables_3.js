@@ -69,9 +69,10 @@ var searchData=
   ['dosymmetrization_66',['doSymmetrization',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection_tool_1_1_config.html#abb71f20e2cfc0f408ee5c982e10d7be9',1,'Acts::Experimental::GbtsLayerConnectionTool::Config']]],
   ['doubletfilterrz_67',['doubletFilterRZ',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a3ab01db8d9d2dab5db4e4dc46a622905',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
   ['dpds_68',['dPds',['../struct_acts_1_1_eigen_stepper_dense_extension.html#ab4727c2e62837553180e1806a5f7ed1f',1,'Acts::EigenStepperDenseExtension']]],
-  ['ds_69',['ds',['../struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4',1,'Acts::Ccl::ClusteringData']]],
-  ['dst_70',['dst',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#af62958b7e74dc933fe74d4397a922bf0',1,'Acts::Experimental::GbtsLayerConnection']]],
-  ['dtds_71',['dtds',['../struct_acts_1_1_sympy_stepper_1_1_state.html#afe22eee28edcd607ab5bd34db9cef411',1,'Acts::SympyStepper::State']]],
-  ['dtheta_72',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
-  ['dy0_73',['dY0',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a12f9c504ee52652e24661736dc465267',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
+  ['dropafterreached_69',['dropAfterReached',['../struct_acts_1_1_additional_surface.html#a64c2980b6a4e965d2888c77d567734dd',1,'Acts::AdditionalSurface']]],
+  ['ds_70',['ds',['../struct_acts_1_1_ccl_1_1_clustering_data.html#a827c711277c8bae2adaefdeba2573ed4',1,'Acts::Ccl::ClusteringData']]],
+  ['dst_71',['dst',['../struct_acts_1_1_experimental_1_1_gbts_layer_connection.html#af62958b7e74dc933fe74d4397a922bf0',1,'Acts::Experimental::GbtsLayerConnection']]],
+  ['dtds_72',['dtds',['../struct_acts_1_1_sympy_stepper_1_1_state.html#afe22eee28edcd607ab5bd34db9cef411',1,'Acts::SympyStepper::State']]],
+  ['dtheta_73',['dTheta',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#aa688e7412c574acb5fe380b855c8204a',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]],
+  ['dy0_74',['dY0',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html#a12f9c504ee52652e24661736dc465267',1,'Acts::Experimental::CompositeSpacePointLineSeeder::TwoCircleTangentPars']]]
 ];

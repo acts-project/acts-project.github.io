@@ -58,6 +58,7 @@ var searchData=
   ['expsafelimit_55',['ExpSafeLimit',['../struct_acts_1_1_exp_safe_limit.html',1,'Acts']]],
   ['expsafelimit_3c_20double_20_3e_56',['ExpSafeLimit&lt; double &gt;',['../struct_acts_1_1_exp_safe_limit_3_01double_01_4.html',1,'Acts']]],
   ['expsafelimit_3c_20float_20_3e_57',['ExpSafeLimit&lt; float &gt;',['../struct_acts_1_1_exp_safe_limit_3_01float_01_4.html',1,'Acts']]],
-  ['extent_58',['Extent',['../class_acts_1_1_extent.html',1,'Acts']]],
-  ['extentenvelope_59',['ExtentEnvelope',['../struct_acts_1_1_extent_envelope.html',1,'Acts']]]
+  ['extendedsurface_58',['ExtendedSurface',['../struct_acts_1_1_extended_surface.html',1,'Acts']]],
+  ['extent_59',['Extent',['../class_acts_1_1_extent.html',1,'Acts']]],
+  ['extentenvelope_60',['ExtentEnvelope',['../struct_acts_1_1_extent_envelope.html',1,'Acts']]]
 ];

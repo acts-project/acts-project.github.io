@@ -11,11 +11,11 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_two_circle_tangent_pars.html" target="_top" xlink:title="Helper struct describing the line parameters that are tangential to a pair of straw measurements.">
+<g id="a_Node000000"><a xlink:href="struct_acts_1_1_experimental_1_1_composite_space_point_line_seeder_1_1_segment_seed.html" target="_top" xlink:title="Helper struct to pack the parameters and the associated measurements into a common object.">
 <polygon fill="white" stroke="#666666" points="183,-41 0,-41 0,0 183,0 183,-41"/>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">Acts::Experimental</text>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::CompositeSpacePointLineSeeder</text>
-<text text-anchor="middle" x="91.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::TwoCircleTangentPars</text>
+<text text-anchor="middle" x="91.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::SegmentSeed&lt; contType_t &gt;</text>
 </a>
 </g>
 </g>

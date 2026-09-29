@@ -22,7 +22,7 @@ var searchData=
   ['usedeltarinsteadoftopradius_19',['useDeltaRinsteadOfTopRadius',['../struct_acts_1_1_broad_triplet_seed_filter_1_1_config.html#a844466f0ad8c347f5b803877f78ffaee',1,'Acts::BroadTripletSeedFilter::Config']]],
   ['useedgefeatures_20',['useEdgeFeatures',['../struct_acts_plugins_1_1_torch_edge_classifier_1_1_config.html#a3df0886d247535a7ac9fb14f01861ba9',1,'ActsPlugins::TorchEdgeClassifier::Config']]],
   ['useetabinning_21',['useEtaBinning',['../struct_acts_1_1_experimental_1_1_graph_based_track_seeder_1_1_config.html#a168ce6d76497cf219da3872066da2e76',1,'Acts::Experimental::GraphBasedTrackSeeder::Config']]],
-  ['useexternalsurfaces_22',['useExternalSurfaces',['../struct_acts_1_1_gsf_options.html#a0fdc09daf23b1db401ce923170a5ebc2',1,'Acts::GsfOptions']]],
+  ['useextendedsurfaces_22',['useExtendedSurfaces',['../struct_acts_1_1_gsf_options.html#a206acdb3175a4f408e4a6227b45aa44e',1,'Acts::GsfOptions']]],
   ['usefastcompatibility_23',['useFastCompatibility',['../struct_acts_1_1_adaptive_multi_vertex_finder_1_1_config.html#a2d50db9e5043066ada0dadf3bf07826c',1,'Acts::AdaptiveMultiVertexFinder::Config']]],
   ['usefastfitter_24',['useFastFitter',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#ad4a077d464067f390f4e10d2fa63fe14',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],
   ['usehessian_25',['useHessian',['../struct_acts_1_1_experimental_1_1_composite_space_point_line_fitter_1_1_config.html#af54ecd406465b45860df4f3564919779',1,'Acts::Experimental::CompositeSpacePointLineFitter::Config']]],

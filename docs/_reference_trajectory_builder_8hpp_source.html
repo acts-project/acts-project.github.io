@@ -622,14 +622,14 @@ $(function(){initNavTree('_reference_trajectory_builder_8hpp_source.html','','')
 <div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!isDirectNavigator) {</div>
 <div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>      <span class="keywordflow">if</span> (sSequence != <span class="keyword">nullptr</span>) {</div>
 <div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code hl_class" href="class_acts_1_1_surface.html">Surface</a>* surface : *sSequence) {</div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>          propagatorOptions.navigation.appendExternalSurface(*surface);</div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>          propagatorOptions.navigation.registerExtendedSurface(*surface);</div>
 <div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>        }</div>
 <div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>      }</div>
 <div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>      assert(sSequence != <span class="keyword">nullptr</span> &amp;&amp;</div>
 <div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>             <span class="stringliteral">&quot;DirectNavigator requires a surface sequence for &quot;</span></div>
 <div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>             <span class="stringliteral">&quot;ReferenceTrajectory&quot;</span>);</div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>      propagatorOptions.navigation.externalSurfaces = *sSequence;</div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>      propagatorOptions.navigation.surfaceSequence = *sSequence;</div>
 <div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>    }</div>
 <div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span> </div>
 <div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    <span class="keyword">auto</span>&amp; actor = propagatorOptions.actorList.template get&lt;Actor&gt;();</div>

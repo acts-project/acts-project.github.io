@@ -133,7 +133,7 @@ var group__track__fitting =
       [ "propagatorPlainOptions", "struct_acts_1_1_gsf_options.html#ae78fe7859ab94acac17312823dd57621", null ],
       [ "referenceSurface", "struct_acts_1_1_gsf_options.html#ab1f4fdb6cf96b33857e0e070c8156512", null ],
       [ "reverseFilteringCovarianceScaling", "struct_acts_1_1_gsf_options.html#aa635147a6643f90b3a68dac0da2e5f8f", null ],
-      [ "useExternalSurfaces", "struct_acts_1_1_gsf_options.html#a0fdc09daf23b1db401ce923170a5ebc2", null ],
+      [ "useExtendedSurfaces", "struct_acts_1_1_gsf_options.html#a206acdb3175a4f408e4a6227b45aa44e", null ],
       [ "weightCutoff", "struct_acts_1_1_gsf_options.html#aef2b39b4e7d66946c5b5fb5ab065f50b", null ]
     ] ],
     [ "Acts::KalmanFitter&lt; propagator_t, traj_t &gt;", "class_acts_1_1_kalman_fitter.html", [
